@@ -1,0 +1,2365 @@
+Absolutely. Here’s a **copy-paste master prompt** for the next chat. I’ve written it so the new chat understands the entire project, the actual goal, the current bugs, and the fact that **Shizuku is an optional connection method—not the replacement for wireless debugging**.
+
+---
+
+# MASTER CONTINUATION PROMPT — EysClone Remake / 1:1 Blueprint
+
+I want to continue an Android app reconstruction project from a previous chat.
+
+**Do NOT restart the project from scratch conceptually. Continue from the existing GitHub repository and existing implementation.**
+
+The goal is to create our own original/remodeled version of **EysClone**, using the reference app and its decompiled source/resources as the blueprint.
+
+The target is:
+
+> **100% functional parity with the reference application's behavior and workflow, while keeping our own branding/theme/assets where appropriate.**
+
+I do **not** want a watered-down approximation, a demo, a mockup, or a simplified clone.
+
+The reference application is the source of truth for behavior.
+
+I will provide the reference application's decompiled files in this new chat.
+
+---
+
+## 1. THE MOST IMPORTANT CLARIFICATION
+
+### SHIZUKU IS NOT THE MAIN PURPOSE OF THIS PROJECT.
+
+This was misunderstood previously.
+
+The original application already has its own connectivity system, particularly:
+
+- Wireless debugging
+- Android wireless ADB pairing
+- Device discovery/connection
+- Local ADB functionality
+- App cloning/virtualization
+- Running multiple cloned applications
+- Background operation
+
+**Shizuku was supposed to be added as an OPTIONAL additional connection method.**
+
+It must NOT replace:
+
+- Wireless debugging
+- Pairing-code connection
+- Existing ADB connectivity
+- Existing connection UI
+- Existing connection workflow
+
+The final app should essentially have:
+
+```text
+Connection
+├── Wireless Debugging / ADB
+│   ├── Developer Options
+│   ├── Wireless Debugging
+│   ├── Pair Device with Pairing Code
+│   └── Connect
+│
+└── Shizuku
+    └── Optional alternative connection method
+```
+
+If Shizuku is unavailable, the normal wireless-debugging functionality must still work.
+
+If Wireless Debugging is unavailable, Shizuku should be usable where technically supported.
+
+**Do not remove one to implement the other.**
+
+---
+
+# 2. REFERENCE APPLICATION
+
+The reference application is:
+
+**EysClone by Eys**
+
+Reference version:
+
+**1.3.59**
+
+The reference runs on:
+
+- Android 12
+- and successfully works on newer Android versions, including Android 16 on my tablet.
+
+Therefore, our implementation should target modern Android while maintaining compatibility with the behavior demonstrated by the Android 12 reference.
+
+Do not assume:
+
+> "Android 16 changed something, therefore this feature can't be implemented."
+
+Instead, investigate the actual implementation and reproduce the behavior using the correct modern Android APIs/permissions/compatibility mechanisms.
+
+---
+
+# 3. VISUAL DESIGN
+
+Use this theme throughout the application.
+
+```text
+Background:       #000001
+Surface:          #010205
+Panel:            #01132A
+Primary Accent:   #176E94
+Secondary Accent: #01304C
+Text:             #FCFDFD
+Pink Accent:      #F5DADA
+Muted:            #626773
+```
+
+The UI should feel extremely close to the reference application's structure and interaction model while using our own branding.
+
+Avoid randomly redesigning screens.
+
+Do not turn it into a generic Material Android app.
+
+The goal is:
+
+**reference behavior + reference layout philosophy + our branding/theme.**
+
+---
+
+# 4. APPLICATION ICON
+
+Use the supplied anime/cyber eye artwork as the application icon.
+
+The icon should work properly as:
+
+- launcher icon
+- cloned-app icon where applicable
+- notification/application icon where Android permits
+- application identity icon
+
+It needs to be packaged correctly using Android adaptive/icon resources rather than simply placing a random image in drawable and hoping Android handles it correctly.
+
+The icon artwork should remain recognizable at small sizes.
+
+---
+
+# 5. MAIN PURPOSE OF THE APP
+
+The application is an Android cloning/virtualization application.
+
+The important workflow is:
+
+```text
+Connect Android environment
+        ↓
+Initialize virtualization/ADB components
+        ↓
+Browse/manage applications
+        ↓
+Clone application
+        ↓
+Launch cloned application
+        ↓
+Run cloned application independently
+        ↓
+Allow multiple cloned instances
+        ↓
+Keep virtualized application operational in background
+```
+
+The implementation must reproduce the reference application's actual behavior rather than merely reproducing the screens.
+
+---
+
+# 6. CRITICAL FEATURE — CLONED APPS MUST ACTUALLY OPEN
+
+This is one of the biggest current problems.
+
+In the reference application, I tested something like:
+
+```text
+Start Roblox clone #1
+Start Roblox clone #2
+Start Roblox clone #3
+```
+
+The Android recent-apps screen showed **three separate Roblox-related entries/tabs**.
+
+That means the virtualization environment was actually creating separate running application instances/processes/tasks.
+
+However, in our current implementation, I encountered a situation where:
+
+- multiple cloned app entries appeared,
+- they appeared in Recent Apps,
+- but the actual application UI did not properly open/render.
+
+In other words:
+
+> The task/process appears to exist, but the cloned application's actual interactive UI isn't being brought up correctly.
+
+This must be investigated deeply.
+
+Do NOT solve this by merely creating fake Android tasks.
+
+The cloned application's actual virtualized process must:
+
+1. start,
+2. initialize correctly,
+3. create its activity/window,
+4. display its UI,
+5. accept interaction,
+6. appear properly in Recent Apps,
+7. survive task switching,
+8. support multiple instances where the reference does,
+9. and behave like the reference virtualization environment.
+
+Investigate the decompiled reference implementation for how it launches the virtual application.
+
+Pay particular attention to:
+
+- ActivityManager interaction
+- task creation
+- virtual ActivityManager
+- VirtualApp
+- process startup
+- package manager virtualization
+- application lifecycle
+- service lifecycle
+- intent redirection
+- activity launching
+- task affinity
+- UID virtualization
+- process isolation
+- application context
+- instrumentation
+- Binder services
+- launcher intents
+- foreground/background services
+- notification requirements
+- Android version compatibility
+
+---
+
+# 7. VIRTUALAPP IS IMPORTANT
+
+The reference credits show:
+
+> VirtualApp — Apache License 2.0
+
+and says the application modifies/upstreams the application and virtualization framework.
+
+Therefore, inspect the reference's decompiled source/resources carefully.
+
+Determine exactly:
+
+- which VirtualApp components are being used,
+- what version/fork is involved,
+- what modifications exist,
+- what classes are responsible for launching cloned applications,
+- how packages are installed,
+- how activities are started,
+- how processes are managed,
+- how services are handled,
+- how the host communicates with the virtual environment.
+
+Do not replace this architecture with a completely unrelated cloning implementation unless the reference proves that it does so.
+
+---
+
+# 8. MULTIPLE CLONED INSTANCES
+
+The reference demonstrated the ability to have multiple cloned application instances.
+
+I specifically tested multiple Roblox instances.
+
+The behavior I want to reproduce is approximately:
+
+```text
+Clone Roblox
+       ↓
+Launch Roblox
+       ↓
+Clone/launch another Roblox instance
+       ↓
+Another task appears
+       ↓
+Each instance is independently represented
+```
+
+The exact implementation must be determined from the decompiled reference.
+
+Do not assume the reference simply installs the same APK three times.
+
+Determine how it actually differentiates the instances.
+
+---
+
+# 9. BACKGROUND OPERATION / AFK BEHAVIOR
+
+Another extremely important observation:
+
+The reference application can continue operating when the physical phone/tablet screen is turned off.
+
+For example:
+
+```text
+Roblox running inside EysClone
+        ↓
+Device remains connected to Wi-Fi
+        ↓
+Screen turns off
+        ↓
+Phone is not actively being used
+        ↓
+Virtualized Roblox continues running
+```
+
+This allows AFK operation.
+
+Our implementation should reproduce the **legitimate technical behavior** responsible for this.
+
+Investigate:
+
+- foreground services
+- service notifications
+- wake locks
+- process priority
+- battery optimization handling
+- network persistence
+- virtualization service lifecycle
+- Android background execution restrictions
+- service restart behavior
+- process death recovery
+
+Do not simply add an unnecessary permanent wakelock.
+
+Use the reference architecture where possible.
+
+The important result is:
+
+> The virtualized application should remain operational in the background under the same conditions as the reference application, as far as Android permits.
+
+---
+
+# 10. WIFI IS ESSENTIAL
+
+The reference can maintain operation as long as the device remains connected appropriately.
+
+Do not accidentally make the application's core functionality dependent on the screen remaining on.
+
+Do not design it as:
+
+```text
+screen on = works
+screen off = everything dies
+```
+
+Instead, investigate the reference's actual background/service architecture.
+
+---
+
+# 11. WIRELESS DEBUGGING CONNECTION MUST BE EASY
+
+This is another major requirement.
+
+The reference application's wireless debugging connection process is extremely convenient.
+
+The workflow I observed is essentially:
+
+```text
+Open EysClone
+        ↓
+Connect to Wireless Debugging
+        ↓
+App provides/opens the appropriate Android Developer Options area
+        ↓
+Go to Wireless Debugging
+        ↓
+Choose "Pair device with pairing code"
+        ↓
+Android displays pairing code
+        ↓
+EysClone detects/uses the pairing process
+        ↓
+A notification/dialog appears where the pairing code can be entered
+        ↓
+Pair
+        ↓
+Connect
+```
+
+The reference makes this take very little time.
+
+Our application needs a similarly streamlined experience.
+
+---
+
+# 12. DEVELOPER OPTIONS SHORTCUT
+
+There should be an obvious button/action to take the user directly to the relevant Android settings page.
+
+Ideally:
+
+```text
+Connect
+   ↓
+Wireless Debugging
+   ↓
+[Open Wireless Debugging Settings]
+```
+
+Use the correct Android Intent/API for the device's Android version.
+
+Do not make the user manually navigate through:
+
+```text
+Settings
+→ System
+→ Developer Options
+→ Wireless Debugging
+```
+
+if Android provides a direct settings intent.
+
+---
+
+# 13. PAIRING CODE WORKFLOW
+
+The pairing workflow should be as close as possible to the reference.
+
+The user should be able to:
+
+1. tap Connect,
+2. open Wireless Debugging,
+3. tap Pair Device with Pairing Code,
+4. receive the Android pairing code,
+5. enter it into our application when required,
+6. establish the ADB connection,
+7. save/reuse the resulting pairing information when appropriate.
+
+Investigate the decompiled reference to determine whether it uses:
+
+- local ADB server,
+- LibADB,
+- sockets,
+- mDNS,
+- pairing service,
+- Android pairing APIs,
+- shell commands,
+- custom ADB implementation,
+- or a combination.
+
+---
+
+# 14. LIBADB
+
+The reference credits specifically mention:
+
+> LibADB 3.1.1
+
+and modifications including:
+
+- Android support annotations
+- Android Keystore RSA signing
+- bounded local pairing and cleanup
+- authenticated pairing results
+- connection peer enrollment
+- isolated ADB trust manager
+
+This is extremely important.
+
+Inspect the decompiled/source material and determine how these modifications are actually used.
+
+Do not simply display LibADB in credits.
+
+The actual connection architecture should be reconstructed.
+
+---
+
+# 15. SPAKE2
+
+The reference also credits:
+
+> SPAKE2-Java 2.2.1
+
+with:
+
+> native spake2-c code
+
+This appears to be part of the wireless ADB pairing/security flow.
+
+Inspect how the reference integrates it.
+
+Do not replace the security/pairing flow with an insecure fake implementation.
+
+---
+
+# 16. CURRENT ERROR
+
+I encountered this error when attempting to clone/start an application:
+
+```text
+Error: android.os.ServiceSpecificException:
+Cannot add mor...
+```
+
+The screenshot shows this occurring after starting/cloning an application.
+
+Another recent error/behavior showed arguments similar to:
+
+```text
+args: [--user, 16, -p,
+com.digibites.accubattery, -c, and...
+```
+
+Treat these as **real implementation bugs**, not UI issues.
+
+Investigate the underlying Android service call.
+
+Possible areas to investigate include:
+
+- PackageManager
+- ActivityManager
+- user/profile IDs
+- virtual users
+- service-specific exceptions
+- command-line argument construction
+- package installation
+- cloned package state
+- process/task limits
+- virtual UID mappings
+- Android 12→16 behavioral differences
+
+Do not just catch the exception and hide it.
+
+Find the actual cause.
+
+---
+
+# 17. ANDROID USER / VIRTUAL USER HANDLING
+
+The error containing:
+
+```text
+--user 16
+```
+
+is particularly interesting.
+
+Determine whether the reference application uses:
+
+- Android users,
+- managed profiles,
+- VirtualApp virtual users,
+- custom user IDs,
+- virtual package users,
+- or another abstraction.
+
+Do not assume `16` is an actual Android system user.
+
+Trace where that value comes from.
+
+Trace:
+
+```text
+user creation
+        ↓
+package installation
+        ↓
+package launch
+        ↓
+activity launch
+        ↓
+task creation
+```
+
+and compare with the reference.
+
+---
+
+# 18. DON'T FAKE FUNCTIONALITY
+
+Absolutely avoid these shortcuts:
+
+```text
+Fake task entry
+Fake clone
+Fake connection
+Fake ADB state
+Fake pairing
+Fake "running" status
+Fake background operation
+Fake process
+Fake Recent Apps entry
+```
+
+If the reference actually performs something, our implementation should perform the equivalent operation.
+
+A screen saying:
+
+> Connected
+
+doesn't count if the underlying ADB connection isn't actually established.
+
+A screen saying:
+
+> Running
+
+doesn't count if the cloned process isn't actually running.
+
+---
+
+# 19. CURRENT REPOSITORY
+
+Continue editing the **existing GitHub repository** from the previous conversation.
+
+Do not create an unrelated project unless the existing repository is fundamentally unusable.
+
+Before making changes:
+
+1. Inspect repository structure.
+2. Inspect existing branches.
+3. Inspect current implementation.
+4. Inspect previous modifications.
+5. Determine what is already implemented.
+6. Determine what is incomplete.
+7. Preserve working components.
+8. Replace broken implementations where necessary.
+9. Commit coherent changes.
+
+Use the reference/decompiled source I provide in this chat as the primary technical reference.
+
+---
+
+# 20. REFERENCE DECOMPILED FILE
+
+I will provide the decompiled reference application's files after this prompt.
+
+Once I upload them:
+
+**READ THEM.**
+
+Do not guess.
+
+Search for relevant classes and implementations involving:
+
+```text
+LibADB
+SPAKE2
+VirtualApp
+ActivityManager
+PackageManager
+Service
+Binder
+ADB
+wireless debugging
+pairing
+pairing code
+mDNS
+clone
+virtual
+launch
+activity
+process
+task
+user
+notification
+foreground service
+```
+
+Also inspect:
+
+- AndroidManifest.xml
+- resources
+- strings
+- layouts
+- navigation
+- services
+- receivers
+- providers
+- native libraries
+- JNI
+- Gradle configuration
+- dependencies
+- package names
+- permissions
+- ProGuard/R8 configuration
+- startup initialization
+
+---
+
+# 21. CREATE A 1:1 BLUEPRINT
+
+Before blindly rewriting things, construct a technical blueprint of the reference.
+
+The blueprint should map:
+
+```text
+REFERENCE FEATURE
+        ↓
+REFERENCE CLASS
+        ↓
+REFERENCE METHOD
+        ↓
+REFERENCE RESOURCE
+        ↓
+OUR IMPLEMENTATION
+```
+
+For example:
+
+```text
+Wireless pairing
+↓
+Reference ADB component
+↓
+pairing method
+↓
+SPAKE2 + LibADB
+↓
+Our equivalent implementation
+```
+
+and:
+
+```text
+Clone launch
+↓
+Reference VirtualApp component
+↓
+activity/process launcher
+↓
+virtual task/process
+↓
+Our equivalent implementation
+```
+
+This blueprint should become the implementation roadmap.
+
+---
+
+# 22. 100% IS THE TARGET
+
+The target is:
+
+**100% behavioral parity where technically possible.**
+
+Not:
+
+- 70%
+- "good enough"
+- "similar"
+- "looks close"
+- "prototype"
+- "MVP"
+
+I want the application to behave as close to the reference as possible.
+
+If something cannot literally be identical because it depends on a proprietary/internal Android component, document the exact limitation and reproduce the closest functional equivalent.
+
+But do NOT use "limitations" as an excuse before investigating the actual implementation.
+
+---
+
+# 23. IMPORTANT — DON'T REMOVE EXISTING FEATURES
+
+The previous implementation made the mistake of treating Shizuku as the central connection architecture.
+
+Do NOT repeat that.
+
+The original connection architecture must remain.
+
+Think:
+
+```text
+                 ┌─ Wireless Debugging / ADB
+Connection ──────┤
+                 └─ Shizuku (OPTIONAL)
+```
+
+NOT:
+
+```text
+Connection
+   ↓
+Shizuku
+   ↓
+everything else removed
+```
+
+---
+
+# 24. UI SHOULD REFLECT THIS
+
+The connection screen should make the two options understandable.
+
+Something conceptually like:
+
+```text
+CONNECT
+
+Wireless Debugging
+Connect using Android Wireless Debugging
+
+[Connect]
+
+────────────────────
+
+Shizuku
+Use Shizuku as an alternative connection method
+
+[Connect with Shizuku]
+```
+
+The exact UI should follow the reference application's design rather than blindly using this mockup.
+
+---
+
+# 25. ERROR HANDLING
+
+Errors must be meaningful.
+
+Instead of:
+
+```text
+Error
+```
+
+show something useful such as:
+
+```text
+Wireless debugging pairing failed.
+
+Check that:
+• Wireless debugging is enabled
+• Pairing mode is active
+• The device is on the same network
+```
+
+For technical errors, retain detailed logs for debugging.
+
+Do not hide exceptions.
+
+---
+
+# 26. LOGGING / DEBUG MODE
+
+Maintain useful internal logging.
+
+For difficult problems, logs should identify:
+
+```text
+Connection state
+ADB state
+Pairing state
+Virtual environment state
+Package installation state
+Clone state
+Activity launch state
+Process state
+Task state
+Service state
+```
+
+But avoid logging sensitive authentication material or private keys.
+
+---
+
+# 27. BACKGROUND SERVICE
+
+If the reference uses a foreground service, reproduce the architecture appropriately.
+
+Handle:
+
+- notification channel
+- foreground service requirements
+- Android 12+
+- Android 13+
+- Android 14+
+- Android 15+
+- Android 16 behavior where applicable
+- battery optimization
+- service lifecycle
+- restart/recovery
+
+Do not blindly request every permission.
+
+Only request what is actually required.
+
+---
+
+# 28. ROBLOX TEST CASE
+
+One of the primary real-world validation tests will be Roblox.
+
+Test:
+
+```text
+Install/clone Roblox
+        ↓
+Launch
+        ↓
+Verify actual Roblox UI appears
+        ↓
+Return to launcher
+        ↓
+Open Recent Apps
+        ↓
+Verify Roblox instance exists
+        ↓
+Open it again
+        ↓
+Verify it resumes
+        ↓
+Create another instance
+        ↓
+Verify separate task/instance
+        ↓
+Turn screen off
+        ↓
+Wait
+        ↓
+Turn screen on
+        ↓
+Verify instance remains alive where Android permits
+```
+
+Do not assume Roblox itself is special.
+
+Use it as a demanding real-world test of the virtualization system.
+
+---
+
+# 29. ACCUBATTERY TEST CASE
+
+The screenshot showing:
+
+```text
+args: [--user, 16, -p,
+com.digibites.accubattery, -c, ...
+```
+
+came from an attempted cloned-app launch.
+
+Use AccuBattery as another test package because it exposed the current launch/service/user problem.
+
+Investigate why its launch command fails.
+
+---
+
+# 30. RECENT APPS TEST
+
+A successful clone must not merely appear in Recent Apps.
+
+Test:
+
+```text
+Launch clone
+↓
+Recent Apps
+↓
+Tap clone
+↓
+Actual application UI appears
+```
+
+If tapping the Recent Apps card produces:
+
+- blank screen
+- host application
+- black screen
+- crash
+- nothing
+- immediate disappearance
+
+then the implementation is still broken.
+
+---
+Yes — here is the **continuation from Section 31 through the end**, with the new information integrated properly, including the **FLY8 repository** and the important clarification about the **lightweight cloned apps + black Recent Apps screen/live feed**.
+
+You can paste this directly underneath Section 30 of the previous prompt.
+
+---
+
+# 31. ANDROID 12 → ANDROID 16
+
+Reference baseline:
+
+**Android 12**
+
+Target:
+
+**Modern Android, including Android 16.**
+
+The original/reference application already demonstrates that this architecture can operate across Android versions.
+
+It works on Android 12 and has also successfully run on my Android 16 tablet.
+
+Therefore, do **not** assume that functionality is impossible simply because Android 16 has newer restrictions.
+
+Where Android APIs changed, implement proper compatibility handling.
+
+Use:
+
+```text
+Android 12 behavior
+        ↓
+Compatibility layer
+        ↓
+Modern Android implementation
+        ↓
+Android 16
+```
+
+where necessary.
+
+Do not hard-code the implementation around Android 12.
+
+At the same time, do not unnecessarily abandon the reference implementation simply because a newer API exists.
+
+The reference is the baseline.
+
+---
+
+# 32. LICENSES AND OPEN-SOURCE COMPONENTS
+
+The reference credits include:
+
+- LibADB
+- SPAKE2-Java
+- BouncyCastle
+- VirtualApp
+- other dependencies
+
+The implementation must respect their respective licenses.
+
+Keep required:
+
+- copyright notices,
+- license files,
+- attribution,
+- source availability requirements where applicable.
+
+The reference's credits specifically state:
+
+```text
+LibADB 3.1.1
+SPAKE2-Java 2.2.1
+BouncyCastle 1.81
+VirtualApp
+```
+
+Inspect the actual decompiled/source material to determine the exact versions and modifications being used.
+
+Do not simply copy the names into a credits page.
+
+Determine what is actually integrated into the runtime.
+
+---
+
+# 33. OUR PROJECT IDENTITY — FLY8
+
+The project/repository is:
+
+**FLY8**
+
+The existing repository must be treated as the primary project.
+
+Repository:
+
+[FLY8 Clone GitHub Repository](https://github.com/FL8Y/FLY8-Clone?utm_source=chatgpt.com)
+
+Do **not** create an unrelated replacement project unless the existing repository is genuinely unusable.
+
+The goal is to continue developing the existing FLY8 project.
+
+Preserve useful existing work.
+
+Fix broken work.
+
+Add missing functionality.
+
+The final project should remain an original FLY8 application rather than pretending to be EysClone.
+
+---
+
+# 34. OUR APP IDENTITY
+
+Do not brand the finished application as EysClone.
+
+The reference is being used as a **technical and behavioral blueprint**.
+
+Our project is:
+
+**FLY8**
+
+Use our own:
+
+- application name,
+- package identity,
+- branding,
+- icon,
+- theme,
+- UI identity.
+
+However, the **functionality and architecture should reproduce the reference behavior as closely as technically possible.**
+
+The supplied cyber/anime eye artwork is the intended FLY8 application icon.
+
+---
+
+# 35. EXTREMELY IMPORTANT — CLONED APPS ARE VERY LIGHTWEIGHT
+
+One of the things I observed about the reference application is that cloned applications are **extremely lightweight** compared with installing multiple completely independent copies of an APK.
+
+This is an important architectural clue.
+
+Do not assume that cloning means:
+
+```text
+Original APK
++
+Full APK copy
++
+Full APK copy
++
+Full APK copy
+```
+
+The reference appears to use virtualization/isolation rather than simply duplicating an entire application installation for every clone.
+
+Investigate exactly how this is achieved.
+
+Potential areas to inspect include:
+
+- VirtualApp
+- virtual package manager
+- package metadata
+- APK/resource reuse
+- virtual UID/process isolation
+- virtual users
+- virtual storage
+- redirected application contexts
+- shared APK/code resources
+- per-instance data directories
+- virtual ActivityManager
+- process virtualization
+
+The exact mechanism must be determined from the reference implementation.
+
+---
+
+# 36. WHY THE CLONED APPS CAN BE SO LIGHTWEIGHT
+
+The likely architectural reason is that the virtualization system does not need to maintain a complete independent Android installation for every clone.
+
+Conceptually, it may be closer to:
+
+```text
+                 Original APK
+                      │
+          ┌───────────┼───────────┐
+          ↓           ↓           ↓
+       Clone 1     Clone 2     Clone 3
+          │           │           │
+       Data 1       Data 2       Data 3
+       State 1      State 2      State 3
+       Process 1    Process 2    Process 3
+```
+
+rather than:
+
+```text
+APK + complete environment
+APK + complete environment
+APK + complete environment
+```
+
+This is only a conceptual model.
+
+**Do not assume this is exactly how the reference works.**
+
+Use the decompiled reference to determine the actual mechanism.
+
+The important requirement is:
+
+> Preserve the reference's lightweight virtualization architecture instead of implementing unnecessarily heavy full APK duplication.
+
+---
+
+# 37. CLONED APP STORAGE AND RESOURCES
+
+Investigate exactly what is duplicated per clone and what is shared.
+
+Determine whether the reference shares:
+
+- APK binaries,
+- native libraries,
+- resources,
+- code,
+- framework components,
+
+while separating:
+
+- application data,
+- preferences,
+- databases,
+- cache,
+- user state,
+- process state,
+- virtual identity.
+
+Document the architecture.
+
+The final implementation should avoid unnecessary storage duplication.
+
+---
+
+# 38. IMPORTANT RECENT APPS OBSERVATION
+
+There is another behavior that must **not** be misunderstood.
+
+When a cloned application appears in Android's Recent Apps screen, I sometimes see what looks like a **black screen/card**.
+
+This does **not necessarily mean that the cloned application has stopped running.**
+
+In the reference environment, the black Recent Apps representation can actually correspond to the **running virtualized application**.
+
+This is extremely important.
+
+The black screen/card can represent the actual running clone even if Android's Recent Apps snapshot does not contain a normal rendered screenshot.
+
+---
+
+# 39. BLACK RECENT-APPS SCREEN ≠ DEAD APPLICATION
+
+Do not implement logic like:
+
+```text
+Recent Apps shows black
+        ↓
+application must have crashed
+```
+
+That assumption is incorrect.
+
+The reference demonstrates that:
+
+```text
+Recent Apps
+     ↓
+Black preview
+     ↓
+Clone/process still running
+```
+
+The actual application may still be alive behind the task.
+
+---
+
+# 40. LIVE FEED POSSIBILITY
+
+I can also observe the running virtualized application through a live feed when desired.
+
+Therefore, the black Recent Apps representation should be understood as potentially being a **snapshot/rendering limitation of the task representation**, rather than proof that the underlying virtualized process is dead.
+
+The implementation must distinguish between:
+
+```text
+Application actually stopped
+```
+
+and:
+
+```text
+Application running but Recent Apps preview is black/unavailable
+```
+
+This distinction is critical when debugging the current FLY8 implementation.
+
+---
+
+# 41. USE THIS TO DEBUG THE CURRENT CLONE-LAUNCH PROBLEM
+
+The current problem is more nuanced than:
+
+> "The clone is black, therefore it isn't running."
+
+Instead, investigate these states independently:
+
+```text
+                    Clone
+                      │
+          ┌───────────┴───────────┐
+          ↓                       ↓
+     Process alive           Process dead
+          │
+          ├── Activity alive
+          │
+          ├── Activity rendering
+          │
+          ├── Window attached
+          │
+          ├── Recent Apps task
+          │
+          └── Recent Apps snapshot
+```
+
+A failure in the last branch does not necessarily mean failure in the process.
+
+Determine exactly where the current FLY8 implementation fails.
+
+---
+
+# 42. CLONED APP RUNTIME STATE
+
+For debugging, distinguish at minimum:
+
+```text
+Package installed
+        ↓
+Virtual package registered
+        ↓
+Process created
+        ↓
+Application initialized
+        ↓
+Activity created
+        ↓
+Activity resumed
+        ↓
+Window created
+        ↓
+Surface attached
+        ↓
+Rendering
+        ↓
+Task registered
+        ↓
+Recent Apps representation
+```
+
+The reference behavior should be mapped against this lifecycle.
+
+---
+
+# 43. RECENT APPS VALIDATION
+
+A successful clone should be tested at multiple levels.
+
+### Test A — Process
+
+Verify that the cloned process actually exists.
+
+### Test B — Activity
+
+Verify that the cloned Activity is actually alive.
+
+### Test C — Rendering
+
+Verify that the Activity can render its UI.
+
+### Test D — Recent Apps
+
+Verify that Android creates the expected task/card.
+
+### Test E — Re-entry
+
+Tap the Recent Apps card.
+
+Verify that the actual cloned application resumes.
+
+### Test F — Background
+
+Turn the screen off.
+
+Verify whether the virtualized application continues running under the same conditions as the reference.
+
+Do not use only the Recent Apps screenshot as the success criterion.
+
+---
+
+# 44. MULTIPLE INSTANCES
+
+The reference can run multiple cloned application instances.
+
+For example:
+
+```text
+Roblox Clone #1
+Roblox Clone #2
+Roblox Clone #3
+```
+
+These can appear as multiple entries in Recent Apps.
+
+The implementation must reproduce the underlying behavior rather than simply generating multiple task cards.
+
+Each instance must have the correct virtualized identity/state.
+
+---
+
+# 45. MULTIPLE INSTANCE ARCHITECTURE
+
+Investigate whether the reference uses:
+
+- different virtual users,
+- different virtual package instances,
+- different task IDs,
+- different process IDs,
+- different virtual UIDs,
+- different data directories,
+- different launch parameters,
+- or another isolation mechanism.
+
+The presence of arguments such as:
+
+```text
+--user 16
+```
+
+must be investigated rather than blindly copied.
+
+Determine whether that value represents:
+
+- an Android system user,
+- a VirtualApp user,
+- a virtual profile,
+- an internal instance identifier,
+- or something else.
+
+---
+
+# 46. BACKGROUND OPERATION
+
+The reference application can continue running even after the physical screen is turned off.
+
+Example:
+
+```text
+Roblox running inside FLY8
+        ↓
+Screen turned off
+        ↓
+Device remains connected to Wi-Fi
+        ↓
+Virtualized application continues running
+        ↓
+Device can remain AFK
+```
+
+This is an important feature of the reference behavior.
+
+Investigate the actual mechanism responsible for this.
+
+Potential components include:
+
+- foreground service,
+- background service,
+- wake lock,
+- process priority,
+- virtualized service manager,
+- battery optimization handling,
+- persistent ADB connection,
+- network connectivity,
+- lifecycle recovery.
+
+Do not simply keep the screen awake.
+
+The goal is to reproduce the reference's actual background architecture.
+
+---
+
+# 47. SCREEN-OFF BEHAVIOR
+
+The desired behavior is not:
+
+```text
+Screen OFF
+↓
+Virtual application immediately dies
+```
+
+Instead:
+
+```text
+Screen OFF
+↓
+Virtual environment remains alive
+↓
+Application continues where Android permits
+```
+
+The reference behavior should be treated as the benchmark.
+
+---
+
+# 48. WIFI / NETWORK PERSISTENCE
+
+The reference can remain operational while the device remains connected to Wi-Fi.
+
+Investigate:
+
+- ADB connection persistence,
+- virtualized application networking,
+- background service lifecycle,
+- socket behavior,
+- network callbacks,
+- connectivity state,
+- process lifecycle.
+
+Do not assume the application simply needs an active screen.
+
+---
+
+# 49. WIRELESS DEBUGGING MUST REMAIN THE PRIMARY CONNECTION PATH
+
+Again:
+
+**Wireless Debugging must NOT be removed.**
+
+The intended architecture is:
+
+```text
+                 FLY8 Connection
+                       │
+             ┌─────────┴─────────┐
+             ↓                   ↓
+     Wireless Debugging       Shizuku
+             │                   │
+          LibADB              Optional
+             │
+       Pairing Code
+             │
+          Connect
+```
+
+Shizuku is an **additional option**.
+
+It is not the replacement for the existing ADB system.
+
+---
+
+# 50. WIRELESS DEBUGGING SHOULD BE FAST
+
+The reference makes wireless debugging connection very convenient.
+
+The user should not have to manually navigate through multiple settings screens every time.
+
+The intended workflow is approximately:
+
+```text
+FLY8
+ ↓
+Connect
+ ↓
+Open Wireless Debugging
+ ↓
+Pair Device with Pairing Code
+ ↓
+Android displays pairing code
+ ↓
+Enter code
+ ↓
+Pair
+ ↓
+Connect
+```
+
+The entire process should be as streamlined as the reference.
+
+---
+
+# 51. DIRECT DEVELOPER-OPTIONS ACCESS
+
+Provide an appropriate shortcut to Android's Wireless Debugging settings.
+
+Use the correct Android settings Intent for the device/API level.
+
+Prefer:
+
+```text
+FLY8
+ ↓
+[Wireless Debugging]
+ ↓
+Android Wireless Debugging screen
+```
+
+rather than forcing the user to manually search through Settings.
+
+---
+
+# 52. PAIRING CODE
+
+The pairing workflow must use the proper Android wireless-debugging pairing mechanism.
+
+Investigate the reference's use of:
+
+- LibADB,
+- SPAKE2,
+- mDNS,
+- pairing sockets,
+- pairing service,
+- RSA keys,
+- Android Keystore,
+- authenticated pairing.
+
+Do not replace this with a fake "connected" button.
+
+---
+
+# 53. LIBADB IMPLEMENTATION
+
+The reference credits:
+
+**LibADB 3.1.1**
+
+with modifications involving:
+
+- Android support annotations,
+- Android Keystore RSA signing,
+- bounded local pairing and cleanup,
+- authenticated pairing results,
+- connection peer enrollment,
+- isolated ADB trust manager.
+
+Determine exactly how these modifications interact with the reference application.
+
+Then reproduce the required functionality in FLY8.
+
+---
+
+# 54. SPAKE2 IMPLEMENTATION
+
+The reference also includes:
+
+**SPAKE2-Java 2.2.1**
+
+and native:
+
+**spake2-c**
+
+Investigate how it participates in wireless ADB pairing.
+
+Do not merely include the dependency.
+
+Reproduce the actual security flow where required.
+
+---
+
+# 55. CURRENT BUG — SERVICE SPECIFIC EXCEPTION
+
+The current FLY8 implementation has produced an error similar to:
+
+```text
+android.os.ServiceSpecificException:
+Cannot add mor...
+```
+
+This occurs when attempting to clone/start an application.
+
+Treat this as a genuine runtime architecture problem.
+
+Investigate:
+
+- which Android service throws it,
+- which Binder transaction caused it,
+- what operation was being performed,
+- whether the failure is related to virtual users,
+- whether the failure is related to task creation,
+- whether the failure is related to package registration,
+- whether the failure is caused by Android 16 restrictions,
+- whether the reference bypasses the same problem through VirtualApp.
+
+Do not just catch the exception.
+
+---
+
+# 56. CURRENT ARGUMENT ERROR
+
+Another observed runtime output contains something similar to:
+
+```text
+args: [--user, 16, -p,
+com.digibites.accubattery, -c, and...
+```
+
+This occurred during cloned-app startup.
+
+Trace where these arguments are generated.
+
+Determine:
+
+```text
+Who creates them?
+        ↓
+Why is --user 16 being used?
+        ↓
+What does user 16 represent?
+        ↓
+Which Android service receives the arguments?
+        ↓
+Why does that service reject the request?
+```
+
+Compare the behavior directly against the reference implementation.
+
+---
+
+# 57. ACCUBATTERY TEST
+
+Use:
+
+```text
+com.digibites.accubattery
+```
+
+as one of the diagnostic applications.
+
+The objective is not specifically to support AccuBattery.
+
+It is useful because it exposed the current launch/user/service issue.
+
+---
+
+# 58. ROBLOX TEST
+
+Roblox should be another primary runtime test.
+
+Validate:
+
+```text
+Clone Roblox
+↓
+Launch Roblox
+↓
+Actual Roblox UI appears
+↓
+Interact with it
+↓
+Open Recent Apps
+↓
+Return to Roblox
+↓
+Create another instance
+↓
+Verify multiple instances
+↓
+Turn screen off
+↓
+Wait
+↓
+Turn screen on
+↓
+Verify runtime state
+```
+
+Do not assume Roblox itself is special.
+
+It is a practical stress test of the virtualization architecture.
+
+---
+
+# 59. PERFORMANCE / LIGHTWEIGHT REQUIREMENT
+
+The reference's clones are notably lightweight.
+
+The final FLY8 implementation should avoid unnecessary:
+
+- duplicated APK storage,
+- duplicated resources,
+- duplicated native libraries,
+- unnecessary background threads,
+- excessive memory allocation,
+- redundant processes,
+- redundant services.
+
+However:
+
+**Do not optimize by removing required functionality.**
+
+The objective is:
+
+```text
+Reference functionality
++
+Reference-style virtualization efficiency
++
+Modern Android compatibility
+```
+
+---
+
+# 60. DO NOT CONFUSE LOW RESOURCE USAGE WITH A FAKE CLONE
+
+A clone being lightweight does not mean it should be:
+
+```text
+Fake task
+Fake process
+Fake Activity
+Fake screenshot
+Fake status
+```
+
+The application must still be a real virtualized application.
+
+The lightweight behavior should come from the architecture.
+
+---
+
+# 61. LIVE FEED / DEBUGGING CAPABILITY
+
+If the virtualized application is running but the Recent Apps preview is black, the debugging system should still be able to determine whether the application is alive.
+
+Where technically possible, use:
+
+- process inspection,
+- activity state,
+- virtual task state,
+- logs,
+- rendering/window state,
+- live display/feed mechanisms.
+
+The reference demonstrates that a live view/feed can exist even when the Recent Apps representation is black.
+
+This should be considered an important diagnostic capability.
+
+---
+
+# 62. DO NOT FIX THE BLACK SCREEN BY HIDING IT
+
+Do not simply replace the black Recent Apps preview with:
+
+- a fake screenshot,
+- a static image,
+- a generated thumbnail,
+- a fake task.
+
+First determine why Android is showing the black representation.
+
+If the reference itself produces a black representation while the application is still alive, that behavior may actually be correct.
+
+The goal is **functional parity**, not making every Recent Apps thumbnail visually pretty.
+
+---
+
+# 63. CLONE STATE MODEL
+
+Implement a clear internal state model.
+
+For example:
+
+```text
+NOT_INSTALLED
+     ↓
+INSTALLING
+     ↓
+INSTALLED
+     ↓
+STARTING
+     ↓
+RUNNING
+     ↓
+BACKGROUND
+     ↓
+RESUMED
+     ↓
+STOPPING
+     ↓
+STOPPED
+```
+
+Where appropriate, also distinguish:
+
+```text
+RUNNING
++
+NO_RECENT_APPS_PREVIEW
+```
+
+from:
+
+```text
+STOPPED
+```
+
+---
+
+# 64. DO NOT MARK A CLONE DEAD BECAUSE OF UI
+
+A black preview, missing screenshot, or temporary rendering problem should not automatically cause FLY8 to report:
+
+> Application stopped.
+
+Use actual runtime/process/activity state.
+
+---
+
+# 65. REPOSITORY WORKFLOW
+
+Continue working on:
+
+**FLY8**
+
+Repository:
+
+[https://github.com/FL8Y/FLY8-Clone](https://github.com/FL8Y/FLY8-Clone?utm_source=chatgpt.com)
+
+Before changing anything:
+
+1. Inspect repository structure.
+2. Inspect existing implementation.
+3. Inspect current Git history.
+4. Identify previous changes.
+5. Determine which parts are functional.
+6. Compare them with the reference.
+7. Implement missing components.
+8. Fix broken components.
+9. Build.
+10. Test.
+11. Commit coherent changes.
+
+Do not repeatedly rebuild the same broken architecture without investigating why it fails.
+
+---
+
+# 66. REFERENCE DECOMPILED SOURCE IS THE SOURCE OF TRUTH
+
+When the decompiled reference files are supplied:
+
+**READ THEM THOROUGHLY.**
+
+Search for:
+
+```text
+VirtualApp
+LibADB
+SPAKE2
+BouncyCastle
+ADB
+Wireless
+Pair
+Pairing
+mDNS
+ActivityManager
+PackageManager
+Service
+Binder
+User
+Clone
+Virtual
+Launch
+Process
+Task
+Activity
+Notification
+Foreground
+```
+
+Also inspect:
+
+- AndroidManifest.xml
+- resources
+- strings
+- layouts
+- navigation
+- services
+- receivers
+- providers
+- native libraries
+- JNI
+- Gradle files
+- dependency declarations
+- startup initialization
+- package manager implementation
+- virtual user handling.
+
+---
+
+## 67. Clone Runtime Must Be Real, Not a Visual Placeholder
+
+The cloned application must behave as an actual running virtualized application, not merely as a package entry, Recent Apps card, or simulated launch state.
+
+When the user starts a clone:
+
+- The virtual application must actually initialize.
+- Its process/activity lifecycle must be created correctly.
+- Its UI must actually render and accept input.
+- It must be able to remain alive after leaving the host UI.
+- It must appear in Android Recent Apps when the reference does.
+- Selecting the Recent Apps entry must resume the real virtualized instance.
+- Multiple cloned instances must be independently tracked where supported.
+- Do not create fake Recent Apps entries merely to imitate the reference.
+
+A black Recent Apps preview must **not** automatically be classified as a failed clone. The reference has demonstrated that a black preview can correspond to an application that is still running.
+
+The implementation must distinguish:
+
+`Running virtual app + unavailable/black captured preview`
+
+from:
+
+`Actually terminated/crashed virtual app`
+
+A live feed/preview mechanism may be used when needed to verify that the virtual application is genuinely alive.
+
+---
+
+## 68. Clone Resource Usage Must Preserve the Reference's Lightweight Architecture
+
+The reference clones are noticeably lightweight compared with installing several completely independent copies of an application.
+
+Do not implement cloning as:
+
+`APK copy → full independent Android installation → duplicate storage/process architecture`
+
+unless the reference proves that this is what it actually does.
+
+Investigate the actual virtualization architecture from the supplied decompiled reference.
+
+The target is to preserve the reference's advantages:
+
+- Low additional storage requirements.
+- Low unnecessary RAM overhead.
+- Shared/reused host resources where appropriate.
+- Isolated virtual package state.
+- Independent application data where required.
+- Independent application identity where required.
+- Multiple instances without unnecessarily duplicating the complete APK.
+- No unnecessary background processes.
+- No memory leaks from abandoned virtual instances.
+
+Determine the exact reason the reference is lightweight from its implementation rather than assuming the reason.
+
+---
+
+## 69. Recent Apps Must Represent the Actual Virtualized Instance
+
+Recent Apps behavior is part of the target architecture, not merely cosmetic UI.
+
+For every launched clone, investigate:
+
+- Task creation.
+- Task identity.
+- Virtual Activity identity.
+- Virtual process identity.
+- Package/user association.
+- Task persistence.
+- Task restoration.
+- Task switching.
+- Multiple-instance separation.
+- Preview/snapshot behavior.
+- Activity lifecycle callbacks.
+- Screen-off/screen-on lifecycle.
+- Resume after returning from Recent Apps.
+
+The implementation must never conclude:
+
+`Recent Apps card exists = clone works`
+
+Instead verify:
+
+`Recent Apps card → virtual task → virtual Activity → virtual process → actual application UI`
+
+If the reference produces a black Recent Apps preview while the application remains alive, preserve that behavior rather than incorrectly "fixing" it into a conventional screenshot.
+
+---
+
+## 70. Long-Running Background / AFK Behavior Is Required
+
+The reference can continue running virtualized applications after the physical screen is turned off.
+
+The target behavior is:
+
+1. Start the cloned application.
+2. Leave the host application.
+3. Turn the device screen off.
+4. Keep the device connected to Wi-Fi.
+5. Allow the virtual application to continue running.
+6. Preserve its network connection where Android permits it.
+7. Keep its virtual process/service lifecycle alive.
+8. Turn the screen back on.
+9. Resume/inspect the clone.
+10. Confirm that it behaved as an actually running application rather than a paused fake task.
+
+This is particularly important for applications such as Roblox where the user expects an AFK session to continue.
+
+Investigate the reference's actual:
+
+- Service architecture.
+- Foreground/background execution.
+- Notifications.
+- Process priority.
+- Wake behavior.
+- Network persistence.
+- Lifecycle handling.
+- Battery optimization interaction.
+- Recovery behavior.
+
+Do not blindly introduce permanent wakelocks or unnecessary resource consumption. Reproduce the reference architecture as closely as technically possible.
+
+---
+
+## 71. Wireless Debugging Must Remain a Primary Connection Option
+
+**CRITICAL:** Shizuku is an additional connection option. It is **not** the replacement for the reference connectivity system.
+
+The connection architecture must retain:
+
+### Wireless Debugging / ADB
+
+This remains a complete first-class connection method.
+
+The user must be able to:
+
+- Open the connection interface.
+- Access Android's Wireless Debugging settings easily.
+- Enable Wireless Debugging.
+- Select **Pair device with pairing code**.
+- Enter the displayed pairing information.
+- Establish the ADB connection.
+- Complete authentication.
+- Save/recognize the trusted peer when appropriate.
+- Reconnect without unnecessary repeated setup.
+
+### Shizuku
+
+Shizuku is an **optional alternative**.
+
+Therefore:
+
+`Wireless Debugging + ADB`
+
+and
+
+`Shizuku`
+
+must coexist.
+
+Do not remove Wireless Debugging because Shizuku exists.
+
+Do not make Shizuku mandatory.
+
+Do not make the UI imply that Shizuku is the core purpose of FLY8.
+
+---
+
+## 72. Wireless Debugging Pairing Must Be Extremely Simple
+
+The reference connection experience is one of the most important usability targets.
+
+The desired flow is approximately:
+
+**FLY8 → Connect → Wireless Debugging → Android Wireless Debugging → Pair device with pairing code → pairing-code prompt → enter code → connected**
+
+The user should not have to manually navigate through unnecessary technical steps.
+
+Provide a clear action that takes the user directly to the relevant Android Wireless Debugging/Developer Options screen.
+
+When Android exposes the pairing-code workflow:
+
+- Detect/accept the pairing information.
+- Present the pairing-code input at the correct point.
+- Authenticate using the appropriate ADB/SPAKE2 mechanism.
+- Establish the connection.
+- Verify the connection rather than merely displaying "Connected."
+- Handle pairing failure visibly.
+- Handle cancellation cleanly.
+- Handle already-paired devices correctly.
+- Clean up failed/expired pairing attempts.
+
+The supplied reference implementation and decompiled code are authoritative for determining the exact mechanisms.
+
+---
+
+## 73. Preserve the Reference's ADB / LibADB / Pairing Architecture
+
+The reference credits include:
+
+- LibADB 3.1.1.
+- SPAKE2-Java 2.2.1.
+- Native spake2-c components.
+- BouncyCastle.
+- VirtualApp.
+- Related Android support/security components.
+
+The implementation must inspect how the reference actually uses these components.
+
+Do not replace a proven reference mechanism with a superficial mock.
+
+Investigate and reproduce where applicable:
+
+- ADB transport.
+- Wireless ADB.
+- Pairing protocol.
+- SPAKE2 authentication.
+- Key generation.
+- Keystore-backed signing.
+- Peer enrollment.
+- Trust management.
+- Connection persistence.
+- Socket lifecycle.
+- mDNS/device discovery where applicable.
+- Pairing cleanup.
+- Disconnect/reconnect behavior.
+- Android-version differences.
+
+A connection is considered successful only after actual communication with the target service has been established.
+
+Never fake a connected state.
+
+---
+
+## 74. Current Clone-Start Errors Must Be Diagnosed at the Architecture Level
+
+The current clone-start failure must be treated as a real implementation defect.
+
+Observed errors include:
+
+`android.os.ServiceSpecificException: Cannot add mor...`
+
+and an argument-related error resembling:
+
+`args: [--user, 16, -p, com.digibites.accubattery, -c, ...]`
+
+Do not simply catch the exception and hide it.
+
+Trace the complete launch chain:
+
+`User action`
+
+→ `FLY8 clone selection`
+
+→ `virtual package lookup`
+
+→ `virtual user`
+
+→ `package/activity resolution`
+
+→ `VirtualApp`
+
+→ `virtual process`
+
+→ `Android service/Binder interaction`
+
+→ `task/activity creation`
+
+→ `application launch`
+
+→ `Recent Apps`
+
+Determine exactly where the failure occurs.
+
+Specifically investigate:
+
+- Android 12 behavior.
+- Android 16 behavior.
+- Virtual user IDs.
+- Package installation state.
+- Activity resolution.
+- Process creation.
+- Service registration.
+- Binder limits.
+- Task creation.
+- Command construction.
+- Incorrect `--user` handling.
+- Unsupported system commands.
+- Permissions.
+- API-level changes.
+- VirtualApp compatibility modifications.
+
+The fix must address the underlying cause.
+
+---
+
+## 75. Android 12 → Android 16 Compatibility Must Be Deliberate
+
+The reference was originally designed around Android 12 but has been observed functioning on an Android 16 device.
+
+Therefore, Android 16 compatibility is a real target.
+
+Do not assume that an API that worked on Android 12 will behave identically on Android 16.
+
+Create a compatibility layer where necessary for:
+
+- Services.
+- Foreground-service behavior.
+- Notifications.
+- Activity/task management.
+- Package visibility.
+- Storage.
+- User IDs.
+- Process management.
+- Background execution.
+- Wireless debugging.
+- ADB.
+- Permissions.
+- VirtualApp framework behavior.
+- Recent Apps/task integration.
+
+When behavior differs between Android versions, use the reference implementation and actual runtime behavior to determine the correct compatibility strategy.
+
+Do not downgrade functionality merely because a modern Android restriction exists. Find the closest technically valid implementation.
+
+---
+
+## 76. FLY8 Final Parity Rule — Reference First, Implementation Second
+
+This project is **FLY8**, our original/remodeled implementation of the reference application's architecture and behavior.
+
+The target is **100% behavioral parity wherever technically possible**.
+
+The objective is not:
+
+- A mockup.
+- A simplified clone.
+- A Shizuku-only application.
+- A generic virtual-machine application.
+- A UI-only recreation.
+- A fake Recent Apps implementation.
+- A fake connection state.
+- A partially functional prototype.
+
+The objective is:
+
+**Reference behavior → understand architecture → reproduce behavior in FLY8 → validate against the reference → fix differences → repeat.**
+
+For every major subsystem, maintain the mapping:
+
+`REFERENCE`
+
+→ exact class/module/resource
+
+→ exact observed behavior
+
+→ required FLY8 subsystem
+
+→ implementation
+
+→ runtime test
+
+→ parity result
+
+The supplied decompiled reference that will be provided in the next chat becomes the primary technical evidence.
+
+The existing **FLY8 GitHub repository must be continued**, not abandoned and replaced with an unrelated project.
+
+Do not remove existing functionality simply because implementing one feature is easier without it.
+
+In particular:
+
+**Shizuku is optional. Wireless Debugging remains.**
+
+**A black Recent Apps preview is not automatically a failure.**
+
+**A clone appearing in Recent Apps is not sufficient proof that it works.**
+
+**Lightweight virtualization must be preserved.**
+
+**Background/AFK execution must be investigated and reproduced.**
+
+**The clone-start ServiceSpecificException must be fixed at its root.**
+
+**Android 12 and Android 16 behavior must both be considered.**
+
+**The decompiled reference must determine the architecture instead of assumptions.**
+
+**100% parity is the target. No intentionally omitted reference functionality.**
