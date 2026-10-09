@@ -18,7 +18,7 @@ I do **not** want a watered-down approximation, a demo, a mockup, or a simplifie
 
 The reference application is the source of truth for behavior.
 
-I will provide the reference application's decompiled files in this new chat.
+I may provide decompiled files from the former EYSClone prototype. Use them as reference evidence when available, while diagnosing the current FLY8 source and known failures immediately.
 
 ---
 
@@ -74,7 +74,7 @@ If Wireless Debugging is unavailable, Shizuku should be usable where technically
 
 The reference application is:
 
-**EysClone by Eys**
+**EYSClone by Eys (former prototype/reference; not the current product name)**
 
 Reference version:
 
@@ -110,7 +110,7 @@ Pink Accent:      #F5DADA
 Muted:            #626773
 ```
 
-The UI should feel extremely close to the reference application's structure and interaction model while using our own branding.
+Preserve FLY8's current intended UI and branding. Compare it with the former prototype to identify regressions; do not redesign working screens without a demonstrated reason.
 
 Avoid randomly redesigning screens.
 
@@ -163,7 +163,7 @@ Allow multiple cloned instances
 Keep virtualized application operational in background
 ```
 
-The implementation must reproduce the reference application's actual behavior rather than merely reproducing the screens.
+Repair the current FLY8 implementation so the underlying behavior works, not just the screens. Use the prototype as evidence to find where FLY8 diverges.
 
 ---
 
@@ -807,7 +807,7 @@ Use Shizuku as an alternative connection method
 [Connect with Shizuku]
 ```
 
-The exact UI should follow the reference application's design rather than blindly using this mockup.
+Keep FLY8's existing intended interface and use the prototype as a comparison point. Do not blindly replace working UI with a mockup.
 
 ---
 
@@ -2338,7 +2338,7 @@ For every major subsystem, maintain the mapping:
 
 → parity result
 
-The supplied decompiled reference that will be provided in the next chat becomes the primary technical evidence.
+Use the current FLY8 source, project history, build/test output, runtime logs, and former EYSClone decompiled files (if supplied) as technical evidence. Do not postpone diagnosis waiting for an upload.
 
 The existing **FLY8 GitHub repository must be continued**, not abandoned and replaced with an unrelated project.
 
