@@ -2,25 +2,38 @@ Absolutely. Here’s a **copy-paste master prompt** for the next chat. I’ve wr
 
 ---
 
-# MASTER CONTINUATION PROMPT — Fly8 Clone Remake/fix / 1:1 Blueprint
+# MASTER CONTINUATION PROMPT — FLY8 REPAIR / RESTORE FUNCTIONALITY / 1:1 PARITY
 
-I want to continue an Android app reconstruction project from a previous chat.
+I want to continue repairing the existing Android app project, now branded **FLY8**, from the previous chat.
 
-**Do NOT restart the project from scratch conceptually. Continue from the existing GitHub repository and existing implementation.**
+**Do NOT rebuild, remake, or replace the app. Fix the existing FLY8 codebase in place and preserve its working implementation.**
 
-The goal is to fix version of **fly8**, using the reference app and its decompiled source/resources as the blueprint.
+The goal is to **fix the existing broken FLY8 application** in its current repository. Use the former EYSClone prototype/reference and its available decompiled source/resources as diagnostic evidence where useful. This is a repair task, not a new-app/rebuild task.
 
-The target is:
-
-> **100% functional parity with the reference application's behavior and workflow, while keeping our own branding/theme/assets where appropriate.**
+The goal is to repair the existing FLY8 implementation until its intended behavior works reliably. Aim for **100% functional parity with the former prototype where technically possible**, while preserving FLY8 branding/theme/assets and all working code.
 
 I do **not** want a watered-down approximation, a demo, a mockup, or a simplified clone.
 
-The reference application is the source of truth for behavior.
+The former EYSClone prototype is a behavioral reference for diagnosing regressions, not a replacement product specification that overrides existing FLY8 code. Inspect the FLY8 source, history, builds, logs, and available reference evidence together before deciding what to change.
 
 I may provide decompiled files from the former EYSClone prototype. Use them as reference evidence when available, while diagnosing the current FLY8 source and known failures immediately.
 
 ---
+
+## REPAIR-FIRST RULE — FIX THE EXISTING FLY8 APP
+
+**FLY8 already exists and is broken. The task is to repair that app—not make a replacement or remake it from scratch.**
+
+Before editing, inspect the current FLY8 repository/branch, recent Git history and commits, project structure, Gradle/build configuration, existing implementation, current build/runtime logs, and any available tests. Identify what works, what fails, and the root cause. Make the smallest coherent change that fixes the actual defect.
+
+- Preserve working code, architecture, UI, dependencies, resources, and existing features.
+- Do not delete or replace components without concrete evidence and a clear reason.
+- Reuse the existing implementation where possible.
+- Do not hide exceptions or fake successful connection/clone states; fix root causes.
+- Make incremental, reviewable changes; build and test them when tooling permits.
+- If replacing a subsystem is genuinely necessary, explain the evidence first and limit the replacement to that subsystem. A total rewrite is not the default.
+- Treat **FLY8** as the current product name. **EYSClone** is the former prototype/reference name, retained only where necessary to identify historical source or explain a comparison.
+- Keep all of the requirements below. This wording correction does not authorize dropping requested features or simplifying the existing roadmap.
 
 ## 1. THE MOST IMPORTANT CLARIFICATION
 
@@ -70,7 +83,7 @@ If Wireless Debugging is unavailable, Shizuku should be usable where technically
 
 ---
 
-# 2. REFERENCE APPLICATION
+# 2. FORMER PROTOTYPE / BEHAVIORAL REFERENCE
 
 The reference application is:
 
@@ -299,7 +312,7 @@ The reference application can continue operating when the physical phone/tablet 
 For example:
 
 ```text
-Roblox running inside EysClone
+Roblox running inside FLY8
         ↓
 Device remains connected to Wi-Fi
         ↓
@@ -363,7 +376,7 @@ The reference application's wireless debugging connection process is extremely c
 The workflow I observed is essentially:
 
 ```text
-Open EysClone
+Open FLY8
         ↓
 Connect to Wireless Debugging
         ↓
@@ -375,7 +388,7 @@ Choose "Pair device with pairing code"
         ↓
 Android displays pairing code
         ↓
-EysClone detects/uses the pairing process
+FLY8 detects/uses the pairing process
         ↓
 A notification/dialog appears where the pairing code can be entered
         ↓
@@ -468,7 +481,7 @@ Inspect the decompiled/source material and determine how these modifications are
 
 Do not simply display LibADB in credits.
 
-The actual connection architecture should be reconstructed.
+Inspect and repair the existing connection architecture first. Replace components only when evidence shows they are broken or unsuitable, and preserve working behavior.
 
 ---
 
@@ -684,11 +697,11 @@ Also inspect:
 
 ---
 
-# 21. CREATE A 1:1 BLUEPRINT
+# 21. MAP THE CURRENT IMPLEMENTATION BEFORE REPAIRING
 
-Before blindly rewriting things, construct a technical blueprint of the reference.
+Before changing code, map the existing FLY8 implementation and compare it with the former prototype. Identify current files/classes, entry points, dependencies, observed failures, supporting logs, and the smallest safe repair. Do not rewrite working systems blindly.
 
-The blueprint should map:
+The diagnostic map should map:
 
 ```text
 REFERENCE FEATURE
@@ -1075,13 +1088,13 @@ Fix broken work.
 
 Add missing functionality.
 
-The final project should remain an original FLY8 application rather than pretending to be EysClone.
+The existing application must remain FLY8; EYSClone is only the former prototype/reference.
 
 ---
 
 # 34. OUR APP IDENTITY
 
-Do not brand the finished application as EysClone.
+Do not use EYSClone as the current product branding in the app or its user-facing strings.
 
 The reference is being used as a **technical and behavioral blueprint**.
 
@@ -2303,7 +2316,7 @@ Do not downgrade functionality merely because a modern Android restriction exist
 
 ## 76. FLY8 Final Parity Rule — Reference First, Implementation Second
 
-This project is **FLY8**, our original/remodeled implementation of the reference application's architecture and behavior.
+This project is **FLY8**, the rebranded existing app that needs repair. Restore and correct its current implementation using repository history, source, build output, runtime logs, and the former EYSClone prototype as evidence. Do not remake, rewrite, or replace the app by default.
 
 The target is **100% behavioral parity wherever technically possible**.
 
@@ -2340,7 +2353,7 @@ For every major subsystem, maintain the mapping:
 
 Use the current FLY8 source, project history, build/test output, runtime logs, and former EYSClone decompiled files (if supplied) as technical evidence. Do not postpone diagnosis waiting for an upload.
 
-The existing **FLY8 GitHub repository must be continued**, not abandoned and replaced with an unrelated project.
+The existing **FLY8 GitHub repository and implementation must be repaired in place**, not abandoned or replaced with an unrelated project.
 
 Do not remove existing functionality simply because implementing one feature is easier without it.
 
