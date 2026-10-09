@@ -9,3 +9,4 @@
 # Ruflo runtime databases
 ruvector.db
 .swarm/
+.claude/memory.db
