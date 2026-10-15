@@ -8,8 +8,8 @@ Total uncompressed size: 192,555,632 bytes
 Started: 2026-10-16 05:01 Asia/Manila
 
 ## Current status
-- Archive file entries committed from source: 117
-- Source files represented at destination: 117 / 1,790 entries (directory entries may be included in archive count)
+- Archive file entries committed from source: 118
+- Source files represented at destination: 118 / 1,790 entries (directory entries may be included in archive count)
 - Source files compared byte-for-byte against committed Git blobs: 0 (not yet independently re-read from GitHub)
 - ZIP archive itself: NOT uploaded
 - Existing README.md is still present pending final reconciliation.
@@ -54,5 +54,12 @@ Committed the final 29 dependency version markers in the ZIP, covering RecyclerV
 
 Commit: `9172efe0211ac22be80ef0908634be1a91de7b11`
 
+### Batch 6 — 2026-10-16 05:19 Asia/Manila
+Committed `META-INF/NOTICE.md` from the source archive.
+
+Commit: `21351e72f5bd91467b62b9e7c336418472ce9c47`
+
+A candidate binary blob for `DebugProbesKt.bin` did not match the source archive's exact Git blob hash during validation, so it was deliberately excluded from the tree. It remains pending; no corrupted copy was committed.
+
 ### Next
-Continue transferring the remaining entries in small batches, updating this log after each committed batch. The exact 1:1 replacement is incomplete until all source files are committed and destination-only entries are reconciled.
+Continue transferring the remaining entries with source-hash validation for binary files. in small batches, updating this log after each committed batch. The exact 1:1 replacement is incomplete until all source files are committed and destination-only entries are reconciled.
