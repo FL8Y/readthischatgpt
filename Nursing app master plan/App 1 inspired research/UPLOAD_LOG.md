@@ -8,8 +8,8 @@ Total uncompressed size: 192,555,632 bytes
 Started: 2026-10-16 05:01 Asia/Manila
 
 ## Current status
-- Archive file entries committed from source: 163
-- Source files represented at destination: 163 / 1,790 entries (directory entries may be included in archive count)
+- Archive file entries committed from source: 187
+- Source files represented at destination: 187 / 1,790 entries (directory entries may be included in archive count)
 - Source files compared byte-for-byte against committed Git blobs: 0 (not yet independently re-read from GitHub)
 - ZIP archive itself: NOT uploaded
 - Existing README.md is still present pending final reconciliation.
@@ -73,5 +73,14 @@ Committed 10 Firebase and related client metadata property files. Commit: `84cd5
 ### Batch 7d — 2026-10-16 05:31 Asia/Manila
 Committed 15 OpenTelemetry version-property files, including 13 paths sharing the identical source payload. Duplicate contents reuse the same Git blob while preserving every path. Commit: `8c097e856bf3e605c9e48303bd044eb3efc1c6c8`.
 
+### Batch 7e — 2026-10-16 05:32 Asia/Manila
+Committed 10 Play Services property files. Commit: `bc6cc95f8b8529e7d2487918ebe7d97614a42b28`.
+
+### Batch 7f — 2026-10-16 05:33 Asia/Manila
+Committed 10 more Play Services files, the Recaptcha properties, and three small binary/resource files. All three binary payloads were checked against the source Git blob hash before committing. Commit: `63afd95ad9658afe276f8884210107881ac80d1e`.
+
+### Batch 7g — 2026-10-16 05:34 Asia/Manila
+Committed the remaining 4 small properties/signature files. Commit: `cfb33fef33cbffcd856c5b25ae286df2c31eabea`.
+
 ### Next
-Continue transferring remaining small files and then larger/binary assets. The exact replacement remains incomplete. with source-hash validation for binary files. in small batches, updating this log after each committed batch. The exact 1:1 replacement is incomplete until all source files are committed and destination-only entries are reconciled.
+Continue transferring the remaining 1,603 archive files. The exact replacement remains incomplete; the large binary assets and repeated license files are pending. with source-hash validation for binary files. in small batches, updating this log after each committed batch. The exact 1:1 replacement is incomplete until all source files are committed and destination-only entries are reconciled.
