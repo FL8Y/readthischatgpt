@@ -3,19 +3,31 @@
 Destination: `Nursing app master plan/App 1 inspired research/`
 Source archive: `base.zip`
 Archive integrity: PASS (ZIP CRC check completed)
-Archive entries: 1,790
+Archive entries: 1,790 ZIP entries (including any directory entries)
 Total uncompressed size: 192,555,632 bytes
-Started: 2026-10-16 17:00 Asia/Manila
+Started: 2026-10-16 05:01 Asia/Manila
 
-## Status
-- Files copied from archive to GitHub: 0 / 1,790
-- Source files verified against destination: 0
+## Current status
+- Archive file entries committed from source: 8
+- Source files represented at destination: 8 / 1,790 entries (directory entries may be included in archive count)
+- Source files compared byte-for-byte against committed Git blobs: 0 (not yet independently re-read from GitHub)
 - ZIP archive itself: NOT uploaded
-- Existing destination files have NOT been deleted.
+- Existing README.md is still present pending final reconciliation.
+- The remaining archive contents have NOT yet been uploaded.
 
 ## Batch log
-### 2026-10-16 17:00 Asia/Manila
-- Created this progress log.
-- Confirmed the current destination contained only the existing README.md before the transfer.
-- Next: transfer archive contents in manageable batches, then reconcile destination tree and remove any destination-only files only after the source tree is represented.
-- Note: the active environment's direct network access to GitHub is unavailable; GitHub-connected write operations are being used where feasible. The full replacement is not yet complete.
+### Batch 1 — 2026-10-16 05:00 Asia/Manila
+Committed these 8 small dependency version files from the ZIP under the destination folder:
+- META-INF/androidx.activity_activity-compose.version
+- META-INF/androidx.activity_activity-ktx.version
+- META-INF/androidx.activity_activity.version
+- META-INF/androidx.annotation_annotation-experimental.version
+- META-INF/androidx.appcompat_appcompat-resources.version
+- META-INF/androidx.appcompat_appcompat.version
+- META-INF/androidx.arch.core_core-runtime.version
+- META-INF/androidx.autofill_autofill.version
+
+Commit: `50cd385a94cbe9175bc3faf19a17618aaa0a357a`
+
+### Next
+Continue transferring the remaining entries in small batches, updating this log after each committed batch. The exact 1:1 replacement is incomplete until all source files are committed and destination-only entries are reconciled.
