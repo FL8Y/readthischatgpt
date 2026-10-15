@@ -8,8 +8,8 @@ Total uncompressed size: 192,555,632 bytes
 Started: 2026-10-16 05:01 Asia/Manila
 
 ## Current status
-- Archive file entries committed from source: 68
-- Source files represented at destination: 68 / 1,790 entries (directory entries may be included in archive count)
+- Archive file entries committed from source: 117
+- Source files represented at destination: 117 / 1,790 entries (directory entries may be included in archive count)
 - Source files compared byte-for-byte against committed Git blobs: 0 (not yet independently re-read from GitHub)
 - ZIP archive itself: NOT uploaded
 - Existing README.md is still present pending final reconciliation.
@@ -43,6 +43,16 @@ Commit: `0f3419bf27f85425a25267f4aad0a0ec0fddd8df`
 Committed 20 dependency version markers for Credentials, CursorAdapter, CustomView, DataStore, DocumentFile, DrawerLayout, DynamicAnimation, Emoji, ExifInterface, Fragment, and Graphics.
 
 Commit: `2717e131f98177dfda23004a59e952af3d770513`
+
+### Batch 5a — 2026-10-16 05:06 Asia/Manila
+Committed 20 additional marker files covering graphics, interpolator, legacy support, lifecycle, loader, media, print, and profile installer.
+
+Commit: `fe8b25edf22aadb4e090c01a658886092aa0aa0a`
+
+### Batch 5b — 2026-10-16 05:07 Asia/Manila
+Committed the final 29 dependency version markers in the ZIP, covering RecyclerView, Room, SavedState, SQLite, Startup, Tracing, Transition, VectorDrawable, ViewPager, WebKit, Window, Work, Material, Dagger, and Kotlin coroutines.
+
+Commit: `9172efe0211ac22be80ef0908634be1a91de7b11`
 
 ### Next
 Continue transferring the remaining entries in small batches, updating this log after each committed batch. The exact 1:1 replacement is incomplete until all source files are committed and destination-only entries are reconciled.
