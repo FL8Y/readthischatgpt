@@ -8,8 +8,8 @@ Total uncompressed size: 192,555,632 bytes
 Started: 2026-10-16 05:01 Asia/Manila
 
 ## Current status
-- Archive file entries committed from source: 187
-- Source files represented at destination: 187 / 1,790 entries (directory entries may be included in archive count)
+- Archive file entries committed from source: 201
+- Source files represented at destination: 201 / 1,790 entries (directory entries may be included in archive count)
 - Source files compared byte-for-byte against committed Git blobs: 0 (not yet independently re-read from GitHub)
 - ZIP archive itself: NOT uploaded
 - Existing README.md is still present pending final reconciliation.
@@ -82,5 +82,18 @@ Committed 10 more Play Services files, the Recaptcha properties, and three small
 ### Batch 7g — 2026-10-16 05:34 Asia/Manila
 Committed the remaining 4 small properties/signature files. Commit: `cfb33fef33cbffcd856c5b25ae286df2c31eabea`.
 
-### Next
-Continue transferring the remaining 1,603 archive files. The exact replacement remains incomplete; the large binary assets and repeated license files are pending. with source-hash validation for binary files. in small batches, updating this log after each committed batch. The exact 1:1 replacement is incomplete until all source files are committed and destination-only entries are reconciled.
+### Batch 8 — 2026-10-16 05:37 Asia/Manila
+Committed 4 verified small text files: the Sentry replay verification properties and 3 Java service-provider files. All 4 Git blob SHA-1 hashes matched the archive. Commit: `795e9416eb182021d8b67137b3f18eb909a4aad5`.
+
+### Batch 9 — 2026-10-16 05:39 Asia/Manila
+Committed 4 verified native-image JSON configuration files. All 4 Git blob hashes matched the archive. Commit: `44cc830fe4cd1b8c5b80a78e76d309394ea99179`.
+
+### Batch 10 — 2026-10-16 05:42 Asia/Manila
+Committed 6 verified Android XML/raw resource files, including the Firebase keep-resource file, clipboard/file-provider path resources, image-share paths, secure-store backup rules, and social-sharing paths. All 6 hashes matched the archive. Commit: `df85d78fdddda75f2845efb83c479385d2b675c2`.
+
+### Pending / next
+- Source files still to transfer: 1,589 of 1,790.
+- `DebugProbesKt.bin` and other large/binary assets are not yet committed; attempts with mismatched candidate payloads were rejected before tree commit.
+- The 7 repeated AndroidX LICENSE.txt files are pending; do not count their unverified content.
+- Existing README remains until source/destination tree reconciliation.
+- Exact 1:1 replacement remains incomplete. with source-hash validation for binary files. in small batches, updating this log after each committed batch. The exact 1:1 replacement is incomplete until all source files are committed and destination-only entries are reconciled.
