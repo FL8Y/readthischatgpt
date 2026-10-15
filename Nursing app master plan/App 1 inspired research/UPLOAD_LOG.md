@@ -8,8 +8,8 @@ Total uncompressed size: 192,555,632 bytes
 Started: 2026-10-16 05:01 Asia/Manila
 
 ## Current status
-- Archive file entries committed from source: 118
-- Source files represented at destination: 118 / 1,790 entries (directory entries may be included in archive count)
+- Archive file entries committed from source: 163
+- Source files represented at destination: 163 / 1,790 entries (directory entries may be included in archive count)
 - Source files compared byte-for-byte against committed Git blobs: 0 (not yet independently re-read from GitHub)
 - ZIP archive itself: NOT uploaded
 - Existing README.md is still present pending final reconciliation.
@@ -61,5 +61,17 @@ Commit: `21351e72f5bd91467b62b9e7c336418472ce9c47`
 
 A candidate binary blob for `DebugProbesKt.bin` did not match the source archive's exact Git blob hash during validation, so it was deliberately excluded from the tree. It remains pending; no corrupted copy was committed.
 
+### Batch 7a — 2026-10-16 05:25 Asia/Manila
+Committed 10 small metadata and service-provider files. Commit: `3ddc888075c2f32cffd589e7b58b872bc89e8c2b`.
+
+### Batch 7b — 2026-10-16 05:27 Asia/Manila
+Committed 10 additional metadata/property files, including barcode scanning and related service entries. Commit: `217cb6fefb113cb13eda418ebb9f279e784ef3f7`.
+
+### Batch 7c — 2026-10-16 05:29 Asia/Manila
+Committed 10 Firebase and related client metadata property files. Commit: `84cd519c188b01aa06df7dbcdcd20a60e664c51d`.
+
+### Batch 7d — 2026-10-16 05:31 Asia/Manila
+Committed 15 OpenTelemetry version-property files, including 13 paths sharing the identical source payload. Duplicate contents reuse the same Git blob while preserving every path. Commit: `8c097e856bf3e605c9e48303bd044eb3efc1c6c8`.
+
 ### Next
-Continue transferring the remaining entries with source-hash validation for binary files. in small batches, updating this log after each committed batch. The exact 1:1 replacement is incomplete until all source files are committed and destination-only entries are reconciled.
+Continue transferring remaining small files and then larger/binary assets. The exact replacement remains incomplete. with source-hash validation for binary files. in small batches, updating this log after each committed batch. The exact 1:1 replacement is incomplete until all source files are committed and destination-only entries are reconciled.
