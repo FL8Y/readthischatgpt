@@ -8,8 +8,8 @@ Total uncompressed size: 192,555,632 bytes
 Started: 2026-10-16 05:01 Asia/Manila
 
 ## Current status
-- Archive file entries committed from source: 48
-- Source files represented at destination: 48 / 1,790 entries (directory entries may be included in archive count)
+- Archive file entries committed from source: 68
+- Source files represented at destination: 68 / 1,790 entries (directory entries may be included in archive count)
 - Source files compared byte-for-byte against committed Git blobs: 0 (not yet independently re-read from GitHub)
 - ZIP archive itself: NOT uploaded
 - Existing README.md is still present pending final reconciliation.
@@ -38,6 +38,11 @@ Commit: `5ab113e94b5e92b1342b201b9ce91e4b4ab3329f`
 Committed 20 additional Android Compose, ConstraintLayout, CoordinatorLayout, and Core dependency version marker files.
 
 Commit: `0f3419bf27f85425a25267f4aad0a0ec0fddd8df`
+
+### Batch 4 — 2026-10-16 05:05 Asia/Manila
+Committed 20 dependency version markers for Credentials, CursorAdapter, CustomView, DataStore, DocumentFile, DrawerLayout, DynamicAnimation, Emoji, ExifInterface, Fragment, and Graphics.
+
+Commit: `2717e131f98177dfda23004a59e952af3d770513`
 
 ### Next
 Continue transferring the remaining entries in small batches, updating this log after each committed batch. The exact 1:1 replacement is incomplete until all source files are committed and destination-only entries are reconciled.
