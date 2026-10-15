@@ -8,8 +8,8 @@ Total uncompressed size: 192,555,632 bytes
 Started: 2026-10-16 05:01 Asia/Manila
 
 ## Current status
-- Archive file entries committed from source: 201
-- Source files represented at destination: 201 / 1,790 entries (directory entries may be included in archive count)
+- Archive file entries committed from source: 252
+- Source files represented at destination: 252 / 1,790 entries (directory entries may be included in archive count)
 - Source files compared byte-for-byte against committed Git blobs: 0 (not yet independently re-read from GitHub)
 - ZIP archive itself: NOT uploaded
 - Existing README.md is still present pending final reconciliation.
@@ -91,8 +91,26 @@ Committed 4 verified native-image JSON configuration files. All 4 Git blob hashe
 ### Batch 10 — 2026-10-16 05:42 Asia/Manila
 Committed 6 verified Android XML/raw resource files, including the Firebase keep-resource file, clipboard/file-provider path resources, image-share paths, secure-store backup rules, and social-sharing paths. All 6 hashes matched the archive. Commit: `df85d78fdddda75f2845efb83c479385d2b675c2`.
 
+### Batch 11 — 2026-10-16 05:44 Asia/Manila
+Committed 10 drawable XML resources; each Git blob SHA matched the archive. Commit: `6afb8ff0b6d4c9ec113a69b6b5977396de30b346`.
+
+### Batch 12a — 2026-10-16 05:45 Asia/Manila
+Committed 9 additional drawable XML resources after verifying their blob hashes. Commit: `e924cd6a162a6745b78e3cd303e54a71a5c378b0`.
+
+### Batch 12b — 2026-10-16 05:47 Asia/Manila
+Committed 5 more drawable resources after SHA verification. Commit: `1b17222bfe2447668db6a10db15b5d1d0725c6e3`.
+
+### Batch 13 — 2026-10-16 05:50 Asia/Manila
+Committed 10 verified drawable-v21/v23, watch-v20, and font XML resources. Commit: `ffcff21578fd4725870d21b71d9dd5591b896b08`.
+
+### Batch 14 — 2026-10-16 05:52 Asia/Manila
+Committed 10 verified font and interpolator XML resources. Commit: `7f6988a9f4ffe35071df1a307ed55f2ff49f5d6a`.
+
+### Batch 15 — 2026-10-16 05:54 Asia/Manila
+Committed 7 verified interpolator XML paths; the radio on/off variants have identical source content and share the same Git blob. Commit: `c65db9077395f4b6be555cc6c6071ebe09ac7a16`.
+
 ### Pending / next
-- Source files still to transfer: 1,589 of 1,790.
+- Source files still to transfer: 1,538 of 1,790.
 - `DebugProbesKt.bin` and other large/binary assets are not yet committed; attempts with mismatched candidate payloads were rejected before tree commit.
 - The 7 repeated AndroidX LICENSE.txt files are pending; do not count their unverified content.
 - Existing README remains until source/destination tree reconciliation.
