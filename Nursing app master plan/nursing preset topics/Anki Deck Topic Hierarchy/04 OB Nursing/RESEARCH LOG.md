@@ -50,8 +50,8 @@ For each topic, mark status only after checking the actual file in GitHub:
 | 17 | `Normal Labor and Delivery/True vs False Labor Contractions` | Uploaded; reopened; clinical audit pending | ACOG How to Tell When Labor Begins; NICE NG235; NICE NG25 | [Research.md](./Normal%20Labor%20and%20Delivery/True%20vs%20False%20Labor%20Contractions/Research.md) — Reopened (3,768 chars); source section present | Review preterm triage red flags |
 | 18 | `Normal Pregnancy/Adaptations of Pregnancy/Cardiovascular Changes` | Uploaded; reopened; clinical audit pending | Merck Manual Professional Edition physiologic changes; NICE NG133; ACOG heart health FAQ | [Research.md](./Normal%20Pregnancy/Adaptations%20of%20Pregnancy/Cardiovascular%20Changes/Research.md) — Reopened (4,873 chars); source section present | Audit pregnancy-specific safety and reference links |
 | 19 | `Normal Pregnancy/Adaptations of Pregnancy/Endocrine Changes` | Uploaded; reopened; clinical audit pending | Endotext Endocrinology of Pregnancy; Merck Manual; WHO diabetes in pregnancy guideline (2025) | [Research.md](./Normal%20Pregnancy/Adaptations%20of%20Pregnancy/Endocrine%20Changes/Research.md) — Reopened (4,743 chars); source section present | Audit hormone details and source links |
-| 20 | `Normal Pregnancy/Adaptations of Pregnancy/GI Changes` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
-| 21 | `Normal Pregnancy/Adaptations of Pregnancy/Other Changes` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
+| 20 | `Normal Pregnancy/Adaptations of Pregnancy/GI Changes` | Uploaded; reopened; clinical audit pending | Merck Manual Professional Edition; ACOG morning sickness FAQ; NHS indigestion/heartburn guidance | [Research.md](./Normal%20Pregnancy/Adaptations%20of%20Pregnancy/GI%20Changes/Research.md) — Reopened (3,978 chars); source section present | Review pregnancy medication safety and links |
+| 21 | `Normal Pregnancy/Adaptations of Pregnancy/Other Changes` | Uploaded; reopened; clinical audit pending | Merck Manual Professional Edition; NICE NG133; ACOG preeclampsia FAQ | [Research.md](./Normal%20Pregnancy/Adaptations%20of%20Pregnancy/Other%20Changes/Research.md) — Reopened (4,357 chars); source section present | Review red flags and pregnancy-specific reference ranges |
 | 22 | `Normal Pregnancy/Antepartum Care/Fetal Well-being` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
 | 23 | `Normal Pregnancy/Antepartum Care/Maternal Well-being` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
 | 24 | `Normal Pregnancy/Discomforts and Risk Factors of Pregnancy` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
@@ -83,12 +83,12 @@ These are not counted as completed topics until the hierarchy is checked for dup
 
 ## Status dashboard
 - Leaf topic folders identified: **35**
-- Topics with substantive research files: **17**
-- Topics clinically verified: **0** (all 17 research files have been reopened through GitHub API; detailed clinical/source-link audit remains pending)
-- Remaining leaf topics without substantive files: **18**; seventeen uploaded topics require final verification
-- Research completion: **0% verified** (0/35 fully verified). Seventeen substantive topic files exist but are not counted as verified until their clinical/source/link audits are complete.
+- Topics with substantive research files: **19**
+- Topics clinically verified: **0** (all 19 research files have been reopened through GitHub API; detailed clinical/source-link audit remains pending)
+- Remaining leaf topics without substantive files: **16**; nineteen uploaded topics require final verification
+- Research completion: **0% verified** (0/35 fully verified). Nineteen substantive topic files exist but are not counted as verified until their clinical/source/link audits are complete.
 - Added topics: **0**
 - Blockers: None encountered during initial tree inspection. Full research and per-file upload verification remain outstanding.
-- Last action: Added substantive research files for Abortion, Abruptio Placenta, Cord Prolapse, Ectopic Pregnancy, Gestational Diabetes, Hemolytic Disease of the Newborn, Hydatidiform Mole, Hyperemesis Gravidarum, Placenta Previa, Premature Rupture of Membranes, Shoulder Dystocia, Cardinal Signs of Labor, Components of Labor, Stages of Labor, True vs False Labor Contractions, Cardiovascular Changes and Endocrine Changes in Pregnancy. All 17 were reopened through GitHub API; detailed clinical/source verification remains outstanding.
-- Exact next action: Research `Normal Pregnancy/Adaptations of Pregnancy/GI Changes`, then continue through every remaining unchecked topic. Do not equate file creation or reopening with completed clinical verification.
+- Last action: Added substantive research files for Abortion, Abruptio Placenta, Cord Prolapse, Ectopic Pregnancy, Gestational Diabetes, Hemolytic Disease of the Newborn, Hydatidiform Mole, Hyperemesis Gravidarum, Placenta Previa, Premature Rupture of Membranes, Shoulder Dystocia, Cardinal Signs of Labor, Components of Labor, Stages of Labor, True vs False Labor Contractions, Cardiovascular Changes, Endocrine Changes, GI Changes and Other Physiologic Changes in Pregnancy. All 19 were reopened through GitHub API; detailed clinical/source verification remains outstanding.
+- Exact next action: Research `Normal Pregnancy/Antepartum Care/Fetal Well-being`, then continue through every remaining unchecked topic. Do not equate file creation or reopening with completed clinical verification.
 - Last reconciled: 2026-10-17 (partial audit; final recursive audit not yet performed).
