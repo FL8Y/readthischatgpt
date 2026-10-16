@@ -142,3 +142,10 @@ Do not present fixed community-size criteria, a specific duration for a phase, o
 - Philippine nursing syllabus located but PDF inspection timed out; this is a known verification gap.
 - No claim is made that all phase variations or operational criteria have been resolved across all Philippine schools and local programs.
 - Before marking **Verified Complete**, re-open the saved file, check every link, inspect the National University syllabus or replace it with an accessible Philippine curriculum source, and have the log record exact source checks and review status.
+
+## Source Verification Update — 2026-10-17
+
+- Rechecked source records in a verification pass. WHO's 10 May 2023 publication page confirms the meaningful-engagement framework and its condition-specific scope. It supports respectful, equitable participation principles, not a COPAR-specific phase list.
+- Nurseslabs' COPAR article is discoverable and contains a commonly taught phase outline, but it is a secondary educational source last updated in 2013; it is not a current national standard.
+- The National University Philippines syllabus PDF was surfaced in search results, but its full text was not inspected because the earlier PDF fetch timed out. Do not rely on it for detailed factual claims until inspected.
+- Status remains **Drafted — Needs Review**. Verify or replace the syllabus source and check the remaining links before marking Verified Complete.
