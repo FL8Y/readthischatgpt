@@ -67,7 +67,7 @@ This file records confirmed project constraints, provisional architecture decisi
 ### ADR-007 — Proposed default architecture baseline (not user-approved)
 
 - **Status:** Proposed; requires validation and a later implementation-stage authorization.
-- **Decision:** Use the provisional baseline in `ARCHITECTURE_OPTIONS.md`: Android-first Kotlin/Jetpack Compose; modular monolith with explicit logical boundaries; local-first relational persistence with versioned migrations and append-only attempts/review events; offline-capable reading/review/progress; user-supplied provider key stored in platform-backed secure storage with clear extraction limits; a provider-neutral AI adapter; an app-owned scheduler interface backed by a maintained, license-compatible scheduler/version selected only after test-vector review; APKG portability as a candidate and AnkiDroid provider integration optional; text/paste and Markdown as the simplest initial ingestion path while PDF/OCR scope is costed separately.
+- **Decision:** Use the provisional baseline in `TECHNICAL_ARCHITECTURE_AND_CONTRACTS.md`: Android-first Kotlin/Jetpack Compose; modular monolith with explicit logical boundaries; local-first relational persistence with versioned migrations and append-only attempts/review events; offline-capable reading/review/progress; user-supplied provider key stored in platform-backed secure storage with clear extraction limits; a provider-neutral AI adapter; an app-owned scheduler interface backed by a maintained, license-compatible scheduler/version selected only after test-vector review; APKG portability as a candidate and AnkiDroid provider integration optional; text/paste and Markdown as the simplest initial ingestion path while PDF/OCR scope is costed separately.
 - **Reason:** This is the most conservative fit for Android-centred usage, durable offline study, transparent data ownership and avoiding an unrequested hosted backend. The existing Gizmo and AnkiDroid research informs requirements but does not dictate the product's stack.
 - **Alternatives:** React Native/Expo or Flutter if a committed cross-platform requirement changes the trade-off; hosted/hybrid backend if multi-device sync or server-side key handling becomes necessary; direct AnkiDroid provider integration if later device validation proves sufficient value over package exchange.
 - **Trade-offs / risks:** Native Android may increase future cross-platform effort; local user keys remain extractable in principle; local-only storage needs backup/recovery; scheduler and mastery behavior require exact-version tests; OCR/visual generation can increase latency and provider cost.
@@ -79,7 +79,7 @@ This file records confirmed project constraints, provisional architecture decisi
 ### OPEN-001 — Target platform and minimum Android version
 Need: user goal and distribution constraints; compare Android-only versus cross-platform.
 Owner: Master Architect.
-Gate: architecture options report.
+Gate: evidence-based comparison in TECHNICAL_ARCHITECTURE_AND_CONTRACTS.md.
 
 ### OPEN-002 — Technology stack
 Need: platform requirements, performance, native integrations, developer workflow, build/release requirements.
