@@ -4,6 +4,7 @@
 
 - [[01 Community Health Nursing]]
   - [[CHN, PHC]]
+  - [[Clients of CHN]] — **Drafted — Needs Verification**
   - [[People Behind CHN]] — **Drafted — Needs Verification**
     - [[COPAR]]
       - [[Basic Principles of COPAR]]
