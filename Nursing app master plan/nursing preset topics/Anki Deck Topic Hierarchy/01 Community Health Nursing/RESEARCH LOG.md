@@ -10,10 +10,10 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 45 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, BCG, Maternal and Child Health, Health and Sanitation Laws, Pentavalent Vaccine, Elements of Primary Health Care, Other Vaccines, Food Sanitation, Vaccine Table, Locally-Endemic Diseases, Active Management of Third Stage of Labor, FHSIS, Epidemiology, Population Pyramid, Vital Statistics, Incidence vs Prevalence Rates, and Common Vital Statistics.
+- **Substantive topic drafts expanded:** 46 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, BCG, Maternal and Child Health, Health and Sanitation Laws, Pentavalent Vaccine, Elements of Primary Health Care, Other Vaccines, Food Sanitation, Vaccine Table, Locally-Endemic Diseases, Active Management of Third Stage of Labor, FHSIS, Epidemiology, Population Pyramid, Vital Statistics, Incidence vs Prevalence Rates, and Common Vital Statistics, and Swaroops, Sex Ratio.
 - **Topics verified complete:** 0
-- **Folders still requiring substantive topic-specific expansion:** 32 (all 77 have a notes file, but most remain initial starter notes).
-- **Drafts awaiting source/content verification:** 45
+- **Folders still requiring substantive topic-specific expansion:** 31 (all 77 have a notes file, but most remain initial starter notes).
+- **Drafts awaiting source/content verification:** 46
 - **Research notes present:** 77/77; this is file presence, not research completion.
 - **Completion:** 0% verified topic research. No topic is marked Verified Complete.
 - **Mind map:** Existing Obsidian map reflects the folder hierarchy; status annotations, links and coverage audit still required.
@@ -202,8 +202,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: **Drafted — Needs Verification** | Required sections: incidence/prevalence distinctions; incidence proportion vs incidence rate; point/period prevalence; formulas and worked examples; factors affecting prevalence; denominators/case definitions; bias/data quality; Philippine reporting context; nursing application; PNLE distinctions; sources.  
   Sources consulted: CDC *Principles of Epidemiology*, Lesson 1 definition page; CDC epidemiology glossary; RA 11332 Lawphil text. Important facts covered: new cases versus existing cases; population-at-risk versus person-time denominators; point versus period prevalence; illustrative calculations; effects of duration, detection, migration and data quality. Research file: `Elements of Primary Health Care/Locally-Endemic Diseases/Vital Statistics/Incidence vs Prevalence Rates/RESEARCH NOTES.md` (14,601 characters; reopened after save). Unresolved issues: current DOH indicator manuals and disease-specific definitions require final review; formulas must be matched to official reporting rules. Last action: replaced generic 2,429-character starter with substantive topic-specific research and reopened saved file (2026-10-17). Next action: continue to the next child topic and verify official indicator definitions before marking complete.
 - [x] **Swaroops, Sex Ratio** — `Elements of Primary Health Care/Locally-Endemic Diseases/Vital Statistics/Swaroops, Sex Ratio`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: sex-ratio definition/convention; Swaroop–Uemura index and formula; worked examples; comparison table; data-quality limitations; Philippine PSA context; nursing application; PNLE points; sources.  
+  Sources consulted: PSA population/census portal; PSA civil-registration/vital-statistics resources; WHO CRVS topic page. Important facts covered: Philippine-style male per 100 female convention must be checked in source; Swaroop's index is deaths aged 50+ divided by total deaths ×100; historic cutoffs are not universal current thresholds. Research file: `Elements of Primary Health Care/Locally-Endemic Diseases/Vital Statistics/Swaroops, Sex Ratio/RESEARCH NOTES.md` (7,715 characters; reopened after save). Unresolved issues: exact current PSA tables and any official current use of Swaroop's index require direct verification. Last action: expanded generic starter into substantive formulas/interpretation research (2026-10-17). Next action: continue the remaining individual child folders and verify official definitions.
 - [x] **Vital Statistics Basic Concepts** — `Elements of Primary Health Care/Locally-Endemic Diseases/Vital Statistics/Vital Statistics Basic Concepts`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 45/77; all 45 remain Drafted — Needs Verification.
-- **Folders still requiring substantive expansion:** 32/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** 46/77; all 46 remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** 31/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -847,3 +847,14 @@ Every directory below was present in the repository's recursive tree at the init
 - Reopened the saved file and confirmed 8,570 characters plus the formula table and source register.
 - Status: **Drafted — Needs Verification**, not Verified Complete. Exact current PSA/DOH definitions and source tables remain to be checked before numerical use.
 - Next action: continue the remaining individual child folders and keep coverage counts reconciled against the unique topic list.
+
+
+## Research Cycle Log — 2026-10-17 (Swaroops, Sex Ratio)
+
+- Applied the full standard to the individual `Vital Statistics/Swaroops, Sex Ratio` folder and expanded its generic starter note.
+- Expanded `Elements of Primary Health Care/Locally-Endemic Diseases/Vital Statistics/Swaroops, Sex Ratio/RESEARCH NOTES.md` from 2,401 characters to 7,715 characters.
+- Covered sex-ratio conventions, Philippine-style male-per-100-female formula, Swaroop–Uemura index (deaths age 50+ divided by all deaths ×100), worked examples, interpretation cautions, data quality, nursing applications and PNLE distinctions.
+- Sources consulted: PSA population/census portal; PSA civil-registration/vital-statistics resources; WHO CRVS topic page.
+- Reopened the saved file and confirmed 7,715 characters plus both formulas.
+- Status: **Drafted — Needs Verification**, not Verified Complete. Exact current PSA tables and any official current use of Swaroop's index require direct review; older interpretation bands are not universal standards.
+- Next action: continue remaining vital-statistics child folders and verify source definitions.
