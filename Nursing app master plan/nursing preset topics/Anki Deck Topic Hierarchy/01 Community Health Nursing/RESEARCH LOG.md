@@ -85,8 +85,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
 - [x] **Prioritization** — `CHN, PHC/Family ADPIE/Planning/Prioritization`  
-  Status: **Drafted — Needs Verification** | Required sections: definition/scope; emergency-priority override; common family-health scoring criteria; weighted calculation and example; modifiability vs preventive potential; salience/ethics; community-level prioritization; documentation/evaluation; PNLE distinctions; sources.  
-  Sources consulted: WHO–UNICEF PHC Operational Framework (2020); RA 11223 UHC Act. Important facts covered: emergency urgency overrides routine scoring; commonly taught family scoring criteria; formula and illustrative calculation; distinction between family and community priority-setting. Research file: `CHN, PHC/Family ADPIE/Planning/Prioritization/RESEARCH NOTES.md` (11,768 characters; reopened after save). Unresolved issues: exact family-priority weights/rating labels must be verified against the assigned CHN textbook/course rubric; no primary textbook page was reviewed in this cycle. Last action: replaced generic 2,647-character starter with substantive PNLE prioritization research and reopened saved file (2026-10-17). Next action: verify exact scoring table from the course source and continue with the next family ADPIE subtopic.
+  Status: **Drafted — Needs Verification** | Required sections: clinical triage vs family problem ranking; common criteria; scoring formula caveats; example; modifiability/preventive potential/salience; safety override; documentation/evaluation; PNLE points; sources.  
+  Sources consulted: WHO–UNICEF PHC Operational Framework (2020); RA 11223; RA 10173; required course-text rubric identified as the authority for exact scoring weights. Important facts covered: emergency danger overrides numerical score; common criteria are nature, modifiability, preventive potential and salience; exact weights vary by assigned rubric. Research file: `CHN, PHC/Family ADPIE/Planning/Prioritization/RESEARCH NOTES.md` (11,768 characters; reopened from main). Unresolved issues: exact assigned textbook scoring table must be directly checked before exam use. Last action: reconciled the substantive prioritization draft from main into the log (2026-10-17). Next action: continue the remaining family ADPIE topics and verify course-specific rubric.
 - [x] **Scoring** — `CHN, PHC/Family ADPIE/Planning/Scoring`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
@@ -1074,3 +1074,12 @@ Every directory below was present in the repository's recursive tree at the init
 - Status: **Drafted — Needs Verification**, not Verified Complete.
 - Coverage reconciliation: 60/77 folders have substantive drafts, 17/77 still require substantive expansion, and 0/77 are verified complete.
 - Next action: verify the assigned course's scoring table and continue with the next family ADPIE topic.
+
+
+## Research Cycle Log — 2026-10-17 (Family ADPIE Prioritization)
+
+- Reconciled the substantive prioritization draft from main into the checklist and log.
+- The saved file is 11,768 characters and covers clinical triage vs family problem ranking; common family nursing criteria; scoring formula/weights caveats; modifiability, preventive potential and salience; an illustrative example; documentation; evaluation; and PNLE distinctions.
+- Sources listed: WHO–UNICEF PHC Operational Framework (2020); RA 11223; RA 10173; the assigned course-text rubric as authority for exact scoring criteria.
+- Status: **Drafted — Needs Verification**, not Verified Complete. Exact assigned textbook scoring anchors/weights must be checked before using numerical scores in PNLE preparation.
+- Next action: continue remaining Family ADPIE topics and verify the prescribed scoring rubric.
