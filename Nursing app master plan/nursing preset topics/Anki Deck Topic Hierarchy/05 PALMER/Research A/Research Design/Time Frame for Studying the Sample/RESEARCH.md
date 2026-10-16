@@ -60,3 +60,36 @@ These examples depend on the actual recruitment and measurement protocol; labels
 ## Scope note
 
 Study labels vary; describe the actual timing, participant follow-up, and data source. Consider the design's ability to establish temporal order before interpreting associations causally.
+
+## Time frame, incidence, prevalence, and causal order
+
+A cross-sectional study often estimates **prevalence**—the proportion with a condition at a specified point or period—when sampling and measurement support that estimate. It generally cannot establish whether an exposure preceded an outcome if both are measured at the same time. A longitudinal cohort can estimate new events over follow-up when participants at risk and event timing are defined; the measure may be cumulative incidence or an incidence rate depending on the denominator and design. Do not call every proportion an incidence rate.
+
+Temporal order is necessary for causal reasoning but is not sufficient to prove causation. Confounding, selection, measurement, reverse causation, and changes in care may still explain an association. Retrospective data are not automatically invalid, but data availability, coding changes, incomplete records, and recall error can affect validity.
+
+## Repeated measures and follow-up quality
+
+When the same person or unit is measured repeatedly, observations are correlated. Analysis should account for within-person or within-cluster dependence. Consider whether measurement tools, definitions, staffing, clinical protocols, or data systems changed over time; apparent trends may reflect measurement changes rather than real change.
+
+Plan follow-up intervals around the expected timing of the outcome and the burden on participants. Document missed visits, loss to follow-up, censoring, withdrawals, and reasons where known. Differential attrition can bias results if remaining participants differ in outcome risk or relevant characteristics. Do not simply analyze complete cases without considering what missingness could mean.
+
+## Choosing between a panel and repeated cross-sections
+
+A **panel** follows the same units and can examine individual-level change, but it is vulnerable to attrition, practice effects, and changes in the composition of retained participants. **Repeated cross-sectional** studies sample the population at multiple time points and can track population-level trends, but changes may reflect shifts in who is sampled rather than change within individuals. The choice depends on whether the question concerns individual trajectories or population-level change.
+
+## Worked nursing examples
+
+- **Prevalence:** a one-time, well-defined survey estimates the proportion of nurses reporting back pain during the specified period. Sampling and recall limitations must be described.
+- **Incidence:** a cohort of nurses without a pressure injury at baseline is followed for new events over a defined period; eligibility, person-time, losses, and outcome definitions matter.
+- **Retrospective trend:** infection records over several years may reveal trends, but changes in surveillance definitions or reporting systems must be considered.
+- **Repeated cross-section vs panel:** annual surveys of different nurse samples estimate workforce-level changes; annual surveys of the same nurses can examine within-person changes but require handling attrition and repeated observations.
+
+## Reporting checklist
+
+Report the exact observation window, baseline definition, follow-up duration and schedule, whether the same units were followed, source of historical data, outcome timing, attrition/missing visits, censoring where relevant, and changes in measurement or practice. Explain why the temporal design can or cannot support claims about sequence, incidence, prevalence, or causation.
+
+## Sources
+
+- Cochrane Handbook, methods and interpretation resources: https://training.cochrane.org/handbook
+- EQUATOR Network, **STROBE** for observational studies: https://www.equator-network.org/reporting-guidelines/strobe/
+- OpenStax, **Introductory Statistics 2e**: https://openstax.org/details/books/introductory-statistics-2e
