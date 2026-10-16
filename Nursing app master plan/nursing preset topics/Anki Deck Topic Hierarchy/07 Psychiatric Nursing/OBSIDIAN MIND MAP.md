@@ -104,4 +104,10 @@
 - [[Part 3/RESEARCH]] — draft notes present; verification pending
 - [[Psych Extra/RESEARCH]] — draft notes present; verification pending
 
-**Coverage audit (2026-10-17):** recursive tree found 46 directories and a RESEARCH.md in each. This is structural coverage only; none is yet marked fully source-verified. Update links/status as each file is reopened and checked.
+**Coverage audit (2026-10-17):** recursive tree found 45 descendant directories and a RESEARCH.md in each. This is structural coverage only; none is yet marked fully source-verified. Update links/status as each file is reopened and checked.
+
+
+## Verification status update
+- Recursive audit: 45 descendant directories; 45 RESEARCH.md files found (100% structural coverage).
+- Full source/content verification: pending for all topics.
+- Primary source hubs checked: WHO mhGAP 3rd edition (2023), WHO mhGAP Evidence Resource Centre, Philippine RA 11036, and relevant NICE guidance.
