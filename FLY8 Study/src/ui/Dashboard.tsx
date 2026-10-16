@@ -1,14 +1,16 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { View } from 'react-native';
 import type { AppState } from '../core/types';
 import { currentStreak, levelProgress, recommendNext, totalPoints, weakTopics } from '../core/mastery';
+import { countDueCards } from '../srs/store';
 import { Btn, Card, EmptyState, H, P, Pill, ProgressBar, c, sp } from './kit';
-
-/** Due reviews stay 0 until flashcards exist (R-019 needs the scheduler). */
-const DUE_REVIEWS_PLACEHOLDER = 0;
 
 export function Dashboard({ state, go }: { state: AppState; go: (tab: 'study' | 'library') => void }) {
   const now = Date.now();
+  const [due, setDue] = useState(0);
+  useEffect(() => {
+    void countDueCards(Date.now()).then(setDue);
+  }, [state.events.length]);
   const tz = new Date(now).getTimezoneOffset();
   const points = totalPoints(state.events, now, tz);
   const lv = levelProgress(points);
@@ -51,8 +53,8 @@ export function Dashboard({ state, go }: { state: AppState; go: (tab: 'study' | 
         <View style={{ flex: 1 }}>
           <Card>
             <P dim>Reviews due</P>
-            <H>{DUE_REVIEWS_PLACEHOLDER}</H>
-            <P dim>Placeholder until flashcards exist.</P>
+            <H>{due}</H>
+            <P dim>{due ? 'Open the Review tab to clear them.' : 'No cards due right now.'}</P>
           </Card>
         </View>
       </View>
