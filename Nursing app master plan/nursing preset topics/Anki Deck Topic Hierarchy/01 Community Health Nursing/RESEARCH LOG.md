@@ -10,10 +10,10 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 15 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, and Food Fortification Program.
+- **Substantive topic drafts expanded:** 16 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, and Food Fortification Program.
 - **Topics verified complete:** 0
-- **Folders still requiring substantive topic-specific expansion:** 62 (all 77 have a notes file, but most remain initial starter notes).
-- **Drafts awaiting source/content verification:** 15
+- **Folders still requiring substantive topic-specific expansion:** 61 (all 77 have a notes file, but most remain initial starter notes).
+- **Drafts awaiting source/content verification:** 16
 - **Research notes present:** 77/77; this is file presence, not research completion.
 - **Completion:** 0% verified topic research. No topic is marked Verified Complete.
 - **Mind map:** Existing Obsidian map reflects the folder hierarchy; status annotations, links and coverage audit still required.
@@ -241,8 +241,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: **Drafted — Needs Verification** | Required sections: definition/purpose; mandatory vs voluntary fortification; RA 8976 and implementation; quality assurance; nursing responsibilities; safety/limitations; indicators; RA 8172 distinction; PNLE points; sources.  
   Sources consulted: RA 8976 Supreme Court E-Library; DOH Department Circular No. 97 s. 2004 implementing rules (Supreme Court E-Library); RA 8172 ASIN Law (Lawphil); DOST-FNRI Food Fortification Facts; Senate Legislative Reference Bureau record. Important facts covered: statutory program structure; historical staple-food fortification provisions; difference between fortification and supplementation; quality assurance and need to verify current standards. Research file: `Elements of Primary Health Care/Nutrition/Food Fortification Program/RESEARCH NOTES.md` (12,830 characters; reopened after save). Unresolved issues: full-text/current amendment and technical-standard review; exact current nutrient levels and agency procedures not asserted. Last action: expanded generic 2,322-character starter note into substantive research and reopened saved file (2026-10-17). Next action: continue to the next topic folder and verify sources before marking complete.
 - [x] **Malnutrition** — `Elements of Primary Health Care/Nutrition/Malnutrition`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: forms/anthropometric distinctions; causes/risk factors; assessment/growth monitoring; red flags/referral; management principles; life-course prevention; supplement/therapeutic-food safety; evaluation; Philippine context; PNLE points; sources.  
+  Sources consulted: WHO Malnutrition fact sheet (2024); WHO Child Growth page; DOH CHD Region II Nutrition Program page (2026); DOST-FNRI Pinggang Pinoy; WHO/UNICEF/World Bank Joint Child Malnutrition Estimates page; WHO current nutrition guidance listing for wasting/nutritional edema. Important facts covered: wasting vs stunting vs underweight; age-/sex-specific growth standards; bilateral pitting edema and other urgent findings; social determinants; treatment must follow current protocol. Research file: `Elements of Primary Health Care/Nutrition/Malnutrition/RESEARCH NOTES.md` (14,076 characters; reopened after save). Unresolved issues: full text/link review; current Philippine severity criteria, referral thresholds and treatment regimens must be checked in the applicable official protocol. Last action: expanded generic 2,294-character starter note into substantive research and reopened saved file (2026-10-17). Next action: continue to next topic folder; verify sources/content before marking complete.
 - [x] **Sanitation and Environmental Health** — `Elements of Primary Health Care/Sanitation and Environmental Health`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 15/77; all fifteen remain Drafted — Needs Verification.
-- **Folders still requiring substantive expansion:** 62/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** 16/77; all sixteen remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** 61/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -488,3 +488,14 @@ Every directory below was present in the repository's recursive tree at the init
 - Reopened the saved file from GitHub and confirmed the primary, secondary and tertiary sections are present.
 - Status: **Drafted — Needs Verification**, not Verified Complete. Current Philippine screening schedules and immunization details require current topic-specific official guidance; final link-by-link and full-text review remains.
 - Next action: continue with the next unchecked topic in the CHN hierarchy and keep the per-topic log current.
+
+
+## Research Cycle Log — 2026-10-17 (Malnutrition)
+
+- Applied the full research standard to `Nutrition/Malnutrition` and inspected the existing starter note.
+- Expanded `Elements of Primary Health Care/Nutrition/Malnutrition/RESEARCH NOTES.md` from 2,294 characters to 14,076 characters.
+- Covered forms and distinctions, causes/risk factors, history and anthropometric assessment, age-/sex-specific growth standards, urgent red flags, management principles/referral, life-course prevention, Philippine nutrition context, supplement/therapeutic-food safety, indicators and PNLE distinctions.
+- Sources consulted: WHO Malnutrition fact sheet (2024); WHO Child Growth page; DOH CHD Region II Nutrition Program page (2026); DOST-FNRI Pinggang Pinoy; WHO/UNICEF/World Bank Joint Child Malnutrition Estimates page; WHO current nutrition guidance listing for wasting/nutritional edema.
+- Reopened the saved file and confirmed 14,076 characters plus forms, urgent findings and source register.
+- Status: **Drafted — Needs Verification**, not Verified Complete. Exact severity thresholds, referral criteria and treatment schedules remain protocol-dependent.
+- Next action: continue to the next individual topic folder and keep the log/mind map synchronized; final source and recursive audits remain outstanding.
