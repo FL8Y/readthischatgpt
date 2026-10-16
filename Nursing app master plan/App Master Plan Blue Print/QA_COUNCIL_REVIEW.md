@@ -236,7 +236,7 @@ Next: verify the raw source behind the Gizmo minimum-SDK discrepancy; run availa
 
 ### Verification limitation
 
-A local `git ls-remote` / checkout attempt could not resolve `github.com` in the container environment, so no local reference-code tests or app build could be run here. GitHub API reads and file read-backs worked. This cycle did **not** run the APKG tests, scheduler tests, TypeScript typecheck, device tests, live provider requests or runtime/integration tests. Historical test counts in reference READMEs are not treated as newly reproduced results. The App 1 archive remains unverified against the original manifest and all hashes. The App 3 decoded `AndroidManifest.decoded.xml` shows `compileSdkVersion="36"` but has no `<uses-sdk>` element, so it cannot resolve conflicting reported minimum SDK values 26 vs 34. This remains UNKNOWN pending a primary artifact such as `apktool.yml`. The App 3 README describes its report as 52 pages including addenda, while an earlier QA note said 54 pages were read; this page-count discrepancy also remains unresolved because this pass did not independently extract the DOCX. The full recursive tree was inventoried; not every binary or unrelated generated Claude/Ruflo file was semantically read.
+Historical Cycle 4 limitation (superseded by Cycle 6/7): at that time, a local `git ls-remote` / checkout attempt could not resolve `github.com`, so reference tests and app build were not run. The report page-count issue was subsequently resolved by reading the current Library DOCX files in full: Gizmo is 54 pages and AnkiDroid is 35 pages; the stale App 3 README count was corrected. The Gizmo min-SDK conflict remains UNKNOWN because the report itself states both 34 and 26, and the primary apktool.yml is absent. The App 1 archive remains unverified against a complete manifest and all hashes. The full tree was inventoried; not every binary or unrelated generated Claude/Ruflo file was semantically read.
 
 **Primary-source cross-check:** The decoded App 3 manifest was fetched and inspected directly. It contains compile SDK 36 but no `<uses-sdk>` declaration, so it is not evidence for a minimum SDK of either 26 or 34. The report page-count discrepancy also remains open. Do not treat either discrepancy as resolved without checking the original report/build metadata from source bytes.
 
@@ -365,20 +365,20 @@ Two standalone score artifacts were added briefly and then removed by subsequent
 
 ### Evidence-weighted 1000-point scorecard
 
-**Current audited score: 820/1,000 (82%). Target: 1,000/1,000. Verdict: NOT 10/10.** Scores reward specification quality and verifiable evidence; they do not imply that the app is implemented or runtime-tested.
+**Current audited score: 784/1,000 (78.4%). Target: 1,000/1,000. Verdict: NOT 10/10.** Scores reward specification quality and verifiable evidence; they do not imply that the app is implemented or runtime-tested. Cycle 6's provisional 820 figure is superseded: Cycle 7 caught that the former category weights summed to 1,050, not 1,000. The score has been recalculated with a corrected 1,000-point weighting; this is a scoring correction, not a quality regression.
 
 | Category | Weight | Current | Evidence-based reason points are not yet full |
 |---|---:|---:|---|
-| Source evidence and provenance | 150 | 105 | Both reports were fully read, but the Gizmo SDK contradiction and incomplete archive manifest prevent full source reconciliation. |
-| Requirements and traceability | 150 | 145 | R-001–R-034 have a requirement-to-contract/test-oracle matrix; independent audit and exact expected fixture outputs remain. |
-| Architecture coherence and decisions | 150 | 110 | Recommended defaults and alternatives exist; device matrix, provider support/cost, scheduler selection and empirical constraints remain unverified. |
-| Learning system and mastery | 150 | 120 | Diagnostic gate, evidence rules, deterministic plan order and scenario classes are explicit; thresholds are provisional and need independent learning-science review plus frozen fixture outputs. |
+| Source evidence and provenance | 125 | 88 | Both reports were fully read, but the Gizmo SDK contradiction and incomplete archive manifest prevent full source reconciliation. |
+| Requirements and traceability | 125 | 121 | R-001–R-034 have a requirement-to-contract/test-oracle matrix; independent audit and exact expected fixture outputs remain. |
+| Architecture coherence and decisions | 125 | 92 | Recommended defaults and alternatives exist; device matrix, provider support/cost, scheduler selection and empirical constraints remain unverified. |
+| Learning system and mastery | 125 | 100 | Diagnostic gate, evidence rules, deterministic plan order and scenario classes are explicit; thresholds are provisional and need independent learning-science review plus frozen fixture outputs. |
 | Data model and service contracts | 100 | 90 | Canonical IDs, event history, answer-key boundary, idempotency, concurrency, migrations and exact mastery aggregation are specified; no executable contract tests ran. |
 | UX, accessibility and recovery | 75 | 60 | Main journeys and accessibility/recovery requirements are specified; screen-state inventory, usability evidence and assistive-tech/device checks remain. |
 | Nursing-content reliability | 75 | 60 | Source provenance and unsafe/unsupported-content handling are specified; authoritative source-class policy and independent clinical review remain. |
 | QA and reproducibility | 100 | 45 | Full report page counts and a partial archive comparison are verified; reference tests/typecheck could not run in this environment and the full archive remains unavailable. |
-| Agent coordination and handoffs | 50 | 40 | Work packages, ownership, evidence labels and boundaries are explicit; no live independent Claude Code agent review was run in this session. |
-| Repository integrity and navigation | 50 | 45 | Consolidation and current readbacks are maintained; final link/path scan must be recorded after this write and old historical count statements need to remain clearly marked historical. |
+| Agent coordination and handoffs | 75 | 60 | Work packages, ownership, evidence labels and boundaries are explicit; no live independent Claude Code agent review was run in this session. |
+| Repository integrity and navigation | 75 | 68 | Consolidation and current readbacks are maintained; final link/path scan must be recorded after this write and old historical count statements need to remain clearly marked historical. |
 | **Total** | **1,000** | **820** | **180 points remain unearned.** |
 
 ### Hard gates for a genuine 1000/1000
