@@ -1,0 +1,747 @@
+[
+ {
+  "id": "np5-001",
+  "area": "NP5",
+  "topic": "Suicide risk: direct inquiry",
+  "archetype": "mental-health-crisis",
+  "difficulty": 3,
+  "vignette": "A nurse on an adult psychiatric unit is talking with a 34-year-old client admitted two days ago with major depression. In a flat, quiet voice the client says, 'I keep thinking everyone would be better off without me.' The client has been calm and cooperative all morning and is sitting alone in the day room.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Stay with the client and ask directly whether there is a plan and intent to end their life",
+   "Ask the client to sign a written no-harm agreement before leaving the day room",
+   "Document the statement and report it to the provider at the end of the shift",
+   "Reassure the client that these feelings pass and invite them to the afternoon group"
+  ],
+  "answerIndex": 0,
+  "strategyTag": "Safety first, then rapport",
+  "reasoning": [
+   "1. The stem asks for the FIRST action, and the statement signals possible suicide risk: a safety priority.",
+   "2. Apply the rule 'assess before intervening in a stable client'; here the risk level is unknown, so the nurse must assess it now.",
+   "3. Direct, open questioning about plan and intent is the standard way to find out how dangerous the situation is.",
+   "4. Staying with the client keeps the client safe while the assessment happens.",
+   "5. Eliminate the no-harm agreement: it does not replace assessment or supervision.",
+   "6. Eliminate delay (end of shift) and false reassurance, which dismiss the client's communication.",
+   "7. Decision: assess risk directly while remaining present."
+  ],
+  "optionRationales": [
+   "Correct. Asking directly about plan and intent does not plant the idea; it gathers the data needed to set the level of observation, and staying present protects the client.",
+   "Tempting because it looks like a safety measure, but a written agreement is not reliable protection and is not an assessment. It should not come before finding out the risk.",
+   "Documentation and reporting are needed, but waiting until the end of the shift leaves a possible suicide risk unassessed.",
+   "Empathic-sounding but it is false reassurance and avoids the client's statement; group attendance does not address safety."
+  ],
+  "keyFacts": [
+   "Ask directly about suicidal thoughts, plan, intent and access to means.",
+   "A no-harm agreement does not replace assessment and supervision."
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-002",
+  "area": "NP5",
+  "topic": "Anxiety: reflecting feelings",
+  "archetype": "therapeutic-communication-best-response",
+  "difficulty": 2,
+  "vignette": "A 27-year-old client with generalized anxiety is admitted to the unit for the first time. While the nurse is orienting the client to the day room, the client looks at other clients and says, 'I just know everyone here thinks I'm crazy.' The client is wringing their hands and speaking quickly.",
+  "stem": "Which response by the nurse is most therapeutic?",
+  "options": [
+   "'Why do you think that everyone here thinks you are crazy?'",
+   "'It sounds like you are worried about how others see you.'",
+   "'Nobody here thinks that; everyone on this unit is very kind.'",
+   "'Let's not focus on that. Come see the activity schedule.'"
+  ],
+  "answerIndex": 1,
+  "strategyTag": "Communication: reflect and explore",
+  "reasoning": [
+   "1. Identify the item type: therapeutic communication best response.",
+   "2. Find the client's feeling under the words: worry and fear of being judged.",
+   "3. Preferred responses reflect the feeling or use open-ended exploration.",
+   "4. Eliminate 'why' questions, which feel accusatory and ask for justification.",
+   "5. Eliminate false reassurance and disagreeing with the client's perception.",
+   "6. Eliminate changing the subject, which blocks expression of feelings.",
+   "7. Decision: the reflection of feeling."
+  ],
+  "optionRationales": [
+   "A 'why' question can sound accusatory and puts the client on the spot; it tempts because it seems to explore.",
+   "Correct. It names the feeling, shows the nurse is listening, and invites the client to say more.",
+   "Reassuring and kind in tone, but it dismisses the feeling and the nurse cannot speak for everyone; this is false reassurance.",
+   "Changes the subject and avoids the concern; tempting because it looks like helpful orientation."
+  ],
+  "keyFacts": [
+   "Reflect feelings and use open-ended prompts.",
+   "Avoid 'why' questions, false reassurance and advice."
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-003",
+  "area": "NP5",
+  "topic": "Airway before bleeding",
+  "archetype": "abc-ordering",
+  "difficulty": 3,
+  "vignette": "A nurse in the emergency department assists with a 45-year-old man brought in after a fall from a ladder. He responds only to pain, has loud snoring respirations, and a small scalp laceration with minor oozing. His oxygen saturation is falling slowly. A cervical collar has been applied.",
+  "stem": "Which action should the nurse perform first?",
+  "options": [
+   "Apply a pressure dressing to the scalp laceration",
+   "Obtain intravenous access and begin an infusion",
+   "Open the airway using a jaw-thrust manoeuvre",
+   "Perform a full neurological assessment with the Glasgow Coma Scale"
+  ],
+  "answerIndex": 2,
+  "strategyTag": "ABC: airway first",
+  "reasoning": [
+   "1. Several actions are correct in trauma; the stem asks which comes first.",
+   "2. Apply ABC: airway before breathing before circulation.",
+   "3. Snoring respirations in a client who responds only to pain suggest the tongue or soft tissue is partly obstructing the airway.",
+   "4. The bleeding is described as minor, so it does not outrank the airway.",
+   "5. Because of the fall, the airway should be opened with a jaw-thrust to protect the cervical spine.",
+   "6. IV access and neurological assessment follow once the airway is open.",
+   "7. Decision: open the airway with jaw thrust."
+  ],
+  "optionRationales": [
+   "Bleeding control matters, but this laceration is minor and circulation comes after airway.",
+   "Circulation access is important but follows airway and breathing.",
+   "Correct. Partial airway obstruction is the most immediate threat; the jaw thrust opens the airway while limiting neck movement.",
+   "A neurological assessment is needed but delaying airway management for it risks hypoxia, which would worsen brain injury."
+  ],
+  "keyFacts": [
+   "Airway comes first, even with other injuries present.",
+   "Use a jaw thrust rather than head tilt when cervical injury is possible."
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-004",
+  "area": "NP5",
+  "topic": "Complete airway obstruction",
+  "archetype": "airway-obstruction-exception",
+  "difficulty": 3,
+  "vignette": "A nurse is on a medical unit during the dinner hour. A 68-year-old client who was eating suddenly grabs their throat, cannot speak, makes no sound when trying to cough, and has a panicked expression. The client's lips are beginning to look dusky.",
+  "stem": "What should the nurse do immediately?",
+  "options": [
+   "Ask the client to try to speak and then assess the breath sounds",
+   "Leave the client to call the rapid response team before intervening",
+   "Encourage the client to cough forcefully while a suction set is gathered",
+   "Perform abdominal thrusts until the object is expelled or the client collapses"
+  ],
+  "answerIndex": 3,
+  "strategyTag": "Exception: emergency overrides assess-first",
+  "reasoning": [
+   "1. Read the findings: unable to speak or cough, silent, dusky lips. This is a complete airway obstruction.",
+   "2. This is a stated exception to 'assess first': a clear life threat needs action now.",
+   "3. Asking the client to speak or auscultating wastes time the client does not have.",
+   "4. Leaving the client alone removes the only person who can relieve the obstruction; help is called by someone else or right after starting the intervention.",
+   "5. Coughing helps in a partial obstruction with effective air movement, not here.",
+   "6. Decision: begin abdominal thrusts and be ready to start CPR if the client becomes unresponsive."
+  ],
+  "optionRationales": [
+   "The client cannot speak, so this wastes time; assessment is not appropriate before action in complete obstruction.",
+   "Calling for help is needed but must not leave the client alone; the nurse should start relief and have someone else call.",
+   "Forceful coughing is encouraged only when air is still moving; this client cannot cough at all.",
+   "Correct. Abdominal thrusts are the immediate intervention for a conscious adult with complete obstruction."
+  ],
+  "keyFacts": [
+   "Inability to speak or cough means complete obstruction: act immediately.",
+   "If the client becomes unresponsive, start CPR."
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-005",
+  "area": "NP5",
+  "topic": "Psychiatric unit: priority client",
+  "archetype": "which-client-first",
+  "difficulty": 4,
+  "vignette": "A nurse on a psychiatric unit is starting the shift and receives report on four clients. Each client is due for an assessment within the next hour, and the nurse must decide the order. Client details are summarised in the options.",
+  "stem": "Which client should the nurse see first?",
+  "options": [
+   "A client with schizophrenia who is stable and is asking about a supervised outdoor break",
+   "A client who started an antipsychotic medication last week and now has a fever, muscle rigidity, sweating and new confusion",
+   "A client with major depression who is tearful and wants to talk about difficulties at home",
+   "A client with panic disorder who is pacing and asking for a prescribed as-needed medication"
+  ],
+  "answerIndex": 1,
+  "strategyTag": "Triage: unstable and new before stable",
+  "reasoning": [
+   "1. Rank the four clients: who is unstable, new or changing?",
+   "2. Use unstable before stable, new/unexpected before chronic/expected, and Maslow (physiological before psychosocial).",
+   "3. The client on an antipsychotic with fever, rigidity, sweating and confusion has a new combination that may signal a life-threatening reaction to the medication.",
+   "4. The other three clients have ongoing, expected problems and no sign of physiological instability.",
+   "5. Pacing and requests for medication are important comfort needs but not life-threatening.",
+   "6. Decision: see the client with the new fever, rigidity and confusion first and notify the provider promptly after assessment."
+  ],
+  "optionRationales": [
+   "Stable and routine; this can be handled later.",
+   "Correct. New fever, rigidity and confusion on an antipsychotic could indicate a medical emergency and is the only physiological, unstable presentation.",
+   "Emotional distress needs a response, but it is an expected feature of depression and not a physiological threat.",
+   "Distressing and needs timely help, but it is consistent with the client's known disorder and is not an emergency."
+  ],
+  "keyFacts": [
+   "Fever, rigidity and confusion after starting an antipsychotic needs urgent medical evaluation.",
+   "New or changing findings outrank chronic and expected ones."
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-006",
+  "area": "NP5",
+  "topic": "Sepsis: recognising deterioration",
+  "archetype": "stable-vs-unstable",
+  "difficulty": 4,
+  "vignette": "A nurse in a medical-surgical unit is assessing four clients being treated for infections. Over the last two hours, one client with pneumonia has become newly restless and confused, has a rising respiratory rate and heart rate, and a blood pressure lower than at the previous check. The nurse is deciding what to report first.",
+  "stem": "Which assessment finding requires the nurse's most urgent follow-up?",
+  "options": [
+   "New confusion with falling blood pressure and rising heart rate in the client with pneumonia",
+   "A temperature that is unchanged from the morning in a client with a urinary infection",
+   "A cough producing the same amount of sputum in a client recovering from pneumonia",
+   "A client who reports a poor appetite on the third day of antibiotic therapy"
+  ],
+  "answerIndex": 0,
+  "strategyTag": "Unstable before stable",
+  "reasoning": [
+   "1. Find which finding is NEW or CHANGING versus stable.",
+   "2. Use 'unstable, new, unexpected outrank stable, expected'.",
+   "3. New confusion, falling blood pressure and rising heart rate and respiratory rate form a pattern consistent with worsening perfusion and possible sepsis progressing toward shock.",
+   "4. This pattern may involve more than one organ system (brain, circulation, lungs), which makes it more urgent.",
+   "5. The other findings are unchanged or expected during infection treatment.",
+   "6. Decision: report the deteriorating client now."
+  ],
+  "optionRationales": [
+   "Correct. A change in mental status with lower blood pressure suggests inadequate perfusion and requires immediate reporting and intervention.",
+   "Unchanged temperature is stable data and not urgent.",
+   "A stable amount of sputum is expected and not changing.",
+   "Poor appetite is common and does not suggest immediate danger."
+  ],
+  "keyFacts": [
+   "Confusion plus hypotension plus rising heart and respiratory rates suggests inadequate perfusion.",
+   "Trend matters more than a single value."
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-007",
+  "area": "NP5",
+  "topic": "Delegation on a psychiatric unit",
+  "archetype": "delegation-assignment",
+  "difficulty": 4,
+  "vignette": "A charge nurse on an inpatient mental health unit is assigning tasks for the shift. Staff available include a registered nurse and an unlicensed assistive personnel. One client was admitted this morning after expressing suicidal thoughts, one is anxious after a family argument, one received a prn antianxiety medication an hour ago, and one is stable and under routine observation.",
+  "stem": "Which task is most appropriate to delegate to the unlicensed assistive personnel?",
+  "options": [
+   "Assess the newly admitted client for current suicide risk",
+   "Teach coping skills to the client who is anxious after the argument",
+   "Evaluate whether the prn antianxiety medication relieved the symptoms",
+   "Measure and record the vital signs of the stable client under routine observation"
+  ],
+  "answerIndex": 3,
+  "strategyTag": "Delegation: stable and routine only",
+  "reasoning": [
+   "1. Identify the task type: assessment, teaching, evaluation, or routine measurement.",
+   "2. Rule: assessment, teaching, evaluation and care of unstable or new clients stay with the licensed nurse.",
+   "3. A suicide risk assessment of a newly admitted client is assessment of a high-risk client.",
+   "4. Teaching coping skills is teaching.",
+   "5. Evaluating medication response is evaluation and needs nursing judgement.",
+   "6. Routine vital signs on a stable client are predictable and within the assistant's training; the nurse remains responsible for interpreting results.",
+   "7. Decision: delegate the vital signs."
+  ],
+  "optionRationales": [
+   "Assessment of a high-risk client cannot be delegated.",
+   "Teaching is a nursing responsibility.",
+   "Evaluation needs a nurse's judgement.",
+   "Correct. A routine, predictable task on a stable client, with results reported to the nurse."
+  ],
+  "keyFacts": [
+   "Delegate only stable, routine and predictable tasks.",
+   "Assessment, teaching and evaluation are not delegated to unlicensed staff."
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-008",
+  "area": "NP5",
+  "topic": "Lithium: toxicity recognition",
+  "archetype": "expected-vs-adverse-effect",
+  "difficulty": 4,
+  "vignette": "A nurse in a mental health clinic is following a 40-year-old client who has been taking lithium for bipolar disorder for several weeks. The client reports several new symptoms at the visit. The nurse needs to decide which report indicates a problem that needs the provider's prompt attention.",
+  "stem": "Which client report requires follow-up?",
+  "options": [
+   "Increased thirst and urination during the first week of therapy",
+   "A slight fine tremor of the hands that is not bothersome",
+   "Persistent vomiting and diarrhea with unsteady walking and drowsiness",
+   "Mild nausea that improves when the medication is taken with meals"
+  ],
+  "answerIndex": 2,
+  "strategyTag": "Therapeutic vs adverse",
+  "reasoning": [
+   "1. The stem is 'requires follow-up', so find the unexpected or dangerous effect.",
+   "2. Lithium has a narrow margin between therapeutic and toxic levels.",
+   "3. Some early effects are common and manageable: mild nausea, mild thirst, fine tremor.",
+   "4. Persistent vomiting and diarrhea with unsteady gait and drowsiness suggests possible toxicity affecting the gut and nervous system.",
+   "5. Dehydration from vomiting and diarrhea can also raise the lithium level.",
+   "6. Decision: the toxicity pattern needs prompt follow-up."
+  ],
+  "optionRationales": [
+   "Common early effect and often improves; not urgent.",
+   "A fine tremor is a recognised mild effect, tempting because tremor is linked to lithium, but a fine tremor alone is expected.",
+   "Correct. These findings suggest possible toxicity and require prompt provider contact and evaluation.",
+   "Mild nausea is a common effect that can be reduced by taking with food."
+  ],
+  "keyFacts": [
+   "Lithium has a narrow therapeutic range.",
+   "Persistent vomiting, diarrhea, unsteadiness and drowsiness may signal toxicity."
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-009",
+  "area": "NP5",
+  "topic": "Escalating agitation: de-escalation",
+  "archetype": "least-invasive-first",
+  "difficulty": 4,
+  "vignette": "A nurse on an inpatient unit notices a 30-year-old client with a psychotic disorder pacing, speaking loudly and clenching fists after an argument with a peer. The client has not threatened anyone yet and is still responding to staff. Several other clients are nearby in the day room.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Speak calmly in a low voice, offer space and invite the client to a quieter area",
+   "Request an order for physical restraint to prevent a possible assault",
+   "Prepare to give an intramuscular as-needed medication without discussion",
+   "Tell the client firmly that aggression will not be tolerated and set consequences"
+  ],
+  "answerIndex": 0,
+  "strategyTag": "Least invasive first",
+  "reasoning": [
+   "1. The client is escalating but has not harmed anyone, and still responds to staff.",
+   "2. Apply 'least restrictive, least invasive effective option first'.",
+   "3. Verbal de-escalation, reducing stimulation and offering space come before medication, seclusion or restraint.",
+   "4. Protecting others also matters, so moving the client to a quieter place helps everyone.",
+   "5. Restraint and unrequested injection are higher-level measures used only when less restrictive options fail or there is imminent danger.",
+   "6. A confrontational limit-setting tone is likely to escalate the situation.",
+   "7. Decision: calm, low-voice de-escalation and quieter area."
+  ],
+  "optionRationales": [
+   "Correct. It is least restrictive, preserves the relationship, and may prevent escalation.",
+   "Restraint is an intervention of last resort and is not justified here.",
+   "Medication may be needed later but should be offered after de-escalation or when the client agrees or danger is imminent.",
+   "Confrontation and threats of consequences can increase agitation."
+  ],
+  "keyFacts": [
+   "Use the least restrictive effective measure first.",
+   "Reduce stimulation and use calm, low-voice communication."
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-010",
+  "area": "NP5",
+  "topic": "Depression: priority need",
+  "archetype": "priority-physiological-maslow",
+  "difficulty": 3,
+  "vignette": "A nurse admits a 52-year-old woman with severe depression who has barely eaten or drunk anything for three days. She has dry mucous membranes, dizziness when she stands, and says she feels worthless. She denies thoughts of self-harm when asked directly. She also says she has been isolated from friends and sleeping poorly.",
+  "stem": "Which problem should the nurse address first?",
+  "options": [
+   "Feelings of worthlessness and low self-esteem",
+   "Social isolation and loss of friendships",
+   "Fluid volume deficit related to poor oral intake",
+   "Disturbed sleep pattern related to depression"
+  ],
+  "answerIndex": 2,
+  "strategyTag": "Maslow: physiological first",
+  "reasoning": [
+   "1. List the problems and label their Maslow levels.",
+   "2. Esteem and belonging needs (worthlessness, isolation) are higher than physiological needs.",
+   "3. Sleep and fluids are both physiological; compare urgency.",
+   "4. Dry mucous membranes and dizziness on standing suggest actual dehydration and reduced circulating volume, with a fall risk.",
+   "5. Poor sleep is distressing but not immediately dangerous.",
+   "6. Suicide risk was specifically assessed and denied, so safety does not outrank hydration in this stem.",
+   "7. Decision: address the fluid deficit."
+  ],
+  "optionRationales": [
+   "Esteem need; important in depression but higher on the pyramid.",
+   "Belonging need; tempting because it is a hallmark of depression.",
+   "Correct. It is an actual physiological problem with circulation implications.",
+   "Sleep is a physiological need but less urgent than hydration."
+  ],
+  "keyFacts": [
+   "Physiological needs come before psychosocial needs.",
+   "Treat actual problems before higher-level needs."
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-011",
+  "area": "NP5",
+  "topic": "Hypovolemic shock: worsening",
+  "archetype": "abnormal-finding-identification",
+  "difficulty": 5,
+  "vignette": "A nurse is monitoring a 29-year-old man after a road traffic injury with internal bleeding. He has received fluids and blood products. At the last two checks he was anxious, with a fast pulse and cool pale skin. The nurse now compares the new findings with the earlier trend to decide whether he is getting worse.",
+  "stem": "Which finding best indicates the shock is progressing despite treatment?",
+  "options": [
+   "Reports of thirst and a dry mouth that are the same as before",
+   "Cool, pale hands that are unchanged from the earlier assessments",
+   "Urine output that has remained steady and adequate since the last check",
+   "New drowsiness with a falling blood pressure while the heart rate keeps rising"
+  ],
+  "answerIndex": 3,
+  "strategyTag": "Expected vs unexpected finding",
+  "reasoning": [
+   "1. The stem asks which finding shows progression, so look for change in a worsening direction.",
+   "2. Compare each finding with the trend: unchanged findings are not progression.",
+   "3. Thirst and cool pale skin were already present and unchanged.",
+   "4. Steady adequate urine output suggests kidney perfusion is being maintained.",
+   "5. New drowsiness and a falling blood pressure with a still-rising heart rate indicate the body can no longer compensate and the brain and circulation are affected.",
+   "6. Decision: the new decline in consciousness and blood pressure."
+  ],
+  "optionRationales": [
+   "Expected in hypovolemia and unchanged, so it does not show progression.",
+   "Already present earlier; no change means no new information about progression.",
+   "This is reassuring and suggests organ perfusion is maintained.",
+   "Correct. Decreased level of consciousness and falling blood pressure signal decompensation."
+  ],
+  "keyFacts": [
+   "Early shock shows anxiety and a rapid pulse; late shock shows falling blood pressure and reduced consciousness.",
+   "Compare against the trend, not single values."
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-012",
+  "area": "NP5",
+  "topic": "Disaster triage",
+  "archetype": "which-client-first",
+  "difficulty": 5,
+  "vignette": "A nurse is assisting at the scene of a bus collision with many casualties, using a simple field triage system based on walking ability, breathing, circulation and mental status. Four casualties are assessed in sequence by the nurse.",
+  "stem": "Which casualty should be classified for immediate treatment and transport first?",
+  "options": [
+   "A casualty who is walking around with an abrasion on the forearm",
+   "A casualty with rapid shallow breathing who is unable to follow simple commands",
+   "A casualty who is not breathing even after the airway is repositioned",
+   "A casualty with an obvious forearm fracture who is alert and breathing normally"
+  ],
+  "answerIndex": 1,
+  "strategyTag": "Triage: unstable and new before stable",
+  "reasoning": [
+   "1. In mass-casualty triage the aim is the greatest good for the greatest number.",
+   "2. Walking casualties are minor and wait.",
+   "3. A casualty who is still not breathing after airway repositioning is generally classified as expectant or deceased in a mass-casualty setting, because resources go to survivable patients.",
+   "4. A casualty with rapid shallow breathing and inability to follow commands has a threatened airway/breathing/circulation or brain function but can likely be saved: immediate.",
+   "5. An alert, breathing casualty with a fracture is delayed.",
+   "6. Decision: the casualty with rapid shallow breathing and inability to obey commands."
+  ],
+  "optionRationales": [
+   "Minor injury, can walk; lowest priority.",
+   "Correct. Respiratory compromise with altered mental status is life threatening but treatable and warrants immediate category.",
+   "Tempting because it is the most critical looking, but in mass-casualty triage a casualty who does not breathe after repositioning the airway is not first priority.",
+   "Painful but not immediately life threatening; delayed category."
+  ],
+  "keyFacts": [
+   "Mass-casualty triage differs from everyday priority: save those most likely to survive with quick treatment.",
+   "Walking casualties wait; breathing problems and altered mental status are immediate."
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-013",
+  "area": "NP5",
+  "topic": "Cardiac arrest: first action",
+  "archetype": "initial-action-assess-vs-intervene",
+  "difficulty": 4,
+  "vignette": "A nurse enters a client's room on a medical unit and finds a 70-year-old client lying motionless in bed. The call light was not used, the monitor is not attached and nobody else is in the room. The nurse is certain the client was fine at the previous round.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Apply defibrillator pads to the client's chest",
+   "Begin giving rescue breaths with a bag-mask",
+   "Check responsiveness by tapping and shouting while looking for normal breathing",
+   "Insert an oral airway to keep the tongue from obstructing"
+  ],
+  "answerIndex": 2,
+  "strategyTag": "Confirm the emergency first",
+  "reasoning": [
+   "1. The client looks unresponsive but this is not yet confirmed.",
+   "2. Even in emergencies, the first step is to confirm that the client is unresponsive and not breathing normally.",
+   "3. Applying pads, rescue breaths or airway devices without confirming could harm a sleeping or fainting client and delays correct steps.",
+   "4. After confirming, the nurse calls for help, requests the emergency equipment and begins chest compressions if no pulse or normal breathing.",
+   "5. Decision: check responsiveness and breathing first."
+  ],
+  "optionRationales": [
+   "Premature; confirm cardiac arrest first.",
+   "Breaths are part of resuscitation but are not first and not before confirming the need.",
+   "Correct. Confirming unresponsiveness and absence of normal breathing starts the sequence.",
+   "An airway adjunct is for an unresponsive client after assessment."
+  ],
+  "keyFacts": [
+   "Confirm unresponsiveness and normal breathing before starting resuscitation.",
+   "Call for help and start compressions without delay once arrest is recognised."
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-014",
+  "area": "NP5",
+  "topic": "Medication refusal",
+  "archetype": "ethics-rights-informed-consent",
+  "difficulty": 4,
+  "vignette": "An adult client on a psychiatric unit, admitted voluntarily for depression and judged able to make decisions, tells the nurse, 'I'm not taking that pill today. It makes me feel foggy.' The client is calm, not at risk of harming anyone, and is speaking clearly.",
+  "stem": "Which action by the nurse is most appropriate?",
+  "options": [
+   "Explore the client's concerns, avoid forcing the medication, and inform the provider of the refusal",
+   "Tell the client that refusing medication will delay discharge",
+   "Administer the medication by another route since the client is on a psychiatric unit",
+   "Document the refusal and take no further action since it is the client's right"
+  ],
+  "answerIndex": 0,
+  "strategyTag": "Ethics: autonomy and advocacy",
+  "reasoning": [
+   "1. The key facts: voluntary client with decision-making ability, no imminent danger.",
+   "2. Clients with capacity have the right to refuse treatment outside of emergencies.",
+   "3. The nurse's role includes advocacy and exploring the reason for refusal, since side effects may be modifiable.",
+   "4. The provider needs to know so that the plan can be reviewed.",
+   "5. Coercion, threats and covert or forced administration violate rights.",
+   "6. Documentation alone ignores the nurse's duty to communicate and address the concern.",
+   "7. Decision: explore, respect, and inform the provider."
+  ],
+  "optionRationales": [
+   "Correct. It respects autonomy, gathers information about a possible adverse effect, and keeps the team informed.",
+   "Coercive and threatens the client; it violates rights.",
+   "Giving medication against the wishes of a competent client without an emergency is not appropriate.",
+   "Documentation is needed but alone is incomplete; the concern about side effects needs follow-up."
+  ],
+  "keyFacts": [
+   "Clients with decision-making capacity may refuse treatment.",
+   "Explore reasons and report refusals to the provider."
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-015",
+  "area": "NP5",
+  "topic": "MAOI teaching",
+  "archetype": "teaching-evaluation-understanding",
+  "difficulty": 4,
+  "vignette": "A nurse is teaching a 45-year-old client who has been prescribed a monoamine oxidase inhibitor for depression. The nurse reviews dietary and safety instructions and asks the client to explain them in their own words. The nurse listens for statements that show the client has misunderstood.",
+  "stem": "Which client statement indicates that more teaching is needed?",
+  "options": [
+   "'I will ask the pharmacist before taking any cold or allergy medicine.'",
+   "'I will avoid foods such as aged cheeses and cured meats.'",
+   "'I should stand up slowly because I could feel dizzy.'",
+   "'Eating small amounts of aged cheese is fine as long as it is not every day.'"
+  ],
+  "answerIndex": 3,
+  "strategyTag": "Teaching: teach-back accuracy",
+  "reasoning": [
+   "1. The stem asks which statement shows a misunderstanding.",
+   "2. Recall the key safety teaching for MAOIs: avoid foods high in tyramine and check before using other medicines.",
+   "3. Aged cheeses and cured meats are high-tyramine foods and should be avoided.",
+   "4. Postural dizziness is a possible effect, so rising slowly is correct.",
+   "5. Checking before any over-the-counter product is correct because of dangerous interactions.",
+   "6. Allowing small amounts of aged cheese shows a misunderstanding: even small amounts can be risky.",
+   "7. Decision: the aged-cheese statement."
+  ],
+  "optionRationales": [
+   "Correct teaching.",
+   "Correct teaching.",
+   "Correct teaching.",
+   "Correct choice for the stem. It shows a misunderstanding about the dietary restriction."
+  ],
+  "keyFacts": [
+   "MAOIs require avoiding high-tyramine foods.",
+   "Check with a pharmacist or provider before any new medicine."
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-016",
+  "area": "NP5",
+  "topic": "Documenting an aggressive episode",
+  "archetype": "documentation-reporting",
+  "difficulty": 3,
+  "vignette": "A nurse on an adult mental health unit was present when a client shouted at another client, raised a fist and was then guided to a quiet room by staff. The client calmed after 20 minutes. The nurse must complete the entry in the record after the incident.",
+  "stem": "Which entry is the best example of correct documentation?",
+  "options": [
+   "'Client was hostile and manipulative and tried to start a fight with another client.'",
+   "'Client shouted, \"I'll hit you,\" and raised a fist toward a peer. Staff guided client to the quiet room; client calm after about 20 minutes.'",
+   "'Client probably felt angry because of the delusions and had a bad day.'",
+   "'Incident report completed; no further comment needed in the chart.'"
+  ],
+  "answerIndex": 1,
+  "strategyTag": "Documentation: factual and timely",
+  "reasoning": [
+   "1. Good documentation is objective, factual and timely.",
+   "2. It includes observed behaviour, direct quotes when relevant, what was done and the client's response.",
+   "3. Judgemental labels such as 'manipulative' and speculation about causes are not objective.",
+   "4. An incident report is a separate administrative document and is not referenced as a substitute for charting.",
+   "5. Decision: the entry with observed behaviour, quote, intervention and response."
+  ],
+  "optionRationales": [
+   "Contains labels and assumptions, not observed facts.",
+   "Correct. It is objective and includes behaviour, intervention and outcome.",
+   "Speculation and opinion.",
+   "Incident reports are separate; the clinical record still needs a factual entry."
+  ],
+  "keyFacts": [
+   "Document observations, not opinions.",
+   "Include interventions and the client's response."
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-017",
+  "area": "NP5",
+  "topic": "Paranoid delusion: best response",
+  "archetype": "distressed-client-best-response",
+  "difficulty": 3,
+  "vignette": "A nurse brings a meal tray to a 31-year-old client with paranoid schizophrenia. The client pushes the tray away and says, 'You people are putting poison in my food.' The client is trembling and glancing around the room, but is not threatening anyone.",
+  "stem": "Which response by the nurse is best?",
+  "options": [
+   "'That is not true. Nobody here would poison your food.'",
+   "'Tell me all about who is poisoning you and how they do it.'",
+   "'I can see you are frightened. I do not believe the food is poisoned, and I will stay with you while you decide.'",
+   "'Why do you think we would want to poison you?'"
+  ],
+  "answerIndex": 2,
+  "strategyTag": "Acknowledge feeling, stay calm",
+  "reasoning": [
+   "1. Identify the item type: responding to a delusion.",
+   "2. Do not argue with, agree with or build on the delusion.",
+   "3. Acknowledge the feeling (fear), state the nurse's own perception calmly and offer presence.",
+   "4. Arguing with the client tends to increase mistrust.",
+   "5. Asking for elaboration may reinforce the delusion.",
+   "6. 'Why' questions invite defensiveness.",
+   "7. Decision: acknowledge the fear, state reality briefly, stay with the client."
+  ],
+  "optionRationales": [
+   "Direct denial and argument; it may increase mistrust.",
+   "Encourages detailed elaboration and can reinforce the delusion.",
+   "Correct. It acknowledges the emotion, presents reality without arguing and offers support.",
+   "A 'why' question implies accusation and invites defensiveness."
+  ],
+  "keyFacts": [
+   "Do not argue with or reinforce delusions.",
+   "Respond to the feeling and offer presence."
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-018",
+  "area": "NP5",
+  "topic": "Evaluation step",
+  "archetype": "nursing-process-step-identification",
+  "difficulty": 2,
+  "vignette": "A nurse set goals for a client admitted with major depression: the client will report improved sleep and will state hopeful thoughts about the future. After a week, the nurse reviews the client's sleep log and conversations and compares them with the goals written at admission.",
+  "stem": "Which step of the nursing process is the nurse performing?",
+  "options": [
+   "Assessment",
+   "Planning",
+   "Implementation",
+   "Evaluation"
+  ],
+  "answerIndex": 3,
+  "strategyTag": "Nursing process: match the verb",
+  "reasoning": [
+   "1. Look at the verb: the nurse compares outcomes with earlier goals.",
+   "2. Assessment collects data; planning sets goals; implementation carries out interventions.",
+   "3. Comparing current data against goals to judge progress is evaluation.",
+   "4. Decision: evaluation."
+  ],
+  "optionRationales": [
+   "Assessment gathers data; here the data are used to judge goal achievement.",
+   "Planning sets goals and interventions; goals already exist.",
+   "Implementation is carrying out interventions.",
+   "Correct. Evaluation measures progress toward the stated goals."
+  ],
+  "keyFacts": [
+   "Evaluation compares client outcomes with the goals.",
+   "Match the nurse's action verb to the step."
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-019",
+  "area": "NP5",
+  "topic": "Sepsis: organ dysfunction",
+  "archetype": "lab-value-interpretation-qualitative",
+  "difficulty": 4,
+  "vignette": "A nurse in the intensive care unit is caring for a 62-year-old client with sepsis from an abdominal infection. Overnight, the client's urine output has fallen, and the morning laboratory report is received. The nurse reviews the results to find which indicate that more than one organ system is being affected.",
+  "stem": "Which set of findings most strongly suggests developing multi-organ dysfunction?",
+  "options": [
+   "Rising creatinine with falling urine output and a new decrease in platelet count",
+   "A mildly raised white blood cell count with a fever",
+   "A slightly lowered appetite and mild nausea",
+   "A heart rate that rises slightly when the client is turned"
+  ],
+  "answerIndex": 0,
+  "strategyTag": "Lab: link result to risk",
+  "reasoning": [
+   "1. The stem asks for multi-organ involvement, so look for evidence of two or more systems.",
+   "2. Rising creatinine with falling urine output points to kidney injury.",
+   "3. A new fall in platelets points to blood-clotting involvement.",
+   "4. Together they show separate systems failing, which is the pattern of multi-organ dysfunction.",
+   "5. Raised white cells and fever are expected in infection, not evidence of organ failure.",
+   "6. Nausea and a small heart rate change with turning are non-specific and common.",
+   "7. Decision: kidney and clotting changes."
+  ],
+  "optionRationales": [
+   "Correct. Two organ systems show new dysfunction.",
+   "Expected response to infection.",
+   "Non-specific and common.",
+   "Normal variation with movement."
+  ],
+  "keyFacts": [
+   "Organ dysfunction in sepsis is shown by changes such as falling urine output and rising creatinine.",
+   "Multi-organ failure means two or more systems are failing."
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-020",
+  "area": "NP5",
+  "topic": "Constant observation",
+  "archetype": "except-negative-stem",
+  "difficulty": 4,
+  "vignette": "A nurse supervises a nursing assistant who is assigned to provide constant one-to-one observation of a client admitted after a suicide attempt. The nurse reviews how the assistant is to carry out the observation. The nurse needs to identify any instruction that is not safe.",
+  "stem": "Which instruction is inappropriate for the assistant to follow?",
+  "options": [
+   "Keep the client within arm's reach or line of sight as stated in the observation order",
+   "Sit at the nursing station and check the client's room every 30 minutes",
+   "Check the meal tray to remove items that could be used for harm",
+   "Stay within sight of the client during bathroom use in line with the unit's policy"
+  ],
+  "answerIndex": 1,
+  "strategyTag": "Negative stem: find the odd one",
+  "reasoning": [
+   "1. Negative stem: three options are safe, one is not.",
+   "2. Constant (one-to-one) observation means uninterrupted visual contact according to the order.",
+   "3. Staying within arm's reach or sight and following tray and bathroom precautions are all consistent with this level.",
+   "4. Checking every 30 minutes is intermittent observation, not constant observation.",
+   "5. Decision: the 30-minute check instruction is inappropriate."
+  ],
+  "optionRationales": [
+   "Appropriate; follows the order.",
+   "Correct choice for the stem. Intermittent checks do not meet constant observation.",
+   "Appropriate; reduces access to dangerous items.",
+   "Appropriate; bathroom precautions follow policy."
+  ],
+  "keyFacts": [
+   "Constant observation requires continuous visual contact.",
+   "Match the level of observation to the order and risk."
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ }
+]
