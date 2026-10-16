@@ -1,24 +1,26 @@
 import React, { useCallback, useEffect, useState } from 'react';
-import { Pressable, StatusBar, Text, View } from 'react-native';
+import { Pressable, ScrollView, StatusBar, Text, View } from 'react-native';
 import type { AppState } from './src/core/types';
 import { loadState, saveState } from './src/storage';
 import { Dashboard } from './src/ui/Dashboard';
 import { Library } from './src/ui/Library';
 import { StudyHub } from './src/ui/StudyHub';
 import { Graph } from './src/ui/Graph';
+import { Topics } from './src/ui/Topics';
 import { Settings } from './src/ui/Settings';
 import { Onboarding } from './src/ui/Onboarding';
 import { Review } from './src/ui/Review';
 import { Tutor } from './src/ui/Tutor';
 import { H, P, Screen, TOUCH, c, sp } from './src/ui/kit';
 
-type Tab = 'home' | 'study' | 'library' | 'map' | 'review' | 'tutor' | 'settings';
+type Tab = 'home' | 'study' | 'topics' | 'library' | 'map' | 'review' | 'tutor' | 'settings';
 type Ctx = { state: AppState; update: (s: AppState) => void; go: (t: Tab) => void };
 
 /** One entry per tab. To add or change a screen, edit only its `render`. */
 const TABS: { id: Tab; label: string; icon: string; render: (x: Ctx) => React.ReactNode }[] = [
   { id: 'home', label: 'Home', icon: '⌂', render: (x) => <Dashboard state={x.state} go={x.go} /> },
   { id: 'study', label: 'Study', icon: '✎', render: (x) => <StudyHub state={x.state} update={x.update} /> },
+  { id: 'topics', label: 'Learn', icon: '☰', render: (x) => <Topics state={x.state} /> },
   { id: 'library', label: 'Library', icon: '▤', render: (x) => <Library state={x.state} update={x.update} /> },
   { id: 'map', label: 'Map', icon: '◎', render: (x) => <Graph state={x.state} /> },
   { id: 'review', label: 'Review', icon: '↻', render: (x) => <Review state={x.state} /> },
@@ -66,7 +68,12 @@ export default function App() {
         {!state.settings.apiKey.trim() ? <P dim>Add your API key in Settings to unlock AI features.</P> : null}
       </View>
       <Screen>{active.render(ctx)}</Screen>
-      <View accessibilityRole="tablist" style={{ flexDirection: 'row', borderTopWidth: 1, borderTopColor: c.line, backgroundColor: c.card }}>
+      <ScrollView
+        horizontal
+        showsHorizontalScrollIndicator={false}
+        accessibilityRole="tablist"
+        style={{ flexGrow: 0, borderTopWidth: 1, borderTopColor: c.line, backgroundColor: c.card }}
+      >
         {TABS.map((t) => {
           const on = t.id === tab;
           return (
@@ -76,14 +83,14 @@ export default function App() {
               accessibilityLabel={t.label}
               accessibilityState={{ selected: on }}
               onPress={() => setTab(t.id)}
-              style={{ flex: 1, minHeight: TOUCH + 8, alignItems: 'center', justifyContent: 'center', gap: 2 }}
+              style={{ minWidth: 76, paddingHorizontal: sp.sm, minHeight: TOUCH + 8, alignItems: 'center', justifyContent: 'center', gap: 2 }}
             >
               <Text style={{ fontSize: 20, color: on ? c.accent : c.dim }}>{t.icon}</Text>
               <Text style={{ fontSize: 12, fontWeight: on ? '700' : '500', color: on ? c.text : c.dim }}>{t.label}</Text>
             </Pressable>
           );
         })}
-      </View>
+      </ScrollView>
     </View>
   );
 }
