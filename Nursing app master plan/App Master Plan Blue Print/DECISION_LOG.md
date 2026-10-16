@@ -74,47 +74,71 @@ This file records confirmed project constraints, provisional architecture decisi
 - **Validation:** Compare platform options against a declared device/API matrix; run store/restore/migration and interrupted-write tests; test secret redaction and key removal; confirm provider model/API support before implementation; run deterministic scheduler vectors; test assessment payloads and answer-key isolation; evaluate import limits and graph accessibility.
 - **Rollback / change control:** No code has been authorized. If validation invalidates this proposal, record new evidence, alternatives and impacted documents before implementation; do not quietly promote this recommendation to a confirmed requirement.
 
-## Open decisions
+## Open decisions and recommended defaults
+
+These are **architect recommendations**, not user-approved commitments. They make the plan implementation-ready while preserving a clear override point before the implementation gate. Each default must be revisited only when new evidence or a changed product requirement justifies it.
 
 ### OPEN-001 — Target platform and minimum Android version
-Need: user goal and distribution constraints; compare Android-only versus cross-platform.
-Owner: Master Architect.
-Gate: evidence-based comparison in TECHNICAL_ARCHITECTURE_AND_CONTRACTS.md.
+- **Recommended default:** Android-first, native Android client; do not promise web/iOS in the first release.
+- **Why:** The current user context and reference artifacts are Android-centred, and offline review/background behavior benefits from native platform control.
+- **Still required:** Define the supported Android/API device matrix before implementation. Do not infer the minimum version from the Gizmo report; its report conflicts internally (main identity section says minSdk 34; Addendum C says minSdk 26 citing apktool.yml). The original apktool.yml is not present in the repository, so the reference minimum remains UNKNOWN.
+- **Owner / gate:** Master Architect; record the chosen app minimum and tested device matrix before implementation.
 
 ### OPEN-002 — Technology stack
-Need: platform requirements, performance, native integrations, developer workflow, build/release requirements.
-Owner: Master Architect with mobile engineer.
-Gate: scored comparison with evidence.
+- **Recommended default:** Kotlin + Jetpack Compose, organized as a modular monolith with explicit logical service boundaries.
+- **Why:** Native Android access, local persistence, accessibility and offline lifecycle control outweigh a future cross-platform option that has not been requested.
+- **Alternative trigger:** If web/iOS becomes a committed first-release requirement, score Flutter and React Native/Expo against the same acceptance matrix before selecting.
+- **Owner / gate:** Master Architect; record comparative scoring and constraints.
 
 ### OPEN-003 — Persistence, backend, authentication, and sync
-Need: offline scope, multi-device expectations, privacy, costs, conflict handling.
-Owner: Data Architect + Security Analyst.
-Gate: data contract and threat model.
+- **Recommended default:** Local-first relational persistence with versioned migrations and append-only attempt/review events. No hosted backend or cross-device sync in v1 unless a concrete requirement proves it necessary.
+- **Why:** The core study/review loop should work offline and not depend on a server for existing content or progress.
+- **Required behavior:** Local saved lessons, imported content, available quizzes, due reviews and progress remain usable offline; generation/tutor features explain network/provider dependency. Export/backup and restore are v1 requirements.
+- **Owner / gate:** Data Architect; provide migration, restore, duplicate-event and interrupted-write test designs.
 
 ### OPEN-004 — API-key strategy and provider support
-Need: security/cost trade-offs and whether a backend is acceptable.
-Owner: Security/AI Platform Analyst.
-Gate: documented default plus failure-mode tests.
+- **Recommended default:** Bring-your-own-key, provider-neutral adapter, platform-backed secure storage, explicit key removal/rotation and no secret logging. No hosted proxy by default.
+- **Why:** Matches the requested first-launch key setup and avoids silently introducing a recurring hosting bill.
+- **Limit:** A key on a user-controlled device cannot be guaranteed impossible to extract. If this trade-off is unacceptable, the product requirement changes to a backend/proxy with operating costs and privacy obligations.
+- **Owner / gate:** AI Platform Analyst; verify selected provider API/model support and failure/cost behavior before implementation.
 
-### OPEN-005 — Spaced repetition engine/version
-Need: accuracy expectations, library maintenance, license compatibility, portability.
-Owner: AnkiDroid Analyst.
-Gate: implementation options with test plan.
+### OPEN-005 — Spaced-repetition engine/version
+- **Recommended default:** App-owned scheduler interface backed by a maintained, license-compatible FSRS implementation after exact package/version/license review; keep APKG export/import as portability and AnkiDroid bridge optional.
+- **Why:** Core review must work when AnkiDroid is not installed; the checked-in FSRS-5 reference is illustrative, not exact AnkiDroid parity.
+- **Owner / gate:** Learning/Data Architect; capture deterministic golden vectors, due-date semantics, migration rules and comparison output.
 
 ### OPEN-006 — Import formats and visual generation
-Need: priority formats, OCR needs, offline behavior, image provenance, cost controls.
-Owner: Product/UX Architect.
-Gate: ingestion matrix.
+- **Recommended default:** v1 supports paste/text and Markdown with source offsets/provenance. Treat PDF text extraction as a separately validated next format; OCR, video/URL scraping and generated images are out of initial scope until accuracy, permissions, storage and cost are evaluated.
+- **Why:** Start with a reliable, testable ingestion path instead of making every file format a critical dependency.
+- **Owner / gate:** Product/UX Architect; define format, size, page, parser-time and recovery limits before implementation.
 
 ### OPEN-007 — Mastery and reward formulas
-Need: how topic mastery, confidence, module readiness, points, and streaks should be calculated.
-Owner: Learning Scientist.
-Gate: formulas, sample scenarios, and acceptance tests.
+- **Recommended default:** Use the provisional, versioned, evidence-aware mastery and adaptive-plan policy in PRODUCT_REQUIREMENTS_AND_UX.md and TECHNICAL_ARCHITECTURE_AND_CONTRACTS.md. Keep diagnostic results separate from post-teaching mastery; require diverse concept coverage, multiple sessions and delayed retrieval before “Likely mastered.”
+- **Why:** Avoid false mastery from a small or repetitive quiz sample; make every label explainable and testable.
+- **Validation:** Run the deterministic scenario suite, conduct learning-science review and label the thresholds provisional until calibrated. Change policy only with a method-version increment and regression comparison.
+- **Owner / gate:** Learning Scientist + Master Architect.
 
-### OPEN-008 — Backup, export, and deletion
-Need: user ownership, recovery, portability, privacy.
-Owner: Data Architect + Security Analyst.
-Gate: lifecycle and migration spec.
+### OPEN-008 — Backup, export, deletion, and recovery
+- **Recommended default:** Local backup/export and restore in v1, with schema-version metadata, integrity checks, media/source references, review history and explicit conflict behavior. Cross-device sync remains out of scope until separately justified.
+- **Why:** Users need recoverability without committing to accounts or hosted infrastructure.
+- **Owner / gate:** Data Architect; round-trip tests must prove history and source links survive.
+
+### OPEN-009 — Telemetry and analytics
+- **Recommended default:** No nonessential telemetry by default. Use local diagnostics and user-visible export for troubleshooting; any remote analytics requires a separate documented purpose, data inventory and consent/retention policy.
+- **Why:** Analytics are not required to deliver the core learning loop and may expose sensitive study material.
+- **Owner / gate:** Product owner + privacy reviewer; document only if a concrete analytics need arises.
+
+### OPEN-010 — Clinical source policy and review
+- **Recommended default:** Preserve source/page/section/version for imported material; distinguish source-supported claims from AI-added explanations; flag conflicts and unsupported answer keys. Never label quiz mastery as clinical competence.
+- **Why:** The product is for nursing education and should not invent clinical certainty.
+- **Owner / gate:** Nursing-content reviewer; define authoritative source classes and which high-risk claims require human review before content generation is authorized.
+
+### OPEN-011 — Device and performance targets
+- **Recommended default:** Specify low-end Android acceptance targets for startup, lesson opening, quiz response, memory pressure and import recovery before implementation; test the agreed matrix on real devices rather than treating emulator-only success as sufficient.
+- **Why:** Native architecture is not proof of good performance.
+- **Owner / gate:** Mobile Architect + QA; record target device/API matrix and measurement procedure.
+
+
 
 ## Change template
 
