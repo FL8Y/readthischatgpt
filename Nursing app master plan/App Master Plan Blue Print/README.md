@@ -16,14 +16,15 @@ The user has confirmed:
 1. [Master Architect Plan](./MASTER_ARCHITECT_PLAN.md) — product intent, rules, logical boundaries and stage gates.
 2. [Product Requirements, UX and Learning Specification](./PRODUCT_REQUIREMENTS_AND_UX.md) — canonical feature requirements, R-001–R-034 traceability, user journeys, learning behavior, accessibility and nursing safeguards.
 3. [Technical Architecture, Data Model and Contracts](./TECHNICAL_ARCHITECTURE_AND_CONTRACTS.md) — framework/deployment choices, data concepts, service contracts, AI security, scheduler, offline policy and technical acceptance tests.
-4. [Claude Master Prompt](./CLAUDE_MASTER_PROMPT.md) — bounded planning-only operating instructions for Claude Code.
-5. [Agent Work Packages](./AGENT_WORK_PACKAGES.md) — specialist assignments, scope boundaries and handoff process.
-6. [Decision Log](./DECISION_LOG.md) — confirmed constraints, proposals and unresolved decisions.
-7. [Implementation Roadmap](./IMPLEMENTATION_ROADMAP.md) — dependency-ordered stages and exit gates; implementation requires separate authorization.
-8. [Repository Audit](./REPO_AUDIT.md) — source inventory, what was inspected versus merely inventoried, and archive limitations.
-9. [QA Council Review](./QA_COUNCIL_REVIEW.md) — dated review findings, corrections, unresolved blockers and honest scorecards.
-10. [1000-Point Readiness Trace](./1000_POINT_READINESS_TRACE.md) — weighted scoring evidence, hard gates, blocker register and path to a genuine 10/10.
-11. [Cleanup Log](./CLEANUP_LOG.md) — consolidation map and precise record of deleted/moved files.
+4. [Requirement → Contract → Test Traceability](./REQUIREMENT_TEST_TRACEABILITY.md) — R-001–R-034 mapped to owners, contracts and planned test oracles.
+5. [Claude Master Prompt](./CLAUDE_MASTER_PROMPT.md) — bounded planning-only operating instructions for Claude Code.
+6. [Agent Work Packages](./AGENT_WORK_PACKAGES.md) — specialist assignments, scope boundaries and handoff process.
+7. [Decision Log](./DECISION_LOG.md) — confirmed constraints, proposals and unresolved decisions.
+8. [Implementation Roadmap](./IMPLEMENTATION_ROADMAP.md) — dependency-ordered stages and exit gates; implementation requires separate authorization.
+9. [Repository Audit](./REPO_AUDIT.md) — source inventory, what was inspected versus merely inventoried, and archive limitations.
+10. [QA Council Review](./QA_COUNCIL_REVIEW.md) — dated review findings, corrections, unresolved blockers and honest scorecards.
+11. [1000-Point Readiness Trace](./1000_POINT_READINESS_TRACE.md) — weighted scoring evidence, hard gates, blocker register and path to a genuine 10/10.
+12. [Cleanup Log](./CLEANUP_LOG.md) — consolidation map and precise record of deleted/moved files.
 
 ## 1000/1000 architecture quality target
 
