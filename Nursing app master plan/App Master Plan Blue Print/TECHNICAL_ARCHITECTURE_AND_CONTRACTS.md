@@ -212,23 +212,25 @@ Concept coverage is distinct required concept clusters with valid evidence divid
 
 Use the proposed v1 evidence gates in PRODUCT_REQUIREMENTS_AND_UX.md: minimum 5 distinct question/concept-family IDs across 2 sessions for developing evidence; likely mastered requires 10 distinct IDs, 3 sessions, delayed retrieval at least 24 hours after initial learning, at least 80% coverage, recency-weighted performance at least 85%, and latest-session performance at least 80%. A separate confidence label depends only on evidence quantity/diversity, session count, delayed retrieval, concept coverage and source/mapping quality—not correctness. The mastery label separately applies accuracy thresholds. Sparse perfect scores remain insufficient evidence.
 
-### 11.3 Required deterministic scenario fixtures
-The planning package must include fixtures and expected outputs for:
-1. Five correct answers in one session -> not likely mastered; insufficient evidence.
-2. Ten correct answers on one repeated question -> repeat cap prevents likely mastered; concept coverage remains low.
-3. Ten distinct correct question families across three sessions, at least 80% coverage and delayed retrieval at least 24 hours -> eligible for likely mastered if recency-weighted and latest-session thresholds pass.
-4. Old success followed by recent failures -> recency-weighted result falls and likely-mastered status is removed.
-5. Broad evidence with stale last retrieval -> confidence/mastery label reflects staleness and does not silently stay high.
-6. Perfect accuracy with less than 80% topic coverage -> not likely mastered.
-7. Ambiguous source mapping or a regraded/voided item -> high-confidence label blocked until evidence is corrected.
-8. Duplicate event replay -> no change to accuracy, coverage, rewards or review schedule.
-9. Changed policy version -> recomputation is deterministic and the previous projection remains auditable.
-10. Diagnostic-only success -> may shape the initial plan but cannot independently unlock likely mastered.
+### 11.3 Deterministic mastery scenario fixtures and expected outputs
 
-The exact output of every fixture must be recorded in the test plan before implementation. These are product policy tests, not claims that the heuristic predicts real-world competence.
+All fixtures use a fixed clock and a pinned MasteryPolicyVersion. For date-based examples, set as-of time to 2026-01-31T12:00:00Z. These are policy oracles, not claims of clinical validation.
+
+| ID | Fixture input | Expected projection / oracle |
+|---|---|---|
+| MAST-001 — perfect but sparse | Five distinct families, all correct, one session, 100% coverage, all today | Raw and weighted accuracy 100%; evidence = Insufficient; confidence = Low; mastery != Likely mastered because the 2-session/10-family/delayed-retrieval gates fail |
+| MAST-002 — repeated item | Ten correct attempts on the same question version and concept family across ten sessions; 10% topic coverage | Distinct-family count = 1; coverage = 10%; evidence = Insufficient; confidence = Low; mastery != Likely mastered; replaying an event ID has no effect |
+| MAST-003 — sufficient recent evidence | Ten distinct families across three sessions in the last 10 days; all correct; 80% coverage; delayed successful review >=24 hours after initial learning; source mapping valid | Raw accuracy = 100%; recency-weighted accuracy = 100%; confidence = High; mastery = Likely mastered |
+| MAST-004 — recent failures after old success | Seven distinct families correct 60 days ago (each weight 0.25), three distinct families incorrect today (each weight 1.0); three sessions; 90% coverage; valid delayed review | Weighted accuracy = 1.75 / (1.75 + 3.0) = 36.8421%; latest-session accuracy = 0%; confidence may remain High if evidence gates pass; mastery != Likely mastered |
+| MAST-005 — broad but stale | Ten distinct families, three sessions, 100% accuracy and 100% coverage, but all successful retrieval is 60 days old | Weighted accuracy may remain 100% because all evidence is equally old; confidence = Medium due to no successful retrieval in the last 30 days; mastery = Needs refresh, not Likely mastered |
+| MAST-006 — partial concept coverage | Ten distinct families, three recent sessions, all correct, delayed review valid, but only 60% of required concept clusters covered | Accuracy = 100%; confidence = Medium; mastery != Likely mastered because coverage <80%; uncovered concepts remain high-priority plan items |
+| MAST-007 — source/mapping unresolved | Otherwise meets MAST-003, but one required concept mapping or answer-key provenance is unresolved | Confidence = Low; mastery label is blocked from Likely mastered; issue is surfaced for review |
+| MAST-008 — duplicate replay | A committed attempt/review/reward event is submitted again with the same idempotency/event ID | Attempt count, weighted accuracy, coverage, confidence, mastery, scheduler state and reward balance remain exactly unchanged |
+| MAST-009 — policy version change | Same immutable event ledger recalculated under policy v2 after a documented threshold change | v1 projection remains auditable; v2 projection is deterministic for the same input watermark; no attempt/review/reward is duplicated |
+| MAST-010 — diagnostic-only success | Ten correct diagnostic answers across the scope, but no post-teaching graded attempts or review events | Diagnostic result displays 100%; post-teaching mastery = Insufficient evidence; diagnostic may influence the initial plan but cannot independently produce Likely mastered |
 
 ### 11.4 Rewards and streak contract
-- Reward only unique, valid, committed learning events, including eligible correct-answer, quiz-score, completion and streak-milestone events; the policy must state how each earns points.
+- Reward only unique, valid, committed learning events.
 - Use an idempotency key scoped to the source event and reward-policy version; replayed events cannot mint points twice.
 - Points, streaks and rank are motivational projections, not learning evidence; they never increase mastery.
 - Streak-day boundaries use the learner's configured time zone. Time-zone changes must be deterministic and must not delete history.
