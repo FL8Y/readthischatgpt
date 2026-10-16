@@ -1,55 +1,47 @@
-# Hodgkin's — Pediatric Nursing Research Notes
+# Childhood Hodgkin Lymphoma — PNLE-Focused Research
 
-**Purpose:** PNLE-focused study material for pediatric nursing. This is an educational summary, not an individualized order or a substitute for current local protocols. Last repository research pass: 2026-10-17.
+**Scope:** pediatric/adolescent Hodgkin lymphoma. Educational material only; diagnosis and treatment are oncology-led and protocol-specific.
 
-## 1. Core concept
-Hodgkin lymphoma is a lymphatic malignancy often associated with painless lymphadenopathy; fever, drenching night sweats, or unexplained weight loss are systemic warning features. Diagnosis requires tissue evaluation; staging and treatment are oncology-led.
+## 1. Definition and classification
+Hodgkin lymphoma is a malignancy of the lymphatic system. Childhood/adolescent disease is commonly discussed as classical Hodgkin lymphoma and nodular lymphocyte-predominant Hodgkin lymphoma; subtype and pathology influence management. Do not conflate Hodgkin lymphoma with non-Hodgkin lymphoma because clinical behavior and treatment protocols differ. The NCI PDQ Pediatric Treatment Editorial Board maintains a regularly reviewed, evidence-based clinician summary. [1]
 
-## 2. Pediatric assessment
-- Establish age, weight in kg, allergies, baseline function/development, relevant history, current medicines, immunization status where relevant, and caregiver observations.
-- Assess airway, breathing, circulation, mental status, pain, hydration/perfusion, nutrition/growth, elimination, skin, and age-appropriate vital signs according to local reference ranges.
-- Compare findings with the child's baseline and expected developmental stage; infants and children may deteriorate before they can describe symptoms clearly.
-- Document objective findings, onset/progression, intake/output, and response to interventions.
+## 2. Presentation and assessment
+Common clues include painless persistent lymphadenopathy, often cervical/supraclavicular, mediastinal symptoms such as cough or dyspnea, fatigue, pruritus, reduced appetite, and unexplained fever, drenching night sweats, or weight loss. Fever, weight loss, and night sweats are called B symptoms and contribute to staging/risk assessment. These findings are not specific to lymphoma; infection and other causes must be evaluated. [1,2]
 
-## 3. Diagnostics and management
-- Select tests based on clinical presentation and current pediatric guidance; explain the purpose and prepare the child/family in developmentally appropriate language.
-- Verify specimens, age/weight-specific reference intervals, and timing before interpreting laboratory results. No single finding should be interpreted in isolation.
-- Management depends on severity, age, comorbidities, and specialist assessment. Confirm treatment plans and escalation thresholds with current institutional protocols.
-- Reassess after every intervention and document whether the expected response occurred.
+Nursing assessment:
+- Document node location, duration, progression, pain, associated infection symptoms, weight/growth, appetite, fatigue, fever pattern, night sweats, pruritus, and respiratory symptoms.
+- Assess airway/breathing promptly if mediastinal disease is suspected; positional dyspnea, stridor, facial/neck swelling, or respiratory distress needs urgent escalation.
+- Establish baseline vital signs, functional status, nutrition, psychosocial needs, medication/allergy history, and caregiver concerns.
+- Avoid promising that a symptom or palpable node confirms cancer; explain that diagnostic evaluation is required.
 
-## 4. Nursing priorities and rationale
-1. **ABCs and immediate threats first.** Activate emergency response for respiratory compromise, shock/poor perfusion, altered consciousness, rapidly progressive neurologic signs, or other severe deterioration.
-2. **Safety.** Apply age- and condition-appropriate precautions; prevent falls, aspiration, medication errors, infection, and injury.
-3. **Focused monitoring.** Trend vital signs, mental status, pain, weight, intake/output, and relevant labs/clinical signs rather than relying on a single observation.
-4. **Family-centered care.** Include caregivers as partners, acknowledge concerns, use plain language, and confirm understanding with teach-back.
-5. **Evaluation.** State the desired outcome, reassess, and escalate if the child worsens or the response is inadequate.
+## 3. Diagnostic evaluation and staging
+Work-up may include history and physical examination, CBC and other laboratory tests, imaging to assess disease distribution, and tissue biopsy for pathologic diagnosis. Staging determines the extent of disease and is combined with factors such as B symptoms, bulky disease, extranodal involvement, and response to initial therapy to guide risk-adapted treatment. Specific tests and biopsy approach are determined by the pediatric oncology team. [1,2]
 
-## 5. Medication and procedure safety
-- Calculate from a current order using a measured weight in kilograms; verify dose units, concentration, route, frequency, maximum dose, allergies, renal/hepatic considerations, interactions, and indication independently according to local medication-safety policy.
-- Never infer or invent a dose from a textbook mnemonic or this page. Verify drug-specific contraindications, serious adverse effects, antidotes, monitoring, and withholding criteria in an authoritative current monograph and the actual institutional protocol.
-- Distinguish an absolute contraindication from a precaution; do not independently stop, start, or change prescribed therapy.
-- Identify any intervention that could worsen the condition and confirm the specific avoidance rule with current guidance.
+## 4. Treatment principles
+Treatment is risk- and response-adapted and may use multiagent chemotherapy, with or without carefully selected lower-dose involved-site radiation; selected subtypes or relapsed/refractory disease may use other approaches, targeted agents, immunotherapy, or stem-cell transplantation. The exact regimen changes with subtype, stage, response, age, and protocol. Do not turn a treatment table from a source into an individualized order. Modern pediatric approaches also consider late effects and aim to reduce unnecessary exposure. [1]
 
-## 6. Complications and red flags
-Escalate urgently for deterioration in breathing, circulation/perfusion, consciousness, new focal neurologic deficit, seizure emergency, uncontrolled bleeding, severe dehydration, rapidly worsening pain/distention, signs of sepsis, or any topic-specific red flag described above. Follow the local emergency pathway and do not delay stabilization to finish routine assessment.
+## 5. Nursing priorities
+- **Respiratory safety:** promptly escalate breathing difficulty, stridor, positional dyspnea, or signs of mediastinal compression.
+- **Infection prevention:** follow the treatment protocol for neutropenia precautions, fever thresholds, and urgent oncology contact; fever in a child receiving chemotherapy may be an emergency even if the child initially looks well.
+- **Treatment monitoring:** verify regimen, body-surface-area/weight calculation, dose, route, line access, allergies, laboratory and organ-function criteria, and premedications against the current order and institutional protocol.
+- **Adverse-effect surveillance:** monitor as applicable for myelosuppression, infection, mucositis, nausea/vomiting, nutrition/weight change, neuropathy, organ toxicity, and treatment-specific reactions.
+- **Psychosocial care:** provide honest age-appropriate explanations, involve the child in decisions as developmentally appropriate, support school and peer connection, and offer psychosocial resources.
 
-## 7. Family education
-- Explain the condition and care plan using age-appropriate words.
-- Give clear instructions on medicines, follow-up, home monitoring, infection/injury prevention, and when/how to seek urgent help.
-- Avoid blame and punishment; support caregiver coping and the child's developmental, school, and psychosocial needs.
-- Use teach-back: ask the caregiver to explain the key action and red flags in their own words.
+## 6. Late effects and family education
+Depending on treatment exposure, survivors may need follow-up for cardiac or pulmonary effects, endocrine/fertility issues, subsequent malignancies, neurocognitive/psychosocial needs, and general health. The survivorship plan is individualized by oncology. Teach the family to follow the written fever plan, take medicines exactly as prescribed, attend laboratory/imaging visits, report breathing symptoms urgently, and discuss fertility or late-effect questions with the team. [1]
 
-## 8. PNLE reasoning
-- Prioritize immediate threats over routine tasks; ABCs and acute deterioration generally precede comfort/teaching.
-- Use Maslow's hierarchy as a supporting framework, not a rigid algorithm; safety and physiologic threats can supersede other needs.
-- Distinguish expected age-related findings from red flags, and acute deterioration from chronic baseline.
-- Common trap: treating a single classic sign as required for diagnosis, or assuming one medication/treatment is appropriate for every child.
+## 7. Medication safety
+Chemotherapy and supportive medicines have regimen-specific contraindications, interactions, dose limits, organ-function adjustments, and monitoring requirements. Never invent a pediatric dose or independently hold/alter chemotherapy. Verify drug-specific toxicities, extravasation precautions, hazardous-drug handling, and emergency instructions against the current protocol and authoritative monograph. If a fever, infusion reaction, respiratory change, or unexpected toxicity occurs, follow the oncology emergency pathway.
 
-## 9. Topic-specific verification status
-**Research status:** Topic-specific starting summary drafted; not yet independently verified claim-by-claim against multiple topic-specific sources. The agent log must not count this file as fully verified until that source audit is complete.
+## 8. PNLE high-yield distinctions
+- Painless persistent lymphadenopathy plus B symptoms is concerning but not diagnostic; biopsy/pathology establishes the diagnosis.
+- Mediastinal involvement can threaten airway/breathing, so respiratory compromise outranks routine staging tasks.
+- Stage, subtype, symptoms, bulk, and treatment response influence therapy; there is no universal pediatric regimen.
+- Fever during immunosuppressive therapy requires the child's specific oncology fever protocol.
+- Consider long-term toxicity and survivorship alongside disease control.
 
-## References for verification
-1. https://www.cancer.gov/types/childhood-cancers
-2. https://www.cancer.gov/types/brain/hp/child-brain-treatment-pdq
+## References
+1. **PDQ Pediatric Treatment Editorial Board.** *Childhood Hodgkin Lymphoma Treatment (PDQ®): Health Professional Version.* National Cancer Institute, PDQ Cancer Information Summaries. Current version history includes updates through April 16, 2025. https://www.cancer.gov/types/lymphoma/hp/child-hodgkin-treatment-pdq
+2. **National Cancer Institute.** *Childhood Hodgkin Lymphoma Treatment (PDQ®): Patient Version.* Signs, symptoms, diagnosis/staging overview, and treatment descriptions. https://www.cancer.gov/types/lymphoma/patient/child-hodgkin-treatment-pdq
 
-**Source note:** These links are starting points for authoritative reference checking, not evidence that every statement above has already been confirmed by those pages. Confirm current Philippine DOH/clinical institutional guidance where applicable and record exact source title/version in the research log.
+**Source check performed:** NCI PDQ clinician and patient summaries were searched and checked on 2026-10-17. The clinician summary is maintained and reviewed regularly; it explicitly notes it informs care but is not a formal clinical guideline. **Philippine-specific institutional oncology protocols were not verified in this pass.**

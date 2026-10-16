@@ -1,6 +1,6 @@
 # Pediatric Nursing — Obsidian Mind Map
 
-> Status as of 2026-10-17: initial recursive inventory only. Topic research has not yet been verified. Wiki-links below point to planned `Research.md` files; they become valid as each file is created.
+ > Status as of 2026-10-17: 60/60 leaf topic folders have a `Research.md` file on branch `agent-6-pediatric-research`; 18/60 topics are verified complete. Verified topics include the six researched cancer topics, five cardiovascular topics (Coarctation, Heart Failure, Kawasaki Disease, PDA, Rheumatic Fever/RHD, Septal Defects, Tetralogy of Fallot, and Transposition of the Great Arteries), and GI topics Celiac Disease, Cleft Lip and Palate, Colostomy Care, and GERD. The remaining 42 topic files await individual source audit and reopen verification. This map indexes the hierarchy and is not evidence of research completion.
 
 - [[RESEARCH TOPIC GUIDE]]
 - [[RESEARCH LOG]]
