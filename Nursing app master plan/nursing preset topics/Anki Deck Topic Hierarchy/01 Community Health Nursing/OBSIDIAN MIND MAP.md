@@ -127,6 +127,7 @@ These are review prompts, not folders already verified as present:
   - [[Elements of Immunization and Laws]] — **Drafted — Needs Verification**
   - [[Principles and Nursing Responsibilities]] — **Drafted — Needs Verification**
     - [[BCG]] — **Drafted — Needs Verification**
+    - [[Pentavalent Vaccine]] — **Drafted — Needs Verification**
   - [[Herbal]] — **Drafted — Needs Verification**
   - [[Identify the Prevention]] — **Drafted — Needs Verification**
   - [[Competency-Based Teaching]] — **Drafted — Needs Verification**
