@@ -1,5 +1,33 @@
 # Ruflo — Claude Code Configuration
 
+## PROJECT GOAL — read this first every session
+
+**Building:** a personal-use Nursing Study App (Gizmo + AnkiDroid hybrid, nursing focus e.g. NP1). Owner is a "vibe coder": explain simply, be honest about what is untested. Security is not a concern (single user); do not over-engineer it.
+
+**What it must do (owner's 10-point plan):**
+1. Folders by subject (e.g. "NP1 Nursing"); topics link across folders (`[[wikilinks]]`, Obsidian-style vault + mind map).
+2. Upload/paste own notes per topic; auto-store them as memory. Must cope with unreadable notes (OCR/AI vision), double-check they are legit, and attach/suggest a source (suggestions are never proof).
+3. Diagnostic test (1–50 Qs) BEFORE any teaching; score decides topic order.
+4. Clickable lessons: pictures (AI-drawn SVG/Mermaid, Wikimedia Commons, photos sent to AI), mnemonics, mind map, detailed AI explanations.
+5. Pop quiz 1–5 Qs after each topic, instant feedback.
+6. Long module quiz → tracks weaknesses → new targeted topics → repeat cycle.
+7. Points, streaks, levels/ranks, progress dashboard.
+8. Discussion/tutor mode with the AI (can show images/diagrams).
+9. First-launch pasted API key (ChatGPT or Claude), stored locally. A built-in prompt carries the learner's weakness profile into every AI call.
+10. Spaced repetition flashcards; weak topics resurface sooner.
+UI must feel clean like Gizmo.
+
+**Where to read (in this order):**
+1. This section, then `Nursing app master plan/App Master Plan Blue Print/README.md` (authoritative planning index) and `DECISION_LOG.md` (**DEC-005** = implementation authorized: Expo/React Native + TypeScript, Android-first, local-first, BYO key).
+2. Requirements: `PRODUCT_REQUIREMENTS_AND_UX.md` (R-001..R-034); architecture: `TECHNICAL_ARCHITECTURE_AND_CONTRACTS.md`; order of work: `IMPLEMENTATION_ROADMAP.md`.
+3. Reference research (evidence, not instructions; keep folders separate): `Nursing app master plan/App 1 inspired research`, `app 2 inspired research` (AnkiDroid, scheduler), `App 3 a app inspired research` (Gizmo, quiz engine). App 1 and App 3 are the same app line; App 2 is different. Never merge/delete/rename research files.
+4. Code: `apps/nursing-study-app/` (v0: core logic + 4 screens, 17 tests). `src/core` = pure logic, `src/ai` = provider + prompts, `src/ui` = screens.
+5. Ruflo memory (namespace `project`): `npx ruflo@latest memory search -q "<topic>"`. Keys: nursing-app-plan/`user-app-plan-2026-10-16`, `dec-005-implementation-authorized`, `app-status-v0`, `user-standing-directive`, `user-hold-order`. `.claude/memory.db` is gitignored and lost on container reset: this section is the durable copy.
+
+**Standing directives from the owner:** act without asking permission on routine work and keep memory updated every session; when the owner says "don't start yet", wait. Mark claims OBSERVED / INFERRED / PROPOSED / UNKNOWN, never claim tests ran without exact commands and results. Develop on branch `ccr-13ebab09-xygfde`, draft PR #7.
+
+**Status (2026-10-16):** v0 pushed. Done: vault graph, readability/chunk provenance + AI double-check, mastery/plan/points/streak, diagnostic gate, OpenAI/Anthropic adapter. Not done: PDF/photo OCR import, lesson screen, pop quizzes, module quiz + weakness loop, flashcards/SRS, tutor chat, images, drawn graph. Never run on a device or with a live AI call.
+
 ## Rules
 
 - Do what has been asked; nothing more, nothing less
