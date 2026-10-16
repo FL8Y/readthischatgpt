@@ -418,3 +418,14 @@
 - [[Phosphorus]] — [Phosphate Imbalances — PNLE Research.md](./Fluids,%20Electrolytes%20and%20Acid-Base/Phosphorus/Phosphate%20Imbalances%20%E2%80%94%20PNLE%20Research.md)
 - [[Potassium]] — [Potassium Imbalances — PNLE Research.md](./Fluids,%20Electrolytes%20and%20Acid-Base/Potassium/Potassium%20Imbalances%20%E2%80%94%20PNLE%20Research.md)
 - [[Sodium]] — [Sodium Imbalances — PNLE Research.md](./Fluids,%20Electrolytes%20and%20Acid-Base/Sodium/Sodium%20Imbalances%20%E2%80%94%20PNLE%20Research.md)
+
+
+## GI and hepatobiliary research drafts (verification pending)
+- [[Appendicitis]] — [Appendicitis — PNLE Research.md](./GI%20and%20Hepatobiliary/Appendicitis/Appendicitis%20%E2%80%94%20PNLE%20Research.md)
+- [[Cholecystitis]] — [Cholecystitis and Biliary Disease — PNLE Research.md](./GI%20and%20Hepatobiliary/Cholecystitis/Cholecystitis%20and%20Biliary%20Disease%20%E2%80%94%20PNLE%20Research.md)
+- [[Diverticular Disease]] — [Diverticular Disease and Diverticulitis — PNLE Research.md](./GI%20and%20Hepatobiliary/Diverticular%20Disease/Diverticular%20Disease%20and%20Diverticulitis%20%E2%80%94%20PNLE%20Research.md)
+- [[GERD]] — [Gastroesophageal Reflux Disease (GERD) — PNLE Research.md](./GI%20and%20Hepatobiliary/GERD/Gastroesophageal%20Reflux%20Disease%20(GERD)%20%E2%80%94%20PNLE%20Research.md)
+- [[Liver Cirrhosis]] — [Liver Cirrhosis and Complications — PNLE Research.md](./GI%20and%20Hepatobiliary/Liver%20Cirrhosis/Liver%20Cirrhosis%20and%20Complications%20%E2%80%94%20PNLE%20Research.md)
+- [[Dumping Syndrome]] — [Dumping Syndrome — PNLE Research.md](./GI%20and%20Hepatobiliary/PUD/Dumping%20Syndrome/Dumping%20Syndrome%20%E2%80%94%20PNLE%20Research.md)
+- [[Gastric vs Duodenal]] — [Gastric vs Duodenal Peptic Ulcer Disease — PNLE Research.md](./GI%20and%20Hepatobiliary/PUD/Gastric%20vs%20Duodenal/Gastric%20vs%20Duodenal%20Peptic%20Ulcer%20Disease%20%E2%80%94%20PNLE%20Research.md)
+- [[Acute Pancreatitis]] — [Acute Pancreatitis — PNLE Research.md](./GI%20and%20Hepatobiliary/Pancreatitis/Acute%20Pancreatitis/Acute%20Pancreatitis%20%E2%80%94%20PNLE%20Research.md)
