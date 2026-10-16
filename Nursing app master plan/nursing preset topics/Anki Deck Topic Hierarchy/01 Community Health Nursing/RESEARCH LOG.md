@@ -10,9 +10,9 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 60 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, BCG, Maternal and Child Health, Health and Sanitation Laws, Pentavalent Vaccine, Elements of Primary Health Care, Other Vaccines, Food Sanitation, Vaccine Table, Locally-Endemic Diseases, Active Management of Third Stage of Labor, FHSIS, Epidemiology, Population Pyramid, Vital Statistics, Incidence vs Prevalence Rates, and Common Vital Statistics, and Swaroops, Sex Ratio, and EINC, and Vital Statistics Basic Concepts, and Newborn Screening, and Reproductive Health, and VAWC, and BEmOC and CEmOC, TT, Activities, Exercise, and People Behind CHN, and Functions of DOH, and Functions of DOH, and Emergency Services, and NCD, and Prioritization.
+- **Substantive topic drafts expanded:** 61 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, BCG, Maternal and Child Health, Health and Sanitation Laws, Pentavalent Vaccine, Elements of Primary Health Care, Other Vaccines, Food Sanitation, Vaccine Table, Locally-Endemic Diseases, Active Management of Third Stage of Labor, FHSIS, Epidemiology, Population Pyramid, Vital Statistics, Incidence vs Prevalence Rates, and Common Vital Statistics, and Swaroops, Sex Ratio, and EINC, and Vital Statistics Basic Concepts, and Newborn Screening, and Reproductive Health, and VAWC, and BEmOC and CEmOC, TT, Activities, Exercise, and People Behind CHN, and Functions of DOH, and Functions of DOH, and Emergency Services, and NCD, and Prioritization, and Scoring.
 - **Topics verified complete:** 0
-- **Folders still requiring substantive topic-specific expansion:** 17 (all 77 have a notes file, but most remain initial starter notes).
+- **Folders still requiring substantive topic-specific expansion:** 16 (all 77 have a notes file, but most remain initial starter notes).
 - **Drafts awaiting source/content verification:** 57
 - **Research notes present:** 77/77; this is file presence, not research completion.
 - **Completion:** 0% verified topic research. No topic is marked Verified Complete.
@@ -88,8 +88,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: **Drafted — Needs Verification** | Required sections: clinical triage vs family problem ranking; common criteria; scoring formula caveats; example; modifiability/preventive potential/salience; safety override; documentation/evaluation; PNLE points; sources.  
   Sources consulted: WHO–UNICEF PHC Operational Framework (2020); RA 11223; RA 10173; required course-text rubric identified as the authority for exact scoring weights. Important facts covered: emergency danger overrides numerical score; common criteria are nature, modifiability, preventive potential and salience; exact weights vary by assigned rubric. Research file: `CHN, PHC/Family ADPIE/Planning/Prioritization/RESEARCH NOTES.md` (11,768 characters; reopened from main). Unresolved issues: exact assigned textbook scoring table must be directly checked before exam use. Last action: reconciled the substantive prioritization draft from main into the log (2026-10-17). Next action: continue the remaining family ADPIE topics and verify course-specific rubric.
 - [x] **Scoring** — `CHN, PHC/Family ADPIE/Planning/Scoring`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: scoring purpose; common criteria and weights; formula; worked calculations; emergency override; interpretation; documentation; PNLE distinctions; sources.  
+  Sources consulted: WHO–UNICEF PHC Operational Framework (2020); RA 11223 UHC Act. Important facts covered: weighted-score formula, maximum score under the common teaching model, two illustrative calculations, distinction among nature/modifiability/preventive potential/salience, emergency override and common calculation errors. Research file: `CHN, PHC/Family ADPIE/Planning/Scoring/RESEARCH NOTES.md` (10,902 characters; reopened after save). Unresolved issues: exact weights/rating labels need confirmation from the assigned CHN textbook/course rubric; primary textbook page not reviewed. Last action: replaced generic 2,635-character starter with substantive worked scoring research and reopened saved file (2026-10-17). Next action: verify course-specific rubric and continue to the next family ADPIE topic.
 - [x] **Health Promotion** — `CHN, PHC/Health Promotion`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 60/77; all 60 remain Drafted — Needs Verification.
-- **Folders still requiring substantive expansion:** 17/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** 61/77; all 61 remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** 16/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -1083,3 +1083,15 @@ Every directory below was present in the repository's recursive tree at the init
 - Sources listed: WHO–UNICEF PHC Operational Framework (2020); RA 11223; RA 10173; the assigned course-text rubric as authority for exact scoring criteria.
 - Status: **Drafted — Needs Verification**, not Verified Complete. Exact assigned textbook scoring anchors/weights must be checked before using numerical scores in PNLE preparation.
 - Next action: continue remaining Family ADPIE topics and verify the prescribed scoring rubric.
+
+
+## Research Cycle Log — 2026-10-17 (Family ADPIE Scoring)
+
+- Re-read the full mandatory CHN research standard and inspected the Scoring child folder.
+- Replaced the 2,635-character generic starter with a 10,902-character topic-specific note covering the common family-health scoring criteria/weights, calculation formula, two worked examples, emergency override, criterion interpretation, common errors, documentation and PNLE distinctions.
+- Sources consulted: WHO–UNICEF PHC Operational Framework (2020); RA 11223 UHC Act.
+- Reopened the saved file from GitHub and confirmed 10,902 characters, the second worked example and the course-source caveat.
+- Limitations: exact family-health scoring weights/rating labels were not verified against a primary textbook page; the note explicitly requires confirmation against the assigned course source.
+- Status: **Drafted — Needs Verification**, not Verified Complete.
+- Coverage reconciliation: 61/77 folders have substantive drafts, 16/77 still require substantive expansion, and 0/77 are verified complete.
+- Next action: verify the course-specific scoring rubric and continue with the next family ADPIE subtopic.
