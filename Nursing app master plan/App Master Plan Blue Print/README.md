@@ -48,20 +48,21 @@ Directory names above reflect the actual current Git tree; do not silently chang
 
 ## Working status
 
-- [x] Inspect the recursive repository tree (initially 729 entries; after planning uploads, 740 entries; both tree responses were not truncated).
+- [x] Re-scan the recursive repository tree after planning uploads: 740 entries, 599 blobs/files, 141 trees/directories, `truncated=false` at the most recent verified tree snapshot.
 - [x] Inspect the initial blueprint and parent README.
 - [x] Inspect key project instructions and Ruflo configuration summaries.
 - [x] Inspect App 1 README/upload log.
 - [x] Inspect key App 2 research and reference implementation files.
 - [x] Inspect key App 3 research and reference implementation files.
-- [x] Add initial architect plan, Claude prompt, work packages, audit, traceability, architecture options, data model, UX/learning spec, decision log, and roadmap.
+- [x] Add the 12-document planning package: architect plan, Claude orchestrator prompt, work packages, audit, traceability, architecture options, data model/contracts, UX/learning spec, decision log, implementation roadmap, and QA council review.
 - [x] Read both complete research DOCX reports (Gizmo 54/54 pages; AnkiDroid 35/35 pages).
-- [ ] Reconcile all report claims against markdown notes; an internal Gizmo min-SDK inconsistency has been recorded as unresolved.
+- [ ] Reconcile remaining research-report claims against markdown notes and primary manifest/config evidence; the Gizmo min-SDK conflict remains UNKNOWN.
 - [ ] Re-run available reference tests and record actual results.
-- [ ] Complete the independent architecture council review and apply findings.
-- [x] Fetch all 11 blueprint files from GitHub after upload and confirm they are non-empty.
+- [x] Record a separate architecture council review and apply the highest-impact planning corrections: strict diagnostic gate, answer-key separation, shuffle-safe grading, and persistent idempotency/concurrency tests.
+- [ ] Complete the next council cycle after reference tests and source-claim reconciliation.
+- [x] Fetch all 12 blueprint Markdown files from GitHub after upload and confirm non-empty content.
 - [x] Parse and validate every relative link in both updated READMEs against the current Git tree.
-- [ ] Finish cross-document content review and address remaining council findings.
+- [ ] Finish cross-document content review, re-run safe reference tests if tooling permits, update the scorecard, and address remaining council findings.
 - [ ] Complete planning acceptance gate; implementation still requires separate authorization.
 
 **Important:** A complete path inventory does not mean every binary or every unrelated Claude/Ruflo framework file has been semantically read. See the Repository Audit for exact scope and remaining work.
