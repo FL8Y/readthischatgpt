@@ -10,10 +10,10 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 10 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, and Education.
+- **Substantive topic drafts expanded:** 11 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, and Competency-Based Teaching.
 - **Topics verified complete:** 0
-- **Folders still requiring substantive topic-specific expansion:** 67 (all 77 have a notes file, but most remain initial starter notes).
-- **Drafts awaiting source/content verification:** 10
+- **Folders still requiring substantive topic-specific expansion:** 66 (all 77 have a notes file, but most remain initial starter notes).
+- **Drafts awaiting source/content verification:** 11
 - **Research notes present:** 77/77; this is file presence, not research completion.
 - **Completion:** 0% verified topic research. No topic is marked Verified Complete.
 - **Mind map:** Existing Obsidian map reflects the folder hierarchy; status annotations, links and coverage audit still required.
@@ -136,8 +136,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: **Drafted — Needs Verification** | Required sections: health education vs health promotion/health literacy; learning-needs assessment; objective-setting and delivery; teach-back/return demonstration; evaluation; nursing responsibilities, safety and ethics; community application; PNLE distinctions; sources.  
   Sources consulted: WHO health literacy fact sheet (22 Dec 2025); WHO health promotion topic page; WHO Declaration of Alma-Ata; CDC communication strategies page (2024); WHO EMRO health-promotion introduction. Important facts covered: education as PHC element; health literacy; structural barriers; tailored education; teach-back; outcome evaluation and safety. Research file: `Elements of Primary Health Care/Education/RESEARCH NOTES.md` (13,832 characters; reopened after save). Unresolved issues: final direct-link check; full Alma-Ata text check; use current Philippine DOH/program sources for any topic-specific clinical teaching. Last action: expanded generic 2,431-character starter note into substantive topic research and reopened saved file (2026-10-17). Next action: verify sources and continue with each child topic individually.
 - [x] **Competency-Based Teaching** — `Elements of Primary Health Care/Education/Competency-Based Teaching`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: definition/distinctions; design cycle; measurable competencies; assessment methods and limitations; feedback/remediation; fairness and safety; community-health examples; educator responsibilities; PNLE distinctions; sources.  
+  Sources consulted: WHO SEARO Regional Competency Assessment Tool for Nurse Educators (2022); WHO Global Competency and Outcomes Framework for UHC (2022); WHO Nurse Educator Core Competencies (2016); WHO Global Standards for Initial Education of Nurses and Midwives (2009). Important facts covered: integrated performance; six competency domains; aligned assessment methods; remediation and safety; educator responsibilities. Research file: `Elements of Primary Health Care/Education/Competency-Based Teaching/RESEARCH NOTES.md` (14,560 characters; reopened after save). Unresolved issues: final full-text/link review; align any regulatory claim to current Philippine PRC/BON/CHED and institutional standards. Last action: expanded generic 2,473-character starter note into substantive topic research and reopened saved file (2026-10-17). Next action: continue with the next child topic, then verify sources and content before marking complete.
 - [x] **Identify the Prevention** — `Elements of Primary Health Care/Education/Identify the Prevention`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 10/77; all ten remain Drafted — Needs Verification.
-- **Folders still requiring substantive expansion:** 67/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** 11/77; all eleven remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** 66/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -433,3 +433,14 @@ Every directory below was present in the repository's recursive tree at the init
 - Reopened the saved file from GitHub and confirmed 13,832 characters plus teach-back, child-topic mapping and the WHO 2025 source.
 - Status: **Drafted — Needs Verification**, not Verified Complete.
 - Next action: continue with the next individual folder, starting with `Competency-Based Teaching`; this education parent note does not complete its child topics.
+
+
+## Research Cycle Log — 2026-10-17 (Competency-Based Teaching)
+
+- Applied the full research standard to the individual `Education/Competency-Based Teaching` folder and inspected the existing starter note.
+- Expanded `Elements of Primary Health Care/Education/Competency-Based Teaching/RESEARCH NOTES.md` from 2,473 characters to 14,560 characters.
+- Covered competency definition; distinction from knowledge, skill, objective, assessment and certification; learning design cycle; measurable criteria; assessment methods and limitations; feedback/remediation; fairness and safety; nursing/community examples; educator responsibilities; PNLE distinctions.
+- Sources consulted: WHO SEARO Regional Competency Assessment Tool for Nurse Educators (2022); WHO Global Competency and Outcomes Framework for UHC (2022); WHO Nurse Educator Core Competencies (2016); WHO Global Standards for Initial Education of Nurses and Midwives (2009).
+- Reopened the saved file and confirmed 14,560 characters plus assessment-method and WHO framework sections. Full-text and link checks remain; international guidance must not be represented as Philippine law.
+- Status: **Drafted — Needs Verification**, not Verified Complete.
+- Next action: research the next individual child folder, `Identify the Prevention`, and keep the log aligned with actual writes and reopen checks.
