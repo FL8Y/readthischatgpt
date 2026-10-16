@@ -44,7 +44,9 @@
   - Placenta Previa
   - [[Common Complications/Placenta Previa/Research|Placenta Previa]]
   - Premature Rupture of Membranes
+  - [[Common Complications/Premature Rupture of Membranes/Research|PROM and PPROM]]
   - Shoulder Dystocia
+  - [[Common Complications/Shoulder Dystocia/Research|Shoulder Dystocia]]
   - Toxemia (legacy folder label; research should use current terminology such as hypertensive disorders of pregnancy and explain historical terminology)
 - Postpartum Changes
 - Others
