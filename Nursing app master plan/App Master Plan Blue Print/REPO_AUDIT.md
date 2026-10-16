@@ -7,7 +7,7 @@
 
 ## 1. Repository-wide inventory
 
-The initial GitHub recursive tree scan returned **729 entries** with `truncated=false`. After adding the ten new planning artifacts and updating the two READMEs, a verification scan returned **739 entries**, again with `truncated=false`. Top-level entry counts below are from the initial inventory before the planning artifacts were added:
+The initial GitHub recursive tree scan returned **729 entries** with `truncated=false`. After adding the ten initial planning artifacts, updating the two READMEs, and adding the council review, a verification scan returned **740 entries**, again with `truncated=false`. Top-level entry counts below are from the initial inventory before the planning artifacts were added:
 
 | Top-level path | Entries | Purpose / treatment |
 |---|---:|---|
