@@ -152,3 +152,4 @@ All other topic folders require their own substantive research and logged verifi
   - [[Common Vital Statistics]] — **Drafted — Needs Verification**
 - [[Incidence vs Prevalence Rates]] — **Drafted — Needs Verification**
 - [[EINC]] — **Drafted — Needs Verification**
+- [[Newborn Screening]] — **Drafted — Needs Verification**
