@@ -10,10 +10,10 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 7 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, and Elements of PHC.
+- **Substantive topic drafts expanded:** 8 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, and Pillars of PHC.
 - **Topics verified complete:** 0
-- **Folders still requiring substantive topic-specific expansion:** 70 (all 77 have a notes file, but most remain initial starter notes).
-- **Drafts awaiting source/content verification:** 7
+- **Folders still requiring substantive topic-specific expansion:** 69 (all 77 have a notes file, but most remain initial starter notes).
+- **Drafts awaiting source/content verification:** 8
 - **Research notes present:** 77/77; this is file presence, not research completion.
 - **Completion:** 0% verified topic research. No topic is marked Verified Complete.
 - **Mind map:** Existing Obsidian map reflects the folder hierarchy; status annotations, links and coverage audit still required.
@@ -124,8 +124,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: **Drafted — Needs Verification** | Required sections: classic eight elements; purpose and practical applications; nursing responsibilities; clinical safety; evaluation indicators; Philippine context; PNLE distinctions; sources.  
   Sources consulted: WHO Declaration of Alma-Ata official pages; WHO–UNICEF PHC Operational Framework (2020); WHO–UNICEF PHC Measurement Framework (2022); RA 11223 Supreme Court E-Library listing. Important facts covered: all eight classic elements; distinction from modern PHC components/levers; topic-specific applications and safety; cross-cutting principles and indicators. Research file: `CHN, PHC/Primary Health Care/Elements of PHC/RESEARCH NOTES.md` (22,413 characters; reopened after save). Unresolved issues: final link-by-link verification; direct inspection of full source text; current disease/program protocols and drug details must be checked in their respective topics. Last action: expanded generic 2,414-character starter note into substantive research and reopened saved file (2026-10-17). Next action: independently verify citations/content and continue to next topic folder before final audit.
 - [x] **Pillars of PHC** — `CHN, PHC/Primary Health Care/Pillars of PHC`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: definitions/terminology caveat; community participation; intersectoral coordination; appropriate technology; referral/continuity; equity; nursing workflow; measurement; Philippine context; PNLE distinctions; sources.  
+  Sources consulted: WHO Declaration of Alma-Ata official pages; WHO–UNICEF PHC Operational Framework (2020); WHO–UNICEF PHC Measurement Framework (2022); RA 11223 Supreme Court E-Library listing. Important facts covered: traditional teaching labels vary; principles grounded in Alma-Ata; distinction from eight service elements and modern PHC framework; safety and evaluation. Research file: `CHN, PHC/Primary Health Care/Pillars of PHC/RESEARCH NOTES.md` (15,769 characters; reopened after save). Unresolved issues: final link-by-link and full-text review; exact pillar labels must be checked against the assigned nursing text/course because educational lists vary. Last action: expanded generic 2,412-character starter note into substantive research and reopened saved file (2026-10-17). Next action: continue folder-by-folder and verify sources before marking complete.
 - [x] **Sentrong Sigla Program** — `CHN, PHC/Sentrong Sigla Program`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 7/77; all seven remain Drafted — Needs Verification.
-- **Folders still requiring substantive expansion:** 70/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** 8/77; all eight remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** 69/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -399,3 +399,15 @@ Every directory below was present in the repository's recursive tree at the init
 - Reopened the saved file from GitHub and confirmed 22,413 characters plus the eight-elements and medication-safety sections.
 - Status: **Drafted — Needs Verification**, not Verified Complete.
 - Next action: continue to the next individual topic folder. Do not infer completion from file presence; final source verification and recursive coverage audit remain.
+
+
+## Research Cycle Log — 2026-10-17 (Pillars of PHC)
+
+- Re-read the mandatory subject standard and inspected the existing topic file before rewriting it.
+- Expanded `CHN, PHC/Primary Health Care/Pillars of PHC/RESEARCH NOTES.md` from 2,412 characters to 15,769 characters.
+- Covered community participation, intersectoral coordination, appropriate technology, referral/continuity, equity, nursing responsibilities, safety/prioritization, measurement, Philippine context and PNLE distinctions.
+- Explicitly documented that the phrase “pillars of PHC” is not perfectly standardized across educational sources; distinguished traditional principle/pillar labels from Alma-Ata's eight service elements and the modern WHO–UNICEF three-component/14-lever framework.
+- Sources consulted: official WHO Declaration of Alma-Ata pages; WHO–UNICEF PHC Operational Framework (2020); WHO–UNICEF PHC Measurement Framework (2022); RA 11223 Supreme Court E-Library listing. Final full-text and direct-link review remains.
+- Reopened the saved file and confirmed 15,769 characters, community participation/referral coverage and the terminology caveat.
+- Status: **Drafted — Needs Verification**, not Verified Complete.
+- Next action: proceed to the next individual topic folder; continue logging after each write and reopen verification. The subject is not complete.
