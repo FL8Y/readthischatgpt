@@ -7,7 +7,7 @@ Scope: `Nursing app master plan/nursing preset topics/Anki Deck Topic Hierarchy/
 ## Current status
 
 - Topic folders inventoried: 22
-- Topic folders with substantive research files uploaded: 22/22; every inventoried topic folder now has a dedicated Markdown research file.nner, Oxygen Therapy, Nutrition, Pain, Sleep, Wound Care).
+- Topic folders with substantive research files uploaded: 22/22; every inventoried topic folder now has a dedicated Markdown research file.
 - Topic folders with fully verified research: 0; all 22 topic files remain IN PROGRESS until source-by-source safety and claim validation is complete.
 - Research files created: 22 topic files; plus the research log and Obsidian mind map.
 - Completion: **0/22 topic folders fully verified (0%)**. The 100% file-population rate is not a 100% evidence-verification rate.
@@ -19,7 +19,7 @@ Follow [RESEARCH TOPIC GUIDE.md](./RESEARCH%20TOPIC%20GUIDE.md). For each topic,
 
 ## Recursive inventory and checklist
 
-Status key: `NOT STARTED` = no topic-specific research file yet; `IN PROGRESS` = file exists and awaits source-by-source clinical claim validation (file-presence checks alone are insufficient); `BLOCKED` = a specific obstacle prevents completion; `VERIFIED` = exact uploaded path/content checked, cited sources directly checked against claims, and safety-critical guidance confirmed.nspected in the repository tree but substantive topic research not yet verified; `IN PROGRESS` = research file created but not yet reopened and validated; `BLOCKED` = a specific obstacle prevents completion; `VERIFIED` = uploaded file reopened, content/path checked, and sources checked.
+Status key: `NOT STARTED` = no topic-specific research file yet; `IN PROGRESS` = file exists and awaits source-by-source clinical claim validation (file-presence checks alone are insufficient); `BLOCKED` = a specific obstacle prevents completion; `VERIFIED` = exact uploaded path/content checked, cited sources directly checked against claims, and safety-critical guidance confirmed.
 
 | # | Topic / folder path | Status | Required sections / research focus | Sources checked | File(s) | Unresolved / next action |
 |---:|---|---|---|---|---|---|
@@ -82,8 +82,7 @@ The current hierarchy contains 22 folders, many represented only by `.gitkeep`. 
 - 2026-10-17 — Searched authoritative online references for Fundamentals content; verified the existence of OpenStax vital-signs material and WHO/CDC hand-hygiene guidance.
 - 2026-10-17 — Uploaded the initial research files and mind map. Reopened all four exact paths through GitHub and confirmed each returned content, a blob SHA, and non-empty content. Verified paths: [RESEARCH LOG](./RESEARCH%20LOG.md), [OBSIDIAN MIND MAP](./OBSIDIAN%20MIND%20MAP.md), [Patricia Benner research](./Important%20Nursing%20Theorists/Patricia%20Benner/PATRICIA%20BENNER%20NOVICE%20TO%20EXPERT.md), and [Oxygen therapy research](./Oxygenation/Oxygen/OXYGEN%20THERAPY%20NURSING%20GUIDE.md). Upload/path/content validation passed; clinical-source verification is still incomplete, so the two topic files remain IN PROGRESS and count as 0 VERIFIED topics.
 - 2026-10-17 — Added substantive topic-specific research files under Nutrition, Pain, Sleep, and Wound Care; reopened all four exact GitHub paths and confirmed non-empty content and blob SHAs. Updated the mind map to link these files. Nutrition, pain, and wound source pages were checked via search results; the sleep source was located but requires focused section verification. These four topics remain IN PROGRESS, not VERIFIED.
-- 2026-10-17 — Populated all 22 inventoried Fundamentals topic folders with dedicated Markdown research files, including separate files for the main folders and each nested topic. Reopened checks and source-by-source safety validation remain required; no topics are marked VERIFIED yet.
-- 2026-10-17 — Populated all 22 inventoried Fundamentals topic folders with dedicated Markdown research files, including separate files for the main folders and each nested topic. Reopen checks and source-by-source safety validation remain required; no topics are marked VERIFIED yet.
+- 2026-10-17 — Prepared dedicated topic-specific research drafts for all 22 inventoried Fundamentals folders. All exact paths and non-empty contents were reopened and checked through GitHub on the agent branch; clinical-source verification is still incomplete, so no topic is marked VERIFIED.
 - 2026-10-17 — Next action: reopen all 22 exact GitHub paths; validate each referenced source against clinical statements, especially contraindications, medication/suction/tracheostomy safety, emergency action, specimen procedures, and aging-theory limitations. Update statuses only after this audit.
 
 
