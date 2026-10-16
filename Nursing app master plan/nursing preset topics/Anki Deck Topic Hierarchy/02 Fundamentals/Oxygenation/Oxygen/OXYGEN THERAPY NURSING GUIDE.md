@@ -23,7 +23,7 @@ Supplemental oxygen treats or prevents hypoxemia; it is a medication-like therap
 | Non-rebreather mask | High-concentration oxygen in urgent hypoxemia while definitive assessment/treatment proceeds | Ensure reservoir inflates and valves/mask function; this is not a substitute for urgent escalation or ventilatory support when indicated |
 | High-flow nasal oxygen or other advanced systems | Selected acute respiratory failure contexts | Requires appropriate equipment, monitoring, trained staff, and local protocol |
 
-Exact flow ranges and target saturations depend on the device, indication, prescription, and protocol; do not apply a single target to every patient.
+**Adult acute-care target example (must be individualized):** the 2022 AARC adult oxygen guideline recommends SpO₂ 94–98% for most hospitalized adults receiving supplemental oxygen and 88–92% for patients with COPD who require oxygen. BTS guidance similarly uses 88–92% for patients at risk of hypercapnic respiratory failure pending blood-gas results, with patient-specific exceptions. These are adult acute-care recommendations, not universal targets for children, neonates, pregnancy, carbon monoxide poisoning, or every chronic respiratory patient. Follow the prescribed target and local protocol. A need for increasing oxygen concentration warrants prompt reassessment; oxygen should be titrated to a target rather than automatically maximized.
 
 ## Safety precautions
 
@@ -50,11 +50,12 @@ Prioritize airway and breathing over routine tasks. Evaluate the patient before 
 
 ## Sources
 
-1. OpenStax, *Clinical Nursing Skills*, “Oxygen Therapy” (chapter section): https://openstax.org/books/clinical-nursing-skills/pages/16-1-oxygen-therapy — open educational nursing resource; verify the current section text against local protocol before clinical use.
-2. British Thoracic Society, *Guideline for oxygen use in adults in healthcare and emergency settings* (2017): https://thorax.bmj.com/content/72/Suppl_1/ii1 — adult oxygen prescribing/target principles; international guidance, not Philippine regulation.
-3. World Health Organization, *Clinical management of COVID-19: living guideline* (living guidance): https://www.who.int/publications/i/item/WHO-2019-nCoV-clinical-2023.2 — disease-specific oxygen/respiratory support guidance; do not generalize disease-specific recommendations beyond scope.
-4. Facility policy, current device instructions for use, and applicable Philippine DOH/hospital protocols must govern implementation. A Philippine-specific protocol has not yet been checked in this draft.
+1. Piraino, T., et al. (2022). “AARC Clinical Practice Guideline: Management of Adult Patients With Oxygen in the Acute Care Setting.” *Respiratory Care*, 67(1), 115–128. https://journals.sagepub.com/doi/full/10.4187/respcare.09294 — directly opened; recommendations checked for adult SpO₂ targets and oxygen-delivery considerations.
+2. OpenStax, *Clinical Nursing Skills*, “Oxygen Therapy”: https://openstax.org/books/clinical-nursing-skills/pages/16-1-oxygen-therapy — educational skills reference; verify current section text against local protocol before clinical use.
+3. British Thoracic Society, *Guideline for oxygen use in adults in healthcare and emergency settings* (2017): https://thorax.bmj.com/content/72/Suppl_1/ii1 — directly opened; supports target ranges and target-prescription principles; international guidance, not Philippine regulation.
+4. World Health Organization, *Clinical management of COVID-19: living guideline* (living guidance): https://www.who.int/publications/i/item/WHO-2019-nCoV-clinical-2023.2 — disease-specific oxygen/respiratory support guidance; do not generalize disease-specific recommendations beyond scope.
+5. Facility policy, current device instructions for use, and applicable Philippine DOH/hospital protocols must govern implementation. A Philippine-specific protocol has not yet been checked in this draft.
 
 ## Verification status
 
-**Drafted; not yet verified.** The OpenStax oxygen-therapy page and current local/professional guidance must be reopened and checked before this file can be marked verified. Confirm target ranges and device flow requirements against current source text and local policy.
+**DRAFTED; not VERIFIED COMPLETE.** The AARC 2022 adult oxygen guideline and BTS 2017 guideline were opened directly and target-range claims checked. Device-specific flow ranges, pediatric/neonatal targets, local Philippine protocol, and the remainder of the clinical claims still require review.
