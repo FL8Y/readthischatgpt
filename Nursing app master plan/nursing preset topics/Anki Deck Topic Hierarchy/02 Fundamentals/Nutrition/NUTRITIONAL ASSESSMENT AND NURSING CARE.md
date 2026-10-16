@@ -24,7 +24,7 @@ Nutrition supplies energy, essential nutrients, and substrates for tissue mainte
 ## High-risk situations and precautions
 
 - **Suspected aspiration or airway compromise:** stop oral intake, assess airway/breathing, call for help as needed, and follow emergency protocol.
-- **Severe malnutrition or prolonged negligible intake:** refeeding can cause dangerous phosphate, potassium, and magnesium shifts and fluid changes. Escalate for a monitored nutrition plan and appropriate laboratory surveillance; do not rapidly advance nutrition without risk assessment.
+- **Severe malnutrition or prolonged negligible intake:** refeeding can cause dangerous phosphate, potassium, and magnesium shifts, thiamine-related complications, and fluid changes. Assess risk before restarting or rapidly increasing calories; collaborate on a monitored nutrition plan, thiamine/electrolyte management as ordered, and appropriate laboratory surveillance. ASPEN's 2020 consensus definition grades refeeding syndrome partly by the fall in serum phosphorus, potassium, and/or magnesium within five days of calorie reintroduction: 10–20% mild, 20–30% moderate, and >30% or associated organ dysfunction/thiamine deficiency severe. These are consensus criteria and require clinical interpretation, not a stand-alone diagnosis.
 - **Fluid restriction, renal disease, heart failure, diabetes, and dysphagia:** diet and fluid recommendations must be individualized to the current order and clinical status.
 - Do not label a patient “noncompliant” without assessing cost, food access, literacy, symptoms, cultural practices, and treatment burden.
 
@@ -35,6 +35,7 @@ Airway protection takes priority over calorie goals when swallowing safety is un
 ## Sources
 
 1. OpenStax, *Fundamentals of Nursing*, “21.4 Nutritional Assessment” (online textbook; accessed 2026-10-17): https://openstax.org/books/fundamentals-nursing/pages/21-4-nutritional-assessment
-2. OpenStax, *Fundamentals of Nursing*, textbook index and chapter coverage for nutrition, enteral nutrition, and nursing assessment: https://openstax.org/books/fundamentals-nursing/pages/index
+2. da Silva, J. S. V., et al. (2020). “ASPEN Consensus Recommendations for Refeeding Syndrome.” *Nutrition in Clinical Practice*, 35(2), 178–195. https://aspenjournals.onlinelibrary.wiley.com/doi/10.1002/ncp.10474 — directly opened; abstract and consensus recommendations reviewed for electrolyte-based diagnostic criteria and risk-adapted monitoring. Adapt recommendations to renal impairment, population, and local protocol.
+3. OpenStax, *Fundamentals of Nursing*, textbook index and chapter coverage for nutrition, enteral nutrition, and nursing assessment: https://openstax.org/books/fundamentals-nursing/pages/index
 
-These are educational references. Follow current institutional policy and patient-specific orders for tube verification, diet texture, and feeding precautions.
+These are educational references. Follow current institutional policy and patient-specific orders for tube verification, diet texture, and feeding precautions. **DRAFTED; not VERIFIED COMPLETE:** enteral-tube verification and aspiration precautions require comparison with current local policy and authoritative procedure guidance; nutrition-related medication interactions and special-population recommendations remain to be audited.
