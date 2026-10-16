@@ -158,3 +158,13 @@ PALMER's intended meaning has not been expanded by guesswork. The actual reposit
 - Exact next action: verify every cited URL and high-risk factual/legal claim against current authoritative sources, then update this log and mind map with any corrections.
 - Log: [RESEARCH LOG.md](./RESEARCH%20LOG.md)
 - Mind map: [OBSIDIAN MIND MAP.md](./OBSIDIAN%20MIND%20MAP.md)
+
+
+## New research-standard adoption — 2026-10-17
+- Re-read the complete current [RESEARCH TOPIC GUIDE.md](./RESEARCH%20TOPIC%20GUIDE.md) after the repository update. This full version supersedes the earlier shorter standard for all further PALMER work.
+- Mandatory quality gates now explicitly include assessment/red flags; diagnostics and clinically interpreted laboratory findings where relevant; treatment/procedure indications, contraindications, preparation, aftercare and complications; independent/dependent/collaborative nursing actions; medication contraindications, interactions, serious adverse effects and special populations where relevant; ABC/Maslow/acute-versus-chronic prioritization with rationale; Philippine law and DOH/PRC/BON context; source-level verification; and a fresh recursive final audit.
+- Current structural coverage remains 76/76 nested topic folders with a topic-specific `RESEARCH.md`, plus 4/4 main-grouping overviews. This is **folder/file coverage only**, not a declaration that every topic meets the new full research standard.
+- Reopened sample Research B files and the Obsidian mind map. The sampled Research B files contain focused research summaries and references, but are shorter than the new full standard requires for some concepts. Full source-by-source verification and expansion of insufficient sections remain open work.
+- No topic is marked “VERIFIED COMPLETE” under the new standard merely because its file exists. Existing historical “file present/read-back checked” statuses are evidence of upload/read-back only; they must not be interpreted as completed claim-level verification.
+- Next audit cycle: prioritize topics where safety, legal, research-method, or clinical claims require authoritative primary-source validation; open every cited source, verify that it supports the claim, correct weak or missing sections, reopen the edited file, and record the exact result here. Continue through all 76 topics, not just a sample.
+- Session limitation: actions occur within the active session; no claim is made that work continues in the background after the session ends.
