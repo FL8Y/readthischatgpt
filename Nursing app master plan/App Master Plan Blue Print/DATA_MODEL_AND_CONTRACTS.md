@@ -75,6 +75,8 @@ Do not hard-code a single quiz size into the generic Question/Quiz schema.
 - **Module assessment:** count determined by a versioned blueprint and coverage needs.
 - **Flashcard review:** one card per review interaction or a configured queue.
 
+**Diagnostic gate invariant:** For a newly selected learning scope, no new topic lesson is unlocked until the 1–50 question diagnostic session is completed and its result events are durably saved. An interrupted diagnostic resumes the same versioned session; it must not silently restart, lose attempts, or offer a bypass in the normal learning path. A separate review-only mode may reopen content already taught, but cannot be used to unlock new lessons without a diagnostic. If an AI key/network is unavailable and no valid diagnostic set is available, show a recoverable blocked state rather than skipping the gate.
+
 Validation must reject a generated response whose question count falls outside the policy. For large diagnostics, batch generation only if the system can preserve cross-batch coverage and deduplication.
 
 ## 5. Service boundaries (logical)
@@ -160,6 +162,7 @@ Do not claim clinical competence from quiz scores. A topic with few questions sh
 - Shuffled ordering/matching display grades against canonical item IDs correctly.
 - Duplicate question prompts detected across batches.
 - Topic coverage and count constraints enforced.
+- A new learning scope cannot unlock lessons until its diagnostic is completed; app restart/connection loss resumes the diagnostic without losing attempts.
 - Attempt and reward idempotency.
 - Scheduler determinism under fixed clock and ratings.
 - Migration/restore retains event history.
