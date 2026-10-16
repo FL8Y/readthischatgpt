@@ -1,56 +1,125 @@
-# Rheumatic Heart Fever — Pediatric Nursing Research Notes
+# Acute Rheumatic Fever and Rheumatic Heart Disease — Pediatric Nursing Research Notes
 
-**Purpose:** PNLE-focused study material for pediatric nursing. This is an educational summary, not an individualized order or a substitute for current local protocols. Last repository research pass: 2026-10-17.
+**Repository folder label:** “Rheumatic Heart Fever.” Accepted clinical terms are **acute rheumatic fever (ARF)** and **rheumatic heart disease (RHD)**. These notes cover acute post-streptococcal inflammation and chronic valvular consequences. Educational material only; diagnosis, antibiotics, and prophylaxis duration require clinician-directed care. **Reviewed:** 2026-10-17.
 
-## 1. Core concept
-Acute rheumatic fever can follow group A streptococcal infection and may cause migratory arthritis, carditis, chorea, rash, or nodules. Distinguish it from infective endocarditis and Kawasaki disease; assess cardiac symptoms and ensure prescribed eradication and secondary prophylaxis plans are followed.
+## 1. Definition and pathophysiology
 
-## 2. Pediatric assessment
-- Establish age, weight in kg, allergies, baseline function/development, relevant history, current medicines, immunization status where relevant, and caregiver observations.
-- Assess airway, breathing, circulation, mental status, pain, hydration/perfusion, nutrition/growth, elimination, skin, and age-appropriate vital signs according to local reference ranges.
-- Compare findings with the child's baseline and expected developmental stage; infants and children may deteriorate before they can describe symptoms clearly.
-- Document objective findings, onset/progression, intake/output, and response to interventions.
+ARF is a delayed immune-mediated inflammatory complication of group A Streptococcus (GAS) infection, usually pharyngitis and sometimes skin infection, commonly appearing about 1–5 weeks later. It can affect heart, joints, skin, and central nervous system. RHD is chronic structural/functional heart damage, especially mitral and/or aortic valve disease, caused by one or repeated ARF episodes.
 
-## 3. Diagnostics and management
-- Select tests based on clinical presentation and current pediatric guidance; explain the purpose and prepare the child/family in developmentally appropriate language.
-- Verify specimens, age/weight-specific reference intervals, and timing before interpreting laboratory results. No single finding should be interpreted in isolation.
-- Management depends on severity, age, comorbidities, and specialist assessment. Confirm treatment plans and escalation thresholds with current institutional protocols.
-- Reassess after every intervention and document whether the expected response occurred.
+This is not simply persistent bacterial infection of the heart. Immune cross-reactivity after GAS infection drives inflammation. Carditis may involve valves, myocardium, and pericardium. Recurrent attacks increase risk of permanent valve damage, heart failure, arrhythmia, pulmonary hypertension, thromboembolism, and stroke.
 
-## 4. Nursing priorities and rationale
-1. **ABCs and immediate threats first.** Activate emergency response for respiratory compromise, shock/poor perfusion, altered consciousness, rapidly progressive neurologic signs, or other severe deterioration.
-2. **Safety.** Apply age- and condition-appropriate precautions; prevent falls, aspiration, medication errors, infection, and injury.
-3. **Focused monitoring.** Trend vital signs, mental status, pain, weight, intake/output, and relevant labs/clinical signs rather than relying on a single observation.
-4. **Family-centered care.** Include caregivers as partners, acknowledge concerns, use plain language, and confirm understanding with teach-back.
-5. **Evaluation.** State the desired outcome, reassess, and escalate if the child worsens or the response is inadequate.
+Risk factors include untreated/inadequately treated GAS infection, close contact/crowding, barriers to timely care, and previous ARF/RHD. First-onset ARF is commonest in school-age children, often 5–15 years, but age alone does not exclude it.
 
-## 5. Medication and procedure safety
-- Calculate from a current order using a measured weight in kilograms; verify dose units, concentration, route, frequency, maximum dose, allergies, renal/hepatic considerations, interactions, and indication independently according to local medication-safety policy.
-- Never infer or invent a dose from a textbook mnemonic or this page. Verify drug-specific contraindications, serious adverse effects, antidotes, monitoring, and withholding criteria in an authoritative current monograph and the actual institutional protocol.
-- Distinguish an absolute contraindication from a precaution; do not independently stop, start, or change prescribed therapy.
-- Identify any intervention that could worsen the condition and confirm the specific avoidance rule with current guidance.
+## 2. Clinical features and revised Jones criteria
 
-## 6. Complications and red flags
-Escalate urgently for deterioration in breathing, circulation/perfusion, consciousness, new focal neurologic deficit, seizure emergency, uncontrolled bleeding, severe dehydration, rapidly worsening pain/distention, signs of sepsis, or any topic-specific red flag described above. Follow the local emergency pathway and do not delay stabilization to finish routine assessment.
+There is **no single definitive test** for ARF. Diagnosis uses the revised Jones criteria, evidence of preceding GAS infection in most cases, population risk category, clinical judgment, and echocardiography.
 
-## 7. Family education
-- Explain the condition and care plan using age-appropriate words.
-- Give clear instructions on medicines, follow-up, home monitoring, infection/injury prevention, and when/how to seek urgent help.
-- Avoid blame and punishment; support caregiver coping and the child's developmental, school, and psychosocial needs.
-- Use teach-back: ask the caregiver to explain the key action and red flags in their own words.
+### Major manifestations
+- **Carditis:** clinical or subclinical; echocardiography/Doppler can detect valvulitis even without an audible murmur.
+- **Arthritis:** often migratory inflammatory arthritis of large joints (knees, ankles, elbows, wrists). Whether monoarthritis, polyarthritis, or polyarthralgia qualifies as major/minor depends on population risk.
+- **Sydenham chorea:** involuntary, purposeless movements, impaired coordination, emotional lability; may occur later.
+- **Erythema marginatum:** transient, non-itchy, non-painful serpiginous rash, usually trunk/proximal limbs.
+- **Subcutaneous nodules:** firm, painless nodules, often over extensor surfaces; uncommon.
 
-## 8. PNLE reasoning
-- Prioritize immediate threats over routine tasks; ABCs and acute deterioration generally precede comfort/teaching.
-- Use Maslow's hierarchy as a supporting framework, not a rigid algorithm; safety and physiologic threats can supersede other needs.
-- Distinguish expected age-related findings from red flags, and acute deterioration from chronic baseline.
-- Common trap: treating a single classic sign as required for diagnosis, or assuming one medication/treatment is appropriate for every child.
+### Minor manifestations
+Depending on low- versus moderate/high-risk population classification, these include fever, arthralgia, elevated ESR/CRP, and age-adjusted prolonged PR interval on ECG. Fever/ESR/CRP thresholds and joint classifications vary by risk group; use the current criteria rather than memorizing one universal threshold.
 
-## 9. Topic-specific verification status
-**Research status:** Topic-specific starting summary drafted; not yet independently verified claim-by-claim against multiple topic-specific sources. The agent log must not count this file as fully verified until that source audit is complete.
+For an initial episode, a high-probability diagnosis generally requires **two major** manifestations or **one major plus two minor**, plus evidence of preceding GAS infection in most cases. Do not count one manifestation twice (e.g., arthritis as both major and minor; carditis and prolonged PR interval as separate criteria). Recurrent disease criteria differ and require exclusion of more likely causes. Chorea or indolent carditis may be exceptions where evidence of preceding infection is no longer demonstrable.
 
-## References for verification
-1. https://www.merckmanuals.com/professional/pediatrics
-2. https://www.who.int/health-topics/child-health
-3. https://doh.gov.ph/
+## 3. Assessment and diagnostics
 
-**Source note:** These links are starting points for authoritative reference checking, not evidence that every statement above has already been confirmed by those pages. Confirm current Philippine DOH/clinical institutional guidance where applicable and record exact source title/version in the research log.
+- History: recent sore throat/skin infection, timing of fever/joint symptoms, prior ARF/RHD, antibiotic completion, household/school GAS exposure, allergies, adherence barriers, activity tolerance, dyspnea, orthopnea, palpitations, syncope, edema, chorea, and school/behavior changes.
+- Assess temperature, heart rate/rhythm, BP, respiratory effort, perfusion, pulses, heart sounds/murmur, signs of heart failure, joint swelling/tenderness/migration, rash, nodules, coordination, and functional impact.
+- **Evidence of preceding GAS:** throat culture or rapid antigen test when appropriate; elevated/rising antistreptolysin O (ASO) or anti-DNase B titers may support recent infection. A negative throat test after the infection resolves does not necessarily exclude preceding GAS.
+- **Echocardiography with Doppler:** recommended for suspected/confirmed ARF even if no murmur is heard, to detect clinical/subclinical carditis and assess valve function. Repeat imaging depends on findings and specialist plan.
+- **ECG:** rhythm and PR interval, interpreted using age-appropriate norms. Prolonged PR is a minor criterion only if carditis is not already counted as major.
+- CBC, ESR, CRP, renal function, urinalysis, troponin/BNP, or other tests may be ordered based on the differential and cardiac status. Inflammatory markers support but do not independently confirm ARF.
+- Differential diagnoses include septic arthritis, juvenile idiopathic arthritis, lupus, infective endocarditis, viral myocarditis, serum sickness, malignancy, and other inflammatory disorders.
+
+## 4. Management principles
+
+Treatment goals are to eradicate GAS, relieve manifestations, manage cardiac complications, and prevent recurrence.
+1. **Eradicate GAS:** prescribe appropriate antibiotic therapy according to current guidance and allergy history, even if the initial throat infection has passed. Penicillin is commonly first-line when appropriate; alternatives depend on allergy type, patient factors, and local guidance.
+2. **Treat manifestations:** anti-inflammatory medicines may be prescribed for fever/arthritis. Carditis or heart failure may require activity restriction, diuretics, and specialist cardiac management; severe disease may require admission.
+3. **Secondary antibiotic prophylaxis:** long-term prophylaxis reduces recurrent ARF and progression of RHD. WHO guidance prefers intramuscular benzathine penicillin G; oral penicillin is an alternative where IM prophylaxis is not feasible/appropriate. Duration depends on previous carditis, residual valve disease, recurrence risk, age, and current guideline; no universal stop age applies to every child.
+4. **Chronic RHD:** follow valve function, heart failure, arrhythmia, pulmonary hypertension, thromboembolic risk, and need for valve intervention. Anticoagulation is for specific indications (e.g., selected mechanical valves or atrial fibrillation/thrombus risk), not every RHD patient.
+5. **Primary prevention:** prompt diagnosis and adequate treatment of GAS pharyngitis/skin infection, access to care, and adherence reduce ARF risk.
+6. **Evidence nuance:** WHO's 2024 guideline could not recommend for or against anti-inflammatory agents specifically to prevent progression to RHD. Symptom relief is not proof that chronic valve damage has been prevented.
+
+## 5. Nursing care and rationales
+
+### Acute ARF
+- Assess ABCs, vital signs, pain, joint function, activity tolerance, cardiac symptoms, neurologic changes, hydration, and medicine/allergy history.
+- **Carditis/heart failure warning signs:** tachycardia out of proportion to fever, dyspnea, orthopnea, new murmur, gallop, chest pain, hepatomegaly, edema, poor perfusion, syncope, or reduced urine output. Escalate promptly; acute heart failure/shock is an emergency.
+- Provide rest/activity restriction as prescribed during active carditis or significant symptoms; balance rest with comfort and psychosocial support.
+- Administer antibiotics and anti-inflammatory/cardiac medicines as prescribed. Verify allergies, weight-based calculation where relevant, dose, route, timing, renal/hepatic factors, interactions, and response.
+- Assess joint pain/swelling; support comfortable positioning and gentle movement as advised. Do not force painful joints or independently start strenuous activity.
+- Trend temperature, HR/rhythm, respiratory status, BP, perfusion, urine output, ECG/echo findings, and ordered laboratory results. Report deterioration promptly.
+- For chorea, protect from injury, support safe mobility/feeding, reduce stigma, and explain that movements are involuntary.
+
+### Secondary prophylaxis and chronic RHD
+- Keep an accurate prophylaxis schedule and record missed/delayed injections. Address injection pain, transport, cost, supply, caregiver, and access barriers; recurrence prevention depends on adherence.
+- Before benzathine penicillin, verify order/product, allergy history, route, and emergency readiness according to policy. **Benzathine penicillin G is for deep IM use and must never be administered IV.**
+- Observe for immediate hypersensitivity/anaphylaxis according to local policy. Severe breathing difficulty, facial/throat swelling, collapse, or widespread hives with systemic symptoms require emergency response.
+- Monitor for antibiotic adverse effects, diarrhea, rash, and allergy; distinguish expected injection discomfort from concerning reactions.
+- Reinforce cardiology follow-up and reporting of dyspnea, edema, palpitations, syncope, reduced exercise tolerance, or new neurologic symptoms.
+- Document assessments, medicine checks, education, response, and provider communication; coordinate with primary care, pharmacy, school, and specialist services.
+
+## 6. Medication safety and contraindications
+
+### Penicillin / benzathine penicillin G
+- **Purpose:** eradicate GAS and prevent recurrent ARF.
+- Known serious immediate hypersensitivity to penicillin/related beta-lactams requires clinician review and an alternative. Clarify the reaction history, but never dismiss anaphylaxis history.
+- Benzathine penicillin G is a deep IM product and must **never be given intravenously**. Verify product formulation, route, dose, and patient-specific order; incorrect route can be catastrophic.
+- Monitor for anaphylaxis, severe skin reactions, injection complications, and adherence barriers. Alternatives depend on allergy phenotype, patient factors, and local resistance guidance.
+
+### Anti-inflammatory medicines (aspirin/NSAIDs)
+- May be prescribed for symptomatic arthritis/fever. Risks include GI irritation/bleeding, renal effects, hypersensitivity, and interactions.
+- Aspirin in children requires caution because of Reye syndrome risk during viral illness; use only for a clear clinician-directed indication. Review anticoagulants, antiplatelets, other NSAIDs, renal disease, bleeding history, asthma/hypersensitivity, and hydration.
+- Do not add over-the-counter medicines or change doses without review. Anti-inflammatory therapy does not replace GAS eradication or secondary prophylaxis.
+
+### Cardiac/anticoagulant therapy
+Diuretics, ACE inhibitors/other afterload reducers, beta blockers, anticoagulants, and rhythm medicines may be used for specific cardiac consequences. Check BP, renal function, electrolytes, bleeding risk, interactions, and patient-specific hold parameters. Anticoagulants require a defined indication and appropriate monitoring; do not start/stop independently.
+
+## 7. Complications and urgent signs
+
+- Carditis/valvulitis, mitral/aortic regurgitation or stenosis, ventricular dysfunction, pericardial effusion, and heart failure.
+- Recurrent ARF with cumulative valve damage and chronic RHD.
+- Arrhythmias, pulmonary hypertension, atrial enlargement, thromboembolism, stroke, and advanced disease requiring valve intervention.
+- Chorea-related injury, school/functional impairment, emotional distress, and prophylaxis nonadherence.
+- Antibiotic allergy/anaphylaxis, anti-inflammatory toxicity, bleeding, or renal injury.
+
+**Urgent escalation:** severe dyspnea, chest pain, syncope, cyanosis, new severe arrhythmia, altered mental status, heart failure/shock, acute focal neurologic deficit, or suspected anaphylaxis.
+
+## 8. Family teaching and prevention
+
+- Treat GAS infections promptly and complete antibiotics. ARF can follow infection even after throat symptoms improve.
+- Explain the difference between acute inflammation (ARF) and chronic valve damage (RHD); repeated attacks increase risk.
+- Keep every secondary-prophylaxis dose and specialist appointment. Discuss injection pain, reminders, transport, cost, and access barriers early.
+- Seek prompt care for recurrent fever/joint symptoms after prior ARF, dyspnea, swelling, palpitations, fainting, reduced activity, or neurologic changes.
+- Activity guidance depends on active inflammation, carditis, valve severity, and cardiac function.
+- Encourage dental hygiene and follow current endocarditis guidance. Antibiotic prophylaxis for dental procedures is not automatically indicated for every RHD patient; it depends on specific high-risk conditions and current recommendations.
+
+## 9. PNLE-oriented clinical reasoning
+
+- ARF is a **delayed immune complication** of GAS, not simply persistent acute strep infection.
+- Jones criteria are risk-population-sensitive. Do not mix low-risk and moderate/high-risk thresholds, and do not count a manifestation twice.
+- Echocardiography/Doppler is recommended even without a murmur because subclinical carditis occurs.
+- Previous ARF/RHD increases recurrence risk; long-term secondary prophylaxis is central to prevention.
+- With dyspnea, poor perfusion, syncope, or heart failure, prioritize ABCs and emergency escalation over routine pain control or teaching.
+- Benzathine penicillin G must never be administered IV; verify allergy, product, route, and emergency readiness.
+- Apply ABCs/Maslow to the actual acuity: physiologic stabilization first, then pain/mobility, prevention/adherence, education, and psychosocial support.
+
+## 10. Philippine context, ethics, and scope
+
+ARF/RHD remain relevant in many lower-resource settings, including parts of the Asia-Pacific region. Prompt GAS diagnosis/treatment, access to echocardiography when indicated, and reliable secondary prophylaxis are important. Coordinate referrals with local pediatric, cardiology, and primary-care services; use the current Philippine formulary and institutional protocols. No current, topic-specific Philippine DOH/PRC/BON ARF/RHD treatment protocol was verified in this research pass. CDC/WHO/AHA sources are international guidance, not Philippine law. Follow applicable Philippine consent, confidentiality, documentation, and professional-scope requirements.
+
+## References checked
+
+1. **CDC.** “Diagnosing Acute Rheumatic Fever.” Updated August 6, 2025. Revised Jones criteria, risk-group distinctions, evidence of preceding GAS, differential diagnosis, and echocardiography recommendations. https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/diagnosing-acute-rheumatic-fever.html
+2. **CDC.** “Clinical Guidance for Acute Rheumatic Fever.” Updated August 5, 2025. Clinical manifestations, treatment principles, primary prevention, and secondary prophylaxis. https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/acute-rheumatic-fever.html
+3. **WHO.** *WHO guideline on the prevention and diagnosis of rheumatic fever and rheumatic heart disease.* 2024. Prevention, diagnosis, secondary prophylaxis, and evidence limits for anti-inflammatory treatment to prevent RHD. https://www.who.int/publications/b/59223
+4. **WHO, NCBI Bookshelf.** “Summary of recommendations — WHO guideline on the prevention and diagnosis of rheumatic fever and rheumatic heart disease.” IM benzathine benzylpenicillin preferred for secondary prevention; oral penicillin may be an alternative where needed. https://www.ncbi.nlm.nih.gov/sites/books/NBK609692/
+5. **Gewitz MH, Baltimore RS, Tani LY, et al.; AHA.** “Revision of the Jones Criteria for the Diagnosis of Acute Rheumatic Fever in the Era of Doppler Echocardiography.” *Circulation.* 2015;131:1806–1818. doi:10.1161/CIR.0000000000000205. https://pubmed.ncbi.nlm.nih.gov/25908771/
+
+**Evidence limitations:** Jones criteria require risk classification and clinician interpretation. Prophylaxis duration and follow-up depend on disease history and valve findings. Confirm current Philippine protocol and formulary; no local guideline was verified here.
