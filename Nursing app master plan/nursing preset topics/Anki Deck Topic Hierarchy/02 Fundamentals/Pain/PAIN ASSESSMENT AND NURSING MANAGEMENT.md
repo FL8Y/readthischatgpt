@@ -23,7 +23,7 @@ Use a consistent validated tool suited to the patient's age, communication abili
 ## Medication safety
 
 - **Opioids:** monitor sedation, respiratory rate/effort, oxygenation when indicated, blood pressure, nausea, constipation, urinary retention, and fall risk. Difficult arousal or respiratory depression is an emergency: activate local response, support airway/breathing, and follow naloxone/emergency protocol.
-- Avoid combining opioids with alcohol, benzodiazepines, or other CNS depressants unless specifically assessed and managed by the prescriber because sedation and respiratory-depression risks increase.
+- **High-risk interaction:** opioids combined with benzodiazepines or other central nervous system depressants (including alcohol) can cause profound sedation and respiratory depression. The FDA requires boxed warnings for benzodiazepine misuse/dependence/withdrawal and cautions about serious respiratory depression and death when combined with opioids or other CNS depressants. Do not initiate or combine these agents independently; verify the prescription, monitor, educate, and escalate unsafe orders.
 - **NSAIDs:** assess GI bleeding/ulcer history, kidney disease, dehydration, anticoagulant use, cardiovascular risk, and pregnancy stage. Avoid duplicate NSAIDs; follow prescribing guidance for contraindications.
 - **Acetaminophen/paracetamol:** check total dose from all combination products and liver disease/alcohol-related risk; overdose requires urgent toxicology/medical evaluation.
 - Do not independently initiate, withhold, or alter prescribed analgesic regimens beyond approved protocols. Clarify unsafe or incomplete orders.
@@ -41,7 +41,8 @@ The patient's self-report is the preferred pain measure when reliable. Assess be
 
 ## Sources
 
-1. OpenStax, *Fundamentals of Nursing*, Chapter 30 “Pain Assessment,” including pain process, assessment, and management (online textbook; accessed 2026-10-17): https://openstax.org/books/fundamentals-nursing/pages/30-introduction
-2. OpenStax, *Fundamentals of Nursing* (open educational textbook): https://openstax.org/books/fundamentals-nursing/pages/index
+1. OpenStax, *Fundamentals of Nursing*, section 30.5 “Pain Management”: https://openstax.org/books/fundamentals-nursing/pages/30-5-pain-management — directly opened; checked multimodal care, opioid adverse effects/respiratory depression, reassessment, acetaminophen hepatotoxicity, and NSAID GI/renal/cardiovascular risks.
+2. U.S. Food and Drug Administration. “FDA requiring Boxed Warning updated to improve safe use of benzodiazepine drug class” (2020): https://www.fda.gov/drugs/drug-safety-and-availability/fda-requiring-boxed-warning-updated-improve-safe-use-benzodiazepine-drug-class — directly reviewed for CNS-depressant interaction and respiratory-depression warnings.
+3. OpenStax, *Fundamentals of Nursing*, textbook index: https://openstax.org/books/fundamentals-nursing/pages/index
 
-Medication decisions must be checked against current product labeling, patient-specific orders, and institutional protocols. This guide intentionally avoids universal dose recommendations.
+Medication decisions must be checked against current Philippine-approved product labeling, patient-specific orders, and institutional protocols. U.S. FDA safety information is authoritative for its jurisdiction but is not Philippine law. This guide intentionally avoids universal dose recommendations. **DRAFTED; not VERIFIED COMPLETE:** other drug-specific contraindications, pregnancy considerations, renal/hepatic adjustments, and local formulary guidance still need topic-by-topic review.
