@@ -31,3 +31,8 @@ The U.S. Centers for Disease Control and Prevention (CDC) DPDx stool-collection 
 - WHO. *WHO Guidelines on Hand Hygiene in Health Care* (2009). https://www.who.int/publications/i/item/9789241597906
 
 **Verification note:** Follow the exact test kit and current laboratory manual, especially for occult blood, parasite, and microbiology specimens.
+## PNLE priorities and safety traps
+- Verify the exact ordered test and its kit instructions before advising dietary changes, medication holds, preservatives, refrigeration, or transport; these are **not universal across stool tests**.
+- Correct patient identification and contamination prevention come before collection convenience. Do not mix stool with urine or toilet water.
+- If the patient has significant GI bleeding, severe abdominal pain, shock signs, or rapid deterioration, prioritize clinical assessment and urgent escalation over a routine specimen.
+- A positive/negative result must be interpreted in context; do not diagnose or exclude disease from stool appearance alone.
