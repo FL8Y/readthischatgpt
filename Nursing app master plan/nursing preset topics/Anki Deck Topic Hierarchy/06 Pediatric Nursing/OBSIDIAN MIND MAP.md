@@ -1,6 +1,6 @@
 # Pediatric Nursing — Obsidian Mind Map
 
-> Status as of 2026-10-17: recursive inventory lists 60 leaf topic folders. Three topic files have substantive research and were reopened from GitHub: [[Cancers of the Child/Brain Tumor/Research|Brain Tumor]], [[Cancers of the Child/Hodgkin's/Research|Hodgkin's]], and [[Cancers of the Child/Leukemia/Research|Leukemia]]. All other listed topics remain pending; this map mirrors the repository hierarchy and is not a completion claim.
+> Status as of 2026-10-17: recursive inventory lists 60 leaf topic folders. Five topic files have substantive research and were reopened from GitHub: [[Cancers of the Child/Brain Tumor/Research|Brain Tumor]], [[Cancers of the Child/Hodgkin's/Research|Hodgkin's]], [[Cancers of the Child/Leukemia/Research|Leukemia]], [[Cancers of the Child/Nephroblastoma (Wilms' Tumor)/Research|Nephroblastoma (Wilms' Tumor)]], and [[Cancers of the Child/Neuroblastoma/Research|Neuroblastoma]]. All other listed topics remain pending; this map mirrors the repository hierarchy and is not a completion claim.
 
 - [[RESEARCH TOPIC GUIDE]]
 - [[RESEARCH LOG]]
