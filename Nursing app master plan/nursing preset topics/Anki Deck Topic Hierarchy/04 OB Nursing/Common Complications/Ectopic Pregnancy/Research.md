@@ -30,7 +30,7 @@ The differential includes miscarriage, ovarian pathology, appendicitis and other
 Follow-up to resolution is essential; symptoms and hCG trends must be reviewed according to protocol.
 
 ## Methotrexate safety
-Methotrexate is a folate antagonist that impairs rapidly dividing trophoblastic tissue. It is teratogenic and must not be used for a potentially viable intrauterine pregnancy. Important contraindications/unsuitable situations include hemodynamic instability or rupture, inability to follow up, significant blood dyscrasias, immunodeficiency, clinically important hepatic or renal dysfunction, active pulmonary disease or peptic ulcer disease, and breastfeeding according to the applicable protocol/product guidance. Check CBC, renal and liver function and medication interactions as ordered. Avoid folic acid supplements and interacting drugs only as directed by the treating protocol; do not independently stop prescribed medicines without clinician review. Counsel about follow-up hCG testing and urgent return for worsening pain, dizziness, syncope or heavy bleeding.
+Methotrexate is a folate antagonist that impairs rapidly dividing trophoblastic tissue. It is teratogenic and must not be used for a potentially viable intrauterine pregnancy. Important contraindications/unsuitable situations include hemodynamic instability or rupture, inability to follow up, significant blood dyscrasias, immunodeficiency, clinically important hepatic or renal dysfunction, active pulmonary disease or peptic ulcer disease, and breastfeeding according to the applicable protocol/product guidance. Check CBC, renal and liver function and medication interactions as ordered. Avoid folic acid supplements and interacting drugs only as directed by the treating protocol; do not independently stop prescribed medicines without clinician review. Counsel about follow-up hCG testing and urgent return for worsening pain, dizziness, syncope or heavy bleeding. ACOG patient guidance also advises avoiding alcohol, folic-acid supplements, nonsteroidal anti-inflammatory drugs (NSAIDs) such as ibuprofen, heavy exercise, sexual intercourse and prolonged sunlight during methotrexate treatment; verify the treating clinician's individualized instructions and do not independently stop essential prescribed medicines.
 
 ## Nursing priorities
 | Priority | Action | Rationale |
@@ -48,9 +48,9 @@ Methotrexate is a folate antagonist that impairs rapidly dividing trophoblastic 
 - Maternal stabilization and urgent treatment take priority over routine teaching.
 
 ## Sources
-1. American College of Obstetricians and Gynecologists (ACOG), “Ectopic Pregnancy,” FAQ, last reviewed April 2026: https://www.acog.org/womens-health/faqs/ectopic-pregnancy
+1. American College of Obstetricians and Gynecologists (ACOG), “Ectopic Pregnancy,” FAQ, last reviewed April 2026. The page was opened and its sections on rupture symptoms, methotrexate eligibility, follow-up and precautions were checked: https://www.acog.org/womens-health/faqs/ectopic-pregnancy
 2. ACOG Practice Bulletin No. 193, “Tubal Ectopic Pregnancy,” March 2018: https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2018/03/tubal-ectopic-pregnancy
 3. ACOG, “Understanding Ectopic Pregnancy,” clinical/public education overview: https://www.acog.org/advocacy/facts-are-important/understanding-ectopic-pregnancy
 
-## Verification limitations
-Medication eligibility and follow-up schedules depend on current clinical protocols, laboratory findings and patient-specific factors. This review is educational and does not provide a patient-specific methotrexate regimen.
+## Verification notes and limitations
+ACOG's patient FAQ (last reviewed April 2026) was opened and checked for rupture red flags, methotrexate use only in selected unruptured cases, need for follow-up hCG, breastfeeding/health-condition restrictions and avoidance advice during treatment. The ACOG Practice Bulletin No. 193 landing page is reaffirmed 2025, but its full text is access-restricted in this session. Medication eligibility and follow-up schedules depend on current clinical protocols, laboratory findings and patient-specific factors. This review is educational and does not provide a patient-specific methotrexate regimen.
