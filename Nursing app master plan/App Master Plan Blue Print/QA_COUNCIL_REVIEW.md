@@ -127,3 +127,54 @@ The initial plan is materially more useful than the previous single-README bluep
 ## Iteration 2 verdict
 
 The answer-key boundary and strict diagnostic gate are explicit in the planning artifacts. The current CLAUDE_MASTER_PROMPT.md has also been strengthened with a clearer phase boundary, detailed requirement groups, security/correctness rules, recurring review cycle, acceptance tests, and honest self-scoring. The prompt is materially stronger, but live agent capability/authorization has not been checked in Claude Code. Planning quality improved; overall readiness remains below completion because full source-claim reconciliation, reference test execution, final architecture decisions, and independent review remain open. No application code was created.
+
+
+## Corrective Cycle 2 — follow-up review (2026-10-17)
+
+**Review mode:** Master-architect document review and repository read-back, using the Iteration 1 findings above. This addendum does not claim that separate Claude subagents were spawned during this correction cycle. The app remains unbuilt by design.
+
+### Applied corrections
+
+| Finding | Action taken | Status |
+|---|---|---|
+| DEV-001 — pre-answer answer-key exposure | Added an explicit learner payload / grading-key / post-answer feedback split, shuffle-safe ordering/matching grading, and payload-level acceptance tests in `DATA_MODEL_AND_CONTRACTS.md`; mirrored the boundary in `ARCHITECTURE_OPTIONS.md`, `REQUIREMENTS_TRACEABILITY.md`, and the master prompt. | Applied to planning docs; not runtime-tested |
+| DEV-002 — non-atomic quiz/refill and duplicate events | Expanded contract invariants and test requirements for idempotent attempts/rewards, generation-job deduplication, atomic dequeue/refill, restart recovery, and event-based state. Strengthened the future red-team prompts. | Applied to planning docs; not runtime-tested |
+| LEARN-001 — diagnostic bypass | `REQUIREMENTS_TRACEABILITY.md`, UX/learning rules, roadmap and master prompt now describe a strict 1–50 question diagnostic gate before teaching in a newly selected scope, with interruption/resume rather than silent skipping. | Applied to planning docs |
+| SEC-001 / SEC-002 — API key and imported prompt-injection | Expanded the master prompt's user-key/security rules, extraction caveat, no-secret handling, and untrusted-import boundary. | Applied to planning docs; threat-model decision remains open |
+| QA-002 — stale counts and weak readback reporting | Refreshed the master-plan and audit snapshot to 740 tree entries (599 blobs, 141 trees; `truncated=false`) and documented the current 12-file blueprint set. Added corrected status to the blueprint index. | Verified at the recorded tree snapshot; re-scan after future path changes |
+| Agent drift / overlapping edits | Expanded the orchestrator prompt with source hierarchy, real-capability checks, non-overlapping ownership, a bounded council/rebuild/verification cycle, and evidence-based scoring; tightened the relevant assignment prompts. | Applied to planning docs; live registry/spawn still must be verified in Claude Code |
+
+### Follow-up verification record
+
+- The rewritten `CLAUDE_MASTER_PROMPT.md` was fetched back from GitHub and confirmed non-empty (274 lines, 23,715 characters at the read-back).
+- The current tree snapshot recorded 740 entries / 599 blobs / 141 tree entries and `truncated=false`. The blueprint directory contains 12 Markdown files plus its directory entry.
+- The answer-key split and strict diagnostic gate are present in the contracts and requirements traceability documents.
+- The parent and blueprint README links were reported parsed against the Git tree during the earlier QA pass. Re-run validation after any link/path change.
+- No App 2 unit tests, TypeScript typecheck, device tests, live-provider calls or app build were run as part of this correction cycle. Historical README test counts remain documentation, not freshly reproduced results.
+- App 1's source archive remains unverified as a complete 1:1 transfer. This cycle did not compare its original archive manifest with every current path/hash.
+- The reported Gizmo min-SDK inconsistency remains UNKNOWN until raw manifest/config metadata can be reconciled.
+
+### Updated scorecard
+
+These scores evaluate the **planning package at this revision**, not implementation correctness.
+
+| Category | Score / 10 | Evidence-based reason |
+|---|---:|---|
+| Repository inventory accuracy | 9 | The latest recorded tree is non-truncated and counts are corrected; not every unrelated framework file or binary was semantically read. |
+| Requirements traceability | 9 | Strict diagnostic gating, 1–5 topic quizzes, answer-key boundary, idempotency and source provenance are mapped; several user-level policies remain open. |
+| Architecture clarity | 8 | Logical modules and cross-cutting constraints are documented; platform, backend/sync, provider mode and scheduler version remain unresolved. |
+| Data/service contract quality | 9 | Canonical content, provenance, immutable attempts/reviews and answer-key separation are specified; no implementation-level contract tests have run. |
+| Security/privacy and nursing safety | 8 | Threats and mitigations are explicit; key mode, retention, source-review thresholds and deployment policy still need decisions and validation. |
+| UX/accessibility/learning effectiveness | 8 | Journeys, strict diagnostic flow, mastery-confidence separation and accessible alternatives are specified; no learner/device usability test has validated them. |
+| Claude agent readiness | 9 | Master prompt and non-overlapping work packages are substantially tightened; actual live tool/agent availability remains to be checked in Claude Code. |
+| QA/repository hygiene | 8 | Changed planning docs were read back and historical caveats are retained; tests, complete archive reconciliation and some source-claim cross-checks remain. |
+
+**Verdict: Continue planning; do not authorize implementation.** The aspirational “15/10” bar is not a truthful auditable score. A score above 10 on this scorecard would be cosmetic. The package is substantially stronger, but known validation gaps make a perfect score unjustified.
+
+### Next highest-value cycle
+
+1. Reconcile the Gizmo minimum-SDK contradiction against primary manifest/config evidence.
+2. Run isolated, offline reference tests where an appropriate runtime is available; report exact commands and outputs.
+3. Compare full research report claims with markdown, raw decoded metadata and source code, preserving observed/inferred labels.
+4. Complete the open architecture decisions with an evidence-supported recommended default, trade-offs and rollback/migration approach.
+5. Re-run tree, relative-link, cross-document terminology and secret scans; then score again. Keep implementation blocked until the user separately authorizes it.
