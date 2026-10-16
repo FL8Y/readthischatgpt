@@ -28,7 +28,7 @@ Counts below are derived from the topic checklist, not estimated.
 | Metric | Count |
 |---|---:|
 | Topics inventoried | 295 |
-| Researched | 0 |
+| Researched | 1 |
 | Verified | 0 |
 | Incomplete / not yet researched | 295 |
 | Remaining | 295 |
@@ -75,7 +75,7 @@ Status key: `NOT STARTED` = folder inventoried, substantive research not yet com
 - [ ] **Coronary Arteries** — `Cardiovascular/Coronary Arteries` — Status: NOT STARTED; requirements: topic-specific guide; authoritative sources; PNLE application; source/content audit; uploaded-file recheck; research file: none; unresolved: research not yet performed; last action: recursive inventory; next action: research this topic and cite sources.
 - [ ] **ECG Leads** — `Cardiovascular/ECG Leads` — Status: NOT STARTED; requirements: topic-specific guide; authoritative sources; PNLE application; source/content audit; uploaded-file recheck; research file: none; unresolved: research not yet performed; last action: recursive inventory; next action: research this topic and cite sources.
 - [ ] **Heart Sounds** — `Cardiovascular/Heart Sounds` — Status: NOT STARTED; requirements: topic-specific guide; authoritative sources; PNLE application; source/content audit; uploaded-file recheck; research file: none; unresolved: research not yet performed; last action: recursive inventory; next action: research this topic and cite sources.
-- [ ] **MI** — `Cardiovascular/MI` — Status: NOT STARTED; requirements: topic-specific guide; authoritative sources; PNLE application; source/content audit; uploaded-file recheck; research file: none; unresolved: research not yet performed; last action: recursive inventory; next action: research this topic and cite sources.
+- [ ] **MI** — `Cardiovascular/MI` — Status: RESEARCHED—VERIFY; requirements: topic-specific guide; authoritative sources; PNLE application; source/content audit; uploaded-file recheck; research file: [Myocardial Infarction — PNLE Research.md](./Cardiovascular/MI/Myocardial%20Infarction%20%E2%80%94%20PNLE%20Research.md); unresolved: full contraindication audit and Philippine guidance cross-check; last action: drafted research using 2025 ACS guideline and AHA symptom guidance, uploaded and reopened on branch; next action: verify detailed medication safety against full guideline/current prescribing information and local protocol.
 - [ ] **Pericardial Fluid** — `Cardiovascular/Pericardial Fluid` — Status: NOT STARTED; requirements: topic-specific guide; authoritative sources; PNLE application; source/content audit; uploaded-file recheck; research file: none; unresolved: research not yet performed; last action: recursive inventory; next action: research this topic and cite sources.
 - [ ] **Peripheral Vascular Diseases** — `Cardiovascular/Peripheral Vascular Diseases` — Status: NOT STARTED; requirements: topic-specific guide; authoritative sources; PNLE application; source/content audit; uploaded-file recheck; research file: none; unresolved: research not yet performed; last action: recursive inventory; next action: research this topic and cite sources.
 - [ ] **WHO Blood Pressure Categories** — `Cardiovascular/WHO Blood Pressure Categories` — Status: NOT STARTED; requirements: topic-specific guide; authoritative sources; PNLE application; source/content audit; uploaded-file recheck; research file: none; unresolved: research not yet performed; last action: recursive inventory; next action: research this topic and cite sources.
@@ -338,7 +338,7 @@ Status key: `NOT STARTED` = folder inventoried, substantive research not yet com
 
 ## Source verification register
 
-No clinical claims are counted as verified at initial setup. For each research file, record direct sources in the file itself and update this register with source organization/title, publication or update date, access date, claims checked, and any disagreement between guidance.
+One research draft exists for Cardiovascular/MI. The file was reopened from GitHub and its cited guideline/symptom sources were checked at the landing-page level; detailed contraindication validation and Philippine guidance cross-check remain pending, so it is not counted as verified.
 
 Preferred source hierarchy:
 1. Applicable current Philippine DOH, FDA Philippines, PRC/Board of Nursing, official law/regulation, and relevant Philippine specialty-society guidance.
@@ -355,11 +355,11 @@ Preferred source hierarchy:
 
 ## Blockers and unresolved work
 
-- The subtree contains a large number of topic folders; this initial session has inventoried them but has not researched each topic.
+- The subtree contains 295 topic folders. One topic (Cardiovascular/MI) has a research draft; 294 topics have not yet been researched, and the MI draft remains pending its final verification audit.
 - Clinical guidance can differ by jurisdiction, patient population, setting, and publication date. Record material discrepancies rather than silently choosing one.
 - Do not use the existence of placeholder folders as evidence of content completion.
 - Do not claim background work after this active session ends.
 
 ## Next action
 
-Start with the highest-risk, high-yield topics (acute coronary syndrome/MI, stroke, airway/respiratory failure, shock/sepsis, dysrhythmias, diabetic emergencies, major electrolyte/acid-base disturbances, and oncologic emergencies), while maintaining the original hierarchy. For every topic: research → cite → safety/PNLE audit → create topic-specific Markdown in its corresponding folder → upload → reopen from GitHub → update this log and mind map.
+Continue with high-risk topics (stroke, airway/respiratory failure, shock/sepsis, dysrhythmias, diabetic emergencies, major electrolyte/acid-base disturbances, and oncologic emergencies), while maintaining the original hierarchy. For every topic: research → cite → safety/PNLE audit → create topic-specific Markdown in its corresponding folder → upload → reopen from GitHub → update this log and mind map.
