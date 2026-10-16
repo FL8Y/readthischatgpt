@@ -45,6 +45,35 @@ For postpartum hemorrhage (PPH), use the current facility emergency bundle and o
 - Analgesics, anticoagulants and antibiotics require patient-specific allergy, bleeding, renal/hepatic and breastfeeding review.
 Do not delay emergency PPH response while waiting for routine medication reconciliation; follow the current local algorithm and authorized scope.
 
+## Postpartum hemorrhage: updated WHO 2025 clinical bundle
+
+### Recognition and first response
+Postpartum hemorrhage (PPH) can deteriorate quickly. Do not wait for hypotension: tachycardia, altered mental status, pallor, ongoing bleeding and deteriorating perfusion can precede frank shock. Estimate/measure blood loss objectively when equipment and workflow permit, assess uterine tone, and consider the “4 Ts”: **Tone** (uterine atony), **Trauma** (genital tract injury), **Tissue** (retained placenta/products), and **Thrombin** (coagulopathy). More than one cause may coexist.
+
+Activate the local PPH emergency pathway and summon help. Begin rapid coordinated assessment and treatment while assigning roles; do not delay treatment until all investigations are returned. The WHO 2025 consolidated guideline recommends a standardized first-response treatment bundle that includes rapid uterine massage, uterotonic treatment, tranexamic acid, IV fluids, examination of the genital tract and escalation of care, implemented alongside objective blood-loss assessment when relevant. Use the Philippine facility algorithm for exact thresholds, sequence, medication doses and referral/escalation.
+
+### Medication distinctions
+- **Oxytocin:** WHO recommends IV oxytocin as the first-line uterotonic for treatment of PPH, including when prophylactic oxytocin was already given. Administer using the local order/protocol and monitor uterine response, bleeding, blood pressure and fluid balance.
+- **Tranexamic acid (TXA):** WHO recommends early IV TXA as *treatment* for established PPH, alongside standard care, as soon as possible and within 3 hours after birth. The 2025 guideline supports a fixed 1 g IV dose given over 10 minutes, with one further 1 g dose if bleeding continues after 30 minutes or restarts within 24 hours after the first dose. These are guideline details, not an independent bedside order: verify the local protocol, product preparation and patient-specific contraindications. TXA is an antifibrinolytic, **not** a uterotonic; it does not replace oxytocin.
+- **TXA prevention is different:** the 2025 WHO guideline does **not** recommend routine TXA to prevent PPH at either vaginal or cesarean birth. Do not confuse treatment of active PPH with prophylaxis.
+- **Methylergonovine/ergometrine:** may sharply raise BP; avoid in hypertension/preeclampsia according to drug-specific and local protocols.
+- **Carboprost:** can provoke bronchospasm; generally avoid in asthma and follow product/local contraindications.
+- **Misoprostol:** can cause fever, chills and gastrointestinal effects; choose dose/route only from protocol.
+- **Ergometrine-containing combinations and prostaglandins:** check hypertension, cardiovascular, respiratory and other product-specific contraindications before administration. If one uterotonic is unsuitable, alert the clinician and use the approved alternative algorithm rather than delaying PPH care.
+
+**Source:** WHO, *Consolidated guidelines for the prevention, diagnosis and treatment of postpartum haemorrhage* (5 October 2025), recommendations and supporting evidence. https://www.who.int/publications/i/item/9789240115637 ; accessible recommendations chapter: https://www.ncbi.nlm.nih.gov/books/NBK619233/ .
+
+### Nursing monitoring and reassessment
+- Trend bleeding, measured blood loss, uterine tone, pulse, BP, respiratory status, oxygenation, mental status, temperature, urine output and response to each intervention.
+- Prepare ordered CBC, coagulation testing, crossmatch/blood products and escalation to anesthesia, obstetrics, operating theatre or higher-level care when indicated.
+- A firm uterus does not rule out trauma or retained tissue. Continue to assess the 4 Ts and inspect/prepare for clinician examination.
+- If bleeding persists despite initial measures, escalate promptly; do not simply repeat uterine massage while ignoring trauma, tissue or coagulopathy.
+- After stabilization, document cumulative loss, timing of recognition, calls, medicines/fluids/blood products, response, source of bleeding if identified and handover.
+
+### Prevention versus treatment: exam distinction
+A prophylactic uterotonic should be used according to third-stage-of-labor protocol. The WHO 2025 recommendation specifically does not support routine prophylactic TXA for either vaginal or cesarean birth, while it recommends TXA as part of treatment for diagnosed PPH within 3 hours after birth. Confusing these indications can cause missed first-line prevention or inappropriate drug use.
+
+
 ## Breastfeeding and lactation teaching
 Encourage frequent responsive feeding, skin-to-skin, correct latch and monitoring of infant output/weight according to newborn protocol. Breast fullness can occur, but focal breast redness, fever, flu-like symptoms or worsening pain may indicate mastitis. If temporary separation occurs, support hand expression/pumping and safe milk handling.
 
