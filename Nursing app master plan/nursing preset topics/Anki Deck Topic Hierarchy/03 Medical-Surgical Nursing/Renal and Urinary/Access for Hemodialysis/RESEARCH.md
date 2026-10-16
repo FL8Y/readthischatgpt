@@ -21,3 +21,5 @@ Verify the dialysis prescription, access, anticoagulation plan and baseline asse
 ## References
 - KDIGO, **2024 Clinical Practice Guideline for the Evaluation and Management of CKD: Executive Summary** (20 Mar 2024): https://kdigo.org/guidelines/ckd-evaluation-and-management/kdigo-2024-ckd-guideline-executive-summary/
 - OpenStax, **Medical-Surgical Nursing** (2024): https://openstax.org/books/medical-surgical-nursing/pages/index
+
+- Lok et al., **KDOQI Clinical Practice Guideline for Vascular Access: 2019 Update**, *American Journal of Kidney Diseases* 75(4 Suppl 2):S1–S164 (2020; PMID 32778223): https://pubmed.ncbi.nlm.nih.gov/32778223/ — access selection, monitoring and complication management.
