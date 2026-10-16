@@ -34,11 +34,18 @@ EINC is a package for routine care but must not delay lifesaving interventions. 
 ## Philippine practice context
 The Philippine DOH adopted Essential Newborn Care policies in Administrative Order No. 2009-0025. WHO Philippines describes EINC/Unang Yakap as a time-bound package. Facilities should follow the latest DOH circulars and current institutional protocol if they update older procedures.
 
+## Current neonatal resuscitation guidance
+
+The 2025 American Heart Association/American Academy of Pediatrics neonatal resuscitation guideline states that routine oral, nasal, oropharyngeal, or endotracheal suctioning is not recommended for newborns, whether amniotic fluid is clear or meconium-stained. Suction may be considered when airway obstruction is suspected, particularly when ventilation is ineffective and obstruction is suspected. Ventilation is the primary intervention for apnea, bradycardia or inadequate respiratory effort. Do not delay effective ventilation to perform routine suction or to complete non-urgent EINC steps. Follow the current neonatal resuscitation algorithm and facility capability.
+
 ## Sources
 1. Philippine Department of Health, Administrative Order No. 2009-0025, “Adopting New Policies and Protocol on Essential Newborn Care,” 1 December 2009, reproduced by the Supreme Court E-Library: https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/11/49220
 2. WHO, “Essential newborn care”: https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health/essential-newborn-care
 3. WHO Philippines, “Unang Yakap: Encouraging Breastfeeding from the Start,” 4 August 2017: https://www.who.int/philippines/news/feature-stories/detail/unang-yakap-encouraging-breastfeeding-from-the-start
 4. WHO, *WHO recommendations on newborn health*, 2017: https://cdn.who.int/media/docs/default-source/sexual-health/stillbirth/who-mca-17-07-eng.pdf
+
+## Verification notes and limitations
+The 2025 AHA/AAP neonatal resuscitation guideline was opened and checked for the recommendations against routine suctioning and for the role of ventilation in newborns with inadequate respiratory effort. These recommendations support selective suction only for suspected obstruction and avoiding delay of effective ventilation.
 
 ## Verification limitations
 AO 2009-0025 is an older policy document. Verify current DOH updates and facility-specific protocols before using any exact timing or procedural detail as a current national requirement.
