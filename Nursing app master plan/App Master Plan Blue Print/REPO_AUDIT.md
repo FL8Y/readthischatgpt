@@ -2,7 +2,7 @@
 
 **Audit date:** 2026-10-17  
 **Repository:** `FL8Y/readthischatgpt`, default branch `main`  
-**Scope:** Complete recursive Git tree inventory plus semantic inspection of project-relevant documentation and reference source. Latest Cycle 6/7 current tree: 741 entries (600 blobs/files, 141 tree/directory entries), `truncated=false`; the blueprint contains 13 Markdown files including the readiness trace and requirement-test traceability matrix.  
+**Scope:** Complete recursive Git tree inventory plus semantic inspection of project-relevant documentation and reference source. Latest current tree: 742 entries (601 blobs/files, 141 tree/directory entries), `truncated=false`; the blueprint contains 14 Markdown files including the readiness trace, requirement-test traceability matrix and explicit quality gate.  
 **Important limitation:** A tree inventory is not the same as reading every file's contents. Binary resources and hundreds of unrelated Claude/Ruflo framework files were inventoried but not all semantically read. The current Library DOCX versions were independently read in full during Cycle 5: Gizmo 54/54 pages and AnkiDroid 35/35 pages. The App 3 README's former claim of 52 pages was corrected to 54. The Gizmo minimum-SDK conflict remains unresolved: the report's main identity section says 34, while Addendum C says 26 citing apktool.yml; the primary apktool.yml itself is not present in the repository.
 
 ## Cleanup addendum — 2026-10-17
