@@ -7,10 +7,10 @@ Scope: `Nursing app master plan/nursing preset topics/Anki Deck Topic Hierarchy/
 ## Current status
 
 - Topic folders inventoried: 22
-- Topic folders with substantive research files verified: 0 before this session; 2 research files are being added in this initial batch.
-- Research files created in this batch: 2
-- Log and mind map: created in this batch
-- Completion: **0% of topic research verified at baseline; initial batch in progress.** The two files in this batch must be reopened and checked before they can be counted as verified.
+- Topic folders with substantive research files uploaded: 6 (Patricia Benner, Oxygen Therapy, Nutrition, Pain, Sleep, Wound Care).
+- Topic folders with fully verified research: 0; all six uploaded topic files remain IN PROGRESS because source-by-source clinical claim validation is not yet complete.
+- Research files created: 6; log and mind map created and updated.
+- Completion: **0/22 topic folders fully verified (0%)**. Upload and reopen checks do not alone constitute clinical-source verification.
 - No claim of subject completion is made.
 
 ## Research rules
@@ -27,16 +27,16 @@ Status key: `NOT STARTED` = folder inspected in the repository tree but substant
 | 2 | Important Nursing Theorists/Part 1/ | NOT STARTED | Verify intended list from folder contents; key concepts, metaparadigm, applications, limitations | — | — | Determine intended theorists from repository contents or owner |
 | 3 | Important Nursing Theorists/Part 2/ | NOT STARTED | Verify intended list from folder contents; key concepts, metaparadigm, applications, limitations | — | — | Determine intended theorists from repository contents or owner |
 | 4 | Important Nursing Theorists/Patricia Benner/ | IN PROGRESS | Novice-to-expert model; stages, clinical application, limitations, PNLE distinctions | OpenStax Fundamentals of Nursing (textbook reference to be checked) | [Patricia Benner research](./Important%20Nursing%20Theorists/Patricia%20Benner/PATRICIA%20BENNER%20NOVICE%20TO%20EXPERT.md) | Reopen uploaded file; verify references and add authoritative nursing-theory source |
-| 5 | Nutrition/ | NOT STARTED | Assessment, therapeutic diets, enteral support, aspiration risk, contraindications, patient teaching | — | — | Research topic |
+| 5 | Nutrition/ | IN PROGRESS | Assessment, therapeutic diets, enteral support, aspiration risk, contraindications, patient teaching | OpenStax nutritional assessment page checked | [Nutrition research](./Nutrition/NUTRITIONAL%20ASSESSMENT%20AND%20NURSING%20CARE.md) | Recheck claims and verify enteral-feeding safety against authoritative guidance |
 | 6 | Oxygenation/ | NOT STARTED | Respiratory assessment, oxygenation principles, safety, escalation | — | — | Research parent overview without duplicating child procedures |
 | 7 | Oxygenation/Chest Physiotherapy/ | NOT STARTED | Indications, contraindications, technique, timing, complications, reassessment | — | — | Research topic |
 | 8 | Oxygenation/Incentive Spirometer/ | NOT STARTED | Indications, coaching steps, contraindications/limitations, evaluation | — | — | Research topic |
 | 9 | Oxygenation/Oxygen/ | IN PROGRESS | Devices, titration/orders, monitoring, fire safety, special populations, escalation | OpenStax Clinical Nursing Skills (additional source verification needed) | [Oxygen therapy research](./Oxygenation/Oxygen/OXYGEN%20THERAPY%20NURSING%20GUIDE.md) | Reopen uploaded file; verify local protocols and Philippine guidance |
 | 10 | Oxygenation/Suctioning/ | NOT STARTED | Indications, sterile/clean technique as appropriate, preoxygenation when indicated, limits, complications | — | — | Research topic |
 | 11 | Oxygenation/Tracheostomy/ | NOT STARTED | Stoma/tube care, airway emergency response, equipment, contraindications, escalation | — | — | Research topic |
-| 12 | Pain/ | NOT STARTED | Assessment, reassessment, nonpharmacologic care, medication precautions, red flags | — | — | Research topic |
+| 12 | Pain/ | IN PROGRESS | Assessment, reassessment, nonpharmacologic care, medication precautions, red flags | OpenStax pain chapter page checked | [Pain research](./Pain/PAIN%20ASSESSMENT%20AND%20NURSING%20MANAGEMENT.md) | Verify medication cautions against current authoritative pharmacology guidance |
 | 13 | Patient Positioning/ | NOT STARTED | Positions, indications, pressure/aspiration/respiratory risks, contraindications | — | — | Research topic |
-| 14 | Sleep/ | NOT STARTED | Sleep physiology, assessment, sleep hygiene, hospital interventions, medication cautions | — | — | Research topic |
+| 14 | Sleep/ | IN PROGRESS | Sleep physiology, assessment, sleep hygiene, hospital interventions, medication cautions | OpenStax textbook index/PDF located | [Sleep research](./Sleep/SLEEP%20AND%20REST%20NURSING%20CARE.md) | Verify chapter statements and strengthen sources for medication/fall-risk claims |
 | 15 | Specimen Collection/ | NOT STARTED | Identification, labeling, timing, contamination prevention, transport, rejection criteria | — | — | Research parent overview without duplicating specimen-specific files |
 | 16 | Specimen Collection/Sputum/ | NOT STARTED | Collection timing, deep-cough technique, contamination prevention, safety | — | — | Research topic |
 | 17 | Specimen Collection/Stool/ | NOT STARTED | Collection, occult blood/stool tests as applicable, contamination and transport | — | — | Research topic |
@@ -44,7 +44,7 @@ Status key: `NOT STARTED` = folder inspected in the repository tree but substant
 | 19 | Theories of Aging/ | NOT STARTED | Compare major theories, clinical relevance, limits, avoid treating theories as universal facts | — | — | Research parent overview |
 | 20 | Theories of Aging/Biologic/ | NOT STARTED | Biological theories, evidence, relevance and limitations | — | — | Research topic |
 | 21 | Theories of Aging/Psychosocial/ | NOT STARTED | Psychosocial theories, applications, cultural/contextual limitations | — | — | Research topic |
-| 22 | Wound Care/ | NOT STARTED | Assessment, healing, dressings, infection signs, pressure injury prevention, contraindications | — | — | Research topic |
+| 22 | Wound Care/ | IN PROGRESS | Assessment, healing, dressings, infection signs, pressure injury prevention, contraindications | OpenStax wound-healing page checked | [Wound care research](./Wound%20Care/WOUND%20ASSESSMENT%20AND%20BASIC%20NURSING%20CARE.md) | Verify pressure-injury prevention and emergency recommendations against current guidance |
 
 ## Missing-topic and structure review
 
@@ -66,7 +66,8 @@ The current hierarchy contains 22 folders, many represented only by `.gitkeep`. 
 - 2026-10-17 — Recursively inspected the Git tree for the assigned subtree. The tree response was not truncated; 47 entries were found under the subtree, including 22 descendant topic folders. The topic folders were mostly represented by `.gitkeep`; no topic-specific research files were present in the inspected tree.
 - 2026-10-17 — Searched authoritative online references for Fundamentals content; verified the existence of OpenStax vital-signs material and WHO/CDC hand-hygiene guidance.
 - 2026-10-17 — Uploaded the initial research files and mind map. Reopened all four exact paths through GitHub and confirmed each returned content, a blob SHA, and non-empty content. Verified paths: [RESEARCH LOG](./RESEARCH%20LOG.md), [OBSIDIAN MIND MAP](./OBSIDIAN%20MIND%20MAP.md), [Patricia Benner research](./Important%20Nursing%20Theorists/Patricia%20Benner/PATRICIA%20BENNER%20NOVICE%20TO%20EXPERT.md), and [Oxygen therapy research](./Oxygenation/Oxygen/OXYGEN%20THERAPY%20NURSING%20GUIDE.md). Upload/path/content validation passed; clinical-source verification is still incomplete, so the two topic files remain IN PROGRESS and count as 0 VERIFIED topics.
-- 2026-10-17 — Next action: verify each topic file's cited sources and claims against the live source text, then continue with the next unchecked topic. Continue topic-by-topic in later work cycles; no background execution is claimed.
+- 2026-10-17 — Added substantive topic-specific research files under Nutrition, Pain, Sleep, and Wound Care; reopened all four exact GitHub paths and confirmed non-empty content and blob SHAs. Updated the mind map to link these files. Nutrition, pain, and wound source pages were checked via search results; the sleep source was located but requires focused section verification. These four topics remain IN PROGRESS, not VERIFIED.
+- 2026-10-17 — Next action: finish source-by-source verification for the six uploaded topic files, then continue with Patient Positioning and Specimen Collection. Continue topic-by-topic in later work cycles; no background execution is claimed.
 
 ## Final audit requirements
 
