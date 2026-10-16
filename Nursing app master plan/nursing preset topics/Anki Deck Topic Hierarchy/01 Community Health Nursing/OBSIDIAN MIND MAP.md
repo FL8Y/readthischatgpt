@@ -139,3 +139,4 @@ These are review prompts, not folders already verified as present:
 
 All other topic folders require their own substantive research and logged verification. See [[RESEARCH LOG]] for the per-folder checklist and remaining work. The existence of a node or research file does not imply completion.
 - [[Elements of Primary Health Care]] — **Drafted — Needs Verification**
+- [[Food Sanitation]] — **Drafted — Needs Verification**
