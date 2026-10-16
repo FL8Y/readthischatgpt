@@ -4,6 +4,7 @@ import { clampDiagnosticCount, completeDiagnostic, DIAGNOSTIC_MAX } from '../cor
 import type { QuizSession } from '../core/quiz';
 import { callModel, parseTopicQuestions } from '../ai/provider';
 import { pnleDiagnosticRequest } from '../pnle/requests';
+import { defaultPerPart, generateInParts, withAvoid } from '../ai/batch';
 import { Quiz } from './Quiz';
 import { Btn, Card, Field, H, P } from './kit';
 
@@ -32,10 +33,23 @@ export function Diagnostic({ state, update, folder }: { state: AppState; update:
     try {
       const now = Date.now();
       const n = clampDiagnosticCount(Number(count));
-      const raw = await callModel(state.settings, pnleDiagnosticRequest(state, folder.id, n, now));
       const id = `dx-${now}`;
-      const questions = parseTopicQuestions(raw, folderTopics, id);
+      // Manual mode asks in parts of 10 to fit chat limits; API modes make one call.
+      const res = await generateInParts({
+        total: n,
+        perPart: defaultPerPart(state.settings),
+        label: 'Diagnostic quiz',
+        ask: (k, ctx) =>
+          callModel(state.settings, withAvoid(pnleDiagnosticRequest(state, folder.id, k, now), ctx.avoid), undefined, {
+            purpose: ctx.purpose,
+            expect: 'json',
+            partsHint: ctx.parts > 1 ? `This is part ${ctx.index + 1} of ${ctx.parts}: write exactly ${k} questions.` : undefined,
+          }),
+        parse: (raw, ctx) => parseTopicQuestions(raw, folderTopics, `${id}-p${ctx.index}`),
+      });
+      const questions = res.items.map((q, i) => ({ ...q, id: `${id}-${i}` }));
       if (!questions.length) throw new Error('The AI did not return usable questions. Try again.');
+      if (res.error) setErr(`Only ${questions.length} questions arrived (${res.error}). Started with those.`);
       setSession({ id, kind: 'diagnostic', folderId: folder.id, questions, createdAt: now });
     } catch (e) {
       setErr(e instanceof Error ? e.message : 'Could not start.');
@@ -45,7 +59,12 @@ export function Diagnostic({ state, update, folder }: { state: AppState; update:
   };
 
   if (session) {
-    return <Quiz state={state} update={update} session={session} onDone={() => update(completeDiagnostic(state, folder.id))} />;
+    return (
+      <>
+        {err ? <P>{err}</P> : null}
+        <Quiz state={state} update={update} session={session} onDone={() => update(completeDiagnostic(state, folder.id))} />
+      </>
+    );
   }
   return (
     <Card>

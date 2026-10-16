@@ -1,5 +1,5 @@
 import type { Settings } from '../core/types';
-import { DEFAULT_MODELS, ProviderError, redact } from '../ai/provider';
+import { callManual, DEFAULT_MODELS, ProviderError, redact } from '../ai/provider';
 import type { VisionInput, VisionResult } from './types';
 
 export const TRANSCRIBE_SYSTEM =
@@ -10,6 +10,11 @@ export const TRANSCRIBE_SYSTEM =
   'Reply with the Markdown only, no commentary.';
 
 export const TRANSCRIBE_USER = 'Transcribe this file into Markdown.';
+
+/** Manual mode: the owner attaches the file in the chat app themselves (the app cannot send files). */
+export const TRANSCRIBE_MANUAL_USER =
+  'ATTACH THE PHOTO(S) OR PDF in this chat now (use the + or paperclip button), then send this message. ' +
+  'Transcribe the attached file into Markdown. If you attach several photos, transcribe them in order.';
 
 type Fetch = typeof fetch;
 
@@ -93,6 +98,14 @@ export async function callModelVision(
   input: VisionInput,
   doFetch: Fetch = fetch,
 ): Promise<VisionResult> {
+  if (settings.provider === 'manual') {
+    const label = input.kind === 'pdf' ? 'PDF' : 'photo';
+    const text = await callManual(
+      { system: TRANSCRIBE_SYSTEM, user: TRANSCRIBE_MANUAL_USER },
+      { purpose: `Transcribe a ${label} (attach it in the chat app)`, expect: 'markdown' },
+    );
+    return { text: text.trim(), truncated: false };
+  }
   const req = buildVisionRequest(settings, input);
   let res: Response;
   try {

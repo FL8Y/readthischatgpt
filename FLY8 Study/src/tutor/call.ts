@@ -1,5 +1,5 @@
 import type { Settings } from '../core/types';
-import { DEFAULT_MODELS, ProviderError, redact, type ModelRequest } from '../ai/provider';
+import { callManual, DEFAULT_MODELS, ProviderError, redact, type ModelRequest } from '../ai/provider';
 
 export class TutorCancelled extends Error {
   constructor() {
@@ -16,8 +16,16 @@ export async function tutorCall(
   signal?: AbortSignal,
   doFetch: Fetch = fetch,
 ): Promise<string> {
-  if (!settings.apiKey.trim()) throw new ProviderError('Add your API key in Settings first.', 'auth');
   if (signal?.aborted) throw new TutorCancelled();
+  if (settings.provider === 'manual') {
+    try {
+      return await callManual(req, { purpose: 'Tutor question', expect: 'text', signal });
+    } catch (e) {
+      if (signal?.aborted || (e instanceof ProviderError && e.kind === 'cancelled')) throw new TutorCancelled();
+      throw e;
+    }
+  }
+  if (!settings.apiKey.trim()) throw new ProviderError('Add your API key in Settings first.', 'auth');
   const model = settings.model || DEFAULT_MODELS[settings.provider];
   const isAnthropic = settings.provider === 'anthropic';
   const url = isAnthropic ? 'https://api.anthropic.com/v1/messages' : 'https://api.openai.com/v1/chat/completions';

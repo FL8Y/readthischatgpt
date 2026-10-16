@@ -1,4 +1,5 @@
-export type ProviderName = 'openai' | 'anthropic';
+/** 'manual' = copy-paste with the ChatGPT or Claude app; no key, no model. */
+export type ProviderName = 'openai' | 'anthropic' | 'manual';
 
 export type Verification = 'unverified' | 'needs-review' | 'ai-checked';
 
@@ -102,6 +103,8 @@ export interface Settings {
   provider: ProviderName;
   apiKey: string;
   model: string;
+  /** True once the owner picked how to use AI on the first screen (hides onboarding). */
+  aiChosen?: boolean;
 }
 
 export interface AppState {

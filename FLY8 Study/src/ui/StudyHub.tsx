@@ -12,6 +12,7 @@ import {
   type SessionResult,
 } from '../core/quiz';
 import { callModel } from '../ai/provider';
+import { defaultPerPart, generateInParts, splitBlueprint, splitCount, withAvoid } from '../ai/batch';
 import { parseMixedQuestions } from '../core/questionParse';
 import { HARD_PREFIX, buildHardSession, hardRoundDone, hardRoundQuestions } from '../core/hardRound';
 import { extractJson } from '../core/provenance';
@@ -119,8 +120,27 @@ export function StudyHub({ state, update }: { state: AppState; update: (s: AppSt
       const t = Date.now();
       const plan = moduleBlueprint(topics, state.events, t, Math.round(Number(modCount)));
       if (!plan.ok) throw new Error(plan.error);
-      const raw = await callModel(state.settings, pnleModuleQuizRequest(state, topics, plan.value, t));
-      const built = parsePnleModuleQuestions(extractJson(raw), topics, folder.id, `mod-${t}`, t);
+      // Manual mode asks in parts of 10 (the blueprint is split to match); API modes make one call.
+      const total = plan.value.reduce((n, b) => n + b.count, 0);
+      const perPart = defaultPerPart(state.settings);
+      const subs = splitBlueprint(plan.value, splitCount(total, perPart));
+      const res = await generateInParts<Record<string, unknown>>({
+        total,
+        perPart,
+        label: 'Module quiz',
+        ask: (k, ctx) =>
+          callModel(state.settings, withAvoid(pnleModuleQuizRequest(state, topics, subs[ctx.index], t), ctx.avoid), undefined, {
+            purpose: ctx.purpose,
+            expect: 'json',
+            partsHint: ctx.parts > 1 ? `This is part ${ctx.index + 1} of ${ctx.parts}: write exactly ${k} questions.` : undefined,
+          }),
+        parse: (raw) => {
+          const j = extractJson(raw);
+          const list = Array.isArray(j) ? j : (j as { questions?: unknown } | null)?.questions;
+          return Array.isArray(list) ? list.filter((q): q is Record<string, unknown> => !!q && typeof q === 'object') : [];
+        },
+      });
+      const built = parsePnleModuleQuestions({ questions: res.items }, topics, folder.id, `mod-${t}`, t);
       if (!built.ok) throw new Error(built.error);
       setResult(null);
       setFinished(null);
