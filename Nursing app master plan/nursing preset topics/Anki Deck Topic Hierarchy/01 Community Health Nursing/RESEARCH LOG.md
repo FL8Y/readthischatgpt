@@ -10,10 +10,10 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 16 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, and Food Fortification Program.
+- **Substantive topic drafts expanded:** 17 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, and Essential Drugs.
 - **Topics verified complete:** 0
-- **Folders still requiring substantive topic-specific expansion:** 61 (all 77 have a notes file, but most remain initial starter notes).
-- **Drafts awaiting source/content verification:** 16
+- **Folders still requiring substantive topic-specific expansion:** 60 (all 77 have a notes file, but most remain initial starter notes).
+- **Drafts awaiting source/content verification:** 17
 - **Research notes present:** 77/77; this is file presence, not research completion.
 - **Completion:** 0% verified topic research. No topic is marked Verified Complete.
 - **Mind map:** Existing Obsidian map reflects the folder hierarchy; status annotations, links and coverage audit still required.
@@ -145,8 +145,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: **Drafted — Needs Verification** | Required sections: definitions/stages; primary, secondary and tertiary applications; comparison table; ambiguous examples; community nursing workflow; assessment, safety and referral; Philippine context; PNLE distinctions; source register.  
   Sources consulted: WHO EMRO disease-prevention page; CDC MMWR framework on prevention levels (1992); WHO EMRO NCD prevention overview (1997); DOH CHD XI Immunization Program page; WHO Health Promotion Glossary (2021). Important facts covered: classification by target disease stage and purpose; screening limitations and need for follow-up; rehabilitation/complication prevention; extensions such as primordial/quaternary; Philippine program context. Research file: `Elements of Primary Health Care/Education/Three Levels of Prevention/RESEARCH NOTES.md` (17,352 characters; reopened after save). Unresolved issues: final direct-link/full-text review; verify current Philippine screening schedules and immunization details in topic-specific guidance. Last action: expanded generic 2,357-character starter note into substantive research and reopened saved file (2026-10-17). Next action: continue with the next unchecked topic; verify source links before marking complete.
 - [x] **Essential Drugs** — `Elements of Primary Health Care/Essential Drugs`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: essential-medicine definition/selection; WHO vs Philippine list distinction; RA 6675/PNF context; availability and supply-chain responsibilities; safe use; contraindications vs precautions; rational use/antimicrobial stewardship; patient education; special populations; indicators; PNLE distinctions; sources.  
+  Sources consulted: WHO Model List of Essential Medicines, 24th list (2025); WHO current Model Lists page; WHO Declaration of Alma-Ata; RA 6675 via Lawphil/Supreme Court E-Library; PhilHealth Advisory 2025-0060 on ePNF (Oct 2025); DOH Department Circular 2025-0341 on PNF additions; Philippine FDA drug-registration portal. Important facts covered: population-priority definition; evidence-based selection; WHO list is a guide rather than the Philippine formulary; RA 6675 and generic terminology; supply/stock-out management; general nursing medication checks and safety. Research file: `Elements of Primary Health Care/Essential Drugs/RESEARCH NOTES.md` (18,612 characters; reopened after save). Unresolved issues: current ePNF version/site access and latest circulars require rechecking before specific procurement/clinical claims; no universal doses or medicine-specific contraindication list included. Last action: expanded generic 2,469-character starter note into substantive research and reopened saved file (2026-10-17). Next action: continue with Herbal and other unchecked topics; verify all source links before marking complete.
 - [x] **Herbal** — `Elements of Primary Health Care/Essential Drugs/Herbal`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 16/77; all sixteen remain Drafted — Needs Verification.
-- **Folders still requiring substantive expansion:** 61/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** 17/77; all seventeen remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** 60/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -499,3 +499,13 @@ Every directory below was present in the repository's recursive tree at the init
 - Reopened the saved file and confirmed 14,076 characters plus forms, urgent findings and source register.
 - Status: **Drafted — Needs Verification**, not Verified Complete. Exact severity thresholds, referral criteria and treatment schedules remain protocol-dependent.
 - Next action: continue to the next individual topic folder and keep the log/mind map synchronized; final source and recursive audits remain outstanding.
+
+
+## Research Cycle Log — 2026-10-17 (Essential Drugs)
+
+- Re-read the mandatory subject guide and inspected the existing `Elements of Primary Health Care/Essential Drugs/RESEARCH NOTES.md`.
+- Expanded the file from 2,469 characters to 18,612 characters, covering essential-medicine principles, WHO vs Philippine formulary distinction, RA 6675, current PNF update context, procurement/supply and stock-outs, safe medication checks, contraindications vs precautions, rational use/stewardship, patient education, special populations and evaluation indicators.
+- Sources consulted: WHO 24th Model List of Essential Medicines (2025) and current Model Lists page; WHO Declaration of Alma-Ata; RA 6675 via Lawphil/Supreme Court E-Library; PhilHealth Advisory 2025-0060; DOH Department Circular 2025-0341; Philippine FDA drug-registration portal.
+- Reopened the saved file and confirmed 18,612 characters, RA 6675, PNF coverage and the contraindication/precaution distinction.
+- Status: **Drafted — Needs Verification**, not Verified Complete. Current ePNF version/site access and latest circulars must be rechecked before specific procurement/clinical claims; medication-specific doses and contraindications require dedicated current references.
+- Next action: research the next unchecked child topic, `Essential Drugs/Herbal`, then continue through every remaining topic folder.
