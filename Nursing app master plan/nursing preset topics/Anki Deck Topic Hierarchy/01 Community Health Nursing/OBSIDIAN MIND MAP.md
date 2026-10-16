@@ -25,7 +25,7 @@
         - [[Goal Setting]] — **Drafted — Needs Verification**
         - [[Prioritization]] — **Drafted — Needs Verification**
         - [[Scoring]] — **Drafted — Needs Verification**
-    - [[Health Promotion]]
+    - [[Health Promotion]] — **Drafted — Needs Verification**
       - [[Diet]] — **Drafted — Needs Verification**
       - [[Exercise]]
       - [[Health Promotion]]
