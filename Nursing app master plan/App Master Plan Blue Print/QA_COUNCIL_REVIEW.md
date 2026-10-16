@@ -319,11 +319,11 @@ These are scores for planning readiness, not for a working application.
 - Created the readiness trace link in the blueprint index and updated the repository audit to reflect the new 12th blueprint Markdown file.
 
 ### Fresh repository verification
-- Recursive tree: **740 entries; 599 blobs/files; 141 tree/directory entries; `truncated=false`**.
-- Blueprint: **12 Markdown files**.
+- Recursive tree: **741 entries; 600 blobs/files; 141 tree/directory entries; `truncated=false`**.
+- Blueprint: **13 Markdown files**.
 - Fetched all 12 blueprint Markdown files plus the parent README after edits; no readback failures.
-- Relative Markdown links checked across the 12 blueprint files and parent README: **19 checked, 0 broken**.
-- Confirmed R-033 and R-034 exist in the canonical requirement matrix and are referenced in the readiness trace.
+- Relative Markdown links checked across the current 13 blueprint files and parent README: pending fresh final scan after the new traceability file was added.
+- Confirmed R-033 and R-034 exist in the canonical requirement matrix; a new 34-row requirement-to-contract-to-test-oracle matrix has been added. Its rows still need independent review and exact fixture-output verification.
 - No application code, runnable prototype or technical spike was created.
 
 ### Validation limits
