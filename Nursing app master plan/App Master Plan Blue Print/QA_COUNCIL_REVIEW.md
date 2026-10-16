@@ -220,3 +220,43 @@ These scores evaluate the **planning package at this revision**, not implementat
 ### Precise continuation point
 
 Next: verify the raw source behind the Gizmo minimum-SDK discrepancy; run available offline tests with recorded environment/output; perform a full cross-document link/path/requirements scan; then update this scorecard from the actual findings. Keep app implementation blocked until the user separately authorizes it.
+
+
+## Corrective Cycle 4 — consolidation, prompt completeness and final link audit (2026-10-17)
+
+### Work completed
+
+- Consolidated repeated requirements and architecture/contracts content into two canonical specifications: `PRODUCT_REQUIREMENTS_AND_UX.md` and `TECHNICAL_ARCHITECTURE_AND_CONTRACTS.md`.
+- Deleted the four overlapping blueprint-only documents after checking the canonical replacements. Exact blob and deletion commit SHAs are recorded in `CLEANUP_LOG.md`. No research folders, binary files, reference-code files, root Claude/Ruflo configuration or the unrelated FLY8 prompt were removed.
+- Updated `CLAUDE_MASTER_PROMPT.md` to point to the canonical documents and added a planning-only iteration report template plus 2–3 required next-improvement suggestions. It remains explicitly forbidden to build the app in this phase.
+- Kept the architecture baseline explicitly **PROPOSED**, not user-approved, and strengthened the service-level diagnostic gate and missing-key/recoverable state.
+- Freshly fetched all current blueprint Markdown files plus the parent README from GitHub and confirmed non-empty readbacks.
+- Re-ran relative Markdown link validation across the two README indexes: **18 relative links checked, 0 broken**.
+- Re-scanned the current recursive tree: **739 entries, 598 blobs/files, 141 trees/directories, `truncated=false`**, at GitHub head/tree SHA `d018a28f50495a5c14f1d6bbf7dbe0f1f384fa33`. The blueprint contains 11 Markdown files. No file paths were added or removed since the prior post-cleanup snapshot; only existing documents were edited.
+
+### Verification limitation
+
+A local `git ls-remote` / checkout attempt could not resolve `github.com` in the container environment, so no local reference-code tests or app build could be run here. GitHub API reads and file read-backs worked. This cycle did **not** run the APKG tests, scheduler tests, TypeScript typecheck, device tests, live provider requests or runtime/integration tests. Historical test counts in reference READMEs are not treated as newly reproduced results. The App 1 archive remains unverified against the original manifest and all hashes. The Gizmo minimum-SDK discrepancy remains UNKNOWN pending primary manifest/config reconciliation. The full recursive tree was inventoried; not every binary or unrelated generated Claude/Ruflo file was semantically read.
+
+### Cycle 4 scorecard
+
+These are scores for planning readiness, not for a working application.
+
+| Category | Score / 10 | Evidence / remaining limitation |
+|---|---:|---|
+| Repository inventory and hygiene | 9 | Current tree is non-truncated; duplicate planning docs are consolidated; 18 README-relative links resolve. Unrelated binary/framework contents are not all semantically read. |
+| Requirements coverage | 9 | Mandatory 1–50 diagnostic, 1–5 topic quiz, module remediation, tutor, spaced review, key setup and nursing safeguards are in the canonical spec. Edge cases still need executable tests. |
+| Architecture recommendation | 9 | A practical default and alternatives are written down and labelled proposed. Target-device validation, sync scope, provider budget, scheduler and formula choices remain unresolved. |
+| Data/service contracts | 9 | Canonical entities, provenance, answer-key split, event idempotency, concurrency, migration and offline requirements are specified; contracts have not been executed. |
+| Security/privacy/clinical reliability | 8 | Key extraction caveat, imported prompt-injection, source/answer-key provenance and secret redaction are addressed. No runtime threat-model verification or human clinical review has occurred. |
+| UX/accessibility/learning science | 8 | Strict diagnostic gate, resumability, evidence-aware mastery and graph text alternatives are specified. No usability study or screen-reader/device test has been performed. |
+| Claude agent readiness | 9 | Prompt, ownership rules, real-capability checks, handoff schema, iterative review and suggestions are present. Live agent spawning is still not verified in this ChatGPT environment. |
+| QA and empirical validation | 7 | Repository and link readbacks are verified, but reference tests were not runnable here; archive completeness and SDK evidence remain blocked. |
+
+**Verdict:** The planning workspace is cleaner and substantially more actionable. It is not defensible to call it 15/10 or all 10s while important empirical checks are blocked. Overall planning-readiness judgment: **8.5/10** (summary judgment, not an arithmetic replacement for the category scores). Do not begin app implementation.
+
+### Next best improvement cycle
+
+1. Verify the conflicting Gizmo minimum-SDK claims against the raw decoded manifest and build configuration, recording the exact source that wins.
+2. Run the existing App 2 offline tests and reference typecheck in a checkout-capable environment; record exact commands, environment, commit and output.
+3. Reconcile the App 1 archive manifest with Git paths, sizes and hashes before making any completeness claim. Continue to hold the application build gate.
