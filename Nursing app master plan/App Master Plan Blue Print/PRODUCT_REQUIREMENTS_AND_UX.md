@@ -26,7 +26,7 @@ The dashboard should prioritize the next recommended action, due reviews, curren
 |---|---|---|---|---|---|
 | R-001 | Import personal study material | Ingestion, SourceDocument, SourceChunk, provenance | Supported fixtures import; text and source locations are retained; failures recover cleanly | Import formats, storage | Planned |
 | R-002 | Arrange material by subject/module/topic/subtopic | Content Library, Subject, Module, Topic | Create, move, search, nest and reopen hierarchy without losing links | Data model, navigation | Planned |
-| R-003 | Link related concepts across folders | ConceptRelation / TopicRelation | One concept can be linked from multiple topics without duplicating canonical content | Canonical identity | Planned |
+| R-003 | Link and color-code related concepts across folders | ConceptRelation / TopicRelation and graph legend | One canonical concept can be linked across folders; relation colors are consistent and accompanied by text labels/icons so meaning never depends on color alone | Canonical identity, accessible color tokens | Planned |
 | R-004 | Diagnostic before teaching selected scope | Assessment Engine, DiagnosticSession | A 1–50 question diagnostic must be completed before generated teaching starts in that scope; interruption/resume works and topic-level results appear | Assessment policy, question bank | Planned |
 | R-005 | Identify strengths and weaknesses | Attempt ledger, TopicEvidence, MasteryEstimate | Results show topic-level performance and confidence; sparse evidence is labelled uncertain | Event model, learning spec | Planned |
 | R-006 | AI creates an ordered targeted learning plan | Adaptive Plan Engine, LearningPlanItem | Fixed attempt fixtures produce an explainable plan in documented priority order | Mastery model, AI contract | Planned |
@@ -40,7 +40,7 @@ The dashboard should prioritize the next recommended action, due reviews, curren
 | R-014 | Comprehensive module quiz | ModuleAssessment | Assessment follows a versioned topic/difficulty coverage blueprint and reports coverage, score and weak areas | Taxonomy, assessment blueprint | Planned |
 | R-015 | Targeted topics after module assessment | RemediationPlan | Weak topics produce a prioritized plan without unnecessarily repeating mastered material | Mastery model | Planned |
 | R-016 | Repeat adaptive learning cycle | Adaptive Plan Engine | Remediation produces an updated plan from new evidence rather than resetting blindly | Event ledger | Planned |
-| R-017 | Points for correct answers and completion | Rewards service, RewardEvent | Reward rules are deterministic; retries and duplicate requests do not award duplicate points | Idempotency | Planned |
+| R-017 | Points for correct answers, quiz scores and completion | Rewards service, RewardEvent | Correct-answer, topic/module quiz-score, lesson-completion and configured reward events follow documented deterministic rules; retries and duplicate requests do not award duplicate points | Idempotency, scoring policy | Planned |
 | R-018 | Streaks and levels/ranks | Streak, ProfileProgress | Time-zone boundaries, missed days, restore and duplicate events are tested | Time policy, persistence | Planned |
 | R-019 | Dashboard and per-topic mastery | Progress projection | Dashboard reconciles with attempt/review fixtures and displays confidence/recency | Mastery formula | Planned |
 | R-020 | Tutor discussion mode | TutorSession, TutorMessage, SourceContext | Follow-ups retain context; source-grounded answers expose relevant references when available | Provider, privacy | Planned |
@@ -133,7 +133,7 @@ Conceptual destinations:
 - **Progress:** mastery, confidence/evidence, history, points and streaks.
 - **Settings:** provider, privacy, export/backup, accessibility, notifications and data control.
 
-The hierarchy should represent Subjects → Modules → Topics → Subtopics. A topic may be linked to multiple subjects or modules; links must not duplicate the canonical concept. Typed relationships may include prerequisite, related-to, contrasts-with, part-of and clinically-associated-with. Mind maps are views of the canonical topic graph, not the only record of relationships. Provide a text/list alternative.
+The hierarchy should represent Subjects → Modules → Topics → Subtopics. A topic may be linked to multiple subjects or modules; links must not duplicate the canonical concept. Typed relationships may include prerequisite, related-to, contrasts-with, part-of and clinically-associated-with. Color-code relation types consistently across folders and graph views, with an explicit legend plus text labels/icons; never rely on color as the only signal. Mind maps are views of the canonical topic graph, not the only record of relationships. Provide a text/list alternative.
 
 ## 5. Learning model and mastery rules
 
@@ -163,11 +163,11 @@ A small number of correct answers must not imply high certainty. Labels such as 
 
 ## 6. Points, levels and streaks
 
-Reward meaningful valid answer attempts, completed learning activities, quiz performance and review consistency. Define transparent anti-farming and idempotency rules. Repeating a completed activity or submitting the same event twice must not mint additional points. Streaks must have an explicit time-zone/travel policy, and losing a streak must never delete learning history. Levels/ranks should motivate without hiding weak topics or pressuring unsafe speed.
+Reward meaningful valid correct answers, quiz-score milestones, completed learning activities and review consistency. Define point values and score thresholds explicitly, along with transparent anti-farming and idempotency rules. Repeating a completed activity or submitting the same event twice must not mint additional points. Streaks must have an explicit time-zone/travel policy, and losing a streak must never delete learning history. Levels/ranks should motivate without hiding weak topics or pressuring unsafe speed.
 
 ## 7. Accessibility and device usability
 
-- Correctness and topic state must not depend on color alone.
+- Correctness and topic state must not depend on color alone. Related-topic connections may be color-coded, but also require text labels/icons and a visible legend.
 - Use readable body text and adjustable text scaling.
 - Provide semantic labels for controls and charts.
 - Use logical focus order and screen-reader announcements for feedback.
