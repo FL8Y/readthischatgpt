@@ -145,10 +145,10 @@ The previous blueprint revision contained 12 Markdown documents. After consolida
 - Hundreds of unrelated `.claude/commands` and `.claude/agents` files.
 - Most Android resource XML and generated metadata files under App 1.
 - Every binary/native/resource file and every individual file in the complete repository.
-- The prior QA council record reports that both full research DOCX reports were read (Gizmo: 54/54 pages; AnkiDroid: 35/35 pages). This update did not independently re-extract the DOCX bytes; treat those page-read counts as reported by that prior review and continue reconciling material claims against raw manifest/config/code evidence. The Gizmo report's conflicting min-SDK values remain UNKNOWN pending reconciliation.
+- The prior QA council record reports that both full research DOCX reports were read (Gizmo: 54/54 pages; AnkiDroid: 35/35 pages), while the current App 3 README describes the Gizmo report as 52 pages including addenda; that page-count discrepancy is itself unresolved. This update did not independently re-extract the DOCX bytes; treat the earlier page-read counts as prior-review reports, not a fresh DOCX re-read. The App 3 decoded `AndroidManifest.decoded.xml` shows `compileSdkVersion="36"` but has no `<uses-sdk>` element, so that file cannot settle the conflicting reported minimum-SDK values of 26 versus 34. Keep min-SDK **UNKNOWN** until the original APK manifest/build metadata (`apktool.yml` or equivalent) is verified.
 
 ### Must be done before implementation planning is declared complete
-1. Reconcile the complete-report findings with markdown notes, decoded manifest/config and direct code; leave conflicting min-SDK evidence unresolved until a primary source proves it.
+1. Reconcile report/page-count claims with the current README and source files; resolve the Gizmo min-SDK conflict only from `apktool.yml` or another primary build/manifest artifact. The decoded manifest currently available in GitHub only proves compile SDK 36, not minimum SDK.
 2. Inspect remaining relevant reference-code files and run isolated tests where tooling permits; record exact commands/results or why they were not run.
 3. Re-scan and read back the latest tree and all changed files after each commit; ensure counts and links are current.
 4. Finish architecture council corrections and update the scorecard using evidence.
