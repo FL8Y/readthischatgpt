@@ -20,7 +20,9 @@
   - Trimesters
 - Normal Labor and Delivery
   - Cardinal Signs of Labor
+  - [[Normal Labor and Delivery/Cardinal Signs of Labor/Research|Cardinal Signs of Labor]]
   - Components of Labor
+  - [[Normal Labor and Delivery/Components of Labor/Research|Components of Labor / 5 Ps]]
   - Stages of Labor
   - [[Normal Labor and Delivery/Stages of Labor/Research|Stages of Labor]]
   - True vs False Labor Contractions
