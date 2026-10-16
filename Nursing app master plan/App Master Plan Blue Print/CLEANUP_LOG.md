@@ -40,8 +40,9 @@ No research assets, binaries, reports, reference code, application source code, 
 
 ## Verification record
 
-- Consolidated product spec: `PRODUCT_REQUIREMENTS_AND_UX.md` — created in commit `7844840ef2521bad4175ba233c8b9d7bde9adb9e`; subsequently fetched from GitHub and checked for the requirements matrix, strict diagnostic gate, accessibility and nursing safeguards.
-- Consolidated technical spec: `TECHNICAL_ARCHITECTURE_AND_CONTRACTS.md` — created in commit `fedf1e773ee029ffb5705524fdfe6ec0b61c1b8`; subsequently fetched from GitHub and checked for framework comparison, data model, AnkiDroid/SRS, answer-key separation, security and offline requirements.
+- Consolidated product spec: `PRODUCT_REQUIREMENTS_AND_UX.md` — created in commit `7844840ef2521bad4175ba233c8b9d7bde9adb9e`; final current blob SHA after council alignment is `420f89dec36720639c147849d2cf69abc9089137`. The verified content includes the full R-001–R-032 matrix, strict diagnostic gate (including the missing/invalid-key state), UX/accessibility and nursing safeguards.
+- Consolidated technical spec: `TECHNICAL_ARCHITECTURE_AND_CONTRACTS.md` — created in commit `fedf1e773ee029ffb5705524fdfe6ec0b61c1b8`; final current blob SHA after council alignment is `2f49cea766a5534e64447c25e03f057f4835d046`. The verified content includes framework comparison, data model/contracts, AnkiDroid/SRS, answer-key separation, security/offline requirements, strict diagnostic service gating and a clearly marked proposed baseline.
 - Orchestrator prompt shortened in commit `2055c443cfb5e42cc41757c80bbd7ec4e0f5e31f`.
 - Current cross-reference updates include commits `c72bfa679749ed29612f024408d94068720e8d38`, `c61ac987476ebdc1e057641b98881250a626d257`, `d2c497d44aaa34ec72a93ea6ec1aa9281799ff70` and `b924594704a93210d1e3db59f405bbc68de9c88e`.
+- Subsequent planning-review commits strengthened the two consolidated specs. Those additions were retained and verified by read-back; they did not restore the deleted duplicate files.
 - This is an activity log, not a claim that the application or its reference integrations were runtime-tested.
