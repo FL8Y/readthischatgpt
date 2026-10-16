@@ -37,6 +37,23 @@ Fear, anxiety, exhaustion, support, cultural preferences and prior birth experie
 ## Medication and safety notes
 Oxytocin induction/augmentation requires a valid indication, baseline assessment, pump/administration safeguards and fetal/uterine monitoring per protocol. Uterine tachysystole or concerning fetal heart rate requires prompt response, which may include reducing/stopping oxytocin and other ordered interventions according to local algorithm. Do not independently alter infusion outside nursing protocol, and do not continue an unsafe infusion while waiting for routine review.
 
+## Labor progress: avoid rigid 1 cm/hour rules
+
+The 5 Ps organize assessment, but they are not a diagnostic scoring system. Evaluate the pattern over time: contractions, cervical change, fetal descent/position, fetal heart rate and maternal condition. WHO recommends against using cervical dilation of at least 1 cm/hour as a universal marker of normal active labor, and states that slower dilation alone should not trigger routine obstetric intervention. WHO explains labor may not naturally accelerate until around 5 cm and recommends against oxytocin augmentation or cesarean solely for slower progress before 5 cm when maternal and fetal condition are reassuring. This does **not** mean ignore abnormal progress or delay intervention for fetal compromise, infection, hemorrhage, obstruction or maternal deterioration.
+
+| Finding | Clinical interpretation |
+|---|---|
+| Slow dilation before the active phase, reassuring mother and fetus | Reassess the whole pattern and provide supportive care; do not use the 1 cm/hour threshold alone as an indication for intervention. |
+| No cervical progress with contractions plus concerning maternal/fetal signs | Assess for complications such as malposition, cephalopelvic disproportion, infection or fetal compromise; escalate according to protocol. |
+| Uterine tachysystole during oxytocin | Promptly assess fetal response and contraction/resting tone; follow the unit's oxytocin response protocol. Tachysystole and abnormal fetal heart rate are not explained away as a normal “powers” issue. |
+| Malpresentation, persistent malposition, suspected macrosomia or high/unengaged presenting part | Alert the obstetric team; these features may alter safety of amniotomy, descent and mode/timing of birth. |
+
+Source checked: WHO, *WHO recommendations: Intrapartum care for a positive childbirth experience* (2018), recommendations 7–9 on active first-stage progress: https://www.ncbi.nlm.nih.gov/books/NBK513802/ ; detailed evidence/recommendations: https://www.ncbi.nlm.nih.gov/books/NBK513805/ . WHO explicitly states the 1 cm/hour threshold is inaccurate as a predictor of adverse birth outcomes and not recommended alone for identifying normal progress or triggering intervention.
+
+## Distinguishing the 5 Ps from a diagnosis
+The framework is useful for a structured handover, not for assigning blame or assuming a single cause. A difficult labor may involve more than one factor and can evolve. Do not label disproportion based only on pelvic shape, diagnose fetal malposition from maternal pain pattern alone, or recommend an intervention solely because one P appears “abnormal.” The responsible clinician integrates serial examinations, fetal assessment, contraction pattern, gestation, parity, maternal preferences and relevant guideline thresholds.
+
+
 ## PNLE high-yield points
 - Passenger = fetus; passageway = pelvis/soft tissues; powers = contractions and pushing; position = maternal posture; psyche = coping/support.
 - Labor progress is multifactorial; no single P predicts outcome alone.
