@@ -22,3 +22,37 @@ Patient safety, lawful staffing/scope, continuity, and essential resources take 
 - PRC, Nursing resources: https://www.prc.gov.ph/nursing
 - WHO, Patient Safety: https://www.who.int/health-topics/patient-safety
 - AHRQ, TeamSTEPPS: https://www.ahrq.gov/teamstepps/index.html
+
+## Applying the management cycle
+
+**Planning:** assess the problem and baseline, identify stakeholders, set a specific measurable objective, review evidence and policy, forecast staffing/resources, and define evaluation measures. Planning should include risks, contingencies, deadlines, and how staff/patients will be informed.
+
+**Organizing:** assign roles and decision authority, define reporting lines, coordinate interprofessional work, standardize workflows, and ensure required equipment and information are available. An organizational chart alone does not guarantee clear responsibility; specify who owns assessment, follow-up, escalation, and documentation.
+
+**Staffing:** match the number and competence of staff to patient acuity, workload, service needs, and legal/institutional requirements. Include orientation, competency validation, scheduling, fatigue risk, supervision, and continuing development. Do not equate headcount alone with safe staffing.
+
+**Directing/leading:** communicate goals, coach, supervise, resolve barriers, support psychological safety, address conflict, and escalate unsafe conditions. Use directive leadership when urgent action is needed and participative approaches when time permits and frontline knowledge improves decisions.
+
+**Controlling:** compare valid performance measures with the target, investigate variation, take corrective action, and measure again. If results worsen or create unintended harm, revise the plan rather than defend it because it has already been implemented.
+
+## Authority, responsibility, accountability, and delegation
+
+Authority is the legitimate right to make specified decisions; responsibility is the obligation to perform assigned work; accountability is answerability for actions and outcomes within one's role. The terms are related but not interchangeable. Delegation transfers a defined task when permitted; it does not erase the delegator's responsibility for appropriate task/person selection, instructions, supervision, and evaluation. The delegate remains accountable for their own actions and for recognizing when a task is beyond competence.
+
+## Managerial levels and skills
+
+- **Top-level:** sets organizational direction, policy, strategic priorities, and resource alignment.
+- **Middle-level:** translates strategy into departmental/unit plans and coordinates services.
+- **First-line/unit-level:** coordinates daily operations, staff, patient flow, immediate safety, and shift-level performance.
+
+Technical skills support specific clinical/operational work; interpersonal skills support relationships and conflict management; conceptual skills help understand the wider system and tradeoffs. All levels require communication, ethical judgment, and attention to patient safety.
+
+## Worked nursing example
+
+After an increase in falls, the manager should first ensure any current patient is assessed and immediate risks are controlled. Then review fall circumstances, patient acuity, medication-related risk, staffing/workload, environment, handoff, and compliance with prevention practices. Set a measurable aim, assign owners, provide necessary resources/training, monitor both falls and balancing indicators, and adjust based on findings. Do not blame an individual or announce training as a solution before examining the system.
+
+## Sources
+
+- WHO, **Patient Safety**: https://www.who.int/health-topics/patient-safety
+- AHRQ, **TeamSTEPPS**: https://www.ahrq.gov/teamstepps/index.html
+- PRC, **Nursing** resources: https://www.prc.gov.ph/nursing
