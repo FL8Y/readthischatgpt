@@ -17,7 +17,7 @@ The initial GitHub recursive tree scan returned **729 entries** with `truncated=
 | `.gitignore` | 1 | Root configuration; preserve |
 | `.mcp.json` | 1 | Claude/Ruflo MCP configuration; preserve |
 | `CLAUDE.md` | 1 | Root execution rules; read and preserve |
-| `Nursing app master plan` | 397 | Research and project blueprint; primary task scope |
+| `Nursing app master plan` | 408 | Research and project blueprint; primary task scope |
 | `here is your guiding prompt` | 1 | Existing FLY8 repair continuation prompt; unrelated project; preserve unchanged |
 
 The tree inventory is complete for the Git ref inspected. File content inspection was focused on the project instructions, research directories, reference implementations, and tests most relevant to the nursing app.
@@ -31,7 +31,7 @@ Counts below are based on the recursive tree at the time of the audit.
 | App 1 inspired research | 337 | 280 | 57 | 49,682 | APK-derived Android metadata/resources; transfer log indicates incomplete archive upload |
 | app 2 inspired research | 29 | 18 | 11 | 220,518 | AnkiDroid research, decoded manifest, integration examples, scheduler and APKG builder |
 | App 3 a app inspired research | 27 | 20 | 7 | 283,937 | Gizmo report, derived extracts, research notes, AI quiz-generation reference code |
-| App Master Plan Blue Print | 2 before this planning set | 1 | 1 | 3,872 | Previously only the README; now contains architect planning documents being added |
+| App Master Plan Blue Print | 13 | 12 | 1 | 127,418 | Twelve Markdown planning documents including architecture, contracts, UX/learning spec, prompt, traceability, roadmap, decisions and council QA |
 
 The bytes are Git tree listed file sizes, not the original APK size or a claim that all archive bytes were uploaded.
 
@@ -117,12 +117,12 @@ Key observations:
 
 ## 7. Current blueprint condition
 
-Before this planning set was added, the blueprint directory contained only `README.md`. Its README's App 1/App 2/App 3 relationship description conflicted with the user's latest explicit clarification. The new plan records the current relationship: App 1 and App 3 are related; App 2 is distinct.
+The blueprint now contains 12 Markdown documents; all were inventoried in the current tree snapshot. The source relationship is user-confirmed: App 1 and App 3 are related; App 2 is distinct. The prior QA review identified and corrected stale relationship wording and added an answer-key boundary, strict diagnostic gate, and concurrency requirements.
 
 ## 8. Evidence coverage and remaining work
 
 ### Inspected directly in this audit
-- Complete recursive Git tree metadata (729 entries, not truncated).
+- Complete recursive Git tree metadata (740 entries: 599 blobs and 141 trees; `truncated=false` at the recorded commit).
 - Root project execution instructions and key Ruflo configuration/capability summary.
 - Master-plan parent README and blueprint README.
 - App 1 README/upload log.
@@ -133,12 +133,12 @@ Before this planning set was added, the blueprint directory contained only `READ
 - Hundreds of unrelated `.claude/commands` and `.claude/agents` files.
 - Most Android resource XML and generated metadata files under App 1.
 - Every binary/native/resource file and every individual file in the complete repository.
-- The complete 35-page and 52-page DOCX reports were not fully extracted during this GitHub content pass; their READMEs and relevant research files were inspected, and a Gizmo report snippet is available in the conversation's file search results.
+- The prior QA council record reports that both full research DOCX reports were read (Gizmo: 54/54 pages; AnkiDroid: 35/35 pages). This update did not independently re-extract the DOCX bytes; treat those page-read counts as reported by that prior review and continue reconciling material claims against raw manifest/config/code evidence. The Gizmo report's conflicting min-SDK values remain UNKNOWN pending reconciliation.
 
 ### Must be done before implementation planning is declared complete
-1. Read/extract both complete DOCX reports, including appendices, and reconcile their claims with the markdown notes.
-2. Inspect the remaining reference-code files and run isolated tests where tooling permits.
-3. Verify the current Git tree after the new planning files are committed.
-4. Build the requirements traceability matrix and architecture options report.
-5. Record unresolved decisions and red-team findings.
+1. Reconcile the complete-report findings with markdown notes, decoded manifest/config and direct code; leave conflicting min-SDK evidence unresolved until a primary source proves it.
+2. Inspect remaining relevant reference-code files and run isolated tests where tooling permits; record exact commands/results or why they were not run.
+3. Re-scan and read back the latest tree and all changed files after each commit; ensure counts and links are current.
+4. Finish architecture council corrections and update the scorecard using evidence.
+5. Resolve or explicitly retain open decisions for stack, backend/sync, provider keys, scheduler version, import scope, mastery/reward formulas and device matrix.
 6. Do not declare the App 1 archive transfer complete without the original manifest and a verifiable path/size/hash comparison.
