@@ -46,8 +46,8 @@ For each topic, mark status only after checking the actual file in GitHub:
 | 13 | `Common Complications/Toxemia` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
 | 14 | `Normal Labor and Delivery/Cardinal Signs of Labor` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
 | 15 | `Normal Labor and Delivery/Components of Labor` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
-| 16 | `Normal Labor and Delivery/Stages of Labor` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
-| 17 | `Normal Labor and Delivery/True vs False Labor Contractions` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
+| 16 | `Normal Labor and Delivery/Stages of Labor` | Uploaded; verification pending | WHO intrapartum care recommendations (2018); NICE NG235; ACOG CPG No. 8 (2024) | [Research.md](./Normal%20Labor%20and%20Delivery/Stages%20of%20Labor/Research.md) created; reopen and validate | Reopen and verify source links; check stage-specific medication safety |
+| 17 | `Normal Labor and Delivery/True vs False Labor Contractions` | Uploaded; verification pending | ACOG How to Tell When Labor Begins; NICE NG235; NICE NG25 | [Research.md](./Normal%20Labor%20and%20Delivery/True%20vs%20False%20Labor%20Contractions/Research.md) created; reopen and validate | Reopen and verify source links/triage guidance |
 | 18 | `Normal Pregnancy/Adaptations of Pregnancy/Cardiovascular Changes` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
 | 19 | `Normal Pregnancy/Adaptations of Pregnancy/Endocrine Changes` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
 | 20 | `Normal Pregnancy/Adaptations of Pregnancy/GI Changes` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
@@ -83,12 +83,12 @@ These are not counted as completed topics until the hierarchy is checked for dup
 
 ## Status dashboard
 - Leaf topic folders identified: **35**
-- Topics with substantive research files: **11**
-- Topics clinically verified: **0** (nine files were reopened in the last audit; PROM and Shoulder Dystocia files are newly created and await reopening; clinical/source audits remain pending)
-- Remaining leaf topics without substantive files: **24**; eleven uploaded topics require final verification
-- Research completion: **0% verified** (0/35 fully verified). Eleven substantive topic files exist but are not counted as verified until their clinical/source/link audits are complete.
+- Topics with substantive research files: **13**
+- Topics clinically verified: **0** (eleven files were previously reopened; Stages of Labor and True vs False Labor files are newly created and await reopening; clinical/source audits remain pending)
+- Remaining leaf topics without substantive files: **22**; thirteen uploaded topics require final verification
+- Research completion: **0% verified** (0/35 fully verified). Thirteen substantive topic files exist but are not counted as verified until their clinical/source/link audits are complete.
 - Added topics: **0**
 - Blockers: None encountered during initial tree inspection. Full research and per-file upload verification remain outstanding.
-- Last action: Added substantive research files for Abortion, Abruptio Placenta, Cord Prolapse, Ectopic Pregnancy, Gestational Diabetes, Hemolytic Disease of the Newborn, Hydatidiform Mole, Hyperemesis Gravidarum, Placenta Previa, Premature Rupture of Membranes and Shoulder Dystocia. Reopened the first nine files through GitHub API; the latest two files await the same content/path check.
-- Exact next action: Reopen PROM and Shoulder Dystocia files, then research the next unchecked topic: `Common Complications/Incompetent Cervix`. Continue through every remaining topic; do not equate file creation with clinical verification.
+- Last action: Added substantive research files for Abortion, Abruptio Placenta, Cord Prolapse, Ectopic Pregnancy, Gestational Diabetes, Hemolytic Disease of the Newborn, Hydatidiform Mole, Hyperemesis Gravidarum, Placenta Previa, Premature Rupture of Membranes, Shoulder Dystocia, Stages of Labor and True vs False Labor Contractions. The first nine were reopened; the remaining four await reopening and deeper source/clinical audits.
+- Exact next action: Reopen PROM, Shoulder Dystocia, Stages of Labor and True vs False Labor files; then research `Normal Labor and Delivery/Cardinal Signs of Labor`. Continue through every remaining topic; do not equate file creation with clinical verification.
 - Last reconciled: 2026-10-17 (partial audit; final recursive audit not yet performed).
