@@ -24,6 +24,8 @@ export interface Source {
   verification: Verification;
   /** Where the AI thinks the material comes from. Always a suggestion, never proof. */
   suggestedOrigin?: string;
+  /** Problems the AI double-check flagged. Advice, not proof. */
+  issues?: string[];
 }
 
 export interface Chunk {
