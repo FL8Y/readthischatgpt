@@ -11,16 +11,17 @@
 
 - [x] Inspect archive integrity and entry count.
 - [x] Inspect destination folder; it initially contained only `README.md`.
-- [x] Batch 1 committed: 4 small text/metadata files (`META-INF/NOTICE.md`, `review.properties`, `vision-common.properties`, `vision-interfaces.properties`).
+- [x] Batch 1 committed: 4 small text/metadata files.
 - [x] Batch 2 committed: 20 AndroidX `.version` metadata files.
+- [x] Batch 3 committed: 30 AndroidX `.version` metadata files.
 - [ ] Upload remaining archive files in manageable batches, preserving paths and binary contents.
 - [ ] Compare uploaded paths and sizes against the archive manifest.
 - [ ] Finalize replacement and verify the resulting Git tree.
 
 ## Current status
 
-24 of 1,790 archive files have been committed (1.34%). 1,766 archive files remain. No ZIP file has been uploaded. The existing README is being retained until the replacement payload is verified.
+54 of 1,790 archive files have been committed (3.02%). 1,736 archive files remain. No ZIP file has been uploaded. The existing README is being retained until the replacement payload is verified.
 
 ## Next
 
-Continue transferring the archive entries in batches, then verify the final Git tree against the archive manifest before declaring completion.
+Continue transferring archive entries in batches, then verify the final Git tree against the archive manifest before declaring completion.
