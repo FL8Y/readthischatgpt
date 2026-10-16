@@ -39,6 +39,7 @@
       - [[Pillars of PHC]]
     - [[Sentrong Sigla Program]]
   - [[Elements of Primary Health Care]]
+  - [[Treatment of Communicable and Noncommunicable Diseases and Emergency Services]] — **Drafted — Needs Verification**
   - [[Sanitation and Environmental Health]] — **Drafted — Needs Verification**
   - [[Health and Sanitation Laws]] — **Drafted — Needs Verification**
   - [[Toilet Facility]] — **Drafted — Needs Verification**
