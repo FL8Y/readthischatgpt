@@ -14,6 +14,24 @@ Observe breathing, color, tone, temperature and feeding cues. Ensure the infant'
 ## Exceptions
 If the newborn is apneic/gasping or requires resuscitation, follow neonatal resuscitation guidance immediately; lifesaving ventilation must not be delayed for routine skin-to-skin. If the mother has hemorrhage, altered consciousness or another emergency, stabilize her and ensure the newborn is supervised by trained staff.
 
+## Immediate newborn safety observation during skin-to-skin
+
+Skin-to-skin is an evidence-based routine for a stable mother-newborn pair, but it is an active care intervention, not passive placement. The person responsible for the newborn should be able to directly observe breathing and airway position and repeatedly assess color, tone, activity, warmth and feeding readiness according to local protocol. Keep the face visible, nose and mouth uncovered, head turned to one side with the neck neutral or slightly extended, shoulders and chest facing the mother, and avoid chin-to-chest flexion or pressure of the face against breast/linen. Ensure the infant cannot slip or fall. Dry linens should cover the infant's back while keeping the face and airway visible.
+
+**Maternal conditions that change the plan:** heavy bleeding, altered consciousness, sedation that prevents safe holding, severe exhaustion, respiratory compromise, or emergency procedures may require a trained staff member to supervise the newborn in another warm location until safe contact can resume. A second staff member should help supervise contact when the mother cannot reliably monitor the infant. Do not leave a newborn unobserved on an asleep, sedated or medically unstable mother.
+
+**Newborn findings that change the plan:** apnea/gasping, persistent poor tone, central cyanosis, grunting/retractions, poor transition, significant temperature instability or other signs of illness require immediate assessment and the appropriate resuscitation/stabilization pathway; do not preserve skin-to-skin by delaying treatment. If separation is required, explain the reason to the family, maintain warmth and safety, document the clinical reason and timing, and reunite with skin-to-skin/breastfeeding support promptly when medically appropriate.
+
+## Nursing documentation checklist
+Document birth time, initial breathing/tone assessment, drying and wet-linen removal, time skin-to-skin began, infant and maternal stability, airway-safe position and observations, interruption/separation reason and duration if any, escalation or resuscitation, and time contact/feeding resumed. Follow local EINC and newborn monitoring forms; the timing/frequency of specific observations is protocol-dependent and should not be invented from a general study summary.
+
+## Evidence context
+WHO's essential newborn-care resources support immediate drying, thermal protection, skin-to-skin, early breastfeeding and delayed bathing for stable newborns. These routine-care recommendations do not override the neonatal resuscitation algorithm or maternal stabilization. The relevant sources already listed for this topic are:
+- WHO, “Essential newborn care”: https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health/essential-newborn-care
+- WHO Philippines, “Unang Yakap: Encouraging Breastfeeding from the Start”: https://www.who.int/philippines/news/feature-stories/detail/unang-yakap-encouraging-breastfeeding-from-the-start
+- Philippine DOH Administrative Order No. 2009-0025: https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/11/49220
+
+
 ## Nursing priorities and rationale
 | Action | Rationale |
 |---|---|
