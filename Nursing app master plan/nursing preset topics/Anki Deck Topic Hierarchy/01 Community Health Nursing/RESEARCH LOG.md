@@ -10,9 +10,9 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 46 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, BCG, Maternal and Child Health, Health and Sanitation Laws, Pentavalent Vaccine, Elements of Primary Health Care, Other Vaccines, Food Sanitation, Vaccine Table, Locally-Endemic Diseases, Active Management of Third Stage of Labor, FHSIS, Epidemiology, Population Pyramid, Vital Statistics, Incidence vs Prevalence Rates, and Common Vital Statistics, and Swaroops, Sex Ratio.
+- **Substantive topic drafts expanded:** 47 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, BCG, Maternal and Child Health, Health and Sanitation Laws, Pentavalent Vaccine, Elements of Primary Health Care, Other Vaccines, Food Sanitation, Vaccine Table, Locally-Endemic Diseases, Active Management of Third Stage of Labor, FHSIS, Epidemiology, Population Pyramid, Vital Statistics, Incidence vs Prevalence Rates, and Common Vital Statistics, and Swaroops, Sex Ratio, and EINC.
 - **Topics verified complete:** 0
-- **Folders still requiring substantive topic-specific expansion:** 31 (all 77 have a notes file, but most remain initial starter notes).
+- **Folders still requiring substantive topic-specific expansion:** 30 (all 77 have a notes file, but most remain initial starter notes).
 - **Drafts awaiting source/content verification:** 46
 - **Research notes present:** 77/77; this is file presence, not research completion.
 - **Completion:** 0% verified topic research. No topic is marked Verified Complete.
@@ -220,8 +220,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
 - [x] **EINC** — `Elements of Primary Health Care/Maternal and Child Health/EINC`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: EINC purpose and sequence; immediate newborn practices; resuscitation exceptions; ongoing newborn care; maternal care; danger signs/escalation; medication/infection safety; Philippine context; quality indicators; PNLE distinctions; sources.  
+  Sources consulted: WHO Essential Newborn Care page; WHO postnatal-care recommendations (2022); WHO delayed cord-clamping guidance (2014); RA 11148 Lawphil text. Important facts covered: immediate drying/thermal care; skin-to-skin when safe; delayed cord clamping with clinical exceptions; early feeding support; emergency resuscitation takes priority; newborn danger signs and referral; EINC does not replace intervention-specific contraindications/schedules. Research file: `Elements of Primary Health Care/Maternal and Child Health/EINC/RESEARCH NOTES.md` (16,652 characters; reopened after save). Unresolved issues: current Philippine DOH EINC issuance and complete source documents require page-by-page comparison; current facility procedures govern exact sequence and exceptions. Last action: replaced generic 2,365-character starter with substantive EINC research and reopened saved file (2026-10-17). Next action: continue with the next individual child topic and verify current Philippine protocols before marking complete.
 - [x] **Newborn Screening** — `Elements of Primary Health Care/Maternal and Child Health/Newborn Screening`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 46/77; all 46 remain Drafted — Needs Verification.
-- **Folders still requiring substantive expansion:** 31/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** 47/77; all 47 remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** 30/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -858,3 +858,15 @@ Every directory below was present in the repository's recursive tree at the init
 - Reopened the saved file and confirmed 7,715 characters plus both formulas.
 - Status: **Drafted — Needs Verification**, not Verified Complete. Exact current PSA tables and any official current use of Swaroop's index require direct review; older interpretation bands are not universal standards.
 - Next action: continue remaining vital-statistics child folders and verify source definitions.
+
+
+## Research Cycle Log — 2026-10-17 (EINC)
+
+- Re-read the full mandatory CHN research standard and inspected the EINC child folder before writing.
+- Replaced the 2,365-character generic starter with a 16,652-character topic-specific draft covering EINC purpose, immediate care, thermal protection, skin-to-skin, cord clamping, early feeding, resuscitation exceptions, ongoing newborn care, danger signs, referral, nursing responsibilities, safety and evaluation.
+- Sources consulted: WHO Essential Newborn Care page; WHO postnatal-care recommendations (2022); WHO delayed cord-clamping guidance (2014); RA 11148 text via Lawphil.
+- Reopened the saved file from GitHub and confirmed 16,652 characters plus immediate drying and resuscitation-exception sections.
+- Limitations: current Philippine DOH EINC issuance and complete source documents were not reviewed page by page; current facility protocols govern exact sequence, contraindications and exceptions.
+- Status: **Drafted — Needs Verification**, not Verified Complete.
+- Coverage reconciliation: 47/77 folders have substantive drafts, 30/77 still require substantive expansion, and 0/77 are verified complete.
+- Next action: continue to the next individual child topic and update log/mind map after each verified save.
