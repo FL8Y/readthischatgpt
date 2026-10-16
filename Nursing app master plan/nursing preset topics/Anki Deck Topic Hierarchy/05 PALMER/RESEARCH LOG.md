@@ -292,6 +292,12 @@ PALMER's intended meaning has not been expanded by guesswork. The actual reposit
 - Deep-audit/expansion count: **27 of 76 topic folders**; **49 remain** for the same deeper audit/expansion. This count tracks files expanded/reopened in the current cycle, not final VERIFIED COMPLETE topics.
 - Next: refresh the mind-map count, then continue with the next individual topic folders in the recursive hierarchy. Source/link QA and final recursive audit remain open.
 
+## Mind-map synchronization — current deep-audit count — 2026-10-17
+
+- Refreshed `OBSIDIAN MIND MAP.md` to the current count: 34 of 76 nested topic files expanded and reopened in the deep-audit cycle; 42 remain for deeper audit/expansion.
+- The 34 revised files are still **NEEDS REVIEW** pending complete claim-by-claim/source-link validation. This count is not a completion count.
+- Confirmed the mind map was saved. The log and map now agree on the current deep-audit count.
+
 ## New research-standard adoption — 2026-10-17
 - Re-read the complete current [RESEARCH TOPIC GUIDE.md](./RESEARCH%20TOPIC%20GUIDE.md) after the repository update. This full version supersedes the earlier shorter standard for all further PALMER work.
 - Mandatory quality gates now explicitly include assessment/red flags; diagnostics and clinically interpreted laboratory findings where relevant; treatment/procedure indications, contraindications, preparation, aftercare and complications; independent/dependent/collaborative nursing actions; medication contraindications, interactions, serious adverse effects and special populations where relevant; ABC/Maslow/acute-versus-chronic prioritization with rationale; Philippine law and DOH/PRC/BON context; source-level verification; and a fresh recursive final audit.
