@@ -10,10 +10,10 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 37 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, BCG, Maternal and Child Health, Health and Sanitation Laws, Pentavalent Vaccine, Elements of Primary Health Care, Other Vaccines, Food Sanitation, and Vaccine Table, and Locally-Endemic Diseases, and Active Management of Third Stage of Labor.
+- **Substantive topic drafts expanded:** 38 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, BCG, Maternal and Child Health, Health and Sanitation Laws, Pentavalent Vaccine, Elements of Primary Health Care, Other Vaccines, Food Sanitation, and Vaccine Table, and Locally-Endemic Diseases, and Active Management of Third Stage of Labor, and FHSIS.
 - **Topics verified complete:** 0
-- **Folders still requiring substantive topic-specific expansion:** 40 (all 77 have a notes file, but most remain initial starter notes).
-- **Drafts awaiting source/content verification:** 37
+- **Folders still requiring substantive topic-specific expansion:** 39 (all 77 have a notes file, but most remain initial starter notes).
+- **Drafts awaiting source/content verification:** 38
 - **Research notes present:** 77/77; this is file presence, not research completion.
 - **Completion:** 0% verified topic research. No topic is marked Verified Complete.
 - **Mind map:** Existing Obsidian map reflects the folder hierarchy; status annotations, links and coverage audit still required.
@@ -187,8 +187,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
 - [x] **FHSIS** — `Elements of Primary Health Care/Locally-Endemic Diseases/FHSIS`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: system purpose/scope; indicator concepts; numerator/denominator; data quality; epidemiology/surveillance; nursing responsibilities; privacy/ethics; interpretation limitations; Philippine context; PNLE points; sources.  
+  Sources consulted: DOH CHD IV-A FHSIS Quarterly Reports 2025 page; PSA technical notes referencing FHSIS Manual of Operations Version 2018; RA 11332; RA 10173. Important facts covered: routine reporting vs disease surveillance; count/rate/ratio/proportion/incidence/prevalence distinctions; completeness/timeliness/denominator quality; privacy and data integrity. Research file: `Elements of Primary Health Care/Locally-Endemic Diseases/FHSIS/RESEARCH NOTES.md` (12,422 characters; reopened after save). Unresolved issues: current full FHSIS Manual and indicator forms require direct retrieval; do not assume 2018 references remain current for every indicator. Last action: expanded generic starter note into substantive FHSIS research (2026-10-17). Next action: continue child-topic research and verify current manual/source definitions before marking complete.
 - [x] **Population Pyramid** — `Elements of Primary Health Care/Locally-Endemic Diseases/Population Pyramid`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 37/77; all 37 remain Drafted — Needs Verification.
-- **Folders still requiring substantive expansion:** 40/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** 38/77; all 38 remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** 39/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -765,3 +765,14 @@ Every directory below was present in the repository's recursive tree at the init
 - Status: **Drafted — Needs Verification**, not Verified Complete.
 - Coverage reconciliation: 37/77 folders have substantive drafts, 40/77 still need substantive expansion, and 0/77 are verified complete.
 - Next action: continue with the next individual topic folder and synchronize the log/mind map after reopening each saved file.
+
+
+## Research Cycle Log — 2026-10-17 (FHSIS)
+
+- Applied the mandatory standard to the individual FHSIS child folder and expanded its generic data-statistics starter note.
+- Expanded `Elements of Primary Health Care/Locally-Endemic Diseases/FHSIS/RESEARCH NOTES.md` from 2,364 characters to 12,422 characters.
+- Covered FHSIS purpose and scope; indicator concepts; numerator/denominator, counts/rates/ratios/proportions/incidence/prevalence; completeness, timeliness and data quality; use in epidemiology; nursing responsibilities; privacy and ethics; interpretation limitations; Philippine legal context; and PNLE distinctions.
+- Sources consulted: DOH CHD IV-A FHSIS Quarterly Reports 2025 page; PSA technical notes referencing FHSIS Manual of Operations Version 2018; RA 11332; RA 10173.
+- Reopened the saved file and confirmed 12,422 characters plus data-quality and privacy sections.
+- Status: **Drafted — Needs Verification**, not Verified Complete. Full current FHSIS Manual and indicator forms remain to be directly retrieved and checked.
+- Next action: continue to the next individual child folder; do not assume the 2018 manual reference is current for every indicator.
