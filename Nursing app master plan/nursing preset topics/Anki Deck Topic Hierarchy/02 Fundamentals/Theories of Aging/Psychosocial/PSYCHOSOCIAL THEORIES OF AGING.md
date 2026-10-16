@@ -39,3 +39,8 @@ Classic theories may reflect the period, culture, or assumptions in which they w
 - OpenStax. *Fundamentals of Nursing*, aging/lifespan content index. https://openstax.org/books/fundamentals-nursing/pages/index
 
 **Verification note:** The 1986 review is a historical critique, not a complete current evidence synthesis. Supplement it with modern gerontology literature and patient-centered assessment.
+## PNLE priorities and safety traps
+- Do not use disengagement theory to justify isolation or withdrawal of support; ask the older adult about their own preferences.
+- A sudden change in attention, cognition, function, or behavior is not assumed to be normal aging. Assess urgently for delirium and reversible causes, including hypoxia, infection, medication effects, dehydration, and metabolic disturbance.
+- Use ABCs and immediate safety needs before psychosocial theory application when the patient is unstable. Maslow can support planning but should not be applied mechanically.
+- Respect autonomy and culture; assess depression, suicidality, abuse, neglect, and caregiver strain when indicated and follow escalation policy.
