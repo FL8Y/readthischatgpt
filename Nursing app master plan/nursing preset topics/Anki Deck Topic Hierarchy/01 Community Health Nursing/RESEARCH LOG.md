@@ -1173,3 +1173,12 @@ Every directory below was present in the repository's recursive tree at the init
 - Status: **Drafted — Needs Verification**, not Verified Complete.
 - Coverage reconciliation: 65/77 folders have substantive drafts, 12/77 still require substantive expansion, and 0/77 are verified complete.
 - Next action: continue with the next unchecked individual topic and keep the log/mind map synchronized.
+
+
+## Research Cycle Log — 2026-10-17 (Family ADPIE Planning parent)
+
+- Reconciled the substantive Planning parent draft from main into the research log.
+- The saved file is 11,630 characters and covers planning purpose/inputs, SMART objectives, intervention selection, family/community participation, safety/scope, implementation readiness, evaluation/revision, documentation and the separate child-topic map.
+- Sources listed: WHO–UNICEF PHC Operational Framework (2020); RA 11223 Universal Health Care Act. Exact family nursing scoring/prioritization weights are delegated to their child files and must be verified against the assigned course text.
+- Status: **Drafted — Needs Verification**, not Verified Complete. Final source/link and course-specific framework checks remain.
+- Next action: continue remaining individual CHN folders and verify sources.
