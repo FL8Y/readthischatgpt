@@ -35,104 +35,104 @@
 
 Every directory below was present in the repository's recursive tree at the initial inventory. Each item is **Not Started** until research and verification are actually completed. Paths are relative to this subject folder.
 
-- [ ] **CHN, PHC** — `CHN, PHC`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **CHN, PHC** — `CHN, PHC`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **COPAR** — `CHN, PHC/COPAR`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **COPAR** — `CHN, PHC/COPAR`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Basic Principles of COPAR** — `CHN, PHC/COPAR/Basic Principles of COPAR`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Basic Principles of COPAR** — `CHN, PHC/COPAR/Basic Principles of COPAR`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Phases of COPAR** — `CHN, PHC/COPAR/Phases of COPAR`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Phases of COPAR** — `CHN, PHC/COPAR/Phases of COPAR`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Clients of CHN** — `CHN, PHC/Clients of CHN`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Clients of CHN** — `CHN, PHC/Clients of CHN`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **DOH** — `CHN, PHC/DOH`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **DOH** — `CHN, PHC/DOH`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **DOH Concepts** — `CHN, PHC/DOH/DOH Concepts`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **DOH Concepts** — `CHN, PHC/DOH/DOH Concepts`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Functions of DOH** — `CHN, PHC/DOH/Functions of DOH`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Functions of DOH** — `CHN, PHC/DOH/Functions of DOH`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Family ADPIE** — `CHN, PHC/Family ADPIE`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Family ADPIE** — `CHN, PHC/Family ADPIE`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Assessment** — `CHN, PHC/Family ADPIE/Assessment`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Assessment** — `CHN, PHC/Family ADPIE/Assessment`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Evaluation** — `CHN, PHC/Family ADPIE/Evaluation`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Evaluation** — `CHN, PHC/Family ADPIE/Evaluation`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Implementation** — `CHN, PHC/Family ADPIE/Implementation`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Implementation** — `CHN, PHC/Family ADPIE/Implementation`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Planning** — `CHN, PHC/Family ADPIE/Planning`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Planning** — `CHN, PHC/Family ADPIE/Planning`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Goal Setting** — `CHN, PHC/Family ADPIE/Planning/Goal Setting`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Goal Setting** — `CHN, PHC/Family ADPIE/Planning/Goal Setting`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Prioritization** — `CHN, PHC/Family ADPIE/Planning/Prioritization`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Prioritization** — `CHN, PHC/Family ADPIE/Planning/Prioritization`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Scoring** — `CHN, PHC/Family ADPIE/Planning/Scoring`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Scoring** — `CHN, PHC/Family ADPIE/Planning/Scoring`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Health Promotion** — `CHN, PHC/Health Promotion`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Health Promotion** — `CHN, PHC/Health Promotion`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Diet** — `CHN, PHC/Health Promotion/Diet`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Diet** — `CHN, PHC/Health Promotion/Diet`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Exercise** — `CHN, PHC/Health Promotion/Exercise`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Exercise** — `CHN, PHC/Health Promotion/Exercise`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Health Promotion** — `CHN, PHC/Health Promotion/Health Promotion`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Health Promotion** — `CHN, PHC/Health Promotion/Health Promotion`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Stop Smoking** — `CHN, PHC/Health Promotion/Stop Smoking`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Stop Smoking** — `CHN, PHC/Health Promotion/Stop Smoking`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Magna Carta of Public Health Workers** — `CHN, PHC/Magna Carta of Public Health Workers`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Magna Carta of Public Health Workers** — `CHN, PHC/Magna Carta of Public Health Workers`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **People Behind CHN** — `CHN, PHC/People Behind CHN`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **People Behind CHN** — `CHN, PHC/People Behind CHN`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
 - [ ] **Primary Health Care** — `CHN, PHC/Primary Health Care`  
   Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Basics of PHC** — `CHN, PHC/Primary Health Care/Basics of PHC`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Basics of PHC** — `CHN, PHC/Primary Health Care/Basics of PHC`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Characteristics of PHC** — `CHN, PHC/Primary Health Care/Characteristics of PHC`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Characteristics of PHC** — `CHN, PHC/Primary Health Care/Characteristics of PHC`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Elements of PHC** — `CHN, PHC/Primary Health Care/Elements of PHC`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Elements of PHC** — `CHN, PHC/Primary Health Care/Elements of PHC`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Pillars of PHC** — `CHN, PHC/Primary Health Care/Pillars of PHC`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Pillars of PHC** — `CHN, PHC/Primary Health Care/Pillars of PHC`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Sentrong Sigla Program** — `CHN, PHC/Sentrong Sigla Program`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Sentrong Sigla Program** — `CHN, PHC/Sentrong Sigla Program`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
 - [ ] **Elements of Primary Health Care** — `Elements of Primary Health Care`  
   Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Education** — `Elements of Primary Health Care/Education`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Education** — `Elements of Primary Health Care/Education`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Competency-Based Teaching** — `Elements of Primary Health Care/Education/Competency-Based Teaching`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Competency-Based Teaching** — `Elements of Primary Health Care/Education/Competency-Based Teaching`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Identify the Prevention** — `Elements of Primary Health Care/Education/Identify the Prevention`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Identify the Prevention** — `Elements of Primary Health Care/Education/Identify the Prevention`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
 - [ ] **Three Levels of Prevention** — `Elements of Primary Health Care/Education/Three Levels of Prevention`  
   Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
@@ -304,3 +304,12 @@ Every directory below was present in the repository's recursive tree at the init
 - These are **initial research notes**, not all fully verified research chapters. Therefore the number of topics verified complete remains **0** until each note receives topic-specific source verification and a final review.
 - Files are being written in their corresponding folders. GitHub Contents API intermittently returned 409 conflicts while other commits advanced the branch; failed writes are retried after refreshing repository state.
 - Next action: continue creating notes for every remaining folder, then deepen verification by topic, reopen uploaded files, reconcile each checklist entry, and perform a final recursive audit. Do not report 100% completion prematurely.
+
+
+## Progress Update — 2026-10-17 (continued)
+
+- Recursive topic directories: **77**.
+- Topic folders containing `RESEARCH NOTES.md`: **31/77 (40.3%)**.
+- Checklist entries for these files are marked **In Progress**, not Verified Complete. Initial notes include common nursing application and source starting points, but each topic still needs deeper topic-specific source verification, corrections/additions, and upload review.
+- Remaining folders without research notes: **46**.
+- Next action: continue creating topic notes in every remaining folder, then verify each topic against current official sources and update the status only after review.
