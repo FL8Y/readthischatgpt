@@ -136,7 +136,7 @@ Key observations:
 
 ## 7. Current blueprint condition
 
-The previous blueprint revision contained 12 Markdown documents. After consolidation, the current blueprint contains 11 Markdown files; see CLEANUP_LOG.md for the source-to-destination map and deletion receipts. The source relationship is user-confirmed: App 1 and App 3 are related; App 2 is distinct. The prior QA review identified and corrected stale relationship wording and added an answer-key boundary, strict diagnostic gate, and concurrency requirements.
+At the post-consolidation snapshot, the blueprint contained 11 Markdown files. The current branch has 12 Markdown files after adding REQUIREMENT_TEST_TRACEABILITY.md; the two temporary standalone score artifacts were later removed and the score rubric is now consolidated in QA_COUNCIL_REVIEW.md. See CLEANUP_LOG.md for the source-to-destination map and deletion receipts. The source relationship is user-confirmed: App 1 and App 3 are related; App 2 is distinct. The prior QA review identified and corrected stale relationship wording and added an answer-key boundary, strict diagnostic gate, and concurrency requirements.
 
 ## 8. Evidence coverage and remaining work
 
