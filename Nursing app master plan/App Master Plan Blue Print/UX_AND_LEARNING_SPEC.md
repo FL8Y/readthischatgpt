@@ -28,7 +28,7 @@ Avoid making the user navigate through many nested screens to answer one questio
 
 ### A. First launch and API configuration
 1. Explain why an AI provider is needed and which features require it.
-2. Allow configuration now or a clear limited/offline mode if product policy supports it.
+2. Allow configuration now or a clear limited/offline mode. Limited/offline mode may support import, saved lessons, and due-card review, but it must not bypass the diagnostic gate for teaching a new selected scope.
 3. Never display a saved secret in plaintext after saving.
 4. Test/validate the connection with a minimal request and a safe error.
 5. Explain invalid key, unsupported model, quota/rate limit, no network, and provider outage separately.
@@ -46,11 +46,11 @@ Avoid making the user navigate through many nested screens to answer one questio
 
 ### C. Start a new subject/module
 1. Show what sources and topics are included.
-2. Offer a diagnostic before generated teaching begins.
+2. Require completion of a 1–50 question diagnostic before teaching any new topic in this selected scope; no silent skip or bypass in the normal learning flow.
 3. Let the learner choose a count from 1–50 or use a documented default.
-4. Save progress if the session is interrupted.
+4. Save progress if the session is interrupted and resume the same diagnostic safely.
 5. Present topic-level results with evidence count and confidence.
-6. Explain the recommended learning order rather than showing only a score.
+6. Explain the recommended learning order rather than showing only a score. A separate review-only mode may revisit already-taught material but cannot be used to open new lessons without a diagnostic.
 
 ### D. Study a topic
 1. Display the learning objective and estimated time.
@@ -103,7 +103,7 @@ Accessibility requirements:
 ## 5. Learning effectiveness model
 
 ### Diagnostic assessment
-A diagnostic is an estimate of prior knowledge, not a verdict. It should sample the selected scope according to a blueprint, avoid repeated near-identical questions, and provide topic-level evidence. Guessing and small sample size reduce confidence.
+A diagnostic is a mandatory gate before first teaching in the selected scope, not an optional recommendation. It is an estimate of prior knowledge, not a verdict. It must contain 1–50 questions, sample the scope according to a blueprint, avoid repeated near-identical questions, preserve interruption/resume state, and provide topic-level evidence. Guessing and small sample size reduce confidence. A missing API key may block AI generation, but it does not silently waive the gate.
 
 ### Lessons
 Teach gaps in an order that respects prerequisites and learning objectives. Explain why each topic is selected. A lesson should include a concise core explanation, deeper detail, examples, key distinctions, and source references as appropriate. Mnemonics are aids, not substitutes for correct understanding.
@@ -141,6 +141,7 @@ Streaks should account for time zones and provide a clear policy for travel/time
 
 ## 8. UX acceptance tests
 
+- A learner cannot open new topic lessons in a scope until its 1–50 question diagnostic is completed.
 - A learner can resume an interrupted diagnostic, lesson, assessment, and review session.
 - Every recommended topic explains why it was selected.
 - Quiz feedback is understandable without relying on color.
