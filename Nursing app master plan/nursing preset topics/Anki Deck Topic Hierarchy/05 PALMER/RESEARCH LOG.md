@@ -326,6 +326,13 @@ PALMER's intended meaning has not been expanded by guesswork. The actual reposit
 - Updated `OBSIDIAN MIND MAP.md` to record 37 distinct topic files expanded/reopened by this workstream, 39 remaining unworked by this workstream, and the need to reconcile other parallel-worker log entries before stating a repository-wide total.
 - The map now explicitly distinguishes structural folder/file coverage from verified research completion.
 
+## Cross-worker count reconciliation — 2026-10-17
+
+- Parsed all current log entries containing “Expanded and reopened” and deduplicated the individual `RESEARCH.md` paths. The log records **41 unique topic files** expanded/reopened across the active work and parallel-worker entries.
+- Therefore **35 of 76** nested topic folders do not yet have an expanded/reopened entry in the current log and remain to be audited/expanded. This is a log-derived progress count, not a claim that the 41 files have passed the full source/claim verification standard.
+- All 41 logged files remain **NEEDS REVIEW** until each material claim and citation is checked. Folder/file existence alone is not completion.
+- Updated `OBSIDIAN MIND MAP.md` to match this deduplicated count and preserve the distinction between structural coverage and research completion.
+
 ## New research-standard adoption — 2026-10-17
 - Re-read the complete current [RESEARCH TOPIC GUIDE.md](./RESEARCH%20TOPIC%20GUIDE.md) after the repository update. This full version supersedes the earlier shorter standard for all further PALMER work.
 - Mandatory quality gates now explicitly include assessment/red flags; diagnostics and clinically interpreted laboratory findings where relevant; treatment/procedure indications, contraindications, preparation, aftercare and complications; independent/dependent/collaborative nursing actions; medication contraindications, interactions, serious adverse effects and special populations where relevant; ABC/Maslow/acute-versus-chronic prioritization with rationale; Philippine law and DOH/PRC/BON context; source-level verification; and a fresh recursive final audit.
