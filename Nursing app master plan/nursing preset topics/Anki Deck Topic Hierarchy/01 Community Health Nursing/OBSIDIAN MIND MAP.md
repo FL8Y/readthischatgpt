@@ -26,7 +26,7 @@
         - [[Prioritization]] — **Drafted — Needs Verification**
         - [[Scoring]] — **Drafted — Needs Verification**
     - [[Health Promotion]]
-      - [[Diet]]
+      - [[Diet]] — **Drafted — Needs Verification**
       - [[Exercise]]
       - [[Health Promotion]]
       - [[Stop Smoking]] — **Drafted — Needs Verification**
