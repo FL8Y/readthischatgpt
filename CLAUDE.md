@@ -26,6 +26,8 @@ UI must feel clean like Gizmo.
 
 **Standing directives from the owner:** Sonnet does the work (builder agents, model=sonnet), Opus manages and reviews (model=opus); act without asking permission on routine work and keep memory updated every session; when the owner says "don't start yet", wait. Mark claims OBSERVED / INFERRED / PROPOSED / UNKNOWN, never claim tests ran without exact commands and results. Develop on branch `ccr-13ebab09-xygfde`, draft PR #7.
 
+**Teams (ruflo-ai-team, created 2026-10-16, no runs/tasks yet; each owns separate files):** 1 Import & Sources `team_cac20911-faf8-4979-833e-c5d1618fe659`; 2 Learning Engine `team_ac238099-b890-4088-9553-972aefd47d2a`; 3 Lessons & Visuals `team_1b535e2d-ad2a-426e-a2ef-89ac41468b39`; 4 Review & Tutor `team_9de81a65-68dd-49d6-869d-8e031af9df1e`; 5 Polish & QA `team_fc20c368-c2cc-434a-ab48-06992fd78437`. Read each team's objective with `team_get` for its file ownership.
+
 **Status (2026-10-16):** v0 pushed. Done: vault graph, readability/chunk provenance + AI double-check, mastery/plan/points/streak, diagnostic gate, OpenAI/Anthropic adapter. Not done: PDF/photo OCR import, lesson screen, pop quizzes, module quiz + weakness loop, flashcards/SRS, tutor chat, images, drawn graph. Never run on a device or with a live AI call.
 
 ## Rules
