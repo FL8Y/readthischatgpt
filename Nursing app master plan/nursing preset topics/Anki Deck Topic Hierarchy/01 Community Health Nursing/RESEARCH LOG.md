@@ -1299,3 +1299,15 @@ Every directory below was present in the repository's recursive tree at the init
 - This audit validates folder/checklist/file presence and status consistency at a high level; it does **not** mean all facts, links, clinical schedules, legal amendments or source documents have been independently verified.
 - **Current state:** 77/77 folders contain substantive research notes; 0/77 are Verified Complete; 77/77 require final source/content review.
 - **Next action:** perform source/link verification and content review topic by topic, beginning with the three COPAR notes marked Needs Review, then the remaining Drafted — Needs Verification files. Reopen each changed file and update its checklist only when the verification criteria are met.
+
+
+## Source Verification Cycle — 2026-10-17 (COPAR)
+
+- Rechecked source discovery for the three COPAR files and reopened all three saved notes after updating their verification sections.
+- Confirmed the official WHO publication page for *WHO framework for meaningful engagement of people living with noncommunicable diseases, and mental health and neurological conditions* (10 May 2023). Its scope is condition-specific; it supports respectful/equitable engagement principles, not COPAR's phase taxonomy.
+- Confirmed the Nurseslabs COPAR article is discoverable and contains a commonly taught four-phase outline. It was updated in 2013 and remains a secondary educational source, not current national policy.
+- The University of the Cordilleras site search listing confirms a COPAR faculty-development seminar entry dated 19 February 2023, but the exact permalink cited in the notes was not independently reopened during this pass. A similar March 2023 URL surfaced unrelated mental-health content; this is recorded as a link-resolution gap, not treated as COPAR evidence.
+- The National University Philippines NCM 113 syllabus PDF was surfaced in search results but its full text remains uninspected because the prior PDF fetch timed out.
+- Reopened and confirmed updated lengths: COPAR overview 17,161 characters; Basic Principles of COPAR 18,336 characters; Phases of COPAR 22,458 characters. All three remain **Drafted — Needs Review**.
+- No COPAR topic is marked Verified Complete. The source gaps are specific and actionable: verify/replace the UC direct link, inspect/replace the NUP syllabus source, and reconcile each factual claim with appropriate references.
+- Next action: continue verification across the remaining 74 drafts; do not downgrade the status or declare completion based on the presence of sources alone.
