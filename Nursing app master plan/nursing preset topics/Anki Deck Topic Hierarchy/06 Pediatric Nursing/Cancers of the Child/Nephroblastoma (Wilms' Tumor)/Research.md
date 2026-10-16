@@ -1,55 +1,45 @@
-# Nephroblastoma (Wilms' Tumor) — Pediatric Nursing Research Notes
+# Wilms Tumor (Nephroblastoma) — Pediatric Nursing Research
 
-**Purpose:** PNLE-focused study material for pediatric nursing. This is an educational summary, not an individualized order or a substitute for current local protocols. Last repository research pass: 2026-10-17.
+**Educational scope:** pediatric renal malignancy; diagnosis, staging, and treatment must follow pediatric oncology protocols.
 
-## 1. Core concept
-Wilms tumor is a childhood renal malignancy often presenting as a painless abdominal mass. Do not palpate or repeatedly manipulate a suspected mass; notify the team and follow institutional precautions to reduce rupture/spillage risk.
+## Definition and risk context
+Wilms tumor is the most common kidney cancer in young children. It may be unilateral or bilateral. A minority of children have predisposition syndromes or associated congenital findings, so history and examination may prompt genetics/specialist assessment. Distinguish Wilms tumor from other pediatric renal tumors, especially in older adolescents. [1]
 
-## 2. Pediatric assessment
-- Establish age, weight in kg, allergies, baseline function/development, relevant history, current medicines, immunization status where relevant, and caregiver observations.
-- Assess airway, breathing, circulation, mental status, pain, hydration/perfusion, nutrition/growth, elimination, skin, and age-appropriate vital signs according to local reference ranges.
-- Compare findings with the child's baseline and expected developmental stage; infants and children may deteriorate before they can describe symptoms clearly.
-- Document objective findings, onset/progression, intake/output, and response to interventions.
+## Manifestations and assessment
+Many children present with a painless abdominal/flank mass noticed by a caregiver. Other findings may include abdominal pain, hematuria, hypertension, fever, anorexia, weight loss, or respiratory symptoms if metastatic disease is present. Assess vital signs including blood pressure, abdominal distention/pain, urine findings, growth/weight, pallor, respiratory symptoms, and caregiver observations. [1,2]
 
-## 3. Diagnostics and management
-- Select tests based on clinical presentation and current pediatric guidance; explain the purpose and prepare the child/family in developmentally appropriate language.
-- Verify specimens, age/weight-specific reference intervals, and timing before interpreting laboratory results. No single finding should be interpreted in isolation.
-- Management depends on severity, age, comorbidities, and specialist assessment. Confirm treatment plans and escalation thresholds with current institutional protocols.
-- Reassess after every intervention and document whether the expected response occurred.
+## Critical nursing safety
+**Do not palpate or repeatedly manipulate a suspected Wilms tumor abdominal mass.** Once suspected or diagnosed, follow the oncology/surgical team's handling precautions because tumor rupture/spillage can affect staging and management. Avoid unnecessary abdominal pressure during routine care and clearly communicate the precaution during handoffs.
 
-## 4. Nursing priorities and rationale
-1. **ABCs and immediate threats first.** Activate emergency response for respiratory compromise, shock/poor perfusion, altered consciousness, rapidly progressive neurologic signs, or other severe deterioration.
-2. **Safety.** Apply age- and condition-appropriate precautions; prevent falls, aspiration, medication errors, infection, and injury.
-3. **Focused monitoring.** Trend vital signs, mental status, pain, weight, intake/output, and relevant labs/clinical signs rather than relying on a single observation.
-4. **Family-centered care.** Include caregivers as partners, acknowledge concerns, use plain language, and confirm understanding with teach-back.
-5. **Evaluation.** State the desired outcome, reassess, and escalate if the child worsens or the response is inadequate.
+## Diagnostic evaluation
+Work-up may include history and physical examination, CBC, renal/liver function tests, urinalysis, abdominal ultrasound followed by CT or MRI as indicated, and staging assessment for spread. Imaging and tissue/surgical decisions are specialist-directed. Treatment approaches vary by protocol and risk/stage; some cooperative-group strategies differ in timing of surgery and preoperative chemotherapy, so do not assume a single universal sequence. [1]
 
-## 5. Medication and procedure safety
-- Calculate from a current order using a measured weight in kilograms; verify dose units, concentration, route, frequency, maximum dose, allergies, renal/hepatic considerations, interactions, and indication independently according to local medication-safety policy.
-- Never infer or invent a dose from a textbook mnemonic or this page. Verify drug-specific contraindications, serious adverse effects, antidotes, monitoring, and withholding criteria in an authoritative current monograph and the actual institutional protocol.
-- Distinguish an absolute contraindication from a precaution; do not independently stop, start, or change prescribed therapy.
-- Identify any intervention that could worsen the condition and confirm the specific avoidance rule with current guidance.
+## Treatment principles
+Treatment may involve nephrectomy or nephron-sparing approaches in selected cases, chemotherapy, and sometimes radiation depending on histology, stage, response, and protocol. Bilateral disease requires special renal-function preservation planning. Care is multidisciplinary and should occur in an experienced pediatric oncology center. [1]
 
-## 6. Complications and red flags
-Escalate urgently for deterioration in breathing, circulation/perfusion, consciousness, new focal neurologic deficit, seizure emergency, uncontrolled bleeding, severe dehydration, rapidly worsening pain/distention, signs of sepsis, or any topic-specific red flag described above. Follow the local emergency pathway and do not delay stabilization to finish routine assessment.
+## Nursing priorities
+- Protect the abdomen from unnecessary pressure and communicate the no-palpation precaution.
+- Monitor BP, pain, abdominal girth/appearance as ordered, urine output, renal function, hematuria, weight, and respiratory symptoms.
+- Prepare the child/family for imaging, surgery, chemotherapy, and possible radiation using age-appropriate explanations.
+- Follow post-nephrectomy orders: pain control, fluid balance, wound care, mobility, infection prevention, and monitoring of the remaining kidney.
+- Verify chemotherapy and supportive medicines against the active protocol; assess myelosuppression, infection, nausea, organ toxicity, and late effects as regimen-specific.
+- Support caregiver coping and long-term follow-up.
 
-## 7. Family education
-- Explain the condition and care plan using age-appropriate words.
-- Give clear instructions on medicines, follow-up, home monitoring, infection/injury prevention, and when/how to seek urgent help.
-- Avoid blame and punishment; support caregiver coping and the child's developmental, school, and psychosocial needs.
-- Use teach-back: ask the caregiver to explain the key action and red flags in their own words.
+## Red flags
+Rapid abdominal enlargement, sudden severe abdominal pain, pallor, weakness, hypotension, or acute deterioration may indicate bleeding/rupture and require emergency escalation. Hematuria, hypertension, respiratory symptoms, fever during chemotherapy, or reduced urine output also require prompt clinical review.
 
-## 8. PNLE reasoning
-- Prioritize immediate threats over routine tasks; ABCs and acute deterioration generally precede comfort/teaching.
-- Use Maslow's hierarchy as a supporting framework, not a rigid algorithm; safety and physiologic threats can supersede other needs.
-- Distinguish expected age-related findings from red flags, and acute deterioration from chronic baseline.
-- Common trap: treating a single classic sign as required for diagnosis, or assuming one medication/treatment is appropriate for every child.
+## Medication and family education
+No pediatric antineoplastic dose is provided here. Verify regimen, dose basis, route, laboratory criteria, interactions, contraindications, and organ-function adjustments with current protocol and authoritative monographs. Teach the family not to press or massage the mass, to attend staging/follow-up visits, and to report acute pain, pallor, blood in urine, breathing changes, fever per oncology plan, or reduced urine output promptly.
 
-## 9. Topic-specific verification status
-**Research status:** Topic-specific starting summary drafted; not yet independently verified claim-by-claim against multiple topic-specific sources. The agent log must not count this file as fully verified until that source audit is complete.
+## PNLE high-yield distinctions
+- Painless abdominal mass in a young child is a key clue; it is not diagnostic alone.
+- **Do not palpate the mass** when Wilms tumor is suspected.
+- Blood pressure and urinalysis matter because hypertension and hematuria may occur.
+- Treatment sequence differs across protocols; specialist plan controls.
+- After nephrectomy, monitor renal function and protect the remaining kidney.
 
-## References for verification
-1. https://www.cancer.gov/types/childhood-cancers
-2. https://www.cancer.gov/types/brain/hp/child-brain-treatment-pdq
+## References
+1. **PDQ Pediatric Treatment Editorial Board.** *Wilms Tumor and Other Childhood Kidney Tumors Treatment (PDQ®): Health Professional Version.* National Cancer Institute. Updated April 15, 2025 (version history). https://www.cancer.gov/types/kidney/hp/wilms-treatment-pdq
+2. **National Cancer Institute.** *Wilms Tumor (PDQ®): Patient Version.* https://www.cancer.gov/types/kidney/patient/wilms-treatment-pdq
 
-**Source note:** These links are starting points for authoritative reference checking, not evidence that every statement above has already been confirmed by those pages. Confirm current Philippine DOH/clinical institutional guidance where applicable and record exact source title/version in the research log.
+**Source check performed:** NCI PDQ clinician and patient summaries checked 2026-10-17. The clinician summary is regularly reviewed but states it is not a formal clinical guideline. Philippine-specific institutional protocols were not verified in this pass.
