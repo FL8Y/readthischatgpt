@@ -8,7 +8,7 @@
 
 ## Current Status
 
-- **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
+- **Phase:** Final source/content verification and independent review; folder/checklist/file-presence audit completed.
 - **Discovered topic folders:** 77
 - **Substantive topic drafts expanded:** 77/77 — every discovered topic folder has a substantive topic-specific research note and a checklist entry. This is content coverage, not verification completion.
 - **Topics verified complete:** 0/77
@@ -16,8 +16,8 @@
 - **Drafts awaiting source/content verification:** 77/77
 - **Research notes present:** 77/77; this confirms file presence only and is not a verification claim.
 - **Completion:** 0% Verified Complete. Substantive research coverage is 77/77; final source verification, independent review, link audit and final recursive reconciliation remain.
-- **Mind map:** Existing Obsidian map reflects the folder hierarchy; status annotations, links and coverage audit still required.
-- **Next action:** Continue with the next individual topic folder, research and expand it using the full standard, reopen the saved file, update its checklist entry and log, then verify each draft and run a recursive final audit.
+- **Mind map:** 144 Obsidian wiki-links are present; all 77 folder leaf names are represented. Final path-level link integrity and source-link verification remain.
+- **Next action:** Verify the three COPAR notes marked Drafted — Needs Review first, then verify claims and source links in the remaining 74 drafts. Reopen each file after any correction and update status only when verification criteria are met.
 
 > Status definitions: **Not Started** = not yet researched; **Researching** = active research; **Needs Verification** = draft exists but material claims or sources remain unchecked; **In Progress** = research written but not yet fully verified; **Verified Complete** = topic-specific file exists, relevant claims and sources checked, and uploaded file reopened successfully. Folder existence or a .gitkeep file is not research completion.
 
@@ -296,10 +296,10 @@ Every directory below was present in the repository's recursive tree at the init
 - **Substantive research coverage:** 77/77 topic folders have substantive notes.
 - **Folders still requiring substantive expansion:** 0/77; all 77 await final verification.
 - **Verified research files:** 0/77; no file has yet completed the full source/content verification process.
-- **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
+- **Missing-topic audit:** Recursive folder-to-checklist reconciliation completed: 77 folders, 77 unique checklist paths, no folder missing from the checklist. A broader PNLE topic-gap review remains.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
-- **Remaining work:** Continue folder by folder, deepen the remaining starter notes, verify each draft, reopen every saved file, update checklist states honestly, check the Obsidian mind map and complete the recursive final audit.
-- **Exact next action:** Expand the next individual unverified topic folder using the full research standard; do not mark completion based on file presence.
+- **Remaining work:** Source/link verification, independent content review, current Philippine clinical/legal update checks, broader missing-topic review and final recursive audit of the verified statuses.
+- **Exact next action:** Begin source-by-source verification of the three COPAR notes marked Needs Review, then proceed through the 74 Drafted — Needs Verification notes; do not mark a topic complete until claims, citations, links and current guidance have been checked.
 - **Log:** [RESEARCH LOG.md](./RESEARCH%20LOG.md)
 - **Mind map:** [OBSIDIAN MIND MAP.md](./OBSIDIAN%20MIND%20MAP.md)
 
