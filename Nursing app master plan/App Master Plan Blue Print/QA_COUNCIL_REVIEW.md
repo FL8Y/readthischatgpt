@@ -4,6 +4,10 @@
 **Scope:** Planning documents, repository audit, research report review, and upload verification.  
 **Not in scope:** Application runtime, app build, device tests, or feature verification.
 
+## Document evolution note
+
+This file preserves historical review findings. References below to the former files `REQUIREMENTS_TRACEABILITY.md`, `UX_AND_LEARNING_SPEC.md`, `ARCHITECTURE_OPTIONS.md` and `DATA_MODEL_AND_CONTRACTS.md` refer to the versions that existed when those findings were recorded. Their current consolidated destinations are `PRODUCT_REQUIREMENTS_AND_UX.md` and `TECHNICAL_ARCHITECTURE_AND_CONTRACTS.md`; the mapping and deletion receipts are in `CLEANUP_LOG.md`.
+
 ## Council verdict
 
 **Continue planning. Do not authorize app implementation yet.**
