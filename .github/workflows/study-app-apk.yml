@@ -1,9 +1,14 @@
 name: study-app-apk
 
-# Builds an installable Android APK of FLY8 Study. Run it by hand from the Actions tab
-# (or via the API); the APK is attached to the run as an artifact.
+# Builds an installable Android APK of FLY8 Study and attaches it to the run as an artifact.
+# - Runs when this file changes on the working branch (so editing it rebuilds the APK).
+# - Once this file is on the default branch, the Actions tab also shows a "Run workflow" button.
 on:
   workflow_dispatch:
+  push:
+    branches: [ccr-13ebab09-xygfde]
+    paths:
+      - .github/workflows/study-app-apk.yml
 
 jobs:
   apk:
