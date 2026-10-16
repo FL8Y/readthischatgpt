@@ -41,8 +41,8 @@ For each topic, mark status only after checking the actual file in GitHub:
 | 8 | `Common Complications/Hyperemesis Gravidarum` | Uploaded; reopened; clinical audit pending | RCOG Green-top Guideline No. 69; NHS; ACOG morning sickness FAQ | [Research.md](./Common%20Complications/Hyperemesis%20Gravidarum/Research.md) — Reopened (4,992 chars); source section present | Audit thiamine/antiemetic safety and links |
 | 9 | `Common Complications/Incompetent Cervix` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
 | 10 | `Common Complications/Placenta Previa` | Uploaded; reopened; clinical audit pending | ACOG bleeding during pregnancy; RCOG Green-top guidelines index; Merck Manual Professional Edition | [Research.md](./Common%20Complications/Placenta%20Previa/Research.md) — Reopened (5,047 chars); source section present | Audit no-digital-exam warning and local delivery protocol |
-| 11 | `Common Complications/Premature Rupture of Membranes` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
-| 12 | `Common Complications/Shoulder Dystocia` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
+| 11 | `Common Complications/Premature Rupture of Membranes` | Uploaded; verification pending | ACOG Practice Bulletin No. 217; RCOG Green-top Guideline No. 73; NICE NG25 | [Research.md](./Common%20Complications/Premature%20Rupture%20of%20Membranes/Research.md) — Research file created; final audit pending | Reopen and validate source links/medication safety |
+| 12 | `Common Complications/Shoulder Dystocia` | Uploaded; verification pending | RCOG Green-top Guideline No. 42; ACOG Practice Bulletin No. 178; Merck Manual Professional Edition | [Research.md](./Common%20Complications/Shoulder%20Dystocia/Research.md) — Research file created; final audit pending | Reopen and validate maneuver safety/source links |
 | 13 | `Common Complications/Toxemia` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
 | 14 | `Normal Labor and Delivery/Cardinal Signs of Labor` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
 | 15 | `Normal Labor and Delivery/Components of Labor` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
@@ -83,12 +83,12 @@ These are not counted as completed topics until the hierarchy is checked for dup
 
 ## Status dashboard
 - Leaf topic folders identified: **35**
-- Topics with substantive research files: **9**
-- Topics clinically verified: **0** (nine files reopened successfully; independent clinical/source and rendered-link audits remain pending)
-- Remaining leaf topics without substantive files: **26**; nine uploaded topics still require final verification
-- Research completion: **0% verified** (0/35 fully verified). Nine substantive topic files exist but are not counted as verified until their clinical/source/link audits are complete.
+- Topics with substantive research files: **11**
+- Topics clinically verified: **0** (nine files were reopened in the last audit; PROM and Shoulder Dystocia files are newly created and await reopening; clinical/source audits remain pending)
+- Remaining leaf topics without substantive files: **24**; eleven uploaded topics require final verification
+- Research completion: **0% verified** (0/35 fully verified). Eleven substantive topic files exist but are not counted as verified until their clinical/source/link audits are complete.
 - Added topics: **0**
 - Blockers: None encountered during initial tree inspection. Full research and per-file upload verification remain outstanding.
-- Last action: Added substantive research files for Abortion, Abruptio Placenta, Cord Prolapse, Ectopic Pregnancy, Gestational Diabetes, Hemolytic Disease of the Newborn, Hydatidiform Mole, Hyperemesis Gravidarum and Placenta Previa. Reopened all nine files through GitHub API and confirmed content plus source sections (the Abortion file uses a numbered “Source list” heading).
-- Exact next action: Perform deeper clinical/source-link review of all nine files, then research the next unchecked topic: `Common Complications/Premature Rupture of Membranes`.
+- Last action: Added substantive research files for Abortion, Abruptio Placenta, Cord Prolapse, Ectopic Pregnancy, Gestational Diabetes, Hemolytic Disease of the Newborn, Hydatidiform Mole, Hyperemesis Gravidarum, Placenta Previa, Premature Rupture of Membranes and Shoulder Dystocia. Reopened the first nine files through GitHub API; the latest two files await the same content/path check.
+- Exact next action: Reopen PROM and Shoulder Dystocia files, then research the next unchecked topic: `Common Complications/Incompetent Cervix`. Continue through every remaining topic; do not equate file creation with clinical verification.
 - Last reconciled: 2026-10-17 (partial audit; final recursive audit not yet performed).
