@@ -1,31 +1,65 @@
 # Torts Relevant to Nursing — PNLE Research
 
-## Definition and categories
-A tort is a civil wrong for which a legal remedy may be available. Torts are commonly classified as:
-- **Negligence:** failure to use reasonable care, with applicable duty, breach, causation, and harm.
-- **Intentional torts:** deliberate conduct such as assault, battery, false imprisonment, or intentional infliction of harm, as defined by the relevant jurisdiction.
-- **Privacy-related wrongs:** unauthorized disclosure or misuse of protected information may create legal/regulatory consequences; the applicable cause of action depends on law and facts.
+## Definition and scope
 
-Terminology and elements differ by jurisdiction. US tort summaries are useful for basic distinctions but do not establish Philippine law.
+A tort is a civil wrong for which a legal remedy may be available. Tort law is commonly used in nursing education to discuss harm caused by negligent or intentional conduct. The exact labels, elements, defenses, and remedies depend on the governing jurisdiction. In the Philippines, analyze the actual facts under applicable Civil Code provisions, statutes, and case law; do not assume that every common-law textbook category maps perfectly onto Philippine doctrine.
 
-## Nursing examples and prevention
-- **Assault/battery concepts:** threatening or performing an unauthorized touching/procedure can raise legal and ethical concerns; valid consent and lawful authority matter.
-- **False imprisonment:** unjustified restraint or restriction of movement can raise liability concerns. Restraints require a valid clinical indication, least-restrictive approach, monitoring, documentation, and compliance with current law/policy.
-- **Negligence:** missed monitoring or failure to escalate deterioration may be examined against the applicable standard.
-- **Privacy breach:** accessing or sharing records without legitimate authority violates confidentiality and may breach privacy law/policy.
+Torts are distinct from criminal offenses, professional discipline, and contractual claims, although one event may raise more than one kind of issue. A poor outcome alone does not establish a tort; the required legal elements and evidence must be assessed.
 
-Do not use restraints for punishment, convenience, or staffing shortages. Follow current institutional protocols and obtain appropriate authorization; in emergencies prioritize immediate safety and notify the responsible clinician.
+## Broad categories taught in nursing
 
-## Response to concerns
-Protect the patient, stop an ongoing unsafe/unauthorized action when safe, notify the responsible clinician/supervisor, document objective facts, preserve records, and use incident/reporting procedures. Never falsify documentation or retaliate against a patient who raises a concern.
+### 1. Negligence
+A failure to use the legally required care that causes legally recognized harm. A typical teaching framework asks about duty, breach, causation, and damages. Nursing examples include failure to follow required patient-identification checks, unsafe medication administration, failure to take reasonable fall precautions, or unreasonable delay in escalating deterioration. Whether conduct is legally negligent depends on the standard of care and the facts.
 
-## Philippine context
-Analyze possible civil liability under Philippine law and relevant jurisprudence; professional discipline and criminal issues are distinct from tort claims. Apply RA 9173, current PRC/BON standards, privacy law including RA 10173, and facility policy. Do not apply foreign tort elements mechanically.
+### 2. Intentional torts
+These involve deliberate acts and have jurisdiction-specific definitions:
+- **Assault:** commonly taught as an act that creates reasonable apprehension of imminent harmful or offensive contact; physical contact may not be required in some legal systems.
+- **Battery:** commonly taught as intentional harmful or offensive contact without valid consent or other lawful justification.
+- **False imprisonment / unlawful restraint:** unjustified confinement or restriction of movement. In clinical care, restraint requires lawful authority, clinical justification, required orders/monitoring, least-restrictive measures, documentation, and compliance with policy; do not use restraint for convenience or punishment.
+- **Intentional infliction of emotional harm:** a category in some legal systems with a demanding, jurisdiction-specific threshold. Do not assume ordinary distress automatically satisfies the legal test.
 
-## References
-- PRC, **Nursing** regulatory resources: https://www.prc.gov.ph/nursing
-- Supreme Court E-Library, Philippine legal materials: https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/57140
-- Republic Act No. 10173, **Data Privacy Act of 2012**: https://lawphil.net/statutes/repacts/ra2009/ra_10173_2009.html
-- ICN, **Code of Ethics for Nurses**: https://www.icn.ch/resources/publications-and-reports/icn-code-ethics-nurses
+These are study labels, not a determination that a particular Philippine event satisfies a legal cause of action.
 
-Educational summary; tort liability is fact-specific and requires current Philippine legal analysis.
+### 3. Privacy/confidentiality-related wrongs
+Unauthorized access, use, or disclosure of personal information may trigger professional, regulatory, privacy-law, employment, or civil consequences depending on the facts and governing law. Health information is sensitive personal information under the Philippine Data Privacy Act of 2012 (RA 10173). Verify lawful authority and disclose only what is necessary for an authorized purpose.
+
+### 4. Defamation-related claims
+False statements communicated to others may raise legal issues when they meet the elements of the applicable law. Nurses should communicate concerns through proper reporting channels, distinguish observed facts from opinions, avoid gossip, and never knowingly document false statements. Defamation rules and remedies are jurisdiction-specific.
+
+## Consent, emergency care, and restraint
+
+Valid consent is an important safeguard against unauthorized intervention, but its legal effect depends on the procedure, disclosure, capacity, voluntariness, and applicable law. A signature alone does not necessarily prove informed consent. In an emergency, do not assume either that consent can always be bypassed or that care must always be delayed; follow the applicable legal and institutional emergency process and escalate uncertainty immediately.
+
+Restraint or confinement can raise serious ethical and legal issues. Before any restrictive intervention, use the least restrictive safe option, follow applicable orders and policies, assess and monitor the person, document the rationale and reassessments, and discontinue as soon as criteria are met. Do not use restraint as punishment, convenience, or retaliation.
+
+## Risk reduction for nurses
+
+- Follow patient identification, medication safety, infection prevention, fall prevention, and procedure-verification requirements.
+- Respect refusal and informed choice; do not threaten or coerce a patient to obtain agreement.
+- Work within competence and authority; clarify unsafe or ambiguous orders.
+- Protect confidential information and use approved channels.
+- Use objective, timely documentation; never alter a record to conceal an error.
+- Communicate deterioration and safety concerns promptly.
+- Report adverse events and near misses through the approved system; preserve records and cooperate with appropriate review.
+- When a legal concern arises, notify the proper supervisor/risk-management/legal resource and avoid speculation about liability.
+
+## Philippine legal and professional context
+
+- Republic Act No. 9173, **Philippine Nursing Act of 2002**, describes nursing practice and professional duties and includes grounds relating to negligence, malpractice, and unethical conduct: https://lawphil.net/statutes/repacts/ra2002/ra_9173_2002.html
+- Republic Act No. 10173, **Data Privacy Act of 2012**, governs many forms of personal-data processing and identifies health information as sensitive personal information: https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html
+- PRC, **Nursing** resources: https://www.prc.gov.ph/nursing
+- Philippine Supreme Court, **G.R. No. 124354 (December 1999)**, a case discussing res ipsa loquitur in medical negligence: https://lawphil.net/judjuris/juri1999/dec1999/gr_124354_1999.html
+
+These sources support the general professional/privacy context and one Philippine negligence doctrine example. They do not resolve every tort category or establish liability in a specific case. Confirm the controlling legal rules and current jurisprudence for the actual issue.
+
+## PNLE high-yield distinctions
+
+- Negligence is based on a failure to meet the applicable care standard; intentional torts concern deliberate conduct under jurisdiction-specific definitions.
+- Assault and battery are commonly distinguished by apprehension of contact versus actual contact, but the exact legal tests vary by jurisdiction.
+- False imprisonment is not synonymous with every clinically justified restriction; lawful authority, necessity, monitoring, and applicable safeguards matter.
+- Confidentiality breach may create professional/privacy consequences even when no physical injury occurs.
+- After an incident, protect the patient first, escalate, document objectively, and report as required. Do not conceal, alter records, or decide legal liability yourself.
+
+## Scope note
+
+This is an educational overview, not legal advice. Philippine tort and civil-liability rules are fact-specific; use current statutes, case law, institutional policy, and qualified legal guidance for actual cases.
