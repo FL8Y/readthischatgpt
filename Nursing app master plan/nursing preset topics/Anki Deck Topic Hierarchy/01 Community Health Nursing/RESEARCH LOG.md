@@ -10,9 +10,9 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 30 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, and BCG.
+- **Substantive topic drafts expanded:** 31 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, BCG, and Maternal and Child Health.
 - **Topics verified complete:** 0
-- **Folders still requiring substantive topic-specific expansion:** 47 (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes).
+- **Folders still requiring substantive topic-specific expansion:** 46 (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes).
 - **Drafts awaiting source/content verification:** 28
 - **Research notes present:** 77/77; this is file presence, not research completion.
 - **Completion:** 0% verified topic research. No topic is marked Verified Complete.
@@ -208,8 +208,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
 - [x] **Maternal and Child Health** — `Elements of Primary Health Care/Maternal and Child Health`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: MCH continuum; Philippine legal/program context; community assessment; nursing workflow and prioritization; maternal/newborn danger signs and referral; newborn screening follow-up; respectful/rights-based care; monitoring/evaluation; mapping of child topics; PNLE distinctions; sources.  
+  Sources consulted: WHO postnatal-care recommendations (2022); WHO essential newborn care page; RA 11148 Kalusugan at Nutrisyon ng Mag-Nanay Act; DOH-hosted IRR for RA 9288/Newborn Screening Act; RA 10354; RA 10028; RA 11223. Important facts covered: first-1,000-days integrated approach under RA 11148; continuum from reproductive health through childhood; newborn screening is not diagnosis and needs follow-up; emergency prioritization and child-topic mapping. Research file: `Elements of Primary Health Care/Maternal and Child Health/RESEARCH NOTES.md` (20,449 characters; reopened after save). Unresolved issues: full law/IRR and current protocol verification remain; exact schedules, thresholds, medication guidance and local referral rules belong in current topic-specific child research. Last action: replaced generic 2,275-character starter with substantive parent overview and reopened saved file (2026-10-17). Next action: research each child folder individually; this parent note does not count as child-topic completion.
 - [x] **Active Management of Third Stage of Labor** — `Elements of Primary Health Care/Maternal and Child Health/Active Management of Third Stage of Labor`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 30/77; all 30 remain Drafted — Needs Verification.
-- **Folders still requiring substantive expansion:** 47/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** 31/77; all 31 remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** 46/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -663,3 +663,15 @@ Every directory below was present in the repository's recursive tree at the init
 - Reopened the saved file and confirmed 13,510 characters, contraindication/high-risk coverage and the no-scar/revaccination distinction.
 - Status: **Drafted — Needs Verification**, not Verified Complete. The full current NIP manual, product label and Philippine HIV-exposed/infected infant protocol require review before clinical decisions; dose/route/age must be checked at point of care.
 - Next action: continue with the next individual vaccine topic and keep the checklist/mind map synchronized.
+
+
+## Research Cycle Log — 2026-10-17 (Maternal and Child Health parent topic)
+
+- Re-read the full 15,746-character `RESEARCH TOPIC GUIDE.md` before beginning this cycle.
+- Inspected the parent MCH folder and all immediate child folders. The parent contained a 2,275-character generic starter note; eight separate child topic folders remain separate assignments.
+- Expanded `Elements of Primary Health Care/Maternal and Child Health/RESEARCH NOTES.md` to 20,449 characters with a continuum-of-care overview, Philippine legal context (RA 11148, RA 10354, RA 9288/IRR, RA 10028 and RA 11223), community assessment, nursing workflow, danger-sign escalation, newborn-screening follow-up, rights/ethics, monitoring indicators and an explicit child-topic map.
+- Sources consulted: WHO postnatal-care guideline (2022); WHO essential newborn care page; RA 11148 text via Lawphil; official DOH-hosted RA 9288 implementing rules; RA 10354; RA 10028; RA 11223.
+- Reopened the saved file from GitHub and confirmed 20,449 characters plus RA 11148 and the child-topic mapping.
+- Limitations: full text of every law/IRR and current clinical protocols have not been reviewed page by page; current schedules, thresholds, drug details and local referral rules must be verified in child-topic files. This is a parent overview, **Drafted — Needs Verification**, not completion of any child.
+- Coverage reconciliation: 31/77 folders have substantive drafts, 46/77 still need substantive expansion, and 0/77 are verified complete.
+- Next action: research the next unchecked child topic individually, starting with the smallest remaining child starter, and update its file, checklist, mind map and verification record.
