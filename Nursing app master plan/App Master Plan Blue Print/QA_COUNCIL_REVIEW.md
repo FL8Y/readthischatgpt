@@ -262,3 +262,45 @@ These are scores for planning readiness, not for a working application.
 1. Verify the conflicting Gizmo minimum-SDK claims against the raw decoded manifest and build configuration, recording the exact source that wins.
 2. Run the existing App 2 offline tests and reference typecheck in a checkout-capable environment; record exact commands, environment, commit and output.
 3. Reconcile the App 1 archive manifest with Git paths, sizes and hashes before making any completeness claim. Continue to hold the application build gate.
+
+## Corrective Cycle 5 — requirement-level product council (2026-10-17)
+
+### Council findings and changes applied
+
+| Lens | Finding | Fix applied |
+|---|---|---|
+| Developer / requirements traceability | The first cleaned requirements matrix represented topic linking and rewards, but did not explicitly preserve every detail from the user's prompt. | Updated R-003 to require cross-folder relation color coding with text/icon redundancy; R-006 to require a diagnostic-derived plan with explicit ordered topics, teaching depth and rationale; R-017 to explicitly include points for correct answers, quiz scores, completion and streak milestones; R-021 to state the configured personal provider/key covers all AI-powered learning features. |
+| UI/UX and accessibility | A graph-only interpretation could omit the requested Obsidian-style linked-outline experience; color coding can be inaccessible if it stands alone. | Updated R-010 and the technical graph section to require an Obsidian-style linked Markdown/text outline alongside the graph, plus a consistent legend and labels/icons. Added the accessibility invariant that relationship meaning must never depend on color alone. |
+| Nursing learner | A progress screen could show mastery but omit the motivating details and the next step that help a learner resume a busy study session. | Updated R-019 to require visible points, level/rank, streak, due reviews, next recommended action, per-topic mastery, confidence and recency. |
+| Learning scientist | Reward points could be ambiguous, and raw repeated performance could be mistaken for learning. | Extended reward contracts to spell out correct-answer, topic/module quiz-score, completion and streak-milestone events; kept mastery evidence separate from motivational points and required idempotent events. |
+| QA / security | A single provider preference could be interpreted as serving only quizzes, leaving lesson/map/tutor calls outside the intended credential and failure policy. | R-021 now states that the configured provider/key is used for diagnostics/adaptive plans, lessons, topic/module quizzes, flashcards, mind maps and tutor discussion. The technical spec already requires one task-specific adapter/schema per feature and explicit missing/invalid-key handling. |
+
+### Cycle 5 cross-document verification
+
+- Fetched the canonical product specification and technical contract after edits; both contain the newly explicit requirements.
+- Confirmed the canonical Claude prompt does not refer to the four deleted documents as active inputs/outputs. It directs agents to the consolidated product and technical specs.
+- The most recent independent recursive tree and link scan is recorded in Cycle 4 and REPO_AUDIT.md: 739 entries / 598 blobs / 141 trees, `truncated=false`; 11 blueprint Markdown files; 18 relative links across the two README indexes, zero broken.
+- Subsequent edits changed existing Markdown content only. The tree's path count and links therefore remain unchanged; no new app or test files were created.
+- No app code or runnable mock-up was created. The implementation gate remains closed.
+- No executable/device/provider tests were run: the available container could not resolve github.com, so this pass could only use GitHub API readbacks. The SDK/report page-count discrepancy, incomplete App 1 archive verification and lack of user/device usability tests remain open.
+
+### Cycle 5 scorecard (planning readiness)
+
+| Category | Score / 10 | Reason |
+|---|---:|---|
+| Repository inventory and hygiene | 9 | Consolidation/deletion record, current inventory and 18-link check are recorded; some unrelated/binary files were inventoried rather than semantically read. |
+| Requirements coverage | 9 | All specified user-visible flows are now explicit in the canonical matrix, including color-coded links, linked outline, all-AI credential scope, streak/quiz-score rewards and complete dashboard details. No executable acceptance run proves an implementation. |
+| Architecture clarity | 9 | Practical proposed baseline, alternatives, event model and scheduler boundary exist. The proposal remains unapproved and has open platform/sync/provider/scheduler choices. |
+| Data/service contracts | 9 | Canonical content, provenance, strict diagnostic gate, answer-key boundary and idempotency/concurrency rules are documented but not runtime-tested. |
+| Security/privacy/clinical reliability | 8 | Known client-key limits, import-injection, backups/logging and nursing provenance are covered; no runtime threat test or human clinical review occurred. |
+| UX/accessibility/learning effectiveness | 8 | Graph/outline access, non-color cues, resumability and learning evidence are explicit; real student usability and assistive-tech tests remain unperformed. |
+| Claude agent readiness | 9 | Bounded work packages, non-overlapping ownership, prompt template and honesty/score rules are present; actual external Claude-agent execution is not verified here. |
+| QA and empirical validation | 7 | Tree/link and file readbacks passed; executable reference tests, full archive hash reconciliation and primary SDK verification are still blocked. |
+
+**Cycle 5 verdict:** Requirement fidelity improved, but a complete product cannot receive a 15/10 or a truthful 10/10 readiness score while execution tests and primary-source checks remain incomplete. Current planning-readiness judgment remains **8.5/10**. The right next action is source/test validation in an environment with repository checkout, not app implementation.
+
+### Remaining improvements
+
+1. Resolve the Gizmo minimum-SDK and DOCX page-count discrepancies from the original primary artifacts.
+2. In a checkout-capable environment, run the existing APKG builder tests, FSRS reference tests and Gizmo TypeScript typecheck; record exact commands/output.
+3. Reconcile the original App 1 archive manifest against all uploaded files by path/size/hash. Preserve the build gate until separately authorized.
