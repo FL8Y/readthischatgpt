@@ -1,18 +1,54 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Pressable, Share, Text, View } from 'react-native';
 import type { AppState } from '../core/types';
-import { canTeach } from '../core/diagnostic';
 import { estimateMastery } from '../core/mastery';
 import { exportVault, vaultAsText } from '../lesson/vaultExport';
+import { isStudied, studiedLabel, studiedProgress, toggleStudied } from '../presets/studied';
+import { loadStudied, saveStudied } from '../presets/studiedStore';
 import { Lesson } from './Lesson';
-import { Btn, Card, EmptyState, H, P, Pill, ProgressBar, TOUCH, c, sp } from './kit';
+import { NoteReader } from './NoteReader';
+import { Btn, Card, EmptyState, Field, H, P, ProgressBar, TOUCH, c, sp } from './kit';
 
-/** Learn tab: topics per folder with mastery. A folder's lessons stay locked until its diagnostic is done. */
+/** Learn tab: every topic (preset and your own) grouped by folder. Notes open in a plain reader; AI lessons stay optional. */
 export function Topics({ state }: { state: AppState }) {
   const [open, setOpen] = useState<string | null>(null);
+  const [lessonOpen, setLessonOpen] = useState(false);
   const [note, setNote] = useState('');
+  const [query, setQuery] = useState('');
+  const [studied, setStudied] = useState<string[]>([]);
 
-  if (open) return <Lesson state={state} topicId={open} onOpen={setOpen} onBack={() => setOpen(null)} />;
+  useEffect(() => {
+    let live = true;
+    void loadStudied().then((s) => live && setStudied(s));
+    return () => {
+      live = false;
+    };
+  }, []);
+
+  const toggle = (id: string) => {
+    const next = toggleStudied(studied, id);
+    setStudied(next);
+    void saveStudied(next);
+  };
+  const openTopic = (id: string) => {
+    setLessonOpen(false);
+    setOpen(id);
+  };
+
+  if (open && lessonOpen) return <Lesson state={state} topicId={open} onOpen={setOpen} onBack={() => setLessonOpen(false)} />;
+  if (open) {
+    return (
+      <NoteReader
+        state={state}
+        topicId={open}
+        studied={isStudied(studied, open)}
+        onToggleStudied={() => toggle(open)}
+        onOpen={openTopic}
+        onBack={() => setOpen(null)}
+        onLesson={() => setLessonOpen(true)}
+      />
+    );
+  }
 
   const share = async () => {
     setNote('');
@@ -26,45 +62,51 @@ export function Topics({ state }: { state: AppState }) {
   };
 
   if (!state.topics.length) {
-    return <EmptyState title="No topics yet" detail="Add notes in the Library tab and your topics appear here." />;
+    return <EmptyState title="No topics yet" detail="Add the ready-made NP1/NP5 notes or your own notes in the Library tab and they appear here." />;
   }
 
   const now = Date.now();
+  const q = query.trim().toLowerCase();
+  const matches = (t: { title: string; body: string }) => !q || t.title.toLowerCase().includes(q) || t.body.toLowerCase().includes(q);
+  let shown = 0;
   return (
     <View style={{ gap: sp.md }}>
+      <Field label="Search notes" value={query} onChangeText={setQuery} placeholder="Title or text" autoCorrect={false} />
       {state.folders.map((f) => {
-        const topics = state.topics.filter((t) => t.folderId === f.id);
+        const all = state.topics.filter((t) => t.folderId === f.id);
+        if (!all.length) return null;
+        const topics = all.filter(matches);
         if (!topics.length) return null;
-        const unlocked = canTeach(state, f.id);
+        shown += topics.length;
+        const prog = studiedProgress(studied, all.map((t) => t.id));
         return (
           <Card key={f.id}>
             <H>{f.name}</H>
-            {!unlocked ? <Pill text="🔒 Locked: finish the diagnostic in the Study tab" color={c.warn} /> : null}
+            <P dim>{studiedLabel(prog)}</P>
             {topics.map((t) => {
               const m = estimateMastery(t.id, state.events, now);
-              const pct = Math.round(m.mastery * 100);
-              const status = m.attempts ? `${pct}% mastery` : 'not tested';
+              const status = m.attempts ? `${Math.round(m.mastery * 100)}% mastery` : 'not tested';
+              const done = isStudied(studied, t.id);
               return (
                 <Pressable
                   key={t.id}
                   accessibilityRole="button"
-                  accessibilityLabel={`${t.title}, ${status}${unlocked ? '' : ', locked'}`}
-                  accessibilityState={{ disabled: !unlocked }}
-                  disabled={!unlocked}
-                  onPress={() => setOpen(t.id)}
-                  style={{ minHeight: TOUCH, gap: 6, paddingVertical: sp.sm, opacity: unlocked ? 1 : 0.5 }}
+                  accessibilityLabel={`${t.title}, ${done ? 'studied, ' : ''}${status}`}
+                  onPress={() => openTopic(t.id)}
+                  style={{ minHeight: TOUCH, gap: 6, paddingVertical: sp.sm }}
                 >
                   <Text style={{ color: c.text, fontSize: 16 }}>
-                    {unlocked ? '▸' : '🔒'}  {t.title}
+                    {done ? '✓' : '▸'}  {t.title}
                   </Text>
-                  <ProgressBar value={m.attempts ? m.mastery : 0} label={`${t.title} mastery`} />
-                  <P dim>{status}</P>
+                  {m.attempts ? <ProgressBar value={m.mastery} label={`${t.title} mastery`} /> : null}
+                  <P dim>{done ? `studied, ${status}` : status}</P>
                 </Pressable>
               );
             })}
           </Card>
         );
       })}
+      {q && !shown ? <P dim>No notes match "{query.trim()}".</P> : null}
       {note ? <P>{note}</P> : null}
       <Btn label="Share vault" kind="ghost" hint="Shares your notes as Obsidian-style Markdown text. No API key is included." onPress={() => void share()} />
     </View>
