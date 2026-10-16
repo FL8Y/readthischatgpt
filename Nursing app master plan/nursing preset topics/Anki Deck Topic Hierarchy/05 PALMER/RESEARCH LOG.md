@@ -263,6 +263,11 @@ PALMER's intended meaning has not been expanded by guesswork. The actual reposit
 - All four remain **NEEDS REVIEW** pending full source/link validation.
 - Deep-audit count: **27 topic files expanded and reopened**; **49 of 76 nested topic folders remain** for deeper audit/expansion. The mind map requires refresh from 23 to 27.
 
+## Mind-map refresh — batch 9 — 2026-10-17
+
+- Updated `OBSIDIAN MIND MAP.md` to show 27/76 topic files expanded/reopened and 49 topics remaining for deeper audit/expansion.
+- Saved and reopened the map from GitHub; the hierarchy and navigation links were preserved.
+
 ## New research-standard adoption — 2026-10-17
 - Re-read the complete current [RESEARCH TOPIC GUIDE.md](./RESEARCH%20TOPIC%20GUIDE.md) after the repository update. This full version supersedes the earlier shorter standard for all further PALMER work.
 - Mandatory quality gates now explicitly include assessment/red flags; diagnostics and clinically interpreted laboratory findings where relevant; treatment/procedure indications, contraindications, preparation, aftercare and complications; independent/dependent/collaborative nursing actions; medication contraindications, interactions, serious adverse effects and special populations where relevant; ABC/Maslow/acute-versus-chronic prioritization with rationale; Philippine law and DOH/PRC/BON context; source-level verification; and a fresh recursive final audit.
