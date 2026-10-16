@@ -20,7 +20,7 @@ Before spawning agents, inspect the real Claude Code/Ruflo agent registry and to
 
 ## Agent 2 — Gizmo / App 3 Research Analyst
 
-**Ownership:** Gizmo evidence section in ARCHITECTURE_OPTIONS.md; report findings to lead before editing shared docs.  
+**Ownership:** Gizmo evidence section in TECHNICAL_ARCHITECTURE_AND_CONTRACTS.md; report findings to lead before editing shared docs.  
 **Scope:** Read App 3 README, report if available in repository/library, METHOD.md, quiz_engine_rules.md, data_model_events_flags.md, native_android_security.md, data extracts, and product/ai-next-quiz source/config. Review schema bounds, source grounding, validation, retries, concurrency, buffering, error handling, answer-key leakage risk and gaps relative to the required diagnostic/pop-quiz sizes. Do not call external Gizmo services or use credentials.  
 **Acceptance:** Separate direct observations from inference; identify reusable concepts versus proprietary implementation; propose improvements and tests.
 
@@ -29,7 +29,7 @@ Before spawning agents, inspect the real Claude Code/Ruflo agent registry and to
 
 ## Agent 3 — AnkiDroid / Spaced-Repetition Analyst
 
-**Ownership:** AnkiDroid evidence section in ARCHITECTURE_OPTIONS.md; report findings to lead.  
+**Ownership:** AnkiDroid evidence section in TECHNICAL_ARCHITECTURE_AND_CONTRACTS.md; report findings to lead.  
 **Scope:** Read App 2 README, METHOD.md, android_layer.md, core_engine_librsdroid.md, integration_surface.md, decoded manifest, AnkiDroid bridge, APKG builder/tests, scheduler implementation/tests. Evaluate owned scheduler versus optional AnkiDroid integration and export. Confirm which tests are documented versus rerun.  
 **Acceptance:** Explain FSRS-5 limitation, permission/integration risks, device-test gap, scheduler persistence and migration needs.
 
@@ -38,16 +38,16 @@ Before spawning agents, inspect the real Claude Code/Ruflo agent registry and to
 
 ## Agent 4 — Learning Science & Nursing Safety Reviewer
 
-**Ownership:** UX_AND_LEARNING_SPEC.md  
+**Ownership:** Research findings for PRODUCT_REQUIREMENTS_AND_UX.md; send evidence and recommendations to the integration owner  
 **Scope:** Convert product requirements into assessment, lesson, retrieval, feedback, mastery, and remedial-cycle rules. Define uncertainty and safeguards for clinical content; do not invent medical claims.  
 **Acceptance:** Distinguish diagnostic score from mastery, define data needed for reliable adaptation, avoid rewarding spam, propose testable learning outcomes and content provenance.
 
 **Copy-paste prompt**
-> You are an independent learning-science and nursing-content-safety reviewer. Do not write application code. Specify the learning loop from diagnostic through lesson, short quiz, spaced review, module assessment, and targeted remediation. Define how topic mastery and confidence differ, how sparse evidence and guessing are handled, what a clinically responsible rationale should include, how conflicts in user source material are surfaced, and which claims require review against authoritative sources. Produce UX_AND_LEARNING_SPEC.md in the blueprint folder only if you are the assigned sole writer; otherwise send findings to the lead. Include acceptance tests and concrete failure cases.
+> You are an independent learning-science and nursing-content-safety reviewer. Do not write application code. Specify the learning loop from diagnostic through lesson, short quiz, spaced review, module assessment, and targeted remediation. Define how topic mastery and confidence differ, how sparse evidence and guessing are handled, what a clinically responsible rationale should include, how conflicts in user source material are surfaced, and which claims require review against authoritative sources. Produce PRODUCT_REQUIREMENTS_AND_UX.md in the blueprint folder only if you are the assigned sole writer; otherwise send findings to the lead. Include acceptance tests and concrete failure cases.
 
 ## Agent 5 — Mobile UX & Accessibility Reviewer
 
-**Ownership:** UX_AND_LEARNING_SPEC.md UX sections, coordinated with Agent 4 through lead.  
+**Ownership:** PRODUCT_REQUIREMENTS_AND_UX.md UX sections, coordinated with Agent 4 through lead.  
 **Scope:** Mobile-first navigation, subject/topic library, diagnostic, lesson, quiz, review queue, tutor, dashboard, settings, import, offline, error/empty/loading states, accessibility. Do not select a tech stack without the options analysis.  
 **Acceptance:** Every primary flow has states and recovery paths; short study sessions are supported; no screen depends solely on color.
 
@@ -56,7 +56,7 @@ Before spawning agents, inspect the real Claude Code/Ruflo agent registry and to
 
 ## Agent 6 — Security, Privacy & AI Platform Analyst
 
-**Ownership:** Security portion of ARCHITECTURE_OPTIONS.md and DATA_MODEL_AND_CONTRACTS.md via lead coordination.  
+**Ownership:** Security portion of TECHNICAL_ARCHITECTURE_AND_CONTRACTS.md and TECHNICAL_ARCHITECTURE_AND_CONTRACTS.md via lead coordination.  
 **Scope:** Evaluate direct provider-key storage vs backend proxy, local encryption, data minimization, import/document processing, logging, rate limits, validation, privacy, backups, sync, and source-grounded generation. Do not request or expose any real key.  
 **Acceptance:** Threat model includes key extraction, malicious imports/prompt injection, data leakage, provider failure, abuse/cost controls, and backup compromise.
 
@@ -65,12 +65,12 @@ Before spawning agents, inspect the real Claude Code/Ruflo agent registry and to
 
 ## Agent 7 — Data Model & API Contract Architect
 
-**Ownership:** DATA_MODEL_AND_CONTRACTS.md  
+**Ownership:** Research findings for TECHNICAL_ARCHITECTURE_AND_CONTRACTS.md; send findings to the integration owner  
 **Scope:** Propose canonical content entities, stable IDs, topic relationships, source provenance, assessments, questions, answer attempts, review events, scheduler state, mastery estimates, generated lessons, tutor sessions, rewards, and sync/version metadata.  
 **Acceptance:** Define invariants, event/idempotency strategy, schema versioning, offline conflict behavior, APIs, and transaction boundaries. No final stack-specific code.
 
 **Copy-paste prompt**
-> Design the stack-neutral data model and service contracts for the Nursing Study App. Do not implement application source. Define entities, IDs, relationships, provenance, content versions, question variants, diagnostic sessions, answer attempts, review events, scheduler state, mastery estimates with confidence, remedial plans, rewards, AI generation jobs, tutor sessions, and sync metadata. State invariants, uniqueness rules, idempotency, transactions, migration/versioning, offline conflict resolution, and API request/response contracts. Mark unresolved choices and acceptance tests. Produce DATA_MODEL_AND_CONTRACTS.md as the sole writer or send findings to the lead.
+> Design the stack-neutral data model and service contracts for the Nursing Study App. Do not implement application source. Define entities, IDs, relationships, provenance, content versions, question variants, diagnostic sessions, answer attempts, review events, scheduler state, mastery estimates with confidence, remedial plans, rewards, AI generation jobs, tutor sessions, and sync metadata. State invariants, uniqueness rules, idempotency, transactions, migration/versioning, offline conflict resolution, and API request/response contracts. Mark unresolved choices and acceptance tests. Produce TECHNICAL_ARCHITECTURE_AND_CONTRACTS.md as the sole writer or send findings to the lead.
 
 ## Agent 8 — Independent Architecture Red Team
 
@@ -83,11 +83,13 @@ Before spawning agents, inspect the real Claude Code/Ruflo agent registry and to
 
 ## Integration owner — Master Architect
 
+The lead is the only final writer for integrated planning specs unless a task explicitly assigns one specialist as the sole writer. Agents must submit research first and avoid overlapping edits.
+
 The lead:
 1. Re-scans current Git tree and checks repository state.
 2. Assigns the above tasks using actual available agents or runs them sequentially.
 3. Prevents overlapping writes and reconciles contradictory results.
-4. Owns ARCHITECTURE_OPTIONS.md, REQUIREMENTS_TRACEABILITY.md, IMPLEMENTATION_ROADMAP.md, DECISION_LOG.md, and final document integration.
+4. Owns TECHNICAL_ARCHITECTURE_AND_CONTRACTS.md, PRODUCT_REQUIREMENTS_AND_UX.md, IMPLEMENTATION_ROADMAP.md, DECISION_LOG.md, and final document integration.
 5. Reviews all outputs from developer, designer, nursing student, learning scientist, security, and red-team perspectives.
 6. Rereads all changed files from GitHub and checks links.
 7. Reports what was done, what was not done, and the next bounded task.
