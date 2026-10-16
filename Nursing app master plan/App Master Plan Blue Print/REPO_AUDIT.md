@@ -9,13 +9,13 @@
 
 After consolidating the blueprint documents, a fresh recursive Git tree query returned **739 entries: 598 blobs/files and 141 tree/directory entries**, with `truncated=false`. The verified post-deletion snapshot was `81432ac4c8f4c0d05dabe7106d20886e36a14dad`; subsequent edits changed existing Markdown content, not paths.
 
-The final `Nursing app master plan/` subtree has 407 entries including its root directory. The blueprint folder has 11 Markdown files, no nested directories, and 131,027 listed file bytes. Research folder counts remain App 1: 280 files/57 directories including its root; App 2: 18 files/11 directories; App 3: 20 files/7 directories. Counts are path-specific and must be refreshed after later changes.
+The final `Nursing app master plan/` subtree has 407 entries including its root directory. The blueprint folder has 11 Markdown files, no nested directories, and 141,457 listed file bytes (current tree snapshot `158cdefab76f585b995cfc7a58b9da38fbbe668d`). Research folder counts remain App 1: 280 files/57 directories including its root; App 2: 18 files/11 directories; App 3: 20 files/7 directories. Counts are path-specific and must be refreshed after later changes.
 
 The four legacy planning documents are now consolidated and deleted. Their exact original blob SHAs, destination documents and deletion commit SHAs are recorded in `CLEANUP_LOG.md`. No research files, raw assets, reference code or global Claude/Ruflo files were deleted.
 
 ## 1. Repository-wide inventory
 
-The historical baseline tree had **729 entries** and the intermediate pre-cleanup snapshot had 743. The **final post-cleanup** tree has **739 entries (598 blobs/files, 141 tree/directory entries)** with `truncated=false`, verified at snapshot `fc52eb44d20278d7503ed5533bb2b89ffa0ecefc`. The top-level counts below reflect the final post-cleanup tree:
+The historical baseline tree had **729 entries** and the intermediate pre-cleanup snapshot had 743. The **final post-cleanup** tree has **739 entries (598 blobs/files, 141 tree/directory entries)** with `truncated=false`, verified at snapshot `158cdefab76f585b995cfc7a58b9da38fbbe668d`. The top-level counts below reflect the final post-cleanup tree:
 
 | Top-level path | Entries | Purpose / treatment |
 |---|---:|---|
@@ -39,7 +39,7 @@ Counts below are based on the recursive tree at the time of the audit.
 | App 1 inspired research | 337 | 280 | 57 | 49,682 | APK-derived Android metadata/resources; transfer log indicates incomplete archive upload |
 | app 2 inspired research | 29 | 18 | 11 | 220,518 | AnkiDroid research, decoded manifest, integration examples, scheduler and APKG builder |
 | App 3 a app inspired research | 27 | 20 | 7 | 283,937 | Gizmo report, derived extracts, research notes, AI quiz-generation reference code |
-| App Master Plan Blue Print | 12 | 11 | 1 | 137,578 | Eleven canonical Markdown documents after consolidation; no nested directories |
+| App Master Plan Blue Print | 12 | 11 | 1 | 141,457 | Eleven canonical Markdown documents after consolidation; no nested directories |
 
 The bytes are Git tree listed file sizes, not the original APK size or a claim that all archive bytes were uploaded.
 
