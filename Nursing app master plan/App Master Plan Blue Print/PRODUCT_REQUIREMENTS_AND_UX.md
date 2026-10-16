@@ -56,6 +56,8 @@ The dashboard should prioritize the next recommended action, due reviews, curren
 | R-030 | Clinical-content reliability | Source provenance, review state | Unsupported facts are not attributed to sources; conflicting sources are flagged; educational limitation is visible | Grounding/review workflow | Planned |
 | R-031 | AI cost/rate control | AI usage policy | Limits, retries, caching, cancellation and safe usage metrics are tested | Provider strategy | Planned |
 | R-032 | Testability and evidence | QA / CI / audit receipts | Each feature has test criteria and exact test receipts; concurrent generation is idempotent; attempts/rewards cannot duplicate | Stack, CI | Planned |
+| R-033 | Explainable, evidence-aware mastery | Versioned MasteryPolicy, TopicEvidence, MasteryEstimate | Fixed fixtures verify sparse-perfect, repeated-item, stale-success/recent-failure, partial-coverage, delayed-recall and duplicate-event behavior; confidence is separate from accuracy | Event model, coverage blueprint | Planned |
+| R-034 | Deterministic adaptive learning-plan order | LearningPlanItem, RankingPolicyVersion | Identical evidence produces identical topic order and explanation; prerequisites/uncovered concepts/low evidence take precedence; AI cannot override policy eligibility | R-004, R-005, R-033 | Planned |
 
 ## 3. Canonical learner journeys
 
