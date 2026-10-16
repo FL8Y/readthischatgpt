@@ -3,7 +3,7 @@
 - Started: 2026-10-16 12:27 Asia/Manila (UTC+08:00)
 - Source archive: `base.zip`
 - Archive integrity: verified with `unzip -t` (no errors)
-- Archive entries: 1,790
+- Archive entries: 1,790 files (no directory entries)
 - Planned destination: this folder, with archive contents extracted directly here (not the ZIP file)
 - Replacement policy: preserve archive paths and file bytes; do not change anything outside this folder.
 
@@ -11,14 +11,16 @@
 
 - [x] Inspect archive integrity and entry count.
 - [x] Inspect destination folder; it initially contained only `README.md`.
-- [ ] Upload extracted files in manageable batches, preserving paths and binary contents.
+- [x] Batch 1 committed: 4 small text/metadata files (`META-INF/NOTICE.md`, `review.properties`, `vision-common.properties`, `vision-interfaces.properties`).
+- [x] Batch 2 committed: 20 AndroidX `.version` metadata files.
+- [ ] Upload remaining archive files in manageable batches, preserving paths and binary contents.
 - [ ] Compare uploaded paths and sizes against the archive manifest.
 - [ ] Finalize replacement and verify the resulting Git tree.
 
 ## Current status
 
-No archive payload files have been uploaded yet. This log records the work accurately; it does not claim the transfer is complete.
+24 of 1,790 archive files have been committed (1.34%). 1,766 archive files remain. No ZIP file has been uploaded. The existing README is being retained until the replacement payload is verified.
 
 ## Next
 
-Transfer the extracted archive entries in manageable batches, then verify the final Git tree against the archive manifest before declaring completion.
+Continue transferring the archive entries in batches, then verify the final Git tree against the archive manifest before declaring completion.
