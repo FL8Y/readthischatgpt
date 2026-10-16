@@ -58,8 +58,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: **Drafted — Needs Verification** | Required sections: client levels (individual/family/group/community/system); family/community as units of care; client- and population-centred approaches; assessment; vulnerable/underserved clients; consent/privacy; prioritization/safety; Philippine context; indicators; PNLE distinctions; sources.  
   Sources consulted: WHO–UNICEF PHC Operational Framework (2020); RA 11223 UHC Act; RA 10173 Data Privacy Act; RA 7160 Local Government Code. Important facts covered: CHN serves individuals, families, groups, populations and service systems; population averages may hide unmet need; client autonomy/privacy remain at every level. Research file: `CHN, PHC/Clients of CHN/RESEARCH NOTES.md` (11,588 characters; reopened after save). Unresolved issues: current local service and reporting protocols require verification. Last action: replaced generic starter with substantive client-level and assessment research (2026-10-17). Next action: continue remaining CHN folders and verify source details.
 - [x] **DOH** — `CHN, PHC/DOH`  
-  Status: **Drafted — Needs Verification** | Required sections: national role; policy/stewardship; devolution/UHC; broad functions; DOH vs LGU/PhilHealth/PRC-BON; nursing interactions; legal context; child-topic map; PNLE distinctions; sources.  
-  Sources consulted: RA 7160 Local Government Code; EO 102 (1999) DOH reorganization; RA 11223 Universal Health Care Act; RA 9173 Philippine Nursing Act, all linked to Lawphil primary legal text. Important facts covered: DOH national stewardship; devolution and local service responsibilities; UHC integration; distinction among DOH, LGUs, PhilHealth and PRC/BON. Research file: `CHN, PHC/DOH/RESEARCH NOTES.md` (8,772 characters; reopened after save). Unresolved issues: current organizational issuances and amendments require review; DOH Concepts and Functions of DOH child topics remain separate assignments. Last action: replaced 4,767-character misplaced PHC boilerplate with a DOH-specific parent overview and reopened saved file (2026-10-17). Next action: research the DOH Concepts child and reconcile the log against the recursive tree.
+  Status: **Drafted — Needs Verification** | Required sections: DOH role/stewardship; broad functions; central/regional/local levels; DOH vs LGU/PhilHealth/FDA; PHC/UHC context; CHN application; legal/safety cautions; child-topic mapping; PNLE distinctions; sources.  
+  Sources consulted: EO 102 (1999); RA 7160; RA 11223; RA 11332; RA 10173; WHO–UNICEF PHC Operational Framework (2020); official DOH portal. Important facts covered: distinct mandates of DOH, LGUs, PhilHealth, FDA and providers; current organizational structure must be checked. Research file: `CHN, PHC/DOH/RESEARCH NOTES.md` (9,789 characters; reopened after save). Unresolved issues: current DOH organization chart, amendments and program-specific guidance require direct review. Last action: expanded generic parent note into substantive DOH overview and child-topic map (2026-10-17). Next action: continue remaining CHN folders and verify current sources.
 - [x] **DOH Concepts** — `CHN, PHC/DOH/DOH Concepts`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
@@ -1263,3 +1263,14 @@ Every directory below was present in the repository's recursive tree at the init
 - Status: **Drafted — Needs Verification**, not Verified Complete.
 - Coverage reconciliation: 71/77 folders have substantive drafts, 6/77 still require substantive expansion, and 0/77 are verified complete.
 - Next action: research DOH Concepts, then recursively audit all topic files and reconcile the checklist against actual saved content.
+
+
+## Research Cycle Log — 2026-10-17 (DOH parent)
+
+- Applied the mandatory standard to the DOH parent folder and expanded the generic starter note.
+- Expanded `CHN, PHC/DOH/RESEARCH NOTES.md` from 4,767 characters to 9,789 characters.
+- Covered DOH stewardship/policy, standards/regulation, national programs, surveillance/emergency coordination, central/regional/local levels, DOH vs LGU/PhilHealth/FDA, UHC/PHC context, CHN application, legal cautions and the child-topic map.
+- Sources consulted: EO 102 (1999); RA 7160; RA 11223; RA 11332; RA 10173; WHO–UNICEF PHC Operational Framework (2020); official DOH portal.
+- Reopened the saved file and confirmed 9,789 characters plus function and agency-distinction sections.
+- Status: **Drafted — Needs Verification**, not Verified Complete. Current DOH organizational chart, amendments and program-specific guidance require review.
+- Next action: continue the remaining individual CHN folders and final source checks.
