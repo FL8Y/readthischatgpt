@@ -3,7 +3,7 @@
 **Audit date:** 2026-10-17  
 **Repository:** `FL8Y/readthischatgpt`, default branch `main`  
 **Scope:** Complete recursive Git tree inventory plus semantic inspection of project-relevant documentation and reference source.  
-**Important limitation:** A tree inventory is not the same as reading every file's contents. Binary resources and hundreds of unrelated Claude/Ruflo framework files were inventoried but not all semantically read. The two complete research DOCX reports have now been read across all 54 Gizmo pages and all 35 AnkiDroid pages.
+**Important limitation:** A tree inventory is not the same as reading every file's contents. Binary resources and hundreds of unrelated Claude/Ruflo framework files were inventoried but not all semantically read. The prior QA review records that the two research DOCX reports were read across all 54 Gizmo pages and all 35 AnkiDroid pages; this cleanup did not independently repeat that full page extraction.
 
 ## Cleanup addendum — 2026-10-17
 
