@@ -36,9 +36,9 @@ There is no medication that replaces the immediate mechanical emergency response
 - Prepare for postpartum hemorrhage and neonatal resuscitation/assessment.
 
 ## Sources
-1. Royal College of Obstetricians and Gynaecologists (RCOG), Green-top Guideline No. 42, “Shoulder Dystocia”: https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/shoulder-dystocia-green-top-guideline-no-42/
+1. Royal College of Obstetricians and Gynaecologists (RCOG), Green-top Guideline No. 42, “Shoulder Dystocia,” third edition, first published 27 August 2026. The official guideline defines the emergency, recommends systematic management and comprehensive documentation, and stresses annual staff training; practical manoeuvres require skills training: https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/shoulder-dystocia-green-top-guideline-no-42/
 2. American College of Obstetricians and Gynecologists (ACOG), Practice Bulletin No. 178, “Shoulder Dystocia,” May 2017: https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2017/05/shoulder-dystocia
 3. Merck Manual Professional Edition, “Shoulder Dystocia”: https://www.merckmanuals.com/professional/gynecology-and-obstetrics/intrapartum-complications/shoulder-dystocia
 
-## Verification limitations
-Maneuver sequence and team roles should follow current institutional emergency drills and protocol. Risk factors cannot reliably predict every case.
+## Verification notes and limitations
+The current RCOG third-edition guideline page and linked Wiley full-text landing page were opened. The RCOG guideline confirms the definition, unpredictability, need for systematic management, accurate documentation and annual team training; its authors state that practical manoeuvres are not described in detail because they require practical training. The file's bedside sequence should therefore be taught with current institutional drills, not as a substitute for hands-on competency. RCOG guideline page last reviewed 1 September 2026. Risk factors cannot reliably predict every case.
