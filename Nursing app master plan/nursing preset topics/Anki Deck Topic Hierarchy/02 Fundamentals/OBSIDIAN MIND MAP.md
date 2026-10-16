@@ -8,16 +8,16 @@
   - Part 1
   - Part 2
   - [[Important Nursing Theorists/Patricia Benner/PATRICIA BENNER NOVICE TO EXPERT|Patricia Benner — Novice to Expert]]
-- Nutrition
+- [[Nutrition/NUTRITIONAL ASSESSMENT AND NURSING CARE|Nutrition — Assessment and Nursing Care]]
 - Oxygenation
   - [[Oxygenation/Oxygen/OXYGEN THERAPY NURSING GUIDE|Oxygen Therapy]]
   - Chest Physiotherapy
   - Incentive Spirometer
   - Suctioning
   - Tracheostomy
-- Pain
+- [[Pain/PAIN ASSESSMENT AND NURSING MANAGEMENT|Pain — Assessment and Nursing Management]]
 - Patient Positioning
-- Sleep
+- [[Sleep/SLEEP AND REST NURSING CARE|Sleep and Rest — Nursing Care]]
 - Specimen Collection
   - Sputum
   - Stool
@@ -25,7 +25,7 @@
 - Theories of Aging
   - Biologic
   - Psychosocial
-- Wound Care
+- [[Wound Care/WOUND ASSESSMENT AND BASIC NURSING CARE|Wound Assessment and Basic Nursing Care]]
 
 ## Candidate gaps to audit before adding folders
 
