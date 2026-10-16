@@ -51,6 +51,13 @@ ABCs and immediate maternal-fetal threats outrank routine teaching. Maslow can h
 
 These are classic patterns, not absolute rules; clinical overlap occurs.
 
+## Source verification note — clinical diagnosis and instability
+Merck Manual Professional Edition’s peer-reviewed review “Placental Abruption (Abruptio Placentae)” was opened and checked; it was last updated March 2024. It confirms that a normal ultrasound does not rule out abruption, concealed hemorrhage can cause uterine pain/tenderness out of proportion to visible bleeding, and evaluation may include fetal heart-rate monitoring, CBC, blood and Rh typing, PT/PTT, fibrinogen/fibrin-split products and ultrasound. It identifies maternal hemodynamic instability, a nonreassuring fetal tracing and term gestation as situations in which prompt delivery is generally indicated; carefully selected stable preterm cases may be observed in hospital. The management must remain based on the full clinical picture and specialist decision, not a single ultrasound or external blood-loss estimate.
+
+Source: Merck Manual Professional Edition, “Placental Abruption (Abruptio Placentae),” full review March 2024, last updated March 2024: https://www.merckmanuals.com/professional/gynecology-and-obstetrics/antenatal-complications/placental-abruption-abruptio-placentae .
+
+**PNLE safety check:** with second-half pregnancy bleeding, exclude placenta previa before pelvic/digital examination; when the patient is unstable, do not delay resuscitation or obstetric emergency action for nonessential testing. Abruption and uterine rupture can overlap clinically; worsening pain, maternal instability or fetal compromise requires immediate obstetric assessment.
+
 ## PNLE high-yield points
 - Painful bleeding plus uterine tenderness/rigidity suggests abruption; painless bleeding suggests previa, but neither presentation is universal.
 - Concealed hemorrhage can cause shock without dramatic external bleeding.
