@@ -248,3 +248,11 @@ Do not memorize this comparison as a universal taxonomy. It is a bridge between 
 - Two online sources were directly inspected; one Philippine nursing syllabus was located but not fully inspected because the PDF endpoint timed out.
 - Current local program procedures and any institution-specific phase taxonomy remain context-dependent.
 - Before marking **Verified Complete**, re-open this saved file, check all links, retry or replace the syllabus source, and record the actual verification in `RESEARCH LOG.md`.
+
+## Source Verification Update — 2026-10-17
+
+- Rechecked source records in a verification pass. WHO's 10 May 2023 publication page confirms a framework for meaningful engagement of people living with NCDs, mental-health and neurological conditions; it supports participation principles but is not a COPAR phase manual.
+- Nurseslabs' COPAR article is discoverable and presents a commonly taught phase sequence, but it is a secondary educational source last updated in 2013.
+- The University of the Cordilleras site search listing confirms a COPAR faculty-development seminar entry dated 19 February 2023, but the exact direct permalink in the source register was not independently reopened during this pass. A similar March 2023 URL surfaced unrelated mental-health content; do not rely on that alternate page as COPAR evidence.
+- The National University Philippines syllabus PDF was surfaced in search results but its full text was not inspected because the earlier PDF fetch timed out.
+- Status remains **Drafted — Needs Review**. Resolve the direct-permalink and syllabus gaps, then re-open the file and verify all claims/links before marking complete.
