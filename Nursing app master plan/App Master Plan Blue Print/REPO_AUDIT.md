@@ -9,7 +9,7 @@
 
 After consolidating the blueprint documents, a fresh recursive Git tree query returned **739 entries: 598 blobs/files and 141 tree/directory entries**, with `truncated=false`. The verified post-deletion snapshot was `81432ac4c8f4c0d05dabe7106d20886e36a14dad`; subsequent edits changed existing Markdown content, not paths.
 
-The final `Nursing app master plan/` subtree has 407 entries including its root directory. The blueprint folder has 11 Markdown files, no nested directories, and 141,457 listed file bytes (current tree snapshot `158cdefab76f585b995cfc7a58b9da38fbbe668d`). Research folder counts remain App 1: 280 files/57 directories including its root; App 2: 18 files/11 directories; App 3: 20 files/7 directories. Counts are path-specific and must be refreshed after later changes.
+The final `Nursing app master plan/` subtree has 407 entries including its root directory. The blueprint folder has 11 Markdown files, no nested directories, and 141,524 listed file bytes at the recorded tree snapshot `d018a28f50495a5c14f1d6bbf7dbe0f1f384fa33`. The QA review was then updated without changing paths; the byte total is a snapshot metric and may differ after later content edits. Research folder counts remain App 1: 280 files/57 directories including its root; App 2: 18 files/11 directories; App 3: 20 files/7 directories. Counts are path-specific and must be refreshed after later path changes.
 
 The four legacy planning documents are now consolidated and deleted. Their exact original blob SHAs, destination documents and deletion commit SHAs are recorded in `CLEANUP_LOG.md`. No research files, raw assets, reference code or global Claude/Ruflo files were deleted.
 
@@ -42,6 +42,10 @@ Counts below are based on the recursive tree at the time of the audit.
 | App Master Plan Blue Print | 12 | 11 | 1 | 141,457 | Eleven canonical Markdown documents after consolidation; no nested directories |
 
 The bytes are Git tree listed file sizes, not the original APK size or a claim that all archive bytes were uploaded.
+
+## Test-execution limitation
+
+A local `git ls-remote` / checkout attempt failed because the container could not resolve `github.com`. GitHub API reads and read-back verification were available, but this environment did not run the App 2 offline tests, reference TypeScript typecheck, device tests, live provider calls, or an app build. Historical test counts in READMEs and prior reports are not newly reproduced results in this pass.
 
 ## 3. Project instruction files inspected
 
