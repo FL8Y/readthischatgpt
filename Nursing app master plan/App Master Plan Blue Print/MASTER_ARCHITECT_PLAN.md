@@ -45,16 +45,18 @@ The app should help a nursing student learn from their own study material throug
 Required product capabilities:
 - Import and preserve study material with source/provenance.
 - Organize content into subjects, modules, topics, and subtopics.
-- Link related concepts across folders without duplicating canonical content.
+- Link related concepts across folders without duplicating canonical content; color-code relationship types with a legend and redundant text/icon cues so meaning is never color-only.
 - Require completion of a configurable 1–50 question diagnostic before teaching any new topic in the selected subject/module; interruptions must resume safely and the normal learning flow cannot silently skip the gate.
 - Estimate strengths and gaps by topic/competency, accounting for uncertainty and limited evidence.
-- Generate a prioritized, targeted, source-grounded lesson sequence with explanations, mnemonics, useful visuals, and topic maps only after diagnostic completion.
+- Use the completed diagnostic to generate a persisted, prioritized lesson sequence with explicit teaching depth, topic order and rationale; use only valid configured AI-provider credentials and source-grounded evidence.
+- Provide clickable lessons with explanations, mnemonics, useful visuals, and an Obsidian-style linked Markdown/text outline plus an interactive topic graph, only after diagnostic completion.
 - Generate 1–5 question topic checks with immediate feedback and rationales.
 - Run comprehensive module assessments and create remedial cycles from weaknesses.
 - Maintain flashcards and scheduled reviews, with more frequent review for difficult content.
 - Provide tutor discussion grounded in relevant study sources when available.
-- Track answer history, mastery estimates, points, levels, streaks, and topic progress.
-- Provide robust error states for absent/invalid provider credentials and network/provider failures.
+- Track answer history, mastery estimates, points for correct answers, quiz-score milestones, completion and streak milestones, levels/ranks, streaks, and topic progress.
+- Provide a progress dashboard showing points, level/rank, streak, due reviews, next recommended action, topic mastery, confidence and recency.
+- Route diagnostic/adaptive-plan generation, lessons, topic/module quizzes, flashcards, mind maps and tutor discussions through the configured user provider/key adapter; provide robust recoverable states for absent/invalid credentials and network/provider failures.
 - Treat nursing/clinical accuracy, provenance, and safe uncertainty handling as product requirements.
 
 ## 5. Provisional architectural principles
