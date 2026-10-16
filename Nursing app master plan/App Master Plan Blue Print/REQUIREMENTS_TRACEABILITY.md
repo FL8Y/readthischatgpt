@@ -52,11 +52,12 @@
 10. Data migrations and backup restore preserve history or fail safely.
 11. User deletion and export must cover generated content and associated history according to a documented policy.
 12. No item is marked implemented/verified without evidence.
+13. In the normal learning flow, new topic lessons remain locked until the selected scope's diagnostic is completed and saved; interruption resumes the same session. A review-only mode may revisit already taught content but cannot unlock new lessons.
 
 ## Requirements still needing specification
 
 - Exact supported import formats and size limits.
-- Diagnostic question-count default and whether users can skip/retest.
+- Diagnostic question-count default and retake policy; skipping must not bypass the required gate before new teaching.
 - Question types for diagnostics, pop quizzes, and module tests.
 - Topic mastery formula and confidence thresholds.
 - Rewards and anti-farming rules.
