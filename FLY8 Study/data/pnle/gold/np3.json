@@ -1,0 +1,602 @@
+[
+  {
+    "id": "np3-001",
+    "area": "NP3",
+    "topic": "Early postoperative bleeding",
+    "archetype": "postoperative-complication-recognition",
+    "difficulty": 4,
+    "vignette": "A 62-year-old client returns to the surgical unit after a bowel resection. Two hours ago the blood pressure was 118/74 mm Hg and the pulse 82/min. Now the blood pressure is 96/60 mm Hg, pulse 112/min, respirations 22/min, and the skin is cool and clammy. The client is restless. The abdominal dressing is dry, and the abdomen feels firmer and more distended than on arrival.",
+    "stem": "Which action should the nurse take first?",
+    "options": [
+      "Recheck the vital signs in 15 minutes before taking any further action.",
+      "Report the vital sign trend and abdominal findings to the surgeon now, stay with the client, and keep the IV access patent.",
+      "Give the prescribed analgesic because restlessness is most likely from pain.",
+      "Encourage coughing and deep breathing with the abdomen splinted."
+    ],
+    "answerIndex": 1,
+    "strategyTag": "Early recognition: trend and ABC",
+    "reasoning": "1) Compare the two sets of vital signs: pressure down, pulse and respirations up, skin cool and clammy. 2) Note the dry dressing. Bleeding can be concealed inside the abdomen, so a dry dressing does not rule it out. 3) Classify the client as unstable and worsening, so this outranks routine postoperative care (stable vs unstable). 4) Circulation is the threatened ABC element; the nurse already has enough assessment data to act. 5) Eliminate waiting (delays care) and analgesia (misattributes the cause). 6) Eliminate pulmonary hygiene: right for a stable client, not the first need here. 7) Choose escalation to the surgeon with the trend while maintaining IV access.",
+    "optionRationales": [
+      "Tempting because trending is valuable, but the trend is already abnormal and worsening; waiting delays treatment of a possible hemorrhage.",
+      "The trend (falling pressure, rising pulse, cool clammy skin, restlessness, firmer abdomen) suggests internal bleeding and early shock. The nurse already has the assessment data, so escalating immediately while keeping IV access for fluids or blood is correct.",
+      "Pain is plausible after surgery, but restlessness with tachycardia and hypotension is a perfusion warning. Treating pain first misreads an unexpected finding as an expected one.",
+      "A correct routine postoperative measure, but it does not address the unstable circulation and could tire a client in early shock."
+    ],
+    "keyFacts": [
+      "Rising pulse with falling blood pressure, cool clammy skin and restlessness after surgery suggests hemorrhage or shock until proven otherwise.",
+      "A dry dressing does not exclude internal bleeding."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np3-002",
+    "area": "NP3",
+    "topic": "Airway after anesthesia",
+    "archetype": "abc-ordering",
+    "difficulty": 2,
+    "vignette": "In the post-anesthesia care unit, a client who had general anesthesia 20 minutes ago is difficult to rouse and has noisy, snoring respirations. Oxygen saturation is falling slowly. The intravenous site at the left forearm looks swollen, and the blood pressure is 150/88 mm Hg.",
+    "stem": "Which action should the nurse perform first?",
+    "options": [
+      "Stop the infusion and restart the intravenous line in the other arm.",
+      "Apply supplemental oxygen at the prescribed flow through a mask.",
+      "Open the airway with a jaw-thrust or head-tilt chin-lift maneuver.",
+      "Repeat the blood pressure on the opposite arm to confirm the reading."
+    ],
+    "answerIndex": 2,
+    "strategyTag": "ABC: airway first",
+    "reasoning": "1) List the problems: snoring breathing and falling saturation, infiltrated IV, mildly raised blood pressure. 2) Apply ABC: airway before breathing before circulation. 3) Snoring in a sedated client points to soft-tissue obstruction, an airway problem that is present now. 4) Oxygen (breathing) is tempting, but it works best once the airway is open. 5) The IV and blood pressure are circulation items and not immediately life-threatening. 6) Choose the maneuver that opens the airway.",
+    "optionRationales": [
+      "Infiltration needs attention, but it is a circulation or comfort concern of lower priority than a compromised airway.",
+      "Breathing support is important and likely needed, but oxygen delivered past an obstructed airway is less effective; the airway is opened before breathing is supported.",
+      "Snoring respirations in a poorly responsive client usually mean the tongue is partially blocking the airway. Airway comes first in ABC and the maneuver takes seconds.",
+      "A mildly high pressure after surgery is not the immediate threat and rechecking it does not address the declining oxygen saturation."
+    ],
+    "keyFacts": [
+      "Snoring respirations in a sedated or unconscious client suggest partial airway obstruction.",
+      "Open the airway before giving oxygen."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np3-003",
+    "area": "NP3",
+    "topic": "Prioritizing respiratory clients",
+    "archetype": "which-client-first",
+    "difficulty": 4,
+    "vignette": "A nurse on a medical unit receives report on four clients. One has pneumonia and is newly confused with respirations 28/min and oxygen saturation 86% (it was 94% this morning). One has chronic lung disease on low-flow oxygen with mild breathlessness at baseline and saturation 91%. One is on day 1 after appendectomy with pain 4/10 and wants to walk. One has cellulitis and the next antibiotic dose is due in 30 minutes.",
+    "stem": "Which client should the nurse assess first?",
+    "options": [
+      "The client with pneumonia who is newly confused and has a saturation of 86%",
+      "The client with chronic lung disease on low-flow oxygen with saturation 91%",
+      "The client on day 1 after appendectomy with pain 4/10",
+      "The client with cellulitis whose antibiotic is due in 30 minutes"
+    ],
+    "answerIndex": 0,
+    "strategyTag": "Triage: unstable and new before stable",
+    "reasoning": "1) Read the stem: it asks who to see first, so rank the clients. 2) Label each by stability: only the pneumonia client has a new and worsening change. 3) Fall in saturation from 94% to 86% plus confusion and fast respirations signals hypoxemia (oxygenation, the highest Maslow need). 4) The client with chronic lung disease looks serious but the numbers are that client's baseline. 5) The postoperative and cellulitis clients are stable with routine needs. 6) Choose the new, unstable oxygenation problem.",
+    "optionRationales": [
+      "New confusion with a falling saturation and fast breathing indicates worsening hypoxemia. New and unstable outranks stable or expected findings.",
+      "Tempting because of the lung disease, but the findings are chronic and match the client's usual status, so this client is stable.",
+      "Pain is a physiological need, but it is moderate and expected after surgery, and the client is mobile and stable.",
+      "A time-sensitive medication, but the client is stable and the dose is not yet due."
+    ],
+    "keyFacts": [
+      "New confusion in a client with pneumonia can be an early sign of hypoxemia.",
+      "Compare findings to the client's baseline before ranking."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np3-004",
+    "area": "NP3",
+    "topic": "Acid-base: respiratory acidosis",
+    "archetype": "lab-value-interpretation-qualitative",
+    "difficulty": 4,
+    "vignette": "A 72-year-old client is on the first night after surgery and uses a patient-controlled opioid pump. The nurse finds the client hard to arouse with slow, shallow respirations of 8/min. Arterial blood gas results show a pH below the normal range, a carbon dioxide level above the normal range, and a bicarbonate level within normal limits.",
+    "stem": "Which action is the priority for the nurse?",
+    "options": [
+      "Encourage oral fluids to help correct the acidosis.",
+      "Record the result and repeat the blood gas in the morning.",
+      "Apply a face mask with oxygen and leave the pump running.",
+      "Withhold further opioid doses, stimulate the client, support breathing, and notify the provider immediately."
+    ],
+    "answerIndex": 3,
+    "strategyTag": "Lab: link result to risk",
+    "reasoning": "1) Interpret qualitatively: low pH means acidosis; high carbon dioxide points to a respiratory cause; normal bicarbonate means little metabolic compensation yet, so it is acute. 2) Link to the history: opioid, hard to arouse, rate of 8/min and shallow, so hypoventilation. 3) The problem is airway and breathing, the first ABC priorities, and the client is unstable. 4) Remove the cause (stop the opioid) and support ventilation before anything else. 5) Eliminate fluids (wrong mechanism) and delayed repeat testing (ignores instability). 6) Eliminate oxygen alone because the depressant continues.",
+    "optionRationales": [
+      "Fluids do not address retained carbon dioxide and the client is too drowsy to drink safely.",
+      "Documentation matters, but this is an unexpected, unstable finding that needs action now, not next-day follow-up.",
+      "Oxygen can help, but continuing the opioid keeps depressing breathing, and oxygen alone does not fix hypoventilation.",
+      "The results show acute respiratory acidosis from hypoventilation, most likely caused by the opioid. The nurse removes the cause, supports ventilation, and escalates."
+    ],
+    "keyFacts": [
+      "High carbon dioxide with low pH indicates respiratory acidosis, often from hypoventilation.",
+      "Opioid sedation is a leading cause of postoperative hypoventilation."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np3-005",
+    "area": "NP3",
+    "topic": "Airborne precautions",
+    "archetype": "infection-control-isolation",
+    "difficulty": 3,
+    "vignette": "A 49-year-old client is admitted with a three-week cough, night sweats, weight loss and blood-streaked sputum. The provider suspects active pulmonary tuberculosis. The nurse is arranging the client's room and personal protective equipment.",
+    "stem": "Which precaution is most appropriate?",
+    "options": [
+      "Place the client in a negative-pressure room and wear a fitted particulate respirator when entering.",
+      "Place the client in a private room and wear a standard surgical mask when entering.",
+      "Use a private room with a gown and gloves for all contact, with the door open.",
+      "Use standard precautions only until the sputum culture result returns."
+    ],
+    "answerIndex": 0,
+    "strategyTag": "Infection: match route to precaution",
+    "reasoning": "1) Identify the suspected organism and its route of spread: tuberculosis is airborne. 2) Recall which precaution type matches: airborne uses negative pressure and a respirator. 3) Eliminate droplet (surgical mask) and contact (gown and gloves) as wrong routes. 4) Eliminate standard-only: precautions start on suspicion, not confirmation. 5) Choose negative-pressure room plus fitted respirator.",
+    "optionRationales": [
+      "Tuberculosis spreads by small airborne particles, so airborne precautions with a negative-pressure room and a fitted respirator are used. The client wears a surgical mask during transport.",
+      "Matches droplet precautions, tempting because the illness is respiratory, but a surgical mask does not filter airborne particles.",
+      "Describes contact precautions, which fit skin or wound organisms, and an open door would allow airborne particles to leave.",
+      "Waiting for confirmation exposes staff and other clients; precautions begin when the disease is suspected."
+    ],
+    "keyFacts": [
+      "Airborne precautions: negative-pressure room and fitted respirator for tuberculosis, measles and chickenpox.",
+      "Start isolation on suspicion, before confirmation."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np3-006",
+    "area": "NP3",
+    "topic": "Contact precautions with diarrhea",
+    "archetype": "infection-control-isolation",
+    "difficulty": 3,
+    "vignette": "A 77-year-old client who has been taking a broad-spectrum antibiotic for several days develops frequent watery stools. The provider suspects infection with Clostridioides difficile. The nurse prepares to provide care in the client's private room.",
+    "stem": "Which action is most appropriate to prevent spread?",
+    "options": [
+      "Wear a surgical mask and clean hands with an alcohol-based rub before leaving.",
+      "Wear gloves only and clean hands with an alcohol-based rub after removing them.",
+      "Wear a gown and gloves, and wash hands with soap and water after leaving the room.",
+      "Move the client to a negative-pressure room and wear a fitted respirator."
+    ],
+    "answerIndex": 2,
+    "strategyTag": "Infection: match route to precaution",
+    "reasoning": "1) Identify the route: this organism spreads by contact with feces and contaminated surfaces. 2) Match to contact precautions with gown and gloves. 3) Recall the special rule: spores survive alcohol, so soap and water are used. 4) Eliminate options with masks or respirators because the route is not respiratory. 5) Eliminate the option that relies on alcohol rub. 6) Choose gown, gloves and soap-and-water handwashing.",
+    "optionRationales": [
+      "A mask is the droplet measure, and alcohol rub is a common habit that is not dependable against spores.",
+      "Gloves are needed, but a gown is also required when clothing may touch the client or surfaces, and alcohol rub is less effective here.",
+      "This organism forms spores that alcohol-based rubs do not reliably kill, so contact precautions with soap-and-water handwashing are used.",
+      "Airborne precautions are not needed for a gut organism spread by the fecal-oral route."
+    ],
+    "keyFacts": [
+      "Soap and water handwashing is preferred when caring for clients with suspected spore-forming diarrheal infection.",
+      "Contact precautions use a gown and gloves."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np3-007",
+    "area": "NP3",
+    "topic": "Home oxygen safety teaching",
+    "archetype": "teaching-evaluation-understanding",
+    "difficulty": 3,
+    "vignette": "A nurse is teaching a 68-year-old client with chronic lung disease who will start home oxygen from a concentrator. A relative who smokes visits often. The nurse asks the client to describe how oxygen will be used safely at home.",
+    "stem": "Which statement by the client shows a need for further teaching?",
+    "options": [
+      "\"I will ask visitors who smoke to stay outside and I will post a no-smoking sign.\"",
+      "\"I will keep the concentrator away from the stove and other heat sources.\"",
+      "\"I will keep a backup supply and the supplier's phone number ready.\"",
+      "\"If I feel more short of breath, I will turn up the flow to a higher setting.\""
+    ],
+    "answerIndex": 3,
+    "strategyTag": "Teaching: teach-back accuracy",
+    "reasoning": "1) Notice the stem asks which statement shows a NEED for teaching, so look for the unsafe statement. 2) Evaluate each as safe or unsafe: smoking and heat avoidance are correct; a backup supply is correct. 3) Self-adjusting the flow is the one that conflicts with safe practice. 4) Oxygen is a medication and is changed only on the provider's order; worsening breathlessness should be reported. 5) Choose the incorrect statement.",
+    "optionRationales": [
+      "Shows understanding; oxygen supports combustion, so smoking and open flames are kept away.",
+      "Appropriate fire-safety practice, so no further teaching is needed.",
+      "A sensible plan in case of equipment or power problems, so it reflects understanding.",
+      "Flow is changed only as prescribed. Raising oxygen alone can be harmful in some chronic lung conditions and hides worsening disease that needs to be reported."
+    ],
+    "keyFacts": [
+      "Oxygen supports combustion: no smoking, open flames or heat sources nearby.",
+      "Do not change the oxygen flow rate without an order."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np3-008",
+    "area": "NP3",
+    "topic": "Hypokalemia on a loop diuretic",
+    "archetype": "abnormal-finding-identification",
+    "difficulty": 3,
+    "vignette": "A nurse is caring for a 66-year-old client with heart failure who takes a loop diuretic daily and has had several episodes of vomiting over two days. During morning assessment the nurse notes four findings: increased urine output since the last shift, a weight lower than yesterday, mild thirst with dry lips, and new generalized muscle weakness with an irregular pulse.",
+    "stem": "Which finding is most concerning and requires follow-up?",
+    "options": [
+      "Increased urine output since the last shift",
+      "New generalized muscle weakness with an irregular pulse",
+      "A weight lower than yesterday's weight",
+      "Mild thirst with dry lips"
+    ],
+    "answerIndex": 1,
+    "strategyTag": "Expected vs unexpected finding",
+    "reasoning": "1) Identify the context: a diuretic plus vomiting leads to fluid and electrolyte loss. 2) Sort the findings into expected effects of treatment and unexpected or dangerous ones. 3) Increased urine output and falling weight are the intended effects. 4) Mild thirst is minor and easily corrected. 5) Weakness with an irregular pulse suggests a low potassium level affecting muscle and heart, a circulation threat. 6) Choose the unexpected finding with the highest risk.",
+    "optionRationales": [
+      "Expected with a loop diuretic, so it is not a warning sign by itself.",
+      "Potassium loss from the diuretic and vomiting can cause weakness and heart rhythm changes. An irregular pulse is a dangerous, unexpected finding.",
+      "Expected when fluid is being removed in heart failure; the nurse would continue to monitor.",
+      "Plausible after vomiting and diuresis and worth addressing, but it is less threatening than a possible rhythm disturbance."
+    ],
+    "keyFacts": [
+      "Low potassium can cause muscle weakness and cardiac rhythm changes.",
+      "Loop diuretics and vomiting both cause potassium loss."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np3-009",
+    "area": "NP3",
+    "topic": "Neutropenic fever",
+    "archetype": "expected-vs-adverse-effect",
+    "difficulty": 4,
+    "vignette": "A client is on day 8 after a cycle of chemotherapy and the laboratory report shows a very low neutrophil count. During rounds the nurse notes four findings: mild fatigue, thinning hair, nausea controlled with an antiemetic, and a temperature of 38.5 C with chills.",
+    "stem": "Which finding requires the nurse to act first?",
+    "options": [
+      "Mild fatigue",
+      "Thinning hair",
+      "Temperature of 38.5 C with chills",
+      "Nausea controlled with an antiemetic"
+    ],
+    "answerIndex": 2,
+    "strategyTag": "Therapeutic vs adverse",
+    "reasoning": "1) Separate expected effects of chemotherapy (fatigue, hair thinning, controlled nausea) from dangerous ones. 2) Link the lab data: very low neutrophils means weak defense against infection. 3) Fever may be the only sign of infection because the usual inflammatory signs are blunted. 4) Unstable or potentially life-threatening outranks expected findings. 5) Choose the fever and notify the provider promptly.",
+    "optionRationales": [
+      "Common and expected during chemotherapy; plan rest and monitor.",
+      "Expected adverse effect of some chemotherapy; it needs supportive and emotional care, not urgent action.",
+      "Fever in a client with very low neutrophils may signal serious infection with little warning and can progress quickly to sepsis, so it is treated as an emergency.",
+      "The treatment is working, so this is an expected, managed effect."
+    ],
+    "keyFacts": [
+      "Fever in a client with low neutrophils is a medical emergency.",
+      "Chemotherapy lowers white cells for a period after each cycle."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np3-010",
+    "area": "NP3",
+    "topic": "Delegation to unlicensed assistive personnel",
+    "archetype": "delegation-assignment",
+    "difficulty": 4,
+    "vignette": "The nurse is assigning tasks for a surgical unit to an unlicensed assistive personnel (UAP) member. The tasks are: assessing the drainage and breath sounds of a client with a chest tube placed this morning; teaching incentive spirometry to a client on day 1 after surgery; obtaining routine vital signs for a client on day 3 after an uncomplicated hernia repair; and evaluating the pain relief achieved after an intravenous opioid dose.",
+    "stem": "Which task is most appropriate to delegate?",
+    "options": [
+      "Obtaining routine vital signs for the client on day 3 after an uncomplicated hernia repair",
+      "Assessing the drainage and breath sounds of the client with a new chest tube",
+      "Teaching incentive spirometry to the client on day 1 after surgery",
+      "Evaluating the pain relief after the intravenous opioid dose"
+    ],
+    "answerIndex": 0,
+    "strategyTag": "Delegation: stable and routine only",
+    "reasoning": "1) Recall that delegation covers stable, routine, predictable tasks. 2) Assessment, teaching and evaluation stay with the licensed nurse. 3) Check each task against those limits: chest tube assessment is assessment of a new, less stable situation. 4) Incentive spirometry teaching is teaching; pain evaluation is evaluation. 5) Routine vital signs in a stable client is the only task that fits, with the nurse interpreting results. 6) Choose the vital signs task.",
+    "optionRationales": [
+      "This is a routine, predictable task for a stable client. The nurse still interprets the results and follows up on abnormal readings.",
+      "Assessment of a recent chest tube client requires licensed judgment and cannot be delegated.",
+      "Initial teaching is a nursing responsibility; the UAP may remind a client to use the device after the nurse has taught it.",
+      "Evaluation of drug effect and the client's response is part of the nursing process and is not delegated."
+    ],
+    "keyFacts": [
+      "Delegate tasks, not judgment: assessment, teaching and evaluation stay with the nurse.",
+      "A nurse remains accountable for interpreting delegated data."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np3-011",
+    "area": "NP3",
+    "topic": "Priority diagnosis in chronic lung disease",
+    "archetype": "priority-physiological-maslow",
+    "difficulty": 2,
+    "vignette": "A 65-year-old client with chronic lung disease is admitted with a flare of breathlessness. The client is anxious about missing a family event, has little knowledge about inhaler technique, and is at some risk for infection because of prolonged hospital stay. Respirations are 26/min with use of accessory muscles and saturation is 88% on room air.",
+    "stem": "Which nursing diagnosis has the highest priority?",
+    "options": [
+      "Anxiety related to missing a family event",
+      "Deficient knowledge related to inhaler technique",
+      "Risk for infection related to prolonged hospitalization",
+      "Impaired gas exchange related to retained secretions and airway narrowing"
+    ],
+    "answerIndex": 3,
+    "strategyTag": "Maslow: physiological first",
+    "reasoning": "1) List the needs and label them: oxygenation (physiological), anxiety (psychosocial), knowledge deficit (teaching), risk for infection (potential). 2) Apply Maslow: physiological before psychosocial. 3) Apply actual before potential: low saturation and accessory muscle use are present now. 4) Teaching comes after stabilization. 5) Choose the gas exchange diagnosis.",
+    "optionRationales": [
+      "A real concern, but psychosocial needs rank below an unmet physiological need.",
+      "Teaching is appropriate after the client's breathing is stabilized.",
+      "A potential problem; an actual oxygenation problem outranks a risk.",
+      "Oxygenation is the most basic physiological need and the problem is actual and present, with low saturation and accessory muscle use."
+    ],
+    "keyFacts": [
+      "Oxygenation is a basic physiological need and ranks first.",
+      "An actual problem outranks a risk (potential) problem."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np3-012",
+    "area": "NP3",
+    "topic": "Responding to a client considering refusal of cancer treatment",
+    "archetype": "therapeutic-communication-best-response",
+    "difficulty": 3,
+    "vignette": "A 54-year-old client who was told yesterday of a cancer diagnosis says to the nurse, \"I do not think I want chemotherapy. What is the point of any of this?\" The client looks tired and is looking down at the bed sheet.",
+    "stem": "Which response by the nurse is best?",
+    "options": [
+      "\"Your doctor knows what is best, so you should follow the treatment plan.\"",
+      "\"It sounds like you feel discouraged. Can you tell me more about what worries you most?\"",
+      "\"Many people feel this way at first, but you need to stay positive.\"",
+      "\"Why would you decide something like that so soon after hearing the diagnosis?\""
+    ],
+    "answerIndex": 1,
+    "strategyTag": "Communication: reflect and explore",
+    "reasoning": "1) Identify the client's emotional state: discouraged, possibly overwhelmed after news from yesterday. 2) Recall that therapeutic communication reflects feelings and uses open-ended prompts. 3) Eliminate advice-giving (follow the plan). 4) Eliminate false reassurance and telling the client to stay positive. 5) Eliminate why-questions because they feel judgmental. 6) Choose the reflecting, open-ended response.",
+    "optionRationales": [
+      "Gives advice and shuts down the client's concerns; it also ignores the client's right to decide.",
+      "Reflects the feeling and invites the client to explore it, which opens communication and helps the client's concerns surface before decisions are made.",
+      "Offers false reassurance and a directive that dismisses the client's feelings.",
+      "A why-question can feel judgmental and make the client defensive."
+    ],
+    "keyFacts": [
+      "Reflect the feeling and use open-ended prompts.",
+      "Avoid advice, false reassurance and why-questions."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np3-013",
+    "area": "NP3",
+    "topic": "Informed consent after sedation",
+    "archetype": "ethics-rights-informed-consent",
+    "difficulty": 4,
+    "vignette": "A 60-year-old client is scheduled for surgery in two hours. The surgeon's office left a consent form on the chart. The nurse finds the client drowsy and slurring speech 30 minutes after a prescribed preoperative sedative. The client's adult child is at the bedside and offers to sign for the client. The client has no known impairment of decision making.",
+    "stem": "Which action should the nurse take?",
+    "options": [
+      "Have the client sign now and witness the signature to avoid delaying surgery",
+      "Accept the adult child's signature since the client is drowsy",
+      "Hold the signature and tell the surgeon that consent must be obtained while the client is alert",
+      "Explain the surgical risks to the client and then obtain the signature"
+    ],
+    "answerIndex": 2,
+    "strategyTag": "Ethics: autonomy and advocacy",
+    "reasoning": "1) Identify the issue: consent in a client affected by sedation. 2) Recall the elements: capacity, adequate information, voluntary choice. 3) Sedation impairs capacity right now, so a signature is not valid. 4) The child cannot sign because the client is normally competent. 5) The nurse witnesses the signature but does not provide the informing; that duty belongs to the surgeon. 6) Choose to delay signing and notify the surgeon, advocating for the client.",
+    "optionRationales": [
+      "The client's sedation undermines the validity of consent, so a signature now would not be informed or voluntary.",
+      "A relative signs only when the client lacks decision-making capacity; this client had capacity before sedation and should decide.",
+      "Consent is valid only if the client is competent, informed and not under the effect of sedation. The surgeon is responsible for the explanation and for obtaining consent.",
+      "Explaining the procedure and its risks is the surgeon's responsibility, and consent should not be sought from a sedated client."
+    ],
+    "keyFacts": [
+      "Informed consent requires capacity, information and voluntariness.",
+      "The provider performing the procedure is responsible for obtaining consent; the nurse witnesses and advocates."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np3-014",
+    "area": "NP3",
+    "topic": "Safe administration of intravenous potassium",
+    "archetype": "high-alert-medication-reasoning",
+    "difficulty": 4,
+    "vignette": "A nurse prepares to give a prescribed intravenous potassium replacement to a 70-year-old client with a low potassium level who has been vomiting. The medication arrives from pharmacy, and the client has a peripheral intravenous line. The client's urine output over the last shift was very low.",
+    "stem": "Which action is most important before giving the medication?",
+    "options": [
+      "Confirm the potassium is prepared diluted as ordered for a pump, and report the low urine output to the provider",
+      "Plan to give it as a slow intravenous push over several minutes with the monitor on",
+      "Ask the client when the last meal was and hold the dose if the client has eaten",
+      "Check only the client's name band and proceed since the order was verified by pharmacy"
+    ],
+    "answerIndex": 0,
+    "strategyTag": "Safety: match monitoring to risk",
+    "reasoning": "1) Identify the drug class: potassium is a high-alert medication. 2) Think about what makes it dangerous: concentration, rate and poor excretion. 3) Low urine output suggests kidneys may not excrete potassium well, so the provider must know. 4) Eliminate push administration, which raises cardiac risk. 5) Eliminate options about meals and identification alone because they do not match the risk. 6) Choose verifying dilution and rate on a pump and reporting the low urine output.",
+    "optionRationales": [
+      "Concentrated potassium is high-alert and should never be given undiluted or by rapid push. Poor kidney excretion raises the risk of dangerous levels, so the low output should be reported before giving.",
+      "Rapid or push administration of potassium can cause dangerous cardiac effects; it is infused diluted at a controlled rate.",
+      "Food intake is irrelevant to intravenous potassium and does not address the safety risk.",
+      "Identification is necessary but not sufficient; the high-alert risk requires checking the preparation and kidney function."
+    ],
+    "keyFacts": [
+      "Potassium is never given undiluted or as an intravenous push.",
+      "Check urine output and renal status before giving potassium."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np3-015",
+    "area": "NP3",
+    "topic": "Postoperative discharge teaching",
+    "archetype": "discharge-teaching",
+    "difficulty": 3,
+    "vignette": "A nurse is preparing a 55-year-old client for discharge home on day 3 after open abdominal surgery. The client has an incision with staples and will go home with a family member. The nurse has time to cover several topics.",
+    "stem": "Which instruction should the nurse prioritize?",
+    "options": [
+      "Arrange transportation for the follow-up visit before leaving the unit",
+      "Have a list of foods the client prefers during recovery",
+      "Keep a supply of dressing materials at home in a clean storage area",
+      "Report fever, spreading redness, pus-like drainage or increasing incision pain promptly"
+    ],
+    "answerIndex": 3,
+    "strategyTag": "Discharge: safety-critical first",
+    "reasoning": "1) Stem asks for the instruction to prioritize, so rank by risk. 2) Safety-critical teaching about warning signs outranks convenience and general advice. 3) Early wound infection or sepsis can occur at home after discharge. 4) Transportation, food preferences and supplies are helpful but lower in risk. 5) Choose the warning-sign teaching.",
+    "optionRationales": [
+      "Useful for continuity of care, but missing the date is less dangerous than missing warning signs.",
+      "Nutrition supports healing, but food preference is not safety-critical.",
+      "Practical, but it does not help the client recognize dangerous changes.",
+      "Recognizing and reporting signs of wound infection is a safety-critical instruction because early reporting prevents serious complications."
+    ],
+    "keyFacts": [
+      "Discharge teaching should put warning signs and when to call first.",
+      "Signs of wound infection: fever, spreading redness, pus-like drainage, increasing pain."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np3-016",
+    "area": "NP3",
+    "topic": "Choking in a conscious adult",
+    "archetype": "airway-obstruction-exception",
+    "difficulty": 3,
+    "vignette": "During lunch on a medical unit, a 69-year-old client suddenly stands, clutches the throat, and cannot speak, cough or breathe. The lips are turning blue. The nurse is in the room.",
+    "stem": "What should the nurse do first?",
+    "options": [
+      "Measure the oxygen saturation and respiratory rate",
+      "Leave the room and call the rapid response team",
+      "Perform abdominal thrusts until the object is expelled or the client becomes unresponsive",
+      "Encourage the client to cough forcefully"
+    ],
+    "answerIndex": 2,
+    "strategyTag": "Exception: emergency overrides assess-first",
+    "reasoning": "1) Read the data: cannot speak, cough or breathe, cyanosis, which means complete obstruction. 2) Recall the exception: a clear airway emergency overrides assess-first. 3) Eliminate assessment tasks as delay. 4) Eliminate leaving the client alone. 5) Eliminate coughing, which is for partial obstruction. 6) Choose abdominal thrusts.",
+    "optionRationales": [
+      "Assessment is normally first, but here delay is dangerous and the client has already shown complete obstruction.",
+      "Help is needed but the nurse should not leave; the nurse stays and acts while someone else summons help.",
+      "Complete airway obstruction is an exception to assess-first. The nurse must act immediately and have someone call for help.",
+      "Coughing is appropriate for partial obstruction; this client cannot cough or speak, so it will not clear the airway."
+    ],
+    "keyFacts": [
+      "Complete airway obstruction needs immediate action, not assessment.",
+      "Encourage coughing only if the client can still cough or speak."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np3-017",
+    "area": "NP3",
+    "topic": "Evaluation step of the nursing process",
+    "archetype": "nursing-process-step-identification",
+    "difficulty": 2,
+    "vignette": "A nurse raised the head of the bed and gave oxygen as prescribed to a client with shortness of breath. The care plan goal was a respiratory rate in the normal range and effort that is easier. One hour later the nurse returns, counts the respirations, checks the saturation, and compares the results with the goal.",
+    "stem": "Which step of the nursing process is the nurse performing?",
+    "options": [
+      "Assessment",
+      "Evaluation",
+      "Planning",
+      "Implementation"
+    ],
+    "answerIndex": 1,
+    "strategyTag": "Nursing process: match the verb",
+    "reasoning": "1) Underline the verb: compares the results with the goal. 2) Recall the five steps: assessment, diagnosis, planning, implementation, evaluation. 3) Goal comparison after an intervention means evaluation. 4) Assessment also involves measuring, which is the trap. 5) Planning and implementation already occurred. 6) Choose evaluation.",
+    "optionRationales": [
+      "Tempting because the nurse collects data, but the purpose here is to judge progress toward a goal, not to gather initial data.",
+      "The nurse is comparing the client's response with the stated goal, which defines evaluation.",
+      "Planning involves setting goals and choosing interventions, which were already completed.",
+      "The interventions (positioning, oxygen) were already carried out; this step is checking their result."
+    ],
+    "keyFacts": [
+      "Evaluation compares client response with expected outcomes.",
+      "Data collection can occur in assessment and in evaluation; the purpose differs."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np3-018",
+    "area": "NP3",
+    "topic": "Early signs of hypovolemic shock",
+    "archetype": "stable-vs-unstable",
+    "difficulty": 4,
+    "vignette": "A 28-year-old client arrives after a motorcycle collision with a suspected abdominal bleed. The client is awake, speaks normally, and the systolic blood pressure is still in the normal range. The nurse notes a fast pulse, restlessness, and cool skin.",
+    "stem": "Which finding best indicates early compensated shock?",
+    "options": [
+      "Rising heart rate with restlessness and cool skin",
+      "A systolic pressure that has fallen markedly",
+      "Very little urine for many hours",
+      "Unresponsiveness to voice or pain"
+    ],
+    "answerIndex": 0,
+    "strategyTag": "Early recognition: trend and ABC",
+    "reasoning": "1) Notice the clue: blood pressure is still normal. 2) Shock progresses in stages; the first stage is compensated. 3) Early compensation shows up as fast pulse, anxiety or restlessness, and cool, pale skin. 4) Falling blood pressure, prolonged low urine and unresponsiveness are late signs. 5) Choose the earliest signs.",
+    "optionRationales": [
+      "The body compensates early by increasing heart rate and narrowing vessels, producing tachycardia, restlessness and cool skin while blood pressure is still maintained.",
+      "A late finding; low blood pressure appears after compensation fails.",
+      "Reduced output is concerning but typically becomes obvious later than tachycardia and restlessness.",
+      "A very late sign of severe shock and brain hypoperfusion."
+    ],
+    "keyFacts": [
+      "Falling blood pressure is a late sign of shock.",
+      "Tachycardia and restlessness are early signs."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np3-019",
+    "area": "NP3",
+    "topic": "Chest tube drainage system",
+    "archetype": "except-negative-stem",
+    "difficulty": 4,
+    "vignette": "A nurse is caring for a 40-year-old client with a chest tube connected to a water-seal drainage system after trauma to the chest. The client needs to be taken to radiology for imaging. The nurse reviews safe management of the system.",
+    "stem": "Which action by the nurse is inappropriate?",
+    "options": [
+      "Keeping the drainage system below the level of the chest during transport",
+      "Checking that all tubing connections are secure and taped",
+      "Watching for fluctuation of water in the water-seal chamber with breathing",
+      "Clamping the chest tube for the whole trip to radiology"
+    ],
+    "answerIndex": 3,
+    "strategyTag": "Negative stem: find the odd one",
+    "reasoning": "1) Notice the stem asks what is INAPPROPRIATE, so three options will be safe. 2) Test each: below chest level, secure connections and watching fluctuation all follow standard practice. 3) Clamping stops air and fluid escaping, which can cause pressure to build in the chest. 4) Select the option that breaks the rule.",
+    "optionRationales": [
+      "Correct; this helps drainage and prevents fluid from flowing back into the chest.",
+      "Correct; air leaks or disconnections can compromise the system.",
+      "Correct; expected fluctuation shows the system communicates with the pleural space.",
+      "Routine clamping can trap air and fluid and lead to a tension pneumothorax. The tube is normally left unclamped unless a provider orders otherwise or for a brief, specific task."
+    ],
+    "keyFacts": [
+      "Keep the chest drainage system below the chest and the tube unclamped unless ordered.",
+      "Fluctuation in the water-seal chamber is expected with breathing."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np3-020",
+    "area": "NP3",
+    "topic": "Postoperative pulmonary embolism",
+    "archetype": "initial-action-assess-vs-intervene",
+    "difficulty": 5,
+    "vignette": "A 67-year-old client on day 3 after a hip replacement suddenly reports sharp chest pain and shortness of breath. The client is anxious and sweating, with a pulse of 122/min, respirations of 30/min and oxygen saturation of 88% on room air.",
+    "stem": "Which action should the nurse take first?",
+    "options": [
+      "Complete a full head-to-toe assessment before calling the provider",
+      "Raise the head of the bed to a high-Fowler position and apply oxygen per protocol",
+      "Stay with the client, use a calm voice, and teach slow breathing exercises",
+      "Ambulate the client to promote circulation and lung expansion"
+    ],
+    "answerIndex": 1,
+    "strategyTag": "Exception: unstable client needs action now",
+    "reasoning": "1) Recognize the pattern: sudden chest pain and dyspnea after surgery and immobility, with tachycardia and low saturation. 2) Classify the client as unstable, so the rule is to act and support, not complete a long assessment. 3) Apply ABC and Maslow: breathing and oxygenation first. 4) Eliminate full assessment (delay), emotional coaching (not the priority), and ambulation (increases oxygen demand). 5) Choose positioning and oxygen, then call for help.",
+    "optionRationales": [
+      "Assessment is normally first, but this client is unstable; delay in support worsens hypoxemia.",
+      "The picture suggests a pulmonary embolism. Oxygenation is the first physiological need, and this client is unstable, so the nurse acts to support breathing, then calls for help.",
+      "Empathic and helpful, but anxiety is secondary here; it does not correct hypoxemia.",
+      "Activity could worsen the situation and increases oxygen demand; a suspected clot calls for rest."
+    ],
+    "keyFacts": [
+      "Sudden dyspnea and chest pain after surgery may indicate pulmonary embolism.",
+      "In an unstable client, support oxygenation first and summon help."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  }
+]
