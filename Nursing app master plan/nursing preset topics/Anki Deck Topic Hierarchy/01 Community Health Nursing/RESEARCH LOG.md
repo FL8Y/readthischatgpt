@@ -10,9 +10,9 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 24 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, and Chikiting Ligtas, and Approved Types of Water Supply Facilities, and Cold Chain and Logistics Management, and Color and Type of Waste.
+- **Substantive topic drafts expanded:** 25 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, and Target Setting.
 - **Topics verified complete:** 0
-- **Folders still requiring substantive topic-specific expansion:** 53 (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes).
+- **Folders still requiring substantive topic-specific expansion:** 52 (all 77 have a notes file, but most remain initial starter notes).
 - **Drafts awaiting source/content verification:** 24
 - **Research notes present:** 77/77; this is file presence, not research completion.
 - **Completion:** 0% verified topic research. No topic is marked Verified Complete.
@@ -175,8 +175,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
 - [x] **Target Setting** — `Elements of Primary Health Care/Expanded Program on Immunization/Target Setting`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: target definitions; annual target-population estimation; Philippine DOH denominator guidance; monthly/session planning; mapping and reaching underserved groups; vaccine/logistics planning; coverage/dropout calculations; nursing responsibilities; safety; PNLE distinctions; sources.  
+  Sources consulted: DOH NIP Manual of Operations Booklet 7 (Monitoring, Supportive Supervision, and Evaluation; PDF posted 2023); DOH NIP Manual Booklet 9 Annexes (PDF posted 2023); WHO RED microplanning guide (2009); DOH CHD XI NIP page; RA 10152 Official Gazette. Important facts covered: prefer the most accurate updated local infant population data; 2.7% under-one fallback is documented in the 2023-posted manual but itself requires review against current census/DOH guidance; annual/monthly target distinction; operational mapping and monitoring; coverage/dropout formula caveats. Research file: `Elements of Primary Health Care/Expanded Program on Immunization/Target Setting/RESEARCH NOTES.md` (18,244 characters; reopened after save). Unresolved issues: direct PDF retrieval/full page-by-page review and current denominator-factor confirmation remain; do not use the 2023-posted 2.7% factor or supply formulas operationally without checking current DOH instructions. Last action: replaced generic 2,224-character starter with substantive topic-specific research and reopened saved file (2026-10-17). Next action: continue with the next individual topic and source-verify drafts before any completion status.
 - [x] **Vaccine Table** — `Elements of Primary Health Care/Expanded Program on Immunization/Vaccine Table`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 24/77; all 24 remain Drafted — Needs Verification.
-- **Folders still requiring substantive expansion:** 53/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** 25/77; all 25 remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** 52/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -595,3 +595,15 @@ Every directory below was present in the repository's recursive tree at the init
 - Reopened the saved main-branch file and confirmed 15,740 characters plus healthcare waste categories and RA 9003 coverage.
 - Status: **Drafted — Needs Verification**, not Verified Complete. The exact current color table requires the full current DOH manual/order and facility procedure; color alone is not sufficient.
 - Next action: continue to the next individual folder and keep the log/mind map synchronized.
+
+
+## Research Cycle Log — 2026-10-17 (Target Setting — NIP)
+
+- Re-read the complete mandatory `RESEARCH TOPIC GUIDE.md` (15,746 characters) before this cycle. Confirmed the standard requires individual topic research, checked citations, correct folder placement, reopening saved files and an honest final audit.
+- Inspected the existing `Elements of Primary Health Care/Expanded Program on Immunization/Target Setting/RESEARCH NOTES.md`; it was a 2,224-character generic starter note containing unrelated maternal/newborn boilerplate. Replaced it with topic-specific research.
+- Expanded the file to 18,244 characters. It covers target definitions, target-group/geographic/time boundaries, annual population estimates, dated caveat around the 2.7% under-one fallback in the DOH manual posted in 2023, monthly target distribution, microplanning, underserved populations, vaccine/logistics planning, coverage and dropout calculations, nursing safety, Philippine context and PNLE traps.
+- Sources consulted: official DOH NIP Manual Booklet 7 PDF (2023 post; indexed text includes the population-estimate method and caveat); official DOH NIP Booklet 9 Annexes PDF (2023 post; versioned supply formulas); WHO RED microplanning guide (2009, source page opened); DOH CHD XI NIP page; RA 10152 Official Gazette.
+- Reopened the saved file from GitHub and confirmed 18,244 characters, the coverage formula and explicit caution that the 2.7% factor requires current DOH confirmation.
+- Verification limitation: browser could not directly retrieve the DOH PDFs page-by-page during this cycle. Their official indexed PDF text was inspected, but complete direct-PDF/link review and confirmation of current denominator factors remain outstanding. The note is **Drafted — Needs Verification**, not Verified Complete.
+- Coverage reconciliation: 25/77 folders now have substantive drafts, 52/77 still need substantive expansion, and 0/77 are verified complete. The existing 77 files are not evidence of completion.
+- Next action: continue to the next unresearched individual folder; maintain per-topic logging and reopen verification, then complete final recursive source/coverage audit.
