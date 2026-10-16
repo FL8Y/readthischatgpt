@@ -25,3 +25,35 @@ In an emergency, clear directive leadership and closed-loop communication can re
 - AHRQ, TeamSTEPPS: https://www.ahrq.gov/teamstepps/index.html
 - WHO, Patient Safety: https://www.who.int/health-topics/patient-safety
 - PRC, Nursing resources: https://www.prc.gov.ph/nursing
+
+## Selecting a style for the situation
+
+Leadership style should match urgency, task risk, team competence, available information, and the need for staff/patient input. The leader should adapt without abandoning accountability, respect, scope, or safety standards.
+
+- **Urgent deterioration or disaster response:** concise directive leadership can establish priorities, roles, and closed-loop communication. After the event, invite review and learning rather than maintaining command-only behavior unnecessarily.
+- **Quality improvement or workflow redesign:** participative/democratic and transformational behaviors can engage frontline expertise, explain purpose, and build ownership.
+- **Experienced, competent team with clear boundaries:** appropriate delegation can support autonomy, but the leader remains available and monitors outcomes.
+- **Novice staff or unfamiliar high-risk task:** coaching, explicit instructions, supervision, and competency checks are safer than laissez-faire leadership.
+- **Performance or conduct concerns:** transactional clarity about standards and follow-up may be necessary, combined with fair fact-finding, support, and due process.
+
+## Distinguish leadership from delegation
+
+Laissez-faire means limited direction and can become neglect when staff need support. Delegation is a deliberate assignment of a permitted task to a suitable person with clear instructions, supervision, and evaluation. Appropriate delegation does not mean abandoning oversight. A leader should not delegate tasks outside the person's legal scope or validated competence, and must ensure the patient's condition is appropriate for the assignment.
+
+## Leadership, psychological safety, and accountability
+
+A safe leader invites staff to raise concerns, acknowledges uncertainty, responds to errors with learning-oriented inquiry, and addresses unsafe or abusive behavior. Psychological safety is compatible with accountability; it does not require tolerating repeated reckless conduct or suppressing performance standards. A leader must intervene when hierarchy, intimidation, discrimination, or retaliation threatens patient safety or staff welfare.
+
+## Common exam traps
+
+- No style is best for every situation; situational leadership is context-dependent.
+- Democratic leadership can improve participation but may be too slow for an immediate life threat.
+- Directive leadership in an emergency should be clear and respectful, not abusive.
+- Transformational leadership supports vision and change but does not replace operational management or safe staffing.
+- Laissez-faire is not synonymous with trustful delegation; absence of guidance is unsafe when competence or task clarity is inadequate.
+
+## Sources
+
+- AHRQ, **TeamSTEPPS**: https://www.ahrq.gov/teamstepps/index.html
+- WHO, **Patient Safety**: https://www.who.int/health-topics/patient-safety
+- PRC, **Nursing** resources: https://www.prc.gov.ph/nursing
