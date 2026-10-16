@@ -30,6 +30,7 @@
   - Trimesters
   - [[Normal Pregnancy/Trimesters/Research|Pregnancy Trimesters]]
 - Normal Labor and Delivery
+  - [[Normal Labor and Delivery/Fetal Heart Rate Monitoring and Interpretation/Research|Intrapartum Fetal Heart-Rate Monitoring and Interpretation]]
   - Cardinal Signs of Labor
   - [[Normal Labor and Delivery/Cardinal Signs of Labor/Research|Cardinal Signs of Labor]]
   - Components of Labor
