@@ -43,6 +43,9 @@ Fever, uterine tenderness, foul/purulent fluid, maternal or fetal tachycardia, s
 - Cord prolapse, abruption, infection or compromise may make birth urgent.
 - Never memorize a medication regimen without its indication, gestational window and contraindications.
 
+## Source verification note
+The RCOG Green-top Guideline No. 73 page was checked on 2026-10-17. It covers suspected PPROM from 24+0 to 36+6 weeks, states diagnosis follows history and sterile speculum examination, advises that infection markers and fetal heart rate are interpreted together rather than in isolation, and discusses antibiotics, corticosteroids, magnesium sulfate and expectant management. The page records review in October 2024 and extension for two years, while its embedded June 2022 update flags corticosteroid guidance. Source: https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/care-of-women-presenting-with-suspected-preterm-prelabour-rupture-of-membranes-from-24plus0-weeks-of-gestation-green-top-guideline-no-73/ . Gestational thresholds and drug regimens remain subject to full-guideline and local-protocol verification.
+
 ## Sources
 1. ACOG Practice Bulletin No. 217, “Prelabor Rupture of Membranes,” March 2020: https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/03/prelabor-rupture-of-membranes
 2. RCOG Green-top Guideline No. 73, “Care of Women Presenting with Suspected Preterm Prelabour Rupture of Membranes from 24+0 Weeks of Gestation”: https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/care-of-women-presenting-with-suspected-preterm-prelabour-rupture-of-membranes-from-24plus0-weeks-of-gestation-green-top-guideline-no-73/
