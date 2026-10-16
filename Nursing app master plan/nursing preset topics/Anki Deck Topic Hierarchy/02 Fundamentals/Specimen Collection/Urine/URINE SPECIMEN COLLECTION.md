@@ -32,3 +32,8 @@ Color, clarity/turbidity, odor, dipstick, microscopy, and culture must be interp
 - WHO. *WHO Guidelines on Hand Hygiene in Health Care* (2009). https://www.who.int/publications/i/item/9789241597906
 
 **Verification note:** Different tests have distinct requirements. Verify timing, preservative, storage, and catheter collection with the lab before use.
+## PNLE priorities and safety traps
+- A specimen from a catheter drainage bag is not the correct source for a urine culture from an indwelling catheter; use the approved sampling port and aseptic procedure when ordered and within competency.
+- A missed void or wrong start/end time can invalidate a timed collection; report the error and ask whether collection must restart.
+- Cloudiness or odor alone does not establish urinary tract infection. Correlate symptoms, assessment, urinalysis/culture, and clinician evaluation.
+- Acute urinary retention with pain, gross hematuria with instability, fever with systemic deterioration, or other urgent findings require prompt assessment/escalation rather than just routine collection.
