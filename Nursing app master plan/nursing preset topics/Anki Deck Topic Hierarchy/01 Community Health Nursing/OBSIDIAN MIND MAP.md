@@ -118,6 +118,7 @@ These are review prompts, not folders already verified as present:
 - [[Education]] — **Drafted — Needs Verification**
 - [[Essential Drugs]] — **Drafted — Needs Verification**
 - [[Expanded Program on Immunization]] — **Drafted — Needs Verification**
+  - [[Chikiting Ligtas]] — **Drafted — Needs Verification**
   - [[Herbal]] — **Drafted — Needs Verification**
   - [[Identify the Prevention]] — **Drafted — Needs Verification**
   - [[Competency-Based Teaching]] — **Drafted — Needs Verification**
