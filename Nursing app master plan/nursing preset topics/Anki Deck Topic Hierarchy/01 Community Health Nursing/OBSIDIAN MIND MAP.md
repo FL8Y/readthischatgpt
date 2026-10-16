@@ -109,5 +109,6 @@ These are review prompts, not folders already verified as present:
 - [[Characteristics of PHC]] — **Drafted — Needs Verification**
 - [[Primary Health Care]] — **Drafted — Needs Verification**
 - [[Elements of PHC]] — **Drafted — Needs Verification**
+- [[Pillars of PHC]] — **Drafted — Needs Verification**
 
 All other topic folders require their own substantive research and logged verification. See [[RESEARCH LOG]] for the per-folder checklist and remaining work. The existence of a node or research file does not imply completion.
