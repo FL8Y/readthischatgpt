@@ -64,8 +64,8 @@ For each topic, mark status only after checking the actual file in GitHub:
 | 31 | `Others/EINC/Non-Separation and Breastfeeding Initiation` | Uploaded; reopened; clinical audit pending | WHO breastfeeding support guidance (updated 2023); WHO Philippines Unang Yakap; DOH AO 2009-0025 | [Research.md](./Others/EINC/Non-Separation%20and%20Breastfeeding%20Initiation/Research.md) — Reopened (4,297 chars); source section present | Review exceptions, consent and feeding support |
 | 32 | `Others/EINC/Others` | Uploaded; reopened; clinical audit pending | WHO Essential Newborn Care; WHO newborn recommendations; Philippine DOH AO 2009-0025 | [Research.md](./Others/EINC/Others/Research.md) — Reopened (5,040 chars); source section present | Verify current vaccine schedule and newborn medication protocols |
 | 33 | `Others/EINC/Proper Cord Clamping and Cutting` | Uploaded; reopened; clinical audit pending | WHO newborn recommendations (2017); ACOG Committee Opinion No. 814 (2020); DOH AO 2009-0025 | [Research.md](./Others/EINC/Proper%20Cord%20Clamping%20and%20Cutting/Research.md) — Reopened (4,090 chars); source section present | Audit timing and emergency exceptions against current protocol |
-| 34 | `Others/Hormones in Menstrual Cycle` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
-| 35 | `Postpartum Changes` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
+| 34 | `Others/Hormones in Menstrual Cycle` | Uploaded; reopened; clinical audit pending | Endotext Normal Menstrual Cycle; Merck Manual Professional Edition; ACOG menstrual cycle FAQ | [Research.md](./Others/Hormones%20in%20Menstrual%20Cycle/Research.md) — Reopened (3,657 chars); source section present | Audit hormone physiology and source links |
+| 35 | `Postpartum Changes` | Uploaded; reopened; clinical audit pending | WHO postnatal care recommendations (2022); ACOG Optimizing Postpartum Care; ACOG postpartum depression; WHO PPH | [Research.md](./Postpartum%20Changes/Research.md) — Reopened (6,904 chars); source section present | Audit postpartum medication contraindications and local PPH protocol |
 
 ## Additional subject-level coverage gaps to evaluate
 These are not counted as completed topics until the hierarchy is checked for duplicates and each justified item is created/researched:
@@ -83,12 +83,12 @@ These are not counted as completed topics until the hierarchy is checked for dup
 
 ## Status dashboard
 - Leaf topic folders identified: **35**
-- Topics with substantive research files: **33**
-- Topics clinically verified: **0** (all 33 research files have been reopened through GitHub API; detailed clinical/source-link audit remains pending)
-- Remaining leaf topics without substantive files: **2**; thirty-three uploaded topics require final verification
-- Research completion: **0% verified** (0/35 fully verified). Thirty-three substantive topic files exist but are not counted as verified until their clinical/source/link audits are complete.
+- Topics with substantive research files: **35**
+- Topics clinically verified: **0** (all 35 research files have been reopened through GitHub API; detailed clinical/source-link audit remains pending)
+- Remaining leaf topics without substantive files: **0**; all 35 uploaded topics require final clinical/source verification
+- Folder coverage: **100%** (35/35 existing leaf topic folders contain a substantive Research.md file, and all 35 were reopened through GitHub API). Clinical/source verification: **0/35 fully verified**; this is not a final completion claim.
 - Added topics: **0**
 - Blockers: None encountered during initial tree inspection. Full research and per-file upload verification remain outstanding.
-- Last action: Added substantive research files for Abortion, Abruptio Placenta, Cord Prolapse, Ectopic Pregnancy, Gestational Diabetes, Hemolytic Disease of the Newborn, Hydatidiform Mole, Hyperemesis Gravidarum, Placenta Previa, PROM/PPROM, Shoulder Dystocia, Cardinal Signs of Labor, Components of Labor, Stages of Labor, True vs False Labor, Cardiovascular Changes, Endocrine Changes, GI Changes, Other Physiologic Changes, Fetal Well-being, Maternal Well-being, Discomforts/Risk Factors, Fetal Growth/Development, Health Teachings, Signs and Symptoms of Pregnancy, Trimesters, EINC Basics, Immediate Drying/Skin-to-Skin, Non-Separation/Breastfeeding Initiation, EINC Others, Proper Cord Clamping, Cervical Insufficiency and Hypertensive Disorders of Pregnancy. All 33 were reopened through GitHub API; detailed clinical/source verification remains outstanding.
-- Exact next action: Research the two remaining unchecked folders: `Others/Hormones in Menstrual Cycle` and `Postpartum Changes`; then perform a full recursive audit and complete clinical/source verification. Do not equate file creation or reopening with completed clinical verification.
+- Last action: Added substantive research files for all 35 existing leaf folders, including both remaining topics: Hormones in Menstrual Cycle and Postpartum Changes. All 35 research files have now been reopened through GitHub API and returned substantive content with source sections; detailed clinical/source/link verification remains outstanding.
+- Exact next action: Perform a final recursive audit against the live GitHub tree, verify the log/mind-map links and source URLs, clinically review safety-critical recommendations across all 35 files, then update each row only when its criteria are actually verified. Do not claim full completion until that audit is complete.
 - Last reconciled: 2026-10-17 (partial audit; final recursive audit not yet performed).
