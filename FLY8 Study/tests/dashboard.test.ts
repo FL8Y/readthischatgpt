@@ -46,3 +46,12 @@ describe('recommendNext', () => {
     expect(recommendNext(base).title).toBe('Keep your streak going');
   });
 });
+
+describe('points and hints', () => {
+  it('a correct answer that used a hint earns half points', async () => {
+    const { totalPoints } = await import('../src/core/mastery');
+    const NOW = Date.UTC(2026, 9, 16, 12);
+    const ev = (id: string, hinted?: boolean) => ({ id, questionId: id, topicId: 't', correct: true, at: NOW - 5 * 86_400_000, kind: 'pop' as const, hinted });
+    expect(totalPoints([ev('a'), ev('b', true)], NOW)).toBe(15);
+  });
+});

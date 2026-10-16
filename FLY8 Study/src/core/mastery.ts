@@ -1,4 +1,5 @@
 import type { AttemptEvent, Topic } from './types';
+import { answerWeight } from './grading';
 
 const HALF_LIFE_DAYS = 14;
 const DAY_MS = 86_400_000;
@@ -93,7 +94,7 @@ export function currentStreak(events: AttemptEvent[], now: number, tzOffsetMinut
 
 export function totalPoints(events: AttemptEvent[], now: number, tzOffsetMinutes = 0): number {
   const unique = dedupeEvents(events);
-  const correct = unique.filter((e) => e.correct).length * POINTS.correct;
+  const correct = Math.round(unique.reduce((n, e) => n + POINTS.correct * answerWeight(e), 0));
   return correct + currentStreak(unique, now, tzOffsetMinutes) * POINTS.streakDay;
 }
 
