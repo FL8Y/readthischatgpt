@@ -440,3 +440,14 @@
 - [[Prostatectomy]] — [Prostatectomy: Perioperative Nursing Care — PNLE Research.md](./Renal%20and%20Urinary/BPH/Prostatectomy/Prostatectomy:%20Perioperative%20Nursing%20Care%20%E2%80%94%20PNLE%20Research.md)
 - [[Hemodialysis]] — [Hemodialysis: Nursing Care and Complications — PNLE Research.md](./Renal%20and%20Urinary/Hemodialysis/Hemodialysis:%20Nursing%20Care%20and%20Complications%20%E2%80%94%20PNLE%20Research.md)
 - [[Peritoneal Dialysis]] — [Peritoneal Dialysis — PNLE Research.md](./Renal%20and%20Urinary/Peritoneal%20Dialysis/Peritoneal%20Dialysis%20%E2%80%94%20PNLE%20Research.md)
+
+
+## Neurologic research drafts (verification pending)
+- [[Cerebrovascular Accident]] — [Stroke: Ischemic vs Hemorrhagic — PNLE Research.md](./Neuro/Cerebrovascular%20Accident/Stroke:%20Ischemic%20vs%20Hemorrhagic%20%E2%80%94%20PNLE%20Research.md)
+- [[GCS Scoring]] — [Glasgow Coma Scale (GCS) — PNLE Research.md](./Neuro/GCS%20Scoring/Glasgow%20Coma%20Scale%20(GCS)%20%E2%80%94%20PNLE%20Research.md)
+- [[Increased Intracranial Pressure]] — [Increased Intracranial Pressure (ICP) — PNLE Research.md](./Neuro/Increased%20Intracranial%20Pressure/Increased%20Intracranial%20Pressure%20(ICP)%20%E2%80%94%20PNLE%20Research.md)
+- [[Seizure]] — [Seizures and Status Epilepticus — PNLE Research.md](./Neuro/Seizure/Seizures%20and%20Status%20Epilepticus%20%E2%80%94%20PNLE%20Research.md)
+- [[Alzheimer's]] — [Alzheimer Disease and Dementia Nursing Care — PNLE Research.md](./Neuro/Alzheimer's/Alzheimer%20Disease%20and%20Dementia%20Nursing%20Care%20%E2%80%94%20PNLE%20Research.md)
+- [[Parkinson's Disease]] — [Parkinson Disease — PNLE Research.md](./Neuro/Parkinson's%20Disease/Parkinson%20Disease%20%E2%80%94%20PNLE%20Research.md)
+- [[Guillain-Barre Syndrome]] — [Guillain-Barré Syndrome (GBS) — PNLE Research.md](./Neuro/Neuro%20Autoimmune%20Diseases/Guillain-Barre%20Syndrome/Guillain-Barré%20Syndrome%20(GBS)%20%E2%80%94%20PNLE%20Research.md)
+- [[Myasthenia Gravis]] — [Myasthenia Gravis and Myasthenic Crisis — PNLE Research.md](./Neuro/Neuro%20Autoimmune%20Diseases/Myasthenia%20Gravis/Myasthenia%20Gravis%20and%20Myasthenic%20Crisis%20%E2%80%94%20PNLE%20Research.md)
