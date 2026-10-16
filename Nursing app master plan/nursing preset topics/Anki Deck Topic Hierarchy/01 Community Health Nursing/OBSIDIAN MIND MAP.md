@@ -4,6 +4,7 @@
 
 - [[01 Community Health Nursing]]
   - [[CHN, PHC]]
+  - [[Magna Carta of Public Health Workers]] — **Drafted — Needs Verification**
   - [[Clients of CHN]] — **Drafted — Needs Verification**
   - [[People Behind CHN]] — **Drafted — Needs Verification**
     - [[COPAR]]
