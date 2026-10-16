@@ -23,6 +23,7 @@ The user confirmed the reference relationship:
 8. [UX and Learning Specification](./UX_AND_LEARNING_SPEC.md) — user journeys, accessibility, mastery confidence, learning loop, nursing safeguards.
 9. [Decision Log](./DECISION_LOG.md) — confirmed constraints, proposals, and unresolved architecture decisions.
 10. [Implementation Roadmap](./IMPLEMENTATION_ROADMAP.md) — stage gates and dependency-ordered implementation plan; coding remains gated.
+11. [QA Council Review](./QA_COUNCIL_REVIEW.md) — independent planning critique, severity-ranked findings, scorecard, and next correction cycle.
 
 ## Research sources
 
@@ -59,7 +60,8 @@ Directory names above reflect the actual current Git tree; do not silently chang
 - [ ] Re-run available reference tests and record actual results.
 - [ ] Complete the independent architecture council review and apply findings.
 - [x] Fetch all 11 blueprint files from GitHub after upload and confirm they are non-empty.
-- [ ] Click-validate every relative README link and finish link/content review.
+- [x] Parse and validate every relative link in both updated READMEs against the current Git tree.
+- [ ] Finish cross-document content review and address remaining council findings.
 - [ ] Complete planning acceptance gate; implementation still requires separate authorization.
 
 **Important:** A complete path inventory does not mean every binary or every unrelated Claude/Ruflo framework file has been semantically read. See the Repository Audit for exact scope and remaining work.
