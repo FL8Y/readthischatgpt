@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { View } from 'react-native';
+import { ActivityIndicator, Text, View } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 import type { AppState, Topic } from '../core/types';
-import { canTeach } from '../core/diagnostic';
+import { canTeach, completeDiagnostic } from '../core/diagnostic';
 import { currentStreak, planOrder, rankFor, totalPoints } from '../core/mastery';
 import {
   buildPopSession,
@@ -21,69 +22,87 @@ import { pnleModuleQuizRequest, pnlePopQuizRequest } from '../pnle/requests';
 import { parsePnleModuleQuestions } from '../pnle/parse';
 import { Diagnostic } from './Study';
 import { Quiz } from './Quiz';
-import { Btn, Card, Field, H, P, Pill, c } from './kit';
+import { Btn, Card, ChoiceChips, Chip, Divider, EmptyState, H, Header, PressableScale, Screen, TOP_INSET } from './kit';
+import { radius, space, useTheme } from './theme';
 
 const msg = (e: unknown) => (e instanceof Error ? e.message : 'Something went wrong.');
+const POP_COUNTS = [1, 2, 3, 4, 5] as const;
+const MODULE_COUNTS = [10, 20, 30, 50] as const;
 
 /** Study tab: diagnostic gate, then study order, pop quizzes, module quiz and the weakness loop. */
 export function StudyHub({ state, update }: { state: AppState; update: (s: AppState) => void }) {
+  const { colors, type } = useTheme();
   const folder = state.folders[0];
   const [session, setSession] = useState<QuizSession | null>(null);
   const [result, setResult] = useState<SessionResult | null>(null);
-  const [popCount, setPopCount] = useState('3');
-  const [modCount, setModCount] = useState('10');
+  const [popCount, setPopCount] = useState<number>(3);
+  const [modCount, setModCount] = useState<number>(10);
   const [busy, setBusy] = useState('');
   const [err, setErr] = useState('');
   const [note, setNote] = useState('');
   /** The pop/module session just finished, kept so one optional hard round can be offered for it. */
   const [finished, setFinished] = useState<QuizSession | null>(null);
-  if (!folder) return <P>Create a folder in Library first.</P>;
+
+  if (!folder) {
+    return (
+      <View style={{ flex: 1, backgroundColor: colors.bg, paddingTop: TOP_INSET }}>
+        <EmptyState art="notes" title="No folder yet" detail="Create a folder and add notes in More > Library, then come back to study." />
+      </View>
+    );
+  }
 
   const now = Date.now();
   const topics = state.topics.filter((t) => t.folderId === folder.id);
   const points = totalPoints(state.events, now);
   const { rank, level } = rankFor(points);
   const header = (
-    <Card>
-      <H>{folder.name}</H>
-      <View style={{ flexDirection: 'row', gap: 8, flexWrap: 'wrap' }}>
-        <Pill text={`${rank} · level ${level}`} color={c.accent} />
-        <Pill text={`${points} pts`} />
-        <Pill text={`${currentStreak(state.events, now)} day streak`} />
-      </View>
-    </Card>
+    <Header
+      title="Study"
+      subtitle={folder.name}
+      right={<Chip icon="trophy-outline" tone="accent" text={`${rank} · level ${level}`} />}
+    />
   );
 
-  if (!canTeach(state, folder.id)) {
+  if (session) {
+    const isDx = session.kind === 'diagnostic';
     return (
-      <View style={{ gap: 14 }}>
-        {header}
-        <Diagnostic state={state} update={update} folder={folder} />
-      </View>
+      <Quiz
+        state={state}
+        update={update}
+        session={session}
+        onCancel={() => setSession(null)}
+        onDone={(r) => {
+          if (isDx) {
+            update(completeDiagnostic(state, folder.id));
+            setNote(`Diagnostic done: ${r.correct}/${r.total} correct. Your lessons are unlocked.`);
+          } else if (session.id.startsWith(HARD_PREFIX)) {
+            setNote(`Hard round done: ${r.correct}/${r.total} correct.`);
+          } else {
+            setResult(r.kind === 'module' ? r : null);
+            setNote(r.kind === 'pop' ? `Pop quiz done: ${r.correct}/${r.total} correct.` : '');
+            setFinished(session);
+          }
+          setSession(null);
+        }}
+      />
     );
   }
 
-  if (session) {
+  if (!canTeach(state, folder.id)) {
     return (
-      <View style={{ gap: 14 }}>
+      <View style={{ flex: 1, backgroundColor: colors.bg }}>
         {header}
-        <Quiz
-          state={state}
-          update={update}
-          session={session}
-          onCancel={() => setSession(null)}
-          onDone={(r) => {
-            const isHard = session.id.startsWith(HARD_PREFIX);
-            if (isHard) {
-              setNote(`Hard round done: ${r.correct}/${r.total} correct.`);
-            } else {
-              setResult(r.kind === 'module' ? r : null);
-              setNote(r.kind === 'pop' ? `Pop quiz done: ${r.correct}/${r.total} correct.` : '');
-              setFinished(session);
-            }
-            setSession(null);
-          }}
-        />
+        <Screen>
+          {err ? <Chip tone="danger" icon="close-circle-outline" text={err} /> : null}
+          <Diagnostic
+            state={state}
+            folder={folder}
+            onSession={(s, n) => {
+              setErr(n ?? '');
+              setSession(s);
+            }}
+          />
+        </Screen>
       </View>
     );
   }
@@ -104,7 +123,7 @@ export function StudyHub({ state, update }: { state: AppState; update: (s: AppSt
   const popQuiz = (topic: Topic) =>
     run(`pop-${topic.id}`, async () => {
       const t = Date.now();
-      const n = Math.round(Number(popCount));
+      const n = Math.round(popCount);
       if (!Number.isFinite(n) || n < 1 || n > 5) throw new Error('Pop quiz length must be 1-5.');
       const id = `pop-${t}-${topic.id}`;
       const questions = parseMixedQuestions(await callModel(state.settings, pnlePopQuizRequest(state, topic, n, t)), topic.id, id);
@@ -118,7 +137,7 @@ export function StudyHub({ state, update }: { state: AppState; update: (s: AppSt
   const moduleQuiz = () =>
     run('module', async () => {
       const t = Date.now();
-      const plan = moduleBlueprint(topics, state.events, t, Math.round(Number(modCount)));
+      const plan = moduleBlueprint(topics, state.events, t, Math.round(modCount));
       if (!plan.ok) throw new Error(plan.error);
       // Manual mode asks in parts of 10 (the blueprint is split to match); API modes make one call.
       const total = plan.value.reduce((n, b) => n + b.count, 0);
@@ -169,76 +188,149 @@ export function StudyHub({ state, update }: { state: AppState; update: (s: AppSt
       setNote(`Added ${added.length} new topic(s): ${added.map((a) => a.title).join(', ')}. Take a pop quiz on them next.`);
     });
 
+  const order = planOrder(topics, state.events, now);
+  const streak = currentStreak(state.events, now);
+
   return (
-    <View style={{ gap: 14 }}>
+    <View style={{ flex: 1, backgroundColor: colors.bg }}>
       {header}
-      {note ? <P>{note}</P> : null}
-      {err ? <P>{err}</P> : null}
+      <Screen>
+        {busy ? (
+          <Card tone="tinted">
+            <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.md }}>
+              <ActivityIndicator color={colors.accent} />
+              <Text style={[type('bodyStrong'), { color: colors.text, flex: 1 }]}>
+                {busy === 'module' ? 'Writing your quiz' : busy === 'fix' ? 'Writing new topics' : 'Writing your questions'}
+              </Text>
+            </View>
+          </Card>
+        ) : null}
+        {note ? (
+          <Card tone="tinted">
+            <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.md }}>
+              <Ionicons name="checkmark-circle" size={24} color={colors.success} />
+              <Text style={[type('bodyStrong'), { color: colors.text, flex: 1 }]}>{note}</Text>
+            </View>
+          </Card>
+        ) : null}
+        {err ? <Chip tone="danger" icon="close-circle-outline" text={err} /> : null}
+        {streak > 0 && !note && !busy ? <Chip tone="warning" icon="flame" text={`${streak} day streak. Keep it going.`} /> : null}
 
-      {showHard ? (
+        {showHard ? (
+          <Card>
+            <H>Hard round</H>
+            <Text style={[type('body'), { color: colors.textDim }]}>One optional follow-up on what you missed or needed a hint for (up to 5).</Text>
+            <Btn label={`Hard round (${hardQs.length} missed)`} disabled={!!busy} onPress={startHardRound} />
+          </Card>
+        ) : null}
+
         <Card>
-          <H>Hard round</H>
-          <P dim>One optional follow-up on what you missed or needed a hint for (up to 5).</P>
-          <Btn label={`Hard round (${hardQs.length} missed)`} disabled={!!busy} onPress={startHardRound} />
-        </Card>
-      ) : null}
-
-      <Card>
-        <H>Your study order</H>
-        {planOrder(topics, state.events, now).map((p, n) => (
-          <View key={p.topicId} style={{ gap: 6 }}>
-            <P>
-              {n + 1}. {p.title} <P dim>— {p.reason}</P>
-            </P>
-            <Btn
-              label={busy === `pop-${p.topicId}` ? 'Writing questions...' : `Pop quiz: ${p.title}`}
-              kind="ghost"
-              disabled={!!busy}
-              onPress={() => void popQuiz(topics.find((t) => t.id === p.topicId)!)}
-            />
+          <H>Your study order</H>
+          <Text style={[type('caption'), { color: colors.textDim }]}>Weakest first. Tap a topic for a pop quiz.</Text>
+          <Text style={[type('label'), { color: colors.textDim }]}>Questions per pop quiz</Text>
+          <ChoiceChips options={POP_COUNTS} value={popCount} onChange={setPopCount} label="Questions per pop quiz" />
+          <View>
+            {order.map((p, n) => (
+              <View key={p.topicId}>
+                {n > 0 ? <Divider /> : null}
+                <StudyRow
+                  index={n + 1}
+                  title={p.title}
+                  reason={p.reason}
+                  busy={busy === `pop-${p.topicId}`}
+                  disabled={!!busy}
+                  onPress={() => void popQuiz(topics.find((t) => t.id === p.topicId)!)}
+                />
+              </View>
+            ))}
           </View>
-        ))}
-        <Field label="Pop quiz questions (1-5)" value={popCount} onChangeText={setPopCount} keyboardType="number-pad" />
-      </Card>
-
-      <Card>
-        <H>Module quiz</H>
-        <P dim>Covers every topic in this folder; weaker topics get more questions.</P>
-        <Field label={`Questions (10-50, at least ${topics.length})`} value={modCount} onChangeText={setModCount} keyboardType="number-pad" />
-        <Btn label={busy === 'module' ? 'Writing quiz...' : 'Module quiz'} disabled={!!busy || topics.length === 0} onPress={() => void moduleQuiz()} />
-      </Card>
-
-      {result ? (
-        <Card>
-          <H>Module quiz result</H>
-          <P>
-            {result.correct} of {result.total} correct.
-          </P>
-          {result.perTopic.map((s) => (
-            <P key={s.topicId} dim>
-              {titleOf(s.topicId)}: {s.correct}/{s.total}
-            </P>
-          ))}
         </Card>
-      ) : null}
 
-      {result || plan.items.length > 0 ? (
         <Card>
-          <H>Weaknesses</H>
-          {plan.items.length === 0 ? <P dim>No weak topics right now.</P> : null}
-          {plan.items.map((w, n) => (
-            <P key={w.topicId}>
-              {n + 1}. {w.title} <P dim>— {w.reason}</P>
-            </P>
-          ))}
-          {plan.mastered.length ? <P dim>Skipping mastered: {plan.mastered.map(titleOf).join(', ')}.</P> : null}
-          <Btn
-            label={busy === 'fix' ? 'Writing topics...' : 'Generate fix topics'}
-            disabled={!!busy || plan.items.length === 0}
-            onPress={() => void fixTopics()}
-          />
+          <H>Module quiz</H>
+          <Text style={[type('body'), { color: colors.textDim }]}>Covers every topic in this folder; weaker topics get more questions.</Text>
+          <Text style={[type('label'), { color: colors.textDim }]}>{`Questions (at least ${topics.length})`}</Text>
+          <ChoiceChips options={MODULE_COUNTS} value={modCount} onChange={setModCount} label="Module quiz length" />
+          <Btn label={busy === 'module' ? 'Writing quiz...' : 'Start module quiz'} disabled={!!busy || topics.length === 0} onPress={() => void moduleQuiz()} />
         </Card>
-      ) : null}
+
+        {result ? (
+          <Card tone="tinted">
+            <H>Module quiz result</H>
+            <Text style={[type('display'), { color: colors.accentText }]}>
+              {result.correct}/{result.total}
+            </Text>
+            {result.perTopic.map((s) => (
+              <Text key={s.topicId} style={[type('body'), { color: colors.textDim }]}>
+                {titleOf(s.topicId)}: {s.correct}/{s.total}
+              </Text>
+            ))}
+          </Card>
+        ) : null}
+
+        {result || plan.items.length > 0 ? (
+          <Card>
+            <H>Weaknesses</H>
+            {plan.items.length === 0 ? <Text style={[type('body'), { color: colors.textDim }]}>No weak topics right now.</Text> : null}
+            {plan.items.map((w, n) => (
+              <View key={w.topicId} style={{ gap: 2 }}>
+                <Text style={[type('bodyStrong'), { color: colors.text }]}>
+                  {n + 1}. {w.title}
+                </Text>
+                <Text style={[type('caption'), { color: colors.textDim }]}>{w.reason}</Text>
+              </View>
+            ))}
+            {plan.mastered.length ? (
+              <Text style={[type('caption'), { color: colors.textDim }]}>Skipping mastered: {plan.mastered.map(titleOf).join(', ')}.</Text>
+            ) : null}
+            <Btn
+              label={busy === 'fix' ? 'Writing topics...' : 'Generate fix topics'}
+              kind="ghost"
+              disabled={!!busy || plan.items.length === 0}
+              onPress={() => void fixTopics()}
+            />
+          </Card>
+        ) : null}
+      </Screen>
     </View>
+  );
+}
+
+/** One topic in the study order with a quiet "Quiz" action; the whole row is tappable. */
+function StudyRow({
+  index,
+  title,
+  reason,
+  busy,
+  disabled,
+  onPress,
+}: {
+  index: number;
+  title: string;
+  reason: string;
+  busy: boolean;
+  disabled: boolean;
+  onPress: () => void;
+}) {
+  const { colors, type } = useTheme();
+  return (
+    <PressableScale
+      accessibilityRole="button"
+      accessibilityLabel={`Pop quiz: ${title}. ${reason}`}
+      accessibilityState={{ disabled }}
+      disabled={disabled}
+      onPress={onPress}
+      scaleTo={0.985}
+      style={{ minHeight: 64, flexDirection: 'row', alignItems: 'center', gap: space.md, paddingVertical: space.md, opacity: disabled && !busy ? 0.55 : 1 }}
+    >
+      <View style={{ width: 32, height: 32, borderRadius: radius.pill, backgroundColor: colors.accentSoft, alignItems: 'center', justifyContent: 'center' }}>
+        <Text style={[type('label', 'semibold'), { color: colors.accentText }]}>{index}</Text>
+      </View>
+      <View style={{ flex: 1, minWidth: 0 }}>
+        <Text style={[type('bodyStrong'), { color: colors.text }]}>{title}</Text>
+        <Text style={[type('caption'), { color: colors.textDim }]}>{reason}</Text>
+      </View>
+      {busy ? <ActivityIndicator color={colors.accent} /> : <Chip tone="accent" icon="flash-outline" text="Quiz" />}
+    </PressableScale>
   );
 }

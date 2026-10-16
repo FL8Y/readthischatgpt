@@ -1,11 +1,17 @@
 import React, { useEffect, useState } from 'react';
-import { View } from 'react-native';
+import { Text, View } from 'react-native';
 import type { AppState } from '../core/types';
 import { currentStreak, levelProgress, recommendNext, totalPoints, weakTopics } from '../core/mastery';
 import { countDueCards } from '../srs/store';
-import { Btn, Card, EmptyState, H, P, Pill, ProgressBar, c, sp } from './kit';
+import { Card, Header, Illustration, ListRow, PressableScale, ProgressRing, Screen, StatTile } from './kit';
+import { radius, space, useTheme } from './theme';
 
-export function Dashboard({ state, go }: { state: AppState; go: (tab: 'study' | 'library') => void }) {
+type Go = (tab: 'study' | 'library' | 'review') => void;
+
+const greeting = (h: number) => (h < 5 ? 'Late night study' : h < 12 ? 'Good morning' : h < 18 ? 'Good afternoon' : 'Good evening');
+
+export function Dashboard({ state, go }: { state: AppState; go: Go }) {
+  const { colors, type } = useTheme();
   const now = Date.now();
   const [due, setDue] = useState(0);
   useEffect(() => {
@@ -24,54 +30,76 @@ export function Dashboard({ state, go }: { state: AppState; go: (tab: 'study' | 
   });
 
   return (
-    <View style={{ gap: sp.md }}>
-      <Card>
-        <P dim>Recommended next</P>
-        <H>{next.title}</H>
-        <P dim>{next.detail}</P>
-        <Btn label={next.tab === 'library' ? 'Open Library' : 'Open Study'} onPress={() => go(next.tab)} />
-      </Card>
-
-      <Card>
-        <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
-          <H>{lv.rank}</H>
-          <Pill text={`Level ${lv.level}`} color={c.accent} />
+    <View style={{ flex: 1, backgroundColor: colors.bg }}>
+      <Header title={greeting(new Date(now).getHours())} subtitle="Ready to study?" />
+      <Screen>
+        {/* Today's focus: the one thing to do next */}
+        <View style={{ backgroundColor: colors.accent, borderRadius: radius.xl, padding: space.xl, gap: space.md }}>
+          <Text style={[type('label'), { color: colors.onAccent, opacity: 0.85 }]}>Today's focus</Text>
+          <Text accessibilityRole="header" style={[type('title'), { color: colors.onAccent }]}>
+            {next.title}
+          </Text>
+          <Text style={[type('body'), { color: colors.onAccent, opacity: 0.92 }]}>{next.detail}</Text>
+          <PressableScale
+            accessibilityRole="button"
+            accessibilityLabel={next.tab === 'library' ? 'Open Library' : 'Open Study'}
+            onPress={() => go(next.tab)}
+            style={{ minHeight: 48, borderRadius: radius.md, backgroundColor: '#FFFFFF', alignItems: 'center', justifyContent: 'center', marginTop: space.xs }}
+          >
+            <Text style={[type('bodyStrong'), { color: '#3730A3' }]}>{next.tab === 'library' ? 'Add notes' : 'Start now'}</Text>
+          </PressableScale>
         </View>
-        <ProgressBar value={lv.fraction} label={`Progress to level ${lv.level + 1}`} />
-        <P dim>
-          {points} points. {lv.toNext} more to level {lv.level + 1}.
-        </P>
-      </Card>
 
-      <View style={{ flexDirection: 'row', gap: sp.md }}>
-        <View style={{ flex: 1 }}>
-          <Card>
-            <P dim>Streak</P>
-            <H>{streak === 1 ? '1 day' : `${streak} days`}</H>
-          </Card>
+        <View style={{ flexDirection: 'row', gap: space.md }}>
+          <StatTile icon="flame" value={String(streak)} label="day streak" tone="warning" />
+          <StatTile icon="star" value={String(points)} label="points" />
+          <PressableScale
+            accessibilityRole="button"
+            accessibilityLabel={`${due} cards due. Open Review`}
+            onPress={() => go('review')}
+            style={{ flex: 1, minWidth: 0 }}
+          >
+            <StatTile icon="layers" value={String(due)} label="cards due" tone="success" />
+          </PressableScale>
         </View>
-        <View style={{ flex: 1 }}>
-          <Card>
-            <P dim>Reviews due</P>
-            <H>{due}</H>
-            <P dim>{due ? 'Open the Review tab to clear them.' : 'No cards due right now.'}</P>
-          </Card>
-        </View>
-      </View>
 
-      <Card>
-        <H>Topics to work on</H>
-        {weak.length ? (
-          weak.map((w) => (
-            <View key={w.topicId} style={{ gap: sp.xs }}>
-              <P>{w.title}</P>
-              <P dim>{w.reason}</P>
+        <Card>
+          <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.lg }}>
+            <ProgressRing value={lv.fraction} label={`Progress to level ${lv.level + 1}`}>
+              <Text style={[type('headline'), { color: colors.text }]}>{lv.level}</Text>
+            </ProgressRing>
+            <View style={{ flex: 1, gap: 2 }}>
+              <Text accessibilityRole="header" style={[type('headline'), { color: colors.text }]}>
+                {lv.rank}
+              </Text>
+              <Text style={[type('body'), { color: colors.textDim }]}>
+                {lv.toNext} points to level {lv.level + 1}
+              </Text>
             </View>
-          ))
-        ) : (
-          <EmptyState title="No weak topics yet" detail="Answer some quiz questions and the topics you miss will show up here." />
-        )}
-      </Card>
+          </View>
+        </Card>
+
+        <Card>
+          <Text accessibilityRole="header" style={[type('headline'), { color: colors.text }]}>
+            Topics to work on
+          </Text>
+          {weak.length ? (
+            <View>
+              {weak.map((w) => (
+                <ListRow key={w.topicId} title={w.title} detail={w.reason} icon="trending-down" onPress={() => go('study')} />
+              ))}
+            </View>
+          ) : (
+            <View style={{ alignItems: 'center', gap: space.sm }}>
+              <Illustration kind="quiz" />
+              <Text style={[type('bodyStrong'), { color: colors.text }]}>Nothing weak yet</Text>
+              <Text style={[type('body'), { color: colors.textDim, textAlign: 'center' }]}>
+                Answer some quiz questions and the topics you miss will show up here.
+              </Text>
+            </View>
+          )}
+        </Card>
+      </Screen>
     </View>
   );
 }
