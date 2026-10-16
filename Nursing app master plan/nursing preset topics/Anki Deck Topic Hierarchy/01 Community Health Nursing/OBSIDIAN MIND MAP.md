@@ -15,6 +15,7 @@
       - [[DOH Concepts]]
       - [[Functions of DOH]] — **Drafted — Needs Verification**
     - [[Family ADPIE]]
+  - [[Evaluation]] — **Drafted — Needs Verification**
   - [[Implementation]] — **Drafted — Needs Verification**
   - [[Assessment]] — **Drafted — Needs Verification**
       - [[Assessment]]
