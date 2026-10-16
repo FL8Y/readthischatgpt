@@ -17,7 +17,7 @@
 | R-010 | Topic mind map and cross-topic connections | TopicGraph, ConceptLink, graph projection | Graph renders known relations, navigates to topic, and works with keyboard/screen reader alternatives | Content relations, UI | Planned |
 | R-011 | Detailed AI explanations | Lesson and Tutor service | Output follows schema, links sources, and handles unsupported questions honestly | Provider strategy, grounding | Planned |
 | R-012 | 1–5 question topic pop quiz | Assessment policy / TopicQuiz | Configured quiz count 1–5 is enforced by service and UI; feedback appears after each answer | Question schema | Planned |
-| R-013 | Instant feedback and wrong-answer rationale | AnswerEvaluation, Rationale | Correctness and rationale are tied to the versioned question; unsupported rationale flagged | Valid question key, source grounding | Planned |
+| R-013 | Instant feedback and wrong-answer rationale | AnswerEvaluation, Rationale | Correctness and rationale are tied to the versioned question; unsupported rationale flagged; learner payload contains no answer key before submission; ordering/matching grading survives presentation shuffle | Valid question key, source grounding, answer-key boundary | Planned |
 | R-014 | Comprehensive module quiz | ModuleAssessment | Assessment covers configured topic blueprint and reports coverage, score, and weak areas | Taxonomy, assessment blueprint | Planned |
 | R-015 | Targeted new topics after module assessment | RemediationPlan | Weak topics produce prioritized review/lesson tasks without repeating mastered material unnecessarily | Mastery model | Planned |
 | R-016 | Repeat learning cycle | Adaptive Plan Engine | Completing remediation triggers updated plan using new evidence, not a blind reset | Event ledger | Planned |
@@ -27,7 +27,7 @@
 | R-020 | Tutor discussion mode | TutorSession, TutorMessage, SourceContext | Follow-ups retain intended context; source-grounded answers expose relevant references when available | Provider, privacy | Planned |
 | R-021 | First-launch AI key setup | Credential Settings | First-run setup supports valid/missing/invalid key states and key rotation/removal | Provider design | Planned |
 | R-022 | Local secure credential storage | Credential boundary | No keys in logs, backups, crash reports, or source; threat model documents extraction limits | Platform choice | Planned |
-| R-023 | Provider/network errors handled gracefully | Provider Adapter, RetryPolicy | Tests cover timeout, rate limit, auth error, malformed output, no network, and exhausted retries | AI contracts | Planned |
+| R-023 | Provider/network errors handled gracefully | Provider Adapter, RetryPolicy | Tests cover timeout, rate limit, auth error, malformed output, no network, exhausted retries, and secret redaction | AI contracts | Planned |
 | R-024 | Flashcards generated from topics | Card Generator, Flashcard | Cards preserve source/topic linkage and are editable or suppressible by user | Content schema | Planned |
 | R-025 | Spaced review depends on recall and weaknesses | Scheduler, ReviewEvent, CardState | Fixed time/rating fixtures yield deterministic due dates; Again/Hard/Good/Easy behaviors documented | Scheduler choice | Planned |
 | R-026 | Weak cards reviewed more often | Scheduling policy | Incorrect/relearning cards enter shorter review intervals per chosen algorithm | Scheduler policy | Planned |
@@ -36,7 +36,7 @@
 | R-029 | Mobile accessibility and usability | Design system, screen states | Contrast, dynamic text, touch targets, semantic labels, screen reader and error states verified | Platform, UX | Planned |
 | R-030 | Clinical-content reliability | Source provenance, content review state | Unsupported facts are not attributed to sources; conflicting sources are flagged; educational limitation is visible | Grounding/review workflow | Planned |
 | R-031 | Cost/rate control for AI | AI usage policy | Limits, retries, generation cache, cancellation, and spend telemetry (without secrets) tested | Provider strategy | Planned |
-| R-032 | Testability and evidence | QA / CI / audit receipts | Each feature has unit/integration/device criteria and exact test receipts | Stack and CI | Planned |
+| R-032 | Testability and evidence | QA / CI / audit receipts | Each feature has unit/integration/device criteria and exact test receipts; concurrent generation/refill is idempotent; attempt/reward events cannot duplicate | Stack and CI | Planned |
 
 ## Cross-cutting invariants
 
