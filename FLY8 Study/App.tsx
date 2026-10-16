@@ -6,17 +6,19 @@ import { Dashboard } from './src/ui/Dashboard';
 import { Library } from './src/ui/Library';
 import { StudyHub } from './src/ui/StudyHub';
 import { Graph } from './src/ui/Graph';
+import { Topics } from './src/ui/Topics';
 import { Settings } from './src/ui/Settings';
 import { Onboarding } from './src/ui/Onboarding';
 import { H, P, Screen, TOUCH, c, sp } from './src/ui/kit';
 
-type Tab = 'home' | 'study' | 'library' | 'map' | 'settings';
+type Tab = 'home' | 'study' | 'topics' | 'library' | 'map' | 'settings';
 type Ctx = { state: AppState; update: (s: AppState) => void; go: (t: Tab) => void };
 
 /** One entry per tab. To add or change a screen, edit only its `render`. */
 const TABS: { id: Tab; label: string; icon: string; render: (x: Ctx) => React.ReactNode }[] = [
   { id: 'home', label: 'Home', icon: '⌂', render: (x) => <Dashboard state={x.state} go={x.go} /> },
   { id: 'study', label: 'Study', icon: '✎', render: (x) => <StudyHub state={x.state} update={x.update} /> },
+  { id: 'topics', label: 'Learn', icon: '☰', render: (x) => <Topics state={x.state} /> },
   { id: 'library', label: 'Library', icon: '▤', render: (x) => <Library state={x.state} update={x.update} /> },
   { id: 'map', label: 'Map', icon: '◎', render: (x) => <Graph state={x.state} /> },
   { id: 'settings', label: 'Settings', icon: '⚙', render: (x) => <Settings state={x.state} update={x.update} /> },
