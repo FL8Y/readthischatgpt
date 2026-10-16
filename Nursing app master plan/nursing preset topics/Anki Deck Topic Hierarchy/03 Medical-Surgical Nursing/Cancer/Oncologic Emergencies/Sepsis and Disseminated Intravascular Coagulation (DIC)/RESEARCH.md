@@ -22,4 +22,6 @@ DIC is systemic coagulation activation with widespread clot formation, consumpti
 - Society of Critical Care Medicine, **Surviving Sepsis Campaign Guidelines and Resources**: https://www.sccm.org/survivingsepsiscampaign/guidelines-and-resources
 - OpenStax, **Medical-Surgical Nursing** (2024): https://openstax.org/books/medical-surgical-nursing/pages/index
 
+- Merck Manual Professional Edition, **Disseminated Intravascular Coagulation (DIC)** (full review July 2025; page last updated July 2026): https://www.merckmanuals.com/professional/hematology/coagulation-disorders/disseminated-intravascular-coagulation-dic
+
 > Regimens, fluid strategy, coagulation support and transfusion thresholds are context-dependent; use current applicable guidance and local protocol.
