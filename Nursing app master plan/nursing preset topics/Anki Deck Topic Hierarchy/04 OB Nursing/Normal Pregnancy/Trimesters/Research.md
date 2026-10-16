@@ -7,6 +7,20 @@ Pregnancy is conventionally dated from the first day of the last menstrual perio
 - **Third trimester:** 28 weeks until birth.
 Some resources use slightly different boundary wording; state gestational age in weeks and days when clinical precision matters.
 
+## Dating and trimester boundaries versus clinical milestones
+Use gestational age in weeks and days for decisions. The trimester cutoffs above are a conventional nursing framework; screening windows are tied to the specific test and guideline, not to the trimester label alone.
+
+| Approximate timing | Common focus (subject to local protocol) | Safety note |
+|---|---|---|
+| First trimester | Establish dating and pregnancy location when indicated; baseline risk/history and screening; review medicines, folate, exposures and symptoms. | Pain/bleeding with a positive test requires consideration of ectopic pregnancy until location is established. |
+| Around 11–14 weeks | Some fetal screening/dating options occur in this window, depending on national program and test availability. | Screening options and eligibility differ; explain screening vs diagnostic testing and obtain appropriate consent. |
+| Around 18–22 weeks | Detailed fetal anatomy ultrasound is commonly scheduled during this interval in many systems. | A normal anatomy scan does not exclude every structural/genetic condition or later complication. |
+| Around 24–28 weeks | Gestational-diabetes screening commonly occurs if not diagnosed earlier, with timing/strategy depending on local guideline. | Do not combine thresholds from one-step 75-g OGTT and two-step screening systems. |
+| Third trimester | Fetal growth/movement, maternal BP and preeclampsia symptoms, fetal presentation and birth planning are reviewed according to risk. | Surveillance frequency and delivery timing are individualized, not determined by trimester alone. |
+
+These windows are general clinical examples, not a claim of a single Philippine DOH timetable. Confirm the current local antenatal testing calendar and individual indications.
+
+
 ## First trimester: priorities
 - Confirm pregnancy, establish gestational age and assess pregnancy location/viability when indicated.
 - Review medical/obstetric history, medicines, allergies, exposures and prenatal screening.
