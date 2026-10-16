@@ -12,10 +12,11 @@ import {
   type QuizSession,
   type SessionResult,
 } from '../core/quiz';
-import { callModel, parseQuestions } from '../ai/provider';
+import { callModel } from '../ai/provider';
+import { parseMixedQuestions } from '../core/questionParse';
+import { HARD_PREFIX, buildHardSession, hardRoundDone, hardRoundQuestions } from '../core/hardRound';
 import { extractJson } from '../core/provenance';
-import { popQuizRequest } from '../ai/prompts';
-import { moduleQuizRequest, remediationRequest } from '../ai/quizPrompts';
+import { mixedModuleQuizRequest, mixedPopQuizRequest, remediationRequest } from '../ai/quizPrompts';
 import { Diagnostic } from './Study';
 import { Quiz } from './Quiz';
 import { Btn, Card, Field, H, P, Pill, c } from './kit';
@@ -32,6 +33,8 @@ export function StudyHub({ state, update }: { state: AppState; update: (s: AppSt
   const [busy, setBusy] = useState('');
   const [err, setErr] = useState('');
   const [note, setNote] = useState('');
+  /** The pop/module session just finished, kept so one optional hard round can be offered for it. */
+  const [finished, setFinished] = useState<QuizSession | null>(null);
   if (!folder) return <P>Create a folder in Library first.</P>;
 
   const now = Date.now();
@@ -68,8 +71,14 @@ export function StudyHub({ state, update }: { state: AppState; update: (s: AppSt
           session={session}
           onCancel={() => setSession(null)}
           onDone={(r) => {
-            setResult(r.kind === 'module' ? r : null);
-            setNote(r.kind === 'pop' ? `Pop quiz done: ${r.correct}/${r.total} correct.` : '');
+            const isHard = session.id.startsWith(HARD_PREFIX);
+            if (isHard) {
+              setNote(`Hard round done: ${r.correct}/${r.total} correct.`);
+            } else {
+              setResult(r.kind === 'module' ? r : null);
+              setNote(r.kind === 'pop' ? `Pop quiz done: ${r.correct}/${r.total} correct.` : '');
+              setFinished(session);
+            }
             setSession(null);
           }}
         />
@@ -96,10 +105,11 @@ export function StudyHub({ state, update }: { state: AppState; update: (s: AppSt
       const n = Math.round(Number(popCount));
       if (!Number.isFinite(n) || n < 1 || n > 5) throw new Error('Pop quiz length must be 1-5.');
       const id = `pop-${t}-${topic.id}`;
-      const questions = parseQuestions(await callModel(state.settings, popQuizRequest(state, topic, n, t)), topic.id, id);
+      const questions = parseMixedQuestions(await callModel(state.settings, mixedPopQuizRequest(state, topic, n, t)), topic.id, id);
       const built = buildPopSession(topic, questions.slice(0, n), id, t);
       if (!built.ok) throw new Error(built.error);
       setResult(null);
+      setFinished(null);
       setSession(built.value);
     });
 
@@ -108,12 +118,22 @@ export function StudyHub({ state, update }: { state: AppState; update: (s: AppSt
       const t = Date.now();
       const plan = moduleBlueprint(topics, state.events, t, Math.round(Number(modCount)));
       if (!plan.ok) throw new Error(plan.error);
-      const raw = await callModel(state.settings, moduleQuizRequest(state, topics, plan.value, t));
+      const raw = await callModel(state.settings, mixedModuleQuizRequest(state, topics, plan.value, t));
       const built = parseModuleQuestions(extractJson(raw), topics, folder.id, `mod-${t}`, t);
       if (!built.ok) throw new Error(built.error);
       setResult(null);
+      setFinished(null);
       setSession(built.value);
     });
+
+  const hardQs = finished ? hardRoundQuestions(finished, state.events) : [];
+  const showHard = !!finished && hardQs.length > 0 && !hardRoundDone(finished, state.events);
+  const startHardRound = () => {
+    if (!finished) return;
+    setErr('');
+    setNote('');
+    setSession(buildHardSession(finished, hardQs, Date.now()));
+  };
 
   const plan = remediationPlan(topics, state.events, now);
   const titleOf = (id: string) => topics.find((t) => t.id === id)?.title ?? id;
@@ -133,6 +153,14 @@ export function StudyHub({ state, update }: { state: AppState; update: (s: AppSt
       {header}
       {note ? <P>{note}</P> : null}
       {err ? <P>{err}</P> : null}
+
+      {showHard ? (
+        <Card>
+          <H>Hard round</H>
+          <P dim>One optional follow-up on what you missed or needed a hint for (up to 5).</P>
+          <Btn label={`Hard round (${hardQs.length} missed)`} disabled={!!busy} onPress={startHardRound} />
+        </Card>
+      ) : null}
 
       <Card>
         <H>Your study order</H>

@@ -2,6 +2,7 @@ import type { AttemptEvent, AttemptKind, Question, Topic } from './types';
 import { dedupeEvents, estimateMastery } from './mastery';
 import { POP_QUIZ_MAX, POP_QUIZ_MIN } from './diagnostic';
 import { slugify } from './vault';
+import { parseQuestionItem } from './questionParse';
 
 export const MODULE_QUIZ_MIN = 10;
 export const MODULE_QUIZ_MAX = 50;
@@ -94,6 +95,12 @@ export function parseModuleQuestions(
   const questions: Question[] = [];
   for (const q of list) {
     const topic = typeof q?.topic === 'string' ? byTitle.get(q.topic.trim().toLowerCase()) : undefined;
+    if (topic && q.kind !== undefined && q.kind !== 'choice') {
+      // Non-choice kinds (typing, cloze, matching, ordering) go through the strict mixed-kind parser.
+      const parsed = parseQuestionItem(q, topic.id, `${sessionId}-${questions.length}`);
+      if (parsed) questions.push(parsed);
+      continue;
+    }
     const ok =
       topic &&
       typeof q.stem === 'string' &&

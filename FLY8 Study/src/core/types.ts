@@ -47,13 +47,26 @@ export interface Topic {
   aliases?: string[];
 }
 
+export type QuestionKind = 'choice' | 'typing' | 'cloze' | 'matching' | 'ordering';
+
 export interface Question {
   id: string;
   topicId: string;
   stem: string;
+  /** Choice questions only. Other kinds store [] here and 0 in answerIndex (kept for old readers). */
   choices: string[];
   answerIndex: number;
   rationale: string;
+  /** Absent means 'choice', so old saved questions keep working. */
+  kind?: QuestionKind;
+  /** typing: every accepted answer (normalised comparison; pure numbers also get a small tolerance). */
+  accept?: string[];
+  /** cloze: stem holds "____" markers; blanks[i] lists the accepted answers for marker i. */
+  blanks?: string[][];
+  /** matching: canonical pairs. The UI shuffles the right-hand side; grading uses pair positions. */
+  pairs?: { left: string; right: string }[];
+  /** ordering: items in the CORRECT order. The UI shuffles them; grading uses canonical positions. */
+  items?: string[];
 }
 
 export type AttemptKind = 'diagnostic' | 'pop' | 'module' | 'review';
@@ -66,6 +79,8 @@ export interface AttemptEvent {
   correct: boolean;
   at: number;
   kind: AttemptKind;
+  /** True when a hint was used before answering. Absent on old events (= not hinted). */
+  hinted?: boolean;
 }
 
 export interface Settings {
