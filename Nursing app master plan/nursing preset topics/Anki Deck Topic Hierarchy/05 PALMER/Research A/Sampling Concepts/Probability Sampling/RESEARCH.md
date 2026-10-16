@@ -55,3 +55,25 @@ To estimate the prevalence of a safety practice across hospitals, a researcher c
 ## Scope note
 
 Use methods appropriate to the population and resources, and involve a statistician when complex sampling or design-based estimation is required.
+
+## Selection probabilities, weights, and design-aware analysis
+
+Probability sampling is defined by the selection mechanism, not merely by the use of a random-number generator. Every eligible unit covered by the design needs a known, nonzero selection probability for design-based inference to work as intended. In multistage sampling, a unit's overall inclusion probability depends on the probabilities at each stage. Unequal selection probabilities may require weights; strata and clusters must be represented in variance estimation when relevant.
+
+- **Simple random sampling:** select units from a sufficiently complete frame using a reproducible random mechanism. A convenience list with random selection from only the available volunteers is not a population-wide simple random sample.
+- **Systematic sampling:** with frame size N and desired sample n, the interval is often approximately k = N/n, using a random start. If the frame has periodic ordering aligned with k, the result may be biased; assess the ordering before use.
+- **Stratified sampling:** sample within every defined stratum. Disproportionate allocation may require weights for overall population estimates; report whether allocation is proportional or intentionally oversamples a subgroup.
+- **Cluster sampling:** selected clusters may contain correlated observations. Analyze the data using methods that account for clustering; treating each person as independent can understate uncertainty.
+- **Multistage sampling:** preserve selection information at each stage, including any probability-proportional-to-size selection and within-cluster sampling, so the final analysis matches the actual design.
+
+## Worked nursing example
+
+To estimate medication-safety training coverage among nurses across a large region, investigators might stratify hospitals by region and facility type, randomly select hospitals within strata, then randomly select nurses from current rosters within selected hospitals. They should record selection probabilities, nonresponse, and any weights; account for clustering by hospital; and avoid describing the result as unbiased if some hospitals or nurse groups were systematically absent from the frame.
+
+## Limitations and ethical considerations
+
+Random selection does not authorize intrusive recruitment or override consent. Selected individuals must still receive appropriate study information and decide voluntarily when consent is required. Protect the roster and selection data, limit access to identifiable records, and use approved contact methods. Do not substitute a more convenient person for a refusing selected participant unless the protocol's prespecified design allows the procedure and its effect is documented.
+
+## PNLE application
+
+When asked which method best supports a population estimate, look for a random selection process, a suitable sampling frame, known selection probabilities, response tracking, and analysis that reflects strata/clusters/weights. If the scenario mentions assigning participants to treatment groups by chance, that is random assignment—not probability sampling.
