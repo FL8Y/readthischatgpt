@@ -56,6 +56,7 @@
   - Hyperemesis Gravidarum
   - [[Common Complications/Hyperemesis Gravidarum/Research|Hyperemesis Gravidarum]]
   - Incompetent Cervix
+  - [[Common Complications/Incompetent Cervix/Research|Cervical Insufficiency]]
   - Placenta Previa
   - [[Common Complications/Placenta Previa/Research|Placenta Previa]]
   - Premature Rupture of Membranes
@@ -63,14 +64,20 @@
   - Shoulder Dystocia
   - [[Common Complications/Shoulder Dystocia/Research|Shoulder Dystocia]]
   - Toxemia (legacy folder label; research should use current terminology such as hypertensive disorders of pregnancy and explain historical terminology)
+  - [[Common Complications/Toxemia/Research|Hypertensive Disorders of Pregnancy (legacy folder: Toxemia)]]
 - Postpartum Changes
 - Others
   - EINC (Essential Intrapartum and Newborn Care)
     - EINC Basics
+    - [[Others/EINC/EINC Basics/Research|EINC Basics]]
     - Immediate Drying and Skin-to-Skin Contact
+    - [[Others/EINC/Immediate Drying and Skin-to-Skin Contact/Research|Immediate Drying and Skin-to-Skin Contact]]
     - Non-Separation and Breastfeeding Initiation
+    - [[Others/EINC/Non-Separation and Breastfeeding Initiation/Research|Non-Separation and Breastfeeding Initiation]]
     - Proper Cord Clamping and Cutting
+    - [[Others/EINC/Proper Cord Clamping and Cutting/Research|Proper Cord Clamping and Cutting]]
     - Others
+    - [[Others/EINC/Others/Research|Additional EINC Care]]
   - Hormones in Menstrual Cycle
 
 ## Coverage gaps to assess
