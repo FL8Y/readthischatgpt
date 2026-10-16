@@ -61,7 +61,11 @@ For nursing content, distinguish:
 
 Do not fabricate citations or imply that generated material is authoritative clinical guidance.
 
-## 6. Spaced repetition
+## 6. Assessment answer-key boundary
+
+A generated question object may contain correct answers for validation and grading, but the client-facing question payload must not include those answers before submission in server-backed mode. Separate the learner-visible prompt/options from the grading key and rationale. For ordering/matching, randomize the presented item order and preserve canonical IDs/mapping for grading. If the application supports local-only offline assessment with local answer keys, disclose that a determined device owner can inspect local app data; do not promise perfect secrecy. Add tests that inspect actual serialized/network payloads, not only rendered UI.
+
+## 7. Spaced repetition
 
 | Option | Strengths | Risks | Position |
 |---|---|---|---|
@@ -72,7 +76,7 @@ Do not fabricate citations or imply that generated material is authoritative cli
 
 The existing scheduler reference identifies itself as FSRS-5 and warns that it does not reproduce exact intervals from the newer AnkiDroid engine inferred from binary strings. Before choosing an algorithm, record the intended version, source/license, test vectors, migration policy, and performance expectations.
 
-## 7. Topic graph / mind maps
+## 8. Topic graph / mind maps
 
 Proposed logical model:
 - canonical Topic/Concept records;
@@ -83,7 +87,7 @@ Proposed logical model:
 
 Do not store the same concept separately in every subject. A graph should be a view of relations, not the only source of truth.
 
-## 8. Import and media strategy
+## 9. Import and media strategy
 
 Define a versioned ingestion pipeline:
 1. identify file type by content rather than extension alone;
@@ -97,7 +101,7 @@ Define a versioned ingestion pipeline:
 
 Evaluate plain text/Markdown first, then PDF and images/OCR. Avoid requesting unnecessary Android permissions. For generated/retrieved images, preserve source/license/attribution where applicable and provide a useful fallback when unavailable.
 
-## 9. Offline and synchronization
+## 10. Offline and synchronization
 
 Before implementation, specify:
 - which actions work offline (read lessons, answer due cards, local quizzes, inspect progress);
@@ -111,7 +115,7 @@ Before implementation, specify:
 
 A review answer must not be lost if the app closes after the user selects Again/Hard/Good/Easy. Sync should merge immutable events and resolve derived-state conflicts deterministically.
 
-## 10. Testing architecture
+## 11. Testing architecture
 
 Require:
 - unit tests for schemas, grading, scheduler transitions, mastery, rewards, streak boundaries, and import parsers;
@@ -125,6 +129,6 @@ Require:
 
 All reported results must include actual commands, environment, commit SHA, and output summary. Static review is not runtime verification.
 
-## 11. Recommendation status
+## 12. Recommendation status
 
 No final stack decision is made. The most consequential unresolved inputs are initial target platform, offline/sync expectations, provider-key strategy, and budget/privacy constraints. The architect should recommend a default after reviewing complete reports and running available reference tests, not before.
