@@ -10,7 +10,7 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 41 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, BCG, Maternal and Child Health, Health and Sanitation Laws, Pentavalent Vaccine, Elements of Primary Health Care, Other Vaccines, Food Sanitation, Vaccine Table, Locally-Endemic Diseases, Active Management of Third Stage of Labor, FHSIS, Epidemiology, Population Pyramid, and Vital Statistics.
+- **Substantive topic drafts expanded:** 42 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, BCG, Maternal and Child Health, Health and Sanitation Laws, Pentavalent Vaccine, Elements of Primary Health Care, Other Vaccines, Food Sanitation, Vaccine Table, Locally-Endemic Diseases, Active Management of Third Stage of Labor, FHSIS, Epidemiology, Population Pyramid, and Vital Statistics, and Incidence vs Prevalence Rates.
 - **Topics verified complete:** 0
 - **Folders still requiring substantive topic-specific expansion:** 36 (all 77 have a notes file, but most remain initial starter notes).
 - **Drafts awaiting source/content verification:** 41
@@ -199,8 +199,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
 - [x] **Incidence vs Prevalence Rates** — `Elements of Primary Health Care/Locally-Endemic Diseases/Vital Statistics/Incidence vs Prevalence Rates`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: incidence/prevalence distinctions; incidence proportion vs incidence rate; point/period prevalence; formulas and worked examples; factors affecting prevalence; denominators/case definitions; bias/data quality; Philippine reporting context; nursing application; PNLE distinctions; sources.  
+  Sources consulted: CDC *Principles of Epidemiology*, Lesson 1 definition page; CDC epidemiology glossary; RA 11332 Lawphil text. Important facts covered: new cases versus existing cases; population-at-risk versus person-time denominators; point versus period prevalence; illustrative calculations; effects of duration, detection, migration and data quality. Research file: `Elements of Primary Health Care/Locally-Endemic Diseases/Vital Statistics/Incidence vs Prevalence Rates/RESEARCH NOTES.md` (14,601 characters; reopened after save). Unresolved issues: current DOH indicator manuals and disease-specific definitions require final review; formulas must be matched to official reporting rules. Last action: replaced generic 2,429-character starter with substantive topic-specific research and reopened saved file (2026-10-17). Next action: continue to the next child topic and verify official indicator definitions before marking complete.
 - [x] **Swaroops, Sex Ratio** — `Elements of Primary Health Care/Locally-Endemic Diseases/Vital Statistics/Swaroops, Sex Ratio`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 41/77; all 41 remain Drafted — Needs Verification.
-- **Folders still requiring substantive expansion:** 36/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** /77; all  remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** /77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -823,3 +823,16 @@ Every directory below was present in the repository's recursive tree at the init
 - The file covers vital events and definitions, key demographic/health measures, numerator/denominator/time-period requirements, data quality and interpretation, Philippine PSA/DOH context and nursing applications. Current exact indicator definitions and source tables still require verification.
 - Status: **Drafted — Needs Verification**, not Verified Complete. Child folders (including common vital statistics and Swaroops/sex ratio) remain separate assignments.
 - Next action: continue source checks and research the child topics individually.
+
+
+## Research Cycle Log — 2026-10-17 (Incidence vs Prevalence Rates)
+
+- Re-read the full mandatory CHN research standard before this cycle.
+- Inspected the child topic; its 2,429-character starter was generic epidemiology boilerplate with no worked incidence/prevalence comparison.
+- Expanded `Elements of Primary Health Care/Locally-Endemic Diseases/Vital Statistics/Incidence vs Prevalence Rates/RESEARCH NOTES.md` to 14,601 characters. Added definitions, incidence proportion versus incidence rate, point versus period prevalence, formula/comparison tables, four illustrative calculations, factors affecting prevalence, denominator/case-definition discipline, bias/data quality, RA 11332 context and PNLE distinctions.
+- Sources consulted: CDC *Principles of Epidemiology*, Lesson 1 definition page; CDC epidemiology glossary; RA 11332 Lawphil text.
+- Reopened the saved file from GitHub and confirmed 14,601 characters, incidence-rate and worked-example sections.
+- Limitations: current DOH indicator manuals and disease-specific reporting definitions were not reviewed in full. Use official current definitions for formal Philippine reporting.
+- Status: **Drafted — Needs Verification**, not Verified Complete.
+- Coverage reconciliation: /77 folders have substantive drafts, /77 still need substantive expansion, and 0/77 are verified complete.
+- Next action: continue with the next individual vital-statistics child and keep the log/mind map synchronized.
