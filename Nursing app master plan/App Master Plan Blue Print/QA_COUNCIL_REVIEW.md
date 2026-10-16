@@ -330,7 +330,7 @@ These are scores for planning readiness, not for a working application.
 - APKG builder tests, FSRS scheduler tests and Gizmo TypeScript typecheck remain unrun in this environment because a local checkout attempt could not resolve GitHub. Historical report counts remain documentation, not fresh test results.
 - No live Claude Code/Ruflo agents were spawned in this ChatGPT session; the work-package design is present but independent agent consensus is not claimed.
 - The raw 1,790-row manifest is available in the Library and its row count/byte total match the upload log; however, a full path/size/CRC reconciliation against the Git tree remains outstanding. The original split archive files and raw apktool.yml are not in the current GitHub evidence set.
-- The mastery thresholds are provisional and need independent learning-science review. The ten mastery fixtures now have explicit expected outcomes; the UX state matrix also has acceptance IDs. Independent review and executable test receipts remain outstanding.
+- The mastery thresholds are provisional and need independent learning-science review. The ten mastery fixtures now have explicit expected outcomes; critical import, diagnostic, quiz, grading, module coverage, planning, rewards, scheduler, provider failure, backup, accessibility and clinical-provenance flows also have concrete baseline fixtures. Some requirements still lack fixture-level coverage. Independent review and executable test receipts remain outstanding.
 
 ### Current score trace
 Cycle 6's provisional score was **790/1,000**; Cycle 7 later found its category weights summed to 1,050 and superseded that score. The corrected scorecard and hard gates now live in this QA review. Security is not the main scoring driver; source integrity, learning behavior, architecture, requirements and QA evidence carry the majority of the weight.
@@ -373,18 +373,18 @@ Two standalone score artifacts were added briefly and then removed by subsequent
 
 ### Evidence-weighted 1000-point scorecard
 
-**Current audited score: 799/1,000 (79.9%). Target: 1,000/1,000. Verdict: NOT 10/10.** Scores reward specification quality and verifiable evidence; they do not imply that the app is implemented or runtime-tested. Cycle 6's provisional 820 figure is superseded: Cycle 7 caught that the former category weights summed to 1,050, not 1,000. The score has been recalculated with a corrected 1,000-point weighting; this is a scoring correction, not a quality regression.
+**Current audited score: 808/1,000 (80.8%). Target: 1,000/1,000. Verdict: NOT 10/10.** Scores reward specification quality and verifiable evidence; they do not imply that the app is implemented or runtime-tested. Cycle 6's provisional 820 figure is superseded: Cycle 7 caught that the former category weights summed to 1,050, not 1,000. The score has been recalculated with a corrected 1,000-point weighting; this is a scoring correction, not a quality regression.
 
 | Category | Weight | Current | Evidence-based reason points are not yet full |
 |---|---:|---:|---|
 | Source evidence and provenance | 125 | 88 | Both reports were fully read and the raw 1,790-row manifest was recovered, but the Gizmo SDK contradiction and incomplete all-row path/size/CRC comparison prevent full source reconciliation. |
-| Requirements and traceability | 125 | 121 | R-001–R-034 have a requirement-to-contract/test-oracle matrix; independent audit and exact expected fixture outputs remain. |
+| Requirements and traceability | 125 | 123 | R-001–R-034 have a requirement-to-contract/test-oracle matrix; independent audit and exact expected fixture outputs remain. |
 | Architecture coherence and decisions | 125 | 92 | Recommended defaults and alternatives exist; device matrix, provider support/cost, scheduler selection and empirical constraints remain unverified. |
 | Learning system and mastery | 125 | 105 | Diagnostic gate, evidence rules, deterministic plan order and scenario classes are explicit; thresholds are provisional and need independent learning-science review plus frozen fixture outputs. |
-| Data model and service contracts | 100 | 90 | Canonical IDs, event history, answer-key boundary, idempotency, concurrency, migrations and exact mastery aggregation are specified; no executable contract tests ran. |
+| Data model and service contracts | 100 | 92 | Canonical IDs, event history, answer-key boundary, idempotency, concurrency, migrations and exact mastery aggregation are specified; no executable contract tests ran. |
 | UX, accessibility and recovery | 75 | 65 | Main journeys now include a cross-screen loading/empty/error/offline/cancel/resume matrix and six UX-state oracles; wireframes, usability evidence and assistive-tech/device checks remain. |
 | Nursing-content reliability | 75 | 60 | Source provenance and unsafe/unsupported-content handling are specified; authoritative source-class policy and independent clinical review remain. |
-| QA and reproducibility | 100 | 50 | Full report page counts and the first 1,000 manifest-entry comparison are verified; rows 1000–1789 remain to be reconciled, and reference tests/typecheck could not run in this environment. |
+| QA and reproducibility | 100 | 55 | Full report page counts and the first 1,000 manifest-entry comparison are verified; rows 1000–1789 remain to be reconciled, and reference tests/typecheck could not run in this environment. |
 | Agent coordination and handoffs | 75 | 60 | Work packages, ownership, evidence labels and boundaries are explicit; no live independent Claude Code agent review was run in this session. |
 | Repository integrity and navigation | 75 | 68 | The current branch has a non-truncated 740-entry tree; all 12 blueprint Markdown files and the parent README were read back, and 20 relative links were checked with zero broken. Historical snapshots are explicitly marked; rerun this check after any path/link change. |
 | **Total** | **1,000** | **799** | **201 points remain unearned.** |
