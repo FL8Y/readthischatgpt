@@ -17,14 +17,15 @@
 - [x] Batch 4: 30 AndroidX `.version` metadata files.
 - [x] Batch 5: 37 remaining `.version` metadata files.
 - [x] Batch 6: 58 `.properties` files.
-- [x] Batch 7: 7 small JSON metadata files.
+- [x] Batch 7: 7 JSON metadata files.
+- [x] Batch 8: 4 small web/proto text files.
 - [ ] Upload remaining archive files in manageable batches, preserving paths and binary contents.
 - [ ] Compare uploaded paths and sizes against the archive manifest.
 - [ ] Finalize replacement and verify the resulting Git tree.
 
 ## Current status
 
-186 of 1,790 archive files have been committed (10.39%). 1,604 archive files remain. No ZIP file has been uploaded. The existing README is being retained until the replacement payload is verified.
+190 of 1,790 archive files have been committed (10.61%). 1,600 archive files remain. No ZIP file has been uploaded. The existing README is being retained until the replacement payload is verified.
 
 ## Next
 
