@@ -10,10 +10,10 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 17 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, and Essential Drugs.
+- **Substantive topic drafts expanded:** 18 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, and Sanitation and Environmental Health.
 - **Topics verified complete:** 0
-- **Folders still requiring substantive topic-specific expansion:** 60 (all 77 have a notes file, but most remain initial starter notes).
-- **Drafts awaiting source/content verification:** 17
+- **Folders still requiring substantive topic-specific expansion:** 59 (all 77 have a notes file, but most remain initial starter notes).
+- **Drafts awaiting source/content verification:** 18
 - **Research notes present:** 77/77; this is file presence, not research completion.
 - **Completion:** 0% verified topic research. No topic is marked Verified Complete.
 - **Mind map:** Existing Obsidian map reflects the folder hierarchy; status annotations, links and coverage audit still required.
@@ -244,8 +244,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: **Drafted — Needs Verification** | Required sections: forms/anthropometric distinctions; causes/risk factors; assessment/growth monitoring; red flags/referral; management principles; life-course prevention; supplement/therapeutic-food safety; evaluation; Philippine context; PNLE points; sources.  
   Sources consulted: WHO Malnutrition fact sheet (2024); WHO Child Growth page; DOH CHD Region II Nutrition Program page (2026); DOST-FNRI Pinggang Pinoy; WHO/UNICEF/World Bank Joint Child Malnutrition Estimates page; WHO current nutrition guidance listing for wasting/nutritional edema. Important facts covered: wasting vs stunting vs underweight; age-/sex-specific growth standards; bilateral pitting edema and other urgent findings; social determinants; treatment must follow current protocol. Research file: `Elements of Primary Health Care/Nutrition/Malnutrition/RESEARCH NOTES.md` (14,076 characters; reopened after save). Unresolved issues: full text/link review; current Philippine severity criteria, referral thresholds and treatment regimens must be checked in the applicable official protocol. Last action: expanded generic 2,294-character starter note into substantive research and reopened saved file (2026-10-17). Next action: continue to next topic folder; verify sources/content before marking complete.
 - [x] **Sanitation and Environmental Health** — `Elements of Primary Health Care/Sanitation and Environmental Health`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: environmental-health domains; drinking-water/sanitation/waste/food safety/vector/exposure risks; assessment and escalation; nursing responsibilities; Philippine laws/standards; evaluation; safety; PNLE distinctions; sources.  
+  Sources consulted: WHO Sanitation fact sheet (2024); WHO Drinking-water fact sheet (2023); PD 856 Code on Sanitation (Supreme Court E-Library); RA 9275 Philippine Clean Water Act (Supreme Court E-Library); RA 9003 Ecological Solid Waste Management Act (Supreme Court E-Library); DOH AO 2017-0010 Philippine National Standards for Drinking Water (official FDA/DOH page). Important facts covered: environmental-health domains; water contamination and disease risks; sanitation/waste safety; community assessment and escalation; Philippine legal framework. Research file: `Elements of Primary Health Care/Sanitation and Environmental Health/RESEARCH NOTES.md` (18,068 characters; reopened after save). Unresolved issues: final link/full-text and regulatory amendment review; exact water-quality thresholds and local reporting deadlines not asserted. Last action: replaced unrelated mental-health starter content with substantive sanitation/environmental-health research and reopened saved file (2026-10-17). Next action: continue to next topic folder and verify all sources before marking complete.
 - [x] **Approved Types of Water Supply Facilities** — `Elements of Primary Health Care/Sanitation and Environmental Health/Approved Types of Water Supply Facilities`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 17/77; all seventeen remain Drafted — Needs Verification.
-- **Folders still requiring substantive expansion:** 60/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** 18/77; all eighteen remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** 59/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -509,3 +509,14 @@ Every directory below was present in the repository's recursive tree at the init
 - Reopened the saved file and confirmed 18,612 characters, RA 6675, PNF coverage and the contraindication/precaution distinction.
 - Status: **Drafted — Needs Verification**, not Verified Complete. Current ePNF version/site access and latest circulars must be rechecked before specific procurement/clinical claims; medication-specific doses and contraindications require dedicated current references.
 - Next action: research the next unchecked child topic, `Essential Drugs/Herbal`, then continue through every remaining topic folder.
+
+
+## Research Cycle Log — 2026-10-17 (Sanitation and Environmental Health)
+
+- Applied the mandatory research standard to the individual `Sanitation and Environmental Health` folder. The starter note contained unrelated mental-health content, so it was replaced with topic-specific sanitation/environmental-health research rather than retained as if relevant.
+- Expanded `Elements of Primary Health Care/Sanitation and Environmental Health/RESEARCH NOTES.md` from 2,316 characters to 18,068 characters.
+- Covered environmental-health domains; drinking-water safety; sanitation/sewage; solid/hazardous waste; food safety; hygiene; vector/pest control; chemical/air/occupational exposures; housing/climate/disaster risks; assessment and escalation; nursing responsibilities; safety; Philippine law/standards; indicators; and a flooding/diarrhea scenario.
+- Sources consulted: WHO Sanitation fact sheet (2024); WHO Drinking-water fact sheet (2023); PD 856 Code on Sanitation; RA 9275 Philippine Clean Water Act; RA 9003 Ecological Solid Waste Management Act; DOH AO 2017-0010 drinking-water standards page.
+- Reopened the saved file and confirmed 18,068 characters plus PD 856, RA 9003 and water-safety sections.
+- Status: **Drafted — Needs Verification**, not Verified Complete. Final full-text, links, amendments and current technical thresholds remain to be checked.
+- Next action: continue folder by folder and preserve the log/mind map as the operational record.
