@@ -387,7 +387,7 @@ Two standalone score artifacts were added briefly and then removed by subsequent
 | QA and reproducibility | 100 | 55 | Full report page counts and the first 1,000 manifest-entry comparison are verified; rows 1000–1789 remain to be reconciled, and reference tests/typecheck could not run in this environment. |
 | Agent coordination and handoffs | 75 | 60 | Work packages, ownership, evidence labels and boundaries are explicit; no live independent Claude Code agent review was run in this session. |
 | Repository integrity and navigation | 75 | 68 | The current branch has a non-truncated 740-entry tree; all 12 blueprint Markdown files and the parent README were read back, and 20 relative links were checked with zero broken. Historical snapshots are explicitly marked; rerun this check after any path/link change. |
-| **Total** | **1,000** | **799** | **201 points remain unearned.** |
+| **Total** | **1,000** | **808** | **192 points remain unearned.** |
 
 ### Hard gates for a genuine 1000/1000
 All gates must pass; a high average cannot conceal a failed gate.
