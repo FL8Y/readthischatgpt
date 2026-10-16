@@ -25,9 +25,18 @@ The blueprint had multiple overlapping documents that repeated requirements, UX/
 
 ## Deletion/move record
 
-**Status: IN PROGRESS at log creation.** The four former source documents above are retained until the consolidated documents and their GitHub read-backs are checked. After deletion, this section must record the exact deletion commit SHAs and final tree counts.
+**Status: COMPLETE.** The four consolidated duplicate documents were deleted after the canonical replacements were fetched and reviewed:
 
-No research assets, binaries, reports, code samples, app source code, or global repository/Claude configuration have been intentionally deleted or moved. No application has been built.
+| Deleted legacy file | Last content blob SHA before deletion | Deletion commit SHA |
+|---|---|---|
+| `ARCHITECTURE_OPTIONS.md` | `56f153cbf85342e6eea50aab8ceb6026ed3c73cb` | `3f89b057c308e4d724c804cda25d2f3732e405c9` |
+| `DATA_MODEL_AND_CONTRACTS.md` | `4f51f00453b25e8db4590ccbe34565f84361101e` | `81432ac4c8f4c0d05dabe7106d20886e36a14dad` |
+| `REQUIREMENTS_TRACEABILITY.md` | `7afc3db6c055f36f041445b9b7fbc4e995482251` | `4cff3e5019b4c4931d19beffe92cdf5ad554fd8c` |
+| `UX_AND_LEARNING_SPEC.md` | `99a17890949d6dfff3501421a462790ba3ed6d05` | `4ae5560d42c7ec802594d456793f3bf5269ea1e1` |
+
+The final verified post-deletion recursive tree snapshot at `fc52eb44d20278d7503ed5533bb2b89ffa0ecefc` contained **739 entries: 598 blobs/files and 141 trees/directories**, with `truncated=false`. The project subtree contains 407 entries; the blueprint now contains 11 Markdown files plus its directory entry (12 tree entries) and 137,578 listed file bytes. Subsequent changes in this correction cycle modify existing Markdown content only; re-scan after any future create/delete/move.
+
+No research assets, binaries, reports, reference code, application source code, or global repository/Claude configuration were deleted or moved. No application has been built.
 
 ## Verification record
 
