@@ -1,13 +1,15 @@
 # PALMER — Obsidian Mind Map
 
-> Repository-derived hierarchy. PALMER is kept as the repository's label; no unsupported expansion is assumed. Links point to planned topic-specific `RESEARCH.md` files and become useful as those files are created.
+> Repository-derived hierarchy. PALMER is kept as the repository's label; no unsupported expansion is assumed. Links point to topic-specific research files that have been uploaded. Each nested topic folder now contains `RESEARCH.md`.
 
 - [[RESEARCH LOG]] — checklist, source verification, status, and next actions
 - [[RESEARCH TOPIC GUIDE]] — mandatory research standard
 
+> Audit status (2026-10-17): 76/76 nested topic folders have `RESEARCH.md`; all four main grouping folders have `OVERVIEW.md`. Folder coverage is complete; source-by-source claim review remains.
+
 ## Leadership and Management Final Coaching
 
-- [[Leadership and Management Final Coaching/RESEARCH]] — planned overview
+- [[Leadership and Management Final Coaching/OVERVIEW]] — grouping overview and navigation
 - [[Leadership and Management Final Coaching/Budget/RESEARCH]] — Budget
 - [[Leadership and Management Final Coaching/Communication within the Organization/RESEARCH]] — Communication within the Organization
 - [[Leadership and Management Final Coaching/Conflict Resolution Strategies/RESEARCH]] — Conflict Resolution Strategies
@@ -20,7 +22,7 @@
 
 ## Professional Adjustment
 
-- [[Professional Adjustment/RESEARCH]] — planned overview
+- [[Professional Adjustment/OVERVIEW]] — grouping overview and navigation
 - [[Professional Adjustment/Bioethical Principles/RESEARCH]] — Bioethical Principles
 - [[Professional Adjustment/Code of Ethics/RESEARCH]] — Code of Ethics
 - [[Professional Adjustment/Confidentiality, Anonymity and Privacy/RESEARCH]] — Confidentiality, Anonymity and Privacy
@@ -32,7 +34,7 @@
 
 ## Research A
 
-- [[Research A/RESEARCH]] — planned overview
+- [[Research A/OVERVIEW]] — grouping overview and navigation
 - [[Research A/Analyzing Data/RESEARCH]] — Analyzing Data
   - [[Research A/Analyzing Data/Central Tendency/RESEARCH]] — Central Tendency
   - [[Research A/Analyzing Data/Correlation Index Result/RESEARCH]] — Correlation Index Result
@@ -63,7 +65,7 @@
 
 ## Research B
 
-- [[Research B/RESEARCH]] — planned overview
+- [[Research B/OVERVIEW]] — grouping overview and navigation
 - [[Research B/Analysis/RESEARCH]] — Analysis
   - [[Research B/Analysis/Descriptive Analysis/RESEARCH]] — Descriptive Analysis
   - [[Research B/Analysis/Inferential Analysis/RESEARCH]] — Inferential Analysis
