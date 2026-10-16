@@ -3,11 +3,11 @@
 **Audit date:** 2026-10-17  
 **Repository:** `FL8Y/readthischatgpt`, default branch `main`  
 **Scope:** Complete recursive Git tree inventory plus semantic inspection of project-relevant documentation and reference source.  
-**Important limitation:** A tree inventory is not the same as reading every file's contents. Binary resources and hundreds of unrelated Claude/Ruflo framework files were inventoried but not all semantically read.
+**Important limitation:** A tree inventory is not the same as reading every file's contents. Binary resources and hundreds of unrelated Claude/Ruflo framework files were inventoried but not all semantically read. The two complete research DOCX reports have now been read across all 54 Gizmo pages and all 35 AnkiDroid pages.
 
 ## 1. Repository-wide inventory
 
-The GitHub recursive tree API returned **729 entries** with `truncated=false`. Top-level entry counts by path prefix:
+The initial GitHub recursive tree scan returned **729 entries** with `truncated=false`. After adding the ten new planning artifacts and updating the two READMEs, a verification scan returned **739 entries**, again with `truncated=false`. Top-level entry counts below are from the initial inventory before the planning artifacts were added:
 
 | Top-level path | Entries | Purpose / treatment |
 |---|---:|---|
