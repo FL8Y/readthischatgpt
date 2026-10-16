@@ -17,7 +17,7 @@
 - Recursive repository tree inspected: **Yes** (Git tree API, non-truncated response).
 - Top-level category folders found: **10**.
 - Leaf topic folders found: **60**.
-- Topic research files present in this branch: **60/60**. Brain Tumor and Hodgkin lymphoma have been reopened and checked. Hodgkin lymphoma was expanded using NCI PDQ clinician and patient summaries; the remaining files are drafts and still require individual reopen/source audit.
+- Topic research files present in this branch: **60/60**. Brain Tumor, Hodgkin lymphoma, and Leukemia have been reopened and checked. Hodgkin lymphoma and Leukemia were expanded using NCI PDQ clinician summaries; the remaining files are drafts and still require individual reopen/source audit.
 - Topics researched with authoritative-source cross-check: **1/60 (1.7%)**.
 - Topic folders without a research file: **0**. All drafted files except the first researched topic still require topic-specific source audit and reopen verification.
 - Empty topic folders: all leaf topic folders appear to contain only `.gitkeep` at initial tree audit; no topic research files were found.
@@ -99,7 +99,7 @@ Prioritize current official Philippine Department of Health (DOH) guidance and o
 2. **Next action:** Research the first topic in the checklist, write a topic-specific Markdown file inside that topic folder, reopen and verify it, then update this log immediately. Continue through every topic, then perform missing-topic analysis and final recursive audit.
 
 ## Completion report
-- Evidence-based verified completion: **3.3%** (2 topics fully researched/source-cross-checked / 60 identified leaf topic folders). Draft file coverage: **60/60 (100.0%)**; drafts are not counted as verified.
+- Evidence-based verified completion: **5.0%** (3 topics fully researched/source-cross-checked / 60 identified leaf topic folders). Draft file coverage: **60/60 (100.0%)**; drafts are not counted as verified.
 - Previously reopened research file: [`Cancers of the Child/Brain Tumor/Research.md`](Cancers%20of%20the%20Child/Brain%20Tumor/Research.md). Other draft files are pending individual reopen/source audit.
 - Added topics: none yet; gap analysis pending.
 - Sources checked for clinical claims: NCI PDQ Pediatric Treatment Editorial Board summaries (two references in the topic file); Philippine-specific brain-tumor protocol not yet verified.
@@ -126,3 +126,11 @@ Prioritize current official Philippine Department of Health (DOH) guidance and o
 - Reopened the uploaded file on branch `agent-6-pediatric-research`; verified expected sections and source URLs.
 - Verified-topic count updated to 2/60 (3.3%). The other 58 files are not yet counted as verified, even though files exist in all 60 folders.
 - Next action: source-audit the Leukemia topic, then continue sequentially.
+
+
+## 2026-10-17 — Leukemia source audit
+- Expanded `Cancers of the Child/Leukemia/Research.md` to distinguish ALL from AML, marrow-failure manifestations, diagnostics/risk assignment, treatment phases, CNS-directed therapy, nursing priorities, fever/neutropenia response, bleeding precautions, tumor lysis risk, medication safety, and family teaching.
+- Sources checked: NCI PDQ Pediatric Treatment Editorial Board, *Childhood Acute Lymphoblastic Leukemia Treatment (PDQ®): Health Professional Version* (updated 2025-04-21), and *Childhood Acute Myeloid Leukemia Treatment (PDQ®): Health Professional Version* (version history through 2025-04-15).
+- Reopened the uploaded branch file and verified its expected sections and references.
+- Verified-topic count updated to 3/60 (5.0%). All 60 folders contain a Research.md file on the agent branch, but the other 57 topics remain pending source audit/reopen verification.
+- Next action: source-audit Nephroblastoma (Wilms' tumor).
