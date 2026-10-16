@@ -28,6 +28,9 @@ Management depends on gestational age, severity, maternal-fetal condition and lo
 - Do not delay treatment of acute severe hypertension while waiting for proteinuria results.
 
 ## Nursing priorities and rationale
+
+**Fluid-balance caution:** severe preeclampsia can involve endothelial leak and pulmonary edema. Strictly trend intake/output, urine output, respiratory status and oxygen saturation; avoid unprescribed fluid boluses or excessive maintenance fluids. Fluid restriction/maintenance rates must follow the current obstetric order and clinical losses, not a one-size-fits-all number.
+
 | Priority | Action | Rationale |
 |---|---|---|
 | Severe BP | Confirm promptly per protocol, notify obstetric team and administer ordered acute treatment. | Reduces risk of maternal stroke and other organ injury. |
@@ -51,8 +54,8 @@ Follow current DOH maternal-health guidance and facility severe-hypertension/ecl
 ## Sources
 1. American College of Obstetricians and Gynecologists (ACOG), Practice Bulletin No. 222, “Gestational Hypertension and Preeclampsia,” June 2020: https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/gestational-hypertension-and-preeclampsia
 2. ACOG, “Preeclampsia and High Blood Pressure During Pregnancy”: https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy
-3. National Institute for Health and Care Excellence (NICE), guideline NG133, “Hypertension in pregnancy: diagnosis and management”: https://www.nice.org.uk/guidance/ng133
+3. National Institute for Health and Care Excellence (NICE), guideline NG133, “Hypertension in pregnancy: diagnosis and management,” published 25 June 2019, last updated 17 April 2023. The recommendations include magnesium sulfate for eclampsia and consideration in selected severe preeclampsia, plus immediate treatment of severe hypertension with an appropriate agent: https://www.nice.org.uk/guidance/ng133/chapter/recommendations
 4. World Health Organization (WHO), “WHO recommendations for prevention and treatment of pre-eclampsia and eclampsia”: https://www.who.int/publications/i/item/9789241548335
 
-## Verification limitations
-Diagnostic criteria, medication sequences and delivery timing depend on current guidelines and clinical context. Verify local protocol before using exact thresholds or dosing as a bedside order.
+## Verification notes and limitations
+NICE NG133 recommendations were opened and checked: the page was last updated 17 April 2023 and includes magnesium sulfate indications, acute severe-hypertension treatment options, monitoring and cautions around prolonged magnesium exposure. ACOG Practice Bulletin No. 222 landing page was also checked and shows reaffirmation in 2026, but full text was access-restricted in this session. Diagnostic criteria, medication sequences and delivery timing depend on current guidelines and clinical context. Verify local Philippine protocol before using exact thresholds or dosing as a bedside order.
