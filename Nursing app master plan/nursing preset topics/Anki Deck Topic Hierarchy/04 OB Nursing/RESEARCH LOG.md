@@ -31,7 +31,7 @@ For each topic, mark status only after checking the actual file in GitHub:
 ## Topic checklist
 | # | Topic folder (relative to 04 OB Nursing) | Status | Sources / verification | File state | Next action |
 |---:|---|---|---|---|---|
-| 1 | `Common Complications/Abortion` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
+| 1 | `Common Complications/Abortion` | Uploaded; verification pass pending | ACOG early pregnancy loss; WHO abortion care guideline (2nd ed., 2025); Philippine DOH AO 2018-0003 | [Research.md](./Common%20Complications/Abortion/Research.md) created; reopened via GitHub API, 13152 characters returned | Inspect rendered file/links and perform clinical citation audit; then continue to next topic |
 | 2 | `Common Complications/Abruptio Placenta` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
 | 3 | `Common Complications/Cord Prolapse` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
 | 4 | `Common Complications/Ectopic Pregnancy` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
@@ -83,12 +83,12 @@ These are not counted as completed topics until the hierarchy is checked for dup
 
 ## Status dashboard
 - Leaf topic folders identified: **35**
-- Topics with substantive research files: **0**
-- Topics clinically verified: **0**
-- Remaining leaf topics: **35**
-- Research completion: **0%** (verified substantive topic files / identified leaf topics; organizational setup is not counted as research)
+- Topics with substantive research files: **1**
+- Topics clinically verified: **0** (one file created and reopened; clinical/source verification remains in progress)
+- Remaining leaf topics: **34** without substantive files; the first topic still needs final verification
+- Research completion: **0% verified** (0/35 fully verified). One substantive topic file exists, but it is not counted as verified until the final clinical/link audit is complete.
 - Added topics: **0**
 - Blockers: None encountered during initial tree inspection. Full research and per-file upload verification remain outstanding.
-- Last action: Read the full topic guide and master log, then recursively inspected the assigned subtree and initialized the checklist.
-- Exact next action: Select the first unchecked topic, inspect its current folder contents, research it against current authoritative sources, create the topic-specific Markdown file in that folder, reopen it from GitHub, then update this log and the mind map.
-- Last reconciled: 2026-10-17 (initial audit only; final audit not yet performed).
+- Last action: Created the first topic research file for pregnancy loss/abortion and reopened it through GitHub's file API; it returned content at the intended path. Source links are included in the file.
+- Exact next action: Verify the rendered GitHub file and source links, refine clinical details against current guidance if needed, then research the next unchecked topic: `Common Complications/Abruptio Placenta`.
+- Last reconciled: 2026-10-17 (partial audit; final recursive audit not yet performed).
