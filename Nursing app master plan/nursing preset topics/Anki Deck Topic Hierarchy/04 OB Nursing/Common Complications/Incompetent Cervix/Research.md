@@ -16,6 +16,31 @@ Possible findings include pelvic pressure, increased discharge, spotting, or pai
 - Activity restriction/bed rest is not routinely recommended as a blanket intervention; evidence of benefit is lacking and immobility can cause harm.
 - Cerclage may be inappropriate with active labor, significant bleeding, ruptured membranes, intra-amniotic infection or fetal demise; specialist assessment is required.
 
+## Short cervix vs cervical insufficiency: management is history-dependent
+
+A short cervix on transvaginal ultrasound is a **risk marker**, not by itself proof of classic cervical insufficiency. Cervical length should be measured by a trained clinician using a standardized transvaginal technique. The decision differs according to singleton vs multiple pregnancy, prior spontaneous preterm birth/painless second-trimester loss, exact cervical length, gestational age, and whether the cervix is already dilated.
+
+| Clinical group | Evidence-informed approach | Important limit |
+|---|---|---|
+| Singleton pregnancy, no prior spontaneous preterm birth, midtrimester transvaginal cervical length ≤20 mm before 24 weeks | SMFM Consult Series #70 recommends vaginal progesterone to reduce preterm birth risk. | Confirm dating, singleton status, measurement technique and local adoption of guideline before applying. |
+| Singleton pregnancy, no prior spontaneous preterm birth, cervical length 21–25 mm before 24 weeks | Consider vaginal progesterone through shared decision-making. | Not an automatic indication for cerclage. |
+| Singleton pregnancy, no prior spontaneous preterm birth, cervical length 10–25 mm without cervical dilation | SMFM recommends against cerclage solely for sonographic shortening in this group. | This rule does not apply to all history-based or examination-indicated cerclage situations. |
+| Prior spontaneous preterm birth or classic painless mid-trimester loss plus a short cervix | Specialist may consider ultrasound-indicated or history-indicated cerclage depending on the exact history, gestational age and findings. | Do not use the “no prior preterm birth” rule for this higher-risk group. |
+| Painless cervical dilation on examination in mid-pregnancy | Urgent maternal-fetal medicine/obstetric review for possible examination-indicated (rescue) cerclage in a carefully selected patient. | Active labor, ruptured membranes, infection, significant bleeding or fetal demise may contraindicate cerclage; specialist assessment is required. |
+
+These are guideline-based examples, not a complete individualized treatment algorithm. The underlying SMFM consult is specifically titled “Management of short cervix in individuals without a history of spontaneous preterm birth” (Consult Series #70, 2024): https://publications.smfm.org/publications/573-society-for-maternal-fetal-medicine-consult-series-70/ . ACOG's Practice Bulletin No. 142 addresses history- and ultrasound-indicated cerclage, but the full bulletin may be access-restricted: https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2014/02/cerclage-for-the-management-of-cervical-insufficiency .
+
+## Procedure and post-cerclage nursing safety
+- Confirm patient identity, consent, indication and planned type of cerclage; document gestational age, history and pre-procedure assessment according to local protocol.
+- Before placement, the clinical team evaluates for contractions/labor, ruptured membranes, infection, bleeding and fetal status; cerclage should not be treated as routine for every short cervix.
+- After placement, monitor according to anesthesia/procedure protocol and assess bleeding, contractions, fluid leakage, fever, worsening pain and fetal concerns.
+- Clarify the clinician's plan for activity, intercourse, follow-up cervical assessment and removal. Do not prescribe routine bed rest without an indication; activity restriction has not shown reliable benefit and can have harms.
+- The patient must know when and where to seek urgent care, including a gush/leak of fluid, regular contractions, fever, significant bleeding, foul discharge or severe pain.
+
+## Verification note (2026-10-17)
+This file's existing source list includes SMFM Consult Series #70 (2024), ACOG Practice Bulletin No. 142 and NICE NG25. The management table above is explicitly limited to the scenario described by SMFM #70 (singleton, no prior spontaneous preterm birth); it must not be generalized to a prior-preterm-birth or rescue-cerclage population. ACOG full text and NICE NG25 full page were not independently accessible in this cycle. Before marking this topic verified complete, check the full current guideline text, any subsequent updates, and current Philippine institutional pathway for progesterone/cerclage eligibility, procedure exclusions and follow-up.
+
+
 ## Nursing priorities
 | Priority | Action | Rationale |
 |---|---|---|
