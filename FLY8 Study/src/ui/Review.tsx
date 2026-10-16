@@ -5,11 +5,13 @@ import { callModel } from '../ai/provider';
 import { cardsRequest, parseCards, type Card } from '../srs/cards';
 import { dueQueue, formatInterval, previewDelays, newSched, RATINGS, MIN, type Rating } from '../srs/scheduler';
 import { dispatchSrs, emptySnapshot, loadSrs, type SrsSnapshot } from '../srs/store';
+import { deckSummary, focusLevel, focusQueue, scoreAll, type FocusLevel } from '../srs/focus';
 import { Btn, Card as Box, EmptyState, Field, H, P, Pill, ProgressBar, TOUCH, c, sp } from './kit';
 
 const msg = (e: unknown) => (e instanceof Error ? e.message : 'Something went wrong.');
 const RATING_LABEL: Record<Rating, string> = { again: 'Again', hard: 'Hard', good: 'Good', easy: 'Easy' };
 const RATING_COLOR: Record<Rating, string> = { again: c.bad, hard: c.warn, good: c.good, easy: c.accent };
+const FOCUS_COLOR: Record<FocusLevel, string> = { high: c.bad, medium: c.warn, low: c.dim };
 
 /** Review tab: due queue, flip, rate, session summary, plus card generation and edit/dismiss. */
 export function Review({ state }: { state: AppState }) {
@@ -53,8 +55,19 @@ export function Review({ state }: { state: AppState }) {
     [live, snap.sched, state.topics, state.events, now],
   );
 
-  const start = () => {
-    const q = dueQueue(live, snap.sched, state.topics, state.events, Date.now()).map((x) => x.cardId);
+  const scores = useMemo(
+    () => scoreAll(live, snap.sched, snap.events, state.topics, state.events, now),
+    [live, snap.sched, snap.events, state.topics, state.events, now],
+  );
+  const scoreById = useMemo(() => new Map(scores.map((x) => [x.cardId, x])), [scores]);
+  const decks = useMemo(() => deckSummary(live, snap.sched, state.topics, scores, now), [live, snap.sched, state.topics, scores, now]);
+  const focusCount = useMemo(() => focusQueue(scores, 10).length, [scores]);
+
+  const start = (mode: 'due' | 'focus' = 'due') => {
+    const q =
+      mode === 'focus'
+        ? focusQueue(scoreAll(live, snap.sched, snap.events, state.topics, state.events, Date.now()), 10).map((x) => x.cardId)
+        : dueQueue(live, snap.sched, state.topics, state.events, Date.now()).map((x) => x.cardId);
     setQueue(q);
     setPos(0);
     setFlipped(false);
@@ -159,6 +172,12 @@ export function Review({ state }: { state: AppState }) {
         <Box>
           <View style={{ flexDirection: 'row', gap: 8, flexWrap: 'wrap' }}>
             <Pill text={card.sourceTopicTitle} />
+            {scoreById.get(card.id) ? (
+              <Pill
+                text={`Focus ${scoreById.get(card.id)!.points}${scoreById.get(card.id)!.reasons[0] ? ` · ${scoreById.get(card.id)!.reasons[0]}` : ''}`}
+                color={FOCUS_COLOR[scoreById.get(card.id)!.level]}
+              />
+            ) : null}
             {card.beyondNotes ? <Pill text="Beyond your notes, check your textbook" color={c.warn} /> : null}
             {card.edited ? <Pill text="Edited" /> : null}
           </View>
@@ -217,19 +236,41 @@ export function Review({ state }: { state: AppState }) {
       <H>Review</H>
       {note ? <P>{note}</P> : null}
       {err ? <P>{err}</P> : null}
-      {dueNow === 0 ? (
+      {live.length === 0 ? (
         <EmptyState
-          title="No cards due"
-          detail={live.length ? 'Come back later, or add more cards.' : 'Make flashcards from your notes to start.'}
+          title="No cards yet"
+          detail="Make flashcards from your notes to start."
           actionLabel="Generate cards for a topic"
           onAction={() => setGenOpen(true)}
         />
       ) : (
-        <Box>
-          <P>{`${dueNow} card(s) due`}</P>
-          <Btn label="Start review" onPress={start} />
-          <Btn label="Generate cards for a topic" kind="ghost" onPress={() => setGenOpen(true)} />
-        </Box>
+        <>
+          <Box>
+            <P>{dueNow ? `${dueNow} card(s) due` : 'Nothing due right now'}</P>
+            <Btn label={`Start review${dueNow ? ` (${dueNow})` : ''}`} disabled={dueNow === 0} onPress={() => start('due')} />
+            <Btn
+              label={`Focus on weak spots${focusCount ? ` (${focusCount})` : ''}`}
+              kind="ghost"
+              disabled={focusCount === 0}
+              hint="Practise the cards you forget or the topics you are weak in, even if not due. Counts as a normal review."
+              onPress={() => start('focus')}
+            />
+            <Btn label="Generate cards for a topic" kind="ghost" onPress={() => setGenOpen(true)} />
+          </Box>
+          <Box>
+            <H>Decks</H>
+            <P dim>One deck per topic. Focus shows how much attention a deck needs (0-100).</P>
+            {decks.map((d) => (
+              <View key={d.topicId} style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: sp.sm, minHeight: TOUCH }}>
+                <View style={{ flex: 1 }}>
+                  <Text style={{ color: c.text, fontSize: 15, fontWeight: '600' }}>{d.title}</Text>
+                  <Text style={{ color: c.dim, fontSize: 13 }}>{`New ${d.fresh} · Learning ${d.learning} · Due ${d.due}`}</Text>
+                </View>
+                <Pill text={`Focus ${d.peakFocus}`} color={FOCUS_COLOR[focusLevel(d.peakFocus)]} />
+              </View>
+            ))}
+          </Box>
+        </>
       )}
     </View>
   );
