@@ -18,6 +18,24 @@ Confirm last menstrual period, cycle regularity, contraception, pregnancy histor
 ## Differential diagnosis and red flags
 Amenorrhea may result from stress, endocrine disorders, weight change, lactation or other causes. Nausea, breast tenderness and fatigue are nonspecific. Urgent evaluation is needed for severe unilateral pain, shoulder-tip pain, syncope, heavy bleeding, fever or hemodynamic instability.
 
+## Test interpretation and early pregnancy of unknown location
+
+### Urine vs serum hCG
+Urine tests are convenient screening tools; a negative urine result can occur if testing is too early, urine is dilute, or instructions/timing were not followed. Serum hCG can detect lower levels and may be used when symptoms or clinical suspicion warrant it. False-positive/discordant results can occur due to assay interference, recent pregnancy, exogenous hCG or uncommon hCG-producing conditions. Review the test method and clinical context instead of treating one unexpected result as the final diagnosis.
+
+The level or trend of beta-hCG **cannot independently establish** gestational age, viability or pregnancy location. Normal intrauterine pregnancies, early losses and ectopic pregnancies have overlapping hCG values and trends. Do not apply a single “discriminatory zone” as an absolute cutoff for deciding that a pregnancy is nonviable or ectopic.
+
+### Pregnancy of unknown location
+A positive pregnancy test with no intrauterine or ectopic pregnancy identified on the initial ultrasound is a temporary clinical classification, not a final diagnosis. In a stable patient, management may include serial quantitative beta-hCG, repeat transvaginal ultrasound and specialist follow-up based on symptoms, values and gestational timing. A patient must have clear follow-up and emergency return instructions until location/outcome is resolved. For an unstable patient or one with signs of rupture/internal bleeding, emergency assessment and stabilization take priority; do not delay for repeat hCG or scheduled imaging.
+
+### Safety and nonjudgmental care
+- If pregnancy is possible and pain/bleeding is present, assess maternal stability and consider ectopic pregnancy even if a home/urine test was faint or an early scan was inconclusive.
+- Confirm gestational dating rather than estimating it from symptoms or one hCG result.
+- After a positive test, reconcile medications/possible teratogenic exposure and arrange timely prenatal assessment without independently stopping essential medicines.
+- Provide privacy, consent-based care and nonjudgmental counseling regardless of whether the pregnancy is desired.
+- Urgent red flags include severe or unilateral abdominal pain, shoulder-tip pain, syncope/near-syncope, heavy bleeding, pallor, tachycardia, hypotension or collapse.
+
+
 ## Nursing responsibilities
 - Use a respectful, confidential history and clarify pregnancy intention where relevant.
 - Explain test timing and the possibility of early false-negative results.
