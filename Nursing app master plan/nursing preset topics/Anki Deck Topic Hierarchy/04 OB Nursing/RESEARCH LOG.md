@@ -125,3 +125,19 @@ These are not counted as completed topics until the hierarchy is checked for dup
 - EINC resuscitation audit action: opened the 2025 AHA/AAP neonatal resuscitation guideline (published in *Pediatrics* 2026) and checked its recommendation against routine suctioning and its emphasis on ventilation for apnea/bradycardia/inadequate effort. Updated `Others/EINC/EINC Basics/Research.md` and reopened the saved file (5831 characters). Current Philippine DOH/facility protocol comparison remains pending.
 
 - EINC source citation correction: the 2025 AHA/AAP neonatal resuscitation guideline citation has now been inserted into the EINC Basics source list (not only discussed in the text); the file was reopened and the citation confirmed (6198 characters).
+
+## Current-cycle audit update (2026-10-17)
+The updated full research standard was reread in this cycle. Its key acceptance rule remains: a topic is not complete until its dedicated file has substantive content, checked sources and claims, a successful reopen, and a reconciled log entry.
+
+### Source pages opened and checked
+- **Cord prolapse:** RCOG Green-top Guideline No. 50 page opened and checked. It defines prolapse vs cord presentation, describes the emergency/perinatal risk, and states second edition; reviewed December 2024 and extended two years. This verifies scope/definition only, not all intervention steps. Source: https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/umbilical-cord-prolapse-green-top-guideline-no-50/
+- **PPROM:** RCOG Green-top Guideline No. 73 page opened and checked. It covers 24+0–36+6 weeks; diagnosis uses history plus sterile speculum examination, infection assessment combines clinical findings, maternal blood tests and fetal heart rate rather than relying on a single parameter, and the page flags updated corticosteroid guidance. Source: https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/care-of-women-presenting-with-suspected-preterm-prelabour-rupture-of-membranes-from-24plus0-weeks-of-gestation-green-top-guideline-no-73/
+- **Shoulder dystocia:** RCOG Green-top Guideline No. 42 page opened and checked. It defines the emergency, identifies postpartum hemorrhage, anal sphincter injury and brachial plexus injury as important complications, and notes practical maneuvers require training. Page says third edition and last reviewed 1 September 2026. Source: https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/shoulder-dystocia-green-top-guideline-no-42/
+- **Postpartum hemorrhage:** WHO's consolidated PPH guideline dated 5 October 2025 was opened. It is the current consolidated reference for prevention, diagnosis and treatment; the Postpartum Changes file now explicitly flags it for detailed claim-by-claim comparison. Source: https://www.who.int/publications/i/item/9789240115637
+
+### Changes made this cycle
+- Added source-verification notes to Abortion, Cord Prolapse, PPROM, Shoulder Dystocia and Postpartum Changes research files. Each updated file was saved to its assigned topic folder. Reopen verification and detailed content audits still need to be logged after re-fetching each file.
+- Do not mark any of these topics VERIFIED COMPLETE based only on checking a guideline landing page. Current state remains draft/needs review until recommendations, medication details, source URLs, Philippine context and all mandatory sections are audited.
+
+### Exact next action
+Reopen the five updated files and confirm the inserted notes are present. Then continue claim-by-claim source audit of emergency topics, starting with PPROM, cord prolapse, shoulder dystocia and postpartum hemorrhage; record each verified claim and any corrections. Continue topic-by-topic across all 35 files until each meets the full guide, then run another recursive tree audit. No background execution is implied.
