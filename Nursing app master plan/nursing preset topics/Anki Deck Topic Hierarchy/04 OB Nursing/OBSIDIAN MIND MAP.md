@@ -25,10 +25,15 @@
   - True vs False Labor Contractions
 - Common Complications
   - Abortion / Pregnancy Loss
+  - [[Common Complications/Abortion/Research|Abortion and Pregnancy Loss]]
   - Abruptio Placenta
+  - [[Common Complications/Abruptio Placenta/Research|Placental Abruption]]
   - Cord Prolapse
+  - [[Common Complications/Cord Prolapse/Research|Umbilical Cord Prolapse]]
   - Ectopic Pregnancy
+  - [[Common Complications/Ectopic Pregnancy/Research|Ectopic Pregnancy]]
   - Gestational Diabetes
+  - [[Common Complications/Gestational Diabetes/Research|Gestational Diabetes]]
   - Hemolytic Disease of the Newborn
   - Hydatidiform Mole
   - Hyperemesis Gravidarum
