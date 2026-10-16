@@ -7,7 +7,9 @@
 - Normal Pregnancy
   - Adaptations of Pregnancy
     - Cardiovascular Changes
+    - [[Normal Pregnancy/Adaptations of Pregnancy/Cardiovascular Changes/Research|Cardiovascular Changes]]
     - Endocrine Changes
+    - [[Normal Pregnancy/Adaptations of Pregnancy/Endocrine Changes/Research|Endocrine Changes]]
     - GI Changes
     - Other Changes
   - Antepartum Care
