@@ -210,7 +210,7 @@ For each question-version/concept-family/session tuple, select the latest valid 
 
 Concept coverage is distinct required concept clusters with valid evidence divided by total mapped required concept clusters, using the versioned topic-coverage blueprint. If mapping or source quality is unresolved, coverage is incomplete and high confidence is blocked.
 
-Use the proposed v1 evidence gates in PRODUCT_REQUIREMENTS_AND_UX.md: minimum 5 distinct question/concept-family IDs across 2 sessions for developing evidence; likely mastered requires 10 distinct IDs, 3 sessions, delayed retrieval at least 24 hours after initial learning, at least 80% coverage, recency-weighted performance at least 85%, and latest-session performance at least 80%. A separate confidence label depends only on evidence quantity/diversity, session count, delayed retrieval, concept coverage and source/mapping quality—not correctness. The mastery label separately applies accuracy thresholds. Sparse perfect scores remain insufficient evidence.
+Use the proposed v1 evidence gates in PRODUCT_REQUIREMENTS_AND_UX.md: minimum 5 distinct concept-family IDs across 2 sessions for developing evidence; likely mastered requires 10 distinct concept-family IDs, 3 sessions, delayed retrieval at least 24 hours after initial learning, at least 80% coverage, recency-weighted performance at least 85%, and latest-session performance at least 80%. A separate confidence label depends only on evidence quantity/diversity, session count, delayed retrieval, concept coverage and source/mapping quality—not correctness. The mastery label separately applies accuracy thresholds. Sparse perfect scores remain insufficient evidence.
 
 ### 11.3 Deterministic mastery scenario fixtures and expected outputs
 
