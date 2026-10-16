@@ -150,3 +150,4 @@ All other topic folders require their own substantive research and logged verifi
   - [[Swaroops, Sex Ratio]] — **Drafted — Needs Verification**
   - [[Common Vital Statistics]] — **Drafted — Needs Verification**
 - [[Incidence vs Prevalence Rates]] — **Drafted — Needs Verification**
+- [[EINC]] — **Drafted — Needs Verification**
