@@ -1,308 +1,308 @@
 [
-  {
-    "id": "np1-chn-basics",
-    "area": "NP1",
-    "title": "Community Health Nursing Basics",
-    "body": "## What it is\nCommunity health nursing (CHN) is nursing practice that combines public health and nursing skills to protect and promote the health of a whole population, not only of the sick person in front of you. The community is the ultimate client; individuals and families are the entry points to reach it. The usual textbook definition comes from the public health pioneer C.E.A. Winslow: the science and art of preventing disease, prolonging life and promoting health and efficiency through organized community effort. The focus is prevention and health promotion first, cure second.\n\n## Must-know facts\n- Clients of CHN, from smallest to largest unit: the individual, the family (the basic unit of care and the unit of service), population groups (people sharing a risk, age or condition such as mothers, school children, the elderly), and the community. Many texts say the family is the unit of service while the community is the ultimate client.\n- Scope: preventive, promotive, curative and rehabilitative care, with preventive and promotive emphasis. Care is continuous, not episodic.\n- The Rural Health Unit (RHU) or city health office, and the barangay health station, are the usual practice settings. Barangay health workers and midwives work alongside the public health nurse.\n- Roles commonly listed: care provider, educator, advocate, manager and supervisor, coordinator and collaborator, researcher, referral agent, change agent, and facilitator of community participation.\n\n## What the nurse does (priority order and why)\n1. Assess the community and its families first (community diagnosis) because services must match real needs.\n2. Plan with the community, not for it, so that people own the plan.\n3. Deliver care at the lowest effective level, using home visits, clinics and group teaching.\n4. Refer when the need exceeds the level of the RHU, and follow up.\n5. Evaluate outcomes using health indicators and community feedback.\n\n## Key terms and steps\n- Health means wellness, not just absence of disease. Prevention is the main strategy.\n- Public health nursing is often treated as a synonym of community health nursing; some books separate them by employer (government versus private). Check your own textbook's wording.\n\n## People behind CHN\n- Florence Nightingale: founder of modern nursing; promoted sanitation, statistics and trained nurses, and supported district nursing for the sick poor at home.\n- William Rathbone: businessman who funded district nursing in Liverpool, England, after his wife was nursed at home.\n- Lillian Wald: American nurse who coined the term public health nurse and founded the Henry Street Settlement in New York; a model of nursing outreach to poor communities and schools.\n- Mary Breckinridge: founded the Frontier Nursing Service in the United States (nurse-midwives on horseback).\n- Clara Barton: associated with the American Red Cross.\n\n## How the exam asks about it\nLook for the question that asks who the client is, what the focus is, or which person is matched to which contribution. A trap: choosing the individual as the ultimate client; the best answer is the community (family if the stem says unit of service).\n\n## Memory aid\nInvented by me: W-W-N = Wald (public health nurse, Henry Street), Winslow (definition), Nightingale (district nursing roots).\n\n## Related topics\n[[Primary Health Care Basics]], [[Levels of Prevention]], [[Community Organizing (COPAR) Phases]], [[Family Nursing Process: Assessment]]\n\n## Check against your textbook\n- Exact list and wording of CHN roles differ between books.\n- People behind CHN: some Philippine textbooks add local pioneers; verify local names and dates in your own reviewer before memorizing.",
-    "tags": [
-      "CHN",
-      "definition",
-      "roles",
-      "clients",
-      "history"
-    ],
-    "priority": "high",
-    "outlineRefs": [
-      "Community Health Nursing",
-      "CHN, PHC",
-      "Clients of CHN",
-      "People Behind CHN"
-    ],
-    "aiWritten": true,
-    "nurseReviewed": false
-  },
-  {
-    "id": "np1-copar-principles",
-    "area": "NP1",
-    "title": "Community Organizing (COPAR) Basic Principles",
-    "body": "## What it is\nCommunity Organizing Participatory Action Research (COPAR) is a way of working with a community in which the people themselves identify problems, plan, act and evaluate, with the nurse as a facilitator. It is a continuing, educational process aimed at empowerment: helping people gain the ability and confidence to solve their own health problems and sustain solutions after the nurse leaves.\n\n## Must-know facts\n- The people are the center. The nurse is a catalyst, facilitator and educator, not the owner of the project.\n- The process is participatory: action and research happen together. The community collects information, reflects on it and acts.\n- The goal is community ownership and self-reliance, so activities should be sustainable without the nurse.\n- Start where the people are: their perceived needs, culture, strengths and resources come before the nurse's own agenda.\n- Work with community leaders and respect existing structures (barangay council, people's organizations, church and school groups).\n- Strengthen the community's decision-making and organizing capacity, not only deliver a service.\n- Learning by doing: people learn through reflection on their own experience.\n- Involve all sectors, including vulnerable groups, so the process does not serve only a few.\n\n## What the nurse does (priority order and why)\n1. Learn the community first (integration) because trust must exist before any action.\n2. Help people recognize their own problems; if the nurse names the problem alone, ownership is lost.\n3. Develop leaders and a core group so work continues.\n4. Support, advise and step back gradually; the end point is phase-out.\n\n## Community and family teaching\nTeach in a way that builds skills (how to hold a meeting, how to monitor a project) rather than only facts. Use local language and examples.\n\n## How the exam asks about it\nTypical stems describe a nurse doing something for the community (deciding the project, funding it, running it herself). The correct choice is the one that moves decisions to the community. Words like facilitator, empowerment, sustainable and participation signal the right answer. A trap: acting fast because the problem is urgent in your view, when the question asks about COPAR philosophy.\n\n## Memory aid\nInvented by me: PEOPLE decide, nurse FACILITATES, project SURVIVES without her.\n\n## Related topics\n[[Community Organizing (COPAR) Phases]], [[Primary Health Care Pillars and Characteristics]], [[Community Health Nursing Basics]]\n\n## Check against your textbook\nSome books list five to seven numbered principles with different wording. Match your reviewer's list for recall questions, but the logic (people-centered, empowering, sustainable) is the same.",
-    "tags": [
-      "COPAR",
-      "empowerment",
-      "participation"
-    ],
-    "priority": "high",
-    "outlineRefs": [
-      "COPAR",
-      "Basic Principles of COPAR"
-    ],
-    "aiWritten": true,
-    "nurseReviewed": false
-  },
-  {
-    "id": "np1-copar-phases",
-    "area": "NP1",
-    "title": "Community Organizing (COPAR) Phases",
-    "body": "## What it is\nCOPAR proceeds through ordered phases, from getting permission and learning the community to handing over leadership to the people. Know the order because questions often ask which phase comes next or which activity belongs to which phase.\n\n## Must-know facts\nA commonly taught sequence is:\n1. Pre-entry (preparatory): choose the site, set criteria, prepare the team.\n2. Entry: get permission from local officials, introduce yourself, meet leaders.\n3. Social preparation / integration: live with and learn from the people; do a community study (community diagnosis) using observation, interviews and records; build rapport.\n4. Core group formation: identify and train potential leaders.\n5. Organization: form working committees and an organization; set roles.\n6. Education and training: build skills of leaders and members (health topics, organizing skills).\n7. Mobilization: put plans into action, including intersectoral linkages and resource generation.\n8. Ground work and evaluation: monitor and review results with the people.\n9. Phase-out: the organization stands on its own and the nurse gradually withdraws.\n\n## What the nurse does (priority order and why)\n1. Seek formal permission before anything else. Skipping the entry step damages trust.\n2. Integrate: stay, listen, observe. Information gathered without relationship is unreliable.\n3. Facilitate community diagnosis so that the people see the data and set priorities themselves.\n4. Develop leaders before starting big projects.\n5. Phase out only when the community shows it can plan and act without help.\n\n## Key terms and steps\n- Community diagnosis: collect, analyze and present community data; the community participates.\n- Intersectoral linkage: partnership with other agencies and sectors for resources.\n- Phase-out: not abandonment; it is planned and gradual.\n\n## How the exam asks about it\nStems give an activity (for example, the nurse meets the barangay captain, or the group holds its first meeting without the nurse) and ask for the phase. Anchor on verbs: permission and introduction mean entry; living with and learning means integration; training leaders means core group or education; stepping back means phase-out.\n\n## Memory aid\nInvented by me, a story order: Permission, Live-in, Leaders, Organize, Teach, Act, Review, Leave.\n\n## Related topics\n[[Community Organizing (COPAR) Basic Principles]], [[Community Health Nursing Basics]]\n\n## Check against your textbook\nBooks name and group the phases differently (some give five, some more, and some merge ground work with mobilization or pre-entry with entry). Memorize the grouping in the reviewer you use, and verify the sequence with your instructor (verify local policy / school version).",
-    "tags": [
-      "COPAR",
-      "phases",
-      "community organizing"
-    ],
-    "priority": "high",
-    "outlineRefs": [
-      "Phases of COPAR"
-    ],
-    "aiWritten": true,
-    "nurseReviewed": false
-  },
-  {
-    "id": "np1-doh",
-    "area": "NP1",
-    "title": "Department of Health (DOH) Concepts and Functions",
-    "body": "## What it is\nThe Department of Health (DOH) is the national government agency that leads the Philippine health system. It sets national health policy and standards, regulates, and provides leadership in health, while delivery of basic services to the people is largely handled by local government units after devolution.\n\n## Must-know facts\n- Devolution (under the Local Government Code) moved basic health service delivery to provinces, cities and municipalities. The DOH keeps policy, standards, technical assistance, regulation and services of national scope. The levels of care in a local health system run from the barangay health station to the RHU or city health office, then district, provincial and regional hospitals, up to national referral centers.\n- Core roles usually taught: leadership in health (policy and planning), regulation (of products, facilities and personnel), and provision of services where the local level cannot, especially for special or national-level concerns.\n- Related agencies often linked to the DOH in questions include PhilHealth (social health insurance) and attached regulators of food and drugs. Check the current list.\n- Barangay health workers (BHWs) are community volunteers trained and supervised by the RHU nurse and midwife.\n- The public health nurse in the RHU supervises midwives and BHWs, manages programs, and links the community with the municipal health officer.\n\n## What the nurse does (priority order and why)\n1. Know the referral chain so that the client goes to the right level.\n2. Implement national DOH programs locally (immunization, nutrition, maternal care, communicable disease control).\n3. Report health data upward through the information system so that policy fits reality.\n4. Coordinate with local officials, who fund and administer services.\n\n## How the exam asks about it\nQuestions ask who is responsible for what (national policy and standards versus local service delivery), where a client should be referred first, or what DOH function a scenario shows. The trap is mixing DOH national roles with local government roles.\n\n## Related topics\n[[Sentrong Sigla Program]], [[Magna Carta of Public Health Workers]], [[Primary Health Care Basics]], [[Expanded Program on Immunization]]\n\n## Check against your textbook\n- Official vision, mission, the exact number of DOH functions, the name of the current reform framework and the current organizational structure: verify local policy; these change.\n- Which specific agencies are attached to the DOH: verify.\n- The laws and executive orders behind reorganization and devolution: verify the numbers and years in your own reviewer.",
-    "tags": [
-      "DOH",
-      "devolution",
-      "health system",
-      "Philippines"
-    ],
-    "priority": "high",
-    "outlineRefs": [
-      "DOH",
-      "DOH Concepts",
-      "Functions of DOH"
-    ],
-    "aiWritten": true,
-    "nurseReviewed": false
-  },
-  {
-    "id": "np1-family-assessment",
-    "area": "NP1",
-    "title": "Family Nursing Process: Assessment",
-    "body": "## What it is\nIn CHN, the family is the unit of service, so the nursing process (assessment, diagnosis, planning, implementation, evaluation, ADPIE) is applied to the family. Assessment is the first step and has two levels. It collects data on the family as a whole, not just the sick member.\n\n## Must-know facts\nFirst-level assessment (family structure, characteristics and general status):\n- Family structure and characteristics, including members, relationships and roles, and decision-making patterns.\n- Socioeconomic and cultural characteristics.\n- Home and environmental conditions (water, toilet, waste disposal, housing, pets, vectors).\n- Health status of each member, including immunization and nutritional status.\n- Values and practices about health and illness.\n- Use of community resources.\n\nSecond-level assessment (the family's ability to do its health tasks):\n- Looks at five basic family health tasks: recognizing a health problem, making decisions about care, caring for a sick, disabled or dependent member, maintaining a healthy home environment, and using community resources.\n- The nurse classifies each problem as a health threat (conditions that may lead to disease, like poor sanitation), a health deficit (existing illness or disability), or a foreseeable crisis (expected stress points such as childbirth or entry into school).\n\n## What the nurse does (priority order and why)\n1. Establish rapport and obtain consent at the first home visit; people share more when they trust you.\n2. Collect first-level data, then use it to find problems.\n3. Do second-level assessment of the five tasks to learn why the family cannot solve the problem.\n4. Validate data and record it in the family folder or family health record.\n\n## Key terms and steps\n- A family nursing diagnosis states the problem and its cause, usually the family's inability to perform a task.\n- Data collection tools include interview, observation, physical exam and records review.\n\n## Community and family teaching\nTeaching starts only after the family agrees which problem matters to them. Use their words and respect their beliefs.\n\n## How the exam asks about it\nStems give a household description and ask you to classify a problem (threat, deficit or crisis) or name the family health task that failed. Trap: a family with an ill member has a deficit; a household with unsafe water but no disease yet has a threat; a mother about to deliver is a foreseeable crisis.\n\n## Related topics\n[[Family Nursing Process: Planning and Prioritization]], [[Family Nursing Process: Implementation and Evaluation]], [[Environmental Sanitation]]\n\n## Check against your textbook\nDifferent books use slightly different names for the levels and for the family tasks. Verify the wording used in your school.",
-    "tags": [
-      "family",
-      "ADPIE",
-      "assessment",
-      "family health tasks"
-    ],
-    "priority": "high",
-    "outlineRefs": [
-      "Family ADPIE",
-      "a. Assessment"
-    ],
-    "aiWritten": true,
-    "nurseReviewed": false
-  },
-  {
-    "id": "np1-family-planning",
-    "area": "NP1",
-    "title": "Family Nursing Process: Planning and Prioritization",
-    "body": "## What it is\nPlanning in the family nursing process means deciding which family problem to tackle first, setting goals, choosing interventions and deciding who does what and when. Because a household usually has many problems and the nurse has limited time, a scoring method ranks them.\n\n## Must-know facts\nGoal setting:\n- A goal is the broad outcome; objectives are specific, measurable steps. Good objectives follow the SMART idea: specific, measurable, attainable, realistic, time-bound.\n- The family takes part in setting goals so they accept them.\n\nPrioritizing family problems with the scale commonly taught in the Philippines (four criteria, total weight 5). Verify the exact scores in your own textbook:\n1. Nature of the problem, weight 1: health deficit scores highest (3 of 3), health threat next (2 of 3), foreseeable crisis lowest (1 of 3).\n2. Preventive potential, weight 1: high 3 of 3, moderate 2 of 3, low 1 of 3.\n3. Modifiability of the problem, weight 2: easily modifiable 2 of 2, partially 1 of 2, not modifiable 0.\n4. Salience, weight 1: family sees it as needing immediate attention 2 of 2, sees it but not urgent 1 of 2, does not perceive it as a problem 0.\n\nFormula for each criterion: (score obtained divided by the highest possible score for that criterion) multiplied by the weight. Add the four results. The highest total is the first priority.\n\nWorked example, invented for practice: a deficit (3/3 x 1 = 1), moderate preventive potential (2/3 x 1 = 0.67), partially modifiable (1/2 x 2 = 1), not urgent in the family's eyes (1/2 x 1 = 0.5). Total = 3.17.\n\n## What the nurse does (priority order and why)\n1. List the family's identified problems.\n2. Score each problem on each criterion with the family's view included (salience) so priority reflects both science and the family's perception.\n3. Compute totals and rank them.\n4. If scores tie, use clinical judgment: life-threatening or contagious conditions and children come first.\n5. Write objectives and interventions for the top-ranked problem, then the others.\n\n## Key terms and steps\n- Weights differ: modifiability counts double, so it matters most in the formula.\n- Health threats and deficits are tackled while crises are anticipated.\n\n## How the exam asks about it\nStems give scores per criterion and ask for the total or the priority problem. Do the arithmetic carefully and watch the weights; the common trap is forgetting to multiply by the weight or dividing by the wrong maximum.\n\n## Memory aid\nInvented by me: the weights are 1, 1, 2, 1 in the order Nature, Preventive, Modifiability, Salience; only modifiability is doubled.\n\n## Related topics\n[[Family Nursing Process: Assessment]], [[Family Nursing Process: Implementation and Evaluation]]\n\n## Check against your textbook\n- The exact fractions and weights of the family-problem prioritization scale (verify local policy and your textbook; I am fairly but not fully certain of the values above).\n- Some schools use fewer or more criteria, so copy your school's version.",
-    "tags": [
-      "family",
-      "planning",
-      "goal setting",
-      "scoring",
-      "priority"
-    ],
-    "priority": "high",
-    "outlineRefs": [
-      "b. Planning",
-      "1. Goal Setting",
-      "2. Prioritization",
-      "3. Scoring"
-    ],
-    "aiWritten": true,
-    "nurseReviewed": false
-  },
-  {
-    "id": "np1-family-implementation-evaluation",
-    "area": "NP1",
-    "title": "Family Nursing Process: Implementation and Evaluation",
-    "body": "## What it is\nImplementation is carrying out the family care plan, mainly through home visits and clinic contact, and evaluation is judging whether the goals were met. Both steps involve the family as an active partner.\n\n## Must-know facts\n- Main implementation tools: home visits, health education, demonstration and return demonstration, referrals, and coordination with other workers and agencies.\n- The home visit is the usual way to reach the family. Typical sequence: planning the visit (review records, define objectives, prepare supplies), then the visit itself (greet, introduce yourself, state purpose, do the care and teaching), then recording and follow-up.\n- The bag technique helps prevent cross-infection during home visits: place the bag on a clean surface, wash hands before and after care, and avoid contaminating the inside of the bag. Check the exact steps in your textbook.\n- Evaluation compares results with objectives. Ask: was the objective met, partially met, or not met? Look at outcome, process and family satisfaction.\n\n## What the nurse does (priority order and why)\n1. Review records and confirm the objectives of the visit before leaving the office.\n2. Greet the family and explain the purpose; consent and trust come first.\n3. Wash hands, use the bag technique, and provide care and teaching in order of the priority problem.\n4. Document the visit in the family folder immediately, because follow-up depends on it.\n5. Plan the next visit based on the evaluation; if the goal is unmet, reassess and revise.\n\n## Community and family teaching\nUse teach-back and return demonstration to confirm understanding. Teach the family to do the tasks themselves so care continues between visits.\n\n## How the exam asks about it\nStems ask what to do first before a home visit (review the family record and set objectives), what is wrong with a nurse's technique, or whether an objective was met. A trap is choosing a nursing action before getting the family's agreement or before reviewing data.\n\n## Related topics\n[[Family Nursing Process: Planning and Prioritization]], [[Family Nursing Process: Assessment]], [[Competency-Based Teaching]]\n\n## Check against your textbook\nThe step-by-step bag technique and the standard forms used in the family folder vary across schools and local health offices; verify local policy.",
-    "tags": [
-      "family",
-      "implementation",
-      "evaluation",
-      "home visit"
-    ],
-    "priority": "medium",
-    "outlineRefs": [
-      "c. Implementation",
-      "d. Evaluation"
-    ],
-    "aiWritten": true,
-    "nurseReviewed": false
-  },
-  {
-    "id": "np1-health-promotion",
-    "area": "NP1",
-    "title": "Health Promotion: Concepts, Diet and Exercise",
-    "body": "## What it is\nHealth promotion helps people increase control over their health and improve it. It is aimed at healthy people and at those at risk, and it works through education, supportive environments and healthy public policy. It differs from disease prevention mainly in motive: promotion builds wellness; prevention avoids a specific disease.\n\n## Must-know facts\n- The Ottawa Charter (1986) is the best-known international statement, listing action areas such as building healthy public policy, creating supportive environments, strengthening community action, developing personal skills, and reorienting health services. Verify wording in your reviewer.\n- Promotion is part of the first level of prevention (primary).\n- Diet: a balanced diet uses all food groups in proper proportion. Filipino food guides (such as a plate model used by the DOH or national nutrition authorities) show portions of go, grow and glow foods; verify the current name and shape. Advise less salt, sugar and saturated fat, more vegetables and fruit, and enough water. Breastfeeding is the model for infant feeding.\n- Exercise: regular moderate activity on most days lowers the risk of heart disease, diabetes, obesity and depression. A widely used adult guide is about 150 minutes of moderate activity per week, but verify with your textbook. Start gradually, warm up, keep hydrated, and stop with chest pain, severe breathlessness or dizziness.\n\n## What the nurse does (priority order and why)\n1. Assess lifestyle, readiness to change and barriers.\n2. Agree on a short, specific plan; small goals succeed better than big ones.\n3. Teach and demonstrate; link advice to the person's own foods, work and budget.\n4. Follow up and reinforce.\n5. Refer clients with chronic illness for clearance before they begin vigorous exercise.\n\n## Community and family teaching\nUse group sessions, posters, school programs and local examples. Involve the family in cooking and activity choices.\n\n## How the exam asks about it\nStems ask which activity is promotion rather than prevention, or the best teaching for a client with a specific habit. Pick answers that respect readiness and give practical steps.\n\n## Related topics\n[[Stop Smoking and Tobacco Cessation]], [[Levels of Prevention]], [[Nutrition]]\n\n## Check against your textbook\nCurrent national food-guide model and activity targets: verify local policy.",
-    "tags": [
-      "health promotion",
-      "diet",
-      "exercise",
-      "lifestyle"
-    ],
-    "priority": "medium",
-    "outlineRefs": [
-      "Health Promotion",
-      "a. Health Promotion",
-      "b. Diet",
-      "c. Exercise"
-    ],
-    "aiWritten": true,
-    "nurseReviewed": false
-  },
-  {
-    "id": "np1-stop-smoking",
-    "area": "NP1",
-    "title": "Stop Smoking and Tobacco Cessation",
-    "body": "## What it is\nTobacco use is a leading preventable cause of heart disease, lung disease and cancer. Cessation counselling is a core health-promotion skill for the nurse in the community.\n\n## Must-know facts\n- Brief counselling model, the 5 As: Ask about tobacco use, Advise to quit clearly, Assess willingness to quit, Assist with a plan and support, Arrange follow-up.\n- For clients not ready, the 5 Rs boost motivation: Relevance, Risks, Rewards, Roadblocks, Repetition.\n- Stages of change: precontemplation, contemplation, preparation, action, maintenance (relapse may occur and is part of the process). Match the intervention to the stage.\n- Withdrawal symptoms are real: irritability, craving, anxiety, increased appetite. They are strongest in the first days and fade.\n- Aids include nicotine replacement and prescription medicines; these are decided by a clinician. Quit lines and support groups are community resources.\n- Secondhand smoke harms children, pregnant women and the elderly; smoke-free homes protect families.\n\n## What the nurse does (priority order and why)\n1. Ask and document tobacco use at every contact, because identification leads to action.\n2. Assess readiness; counselling that ignores readiness fails.\n3. If ready: set a quit date, remove tobacco items, identify triggers, plan substitutes and arrange follow-up.\n4. If not ready: motivate with the 5 Rs, without pressure.\n5. Praise any success; treat relapse as learning and encourage another try.\n\n## Community and family teaching\nTeach triggers, delaying tactics (drink water, walk, breathe deeply) and avoiding smoking cues. Involve family and workplace support.\n\n## How the exam asks about it\nStems describe a smoker with statements showing a stage. Choose the intervention for that stage (information for contemplation, a plan for preparation, relapse prevention for maintenance). A trap is lecturing someone in precontemplation about quit steps.\n\n## Memory aid\nStandard: Ask, Advise, Assess, Assist, Arrange.\n\n## Related topics\n[[Health Promotion: Concepts, Diet and Exercise]], [[Levels of Prevention]]\n\n## Check against your textbook\n- Philippine anti-smoking laws and their provisions, smoke-free areas and graphic warning rules: verify local policy; I am not certain of the current details.",
-    "tags": [
-      "smoking",
-      "cessation",
-      "5As",
-      "stages of change"
-    ],
-    "priority": "medium",
-    "outlineRefs": [
-      "d. Stop Smoking"
-    ],
-    "aiWritten": true,
-    "nurseReviewed": false
-  },
-  {
-    "id": "np1-magna-carta",
-    "area": "NP1",
-    "title": "Magna Carta of Public Health Workers",
-    "body": "## What it is\nThe Magna Carta of Public Health Workers is a Philippine law that sets out the rights, benefits and protection of workers in government health service, including those in rural and remote areas. It aims to attract and keep health workers in public service and recognize their role in delivering health care.\n\n## Must-know facts\n- Public health workers covered are generally those engaged in health or health-related work in the government, including nurses, midwives, doctors and other staff in health facilities and agencies. Check the exact definition.\n- Benefits commonly associated with the law include additional pay or allowances for hardship (such as assignment in remote areas), hazard pay for risk of exposure, subsistence and laundry allowances, longevity pay, protection of security of tenure, and rights to training and career development. Verify exact amounts, conditions and eligibility in current rules.\n- The law also describes rights such as freedom to organize, and standards on working hours and leave. Verify details.\n- It is commonly cited as Republic Act 7305, enacted in the early 1990s; verify the number and date, and check later amendments.\n\n## What the nurse does (priority order and why)\n1. Know your rights and duties as a government health worker, because exam items test application, such as which worker qualifies for hazard pay.\n2. Keep records and report hazards, to protect yourself and others.\n3. Use the law as a basis for advocacy within your agency.\n\n## How the exam asks about it\nStems ask which benefit applies in a scenario (a nurse assigned to a remote barangay, a worker exposed to infectious disease) or what the law is for. Match the benefit to the situation; do not assume every benefit applies to every worker.\n\n## Related topics\n[[Department of Health (DOH) Concepts and Functions]], [[Community Health Nursing Basics]]\n\n## Check against your textbook\nI am not certain of the law's current numbers, allowance amounts or later updates, so treat every number and condition here as verify local policy. Copy the benefit list from your reviewer or the law's text.",
-    "tags": [
-      "law",
-      "public health workers",
-      "Philippines",
-      "benefits"
-    ],
-    "priority": "medium",
-    "outlineRefs": [
-      "Magna Carta of Public Health Workers"
-    ],
-    "aiWritten": true,
-    "nurseReviewed": false
-  },
-  {
-    "id": "np1-phc-basics",
-    "area": "NP1",
-    "title": "Primary Health Care Basics",
-    "body": "## What it is\nPrimary health care (PHC) is essential health care that is made universally accessible to individuals and families in the community, by means acceptable to them, through their full participation and at a cost the community and country can afford. It is both a level of care (the first contact) and a philosophy and strategy for achieving health for all.\n\n## Must-know facts\n- The Alma-Ata Declaration (1978), from the WHO and UNICEF conference, endorsed PHC as the key to health for all. The Philippines adopted PHC as a national approach in the late 1970s and later reforms supported it. Verify the Philippine document and year.\n- PHC is the first level of contact between individuals and the health system and the first element of a continuing health care process.\n- PHC addresses the main health problems of the community with promotive, preventive, curative and rehabilitative services.\n- Health is seen as part of overall social and economic development, so PHC works with other sectors such as education, agriculture and housing.\n- The eight elements of PHC used in the Philippines have their own note.\n\n## What the nurse does (priority order and why)\n1. Make care available at the community level first, so people use the nearest accessible service.\n2. Promote community participation in planning and running services.\n3. Use appropriate technology that the community understands and can maintain.\n4. Link with other sectors, because many health determinants lie outside the health sector.\n5. Refer upward when needed.\n\n## Community and family teaching\nTeach self-care and basic prevention at home, and encourage families to join health committees and activities.\n\n## How the exam asks about it\nStems ask what PHC emphasizes (prevention and community participation), the best example of PHC, or which declaration launched it. Trap: choosing a hospital-based, high-technology option.\n\n## Memory aid\nInvented by me: A-A-A-A for Accessible, Acceptable, Affordable, Appropriate.\n\n## Related topics\n[[Primary Health Care Pillars and Characteristics]], [[Elements of Primary Health Care]], [[Community Health Nursing Basics]], [[Levels of Prevention]]\n\n## Check against your textbook\nWording of the definition and its Philippine legal basis: verify local policy and your reviewer.",
-    "tags": [
-      "PHC",
-      "Alma-Ata",
-      "Philippines"
-    ],
-    "priority": "high",
-    "outlineRefs": [
-      "Primary Health Care",
-      "a. Basics of PHC"
-    ],
-    "aiWritten": true,
-    "nurseReviewed": false
-  },
-  {
-    "id": "np1-phc-pillars-characteristics",
-    "area": "NP1",
-    "title": "Primary Health Care Pillars and Characteristics",
-    "body": "## What it is\nThe pillars (or strategies) of PHC are the foundations that make it work. The characteristics describe what good PHC services look like.\n\n## Must-know facts\nCommonly taught Philippine pillars or strategies of PHC:\n1. Active community participation: people take part in decisions and actions.\n2. Intersectoral linkages: cooperation between the health sector and other sectors.\n3. Use of appropriate technology: simple, affordable, culturally acceptable and sustainable.\n4. Support mechanisms made available: financial, manpower, logistical and other resources to sustain the program.\nSome books present these as three pillars or use slightly different names. Verify against your reviewer.\n\nCharacteristics of PHC as commonly listed: accessible (geographically, financially, culturally), acceptable, affordable, available, appropriate, equitable, comprehensive, community-based, participatory and sustainable. Your textbook may name a subset.\n\n## What the nurse does (priority order and why)\n1. Involve the community from the start; participation comes first because ownership drives the other pillars.\n2. Build partnerships with schools, local government, churches and non-government groups.\n3. Choose simple, low-cost methods that people can use after you leave, such as home preparation of oral rehydration solution.\n4. Secure supplies and training so services last.\n\n## Key terms and steps\n- Intersectoral collaboration: for example, working with agriculture on nutrition or with public works on water supply.\n- Appropriate technology: fits local culture and resources.\n\n## How the exam asks about it\nItems give a scenario and ask which pillar is shown (for example, a health center teaming up with the school and the barangay council is intersectoral linkage). Trap: confusing participation (people decide) with support mechanisms (resources provided).\n\n## Memory aid\nInvented by me: P-I-T-S for Participation, Intersectoral, Technology, Support.\n\n## Related topics\n[[Primary Health Care Basics]], [[Elements of Primary Health Care]], [[Community Organizing (COPAR) Basic Principles]]\n\n## Check against your textbook\nWhether your school teaches three or four pillars and the exact list of characteristics: verify.",
-    "tags": [
-      "PHC",
-      "pillars",
-      "characteristics",
-      "participation"
-    ],
-    "priority": "high",
-    "outlineRefs": [
-      "b. Pillars of PHC",
-      "c. Characteristics of PHC"
-    ],
-    "aiWritten": true,
-    "nurseReviewed": false
-  },
-  {
-    "id": "np1-phc-elements",
-    "area": "NP1",
-    "title": "Elements of Primary Health Care",
-    "body": "## What it is\nThe Philippine approach to PHC is built on eight service elements that together cover the main community health needs. They are the content of PHC delivery at the barangay and RHU.\n\n## Must-know facts\nThe eight elements (a common memory aid is the word ELEMENTS):\n- Education for health\n- Locally endemic disease control\n- Expanded program on immunization\n- Maternal and child health, including family planning\n- Environmental sanitation, including safe water and waste disposal\n- Nutrition\n- Treatment of common diseases and injuries, including emergency care\n- Supply of Essential drugs\nSome lists reorder or split them (for example separating communicable and non-communicable disease treatment). Verify.\n\nEducation sits first because every other element depends on people understanding and accepting the service.\n\n## What the nurse does (priority order and why)\n1. Use health education in every contact, because it supports all the other elements.\n2. Prioritize by community need using local data (for example, high diarrhea rates mean emphasize sanitation and oral rehydration).\n3. Integrate services: one visit can cover immunization, nutrition and teaching.\n4. Monitor coverage and report.\n\n## How the exam asks about it\nItems name an activity (for example, giving vitamin A, building toilets, distributing generic drugs) and ask which element it belongs to. Match each activity to the single best element, and watch for overlaps such as nutrition versus maternal and child health.\n\n## Memory aid\nThe word ELEMENTS: Education, Locally endemic disease control, EPI, Maternal and child health, Environmental sanitation, Nutrition, Treatment of common diseases, Supply of essential drugs. This word-to-element mapping is a common device that I reconstructed here; compare it with your own reviewer.\n\n## Related topics\n[[Epidemiology and Endemic Diseases]], [[Expanded Program on Immunization]], [[Maternal and Child Health]], [[Nutrition]], [[Environmental Sanitation]], [[Essential Drugs]], [[Competency-Based Teaching]], [[Primary Health Care Basics]]\n\n## Check against your textbook\nExact element names, order and wording of the treatment element (for example, whether emergency services are included): verify local policy and your reviewer.",
-    "tags": [
-      "PHC",
-      "elements",
-      "ELEMENTS",
-      "Philippines"
-    ],
-    "priority": "high",
-    "outlineRefs": [
-      "d. ELEMENTS of PHC",
-      "ELEMENTS of Primary Health Care"
-    ],
-    "aiWritten": true,
-    "nurseReviewed": false
-  },
-  {
-    "id": "np1-sentrong-sigla",
-    "area": "NP1",
-    "title": "Sentrong Sigla Program",
-    "body": "## What it is\nSentrong Sigla is a Philippine DOH quality assurance and certification program for health facilities and services. Its purpose is to encourage health centers to meet set standards so that the public receives safe, quality service. Facilities that meet the standards are recognized, and the movement encourages continuous improvement.\n\n## Must-know facts\n- It focuses on quality of service at the primary care level, such as RHUs and health centers.\n- The program works through assessment against a set of standards and the recognition or certification of compliant facilities. Links to PhilHealth accreditation or benefit packages are sometimes discussed; verify how.\n- The concept is quality improvement: measure, improve and recognize.\n\n## What the nurse does (priority order and why)\n1. Know the standards your health center is measured against so that care is consistent.\n2. Prepare records, equipment and the facility environment for assessment.\n3. Continue to improve after recognition; certification is not the end.\n\n## How the exam asks about it\nItems ask what the program is for (quality assurance and recognition of health facilities) or which agency runs it (the DOH). A trap: confusing it with a financing or insurance program.\n\n## Related topics\n[[Department of Health (DOH) Concepts and Functions]], [[Primary Health Care Basics]]\n\n## Check against your textbook\nThe exact standards, levels of recognition, the program's history and its present status or renamed forms: verify local policy. I am not certain which of these are current.",
-    "tags": [
-      "Sentrong Sigla",
-      "quality",
-      "DOH",
-      "certification"
-    ],
-    "priority": "low",
-    "outlineRefs": [
-      "Sentrong Sigla Program"
-    ],
-    "aiWritten": true,
-    "nurseReviewed": false
-  },
-  {
-    "id": "np1-competency-based-teaching",
-    "area": "NP1",
-    "title": "Competency-Based Teaching",
-    "body": "## What it is\nEducation for health is the first PHC element. Competency-based teaching plans teaching around what the learner must be able to do at the end, in terms of knowledge, attitude and skill, and then checks whether they can really do it. It is learner-centered and outcome-focused.\n\n## Must-know facts\n- Learning domains: cognitive (knowing), affective (attitude and values), psychomotor (skills). A competency usually combines all three.\n- Steps: assess learning needs and readiness, state measurable outcomes, choose methods that match the domain, teach, then evaluate using observation or return demonstration.\n- Match method to domain: explanation and discussion for knowledge; role play and group discussion for attitudes; demonstration and return demonstration for skills.\n- Adults learn best when content is relevant, practical, builds on experience and answers their own needs.\n- Evaluation looks at behavior and performance, not only test scores.\n\n## What the nurse does (priority order and why)\n1. Assess the learner first (what they know, can do and believe; literacy and language), because teaching without assessment wastes time.\n2. Set clear, measurable, learner-centered objectives with the learner.\n3. Choose method and materials to match the domain and audience.\n4. Teach in small steps and check understanding.\n5. Evaluate with return demonstration or teach-back; reteach if the competency is not shown.\n\n## Community and family teaching\nUse local language, pictures, demonstrations with household items and short sessions. Teach caregivers the exact skill they will need, such as preparing oral rehydration solution.\n\n## How the exam asks about it\nItems give an outcome (for example, a mother must be able to prepare ORS) and ask which teaching method or evaluation fits. The answer is usually demonstration followed by return demonstration. Trap: choosing a lecture or a pamphlet for a skill.\n\n## Related topics\n[[Levels of Prevention]], [[Family Nursing Process: Implementation and Evaluation]], [[Elements of Primary Health Care]]\n\n## Check against your textbook\nTerms such as competency-based versus outcome-based, and how your school defines the domains: verify.",
-    "tags": [
-      "education",
-      "teaching",
-      "learning domains",
-      "PHC element"
-    ],
-    "priority": "medium",
-    "outlineRefs": [
-      "1. Education",
-      "Competency-Based Teaching"
-    ],
-    "aiWritten": true,
-    "nurseReviewed": false
-  },
-  {
-    "id": "np1-levels-of-prevention",
-    "area": "NP1",
-    "title": "Levels of Prevention",
-    "body": "## What it is\nPrevention is organized in three levels according to the stage of disease at which action is taken. Identifying the correct level of a given nursing action is a very common exam skill.\n\n## Must-know facts\n- Primary prevention: before disease occurs. Goal: health promotion and specific protection. Examples: health teaching, immunization, nutrition, safe water and sanitation, seat belts, family planning, prenatal care, handwashing, avoiding tobacco.\n- Secondary prevention: early diagnosis and prompt treatment to stop progress and limit complications. Examples: screening such as Pap smear, mammography, blood pressure and blood sugar screening, newborn screening, case finding, contact tracing and early treatment.\n- Tertiary prevention: after a disease or disability exists. Goal: limit disability and rehabilitate. Examples: physical therapy after stroke, teaching a client with a colostomy, cardiac rehabilitation, vocational training for people with disabilities.\n- Immunization is primary prevention. Health promotion is usually counted within primary prevention. Some books describe an extra level called primordial prevention; verify.\n\n## What the nurse does (priority order and why)\n1. Identify where the client is in the natural history of disease. Healthy or at risk: primary. Disease present but early: secondary. Established disease with damage: tertiary.\n2. Choose the intervention for that level.\n3. Remember that one disease can involve all three levels at different times (for example diabetes: diet and exercise to prevent it, screening to detect it, foot care and eye exams to prevent complications).\n\n## Key terms and steps\n- Health promotion is general; specific protection acts against a particular disease, such as a vaccine.\n- Early diagnosis and prompt treatment are the heart of secondary prevention.\n- Disability limitation and rehabilitation belong to tertiary prevention.\n\n## How the exam asks about it\nStems give an action and ask for the level. Ask yourself: has the disease already occurred? If no, primary. If it is present and being found early, secondary. If damage is already present, tertiary. Trap: calling screening primary prevention.\n\n## Memory aid\nInvented by me: Prevent it, Catch it, Limit it.\n\n## Related topics\n[[Health Promotion: Concepts, Diet and Exercise]], [[Stop Smoking and Tobacco Cessation]], [[Expanded Program on Immunization]], [[Competency-Based Teaching]]\n\n## Check against your textbook\nWhether your school treats health promotion as a separate level or counts early diagnosis within secondary prevention: verify.",
-    "tags": [
-      "prevention",
-      "primary",
-      "secondary",
-      "tertiary"
-    ],
-    "priority": "high",
-    "outlineRefs": [
-      "Identify the Prevention",
-      "Three Levels of Prevention"
-    ],
-    "aiWritten": true,
-    "nurseReviewed": false
-  }
+ {
+  "id": "np1-chn-basics",
+  "area": "NP1",
+  "title": "Community Health Nursing Basics",
+  "body": "## What it is\nCommunity health nursing (CHN) is nursing practice that combines public health and nursing skills to protect and promote the health of a whole population, not only of the sick person in front of you. The community is the ultimate client; individuals and families are the entry points to reach it. The usual textbook definition comes from the public health pioneer C.E.A. Winslow: the science and art of preventing disease, prolonging life and promoting health and efficiency through organized community effort. The focus is prevention and health promotion first, cure second.\n\n## Must-know facts\n- Clients of CHN, from smallest to largest unit: the individual, the family (the basic unit of care and the unit of service), population groups (people sharing a risk, age or condition such as mothers, school children, the elderly), and the community. Many texts say the family is the unit of service while the community is the ultimate client.\n- Scope: preventive, promotive, curative and rehabilitative care, with preventive and promotive emphasis. Care is continuous, not episodic.\n- The Rural Health Unit (RHU) or city health office, and the barangay health station, are the usual practice settings. Barangay health workers and midwives work alongside the public health nurse.\n- Roles commonly listed: care provider, educator, advocate, manager and supervisor, coordinator and collaborator, researcher, referral agent, change agent, and facilitator of community participation.\n\n## What the nurse does (priority order and why)\n1. Assess the community and its families first (community diagnosis) because services must match real needs.\n2. Plan with the community, not for it, so that people own the plan.\n3. Deliver care at the lowest effective level, using home visits, clinics and group teaching.\n4. Refer when the need exceeds the level of the RHU, and follow up.\n5. Evaluate outcomes using health indicators and community feedback.\n\n## Key terms and steps\n- Health means wellness, not just absence of disease. Prevention is the main strategy.\n- Public health nursing is often treated as a synonym of community health nursing; some books separate them by employer (government versus private). Check your own textbook's wording.\n\n## People behind CHN\n- Florence Nightingale: founder of modern nursing; promoted sanitation, statistics and trained nurses, and supported district nursing for the sick poor at home.\n- William Rathbone: businessman who funded district nursing in Liverpool, England, after his wife was nursed at home.\n- Lillian Wald: American nurse who coined the term public health nurse and founded the Henry Street Settlement in New York; a model of nursing outreach to poor communities and schools.\n- Mary Breckinridge: founded the Frontier Nursing Service in the United States (nurse-midwives on horseback).\n- Clara Barton: associated with the American Red Cross.\n\n## How the exam asks about it\nLook for the question that asks who the client is, what the focus is, or which person is matched to which contribution. A trap: choosing the individual as the ultimate client; the best answer is the community (family if the stem says unit of service).\n\n## Memory aid\nInvented by me: W-W-N = Wald (public health nurse, Henry Street), Winslow (definition), Nightingale (district nursing roots).\n\n## Related topics\n[[Primary Health Care Basics]], [[Levels of Prevention]], [[Community Organizing (COPAR) Phases]], [[Family Nursing Process: Assessment]]\n\n## Check against your textbook\n- Exact list and wording of CHN roles differ between books.\n- People behind CHN: some Philippine textbooks add local pioneers; verify local names and dates in your own reviewer before memorizing.",
+  "tags": [
+   "CHN",
+   "definition",
+   "roles",
+   "clients",
+   "history"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Community Health Nursing",
+   "CHN, PHC",
+   "Clients of CHN",
+   "People Behind CHN"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-copar-principles",
+  "area": "NP1",
+  "title": "Community Organizing (COPAR) Basic Principles",
+  "body": "## What it is\nCommunity Organizing Participatory Action Research (COPAR) is a way of working with a community in which the people themselves identify problems, plan, act and evaluate, with the nurse as a facilitator. It is a continuing, educational process aimed at empowerment: helping people gain the ability and confidence to solve their own health problems and sustain solutions after the nurse leaves.\n\n## Must-know facts\n- The people are the center. The nurse is a catalyst, facilitator and educator, not the owner of the project.\n- The process is participatory: action and research happen together. The community collects information, reflects on it and acts.\n- The goal is community ownership and self-reliance, so activities should be sustainable without the nurse.\n- Start where the people are: their perceived needs, culture, strengths and resources come before the nurse's own agenda.\n- Work with community leaders and respect existing structures (barangay council, people's organizations, church and school groups).\n- Strengthen the community's decision-making and organizing capacity, not only deliver a service.\n- Learning by doing: people learn through reflection on their own experience.\n- Involve all sectors, including vulnerable groups, so the process does not serve only a few.\n\n## What the nurse does (priority order and why)\n1. Learn the community first (integration) because trust must exist before any action.\n2. Help people recognize their own problems; if the nurse names the problem alone, ownership is lost.\n3. Develop leaders and a core group so work continues.\n4. Support, advise and step back gradually; the end point is phase-out.\n\n## Community and family teaching\nTeach in a way that builds skills (how to hold a meeting, how to monitor a project) rather than only facts. Use local language and examples.\n\n## How the exam asks about it\nTypical stems describe a nurse doing something for the community (deciding the project, funding it, running it herself). The correct choice is the one that moves decisions to the community. Words like facilitator, empowerment, sustainable and participation signal the right answer. A trap: acting fast because the problem is urgent in your view, when the question asks about COPAR philosophy.\n\n## Memory aid\nInvented by me: PEOPLE decide, nurse FACILITATES, project SURVIVES without her.\n\n## Related topics\n[[Community Organizing (COPAR) Phases]], [[Primary Health Care Pillars and Characteristics]], [[Community Health Nursing Basics]]\n\n## Check against your textbook\nSome books list five to seven numbered principles with different wording. Match your reviewer's list for recall questions, but the logic (people-centered, empowering, sustainable) is the same.",
+  "tags": [
+   "COPAR",
+   "empowerment",
+   "participation"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "COPAR",
+   "Basic Principles of COPAR"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-copar-phases",
+  "area": "NP1",
+  "title": "Community Organizing (COPAR) Phases",
+  "body": "## What it is\nCOPAR proceeds through ordered phases, from getting permission and learning the community to handing over leadership to the people. Know the order because questions often ask which phase comes next or which activity belongs to which phase.\n\n## Must-know facts\nA commonly taught sequence is:\n1. Pre-entry (preparatory): choose the site, set criteria, prepare the team.\n2. Entry: get permission from local officials, introduce yourself, meet leaders.\n3. Social preparation / integration: live with and learn from the people; do a community study (community diagnosis) using observation, interviews and records; build rapport.\n4. Core group formation: identify and train potential leaders.\n5. Organization: form working committees and an organization; set roles.\n6. Education and training: build skills of leaders and members (health topics, organizing skills).\n7. Mobilization: put plans into action, including intersectoral linkages and resource generation.\n8. Ground work and evaluation: monitor and review results with the people.\n9. Phase-out: the organization stands on its own and the nurse gradually withdraws.\n\n## What the nurse does (priority order and why)\n1. Seek formal permission before anything else. Skipping the entry step damages trust.\n2. Integrate: stay, listen, observe. Information gathered without relationship is unreliable.\n3. Facilitate community diagnosis so that the people see the data and set priorities themselves.\n4. Develop leaders before starting big projects.\n5. Phase out only when the community shows it can plan and act without help.\n\n## Key terms and steps\n- Community diagnosis: collect, analyze and present community data; the community participates.\n- Intersectoral linkage: partnership with other agencies and sectors for resources.\n- Phase-out: not abandonment; it is planned and gradual.\n\n## How the exam asks about it\nStems give an activity (for example, the nurse meets the barangay captain, or the group holds its first meeting without the nurse) and ask for the phase. Anchor on verbs: permission and introduction mean entry; living with and learning means integration; training leaders means core group or education; stepping back means phase-out.\n\n## Memory aid\nInvented by me, a story order: Permission, Live-in, Leaders, Organize, Teach, Act, Review, Leave.\n\n## Related topics\n[[Community Organizing (COPAR) Basic Principles]], [[Community Health Nursing Basics]]\n\n## Check against your textbook\nBooks name and group the phases differently (some give five, some more, and some merge ground work with mobilization or pre-entry with entry). Memorize the grouping in the reviewer you use, and verify the sequence with your instructor (verify local policy / school version).",
+  "tags": [
+   "COPAR",
+   "phases",
+   "community organizing"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Phases of COPAR"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-doh",
+  "area": "NP1",
+  "title": "Department of Health (DOH) Concepts and Functions",
+  "body": "## What it is\nThe Department of Health (DOH) is the national government agency that leads the Philippine health system. It sets national health policy and standards, regulates, and provides leadership in health, while delivery of basic services to the people is largely handled by local government units after devolution.\n\n## Must-know facts\n- Devolution (under the Local Government Code) moved basic health service delivery to provinces, cities and municipalities. The DOH keeps policy, standards, technical assistance, regulation and services of national scope. The levels of care in a local health system run from the barangay health station to the RHU or city health office, then district, provincial and regional hospitals, up to national referral centers.\n- Core roles usually taught: leadership in health (policy and planning), regulation (of products, facilities and personnel), and provision of services where the local level cannot, especially for special or national-level concerns.\n- Related agencies often linked to the DOH in questions include PhilHealth (social health insurance) and attached regulators of food and drugs. Check the current list.\n- Barangay health workers (BHWs) are community volunteers trained and supervised by the RHU nurse and midwife.\n- The public health nurse in the RHU supervises midwives and BHWs, manages programs, and links the community with the municipal health officer.\n\n## What the nurse does (priority order and why)\n1. Know the referral chain so that the client goes to the right level.\n2. Implement national DOH programs locally (immunization, nutrition, maternal care, communicable disease control).\n3. Report health data upward through the information system so that policy fits reality.\n4. Coordinate with local officials, who fund and administer services.\n\n## How the exam asks about it\nQuestions ask who is responsible for what (national policy and standards versus local service delivery), where a client should be referred first, or what DOH function a scenario shows. The trap is mixing DOH national roles with local government roles.\n\n## Related topics\n[[Sentrong Sigla Program]], [[Magna Carta of Public Health Workers]], [[Primary Health Care Basics]], [[Expanded Program on Immunization]]\n\n## Check against your textbook\n- Official vision, mission, the exact number of DOH functions, the name of the current reform framework and the current organizational structure: verify local policy; these change.\n- Which specific agencies are attached to the DOH: verify.\n- The laws and executive orders behind reorganization and devolution: verify the numbers and years in your own reviewer.",
+  "tags": [
+   "DOH",
+   "devolution",
+   "health system",
+   "Philippines"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "DOH",
+   "DOH Concepts",
+   "Functions of DOH"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-family-assessment",
+  "area": "NP1",
+  "title": "Family Nursing Process: Assessment",
+  "body": "## What it is\nIn CHN, the family is the unit of service, so the nursing process (assessment, diagnosis, planning, implementation, evaluation, ADPIE) is applied to the family. Assessment is the first step and has two levels. It collects data on the family as a whole, not just the sick member.\n\n## Must-know facts\nFirst-level assessment (family structure, characteristics and general status):\n- Family structure and characteristics, including members, relationships and roles, and decision-making patterns.\n- Socioeconomic and cultural characteristics.\n- Home and environmental conditions (water, toilet, waste disposal, housing, pets, vectors).\n- Health status of each member, including immunization and nutritional status.\n- Values and practices about health and illness.\n- Use of community resources.\n\nSecond-level assessment (the family's ability to do its health tasks):\n- Looks at five basic family health tasks: recognizing a health problem, making decisions about care, caring for a sick, disabled or dependent member, maintaining a healthy home environment, and using community resources.\n- The nurse classifies each problem as a health threat (conditions that may lead to disease, like poor sanitation), a health deficit (existing illness or disability), or a foreseeable crisis (expected stress points such as childbirth or entry into school).\n\n## What the nurse does (priority order and why)\n1. Establish rapport and obtain consent at the first home visit; people share more when they trust you.\n2. Collect first-level data, then use it to find problems.\n3. Do second-level assessment of the five tasks to learn why the family cannot solve the problem.\n4. Validate data and record it in the family folder or family health record.\n\n## Key terms and steps\n- A family nursing diagnosis states the problem and its cause, usually the family's inability to perform a task.\n- Data collection tools include interview, observation, physical exam and records review.\n\n## Community and family teaching\nTeaching starts only after the family agrees which problem matters to them. Use their words and respect their beliefs.\n\n## How the exam asks about it\nStems give a household description and ask you to classify a problem (threat, deficit or crisis) or name the family health task that failed. Trap: a family with an ill member has a deficit; a household with unsafe water but no disease yet has a threat; a mother about to deliver is a foreseeable crisis.\n\n## Related topics\n[[Family Nursing Process: Planning and Prioritization]], [[Family Nursing Process: Implementation and Evaluation]], [[Environmental Sanitation]]\n\n## Check against your textbook\nDifferent books use slightly different names for the levels and for the family tasks. Verify the wording used in your school.",
+  "tags": [
+   "family",
+   "ADPIE",
+   "assessment",
+   "family health tasks"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Family ADPIE",
+   "a. Assessment"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-family-planning",
+  "area": "NP1",
+  "title": "Family Nursing Process: Planning and Prioritization",
+  "body": "## What it is\nPlanning in the family nursing process means deciding which family problem to tackle first, setting goals, choosing interventions and deciding who does what and when. Because a household usually has many problems and the nurse has limited time, a scoring method ranks them.\n\n## Must-know facts\nGoal setting:\n- A goal is the broad outcome; objectives are specific, measurable steps. Good objectives follow the SMART idea: specific, measurable, attainable, realistic, time-bound.\n- The family takes part in setting goals so they accept them.\n\nPrioritizing family problems with the scale commonly taught in the Philippines (four criteria, total weight 5). Verify the exact scores in your own textbook:\n1. Nature of the problem, weight 1: health deficit scores highest (3 of 3), health threat next (2 of 3), foreseeable crisis lowest (1 of 3).\n2. Preventive potential, weight 1: high 3 of 3, moderate 2 of 3, low 1 of 3.\n3. Modifiability of the problem, weight 2: easily modifiable 2 of 2, partially 1 of 2, not modifiable 0.\n4. Salience, weight 1: family sees it as needing immediate attention 2 of 2, sees it but not urgent 1 of 2, does not perceive it as a problem 0.\n\nFormula for each criterion: (score obtained divided by the highest possible score for that criterion) multiplied by the weight. Add the four results. The highest total is the first priority.\n\nWorked example, invented for practice: a deficit (3/3 x 1 = 1), moderate preventive potential (2/3 x 1 = 0.67), partially modifiable (1/2 x 2 = 1), not urgent in the family's eyes (1/2 x 1 = 0.5). Total = 3.17.\n\n## What the nurse does (priority order and why)\n1. List the family's identified problems.\n2. Score each problem on each criterion with the family's view included (salience) so priority reflects both science and the family's perception.\n3. Compute totals and rank them.\n4. If scores tie, use clinical judgment: life-threatening or contagious conditions and children come first.\n5. Write objectives and interventions for the top-ranked problem, then the others.\n\n## Key terms and steps\n- Weights differ: modifiability counts double, so it matters most in the formula.\n- Health threats and deficits are tackled while crises are anticipated.\n\n## How the exam asks about it\nStems give scores per criterion and ask for the total or the priority problem. Do the arithmetic carefully and watch the weights; the common trap is forgetting to multiply by the weight or dividing by the wrong maximum.\n\n## Memory aid\nInvented by me: the weights are 1, 1, 2, 1 in the order Nature, Preventive, Modifiability, Salience; only modifiability is doubled.\n\n## Related topics\n[[Family Nursing Process: Assessment]], [[Family Nursing Process: Implementation and Evaluation]]\n\n## Check against your textbook\n- The exact fractions and weights of the family-problem prioritization scale (verify local policy and your textbook; I am fairly but not fully certain of the values above).\n- Some schools use fewer or more criteria, so copy your school's version.",
+  "tags": [
+   "family",
+   "planning",
+   "goal setting",
+   "scoring",
+   "priority"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "b. Planning",
+   "1. Goal Setting",
+   "2. Prioritization",
+   "3. Scoring"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-family-implementation-evaluation",
+  "area": "NP1",
+  "title": "Family Nursing Process: Implementation and Evaluation",
+  "body": "## What it is\nImplementation is carrying out the family care plan, mainly through home visits and clinic contact, and evaluation is judging whether the goals were met. Both steps involve the family as an active partner.\n\n## Must-know facts\n- Main implementation tools: home visits, health education, demonstration and return demonstration, referrals, and coordination with other workers and agencies.\n- The home visit is the usual way to reach the family. Typical sequence: planning the visit (review records, define objectives, prepare supplies), then the visit itself (greet, introduce yourself, state purpose, do the care and teaching), then recording and follow-up.\n- The bag technique helps prevent cross-infection during home visits: place the bag on a clean surface, wash hands before and after care, and avoid contaminating the inside of the bag. Check the exact steps in your textbook.\n- Evaluation compares results with objectives. Ask: was the objective met, partially met, or not met? Look at outcome, process and family satisfaction.\n\n## What the nurse does (priority order and why)\n1. Review records and confirm the objectives of the visit before leaving the office.\n2. Greet the family and explain the purpose; consent and trust come first.\n3. Wash hands, use the bag technique, and provide care and teaching in order of the priority problem.\n4. Document the visit in the family folder immediately, because follow-up depends on it.\n5. Plan the next visit based on the evaluation; if the goal is unmet, reassess and revise.\n\n## Community and family teaching\nUse teach-back and return demonstration to confirm understanding. Teach the family to do the tasks themselves so care continues between visits.\n\n## How the exam asks about it\nStems ask what to do first before a home visit (review the family record and set objectives), what is wrong with a nurse's technique, or whether an objective was met. A trap is choosing a nursing action before getting the family's agreement or before reviewing data.\n\n## Related topics\n[[Family Nursing Process: Planning and Prioritization]], [[Family Nursing Process: Assessment]], [[Competency-Based Teaching]]\n\n## Check against your textbook\nThe step-by-step bag technique and the standard forms used in the family folder vary across schools and local health offices; verify local policy.",
+  "tags": [
+   "family",
+   "implementation",
+   "evaluation",
+   "home visit"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "c. Implementation",
+   "d. Evaluation"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-health-promotion",
+  "area": "NP1",
+  "title": "Health Promotion: Concepts, Diet and Exercise",
+  "body": "## What it is\nHealth promotion helps people increase control over their health and improve it. It is aimed at healthy people and at those at risk, and it works through education, supportive environments and healthy public policy. It differs from disease prevention mainly in motive: promotion builds wellness; prevention avoids a specific disease.\n\n## Must-know facts\n- The Ottawa Charter (1986) is the best-known international statement, listing action areas such as building healthy public policy, creating supportive environments, strengthening community action, developing personal skills, and reorienting health services. Verify wording in your reviewer.\n- Promotion is part of the first level of prevention (primary).\n- Diet: a balanced diet uses all food groups in proper proportion. Filipino food guides (such as a plate model used by the DOH or national nutrition authorities) show portions of go, grow and glow foods; verify the current name and shape. Advise less salt, sugar and saturated fat, more vegetables and fruit, and enough water. Breastfeeding is the model for infant feeding.\n- Exercise: regular moderate activity on most days lowers the risk of heart disease, diabetes, obesity and depression. A widely used adult guide is about 150 minutes of moderate activity per week, but verify with your textbook. Start gradually, warm up, keep hydrated, and stop with chest pain, severe breathlessness or dizziness.\n\n## What the nurse does (priority order and why)\n1. Assess lifestyle, readiness to change and barriers.\n2. Agree on a short, specific plan; small goals succeed better than big ones.\n3. Teach and demonstrate; link advice to the person's own foods, work and budget.\n4. Follow up and reinforce.\n5. Refer clients with chronic illness for clearance before they begin vigorous exercise.\n\n## Community and family teaching\nUse group sessions, posters, school programs and local examples. Involve the family in cooking and activity choices.\n\n## How the exam asks about it\nStems ask which activity is promotion rather than prevention, or the best teaching for a client with a specific habit. Pick answers that respect readiness and give practical steps.\n\n## Related topics\n[[Stop Smoking and Tobacco Cessation]], [[Levels of Prevention]], [[Nutrition]]\n\n## Check against your textbook\nCurrent national food-guide model and activity targets: verify local policy.",
+  "tags": [
+   "health promotion",
+   "diet",
+   "exercise",
+   "lifestyle"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Health Promotion",
+   "a. Health Promotion",
+   "b. Diet",
+   "c. Exercise"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-stop-smoking",
+  "area": "NP1",
+  "title": "Stop Smoking and Tobacco Cessation",
+  "body": "## What it is\nTobacco use is a leading preventable cause of heart disease, lung disease and cancer. Cessation counselling is a core health-promotion skill for the nurse in the community.\n\n## Must-know facts\n- Brief counselling model, the 5 As: Ask about tobacco use, Advise to quit clearly, Assess willingness to quit, Assist with a plan and support, Arrange follow-up.\n- For clients not ready, the 5 Rs boost motivation: Relevance, Risks, Rewards, Roadblocks, Repetition.\n- Stages of change: precontemplation, contemplation, preparation, action, maintenance (relapse may occur and is part of the process). Match the intervention to the stage.\n- Withdrawal symptoms are real: irritability, craving, anxiety, increased appetite. They are strongest in the first days and fade.\n- Aids include nicotine replacement and prescription medicines; these are decided by a clinician. Quit lines and support groups are community resources.\n- Secondhand smoke harms children, pregnant women and the elderly; smoke-free homes protect families.\n\n## What the nurse does (priority order and why)\n1. Ask and document tobacco use at every contact, because identification leads to action.\n2. Assess readiness; counselling that ignores readiness fails.\n3. If ready: set a quit date, remove tobacco items, identify triggers, plan substitutes and arrange follow-up.\n4. If not ready: motivate with the 5 Rs, without pressure.\n5. Praise any success; treat relapse as learning and encourage another try.\n\n## Community and family teaching\nTeach triggers, delaying tactics (drink water, walk, breathe deeply) and avoiding smoking cues. Involve family and workplace support.\n\n## How the exam asks about it\nStems describe a smoker with statements showing a stage. Choose the intervention for that stage (information for contemplation, a plan for preparation, relapse prevention for maintenance). A trap is lecturing someone in precontemplation about quit steps.\n\n## Memory aid\nStandard: Ask, Advise, Assess, Assist, Arrange.\n\n## Related topics\n[[Health Promotion: Concepts, Diet and Exercise]], [[Levels of Prevention]]\n\n## Check against your textbook\n- Philippine anti-smoking laws and their provisions, smoke-free areas and graphic warning rules: verify local policy; I am not certain of the current details.",
+  "tags": [
+   "smoking",
+   "cessation",
+   "5As",
+   "stages of change"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "d. Stop Smoking"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-magna-carta",
+  "area": "NP1",
+  "title": "Magna Carta of Public Health Workers",
+  "body": "## What it is\nThe Magna Carta of Public Health Workers is a Philippine law that sets out the rights, benefits and protection of workers in government health service, including those in rural and remote areas. It aims to attract and keep health workers in public service and recognize their role in delivering health care.\n\n## Must-know facts\n- Public health workers covered are generally those engaged in health or health-related work in the government, including nurses, midwives, doctors and other staff in health facilities and agencies. Check the exact definition.\n- Benefits commonly associated with the law include additional pay or allowances for hardship (such as assignment in remote areas), hazard pay for risk of exposure, subsistence and laundry allowances, longevity pay, protection of security of tenure, and rights to training and career development. Verify exact amounts, conditions and eligibility in current rules.\n- The law also describes rights such as freedom to organize, and standards on working hours and leave. Verify details.\n- It is commonly cited as Republic Act 7305, enacted in the early 1990s; verify the number and date, and check later amendments.\n\n## What the nurse does (priority order and why)\n1. Know your rights and duties as a government health worker, because exam items test application, such as which worker qualifies for hazard pay.\n2. Keep records and report hazards, to protect yourself and others.\n3. Use the law as a basis for advocacy within your agency.\n\n## How the exam asks about it\nStems ask which benefit applies in a scenario (a nurse assigned to a remote barangay, a worker exposed to infectious disease) or what the law is for. Match the benefit to the situation; do not assume every benefit applies to every worker.\n\n## Related topics\n[[Department of Health (DOH) Concepts and Functions]], [[Community Health Nursing Basics]]\n\n## Check against your textbook\nI am not certain of the law's current numbers, allowance amounts or later updates, so treat every number and condition here as verify local policy. Copy the benefit list from your reviewer or the law's text.",
+  "tags": [
+   "law",
+   "public health workers",
+   "Philippines",
+   "benefits"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Magna Carta of Public Health Workers"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-phc-basics",
+  "area": "NP1",
+  "title": "Primary Health Care Basics",
+  "body": "## What it is\nPrimary health care (PHC) is essential health care that is made universally accessible to individuals and families in the community, by means acceptable to them, through their full participation and at a cost the community and country can afford. It is both a level of care (the first contact) and a philosophy and strategy for achieving health for all.\n\n## Must-know facts\n- The Alma-Ata Declaration (1978), from the WHO and UNICEF conference, endorsed PHC as the key to health for all. The Philippines adopted PHC as a national approach in the late 1970s and later reforms supported it. Verify the Philippine document and year.\n- PHC is the first level of contact between individuals and the health system and the first element of a continuing health care process.\n- PHC addresses the main health problems of the community with promotive, preventive, curative and rehabilitative services.\n- Health is seen as part of overall social and economic development, so PHC works with other sectors such as education, agriculture and housing.\n- The eight elements of PHC used in the Philippines have their own note.\n\n## What the nurse does (priority order and why)\n1. Make care available at the community level first, so people use the nearest accessible service.\n2. Promote community participation in planning and running services.\n3. Use appropriate technology that the community understands and can maintain.\n4. Link with other sectors, because many health determinants lie outside the health sector.\n5. Refer upward when needed.\n\n## Community and family teaching\nTeach self-care and basic prevention at home, and encourage families to join health committees and activities.\n\n## How the exam asks about it\nStems ask what PHC emphasizes (prevention and community participation), the best example of PHC, or which declaration launched it. Trap: choosing a hospital-based, high-technology option.\n\n## Memory aid\nInvented by me: A-A-A-A for Accessible, Acceptable, Affordable, Appropriate.\n\n## Related topics\n[[Primary Health Care Pillars and Characteristics]], [[Elements of Primary Health Care]], [[Community Health Nursing Basics]], [[Levels of Prevention]]\n\n## Check against your textbook\nWording of the definition and its Philippine legal basis: verify local policy and your reviewer.",
+  "tags": [
+   "PHC",
+   "Alma-Ata",
+   "Philippines"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Primary Health Care",
+   "a. Basics of PHC"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-phc-pillars-characteristics",
+  "area": "NP1",
+  "title": "Primary Health Care Pillars and Characteristics",
+  "body": "## What it is\nThe pillars (or strategies) of PHC are the foundations that make it work. The characteristics describe what good PHC services look like.\n\n## Must-know facts\nCommonly taught Philippine pillars or strategies of PHC:\n1. Active community participation: people take part in decisions and actions.\n2. Intersectoral linkages: cooperation between the health sector and other sectors.\n3. Use of appropriate technology: simple, affordable, culturally acceptable and sustainable.\n4. Support mechanisms made available: financial, manpower, logistical and other resources to sustain the program.\nSome books present these as three pillars or use slightly different names. Verify against your reviewer.\n\nCharacteristics of PHC as commonly listed: accessible (geographically, financially, culturally), acceptable, affordable, available, appropriate, equitable, comprehensive, community-based, participatory and sustainable. Your textbook may name a subset.\n\n## What the nurse does (priority order and why)\n1. Involve the community from the start; participation comes first because ownership drives the other pillars.\n2. Build partnerships with schools, local government, churches and non-government groups.\n3. Choose simple, low-cost methods that people can use after you leave, such as home preparation of oral rehydration solution.\n4. Secure supplies and training so services last.\n\n## Key terms and steps\n- Intersectoral collaboration: for example, working with agriculture on nutrition or with public works on water supply.\n- Appropriate technology: fits local culture and resources.\n\n## How the exam asks about it\nItems give a scenario and ask which pillar is shown (for example, a health center teaming up with the school and the barangay council is intersectoral linkage). Trap: confusing participation (people decide) with support mechanisms (resources provided).\n\n## Memory aid\nInvented by me: P-I-T-S for Participation, Intersectoral, Technology, Support.\n\n## Related topics\n[[Primary Health Care Basics]], [[Elements of Primary Health Care]], [[Community Organizing (COPAR) Basic Principles]]\n\n## Check against your textbook\nWhether your school teaches three or four pillars and the exact list of characteristics: verify.",
+  "tags": [
+   "PHC",
+   "pillars",
+   "characteristics",
+   "participation"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "b. Pillars of PHC",
+   "c. Characteristics of PHC"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-phc-elements",
+  "area": "NP1",
+  "title": "Elements of Primary Health Care",
+  "body": "## What it is\nThe Philippine approach to PHC is built on eight service elements that together cover the main community health needs. They are the content of PHC delivery at the barangay and RHU.\n\n## Must-know facts\nThe eight elements (a common memory aid is the word ELEMENTS):\n- Education for health\n- Locally endemic disease control\n- Expanded program on immunization\n- Maternal and child health, including family planning\n- Environmental sanitation, including safe water and waste disposal\n- Nutrition\n- Treatment of common diseases and injuries, including emergency care\n- Supply of Essential drugs\nSome lists reorder or split them (for example separating communicable and non-communicable disease treatment). Verify.\n\nEducation sits first because every other element depends on people understanding and accepting the service.\n\n## What the nurse does (priority order and why)\n1. Use health education in every contact, because it supports all the other elements.\n2. Prioritize by community need using local data (for example, high diarrhea rates mean emphasize sanitation and oral rehydration).\n3. Integrate services: one visit can cover immunization, nutrition and teaching.\n4. Monitor coverage and report.\n\n## How the exam asks about it\nItems name an activity (for example, giving vitamin A, building toilets, distributing generic drugs) and ask which element it belongs to. Match each activity to the single best element, and watch for overlaps such as nutrition versus maternal and child health.\n\n## Memory aid\nThe word ELEMENTS: Education, Locally endemic disease control, EPI, Maternal and child health, Environmental sanitation, Nutrition, Treatment of common diseases, Supply of essential drugs. This word-to-element mapping is a common device that I reconstructed here; compare it with your own reviewer.\n\n## Related topics\n[[Epidemiology and Endemic Diseases]], [[Expanded Program on Immunization]], [[Maternal and Child Health]], [[Nutrition]], [[Environmental Sanitation]], [[Essential Drugs]], [[Competency-Based Teaching]], [[Primary Health Care Basics]]\n\n## Check against your textbook\nExact element names, order and wording of the treatment element (for example, whether emergency services are included): verify local policy and your reviewer.",
+  "tags": [
+   "PHC",
+   "elements",
+   "ELEMENTS",
+   "Philippines"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "d. ELEMENTS of PHC",
+   "ELEMENTS of Primary Health Care"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-sentrong-sigla",
+  "area": "NP1",
+  "title": "Sentrong Sigla Program",
+  "body": "## What it is\nSentrong Sigla is a Philippine DOH quality assurance and certification program for health facilities and services. Its purpose is to encourage health centers to meet set standards so that the public receives safe, quality service. Facilities that meet the standards are recognized, and the movement encourages continuous improvement.\n\n## Must-know facts\n- It focuses on quality of service at the primary care level, such as RHUs and health centers.\n- The program works through assessment against a set of standards and the recognition or certification of compliant facilities. Links to PhilHealth accreditation or benefit packages are sometimes discussed; verify how.\n- The concept is quality improvement: measure, improve and recognize.\n\n## What the nurse does (priority order and why)\n1. Know the standards your health center is measured against so that care is consistent.\n2. Prepare records, equipment and the facility environment for assessment.\n3. Continue to improve after recognition; certification is not the end.\n\n## How the exam asks about it\nItems ask what the program is for (quality assurance and recognition of health facilities) or which agency runs it (the DOH). A trap: confusing it with a financing or insurance program.\n\n## Related topics\n[[Department of Health (DOH) Concepts and Functions]], [[Primary Health Care Basics]]\n\n## Check against your textbook\nThe exact standards, levels of recognition, the program's history and its present status or renamed forms: verify local policy. I am not certain which of these are current.",
+  "tags": [
+   "Sentrong Sigla",
+   "quality",
+   "DOH",
+   "certification"
+  ],
+  "priority": "low",
+  "outlineRefs": [
+   "Sentrong Sigla Program"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-competency-based-teaching",
+  "area": "NP1",
+  "title": "Competency-Based Teaching",
+  "body": "## What it is\nEducation for health is the first PHC element. Competency-based teaching plans teaching around what the learner must be able to do at the end, in terms of knowledge, attitude and skill, and then checks whether they can really do it. It is learner-centered and outcome-focused.\n\n## Must-know facts\n- Learning domains: cognitive (knowing), affective (attitude and values), psychomotor (skills). A competency usually combines all three.\n- Steps: assess learning needs and readiness, state measurable outcomes, choose methods that match the domain, teach, then evaluate using observation or return demonstration.\n- Match method to domain: explanation and discussion for knowledge; role play and group discussion for attitudes; demonstration and return demonstration for skills.\n- Adults learn best when content is relevant, practical, builds on experience and answers their own needs.\n- Evaluation looks at behavior and performance, not only test scores.\n\n## What the nurse does (priority order and why)\n1. Assess the learner first (what they know, can do and believe; literacy and language), because teaching without assessment wastes time.\n2. Set clear, measurable, learner-centered objectives with the learner.\n3. Choose method and materials to match the domain and audience.\n4. Teach in small steps and check understanding.\n5. Evaluate with return demonstration or teach-back; reteach if the competency is not shown.\n\n## Community and family teaching\nUse local language, pictures, demonstrations with household items and short sessions. Teach caregivers the exact skill they will need, such as preparing oral rehydration solution.\n\n## How the exam asks about it\nItems give an outcome (for example, a mother must be able to prepare ORS) and ask which teaching method or evaluation fits. The answer is usually demonstration followed by return demonstration. Trap: choosing a lecture or a pamphlet for a skill.\n\n## Related topics\n[[Levels of Prevention]], [[Family Nursing Process: Implementation and Evaluation]], [[Elements of Primary Health Care]]\n\n## Check against your textbook\nTerms such as competency-based versus outcome-based, and how your school defines the domains: verify.",
+  "tags": [
+   "education",
+   "teaching",
+   "learning domains",
+   "PHC element"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "1. Education",
+   "Competency-Based Teaching"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-levels-of-prevention",
+  "area": "NP1",
+  "title": "Levels of Prevention",
+  "body": "## What it is\nPrevention is organized in three levels according to the stage of disease at which action is taken. Identifying the correct level of a given nursing action is a very common exam skill.\n\n## Must-know facts\n- Primary prevention: before disease occurs. Goal: health promotion and specific protection. Examples: health teaching, immunization, nutrition, safe water and sanitation, seat belts, family planning, prenatal care, handwashing, avoiding tobacco.\n- Secondary prevention: early diagnosis and prompt treatment to stop progress and limit complications. Examples: screening such as Pap smear, mammography, blood pressure and blood sugar screening, newborn screening, case finding, contact tracing and early treatment.\n- Tertiary prevention: after a disease or disability exists. Goal: limit disability and rehabilitate. Examples: physical therapy after stroke, teaching a client with a colostomy, cardiac rehabilitation, vocational training for people with disabilities.\n- Immunization is primary prevention. Health promotion is usually counted within primary prevention. Some books describe an extra level called primordial prevention; verify.\n\n## What the nurse does (priority order and why)\n1. Identify where the client is in the natural history of disease. Healthy or at risk: primary. Disease present but early: secondary. Established disease with damage: tertiary.\n2. Choose the intervention for that level.\n3. Remember that one disease can involve all three levels at different times (for example diabetes: diet and exercise to prevent it, screening to detect it, foot care and eye exams to prevent complications).\n\n## Key terms and steps\n- Health promotion is general; specific protection acts against a particular disease, such as a vaccine.\n- Early diagnosis and prompt treatment are the heart of secondary prevention.\n- Disability limitation and rehabilitation belong to tertiary prevention.\n\n## How the exam asks about it\nStems give an action and ask for the level. Ask yourself: has the disease already occurred? If no, primary. If it is present and being found early, secondary. If damage is already present, tertiary. Trap: calling screening primary prevention.\n\n## Memory aid\nInvented by me: Prevent it, Catch it, Limit it.\n\n## Related topics\n[[Health Promotion: Concepts, Diet and Exercise]], [[Stop Smoking and Tobacco Cessation]], [[Expanded Program on Immunization]], [[Competency-Based Teaching]]\n\n## Check against your textbook\nWhether your school treats health promotion as a separate level or counts early diagnosis within secondary prevention: verify.",
+  "tags": [
+   "prevention",
+   "primary",
+   "secondary",
+   "tertiary"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Identify the Prevention",
+   "Three Levels of Prevention"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ }
 ]
