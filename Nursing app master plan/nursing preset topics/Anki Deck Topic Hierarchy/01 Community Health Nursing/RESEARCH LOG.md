@@ -104,8 +104,8 @@ Every directory below was present in the repository's recursive tree at the init
 - [x] **People Behind CHN** — `CHN, PHC/People Behind CHN`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Primary Health Care** — `CHN, PHC/Primary Health Care`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Primary Health Care** — `CHN, PHC/Primary Health Care`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
 - [x] **Basics of PHC** — `CHN, PHC/Primary Health Care/Basics of PHC`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
@@ -122,8 +122,8 @@ Every directory below was present in the repository's recursive tree at the init
 - [x] **Sentrong Sigla Program** — `CHN, PHC/Sentrong Sigla Program`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Elements of Primary Health Care** — `Elements of Primary Health Care`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Elements of Primary Health Care** — `Elements of Primary Health Care`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
 - [x] **Education** — `Elements of Primary Health Care/Education`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
@@ -134,137 +134,137 @@ Every directory below was present in the repository's recursive tree at the init
 - [x] **Identify the Prevention** — `Elements of Primary Health Care/Education/Identify the Prevention`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Three Levels of Prevention** — `Elements of Primary Health Care/Education/Three Levels of Prevention`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Three Levels of Prevention** — `Elements of Primary Health Care/Education/Three Levels of Prevention`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Essential Drugs** — `Elements of Primary Health Care/Essential Drugs`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Essential Drugs** — `Elements of Primary Health Care/Essential Drugs`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Herbal** — `Elements of Primary Health Care/Essential Drugs/Herbal`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Herbal** — `Elements of Primary Health Care/Essential Drugs/Herbal`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Expanded Program on Immunization** — `Elements of Primary Health Care/Expanded Program on Immunization`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Expanded Program on Immunization** — `Elements of Primary Health Care/Expanded Program on Immunization`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Chikiting Ligtas** — `Elements of Primary Health Care/Expanded Program on Immunization/Chikiting Ligtas`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Chikiting Ligtas** — `Elements of Primary Health Care/Expanded Program on Immunization/Chikiting Ligtas`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Cold Chain and Logistics Management** — `Elements of Primary Health Care/Expanded Program on Immunization/Cold Chain and Logistics Management`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Cold Chain and Logistics Management** — `Elements of Primary Health Care/Expanded Program on Immunization/Cold Chain and Logistics Management`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Elements of Immunization and Laws** — `Elements of Primary Health Care/Expanded Program on Immunization/Elements of Immunization and Laws`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Elements of Immunization and Laws** — `Elements of Primary Health Care/Expanded Program on Immunization/Elements of Immunization and Laws`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Principles and Nursing Responsibilities** — `Elements of Primary Health Care/Expanded Program on Immunization/Principles and Nursing Responsibilities`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Principles and Nursing Responsibilities** — `Elements of Primary Health Care/Expanded Program on Immunization/Principles and Nursing Responsibilities`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **BCG** — `Elements of Primary Health Care/Expanded Program on Immunization/Principles and Nursing Responsibilities/BCG`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **BCG** — `Elements of Primary Health Care/Expanded Program on Immunization/Principles and Nursing Responsibilities/BCG`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Other Vaccines** — `Elements of Primary Health Care/Expanded Program on Immunization/Principles and Nursing Responsibilities/Other Vaccines`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Other Vaccines** — `Elements of Primary Health Care/Expanded Program on Immunization/Principles and Nursing Responsibilities/Other Vaccines`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Pentavalent Vaccine** — `Elements of Primary Health Care/Expanded Program on Immunization/Principles and Nursing Responsibilities/Pentavalent Vaccine`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Pentavalent Vaccine** — `Elements of Primary Health Care/Expanded Program on Immunization/Principles and Nursing Responsibilities/Pentavalent Vaccine`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Target Setting** — `Elements of Primary Health Care/Expanded Program on Immunization/Target Setting`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Target Setting** — `Elements of Primary Health Care/Expanded Program on Immunization/Target Setting`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Vaccine Table** — `Elements of Primary Health Care/Expanded Program on Immunization/Vaccine Table`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Vaccine Table** — `Elements of Primary Health Care/Expanded Program on Immunization/Vaccine Table`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Locally-Endemic Diseases** — `Elements of Primary Health Care/Locally-Endemic Diseases`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Locally-Endemic Diseases** — `Elements of Primary Health Care/Locally-Endemic Diseases`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Epidemiology** — `Elements of Primary Health Care/Locally-Endemic Diseases/Epidemiology`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Epidemiology** — `Elements of Primary Health Care/Locally-Endemic Diseases/Epidemiology`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **FHSIS** — `Elements of Primary Health Care/Locally-Endemic Diseases/FHSIS`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **FHSIS** — `Elements of Primary Health Care/Locally-Endemic Diseases/FHSIS`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Population Pyramid** — `Elements of Primary Health Care/Locally-Endemic Diseases/Population Pyramid`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Population Pyramid** — `Elements of Primary Health Care/Locally-Endemic Diseases/Population Pyramid`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Vital Statistics** — `Elements of Primary Health Care/Locally-Endemic Diseases/Vital Statistics`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Vital Statistics** — `Elements of Primary Health Care/Locally-Endemic Diseases/Vital Statistics`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Common Vital Statistics** — `Elements of Primary Health Care/Locally-Endemic Diseases/Vital Statistics/Common Vital Statistics`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Common Vital Statistics** — `Elements of Primary Health Care/Locally-Endemic Diseases/Vital Statistics/Common Vital Statistics`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Incidence vs Prevalence Rates** — `Elements of Primary Health Care/Locally-Endemic Diseases/Vital Statistics/Incidence vs Prevalence Rates`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Incidence vs Prevalence Rates** — `Elements of Primary Health Care/Locally-Endemic Diseases/Vital Statistics/Incidence vs Prevalence Rates`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Swaroops, Sex Ratio** — `Elements of Primary Health Care/Locally-Endemic Diseases/Vital Statistics/Swaroops, Sex Ratio`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Swaroops, Sex Ratio** — `Elements of Primary Health Care/Locally-Endemic Diseases/Vital Statistics/Swaroops, Sex Ratio`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Vital Statistics Basic Concepts** — `Elements of Primary Health Care/Locally-Endemic Diseases/Vital Statistics/Vital Statistics Basic Concepts`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Vital Statistics Basic Concepts** — `Elements of Primary Health Care/Locally-Endemic Diseases/Vital Statistics/Vital Statistics Basic Concepts`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Maternal and Child Health** — `Elements of Primary Health Care/Maternal and Child Health`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Maternal and Child Health** — `Elements of Primary Health Care/Maternal and Child Health`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Active Management of Third Stage of Labor** — `Elements of Primary Health Care/Maternal and Child Health/Active Management of Third Stage of Labor`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Active Management of Third Stage of Labor** — `Elements of Primary Health Care/Maternal and Child Health/Active Management of Third Stage of Labor`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Activities** — `Elements of Primary Health Care/Maternal and Child Health/Activities`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Activities** — `Elements of Primary Health Care/Maternal and Child Health/Activities`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **BEmOC and CEmOC** — `Elements of Primary Health Care/Maternal and Child Health/BEmOC and CEmOC`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **BEmOC and CEmOC** — `Elements of Primary Health Care/Maternal and Child Health/BEmOC and CEmOC`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **EINC** — `Elements of Primary Health Care/Maternal and Child Health/EINC`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **EINC** — `Elements of Primary Health Care/Maternal and Child Health/EINC`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Newborn Screening** — `Elements of Primary Health Care/Maternal and Child Health/Newborn Screening`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Newborn Screening** — `Elements of Primary Health Care/Maternal and Child Health/Newborn Screening`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Reproductive Health** — `Elements of Primary Health Care/Maternal and Child Health/Reproductive Health`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Reproductive Health** — `Elements of Primary Health Care/Maternal and Child Health/Reproductive Health`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **TT** — `Elements of Primary Health Care/Maternal and Child Health/TT`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **TT** — `Elements of Primary Health Care/Maternal and Child Health/TT`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **VAWC** — `Elements of Primary Health Care/Maternal and Child Health/VAWC`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **VAWC** — `Elements of Primary Health Care/Maternal and Child Health/VAWC`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Nutrition** — `Elements of Primary Health Care/Nutrition`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Nutrition** — `Elements of Primary Health Care/Nutrition`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Food Fortification Program** — `Elements of Primary Health Care/Nutrition/Food Fortification Program`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Food Fortification Program** — `Elements of Primary Health Care/Nutrition/Food Fortification Program`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Malnutrition** — `Elements of Primary Health Care/Nutrition/Malnutrition`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Malnutrition** — `Elements of Primary Health Care/Nutrition/Malnutrition`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Sanitation and Environmental Health** — `Elements of Primary Health Care/Sanitation and Environmental Health`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Sanitation and Environmental Health** — `Elements of Primary Health Care/Sanitation and Environmental Health`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Approved Types of Water Supply Facilities** — `Elements of Primary Health Care/Sanitation and Environmental Health/Approved Types of Water Supply Facilities`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Approved Types of Water Supply Facilities** — `Elements of Primary Health Care/Sanitation and Environmental Health/Approved Types of Water Supply Facilities`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Color and Type of Waste** — `Elements of Primary Health Care/Sanitation and Environmental Health/Color and Type of Waste`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Color and Type of Waste** — `Elements of Primary Health Care/Sanitation and Environmental Health/Color and Type of Waste`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Food Sanitation** — `Elements of Primary Health Care/Sanitation and Environmental Health/Food Sanitation`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Food Sanitation** — `Elements of Primary Health Care/Sanitation and Environmental Health/Food Sanitation`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Health and Sanitation Laws** — `Elements of Primary Health Care/Sanitation and Environmental Health/Health and Sanitation Laws`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Health and Sanitation Laws** — `Elements of Primary Health Care/Sanitation and Environmental Health/Health and Sanitation Laws`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Toilet Facility** — `Elements of Primary Health Care/Sanitation and Environmental Health/Toilet Facility`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Toilet Facility** — `Elements of Primary Health Care/Sanitation and Environmental Health/Toilet Facility`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Treatment of Communicable and Noncommunicable Diseases and Emergency Services** — `Elements of Primary Health Care/Treatment of Communicable and Noncommunicable Diseases and Emergency Services`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Treatment of Communicable and Noncommunicable Diseases and Emergency Services** — `Elements of Primary Health Care/Treatment of Communicable and Noncommunicable Diseases and Emergency Services`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Emergency Services** — `Elements of Primary Health Care/Treatment of Communicable and Noncommunicable Diseases and Emergency Services/Emergency Services`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Emergency Services** — `Elements of Primary Health Care/Treatment of Communicable and Noncommunicable Diseases and Emergency Services/Emergency Services`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **NCD** — `Elements of Primary Health Care/Treatment of Communicable and Noncommunicable Diseases and Emergency Services/NCD`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **NCD** — `Elements of Primary Health Care/Treatment of Communicable and Noncommunicable Diseases and Emergency Services/NCD`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
-- [ ] **Mental Health Program** — `Mental Health Program`  
-  Status: Not Started | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
+- [x] **Mental Health Program** — `Mental Health Program`  
+  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
 
 ## Initial Structural Audit
