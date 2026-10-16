@@ -59,6 +59,9 @@ Encourage frequent responsive feeding, skin-to-skin, correct latch and monitorin
 ## Philippine practice considerations
 Use current DOH postpartum and emergency obstetric protocols, local referral pathways and PRC/BON scope standards. Follow facility-specific PPH algorithms and current national guidance for maternal follow-up and newborn feeding support.
 
+## Source verification note
+The WHO *Consolidated guidelines for the prevention, diagnosis and treatment of postpartum haemorrhage* (5 October 2025; ISBN 978-92-4-011563-7) is a current primary reference for PPH prevention, diagnosis and treatment and should be used to update any legacy recommendations in this file. Official source: https://www.who.int/publications/i/item/9789240115637 . Detailed medication doses and local escalation pathways still require source-by-source comparison before this topic can be marked verified complete.
+
 ## Sources
 1. World Health Organization (WHO), *WHO recommendations on maternal and newborn care for a positive postnatal experience*, 2022: https://www.who.int/publications/i/item/9789240045989
 2. American College of Obstetricians and Gynecologists (ACOG), “Optimizing Postpartum Care,” Committee Opinion No. 736, May 2018: https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2018/05/optimizing-postpartum-care
