@@ -22,6 +22,26 @@ Nurses monitor maternal-fetal wellbeing and labor progress within scope; positio
 - After head delivery, observe for shoulder dystocia if the shoulders do not deliver with routine gentle traction; call for help and follow emergency protocol. Never use fundal pressure.
 - Explain findings in clear, non-alarming language and document objective changes.
 
+## Sequence and terminology differences across sources
+
+The seven-movement sequence taught in much Anglo-American nursing and medical material is commonly listed as **engagement, descent, flexion, internal rotation, extension, external rotation (restitution), and expulsion**. Some sources place descent before flexion, while others group or omit engagement, descent and expulsion when using “cardinal movements” narrowly for rotational mechanics. This is a terminology difference, not a disagreement that the fetus must descend and rotate to navigate the pelvis. When answering a PNLE item, use the course's taught sequence while understanding what each movement accomplishes.
+
+| Movement | Why it helps |
+|---|---|
+| Engagement | The presenting head's biparietal diameter has passed the pelvic inlet in a typical vertex presentation. |
+| Descent | Moves the fetus through the pelvis; occurs through labor, not as a single isolated event. |
+| Flexion | Brings the chin toward the chest so a smaller head diameter presents. |
+| Internal rotation | Aligns the head with the pelvic outlet; position and pelvic mechanics influence the actual rotation. |
+| Extension | The head passes beneath the pubic arch and is born. |
+| Restitution/external rotation | The delivered head realigns with the shoulders as the shoulders rotate within the pelvis. Some textbooks treat restitution and external rotation as separate named events. |
+| Expulsion | The shoulders and body are delivered after the head; if the shoulders do not deliver with routine gentle traction, suspect shoulder dystocia and activate the emergency response. |
+
+## Mechanism is not permission to apply traction
+These movements describe normal physiology; they are not a maneuver guide for extracting the fetus. Do not apply excessive traction to the head/neck, do not use fundal pressure, and do not delay escalation if shoulder dystocia is suspected. Follow the current shoulder-dystocia protocol and the skill training of the clinician performing maneuvers.
+
+**Sources checked:** OpenStax, *Maternal Newborn Nursing*, section 15.2, published 26 June 2024, explains the stages and mechanisms of labor and describes restitution/external rotation and shoulder delivery: https://openstax.org/books/maternal-newborn-nursing/pages/15-2-stages-of-labor . StatPearls, “Normal Labor: Physiology, Evaluation, and Management,” lists the seven movements and explains flexion, internal rotation, extension and restitution: https://www.ncbi.nlm.nih.gov/books/NBK544290/ . A peer-reviewed 2021 review discusses the nomenclature difference between seven movements in Anglo-American literature and four rotational movements in some European/older English literature: https://pubmed.ncbi.nlm.nih.gov/34214716/ .
+
+
 ## PNLE high-yield points
 - Engagement concerns passage of the presenting part through the pelvic inlet.
 - Flexion presents a smaller head diameter.
