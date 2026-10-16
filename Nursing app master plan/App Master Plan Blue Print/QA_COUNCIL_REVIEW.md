@@ -98,7 +98,7 @@ The initial plan is materially more useful than the previous single-README bluep
 
 ### Finding QA-002 — Tree verification is not content verification
 **Severity:** Medium  
-**Evidence:** All 739 paths are inventoried, but hundreds of unrelated Claude/Ruflo files and binary Android resources were not semantically read.  
+**Evidence:** All 740 paths are inventoried, but hundreds of unrelated Claude/Ruflo files and binary Android resources were not semantically read.  
 **Correction required:** Continue to state the scope honestly. The full relevant research reports were read, but the whole repository was not line-by-line semantically read. This does not block planning of the nursing app but blocks any claim that every file's contents were reviewed.
 
 ## Scorecard
@@ -116,9 +116,14 @@ The initial plan is materially more useful than the previous single-README bluep
 
 ## Next correction cycle
 
-1. Update DATA_MODEL_AND_CONTRACTS.md to explicitly separate learner-visible question payloads from grading keys, including ordering/matching shuffle behavior.
-2. Update ARCHITECTURE_OPTIONS.md with the server/client answer-key boundary and local-only caveat.
-3. Update REQUIREMENTS_TRACEABILITY.md with answer-key leakage, idempotency, concurrency, and source provenance tests.
-4. Reconcile complete report findings against all relevant markdown notes; preserve observed/inferred labels.
-5. Run the existing App 2 offline test suites if an appropriate environment is available; report inability honestly if not.
-6. Re-fetch updated files and rerun link/tree checks; record the final tree count and latest commit.
+- [x] Update DATA_MODEL_AND_CONTRACTS.md to separate learner-visible question payloads from grading keys, including ordering/matching shuffle behavior.
+- [x] Update ARCHITECTURE_OPTIONS.md with the server/client answer-key boundary and local-only caveat.
+- [x] Update REQUIREMENTS_TRACEABILITY.md with answer-key leakage, idempotency, concurrency, and source-provenance acceptance checks.
+- [x] Re-fetch all 12 blueprint files and confirm non-empty content; re-scan the tree (740 entries, not truncated) and validate all 18 relative links in the two updated READMEs.
+- [ ] Reconcile complete report findings against all relevant markdown notes; preserve observed/inferred labels.
+- [ ] Run the existing App 2 offline test suites if an appropriate environment is available; report inability honestly if not.
+- [ ] Conduct another independent council pass after report reconciliation.
+
+## Iteration 2 verdict
+
+The answer-key boundary and strict diagnostic gate are now explicit in planning artifacts. Planning quality improved, but the overall readiness score remains below completion because the full source-claim reconciliation, reference test execution, final architecture decisions, and independent review remain open. No application code was created.
