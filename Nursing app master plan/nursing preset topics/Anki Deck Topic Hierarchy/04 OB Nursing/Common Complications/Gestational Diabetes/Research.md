@@ -27,6 +27,22 @@ Maternal risks include hypertensive disorders, preeclampsia, increased likelihoo
 - **Metformin:** crosses the placenta. WHO 2025 recommends metformin or insulin for GDM when indicated; ADA 2026 states insulin is preferred for GDM. Choice should reflect local guidance, patient factors, and informed clinician decision-making. Consider renal function, gastrointestinal effects, and circumstances where metformin may be unsuitable.
 - Avoid starting, stopping or changing glucose-lowering medicines independently. Pregnancy may require dose adjustments; monitor for hypoglycemia and hyperglycemia.
 
+## Current guideline comparison: WHO 2025 vs ADA 2026
+
+| Issue | WHO 2025 | ADA Standards of Care 2026 | Practical nursing interpretation |
+|---|---|---|---|
+| GDM medication after lifestyle therapy is insufficient | Recommends starting metformin **or** insulin; may consider combining if monotherapy does not achieve optimal control. | Insulin is the preferred medication for GDM; metformin and glyburide are not first-line because they cross the placenta and offspring long-term safety data remain concerns. | Do not present metformin as universally first-line. Record which guideline/local protocol the care team uses, explain the evidence/guideline difference accurately, and do not alter therapy independently. |
+| Glucose monitoring | Recommends self-monitoring of blood glucose in addition to routine care where feasible; individualized glycemic targets. | Recommends frequent glucose monitoring and individualized treatment; insulin adjustment is often needed as pregnancy progresses. | Teach accurate timing and logging. There is no one target that should be used without stating the applicable protocol. |
+| Postpartum follow-up | Emphasizes ongoing postpartum care and long-term prevention/monitoring as appropriate to the guideline. | 75-g OGTT at 4–12 weeks postpartum using nonpregnant diagnostic criteria; lifelong screening for type 2 diabetes/prediabetes every 1–3 years. | Put the postpartum test and long-term screening plan into discharge teaching/referral; do not assume glucose abnormality resolves permanently at birth. |
+
+**Checked sources:** WHO, *WHO recommendations on care for women with diabetes during pregnancy*, published 14 November 2025; the official publication record was opened and WHO recommendations table 17–18 was located in indexed NCBI Bookshelf content: https://www.who.int/westernpacific/publications/i/item/9789240117044 ; https://www.ncbi.nlm.nih.gov/books/NBK619426/table/fm-ch1.tab1/ . ADA, *Standards of Care in Diabetes—2026*, section 15, has an indexed guideline page with the pregnancy pharmacologic recommendation and explicit postpartum recommendations 15.30–15.31: https://diabetesjournals.org/care/article/49/Supplement_1/S321/163918/15-Management-of-Diabetes-in-Pregnancy-Standards . Full WHO PDF and ADA journal page had access restrictions on direct opening in this pass, so table/page-level claims are transparently attributed to the official sources and the accessible indexed recommendation text rather than overstated as a full-text line-by-line review.
+
+## Insulin safety and labor/postpartum transition
+Insulin is a high-alert medication. Verify insulin product, dose, time in relation to meals, recent glucose, renal status, intake and the individualized plan during labor, fasting/NPO periods and after delivery. Pregnancy insulin needs may rise as placental insulin resistance increases, then fall sharply after placental delivery; continuing a pregnancy dose unchanged can cause hypoglycemia. For patients with pre-existing type 1 diabetes, basal insulin must not be omitted without a specific prescriber-directed plan because of ketoacidosis risk. During breastfeeding, irregular meals and increased energy use may increase hypoglycemia risk in insulin-treated patients. Monitor the mother and coordinate neonatal glucose surveillance based on newborn protocol.
+
+For the postpartum test, ADA prefers the 75-g OGTT at 4–12 weeks over A1C in the early postpartum period because pregnancy-related red-cell turnover, blood loss at delivery and preceding glycemia may make A1C misleading. If the recommended OGTT is not completed, document the barrier and arrange follow-up rather than silently substituting a less sensitive test without clinician direction.
+
+
 ## Nursing interventions and rationales
 | Nursing focus | Intervention | Rationale |
 |---|---|---|
