@@ -1,0 +1,1 @@
+{ "name": "srs-scheduler", "private": true, "type": "module", "scripts": { "test": "node --experimental-strip-types --test test/fsrs.test.ts" } }

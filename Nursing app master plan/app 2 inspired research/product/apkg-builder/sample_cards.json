@@ -1,0 +1,11 @@
+{
+  "deck": "Nursing::Fundamentals (sample)",
+  "cards": [
+    {"type": "basic", "front": "Normal adult resting heart rate", "back": "60–100 beats per minute", "tags": ["vitals", "adult"]},
+    {"type": "basic", "front": "Normal adult respiratory rate", "back": "12–20 breaths per minute", "tags": ["vitals", "adult"]},
+    {"type": "basic", "front": "The five rights of medication administration", "back": "Right patient, right drug, right dose, right route, right time", "tags": ["pharmacology", "safety"]},
+    {"type": "cloze", "text": "Hand hygiene with alcohol-based rub should last at least {{c1::20}} seconds.", "tags": ["infection-control"]},
+    {"type": "cloze", "text": "{{c1::Airborne}} precautions require a negative-pressure room and an N95 respirator.", "tags": ["infection-control"]}
+  ],
+  "note": "Sample study cards for testing the pipeline only; verify all clinical facts against your course material."
+}

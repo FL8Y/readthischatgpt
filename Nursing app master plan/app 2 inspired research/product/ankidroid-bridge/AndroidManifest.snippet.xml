@@ -1,0 +1,17 @@
+<!-- Add to YOUR app's AndroidManifest.xml -->
+<uses-permission android:name="com.ichi2.anki.permission.READ_WRITE_DATABASE" />
+
+<!-- Android 11+ package visibility: lets resolveContentProvider() see AnkiDroid -->
+<queries>
+    <provider android:authorities="com.ichi2.anki.flashcards" />
+    <package android:name="com.ichi2.anki" />
+</queries>
+
+<!-- Only needed to hand a .apkg to AnkiDroid's importer -->
+<provider
+    android:name="androidx.core.content.FileProvider"
+    android:authorities="${applicationId}.apkg"
+    android:exported="false"
+    android:grantUriPermissions="true">
+    <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/apkg_paths" />
+</provider>
