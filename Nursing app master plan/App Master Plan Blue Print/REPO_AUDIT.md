@@ -15,7 +15,7 @@ The four legacy planning documents are now consolidated and deleted. Their exact
 
 ## 1. Repository-wide inventory
 
-The historical baseline tree had **729 entries**. The latest verified tree after planning uploads returned **740 entries (599 blobs/files, 141 tree/directory entries)** with `truncated=false` at commit `ee5ae3fb1c7c34833596feefd4ade20218b5c4df`. The top-level counts below reflect the latest verified path inventory; the baseline count is retained only to document repository growth:
+The historical baseline tree had **729 entries** and the intermediate pre-cleanup snapshot had 743. The **final post-cleanup** tree has **739 entries (598 blobs/files, 141 tree/directory entries)** with `truncated=false`, verified at snapshot `fc52eb44d20278d7503ed5533bb2b89ffa0ecefc`. The top-level counts below reflect the final post-cleanup tree:
 
 | Top-level path | Entries | Purpose / treatment |
 |---|---:|---|
@@ -25,7 +25,7 @@ The historical baseline tree had **729 entries**. The latest verified tree after
 | `.gitignore` | 1 | Root configuration; preserve |
 | `.mcp.json` | 1 | Claude/Ruflo MCP configuration; preserve |
 | `CLAUDE.md` | 1 | Root execution rules; read and preserve |
-| `Nursing app master plan` | 408 | Research and project blueprint; primary task scope |
+| `Nursing app master plan` | 407 | Research and project blueprint; primary task scope |
 | `here is your guiding prompt` | 1 | Existing FLY8 repair continuation prompt; unrelated project; preserve unchanged |
 
 The tree inventory is complete for the Git ref inspected. File content inspection was focused on the project instructions, research directories, reference implementations, and tests most relevant to the nursing app.
@@ -39,7 +39,7 @@ Counts below are based on the recursive tree at the time of the audit.
 | App 1 inspired research | 337 | 280 | 57 | 49,682 | APK-derived Android metadata/resources; transfer log indicates incomplete archive upload |
 | app 2 inspired research | 29 | 18 | 11 | 220,518 | AnkiDroid research, decoded manifest, integration examples, scheduler and APKG builder |
 | App 3 a app inspired research | 27 | 20 | 7 | 283,937 | Gizmo report, derived extracts, research notes, AI quiz-generation reference code |
-| App Master Plan Blue Print | 13 | 12 | 1 | 127,418 | Twelve Markdown planning documents including architecture, contracts, UX/learning spec, prompt, traceability, roadmap, decisions and council QA |
+| App Master Plan Blue Print | 12 | 11 | 1 | 137,578 | Eleven canonical Markdown documents after consolidation; no nested directories |
 
 The bytes are Git tree listed file sizes, not the original APK size or a claim that all archive bytes were uploaded.
 
