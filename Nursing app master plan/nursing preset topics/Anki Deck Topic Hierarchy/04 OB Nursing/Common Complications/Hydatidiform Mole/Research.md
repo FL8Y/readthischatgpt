@@ -21,6 +21,33 @@ Uterine evacuation is commonly performed by suction evacuation by an experienced
 
 Serial quantitative hCG monitoring is required after evacuation until it becomes undetectable and for the duration specified by the treating GTD service. Use reliable contraception during surveillance so a new pregnancy does not complicate interpretation of hCG. Exact monitoring schedules vary by diagnosis and guideline; follow the specialist's current plan.
 
+## Source-checked follow-up and persistent disease surveillance
+
+### Follow-up is an essential part of treatment
+The National Cancer Institute (NCI) health-professional PDQ states that most hydatidiform moles are treated with suction evacuation, but surveillance is required because trophoblastic disease may persist or progress. Its overview describes weekly serum beta-hCG until normalization and monthly follow-up for up to 6 months as a general approach; it also emphasizes that the exact duration of the monthly phase is not strongly supported by empirical studies and that specialist guidance is important. Do not treat “six months for everyone” as a universal schedule: follow the specialist gestational trophoblastic disease (GTD) service's current protocol, which may tailor surveillance to complete vs partial mole, histopathology, and the trajectory/time to hCG normalization.
+
+**Why contraception matters:** pregnancy increases beta-hCG and can obscure interpretation of a rising result during surveillance. Discuss a reliable contraceptive option compatible with the patient's medical status and preference until the GTD specialist says monitoring can stop. New pregnancy symptoms or a positive pregnancy test during surveillance should be promptly reported because the hCG rise must be differentiated from persistent GTD.
+
+### Findings that require prompt GTD specialist review
+- Beta-hCG plateauing across serial tests, rising on repeated measurements, or becoming detectable again after having normalized.
+- Persistent detectable beta-hCG at the time point defined by the current specialist protocol.
+- Ongoing or recurrent bleeding after evacuation, especially hemorrhage not explained by retained tissue.
+- Histopathology diagnosing choriocarcinoma or another gestational trophoblastic neoplasm, or imaging/symptoms suggesting metastatic disease.
+
+NCI's professional PDQ lists rising hCG over serial measurements, a plateau over serial weeks, persistence after evacuation, re-elevation after a normal value, metastatic disease and post-evacuation hemorrhage not due to retained tissue among indications for treatment of persistent GTN. These are referral triggers to a specialist service, not criteria for a bedside nurse to start chemotherapy. Chemotherapy choice and risk classification require specialist diagnosis and staging.
+
+### Diagnosis and safety
+- Send evacuated tissue for histopathology according to the treating service's pathway; complete/partial classification may inform risk and follow-up.
+- Use quantitative serum beta-hCG trends, not a single value in isolation, to assess resolution.
+- If hCG is low but persistently detectable, verify assay/interference and consider the specialist differential before assuming persistent malignant disease or giving chemotherapy.
+- Assess for hemorrhage, anemia, severe vomiting/dehydration, early-onset hypertension/preeclampsia and thyrotoxicosis; stabilize emergencies before routine counselling.
+- Rh(D) immune globulin after evacuation is subject to the patient's Rh/antibody status, gestational age and current local policy. The timing recommendations for pregnancy loss under 12 weeks differ by guideline; do not assume it is automatically required or automatically unnecessary for every molar evacuation.
+
+## Updated source verification (2026-10-17)
+Opened the NCI *Gestational Trophoblastic Disease Treatment (PDQ®)—Health Professional Version*. It classifies hydatidiform mole into complete and partial types, states that suction evacuation is common treatment, and says hCG monitoring is needed after treatment because persistent disease can develop. It describes weekly beta-hCG until normalization with further monthly follow-up often recommended, but also notes the duration of monthly follow-up is not based on strong empirical study. It lists persistent/rising/plateauing/re-elevated hCG, metastatic disease and post-evacuation hemorrhage unexplained by retained tissue among indications for GTN treatment. Source: https://www.cancer.gov/types/gestational-trophoblastic/hp/gtd-treatment-pdq .
+
+The patient-facing NCI PDQ was also opened; it repeats weekly hCG until normal and monthly follow-up for up to 6 months and the importance of avoiding pregnancy during monitoring: https://www.cancer.gov/types/gestational-trophoblastic/patient/gtd-treatment-pdq . The full specialist follow-up schedule can vary; this file therefore uses NCI for the general principle and defers the exact interval/stop rule to the specialist protocol.
+
 ## Nursing priorities and rationales
 | Priority | Nursing action | Rationale |
 |---|---|---|
