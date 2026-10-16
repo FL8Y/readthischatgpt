@@ -36,7 +36,9 @@
   - [[Common Complications/Gestational Diabetes/Research|Gestational Diabetes]]
   - Hemolytic Disease of the Newborn
   - Hydatidiform Mole
+  - [[Common Complications/Hydatidiform Mole/Research|Hydatidiform Mole]]
   - Hyperemesis Gravidarum
+  - [[Common Complications/Hyperemesis Gravidarum/Research|Hyperemesis Gravidarum]]
   - Incompetent Cervix
   - Placenta Previa
   - Premature Rupture of Membranes
