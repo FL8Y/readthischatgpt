@@ -8,10 +8,10 @@
     "vignette": "A 62-year-old client returns to the surgical unit after a bowel resection. Two hours ago the blood pressure was 118/74 mm Hg and the pulse 82/min. Now the blood pressure is 96/60 mm Hg, pulse 112/min, respirations 22/min, and the skin is cool and clammy. The client is restless. The abdominal dressing is dry, and the abdomen feels firmer and more distended than on arrival.",
     "stem": "Which action should the nurse take first?",
     "options": [
-      "Recheck the vital signs in 15 minutes before taking any further action.",
-      "Report the vital sign trend and abdominal findings to the surgeon now, stay with the client, and keep the IV access patent.",
-      "Give the prescribed analgesic because restlessness is most likely from pain.",
-      "Encourage coughing and deep breathing with the abdomen splinted."
+      "Recheck the vital signs in 15 minutes and report to the surgeon if they are still dropping.",
+      "Report the trend and abdominal findings to the surgeon now and keep the IV access patent.",
+      "Give the prescribed analgesic and reassess comfort in 30 minutes because restlessness is likely from pain.",
+      "Encourage coughing and deep breathing with the abdomen splinted to prevent pulmonary complications."
     ],
     "answerIndex": 1,
     "strategyTag": "Early recognition: trend and ABC",
@@ -68,10 +68,10 @@
     "vignette": "A nurse on a medical unit receives report on four clients. One has pneumonia and is newly confused with respirations 28/min and oxygen saturation 86% (it was 94% this morning). One has chronic lung disease on low-flow oxygen with mild breathlessness at baseline and saturation 91%. One is on day 1 after appendectomy with pain 4/10 and wants to walk. One has cellulitis and the next antibiotic dose is due in 30 minutes.",
     "stem": "Which client should the nurse assess first?",
     "options": [
-      "The client with pneumonia who is newly confused and has a saturation of 86%",
+      "The client with pneumonia who is newly confused with a saturation of 86%",
       "The client with chronic lung disease on low-flow oxygen with saturation 91%",
-      "The client on day 1 after appendectomy with pain 4/10",
-      "The client with cellulitis whose antibiotic is due in 30 minutes"
+      "The client on day 1 after appendectomy with pain rated 4/10 who wants to walk",
+      "The client with cellulitis whose next antibiotic dose is due in 30 minutes"
     ],
     "answerIndex": 0,
     "strategyTag": "Triage: unstable and new before stable",
@@ -98,10 +98,10 @@
     "vignette": "A 72-year-old client is on the first night after surgery and uses a patient-controlled opioid pump. The nurse finds the client hard to arouse with slow, shallow respirations of 8/min. Arterial blood gas results show a pH below the normal range, a carbon dioxide level above the normal range, and a bicarbonate level within normal limits.",
     "stem": "Which action is the priority for the nurse?",
     "options": [
-      "Encourage oral fluids to help correct the acidosis.",
-      "Record the result and repeat the blood gas in the morning.",
-      "Apply a face mask with oxygen and leave the pump running.",
-      "Withhold further opioid doses, stimulate the client, support breathing, and notify the provider immediately."
+      "Encourage oral fluids and deep breaths to help correct the acidosis and flush out the medication.",
+      "Record the result and repeat the blood gas in the morning to see whether the pH has changed.",
+      "Apply a face mask with oxygen and leave the pump running while watching the respiratory rate closely.",
+      "Withhold further opioid doses, stimulate the client, support breathing, and notify the provider."
     ],
     "answerIndex": 3,
     "strategyTag": "Lab: link result to risk",
@@ -128,10 +128,10 @@
     "vignette": "A 49-year-old client is admitted with a three-week cough, night sweats, weight loss and blood-streaked sputum. The provider suspects active pulmonary tuberculosis. The nurse is arranging the client's room and personal protective equipment.",
     "stem": "Which precaution is most appropriate?",
     "options": [
-      "Place the client in a negative-pressure room and wear a fitted particulate respirator when entering.",
-      "Place the client in a private room and wear a standard surgical mask when entering.",
-      "Use a private room with a gown and gloves for all contact, with the door open.",
-      "Use standard precautions only until the sputum culture result returns."
+      "Place the client in a negative-pressure room and wear a fitted respirator when entering.",
+      "Place the client in a private room and wear a standard surgical mask when entering the room.",
+      "Use a private room, wear a gown and gloves for contact with the client, and keep the door open.",
+      "Use standard precautions in a shared room until the sputum culture result confirms the diagnosis."
     ],
     "answerIndex": 0,
     "strategyTag": "Infection: match route to precaution",
@@ -158,10 +158,10 @@
     "vignette": "A 77-year-old client who has been taking a broad-spectrum antibiotic for several days develops frequent watery stools. The provider suspects infection with Clostridioides difficile. The nurse prepares to provide care in the client's private room.",
     "stem": "Which action is most appropriate to prevent spread?",
     "options": [
-      "Wear a surgical mask and clean hands with an alcohol-based rub before leaving.",
-      "Wear gloves only and clean hands with an alcohol-based rub after removing them.",
-      "Wear a gown and gloves, and wash hands with soap and water after leaving the room.",
-      "Move the client to a negative-pressure room and wear a fitted respirator."
+      "Wear a surgical mask and clean hands with an alcohol-based rub before leaving the room.",
+      "Wear gloves for care and clean hands with an alcohol-based rub after removing them.",
+      "Wear a gown and gloves, and wash with soap and water after removing them.",
+      "Move the client to a negative-pressure room and wear a fitted respirator for care."
     ],
     "answerIndex": 2,
     "strategyTag": "Infection: match route to precaution",
@@ -218,10 +218,10 @@
     "vignette": "A nurse is caring for a 66-year-old client with heart failure who takes a loop diuretic daily and has had several episodes of vomiting over two days. During morning assessment the nurse notes four findings: increased urine output since the last shift, a weight lower than yesterday, mild thirst with dry lips, and new generalized muscle weakness with an irregular pulse.",
     "stem": "Which finding is most concerning and requires follow-up?",
     "options": [
-      "Increased urine output since the last shift",
-      "New generalized muscle weakness with an irregular pulse",
-      "A weight lower than yesterday's weight",
-      "Mild thirst with dry lips"
+      "Increased urine output compared with the last shift",
+      "New muscle weakness along with an irregular pulse",
+      "A lower weight on the scale than yesterday morning",
+      "Mild thirst with dry lips after repeated vomiting"
     ],
     "answerIndex": 1,
     "strategyTag": "Expected vs unexpected finding",
@@ -248,8 +248,8 @@
     "vignette": "A client is on day 8 after a cycle of chemotherapy and the laboratory report shows a very low neutrophil count. During rounds the nurse notes four findings: mild fatigue, thinning hair, nausea controlled with an antiemetic, and a temperature of 38.5 C with chills.",
     "stem": "Which finding requires the nurse to act first?",
     "options": [
-      "Mild fatigue",
-      "Thinning hair",
+      "Mild fatigue after a short walk",
+      "Gradual thinning of scalp hair",
       "Temperature of 38.5 C with chills",
       "Nausea controlled with an antiemetic"
     ],
@@ -278,10 +278,10 @@
     "vignette": "The nurse is assigning tasks for a surgical unit to an unlicensed assistive personnel (UAP) member. The tasks are: assessing the drainage and breath sounds of a client with a chest tube placed this morning; teaching incentive spirometry to a client on day 1 after surgery; obtaining routine vital signs for a client on day 3 after an uncomplicated hernia repair; and evaluating the pain relief achieved after an intravenous opioid dose.",
     "stem": "Which task is most appropriate to delegate?",
     "options": [
-      "Obtaining routine vital signs for the client on day 3 after an uncomplicated hernia repair",
+      "Taking routine vital signs for the stable client after a hernia repair",
       "Assessing the drainage and breath sounds of the client with a new chest tube",
-      "Teaching incentive spirometry to the client on day 1 after surgery",
-      "Evaluating the pain relief after the intravenous opioid dose"
+      "Teaching a client on day 1 after surgery how to use the incentive spirometer",
+      "Evaluating the client's pain relief after the intravenous opioid dose"
     ],
     "answerIndex": 0,
     "strategyTag": "Delegation: stable and routine only",
@@ -308,10 +308,10 @@
     "vignette": "A 65-year-old client with chronic lung disease is admitted with a flare of breathlessness. The client is anxious about missing a family event, has little knowledge about inhaler technique, and is at some risk for infection because of prolonged hospital stay. Respirations are 26/min with use of accessory muscles and saturation is 88% on room air.",
     "stem": "Which nursing diagnosis has the highest priority?",
     "options": [
-      "Anxiety related to missing a family event",
-      "Deficient knowledge related to inhaler technique",
-      "Risk for infection related to prolonged hospitalization",
-      "Impaired gas exchange related to retained secretions and airway narrowing"
+      "Anxiety related to missing an important family event",
+      "Deficient knowledge related to correct inhaler technique",
+      "Risk for infection related to prolonged hospital stay",
+      "Impaired gas exchange related to retained secretions"
     ],
     "answerIndex": 3,
     "strategyTag": "Maslow: physiological first",
@@ -338,9 +338,9 @@
     "vignette": "A 54-year-old client who was told yesterday of a cancer diagnosis says to the nurse, \"I do not think I want chemotherapy. What is the point of any of this?\" The client looks tired and is looking down at the bed sheet.",
     "stem": "Which response by the nurse is best?",
     "options": [
-      "\"Your doctor knows what is best, so you should follow the treatment plan.\"",
-      "\"It sounds like you feel discouraged. Can you tell me more about what worries you most?\"",
-      "\"Many people feel this way at first, but you need to stay positive.\"",
+      "\"Your doctor knows what is best, so you should follow the plan your doctor has recommended.\"",
+      "\"It sounds like you feel discouraged. Can you tell me what worries you most?\"",
+      "\"Many people feel this way at first, but you need to stay positive and keep fighting.\"",
       "\"Why would you decide something like that so soon after hearing the diagnosis?\""
     ],
     "answerIndex": 1,
@@ -368,10 +368,10 @@
     "vignette": "A 60-year-old client is scheduled for surgery in two hours. The surgeon's office left a consent form on the chart. The nurse finds the client drowsy and slurring speech 30 minutes after a prescribed preoperative sedative. The client's adult child is at the bedside and offers to sign for the client. The client has no known impairment of decision making.",
     "stem": "Which action should the nurse take?",
     "options": [
-      "Have the client sign now and witness the signature to avoid delaying surgery",
-      "Accept the adult child's signature since the client is drowsy",
-      "Hold the signature and tell the surgeon that consent must be obtained while the client is alert",
-      "Explain the surgical risks to the client and then obtain the signature"
+      "Have the client sign now and witness the signature to avoid delaying the scheduled surgery",
+      "Accept the adult child's signature since the client is drowsy and cannot read the form",
+      "Hold the form and notify the surgeon that consent must wait until the client is alert",
+      "Explain the surgical risks to the client and then obtain the signature before the surgery"
     ],
     "answerIndex": 2,
     "strategyTag": "Ethics: autonomy and advocacy",
@@ -398,22 +398,22 @@
     "vignette": "A nurse prepares to give a prescribed intravenous potassium replacement to a 70-year-old client with a low potassium level who has been vomiting. The medication arrives from pharmacy, and the client has a peripheral intravenous line. The client's urine output over the last shift was very low.",
     "stem": "Which action is most important before giving the medication?",
     "options": [
-      "Confirm the potassium is prepared diluted as ordered for a pump, and report the low urine output to the provider",
-      "Plan to give it as a slow intravenous push over several minutes with the monitor on",
+      "Report the very low urine output to the provider before giving the potassium",
+      "Give it as a slow intravenous push over several minutes with the cardiac monitor on",
       "Ask the client when the last meal was and hold the dose if the client has eaten",
-      "Check only the client's name band and proceed since the order was verified by pharmacy"
+      "Check the client's name band and proceed since pharmacy verified the order"
     ],
     "answerIndex": 0,
     "strategyTag": "Safety: match monitoring to risk",
     "reasoning": "1) Identify the drug class: potassium is a high-alert medication. 2) Think about what makes it dangerous: concentration, rate and poor excretion. 3) Low urine output suggests kidneys may not excrete potassium well, so the provider must know. 4) Eliminate push administration, which raises cardiac risk. 5) Eliminate options about meals and identification alone because they do not match the risk. 6) Choose verifying dilution and rate on a pump and reporting the low urine output.",
     "optionRationales": [
-      "Concentrated potassium is high-alert and should never be given undiluted or by rapid push. Poor kidney excretion raises the risk of dangerous levels, so the low output should be reported before giving.",
+      "Poor kidney excretion raises the risk of dangerous potassium levels, so the very low urine output must be reported before giving the dose. Potassium is a high-alert medication and is infused diluted at a controlled rate, not pushed.",
       "Rapid or push administration of potassium can cause dangerous cardiac effects; it is infused diluted at a controlled rate.",
       "Food intake is irrelevant to intravenous potassium and does not address the safety risk.",
-      "Identification is necessary but not sufficient; the high-alert risk requires checking the preparation and kidney function."
+      "Identification is necessary but not sufficient; proceeding without addressing the low urine output ignores the high-alert risk."
     ],
     "keyFacts": [
-      "Potassium is never given undiluted or as an intravenous push.",
+      "Potassium is a high-alert medication given diluted at a controlled rate, not as an intravenous push.",
       "Check urine output and renal status before giving potassium."
     ],
     "aiWritten": true,
@@ -428,10 +428,10 @@
     "vignette": "A nurse is preparing a 55-year-old client for discharge home on day 3 after open abdominal surgery. The client has an incision with staples and will go home with a family member. The nurse has time to cover several topics.",
     "stem": "Which instruction should the nurse prioritize?",
     "options": [
-      "Arrange transportation for the follow-up visit before leaving the unit",
-      "Have a list of foods the client prefers during recovery",
-      "Keep a supply of dressing materials at home in a clean storage area",
-      "Report fever, spreading redness, pus-like drainage or increasing incision pain promptly"
+      "Arrange transportation to the follow-up visit and confirm the appointment date",
+      "Plan a list of preferred foods and meal times for the weeks of recovery",
+      "Keep a supply of dressing materials at home in a clean, dry storage area",
+      "Report fever, spreading redness, pus-like drainage or worse incision pain"
     ],
     "answerIndex": 3,
     "strategyTag": "Discharge: safety-critical first",
@@ -458,10 +458,10 @@
     "vignette": "During lunch on a medical unit, a 69-year-old client suddenly stands, clutches the throat, and cannot speak, cough or breathe. The lips are turning blue. The nurse is in the room.",
     "stem": "What should the nurse do first?",
     "options": [
-      "Measure the oxygen saturation and respiratory rate",
-      "Leave the room and call the rapid response team",
-      "Perform abdominal thrusts until the object is expelled or the client becomes unresponsive",
-      "Encourage the client to cough forcefully"
+      "Measure the oxygen saturation and respiratory rate before acting",
+      "Leave the room to call the rapid response team and return quickly",
+      "Begin abdominal thrusts immediately and ask someone to call for help",
+      "Encourage the client to cough forcefully and keep trying"
     ],
     "answerIndex": 2,
     "strategyTag": "Exception: emergency overrides assess-first",
@@ -469,7 +469,7 @@
     "optionRationales": [
       "Assessment is normally first, but here delay is dangerous and the client has already shown complete obstruction.",
       "Help is needed but the nurse should not leave; the nurse stays and acts while someone else summons help.",
-      "Complete airway obstruction is an exception to assess-first. The nurse must act immediately and have someone call for help.",
+      "Complete airway obstruction is an exception to assess-first. The nurse acts immediately with abdominal thrusts while someone else calls for help.",
       "Coughing is appropriate for partial obstruction; this client cannot cough or speak, so it will not clear the airway."
     ],
     "keyFacts": [
@@ -518,10 +518,10 @@
     "vignette": "A 28-year-old client arrives after a motorcycle collision with a suspected abdominal bleed. The client is awake, speaks normally, and the systolic blood pressure is still in the normal range. The nurse notes a fast pulse, restlessness, and cool skin.",
     "stem": "Which finding best indicates early compensated shock?",
     "options": [
-      "Rising heart rate with restlessness and cool skin",
+      "Fast pulse with restlessness and cool skin",
       "A systolic pressure that has fallen markedly",
-      "Very little urine for many hours",
-      "Unresponsiveness to voice or pain"
+      "Very little urine over the last several hours",
+      "No response to voice or to painful stimuli"
     ],
     "answerIndex": 0,
     "strategyTag": "Early recognition: trend and ABC",
@@ -549,9 +549,9 @@
     "stem": "Which action by the nurse is inappropriate?",
     "options": [
       "Keeping the drainage system below the level of the chest during transport",
-      "Checking that all tubing connections are secure and taped",
+      "Checking that the tubing connections are secure and taped before leaving",
       "Watching for fluctuation of water in the water-seal chamber with breathing",
-      "Clamping the chest tube for the whole trip to radiology"
+      "Clamping the chest tube during the trip to radiology without an order"
     ],
     "answerIndex": 3,
     "strategyTag": "Negative stem: find the odd one",
@@ -560,7 +560,7 @@
       "Correct; this helps drainage and prevents fluid from flowing back into the chest.",
       "Correct; air leaks or disconnections can compromise the system.",
       "Correct; expected fluctuation shows the system communicates with the pleural space.",
-      "Routine clamping can trap air and fluid and lead to a tension pneumothorax. The tube is normally left unclamped unless a provider orders otherwise or for a brief, specific task."
+      "Clamping without an order can trap air and fluid and lead to a tension pneumothorax. The tube is normally left unclamped unless a provider orders otherwise."
     ],
     "keyFacts": [
       "Keep the chest drainage system below the chest and the tube unclamped unless ordered.",
@@ -579,9 +579,9 @@
     "stem": "Which action should the nurse take first?",
     "options": [
       "Complete a full head-to-toe assessment before calling the provider",
-      "Raise the head of the bed to a high-Fowler position and apply oxygen per protocol",
-      "Stay with the client, use a calm voice, and teach slow breathing exercises",
-      "Ambulate the client to promote circulation and lung expansion"
+      "Raise the head of the bed and apply oxygen per protocol",
+      "Stay with the client and coach slow breathing with a calm voice",
+      "Ambulate the client to promote circulation and expand the lungs"
     ],
     "answerIndex": 1,
     "strategyTag": "Exception: unstable client needs action now",
