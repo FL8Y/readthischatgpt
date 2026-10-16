@@ -77,3 +77,28 @@ A larger sample can improve precision under appropriate conditions, but it canno
 ## Scope note
 
 Sampling decisions depend on the intended population, research design, available frame, and analysis. Consult a methods/statistics specialist when complex sampling or weighting is needed.
+
+## Deeper design decisions and interpretation
+
+### Sampling, allocation, and analysis are different
+Sampling determines which people or units enter a study. Random assignment determines which intervention group enrolled participants receive. A study can use probability sampling without random assignment, or random assignment with a non-probability sample. These procedures answer different questions and support different inferences; do not use “randomized” as a synonym for “randomly sampled.”
+
+### Sampling in qualitative research
+Qualitative sampling commonly seeks relevant experience, variation, depth, or information-rich cases rather than a statistically representative miniature of a population. Purposive, criterion, maximum-variation, typical-case, extreme/deviant-case, and theoretical sampling may be appropriate depending on methodology. Explain why participants can illuminate the phenomenon, how the sample was developed, and how the analytic approach influenced later recruitment. Saturation is not a universal fixed number; specify what kind of saturation or information adequacy is meant and how it was assessed if the methodology uses that concept.
+
+### Sampling in surveys and clinical studies
+For a population survey, document the frame, selection probabilities, response disposition, weighting, and design effects as appropriate. For clinical trials, eligibility and recruitment must be defined in the protocol; randomization occurs after enrollment and does not make the recruited sample representative of everyone with the condition. For chart reviews, define the record population, date window, inclusion criteria, and missing/incomplete record handling.
+
+### Ethics and fairness
+Eligibility criteria should be scientifically justified, not based on convenience or discriminatory assumptions. Recruitment should avoid undue influence, especially when students recruit classmates, nurses recruit their own patients, or staff recruit people dependent on their services. Explain why groups are excluded, consider whether exclusion limits applicability, and use the required ethics review and consent procedures. Do not collect more identifying information than the study needs.
+
+### Worked nursing example
+A researcher wants to estimate the percentage of nurses who completed a safety training program across a region. A convenience survey shared only in one hospital's group chat may overrepresent highly engaged staff and exclude nurses without access to that channel. A defensible probability design might stratify facilities by region/type, select facilities and nurses using a documented multistage process, track nonresponse, and use design-aware estimates. If probability sampling is not feasible, describe the actual respondent group and avoid presenting its percentage as a regional prevalence estimate.
+
+## Additional PNLE distinctions
+
+- Sampling error is random sample-to-sample variation; selection bias is systematic distortion. A larger sample can reduce some random error but may make a biased estimate more precise without making it correct.
+- Random sampling improves the basis for population inference; random assignment improves causal comparability between intervention groups. Neither substitutes for the other.
+- Inclusion/exclusion criteria, sampling frame, recruitment channel, and nonresponse each affect who is represented.
+- “Consecutive” means every eligible case in a defined setting/time window is approached; it does not mean every person in the target population had a known probability of selection.
+- For qualitative studies, adequacy is justified by the research purpose and method, not by a generic power formula.
