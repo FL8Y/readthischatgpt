@@ -92,29 +92,29 @@
   {
     "id": "np3-004",
     "area": "NP3",
-    "topic": "Acid-base: respiratory acidosis",
+    "topic": "Postoperative opioid-induced respiratory acidosis",
     "archetype": "lab-value-interpretation-qualitative",
-    "difficulty": 4,
-    "vignette": "A 72-year-old client is on the first night after surgery and uses a patient-controlled opioid pump. The nurse finds the client hard to arouse with slow, shallow respirations of 8/min. Arterial blood gas results show a pH below the normal range, a carbon dioxide level above the normal range, and a bicarbonate level within normal limits.",
-    "stem": "Which action is the priority for the nurse?",
+    "difficulty": 5,
+    "vignette": "A 72-year-old client is on the first night after major abdominal surgery and uses a patient-controlled opioid pump. At 0300 the nurse finds the client difficult to arouse, with slow shallow respirations at 8 per minute. The nurse stops the pump. The arterial blood gas result shows a pH below the normal range, a carbon dioxide level above the normal range, and a bicarbonate level within normal limits. The provider has been paged but has not yet called back.",
+    "stem": "The nurse is at the bedside and the pump is stopped. Which action should the nurse take next?",
     "options": [
-      "Encourage oral fluids and deep breaths to help correct the acidosis and flush out the medication.",
-      "Record the result and repeat the blood gas in the morning to see whether the pH has changed.",
-      "Apply a face mask with oxygen and leave the pump running while watching the respiratory rate closely.",
-      "Withhold further opioid doses, stimulate the client, support breathing, and notify the provider."
+      "Place an oxygen mask on the client and reassess the oxygen saturation in ten minutes",
+      "Ask the provider for an order for an opioid reversal agent and wait to hear back before acting",
+      "Draw a repeat arterial blood sample to confirm the carbon dioxide trend before intervening",
+      "Rouse the client firmly by voice and touch and reposition the airway to support breathing"
     ],
     "answerIndex": 3,
-    "strategyTag": "Lab: link result to risk",
-    "reasoning": "1) Interpret qualitatively: low pH means acidosis; high carbon dioxide points to a respiratory cause; normal bicarbonate means little metabolic compensation yet, so it is acute. 2) Link to the history: opioid, hard to arouse, rate of 8/min and shallow, so hypoventilation. 3) The problem is airway and breathing, the first ABC priorities, and the client is unstable. 4) Remove the cause (stop the opioid) and support ventilation before anything else. 5) Eliminate fluids (wrong mechanism) and delayed repeat testing (ignores instability). 6) Eliminate oxygen alone because the depressant continues.",
+    "strategyTag": "ABC: breathing before results and orders",
+    "reasoning": "1) Read the gas: low pH with high carbon dioxide and normal bicarbonate means acute respiratory acidosis, so the body has not had time to compensate. 2) Link it to the history: sedating drug, hard to arouse, rate of 8 per minute, so the client is hypoventilating. 3) Maslow and ABC: breathing is the threat and the client is unstable, so the nurse acts at the bedside now. 4) The drug source is already stopped, so the next step is to support ventilation by rousing the client and opening the airway. 5) Oxygen alone, a repeat sample, and waiting for an order each delay direct support of breathing. 6) A reversal agent may be needed, but it requires an order and does not replace airway support while waiting.",
     "optionRationales": [
-      "Fluids do not address retained carbon dioxide and the client is too drowsy to drink safely.",
-      "Documentation matters, but this is an unexpected, unstable finding that needs action now, not next-day follow-up.",
-      "Oxygen can help, but continuing the opioid keeps depressing breathing, and oxygen alone does not fix hypoventilation.",
-      "The results show acute respiratory acidosis from hypoventilation, most likely caused by the opioid. The nurse removes the cause, supports ventilation, and escalates."
+      "Oxygen is right for low oxygen, but this problem is retained carbon dioxide from slow breathing. A mask with a ten-minute wait leaves the client unsupported and hides worsening drowsiness.",
+      "A reversal agent may be part of the plan, but it needs a provider order and takes time. The nurse does not stand by while the client is under-breathing; direct support of breathing comes first.",
+      "The result is already clear and a second sample would be the right follow-up later. Collecting it before intervening treats a number while the client is deteriorating.",
+      "Rousing the client and repositioning the airway directly supports breathing at the bedside, which is the first priority for an unstable client with respiratory acidosis from opioid sedation."
     ],
     "keyFacts": [
-      "High carbon dioxide with low pH indicates respiratory acidosis, often from hypoventilation.",
-      "Opioid sedation is a leading cause of postoperative hypoventilation."
+      "High carbon dioxide with low pH and normal bicarbonate indicates acute respiratory acidosis, often from hypoventilation.",
+      "Opioid sedation is a leading cause of postoperative hypoventilation; breathing support comes before further testing or waiting for orders."
     ],
     "aiWritten": true,
     "nurseReviewed": false
@@ -242,29 +242,29 @@
   {
     "id": "np3-009",
     "area": "NP3",
-    "topic": "Neutropenic fever",
+    "topic": "Neutropenic fever versus other chemotherapy effects",
     "archetype": "expected-vs-adverse-effect",
-    "difficulty": 4,
-    "vignette": "A client is on day 8 after a cycle of chemotherapy and the laboratory report shows a very low neutrophil count. During rounds the nurse notes four findings: mild fatigue, thinning hair, nausea controlled with an antiemetic, and a temperature of 38.5 C with chills.",
-    "stem": "Which finding requires the nurse to act first?",
+    "difficulty": 5,
+    "vignette": "A 61-year-old client is on day 8 after a cycle of chemotherapy, and this morning's laboratory report shows a very low neutrophil count. The client is sitting in a chair and says nothing hurts. During the shift the nurse notes four findings in the chart and at the bedside, and must decide which one to act on first.",
+    "stem": "Which finding should the nurse act on first?",
     "options": [
-      "Mild fatigue after a short walk",
-      "Gradual thinning of scalp hair",
-      "Temperature of 38.5 C with chills",
-      "Nausea controlled with an antiemetic"
+      "Mouth sores that make swallowing tablets painful this morning",
+      "Fatigue so marked that help is needed to reach the bathroom",
+      "Temperature of 38.3 C in a client who says they feel fine",
+      "Vomiting twice this shift with half the meal tray eaten"
     ],
     "answerIndex": 2,
-    "strategyTag": "Therapeutic vs adverse",
-    "reasoning": "1) Separate expected effects of chemotherapy (fatigue, hair thinning, controlled nausea) from dangerous ones. 2) Link the lab data: very low neutrophils means weak defense against infection. 3) Fever may be the only sign of infection because the usual inflammatory signs are blunted. 4) Unstable or potentially life-threatening outranks expected findings. 5) Choose the fever and notify the provider promptly.",
+    "strategyTag": "Unstable or life-threatening before expected effects",
+    "reasoning": "1) All four findings can occur after chemotherapy, so first sort expected effects from dangerous ones. 2) Use the lab data: very low neutrophils means the usual defenses against infection are weak. 3) In this state fever may be the earliest and sometimes the only sign of infection, so the client's comfort does not lower the priority. 4) Mouth sores, marked fatigue with a fall risk, and vomiting all need nursing care, but none is as quickly life-threatening. 5) Choose the fever and report it promptly.",
     "optionRationales": [
-      "Common and expected during chemotherapy; plan rest and monitor.",
-      "Expected adverse effect of some chemotherapy; it needs supportive and emotional care, not urgent action.",
-      "Fever in a client with very low neutrophils may signal serious infection with little warning and can progress quickly to sepsis, so it is treated as an emergency.",
-      "The treatment is working, so this is an expected, managed effect."
+      "Painful mouth sores need pain relief and a way to take medication, but they are an expected effect and not an immediate threat to life.",
+      "Fatigue with a fall risk needs help and a safety plan, which is a real concern, but the risk can be managed at once and is not rapidly fatal.",
+      "With very low neutrophils, a fever may be the only warning of serious infection that can progress quickly to sepsis, even when the client feels well. This is treated as an emergency.",
+      "Vomiting and reduced intake need antiemetic and fluid follow-up, but this is an expected effect that can be managed while the fever is reported."
     ],
     "keyFacts": [
-      "Fever in a client with low neutrophils is a medical emergency.",
-      "Chemotherapy lowers white cells for a period after each cycle."
+      "Fever in a client with very low neutrophils is a medical emergency, even if the client feels well.",
+      "Chemotherapy lowers white cells for a period after each cycle, and the usual signs of infection may be blunted."
     ],
     "aiWritten": true,
     "nurseReviewed": false
@@ -422,29 +422,29 @@
   {
     "id": "np3-015",
     "area": "NP3",
-    "topic": "Postoperative discharge teaching",
+    "topic": "Postoperative discharge teaching priority",
     "archetype": "discharge-teaching",
-    "difficulty": 3,
-    "vignette": "A nurse is preparing a 55-year-old client for discharge home on day 3 after open abdominal surgery. The client has an incision with staples and will go home with a family member. The nurse has time to cover several topics.",
-    "stem": "Which instruction should the nurse prioritize?",
+    "difficulty": 4,
+    "vignette": "A nurse is preparing a 55-year-old client with diabetes for discharge home on day 3 after open abdominal surgery. The incision is closed with staples and the client lives with a spouse who will help. The client is eager to return to gardening and asks about everything except warning signs. The nurse has limited time before the transport arrives.",
+    "stem": "Which instruction should the nurse give the highest priority?",
     "options": [
-      "Arrange transportation to the follow-up visit and confirm the appointment date",
-      "Plan a list of preferred foods and meal times for the weeks of recovery",
-      "Keep a supply of dressing materials at home in a clean, dry storage area",
-      "Report fever, spreading redness, pus-like drainage or worse incision pain"
+      "Hold a pillow firmly over the incision when coughing or changing position",
+      "Take the prescribed pain medicine before walking so activity is comfortable",
+      "Walk short distances several times a day and increase the distance gradually",
+      "Call the surgeon the same day if the wound turns hot, swollen or leaks pus"
     ],
     "answerIndex": 3,
-    "strategyTag": "Discharge: safety-critical first",
-    "reasoning": "1) Stem asks for the instruction to prioritize, so rank by risk. 2) Safety-critical teaching about warning signs outranks convenience and general advice. 3) Early wound infection or sepsis can occur at home after discharge. 4) Transportation, food preferences and supplies are helpful but lower in risk. 5) Choose the warning-sign teaching.",
+    "strategyTag": "Discharge: complication warning signs first",
+    "reasoning": "1) The stem asks for the highest priority, so rank by risk of harm. 2) Four teaching points are all correct for this client, so none can be eliminated as wrong, only ranked. 3) Splinting, timing of pain medicine and gradual walking improve comfort and recovery, and the client will likely do them anyway. 4) The client has diabetes and a stapled wound, which raises the risk of infection, and the client is not asking about warning signs, so this knowledge gap carries the greatest danger. 5) Choose teaching on when to call for help.",
     "optionRationales": [
-      "Useful for continuity of care, but missing the date is less dangerous than missing warning signs.",
-      "Nutrition supports healing, but food preference is not safety-critical.",
-      "Practical, but it does not help the client recognize dangerous changes.",
-      "Recognizing and reporting signs of wound infection is a safety-critical instruction because early reporting prevents serious complications."
+      "Splinting reduces strain on the wound and is good teaching, but a client who misses it has discomfort rather than an unrecognized emergency.",
+      "Pain control supports walking and recovery. It is useful teaching but the client is likely to seek relief and it does not protect against unrecognized complications.",
+      "Gradual walking supports circulation and recovery and is an important routine instruction. It is a healthy habit, not a response to a dangerous change.",
+      "Recognizing and reporting early signs of wound infection prevents serious complications. The client has diabetes and has not asked about warning signs, so this gap carries the highest risk."
     ],
     "keyFacts": [
-      "Discharge teaching should put warning signs and when to call first.",
-      "Signs of wound infection: fever, spreading redness, pus-like drainage, increasing pain."
+      "Discharge teaching should cover warning signs and when to call before comfort and lifestyle advice.",
+      "Diabetes slows healing and raises the risk of wound infection."
     ],
     "aiWritten": true,
     "nurseReviewed": false
@@ -452,29 +452,29 @@
   {
     "id": "np3-016",
     "area": "NP3",
-    "topic": "Choking in a conscious adult",
-    "archetype": "airway-obstruction-exception",
-    "difficulty": 3,
-    "vignette": "During lunch on a medical unit, a 69-year-old client suddenly stands, clutches the throat, and cannot speak, cough or breathe. The lips are turning blue. The nurse is in the room.",
-    "stem": "What should the nurse do first?",
+    "topic": "Postoperative fluid volume deficit prioritization",
+    "archetype": "acute-vs-chronic",
+    "difficulty": 5,
+    "vignette": "A nurse on a surgical unit begins the morning shift with four clients and a short time to see each of them. All are stable enough to be on the unit, and all have a documented fluid or electrolyte concern. The nurse must decide whom to assess first.",
+    "stem": "Which client should the nurse assess first?",
     "options": [
-      "Measure the oxygen saturation and respiratory rate before acting",
-      "Leave the room to call the rapid response team and return quickly",
-      "Begin abdominal thrusts immediately and ask someone to call for help",
-      "Encourage the client to cough forcefully and keep trying"
+      "A client with long-standing heart failure whose ankle swelling matches the admission note",
+      "A client with chronic kidney disease whose daily weight is steady and who has mild itching",
+      "A client after bowel surgery with falling urine output, rising pulse and new dizziness",
+      "A client on nasogastric suction who reports thirst and dry lips, with vital signs at baseline"
     ],
     "answerIndex": 2,
-    "strategyTag": "Exception: emergency overrides assess-first",
-    "reasoning": "1) Read the data: cannot speak, cough or breathe, cyanosis, which means complete obstruction. 2) Recall the exception: a clear airway emergency overrides assess-first. 3) Eliminate assessment tasks as delay. 4) Eliminate leaving the client alone. 5) Eliminate coughing, which is for partial obstruction. 6) Choose abdominal thrusts.",
+    "strategyTag": "Acute before chronic",
+    "reasoning": "1) The stem asks who to see first, so sort by acute versus chronic and stable versus unstable. 2) Chronic problems with unchanged findings (heart failure swelling, kidney disease with steady weight) are lower priority. 3) Thirst and dry lips with baseline vital signs on suction are expected and manageable, but need follow-up. 4) A new fall in urine output with rising pulse and dizziness after surgery suggests developing volume loss or bleeding, an acute change in an early postoperative client. 5) Choose the acute, changing client.",
     "optionRationales": [
-      "Assessment is normally first, but here delay is dangerous and the client has already shown complete obstruction.",
-      "Help is needed but the nurse should not leave; the nurse stays and acts while someone else summons help.",
-      "Complete airway obstruction is an exception to assess-first. The nurse acts immediately with abdominal thrusts while someone else calls for help.",
-      "Coughing is appropriate for partial obstruction; this client cannot cough or speak, so it will not clear the airway."
+      "Swelling that matches the admission note is chronic and unchanged, so it is a lower priority than a new change.",
+      "Steady weight and mild itching in chronic kidney disease are stable and long-standing, though they still need care later.",
+      "Falling urine output, rising pulse and orthostatic dizziness are new and point to volume loss or bleeding after surgery. This is the acute and potentially unstable client.",
+      "Thirst on suction is an expected consequence and vital signs are at baseline, so this client is stable and can be seen after the unstable client."
     ],
     "keyFacts": [
-      "Complete airway obstruction needs immediate action, not assessment.",
-      "Encourage coughing only if the client can still cough or speak."
+      "Acute and new findings take priority over chronic findings that are unchanged from baseline.",
+      "After surgery, falling urine output with rising pulse and dizziness can signal volume loss or bleeding and needs prompt assessment."
     ],
     "aiWritten": true,
     "nurseReviewed": false
@@ -514,27 +514,27 @@
     "area": "NP3",
     "topic": "Early signs of hypovolemic shock",
     "archetype": "stable-vs-unstable",
-    "difficulty": 4,
-    "vignette": "A 28-year-old client arrives after a motorcycle collision with a suspected abdominal bleed. The client is awake, speaks normally, and the systolic blood pressure is still in the normal range. The nurse notes a fast pulse, restlessness, and cool skin.",
-    "stem": "Which finding best indicates early compensated shock?",
+    "difficulty": 5,
+    "vignette": "A 28-year-old client arrives after a motorcycle collision with a suspected abdominal bleed. On arrival the client is awake and anxious, the systolic blood pressure is in the normal range, the pulse is 112 beats per minute and the skin is cool. Intravenous access is placed and fluids are started. The nurse reassesses thirty minutes later.",
+    "stem": "Which reassessment finding most strongly suggests the client is no longer compensating?",
     "options": [
-      "Fast pulse with restlessness and cool skin",
-      "A systolic pressure that has fallen markedly",
-      "Very little urine over the last several hours",
-      "No response to voice or to painful stimuli"
+      "Growing confusion with a blood pressure now trending downward",
+      "A heart rate that has risen slightly since the first reading",
+      "A new complaint of thirst along with a dry mouth and dry lips",
+      "Cool and pale skin that remains unchanged on the arms and legs"
     ],
     "answerIndex": 0,
-    "strategyTag": "Early recognition: trend and ABC",
-    "reasoning": "1) Notice the clue: blood pressure is still normal. 2) Shock progresses in stages; the first stage is compensated. 3) Early compensation shows up as fast pulse, anxiety or restlessness, and cool, pale skin. 4) Falling blood pressure, prolonged low urine and unresponsiveness are late signs. 5) Choose the earliest signs.",
+    "strategyTag": "Trend: compensation failing",
+    "reasoning": "1) The clue is the word no longer: the client has already shown compensation (tachycardia, cool skin) with a normal pressure. 2) The question asks what shows compensation failing, not what shows shock exists. 3) Thirst, a small rise in heart rate, and persistent cool skin are consistent with ongoing compensation and early volume loss. 4) Falling blood pressure with changing mental status means the brain and body are no longer perfused, which is decompensation and a late, dangerous sign. 5) Choose the finding that marks a change in trend.",
     "optionRationales": [
-      "The body compensates early by increasing heart rate and narrowing vessels, producing tachycardia, restlessness and cool skin while blood pressure is still maintained.",
-      "A late finding; low blood pressure appears after compensation fails.",
-      "Reduced output is concerning but typically becomes obvious later than tachycardia and restlessness.",
-      "A very late sign of severe shock and brain hypoperfusion."
+      "Falling pressure with new confusion shows compensation is failing and perfusion of the brain is dropping. This is a late, dangerous trend that needs immediate escalation.",
+      "A small rise in heart rate fits a compensating body that is still maintaining pressure, so it does not show failure on its own.",
+      "Thirst is an early sign of fluid loss and is expected while the body compensates.",
+      "Cool skin was already present and fits vasoconstriction during compensation, so an unchanged finding does not show a new decline."
     ],
     "keyFacts": [
-      "Falling blood pressure is a late sign of shock.",
-      "Tachycardia and restlessness are early signs."
+      "Falling blood pressure with changed mental status is a late sign that compensation has failed in shock.",
+      "Tachycardia, thirst, and cool skin are early signs while blood pressure is still maintained."
     ],
     "aiWritten": true,
     "nurseReviewed": false
