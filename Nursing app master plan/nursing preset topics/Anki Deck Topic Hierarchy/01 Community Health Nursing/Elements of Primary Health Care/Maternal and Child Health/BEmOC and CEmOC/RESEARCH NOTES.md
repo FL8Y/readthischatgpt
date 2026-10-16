@@ -1,148 +1,162 @@
-# Basic and Comprehensive Emergency Obstetric and Newborn Care (BEmOC/CEmOC)
+# Basic and Comprehensive Emergency Obstetric and Newborn Care (BEmONC/CEmONC)
 
 **Topic path:** `Elements of Primary Health Care/Maternal and Child Health/BEmOC and CEmOC`  
-**Status:** Substantive research draft — current Philippine facility standards and independent verification remain.  
+**Status:** Substantive research draft — current Philippine facility requirements and clinical protocols require final verification.  
 **Last researched:** 2026-10-17  
 **Mandatory standard:** Community Health Nursing `RESEARCH TOPIC GUIDE.md`.
 
-## 1. Purpose and definitions
+## 1. Purpose
 
-**Basic Emergency Obstetric and Newborn Care (BEmOC)** and **Comprehensive Emergency Obstetric and Newborn Care (CEmOC)** describe levels of capacity to manage life-threatening obstetric and newborn complications. They are not simply labels for a building or a routine maternity service. A facility must have trained staff, functioning equipment, medicines, protocols, referral/transport arrangements and demonstrated ability to provide the required emergency functions.
+Emergency obstetric and newborn care (EmONC) is a set of lifesaving services intended to manage major direct obstetric complications and urgent newborn problems. A functional referral system is essential because complications can arise rapidly during pregnancy, childbirth or the postpartum period. Community-health nurses help prevent delays by supporting birth preparedness, recognizing danger signs, arranging timely transport/referral, communicating with receiving facilities and following up after discharge.
 
-The commonly used global emergency-obstetric-care framework defines a set of **signal functions**—life-saving interventions used to assess whether a service can manage major complications. BEmOC covers basic emergency functions; CEmOC includes those functions plus surgical delivery and blood transfusion capacity. The exact facility designation, service package, staffing, licensing and reporting requirements must be checked against current Philippine DOH rules and applicable local protocol. [1][2]
+**BEmONC** means Basic Emergency Obstetric and Newborn Care; **CEmONC** means Comprehensive Emergency Obstetric and Newborn Care. These labels describe service capability, not a guarantee that a specific facility is staffed, equipped or currently authorized to perform every function at every moment. Confirm current DOH licensing/assessment rules, staffing, availability and referral arrangements for the actual facility. [1][2]
 
-Community-health nurses need to know the distinction because early recognition and timely referral can determine whether a woman or newborn reaches the right level of care before deterioration becomes irreversible.
+## 2. Signal functions commonly used in the international EmONC framework
 
-## 2. Why emergency obstetric/newborn care matters
+### Basic EmONC: seven signal functions
+The classic international monitoring framework describes BEmONC facilities by their ability to provide:
+1. **Parenteral antibiotics** for indicated maternal infection/obstetric complications.
+2. **Uterotonics** (e.g., oxytocin where indicated) for prevention/treatment of postpartum hemorrhage under protocol.
+3. **Parenteral anticonvulsants** for severe pre-eclampsia/eclampsia according to protocol.
+4. **Manual removal of placenta** when indicated and performed by an authorized trained clinician.
+5. **Removal of retained products of conception** using an authorized appropriate method.
+6. **Assisted vaginal delivery** (e.g., vacuum extraction) when indicated and within authorized capability.
+7. **Basic neonatal resuscitation** for a newborn who does not breathe adequately at birth.
 
-Complications can occur in pregnancies previously considered low risk. A referral system must therefore be prepared for hemorrhage, hypertensive emergencies, sepsis, obstructed labor, retained placenta, complications of abortion/miscarriage, fetal/newborn compromise and other urgent conditions.
+These are signal functions used to assess capability; they are not a task list for every community nurse or every birth attendant. Performance requires trained authorized personnel, equipment, protocols, documentation and appropriate referral backup. [1]
 
-Routine antenatal care, birth preparedness, skilled attendance, early warning-sign recognition, transport and communication all support emergency care. A facility's nominal designation is not enough if it lacks staff, blood, surgical capacity, medicines, electricity, transport or a functioning receiving pathway at the time of need.
+### Comprehensive EmONC: BEmONC plus two functions
+CEmONC includes the basic signal functions **plus**:
+8. **Cesarean section**.
+9. **Blood transfusion**.
 
-## 3. Commonly used signal functions
+These functions require appropriate surgical/anesthesia capability, blood-safety systems, trained teams, infrastructure and postoperative/newborn support. A facility without these functions must have a reliable referral pathway for conditions that require them.
 
-The traditional global framework commonly lists seven basic signal functions and two additional comprehensive functions. These are a conceptual framework; current Philippine facility standards may specify additional requirements, revised definitions or a different implementation tool.
+**Important caveat:** the signal-function list is an international monitoring framework. Current Philippine facility classification, licensing and actual service capability must be verified using the applicable DOH/PhilHealth rules and local referral network.
 
-### Basic emergency obstetric and newborn care: commonly listed functions
+## 3. Complications that may require urgent EmONC
 
-1. **Parenteral antibiotics** for indicated obstetric infection/sepsis management under protocol.
-2. **Parenteral uterotonics** for indicated prevention/treatment of obstetric bleeding under protocol.
-3. **Parenteral anticonvulsants** for management of pre-eclampsia/eclampsia according to the emergency protocol.
-4. **Manual removal of placenta** when clinically indicated and performed by an authorized trained provider.
-5. **Removal of retained products of conception** using an approved method by an authorized trained provider.
-6. **Assisted vaginal delivery** where indicated and within trained provider scope.
-7. **Basic neonatal resuscitation** by trained personnel with appropriate equipment.
+Potential obstetric emergencies include:
+- severe bleeding during pregnancy, childbirth or postpartum;
+- severe hypertension with danger signs, eclampsia/seizures or suspected stroke;
+- suspected sepsis or severe infection;
+- obstructed/prolonged labor or other complications requiring urgent obstetric intervention;
+- retained placenta or suspected retained products with bleeding/infection;
+- complications of miscarriage/abortion requiring emergency care;
+- uterine rupture or suspected internal bleeding;
+- severe maternal deterioration or altered consciousness.
 
-These interventions are emergency functions, not tasks that every community nurse can independently perform. Scope, training, facility capability and the current clinical protocol determine who may provide them.
+Newborn emergencies include failure to breathe adequately at birth, severe respiratory distress, hypothermia, poor feeding with danger signs, seizures, suspected severe infection or rapid deterioration. Exact danger signs and management are addressed by current maternal/newborn clinical protocols.
 
-### Comprehensive emergency obstetric care: additional functions
+**Priority rule:** stabilize and activate emergency response/referral immediately within competence and local protocol. Do not delay for routine forms, community surveys, consent paperwork that can be completed without delaying lifesaving care, or a routine referral appointment.
 
-8. **Cesarean section** and associated surgical/anesthesia capacity.
-9. **Blood transfusion** capacity for indicated emergencies.
+## 4. Community-health nurse responsibilities
 
-CEmOC generally includes the basic functions plus these additional functions. Actual designation depends on the current national framework and demonstrated facility performance, not simply the presence of an operating room or blood refrigerator.
+### Before birth
+- Encourage timely antenatal care and assessment of risk according to current guidance.
+- Help the pregnant person/family make a birth and emergency plan: intended facility, transport, funds/support, contact details and alternate arrangements.
+- Explain maternal and newborn danger signs in accessible language.
+- Confirm where emergency services are available and how referrals are activated.
+- Address barriers such as distance, disability, cost, language, family control and lack of transport without blaming the patient.
+- Respect informed choice and privacy.
 
-## 4. BEmOC vs CEmOC comparison
+### During a suspected emergency
+- Recognize danger signs and rapidly assess according to training/protocol.
+- Call for skilled emergency assistance and arrange the appropriate level of referral.
+- Provide immediate care within scope while preparing transfer.
+- Communicate the condition, timing, relevant history, observations, actions and response clearly to the receiving team.
+- Do not perform a signal function unless trained, authorized, equipped and acting under the applicable protocol.
+- Document accurately without delaying urgent intervention.
 
-| Feature | BEmOC | CEmOC |
-|---|---|---|
-| Core role | Provides basic emergency obstetric/newborn interventions and stabilizes/refers cases requiring unavailable capabilities. | Provides basic functions plus comprehensive interventions including cesarean delivery and blood transfusion. |
-| Typical capability distinction | Basic signal functions, trained staff, essential medicines/equipment and reliable referral. | Basic functions plus surgical/anesthesia and transfusion capacity, with supporting staff/equipment and emergency systems. |
-| What the label does not guarantee | Every service is not necessarily available 24/7 unless the applicable standard requires and the facility can demonstrate it. | Surgical and blood services must be functioning and appropriately staffed—not merely listed on paper. |
-| Referral relationship | Must rapidly identify when a complication exceeds local capacity and arrange safe transfer. | May receive referrals, but must also escalate when needs exceed its capacity or resources. |
-| Community nursing implication | Know the actual service package, contact route, transport and stabilization plan. | Know which receiving facility can actually provide the needed intervention and how urgent transfer is coordinated. |
+### After birth/referral
+- Support postpartum and newborn follow-up according to current guidance.
+- Reinforce return precautions and care plans.
+- Check whether the referral was completed and whether ongoing services are accessible.
+- Support respectful communication, privacy and continuity of care.
+- Participate in review of delays, near misses and adverse outcomes through the approved quality-improvement system.
 
-The terms may be implemented differently across jurisdictions and policy versions. Use current Philippine DOH facility standards when deciding whether a named facility is formally BEmOC/CEmOC-capable.
+## 5. The three delays framework
 
-## 5. Complications that may require emergency obstetric care
+A common public-health framework identifies delays contributing to maternal/newborn deaths:
+1. **Delay in deciding to seek care:** danger signs not recognized, fear, misinformation, cost or lack of decision-making power.
+2. **Delay in reaching care:** distance, transport, road/weather conditions, cost or referral coordination failure.
+3. **Delay in receiving adequate care after arrival:** inadequate staffing, supplies, triage, communication, blood/surgical capacity or timely treatment.
 
-Examples include:
-- **Hemorrhage:** heavy antepartum/postpartum bleeding, suspected retained placenta or shock.
-- **Hypertensive emergencies:** severe pre-eclampsia/eclampsia, seizures, severe headache/visual symptoms with concerning clinical findings.
-- **Sepsis/infection:** fever or suspected infection with systemic deterioration.
-- **Obstructed/prolonged labor or fetal compromise:** requires skilled assessment and timely intervention.
-- **Complications of miscarriage/abortion:** heavy bleeding, infection, severe pain or instability.
-- **Newborn compromise:** apnea/gasping, ineffective breathing, severe respiratory distress, convulsions or other danger signs requiring resuscitation/advanced care.
-- **Other acute deterioration:** collapse, altered consciousness, severe respiratory/circulatory compromise or another time-critical maternal/newborn emergency.
+Community-health nursing can help reduce the first two delays through education, birth preparedness, transport/referral planning and communication. Facility/system leadership must address the third delay through staffing, training, supplies, protocols, quality systems and referral coordination. Do not blame families for delays caused by structural barriers.
 
-This list is not exhaustive. The current clinical protocol defines assessment, treatment and referral thresholds. Do not wait for a routine appointment or complete community paperwork before arranging emergency care.
+## 6. Referral and transport safety
 
-## 6. Community-health nursing role: recognize, stabilize within scope, refer
+- Know the local receiving facilities and their current capabilities; do not assume a facility can provide CEmONC because it is labelled a hospital.
+- State urgency clearly and use the established referral/communication channel.
+- Arrange safe transport and appropriate escort/monitoring according to condition and protocol.
+- Communicate key information: gestational/postpartum timing, symptoms/onset, vital observations, relevant history, medications/allergies where known, actions and response.
+- Do not delay transfer while waiting for a complete written record if the patient is unstable; send essential information using the authorized process and complete documentation as soon as safe.
+- Confirm handover and follow-up when feasible.
+- Protect confidentiality and avoid public disclosure of the patient's condition.
 
-### Before labor/birth
-- Support birth preparedness and complication-readiness planning.
-- Help the family identify the intended birth facility, emergency contact and transport plan.
-- Verify which nearby facilities actually provide the needed level of care and their referral process.
-- Explain danger signs and when to seek urgent help using accessible language.
-- Identify barriers such as distance, cost, transport, language, disability or lack of family support.
+## 7. Medication and procedure safety
 
-### When a complication is suspected
-1. **Recognize urgency:** assess maternal/newborn condition and warning signs within competence.
-2. **Activate help:** contact the appropriate skilled team/emergency pathway.
-3. **Provide permitted immediate care:** follow protocol and scope; do not attempt procedures for which the worker is not trained/authorized.
-4. **Arrange referral/transfer:** select the receiving facility based on the needed capability, not only distance or facility name.
-5. **Communicate:** provide a concise structured handover with relevant history, findings, onset/time course, interventions, response and reason for referral.
-6. **Document:** record objective findings, advice, contacts, transfer arrangements and handover.
-7. **Follow up:** confirm referral completion when feasible and help address barriers to ongoing care.
+The signal-function list names categories of lifesaving interventions, not universal doses or instructions. For uterotonics, antibiotics, anticonvulsants, anesthesia, blood products, assisted delivery, manual procedures and neonatal resuscitation:
+- follow the current national/DOH clinical protocol and facility procedure;
+- confirm indication, patient, product, dose/route, contraindications/precautions and monitoring according to the authorized protocol;
+- use trained personnel and appropriate equipment;
+- maintain infection prevention, medication checks and accurate documentation;
+- monitor for complications and escalate deterioration;
+- do not improvise or delay referral when capability is exceeded.
 
-An unstable patient must not be sent through an ordinary referral route without appropriate emergency activation and stabilization according to protocol.
+For example, the appropriate uterotonic, anticonvulsant regimen or antibiotic depends on the clinical condition, patient factors, current guideline and available authorized service. This overview intentionally does not give doses or procedural steps.
 
-## 7. Referral quality and the “three delays” framework
+## 8. Quality and readiness assessment
 
-The “three delays” framework helps identify why emergency care may not occur in time:
-1. **Delay in deciding to seek care:** symptoms not recognized, misinformation, cost concerns, fear, stigma or decision-making constraints.
-2. **Delay in reaching care:** distance, transport, road/weather conditions, cost, communication failure or referral confusion.
-3. **Delay in receiving adequate care after arrival:** unavailable staff, medicines, blood, equipment, surgical/anesthesia capacity, triage delays or poor-quality processes.
+A facility's label is not enough to establish readiness. Assessment should check:
+- trained, authorized staff available when needed;
+- essential medicines, equipment, consumables and infection-prevention supplies;
+- reliable electricity, water, communication and transport;
+- functioning newborn resuscitation equipment and trained personnel;
+- surgical/anesthesia capability and blood transfusion systems for CEmONC;
+- triage, emergency protocols, documentation and referral communication;
+- continuous quality improvement, case review and corrective action;
+- respectful, accessible and non-discriminatory care.
 
-Community nurses can help reduce the first delay through education and respectful birth planning, the second through clear referral/transport plans, and the third by communicating with the receiving facility and reporting system gaps. These are system issues; do not blame the patient/family for delays caused by absent resources or inaccessible services.
+A signal function is typically assessed through evidence that the service is actually provided, according to the applicable monitoring framework, rather than equipment being present alone. Follow the exact current assessment criteria.
 
-## 8. Readiness and quality indicators
+## 9. Evaluation indicators
 
-A practical service-readiness review should assess:
-- staff competency and availability;
-- functioning emergency equipment and newborn-resuscitation supplies;
-- availability/quality/storage of required medicines;
-- access to laboratory, blood and surgical/anesthesia services when the designation requires them;
-- referral/transport and communication arrangements;
-- documented protocols, drills and escalation roles;
-- timely triage and emergency response;
-- case records and outcome review; and
-- community awareness of danger signs and referral routes.
+Potential indicators include:
+- availability of each required signal function and trained staff;
+- proportion of obstetric/newborn emergencies receiving timely assessment;
+- referral decision-to-departure and arrival-to-assessment intervals where defined by local protocol;
+- proportion of referrals completed and documented;
+- availability/stock-out patterns for critical supplies;
+- maternal/newborn complications and outcomes using official definitions;
+- case reviews, near-miss reviews and corrective-action completion;
+- equity of access by geography and population group.
 
-Signal-function monitoring often distinguishes a facility that is nominally designated from one that actually performed the required functions during a defined reference period. For any indicator, state the function, numerator, denominator, time period, source and whether performance was observed, documented or merely reported.
-
-## 9. Safety, scope and ethics
-
-- Do not attempt manual placental removal, removal of retained products, assisted delivery, surgery, transfusion or drug administration outside training, authorization and protocol.
-- Do not delay emergency transfer while seeking a perfect diagnosis.
-- Do not assume all rural/community facilities are BEmOC-capable or that every hospital is CEmOC-capable.
-- Verify that the receiving facility is operationally able to provide the required intervention.
-- Use respectful maternity care, informed consent and privacy while acting promptly in emergencies.
-- Document clinical facts objectively and avoid blaming language.
-- If the planned receiving service is unavailable, escalate to the next appropriate emergency pathway rather than treating the referral as complete.
-- Follow current protocols for stabilization, medications, resuscitation and transfer; this note is not a complete treatment algorithm.
+Use current official indicator definitions and denominators. Do not infer that a low number of reported complications proves good care; it may reflect under-detection or incomplete reporting.
 
 ## 10. Philippine context
 
-The global signal-function framework is used for public-health planning, but Philippine facility licensing, service-level designation, staffing, referral standards and emergency-care requirements depend on current DOH issuances and local implementation. Do not claim that a specific facility currently meets BEmOC/CEmOC standards without checking the current official register/designation and its actual available services.
+BEmONC/CEmONC service design and facility designation must follow the current DOH licensing/assessment standards, applicable PhilHealth rules and local referral network. International signal-function frameworks help describe capability but do not replace current Philippine requirements. Check the official current issuance for facility requirements, service packages, staffing and documentation. [2]
 
-For program planning, community teams should maintain a verified referral directory that identifies the facility, actual emergency capabilities, contact/acceptance process, transport plan and escalation alternative. Recheck it periodically because staffing, blood availability, equipment and operating hours can change.
+RA 11223 (Universal Health Care Act) provides broader system context for integrated care and referral/navigation, but it does not by itself specify every facility's current EmONC capability. Exact requirements, entitlements and referral obligations should be verified from current official sources.
 
 ## 11. PNLE high-yield distinctions
 
-- BEmOC provides the commonly defined basic emergency obstetric/newborn signal functions.
-- CEmOC adds cesarean section and blood transfusion to the basic functions.
-- A label or building does not prove current functional readiness.
-- Basic signal functions commonly include parenteral antibiotics, uterotonics, anticonvulsants, manual removal of placenta, removal of retained products, assisted vaginal delivery and basic neonatal resuscitation.
-- Community nursing focuses on danger-sign recognition, birth preparedness, early activation, safe referral, handover and follow-up—not performing procedures outside scope.
-- The three delays are: deciding to seek care, reaching care, and receiving adequate care after arrival.
-- Severe bleeding, seizures, shock, respiratory distress, altered consciousness or newborn compromise require urgent response.
-- Current Philippine DOH standards and facility capability determine actual designation; international definitions are not a substitute for current licensing rules.
+- **BEmONC:** seven basic signal functions in the classic framework.
+- **CEmONC:** basic functions plus cesarean section and blood transfusion.
+- Facility capability requires trained staff, functioning supplies/equipment, protocols and actual service availability—not just a building or label.
+- Community-health nurses help prevent delays through danger-sign education, birth preparedness, early recognition, safe referral and follow-up.
+- Obstetric/newborn emergencies require prompt assessment and escalation; routine documentation must not delay lifesaving care.
+- Exact medications, contraindications and procedures must follow current protocols and authorized scope.
+- The three delays are seeking care, reaching care and receiving adequate care.
+- Use current Philippine DOH/PhilHealth facility requirements rather than assuming an older international classification defines current licensing.
 
-## 12. Source register and limitations
+## 12. Sources and limitations
 
-1. **World Health Organization.** *Monitoring emergency obstetric care: a handbook* (2009). Global reference for emergency obstetric-care signal functions and service monitoring. https://www.who.int/publications/i/item/9789241547734
-2. **World Health Organization.** *WHO recommendations on maternal and newborn care for a positive postnatal experience* (30 March 2022). Context for postnatal care and newborn support. https://www.who.int/publications/i/item/9789240045989
-3. **Republic of the Philippines.** *Republic Act No. 11148 — Kalusugan at Nutrisyon ng Mag-Nanay Act* (2018), Lawphil. Broader Philippine maternal/neonatal/child-health framework. https://lawphil.net/statutes/repacts/ra2018/ra_11148_2018.html
+1. **WHO, UNFPA, UNICEF and Averting Maternal Death and Disability (AMDD).** *Monitoring Emergency Obstetric Care: A Handbook* (2009). Classic signal-function framework for basic/comprehensive EmONC. https://www.who.int/publications/i/item/9789241547734
+2. **Department of Health, Philippines.** Current licensing/assessment standards for birthing homes, primary-care facilities and hospitals; verify the applicable current DOH issuance and amendments before asserting facility requirements. https://hfsrb.doh.gov.ph/
+3. **World Health Organization.** *Managing complications in pregnancy and childbirth: a guide for midwives and doctors* (2nd ed., 2017). Clinical reference; use current national protocols and authorized clinical scope. https://www.who.int/publications/i/item/9789241565493
+4. **World Health Organization.** *WHO recommendations: intrapartum care for a positive childbirth experience* (2018). Evidence-based intrapartum care recommendations. https://www.who.int/publications/i/item/9789241550215
+5. **Republic of the Philippines.** Republic Act No. 11223, *Universal Health Care Act* (2019), Supreme Court E-Library. https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/86448
 
-**Evidence limitations:** WHO emergency-obstetric-care handbook and the exact current Philippine DOH facility-designation requirements were not reviewed page by page in this cycle. The signal-function list is the traditional global framework and must be checked against the current applicable Philippine issuance before licensing, service designation or clinical decisions. This is a substantive draft, **not Verified Complete**.
+**Evidence limitations:** the international signal-function framework and WHO clinical references were identified; full text and current Philippine DOH/PhilHealth facility issuances require final direct review. Exact facility designation, medication doses, procedural steps and reporting criteria must be verified against current authorized protocols. This is a substantive draft, **not Verified Complete**.
