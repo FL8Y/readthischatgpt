@@ -1,117 +1,24 @@
 # 1:1 Archive Replacement Log
 
-Destination: `Nursing app master plan/App 1 inspired research/`
-Source archive: `base.zip`
-Archive integrity: PASS (ZIP CRC check completed)
-Archive entries: 1,790 ZIP entries (including any directory entries)
-Total uncompressed size: 192,555,632 bytes
-Started: 2026-10-16 05:01 Asia/Manila
+- Started: 2026-10-16 12:27 Asia/Manila (UTC+08:00)
+- Source archive: `base.zip`
+- Archive integrity: verified with `unzip -t` (no errors)
+- Archive entries: 1,790
+- Planned destination: this folder, with archive contents extracted directly here (not the ZIP file)
+- Replacement policy: preserve archive paths and file bytes; do not change anything outside this folder.
+
+## Progress
+
+- [x] Inspect archive integrity and entry count.
+- [x] Inspect destination folder; it initially contained only `README.md`.
+- [ ] Upload extracted files in manageable batches, preserving paths and binary contents.
+- [ ] Compare uploaded paths and sizes against the archive manifest.
+- [ ] Finalize replacement and verify the resulting Git tree.
 
 ## Current status
-- Archive file entries committed from source: 252
-- Source files represented at destination: 252 / 1,790 entries (directory entries may be included in archive count)
-- Source files compared byte-for-byte against committed Git blobs: 0 (not yet independently re-read from GitHub)
-- ZIP archive itself: NOT uploaded
-- Existing README.md is still present pending final reconciliation.
-- The remaining archive contents have NOT yet been uploaded.
 
-## Batch log
-### Batch 1 — 2026-10-16 05:00 Asia/Manila
-Committed these 8 small dependency version files from the ZIP under the destination folder:
-- META-INF/androidx.activity_activity-compose.version
-- META-INF/androidx.activity_activity-ktx.version
-- META-INF/androidx.activity_activity.version
-- META-INF/androidx.annotation_annotation-experimental.version
-- META-INF/androidx.appcompat_appcompat-resources.version
-- META-INF/androidx.appcompat_appcompat.version
-- META-INF/androidx.arch.core_core-runtime.version
-- META-INF/androidx.autofill_autofill.version
+No archive payload files have been uploaded yet. This log records the work accurately; it does not claim the transfer is complete.
 
-Commit: `50cd385a94cbe9175bc3faf19a17618aaa0a357a`
+## Next
 
-### Batch 2 — 2026-10-16 05:03 Asia/Manila
-Committed 20 more dependency version marker files (camera, biometric, browser, cardview, and Compose), bringing the total to 28 source files committed.
-
-Commit: `5ab113e94b5e92b1342b201b9ce91e4b4ab3329f`
-
-### Batch 3 — 2026-10-16 05:04 Asia/Manila
-Committed 20 additional Android Compose, ConstraintLayout, CoordinatorLayout, and Core dependency version marker files.
-
-Commit: `0f3419bf27f85425a25267f4aad0a0ec0fddd8df`
-
-### Batch 4 — 2026-10-16 05:05 Asia/Manila
-Committed 20 dependency version markers for Credentials, CursorAdapter, CustomView, DataStore, DocumentFile, DrawerLayout, DynamicAnimation, Emoji, ExifInterface, Fragment, and Graphics.
-
-Commit: `2717e131f98177dfda23004a59e952af3d770513`
-
-### Batch 5a — 2026-10-16 05:06 Asia/Manila
-Committed 20 additional marker files covering graphics, interpolator, legacy support, lifecycle, loader, media, print, and profile installer.
-
-Commit: `fe8b25edf22aadb4e090c01a658886092aa0aa0a`
-
-### Batch 5b — 2026-10-16 05:07 Asia/Manila
-Committed the final 29 dependency version markers in the ZIP, covering RecyclerView, Room, SavedState, SQLite, Startup, Tracing, Transition, VectorDrawable, ViewPager, WebKit, Window, Work, Material, Dagger, and Kotlin coroutines.
-
-Commit: `9172efe0211ac22be80ef0908634be1a91de7b11`
-
-### Batch 6 — 2026-10-16 05:19 Asia/Manila
-Committed `META-INF/NOTICE.md` from the source archive.
-
-Commit: `21351e72f5bd91467b62b9e7c336418472ce9c47`
-
-A candidate binary blob for `DebugProbesKt.bin` did not match the source archive's exact Git blob hash during validation, so it was deliberately excluded from the tree. It remains pending; no corrupted copy was committed.
-
-### Batch 7a — 2026-10-16 05:25 Asia/Manila
-Committed 10 small metadata and service-provider files. Commit: `3ddc888075c2f32cffd589e7b58b872bc89e8c2b`.
-
-### Batch 7b — 2026-10-16 05:27 Asia/Manila
-Committed 10 additional metadata/property files, including barcode scanning and related service entries. Commit: `217cb6fefb113cb13eda418ebb9f279e784ef3f7`.
-
-### Batch 7c — 2026-10-16 05:29 Asia/Manila
-Committed 10 Firebase and related client metadata property files. Commit: `84cd519c188b01aa06df7dbcdcd20a60e664c51d`.
-
-### Batch 7d — 2026-10-16 05:31 Asia/Manila
-Committed 15 OpenTelemetry version-property files, including 13 paths sharing the identical source payload. Duplicate contents reuse the same Git blob while preserving every path. Commit: `8c097e856bf3e605c9e48303bd044eb3efc1c6c8`.
-
-### Batch 7e — 2026-10-16 05:32 Asia/Manila
-Committed 10 Play Services property files. Commit: `bc6cc95f8b8529e7d2487918ebe7d97614a42b28`.
-
-### Batch 7f — 2026-10-16 05:33 Asia/Manila
-Committed 10 more Play Services files, the Recaptcha properties, and three small binary/resource files. All three binary payloads were checked against the source Git blob hash before committing. Commit: `63afd95ad9658afe276f8884210107881ac80d1e`.
-
-### Batch 7g — 2026-10-16 05:34 Asia/Manila
-Committed the remaining 4 small properties/signature files. Commit: `cfb33fef33cbffcd856c5b25ae286df2c31eabea`.
-
-### Batch 8 — 2026-10-16 05:37 Asia/Manila
-Committed 4 verified small text files: the Sentry replay verification properties and 3 Java service-provider files. All 4 Git blob SHA-1 hashes matched the archive. Commit: `795e9416eb182021d8b67137b3f18eb909a4aad5`.
-
-### Batch 9 — 2026-10-16 05:39 Asia/Manila
-Committed 4 verified native-image JSON configuration files. All 4 Git blob hashes matched the archive. Commit: `44cc830fe4cd1b8c5b80a78e76d309394ea99179`.
-
-### Batch 10 — 2026-10-16 05:42 Asia/Manila
-Committed 6 verified Android XML/raw resource files, including the Firebase keep-resource file, clipboard/file-provider path resources, image-share paths, secure-store backup rules, and social-sharing paths. All 6 hashes matched the archive. Commit: `df85d78fdddda75f2845efb83c479385d2b675c2`.
-
-### Batch 11 — 2026-10-16 05:44 Asia/Manila
-Committed 10 drawable XML resources; each Git blob SHA matched the archive. Commit: `6afb8ff0b6d4c9ec113a69b6b5977396de30b346`.
-
-### Batch 12a — 2026-10-16 05:45 Asia/Manila
-Committed 9 additional drawable XML resources after verifying their blob hashes. Commit: `e924cd6a162a6745b78e3cd303e54a71a5c378b0`.
-
-### Batch 12b — 2026-10-16 05:47 Asia/Manila
-Committed 5 more drawable resources after SHA verification. Commit: `1b17222bfe2447668db6a10db15b5d1d0725c6e3`.
-
-### Batch 13 — 2026-10-16 05:50 Asia/Manila
-Committed 10 verified drawable-v21/v23, watch-v20, and font XML resources. Commit: `ffcff21578fd4725870d21b71d9dd5591b896b08`.
-
-### Batch 14 — 2026-10-16 05:52 Asia/Manila
-Committed 10 verified font and interpolator XML resources. Commit: `7f6988a9f4ffe35071df1a307ed55f2ff49f5d6a`.
-
-### Batch 15 — 2026-10-16 05:54 Asia/Manila
-Committed 7 verified interpolator XML paths; the radio on/off variants have identical source content and share the same Git blob. Commit: `c65db9077395f4b6be555cc6c6071ebe09ac7a16`.
-
-### Pending / next
-- Source files still to transfer: 1,538 of 1,790.
-- `DebugProbesKt.bin` and other large/binary assets are not yet committed; attempts with mismatched candidate payloads were rejected before tree commit.
-- The 7 repeated AndroidX LICENSE.txt files are pending; do not count their unverified content.
-- Existing README remains until source/destination tree reconciliation.
-- Exact 1:1 replacement remains incomplete. with source-hash validation for binary files. in small batches, updating this log after each committed batch. The exact 1:1 replacement is incomplete until all source files are committed and destination-only entries are reconciled.
+Transfer the extracted archive entries in manageable batches, then verify the final Git tree against the archive manifest before declaring completion.
