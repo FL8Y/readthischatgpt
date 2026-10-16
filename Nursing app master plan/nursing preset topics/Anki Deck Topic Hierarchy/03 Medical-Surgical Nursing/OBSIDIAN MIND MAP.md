@@ -429,3 +429,14 @@
 - [[Dumping Syndrome]] — [Dumping Syndrome — PNLE Research.md](./GI%20and%20Hepatobiliary/PUD/Dumping%20Syndrome/Dumping%20Syndrome%20%E2%80%94%20PNLE%20Research.md)
 - [[Gastric vs Duodenal]] — [Gastric vs Duodenal Peptic Ulcer Disease — PNLE Research.md](./GI%20and%20Hepatobiliary/PUD/Gastric%20vs%20Duodenal/Gastric%20vs%20Duodenal%20Peptic%20Ulcer%20Disease%20%E2%80%94%20PNLE%20Research.md)
 - [[Acute Pancreatitis]] — [Acute Pancreatitis — PNLE Research.md](./GI%20and%20Hepatobiliary/Pancreatitis/Acute%20Pancreatitis/Acute%20Pancreatitis%20%E2%80%94%20PNLE%20Research.md)
+
+
+## Renal and urinary research drafts (verification pending)
+- [[AKI]] — [Acute Kidney Injury (AKI) — PNLE Research.md](./Renal%20and%20Urinary/AKI/Acute%20Kidney%20Injury%20(AKI)%20%E2%80%94%20PNLE%20Research.md)
+- [[CKD]] — [Chronic Kidney Disease (CKD) — PNLE Research.md](./Renal%20and%20Urinary/CKD/Chronic%20Kidney%20Disease%20(CKD)%20%E2%80%94%20PNLE%20Research.md)
+- [[Access for Hemodialysis]] — [Hemodialysis Access: AV Fistula and Graft Care — PNLE Research.md](./Renal%20and%20Urinary/Access%20for%20Hemodialysis/Hemodialysis%20Access:%20AV%20Fistula%20and%20Graft%20Care%20%E2%80%94%20PNLE%20Research.md)
+- [[BPH]] — [Benign Prostatic Hyperplasia (BPH) — PNLE Research.md](./Renal%20and%20Urinary/BPH/BPH/Benign%20Prostatic%20Hyperplasia%20(BPH)%20%E2%80%94%20PNLE%20Research.md)
+- [[Management of BPH]] — [BPH Management and Medication Safety — PNLE Research.md](./Renal%20and%20Urinary/BPH/Management%20of%20BPH/BPH%20Management%20and%20Medication%20Safety%20%E2%80%94%20PNLE%20Research.md)
+- [[Prostatectomy]] — [Prostatectomy: Perioperative Nursing Care — PNLE Research.md](./Renal%20and%20Urinary/BPH/Prostatectomy/Prostatectomy:%20Perioperative%20Nursing%20Care%20%E2%80%94%20PNLE%20Research.md)
+- [[Hemodialysis]] — [Hemodialysis: Nursing Care and Complications — PNLE Research.md](./Renal%20and%20Urinary/Hemodialysis/Hemodialysis:%20Nursing%20Care%20and%20Complications%20%E2%80%94%20PNLE%20Research.md)
+- [[Peritoneal Dialysis]] — [Peritoneal Dialysis — PNLE Research.md](./Renal%20and%20Urinary/Peritoneal%20Dialysis/Peritoneal%20Dialysis%20%E2%80%94%20PNLE%20Research.md)
