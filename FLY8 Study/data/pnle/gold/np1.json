@@ -1,587 +1,587 @@
 [
- {
-  "id": "np1-001",
-  "area": "NP1",
-  "topic": "Levels of prevention",
-  "archetype": "health-promotion-prevention-levels",
-  "difficulty": 3,
-  "vignette": "A municipal health nurse is organizing a community health day at the barangay plaza. Planned activities include newborn vaccination, handwashing demonstrations, a booth for adult blood pressure checks, and a home-exercise class for residents who had a stroke last year.",
-  "stem": "Which planned activity is an example of secondary prevention?",
-  "options": [
-   "Vaccinating newborns against hepatitis B",
-   "Checking adult blood pressure to find raised readings early",
-   "Demonstrating handwashing to mothers",
-   "Teaching stroke survivors home exercises"
-  ],
-  "answerIndex": 1,
-  "strategyTag": "Prevention level: screening = secondary",
-  "reasoning": "1. The stem asks for a specific level, so classify each activity rather than judging which is most useful.\n2. Primary prevention acts before disease exists (vaccines, hygiene teaching).\n3. Secondary prevention detects disease early so treatment can start (screening).\n4. Tertiary prevention limits disability and aids rehabilitation after disease.\n5. Vaccination and handwashing are both primary; stroke exercise is tertiary.\n6. Only the blood pressure screening finds a problem early, so it is secondary.",
-  "optionRationales": [
-   "This stops disease from occurring at all, so it is primary prevention. Tempting because vaccination is the classic prevention example.",
-   "Secondary prevention is early detection, so a screening booth that finds raised pressure before symptoms or complications fits this level.",
-   "Handwashing education promotes health and prevents infection before it starts, which is primary prevention.",
-   "Rehabilitation limits disability after disease has already occurred, which is tertiary prevention."
-  ],
-  "keyFacts": [
-   "Primary = prevent disease; secondary = early detection/screening; tertiary = limit disability and rehabilitate."
-  ],
-  "aiWritten": true,
-  "nurseReviewed": false
- },
- {
-  "id": "np1-002",
-  "area": "NP1",
-  "topic": "Community problem prioritization",
-  "archetype": "community-health-prioritization",
-  "difficulty": 4,
-  "vignette": "During a community assembly, a public health nurse lists problems found in the barangay assessment: no playground for children, some households without a toilet, a high rate of dental caries among school children, and a cluster of children with acute watery diarrhea in one sitio, all of whom use the same open well.",
-  "stem": "Which problem should the nurse give the highest priority?",
-  "options": [
-   "The lack of a playground for children",
-   "Households that do not have a toilet",
-   "The high rate of dental caries in schoolchildren",
-   "The cluster of children with acute watery diarrhea"
-  ],
-  "answerIndex": 3,
-  "strategyTag": "Acute, communicable, life-threatening first",
-  "reasoning": "1. 'Highest priority' means rank by urgency and threat, not by how many people mention a problem.\n2. Community prioritization weighs severity, spread, and how easily the problem can be controlled.\n3. Acute and communicable problems that are spreading outrank chronic ones.\n4. A shared water source suggests an ongoing common-source threat to more children.\n5. Toilets and dental caries are important but can be scheduled after the outbreak is controlled.\n6. Choose the diarrhea cluster.",
-  "optionRationales": [
-   "A playground supports well-being but is not an immediate health threat.",
-   "This is a real sanitation risk and part of the cause over time, but it is a longer-term project, so it is not the most urgent.",
-   "Common and preventable, but chronic and not an immediate threat to life.",
-   "This is an acute, communicable, potentially life-threatening condition with a likely common source and a good chance of control, so it needs urgent action."
-  ],
-  "keyFacts": [
-   "Rank community problems by threat to life, spread, and preventive potential; outbreaks come first.",
-   "Acute watery diarrhea in children risks dehydration."
-  ],
-  "aiWritten": true,
-  "nurseReviewed": false
- },
- {
-  "id": "np1-003",
-  "area": "NP1",
-  "topic": "Isolation of suspected measles",
-  "archetype": "infection-control-isolation",
-  "difficulty": 3,
-  "vignette": "A mother brings her 3-year-old child to a rural health unit. The child has had fever for three days, with cough, a runny nose, red watery eyes, and a red rash that began on the face. Several other mothers and infants are in the waiting area.",
-  "stem": "What should the nurse do first?",
-  "options": [
-   "Move the child and mother to a separate, well-ventilated room",
-   "Finish registering the child before anything else",
-   "Ask waiting mothers to show their children's vaccine cards",
-   "Give the mother a handout on rest and fluids"
-  ],
-  "answerIndex": 0,
-  "strategyTag": "Safety/infection control: contain the source first",
-  "reasoning": "1. 'First' with a suspected communicable disease points to protecting others.\n2. The findings (fever, cough, runny nose, red eyes, rash starting on the face) suggest measles, which is airborne.\n3. Waiting infants and unvaccinated children are susceptible.\n4. Safety and infection control come before paperwork, teaching or record review.\n5. Separate the client now, then report, assess, and teach.\n6. Choose the separate ventilated room.",
-  "optionRationales": [
-   "Measles spreads through the air, so removing the suspected case from other clients immediately limits exposure before anything else is done.",
-   "Paperwork matters, but any delay keeps the child among susceptible infants.",
-   "Checking vaccine status is useful later, but it does not stop current exposure.",
-   "Education is appropriate later, but containing a possible airborne infection comes first."
-  ],
-  "keyFacts": [
-   "Measles is airborne and highly contagious; isolate suspected cases promptly."
-  ],
-  "aiWritten": true,
-  "nurseReviewed": false
- },
- {
-  "id": "np1-004",
-  "area": "NP1",
-  "topic": "Oral rehydration teaching",
-  "archetype": "teaching-evaluation-understanding",
-  "difficulty": 3,
-  "vignette": "A nurse teaches mothers at a health center how to care for a child with diarrhea who is still alert and drinking. She demonstrates how to prepare oral rehydration solution from a packet and asks each mother to explain the plan back to her.",
-  "stem": "Which statement by a mother shows that teaching was effective?",
-  "options": [
-   "I will stop breastfeeding until the diarrhea has ended",
-   "I will mix the solution with fruit juice for better taste",
-   "I will give small sips often and offer more after each loose stool",
-   "I will withhold food and fluids for several hours first"
-  ],
-  "answerIndex": 2,
-  "strategyTag": "Teaching evaluation: client restates the correct plan",
-  "reasoning": "1. The stem asks which statement shows understanding, so look for the one that is correct.\n2. Three statements contain unsafe or incorrect actions.\n3. Withholding fluids or stopping breastfeeding risks worsening dehydration.\n4. Altering the preparation can change how well the solution works.\n5. Small frequent sips with extra after each stool replaces losses safely.\n6. Choose that statement.",
-  "optionRationales": [
-   "Breastfeeding should continue during diarrhea, so this statement shows a need for reteaching.",
-   "The solution should be prepared as directed with the right amount of safe water; adding juice changes the balance.",
-   "Small frequent sips replace the fluid lost in stools and are tolerated better than large amounts, so this shows correct understanding.",
-   "Withholding fluids increases the risk of dehydration."
-  ],
-  "keyFacts": [
-   "Continue breastfeeding and give fluids frequently in small amounts during diarrhea.",
-   "Prepare rehydration solution exactly as directed."
-  ],
-  "aiWritten": true,
-  "nurseReviewed": false
- },
- {
-  "id": "np1-005",
-  "area": "NP1",
-  "topic": "Delegation to community volunteers",
-  "archetype": "delegation-assignment",
-  "difficulty": 4,
-  "vignette": "A public health nurse supervises a trained barangay health worker during a monthly community visit. Tasks needing attention include weighing preschool children for the growth chart, assessing a postpartum woman who reports a severe headache and blurred vision, teaching a newly diagnosed client how to use insulin, and interpreting a client's sputum result.",
-  "stem": "Which task is most appropriate to assign to the barangay health worker?",
-  "options": [
-   "Weighing preschool children and recording weights on the growth chart",
-   "Assessing the postpartum woman with a severe headache and blurred vision",
-   "Teaching a newly diagnosed client to inject insulin",
-   "Interpreting a client's sputum result for treatment"
-  ],
-  "answerIndex": 0,
-  "strategyTag": "Delegation: stable, routine, no judgment",
-  "reasoning": "1. Delegation asks who can safely do the task, not who is free.\n2. Assessment, teaching, and evaluation stay with the nurse.\n3. Tasks with unpredictable outcomes or needing interpretation are not delegated.\n4. The postpartum client has warning signs and needs a nurse.\n5. Insulin teaching and result interpretation need professional judgment.\n6. Weighing and recording is standardized and low-risk; the nurse then reviews the results.",
-  "optionRationales": [
-   "Routine, standardized measurement with recording needs no clinical judgment, so it suits a trained health worker with nurse supervision.",
-   "These findings may signal a serious complication and need a nurse's assessment and judgment.",
-   "Initial teaching of a high-risk skill requires nursing assessment and evaluation of understanding.",
-   "Interpretation of results needs professional judgment; a worker may help with logistics but not interpret."
-  ],
-  "keyFacts": [
-   "Delegate routine, predictable tasks; never delegate assessment, teaching, or interpretation."
-  ],
-  "aiWritten": true,
-  "nurseReviewed": false
- },
- {
-  "id": "np1-006",
-  "area": "NP1",
-  "topic": "Addressing vaccine hesitancy",
-  "archetype": "therapeutic-communication-best-response",
-  "difficulty": 3,
-  "vignette": "During a house visit, a father tells the nurse that he does not want his 6-month-old infant to receive the next scheduled vaccine because 'a neighbor told me it can make babies sick.' He appears worried and a little defensive.",
-  "stem": "Which response by the nurse is best?",
-  "options": [
-   "The law requires it, so you have no choice here.",
-   "Other parents do this all the time without a problem.",
-   "Tell me more about what you heard and what worries you most.",
-   "Do not worry, there is nothing to be concerned about."
-  ],
-  "answerIndex": 2,
-  "strategyTag": "Therapeutic communication: explore before educate",
-  "reasoning": "1. The stem asks for the best communication response, so look for the one that keeps the client talking.\n2. Eliminate responses that threaten, compare, or dismiss.\n3. Reassurance without understanding the fear is a blocking response.\n4. Open-ended exploration reveals the exact worry.\n5. Information is then tailored to that concern.\n6. Choose the open question.",
-  "optionRationales": [
-   "Coercion closes communication and can damage trust.",
-   "This dismisses his concern and uses social pressure instead of listening.",
-   "An open-ended, nonjudgmental response explores the real concern, builds trust, and allows accurate information to be given afterwards.",
-   "False reassurance ignores his feeling and does not address the specific fear."
-  ],
-  "keyFacts": [
-   "Explore the client's concern with an open-ended question before giving information."
-  ],
-  "aiWritten": true,
-  "nurseReviewed": false
- },
- {
-  "id": "np1-007",
-  "area": "NP1",
-  "topic": "Prevalence vs incidence",
-  "archetype": "acute-vs-chronic",
-  "difficulty": 4,
-  "vignette": "A municipal nurse reviews health data for a long-term illness in the community. Over the past year, few new cases were found, yet a large share of the population is currently living with the condition.",
-  "stem": "Which interpretation of these data is most accurate?",
-  "options": [
-   "The illness is of short duration and quickly fatal",
-   "Few new cases but many existing cases suggests the illness is long-lasting",
-   "A new outbreak is currently spreading in the community",
-   "The illness is being rapidly eliminated from the population"
-  ],
-  "answerIndex": 1,
-  "strategyTag": "Incidence = new cases; prevalence = all existing cases",
-  "reasoning": "1. Define the terms: incidence is new cases over a period; prevalence is all existing cases.\n2. Low incidence with high prevalence means cases accumulate.\n3. Cases accumulate when people live with the disease for a long time.\n4. A short or fast-fatal illness would not accumulate.\n5. An outbreak would raise incidence.\n6. Choose the long-duration interpretation.",
-  "optionRationales": [
-   "A short, quickly fatal illness would keep prevalence low because cases do not accumulate.",
-   "Prevalence counts all existing cases and builds up when people live with a condition for a long time, while incidence counts only new cases.",
-   "An outbreak would produce a rise in new cases, which means high incidence.",
-   "Elimination would show falling prevalence and incidence."
-  ],
-  "keyFacts": [
-   "Incidence counts new cases; prevalence counts all existing cases at a time or period."
-  ],
-  "aiWritten": true,
-  "nurseReviewed": false
- },
- {
-  "id": "np1-008",
-  "area": "NP1",
-  "topic": "Research participation rights",
-  "archetype": "ethics-rights-informed-consent",
-  "difficulty": 4,
-  "vignette": "A nurse collects survey answers in households for a community health study. Halfway through an interview, a participant says she is uncomfortable and wants to stop and withdraw from the study altogether.",
-  "stem": "What is the nurse's most appropriate action?",
-  "options": [
-   "Explain that answers already given must stay in the study",
-   "Encourage her to finish so the sample is complete",
-   "Continue but promise that her name will not be shared",
-   "Stop the interview, assure her care is unaffected, and inform the research lead"
-  ],
-  "answerIndex": 3,
-  "strategyTag": "Ethics: autonomy; voluntary participation",
-  "reasoning": "1. The conflict is between the study's needs and the participant's autonomy.\n2. Autonomy and voluntary consent take priority over data completeness.\n3. Pressure, persuasion or bargaining are coercive.\n4. Promises about confidentiality do not answer a request to stop.\n5. The nurse stops, reassures that services will not be affected, and reports to the investigator.\n6. Choose that option.",
-  "optionRationales": [
-   "Using this as a reason to refuse is pressure; handling of data already collected should follow the approved protocol and be explained, not used to block withdrawal.",
-   "Persuading her to continue undermines voluntary participation and risks coercion.",
-   "Anonymity does not remove her right to stop; this ignores her request.",
-   "Participation is voluntary and withdrawal is a right at any time without penalty, so the nurse respects it and follows the study process."
-  ],
-  "keyFacts": [
-   "Research participants may withdraw at any time without penalty or loss of services."
-  ],
-  "aiWritten": true,
-  "nurseReviewed": false
- },
- {
-  "id": "np1-009",
-  "area": "NP1",
-  "topic": "Home visit prioritization",
-  "archetype": "which-client-first",
-  "difficulty": 5,
-  "vignette": "A community health nurse has time for one urgent home visit before noon. The family list includes: a 3-day-old breastfed newborn whose mother reports poor feeding, sleepiness, and yellow skin; a 60-year-old with stable hypertension due for a blood pressure check; a household with a child on maintenance-phase TB treatment due for follow-up; and a pregnant woman at 20 weeks for a routine prenatal visit.",
-  "stem": "Which family should the nurse visit first?",
-  "options": [
-   "The family with the 3-day-old newborn who feeds poorly and is yellow",
-   "The 60-year-old with stable hypertension",
-   "The household of the child on TB maintenance treatment",
-   "The pregnant woman at 20 weeks for a routine visit"
-  ],
-  "answerIndex": 0,
-  "strategyTag": "Unstable and acute before stable and routine",
-  "reasoning": "1. 'First' among several families calls for ranking by stability and risk.\n2. Newborns can worsen quickly from poor feeding and rising jaundice.\n3. Sleepiness plus poor feeding are warning signs, not routine concerns.\n4. The other three are stable, chronic, or routine.\n5. TB follow-up is important, but the child is already on treatment.\n6. Visit the newborn first.",
-  "optionRationales": [
-   "A sleepy, poorly feeding, jaundiced newborn may be deteriorating, which makes this the least stable client with the highest risk.",
-   "Stable and chronic; the visit can be scheduled.",
-   "Follow-up of a stable client already on treatment can follow the urgent need.",
-   "A routine visit for a client with no reported problem can wait."
-  ],
-  "keyFacts": [
-   "Acute, unstable clients come before chronic or routine ones.",
-   "Poor feeding and sleepiness with jaundice in a newborn need prompt assessment."
-  ],
-  "aiWritten": true,
-  "nurseReviewed": false
- },
- {
-  "id": "np1-010",
-  "area": "NP1",
-  "topic": "Outbreak investigation steps",
-  "archetype": "initial-action-assess-vs-intervene",
-  "difficulty": 4,
-  "vignette": "A school nurse notes that 12 students from different classes developed vomiting and watery stools within one day of eating at the school canteen. The principal asks the nurse to follow proper steps in investigating this.",
-  "stem": "Following the systematic steps of an outbreak investigation, what is done first?",
-  "options": [
-   "Close the canteen until the investigation is complete",
-   "Confirm the diagnosis and verify that cases exceed the expected number",
-   "Send parents a letter about handwashing",
-   "Collect food samples from the canteen"
-  ],
-  "answerIndex": 1,
-  "strategyTag": "Nursing process: assess/verify before intervene",
-  "reasoning": "1. The stem asks for the first step in a sequence.\n2. The investigation begins by confirming that the problem is real.\n3. Verify the diagnosis and compare cases with the usual number.\n4. Only then define cases, collect data, and look for the source.\n5. Control actions and teaching follow findings.\n6. Choose verification.",
-  "optionRationales": [
-   "Control measures may be started while investigating, but they are not the first step of the sequence; closing without confirmation could be unfounded.",
-   "The first step is to establish that an outbreak really exists by confirming the diagnosis and comparing the number of cases with the usual number.",
-   "Health education is a general control measure and comes after confirming the problem.",
-   "Sampling is part of finding the source and follows establishing that an outbreak exists and defining cases."
-  ],
-  "keyFacts": [
-   "First step in outbreak investigation: verify diagnosis and confirm an outbreak exists."
-  ],
-  "aiWritten": true,
-  "nurseReviewed": false
- },
- {
-  "id": "np1-011",
-  "area": "NP1",
-  "topic": "TB treatment adherence teaching",
-  "archetype": "except-negative-stem",
-  "difficulty": 3,
-  "vignette": "A nurse teaches a client who has started treatment for pulmonary tuberculosis through a directly observed treatment program. The client then summarizes the plan in his own words.",
-  "stem": "Which statement by the client indicates a need for further teaching?",
-  "options": [
-   "I will cover my mouth when I cough or sneeze.",
-   "I will keep my follow-up sputum examination appointments.",
-   "I can stop the observed schedule when my cough goes away.",
-   "My household members should be checked at the health center."
-  ],
-  "answerIndex": 2,
-  "strategyTag": "'Needs further teaching' = find the wrong statement",
-  "reasoning": "1. The stem asks for the statement that shows a misunderstanding.\n2. Mentally mark each statement right or wrong.\n3. Cough etiquette, follow-up exams, and contact screening are all correct.\n4. Stopping when symptoms fade is wrong because treatment must be completed.\n5. Early stopping risks relapse and resistance.\n6. Choose the incorrect statement.",
-  "optionRationales": [
-   "This is correct cough etiquette and reduces spread.",
-   "Follow-up examinations monitor response to treatment.",
-   "Stopping early lets surviving organisms multiply and can lead to relapse or drug resistance, so the full course is required even if symptoms improve.",
-   "Contacts should be screened for infection and disease."
-  ],
-  "keyFacts": [
-   "Complete the full treatment course even after symptoms improve.",
-   "Household contacts of a TB case should be screened."
-  ],
-  "aiWritten": true,
-  "nurseReviewed": false
- },
- {
-  "id": "np1-012",
-  "area": "NP1",
-  "topic": "Scope of practice: breast lump",
-  "archetype": "scope-of-practice-boundaries",
-  "difficulty": 4,
-  "vignette": "A woman attending a community clinic tells the nurse she has felt a firm lump in her breast for several weeks. She asks the nurse to tell her what it is and what treatment to take.",
-  "stem": "What is the nurse's most appropriate action?",
-  "options": [
-   "Tell her the lump is probably harmless and to watch it",
-   "Order imaging and prescribe a treatment plan",
-   "Teach self-examination and ask her to return in a month",
-   "Do a basic breast assessment, document findings, and refer her to a physician promptly"
-  ],
-  "answerIndex": 3,
-  "strategyTag": "Scope of practice: assess, teach, refer",
-  "reasoning": "1. The client asks for diagnosis and treatment, which a nurse cannot independently provide.\n2. A lump that persists for weeks requires medical evaluation.\n3. Reassurance would be guesswork.\n4. Ordering and prescribing exceed scope.\n5. Delay for observation is also unsafe.\n6. Assess, document, and refer promptly.",
-  "optionRationales": [
-   "Reassurance before a diagnosis is false and may delay care.",
-   "Diagnosing, ordering, and prescribing are outside the usual community nurse scope.",
-   "Teaching is appropriate but waiting a month delays evaluation of a persistent lump.",
-   "The nurse assesses within scope, records findings, and arranges prompt medical evaluation because diagnosis and treatment belong to the physician."
-  ],
-  "keyFacts": [
-   "Nurses assess, teach and refer; diagnosis and treatment belong to the physician."
-  ],
-  "aiWritten": true,
-  "nurseReviewed": false
- },
- {
-  "id": "np1-013",
-  "area": "NP1",
-  "topic": "Reporting suspected notifiable disease",
-  "archetype": "documentation-reporting",
-  "difficulty": 4,
-  "vignette": "A health center nurse examines a 5-year-old child who developed sudden weakness of one leg after a short fever. The leg is limp rather than stiff, and the child has not completed the vaccination schedule.",
-  "stem": "What is the nurse's priority action?",
-  "options": [
-   "Immediately report the case as suspected acute flaccid paralysis to the surveillance unit",
-   "Wait for laboratory confirmation before reporting",
-   "Note it in the chart and review the child next week",
-   "Refer the child to a hospital but not notify anyone"
-  ],
-  "answerIndex": 0,
-  "strategyTag": "Reporting: notifiable disease, report suspected cases",
-  "reasoning": "1. Sudden limp weakness in a child with incomplete vaccination is a red flag for a reportable condition.\n2. Surveillance relies on early reporting of suspected cases.\n3. Waiting for confirmation defeats its purpose.\n4. Chart notes alone do not alert public health.\n5. Referral for care is good but does not replace notifying.\n6. Report immediately.",
-  "optionRationales": [
-   "Sudden flaccid weakness in a child is a reportable condition investigated for polio, so prompt notification allows investigation and control.",
-   "Surveillance depends on reporting suspected cases without waiting for confirmation.",
-   "Delay risks further spread and late investigation.",
-   "Referral alone leaves the community unprotected and skips the surveillance duty."
-  ],
-  "keyFacts": [
-   "Suspected cases of notifiable diseases are reported without waiting for laboratory confirmation."
-  ],
-  "aiWritten": true,
-  "nurseReviewed": false
- },
- {
-  "id": "np1-014",
-  "area": "NP1",
-  "topic": "Immunization and minor illness",
-  "archetype": "pediatric-growth-safety",
-  "difficulty": 3,
-  "vignette": "A mother brings her 9-month-old to the health center for scheduled vaccination. The infant has a mild runny nose, no fever, is feeding well, is active, and has normal breathing.",
-  "stem": "What is the nurse's most appropriate action?",
-  "options": [
-   "Postpone vaccination until the runny nose is gone",
-   "Refer the infant to a physician for clearance first",
-   "Assess the infant and proceed with the scheduled vaccine",
-   "Give the vaccine only after a course of antibiotics"
-  ],
-  "answerIndex": 2,
-  "strategyTag": "Immunization: mild illness is not a contraindication",
-  "reasoning": "1. The infant is well: no fever, active, feeding, normal breathing.\n2. Assess first, then decide whether a true contraindication exists.\n3. A mild runny nose is not a contraindication.\n4. Delaying wastes the visit and prolongs vulnerability.\n5. Antibiotics are unnecessary for a mild viral cold.\n6. Vaccinate after assessment.",
-  "optionRationales": [
-   "Postponing for a mild cold is an unnecessary missed opportunity.",
-   "Routine clearance is unnecessary for a well-appearing infant with a mild cold.",
-   "A minor illness without fever or systemic signs is not a reason to delay vaccination, and missed opportunities leave the child unprotected.",
-   "A cold is usually viral and needs no antibiotic; antibiotics are not a requirement for vaccination."
-  ],
-  "keyFacts": [
-   "Minor illness without fever is usually not a reason to delay immunization."
-  ],
-  "aiWritten": true,
-  "nurseReviewed": false
- },
- {
-  "id": "np1-015",
-  "area": "NP1",
-  "topic": "Dengue warning signs",
-  "archetype": "stable-vs-unstable",
-  "difficulty": 4,
-  "vignette": "During a dengue outbreak, a nurse reviews four children at home. One has fever on day 2 with headache and body aches and is drinking well. One was febrile for four days and is now afebrile but has persistent vomiting, severe abdominal pain, and cold clammy skin. One has fever on day 3 with a positive tourniquet test but normal urine output. One has recovered and shows a rash on the arms with a good appetite.",
-  "stem": "Which child requires immediate referral to a hospital?",
-  "options": [
-   "The child with fever on day 2 who is drinking well",
-   "The child whose fever has stopped but has vomiting, belly pain, and cold clammy skin",
-   "The child with a positive tourniquet test and normal urine output",
-   "The recovered child with a rash and good appetite"
-  ],
-  "answerIndex": 1,
-  "strategyTag": "Unstable first: warning signs after fever drops",
-  "reasoning": "1. Identify who is deteriorating.\n2. Dengue can worsen when the fever falls.\n3. Persistent vomiting, severe abdominal pain, and cold clammy skin are warning signs of shock.\n4. The others are early, stable, or recovering.\n5. Unstable clients need action now.\n6. Refer the child with warning signs.",
-  "optionRationales": [
-   "An early febrile phase with good intake can be managed with monitoring.",
-   "Warning signs after the fever subsides can mean plasma leakage and shock, which is an emergency.",
-   "This supports a dengue diagnosis and needs monitoring, but normal urine output suggests stability.",
-   "Recovery signs with good appetite are reassuring."
-  ],
-  "keyFacts": [
-   "Dengue danger can appear as fever subsides; watch for persistent vomiting, severe abdominal pain, and cold clammy skin."
-  ],
-  "aiWritten": true,
-  "nurseReviewed": false
- },
- {
-  "id": "np1-016",
-  "area": "NP1",
-  "topic": "Community organizing",
-  "archetype": "nursing-process-step-identification",
-  "difficulty": 3,
-  "vignette": "A nurse newly assigned to a barangay wants to start a community-organizing effort to improve health practices. She has not yet met most residents or leaders.",
-  "stem": "Which is the most appropriate first step?",
-  "options": [
-   "Hold a mass training for health volunteers",
-   "Form a health committee and elect its officers",
-   "Launch a project for the most visible problem",
-   "Enter and integrate with the community by meeting leaders and observing daily life"
-  ],
-  "answerIndex": 3,
-  "strategyTag": "Process order: know the community first",
-  "reasoning": "1. The stem asks for a first step in a process.\n2. Organizing depends on trust and understanding.\n3. The nurse has not yet met residents or leaders.\n4. Training, committees, and projects assume a prior assessment.\n5. Entry and integration come first.\n6. Choose meeting leaders and observing daily life.",
-  "optionRationales": [
-   "Training before knowing the community may not match its needs.",
-   "A committee formed without trust or assessment may not represent the people.",
-   "Acting before assessing and involving the community risks an imposed, unsustainable project.",
-   "Community organizing starts with entry and integration to understand the people and gain trust before anything is organized."
-  ],
-  "keyFacts": [
-   "Community organizing begins with entry and integration, then assessment with the people."
-  ],
-  "aiWritten": true,
-  "nurseReviewed": false
- },
- {
-  "id": "np1-017",
-  "area": "NP1",
-  "topic": "Planning health teaching",
-  "archetype": "nursing-process-step-identification",
-  "difficulty": 4,
-  "vignette": "A nurse is preparing a handwashing teaching session for mothers in a low-income community. Many of the mothers have limited reading skills and speak a local language.",
-  "stem": "Before choosing teaching materials, which action is the priority?",
-  "options": [
-   "Prepare colorful posters with long text captions",
-   "Schedule the session at a time convenient for the nurse",
-   "Assess the group's learning needs, language, and literacy level",
-   "Write the evaluation questions for the session"
-  ],
-  "answerIndex": 2,
-  "strategyTag": "Nursing process: assess learners before planning",
-  "reasoning": "1. Teaching follows the nursing process: assess, plan, implement, evaluate.\n2. The stem asks what comes before choosing materials.\n3. The learners' literacy and language shape the materials.\n4. Evaluation questions are written after objectives are set.\n5. Convenience for the nurse is not a learner-centered factor.\n6. Assess the group first.",
-  "optionRationales": [
-   "Materials with long text do not suit mothers with limited reading skills and are chosen too early.",
-   "Scheduling should consider the learners' availability, not the nurse's.",
-   "Effective teaching starts with assessing the learners so that methods and materials match their needs.",
-   "Evaluation tools come after objectives and planning."
-  ],
-  "keyFacts": [
-   "Assess the learners' needs, literacy, and language before planning health teaching."
-  ],
-  "aiWritten": true,
-  "nurseReviewed": false
- },
- {
-  "id": "np1-018",
-  "area": "NP1",
-  "topic": "Herd immunity concept",
-  "archetype": "health-promotion-prevention-levels",
-  "difficulty": 2,
-  "vignette": "A nurse explains to a village council why the health unit works to keep immunization coverage high. A council member asks how this protects babies who are too young to receive some vaccines.",
-  "stem": "Which explanation by the nurse is most accurate?",
-  "options": [
-   "When enough people are immune, disease spreads less and unprotected people are shielded",
-   "Vaccines cure children who are already infected",
-   "Vaccinated people pass antibodies to nearby infants",
-   "Immunized people cannot be infected by any germ"
-  ],
-  "answerIndex": 0,
-  "strategyTag": "Primary prevention: herd immunity",
-  "reasoning": "1. The question asks for the mechanism of indirect protection.\n2. Vaccines prevent disease in the vaccinated person.\n3. They also reduce the number of infectious people.\n4. Fewer sources mean less exposure for those who cannot be vaccinated.\n5. Antibodies are not transferred by contact, and vaccines do not cure.\n6. Choose the limited-spread explanation.",
-  "optionRationales": [
-   "Community immunity means a high level of immunity limits transmission, indirectly protecting those who cannot be vaccinated.",
-   "Vaccines prevent disease; they are not treatments for existing infection.",
-   "Antibodies are not shared through contact; protection is indirect through reduced exposure.",
-   "Immunity is specific to certain diseases and not complete for every person."
-  ],
-  "keyFacts": [
-   "Herd immunity protects unvaccinated people by limiting spread."
-  ],
-  "aiWritten": true,
-  "nurseReviewed": false
- },
- {
-  "id": "np1-019",
-  "area": "NP1",
-  "topic": "Disaster response priorities",
-  "archetype": "priority-physiological-maslow",
-  "difficulty": 3,
-  "vignette": "One day after a typhoon, a nurse works at an evacuation center sheltering several hundred people. Families are asking for relief goods, children are anxious, and the only available drinking water is from a flooded well.",
-  "stem": "Which action should the nurse prioritize?",
-  "options": [
-   "Plan play activities for the anxious children",
-   "Make sure safe drinking water is available",
-   "Register families to list their relief goods",
-   "Teach preparedness for the next storm"
-  ],
-  "answerIndex": 1,
-  "strategyTag": "Maslow: physiological needs first",
-  "reasoning": "1. Apply Maslow: physiological needs come before safety, belonging, and teaching.\n2. Drinking water is a basic need.\n3. A flooded well is likely contaminated, creating a threat of diarrheal disease.\n4. Psychosocial support, registration, and preparedness matter, but later.\n5. Secure safe water first.",
-  "optionRationales": [
-   "Psychosocial support is important but follows basic survival needs.",
-   "Water is a basic physiological need, and unsafe water after flooding can quickly cause illness, so it comes before higher-level needs.",
-   "Registration helps distribute goods but is administrative.",
-   "Preparedness teaching is future-oriented and not urgent now."
-  ],
-  "keyFacts": [
-   "After floods, ensure safe water and sanitation first to prevent outbreaks."
-  ],
-  "aiWritten": true,
-  "nurseReviewed": false
- },
- {
-  "id": "np1-020",
-  "area": "NP1",
-  "topic": "TB case finding in a household",
-  "archetype": "abnormal-finding-identification",
-  "difficulty": 5,
-  "vignette": "During a home visit, a nurse meets a 62-year-old grandmother who has had a productive cough for more than 3 weeks, night sweats, and weight loss. A 2-year-old grandchild lives in the same small house. No one in the family has had tests.",
-  "stem": "What is the nurse's priority action?",
-  "options": [
-   "Teach cough etiquette and revisit in two weeks",
-   "Start the child on preventive medicine today",
-   "Tell the family to isolate the grandmother permanently",
-   "Arrange sputum examination for the grandmother and screen the child as a contact"
-  ],
-  "answerIndex": 3,
-  "strategyTag": "Assess/confirm before intervene; protect vulnerable contact",
-  "reasoning": "1. Identify the abnormal pattern: prolonged cough, night sweats, weight loss suggests TB.\n2. A young child in the same household is a high-risk contact.\n3. Priority is confirming the diagnosis and screening contacts.\n4. Cough etiquette is supportive but delays action.\n5. Starting treatment is outside nursing scope and premature.\n6. Permanent isolation is not warranted or the nurse's decision.\n7. Choose referral for sputum testing and contact screening.",
-  "optionRationales": [
-   "Teaching is useful but waiting two weeks delays diagnosis in a likely contagious case.",
-   "Starting medication without assessment and diagnosis is outside nursing scope and premature.",
-   "Isolation without confirmation is extreme and not a nursing decision.",
-   "A cough lasting more than 2 weeks with these symptoms suggests TB, so confirming the diagnosis and screening the young contact comes first."
-  ],
-  "keyFacts": [
-   "Cough over 2 weeks should prompt TB evaluation.",
-   "Young household contacts of a suspected case need screening."
-  ],
-  "aiWritten": true,
-  "nurseReviewed": false
- }
+  {
+    "id": "np1-001",
+    "area": "NP1",
+    "topic": "Levels of prevention",
+    "archetype": "health-promotion-prevention-levels",
+    "difficulty": 3,
+    "vignette": "A municipal health nurse is organizing a community health day at the barangay plaza. Planned activities include newborn vaccination, handwashing demonstrations, a booth for adult blood pressure checks, and a home-exercise class for residents who had a stroke last year.",
+    "stem": "Which planned activity is an example of secondary prevention?",
+    "options": [
+      "Vaccinating newborns against hepatitis B at the plaza",
+      "Checking adult blood pressure to find raised readings",
+      "Demonstrating handwashing to mothers and caregivers",
+      "Teaching stroke survivors home exercises to regain mobility"
+    ],
+    "answerIndex": 1,
+    "strategyTag": "Prevention level: screening = secondary",
+    "reasoning": "1. The stem asks for a specific level, so classify each activity rather than judging which is most useful.\n2. Primary prevention acts before disease exists (vaccines, hygiene teaching).\n3. Secondary prevention detects disease early so treatment can start (screening).\n4. Tertiary prevention limits disability and aids rehabilitation after disease.\n5. Vaccination and handwashing are both primary; stroke exercise is tertiary.\n6. Only the blood pressure screening finds a problem early, so it is secondary.",
+    "optionRationales": [
+      "This stops disease from occurring at all, so it is primary prevention. Tempting because vaccination is the classic prevention example.",
+      "Secondary prevention is early detection, so a screening booth that finds raised pressure before symptoms or complications fits this level.",
+      "Handwashing education promotes health and prevents infection before it starts, which is primary prevention.",
+      "Rehabilitation limits disability after disease has already occurred, which is tertiary prevention."
+    ],
+    "keyFacts": [
+      "Primary = prevent disease; secondary = early detection/screening; tertiary = limit disability and rehabilitate."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np1-002",
+    "area": "NP1",
+    "topic": "Community problem prioritization",
+    "archetype": "community-health-prioritization",
+    "difficulty": 4,
+    "vignette": "During a community assembly, a public health nurse lists problems found in the barangay assessment: no playground for children, some households without a toilet, a high rate of dental caries among school children, and a cluster of children with acute watery diarrhea in one sitio, all of whom use the same open well.",
+    "stem": "Which problem should the nurse give the highest priority?",
+    "options": [
+      "The lack of a playground for children",
+      "Households that do not have a toilet",
+      "The high rate of dental caries in schoolchildren",
+      "The cluster of children with acute watery diarrhea"
+    ],
+    "answerIndex": 3,
+    "strategyTag": "Acute, communicable, life-threatening first",
+    "reasoning": "1. 'Highest priority' means rank by urgency and threat, not by how many people mention a problem.\n2. Community prioritization weighs severity, spread, and how easily the problem can be controlled.\n3. Acute and communicable problems that are spreading outrank chronic ones.\n4. A shared water source suggests an ongoing common-source threat to more children.\n5. Toilets and dental caries are important but can be scheduled after the outbreak is controlled.\n6. Choose the diarrhea cluster.",
+    "optionRationales": [
+      "A playground supports well-being but is not an immediate health threat.",
+      "This is a real sanitation risk and part of the cause over time, but it is a longer-term project, so it is not the most urgent.",
+      "Common and preventable, but chronic and not an immediate threat to life.",
+      "This is an acute, communicable, potentially life-threatening condition with a likely common source and a good chance of control, so it needs urgent action."
+    ],
+    "keyFacts": [
+      "Rank community problems by threat to life, spread, and preventive potential; outbreaks come first.",
+      "Acute watery diarrhea in children risks dehydration."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np1-003",
+    "area": "NP1",
+    "topic": "Isolation of suspected measles",
+    "archetype": "infection-control-isolation",
+    "difficulty": 3,
+    "vignette": "A mother brings her 3-year-old child to a rural health unit. The child has had fever for three days, with cough, a runny nose, red watery eyes, and a red rash that began on the face. Several other mothers and infants are in the waiting area.",
+    "stem": "What should the nurse do first?",
+    "options": [
+      "Move the child and mother to a separate ventilated room",
+      "Finish registering the child before attending to anything else",
+      "Ask the waiting mothers to show their children's vaccine cards",
+      "Give the mother a handout on rest and fluids to read at home"
+    ],
+    "answerIndex": 0,
+    "strategyTag": "Safety/infection control: contain the source first",
+    "reasoning": "1. 'First' with a suspected communicable disease points to protecting others.\n2. The findings (fever, cough, runny nose, red eyes, rash starting on the face) suggest measles, which is airborne.\n3. Waiting infants and unvaccinated children are susceptible.\n4. Safety and infection control come before paperwork, teaching or record review.\n5. Separate the client now, then report, assess, and teach.\n6. Choose the separate ventilated room.",
+    "optionRationales": [
+      "Measles spreads through the air, so removing the suspected case from other clients immediately limits exposure before anything else is done.",
+      "Paperwork matters, but any delay keeps the child among susceptible infants.",
+      "Checking vaccine status is useful later, but it does not stop current exposure.",
+      "Education is appropriate later, but containing a possible airborne infection comes first."
+    ],
+    "keyFacts": [
+      "Measles is airborne and highly contagious; isolate suspected cases promptly."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np1-004",
+    "area": "NP1",
+    "topic": "Oral rehydration teaching",
+    "archetype": "teaching-evaluation-understanding",
+    "difficulty": 3,
+    "vignette": "A nurse teaches mothers at a health center how to care for a child with diarrhea who is still alert and drinking. She demonstrates how to prepare oral rehydration solution from a packet and asks each mother to explain the plan back to her.",
+    "stem": "Which statement by a mother shows that teaching was effective?",
+    "options": [
+      "I will stop breastfeeding until the diarrhea has ended",
+      "I will mix the solution with fruit juice for better taste",
+      "I will give small sips often and offer more after each loose stool",
+      "I will withhold food and fluids for several hours first"
+    ],
+    "answerIndex": 2,
+    "strategyTag": "Teaching evaluation: client restates the correct plan",
+    "reasoning": "1. The stem asks which statement shows understanding, so look for the one that is correct.\n2. Three statements contain unsafe or incorrect actions.\n3. Withholding fluids or stopping breastfeeding risks worsening dehydration.\n4. Altering the preparation can change how well the solution works.\n5. Small frequent sips with extra after each stool replaces losses safely.\n6. Choose that statement.",
+    "optionRationales": [
+      "Breastfeeding should continue during diarrhea, so this statement shows a need for reteaching.",
+      "The solution should be prepared as directed with the right amount of safe water; adding juice changes the balance.",
+      "Small frequent sips replace the fluid lost in stools and are tolerated better than large amounts, so this shows correct understanding.",
+      "Withholding fluids increases the risk of dehydration."
+    ],
+    "keyFacts": [
+      "Continue breastfeeding and give fluids frequently in small amounts during diarrhea.",
+      "Prepare rehydration solution exactly as directed."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np1-005",
+    "area": "NP1",
+    "topic": "Delegation to community volunteers",
+    "archetype": "delegation-assignment",
+    "difficulty": 4,
+    "vignette": "A public health nurse supervises a trained barangay health worker during a monthly community visit. Tasks needing attention include weighing preschool children for the growth chart, assessing a postpartum woman who reports a severe headache and blurred vision, teaching a newly diagnosed client how to use insulin, and interpreting a client's sputum result.",
+    "stem": "Which task is most appropriate to assign to the barangay health worker?",
+    "options": [
+      "Weighing preschool children and recording weights",
+      "Assessing the postpartum woman with a severe headache and blurred vision",
+      "Teaching a newly diagnosed client how to inject insulin safely",
+      "Interpreting a client's sputum result to decide on treatment"
+    ],
+    "answerIndex": 0,
+    "strategyTag": "Delegation: stable, routine, no judgment",
+    "reasoning": "1. Delegation asks who can safely do the task, not who is free.\n2. Assessment, teaching, and evaluation stay with the nurse.\n3. Tasks with unpredictable outcomes or needing interpretation are not delegated.\n4. The postpartum client has warning signs and needs a nurse.\n5. Insulin teaching and result interpretation need professional judgment.\n6. Weighing and recording is standardized and low-risk; the nurse then reviews the results.",
+    "optionRationales": [
+      "Routine, standardized measurement with recording needs no clinical judgment, so it suits a trained health worker with nurse supervision.",
+      "These findings may signal a serious complication and need a nurse's assessment and judgment.",
+      "Initial teaching of a high-risk skill requires nursing assessment and evaluation of understanding.",
+      "Interpretation of results needs professional judgment; a worker may help with logistics but not interpret."
+    ],
+    "keyFacts": [
+      "Delegate routine, predictable tasks; never delegate assessment, teaching, or interpretation."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np1-006",
+    "area": "NP1",
+    "topic": "Addressing vaccine hesitancy",
+    "archetype": "therapeutic-communication-best-response",
+    "difficulty": 3,
+    "vignette": "During a house visit, a father tells the nurse that he does not want his 6-month-old infant to receive the next scheduled vaccine because 'a neighbor told me it can make babies sick.' He appears worried and a little defensive.",
+    "stem": "Which response by the nurse is best?",
+    "options": [
+      "The law requires it, so you really have no choice in this.",
+      "Other parents do this routinely and their children are fine.",
+      "Tell me more about what you heard and what worries you.",
+      "Please do not worry, everything will turn out fine for him."
+    ],
+    "answerIndex": 2,
+    "strategyTag": "Therapeutic communication: explore before educate",
+    "reasoning": "1. The stem asks for the best communication response, so look for the one that keeps the client talking.\n2. Eliminate responses that threaten, compare, or dismiss.\n3. Reassurance without understanding the fear is a blocking response.\n4. Open-ended exploration reveals the exact worry.\n5. Information is then tailored to that concern.\n6. Choose the open question.",
+    "optionRationales": [
+      "Coercion closes communication and can damage trust.",
+      "This dismisses his concern and uses social pressure instead of listening.",
+      "An open-ended, nonjudgmental response explores the real concern, builds trust, and allows accurate information to be given afterwards.",
+      "False reassurance ignores his feeling and does not address the specific fear."
+    ],
+    "keyFacts": [
+      "Explore the client's concern with an open-ended question before giving information."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np1-007",
+    "area": "NP1",
+    "topic": "Prevalence vs incidence",
+    "archetype": "acute-vs-chronic",
+    "difficulty": 4,
+    "vignette": "A municipal nurse reviews health data for a long-term illness in the community. Over the past year, few new cases were found, yet a large share of the population is currently living with the condition.",
+    "stem": "Which interpretation of these data is most accurate?",
+    "options": [
+      "The illness is of short duration and is quickly fatal to those affected",
+      "Few new cases yet many existing cases suggest a long-lasting illness",
+      "A new outbreak is currently spreading rapidly through the community",
+      "The illness is being rapidly eliminated from the population over time"
+    ],
+    "answerIndex": 1,
+    "strategyTag": "Incidence = new cases; prevalence = all existing cases",
+    "reasoning": "1. Define the terms: incidence is new cases over a period; prevalence is all existing cases.\n2. Low incidence with high prevalence means cases accumulate.\n3. Cases accumulate when people live with the disease for a long time.\n4. A short or fast-fatal illness would not accumulate.\n5. An outbreak would raise incidence.\n6. Choose the long-duration interpretation.",
+    "optionRationales": [
+      "A short, quickly fatal illness would keep prevalence low because cases do not accumulate.",
+      "Prevalence counts all existing cases and builds up when people live with a condition for a long time, while incidence counts only new cases.",
+      "An outbreak would produce a rise in new cases, which means high incidence.",
+      "Elimination would show falling prevalence and incidence."
+    ],
+    "keyFacts": [
+      "Incidence counts new cases; prevalence counts all existing cases at a time or period."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np1-008",
+    "area": "NP1",
+    "topic": "Research participation rights",
+    "archetype": "ethics-rights-informed-consent",
+    "difficulty": 4,
+    "vignette": "A nurse collects survey answers in households for a community health study. Halfway through an interview, a participant says she is uncomfortable and wants to stop and withdraw from the study altogether.",
+    "stem": "What is the nurse's most appropriate action?",
+    "options": [
+      "Explain that the answers she already gave must stay in the study",
+      "Encourage her to finish the interview so the sample is complete",
+      "Continue the interview but promise that her name will not be shared",
+      "Stop the interview, reassure her care is unaffected, notify the lead"
+    ],
+    "answerIndex": 3,
+    "strategyTag": "Ethics: autonomy; voluntary participation",
+    "reasoning": "1. The conflict is between the study's needs and the participant's autonomy.\n2. Autonomy and voluntary consent take priority over data completeness.\n3. Pressure, persuasion or bargaining are coercive.\n4. Promises about confidentiality do not answer a request to stop.\n5. The nurse stops, reassures that services will not be affected, and reports to the investigator.\n6. Choose that option.",
+    "optionRationales": [
+      "Using this as a reason to refuse is pressure; handling of data already collected should follow the approved protocol and be explained, not used to block withdrawal.",
+      "Persuading her to continue undermines voluntary participation and risks coercion.",
+      "Anonymity does not remove her right to stop; this ignores her request.",
+      "Participation is voluntary and withdrawal is a right at any time without penalty, so the nurse respects it and follows the study process."
+    ],
+    "keyFacts": [
+      "Research participants may withdraw at any time without penalty or loss of services."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np1-009",
+    "area": "NP1",
+    "topic": "Home visit prioritization",
+    "archetype": "which-client-first",
+    "difficulty": 5,
+    "vignette": "A community health nurse has time for one urgent home visit before noon. The family list includes: a 3-day-old breastfed newborn whose mother reports poor feeding, sleepiness, and yellow skin; a 60-year-old with stable hypertension due for a blood pressure check; a household with a child on maintenance-phase TB treatment due for follow-up; and a pregnant woman at 20 weeks for a routine prenatal visit.",
+    "stem": "Which family should the nurse visit first?",
+    "options": [
+      "The family of the poorly feeding, yellow 3-day-old newborn",
+      "The family of the 60-year-old with stable, controlled hypertension",
+      "The household of the child continuing TB maintenance treatment",
+      "The pregnant woman at 20 weeks for a routine prenatal visit"
+    ],
+    "answerIndex": 0,
+    "strategyTag": "Unstable and acute before stable and routine",
+    "reasoning": "1. 'First' among several families calls for ranking by stability and risk.\n2. Newborns can worsen quickly from poor feeding and rising jaundice.\n3. Sleepiness plus poor feeding are warning signs, not routine concerns.\n4. The other three are stable, chronic, or routine.\n5. TB follow-up is important, but the child is already on treatment.\n6. Visit the newborn first.",
+    "optionRationales": [
+      "A sleepy, poorly feeding, jaundiced newborn may be deteriorating, which makes this the least stable client with the highest risk.",
+      "Stable and chronic; the visit can be scheduled.",
+      "Follow-up of a stable client already on treatment can follow the urgent need.",
+      "A routine visit for a client with no reported problem can wait."
+    ],
+    "keyFacts": [
+      "Acute, unstable clients come before chronic or routine ones.",
+      "Poor feeding and sleepiness with jaundice in a newborn need prompt assessment."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np1-010",
+    "area": "NP1",
+    "topic": "Outbreak investigation steps",
+    "archetype": "initial-action-assess-vs-intervene",
+    "difficulty": 4,
+    "vignette": "A school nurse notes that 12 students from different classes developed vomiting and watery stools within one day of eating at the school canteen. The principal asks the nurse to follow proper steps in investigating this.",
+    "stem": "Following the systematic steps of an outbreak investigation, what is done first?",
+    "options": [
+      "Close the school canteen until the investigation has been completed",
+      "Confirm the diagnosis and that cases exceed the expected number",
+      "Send parents a letter about handwashing and safe food handling",
+      "Collect food samples from the canteen for laboratory testing"
+    ],
+    "answerIndex": 1,
+    "strategyTag": "Nursing process: assess/verify before intervene",
+    "reasoning": "1. The stem asks for the first step in a sequence.\n2. The investigation begins by confirming that the problem is real.\n3. Verify the diagnosis and compare cases with the usual number.\n4. Only then define cases, collect data, and look for the source.\n5. Control actions and teaching follow findings.\n6. Choose verification.",
+    "optionRationales": [
+      "Control measures may be started while investigating, but they are not the first step of the sequence; closing without confirmation could be unfounded.",
+      "The first step is to establish that an outbreak really exists by confirming the diagnosis and comparing the number of cases with the usual number.",
+      "Health education is a general control measure and comes after confirming the problem.",
+      "Sampling is part of finding the source and follows establishing that an outbreak exists and defining cases."
+    ],
+    "keyFacts": [
+      "First step in outbreak investigation: verify diagnosis and confirm an outbreak exists."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np1-011",
+    "area": "NP1",
+    "topic": "TB treatment adherence teaching",
+    "archetype": "except-negative-stem",
+    "difficulty": 3,
+    "vignette": "A nurse teaches a client who has started treatment for pulmonary tuberculosis through a directly observed treatment program. The client then summarizes the plan in his own words.",
+    "stem": "Which statement by the client indicates a need for further teaching?",
+    "options": [
+      "I will cover my mouth when I cough or sneeze.",
+      "I will keep my follow-up sputum examination appointments.",
+      "I can stop the observed schedule when my cough goes away.",
+      "My household members should be checked at the health center."
+    ],
+    "answerIndex": 2,
+    "strategyTag": "'Needs further teaching' = find the wrong statement",
+    "reasoning": "1. The stem asks for the statement that shows a misunderstanding.\n2. Mentally mark each statement right or wrong.\n3. Cough etiquette, follow-up exams, and contact screening are all correct.\n4. Stopping when symptoms fade is wrong because treatment must be completed.\n5. Early stopping risks relapse and resistance.\n6. Choose the incorrect statement.",
+    "optionRationales": [
+      "This is correct cough etiquette and reduces spread.",
+      "Follow-up examinations monitor response to treatment.",
+      "Stopping early lets surviving organisms multiply and can lead to relapse or drug resistance, so the full course is required even if symptoms improve.",
+      "Contacts should be screened for infection and disease."
+    ],
+    "keyFacts": [
+      "Complete the full treatment course even after symptoms improve.",
+      "Household contacts of a TB case should be screened."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np1-012",
+    "area": "NP1",
+    "topic": "Scope of practice: breast lump",
+    "archetype": "scope-of-practice-boundaries",
+    "difficulty": 4,
+    "vignette": "A woman attending a community clinic tells the nurse she has felt a firm lump in her breast for several weeks. She asks the nurse to tell her what it is and what treatment to take.",
+    "stem": "What is the nurse's most appropriate action?",
+    "options": [
+      "Tell her the lump is probably harmless and that she can just watch it",
+      "Order imaging studies and prescribe a treatment plan for the lump",
+      "Teach breast self-examination and ask her to return in about a month",
+      "Assess the breast, document findings, and refer her to a physician"
+    ],
+    "answerIndex": 3,
+    "strategyTag": "Scope of practice: assess, teach, refer",
+    "reasoning": "1. The client asks for diagnosis and treatment, which a nurse cannot independently provide.\n2. A lump that persists for weeks requires medical evaluation.\n3. Reassurance would be guesswork.\n4. Ordering and prescribing exceed scope.\n5. Delay for observation is also unsafe.\n6. Assess, document, and refer promptly.",
+    "optionRationales": [
+      "Reassurance before a diagnosis is false and may delay care.",
+      "Diagnosing, ordering, and prescribing are outside the usual community nurse scope.",
+      "Teaching is appropriate but waiting a month delays evaluation of a persistent lump.",
+      "The nurse assesses within scope, records findings, and arranges prompt medical evaluation because diagnosis and treatment belong to the physician."
+    ],
+    "keyFacts": [
+      "Nurses assess, teach and refer; diagnosis and treatment belong to the physician."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np1-013",
+    "area": "NP1",
+    "topic": "Reporting suspected notifiable disease",
+    "archetype": "documentation-reporting",
+    "difficulty": 4,
+    "vignette": "A health center nurse examines a 5-year-old child who developed sudden weakness of one leg after a short fever. The leg is limp rather than stiff, and the child has not completed the vaccination schedule.",
+    "stem": "What is the nurse's priority action?",
+    "options": [
+      "Report the child as a suspected acute flaccid paralysis case at once",
+      "Wait for laboratory confirmation of polio before making any report to the unit",
+      "Note the weakness in the chart and plan to review the child next week",
+      "Refer the child to a hospital for care but do not notify the surveillance unit"
+    ],
+    "answerIndex": 0,
+    "strategyTag": "Reporting: notifiable disease, report suspected cases",
+    "reasoning": "1. Sudden limp weakness in a child with incomplete vaccination is a red flag for a reportable condition.\n2. Surveillance relies on early reporting of suspected cases.\n3. Waiting for confirmation defeats its purpose.\n4. Chart notes alone do not alert public health.\n5. Referral for care is good but does not replace notifying.\n6. Report immediately.",
+    "optionRationales": [
+      "Sudden flaccid weakness in a child is a reportable condition investigated for polio, so prompt notification allows investigation and control.",
+      "Surveillance depends on reporting suspected cases without waiting for confirmation.",
+      "Delay risks further spread and late investigation.",
+      "Referral alone leaves the community unprotected and skips the surveillance duty."
+    ],
+    "keyFacts": [
+      "Suspected cases of notifiable diseases are reported without waiting for laboratory confirmation."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np1-014",
+    "area": "NP1",
+    "topic": "Immunization and minor illness",
+    "archetype": "pediatric-growth-safety",
+    "difficulty": 3,
+    "vignette": "A mother brings her 9-month-old to the health center for scheduled vaccination. The infant has a mild runny nose, no fever, is feeding well, is active, and has normal breathing.",
+    "stem": "What is the nurse's most appropriate action?",
+    "options": [
+      "Postpone vaccination until the runny nose is gone",
+      "Refer the infant to a physician for clearance first",
+      "Assess the infant and proceed with the scheduled vaccine",
+      "Delay the vaccine until a course of antibiotics is finished"
+    ],
+    "answerIndex": 2,
+    "strategyTag": "Immunization: mild illness is not a contraindication",
+    "reasoning": "1. The infant is well: no fever, active, feeding, normal breathing.\n2. Assess first, then decide whether a true contraindication exists.\n3. A mild runny nose is not a contraindication.\n4. Delaying wastes the visit and prolongs vulnerability.\n5. Antibiotics are unnecessary for a mild viral cold.\n6. Vaccinate after assessment.",
+    "optionRationales": [
+      "Postponing for a mild cold is an unnecessary missed opportunity.",
+      "Routine clearance is unnecessary for a well-appearing infant with a mild cold.",
+      "A minor illness without fever or systemic signs is not a reason to delay vaccination, and missed opportunities leave the child unprotected.",
+      "A cold is usually viral and needs no antibiotic; antibiotics are not a requirement for vaccination."
+    ],
+    "keyFacts": [
+      "Minor illness without fever is usually not a reason to delay immunization."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np1-015",
+    "area": "NP1",
+    "topic": "Dengue warning signs",
+    "archetype": "stable-vs-unstable",
+    "difficulty": 4,
+    "vignette": "During a dengue outbreak, a nurse reviews four children at home. One has fever on day 2 with headache and body aches and is drinking well. One was febrile for four days and is now afebrile but has persistent vomiting, severe abdominal pain, and cold clammy skin. One has fever on day 3 with a positive tourniquet test but normal urine output. One has recovered and shows a rash on the arms with a good appetite.",
+    "stem": "Which child requires immediate referral to a hospital?",
+    "options": [
+      "The child with fever on day 2 who is alert, drinking well, and playing",
+      "The child with fever gone but vomiting, belly pain, and cold clammy skin",
+      "The child with a positive tourniquet test, normal urine output, and active play",
+      "The recovered child with a rash, good appetite, and normal activity"
+    ],
+    "answerIndex": 1,
+    "strategyTag": "Unstable first: warning signs after fever drops",
+    "reasoning": "1. Identify who is deteriorating.\n2. Dengue can worsen when the fever falls.\n3. Persistent vomiting, severe abdominal pain, and cold clammy skin are warning signs of shock.\n4. The others are early, stable, or recovering.\n5. Unstable clients need action now.\n6. Refer the child with warning signs.",
+    "optionRationales": [
+      "An early febrile phase with good intake can be managed with monitoring.",
+      "Warning signs after the fever subsides can mean plasma leakage and shock, which is an emergency.",
+      "This supports a dengue diagnosis and needs monitoring, but normal urine output suggests stability.",
+      "Recovery signs with good appetite are reassuring."
+    ],
+    "keyFacts": [
+      "Dengue danger can appear as fever subsides; watch for persistent vomiting, severe abdominal pain, and cold clammy skin."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np1-016",
+    "area": "NP1",
+    "topic": "Community organizing",
+    "archetype": "nursing-process-step-identification",
+    "difficulty": 3,
+    "vignette": "A nurse newly assigned to a barangay wants to start a community-organizing effort to improve health practices. She has not yet met most residents or leaders.",
+    "stem": "Which is the most appropriate first step?",
+    "options": [
+      "Hold a mass training session for health volunteers throughout the barangay",
+      "Form a health committee and elect its officers at a general assembly",
+      "Launch a project to address the most visible problem in the community",
+      "Integrate with the community by meeting leaders and observing daily life"
+    ],
+    "answerIndex": 3,
+    "strategyTag": "Process order: know the community first",
+    "reasoning": "1. The stem asks for a first step in a process.\n2. Organizing depends on trust and understanding.\n3. The nurse has not yet met residents or leaders.\n4. Training, committees, and projects assume a prior assessment.\n5. Entry and integration come first.\n6. Choose meeting leaders and observing daily life.",
+    "optionRationales": [
+      "Training before knowing the community may not match its needs.",
+      "A committee formed without trust or assessment may not represent the people.",
+      "Acting before assessing and involving the community risks an imposed, unsustainable project.",
+      "Community organizing starts with entry and integration to understand the people and gain trust before anything is organized."
+    ],
+    "keyFacts": [
+      "Community organizing begins with entry and integration, then assessment with the people."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np1-017",
+    "area": "NP1",
+    "topic": "Planning health teaching",
+    "archetype": "nursing-process-step-identification",
+    "difficulty": 4,
+    "vignette": "A nurse is preparing a handwashing teaching session for mothers in a low-income community. Many of the mothers have limited reading skills and speak a local language.",
+    "stem": "Before choosing teaching materials, which action is the priority?",
+    "options": [
+      "Prepare colorful posters with long text captions",
+      "Schedule the session at a time convenient for the nurse",
+      "Assess the group's learning needs, language, and literacy level",
+      "Write the evaluation questions for the session"
+    ],
+    "answerIndex": 2,
+    "strategyTag": "Nursing process: assess learners before planning",
+    "reasoning": "1. Teaching follows the nursing process: assess, plan, implement, evaluate.\n2. The stem asks what comes before choosing materials.\n3. The learners' literacy and language shape the materials.\n4. Evaluation questions are written after objectives are set.\n5. Convenience for the nurse is not a learner-centered factor.\n6. Assess the group first.",
+    "optionRationales": [
+      "Materials with long text do not suit mothers with limited reading skills and are chosen too early.",
+      "Scheduling should consider the learners' availability, not the nurse's.",
+      "Effective teaching starts with assessing the learners so that methods and materials match their needs.",
+      "Evaluation tools come after objectives and planning."
+    ],
+    "keyFacts": [
+      "Assess the learners' needs, literacy, and language before planning health teaching."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np1-018",
+    "area": "NP1",
+    "topic": "Herd immunity concept",
+    "archetype": "health-promotion-prevention-levels",
+    "difficulty": 2,
+    "vignette": "A nurse explains to a village council why the health unit works to keep immunization coverage high. A council member asks how this protects babies who are too young to receive some vaccines.",
+    "stem": "Which explanation by the nurse is most accurate?",
+    "options": [
+      "With enough people immune, disease spreads less and others are shielded",
+      "Vaccines cure children who are already infected and speed their recovery",
+      "Vaccinated people pass their antibodies to nearby infants through contact",
+      "Immunized people can no longer be infected by any kind of germ"
+    ],
+    "answerIndex": 0,
+    "strategyTag": "Primary prevention: herd immunity",
+    "reasoning": "1. The question asks for the mechanism of indirect protection.\n2. Vaccines prevent disease in the vaccinated person.\n3. They also reduce the number of infectious people.\n4. Fewer sources mean less exposure for those who cannot be vaccinated.\n5. Antibodies are not transferred by contact, and vaccines do not cure.\n6. Choose the limited-spread explanation.",
+    "optionRationales": [
+      "Community immunity means a high level of immunity limits transmission, indirectly protecting those who cannot be vaccinated.",
+      "Vaccines prevent disease; they are not treatments for existing infection.",
+      "Antibodies are not shared through contact; protection is indirect through reduced exposure.",
+      "Immunity is specific to certain diseases and not complete for every person."
+    ],
+    "keyFacts": [
+      "Herd immunity protects unvaccinated people by limiting spread."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np1-019",
+    "area": "NP1",
+    "topic": "Disaster response priorities",
+    "archetype": "priority-physiological-maslow",
+    "difficulty": 3,
+    "vignette": "One day after a typhoon, a nurse works at an evacuation center sheltering several hundred people. Families are asking for relief goods, children are anxious, and the only available drinking water is from a flooded well.",
+    "stem": "Which action should the nurse prioritize?",
+    "options": [
+      "Plan play activities for the anxious children",
+      "Make sure safe drinking water is available",
+      "Register families to list their relief goods",
+      "Teach preparedness for the next storm"
+    ],
+    "answerIndex": 1,
+    "strategyTag": "Maslow: physiological needs first",
+    "reasoning": "1. Apply Maslow: physiological needs come before safety, belonging, and teaching.\n2. Drinking water is a basic need.\n3. A flooded well is likely contaminated, creating a threat of diarrheal disease.\n4. Psychosocial support, registration, and preparedness matter, but later.\n5. Secure safe water first.",
+    "optionRationales": [
+      "Psychosocial support is important but follows basic survival needs.",
+      "Water is a basic physiological need, and unsafe water after flooding can quickly cause illness, so it comes before higher-level needs.",
+      "Registration helps distribute goods but is administrative.",
+      "Preparedness teaching is future-oriented and not urgent now."
+    ],
+    "keyFacts": [
+      "After floods, ensure safe water and sanitation first to prevent outbreaks."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np1-020",
+    "area": "NP1",
+    "topic": "TB case finding in a household",
+    "archetype": "abnormal-finding-identification",
+    "difficulty": 5,
+    "vignette": "During a home visit, a nurse meets a 62-year-old grandmother who has had a productive cough for more than 3 weeks, night sweats, and weight loss. A 2-year-old grandchild lives in the same small house. No one in the family has had tests.",
+    "stem": "What is the nurse's priority action?",
+    "options": [
+      "Teach cough etiquette to the household and revisit them in two weeks",
+      "Start the child on preventive medicine today without further assessment",
+      "Tell the family to keep the grandmother isolated in a separate house",
+      "Arrange sputum examination for the grandmother and screen the child"
+    ],
+    "answerIndex": 3,
+    "strategyTag": "Assess/confirm before intervene; protect vulnerable contact",
+    "reasoning": "1. Identify the abnormal pattern: prolonged cough, night sweats, weight loss suggests TB.\n2. A young child in the same household is a high-risk contact.\n3. Priority is confirming the diagnosis and screening contacts.\n4. Cough etiquette is supportive but delays action.\n5. Starting treatment is outside nursing scope and premature.\n6. Permanent isolation is not warranted or the nurse's decision.\n7. Choose referral for sputum testing and contact screening.",
+    "optionRationales": [
+      "Teaching is useful but waiting two weeks delays diagnosis in a likely contagious case.",
+      "Starting medication without assessment and diagnosis is outside nursing scope and premature.",
+      "Isolation without confirmation is extreme and not a nursing decision.",
+      "A cough lasting more than 2 weeks with these symptoms suggests TB, so confirming the diagnosis and screening the young contact comes first."
+    ],
+    "keyFacts": [
+      "Cough over 2 weeks should prompt TB evaluation.",
+      "Young household contacts of a suspected case need screening."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  }
 ]
