@@ -10,19 +10,19 @@
 - Apply ABCs, Maslow, safety, acuity, and nursing process when relevant without using frameworks mechanically.
 - Distinguish Philippine DOH/official requirements from international recommendations and flag guideline/date differences.
 
-## Current status — initial recursive audit
+## Current status — active research audit
 - Last action: 2026-10-17 (Asia/Manila).
-- Guide read completely: **Yes**.
-- Master log read: **Yes**.
-- Recursive repository tree inspected: **Yes** (Git tree API, non-truncated response).
-- Top-level category folders found: **10**.
-- Leaf topic folders found: **60**.
-- Topic research files present in this branch: **60/60**. Brain Tumor, Hodgkin lymphoma, Leukemia, and Wilms tumor have been reopened and checked. Hodgkin lymphoma, Leukemia, and Wilms tumor were expanded using NCI PDQ summaries; the remaining files are drafts and still require individual reopen/source audit.
-- Topics researched with authoritative-source cross-check: **1/60 (1.7%)**.
-- Topic folders without a research file: **0**. All drafted files except the first researched topic still require topic-specific source audit and reopen verification.
-- Empty topic folders: all leaf topic folders appear to contain only `.gitkeep` at initial tree audit; no topic research files were found.
-- Missing-topic audit: **Not yet completed**; compare hierarchy against PNLE scope and pediatric safety coverage after existing topics are researched.
-- Blockers: none identified yet. This is an initial inventory, not a claim of research completion.
+- Mandatory research standard: [RESEARCH TOPIC GUIDE.md](./RESEARCH%20TOPIC%20GUIDE.md) reread in full for this work cycle; all topic work must meet its substantive-content and source-verification requirements.
+- Master log: read; coordination log remains read-only.
+- Recursive repository tree inspected: **10 category folders and 60 leaf topic folders**.
+- Research files present on branch `agent-6-pediatric-research`: **60/60**. This is file-presence coverage only and is not completion.
+- **Verified complete: 5/60 (8.3%)** — Brain Tumor, Hodgkin lymphoma, Leukemia, Nephroblastoma (Wilms tumor), and Neuroblastoma. Each of these five files has been expanded with topic-specific content, authoritative NCI PDQ material checked, and the saved file reopened.
+- **Remaining: 55/60** topic files still need substantive individual source audit and reopen verification. Do not count template-like drafts as researched.
+- Topic folders without a research file on this branch: **0**. This metric does not imply the content is complete.
+- Missing-topic gap analysis: **not yet completed**; perform after topic-by-topic research and before final audit.
+- Blockers: no current blocker to continuing on the agent branch. Writes to `main` previously conflicted with concurrent work, so this research remains on the dedicated branch and draft PR.
+- Current next topic: **Osteosarcoma**.
+
 
 ## Required verification rubric for each topic
 A topic is not marked verified until its research file exists in the correct folder, claims have traceable authoritative sources, age-specific assessment and manifestations are covered where applicable, diagnostics/treatment/nursing interventions with rationales and family teaching are included, safety and urgent deterioration are addressed, medication claims are checked against authoritative references, and the uploaded file is reopened to confirm path and contents.
@@ -34,7 +34,7 @@ A topic is not marked verified until its research file exists in the correct fol
 | [ ] | `Cancers of the Child/Hodgkin's` | `Nursing app master plan/nursing preset topics/Anki Deck Topic Hierarchy/06 Pediatric Nursing/Cancers of the Child/Hodgkin's` | Not started | Guide sections 1–10; topic-specific applicability | Not yet checked | None | No research file yet | Folder exists; research pending | Inspect folder and research authoritative sources |
 | [ ] | `Cancers of the Child/Leukemia` | `Nursing app master plan/nursing preset topics/Anki Deck Topic Hierarchy/06 Pediatric Nursing/Cancers of the Child/Leukemia` | Not started | Guide sections 1–10; topic-specific applicability | Not yet checked | None | No research file yet | Folder exists; research pending | Inspect folder and research authoritative sources |
 | [ ] | `Cancers of the Child/Nephroblastoma (Wilms' Tumor)` | `Nursing app master plan/nursing preset topics/Anki Deck Topic Hierarchy/06 Pediatric Nursing/Cancers of the Child/Nephroblastoma (Wilms' Tumor)` | Not started | Guide sections 1–10; topic-specific applicability | Not yet checked | None | No research file yet | Folder exists; research pending | Inspect folder and research authoritative sources |
-| [ ] | `Cancers of the Child/Neuroblastoma` | `Nursing app master plan/nursing preset topics/Anki Deck Topic Hierarchy/06 Pediatric Nursing/Cancers of the Child/Neuroblastoma` | Not started | Guide sections 1–10; topic-specific applicability | Not yet checked | None | No research file yet | Folder exists; research pending | Inspect folder and research authoritative sources |
+| [x] | `Cancers of the Child/Neuroblastoma` | `Nursing app master plan/nursing preset topics/Anki Deck Topic Hierarchy/06 Pediatric Nursing/Cancers of the Child/Neuroblastoma` | VERIFIED COMPLETE | Definition/pathophysiology, presentation, diagnostics, risk-stratified treatment, nursing process/rationales, medication safety, complications, family teaching, PNLE prioritization, Philippine-context caveats | NCI PDQ Health Professional Version and NCI patient version, opened 2026-10-17 | Saved `Research.md` reopened; 19 KB content and source links confirmed | [`Research.md`](Cancers%20of%20the%20Child/Neuroblastoma/Research.md) | Exact regimen-specific drug monographs/protocols and Philippine facility protocol require local confirmation; no dosing invented | Proceed to Osteosarcoma |
 | [ ] | `Cancers of the Child/Osteosarcoma` | `Nursing app master plan/nursing preset topics/Anki Deck Topic Hierarchy/06 Pediatric Nursing/Cancers of the Child/Osteosarcoma` | Not started | Guide sections 1–10; topic-specific applicability | Not yet checked | None | No research file yet | Folder exists; research pending | Inspect folder and research authoritative sources |
 | [ ] | `Cardiovascular Disorders/Coarctation of Aorta` | `Nursing app master plan/nursing preset topics/Anki Deck Topic Hierarchy/06 Pediatric Nursing/Cardiovascular Disorders/Coarctation of Aorta` | Not started | Guide sections 1–10; topic-specific applicability | Not yet checked | None | No research file yet | Folder exists; research pending | Inspect folder and research authoritative sources |
 | [ ] | `Cardiovascular Disorders/Heart Failure` | `Nursing app master plan/nursing preset topics/Anki Deck Topic Hierarchy/06 Pediatric Nursing/Cardiovascular Disorders/Heart Failure` | Not started | Guide sections 1–10; topic-specific applicability | Not yet checked | None | No research file yet | Folder exists; research pending | Inspect folder and research authoritative sources |
@@ -142,3 +142,12 @@ Prioritize current official Philippine Department of Health (DOH) guidance and o
 - Reopened the uploaded branch file and verified content, expected sections, and source URLs.
 - Verified-topic count updated to 4/60 (6.7%). All 60 folders have a research file on the agent branch; the remaining 56 topics require source audits and reopen verification.
 - Next action: source-audit Neuroblastoma.
+
+
+## 2026-10-17 — Neuroblastoma source audit
+- Reread the complete updated `RESEARCH TOPIC GUIDE.md` before continuing; used its topic-by-topic evidence, safety, logging, and verification requirements.
+- Expanded `Cancers of the Child/Neuroblastoma/Research.md` into substantive topic-specific notes: pathophysiology, assessment/presentation, diagnostics, risk-adapted treatment, nursing actions and rationales, medication/treatment safety, emergency red flags, family teaching, PNLE prioritization, and Philippine-context limitations.
+- Opened and inspected the NCI PDQ Health Professional page. Checked presentation and red flags, imaging/MIBG and urinary VMA/HVA evaluation, pathology/risk classification, treatment categories, and surveillance/late-effects context. Also checked the NCI patient-facing treatment page. Links are embedded in the file; no universal pediatric antineoplastic doses were guessed.
+- Reopened the saved branch file and confirmed the full content (19,341 characters), section coverage, references, and readable source links.
+- Verified-topic count updated to **5/60 (8.3%)**. File presence remains 60/60, but **55/60 topics are still pending individual substantive research/source audit and reopen verification**.
+- Next action: source-audit **Osteosarcoma**.
