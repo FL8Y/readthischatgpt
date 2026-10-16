@@ -43,14 +43,15 @@ Every directory below was present in the repository's recursive tree at the init
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
 - [x] **Basic Principles of COPAR** — `CHN, PHC/COPAR/Basic Principles of COPAR`  
   Status: **DRAFTED — NEEDS REVIEW**. Research file: `CHN, PHC/COPAR/Basic Principles of COPAR/RESEARCH NOTES.md`.  
-  Sources directly inspected: Nurseslabs COPAR overview (updated 2013; secondary teaching source); WHO 2023 framework on meaningful engagement (authoritative, condition-specific framework applied carefully to participation principles).  
-  Source located but not fully inspected: National University Philippines NCM 113 syllabus PDF; fetch timed out.  
-  File verification: saved update reopened successfully; content length 17,471 characters; detailed principles, practical nursing application, phase-variation caveat, ethical safeguards, PNLE distinctions, source register and explicit verification gaps are present.  
-  Remaining before **Verified Complete**: retry and inspect the syllabus or replace it with an accessible Philippine curriculum source; check all links/source details; independent content review; update after those checks.  
-  Last action: replaced generic first-pass notes with source-backed topic-specific research on 2026-10-17.
+  Sources inspected: Nurseslabs COPAR overview (2013; secondary teaching source); WHO 2023 meaningful-engagement framework (official source, used only for participation principles).  
+  Source located but not fully inspected: National University Philippines NCM 113 syllabus PDF; direct fetch timed out.  
+  Saved-file verification: reopened after write; 17,471 characters; topic-specific principles, nursing application, ethics, phase variation, PNLE distinctions, source register and gaps confirmed.  
+  Remaining: inspect/retry the syllabus or replace with accessible Philippine curriculum evidence; check all links; independent content review. Last action: expanded and reopened on 2026-10-17.
 - [x] **Phases of COPAR** — `CHN, PHC/COPAR/Phases of COPAR`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **DRAFTED — NEEDS REVIEW**. Research file: `CHN, PHC/COPAR/Phases of COPAR/RESEARCH NOTES.md`.  
+  Sources directly inspected: Nurseslabs COPAR overview (2013; secondary nursing education source); University of the Cordilleras College of Nursing COPAR faculty-development report (2023); WHO 2023 meaningful-engagement framework (principles only). National University Philippines syllabus found but PDF fetch previously timed out.  
+  Saved-file verification: reopened after write; 21,303 characters; six phase sections, comparison of phase models, nursing responsibilities, evaluation indicators, safety/ethics and PNLE reminders confirmed.  
+  Remaining: retry/replace the syllabus source, check all links and perform independent content review. Last action: expanded and reopened on 2026-10-17.
 - [x] **Clients of CHN** — `CHN, PHC/Clients of CHN`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
@@ -336,3 +337,13 @@ Every directory below was present in the repository's recursive tree at the init
 - **Verification:** fetched the saved file after writing and confirmed detailed sections are present. Nurseslabs article and WHO 2023 meaningful-engagement framework were inspected. The National University Philippines syllabus PDF endpoint timed out and remains an explicit source-verification gap.
 - **Status:** DRAFTED / NEEDS REVIEW; not marked Verified Complete.
 - **Next action:** retry the syllabus or use an accessible authoritative Philippine nursing curriculum source; inspect all cited links; then continue to the next topic folder using the full research standard.
+
+
+## Research Cycle Log — 2026-10-17 (COPAR continuation)
+
+- Read the full mandatory research standard and applied its substantive-content, evidence, source inspection, file reopening and factual-log rules.
+- Updated `CHN, PHC/COPAR/Basic Principles of COPAR/RESEARCH NOTES.md` to a 17,471-character topic-specific draft and reopened it successfully.
+- Updated `CHN, PHC/COPAR/Phases of COPAR/RESEARCH NOTES.md` to a 21,303-character topic-specific draft and reopened it successfully.
+- Sources inspected for this cycle: Nurseslabs COPAR overview (2013), University of the Cordilleras College of Nursing COPAR faculty-development report (2023), and WHO's 2023 meaningful-engagement framework. National University Philippines syllabus PDF remains a verification gap because its direct fetch timed out; a search result is not counted as full inspection.
+- Both topics remain **DRAFTED — NEEDS REVIEW**, not Verified Complete. They need link checking and an independent final review.
+- Next action: continue with the next unverified topic folder under the hierarchy, inspect its current file and sources, expand it to the full standard, reopen it, then update this log. Continue topic by topic; do not treat the existence of files in all folders as completion.
