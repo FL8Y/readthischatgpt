@@ -47,6 +47,11 @@ The bytes are Git tree listed file sizes, not the original APK size or a claim t
 
 A local `git ls-remote` / checkout attempt failed because the container could not resolve `github.com`. GitHub API reads and read-back verification were available, but this environment did not run the App 2 offline tests, reference TypeScript typecheck, device tests, live provider calls, or an app build. Historical test counts in READMEs and prior reports are not newly reproduced results in this pass.
 
+
+
+### Cycle 5 archive-manifest comparison (2026-10-17)
+A Library search surfaced `FULL_ARCHIVE_MANIFEST.csv` and `README_FOR_CLAUDE.txt`. The latter describes a source archive with 1,790 file entries, while the available CSV actually contains only 1,000 data rows (indices 0–999); it is therefore a partial manifest, not the complete promised inventory. Comparing those 1,000 rows against the current App 1 subtree produced: 280 current Git blobs; 218 exact relative-path matches; 782 manifest-listed paths absent from the current subtree; 62 current subtree files not represented in the available partial manifest; and 2 exact-path matches with size discrepancies (`META-INF/NOTICE.md`: manifest 1,074 bytes vs Git 1,075; `assets/www.bundle/_expo/static/css/styles-40df4e19ca742774b7c0458734a7055e.css`: manifest 474 vs Git 473). These are counts against the available partial manifest only; the 62 unrepresented files may belong to indices 1000–1789, so they are not labelled extraneous to the full archive. The comparison does not establish full transfer completeness or a valid completion percentage. Recover the remaining manifest rows/original split archives and compare every path, size and checksum before making a completeness claim.
+
 ## 3. Project instruction files inspected
 
 ### Root `CLAUDE.md`
