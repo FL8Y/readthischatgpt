@@ -18,3 +18,41 @@ Recruit fairly and voluntarily; protect privacy; minimize burden; and use approp
 ## References
 - Cochrane Handbook: https://training.cochrane.org/handbook
 - PHREB: https://ethics.healthresearch.ph/
+
+## Build a defensible sampling plan
+
+1. State the target population, setting, geography, and time period.
+2. Define the accessible population and the frame/source used to identify eligible units.
+3. Set scientifically justified inclusion/exclusion criteria and identify groups the frame may miss.
+4. Choose probability sampling for design-based population inference when a suitable frame/resources exist, or a justified non-probability approach for qualitative/exploratory aims or constrained contexts.
+5. Justify sample size using the study purpose, primary outcome, desired precision/power, variability, clustering, and expected nonresponse/attrition as appropriate.
+6. Plan recruitment, refusals, data completeness, privacy, and any weights/design effects.
+7. Report who was selected, approached, enrolled, retained, and included in analysis; explain exclusions and limitations.
+
+## Sampling and random assignment are different
+
+Sampling determines which units enter the study; random assignment determines how enrolled participants are allocated to intervention groups. Probability sampling can support population inference when properly implemented, while random assignment can improve causal comparability. Neither procedure automatically provides the benefit of the other.
+
+## Sources of sampling error and bias
+
+- **Sampling error:** chance variation between sample estimates and the population quantity.
+- **Undercoverage/overcoverage:** the frame omits eligible units or includes ineligible units.
+- **Nonresponse bias:** respondents differ from nonrespondents on relevant characteristics/outcomes.
+- **Selection bias:** inclusion or retention systematically depends on factors relevant to the result.
+- **Attrition bias:** loss to follow-up distorts comparisons when losses are related to outcomes or group characteristics.
+
+A large sample may reduce random uncertainty but cannot repair a biased frame, coercive recruitment, invalid measurement, or inappropriate design. A high response rate alone does not prove absence of nonresponse bias.
+
+## Qualitative sampling and ethics
+
+Qualitative sampling often seeks information-rich experiences, variation, or theoretical development rather than statistical representativeness. Explain the selection rationale and how adequacy was assessed for the chosen methodology. Recruitment must be voluntary and fair, especially when a researcher is also a clinician, supervisor, or teacher. Follow the approved REC process, protect contact lists and identifiers, and do not expose sensitive information through referrals.
+
+## Nursing example
+
+A survey distributed only to day-shift nurses through a single hospital's online group cannot automatically estimate all nurses' practice across a province. The sampling frame and recruitment channel exclude people by facility, shift, or platform access. Report the actual population represented and avoid unsupported regional generalization.
+
+## Sources
+
+- OpenStax, **Introductory Statistics 2e**, sampling and variation: https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling
+- Cochrane Handbook: https://training.cochrane.org/handbook
+- PHREB, **National Ethical Guidelines for Research Involving Human Participants (2022)**: https://ethics.healthresearch.ph/index.php/phoca-downloads/category/4-neg
