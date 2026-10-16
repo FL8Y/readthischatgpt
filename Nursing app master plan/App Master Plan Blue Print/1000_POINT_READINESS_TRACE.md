@@ -66,7 +66,12 @@
 - Discovered the available archive manifest is only a 1,000-row subset of the claimed 1,790-entry source. This is a new blocker, not evidence that transfer is complete.
 - Current score: 790/1,000. No 10/10 claim is made because the hard gates remain open.
 
+### Cycle 6 continuation — traceability matrix added
+- Created REQUIREMENT_TEST_TRACEABILITY.md with rows R-001–R-034, accountable roles, contract boundaries and planned test IDs/oracles.
+- Tightened the mastery contract: assessment accuracy and spaced-review ratings are separate; confidence is based on evidence sufficiency rather than correctness; repeated question-version/concept-family/session tuples use the latest valid attempt for mastery projection.
+- The matrix is a planning artifact, not a passing test suite. Independent audit and exact fixture outputs remain required.
+
 ### Next cycle priorities
-1. Finish the 34-row requirements-to-contracts-to-test mapping and freeze exact mastery fixture outputs.
+1. Independently audit the 34-row requirements-to-contracts-to-test matrix and freeze exact mastery fixture outputs.
 2. Run a fresh tree/readback/link/ID consistency check after all current writes; correct stale historical statements in QA/audit.
 3. Reconcile the full archive evidence if the complete manifest or original split archives are available; otherwise keep that gate explicitly blocked and improve all independent plan areas.
