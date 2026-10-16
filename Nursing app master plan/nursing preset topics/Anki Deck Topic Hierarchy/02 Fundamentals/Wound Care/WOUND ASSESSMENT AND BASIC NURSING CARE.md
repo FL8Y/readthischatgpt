@@ -29,7 +29,7 @@ Urgently report rapidly spreading erythema, increasing warmth/swelling, purulent
 - Assess risk and skin routinely; inspect bony prominences and under devices.
 - Reposition based on individualized risk, mobility, skin response, support surface, and care plan rather than relying on a single universal interval.
 - Offload heels, manage moisture/incontinence, minimize friction and shear, encourage mobility, and support adequate nutrition/hydration when appropriate.
-- Do not massage persistent nonblanchable erythema or bony prominences to “improve circulation.”
+- Avoid positioning the patient directly on an area of existing pressure injury or persistent nonblanchable erythema; do not massage these areas. Select repositioning frequency and support surfaces based on individualized risk, clinical condition, comfort, and the current locally adopted guideline.
 
 ## PNLE clinical judgment
 
@@ -38,6 +38,8 @@ If a wound suddenly separates or organs are visible, treat it as an emergency ra
 ## Sources
 
 1. OpenStax, *Fundamentals of Nursing*, “24.4 Wound Healing” (online textbook; accessed 2026-10-17): https://openstax.org/books/fundamentals-nursing/pages/24-4-wound-healing
-2. OpenStax, *Fundamentals of Nursing*, textbook index: https://openstax.org/books/fundamentals-nursing/pages/index
+2. National Pressure Injury Advisory Panel (NPIAP), *International Guidelines* (2026 guideline resources): https://npiap.com/page/InternationalGuidelines — official guideline landing page reviewed; current international recommendations should be accessed for full pressure-injury prevention/treatment details. Do not rely on the older 2014 PDF as current guidance.
+3. NPIAP, *Prevention Points*: https://npiap.com/general/custom.asp?page=PreventionPoints — official prevention summary reviewed for risk assessment, nutrition, repositioning, and avoiding pressure on existing injury/erythema.
+4. OpenStax, *Fundamentals of Nursing*, textbook index: https://openstax.org/books/fundamentals-nursing/pages/index
 
-Follow current wound-care orders, infection-prevention policy, and locally adopted pressure-injury guidance. The specific wound product and dressing frequency must be individualized.
+Follow current wound-care orders, infection-prevention policy, and locally adopted pressure-injury guidance. The specific wound product and dressing frequency must be individualized. **DRAFTED; not VERIFIED COMPLETE:** full 2026 international guideline recommendations, wound classification/staging, dressing selection, and emergency-care protocol still need claim-by-claim verification.
