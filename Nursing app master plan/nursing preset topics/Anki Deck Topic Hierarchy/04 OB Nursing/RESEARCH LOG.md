@@ -31,14 +31,14 @@ For each topic, mark status only after checking the actual file in GitHub:
 ## Topic checklist
 | # | Topic folder (relative to 04 OB Nursing) | Status | Sources / verification | File state | Next action |
 |---:|---|---|---|---|---|
-| 1 | `Common Complications/Abortion` | Research file uploaded; verification pending | ACOG early pregnancy loss; WHO abortion care guideline (2nd ed., 2025); Philippine DOH AO 2018-0003 | [Research.md](./Common%20Complications/Abortion/Research.md) reopened via GitHub API (13,152 characters) | Perform rendered-file/source audit; confirm clinical/legal context |
-| 2 | `Common Complications/Abruptio Placenta` | Research file uploaded; verification pending | ACOG bleeding during pregnancy; Merck Manual Professional Edition placental abruption overview | [Research.md](./Common%20Complications/Abruptio%20Placenta/Research.md) created; reopen and validate | Reopen file; validate source links and clinical priorities |
-| 3 | `Common Complications/Cord Prolapse` | Research file uploaded; verification pending | RCOG Green-top Guideline No. 50; RCOG patient information reviewed 2025 | [Research.md](./Common%20Complications/Cord%20Prolapse/Research.md) created; reopen and validate | Reopen file; validate emergency actions and source links |
-| 4 | `Common Complications/Ectopic Pregnancy` | Research file uploaded; verification pending | ACOG Ectopic Pregnancy FAQ (reviewed Apr 2026); ACOG Practice Bulletin No. 193 | [Research.md](./Common%20Complications/Ectopic%20Pregnancy/Research.md) created; reopen and validate | Reopen file; audit methotrexate contraindications and follow-up |
-| 5 | `Common Complications/Gestational Diabetes` | Research file uploaded; verification pending | WHO diabetes in pregnancy guideline (2025); ADA Standards of Care in Diabetes (2026) | [Research.md](./Common%20Complications/Gestational%20Diabetes/Research.md) created; reopen and validate | Reopen file; audit local diagnostic thresholds and guidance differences |
+| 1 | `Common Complications/Abortion` | Research file uploaded; verification pending | ACOG early pregnancy loss; WHO abortion care guideline (2nd ed., 2025); Philippine DOH AO 2018-0003 | [Research.md](./Common%20Complications/Abortion/Research.md) uploaded; recursive tree confirms path | Perform rendered-file/source audit |
+| 2 | `Common Complications/Abruptio Placenta` | Research file uploaded; verification pending | ACOG bleeding during pregnancy; Merck Manual Professional Edition | [Research.md](./Common%20Complications/Abruptio%20Placenta/Research.md) uploaded; recursive tree confirms path | Reopen file and validate source links and emergency priorities |
+| 3 | `Common Complications/Cord Prolapse` | Research file uploaded; verification pending | RCOG Green-top Guideline No. 50; RCOG patient information reviewed 2025 | [Research.md](./Common%20Complications/Cord%20Prolapse/Research.md) uploaded; recursive tree confirms path | Reopen file and validate emergency actions/source links |
+| 4 | `Common Complications/Ectopic Pregnancy` | Research file uploaded; verification pending | ACOG Ectopic Pregnancy FAQ (reviewed Apr 2026); ACOG Practice Bulletin No. 193 | [Research.md](./Common%20Complications/Ectopic%20Pregnancy/Research.md) uploaded; recursive tree confirms path | Audit methotrexate contraindications and follow-up |
+| 5 | `Common Complications/Gestational Diabetes` | Research file uploaded; verification pending | WHO diabetes in pregnancy guideline (2025); ADA Standards of Care (2026) | [Research.md](./Common%20Complications/Gestational%20Diabetes/Research.md) uploaded; recursive tree confirms path | Audit local thresholds and guideline differences |
 | 6 | `Common Complications/Hemolytic Disease of the Newborn` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
-| 7 | `Common Complications/Hydatidiform Mole` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
-| 8 | `Common Complications/Hyperemesis Gravidarum` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
+| 7 | `Common Complications/Hydatidiform Mole` | Research file uploaded; verification pending | ACOG gestational trophoblastic disease; NCI GTD treatment; Cancer Research UK | [Research.md](./Common%20Complications/Hydatidiform%20Mole/Research.md) uploaded; recursive tree confirms path | Reopen file; verify follow-up guidance and links |
+| 8 | `Common Complications/Hyperemesis Gravidarum` | Research file uploaded; verification pending | RCOG Green-top Guideline No. 69; NHS severe vomiting in pregnancy; ACOG morning sickness FAQ | [Research.md](./Common%20Complications/Hyperemesis%20Gravidarum/Research.md) uploaded; recursive tree confirms path | Reopen file; audit thiamine/antiemetic safety and links |
 | 9 | `Common Complications/Incompetent Cervix` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
 | 10 | `Common Complications/Placenta Previa` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
 | 11 | `Common Complications/Premature Rupture of Membranes` | Not started | Guide + authoritative topic-specific sources | No topic file yet | Research, verify, write, reopen, update log |
@@ -83,12 +83,12 @@ These are not counted as completed topics until the hierarchy is checked for dup
 
 ## Status dashboard
 - Leaf topic folders identified: **35**
-- Topics with substantive research files: **5**
-- Topics clinically verified: **0** (five files created; independent clinical/source and rendered-link audits remain pending)
-- Remaining leaf topics without substantive files: **30**; five uploaded topics still require final verification
-- Research completion: **0% verified** (0/35 fully verified). Five substantive topic files exist but are not counted as verified until their clinical/source/link audits are complete.
+- Topics with substantive research files: **7**
+- Topics clinically verified: **0** (seven files created; independent clinical/source and rendered-link audits remain pending)
+- Remaining leaf topics without substantive files: **28**; seven uploaded topics still require final verification
+- Research completion: **0% verified** (0/35 fully verified). Seven substantive topic files exist but are not counted as verified until their clinical/source/link audits are complete.
 - Added topics: **0**
 - Blockers: None encountered during initial tree inspection. Full research and per-file upload verification remain outstanding.
-- Last action: Created substantive topic files for Abortion, Abruptio Placenta, Cord Prolapse, Ectopic Pregnancy and Gestational Diabetes. Ectopic Pregnancy and Gestational Diabetes were reopened through GitHub API; the recursive tree confirms all five paths exist. Concurrent writes from other repository activity caused intermittent GitHub contents-API conflicts; retries were required.
-- Exact next action: Reopen and validate all five files, then research the next unchecked topic: `Common Complications/Hemolytic Disease of the Newborn`.
+- Last action: Added substantive research files for Abortion, Abruptio Placenta, Cord Prolapse, Ectopic Pregnancy, Gestational Diabetes, Hydatidiform Mole and Hyperemesis Gravidarum. Recursive tree confirms seven topic paths. Concurrent commits from other repository activity caused repeated contents-API conflicts while attempting Hemolytic Disease of the Newborn; that file remains outstanding and is the next retry target.
+- Exact next action: Reopen all seven files, audit source links/clinical safety, then retry creation of `Common Complications/Hemolytic Disease of the Newborn/Research.md` using a tree-based commit if contents API conflicts continue.
 - Last reconciled: 2026-10-17 (partial audit; final recursive audit not yet performed).
