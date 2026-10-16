@@ -66,3 +66,22 @@
 ## Scope note
 
 Define the population, frame, unit, and sample explicitly in each study; terminology may vary across disciplines and designs.
+
+## Additional distinctions used in research reports
+
+- **Sampling fraction:** proportion of the eligible frame selected (sample size divided by frame size in a simple setting); its role depends on the design and population size.
+- **Selection probability / inclusion probability:** probability that a unit is selected under the sampling design. In multistage designs, overall inclusion probability reflects all relevant stages.
+- **Sampling weight:** often the inverse of a unit's inclusion probability, sometimes adjusted for nonresponse or calibrated to known totals. Weights can improve design-based estimates when correctly constructed; they do not automatically remove unmeasured bias.
+- **Response rate:** a defined ratio describing completed responses among eligible/selected units according to a stated standard. Always state the numerator, denominator, and definition; response rate alone does not prove or disprove nonresponse bias.
+- **Nonresponse bias:** bias arising when response status is related to the survey variable or relevant characteristics, after considering the design and adjustments.
+- **Replacement/substitution:** using another unit when a selected unit is unavailable or refuses. Unplanned substitution can undermine probability selection; follow prespecified rules and document it.
+- **Design effect:** ratio comparing the variance under a complex design with variance under a reference design such as simple random sampling of the same nominal size. Clustering and unequal weights can increase variance.
+- **Finite population correction:** adjustment sometimes used for sampling without replacement from a finite population when the sampling fraction is substantial; apply only under the assumptions of the relevant design.
+
+## Worked example
+
+A study targets registered nurses working in public hospitals in one province. The target population is all eligible nurses in those hospitals; the accessible population may be nurses in facilities granting access; the sampling frame is the verified roster used for selection; selected nurses are the sample invited; respondents are those who provide data; and the analytic sample is the subset whose data meet the prespecified analysis requirements. These groups may differ. Report the flow and reasons for nonparticipation or exclusion rather than calling all six groups “the sample.”
+
+## Reporting checklist
+
+A reproducible methods section should identify the target and accessible population, frame source/date, sampling unit, selection method, eligibility criteria, recruitment period, planned and achieved sample size, refusals/nonresponse, attrition, exclusions from analysis, weighting or design effects where relevant, and limitations to generalizability/transferability. For qualitative studies, also explain the purposive/theoretical rationale, context, participant characteristics relevant to interpretation, and how adequacy was judged.
