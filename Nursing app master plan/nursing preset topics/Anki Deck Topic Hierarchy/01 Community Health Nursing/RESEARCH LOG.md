@@ -10,9 +10,9 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 28 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, and Principles and Nursing Responsibilities, and Toilet Facility.
+- **Substantive topic drafts expanded:** 29 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, and Mental Health Program.
 - **Topics verified complete:** 0
-- **Folders still requiring substantive topic-specific expansion:** 49 (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes).
+- **Folders still requiring substantive topic-specific expansion:** 48 (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes).
 - **Drafts awaiting source/content verification:** 28
 - **Research notes present:** 77/77; this is file presence, not research completion.
 - **Completion:** 0% verified topic research. No topic is marked Verified Complete.
@@ -271,8 +271,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
 - [x] **Mental Health Program** — `Mental Health Program`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: program purpose/components; community assessment; nursing assessment and risk escalation; referral/continuity; rights and Philippine law; mhGAP boundaries; monitoring/evaluation; PNLE distinctions; sources.  
+  Sources consulted: RA 11036 Mental Health Act (Lawphil text); DOH CHD II Mental Health Program page (posted 14 Jan 2026); DOH CHD XI Mental Health Program page; WHO community mental-health services guidance (2021); WHO mhGAP guideline, 3rd ed. (2023). Important facts covered: integrated community care; service-user rights, consent and confidentiality; person-centred/recovery-oriented approaches; crisis pathways; trained non-specialist scope limits; local service-availability caveat. Research file: `Mental Health Program/RESEARCH NOTES.md` (20,766 characters; reopened after save). Unresolved issues: full WHO documents and current implementing rules require final review; local emergency contacts/referral capacity must be verified by locality; exact legal exceptions and reporting duties must be checked in applicable current law/policy. Last action: replaced generic 2,256-character starter with substantive topic-specific research and reopened saved file (2026-10-17). Next action: continue folder-by-folder; source-verify and final-audit drafts before marking complete.
 
 ## Initial Structural Audit
 
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 28/77; all 28 remain Drafted — Needs Verification.
-- **Folders still requiring substantive expansion:** 49/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** 29/77; all 29 remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** 48/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -640,3 +640,15 @@ Every directory below was present in the repository's recursive tree at the init
 - Reopened the saved file and confirmed 13,168 characters plus toilet-system, safe-excreta and Philippine-context sections.
 - Status: **Drafted — Needs Verification**, not Verified Complete. Current Chapter XVII rules and local technical requirements require direct review.
 - Next action: continue to the next assigned topic folder; final source and recursive audits remain.
+
+
+## Research Cycle Log — 2026-10-17 (Mental Health Program)
+
+- Re-read the full mandatory CHN research guide before beginning this cycle.
+- Inspected the Mental Health Program folder recursively; it contains one topic research file and no nested topic folders. The existing 2,256-character note was a generic starter and did not meaningfully cover the assigned program.
+- Replaced it with a 20,766-character substantive draft covering community mental-health program purpose/components, assessment and service planning, risk escalation, referral/continuity, Philippine RA 11036 rights and safeguards, WHO community-based service guidance, mhGAP scope boundaries, monitoring/evaluation and PNLE distinctions.
+- Sources consulted: RA 11036 text via Lawphil; DOH CHD II mental-health program page posted 14 January 2026; DOH CHD XI mental-health program page; WHO community mental-health guidance (2021); WHO mhGAP guideline, third edition (2023).
+- Reopened the saved file from GitHub and confirmed 20,766 characters plus the RA 11036 and immediate-safety sections.
+- Limitations: WHO full-length documents and current implementing rules have not been reviewed page by page; exact legal exceptions/reporting duties and locality-specific emergency contacts/referral availability need final verification. The file remains **Drafted — Needs Verification**, not Verified Complete.
+- Coverage reconciliation at the time of this write: 29/77 folders have substantive drafts, 48/77 still require substantive expansion, and 0/77 are verified complete.
+- Next action: continue the recursive inventory and expand the next individual folder that still has only generic starter material; keep the log and mind map synchronized.
