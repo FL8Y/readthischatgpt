@@ -26,4 +26,6 @@ TLS involves **high K, high phosphate, high uric acid, low calcium** as a classi
 - National Cancer Institute, cancer treatment side effects and tumor lysis resources: https://www.cancer.gov/about-cancer/treatment/side-effects
 - OpenStax, **Medical-Surgical Nursing** (2024): https://openstax.org/books/medical-surgical-nursing/pages/index
 
+- Merck Manual Professional Edition, **Management of Adverse Effects of Cancer Therapy** (page accessed 17 Oct 2026): https://www.merckmanuals.com/professional/oncology/principles-of-cancer-therapy/management-of-adverse-effects-of-cancer-therapy — diagnostic features and prevention/management of tumor lysis syndrome.
+
 > Evidence note: prophylaxis and diagnostic criteria are risk- and protocol-dependent; confirm against current oncology guidance and the patient's regimen.
