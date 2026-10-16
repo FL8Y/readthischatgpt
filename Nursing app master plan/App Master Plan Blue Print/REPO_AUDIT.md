@@ -5,6 +5,14 @@
 **Scope:** Complete recursive Git tree inventory plus semantic inspection of project-relevant documentation and reference source.  
 **Important limitation:** A tree inventory is not the same as reading every file's contents. Binary resources and hundreds of unrelated Claude/Ruflo framework files were inventoried but not all semantically read. The two complete research DOCX reports have now been read across all 54 Gizmo pages and all 35 AnkiDroid pages.
 
+## Cleanup addendum — 2026-10-17
+
+After consolidating the blueprint documents, a fresh recursive Git tree query returned **739 entries: 598 blobs/files and 141 tree/directory entries**, with `truncated=false`. The verified post-deletion snapshot was `81432ac4c8f4c0d05dabe7106d20886e36a14dad`; subsequent edits changed existing Markdown content, not paths.
+
+The final `Nursing app master plan/` subtree has 407 entries including its root directory. The blueprint folder has 11 Markdown files, no nested directories, and 131,027 listed file bytes. Research folder counts remain App 1: 280 files/57 directories including its root; App 2: 18 files/11 directories; App 3: 20 files/7 directories. Counts are path-specific and must be refreshed after later changes.
+
+The four legacy planning documents are now consolidated and deleted. Their exact original blob SHAs, destination documents and deletion commit SHAs are recorded in `CLEANUP_LOG.md`. No research files, raw assets, reference code or global Claude/Ruflo files were deleted.
+
 ## 1. Repository-wide inventory
 
 The historical baseline tree had **729 entries**. The latest verified tree after planning uploads returned **740 entries (599 blobs/files, 141 tree/directory entries)** with `truncated=false` at commit `ee5ae3fb1c7c34833596feefd4ade20218b5c4df`. The top-level counts below reflect the latest verified path inventory; the baseline count is retained only to document repository growth:
@@ -117,12 +125,12 @@ Key observations:
 
 ## 7. Current blueprint condition
 
-The blueprint now contains 12 Markdown documents; all were inventoried in the current tree snapshot. The source relationship is user-confirmed: App 1 and App 3 are related; App 2 is distinct. The prior QA review identified and corrected stale relationship wording and added an answer-key boundary, strict diagnostic gate, and concurrency requirements.
+The previous blueprint revision contained 12 Markdown documents. After consolidation, the current blueprint contains 11 Markdown files; see CLEANUP_LOG.md for the source-to-destination map and deletion receipts. The source relationship is user-confirmed: App 1 and App 3 are related; App 2 is distinct. The prior QA review identified and corrected stale relationship wording and added an answer-key boundary, strict diagnostic gate, and concurrency requirements.
 
 ## 8. Evidence coverage and remaining work
 
 ### Inspected directly in this audit
-- Complete recursive Git tree metadata (740 entries: 599 blobs and 141 trees; `truncated=false` at the recorded commit).
+- Complete recursive Git tree metadata was re-scanned after cleanup (739 entries: 598 blobs and 141 trees; `truncated=false`; see the cleanup addendum for the snapshot SHA).
 - Root project execution instructions and key Ruflo configuration/capability summary.
 - Master-plan parent README and blueprint README.
 - App 1 README/upload log.
