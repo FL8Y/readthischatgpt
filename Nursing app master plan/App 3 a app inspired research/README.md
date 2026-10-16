@@ -4,7 +4,8 @@ Static reverse-engineering of Gizmo 3.2.130 (Android `ai.saveall.app`, React Nat
 
 | Path | What it is |
 |---|---|
-| `Gizmo_App_Research.docx` | Full report: architecture, API surface, quiz engine, AI features, how to add an AI API for auto-generated quizzes |
+| `Gizmo_App_Research.docx` | Full report (52 pages, incl. addenda): architecture, API surface, quiz engine, AI features, how to add an AI API for auto-generated quizzes |
+| `research/` | Markdown research notes: quiz-engine rules, data model / events / feature flags / languages, native Android side and security posture |
 | `data/` | Secret-free extracts: routes, `/api/` paths, quiz-engine systems and components, AI model strings, daily-quiz events, decoded manifest (keys redacted) |
 | `framework/` | The repeatable method (`METHOD.md`), Hermes string-table dumper, report builder |
 | `product/ai-next-quiz/` | TypeScript reference code: question schema, validated AI generator, buffer/refill/fire/response service (type-checked, not run against a live API) |
