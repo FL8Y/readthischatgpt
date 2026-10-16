@@ -147,6 +147,19 @@ Possible program indicators include:
 
 Define each numerator, denominator, period and source. Method uptake alone is not a sufficient measure of program quality; a high uptake rate can coexist with coercion or poor informed choice. Protect privacy and avoid reporting small cells that could identify individuals.
 
+## PNLE high-yield distinctions
+
+- Reproductive health is broader than contraception; it includes informed choice, maternal care, STI prevention/testing, fertility-related care, adolescent health, and prevention/response to violence.
+- Family planning must be voluntary and informed. No method should be imposed to meet a provider or program quota.
+- No single contraceptive method is best for every person; eligibility and contraindications differ by product and health status.
+- Condoms can reduce STI transmission risk when used correctly and consistently; many other contraceptive methods do not protect against STIs.
+- Emergency contraception is time-sensitive and is distinct from medication abortion; use current method-specific guidance.
+- A client's preference, reproductive goals, health history, pregnancy/postpartum status and access barriers all matter in method selection.
+- Do not apply one blanket contraindication list to all hormonal methods or all contraceptive products.
+- Adolescent consent, confidentiality and safeguarding duties depend on the applicable Philippine law, service and circumstances; do not invent a universal rule.
+- Severe symptoms, sexual assault with time-sensitive needs, coercion or immediate danger require prompt appropriate clinical/safeguarding response.
+- Verify current Philippine DOH guidance and the full RA 10354 implementing rules before stating exact service eligibility, schedules, legal duties or clinical algorithms.
+
 ## 12. Philippine legal context and source register
 
 1. **Republic of the Philippines.** *Republic Act No. 10354 — Responsible Parenthood and Reproductive Health Act of 2012* (2012), Lawphil. Primary legal source; read the full law and applicable implementing rules for exact provisions. https://lawphil.net/statutes/repacts/ra2012/ra_10354_2012.html
