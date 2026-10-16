@@ -50,6 +50,9 @@ Severe hypoglycemia, altered mental status, persistent vomiting/dehydration, ver
 ## Philippine practice considerations
 Use current DOH, hospital and specialist protocols for screening, diagnostic thresholds, glucose targets, referral and postpartum testing. International guidelines are useful evidence sources but do not automatically override locally adopted standards. Confirm current Philippine policy before stating a particular threshold as a national requirement.
 
+## Source verification note
+The American Diabetes Association's *Standards of Care in Diabetes—2026*, section 15, was opened and checked on 2026-10-17. It recommends insulin as the preferred pharmacologic agent for GDM, advises against metformin and glyburide as first-line agents because they cross the placenta, and recommends a 75-g OGTT at 4–12 weeks postpartum followed by lifelong screening every 1–3 years. Source: https://diabetesjournals.org/care/article/49/Supplement_1/S321/163918/15-Management-of-Diabetes-in-Pregnancy-Standards . The WHO 2025 guideline differs in permitting metformin or insulin when lifestyle measures are insufficient. These recommendations should remain clearly attributed to their respective guidelines and not blended into a false universal rule. Confirm Philippine institutional guidance before clinical application.
+
 ## Sources
 1. World Health Organization (WHO), *WHO recommendations on care for women with diabetes during pregnancy*, published 14 November 2025: https://www.who.int/westernpacific/publications/i/item/9789240117044
 2. WHO, Executive Summary, *WHO recommendations on care for women with diabetes during pregnancy*, 2025, hosted by NCBI Bookshelf: https://www.ncbi.nlm.nih.gov/books/NBK619426/
