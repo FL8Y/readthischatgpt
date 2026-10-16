@@ -20,7 +20,9 @@
     - Maternal Well-being
     - [[Normal Pregnancy/Antepartum Care/Maternal Well-being/Research|Maternal Well-being / Antenatal Care]]
   - Discomforts and Risk Factors of Pregnancy
+  - [[Normal Pregnancy/Discomforts and Risk Factors of Pregnancy/Research|Discomforts and Risk Factors]]
   - Fetal Growth and Development
+  - [[Normal Pregnancy/Fetal Growth and Development/Research|Fetal Growth and Development]]
   - Health Teachings
   - Signs and Symptoms of Pregnancy
   - Trimesters
