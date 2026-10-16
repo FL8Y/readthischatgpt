@@ -39,8 +39,10 @@ Every directory below was present in the repository's recursive tree at the init
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
 - [x] **COPAR** — `CHN, PHC/COPAR`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **DRAFTED — NEEDS REVIEW**. Research file: `CHN, PHC/COPAR/RESEARCH NOTES.md`.  
+  Sources directly inspected: Nurseslabs COPAR overview (2013); WHO 2023 meaningful-engagement framework; University of the Cordilleras College of Nursing COPAR faculty-development report (2023). National University Philippines syllabus surfaced in search but direct PDF fetch timed out.  
+  Saved-file verification: reopened after write; 15,722 characters; definition, aims, operating principles, functional workflow, participatory study safeguards, nurse role, prioritization, PNLE distinctions, source register and verification gaps confirmed.  
+  Remaining: retry/replace the syllabus source, check links and complete independent review. Last action: expanded and reopened on 2026-10-17.
 - [x] **Basic Principles of COPAR** — `CHN, PHC/COPAR/Basic Principles of COPAR`  
   Status: **DRAFTED — NEEDS REVIEW**. Research file: `CHN, PHC/COPAR/Basic Principles of COPAR/RESEARCH NOTES.md`.  
   Sources inspected: Nurseslabs COPAR overview (2013; secondary teaching source); WHO 2023 meaningful-engagement framework (official source, used only for participation principles).  
@@ -347,3 +349,12 @@ Every directory below was present in the repository's recursive tree at the init
 - Sources inspected for this cycle: Nurseslabs COPAR overview (2013), University of the Cordilleras College of Nursing COPAR faculty-development report (2023), and WHO's 2023 meaningful-engagement framework. National University Philippines syllabus PDF remains a verification gap because its direct fetch timed out; a search result is not counted as full inspection.
 - Both topics remain **DRAFTED — NEEDS REVIEW**, not Verified Complete. They need link checking and an independent final review.
 - Next action: continue with the next unverified topic folder under the hierarchy, inspect its current file and sources, expand it to the full standard, reopen it, then update this log. Continue topic by topic; do not treat the existence of files in all folders as completion.
+
+
+## Research Cycle Log — 2026-10-17 (COPAR overview)
+
+- Updated `CHN, PHC/COPAR/RESEARCH NOTES.md` from an initial short note to a 15,722-character substantive overview and reopened the saved file successfully.
+- The overview covers definition, goals, core principles, functional workflow, community study methods and ethics, nursing role, prioritization/safety, PNLE distinctions, Philippine educational context and source limitations.
+- Directly inspected: Nurseslabs COPAR overview, WHO meaningful-engagement framework, and University of the Cordilleras College of Nursing COPAR faculty-development report. National University Philippines syllabus PDF remains unverified because the direct fetch timed out.
+- COPAR overview, Basic Principles of COPAR and Phases of COPAR are **DRAFTED — NEEDS REVIEW**, not Verified Complete.
+- Next action: continue with remaining topic folders under this subject using the full standard; research, cite, save, reopen and log each topic. Do not confuse 77 populated folders with 77 verified topics.
