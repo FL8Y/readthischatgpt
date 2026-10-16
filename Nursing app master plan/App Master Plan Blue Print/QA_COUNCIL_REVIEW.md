@@ -330,7 +330,7 @@ These are scores for planning readiness, not for a working application.
 - APKG builder tests, FSRS scheduler tests and Gizmo TypeScript typecheck remain unrun in this environment because a local checkout attempt could not resolve GitHub. Historical report counts remain documentation, not fresh test results.
 - No live Claude Code/Ruflo agents were spawned in this ChatGPT session; the work-package design is present but independent agent consensus is not claimed.
 - The full 1,790-entry archive manifest/split set and raw apktool.yml remain unavailable in the current repository evidence set.
-- The mastery thresholds are provisional and need independent learning-science review. The plan specifies scenario classes, but exact expected values for every fixture and a row-by-row requirement-to-contract-to-test map still need completion.
+- The mastery thresholds are provisional and need independent learning-science review. The ten mastery fixtures now have explicit expected outcomes, but independent review and executable test receipts remain outstanding.
 
 ### Current score trace
 See `1000_POINT_READINESS_TRACE.md` for the full evidence-backed scorecard. Current score is **790/1,000**, not 1,000/1,000. The plan cannot honestly receive 10/10 while the hard gates and blockers recorded there remain open. Security is not the main scoring driver; source integrity, learning behavior, architecture, requirements and QA evidence carry the majority of the weight.
@@ -373,18 +373,18 @@ Two standalone score artifacts were added briefly and then removed by subsequent
 
 ### Evidence-weighted 1000-point scorecard
 
-**Current audited score: 784/1,000 (78.4%). Target: 1,000/1,000. Verdict: NOT 10/10.** Scores reward specification quality and verifiable evidence; they do not imply that the app is implemented or runtime-tested. Cycle 6's provisional 820 figure is superseded: Cycle 7 caught that the former category weights summed to 1,050, not 1,000. The score has been recalculated with a corrected 1,000-point weighting; this is a scoring correction, not a quality regression.
+**Current audited score: 794/1,000 (79.4%). Target: 1,000/1,000. Verdict: NOT 10/10.** Scores reward specification quality and verifiable evidence; they do not imply that the app is implemented or runtime-tested. Cycle 6's provisional 820 figure is superseded: Cycle 7 caught that the former category weights summed to 1,050, not 1,000. The score has been recalculated with a corrected 1,000-point weighting; this is a scoring correction, not a quality regression.
 
 | Category | Weight | Current | Evidence-based reason points are not yet full |
 |---|---:|---:|---|
 | Source evidence and provenance | 125 | 88 | Both reports were fully read, but the Gizmo SDK contradiction and incomplete archive manifest prevent full source reconciliation. |
 | Requirements and traceability | 125 | 121 | R-001–R-034 have a requirement-to-contract/test-oracle matrix; independent audit and exact expected fixture outputs remain. |
 | Architecture coherence and decisions | 125 | 92 | Recommended defaults and alternatives exist; device matrix, provider support/cost, scheduler selection and empirical constraints remain unverified. |
-| Learning system and mastery | 125 | 100 | Diagnostic gate, evidence rules, deterministic plan order and scenario classes are explicit; thresholds are provisional and need independent learning-science review plus frozen fixture outputs. |
+| Learning system and mastery | 125 | 105 | Diagnostic gate, evidence rules, deterministic plan order and scenario classes are explicit; thresholds are provisional and need independent learning-science review plus frozen fixture outputs. |
 | Data model and service contracts | 100 | 90 | Canonical IDs, event history, answer-key boundary, idempotency, concurrency, migrations and exact mastery aggregation are specified; no executable contract tests ran. |
 | UX, accessibility and recovery | 75 | 60 | Main journeys and accessibility/recovery requirements are specified; screen-state inventory, usability evidence and assistive-tech/device checks remain. |
 | Nursing-content reliability | 75 | 60 | Source provenance and unsafe/unsupported-content handling are specified; authoritative source-class policy and independent clinical review remain. |
-| QA and reproducibility | 100 | 45 | Full report page counts and a partial archive comparison are verified; reference tests/typecheck could not run in this environment and the full archive remains unavailable. |
+| QA and reproducibility | 100 | 50 | Full report page counts and a partial archive comparison are verified; reference tests/typecheck could not run in this environment and the full archive remains unavailable. |
 | Agent coordination and handoffs | 75 | 60 | Work packages, ownership, evidence labels and boundaries are explicit; no live independent Claude Code agent review was run in this session. |
 | Repository integrity and navigation | 75 | 68 | Consolidation and current readbacks are maintained; final link/path scan must be recorded after this write and old historical count statements need to remain clearly marked historical. |
 | **Total** | **1,000** | **820** | **180 points remain unearned.** |
