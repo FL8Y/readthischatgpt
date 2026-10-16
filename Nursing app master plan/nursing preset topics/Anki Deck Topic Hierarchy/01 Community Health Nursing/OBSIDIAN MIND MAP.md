@@ -114,6 +114,7 @@ These are review prompts, not folders already verified as present:
 - [[Pillars of PHC]] — **Drafted — Needs Verification**
 - [[Sentrong Sigla Program]] — **Drafted — Needs Verification**
 - [[Education]] — **Drafted — Needs Verification**
+- [[Essential Drugs]] — **Drafted — Needs Verification**
   - [[Identify the Prevention]] — **Drafted — Needs Verification**
   - [[Competency-Based Teaching]] — **Drafted — Needs Verification**
   - [[Three Levels of Prevention]] — **Drafted — Needs Verification**
