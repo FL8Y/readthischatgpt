@@ -192,14 +192,51 @@ These are logical ownership boundaries, not a mandate to create one network micr
 **Response:** ordered plan items with reasons, evidence/confidence and estimated effort.  
 **Invariant:** priorities are explainable; weak evidence is not presented as certainty.
 
-## 11. Mastery and rewards model — decision required
+## 11. Mastery and rewards model — proposed v1 policy
 
-Do not adopt an arbitrary formula without documenting why. Compare:
-- simple recency-weighted topic accuracy;
-- item/difficulty-aware estimates;
-- a conservative evidence-count/confidence layer.
+The product requirements document defines learner-visible rules. This section defines the technical contract. The method below is **PROPOSED and provisional**, not empirically validated; an implementation agent may not replace it silently.
 
-The first version should be transparent and testable. Report accuracy, number/recency of attempts, question difficulty/coverage, review performance, estimated mastery and confidence separately. Sparse evidence remains “insufficient evidence” even when every answer is correct.
+### 11.1 Canonical evidence inputs
+- AttemptEvent: stable event ID, session ID, question ID/version, canonical concept/topic IDs, response outcome, difficulty, grading-rubric version, timestamp and event status.
+- ReviewEvent: stable event ID, card/content version, canonical concept/topic IDs, recall rating, scheduler version, timestamp and resulting scheduler state.
+- EvidencePolicyVersion: policy ID, parameters, effective date and migration/recalculation rules.
+- Diagnostic events remain available for initial adaptation but are kept separate from post-teaching mastery.
+- Duplicate/replayed events, voided attempts and superseded grading events must not count twice. Preserve history and record correction/regrading as a new event rather than destructively rewriting history.
+
+### 11.2 Proposed per-topic calculations
+For each topic, maintain separate projections for raw accuracy, recency-weighted accuracy, concept coverage, evidence sufficiency, confidence label and mastery label.
+
+For valid post-teaching evidence event i, define age in days as max(0, now - event timestamp). The provisional recency weight is w_i = 2^(-ageDays / 30), a 30-day half-life. Compute recency-weighted accuracy as sum(w_i * correct_i) / sum(w_i) over eligible events, after limiting repeat attempts on the same question version so a single item cannot dominate. The exact repeat-cap aggregation must be specified in the implementation task and covered by fixtures before code is authorized; default to one contribution per question-version/concept-family/session for the mastery projection while retaining every attempt in history.
+
+Concept coverage is distinct required concept clusters with valid evidence divided by total mapped required concept clusters, using the versioned topic-coverage blueprint. If mapping or source quality is unresolved, coverage is incomplete and high confidence is blocked.
+
+Use the proposed v1 evidence gates in PRODUCT_REQUIREMENTS_AND_UX.md: minimum 5 distinct question/concept-family IDs across 2 sessions for developing evidence; likely mastered requires 10 distinct IDs, 3 sessions, delayed retrieval at least 24 hours after initial learning, at least 80% coverage, recency-weighted performance at least 85%, and latest-session performance at least 80%. A separate confidence label expresses evidence sufficiency, not statistical certainty. Sparse perfect scores remain insufficient evidence.
+
+### 11.3 Required deterministic scenario fixtures
+The planning package must include fixtures and expected outputs for:
+1. Five correct answers in one session -> not likely mastered; insufficient evidence.
+2. Ten correct answers on one repeated question -> repeat cap prevents likely mastered; concept coverage remains low.
+3. Ten distinct correct question families across three sessions, at least 80% coverage and delayed retrieval at least 24 hours -> eligible for likely mastered if recency-weighted and latest-session thresholds pass.
+4. Old success followed by recent failures -> recency-weighted result falls and likely-mastered status is removed.
+5. Broad evidence with stale last retrieval -> confidence/mastery label reflects staleness and does not silently stay high.
+6. Perfect accuracy with less than 80% topic coverage -> not likely mastered.
+7. Ambiguous source mapping or a regraded/voided item -> high-confidence label blocked until evidence is corrected.
+8. Duplicate event replay -> no change to accuracy, coverage, rewards or review schedule.
+9. Changed policy version -> recomputation is deterministic and the previous projection remains auditable.
+10. Diagnostic-only success -> may shape the initial plan but cannot independently unlock likely mastered.
+
+The exact output of every fixture must be recorded in the test plan before implementation. These are product policy tests, not claims that the heuristic predicts real-world competence.
+
+### 11.4 Rewards and streak contract
+- Reward only unique, valid, committed learning events.
+- Use an idempotency key scoped to the source event and reward-policy version; replayed events cannot mint points twice.
+- Points, streaks and rank are motivational projections, not learning evidence; they never increase mastery.
+- Streak-day boundaries use the learner's configured time zone. Time-zone changes must be deterministic and must not delete history.
+- Repeating an already-completed activity may support practice but must not duplicate completion rewards.
+- A policy update is versioned and must define whether historical rewards are preserved or recalculated.
+
+### 11.5 Status and change control
+The above thresholds and half-life are provisional defaults selected for transparency and testability, not scientifically calibrated cutoffs. Validate against the scenario fixtures, obtain learning-science review, and record any change in DECISION_LOG.md with affected projections and migration/recalculation rules. Do not present a mastery percentage as clinical competency.
 
 ## 12. Transactions, concurrency, offline and migrations
 
