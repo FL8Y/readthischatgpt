@@ -34,6 +34,7 @@
     - [[Sentrong Sigla Program]]
   - [[Elements of Primary Health Care]]
   - [[Sanitation and Environmental Health]] — **Drafted — Needs Verification**
+  - [[Color and Type of Waste]] — **Drafted — Needs Verification**
   - [[Approved Types of Water Supply Facilities]] — **Drafted — Needs Verification**
   - [[Malnutrition]] — **Drafted — Needs Verification**
   - [[Nutrition]] — **Drafted — Needs Verification**
