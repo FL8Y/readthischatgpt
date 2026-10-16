@@ -44,5 +44,5 @@ Continue transferring archive entries in batches, then verify the final Git tree
 - Verification: source ZIP integrity passed; repository write verification not applicable because no payload files were uploaded.
 - Limitation: the available GitHub connector can create base64 blobs, but this session has no supported bridge to pass the mounted ZIP's exact binary bytes from the local archive into those GitHub writes, and the GitHub fetch connector explicitly does not support binary downloads. The container has no external network access for an authenticated Git push. Therefore exact binary transfer and content verification cannot be completed safely through the available path.
 - Unsupported/not transferred: all candidate Android resources in this batch, including 948 XML files, 10 DEX files, the compiled resource table, Android manifest, and packaged media/font assets. No files were overwritten.
-- Commit SHA: to be recorded after this log entry is committed.
+- Log-entry commit SHA: `4639e2ffda8989b0f6df252a8f500f973475c7fb` (the subsequent edit below records this original log-entry commit).
 - Status: BLOCKED — do not mark this batch complete until an authenticated binary-capable transfer path is available.
