@@ -1,0 +1,99 @@
+# Community Health Nursing — Obsidian Mind Map
+
+> Initial map generated from the repository's actual directory tree on 2026-10-17. Wiki-links are intended as navigational labels; they may need disambiguation because some topic names repeat in different branches. This map reflects existing folders only and does not imply research completion.
+
+- [[01 Community Health Nursing]]
+  - [[CHN, PHC]]
+    - [[COPAR]]
+      - [[Basic Principles of COPAR]]
+      - [[Phases of COPAR]]
+    - [[Clients of CHN]]
+    - [[DOH]]
+      - [[DOH Concepts]]
+      - [[Functions of DOH]]
+    - [[Family ADPIE]]
+      - [[Assessment]]
+      - [[Evaluation]]
+      - [[Implementation]]
+      - [[Planning]]
+        - [[Goal Setting]]
+        - [[Prioritization]]
+        - [[Scoring]]
+    - [[Health Promotion]]
+      - [[Diet]]
+      - [[Exercise]]
+      - [[Health Promotion]]
+      - [[Stop Smoking]]
+    - [[Magna Carta of Public Health Workers]]
+    - [[People Behind CHN]]
+    - [[Primary Health Care]]
+      - [[Basics of PHC]]
+      - [[Characteristics of PHC]]
+      - [[Elements of PHC]]
+      - [[Pillars of PHC]]
+    - [[Sentrong Sigla Program]]
+  - [[Elements of Primary Health Care]]
+    - [[Education]]
+      - [[Competency-Based Teaching]]
+      - [[Identify the Prevention]]
+      - [[Three Levels of Prevention]]
+    - [[Essential Drugs]]
+      - [[Herbal]]
+    - [[Expanded Program on Immunization]]
+      - [[Chikiting Ligtas]]
+      - [[Cold Chain and Logistics Management]]
+      - [[Elements of Immunization and Laws]]
+      - [[Principles and Nursing Responsibilities]]
+        - [[BCG]]
+        - [[Other Vaccines]]
+        - [[Pentavalent Vaccine]]
+      - [[Target Setting]]
+      - [[Vaccine Table]]
+    - [[Locally-Endemic Diseases]]
+      - [[Epidemiology]]
+      - [[FHSIS]]
+      - [[Population Pyramid]]
+      - [[Vital Statistics]]
+        - [[Common Vital Statistics]]
+        - [[Incidence vs Prevalence Rates]]
+        - [[Swaroops, Sex Ratio]]
+        - [[Vital Statistics Basic Concepts]]
+    - [[Maternal and Child Health]]
+      - [[Active Management of Third Stage of Labor]]
+      - [[Activities]]
+      - [[BEmOC and CEmOC]]
+      - [[EINC]]
+      - [[Newborn Screening]]
+      - [[Reproductive Health]]
+      - [[TT]]
+      - [[VAWC]]
+    - [[Nutrition]]
+      - [[Food Fortification Program]]
+      - [[Malnutrition]]
+    - [[Sanitation and Environmental Health]]
+      - [[Approved Types of Water Supply Facilities]]
+      - [[Color and Type of Waste]]
+      - [[Food Sanitation]]
+      - [[Health and Sanitation Laws]]
+      - [[Toilet Facility]]
+    - [[Treatment of Communicable and Noncommunicable Diseases and Emergency Services]]
+      - [[Emergency Services]]
+      - [[NCD]]
+  - [[Mental Health Program]]
+
+## Cross-cutting research branches to evaluate for coverage
+These are review prompts, not folders already verified as present:
+- Philippine public health laws and current DOH administrative issuances
+- Epidemiology, surveillance, outbreak investigation, and notifiable diseases
+- Community assessment, diagnosis, planning, implementation, and evaluation
+- Maternal, newborn, child, adolescent, reproductive, and family health
+- Immunization, cold chain, vaccine safety, and current national schedules
+- Nutrition, food safety, water sanitation, waste management, and environmental health
+- Communicable and noncommunicable disease prevention and control
+- Community health indicators, vital statistics, rates, and calculations
+- Health education, behavior change, cultural safety, ethics, and prioritization
+- Disaster risk reduction, emergency preparedness, and community response
+
+## Research management
+- [[RESEARCH LOG]]
+- [[RESEARCH TOPIC GUIDE]]
