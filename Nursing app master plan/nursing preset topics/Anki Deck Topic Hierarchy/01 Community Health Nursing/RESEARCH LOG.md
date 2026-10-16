@@ -10,10 +10,10 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 19 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, and Sanitation and Environmental Health.
+- **Substantive topic drafts expanded:** 20 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, and Expanded Program on Immunization.
 - **Topics verified complete:** 0
-- **Folders still requiring substantive topic-specific expansion:** 58 (all 77 have a notes file, but most remain initial starter notes).
-- **Drafts awaiting source/content verification:** 19
+- **Folders still requiring substantive topic-specific expansion:** 57 (all 77 have a notes file, but most remain initial starter notes).
+- **Drafts awaiting source/content verification:** 20
 - **Research notes present:** 77/77; this is file presence, not research completion.
 - **Completion:** 0% verified topic research. No topic is marked Verified Complete.
 - **Mind map:** Existing Obsidian map reflects the folder hierarchy; status annotations, links and coverage audit still required.
@@ -151,8 +151,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: **Drafted — Needs Verification** | Required sections: definitions; Philippine TAMA/PITAHC context; evidence appraisal; adverse effects and interactions; special populations; nursing assessment/education/referral; product quality/regulatory checks; PNLE distinctions; sources.  
   Sources consulted: RA 8423 (TAMA of 1997), Lawphil; official PITAHC site (search surfaced current program information but homepage timed out on open); NCCIH *Safe Use of Complementary Health Products and Practices* (updated 16 Oct 2026); NCCIH *Herb-Drug Interactions* (Dec 2024); Philippine FDA eServices drug-registration portal. Important facts covered: legal definition/role of PITAHC; product-specific evidence/safety; interaction/contamination concerns; respectful disclosure, special-population caution and current regulatory verification. Research file: `Elements of Primary Health Care/Essential Drugs/Herbal/RESEARCH NOTES.md` (16,234 characters; reopened after save). Unresolved issues: PITAHC ten-plant directory and exact plant-specific indications/doses were not independently inspected; no specific dose or universal herb contraindication was asserted. Last action: expanded generic 2,323-character starter note into substantive safety-focused research and reopened saved file (2026-10-17). Next action: continue with the next topic folder; verify plant-specific primary sources before any detailed indication/dose claims.
 - [x] **Expanded Program on Immunization** — `Elements of Primary Health Care/Expanded Program on Immunization`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: EPI/NIP history and terminology; program objectives/components; schedule verification rule; screening; cold chain/logistics; safe administration; AEFI; contraindications/precautions; coverage/data quality; community engagement; Philippine context; PNLE distinctions; sources.  
+  Sources consulted: DOH CHD XI Immunization Program page; DOH-hosted *National Immunization Program Manual of Operations* support booklet “Conducting Immunization Sessions” (2023); WHO vaccine-safety Q&A (23 Sep 2025); WHO vaccine-safety/false-contraindications manual; WHO controlled-temperature-chain and immunization-device resources. Important facts covered: historic 1976 EPI launch/current NIP terminology; schedule must be checked against current DOH manual/circulars; cold-chain excursion hold/assessment; AEFI does not prove causation; coverage requires valid numerator/denominator. Research file: `Elements of Primary Health Care/Expanded Program on Immunization/RESEARCH NOTES.md` (17,639 characters; reopened after save). Unresolved issues: full current NIP manual and latest circulars must be checked before exact schedule/dose/route/threshold claims; 2023 booklet may be superseded in parts. Last action: expanded generic 2,369-character starter note into substantive program research and reopened saved file (2026-10-17). Next action: continue with Chikiting Ligtas and remaining vaccine-specific subtopics; verify all schedule tables against current DOH sources.
 - [x] **Chikiting Ligtas** — `Elements of Primary Health Care/Expanded Program on Immunization/Chikiting Ligtas`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 19/77; all nineteen remain Drafted — Needs Verification.
-- **Folders still requiring substantive expansion:** 58/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** 20/77; all twenty remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** 57/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -530,3 +530,14 @@ Every directory below was present in the repository's recursive tree at the init
 - Reopened the saved file and confirmed 16,234 characters, RA 8423, herb–drug interaction coverage and explicit PITAHC source-access limitation.
 - Status: **Drafted — Needs Verification**, not Verified Complete. The official PITAHC ten-plant directory and plant-specific indications/doses were not independently inspected; no unverified dose or universal contraindication was invented.
 - Next action: continue to the next individual topic folder and verify source links/plant-specific primary sources before any detailed claims.
+
+
+## Research Cycle Log — 2026-10-17 (Expanded Program on Immunization / NIP)
+
+- Re-read the mandatory CHN standard and inspected the existing EPI parent topic note.
+- Expanded `Elements of Primary Health Care/Expanded Program on Immunization/RESEARCH NOTES.md` from 2,369 characters to 17,639 characters.
+- Covered historical EPI/current NIP terminology, objectives/components, schedule-version control, screening, contraindications vs precautions, cold-chain/logistics, safe administration, AEFI, coverage/data quality, community engagement, Philippine context and PNLE distinctions.
+- Sources consulted: DOH CHD XI Immunization Program page; DOH-hosted 2023 *Conducting Immunization Sessions* booklet; WHO vaccine-safety Q&A (23 September 2025); WHO vaccine-safety/false-contraindications manual; WHO controlled-temperature-chain and immunization-device resources.
+- Reopened the saved file and confirmed 17,639 characters, AEFI and cold-chain sections.
+- Status: **Drafted — Needs Verification**, not Verified Complete. The complete current NIP manual and latest DOH circulars must be checked before using exact schedule, dose, route, threshold or reporting details. The 2023 booklet is supporting material, not proof that every table remains current.
+- Next action: continue with `Chikiting Ligtas`, then each vaccine-specific child topic and all other unchecked folders.
