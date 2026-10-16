@@ -167,3 +167,17 @@ Define each numerator, denominator, period and source. Method uptake alone is no
 3. **Republic of the Philippines.** *Republic Act No. 11223 — Universal Health Care Act* (2019), Lawphil. Broader context for integrated health services and primary care. https://lawphil.net/statutes/repacts/ra2019/ra_11223_2019.html
 
 **Evidence limitations:** RA 10354 text and the WHO family-planning fact sheet are listed as starting references; full text, current DOH family-planning manuals and method-specific eligibility guidance were not reviewed page by page in this cycle. Exact contraindications, drug interactions, schedules, service eligibility, adolescent consent/confidentiality and mandatory reporting requirements must be checked against current official Philippine guidance before clinical use. This is a substantive draft, **not Verified Complete**.
+
+
+## 13. PNLE high-yield distinctions
+
+- Reproductive health includes physical, mental and social well-being related to the reproductive system and processes; it is broader than contraception alone.
+- Family planning should be voluntary, informed and noncoercive. The client’s preferences, reproductive goals, medical eligibility and access barriers matter.
+- Contraceptive methods differ in effectiveness, duration, reversibility, user dependence, STI protection, contraindications and adverse effects. No single method is best for every person.
+- Condoms help reduce STI transmission risk; most other contraceptive methods do not provide STI protection. Dual protection may be appropriate depending on the client’s goals and circumstances.
+- Screening is not diagnosis. Positive STI screening or symptoms require appropriate assessment, treatment/referral and partner services according to current guidance.
+- Method-specific contraindications and interactions must be checked against current WHO/DOH eligibility guidance and product information; do not memorize a generic “all methods” contraindication list.
+- Respect informed choice, privacy and adolescent safeguarding/confidentiality rules; exact legal duties depend on the applicable Philippine law and case context.
+- RA 10354 is the Responsible Parenthood and Reproductive Health Act of 2012; use the primary statute and current implementing rules for legal questions.
+- A high contraceptive-uptake rate is not proof of program quality if consent, privacy, method choice or removal/switching access is poor.
+- Urgent symptoms, sexual violence or another immediate safety concern take priority over routine reproductive-health education or documentation.
