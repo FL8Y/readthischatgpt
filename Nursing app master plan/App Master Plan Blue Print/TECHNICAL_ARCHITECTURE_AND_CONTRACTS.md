@@ -197,7 +197,7 @@ These are logical ownership boundaries, not a mandate to create one network micr
 The product requirements document defines learner-visible rules. This section defines the technical contract. The method below is **PROPOSED and provisional**, not empirically validated; an implementation agent may not replace it silently.
 
 ### 11.1 Canonical evidence inputs
-- AttemptEvent: stable event ID, session ID, question ID/version, canonical concept/topic IDs, response outcome, difficulty, grading-rubric version, timestamp and event status.
+- AttemptEvent: stable event ID, session ID, question ID/version, stable concept-family ID, canonical concept/topic IDs, response outcome, difficulty, grading-rubric version, timestamp and event status.
 - ReviewEvent: stable event ID, card/content version, canonical concept/topic IDs, recall rating, scheduler version, timestamp and resulting scheduler state.
 - EvidencePolicyVersion: policy ID, parameters, effective date and migration/recalculation rules.
 - Diagnostic events remain available for initial adaptation but are kept separate from post-teaching mastery.
@@ -206,11 +206,11 @@ The product requirements document defines learner-visible rules. This section de
 ### 11.2 Proposed per-topic calculations
 For each topic, maintain separate projections for raw accuracy, recency-weighted accuracy, concept coverage, evidence sufficiency, confidence label and mastery label.
 
-For valid post-teaching evidence event i, define age in days as max(0, now - event timestamp). The provisional recency weight is w_i = 2^(-ageDays / 30), a 30-day half-life. Compute recency-weighted accuracy as sum(w_i * correct_i) / sum(w_i) over eligible events, after limiting repeat attempts on the same question version so a single item cannot dominate. The exact repeat-cap aggregation must be specified in the implementation task and covered by fixtures before code is authorized; default to one contribution per question-version/concept-family/session for the mastery projection while retaining every attempt in history.
+For each question-version/concept-family/session tuple, select the latest valid graded attempt as the sole attempt contributing to the mastery projection; retain every attempt in the immutable history. This means repeating one item within a session cannot multiply its weight, and repeating the same concept family in many sessions still cannot satisfy the distinct-family evidence gate. For each eligible post-teaching graded attempt i, define age in days as max(0, now - event timestamp). The provisional recency weight is w_i = 2^(-ageDays / 30), a 30-day half-life. Compute recency-weighted accuracy as sum(w_i * correct_i) / sum(w_i). ReviewEvent ratings are summarized separately and provide delayed-retrieval evidence; they are not treated as binary correct/incorrect attempts.
 
 Concept coverage is distinct required concept clusters with valid evidence divided by total mapped required concept clusters, using the versioned topic-coverage blueprint. If mapping or source quality is unresolved, coverage is incomplete and high confidence is blocked.
 
-Use the proposed v1 evidence gates in PRODUCT_REQUIREMENTS_AND_UX.md: minimum 5 distinct question/concept-family IDs across 2 sessions for developing evidence; likely mastered requires 10 distinct IDs, 3 sessions, delayed retrieval at least 24 hours after initial learning, at least 80% coverage, recency-weighted performance at least 85%, and latest-session performance at least 80%. A separate confidence label expresses evidence sufficiency, not statistical certainty. Sparse perfect scores remain insufficient evidence.
+Use the proposed v1 evidence gates in PRODUCT_REQUIREMENTS_AND_UX.md: minimum 5 distinct question/concept-family IDs across 2 sessions for developing evidence; likely mastered requires 10 distinct IDs, 3 sessions, delayed retrieval at least 24 hours after initial learning, at least 80% coverage, recency-weighted performance at least 85%, and latest-session performance at least 80%. A separate confidence label depends only on evidence quantity/diversity, session count, delayed retrieval, concept coverage and source/mapping quality—not correctness. The mastery label separately applies accuracy thresholds. Sparse perfect scores remain insufficient evidence.
 
 ### 11.3 Required deterministic scenario fixtures
 The planning package must include fixtures and expected outputs for:
