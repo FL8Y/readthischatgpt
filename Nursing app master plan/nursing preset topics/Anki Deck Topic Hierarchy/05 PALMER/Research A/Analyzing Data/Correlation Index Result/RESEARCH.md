@@ -1,27 +1,68 @@
 # Correlation Coefficients and Interpretation — Nursing Research
 
 ## Meaning
-Correlation quantifies the direction and strength of association between variables. Pearson's r measures linear association between numeric variables; Spearman's rho measures rank-based monotonic association and can suit ordinal data or non-normal relationships. Choice depends on design, scale, assumptions, and outliers.
 
-## Interpretation
-- Coefficient ranges from -1 to +1.
-- Positive values: higher values of one variable tend to accompany higher values of the other.
-- Negative values: higher values of one tend to accompany lower values of the other.
-- Values near zero indicate little linear (Pearson) or monotonic (Spearman) association, not necessarily no relationship of any form.
-- Magnitude labels such as weak/moderate/strong are context-dependent; there is no universal cutoff.
+Correlation quantifies the direction and strength of association between variables. It does not, by itself, establish that one variable causes another. Interpretation depends on the coefficient, measurement scale, data pattern, sample, outliers, and design.
 
-## Cautions
-Correlation does **not** prove causation. Confounding, selection bias, restricted range, measurement error, nonlinear relationships, and outliers can distort results. Statistical significance is not the same as clinical importance. Report the coefficient, sample size, confidence interval and p-value when available, and interpret in context.
+## Common coefficients
+
+| Coefficient | Typical use | Interpretation / caution |
+|---|---|---|
+| **Pearson's r** | Linear association between two numeric variables under appropriate assumptions. | Ranges from −1 to +1; sensitive to outliers and may miss nonlinear relationships. |
+| **Spearman's rho (ρ)** | Rank-based monotonic association; useful for ordinal data or when Pearson's assumptions are unsuitable. | Ranges from −1 to +1; detects monotonic association, not every possible nonlinear pattern. |
+| **Kendall's tau (τ)** | Rank-based association, often useful for ordinal data and some sample structures. | Interpretation and magnitude differ from Pearson r; ties and sample characteristics matter. |
+| **Point-biserial correlation** | Association between a continuous variable and a genuinely dichotomous variable under suitable conditions. | Equivalent to Pearson correlation with 0/1 coding in the standard setup; interpret coding and assumptions. |
+
+## Direction and strength
+
+- **Positive correlation:** higher values of one variable tend to occur with higher values of the other.
+- **Negative correlation:** higher values of one variable tend to occur with lower values of the other.
+- **Near zero:** little linear association for Pearson r; it does not rule out a nonlinear relationship.
+- **Magnitude:** values closer to −1 or +1 indicate stronger association for Pearson r, but practical interpretation depends on field, measurement reliability, range restriction, and context.
+
+Do not use a universal “weak/moderate/strong” cutoff without explaining the convention. A small correlation can matter in a large population or as part of a broader model; a large correlation may be clinically irrelevant or driven by bias.
+
+## Correlation coefficient versus coefficient of determination
+
+For Pearson's r in a simple linear context, **r²** is the proportion of sample variation in one variable associated with the fitted linear relationship with the other variable. It is not the percentage of one variable causally explained by the other, and its interpretation is more limited outside the simple linear setting.
+
+## Essential checks before interpreting
+
+1. Plot the data (e.g., scatterplot) to inspect shape, outliers, clusters, and nonlinearity.
+2. Check whether the coefficient matches the scale and research question.
+3. Consider measurement error, restricted range, selection bias, and confounding.
+4. Report the coefficient with sample size and, where appropriate, confidence interval and p-value.
+5. Interpret magnitude and uncertainty, not only statistical significance.
+6. Avoid causal language unless the design and assumptions support causal inference.
+
+## Common pitfalls
+
+- **Correlation is not causation:** a third variable may influence both, or the direction may be reversed.
+- **Outliers:** one or two points can strongly affect Pearson r.
+- **Nonlinear pattern:** Pearson r may be near zero even when a clear curved relationship exists.
+- **Restricted range:** limiting the sample's range can reduce observed correlation.
+- **Ecological fallacy:** a group-level association may not hold for individuals.
+- **Multiple testing:** testing many pairs increases false-positive risk.
+- **Coding errors:** reverse-coded scales or inconsistent units can alter direction and magnitude.
 
 ## Nursing example
-An association between nurse staffing and patient outcomes may be influenced by acuity, hospital resources, and case mix. Observational correlation alone cannot prove that one factor caused the outcome.
 
-## PNLE high-yield
-- r = +0.80: strong positive linear association in many contexts, not “80% caused by.”
-- r = -0.70: negative association.
-- r = 0: no linear association by Pearson; nonlinear association may still exist.
-- Correlation coefficient is not a percentage and is not a causal estimate.
+A study finds that nurse staffing level and patient falls are correlated. This association alone cannot prove staffing caused the difference. Patient acuity, unit type, reporting practices, and other factors may influence both staffing and falls. Examine the design, measurement, temporal order, and confounder handling before drawing a causal conclusion.
 
-## References
-- NIST/SEMATECH, e-Handbook of Statistical Methods: https://www.itl.nist.gov/div898/handbook/
-- OpenStax, Introductory Statistics: https://openstax.org/details/books/introductory-statistics
+## Sources
+
+- NIST/SEMATECH, **e-Handbook of Statistical Methods**: https://www.itl.nist.gov/div898/handbook/
+- OpenStax, **Introductory Statistics 2e**: https://openstax.org/details/books/introductory-statistics-2e
+- Cochrane Handbook, Chapter 6, **Choosing effect measures and computing estimates of effect**: https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-06
+
+## PNLE high-yield review
+
+- Pearson r describes linear association; Spearman rho/Kendall tau are rank-based.
+- Positive = same direction; negative = opposite direction.
+- r near zero does not exclude nonlinear association.
+- r² is not a causal percentage.
+- Correlation alone does not establish causation; consider confounding, measurement, design, and outliers.
+
+## Scope note
+
+Coefficient choice and interpretation depend on data type, design, and assumptions. For complex data or causal questions, consult a statistician and use a suitable model.
