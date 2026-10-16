@@ -144,3 +144,4 @@ All other topic folders require their own substantive research and logged verifi
 - [[Food Sanitation]] — **Drafted — Needs Verification**
 - [[Locally-Endemic Diseases]] — **Drafted — Needs Verification**
   - [[FHSIS]] — **Drafted — Needs Verification**
+- [[Epidemiology]] — **Drafted — Needs Verification**
