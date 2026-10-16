@@ -28,13 +28,13 @@ Counts below are derived from the topic checklist, not estimated.
 | Metric | Count |
 |---|---:|
 | Topics inventoried | 295 |
-| Researched | 121 |
+| Researched / drafted | 131 |
 | Verified | 0 |
 | Incomplete / not yet researched | 295 (inventory includes organizational parents) |
-| Remaining | 295 (121 topic-specific draft files exist; 115 leaf topic folders remain without a dedicated research file; all drafts require verification) |
+| Remaining | 295 directories inventoried; 131 topic-specific draft files exist; 105 leaf topic folders remain without a dedicated research file; all drafts require verification |
 | Evidence-based completion | 0% |
 
-**Status note:** This is an initial inventory, not a claim that the medical-surgical curriculum is complete. Research and source verification are still pending.
+**Status note:** Draft count is not verified completion. The current source-to-claim and uploaded-file audits remain pending; verified topics: 0.
 
 ## Topic-by-topic checklist
 
