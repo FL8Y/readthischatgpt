@@ -9,9 +9,9 @@
   "stem": "Which action should the nurse take first?",
   "options": [
    "Stay with the client and ask directly whether there is a plan and intent to end their life",
-   "Ask the client to sign a written no-harm agreement before leaving the day room",
-   "Document the statement and report it to the provider at the end of the shift",
-   "Reassure the client that these feelings pass and invite them to the afternoon group"
+   "Ask the client to sign a written no-harm agreement and then return to the day room until later",
+   "Document the statement carefully and report it to the provider during end-of-shift handoff",
+   "Reassure the client that these feelings usually pass and invite them to join the afternoon group"
   ],
   "answerIndex": 0,
   "strategyTag": "Safety first, then rapport",
@@ -38,10 +38,10 @@
   "vignette": "A 27-year-old client with generalized anxiety is admitted to the unit for the first time. While the nurse is orienting the client to the day room, the client looks at other clients and says, 'I just know everyone here thinks I'm crazy.' The client is wringing their hands and speaking quickly.",
   "stem": "Which response by the nurse is most therapeutic?",
   "options": [
-   "'Why do you think that everyone here thinks you are crazy?'",
+   "'Why do you think the other clients here think you are crazy?'",
    "'It sounds like you are worried about how others see you.'",
-   "'Nobody here thinks that; everyone on this unit is very kind.'",
-   "'Let's not focus on that. Come see the activity schedule.'"
+   "'I'm sure they don't think that; the people on this unit are very kind.'",
+   "'Let's not focus on that. Come and see the activity schedule for today.'"
   ],
   "answerIndex": 1,
   "strategyTag": "Communication: reflect and explore",
@@ -49,7 +49,7 @@
   "optionRationales": [
    "A 'why' question can sound accusatory and puts the client on the spot; it tempts because it seems to explore.",
    "Correct. It names the feeling, shows the nurse is listening, and invites the client to say more.",
-   "Reassuring and kind in tone, but it dismisses the feeling and the nurse cannot speak for everyone; this is false reassurance.",
+   "Reassuring and kind in tone, but it dismisses the feeling and the nurse cannot know what others think; this is false reassurance.",
    "Changes the subject and avoids the concern; tempting because it looks like helpful orientation."
   ],
   "keyFacts": [
@@ -68,10 +68,10 @@
   "vignette": "A nurse in the emergency department assists with a 45-year-old man brought in after a fall from a ladder. He responds only to pain, has loud snoring respirations, and a small scalp laceration with minor oozing. His oxygen saturation is falling slowly. A cervical collar has been applied.",
   "stem": "Which action should the nurse perform first?",
   "options": [
-   "Apply a pressure dressing to the scalp laceration",
-   "Obtain intravenous access and begin an infusion",
-   "Open the airway using a jaw-thrust manoeuvre",
-   "Perform a full neurological assessment with the Glasgow Coma Scale"
+   "Apply a pressure dressing to the scalp laceration to control the oozing",
+   "Obtain intravenous access and start an infusion to support circulation",
+   "Open the airway with a jaw-thrust manoeuvre while keeping the neck still",
+   "Perform a full neurological assessment using the Glasgow Coma Scale first"
   ],
   "answerIndex": 2,
   "strategyTag": "ABC: airway first",
@@ -98,10 +98,10 @@
   "vignette": "A nurse is on a medical unit during the dinner hour. A 68-year-old client who was eating suddenly grabs their throat, cannot speak, makes no sound when trying to cough, and has a panicked expression. The client's lips are beginning to look dusky.",
   "stem": "What should the nurse do immediately?",
   "options": [
-   "Ask the client to try to speak and then assess the breath sounds",
+   "Ask the client to speak again and then assess the breath sounds",
    "Leave the client to call the rapid response team before intervening",
    "Encourage the client to cough forcefully while a suction set is gathered",
-   "Perform abdominal thrusts until the object is expelled or the client collapses"
+   "Start abdominal thrusts and continue until the object is expelled"
   ],
   "answerIndex": 3,
   "strategyTag": "Exception: emergency overrides assess-first",
@@ -128,9 +128,9 @@
   "vignette": "A nurse on a psychiatric unit is starting the shift and receives report on four clients. Each client is due for an assessment within the next hour, and the nurse must decide the order. Client details are summarised in the options.",
   "stem": "Which client should the nurse see first?",
   "options": [
-   "A client with schizophrenia who is stable and is asking about a supervised outdoor break",
-   "A client who started an antipsychotic medication last week and now has a fever, muscle rigidity, sweating and new confusion",
-   "A client with major depression who is tearful and wants to talk about difficulties at home",
+   "A client with schizophrenia who is stable and is asking about a supervised outdoor break after lunch",
+   "A client started on an antipsychotic last week who now has fever, muscle rigidity, sweating and confusion",
+   "A client with major depression who is tearful and wants to talk about ongoing difficulties at home",
    "A client with panic disorder who is pacing and asking for a prescribed as-needed medication"
   ],
   "answerIndex": 1,
@@ -158,10 +158,10 @@
   "vignette": "A nurse in a medical-surgical unit is assessing four clients being treated for infections. Over the last two hours, one client with pneumonia has become newly restless and confused, has a rising respiratory rate and heart rate, and a blood pressure lower than at the previous check. The nurse is deciding what to report first.",
   "stem": "Which assessment finding requires the nurse's most urgent follow-up?",
   "options": [
-   "New confusion with falling blood pressure and rising heart rate in the client with pneumonia",
-   "A temperature that is unchanged from the morning in a client with a urinary infection",
-   "A cough producing the same amount of sputum in a client recovering from pneumonia",
-   "A client who reports a poor appetite on the third day of antibiotic therapy"
+   "New confusion with falling blood pressure and rising heart rate in the client who has pneumonia",
+   "A temperature that is unchanged from the morning in a client being treated for a urinary infection",
+   "A cough producing the same amount of sputum as yesterday in a client recovering from pneumonia",
+   "A report of poor appetite on the third day of antibiotic therapy in a client with cellulitis"
   ],
   "answerIndex": 0,
   "strategyTag": "Unstable before stable",
@@ -188,9 +188,9 @@
   "vignette": "A charge nurse on an inpatient mental health unit is assigning tasks for the shift. Staff available include a registered nurse and an unlicensed assistive personnel. One client was admitted this morning after expressing suicidal thoughts, one is anxious after a family argument, one received a prn antianxiety medication an hour ago, and one is stable and under routine observation.",
   "stem": "Which task is most appropriate to delegate to the unlicensed assistive personnel?",
   "options": [
-   "Assess the newly admitted client for current suicide risk",
-   "Teach coping skills to the client who is anxious after the argument",
-   "Evaluate whether the prn antianxiety medication relieved the symptoms",
+   "Assess the newly admitted client for current suicide risk and level of observation",
+   "Teach coping skills to the client who is anxious after the family argument today",
+   "Evaluate whether the prn antianxiety medication relieved the client's symptoms",
    "Measure and record the vital signs of the stable client under routine observation"
   ],
   "answerIndex": 3,
@@ -218,10 +218,10 @@
   "vignette": "A nurse in a mental health clinic is following a 40-year-old client who has been taking lithium for bipolar disorder for several weeks. The client reports several new symptoms at the visit. The nurse needs to decide which report indicates a problem that needs the provider's prompt attention.",
   "stem": "Which client report requires follow-up?",
   "options": [
-   "Increased thirst and urination during the first week of therapy",
-   "A slight fine tremor of the hands that is not bothersome",
-   "Persistent vomiting and diarrhea with unsteady walking and drowsiness",
-   "Mild nausea that improves when the medication is taken with meals"
+   "Increased thirst and urination that began during the first week of therapy",
+   "A slight fine tremor of the hands that is not bothersome to the client",
+   "Persistent vomiting and diarrhea with unsteady walking and new drowsiness",
+   "Mild nausea that improves when the medication is taken with meals and a snack"
   ],
   "answerIndex": 2,
   "strategyTag": "Therapeutic vs adverse",
@@ -278,8 +278,8 @@
   "vignette": "A nurse admits a 52-year-old woman with severe depression who has barely eaten or drunk anything for three days. She has dry mucous membranes, dizziness when she stands, and says she feels worthless. She denies thoughts of self-harm when asked directly. She also says she has been isolated from friends and sleeping poorly.",
   "stem": "Which problem should the nurse address first?",
   "options": [
-   "Feelings of worthlessness and low self-esteem",
-   "Social isolation and loss of friendships",
+   "Persistent feelings of worthlessness and low self-esteem",
+   "Social isolation and loss of contact with friends",
    "Fluid volume deficit related to poor oral intake",
    "Disturbed sleep pattern related to depression"
   ],
@@ -308,10 +308,10 @@
   "vignette": "A nurse is monitoring a 29-year-old man after a road traffic injury with internal bleeding. He has received fluids and blood products. At the last two checks he was anxious, with a fast pulse and cool pale skin. The nurse now compares the new findings with the earlier trend to decide whether he is getting worse.",
   "stem": "Which finding best indicates the shock is progressing despite treatment?",
   "options": [
-   "Reports of thirst and a dry mouth that are the same as before",
-   "Cool, pale hands that are unchanged from the earlier assessments",
-   "Urine output that has remained steady and adequate since the last check",
-   "New drowsiness with a falling blood pressure while the heart rate keeps rising"
+   "Reports of thirst and a dry mouth that are the same as at earlier checks",
+   "Cool, pale hands and skin that are unchanged from the earlier assessments",
+   "Urine output that has remained steady and adequate since the last two checks",
+   "New drowsiness with a falling blood pressure as the heart rate keeps rising"
   ],
   "answerIndex": 3,
   "strategyTag": "Expected vs unexpected finding",
@@ -338,9 +338,9 @@
   "vignette": "A nurse is assisting at the scene of a bus collision with many casualties, using a simple field triage system based on walking ability, breathing, circulation and mental status. Four casualties are assessed in sequence by the nurse.",
   "stem": "Which casualty should be classified for immediate treatment and transport first?",
   "options": [
-   "A casualty who is walking around with an abrasion on the forearm",
-   "A casualty with rapid shallow breathing who is unable to follow simple commands",
-   "A casualty who is not breathing even after the airway is repositioned",
+   "A casualty who is walking around with a small abrasion on the forearm",
+   "A casualty with rapid, shallow breathing who cannot follow simple commands",
+   "A casualty who is not breathing even after the airway has been repositioned",
    "A casualty with an obvious forearm fracture who is alert and breathing normally"
   ],
   "answerIndex": 1,
@@ -368,10 +368,10 @@
   "vignette": "A nurse enters a client's room on a medical unit and finds a 70-year-old client lying motionless in bed. The call light was not used, the monitor is not attached and nobody else is in the room. The nurse is certain the client was fine at the previous round.",
   "stem": "Which action should the nurse take first?",
   "options": [
-   "Apply defibrillator pads to the client's chest",
-   "Begin giving rescue breaths with a bag-mask",
-   "Check responsiveness by tapping and shouting while looking for normal breathing",
-   "Insert an oral airway to keep the tongue from obstructing"
+   "Apply defibrillator pads to the client's chest and analyse the rhythm",
+   "Begin giving rescue breaths with a bag-mask and an oxygen source",
+   "Check responsiveness by tapping, shouting and checking breathing",
+   "Insert an oral airway to keep the tongue from obstructing the airway"
   ],
   "answerIndex": 2,
   "strategyTag": "Confirm the emergency first",
@@ -398,10 +398,10 @@
   "vignette": "An adult client on a psychiatric unit, admitted voluntarily for depression and judged able to make decisions, tells the nurse, 'I'm not taking that pill today. It makes me feel foggy.' The client is calm, not at risk of harming anyone, and is speaking clearly.",
   "stem": "Which action by the nurse is most appropriate?",
   "options": [
-   "Explore the client's concerns, avoid forcing the medication, and inform the provider of the refusal",
-   "Tell the client that refusing medication will delay discharge",
-   "Administer the medication by another route since the client is on a psychiatric unit",
-   "Document the refusal and take no further action since it is the client's right"
+   "Explore the client's concerns, avoid forcing the medication and tell the provider about it",
+   "Tell the client that refusing the medication will delay discharge from the unit this week",
+   "Administer the medication by another route, since the client is on a psychiatric unit",
+   "Document the refusal and take no further action, because it is the client's right to refuse"
   ],
   "answerIndex": 0,
   "strategyTag": "Ethics: autonomy and advocacy",
@@ -429,9 +429,9 @@
   "stem": "Which client statement indicates that more teaching is needed?",
   "options": [
    "'I will ask the pharmacist before taking any cold or allergy medicine.'",
-   "'I will avoid foods such as aged cheeses and cured meats.'",
-   "'I should stand up slowly because I could feel dizzy.'",
-   "'Eating small amounts of aged cheese is fine as long as it is not every day.'"
+   "'I will avoid foods such as aged cheeses, cured meats and fermented foods.'",
+   "'I should stand up slowly from lying or sitting because I could feel dizzy.'",
+   "'Small amounts of aged cheese are fine as long as I do not eat them daily.'"
   ],
   "answerIndex": 3,
   "strategyTag": "Teaching: teach-back accuracy",
@@ -458,10 +458,10 @@
   "vignette": "A nurse on an adult mental health unit was present when a client shouted at another client, raised a fist and was then guided to a quiet room by staff. The client calmed after 20 minutes. The nurse must complete the entry in the record after the incident.",
   "stem": "Which entry is the best example of correct documentation?",
   "options": [
-   "'Client was hostile and manipulative and tried to start a fight with another client.'",
-   "'Client shouted, \"I'll hit you,\" and raised a fist toward a peer. Staff guided client to the quiet room; client calm after about 20 minutes.'",
-   "'Client probably felt angry because of the delusions and had a bad day.'",
-   "'Incident report completed; no further comment needed in the chart.'"
+   "'Client was hostile and manipulative, tried to start a fight with another client and had to be controlled by staff.'",
+   "'Client shouted, \"I'll hit you,\" and raised a fist at a peer. Guided to quiet room by staff; calm after 20 minutes.'",
+   "'Client probably felt angry because of the delusions and had a bad day after a difficult morning with others.'",
+   "'Incident report completed and sent to the manager; no further comment is needed in the client's chart.'"
   ],
   "answerIndex": 1,
   "strategyTag": "Documentation: factual and timely",
@@ -488,17 +488,17 @@
   "vignette": "A nurse brings a meal tray to a 31-year-old client with paranoid schizophrenia. The client pushes the tray away and says, 'You people are putting poison in my food.' The client is trembling and glancing around the room, but is not threatening anyone.",
   "stem": "Which response by the nurse is best?",
   "options": [
-   "'That is not true. Nobody here would poison your food.'",
-   "'Tell me all about who is poisoning you and how they do it.'",
-   "'I can see you are frightened. I do not believe the food is poisoned, and I will stay with you while you decide.'",
-   "'Why do you think we would want to poison you?'"
+   "'That is not true. Nobody here would poison your food, and you need to eat something.'",
+   "'Tell me more about who you think is poisoning you, how they do it and when it started.'",
+   "'You seem frightened. I do not believe the food is poisoned, and I will stay with you.'",
+   "'Why do you think the staff on this unit would want to poison you or your food?'"
   ],
   "answerIndex": 2,
   "strategyTag": "Acknowledge feeling, stay calm",
   "reasoning": "1) Identify the item type: responding to a delusion. 2) Do not argue with, agree with or build on the delusion. 3) Acknowledge the feeling (fear), state the nurse's own perception calmly and offer presence. 4) Arguing with the client tends to increase mistrust. 5) Asking for elaboration may reinforce the delusion. 6) 'Why' questions invite defensiveness. 7) Decision: acknowledge the fear, state reality briefly, stay with the client.",
   "optionRationales": [
    "Direct denial and argument; it may increase mistrust.",
-   "Encourages detailed elaboration and can reinforce the delusion.",
+   "Encourages the client to elaborate on the delusion in detail, which can reinforce it.",
    "Correct. It acknowledges the emotion, presents reality without arguing and offers support.",
    "A 'why' question implies accusation and invites defensiveness."
   ],
@@ -548,10 +548,10 @@
   "vignette": "A nurse in the intensive care unit is caring for a 62-year-old client with sepsis from an abdominal infection. Overnight, the client's urine output has fallen, and the morning laboratory report is received. The nurse reviews the results to find which indicate that more than one organ system is being affected.",
   "stem": "Which set of findings most strongly suggests developing multi-organ dysfunction?",
   "options": [
-   "Rising creatinine with falling urine output and a new decrease in platelet count",
-   "A mildly raised white blood cell count with a fever",
-   "A slightly lowered appetite and mild nausea",
-   "A heart rate that rises slightly when the client is turned"
+   "Rising creatinine, falling urine output and a new drop in platelet count",
+   "A mildly raised white blood cell count together with a low-grade fever",
+   "A slightly lowered appetite and mild nausea since the previous evening",
+   "A heart rate that rises slightly when the client is turned or repositioned in bed"
   ],
   "answerIndex": 0,
   "strategyTag": "Lab: link result to risk",
