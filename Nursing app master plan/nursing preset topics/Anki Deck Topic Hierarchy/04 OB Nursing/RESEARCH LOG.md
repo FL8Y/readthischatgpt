@@ -141,3 +141,10 @@ The updated full research standard was reread in this cycle. Its key acceptance 
 
 ### Exact next action
 Reopen the five updated files and confirm the inserted notes are present. Then continue claim-by-claim source audit of emergency topics, starting with PPROM, cord prolapse, shoulder dystocia and postpartum hemorrhage; record each verified claim and any corrections. Continue topic-by-topic across all 35 files until each meets the full guide, then run another recursive tree audit. No background execution is implied.
+
+
+### Additional source checks and file updates (2026-10-17)
+- **Gestational diabetes:** Opened ADA *Standards of Care in Diabetes—2026*, section 15. Checked that ADA prefers insulin for GDM, advises against metformin/glyburide as first-line because they cross the placenta, and recommends postpartum 75-g OGTT at 4–12 weeks plus lifelong screening every 1–3 years. Updated the GDM research file to explicitly attribute this difference from WHO 2025 rather than blending the recommendations.
+- **Hypertensive disorders / legacy “Toxemia” folder:** Opened WHO's pre-eclampsia fact sheet (6 October 2026), confirming the broad after-20-weeks pattern and magnesium sulfate's role in reducing eclampsia risk. Updated the topic file with a verification note; full diagnostic threshold, antihypertensive and magnesium toxicity checks remain pending.
+- Updated topic files this cycle: Abortion, Cord Prolapse, PPROM, Shoulder Dystocia, Postpartum Changes, Gestational Diabetes and Toxemia. All edits are scoped within 04 OB Nursing. These are source notes and targeted improvements, not claims that those topics passed the entire quality gate.
+- **Next action:** Reopen all seven modified files and check the inserted notes; then verify the full management details in Toxemia (severe hypertension, magnesium sulfate toxicity/monitoring and antidote), Gestational Diabetes (local diagnostic framework and postpartum follow-up), and Postpartum Changes (WHO 2025 PPH recommendations). Continue through the rest of the 35 topic files with the same evidence standard.
