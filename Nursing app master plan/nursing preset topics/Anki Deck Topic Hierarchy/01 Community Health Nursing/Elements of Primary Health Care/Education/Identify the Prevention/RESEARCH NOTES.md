@@ -134,3 +134,48 @@ The prevention framework is a general public-health classification. Actual scree
 4. **World Health Organization.** *Primary health care: Questions and answers* (11 August 2022). Confirms PHC includes prevention, promotion, treatment, rehabilitation and palliation. https://www.who.int/news-room/questions-and-answers/item/primary-health-care
 
 **Evidence limitations:** WHO pages and source extracts were inspected; final full-text and link verification remains. Exact classifications can vary by framework and target outcome; this note makes that ambiguity explicit. Current Philippine program schedules, clinical thresholds and treatment instructions must be checked in their specific official sources. This is a substantive draft, **not Verified Complete**.
+
+## 12. Applied classification drill (PNLE-style practice)
+
+For each case, identify the target condition, the stage being targeted, the prevention level, and the safety/follow-up issue. These are original study scenarios, not quotations from an exam.
+
+| Scenario | Best classification | Reasoning and trap |
+|---|---|---|
+| A barangay team offers eligible children routine vaccination before exposure/disease. | Primary | Prevents the target infection before it occurs. Verify the current product-specific schedule, eligibility and precautions. |
+| An asymptomatic adult in the eligible group receives a guideline-supported blood-pressure screening and is referred after an abnormal result. | Secondary | The aim is early detection; the reading alone does not establish a definitive diagnosis. |
+| A person with diagnosed diabetes receives foot assessment, glycemic-management support and education to reduce ulcer/amputation risk. | Tertiary relative to diabetes | The condition is established; the aim is to prevent complications. The foot check may also identify a new problem early, so explain the target when classifying. |
+| A school/community program reduces tobacco initiation among adolescents. | Primary | The target is preventing onset of tobacco use and related disease risk. |
+| A client with stroke-related weakness receives rehabilitation and support for activities of daily living. | Tertiary | The stroke/injury is established; the goal is function and reduced disability. |
+| A newborn is screened for a treatable congenital metabolic disorder and a positive result is sent for confirmation. | Secondary | The condition may already exist; screening seeks early identification and timely intervention. A positive screen is not a diagnosis. |
+| A person with chest pain and severe shortness of breath arrives during a scheduled community screening event. | Not a routine prevention-level exercise; urgent assessment first | Emergency assessment and escalation take priority. Do not complete the screening workflow before arranging urgent care. |
+| A community improves safe-water infrastructure to reduce diarrheal disease exposure. | Primary | The action reduces exposure before illness occurs; it also addresses a structural determinant. |
+| A person with confirmed hypertension receives ongoing treatment and monitoring to reduce stroke and kidney complications. | Tertiary relative to established hypertension | The disease is established and care aims to prevent consequences. Do not confuse this with screening an undiagnosed person. |
+| Contact investigation tests eligible close contacts after an infectious case is identified. | Often secondary for early case-finding; the wider response may include primary prevention | The exact classification depends on whether the question targets early detection of infection or preventing transmission/new cases. State the intended outcome. |
+
+### Quick decision sequence
+1. **Name the target:** What disease, injury, complication or risk behavior is the question about?
+2. **Ask whether it already exists:** If not, risk reduction is usually primary prevention. If it may already exist but has not been identified, early detection is usually secondary. If established, reducing complications/disability is usually tertiary.
+3. **Name the intended outcome:** prevention of onset, early identification/prompt intervention, or limitation of consequences.
+4. **Check for a second target:** one activity may be primary for one outcome and secondary/tertiary for another.
+5. **Check the care pathway:** screening requires confirmatory assessment and follow-up; rehabilitation requires reassessment and escalation for deterioration.
+6. **Check safety first:** red flags and unstable conditions override routine prevention activities.
+
+## 13. Evidence-use and update protocol
+
+This topic's concepts are stable, but the **specific interventions used as examples are not all stable**. To keep the note safe and current:
+- Verify each screening recommendation against the latest official guidance for the condition and target population before presenting it as recommended practice.
+- For vaccination examples, use the latest Philippine DOH/National Immunization Program guidance and product-specific contraindications/precautions.
+- For communicable diseases, use the current Philippine case definition, surveillance and referral guidance; do not infer reportable status or reporting deadline from a generic prevention framework.
+- For medication/prophylaxis, verify indication, contraindications, dose, timing, interactions and monitoring from the applicable current official source.
+- Keep historical framework citations for conceptual definitions, but do not use them as current clinical protocols.
+- If sources disagree, record each source's date, target population, setting and recommendation; prefer the current applicable Philippine rule for Philippine implementation and explain any evidence-based uncertainty.
+- Record the exact URL, title, organization, publication/update date and access date in the source register. Reopen the linked source before marking a claim verified.
+
+## 14. Additional limitations and unresolved questions
+
+- The three-level model is a teaching framework, not a substitute for condition-specific clinical guidance.
+- A program may include several levels at once; classification should name the intervention's target and intended outcome.
+- Some curricula use primordial and quaternary prevention in addition to the traditional three levels. Follow the question's stated model and avoid mixing categories without explanation.
+- The original note's historical sources support the broad framework, but all linked sources still need a final direct-link/full-text check. Current clinical examples require current topic-specific sources.
+- This note has not passed the final independent verification stage and remains **Drafted — Needs Verification**.
+
