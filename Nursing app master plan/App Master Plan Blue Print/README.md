@@ -24,7 +24,8 @@ The user has confirmed:
 9. [Repository Audit](./REPO_AUDIT.md) — source inventory, what was inspected versus merely inventoried, and archive limitations.
 10. [QA Council Review](./QA_COUNCIL_REVIEW.md) — dated review findings, corrections, unresolved blockers and honest scorecards.
 11. [1000-Point Readiness Trace](./1000_POINT_READINESS_TRACE.md) — weighted scoring evidence, hard gates, blocker register and path to a genuine 10/10.
-12. [Cleanup Log](./CLEANUP_LOG.md) — consolidation map and precise record of deleted/moved files.
+12. [1000/1000 Architecture Quality Gate](./1000-1000-ARCHITECTURE-QUALITY-GATE.md) — conditions for awarding a perfect score without pre-awarding it.
+13. [Cleanup Log](./CLEANUP_LOG.md) — consolidation map and precise record of deleted/moved files.
 
 ## 1000/1000 architecture quality target
 
