@@ -48,6 +48,48 @@
   - Clearly separate Philippine requirements from international recommendations
   - Never mark a topic verified until its uploaded file and references have been reopened and checked
 
+## Research notes currently verified or under review — 2026-10-17
+
+**Evidence-based status:** 23 of 295 topic folders verified complete (7.8%); one MI note is drafted and awaiting its final source/safety audit; 271 other topic folders remain not started. This section links to actual Markdown research files, not placeholders.
+
+### Cardiovascular
+- [[Cardiovascular/RESEARCH]] — core cardiovascular assessment and prioritization — **VERIFIED COMPLETE**
+- [[Cardiovascular/MI/RESEARCH]] — myocardial infarction / ACS — **RESEARCHED—VERIFY**
+
+### Neurological
+- [[Neuro/Cerebrovascular Accident/RESEARCH]] — stroke assessment and treatment pathway — **VERIFIED COMPLETE**
+
+### Endocrine and metabolic
+- [[Endocrine/Diabetes Mellitus/RESEARCH]] — diabetes, DKA/HHS, hypoglycemia and safety — **VERIFIED COMPLETE**
+- [[Fluids, Electrolytes and Acid-Base/Potassium/RESEARCH]] — potassium abnormalities — **VERIFIED COMPLETE**
+- [[Fluids, Electrolytes and Acid-Base/Sodium/RESEARCH]] — sodium abnormalities — **VERIFIED COMPLETE**
+- [[Fluids, Electrolytes and Acid-Base/Acid-Base/Acidosis vs Alkalosis/RESEARCH]] — ABG interpretation — **VERIFIED COMPLETE**
+
+### Emergency and critical care
+- [[Emergency and Disaster Nursing/Primary and Secondary Survey/Primary Survey/Circulation and Shock/RESEARCH]] — recognition and first priorities for shock — **VERIFIED COMPLETE**
+- [[Emergency and Disaster Nursing/Primary and Secondary Survey/Primary Survey/Circulation and Shock/Types of Shock/RESEARCH]] — shock type comparison — **VERIFIED COMPLETE**
+- [[Emergency and Disaster Nursing/Routine or ED Triage/Triage/RESEARCH]] — ED triage — **VERIFIED COMPLETE**
+- [[Emergency and Disaster Nursing/Chosen Emergency Conditions/Burns/Management of Burns/RESEARCH]] — burn assessment/resuscitation/wound care — **VERIFIED COMPLETE**
+- [[Immunology/Anaphylaxis/RESEARCH]] — anaphylaxis — **VERIFIED COMPLETE**
+
+### Respiratory
+- [[Respiratory/ARDS/RESEARCH]] — ARDS and ventilatory safety — **VERIFIED COMPLETE**
+- [[Respiratory/COPD/RESEARCH]] — COPD — **VERIFIED COMPLETE**
+- [[Respiratory/Bronchial Asthma/RESEARCH]] — asthma — **VERIFIED COMPLETE**
+- [[Respiratory/Chest Tube/RESEARCH]] — chest-tube drainage and safety — **VERIFIED COMPLETE**
+
+### Renal and urinary
+- [[Renal and Urinary/AKI/RESEARCH]] — acute kidney injury — **VERIFIED COMPLETE**
+- [[Renal and Urinary/CKD/RESEARCH]] — chronic kidney disease — **VERIFIED COMPLETE**
+- [[Renal and Urinary/Access for Hemodialysis/RESEARCH]] — vascular access monitoring/protection — **VERIFIED COMPLETE**
+
+### Oncology, hematology and perioperative care
+- [[Cancer/Oncologic Emergencies/Tumor Lysis Syndrome/RESEARCH]] — tumor lysis syndrome — **VERIFIED COMPLETE**
+- [[Cancer/Oncologic Emergencies/Hypercalcemia/RESEARCH]] — cancer-associated hypercalcemia — **VERIFIED COMPLETE**
+- [[Cancer/Oncologic Emergencies/Sepsis and Disseminated Intravascular Coagulation (DIC)/RESEARCH]] — sepsis/DIC — **VERIFIED COMPLETE**
+- [[Hematology/Iron-Deficiency Anemia/RESEARCH]] — iron-deficiency anemia — **VERIFIED COMPLETE**
+- [[Perioperative Nursing/RESEARCH]] — perioperative safety — **VERIFIED COMPLETE**
+
 ## Major system branches
 
 ### Cancer
