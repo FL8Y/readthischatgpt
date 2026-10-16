@@ -16,7 +16,9 @@
     - [[Normal Pregnancy/Adaptations of Pregnancy/Other Changes/Research|Other Physiologic Changes]]
   - Antepartum Care
     - Fetal Well-being
+    - [[Normal Pregnancy/Antepartum Care/Fetal Well-being/Research|Fetal Well-being Assessment]]
     - Maternal Well-being
+    - [[Normal Pregnancy/Antepartum Care/Maternal Well-being/Research|Maternal Well-being / Antenatal Care]]
   - Discomforts and Risk Factors of Pregnancy
   - Fetal Growth and Development
   - Health Teachings
