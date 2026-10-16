@@ -10,10 +10,10 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 18 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, and Sanitation and Environmental Health.
+- **Substantive topic drafts expanded:** 19 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, and Sanitation and Environmental Health.
 - **Topics verified complete:** 0
-- **Folders still requiring substantive topic-specific expansion:** 59 (all 77 have a notes file, but most remain initial starter notes).
-- **Drafts awaiting source/content verification:** 18
+- **Folders still requiring substantive topic-specific expansion:** 58 (all 77 have a notes file, but most remain initial starter notes).
+- **Drafts awaiting source/content verification:** 19
 - **Research notes present:** 77/77; this is file presence, not research completion.
 - **Completion:** 0% verified topic research. No topic is marked Verified Complete.
 - **Mind map:** Existing Obsidian map reflects the folder hierarchy; status annotations, links and coverage audit still required.
@@ -148,8 +148,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: **Drafted — Needs Verification** | Required sections: essential-medicine definition/selection; WHO vs Philippine list distinction; RA 6675/PNF context; availability and supply-chain responsibilities; safe use; contraindications vs precautions; rational use/antimicrobial stewardship; patient education; special populations; indicators; PNLE distinctions; sources.  
   Sources consulted: WHO Model List of Essential Medicines, 24th list (2025); WHO current Model Lists page; WHO Declaration of Alma-Ata; RA 6675 via Lawphil/Supreme Court E-Library; PhilHealth Advisory 2025-0060 on ePNF (Oct 2025); DOH Department Circular 2025-0341 on PNF additions; Philippine FDA drug-registration portal. Important facts covered: population-priority definition; evidence-based selection; WHO list is a guide rather than the Philippine formulary; RA 6675 and generic terminology; supply/stock-out management; general nursing medication checks and safety. Research file: `Elements of Primary Health Care/Essential Drugs/RESEARCH NOTES.md` (18,612 characters; reopened after save). Unresolved issues: current ePNF version/site access and latest circulars require rechecking before specific procurement/clinical claims; no universal doses or medicine-specific contraindication list included. Last action: expanded generic 2,469-character starter note into substantive research and reopened saved file (2026-10-17). Next action: continue with Herbal and other unchecked topics; verify all source links before marking complete.
 - [x] **Herbal** — `Elements of Primary Health Care/Essential Drugs/Herbal`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: definitions; Philippine TAMA/PITAHC context; evidence appraisal; adverse effects and interactions; special populations; nursing assessment/education/referral; product quality/regulatory checks; PNLE distinctions; sources.  
+  Sources consulted: RA 8423 (TAMA of 1997), Lawphil; official PITAHC site (search surfaced current program information but homepage timed out on open); NCCIH *Safe Use of Complementary Health Products and Practices* (updated 16 Oct 2026); NCCIH *Herb-Drug Interactions* (Dec 2024); Philippine FDA eServices drug-registration portal. Important facts covered: legal definition/role of PITAHC; product-specific evidence/safety; interaction/contamination concerns; respectful disclosure, special-population caution and current regulatory verification. Research file: `Elements of Primary Health Care/Essential Drugs/Herbal/RESEARCH NOTES.md` (16,234 characters; reopened after save). Unresolved issues: PITAHC ten-plant directory and exact plant-specific indications/doses were not independently inspected; no specific dose or universal herb contraindication was asserted. Last action: expanded generic 2,323-character starter note into substantive safety-focused research and reopened saved file (2026-10-17). Next action: continue with the next topic folder; verify plant-specific primary sources before any detailed indication/dose claims.
 - [x] **Expanded Program on Immunization** — `Elements of Primary Health Care/Expanded Program on Immunization`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 18/77; all eighteen remain Drafted — Needs Verification.
-- **Folders still requiring substantive expansion:** 59/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** 19/77; all nineteen remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** 58/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -520,3 +520,13 @@ Every directory below was present in the repository's recursive tree at the init
 - Reopened the saved file and confirmed 18,068 characters plus PD 856, RA 9003 and water-safety sections.
 - Status: **Drafted — Needs Verification**, not Verified Complete. Final full-text, links, amendments and current technical thresholds remain to be checked.
 - Next action: continue folder by folder and preserve the log/mind map as the operational record.
+
+
+## Research Cycle Log — 2026-10-17 (Herbal)
+
+- Re-read the mandatory CHN research standard and inspected the existing `Elements of Primary Health Care/Essential Drugs/Herbal/RESEARCH NOTES.md`.
+- Expanded the file from 2,323 characters to 16,234 characters with coverage of herbal/traditional medicine definitions, RA 8423/TAMA and PITAHC, evidence quality, product identity/quality, herb–drug interactions, contamination, special-population risks, community-nursing assessment, counseling/referral, adverse-event escalation and PNLE distinctions.
+- Sources consulted: RA 8423 (Lawphil); official PITAHC website search result (open timed out); NCCIH *Safe Use of Complementary Health Products and Practices* (updated 16 October 2026); NCCIH *Herb-Drug Interactions* (December 2024); Philippine FDA drug-registration portal.
+- Reopened the saved file and confirmed 16,234 characters, RA 8423, herb–drug interaction coverage and explicit PITAHC source-access limitation.
+- Status: **Drafted — Needs Verification**, not Verified Complete. The official PITAHC ten-plant directory and plant-specific indications/doses were not independently inspected; no unverified dose or universal contraindication was invented.
+- Next action: continue to the next individual topic folder and verify source links/plant-specific primary sources before any detailed claims.
