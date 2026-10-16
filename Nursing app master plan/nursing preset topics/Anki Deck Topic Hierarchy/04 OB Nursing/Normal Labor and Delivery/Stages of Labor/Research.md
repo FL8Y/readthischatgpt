@@ -33,6 +33,27 @@ Closely assess uterine tone/fundal position, vaginal bleeding/lochia, vital sign
 - Use ABCs and immediate threats first; do not let stage labels delay action.
 - Medication administration must verify order, dose, route, indication, allergies and contraindications. Oxytocin requires monitoring for uterine hyperstimulation and fetal effects when used for induction/augmentation; postpartum prophylaxis uses a separate protocol.
 
+## Active-labor thresholds: guideline differences that must not be blended
+
+Different current references use different thresholds because they define latent/active or established phase for different clinical purposes. Do not memorize one threshold as universal:
+
+| Guideline | Definition/threshold checked | How to use it safely |
+|---|---|---|
+| WHO, *Intrapartum care for a positive childbirth experience* (2018) | Latent first stage up to 5 cm; active first stage from 5 cm to full dilation. | WHO global intrapartum-care framework. |
+| NICE NG235, *Intrapartum care* | Latent stage includes cervical change up to 4 cm; established first stage means regular contractions and progressive dilation from 4 cm. NICE recommendations include amendments in 2023 and 2025. | Use for NICE clinical context; “established” is NICE's term. |
+| ACOG Clinical Practice Guideline No. 8 (January 2024) | Uses 6 cm as the start of active phase for active-phase labor management/arrest decisions; active-phase arrest criteria require at least 6 cm, ruptured membranes and no progress despite specified adequate/inadequate uterine activity durations. | Do not diagnose active-phase arrest or rush a cesarean using a lower threshold alone; the whole clinical picture and governing guideline matter. |
+
+**Why the difference matters:** a pregnant patient can be in labor while still in the latent phase; being below a guideline's active/established threshold does not mean symptoms are false labor. Similarly, timing criteria for arrest of active labor should not be imported from one guideline into another without attribution.
+
+Sources checked on 17 October 2026:
+1. ACOG, *First and Second Stage Labor Management*, Clinical Practice Guideline No. 8, January 2024: https://www.acog.org/clinical/clinical-guidance/practice-guideline/articles/2024/01/first-and-second-stage-labor-management
+2. NICE, NG235 *Intrapartum care*, recommendation 1.8.1 and amendment dates: https://www.nice.org.uk/guidance/ng235/chapter/Recommendations
+3. WHO, *WHO recommendations: Intrapartum care for a positive childbirth experience*, 7 February 2018: https://www.who.int/publications/i/item/9789241550215 ; accessible summary with the 5-cm threshold: https://www.ncbi.nlm.nih.gov/books/NBK513802/
+
+## Fourth-stage terminology caveat
+The “fourth stage” (immediate recovery after placental delivery, often taught as the first 1–2 hours) is a useful nursing surveillance framework, but it is not a globally identical standalone stage definition in every guideline. Observation intervals and duration are facility- and acuity-dependent. A patient with bleeding, unstable vital signs, severe hypertension, altered mental status or other deterioration needs emergency assessment beyond routine stage-based checks.
+
+
 ## PNLE high-yield distinctions
 - Complete dilation marks the transition from first to second stage; birth of the infant marks the transition to third stage.
 - Placenta delivery does not end risk: the fourth stage requires close surveillance for hemorrhage.
