@@ -124,6 +124,30 @@ The dashboard should prioritize the next recommended action, due reviews, curren
 ### 3.8 Dashboard and settings
 The dashboard should prioritize the next useful action, due reviews, active learning plan, module progress and weak topics. Settings should cover provider configuration, privacy, backup/export, accessibility, notifications and data controls. Avoid forcing users through many nested screens to start a quiz or review a card.
 
+### 3.9 Cross-screen state and recovery matrix
+
+Every primary screen must explicitly represent loading, empty, recoverable error, offline/unsupported capability, cancellation and resume/retry. A spinner alone is not a state model. The following table is the minimum planning contract; screen-specific copy and visual design can be refined later without changing the underlying behavior.
+
+| Flow / screen | Loading | Empty / first-use | Error / blocked | Offline behavior | Interruption / recovery oracle |
+|---|---|---|---|---|---|
+| First launch / provider setup | Explain setup step and validation progress; prevent duplicate submissions | Explain which AI features need a key/network and what remains available without them | Distinguish invalid key, unsupported model, quota, timeout and provider outage; never echo the secret | Saved library/reviews may be opened; new AI-dependent teaching remains blocked if no valid diagnostic set exists | Rotate/remove key and return to prior state; never lose imported content or show a saved key in plaintext |
+| Import / source preview | Show stage and progress; permit safe cancellation before commit | Explain no sources imported and show supported formats | Identify unsupported, corrupt, empty, scanned-only or oversized input; retain original and unrelated work | Local text/Markdown import works without provider access; provider-dependent enrichment is queued or explicitly unavailable | Cancel/retry does not create duplicate SourceDocument records; committed source and provenance survive process death |
+| Diagnostic / assessment | Show session scope, count and saved progress; avoid duplicate start requests | If no valid question set exists, explain the blocker and do not unlock lessons | Malformed/insufficient questions produce a recoverable error, not a bypass | A previously saved diagnostic can resume offline; new generation needs provider/network unless a valid cached set exists | Force-stop after an answer, reopen same versioned session, preserve answer and event ID, and keep lesson gate closed until completion is durably committed |
+| Lesson / topic quiz | Show topic title and content-generation status; preserve selected topic | Explain when a topic has no imported/generated lesson and offer supported next action | Source/AI failure identifies whether cached content can be opened; unsupported claims are labelled | Saved lessons and local quizzes remain available; new AI generation is explicitly unavailable | Lesson progress and quiz answers survive rotation/background/process death; feedback matches the exact question/rubric version |
+| Module assessment / remediation | Show scope, blueprint and saved completion status | Explain when a module has no mapped topics or insufficient questions to meet coverage | Coverage failure is surfaced; do not silently deliver a misleadingly “comprehensive” quiz | Resume a saved assessment and view prior results; generation of missing questions may be blocked | Interrupted assessment resumes same version; completed results and remedial plan remain auditable |
+| Flashcard review | Show due count and selected card without losing current rating state | Distinguish “no cards yet” from “no cards due”; provide next action | Invalid card/version or scheduler failure must not silently advance the queue | Existing due cards and ratings work offline; persist rating locally before showing success | Duplicate rating submission is idempotent; app restart preserves rating, scheduler state and due date |
+| Tutor discussion | Show request-in-progress and allow cancellation without duplicate sends | Explain missing topic/source context and offer a clear way to choose context | Distinguish provider/network failure, unsupported request and insufficient source support | Show saved conversation history; new response is unavailable without provider access | Retry/cancel does not duplicate user messages; follow-up context and source citations stay attached to the correct conversation version |
+| Graph / dashboard / settings | Show partial loading without blocking access to other destinations | Explain no relations, no progress history, or no due reviews as distinct states | Missing graph nodes or inconsistent projection gets a safe text/list fallback and diagnostic reference | Show cached graph, local progress and settings; mark remote/AI-derived content stale or unavailable | Graph and outline agree on canonical edges; dashboard values recompute from persisted events after restore |
+
+### 3.10 UX acceptance checks
+
+- UX-STATE-001: each row above has explicit UI state, recovery action and persisted-state expectation in the implementation screen inventory.
+- UX-STATE-002: offline mode distinguishes saved/local capability from provider-dependent capability and never bypasses the mandatory diagnostic gate.
+- UX-STATE-003: cancel/retry/submit races do not duplicate imports, messages, attempts, reviews or rewards.
+- UX-STATE-004: an empty state always distinguishes “nothing exists yet” from “nothing is due/needed now.”
+- UX-STATE-005: screen-reader announcements and text alternatives cover loading, blocked, success and error states; color is never the only signal.
+- UX-STATE-006: interruption tests include activity recreation, background/resume, process death and device restart for every stateful learning flow.
+
 ## 4. Information architecture
 
 Conceptual destinations:
