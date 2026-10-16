@@ -1,0 +1,9 @@
+{
+  "dsn": "https://7b22784a427551243f800c46a864b45a@o4510034898583552.ingest.us.sentry.io/4510035111903232",
+  "sendDefaultPii": false,
+  "attachStacktrace": true,
+  "enableAutoSessionTracking": true,
+  "enableTombstone": true,
+  "replaysSessionSampleRate": 0,
+  "replaysOnErrorSampleRate": 0
+}

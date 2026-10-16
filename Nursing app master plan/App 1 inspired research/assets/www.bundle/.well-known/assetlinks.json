@@ -1,0 +1,33 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "ai.saveall.app",
+      "sha256_cert_fingerprints": [
+        "B3:66:EC:53:29:D7:49:25:86:B0:49:83:26:A6:98:04:5F:16:E8:39:CB:85:07:C1:45:CB:45:B7:B7:C6:A0:4A",
+        "F6:D9:C5:D3:FF:0D:13:7D:6F:62:73:B7:2C:27:3A:08:D8:51:5D:F0:89:9B:3F:F2:51:4A:E5:49:A7:C5:10:CE"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "ai.saveall.app.preview",
+      "sha256_cert_fingerprints": [
+        "A5:F5:0A:78:24:E3:76:C3:FC:22:94:08:5B:A3:0B:1D:5F:73:60:39:35:DC:E0:C1:F3:5A:46:3F:7B:8A:33:FA"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "ai.saveall.app.dev",
+      "sha256_cert_fingerprints": [
+        "60:77:9A:36:05:95:E5:CB:5A:A3:94:C7:25:1A:D1:18:68:A3:13:2D:ED:23:C6:AB:CA:38:8D:AD:14:51:47:16"
+      ]
+    }
+  }
+]
