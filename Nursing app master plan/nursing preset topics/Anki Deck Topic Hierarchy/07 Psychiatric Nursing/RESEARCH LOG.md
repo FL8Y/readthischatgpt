@@ -164,3 +164,15 @@ A fresh recursive Git tree audit found **46 directories under this subject subtr
 - Remaining work: full content verification and expansion of all 46 files; resolve duplicate/legacy topic overlap in documentation; verify mind-map links; perform final recursive audit.
 - Blockers: no technical blocker identified; work remains incomplete.
 - Exact next action: reread RESEARCH TOPIC GUIDE.md and this log, then conduct source-by-source verification starting with high-risk topics and update each folder's log status only after its content is actually checked.
+
+
+## Follow-up audit correction — 2026-10-17
+A fresh Git tree count distinguishes the subject root from its descendants: **45 descendant directories** are present, and **45 topic/index RESEARCH.md files** exist beneath them. The earlier 46-directory figure included the root in the tree count and should not be used as the subject-folder denominator. Thus structural coverage is **45/45 = 100%**. This does not change the content-verification status: full source-by-source review is still pending.
+
+### Content spot-check and source verification
+- Reopened a broad sample of topic files across Part 1, Part 2, Part 3, and Psych Extra. The inspected files had substantive Markdown, topic-related nursing priorities/safety content, and source links; some shorter files are only initial notes and need expansion.
+- Verified authoritative source landing pages through current web retrieval: WHO *mhGAP guideline*, 3rd edition (20 Nov 2023), https://www.who.int/publications/i/item/9789240084278; WHO mhGAP Evidence Resource Centre, https://www.who.int/teams/mental-health-and-substance-use/treatment-care/mental-health-gap-action-programme/evidence-centre; Philippine Senate Legislative Reference Bureau page for RA 11036, https://ldr.senate.gov.ph/legislative-issuance/republic-act-no-11036; NICE eating-disorders recommendations, https://www.nice.org.uk/guidance/ng69/chapter/recommendations; NICE bipolar-disorder recommendations, https://www.nice.org.uk/guidance/cg185/chapter/recommendations.
+- These checks verify that the source landing pages exist and are relevant, not every clinical statement in every topic file. Drug contraindications, interactions, pregnancy warnings, and monitoring must still be checked against individual current product labels/local formulary.
+- One file-fetch attempt for the grouping file `Part 1/RESEARCH.md` returned a 404 despite the recursive tree listing showing the path. Resolve this discrepancy by fetching the raw file/tree blob and verify its actual location before treating that index as validated.
+- Updated evidence-based status: structural coverage 45/45 (100%); fully researched and source-verified topic files 0/45 (0%).
+- Next action: resolve the Part 1 index path discrepancy, then deepen and source-check each file in risk-priority order. Update status only after a topic's content and citations are actually verified.
