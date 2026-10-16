@@ -14,7 +14,7 @@ The user has confirmed:
 ## Read this first
 
 1. [Master Architect Plan](./MASTER_ARCHITECT_PLAN.md) — product intent, rules, logical boundaries and stage gates.
-2. [Product Requirements, UX and Learning Specification](./PRODUCT_REQUIREMENTS_AND_UX.md) — canonical feature requirements, R-001–R-032 traceability, user journeys, learning behavior, accessibility and nursing safeguards.
+2. [Product Requirements, UX and Learning Specification](./PRODUCT_REQUIREMENTS_AND_UX.md) — canonical feature requirements, R-001–R-034 traceability, user journeys, learning behavior, accessibility and nursing safeguards.
 3. [Technical Architecture, Data Model and Contracts](./TECHNICAL_ARCHITECTURE_AND_CONTRACTS.md) — framework/deployment choices, data concepts, service contracts, AI security, scheduler, offline policy and technical acceptance tests.
 4. [Claude Master Prompt](./CLAUDE_MASTER_PROMPT.md) — bounded planning-only operating instructions for Claude Code.
 5. [Agent Work Packages](./AGENT_WORK_PACKAGES.md) — specialist assignments, scope boundaries and handoff process.
