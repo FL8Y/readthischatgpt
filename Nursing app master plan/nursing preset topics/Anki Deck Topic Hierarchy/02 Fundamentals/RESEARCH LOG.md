@@ -1,6 +1,6 @@
 # Fundamentals of Nursing — Research Log
 
-Last checked: 2026-10-17 (final recursive inventory and 22-file reopen audit)
+Last checked: 2026-10-17 (topic-level source expansion and reopen audit of four updated files)
 Agent: 2 of 7
 Scope: `Nursing app master plan/nursing preset topics/Anki Deck Topic Hierarchy/02 Fundamentals/` and descendants only.
 
@@ -9,8 +9,8 @@ Scope: `Nursing app master plan/nursing preset topics/Anki Deck Topic Hierarchy/
 - Topic folders inventoried: 22
 - Topic folders with substantive research files uploaded: 22/22; every inventoried topic folder now has a dedicated Markdown research file.
 - Topic folders with fully verified research: 0; all 22 topic files are DRAFTED and await source-by-source safety, completeness, and claim validation.
-- Topic-specific research files present: 22/22; plus the research log and Obsidian mind map. All 22 topic Markdown files were fetched/reopened on `main` during the latest audit and each returned non-empty content (3,400–7,300 characters) with at least two source links. This checks saved-file integrity, not clinical accuracy or completeness.
-- Completion: **0/22 topic folders VERIFIED COMPLETE (0%)**. Research-file population is 22/22 (100%), but this is not evidence-verification completion.
+- Topic-specific research files present: 22/22; plus the research log and Obsidian mind map. A previous audit reopened all 22 files and found non-empty content. In the latest incremental audit, the four updated files (Oxygenation overview, Chest Physiotherapy, Incentive Spirometry, and Tracheostomy) plus this log were reopened on `main`; each returned non-empty content and a blob SHA. The updated guides range from 8,843 to 15,112 characters. Reopen integrity does not establish clinical accuracy or completeness.
+- Completion: **0/22 topic folders VERIFIED COMPLETE (0%)**. Research-file population is 22/22 (100%), but this is not evidence-verification completion. Four oxygenation-area files were materially expanded in the current work session; all remain DRAFTED pending claim-level and local-context review.
 - No claim of subject completion is made.
 
 ## Research rules
