@@ -126,3 +126,7 @@ Clinical care must be respectful, confidential within applicable rules, non-disc
 - WHO's 2025 second edition reports a limited update to Recommendation 22; it does not mean every national legal framework is the same.
 - Rh(D) prophylaxis before 12 weeks is a documented area of guideline disagreement. ACOG's 2024 update suggests forgoing routine testing/prophylaxis, while SMFM recommends offering it where feasible without restricting access; ASRM's 2026 position supports ACOG. These recommendations were checked against the cited primary/official sources. Philippine implementation remains protocol-dependent and must be confirmed locally.
 - This topic file was written from the listed sources and repository research standard. It must be reopened from GitHub and checked for correct path/content before its status is changed to “uploaded and verified.”
+
+
+## Source verification note
+The current source list in this file needs a dedicated audit against the cited guideline texts before this topic can be marked verified complete. Keep spontaneous pregnancy loss management separate from induced abortion care, and verify Philippine legal requirements using current official legal sources; international guidance must not be treated as Philippine law. This is an explicit unresolved review item, not a claim that every clinical/legal statement in the file has been verified.
