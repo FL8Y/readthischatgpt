@@ -50,3 +50,5 @@ Use theory to individualize assessment, communication, teaching, and outcome eva
 - Republic of the Philippines. Republic Act No. 9173, Philippine Nursing Act of 2002. https://lawphil.net/statutes/repacts/ra2002/ra_9173_2002.html
 
 **Verification note:** The OpenStax overview was reviewed as a general secondary source. Individual theory claims should be cross-checked against primary publications or a current nursing-theory textbook before this file is marked verified.
+## PNLE and clinical-priority application
+Nursing theories organize assessment and care; they do not replace immediate clinical judgment. If a patient deteriorates, assess and intervene for airway, breathing, circulation, safety, and urgent reversible causes before choosing a theory-specific intervention. Maslow's hierarchy can help organize needs, but actual instability and time-critical threats take precedence over a rigid hierarchy. Use theory as a lens to individualize care, not as a substitute for patient data, evidence, informed preferences, or the nursing process.
