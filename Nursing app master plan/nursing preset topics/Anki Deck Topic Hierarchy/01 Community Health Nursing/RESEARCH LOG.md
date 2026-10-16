@@ -106,8 +106,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
 - [x] **Magna Carta of Public Health Workers** — `CHN, PHC/Magna Carta of Public Health Workers`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: RA 7305 purpose/scope; eligibility caveats; broad rights/conditions areas; distinction from RA 7160/RA 11223/professional scope; occupational safety; practical verification workflow; PNLE points; primary sources.  
+  Sources consulted: RA 7305 Lawphil; RA 7160 Lawphil; RA 11223 Supreme Court E-Library; official DOH and CSC portals. Important facts covered: coverage depends on statutory definitions and current rules; specific benefits/amounts/eligibility are not guessed. Research file: `CHN, PHC/Magna Carta of Public Health Workers/RESEARCH NOTES.md` (9,112 characters; reopened after save). Unresolved issues: current IRR/amendments and compensation/eligibility guidance require direct review. Last action: replaced generic starter with substantive legal-reference draft (2026-10-17). Next action: continue remaining CHN topics and verify current legal details.
 - [x] **People Behind CHN** — `CHN, PHC/People Behind CHN`  
   Status: **Drafted — Needs Verification** | Required sections: stakeholder/agency roles; nurse, midwife, BHW and other team roles; collaboration across assessment/planning/implementation/referral/evaluation; legal context; privacy/scope/safety; Philippine policy; PNLE distinctions; sources.  
   Sources consulted: WHO–UNICEF PHC Operational Framework (2020); RA 7883 BHW Benefits and Incentives Act; RA 7160 Local Government Code; RA 11223 UHC Act; RA 10173 Data Privacy Act. Important facts covered: role boundaries vary by law, credential, training, employer and local rules; BHWs do not automatically hold licensed nurse/prescriber scope. Research file: `CHN, PHC/People Behind CHN/RESEARCH NOTES.md` (13,013 characters; reopened after save). Unresolved issues: full current legal text/amendments and local role protocols require verification. Last action: replaced generic PHC starter with substantive stakeholder-role research (2026-10-17). Next action: continue remaining CHN topic folders and verify sources before marking complete.
@@ -1051,3 +1051,14 @@ Every directory below was present in the repository's recursive tree at the init
 - Status: **Drafted — Needs Verification**, not Verified Complete.
 - Coverage reconciliation: 59/77 folders have substantive drafts, 18/77 still require substantive expansion, and 0/77 are verified complete.
 - Next action: continue to the next individual folder and verify current Philippine disease-specific guidance before marking complete.
+
+
+## Research Cycle Log — 2026-10-17 (Magna Carta of Public Health Workers)
+
+- Applied the mandatory standard to the individual Magna Carta of Public Health Workers folder and replaced its generic starter note.
+- Expanded `CHN, PHC/Magna Carta of Public Health Workers/RESEARCH NOTES.md` from 2,436 characters to 9,112 characters.
+- Covered RA 7305 scope/eligibility cautions, broad employment/benefit areas, distinction from RA 7160 and RA 11223, professional scope, occupational safety, a practical rights-question workflow and PNLE points.
+- Sources consulted: RA 7305; RA 7160; RA 11223; official DOH and CSC portals.
+- Reopened the saved file and confirmed 9,112 characters plus RA 7305 and eligibility sections.
+- Status: **Drafted — Needs Verification**, not Verified Complete. Current implementing rules, amendments and benefit/eligibility details require direct review.
+- Next action: continue the remaining individual CHN folders and final verification.
