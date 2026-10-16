@@ -21,6 +21,10 @@ Use standard and additional precautions as indicated. Remove gloves safely, perf
 ## Common errors
 Wrong container/preservative; contamination with urine or toilet water; failure to sample required locations/sites; delayed transport or incorrect temperature; missing identifiers; or using a sample from an absorbent pad when not accepted by the lab.
 
+## Source-checked handling principles
+
+The U.S. Centers for Disease Control and Prevention (CDC) DPDx stool-collection instructions specify a dry, clean, leakproof container and emphasize preventing contamination by urine, water, soil, or other material. Fresh stool for some parasitology testing may need immediate processing or preservation; commercial kit instructions and the laboratory's test-specific requirements take precedence. This timing is not universal to every stool test.
+
 ## Sources
 - OpenStax. *Clinical Nursing Skills*, section 10.2, “Stool Collection.” https://openstax.org/books/clinical-nursing-skills/pages/10-2-stool-collection
 - OpenStax. *Clinical Nursing Skills*, chapter 10 summary. https://openstax.org/books/clinical-nursing-skills/pages/10-summary
