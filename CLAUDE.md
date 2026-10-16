@@ -1,5 +1,7 @@
 # Ruflo — Claude Code Configuration
 
+> **NEW SESSION? READ `FLY8 Study/HANDOFF.md` FIRST** (full state, in-flight work, next steps, gotchas). It was written 2026-10-16 and is the most detailed record; the sections below are the standing rules.
+
 ## PROJECT GOAL — read this first every session
 
 **Building:** a personal-use Nursing Study App (Gizmo + AnkiDroid hybrid, nursing focus e.g. NP1). Owner is a "vibe coder": explain simply, be honest about what is untested. Security is not a concern (single user); do not over-engineer it.
