@@ -90,3 +90,75 @@ RA 11332 concerns mandatory reporting of notifiable diseases/public-health event
 5. **Republic of the Philippines.** RA 10173, *Data Privacy Act of 2012*, Supreme Court E-Library. https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3630
 
 **Evidence limitations:** official PSA/DOH/WHO portals were identified; exact current statistical tables and definitions must be opened and checked before numerical claims. This note avoids stale estimates. It is a substantive draft, **not Verified Complete**.
+
+## 10. Worked calculations and denominator checks
+
+These examples are invented for learning; they are not official Philippine estimates. Use the current PSA/DOH definition for real reporting.
+
+### Crude birth rate
+A defined locality records 360 live births during a calendar year and has a mid-year population of 30,000.
+
+`CBR = 360 ÷ 30,000 × 1,000 = 12 live births per 1,000 population`
+
+The denominator is the total mid-year population, not only women of reproductive age. For a fertility measure, use the defined female population/age group instead.
+
+### Crude death rate
+A locality records 210 deaths and has a mid-year population of 30,000.
+
+`CDR = 210 ÷ 30,000 × 1,000 = 7 deaths per 1,000 population`
+
+A lower CDR does not automatically mean better health than a locality with a higher CDR; age structure may differ substantially. Compare age-specific or standardized measures where appropriate.
+
+### Infant and neonatal mortality
+Suppose a defined population reports 6 deaths under age one, of which 4 occur during the neonatal period, and 500 live births in the same reporting period.
+
+`IMR = 6 ÷ 500 × 1,000 = 12 infant deaths per 1,000 live births`
+
+`NMR = 4 ÷ 500 × 1,000 = 8 neonatal deaths per 1,000 live births`
+
+The neonatal deaths are a subset of infant deaths. The two numerators must use consistent geography and period and the official age boundaries. A single year's rate can fluctuate considerably when counts are small.
+
+### Maternal mortality ratio
+Suppose 1 maternal death is identified among 1,000 live births.
+
+`MMR = 1 ÷ 1,000 × 100,000 = 100 maternal deaths per 100,000 live births`
+
+This illustrates the multiplier. It does not mean 100 maternal deaths occurred. Because the numerator may be small and maternal deaths can be misclassified or missed, interpretation requires careful review of definitions, completeness and uncertainty.
+
+### General fertility rate
+Suppose 450 live births occur during a year and the defined mid-year population of women in the official reproductive-age range is 9,000.
+
+`GFR = 450 ÷ 9,000 × 1,000 = 50 live births per 1,000 women in the specified age range`
+
+Use the age range defined by the official indicator. Do not substitute all women, all adults or the total population without changing the indicator's meaning.
+
+### Perinatal mortality
+Perinatal mortality measures commonly combine fetal deaths meeting a defined threshold with early neonatal deaths, divided by total births (live births plus the specified fetal deaths), then multiplied by 1,000. Exact gestational-age/weight and timing criteria vary by statistical standard and must be verified before calculation. Do not invent a universal threshold or compare two sources with different definitions.
+
+## 11. Choosing the correct measure
+
+| Question | Measure that may fit | What must be clarified first |
+|---|---|---|
+| “How common are births relative to the whole population?” | CBR | Live births, total mid-year population, geography and year. |
+| “How often are women in a specified age group giving birth?” | GFR or age-specific fertility rate | Official age range and female population denominator. |
+| “How many infants die relative to live births?” | IMR | Under-one definition, same period/geography and registration completeness. |
+| “How many newborns die in the neonatal period?” | NMR | Official neonatal period and same-period live births. |
+| “How many maternal deaths occur relative to births?” | MMR | Official maternal-death definition and live births. |
+| “What proportion of all deaths is attributed to one cause?” | Cause-specific proportion of deaths | Deaths from the cause ÷ all deaths; this is not the same as a population cause-specific mortality rate. |
+| “How much disease is currently present?” | Prevalence measure | Existing cases and a defined population at a point/period. |
+| “How quickly are new cases occurring?” | Incidence proportion/rate | New cases, population at risk/person-time and observation period. |
+
+## 12. Source verification and update checklist
+
+Before publishing a vital-statistics number:
+- Open the exact PSA/DOH table or report, not only the portal homepage.
+- Record release date, reference year, table number, geographic level and whether the figure is a count, rate, ratio, estimate or projection.
+- Confirm total population vs household population and usual-residence vs occurrence-location rules.
+- Read footnotes for exclusions, revisions, age definitions, denominator changes and registration completeness.
+- Recalculate from the source when numerator and denominator are provided; retain enough precision during calculation and round only at the end.
+- Do not compare an estimated/modelled rate with a registered-event rate without explaining the difference.
+- If two official sources disagree, document the definitions and publication dates and ask the responsible data authority which figure is appropriate for the intended use.
+- Protect privacy; small counts may risk identification in small communities.
+
+The exact current PSA vital-statistics tables and DOH indicator manuals still need direct review for operational reporting. This section is a study aid, not a substitute for those definitions.
+
