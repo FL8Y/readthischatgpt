@@ -3,7 +3,7 @@
 **Audit date:** 2026-10-17  
 **Repository:** `FL8Y/readthischatgpt`, default branch `main`  
 **Scope:** Complete recursive Git tree inventory plus semantic inspection of project-relevant documentation and reference source.  
-**Important limitation:** A tree inventory is not the same as reading every file's contents. Binary resources and hundreds of unrelated Claude/Ruflo framework files were inventoried but not all semantically read. An earlier QA record reports 54 pages read from the Gizmo DOCX and all 35 AnkiDroid pages, but the current Gizmo README describes its report as 52 pages including addenda; this page-count discrepancy remains unresolved. This pass did not independently materialize or reread the full DOCX binaries.
+**Important limitation:** A tree inventory is not the same as reading every file's contents. Binary resources and hundreds of unrelated Claude/Ruflo framework files were inventoried but not all semantically read. The current Library DOCX versions were independently read in full during Cycle 5: Gizmo 54/54 pages and AnkiDroid 35/35 pages. The App 3 README's former claim of 52 pages was corrected to 54. The Gizmo minimum-SDK conflict remains unresolved: the report's main identity section says 34, while Addendum C says 26 citing apktool.yml; the primary apktool.yml itself is not present in the repository.
 
 ## Cleanup addendum — 2026-10-17
 
@@ -133,6 +133,12 @@ The previous blueprint revision contained 12 Markdown documents. After consolida
 
 ## 8. Evidence coverage and remaining work
 
+### Cycle 5 update — 2026-10-17
+- Read the current Library versions of the full Gizmo report (54/54 pages; 2,671 extracted text lines) and AnkiDroid report (35/35 pages; 1,765 extracted text lines) using the file-reading pipeline. This is a fresh full-text read, not an inference from the Git tree.
+- Resolved the report page-count issue: the Gizmo DOCX has 54 pages; the App 3 README's 52-page statement was stale and has been corrected. AnkiDroid is 35 pages.
+- Reconfirmed the SDK conflict is inside the Gizmo report itself: its identity section says min SDK 34, while Addendum C says minSdk 26 and cites apktool.yml. The raw apktool.yml is not present in the current repository tree, and the decoded manifest has no uses-sdk element. Keep the product-reference minimum UNKNOWN; do not select either value as fact.
+- Added explicit provisional mastery/evidence rules, deterministic adaptive-plan ordering, ten scenario fixtures, and requirements R-033/R-034. These are proposed product policies, not empirically validated learning-science thresholds.
+
 ### Inspected directly in this audit
 - Complete recursive Git tree metadata was re-scanned after cleanup (739 entries: 598 blobs and 141 trees; `truncated=false`; see the cleanup addendum for the snapshot SHA).
 - Root project execution instructions and key Ruflo configuration/capability summary.
@@ -145,12 +151,12 @@ The previous blueprint revision contained 12 Markdown documents. After consolida
 - Hundreds of unrelated `.claude/commands` and `.claude/agents` files.
 - Most Android resource XML and generated metadata files under App 1.
 - Every binary/native/resource file and every individual file in the complete repository.
-- The prior QA council record reports that both full research DOCX reports were read (Gizmo: 54/54 pages; AnkiDroid: 35/35 pages), while the current App 3 README describes the Gizmo report as 52 pages including addenda; that page-count discrepancy is itself unresolved. This update did not independently re-extract the DOCX bytes; treat the earlier page-read counts as prior-review reports, not a fresh DOCX re-read. The App 3 decoded `AndroidManifest.decoded.xml` shows `compileSdkVersion="36"` but has no `<uses-sdk>` element, so that file cannot settle the conflicting reported minimum-SDK values of 26 versus 34. Keep min-SDK **UNKNOWN** until the original APK manifest/build metadata (`apktool.yml` or equivalent) is verified.
+- The full reports were freshly re-read from the Library during Cycle 5 (Gizmo 54/54 pages; AnkiDroid 35/35 pages). The stale 52-page App 3 README statement is corrected. The SDK contradiction remains because the primary apktool.yml is missing from GitHub. The App 3 decoded `AndroidManifest.decoded.xml` shows `compileSdkVersion="36"` but has no `<uses-sdk>` element, so that file cannot settle the conflicting reported minimum-SDK values of 26 versus 34. Keep min-SDK **UNKNOWN** until the original APK manifest/build metadata (`apktool.yml` or equivalent) is verified.
 
 ### Must be done before implementation planning is declared complete
 1. Reconcile report/page-count claims with the current README and source files; resolve the Gizmo min-SDK conflict only from `apktool.yml` or another primary build/manifest artifact. The decoded manifest currently available in GitHub only proves compile SDK 36, not minimum SDK.
 2. Inspect remaining relevant reference-code files and run isolated tests where tooling permits; record exact commands/results or why they were not run.
 3. Re-scan and read back the latest tree and all changed files after each commit; ensure counts and links are current.
 4. Finish architecture council corrections and update the scorecard using evidence.
-5. Resolve or explicitly retain open decisions for stack, backend/sync, provider keys, scheduler version, import scope, mastery/reward formulas and device matrix.
+5. Validate proposed architecture defaults, scheduler version and device matrix; test the provisional mastery scenario suite after implementation authorization; reconcile App 1 archive hashes before any completeness claim.
 6. Do not declare the App 1 archive transfer complete without the original manifest and a verifiable path/size/hash comparison.
