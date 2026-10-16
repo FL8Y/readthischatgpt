@@ -17,9 +17,9 @@
 - Recursive repository tree inspected: **Yes** (Git tree API, non-truncated response).
 - Top-level category folders found: **10**.
 - Leaf topic folders found: **60**.
-- Topic research files created and independently verified: **0**.
-- Verified topics: **0/60 (0%)**.
-- Remaining topic folders: **60** pending individual research and source verification.
+- Topic research files created and reopened for verification: **1**.
+- Topics researched with authoritative-source cross-check: **1/60 (1.7%)**.
+- Remaining topic folders: **59** pending individual research and source verification.
 - Empty topic folders: all leaf topic folders appear to contain only `.gitkeep` at initial tree audit; no topic research files were found.
 - Missing-topic audit: **Not yet completed**; compare hierarchy against PNLE scope and pediatric safety coverage after existing topics are researched.
 - Blockers: none identified yet. This is an initial inventory, not a claim of research completion.
@@ -30,7 +30,7 @@ A topic is not marked verified until its research file exists in the correct fol
 ## Topic checklist
 | Done | Topic / leaf folder | Repository path | Status | Required sections | Sources | Verification | Files | Issues | Next action |
 |---|---|---|---|---|---|---|---|---|---|
-| [ ] | `Cancers of the Child/Brain Tumor` | `Nursing app master plan/nursing preset topics/Anki Deck Topic Hierarchy/06 Pediatric Nursing/Cancers of the Child/Brain Tumor` | Not started | Guide sections 1–10; topic-specific applicability | Not yet checked | None | No research file yet | Folder exists; research pending | Inspect folder and research authoritative sources |
+| [x] | `Cancers of the Child/Brain Tumor` | `Nursing app master plan/nursing preset topics/Anki Deck Topic Hierarchy/06 Pediatric Nursing/Cancers of the Child/Brain Tumor` | Researched; source-cross-checked; file reopened | Definition/classification, age/location signs, assessment, diagnostics, treatment, nursing rationales, medication safety, complications, family teaching, PNLE priorities | NCI PDQ Pediatric Treatment Editorial Board (2023 index; patient summary updated 2024) | Reopened from GitHub; expected sections and references present; Philippine-specific protocol not yet checked | [`Research.md`](Cancers%20of%20the%20Child/Brain%20Tumor/Research.md) | Confirm local protocols and drug-specific regimen references during next review | Proceed to next unchecked topic |
 | [ ] | `Cancers of the Child/Hodgkin's` | `Nursing app master plan/nursing preset topics/Anki Deck Topic Hierarchy/06 Pediatric Nursing/Cancers of the Child/Hodgkin's` | Not started | Guide sections 1–10; topic-specific applicability | Not yet checked | None | No research file yet | Folder exists; research pending | Inspect folder and research authoritative sources |
 | [ ] | `Cancers of the Child/Leukemia` | `Nursing app master plan/nursing preset topics/Anki Deck Topic Hierarchy/06 Pediatric Nursing/Cancers of the Child/Leukemia` | Not started | Guide sections 1–10; topic-specific applicability | Not yet checked | None | No research file yet | Folder exists; research pending | Inspect folder and research authoritative sources |
 | [ ] | `Cancers of the Child/Nephroblastoma (Wilms' Tumor)` | `Nursing app master plan/nursing preset topics/Anki Deck Topic Hierarchy/06 Pediatric Nursing/Cancers of the Child/Nephroblastoma (Wilms' Tumor)` | Not started | Guide sections 1–10; topic-specific applicability | Not yet checked | None | No research file yet | Folder exists; research pending | Inspect folder and research authoritative sources |
@@ -99,10 +99,10 @@ Prioritize current official Philippine Department of Health (DOH) guidance and o
 2. **Next action:** Research the first topic in the checklist, write a topic-specific Markdown file inside that topic folder, reopen and verify it, then update this log immediately. Continue through every topic, then perform missing-topic analysis and final recursive audit.
 
 ## Completion report
-- Evidence-based completion: **0%** (0 verified topics / 60 identified leaf topic folders).
-- Verified files: none yet.
+- Evidence-based research progress: **1.7%** (1 researched topic / 60 identified leaf topic folders); this is not overall completion.
+- Verified/reopened research file: [`Cancers of the Child/Brain Tumor/Research.md`](Cancers%20of%20the%20Child/Brain%20Tumor/Research.md).
 - Added topics: none yet; gap analysis pending.
-- Sources checked for clinical claims: none yet; only the mandatory local guide and master checklist were inspected.
-- Outstanding work: research all 60 existing leaf topics; verify each upload; identify and add justified missing topics; create/update the mind map; final recursive audit.
+- Sources checked for clinical claims: NCI PDQ Pediatric Treatment Editorial Board summaries (two references in the topic file); Philippine-specific brain-tumor protocol not yet verified.
+- Outstanding work: research the remaining 59 existing leaf topics; verify each upload; identify and add justified missing topics; update mind map if new topics/files alter its coverage; final recursive audit.
 - Blockers: none identified.
 - Exact next action: begin the first unchecked topic, `Cancers of the Child/Brain Tumor`, and research it using the local guide and authoritative current sources.
