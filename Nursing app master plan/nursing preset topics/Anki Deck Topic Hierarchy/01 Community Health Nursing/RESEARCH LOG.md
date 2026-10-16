@@ -10,10 +10,10 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 68 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, BCG, Maternal and Child Health, Health and Sanitation Laws, Pentavalent Vaccine, Elements of Primary Health Care, Other Vaccines, Food Sanitation, Vaccine Table, Locally-Endemic Diseases, Active Management of Third Stage of Labor, FHSIS, Epidemiology, Population Pyramid, Vital Statistics, Incidence vs Prevalence Rates, and Common Vital Statistics, and Swaroops, Sex Ratio, and EINC, and Vital Statistics Basic Concepts, and Newborn Screening, and Reproductive Health, and VAWC, and BEmOC and CEmOC, TT, Activities, Exercise, and People Behind CHN, Functions of DOH, Emergency Services, NCD, Prioritization, Assessment, and Scoring, and Planning, and Implementation, and Goal Setting, and Evaluation, and Family ADPIE, and Stop Smoking, and Treatment of Communicable and Noncommunicable Diseases and Emergency Services, and Diet.
+- **Substantive topic drafts expanded:** 69 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, BCG, Maternal and Child Health, Health and Sanitation Laws, Pentavalent Vaccine, Elements of Primary Health Care, Other Vaccines, Food Sanitation, Vaccine Table, Locally-Endemic Diseases, Active Management of Third Stage of Labor, FHSIS, Epidemiology, Population Pyramid, Vital Statistics, Incidence vs Prevalence Rates, and Common Vital Statistics, and Swaroops, Sex Ratio, and EINC, and Vital Statistics Basic Concepts, and Newborn Screening, and Reproductive Health, and VAWC, and BEmOC and CEmOC, TT, Activities, Exercise, and People Behind CHN, Functions of DOH, Emergency Services, NCD, Prioritization, Assessment, and Scoring, and Planning, and Implementation, and Goal Setting, and Evaluation, and Family ADPIE, and Stop Smoking, and Treatment of Communicable and Noncommunicable Diseases and Emergency Services, and Diet, and CHN, PHC.
 - **Topics verified complete:** 0
-- **Folders still requiring substantive topic-specific expansion:** 9 (all 77 have a notes file, but most remain initial starter notes).
-- **Drafts awaiting source/content verification:** 67
+- **Folders still requiring substantive topic-specific expansion:** 8 (all 77 have a notes file, but most remain initial starter notes).
+- **Drafts awaiting source/content verification:** 69
 - **Research notes present:** 77/77; this is file presence, not research completion.
 - **Completion:** 0% verified topic research. No topic is marked Verified Complete.
 - **Mind map:** Existing Obsidian map reflects the folder hierarchy; status annotations, links and coverage audit still required.
@@ -36,8 +36,8 @@
 Every directory below was present in the repository's recursive tree at the initial inventory. Each item is **Not Started** until research and verification are actually completed. Paths are relative to this subject folder.
 
 - [x] **CHN, PHC** — `CHN, PHC`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: CHN definition/scope; PHC framework; principles; nursing process; community assessment/epidemiology; roles/team; safety/ethics; Philippine context; hierarchy map; PNLE distinctions; sources.  
+  Sources consulted: WHO–UNICEF PHC Operational Framework (2020); WHO–UNICEF PHC Measurement Framework (2022); WHO Declaration of Alma-Ata; RA 11223; RA 11332; RA 10173. Important facts covered: CHN serves individuals/families and populations; PHC differs from primary care and classic eight elements; current Philippine protocols govern specific clinical actions. Research file: `CHN, PHC/RESEARCH NOTES.md` (11,417 characters; reopened after save). Unresolved issues: child-specific current DOH manuals/local protocols remain separate verification work. Last action: expanded initial parent note into substantive CHN/PHC overview and hierarchy map (2026-10-17). Next action: continue remaining individual folders and verify sources.
 - [x] **COPAR** — `CHN, PHC/COPAR`  
   Status: **DRAFTED — NEEDS REVIEW**. Research file: `CHN, PHC/COPAR/RESEARCH NOTES.md`.  
   Sources directly inspected: Nurseslabs COPAR overview (2013); WHO 2023 meaningful-engagement framework; University of the Cordilleras College of Nursing COPAR faculty-development report (2023). National University Philippines syllabus surfaced in search but direct PDF fetch timed out.  
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 68/77; all 68 remain Drafted — Needs Verification.
-- **Folders still requiring substantive expansion:** 9/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** 69/77; all 69 remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** 8/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -1217,3 +1217,14 @@ Every directory below was present in the repository's recursive tree at the init
 - Status: **Drafted — Needs Verification**, not Verified Complete.
 - Coverage reconciliation: 68/77 folders have substantive drafts, 9/77 still require substantive expansion, and 0/77 are verified complete.
 - Next action: continue with the next individual Health Promotion topic and synchronize the log/mind map.
+
+
+## Research Cycle Log — 2026-10-17 (CHN, PHC parent)
+
+- Applied the mandatory standard to the CHN, PHC parent folder and expanded its initial overview.
+- Expanded `CHN, PHC/RESEARCH NOTES.md` from 3,639 characters to 11,417 characters.
+- Covered CHN scope/client levels, PHC three-component framework, classic Alma-Ata elements vs modern framework, principles, nursing process, community assessment/epidemiology, roles/teamwork, safety/ethics, Philippine legal context and child-hierarchy mapping.
+- Sources consulted: WHO–UNICEF PHC Operational Framework (2020); WHO–UNICEF PHC Measurement Framework (2022); WHO Declaration of Alma-Ata; RA 11223; RA 11332; RA 10173.
+- Reopened the saved file and confirmed 11,417 characters plus nursing-process and hierarchy-map sections.
+- Status: **Drafted — Needs Verification**, not Verified Complete. Child-specific current DOH manuals and local protocols remain separate verification tasks.
+- Next action: continue remaining individual folders and source verification.
