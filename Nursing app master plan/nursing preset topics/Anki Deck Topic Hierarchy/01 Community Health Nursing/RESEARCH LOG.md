@@ -10,10 +10,10 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 20 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, and Expanded Program on Immunization.
+- **Substantive topic drafts expanded:** 21 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, and Chikiting Ligtas.
 - **Topics verified complete:** 0
-- **Folders still requiring substantive topic-specific expansion:** 57 (all 77 have a notes file, but most remain initial starter notes).
-- **Drafts awaiting source/content verification:** 20
+- **Folders still requiring substantive topic-specific expansion:** 56 (all 77 have a notes file, but most remain initial starter notes).
+- **Drafts awaiting source/content verification:** 21
 - **Research notes present:** 77/77; this is file presence, not research completion.
 - **Completion:** 0% verified topic research. No topic is marked Verified Complete.
 - **Mind map:** Existing Obsidian map reflects the folder hierarchy; status annotations, links and coverage audit still required.
@@ -154,8 +154,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: **Drafted — Needs Verification** | Required sections: EPI/NIP history and terminology; program objectives/components; schedule verification rule; screening; cold chain/logistics; safe administration; AEFI; contraindications/precautions; coverage/data quality; community engagement; Philippine context; PNLE distinctions; sources.  
   Sources consulted: DOH CHD XI Immunization Program page; DOH-hosted *National Immunization Program Manual of Operations* support booklet “Conducting Immunization Sessions” (2023); WHO vaccine-safety Q&A (23 Sep 2025); WHO vaccine-safety/false-contraindications manual; WHO controlled-temperature-chain and immunization-device resources. Important facts covered: historic 1976 EPI launch/current NIP terminology; schedule must be checked against current DOH manual/circulars; cold-chain excursion hold/assessment; AEFI does not prove causation; coverage requires valid numerator/denominator. Research file: `Elements of Primary Health Care/Expanded Program on Immunization/RESEARCH NOTES.md` (17,639 characters; reopened after save). Unresolved issues: full current NIP manual and latest circulars must be checked before exact schedule/dose/route/threshold claims; 2023 booklet may be superseded in parts. Last action: expanded generic 2,369-character starter note into substantive program research and reopened saved file (2026-10-17). Next action: continue with Chikiting Ligtas and remaining vaccine-specific subtopics; verify all schedule tables against current DOH sources.
 - [x] **Chikiting Ligtas** — `Elements of Primary Health Care/Expanded Program on Immunization/Chikiting Ligtas`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: campaign definition/history; SIA vs routine immunization; microplanning; nursing responsibilities; cold-chain and safety; AEFI; data/SEIR and coverage; community barriers; Philippine context; PNLE distinctions; sources.  
+  Sources consulted: DOH-CHD Cordillera campaign preparation page (2023); DOH-CHD Eastern Visayas campaign/microplanning page (19 Apr 2023); DOH-CHD Cordillera SEIR/data-quality page (2023); WHO vaccine-safety Q&A (23 Sep 2025); DOH NIP manual support booklet. Important facts covered: historical 2023 MR-bOPV SIA purpose; routine vs supplemental distinction; microplanning; data quality; AEFI and cold-chain safeguards. Research file: `Elements of Primary Health Care/Expanded Program on Immunization/Chikiting Ligtas/RESEARCH NOTES.md` (15,215 characters; reopened after save). Unresolved issues: no current 2026 campaign was verified; current eligibility, product, dates, intervals, reporting and data-system rules must be checked against latest DOH national/local guidance. Last action: expanded generic 2,401-character starter note into substantive campaign research and reopened saved file (2026-10-17). Next action: continue with Cold Chain and Logistics Management and other EPI child folders.
 - [x] **Cold Chain and Logistics Management** — `Elements of Primary Health Care/Expanded Program on Immunization/Cold Chain and Logistics Management`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 20/77; all twenty remain Drafted — Needs Verification.
-- **Folders still requiring substantive expansion:** 57/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** 21/77; all twenty-one remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** 56/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -541,3 +541,14 @@ Every directory below was present in the repository's recursive tree at the init
 - Reopened the saved file and confirmed 17,639 characters, AEFI and cold-chain sections.
 - Status: **Drafted — Needs Verification**, not Verified Complete. The complete current NIP manual and latest DOH circulars must be checked before using exact schedule, dose, route, threshold or reporting details. The 2023 booklet is supporting material, not proof that every table remains current.
 - Next action: continue with `Chikiting Ligtas`, then each vaccine-specific child topic and all other unchecked folders.
+
+
+## Research Cycle Log — 2026-10-17 (Chikiting Ligtas)
+
+- Re-read the subject research guide and inspected the existing Chikiting Ligtas topic note.
+- Expanded `Elements of Primary Health Care/Expanded Program on Immunization/Chikiting Ligtas/RESEARCH NOTES.md` from 2,401 characters to 15,215 characters.
+- Covered the historical 2023 campaign context, SIA vs routine immunization, campaign microplanning, nursing responsibilities, vaccine safety/cold chain, AEFI, coverage and data quality/SEIR, community barriers, Philippine context and PNLE distinctions.
+- Sources consulted: DOH-CHD Cordillera campaign-preparation page (2023); DOH-CHD Eastern Visayas campaign/microplanning page (19 April 2023); DOH-CHD Cordillera SEIR/data-quality page (2023); WHO vaccine-safety Q&A (23 September 2025); DOH NIP manual support booklet.
+- Reopened the saved file and confirmed 15,215 characters plus the campaign-date warning and SEIR coverage.
+- Status: **Drafted — Needs Verification**, not Verified Complete. The available campaign sources are historical (mainly 2023); no active 2026 campaign was verified. Current eligibility, product, dates, intervals and reporting/data-system rules must be checked against the latest DOH national/local guidance.
+- Next action: research the next unchecked EPI child topic, `Cold Chain and Logistics Management`, then continue through each assigned folder.
