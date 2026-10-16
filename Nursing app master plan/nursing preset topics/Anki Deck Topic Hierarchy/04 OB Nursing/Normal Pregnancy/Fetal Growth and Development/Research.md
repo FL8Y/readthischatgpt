@@ -10,6 +10,24 @@ Gestational age is conventionally dated from the first day of the last menstrual
 - Placenta supports gas/nutrient exchange and endocrine functions; it is not an absolute barrier to drugs, infections or toxins.
 - Fetal circulation includes the umbilical vein, ductus venosus, foramen ovale and ductus arteriosus; these shunts direct oxygenated blood preferentially to vital organs before birth.
 
+## Approximate developmental milestones and their interpretation
+Milestones are approximate; sources may count from fertilization age or gestational age (LMP), which differ by about two weeks. Do not infer viability, normality or exact gestational age from one milestone.
+
+| Approximate period (gestational age) | Broad developmental theme | Nursing interpretation |
+|---|---|---|
+| Weeks 3–8 after fertilization (about gestational weeks 5–10) | Major organ formation/early organogenesis; neural tube and major organ systems develop. | Potential teratogen exposure requires timely professional review; do not stop essential medication without review. |
+| End of first trimester | Major structural foundations are present; growth and functional maturation continue. | Screening/ultrasound timing is test-specific; a normal screen does not exclude all conditions. |
+| Second trimester | Rapid growth, skeletal development, sensory/neuromuscular maturation; fetal movement is commonly perceived during this period. | Quickening timing varies; absence of perceived movement by the expected window or a reduction after a usual pattern is established needs assessment. |
+| Third trimester | Continued weight gain, lung/brain maturation and accumulation of fat/iron; maturation continues until birth. | Prematurity can affect respiratory, thermoregulatory, feeding and neurologic adaptation; “third trimester” does not mean all organ systems are mature. |
+
+## Common screening and growth surveillance windows
+- A detailed fetal anatomy ultrasound is often performed around 18–22 weeks; use the local screening program.
+- Fundal height is a screening measure later in pregnancy, not a standalone diagnosis of growth restriction or macrosomia.
+- Estimated fetal weight and percentile must be interpreted with dating accuracy, serial growth, amniotic fluid, parental/fetal context and, when indicated, Doppler findings.
+- Reduced fetal movement requires prompt clinical assessment; a prior normal ultrasound or reassuring test cannot rule out a new complication.
+- Screening for aneuploidy, structural anomalies or genetic conditions differs from diagnostic testing; explain purpose, limitations, possible false positives/negatives and follow-up choices in a non-directive way.
+
+
 ## Growth and assessment
 Assessment may include fundal height, fetal movement, ultrasound biometry, estimated fetal weight, amniotic fluid and Doppler studies when indicated. Fundal height is a screening estimate, not a definitive measure; discrepancies may reflect dating error, multiple gestation, growth restriction, macrosomia, fibroids or amniotic fluid abnormality. Ultrasound percentiles and growth trajectories must be interpreted in context.
 
