@@ -30,7 +30,7 @@ Counts below are derived from the topic checklist, not estimated.
 | Topics inventoried | 295 |
 | Researched | 121 |
 | Verified | 0 |
-| Incomplete / not yet researched | 295 |
+| Incomplete / not yet researched | 295 (inventory includes organizational parents) |
 | Remaining | 295 (121 topic-specific draft files exist; 115 leaf topic folders remain without a dedicated research file; all drafts require verification) |
 | Evidence-based completion | 0% |
 
@@ -363,3 +363,12 @@ Preferred source hierarchy:
 ## Next action
 
 Next: continue with remaining burn wound-care methods, disaster management/NDRRMC, PENA and other triage folders, then hematology, immunology and musculoskeletal topics. Continue folder-by-folder under the updated full standard; source-to-claim validation and reopening all files remain a separate required quality pass. For every topic: research → cite → safety/PNLE audit → create topic-specific Markdown in its corresponding folder → upload → reopen from GitHub → update this log and mind map.
+
+
+## Latest active-session work — 2026-10-17
+
+- Re-read the complete current [RESEARCH TOPIC GUIDE.md](./RESEARCH%20TOPIC%20GUIDE.md) (15,746 characters). The full standard governs all subsequent work: substantive topic-specific research, claim-level source checking, Philippine context, explicit medication/procedure safety, PNLE prioritization, upload/reopen verification, and recursive audit.
+- Added 10 topic-specific draft files in the current batch: ADH/water balance, adrenal gland and hormones, hyperparathyroidism, hypoparathyroidism, PTH physiology, pituitary hormones, thyroid hormones, acute GI management, PUD risk/management, and chronic pancreatitis. Files were committed to branch `agent-3-med-surg-research` in commits `8e771dac70fd54238537a1fa4891dfb728b520c7` and `d4d37e5449047be3fae0e9e6640850dc9849e942`.
+- **Important status distinction:** These are substantive drafts, not verified completions. No topic is counted as VERIFIED COMPLETE until each cited source is opened and matched to the claim, Philippine/local guidance is checked where applicable, and the uploaded file is reopened.
+- Current recursive audit: 296 directories under the assigned root, 235 leaf topic folders, 131 topic research files; 105 leaf folders remain without a dedicated research file. Organizational parent folders still require explicit research or documented classification in the checklist.
+- Next action: continue with the next uncovered leaf folder, add its topic-specific research file, update the log, then return for source-by-source verification of drafted files. Do not mark the project complete until final recursive reconciliation.
