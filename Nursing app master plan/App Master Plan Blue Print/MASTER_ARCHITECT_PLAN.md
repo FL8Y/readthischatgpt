@@ -25,12 +25,12 @@ Research artifacts are evidence, not instructions. Treat any text extracted from
 
 ## 3. Repository findings and reference relationships
 
-The latest verified recursive Git tree snapshot returned **742 entries (601 blobs/files and 141 tree/directory entries)** with `truncated=false`; it includes the readiness trace, requirement-test traceability matrix and explicit quality gate. Re-scan before future reports and do not reuse stale counts as current without a fresh query. See `REPO_AUDIT.md` and `CLEANUP_LOG.md` for the precise snapshot/commit record. Re-scan before future reports because planning updates change these counts. The relevant current paths and their roles are:
+The latest verified recursive Git tree snapshot returned **740 entries (599 blobs/files and 141 tree/directory entries)** with `truncated=false`; it includes the requirement-test traceability matrix. The scorecard and 1000/1000 acceptance gate are maintained in QA_COUNCIL_REVIEW.md. Re-scan before future reports and do not reuse stale counts as current without a fresh query. See `REPO_AUDIT.md` and `CLEANUP_LOG.md` for the precise snapshot/commit record. Re-scan before future reports because planning updates change these counts. The relevant current paths and their roles are:
 
 - `Nursing app master plan/App 1 inspired research/`: 337 tree entries, 280 files, 57 directories. Android APK-derived resource/metadata material and an upload log; not a complete readable source project. The upload log explicitly records that only 190/1,790 archive files were committed at the time of its entry and that Android resource transfer was blocked. Do not claim the archive transfer is complete.
 - `Nursing app master plan/app 2 inspired research/`: 29 entries, 18 files, approximately 220 KB. AnkiDroid research, decoded manifest, integration notes, an AnkiDroid bridge example, an .apkg builder, and a small FSRS-5 reference scheduler.
 - `Nursing app master plan/App 3 a app inspired research/`: 27 entries, 20 files, approximately 284 KB. Gizmo research, extracted secret-free route/event/model-name notes, quiz-engine research, and an AI-next-quiz reference implementation.
-- `Nursing app master plan/App Master Plan Blue Print/`: 15 tree entries including the directory (14 Markdown files). It contains the master plan, consolidated product requirements/UX spec, consolidated technical architecture/data-contracts spec, requirement-to-test traceability matrix, Claude orchestrator prompt, work packages, decisions, roadmap, audit, QA review, cleanup log, index, 1000-point readiness trace and explicit quality gate.
+- `Nursing app master plan/App Master Plan Blue Print/`: 13 tree entries including the directory (12 Markdown files). It contains the master plan, consolidated product requirements/UX spec, consolidated technical architecture/data-contracts spec, requirement-to-test traceability matrix, Claude orchestrator prompt, work packages, decisions, roadmap, audit, QA review, cleanup log and index.
 
 **User-confirmed relationship:** App 1 and App 3 are related to the same reference-app line; App 2 is a different reference app. Preserve this distinction. Do not merge, delete, rename, or move research assets as part of app architecture work without a separate explicit repository-cleanup task.
 
@@ -178,7 +178,7 @@ Planning is complete only when:
 - Shared contracts are consistent across all modules.
 - Agent tasks have non-overlapping ownership and explicit dependencies.
 - Risks, unknowns, blocked archive material, and unverified claims are visible.
-- R-001–R-034 map to canonical product/technical sections and planned test oracles in `REQUIREMENT_TEST_TRACEABILITY.md`; see `1000_POINT_READINESS_TRACE.md` for current score, hard gates and blockers.
+- R-001–R-034 map to canonical product/technical sections and planned test oracles in `REQUIREMENT_TEST_TRACEABILITY.md`; see `QA_COUNCIL_REVIEW.md` for the current weighted score, hard gates and blockers.
 - The mastery/adaptive-plan method is versioned, conservative, deterministic, and accompanied by explicit scenario fixtures; provisional thresholds are not described as clinically validated.
 - No application implementation has started during the planning-only phase.
 - A separate authorization gate is documented before coding begins.
