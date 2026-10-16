@@ -304,3 +304,40 @@ These are scores for planning readiness, not for a working application.
 1. Resolve the Gizmo minimum-SDK and DOCX page-count discrepancies from the original primary artifacts.
 2. In a checkout-capable environment, run the existing APKG builder tests, FSRS reference tests and Gizmo TypeScript typecheck; record exact commands/output.
 3. Reconcile the original App 1 archive manifest against all uploaded files by path/size/hash. Preserve the build gate until separately authorized.
+
+
+## Corrective Cycle 6 — mastery policy, decision defaults, evidence trace (2026-10-17)
+
+### Work completed
+- Added a weighted, auditable **1000-point readiness trace** at `1000_POINT_READINESS_TRACE.md`. It explicitly separates the target from the current score and prevents a perfect-score claim while hard gates remain open.
+- Freshly read the complete Library versions of the Gizmo report (54/54 pages; 2,671 extracted text lines) and AnkiDroid report (35/35 pages; 1,765 extracted text lines). Corrected the App 3 README from 52 to 54 pages.
+- Reconciled the page-count discrepancy. The Gizmo minimum-SDK conflict remains real and unresolved: the report's main identity section says 34; Addendum C says 26 citing apktool.yml; the raw apktool.yml is absent from the GitHub research tree. The decoded manifest only confirms compile SDK 36 and has no `<uses-sdk>` element.
+- Discovered and compared the available `FULL_ARCHIVE_MANIFEST.csv` against the current App 1 subtree. The available CSV has 1,000 rows (indices 0–999), while its companion instructions claim 1,790 source entries. Of those 1,000 available rows, 218 paths match current App 1 files, 782 listed paths are absent, 62 current files are not represented in the partial manifest, and two exact-path matches differ in byte size. This is not a complete transfer audit; do not infer a percentage or declare completeness.
+- Added R-033 (evidence-aware mastery) and R-034 (deterministic adaptive-plan order).
+- Specified a provisional 30-day recency half-life, evidence-count/session/coverage gates, a distinct confidence label, deterministic plan ordering, reward idempotency rules, and ten mastery scenario classes. These thresholds are explicit proposals, not empirically calibrated truths.
+- Converted open architecture questions into recommended defaults with alternatives and gates; the decision log still marks these as proposals, not user-approved commitments.
+- Created the readiness trace link in the blueprint index and updated the repository audit to reflect the new 12th blueprint Markdown file.
+
+### Fresh repository verification
+- Recursive tree: **740 entries; 599 blobs/files; 141 tree/directory entries; `truncated=false`**.
+- Blueprint: **12 Markdown files**.
+- Fetched all 12 blueprint Markdown files plus the parent README after edits; no readback failures.
+- Relative Markdown links checked across the 12 blueprint files and parent README: **19 checked, 0 broken**.
+- Confirmed R-033 and R-034 exist in the canonical requirement matrix and are referenced in the readiness trace.
+- No application code, runnable prototype or technical spike was created.
+
+### Validation limits
+- APKG builder tests, FSRS scheduler tests and Gizmo TypeScript typecheck remain unrun in this environment because a local checkout attempt could not resolve GitHub. Historical report counts remain documentation, not fresh test results.
+- No live Claude Code/Ruflo agents were spawned in this ChatGPT session; the work-package design is present but independent agent consensus is not claimed.
+- The full 1,790-entry archive manifest/split set and raw apktool.yml remain unavailable in the current repository evidence set.
+- The mastery thresholds are provisional and need independent learning-science review. The plan specifies scenario classes, but exact expected values for every fixture and a row-by-row requirement-to-contract-to-test map still need completion.
+
+### Current score trace
+See `1000_POINT_READINESS_TRACE.md` for the full evidence-backed scorecard. Current score is **790/1,000**, not 1,000/1,000. The plan cannot honestly receive 10/10 while the hard gates and blockers recorded there remain open. Security is not the main scoring driver; source integrity, learning behavior, architecture, requirements and QA evidence carry the majority of the weight.
+
+**Cycle 6 verdict:** Planning quality improved materially, but a perfect score is not yet earned. Continue the next bounded review cycle; do not build the app.
+
+### Next improvements
+1. Expand R-001–R-034 into a complete requirement → canonical section → contract/data → agent owner → exact fixture/test-oracle matrix.
+2. Freeze exact expected outputs for all ten mastery scenarios and obtain a genuinely independent learning-science review.
+3. Recover the full archive manifest/split set and raw apktool.yml; if unavailable, retain explicit blockers rather than inventing certainty.
