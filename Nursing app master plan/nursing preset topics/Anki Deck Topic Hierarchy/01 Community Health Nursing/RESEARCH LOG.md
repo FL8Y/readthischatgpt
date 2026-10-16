@@ -10,10 +10,10 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 23 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, and Chikiting Ligtas, and Approved Types of Water Supply Facilities, and Cold Chain and Logistics Management.
+- **Substantive topic drafts expanded:** 24 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, and Chikiting Ligtas, and Approved Types of Water Supply Facilities, and Cold Chain and Logistics Management, and Color and Type of Waste.
 - **Topics verified complete:** 0
-- **Folders still requiring substantive topic-specific expansion:** 54 (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes).
-- **Drafts awaiting source/content verification:** 22
+- **Folders still requiring substantive topic-specific expansion:** 53 (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes).
+- **Drafts awaiting source/content verification:** 24
 - **Research notes present:** 77/77; this is file presence, not research completion.
 - **Completion:** 0% verified topic research. No topic is marked Verified Complete.
 - **Mind map:** Existing Obsidian map reflects the folder hierarchy; status annotations, links and coverage audit still required.
@@ -250,8 +250,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: **Drafted — Needs Verification** | Required sections: Level I/II/III definitions and comparison; access vs safety distinction; Philippine legal/technical standards; nursing responsibilities; water-quality and outbreak response; evaluation indicators; PNLE distinctions; sources.  
   Sources consulted: DOH IRR of Chapter II—Water Supply under PD 856 (Supreme Court E-Library); PSA water-supply technical notes; DOH AO 2017-0010 PNSDW page; DOH AO 2014-0027 Water Safety Plan policy; RA 9275 Supreme Court E-Library; WHO Drinking-water fact sheet. Important facts covered: Level I point source; Level II communal faucets; Level III household connections; none guarantees potable water without meeting applicable quality standards; access/distance figures vary by source/version. Research file: `Elements of Primary Health Care/Sanitation and Environmental Health/Approved Types of Water Supply Facilities/RESEARCH NOTES.md` (11,358 characters; verified from main after save). Unresolved issues: final direct-link/full-text and amendment review; current PNSDW thresholds and sampling obligations not asserted. Last action: replaced generic starter with substantive water-supply classification research and verified the main-branch file (2026-10-17). Next action: continue folder-by-folder and verify sources before marking complete.
 - [x] **Color and Type of Waste** — `Elements of Primary Health Care/Sanitation and Environmental Health/Color and Type of Waste`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: general vs healthcare waste; category definitions; current color-coding caveat; point-of-generation segregation; sharps/chemical/pharmaceutical safety; Philippine legal framework; nursing responsibilities; evaluation; PNLE distinctions; sources.  
+  Sources consulted: Joint DENR–DOH AO 02 s. 2005 (Supreme Court E-Library); DOH healthcare-waste manual download page; RA 9003 (Supreme Court E-Library); PD 856 refuse-disposal IRR; WHO Health-care waste fact sheet (2024); DOH 2026 facility procurement document quoting AO 2013-003 color coding. Research file: `Elements of Primary Health Care/Sanitation and Environmental Health/Color and Type of Waste/RESEARCH NOTES.md` (15,740 characters; reopened from main). Unresolved issues: full current manual/AO and exact color table need direct verification; follow current facility procedure and applicable local rules. Last action: replaced generic starter note with substantive waste classification/safety research and reopened saved file (2026-10-17). Next action: continue to the next individual folder; verify the current color scheme before marking complete.
 - [x] **Food Sanitation** — `Elements of Primary Health Care/Sanitation and Environmental Health/Food Sanitation`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 23/77; all 23 remain Drafted — Needs Verification.
-- **Folders still requiring substantive expansion:** 54/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** 24/77; all 24 remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** 53/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -584,3 +584,14 @@ Every directory below was present in the repository's recursive tree at the init
 - Reopened the saved file and confirmed 13,719 characters, excursion workflow and CTC coverage.
 - Status: **Drafted — Needs Verification**, not Verified Complete. Exact monitoring frequency, excursion thresholds, open-vial policy and reporting deadlines require the current full NIP manual and local SOPs.
 - Next action: continue with the next unchecked EPI subtopic and keep the log/mind map synchronized.
+
+
+## Research Cycle Log — 2026-10-17 (Color and Type of Waste)
+
+- Applied the mandatory standard to the individual waste-classification folder and inspected its generic starter note.
+- Expanded `Elements of Primary Health Care/Sanitation and Environmental Health/Color and Type of Waste/RESEARCH NOTES.md` from 2,309 characters to 15,740 characters.
+- Covered the distinction between municipal solid waste and healthcare waste; general categories; healthcare waste types; color-coding principles and caveats; point-of-generation segregation; sharps, chemical and pharmaceutical safety; Philippine law/policy; nursing responsibilities; indicators and PNLE distinctions.
+- Sources consulted: Joint DENR–DOH AO 02 s. 2005; DOH healthcare-waste manual page; RA 9003; PD 856 refuse-disposal IRR; WHO Health-care waste fact sheet (2024); DOH 2026 facility procurement document quoting the AO 2013-003 scheme.
+- Reopened the saved main-branch file and confirmed 15,740 characters plus healthcare waste categories and RA 9003 coverage.
+- Status: **Drafted — Needs Verification**, not Verified Complete. The exact current color table requires the full current DOH manual/order and facility procedure; color alone is not sufficient.
+- Next action: continue to the next individual folder and keep the log/mind map synchronized.
