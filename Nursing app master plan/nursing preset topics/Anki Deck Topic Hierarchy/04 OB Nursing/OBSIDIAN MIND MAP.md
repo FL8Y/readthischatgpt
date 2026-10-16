@@ -66,6 +66,7 @@
   - Toxemia (legacy folder label; research should use current terminology such as hypertensive disorders of pregnancy and explain historical terminology)
   - [[Common Complications/Toxemia/Research|Hypertensive Disorders of Pregnancy (legacy folder: Toxemia)]]
 - Postpartum Changes
+- [[Postpartum Changes/Research|Postpartum Changes and Nursing Care]]
 - Others
   - EINC (Essential Intrapartum and Newborn Care)
     - EINC Basics
@@ -79,6 +80,7 @@
     - Others
     - [[Others/EINC/Others/Research|Additional EINC Care]]
   - Hormones in Menstrual Cycle
+  - [[Others/Hormones in Menstrual Cycle/Research|Hormones in the Menstrual Cycle]]
 
 ## Coverage gaps to assess
 - Reproductive anatomy, conception, and preconception care
