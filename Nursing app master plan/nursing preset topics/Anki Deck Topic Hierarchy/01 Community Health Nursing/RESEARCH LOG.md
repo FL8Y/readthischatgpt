@@ -10,9 +10,9 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 29 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, and Mental Health Program.
+- **Substantive topic drafts expanded:** 30 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, and BCG.
 - **Topics verified complete:** 0
-- **Folders still requiring substantive topic-specific expansion:** 48 (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes).
+- **Folders still requiring substantive topic-specific expansion:** 47 (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes).
 - **Drafts awaiting source/content verification:** 28
 - **Research notes present:** 77/77; this is file presence, not research completion.
 - **Completion:** 0% verified topic research. No topic is marked Verified Complete.
@@ -166,8 +166,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: **Drafted — Needs Verification** | Required sections: core principles; pre-vaccination screening; administration; post-vaccination care; contraindications/precautions; AEFI response; cold chain; communication; documentation/coverage; Philippine legal/scope context; PNLE distinctions; sources.  
   Sources consulted: WHO vaccine-safety Q&A (23 Sep 2025); WHO vaccine-safety/false-contraindications manual (2017); WHO CTC page; DOH NIP 2023 session booklet; RA 10152; RA 11223. Important facts covered: pre/during/post vaccination workflow; AEFI response; stock/excursion escalation; documentation/privacy and current-schedule verification. Research file: `Elements of Primary Health Care/Expanded Program on Immunization/Principles and Nursing Responsibilities/RESEARCH NOTES.md` (13,507 characters; reopened after save). Unresolved issues: current complete NIP manual and local SOPs must be checked for exact vaccine-specific details. Last action: expanded generic 2,447-character starter note into substantive nursing-practice research and reopened saved file (2026-10-17). Next action: continue through vaccine-specific child folders; verify each against current DOH guidance.
 - [x] **BCG** — `Elements of Primary Health Care/Expanded Program on Immunization/Principles and Nursing Responsibilities/BCG`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: vaccine purpose/limits; Philippine schedule context; contraindications and immunocompromised special populations; expected local reaction/adverse events; assessment and administration; caregiver education; TB-control distinction; AEFI/documentation; PNLE points; sources.  
+  Sources consulted: WHO BCG position paper (Feb 2018); WHO BCG resource page; DOH NIP “Conducting Immunization Sessions” booklet (2023); WHO Global Advisory Committee on Vaccine Safety BCG resource; WHO TB Knowledge Sharing BCG contraindication page. Important facts covered: BCG protects mainly against severe childhood TB, is live, requires careful assessment of immunodeficiency/HIV-related situations, and absence of a scar alone is not an indication for revaccination. Research file: `Elements of Primary Health Care/Expanded Program on Immunization/Principles and Nursing Responsibilities/BCG/RESEARCH NOTES.md` (13,510 characters; reopened after save). Unresolved issues: current full NIP manual/product label and Philippine HIV-exposed/infected infant protocol need review; exact dose/route/age must be checked at point of care. Last action: expanded generic 2,384-character starter note into substantive BCG research and reopened saved file (2026-10-17). Next action: continue with next vaccine-specific topic and verify current DOH/product instructions.
 - [x] **Other Vaccines** — `Elements of Primary Health Care/Expanded Program on Immunization/Principles and Nursing Responsibilities/Other Vaccines`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 29/77; all 29 remain Drafted — Needs Verification.
-- **Folders still requiring substantive expansion:** 48/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** 30/77; all 30 remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** 47/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -652,3 +652,14 @@ Every directory below was present in the repository's recursive tree at the init
 - Limitations: WHO full-length documents and current implementing rules have not been reviewed page by page; exact legal exceptions/reporting duties and locality-specific emergency contacts/referral availability need final verification. The file remains **Drafted — Needs Verification**, not Verified Complete.
 - Coverage reconciliation at the time of this write: 29/77 folders have substantive drafts, 48/77 still require substantive expansion, and 0/77 are verified complete.
 - Next action: continue the recursive inventory and expand the next individual folder that still has only generic starter material; keep the log and mind map synchronized.
+
+
+## Research Cycle Log — 2026-10-17 (BCG)
+
+- Re-read the mandatory subject guide and inspected the existing BCG note.
+- Expanded `Elements of Primary Health Care/Expanded Program on Immunization/Principles and Nursing Responsibilities/BCG/RESEARCH NOTES.md` from 2,384 to 13,510 characters.
+- Covered purpose/limits, Philippine schedule context, live-vaccine safety, immunodeficiency/HIV-related assessment, pregnancy precaution, local reactions/adverse events, nursing screening/administration, caregiver education, TB-control distinction, AEFI and PNLE points.
+- Sources consulted: WHO BCG position paper (February 2018); WHO BCG resource page; DOH NIP “Conducting Immunization Sessions” booklet (2023); WHO Global Advisory Committee on Vaccine Safety BCG page; WHO TB Knowledge Sharing contraindication page.
+- Reopened the saved file and confirmed 13,510 characters, contraindication/high-risk coverage and the no-scar/revaccination distinction.
+- Status: **Drafted — Needs Verification**, not Verified Complete. The full current NIP manual, product label and Philippine HIV-exposed/infected infant protocol require review before clinical decisions; dose/route/age must be checked at point of care.
+- Next action: continue with the next individual vaccine topic and keep the checklist/mind map synchronized.
