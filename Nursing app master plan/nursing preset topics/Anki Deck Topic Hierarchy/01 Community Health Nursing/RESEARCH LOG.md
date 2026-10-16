@@ -10,10 +10,10 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 27 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, and Principles and Nursing Responsibilities.
+- **Substantive topic drafts expanded:** 28 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, and Principles and Nursing Responsibilities, and Toilet Facility.
 - **Topics verified complete:** 0
-- **Folders still requiring substantive topic-specific expansion:** 50 (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes).
-- **Drafts awaiting source/content verification:** 24
+- **Folders still requiring substantive topic-specific expansion:** 49 (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes).
+- **Drafts awaiting source/content verification:** 28
 - **Research notes present:** 77/77; this is file presence, not research completion.
 - **Completion:** 0% verified topic research. No topic is marked Verified Complete.
 - **Mind map:** Existing Obsidian map reflects the folder hierarchy; status annotations, links and coverage audit still required.
@@ -259,8 +259,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
 - [x] **Toilet Facility** — `Elements of Primary Health Care/Sanitation and Environmental Health/Toilet Facility`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: toilet-system types; safe excreta chain; siting/design cautions; operation/maintenance; nursing assessment; red flags/escalation; Philippine regulatory context; indicators; equity/access; PNLE distinctions; sources.  
+  Sources consulted: WHO Sanitation fact sheet (2024); WHO Drinking-water fact sheet (2023); WHO/UNICEF JMP sanitation monitoring page; PD 856 Code on Sanitation (Supreme Court E-Library); DOH AO 2019-0054 PhATSS; RA 9275 Philippine Clean Water Act. Important facts covered: toilet presence is not equivalent to safely managed sanitation; sewer/septic/pit/shared/emergency options; maintenance and safe fecal-sludge management; no unverified universal technical dimensions. Research file: `Elements of Primary Health Care/Sanitation and Environmental Health/Toilet Facility/RESEARCH NOTES.md` (13,168 characters; reopened from main). Unresolved issues: direct verification of current Chapter XVII rules, amendments and local design requirements. Last action: replaced unrelated mental-health starter text with substantive toilet-facility research and reopened saved file (2026-10-17). Next action: continue to next individual topic folder and verify sources before marking complete.
 - [x] **Treatment of Communicable and Noncommunicable Diseases and Emergency Services** — `Elements of Primary Health Care/Treatment of Communicable and Noncommunicable Diseases and Emergency Services`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 27/77; all 27 remain Drafted — Needs Verification.
-- **Folders still requiring substantive expansion:** 50/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** 28/77; all 28 remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** 49/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -629,3 +629,14 @@ Every directory below was present in the repository's recursive tree at the init
 - Reopened the saved file and confirmed 13,507 characters, AEFI and RA 10152 sections.
 - Status: **Drafted — Needs Verification**, not Verified Complete. Exact vaccine-specific instructions require the current complete DOH NIP manual, product label and local SOP.
 - Next action: continue with the next unchecked EPI child topic and verify it independently.
+
+
+## Research Cycle Log — 2026-10-17 (Toilet Facility)
+
+- Applied the mandatory standard to the individual Toilet Facility folder. The starter file contained unrelated mental-health material and was replaced with sanitation-specific research.
+- Expanded `Elements of Primary Health Care/Sanitation and Environmental Health/Toilet Facility/RESEARCH NOTES.md` from 2,312 characters to 13,168 characters.
+- Covered toilet arrangements (sewer, septic, pour-flush, pit/VIP, shared and emergency), safe excreta chain, siting/design factors, maintenance, safe desludging, community-health nursing assessment, red flags, Philippine regulatory context, evaluation, equity and PNLE distinctions.
+- Sources consulted: WHO Sanitation fact sheet (2024); WHO Drinking-water fact sheet (2023); WHO/UNICEF JMP sanitation monitoring page; PD 856 Code on Sanitation; DOH AO 2019-0054 PhATSS; RA 9275.
+- Reopened the saved file and confirmed 13,168 characters plus toilet-system, safe-excreta and Philippine-context sections.
+- Status: **Drafted — Needs Verification**, not Verified Complete. Current Chapter XVII rules and local technical requirements require direct review.
+- Next action: continue to the next assigned topic folder; final source and recursive audits remain.
