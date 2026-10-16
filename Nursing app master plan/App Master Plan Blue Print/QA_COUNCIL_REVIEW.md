@@ -329,7 +329,7 @@ These are scores for planning readiness, not for a working application.
 ### Validation limits
 - APKG builder tests, FSRS scheduler tests and Gizmo TypeScript typecheck remain unrun in this environment because a local checkout attempt could not resolve GitHub. Historical report counts remain documentation, not fresh test results.
 - No live Claude Code/Ruflo agents were spawned in this ChatGPT session; the work-package design is present but independent agent consensus is not claimed.
-- The full 1,790-entry archive manifest/split set and raw apktool.yml remain unavailable in the current repository evidence set.
+- The raw 1,790-row manifest is available in the Library and its row count/byte total match the upload log; however, a full path/size/CRC reconciliation against the Git tree remains outstanding. The original split archive files and raw apktool.yml are not in the current GitHub evidence set.
 - The mastery thresholds are provisional and need independent learning-science review. The ten mastery fixtures now have explicit expected outcomes, but independent review and executable test receipts remain outstanding.
 
 ### Current score trace
@@ -367,7 +367,7 @@ Two standalone score artifacts were added briefly and then removed by subsequent
 ### Current repository verification
 - Recursive tree: **740 entries; 599 blobs/files; 141 tree/directory entries; truncated=false**.
 - Blueprint: **12 Markdown files**.
-- The current README and master plan no longer link to the two deleted score artifacts.
+- The current README and master plan link to the canonical requirement-test traceability matrix; the weighted scorecard and hard gates live in this QA review, while the two deleted standalone score artifacts remain historical only.
 - Final link scan after this addendum: **20 relative Markdown links checked across the 12 blueprint Markdown files and parent README; 0 broken**. Tree snapshot: 740 entries / 599 blobs / 141 trees / truncated=false. Re-run after any subsequent path or link change.
 - No application code, runnable prototype, or technical spike was created.
 
@@ -377,17 +377,17 @@ Two standalone score artifacts were added briefly and then removed by subsequent
 
 | Category | Weight | Current | Evidence-based reason points are not yet full |
 |---|---:|---:|---|
-| Source evidence and provenance | 125 | 88 | Both reports were fully read, but the Gizmo SDK contradiction and incomplete archive manifest prevent full source reconciliation. |
+| Source evidence and provenance | 125 | 88 | Both reports were fully read and the raw 1,790-row manifest was recovered, but the Gizmo SDK contradiction and incomplete all-row path/size/CRC comparison prevent full source reconciliation. |
 | Requirements and traceability | 125 | 121 | R-001–R-034 have a requirement-to-contract/test-oracle matrix; independent audit and exact expected fixture outputs remain. |
 | Architecture coherence and decisions | 125 | 92 | Recommended defaults and alternatives exist; device matrix, provider support/cost, scheduler selection and empirical constraints remain unverified. |
 | Learning system and mastery | 125 | 105 | Diagnostic gate, evidence rules, deterministic plan order and scenario classes are explicit; thresholds are provisional and need independent learning-science review plus frozen fixture outputs. |
 | Data model and service contracts | 100 | 90 | Canonical IDs, event history, answer-key boundary, idempotency, concurrency, migrations and exact mastery aggregation are specified; no executable contract tests ran. |
 | UX, accessibility and recovery | 75 | 60 | Main journeys and accessibility/recovery requirements are specified; screen-state inventory, usability evidence and assistive-tech/device checks remain. |
 | Nursing-content reliability | 75 | 60 | Source provenance and unsafe/unsupported-content handling are specified; authoritative source-class policy and independent clinical review remain. |
-| QA and reproducibility | 100 | 50 | Full report page counts and a partial archive comparison are verified; reference tests/typecheck could not run in this environment and the full archive remains unavailable. |
+| QA and reproducibility | 100 | 50 | Full report page counts and the first 1,000 manifest-entry comparison are verified; rows 1000–1789 remain to be reconciled, and reference tests/typecheck could not run in this environment. |
 | Agent coordination and handoffs | 75 | 60 | Work packages, ownership, evidence labels and boundaries are explicit; no live independent Claude Code agent review was run in this session. |
 | Repository integrity and navigation | 75 | 68 | Consolidation and current readbacks are maintained; final link/path scan must be recorded after this write and old historical count statements need to remain clearly marked historical. |
-| **Total** | **1,000** | **820** | **180 points remain unearned.** |
+| **Total** | **1,000** | **794** | **206 points remain unearned.** |
 
 ### Hard gates for a genuine 1000/1000
 All gates must pass; a high average cannot conceal a failed gate.
@@ -408,6 +408,6 @@ All gates must pass; a high average cannot conceal a failed gate.
 ### Next bounded cycle
 1. Audit all 34 traceability rows for exactness and produce deterministic expected outputs for MAST-001 through MAST-010.
 2. Re-run current tree, readback, relative-link, stale-count and cross-document consistency checks; update this report with the resulting commit/tree SHAs.
-3. Continue source reconciliation if the full archive manifest/split files or raw apktool.yml can be retrieved; otherwise keep these limits explicit and seek an independent planning review.
+3. Complete a path/size/CRC comparison for all 1,790 rows in the recovered raw manifest; retrieve the original split archive files if needed and obtain apktool.yml to resolve the min-SDK conflict. Keep the remaining blockers explicit and seek an independent planning review.
 
 **Commitment:** The target is a defensible 1000/1000 and 10/10. I will not mark it achieved merely to satisfy the requested number; the score must follow the evidence.
