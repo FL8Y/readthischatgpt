@@ -157,3 +157,11 @@ These children are separate assignments and must each have their own topic-speci
 5. **World Health Organization.** *Health promotion: Introduction* (WHO EMRO). Explains health education as a tool of health promotion and the role of social determinants. https://www.emro.who.int/health-topics/health-promotion/introduction.html
 
 **Evidence limitations:** WHO pages and CDC communication-strategy page were inspected. The complete Alma-Ata source text and direct links require final verification; topic-specific clinical advice should be supported by the relevant current Philippine DOH/program source rather than these general education references. This is a substantive draft, **not Verified Complete**.
+
+## Philippine context — additional reference
+
+Community health education in the Philippines should use current DOH/LGU program materials, locally understandable languages and accessible formats, and must remain within the nurse's professional scope. The Philippine Nursing Act of 2002 (RA 9173) is relevant to professional nursing practice; the Universal Health Care Act (RA 11223) provides broader system context for integrated primary care. These laws do not prescribe one universal teaching method or replace current program-specific guidance. Verify the current DOH issuance for any disease-specific teaching, vaccine schedule, medication instruction or reporting rule.
+
+Additional primary legal sources:
+- **Republic of the Philippines.** *Republic Act No. 9173 — Philippine Nursing Act of 2002*, Lawphil. https://lawphil.net/statutes/repacts/ra2002/ra_9173_2002.html
+- **Republic of the Philippines.** *Republic Act No. 11223 — Universal Health Care Act* (2019), Lawphil. https://lawphil.net/statutes/repacts/ra2019/ra_11223_2019.html
