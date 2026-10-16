@@ -341,3 +341,65 @@ See `1000_POINT_READINESS_TRACE.md` for the full evidence-backed scorecard. Curr
 1. Expand R-001–R-034 into a complete requirement → canonical section → contract/data → agent owner → exact fixture/test-oracle matrix.
 2. Freeze exact expected outputs for all ten mastery scenarios and obtain a genuinely independent learning-science review.
 3. Recover the full archive manifest/split set and raw apktool.yml; if unavailable, retain explicit blockers rather than inventing certainty.
+
+
+## Corrective Cycle 7 — score consolidation and requirement-test mapping (2026-10-17)
+
+### Repository event reconciliation
+Two standalone score artifacts were added briefly and then removed by subsequent repository commits. The current branch does not contain those files. To avoid recreating files that the latest branch history removed, the score rubric and perfect-score gate are consolidated here in this canonical QA review. The blueprint README and master plan were corrected so they no longer link to deleted files. The target remains 1000/1000; it is not pre-awarded.
+
+### Corrections retained on the current branch
+- The canonical requirement matrix now contains R-001 through R-034.
+- REQUIREMENT_TEST_TRACEABILITY.md maps all 34 requirement IDs to a technical/data boundary, accountable role, planned test ID(s), and pass oracle. These are planned tests, not executed tests.
+- The mastery specification now separates assessment accuracy from spaced-review ratings and separates confidence/evidence sufficiency from correctness. For each question-version/concept-family/session tuple, only the latest valid graded attempt contributes to the mastery projection; all attempts remain in history. Repeated versions of one concept family cannot satisfy the distinct-family evidence gate.
+- The full Gizmo report (54 pages) and AnkiDroid report (35 pages) were read in full from the Library. The App 3 README was corrected to 54 pages.
+- The Gizmo minimum-SDK conflict remains UNKNOWN: the main identity section states 34, while Addendum C states 26 and cites apktool.yml; the raw apktool.yml is absent from the repository.
+- The available FULL_ARCHIVE_MANIFEST.csv has only 1,000 rows (indices 0–999) despite related instructions describing 1,790 entries. Against the current App 1 subtree: 218 of those 1,000 paths match, 782 listed paths are absent, 62 current files are not represented in the partial manifest, and two matching paths have byte-size discrepancies. This is only a partial comparison, not a completion percentage or full archive verdict.
+
+### Current repository verification
+- Recursive tree: **740 entries; 599 blobs/files; 141 tree/directory entries; truncated=false**.
+- Blueprint: **12 Markdown files**.
+- The current README and master plan no longer link to the two deleted score artifacts.
+- A fresh final relative-link scan must be performed after this addendum is written; do not reuse earlier link counts as current.
+- No application code, runnable prototype, or technical spike was created.
+
+### Evidence-weighted 1000-point scorecard
+
+**Current audited score: 820/1,000 (82%). Target: 1,000/1,000. Verdict: NOT 10/10.** Scores reward specification quality and verifiable evidence; they do not imply that the app is implemented or runtime-tested.
+
+| Category | Weight | Current | Evidence-based reason points are not yet full |
+|---|---:|---:|---|
+| Source evidence and provenance | 150 | 105 | Both reports were fully read, but the Gizmo SDK contradiction and incomplete archive manifest prevent full source reconciliation. |
+| Requirements and traceability | 150 | 145 | R-001–R-034 have a requirement-to-contract/test-oracle matrix; independent audit and exact expected fixture outputs remain. |
+| Architecture coherence and decisions | 150 | 110 | Recommended defaults and alternatives exist; device matrix, provider support/cost, scheduler selection and empirical constraints remain unverified. |
+| Learning system and mastery | 150 | 120 | Diagnostic gate, evidence rules, deterministic plan order and scenario classes are explicit; thresholds are provisional and need independent learning-science review plus frozen fixture outputs. |
+| Data model and service contracts | 100 | 90 | Canonical IDs, event history, answer-key boundary, idempotency, concurrency, migrations and exact mastery aggregation are specified; no executable contract tests ran. |
+| UX, accessibility and recovery | 75 | 60 | Main journeys and accessibility/recovery requirements are specified; screen-state inventory, usability evidence and assistive-tech/device checks remain. |
+| Nursing-content reliability | 75 | 60 | Source provenance and unsafe/unsupported-content handling are specified; authoritative source-class policy and independent clinical review remain. |
+| QA and reproducibility | 100 | 45 | Full report page counts and a partial archive comparison are verified; reference tests/typecheck could not run in this environment and the full archive remains unavailable. |
+| Agent coordination and handoffs | 50 | 40 | Work packages, ownership, evidence labels and boundaries are explicit; no live independent Claude Code agent review was run in this session. |
+| Repository integrity and navigation | 50 | 45 | Consolidation and current readbacks are maintained; final link/path scan must be recorded after this write and old historical count statements need to remain clearly marked historical. |
+| **Total** | **1,000** | **820** | **180 points remain unearned.** |
+
+### Hard gates for a genuine 1000/1000
+All gates must pass; a high average cannot conceal a failed gate.
+
+- [ ] **HG-01 Evidence integrity:** Material claims are sourced or explicitly UNKNOWN/BLOCKED; contradictions are never silently resolved.
+- [ ] **HG-02 Archive scope:** The full 1,790-entry source manifest/archive is reconciled by path, size and checksum, or a documented independent reviewer confirms that the unavailable portion does not block the planning scope.
+- [ ] **HG-03 Requirements:** Every R-ID has a reviewed canonical spec reference, contract, accountable owner, test ID and exact oracle/fixture.
+- [ ] **HG-04 Architecture:** Each cross-cutting choice has a recommended default, alternatives, trade-offs, reconsideration trigger, validation method and migration/rollback consequence.
+- [ ] **HG-05 Learning model:** All ten mastery scenarios have frozen expected outputs; an independent learning-science reviewer challenges the thresholds and plan ordering.
+- [ ] **HG-06 Data correctness:** Duplicate attempts/reviews/rewards, concurrent generation, interrupted diagnostics, process death, migration, restore and offline replay have complete state transitions and oracles.
+- [ ] **HG-07 Clinical reliability:** Question, answer key and rationale provenance are separate; unsupported/conflicting claims have explicit handling and review paths.
+- [ ] **HG-08 UX:** Primary journeys include loading, empty, error, cancellation, interruption, offline and recovery states with objective accessibility criteria.
+- [ ] **HG-09 Independent review:** At least one genuinely independent reviewer challenges the complete plan; findings are resolved or explicitly dispositioned with evidence.
+- [ ] **HG-10 Repository verification:** Current tree, readbacks, links, requirement IDs and cross-document references are verified against one recorded commit.
+- [ ] **HG-11 Validation honesty:** Exact test commands/results are recorded where executable; blocked tests have a specific environmental reason and are never marked passed.
+- [ ] **HG-12 Phase boundary:** No app implementation, runnable prototype or technical spike has been created without explicit authorization.
+
+### Next bounded cycle
+1. Audit all 34 traceability rows for exactness and produce deterministic expected outputs for MAST-001 through MAST-010.
+2. Re-run current tree, readback, relative-link, stale-count and cross-document consistency checks; update this report with the resulting commit/tree SHAs.
+3. Continue source reconciliation if the full archive manifest/split files or raw apktool.yml can be retrieved; otherwise keep these limits explicit and seek an independent planning review.
+
+**Commitment:** The target is a defensible 1000/1000 and 10/10. I will not mark it achieved merely to satisfy the requested number; the score must follow the evidence.
