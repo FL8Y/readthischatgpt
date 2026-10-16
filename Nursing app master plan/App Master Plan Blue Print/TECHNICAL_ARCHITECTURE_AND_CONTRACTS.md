@@ -92,7 +92,7 @@ The existing scheduler file identifies itself as FSRS-5 and warns that it does n
 
 ## 7. Topic graph and media
 
-Maintain canonical Topic/Concept records and typed relationships, potentially including prerequisite, related, contrasts-with, part-of and clinically-associated-with. Build interactive graph views from those relations, link nodes to lessons/cards/questions, and provide a text/list alternative. Color-code relationship types consistently across folders and graph views, with an explicit legend plus text labels/icons so meaning never depends on color alone. The graph is a projection, not the sole data store.
+Maintain canonical Topic/Concept records and typed relationships, potentially including prerequisite, related, contrasts-with, part-of and clinically-associated-with. Build interactive graph views from those relations, link nodes to lessons/cards/questions, and provide an Obsidian-style linked Markdown/text outline as well as a text/list alternative. Color-code relationship types consistently across folders and graph views, with an explicit legend plus text labels/icons so meaning never depends on color alone. The graph is a projection, not the sole data store.
 
 Recommended import pipeline:
 1. identify input type from content, not extension alone;
@@ -165,7 +165,7 @@ These are logical ownership boundaries, not a mandate to create one network micr
 - **TutorService:** conversation context, source retrieval, provider calls and retention.
 - **SchedulerService:** versioned review algorithm and due state.
 - **LearningAnalyticsService:** evidence, mastery/confidence and module readiness.
-- **RewardService:** deterministic, idempotent points for correct answers, quiz-score milestones and activity completion, plus streaks; duplicate events cannot pay twice.
+- **RewardService:** deterministic, idempotent points for correct answers, topic/module quiz-score milestones, lesson/activity completion and streak milestones; duplicate events cannot pay twice.
 - **Persistence/SyncService:** transactions, migrations, backup/export and conflict resolution.
 - **CredentialService:** platform secure storage or backend credential boundary.
 - **ObservabilityService:** safe diagnostics and cost metrics with secret redaction.
@@ -228,7 +228,7 @@ The planning package must include fixtures and expected outputs for:
 The exact output of every fixture must be recorded in the test plan before implementation. These are product policy tests, not claims that the heuristic predicts real-world competence.
 
 ### 11.4 Rewards and streak contract
-- Reward only unique, valid, committed learning events.
+- Reward only unique, valid, committed learning events, including eligible correct-answer, quiz-score, completion and streak-milestone events; the policy must state how each earns points.
 - Use an idempotency key scoped to the source event and reward-policy version; replayed events cannot mint points twice.
 - Points, streaks and rank are motivational projections, not learning evidence; they never increase mastery.
 - Streak-day boundaries use the learner's configured time zone. Time-zone changes must be deterministic and must not delete history.
@@ -283,7 +283,7 @@ Required controls include credential redaction, no client-embedded platform keys
 - Import parsers handle malformed and oversized inputs safely.
 - Device testing covers resume/background, offline recovery, low memory and permission handling when Android-first is chosen.
 - Topic-graph relation colors use a stable mapping/legend and redundant text/icon cues; color is never the only explanation of a relationship.
-- Correct-answer, quiz-score and completion rewards have documented thresholds/values; replaying the same source event cannot award points twice.
+- Correct-answer, quiz-score, completion and streak-milestone rewards have documented thresholds/values; replaying the same source event cannot award points twice.
 
 ## 15. Architecture decision gates
 
