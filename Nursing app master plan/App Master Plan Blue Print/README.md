@@ -47,17 +47,19 @@ Directory names above reflect the actual current Git tree; do not silently chang
 
 ## Working status
 
-- [x] Inspect the recursive repository tree (729 entries; tree response was not truncated).
+- [x] Inspect the recursive repository tree (initially 729 entries; after planning uploads, 739 entries; both tree responses were not truncated).
 - [x] Inspect the initial blueprint and parent README.
 - [x] Inspect key project instructions and Ruflo configuration summaries.
 - [x] Inspect App 1 README/upload log.
 - [x] Inspect key App 2 research and reference implementation files.
 - [x] Inspect key App 3 research and reference implementation files.
 - [x] Add initial architect plan, Claude prompt, work packages, audit, traceability, architecture options, data model, UX/learning spec, decision log, and roadmap.
-- [ ] Extract and inspect both complete research DOCX reports and appendices.
+- [x] Read both complete research DOCX reports (Gizmo 54/54 pages; AnkiDroid 35/35 pages).
+- [ ] Reconcile all report claims against markdown notes; an internal Gizmo min-SDK inconsistency has been recorded as unresolved.
 - [ ] Re-run available reference tests and record actual results.
-- [ ] Reconcile remaining source findings and complete the architecture council review.
-- [ ] Verify all planning documents and links from GitHub.
+- [ ] Complete the independent architecture council review and apply findings.
+- [x] Fetch all 11 blueprint files from GitHub after upload and confirm they are non-empty.
+- [ ] Click-validate every relative README link and finish link/content review.
 - [ ] Complete planning acceptance gate; implementation still requires separate authorization.
 
 **Important:** A complete path inventory does not mean every binary or every unrelated Claude/Ruflo framework file has been semantically read. See the Repository Audit for exact scope and remaining work.
