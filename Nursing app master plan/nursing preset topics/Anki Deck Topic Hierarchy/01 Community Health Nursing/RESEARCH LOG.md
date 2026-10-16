@@ -10,9 +10,9 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 54 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, BCG, Maternal and Child Health, Health and Sanitation Laws, Pentavalent Vaccine, Elements of Primary Health Care, Other Vaccines, Food Sanitation, Vaccine Table, Locally-Endemic Diseases, Active Management of Third Stage of Labor, FHSIS, Epidemiology, Population Pyramid, Vital Statistics, Incidence vs Prevalence Rates, and Common Vital Statistics, and Swaroops, Sex Ratio, and EINC, and Vital Statistics Basic Concepts, and Newborn Screening, and Reproductive Health, and VAWC, and BEmOC and CEmOC, and TT, and TT, and Activities.
+- **Substantive topic drafts expanded:** 55 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, BCG, Maternal and Child Health, Health and Sanitation Laws, Pentavalent Vaccine, Elements of Primary Health Care, Other Vaccines, Food Sanitation, Vaccine Table, Locally-Endemic Diseases, Active Management of Third Stage of Labor, FHSIS, Epidemiology, Population Pyramid, Vital Statistics, Incidence vs Prevalence Rates, and Common Vital Statistics, and Swaroops, Sex Ratio, and EINC, and Vital Statistics Basic Concepts, and Newborn Screening, and Reproductive Health, and VAWC, and BEmOC and CEmOC, and TT, and TT, and Activities, and Exercise.
 - **Topics verified complete:** 0
-- **Folders still requiring substantive topic-specific expansion:** 23 (all 77 have a notes file, but most remain initial starter notes).
+- **Folders still requiring substantive topic-specific expansion:** 22 (all 77 have a notes file, but most remain initial starter notes).
 - **Drafts awaiting source/content verification:** 53
 - **Research notes present:** 77/77; this is file presence, not research completion.
 - **Completion:** 0% verified topic research. No topic is marked Verified Complete.
@@ -97,8 +97,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
 - [x] **Exercise** — `CHN, PHC/Health Promotion/Exercise`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: definitions; WHO age-group recommendations; intensity; FITT planning; assessment; red flags and safety; special populations; community nursing role; evaluation; Philippine context; PNLE distinctions; sources.  
+  Sources consulted: WHO *Guidelines on Physical Activity and Sedentary Behaviour* (2020); WHO physical activity fact sheet; RA 11223 Universal Health Care Act. Important facts covered: activity vs exercise vs sedentary behavior; WHO 2020 recommendations for children/adolescents, adults, older adults and pregnancy/postpartum; FITT planning; clinical safety red flags; environmental/access barriers. Research file: `CHN, PHC/Health Promotion/Exercise/RESEARCH NOTES.md` (16,459 characters; reopened after save). Unresolved issues: full WHO guideline text and any current Philippine program-specific recommendations require final review; individual contraindications/clearance must be clinically tailored. Last action: replaced generic 2,397-character PHC starter with substantive exercise/physical-activity research and reopened saved file (2026-10-17). Next action: continue to next individual health-promotion topic and verify source details before marking complete.
 - [x] **Health Promotion** — `CHN, PHC/Health Promotion/Health Promotion`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 54/77; all 54 remain Drafted — Needs Verification.
-- **Folders still requiring substantive expansion:** 23/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** 55/77; all 55 remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** 22/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -972,3 +972,15 @@ Every directory below was present in the repository's recursive tree at the init
 - Reopened the saved file and confirmed 13,360 characters plus continuum-of-care and postnatal sections.
 - Status: **Drafted — Needs Verification**, not Verified Complete. Exact current Philippine schedules, service packages and clinical thresholds require direct review.
 - Next action: continue remaining MCH folders and verify sources before completion.
+
+
+## Research Cycle Log — 2026-10-17 (Exercise / Physical Activity)
+
+- Re-read the full mandatory CHN research standard and inspected the Exercise child folder.
+- Replaced the 2,397-character generic PHC starter with a 16,459-character topic-specific note covering physical activity/exercise/sedentary behavior, WHO 2020 age-group recommendations, intensity, FITT planning, assessment, red flags, special populations, community program design, evaluation and PNLE distinctions.
+- Sources consulted: WHO *Guidelines on Physical Activity and Sedentary Behaviour* (2020); WHO physical activity fact sheet; RA 11223 for broader Philippine health-system context.
+- Reopened the saved file from GitHub and confirmed 16,459 characters, adult WHO recommendations and safety red flags.
+- Limitations: the complete WHO guideline and current Philippine program-specific materials were not reviewed page by page; individual clinical contraindications and exercise clearance require tailored clinical assessment.
+- Status: **Drafted — Needs Verification**, not Verified Complete.
+- Coverage reconciliation: 55/77 folders have substantive drafts, 22/77 still require substantive expansion, and 0/77 are verified complete.
+- Next action: continue to the next individual Health Promotion child topic and synchronize the checklist/mind map.
