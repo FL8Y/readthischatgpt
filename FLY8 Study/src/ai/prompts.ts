@@ -25,10 +25,15 @@ export function learnerProfile(state: AppState, now: number): string {
   ].join('\n');
 }
 
+const TOPIC_QUESTION_SHAPE =
+  'Reply with JSON only: {"questions":[{"topic":string,"stem":string,"choices":string[],"answerIndex":number,"rationale":string}]}. ' +
+  '"topic" must be copied exactly from the topic titles given. answerIndex is the zero-based index of the single correct choice. ' +
+  'Write NCLEX-style items with 4 choices.';
+
 export function diagnosticRequest(state: AppState, folderId: string, count: number, now: number): ModelRequest {
   const topics = state.topics.filter((t) => t.folderId === folderId);
   return {
-    system: `${learnerProfile(state, now)}\n${QUESTION_SHAPE}`,
+    system: `${learnerProfile(state, now)}\n${TOPIC_QUESTION_SHAPE}`,
     user:
       `Write ${count} diagnostic questions spread across these topics, covering each at least once where possible:\n` +
       topics.map((t) => `## ${t.title}\n${t.body.slice(0, 1200)}`).join('\n\n'),

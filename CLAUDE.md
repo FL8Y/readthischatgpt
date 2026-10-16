@@ -28,7 +28,7 @@ UI must feel clean like Gizmo.
 
 **Teams (ruflo-ai-team, created 2026-10-16, no runs/tasks yet; each owns separate files):** 1 Import & Sources `team_cac20911-faf8-4979-833e-c5d1618fe659`; 2 Learning Engine `team_ac238099-b890-4088-9553-972aefd47d2a`; 3 Lessons & Visuals `team_1b535e2d-ad2a-426e-a2ef-89ac41468b39`; 4 Review & Tutor `team_9de81a65-68dd-49d6-869d-8e031af9df1e`; 5 Polish & QA `team_fc20c368-c2cc-434a-ab48-06992fd78437`. Read each team's objective with `team_get` for its file ownership.
 
-**Status (2026-10-16):** v0 pushed. Done: vault graph, readability/chunk provenance + AI double-check, mastery/plan/points/streak, diagnostic gate, OpenAI/Anthropic adapter. Not done: PDF/photo OCR import, lesson screen, pop quizzes, module quiz + weakness loop, flashcards/SRS, tutor chat, images, drawn graph. Never run on a device or with a live AI call.
+**Status (2026-10-16, wave 1 merged):** `FLY8 Study/` has: vault graph; PDF/photo import via AI vision (Claude: images+PDF; ChatGPT: images only); readability + chunk provenance + AI double-check with unverified source suggestion; mastery/plan/points/streak; diagnostic gate (questions credited to the right topic); pop quiz (1-5), module quiz, weakness-to-fix-topics loop; Home dashboard, key onboarding with test button, backup import, CI workflow, device checklist. Checked by lead after merge: 63 unit tests pass, tsc clean, Android bundle builds. NOT done: lesson screen + pictures + drawn mind map (Team 3), flashcards/SRS + tutor chat (Team 4), diagnostic/quiz resume after app is killed, module-result persistence, folder picker (Study uses first folder). NEVER run on a device or with a live AI call.
 
 ## Rules
 

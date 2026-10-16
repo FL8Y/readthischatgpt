@@ -1,4 +1,4 @@
-import type { ProviderName, Question, Settings } from '../core/types';
+import type { ProviderName, Question, Settings, Topic } from '../core/types';
 import { extractJson } from '../core/provenance';
 
 export const DEFAULT_MODELS: Record<ProviderName, string> = {
@@ -88,6 +88,25 @@ export function parseQuestions(raw: string, topicId: string, idPrefix: string): 
         rationale: q.rationale,
       });
     }
+  }
+  return out;
+}
+
+/**
+ * Like parseQuestions, but each item names its topic (by title) so results credit the right topic.
+ * Items naming an unknown topic are dropped rather than guessed.
+ */
+export function parseTopicQuestions(raw: string, topics: Topic[], idPrefix: string): Question[] {
+  const byTitle = new Map(topics.map((t) => [t.title.trim().toLowerCase(), t.id]));
+  const json = extractJson(raw);
+  const list = Array.isArray(json) ? json : (json as any)?.questions;
+  if (!Array.isArray(list)) return [];
+  const out: Question[] = [];
+  for (const q of list) {
+    const topicId = typeof q?.topic === 'string' ? byTitle.get(q.topic.trim().toLowerCase()) : undefined;
+    if (!topicId) continue;
+    const one = parseQuestions(JSON.stringify([q]), topicId, `${idPrefix}-${out.length}`);
+    if (one[0]) out.push({ ...one[0], id: `${idPrefix}-${out.length}` });
   }
   return out;
 }

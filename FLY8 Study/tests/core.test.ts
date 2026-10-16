@@ -3,7 +3,7 @@ import { buildGraph, extractWikilinks, slugify } from '../src/core/vault';
 import { assessTextQuality, chunkText, parseVerification } from '../src/core/provenance';
 import { currentStreak, estimateMastery, planOrder, rankFor, totalPoints } from '../src/core/mastery';
 import { canTeach, clampDiagnosticCount, completeDiagnostic, isValidPopQuiz } from '../src/core/diagnostic';
-import { parseQuestions, redact } from '../src/ai/provider';
+import { parseQuestions, parseTopicQuestions, redact } from '../src/ai/provider';
 import type { AppState, AttemptEvent, Topic } from '../src/core/types';
 
 const DAY = 86_400_000;
@@ -142,5 +142,19 @@ describe('provider helpers', () => {
 
   it('redacts the key from error text', () => {
     expect(redact('failed with sk-secret123 in url', 'sk-secret123')).toBe('failed with [redacted] in url');
+  });
+
+  it('credits diagnostic questions to the topic they name and drops unknown topics', () => {
+    const topics = [topic('a', 'Heart Failure'), topic('b', 'Diabetes')];
+    const raw = JSON.stringify({
+      questions: [
+        { topic: 'diabetes', stem: 'Q1', choices: ['x', 'y'], answerIndex: 0, rationale: 'r' },
+        { topic: 'Heart Failure', stem: 'Q2', choices: ['x', 'y'], answerIndex: 1, rationale: 'r' },
+        { topic: 'Made Up', stem: 'Q3', choices: ['x', 'y'], answerIndex: 1, rationale: 'r' },
+      ],
+    });
+    const qs = parseTopicQuestions(raw, topics, 'dx');
+    expect(qs.map((q) => q.topicId)).toEqual(['b', 'a']);
+    expect(qs.map((q) => q.id)).toEqual(['dx-0', 'dx-1']);
   });
 });

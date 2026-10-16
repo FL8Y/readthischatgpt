@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import type { AppState, Folder } from '../core/types';
 import { clampDiagnosticCount, completeDiagnostic, DIAGNOSTIC_MAX } from '../core/diagnostic';
 import type { QuizSession } from '../core/quiz';
-import { callModel, parseQuestions } from '../ai/provider';
+import { callModel, parseTopicQuestions } from '../ai/provider';
 import { diagnosticRequest } from '../ai/prompts';
 import { Quiz } from './Quiz';
 import { Btn, Card, Field, H, P } from './kit';
@@ -34,7 +34,7 @@ export function Diagnostic({ state, update, folder }: { state: AppState; update:
       const n = clampDiagnosticCount(Number(count));
       const raw = await callModel(state.settings, diagnosticRequest(state, folder.id, n, now));
       const id = `dx-${now}`;
-      const questions = parseQuestions(raw, folderTopics[0]?.id ?? '', id);
+      const questions = parseTopicQuestions(raw, folderTopics, id);
       if (!questions.length) throw new Error('The AI did not return usable questions. Try again.');
       setSession({ id, kind: 'diagnostic', folderId: folder.id, questions, createdAt: now });
     } catch (e) {

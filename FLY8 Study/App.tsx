@@ -4,7 +4,7 @@ import type { AppState } from './src/core/types';
 import { loadState, saveState } from './src/storage';
 import { Dashboard } from './src/ui/Dashboard';
 import { Library } from './src/ui/Library';
-import { Study } from './src/ui/Study';
+import { StudyHub } from './src/ui/StudyHub';
 import { Graph } from './src/ui/Graph';
 import { Settings } from './src/ui/Settings';
 import { Onboarding } from './src/ui/Onboarding';
@@ -16,7 +16,7 @@ type Ctx = { state: AppState; update: (s: AppState) => void; go: (t: Tab) => voi
 /** One entry per tab. To add or change a screen, edit only its `render`. */
 const TABS: { id: Tab; label: string; icon: string; render: (x: Ctx) => React.ReactNode }[] = [
   { id: 'home', label: 'Home', icon: '⌂', render: (x) => <Dashboard state={x.state} go={x.go} /> },
-  { id: 'study', label: 'Study', icon: '✎', render: (x) => <Study state={x.state} update={x.update} /> },
+  { id: 'study', label: 'Study', icon: '✎', render: (x) => <StudyHub state={x.state} update={x.update} /> },
   { id: 'library', label: 'Library', icon: '▤', render: (x) => <Library state={x.state} update={x.update} /> },
   { id: 'map', label: 'Map', icon: '◎', render: (x) => <Graph state={x.state} /> },
   { id: 'settings', label: 'Settings', icon: '⚙', render: (x) => <Settings state={x.state} update={x.update} /> },
