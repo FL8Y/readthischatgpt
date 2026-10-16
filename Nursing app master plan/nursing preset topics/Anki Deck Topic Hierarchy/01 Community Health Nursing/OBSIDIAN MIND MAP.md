@@ -158,3 +158,4 @@ All other topic folders require their own substantive research and logged verifi
 - [[BEmOC and CEmOC]] — **Drafted — Needs Verification**
 - [[TT]] — **Drafted — Needs Verification**
 - [[Activities]] — **Drafted — Needs Verification**
+- [[Exercise]] — **Drafted — Needs Verification**
