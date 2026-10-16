@@ -46,9 +46,9 @@ Required product capabilities:
 - Import and preserve study material with source/provenance.
 - Organize content into subjects, modules, topics, and subtopics.
 - Link related concepts across folders without duplicating canonical content.
-- Offer a configurable 1–50 question diagnostic before teaching a selected subject/module.
+- Require completion of a configurable 1–50 question diagnostic before teaching any new topic in the selected subject/module; interruptions must resume safely and the normal learning flow cannot silently skip the gate.
 - Estimate strengths and gaps by topic/competency, accounting for uncertainty and limited evidence.
-- Generate targeted, source-grounded lessons with explanations, mnemonics, useful visuals, and topic maps.
+- Generate a prioritized, targeted, source-grounded lesson sequence with explanations, mnemonics, useful visuals, and topic maps only after diagnostic completion.
 - Generate 1–5 question topic checks with immediate feedback and rationales.
 - Run comprehensive module assessments and create remedial cycles from weaknesses.
 - Maintain flashcards and scheduled reviews, with more frequent review for difficult content.
