@@ -10,9 +10,9 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 39 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, BCG, Maternal and Child Health, Health and Sanitation Laws, Pentavalent Vaccine, Elements of Primary Health Care, Other Vaccines, Food Sanitation, and Vaccine Table, and Locally-Endemic Diseases, and Active Management of Third Stage of Labor, and FHSIS, and Epidemiology.
+- **Substantive topic drafts expanded:** 40 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, BCG, Maternal and Child Health, Health and Sanitation Laws, Pentavalent Vaccine, Elements of Primary Health Care, Other Vaccines, Food Sanitation, and Vaccine Table, and Locally-Endemic Diseases, and Active Management of Third Stage of Labor, and FHSIS, and Epidemiology, and Population Pyramid.
 - **Topics verified complete:** 0
-- **Folders still requiring substantive topic-specific expansion:** 38 (all 77 have a notes file, but most remain initial starter notes).
+- **Folders still requiring substantive topic-specific expansion:** 37 (all 77 have a notes file, but most remain initial starter notes).
 - **Drafts awaiting source/content verification:** 38
 - **Research notes present:** 77/77; this is file presence, not research completion.
 - **Completion:** 0% verified topic research. No topic is marked Verified Complete.
@@ -190,8 +190,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: **Drafted — Needs Verification** | Required sections: system purpose/scope; indicator concepts; numerator/denominator; data quality; epidemiology/surveillance; nursing responsibilities; privacy/ethics; interpretation limitations; Philippine context; PNLE points; sources.  
   Sources consulted: DOH CHD IV-A FHSIS Quarterly Reports 2025 page; PSA technical notes referencing FHSIS Manual of Operations Version 2018; RA 11332; RA 10173. Important facts covered: routine reporting vs disease surveillance; count/rate/ratio/proportion/incidence/prevalence distinctions; completeness/timeliness/denominator quality; privacy and data integrity. Research file: `Elements of Primary Health Care/Locally-Endemic Diseases/FHSIS/RESEARCH NOTES.md` (12,422 characters; reopened after save). Unresolved issues: current full FHSIS Manual and indicator forms require direct retrieval; do not assume 2018 references remain current for every indicator. Last action: expanded generic starter note into substantive FHSIS research (2026-10-17). Next action: continue child-topic research and verify current manual/source definitions before marking complete.
 - [x] **Population Pyramid** — `Elements of Primary Health Care/Locally-Endemic Diseases/Population Pyramid`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: definition/layout; common shapes and interpretation; Philippine census context; sex ratio/dependency ratio/aging index; community-health applications; comparison/data-quality errors; nursing responsibilities; PNLE distinctions; sources.  
+  Sources consulted: CDC *Principles of Epidemiology*, Lesson 4 population-pyramid page; WHO teaching health-statistics PDF; PSA 2024 Census age-sex release (17 July 2026); PSA 2020 Census age-sex release; PSA demographic technical notes. Important facts covered: pyramid construction and use; distinction between count and percentage displays; interpretation caveats; dependency ratio age cutoffs; aging index cutoff; 2024 household-population shares versus historical 2020 data. Research file: `Elements of Primary Health Care/Locally-Endemic Diseases/Population Pyramid/RESEARCH NOTES.md` (15,616 characters; reopened after save). Unresolved issues: complete census tables/technical notes need page-by-page review; local program denominators must be verified for operational planning. Last action: replaced generic 2,390-character starter with substantive demographic research and reopened saved file (2026-10-17). Next action: continue to the next individual folder and verify sources/indicator definitions before marking complete.
 - [x] **Vital Statistics** — `Elements of Primary Health Care/Locally-Endemic Diseases/Vital Statistics`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 39/77; all 39 remain Drafted — Needs Verification.
-- **Folders still requiring substantive expansion:** 38/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** 40/77; all 40 remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** 37/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -789,3 +789,16 @@ Every directory below was present in the repository's recursive tree at the init
 - Status: **Drafted — Needs Verification**, not Verified Complete.
 - Coverage reconciliation: 39/77 folders have substantive drafts, 38/77 still require substantive expansion, and 0/77 are verified complete.
 - Next action: continue to the next individual topic folder and synchronize the checklist/mind map after each saved-file verification.
+
+
+## Research Cycle Log — 2026-10-17 (Population Pyramid)
+
+- Re-read the full mandatory CHN research standard before starting this cycle.
+- Inspected the Population Pyramid folder; the existing 2,390-character note was generic boilerplate about rates and unrelated sources rather than a population-pyramid research note.
+- Expanded `Elements of Primary Health Care/Locally-Endemic Diseases/Population Pyramid/RESEARCH NOTES.md` to 15,616 characters. Added definition/layout, common shapes, interpretation limits, Philippine census context, sex ratio/dependency ratio/aging index formulas, community-health applications, data-quality cautions and PNLE distinctions.
+- Sources consulted: CDC *Principles of Epidemiology* population-pyramid page; WHO teaching health-statistics PDF; PSA 2024 Census age-sex release (17 July 2026); PSA 2020 Census age-sex release; PSA demographic technical notes.
+- Reopened the saved file from GitHub and confirmed 15,616 characters, the 2024 Census section and dependency-ratio calculation.
+- Limitations: the full census tables and technical notes were not reviewed page by page; the note explicitly distinguishes household population from total population and warns that local service targets require authorized local denominators.
+- Status: **Drafted — Needs Verification**, not Verified Complete.
+- Coverage reconciliation: 40/77 folders have substantive drafts, 37/77 still need substantive expansion, and 0/77 are verified complete.
+- Next action: continue with the next unchecked individual folder; keep the log and mind map synchronized after file reopening.
