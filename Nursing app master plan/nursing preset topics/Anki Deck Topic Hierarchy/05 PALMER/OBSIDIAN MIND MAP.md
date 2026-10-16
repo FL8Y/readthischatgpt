@@ -5,7 +5,7 @@
 - [[RESEARCH LOG]] — checklist, source verification, status, and next actions
 - [[RESEARCH TOPIC GUIDE]] — mandatory research standard
 
-> Audit status (2026-10-17): 76/76 nested topic folders have `RESEARCH.md`; all four main grouping folders have `OVERVIEW.md`. This is structural coverage only. In this workstream, 37 distinct topic files have been expanded and reopened; all remain NEEDS REVIEW pending complete claim/link validation. 39 folders remain unworked by this workstream. Additional parallel-worker log entries exist and must be reconciled before reporting a single repository-wide completion count. No full completion claim is made.
+> Audit status (2026-10-17): 76/76 nested topic folders have `RESEARCH.md`; all four main grouping folders have `OVERVIEW.md`. This is structural coverage only. The research log currently records 41 unique topic files as expanded and reopened; all 41 remain NEEDS REVIEW pending complete claim/link validation. The other 35 topic folders have no corresponding expanded/reopened entry in the current log and remain to be audited. No full completion claim is made.
 
 ## Leadership and Management Final Coaching
 
