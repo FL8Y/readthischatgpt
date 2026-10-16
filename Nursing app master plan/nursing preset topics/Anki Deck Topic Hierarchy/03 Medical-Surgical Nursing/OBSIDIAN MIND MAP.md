@@ -507,3 +507,16 @@
 - [[Acute Phase]] — [Burns: Acute Phase and Wound Closure — PNLE Research.md](./Emergency%20and%20Disaster%20Nursing/Chosen%20Emergency%20Conditions/Burns/Stages%20of%20Burns/Acute%20Phase/Burns:%20Acute%20Phase%20and%20Wound%20Closure%20%E2%80%94%20PNLE%20Research.md)
 - [[Rehabilitation Stage]] — [Burns: Rehabilitation Phase — PNLE Research.md](./Emergency%20and%20Disaster%20Nursing/Chosen%20Emergency%20Conditions/Burns/Stages%20of%20Burns/Rehabilitation%20Stage/Burns:%20Rehabilitation%20Phase%20%E2%80%94%20PNLE%20Research.md)
 - [[Other Burns Management]] — [Other Burn Management: Escharotomy, Grafting and Complications — PNLE Research.md](./Emergency%20and%20Disaster%20Nursing/Chosen%20Emergency%20Conditions/Burns/Management%20of%20Burns/Other%20Burns%20Management/Other%20Burn%20Management:%20Escharotomy,%20Grafting%20and%20Complications%20%E2%80%94%20PNLE%20Research.md)
+
+
+## Hematology and immunology research drafts (verification pending)
+- [[Aplastic Anemia]] — [Aplastic Anemia — PNLE Research.md](./Hematology/Aplastic%20Anemia/Aplastic%20Anemia%20%E2%80%94%20PNLE%20Research.md)
+- [[Bleeding Precautions]] — [Bleeding Precautions in Thrombocytopenia and Coagulopathy — PNLE Research.md](./Hematology/Bleeding%20Precautions/Bleeding%20Precautions%20in%20Thrombocytopenia%20and%20Coagulopathy%20%E2%80%94%20PNLE%20Research.md)
+- [[Hemophilia]] — [Hemophilia: Bleeding Disorder Nursing Care — PNLE Research.md](./Hematology/Hemophilia/Hemophilia:%20Bleeding%20Disorder%20Nursing%20Care%20%E2%80%94%20PNLE%20Research.md)
+- [[Infection Precautions]] — [Infection Precautions for Neutropenia and Immunosuppression — PNLE Research.md](./Hematology/Infection%20Precautions/Infection%20Precautions%20for%20Neutropenia%20and%20Immunosuppression%20%E2%80%94%20PNLE%20Research.md)
+- [[Iron-Deficiency Anemia]] — [Iron-Deficiency Anemia — PNLE Research.md](./Hematology/Iron-Deficiency%20Anemia/Iron-Deficiency%20Anemia%20%E2%80%94%20PNLE%20Research.md)
+- [[Megaloblastic Anemia]] — [Megaloblastic Anemia: Vitamin B12 and Folate Deficiency — PNLE Research.md](./Hematology/Megaloblastic%20Anemia/Megaloblastic%20Anemia:%20Vitamin%20B12%20and%20Folate%20Deficiency%20%E2%80%94%20PNLE%20Research.md)
+- [[Myeloid vs Lymphoid Lineage]] — [Myeloid vs Lymphoid Cell Lineages — PNLE Research.md](./Hematology/Myeloid%20vs%20Lymphoid%20Lineage/Myeloid%20vs%20Lymphoid%20Cell%20Lineages%20%E2%80%94%20PNLE%20Research.md)
+- [[Polycythemia Vera]] — [Polycythemia Vera — PNLE Research.md](./Hematology/Polycythemia%20Vera/Polycythemia%20Vera%20%E2%80%94%20PNLE%20Research.md)
+- [[Sickle Cell Anemia]] — [Sickle Cell Disease and Vaso-Occlusive Crisis — PNLE Research.md](./Hematology/Sickle%20Cell%20Anemia/Sickle%20Cell%20Disease%20and%20Vaso-Occlusive%20Crisis%20%E2%80%94%20PNLE%20Research.md)
+- [[Immunology]] — [Hematology and Immune Function: Clinical Overview — PNLE Research.md](./Hematology/Immunology/Hematology%20and%20Immune%20Function:%20Clinical%20Overview%20%E2%80%94%20PNLE%20Research.md)
