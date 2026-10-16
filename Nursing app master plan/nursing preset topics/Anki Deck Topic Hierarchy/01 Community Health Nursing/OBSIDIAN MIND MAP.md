@@ -117,6 +117,7 @@ These are review prompts, not folders already verified as present:
 - [[Sentrong Sigla Program]] — **Drafted — Needs Verification**
 - [[Education]] — **Drafted — Needs Verification**
 - [[Essential Drugs]] — **Drafted — Needs Verification**
+  - [[Herbal]] — **Drafted — Needs Verification**
   - [[Identify the Prevention]] — **Drafted — Needs Verification**
   - [[Competency-Based Teaching]] — **Drafted — Needs Verification**
   - [[Three Levels of Prevention]] — **Drafted — Needs Verification**
