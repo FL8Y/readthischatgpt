@@ -54,7 +54,7 @@ Continue transferring archive entries in batches, then verify the final Git tree
 - Archive: `base.zip` (mounted as `base(1).zip` in this session); ZIP opened successfully, 1,790 file entries.
 - Assigned candidate check: no `.jar`, `.aar`, `.so`, `.db`, or `.sqlite` entries were present in the archive. Two additional `.proto` files were not in the repository tree, but their exact payload transfer was not completed in this batch.
 - Uploaded paths (1): `DebugProbesKt.bin` (1,733 bytes; preserved archive path under this folder).
-- Commit SHA: pending.
+- Commit SHA: `11ee1c22c3026c6dc8e51443f5df3b1e5a0a4935`.
 - Verification: source archive entry size confirmed; GitHub blob SHA matches the Git object SHA computed from the archive bytes. Remote file-level read-back is pending.
 - Not uploaded: larger native/model/DEX/compiled resources were not transferred. The available GitHub connector supports base64 blob creation, but there is no direct connector bridge from the mounted ZIP for bulk exact-byte transfer. No existing files were overwritten.
 - Status: PARTIAL — only the small binary entry above was transferred; remaining files require a binary-capable bulk transfer path.
