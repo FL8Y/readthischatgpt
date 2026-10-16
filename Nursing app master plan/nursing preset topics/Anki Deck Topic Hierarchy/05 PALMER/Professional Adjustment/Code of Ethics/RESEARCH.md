@@ -1,32 +1,79 @@
 # Code of Ethics for Nurses — PNLE Research
 
-## Purpose and role
-A nursing code of ethics articulates professional values, duties, and expectations for safe, respectful, accountable practice. It guides conduct but does not replace statutes, regulations, clinical standards, or institutional policy. A nurse must use professional judgment when duties conflict and seek guidance rather than conceal uncertainty.
+## Purpose and authority
 
-## Core professional duties
-- Respect human dignity, culture, autonomy, privacy, and informed choice.
-- Provide competent, evidence-informed, non-discriminatory care and recognize limits of competence.
-- Advocate for patient safety, speak up about unsafe care, and report concerns through appropriate channels.
-- Maintain confidentiality and handle records securely.
-- Be truthful, maintain professional boundaries, avoid exploitation and conflicts of interest, and document accurately.
-- Accept accountability for one's own actions, omissions, delegation, and continuing competence.
-- Collaborate respectfully and protect the public trust in the profession.
+A nursing code of ethics states professional values, responsibilities, and standards of ethical conduct. It helps nurses reason through everyday choices involving dignity, safety, privacy, advocacy, professional relationships, and accountability. A code guides professional judgment but does not replace statutes, regulations, clinical standards, or institutional policies.
 
-## Application and response to ethical concerns
-When a request appears unethical or unsafe: pause if immediate harm can be prevented, verify the order/facts, communicate respectfully, use the chain of command, consult policy/ethics resources, and document objective facts. Do not falsify records, retaliate, abandon a patient, or follow an order solely because a superior issued it. Emergency action must remain within competence and applicable rules.
+For international ethical guidance, the International Council of Nurses (ICN) revised its Code of Ethics in 2021. It organizes ethical conduct around four elements: nurses and people requiring care; nurses and practice; nurses and the profession; and nurses and global health. The ICN code is intended to be used alongside each country's applicable laws, regulations, and professional standards. In the Philippines, Republic Act No. 9173 (Philippine Nursing Act of 2002) requires observance of the Code of Ethics and safe-practice standards; consult current PRC/Board of Nursing (BON) issuances for the applicable local code and requirements.
 
-## Philippine context
-Use the current PRC Board of Nursing Code of Ethics and relevant provisions of RA 9173, plus applicable privacy, patient-rights, and facility requirements. The ICN code provides an international professional framework but should not be misrepresented as Philippine statute. Check the latest official PRC/BON version.
+## Core ethical responsibilities
 
-## PNLE high-yield distinctions
-- Legal compliance is a minimum; ethical practice also requires advocacy, respect, honesty, and accountability.
-- Confidentiality is strong but not absolute where law requires or permits disclosure.
-- A conscientious concern should be escalated safely; do not silently perform an unsafe action.
-- Document facts and actions, not blame or speculation.
+### 1. Nurses and patients / people receiving care
+- Respect dignity, rights, culture, values, privacy, and informed choice.
+- Provide respectful, non-discriminatory care and recognize the person's preferences and goals.
+- Protect confidentiality and use personal information only through authorized channels and for legitimate purposes.
+- Communicate truthfully and understandably; do not promise outcomes that cannot be guaranteed.
+- Advocate when a person's safety, rights, or access to appropriate care are threatened.
+- Maintain professional boundaries and avoid exploitation, favoritism, or conflicts of interest.
 
-## References
-- PRC, **Nursing** (official Board of Nursing resources): https://www.prc.gov.ph/nursing
-- International Council of Nurses, **ICN Code of Ethics for Nurses**: https://www.icn.ch/resources/publications-and-reports/icn-code-ethics-nurses
-- Republic Act No. 10173, **Data Privacy Act of 2012**: https://lawphil.net/statutes/repacts/ra2009/ra_10173_2009.html
+### 2. Nurses and practice
+- Maintain competence and practice within education, training, authorization, and scope.
+- Use current evidence, sound clinical judgment, and appropriate consultation.
+- Identify and respond to risks, errors, deterioration, unsafe orders, and unsafe working conditions.
+- Accept accountability for personal actions, omissions, documentation, and decisions.
+- Delegate only when permitted and ensure the task, person, supervision, and follow-up are appropriate.
+- Protect one's own fitness to practise and seek help when fatigue, illness, impairment, or lack of competence could compromise safety.
 
-Educational summary; verify the currently effective Philippine code and institutional policy.
+### 3. Nurses and the profession
+- Contribute to a culture of learning, quality improvement, and research integrity.
+- Support students and colleagues without concealing unsafe or unethical conduct.
+- Report concerns through appropriate channels, preserving objective facts and following law and policy.
+- Maintain public trust through honesty, accurate records, responsible use of technology, and continuing professional development.
+
+### 4. Nurses and global health
+- Recognize that health is affected by social, economic, environmental, cultural, and political conditions.
+- Promote equity and human rights, reduce avoidable barriers to care, and contribute to safe and sustainable health systems.
+- Consider the ethical implications of public health, research, technology, and resource allocation beyond the individual encounter.
+
+## Applying the code to practice
+
+A code is most useful when translated into action. For an ethical concern:
+1. Identify the immediate patient-safety issue and respond to urgent threats first.
+2. Establish facts, including the patient's preferences, capacity for the specific decision, and relevant clinical information.
+3. Identify the professional duty involved: dignity, autonomy, confidentiality, competence, advocacy, accountability, or fairness.
+4. Check the relevant Philippine law, PRC/BON standard, facility policy, and scope-of-practice requirement.
+5. Consider safe options and consult the appropriate clinician, nurse leader, ethics resource, privacy officer, or regulator when needed.
+6. Act within competence and authority; do not falsify records, conceal errors, retaliate, or make unauthorized disclosures.
+7. Document objectively, report through the appropriate channel, and reassess the outcome.
+
+## Examples and response priorities
+
+| Situation | Ethical issue | Safer professional response |
+|---|---|---|
+| A capable patient refuses a recommended intervention. | Autonomy, advocacy, beneficence. | Clarify understanding and concerns, notify the responsible clinician, discuss alternatives without coercion, respect the decision as applicable, and document. |
+| A colleague asks for a patient's information without a clear care-related or lawful purpose. | Confidentiality and privacy. | Verify identity, role, authorization, and purpose before disclosing; consult the supervisor/privacy officer if unclear. |
+| A nurse is asked to perform a task outside competence or authorization. | Competence and accountability. | Explain the limitation, seek appropriate supervision or a qualified practitioner, and ensure the patient is not abandoned or placed at risk. |
+| A medication order appears unsafe or conflicts with a serious allergy. | Nonmaleficence and accountability. | Hold action when clinically and legally appropriate, promptly clarify with the prescriber/pharmacist/supervisor, follow escalation policy, and document. |
+| An error occurs. | Honesty, accountability, patient safety. | Assess and protect the patient, notify the appropriate clinician/leader, follow disclosure and incident-reporting policy, and document facts without alteration. |
+| A colleague appears impaired while providing care. | Patient safety and professional duty. | Protect patients, activate the designated escalation process, report observable facts, and avoid unsupported accusations. |
+
+## Philippine context and sources
+
+- Republic Act No. 9173, **Philippine Nursing Act of 2002**, including provisions on the Board of Nursing, ethical standards, and nursing practice: https://lawphil.net/statutes/repacts/ra2002/ra_9173_2002.html
+- PRC, **Nursing** resources and professional issuances: https://www.prc.gov.ph/nursing
+- International Council of Nurses, **The ICN Code of Ethics for Nurses**, revised 2021: https://icn.ch/resources/publications-and-reports/icn-code-ethics-nurses
+- ICN announcement describing the 2021 code's four elements and its use alongside national law and standards: https://www.icn.ch/news/revised-icn-code-ethics-nurses-reflects-lessons-learned-covid-19-pandemic
+
+The ICN code is international ethical guidance, not a substitute for Philippine legal or regulatory requirements. When the two appear to differ, identify the specific issue and consult the applicable Philippine authority and policy rather than assuming they are interchangeable.
+
+## PNLE high-yield points
+
+- A code of ethics guides professional judgment; it does not replace the law or clinical standards.
+- Patient safety, dignity, informed choice, privacy, competence, accountability, and advocacy are recurring ethical themes.
+- Respect for autonomy does not mean ignoring emergencies or applicable law; beneficence does not justify routine coercion.
+- Ethical practice includes honest documentation and appropriate reporting—not hiding errors to protect a colleague.
+- For a priority question, protect immediate safety, act within scope, communicate through the proper chain, document objectively, and reassess.
+
+## Scope note
+
+This is an educational summary. Confirm the current PRC/BON Code of Ethics, implementing rules, and institutional policies applicable to the actual practice setting.
