@@ -605,7 +605,7 @@ Every directory below was present in the repository's recursive tree at the init
 - Sources consulted: official DOH NIP Manual Booklet 7 PDF (2023 post; indexed text includes the population-estimate method and caveat); official DOH NIP Booklet 9 Annexes PDF (2023 post; versioned supply formulas); WHO RED microplanning guide (2009, source page opened); DOH CHD XI NIP page; RA 10152 Official Gazette.
 - Reopened the saved file from GitHub and confirmed 18,244 characters, the coverage formula and explicit caution that the 2.7% factor requires current DOH confirmation.
 - Verification limitation: browser could not directly retrieve the DOH PDFs page-by-page during this cycle. Their official indexed PDF text was inspected, but complete direct-PDF/link review and confirmation of current denominator factors remain outstanding. The note is **Drafted — Needs Verification**, not Verified Complete.
-- Coverage reconciliation: 25/77 folders now have substantive drafts, 52/77 still need substantive expansion, and 0/77 are verified complete. The existing 77 files are not evidence of completion.
+- Coverage reconciliation at the end of this cycle: 25/77 folders had substantive drafts, 52/77 still needed substantive expansion, and 0/77 were verified complete. The live checklist has since recorded an additional substantive draft for **Elements of Immunization and Laws**; the current reconciled total is 26/77 drafted, 51/77 still requiring substantive expansion, and 0/77 verified complete. The existing 77 files are not evidence of completion.
 - Next action: continue to the next unresearched individual folder; maintain per-topic logging and reopen verification, then complete final recursive source/coverage audit.
 
 
