@@ -21,7 +21,7 @@
       - [[Evaluation]]
       - [[Implementation]]
       - [[Planning]] — **Drafted — Needs Verification**
-        - [[Goal Setting]]
+        - [[Goal Setting]] — **Drafted — Needs Verification**
         - [[Prioritization]] — **Drafted — Needs Verification**
         - [[Scoring]] — **Drafted — Needs Verification**
     - [[Health Promotion]]
