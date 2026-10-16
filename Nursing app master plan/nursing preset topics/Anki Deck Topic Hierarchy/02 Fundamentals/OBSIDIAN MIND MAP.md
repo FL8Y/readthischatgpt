@@ -1,6 +1,6 @@
 # Fundamentals of Nursing — Obsidian Mind Map
 
-> Scope: all 22 topic folders in this subtree have a dedicated topic Markdown file. Research files remain IN PROGRESS until source-by-source clinical claim checks are complete.
+> Scope: all 22 topic folders in this subtree have a dedicated topic Markdown draft. Every file remains DRAFTED—not VERIFIED COMPLETE—until source claims, completeness, clinical safety, citations, and reopen checks pass.
 
 - [[RESEARCH TOPIC GUIDE|Research Topic Guide]]
 - [[RESEARCH LOG|Research Log]]
