@@ -1311,3 +1311,16 @@ Every directory below was present in the repository's recursive tree at the init
 - Reopened and confirmed updated lengths: COPAR overview 17,161 characters; Basic Principles of COPAR 18,336 characters; Phases of COPAR 22,458 characters. All three remain **Drafted — Needs Review**.
 - No COPAR topic is marked Verified Complete. The source gaps are specific and actionable: verify/replace the UC direct link, inspect/replace the NUP syllabus source, and reconcile each factual claim with appropriate references.
 - Next action: continue verification across the remaining 74 drafts; do not downgrade the status or declare completion based on the presence of sources alone.
+
+
+## Recursive File-Content Audit — 2026-10-17
+
+- Fresh GitHub tree audit found **77 topic folders** and **77 `RESEARCH NOTES.md` files** in the Community Health Nursing scope.
+- Fetched/reopened all 77 topic notes in batches and checked readable content, approximate substantive length, source/reference indicators, safety/contraindication or urgent-care terms where relevant, PNLE/high-yield markers, and common placeholder markers.
+- **Readability:** 77/77 files fetched successfully.
+- **Content coverage:** 77/77 notes contain substantive topic-specific material; observed note length range in the audited set was approximately **7,715–22,413 characters**.
+- **Placeholder scan:** no common placeholder markers (e.g., TODO, “insert source,” “not yet researched,” or template filler) were detected in the audited notes.
+- **Source links:** every audited note included multiple HTTP(S) source links. This is only a presence check; it does **not** prove that every URL opens, that each source was directly inspected, or that every claim is supported by its citation.
+- **Structural exceptions for follow-up:** the automated heading check did not recognize the expected source-register heading in `CHN, PHC/COPAR/Phases of COPAR/RESEARCH NOTES.md` and `Elements of Primary Health Care/Locally-Endemic Diseases/Vital Statistics/Swaroops, Sex Ratio/RESEARCH NOTES.md`; both files contain source URLs, but their source sections should be manually reviewed. The PNLE/high-yield keyword check did not detect a clear marker in the Reproductive Health note; review for a suitable high-yield section. Some demographic/vital-statistics notes did not match a generic safety keyword scan; review whether topic-specific safety is applicable and explicitly mark N/A where justified.
+- **Verification status remains 0/77 Verified Complete.** The audit was structural/content-presence verification, not claim-by-claim source verification. All 77 notes still require direct-link checks, source-to-claim review, current Philippine clinical/legal/program updates where applicable, independent content review and a final saved-file/status reconciliation.
+- **Next action:** manually resolve the listed structural exceptions, then verify the three COPAR notes marked Needs Review and proceed topic-by-topic through the remaining drafts. Do not mark a topic complete until its claims, sources, links and saved file satisfy the full research standard.
