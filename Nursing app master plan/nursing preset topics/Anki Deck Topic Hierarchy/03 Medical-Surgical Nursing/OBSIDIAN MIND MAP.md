@@ -84,6 +84,7 @@
 - [[Warning Signs of Cancer]] — `Cancer/Warning Signs of Cancer`
 
 ### Cardiovascular
+- Research note: [Myocardial Infarction — PNLE Research.md](./Cardiovascular/MI/Myocardial%20Infarction%20%E2%80%94%20PNLE%20Research.md) — drafted; verification pending.
 - [[Cardiovascular]] — `Cardiovascular`
 - [[Coronary Arteries]] — `Cardiovascular/Coronary Arteries`
 - [[ECG Leads]] — `Cardiovascular/ECG Leads`
