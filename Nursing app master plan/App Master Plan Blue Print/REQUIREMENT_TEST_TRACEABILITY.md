@@ -56,3 +56,36 @@
 ## Acceptance of this traceability document
 
 This file is complete as a planning map only when each R-ID has an agreed owner, contract boundary and test oracle. It does not mean the application is implemented or verified. QA must keep this table synchronized with the canonical requirements and technical contracts at every planning revision.
+
+
+## Concrete baseline acceptance fixtures
+
+These fixtures make the plan falsifiable before implementation. They define required outcomes without claiming that code or tests already exist.
+
+| Fixture | Input / setup | Action | Exact expected result |
+|---|---|---|---|
+| IMP-001-F1 — source offsets | UTF-8 Markdown: `# Cardiac` followed by `## Preload`, then `Preload affects ventricular filling.` | Import into subject S1/module M1 | One source document; heading tree is Cardiac → Preload; the sentence retains a stable source offset and source-document version; reopening shows identical text and mapping |
+| IMP-002-F1 — failed import atomicity | Valid source A already saved; corrupt/unsupported source B | Import B and fail parsing | Source A and its links remain byte-for-byte logically unchanged; B has an explicit failed import record or is not committed according to the transaction policy; no orphan chunks remain |
+| TAX-001-F1 — move topic | Topic T1 has source links and two concept relations; move T1 from module M1 to M2 | Commit and restart | T1 keeps the same canonical ID, source links and relations; only its parent membership changes |
+| DIA-001-F1 — count boundaries | Diagnostic requested with counts 0, 1, 50 and 51 | Validate each request | 0 → reject; 1 → accept; 50 → accept; 51 → reject. No invalid count reaches the provider |
+| DIA-002-F1 — strict gate | Selected scope has an incomplete 10-question diagnostic with answers 1–9 persisted | Attempt to open a new lesson | Lesson remains locked; session resumes at unanswered question 10; no new session is created |
+| DIA-003-F1 — durable completion | Same diagnostic, question 10 answered but commit is interrupted before durable completion | Restart and reopen | Session resumes with the final answer recoverable; lesson remains locked until completion/results commit succeeds; commit retry creates no duplicate result event |
+| QUIZ-001-F1 — topic count | Topic quiz requested at counts 0, 1, 5 and 6 | Validate generated set | 0 → reject; 1 → accept; 5 → accept; 6 → reject or bounded regeneration; never display a six-question quiz as a valid response to a five-question request |
+| GRADE-001-F1 — shuffled choices | Canonical options A/B/C/D with B correct; display order D/B/A/C | Submit the stable ID for B | Grade = correct regardless of display index; explanation and stored response refer to the canonical question/rubric version |
+| GRADE-002-F1 — matching/ordering | Matching pairs have stable left/right IDs; display order is shuffled | Submit a correct mapping by IDs | Grade = correct; display ordering has no effect on key mapping; historical attempt stores IDs/version, not fragile display indices |
+| MOD-001-F1 — missing coverage | Required module topics T1/T2/T3; generated set includes only T1/T2 | Validate assessment blueprint | Result is marked insufficient coverage; T3 is reported missing; it is not labelled comprehensive and cannot silently pass module readiness |
+| PLAN-001-F1 — deterministic order | Fixed evidence: T1 unmet prerequisite, T2 uncovered, T3 below evidence floor, T4 adequately evidenced | Generate plan twice with same policy version | Both ordered lists are identical; prerequisite/uncovered/low-evidence policy is followed; each item has the same reason and policy version |
+| REW-001-F1 — duplicate reward | One eligible answer event E1 awards 5 points under reward policy P1 | Submit E1 twice with same idempotency key | Balance increases by exactly 5, not 10; one reward record exists for E1/P1 |
+| SRS-001-F1 — scheduler golden vector | Pin chosen scheduler implementation/version, fixed clock, fixed card state and each rating Again/Hard/Good/Easy | Compute next state and due date | Output must exactly match a checked-in golden vector for each rating; no scheduler version may be selected for implementation until those vectors are recorded |
+| NET-001-F1 — provider timeout | Diagnostic has 4 persisted answers; provider request times out | Retry then reopen app | Existing answers/session remain intact; retry count is bounded; no fifth answer or duplicate generation job is fabricated; user sees a recoverable network state |
+| BACKUP-001-F1 — round trip | Dataset contains source offsets, 3 topics, 2 questions, 4 attempts, 2 review states and one relation edge | Export, clear test profile, restore export | Restored canonical IDs, source offsets, attempt/review history, relation edge and due state match the pre-export fixture; corrupted export fails without altering live data |
+| A11Y-001-F1 — graph parity | Graph has 4 nodes and 3 typed edges | Render graph and text outline | Both views expose exactly 4 canonical nodes and 3 same-direction typed edges; every edge has a textual relation label; keyboard/screen-reader user can reach all nodes |
+| CLIN-001-F1 — unsupported answer key | Source contains no evidence for a generated claim/key | Validate question bundle | Bundle is labelled AI-added/needs-review; it cannot be presented as source-grounded; unresolved high-risk claim blocks a high-confidence mastery label |
+| COST-001-F1 — exhausted budget | Usage budget has zero remaining units | Request new AI lesson generation | No provider call is made; existing saved lesson remains available; UI explains the budget state and offers a documented reset/configuration path |
+
+### Fixture governance
+
+- Keep fixture inputs, expected outputs and policy versions in version control once implementation is authorized.
+- A test that merely asserts “does not crash” is insufficient when a precise state/output is specified above.
+- When a policy or schema changes, update the fixture version and explain why the previous oracle changed.
+- Reference-code tests from App 2 are not substitutes for tests of the future app's own contracts.
