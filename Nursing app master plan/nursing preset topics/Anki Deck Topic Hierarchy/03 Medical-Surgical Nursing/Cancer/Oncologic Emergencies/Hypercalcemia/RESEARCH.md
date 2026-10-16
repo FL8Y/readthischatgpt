@@ -19,3 +19,5 @@ The classic description “stones, bones, abdominal groans and psychiatric overt
 - OpenStax, **Medical-Surgical Nursing** (2024): https://openstax.org/books/medical-surgical-nursing/pages/index
 - MSD Manual Professional Edition, **Hyperkalemia** (reviewed June 2025; describes cancer-related tissue breakdown/electrolyte mechanisms): https://www.msdmanuals.com/professional/nephrology/electrolyte-disorders/hyperkalemia
 - National Cancer Institute, **Cancer Treatment Side Effects**: https://www.cancer.gov/about-cancer/treatment/side-effects
+- MSD Manual Professional Edition, **Hypercalcemia** (reviewed June 2025): https://www.merckmanuals.com/professional/nephrology/electrolyte-disorders/hypercalcemia — clinical manifestations, diagnostic testing and cause-dependent management.
+- National Cancer Institute, **Hypercalcemia** (NCI Dictionary of Cancer Terms; accessed 17 Oct 2026): https://www.cancer.gov/publications/dictionaries/cancer-terms/def/hypercalcemia — definition and association with cancer.
