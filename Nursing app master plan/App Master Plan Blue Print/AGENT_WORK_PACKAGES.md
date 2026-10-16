@@ -12,7 +12,7 @@ Before spawning agents, inspect the real Claude Code/Ruflo agent registry and to
 ## Agent 1 — Repository Auditor
 
 **Ownership:** REPO_AUDIT.md  
-**Scope:** Inventory all 729 currently indexed Git tree entries (re-scan current branch first); categorize root configuration, Claude/Ruflo framework, master-plan folders, research assets, reference code, tests, and generated/binary files. Read root CLAUDE.md, .mcp.json, relevant config, parent README, blueprint README, App 1 README and UPLOAD_LOG, App 2 README/method/research/product/test files, App 3 README/method/research/data/product files. Do not claim all binary payloads were read. Record paths, sizes, SHA where available, source limits, and missing/blocked archive items.  
+**Scope:** Inventory every entry returned by the current recursive Git tree (the last recorded snapshot had 740 entries: 599 blobs and 141 trees; re-scan current branch first); categorize root configuration, Claude/Ruflo framework, master-plan folders, research assets, reference code, tests, and generated/binary files. Read root CLAUDE.md, .mcp.json, relevant config, parent README, blueprint README, App 1 README and UPLOAD_LOG, App 2 README/method/research/product/test files, App 3 README/method/research/data/product files. Do not claim all binary payloads were read. Record paths, sizes, SHA where available, source limits, and missing/blocked archive items.  
 **Acceptance:** Counts reproduce from a fresh tree; paths and directory names are exact; current transfer status is separated from historical upload-log status; FLY8 root prompt is identified as unrelated and preserved.
 
 **Copy-paste prompt**
@@ -21,7 +21,7 @@ Before spawning agents, inspect the real Claude Code/Ruflo agent registry and to
 ## Agent 2 — Gizmo / App 3 Research Analyst
 
 **Ownership:** Gizmo evidence section in ARCHITECTURE_OPTIONS.md; report findings to lead before editing shared docs.  
-**Scope:** Read App 3 README, report if available in repository/library, METHOD.md, quiz_engine_rules.md, data_model_events_flags.md, native_android_security.md, data extracts, and product/ai-next-quiz source/config. Review schema bounds, source grounding, validation, retries, concurrency, buffering, error handling, and gaps relative to the required diagnostic/pop-quiz sizes. Do not call external Gizmo services or use credentials.  
+**Scope:** Read App 3 README, report if available in repository/library, METHOD.md, quiz_engine_rules.md, data_model_events_flags.md, native_android_security.md, data extracts, and product/ai-next-quiz source/config. Review schema bounds, source grounding, validation, retries, concurrency, buffering, error handling, answer-key leakage risk and gaps relative to the required diagnostic/pop-quiz sizes. Do not call external Gizmo services or use credentials.  
 **Acceptance:** Separate direct observations from inference; identify reusable concepts versus proprietary implementation; propose improvements and tests.
 
 **Copy-paste prompt**
@@ -79,7 +79,7 @@ Before spawning agents, inspect the real Claude Code/Ruflo agent registry and to
 **Acceptance:** Every finding has severity, evidence, impact, recommended fix, and verification step.
 
 **Copy-paste prompt**
-> Independently red-team the Nursing Study App planning package. Do not implement the app and do not approve the plan by default. Read the source evidence and all current planning documents. Find contradictions between requirements, UX, data model, provider architecture, SRS, and work packages; flag unverifiable claims and weak tests. Prioritize findings by severity and include evidence, impact, remediation, and a verification test. Send findings to the integration owner. Do not overwrite other documents.
+> Independently red-team the Nursing Study App planning package. Do not implement the app and do not approve the plan by default. Read the source evidence and all current planning documents. Find contradictions between requirements, UX, data model, provider architecture, SRS, and work packages; flag answer-key leakage, non-atomic queue operations, duplicate rewards/attempts, diagnostic bypass paths, unverifiable claims and weak tests. Prioritize findings by severity and include evidence, impact, remediation, and a verification test. Send findings to the integration owner. Do not overwrite other documents.
 
 ## Integration owner — Master Architect
 
