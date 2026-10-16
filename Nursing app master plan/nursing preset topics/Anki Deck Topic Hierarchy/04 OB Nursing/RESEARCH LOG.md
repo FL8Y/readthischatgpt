@@ -88,7 +88,8 @@ These are not counted as completed topics until the hierarchy is checked for dup
 - Remaining leaf topics without substantive files: **0**; all 35 uploaded topics require final clinical/source verification
 - Folder coverage: **100%** (35/35 existing leaf topic folders contain a substantive Research.md file, and all 35 were reopened through GitHub API). Clinical/source verification: **0/35 fully verified**; this is not a final completion claim.
 - Added topics: **0**
-- Blockers: None encountered during initial tree inspection. Full research and per-file upload verification remain outstanding.
+- Blockers: No blocking access issue at the final recursive audit. The repository had intermittent concurrent-write conflicts, resolved through retries. The remaining blocker to claiming full completion is the unfinished clinical/source-link verification pass.
 - Last action: Added substantive research files for all 35 existing leaf folders, including both remaining topics: Hormones in Menstrual Cycle and Postpartum Changes. All 35 research files have now been reopened through GitHub API and returned substantive content with source sections; detailed clinical/source/link verification remains outstanding.
 - Exact next action: Perform a final recursive audit against the live GitHub tree, verify the log/mind-map links and source URLs, clinically review safety-critical recommendations across all 35 files, then update each row only when its criteria are actually verified. Do not claim full completion until that audit is complete.
-- Last reconciled: 2026-10-17 (partial audit; final recursive audit not yet performed).
+- Final recursive structure audit (2026-10-17): 35 leaf topic folders; 35 corresponding Research.md files; no missing research files; 39 Obsidian wiki-links checked and none broken. All 35 topic files were reopened through GitHub API. Source URLs and clinical safety claims have not all been independently checked; therefore full verification remains incomplete.
+- Last reconciled: 2026-10-17 (structure/file audit complete; clinical/source verification still pending).
