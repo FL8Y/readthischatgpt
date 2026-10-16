@@ -110,7 +110,8 @@ Required deliverables:
 7. `DECISION_LOG.md` — architecture decision records and open decisions.
 8. `IMPLEMENTATION_ROADMAP.md` — staged implementation plan, test gates, release gates, and rollback strategy.
 9. `CLAUDE_MASTER_PROMPT.md` — this prompt, refined only if necessary and keeping the planning-only boundary explicit.
-10. Update blueprint `README.md` with a clear navigation index and correct App 1/App 2/App 3 relationship.
+10. `QA_COUNCIL_REVIEW.md` — independent critique, severity-ranked findings, scorecard, and corrective actions.
+11. Update blueprint `README.md` with a clear navigation index and correct App 1/App 2/App 3 relationship.
 11. Update the parent `Nursing app master plan/README.md` only to link to the blueprint and correct its relationship wording. Do not modify research folders.
 
 Do not mark deliverables complete until the file exists and has been reread from GitHub.
