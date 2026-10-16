@@ -35,12 +35,14 @@
   - Gestational Diabetes
   - [[Common Complications/Gestational Diabetes/Research|Gestational Diabetes]]
   - Hemolytic Disease of the Newborn
+  - [[Common Complications/Hemolytic Disease of the Newborn/Research|Hemolytic Disease of the Newborn]]
   - Hydatidiform Mole
   - [[Common Complications/Hydatidiform Mole/Research|Hydatidiform Mole]]
   - Hyperemesis Gravidarum
   - [[Common Complications/Hyperemesis Gravidarum/Research|Hyperemesis Gravidarum]]
   - Incompetent Cervix
   - Placenta Previa
+  - [[Common Complications/Placenta Previa/Research|Placenta Previa]]
   - Premature Rupture of Membranes
   - Shoulder Dystocia
   - Toxemia (legacy folder label; research should use current terminology such as hypertensive disorders of pregnancy and explain historical terminology)
