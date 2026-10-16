@@ -43,6 +43,8 @@ export interface Topic {
   /** Markdown body; may contain [[wikilinks]] to other topics. */
   body: string;
   sourceIds: string[];
+  /** Other names for this topic (e.g. from Obsidian frontmatter). Links and imports match on them. */
+  aliases?: string[];
 }
 
 export interface Question {

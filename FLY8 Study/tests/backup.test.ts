@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { applyImport, validateBackup } from '../src/core/backup';
 import { emptyState, exportJson } from '../src/storage';
+import { buildExport, pickExtras } from '../src/core/backup';
 import type { AppState } from '../src/core/types';
 
 const sample = (): AppState => ({
@@ -63,5 +64,29 @@ describe('applyImport', () => {
     const next = applyImport(current, r.state);
     expect(next.topics).toHaveLength(0);
     expect(next.settings.apiKey).toBe('sk-secret-123');
+  });
+});
+
+describe('backup extras (lessons, flashcards, tutor chat)', () => {
+  const extras = { lessons: { t1: { explanation: 'x' } }, srs: { cards: [] }, tutor: { messages: [] } };
+
+  it('round-trips extras through export and validate, and never exports the key', () => {
+    const state = { ...emptyState(), settings: { ...emptyState().settings, apiKey: 'sk-secret' } };
+    const text = buildExport(state, extras);
+    expect(text).not.toContain('sk-secret');
+    const r = validateBackup(text);
+    expect(r.ok).toBe(true);
+    if (r.ok) {
+      expect(r.extras).toEqual(extras);
+      expect(r.state.settings.apiKey).toBe('');
+      expect((r.state as unknown as Record<string, unknown>).extras).toBeUndefined();
+    }
+  });
+
+  it('ignores extras that are not objects and old backups without extras still import', () => {
+    expect(pickExtras({ lessons: 'nope', srs: 5, tutor: null })).toEqual({});
+    expect(pickExtras(undefined)).toEqual({});
+    const r = validateBackup(exportJson(emptyState()));
+    expect(r.ok && r.extras).toEqual({});
   });
 });

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Share, View } from 'react-native';
 import type { AppState } from '../core/types';
 import { applyImport, validateBackup, type BackupResult } from '../core/backup';
-import { exportJson } from '../storage';
+import { exportAll, writeExtras } from '../backupIO';
 import { KeySetup } from './Onboarding';
 import { Btn, Card, Field, H, P, Pill, c, sp } from './kit';
 
@@ -17,6 +17,7 @@ export function Settings({ state, update }: { state: AppState; update: (s: AppSt
   };
   const confirmImport = () => {
     if (!checked || !checked.ok) return;
+    void writeExtras(checked.extras);
     update(applyImport(state, checked.state));
     setChecked(null);
     setRaw('');
@@ -36,7 +37,7 @@ export function Settings({ state, update }: { state: AppState; update: (s: AppSt
       </Card>
       <Card>
         <H>Backup</H>
-        <Btn label="Export my data (no key)" kind="ghost" onPress={() => void Share.share({ message: exportJson(state) })} />
+        <Btn label="Export everything (no key)" kind="ghost" onPress={() => void exportAll(state).then((message) => Share.share({ message }))} />
       </Card>
       <Card>
         <H>Import a backup</H>
@@ -67,7 +68,7 @@ export function Settings({ state, update }: { state: AppState; update: (s: AppSt
           <View style={{ gap: sp.sm }} accessibilityLiveRegion="polite">
             <Pill text="Looks valid" color={c.good} />
             <P>
-              Found {checked.summary.topics} topics, {checked.summary.sources} sources, {checked.summary.events} answers.
+              Found {checked.summary.topics} topics, {checked.summary.sources} sources, {checked.summary.events} answers{Object.keys(checked.extras).length ? ', plus lessons, cards and chat' : ''}.
               Importing replaces what is on this phone now.
             </P>
             <Btn label="Replace my data with this backup" kind="danger" onPress={confirmImport} />

@@ -37,6 +37,7 @@ export interface TopicGraph {
 export function buildGraph(topics: Topic[]): TopicGraph {
   const bySlug = new Map<string, Topic>();
   for (const t of topics) bySlug.set(slugify(t.title), t);
+  for (const t of topics) for (const a of t.aliases ?? []) if (!bySlug.has(slugify(a))) bySlug.set(slugify(a), t);
   const edges: GraphEdge[] = [];
   const unresolved: TopicGraph['unresolved'] = [];
   const seen = new Set<string>();

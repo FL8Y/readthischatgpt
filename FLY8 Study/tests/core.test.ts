@@ -34,6 +34,14 @@ describe('vault', () => {
     expect(g.unresolved).toEqual([{ from: 'a', target: 'Sodium' }]);
   });
 
+  it('resolves links written as an alias', () => {
+    const a = topic('a', 'Pharmacology', 'Uses [[HF]]');
+    const b = { ...topic('b', 'Heart Failure'), aliases: ['HF'] };
+    const g = buildGraph([a, b]);
+    expect(g.edges).toEqual([{ from: 'a', to: 'b' }]);
+    expect(g.unresolved).toEqual([]);
+  });
+
   it('slugifies accents and punctuation', () => {
     expect(slugify('Étiology & Risk!')).toBe('etiology-risk');
   });

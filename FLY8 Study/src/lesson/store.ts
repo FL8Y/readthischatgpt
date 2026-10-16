@@ -1,7 +1,8 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import type { Lesson } from './types';
 
-const KEY = 'nursing-study-app/lessons/v1';
+export const LESSON_KEY = 'nursing-study-app/lessons/v1';
+const KEY = LESSON_KEY;
 
 /** Pure: tolerate corrupt storage by returning an empty map. */
 export function parseLessonMap(raw: string | null): Record<string, Lesson> {

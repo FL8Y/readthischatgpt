@@ -8,7 +8,34 @@ export interface BackupSummary {
   events: number;
 }
 
-export type BackupResult = { ok: true; state: AppState; summary: BackupSummary } | { ok: false; errors: string[] };
+/** Data kept outside AppState (own storage keys): lessons, flashcards + reviews, tutor chat. */
+export interface Extras {
+  lessons?: unknown;
+  srs?: unknown;
+  tutor?: unknown;
+}
+
+export const EXTRA_KEYS = ['lessons', 'srs', 'tutor'] as const;
+
+export type BackupResult =
+  | { ok: true; state: AppState; summary: BackupSummary; extras: Extras }
+  | { ok: false; errors: string[] };
+
+/** Keeps only extras that are JSON objects or arrays; anything else is ignored, not trusted. */
+export function pickExtras(raw: unknown): Extras {
+  const out: Extras = {};
+  if (typeof raw !== 'object' || raw === null || Array.isArray(raw)) return out;
+  for (const k of EXTRA_KEYS) {
+    const v = (raw as Record<string, unknown>)[k];
+    if (typeof v === 'object' && v !== null) out[k] = v;
+  }
+  return out;
+}
+
+/** Builds export text: study data and extras, never the API key. */
+export function buildExport(state: AppState, extras: Extras): string {
+  return JSON.stringify({ ...state, settings: { ...state.settings, apiKey: '' }, extras }, null, 2);
+}
 
 const ARRAYS = ['folders', 'topics', 'sources', 'chunks', 'events', 'diagnosticsDone'] as const;
 
@@ -60,13 +87,15 @@ export function validateBackup(raw: string): BackupResult {
   if (!isStr(st.model)) errors.push('Settings has no model.');
   if (errors.length) return { ok: false, errors };
 
+  const { extras: rawExtras, ...core } = data;
   const state = {
-    ...(data as unknown as AppState),
+    ...(core as unknown as AppState),
     settings: { provider: st.provider as AppState['settings']['provider'], model: st.model as string, apiKey: '' },
   };
   return {
     ok: true,
     state,
+    extras: pickExtras(rawExtras),
     summary: {
       folders: state.folders.length,
       topics: state.topics.length,

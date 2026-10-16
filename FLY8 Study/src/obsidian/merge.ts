@@ -63,6 +63,7 @@ export function planMerge(state: PlanInput, notes: ParsedNote[], opts: PlanOptio
   const work = new Map<string, Work>(state.topics.map((t) => [t.id, { id: t.id, title: t.title, body: t.body }]));
   const bySlug = new Map<string, string>();
   for (const t of state.topics) if (!bySlug.has(slugify(t.title))) bySlug.set(slugify(t.title), t.id);
+  for (const t of state.topics) for (const a of t.aliases ?? []) if (!bySlug.has(slugify(a))) bySlug.set(slugify(a), t.id);
   const topicBySource = new Map<string, string>();
   for (const t of state.topics) for (const sid of t.sourceIds) topicBySource.set(sid, t.id);
   const priorTopic = new Map<string, string>();
@@ -214,10 +215,23 @@ export function applyPlan(state: AppState, plan: MergePlan, enabled?: ReadonlySe
       const block = `## Merged from Obsidian: ${note.path}\n\n${item.addParagraphs.join('\n\n')}`;
       t.body = `${t.body.replace(/\s+$/, '')}\n\n${block}`;
       if (!t.sourceIds.includes(sid)) t.sourceIds.push(sid);
+      addAliases(t);
+    };
+    const addAliases = (t: Topic) => {
+      const have = new Set([t.title, ...(t.aliases ?? [])].map(slugify));
+      const fresh = note.aliases.filter((a) => a.trim() && !have.has(slugify(a)));
+      if (fresh.length) t.aliases = [...(t.aliases ?? []), ...fresh];
     };
     const create = (id: string, title: string) => {
       if (topics.some((t) => t.id === id)) return;
-      topics.push({ id, folderId: folderIdFor(item.folderName), title, body: note.body, sourceIds: [sid] });
+      topics.push({
+        id,
+        folderId: folderIdFor(item.folderName),
+        title,
+        body: note.body,
+        sourceIds: [sid],
+        ...(note.aliases.length ? { aliases: note.aliases } : {}),
+      });
     };
     const target = item.targetId ? topics.find((t) => t.id === item.targetId) : undefined;
     if (item.outcome === 'new') {
