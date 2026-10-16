@@ -176,3 +176,11 @@ A fresh Git tree count distinguishes the subject root from its descendants: **45
 - One file-fetch attempt for the grouping file `Part 1/RESEARCH.md` returned a 404 despite the recursive tree listing showing the path. Resolve this discrepancy by fetching the raw file/tree blob and verify its actual location before treating that index as validated.
 - Updated evidence-based status: structural coverage 45/45 (100%); fully researched and source-verified topic files 0/45 (0%).
 - Next action: resolve the Part 1 index path discrepancy, then deepen and source-check each file in risk-priority order. Update status only after a topic's content and citations are actually verified.
+
+
+## Research cycle update — Major Depressive Disorder — 2026-10-17
+- Reopened `Part 3/Major Depressive Disorder/RESEARCH.md`, expanded the source section, and uploaded the revision. Reopened the saved file again and confirmed the added source-check findings persisted.
+- Directly reviewed the WHO mhGAP 3rd-edition publication page and Depression evidence module, plus NIMH Depression and Mental Health Medications pages. These support the guideline's currency, depression assessment/treatment overview, typical antidepressant onset, and serotonin-syndrome/monitoring cautions.
+- Topic status: IN PROGRESS. Do not mark verified complete yet: drug-specific contraindications, washout intervals, interactions, and Philippine/local formulary requirements still need official-label verification.
+- Progress remains 45/45 folders with a RESEARCH.md (100% structural coverage); 0/45 topics have passed the complete topic-level audit (0% verified completion).
+- Next action: continue with the next high-risk topic, prioritizing suicide/crisis assessment and antipsychotic safety; verify claims against specific authoritative guidance and update the log after each cycle.
