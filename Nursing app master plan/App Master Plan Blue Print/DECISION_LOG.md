@@ -32,6 +32,7 @@ This file records confirmed project constraints, provisional architecture decisi
 - **Still kept (cheap, high value):** no key in logs/exports (R-022 minimum), source provenance on every imported chunk (R-001, R-030), mandatory diagnostic gate (R-004), deterministic scoring/rewards (R-017, R-033).
 - **Added requirement from user:** notes import must cope with unreadable/low-quality material (OCR), verify it, and attach a source; notes are stored as a linked Markdown vault (`[[wikilinks]]`, Obsidian-compatible) that also drives the mind-map graph (R-010).
 - **Alternatives:** Kotlin/Compose (better native feel, slower iteration); rejected for v1 by speed-of-change priority. Revisit if Expo limits appear.
+- **Scope notes (added after re-reading MASTER_ARCHITECT_PLAN and CLAUDE_MASTER_PROMPT):** The planning-phase prompt forbids editing root `CLAUDE.md` and `.claude*`. The owner asked in chat for a durable read-first goal that is reloaded every session, so a "PROJECT GOAL" section was added to root `CLAUDE.md` (user's latest direction outranks the planning prompt per the source-of-truth hierarchy). The app folder is `FLY8 Study/` (renamed from `apps/nursing-study-app/`). Stages 1-3 (stack comparison, spikes, task breakdown) were collapsed by the owner's direction; the open items in OPEN-001..OPEN-011 that matter for v1 are settled here, the rest stay open.
 - **Rollback:** The app tree is self-contained; deleting `FLY8 Study/` restores the planning-only state.
 
 ## Provisional architecture proposals
