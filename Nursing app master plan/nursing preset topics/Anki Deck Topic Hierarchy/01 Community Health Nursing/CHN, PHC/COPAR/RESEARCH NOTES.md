@@ -155,6 +155,14 @@ Do not treat textbook site-selection numbers, specific phase durations, or organ
 ## 12. Verification record
 
 - This is a topic-specific overview, not a substitute for the dedicated [[Basic Principles of COPAR]] and [[Phases of COPAR]] files.
-- Three sources were directly inspected; the National University syllabus is a documented source-verification gap.
+- Two sources were directly inspected in the original drafting cycle; the UC direct permalink is now flagged for rechecking and the National University syllabus remains a documented source-verification gap.
 - No universal legal phase taxonomy or fixed site-selection rule is claimed.
 - Before marking **Verified Complete**, re-open this saved file, check the cited links, retry/replace the syllabus source, and record a final review in `RESEARCH LOG.md`.
+
+## Source Verification Update — 2026-10-17
+
+- Rechecked source records in a verification pass. WHO's 10 May 2023 publication page confirms the meaningful-engagement framework and its scope: engagement with people living with NCDs, mental-health and neurological conditions. Use it only for general participation principles, not as a COPAR phase manual.
+- Nurseslabs' COPAR article is discoverable and contains a commonly taught four-phase outline, but it is a secondary educational source last updated in 2013; it must not be treated as current national policy or a universal phase taxonomy.
+- The University of the Cordilleras site search listing confirms a COPAR faculty-development seminar entry dated 19 February 2023, but the exact direct permalink in the source register was not independently reopened during this pass. A similar March 2023 URL surfaced unrelated mental-health content, so do not rely on that alternate page as COPAR evidence.
+- The National University Philippines syllabus PDF was surfaced in search results but its full text has not been inspected because the earlier PDF fetch timed out.
+- Status remains **Drafted — Needs Review**. Do not mark Verified Complete until the direct UC permalink is checked or removed/replaced, the syllabus is inspected or replaced, and all claims are reconciled against suitable sources.
