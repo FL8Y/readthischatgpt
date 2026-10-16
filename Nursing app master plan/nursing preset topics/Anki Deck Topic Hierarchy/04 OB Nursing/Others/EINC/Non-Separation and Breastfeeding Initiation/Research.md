@@ -13,6 +13,39 @@ For clinically stable mother-newborn pairs, maintain uninterrupted skin-to-skin 
 ## Safe non-separation
 Maintain skin-to-skin with the newborn's airway visible and unobstructed. Observe the infant's breathing, color, tone and temperature, and assess maternal alertness and stability. If either needs urgent care, separate only as clinically necessary, provide safe care, communicate with the family, and reunite promptly when stable. If the mother is sedated or unable to safely hold the newborn, a trained staff member should ensure thermal safety and supervision.
 
+## First-hour initiation: observe effective feeding, not just contact
+
+Initiation within the first hour means supporting the newborn to self-attach or latch when ready while skin-to-skin continues. It does not mean force-feeding or forcing the infant onto the breast at a fixed minute. Early cues may include hand-to-mouth movements, rooting, mouth opening and increased alertness. Crying is a late cue; calm, supported positioning helps feeding readiness.
+
+### Latch and milk-transfer assessment
+Observe a feed when possible and assess:
+- Maternal comfort and nipple pain/trauma.
+- Infant body aligned and close to the mother, mouth wide, chin close to breast, lower lip flanged, and more areola visible above than below in a deep latch (appearance varies with anatomy).
+- Rhythmic sucking with pauses and evidence of swallowing as milk transfer develops.
+- Whether the infant remains alert enough to feed and appears to settle after feeding; no single behavioral sign proves adequate intake.
+- Feeding frequency and infant output/weight trend according to newborn protocol. Persistent poor latch, ineffective suck, markedly reduced feeding, lethargy, worsening jaundice, signs of dehydration or concerning weight trajectory require prompt newborn/lactation assessment.
+
+Colostrum is produced in small physiologic volumes and is rich in immune factors. Parents should not be told that small early volumes automatically mean inadequate supply; however, poor transfer or medical risk must not be dismissed as “normal colostrum.”
+
+### When supplementation or an alternative feeding plan may be needed
+Exclusive breastfeeding is the goal when medically appropriate and chosen by the parent, but it is not an absolute rule that overrides infant safety or informed choice. The clinician should assess and treat the cause of inadequate intake and decide whether expressed breast milk, donor human milk or formula is indicated under current policy. Reasons for urgent assessment may include symptomatic or persistent neonatal hypoglycemia, significant dehydration, inadequate intake with concerning weight loss, inadequate milk transfer despite skilled help, or other clinical indications. Use the current newborn/feeding protocol; this file intentionally does not establish a universal lab threshold for supplementation. Do not give water, glucose water or other fluids as a substitute for appropriate feeding care unless a specific clinical protocol directs it.
+
+If supplementation is ordered or chosen, support continued lactation when desired through hand expression or pumping at appropriate intervals and provide nonjudgmental information on preparation and safe handling of the selected feed. Never delay urgent treatment of hypoglycemia, dehydration or other newborn illness in order to preserve exclusive breastfeeding. Document the clinical indication, discussion/consent, feeding plan, response and follow-up.
+
+### If mother and newborn must be separated
+- Explain the reason and expected plan for reunion.
+- Support early hand expression and provide help with expressing colostrum; ensure labelled, safely stored and transported milk according to facility policy.
+- Arrange safe alternative feeding and prescribed monitoring while separated.
+- Reassess readiness for direct breastfeeding and restore skin-to-skin/contact as soon as clinically safe.
+- Document feeding method, amounts if measured, latch/transfer observations, infant output/weight information when available, education and referral plan.
+
+### Source context and limits
+WHO recommends breastfeeding initiation within the first hour and skilled breastfeeding support; its early-initiation recommendation applies to the mother-newborn pair when medically feasible. Follow current DOH, Baby-Friendly Hospital Initiative and facility guidelines for supplementation indications, hypoglycemia pathways, newborn follow-up and expressed-milk handling. The source material listed below supports early initiation and skilled support but does not replace a current neonatal supplementation protocol:
+- WHO, “Early initiation of breastfeeding to promote exclusive breastfeeding”: https://www.who.int/tools/elena/interventions/early-breastfeeding
+- WHO, “Support for mothers to initiate and establish breastfeeding after childbirth”: https://www.who.int/tools/elena/interventions/breastfeeding-support
+- Philippine DOH Administrative Order No. 2009-0025, Essential Newborn Care: https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/11/49220
+
+
 ## Nursing actions and rationale
 | Action | Rationale |
 |---|---|
