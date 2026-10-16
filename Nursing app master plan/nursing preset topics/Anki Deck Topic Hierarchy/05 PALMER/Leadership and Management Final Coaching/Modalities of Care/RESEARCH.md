@@ -21,3 +21,36 @@ Functional nursing can fragment care; maintain a clear coordinator and reliable 
 - AHRQ, TeamSTEPPS: https://www.ahrq.gov/teamstepps/index.html
 - WHO, Patient Safety: https://www.who.int/health-topics/patient-safety
 - PRC, Nursing resources: https://www.prc.gov.ph/nursing
+
+## Comparing models in practice
+
+| Model | How work is organized | Main safety risk to manage | Managerial safeguard |
+|---|---|---|---|
+| Total patient care/case method | One nurse provides comprehensive care for assigned patients during a shift. | Assignment may exceed one nurse's workload or competence; continuity may end at shift change. | Match acuity to assignment, provide backup, and use a structured handoff. |
+| Functional nursing | Tasks are divided by function across staff. | Fragmentation, repeated/incomplete tasks, and unclear overall ownership. | Identify a coordinating RN, communicate task completion and abnormal findings, and evaluate the whole patient. |
+| Team nursing | An RN leader coordinates a team caring for a patient group. | Role ambiguity or delegation beyond competence. | Define assignments, give clear instructions, supervise, and maintain team communication. |
+| Primary nursing | A designated primary nurse coordinates the plan across the stay; associate nurses provide care when needed. | Plan inconsistency when the primary nurse is absent or handoffs are weak. | Keep a shared, updated care plan and ensure associate staff communicate changes. |
+| Case management | Coordinates care pathways, resources, transitions, and outcomes across services/settings. | Gaps at transitions, duplicated services, or cost targets displacing patient needs. | Use shared goals, transition planning, referrals, and outcome monitoring. |
+| Patient-/family-centered care | Partnership and shared decisions organize care around the person's goals and context. | Assuming family preference overrides a capable patient's wishes or privacy. | Clarify the patient's preferred involvement, respect autonomy, and communicate accessibly. |
+
+## Selecting a modality
+
+Consider patient acuity and complexity, continuity needs, number/competence of staff, interprofessional coordination, geography, resource availability, patient preferences, and the reliability of information systems. Models can be combined in real facilities. Describe the actual division of work rather than assuming a label guarantees safe practice.
+
+## Non-negotiable safeguards
+
+- Every patient must have clear responsibility for assessment, care planning, reassessment, and escalation.
+- Assignment and delegation must match scope, competence, patient condition, and applicable policy.
+- A task-based model does not excuse failure to recognize the whole patient's deterioration.
+- Handoff must identify pending tasks, critical risks, and who will act next.
+- Patient/family partnership requires consent, privacy, culturally responsive communication, and respect for the patient's own preferences.
+
+## PNLE example
+
+In functional nursing, one staff member may administer medications while another performs vital signs. If the vital-sign nurse finds acute deterioration, the finding must be escalated immediately; it cannot wait for the task coordinator or routine handoff. The assigned team must know who will assess, notify the provider/response team, and document the event.
+
+## Sources
+
+- AHRQ, **TeamSTEPPS**: https://www.ahrq.gov/teamstepps/index.html
+- WHO, **Patient Safety**: https://www.who.int/health-topics/patient-safety
+- PRC, **Nursing** resources: https://www.prc.gov.ph/nursing
