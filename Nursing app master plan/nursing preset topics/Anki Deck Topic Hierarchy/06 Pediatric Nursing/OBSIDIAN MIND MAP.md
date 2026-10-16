@@ -1,6 +1,6 @@
 # Pediatric Nursing — Obsidian Mind Map
 
- > Status as of 2026-10-17: all 60 leaf topic folders have a `Research.md` file on branch `agent-6-pediatric-research`. Two topics (Brain Tumor and Hodgkin's lymphoma) have been source-checked and reopened; the other files are drafts pending topic-specific verification.
+ > Status as of 2026-10-17: 60/60 leaf topic folders have a `Research.md` file on branch `agent-6-pediatric-research`; 6/60 topics are verified complete (Brain Tumor, Hodgkin's lymphoma, Leukemia, Wilms tumor, Neuroblastoma, Osteosarcoma). The remaining 54 topic files are drafts awaiting individual source audit and reopen verification. This map indexes the hierarchy and is not evidence of research completion.
 
 - [[RESEARCH TOPIC GUIDE]]
 - [[RESEARCH LOG]]
