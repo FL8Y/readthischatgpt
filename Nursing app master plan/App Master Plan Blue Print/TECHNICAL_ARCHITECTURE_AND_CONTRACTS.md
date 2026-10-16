@@ -54,6 +54,11 @@ Provider options should be behind a logical adapter for distinct tasks: lesson, 
 
 The Gizmo reference's generic 3–12 question limit does not satisfy product-specific 1–5 pop quizzes and 1–50 diagnostics. Use assessment-specific policies and enforce count/coverage after generation. Batching a diagnostic is only acceptable if topic coverage and deduplication remain consistent across batches.
 
+
+
+**Mandatory diagnostic gate:** For a newly selected learning scope, the service layer—not only the UI—must verify that the 1–50 question diagnostic is completed and its attempts/results are durably saved before generating or unlocking a new topic lesson. An interrupted diagnostic resumes the same versioned session. The normal learning flow cannot silently skip the gate. A review-only mode may reopen already-taught material but must not unlock new lessons. If credentials/network are unavailable and no valid diagnostic set exists, return a clear, recoverable blocked state; never bypass the rule.
+
+
 Before persisted/generated content is accepted, validate:
 - schema and type bounds;
 - answer key and option/index validity;
@@ -229,6 +234,7 @@ Required controls include credential redaction, no client-embedded platform keys
 - Shuffled order/matching presentation grades against canonical IDs.
 - Duplicate question detection works across batches.
 - Diagnostic/pop-quiz counts and topic coverage are enforced.
+- Lesson-generation/service calls reject new teaching when the selected scope lacks a completed diagnostic; interrupted sessions resume without loss or duplicate attempts.
 - Attempt, review, job and reward idempotency passes under duplicate/concurrent calls.
 - Queue/refill is consistent across concurrent requests and process restart.
 - Scheduler transitions are deterministic under a fixed clock and documented version.
@@ -255,3 +261,24 @@ The following remain open; each decision needs evidence, alternatives, trade-off
 - Backup/export/deletion and sync conflict behavior.
 - Analytics/telemetry defaults and privacy policy.
 - Minimum Android version, performance targets and device matrix.
+
+
+## 16. Master Architect's proposed baseline
+
+This is a **PROPOSED default, not a user-approved final decision**. It makes the next planning gate actionable without pretending untested assumptions are facts.
+
+| Area | Proposed default | Rationale and guardrail |
+|---|---|---|
+| Initial client | Android-first, native Kotlin + Jetpack Compose | Best fit for current Android-centred use and native offline/storage needs; reconsider if web/iOS becomes a committed initial requirement. Validate the real device/API matrix after implementation authorization. |
+| Application architecture | Modular monolith with the logical services in this document | Shared learning state, grading, rewards, review scheduling and mastery need coherent transactions. Do not default to network microservices. |
+| Storage | Local-first relational persistence, versioned migrations, source-file storage, append-only attempt/review events | Enables offline learning and recoverable progress. Multi-device sync remains opt-in scope, not an assumed requirement. |
+| AI credential | Support the user's own provider key in platform-backed secure storage, with explicit extraction-risk disclosure and safe remove/rotate behavior | Matches the requested key setup without silently introducing a hosted service or platform bill. A compromised/instrumented client may expose a local key; never ship a platform-owned key in the client. |
+| AI interface | Provider-neutral task adapter with separate policies/schemas for lesson, diagnostic, topic quiz, module test, flashcard, map and tutor | Limits provider lock-in and enforces per-task count/source/validation rules. Model IDs and APIs must be verified against the chosen provider before implementation. |
+| Assessment privacy | Separate learner question payload, grading key and post-answer feedback; keep keys server-side for server-backed mode | Prevents pre-answer answer leakage. Local-only keys cannot be promised secret against a technically capable device owner. |
+| Scheduler | App-owned versioned scheduler interface; select a maintained, license-compatible implementation after explicit version/test-vector review | Keeps AnkiDroid optional. The checked-in FSRS-5 reference is not evidence of exact parity with the current AnkiDroid engine. |
+| Anki interop | Consider APKG import/export as portability; AnkiDroid provider bridge remains optional | Avoids requiring a separate app at runtime before device/permission behavior is verified. |
+| Imports | Start with text/paste and Markdown as the smallest validated path; evaluate PDF and image/OCR as separate scope and cost decisions | Bounds parser, permission, performance and provider costs while preserving room to expand. |
+| Mastery/rewards | Transparent, conservative evidence-aware mastery; separate accuracy, coverage, recency, confidence and review state; idempotent rewards | A single score cannot establish long-term learning, and duplicate requests must not mint progress. Formula remains a decision until scenario tests pass. |
+| Privacy/telemetry | Minimize provider data and default to no nonessential telemetry until justified and disclosed | Study notes may be sensitive; transmit only context required by each task. Define retention, deletion, export and consent before sync/backend use. |
+
+**Validation before any implementation authorization:** compare the native/cross-platform options against declared requirements; test storage/migrations/restore; validate provider APIs and budget/rate limits; select scheduler/version with deterministic vectors; define mastery/reward scenarios; prove diagnostic gating and answer-key isolation; test import limits and graph accessibility. Keep unresolved platform/device, provider-budget, sync and import priorities visible. No source code or technical spike is authorized by this proposal.
