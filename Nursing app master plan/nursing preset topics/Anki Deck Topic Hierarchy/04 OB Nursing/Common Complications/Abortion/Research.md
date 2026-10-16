@@ -65,6 +65,10 @@ Management of induced abortion is a separate clinical and legal question from mi
 
 ABCs and immediate threats take precedence over routine teaching or psychosocial needs in an unstable patient. Maslow's framework may help organize stable-patient needs, but it must not be applied mechanically: hemorrhage, ectopic rupture, or sepsis require immediate action. After stabilization, address pain, privacy, informed choices, grief, and support needs.
 
+### Rh(D) immune globulin: important guideline update
+
+Recommendations for Rh testing/Rh(D) immune globulin (RhIG) after pregnancy loss before 12 weeks have changed and are not fully uniform internationally. ACOG's 2024 Clinical Practice Update suggests **forgoing routine Rh testing and RhIG prophylaxis before 12+0 weeks** for abortion or pregnancy loss, while allowing individualized shared decision-making. The Society for Maternal-Fetal Medicine has taken a more precautionary position: offer testing and RhIG when feasible and when doing so does not hinder access to care. The American Society for Reproductive Medicine's 2026 position statement supports the ACOG approach. These are international recommendations, not automatically Philippine policy; use the current Philippine facility/DOH protocol and explain the guideline used. Do not rely on older ACOG Practice Bulletin No. 200 language alone for this question.
+
 ## 7. Medication safety
 
 Medication choice and administration are prescriber- and protocol-dependent.
@@ -111,11 +115,14 @@ Clinical care must be respectful, confidential within applicable rules, non-disc
 2. **ACOG.** Practice Bulletin No. 200, “Early Pregnancy Loss.” November 2018, with interim updates noted on the page. https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2018/11/early-pregnancy-loss
 3. **World Health Organization (WHO).** *Abortion care guideline, second edition.* 24 August 2025. WHO notes this edition updates the 2022 guideline and that the second edition's change is limited to updated remarks for Recommendation 22. https://www.who.int/westernpacific/publications/i/item/9789240104204
 4. **WHO.** *Abortion care guideline: executive summary.* 8 March 2022. Background reference; use the second edition above for current WHO recommendations. https://www.who.int/publications/i/item/9789240045163
-5. **Philippine Department of Health.** Administrative Order No. 2018-0003, *National Policy on the Prevention and Management of Abortion Complications and the Provision of Post-Abortion Care.* Official DOH-hosted PDF. https://doh.gov.ph/wp-content/uploads/2023/08/AO-2018-0003.pdf
+5. **Philippine Department of Health.** Administrative Order No. 2018-0003, *National Policy on the Prevention of Illegal and Unsafe Abortion and Management of Post-Abortion Complications.* Official DOH-hosted PDF, 6 February 2018. https://doh.gov.ph/wp-content/uploads/2023/08/AO-2018-0003.pdf
+6. **ACOG.** Clinical Practice Update, *Rh D Immune Globulin Administration After Abortion or Pregnancy Loss at Less Than 12 Weeks of Gestation*, published online 10 September 2024; *Obstetrics & Gynecology* 2024;144(6):e140–e143. https://pubmed.ncbi.nlm.nih.gov/39255498/
+7. **Society for Maternal-Fetal Medicine (SMFM).** Statement summarized in ACOG's supplemental comparison of Rh testing/anti-D recommendations before 12 weeks: https://cdn-links.lww.com/permalink/aog/d/aog_144_6_2024_08_26_cpggynecology_24-1499_sdc1.pdf
+8. **American Society for Reproductive Medicine (ASRM).** *Position Statement on Rho(d) Immune Globulin Administration in the First Trimester (2026).* https://www.asrm.org/practice-guidance/practice-committee-documents/position-statement-on-rhod-immune-globulin-administration-in-the-first-trimester-2026/
 
 ## Verification notes and limitations
 
 - The ACOG clinical bulletin is older than the 2025 WHO guideline and is used here for early-pregnancy-loss diagnosis and management concepts, not as a substitute for updated local protocols.
 - WHO's 2025 second edition reports a limited update to Recommendation 22; it does not mean every national legal framework is the same.
-- Rh(D) prophylaxis recommendations for very early pregnancy loss differ across jurisdictions and have evolved. Confirm current local guidance rather than assuming a universal threshold.
+- Rh(D) prophylaxis before 12 weeks is a documented area of guideline disagreement. ACOG's 2024 update suggests forgoing routine testing/prophylaxis, while SMFM recommends offering it where feasible without restricting access; ASRM's 2026 position supports ACOG. These recommendations were checked against the cited primary/official sources. Philippine implementation remains protocol-dependent and must be confirmed locally.
 - This topic file was written from the listed sources and repository research standard. It must be reopened from GitHub and checked for correct path/content before its status is changed to “uploaded and verified.”
