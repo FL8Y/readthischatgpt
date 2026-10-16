@@ -45,8 +45,8 @@ Fever, uterine tenderness, foul/purulent fluid, maternal or fetal tachycardia, s
 
 ## Sources
 1. ACOG Practice Bulletin No. 217, “Prelabor Rupture of Membranes,” March 2020: https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/03/prelabor-rupture-of-membranes
-2. RCOG Green-top Guideline No. 73, “Care of Women Presenting with Suspected Preterm Prelabour Rupture of Membranes from 24+0 Weeks of Gestation”: https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/care-of-women-presenting-with-suspected-preterm-prelabour-rupture-of-membranes-from-24-0-weeks-of-gestation-green-top-guideline-no-73/
+2. RCOG Green-top Guideline No. 73, “Care of Women Presenting with Suspected Preterm Prelabour Rupture of Membranes from 24+0 Weeks of Gestation”: https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/care-of-women-presenting-with-suspected-preterm-prelabour-rupture-of-membranes-from-24plus0-weeks-of-gestation-green-top-guideline-no-73/
 3. NICE guideline NG25, “Preterm labour and birth”: https://www.nice.org.uk/guidance/ng25
 
 ## Verification limitations
-Gestational thresholds, monitoring, antibiotics and timing of birth vary across guidelines. Confirm the current Philippine hospital/DOH protocol; do not combine regimens from different guidelines.
+Gestational thresholds, monitoring, antibiotics, corticosteroid eligibility and timing of birth vary across guidelines. The RCOG guideline page (reviewed October 2024 and extended for two years) explicitly references separate, later RCOG antenatal corticosteroid guidance; do not rely on the older steroid-window note quoted in the RCOG PPROM page. Confirm the current corticosteroid guideline and Philippine hospital/DOH protocol; do not combine regimens from different guidelines.
