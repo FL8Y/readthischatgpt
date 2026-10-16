@@ -109,7 +109,7 @@ The initial plan is materially more useful than the previous single-README bluep
 | Requirements coverage | 8 | 32 initial traceable requirements; needs report reconciliation and stronger answer-key/privacy acceptance cases |
 | Architecture clarity | 7 | Logical boundaries and options exist; stack, sync, provider, scheduler and mastery formula remain open |
 | Source/evidence quality | 8 | Both complete reports read; conflicting SDK metadata and documented-but-unrerun tests are disclosed |
-| Agent prompt quality | 8 | Bounded roles, evidence labels, and ownership rules; needs updated security/answer-key checks and actual live agent capability check |
+| Agent prompt quality | 9 | Current master prompt now explicitly requires answer-key separation, concurrency/idempotency, source evidence, planning-only boundaries, and honest scoring; live agent capability/authorization still needs checking in Claude Code |
 | UX/learning readiness | 7 | Main flows and safeguards specified; formulas and detailed state tables remain open |
 | Security/privacy readiness | 7 | Threats identified; provider mode and retention/sync choices unresolved |
 | Planning completion | 6 | Planning artifacts exist and are uploaded; reconciliation, reference tests, and independent council corrections remain |
@@ -126,4 +126,4 @@ The initial plan is materially more useful than the previous single-README bluep
 
 ## Iteration 2 verdict
 
-The answer-key boundary and strict diagnostic gate are now explicit in planning artifacts. Planning quality improved, but the overall readiness score remains below completion because the full source-claim reconciliation, reference test execution, final architecture decisions, and independent review remain open. No application code was created.
+The answer-key boundary and strict diagnostic gate are explicit in the planning artifacts. The current CLAUDE_MASTER_PROMPT.md has also been strengthened with a clearer phase boundary, detailed requirement groups, security/correctness rules, recurring review cycle, acceptance tests, and honest self-scoring. The prompt is materially stronger, but live agent capability/authorization has not been checked in Claude Code. Planning quality improved; overall readiness remains below completion because full source-claim reconciliation, reference test execution, final architecture decisions, and independent review remain open. No application code was created.
