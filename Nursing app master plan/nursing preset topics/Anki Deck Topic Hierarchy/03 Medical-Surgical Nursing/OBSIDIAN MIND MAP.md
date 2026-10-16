@@ -383,3 +383,17 @@
 - [[Peripheral Vascular Diseases]] — [Peripheral Arterial and Venous Disease — PNLE Research.md](./Cardiovascular/Peripheral%20Vascular%20Diseases/Peripheral%20Arterial%20and%20Venous%20Disease%20%E2%80%94%20PNLE%20Research.md)
 - [[WHO Blood Pressure Categories]] — [Adult Blood Pressure Categories and Measurement — PNLE Research.md](./Cardiovascular/WHO%20Blood%20Pressure%20Categories/Adult%20Blood%20Pressure%20Categories%20and%20Measurement%20%E2%80%94%20PNLE%20Research.md)
 - [Myocardial Infarction — PNLE Research.md](./Cardiovascular/MI/Myocardial%20Infarction%20%E2%80%94%20PNLE%20Research.md) — verification pending.
+
+
+## Respiratory research drafts (verification pending)
+- [[ARDS]] — [Acute Respiratory Distress Syndrome (ARDS) — PNLE Research.md](./Respiratory/ARDS/Acute%20Respiratory%20Distress%20Syndrome%20(ARDS)%20%E2%80%94%20PNLE%20Research.md)
+- [[Bronchial Asthma]] — [Bronchial Asthma and Acute Exacerbation — PNLE Research.md](./Respiratory/Bronchial%20Asthma/Bronchial%20Asthma%20and%20Acute%20Exacerbation%20%E2%80%94%20PNLE%20Research.md)
+- [[Chronic Bronchitis]] — [Chronic Bronchitis — PNLE Research.md](./Respiratory/COPD/Chronic%20Bronchitis/Chronic%20Bronchitis%20%E2%80%94%20PNLE%20Research.md)
+- [[Emphysema]] — [Emphysema — PNLE Research.md](./Respiratory/COPD/Emphysema/Emphysema%20%E2%80%94%20PNLE%20Research.md)
+- [[Chest Tube]] — [Chest Tube Drainage System Nursing Care — PNLE Research.md](./Respiratory/Chest%20Tube/Chest%20Tube%20Drainage%20System%20Nursing%20Care%20%E2%80%94%20PNLE%20Research.md)
+- [[Epistaxis]] — [Epistaxis (Nosebleed) — PNLE Research.md](./Respiratory/Epistaxis/Epistaxis%20(Nosebleed)%20%E2%80%94%20PNLE%20Research.md)
+- [[Pleural Effusion]] — [Pleural Effusion — PNLE Research.md](./Respiratory/Pleural%20Effusion/Pleural%20Effusion%20%E2%80%94%20PNLE%20Research.md)
+- [[Pneumothorax and Hemothorax]] — [Pneumothorax and Hemothorax — PNLE Research.md](./Respiratory/Pneumothorax%20and%20Hemothorax/Pneumothorax%20and%20Hemothorax%20%E2%80%94%20PNLE%20Research.md)
+- [[Sinusitis]] — [Sinusitis (Rhinosinusitis) — PNLE Research.md](./Respiratory/Sinusitis/Sinusitis%20(Rhinosinusitis)%20%E2%80%94%20PNLE%20Research.md)
+- [[Tonsillectomy and Adenoidectomy]] — [Tonsillectomy and Adenoidectomy: Perioperative Care — PNLE Research.md](./Respiratory/Tonsillectomy%20and%20Adenoidectomy/Tonsillectomy%20and%20Adenoidectomy:%20Perioperative%20Care%20%E2%80%94%20PNLE%20Research.md)
+- [[Tonsillitis and Adenoiditis]] — [Tonsillitis and Adenoiditis — PNLE Research.md](./Respiratory/Tonsillitis%20and%20Adenoiditis/Tonsillitis%20and%20Adenoiditis%20%E2%80%94%20PNLE%20Research.md)
