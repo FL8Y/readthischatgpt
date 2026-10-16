@@ -43,6 +43,7 @@ The 2025 American Heart Association/American Academy of Pediatrics neonatal resu
 2. WHO, “Essential newborn care”: https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health/essential-newborn-care
 3. WHO Philippines, “Unang Yakap: Encouraging Breastfeeding from the Start,” 4 August 2017: https://www.who.int/philippines/news/feature-stories/detail/unang-yakap-encouraging-breastfeeding-from-the-start
 4. WHO, *WHO recommendations on newborn health*, 2017: https://cdn.who.int/media/docs/default-source/sexual-health/stillbirth/who-mca-17-07-eng.pdf
+5. American Heart Association (AHA) and American Academy of Pediatrics (AAP), “Part 5: Neonatal Resuscitation: 2025 AHA/AAP Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care,” *Pediatrics*, 2026;157(1):e2025074352. https://publications.aap.org/pediatrics/article/157/1/e2025074352/205237/Part-5-Neonatal-Resuscitation-2025-American-Heart
 
 ## Verification notes and limitations
 The 2025 AHA/AAP neonatal resuscitation guideline was opened and checked for the recommendations against routine suctioning and for the role of ventilation in newborns with inadequate respiratory effort. These recommendations support selective suction only for suspected obstruction and avoiding delay of effective ventilation.
