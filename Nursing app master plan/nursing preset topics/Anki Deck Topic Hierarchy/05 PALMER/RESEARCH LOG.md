@@ -83,9 +83,9 @@ PALMER's intended meaning has not been expanded by guesswork. The actual reposit
 ### Research B
 
 - [x] **Research B overview** — `Nursing app master plan/nursing preset topics/Anki Deck Topic Hierarchy/05 PALMER/Research B/OVERVIEW.md` — FILE PRESENT / READ-BACK CHECKED. Direct file: [OVERVIEW.md](./Research%20B/OVERVIEW.md).
-- [x] **Analysis** — `Nursing app master plan/nursing preset topics/Anki Deck Topic Hierarchy/05 PALMER/Research B/Analysis` — **FILE PRESENT / READ-BACK CHECKED**. File: [RESEARCH.md](./Research%20B/Analysis/RESEARCH.md). Includes topic-specific study notes and references; final claim-level source/currency audit remains pending. Last checked: 2026-10-17. Next: final source/link QA.
-- [x] **Descriptive Analysis** — `Nursing app master plan/nursing preset topics/Anki Deck Topic Hierarchy/05 PALMER/Research B/Analysis/Descriptive Analysis` — **FILE PRESENT / READ-BACK CHECKED**. File: [RESEARCH.md](./Research%20B/Analysis/Descriptive%20Analysis/RESEARCH.md). Includes topic-specific study notes and references; final claim-level source/currency audit remains pending. Last checked: 2026-10-17. Next: final source/link QA.
-- [x] **Inferential Analysis** — `Nursing app master plan/nursing preset topics/Anki Deck Topic Hierarchy/05 PALMER/Research B/Analysis/Inferential Analysis` — **FILE PRESENT / READ-BACK CHECKED**. File: [RESEARCH.md](./Research%20B/Analysis/Inferential%20Analysis/RESEARCH.md). Includes topic-specific study notes and references; final claim-level source/currency audit remains pending. Last checked: 2026-10-17. Next: final source/link QA.
+- [ ] **Analysis — NEEDS REVIEW** — expanded the analysis workflow, method/data-type matching, uncertainty, bias/missingness, transparent reporting, and clinical interpretation. Saved and reopened from GitHub (2026-10-17). Sources checked: NIST, Cochrane Chapters 6/10/15, and EQUATOR. Remaining: complete claim/link audit.
+- [ ] **Descriptive Analysis — NEEDS REVIEW** — expanded data-type-appropriate summaries, central tendency/spread, visual displays, data-quality checks, denominator cautions, and limits of descriptive inference. Saved and reopened from GitHub (2026-10-17). Sources checked: NIST and Cochrane Chapters 6/15. Remaining: complete claim/link audit.
+- [ ] **Inferential Analysis — NEEDS REVIEW** — expanded parameters/estimates, CI/SE/p-values, effect sizes, methods, assumptions, confounding/missingness, and clinical interpretation. Saved and reopened from GitHub (2026-10-17). Sources checked: NIST confidence-interval guidance and Cochrane Chapters 6/15. Remaining: complete claim/link audit.
 - [ ] **Basic Concepts in Research — NEEDS REVIEW** — expanded research cycle, core concepts, quantitative/qualitative/mixed-methods distinctions, evidence interpretation, ethics, and Philippine context. Saved and reopened from GitHub (2026-10-17). Sources checked: PHREB 2022 guideline listing, Cochrane Handbook, EQUATOR, and NIST statistical handbook. Remaining: full source/link and claim review.
 - [ ] **Definitions in Research — NEEDS REVIEW** — expanded a structured glossary covering questions, population/sampling, variables, measurement, statistics, designs, ethics, and reporting. Saved and reopened from GitHub (2026-10-17). Sources checked: PHREB, RA 10173, Cochrane, NIST, and EQUATOR resources. Remaining: full source/link and claim review.
 - [ ] **Importance of Research — NEEDS REVIEW** — expanded practice contributions, evidence-based practice integration, limitations, research integrity, and Philippine context. Saved and reopened from GitHub (2026-10-17). Sources checked: PHREB, Cochrane, EQUATOR, and WHO clinical-trial transparency resources. Remaining: complete source/link audit.
@@ -241,6 +241,14 @@ PALMER's intended meaning has not been expanded by guesswork. The actual reposit
 
 - Updated `OBSIDIAN MIND MAP.md` to show 20/76 files expanded/reopened and 56 topics remaining for deeper audit/expansion.
 - Saved and reopened the map from GitHub; hierarchy and links were preserved.
+
+## Active execution update — batch 8 — 2026-10-17
+
+- Expanded and reopened three further topic files: `Research B/Analysis/RESEARCH.md`, `Research B/Analysis/Descriptive Analysis/RESEARCH.md`, and `Research B/Analysis/Inferential Analysis/RESEARCH.md`.
+- The general analysis file now covers the full analysis workflow, matching methods to question/data, missingness, bias, effect estimates, uncertainty, and transparent reporting. Descriptive Analysis adds data-type-specific summaries and interpretation caveats. Inferential Analysis clarifies estimates, confidence intervals, standard errors, p-values, effect size, assumptions, and why statistical results do not replace clinical interpretation.
+- Checked NIST confidence-interval material, Cochrane Handbook Chapters 6, 10, and 15, and EQUATOR reporting resources. All three files were saved and reopened from GitHub.
+- All three remain **NEEDS REVIEW** pending complete source/link validation.
+- Deep-audit count: **23 topic files expanded and reopened**; **53 of 76 nested topic folders remain** for deeper audit/expansion. The mind map requires refresh from 20 to 23.
 
 ## New research-standard adoption — 2026-10-17
 - Re-read the complete current [RESEARCH TOPIC GUIDE.md](./RESEARCH%20TOPIC%20GUIDE.md) after the repository update. This full version supersedes the earlier shorter standard for all further PALMER work.
