@@ -1,37 +1,80 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Share, View } from 'react-native';
-import type { AppState, ProviderName } from '../core/types';
-import { DEFAULT_MODELS } from '../ai/provider';
+import type { AppState } from '../core/types';
+import { applyImport, validateBackup, type BackupResult } from '../core/backup';
 import { exportJson } from '../storage';
-import { Btn, Card, Field, H, P } from './kit';
+import { KeySetup } from './Onboarding';
+import { Btn, Card, Field, H, P, Pill, c, sp } from './kit';
 
 export function Settings({ state, update }: { state: AppState; update: (s: AppState) => void }) {
-  const set = state.settings;
-  const patch = (p: Partial<typeof set>) => update({ ...state, settings: { ...set, ...p } });
-  const pick = (provider: ProviderName) => patch({ provider, model: DEFAULT_MODELS[provider] });
+  const [raw, setRaw] = useState('');
+  const [checked, setChecked] = useState<BackupResult | null>(null);
+  const [done, setDone] = useState(false);
+
+  const check = () => {
+    setDone(false);
+    setChecked(validateBackup(raw));
+  };
+  const confirmImport = () => {
+    if (!checked || !checked.ok) return;
+    update(applyImport(state, checked.state));
+    setChecked(null);
+    setRaw('');
+    setDone(true);
+  };
+
   return (
-    <View style={{ gap: 14 }}>
+    <View style={{ gap: sp.md }}>
       <Card>
         <H>AI provider</H>
         <P dim>Paste your own key. It stays on this phone and is left out of exports.</P>
-        <View style={{ flexDirection: 'row', gap: 8 }}>
-          <Btn label="Claude" kind={set.provider === 'anthropic' ? 'primary' : 'ghost'} onPress={() => pick('anthropic')} />
-          <Btn label="ChatGPT" kind={set.provider === 'openai' ? 'primary' : 'ghost'} onPress={() => pick('openai')} />
-        </View>
-        <Field
-          label="API key"
-          value={set.apiKey}
-          onChangeText={(apiKey) => patch({ apiKey })}
-          secureTextEntry
-          autoCapitalize="none"
-          autoCorrect={false}
-          placeholder={set.provider === 'anthropic' ? 'sk-ant-...' : 'sk-...'}
+        <KeySetup
+          settings={state.settings}
+          onChange={(settings) => update({ ...state, settings })}
+          onRemove={() => update({ ...state, settings: { ...state.settings, apiKey: '' } })}
         />
-        <Field label="Model" value={set.model} onChangeText={(model) => patch({ model })} autoCapitalize="none" />
       </Card>
       <Card>
         <H>Backup</H>
         <Btn label="Export my data (no key)" kind="ghost" onPress={() => void Share.share({ message: exportJson(state) })} />
+      </Card>
+      <Card>
+        <H>Import a backup</H>
+        <P dim>Paste text from an earlier export. It replaces your notes and progress, so check it first. Your key is kept.</P>
+        <Field
+          label="Backup text"
+          value={raw}
+          onChangeText={(t) => {
+            setRaw(t);
+            setChecked(null);
+            setDone(false);
+          }}
+          multiline
+          autoCapitalize="none"
+          autoCorrect={false}
+          style={{ minHeight: 96, textAlignVertical: 'top' }}
+        />
+        <Btn label="Check backup" kind="ghost" disabled={!raw.trim()} onPress={check} />
+        {checked && !checked.ok ? (
+          <View style={{ gap: sp.xs }} accessibilityLiveRegion="polite">
+            <Pill text="Not valid" color={c.bad} />
+            {checked.errors.slice(0, 5).map((e) => (
+              <P key={e}>{e}</P>
+            ))}
+          </View>
+        ) : null}
+        {checked && checked.ok ? (
+          <View style={{ gap: sp.sm }} accessibilityLiveRegion="polite">
+            <Pill text="Looks valid" color={c.good} />
+            <P>
+              Found {checked.summary.topics} topics, {checked.summary.sources} sources, {checked.summary.events} answers.
+              Importing replaces what is on this phone now.
+            </P>
+            <Btn label="Replace my data with this backup" kind="danger" onPress={confirmImport} />
+            <Btn label="Cancel" kind="ghost" onPress={() => setChecked(null)} />
+          </View>
+        ) : null}
+        {done ? <P>Backup imported.</P> : null}
       </Card>
     </View>
   );
