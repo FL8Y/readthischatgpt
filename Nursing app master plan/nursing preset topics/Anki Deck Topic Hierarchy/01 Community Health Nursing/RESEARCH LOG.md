@@ -10,9 +10,9 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 65 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, BCG, Maternal and Child Health, Health and Sanitation Laws, Pentavalent Vaccine, Elements of Primary Health Care, Other Vaccines, Food Sanitation, Vaccine Table, Locally-Endemic Diseases, Active Management of Third Stage of Labor, FHSIS, Epidemiology, Population Pyramid, Vital Statistics, Incidence vs Prevalence Rates, and Common Vital Statistics, and Swaroops, Sex Ratio, and EINC, and Vital Statistics Basic Concepts, and Newborn Screening, and Reproductive Health, and VAWC, and BEmOC and CEmOC, TT, Activities, Exercise, and People Behind CHN, Functions of DOH, Emergency Services, NCD, Prioritization, Assessment, and Scoring, and Planning, and Implementation, and Goal Setting, and Evaluation, and Family ADPIE.
+- **Substantive topic drafts expanded:** 66 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, BCG, Maternal and Child Health, Health and Sanitation Laws, Pentavalent Vaccine, Elements of Primary Health Care, Other Vaccines, Food Sanitation, Vaccine Table, Locally-Endemic Diseases, Active Management of Third Stage of Labor, FHSIS, Epidemiology, Population Pyramid, Vital Statistics, Incidence vs Prevalence Rates, and Common Vital Statistics, and Swaroops, Sex Ratio, and EINC, and Vital Statistics Basic Concepts, and Newborn Screening, and Reproductive Health, and VAWC, and BEmOC and CEmOC, TT, Activities, Exercise, and People Behind CHN, Functions of DOH, Emergency Services, NCD, Prioritization, Assessment, and Scoring, and Planning, and Implementation, and Goal Setting, and Evaluation, and Family ADPIE, and Stop Smoking.
 - **Topics verified complete:** 0
-- **Folders still requiring substantive topic-specific expansion:** 12 (all 77 have a notes file, but most remain initial starter notes).
+- **Folders still requiring substantive topic-specific expansion:** 11 (all 77 have a notes file, but most remain initial starter notes).
 - **Drafts awaiting source/content verification:** 64
 - **Research notes present:** 77/77; this is file presence, not research completion.
 - **Completion:** 0% verified topic research. No topic is marked Verified Complete.
@@ -103,8 +103,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
 - [x] **Stop Smoking** — `CHN, PHC/Health Promotion/Stop Smoking`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: tobacco health risks; 5As and 5Rs; behavioral support; medication-safety boundaries; withdrawal/relapse; special populations; second-hand smoke; Philippine law; nursing responsibilities; monitoring; PNLE distinctions; sources.  
+  Sources consulted: WHO Tobacco fact sheet; WHO clinical treatment guideline for tobacco cessation in adults (2024); RA 9211 Tobacco Regulation Act; RA 10643 Graphic Health Warnings Law; EO 26 (2017) smoke-free environments. Important facts covered: tobacco/second-hand smoke risks; 5As/5Rs; evidence-based counseling and clinician-guided pharmacotherapy; relapse support; current-protocol and legal caveats. Research file: `CHN, PHC/Health Promotion/Stop Smoking/RESEARCH NOTES.md` (13,372 characters; reopened after save). Unresolved issues: current Philippine cessation-service availability, medication access and legal amendments/local ordinances require direct review. Last action: replaced generic 3,673-character PHC starter with substantive smoking-cessation research and reopened saved file (2026-10-17). Next action: continue with the next health-promotion topic and verify current local service/legal details.
 - [x] **Magna Carta of Public Health Workers** — `CHN, PHC/Magna Carta of Public Health Workers`  
   Status: **Drafted — Needs Verification** | Required sections: RA 7305 purpose/scope; eligibility caveats; broad rights/conditions areas; distinction from RA 7160/RA 11223/professional scope; occupational safety; practical verification workflow; PNLE points; primary sources.  
   Sources consulted: RA 7305 Lawphil; RA 7160 Lawphil; RA 11223 Supreme Court E-Library; official DOH and CSC portals. Important facts covered: coverage depends on statutory definitions and current rules; specific benefits/amounts/eligibility are not guessed. Research file: `CHN, PHC/Magna Carta of Public Health Workers/RESEARCH NOTES.md` (9,112 characters; reopened after save). Unresolved issues: current IRR/amendments and compensation/eligibility guidance require direct review. Last action: replaced generic starter with substantive legal-reference draft (2026-10-17). Next action: continue remaining CHN topics and verify current legal details.
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 65/77; all 65 remain Drafted — Needs Verification..
-- **Folders still requiring substantive expansion:** 12/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** 66/77; all 66 remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** 11/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -1182,3 +1182,15 @@ Every directory below was present in the repository's recursive tree at the init
 - Sources listed: WHO–UNICEF PHC Operational Framework (2020); RA 11223 Universal Health Care Act. Exact family nursing scoring/prioritization weights are delegated to their child files and must be verified against the assigned course text.
 - Status: **Drafted — Needs Verification**, not Verified Complete. Final source/link and course-specific framework checks remain.
 - Next action: continue remaining individual CHN folders and verify sources.
+
+
+## Research Cycle Log — 2026-10-17 (Stop Smoking)
+
+- Re-read the full mandatory CHN research standard and inspected the Stop Smoking child folder.
+- Replaced the 3,673-character generic PHC starter with a 13,372-character topic-specific note covering tobacco risks, 5As/5Rs, behavioral support, clinician-guided pharmacotherapy, withdrawal/relapse, special populations, second-hand smoke, Philippine laws, nursing responsibilities and evaluation.
+- Sources consulted: WHO Tobacco fact sheet; WHO clinical treatment guideline for tobacco cessation in adults (2024); RA 9211; RA 10643; EO 26 (2017).
+- Reopened the saved file from GitHub and confirmed 13,372 characters, 5As and the 2024 WHO cessation guideline reference.
+- Limitations: current Philippine cessation-service availability, medication access, legal amendments and local ordinances were not reviewed page by page.
+- Status: **Drafted — Needs Verification**, not Verified Complete.
+- Coverage reconciliation: 66/77 folders have substantive drafts, 11/77 still require substantive expansion, and 0/77 are verified complete.
+- Next action: continue with the next individual Health Promotion topic and verify current local service/legal details.
