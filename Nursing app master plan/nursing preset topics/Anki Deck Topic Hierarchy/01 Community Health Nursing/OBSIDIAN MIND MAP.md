@@ -147,7 +147,7 @@ These are review prompts, not folders already verified as present:
     - [[Active Management of Third Stage of Labor]] — **Drafted — Needs Verification**
   - [[Target Setting]] — **Drafted — Needs Verification**
 
-All other topic folders require their own substantive research and logged verification. See [[RESEARCH LOG]] for the per-folder checklist and remaining work. The existence of a node or research file does not imply completion.
+All 77 topic folders now have substantive research notes and checklist entries. Current status: 74 Drafted — Needs Verification, 3 Drafted — Needs Review, 0 Verified Complete. Folder presence and wiki-link coverage do not imply factual/source verification. See [[RESEARCH LOG]] for per-folder sources, unresolved issues and next actions.
 - [[Elements of Primary Health Care]] — **Drafted — Needs Verification**
 - [[Food Sanitation]] — **Drafted — Needs Verification**
 - [[Locally-Endemic Diseases]] — **Drafted — Needs Verification**
@@ -167,3 +167,15 @@ All other topic folders require their own substantive research and logged verifi
 - [[Activities]] — **Drafted — Needs Verification**
 - [[Exercise]] — **Drafted — Needs Verification**
 - [[CHN, PHC]] — **Drafted — Needs Verification**
+
+
+## Recursive Coverage Status — 2026-10-17
+
+- Topic folders: 77
+- Research notes present: 77/77
+- Substantive research coverage: 77/77
+- Status: 74 Drafted — Needs Verification; 3 Drafted — Needs Review
+- Verified Complete: 0/77
+- Checklist reconciliation: 77/77 unique topic-folder paths; no folder missing from the checklist
+- Mind-map coverage: 144 wiki-links; all 77 topic-folder leaf names represented
+- Remaining work: verify citations, source links, current Philippine guidance, and each topic's factual claims; run a final recursive verification audit before marking any topic complete.
