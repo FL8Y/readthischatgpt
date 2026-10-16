@@ -1240,3 +1240,14 @@ Every directory below was present in the repository's recursive tree at the init
 - Status: **Drafted — Needs Verification**, not Verified Complete.
 - Coverage reconciliation: 70/77 folders have substantive drafts, 7/77 still require substantive expansion, and 0/77 are verified complete.
 - Next action: continue with the remaining low-content topic files and verify current local program guidance.
+
+
+## Research Cycle Log — 2026-10-17 (Health Promotion parent)
+
+- Applied the mandatory standard to the individual Health Promotion parent folder and expanded the generic starter note.
+- Expanded `CHN, PHC/Health Promotion/Health Promotion/RESEARCH NOTES.md` from 3,681 characters to 11,206 characters.
+- Covered definition/scope; distinction from health education and disease prevention; Ottawa Charter five action areas; equity/determinants; community participation; intervention planning; behavior-change support without blame; settings; evaluation; ethics/safety; Philippine context and PNLE distinctions.
+- Sources consulted: WHO Ottawa Charter (1986); WHO–UNICEF PHC Operational Framework (2020); RA 11223.
+- Reopened the saved file and confirmed 11,206 characters plus Ottawa Charter and evaluation sections.
+- Status: **Drafted — Needs Verification**, not Verified Complete. Current Philippine DOH health-promotion program materials and local policies require direct review.
+- Next action: continue the remaining CHN folders and verify sources.
