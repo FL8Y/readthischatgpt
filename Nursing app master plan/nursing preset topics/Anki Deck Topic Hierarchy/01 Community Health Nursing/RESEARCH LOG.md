@@ -10,10 +10,10 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 49 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, BCG, Maternal and Child Health, Health and Sanitation Laws, Pentavalent Vaccine, Elements of Primary Health Care, Other Vaccines, Food Sanitation, Vaccine Table, Locally-Endemic Diseases, Active Management of Third Stage of Labor, FHSIS, Epidemiology, Population Pyramid, Vital Statistics, Incidence vs Prevalence Rates, and Common Vital Statistics, and Swaroops, Sex Ratio, and EINC, and Vital Statistics Basic Concepts, and Newborn Screening, and Reproductive Health.
+- **Substantive topic drafts expanded:** 50 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, BCG, Maternal and Child Health, Health and Sanitation Laws, Pentavalent Vaccine, Elements of Primary Health Care, Other Vaccines, Food Sanitation, Vaccine Table, Locally-Endemic Diseases, Active Management of Third Stage of Labor, FHSIS, Epidemiology, Population Pyramid, Vital Statistics, Incidence vs Prevalence Rates, and Common Vital Statistics, and Swaroops, Sex Ratio, and EINC, and Vital Statistics Basic Concepts, and Newborn Screening, and Reproductive Health, and VAWC.
 - **Topics verified complete:** 0
-- **Folders still requiring substantive topic-specific expansion:** 28 (all 77 have a notes file, but most remain initial starter notes).
-- **Drafts awaiting source/content verification:** 48
+- **Folders still requiring substantive topic-specific expansion:** 27 (all 77 have a notes file, but most remain initial starter notes).
+- **Drafts awaiting source/content verification:** 50
 - **Research notes present:** 77/77; this is file presence, not research completion.
 - **Completion:** 0% verified topic research. No topic is marked Verified Complete.
 - **Mind map:** Existing Obsidian map reflects the folder hierarchy; status annotations, links and coverage audit still required.
@@ -232,8 +232,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
 - [x] **VAWC** — `Elements of Primary Health Care/Maternal and Child Health/VAWC`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: definition/scope; survivor-centred LIVES first-line support; immediate danger/clinical priorities; safe inquiry; documentation/confidentiality; child protection; Philippine laws; referral; nursing ethics; community prevention; PNLE distinctions; sources.  
+  Sources consulted: WHO clinical handbook for women subjected to IPV/sexual violence (2014); WHO clinical/policy guidelines (2013); RA 9262; RA 7610; RA 11313; RA 10173. Important facts covered: survivor safety/autonomy; objective documentation; confidentiality limits; legal reporting duties must be checked case by case; urgent care before routine reporting. Research file: `Elements of Primary Health Care/Maternal and Child Health/VAWC/RESEARCH NOTES.md` (14,860 characters; reopened after save). Unresolved issues: current implementing rules, reporting duties and local referral pathways need direct verification. Last action: replaced generic maternal-child starter text with substantive VAWC-specific research (2026-10-17). Next action: verify current legal/referral sources and continue remaining MCH topics.
 - [x] **Nutrition** — `Elements of Primary Health Care/Nutrition`  
   Status: **Drafted — Needs Verification** | Required sections: malnutrition forms and anthropometric distinctions; assessment/growth monitoring; life-course prevention; Philippine nutrition education; referral/red flags; medication/supplement safety; evaluation; PNLE distinctions; sources.  
   Sources consulted: WHO Malnutrition fact sheet (2024); WHO Child Growth page; WHO/UNICEF/World Bank Joint Child Malnutrition Estimates page; DOH CHD Region II Nutrition Program page (2026); DOST-FNRI Pinggang Pinoy page. Important facts covered: wasting/stunting/underweight distinctions; correct age-specific standards; edema/red flags; food security and intersectoral action; safe-use caveats for supplements/therapeutic feeding. Research file: `Elements of Primary Health Care/Nutrition/RESEARCH NOTES.md` (16,064 characters; reopened after save). Unresolved issues: final direct-link/full-text review; exact thresholds and interventions must be verified in current Philippine program protocols. Last action: expanded generic 2,263-character starter note into substantive research and reopened saved file (2026-10-17). Next action: continue to the next individual topic folder, then verify sources/content before marking complete.
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 49/77; all 49 remain Drafted — Needs Verification.
-- **Folders still requiring substantive expansion:** 28/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** 50/77; all fifty remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** 27/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -905,3 +905,14 @@ Every directory below was present in the repository's recursive tree at the init
 - Status: **Drafted — Needs Verification**, not Verified Complete.
 - Coverage reconciliation: 49/77 folders have substantive drafts, 28/77 still require substantive expansion, and 0/77 are verified complete.
 - Next action: continue with the next individual child folder; maintain the log/mind map and verify current legal/clinical details.
+
+
+## Research Cycle Log — 2026-10-17 (VAWC)
+
+- Applied the mandatory standard to the individual VAWC folder and replaced its generic maternal-child starter note with VAWC-specific research.
+- Expanded `Elements of Primary Health Care/Maternal and Child Health/VAWC/RESEARCH NOTES.md` from 2,345 characters to 14,860 characters.
+- Covered survivor-centred LIVES first-line support; immediate danger and urgent care; safe inquiry; documentation/confidentiality; child protection; Philippine legal framework (RA 9262, RA 7610, RA 11313 and RA 10173); referrals; nursing ethics; community prevention and PNLE distinctions.
+- Sources consulted: WHO clinical handbook (2014); WHO clinical/policy guidelines (2013); primary Philippine legal texts.
+- Reopened the saved file and confirmed 14,860 characters plus LIVES and RA 9262 coverage.
+- Status: **Drafted — Needs Verification**, not Verified Complete. Current implementing rules, case-specific reporting duties and local referral pathways require direct verification.
+- Next action: continue the remaining maternal/child health topic folders and maintain source/link verification.
