@@ -1,5 +1,6 @@
 import type { ProviderName, Question, Settings, Topic } from '../core/types';
 import { extractJson } from '../core/provenance';
+import { pnleExtras } from '../core/questionParse';
 
 export const DEFAULT_MODELS: Record<ProviderName, string> = {
   openai: 'gpt-4.1-mini',
@@ -79,13 +80,16 @@ export function parseQuestions(raw: string, topicId: string, idPrefix: string): 
       q.answerIndex < q.choices.length &&
       typeof q.rationale === 'string';
     if (ok) {
+      const ex = pnleExtras(q, q.choices.length, q.answerIndex); // old-format items pass through unchanged
+      if (ex.drop) continue;
       out.push({
         id: `${idPrefix}-${out.length}`,
         topicId,
-        stem: q.stem,
+        stem: ex.stem,
         choices: q.choices,
         answerIndex: q.answerIndex,
-        rationale: q.rationale,
+        rationale: ex.rationale,
+        ...ex.fields,
       });
     }
   }

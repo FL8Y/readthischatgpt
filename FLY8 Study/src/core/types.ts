@@ -67,6 +67,21 @@ export interface Question {
   pairs?: { left: string; right: string }[];
   /** ordering: items in the CORRECT order. The UI shuffles them; grading uses canonical positions. */
   items?: string[];
+  /**
+   * PNLE-style extras (all optional; old saved questions have none). When the AI sent a vignette, the parser
+   * composes `stem` as `vignette + blank line + stem`, so every consumer of `stem` already shows the full case.
+   */
+  vignette?: string;
+  /** Reasoning strategy that decides the item, e.g. "Maslow: physiological first". Shown as a chip after answering. */
+  strategy?: string;
+  /** PNLE test area tag: NP1..NP5 or 'any'. */
+  area?: string;
+  /** Archetype id the item was written from. */
+  archetype?: string;
+  /** One explanation per choice (same order as `choices`), correct one included. */
+  optionRationales?: string[];
+  /** Longer "how to think about it" text, shown collapsed. */
+  reasoning?: string;
 }
 
 export type AttemptKind = 'diagnostic' | 'pop' | 'module' | 'review';
