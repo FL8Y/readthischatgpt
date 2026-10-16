@@ -330,7 +330,7 @@ These are scores for planning readiness, not for a working application.
 - APKG builder tests, FSRS scheduler tests and Gizmo TypeScript typecheck remain unrun in this environment because a local checkout attempt could not resolve GitHub. Historical report counts remain documentation, not fresh test results.
 - No live Claude Code/Ruflo agents were spawned in this ChatGPT session; the work-package design is present but independent agent consensus is not claimed.
 - The raw 1,790-row manifest is available in the Library and its row count/byte total match the upload log; however, a full path/size/CRC reconciliation against the Git tree remains outstanding. The original split archive files and raw apktool.yml are not in the current GitHub evidence set.
-- The mastery thresholds are provisional and need independent learning-science review. The ten mastery fixtures now have explicit expected outcomes, but independent review and executable test receipts remain outstanding.
+- The mastery thresholds are provisional and need independent learning-science review. The ten mastery fixtures now have explicit expected outcomes; the UX state matrix also has acceptance IDs. Independent review and executable test receipts remain outstanding.
 
 ### Current score trace
 Cycle 6's provisional score was **790/1,000**; Cycle 7 later found its category weights summed to 1,050 and superseded that score. The corrected scorecard and hard gates now live in this QA review. Security is not the main scoring driver; source integrity, learning behavior, architecture, requirements and QA evidence carry the majority of the weight.
@@ -373,7 +373,7 @@ Two standalone score artifacts were added briefly and then removed by subsequent
 
 ### Evidence-weighted 1000-point scorecard
 
-**Current audited score: 794/1,000 (79.4%). Target: 1,000/1,000. Verdict: NOT 10/10.** Scores reward specification quality and verifiable evidence; they do not imply that the app is implemented or runtime-tested. Cycle 6's provisional 820 figure is superseded: Cycle 7 caught that the former category weights summed to 1,050, not 1,000. The score has been recalculated with a corrected 1,000-point weighting; this is a scoring correction, not a quality regression.
+**Current audited score: 799/1,000 (79.9%). Target: 1,000/1,000. Verdict: NOT 10/10.** Scores reward specification quality and verifiable evidence; they do not imply that the app is implemented or runtime-tested. Cycle 6's provisional 820 figure is superseded: Cycle 7 caught that the former category weights summed to 1,050, not 1,000. The score has been recalculated with a corrected 1,000-point weighting; this is a scoring correction, not a quality regression.
 
 | Category | Weight | Current | Evidence-based reason points are not yet full |
 |---|---:|---:|---|
@@ -382,7 +382,7 @@ Two standalone score artifacts were added briefly and then removed by subsequent
 | Architecture coherence and decisions | 125 | 92 | Recommended defaults and alternatives exist; device matrix, provider support/cost, scheduler selection and empirical constraints remain unverified. |
 | Learning system and mastery | 125 | 105 | Diagnostic gate, evidence rules, deterministic plan order and scenario classes are explicit; thresholds are provisional and need independent learning-science review plus frozen fixture outputs. |
 | Data model and service contracts | 100 | 90 | Canonical IDs, event history, answer-key boundary, idempotency, concurrency, migrations and exact mastery aggregation are specified; no executable contract tests ran. |
-| UX, accessibility and recovery | 75 | 60 | Main journeys and accessibility/recovery requirements are specified; screen-state inventory, usability evidence and assistive-tech/device checks remain. |
+| UX, accessibility and recovery | 75 | 65 | Main journeys now include a cross-screen loading/empty/error/offline/cancel/resume matrix and six UX-state oracles; wireframes, usability evidence and assistive-tech/device checks remain. |
 | Nursing-content reliability | 75 | 60 | Source provenance and unsafe/unsupported-content handling are specified; authoritative source-class policy and independent clinical review remain. |
 | QA and reproducibility | 100 | 50 | Full report page counts and the first 1,000 manifest-entry comparison are verified; rows 1000–1789 remain to be reconciled, and reference tests/typecheck could not run in this environment. |
 | Agent coordination and handoffs | 75 | 60 | Work packages, ownership, evidence labels and boundaries are explicit; no live independent Claude Code agent review was run in this session. |
