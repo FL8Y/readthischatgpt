@@ -67,6 +67,7 @@ The dashboard should prioritize the next recommended action, due reviews, curren
 5. Distinguish invalid key, unsupported model, quota/rate limit, no network and provider outage.
 6. Provide key change/removal and privacy/data-retention information.
 7. Never imply local encryption makes a key impossible to extract from a compromised device.
+8. If the key is missing/invalid, show a recoverable setup state or an explicitly limited/offline mode. That mode may support saved content and existing due-card reviews, but must not silently bypass a required diagnostic before teaching a new scope. If no valid diagnostic question set can be generated or retrieved, preserve the session and clearly explain how to unblock it.
 
 ### 3.2 Import study material
 1. Select an explicitly supported input format.
@@ -137,7 +138,7 @@ The hierarchy should represent Subjects → Modules → Topics → Subtopics. A 
 ## 5. Learning model and mastery rules
 
 ### Diagnostic
-A diagnostic estimates prior knowledge. It should sample the selected scope according to a coverage blueprint, avoid near-duplicate questions, enforce the requested count and distinguish low-information results from mastery evidence. Guessing and small sample size reduce confidence. Diagnostic scores are learning signals, not clinical competency certification.
+A diagnostic is a strict gate before first teaching in the selected scope, not an optional suggestion. It estimates prior knowledge and must sample the scope according to a coverage blueprint, contain 1–50 questions, avoid near-duplicate questions, and distinguish low-information results from mastery evidence. Interrupted sessions resume without losing attempts or silently restarting. There is no silent skip in the normal first-learning path; a review-only mode may revisit previously taught material but cannot unlock new lessons. Guessing and small sample size reduce confidence. Diagnostic scores are learning signals, not clinical competency certification.
 
 ### Personalized teaching
 The learning plan should prioritize gaps, prerequisite dependencies, supplied-source coverage and confidence in evidence. Explain why each topic is selected. Avoid repeatedly assigning content already understood while neglecting persistent weaknesses. Use examples, mnemonics or visual aids when useful, not as replacements for accurate understanding.
