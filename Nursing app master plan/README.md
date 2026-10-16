@@ -20,6 +20,7 @@ Central workspace for organizing research, making architecture decisions, and co
 
 - The blueprint folder is the single planning authority for requirements, decisions, agent prompts, contracts, and implementation gates.
 - The current phase is research and architecture planning; do not build the app yet.
+- See [Blueprint Cleanup Log](./App%20Master%20Plan%20Blue%20Print/CLEANUP_LOG.md) for the audited consolidation of planning documents; research folders and the incomplete archive transfer remain untouched.
 - Separate observed evidence from inference and proposals.
 - The App 1 upload log records incomplete/blocked transfer work. Do not claim the source archive is fully transferred until the original manifest is reconciled with the Git tree.
 - Keep an audit trail for any separately authorized repository cleanup.
