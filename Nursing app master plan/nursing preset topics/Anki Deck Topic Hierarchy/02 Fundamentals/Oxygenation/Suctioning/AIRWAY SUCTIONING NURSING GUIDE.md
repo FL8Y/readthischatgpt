@@ -8,7 +8,7 @@ Suctioning removes secretions that the patient cannot clear effectively. Assess 
 ## Before suctioning
 - Verify indication, patient identity, route/order/protocol, equipment, and relevant airway history.
 - Explain if possible, provide privacy, hand hygiene/PPE, and assess baseline respiratory effort, breath sounds, oxygenation, heart rate, hemodynamic status, and response to previous suctioning.
-- Select catheter size and suction pressure according to age, route, airway, and policy. For artificial airways, AARC recommends catheter occlusion below 50% of the endotracheal tube lumen in pediatric/adult patients and below 70% in neonates, with age-specific pressure limits.
+- Select catheter size and suction pressure according to age, route, airway, and policy. The AARC 2022 artificial-airway guideline recommends catheter occlusion below 50% of the endotracheal tube lumen in pediatric/adult patients and below 70% in neonates. It recommends limiting suction-pressure magnitude to no more than 200 mmHg in adults and 120 mmHg in neonatal/pediatric patients (the paper expresses vacuum pressure as negative values); use the more conservative facility/patient-specific limit if required. These are artificial-airway guideline values, not universal settings for every suction route.
 - Preoxygenate pediatric/adult patients with artificial airways according to AARC guidance and individualized clinical protocol. Do not improvise ventilator settings.
 
 ## Procedure principles
