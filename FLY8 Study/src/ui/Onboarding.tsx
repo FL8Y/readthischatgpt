@@ -1,21 +1,31 @@
 import React, { useState } from 'react';
-import { View } from 'react-native';
+import { Text, View } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 import type { ProviderName, Settings } from '../core/types';
 import { callModel, DEFAULT_MODELS, ProviderError } from '../ai/provider';
-import { Btn, Card, EmptyState, Field, H, P, Pill, Screen, c, sp } from './kit';
+import { Btn, Card, Chip, Field, H, Header, Illustration, P, PressableScale, Screen, TOP_INSET, sp } from './kit';
+import type { IconName } from './kit';
+import { radius, space, useTheme } from './theme';
 
 /** Short explainer used in Settings and onboarding for manual mode. */
 export function HowManualWorks() {
+  const { colors, type } = useTheme();
+  const steps = ['The app writes a full prompt for you.', 'Copy it into the ChatGPT or Claude app and send it.', 'Copy the reply and paste it back here. The app does the rest.'];
   return (
     <Card>
       <H>How it works</H>
-      <P>1. The app writes a full prompt for you.</P>
-      <P>2. Copy it into the ChatGPT or Claude app and send it.</P>
-      <P>3. Copy the reply and paste it back here. The app does the rest.</P>
-      <P dim>
+      {steps.map((t, i) => (
+        <View key={i} style={{ flexDirection: 'row', gap: space.md, alignItems: 'flex-start' }}>
+          <View style={{ width: 28, height: 28, borderRadius: radius.pill, backgroundColor: colors.accentSoft, alignItems: 'center', justifyContent: 'center' }}>
+            <Text style={[type('label', 'semibold'), { color: colors.accentText }]}>{i + 1}</Text>
+          </View>
+          <Text style={[type('body'), { color: colors.text, flex: 1 }]}>{t}</Text>
+        </View>
+      ))}
+      <Text style={[type('caption'), { color: colors.textDim }]}>
         No key and no cost beyond your chat subscription. The prompt, including your notes, goes only where you paste it. AI replies can be
         wrong, so check them against a textbook. Long requests are split into parts to fit chat limits.
-      </P>
+      </Text>
     </Card>
   );
 }
@@ -50,13 +60,13 @@ export async function testKey(settings: Settings): Promise<KeyTestState> {
   }
 }
 
-const STATUS_COLOR: Record<string, string> = {
-  ok: c.good,
-  'bad-key': c.bad,
-  'rate-limit': c.warn,
-  offline: c.warn,
-  other: c.bad,
-};
+const STATUS_TONE = {
+  ok: 'success',
+  'bad-key': 'danger',
+  'rate-limit': 'warning',
+  offline: 'warning',
+  other: 'danger',
+} as const;
 
 /** Provider choice + key field + "Test key". Used by onboarding and Settings. */
 export function KeySetup({
@@ -136,7 +146,11 @@ export function KeySetup({
       />
       {result.status !== 'idle' && result.status !== 'testing' ? (
         <View accessibilityLiveRegion="polite" style={{ gap: sp.xs }}>
-          <Pill text={result.status === 'ok' ? 'Success' : 'Problem'} color={STATUS_COLOR[result.status]} />
+          <Chip
+            text={result.status === 'ok' ? 'Success' : 'Problem'}
+            tone={STATUS_TONE[result.status]}
+            icon={result.status === 'ok' ? 'checkmark-circle' : 'alert-circle'}
+          />
           <P>{result.message}</P>
         </View>
       ) : null}
@@ -155,42 +169,104 @@ export function Onboarding({
   onSave: (next: Settings) => void;
   onSkip: () => void;
 }) {
+  const { colors, type } = useTheme();
   const [advanced, setAdvanced] = useState(false);
   const [draft, setDraft] = useState<Settings>(settings.provider === 'manual' ? { ...settings, provider: 'anthropic', model: DEFAULT_MODELS.anthropic } : settings);
   if (advanced) {
     return (
-      <Screen>
-        <EmptyState title="Use an API key" detail="Your own key stays on this phone and is never included in backups. API use is paid by usage, separately from chat subscriptions." />
-        <Card>
-          <H>Connect your AI</H>
-          <KeySetup settings={draft} onChange={setDraft} />
-          <Btn label="Save and continue" disabled={!draft.apiKey.trim()} onPress={() => onSave({ ...draft, aiChosen: true })} />
-        </Card>
-        <Btn label="Back" kind="ghost" onPress={() => setAdvanced(false)} />
-      </Screen>
+      <View style={{ flex: 1, backgroundColor: colors.bg }}>
+        <Header title="Use an API key" subtitle="Advanced" onBack={() => setAdvanced(false)} />
+        <Screen>
+          <Text style={[type('body'), { color: colors.textDim }]}>
+            Your own key stays on this phone and is never included in backups. API use is billed by usage, separately from chat subscriptions.
+          </Text>
+          <Card>
+            <H>Connect your AI</H>
+            <KeySetup settings={draft} onChange={setDraft} />
+            <Btn label="Save and continue" disabled={!draft.apiKey.trim()} onPress={() => onSave({ ...draft, aiChosen: true })} />
+          </Card>
+        </Screen>
+      </View>
     );
   }
   return (
-    <Screen>
-      <EmptyState title="How do you want to use AI?" detail="Lessons, quizzes and the tutor need an AI. You can change this later in Settings." />
-      <Card>
-        <H>Free: copy-paste with the ChatGPT or Claude app (recommended)</H>
-        <P dim>The app writes the prompt, you paste it into your chat app and paste the reply back. No key, no API bill.</P>
-        <Btn
-          label="Use copy-paste (free)"
+    <View style={{ flex: 1, backgroundColor: colors.bg }}>
+      <Screen>
+        <View style={{ height: TOP_INSET }} />
+        <View style={{ alignItems: 'center', gap: space.sm }}>
+          <Illustration kind="cards" />
+          <Text accessibilityRole="header" style={[type('title'), { color: colors.text, textAlign: 'center' }]}>
+            How do you want to use AI?
+          </Text>
+          <Text style={[type('body'), { color: colors.textDim, textAlign: 'center' }]}>
+            Lessons, quizzes and the tutor need an AI. You can change this later in Settings.
+          </Text>
+        </View>
+        <ChoiceCard
+          icon="clipboard-outline"
+          title="Copy and paste"
+          badge="Free, recommended"
+          body="The app writes the prompt. You paste it into your ChatGPT or Claude app, then paste the reply back. No key, no API bill."
+          cta="Use copy and paste"
           hint="Finishes setup with no key"
+          primary
           onPress={() => onSave({ ...settings, provider: 'manual', model: DEFAULT_MODELS.manual, apiKey: '', aiChosen: true })}
         />
-      </Card>
+        <ChoiceCard
+          icon="key-outline"
+          title="Use an API key"
+          badge="Advanced, paid by usage"
+          body="Answers arrive inside the app with no copying. Needs your own key, billed by the provider."
+          cta="Set up an API key"
+          onPress={() => setAdvanced(true)}
+        />
+        <Text style={[type('caption'), { color: colors.textDim, textAlign: 'center' }]}>
+          Either way, AI replies can be wrong, so check facts against a textbook. In copy-paste mode your notes go only where you paste the prompt.
+        </Text>
+        <Btn label="Skip for now" kind="ghost" onPress={onSkip} hint="Copy-paste mode stays on; change it later in Settings" />
+      </Screen>
+    </View>
+  );
+}
+
+/** One of the two big choices on the first screen. Whole card is tappable; the button repeats it for clarity. */
+function ChoiceCard({
+  icon,
+  title,
+  badge,
+  body,
+  cta,
+  hint,
+  primary,
+  onPress,
+}: {
+  icon: IconName;
+  title: string;
+  badge: string;
+  body: string;
+  cta: string;
+  hint?: string;
+  primary?: boolean;
+  onPress: () => void;
+}) {
+  const { colors, type } = useTheme();
+  return (
+    <PressableScale accessibilityRole="button" accessibilityLabel={`${title}. ${badge}. ${body}`} accessibilityHint={hint} onPress={onPress} scaleTo={0.985}>
       <Card>
-        <H>Advanced: use an API key (paid by usage)</H>
-        <P dim>Answers arrive inside the app with no copying. Needs your own key, billed by the provider.</P>
-        <Btn label="Set up an API key" kind="ghost" onPress={() => setAdvanced(true)} />
+        <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.md }}>
+          <View style={{ width: 44, height: 44, borderRadius: radius.md, backgroundColor: colors.accentSoft, alignItems: 'center', justifyContent: 'center' }}>
+            <Ionicons name={icon} size={24} color={colors.accentText} />
+          </View>
+          <View style={{ flex: 1, gap: 2 }}>
+            <Text style={[type('headline'), { color: colors.text }]}>{title}</Text>
+            <Chip text={badge} tone={primary ? 'success' : 'neutral'} />
+          </View>
+        </View>
+        <Text style={[type('body'), { color: colors.textDim }]}>{body}</Text>
+        <View pointerEvents="none" accessibilityElementsHidden importantForAccessibility="no-hide-descendants">
+          <Btn label={cta} kind={primary ? 'primary' : 'ghost'} onPress={onPress} />
+        </View>
       </Card>
-      <P dim>
-        Either way: AI replies can be wrong, so check facts against a textbook. In copy-paste mode your notes go only where you paste the prompt.
-      </P>
-      <Btn label="Skip for now" kind="ghost" onPress={onSkip} hint="Copy-paste mode stays on; change it later in Settings" />
-    </Screen>
+    </PressableScale>
   );
 }
