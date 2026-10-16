@@ -1,6 +1,6 @@
 # Pediatric Nursing — Obsidian Mind Map
 
- > Status as of 2026-10-17: 60/60 leaf topic folders have a `Research.md` file on branch `agent-6-pediatric-research`; 12/60 topics are verified complete (Brain Tumor, Hodgkin's lymphoma, Leukemia, Wilms tumor, Neuroblastoma, Osteosarcoma, Coarctation of the Aorta, Heart Failure, Kawasaki Disease, Patent Ductus Arteriosus, Acute Rheumatic Fever/Rheumatic Heart Disease, and Septal Defects). The remaining 48 topic files await individual source audit and reopen verification. This map indexes the hierarchy and is not evidence of research completion.
+ > Status as of 2026-10-17: 60/60 leaf topic folders have a `Research.md` file on branch `agent-6-pediatric-research`; 13/60 topics are verified complete (Brain Tumor, Hodgkin's lymphoma, Leukemia, Wilms tumor, Neuroblastoma, Osteosarcoma, Coarctation of the Aorta, Heart Failure, Kawasaki Disease, Patent Ductus Arteriosus, Acute Rheumatic Fever/Rheumatic Heart Disease, Septal Defects, and Tetralogy of Fallot). The remaining 47 topic files await individual source audit and reopen verification. This map indexes the hierarchy and is not evidence of research completion.
 
 - [[RESEARCH TOPIC GUIDE]]
 - [[RESEARCH LOG]]
