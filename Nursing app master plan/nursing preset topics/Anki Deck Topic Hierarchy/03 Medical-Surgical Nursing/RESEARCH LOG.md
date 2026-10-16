@@ -338,7 +338,7 @@ Status key: `NOT STARTED` = folder inventoried, substantive research not yet com
 
 ## Source verification register
 
-One hundred twenty-one topic-specific research draft files are present on this branch. Ten musculoskeletal drafts were committed in the latest batch. Source links are included, but source-to-claim checking, Philippine-context review and reopened-file validation remain incomplete; verified count remains zero until those checks are performed.
+One hundred thirty-one topic-specific research draft files are present on this branch. Ten musculoskeletal drafts were committed in the latest batch. Source links are included, but source-to-claim checking, Philippine-context review and reopened-file validation remain incomplete; verified count remains zero until those checks are performed.
 
 Preferred source hierarchy:
 1. Applicable current Philippine DOH, FDA Philippines, PRC/Board of Nursing, official law/regulation, and relevant Philippine specialty-society guidance.
