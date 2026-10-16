@@ -65,3 +65,28 @@ RA 9173 (Philippine Nursing Act of 2002) provides the legal framework for nursin
 
 ## Verification and limitations
 The five-rights model and role responsibilities were cross-checked against NCSBN/ANA and NCBI Bookshelf materials; Philippine framing was checked against PRC resources and the published IRR of RA 9173. Verify current local law and facility policy before applying this educational summary clinically.
+
+
+## Practical delegation decision pathway
+
+Before delegating, ask in sequence:
+1. **Is the activity permitted?** Check Philippine law, current PRC/BON guidance, facility policy, role description, and any required order or supervision.
+2. **Does the activity require licensed nursing judgment?** Assessment/interpretation, prioritization, care planning, evaluation, and decisions about changes in condition generally require an appropriately licensed nurse.
+3. **Is the patient/situation appropriate?** Consider stability, predictability, risk, urgency, complexity, and likelihood that the task may require nursing judgment during performance.
+4. **Is the person authorized and competent now?** Confirm training, demonstrated skill, experience, workload, and willingness; job title alone is insufficient.
+5. **Can directions and reporting triggers be made clear?** State task, patient-specific limits, timing, expected result, what must be reported immediately, and documentation requirements.
+6. **Can the nurse supervise and evaluate?** Ensure resources and availability for questions, observation, reassessment, and intervention if the situation changes.
+7. **Did the outcome meet expectations?** Reassess the patient, verify completion, address concerns, and review whether the delegation decision remains appropriate.
+
+If any condition is not met, do not proceed as planned. Clarify, provide the required licensed care, arrange a qualified person, or escalate the staffing/resource issue. Do not use delegation to conceal inadequate staffing.
+
+## Scenario-based application
+
+- **Stable patient needing a routine permitted activity:** delegation may be considered only if the task is authorized, competence is verified, instructions are clear, and supervision is available.
+- **New confusion, respiratory distress, unexpected bleeding, or rapid vital-sign change:** requires prompt licensed assessment and escalation; do not delegate the judgment to an unqualified person or leave the finding for routine reporting.
+- **Delegatee reports uncertainty or refuses:** treat this as a safety signal, not insubordination; clarify and arrange appropriate care.
+- **Workload prevents supervision:** delegation may be unsafe even if the task and person are otherwise suitable; escalate the resource problem.
+
+## Philippine legal caution
+
+The five-rights model is a decision aid, not a task-by-task legal authorization. Philippine scope and accountability must be determined from current RA 9173/IRR, applicable PRC/BON guidance, DOH rules where relevant, facility policy, the actual role of the delegatee, and the patient's circumstances. Do not import a U.S. task list as Philippine law. If local authority is unclear, obtain supervisor/regulatory guidance before delegating a nonurgent task; urgent patient-safety threats require immediate action through the proper clinical chain.
