@@ -309,7 +309,7 @@ These are scores for planning readiness, not for a working application.
 ## Corrective Cycle 6 — mastery policy, decision defaults, evidence trace (2026-10-17)
 
 ### Work completed
-- Added a weighted, auditable **1000-point readiness trace** at `1000_POINT_READINESS_TRACE.md`. It explicitly separates the target from the current score and prevents a perfect-score claim while hard gates remain open.
+- A standalone weighted 1000-point readiness trace was briefly added, then removed in later repository commits. Its scoring rubric is now consolidated into this QA review; Cycle 7 records the removal and current canonical location.
 - Freshly read the complete Library versions of the Gizmo report (54/54 pages; 2,671 extracted text lines) and AnkiDroid report (35/35 pages; 1,765 extracted text lines). Corrected the App 3 README from 52 to 54 pages.
 - Reconciled the page-count discrepancy. The Gizmo minimum-SDK conflict remains real and unresolved: the report's main identity section says 34; Addendum C says 26 citing apktool.yml; the raw apktool.yml is absent from the GitHub research tree. The decoded manifest only confirms compile SDK 36 and has no `<uses-sdk>` element.
 - The parsed-text view of `FULL_ARCHIVE_MANIFEST.csv` exposed rows with indices 0–999, so the initial comparison covered only those first 1,000 entries: 218 current App 1 path matches; 216 size matches; two size mismatches; 782 first-range manifest paths absent from Git; and 62 current Git paths outside that first-range subset. A subsequent raw-byte materialization and CSV parse showed that the **raw manifest itself contains 1,790 data rows across 12 split-part names**, with unique, nonblank paths/CRCs and a listed-size total of 192,555,632 bytes matching `UPLOAD_LOG.md`. The earlier statement that the raw CSV had only 1,000 rows was wrong; the parsed-text reader was capped. A full 1,790-row path/size/CRC comparison is still outstanding, so no overall transfer-completeness claim is justified.
@@ -333,7 +333,7 @@ These are scores for planning readiness, not for a working application.
 - The mastery thresholds are provisional and need independent learning-science review. The ten mastery fixtures now have explicit expected outcomes, but independent review and executable test receipts remain outstanding.
 
 ### Current score trace
-See `1000_POINT_READINESS_TRACE.md` for the full evidence-backed scorecard. Current score is **790/1,000**, not 1,000/1,000. The plan cannot honestly receive 10/10 while the hard gates and blockers recorded there remain open. Security is not the main scoring driver; source integrity, learning behavior, architecture, requirements and QA evidence carry the majority of the weight.
+Cycle 6's provisional score was **790/1,000**; Cycle 7 later found its category weights summed to 1,050 and superseded that score. The corrected scorecard and hard gates now live in this QA review. Security is not the main scoring driver; source integrity, learning behavior, architecture, requirements and QA evidence carry the majority of the weight.
 
 **Cycle 6 verdict:** Planning quality improved materially, but a perfect score is not yet earned. Continue the next bounded review cycle; do not build the app.
 
