@@ -55,8 +55,8 @@ Every directory below was present in the repository's recursive tree at the init
   Saved-file verification: reopened after write; 21,303 characters; six phase sections, comparison of phase models, nursing responsibilities, evaluation indicators, safety/ethics and PNLE reminders confirmed.  
   Remaining: retry/replace the syllabus source, check all links and perform independent content review. Last action: expanded and reopened on 2026-10-17.
 - [x] **Clients of CHN** — `CHN, PHC/Clients of CHN`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: client levels (individual/family/group/community/system); family/community as units of care; client- and population-centred approaches; assessment; vulnerable/underserved clients; consent/privacy; prioritization/safety; Philippine context; indicators; PNLE distinctions; sources.  
+  Sources consulted: WHO–UNICEF PHC Operational Framework (2020); RA 11223 UHC Act; RA 10173 Data Privacy Act; RA 7160 Local Government Code. Important facts covered: CHN serves individuals, families, groups, populations and service systems; population averages may hide unmet need; client autonomy/privacy remain at every level. Research file: `CHN, PHC/Clients of CHN/RESEARCH NOTES.md` (11,588 characters; reopened after save). Unresolved issues: current local service and reporting protocols require verification. Last action: replaced generic starter with substantive client-level and assessment research (2026-10-17). Next action: continue remaining CHN folders and verify source details.
 - [x] **DOH** — `CHN, PHC/DOH`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
@@ -1028,3 +1028,14 @@ Every directory below was present in the repository's recursive tree at the init
 - Status: **Drafted — Needs Verification**, not Verified Complete.
 - Coverage reconciliation: 58/77 folders have substantive drafts, 19/77 still require substantive expansion, and 0/77 are verified complete.
 - Next action: continue with the next individual folder and synchronize the log/mind map after each verified save.
+
+
+## Research Cycle Log — 2026-10-17 (Clients of CHN)
+
+- Applied the mandatory standard to the individual Clients of CHN folder and replaced the generic starter note.
+- Expanded `CHN, PHC/Clients of CHN/RESEARCH NOTES.md` from 2,625 characters to 11,588 characters.
+- Covered individual/family/group/community/system client levels; family/community as units of care; client-centred vs population-centred practice; assessment and strengths; vulnerable/underserved clients; consent/privacy; safety/prioritization; Philippine context; indicators and PNLE distinctions.
+- Sources consulted: WHO–UNICEF PHC Operational Framework (2020); RA 11223; RA 10173; RA 7160.
+- Reopened the saved file and confirmed 11,588 characters plus client-level and ethics sections.
+- Status: **Drafted — Needs Verification**, not Verified Complete. Current local service/reporting rules and source links require final review.
+- Next action: continue the remaining individual CHN topic folders and recursive audit.
