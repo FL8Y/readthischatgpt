@@ -51,6 +51,9 @@ Management depends on gestational age, severity, maternal-fetal condition and lo
 ## Philippine practice considerations
 Follow current DOH maternal-health guidance and facility severe-hypertension/eclampsia protocols, including escalation pathways, magnesium monitoring and referral. International guidelines are evidence references but should not be mislabeled as Philippine policy.
 
+## Source verification note
+WHO's current pre-eclampsia fact sheet (6 October 2026) describes pre-eclampsia as a hypertensive disorder typically developing after 20 weeks and notes that magnesium sulfate reduces progression to eclampsia. Source: https://www.who.int/news-room/fact-sheets/detail/pre-eclampsia . This supports the broad clinical principle but does not verify the file's full diagnostic thresholds, antihypertensive choices, magnesium dosing, toxicity monitoring or reversal steps. Those details require checks against full WHO guidance and current Philippine protocol before completion.
+
 ## Sources
 1. American College of Obstetricians and Gynecologists (ACOG), Practice Bulletin No. 222, “Gestational Hypertension and Preeclampsia,” June 2020: https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/gestational-hypertension-and-preeclampsia
 2. ACOG, “Preeclampsia and High Blood Pressure During Pregnancy”: https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy
