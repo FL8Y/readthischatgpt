@@ -4,7 +4,7 @@ import type { ModelRequest } from './provider';
 
 const QUESTION_SHAPE =
   'Reply with JSON only: {"questions":[{"stem":string,"choices":string[],"answerIndex":number,"rationale":string}]}. ' +
-  'answerIndex is the zero-based index of the single correct choice. Write NCLEX-style items with 4 choices.';
+  'answerIndex is the zero-based index of the single correct choice. Write PNLE-style situational items with 4 choices.';
 
 /**
  * The "pre-installed prompt": every AI call carries who the learner is and where they are weak,
@@ -17,7 +17,7 @@ export function learnerProfile(state: AppState, now: number): string {
   });
   const weak = weakTopics(state.topics, state.events, now).map((p) => p.title);
   return [
-    'You are a nursing-exam tutor for one learner preparing for NP1-style exams.',
+    'You are a nursing-exam tutor for one learner preparing for the Philippine nursing licensure exam (PNLE).',
     'Be accurate. Say so when you are unsure. Prefer the learner\'s own notes; mark anything you add beyond them.',
     weak.length ? `Current weak areas, most urgent first: ${weak.join(', ')}.` : 'No weak areas identified yet.',
     'Topic mastery:',
@@ -28,7 +28,7 @@ export function learnerProfile(state: AppState, now: number): string {
 const TOPIC_QUESTION_SHAPE =
   'Reply with JSON only: {"questions":[{"topic":string,"stem":string,"choices":string[],"answerIndex":number,"rationale":string}]}. ' +
   '"topic" must be copied exactly from the topic titles given. answerIndex is the zero-based index of the single correct choice. ' +
-  'Write NCLEX-style items with 4 choices.';
+  'Write PNLE-style situational items with 4 choices.';
 
 export function diagnosticRequest(state: AppState, folderId: string, count: number, now: number): ModelRequest {
   const topics = state.topics.filter((t) => t.folderId === folderId);

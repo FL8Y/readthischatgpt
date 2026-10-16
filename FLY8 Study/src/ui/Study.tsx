@@ -3,7 +3,7 @@ import type { AppState, Folder } from '../core/types';
 import { clampDiagnosticCount, completeDiagnostic, DIAGNOSTIC_MAX } from '../core/diagnostic';
 import type { QuizSession } from '../core/quiz';
 import { callModel, parseTopicQuestions } from '../ai/provider';
-import { diagnosticRequest } from '../ai/prompts';
+import { pnleDiagnosticRequest } from '../pnle/requests';
 import { Quiz } from './Quiz';
 import { Btn, Card, Field, H, P } from './kit';
 
@@ -32,7 +32,7 @@ export function Diagnostic({ state, update, folder }: { state: AppState; update:
     try {
       const now = Date.now();
       const n = clampDiagnosticCount(Number(count));
-      const raw = await callModel(state.settings, diagnosticRequest(state, folder.id, n, now));
+      const raw = await callModel(state.settings, pnleDiagnosticRequest(state, folder.id, n, now));
       const id = `dx-${now}`;
       const questions = parseTopicQuestions(raw, folderTopics, id);
       if (!questions.length) throw new Error('The AI did not return usable questions. Try again.');

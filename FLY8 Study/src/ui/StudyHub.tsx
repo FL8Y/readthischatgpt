@@ -6,7 +6,6 @@ import { currentStreak, planOrder, rankFor, totalPoints } from '../core/mastery'
 import {
   buildPopSession,
   moduleBlueprint,
-  parseModuleQuestions,
   parseFixTopics,
   remediationPlan,
   type QuizSession,
@@ -16,7 +15,9 @@ import { callModel } from '../ai/provider';
 import { parseMixedQuestions } from '../core/questionParse';
 import { HARD_PREFIX, buildHardSession, hardRoundDone, hardRoundQuestions } from '../core/hardRound';
 import { extractJson } from '../core/provenance';
-import { mixedModuleQuizRequest, mixedPopQuizRequest, remediationRequest } from '../ai/quizPrompts';
+import { remediationRequest } from '../ai/quizPrompts';
+import { pnleModuleQuizRequest, pnlePopQuizRequest } from '../pnle/requests';
+import { parsePnleModuleQuestions } from '../pnle/parse';
 import { Diagnostic } from './Study';
 import { Quiz } from './Quiz';
 import { Btn, Card, Field, H, P, Pill, c } from './kit';
@@ -105,7 +106,7 @@ export function StudyHub({ state, update }: { state: AppState; update: (s: AppSt
       const n = Math.round(Number(popCount));
       if (!Number.isFinite(n) || n < 1 || n > 5) throw new Error('Pop quiz length must be 1-5.');
       const id = `pop-${t}-${topic.id}`;
-      const questions = parseMixedQuestions(await callModel(state.settings, mixedPopQuizRequest(state, topic, n, t)), topic.id, id);
+      const questions = parseMixedQuestions(await callModel(state.settings, pnlePopQuizRequest(state, topic, n, t)), topic.id, id);
       const built = buildPopSession(topic, questions.slice(0, n), id, t);
       if (!built.ok) throw new Error(built.error);
       setResult(null);
@@ -118,8 +119,8 @@ export function StudyHub({ state, update }: { state: AppState; update: (s: AppSt
       const t = Date.now();
       const plan = moduleBlueprint(topics, state.events, t, Math.round(Number(modCount)));
       if (!plan.ok) throw new Error(plan.error);
-      const raw = await callModel(state.settings, mixedModuleQuizRequest(state, topics, plan.value, t));
-      const built = parseModuleQuestions(extractJson(raw), topics, folder.id, `mod-${t}`, t);
+      const raw = await callModel(state.settings, pnleModuleQuizRequest(state, topics, plan.value, t));
+      const built = parsePnleModuleQuestions(extractJson(raw), topics, folder.id, `mod-${t}`, t);
       if (!built.ok) throw new Error(built.error);
       setResult(null);
       setFinished(null);

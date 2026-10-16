@@ -19,6 +19,43 @@ const strList = (x: unknown, min: number, max: number): x is string[] =>
 /** True when no two entries are equal after normalisation (a duplicate would make grading ambiguous). */
 const allDistinct = (xs: string[]) => new Set(xs.map((x) => normalizeText(x) || x)).size === xs.length;
 
+const PNLE_KEYS = ['vignette', 'strategy', 'area', 'archetype', 'optionRationales', 'reasoning'];
+const trimmed = (x: unknown): string | undefined => (typeof x === 'string' && x.trim() !== '' ? x.trim() : undefined);
+
+export type PnleExtras = { drop: true } | { drop: false; stem: string; rationale: string; fields: Partial<Question> };
+
+/**
+ * PNLE-style fields of a choice item. Items without any PNLE key come back unchanged (old data keeps working).
+ * Display rule (one approach, used everywhere): when a vignette exists the returned `stem` is
+ * `vignette + blank line + stem`; the raw vignette is also kept in `fields.vignette`.
+ * A PNLE-style item whose correct answer has no rationale (neither `rationale` nor `optionRationales[answerIndex]`) is dropped.
+ */
+export function pnleExtras(q: any, choiceCount: number, answerIndex: number): PnleExtras {
+  const styled = PNLE_KEYS.some((k) => q?.[k] !== undefined && q?.[k] !== null);
+  const rationale = typeof q?.rationale === 'string' ? q.rationale : '';
+  const stem = typeof q?.stem === 'string' ? q.stem : '';
+  if (!styled) return { drop: false, stem, rationale, fields: {} };
+  const rawOpts = q.optionRationales;
+  const optionRationales =
+    Array.isArray(rawOpts) && rawOpts.length === choiceCount && rawOpts.every((x: unknown) => trimmed(x)) ? (rawOpts as string[]) : undefined;
+  const correct = trimmed(rationale) ?? trimmed(optionRationales?.[answerIndex]);
+  if (!correct) return { drop: true };
+  const vignette = trimmed(q.vignette);
+  const fields: Partial<Question> = {};
+  if (vignette) fields.vignette = vignette;
+  const strategy = trimmed(q.strategy);
+  if (strategy) fields.strategy = strategy;
+  const area = trimmed(q.area);
+  if (area) fields.area = area;
+  const archetype = trimmed(q.archetype);
+  if (archetype) fields.archetype = archetype;
+  const reasoning = trimmed(q.reasoning);
+  if (reasoning) fields.reasoning = reasoning;
+  if (optionRationales) fields.optionRationales = optionRationales;
+  const shown = vignette ? (stem.trim() ? `${vignette}\n\n${stem.trim()}` : vignette) : stem;
+  return { drop: false, stem: shown, rationale: trimmed(rationale) ? rationale : correct, fields };
+}
+
 /**
  * Validates ONE AI question item of any kind. Returns null for anything malformed; never repairs.
  * Items without "kind" (or with "choice") follow the original choice rules exactly.
@@ -38,7 +75,10 @@ export function parseQuestionItem(q: any, topicId: string, id: string): Question
         Number.isInteger(q.answerIndex) &&
         q.answerIndex >= 0 &&
         q.answerIndex < q.choices.length;
-      return ok ? { ...base, choices: q.choices, answerIndex: q.answerIndex } : null;
+      if (!ok) return null;
+      const ex = pnleExtras(q, q.choices.length, q.answerIndex);
+      if (ex.drop) return null;
+      return { ...base, stem: ex.stem, rationale: ex.rationale, choices: q.choices, answerIndex: q.answerIndex, ...ex.fields };
     }
     case 'typing':
       return strList(q.accept, 1, ACCEPT_MAX) ? { ...base, kind, choices: [], answerIndex: 0, accept: q.accept } : null;

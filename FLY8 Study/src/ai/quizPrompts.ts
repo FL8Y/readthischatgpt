@@ -7,7 +7,7 @@ import { learnerProfile } from './prompts';
 const MODULE_SHAPE =
   'Reply with JSON only: {"questions":[{"topic":string,"stem":string,"choices":string[],"answerIndex":number,"rationale":string}]}. ' +
   '"topic" must be copied exactly from the topic titles given. answerIndex is the zero-based index of the single correct choice. ' +
-  'Write NCLEX-style items with 4 choices. Produce exactly the requested number of questions per topic.';
+  'Write PNLE-style situational items with 4 choices. Produce exactly the requested number of questions per topic.';
 
 export function moduleQuizRequest(state: AppState, topics: Topic[], blueprint: BlueprintItem[], now: number): ModelRequest {
   const byId = new Map(topics.map((t) => [t.id, t]));
@@ -41,17 +41,21 @@ export function remediationRequest(state: AppState, weak: RemediationItem[], top
   };
 }
 
-/** Exact JSON shape per kind. Mostly choice; the others add variety (Gizmo-style) without replacing it. */
-export const MIXED_KINDS_SHAPE =
-  'Mix question kinds: about 70% "choice", and the rest from "typing", "cloze", "matching", "ordering". ' +
-  'Every item has "stem" and "rationale" (strings) and "kind". Exact shapes:\n' +
-  '- choice: {"kind":"choice","stem":string,"choices":string[4],"answerIndex":number,"rationale":string}\n' +
+/** Shapes for the non-choice kinds, shared by the plain mixed prompts and the PNLE prompts. */
+export const OTHER_KINDS_SHAPES =
   '- typing (short answer: a term or a number, never a sentence): {"kind":"typing","stem":string,"accept":string[1-8],"rationale":string}; ' +
   'accept lists every correct spelling or form; a numeric answer is a bare number with no unit, and the unit goes in the stem\n' +
   '- cloze: {"kind":"cloze","stem":string with one "____" per blank,"blanks":string[][1-6],"rationale":string}; ' +
   'blanks[i] lists the accepted answers for the i-th "____", and the count of "____" must equal blanks.length\n' +
   '- matching: {"kind":"matching","stem":string,"pairs":[{"left":string,"right":string}][2-8],"rationale":string}; all lefts distinct, all rights distinct\n' +
-  '- ordering: {"kind":"ordering","stem":string,"items":string[3-8],"rationale":string}; items listed in the CORRECT order, all distinct\n' +
+  '- ordering: {"kind":"ordering","stem":string,"items":string[3-8],"rationale":string}; items listed in the CORRECT order, all distinct\n';
+
+/** Exact JSON shape per kind. Mostly choice; the others add variety (Gizmo-style) without replacing it. */
+export const MIXED_KINDS_SHAPE =
+  'Mix question kinds: about 70% "choice", and the rest from "typing", "cloze", "matching", "ordering". ' +
+  'Every item has "stem" and "rationale" (strings) and "kind". Exact shapes:\n' +
+  '- choice: {"kind":"choice","stem":string,"choices":string[4],"answerIndex":number,"rationale":string}\n' +
+  OTHER_KINDS_SHAPES +
   'Only use typing/cloze/matching/ordering when the fact suits it; otherwise use choice. Never include answers in the stem.';
 
 const MIXED_POP_SHAPE = 'Reply with JSON only: {"questions":[...]} where each item follows one of these shapes. ' + MIXED_KINDS_SHAPE;

@@ -206,6 +206,64 @@ function answerText(q: Question, a: Answer): string {
   }
 }
 
+const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F'];
+
+/** Feedback for every option of a PNLE item: the correct one is highlighted, each wrong one says why it tempts. */
+function OptionFeedback({ q, picked }: { q: Question; picked: number | null }) {
+  const notes = q.optionRationales;
+  if (kindOf(q) !== 'choice' || !notes || notes.length !== q.choices.length) return null;
+  return (
+    <View accessibilityLabel="Why each option is right or wrong" style={{ gap: 8 }}>
+      {q.choices.map((choice, idx) => {
+        const right = idx === q.answerIndex;
+        const tag = right ? 'correct answer' : picked === idx ? 'your answer, not correct' : 'not correct';
+        return (
+          <View
+            key={idx}
+            accessible
+            accessibilityLabel={`Option ${LETTERS[idx] ?? idx + 1}, ${tag}. ${choice}. ${notes[idx]}`}
+            style={{
+              minHeight: TOUCH,
+              justifyContent: 'center',
+              gap: 4,
+              padding: 12,
+              borderRadius: 12,
+              borderWidth: 2,
+              borderColor: right ? c.good : picked === idx ? c.bad : c.line,
+              backgroundColor: right ? c.raised : c.card,
+            }}
+          >
+            <Text style={[s.p, { fontWeight: '700', color: right ? c.good : c.text }]}>
+              {LETTERS[idx] ?? idx + 1}. {choice}
+              {right ? ' (correct)' : ''}
+            </Text>
+            <P dim>{notes[idx]}</P>
+          </View>
+        );
+      })}
+    </View>
+  );
+}
+
+/** Collapsed "How to think about it" section; the text appears only after the learner opens it. */
+function Reasoning({ text }: { text: string }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <>
+      <Pressable
+        accessibilityRole="button"
+        accessibilityLabel={open ? 'Hide: how to think about it' : 'Show: how to think about it'}
+        accessibilityState={{ expanded: open }}
+        onPress={() => setOpen((o) => !o)}
+        style={{ minHeight: TOUCH, justifyContent: 'center' }}
+      >
+        <Text style={[s.p, { color: c.accent, fontWeight: '700' }]}>{open ? '▾' : '▸'} How to think about it</Text>
+      </Pressable>
+      {open ? <P>{text}</P> : null}
+    </>
+  );
+}
+
 interface Outcome {
   grade: Grade;
   weight: number;
@@ -350,7 +408,10 @@ export function Quiz({
             color={outcome.grade.correct ? c.good : c.bad}
           />
           {kind !== 'choice' || picked !== q.answerIndex ? <P dim>Answer: {describeCorrect(q)}</P> : null}
+          {q.strategy ? <Pill text={`Strategy: ${q.strategy}`} color={c.accent} /> : null}
           <P>{q.rationale}</P>
+          <OptionFeedback q={q} picked={picked} />
+          {q.reasoning ? <Reasoning key={q.id} text={q.reasoning} /> : null}
           <P dim>
             {points > 0 ? `+${points} pts${hints > 0 ? ' (half: hint used)' : ''}` : '+0 pts'}
           </P>
