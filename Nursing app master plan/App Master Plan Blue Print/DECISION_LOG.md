@@ -14,7 +14,7 @@ This file records confirmed project constraints, provisional architecture decisi
 - **Status:** Confirmed by user
 - **Decision:** App 1 and App 3 are related to the same reference-app line; App 2 is a different app/reference.
 - **Consequence:** Keep the research folders distinct during planning and preserve all assets. Do not merge or delete material as part of this architecture task.
-- **Correction required:** Existing README wording that describes App 3 as separate and App 1/App 2 as a possible pair is stale relative to the user's latest clarification.
+- **Verification:** The current parent and blueprint READMEs now state that App 1 and App 3 are related and App 2 is distinct. Historical stale wording remains only in dated review history where it is explicitly recorded as a past issue.
 
 ### DEC-003 — This stage is planning only
 - **Status:** Confirmed by user
