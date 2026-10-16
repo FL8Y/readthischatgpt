@@ -5,7 +5,7 @@
 - [[RESEARCH LOG]] — checklist, source verification, status, and next actions
 - [[RESEARCH TOPIC GUIDE]] — mandatory research standard
 
-> Audit status (2026-10-17): 76/76 nested topic folders have `RESEARCH.md`; all four main grouping folders have `OVERVIEW.md`. This is structural coverage only. In the current deep-audit cycle, 67 unique topic files have been expanded and reopened; all 67 remain marked NEEDS REVIEW pending complete claim/link validation. The other 9 topic folders still require the same deeper audit/expansion. No full completion claim is made.
+> Audit status (2026-10-17): 76/76 nested topic folders have `RESEARCH.md`; all four main grouping folders have `OVERVIEW.md`. This is structural coverage only. In the current deep-audit cycle, 71 unique topic files have been expanded and reopened; all 71 remain marked NEEDS REVIEW pending complete claim/link validation. The other 5 topic folders still require the same deeper audit/expansion. No full completion claim is made.
 
 ## Leadership and Management Final Coaching
 
