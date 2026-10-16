@@ -28,7 +28,7 @@
     - [[Health Promotion]] — **Drafted — Needs Verification**
       - [[Diet]] — **Drafted — Needs Verification**
       - [[Exercise]]
-      - [[Health Promotion]]
+      - [[Health Promotion]] — **Drafted — Needs Verification**
       - [[Stop Smoking]] — **Drafted — Needs Verification**
     - [[Magna Carta of Public Health Workers]]
     - [[People Behind CHN]]
