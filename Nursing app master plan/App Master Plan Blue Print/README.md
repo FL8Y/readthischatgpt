@@ -25,6 +25,10 @@ The user has confirmed:
 10. [1000-Point Readiness Trace](./1000_POINT_READINESS_TRACE.md) — weighted scoring evidence, hard gates, blocker register and path to a genuine 10/10.
 11. [Cleanup Log](./CLEANUP_LOG.md) — consolidation map and precise record of deleted/moved files.
 
+## 1000/1000 architecture quality target
+
+See [1000/1000 Architecture Quality Gate](./1000-1000-ARCHITECTURE-QUALITY-GATE.md). The score is an acceptance target; it must not be represented as achieved until every category passes evidence-based verification.
+
 ## Research sources
 
 - [App 1 inspired research](../App%201%20inspired%20research/README.md) — APK-derived Android material; its upload log says the archive transfer is incomplete/unverified.
