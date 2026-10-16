@@ -33,6 +33,8 @@
       - [[Pillars of PHC]]
     - [[Sentrong Sigla Program]]
   - [[Elements of Primary Health Care]]
+  - [[Sanitation and Environmental Health]] — **Drafted — Needs Verification**
+  - [[Malnutrition]] — **Drafted — Needs Verification**
   - [[Nutrition]] — **Drafted — Needs Verification**
   - [[Food Fortification Program]] — **Drafted — Needs Verification**
     - [[Education]]
