@@ -1,55 +1,71 @@
-# Leukemia — Pediatric Nursing Research Notes
+# Childhood Leukemia — Pediatric Nursing Research
 
-**Purpose:** PNLE-focused study material for pediatric nursing. This is an educational summary, not an individualized order or a substitute for current local protocols. Last repository research pass: 2026-10-17.
+**Purpose:** PNLE-focused educational notes; not an individualized treatment plan. **Evidence review date:** 17 October 2026.
 
-## 1. Core concept
-Leukemia is marrow/blood-forming tissue malignancy. Marrow failure can cause anemia, thrombocytopenia, and neutropenia; bone pain, fever, bruising, pallor, fatigue, and infections need assessment. Confirm diagnosis with blood studies and marrow testing as directed.
+## 1. Core concepts
+Leukemia is a malignancy of blood-forming tissues involving abnormal proliferation of hematopoietic cells in marrow and sometimes blood or other organs. Major pediatric categories include acute lymphoblastic leukemia (ALL, the most common childhood leukemia) and acute myeloid leukemia (AML); chronic myeloid leukemia (CML) and rarer entities also occur. Classification, genetics, risk group, measurable residual disease (MRD), and treatment response influence therapy and prognosis.
 
-## 2. Pediatric assessment
-- Establish age, weight in kg, allergies, baseline function/development, relevant history, current medicines, immunization status where relevant, and caregiver observations.
-- Assess airway, breathing, circulation, mental status, pain, hydration/perfusion, nutrition/growth, elimination, skin, and age-appropriate vital signs according to local reference ranges.
-- Compare findings with the child's baseline and expected developmental stage; infants and children may deteriorate before they can describe symptoms clearly.
-- Document objective findings, onset/progression, intake/output, and response to interventions.
+Marrow replacement can reduce normal red-cell, platelet, and functional white-cell production. A high total white-cell count does **not** guarantee effective immune defense; circulating blasts may be dysfunctional.
 
-## 3. Diagnostics and management
-- Select tests based on clinical presentation and current pediatric guidance; explain the purpose and prepare the child/family in developmentally appropriate language.
-- Verify specimens, age/weight-specific reference intervals, and timing before interpreting laboratory results. No single finding should be interpreted in isolation.
-- Management depends on severity, age, comorbidities, and specialist assessment. Confirm treatment plans and escalation thresholds with current institutional protocols.
-- Reassess after every intervention and document whether the expected response occurred.
+## 2. Assessment and manifestations
+- **Anemia:** pallor, fatigue, weakness, tachycardia, reduced activity or dyspnea.
+- **Thrombocytopenia:** petechiae, bruising, epistaxis, gum bleeding, prolonged bleeding.
+- **Neutropenia/dysfunctional leukocytes:** fever, recurrent or severe infection; fever may be the only early sign.
+- **Marrow/bone involvement:** bone or joint pain, limp, refusal to walk, tenderness.
+- **Organ infiltration:** lymphadenopathy, hepatosplenomegaly, abdominal fullness; some patients have testicular or CNS involvement.
+- **Urgent red flags:** fever or suspected sepsis during immunosuppression, respiratory distress, altered mental status, seizure, severe headache/vomiting suggesting CNS complication, major bleeding, shock, or signs of leukostasis (e.g., respiratory or neurologic symptoms with very high leukocyte burden).
 
-## 4. Nursing priorities and rationale
-1. **ABCs and immediate threats first.** Activate emergency response for respiratory compromise, shock/poor perfusion, altered consciousness, rapidly progressive neurologic signs, or other severe deterioration.
-2. **Safety.** Apply age- and condition-appropriate precautions; prevent falls, aspiration, medication errors, infection, and injury.
-3. **Focused monitoring.** Trend vital signs, mental status, pain, weight, intake/output, and relevant labs/clinical signs rather than relying on a single observation.
-4. **Family-centered care.** Include caregivers as partners, acknowledge concerns, use plain language, and confirm understanding with teach-back.
-5. **Evaluation.** State the desired outcome, reassess, and escalate if the child worsens or the response is inadequate.
+Obtain symptom chronology, recent infections, bruising/bleeding, medication history, family history where relevant, growth/weight trend, and functional changes. Assess ABCs, perfusion, mental status, pain, skin/mucosa, infection sources, neurologic status, and age-appropriate vital signs. Avoid assuming symptoms are merely viral when cytopenias or persistent systemic features are present.
 
-## 5. Medication and procedure safety
-- Calculate from a current order using a measured weight in kilograms; verify dose units, concentration, route, frequency, maximum dose, allergies, renal/hepatic considerations, interactions, and indication independently according to local medication-safety policy.
-- Never infer or invent a dose from a textbook mnemonic or this page. Verify drug-specific contraindications, serious adverse effects, antidotes, monitoring, and withholding criteria in an authoritative current monograph and the actual institutional protocol.
-- Distinguish an absolute contraindication from a precaution; do not independently stop, start, or change prescribed therapy.
-- Identify any intervention that could worsen the condition and confirm the specific avoidance rule with current guidance.
+## 3. Diagnostic evaluation
+Evaluation is directed by pediatric hematology/oncology and may include CBC with differential and peripheral smear, marrow aspirate/biopsy, flow cytometry/immunophenotyping, cytogenetic/molecular testing, and selected lumbar puncture or imaging when clinically appropriate. Baseline chemistry, renal/hepatic function, uric acid, potassium, phosphate, calcium, LDH, and other tests help assess tumor burden and tumor lysis risk. Interpret results with the child's condition, trends, and local laboratory reference ranges; no single CBC result establishes leukemia subtype.
 
-## 6. Complications and red flags
-Escalate urgently for deterioration in breathing, circulation/perfusion, consciousness, new focal neurologic deficit, seizure emergency, uncontrolled bleeding, severe dehydration, rapidly worsening pain/distention, signs of sepsis, or any topic-specific red flag described above. Follow the local emergency pathway and do not delay stabilization to finish routine assessment.
+Before lumbar puncture, sedation, biopsy, or other procedures, confirm the order, platelet/coagulation considerations, consent/assent, infection status, and procedural safety requirements. Do not perform or delay procedures based on this note; follow the treating team's plan.
 
-## 7. Family education
-- Explain the condition and care plan using age-appropriate words.
-- Give clear instructions on medicines, follow-up, home monitoring, infection/injury prevention, and when/how to seek urgent help.
-- Avoid blame and punishment; support caregiver coping and the child's developmental, school, and psychosocial needs.
-- Use teach-back: ask the caregiver to explain the key action and red flags in their own words.
+## 4. Treatment overview
+Treatment varies substantially by subtype and risk. ALL commonly uses phases such as induction, consolidation/intensification, and maintenance, with CNS-directed therapy; AML treatment differs and may include intensive chemotherapy and selected hematopoietic stem-cell transplantation. Targeted agents, immunotherapy, and cellular therapies may be used for selected molecular subtypes or relapsed/refractory disease. Protocols evolve; use the current pediatric oncology protocol and do not extrapolate adult regimens.
 
-## 8. PNLE reasoning
-- Prioritize immediate threats over routine tasks; ABCs and acute deterioration generally precede comfort/teaching.
-- Use Maslow's hierarchy as a supporting framework, not a rigid algorithm; safety and physiologic threats can supersede other needs.
-- Distinguish expected age-related findings from red flags, and acute deterioration from chronic baseline.
-- Common trap: treating a single classic sign as required for diagnosis, or assuming one medication/treatment is appropriate for every child.
+## 5. Nursing priorities and rationales
+| Priority | Nursing action and rationale |
+|---|---|
+| Fever/infection | Follow the institution's febrile-neutropenia/sepsis pathway immediately; obtain cultures and administer ordered antimicrobials within the required time targets. Do not delay escalation for repeat temperature or pending laboratory results. |
+| Bleeding risk | Assess petechiae, mucosal bleeding, stool/urine, neurologic symptoms, and hemodynamic status; use bleeding precautions and avoid unnecessary trauma or invasive procedures. |
+| Anemia/poor perfusion | Assess activity tolerance, respiratory effort, heart rate, pallor, perfusion, and symptoms; escalate symptomatic deterioration and follow transfusion orders/policy. |
+| Tumor lysis syndrome (TLS) | Identify high tumor burden and treatment-related risk; trend ordered electrolytes, renal function, uric acid, fluid balance, weight, and urine output; implement prescribed hydration and urate-lowering prophylaxis. TLS can cause dysrhythmias, seizures, and acute kidney injury. |
+| Central-line safety | Use aseptic technique and local line-care bundles; inspect for infection, thrombosis, malfunction, or extravasation. |
+| Treatment toxicity | Monitor mucositis, nausea/vomiting, hydration, nutrition, bowel function, pain, neurologic changes, and agent-specific organ toxicity. |
+| Psychosocial/development | Explain procedures in age-appropriate terms; use play, distraction, school support, caregiver involvement, and psychosocial referrals. |
 
-## 9. Topic-specific verification status
-**Research status:** Topic-specific starting summary drafted; not yet independently verified claim-by-claim against multiple topic-specific sources. The agent log must not count this file as fully verified until that source audit is complete.
+## 6. Medication and treatment safety
+Antineoplastic and supportive regimens are subtype- and protocol-specific. Before administration, verify patient identity, diagnosis, protocol/version, cycle/day, current height/weight, body-surface-area or weight-based calculation, units, maximum dose where applicable, allergies, consent, labs, organ function, route, line patency, infusion sequence, and supportive/rescue medications. Use required independent double checks for high-alert agents and calculations.
 
-## References for verification
-1. https://www.cancer.gov/types/childhood-cancers
-2. https://www.cancer.gov/types/brain/hp/child-brain-treatment-pdq
+Important medication risks depend on the actual regimen and may include myelosuppression, infection, bleeding, mucositis, hepatotoxicity, nephrotoxicity, cardiotoxicity, neurotoxicity, hypersensitivity, and extravasation. TLS prophylaxis and monitoring depend on risk assessment and orders. Do not invent doses or independently start, hold, substitute, or adjust therapy. Clarify discrepant orders with oncology/pharmacy before administration; emergency signs require immediate escalation.
 
-**Source note:** These links are starting points for authoritative reference checking, not evidence that every statement above has already been confirmed by those pages. Confirm current Philippine DOH/clinical institutional guidance where applicable and record exact source title/version in the research log.
+## 7. Complications and safety
+- **TLS:** potentially life-threatening electrolyte and renal changes, often around treatment initiation in high-burden disease.
+- **Febrile neutropenia/sepsis:** can progress rapidly even when fever is modest or other signs are subtle.
+- **Hemorrhage:** thrombocytopenia may cause mucosal, gastrointestinal, or intracranial bleeding.
+- **Leukostasis:** uncommon but critical; respiratory or neurologic compromise with marked leukocytosis requires urgent specialist management.
+- **Treatment complications:** organ toxicities, infertility, secondary malignancies, and other late effects vary by agent and exposure.
+- **Psychosocial effects:** distress, school interruption, financial strain, and family disruption should be assessed and supported.
+
+## 8. Family education
+Give the family written fever/contact instructions specific to their oncology center. Explain when to report bleeding, unusual bruising, breathing difficulty, reduced urine, persistent vomiting, severe headache, confusion, seizure, uncontrolled pain, or line-site changes. Reinforce hand hygiene, oral care, prescribed hydration/nutrition plans, medication handling, appointment adherence, and infection prevention. Vaccine decisions during immunosuppression and after treatment must be coordinated with the oncology team; do not assume live vaccines are safe. Use teach-back and include the child in decisions according to developmental ability and applicable consent/assent rules.
+
+## 9. PNLE high-yield distinctions
+- A high WBC count does not equal effective immune protection.
+- Fever during chemotherapy/neutropenia is time-critical; use the local emergency pathway.
+- TLS can cause fatal arrhythmias, seizures, and acute kidney injury; monitor trends, not isolated results.
+- ALL and AML are not interchangeable: protocols, treatment phases, and supportive care differ.
+- Verify pediatric antineoplastic orders against the current protocol; never extrapolate adult dosing.
+- Bleeding, infection, and metabolic emergencies take priority over routine teaching or comfort tasks.
+
+## 10. Philippine context and limitations
+This summary does not establish Philippine institutional policy. The core source checked is an international U.S. National Cancer Institute evidence summary. A current Philippine DOH pediatric leukemia protocol was not verified for this entry. Follow the treating center's current pediatric hematology-oncology protocol, local febrile-neutropenia and sepsis pathways, pharmacy high-alert medication policy, and applicable Philippine professional/legal requirements.
+
+## References checked
+1. **PDQ Pediatric Treatment Editorial Board.** *Childhood Acute Lymphoblastic Leukemia Treatment (PDQ®): Health Professional Version.* National Cancer Institute; updated 21 April 2025. https://www.cancer.gov/types/leukemia/hp/child-all-treatment-pdq
+2. **PDQ Pediatric Treatment Editorial Board.** *Childhood Acute Myeloid Leukemia Treatment (PDQ®): Health Professional Version.* National Cancer Institute. https://www.cancer.gov/types/leukemia/hp/child-aml-treatment-pdq
+3. **National Cancer Institute.** *PDQ Pediatric Cancer Treatment Summaries* (official index). https://www.cancer.gov/publications/pdq/information-summaries/pediatric-treatment
+
+**Verification limit:** NCI pediatric ALL and AML summaries and the official pediatric PDQ index were checked. This file intentionally provides no drug doses; the actual subtype-specific regimen, current institutional protocol, and local Philippine guidance require separate verification.
