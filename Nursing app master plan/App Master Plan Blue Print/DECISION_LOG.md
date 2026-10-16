@@ -64,6 +64,16 @@ This file records confirmed project constraints, provisional architecture decisi
 - **Decision:** Do not make AnkiDroid installation or its provider a core runtime dependency unless research shows a compelling reason. Evaluate export/import and optional provider integration as separate options.
 - **Validation:** Device tests on supported Android versions and graceful behavior when AnkiDroid is absent or permission is denied.
 
+### ADR-007 — Proposed default architecture baseline (not user-approved)
+
+- **Status:** Proposed; requires validation and a later implementation-stage authorization.
+- **Decision:** Use the provisional baseline in `ARCHITECTURE_OPTIONS.md`: Android-first Kotlin/Jetpack Compose; modular monolith with explicit logical boundaries; local-first relational persistence with versioned migrations and append-only attempts/review events; offline-capable reading/review/progress; user-supplied provider key stored in platform-backed secure storage with clear extraction limits; a provider-neutral AI adapter; an app-owned scheduler interface backed by a maintained, license-compatible scheduler/version selected only after test-vector review; APKG portability as a candidate and AnkiDroid provider integration optional; text/paste and Markdown as the simplest initial ingestion path while PDF/OCR scope is costed separately.
+- **Reason:** This is the most conservative fit for Android-centred usage, durable offline study, transparent data ownership and avoiding an unrequested hosted backend. The existing Gizmo and AnkiDroid research informs requirements but does not dictate the product's stack.
+- **Alternatives:** React Native/Expo or Flutter if a committed cross-platform requirement changes the trade-off; hosted/hybrid backend if multi-device sync or server-side key handling becomes necessary; direct AnkiDroid provider integration if later device validation proves sufficient value over package exchange.
+- **Trade-offs / risks:** Native Android may increase future cross-platform effort; local user keys remain extractable in principle; local-only storage needs backup/recovery; scheduler and mastery behavior require exact-version tests; OCR/visual generation can increase latency and provider cost.
+- **Validation:** Compare platform options against a declared device/API matrix; run store/restore/migration and interrupted-write tests; test secret redaction and key removal; confirm provider model/API support before implementation; run deterministic scheduler vectors; test assessment payloads and answer-key isolation; evaluate import limits and graph accessibility.
+- **Rollback / change control:** No code has been authorized. If validation invalidates this proposal, record new evidence, alternatives and impacted documents before implementation; do not quietly promote this recommendation to a confirmed requirement.
+
 ## Open decisions
 
 ### OPEN-001 — Target platform and minimum Android version
