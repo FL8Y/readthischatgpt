@@ -11,6 +11,43 @@ At booking and follow-up, assess:
 - Nutrition, food security, activity, sleep, substance exposure, intimate partner violence/safety when appropriate, social support and barriers to care.
 - Medication/supplement use, immunization status and occupational/environmental exposures.
 
+## Booking visit and repeat-visit safety checklist
+
+### Initial antenatal assessment
+At the first antenatal contact, establish a reliable gestational-age estimate and a baseline risk profile. Within nursing scope and the local antenatal pathway, verify:
+- Obstetric history: prior preeclampsia, preterm birth, pregnancy loss, hemorrhage, cesarean/uterine surgery, fetal growth problems, stillbirth or neonatal complications.
+- Medical/surgical history: hypertension, diabetes, renal/cardiac disease, thyroid/autoimmune disease, thrombosis, seizures, psychiatric illness, allergies, transfusion and relevant surgery.
+- Current prescriptions, OTC medicines, herbals, supplements, alcohol/nicotine/other substance exposure, occupational risks and immunization history.
+- Vital signs, correct BP technique/cuff, weight/BMI where used in risk assessment, symptoms, nutrition/food access, safety/support needs and mental health.
+- Ordered baseline screening such as CBC/anemia assessment, blood group/Rh and antibody screen, urine testing, infection screening and assessment for pre-existing diabetes according to current local policy.
+- Fetal dating/viability and ultrasound planning where indicated. Confirm how and when results will be reviewed and communicated; collecting a sample without tracking the result is not a complete screening pathway.
+
+Do not invent a “universal” antenatal laboratory panel: tests, consent requirements, timing and follow-up differ across local policies, risk factors and available services. Nurses should verify that ordered tests are completed, abnormal results are escalated, and referrals/return visits are booked.
+
+### Repeat contacts: reassess instead of repeating paperwork only
+At subsequent contacts, reassess BP and symptoms, interval health changes, medicines/supplements, fetal growth/movement as appropriate, test results/referrals, mental wellbeing, safety, adherence barriers and birth preparedness. A previous normal BP, laboratory result or fetal assessment does not rule out a new complication later in pregnancy.
+
+WHO's 2016 antenatal-care model recommends a minimum of eight contacts for a positive pregnancy experience; this is an international recommendation, **not automatically a statement of current Philippine legal or institutional visit timing**. Use the current DOH/facility schedule for the actual appointment plan and escalate missed contacts according to clinical risk.
+
+### Medication and immunization review
+Medication review must include prescriptions, OTC products, herbal/traditional remedies, vitamins and topical preparations. Never advise abruptly stopping essential prescribed treatment; arrange prompt clinician/pharmacist review for pregnancy-specific risk. Avoid treating “natural” or over-the-counter products as inherently safe. Verify pregnancy timing, dose, indication, interactions, allergy history, renal/hepatic issues and breastfeeding plans.
+
+Vaccination counselling and administration must follow the current Philippine immunization policy, contraindications and product-specific instructions. Distinguish live vaccines generally avoided during pregnancy from non-live vaccines that may be recommended in selected seasons/risks or under national policy. Do not present an international schedule as Philippine law without confirming official adoption.
+
+## Red-flag triage: what cannot wait for the next visit
+Arrange urgent/emergency assessment according to severity for:
+- Heavy bleeding, fluid leakage, severe/persistent abdominal pain or suspected labor before 37 weeks.
+- Reduced fetal movement once a usual pattern is established.
+- Severe/persistent headache, visual changes, epigastric/right-upper-quadrant pain, sudden dyspnea, chest pain, seizure, syncope or severe-range BP.
+- Fever with significant illness, foul discharge, persistent vomiting/dehydration, or painful urination with fever/flank pain.
+- Unilateral leg swelling/pain or sudden dyspnea/chest pain suggesting thromboembolism.
+- Suicidal thoughts, severe mood changes, violence/safety threat or inability to care for self.
+The nurse should not reassure solely from an earlier normal assessment. ABCs and immediate danger take precedence over routine teaching; record assessment, escalation, referral and disposition.
+
+## Philippine policy boundary
+The existing WHO 2016 and NICE NG201 sources support international antenatal-care principles. They are **not** proof of a specific Philippine legal mandate, exact visit count or national laboratory schedule. Check current DOH maternal-care issuances, local referral protocols and facility policy before teaching exact dates, tests, supplement doses or referral criteria. The current local source verification remains outstanding for exact Philippine operational schedules.
+
+
 ## Preventive care and education
 - Attend scheduled antenatal visits and complete screening/referrals.
 - Use a balanced diet and appropriate pregnancy weight-gain advice; follow current local folic acid/iron and other supplementation recommendations.
