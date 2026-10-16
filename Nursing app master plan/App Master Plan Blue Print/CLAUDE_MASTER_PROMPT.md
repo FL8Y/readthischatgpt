@@ -39,9 +39,10 @@ Read, in order:
 5. REPO_AUDIT.md
 6. PRODUCT_REQUIREMENTS_AND_UX.md
 7. TECHNICAL_ARCHITECTURE_AND_CONTRACTS.md
-8. DECISION_LOG.md
-9. IMPLEMENTATION_ROADMAP.md
-10. QA_COUNCIL_REVIEW.md
+8. REQUIREMENT_TEST_TRACEABILITY.md (all R-001–R-034 mapped to owner, contract, planned test and oracle)
+9. DECISION_LOG.md
+10. IMPLEMENTATION_ROADMAP.md
+11. QA_COUNCIL_REVIEW.md (canonical weighted readiness scorecard and hard gates)
 11. Parent Nursing app master plan/README.md, root CLAUDE.md and relevant Claude/Ruflo configuration.
 12. App 1 README/upload log; App 2 research/reference code/tests; App 3 research/reference code; full research reports and primary manifest/config evidence when available.
 
@@ -62,11 +63,12 @@ Keep these current, internally consistent and linked from README.md:
 - MASTER_ARCHITECT_PLAN.md — product intent, principles, logical boundaries and staged gates.
 - PRODUCT_REQUIREMENTS_AND_UX.md — user journeys, requirement traceability, assessment/learning behavior, accessibility and nursing safeguards.
 - TECHNICAL_ARCHITECTURE_AND_CONTRACTS.md — technology options, data concepts, service boundaries, security, offline behavior and acceptance tests.
+- REQUIREMENT_TEST_TRACEABILITY.md — R-001–R-034 mapped to canonical contracts, accountable role, planned test IDs and pass oracles; these are test plans, not executed tests.
 - DECISION_LOG.md — confirmed constraints, proposals, unresolved decisions and validation plan.
 - REPO_AUDIT.md — current repository inventory, source inspection scope and archive limitations.
 - AGENT_WORK_PACKAGES.md — bounded specialist tasks and handoff rules.
 - IMPLEMENTATION_ROADMAP.md — dependency-ordered stages and exit gates.
-- QA_COUNCIL_REVIEW.md — historical reviews, severity-ranked findings and honest scorecards.
+- QA_COUNCIL_REVIEW.md — historical reviews, severity-ranked findings, the canonical evidence-weighted 1000-point readiness scorecard, hard gates and honest scorecards. Do not recreate a separate score file unless the current project owner explicitly requests it.
 - CLEANUP_LOG.md — file consolidation/deletion/move audit trail.
 
 README.md is the index and current status, not a duplicate of all contents.
