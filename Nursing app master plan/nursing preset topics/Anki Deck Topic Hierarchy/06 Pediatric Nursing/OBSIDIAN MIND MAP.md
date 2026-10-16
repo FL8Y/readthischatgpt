@@ -1,6 +1,6 @@
 # Pediatric Nursing — Obsidian Mind Map
 
-> Status as of 2026-10-17: initial recursive inventory only. Topic research has not yet been verified. Wiki-links below point to planned `Research.md` files; they become valid as each file is created.
+ > Status as of 2026-10-17: all 60 leaf topic folders have a `Research.md` file on branch `agent-6-pediatric-research`. Two topics (Brain Tumor and Hodgkin's lymphoma) have been source-checked and reopened; the other files are drafts pending topic-specific verification.
 
 - [[RESEARCH TOPIC GUIDE]]
 - [[RESEARCH LOG]]
