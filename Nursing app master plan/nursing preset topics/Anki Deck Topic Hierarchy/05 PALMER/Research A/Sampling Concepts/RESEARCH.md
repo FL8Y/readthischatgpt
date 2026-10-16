@@ -1,20 +1,79 @@
 # Sampling Concepts — Nursing Research
 
-## Core concepts
-Sampling selects a subset of a population to answer a research question. Define target and accessible populations, sampling frame, eligibility criteria, recruitment process, sample size rationale, nonresponse, and exclusions. Sampling affects representativeness and the scope of inference.
+## Purpose and key definitions
 
-## Probability vs non-probability
-- **Probability sampling:** each eligible unit has a known, nonzero selection probability; supports design-based estimation when properly implemented.
-- **Non-probability sampling:** selection probabilities are unknown; often useful for exploratory or hard-to-reach populations but representativeness is less defensible.
-Common methods include simple random, systematic, stratified, cluster/multistage, convenience, purposive, quota, and snowball sampling.
+Sampling selects a subset of a population to answer a research question when studying every eligible unit is impractical or unnecessary. The goal is not simply to recruit a large number; the method must fit the question and support the intended inference.
 
-## Sample size and bias
-Sample size depends on the primary outcome, precision/effect size, variability, alpha, power, design effect, and attrition. Larger samples reduce random uncertainty under appropriate assumptions but do not automatically fix selection bias, nonresponse bias, or invalid measures.
+- **Target population:** the group to which the researcher wants findings to apply.
+- **Accessible population:** the portion of the target population realistically available for recruitment.
+- **Sampling frame:** the list or source used to identify units eligible for selection.
+- **Sample:** the people, records, units, or events actually studied.
+- **Sampling unit:** the element selected at a given stage (e.g., a person, clinic, ward, or household).
+- **Eligibility criteria:** prespecified inclusion/exclusion rules.
+- **Sampling error:** chance variation because a sample rather than the whole population is studied.
+- **Selection bias:** systematic differences caused by how participants are selected or retained.
+- **Nonresponse/attrition:** failure to participate or remain in the study, which may affect representativeness if related to characteristics or outcomes.
 
-## Ethics
-Recruit fairly, avoid undue influence, protect privacy, and justify inclusion/exclusion criteria. For vulnerable groups, use appropriate safeguards rather than assuming either automatic inclusion or exclusion.
+## Probability versus non-probability sampling
 
-## References
+| Feature | Probability sampling | Non-probability sampling |
+|---|---|---|
+| Selection | Uses a random mechanism with known, nonzero selection probabilities under the design. | Selection probabilities are unknown; recruitment may depend on access, judgment, quotas, or referrals. |
+| Main use | Often supports design-based population estimation when frame and design are appropriate. | Useful for feasibility, exploratory work, qualitative depth, hard-to-reach populations, or context-specific aims. |
+| Strength | Can support estimation of sampling uncertainty and more defensible population inference. | May be practical, targeted, and information-rich. |
+| Main limitation | Requires a usable frame and resources; nonresponse and frame errors can still bias results. | Generalization and sampling uncertainty are more limited; selection bias can be substantial. |
+| Examples | Simple random, systematic with random start, stratified, cluster, multistage. | Convenience, purposive, quota, snowball/respondent-driven approaches (depending on design). |
+
+Do not equate probability sampling with a guaranteed representative sample, or non-probability sampling with automatically poor research. The method's suitability depends on the question, execution, bias risks, and intended inference.
+
+## Common probability methods
+
+- **Simple random:** each eligible unit has a known selection chance, with selection made by a random procedure.
+- **Systematic:** select a random start and then every kth unit from an ordered frame. Check for periodic patterns in the list that could bias selection.
+- **Stratified:** divide the population into relevant strata and sample within each; may improve representation or precision for important subgroups.
+- **Cluster:** randomly select groups/clusters and study all or some units within selected clusters. Account for clustering in analysis because units within clusters may be correlated.
+- **Multistage:** select units in stages (e.g., regions, facilities, then patients). Use the full design in estimation and analysis.
+
+## Common non-probability methods
+
+- **Convenience:** recruit accessible units; efficient but vulnerable to selection bias.
+- **Purposive/judgmental:** deliberately select information-rich cases relevant to the question, often used in qualitative research.
+- **Quota:** recruit until specified subgroup counts are reached, without necessarily using random selection within groups.
+- **Snowball/network referral:** participants or contacts refer others; may be useful for hard-to-reach populations but tends to recruit connected networks.
+- **Consecutive sampling:** recruit every eligible person available over a defined period in a setting; often more systematic than convenience sampling, but not automatically probability-based or population-representative.
+
+## Sample size: do not use a universal rule
+
+Sample size depends on study purpose, design, expected variability/effect, desired precision, significance/power when hypothesis testing, outcome frequency, clustering, attrition, feasibility, and ethical burden. Qualitative sample adequacy depends on the question, richness and diversity of data, analytic approach, and the adequacy of information for the study's purpose; it should not be justified by applying a quantitative power formula.
+
+A larger sample can improve precision under appropriate conditions, but it cannot repair systematic bias, invalid measurement, a poor sampling frame, or an unsuitable design. Explain the rationale rather than using “30 participants” or a percentage of the population as a universal rule.
+
+## Practical sampling checklist
+
+1. Define the target population and intended inference.
+2. Set defensible inclusion/exclusion criteria before recruitment.
+3. Identify the accessible population and sampling frame; note who may be missing.
+4. Choose a probability or non-probability method based on the research question and feasibility.
+5. Estimate sample size using the relevant design and objective, where appropriate.
+6. Plan for nonresponse, attrition, cluster effects, and subgroup representation.
+7. Document recruitment, exclusions, refusal, missingness, and protocol deviations.
+8. Describe limitations to generalizability or transferability honestly.
+
+## Sources
+
+- OpenStax, **Introductory Statistics 2e**, Section 1.2, *Data, Sampling, and Variation in Data and Sampling*: https://openstax.org/books/introductory-statistics-2e/pages/1-2-data-sampling-and-variation-in-data-and-sampling
+- NIST/SEMATECH, **e-Handbook of Statistical Methods**: https://www.itl.nist.gov/div898/handbook/
 - Cochrane Handbook: https://training.cochrane.org/handbook
-- CIOMS guidelines: https://cioms.ch/publications/product/international-ethical-guidelines-for-health-related-research-involving-humans/
-- PHREB: https://ethics.healthresearch.ph/
+
+## PNLE high-yield review
+
+- Probability sampling uses random selection and known selection probabilities; non-probability sampling does not.
+- Stratified sampling samples within strata; cluster sampling selects groups/clusters.
+- Systematic sampling needs an appropriate frame and random start; periodic ordering can create bias.
+- Convenience sampling is vulnerable to selection bias.
+- Sample size must fit the question/design; no universal number guarantees adequacy or representativeness.
+- Report the sampling frame, recruitment, nonresponse, and limits of generalization.
+
+## Scope note
+
+Sampling decisions depend on the intended population, research design, available frame, and analysis. Consult a methods/statistics specialist when complex sampling or weighting is needed.
