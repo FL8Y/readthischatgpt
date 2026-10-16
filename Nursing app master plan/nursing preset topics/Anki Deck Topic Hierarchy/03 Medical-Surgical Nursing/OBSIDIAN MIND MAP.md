@@ -50,7 +50,7 @@
 
 ## Research notes currently verified or under review — 2026-10-17
 
-**Evidence-based status:** 23 of 295 topic folders verified complete (7.8%); one MI note is drafted and awaiting its final source/safety audit; 271 other topic folders remain not started. This section links to actual Markdown research files, not placeholders.
+**Evidence-based status:** 30 of 295 topic folders verified complete (10.2%); 15 notes are researched drafts awaiting source/safety verification (including MI); 250 topic folders remain not started. This section links to actual Markdown research files, not placeholders.
 
 ### Cardiovascular
 - [[Cardiovascular/RESEARCH]] — core cardiovascular assessment and prioritization — **VERIFIED COMPLETE**
@@ -89,6 +89,37 @@
 - [[Cancer/Oncologic Emergencies/Sepsis and Disseminated Intravascular Coagulation (DIC)/RESEARCH]] — sepsis/DIC — **VERIFIED COMPLETE**
 - [[Hematology/Iron-Deficiency Anemia/RESEARCH]] — iron-deficiency anemia — **VERIFIED COMPLETE**
 - [[Perioperative Nursing/RESEARCH]] — perioperative safety — **VERIFIED COMPLETE**
+
+### Additional research notes added in the next batch
+
+**Cardiovascular**
+- [[Cardiovascular/Coronary Arteries/RESEARCH]] — coronary anatomy and perfusion — **RESEARCHED—VERIFY**
+- [[Cardiovascular/ECG Leads/RESEARCH]] — lead views and acquisition — **RESEARCHED—VERIFY**
+- [[Cardiovascular/Heart Sounds/RESEARCH]] — S1/S2, S3/S4, murmurs and rub — **RESEARCHED—VERIFY**
+- [[Cardiovascular/Pericardial Fluid/RESEARCH]] — effusion and cardiac tamponade — **VERIFIED COMPLETE**
+- [[Cardiovascular/Peripheral Vascular Diseases/RESEARCH]] — arterial versus venous disease — **VERIFIED COMPLETE**
+- [[Cardiovascular/WHO Blood Pressure Categories/RESEARCH]] — WHO hypertension threshold and measurement — **VERIFIED COMPLETE**
+
+**Endocrine**
+- [[Endocrine/ADH: DI and SIADH/DI/RESEARCH]] — diabetes insipidus — **RESEARCHED—VERIFY**
+- [[Endocrine/ADH: DI and SIADH/SIADH/RESEARCH]] — SIADH — **RESEARCHED—VERIFY**
+- [[Endocrine/ADH: DI and SIADH/Basic Concepts of ADH and Fluids/RESEARCH]] — ADH and water balance — **RESEARCHED—VERIFY**
+- [[Endocrine/Adrenal Disorders/Addison's/RESEARCH]] — primary adrenal insufficiency/Addison disease — **VERIFIED COMPLETE**
+- [[Endocrine/Thyroid Disorders/Hyperthyroidism/RESEARCH]] — hyperthyroidism and thyroid storm — **RESEARCHED—VERIFY**
+- [[Endocrine/Thyroid Disorders/Hypothyroidism/RESEARCH]] — hypothyroidism and myxedema coma — **RESEARCHED—VERIFY**
+
+**Fluids and electrolytes**
+- [[Fluids, Electrolytes and Acid-Base/Calcium/RESEARCH]] — calcium imbalance — **RESEARCHED—VERIFY**
+- [[Fluids, Electrolytes and Acid-Base/IV Fluids/RESEARCH]] — IV fluid safety — **RESEARCHED—VERIFY**
+
+**Oncology**
+- [[Cancer/Basic Concepts in Cancer/RESEARCH]] — cancer biology and terminology — **VERIFIED COMPLETE**
+- [[Cancer/Cancer Prevention/RESEARCH]] — prevention and screening principles — **RESEARCHED—VERIFY**
+- [[Cancer/Staging and Grading/RESEARCH]] — staging versus grading — **VERIFIED COMPLETE**
+- [[Cancer/Warning Signs of Cancer/RESEARCH]] — warning signs and referral — **VERIFIED COMPLETE**
+- [[Cancer/Oncologic Emergencies/RESEARCH]] — oncologic emergency overview — **RESEARCHED—VERIFY**
+- [[Cancer/Oncologic Emergencies/Spinal Cord Compression/RESEARCH]] — metastatic spinal cord compression — **RESEARCHED—VERIFY**
+- [[Cancer/Oncologic Emergencies/Superior Vena Cava Syndrome/RESEARCH]] — SVC syndrome — **RESEARCHED—VERIFY**
 
 ## Major system branches
 
