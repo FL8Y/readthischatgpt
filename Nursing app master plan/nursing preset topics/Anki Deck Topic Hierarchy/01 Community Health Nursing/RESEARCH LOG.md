@@ -313,3 +313,12 @@ Every directory below was present in the repository's recursive tree at the init
 - Checklist entries for these files are marked **In Progress**, not Verified Complete. Initial notes include common nursing application and source starting points, but each topic still needs deeper topic-specific source verification, corrections/additions, and upload review.
 - Remaining folders without research notes: **46**.
 - Next action: continue creating topic notes in every remaining folder, then verify each topic against current official sources and update the status only after review.
+
+
+## Progress Update — 2026-10-17 (folder coverage pass)
+
+- Recursive topic directory count: **77**.
+- Topic folders with `RESEARCH NOTES.md`: **77/77 (100.0%)**.
+- Topic folders still missing a research note: **0**.
+- **Verified Complete topics: 0.** Current notes are first-pass topic notes with tailored focus and shared authoritative starting references; they are not mislabeled as fully researched chapters.
+- Next phase: verify each topic against topic-specific authoritative sources, replace generic references with direct source evidence, deepen content, reopen uploaded files, and only then mark verified. Perform another recursive audit before declaring completion.
