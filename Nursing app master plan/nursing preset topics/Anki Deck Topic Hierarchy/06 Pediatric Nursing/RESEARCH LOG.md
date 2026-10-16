@@ -17,9 +17,9 @@
 - Recursive repository tree inspected: **Yes** (Git tree API, non-truncated response).
 - Top-level category folders found: **10**.
 - Leaf topic folders found: **60**.
-- Topic research files present in this branch: **27**; only the Brain Tumor file has been reopened in a prior verification pass, and the newly drafted files are not yet individually reopened.
+- Topic research files present in this branch: **60/60**. Brain Tumor was reopened in a prior verification pass; the remaining files are drafts and still require individual reopen/source audit.
 - Topics researched with authoritative-source cross-check: **1/60 (1.7%)**.
-- Topic folders without a research file: **33**; all drafted files still require topic-specific source audit and reopen verification.
+- Topic folders without a research file: **0**. All drafted files except the first researched topic still require topic-specific source audit and reopen verification.
 - Empty topic folders: all leaf topic folders appear to contain only `.gitkeep` at initial tree audit; no topic research files were found.
 - Missing-topic audit: **Not yet completed**; compare hierarchy against PNLE scope and pediatric safety coverage after existing topics are researched.
 - Blockers: none identified yet. This is an initial inventory, not a claim of research completion.
@@ -99,16 +99,22 @@ Prioritize current official Philippine Department of Health (DOH) guidance and o
 2. **Next action:** Research the first topic in the checklist, write a topic-specific Markdown file inside that topic folder, reopen and verify it, then update this log immediately. Continue through every topic, then perform missing-topic analysis and final recursive audit.
 
 ## Completion report
-- Evidence-based verified completion: **1.7%** (1 topic fully researched/source-cross-checked / 60 identified leaf topic folders). Draft file coverage: **27/60 (45.0%)**; drafts are not counted as verified.
+- Evidence-based verified completion: **1.7%** (1 topic fully researched/source-cross-checked / 60 identified leaf topic folders). Draft file coverage: **60/60 (100.0%)**; drafts are not counted as verified.
 - Previously reopened research file: [`Cancers of the Child/Brain Tumor/Research.md`](Cancers%20of%20the%20Child/Brain%20Tumor/Research.md). Other draft files are pending individual reopen/source audit.
 - Added topics: none yet; gap analysis pending.
 - Sources checked for clinical claims: NCI PDQ Pediatric Treatment Editorial Board summaries (two references in the topic file); Philippine-specific brain-tumor protocol not yet verified.
-- Outstanding work: create missing research files for 33 folders; source-audit and reopen all draft uploads; identify and add justified missing topics; update mind map if new topics/files alter its coverage; final recursive audit.
+- Outstanding work: source-audit and reopen 59 draft uploads; identify and add justified missing topics; update mind map if new topics/files alter its coverage; final recursive audit.
 - Blockers: none identified.
 - Exact next action: begin the first unchecked topic, `Cancers of the Child/Brain Tumor`, and research it using the local guide and authoritative current sources.
 
 
 ## Branch synchronization note — 2026-10-17
 - Concurrent agent commits caused repeated GitHub Contents API conflicts on `main`; to avoid overwriting other agents' work, subsequent Pediatric Nursing writes are isolated on branch `agent-6-pediatric-research`.
-- Current research-file inventory on this branch: 27/60 folders have a `Research.md` file. This count includes draft summaries and must not be represented as verified completion.
+- Current research-file inventory on this branch: 60/60 folders have a `Research.md` file. This count includes draft summaries and must not be represented as verified completion.
 - Next action: continue creating files for every remaining leaf folder on this branch, then individually reopen and source-audit each file, update this log and mind map, and integrate the branch without touching sibling subject folders.
+
+
+## 2026-10-17 — Folder coverage pass
+- Recursive branch audit confirms 60 topic research files across 60 leaf topic folders. Coverage is 100.0% by file presence, not by clinical verification.
+- The remaining quality work is substantial: audit sources and clinical claims topic by topic, reopen every uploaded file, replace generic scaffolding with specific evidence where needed, and record verification evidence. Do not report all topics as verified.
+- Exact next action: start source-auditing Hodgkin's lymphoma, then proceed in checklist order and update this log after each audit batch.
