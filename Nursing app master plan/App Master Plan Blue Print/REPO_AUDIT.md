@@ -161,9 +161,9 @@ At the post-consolidation snapshot, the blueprint contained 11 Markdown files. T
 - The full reports were freshly re-read from the Library during Cycle 5 (Gizmo 54/54 pages; AnkiDroid 35/35 pages). The stale 52-page App 3 README statement is corrected. The SDK contradiction remains because the primary apktool.yml is missing from GitHub. The App 3 decoded `AndroidManifest.decoded.xml` shows `compileSdkVersion="36"` but has no `<uses-sdk>` element, so that file cannot settle the conflicting reported minimum-SDK values of 26 versus 34. Keep min-SDK **UNKNOWN** until the original APK manifest/build metadata (`apktool.yml` or equivalent) is verified.
 
 ### Must be done before implementation planning is declared complete
-1. Reconcile report/page-count claims with the current README and source files; resolve the Gizmo min-SDK conflict only from `apktool.yml` or another primary build/manifest artifact. The decoded manifest currently available in GitHub only proves compile SDK 36, not minimum SDK.
-2. Inspect remaining relevant reference-code files and run isolated tests where tooling permits; record exact commands/results or why they were not run.
-3. Re-scan and read back the latest tree and all changed files after each commit; ensure counts and links are current.
-4. Finish architecture council corrections and update the scorecard using evidence.
-5. Validate proposed architecture defaults, scheduler version and device matrix; test the provisional mastery scenario suite after implementation authorization; reconcile App 1 archive hashes before any completeness claim.
-6. Do not declare the App 1 archive transfer complete without the original manifest and a verifiable path/size/hash comparison.
+1. Resolve the Gizmo min-SDK conflict only from `apktool.yml` or another primary build/manifest artifact. The decoded manifest in GitHub proves compile SDK 36 but not minimum SDK.
+2. Complete the path/size/CRC comparison for all 1,790 rows of the raw `FULL_ARCHIVE_MANIFEST.csv` against the current App 1 Git tree; the current comparison only covers indexed rows 0–999.
+3. Inspect remaining relevant reference-code files and run isolated tests where tooling permits; record exact commands/results or why they were not run.
+4. Re-scan and read back the latest tree and all changed files after each commit; ensure counts and links are current.
+5. Validate proposed architecture defaults, scheduler version and device matrix; finalize exact expected outputs for the provisional mastery scenario suite and obtain independent learning-science review.
+6. Do not declare the App 1 archive transfer complete without full path/size/CRC reconciliation. Do not infer a transfer percentage from current file counts.
