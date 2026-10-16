@@ -368,7 +368,7 @@ Two standalone score artifacts were added briefly and then removed by subsequent
 - Recursive tree: **740 entries; 599 blobs/files; 141 tree/directory entries; truncated=false**.
 - Blueprint: **12 Markdown files**.
 - The current README and master plan no longer link to the two deleted score artifacts.
-- A fresh final relative-link scan must be performed after this addendum is written; do not reuse earlier link counts as current.
+- Final link scan after this addendum: **20 relative Markdown links checked across the 12 blueprint Markdown files and parent README; 0 broken**. Tree snapshot: 740 entries / 599 blobs / 141 trees / truncated=false. Re-run after any subsequent path or link change.
 - No application code, runnable prototype, or technical spike was created.
 
 ### Evidence-weighted 1000-point scorecard
