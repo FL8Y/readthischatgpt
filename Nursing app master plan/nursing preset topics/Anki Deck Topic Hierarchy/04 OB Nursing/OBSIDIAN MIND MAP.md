@@ -11,7 +11,9 @@
     - Endocrine Changes
     - [[Normal Pregnancy/Adaptations of Pregnancy/Endocrine Changes/Research|Endocrine Changes]]
     - GI Changes
+    - [[Normal Pregnancy/Adaptations of Pregnancy/GI Changes/Research|GI Changes]]
     - Other Changes
+    - [[Normal Pregnancy/Adaptations of Pregnancy/Other Changes/Research|Other Physiologic Changes]]
   - Antepartum Care
     - Fetal Well-being
     - Maternal Well-being
