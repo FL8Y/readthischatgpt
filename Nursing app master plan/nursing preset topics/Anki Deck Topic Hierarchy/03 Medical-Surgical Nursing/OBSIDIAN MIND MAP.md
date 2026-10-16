@@ -451,3 +451,15 @@
 - [[Parkinson's Disease]] — [Parkinson Disease — PNLE Research.md](./Neuro/Parkinson's%20Disease/Parkinson%20Disease%20%E2%80%94%20PNLE%20Research.md)
 - [[Guillain-Barre Syndrome]] — [Guillain-Barré Syndrome (GBS) — PNLE Research.md](./Neuro/Neuro%20Autoimmune%20Diseases/Guillain-Barre%20Syndrome/Guillain-Barré%20Syndrome%20(GBS)%20%E2%80%94%20PNLE%20Research.md)
 - [[Myasthenia Gravis]] — [Myasthenia Gravis and Myasthenic Crisis — PNLE Research.md](./Neuro/Neuro%20Autoimmune%20Diseases/Myasthenia%20Gravis/Myasthenia%20Gravis%20and%20Myasthenic%20Crisis%20%E2%80%94%20PNLE%20Research.md)
+
+
+## Cancer research drafts (verification pending)
+- [[Basic Concepts in Cancer]] — [Basic Concepts in Cancer — PNLE Research.md](./Cancer/Basic%20Concepts%20in%20Cancer/Basic%20Concepts%20in%20Cancer%20%E2%80%94%20PNLE%20Research.md)
+- [[Cancer Prevention]] — [Cancer Prevention and Screening — PNLE Research.md](./Cancer/Cancer%20Prevention/Cancer%20Prevention%20and%20Screening%20%E2%80%94%20PNLE%20Research.md)
+- [[Hypercalcemia]] — [Hypercalcemia of Malignancy — PNLE Research.md](./Cancer/Oncologic%20Emergencies/Hypercalcemia/Hypercalcemia%20of%20Malignancy%20%E2%80%94%20PNLE%20Research.md)
+- [[SIADH]] — [SIADH in Oncology — PNLE Research.md](./Cancer/Oncologic%20Emergencies/SIADH/SIADH%20in%20Oncology%20%E2%80%94%20PNLE%20Research.md)
+- [[Spinal Cord Compression]] — [Malignant Spinal Cord Compression — PNLE Research.md](./Cancer/Oncologic%20Emergencies/Spinal%20Cord%20Compression/Malignant%20Spinal%20Cord%20Compression%20%E2%80%94%20PNLE%20Research.md)
+- [[Superior Vena Cava Syndrome]] — [Superior Vena Cava (SVC) Syndrome — PNLE Research.md](./Cancer/Oncologic%20Emergencies/Superior%20Vena%20Cava%20Syndrome/Superior%20Vena%20Cava%20(SVC)%20Syndrome%20%E2%80%94%20PNLE%20Research.md)
+- [[Tumor Lysis Syndrome]] — [Tumor Lysis Syndrome (TLS) — PNLE Research.md](./Cancer/Oncologic%20Emergencies/Tumor%20Lysis%20Syndrome/Tumor%20Lysis%20Syndrome%20(TLS)%20%E2%80%94%20PNLE%20Research.md)
+- [[Staging and Grading]] — [Cancer Staging and Grading — PNLE Research.md](./Cancer/Staging%20and%20Grading/Cancer%20Staging%20and%20Grading%20%E2%80%94%20PNLE%20Research.md)
+- [[Warning Signs of Cancer]] — [Warning Signs of Cancer and When to Refer — PNLE Research.md](./Cancer/Warning%20Signs%20of%20Cancer/Warning%20Signs%20of%20Cancer%20and%20When%20to%20Refer%20%E2%80%94%20PNLE%20Research.md)
