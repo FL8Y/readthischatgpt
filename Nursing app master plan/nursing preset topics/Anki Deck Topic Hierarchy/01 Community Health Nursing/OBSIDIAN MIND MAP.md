@@ -29,7 +29,7 @@
       - [[Diet]]
       - [[Exercise]]
       - [[Health Promotion]]
-      - [[Stop Smoking]]
+      - [[Stop Smoking]] — **Drafted — Needs Verification**
     - [[Magna Carta of Public Health Workers]]
     - [[People Behind CHN]]
     - [[Primary Health Care]]
