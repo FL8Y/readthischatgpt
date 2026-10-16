@@ -24,6 +24,31 @@ Assess symptom duration, oral intake, weight change, urine output, vital signs, 
 - Check pregnancy-specific recommendations, allergy, interactions and clinician orders. Do not self-start or combine antiemetics without professional review.
 - Correct potassium/magnesium abnormalities and evaluate QT risk when relevant.
 
+## Symptom scoring, fluids and escalation
+
+### Structured assessment
+A validated symptom score such as the **Pregnancy-Unique Quantification of Emesis (PUQE)** may help document nausea duration, vomiting frequency and retching over a defined period and monitor response to therapy. The score is an adjunct: it does not replace vital signs, weight trend, oral intake, urine output, laboratory assessment or clinical judgment. Ask about function, sleep, mood, ability to take medicines, and barriers to returning for care.
+
+Ketonuria is not a reliable standalone measure of dehydration or HG severity and should not be used by itself to determine admission or discharge. Interpret results in context of symptoms, hydration, hemodynamics, weight loss, renal function and electrolyte disturbance.
+
+### IV fluids and electrolyte safety
+- Use prescribed isotonic crystalloid and replace electrolytes based on measured results and the current obstetric order/protocol. Monitor intake/output, vital signs, orthostatic symptoms, urine output and repeat electrolytes as indicated.
+- Potassium replacement requires a verified order, concentration/rate checks, renal-function awareness and appropriate monitoring; never give IV potassium as a push.
+- Prolonged vomiting can cause hypokalemia, hypochloremia, alkalosis and dehydration-related renal dysfunction. Severe electrolyte disturbance, inability to retain fluids, hemodynamic instability, oliguria, significant weight loss or failure of outpatient therapy warrants urgent clinician assessment and possible inpatient treatment.
+- In prolonged vomiting or malnutrition, administer thiamine before dextrose-containing IV fluid or parenteral nutrition. Dextrose may precipitate Wernicke encephalopathy in a thiamine-deficient patient. If neurologic symptoms suggest Wernicke encephalopathy, escalate urgently for parenteral thiamine and medical management; do not wait for laboratory confirmation.
+
+### Anti-emetic choice and precautions
+Anti-emetics may be used in pregnancy when benefits and risks are evaluated; untreated severe HG also poses important maternal risks. Choice follows current local obstetric guidance and clinician review:
+- **Pyridoxine/doxylamine:** may be first-line depending on local guideline. Doxylamine can produce sedation and anticholinergic effects; review concurrent sedatives and safety with driving/falls.
+- **Antihistamines/phenothiazines:** check sedation, hypotension, anticholinergic effects, and relevant patient contraindications.
+- **Metoclopramide:** may be effective but can cause acute dystonia, akathisia or other extrapyramidal effects; generally use according to a short-course, second-line protocol and stop/escalate for movement reactions.
+- **Ondansetron:** may be considered when initial choices are ineffective. Review constipation and QT-prolongation risk, especially with hypokalemia/hypomagnesemia or other QT-prolonging medicines. In first-trimester use, the prescribing clinician should discuss uncertainty and balance any small potential fetal risk against the risks of untreated severe HG.
+- Do not combine or escalate anti-emetics independently. Reassess benefit, adverse effects, hydration and electrolytes.
+
+## Discharge and follow-up criteria
+Before discharge after assessment/treatment, verify that the treating team has reviewed clinical stability, ability to tolerate an oral regimen/fluids, hydration and laboratory issues where relevant, alternative diagnoses, and access to follow-up. Provide written instructions on the medicine schedule, hydration/nutrition plan, and exact return pathway. Return urgently for inability to keep down fluids, fainting, reduced urine, blood in vomit, severe abdominal pain, fever, confusion, unsteady gait, abnormal eye movements or worsening weakness. These are not “normal morning sickness” symptoms.
+
+
 ## Nursing priorities
 | Priority | Intervention | Rationale |
 |---|---|---|
