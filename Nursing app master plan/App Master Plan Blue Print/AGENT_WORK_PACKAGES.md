@@ -48,7 +48,7 @@ Before spawning agents, inspect the real Claude Code/Ruflo agent registry and to
 ## Agent 5 — Mobile UX & Accessibility Reviewer
 
 **Ownership:** PRODUCT_REQUIREMENTS_AND_UX.md UX sections, coordinated with Agent 4 through lead.  
-**Scope:** Mobile-first navigation, subject/topic library, diagnostic, lesson, quiz, review queue, tutor, dashboard, settings, import, offline, error/empty/loading states, accessibility. Do not select a tech stack without the options analysis.  
+**Scope:** Mobile-first navigation, subject/topic library, diagnostic, lesson, quiz, review queue, tutor, dashboard, settings, import, offline, error/empty/loading states, accessibility. Do not select a tech stack without the technical architecture comparison.  
 **Acceptance:** Every primary flow has states and recovery paths; short study sessions are supported; no screen depends solely on color.
 
 **Copy-paste prompt**
@@ -56,7 +56,7 @@ Before spawning agents, inspect the real Claude Code/Ruflo agent registry and to
 
 ## Agent 6 — Security, Privacy & AI Platform Analyst
 
-**Ownership:** Security portion of TECHNICAL_ARCHITECTURE_AND_CONTRACTS.md and TECHNICAL_ARCHITECTURE_AND_CONTRACTS.md via lead coordination.  
+**Ownership:** Security findings for TECHNICAL_ARCHITECTURE_AND_CONTRACTS.md; send findings to the integration owner. Do not edit the shared spec unless explicitly appointed its sole writer.  
 **Scope:** Evaluate direct provider-key storage vs backend proxy, local encryption, data minimization, import/document processing, logging, rate limits, validation, privacy, backups, sync, and source-grounded generation. Do not request or expose any real key.  
 **Acceptance:** Threat model includes key extraction, malicious imports/prompt injection, data leakage, provider failure, abuse/cost controls, and backup compromise.
 
