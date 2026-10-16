@@ -99,9 +99,23 @@ export function verificationPrompt(chunkTexts: string[]): { system: string; user
       '{"legit":boolean,"issues":string[],"suggestedOrigin":string|null}. ' +
       'List clinically doubtful or internally inconsistent statements in "issues". ' +
       '"suggestedOrigin" is your best guess of the textbook or guideline family the material resembles; ' +
-      'use null if unsure. Never invent citations, page numbers or URLs.',
+      'use null if unsure. Name only a general textbook or guideline family, never a specific edition, page, quote or link. ' +
+      'Never invent citations, page numbers or URLs.',
     user: chunkTexts.map((t, i) => `[${i + 1}] ${t}`).join('\n\n'),
   };
+}
+
+/**
+ * Keeps a suggested origin only if it is a plain family name. Anything with a URL, page number,
+ * DOI or ISBN is dropped, because the model cannot know those and must never invent them.
+ */
+export function sanitizeOrigin(origin: unknown): string | undefined {
+  if (typeof origin !== 'string') return undefined;
+  const t = origin.trim().replace(/\s+/g, ' ');
+  if (!t || t.length > 120) return undefined;
+  if (/https?:\/\/|www\.|\bdoi\b|10\.\d{4,}\/|\bisbn\b|\b(?:pp?|pages?)\.?\s*\d/i.test(t)) return undefined;
+  if (/^(null|none|unknown|n\/a)$/i.test(t)) return undefined;
+  return t;
 }
 
 export function parseVerification(raw: string): VerificationResult | null {
@@ -112,7 +126,7 @@ export function parseVerification(raw: string): VerificationResult | null {
   return {
     legit: o.legit,
     issues: o.issues.filter((x): x is string => typeof x === 'string'),
-    suggestedOrigin: typeof o.suggestedOrigin === 'string' ? o.suggestedOrigin : undefined,
+    suggestedOrigin: sanitizeOrigin(o.suggestedOrigin),
   };
 }
 

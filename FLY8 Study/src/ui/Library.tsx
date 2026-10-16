@@ -5,6 +5,11 @@ import { File } from 'expo-file-system';
 import type { AppState, Source, Topic } from '../core/types';
 import { assessTextQuality, chunkText, NEEDS_REVIEW_BELOW, parseVerification, verificationPrompt } from '../core/provenance';
 import { callModel } from '../ai/provider';
+import { assertBase64Size, classifyFile } from '../import/files';
+import { describeImportError, prepareImportedNote, titleFromFileName } from '../import/pipeline';
+import { ImportError, UNVERIFIED_SUGGESTION } from '../import/types';
+import type { ReviewedSource } from '../import/types';
+import { callModelVision } from '../import/vision';
 import { Btn, Card, Field, H, P, Pill, c } from './kit';
 
 const uid = (p: string) => `${p}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 6)}`;
@@ -16,6 +21,8 @@ export function Library({ state, update }: { state: AppState; update: (s: AppSta
   const [text, setText] = useState('');
   const [msg, setMsg] = useState('');
   const [busy, setBusy] = useState<string | null>(null);
+  const [importing, setImporting] = useState('');
+  const [importError, setImportError] = useState('');
 
   const addFolder = () => {
     const name = newFolder.trim();
@@ -62,6 +69,62 @@ export function Library({ state, update }: { state: AppState; update: (s: AppSta
     }
   };
 
+  const importScan = async () => {
+    setImportError('');
+    setMsg('');
+    const res = await DocumentPicker.getDocumentAsync({
+      type: ['application/pdf', 'image/*'],
+      copyToCacheDirectory: true,
+    });
+    if (res.canceled || !res.assets[0]) return;
+    const a = res.assets[0];
+    try {
+      const { kind, mediaType } = classifyFile(a);
+      if (kind === 'pdf' && state.settings.provider === 'openai') {
+        throw new ImportError('PDF import needs Claude. With OpenAI, take photos of the pages instead.', 'unsupported');
+      }
+      setImporting('Reading file...');
+      let base64: string;
+      try {
+        base64 = await new File(a.uri).base64();
+      } catch {
+        throw new ImportError('Could not read that file. Try picking it again.', 'read');
+      }
+      assertBase64Size(base64);
+      setImporting('Asking the AI to transcribe it. This can take a minute...');
+      const out = await callModelVision(state.settings, { kind, mediaType, base64 });
+      setImporting('Saving...');
+      const title = titleFromFileName(a.name);
+      const sourceId = uid('s');
+      const prepared = prepareImportedNote(out.text, sourceId, out.truncated);
+      const source: Source = {
+        id: sourceId,
+        title,
+        kind: 'file',
+        uri: a.uri,
+        addedAt: Date.now(),
+        quality: prepared.quality,
+        verification: prepared.verification,
+      };
+      const topic: Topic = { id: uid('t'), folderId, title, body: out.text, sourceIds: [sourceId] };
+      update({
+        ...state,
+        sources: [...state.sources, source],
+        chunks: [...state.chunks, ...prepared.chunks],
+        topics: [...state.topics, topic],
+      });
+      setMsg(
+        prepared.verification === 'needs-review'
+          ? `Saved, but the transcription looks rough${out.truncated ? ' or cut short' : ''}. Check it before studying.`
+          : 'Transcribed and saved to your library. Skim it for mistakes.',
+      );
+    } catch (e) {
+      setImportError(describeImportError(e));
+    } finally {
+      setImporting('');
+    }
+  };
+
   const check = async (source: Source) => {
     setBusy(source.id);
     try {
@@ -77,11 +140,16 @@ export function Library({ state, update }: { state: AppState; update: (s: AppSta
                 ...x,
                 verification: result.legit ? 'ai-checked' : 'needs-review',
                 suggestedOrigin: result.suggestedOrigin,
-              }
+                issues: result.issues,
+              } as ReviewedSource
             : x,
         ),
       });
-      setMsg(result.issues.length ? `AI flagged: ${result.issues.join('; ')}` : 'AI found no obvious problems.');
+      setMsg(
+        result.issues.length
+          ? `AI flagged (${UNVERIFIED_SUGGESTION}): ${result.issues.join('; ')}`
+          : `AI found no obvious problems (${UNVERIFIED_SUGGESTION}, not proof).`,
+      );
     } catch (e) {
       setMsg(e instanceof Error ? e.message : 'Check failed.');
     } finally {
@@ -116,10 +184,14 @@ export function Library({ state, update }: { state: AppState; update: (s: AppSta
           }}
         />
         <Btn label="Import .txt / .md file" kind="ghost" onPress={() => void pickFile()} />
+        <Btn label={importing ? 'Importing...' : 'Import PDF / photo'} kind="ghost" disabled={!!importing} onPress={() => void importScan()} />
+        <P dim>PDF needs Claude. Photos work with Claude or OpenAI. Max 15 MB. The AI transcribes it, so skim the result.</P>
+        {importing ? <P dim>{importing}</P> : null}
+        {importError ? <P>{importError}</P> : null}
         {msg ? <P dim>{msg}</P> : null}
       </Card>
       {topics.map((t) => {
-        const src = state.sources.find((x) => x.id === t.sourceIds[0]);
+        const src = state.sources.find((x) => x.id === t.sourceIds[0]) as ReviewedSource | undefined;
         return (
           <Card key={t.id}>
             <H>{t.title}</H>
@@ -127,7 +199,15 @@ export function Library({ state, update }: { state: AppState; update: (s: AppSta
               <View style={{ flexDirection: 'row', gap: 8, flexWrap: 'wrap' }}>
                 <Pill text={`readability ${Math.round(src.quality.score * 100)}%`} color={src.quality.score < NEEDS_REVIEW_BELOW ? c.warn : c.good} />
                 <Pill text={src.verification} color={src.verification === 'ai-checked' ? c.good : c.dim} />
-                {src.suggestedOrigin ? <Pill text={`looks like: ${src.suggestedOrigin} (unverified)`} /> : null}
+                {src.suggestedOrigin ? <Pill text={`looks like: ${src.suggestedOrigin} (${UNVERIFIED_SUGGESTION})`} /> : null}
+              </View>
+            ) : null}
+            {src?.issues?.length ? (
+              <View style={{ gap: 4 }}>
+                <P dim>AI-flagged issues ({UNVERIFIED_SUGGESTION}):</P>
+                {src.issues.map((issue, i) => (
+                  <P key={i}>- {issue}</P>
+                ))}
               </View>
             ) : null}
             {src ? <Btn label={busy === src.id ? 'Checking...' : 'Double-check with AI'} kind="ghost" disabled={busy !== null} onPress={() => void check(src)} /> : null}
