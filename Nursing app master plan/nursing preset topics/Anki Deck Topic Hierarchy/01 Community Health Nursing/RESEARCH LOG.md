@@ -109,8 +109,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
 - [x] **People Behind CHN** — `CHN, PHC/People Behind CHN`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: stakeholder/agency roles; nurse, midwife, BHW and other team roles; collaboration across assessment/planning/implementation/referral/evaluation; legal context; privacy/scope/safety; Philippine policy; PNLE distinctions; sources.  
+  Sources consulted: WHO–UNICEF PHC Operational Framework (2020); RA 7883 BHW Benefits and Incentives Act; RA 7160 Local Government Code; RA 11223 UHC Act; RA 10173 Data Privacy Act. Important facts covered: role boundaries vary by law, credential, training, employer and local rules; BHWs do not automatically hold licensed nurse/prescriber scope. Research file: `CHN, PHC/People Behind CHN/RESEARCH NOTES.md` (13,013 characters; reopened after save). Unresolved issues: full current legal text/amendments and local role protocols require verification. Last action: replaced generic PHC starter with substantive stakeholder-role research (2026-10-17). Next action: continue remaining CHN topic folders and verify sources before marking complete.
 - [x] **Primary Health Care** — `CHN, PHC/Primary Health Care`  
   Status: **Drafted — Needs Verification** | Required sections: foundations/frameworks; operational cycle; program indicators; Philippine context; nursing responsibilities; clinical prioritization and treatment safety; PNLE distinctions; source register.  
   Sources consulted: WHO–UNICEF PHC Operational Framework (2020); WHO–UNICEF PHC Measurement Framework (2022); RA 11223 on the Supreme Court E-Library and Lawphil. Important facts covered: three PHC components; classic eight Alma-Ata elements vs modern 14 system levers; relationship to primary care/public health/UHC; assessment-to-evaluation workflow; indicator levels; Philippine UHC context; safety and referral. Research file: `CHN, PHC/Primary Health Care/RESEARCH NOTES.md` (16,554 characters; reopened after save). Unresolved issues: final source-link verification; full legal text/current implementing rules; independent review against full standard. Last action: expanded generic starter note into substantive topic-specific draft and reopened saved file (2026-10-17). Next action: verify sources/current Philippine implementation before marking Verified Complete.
@@ -984,3 +984,14 @@ Every directory below was present in the repository's recursive tree at the init
 - Status: **Drafted — Needs Verification**, not Verified Complete.
 - Coverage reconciliation: 55/77 folders have substantive drafts, 22/77 still require substantive expansion, and 0/77 are verified complete.
 - Next action: continue to the next individual Health Promotion child topic and synchronize the checklist/mind map.
+
+
+## Research Cycle Log — 2026-10-17 (People Behind CHN)
+
+- Applied the mandatory standard to the individual People Behind CHN folder and replaced the generic PHC starter note with stakeholder-specific research.
+- Expanded `CHN, PHC/People Behind CHN/RESEARCH NOTES.md` from 2,398 characters to 13,013 characters.
+- Covered nurses, midwives, BHWs, local health teams/LGUs, DOH, PhilHealth, social workers, schools, community organizations, referral facilities; role boundaries; the community-health cycle; teamwork; privacy/scope/safety; and Philippine legal context.
+- Sources consulted: WHO–UNICEF PHC Operational Framework (2020); RA 7883; RA 7160; RA 11223; RA 10173.
+- Reopened the saved file and confirmed 13,013 characters plus BHW and RA 7883 sections.
+- Status: **Drafted — Needs Verification**, not Verified Complete. Full statutory text/amendments and local implementing protocols require final review.
+- Next action: continue the remaining individual topic folders and maintain the recursive audit.
