@@ -1,19 +1,25 @@
 # Nursing App Master Plan
 
-Workspace for organizing nursing-app planning, inspired-app research, and implementation decisions.
+Central workspace for organizing research, making architecture decisions, and coordinating the original Nursing Study App project.
 
 ## Start here
 
-- [App Master Plan Blueprint](./App%20Master%20Plan%20Blue%20Print/README.md) — central structure, decision rules, and cleanup workflow.
-- [App 1 inspired research](./App%201%20inspired%20research/README.md) — existing research link; verify the exact folder path during inventory.
-- [App 2 inspired research](./app%202%20inspired%20research/README.md) — existing research link; compare with App 1 before merging.
-- [App 3 A App-Inspired Research](./App%203%20A%20App-Inspired%20Research/README.md) — separate reference app unless evidence proves otherwise.
+- [App Master Plan Blueprint](./App%20Master%20Plan%20Blue%20Print/README.md) — authoritative planning index and current phase.
+- [App 1 inspired research](./App%201%20inspired%20research/README.md) — Android/APK-derived reference material; see its upload log for transfer status.
+- [App 2 inspired research](./app%202%20inspired%20research/README.md) — AnkiDroid reference, scheduler, and integration research.
+- [App 3 a app inspired research](./App%203%20a%20app%20inspired%20research/README.md) — Gizmo reference, quiz engine, and AI quiz-generation research.
 
-## Organization rules
+## Reference relationships
 
-- Keep one central blueprint and avoid duplicating source files just to connect folders.
-- Use relative links between the blueprint and research folders.
-- Merge only confirmed duplicates; preserve unique files and an audit trail.
-- The archive upload was previously reported as partial, so do not assume all source files are present until the manifest is reconciled.
+- **App 1 and App 3 are related to the same reference-app line**, according to the user's latest clarification.
+- **App 2 is a different reference app.**
+- Keep the folders separate and preserve their provenance. Reuse ideas and validated patterns, not copied proprietary code or assets.
+- Do not merge, delete, or rename research files as part of application architecture work.
 
-See the blueprint for the detailed cleanup workflow and app comparison plan.
+## Operating rules
+
+- The blueprint folder is the single planning authority for requirements, decisions, agent prompts, contracts, and implementation gates.
+- The current phase is research and architecture planning; do not build the app yet.
+- Separate observed evidence from inference and proposals.
+- The App 1 upload log records incomplete/blocked transfer work. Do not claim the source archive is fully transferred until the original manifest is reconciled with the Git tree.
+- Keep an audit trail for any separately authorized repository cleanup.
