@@ -450,6 +450,15 @@ PALMER's intended meaning has not been expanded by guesswork. The actual reposit
 - Updated and reopened `OBSIDIAN MIND MAP.md` to record 76/76 topic files expanded/reopened in the active deep-audit cycle.
 - This confirms per-folder research content coverage only. All 76 topics remain NEEDS REVIEW until the source-level and recursive quality audit is complete.
 
+## Recursive folder-coverage audit — 2026-10-17
+
+- Fresh recursive GitHub tree audit confirmed **80 directories below the PALMER root**, comprising **4 main grouping directories and 76 nested topic folders**.
+- Confirmed **76/76 nested topic folders contain a topic-specific `RESEARCH.md`**, and **4/4 main groupings contain `OVERVIEW.md`**. Root-level `RESEARCH TOPIC GUIDE.md`, `RESEARCH LOG.md`, and `OBSIDIAN MIND MAP.md` are present.
+- The recursive tree reports the smallest topic `RESEARCH.md` at **3,312 bytes**; **0/76** topic research files are below 2,500 bytes. This is a useful placeholder-screening check, not proof of clinical accuracy or full compliance.
+- Checklist audit: 4 entries remain marked `FILE PRESENT / READ-BACK CHECKED`; 0 are topic research entries. The remaining file-present entries are organizational `OVERVIEW.md` files, not topic research folders.
+- Per-folder content expansion/reopen milestone: **76/76**. **Final claim-by-claim source verification, link validation, and detailed quality review remain outstanding**; therefore no VERIFIED COMPLETE status is assigned to the full workspace.
+- Next action: run source/link validation by topic group, correct broken or weak citations, then re-run the recursive audit before final completion.
+
 ## New research-standard adoption — 2026-10-17
 - Re-read the complete current [RESEARCH TOPIC GUIDE.md](./RESEARCH%20TOPIC%20GUIDE.md) after the repository update. This full version supersedes the earlier shorter standard for all further PALMER work.
 - Mandatory quality gates now explicitly include assessment/red flags; diagnostics and clinically interpreted laboratory findings where relevant; treatment/procedure indications, contraindications, preparation, aftercare and complications; independent/dependent/collaborative nursing actions; medication contraindications, interactions, serious adverse effects and special populations where relevant; ABC/Maslow/acute-versus-chronic prioritization with rationale; Philippine law and DOH/PRC/BON context; source-level verification; and a fresh recursive final audit.
