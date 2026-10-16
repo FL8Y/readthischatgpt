@@ -125,6 +125,7 @@ These are review prompts, not folders already verified as present:
   - [[Cold Chain and Logistics Management]] — **Drafted — Needs Verification**
   - [[Elements of Immunization and Laws]] — **Drafted — Needs Verification**
   - [[Principles and Nursing Responsibilities]] — **Drafted — Needs Verification**
+    - [[BCG]] — **Drafted — Needs Verification**
   - [[Herbal]] — **Drafted — Needs Verification**
   - [[Identify the Prevention]] — **Drafted — Needs Verification**
   - [[Competency-Based Teaching]] — **Drafted — Needs Verification**
