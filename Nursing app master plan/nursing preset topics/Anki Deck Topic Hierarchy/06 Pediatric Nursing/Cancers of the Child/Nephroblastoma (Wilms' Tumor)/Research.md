@@ -1,55 +1,74 @@
-# Nephroblastoma (Wilms' Tumor) — Pediatric Nursing Research Notes
+# Nephroblastoma (Wilms Tumor) — Pediatric Nursing Research
 
-**Purpose:** PNLE-focused study material for pediatric nursing. This is an educational summary, not an individualized order or a substitute for current local protocols. Last repository research pass: 2026-10-17.
+**Purpose:** PNLE-focused pediatric nursing notes; not an individualized treatment order.  
+**Evidence review:** 17 October 2026. Core source: NCI PDQ Pediatric Treatment Editorial Board, updated 15 April 2025.
 
-## 1. Core concept
-Wilms tumor is a childhood renal malignancy often presenting as a painless abdominal mass. Do not palpate or repeatedly manipulate a suspected mass; notify the team and follow institutional precautions to reduce rupture/spillage risk.
+## 1. Definition and pathophysiology
+Wilms tumor (nephroblastoma) is a malignant embryonal renal tumor and one of the most common kidney cancers of childhood. It most often presents in young children. Tumor biology and prognosis depend on histology, stage, molecular findings, and response to therapy. Predisposition is associated with certain congenital syndromes and genetic changes, including WAGR syndrome, Denys–Drash syndrome, and Beckwith–Wiedemann spectrum/hemihyperplasia. These associations justify specialist-directed surveillance in selected children, not indiscriminate screening of every child.
 
-## 2. Pediatric assessment
-- Establish age, weight in kg, allergies, baseline function/development, relevant history, current medicines, immunization status where relevant, and caregiver observations.
-- Assess airway, breathing, circulation, mental status, pain, hydration/perfusion, nutrition/growth, elimination, skin, and age-appropriate vital signs according to local reference ranges.
-- Compare findings with the child's baseline and expected developmental stage; infants and children may deteriorate before they can describe symptoms clearly.
-- Document objective findings, onset/progression, intake/output, and response to interventions.
+## 2. Assessment and manifestations
+- **Abdominal/flank mass:** often painless and noticed by a caregiver during bathing/dressing or at a routine examination. Record the caregiver's observations and progression.
+- **Do not repeatedly palpate or deeply manipulate a suspected mass.** Avoid unnecessary abdominal pressure and follow the specialist's precautions because tumor rupture/spillage can affect staging and management.
+- **Hypertension:** can occur due to renal mechanisms; measure blood pressure using an appropriate cuff and age/height context, and escalate severe or symptomatic hypertension.
+- Other findings can include abdominal pain, hematuria, fever, anorexia, weight loss, anemia, or, less commonly, respiratory symptoms from pulmonary metastasis.
+- **Emergency red flags:** sudden severe abdominal pain/distention, pallor, tachycardia, hypotension, or collapse may indicate hemorrhage; respiratory distress, gross hematuria with instability, or neurologic symptoms also require urgent evaluation.
 
-## 3. Diagnostics and management
-- Select tests based on clinical presentation and current pediatric guidance; explain the purpose and prepare the child/family in developmentally appropriate language.
-- Verify specimens, age/weight-specific reference intervals, and timing before interpreting laboratory results. No single finding should be interpreted in isolation.
-- Management depends on severity, age, comorbidities, and specialist assessment. Confirm treatment plans and escalation thresholds with current institutional protocols.
-- Reassess after every intervention and document whether the expected response occurred.
+History should include onset and growth of abdominal enlargement, pain, urine changes, constitutional symptoms, medications, family history, and possible syndrome features (e.g., aniridia, overgrowth/hemihyperplasia, genitourinary anomalies, developmental concerns). Assess ABCs, perfusion, pain, blood pressure, abdominal appearance without forceful palpation, urine output, and emotional distress.
 
-## 4. Nursing priorities and rationale
-1. **ABCs and immediate threats first.** Activate emergency response for respiratory compromise, shock/poor perfusion, altered consciousness, rapidly progressive neurologic signs, or other severe deterioration.
-2. **Safety.** Apply age- and condition-appropriate precautions; prevent falls, aspiration, medication errors, infection, and injury.
-3. **Focused monitoring.** Trend vital signs, mental status, pain, weight, intake/output, and relevant labs/clinical signs rather than relying on a single observation.
-4. **Family-centered care.** Include caregivers as partners, acknowledge concerns, use plain language, and confirm understanding with teach-back.
-5. **Evaluation.** State the desired outcome, reassess, and escalate if the child worsens or the response is inadequate.
+## 3. Diagnostic work-up
+Pediatric oncology/urology teams determine diagnostic steps. Work-up may include:
+- CBC, renal and liver function tests, urinalysis, and other baseline tests as indicated.
+- Abdominal ultrasound, followed by contrast CT or MRI for renal anatomy, local extension, vessels, and the opposite kidney, according to the imaging protocol.
+- Chest imaging to assess pulmonary metastases when indicated.
+- Assessment for associated congenital/genetic syndromes and contralateral renal risk when clinically relevant.
+- Pathology and staging according to the treating cooperative-group approach.
 
-## 5. Medication and procedure safety
-- Calculate from a current order using a measured weight in kilograms; verify dose units, concentration, route, frequency, maximum dose, allergies, renal/hepatic considerations, interactions, and indication independently according to local medication-safety policy.
-- Never infer or invent a dose from a textbook mnemonic or this page. Verify drug-specific contraindications, serious adverse effects, antidotes, monitoring, and withholding criteria in an authoritative current monograph and the actual institutional protocol.
-- Distinguish an absolute contraindication from a precaution; do not independently stop, start, or change prescribed therapy.
-- Identify any intervention that could worsen the condition and confirm the specific avoidance rule with current guidance.
+**Important protocol distinction:** Children's Oncology Group (COG) approaches commonly use upfront nephrectomy for selected unilateral tumors, while the International Society of Paediatric Oncology (SIOP) approach commonly uses preoperative chemotherapy before surgery. These are different established pathways; do not combine them or assume one applies in every country/center. Biopsy timing also differs by protocol and can affect staging. Do not independently arrange biopsy or surgery outside the specialist plan.
 
-## 6. Complications and red flags
-Escalate urgently for deterioration in breathing, circulation/perfusion, consciousness, new focal neurologic deficit, seizure emergency, uncontrolled bleeding, severe dehydration, rapidly worsening pain/distention, signs of sepsis, or any topic-specific red flag described above. Follow the local emergency pathway and do not delay stabilization to finish routine assessment.
+## 4. Treatment overview
+Treatment is risk-adapted and multidisciplinary, commonly involving surgery and chemotherapy, with radiotherapy for selected stages/histologies. Bilateral disease or selected clinical circumstances may require preoperative chemotherapy and nephron-sparing strategies to preserve renal function. The plan depends on stage, histology (favorable versus anaplastic), metastatic disease, molecular findings, bilateral involvement, predisposition syndromes, and protocol. Never infer the exact regimen or dose from this summary.
 
-## 7. Family education
-- Explain the condition and care plan using age-appropriate words.
-- Give clear instructions on medicines, follow-up, home monitoring, infection/injury prevention, and when/how to seek urgent help.
-- Avoid blame and punishment; support caregiver coping and the child's developmental, school, and psychosocial needs.
-- Use teach-back: ask the caregiver to explain the key action and red flags in their own words.
+## 5. Nursing interventions and rationales
+| Nursing action | Rationale / evaluation |
+|---|---|
+| Avoid repeated/deep palpation or pressure over the suspected mass; communicate the precaution to all staff and caregivers. | Minimizes avoidable manipulation and supports safe staging/management. |
+| Monitor age-appropriate blood pressure, perfusion, pain, abdominal girth/appearance if ordered, urine output, and hematuria. | Identifies hypertension, bleeding, obstruction, or deterioration. |
+| Prepare child/family for imaging and procedures using age-appropriate explanation and comfort strategies. | Reduces distress and improves cooperation. |
+| Follow perioperative care: verify orders/consent, fasting status, allergies, blood availability if ordered, and baseline renal function; provide postoperative respiratory, pain, wound, fluid-balance, and mobility care. | Major renal surgery requires careful assessment and recovery monitoring. |
+| Trend CBC, renal/hepatic tests, intake/output, weight, nausea, mucositis, infection signs, and treatment-specific toxicities during therapy. | Detects marrow suppression, infection, dehydration, and organ toxicity. |
+| Use central-line, hazardous-drug, vesicant, and infection-prevention policies when relevant. | Reduces avoidable line infection, extravasation, and treatment exposure risks. |
+| Support body image, play, family coping, school continuity, and survivorship planning. | Cancer treatment affects development and family life as well as physical health. |
 
-## 8. PNLE reasoning
-- Prioritize immediate threats over routine tasks; ABCs and acute deterioration generally precede comfort/teaching.
-- Use Maslow's hierarchy as a supporting framework, not a rigid algorithm; safety and physiologic threats can supersede other needs.
-- Distinguish expected age-related findings from red flags, and acute deterioration from chronic baseline.
-- Common trap: treating a single classic sign as required for diagnosis, or assuming one medication/treatment is appropriate for every child.
+## 6. Medication and treatment safety
+Commonly used agents depend on risk group and protocol and may include actinomycin D (dactinomycin), vincristine, and doxorubicin, with other agents for higher-risk disease. This is not a regimen recommendation. Antineoplastic doses, cycle timing, supportive medicines, and dose modifications must be taken from the current signed pediatric oncology protocol.
 
-## 9. Topic-specific verification status
-**Research status:** Topic-specific starting summary drafted; not yet independently verified claim-by-claim against multiple topic-specific sources. The agent log must not count this file as fully verified until that source audit is complete.
+Before each treatment, verify patient identity, protocol/version, stage/risk group, cycle/day, height/weight and dose calculation basis, units, maximum dose if applicable, allergies, consent, blood counts, organ-function criteria, route, line patency, infusion sequence, and required independent checks. Vincristine is for intravenous use only and must never be administered intrathecally; verify route and labeling under the institution's high-alert medication safeguards. Dactinomycin and other vesicants require agent-specific extravasation precautions. Doxorubicin has cumulative cardiac toxicity; monitoring depends on exposure and protocol. All agents can have distinct marrow, hepatic, mucosal, and other toxicities. Clarify any discrepancy with oncology/pharmacy; do not independently alter treatment or invent a dose.
 
-## References for verification
-1. https://www.cancer.gov/types/childhood-cancers
-2. https://www.cancer.gov/types/brain/hp/child-brain-treatment-pdq
+## 7. Complications and long-term issues
+Potential problems include tumor rupture/hemorrhage, hypertension, hematuria, metastatic disease, perioperative complications, infection, myelosuppression, nausea/mucositis, renal-function changes, and agent-specific organ toxicity. Long-term risks depend on tumor biology and treatment exposures and may include cardiac effects, fertility concerns, second malignancies, and reduced renal reserve—particularly with bilateral disease, nephron-sparing surgery, or a solitary kidney. Survivorship follow-up should monitor blood pressure and renal function as recommended by the treating team.
 
-**Source note:** These links are starting points for authoritative reference checking, not evidence that every statement above has already been confirmed by those pages. Confirm current Philippine DOH/clinical institutional guidance where applicable and record exact source title/version in the research log.
+## 8. Family education
+- Report sudden abdominal pain, increasing distention, pallor, fainting, blood in urine, reduced urine output, severe headache, breathing difficulty, fever during immunosuppressive treatment, or uncontrolled vomiting urgently.
+- Avoid pressing or repeatedly feeling the abdominal mass; follow the team's handling advice.
+- Explain the planned sequence of chemotherapy, surgery, and/or radiation and why protocol pathways may differ.
+- Reinforce infection prevention, line care if applicable, medicine safety, appointment adherence, and written after-hours contact instructions.
+- Discuss genetic counseling or surveillance only when the team identifies a relevant predisposition syndrome or contralateral-risk indication.
+- Use teach-back and include the child in age-appropriate decisions; coordinate psychosocial, nutrition, school, and survivorship support.
+
+## 9. PNLE high-yield points
+- Classic clue: a young child with a painless abdominal/flank mass; diagnosis still requires appropriate evaluation.
+- **Avoid repeated abdominal palpation** of a suspected Wilms tumor.
+- Assess blood pressure and urine findings; hypertension and hematuria can occur.
+- Know that COG and SIOP treatment sequencing differs; do not assume all children receive preoperative chemotherapy or immediate nephrectomy.
+- Prioritize shock/hemorrhage and respiratory compromise over routine assessment.
+- Antineoplastic doses and routes must be protocol-verified; vincristine must never be given intrathecally.
+
+## 10. Philippine context and limitations
+This file summarizes international evidence and does not establish Philippine policy. The current NCI PDQ source is authoritative but does not replace a local pediatric oncology protocol. A current Philippine DOH Wilms tumor protocol was not verified for this entry. Follow the treating center's selected COG/SIOP-aligned or other approved protocol, medication safety procedures, surgical pathway, and applicable Philippine professional/legal requirements.
+
+## References checked
+1. **PDQ Pediatric Treatment Editorial Board.** *Wilms Tumor and Other Childhood Kidney Tumors Treatment (PDQ®): Health Professional Version.* National Cancer Institute (U.S.); published 15 April 2025. https://www.cancer.gov/types/kidney/hp/wilms-treatment-pdq
+2. **PDQ Pediatric Treatment Editorial Board.** *Wilms Tumor and Other Childhood Kidney Tumors Treatment (PDQ®): Health Professional Version.* NCBI Bookshelf, version NBK65842.43 (15 April 2025). https://www.ncbi.nlm.nih.gov/books/NBK65842/
+3. **National Cancer Institute.** *Wilms Tumor: Patient Version.* Symptoms, tests, and treatment overview. https://www.cancer.gov/types/kidney/patient/wilms-treatment-pdq
+
+**Verification limits:** The NCI clinician PDQ, NCBI Bookshelf publication/version history, and NCI patient summary were opened. No exact chemotherapy doses are provided; dosing and local treatment pathways require verification against the child's actual protocol.
