@@ -373,3 +373,13 @@
 - [[The Eyes]] — `Special Senses/Eyes/The Eyes`
 - [[Trauma to the Eye]] — `Special Senses/Eyes/Trauma to the Eye`
 - [[Tumors of the Eye]] — `Special Senses/Eyes/Tumors of the Eye`
+
+
+## Cardiovascular research drafts (verification pending)
+- [[Coronary Arteries]] — [Coronary Arteries and Myocardial Perfusion — PNLE Research.md](./Cardiovascular/Coronary%20Arteries/Coronary%20Arteries%20and%20Myocardial%20Perfusion%20%E2%80%94%20PNLE%20Research.md)
+- [[ECG Leads]] — [ECG Leads: Placement and Territories — PNLE Research.md](./Cardiovascular/ECG%20Leads/ECG%20Leads:%20Placement%20and%20Territories%20%E2%80%94%20PNLE%20Research.md)
+- [[Heart Sounds]] — [Heart Sounds and Abnormal Findings — PNLE Research.md](./Cardiovascular/Heart%20Sounds/Heart%20Sounds%20and%20Abnormal%20Findings%20%E2%80%94%20PNLE%20Research.md)
+- [[Pericardial Fluid]] — [Pericardial Effusion and Cardiac Tamponade — PNLE Research.md](./Cardiovascular/Pericardial%20Fluid/Pericardial%20Effusion%20and%20Cardiac%20Tamponade%20%E2%80%94%20PNLE%20Research.md)
+- [[Peripheral Vascular Diseases]] — [Peripheral Arterial and Venous Disease — PNLE Research.md](./Cardiovascular/Peripheral%20Vascular%20Diseases/Peripheral%20Arterial%20and%20Venous%20Disease%20%E2%80%94%20PNLE%20Research.md)
+- [[WHO Blood Pressure Categories]] — [Adult Blood Pressure Categories and Measurement — PNLE Research.md](./Cardiovascular/WHO%20Blood%20Pressure%20Categories/Adult%20Blood%20Pressure%20Categories%20and%20Measurement%20%E2%80%94%20PNLE%20Research.md)
+- [Myocardial Infarction — PNLE Research.md](./Cardiovascular/MI/Myocardial%20Infarction%20%E2%80%94%20PNLE%20Research.md) — verification pending.
