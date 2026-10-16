@@ -2,14 +2,14 @@
 
 **Audit date:** 2026-10-17  
 **Repository:** `FL8Y/readthischatgpt`, default branch `main`  
-**Scope:** Complete recursive Git tree inventory plus semantic inspection of project-relevant documentation and reference source.  
+**Scope:** Complete recursive Git tree inventory plus semantic inspection of project-relevant documentation and reference source. Cycle 6 current tree: 740 entries (599 blobs/files, 141 tree/directory entries), `truncated=false`; the blueprint contains 12 Markdown files including the readiness trace.  
 **Important limitation:** A tree inventory is not the same as reading every file's contents. Binary resources and hundreds of unrelated Claude/Ruflo framework files were inventoried but not all semantically read. The current Library DOCX versions were independently read in full during Cycle 5: Gizmo 54/54 pages and AnkiDroid 35/35 pages. The App 3 README's former claim of 52 pages was corrected to 54. The Gizmo minimum-SDK conflict remains unresolved: the report's main identity section says 34, while Addendum C says 26 citing apktool.yml; the primary apktool.yml itself is not present in the repository.
 
 ## Cleanup addendum — 2026-10-17
 
 After consolidating the blueprint documents, a fresh recursive Git tree query returned **739 entries: 598 blobs/files and 141 tree/directory entries**, with `truncated=false`. The verified post-deletion snapshot was `81432ac4c8f4c0d05dabe7106d20886e36a14dad`; subsequent edits changed existing Markdown content, not paths.
 
-The final `Nursing app master plan/` subtree has 407 entries including its root directory. The blueprint folder has 11 Markdown files, no nested directories, and 141,524 listed file bytes at the recorded tree snapshot `d018a28f50495a5c14f1d6bbf7dbe0f1f384fa33`. The QA review was then updated without changing paths; the byte total is a snapshot metric and may differ after later content edits. Research folder counts remain App 1: 280 files/57 directories including its root; App 2: 18 files/11 directories; App 3: 20 files/7 directories. Counts are path-specific and must be refreshed after later path changes.
+The final `Nursing app master plan/` subtree has 407 entries including its root directory. The blueprint folder had 11 Markdown files at the recorded pre-readiness-trace snapshot and now has 12 Markdown files, no nested directories. The previously recorded 141,524-byte total is historical and should not be reused as current. `d018a28f50495a5c14f1d6bbf7dbe0f1f384fa33`. The QA review was then updated without changing paths; the byte total is a snapshot metric and may differ after later content edits. Research folder counts remain App 1: 280 files/57 directories including its root; App 2: 18 files/11 directories; App 3: 20 files/7 directories. Counts are path-specific and must be refreshed after later path changes.
 
 The four legacy planning documents are now consolidated and deleted. Their exact original blob SHAs, destination documents and deletion commit SHAs are recorded in `CLEANUP_LOG.md`. No research files, raw assets, reference code or global Claude/Ruflo files were deleted.
 
