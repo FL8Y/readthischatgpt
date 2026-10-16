@@ -18,8 +18,8 @@ The initial plan is materially more useful than the previous single-README bluep
 - Key markdown research notes and primary reference code inspected.
 - Ten planning artifacts added under the blueprint directory.
 - Blueprint README and parent README updated.
-- All 11 files in the blueprint directory fetched back from GitHub and confirmed non-empty.
-- All relative links parsed from the two updated READMEs resolved to existing tree paths.
+- At the time of the initial council review, all 11 then-existing files in the blueprint directory were fetched back from GitHub and confirmed non-empty. A later verification pass includes this council review document as the twelfth file.
+- All relative links parsed from the two updated READMEs resolved to existing tree paths in the verification pass.
 - The explicit requirement that diagnostic assessment precede teaching was tightened in the traceability matrix.
 
 ## Council A — Developer / architecture
@@ -120,4 +120,4 @@ The initial plan is materially more useful than the previous single-README bluep
 3. Update REQUIREMENTS_TRACEABILITY.md with answer-key leakage, idempotency, concurrency, and source provenance tests.
 4. Reconcile complete report findings against all relevant markdown notes; preserve observed/inferred labels.
 5. Run the existing App 2 offline test suites if an appropriate environment is available; report inability honestly if not.
-6. Re-fetch updated files and rerun link/tree checks.
+6. Re-fetch updated files and rerun link/tree checks; record the final tree count and latest commit.
