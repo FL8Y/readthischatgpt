@@ -25,6 +25,8 @@ Use a consistent framework such as BUBBLE-HE (breasts, uterus, bladder, bowel, l
 - Suicidal thoughts, thoughts of harming infant, hallucinations, delusions, severe confusion or mania (urgent mental-health emergency).
 
 ## Nursing interventions and rationale
+
+For postpartum hemorrhage (PPH), use the current facility emergency bundle and objective blood-loss assessment where available; WHO's 2025 consolidated guideline brings together current prevention, diagnosis and treatment recommendations. The 2023 WHO guidance also recommends objective blood-loss assessment and a standardized, timely treatment bundle after vaginal birth. These global recommendations must be implemented through the applicable Philippine/facility protocol.
 | Focus | Intervention | Rationale |
 |---|---|---|
 | Uterine tone/bleeding | Assess fundus and lochia per protocol; massage a boggy uterus and activate PPH response when indicated. | Atony is a major cause of postpartum hemorrhage. |
@@ -61,7 +63,9 @@ Use current DOH postpartum and emergency obstetric protocols, local referral pat
 1. World Health Organization (WHO), *WHO recommendations on maternal and newborn care for a positive postnatal experience*, 2022: https://www.who.int/publications/i/item/9789240045989
 2. American College of Obstetricians and Gynecologists (ACOG), “Optimizing Postpartum Care,” Committee Opinion No. 736, May 2018: https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2018/05/optimizing-postpartum-care
 3. ACOG, “Postpartum Depression”: https://www.acog.org/womens-health/faqs/postpartum-depression
-4. WHO, “Postpartum haemorrhage”: https://www.who.int/health-topics/postpartum-haemorrhage
+4. WHO, *Consolidated guidelines for the prevention, diagnosis and treatment of postpartum haemorrhage*, 5 October 2025: https://www.who.int/publications/i/item/9789240115637
+5. WHO, *WHO recommendations on the assessment of postpartum blood loss and use of a treatment bundle for postpartum haemorrhage*, 21 December 2023: https://www.who.int/publications/i/item/9789240085398
+6. WHO, “Postpartum haemorrhage,” topic overview: https://www.who.int/health-topics/postpartum-haemorrhage
 
-## Verification limitations
-Exact postpartum observation frequency, PPH medication doses and follow-up schedules are protocol-specific. Confirm current Philippine facility guidance and medication references before bedside use.
+## Verification notes and limitations
+WHO's consolidated PPH guideline published 5 October 2025 is the current broad primary source used here for PPH prevention, diagnosis and treatment; the 2023 WHO blood-loss assessment/treatment-bundle recommendation provides specific background. Exact postpartum observation frequency, PPH medication doses and follow-up schedules remain protocol-specific. Confirm current Philippine facility guidance and medication references before bedside use.
