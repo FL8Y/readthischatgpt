@@ -314,6 +314,13 @@ PALMER's intended meaning has not been expanded by guesswork. The actual reposit
 - All three remain **NEEDS REVIEW** pending complete source/link validation.
 - This workstream has now expanded and reopened **37 distinct topic files**. **39 folders remain unworked by this workstream**; other parallel-worker log entries exist and must be reconciled before reporting a single repository-wide completion count. No folder is considered VERIFIED COMPLETE solely because a file exists.
 
+## Cumulative count reconciliation — 2026-10-17
+
+- Several research batches landed in parallel. Reconciled unique topic files across the logged batches: **39/76 topic folders expanded and reopened in the active deep-audit cycle; 37/76 remain** for equivalent expansion/review.
+- This reconciled count includes the three data-analysis topics, four research-type/design topics, and five additional topics (Levels of Measurement, Heterogeneity, Population, Quantitative, Qualitative) added after the 27/76 sampling-batch checkpoint. The log's earlier batch counts remain historical snapshots, not the current total.
+- Updated and reopened `OBSIDIAN MIND MAP.md` with the cumulative 39/76 count. All expanded topics remain **NEEDS REVIEW** until source links and claims have been validated; this is not a VERIFIED COMPLETE count.
+- Next action: continue with the remaining topic folders, then run the final recursive file/quality audit. Work remains open.
+
 ## New research-standard adoption — 2026-10-17
 - Re-read the complete current [RESEARCH TOPIC GUIDE.md](./RESEARCH%20TOPIC%20GUIDE.md) after the repository update. This full version supersedes the earlier shorter standard for all further PALMER work.
 - Mandatory quality gates now explicitly include assessment/red flags; diagnostics and clinically interpreted laboratory findings where relevant; treatment/procedure indications, contraindications, preparation, aftercare and complications; independent/dependent/collaborative nursing actions; medication contraindications, interactions, serious adverse effects and special populations where relevant; ABC/Maslow/acute-versus-chronic prioritization with rationale; Philippine law and DOH/PRC/BON context; source-level verification; and a fresh recursive final audit.
