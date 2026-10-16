@@ -17,6 +17,25 @@ Assess baseline cardiovascular history, blood pressure, pulse, respiratory sympt
 ## Supine hypotensive syndrome
 In later pregnancy, lying flat may allow the uterus to compress the inferior vena cava and reduce venous return, causing dizziness, nausea, pallor, hypotension or fetal effects. Turn the patient to a lateral position, commonly left lateral, and reassess. In emergencies, position must be adapted to the clinical situation and resuscitation protocol.
 
+## VTE risk: physiologic hypercoagulability is not a diagnosis
+
+Pregnancy and the postpartum period increase venous thromboembolism (VTE) risk through hypercoagulability, venous stasis (including uterine compression of pelvic veins) and vascular injury around birth. This is a pregnancy-related application of Virchow's triad. Risk may be further raised by prior VTE/thrombophilia, immobility, hospitalization, cesarean birth, obesity, smoking, infection and other patient-specific factors.
+
+| Presentation | Nursing response |
+|---|---|
+| New unilateral leg swelling, pain/tenderness, warmth or color change | Prompt same-day urgent clinical assessment for possible DVT; do not massage the limb or rely on Homan sign. Diagnostic testing is clinician-directed, commonly compression ultrasonography. |
+| Sudden dyspnea, pleuritic chest pain, hemoptysis, syncope, hypoxemia or collapse | Treat as possible pulmonary embolism: emergency response, ABC assessment and urgent evaluation; do not delay for a routine clinic appointment. |
+| Previous VTE or thrombophilia, hospitalization/immobility or multiple risk factors | Ensure risk assessment and prophylaxis plan are documented. Pharmacologic prophylaxis is individualized by risk, bleeding status and delivery timing; it must be ordered and managed under obstetric protocol. |
+
+**Exam trap:** Homan sign (calf pain with forced dorsiflexion) is not a reliable diagnostic test and should not be used to rule DVT in or out. Do not give leg massage or advise a patient with suspected DVT to “walk it off.” Also, dependent bilateral edema can occur in pregnancy but does not reassure against VTE when unilateral symptoms or cardiopulmonary red flags are present.
+
+## Supine symptoms vs cardiopulmonary emergency
+If a later-pregnancy patient develops dizziness, nausea, pallor or hypotension while lying flat, turn laterally (commonly left lateral) and reassess; persistent symptoms or abnormal vitals require further evaluation. Do not attribute severe dyspnea at rest, chest pain, syncope, hemoptysis, cyanosis or low oxygen saturation to normal pregnancy.
+
+## Fluid shifts and anemia interpretation
+Plasma-volume expansion exceeds the rise in red-cell mass, causing dilutional lowering of hemoglobin. Do not automatically label anemia as physiologic: compare with pregnancy-specific hemoglobin/hematocrit thresholds, symptoms, ferritin/iron results if ordered, bleeding history and gestational age. Iron therapy and investigation of the cause should follow the clinical plan.
+
+
 ## Nursing implications
 | Finding/need | Nursing action | Rationale |
 |---|---|---|
