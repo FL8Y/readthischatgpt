@@ -397,3 +397,14 @@
 - [[Sinusitis]] — [Sinusitis (Rhinosinusitis) — PNLE Research.md](./Respiratory/Sinusitis/Sinusitis%20(Rhinosinusitis)%20%E2%80%94%20PNLE%20Research.md)
 - [[Tonsillectomy and Adenoidectomy]] — [Tonsillectomy and Adenoidectomy: Perioperative Care — PNLE Research.md](./Respiratory/Tonsillectomy%20and%20Adenoidectomy/Tonsillectomy%20and%20Adenoidectomy:%20Perioperative%20Care%20%E2%80%94%20PNLE%20Research.md)
 - [[Tonsillitis and Adenoiditis]] — [Tonsillitis and Adenoiditis — PNLE Research.md](./Respiratory/Tonsillitis%20and%20Adenoiditis/Tonsillitis%20and%20Adenoiditis%20%E2%80%94%20PNLE%20Research.md)
+
+
+## Endocrine research drafts (verification pending)
+- [[DI]] — [Diabetes Insipidus (DI) — PNLE Research.md](./Endocrine/ADH:%20DI%20and%20SIADH/DI/Diabetes%20Insipidus%20(DI)%20%E2%80%94%20PNLE%20Research.md)
+- [[SIADH]] — [Syndrome of Inappropriate Antidiuretic Hormone (SIADH) — PNLE Research.md](./Endocrine/ADH:%20DI%20and%20SIADH/SIADH/Syndrome%20of%20Inappropriate%20Antidiuretic%20Hormone%20(SIADH)%20%E2%80%94%20PNLE%20Research.md)
+- [[Addison's]] — [Addison Disease (Primary Adrenal Insufficiency) — PNLE Research.md](./Endocrine/Adrenal%20Disorders/Addison's/Addison%20Disease%20(Primary%20Adrenal%20Insufficiency)%20%E2%80%94%20PNLE%20Research.md)
+- [[Conn's]] — [Primary Aldosteronism (Conn Syndrome) — PNLE Research.md](./Endocrine/Adrenal%20Disorders/Conn's/Primary%20Aldosteronism%20(Conn%20Syndrome)%20%E2%80%94%20PNLE%20Research.md)
+- [[Cushing's]] — [Cushing Syndrome — PNLE Research.md](./Endocrine/Adrenal%20Disorders/Cushing's/Cushing%20Syndrome%20%E2%80%94%20PNLE%20Research.md)
+- [[Diabetes Mellitus]] — [Diabetes Mellitus: Type 1, Type 2, and Acute Complications — PNLE Research.md](./Endocrine/Diabetes%20Mellitus/Diabetes%20Mellitus:%20Type%201,%20Type%202,%20and%20Acute%20Complications%20%E2%80%94%20PNLE%20Research.md)
+- [[Hyperthyroidism]] — [Hyperthyroidism and Thyroid Storm — PNLE Research.md](./Endocrine/Thyroid%20Disorders/Hyperthyroidism/Hyperthyroidism%20and%20Thyroid%20Storm%20%E2%80%94%20PNLE%20Research.md)
+- [[Hypothyroidism]] — [Hypothyroidism and Myxedema Coma — PNLE Research.md](./Endocrine/Thyroid%20Disorders/Hypothyroidism/Hypothyroidism%20and%20Myxedema%20Coma%20%E2%80%94%20PNLE%20Research.md)
