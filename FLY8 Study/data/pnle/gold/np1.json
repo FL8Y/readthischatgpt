@@ -63,26 +63,27 @@
     "area": "NP1",
     "topic": "Isolation of suspected measles",
     "archetype": "infection-control-isolation",
-    "difficulty": 3,
-    "vignette": "A mother brings her 3-year-old child to a rural health unit. The child has had fever for three days, with cough, a runny nose, red watery eyes, and a red rash that began on the face. Several other mothers and infants are in the waiting area.",
-    "stem": "What should the nurse do first?",
+    "difficulty": 4,
+    "vignette": "At a rural health unit, a nurse sees a 3-year-old child held by the mother in a crowded queue at the registration desk. The child has had fever for three days with cough, runny nose, red watery eyes, and a red rash that began on the face and is now on the trunk. Nearby sit several infants younger than 9 months, a pregnant woman, and an older man waiting for blood pressure checks. The unit has one consultation room in use and a small side room with a window.",
+    "stem": "Which action should the nurse take first?",
     "options": [
-      "Move the child and mother to a separate ventilated room",
-      "Finish registering the child before attending to anything else",
-      "Ask the waiting mothers to show their children's vaccine cards",
-      "Give the mother a handout on rest and fluids to read at home"
+      "Move the child and mother to the side room with the window, away from the queue",
+      "Phone the municipal surveillance officer and wait for advice before moving anyone",
+      "Check the vaccination cards of the infants and the pregnant woman in the queue",
+      "Start assessing the child's hydration and nutrition while at the registration desk"
     ],
     "answerIndex": 0,
-    "strategyTag": "Safety/infection control: contain the source first",
-    "reasoning": "1. 'First' with a suspected communicable disease points to protecting others.\n2. The findings (fever, cough, runny nose, red eyes, rash starting on the face) suggest measles, which is airborne.\n3. Waiting infants and unvaccinated children are susceptible.\n4. Safety and infection control come before paperwork, teaching or record review.\n5. Separate the client now, then report, assess, and teach.\n6. Choose the separate ventilated room.",
+    "strategyTag": "Safety/infection control: contain the source before assessing, reporting or tracing",
+    "reasoning": "1. 'First' with a suspected communicable disease asks what stops harm to others right now.\n2. Fever, cough, runny nose, red eyes, and a rash spreading from the face suggest measles, which spreads through the air and is highly contagious.\n3. The queue contains infants too young to be fully vaccinated and a pregnant woman, so exposure is ongoing.\n4. Every other option is a correct nursing task (reporting, contact checking, assessment) but each leaves the child in the queue.\n5. Containment comes first; reporting, contact review, and full assessment follow once the child is separated.\n6. Choose moving the child to the ventilated side room.",
     "optionRationales": [
-      "Measles spreads through the air, so removing the suspected case from other clients immediately limits exposure before anything else is done.",
-      "Paperwork matters, but any delay keeps the child among susceptible infants.",
-      "Checking vaccine status is useful later, but it does not stop current exposure.",
-      "Education is appropriate later, but containing a possible airborne infection comes first."
+      "Separating the suspected case in a ventilated space stops further airborne exposure immediately. Reporting, assessment, and contact review can then be done safely.",
+      "Reporting a suspected notifiable disease is required, but waiting for advice before moving the child keeps susceptible infants exposed. Right action, wrong time.",
+      "Knowing who is protected helps later contact management, but it does nothing about the exposure happening now. Right action, wrong time.",
+      "Assessing hydration and nutrition is part of good care and tempts because assessment often comes first, but doing it in the queue prolongs exposure for everyone nearby."
     ],
     "keyFacts": [
-      "Measles is airborne and highly contagious; isolate suspected cases promptly."
+      "Measles is airborne and highly contagious; a suspected case is separated from other clients right away.",
+      "Reporting the suspected case and tracing contacts follow containment; verify reporting steps with local policy."
     ],
     "aiWritten": true,
     "nurseReviewed": false
@@ -92,27 +93,28 @@
     "area": "NP1",
     "topic": "Oral rehydration teaching",
     "archetype": "teaching-evaluation-understanding",
-    "difficulty": 3,
-    "vignette": "A nurse teaches mothers at a health center how to care for a child with diarrhea who is still alert and drinking. She demonstrates how to prepare oral rehydration solution from a packet and asks each mother to explain the plan back to her.",
-    "stem": "Which statement by a mother shows that teaching was effective?",
+    "difficulty": 4,
+    "vignette": "At a barangay health station, a nurse teaches four mothers whose children aged 1 to 3 years have had watery diarrhea for two days. The children are alert, thirsty, and drinking eagerly. The nurse demonstrates how to prepare oral rehydration solution from a packet using clean water, then asks each mother to describe in her own words how she will care for her child at home.",
+    "stem": "Which statement by a mother shows that teaching about home care was effective?",
     "options": [
-      "I will stop breastfeeding until the diarrhea has ended",
-      "I will mix the solution with fruit juice for better taste",
-      "I will give small sips often and offer more after each loose stool",
-      "I will withhold food and fluids for several hours first"
+      "I will keep breastfeeding, but use less water for the packet so it is stronger",
+      "I will stir the packet into his milk feeds and add sugar so he drinks more",
+      "I will give small sips often, and pause a few minutes if he vomits",
+      "I will give it when he asks for fluids, as forcing it may make him vomit"
     ],
     "answerIndex": 2,
-    "strategyTag": "Teaching evaluation: client restates the correct plan",
-    "reasoning": "1. The stem asks which statement shows understanding, so look for the one that is correct.\n2. Three statements contain unsafe or incorrect actions.\n3. Withholding fluids or stopping breastfeeding risks worsening dehydration.\n4. Altering the preparation can change how well the solution works.\n5. Small frequent sips with extra after each stool replaces losses safely.\n6. Choose that statement.",
+    "strategyTag": "Teaching evaluation: choose the statement that is fully correct, not partly correct",
+    "reasoning": "1. The stem asks which statement shows effective teaching, so the whole statement must be safe and correct.\n2. Three statements start with something reasonable (breastfeeding, drinking more, avoiding vomiting) and then contain an error.\n3. Preparing the solution with less water changes its balance and can be harmful.\n4. Mixing it into milk and adding sugar changes the preparation.\n5. Waiting for the child to ask delays replacing losses; fluids are offered regularly.\n6. Small frequent sips, with a short pause and slow restart after vomiting, matches standard home care.",
     "optionRationales": [
-      "Breastfeeding should continue during diarrhea, so this statement shows a need for reteaching.",
-      "The solution should be prepared as directed with the right amount of safe water; adding juice changes the balance.",
-      "Small frequent sips replace the fluid lost in stools and are tolerated better than large amounts, so this shows correct understanding.",
-      "Withholding fluids increases the risk of dehydration."
+      "Continuing breastfeeding is correct, which makes this tempting, but using less water makes the solution too concentrated. The preparation error means reteaching.",
+      "The wish to increase intake is good, but mixing the packet into milk and adding sugar changes the solution. It should be prepared as directed.",
+      "Small frequent sips replace stool losses and are tolerated well, and pausing briefly after vomiting before restarting slowly is accepted home care. Every part of the statement is sound.",
+      "Avoiding vomiting is a fair concern, but waiting for the child to ask delays replacing fluid losses. Small sips are offered regularly instead."
     ],
     "keyFacts": [
-      "Continue breastfeeding and give fluids frequently in small amounts during diarrhea.",
-      "Prepare rehydration solution exactly as directed."
+      "During diarrhea, continue breastfeeding and offer oral rehydration solution in small, frequent amounts.",
+      "Prepare the solution exactly as directed with safe water; do not add sugar or mix it into milk.",
+      "If the child vomits, pause briefly and then continue slowly; follow local program guidance."
     ],
     "aiWritten": true,
     "nurseReviewed": false
@@ -181,25 +183,27 @@
     "topic": "Prevalence vs incidence",
     "archetype": "acute-vs-chronic",
     "difficulty": 4,
-    "vignette": "A municipal nurse reviews health data for a long-term illness in the community. Over the past year, few new cases were found, yet a large share of the population is currently living with the condition.",
-    "stem": "Which interpretation of these data is most accurate?",
+    "vignette": "A municipal nurse reviews five years of records for hypertension in a barangay. The number of residents newly diagnosed each year stayed about the same, and the share of residents screened did not change. Over the same period, the number of residents living with hypertension rose steadily. During these years the health office provided free maintenance medicines, regular monitoring, and home visits for people with the condition.",
+    "stem": "Which explanation best accounts for the rising number of residents living with hypertension?",
     "options": [
-      "The illness is of short duration and is quickly fatal to those affected",
-      "Few new cases yet many existing cases suggest a long-lasting illness",
-      "A new outbreak is currently spreading rapidly through the community",
-      "The illness is being rapidly eliminated from the population over time"
+      "A hidden rise in new cases has occurred that the yearly diagnosis counts miss",
+      "People now live longer with the condition, so existing cases build up over time",
+      "The rise is an early outbreak phase that will settle when new cases stop appearing",
+      "The rising count shows the program is failing to prevent hypertension in residents"
     ],
     "answerIndex": 1,
-    "strategyTag": "Incidence = new cases; prevalence = all existing cases",
-    "reasoning": "1. Define the terms: incidence is new cases over a period; prevalence is all existing cases.\n2. Low incidence with high prevalence means cases accumulate.\n3. Cases accumulate when people live with the disease for a long time.\n4. A short or fast-fatal illness would not accumulate.\n5. An outbreak would raise incidence.\n6. Choose the long-duration interpretation.",
+    "strategyTag": "Prevalence depends on new cases (incidence) and how long people remain cases",
+    "reasoning": "1. Define the terms: incidence is new cases in a period; prevalence is all existing cases.\n2. Incidence stayed steady, so more new cases cannot be the reason prevalence rose.\n3. Prevalence also depends on duration: if people stay cases for longer, they accumulate.\n4. The program gave medicines, monitoring, and home visits, which keep people with a chronic condition alive and in the count.\n5. An outbreak pattern applies to an acute infection, not a chronic condition, and a steady incidence argues against a hidden rise.\n6. A growing count here can reflect program success, so the failure claim does not follow.",
     "optionRationales": [
-      "A short, quickly fatal illness would keep prevalence low because cases do not accumulate.",
-      "Prevalence counts all existing cases and builds up when people live with a condition for a long time, while incidence counts only new cases.",
-      "An outbreak would produce a rise in new cases, which means high incidence.",
-      "Elimination would show falling prevalence and incidence."
+      "The screening rate was stated to be unchanged, so a hidden rise in incidence is not supported. This tempts those who assume prevalence only rises when incidence does.",
+      "With steady incidence, a rising prevalence means cases stay in the count longer. Better control and longer survival lengthen duration, so cases accumulate.",
+      "An outbreak phase suits a short-lived infection with a surge of new cases. Here new cases were steady and the condition is chronic.",
+      "This is a true-sounding program critique, but a rising prevalence does not measure prevention failure when incidence is steady. Longer survival also raises the count."
     ],
     "keyFacts": [
-      "Incidence counts new cases; prevalence counts all existing cases at a time or period."
+      "Prevalence = existing cases; incidence = new cases in a period.",
+      "For a stable condition, prevalence is roughly incidence multiplied by average duration.",
+      "Better treatment and longer survival can raise prevalence without any rise in incidence."
     ],
     "aiWritten": true,
     "nurseReviewed": false
@@ -210,25 +214,26 @@
     "topic": "Research participation rights",
     "archetype": "ethics-rights-informed-consent",
     "difficulty": 4,
-    "vignette": "A nurse collects survey answers in households for a community health study. Halfway through an interview, a participant says she is uncomfortable and wants to stop and withdraw from the study altogether.",
-    "stem": "What is the nurse's most appropriate action?",
+    "vignette": "A nurse on a municipal study team is interviewing mothers at home about infant feeding practices. The mother signed a consent form that states participation is voluntary and that she may stop at any time. Partway through the interview she says she feels uncomfortable and wants to stop and withdraw from the study. A barangay health worker who came along says the answers so far are valuable and urges the nurse to ask the few remaining questions.",
+    "stem": "Which action should the nurse take?",
     "options": [
-      "Explain that the answers she already gave must stay in the study",
-      "Encourage her to finish the interview so the sample is complete",
-      "Continue the interview but promise that her name will not be shared",
-      "Stop the interview, reassure her care is unaffected, notify the lead"
+      "Ask the remaining questions quickly, then let her withdraw as she requested",
+      "Offer to skip the sensitive questions and continue with the rest of the form",
+      "Ask the health worker to explain the study's benefits to help her decide",
+      "Stop the interview and assure her that services will not be affected"
     ],
     "answerIndex": 3,
-    "strategyTag": "Ethics: autonomy; voluntary participation",
-    "reasoning": "1. The conflict is between the study's needs and the participant's autonomy.\n2. Autonomy and voluntary consent take priority over data completeness.\n3. Pressure, persuasion or bargaining are coercive.\n4. Promises about confidentiality do not answer a request to stop.\n5. The nurse stops, reassures that services will not be affected, and reports to the investigator.\n6. Choose that option.",
+    "strategyTag": "Ethics: voluntary participation and autonomy over study needs",
+    "reasoning": "1. The conflict is between the study's wish for complete data and the participant's right to withdraw.\n2. Autonomy and voluntary consent outrank data completeness and the health worker's urging.\n3. She asked to stop and withdraw altogether, so responses that keep the interview going override her request.\n4. Skipping only some questions answers a different request (discomfort with certain items), not a withdrawal.\n5. Explaining benefits to persuade her is a form of pressure.\n6. The nurse stops and reassures her that her care is not affected; handling of data already given follows the study protocol and is reported to the investigator.",
     "optionRationales": [
-      "Using this as a reason to refuse is pressure; handling of data already collected should follow the approved protocol and be explained, not used to block withdrawal.",
-      "Persuading her to continue undermines voluntary participation and risks coercion.",
-      "Anonymity does not remove her right to stop; this ignores her request.",
-      "Participation is voluntary and withdrawal is a right at any time without penalty, so the nurse respects it and follows the study process."
+      "A quick finish looks like a compromise, but it continues the interview after she asked to stop. Her request is ignored.",
+      "Skipping sensitive items would suit a participant who is uncomfortable with certain questions. She asked to withdraw altogether, so this answers a different request.",
+      "Explaining benefits to change her mind is persuasion that undermines voluntary participation, even if the intent is kind.",
+      "Withdrawal is a right at any time without penalty. Stopping and reassuring her respects autonomy and protects her access to services."
     ],
     "keyFacts": [
-      "Research participants may withdraw at any time without penalty or loss of services."
+      "Research participants may withdraw at any time without penalty or loss of services.",
+      "Handling of data already collected follows the approved study protocol; report the withdrawal to the investigator."
     ],
     "aiWritten": true,
     "nurseReviewed": false
@@ -269,25 +274,26 @@
     "topic": "Outbreak investigation steps",
     "archetype": "initial-action-assess-vs-intervene",
     "difficulty": 4,
-    "vignette": "A school nurse notes that 12 students from different classes developed vomiting and watery stools within one day of eating at the school canteen. The principal asks the nurse to follow proper steps in investigating this.",
-    "stem": "Following the systematic steps of an outbreak investigation, what is done first?",
+    "vignette": "An elementary school of about 600 pupils usually reports one or two cases of vomiting or loose stools a week. Over two days the school clinic records 12 pupils from different grade levels with vomiting and watery stools, and most of them ate at the school canteen. The principal wants the canteen closed at once. A municipal investigation team has arrived with roles assigned and its equipment ready.",
+    "stem": "Before any other investigation task, which must the team establish first?",
     "options": [
-      "Close the school canteen until the investigation has been completed",
-      "Confirm the diagnosis and that cases exceed the expected number",
-      "Send parents a letter about handwashing and safe food handling",
-      "Collect food samples from the canteen for laboratory testing"
+      "Which foods the canteen served and how they were prepared and stored",
+      "That the diagnosis is right and cases exceed the usual number",
+      "The onset time, grade level, and symptoms of each affected pupil in a list",
+      "Whether the canteen staff have current health certificates and training"
     ],
     "answerIndex": 1,
-    "strategyTag": "Nursing process: assess/verify before intervene",
-    "reasoning": "1. The stem asks for the first step in a sequence.\n2. The investigation begins by confirming that the problem is real.\n3. Verify the diagnosis and compare cases with the usual number.\n4. Only then define cases, collect data, and look for the source.\n5. Control actions and teaching follow findings.\n6. Choose verification.",
+    "strategyTag": "Assess/verify first: confirm the problem exists before tracing or controlling it",
+    "reasoning": "1. The stem asks what the team must establish before any other task, and the team is already prepared, so preparation is not the answer.\n2. Everything else depends on knowing that a real excess of cases exists and that the illness is correctly identified.\n3. Comparing 12 cases in two days with the usual one or two a week, and confirming the diagnosis, answers that.\n4. Listing cases, reviewing foods, and checking staff certificates are needed but build on a confirmed outbreak.\n5. The principal's request to close the canteen is a control measure and also comes after the problem is confirmed.\n6. Choose confirming the diagnosis and the excess of cases.",
     "optionRationales": [
-      "Control measures may be started while investigating, but they are not the first step of the sequence; closing without confirmation could be unfounded.",
-      "The first step is to establish that an outbreak really exists by confirming the diagnosis and comparing the number of cases with the usual number.",
-      "Health education is a general control measure and comes after confirming the problem.",
-      "Sampling is part of finding the source and follows establishing that an outbreak exists and defining cases."
+      "Reviewing food preparation helps find the source, but searching for a source before confirming an outbreak is premature. Right task, wrong time.",
+      "Confirming the diagnosis and that cases exceed the usual number establishes that there is an outbreak to investigate. Every later step relies on it.",
+      "A line list with onset times, grades, and symptoms is a core step, but it is organized after the problem is confirmed and a case definition is set. Right task, wrong time.",
+      "Staff certification is a relevant compliance check, but it is a true statement about risk factors that does not establish whether an outbreak exists."
     ],
     "keyFacts": [
-      "First step in outbreak investigation: verify diagnosis and confirm an outbreak exists."
+      "Outbreak investigations begin by verifying the diagnosis and confirming that cases exceed the expected number.",
+      "Case listing, source tracing, and control measures follow confirmation; step labels vary between references, so follow the sequence your course uses."
     ],
     "aiWritten": true,
     "nurseReviewed": false
@@ -415,25 +421,26 @@
     "topic": "Dengue warning signs",
     "archetype": "stable-vs-unstable",
     "difficulty": 4,
-    "vignette": "During a dengue outbreak, a nurse reviews four children at home. One has fever on day 2 with headache and body aches and is drinking well. One was febrile for four days and is now afebrile but has persistent vomiting, severe abdominal pain, and cold clammy skin. One has fever on day 3 with a positive tourniquet test but normal urine output. One has recovered and shows a rash on the arms with a good appetite.",
-    "stem": "Which child requires immediate referral to a hospital?",
+    "vignette": "During a dengue outbreak, a nurse makes home visits to four children. Child A has fever on day 2 with the highest temperature of the four, severe headache, and pain behind the eyes; the child is drinking and passing urine normally. Child B had fever for four days that stopped this morning; since last night the child has vomited three times, complains of severe stomach pain, and is restless with cold hands. Child C has fever on day 3 and a positive tourniquet test done yesterday, had a nosebleed that stopped with pressure, and is drinking and passing urine normally. Child D has been fever-free for two days and has an itchy rash with pale areas on the arms and legs.",
+    "stem": "Which child should the nurse refer to the hospital first?",
     "options": [
-      "The child with fever on day 2 who is alert, drinking well, and playing",
-      "The child with fever gone but vomiting, belly pain, and cold clammy skin",
-      "The child with a positive tourniquet test, normal urine output, and active play",
-      "The recovered child with a rash, good appetite, and normal activity"
+      "Child A, who has the highest temperature, severe headache, and eye pain",
+      "Child B, whose fever stopped but who has repeated vomiting and severe stomach pain",
+      "Child C, who has a positive tourniquet test and a nosebleed that stopped with pressure",
+      "Child D, who has an itchy rash with pale areas after two days without fever"
     ],
     "answerIndex": 1,
-    "strategyTag": "Unstable first: warning signs after fever drops",
-    "reasoning": "1. Identify who is deteriorating.\n2. Dengue can worsen when the fever falls.\n3. Persistent vomiting, severe abdominal pain, and cold clammy skin are warning signs of shock.\n4. The others are early, stable, or recovering.\n5. Unstable clients need action now.\n6. Refer the child with warning signs.",
+    "strategyTag": "Unstable first: warning signs when the fever falls point to possible shock",
+    "reasoning": "1. Rank the children by how unstable they are, not by how severe the fever or how dramatic the findings look.\n2. Child A has intense symptoms but is early in the illness and is hydrating and passing urine well.\n3. Child C has a bleeding sign and a positive tourniquet test, which support dengue, but the bleeding was minor and stopped and intake and urine output are normal.\n4. Child D shows a rash typical of recovery.\n5. Child B is deteriorating as the fever falls, with repeated vomiting, severe abdominal pain, restlessness, and cold hands, which are warning signs of possible plasma leakage and shock.\n6. Refer Child B first; the others need monitoring and review according to local guidance.",
     "optionRationales": [
-      "An early febrile phase with good intake can be managed with monitoring.",
-      "Warning signs after the fever subsides can mean plasma leakage and shock, which is an emergency.",
-      "This supports a dengue diagnosis and needs monitoring, but normal urine output suggests stability.",
-      "Recovery signs with good appetite are reassuring."
+      "The highest fever and severe pain are alarming, which makes this tempting, but the child is early in the illness and is still drinking and passing urine well.",
+      "Warning signs that appear as the fever falls can mean plasma leakage and impending shock. This child is the most unstable and needs urgent hospital care.",
+      "A nosebleed and a positive tourniquet test support dengue and call for close follow-up, but the bleeding stopped with pressure and hydration is normal. This child is stable for now.",
+      "An itchy rash with pale areas after fever has gone is a recognized recovery sign and does not need urgent referral."
     ],
     "keyFacts": [
-      "Dengue danger can appear as fever subsides; watch for persistent vomiting, severe abdominal pain, and cold clammy skin."
+      "Dengue can worsen as the fever falls; persistent vomiting, severe abdominal pain, restlessness, and cold extremities are warning signs.",
+      "Referral thresholds and monitoring steps follow the national dengue guidance; verify local policy."
     ],
     "aiWritten": true,
     "nurseReviewed": false
@@ -473,25 +480,26 @@
     "topic": "Planning health teaching",
     "archetype": "nursing-process-step-identification",
     "difficulty": 4,
-    "vignette": "A nurse is preparing a handwashing teaching session for mothers in a low-income community. Many of the mothers have limited reading skills and speak a local language.",
-    "stem": "Before choosing teaching materials, which action is the priority?",
+    "vignette": "A newly assigned nurse has been told by the municipal health plan to teach handwashing to mothers at the monthly barangay assembly, where she has a 30-minute slot. She has never met this group. She has been told that many mothers have limited reading skills, some speak a local language she knows only a little, and most bring young children to the meeting.",
+    "stem": "Which action should the nurse take first in preparing this session?",
     "options": [
-      "Prepare colorful posters with long text captions",
-      "Schedule the session at a time convenient for the nurse",
-      "Assess the group's learning needs, language, and literacy level",
-      "Write the evaluation questions for the session"
+      "Write measurable objectives for what the mothers should do afterward",
+      "Borrow a handwashing video from the municipal office for the assembly",
+      "Find out the mothers' practices, language, and reading ability",
+      "Review the barangay's diarrhea records to justify the topic choice"
     ],
     "answerIndex": 2,
-    "strategyTag": "Nursing process: assess learners before planning",
-    "reasoning": "1. Teaching follows the nursing process: assess, plan, implement, evaluate.\n2. The stem asks what comes before choosing materials.\n3. The learners' literacy and language shape the materials.\n4. Evaluation questions are written after objectives are set.\n5. Convenience for the nurse is not a learner-centered factor.\n6. Assess the group first.",
+    "strategyTag": "Nursing process: assess the learners before planning objectives or materials",
+    "reasoning": "1. Teaching follows the nursing process: assess, plan, implement, evaluate.\n2. The stem asks for the first action, so find the assessment step.\n3. The topic was already set by the municipal plan, so checking records to justify it adds little now.\n4. Objectives are a planning task and need assessment data to be realistic.\n5. Choosing a video is an implementation choice made before knowing whether it suits the group's language and reading level.\n6. Assess the learners first.",
     "optionRationales": [
-      "Materials with long text do not suit mothers with limited reading skills and are chosen too early.",
-      "Scheduling should consider the learners' availability, not the nurse's.",
-      "Effective teaching starts with assessing the learners so that methods and materials match their needs.",
-      "Evaluation tools come after objectives and planning."
+      "Objectives are an important planning step, but they should be based on what the mothers already do and can understand. Right action, wrong time.",
+      "A video may help, but selecting materials before knowing the group's language and literacy risks a poor fit. This is an implementation choice made too early.",
+      "Learning about the mothers' practices, language, and reading ability is learner assessment. It shapes the objectives, methods, and materials.",
+      "Diarrhea records show community need, but the topic was already assigned. The records are true and relevant, yet they do not describe the learners."
     ],
     "keyFacts": [
-      "Assess the learners' needs, literacy, and language before planning health teaching."
+      "Assess learners' existing practices, language, and literacy before setting objectives and choosing materials.",
+      "Teaching plan sequence: assess, set objectives, choose methods and materials, teach, evaluate."
     ],
     "aiWritten": true,
     "nurseReviewed": false
@@ -559,27 +567,28 @@
     "area": "NP1",
     "topic": "TB case finding in a household",
     "archetype": "abnormal-finding-identification",
-    "difficulty": 5,
-    "vignette": "During a home visit, a nurse meets a 62-year-old grandmother who has had a productive cough for more than 3 weeks, night sweats, and weight loss. A 2-year-old grandchild lives in the same small house. No one in the family has had tests.",
-    "stem": "What is the nurse's priority action?",
+    "difficulty": 4,
+    "vignette": "During a home visit, a nurse meets a 62-year-old grandmother who has had a productive cough for more than 3 weeks, night sweats, and weight loss. She has treated it with herbal remedies and has not been to the health center, which is far from the house. She cares for her 2-year-old grandchild all day in a small, poorly ventilated house. The family worries about stigma and asks the nurse to keep the matter quiet. No one in the household has been tested.",
+    "stem": "Which action should the nurse take as the priority?",
     "options": [
-      "Teach cough etiquette to the household and revisit them in two weeks",
-      "Start the child on preventive medicine today without further assessment",
-      "Tell the family to keep the grandmother isolated in a separate house",
-      "Arrange sputum examination for the grandmother and screen the child"
+      "Teach cough etiquette and ventilation now and recheck symptoms on the next visit",
+      "Bring the 2-year-old to the clinic first, since young children face the highest risk",
+      "Start preventive medicine for the 2-year-old based on the nurse's own judgment",
+      "Link the household to the TB program for evaluation of the grandmother and contacts"
     ],
     "answerIndex": 3,
-    "strategyTag": "Assess/confirm before intervene; protect vulnerable contact",
-    "reasoning": "1. Identify the abnormal pattern: prolonged cough, night sweats, weight loss suggests TB.\n2. A young child in the same household is a high-risk contact.\n3. Priority is confirming the diagnosis and screening contacts.\n4. Cough etiquette is supportive but delays action.\n5. Starting treatment is outside nursing scope and premature.\n6. Permanent isolation is not warranted or the nurse's decision.\n7. Choose referral for sputum testing and contact screening.",
+    "strategyTag": "Assess and confirm before treating; refer through the program; protect the vulnerable contact",
+    "reasoning": "1. A cough lasting weeks with night sweats and weight loss is a pattern that needs evaluation for TB.\n2. The grandmother is the likely source and the 2-year-old is a close, high-risk contact.\n3. The priority is getting a diagnosis for the source case and assessing contacts through the program, which also handles reporting and treatment decisions.\n4. Cough etiquette and ventilation are useful but delay diagnosis if done instead of referral.\n5. Evaluating only the child leaves the likely source undiagnosed.\n6. Starting medicine is outside nursing scope without a prescriber's order and program assessment.",
     "optionRationales": [
-      "Teaching is useful but waiting two weeks delays diagnosis in a likely contagious case.",
-      "Starting medication without assessment and diagnosis is outside nursing scope and premature.",
-      "Isolation without confirmation is extreme and not a nursing decision.",
-      "A cough lasting more than 2 weeks with these symptoms suggests TB, so confirming the diagnosis and screening the young contact comes first."
+      "These measures are helpful for infection control, but using them in place of referral and waiting until the next visit delays diagnosis. Right action, wrong priority.",
+      "Young children are at higher risk, which makes this tempting, but evaluating the child alone leaves the probable source untested and untreated.",
+      "Preventive treatment is a prescriber and program decision after assessment. Starting it on the nurse's own judgment is outside scope.",
+      "Linking the household to the program starts diagnosis for the likely source case and assessment of contacts, including the child, while respecting confidentiality and local procedures."
     ],
     "keyFacts": [
-      "Cough over 2 weeks should prompt TB evaluation.",
-      "Young household contacts of a suspected case need screening."
+      "Cough lasting more than two weeks with night sweats and weight loss needs evaluation for TB; exact criteria and tests follow the national TB program. Verify local policy.",
+      "Household contacts, especially young children, are assessed through the local TB program; verify local policy.",
+      "Starting treatment or preventive therapy is a prescriber and program decision, not an independent nursing action."
     ],
     "aiWritten": true,
     "nurseReviewed": false
