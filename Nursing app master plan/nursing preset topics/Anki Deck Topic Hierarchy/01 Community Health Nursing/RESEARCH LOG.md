@@ -10,9 +10,9 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 55 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, BCG, Maternal and Child Health, Health and Sanitation Laws, Pentavalent Vaccine, Elements of Primary Health Care, Other Vaccines, Food Sanitation, Vaccine Table, Locally-Endemic Diseases, Active Management of Third Stage of Labor, FHSIS, Epidemiology, Population Pyramid, Vital Statistics, Incidence vs Prevalence Rates, and Common Vital Statistics, and Swaroops, Sex Ratio, and EINC, and Vital Statistics Basic Concepts, and Newborn Screening, and Reproductive Health, and VAWC, and BEmOC and CEmOC, TT, Activities, Exercise, and People Behind CHN.
+- **Substantive topic drafts expanded:** 56 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, BCG, Maternal and Child Health, Health and Sanitation Laws, Pentavalent Vaccine, Elements of Primary Health Care, Other Vaccines, Food Sanitation, Vaccine Table, Locally-Endemic Diseases, Active Management of Third Stage of Labor, FHSIS, Epidemiology, Population Pyramid, Vital Statistics, Incidence vs Prevalence Rates, and Common Vital Statistics, and Swaroops, Sex Ratio, and EINC, and Vital Statistics Basic Concepts, and Newborn Screening, and Reproductive Health, and VAWC, and BEmOC and CEmOC, TT, Activities, Exercise, and People Behind CHN, and Functions of DOH.
 - **Topics verified complete:** 0
-- **Folders still requiring substantive topic-specific expansion:** 22 (all 77 have a notes file, but most remain initial starter notes).
+- **Folders still requiring substantive topic-specific expansion:** 21 (all 77 have a notes file, but most remain initial starter notes).
 - **Drafts awaiting source/content verification:** 53
 - **Research notes present:** 77/77; this is file presence, not research completion.
 - **Completion:** 0% verified topic research. No topic is marked Verified Complete.
@@ -64,8 +64,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
 - [x] **Functions of DOH** — `CHN, PHC/DOH/Functions of DOH`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: national DOH role; policy/stewardship; standards/technical assistance; regulation; public-health programs; surveillance; DOH vs LGU/PhilHealth/PRC-BON; devolution/UHC context; nursing interactions; PNLE distinctions; sources.  
+  Sources consulted: RA 7160 Local Government Code (Lawphil); EO 102 (1999) DOH reorganization (Lawphil); RA 11223 Universal Health Care Act (Lawphil); RA 9173 Philippine Nursing Act (Lawphil). Important facts covered: devolution of many frontline services to LGUs; national DOH stewardship/regulation/technical-support role; UHC integrated-system context; distinction among DOH licensing, PRC/BON licensure and PhilHealth accreditation. Research file: `CHN, PHC/DOH/Functions of DOH/RESEARCH NOTES.md` (11,266 characters; reopened after save). Unresolved issues: current DOH organizational issuances and amendments require full review; exact functions depend on service/office and current legal authority. Last action: replaced generic 2,426-character starter with substantive Philippine health-governance research and reopened saved file (2026-10-17). Next action: continue with the next individual CHN folder and verify current agency mandates before marking complete.
 - [x] **Family ADPIE** — `CHN, PHC/Family ADPIE`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 55/77; all 55 remain Drafted — Needs Verification.
-- **Folders still requiring substantive expansion:** 22/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** 56/77; all 56 remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** 21/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -1004,3 +1004,15 @@ Every directory below was present in the repository's recursive tree at the init
 - Sources listed: WHO Guidelines on Physical Activity and Sedentary Behaviour (2020); WHO physical-activity fact sheet; WHO older-adult physical activity/healthy-ageing materials; Philippine health-promotion sources.
 - Status: **Drafted — Needs Verification**, not Verified Complete. Direct link/source review and current Philippine program alignment remain.
 - Next action: continue remaining CHN topic folders and final verification.
+
+
+## Research Cycle Log — 2026-10-17 (Functions of DOH)
+
+- Re-read the full mandatory CHN research standard and inspected the Functions of DOH child folder.
+- Replaced the 2,426-character generic starter with an 11,266-character topic-specific note covering national DOH stewardship, policy/standards, technical assistance, regulation, public-health programs, surveillance, devolution, UHC, DOH/LGU/PhilHealth/PRC-BON distinctions, nursing roles and PNLE points.
+- Sources consulted: RA 7160 Local Government Code; EO 102 (1999) DOH reorganization; RA 11223 Universal Health Care Act; RA 9173 Philippine Nursing Act, all linked to Lawphil primary legal text.
+- Reopened the saved file from GitHub and confirmed 11,266 characters plus the devolution/UHC section.
+- Limitations: current DOH organizational issuances, amendments and implementation details were not reviewed page by page; exact authority depends on the service/office and current rules.
+- Status: **Drafted — Needs Verification**, not Verified Complete.
+- Coverage reconciliation: 56/77 folders have substantive drafts, 21/77 still require substantive expansion, and 0/77 are verified complete.
+- Next action: continue to the next individual folder and synchronize the checklist/mind map.
