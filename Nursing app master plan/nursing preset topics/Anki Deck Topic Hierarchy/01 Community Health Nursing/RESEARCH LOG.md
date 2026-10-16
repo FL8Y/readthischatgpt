@@ -10,10 +10,10 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 31 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, BCG, and Maternal and Child Health.
+- **Substantive topic drafts expanded:** 32 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, Chikiting Ligtas, Approved Types of Water Supply Facilities, Cold Chain and Logistics Management, Color and Type of Waste, Target Setting, Elements of Immunization and Laws, Principles and Nursing Responsibilities, Toilet Facility, Mental Health Program, BCG, and Maternal and Child Health, and Health and Sanitation Laws.
 - **Topics verified complete:** 0
-- **Folders still requiring substantive topic-specific expansion:** 46 (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes).
-- **Drafts awaiting source/content verification:** 28
+- **Folders still requiring substantive topic-specific expansion:** 45 (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes). (all 77 have a notes file, but most remain initial starter notes).
+- **Drafts awaiting source/content verification:** 32
 - **Research notes present:** 77/77; this is file presence, not research completion.
 - **Completion:** 0% verified topic research. No topic is marked Verified Complete.
 - **Mind map:** Existing Obsidian map reflects the folder hierarchy; status annotations, links and coverage audit still required.
@@ -256,8 +256,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
 - [x] **Health and Sanitation Laws** — `Elements of Primary Health Care/Sanitation and Environmental Health/Health and Sanitation Laws`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: law matrix; distinctions among sanitation, solid waste, clean water/air, hazardous waste and food safety; nursing application; emergency/ethics; PNLE recall; primary sources and limitations.  
+  Sources consulted: PD 856; RA 9003; RA 9275; RA 8749; RA 6969; RA 10611 (Supreme Court E-Library); Joint DENR–DOH AO 02 s. 2005; DOH AO 2017-0010, AO 2014-0027 and AO 2019-0054 pages. Important facts covered: broad subject matter of each law; not interchangeable; current implementation/amendments must be checked; no unsupported penalties or thresholds. Research file: `Elements of Primary Health Care/Sanitation and Environmental Health/Health and Sanitation Laws/RESEARCH NOTES.md` (9,355 characters; saved to main). Unresolved issues: final direct-link/full-text/amendment review. Last action: replaced unrelated mental-health starter text with substantive Philippine sanitation-law reference (2026-10-17). Next action: continue to next topic folder and verify legal sources before marking complete.
 - [x] **Toilet Facility** — `Elements of Primary Health Care/Sanitation and Environmental Health/Toilet Facility`  
   Status: **Drafted — Needs Verification** | Required sections: toilet-system types; safe excreta chain; siting/design cautions; operation/maintenance; nursing assessment; red flags/escalation; Philippine regulatory context; indicators; equity/access; PNLE distinctions; sources.  
   Sources consulted: WHO Sanitation fact sheet (2024); WHO Drinking-water fact sheet (2023); WHO/UNICEF JMP sanitation monitoring page; PD 856 Code on Sanitation (Supreme Court E-Library); DOH AO 2019-0054 PhATSS; RA 9275 Philippine Clean Water Act. Important facts covered: toilet presence is not equivalent to safely managed sanitation; sewer/septic/pit/shared/emergency options; maintenance and safe fecal-sludge management; no unverified universal technical dimensions. Research file: `Elements of Primary Health Care/Sanitation and Environmental Health/Toilet Facility/RESEARCH NOTES.md` (13,168 characters; reopened from main). Unresolved issues: direct verification of current Chapter XVII rules, amendments and local design requirements. Last action: replaced unrelated mental-health starter text with substantive toilet-facility research and reopened saved file (2026-10-17). Next action: continue to next individual topic folder and verify sources before marking complete.
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 31/77; all 31 remain Drafted — Needs Verification.
-- **Folders still requiring substantive expansion:** 46/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** 32/77; all 32 remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** 45/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -675,3 +675,13 @@ Every directory below was present in the repository's recursive tree at the init
 - Limitations: full text of every law/IRR and current clinical protocols have not been reviewed page by page; current schedules, thresholds, drug details and local referral rules must be verified in child-topic files. This is a parent overview, **Drafted — Needs Verification**, not completion of any child.
 - Coverage reconciliation: 31/77 folders have substantive drafts, 46/77 still need substantive expansion, and 0/77 are verified complete.
 - Next action: research the next unchecked child topic individually, starting with the smallest remaining child starter, and update its file, checklist, mind map and verification record.
+
+
+## Research Cycle Log — 2026-10-17 (Health and Sanitation Laws)
+
+- Applied the full standard to the individual Health and Sanitation Laws folder. The starter note contained unrelated mental-health content and was replaced with a topic-specific Philippine legal reference.
+- Expanded `Elements of Primary Health Care/Sanitation and Environmental Health/Health and Sanitation Laws/RESEARCH NOTES.md` from 2,334 characters to 9,355 characters.
+- Added a law/issuance matrix for PD 856, RA 9003, RA 9275, RA 8749, RA 6969, RA 10611, Joint DENR–DOH AO 02 s. 2005, and DOH AO 2017-0010, AO 2014-0027 and AO 2019-0054; clarified distinctions and nursing escalation/ethical limits.
+- Sources consulted: Supreme Court E-Library primary statute/issuance pages and official DOH pages. Full-text, amendment and direct-link review remains; the note intentionally avoids unsupported penalty, threshold or compliance claims.
+- Status: **Drafted — Needs Verification**, not Verified Complete.
+- Next action: continue to the next individual topic folder and maintain the recursive audit.
