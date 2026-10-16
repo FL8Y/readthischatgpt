@@ -137,29 +137,54 @@ The hierarchy should represent Subjects → Modules → Topics → Subtopics. A 
 
 ## 5. Learning model and mastery rules
 
-### Diagnostic
-A diagnostic is a strict gate before first teaching in the selected scope, not an optional suggestion. It estimates prior knowledge and must sample the scope according to a coverage blueprint, contain 1–50 questions, avoid near-duplicate questions, and distinguish low-information results from mastery evidence. Interrupted sessions resume without losing attempts or silently restarting. There is no silent skip in the normal first-learning path; a review-only mode may revisit previously taught material but cannot unlock new lessons. Guessing and small sample size reduce confidence. Diagnostic scores are learning signals, not clinical competency certification.
+### Diagnostic and assessment blueprint
+A diagnostic is a strict gate before first teaching in the selected scope. It estimates prior knowledge; it is not a mastery certification. It must contain 1–50 questions and sample the selected scope using a versioned coverage blueprint. The diagnostic session stores its scope, blueprint version, question versions, attempt history and completion state. Interruption resumes the same session without losing answers, silently restarting, or generating a different test under the same session ID.
 
-### Personalized teaching
-The learning plan should prioritize gaps, prerequisite dependencies, supplied-source coverage and confidence in evidence. Explain why each topic is selected. Avoid repeatedly assigning content already understood while neglecting persistent weaknesses. Use examples, mnemonics or visual aids when useful, not as replacements for accurate understanding.
+A scope must not unlock a new lesson until the diagnostic is complete and its results are durably committed. If no valid diagnostic set is available because of missing credentials, network failure or invalid generated content, preserve the session and show a recoverable blocked state. A review-only path may revisit previously taught content but cannot unlock new topics. Diagnostic evidence informs the initial plan; it must not be blended invisibly into post-teaching mastery.
+
+### Question and coverage policy
+- Topic pop quizzes contain 1–5 questions. The requested count is explicit and validated after generation; no silent fallback to the reference app's 3–12 schema.
+- Module assessments use a versioned blueprint that records topic coverage, difficulty distribution and the reason each question is included.
+- Deduplicate by stable question/concept-family identity across batches, not only normalized prompt text.
+- Preserve the question version, source version, grading-key version and rubric used for every attempt.
+- For generated question sets, reject invalid structure, invalid answer mappings, unsupported citations, duplicate options, missing cloze blanks, and ordering/matching data that cannot be graded unambiguously.
+- Separate diagnostic performance, topic-quiz performance, module-assessment performance and spaced-repetition recall in analytics. Each is evidence with a different purpose.
+
+### Personalized teaching and remediation
+The plan prioritizes prerequisite gaps, weak or uncovered concepts, stale evidence and source-backed content. Every recommended item has a human-readable reason and the evidence/policy version that produced it. If two topics have equal priority, use a deterministic tie-break (prerequisite order, then stable topic ID) so a learner does not receive a randomly reordered plan after restart. After a module assessment, remediation targets weak or uncovered concepts; topics already supported by sufficient recent evidence should not be repeated merely to fill a fixed-length plan.
 
 ### Retrieval and feedback
-Feedback should identify the correct answer, explain the underlying reasoning and address common misconceptions. Clinical rationales must not overstate certainty or invent citations. Incorrect answers inform future review without labelling the learner.
+Feedback identifies the correct answer, explains the underlying reasoning, addresses the misconception and links to supporting source locations where available. If the source does not support the answer key or rationale, label it as AI-added/general knowledge or needs review; never fabricate a citation. Preserve the exact question and rubric version so a later content edit does not rewrite historical grading silently.
 
 ### Spaced repetition
-Use actual recall ratings and review history. Weak cards should reappear sooner according to the chosen, versioned scheduler. Do not treat tap counts or screen time as proxies for mastery.
+Use a versioned scheduler behind an interface. Each review event stores the card/content version, rating, timestamp, scheduler version, previous state, resulting state and idempotency key. Weak cards reappear according to the selected scheduler; tap counts and screen time are not proxies for mastery. Do not claim exact AnkiDroid interval parity from the checked-in FSRS-5 reference. Scheduler selection remains a proposal until a maintained, license-compatible version is selected and its deterministic test vectors are recorded.
 
-### Mastery, confidence and module readiness
-Keep separate:
-- observed accuracy;
-- attempt count and recency;
-- question difficulty and topic coverage;
-- review performance;
-- estimated mastery;
-- confidence/evidence sufficiency;
-- module readiness.
+### Proposed v1 mastery/evidence policy (explicitly provisional)
+The app must use a transparent, versioned rule set rather than an unexplained percentage. These are proposed initial product rules, not a claim of clinically validated thresholds:
 
-A small number of correct answers must not imply high certainty. Labels such as “new,” “developing,” “likely mastered,” and “insufficient evidence” require documented definitions. Module readiness should reflect coverage, recent performance and evidence sufficiency; it is not proof of clinical competence.
+1. **Diagnostic evidence:** informs the initial plan and is shown separately; it does not by itself mark a topic as mastered.
+2. **Eligible post-teaching evidence:** valid, persisted attempts and review events tied to versioned questions/cards and canonical concept/topic IDs. Exclude duplicate event IDs and voided/regraded events from double counting.
+3. **Per-topic performance:** report raw accuracy and a recency-weighted accuracy separately. For the provisional recency view, use a 30-day half-life: event weight = 2^(-ageDays/30). Cap the contribution of repeated attempts on the same question version so rote repetition cannot dominate diverse concept coverage. Store the method version and input-event watermark.
+4. **Coverage:** calculate the share of mapped concept clusters sampled by valid evidence; do not infer coverage from the number of questions alone.
+5. **Evidence sufficiency:** show **Insufficient evidence** until there are at least 5 distinct question/concept-family IDs across at least 2 separate study sessions. Show **Developing evidence** once that floor is met. Show **Likely mastered** only when there are at least 10 distinct question/concept-family IDs, at least 3 sessions, at least one delayed retrieval/review at least 24 hours after initial learning, at least 80% mapped-concept coverage, recency-weighted performance of at least 85%, and most recent session performance of at least 80%. If any condition fails, do not show **Likely mastered**.
+6. **Confidence label:** calculate separately from performance. Low = evidence floor not met; medium = floor met but high-evidence criteria not met; high = high-evidence criteria met and coverage >=80%. This is an evidence-sufficiency label, not a statistical probability and not proof of clinical competence.
+7. **Missing/ambiguous evidence:** unknown source quality, ambiguous topic mapping, changed grading rubric or unresolved answer-key defect blocks a high-confidence mastery label until resolved/reviewed.
+8. **Calibration gate:** these defaults must be checked against a named scenario suite (perfect-but-sparse, broad-but-stale, repeated same-item success, recent failures after old success, one-session cramming, delayed successful retrieval, and partial concept coverage). Threshold changes require a method-version increment and regression comparison.
+
+These rules favor conservative explanations over false precision. The UI must expose why a label was assigned and which evidence is missing. A future evidence-based recalibration may change thresholds, but an implementation agent must not silently invent a different formula.
+
+### Proposed adaptive-plan ordering
+For the first version, rank eligible learning items lexicographically, not with an opaque blended score:
+1. unresolved safety/source-quality review flags;
+2. uncovered required concepts and unmet prerequisites;
+3. topics below the evidence-sufficiency floor;
+4. topics with the lowest recency-weighted performance;
+5. topics with the oldest successful retrieval evidence;
+6. stable topic ID as deterministic tie-break.
+The plan may use AI to explain or enrich the recommendation, but the AI output cannot override deterministic eligibility rules or invent evidence. Record the ranking-policy version and reasons.
+
+### Module readiness
+Module readiness is an aggregate view of required topic coverage, evidence sufficiency and recent performance; its policy must list required topics and exclusions. It must not be presented as clinical competency certification. A module cannot be labelled ready if any required topic has unresolved source-quality flags or insufficient evidence.
 
 ## 6. Points, levels and streaks
 
