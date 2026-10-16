@@ -159,3 +159,8 @@ Do not infer a cause solely from a shape. A bulge may be a large birth cohort, i
 4. **Philippine Statistics Authority.** *Age and Sex Distribution in the Philippine Population (2020 Census of Population and Housing)* (release date 12 August 2022; Reference No. 2022-322) and PSA Technical Notes on demographic indicators. Historical comparison and indicator definitions. https://psa.gov.ph/content/age-and-sex-distribution-philippine-population-2020-census-population-and-housing?vcode=s2Hz
 
 **Evidence limitations:** the CDC population-pyramid page and PSA releases/technical-note definitions were inspected through source results; the complete underlying census tables and all technical notes have not been reviewed page by page. The 2024 figures cited here are household-population percentages, not total-population counts. Local service planning must use the appropriate current local denominator. This is a substantive draft, **not Verified Complete**.
+
+
+## Clinical safety and medication applicability
+
+**Not applicable as a treatment topic:** this file covers demographic/vital-statistics concepts and does not recommend clinical treatment, medication, procedures or doses. Do not infer a clinical decision from these population measures alone. If a population finding triggers a clinical/public-health concern, use the relevant current disease-specific guideline and authorized referral/reporting pathway.
