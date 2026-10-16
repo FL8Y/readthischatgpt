@@ -103,3 +103,59 @@ export function rankFor(points: number): { rank: (typeof RANKS)[number]; level: 
   const level = Math.floor(Math.sqrt(Math.max(0, points) / 50)) + 1;
   return { rank: RANKS[Math.min(RANKS.length - 1, Math.floor((level - 1) / 3))], level };
 }
+
+/** Points needed to reach `level` (level 1 starts at 0). Inverse of the formula in rankFor. */
+export function pointsForLevel(level: number): number {
+  const l = Math.max(1, Math.floor(level));
+  return 50 * (l - 1) * (l - 1);
+}
+
+export interface LevelProgress {
+  level: number;
+  rank: (typeof RANKS)[number];
+  /** Points earned inside the current level. */
+  into: number;
+  /** Points the current level spans. */
+  span: number;
+  /** 0..1 progress to the next level. */
+  fraction: number;
+  toNext: number;
+}
+
+export function levelProgress(points: number): LevelProgress {
+  const p = Math.max(0, points);
+  const { rank, level } = rankFor(p);
+  const start = pointsForLevel(level);
+  const span = pointsForLevel(level + 1) - start;
+  const into = p - start;
+  return { level, rank, into, span, fraction: Math.min(1, Math.max(0, into / span)), toNext: span - into };
+}
+
+export interface NextAction {
+  /** Which app tab the action belongs to. */
+  tab: 'study' | 'library';
+  title: string;
+  detail: string;
+}
+
+/** Picks one clear next step from simple facts. Pure and deterministic. */
+export function recommendNext(input: {
+  topicCount: number;
+  diagnosticsDone: number;
+  attempts: number;
+  weakTitle?: string;
+}): NextAction {
+  if (input.topicCount === 0) {
+    return { tab: 'library', title: 'Add your first notes', detail: 'Paste or import notes so there is something to study.' };
+  }
+  if (input.diagnosticsDone === 0) {
+    return { tab: 'study', title: 'Take the diagnostic', detail: 'It decides which topics to teach first.' };
+  }
+  if (input.weakTitle) {
+    return { tab: 'study', title: `Review ${input.weakTitle}`, detail: 'This is your weakest topic right now.' };
+  }
+  if (input.attempts === 0) {
+    return { tab: 'study', title: 'Start a quiz', detail: 'Answer a few questions to build your progress.' };
+  }
+  return { tab: 'study', title: 'Keep your streak going', detail: 'A short quiz today keeps your streak alive.' };
+}
