@@ -408,3 +408,13 @@
 - [[Diabetes Mellitus]] — [Diabetes Mellitus: Type 1, Type 2, and Acute Complications — PNLE Research.md](./Endocrine/Diabetes%20Mellitus/Diabetes%20Mellitus:%20Type%201,%20Type%202,%20and%20Acute%20Complications%20%E2%80%94%20PNLE%20Research.md)
 - [[Hyperthyroidism]] — [Hyperthyroidism and Thyroid Storm — PNLE Research.md](./Endocrine/Thyroid%20Disorders/Hyperthyroidism/Hyperthyroidism%20and%20Thyroid%20Storm%20%E2%80%94%20PNLE%20Research.md)
 - [[Hypothyroidism]] — [Hypothyroidism and Myxedema Coma — PNLE Research.md](./Endocrine/Thyroid%20Disorders/Hypothyroidism/Hypothyroidism%20and%20Myxedema%20Coma%20%E2%80%94%20PNLE%20Research.md)
+
+
+## Fluids, electrolytes and acid-base research drafts (verification pending)
+- [[Acidosis vs Alkalosis]] — [Acidosis vs Alkalosis: ABG Interpretation — PNLE Research.md](./Fluids,%20Electrolytes%20and%20Acid-Base/Acid-Base/Acidosis%20vs%20Alkalosis/Acidosis%20vs%20Alkalosis:%20ABG%20Interpretation%20%E2%80%94%20PNLE%20Research.md)
+- [[Calcium]] — [Calcium Imbalances — PNLE Research.md](./Fluids,%20Electrolytes%20and%20Acid-Base/Calcium/Calcium%20Imbalances%20%E2%80%94%20PNLE%20Research.md)
+- [[IV Fluids]] — [Intravenous Fluids: Tonicity and Nursing Safety — PNLE Research.md](./Fluids,%20Electrolytes%20and%20Acid-Base/IV%20Fluids/Intravenous%20Fluids:%20Tonicity%20and%20Nursing%20Safety%20%E2%80%94%20PNLE%20Research.md)
+- [[Magnesium]] — [Magnesium Imbalances — PNLE Research.md](./Fluids,%20Electrolytes%20and%20Acid-Base/Magnesium/Magnesium%20Imbalances%20%E2%80%94%20PNLE%20Research.md)
+- [[Phosphorus]] — [Phosphate Imbalances — PNLE Research.md](./Fluids,%20Electrolytes%20and%20Acid-Base/Phosphorus/Phosphate%20Imbalances%20%E2%80%94%20PNLE%20Research.md)
+- [[Potassium]] — [Potassium Imbalances — PNLE Research.md](./Fluids,%20Electrolytes%20and%20Acid-Base/Potassium/Potassium%20Imbalances%20%E2%80%94%20PNLE%20Research.md)
+- [[Sodium]] — [Sodium Imbalances — PNLE Research.md](./Fluids,%20Electrolytes%20and%20Acid-Base/Sodium/Sodium%20Imbalances%20%E2%80%94%20PNLE%20Research.md)
