@@ -39,6 +39,18 @@ Management depends on bleeding, gestational age, placental location, fetal statu
 | Digital vaginal exam | Avoid until excluded | Avoid while previa remains possible |
 Both can cause major maternal hemorrhage and fetal compromise; classic patterns are not absolute.
 
+## Current guideline update: RCOG Green-top Guideline No. 27a (2026)
+RCOG published the fifth edition of Green-top Guideline No. 27a on 30 June 2026; the RCOG page was opened and checked during this research cycle. The update highlights earlier detection of placenta accreta spectrum (PAS), assessment during the first antenatal visit and 18–20-week anatomy scan, transvaginal ultrasound for placental position/cervical length, specialist multidisciplinary planning and delivery at a specialist centre when PAS probability is high, and intraoperative cell salvage as beneficial/safe in placenta previa/PAS. The guideline page says review will commence in 2029 unless otherwise indicated. This new edition supersedes treating the 2018 guideline as the most current version.
+
+**Important correction to risk teaching:** Previous cesarean delivery is a major PAS risk factor when placenta previa coexists, but PAS is not exclusively linked to previa or cesarean scar. Other uterine surgery/trauma (including curettage, hysteroscopic surgery, endometrial ablation, uterine artery embolization and myomectomy) can also be relevant. Ensure the history and referral pathway do not screen only for cesarean delivery.
+
+**PNLE and bedside priorities remain:** any second-half pregnancy bleeding requires assessment and ultrasound-based placental localization; do not perform a digital vaginal examination while previa remains possible. If hemorrhage or instability occurs, activate emergency response and stabilize the mother while assessing fetal status. Delivery timing, inpatient/outpatient planning and steroid use depend on bleeding pattern, gestational age, placental/PAS findings and locally adopted protocol; do not infer a universal schedule from this summary.
+
+**Current source checked:** Royal College of Obstetricians and Gynaecologists (RCOG), “Placenta Praevia and Placenta Accreta: Diagnosis and Management (Green-top Guideline No. 27a),” fifth edition, page last reviewed 30 June 2026: https://www.rcog.org.uk/guidance/browse-all-guidance/green-top-guidelines/placenta-praevia-and-placenta-accreta-diagnosis-and-management-green-top-guideline-no-27a/ . RCOG update announcement, 30 June 2026: https://www.rcog.org.uk/news/rcog-publishes-update-to-clinical-guidance-on-placenta-praevia-and-placenta-accreta-spectrum/ .
+
+## Verification limits
+The RCOG 2026 guideline landing page and official update announcement were opened and checked. The web version is hosted by Wiley; the complete clinical recommendation text was not fully reviewed in this pass. Thus, the 2026 edition/version and the stated summary updates are checked, but specific delivery thresholds, transfusion strategies and detailed PAS management are not marked independently verified here.
+
 ## PNLE high-yield points
 - Painless late-pregnancy bleeding suggests placenta previa.
 - The priority safety rule is **no digital vaginal examination until previa is excluded**.
