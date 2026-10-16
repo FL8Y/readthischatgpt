@@ -20,7 +20,7 @@
       - [[Implementation]]
       - [[Planning]]
         - [[Goal Setting]]
-        - [[Prioritization]]
+        - [[Prioritization]] — **Drafted — Needs Verification**
         - [[Scoring]]
     - [[Health Promotion]]
       - [[Diet]]
