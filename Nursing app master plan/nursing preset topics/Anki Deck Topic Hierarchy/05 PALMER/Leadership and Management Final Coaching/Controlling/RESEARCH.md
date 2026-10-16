@@ -28,3 +28,34 @@ If an audit reveals an immediate threat, protect patients and escalate before co
 - WHO, Patient Safety: https://www.who.int/health-topics/patient-safety
 - AHRQ, Patient Safety Network: https://psnet.ahrq.gov/
 - PRC, Nursing resources: https://www.prc.gov.ph/nursing
+
+## Choose indicators that reflect meaningful performance
+
+A useful indicator has a clear definition, numerator/denominator where applicable, data source, collection frequency, accountable owner, and threshold or comparison standard. Distinguish:
+- **Structure indicators:** resources and capacity (e.g., staffing mix, functioning equipment).
+- **Process indicators:** whether an evidence-informed care process occurred (e.g., completion of a required assessment).
+- **Outcome indicators:** effects on patients or services (e.g., falls, infections, patient experience).
+- **Balancing measures:** possible harms or tradeoffs caused by an improvement (e.g., reduced length of stay alongside readmissions or missed care).
+
+Use risk adjustment or stratification where patient acuity, service mix, or case complexity changes the interpretation. Small counts fluctuate and should not be overinterpreted; compare like with like and examine trends rather than reacting to one data point without context.
+
+## From measurement to improvement
+
+The controlling cycle should connect to corrective action and reassessment. A practical improvement approach such as Plan-Do-Study-Act (PDSA) defines the change, tests it on a limited scale when appropriate, studies the observed result and unintended effects, and adapts the next cycle. A memo or training session is an intervention, not proof that the problem was corrected; measure whether the process and outcome changed.
+
+## Safety culture and accountability
+
+Use audit and incident data to learn about systems while maintaining accountability. A low number of reported incidents may mean fewer events or underreporting; compare with reporting culture, surveillance quality, patient outcomes, and other indicators. Avoid targets that encourage hiding events, manipulating denominators, documenting care that did not occur, or selecting only favorable time periods.
+
+When an audit identifies immediate danger, protect patients and escalate promptly before finishing routine analysis. Corrective action should be proportionate to risk and evidence, with clear responsibilities, deadlines, education/support when appropriate, and follow-up measurement. Protect staff and patient confidentiality; share aggregate data when identifiable details are not needed.
+
+## Worked nursing example
+
+A unit's reported medication errors rise after introducing a nonpunitive reporting process. Do not automatically conclude that care became less safe: the change may have improved detection and reporting. Review error severity, medication administration opportunities, near misses, patient harm, reporting patterns, and process observations. Use the findings to identify system contributors and then reassess after corrective action.
+
+## Sources
+
+- WHO, **Patient Safety**: https://www.who.int/health-topics/patient-safety
+- AHRQ, **Patient Safety Network**: https://psnet.ahrq.gov/
+- AHRQ, **TeamSTEPPS**: https://www.ahrq.gov/teamstepps/index.html
+- PRC, **Nursing** resources: https://www.prc.gov.ph/nursing
