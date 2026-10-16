@@ -21,7 +21,7 @@ The blueprint had multiple overlapping documents that repeated requirements, UX/
 
 - Shortened `CLAUDE_MASTER_PROMPT.md` by moving detailed product and technical requirements to the two canonical specs and making the orchestrator link to them, rather than restating the same content.
 - Updated current document cross-references and agent ownership rules to point to the consolidated specifications and avoid multiple agents writing the same file.
-- The repository inventory, final README status and this log must be refreshed after legacy paths are removed.
+- The repository audit and both README indexes are refreshed to point to the consolidated documents and the post-cleanup tree.
 
 ## Deletion/move record
 
