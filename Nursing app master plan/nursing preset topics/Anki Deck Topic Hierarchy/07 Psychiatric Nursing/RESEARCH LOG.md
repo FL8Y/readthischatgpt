@@ -69,9 +69,9 @@ Status key: DISCOVERED = folder found; IN PROGRESS = substantive research file c
 
 ## Progress and verification
 - Discovered topic paths: 42
-- Researched: 0 fully complete; 4 have initial topic research files started (counted as IN PROGRESS, not complete)
+- Researched: 0 fully complete; 5 have initial topic research files started (counted as IN PROGRESS, not complete)
 - Verified topic files: 0 fully audited at initial log creation
-- Remaining: 38 topic paths not yet researched; 4 in progress
+- Remaining: 37 topic paths not yet researched; 5 in progress
 - Evidence-based completion: 0% of topic paths fully researched and verified (0/42). File creation alone does not count as completion.
 - Added topics: 0. Potential missing topics to evaluate after existing hierarchy research: suicide/self-harm assessment, psychiatric medications broadly, therapeutic milieu/de-escalation, mental status examination, Philippine legal/ethical duties. Add only after duplicate/relevance checks.
 - Source verification summary: foundational authoritative sources identified; topic-level claims and citations still require per-file verification.
@@ -80,10 +80,10 @@ Status key: DISCOVERED = folder found; IN PROGRESS = substantive research file c
 - Next action: add an explicit source-check record and improve the mismatch between the count and file list, then continue the next unchecked topic while rereading this guide and this log each cycle.
 
 ## Current status report (not final)
-- Completion percentage: 0% fully researched and verified (no topic has yet passed a complete source/content audit). Four topic files are in progress; the initial created topic file list contains five topic files, so reconcile this count in the next log update.
+- Completion percentage: 0% fully researched and verified (no topic has yet passed a complete source/content audit). Five topic files are in progress; none has passed a complete clinical/source audit.
 - Topic paths: 42 discovered; 0 fully verified; 42 not complete.
 - GitHub files reopened and existence/content checked: RESEARCH LOG.md, OBSIDIAN MIND MAP.md, and five topic research files (Crisis and Crisis Intervention; Symptomatologies of Mental Disorder; Therapeutic Communication; Major Depressive Disorder; Schizophrenia). This is path/content verification, not clinical verification.
 - Added topics: none.
 - Remaining work: research all topics, reconcile duplicates/legacy labels, verify all source links and clinical claims, audit full subtree.
 - Blockers: none preventing initial text-file creation; scope remains unfinished.
-- Exact next action: reread the research guide and this log; reconcile the count to five in-progress topic files; then complete a deeper source-by-source verification of the existing research files before moving to the next unchecked topic.
+- Exact next action: reread the research guide and this log; then complete a deeper source-by-source verification of the existing research files before moving to the next unchecked topic.
