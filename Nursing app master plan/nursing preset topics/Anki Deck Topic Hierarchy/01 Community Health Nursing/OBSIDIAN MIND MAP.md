@@ -97,3 +97,17 @@ These are review prompts, not folders already verified as present:
 ## Research management
 - [[RESEARCH LOG]]
 - [[RESEARCH TOPIC GUIDE]]
+
+## Research Status Overlay — 2026-10-17
+
+> These status labels describe research progress, not hierarchy completeness. None of the topics below is Verified Complete yet.
+
+- [[COPAR]] — **Drafted — Needs Verification**
+  - [[Basic Principles of COPAR]] — **Drafted — Needs Verification**
+  - [[Phases of COPAR]] — **Drafted — Needs Verification**
+- [[Basics of PHC]] — **Drafted — Needs Verification**
+- [[Characteristics of PHC]] — **Drafted — Needs Verification**
+- [[Primary Health Care]] — **Drafted — Needs Verification**
+- [[Elements of PHC]] — **Drafted — Needs Verification**
+
+All other topic folders require their own substantive research and logged verification. See [[RESEARCH LOG]] for the per-folder checklist and remaining work. The existence of a node or research file does not imply completion.
