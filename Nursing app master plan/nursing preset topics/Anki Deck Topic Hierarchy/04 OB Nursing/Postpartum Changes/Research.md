@@ -74,6 +74,33 @@ Activate the local PPH emergency pathway and summon help. Begin rapid coordinate
 A prophylactic uterotonic should be used according to third-stage-of-labor protocol. The WHO 2025 recommendation specifically does not support routine prophylactic TXA for either vaginal or cesarean birth, while it recommends TXA as part of treatment for diagnosed PPH within 3 hours after birth. Confusing these indications can cause missed first-line prevention or inappropriate drug use.
 
 
+## PPH classification and cause-directed response
+
+### Timing and common causes
+- **Primary/immediate PPH:** hemorrhage in the first 24 hours after birth.
+- **Secondary/delayed PPH:** abnormal or heavy bleeding after the first 24 hours postpartum, with definitions and upper time limits varying by guideline (commonly discussed up to 6–12 weeks). New heavy bleeding after discharge must be assessed, not explained away as “lochia.”
+- **Tone:** uterine atony—the uterus is soft/boggy and may respond to uterine massage/uterotonics under protocol.
+- **Trauma:** cervical/vaginal/perineal laceration, hematoma, uterine rupture or inversion; bleeding can continue even when the uterus is firm.
+- **Tissue:** retained placenta/products or placental accreta-spectrum issues may prevent effective uterine contraction.
+- **Thrombin:** coagulopathy from obstetric disease, massive hemorrhage or other causes; diffuse oozing or abnormal coagulation tests may be clues.
+
+Cause-directed assessment prevents the error of repeatedly treating a boggy fundus when another cause is also present. A firm uterus with ongoing heavy bleeding warrants immediate reassessment for trauma, retained tissue or coagulopathy.
+
+### Medication selection requires contraindication checks
+| Agent/class | Role in PPH care | Critical nursing safety check |
+|---|---|---|
+| Oxytocin | Common first-line uterotonic for prevention and treatment of uterine atony per protocol. | Verify order, dilution/infusion route, pump settings and hemodynamic response; avoid an unapproved rapid IV bolus because acute hypotension can occur. Monitor uterine response and bleeding. |
+| Methylergonovine/ergometrine | Alternative uterotonic in selected cases. | Avoid in hypertension/preeclampsia and follow contraindications for vascular/cardiac disease. Do not choose it reflexively when postpartum severe hypertension is present. |
+| Carboprost (prostaglandin F2α analogue) | Uterotonic for selected atony cases. | Generally contraindicated/avoided in asthma because of bronchospasm risk; verify product labeling and local protocol. |
+| Misoprostol | Prostaglandin uterotonic option under local protocol. | Fever, chills and GI effects can occur; route and dose must follow the approved algorithm. |
+| Tranexamic acid (TXA) | Antifibrinolytic adjunct to **treatment** of established PPH, early after birth, alongside standard measures. | It does not contract the uterus and does not replace uterotonic treatment/source control. Verify contraindications and IV administration details; do not mistake it for routine prophylaxis. |
+
+Do not delay the PPH emergency response to debate medication choices at the bedside. Call for help, start the local bundle and use the next appropriate agent based on contraindications, hemorrhage cause, response and authorized orders.
+
+### Reassessment and postpartum discharge safety
+PPH may recur or a secondary hemorrhage may develop after discharge. Review the facility's actual postpartum observation frequency and discharge criteria; those are not one universal schedule. Teach urgent return for soaking pads rapidly/heavy bleeding, large clots with symptoms, faintness, shortness of breath, palpitations, fever, worsening pelvic/abdominal pain or foul lochia. Assess anemia symptoms after significant blood loss and ensure ordered CBC, iron/replacement treatment and follow-up are completed.
+
+
 ## Breastfeeding and lactation teaching
 Encourage frequent responsive feeding, skin-to-skin, correct latch and monitoring of infant output/weight according to newborn protocol. Breast fullness can occur, but focal breast redness, fever, flu-like symptoms or worsening pain may indicate mastitis. If temporary separation occurs, support hand expression/pumping and safe milk handling.
 
