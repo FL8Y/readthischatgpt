@@ -95,7 +95,16 @@ Validation must reject a generated response whose question count falls outside t
 
 These are logical boundaries, not a recommendation to deploy one network microservice per module.
 
-## 6. Contract examples (illustrative, stack-neutral)
+## 6. Learner payload versus grading key
+
+Do not send the complete internal Question object to the learner if it contains correct answers. Split the internal record into:
+- **LearnerQuestionPayload:** question ID/version, prompt, rendered options/items, response type, safe instructions, and any required media. No answerIndex, accepted answer, correct ordering, or grading-only rationale before submission.
+- **GradingKey:** canonical correct response, accepted variants, canonical ordering/matching pairs, rationale, and supporting provenance. Keep server-side in server-backed mode; in local-only/offline mode document that a determined device owner can inspect local data.
+- **AnswerFeedbackPayload:** after the attempt is recorded, return correctness and the approved rationale/source references. Do not expose other questions’ keys.
+
+Ordering and matching tasks must shuffle the learner-visible presentation separately from canonical grading data. Persist the shuffle mapping or use stable item IDs so grading remains correct. Never rely on hiding answers in the UI while including them in the network payload.
+
+## 7. Contract examples (illustrative, stack-neutral)
 
 ### Generate assessment
 Request: taskType, scopeId, blueprintId/version, sourceContentRefs, targetCount, difficultyPolicy, weakTopicRefs, recentQuestionFingerprints, locale.
@@ -117,7 +126,7 @@ Request: scope, assessment/session IDs, topic evidence watermark, policy version
 Response: ordered plan items, reason for each item, evidence/confidence, estimated effort.
 Invariant: each priority is explainable and does not present low-confidence inference as certainty.
 
-## 7. Mastery model — must be specified before implementation
+## 8. Mastery model — must be specified before implementation
 
 Do not choose an arbitrary formula without documenting why. The planning stage must compare at least:
 - simple recency-weighted topic accuracy;
@@ -134,7 +143,7 @@ The first version should be transparent and testable. Report separately:
 
 Do not claim clinical competence from quiz scores. A topic with few questions should remain “insufficient evidence” even if all answers were correct.
 
-## 8. Transactions, concurrency and migrations
+## 9. Transactions, concurrency and migrations
 
 - Session creation and question assignment must be atomic enough to avoid duplicate or missing questions.
 - Answer persistence must complete before rewards or derived state are shown as final.
@@ -144,9 +153,11 @@ Do not claim clinical competence from quiz scores. A topic with few questions sh
 - Offline attempts should merge as immutable events; conflicts in derived state are resolved by recomputation using a documented ordering policy.
 - All timestamp semantics and time-zone behavior must be explicit.
 
-## 9. Required contract tests
+## 10. Required contract tests
 
 - Invalid schema and invalid answer indices rejected.
+- Pre-answer learner payloads contain no grading key.
+- Shuffled ordering/matching display grades against canonical item IDs correctly.
 - Duplicate question prompts detected across batches.
 - Topic coverage and count constraints enforced.
 - Attempt and reward idempotency.
