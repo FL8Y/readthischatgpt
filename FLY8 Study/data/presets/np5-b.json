@@ -1,0 +1,546 @@
+[
+  {
+    "id": "np5-er-nursing-issues",
+    "area": "NP5",
+    "title": "Issues in Emergency Room Nursing",
+    "body": "## What it is\nEmergency nursing means caring for people with sudden, unplanned, often unclear problems, usually with little history and little time. The issues are the recurring practical, legal and ethical problems that come with this setting.\n\n## Must-know facts\n- Overcrowding and long waits: sicker clients must not wait behind less sick ones, which is why triage exists ([[Triage Basics and Three-Level Triage]]).\n- Rapid decisions with incomplete information: treat life threats first, then gather history.\n- Consent: in a true emergency where the client cannot decide and no representative is available, treatment to save life or limb is generally given under implied consent. Competent clients can still refuse.\n- Medico-legal cases (assault, gunshot, suspected abuse, poisoning): document objectively, preserve evidence and keep chain of custody; report as required by law.\n- Violence and burnout: staff safety, security support and stress recovery are real issues.\n- Access to emergency care: many countries restrict turning away or delaying emergency clients over payment or deposits. Philippine rules exist on this; verify local policy.\n- Confidentiality still applies in a busy, open ER.\n\n## What the nurse assesses\n- Immediate threats to life before anything else; then pain, vital signs, mental status, allergies, medicines, last meal and events leading up to the problem.\n- Safety of the environment, including weapons and aggressive visitors.\n\n## Priority nursing actions\n1. Ensure scene and staff safety (you cannot help if you become a casualty).\n2. Life threats first using the ABC order ([[Primary vs Secondary Survey]]).\n3. Triage and reassess, since clients change while waiting.\n4. Document clearly, protect evidence, report as required.\n5. Communicate with family calmly ([[Therapeutic Communication]]); involve social support and psychiatric help when needed ([[Suicide Risk]]).\n\n## How the exam asks about it\nQuestions give a crowded ER and ask who to see first, what to do about an unconscious client with no relatives, or how to handle evidence. Life threat and safety win; do not delay emergency care to find consent or payment.\n\n## Related topics\n[[Triage Basics and Three-Level Triage]], [[Primary vs Secondary Survey]], [[Crisis Intervention]]\n\n## Check against your textbook\n- Exact Philippine laws on emergency care and deposits, mandatory reporting rules and medico-legal procedure (verify local policy).",
+    "tags": [
+      "emergency",
+      "ER",
+      "legal-ethical"
+    ],
+    "priority": "medium",
+    "outlineRefs": [
+      "Emergency & Disaster Nursing",
+      "a. Issues in ER Nursing"
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-triage-basics",
+    "area": "NP5",
+    "title": "Triage Basics and Three-Level Triage",
+    "body": "## What it is\nTriage (from the French word for sorting) means ranking clients by how urgently they need care, so the sickest are treated first and resources are used well. It is an ongoing process, not a one-time label.\n\n## Must-know facts\n- The purpose is the greatest benefit for the most people, ranked by urgency and not by arrival order or social status.\n- A triage nurse does a fast, focused assessment: chief complaint, airway, breathing, circulation, level of consciousness, vital signs, pain and risk factors.\n- Simple three-level systems sort clients into emergent (immediate threat to life or limb), urgent (serious but can wait a short time) and non-urgent (minor, can wait longer). Colour tags (commonly red, yellow, green) often accompany these; exact definitions and waiting times differ by hospital and system, so state only the idea.\n- Higher-level systems use five levels ([[CTAS and ESI Triage Scales]]).\n- Triage is repeated: a waiting client who worsens is re-triaged upward.\n- Do not diagnose and do not send anyone away without screening.\n\n## What the nurse assesses\n- Airway noise, work of breathing, skin colour, pulse quality, mental status, bleeding, severe pain, and red-flag complaints such as chest pain, stroke signs, severe injury, poisoning.\n\n## Priority nursing actions\n1. Look for immediate life threats and move those clients straight to treatment.\n2. Assign the category, then place and monitor the client.\n3. Reassess waiting clients at intervals and when anything changes.\n4. Document the category and reason.\n\n## How the exam asks about it\nTypical: a list of arriving clients and the question of who is seen first. Pick the one with an airway, breathing or circulation threat, then unstable over stable, then acute over chronic. A trap is the stable but loud or worried client, or the one who arrived first.\n\n## Related topics\n[[CTAS and ESI Triage Scales]], [[PENA Triage]], [[NATO Disaster Triage System]], [[Primary vs Secondary Survey]]\n\n## Check against your textbook\n- Exact category names, colours and target times used by your school or hospital system.",
+    "tags": [
+      "emergency",
+      "triage"
+    ],
+    "priority": "high",
+    "outlineRefs": [
+      "b. Routine or ED Triage",
+      "Three Level Triage",
+      "Triage"
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-ctas-esi",
+    "area": "NP5",
+    "title": "CTAS and ESI Triage Scales",
+    "body": "## What it is\nCTAS is the Canadian Triage and Acuity Scale and ESI is the Emergency Severity Index. Both are five-level triage tools for emergency departments in which one end means immediate life-saving attention and the other means least urgent.\n\n## Must-know facts\n- CTAS: five levels from most to least urgent, each linked to a suggested time within which care should start. I am confident of the five-level structure but not of the exact wording of each level; verify.\n- ESI: five levels, where level 1 is the most urgent. It asks in order: does this client need an immediate life-saving intervention (level 1)? Is this a high-risk situation, a confused or lethargic client, or someone in severe pain or distress (level 2)? If not, how many different resources will the client likely need (level 3 for many, 4 for one, 5 for none)? Vital signs can push a level 3 client up.\n- ESI therefore mixes acuity (how sick) with resource prediction (how much care).\n- Resources in ESI count things like labs, imaging, IV fluids or medications, and specialist consults; simple things such as an oral medicine or a prescription refill generally do not.\n\n## What the nurse assesses\n- Stability first, then risk, then expected workload, using vital signs and presenting complaint.\n\n## Priority nursing actions\n1. Rule out immediate life threat before using any scale.\n2. Apply the scale, then re-triage if the condition changes.\n3. Document the level.\n\n## How the exam asks about it\nRecognise which scale counts levels where 1 is most urgent, and recall that ESI level 1 = needs immediate life-saving intervention. Look-alike traps: confusing a client who is sick but stable (ESI 3 by resources) with one needing immediate action.\n\n## Related topics\n[[Triage Basics and Three-Level Triage]], [[PENA Triage]]\n\n## Check against your textbook\n- Exact CTAS level names and time targets; which scale your Philippine references emphasise.",
+    "tags": [
+      "emergency",
+      "triage"
+    ],
+    "priority": "medium",
+    "outlineRefs": [
+      "CTAS",
+      "ESI"
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-pena-triage",
+    "area": "NP5",
+    "title": "PENA Triage",
+    "body": "## What it is\nThe outline lists PENA as a triage-related topic under routine emergency department triage. I am not certain what the letters stand for or its exact categories, so this note keeps to what is safe: it belongs with the other ED triage tools and the same principles apply.\n\n## Must-know facts\n- All ED triage tools share a goal: place clients in an urgency category using a quick focused assessment, from immediate life threat to minor problem.\n- Whatever the tool, the top category goes to threats to airway, breathing, circulation or consciousness, and categories are rechecked when the client changes.\n- Triage nurses use clinical judgement; a tool supports but does not replace it.\n- Local hospitals may adopt their own colour or numeric scheme, so always apply the scheme of the facility and not a remembered colour.\n\n## What the nurse assesses\n- The same basics as any triage: ABCs, level of consciousness, vital signs, pain, mechanism of injury and risk factors.\n\n## Priority nursing actions\n1. Treat immediate life threats first, regardless of tool.\n2. Assign the category of the tool in use and document it.\n3. Reassess regularly.\n\n## How the exam asks about it\nLook at how your own review materials define PENA's categories and memorise those; I cannot confirm them. Expect the same type of question as any triage item: who is seen first. Apply ABCs, then unstable before stable.\n\n## Related topics\n[[Triage Basics and Three-Level Triage]], [[CTAS and ESI Triage Scales]]\n\n## Check against your textbook\n- UNKNOWN: what PENA stands for and its exact levels. Verify in your review materials or school handouts before relying on this note.",
+    "tags": [
+      "emergency",
+      "triage",
+      "philippines"
+    ],
+    "priority": "medium",
+    "outlineRefs": [
+      "PENA"
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-primary-secondary-survey",
+    "area": "NP5",
+    "title": "Primary vs Secondary Survey",
+    "body": "## What it is\nThe primary survey is the rapid first check that finds and fixes immediate threats to life. The secondary survey is the more complete head-to-toe examination and history done after the client is stabilised.\n\n## Must-know facts\n- Primary survey order is ABCDE: Airway (with cervical spine protection in trauma), Breathing, Circulation (with bleeding control), Disability (neurologic status), Exposure (undress and look, while preventing heat loss). Each letter is fixed before moving on.\n- Life threats are treated as they are found; you do not finish assessing and then treat.\n- Secondary survey: full head-to-toe inspection and palpation, complete set of vital signs, history (often remembered as SAMPLE: signs and symptoms, allergies, medications, past history, last meal, events), and diagnostic tests.\n- The secondary survey starts only when the primary survey is complete and the client is stable enough. If the client worsens, return to ABC.\n\n## What the nurse assesses\n- Primary: responsiveness, patent airway, breathing effort and chest movement, pulse and perfusion, bleeding, consciousness level, hidden injuries.\n- Secondary: every body region, back (by log roll), and the story of the event.\n\n## Priority nursing actions\n1. Check responsiveness and call for help.\n2. Airway, then breathing, then circulation, because lack of oxygen delivery kills fastest (Maslow physiological needs and ABC).\n3. Disability and exposure.\n4. Reassess ABCs after every intervention.\n5. Only then the secondary survey.\n\n## How the exam asks about it\nTrap: the client with an impressive wound versus one with a noisy airway. The airway comes first. Another trap: starting a head-to-toe exam or taking a history before the airway is secure.\n\n## Memory aid\nABCDE is standard; SAMPLE is widely used.\n\n## Related topics\n[[Airway Management in the Primary Survey]], [[Breathing Assessment in the Primary Survey]], [[Circulation and Shock Overview]], [[Disability and Exposure in the Primary Survey]]\n\n## Check against your textbook\n- Some references put catastrophic bleeding first (so the order can read C-ABC); confirm which your exam source uses.",
+    "tags": [
+      "emergency",
+      "assessment",
+      "ABCDE"
+    ],
+    "priority": "high",
+    "outlineRefs": [
+      "c. Primary and Secondary Survey",
+      "1. Primary vs Secondary Survey",
+      "2. Primary Survey"
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-airway",
+    "area": "NP5",
+    "title": "Airway Management in the Primary Survey",
+    "body": "## What it is\nAirway assessment checks whether air can move freely from the mouth and nose to the lungs. It is the first priority because a blocked airway causes death in minutes.\n\n## Must-know facts\n- Signs of obstruction: noisy breathing (stridor, snoring, gurgling), hoarse voice, inability to speak, drooling, use of neck muscles, blue colour, agitation then drowsiness. Silence in a struggling client is a bad sign, not a good one.\n- Causes: tongue falling back in an unconscious client, blood, vomit, foreign body, swelling (burns, allergic reaction, infection), trauma.\n- Basic manoeuvres: head-tilt chin-lift for non-trauma; jaw thrust (without head tilt) when a spinal injury is possible.\n- Adjuncts: oropharyngeal airway only in an unresponsive client without a gag reflex; nasopharyngeal airway can be used in clients with a gag reflex but is avoided when facial or skull base fracture is suspected.\n- Suction clears fluids; keep each attempt short and give oxygen around it.\n- Definitive airway means a tube in the trachea (intubation) or, when that fails, a surgical airway done by trained providers.\n- Burns of the face, singed nasal hairs or soot in the mouth suggest airway burn; swelling worsens, so early airway protection matters.\n\n## What the nurse assesses\n- Look, listen and feel for air movement; check the mouth for obstruction.\n\n## Priority nursing actions\n1. Open the airway while protecting the neck in trauma.\n2. Clear it (suction, remove visible objects).\n3. Insert an adjunct if needed and give oxygen.\n4. Prepare for advanced airway and call for help.\n5. Recheck after every intervention.\n\n## How the exam asks about it\nWhich action first for a snoring unresponsive client: open the airway. Which airway is wrong for a conscious client with a gag reflex: the oral type.\n\n## Related topics\n[[Airway Obstruction and Choking]], [[Breathing Assessment in the Primary Survey]], [[Primary vs Secondary Survey]]\n\n## Check against your textbook\n- Adjunct sizing and technique, and how current guidelines handle spinal precautions.",
+    "tags": [
+      "emergency",
+      "airway",
+      "ABCDE"
+    ],
+    "priority": "high",
+    "outlineRefs": [
+      "a. Airway"
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-breathing",
+    "area": "NP5",
+    "title": "Breathing Assessment in the Primary Survey",
+    "body": "## What it is\nOnce the airway is open, the nurse checks whether breathing is effective: enough air moving in and out, enough oxygen reaching the blood.\n\n## Must-know facts\n- Assess rate, depth, effort, chest movement symmetry, skin colour, ability to speak full sentences, and oxygen saturation by pulse oximeter (which can mislead in poor perfusion, carbon monoxide poisoning or cold fingers).\n- Warning signs: fast or very slow breathing, accessory muscle use, nasal flaring, retractions, cyanosis, restlessness or confusion from low oxygen.\n- Life-threatening chest problems to recognise in the primary survey: tension pneumothorax (severe distress, one-sided absent breath sounds, tracheal deviation, falling blood pressure), open pneumothorax (sucking chest wound), flail chest (part of the chest wall moves in the opposite direction on breathing), massive haemothorax.\n- Open chest wound: cover with a dressing that lets air escape on exhale; tension pneumothorax needs urgent decompression by a trained provider.\n- Give oxygen as ordered or per protocol; support ventilation with a bag-valve-mask if breathing is inadequate.\n\n## What the nurse assesses\n- Look at the chest, listen to both sides, count the rate over a full minute, check oxygen saturation, and note position of comfort.\n\n## Priority nursing actions\n1. Confirm the airway is open.\n2. Give oxygen and sit the client up if possible and not contraindicated by injury.\n3. Treat the specific chest injury.\n4. Support breathing mechanically if inadequate.\n5. Monitor saturation and respiratory rate continuously.\n\n## How the exam asks about it\nThe question often gives a trauma client with distress and unequal breath sounds. Think tension pneumothorax and act at once. Another pattern: a normal saturation reading but clinical signs of failure; trust the client, not only the number.\n\n## Related topics\n[[Respiratory Failure Recognition]], [[Airway Management in the Primary Survey]], [[Circulation and Shock Overview]]\n\n## Check against your textbook\n- Ventilation rates and oxygen delivery devices; verify against current guidelines.",
+    "tags": [
+      "emergency",
+      "breathing",
+      "ABCDE"
+    ],
+    "priority": "medium",
+    "outlineRefs": [
+      "b. Breathing"
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-circulation-shock-overview",
+    "area": "NP5",
+    "title": "Circulation and Shock Overview",
+    "body": "## What it is\nIn the primary survey, circulation means checking whether the heart is pumping enough blood to the tissues and whether bleeding is under control. Shock is the state in which tissues do not get enough oxygen-carrying blood flow, and cells begin to fail.\n\n## Must-know facts\n- Shock is a perfusion problem, not simply low blood pressure. Blood pressure can still be normal in early shock.\n- Perfusion depends on the pump (heart), the fluid (blood volume) and the container (vessel tone). Shock types match which of these fails ([[Types of Shock]]).\n- Check pulse rate and quality, skin colour, temperature and moisture, capillary refill, blood pressure, mental status, and urine output (a sensitive sign of kidney perfusion).\n- External bleeding: direct pressure first; tourniquet for limb bleeding not controlled by pressure when trained and ordered by protocol.\n- Obtain large-bore IV access and send blood for tests as ordered.\n- Hidden bleeding is common in trauma: chest, abdomen, pelvis and long bones.\n\n## What the nurse assesses\n- Rapid weak pulse, cool pale clammy skin, delayed refill, anxiety or restlessness, falling urine output, low or falling blood pressure.\n\n## Priority nursing actions\n1. Control obvious bleeding.\n2. Give oxygen, establish IV access, begin monitoring.\n3. Identify and treat the cause ([[Management of Shock]]).\n4. Keep the client warm and reassess continuously.\n\n## How the exam asks about it\nTrap: waiting for low blood pressure to call it shock. Early signs (tachycardia, restlessness, cool skin) come first ([[Early vs Late Stages of Shock]]). Another: choosing a fluid bolus for a cardiogenic client whose lungs are already wet.\n\n## Related topics\n[[Types of Shock]], [[Early vs Late Stages of Shock]], [[Management of Shock]], [[Sepsis and Septic Shock Recognition]]\n\n## Check against your textbook\n- Target blood pressure goals, tourniquet protocols and fluid choices in trauma.",
+    "tags": [
+      "emergency",
+      "shock",
+      "circulation",
+      "ABCDE"
+    ],
+    "priority": "high",
+    "outlineRefs": [
+      "c. Circulation/Shock"
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-types-of-shock",
+    "area": "NP5",
+    "title": "Types of Shock",
+    "body": "## What it is\nShock is grouped by what fails: volume, pump, vessel tone or obstruction to flow. Knowing the type tells you the treatment.\n\n## Must-know facts\n- Hypovolemic: too little blood or fluid (haemorrhage, severe burns, vomiting and diarrhoea, dehydration). Signs: fast pulse, low pressure, cool pale skin, low urine, flat neck veins.\n- Cardiogenic: the heart cannot pump (myocardial infarction, severe arrhythmia, heart failure). Signs: low pressure with signs of congestion such as crackles and distended neck veins.\n- Distributive (vessels dilate, so the container is too big):\n  - Septic: infection-driven; often warm flushed skin early, then cool.\n  - Anaphylactic: severe allergy with swelling, wheeze, hives, collapse.\n  - Neurogenic: spinal cord injury; low pressure with slow pulse and warm dry skin.\n- Obstructive: flow blocked outside the heart (tension pneumothorax, cardiac tamponade, massive pulmonary embolism). Signs depend on cause; neck veins are distended with muffled heart sounds in tamponade.\n\n## What the nurse assesses\n- Pulse, blood pressure, skin temperature and colour, neck veins, breath sounds, history of trauma, infection, allergen exposure, heart disease.\n\n## Priority nursing actions\n1. Support ABCs for any type.\n2. Match treatment to type: volume for hypovolemia, heart support for cardiogenic, epinephrine for anaphylaxis, antibiotics and fluids for sepsis, relief of the obstruction for obstructive.\n3. Monitor response.\n\n## How the exam asks about it\nA short vignette gives a clue (slow pulse after spinal injury, hives after a bite, wet lungs after a heart attack) and asks for the type or the first action. The slow pulse in shock is the neurogenic clue.\n\n## Memory aid\nPump, volume, pipes, plug (my own invention): cardiogenic, hypovolemic, distributive, obstructive.\n\n## Related topics\n[[Circulation and Shock Overview]], [[Management of Shock]], [[Sepsis and Septic Shock Recognition]]\n\n## Check against your textbook\n- Some books list obstructive shock separately and some fold it into cardiogenic; follow your reviewer.",
+    "tags": [
+      "emergency",
+      "shock"
+    ],
+    "priority": "high",
+    "outlineRefs": [
+      "1. Types of Shock"
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-early-late-shock",
+    "area": "NP5",
+    "title": "Early vs Late Stages of Shock",
+    "body": "## What it is\nShock is described as a progression: the body compensates at first, then fails. Recognising the early stage allows treatment before damage becomes irreversible.\n\n## Must-know facts\n- Early (compensated) stage: body protects the brain and heart by releasing stress hormones. Signs: anxiety or restlessness, fast pulse, fast breathing, cool pale skin, delayed capillary refill, thirst, reduced urine output, normal or near-normal blood pressure, narrowing pulse pressure.\n- Middle (progressive or decompensated) stage: compensation fails. Signs: falling blood pressure, weak thready pulse, confusion, low urine output, mottled skin, metabolic acidosis.\n- Late (irreversible or refractory) stage: organs are failing and may not recover even if blood pressure is restored. Signs: profound hypotension, unresponsiveness, anuria, organ failure ([[DIC and Multiple Organ Dysfunction Recognition]]).\n- Hypotension is a late sign in most adults. Children can maintain blood pressure until very late; use other signs.\n- Exception: neurogenic shock can show low pressure early.\n\n## What the nurse assesses\n- Trend of pulse, mental status, skin, urine output and blood pressure, not one isolated reading.\n\n## Priority nursing actions\n1. Treat on early signs; do not wait for hypotension.\n2. Report changes promptly and reassess often.\n3. Begin treating the cause ([[Management of Shock]]).\n\n## How the exam asks about it\nVignettes describe restlessness and a fast pulse with normal pressure and ask what this means or what to do first. The answer is early shock: act now. Another trap is reading a normal pressure as reassuring.\n\n## Related topics\n[[Circulation and Shock Overview]], [[Types of Shock]], [[Management of Shock]]\n\n## Check against your textbook\n- Stage names (compensated, progressive, irreversible versus initial, compensatory, progressive, refractory) vary by book.",
+    "tags": [
+      "emergency",
+      "shock"
+    ],
+    "priority": "high",
+    "outlineRefs": [
+      "2. Early vs Late Stage of Shock"
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-shock-management",
+    "area": "NP5",
+    "title": "Management of Shock",
+    "body": "## What it is\nShock management restores tissue oxygen delivery by treating the cause, supporting ABCs and watching response.\n\n## Must-know facts\n- All shock: airway and breathing first, oxygen, IV access, cardiac monitoring, keep warm, frequent vital signs, urine output monitoring (an indwelling catheter may be ordered).\n- Hypovolemic: stop the bleeding, replace volume with ordered IV fluids or blood products. Exact volumes and fluid choices come from orders and current guidelines; I do not give numbers.\n- Cardiogenic: treat the heart problem; fluids can worsen congestion, so the provider chooses carefully. Drugs that improve pump function or lower strain may be ordered.\n- Distributive: septic needs early antibiotics and fluids; anaphylactic needs epinephrine as the first drug, then airway support and other agents; neurogenic needs fluids and sometimes vasopressors, and spine protection.\n- Obstructive: relieve the obstruction (decompression, drainage of tamponade, treatment of embolism).\n- Vasopressors raise vessel tone; they require close monitoring and a reliable central or large vein.\n- Positioning: lying flat with legs raised is a common first aid teaching for hypovolemic shock; this is not suitable for every client (for example head injury, breathing distress, cardiogenic congestion). Verify local teaching.\n\n## What the nurse assesses\n- Blood pressure and mean arterial pressure trend, pulse, mental status, skin, urine output, lactate and gases if ordered, signs of fluid overload.\n\n## Priority nursing actions\n1. Airway, breathing, oxygen.\n2. Control cause (bleeding, allergen, infection, obstruction).\n3. Establish access and start ordered therapy.\n4. Monitor response and complications.\n5. Prepare for transfer to higher care.\n\n## How the exam asks about it\nWhich first for anaphylaxis (epinephrine, after airway readiness). Which fluid caution for cardiogenic shock. Which finding shows improvement (rising urine output, clearer mentation).\n\n## Related topics\n[[Types of Shock]], [[Early vs Late Stages of Shock]], [[Sepsis and Septic Shock Recognition]], [[ICU Monitoring Concepts]]\n\n## Check against your textbook\n- Drug names, doses, fluid volumes and targets; verify against current guidelines and orders.",
+    "tags": [
+      "emergency",
+      "shock",
+      "priority"
+    ],
+    "priority": "high",
+    "outlineRefs": [
+      "3. Management of Shock"
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-disability-exposure",
+    "area": "NP5",
+    "title": "Disability and Exposure in the Primary Survey",
+    "body": "## What it is\nDisability is a quick check of neurological status. Exposure means removing clothing to find hidden injuries, then covering the client again to prevent heat loss.\n\n## Must-know facts\n- Disability tools: AVPU (Alert, responds to Voice, responds to Pain, Unresponsive) is the quickest. The Glasgow Coma Scale scores eye opening, verbal response and motor response; the lowest total is 3 and the highest is 15, with lower scores meaning deeper impairment.\n- Check pupils for size, equality and reaction; unequal or fixed dilated pupils suggest raised intracranial pressure or brain injury.\n- Check blood glucose in any client with altered consciousness, since low glucose is a fast, reversible cause.\n- A drop in consciousness can also come from low oxygen or poor perfusion, so recheck A, B and C before blaming the brain.\n- Exposure: remove clothing as needed, inspect front and back (log roll with spine care), then cover with warm blankets. Hypothermia worsens bleeding and acidosis; keep the room warm and use warmed fluids when available.\n- Maintain dignity and privacy.\n\n## What the nurse assesses\n- Level of consciousness, orientation, pupils, movement of limbs, glucose, injuries, body temperature.\n\n## Priority nursing actions\n1. Complete ABC first.\n2. Assess AVPU or GCS and pupils.\n3. Correct low glucose per order.\n4. Expose, examine, then warm and cover.\n5. Repeat neuro checks so changes are detected early.\n\n## How the exam asks about it\nTrap: attributing confusion to head injury when the client is hypoxic or hypotensive. Another: leaving a trauma client uncovered after the exam.\n\n## Related topics\n[[Primary vs Secondary Survey]], [[Circulation and Shock Overview]], [[ICU Monitoring Concepts]]\n\n## Check against your textbook\n- Exact GCS component scores and thresholds your exam source uses.",
+    "tags": [
+      "emergency",
+      "neuro",
+      "ABCDE"
+    ],
+    "priority": "medium",
+    "outlineRefs": [
+      "d. Disability",
+      "e. Exposure"
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-burns-causes",
+    "area": "NP5",
+    "title": "Burns: Causes and Overview",
+    "body": "## What it is\nA burn is tissue injury from heat, chemicals, electricity or radiation. The damage depends on the agent, how hot or strong it is, and how long it touched the skin.\n\n## Must-know facts\n- Thermal: flame, scald (hot liquid or steam, common in children), contact with hot objects, flash.\n- Chemical: acids and alkalis; damage continues until the chemical is removed or diluted.\n- Electrical: small skin wound can hide deep damage along the current path; risk of heart rhythm problems and muscle breakdown.\n- Radiation: sunburn, radiotherapy, nuclear sources.\n- Inhalation injury can accompany any fire burn and may be the deadliest part ([[Airway Management in the Primary Survey]]).\n- Risk groups: children, older adults, people with disability, alcohol use, smoking in bed, unsafe cooking and electrical wiring.\n- Burn severity depends on depth ([[Degrees of Burns]]), size ([[Rule of Nines and Burn Size Estimation]]), location (face, hands, feet, genitals, joints, circumferential burns are more serious), age, other injuries and health problems.\n- Suspected abuse should be considered when the burn pattern does not match the story.\n\n## What the nurse assesses\n- Cause and time of injury, enclosed space or smoke, clothing and jewellery, tetanus status, other injuries, breathing, burn depth and size.\n\n## Priority nursing actions\n1. Stop the burning process and ensure scene safety.\n2. Airway, breathing, circulation first, as in any trauma ([[Primary vs Secondary Survey]]).\n3. Cool or irrigate as appropriate ([[Burn First Aid, RACE and PASS]]).\n4. Assess and estimate the burn, then follow burn centre or hospital protocol.\n\n## How the exam asks about it\nWhich burn type needs prolonged flushing (chemical), which hides damage (electrical), which first priority in a fire victim (airway).\n\n## Related topics\n[[Phases of Burn Care]], [[Burn First Aid, RACE and PASS]], [[Other Burn Management: Fluids, Airway and Complications]]\n\n## Check against your textbook\n- Transfer criteria to a burn centre; electrical injury monitoring details.",
+    "tags": [
+      "burns",
+      "emergency"
+    ],
+    "priority": "high",
+    "outlineRefs": [
+      "d. Chosen Emergency Conditions",
+      "1. Burns",
+      "a. Causes of Burns"
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-burns-degrees",
+    "area": "NP5",
+    "title": "Degrees of Burns",
+    "body": "## What it is\nBurn depth is described by how many layers of skin are damaged. Older books use degrees; newer ones use thickness terms. Depth decides pain, healing time and whether grafting is needed.\n\n## Must-know facts\n- First degree (superficial): only the outer layer. Red, dry, painful, no blisters, heals within days without scarring (sunburn).\n- Second degree (partial thickness):\n  - Superficial partial: red, moist, blisters, very painful, usually heals within a few weeks.\n  - Deep partial: paler or mottled, less moist, may be less painful, slower healing and scarring risk, may need grafting.\n- Third degree (full thickness): all skin layers destroyed. Dry, leathery, white, brown or black; little or no pain in the burned area because nerve endings are destroyed (surrounding areas may hurt). Needs surgery.\n- Fourth degree (in some classifications): reaches muscle, tendon or bone.\n- Burns are often mixed; depth can deepen over the first days.\n\n## What the nurse assesses\n- Colour, moisture, blisters, capillary refill, sensation, pain; circumferential burns that squeeze limbs or the chest (check circulation, and breathing for the chest).\n\n## Priority nursing actions\n1. Treat ABCs and airway first.\n2. Describe the burn depth and size accurately and document with the time.\n3. Protect from contamination; manage pain.\n4. Monitor circulation to burned limbs; report loss of pulses promptly.\n\n## How the exam asks about it\nTrap: assuming the least painful burn is the mildest. A painless, leathery area is the deepest (full thickness). Another: assuming blisters mean first degree.\n\n## Memory aid\nThink \"deeper means drier and less painful\" (my own shortcut).\n\n## Related topics\n[[Rule of Nines and Burn Size Estimation]], [[Skin Grafting]], [[Burns: Causes and Overview]]\n\n## Check against your textbook\n- Whether your textbook uses degree or thickness terms; exact descriptions of deep partial burns.",
+    "tags": [
+      "burns",
+      "assessment"
+    ],
+    "priority": "high",
+    "outlineRefs": [
+      "b. Degrees of Burns"
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-burns-phases",
+    "area": "NP5",
+    "title": "Phases of Burn Care",
+    "body": "## What it is\nBurn care is organised in three overlapping phases, each with different main problems. Names vary slightly between books (resuscitative or emergent, acute or intermediate, rehabilitation).\n\n## Must-know facts\n- Emergent (resuscitative) phase: from injury through the first couple of days, until fluid shifts settle. Capillaries leak, so fluid moves out of the vessels into tissue; the main dangers are hypovolemic shock, airway swelling and inhalation injury, low urine output. Blood may show high potassium early (cell breakdown) and sodium drops; haemoconcentration occurs.\n- Acute (intermediate) phase: begins when fluid starts returning to the vessels and urine output rises. Main concerns: infection, wound closure and grafting, nutrition, pain, anaemia, and fluid overload as fluid returns to circulation; sodium and potassium may drop.\n- Rehabilitation phase: begins with wound closure and continues for months or longer. Focus: scar and contracture prevention, mobility, pressure garments (as ordered), emotional and body-image recovery, return to work and school.\n- The exact timing of each phase differs by book; verify.\n\n## What the nurse assesses\n- Emergent: airway, breathing sounds, urine output, blood pressure, pulse, burn extent. Acute: wound appearance, temperature, signs of infection, weight, intake. Rehab: range of motion, scar, coping.\n\n## Priority nursing actions\n1. Emergent: protect airway and restore fluid volume.\n2. Acute: prevent infection, support healing, nutrition and pain control.\n3. Rehab: positioning, exercise, splints, counselling.\n\n## How the exam asks about it\nWhich finding to expect and which complication to watch in each phase; expect hyperkalaemia early; expect fluid mobilisation and diuresis later.\n\n## Related topics\n[[Other Burn Management: Fluids, Airway and Complications]], [[Pain, Infection and Nutrition in Burns]], [[Skin Grafting]]\n\n## Check against your textbook\n- Time boundaries of each phase and the lab trends.",
+    "tags": [
+      "burns",
+      "phases"
+    ],
+    "priority": "high",
+    "outlineRefs": [
+      "c. Stages of Burns",
+      "1. Emergent Phase",
+      "2. Acute Phase",
+      "3. Rehabilitation Stage"
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-burns-first-aid",
+    "area": "NP5",
+    "title": "Burn First Aid, RACE and PASS",
+    "body": "## What it is\nBurn first aid stops the burning, cools the area and protects the person. RACE and PASS are fire-safety memory aids: RACE tells what to do when a fire is found, and PASS tells how to use a fire extinguisher.\n\n## Must-know facts\n- Burning clothing: stop, drop and roll (or smother with a blanket); do not run.\n- Remove the person from the source; remove smouldering clothing and jewellery before swelling begins, but do not pull off fabric stuck to the skin.\n- Cool thermal burns with cool running water for a significant time. Do not use ice, butter or home remedies; very cold treatment can worsen tissue damage and cause hypothermia in large burns.\n- Chemical burns: brush off dry powder first, then flush with plenty of water; remove contaminated clothing.\n- Electrical burns: make sure power is off before touching the person.\n- Cover with a clean dry or non-stick dressing; keep a large-burn client warm.\n- RACE: Rescue (those in danger), Alarm (activate), Confine (close doors) and Extinguish or Evacuate (some books use E for one, some the other).\n- PASS: Pull the pin, Aim at the base of the fire, Squeeze the handle, Sweep side to side.\n\n## What the nurse assesses\n- Scene safety, airway and breathing, extent of burn, other injuries.\n\n## Priority nursing actions\n1. Ensure safety, stop the burning.\n2. Airway, breathing, circulation.\n3. Cool and cover.\n4. Get emergency help; do not leave the person alone.\n\n## How the exam asks about it\nWrong first-aid choices (ice, ointments, breaking blisters). In hospital fire scenarios, remove people in immediate danger first, then raise the alarm.\n\n## Memory aid\nRACE and PASS are standard acronyms.\n\n## Related topics\n[[Burns: Causes and Overview]], [[Airway Management in the Primary Survey]]\n\n## Check against your textbook\n- How long to cool, local fire-safety protocol and which E your reviewer uses in RACE.",
+    "tags": [
+      "burns",
+      "first-aid",
+      "fire-safety"
+    ],
+    "priority": "high",
+    "outlineRefs": [
+      "d. First Aid, RACE & PASS"
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-burns-rule-of-nines",
+    "area": "NP5",
+    "title": "Rule of Nines and Burn Size Estimation",
+    "body": "## What it is\nThe Rule of Nines is a quick way to estimate how much of an adult's body surface is burned, using areas that are roughly 9 percent or multiples of 9. Burn size guides fluid needs and transfer decisions.\n\n## Must-know facts\n- Adult: head and neck about 9; each arm about 9; front of trunk about 18; back of trunk about 18; each leg about 18; genitals about 1. These add to about 100.\n- Children have a relatively larger head and smaller legs, so the adult rule overestimates leg and underestimates head; paediatric charts or the Lund and Browder chart are more accurate.\n- A small patch can be estimated by the client's palm, which is about one percent of body surface.\n- Only second and third degree burns are usually counted; do not count simple redness.\n- Size is only part of severity; location and depth also matter ([[Degrees of Burns]]).\n\n## What the nurse assesses\n- Which regions are burned, depth, and the percentage; weight for fluid calculations.\n\n## Priority nursing actions\n1. Do ABCs before measuring.\n2. Estimate size quickly, record the time of burn.\n3. Report the estimate so the provider can order fluids ([[Other Burn Management: Fluids, Airway and Complications]]).\n4. Reassess because first estimates are often wrong.\n\n## How the exam asks about it\nCalculate the percent for a client with burns on the front trunk and one arm. Trap: using the adult rule for a small child.\n\n## Memory aid\n9, 9, 18, 18, 18 each pair; 1 for genitals. This is a standard pattern.\n\n## Related topics\n[[Burns: Causes and Overview]], [[Phases of Burn Care]]\n\n## Check against your textbook\n- Paediatric percentages and the fluid formula your exam source teaches (not given here).",
+    "tags": [
+      "burns",
+      "assessment"
+    ],
+    "priority": "high",
+    "outlineRefs": [
+      "e. Management of Burns",
+      "1. Rule of NINES"
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-burns-other-management",
+    "area": "NP5",
+    "title": "Other Burn Management: Fluids, Airway and Complications",
+    "body": "## What it is\nBeyond first aid and wound care, burn management covers fluid resuscitation, breathing support, monitoring and prevention of complications. The first day is mostly about keeping the circulation and airway working.\n\n## Must-know facts\n- Major burns cause large fluid shifts. The client needs IV fluids, usually an isotonic solution, calculated from weight and burn size using a formula chosen by the provider (one common formula is named after Parkland). I do not give the numbers; verify with your textbook.\n- Urine output is the most useful guide to whether fluid is enough. Too little means more fluid may be needed; too much may mean overload.\n- Suspect inhalation injury: face burns, singed hair, soot, hoarseness, stridor. Oxygen is given; early intubation if swelling is progressing. Carbon monoxide poisoning is treated with high-concentration oxygen.\n- Circumferential burns of a limb or chest may need escharotomy (surgical release) if circulation or ventilation is compromised.\n- Complications to watch: compartment syndrome, hypothermia, stress ulcers, paralytic ileus, renal failure, infection, heart rhythm problems after electrical burns.\n- Tetanus prophylaxis is checked and given if needed.\n- Keep a burned client warm.\n\n## What the nurse assesses\n- Airway sounds, urine output, vital signs, distal pulses and capillary refill, neurovascular status, bowel sounds, temperature.\n\n## Priority nursing actions\n1. Airway and breathing.\n2. Large-bore IV access and fluid replacement.\n3. Insert catheter, monitor hourly urine output.\n4. Elevate burned limbs, check circulation hourly, report changes.\n5. Prevent infection and heat loss.\n\n## How the exam asks about it\nWhich assessment finding means the fluid is adequate (steady urine output); which burn needs airway watching first; which sign suggests compartment syndrome.\n\n## Related topics\n[[Phases of Burn Care]], [[Rule of Nines and Burn Size Estimation]], [[Airway Management in the Primary Survey]]\n\n## Check against your textbook\n- Fluid formula, target urine output, and escharotomy indications; verify against current guidelines.",
+    "tags": [
+      "burns",
+      "fluids",
+      "airway"
+    ],
+    "priority": "high",
+    "outlineRefs": [
+      "3. Other Burns Management"
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-burns-pain-infection-nutrition",
+    "area": "NP5",
+    "title": "Pain, Infection and Nutrition in Burns",
+    "body": "## What it is\nThree connected problems drive recovery after the first days: severe pain, high risk of infection, and a very high need for calories and protein.\n\n## Must-know facts\n- Pain: major burns are very painful, and dressing changes cause sharp procedural pain. Opioids are used; in the early phase they are given by the IV route because absorption from muscle or under the skin is unreliable when circulation is poor. Give pain medicine before dressing changes, plan the timing, and use non-drug supports (distraction, relaxation).\n- Infection: burned skin no longer protects. Signs: change in wound colour, odour, pus, increased drainage, fever or low temperature, rising heart rate, worsening wound. Prevent with strict hand hygiene, aseptic dressing, clean environment, protective isolation as policy dictates ([[Burn Wound Care Methods, Hydrotherapy and Debridement]], [[Antimicrobials for Burns]]).\n- Nutrition: burns cause a hypermetabolic state with tissue breakdown. Plan a diet high in calories and protein, with vitamins and minerals as ordered. Early feeding, often through a tube, is commonly used when the gut works; feeding is started early for gut protection and healing. Weigh regularly and monitor intake.\n- Emotional support: fear, body image changes, sleep loss and post-traumatic stress are common.\n\n## What the nurse assesses\n- Pain score, sedation level, wound signs, temperature, weight, albumin and other labs as ordered, intake, mood.\n\n## Priority nursing actions\n1. Treat pain first when it prevents breathing or movement, and premedicate for procedures.\n2. Use strict aseptic technique.\n3. Get dietician input; give high-protein high-calorie nutrition.\n4. Offer emotional support and involve family.\n\n## How the exam asks about it\nWhy IV route for early opioids; which diet is correct; which sign points to infection early (change in wound or temperature). Trap: restricting calories in a burn client.\n\n## Related topics\n[[Phases of Burn Care]], [[Crisis Intervention]], [[Antimicrobials for Burns]]\n\n## Check against your textbook\n- Calorie and protein targets; local pain protocols (not given here).",
+    "tags": [
+      "burns",
+      "pain",
+      "nutrition",
+      "infection"
+    ],
+    "priority": "high",
+    "outlineRefs": [
+      "2. Pain, Infection, Nutrition"
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-burns-wound-care",
+    "area": "NP5",
+    "title": "Burn Wound Care Methods, Hydrotherapy and Debridement",
+    "body": "## What it is\nBurn wound care aims to clean the wound, remove dead tissue, prevent infection, and prepare for healing or grafting.\n\n## Must-know facts\n- Open (exposure) method: wound left uncovered, usually with topical antimicrobial and a clean warm room. Easier observation, but heat and fluid loss and infection risk need control.\n- Closed (occlusive) method: topical agent plus dressings that are changed regularly; common for many wounds.\n- Biological and synthetic dressings (for example from animal skin or manufactured materials) cover clean wounds, reduce pain and fluid loss, and help prepare for grafting.\n- Cleansing: gentle cleaning at intervals with mild solution; blisters policy varies (large blisters are often removed or left depending on protocol; verify).\n- Hydrotherapy: cleaning in a tub, shower or on a table with water at a comfortable temperature. It loosens dressings and dead tissue. Risks: pain, chilling, infection spread, fluid and electrolyte loss, so sessions are short, warm, and the client is premedicated.\n- Debridement removes dead tissue (eschar). Types: mechanical (scrubbing, forceps and scissors, wet to dry), enzymatic (topical enzyme preparations), surgical (excision in the operating room), and natural autolysis.\n- Aseptic technique and personal protective equipment for every change.\n\n## What the nurse assesses\n- Wound base colour, edges, drainage, odour, signs of healing, pain, temperature, circulation.\n\n## Priority nursing actions\n1. Premedicate for pain and warm the room.\n2. Use aseptic technique and remove old dressings gently.\n3. Clean, debride as ordered, apply the topical agent and dressing.\n4. Assess and document each time.\n\n## How the exam asks about it\nWhich action prevents hypothermia during hydrotherapy; which method debrides surgically; what to do when dressing sticks (soak to loosen).\n\n## Related topics\n[[Antimicrobials for Burns]], [[Skin Grafting]], [[Pain, Infection and Nutrition in Burns]]\n\n## Check against your textbook\n- Blister management and local protocols for dressing type.",
+    "tags": [
+      "burns",
+      "wound-care"
+    ],
+    "priority": "high",
+    "outlineRefs": [
+      "4. Wound Care",
+      "a. Different Methods of Wound Care",
+      "b. Hydrotherapy, Debridement"
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-burns-skin-grafting",
+    "area": "NP5",
+    "title": "Skin Grafting",
+    "body": "## What it is\nA skin graft is healthy skin placed over a burn or wound that cannot heal on its own. It closes the wound, reduces infection, fluid loss and scarring.\n\n## Must-know facts\n- Autograft: the client's own skin; permanent. Taken from a donor site.\n- Allograft (homograft): donor skin from another human, often cadaver; temporary cover.\n- Xenograft (heterograft): animal skin, often pig; temporary.\n- Synthetic or cultured skin substitutes exist.\n- Split-thickness graft: top layers; donor site heals itself; may be meshed to cover a larger area. Full-thickness graft: all layers; better look for face and hands, but the donor site must be closed.\n- Graft needs a clean, well-supplied bed to take; fluid, blood or infection under it can lift it off.\n\n## What the nurse assesses\n- Graft colour, adherence, drainage, odour, signs of infection or bleeding, donor site pain and bleeding, circulation, nutrition.\n\n## Priority nursing actions\n1. Immobilise and protect the graft site as ordered, avoiding pressure, shearing and moisture.\n2. Elevate the area and avoid movement until the surgeon allows.\n3. Keep dressing intact; observe for fluid collection; follow the order for first dressing change.\n4. Care for the donor site (keep dry or covered as ordered); it is often more painful than the graft.\n5. Prevent infection; encourage protein-rich nutrition.\n6. Teach about sun protection, moisturising, scar care.\n\n## How the exam asks about it\nWhich graft is temporary (allograft, xenograft); which is permanent (autograft); what to do first when a graft looks blue or has blood collecting under it (report promptly).\n\n## Related topics\n[[Burn Wound Care Methods, Hydrotherapy and Debridement]], [[Phases of Burn Care]]\n\n## Check against your textbook\n- Exact timing of first dressing change, donor site dressing practice, and positioning rules.",
+    "tags": [
+      "burns",
+      "surgery",
+      "grafting"
+    ],
+    "priority": "high",
+    "outlineRefs": [
+      "c. Skin Grafting"
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-burns-antimicrobials",
+    "area": "NP5",
+    "title": "Antimicrobials for Burns",
+    "body": "## What it is\nTopical antimicrobials are applied directly to burn wounds to prevent or treat infection. Systemic antibiotics are used for confirmed infection and not routinely as prevention.\n\n## Must-know facts\n- Silver sulfadiazine: widely used, soothing. Cautions: sulfa allergy, can cause temporary drop in white cells, can form a pseudo-eschar that makes wound inspection harder.\n- Mafenide acetate: penetrates dead tissue well, so it is used on deep burns and ears. Cautions: stinging pain on application and a risk of metabolic acidosis.\n- Silver nitrate: stains skin and linen; can lower sodium and chloride; dressings are kept moist as ordered.\n- Bacitracin or similar ointments are used on face burns and superficial wounds. Silver-impregnated and some honey dressings are also used.\n- Nurses observe application technique, thin layer with sterile gloves, remove old product at each change, check sensitivities and report allergy.\n- Tetanus prophylaxis should be checked.\n- Culture the wound when infection is suspected before changing therapy.\n\n## What the nurse assesses\n- Allergy history, wound signs, temperature, white cell and acid-base results as ordered, pain on application.\n\n## Priority nursing actions\n1. Check allergy and order before applying.\n2. Use sterile technique and appropriate coverage.\n3. Premedicate for painful agents.\n4. Monitor laboratory findings and report abnormal ones.\n5. Document and report infection signs.\n\n## How the exam asks about it\nWhich agent is contraindicated in sulfa allergy; which causes acidosis; which stains. Pick the agent by its signature adverse effect.\n\n## Related topics\n[[Burn Wound Care Methods, Hydrotherapy and Debridement]], [[Pain, Infection and Nutrition in Burns]]\n\n## Check against your textbook\n- Drug lists, concentrations, frequency and which agent your exam source prefers for which area; verify against pharmacology references.",
+    "tags": [
+      "burns",
+      "pharmacology",
+      "infection"
+    ],
+    "priority": "medium",
+    "outlineRefs": [
+      "5. Antimicrobials for Burns"
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-disaster-basic-concepts",
+    "area": "NP5",
+    "title": "Disaster Nursing Basic Concepts",
+    "body": "## What it is\nA disaster is a sudden event that overwhelms the ability of a community to cope using its own resources and needs outside help. Disaster nursing applies nursing knowledge to protect health, give care and support recovery before, during and after such events.\n\n## Must-know facts\n- Types: natural (typhoon, flood, earthquake, volcanic eruption, landslide), human-made (fire, transport accident, conflict, industrial or chemical accident, terrorism), and mixed. Mass casualty incident means many casualties at once; it may or may not be a disaster depending on local capacity.\n- Hazard is the source of danger; vulnerability is how exposed and unprepared people are; capacity is what helps them cope; risk comes from hazard combined with vulnerability and low capacity. Disasters hurt most where vulnerability is high.\n- Most vulnerable groups: children, older adults, pregnant women, people with disability, chronic illness, poverty.\n- Disaster care differs from daily care: goal shifts to the greatest good for the greatest number, with limited resources, which is why disaster triage is used ([[NATO Disaster Triage System]]).\n- Nurses' roles: preparedness teaching, triage, first aid, shelter and evacuation-centre care, infection and sanitation control, vaccination and surveillance, psychosocial support, record keeping, advocacy.\n- Common health issues afterwards: injuries, infection outbreaks from poor water and sanitation, malnutrition, mental stress, interrupted care for chronic disease.\n\n## What the nurse assesses\n- Scene safety, number and condition of casualties, available resources, water and sanitation, vulnerable people, psychological state.\n\n## Priority nursing actions\n1. Personal and team safety first.\n2. Rapid assessment and triage.\n3. Life-saving care before comfort care.\n4. Preventing secondary problems such as outbreaks.\n5. Psychosocial support ([[Crisis Intervention]]).\n\n## How the exam asks about it\nWhich role fits which phase, who is seen first in a mass casualty event, which action first at arrival to the scene (safety).\n\n## Related topics\n[[Disaster Management Continuum]], [[NATO Disaster Triage System]], [[NDRRMC and the Philippine Disaster Framework]]\n\n## Check against your textbook\n- Definitions differ between sources; use your reviewer's wording for exam definitions.",
+    "tags": [
+      "disaster",
+      "concepts"
+    ],
+    "priority": "high",
+    "outlineRefs": [
+      "e. Disaster Nursing Concepts",
+      "Basic Concepts"
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-disaster-continuum",
+    "area": "NP5",
+    "title": "Disaster Management Continuum",
+    "body": "## What it is\nThe disaster management continuum (cycle) shows that disaster work is continuous, not just the response. Phases flow into one another: mitigation and prevention, preparedness, response, and recovery with rehabilitation. Many books group them as before, during and after.\n\n## Must-know facts\n- Prevention and mitigation: reduce the damage before disaster by stopping hazards or lowering risk. Examples: land-use planning, building codes, flood control, hazard mapping, community education.\n- Preparedness: be ready to act. Examples: emergency plans, drills, early warning, stockpiling, trained volunteers, evacuation routes, family kits.\n- Response: actions during and immediately after impact. Examples: search and rescue, triage, emergency treatment, evacuation, shelter, emergency food and water, disease control.\n- Recovery and rehabilitation: return to normal or better. Examples: rebuilding, restoring services, counselling, follow-up of injured, lessons learned, updating plans.\n- Nursing roles per phase: educate and train (before), triage and treat (during), long-term care and mental health follow-up (after).\n- Philippine law frames the same ideas as four thematic areas ([[NDRRMC and the Philippine Disaster Framework]]).\n\n## What the nurse assesses\n- Before: community risk and readiness. During: casualties, needs. After: unmet health needs, outbreaks, stress.\n\n## Priority nursing actions\n1. Match the action to the phase: teaching and drills before, triage and care during, follow-up after.\n2. Keep records and report.\n3. Evaluate and improve plans.\n\n## How the exam asks about it\nGive an activity and ask which phase it belongs to (for example a drill is preparedness; setting up a first aid station is response). Trap: confusing mitigation with preparedness.\n\n## Memory aid\n\"Reduce, ready, respond, recover\" (my own wording).\n\n## Related topics\n[[Disaster Nursing Basic Concepts]], [[NDRRMC and the Philippine Disaster Framework]], [[NATO Disaster Triage System]]\n\n## Check against your textbook\n- Number and names of phases differ between texts (three, four or five).",
+    "tags": [
+      "disaster",
+      "phases"
+    ],
+    "priority": "high",
+    "outlineRefs": [
+      "Disaster Management Continuum"
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-nato-triage",
+    "area": "NP5",
+    "title": "NATO Disaster Triage System",
+    "body": "## What it is\nNATO triage is a disaster and military-style system that sorts many casualties into groups by urgency and survivability, so limited help goes where it saves the most lives. It uses priority categories, often shown by colour tags.\n\n## Must-know facts\n- Immediate (T1, usually red): life-threatening but treatable and likely to survive with quick care, such as airway obstruction, severe bleeding, shock.\n- Delayed (T2, usually yellow): serious injuries that can wait a short time without immediate death risk, such as stable fractures or burns not threatening airway.\n- Minimal (T3, usually green): minor injuries, walking wounded; they can wait or help themselves.\n- Expectant (T4, often blue or grey; some systems use black): injuries so severe that survival is unlikely given available resources, for example massive head injury; they receive comfort care and are rechecked when resources allow.\n- Dead (often black) in many systems.\n- Colour and label details vary by country and by textbook. State what your reviewer teaches; I am confident of the immediate, delayed, minimal, expectant structure.\n- Triage in disaster is repeated and done where the casualty is found and again at the treatment area. Another widely taught method is START (simple triage and rapid treatment), which uses breathing, perfusion and mental status; verify its steps.\n- Do not stop to treat in the field during first-pass sorting, except to open an airway or control bleeding quickly.\n\n## What the nurse assesses\n- Ability to walk, breathing, circulation (pulse, capillary refill), ability to follow commands.\n\n## Priority nursing actions\n1. Sort quickly; identify the immediate group first.\n2. Tag, move to the right zone, treat in category order.\n3. Reassess regularly and retag.\n4. Document.\n\n## How the exam asks about it\nWhich category for a client with a given description; which casualty to treat first (immediate); what to do for the expectant group (comfort, reassess). Trap: assuming the most seriously injured always goes first; in disaster those unlikely to survive wait.\n\n## Related topics\n[[Triage Basics and Three-Level Triage]], [[Disaster Management Continuum]], [[Disaster Nursing Basic Concepts]]\n\n## Check against your textbook\n- Category numbers, colours (especially for expectant), and whether dead are a separate category.",
+    "tags": [
+      "disaster",
+      "triage"
+    ],
+    "priority": "high",
+    "outlineRefs": [
+      "NATO Triage System (Disaster Nursing)"
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-ndrrmc",
+    "area": "NP5",
+    "title": "NDRRMC and the Philippine Disaster Framework",
+    "body": "## What it is\nNDRRMC is the National Disaster Risk Reduction and Management Council, the Philippine body that leads national disaster risk reduction and response coordination. It operates under the law on Philippine disaster risk reduction and management passed in 2010 (Republic Act 10121), which replaced the older disaster coordinating council system.\n\n## Must-know facts\n- The law shifted the national approach from mainly responding after disasters to reducing risk beforehand, with community participation.\n- The framework is organised around four thematic areas: disaster prevention and mitigation, disaster preparedness, disaster response, and disaster rehabilitation and recovery.\n- The system works through councils at national, regional, provincial, city or municipal, and barangay levels. Local governments have a first-responder role. The Office of Civil Defense supports the national council as its secretariat. Different government agencies lead the different areas (for example health, social welfare, public works, defence).\n- Local disaster funds exist; details are for your textbook.\n- The Department of Health runs health emergency management and coordinates health responders; nurses may be part of rapid response teams and evacuation centre care.\n- All details here are general and may have been amended; verify local policy.\n\n## What the nurse assesses\n- Community hazards and readiness, evacuation centre conditions, health needs of evacuees, reporting channels.\n\n## Priority nursing actions\n1. Know the local plan and who to report to.\n2. Join drills and teach families about preparedness.\n3. Respond within your role and report health data to authorities.\n\n## How the exam asks about it\nName the council, the law, the four thematic areas, or which phase an activity belongs to. Trap: mixing the levels (barangay is the lowest and first line).\n\n## Related topics\n[[Disaster Management Continuum]], [[Disaster Nursing Basic Concepts]], [[NATO Disaster Triage System]]\n\n## Check against your textbook\n- Verify local policy: council membership and chair, agency roles, law amendments, exact wording of the four areas and DOH health emergency arrangements.",
+    "tags": [
+      "disaster",
+      "philippines",
+      "law"
+    ],
+    "priority": "medium",
+    "outlineRefs": [
+      "NDRRMC"
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-cardiac-arrest-bls",
+    "area": "NP5",
+    "title": "Cardiac Arrest and Basic Life Support Principles",
+    "body": "## What it is\nCardiac arrest is sudden loss of effective heart pumping, so the client is unresponsive, not breathing normally and has no pulse. Basic life support (BLS) keeps blood and oxygen flowing until the heart can be restarted.\n\n## Must-know facts\n- Rhythms: shockable (ventricular fibrillation, pulseless ventricular tachycardia) need defibrillation. Non-shockable (asystole, pulseless electrical activity) need high-quality compressions, airway support, medicines and treatment of the cause.\n- Chain of survival: early recognition and call for help, early CPR, early defibrillation, advanced care, post-arrest care.\n- Principles of good CPR: start promptly, push hard and fast on the centre of the chest, allow full recoil, keep interruptions very short, avoid over-ventilation, rotate compressors when tired. Exact rate, depth and compression-to-breath ratios change between guideline updates and age groups: verify against current guidelines.\n- Use an automated external defibrillator as soon as available; follow its prompts; stand clear before a shock.\n- Reversible causes are searched for (often grouped as the Hs and Ts such as low oxygen, low volume, tension pneumothorax, tamponade, clots).\n- Check for a pulse for no longer than the guideline time; if unsure, begin compressions.\n\n## What the nurse assesses\n- Responsiveness, breathing, pulse, rhythm on monitor, scene safety.\n\n## Priority nursing actions\n1. Check safety and responsiveness, call for help and the defibrillator.\n2. Start compressions (circulation first in adults).\n3. Open the airway and ventilate as trained.\n4. Defibrillate when a shockable rhythm is present.\n5. Continue until relieved, the client recovers, or a valid order to stop; document the event.\n\n## How the exam asks about it\nWhich action first (check response and call for help, then compressions). Which rhythm gets a shock. Trap: delaying compressions to find a pulse for too long or to intubate.\n\n## Related topics\n[[Airway Obstruction and Choking]], [[Respiratory Failure Recognition]], [[ICU Monitoring Concepts]]\n\n## Check against your textbook\n- All numbers (rate, depth, ratio, shock energy, drug doses) and the sequence for children and infants.",
+    "tags": [
+      "added-beyond-outline",
+      "life-threatening",
+      "cardiac-arrest",
+      "BLS"
+    ],
+    "priority": "high",
+    "outlineRefs": [],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-airway-obstruction-choking",
+    "area": "NP5",
+    "title": "Airway Obstruction and Choking",
+    "body": "## What it is\nChoking happens when a foreign body blocks the airway, either partly or fully. A full blockage is a life-threatening emergency within minutes.\n\n## Must-know facts\n- Mild (partial) obstruction: the person can cough, speak or breathe with noise. Encourage coughing; do not slap the back or perform thrusts while air still moves.\n- Severe obstruction: cannot speak, cough or breathe; may clutch the throat, have silent struggle, turn blue.\n- Conscious adult or child: abdominal thrusts (Heimlich manoeuvre) repeatedly until the object comes out or the person becomes unresponsive. Pregnant or very obese clients: chest thrusts instead.\n- Infant: alternating back blows and chest thrusts, not abdominal thrusts; never blind finger sweeps. Exact numbers per cycle: verify against current guidelines.\n- If the person becomes unresponsive: lower to the ground, call for help, and begin CPR; look in the mouth before ventilating and remove an object only if you can see it.\n- Hospital: trained providers may use suction, forceps or advanced airway or surgical airway.\n- Prevention: cut food small, supervise children, avoid small objects and some foods for young children, careful eating for people with swallowing difficulty.\n\n## What the nurse assesses\n- Ability to cough and speak, colour, breathing effort, level of consciousness.\n\n## Priority nursing actions\n1. Ask \"Are you choking?\" and check if the person can speak or cough.\n2. If severe, call for help and begin thrusts right away.\n3. If the person collapses, start CPR.\n4. After recovery, assess and have the person medically checked.\n\n## How the exam asks about it\nWhich action first when a client can cough (encourage coughing, observe). Which technique for infants (back blows plus chest thrusts). Trap: doing abdominal thrusts on an infant.\n\n## Related topics\n[[Airway Management in the Primary Survey]], [[Cardiac Arrest and Basic Life Support Principles]]\n\n## Check against your textbook\n- Number of thrusts and blows and the sequence by age; verify against current guidelines.",
+    "tags": [
+      "added-beyond-outline",
+      "life-threatening",
+      "airway",
+      "choking"
+    ],
+    "priority": "high",
+    "outlineRefs": [],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-respiratory-failure",
+    "area": "NP5",
+    "title": "Respiratory Failure Recognition",
+    "body": "## What it is\nRespiratory failure means the lungs cannot keep blood oxygen or carbon dioxide at safe levels. It may develop fast (acute) or on top of chronic lung disease.\n\n## Must-know facts\n- Hypoxaemic (type 1) failure: low oxygen with normal or low carbon dioxide, for example pneumonia, pulmonary oedema, acute respiratory distress syndrome, pulmonary embolism.\n- Hypercapnic (type 2) failure: high carbon dioxide from poor ventilation, for example advanced COPD, drug overdose, neuromuscular weakness, chest wall injury, exhaustion.\n- Early signs: restlessness, anxiety, fast breathing, fast pulse, use of accessory muscles. Later signs: confusion, drowsiness, blue colour, slow tiring breathing, falling saturation. Drowsiness with high carbon dioxide is dangerous.\n- Arterial blood gases confirm the picture: low oxygen, high carbon dioxide and acidosis in the late stage; exact values are for your textbook.\n- Clients with long-term CO2 retention need cautious controlled oxygen, but oxygen must never be withheld from someone who is hypoxic.\n- Treatment: treat the cause, oxygen, positioning (upright), airway clearance, bronchodilators or other drugs as ordered, non-invasive ventilation or mechanical ventilation when needed.\n\n## What the nurse assesses\n- Respiratory rate and pattern, effort, saturation, colour, mental status, breath sounds, blood gases, fatigue.\n\n## Priority nursing actions\n1. Airway and breathing; call for help early.\n2. Sit the client upright, give oxygen as ordered.\n3. Monitor continuously and report deterioration quickly.\n4. Prepare for ventilation support and transfer to a higher level of care.\n5. Reassure the client and reduce oxygen demand.\n\n## How the exam asks about it\nSpot the early sign (restlessness), not only the late ones (cyanosis). Which client first when comparing a calm one with a slow, drowsy breathing one.\n\n## Related topics\n[[Breathing Assessment in the Primary Survey]], [[ICU Monitoring Concepts]], [[Cardiac Arrest and Basic Life Support Principles]]\n\n## Check against your textbook\n- Gas values, oxygen delivery targets for chronic lung disease, and ventilation settings.",
+    "tags": [
+      "added-beyond-outline",
+      "life-threatening",
+      "respiratory",
+      "oxygenation"
+    ],
+    "priority": "high",
+    "outlineRefs": [],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-sepsis-septic-shock",
+    "area": "NP5",
+    "title": "Sepsis and Septic Shock Recognition",
+    "body": "## What it is\nSepsis is a life-threatening response to infection that injures the body's own organs. Septic shock is sepsis with dangerously low blood pressure and poor tissue perfusion that persists despite fluids. Both are time-critical.\n\n## Must-know facts\n- Sources: pneumonia, urinary tract, abdomen, wounds and burns, lines and catheters. Higher risk: older adults, infants, diabetes, immune suppression, recent surgery, invasive devices.\n- Early clues: fever or low temperature, fast pulse, fast breathing, confusion, warm flushed skin early, reduced urine output. Later: low blood pressure, cool mottled skin, high lactate.\n- Quick bedside screens exist (such as qSOFA); verify criteria in your textbook.\n- Early care principles (often called a bundle): recognise early, get blood cultures before antibiotics without delaying them, give broad-spectrum antibiotics early, give IV fluids, measure lactate, start vasopressors if pressure stays low, find and control the source. Exact timing, volumes and drug choices follow current guidelines.\n- Complications: shock, acute respiratory distress, kidney injury, DIC and multiple organ failure ([[DIC and Multiple Organ Dysfunction Recognition]]).\n\n## What the nurse assesses\n- Temperature, pulse, breathing, blood pressure trend, mental status, skin, urine output, wound and line sites, laboratory results.\n\n## Priority nursing actions\n1. Recognise and escalate at once.\n2. Airway, breathing, oxygen, IV access.\n3. Collect cultures, then give antibiotics promptly as ordered.\n4. Give fluids as ordered; monitor response and urine output.\n5. Prevent spread: hand hygiene, remove unneeded lines as ordered.\n\n## How the exam asks about it\nEarly subtle changes (new confusion in an older adult) as the first sign. Which order: cultures before antibiotics but do not delay antibiotics. Trap: waiting for fever.\n\n## Related topics\n[[Types of Shock]], [[Management of Shock]], [[ICU Monitoring Concepts]]\n\n## Check against your textbook\n- Definitions (these have changed over time), bundle timing, screening tools, fluid and drug details.",
+    "tags": [
+      "added-beyond-outline",
+      "life-threatening",
+      "sepsis",
+      "shock"
+    ],
+    "priority": "high",
+    "outlineRefs": [],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-dic-mods",
+    "area": "NP5",
+    "title": "DIC and Multiple Organ Dysfunction Recognition",
+    "body": "## What it is\nDisseminated intravascular coagulation (DIC) is widespread, abnormal clotting that uses up clotting factors and platelets, so the client both clots and bleeds. Multiple organ dysfunction syndrome (MODS) is failure of two or more organ systems, often after shock, sepsis, trauma or burns.\n\n## Must-know facts\n- DIC is always secondary to something: sepsis, major trauma, burns, obstetric emergencies, cancer, transfusion reactions, snakebite.\n- Signs of bleeding: oozing from IV sites, nosebleeds, gum bleeding, blood in urine or stool, bruises and tiny red spots, bleeding from wounds. Signs of clotting: cold blue fingers or toes, organ ischaemia, confusion, low urine output.\n- Typical laboratory pattern: low platelets, prolonged clotting times, raised fibrin breakdown products (such as D-dimer) and low fibrinogen; verify values.\n- Management focuses on treating the cause, supporting circulation, and replacing blood products as ordered. Avoid injections and rough handling where possible.\n- MODS: kidney, lung, liver, heart, gut, brain and blood systems may fail one after another. Prevention is the main strategy: treat shock early, control infection, support nutrition, and monitor trends.\n\n## What the nurse assesses\n- Bleeding sites, skin and extremity colour, vital signs, urine output, mental status, laboratory trend, oxygen saturation.\n\n## Priority nursing actions\n1. Report early signs of bleeding or unexpected bruising in a sick client.\n2. Protect from injury: gentle handling, soft toothbrush, pressure on puncture sites, avoid intramuscular injections.\n3. Give blood products and drugs as ordered; monitor reactions.\n4. Support each failing organ and monitor trends.\n\n## How the exam asks about it\nWhich clients are at risk (sepsis, obstetric emergency, trauma). Which finding means DIC is developing (bleeding from several unrelated sites). Trap: treating the bleeding alone without the cause.\n\n## Related topics\n[[Sepsis and Septic Shock Recognition]], [[Early vs Late Stages of Shock]], [[ICU Monitoring Concepts]]\n\n## Check against your textbook\n- Lab reference values, product choice and heparin use in DIC (debated), and the MODS scoring systems.",
+    "tags": [
+      "added-beyond-outline",
+      "life-threatening",
+      "DIC",
+      "organ-failure"
+    ],
+    "priority": "medium",
+    "outlineRefs": [],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np5-icu-monitoring",
+    "area": "NP5",
+    "title": "ICU Monitoring Concepts",
+    "body": "## What it is\nIntensive care uses continuous monitoring and rapid action to catch deterioration early in acutely ill clients. The nurse interprets trends, responds to alarms and acts before the client collapses.\n\n## Must-know facts\n- Continuous ECG, pulse oximetry, and frequent blood pressure; arterial lines give beat-to-beat pressure and sample blood for gases. Zero and level the transducer as taught; damped waveforms need troubleshooting.\n- Central venous catheters give access for drugs and pressure measurement; risks include infection, air embolism and bleeding.\n- Mean arterial pressure reflects organ perfusion; urine output is an easy bedside measure of kidney perfusion; mental status reflects brain perfusion.\n- Mechanical ventilation: watch the alarms, secretions, tube position, sedation level, and comfort. Prevent ventilator-associated pneumonia with mouth care, head-of-bed elevation, hand hygiene and daily review of readiness to wean.\n- Neurological monitoring: GCS, pupils, intracranial pressure when a device is placed.\n- Sedation and delirium are assessed with scales; pain is assessed even in clients who cannot speak.\n- Early warning scores combine vital signs into a trigger for escalation.\n- Never silence or ignore an alarm without checking the client first.\n\n## What the nurse assesses\n- The client first, then the monitor. Trends over hours, not single numbers. Lines, tubes and drains each shift.\n\n## Priority nursing actions\n1. Look at the client before the monitor.\n2. Check ABCs when an alarm sounds.\n3. Escalate trends early.\n4. Prevent device infections and pressure injuries; document.\n5. Keep family informed and support them.\n\n## How the exam asks about it\nA monitor shows a worrying number but the client looks fine (check equipment, e.g. probe, then recheck the client). Or a client looks poor but numbers look acceptable (trust assessment).\n\n## Related topics\n[[Respiratory Failure Recognition]], [[Management of Shock]], [[Disability and Exposure in the Primary Survey]]\n\n## Check against your textbook\n- Normal pressure ranges, ventilator settings and local ICU protocols.",
+    "tags": [
+      "added-beyond-outline",
+      "life-threatening",
+      "ICU",
+      "monitoring"
+    ],
+    "priority": "medium",
+    "outlineRefs": [],
+    "aiWritten": true,
+    "nurseReviewed": false
+  }
+]
