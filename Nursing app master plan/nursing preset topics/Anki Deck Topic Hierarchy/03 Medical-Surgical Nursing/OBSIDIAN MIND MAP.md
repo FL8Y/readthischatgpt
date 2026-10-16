@@ -520,3 +520,16 @@
 - [[Polycythemia Vera]] — [Polycythemia Vera — PNLE Research.md](./Hematology/Polycythemia%20Vera/Polycythemia%20Vera%20%E2%80%94%20PNLE%20Research.md)
 - [[Sickle Cell Anemia]] — [Sickle Cell Disease and Vaso-Occlusive Crisis — PNLE Research.md](./Hematology/Sickle%20Cell%20Anemia/Sickle%20Cell%20Disease%20and%20Vaso-Occlusive%20Crisis%20%E2%80%94%20PNLE%20Research.md)
 - [[Immunology]] — [Hematology and Immune Function: Clinical Overview — PNLE Research.md](./Hematology/Immunology/Hematology%20and%20Immune%20Function:%20Clinical%20Overview%20%E2%80%94%20PNLE%20Research.md)
+
+
+## Musculoskeletal topic drafts (verification pending)
+- [[Gout]] — [Gout: Acute Flare and Long-Term Management — PNLE Research.md](./MSK/Arthritis/Gout/Gout:%20Acute%20Flare%20and%20Long-Term%20Management%20%E2%80%94%20PNLE%20Research.md)
+- [[Carpal Tunnel Syndrome]] — [Carpal Tunnel Syndrome — PNLE Research.md](./MSK/Carpal%20Tunnel%20Syndrome/Carpal%20Tunnel%20Syndrome%20%E2%80%94%20PNLE%20Research.md)
+- [[De Quervain Syndrome]] — [De Quervain Tenosynovitis — PNLE Research.md](./MSK/De%20Quervain%20Syndrome/De%20Quervain%20Tenosynovitis%20%E2%80%94%20PNLE%20Research.md)
+- [[Dupuytren's Contracture]] — [Dupuytren Contracture — PNLE Research.md](./MSK/Dupuytren's%20Contracture/Dupuytren%20Contracture%20%E2%80%94%20PNLE%20Research.md)
+- [[Fibromyalgia]] — [Fibromyalgia: Assessment and Multidisciplinary Care — PNLE Research.md](./MSK/Fibromyalgia/Fibromyalgia:%20Assessment%20and%20Multidisciplinary%20Care%20%E2%80%94%20PNLE%20Research.md)
+- [[Herniated Nucleus Pulposus]] — [Herniated Nucleus Pulposus and Radiculopathy — PNLE Research.md](./MSK/Herniated%20Nucleus%20Pulposus/Herniated%20Nucleus%20Pulposus%20and%20Radiculopathy%20%E2%80%94%20PNLE%20Research.md)
+- [[Hip Replacement]] — [Total Hip Arthroplasty: Perioperative Nursing Care — PNLE Research.md](./MSK/Hip%20Replacement/Total%20Hip%20Arthroplasty:%20Perioperative%20Nursing%20Care%20%E2%80%94%20PNLE%20Research.md)
+- [[Postoperative Interventions]] — [Postoperative Nursing Care After Limb Amputation — PNLE Research.md](./MSK/Limb%20Amputation/Postoperative%20Interventions/Postoperative%20Nursing%20Care%20After%20Limb%20Amputation%20%E2%80%94%20PNLE%20Research.md)
+- [[Preoperative Interventions]] — [Preoperative Nursing Care for Limb Amputation — PNLE Research.md](./MSK/Limb%20Amputation/Preoperative%20Interventions/Preoperative%20Nursing%20Care%20for%20Limb%20Amputation%20%E2%80%94%20PNLE%20Research.md)
+- [[Stump Care]] — [Residual Limb (Stump) Care and Prosthetic Preparation — PNLE Research.md](./MSK/Limb%20Amputation/Stump%20Care/Residual%20Limb%20(Stump)%20Care%20and%20Prosthetic%20Preparation%20%E2%80%94%20PNLE%20Research.md)
