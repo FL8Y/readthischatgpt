@@ -22,7 +22,8 @@ The user has confirmed:
 7. [Implementation Roadmap](./IMPLEMENTATION_ROADMAP.md) — dependency-ordered stages and exit gates; implementation requires separate authorization.
 8. [Repository Audit](./REPO_AUDIT.md) — source inventory, what was inspected versus merely inventoried, and archive limitations.
 9. [QA Council Review](./QA_COUNCIL_REVIEW.md) — dated review findings, corrections, unresolved blockers and honest scorecards.
-10. [Cleanup Log](./CLEANUP_LOG.md) — consolidation map and precise record of deleted/moved files.
+10. [1000-Point Readiness Trace](./1000_POINT_READINESS_TRACE.md) — weighted scoring evidence, hard gates, blocker register and path to a genuine 10/10.
+11. [Cleanup Log](./CLEANUP_LOG.md) — consolidation map and precise record of deleted/moved files.
 
 ## Research sources
 
