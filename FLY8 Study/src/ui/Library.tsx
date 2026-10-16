@@ -11,6 +11,7 @@ import { ImportError, UNVERIFIED_SUGGESTION } from '../import/types';
 import type { ReviewedSource } from '../import/types';
 import { callModelVision } from '../import/vision';
 import { Btn, Card, Field, H, P, Pill, c } from './kit';
+import { ObsidianImport } from './ObsidianImport';
 
 const uid = (p: string) => `${p}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 6)}`;
 
@@ -23,6 +24,7 @@ export function Library({ state, update }: { state: AppState; update: (s: AppSta
   const [busy, setBusy] = useState<string | null>(null);
   const [importing, setImporting] = useState('');
   const [importError, setImportError] = useState('');
+  const [showObsidian, setShowObsidian] = useState(false);
 
   const addFolder = () => {
     const name = newFolder.trim();
@@ -185,11 +187,13 @@ export function Library({ state, update }: { state: AppState; update: (s: AppSta
         />
         <Btn label="Import .txt / .md file" kind="ghost" onPress={() => void pickFile()} />
         <Btn label={importing ? 'Importing...' : 'Import PDF / photo'} kind="ghost" disabled={!!importing} onPress={() => void importScan()} />
+        <Btn label="Import Obsidian vault / canvas" kind="ghost" onPress={() => setShowObsidian(true)} />
         <P dim>PDF needs Claude. Photos work with Claude or OpenAI. Max 15 MB. The AI transcribes it, so skim the result.</P>
         {importing ? <P dim>{importing}</P> : null}
         {importError ? <P>{importError}</P> : null}
         {msg ? <P dim>{msg}</P> : null}
       </Card>
+      {showObsidian ? <ObsidianImport state={state} update={update} onClose={() => setShowObsidian(false)} /> : null}
       {topics.map((t) => {
         const src = state.sources.find((x) => x.id === t.sourceIds[0]) as ReviewedSource | undefined;
         return (
