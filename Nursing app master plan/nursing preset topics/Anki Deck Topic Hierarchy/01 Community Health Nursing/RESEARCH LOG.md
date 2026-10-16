@@ -10,10 +10,10 @@
 
 - **Phase:** Substantive topic research and verification; recursive coverage audit still pending.
 - **Discovered topic folders:** 77
-- **Substantive topic drafts expanded:** 21 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, and Chikiting Ligtas.
+- **Substantive topic drafts expanded:** 22 — COPAR overview, Basic Principles of COPAR, Phases of COPAR, Basics of PHC, Characteristics of PHC, Primary Health Care, Elements of PHC, Pillars of PHC, Sentrong Sigla Program, Education, Competency-Based Teaching, Identify the Prevention, Three Levels of Prevention, Nutrition, Malnutrition, Food Fortification Program, Essential Drugs, Herbal, Sanitation and Environmental Health, Expanded Program on Immunization, and Chikiting Ligtas, and Approved Types of Water Supply Facilities.
 - **Topics verified complete:** 0
-- **Folders still requiring substantive topic-specific expansion:** 56 (all 77 have a notes file, but most remain initial starter notes).
-- **Drafts awaiting source/content verification:** 21
+- **Folders still requiring substantive topic-specific expansion:** 55 (all 77 have a notes file, but most remain initial starter notes).
+- **Drafts awaiting source/content verification:** 22
 - **Research notes present:** 77/77; this is file presence, not research completion.
 - **Completion:** 0% verified topic research. No topic is marked Verified Complete.
 - **Mind map:** Existing Obsidian map reflects the folder hierarchy; status annotations, links and coverage audit still required.
@@ -247,8 +247,8 @@ Every directory below was present in the repository's recursive tree at the init
   Status: **Drafted — Needs Verification** | Required sections: environmental-health domains; drinking-water/sanitation/waste/food safety/vector/exposure risks; assessment and escalation; nursing responsibilities; Philippine laws/standards; evaluation; safety; PNLE distinctions; sources.  
   Sources consulted: WHO Sanitation fact sheet (2024); WHO Drinking-water fact sheet (2023); PD 856 Code on Sanitation (Supreme Court E-Library); RA 9275 Philippine Clean Water Act (Supreme Court E-Library); RA 9003 Ecological Solid Waste Management Act (Supreme Court E-Library); DOH AO 2017-0010 Philippine National Standards for Drinking Water (official FDA/DOH page). Important facts covered: environmental-health domains; water contamination and disease risks; sanitation/waste safety; community assessment and escalation; Philippine legal framework. Research file: `Elements of Primary Health Care/Sanitation and Environmental Health/RESEARCH NOTES.md` (18,068 characters; reopened after save). Unresolved issues: final link/full-text and regulatory amendment review; exact water-quality thresholds and local reporting deadlines not asserted. Last action: replaced unrelated mental-health starter content with substantive sanitation/environmental-health research and reopened saved file (2026-10-17). Next action: continue to next topic folder and verify all sources before marking complete.
 - [x] **Approved Types of Water Supply Facilities** — `Elements of Primary Health Care/Sanitation and Environmental Health/Approved Types of Water Supply Facilities`  
-  Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
-  Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
+  Status: **Drafted — Needs Verification** | Required sections: Level I/II/III definitions and comparison; access vs safety distinction; Philippine legal/technical standards; nursing responsibilities; water-quality and outbreak response; evaluation indicators; PNLE distinctions; sources.  
+  Sources consulted: DOH IRR of Chapter II—Water Supply under PD 856 (Supreme Court E-Library); PSA water-supply technical notes; DOH AO 2017-0010 PNSDW page; DOH AO 2014-0027 Water Safety Plan policy; RA 9275 Supreme Court E-Library; WHO Drinking-water fact sheet. Important facts covered: Level I point source; Level II communal faucets; Level III household connections; none guarantees potable water without meeting applicable quality standards; access/distance figures vary by source/version. Research file: `Elements of Primary Health Care/Sanitation and Environmental Health/Approved Types of Water Supply Facilities/RESEARCH NOTES.md` (11,358 characters; verified from main after save). Unresolved issues: final direct-link/full-text and amendment review; current PNSDW thresholds and sampling obligations not asserted. Last action: replaced generic starter with substantive water-supply classification research and verified the main-branch file (2026-10-17). Next action: continue folder-by-folder and verify sources before marking complete.
 - [x] **Color and Type of Waste** — `Elements of Primary Health Care/Sanitation and Environmental Health/Color and Type of Waste`  
   Status: In Progress | Required sections: topic foundations; Philippine context/laws/programs as applicable; assessment and nursing responsibilities; clinical reasoning and safety; PNLE high-yield distinctions; source list.  
   Sources consulted: none yet. Important facts verified: none yet. Research file: none yet. Unresolved issues: not assessed. Last action: included in initial recursive inventory (2026-10-17). Next action: read applicable guide and research this topic using authoritative sources.
@@ -293,8 +293,8 @@ Every directory below was present in the repository's recursive tree at the init
 ## Final Report (Live)
 
 - **Current completion:** 0% Verified Complete (0/77).
-- **Substantive drafts expanded:** 21/77; all twenty-one remain Drafted — Needs Verification.
-- **Folders still requiring substantive expansion:** 56/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
+- **Substantive drafts expanded:** 22/77; all 22 remain Drafted — Needs Verification.
+- **Folders still requiring substantive expansion:** 55/77. Notes files exist in 77/77 folders, but file presence does not satisfy the research standard.
 - **Verified research files:** 0.
 - **Missing-topic audit:** Pending; the existing hierarchy must be preserved and checked for missing assigned topics.
 - **Sources and verification summary:** WHO–UNICEF PHC framework/measurement sources and RA 11223 legal sources were consulted for PHC topics; COPAR sources were documented in the earlier research-cycle entries. Final link-by-link and independent content review remain.
@@ -552,3 +552,14 @@ Every directory below was present in the repository's recursive tree at the init
 - Reopened the saved file and confirmed 15,215 characters plus the campaign-date warning and SEIR coverage.
 - Status: **Drafted — Needs Verification**, not Verified Complete. The available campaign sources are historical (mainly 2023); no active 2026 campaign was verified. Current eligibility, product, dates, intervals and reporting/data-system rules must be checked against the latest DOH national/local guidance.
 - Next action: research the next unchecked EPI child topic, `Cold Chain and Logistics Management`, then continue through each assigned folder.
+
+
+## Research Cycle Log — 2026-10-17 (Approved Types of Water Supply Facilities)
+
+- Applied the full research standard to the individual `Approved Types of Water Supply Facilities` folder and replaced the generic environmental-health starter text.
+- Expanded `Elements of Primary Health Care/Sanitation and Environmental Health/Approved Types of Water Supply Facilities/RESEARCH NOTES.md` from 2,345 characters to 11,358 characters.
+- Covered Level I point source, Level II communal faucet system, Level III household connection, comparison table, service level versus water safety, water handling/recontamination, outbreak response, Philippine legal/technical context, indicators and PNLE distinctions.
+- The first write was accidentally directed to a duplicate path outside the assigned hierarchy. That misplaced file was removed, and the substantive content was then written to the **correct existing folder on main**. The correct main-branch file was reopened and verified at 11,358 characters; the duplicate path was removed.
+- Sources consulted: DOH IRR of Chapter II—Water Supply under PD 856 (Supreme Court E-Library); PSA water-supply technical notes; DOH AO 2017-0010 PNSDW page; DOH AO 2014-0027 Water Safety Plan policy; RA 9275 Supreme Court E-Library; WHO Drinking-water fact sheet.
+- Status: **Drafted — Needs Verification**, not Verified Complete. Full-text/amendment review and current water-quality thresholds remain outstanding.
+- Next action: continue to the next individual assigned folder; final source and recursive audits remain.
