@@ -28,8 +28,9 @@ The initial plan is materially more useful than the previous single-README bluep
 **Severity:** High  
 **Evidence:** The Gizmo reference schema includes answer data such as answerIndex, and ordering items are described as being generated in correct order. A generic serialized quiz sent to a client could expose the answer key before the learner responds.  
 **Impact:** Assessment validity is compromised if answers can be inspected in network responses or local client state.  
-**Correction required:** Define separate learner-visible question payloads and grading-key payloads. Server-backed mode must not return correct answers before submission. Offline mode must document that client-local answers cannot be fully protected from a technically capable device owner. Ordering/matching questions must randomize presentation without losing canonical grading order.  
-**Verification:** Inspect response schema and network payload; test that pre-answer payloads do not include answer keys; test shuffled display and grading.
+**Correction applied to planning documents:** DATA_MODEL_AND_CONTRACTS.md and ARCHITECTURE_OPTIONS.md now define separate learner-visible and grading-key payloads, plus shuffle/grading requirements.  
+**Still unverified:** No production implementation exists to inspect. Offline local-key exposure remains an explicit limitation.  
+**Verification gate:** Inspect actual response schema and network payload; test that pre-answer payloads do not include answer keys; test shuffled display and grading.
 
 ### Finding DEV-002 — Reference quiz service is not a production concurrency model
 **Severity:** High  
