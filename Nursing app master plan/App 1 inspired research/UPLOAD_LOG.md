@@ -46,3 +46,15 @@ Continue transferring archive entries in batches, then verify the final Git tree
 - Unsupported/not transferred: all candidate Android resources in this batch, including 948 XML files, 10 DEX files, the compiled resource table, Android manifest, and packaged media/font assets. No files were overwritten.
 - Log-entry commit SHA: `4639e2ffda8989b0f6df252a8f500f973475c7fb` (the subsequent edit below records this original log-entry commit).
 - Status: BLOCKED — do not mark this batch complete until an authenticated binary-capable transfer path is available.
+
+
+## Agent 6 — Native binary and miscellaneous resources (2026-10-16 12:48 Asia/Manila (UTC+08:00))
+
+- Batch timestamp: 2026-10-16 12:48 Asia/Manila (UTC+08:00)
+- Archive: `base.zip` (mounted as `base(1).zip` in this session); ZIP opened successfully, 1,790 file entries.
+- Assigned candidate check: no `.jar`, `.aar`, `.so`, `.db`, or `.sqlite` entries were present in the archive. Two additional `.proto` files were not in the repository tree, but their exact payload transfer was not completed in this batch.
+- Uploaded paths (1): `DebugProbesKt.bin` (1,733 bytes; preserved archive path under this folder).
+- Commit SHA: pending.
+- Verification: source archive entry size confirmed; GitHub blob SHA matches the Git object SHA computed from the archive bytes. Remote file-level read-back is pending.
+- Not uploaded: larger native/model/DEX/compiled resources were not transferred. The available GitHub connector supports base64 blob creation, but there is no direct connector bridge from the mounted ZIP for bulk exact-byte transfer. No existing files were overwritten.
+- Status: PARTIAL — only the small binary entry above was transferred; remaining files require a binary-capable bulk transfer path.
