@@ -546,3 +546,5 @@
 - [[Acute GI Management]] — [Acute-Phase Management in GI and Hepatobiliary Disorders — PNLE Research.md](./GI%20and%20Hepatobiliary/Acute%20Phase%20Management/Acute-Phase%20Management%20in%20GI%20and%20Hepatobiliary%20Disorders%20%E2%80%94%20PNLE%20Research.md)
 - [[PUD Risk and Management]] — [Peptic Ulcer Disease: Risk Factors and Management — PNLE Research.md](./GI%20and%20Hepatobiliary/PUD/Risk%20Factors%20and%20Management/Peptic%20Ulcer%20Disease:%20Risk%20Factors%20and%20Management%20%E2%80%94%20PNLE%20Research.md)
 - [[Chronic Pancreatitis]] — [Chronic Pancreatitis — PNLE Research.md](./GI%20and%20Hepatobiliary/Pancreatitis/Chronic%20Pancreatitis/Chronic%20Pancreatitis%20%E2%80%94%20PNLE%20Research.md)
+
+- [[Antineoplastic Drug Classes]] — [Antineoplastic Drug Classes: Identification and Nursing Safety — PNLE Research.md](./Cancer/Treatment%20Modalities/Antineoplastics/Identify%20the%20Class/Antineoplastic%20Drug%20Classes:%20Identification%20and%20Nursing%20Safety%20%E2%80%94%20PNLE%20Research.md) *(draft; verification pending)*

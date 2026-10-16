@@ -28,10 +28,10 @@ Counts below are derived from the topic checklist, not estimated.
 | Metric | Count |
 |---|---:|
 | Topics inventoried | 295 |
-| Researched / drafted | 131 |
+| Researched / drafted | 132 |
 | Verified | 0 |
 | Incomplete / not yet researched | 295 (inventory includes organizational parents) |
-| Remaining | 295 directories inventoried; 131 topic-specific draft files exist; 105 leaf topic folders remain without a dedicated research file; all drafts require verification |
+| Remaining | 295 directories inventoried; 132 topic-specific draft files exist; 104 leaf topic folders remain without a dedicated research file; all drafts require verification |
 | Evidence-based completion | 0% |
 
 **Status note:** Draft count is not verified completion. The current source-to-claim and uploaded-file audits remain pending; verified topics: 0.
@@ -370,5 +370,14 @@ Next: continue with remaining burn wound-care methods, disaster management/NDRRM
 - Re-read the complete current [RESEARCH TOPIC GUIDE.md](./RESEARCH%20TOPIC%20GUIDE.md) (15,746 characters). The full standard governs all subsequent work: substantive topic-specific research, claim-level source checking, Philippine context, explicit medication/procedure safety, PNLE prioritization, upload/reopen verification, and recursive audit.
 - Added 10 topic-specific draft files in the current batch: ADH/water balance, adrenal gland and hormones, hyperparathyroidism, hypoparathyroidism, PTH physiology, pituitary hormones, thyroid hormones, acute GI management, PUD risk/management, and chronic pancreatitis. Files were committed to branch `agent-3-med-surg-research` in commits `8e771dac70fd54238537a1fa4891dfb728b520c7` and `d4d37e5449047be3fae0e9e6640850dc9849e942`.
 - **Important status distinction:** These are substantive drafts, not verified completions. No topic is counted as VERIFIED COMPLETE until each cited source is opened and matched to the claim, Philippine/local guidance is checked where applicable, and the uploaded file is reopened.
-- Current recursive audit: 296 directories under the assigned root, 235 leaf topic folders, 131 topic research files; 105 leaf folders remain without a dedicated research file. Organizational parent folders still require explicit research or documented classification in the checklist.
+- Current recursive audit: 296 directories under the assigned root, 235 leaf topic folders, 132 topic research files; 104 leaf folders remain without a dedicated research file. Organizational parent folders still require explicit research or documented classification in the checklist.
 - Next action: continue with the next uncovered leaf folder, add its topic-specific research file, update the log, then return for source-by-source verification of drafted files. Do not mark the project complete until final recursive reconciliation.
+
+
+## Active-session work — 2026-10-17 (continued)
+
+- Re-ran the recursive Git tree audit against branch `agent-3-med-surg-research`: 296 directories, 235 leaf folders, 131 existing topic research files, 130 covered leaves, and 105 uncovered leaves before this batch. The standard was read from the active branch before writing.
+- Added `Cancer/Treatment Modalities/Antineoplastics/Identify the Class/Antineoplastic Drug Classes: Identification and Nursing Safety — PNLE Research.md` for the previously uncovered **Cancer → Treatment Modalities → Antineoplastics → Identify the Class** leaf. The file distinguishes conventional cytotoxic classes from hormone, targeted and immune therapies; includes mechanisms, examples, key toxicity patterns, administration safeguards, contraindication/precaution principles, PNLE recognition cues, prioritization and Philippine-context caveat.
+- Sources located during drafting: NCI treatment overview and chemotherapy/targeted/immunotherapy pages; MedlinePlus chemotherapy classes; NCI SEER Training drug-class overview. The draft explicitly remains **unverified** pending source-to-claim matching, drug-label/local protocol review, and reopening after upload.
+- New post-commit target: 132 research files, 131 covered leaf folders, 104 uncovered leaf folders; verified topics remain 0 until verification is actually completed.
+- Next action: proceed to the next uncovered leaf, then perform source-by-source verification and reopen every file. Do not mark the work complete based on draft count.
