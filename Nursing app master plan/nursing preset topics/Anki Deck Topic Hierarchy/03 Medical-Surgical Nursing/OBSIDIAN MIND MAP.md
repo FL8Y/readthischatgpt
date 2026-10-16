@@ -533,3 +533,16 @@
 - [[Postoperative Interventions]] — [Postoperative Nursing Care After Limb Amputation — PNLE Research.md](./MSK/Limb%20Amputation/Postoperative%20Interventions/Postoperative%20Nursing%20Care%20After%20Limb%20Amputation%20%E2%80%94%20PNLE%20Research.md)
 - [[Preoperative Interventions]] — [Preoperative Nursing Care for Limb Amputation — PNLE Research.md](./MSK/Limb%20Amputation/Preoperative%20Interventions/Preoperative%20Nursing%20Care%20for%20Limb%20Amputation%20%E2%80%94%20PNLE%20Research.md)
 - [[Stump Care]] — [Residual Limb (Stump) Care and Prosthetic Preparation — PNLE Research.md](./MSK/Limb%20Amputation/Stump%20Care/Residual%20Limb%20(Stump)%20Care%20and%20Prosthetic%20Preparation%20%E2%80%94%20PNLE%20Research.md)
+
+
+## Latest research drafts (verification pending)
+- [[ADH and Water Balance]] — [ADH and Water Balance: Core Concepts — PNLE Research.md](./Endocrine/ADH:%20DI%20and%20SIADH/Basic%20Concepts%20of%20ADH%20and%20Fluids/ADH%20and%20Water%20Balance:%20Core%20Concepts%20%E2%80%94%20PNLE%20Research.md)
+- [[Adrenal Gland and Hormones]] — [Adrenal Gland and Hormones — PNLE Research.md](./Endocrine/Adrenal%20Disorders/Adrenal%20Gland%20and%20Hormones/Adrenal%20Gland%20and%20Hormones%20%E2%80%94%20PNLE%20Research.md)
+- [[Hyperparathyroidism]] — [Hyperparathyroidism — PNLE Research.md](./Endocrine/PTH/Hyperparathyroidism/Hyperparathyroidism%20%E2%80%94%20PNLE%20Research.md)
+- [[Hypoparathyroidism]] — [Hypoparathyroidism — PNLE Research.md](./Endocrine/PTH/Hypoparathyroidism/Hypoparathyroidism%20%E2%80%94%20PNLE%20Research.md)
+- [[PTH and Calcium Regulation]] — [Parathyroid Hormone and Calcium Regulation — PNLE Research.md](./Endocrine/PTH/PTH%20and%20Hormones/Parathyroid%20Hormone%20and%20Calcium%20Regulation%20%E2%80%94%20PNLE%20Research.md)
+- [[Pituitary Hormones]] — [Pituitary Gland Hormones and Nursing Implications — PNLE Research.md](./Endocrine/Pituitary/Pituitary%20Gland%20Hormones/Pituitary%20Gland%20Hormones%20and%20Nursing%20Implications%20%E2%80%94%20PNLE%20Research.md)
+- [[Thyroid Hormones]] — [Thyroid Gland and Hormones — PNLE Research.md](./Endocrine/Thyroid%20Disorders/Thyroid%20Gland%20and%20Hormones/Thyroid%20Gland%20and%20Hormones%20%E2%80%94%20PNLE%20Research.md)
+- [[Acute GI Management]] — [Acute-Phase Management in GI and Hepatobiliary Disorders — PNLE Research.md](./GI%20and%20Hepatobiliary/Acute%20Phase%20Management/Acute-Phase%20Management%20in%20GI%20and%20Hepatobiliary%20Disorders%20%E2%80%94%20PNLE%20Research.md)
+- [[PUD Risk and Management]] — [Peptic Ulcer Disease: Risk Factors and Management — PNLE Research.md](./GI%20and%20Hepatobiliary/PUD/Risk%20Factors%20and%20Management/Peptic%20Ulcer%20Disease:%20Risk%20Factors%20and%20Management%20%E2%80%94%20PNLE%20Research.md)
+- [[Chronic Pancreatitis]] — [Chronic Pancreatitis — PNLE Research.md](./GI%20and%20Hepatobiliary/Pancreatitis/Chronic%20Pancreatitis/Chronic%20Pancreatitis%20%E2%80%94%20PNLE%20Research.md)
