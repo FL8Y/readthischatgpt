@@ -90,3 +90,37 @@ describe('parseTopicBuilderReply', () => {
     expect(none.coverageMap).toContain('Sorry');
   });
 });
+
+import { OUTLINE, broadHeadings, outlineFor, relatedOutline } from '../src/pnle/referenceOutline';
+import { tutorRequest } from '../src/tutor/prompt';
+import { emptyState } from '../src/storage';
+
+describe('reference outline (headings only)', () => {
+  it('loads NP1 and NP5 headings and never contains card text markers', () => {
+    expect(outlineFor('NP1').length).toBeGreaterThan(30);
+    expect(outlineFor('NP5').length).toBeGreaterThan(30);
+    expect(OUTLINE.every((e) => e.label.length < 120 && !e.label.includes('{{'))).toBe(true);
+    expect(broadHeadings('NP1', 10)).toHaveLength(10);
+  });
+
+  it('finds related headings by shared words and falls back to broad ones', () => {
+    expect(relatedOutline('COPAR', 'NP1').join(' ')).toMatch(/COPAR/);
+    expect(relatedOutline('Schizophrenia', 'NP5').join(' ')).toMatch(/Schizophrenia/);
+    expect(relatedOutline('zzzz unknown', 'NP5').length).toBeGreaterThan(0);
+  });
+
+  it('feeds the Topic Builder prompt and can be switched off', () => {
+    const p = topicBuilderPrompt({ topic: 'COPAR', area: 'NP1' });
+    expect(p).toContain('REFERENCE COVERAGE LIST');
+    expect(p).toMatch(/COPAR/);
+    expect(topicBuilderPrompt({ topic: 'COPAR', area: 'NP1', referenceOutline: [] })).not.toContain('REFERENCE COVERAGE LIST');
+  });
+
+  it('gives the tutor a headings-only pointer to the learner deck', () => {
+    const state = emptyState();
+    const topic = { id: 't', folderId: 'f', title: 'Schizophrenia', body: 'notes', sourceIds: [] };
+    const r = tutorRequest(state, topic, [], 'What should I review?', 0);
+    expect(r.system).toContain("learner's own review deck");
+    expect(r.system).toMatch(/Schizophrenia/);
+  });
+});

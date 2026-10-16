@@ -1,5 +1,6 @@
 import type { Topic } from '../core/types';
 import { parseFixTopics } from '../core/quiz';
+import { relatedOutline } from './referenceOutline';
 
 /**
  * Topic Builder: a complete prompt the owner pastes into ChatGPT/Claude together with ONE topic
@@ -29,6 +30,12 @@ export interface TopicBuilderInput {
   wordsPerNote?: number;
   /** Set when continuing a previous reply that stopped early. */
   continueFrom?: string;
+  /**
+   * Headings from the learner's own review deck to use as an extra coverage checklist. When
+   * omitted, related headings are looked up from the built-in reference outline (NP1/NP5).
+   * Pass an empty array to switch it off.
+   */
+  referenceOutline?: string[];
 }
 
 export const CONTINUE_MARK = 'CONTINUE-FROM:';
@@ -94,6 +101,14 @@ export function topicBuilderPrompt(input: TopicBuilderInput): string {
     lines.push(
       'NOTES I ALREADY HAVE (do not rewrite these titles; link to them with [[Title]] where related):',
       existing.slice(0, 80).map((t) => `- ${t}`).join('\n'),
+      '',
+    );
+  }
+  const outline = input.referenceOutline ?? relatedOutline(topic, input.area);
+  if (outline.length) {
+    lines.push(
+      'REFERENCE COVERAGE LIST (headings from my own review deck; cover every one that belongs under my topic, merge tiny ones, and tell me in the coverage map if one is not exam-relevant):',
+      outline.slice(0, 60).map((h) => `- ${h}`).join('\n'),
       '',
     );
   }

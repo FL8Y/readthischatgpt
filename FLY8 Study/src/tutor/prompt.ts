@@ -1,6 +1,7 @@
 import type { AppState, Topic } from '../core/types';
 import type { ModelRequest } from '../ai/provider';
 import { learnerProfile } from '../ai/prompts';
+import { relatedOutline } from '../pnle/referenceOutline';
 
 export interface TutorMessage {
   id: string;
@@ -28,6 +29,14 @@ export function capHistory(history: TutorMessage[]): TutorMessage[] {
  * Builds the tutor prompt. With a topic, the learner's own notes are put first and the model is told
  * to separate what comes from them from anything it adds.
  */
+/** Optional pointer to related headings in the learner's own review deck (headings only). */
+function deckHint(title: string): string[] {
+  const hits = relatedOutline(title, undefined, 6);
+  return hits.length
+    ? [`The learner's own review deck groups this topic near: ${hits.join('; ')}. You may suggest which of these to review next, without quoting any deck.`]
+    : [];
+}
+
 export function tutorRequest(
   state: AppState,
   topic: Topic | undefined,
@@ -40,6 +49,7 @@ export function tutorRequest(
     `Start with a section headed "${NOTES_LABEL}" using only the learner's notes${topic ? '' : ' (none were chosen, so say so and skip it)'}.`,
     `Put anything not in the notes under a separate heading "${BEYOND_LABEL}". Never blend the two.`,
     'If you are unsure, say so. If a diagram would help, you may include one ```svg or ```mermaid block.',
+    ...(topic ? deckHint(topic.title) : []),
   ].join('\n');
   const notes = topic
     ? `Learner's notes for "${topic.title}":\n${clip(topic.body, MAX_NOTES_CHARS) || '(this topic has no notes yet)'}`
