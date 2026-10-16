@@ -83,7 +83,7 @@ export function validateBackup(raw: string): BackupResult {
   );
   if (!list('diagnosticsDone').every(isStr)) errors.push('diagnosticsDone must be a list of folder ids.');
   const st = data.settings as Record<string, unknown>;
-  if (st.provider !== 'openai' && st.provider !== 'anthropic') errors.push('Settings has an unknown provider.');
+  if (st.provider !== 'openai' && st.provider !== 'anthropic' && st.provider !== 'manual') errors.push('Settings has an unknown provider.');
   if (!isStr(st.model)) errors.push('Settings has no model.');
   if (errors.length) return { ok: false, errors };
 
@@ -108,5 +108,5 @@ export function validateBackup(raw: string): BackupResult {
 
 /** Replaces study data with the import but keeps the key already on this phone. */
 export function applyImport(current: AppState, imported: AppState): AppState {
-  return { ...imported, settings: { ...imported.settings, apiKey: current.settings.apiKey } };
+  return { ...imported, settings: { ...imported.settings, apiKey: current.settings.apiKey, aiChosen: current.settings.aiChosen } };
 }

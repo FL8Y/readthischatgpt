@@ -1,16 +1,18 @@
 import type { ProviderName, Question, Settings, Topic } from '../core/types';
 import { extractJson } from '../core/provenance';
 import { pnleExtras } from '../core/questionParse';
+import { getManualHandler, ManualCancelled, type ManualOptions } from './manual';
 
 export const DEFAULT_MODELS: Record<ProviderName, string> = {
   openai: 'gpt-4.1-mini',
   anthropic: 'claude-sonnet-5-5',
+  manual: '',
 };
 
 export class ProviderError extends Error {
   constructor(
     message: string,
-    readonly kind: 'auth' | 'rate-limit' | 'network' | 'bad-output' | 'server',
+    readonly kind: 'auth' | 'rate-limit' | 'network' | 'bad-output' | 'server' | 'cancelled',
   ) {
     super(message);
   }
@@ -27,8 +29,34 @@ export interface ModelRequest {
 
 type Fetch = typeof fetch;
 
+/** Prompts that ask for JSON get the JSON reply checks in manual mode unless the caller says otherwise. */
+export function inferExpect(req: ModelRequest): NonNullable<ManualOptions['expect']> {
+  return /json/i.test(`${req.system}\n${req.user}`) ? 'json' : 'text';
+}
+
+/**
+ * Manual mode: hands the request to the registered ManualHost, which shows the copy-paste screen.
+ * Shared by callModel, callModelVision and tutorCall. An owner cancel becomes ProviderError('cancelled').
+ */
+export async function callManual(req: ModelRequest, opts: ManualOptions = {}): Promise<string> {
+  const handler = getManualHandler();
+  if (!handler) throw new ProviderError('Manual mode is not ready.', 'bad-output');
+  try {
+    return await handler(req, { ...opts, expect: opts.expect ?? inferExpect(req) });
+  } catch (e) {
+    if (e instanceof ManualCancelled) throw new ProviderError('Cancelled.', 'cancelled');
+    throw e;
+  }
+}
+
 /** One call, no hidden retries. Callers decide how to retry (bounded). */
-export async function callModel(settings: Settings, req: ModelRequest, doFetch: Fetch = fetch): Promise<string> {
+export async function callModel(
+  settings: Settings,
+  req: ModelRequest,
+  doFetch: Fetch = fetch,
+  manual?: ManualOptions,
+): Promise<string> {
+  if (settings.provider === 'manual') return callManual(req, manual);
   if (!settings.apiKey.trim()) throw new ProviderError('Add your API key in Settings first.', 'auth');
   const model = settings.model || DEFAULT_MODELS[settings.provider];
   const isAnthropic = settings.provider === 'anthropic';

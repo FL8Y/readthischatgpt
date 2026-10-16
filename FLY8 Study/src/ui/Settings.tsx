@@ -28,9 +28,9 @@ export function Settings({ state, update }: { state: AppState; update: (s: AppSt
     <View style={{ gap: sp.md }}>
       <Card>
         <H>AI provider</H>
-        <P dim>Paste your own key. It stays on this phone and is left out of exports.</P>
+        <P dim>Manual mode needs no key. For an API mode, paste your own key; it stays on this phone and is left out of exports.</P>
         <KeySetup
-          settings={state.settings}
+          includeManual          settings={state.settings}
           onChange={(settings) => update({ ...state, settings })}
           onRemove={() => update({ ...state, settings: { ...state.settings, apiKey: '' } })}
         />

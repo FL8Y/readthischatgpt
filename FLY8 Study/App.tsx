@@ -9,6 +9,7 @@ import { Graph } from './src/ui/Graph';
 import { Topics } from './src/ui/Topics';
 import { Settings } from './src/ui/Settings';
 import { Onboarding } from './src/ui/Onboarding';
+import { ManualHost } from './src/ui/ManualHost';
 import { Review } from './src/ui/Review';
 import { Tutor } from './src/ui/Tutor';
 import { H, P, Screen, TOUCH, c, sp } from './src/ui/kit';
@@ -44,7 +45,7 @@ export default function App() {
 
   if (!state) return <View style={{ flex: 1, backgroundColor: c.bg }} />;
 
-  if (!state.settings.apiKey.trim() && !skipped) {
+  if (!state.settings.aiChosen && !state.settings.apiKey.trim() && !skipped) {
     return (
       <View style={{ flex: 1, backgroundColor: c.bg, paddingTop: 48 }}>
         <StatusBar barStyle="light-content" />
@@ -65,7 +66,7 @@ export default function App() {
       <StatusBar barStyle="light-content" />
       <View style={{ paddingHorizontal: sp.lg, gap: sp.xs }}>
         <H>Nursing Study</H>
-        {!state.settings.apiKey.trim() ? <P dim>Add your API key in Settings to unlock AI features.</P> : null}
+        {state.settings.provider !== 'manual' && !state.settings.apiKey.trim() ? <P dim>Add your API key in Settings to unlock AI features.</P> : null}
       </View>
       <Screen>{active.render(ctx)}</Screen>
       <ScrollView
@@ -91,6 +92,7 @@ export default function App() {
           );
         })}
       </ScrollView>
+      <ManualHost />
     </View>
   );
 }

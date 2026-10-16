@@ -12,7 +12,7 @@ export function emptyState(): AppState {
     chunks: [],
     events: [],
     diagnosticsDone: [],
-    settings: { provider: 'anthropic', apiKey: '', model: DEFAULT_MODELS.anthropic },
+    settings: { provider: 'manual', apiKey: '', model: DEFAULT_MODELS.manual },
   };
 }
 
