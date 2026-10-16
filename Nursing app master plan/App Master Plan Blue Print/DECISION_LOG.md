@@ -25,6 +25,15 @@ This file records confirmed project constraints, provisional architecture decisi
 - **Status:** Confirmed operating rule
 - **Decision:** Separate observed source facts, inferences, proposals, and unknowns. Never claim files were read, tests passed, archives transferred, or features verified without evidence.
 
+### DEC-005 — Implementation authorized; personal-use, Expo, local-first (2026-10-16)
+- **Status:** Confirmed by user in chat (supersedes the planning-only gate of DEC-003 for the app source tree only).
+- **Evidence:** User messages in session 2026-10-16: "ill tell you the plan first" followed by the 10-point feature plan; "so heres the plan... its in this repo, everybit of it"; "you have free will of everything... you dont have to ask permission just do your job"; "its for personal use. security isn't the matter"; "i want it to be a gizmo clean app".
+- **Decision:** Build the app in `apps/nursing-study-app/` (outside this planning folder). Stack: Expo / React Native + TypeScript, Android first, local-first with no backend, user-pasted provider key (OpenAI or Anthropic) stored on device. This overrides the recommended defaults in OPEN-001..OPEN-004 (Kotlin/Compose, secure storage threat model) for v1 because the app is single-user personal use; the user explicitly de-scoped key-extraction defenses.
+- **Still kept (cheap, high value):** no key in logs/exports (R-022 minimum), source provenance on every imported chunk (R-001, R-030), mandatory diagnostic gate (R-004), deterministic scoring/rewards (R-017, R-033).
+- **Added requirement from user:** notes import must cope with unreadable/low-quality material (OCR), verify it, and attach a source; notes are stored as a linked Markdown vault (`[[wikilinks]]`, Obsidian-compatible) that also drives the mind-map graph (R-010).
+- **Alternatives:** Kotlin/Compose (better native feel, slower iteration); rejected for v1 by speed-of-change priority. Revisit if Expo limits appear.
+- **Rollback:** The app tree is self-contained; deleting `apps/nursing-study-app/` restores the planning-only state.
+
 ## Provisional architecture proposals
 
 ### ADR-001 — One canonical content model
