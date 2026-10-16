@@ -24,7 +24,7 @@ UI must feel clean like Gizmo.
 4. Code: `apps/nursing-study-app/` (v0: core logic + 4 screens, 17 tests). `src/core` = pure logic, `src/ai` = provider + prompts, `src/ui` = screens.
 5. Ruflo memory (namespace `project`): `npx ruflo@latest memory search -q "<topic>"`. Keys: nursing-app-plan/`user-app-plan-2026-10-16`, `dec-005-implementation-authorized`, `app-status-v0`, `user-standing-directive`, `user-hold-order`. `.claude/memory.db` is gitignored and lost on container reset: this section is the durable copy.
 
-**Standing directives from the owner:** act without asking permission on routine work and keep memory updated every session; when the owner says "don't start yet", wait. Mark claims OBSERVED / INFERRED / PROPOSED / UNKNOWN, never claim tests ran without exact commands and results. Develop on branch `ccr-13ebab09-xygfde`, draft PR #7.
+**Standing directives from the owner:** Sonnet does the work (builder agents, model=sonnet), Opus manages and reviews (model=opus); act without asking permission on routine work and keep memory updated every session; when the owner says "don't start yet", wait. Mark claims OBSERVED / INFERRED / PROPOSED / UNKNOWN, never claim tests ran without exact commands and results. Develop on branch `ccr-13ebab09-xygfde`, draft PR #7.
 
 **Status (2026-10-16):** v0 pushed. Done: vault graph, readability/chunk provenance + AI double-check, mastery/plan/points/streak, diagnostic gate, OpenAI/Anthropic adapter. Not done: PDF/photo OCR import, lesson screen, pop quizzes, module quiz + weakness loop, flashcards/SRS, tutor chat, images, drawn graph. Never run on a device or with a live AI call.
 
