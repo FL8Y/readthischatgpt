@@ -12,6 +12,7 @@ import type { ReviewedSource } from '../import/types';
 import { callModelVision } from '../import/vision';
 import { Btn, Card, Field, H, P, Pill, c } from './kit';
 import { ObsidianImport } from './ObsidianImport';
+import { PresetPacks } from './PresetPacks';
 
 const uid = (p: string) => `${p}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 6)}`;
 
@@ -162,6 +163,7 @@ export function Library({ state, update }: { state: AppState; update: (s: AppSta
   const topics = state.topics.filter((t) => t.folderId === folderId);
   return (
     <View style={{ gap: 14 }}>
+      <PresetPacks state={state} update={update} />
       <Card>
         <H>Folders</H>
         <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8 }}>

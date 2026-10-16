@@ -18,7 +18,7 @@ export interface Folder {
 export interface Source {
   id: string;
   title: string;
-  kind: 'file' | 'paste' | 'ai';
+  kind: 'file' | 'paste' | 'ai' | 'preset';
   uri?: string;
   addedAt: number;
   quality: Quality;
