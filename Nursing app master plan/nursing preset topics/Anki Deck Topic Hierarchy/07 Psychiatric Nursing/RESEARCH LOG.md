@@ -184,3 +184,14 @@ A fresh Git tree count distinguishes the subject root from its descendants: **45
 - Topic status: IN PROGRESS. Do not mark verified complete yet: drug-specific contraindications, washout intervals, interactions, and Philippine/local formulary requirements still need official-label verification.
 - Progress remains 45/45 folders with a RESEARCH.md (100% structural coverage); 0/45 topics have passed the complete topic-level audit (0% verified completion).
 - Next action: continue with the next high-risk topic, prioritizing suicide/crisis assessment and antipsychotic safety; verify claims against specific authoritative guidance and update the log after each cycle.
+
+
+## Work cycle — 2026-10-17 — research standard refresh and crisis-topic expansion
+- Reread the current full `RESEARCH TOPIC GUIDE.md` (15,746 characters; current full-version standard). The guide now explicitly requires substantive topic research, checked authoritative sources, medication contraindications where relevant, clinical reasoning, Philippine law, saved-file reopening, and a final recursive audit; headings/placeholders do not count as completion.
+- Fresh recursive audit: 46 directories total under this subject subtree. Four are organizational groupings (Part 1, Part 2, Part 3, Psych Extra); 42 are topic-bearing folders. Found a `RESEARCH.md` in every directory, but file presence is only structural coverage, not topic completion.
+- Expanded `Part 1/Crisis and Crisis Intervention/RESEARCH.md` into a more substantive study file covering medical stabilization, suicide/self-harm assessment, crisis sequence, de-escalation, nursing-process prioritization, documentation, Philippine legal context, PNLE distinctions, and an inspected source register (WHO mhGAP 3rd ed 2023; WHO evidence centre; NIMH 2025 warning signs; NICE NG10; RA 11036 and IRR).
+- Source pages opened: WHO mhGAP 3rd ed (20 Nov 2023); WHO mhGAP evidence centre; NIMH suicide warning signs revised 2025; NICE NG10 recommendations; Philippine Senate Legislative Reference Bureau RA 11036 page; RA 11036 IRR PDF landing/content.
+- File upload: successful; commit `a70900249fc15ea32d712f5efef977d2f49176b8`. Must reopen the saved crisis file and check content before it can be marked VERIFIED COMPLETE.
+- Current counts: 46 folders with research files; 0 topics fully VERIFIED COMPLETE; crisis topic status = IN PROGRESS pending saved-file reopen and fuller claim/link cross-check.
+- Remaining work: each of the other 41 topic folders needs substantive review and expansion against this full standard; also verify all files, fix inaccuracies/weak source links, reconcile duplicates without restructuring, and audit the mind map.
+- Next action: reopen the saved crisis research file, then update its checklist row and continue with the next high-risk topic (medication safety/antipsychotics or substance withdrawal) while rereading this guide at the start of the next research cycle.
