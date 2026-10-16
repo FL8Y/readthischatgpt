@@ -178,3 +178,41 @@ These scores evaluate the **planning package at this revision**, not implementat
 3. Compare full research report claims with markdown, raw decoded metadata and source code, preserving observed/inferred labels.
 4. Complete the open architecture decisions with an evidence-supported recommended default, trade-offs and rollback/migration approach.
 5. Re-run tree, relative-link, cross-document terminology and secret scans; then score again. Keep implementation blocked until the user separately authorizes it.
+
+
+## Corrective Cycle 3 — architecture recommendation and cross-document consistency (2026-10-17)
+
+### New findings and corrections
+
+| Finding | Correction | Status |
+|---|---|---|
+| ARCH-001 — Open architecture choices lacked a concrete proposed default | Added a provisional baseline in `ARCHITECTURE_OPTIONS.md` and ADR-007 in `DECISION_LOG.md`: Android-first native client; modular monolith; local-first relational/event persistence; user-supplied key with explicit extraction caveat; provider adapter; versioned scheduler interface; optional APKG/AnkiDroid integration. The recommendation remains PROPOSED, not user-approved. | Applied; empirical validation and final scope decisions remain open |
+| LEARN-003 — Some UX wording still said “offer a diagnostic” | Updated the UX spec, master architect plan, data contracts and traceability matrix to require a completed 1–50 question diagnostic before new teaching. An interrupted session resumes; review-only mode may revisit prior lessons but cannot unlock new lessons. | Applied to planning docs |
+| QA-003 — Requirement matrix retained outdated skip wording | Changed the open question from whether users can skip to the diagnostic retake policy; skipping is explicitly not a bypass. | Applied to planning docs |
+| DOC-001 — Proposed architecture could be mistaken for a confirmed user decision | Labeled the baseline PROPOSED, recorded alternatives, risks, validation and rollback/change-control expectations in ADR-007. | Applied |
+
+### Cycle 3 checks
+
+- Fetched the changed UX spec, data contract, requirement traceability, master plan, architecture options and decision log after their GitHub writes.
+- Verified the diagnostic gate is described in the learner journey, service/contract policy, traceability invariants and master product intent.
+- The architecture options compare the proposed default with alternatives and preserve unresolved product inputs; no stack-specific code or prototype was created.
+- No reference tests, live provider calls, app build or device tests were run in this cycle. The branch's file/path count did not change because the cycle modified existing Markdown files only.
+
+### Updated planning scorecard
+
+| Category | Score / 10 | Reason |
+|---|---:|---|
+| Repository inventory accuracy | 9 | Tree is non-truncated and the 740-entry snapshot is recorded; source payloads and unrelated framework files are not all semantically inspected. |
+| Requirements traceability | 9 | Strict diagnostic gate, assessment-specific counts, feedback, remediation, provenance and answer-key protections now agree across core docs; more edge-case acceptance tests remain to run. |
+| Architecture clarity | 9 | An explicit proposed default and alternatives are documented; target-device validation, provider API verification, scheduler selection, sync and formulas remain open. |
+| Data/service contract quality | 9 | Versioning, immutable events, idempotency, concurrency and answer-key separation are covered; contract behavior remains unexecuted. |
+| Security/privacy and nursing safety | 8 | Key extraction, imported prompt injection, clinical source provenance and backup/log boundaries are covered; threat model and runtime checks remain incomplete. |
+| UX/accessibility/learning effectiveness | 8 | Strict diagnostic gating and accessible alternatives are explicit; no usability study, screen-reader test or student workflow observation was performed. |
+| Claude agent readiness | 9 | The prompt, agent scopes, ownership protocol, cycle, and honesty rules are explicit; live registry/agent availability and isolated worktrees must be checked by Claude Code. |
+| QA/repository hygiene | 8 | Readbacks and Markdown link checks were performed; source-test execution, App 1 archive manifest reconciliation and minimum-SDK conflict resolution remain. |
+
+**Cycle 3 verdict:** The planning documents are more coherent and actionable, but the package is **not 10/10** and cannot honestly be rated 15/10 on an auditable quality scale. Continue with source/test validation, not application implementation.
+
+### Precise continuation point
+
+Next: verify the raw source behind the Gizmo minimum-SDK discrepancy; run available offline tests with recorded environment/output; perform a full cross-document link/path/requirements scan; then update this scorecard from the actual findings. Keep app implementation blocked until the user separately authorizes it.
