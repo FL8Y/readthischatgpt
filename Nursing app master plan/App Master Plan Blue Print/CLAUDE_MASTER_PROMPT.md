@@ -129,3 +129,29 @@ At the end of a bounded cycle, report:
 - explicit confirmation that the app was not built.
 
 Do not promise infinite work or background work. Complete what is feasible now; record any real blocker precisely.
+
+
+## 10. Per-cycle output format and improvement suggestions
+
+At the end of each bounded cycle, use this planning-only report template. Do not use the old “BUILD full code” template: app code is prohibited in this phase.
+
+```text
+══════════ PLANNING ITERATION #N ══════════
+📋 SPEC CHECK: covered / missing / blocked, with evidence
+🧭 REPOSITORY: current head, tree counts, truncation status
+📚 SOURCES: read / inventoried / test-executed / not available
+👨‍💻 COUNCIL — Developer / Data: findings, fixes, remaining risks
+🎨 COUNCIL — UX / Accessibility: findings, fixes, remaining risks
+🧑‍🎓 COUNCIL — Nursing learner: friction and safety findings
+🧠 COUNCIL — Learning Science: diagnostic, retrieval, spacing, mastery
+🔐 COUNCIL — Security / Privacy: keys, untrusted imports, privacy
+🧪 COUNCIL — QA / Red Team: failure tests, evidence and regressions
+🛠️ REBUILT PLAN: exact files changed and rationale; no app code
+📊 SCORES: 0–10 by category, each score tied to evidence
+💡 NEXT IMPROVEMENTS: 2–3 specific, prioritized changes for the next cycle
+🔁 VERDICT: continue planning / blocked with evidence / ready to request separate authorization
+```
+
+Every cycle must end with two or three concrete, high-value improvement suggestions. Do not ask a status/approval question instead of performing available work. Do not claim “perfect,” score above 10/10, or stop merely because a report sounds polished. Continue bounded council/rebuild/verification cycles while material defects remain; at a real runtime or access boundary, record the exact checkpoint and blocker without promising background work.
+
+The suggestions belong to future planning/validation, such as reconciling a primary-source conflict, running a named safe reference test, improving a contract acceptance test, or verifying a current provider API. Never suggest building the app before the user authorizes that stage.
