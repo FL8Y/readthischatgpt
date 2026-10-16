@@ -15,15 +15,7 @@
   ],
   "answerIndex": 0,
   "strategyTag": "Safety first, then rapport",
-  "reasoning": [
-   "1. The stem asks for the FIRST action, and the statement signals possible suicide risk: a safety priority.",
-   "2. Apply the rule 'assess before intervening in a stable client'; here the risk level is unknown, so the nurse must assess it now.",
-   "3. Direct, open questioning about plan and intent is the standard way to find out how dangerous the situation is.",
-   "4. Staying with the client keeps the client safe while the assessment happens.",
-   "5. Eliminate the no-harm agreement: it does not replace assessment or supervision.",
-   "6. Eliminate delay (end of shift) and false reassurance, which dismiss the client's communication.",
-   "7. Decision: assess risk directly while remaining present."
-  ],
+  "reasoning": "1) The stem asks for the FIRST action, and the statement signals possible suicide risk: a safety priority. 2) Apply the rule 'assess before intervening in a stable client'; here the risk level is unknown, so the nurse must assess it now. 3) Direct, open questioning about plan and intent is the standard way to find out how dangerous the situation is. 4) Staying with the client keeps the client safe while the assessment happens. 5) Eliminate the no-harm agreement: it does not replace assessment or supervision. 6) Eliminate delay (end of shift) and false reassurance, which dismiss the client's communication. 7) Decision: assess risk directly while remaining present.",
   "optionRationales": [
    "Correct. Asking directly about plan and intent does not plant the idea; it gathers the data needed to set the level of observation, and staying present protects the client.",
    "Tempting because it looks like a safety measure, but a written agreement is not reliable protection and is not an assessment. It should not come before finding out the risk.",
@@ -53,15 +45,7 @@
   ],
   "answerIndex": 1,
   "strategyTag": "Communication: reflect and explore",
-  "reasoning": [
-   "1. Identify the item type: therapeutic communication best response.",
-   "2. Find the client's feeling under the words: worry and fear of being judged.",
-   "3. Preferred responses reflect the feeling or use open-ended exploration.",
-   "4. Eliminate 'why' questions, which feel accusatory and ask for justification.",
-   "5. Eliminate false reassurance and disagreeing with the client's perception.",
-   "6. Eliminate changing the subject, which blocks expression of feelings.",
-   "7. Decision: the reflection of feeling."
-  ],
+  "reasoning": "1) Identify the item type: therapeutic communication best response. 2) Find the client's feeling under the words: worry and fear of being judged. 3) Preferred responses reflect the feeling or use open-ended exploration. 4) Eliminate 'why' questions, which feel accusatory and ask for justification. 5) Eliminate false reassurance and disagreeing with the client's perception. 6) Eliminate changing the subject, which blocks expression of feelings. 7) Decision: the reflection of feeling.",
   "optionRationales": [
    "A 'why' question can sound accusatory and puts the client on the spot; it tempts because it seems to explore.",
    "Correct. It names the feeling, shows the nurse is listening, and invites the client to say more.",
@@ -91,15 +75,7 @@
   ],
   "answerIndex": 2,
   "strategyTag": "ABC: airway first",
-  "reasoning": [
-   "1. Several actions are correct in trauma; the stem asks which comes first.",
-   "2. Apply ABC: airway before breathing before circulation.",
-   "3. Snoring respirations in a client who responds only to pain suggest the tongue or soft tissue is partly obstructing the airway.",
-   "4. The bleeding is described as minor, so it does not outrank the airway.",
-   "5. Because of the fall, the airway should be opened with a jaw-thrust to protect the cervical spine.",
-   "6. IV access and neurological assessment follow once the airway is open.",
-   "7. Decision: open the airway with jaw thrust."
-  ],
+  "reasoning": "1) Several actions are correct in trauma; the stem asks which comes first. 2) Apply ABC: airway before breathing before circulation. 3) Snoring respirations in a client who responds only to pain suggest the tongue or soft tissue is partly obstructing the airway. 4) The bleeding is described as minor, so it does not outrank the airway. 5) Because of the fall, the airway should be opened with a jaw-thrust to protect the cervical spine. 6) IV access and neurological assessment follow once the airway is open. 7) Decision: open the airway with jaw thrust.",
   "optionRationales": [
    "Bleeding control matters, but this laceration is minor and circulation comes after airway.",
    "Circulation access is important but follows airway and breathing.",
@@ -129,14 +105,7 @@
   ],
   "answerIndex": 3,
   "strategyTag": "Exception: emergency overrides assess-first",
-  "reasoning": [
-   "1. Read the findings: unable to speak or cough, silent, dusky lips. This is a complete airway obstruction.",
-   "2. This is a stated exception to 'assess first': a clear life threat needs action now.",
-   "3. Asking the client to speak or auscultating wastes time the client does not have.",
-   "4. Leaving the client alone removes the only person who can relieve the obstruction; help is called by someone else or right after starting the intervention.",
-   "5. Coughing helps in a partial obstruction with effective air movement, not here.",
-   "6. Decision: begin abdominal thrusts and be ready to start CPR if the client becomes unresponsive."
-  ],
+  "reasoning": "1) Read the findings: unable to speak or cough, silent, dusky lips. This is a complete airway obstruction. 2) This is a stated exception to 'assess first': a clear life threat needs action now. 3) Asking the client to speak or auscultating wastes time the client does not have. 4) Leaving the client alone removes the only person who can relieve the obstruction; help is called by someone else or right after starting the intervention. 5) Coughing helps in a partial obstruction with effective air movement, not here. 6) Decision: begin abdominal thrusts and be ready to start CPR if the client becomes unresponsive.",
   "optionRationales": [
    "The client cannot speak, so this wastes time; assessment is not appropriate before action in complete obstruction.",
    "Calling for help is needed but must not leave the client alone; the nurse should start relief and have someone else call.",
@@ -166,14 +135,7 @@
   ],
   "answerIndex": 1,
   "strategyTag": "Triage: unstable and new before stable",
-  "reasoning": [
-   "1. Rank the four clients: who is unstable, new or changing?",
-   "2. Use unstable before stable, new/unexpected before chronic/expected, and Maslow (physiological before psychosocial).",
-   "3. The client on an antipsychotic with fever, rigidity, sweating and confusion has a new combination that may signal a life-threatening reaction to the medication.",
-   "4. The other three clients have ongoing, expected problems and no sign of physiological instability.",
-   "5. Pacing and requests for medication are important comfort needs but not life-threatening.",
-   "6. Decision: see the client with the new fever, rigidity and confusion first and notify the provider promptly after assessment."
-  ],
+  "reasoning": "1) Rank the four clients: who is unstable, new or changing? 2) Use unstable before stable, new/unexpected before chronic/expected, and Maslow (physiological before psychosocial). 3) The client on an antipsychotic with fever, rigidity, sweating and confusion has a new combination that may signal a life-threatening reaction to the medication. 4) The other three clients have ongoing, expected problems and no sign of physiological instability. 5) Pacing and requests for medication are important comfort needs but not life-threatening. 6) Decision: see the client with the new fever, rigidity and confusion first and notify the provider promptly after assessment.",
   "optionRationales": [
    "Stable and routine; this can be handled later.",
    "Correct. New fever, rigidity and confusion on an antipsychotic could indicate a medical emergency and is the only physiological, unstable presentation.",
@@ -203,14 +165,7 @@
   ],
   "answerIndex": 0,
   "strategyTag": "Unstable before stable",
-  "reasoning": [
-   "1. Find which finding is NEW or CHANGING versus stable.",
-   "2. Use 'unstable, new, unexpected outrank stable, expected'.",
-   "3. New confusion, falling blood pressure and rising heart rate and respiratory rate form a pattern consistent with worsening perfusion and possible sepsis progressing toward shock.",
-   "4. This pattern may involve more than one organ system (brain, circulation, lungs), which makes it more urgent.",
-   "5. The other findings are unchanged or expected during infection treatment.",
-   "6. Decision: report the deteriorating client now."
-  ],
+  "reasoning": "1) Find which finding is NEW or CHANGING versus stable. 2) Use 'unstable, new, unexpected outrank stable, expected'. 3) New confusion, falling blood pressure and rising heart rate and respiratory rate form a pattern consistent with worsening perfusion and possible sepsis progressing toward shock. 4) This pattern may involve more than one organ system (brain, circulation, lungs), which makes it more urgent. 5) The other findings are unchanged or expected during infection treatment. 6) Decision: report the deteriorating client now.",
   "optionRationales": [
    "Correct. A change in mental status with lower blood pressure suggests inadequate perfusion and requires immediate reporting and intervention.",
    "Unchanged temperature is stable data and not urgent.",
@@ -240,15 +195,7 @@
   ],
   "answerIndex": 3,
   "strategyTag": "Delegation: stable and routine only",
-  "reasoning": [
-   "1. Identify the task type: assessment, teaching, evaluation, or routine measurement.",
-   "2. Rule: assessment, teaching, evaluation and care of unstable or new clients stay with the licensed nurse.",
-   "3. A suicide risk assessment of a newly admitted client is assessment of a high-risk client.",
-   "4. Teaching coping skills is teaching.",
-   "5. Evaluating medication response is evaluation and needs nursing judgement.",
-   "6. Routine vital signs on a stable client are predictable and within the assistant's training; the nurse remains responsible for interpreting results.",
-   "7. Decision: delegate the vital signs."
-  ],
+  "reasoning": "1) Identify the task type: assessment, teaching, evaluation, or routine measurement. 2) Rule: assessment, teaching, evaluation and care of unstable or new clients stay with the licensed nurse. 3) A suicide risk assessment of a newly admitted client is assessment of a high-risk client. 4) Teaching coping skills is teaching. 5) Evaluating medication response is evaluation and needs nursing judgement. 6) Routine vital signs on a stable client are predictable and within the assistant's training; the nurse remains responsible for interpreting results. 7) Decision: delegate the vital signs.",
   "optionRationales": [
    "Assessment of a high-risk client cannot be delegated.",
    "Teaching is a nursing responsibility.",
@@ -278,14 +225,7 @@
   ],
   "answerIndex": 2,
   "strategyTag": "Therapeutic vs adverse",
-  "reasoning": [
-   "1. The stem is 'requires follow-up', so find the unexpected or dangerous effect.",
-   "2. Lithium has a narrow margin between therapeutic and toxic levels.",
-   "3. Some early effects are common and manageable: mild nausea, mild thirst, fine tremor.",
-   "4. Persistent vomiting and diarrhea with unsteady gait and drowsiness suggests possible toxicity affecting the gut and nervous system.",
-   "5. Dehydration from vomiting and diarrhea can also raise the lithium level.",
-   "6. Decision: the toxicity pattern needs prompt follow-up."
-  ],
+  "reasoning": "1) The stem is 'requires follow-up', so find the unexpected or dangerous effect. 2) Lithium has a narrow margin between therapeutic and toxic levels. 3) Some early effects are common and manageable: mild nausea, mild thirst, fine tremor. 4) Persistent vomiting and diarrhea with unsteady gait and drowsiness suggests possible toxicity affecting the gut and nervous system. 5) Dehydration from vomiting and diarrhea can also raise the lithium level. 6) Decision: the toxicity pattern needs prompt follow-up.",
   "optionRationales": [
    "Common early effect and often improves; not urgent.",
    "A fine tremor is a recognised mild effect, tempting because tremor is linked to lithium, but a fine tremor alone is expected.",
@@ -315,15 +255,7 @@
   ],
   "answerIndex": 0,
   "strategyTag": "Least invasive first",
-  "reasoning": [
-   "1. The client is escalating but has not harmed anyone, and still responds to staff.",
-   "2. Apply 'least restrictive, least invasive effective option first'.",
-   "3. Verbal de-escalation, reducing stimulation and offering space come before medication, seclusion or restraint.",
-   "4. Protecting others also matters, so moving the client to a quieter place helps everyone.",
-   "5. Restraint and unrequested injection are higher-level measures used only when less restrictive options fail or there is imminent danger.",
-   "6. A confrontational limit-setting tone is likely to escalate the situation.",
-   "7. Decision: calm, low-voice de-escalation and quieter area."
-  ],
+  "reasoning": "1) The client is escalating but has not harmed anyone, and still responds to staff. 2) Apply 'least restrictive, least invasive effective option first'. 3) Verbal de-escalation, reducing stimulation and offering space come before medication, seclusion or restraint. 4) Protecting others also matters, so moving the client to a quieter place helps everyone. 5) Restraint and unrequested injection are higher-level measures used only when less restrictive options fail or there is imminent danger. 6) A confrontational limit-setting tone is likely to escalate the situation. 7) Decision: calm, low-voice de-escalation and quieter area.",
   "optionRationales": [
    "Correct. It is least restrictive, preserves the relationship, and may prevent escalation.",
    "Restraint is an intervention of last resort and is not justified here.",
@@ -353,15 +285,7 @@
   ],
   "answerIndex": 2,
   "strategyTag": "Maslow: physiological first",
-  "reasoning": [
-   "1. List the problems and label their Maslow levels.",
-   "2. Esteem and belonging needs (worthlessness, isolation) are higher than physiological needs.",
-   "3. Sleep and fluids are both physiological; compare urgency.",
-   "4. Dry mucous membranes and dizziness on standing suggest actual dehydration and reduced circulating volume, with a fall risk.",
-   "5. Poor sleep is distressing but not immediately dangerous.",
-   "6. Suicide risk was specifically assessed and denied, so safety does not outrank hydration in this stem.",
-   "7. Decision: address the fluid deficit."
-  ],
+  "reasoning": "1) List the problems and label their Maslow levels. 2) Esteem and belonging needs (worthlessness, isolation) are higher than physiological needs. 3) Sleep and fluids are both physiological; compare urgency. 4) Dry mucous membranes and dizziness on standing suggest actual dehydration and reduced circulating volume, with a fall risk. 5) Poor sleep is distressing but not immediately dangerous. 6) Suicide risk was specifically assessed and denied, so safety does not outrank hydration in this stem. 7) Decision: address the fluid deficit.",
   "optionRationales": [
    "Esteem need; important in depression but higher on the pyramid.",
    "Belonging need; tempting because it is a hallmark of depression.",
@@ -391,14 +315,7 @@
   ],
   "answerIndex": 3,
   "strategyTag": "Expected vs unexpected finding",
-  "reasoning": [
-   "1. The stem asks which finding shows progression, so look for change in a worsening direction.",
-   "2. Compare each finding with the trend: unchanged findings are not progression.",
-   "3. Thirst and cool pale skin were already present and unchanged.",
-   "4. Steady adequate urine output suggests kidney perfusion is being maintained.",
-   "5. New drowsiness and a falling blood pressure with a still-rising heart rate indicate the body can no longer compensate and the brain and circulation are affected.",
-   "6. Decision: the new decline in consciousness and blood pressure."
-  ],
+  "reasoning": "1) The stem asks which finding shows progression, so look for change in a worsening direction. 2) Compare each finding with the trend: unchanged findings are not progression. 3) Thirst and cool pale skin were already present and unchanged. 4) Steady adequate urine output suggests kidney perfusion is being maintained. 5) New drowsiness and a falling blood pressure with a still-rising heart rate indicate the body can no longer compensate and the brain and circulation are affected. 6) Decision: the new decline in consciousness and blood pressure.",
   "optionRationales": [
    "Expected in hypovolemia and unchanged, so it does not show progression.",
    "Already present earlier; no change means no new information about progression.",
@@ -428,14 +345,7 @@
   ],
   "answerIndex": 1,
   "strategyTag": "Triage: unstable and new before stable",
-  "reasoning": [
-   "1. In mass-casualty triage the aim is the greatest good for the greatest number.",
-   "2. Walking casualties are minor and wait.",
-   "3. A casualty who is still not breathing after airway repositioning is generally classified as expectant or deceased in a mass-casualty setting, because resources go to survivable patients.",
-   "4. A casualty with rapid shallow breathing and inability to follow commands has a threatened airway/breathing/circulation or brain function but can likely be saved: immediate.",
-   "5. An alert, breathing casualty with a fracture is delayed.",
-   "6. Decision: the casualty with rapid shallow breathing and inability to obey commands."
-  ],
+  "reasoning": "1) In mass-casualty triage the aim is the greatest good for the greatest number. 2) Walking casualties are minor and wait. 3) A casualty who is still not breathing after airway repositioning is generally classified as expectant or deceased in a mass-casualty setting, because resources go to survivable patients. 4) A casualty with rapid shallow breathing and inability to follow commands has a threatened airway/breathing/circulation or brain function but can likely be saved: immediate. 5) An alert, breathing casualty with a fracture is delayed. 6) Decision: the casualty with rapid shallow breathing and inability to obey commands.",
   "optionRationales": [
    "Minor injury, can walk; lowest priority.",
    "Correct. Respiratory compromise with altered mental status is life threatening but treatable and warrants immediate category.",
@@ -465,13 +375,7 @@
   ],
   "answerIndex": 2,
   "strategyTag": "Confirm the emergency first",
-  "reasoning": [
-   "1. The client looks unresponsive but this is not yet confirmed.",
-   "2. Even in emergencies, the first step is to confirm that the client is unresponsive and not breathing normally.",
-   "3. Applying pads, rescue breaths or airway devices without confirming could harm a sleeping or fainting client and delays correct steps.",
-   "4. After confirming, the nurse calls for help, requests the emergency equipment and begins chest compressions if no pulse or normal breathing.",
-   "5. Decision: check responsiveness and breathing first."
-  ],
+  "reasoning": "1) The client looks unresponsive but this is not yet confirmed. 2) Even in emergencies, the first step is to confirm that the client is unresponsive and not breathing normally. 3) Applying pads, rescue breaths or airway devices without confirming could harm a sleeping or fainting client and delays correct steps. 4) After confirming, the nurse calls for help, requests the emergency equipment and begins chest compressions if no pulse or normal breathing. 5) Decision: check responsiveness and breathing first.",
   "optionRationales": [
    "Premature; confirm cardiac arrest first.",
    "Breaths are part of resuscitation but are not first and not before confirming the need.",
@@ -501,15 +405,7 @@
   ],
   "answerIndex": 0,
   "strategyTag": "Ethics: autonomy and advocacy",
-  "reasoning": [
-   "1. The key facts: voluntary client with decision-making ability, no imminent danger.",
-   "2. Clients with capacity have the right to refuse treatment outside of emergencies.",
-   "3. The nurse's role includes advocacy and exploring the reason for refusal, since side effects may be modifiable.",
-   "4. The provider needs to know so that the plan can be reviewed.",
-   "5. Coercion, threats and covert or forced administration violate rights.",
-   "6. Documentation alone ignores the nurse's duty to communicate and address the concern.",
-   "7. Decision: explore, respect, and inform the provider."
-  ],
+  "reasoning": "1) The key facts: voluntary client with decision-making ability, no imminent danger. 2) Clients with capacity have the right to refuse treatment outside of emergencies. 3) The nurse's role includes advocacy and exploring the reason for refusal, since side effects may be modifiable. 4) The provider needs to know so that the plan can be reviewed. 5) Coercion, threats and covert or forced administration violate rights. 6) Documentation alone ignores the nurse's duty to communicate and address the concern. 7) Decision: explore, respect, and inform the provider.",
   "optionRationales": [
    "Correct. It respects autonomy, gathers information about a possible adverse effect, and keeps the team informed.",
    "Coercive and threatens the client; it violates rights.",
@@ -539,15 +435,7 @@
   ],
   "answerIndex": 3,
   "strategyTag": "Teaching: teach-back accuracy",
-  "reasoning": [
-   "1. The stem asks which statement shows a misunderstanding.",
-   "2. Recall the key safety teaching for MAOIs: avoid foods high in tyramine and check before using other medicines.",
-   "3. Aged cheeses and cured meats are high-tyramine foods and should be avoided.",
-   "4. Postural dizziness is a possible effect, so rising slowly is correct.",
-   "5. Checking before any over-the-counter product is correct because of dangerous interactions.",
-   "6. Allowing small amounts of aged cheese shows a misunderstanding: even small amounts can be risky.",
-   "7. Decision: the aged-cheese statement."
-  ],
+  "reasoning": "1) The stem asks which statement shows a misunderstanding. 2) Recall the key safety teaching for MAOIs: avoid foods high in tyramine and check before using other medicines. 3) Aged cheeses and cured meats are high-tyramine foods and should be avoided. 4) Postural dizziness is a possible effect, so rising slowly is correct. 5) Checking before any over-the-counter product is correct because of dangerous interactions. 6) Allowing small amounts of aged cheese shows a misunderstanding: even small amounts can be risky. 7) Decision: the aged-cheese statement.",
   "optionRationales": [
    "Correct teaching.",
    "Correct teaching.",
@@ -577,13 +465,7 @@
   ],
   "answerIndex": 1,
   "strategyTag": "Documentation: factual and timely",
-  "reasoning": [
-   "1. Good documentation is objective, factual and timely.",
-   "2. It includes observed behaviour, direct quotes when relevant, what was done and the client's response.",
-   "3. Judgemental labels such as 'manipulative' and speculation about causes are not objective.",
-   "4. An incident report is a separate administrative document and is not referenced as a substitute for charting.",
-   "5. Decision: the entry with observed behaviour, quote, intervention and response."
-  ],
+  "reasoning": "1) Good documentation is objective, factual and timely. 2) It includes observed behaviour, direct quotes when relevant, what was done and the client's response. 3) Judgemental labels such as 'manipulative' and speculation about causes are not objective. 4) An incident report is a separate administrative document and is not referenced as a substitute for charting. 5) Decision: the entry with observed behaviour, quote, intervention and response.",
   "optionRationales": [
    "Contains labels and assumptions, not observed facts.",
    "Correct. It is objective and includes behaviour, intervention and outcome.",
@@ -613,15 +495,7 @@
   ],
   "answerIndex": 2,
   "strategyTag": "Acknowledge feeling, stay calm",
-  "reasoning": [
-   "1. Identify the item type: responding to a delusion.",
-   "2. Do not argue with, agree with or build on the delusion.",
-   "3. Acknowledge the feeling (fear), state the nurse's own perception calmly and offer presence.",
-   "4. Arguing with the client tends to increase mistrust.",
-   "5. Asking for elaboration may reinforce the delusion.",
-   "6. 'Why' questions invite defensiveness.",
-   "7. Decision: acknowledge the fear, state reality briefly, stay with the client."
-  ],
+  "reasoning": "1) Identify the item type: responding to a delusion. 2) Do not argue with, agree with or build on the delusion. 3) Acknowledge the feeling (fear), state the nurse's own perception calmly and offer presence. 4) Arguing with the client tends to increase mistrust. 5) Asking for elaboration may reinforce the delusion. 6) 'Why' questions invite defensiveness. 7) Decision: acknowledge the fear, state reality briefly, stay with the client.",
   "optionRationales": [
    "Direct denial and argument; it may increase mistrust.",
    "Encourages detailed elaboration and can reinforce the delusion.",
@@ -651,12 +525,7 @@
   ],
   "answerIndex": 3,
   "strategyTag": "Nursing process: match the verb",
-  "reasoning": [
-   "1. Look at the verb: the nurse compares outcomes with earlier goals.",
-   "2. Assessment collects data; planning sets goals; implementation carries out interventions.",
-   "3. Comparing current data against goals to judge progress is evaluation.",
-   "4. Decision: evaluation."
-  ],
+  "reasoning": "1) Look at the verb: the nurse compares outcomes with earlier goals. 2) Assessment collects data; planning sets goals; implementation carries out interventions. 3) Comparing current data against goals to judge progress is evaluation. 4) Decision: evaluation.",
   "optionRationales": [
    "Assessment gathers data; here the data are used to judge goal achievement.",
    "Planning sets goals and interventions; goals already exist.",
@@ -686,15 +555,7 @@
   ],
   "answerIndex": 0,
   "strategyTag": "Lab: link result to risk",
-  "reasoning": [
-   "1. The stem asks for multi-organ involvement, so look for evidence of two or more systems.",
-   "2. Rising creatinine with falling urine output points to kidney injury.",
-   "3. A new fall in platelets points to blood-clotting involvement.",
-   "4. Together they show separate systems failing, which is the pattern of multi-organ dysfunction.",
-   "5. Raised white cells and fever are expected in infection, not evidence of organ failure.",
-   "6. Nausea and a small heart rate change with turning are non-specific and common.",
-   "7. Decision: kidney and clotting changes."
-  ],
+  "reasoning": "1) The stem asks for multi-organ involvement, so look for evidence of two or more systems. 2) Rising creatinine with falling urine output points to kidney injury. 3) A new fall in platelets points to blood-clotting involvement. 4) Together they show separate systems failing, which is the pattern of multi-organ dysfunction. 5) Raised white cells and fever are expected in infection, not evidence of organ failure. 6) Nausea and a small heart rate change with turning are non-specific and common. 7) Decision: kidney and clotting changes.",
   "optionRationales": [
    "Correct. Two organ systems show new dysfunction.",
    "Expected response to infection.",
@@ -724,13 +585,7 @@
   ],
   "answerIndex": 1,
   "strategyTag": "Negative stem: find the odd one",
-  "reasoning": [
-   "1. Negative stem: three options are safe, one is not.",
-   "2. Constant (one-to-one) observation means uninterrupted visual contact according to the order.",
-   "3. Staying within arm's reach or sight and following tray and bathroom precautions are all consistent with this level.",
-   "4. Checking every 30 minutes is intermittent observation, not constant observation.",
-   "5. Decision: the 30-minute check instruction is inappropriate."
-  ],
+  "reasoning": "1) Negative stem: three options are safe, one is not. 2) Constant (one-to-one) observation means uninterrupted visual contact according to the order. 3) Staying within arm's reach or sight and following tray and bathroom precautions are all consistent with this level. 4) Checking every 30 minutes is intermittent observation, not constant observation. 5) Decision: the 30-minute check instruction is inappropriate.",
   "optionRationales": [
    "Appropriate; follows the order.",
    "Correct choice for the stem. Intermittent checks do not meet constant observation.",
