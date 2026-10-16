@@ -8,10 +8,10 @@
     "vignette": "A nurse assesses a client 2 hours after a vaginal birth. The client reports feeling fine, but the nurse notes that the uterine fundus is soft and boggy at the midline, and the perineal pad is heavily soaked with bright red lochia. The client's bladder is not palpable and vital signs are currently stable.",
     "stem": "Which action should the nurse take first?",
     "options": [
-      "Encourage the client to void and reassess the fundus in one hour",
-      "Massage the fundus until it becomes firm while supporting the lower uterine segment",
-      "Document the findings and recheck at the next routine assessment",
-      "Teach the client how to massage her own fundus before discharge"
+      "Encourage the client to void, then reassess the fundus and lochia in one hour",
+      "Massage the fundus until it is firm while supporting the lower uterine segment",
+      "Document the findings in the chart and recheck at the next routine assessment time",
+      "Teach the client how to massage her own fundus and check her pad before discharge"
     ],
     "answerIndex": 1,
     "strategyTag": "Physiology first: control bleeding",
@@ -38,10 +38,10 @@
     "vignette": "A nurse in a prenatal clinic reviews statements from four clients, all at about 35 weeks of gestation. One of them had a blood pressure that was higher than her usual readings at the last visit. The nurse must decide which statement needs follow-up first.",
     "stem": "Which client statement requires the nurse's immediate follow-up?",
     "options": [
-      "\"My ankles look puffy by the end of the day.\"",
-      "\"I have to urinate much more often than before.\"",
+      "\"My ankles look puffy by the end of the day, but they go down overnight.\"",
+      "\"I have to urinate much more often than before, especially at night.\"",
       "\"I have a headache that won't go away, and I keep seeing spots.\"",
-      "\"My lower back aches after I stand for a long time.\""
+      "\"My lower back aches after I stand for a long time at my job.\""
     ],
     "answerIndex": 2,
     "strategyTag": "Unexpected/new finding outranks expected",
@@ -69,9 +69,9 @@
     "stem": "Which nursing action has the highest priority at this moment?",
     "options": [
       "Dry the infant thoroughly and cover the skin and head to keep the infant warm",
-      "Administer the prophylactic eye ointment ordered for newborns",
-      "Complete the newborn identification bands with the parents present",
-      "Allow the parents quiet bonding time without any interruption"
+      "Administer the ordered prophylactic eye ointment to both eyes of the newborn",
+      "Complete the newborn identification bands with the parents present at the bedside",
+      "Give the parents quiet time to hold and bond with the baby before other care"
     ],
     "answerIndex": 0,
     "strategyTag": "Maslow: thermoregulation is physiological",
@@ -98,10 +98,10 @@
     "vignette": "A nurse on a postpartum unit receives report on four clients. One is 6 hours after a vaginal birth, says her pad is soaked, and has a soft fundus. One is on day 2 with breast fullness. One is on day 1 after cesarean birth reporting incisional pain that is controlled by her ordered analgesic. One is a first-time breastfeeding mother who wants help with positioning.",
     "stem": "Which client should the nurse assess first?",
     "options": [
-      "The client on day 2 with fullness in both breasts",
-      "The client on day 1 after cesarean birth with controlled pain",
-      "The first-time mother who wants help with breastfeeding positions",
-      "The client 6 hours after vaginal birth with a soaked pad and soft fundus"
+      "The client on day 2 with fullness and mild tenderness in both breasts",
+      "The client on day 1 after cesarean birth whose incisional pain is controlled",
+      "The first-time mother who wants help with breastfeeding positions today",
+      "The client 6 hours after vaginal birth with soaked pad and soft fundus"
     ],
     "answerIndex": 3,
     "strategyTag": "Unstable/actual hemorrhage before routine needs",
@@ -128,10 +128,10 @@
     "vignette": "A registered nurse is assigning care on a newborn unit. The unit has unlicensed assistive personnel (UAP) who completed unit orientation. All of the newborns are stable with no current concerns. The nurse must decide which of several tasks can be safely delegated.",
     "stem": "Which task is most appropriate for the nurse to delegate to the UAP?",
     "options": [
-      "Assess a newborn's skin for yellow discoloration",
-      "Teach a new mother how to position her baby at the breast",
-      "Weigh a stable newborn and report the weight to the nurse",
-      "Evaluate whether the parents understood safe sleep teaching"
+      "Assess a newborn's skin and sclerae for yellow discoloration",
+      "Teach a new mother how to position and latch her baby at the breast",
+      "Weigh a stable newborn and report the measured weight to the nurse",
+      "Evaluate whether the parents understood the safe sleep teaching"
     ],
     "answerIndex": 2,
     "strategyTag": "Delegate routine, stable tasks only",
@@ -158,9 +158,9 @@
     "vignette": "A 16-year-old comes alone to a community clinic. She is tearful and says, \"My period is late. I think I might be pregnant, and my mother is going to be so angry at me. I don't know what to do.\" The nurse has not yet performed any assessment.",
     "stem": "Which response by the nurse is most therapeutic?",
     "options": [
-      "\"You sound frightened about how your mother will react. Tell me more about what worries you.\"",
+      "\"You sound frightened about your mother's reaction. Tell me more about that.\"",
       "\"Try not to worry. I am sure your mother will understand once she knows.\"",
-      "\"Why didn't you think about protection before this happened?\"",
+      "\"Why didn't you use protection so that this would not have happened?\"",
       "\"Let's first find out whether you are pregnant, then you can decide what to do.\""
     ],
     "answerIndex": 0,
@@ -188,10 +188,10 @@
     "vignette": "A nurse is teaching the parents of a healthy 5-month-old at a well-baby visit. The infant has begun to roll from front to back and is starting to roll the other way. The parents often change diapers on a bed or sofa because it is comfortable for them.",
     "stem": "Which instruction is most important for the nurse to include about preventing falls?",
     "options": [
-      "Place pillows around the infant so a roll would be cushioned",
-      "Discourage rolling by placing the infant on the back during play",
-      "Reassure the parents that falls are uncommon at this age",
-      "Keep one hand on the infant at all times when on a raised surface and never walk away"
+      "Place pillows around the infant on the bed so a roll would be cushioned",
+      "Discourage rolling by placing the infant on the back during play time",
+      "Reassure the parents that falls are uncommon at this age and need no precautions",
+      "Keep one hand on the infant whenever the infant is on a raised surface"
     ],
     "answerIndex": 3,
     "strategyTag": "Safety: developmental ability drives risk",
@@ -218,10 +218,10 @@
     "vignette": "A nurse in an emergency department sees a 4-year-old who developed a high fever and a very sore throat over a few hours. The child sits leaning forward with the chin out, is drooling, has a muffled voice, and appears anxious and tired. A resident hands the nurse a tongue depressor and says to look at the throat.",
     "stem": "Which action by the nurse is most appropriate?",
     "options": [
-      "Use the tongue depressor to look at the back of the throat",
-      "Keep the child upright with the parent, avoid throat examination, and call for emergency airway support",
-      "Lay the child flat and obtain a throat culture",
-      "Obtain a full set of blood tests before notifying the provider"
+      "Use the tongue depressor to look at the back of the throat while the parent holds the child still",
+      "Keep the child upright with the parent, avoid throat examination, and call for airway help",
+      "Lay the child flat on the stretcher, tilt the head back, and obtain a throat culture",
+      "Obtain a full set of blood tests and a chest x-ray before notifying the provider"
     ],
     "answerIndex": 1,
     "strategyTag": "ABC: protect the airway; avoid triggers",
@@ -249,9 +249,9 @@
     "stem": "Which finding is most concerning to the nurse?",
     "options": [
       "The infant is difficult to arouse and has cool hands and feet",
-      "The anterior fontanelle appears sunken",
-      "The infant has not had a wet diaper for 8 hours",
-      "The mucous membranes feel dry"
+      "The anterior fontanelle appears sunken and the eyes look hollow",
+      "The infant has had no wet diaper for 8 hours and the urine was dark",
+      "The mucous membranes feel dry and the lips look cracked"
     ],
     "answerIndex": 0,
     "strategyTag": "Unstable: altered level of consciousness",
@@ -278,10 +278,10 @@
     "vignette": "A nurse at a community immunization clinic is preparing to give a scheduled vaccine to a toddler. The parent reports that the child has had a mild runny nose, felt a little sore at the last injection site, and is a picky eater. When asked about the previous dose, the parent adds one more detail.",
     "stem": "Which parent report should the nurse act on first before giving the vaccine?",
     "options": [
-      "The child has had a mild runny nose this week",
-      "The child had soreness at the last injection site",
-      "The child developed hives and trouble breathing after the previous dose",
-      "The child often refuses vegetables at meals"
+      "The child has had a mild runny nose and no fever for most of this week",
+      "The child had soreness and redness where the last shot was given",
+      "The child had hives and trouble breathing after the previous dose",
+      "The child often refuses vegetables and eats small portions at meals"
     ],
     "answerIndex": 2,
     "strategyTag": "Safety: check contraindications first",
@@ -308,10 +308,10 @@
     "vignette": "A nurse teaches a new mother, who is 1 day postpartum, about breastfeeding her term newborn. The nurse reviews hunger cues, latch, breaking suction and signs the infant is getting enough milk. The nurse asks the mother to restate the key points to check understanding.",
     "stem": "Which statement by the mother indicates that teaching was effective?",
     "options": [
-      "\"I will wait at least four hours between feeds so my nipples can rest.\"",
-      "\"To take the baby off the breast, I will slip a clean finger into the corner of his mouth first.\"",
+      "\"I will wait at least four hours between feeds so my nipples have time to rest.\"",
+      "\"To end a feed, I will slip a clean finger into the corner of his mouth first.\"",
       "\"I will give him sips of water between feeds so he does not get jaundiced.\"",
-      "\"When he is done, I will pull him straight off so he does not chew me.\""
+      "\"When he finishes, I will pull him straight off the breast so he cannot chew me.\""
     ],
     "answerIndex": 1,
     "strategyTag": "Teaching evaluation: safe, correct action",
@@ -338,10 +338,10 @@
     "vignette": "A nurse on a newborn unit reviews safe sleep teaching with parents before discharge. The nurse asks each parent to describe how they plan to put the baby to sleep at home. The nurse is listening for any plan that would place the infant at increased risk.",
     "stem": "Which parent statement requires further teaching by the nurse?",
     "options": [
-      "\"I will lay him on his back on a firm mattress for every sleep.\"",
-      "\"I will keep pillows and loose blankets out of his crib.\"",
-      "\"I will keep his crib in our room and not use soft padding.\"",
-      "\"I will lay him on his stomach so he can't choke if he spits up.\""
+      "\"I will lay him on his back on a firm, flat mattress for naps and at night.\"",
+      "\"I will keep pillows, bumper pads and loose blankets out of his crib.\"",
+      "\"I will keep his crib in our room for now and not use any soft padding.\"",
+      "\"I will lay him on his stomach so he can't choke if he spits up at night.\""
     ],
     "answerIndex": 3,
     "strategyTag": "Negative stem: find the unsafe statement",
@@ -368,10 +368,10 @@
     "vignette": "A postpartum nurse reviews four mother-and-newborn pairs. Each mother had an uncomplicated vaginal birth and has not had any previous Rh immune globulin. Blood types are listed in each record. The nurse must identify which mother will most likely need Rh immune globulin after birth.",
     "stem": "Which mother-newborn pair is most likely to need Rh immune globulin for the mother?",
     "options": [
-      "Rh-negative mother with an Rh-positive newborn",
-      "Rh-positive mother with an Rh-negative newborn",
-      "Rh-negative mother with an Rh-negative newborn",
-      "Rh-positive mother with an Rh-positive newborn"
+      "Rh-negative mother who has an Rh-positive newborn",
+      "Rh-positive mother whose newborn is Rh-negative",
+      "Rh-negative mother who also has an Rh-negative newborn",
+      "Rh-positive mother who also has an Rh-positive newborn"
     ],
     "answerIndex": 0,
     "strategyTag": "Know the pattern: Rh-neg mother, Rh-pos baby",
@@ -400,8 +400,8 @@
     "options": [
       "Telephone the provider and wait for orders before changing anything",
       "Document the pattern and continue observing for another 15 minutes",
-      "Stop the oxytocin infusion and turn the client onto her side",
-      "Prepare the client for an immediate cesarean birth"
+      "Stop the oxytocin infusion and turn the client onto her side promptly",
+      "Prepare the client for an immediate cesarean birth before other measures"
     ],
     "answerIndex": 2,
     "strategyTag": "Unstable fetus: remove the cause now",
@@ -428,10 +428,10 @@
     "vignette": "A client at 33 weeks of gestation arrives at the labor unit reporting sudden painless bright red vaginal bleeding that began at home. The uterus is soft and not tender. The nurse is aware that the cause has not yet been identified and that the provider has been notified.",
     "stem": "Which action should the nurse AVOID?",
     "options": [
-      "Monitor maternal vital signs and fetal heart rate",
-      "Count and note the saturation of perineal pads",
-      "Keep the client on bed rest on her side",
-      "Perform a digital vaginal examination to check cervical dilation"
+      "Monitor maternal vital signs and the fetal heart rate continuously",
+      "Count and weigh the perineal pads to estimate the amount of blood loss",
+      "Keep the client on bed rest, positioned on her side, with the call light close",
+      "Perform a digital vaginal examination to see how far the cervix has dilated"
     ],
     "answerIndex": 3,
     "strategyTag": "Safety: no vaginal exam before ruling out previa",
@@ -458,10 +458,10 @@
     "vignette": "A mother of a healthy 2-year-old tells the nurse that her son says \"no\" to almost everything, insists on doing tasks himself, and has tantrums when told to stop playing. She is frustrated and asks how to respond. The nurse recognises this as a typical developmental stage.",
     "stem": "Which guidance should the nurse give the mother?",
     "options": [
-      "Punish each tantrum with a time-out lasting several minutes",
-      "Offer limited choices such as which of two shirts to wear and keep limits consistent",
-      "Give in to his demands so that he stops crying",
-      "Explain at length why he must obey, expecting him to agree"
+      "Punish each tantrum with a long time-out and take away his favorite toy for the day",
+      "Offer limited choices, such as between two shirts, and keep limits consistent",
+      "Give in to his demands so that he stops crying and the tantrum ends quickly",
+      "Explain at length why he must obey and expect him to agree with the reasons"
     ],
     "answerIndex": 1,
     "strategyTag": "Developmental stage drives response",
@@ -488,10 +488,10 @@
     "vignette": "A client on day 3 after a vaginal birth is breastfeeding her term newborn. She reports sore, cracked nipples and pain at the start of each feed. The infant is voiding and stooling appropriately. The nurse watches a feed and sees the infant latched only onto the nipple tip with lips pursed.",
     "stem": "Which intervention should the nurse implement first?",
     "options": [
-      "Provide a nipple shield for use during all feeds",
-      "Reposition the infant and help the infant take more of the areola into the mouth",
-      "Switch to formula feeding until the nipples have healed",
-      "Tell her to pump and discard her milk for two days"
+      "Provide a nipple shield to use at each feed until the nipples heal",
+      "Reposition the infant so more of the areola is taken into the mouth",
+      "Switch to formula feeding for several days until the nipples have healed",
+      "Tell her to pump and discard her milk for two days while the nipples heal"
     ],
     "answerIndex": 1,
     "strategyTag": "Least invasive: fix technique first",
@@ -518,10 +518,10 @@
     "vignette": "A nurse on a newborn unit is caring for a term infant who is about 20 hours old. During routine assessment the nurse notices that the infant's skin and sclerae appear yellow, and the infant is feeding sleepily. Other vital signs are within expected ranges. The mother asks if this is normal.",
     "stem": "What is the nurse's best action?",
     "options": [
-      "Report the finding promptly to the provider and document the infant's age at onset",
-      "Tell the mother this is common in newborns and recheck at the next shift",
-      "Document it as physiologic jaundice and continue routine care",
-      "Encourage frequent feeds and reassess the next day"
+      "Promptly report the finding to the provider and record the infant's age at onset",
+      "Tell the mother this is common in newborns and recheck at the next shift assessment",
+      "Document it as physiologic jaundice and continue routine newborn care and feeds",
+      "Encourage frequent feeds, note stools and voids, and reassess the next day"
     ],
     "answerIndex": 0,
     "strategyTag": "Report: abnormal timing is a red flag",
@@ -548,10 +548,10 @@
     "vignette": "A nurse sees a client at a 2-week postpartum visit. The mother says she cries most days, cannot sleep even when the baby sleeps, and feels hopeless. She quietly adds, \"Sometimes I think the baby would be better off without me.\" Her partner is in the waiting room.",
     "stem": "Which action should the nurse take first?",
     "options": [
-      "Reassure her that sadness after birth is normal and should pass soon",
-      "Give her a handout about postpartum mood changes and review it",
-      "Schedule a follow-up visit in two weeks and encourage rest",
-      "Ask directly if she has thoughts of harming herself or the baby and whether she has a plan"
+      "Reassure her that sadness after birth is common and will likely pass soon",
+      "Give her a handout about postpartum mood changes and review it with her now",
+      "Schedule a follow-up visit in two weeks and encourage rest and help from family",
+      "Ask directly about thoughts of harming herself or the baby, including any plan"
     ],
     "answerIndex": 3,
     "strategyTag": "Safety: ask directly about harm",
@@ -578,10 +578,10 @@
     "vignette": "A client with severe preeclampsia is receiving a magnesium sulfate infusion by pump. On assessment the nurse finds that deep tendon reflexes are absent, the respiratory rate is 10 breaths per minute, and the client is drowsy. The client's urine output has also decreased over the last two hours.",
     "stem": "Which action should the nurse take first?",
     "options": [
-      "Reassess reflexes and respiratory rate again in one hour",
-      "Administer calcium gluconate before doing anything else",
-      "Stop the magnesium sulfate infusion and stay with the client",
-      "Raise the head of the bed and encourage deep breathing"
+      "Recheck reflexes and respiratory rate in one hour while the infusion runs",
+      "Administer calcium gluconate at once, before stopping the infusion",
+      "Stop the magnesium sulfate infusion and stay with the client to assess",
+      "Raise the head of the bed and coach the client to take deep breaths"
     ],
     "answerIndex": 2,
     "strategyTag": "ABC: stop the drug causing depression",
