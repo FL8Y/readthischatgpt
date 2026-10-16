@@ -1,0 +1,1013 @@
+{
+ "source": "Owner-supplied Anki deck 'PNLE TOP 1 (By Vinz)'; headings and counts only",
+ "branches": [
+  {
+   "area": "NP1",
+   "root": "Community Health Nursing",
+   "items": [
+    {
+     "path": "Community Health Nursing",
+     "label": "Community Health Nursing",
+     "depth": 0,
+     "cards": 802
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC",
+     "label": "CHN, PHC",
+     "depth": 1,
+     "cards": 264
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / COPAR",
+     "label": "COPAR",
+     "depth": 2,
+     "cards": 60
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / COPAR / Basic Principles of COPAR",
+     "label": "Basic Principles of COPAR",
+     "depth": 3,
+     "cards": 23
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / COPAR / Phases of COPAR",
+     "label": "Phases of COPAR",
+     "depth": 3,
+     "cards": 37
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / Clients of CHN",
+     "label": "Clients of CHN",
+     "depth": 2,
+     "cards": 13
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / DOH",
+     "label": "DOH",
+     "depth": 2,
+     "cards": 46
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / DOH / DOH Concepts",
+     "label": "DOH Concepts",
+     "depth": 3,
+     "cards": 37
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / DOH / Functions of DOH",
+     "label": "Functions of DOH",
+     "depth": 3,
+     "cards": 9
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / Family ADPIE",
+     "label": "Family ADPIE",
+     "depth": 2,
+     "cards": 51
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / Family ADPIE / a. Assessment",
+     "label": "a. Assessment",
+     "depth": 3,
+     "cards": 6
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / Family ADPIE / b. Planning",
+     "label": "b. Planning",
+     "depth": 3,
+     "cards": 34
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / Family ADPIE / b. Planning / 1. Goal Setting",
+     "label": "1. Goal Setting",
+     "depth": 4,
+     "cards": 6
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / Family ADPIE / b. Planning / 2. Prioritization",
+     "label": "2. Prioritization",
+     "depth": 4,
+     "cards": 15
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / Family ADPIE / b. Planning / 3. Scoring",
+     "label": "3. Scoring",
+     "depth": 4,
+     "cards": 13
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / Family ADPIE / c. Implementation",
+     "label": "c. Implementation",
+     "depth": 3,
+     "cards": 3
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / Family ADPIE / d. Evaluation",
+     "label": "d. Evaluation",
+     "depth": 3,
+     "cards": 4
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / Health Promotion",
+     "label": "Health Promotion",
+     "depth": 2,
+     "cards": 32
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / Health Promotion / a. Health Promotion",
+     "label": "a. Health Promotion",
+     "depth": 3,
+     "cards": 11
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / Health Promotion / b. Diet",
+     "label": "b. Diet",
+     "depth": 3,
+     "cards": 7
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / Health Promotion / c. Exercise",
+     "label": "c. Exercise",
+     "depth": 3,
+     "cards": 3
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / Health Promotion / d. Stop Smoking",
+     "label": "d. Stop Smoking",
+     "depth": 3,
+     "cards": 11
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / Magna Carta of Public Health Workers",
+     "label": "Magna Carta of Public Health Workers",
+     "depth": 2,
+     "cards": 8
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / People Behind CHN",
+     "label": "People Behind CHN",
+     "depth": 2,
+     "cards": 7
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / Primary Health Care",
+     "label": "Primary Health Care",
+     "depth": 2,
+     "cards": 43
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / Primary Health Care / a. Basics of PHC",
+     "label": "a. Basics of PHC",
+     "depth": 3,
+     "cards": 8
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / Primary Health Care / b. Pillars of PHC",
+     "label": "b. Pillars of PHC",
+     "depth": 3,
+     "cards": 13
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / Primary Health Care / c. Characteristics of PHC",
+     "label": "c. Characteristics of PHC",
+     "depth": 3,
+     "cards": 11
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / Primary Health Care / d. ELEMENTS of PHC",
+     "label": "d. ELEMENTS of PHC",
+     "depth": 3,
+     "cards": 11
+    },
+    {
+     "path": "Community Health Nursing / CHN, PHC / Sentrong Sigla Program",
+     "label": "Sentrong Sigla Program",
+     "depth": 2,
+     "cards": 4
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care",
+     "label": "ELEMENTS of Primary Health Care",
+     "depth": 1,
+     "cards": 531
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 1. Education",
+     "label": "1. Education",
+     "depth": 2,
+     "cards": 31
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 1. Education / Competency-Based Teaching",
+     "label": "Competency-Based Teaching",
+     "depth": 3,
+     "cards": 8
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 1. Education / Identify the Prevention",
+     "label": "Identify the Prevention",
+     "depth": 3,
+     "cards": 13
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 1. Education / Three Levels of Prevention",
+     "label": "Three Levels of Prevention",
+     "depth": 3,
+     "cards": 10
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 2. Locally-Endemic Diseases",
+     "label": "2. Locally-Endemic Diseases",
+     "depth": 2,
+     "cards": 103
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 2. Locally-Endemic Diseases / Epidemiology",
+     "label": "Epidemiology",
+     "depth": 3,
+     "cards": 15
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 2. Locally-Endemic Diseases / FHSIS",
+     "label": "FHSIS",
+     "depth": 3,
+     "cards": 46
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 2. Locally-Endemic Diseases / Population Pyramid",
+     "label": "Population Pyramid",
+     "depth": 3,
+     "cards": 4
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 2. Locally-Endemic Diseases / Vital Statistics",
+     "label": "Vital Statistics",
+     "depth": 3,
+     "cards": 38
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 2. Locally-Endemic Diseases / Vital Statistics / Common Vital Statistics",
+     "label": "Common Vital Statistics",
+     "depth": 4,
+     "cards": 16
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 2. Locally-Endemic Diseases / Vital Statistics / Incidence vs Prevalence Rates",
+     "label": "Incidence vs Prevalence Rates",
+     "depth": 4,
+     "cards": 4
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 2. Locally-Endemic Diseases / Vital Statistics / Swaroops, Sex Ratio",
+     "label": "Swaroops, Sex Ratio",
+     "depth": 4,
+     "cards": 5
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 2. Locally-Endemic Diseases / Vital Statistics / Vital Statistics Basic Concepts",
+     "label": "Vital Statistics Basic Concepts",
+     "depth": 4,
+     "cards": 13
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 3. Expanded Program on Immunization",
+     "label": "3. Expanded Program on Immunization",
+     "depth": 2,
+     "cards": 110
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 3. Expanded Program on Immunization / Chikiting Ligtas",
+     "label": "Chikiting Ligtas",
+     "depth": 3,
+     "cards": 10
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 3. Expanded Program on Immunization / Cold Chain and Logistics Management",
+     "label": "Cold Chain and Logistics Management",
+     "depth": 3,
+     "cards": 12
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 3. Expanded Program on Immunization / Elements of Immunization & Laws",
+     "label": "Elements of Immunization & Laws",
+     "depth": 3,
+     "cards": 12
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 3. Expanded Program on Immunization / Principles and Nursing Responsibilities",
+     "label": "Principles and Nursing Responsibilities",
+     "depth": 3,
+     "cards": 49
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 3. Expanded Program on Immunization / Principles and Nursing Responsibilities / BCG",
+     "label": "BCG",
+     "depth": 4,
+     "cards": 11
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 3. Expanded Program on Immunization / Principles and Nursing Responsibilities / Other Vaccines",
+     "label": "Other Vaccines",
+     "depth": 4,
+     "cards": 22
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 3. Expanded Program on Immunization / Principles and Nursing Responsibilities / Pentavalent Vaccine",
+     "label": "Pentavalent Vaccine",
+     "depth": 4,
+     "cards": 16
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 3. Expanded Program on Immunization / Target Setting",
+     "label": "Target Setting",
+     "depth": 3,
+     "cards": 18
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 3. Expanded Program on Immunization / Vaccine Table",
+     "label": "Vaccine Table",
+     "depth": 3,
+     "cards": 9
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 4. Maternal and Child Health",
+     "label": "4. Maternal and Child Health",
+     "depth": 2,
+     "cards": 129
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 4. Maternal and Child Health / Active Management of Third Stage of Labor",
+     "label": "Active Management of Third Stage of Labor",
+     "depth": 3,
+     "cards": 10
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 4. Maternal and Child Health / Activities",
+     "label": "Activities",
+     "depth": 3,
+     "cards": 18
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 4. Maternal and Child Health / EINC",
+     "label": "EINC",
+     "depth": 3,
+     "cards": 11
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 4. Maternal and Child Health / MCN: BEmOC & CEmOC",
+     "label": "MCN: BEmOC & CEmOC",
+     "depth": 3,
+     "cards": 15
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 4. Maternal and Child Health / Newborn Screening",
+     "label": "Newborn Screening",
+     "depth": 3,
+     "cards": 21
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 4. Maternal and Child Health / Reproductive Health",
+     "label": "Reproductive Health",
+     "depth": 3,
+     "cards": 26
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 4. Maternal and Child Health / TT",
+     "label": "TT",
+     "depth": 3,
+     "cards": 22
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 4. Maternal and Child Health / VAWC",
+     "label": "VAWC",
+     "depth": 3,
+     "cards": 6
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 5. Essential Drugs",
+     "label": "5. Essential Drugs",
+     "depth": 2,
+     "cards": 27
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 5. Essential Drugs / Herbal",
+     "label": "Herbal",
+     "depth": 3,
+     "cards": 27
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 6. Nutrition",
+     "label": "6. Nutrition",
+     "depth": 2,
+     "cards": 34
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 6. Nutrition / Food Fortification Program",
+     "label": "Food Fortification Program",
+     "depth": 3,
+     "cards": 18
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 6. Nutrition / Malnutrition",
+     "label": "Malnutrition",
+     "depth": 3,
+     "cards": 16
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 7. Treatment of CD and NCD and Emergency Services",
+     "label": "7. Treatment of CD and NCD and Emergency Services",
+     "depth": 2,
+     "cards": 25
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 7. Treatment of CD and NCD and Emergency Services / Emergency Services",
+     "label": "Emergency Services",
+     "depth": 3,
+     "cards": 12
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 7. Treatment of CD and NCD and Emergency Services / NCD",
+     "label": "NCD",
+     "depth": 3,
+     "cards": 13
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 8. Sanitation and Environmental Health",
+     "label": "8. Sanitation and Environmental Health",
+     "depth": 2,
+     "cards": 72
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 8. Sanitation and Environmental Health / Approved Types of Water Supply Facilities",
+     "label": "Approved Types of Water Supply Facilities",
+     "depth": 3,
+     "cards": 24
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 8. Sanitation and Environmental Health / Color & Type of Waste",
+     "label": "Color & Type of Waste",
+     "depth": 3,
+     "cards": 6
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 8. Sanitation and Environmental Health / Food Sanitation",
+     "label": "Food Sanitation",
+     "depth": 3,
+     "cards": 21
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 8. Sanitation and Environmental Health / Health & Sanitation Laws",
+     "label": "Health & Sanitation Laws",
+     "depth": 3,
+     "cards": 12
+    },
+    {
+     "path": "Community Health Nursing / ELEMENTS of Primary Health Care / 8. Sanitation and Environmental Health / Toilet Facility",
+     "label": "Toilet Facility",
+     "depth": 3,
+     "cards": 9
+    },
+    {
+     "path": "Community Health Nursing / Mental Health Program",
+     "label": "Mental Health Program",
+     "depth": 1,
+     "cards": 7
+    }
+   ]
+  },
+  {
+   "area": "NP5",
+   "root": "Psychiatric Nursing",
+   "items": [
+    {
+     "path": "Psychiatric Nursing",
+     "label": "Psychiatric Nursing",
+     "depth": 0,
+     "cards": 820
+    },
+    {
+     "path": "Psychiatric Nursing / Part 1",
+     "label": "Part 1",
+     "depth": 1,
+     "cards": 228
+    },
+    {
+     "path": "Psychiatric Nursing / Part 1 / a. Therapeutic Communication",
+     "label": "a. Therapeutic Communication",
+     "depth": 2,
+     "cards": 29
+    },
+    {
+     "path": "Psychiatric Nursing / Part 1 / b. Nurse-Patient Relationship",
+     "label": "b. Nurse-Patient Relationship",
+     "depth": 2,
+     "cards": 20
+    },
+    {
+     "path": "Psychiatric Nursing / Part 1 / c. Crisis and Crisis Intervention",
+     "label": "c. Crisis and Crisis Intervention",
+     "depth": 2,
+     "cards": 16
+    },
+    {
+     "path": "Psychiatric Nursing / Part 1 / d. Freud's Theory of Personality",
+     "label": "d. Freud's Theory of Personality",
+     "depth": 2,
+     "cards": 50
+    },
+    {
+     "path": "Psychiatric Nursing / Part 1 / e. Symptomatologies of Mental Disorder",
+     "label": "e. Symptomatologies of Mental Disorder",
+     "depth": 2,
+     "cards": 55
+    },
+    {
+     "path": "Psychiatric Nursing / Part 1 / e. Symptomatologies of Mental Disorder / Disturbances in Affect",
+     "label": "Disturbances in Affect",
+     "depth": 3,
+     "cards": 12
+    },
+    {
+     "path": "Psychiatric Nursing / Part 1 / e. Symptomatologies of Mental Disorder / Disturbances in Memory",
+     "label": "Disturbances in Memory",
+     "depth": 3,
+     "cards": 8
+    },
+    {
+     "path": "Psychiatric Nursing / Part 1 / e. Symptomatologies of Mental Disorder / Disturbances in Perception",
+     "label": "Disturbances in Perception",
+     "depth": 3,
+     "cards": 16
+    },
+    {
+     "path": "Psychiatric Nursing / Part 1 / e. Symptomatologies of Mental Disorder / Disturbances in Thought",
+     "label": "Disturbances in Thought",
+     "depth": 3,
+     "cards": 11
+    },
+    {
+     "path": "Psychiatric Nursing / Part 1 / e. Symptomatologies of Mental Disorder / Unusual Speech Patterns",
+     "label": "Unusual Speech Patterns",
+     "depth": 3,
+     "cards": 8
+    },
+    {
+     "path": "Psychiatric Nursing / Part 1 / f. Behavioral Management",
+     "label": "f. Behavioral Management",
+     "depth": 2,
+     "cards": 58
+    },
+    {
+     "path": "Psychiatric Nursing / Part 2",
+     "label": "Part 2",
+     "depth": 1,
+     "cards": 187
+    },
+    {
+     "path": "Psychiatric Nursing / Part 2 / g. Anxiety",
+     "label": "g. Anxiety",
+     "depth": 2,
+     "cards": 25
+    },
+    {
+     "path": "Psychiatric Nursing / Part 2 / h. Anxiety Related Disorders",
+     "label": "h. Anxiety Related Disorders",
+     "depth": 2,
+     "cards": 32
+    },
+    {
+     "path": "Psychiatric Nursing / Part 2 / h. Anxiety Related Disorders / Obsessive Compulsive Disorder",
+     "label": "Obsessive Compulsive Disorder",
+     "depth": 3,
+     "cards": 10
+    },
+    {
+     "path": "Psychiatric Nursing / Part 2 / h. Anxiety Related Disorders / Phobic Disorder",
+     "label": "Phobic Disorder",
+     "depth": 3,
+     "cards": 10
+    },
+    {
+     "path": "Psychiatric Nursing / Part 2 / h. Anxiety Related Disorders / Somatic Symptom Illness",
+     "label": "Somatic Symptom Illness",
+     "depth": 3,
+     "cards": 12
+    },
+    {
+     "path": "Psychiatric Nursing / Part 2 / i. Trauma Related Disorders",
+     "label": "i. Trauma Related Disorders",
+     "depth": 2,
+     "cards": 12
+    },
+    {
+     "path": "Psychiatric Nursing / Part 2 / j. Eating Disorders",
+     "label": "j. Eating Disorders",
+     "depth": 2,
+     "cards": 23
+    },
+    {
+     "path": "Psychiatric Nursing / Part 2 / k. Personality Disorders",
+     "label": "k. Personality Disorders",
+     "depth": 2,
+     "cards": 17
+    },
+    {
+     "path": "Psychiatric Nursing / Part 2 / l. Substance Abuse Disorders",
+     "label": "l. Substance Abuse Disorders",
+     "depth": 2,
+     "cards": 78
+    },
+    {
+     "path": "Psychiatric Nursing / Part 2 / l. Substance Abuse Disorders / Aa. Basic Concepts",
+     "label": "Aa. Basic Concepts",
+     "depth": 3,
+     "cards": 7
+    },
+    {
+     "path": "Psychiatric Nursing / Part 2 / l. Substance Abuse Disorders / Alcoholism",
+     "label": "Alcoholism",
+     "depth": 3,
+     "cards": 33
+    },
+    {
+     "path": "Psychiatric Nursing / Part 2 / l. Substance Abuse Disorders / Barbiturates",
+     "label": "Barbiturates",
+     "depth": 3,
+     "cards": 9
+    },
+    {
+     "path": "Psychiatric Nursing / Part 2 / l. Substance Abuse Disorders / Hallucinogens",
+     "label": "Hallucinogens",
+     "depth": 3,
+     "cards": 7
+    },
+    {
+     "path": "Psychiatric Nursing / Part 2 / l. Substance Abuse Disorders / Narcotics",
+     "label": "Narcotics",
+     "depth": 3,
+     "cards": 12
+    },
+    {
+     "path": "Psychiatric Nursing / Part 2 / l. Substance Abuse Disorders / Stimulants",
+     "label": "Stimulants",
+     "depth": 3,
+     "cards": 10
+    },
+    {
+     "path": "Psychiatric Nursing / Part 3",
+     "label": "Part 3",
+     "depth": 1,
+     "cards": 184
+    },
+    {
+     "path": "Psychiatric Nursing / Part 3 / m. Schizophrenia",
+     "label": "m. Schizophrenia",
+     "depth": 2,
+     "cards": 74
+    },
+    {
+     "path": "Psychiatric Nursing / Part 3 / n. Major Depressive Disorder",
+     "label": "n. Major Depressive Disorder",
+     "depth": 2,
+     "cards": 67
+    },
+    {
+     "path": "Psychiatric Nursing / Part 3 / o. Bipolar Disorder",
+     "label": "o. Bipolar Disorder",
+     "depth": 2,
+     "cards": 37
+    },
+    {
+     "path": "Psychiatric Nursing / Part 3 / p. Delirium vs Dementia",
+     "label": "p. Delirium vs Dementia",
+     "depth": 2,
+     "cards": 6
+    },
+    {
+     "path": "Psychiatric Nursing / Psych Extra",
+     "label": "Psych Extra",
+     "depth": 1,
+     "cards": 221
+    },
+    {
+     "path": "Psychiatric Nursing / Psych Extra / A. Personality Disorders",
+     "label": "A. Personality Disorders",
+     "depth": 2,
+     "cards": 27
+    },
+    {
+     "path": "Psychiatric Nursing / Psych Extra / B. Anxiety Disorder, OCRD, Stressor Related Disorder",
+     "label": "B. Anxiety Disorder, OCRD, Stressor Related Disorder",
+     "depth": 2,
+     "cards": 14
+    },
+    {
+     "path": "Psychiatric Nursing / Psych Extra / C. Typical/Atypical Antipsychotics",
+     "label": "C. Typical/Atypical Antipsychotics",
+     "depth": 2,
+     "cards": 19
+    },
+    {
+     "path": "Psychiatric Nursing / Psych Extra / D. Major Depressive Disorder/Mania",
+     "label": "D. Major Depressive Disorder/Mania",
+     "depth": 2,
+     "cards": 31
+    },
+    {
+     "path": "Psychiatric Nursing / Psych Extra / E. Medications for Depression",
+     "label": "E. Medications for Depression",
+     "depth": 2,
+     "cards": 19
+    },
+    {
+     "path": "Psychiatric Nursing / Psych Extra / F. Developmental Disorders",
+     "label": "F. Developmental Disorders",
+     "depth": 2,
+     "cards": 23
+    },
+    {
+     "path": "Psychiatric Nursing / Psych Extra / G. Psychiatric Disorders",
+     "label": "G. Psychiatric Disorders",
+     "depth": 2,
+     "cards": 48
+    },
+    {
+     "path": "Psychiatric Nursing / Psych Extra / H. Alzheimer's Disease",
+     "label": "H. Alzheimer's Disease",
+     "depth": 2,
+     "cards": 20
+    },
+    {
+     "path": "Psychiatric Nursing / Psych Extra / I. Substance Use Disorders",
+     "label": "I. Substance Use Disorders",
+     "depth": 2,
+     "cards": 8
+    },
+    {
+     "path": "Psychiatric Nursing / Psych Extra / J. Downers. Uppers, and Hallucinogens",
+     "label": "J. Downers. Uppers, and Hallucinogens",
+     "depth": 2,
+     "cards": 12
+    }
+   ]
+  },
+  {
+   "area": "NP5",
+   "root": "Emergency & Disaster Nursing",
+   "items": [
+    {
+     "path": "Emergency & Disaster Nursing",
+     "label": "Emergency & Disaster Nursing",
+     "depth": 0,
+     "cards": 324
+    },
+    {
+     "path": "Emergency & Disaster Nursing / a. Issues in ER Nursing",
+     "label": "a. Issues in ER Nursing",
+     "depth": 1,
+     "cards": 5
+    },
+    {
+     "path": "Emergency & Disaster Nursing / b. Routine or ED Triage",
+     "label": "b. Routine or ED Triage",
+     "depth": 1,
+     "cards": 50
+    },
+    {
+     "path": "Emergency & Disaster Nursing / b. Routine or ED Triage / CTAS",
+     "label": "CTAS",
+     "depth": 2,
+     "cards": 7
+    },
+    {
+     "path": "Emergency & Disaster Nursing / b. Routine or ED Triage / ESI",
+     "label": "ESI",
+     "depth": 2,
+     "cards": 8
+    },
+    {
+     "path": "Emergency & Disaster Nursing / b. Routine or ED Triage / PENA",
+     "label": "PENA",
+     "depth": 2,
+     "cards": 20
+    },
+    {
+     "path": "Emergency & Disaster Nursing / b. Routine or ED Triage / Three Level Triage",
+     "label": "Three Level Triage",
+     "depth": 2,
+     "cards": 6
+    },
+    {
+     "path": "Emergency & Disaster Nursing / b. Routine or ED Triage / Triage",
+     "label": "Triage",
+     "depth": 2,
+     "cards": 9
+    },
+    {
+     "path": "Emergency & Disaster Nursing / c. Primary and Secondary Survey",
+     "label": "c. Primary and Secondary Survey",
+     "depth": 1,
+     "cards": 86
+    },
+    {
+     "path": "Emergency & Disaster Nursing / c. Primary and Secondary Survey / 1. Primary vs Secondary Survey",
+     "label": "1. Primary vs Secondary Survey",
+     "depth": 2,
+     "cards": 14
+    },
+    {
+     "path": "Emergency & Disaster Nursing / c. Primary and Secondary Survey / 2. Primary Survey",
+     "label": "2. Primary Survey",
+     "depth": 2,
+     "cards": 72
+    },
+    {
+     "path": "Emergency & Disaster Nursing / c. Primary and Secondary Survey / 2. Primary Survey / a. Airway",
+     "label": "a. Airway",
+     "depth": 3,
+     "cards": 18
+    },
+    {
+     "path": "Emergency & Disaster Nursing / c. Primary and Secondary Survey / 2. Primary Survey / b. Breathing",
+     "label": "b. Breathing",
+     "depth": 3,
+     "cards": 3
+    },
+    {
+     "path": "Emergency & Disaster Nursing / c. Primary and Secondary Survey / 2. Primary Survey / c. Circulation/Shock",
+     "label": "c. Circulation/Shock",
+     "depth": 3,
+     "cards": 43
+    },
+    {
+     "path": "Emergency & Disaster Nursing / c. Primary and Secondary Survey / 2. Primary Survey / c. Circulation/Shock / 1. Types of Shock",
+     "label": "1. Types of Shock",
+     "depth": 4,
+     "cards": 19
+    },
+    {
+     "path": "Emergency & Disaster Nursing / c. Primary and Secondary Survey / 2. Primary Survey / c. Circulation/Shock / 2. Early vs Late Stage of Shock",
+     "label": "2. Early vs Late Stage of Shock",
+     "depth": 4,
+     "cards": 13
+    },
+    {
+     "path": "Emergency & Disaster Nursing / c. Primary and Secondary Survey / 2. Primary Survey / c. Circulation/Shock / 3. Management of Shock",
+     "label": "3. Management of Shock",
+     "depth": 4,
+     "cards": 11
+    },
+    {
+     "path": "Emergency & Disaster Nursing / c. Primary and Secondary Survey / 2. Primary Survey / d. Disability",
+     "label": "d. Disability",
+     "depth": 3,
+     "cards": 6
+    },
+    {
+     "path": "Emergency & Disaster Nursing / c. Primary and Secondary Survey / 2. Primary Survey / e. Exposure",
+     "label": "e. Exposure",
+     "depth": 3,
+     "cards": 2
+    },
+    {
+     "path": "Emergency & Disaster Nursing / d. Chosen Emergency Conditions",
+     "label": "d. Chosen Emergency Conditions",
+     "depth": 1,
+     "cards": 123
+    },
+    {
+     "path": "Emergency & Disaster Nursing / d. Chosen Emergency Conditions / 1. Burns",
+     "label": "1. Burns",
+     "depth": 2,
+     "cards": 123
+    },
+    {
+     "path": "Emergency & Disaster Nursing / d. Chosen Emergency Conditions / 1. Burns / a. Causes of Burns",
+     "label": "a. Causes of Burns",
+     "depth": 3,
+     "cards": 4
+    },
+    {
+     "path": "Emergency & Disaster Nursing / d. Chosen Emergency Conditions / 1. Burns / b. Degrees of Burns",
+     "label": "b. Degrees of Burns",
+     "depth": 3,
+     "cards": 22
+    },
+    {
+     "path": "Emergency & Disaster Nursing / d. Chosen Emergency Conditions / 1. Burns / c. Stages of Burns",
+     "label": "c. Stages of Burns",
+     "depth": 3,
+     "cards": 23
+    },
+    {
+     "path": "Emergency & Disaster Nursing / d. Chosen Emergency Conditions / 1. Burns / c. Stages of Burns / 1. Emergent Phase",
+     "label": "1. Emergent Phase",
+     "depth": 4,
+     "cards": 9
+    },
+    {
+     "path": "Emergency & Disaster Nursing / d. Chosen Emergency Conditions / 1. Burns / c. Stages of Burns / 2. Acute Phase",
+     "label": "2. Acute Phase",
+     "depth": 4,
+     "cards": 9
+    },
+    {
+     "path": "Emergency & Disaster Nursing / d. Chosen Emergency Conditions / 1. Burns / c. Stages of Burns / 3. Rehabilitation Stage",
+     "label": "3. Rehabilitation Stage",
+     "depth": 4,
+     "cards": 5
+    },
+    {
+     "path": "Emergency & Disaster Nursing / d. Chosen Emergency Conditions / 1. Burns / d. First Aid, RACE & PASS",
+     "label": "d. First Aid, RACE & PASS",
+     "depth": 3,
+     "cards": 11
+    },
+    {
+     "path": "Emergency & Disaster Nursing / d. Chosen Emergency Conditions / 1. Burns / e. Management of Burns",
+     "label": "e. Management of Burns",
+     "depth": 3,
+     "cards": 63
+    },
+    {
+     "path": "Emergency & Disaster Nursing / d. Chosen Emergency Conditions / 1. Burns / e. Management of Burns / 1. Rule of NINES",
+     "label": "1. Rule of NINES",
+     "depth": 4,
+     "cards": 7
+    },
+    {
+     "path": "Emergency & Disaster Nursing / d. Chosen Emergency Conditions / 1. Burns / e. Management of Burns / 2. Pain, Infection, Nutrition",
+     "label": "2. Pain, Infection, Nutrition",
+     "depth": 4,
+     "cards": 13
+    },
+    {
+     "path": "Emergency & Disaster Nursing / d. Chosen Emergency Conditions / 1. Burns / e. Management of Burns / 3. Other Burns Management",
+     "label": "3. Other Burns Management",
+     "depth": 4,
+     "cards": 6
+    },
+    {
+     "path": "Emergency & Disaster Nursing / d. Chosen Emergency Conditions / 1. Burns / e. Management of Burns / 4. Wound Care",
+     "label": "4. Wound Care",
+     "depth": 4,
+     "cards": 23
+    },
+    {
+     "path": "Emergency & Disaster Nursing / d. Chosen Emergency Conditions / 1. Burns / e. Management of Burns / 4. Wound Care / a. Different Methods of Wound Care",
+     "label": "a. Different Methods of Wound Care",
+     "depth": 5,
+     "cards": 7
+    },
+    {
+     "path": "Emergency & Disaster Nursing / d. Chosen Emergency Conditions / 1. Burns / e. Management of Burns / 4. Wound Care / b. Hydrotherapy, Debridement",
+     "label": "b. Hydrotherapy, Debridement",
+     "depth": 5,
+     "cards": 4
+    },
+    {
+     "path": "Emergency & Disaster Nursing / d. Chosen Emergency Conditions / 1. Burns / e. Management of Burns / 4. Wound Care / c. Skin Grafting",
+     "label": "c. Skin Grafting",
+     "depth": 5,
+     "cards": 12
+    },
+    {
+     "path": "Emergency & Disaster Nursing / d. Chosen Emergency Conditions / 1. Burns / e. Management of Burns / 5. Antimicrobials for Burns",
+     "label": "5. Antimicrobials for Burns",
+     "depth": 4,
+     "cards": 14
+    },
+    {
+     "path": "Emergency & Disaster Nursing / e. Disaster Nursing Concepts",
+     "label": "e. Disaster Nursing Concepts",
+     "depth": 1,
+     "cards": 60
+    },
+    {
+     "path": "Emergency & Disaster Nursing / e. Disaster Nursing Concepts / Basic Concepts",
+     "label": "Basic Concepts",
+     "depth": 2,
+     "cards": 10
+    },
+    {
+     "path": "Emergency & Disaster Nursing / e. Disaster Nursing Concepts / Disaster Management Continuum",
+     "label": "Disaster Management Continuum",
+     "depth": 2,
+     "cards": 11
+    },
+    {
+     "path": "Emergency & Disaster Nursing / e. Disaster Nursing Concepts / NATO Triage System (Disaster Nursing)",
+     "label": "NATO Triage System (Disaster Nursing)",
+     "depth": 2,
+     "cards": 34
+    },
+    {
+     "path": "Emergency & Disaster Nursing / e. Disaster Nursing Concepts / NDRRMC",
+     "label": "NDRRMC",
+     "depth": 2,
+     "cards": 5
+    }
+   ]
+  }
+ ]
+}
