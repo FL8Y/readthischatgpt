@@ -40,7 +40,7 @@ Preserve headings, concepts, examples, data, table relationships, diagram arrows
 - Functional image-to-repository test has NOT been run; no confirmed generated study-note files have been validated yet.
 - Dense table, diagram, unclear-text, multi-page continuity, consolidation, and fresh-session tests remain pending.
 - Qualified nursing accuracy review remains pending.
-- Duplicate folder removal must be confirmed by fetching the live Git tree after commit.
+- Duplicate folder removal verified: commit `6bf081603952ec6b44a187d102077fc30b1103a6`; live recursive tree returned zero entries under `Detailed_Image_Notes_Maker/`.
 
 ## Recovery rules
 - Never rely on AI memory alone; re-read this repository guide and canonical files.
