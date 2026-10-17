@@ -31,3 +31,9 @@ Open LEGAL_VERIFICATION_MATRIX.md and verify Proclamation No. 1066 s. 1997, EO 3
 
 ## Blockers / limitations
 The prompt's Agent ID, assigned subject, topic hierarchy, and playground were placeholders. A dedicated folder and inferred community/public-health nursing legislation scope were used. This is not proof of alignment to an unspecified hierarchy. Legal verification of every listed instrument is incomplete.
+
+
+## Continuation update — 2026-10-18
+The legal matrix was extended after another primary-source search pass. Newly corroborated: Presidential Proclamation No. 46 (1992) through a Supreme Court decision; PD 996 through judicial discussion; DOH AO 36 s. 2010 (Garantisadong Pambata); DOH AO 2010-0036 (Aquino Health Agenda / UHC); AO 2007-0012 (2007 drinking-water standards), expressly repealed by AO 2017-0010. EO 87 (2025) says EO 352 (1996) established the System of Designated Statistics and repeals EO 352, so any textbook label connecting EO 352 to FHSIS is a likely citation mismatch requiring correction.
+
+**Remaining blocker:** exact primary text still was not located for the unresolved references listed in LEGAL_VERIFICATION_MATRIX.md. The work queue is intentionally open for those items. Do not claim that every instrument is verified or that the legal audit is complete.
