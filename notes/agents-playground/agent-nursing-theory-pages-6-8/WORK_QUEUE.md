@@ -10,7 +10,7 @@
 | Draft theorists pages 7–8 note | DONE | Re-fetched from GitHub; 8,451 characters; Barnard and Meleis coverage present. |
 | Coverage checklist | DONE | Re-fetched and updated with verification evidence. |
 | Re-fetch and verify created files | DONE | All seven paths returned content, blob SHA, and non-empty character counts. |
-| Recover final Meleis line | BLOCKED | The source photograph crops the row's last line; request clearer bottom crop. |
+| Exact transcription of cropped Meleis line | BLOCKED | The source photograph crops the row's last line; exact wording cannot be recovered without a clearer photo. External theory context has been added and labeled. |
 | Final handoff | DONE | Updated with exact status and next action. |
 
 Scope boundary: all writes are confined to this agent's playground. The final Meleis line remains uncertain; no missing wording was invented.
