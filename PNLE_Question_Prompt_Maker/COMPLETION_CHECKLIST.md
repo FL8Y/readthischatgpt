@@ -9,6 +9,8 @@ Prompt quality
 - [x] User can request a topic, number of questions, and PNLE reasoning/skill type.
 - [x] Four options (A–D) and one best answer by default.
 - [x] Hard questions emphasize clinical judgment, prioritization, safety, and analysis.
+- [x] Include integrated reasoning patterns: linked cases, causal mechanisms, event sequences, statement combinations, EXCEPT items, teach-back, misconceptions, and analogies.
+- [x] Add safeguards requiring unique answers and independent validation of each statement and causal link.
 - [x] Include answer key and rationales by default.
 - [x] Include distractor analysis, competency, and cognitive demand.
 - [x] Include Philippine context and nursing scope considerations.
@@ -16,6 +18,7 @@ Prompt quality
 - [x] Prohibit fabricated citations and unsupported claims about actual exam questions.
 - [x] Distinguish the enhanced TOS effective from November 2025 onward from earlier frameworks.
 - [x] Add target sitting/year selection and account for the more specific August 2026 official NP topic groupings.
+- [x] Review supplied classroom exam photos and persist generalized logic patterns in the prompt.
 - [x] Avoid copying/reconstructing purported actual or recalled exam items.
 
 Evidence
