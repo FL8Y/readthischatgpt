@@ -6,6 +6,9 @@ vi.mock('@react-native-async-storage/async-storage', () => {
     default: {
       getItem: async (k: string) => mem.get(k) ?? null,
       setItem: async (k: string, v: string) => void mem.set(k, v),
+      multiGet: async (ks: string[]) => ks.map((k) => [k, mem.get(k) ?? null]),
+      multiSet: async (ps: [string, string][]) => void ps.forEach(([k, v]) => mem.set(k, v)),
+      multiRemove: async (ks: string[]) => void ks.forEach((k) => mem.delete(k)),
     },
   };
 });
@@ -242,5 +245,19 @@ describe('default provider', () => {
     await saveState(s);
     const back = await loadState();
     expect(back.settings).toEqual(s.settings);
+  });
+});
+
+describe('sharded save', () => {
+  it('round-trips a large library through several storage values', async () => {
+    const s = emptyState();
+    s.topics = Array.from({ length: 300 }, (_, i) => ({ id: `t${i}`, folderId: 'np1', title: `T${i}`, body: 'z'.repeat(4000), sourceIds: [] }));
+    await saveState(s);
+    const back = await loadState();
+    expect(back.topics).toHaveLength(300);
+    expect(back.topics[299].body.length).toBe(4000);
+    s.topics = s.topics.slice(0, 10);
+    await saveState(s);
+    expect((await loadState()).topics).toHaveLength(10);
   });
 });

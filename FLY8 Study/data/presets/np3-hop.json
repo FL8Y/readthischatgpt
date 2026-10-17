@@ -1,0 +1,899 @@
+[
+ {
+  "id": "np3-ho-blood-components",
+  "area": "NP3",
+  "title": "Blood Components and Normal Hematologic Values",
+  "body": "## What it is\nThe hematologic system is the blood plus the places that make it: bone marrow and the reticuloendothelial system (RES). Blood is a fluid \"organ\" made of plasma and cells.\n\n## Must-know facts\n- Plasma is the fluid part, about 55% of blood volume. It carries albumin, globulin, fibrinogen, clotting factors, electrolytes, waste and nutrients.\n- Serum = plasma without the clotting factors (that is why it does not clot).\n- WBC (leukocytes), normal 4,500-11,000/mm3: they fight infection.\n  - Neutrophil: first line against bacteria by phagocytosis.\n  - Eosinophil: allergic reactions, neutralizes histamine, digests foreign proteins.\n  - Monocyte: becomes a macrophage in tissue; good against fungus; immune surveillance.\n  - T lymphocyte: cell-mediated immunity. Plasma cell (mature B cell): makes antibodies (immunoglobulins).\n- RBC (erythrocyte): carries hemoglobin to deliver oxygen; lifespan about 120 days.\n  - Hemoglobin: male 13-18 g/dL, female 12-16 g/dL.\n  - Hematocrit: male 42-52%, female 35-47%.\n- Platelet (thrombocyte): a fragment of a megakaryocyte; needed for clotting and hemostasis; lifespan about 10 days; normal 150,000-450,000/mm3.\n\n## How the exam asks about it\nExpect \"which cell is responsible for...\" and \"which value is abnormal\". Low counts of one cell line tell you the problem: low RBC = anemia and hypoxia signs; low WBC = infection risk; low platelets = bleeding risk. Women have lower Hgb/Hct than men.\n\n## Related topics\n[[Iron Deficiency Anemia]], [[Aplastic Anemia]], [[Polycythemia Vera]], [[Chemotherapy Side Effects: Bone Marrow Suppression]]",
+  "tags": [
+   "hematology",
+   "blood",
+   "lab values"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Hematologic System",
+   "Blood Cells"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-iron-deficiency-anemia",
+  "area": "NP3",
+  "title": "Iron Deficiency Anemia",
+  "body": "## What it is\nAnemia that develops when dietary iron is too little to make hemoglobin, so tissues get less oxygen.\n\n## Must-know facts\n- Causes: chronic blood loss (trauma, heavy menstruation, GI bleeding such as melena or hematochezia), poor iron intake, and poor absorption (chronic diarrhea, malabsorption, gastrectomy, celiac disease).\n- Easy fatigability is the hallmark sign. Think \"oxygen-starved tissues\".\n\n## Assessment findings\n- Pallor, fatigue, palpitations, cold sensitivity, dizziness and dyspnea (cerebral hypoxia).\n- Brittle hair, spoon-shaped nails (koilonychia), smooth sore tongue, angular cheilosis (cracks at the mouth corners), pica.\n- Plummer-Vinson syndrome: atrophic glossitis, stomatitis and dysphagia.\n- Tests: RBC, Hgb, Hct, reticulocyte count, serum iron, ferritin.\n\n## Priority nursing actions\n1. Find and correct the source of bleeding; watch for any bleeding (treating the cause comes before supplements).\n2. Complete bed rest during severe symptoms to cut oxygen demand.\n3. Give iron as ordered (ferrous sulfate, gluconate or fumarate); parenteral iron if oral fails.\n4. Teach iron-rich foods: green leafy vegetables, liver and organ meats, egg yolk, legumes, raisins, red meat, molasses.\n\n## Client teaching on oral iron\n- Take with vitamin C (better absorption); avoid antacids and dairy at the same time (they lower absorption).\n- Best on an empty stomach between meals, but with food if the stomach is upset.\n- Side effects: anorexia, nausea/vomiting, abdominal pain, constipation or diarrhea, and black stools (expected, not bleeding).\n\n## Related topics\n[[Pernicious Anemia (Vitamin B12 Deficiency)]], [[Folic Acid Deficiency Anemia]], [[Blood Components and Normal Hematologic Values]]",
+  "tags": [
+   "anemia",
+   "iron",
+   "hematology"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Iron Deficiency Anemia (IDA)"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-pernicious-anemia",
+  "area": "NP3",
+  "title": "Pernicious Anemia (Vitamin B12 Deficiency)",
+  "body": "## What it is\nA megaloblastic anemia caused by lack of intrinsic factor, so vitamin B12 cannot be absorbed. The handout calls it the most dangerous of the chronic anemias.\n\n## Must-know facts\n- Risks: unknown cause, subtotal gastrectomy, heredity, ileal inflammation (Crohn's disease), no intrinsic factor, strict vegetarian diet.\n- Because the problem is absorption, B12 is given by injection, not by mouth.\n\n## Assessment findings\n- General anemia signs: headache, dizziness, dyspnea, palpitations, extreme pallor, cold sensitivity.\n- GI: sore mouth, anorexia, nausea/vomiting, weight loss, epigastric discomfort, diarrhea or constipation.\n- Red, beefy tongue (glossitis) is the pathognomonic sign.\n- Neurologic: paresthesia of the extremities, poor balance, loss of position sense. Neurologic signs separate B12 deficiency from folate deficiency.\n- Tests: CBC and smear (low Hgb/Hct). Schilling test: oral radioactive B12 then 24-hour urine; positive (deficiency) means B12 is absent in urine.\n\n## Priority nursing actions\n1. Safety first: bed rest and fall precautions because of weakness and impaired balance.\n2. Give vitamin B12 injections, monthly for life.\n3. Diet: small frequent bland soft meals; more carbohydrate, protein, iron and vitamin C.\n4. Mouth care: soft toothbrush, avoid irritating mouthwash; avoid very hot or cold temperatures (sensory loss).\n\n## Check against your textbook\n- The handout lists Z-track parenteral iron under this topic; that belongs to iron deficiency anemia, not B12 deficiency. See [[Iron Deficiency Anemia]].\n- The Schilling test is rarely used today; many textbooks now stress B12 level and antibody tests. Check what your review book expects.\n\n## Related topics\n[[Folic Acid Deficiency Anemia]]",
+  "tags": [
+   "anemia",
+   "vitamin B12",
+   "megaloblastic"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Megaloblastic Anemia: Pernicious Anemia"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-folic-acid-anemia",
+  "area": "NP3",
+  "title": "Folic Acid Deficiency Anemia",
+  "body": "## What it is\nA megaloblastic anemia from folate lack. The handout says it can appear within about 4 months of deficiency.\n\n## Must-know facts\n- Risk factors: seldom eating raw vegetables, alcoholism, chronic hemolytic anemia, pregnancy, and malabsorption of the small bowel such as sprue.\n- CBC: low RBC, Hgb and Hct, with raised MCV and MCHC (large cells).\n\n## Assessment findings\nFatigue, weakness, pallor, dizziness, headache, tachycardia, sore tongue and cracked lips. Unlike B12 deficiency, the handout lists no neurologic signs.\n\n## Priority nursing actions and treatment\n1. Give folic acid 1 mg daily as ordered; intramuscular if the client cannot absorb it.\n2. If the mouth or tongue is sore, offer small frequent bland soft meals.\n3. Teach folate-rich foods: beef liver, peanut butter, red beans, oatmeal, broccoli, asparagus.\n\n## How the exam asks about it\nCompare with [[Pernicious Anemia (Vitamin B12 Deficiency)]]: both have sore tongue and large cells, but only B12 deficiency causes nerve damage. Pregnancy and alcohol are classic clues for folate.\n\n## Check against your textbook\nThe handout hints that eating few raw vegetables is a risk because cooking destroys much folate (added explanation from general knowledge). Confirm this and normal MCV ranges in your textbook.\n\n## Related topics\n[[Iron Deficiency Anemia]]",
+  "tags": [
+   "anemia",
+   "folic acid",
+   "megaloblastic"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Megaloblastic Anemia: Folic Acid Deficiency"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-aplastic-anemia",
+  "area": "NP3",
+  "title": "Aplastic Anemia",
+  "body": "## What it is\nRare disease in which marrow stem cells are damaged or lost and the marrow is replaced by fat. The result is pancytopenia: low RBCs, WBCs and platelets.\n\n## Must-know facts\n- Causes: benzene and pesticides, radiation, immune injury (T cells attack marrow), marrow-depressing drugs (chloramphenicol, sulfonamides such as Bactrim, methotrexate, nitrogen mustard, vincristine), infections and pregnancy.\n- Diagnosis: bone marrow aspiration shows a hypoplastic or aplastic, fatty marrow; CBC and smear show pancytopenia.\n\n## Assessment findings (think by cell line)\n- Low RBC: pallor, weakness, fatigue, exertional dyspnea, palpitations.\n- Low WBC: fever, malaise, infections, wound exudate, enlarged nodes and spleen.\n- Low platelets: bleeding gums, nose, GI/GU; purpura, petechiae, ecchymoses, retinal hemorrhage, oozing at venipuncture sites.\n\n## Treatment\nRemove the cause; bone marrow or peripheral blood stem cell transplant; immunosuppressive therapy; supportive platelet and RBC transfusions, antibiotics, antifungals.\n\n## Priority nursing actions\n1. Protect from infection (the most life-threatening risk): reverse isolation, monitor for infection, teach infection prevention.\n2. Prevent bleeding: avoid SQ and IM injections, soft toothbrush, electric razor.\n3. Bed rest and oxygen to lower oxygen demand; give transfusions and immunosuppressants as ordered.\n\n## Related topics\n[[Chemotherapy Side Effects: Bone Marrow Suppression]], [[Blood Components and Normal Hematologic Values]]",
+  "tags": [
+   "anemia",
+   "bone marrow",
+   "pancytopenia"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Aplastic Anemia"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-sickle-cell-anemia",
+  "area": "NP3",
+  "title": "Sickle Cell Anemia and Crises",
+  "body": "## What it is\nA severe hemolytic anemia from inheriting the sickle hemoglobin gene. Abnormal hemoglobin S forms crystals and bends red cells into sickle shapes when oxygen is low, blocking small vessels.\n\n## Assessment findings\n- Severe pain in many body parts, tachycardia, murmurs, cardiomegaly, chest pain, dyspnea, jaundice.\n- Enlarged skull and facial bones from marrow expansion.\n\n## Complications\nHypoxia, ischemia, infection, poor wound healing (leg ulcers), impotence, stroke, renal failure, heart failure, pulmonary hypertension.\n\n## Types of crisis\n- Sickle (vaso-occlusive) crisis: most common and most painful; tissue hypoxia and necrosis from blocked flow.\n- Aplastic crisis: marrow shuts down after human parvovirus infection.\n- Sequestration crisis: sickled cells pool in organs.\n\n## Treatment\nBone marrow or peripheral blood stem cell transplant, hydroxyurea, long-term RBC transfusion, splenectomy.\n\n## Priority nursing actions\n1. Treat the triggers of sickling: oxygen for hypoxia, IV and oral fluids for dehydration, antibiotics for infection.\n2. Manage pain: analgesics as ordered, support and elevate inflamed joints, relaxation techniques.\n3. Prevent complications: keep well hydrated, avoid cold (vasoconstriction), protect legs from trauma, use aseptic technique.\n\n## Check against your textbook\nThe handout says hydroxyurea \"increases production\"; textbooks say it raises fetal hemoglobin, which reduces sickling. Confirm.\n\n## Related topics\n[[Thalassemia]], [[Blood Components and Normal Hematologic Values]]",
+  "tags": [
+   "anemia",
+   "sickle cell",
+   "hemolytic",
+   "genetics"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Sickle Cell Anemia"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-thalassemia",
+  "area": "NP3",
+  "title": "Thalassemia",
+  "body": "## What it is\nA group of inherited anemias with defective hemoglobin chain synthesis. Red cells are pale (hypochromic) and very small (microcytic), and are destroyed early (hemolysis).\n\n## Must-know facts\n- Alpha-thalassemia: mainly Asia and Middle East; milder, often symptom-free, very small cells with mild or no anemia.\n- Beta-thalassemia: mainly Mediterranean; mild forms cause microcytosis and mild anemia.\n- Thalassemia major (Cooley's anemia): severe beta form; severe anemia, marked hemolysis, ineffective red cell production; can be fatal in the first years of life if untreated.\n\n## Treatment\n- Bone marrow transplant; regular packed RBC transfusions.\n- With early regular transfusions, growth and development in childhood are supported.\n- Stem cell transplant is aimed before liver damage occurs.\n\n## Priority nursing actions\n1. Arrange and monitor regular transfusions.\n2. Watch for iron overload from repeated packed RBCs; give chelation therapy regularly as ordered.\n3. Support growth and development, and teach the family about the inherited nature.\n\n## Related topics\n[[Sickle Cell Anemia and Crises]], [[Iron Deficiency Anemia]]. Iron supplements are not given in thalassemia; compare this with iron deficiency.\n\n## Check against your textbook\nThe handout says \"globulin chains\"; the correct term is globin chains. Iron-supplement avoidance is added from general knowledge.",
+  "tags": [
+   "anemia",
+   "thalassemia",
+   "hereditary"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Thalassemia",
+   "Thalassemia Major (Cooley's Anemia)"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-polycythemia-vera",
+  "area": "NP3",
+  "title": "Polycythemia Vera",
+  "body": "## What it is\nA proliferative disorder of myeloid stem cells. Marrow is hypercellular and RBCs, WBCs and platelets are all raised. Blood becomes thick (high viscosity).\n\n## Assessment findings\n- Ruddy complexion, splenomegaly, headache, dizziness, tinnitus, blurred vision, fatigue, paresthesia.\n- Thick blood: angina, claudication, dyspnea, thrombophlebitis, high blood pressure.\n- High uric acid: gout and renal stones. Generalized itching; burning pain of fingers and toes (erythromelalgia, written \"erythromyalgia\" in the handout).\n- Diagnosis: CBC and bone marrow aspiration.\n\n## Complications\nStroke, myocardial infarction, bleeding (platelets work poorly).\n\n## Treatment\n- Phlebotomy: remove about 500 mL once or twice weekly at first to lower viscosity and iron stores.\n- Hydroxyurea (suppresses marrow), anagrelide (inhibits platelet aggregation), interferon alfa-2b for itching (watch flu-like symptoms and depression), antihistamines, allopurinol.\n\n## Client teaching\n- Avoid sitting still for long, crossing legs, tight clothing (clot risk).\n- Avoid aspirin products, iron supplements and excess alcohol.\n- Itching: cool or tepid baths, gentle patting dry, oatmeal or cocoa-butter products, baking soda in bath water.\n\n## Related topics\n[[Blood Components and Normal Hematologic Values]], [[Aplastic Anemia]] (opposite problem: too few cells)",
+  "tags": [
+   "polycythemia",
+   "hematology",
+   "bone marrow"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Polycythemia Vera (Primary Polycythemia)"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-hemophilia",
+  "area": "NP3",
+  "title": "Hemophilia",
+  "body": "## What it is\nInherited bleeding disorder. Hemophilia A: deficient factor VIII. Hemophilia B (Christmas disease): deficient factor IX. Both are X-linked, so nearly all patients are male and females are carriers. Usually recognized in the toddler years.\n\n## Assessment findings\n- Bleeding anywhere: hemarthroses (joint bleeds) and hematomas; about 75% of bleeding is into joints, causing chronic pain and ankylosis.\n- Spontaneous hematuria and GI bleeding.\n- Intracranial or extracranial bleeding is the most dangerous.\n\n## Treatment\nFactor VIII or IX concentrates, fresh frozen plasma, aminocaproic acid (blocks clot breakdown), desmopressin (DDAVP) for a temporary rise in factor levels; plasmapheresis or immunosuppression when inhibitors develop.\n\n## Priority nursing actions\n1. Stop active bleeding and replace the factor as ordered; head injury or severe headache is an emergency.\n2. Avoid injections when possible; avoid nasal packing (bleeding resumes on removal).\n3. Splints and orthopedic devices for joint or muscle bleeds; warm baths for comfort and mobility.\n4. Teach avoidance of aspirin, NSAIDs, herbs, supplements and alcohol.\n5. Support independence and coping; offer genetic counselling to female carriers.\n\n## Check against your textbook\nThe handout says desmopressin raises \"factor VII\"; it should read factor VIII. Confirm.\n\n## Related topics\n[[Aplastic Anemia]] (bleeding from low platelets), [[Blood Components and Normal Hematologic Values]]",
+  "tags": [
+   "hemophilia",
+   "bleeding disorder",
+   "genetics",
+   "pediatrics"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Hemophilia"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-cancer-basics-tumors",
+  "area": "NP3",
+  "title": "Cancer Basics: Neoplasm, Benign and Malignant Tumors",
+  "body": "## What it is\nCancer begins when a cell is changed by a mutation in its DNA and loses the controls that normally limit its growth. A neoplasm (\"new growth\") grows without any body need. \"Tumor\" in oncology nursing means a solid neoplasm. Surgical oncology is the branch that uses surgery to diagnose and treat cancer.\n\n## Word parts\n- neo = new; plasia = growth; plasm = substance; trophy = size; oma = tumor; meta = change; dys = bad or deranged; hyper = excessive; a/ana = none or lack.\n\n## Benign versus malignant\n- Benign: normal-looking, well-differentiated cells, encapsulated, grows by expanding, slow, no metastasis, good prognosis; treated mainly by surgery.\n- Malignant: abnormal, poorly differentiated cells, not encapsulated, infiltrates, fast, metastasizes, poor prognosis; treated with surgery, radiation, chemotherapy and bone marrow transplant.\n\n## Naming pairs (benign -oma / malignant)\n- Fat: lipoma / liposarcoma. Bone: osteoma / osteosarcoma. Muscle: myoma / myosarcoma.\n- Blood vessels: hemangioma / hemangiosarcoma. Fibrous tissue: fibroma / fibrosarcoma.\n- Glands: adenoma / adenocarcinoma. Nerve cell: neuroma / neuroblastoma. Cartilage: chondroma / chondrosarcoma.\n- Meninges: meningioma / meningeal sarcoma. Nerve sheath: neurilemmoma / neurilemmal sarcoma. Glial tissue: glioma / glioblastoma.\n- Pattern: carcinoma arises from epithelium, sarcoma from connective tissue.\n\n## Related topics\n[[Grading, Staging and Carcinogenesis]], [[Cancer Warning Signs and Diagnostic Tests]], [[Levels of Prevention]]\n\n## Check against your textbook\nThe handout's \"meningeal sarcoma\" and \"neurilemmal sarcoma\" are the handout's own naming; textbooks may use other terms.",
+  "tags": [
+   "oncology",
+   "tumor",
+   "cancer"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Cancer",
+   "Surgical Oncology",
+   "Neoplasm",
+   "Tumor",
+   "Frequently Used Suffixes & Prefixes",
+   "Characteristics of Tumor",
+   "Differences Benign vs Malignant",
+   "Benign and Malignant Tumor Names"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-grading-staging-carcinogenesis",
+  "area": "NP3",
+  "title": "Grading, Staging and Carcinogenesis",
+  "body": "## Grading versus staging\n- Grading classifies the tumor cells: what tissue they came from and how much they still look and work like that tissue (well versus poorly differentiated).\n- Staging describes how far the cancer has spread, using TNM:\n  - T = extent of the primary tumor.\n  - N = lymph node involvement.\n  - M = metastasis.\n- Memory trick: Grade = cell look, Stage = spread.\n\n## Theories of cancer\n- Cellular transformation theory: normal cells turn cancerous after exposure to chemicals.\n- Failure of immune response theory: the immune system fails to destroy cancer cells.\n\n## Stages of cancer development\n1. Initiation: carcinogens escape the cell's normal enzyme defenses and change the structure of DNA.\n2. Promotion: repeated exposure to promoting agents lets the abnormal genetic information show.\n3. Progression: altered cells become more malignant, invade nearby tissue and metastasize.\n\n## How the exam asks about it\nNurses are asked to separate grade from stage, and to place a statement in the right development stage (e.g. \"repeated exposure\" = promotion).\n\n## Related topics\n[[Cancer Basics: Neoplasm, Benign and Malignant Tumors]], [[Cancer Warning Signs and Diagnostic Tests]]",
+  "tags": [
+   "oncology",
+   "staging",
+   "carcinogenesis",
+   "TNM"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Grading vs. Staging",
+   "Theories of Cancer",
+   "Carcinogenesis"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-cancer-warning-signs-diagnostics",
+  "area": "NP3",
+  "title": "Cancer Warning Signs and Diagnostic Tests",
+  "body": "## Warning signs (CAUTION US)\n- Change in bowel or bladder habits.\n- A sore that does not heal.\n- Unusual bleeding or discharge.\n- Thickening or lump (breast or elsewhere).\n- Indigestion or difficulty swallowing.\n- Obvious change in a wart or mole.\n- Nagging cough or hoarseness.\n- Unexplained anemia.\n- Sudden weight loss.\n\n## Diagnostic tests and what they are for\n- Tumor markers: substances made by the tumor found in tissue, blood or body fluids; used in breast, colon, lung, ovarian, testicular and prostate cancer.\n- Mammography: breast cancer.\n- MRI: neurologic, pelvic, abdominal, thoracic and breast cancers.\n- Fluoroscopy (x-rays showing contrast in tissue): skeletal, lung and GI cancers.\n- PET scan: lung, colon, liver, pancreatic cancer, and lymphomas.\n- Endoscopy (diagnosis and treatment): bronchial and GI cancers.\n- Biopsy: tissue sample examined for cells; confirms the diagnosis.\n\n## Nursing points\nExplain the test and what to expect; give emotional support. A tissue biopsy is what confirms cancer.\n\n## Check against your textbook\nThe handout has a stray line about pernicious anemia and IM vitamin B12 under endoscopy; this seems misplaced (gastric endoscopy may be done for pernicious anemia). See [[Pernicious Anemia (Vitamin B12 Deficiency)]].\n\n## Related topics\n[[Cancer Basics: Neoplasm, Benign and Malignant Tumors]], [[Grading, Staging and Carcinogenesis]]",
+  "tags": [
+   "oncology",
+   "screening",
+   "diagnostics"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Warning Signs (CAUTION US)",
+   "Diagnostic Tests Used to Detect Cancer"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-cancer-surgery-local-treatments",
+  "area": "NP3",
+  "title": "Cancer Surgery and Local Treatments",
+  "body": "## What it is\nSurgery removes the cancer wholly or partly.\n\n## Approaches\n- Local excision: remove the mass and a little normal tissue.\n- Radical excision: remove the primary tumor, lymph nodes and surrounding tissue.\n- Electrosurgery: electrical current destroys the tumor.\n- Cryosurgery: liquid nitrogen freezes and destroys tissue.\n- Chemosurgery: topical chemotherapy plus surgical removal of tissue.\n\n## Priority nursing actions\nBefore surgery:\n1. Teach what to expect after surgery.\n2. Give emotional support to reduce anxiety (teaching works best when anxiety is lower).\n\nAfter surgery, watch for: infection, bleeding, thrombophlebitis, wound dehiscence, fluid and electrolyte imbalance, organ dysfunction.\n\n## Related topics\n[[Perioperative Phases and Surgical Classifications]], [[Preoperative Assessment and Patient Teaching]], [[Surgical Wound Infection, Dehiscence and Evisceration]], [[Skin Cancer]]",
+  "tags": [
+   "oncology",
+   "surgery",
+   "cryosurgery"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Surgery",
+   "Surgical Approaches",
+   "Nursing Interventions (surgery)"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-external-radiation-teletherapy",
+  "area": "NP3",
+  "title": "External Radiation Therapy (Teletherapy)",
+  "body": "## What it is\nRadiation therapy uses ionizing radiation to stop cancer cell growth. In external radiation (teletherapy) the beam source is far from the client and x-rays destroy cancer cells at the skin surface or deeper. Higher energy means deeper penetration.\n\n## Must-know fact\nThe client is NOT radioactive and can be around others safely. This is the key difference from internal radiation.\n\n## Side effects\nRadiodermatitis (skin changes) and fatigue.\n\n## Priority nursing actions\n1. Protect the treated skin: no ointments, lotions or powders on the area.\n2. Do not wash off the skin markings; they guide each treatment.\n3. Gentle oral hygiene.\n4. Plan rest periods for fatigue.\n\n## How the exam asks about it\n\"Which statement shows understanding?\" Correct: markings stay, no lotion on the site, and I am not radioactive. Compare [[Internal Radiation Therapy (Brachytherapy) and Radiation Precautions]].\n\n## Related topics\n[[Chemotherapy Drug Classes and Cell Cycle]], [[Cancer Surgery and Local Treatments]]",
+  "tags": [
+   "oncology",
+   "radiation",
+   "teletherapy"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Radiation Therapy",
+   "External Radiation (Teletherapy)"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-internal-radiation-brachytherapy",
+  "area": "NP3",
+  "title": "Internal Radiation Therapy (Brachytherapy) and Radiation Precautions",
+  "body": "## What it is\nA high dose of radiation delivered to a small area by a source placed inside the body. The client is radioactive during and after the procedure, so staff protection matters.\n\n## Sealed versus unsealed\n- Sealed: the source stays in place (needles, seeds or beads, catheter, intracavitary for gynecologic cancer). Body fluids are NOT radioactive.\n- Unsealed: the source is absorbed in the body (IV or oral, e.g. iodine-131 for thyroid cancer). Body fluids ARE radioactive.\n\n## Radiation precautions: shielding, time, distance\n- Shielding: lead gown and a dosimeter badge to measure exposure.\n- Time: handout limits are a maximum of 30 minutes per shift and 5 minutes per visit.\n- Distance: stay about 6 feet away when possible.\n- Private room. Never assign a pregnant staff member; no child visitors.\n\n## Intracavitary brachytherapy care\nEmpty bladder and bowel before; complete bed rest so the implant stays in place; low-residue diet to slow stools; indwelling urinary catheter.\n\n## Unsealed source care\nFlush the toilet 3 times after voiding or defecating; visitors must not share the client's toilet.\n\n## Check against your textbook\nTime limits differ between textbooks and hospital policy; learn the handout numbers for the exam but verify with your text.\n\n## Related topics\n[[External Radiation Therapy (Teletherapy)]]",
+  "tags": [
+   "oncology",
+   "radiation",
+   "brachytherapy",
+   "safety"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Internal Radiation (Brachytherapy)",
+   "Sealed vs Unsealed",
+   "Radiation precautions (STD)"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-chemo-drug-classes",
+  "area": "NP3",
+  "title": "Chemotherapy Drug Classes and Cell Cycle",
+  "body": "## What it is\nChemotherapy uses antineoplastic drugs to destroy tumor cells.\n\n## Cell cycle\n- G1: RNA and protein synthesis. S: DNA synthesis. G2: pre-mitotic phase. M: mitosis. G0: resting (dormant) phase.\n\n## Cell-cycle-specific drugs (work in one phase)\n- Antimetabolites (block enzymes for DNA synthesis): methotrexate, 6-mercaptopurine, 6-thioguanine, cytarabine, fludarabine, hydroxyurea, pentostatin.\n- Topoisomerase inhibitors: irinotecan, topotecan.\n- Mitotic inhibitors (stop metaphase by blocking spindle formation): vincristine, vinblastine, vinorelbine, teniposide, paclitaxel.\n\n## Cell-cycle-non-specific drugs (work in all phases)\n- Alkylating agents (break the DNA helix): busulfan, carboplatin, cyclophosphamide, ifosfamide, cisplatin, thiotepa.\n- Antitumor antibiotics (names end -cin; interfere with DNA and RNA synthesis): bleomycin, dactinomycin, daunorubicin, doxorubicin, plicamycin.\n- Nitrosoureas (like alkylating agents but cross the blood-brain barrier): carmustine, lomustine, semustine, streptozocin.\n- Hormonal agents: block hormone receptors (androgens/anti-androgens, estrogens/anti-estrogens).\n- Monoclonal antibodies (kill cancer cells while sparing normal cells): rituximab, trastuzumab, alemtuzumab, gemtuzumab.\n\n## Routes\nOral (most convenient), IV (most common), intramuscular, intrathecal (Ommaya reservoir), intra-arterial, intracavitary, intravesical, topical.\n\n## Related topics\n[[Safe Handling of Chemotherapy Drugs]], [[Chemotherapy Side Effects: GI, Hair and Mouth]], [[Chemotherapy Side Effects: Bone Marrow Suppression]]\n\n## Check against your textbook\nSome drugs are classified differently between books (hydroxyurea, cisplatin, bleomycin). Check your own list.",
+  "tags": [
+   "oncology",
+   "chemotherapy",
+   "pharmacology"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Chemotherapy",
+   "Cell Cycle",
+   "Cell Cycle Specific Drugs",
+   "Cell Cycle Non-Specific Drugs",
+   "Routes of Chemotherapy"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-chemo-safe-handling",
+  "area": "NP3",
+  "title": "Safe Handling of Chemotherapy Drugs",
+  "body": "## Core idea\nChemo drugs are hazardous: there should be no contact with them. Pregnant women should not handle or receive chemotherapy (teratogenic).\n\n## Preparing chemo\n- Ventilated area; wash hands before and after.\n- Wear gloves at all times, a gown and a face shield.\n- Wrap gauze or an alcohol pad around ampule necks and around the injection site when withdrawing the needle.\n- Label prepared drugs as hazardous.\n- Dispose in a leak-proof and puncture-proof container.\n- Do not eat, chew or smoke while preparing.\n\n## Handling waste\n- Wear clean gloves; discard gloves and gown in a leak-proof container.\n- Linens with excreta go in a separate container and are washed in hot water.\n- Spill: use a spill kit.\n\n## Mnemonic (handout CHEMOTHERAPY)\nCheck phlebitis and extravasation; High calorie high protein diet; Encourage hydration; Monitor CBC; Oral exam for stomatitis; Teratogenic; Hair loss; Encourage counseling; Report complications; Administer antiemetics; Practice aseptic technique; You wear gloves, gown, mask.\n\n## Priority action in IV chemo\nCheck for phlebitis and extravasation; a leaking vesicant damages tissue, so stop the infusion and follow policy.\n\n## Related topics\n[[Chemotherapy Drug Classes and Cell Cycle]], [[Chemotherapy Side Effects: GI, Hair and Mouth]]",
+  "tags": [
+   "oncology",
+   "chemotherapy",
+   "safety"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Safe Administration of Chemo Drugs",
+   "Preparing Chemo Drugs",
+   "Handling Waste"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-chemo-side-effects-gi-hair-mouth",
+  "area": "NP3",
+  "title": "Chemotherapy Side Effects: GI, Hair and Mouth",
+  "body": "## Nausea and vomiting\nMost common side effect; may last 24-48 hours, and delayed nausea can appear a week later. Linked to receptor activation, autonomic and vestibular stimulation, and serotonin. Care: good oral hygiene, check for dehydration, ice chips, antiemetics round-the-clock (prevent, do not wait).\n\n## Alopecia\nBegins about 2-3 weeks after starting, ends by about 3 months; regrowth can start near 8 weeks. Give accurate information before chemo; wigs for women, caps for men; pre-emptive haircut.\n\n## Stomatitis and xerostomia\nStomatitis = mouth sores; xerostomia = dry mouth.\n- Inspect the mouth routinely; oral care; soft toothbrush; saline rinses.\n- Avoid spicy and citrus food, and alcohol-based mouthwash.\n- Ice chips or popsicles; soft bland diet.\n- Viscous lidocaine for adults; contraindicated in children (suppressed gag reflex).\n\n## Anorexia\nTaste buds are affected; food (especially meat) tastes metallic. Comfortable position, hygiene, attractive meals, general comfort.\n\n## Related topics\n[[Chemotherapy Side Effects: Bone Marrow Suppression]], [[Chemotherapy Drug Classes and Cell Cycle]], [[Safe Handling of Chemotherapy Drugs]]",
+  "tags": [
+   "oncology",
+   "chemotherapy",
+   "side effects"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Nausea & Vomiting",
+   "Alopecia",
+   "Stomatitis and Xerostomia",
+   "Anorexia"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-chemo-side-effects-marrow",
+  "area": "NP3",
+  "title": "Chemotherapy Side Effects: Bone Marrow Suppression",
+  "body": "## Why it matters\nChemo damages fast-dividing cells, including marrow, so RBCs, WBCs and platelets fall. Infection from neutropenia is the most dangerous.\n\n## Anemia\nCheck for pallor; plan activity with rest periods; give erythropoietin as ordered.\n\n## Neutropenia\n- Watch for infection: fever, abnormal lung sounds, cough.\n- Strict handwashing before and after procedures; clean care.\n- Neutropenic diet: no flowers, fresh fruits, vegetables or raw food.\n\n## Thrombocytopenia (bleeding risk)\n- Check skin and mouth for bleeding; check stool, urine and emesis.\n- Avoid anticoagulants and antiplatelet drugs.\n- Electric razor only; soft toothbrush.\n- No suppositories or enemas; use stool softeners.\n- Water-based lubricant before sexual activity.\n- Platelet transfusion as prescribed.\n\n## Priority thinking\nFever in a neutropenic client is an emergency: assess and report early because infection can progress quickly.\n\n## Related topics\n[[Aplastic Anemia]], [[Chemotherapy Side Effects: GI, Hair and Mouth]], [[Blood Components and Normal Hematologic Values]]",
+  "tags": [
+   "oncology",
+   "chemotherapy",
+   "neutropenia",
+   "thrombocytopenia"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Anemia",
+   "Neutropenia",
+   "Thrombocytopenia"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-pancreatic-cancer-whipple",
+  "area": "NP3",
+  "title": "Pancreatic Cancer and Whipple Procedure",
+  "body": "## What it is\nA fast-growing cancer with poor prognosis. Very rare before 45; more common at 70-80 years.\n\n## Risk factors\nSmoking, diabetes mellitus, gastrectomy, high-fat or meat diet, family history, chronic pancreatitis, industrial chemicals, alcoholism.\n\n## Assessment findings\nAbdominal pain, nausea and vomiting, blood sugar problems, rapid progressive weight loss, clay-colored (acholic) stools.\n\n## Diagnosis and surgery\n- ERCP (endoscopic retrograde cholangiopancreatography).\n- Whipple procedure (pancreaticoduodenectomy): removes the gallbladder, common bile duct, part of the duodenum and the head of the pancreas. Other options: total pancreatectomy, pancreatic resection.\n\n## Priority nursing actions\n1. Pain management.\n2. Improve fluid and nutritional status.\n3. Skin care for pruritus (from bile salts).\n\n## Check against your textbook\nHandout lists no pre/post-op details for Whipple. Check for typical postoperative needs (blood glucose monitoring, enzyme replacement, anastomosis leaks) in your textbook.\n\n## Related topics\n[[Hepatocellular Cancer]], [[Gallbladder Cancer and Post-Cholecystectomy Care]]",
+  "tags": [
+   "oncology",
+   "pancreas",
+   "GI",
+   "surgery"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Pancreatic Cancer"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-hepatocellular-cancer",
+  "area": "NP3",
+  "title": "Hepatocellular Cancer",
+  "body": "## What it is\nCancer of the liver cells. The liver makes proteins, produces bile, metabolizes drugs and hormones, stores glucose and makes clotting factors, so liver cancer can cause bleeding and drug problems.\n\n## Risk factors (handout)\nHepatitis B, cirrhosis, aflatoxin, oral contraceptives, insulin therapy, alcohol, smoking, and the parasitic worm Clonorchis sinensis.\n\n## Diagnosis\nLiver biopsy.\n\n## Treatment\nSurgery is the only curative treatment: liver resection or transplant. Other methods: cryosurgery (freezing with a very cold probe) and ethanol injection.\n\n## Priority nursing thinking\nAfter liver biopsy or surgery, watch closely for bleeding, since clotting factors may be low.\n\n## Check against your textbook\nThe handout lists \"insulin therapy\" and \"oral contraceptives\" as risk factors; verify. Post-biopsy care and nursing management are not in the handout (added from general knowledge).\n\n## Related topics\n[[Pancreatic Cancer and Whipple Procedure]], [[Colorectal Cancer]]",
+  "tags": [
+   "oncology",
+   "liver",
+   "GI"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Hepatocellular Cancer"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-gallbladder-cancer-cholecystectomy-care",
+  "area": "NP3",
+  "title": "Gallbladder Cancer and Post-Cholecystectomy Care",
+  "body": "## What it is\nThe most common cancer of the biliary tract, with poor prognosis. Risk factors: female sex, age around 65, gallstones (cholelithiasis). Diagnosis: ultrasound, CT scan, ERCP. Treatment: cholecystectomy.\n\n## Care after gallbladder surgery\n- Position: low Fowler's.\n- Pain: handout names morphine as the drug of choice.\n- Splinting with a pillow, deep breathing and coughing.\n- NPO or NGT as prescribed; after laparoscopic surgery fluids come within hours; then a low-fat soft diet.\n- T tube: keeps the bile duct open; report a sudden increase in drainage; clamp before meals and unclamp if nausea or vomiting occurs.\n\n## Report these signs\nRight upper abdominal pain, nausea or vomiting, clay or pale stools, change in vital signs, jaundice, dark urine, itching, signs of inflammation. These suggest bile duct obstruction or infection.\n\n## Check against your textbook\nMany textbooks avoid morphine in biliary disease because it may cause sphincter of Oddi spasm (meperidine was historically preferred). Also T-tube clamp times are policy-dependent. Verify.\n\n## Related topics\n[[Pancreatic Cancer and Whipple Procedure]], [[Postoperative Respiratory Complications]]",
+  "tags": [
+   "oncology",
+   "gallbladder",
+   "biliary",
+   "post-op"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Gallbladder Cancer",
+   "Care of Patient after Gallbladder Surgery"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-colorectal-cancer",
+  "area": "NP3",
+  "title": "Colorectal Cancer",
+  "body": "## What it is\nCancer of the colon or rectum, equally common in men and women, usually after age 40.\n\n## Risk factors\nAge, family history, previous colon cancer or polyps, alcohol, smoking, obesity, gastrectomy, inflammatory bowel disease, diet high in fat and protein and low in fiber, genital cancer.\n\n## Assessment findings\nChange in bowel habits (most common), blood on or in stool (second most common), pencil-like stool, unexplained anemia, anorexia, weight loss, fatigue, dull abdominal pain, melena, constipation, distention.\n\n## Diagnosis\nDigital rectal exam yearly after 40; fecal occult blood test yearly after 50; colonoscopy, proctosigmoidoscopy, CEA (tumor marker), CT scan.\n\n## Complications\nBowel obstruction, hemorrhage, perforation, abscess, peritonitis, sepsis, shock.\n\n## Surgery\nHemicolectomy (right or left side), transverse colectomy, sigmoidectomy, Miles' procedure (tumor, part of sigmoid, whole rectum and anal sphincter; leads to a permanent colostomy).\n\n## Preoperative care\nBowel cleansing: low-residue diet for 3-5 days, clear liquids then NPO after midnight, laxative and cleansing enema, neomycin tablet as pre-op antibiotic.\n\n## Related topics\n[[Colostomy and Stoma Care]], [[Preoperative Assessment and Patient Teaching]], [[Cancer Warning Signs and Diagnostic Tests]]",
+  "tags": [
+   "oncology",
+   "colon",
+   "GI",
+   "surgery"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Colorectal Cancer"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-colostomy-stoma-care",
+  "area": "NP3",
+  "title": "Colostomy and Stoma Care",
+  "body": "## Stoma assessment (priority)\n- Normal: red and slightly protruding (about 1/2 inch), moist.\n- Abnormal: dark, dusky, brown to black means poor blood supply (necrosis); report at once.\n- The stoma has no touch or pain sensation.\n\n## Postoperative care\n- Warm sitz bath for the perineal wound.\n- Flatus and stool begin about 4-7 days.\n- Empty the pouch when 1/3 to 1/2 full (handout \"1/3 to 3/4\"; check).\n- Skin protection: karaya paste as a barrier, talc or cornstarch; never use mineral oil. Nystatin (written \"statin\") powder for Candida infection.\n\n## Colostomy irrigation (to train regular evacuation)\n1. Semi-Fowler's position; warm normal saline, start with about 200 mL.\n2. Clean gloves; dilate the stoma gently; lubricate the catheter with water-based lubricant and insert 2-4 inches.\n3. Hang the container 12-18 inches above the stoma.\n4. Retain the catheter 5-10 minutes; drain in 15-20 minutes.\n5. If cramps occur, stop momentarily, then continue slowly.\n\n## Diet\nAvoid gas-forming foods: cabbage, nuts, eggs, cauliflower, gum, carbonated drinks.\n\n## Check against your textbook\nPouch-emptying level and irrigation volumes vary between texts. Irrigation is for a descending/sigmoid colostomy with formed stool; confirm.\n\n## Related topics\n[[Colorectal Cancer]], [[Bladder Cancer and Urinary Diversions]]",
+  "tags": [
+   "oncology",
+   "colostomy",
+   "stoma",
+   "post-op"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Postoperative Operation (colon surgery)",
+   "Stoma care",
+   "Colostomy Irrigation",
+   "Diet"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-bladder-cancer-diversions",
+  "area": "NP3",
+  "title": "Bladder Cancer and Urinary Diversions",
+  "body": "## What it is\nMore common in men than women (4:1) and linked to industrial work.\n\n## Risk factors\nCigarette smoking, environmental carcinogens, bladder stones, high urinary pH, high cholesterol intake, pelvic radiation.\n\n## Assessment findings\nPainless hematuria is the earliest and most common sign. Also dysuria, hesitancy, pelvic or back pain.\n\n## Diagnosis\nCystoscopy, CT scan, ultrasound, bimanual examination.\n\n## Urinary diversions (handout descriptions)\n- Stoma-forming: ileal conduit (ileum used as the stoma), ureterostomy (ureters used), vesicostomy (bladder used), nephrostomy (kidney tube).\n- Continent diversions or bladder replacement: ureterosigmoidostomy (ureters attached to sigmoid colon), neobladder, Kock pouch (ileum with a valve), Indiana pouch (ascending colon), Mitrofanoff (appendix as a channel).\n\n## Nursing care\nIV fluids, pain management, comfort measures (small frequent meals, rest).\n\n## Check against your textbook\nThe handout says \"decreasing fluid intake\"; for most urinary problems and diversions, fluids are encouraged. Also the neobladder is usually made from ileum. Verify.\n\n## Related topics\n[[Colostomy and Stoma Care]], [[Cancer Warning Signs and Diagnostic Tests]]",
+  "tags": [
+   "oncology",
+   "bladder",
+   "urinary diversion"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Bladder Cancer"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-skin-cancer",
+  "area": "NP3",
+  "title": "Skin Cancer",
+  "body": "## What it is\nSun exposure is the leading cause.\n\n## Types\n- Basal cell carcinoma: most common; rarely metastasizes; good prognosis.\n- Squamous cell carcinoma: can metastasize.\n- Malignant melanoma: deadliest; arises from moles or birthmarks anywhere; the handout notes it is the third most common type.\n\n## ABCDE rule\nAsymmetry, Border irregularity, Color variation, Diameter (larger than a pencil eraser), Elevation (or evolving).\n\n## Risk factors\nFair skin, fair hair, blue eyes; sunburn; chronic sun exposure; chemical pollutants; sun-damaged elderly skin; past x-ray therapy; immunosuppression; genetics.\n\n## Treatment\nElectrosurgery, cryosurgery, radiation.\n\n## Nursing management and teaching\n- Teach dressing changes; watch for excessive bleeding or too-tight dressings.\n- Emollient cream for dryness.\n- Follow-up exams every 3 months.\n- Prevention: sunscreen, protective clothing, avoiding midday sun (general advice).\n\n## Related topics\n[[Cancer Surgery and Local Treatments]], [[Cancer Warning Signs and Diagnostic Tests]]",
+  "tags": [
+   "oncology",
+   "skin",
+   "melanoma"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Skin Cancer",
+   "Skin Cancer Parameters"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-periop-phases-classifications",
+  "area": "NP3",
+  "title": "Perioperative Phases and Surgical Classifications",
+  "body": "## Three phases\n- Preoperative: from the decision to operate until the client is transferred onto the OR table.\n- Intraoperative: from transfer to the OR table until admission to the PACU (post anesthesia care unit).\n- Postoperative: from PACU admission until follow-up evaluation in the clinic or at home.\n\n## Purpose of surgery\n- Diagnostic: biopsy, exploratory laparotomy.\n- Curative: removing a tumor or inflamed appendix.\n- Reparative: multiple wound repair.\n- Reconstructive or cosmetic: mammoplasty, facelift.\n- Palliative: relieves symptoms, e.g. a gastrostomy tube when swallowing is impossible.\n\n## Urgency\n- Optional: purely the client's preference (cosmetic).\n- Elective: at the client's convenience; delay is not catastrophic.\n- Required: needed within a few weeks (cataract).\n- Urgent: within 24-48 hours (cancer).\n- Emergency: immediate, without delay (intestinal obstruction).\n\n## How the exam asks about it\nMatch a case to its urgency level; the more life-threatening, the sooner.\n\n## Related topics\n[[Informed Consent for Surgery]], [[Preoperative Assessment and Patient Teaching]], [[Post Anesthesia Care Unit and Aldrete Score]]",
+  "tags": [
+   "perioperative",
+   "surgery"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Perioperative Nursing",
+   "Surgical Classifications",
+   "According to the Degree of Urgency"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-informed-consent-surgery",
+  "area": "NP3",
+  "title": "Informed Consent for Surgery",
+  "body": "## What it is\nInformed consent is the client's own autonomous decision whether to undergo surgery, after being told the procedure, risks and possible complications of surgery and anesthesia. It is a legal requirement.\n\n## Who does what\n- The surgeon obtains the consent and explains the procedure.\n- The nurse checks that the form is signed and witnesses the signature; the circulating nurse verifies the consent again in the OR.\n\n## Purposes\n- Client understands the treatment and its complications.\n- The decision was made without pressure.\n- Protects the client from unauthorized procedures or the wrong body part.\n- Protects the surgical team and hospital from legal action.\n\n## Priority actions\nIf the client seems unsure or unaware, do not get the signature; notify the surgeon so the explanation is given first.\n\n## Check against your textbook\nThe nurse-witness role and emergency/minor consent rules are added from general knowledge. Check Philippine rules in your textbook.\n\n## Related topics\n[[Operating Room Team Roles]], [[Immediate Pre-operative Preparation]]",
+  "tags": [
+   "perioperative",
+   "consent",
+   "legal"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Informed Consent (Operative Permit)"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-or-team-roles",
+  "area": "NP3",
+  "title": "Operating Room Team Roles",
+  "body": "## Circulating nurse\nUnscrubbed, moves around the room.\n- Verifies consent and coordinates the team.\n- Ensures cleanliness, proper temperature, humidity, lighting, safe equipment and supplies.\n- Monitors aseptic practice for breaks in technique; manages traffic of x-ray, lab and medical staff; follows fire safety rules.\n- Makes sure the second verification of procedure and site is done and documented.\n\n## Scrub nurse\nScrubbed, gowned and gloved; handles sterile items.\n- Performs the surgical hand scrub; sets up sterile tables.\n- Prepares sutures, ligatures and special equipment (e.g. laparoscope).\n- Assists the surgeon by anticipating instruments, sponges and drains.\n- Counts needles, sponges and instruments with the circulator so none is left in the client.\n\n## Surgeon\nHeads the team, performs the surgery, and holds ultimate responsibility for effective, safe surgery.\n\n## Anesthesiologist\nAssesses the client, chooses and gives anesthesia, intubates if needed, and watches the client throughout: BP, pulse, respirations, ECG, oxygen saturation, tidal volume, blood gases, pH, anesthetic gas concentration and temperature.\n\n## How the exam asks about it\nScrub = sterile, near the field; circulator = non-sterile, documents and coordinates. Counts are done by both.\n\n## Related topics\n[[Informed Consent for Surgery]], [[Operating Room Zones and Surgical Attire]], [[Principles of Surgical Asepsis]]",
+  "tags": [
+   "perioperative",
+   "OR team"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "The Surgical Team"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-or-zones-attire",
+  "area": "NP3",
+  "title": "Operating Room Zones and Surgical Attire",
+  "body": "## Environment\nThe surgical suite is behind double doors with limited access and restricted traffic. Strict asepsis is required.\n\n## Three zones\n- Unrestricted: street clothes allowed; reception and holding area.\n- Semi-restricted: scrub attire and caps; may include instrument-processing areas.\n- Restricted: scrub clothes, caps, shoe covers and masks; the OR itself and the sterile core.\n\n## Attire\n- Scrub suit: two-piece, well fitted, drawstrings tucked in; change if wet or soiled.\n- Head cover: covers all hair; disposable caps preferred; do not comb hair while in scrubs; net caps do not stop contamination.\n- Shoes: comfortable and puncture resistant; shoe covers when splashes expected; no street shoes; dispose of covers before leaving the OR.\n- Mask: worn in the restricted area; covers nose and mouth completely and fits tightly; handle by ties; the front is contaminated; never hang it on the neck or place it on the cap or in a pocket; change between patients.\n- Eyewear or face shield for splash and bone drilling; laser eyewear for laser surgery.\n- Gloves: nonsterile for clean procedures, sterile for sterile procedures.\n\n## Related topics\n[[Principles of Surgical Asepsis]], [[Operating Room Team Roles]]",
+  "tags": [
+   "perioperative",
+   "OR",
+   "attire",
+   "infection control"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Surgical Environment",
+   "Surgical Attire"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-surgical-asepsis-principles",
+  "area": "NP3",
+  "title": "Principles of Surgical Asepsis",
+  "body": "## Core principles\n- Everything touching the wound or tissue is sterilized before use.\n- The team scrubs hands and arms with antiseptic soap and water, or an alcohol-based product.\n- Only scrubbed, gowned and gloved persons touch sterile objects.\n- The OR environment is meticulously cleaned; the skin around the site is cleaned over a larger area than needed and an antiseptic applied.\n\n## Rules for keeping sterility\n- Only sterile touches sterile.\n- Gowns are sterile in front from chest to the level of the sterile field; sleeves from 2 inches above the elbow to the cuff.\n- Only the top surface of a draped table is sterile.\n- Deliver sterile supplies and solutions without contaminating them.\n- Team members move sterile-to-sterile and unsterile-to-unsterile.\n- Movement around the field must not contaminate it.\n- A breached barrier means contaminated.\n- If in doubt, consider it unsterile.\n\n## Priority action\nWhen you think something may have been contaminated, treat it as contaminated and replace it.\n\n## Related topics\n[[Decontamination, Disinfection and Sterilization]], [[Operating Room Zones and Surgical Attire]]",
+  "tags": [
+   "perioperative",
+   "asepsis",
+   "infection control"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Principles of Surgical Asepsis",
+   "Basic Guidelines for Maintaining Surgical Asepsis"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-decontamination-sterilization",
+  "area": "NP3",
+  "title": "Decontamination, Disinfection and Sterilization",
+  "body": "## Steps of decontamination\nCleaning, then disinfection (low, intermediate, high), then sterilization.\n- Cleaning: removes foreign material by scrubbing and enzymes or detergents.\n- High-level disinfection: boiling at 100 C (kills most pathogens except spores); pasteurization at 60-80 C for 30 minutes (respiratory devices, anesthesia circuits); chemical soaking for heat-sensitive items.\n- Sterilization: destroys all pathogens including spores; the highest level.\n\n## Methods of sterilization\n- Autoclave (steam): most common; 121 C, 1 atm pressure, 30 minutes per handout.\n- Ethylene oxide gas: heat- or moisture-sensitive items.\n- Dry heat: oils, petroleum products, talc powder.\n\n## Indicators\nIndicators do not prove sterility; they only show the item went through the process. Sterility is event-related, not time-based; expiry date is an estimate; shelf life depends on handling, packaging and storage.\n\n## Spaulding's classification\n- Non-critical (intact skin): stethoscope, BP cuff, tourniquet, floors, linens. Cleaning or low-level disinfection.\n- Semi-critical (mucous membranes, non-intact skin): anesthesia equipment, GI endoscopes, speculum, bronchoscope, laryngoscope, thermometer, respiratory therapy equipment. High-level disinfection.\n- Critical (enter sterile tissue, body cavity or blood vessels): surgical instruments, IUDs, vascular catheters, implants, urinary catheters, needles. Sterilization.\n\n## Related topics\n[[Principles of Surgical Asepsis]], [[Surgical Instruments]]",
+  "tags": [
+   "perioperative",
+   "sterilization",
+   "infection control"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Instrument Decontamination Process",
+   "Methods of Sterilization",
+   "Indicators Used in Sterilizations",
+   "3 Categories Under Spaulding's Classification"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-general-anesthesia-stages",
+  "area": "NP3",
+  "title": "General Anesthesia and Its Stages",
+  "body": "## What it is\nAnesthesia is narcosis (deep CNS depression by drugs) with analgesia, relaxation and loss of reflexes. General anesthesia is reversible complete loss of consciousness, with analgesia, muscle relaxation and sedation. Protective reflexes are lost and the client cannot keep their own airway or breathing, so airway support is essential.\n\n## Giving general anesthesia\n- Inhalation: volatile liquids (halothane, enflurane, isoflurane, sevoflurane, desflurane) and gas (nitrous oxide, most used, always combined with oxygen).\n- Intravenous: barbiturates, benzodiazepines, non-barbiturate hypnotics, dissociative agents, opioids.\n\n## Stages\n1. Beginning / induction: detachment, drowsiness, dizziness, hallucination, ringing in ears. Keep OR quiet, close doors, stand by.\n2. Excitement / delirium: dilated pupils, rapid pulse, irregular breathing, uncontrolled movement; restraints may be needed.\n3. Surgical anesthesia: unconscious, quiet; small reactive pupils; regular respirations; normal pulse; pink skin. This is the desired stage.\n4. Medullary depression / danger: too much anesthesia; shallow breathing, weak thready pulse, wide pupils; death can occur. Stop the anesthetic and support breathing and circulation.\n\n## Preoperative medications\nReduce anxiety, promote relaxation, reduce pharyngeal secretions, prevent laryngospasm, inhibit gastric secretion, and lower the amount of anesthetic needed.\n\n## Related topics\n[[Regional, Local and Sedation Anesthesia]], [[Post Anesthesia Care Unit and Aldrete Score]]",
+  "tags": [
+   "perioperative",
+   "anesthesia"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Anesthesia",
+   "General Anesthesia",
+   "Administration of General Anesthesia",
+   "Stages of General Anesthesia",
+   "Preoperative Medication"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-regional-local-sedation",
+  "area": "NP3",
+  "title": "Regional, Local and Sedation Anesthesia",
+  "body": "## Regional anesthesia\nAnesthetic is injected around nerves to numb the area they supply. The client is awake unless sedated.\n- Epidural: local anesthetic into the epidural space around the dura. Advantage: no headache. Disadvantage: technically harder than subarachnoid injection.\n- Spinal: local anesthetic into the subarachnoid space at the lumbar level, usually L4-L5; anesthetizes the lower extremities, perineum and lower abdomen.\n\n## Other types\n- Moderate sedation (formerly conscious sedation): IV sedatives or analgesics to reduce anxiety and pain during procedures.\n- Monitored anesthesia care (MAC): moderate sedation by an anesthesiologist or anesthetist who can convert to general anesthesia.\n- Local anesthesia: solution injected into the tissue at the incision site.\n\n## Nursing thinking\nAfter spinal anesthesia, keep close watch on breathing, blood pressure and return of sensation and movement. Spinal headache is a known concern (added from general knowledge).\n\n## Related topics\n[[General Anesthesia and Its Stages]], [[Post Anesthesia Care Unit and Aldrete Score]]",
+  "tags": [
+   "perioperative",
+   "anesthesia",
+   "spinal",
+   "epidural"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Regional Anesthesia",
+   "Epidural Anesthesia",
+   "Spinal Anesthesia",
+   "Moderate Sedation",
+   "Monitored Anesthesia Care",
+   "Local Anesthesia"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-preop-assessment-teaching",
+  "area": "NP3",
+  "title": "Preoperative Assessment and Patient Teaching",
+  "body": "## Goal\nMake the client as healthy as possible before surgery.\n\n## Assessment\nConsent, health history, nutrition and fluids, dentition, alcohol and drug use, respiratory, cardiovascular, hepatic, renal and endocrine function, and medicines used.\n\n## Preoperative teaching\n- Deep breathing, coughing and the incentive spirometer: breathe deeply, exhale through the mouth, take a short breath and cough from deep in the lungs.\n- Early and frequent movement, leg exercises and position changes to prevent complications.\n- Pain control: take analgesics on schedule early after surgery.\n- Reduce anxiety: help the client find coping strategies used before.\n\n## Nutrition and fluids\nNPO overnight or longer to prevent aspiration; the length depends on age and the type of food (fatty food needs about 8 hours).\n\n## Bowel and skin preparation\n- Enemas are not routine, but may be given for abdominal or pelvic surgery for good visualization and to avoid fecal contamination; cleansing enema or laxatives the evening before and sometimes the morning of surgery.\n- Skin: aim to lower bacteria without injury; wash with detergent-germicide soap; if hair must be removed, use electric clippers.\n\n## Related topics\n[[Immediate Pre-operative Preparation]], [[Postoperative Respiratory Complications]], [[Informed Consent for Surgery]]",
+  "tags": [
+   "perioperative",
+   "preop",
+   "teaching"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Preoperative Phase",
+   "Preoperative Assessment",
+   "Preoperative Nursing Interventions",
+   "Providing Patient Teaching",
+   "Managing Nutrition and Fluids",
+   "Bowel Preparation",
+   "Skin Preparation"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-immediate-preop-prep",
+  "area": "NP3",
+  "title": "Immediate Pre-operative Preparation",
+  "body": "## Checklist before leaving the unit\n- Change into a hospital gown; cover the hair completely with a cap.\n- Inspect the mouth; remove dentures and plates.\n- Remove jewelry and piercings; if the client objects to removing the wedding ring, secure it with tape.\n- Valuables go to family or are labelled and stored safely per hospital policy.\n- The client voids before going to the OR.\n- If a preanesthetic medication was given, keep the client in bed with side rails up.\n- The complete chart goes with the client: preoperative checklist, verification form, signed consent, lab reports and nurses' notes.\n- Transfer to the holding area or presurgical suite 30-60 minutes before anesthesia.\n\n## Priority\nClient safety in the preoperative area. Give the premedication on time and keep the client in bed after it.\n\n## Related topics\n[[Preoperative Assessment and Patient Teaching]], [[Informed Consent for Surgery]], [[General Anesthesia and Its Stages]]",
+  "tags": [
+   "perioperative",
+   "preop",
+   "checklist"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Immediate Pre-op Nursing Interventions"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-surgical-positions",
+  "area": "NP3",
+  "title": "Surgical Positions",
+  "body": "## Positions and typical uses\n- Supine (dorsal): front-of-body procedures (abdominal, some leg). Variants: dorsal recumbent (vaginal/perineal), frog-leg (groin and lower extremities), arm extension (breast, axilla, arm, hand). Small roll under the shoulder for shoulder surgery.\n- Trendelenburg: lower abdominal and pelvic surgery; the intestines shift upward for exposure.\n- Reverse Trendelenburg: thyroidectomy, gallbladder, biliary and stomach surgery.\n- Fowler's: shoulder, nasopharyngeal, facial and breast reconstruction.\n- Sitting: ear-nose-throat and neurosurgery (occasionally).\n- Lithotomy: perineal, vaginal, urologic and rectal procedures.\n- Prone: posterior approaches; modified prone for spine and neurosurgery.\n- Kraske (jack-knife): rectal surgery (pilonidal sinus, hemorrhoidectomy); hips over the table break, head and legs lowered.\n- Knee-chest: sigmoidoscopy or culdoscopy.\n- Lateral: renal surgery.\n\n## Memory aid\nMatch the position to where the surgeon needs access: legs apart and up (lithotomy) for the pelvis floor, side-lying for the kidney.\n\n## Related topics\n[[Intraoperative Complications and Positioning Safety]]",
+  "tags": [
+   "perioperative",
+   "positioning"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Surgical Positions"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-intraop-complications-positioning",
+  "area": "NP3",
+  "title": "Intraoperative Complications and Positioning Safety",
+  "body": "## Nausea and vomiting\nGive antiemetics as ordered to prevent aspiration. If gagging occurs: turn the client to the side, lower the head of the table, provide a basin and suction saliva and vomitus.\n\n## Respiratory complications\nCan cause brain damage if missed. Monitor oxygenation closely and check peripheral perfusion often.\n\n## Hypothermia\nCauses: cool OR, cold fluids, cold gases, open wounds or cavities, reduced muscle activity. Actions: warm IV and irrigation fluids, remove wet gowns and drapes promptly, replace with dry ones. The handout says room temperature may be temporarily set at 25-26.6 (degree symbol lost).\n\n## Preventing positioning injury\n- Keep the client as comfortable as possible and the site well exposed.\n- Stirrups, traction or pressure must not block circulation.\n- Chest pressure from arms or a tight gown must not limit breathing.\n- Protect nerves: pad shoulder braces well, especially in Trendelenburg; improper arm and leg placement can cause paralysis.\n- Extra care for thin, elderly, obese clients and those with deformities.\n- Light restraint before induction if the client may become excited.\n\n## Related topics\n[[Surgical Positions]], [[General Anesthesia and Its Stages]]",
+  "tags": [
+   "perioperative",
+   "hypothermia",
+   "safety"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Potential Intraoperative Complications",
+   "Preventing Intraoperative Positioning Injury"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-surgical-instruments",
+  "area": "NP3",
+  "title": "Surgical Instruments",
+  "body": "## Cutting and dissecting\n- Scalpel blades 10, 11, 12, 15 fit handle #3 or #7; blades 20, 22, 25 fit handle #4.\n- #10 opens skin; #11 makes a small stab for deep tiny incisions; #12 is commonly used for tonsillectomy; #15 is for short, shallow, controlled incisions; #20 is like #10 but larger.\n- Scissors: suture scissors cut sutures; wire scissors cut wires; bandage scissors cut drains and dressings; Mayo scissors cut heavy fascia and sutures; Metzenbaum scissors are more delicate for delicate tissue.\n- Curettes scrape tissue from bone.\n\n## Grasping and holding\n- Delicate forceps (eye tissue), Adson (soft tissue during closure), smooth thumb forceps (protect sutures), toothed forceps (tough tissue), Allis (tough tissue), Babcock (rounded jaws; fallopian tube), Lahey (sharp tips; tough organs or tumors), stone forceps (kidney and gallbladder stones).\n\n## Clamping and occluding\nHemostatic forceps occlude blood vessels; crushing clamps crush tissue or clamp vessels.\n\n## Exposing and retracting\nMalleable retractors bend to fit; hooks retract skin edges (e.g. mastectomy); self-retaining retractors (e.g. Balfour) hold the incision open.\n\n## Related topics\n[[Sutures and Surgical Needles]], [[Decontamination, Disinfection and Sterilization]]\n\n## Check against your textbook\nSome handout descriptions (e.g. #12 blade, forceps uses) are brief; confirm with your book.",
+  "tags": [
+   "perioperative",
+   "instruments"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Classifications of Instruments",
+   "Cutting and Dissecting",
+   "Scissors",
+   "Curettes",
+   "Grasping and Holding",
+   "Clamping and Occluding",
+   "Exposing and Retracting"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-sutures-needles",
+  "area": "NP3",
+  "title": "Sutures and Surgical Needles",
+  "body": "## Absorbable sutures\n- Surgical gut (from sheep or beef intestine): plain gut loses strength in 5-10 days and is digested within about 70 days; used for small vessels and subcutaneous fat.\n- Chromic gut: supports the wound about 14 days, loses tensile strength by 21 days, absorbed in about 90 days; used for larger vessels and urinary or biliary tract.\n- Synthetic absorbables (absorbed by slow hydrolysis): polydioxanone (PDS) for slow-healing tissue such as fascia; poliglecaprone 25 (Monocryl) loses all strength by 21 days, used in gynecologic, urologic and plastic surgery; polyglactin 910 (Vicryl) absorbs within about 90 days.\n\n## Non-absorbable sutures\n- Silk: loses strength when wet; GI serosa and fascia closure without infection.\n- Cotton: gains strength when wet; most tissues.\n- Stainless steel: abdominal wall and retention sutures to prevent dehiscence.\n\n## Needles\n- Point: cutting (skin, tendon, tough tissue; conventional, reverse, side cutting, trocar); taper or round (intestines, peritoneum); blunt (friable liver and kidney).\n- Body: straight for accessible tissue; curved for most tissue; French eye has a slit for threading; eyeless (swaged) needle is fused to the suture.\n\n## Related topics\n[[Surgical Instruments]], [[Surgical Wound Infection, Dehiscence and Evisceration]]",
+  "tags": [
+   "perioperative",
+   "sutures",
+   "needles"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Sutures",
+   "Absorbable Sutures",
+   "Non-Absorbable Sutures",
+   "Surgical Needles"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-pacu-aldrete",
+  "area": "NP3",
+  "title": "Post Anesthesia Care Unit and Aldrete Score",
+  "body": "## PACU\nAlso called the recovery room, next to the OR suite.\n- Phase I: immediate care and close monitoring, intensive care if needed.\n- Phase II: client no longer needs close monitoring; prepared for self-care or care in the ward or extended care.\n- Phase III: continued care then preparation for discharge from the facility.\n\n## Aldrete score\nRates activity, respiration, circulation, consciousness and oxygen saturation. A score of 8-10 is usual before leaving the PACU; below 7 stays until improved or goes to intensive care.\n\n## Nursing management in the PACU\n1. Assess airway first, then breathing, circulation, skin color, level of consciousness and response to commands.\n2. Check the surgical site for drainage or bleeding; make sure drains and monitoring lines are connected and working.\n3. Vital signs every 15 minutes.\n4. Give postoperative analgesics.\n5. Keep the airway open: watch for choking, noisy irregular breathing; suction secretions or vomitus (careful after tonsil, oral or laryngeal surgery).\n6. Control pain and anxiety: IV opioids are mostly used, short acting with immediate relief.\n7. Control nausea at the first report (before vomiting): antiemetics such as promethazine (Phenergan) and hydroxyzine (Atarax); encourage deep breathing to remove anesthetic.\n\n## Related topics\n[[Postoperative Priorities of Care]], [[Postoperative Hemorrhage and Hypovolemic Shock]], [[General Anesthesia and Its Stages]]",
+  "tags": [
+   "perioperative",
+   "PACU",
+   "postoperative"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Postoperative Nursing",
+   "Care of the Patient in the PACU",
+   "Phases of Post-anesthesia Care",
+   "Determining Readiness for Discharge from the PACU",
+   "Nursing Management in the PACU"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-postop-priorities",
+  "area": "NP3",
+  "title": "Postoperative Priorities of Care",
+  "body": "## Priorities in order (per handout)\n1. Restore homeostasis and prevent complications.\n2. Maintain a clear airway and good respiratory function.\n3. Maintain cardiac function and tissue perfusion.\n4. Maintain fluid and electrolyte balance and renal function: enough fluid for blood volume without overload (pulmonary congestion and edema); monitor electrolytes; accurate intake and output; do not force fluids too soon.\n5. Promote comfort and rest: analgesics and comfort measures.\n6. Promote nutrition and elimination: peristalsis returns in 48-72 hours; start liquids, then advance; early ambulation prevents distention.\n7. Promote wound healing and prevent dehiscence and evisceration.\n\n## Why this order\nIt follows airway, breathing, circulation first (Maslow physiological needs), then fluid balance, comfort and healing.\n\n## Definitions\n- Dehiscence: wound edges separate partly or fully, but deeper tissue is not open.\n- Evisceration: organs protrude through the wound opening.\n\n## Related topics\n[[Post Anesthesia Care Unit and Aldrete Score]], [[Surgical Wound Infection, Dehiscence and Evisceration]], [[Postoperative Respiratory Complications]]",
+  "tags": [
+   "postoperative",
+   "priorities"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Priority #1 to #7 postoperative"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-postop-hemorrhage-shock",
+  "area": "NP3",
+  "title": "Postoperative Hemorrhage and Hypovolemic Shock",
+  "body": "## What it is\nHypotension after surgery can come from blood loss, hypoventilation, position change, blood pooling or drugs. Shock, from low blood volume (hypovolemia), is one of the most serious postoperative complications.\n\n## Classification of hemorrhage\n- By time: primary (at surgery); intermediary (first hours, when BP rising dislodges loose clots); secondary (days later, suture slips, infection or drain erosion).\n- By vessel: capillary (slow ooze); venous (dark blood flowing quickly); arterial (bright red spurts with heartbeat).\n- By visibility: evident (seen) or concealed (inside a cavity).\n\n## Signs of hemorrhage and early shock\nHypotension, rapid thready pulse, restlessness, apprehension, disorientation, oliguria, cold pale skin.\n\n## Priority nursing actions\n1. Call for help; treat the airway and circulation: oxygen; start or increase IV fluids/blood products as ordered; find the cause.\n2. Inspect the incision; if bleeding is visible, apply a sterile gauze and pressure dressing and elevate the site to heart level if possible.\n3. Shock position: flat on back, legs raised about 20 degrees and kept straight.\n4. Keep warm; monitor continuously.\n5. If internal hemorrhage is suspected, the client returns to the OR.\n\n## Related topics\n[[Types of Shock]], [[Management of Shock]], [[Post Anesthesia Care Unit and Aldrete Score]]",
+  "tags": [
+   "postoperative",
+   "hemorrhage",
+   "shock"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Maintaining Cardiovascular Activity",
+   "Shock",
+   "Hemorrhage",
+   "Classification of Hemorrhage"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-postop-respiratory-complications",
+  "area": "NP3",
+  "title": "Postoperative Respiratory Complications",
+  "body": "## Why they happen\nOpioid breathing depression, pain-limited lung expansion and reduced movement.\n\n## Atelectasis\nAlveolar collapse with incomplete expansion. Signs: decreased breath sounds over the area, crackles, cough. Most common early postoperative lung problem.\n\n## Pneumonia\nChills and fever, tachycardia, tachypnea; cough may or may not be productive.\n\n## Hypostatic pulmonary congestion\nSecretions pool at the lung bases in a weakened cardiovascular system: slight rise in temperature, pulse and respiration; cough; dullness and crackles at the bases.\n\n## Priority nursing actions\n1. Turn, deep breathe, cough and use the incentive spirometer at least every 2 hours.\n2. Splint the abdominal or chest incision with a pillow to lessen fear of opening it.\n3. Give oxygen; encourage yawning and sustained maximal inspirations.\n4. Early ambulation increases metabolism and lung aeration.\n5. Coughing is contraindicated after head injury, intracranial surgery, eye surgery and plastic surgery (pressure rises).\n\n## Related topics\n[[Preoperative Assessment and Patient Teaching]], [[Early Ambulation after Surgery]], [[Postoperative Pulmonary Embolism]]",
+  "tags": [
+   "postoperative",
+   "atelectasis",
+   "pneumonia"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Preventing Respiratory Complications",
+   "Atelectasis",
+   "Pneumonia",
+   "Hypostatic Pulmonary Congestion"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-early-ambulation",
+  "area": "NP3",
+  "title": "Early Ambulation after Surgery",
+  "body": "## Why\nEarly ambulation helps recovery and prevents atelectasis, hypostatic pneumonia, GI discomfort, blood stasis and thromboembolism.\n\n## Steps\n1. Raise the head of the bed gradually; client splints the incision.\n2. Sit upright with both legs dangling over the bed edge (watch for dizziness).\n3. Help the client stand beside the bed.\n4. Stay on the client's side for support and encouragement.\n\n## Bed exercises\nArm exercises, hand and finger exercises, foot exercises (prevent DVT, foot drop and toe deformities), leg flexion and leg lifting, abdominal and gluteal contractions.\n\n## Priority\nSafety: assess for dizziness or low BP before standing; assist so the client does not fall.\n\n## Related topics\n[[Postoperative Deep Vein Thrombosis]], [[Postoperative Respiratory Complications]]",
+  "tags": [
+   "postoperative",
+   "ambulation"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Assisting Postoperative Patient in Ambulation"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-postop-dvt",
+  "area": "NP3",
+  "title": "Postoperative Deep Vein Thrombosis",
+  "body": "## What it is\nA clot in the pelvic veins or deep leg veins. Most common after hip surgery. Clots above the knee are the main source of pulmonary emboli.\n\n## Signs\nCalf pain on dorsiflexion (Homan's sign), painful swelling of the whole leg, mild fever, chills, sweating, tenderness over the inner thigh. Circulation below the clot may be compromised.\n\n## Prevention and nursing actions\n- Hydrate to prevent hemoconcentration.\n- Leg exercises and early ambulation as permitted.\n- Avoid tight straps, bed rolls and knee-gatch; avoid sitting or standing still for long and crossing legs.\n- Do NOT rub or massage the calves or thighs (it can dislodge the clot).\n- Check distal pulses, capillary refill and sensation.\n- Elastic stockings or wraps from toes upward; intermittent pneumatic compression for highest-risk clients.\n- Anticoagulants IV, subcutaneously or orally as prescribed.\n\n## Check against your textbook\nMany textbooks now say Homan's sign is unreliable; if DVT is suspected, report it and keep the client on bed rest per order.\n\n## Related topics\n[[Postoperative Pulmonary Embolism]], [[Early Ambulation after Surgery]]",
+  "tags": [
+   "postoperative",
+   "DVT",
+   "thrombosis"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Preventing Deep Vein Thrombosis"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-postop-pulmonary-embolism",
+  "area": "NP3",
+  "title": "Postoperative Pulmonary Embolism",
+  "body": "## What it is\nA blockage of pulmonary arteries by an embolus from the venous system or right heart; after surgery most come from the pelvic or iliofemoral veins.\n\n## Signs\nDyspnea is the most frequent symptom; tachypnea is the most frequent sign. Sudden pleuritic chest pain, anxiety, apprehension, fever, tachycardia, cough, sweating, hemoptysis, syncope.\n\n## Priority nursing actions\n1. Airway and breathing: give oxygen; raise the head of the bed (added from general knowledge).\n2. Calm the client.\n3. Monitor vital signs, ECG, arterial blood gases.\n4. Treat shock or heart failure as directed.\n5. Analgesics or sedatives for pain or apprehension as ordered.\n6. Prepare for anticoagulants, thrombolytics, or surgery, depending on severity.\n\n## How the exam asks about it\nSudden breathlessness and chest pain a few days after surgery in a client with leg swelling: think PE and act on oxygenation first.\n\n## Related topics\n[[Postoperative Deep Vein Thrombosis]], [[Postoperative Respiratory Complications]]",
+  "tags": [
+   "postoperative",
+   "PE",
+   "emergency"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Pulmonary Embolism"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-ho-wound-infection-dehiscence",
+  "area": "NP3",
+  "title": "Surgical Wound Infection, Dehiscence and Evisceration",
+  "body": "## Wound infection\nSecond most common hospital-acquired infection. May stay at the site or become systemic.\n\n## Signs\nRedness, swelling, tenderness, warmth; red streaks; pus; tender enlarged nodes in the groin or axilla; foul smell; chills, fever, rising pulse; increasing pain.\n\n## Priority nursing actions\n- Keep the dressing intact (reinforce if needed) until ordered otherwise.\n- Strict sterile technique for dressing changes.\n- Document the amount, type and location of drainage; make sure drains work.\n- Send a wound culture; give antibiotics as prescribed.\n- Irrigation with saline may be ordered; a drain or sterile packing may be used.\n- Deep infection may need return to the OR.\n\n## Dehiscence and evisceration\n- Dehiscence: wound edges separate; deeper tissue stays closed.\n- Evisceration: organs protrude through the wound.\n\n## Check against your textbook\nThe handout only defines these two. Typical emergency care for evisceration (stay with the client, cover with sterile saline-moist dressing, low Fowler's with knees bent, notify the surgeon, NPO) is added from general knowledge; confirm.\n\n## Related topics\n[[Postoperative Priorities of Care]], [[Sutures and Surgical Needles]], [[Cancer Surgery and Local Treatments]]",
+  "tags": [
+   "postoperative",
+   "wound",
+   "infection"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Wound Infection",
+   "Dehiscence",
+   "Evisceration"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ }
+]

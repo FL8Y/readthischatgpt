@@ -62,7 +62,7 @@ export function Topics({ state }: { state: AppState }) {
   };
 
   if (!state.topics.length) {
-    return <EmptyState title="No topics yet" detail="Add the ready-made NP1/NP5 notes or your own notes in the Library tab and they appear here." />;
+    return <EmptyState title="No topics yet" detail="Add the ready-made review notes or your own notes in the Library tab and they appear here." />;
   }
 
   const now = Date.now();

@@ -1,0 +1,860 @@
+[
+ {
+  "id": "np3-er-kidney-anatomy",
+  "area": "NP4",
+  "title": "Kidney Anatomy and Functions",
+  "body": "## What it is\nThe kidneys are paired, bean-shaped organs (about 150 g each) lying against the back wall of the abdomen, behind the peritoneum (retroperitoneal), roughly from T12 to L3. The right kidney sits a little lower than the left. At rest they receive about 20% of cardiac output, which falls to roughly 2-4% under stress when blood is diverted to vital organs.\n\n## Must-know facts\n- Functions: form urine, remove waste, balance electrolytes, balance acid and base, control water balance, help control blood pressure (renin), clear substances from blood, make erythropoietin (red cell production), activate vitamin D, secrete prostaglandins, and regulate calcium and phosphorus.\n- Blood path: renal artery enters at the hilum, splits into afferent arterioles, goes through the glomerular capillary bed, leaves by the efferent arteriole, then drains to the renal vein.\n- Ureters: about 25-30 cm long, widen into the renal pelvis (calyces and papillae), and push urine to the bladder by peristalsis.\n- Bladder: hollow smooth-muscle bag behind the symphysis pubis; reservoir holding about 300-500 mL in an adult; controlled by the autonomic nervous system.\n- Urethra: a muscle-and-mucosa tube ending at the meatus. Female urethra is short (3-5 cm), in front of the vagina; the male urethra passes through the prostate.\n\n## How the exam asks about it\nBecause the kidney makes erythropoietin and activates vitamin D, kidney failure leads to anemia and bone disease. A short female urethra explains why women get more bladder infections. See [[Chronic Kidney Disease: Findings by Body System]] and [[Cystitis and Urethritis]].\n\n## Related topics\n[[Nephron and Urine Formation]], [[Urine Volume Control and Normal Urine Values]]\n\n## Check against your textbook\nThe handout says the glomerulus lies between \"afferent and afferent\" vessels; this is a typo, it should be afferent and efferent.",
+  "tags": [
+   "renal",
+   "anatomy",
+   "area-guess"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Kidney",
+   "Renal circulation",
+   "Ureters",
+   "Urinary bladder",
+   "Urethra"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-nephron-urine-formation",
+  "area": "NP4",
+  "title": "Nephron and Urine Formation",
+  "body": "## What it is\nThe nephron is the working unit of the kidney (about a million per kidney). Urine is made in three steps: filtration (water and small solutes leave blood into the glomerulus), reabsorption (needed water and ions go back to blood), and excretion (waste and extra substances leave in urine).\n\n## Must-know facts\n- Glomerulus: tuft of capillaries that filters water and solutes. Blood cells, albumin and fibrinogen are normally too large to pass, so protein or blood in urine means glomerular damage.\n- Bowman's capsule: cup that surrounds the glomerulus and collects the filtrate.\n- Proximal convoluted tubule: reabsorbs glucose and sodium (active transport), chloride and bicarbonate (diffusion), and about 80% of the water (osmosis).\n- Loop of Henle: reabsorbs water, chloride and sodium.\n- Distal convoluted tubule: reabsorbs sodium (aldosterone) and water (ADH); secretes hydrogen, potassium and ammonia.\n- Collecting tubules: last water reabsorption, again under ADH.\n\n## Why it matters\nEach part explains a disease or drug: loop diuretics act on the loop of Henle, thiazides on the distal tubule, and aldosterone-blocking drugs on the distal sodium-potassium exchange (hyperkalemia risk). See [[Fluid Volume Excess (Hypervolemia)]].\n\n## Memory aid\nMade-up: \"PCT takes the most\" (glucose, sodium, 80% water).\n\n## Related topics\n[[Kidney Anatomy and Functions]], [[Urine Volume Control and Normal Urine Values]], [[Acute Glomerulonephritis (Nephritic Syndrome)]]",
+  "tags": [
+   "renal",
+   "physiology",
+   "area-guess"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Nephron",
+   "Parts of the nephron"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-urine-volume-control",
+  "area": "NP4",
+  "title": "Urine Volume Control and Normal Urine Values",
+  "body": "## What it is\nHow the body decides how much urine to make, plus what normal urine looks like.\n\n## Must-know facts\n- Glomerular filtration rate (GFR) is about 125 mL/min and is kept fairly constant.\n- Renin-angiotensin-aldosterone system (RAAS): when kidney perfusion is poor, juxtaglomerular cells release renin. Renin turns angiotensinogen into angiotensin I; ACE in the lungs turns that into angiotensin II, a very strong vasoconstrictor that raises blood pressure. The adrenal cortex then releases aldosterone, which keeps sodium and loses potassium. Water follows sodium, so blood volume and pressure rise.\n- ADH (antidiuretic hormone) makes the collecting tubules reabsorb water; plasma and urine osmolarity guide its release.\n\n## Normal urine values (handout)\n- Color light yellow/straw, aromatic odor, clear or slightly turbid.\n- pH 4.5-8; specific gravity 1.010-1.020.\n- No WBC, RBC, albumin or E. coli; a few mucus threads; no amorphous urates.\n\n## How the exam asks about it\nLow perfusion (shock, dehydration) activates RAAS: the client retains sodium and water and loses potassium, with low urine output. Specific gravity above 1.020 suggests concentrated urine (dehydration); below 1.010 suggests dilute urine. See [[Electrolyte Normal Values and Fluid Balance Lab Tests]].\n\n## Related topics\n[[Nephron and Urine Formation]], [[Acute Glomerulonephritis (Nephritic Syndrome)]]\n\n## Check against your textbook\nThe handout calls the renin-secreting cells \"densa cells\"; renin comes from the juxtaglomerular (granular) cells, while the macula densa senses sodium. Confirm.",
+  "tags": [
+   "renal",
+   "RAAS",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Urine volume control",
+   "Normal urine values"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-cystitis-urethritis",
+  "area": "NP4",
+  "title": "Cystitis and Urethritis",
+  "body": "## What it is\nCystitis is infection of the bladder, usually from bacteria (most often E. coli) climbing up the urethra. Urethritis is inflammation of the urethra.\n\n## Must-know facts\n- Women get cystitis more because of the short urethra, closeness of urethra to rectum, childbirth and sexual intercourse. In men it follows epididymitis, prostatitis or stones.\n- Risk factors: obstruction, urine retention, high estrogen, intercourse.\n- Cystitis findings: dysuria, urgency, frequency, nocturia, suprapubic pain, hematuria, pyuria, fever, chills, sometimes flank pain.\n- Diagnosis: urine culture and sensitivity.\n- Urethritis: caused by E. coli, staphylococci, streptococci or Pseudomonas; burning on urination and pus-like discharge appearing 3-14 days after exposure; looks like gonorrhea but sexual contact is not the cause. It can spread to cause prostatitis or epididymitis.\n\n## Priority nursing actions\n- Encourage high fluid intake and frequent voiding (flushes bacteria).\n- Give antibiotics as ordered (co-trimoxazole in the handout), plus antispasmodics and analgesics.\n- Comfort: warm sitz bath.\n\n## Client teaching\nCranberry or orange juice; avoid coffee, tea and alcohol (bladder irritants); empty the bladder after intercourse; wipe front to back and keep good hygiene. Urethritis treatment in the handout: tetracycline or doxycycline.\n\n## Related topics\n[[Pyelonephritis]], [[Urolithiasis: Kidney and Urinary Stones]], [[Benign Prostatic Hyperplasia (BPH)]]\n\n## Check against your textbook\nDrug choices (co-trimoxazole, tetracycline) vary by guideline and local resistance; confirm.",
+  "tags": [
+   "renal",
+   "infection",
+   "UTI",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Cystitis",
+   "Urethritis"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-urolithiasis",
+  "area": "NP4",
+  "title": "Urolithiasis: Kidney and Urinary Stones",
+  "body": "## What it is\nStones form in the urinary tract when minerals crystallize, helped by dehydration, stasis, infection or too much calcium or oxalate.\n\n## Must-know facts\n- Risk factors: diet high in calcium or oxalate, gout, obesity, sedentary life, hyperparathyroidism, dehydration, catheters, infection; men get them about 3 times more.\n- Acidic stones (calcium oxalate, uric acid, cystine) versus alkaline stones (calcium phosphate, struvite from urea-splitting bacteria).\n- Oxalate foods in the handout: spinach, beans, nuts, tea, chocolate. Uric acid: organ meats, sardines, anchovies.\n- Findings: renal colic, which is severe wave-like flank pain radiating toward the groin or thigh; nausea, vomiting; hematuria; frequent urge with little urine; possible sepsis if infected or obstructed.\n- Tests: KUB x-ray, IVP, ultrasound, cystoscopy, urinalysis, stone analysis.\n\n## Priority nursing actions\n- Relieve pain first (narcotic analgesics, antispasmodics), warm compress or sitz bath.\n- Strain all urine through gauze and save any stone for analysis.\n- Force fluids (about 3 L/day) to help pass the stone; track intake and output.\n- Treat infection; allopurinol for uric acid stones.\n\n## Diet by stone type (handout)\n- Acidic stones: alkaline-ash diet (fruits, vegetables, milk).\n- Alkaline stones: acid-ash diet (cranberry, prune, plum, meat, poultry).\n- Calcium: low calcium, less protein and sodium. Uric acid: low purine. Cystine: low methionine. Phosphate: low phosphorus with aluminum hydroxide gel.\n\n## Surgery\nNamed by site: nephrolithotomy (kidney), pyelolithotomy (pelvis), ureterolithotomy (ureter), cystolithotomy (bladder).\n\n## Related topics\n[[Cystitis and Urethritis]], [[Pyelonephritis]], [[Acute Renal Failure: Causes, Phases and Findings]]\n\n## Check against your textbook\nThe handout's diet advice mixes up some items (for example cranberry listed both as an oxalate food and as acid-ash); modern advice also stresses not over-restricting calcium. Confirm.",
+  "tags": [
+   "renal",
+   "stones",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Nephrolithiasis/Urolithiasis",
+   "Types of stones",
+   "Management of stones"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-bph",
+  "area": "NP4",
+  "title": "Benign Prostatic Hyperplasia (BPH)",
+  "body": "## What it is\nSlow enlargement of the prostate in men over about 40 that squeezes the urethra and interferes with urination. The cause is unknown; aging and hormone imbalance (androgen and estrogen) contribute.\n\n## Must-know facts\n- Findings: frequency, nocturia, hesitancy, weak urine stream, and residual urine (incomplete emptying).\n- Diagnosis: digital rectal exam, cystoscopy.\n- Blocked urine can lead to retention, infection and kidney damage.\n\n## Priority nursing actions\n- If the client cannot void, relieve retention first with catheterization (airway-breathing does not apply; bladder distension is the urgent problem).\n- Watchful waiting to follow progression in mild cases.\n\n## Medications\n- Terazosin (Hytrin): alpha-1 blocker that relaxes the bladder neck and sphincter muscle.\n- Finasteride (Proscar): blocks 5-alpha reductase, so the prostate shrinks (atrophy) over time.\n- Balloon dilation is another option to relax the bladder neck and prostate.\n\n## Client teaching\nAvoid anticholinergics and antihistamines (they thicken retention); report inability to void.\n\n## Related topics\n[[Prostate Surgery Types and Post-Operative Care]], [[Cystitis and Urethritis]], [[Acute Renal Failure: Causes, Phases and Findings]]\n\n## Check against your textbook\nThe handout lists renal biopsy and prostatic massage as diagnostics; these are not standard for BPH (massage is avoided in suspected infection). Confirm.",
+  "tags": [
+   "renal",
+   "prostate",
+   "area-guess"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Benign prostatic hyperplasia",
+   "BPH medications"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-prostate-surgery",
+  "area": "NP4",
+  "title": "Prostate Surgery Types and Post-Operative Care",
+  "body": "## What it is\nSurgical choices for an enlarged prostate and what the nurse watches afterward.\n\n## Surgical approaches (handout)\n- TURP (transurethral resection): no incision, prostate removed through the urethra; continuous bladder irrigation afterward; incontinence and impotence usually not expected.\n- Suprapubic prostatectomy: lower abdominal incision into the bladder, cystostomy tube and two-way Foley.\n- Retropubic prostatectomy: low abdominal incision.\n- Perineal prostatectomy: carries impotence, incontinence and possible rectal injury.\n\n## Priority nursing actions after surgery\n- Hemorrhage is the top danger: watch drainage color and vital signs. Pink is expected; if drainage becomes red, increase the irrigation flow rate and report.\n- Keep the catheter patent (clots block it and cause painful bladder spasm).\n- Use sterile isotonic saline irrigation to prevent water intoxication.\n- Keep aseptic technique; increase oral fluids.\n- Prevent thrombophlebitis; avoid anticholinergics and antihistamines.\n- After catheter removal watch for retention or dribbling; teach Kegel exercises.\n\n## Discharge teaching (handout)\nAvoid heavy lifting, vigorous exercise, straining at stool, prolonged sitting or standing, crossing the legs and long trips; no sexual intercourse for about 3 weeks and no driving for about 2 weeks.\n\n## How the exam asks about it\nPrioritize bleeding and catheter patency before teaching.\n\n## Related topics\n[[Benign Prostatic Hyperplasia (BPH)]], [[Hyponatremia and Hypernatremia]]\n\n## Check against your textbook\nRule that no approach causes impotence/incontinence is a simplification; teaching times differ across hospitals.",
+  "tags": [
+   "renal",
+   "prostate",
+   "surgery",
+   "area-guess"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Surgical management of BPH",
+   "Post-operative nursing care"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-pyelonephritis",
+  "area": "NP4",
+  "title": "Pyelonephritis",
+  "body": "## What it is\nInfection of the kidney, mostly bacterial (E. coli, streptococci), reaching it by climbing the urinary tract (often after instrumentation) or through blood.\n\n## Must-know facts\n- Acute: fever, chills, flank pain, costovertebral tenderness, dysuria, frequency, urgency, nocturia, hematuria, pyuria, malaise.\n- Chronic: often from obstruction or reflux (stone, tumor, neurogenic bladder); scarring of the kidney gradually leads to hypertension and kidney failure. Findings: fatigue, headache, poor appetite, polyuria, thirst, weight loss.\n- Tests: urinalysis, urine culture and sensitivity, ultrasound, IVP, CT, cystoscopy.\n\n## Priority nursing actions\n- Give antibiotics as ordered with antispasmodics and analgesics.\n- Bed rest; monitor vital signs, intake and output, and weight.\n- Force fluids (3-4 L/day unless restricted); cranberry or orange juice.\n- Teach regular bladder emptying and front-to-back perineal hygiene.\n\n## How the exam asks about it\nTell it apart from cystitis: pyelonephritis has flank pain, costovertebral tenderness, fever and chills. Untreated it can cause sepsis and kidney damage; see [[Sepsis and Septic Shock Recognition]].\n\n## Related topics\n[[Cystitis and Urethritis]], [[Urolithiasis: Kidney and Urinary Stones]], [[Chronic Kidney Disease: Causes and Stages]]",
+  "tags": [
+   "renal",
+   "infection",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Pyelonephritis"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-agn",
+  "area": "NP4",
+  "title": "Acute Glomerulonephritis (Nephritic Syndrome)",
+  "body": "## What it is\nInflammation and damage of the glomeruli. Antibody-antigen complexes get trapped in the glomeruli, reducing filtration. The classic form follows a group A beta-hemolytic streptococcus throat infection by about 7-10 days.\n\n## Must-know facts\n- Hallmark sign: periorbital (around the eyes) edema.\n- Other findings: hematuria (smoky/cola urine), proteinuria, oliguria, hypertension, headache, visual disturbance, flank pain, fever, malaise, dyspnea from salt and water retention, tachycardia.\n- Tests: urinalysis with RBCs, protein and casts; raised BUN and creatinine; raised ESR; positive streptococcal antibody tests; hyperkalemia.\n- Chronic glomerulonephritis links with hypertensive kidney damage, heart failure and chronic kidney failure.\n\n## Priority nursing actions\n- Monitor vital signs, intake and output, daily weight, urine specific gravity.\n- Restrict sodium, fluid and protein; give carbohydrates freely for energy and to spare protein.\n- Skin care for edema; give diuretics, antihypertensives and corticosteroids as ordered; penicillin if streptococcal infection persists.\n- Watch for complications: kidney failure, heart failure, hypertensive encephalopathy.\n- Rest while hematuria and proteinuria persist, then resume activity.\n\n## How the exam asks about it\nContrast: nephritic = blood, hypertension, oliguria; nephrotic = massive protein loss and big edema. See [[Nephrotic Syndrome]].\n\n## Related topics\n[[Acute Renal Failure: Causes, Phases and Findings]], [[Hyperkalemia]]\n\n## Check against your textbook\nThe handout writes \"Elevated Erythropoietin Sedimentation Rate\"; this should be erythrocyte sedimentation rate. It also lists hypophosphatemia, which you should verify.",
+  "tags": [
+   "renal",
+   "glomerular",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Acute glomerulonephritis/Nephritic syndrome"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-nephrotic",
+  "area": "NP4",
+  "title": "Nephrotic Syndrome",
+  "body": "## What it is\nA glomerular problem in which the filter becomes too leaky, so large amounts of protein (especially albumin) are lost in urine. Low blood albumin lets fluid leak out of vessels into tissues.\n\n## Must-know facts\n- Hallmark sign: anasarca (generalized edema), soft and pitting; also periorbital, dependent (sacrum, ankles, hands) edema and ascites.\n- Other: irritability, headache, malaise.\n- Findings: massive proteinuria, white cells in urine; kidney biopsy confirms.\n- Complications: infection, thromboembolism including pulmonary embolism, acute kidney failure, faster atherosclerosis.\n\n## Priority nursing actions\n- Monitor vital signs, intake and output, daily weight and urine specific gravity.\n- Restrict sodium, fluid and protein as ordered; give carbohydrates generously.\n- Protect fragile edematous skin; watch for infection and kidney or heart failure.\n- Medicines: diuretics, ACE inhibitors, lipid-lowering drugs.\n\n## How the exam asks about it\nKnow the difference from AGN: nephrotic = protein and edema; nephritic = blood and hypertension. See [[Acute Glomerulonephritis (Nephritic Syndrome)]] and [[Fluid Volume Excess (Hypervolemia)]].\n\n## Related topics\n[[Chronic Kidney Disease: Causes and Stages]]\n\n## Check against your textbook\nThe handout copies the nursing care list from AGN, including \"promote rest when hematuria resolves\"; hematuria is not the key finding in nephrotic syndrome. Also check whether protein is restricted, as practice varies.",
+  "tags": [
+   "renal",
+   "glomerular",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Nephrotic syndrome"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-arf-phases",
+  "area": "NP4",
+  "title": "Acute Renal Failure: Causes, Phases and Findings",
+  "body": "## What it is\nA sudden, often reversible drop in kidney function with build-up of waste (rising BUN and creatinine). Includes acute tubular necrosis.\n\n## Causes\n- Pre-renal: poor blood flow to the kidney (volume loss, weak heart, vasodilation).\n- Intra-renal: actual kidney damage (prolonged ischemia, nephrotoxic drugs, infection).\n- Post-renal: blocked urine flow (stones, tumors, BPH, clots).\n\n## Phases\n- Onset: from the injury until oliguria starts (about 1-3 days).\n- Oliguric: urine under 400 mL/24 h for about 3 days to 2 weeks; BUN and creatinine rise; edema, hypertension, hyperkalemia, hyponatremia, hyperphosphatemia, metabolic acidosis.\n- Diuretic: urine climbs to about 3-5 L/day; BUN stays high at first; hypokalemia and dehydration become the risk.\n- Recovery: function improves over 3-12 months; avoid nephrotoxic drugs; can progress to chronic failure.\n\n## Findings\nLab: hyperkalemia, hyperphosphatemia, hypocalcemia, metabolic acidosis, azotemia, casts, RBCs and WBCs in urine. Clinical: sudden fall in urine output, irritability, headache, anorexia, tingling, lethargy, twitching or seizures, pallor, ammonia breath, edema, hypertension that can lead to pulmonary edema.\n\n## How the exam asks about it\nOliguric phase = watch fluid overload and hyperkalemia; diuretic phase = watch fluid loss and hypokalemia. See [[Hyperkalemia]] and [[Hypokalemia]].\n\n## Related topics\n[[Acute Renal Failure: Treatment and Nursing Care]], [[Metabolic Acidosis]]",
+  "tags": [
+   "renal",
+   "AKI",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Acute renal failure",
+   "Causes",
+   "Phases",
+   "Diagnostic findings"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-arf-care",
+  "area": "NP4",
+  "title": "Acute Renal Failure: Treatment and Nursing Care",
+  "body": "## What it is\nManagement centers on fixing the cause and protecting the client while kidneys recover.\n\n## Treatment (handout)\n- Correct underlying cause (restore perfusion, stop nephrotoxic drugs, relieve obstruction).\n- Loop diuretics, ACE inhibitors for hypertension, H2 blockers to prevent stomach ulcers.\n- Kayexalate (sodium polystyrene) to lower potassium; sodium bicarbonate for acidosis.\n- Dialysis when needed (peritoneal or hemodialysis).\n\n## Priority nursing actions\n- Monitor intake and output, weigh daily, check for overhydration (edema, crackles, headache, neck vein distention, hypertension).\n- Watch for hyperkalemia and acidosis first: dangerous rhythms are life-threatening.\n- Diet: modest protein restriction, high carbohydrate, restricted potassium; TPN if needed.\n- Watch for oliguria followed by polyuria.\n- Protect from injury, give skin care, allow undisturbed rest.\n\n## How the exam asks about it\nThe priority question is usually the electrolyte that can stop the heart (potassium). See [[Hyperkalemia]].\n\n## Related topics\n[[Acute Renal Failure: Causes, Phases and Findings]], [[Hemodialysis and Vascular Access]], [[Peritoneal Dialysis]]\n\n## Check against your textbook\nThe handout calls dopamine a volume expander for restoring renal perfusion; dopamine is a vasoactive drug, and its role is debated. Confirm.",
+  "tags": [
+   "renal",
+   "AKI",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Acute renal failure management",
+   "Nursing management"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-ckd-stages",
+  "area": "NP4",
+  "title": "Chronic Kidney Disease: Causes and Stages",
+  "body": "## What it is\nPermanent, progressive loss of nephrons and glomerular function with build-up of waste (uremia).\n\n## Must-know facts\n- Leading causes: diabetic nephropathy (number one), hypertension, glomerulonephritis, lupus (SLE).\n- Normal GFR is about 125 mL/min/1.73 m2.\n- Stages by GFR (handout): stage 1 above 90 (damage with normal GFR); stage 2 60-89; stage 3 30-59; stage 4 15-29; stage 5 below 15 (kidney failure, ESRD).\n- Course by function: diminished reserve (no symptoms), renal insufficiency (waste accumulates, GFR falls), then end-stage renal disease with uremia, which is life-threatening.\n\n## How the exam asks about it\nKnow that the first sign of trouble can be silent. Control blood pressure and blood sugar to slow progression. See [[Chronic Kidney Disease: Findings by Body System]].\n\n## Related topics\n[[Acute Glomerulonephritis (Nephritic Syndrome)]], [[Nephrotic Syndrome]], [[Chronic Kidney Disease: Diet and Nursing Care]]\n\n## Check against your textbook\nThe handout says GFR is \"mildly increased\" in stages 2-4; it is actually mildly, moderately and severely decreased. Stage 5 should read below 15.",
+  "tags": [
+   "renal",
+   "CKD",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Chronic renal failure",
+   "Stages of CKD"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-ckd-findings",
+  "area": "NP4",
+  "title": "Chronic Kidney Disease: Findings by Body System",
+  "body": "## What it is\nUremia affects nearly every body system.\n\n## Findings by system (handout)\n- GI: nausea, vomiting, stomatitis, uremic breath (ammonia odor), diarrhea or constipation.\n- Respiratory: Kussmaul respirations (deep, rapid, from acidosis), weak cough reflex.\n- Fluid and electrolytes: hyperkalemia, dilutional hyponatremia, hypermagnesemia, hyperphosphatemia.\n- Skin: itching, dry skin, uremic frost, edema.\n- Cardiovascular: hypertension (RAAS activation), pericarditis from uremic toxins.\n- Blood: anemia (low erythropoietin) and thrombocytopenia (bleeding).\n- Bones and muscle: cramps, weakness, renal osteodystrophy, bone pain and fractures.\n- Reproductive: amenorrhea, testicular atrophy, infertility, low libido.\n- Nervous system: confusion, disorientation, seizures, burning feet, behavior change.\n\n## Why it happens\nFailing kidneys cannot clear waste, make erythropoietin, activate vitamin D (low calcium, high phosphorus, bone loss) or excrete acid, potassium and water.\n\n## How the exam asks about it\nLife-threatening items to spot: hyperkalemia, pulmonary edema, pericarditis, seizures. See [[Hyperkalemia]] and [[Phosphate Imbalances]].\n\n## Related topics\n[[Chronic Kidney Disease: Causes and Stages]], [[Metabolic Acidosis]]",
+  "tags": [
+   "renal",
+   "CKD",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Clinical manifestations of CKD"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-ckd-care",
+  "area": "NP4",
+  "title": "Chronic Kidney Disease: Diet and Nursing Care",
+  "body": "## What it is\nCare aims to slow decline, keep fluid and electrolytes balanced, prevent complications, and prepare for dialysis or transplant.\n\n## Medications\nCalcium and phosphorus binders (for example aluminum hydroxide gel), antihypertensives and cardiac drugs, antiseizure drugs, and erythropoietin for anemia.\n\n## Nutrition\n- Regulate protein; allow high biologic value protein (dairy, eggs, meat).\n- Fluid allowance: urine output of the previous 24 hours plus about 500-600 mL.\n- Some potassium restriction; enough calories and vitamins.\n\n## Priority nursing actions\n- Monitor vital signs, intake and output, daily weight, edema; listen to breath sounds.\n- Prevent infection and injury: meticulous skin care, soft toothbrush, avoid aspirin (bleeding), protect from infection, balance activity with rest.\n- Comfort: analgesics, antipruritics.\n- Emotional support: promote hope, allow expression of feelings, link to community resources, prepare for dialysis or kidney transplant.\n\n## How the exam asks about it\nExpect questions on which foods to limit (potassium, phosphorus, sodium) and on the fluid allowance.\n\n## Related topics\n[[Chronic Kidney Disease: Findings by Body System]], [[Hemodialysis and Vascular Access]], [[Peritoneal Dialysis]], [[Kidney Transplant: Donation and Nursing Care]]\n\n## Check against your textbook\nThe handout names Amphojel as a binder; many units now use other binders. Confirm.",
+  "tags": [
+   "renal",
+   "CKD",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "CKD nursing management",
+   "Nutrition therapy"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-peritoneal-dialysis",
+  "area": "NP4",
+  "title": "Peritoneal Dialysis",
+  "body": "## What it is\nDialysis solution is run into the abdominal cavity through a catheter. The peritoneum acts as the filter: waste (urea, creatinine) and extra fluid move into the dialysate by diffusion and osmosis, then the fluid is drained.\n\n## Must-know facts\n- The client can do it alone, at home, and it can be used in hemodynamically unstable clients.\n- Drainage color: normally clear/colorless; cloudy = infection (peritonitis); bloody is common in the first exchanges; yellow may mean the bladder was punctured.\n\n## Priority nursing actions\n- Before: consent, baseline vital signs, explain the procedure, empty bladder and bowel (avoid puncture), warm the dialysate.\n- Antibiotic and heparin may be added as ordered.\n- During: regulate inflow and drainage, record the fluid balance, keep comfort.\n- Watch for leakage, blocked catheter, peritonitis (cloudy fluid, fever, abdominal pain), and infection at the exit site.\n- Monitor blood glucose (the solution contains glucose); teach catheter care.\n\n## How the exam asks about it\nCloudy return fluid is the red flag; use aseptic technique. Compare with [[Hemodialysis and Vascular Access]].\n\n## Related topics\n[[Chronic Kidney Disease: Diet and Nursing Care]], [[Acute Renal Failure: Treatment and Nursing Care]]\n\n## Check against your textbook\nHandout says to give broad-spectrum antibiotics and heparin before treatment; practice varies, so confirm with your textbook.",
+  "tags": [
+   "renal",
+   "dialysis",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Peritoneal dialysis"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-hemodialysis",
+  "area": "NP4",
+  "title": "Hemodialysis and Vascular Access",
+  "body": "## What it is\nBlood is pumped through a machine; waste and fluid pass across a semi-permeable membrane into dialysate by diffusion, osmosis and ultrafiltration.\n\n## Vascular access\n- AV fistula: surgical joining of an artery to a vein (usually forearm); needs at least about 14 days to mature. Check for a thrill (feel) and bruit (listen).\n- AV graft: synthetic or biologic tube placed between artery and vein when the client's own vessels are unsuitable.\n- Catheter: double-lumen large catheter into the subclavian, jugular or femoral vein.\n- Absent thrill or bruit means clotting or blockage: report immediately.\n\n## Priority nursing actions\n- Protect the access: no blood pressure, venipuncture or IV in the access arm.\n- Give IV drugs slowly; watch heart and lungs for complications.\n- Control electrolytes and diet.\n- Hold antihypertensives before dialysis if ordered to avoid low pressure.\n- Prevent infection: keep catheter site clean and dry, do not submerge it, keep it secured.\n- Comfort for itching: antihistamine, bath oils, lotion, short nails.\n\n## Complications of access\nPoor flow, clotting, infection, aneurysm, hand ischemia, heart failure.\n\n## Related topics\n[[Peritoneal Dialysis]], [[Chronic Kidney Disease: Diet and Nursing Care]], [[Acute Renal Failure: Treatment and Nursing Care]]\n\n## Check against your textbook\nThe handout does not list \"no BP or venipuncture in the access arm\", but this is standard teaching; confirm.",
+  "tags": [
+   "renal",
+   "dialysis",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Hemodialysis",
+   "Vascular access",
+   "Nursing management"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-transplant",
+  "area": "NP4",
+  "title": "Kidney Transplant: Donation and Nursing Care",
+  "body": "## What it is\nA kidney from a living or deceased donor is placed in a client whose kidneys no longer work.\n\n## Law\nOrgan Donation Act of 1991 (Republic Act 7170): any person at least 18 years old and of sound mind may donate all or part of the body after death for education, research, therapy or transplant. In deceased donation, death is diagnosed separately by two qualified physicians, neither of whom is on the removal team or the head of the hospital authorizing removal.\n\n## Donors\nLiving related, living unrelated (spouse, friend), and deceased donors (for example after severe head injury, stroke, drowning, brain tumor).\n\n## Before surgery\n- Tissue typing, blood typing, antibody screening, full physical and psychosocial evaluation.\n- Teach breathing exercises, pain options, diet limits and early ambulation.\n- Avoid blood transfusion for at least 2 weeks before; erythropoietin treats the anemia.\n\n## After surgery\n- Give immunosuppressants as ordered.\n- Watch for rejection (oliguria, edema, fever, rising blood pressure and weight, swelling or tenderness over the graft, rising creatinine) and infection (chills, fever, fast pulse and breathing, WBC change). Hand hygiene is vital.\n- Monitor urine output, prevent lung complications and care for the incision; assess coping.\n\n## Related topics\n[[Kidney Transplant Rejection Types]], [[Chronic Kidney Disease: Diet and Nursing Care]]\n\n## Check against your textbook\nHandout says \"cerebral anorexia\" (probably cerebral anoxia) and \"decreased donor\" (deceased). Verify the RA 7170 wording.",
+  "tags": [
+   "renal",
+   "transplant",
+   "law",
+   "area-guess"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Renal transplant",
+   "Organ Donation Act"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-transplant-rejection",
+  "area": "NP4",
+  "title": "Kidney Transplant Rejection Types",
+  "body": "## What it is\nThe body's immune system attacks the new kidney. The type depends on timing.\n\n## Types\n- Hyperacute: within hours. Antibody-antigen reaction. No urine output, blue flaccid kidney. The kidney must be removed and the client goes back to hemodialysis.\n- Acute: days to months. Immune defense against the donor kidney; urine output falls sharply, BUN and creatinine rise, fever, graft tenderness and swelling. Treated by raising immunosuppressant doses.\n- Chronic: months to years. Unclear cause, gradual loss of function, no specific treatment.\n\n## Detection\nUltrasound shows enlargement; percutaneous renal biopsy is the most reliable method.\n\n## How the exam asks about it\nMatch each type with its time frame and its action. Acute rejection is the one most nurses can help reverse by early reporting.\n\n## Related topics\n[[Kidney Transplant: Donation and Nursing Care]], [[Hemodialysis and Vascular Access]]",
+  "tags": [
+   "renal",
+   "transplant",
+   "area-guess"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Detecting rejection",
+   "Renal transplant rejection"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-fluid-compartments",
+  "area": "NP3",
+  "title": "Body Fluid Compartments and Fluid Movement",
+  "body": "## What it is\nWater and electrolytes make up about 60% of body weight, held in compartments separated by semi-permeable membranes.\n\n## Must-know facts\n- Intracellular fluid (inside cells) is the larger share (handout: 65%); extracellular fluid (outside cells) is the rest (35%). Extracellular fluid includes interstitial fluid between cells and plasma in the vessels (plasma and lymph about 8%); transcellular fluid (spinal, synovial, pleural, pericardial, peritoneal, eye fluids) is about 2%.\n- Main intracellular electrolytes: potassium and phosphorus. Main extracellular electrolytes: sodium and chloride.\n- Diffusion: solute moves from high to low concentration. Osmosis: water (solvent) moves toward the side with more dissolved particles. Homeostasis: balance of body fluid.\n- Gender: males about 60% water, females about 50% (muscle holds more water than fat).\n- Age: infants about 80%; the elderly have less muscle and a weaker thirst sensation. Both groups are at high risk for fluid and electrolyte imbalance.\n\n## How the exam asks about it\nInfants and elders become dehydrated fastest, so they are priority clients in vomiting, diarrhea or fever. See [[Fluid Volume Deficit (Hypovolemia)]].\n\n## Related topics\n[[Electrolyte Normal Values and Fluid Balance Lab Tests]], [[Fluid Volume Excess (Hypervolemia)]]\n\n## Check against your textbook\nThe handout's percentages (65/35 and interstitial 25%) do not add up neatly. Usual teaching is about two-thirds of body water inside cells and one-third outside; confirm.",
+  "tags": [
+   "fluids",
+   "electrolytes",
+   "area-guess"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Fluids and electrolytes definitions",
+   "Movement of fluids",
+   "Factors affecting balance"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-electrolyte-values-labs",
+  "area": "NP3",
+  "title": "Electrolyte Normal Values and Fluid Balance Lab Tests",
+  "body": "## What it is\nThe reference numbers and tests that show whether the client is dry or overloaded.\n\n## Normal electrolyte values (handout)\n- Sodium 135-145 mEq/L; potassium 3.5-5.5; calcium 4.5-5.5 mEq/L (8.5-10 mg/dL); phosphorus 1.7-2.6; chloride 98-108; magnesium 1.5-2.5.\n\n## Tests of fluid status\n- Urine specific gravity (normal 1.010-1.020): high when concentrated (dehydration), low when dilute (overload).\n- Hematocrit (men 39-49%, women 35-45%): high with hemoconcentration (dehydration), low when blood is diluted.\n- Serum osmolality 285-295 mOsm/kg: rises in dehydration, falls in fluid overload; sodium is its main driver.\n- Urine osmolality (random sample 50-1200 mOsm/kg): shows how well kidneys concentrate urine.\n\n## How the exam asks about it\nThe question often gives a lab and asks what it means: raised hematocrit, specific gravity and osmolality together mean fluid deficit. See [[Fluid Volume Deficit (Hypovolemia)]] and [[Fluid Volume Excess (Hypervolemia)]].\n\n## Related topics\n[[Body Fluid Compartments and Fluid Movement]], [[Urine Volume Control and Normal Urine Values]]\n\n## Check against your textbook\nRanges differ between labs; the handout's calcium and phosphorus mEq/L values are less common than mg/dL. Confirm with your lab.",
+  "tags": [
+   "fluids",
+   "labs",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Normal laboratory values for electrolytes",
+   "Laboratory tests indicating fluid imbalance"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-hypokalemia",
+  "area": "NP3",
+  "title": "Hypokalemia",
+  "body": "## What it is\nLow serum potassium (below about 3.5 mEq/L). Potassium is the main positive ion inside cells and drives nerve and muscle activity, including the heart.\n\n## Causes\nPotassium-wasting diuretics, diarrhea, vomiting, heavy sweating, poor intake, and low magnesium (which moves potassium into cells). Alkalosis also pushes potassium into cells.\n\n## Findings\n- Heart: irregular rhythm; ECG shows prominent U wave and flat T wave.\n- Muscle weakness, cramps, paralysis, irritability, rhabdomyolysis.\n- Hyperglycemia (less insulin release).\n- Long-standing: kidney cannot concentrate urine, so polyuria, nocturia and thirst.\n\n## Priority nursing actions\n- Heart rhythm and breathing come first: place on a monitor, report rhythm changes.\n- Give potassium as ordered, diluted and slowly, never as IV push; check urine output first.\n- Encourage potassium-rich foods; teach those on diuretics.\n\n## How the exam asks about it\nLook for weakness, U waves and diuretic use. Potassium is dangerous in both directions, so contrast with [[Hyperkalemia]].\n\n## Related topics\n[[Metabolic Alkalosis]], [[Magnesium Imbalances]]\n\n## Check against your textbook\nIV potassium safety rules (rate, concentration, never push) are standard teaching but are not in the handout; confirm.",
+  "tags": [
+   "fluids",
+   "potassium",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Hypokalemia"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-hyperkalemia",
+  "area": "NP3",
+  "title": "Hyperkalemia",
+  "body": "## What it is\nHigh serum potassium (above about 5.5 mEq/L); a life-threatening rhythm risk.\n\n## Causes\nKidney failure (poor excretion) is the most common. Also too much potassium intake or over-aggressive replacement, acidosis (potassium shifts out of cells), hemolyzed blood transfusion, and leukocytosis in leukemia.\n\n## Findings\n- ECG: peaked narrow T waves, longer PR interval, shortened QT, then wide QRS and ventricular fibrillation as levels rise.\n- Tingling, weakness, constipation, lethargy, irregular pulse.\n\n## Priority nursing actions\n- Cardiac monitoring and ECG first; report changes right away.\n- Stop potassium sources (IV, supplements); restrict potassium in diet.\n- Kayexalate (sodium polystyrene) removes potassium through the gut; dialysis in severe cases. Other emergency treatments are per the doctor's orders.\n\n## How the exam asks about it\nKidney failure, acidosis, burns early phase and glomerulonephritis commonly come with hyperkalemia. See [[Acute Renal Failure: Causes, Phases and Findings]] and [[Burn Pathophysiology and Whole-Body Response]].\n\n## Related topics\n[[Hypokalemia]], [[Metabolic Acidosis]]\n\n## Check against your textbook\nThe emergency drugs (calcium, insulin with glucose) are not in the handout; confirm.",
+  "tags": [
+   "fluids",
+   "potassium",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Hyperkalemia"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-sodium-imbalance",
+  "area": "NP3",
+  "title": "Hyponatremia and Hypernatremia",
+  "body": "## What it is\nSodium is the main extracellular positive ion and decides how much water stays in the vessels and around cells.\n\n## Hyponatremia (low sodium)\n- Usually from too much water diluting sodium, as in SIADH or excess IV fluid; also sodium-free IV fluids and drugs such as diuretics, ACE inhibitors, carbamazepine, NSAIDs, tricyclic antidepressants, heparin and sulfonylureas.\n- Findings: fatigue, weakness, nausea, headache, confusion, seizure, coma.\n\n## Hypernatremia (high sodium)\n- Too much sodium or water loss from diarrhea, vomiting, diuretics, sweating, heavy breathing or severe burns. Drugs that can raise it include corticosteroids, laxatives and estrogens.\n- Findings: thirst, dry skin and mucous membranes, poor turgor, twitching, irritability, delirium.\n\n## Priority nursing actions\nCheck neurological status first (confusion, seizure risk); monitor intake and output and serum sodium; correct slowly as ordered because fast shifts can injure the brain; seizure precautions.\n\n## How the exam asks about it\nNeurological changes are the key sign for both. Sodium also shifts after trauma and shock (RAAS). See [[Urine Volume Control and Normal Urine Values]].\n\n## Related topics\n[[Fluid Volume Deficit (Hypovolemia)]], [[Fluid Volume Excess (Hypervolemia)]]\n\n## Check against your textbook\nThe handout's long drug list is incomplete; confirm in a pharmacology text. Correction-rate advice is added by me.",
+  "tags": [
+   "fluids",
+   "sodium",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Sodium",
+   "Hyponatremia",
+   "Hypernatremia"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-chloride-imbalance",
+  "area": "NP3",
+  "title": "Chloride Imbalances",
+  "body": "## What it is\nChloride comes mainly from dietary salt and moves with sodium; it partners with acid-base balance.\n\n## Hypochloremia\n- Causes: vomiting, diarrhea, gastric suction (loss of acid, so metabolic alkalosis), chronic lung disease, and sodium loss.\n- Findings: muscle and nerve hyperexcitability, shallow breathing, low blood pressure, tetany.\n\n## Hyperchloremia\n- Causes: dehydration, kidney disease, excess parathyroid hormone, metabolic acidosis (base lost) and respiratory alkalosis from hyperventilation.\n- Findings: lethargy, weakness, deep breathing.\n\n## How the exam asks about it\nGastric suction or prolonged vomiting leads to low chloride and low potassium with alkalosis. See [[Metabolic Alkalosis]].\n\n## Related topics\n[[Hyponatremia and Hypernatremia]], [[Metabolic Acidosis]]",
+  "tags": [
+   "fluids",
+   "chloride",
+   "area-guess"
+  ],
+  "priority": "low",
+  "outlineRefs": [
+   "Chloride",
+   "Hypochloremia",
+   "Hyperchloremia"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-hypocalcemia",
+  "area": "NP3",
+  "title": "Hypocalcemia",
+  "body": "## What it is\nLow calcium. Calcium helps blood clotting, nerve and muscle function and heart contraction.\n\n## Causes\nHypoparathyroidism, poor intake, low vitamin D, low magnesium, high phosphorus, acute pancreatitis, chronic kidney failure, alkalosis (calcium binds protein), bone disease, malnutrition, alcoholism.\n\n## Findings\n- Nervousness, excitability, cramps, tetany, laryngospasm.\n- Trousseau's sign (carpopedal spasm when a blood pressure cuff is inflated) and Chvostek's sign (facial twitch when the cheek is tapped).\n- ECG: prolonged QT.\n\n## Priority nursing actions\n- Airway first: laryngospasm can close the airway; keep emergency equipment close.\n- Seizure precautions; give calcium and vitamin D as ordered; monitor ECG.\n\n## How the exam asks about it\nTetany plus Trousseau or Chvostek signs = low calcium. Think of thyroid or neck surgery risk to the parathyroid glands. See [[Phosphate Imbalances]].\n\n## Related topics\n[[Hypercalcemia]], [[Magnesium Imbalances]]\n\n## Check against your textbook\nNeck surgery as a cause is textbook knowledge added by me.",
+  "tags": [
+   "fluids",
+   "calcium",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Calcium",
+   "Hypocalcemia"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-hypercalcemia",
+  "area": "NP3",
+  "title": "Hypercalcemia",
+  "body": "## What it is\nHigh serum calcium; slows nerve and muscle activity (calcium excites skeletal muscle but inhibits smooth and cardiac muscle).\n\n## Causes\nHyperparathyroidism (often a tumor), bone cancer releasing calcium, hyperthyroidism, immobility with bone breakdown, sarcoidosis, tuberculosis, vitamin D excess, kidney transplant.\n\n## Findings\nAnorexia, nausea, vomiting, muscle weakness, drowsiness, coma; ECG: shortened QT.\n\n## Priority nursing actions\nMonitor heart rhythm and neurological status; hydrate as ordered; encourage mobility; keep safety measures for weakness.\n\n## How the exam asks about it\nRemember the mirror image: high phosphate = low calcium, low phosphate = high calcium. Immobile clients are at risk for hypercalcemia. See [[Hypocalcemia]] and [[Phosphate Imbalances]].\n\n## Related topics\n[[Fluid Volume Deficit (Hypovolemia)]]\n\n## Check against your textbook\nThe handout gives no treatments; the nursing actions are my general additions.",
+  "tags": [
+   "fluids",
+   "calcium",
+   "area-guess"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Hypercalcemia"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-magnesium-imbalance",
+  "area": "NP3",
+  "title": "Magnesium Imbalances",
+  "body": "## What it is\nMagnesium sits mostly inside cells attached to ATP and supports nearly all metabolic work.\n\n## Hypomagnesemia\n- Causes: poorly controlled diabetes, alcohol abuse, loop and thiazide diuretics, cisplatin, gentamicin, amphotericin, cyclosporine; malabsorption (diarrhea, Crohn's disease, intestinal surgery).\n- Findings: neuromuscular weakness, irritability, convulsions, tetany, ECG changes, delirium.\n\n## Hypermagnesemia\n- Causes: too much intake (magnesium antacids) and kidney failure.\n- Findings: mental status changes, nausea, diarrhea, appetite loss, weakness, difficulty breathing, very low blood pressure, irregular heartbeat.\n\n## Priority nursing actions\nMonitor breathing, heart rhythm and neuro status; avoid magnesium-containing antacids in kidney disease.\n\n## Related topics\n[[Hypocalcemia]], [[Hypokalemia]], [[Chronic Kidney Disease: Findings by Body System]]\n\n## Check against your textbook\nHandout lists no treatment; reflex testing and drug antidotes are in your textbook.",
+  "tags": [
+   "fluids",
+   "magnesium",
+   "area-guess"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Magnesium",
+   "Hypomagnesemia",
+   "Hypermagnesemia"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-phosphate-imbalance",
+  "area": "NP3",
+  "title": "Phosphate Imbalances",
+  "body": "## What it is\nPhosphate is the inorganic phosphorus in blood and a key acid-base buffer. It moves opposite to calcium: high phosphate means low calcium, and low phosphate means high calcium.\n\n## Hypophosphatemia\n- Causes: antacids that bind phosphate, high parathyroid hormone, high calcium, vitamin D deficiency.\n- Findings: weak breathing muscles (trouble weaning from a ventilator), less oxygen release to tissues, weak heart muscle with low blood pressure and arrhythmia, delirium, seizures, neuropathy.\n\n## Hyperphosphatemia\n- Causes: kidney failure, tumors, cell injury (trauma, severe infection, rhabdomyolysis, hemolysis), hypoparathyroidism, vitamin D intoxication, thyrotoxicosis, acidosis.\n- Findings: confusion, seizures, cramps, tetany with Chvostek and Trousseau signs, low blood pressure, heart failure; long-term calcification of vessels with hypertension.\n\n## How the exam asks about it\nIn kidney failure expect high phosphorus and low calcium, treated with binders and diet. See [[Chronic Kidney Disease: Diet and Nursing Care]].\n\n## Related topics\n[[Hypocalcemia]], [[Hypercalcemia]]\n\n## Check against your textbook\nThe handout says acromegaly arises from growth hormone deficiency; it is growth hormone excess. Confirm.",
+  "tags": [
+   "fluids",
+   "phosphate",
+   "area-guess"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Phosphate",
+   "Hypophosphatemia",
+   "Hyperphosphatemia"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-fvd",
+  "area": "NP3",
+  "title": "Fluid Volume Deficit (Hypovolemia)",
+  "body": "## What it is\nLoss of extracellular fluid that is greater than intake, with salt and water lost in similar proportions. Dehydration, in contrast, is water loss without electrolyte loss (thirst, weight loss, fever, dry mouth, warm flushed dry skin, sunken eyes).\n\n## Causes\nVomiting, diarrhea, GI suction, sweating, hemorrhage, diabetes insipidus, adrenal insufficiency, osmotic diuresis, and third-space shifts (burn edema, ascites).\n\n## Findings\nAcute weight loss, poor turgor, oliguria with concentrated urine, orthostatic hypotension, weak rapid pulse, flat neck veins, thirst, delayed capillary refill, low central venous pressure, cool clammy skin, weakness, cramps. Labs: high BUN out of proportion to creatinine, high specific gravity, urine osmolality above about 450.\n\n## Priority nursing actions\n- Assess circulation, vital signs and mental status first; measure intake and output at least every 8 hours.\n- Replace fluids: isotonic solutions (lactated Ringer's, 0.9% saline) for a low blood pressure; 0.45% saline later gives water for waste excretion.\n- Give oral fluids if tolerated (oral rehydration solutions), mouth care; antiemetics if nauseated.\n\n## How the exam asks about it\nShock risk is the priority. See [[Circulation and Shock Overview]] and [[Burn Fluid Resuscitation: Parkland and Brooke Formulas]].\n\n## Related topics\n[[Fluid Volume Excess (Hypervolemia)]], [[Electrolyte Normal Values and Fluid Balance Lab Tests]]",
+  "tags": [
+   "fluids",
+   "hypovolemia",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Dehydration",
+   "Fluid volume deficit"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-fve",
+  "area": "NP3",
+  "title": "Fluid Volume Excess (Hypervolemia)",
+  "body": "## What it is\nIsotonic expansion of extracellular fluid from retained water and sodium, as in kidney failure, heart failure and liver cirrhosis, or too much sodium-containing IV fluid.\n\n## Findings\nEdema, distended neck veins, crackles, tachycardia, high blood pressure, pulse pressure and central venous pressure, weight gain, shortness of breath, wheezing, high urine output. Labs: BUN and hematocrit fall (dilution); chest x-ray shows congestion.\n\n## Priority nursing actions\n- Airway and breathing: raise the head (semi-Fowler's), assess breath sounds.\n- Stop or slow the infusion if it caused the problem.\n- Give diuretics (thiazide, or loop drugs: furosemide, bumetanide, torsemide); potassium-wasting ones need potassium monitoring; spironolactone can raise potassium. Dialysis can remove fluid.\n- Weigh daily (1 kg gain is about 1 L fluid), measure edema (pitting scale 1-4), restrict sodium, avoid over-the-counter drugs containing sodium, reposition often to protect skin.\n\n## How the exam asks about it\nDaily weight is the most reliable indicator of fluid balance. See [[Nephrotic Syndrome]].\n\n## Related topics\n[[Fluid Volume Deficit (Hypovolemia)]], [[Hyperkalemia]]",
+  "tags": [
+   "fluids",
+   "hypervolemia",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Fluid volume excess"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-abg-basics",
+  "area": "NP3",
+  "title": "Arterial Blood Gas Basics",
+  "body": "## What it is\nArterial blood gases show acid-base balance.\n\n## Normal values (handout)\npH 7.35-7.45; PCO2 35-45 mmHg; PO2 80-100 mmHg; bicarbonate 22-26 mEq/L.\n\n## How to read\n- pH below 7.35 = acidosis; above 7.45 = alkalosis.\n- Then find the cause: respiratory problems change PCO2 (CO2 is an acid); metabolic problems change bicarbonate (a base).\n- Respiratory acidosis: pH down, PCO2 up. Respiratory alkalosis: pH up, PCO2 down. Metabolic acidosis: pH down, bicarbonate down. Metabolic alkalosis: pH up, bicarbonate up.\n\n## Memory aid\n\"ROME\" (made-up here): Respiratory Opposite, Metabolic Equal (pH and PCO2 move in opposite directions in respiratory problems; pH and bicarbonate move together in metabolic ones).\n\n## Related topics\n[[Metabolic Acidosis]], [[Metabolic Alkalosis]], [[Respiratory Acidosis]], [[Respiratory Alkalosis]]\n\n## Check against your textbook\nThe compensation steps are summarized from general teaching, not the handout.",
+  "tags": [
+   "acid-base",
+   "ABG",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Arterial blood gases"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-metabolic-acidosis",
+  "area": "NP3",
+  "title": "Metabolic Acidosis",
+  "body": "## What it is\nLow pH (below 7.35) with low bicarbonate (below 22).\n\n## Causes\nToo much acid (lactic acidosis in fever or seizure, diabetic ketoacidosis, starvation, alcohol, aspirin), poor acid removal, poor bicarbonate production (kidney failure, pancreatic insufficiency) or bicarbonate loss (diarrhea).\n\n## Findings\nLethargy, rapid deep breathing (Kussmaul, the lungs compensating), hypotension from vasodilation, tachycardia early then bradycardia and conduction block later, and hyperkalemia (potassium leaves cells; after correction potassium can drop).\n\n## Treatment and nursing care\n- Fix the cause: insulin and fluids in DKA; dialysis for poisoning or kidney failure; bicarbonate if low.\n- Monitor intake and output, vital signs, labs and ABG.\n\n## How the exam asks about it\nDeep rapid breathing in a diabetic or renal client = acidosis. See [[Hyperkalemia]] and [[Chronic Kidney Disease: Findings by Body System]].\n\n## Related topics\n[[Metabolic Alkalosis]], [[Arterial Blood Gas Basics]]",
+  "tags": [
+   "acid-base",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Metabolic acidosis"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-metabolic-alkalosis",
+  "area": "NP3",
+  "title": "Metabolic Alkalosis",
+  "body": "## What it is\nHigh pH (above 7.45) with high bicarbonate (above 26), through acid loss or bicarbonate gain.\n\n## Causes\nExcess antacids, long-term parenteral nutrition, prolonged vomiting or nasogastric suction, thiazide diuretics.\n\n## Findings\nMuscle weakness, cramping and twitching; low potassium and low chloride; low calcium may add tetany.\n\n## Treatment and nursing care\n- Give chloride so the kidney can excrete bicarbonate; potassium chloride when potassium is low.\n- Monitor ABG and electrolytes, vital signs, cardiac rhythm, intake and output, IV site for infiltration, neuro status; give oxygen or fluids as ordered.\n\n## How the exam asks about it\nGastric suction or vomiting with weakness and low potassium = metabolic alkalosis. See [[Hypokalemia]] and [[Chloride Imbalances]].\n\n## Related topics\n[[Metabolic Acidosis]], [[Arterial Blood Gas Basics]]",
+  "tags": [
+   "acid-base",
+   "area-guess"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Metabolic alkalosis"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-respiratory-acidosis",
+  "area": "NP3",
+  "title": "Respiratory Acidosis",
+  "body": "## What it is\npH below 7.35 with PaCO2 above 45 mmHg, always from too little ventilation, so CO2 builds up as carbonic acid.\n\n## Causes\nForeign body aspiration, atelectasis, pneumothorax, sedative overdose, sleep apnea, ARDS; and weak breathing muscles in muscular dystrophy, myasthenia gravis and Guillain-Barre syndrome.\n\n## Findings\nFast pulse and respirations, a feeling of fullness in the head; PaCO2 above 60 is severe; hyperkalemia.\n\n## Priority nursing actions\n- Airway and breathing first: improve ventilation, clear secretions, position upright.\n- Hydrate (2-3 L/day) to thin secretions; give oxygen as ordered (cautiously in chronic lung disease).\n\n## How the exam asks about it\nSedated or neuromuscular clients who hypoventilate are classic. See [[Respiratory Failure Recognition]] and [[Airway Management in the Primary Survey]].\n\n## Related topics\n[[Respiratory Alkalosis]], [[Arterial Blood Gas Basics]]\n\n## Check against your textbook\nThe caution about oxygen in chronic lung disease is added by me.",
+  "tags": [
+   "acid-base",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Respiratory acidosis"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-respiratory-alkalosis",
+  "area": "NP3",
+  "title": "Respiratory Alkalosis",
+  "body": "## What it is\npH above 7.45 with PaCO2 below 35 mmHg, always from hyperventilation that blows off CO2.\n\n## Causes\nExtreme anxiety, gram-negative bacteremia (and in general fever, pain, hypoxia).\n\n## Findings\nLightheadedness (vasoconstriction lowers brain blood flow); low potassium because hydrogen moves out of cells in exchange for potassium.\n\n## Priority nursing actions\n- Treat the cause. For anxiety, coach slow breathing or breathing into a closed system (a paper bag) so CO2 builds up; calm the client.\n- Check serum electrolytes.\n\n## How the exam asks about it\nPanic attack with tingling and light-headedness = respiratory alkalosis. See [[Respiratory Acidosis]].\n\n## Related topics\n[[Arterial Blood Gas Basics]], [[Hypokalemia]]\n\n## Check against your textbook\nPaper bag use is no longer recommended in some settings; confirm your textbook.",
+  "tags": [
+   "acid-base",
+   "area-guess"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Respiratory alkalosis"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-burn-size-depth",
+  "area": "NP3",
+  "title": "Burn Size, Depth and Severity Categories",
+  "body": "## What it is\nA burn is cell death in the skin layers causing fluid and electrolyte loss. Classify it by size, depth and severity.\n\n## Size and depth\n- Extensive burn: 25% or more of total body surface area (TBSA); whole-body response.\n- First degree (superficial partial): red, dry, tingling, painful, blanches; heals in about a week with no scar.\n- Second degree (deep partial): blisters, mottled red, weeping, swollen, very painful and sensitive to air; heals in 2-4 weeks with some scarring; infection can turn it into full thickness.\n- Third degree (full thickness): dry, pale white, leathery or charred, painless (nerve endings destroyed), may involve fat, muscle and bone; needs grafting; scarring and contractures.\n\n## Severity categories (handout)\n- Minor: second degree under 15% TBSA in adults (under 10% in children), or third degree under 2%.\n- Moderate: second degree 15-25% adults (10-20% children), third degree under 10%.\n- Major: second degree over 25% adults (over 20% children), any burn over 10% third degree, burns of eyes, ears, face, hands, feet, perineum or joints, plus inhalation, electrical injury, trauma or poor-risk clients.\n\n## Assessment mnemonic\nSCALD: Size, Cause, Age, Location, Depth.\n\n## Related topics\n[[Degrees of Burns]], [[Rule of Nines and Burn Size Estimation]], [[Burn Types: Thermal, Chemical, Electrical and Radiation]]\n\n## Check against your textbook\nThe handout's first, second, third degree labels (superficial-partial, deep-partial, full) vary in other texts. Pain in full-thickness burns is absent only in the center; surrounding areas hurt.",
+  "tags": [
+   "burns",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Classification of burns",
+   "Burn depth",
+   "Extent of burn injury",
+   "Assessment of burn injury"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-burn-types",
+  "area": "NP3",
+  "title": "Burn Types: Thermal, Chemical, Electrical and Radiation",
+  "body": "## What it is\nBurns are grouped by cause because cause changes first aid and risk.\n\n## Types\n- Thermal (most common): flames, hot liquids, steam, hot objects.\n- Chemical: acids or alkali by contact, swallowing or inhaling; skin absorption may cause systemic toxicity.\n- Electrical: heat made as current passes through the body, so deep hidden injury to muscle and tissue, with entrance and exit wounds. Alternating current is more dangerous than direct current: cardiac arrest, ventricular fibrillation, tetany and fractures.\n- Radiation: UV light, x-rays or radioactive sources.\n- Smoke inhalation: see [[Smoke Inhalation and Carbon Monoxide Poisoning]].\n\n## First aid by type\n- Thermal: stop the burning (stop, drop, roll; smother with a blanket), cool, remove restrictive items, cover.\n- Chemical: remove contaminated clothing and flush with large amounts of running water; eyes immediately with clean water.\n- Electrical: make sure the source is off, note position and entry/exit points, protect the airway, check heart rate and rhythm.\n\n## How the exam asks about it\nElectrical injury is always a major burn: monitor the heart even if skin damage looks small. See [[Burn Care Phases and Emergency Priorities]].\n\n## Related topics\n[[Burn Size, Depth and Severity Categories]], [[Burns: Causes and Overview]]",
+  "tags": [
+   "burns",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Types of burns",
+   "Thermal, chemical, electrical, radiation burns"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-burn-smoke-co",
+  "area": "NP3",
+  "title": "Smoke Inhalation and Carbon Monoxide Poisoning",
+  "body": "## What it is\nBreathing hot air, steam, toxic fumes or smoke damages airways and blood oxygen carrying.\n\n## Findings of smoke inhalation\nFacial burns, swollen mouth and throat, singed nasal hair, stridor, wheezing, dyspnea, flaring nostrils, sooty sputum, cough, hoarse voice, anxiety and agitation, tachycardia.\n\n## Carbon monoxide poisoning\n- Colorless, odorless gas that binds hemoglobin about 200 times more strongly than oxygen, forming carboxyhemoglobin and displacing oxygen. Can cause coma and death.\n- Findings: headache, dizziness, weakness, palpitations; cherry-red skin and mucosa (a late sign).\n- Treatment: oxygen until carboxyhemoglobin is under 5%.\n\n## Smoke poisoning and heat injury\nCombustion by-products cause airway edema, wheezing, less ciliary action and surfactant; hours later the airway lining sloughs and bronchitis with bleeding can follow. Upper airway swelling peaks in the first 24-48 hours; watch for obstruction and prepare for endotracheal intubation.\n\n## Priority nursing actions\nAirway first: give 100% oxygen as ordered, assess for stridor and hoarseness, call for early intubation if swelling is progressing.\n\n## Related topics\n[[Burn Care Phases and Emergency Priorities]], [[Airway Management in the Primary Survey]], [[Respiratory Failure Recognition]]\n\n## Check against your textbook\nPulse oximetry can read falsely normal in CO poisoning; this is general teaching added by me.",
+  "tags": [
+   "burns",
+   "inhalation",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Smoke inhalation burns",
+   "Carbon monoxide poisoning",
+   "Smoke poisoning",
+   "Direct thermal heat injury"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-burn-pathophysiology",
+  "area": "NP3",
+  "title": "Burn Pathophysiology and Whole-Body Response",
+  "body": "## What it is\nBurns cause local damage and, if large, effects on every system.\n\n## Chain of events\nCapillaries leak, so edema forms and blood volume falls; blood thickens (higher hematocrit and viscosity), resistance rises and cardiac output falls, which leads to burn shock.\n\n## Local zones\n- Zone of coagulation: center, dead cells.\n- Zone of stasis: middle, poor perfusion that can be saved or lost.\n- Zone of hyperemia: outer, more blood flow, least damage.\n\n## Systemic changes\n- Fluid and electrolytes: massive edema; swelling in limbs can compress vessels (tourniquet effect). Early hyponatremia and hyperkalemia, later hypokalemia if potassium is not replaced. Hematocrit rises early then falls at days 3-4.\n- Heart: lower output and blood pressure.\n- Lungs: bronchoconstriction, pulmonary hypertension, ARDS.\n- Metabolism: BMR up to 3 times normal.\n- Immune system: suppressed, so sepsis is the leading cause of death.\n- Kidneys: oliguria first, then diuresis in following days.\n- GI: reduced blood flow, paralytic ileus and Curling's ulcer.\n\n## How the exam asks about it\nFirst 24-48 hours: hypovolemic shock; later: infection. See [[Burn Fluid Resuscitation: Parkland and Brooke Formulas]].\n\n## Related topics\n[[Burn Care Phases and Emergency Priorities]], [[Hyperkalemia]]\n\n## Check against your textbook\nThe handout says tumor necrosis factor is \"inflammatory cytokine necrosis factor\"; and says sepsis is the leading cause of \"morbidity and with thermal\" (sentence incomplete). Confirm.",
+  "tags": [
+   "burns",
+   "pathophysiology",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Pathophysiology of burns",
+   "Body's response to a burn"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-burn-phases",
+  "area": "NP3",
+  "title": "Burn Care Phases and Emergency Priorities",
+  "body": "## What it is\nBurn care runs through three phases.\n\n## Emergent (resuscitative) phase\n- From injury to complete fluid resuscitation, about 24-48 hours; fluid moves from vessels to tissue, causing hypovolemia.\n- Goal: prevent hypovolemic shock and keep organs working.\n- On scene, ABC first (airway, breathing, circulation). Remove from the source; stop, drop, roll; cool with water (never ice directly); remove restrictive objects and jewelry; cover with clean dry sheet (no ointments); irrigate chemical burns; start IV and transport.\n- Findings and labs: edema, hypotension, tachycardia, oliguria, thirst; hyperkalemia, hyponatremia, high hematocrit, metabolic acidosis.\n- Fire safety: RACE (Rescue, Alarm, Confine, Extinguish).\n\n## Acute (diuretic) phase\n- About 2-5 days after injury until wound closure; fluid returns to vessels.\n- Findings: diuresis, low hematocrit (dilution), hypertension, hypokalemia, hyponatremia, acidosis.\n- Focus: infection control, wound care, closure, nutrition, pain control and therapy.\n\n## Rehabilitative phase\nFrom wound closure to best function; prevent scars and contractures, physical and occupational therapy, reconstruction, counseling.\n\n## How the exam asks about it\nPotassium is high early and low later. See [[Phases of Burn Care]] and [[Burn First Aid, RACE and PASS]].\n\n## Related topics\n[[Burn Pathophysiology and Whole-Body Response]], [[Primary vs Secondary Survey]]\n\n## Check against your textbook\nHandout says the tests show hyponatremia in both emergent and acute phases; confirm.",
+  "tags": [
+   "burns",
+   "phases",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Phases of management of burn injury",
+   "Emergent phase",
+   "Acute phase",
+   "Rehabilitative phase"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-burn-fluids",
+  "area": "NP3",
+  "title": "Burn Fluid Resuscitation: Parkland and Brooke Formulas",
+  "body": "## What it is\nIV fluids replace the plasma lost into burned tissue. Needed for adults with burns over about 15-20% TBSA, children over about 10-15%, and for electrical injury, the elderly, or heart and lung disease.\n\n## Must-know facts\n- Goal: urine output about 30-50 mL/hr; hourly urine output is the most sensitive guide to perfusion. Good signs: stable vital signs, palpable pulses, adequate urine, clear mind.\n- If hemoglobin and hematocrit fall or urine is over 50 mL/hr, the rate may be reduced.\n- Lactated Ringer's (crystalloid) first; colloid (albumin) day 2.\n- Fluid times count from the time of injury, not hospital arrival.\n\n## Parkland (Baxter)\nDay 1: 4 mL x kg body weight x % TBSA of lactated Ringer's; half in the first 8 hours, half in the next 16. Worked example: 70 kg, 80% TBSA = 4 x 70 x 80 = 22,400 mL; first 8 hours 11,200 mL; next two 8-hour blocks 5,600 mL each. Day 2: colloid 0.5 mL x kg x % TBSA plus 2,000 mL D5W over 24 hours.\n\n## Brooke\nDay 1: lactated Ringer's 1.5 mL x kg x % TBSA, colloid 0.5 mL x kg x % TBSA, and 2,000 mL D5W; day 2 half the colloid and electrolytes, all the D5W. Burns above 50% TBSA are calculated as 50%.\n\n## How the exam asks about it\nCompute using the starting time of injury and know which half comes first.\n\n## Related topics\n[[Other Burn Management: Fluids, Airway and Complications]], [[Fluid Volume Deficit (Hypovolemia)]]\n\n## Check against your textbook\nFormula versions differ (day-2 values, the 50% cap) between sources; the handout's Brooke day-1 description is unclear. Verify.",
+  "tags": [
+   "burns",
+   "fluids",
+   "formula",
+   "area-guess"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Fluid resuscitation",
+   "Parkland/Baxter formula",
+   "Brooke Army formula"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-burn-pain-nutrition",
+  "area": "NP3",
+  "title": "Burn Pain, Nutrition and GI Protection",
+  "body": "## What it is\nSupportive care in burn recovery.\n\n## Pain\n- IV opioids (morphine, or meperidine) are first choice for acute burn pain.\n- Avoid IM and subcutaneous routes (absorption unreliable with shock and fluid shifts) and oral (GI dysfunction), except when ready for discharge.\n- Give analgesics 30 minutes before painful procedures (20 minutes before dressing changes in the handout); align burned areas.\n\n## Nutrition\n- Needed to heal and fight infection. NPO until bowel sounds return, then clear liquids, advance as ordered; enteral or parenteral nutrition when needed (weight loss above 10%, prolonged open wounds, poor nutrition).\n- Diet high in protein, carbohydrate, calories, vitamins and minerals.\n- Schedule wound care at least 1 hour before meals.\n\n## GI protection\nWatch for paralytic ileus and Curling's ulcer; NG tube as needed, antacids, PPIs or H2 blockers, check bowel sounds and test stool for blood.\n\n## Related topics\n[[Pain, Infection and Nutrition in Burns]], [[Burn Pathophysiology and Whole-Body Response]]\n\n## Check against your textbook\nHandout says carbohydrate \"5000 calories per day\" and protein 1.5-4 g/kg/day; these look extreme and should be verified. Also check that morphine is given IV.",
+  "tags": [
+   "burns",
+   "nutrition",
+   "pain",
+   "area-guess"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Pain management",
+   "Nutrition",
+   "Prevent GI complications"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-burn-wound-care",
+  "area": "NP3",
+  "title": "Burn Wound Dressing, Escharotomy and Fasciotomy",
+  "body": "## What it is\nBurn wound care means cleaning, removing dead tissue and covering the wound, in a sterile controlled environment.\n\n## Hydrotherapy\nImmersion, shower or spray for 30 minutes or less (more time increases sodium loss through the wound); water about 37.8 C; premedicate; not for unstable clients or new grafts; encourage exercise during the bath.\n\n## Dressings\nPat dry, apply topical agents. Light dressing over joints; circumferential wraps go distal to proximal, fingers and toes wrapped separately; occlusive dressing over new grafts (3-5 days).\n\n## Debridement\n- Natural: eschar separates on its own over weeks.\n- Mechanical: scissors, forceps, wet-to-dry dressings.\n- Surgical: excision to bleeding tissue, with large blood loss risk.\n\n## Escharotomy and fasciotomy\n- Escharotomy: lengthwise cut through eschar to relieve constriction in circumferential burns. Afterward check pulses, color, movement and sensation, control bleeding, pack lightly for 24 hours.\n- Fasciotomy: deeper incision through fascia in the operating room when circulation does not return after escharotomy.\n\n## How the exam asks about it\nCompartment syndrome signs (pain, pulselessness, pallor) call for urgent reporting. See [[Burn Wound Care Methods, Hydrotherapy and Debridement]].\n\n## Related topics\n[[Topical Antimicrobial Agents for Burns]], [[Burn Wound Closure: Autograft, Allograft and Xenograft]]",
+  "tags": [
+   "burns",
+   "wound care",
+   "area-guess"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Wound care",
+   "Hydrotherapy",
+   "Wound dressing",
+   "Debridement",
+   "Escharotomy",
+   "Fasciotomy"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-burn-topicals",
+  "area": "NP3",
+  "title": "Topical Antimicrobial Agents for Burns",
+  "body": "## What it is\nCreams and solutions applied to burn wounds to stop infection.\n\n## Agents\n- Silver sulfadiazine (Silvadene): strongly bactericidal, poor eschar penetration; applied 1-3 times daily after cleansing; watch for hypersensitivity and temporary low white cells; pseudoeschar removed after about 72 hours.\n- Mafenide acetate (Sulfamylon): penetrates eschar, drug of choice for electrical burns; painful (premedicate 30 minutes before), may cause metabolic acidosis; not for burns above 20% TBSA.\n- Silver nitrate 0.5%: does not penetrate eschar; keep dressings wet, moisten every 2 hours; stains gray-black; monitor sodium and potassium.\n- Others: cerium nitrate, povidone iodine, gentamicin (watch hearing, balance and kidneys), polymyxin B, bacitracin.\n\n## How the exam asks about it\nPair each drug with its key effect: silver sulfadiazine = leukopenia; mafenide = acidosis and pain; silver nitrate = electrolyte loss and staining. See [[Antimicrobials for Burns]].\n\n## Related topics\n[[Burn Wound Dressing, Escharotomy and Fasciotomy]], [[Metabolic Acidosis]]\n\n## Check against your textbook\nSulfa allergy cautions are standard but not in the handout; confirm.",
+  "tags": [
+   "burns",
+   "drugs",
+   "area-guess"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Topical antimicrobial agents"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-burn-closure",
+  "area": "NP3",
+  "title": "Burn Wound Closure: Autograft, Allograft and Xenograft",
+  "body": "## What it is\nClosing the wound (day 5-21 depending on size) stops infection and fluid loss, reduces heat loss, helps healing and prevents contractures.\n\n## Graft types\n- Autograft: the client's own thin skin; permanent. Immobilize 3-7 days; bleeding underneath can block adhesion; first dressing change 2-5 days later or earlier for pus or foul smell.\n- Donor site: moist gauze and pressure, a thrombostatic agent may be used; heals in 7-14 days; painful, so plan analgesia.\n- Allograft (homograft): donated human cadaver skin, temporary; rejection can occur within 24 hours; watch exudate and infection.\n- Xenograft (heterograft): pig skin, temporary; rejection within 24-72 hours; replaced every 2-5 days.\n- Biosynthetic and synthetic: temporary, transparent so the wound can be seen.\n\n## How the exam asks about it\nOnly autograft is permanent; allograft and xenograft are temporary covers. See [[Skin Grafting]].\n\n## Related topics\n[[Burn Wound Dressing, Escharotomy and Fasciotomy]], [[Burn Care Phases and Emergency Priorities]]",
+  "tags": [
+   "burns",
+   "grafts",
+   "area-guess"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Wound closure",
+   "Autografting",
+   "Allograft",
+   "Xenograft",
+   "Biosynthetic"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-er-burned-child",
+  "area": "NP3",
+  "title": "The Burned Child and the Seven Phases of Burn Care",
+  "body": "## What it is\nChildren burn differently from adults, and major burn care follows seven phases.\n\n## Pediatric differences\n- Thinner skin, so lower temperatures and shorter exposure cause deeper burns; very young children have higher mortality.\n- Greater risk of fluid and heat loss, dehydration and metabolic acidosis; body fluid proportion raises cardiovascular risk; burns above 10% TBSA need fluid resuscitation.\n- Less muscle and fat, so protein and calorie deficits; more severe scarring; immature immune system; growth may be delayed.\n- Rule of nines for children (handout): head 18%, arms 9% each, legs 14% each, trunk 36% (chest and abdomen listed 18% each).\n\n## Seven phases\nRescue, Resuscitate, Retrieve (transfer to burn unit), Resurface, Rehabilitate (starts on admission, continues for years), Reconstruct, Review (long-term follow-up).\n\n## How the exam asks about it\nSuspect abuse when a burn pattern does not match the story (general teaching). See [[Rule of Nines and Burn Size Estimation]].\n\n## Related topics\n[[Burn Size, Depth and Severity Categories]], [[Burn Fluid Resuscitation: Parkland and Brooke Formulas]]\n\n## Check against your textbook\nThe handout's child rule-of-nines gives only chest and abdomen (probably front and back trunk). Also covers Lund and Browder (age-adjusted, more accurate) and the palm method (palm about 1% TBSA); adult rule of nines: head 9, arms 9 each, legs 18 each, front trunk 18, back 18, groin 1.",
+  "tags": [
+   "burns",
+   "pediatric",
+   "area-guess"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "The burned child",
+   "Care of major burn injury",
+   "Estimating burn size"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ }
+]

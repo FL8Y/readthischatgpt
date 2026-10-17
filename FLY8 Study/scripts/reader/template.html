@@ -59,6 +59,8 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .group p { margin: 0 0 10px; color: var(--muted); font-size: 14px; }
 .tag { font: 700 12px/1 var(--font-body); padding: 5px 8px; border-radius: 8px; letter-spacing: .04em; }
 .tag.NP1 { background: var(--np1-soft); color: var(--np1); } .tag.NP5 { background: var(--np5-soft); color: var(--np5); }
+.tag.NP2, .tag.NP3, .tag.NP4, .tag.GEN { background: var(--np5-soft); color: var(--np5); }
+.seg { flex-wrap: wrap; }
 .tag.hi { background: var(--hi-soft); color: var(--hi); }
 .list { display: grid; gap: 8px; }
 .row { display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 10px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; cursor: pointer; text-align: left; width: 100%; }
@@ -95,7 +97,7 @@ article hr { border: 0; border-top: 1px solid var(--line); margin: 20px 0; }
     <div class="bar"><h1 id="ttl">PNLE Study Notes</h1><button class="icon-btn" id="theme" aria-label="Switch light or dark mode">◐</button></div>
     <div id="homeTools">
       <input class="search" id="q" type="search" placeholder="Search all notes" aria-label="Search all notes" autocomplete="off">
-      <div class="seg" role="group" aria-label="Exam area"><button data-a="ALL" aria-pressed="true">All</button><button data-a="NP1" aria-pressed="false">NP1 Community Health</button><button data-a="NP5" aria-pressed="false">NP5 Psych + Emergency</button></div>
+      <div class="seg" role="group" aria-label="Exam area"><button data-a="ALL" aria-pressed="true">All</button><button data-a="NP1" aria-pressed="false">NP1</button><button data-a="NP2" aria-pressed="false">NP2</button><button data-a="NP3" aria-pressed="false">NP3</button><button data-a="NP4" aria-pressed="false">NP4</button><button data-a="NP5" aria-pressed="false">NP5</button><button data-a="GEN" aria-pressed="false">Core</button></div>
       <div class="prog"><span id="progTxt"></span><div class="meter"><i id="meter"></i></div></div>
     </div>
     <div id="noteTools" hidden><button class="btn" id="back" style="min-height:44px">← All notes</button></div>

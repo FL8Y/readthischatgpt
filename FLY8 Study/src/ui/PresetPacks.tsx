@@ -6,7 +6,7 @@ import { Btn, Card, H, P, Pill, TOUCH, c, sp } from './kit';
 
 const PRIORITY_COLOR = { high: c.bad, medium: c.warn, low: c.dim } as const;
 
-/** Ready-made NP1 / NP5 notes. Adding them needs no AI and no key. */
+/** Ready-made review notes (NP1-NP5, fundamentals, pharmacology, laws). Adding them needs no AI and no key. */
 export function PresetPacks({ state, update }: { state: AppState; update: (s: AppState) => void }) {
   const [open, setOpen] = useState<string | null>(null);
   const [msg, setMsg] = useState('');
