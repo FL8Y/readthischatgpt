@@ -1,6 +1,7 @@
 # Session Protocol — Continue Without Repeating Work
 
 ## Required read order at the start of every new chat/session
+0. NOTES_MAKER_SOURCE_OF_TRUTH.md at the repository root (canonical recovery guide)
 1. This file: SESSION_PROTOCOL.md
 2. PROJECT_STATUS.md
 3. WORK_QUEUE.md
