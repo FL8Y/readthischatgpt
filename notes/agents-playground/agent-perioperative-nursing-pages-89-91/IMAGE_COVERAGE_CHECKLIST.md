@@ -32,11 +32,11 @@ Image order is distinguished from printed page number.
 - [x] Tonsillectomy → loose tooth report.
 - [x] Wedding band handling answer as stated, with policy caveat.
 - [x] Skin preparation objective.
-- [x] Operative hair → clipped, not shaved, if removal is indicated.
+- [x] Operative hair → clipped, not shaved, if removal is indicated; current CDC guidance says avoid removal unless needed.
 - [x] Adrenalectomy → monitor vital signs.
 - [x] Hand hygiene as infection prevention.
-- [x] Textbook scrub duration 10–15 minutes; external update cross-check.
-- [x] JCAHO protocol EXCEPT → video of entire intraoperative procedure.
+- [x] Textbook scrub duration 10–15 minutes; external CDC cross-check included.
+- [x] JCAHO protocol EXCEPT → video of entire intraoperative procedure; separate modern Joint Commission cross-check included.
 - [x] Safety after preoperative narcotic.
 - [x] Atropine sulfate and scopolamine as printed.
 - [x] Bottom question about nursing check before induction: prompt covered; answer is cut off and not guessed.
@@ -66,6 +66,7 @@ Image order is distinguished from printed page number.
 - [x] Textbook content distinguished from explanation and external updates.
 - [x] Current links provided for core clinical safety caveats.
 - [x] Unreadable/cut-off answer clearly preserved as uncertain.
-- [ ] Re-fetch saved note and all ledger files from live repository and compare actual persisted content.
-- [ ] Commit/save operation verified.
+- [x] Saved notes re-fetched and verified from GitHub; p. 89–91 content, external sources and final audit present.
+- [x] Research log and handoff re-fetched and verified from GitHub.
+- [ ] Final re-fetch of updated queue/checklist/handoff after the current status-update commit.
 - [ ] Qualified nursing reviewer audit (not performed in this task).
