@@ -59,6 +59,10 @@ Key rules adopted: actual Markdown deliverables required; preserve visible sourc
    Current label (search result reports update 2025-11-24) warns that it must be administered by trained professionals aware of its hazards; used to contextualize respiratory monitoring and paralysis.
 10. **ASA, Practice Guidelines for Preoperative Fasting** — https://www.asahq.org/~/media/sites/asahq/files/public/resources/standards-guidelines/practice-guidelines-for-preoperative-fasting.pdf  
     Used only to emphasize that fasting is protocol- and patient-specific; selected healthy elective patients may have a 2-hour clear-liquid minimum, not a universal recommendation.
+11. **CDC, Surgical Site Infection Basics** — https://www.cdc.gov/surgical-site-infections/index.html  
+    Supports avoiding routine operative-site shaving. The current patient guidance says not to shave near the surgical site; the 2022 prevention update says hair should not be removed unless it interferes with surgery and, if needed, clippers or an appropriate depilatory should be used under protocol. This qualifies the textbook's brief “clipped” answer.
+12. **Joint Commission, Universal Protocol site-marking FAQ (2026)** — https://www.jointcommission.org/en/knowledge-library/support-center/standards-interpretation/standards-faqs/000001461  
+    Checked to contextualize the book's Universal Protocol quiz item; current emphasis is preprocedure verification, site marking when indicated, and a team time-out immediately before incision—not recording a video of the whole operation.
 
 ## Content decisions
 - The book's exact exam answer is preserved where legible.
