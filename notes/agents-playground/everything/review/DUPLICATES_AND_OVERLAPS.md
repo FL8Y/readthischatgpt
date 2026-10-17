@@ -52,3 +52,20 @@ These five documents cover connected phases—preoperative preparation, intraope
 
 All five source notes and exact copies remain unchanged. Source uncertainty, including the page 101 unclear medication name, remains explicit. The derivative does not infer a drug identity or turn historical/table content into patient-specific instructions. Qualified nursing review has not been performed and is not claimed.
 
+## Confirmed relationship: communicable diseases and public health, printed pp. 68–85
+
+**Classification:** Complementary disease notes across adjacent/related topic ranges, not exact duplicates.
+
+- [Communicable diseases, pp. 68–70](../notes/infectious-diseases/communicable-diseases-pp68-70.md)
+- [Infectious diseases, pp. 71–73](../notes/infectious-diseases/leptospirosis-rabies-influenza-pneumonia-malaria-dengue-pp71-73.md)
+- [Infectious diseases, pp. 74–76](../notes/infectious-diseases/infectious-diseases-pp74-76.md)
+- [Communicable infections, hepatitis, enteric infections, helminths, and scabies, pp. 80–82](../notes/infectious-diseases/communicable-infections-hepatitis-enteric-parasitic-pp80-82.md)
+- [Public health: infectious diseases and disaster management, pp. 83–85](../notes/community-health/infectious-diseases-disaster-management-pp83-85.md)
+- Curated overview: [Integrated Communicable-Disease and Public-Health Overview, pp. 68–85](../curated/infectious-diseases/infectious-disease-and-public-health-overview-pp68-85.md)
+
+### Rationale and boundaries
+
+These source notes cover distinct diseases and prevention topics, with overlapping or adjacent ranges and a shared structure around agent/exposure, manifestations, diagnosis, complications, and prevention/management. The derivative provides a page map, comparison lens, broad transmission-pattern orientation, and connection to primary/secondary/tertiary prevention; it is explicitly not a line-by-line replacement for the disease-specific tables.
+
+All five source notes and collection copies remain unchanged. Transmission-pattern groupings are an organizational aid, not proof that diseases share the same route or management. Page-specific uncertainty and external cross-checks remain in the linked source notes. Qualified nursing review has not been performed and is not claimed.
+
