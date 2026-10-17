@@ -4,15 +4,15 @@
 
 | Upload order | Printed page | Visible content | Status | Unclear region |
 |---|---:|---|---|---|
-| 1 | 11 | Universal Moral Values & Principles Basic to Clinical Nursing Practice; table of Values and Description | Draft saved; audit pending | No substantive section unreadable; small citation details are not needed to understand definitions |
-| 2 | 12 | Continuation table: Paternalism, Altruism, Utilitarianism | Draft saved; audit pending | None apparent in the three entries |
-| 3 | 13 | Benner’s Clinical Nursing Skills Trajectory, five stages | Draft saved; audit pending | Some tiny figure-credit text at lower left is partly cropped; not necessary to identify the five stages |
+| 1 | 11 | Universal Moral Values & Principles Basic to Clinical Nursing Practice; table of Values and Description | COVERAGE CHECKED | No substantive section unreadable; citations are small but the value definitions/examples are legible |
+| 2 | 12 | Continuation table: Paternalism, Altruism, Utilitarianism | COVERAGE CHECKED | None apparent in the three entries |
+| 3 | 13 | Benner’s Clinical Nursing Skills Trajectory, five stages | COVERAGE CHECKED | Tiny figure-credit text at lower left is partly cropped; not guessed and not essential to identify the five stages |
 
 ## Page 11 source inventory
 - Autonomy: self-determination/own decisions; nurse respects refusal of treatment.
 - Nonmaleficence: duty to do no harm; example nurse stays on affected side during ambulation.
 - Beneficence: actively do good; benefits outweigh discomfort; example advising exercise to improve health.
-- Justice: treat patients fairly regardless of age, socioeconomic status, or other variables; example home-visit nurse spends extra time with depressed client and stays with client with diabetes for teaching/observation.
+- Justice: treat patients fairly regardless of age, socioeconomic status, or other variables; examples: home-visit nurse spends extra time with depressed client and stays with client with diabetes for teaching/observation.
 - Fidelity: faithfulness to agreements/promises; nurse returns after promising to come back.
 - Veracity: telling the truth; nurse explains discomfort of IV insertion.
 - Accountability: answerable to oneself and others for own actions.
@@ -35,11 +35,13 @@
 - Stage V: Expert — demonstrates highly skilled intuitive and analytic ability in new situations; inclines to take an action because “it felt right”; uses patient history and relevant clinical information to base decisions.
 - Figure cites Taylor (2012), Daley (1999), Benner (2001); exact figure-credit wording at bottom left is partly cut off.
 
-## Verification checklist
-- [ ] All 14 source values/concepts are represented (11 on p. 11 and 3 on p. 12).
-- [ ] Each table entry retains its source meaning and example where present.
-- [ ] Epikia example is preserved but not misrepresented as blanket permission for restraint.
-- [ ] All five Benner stages are present in correct order with visible characteristics.
-- [ ] Diagram’s upward progression is explained without implying automatic progression by time alone.
-- [ ] Textbook-derived material and external explanation are visibly separated.
-- [ ] Saved files are re-fetched from GitHub and compared against this inventory.
+## Verification performed
+- Re-fetched saved note from GitHub: 19,083 characters; live URL points to `DELIVERABLES/nursing-ethics-and-benner-stages-pp11-13.md`.
+- Checked 25 required terms/examples/labels, including all 14 concepts, all five stage names, key examples, and figure citations; all were present.
+- Checked seven external reference URLs are included in the note.
+- Textbook content and added explanations are explicitly separated.
+- Restraint example remains source-faithful but is qualified as not blanket authorization.
+- Table row relationships and stage order are preserved.
+
+## Remaining limitation
+The lower-left figure-credit line on p. 13 is partly cropped in the original photo. No missing words were invented. A clearer crop is needed only if the exact credit wording is required.
