@@ -6,13 +6,14 @@
 
 | Item | Status | Deliverable / acceptance check |
 |---|---|---|
-| Read canonical note-maker standards | DONE | Read source-of-truth, start guide, protocol, project status, work queue, master prompt, design/research log, checklist, page tracker, generated README, playground README, handoff, and agent master prompt from live GitHub |
-| Inventory pages 89–91 | DONE | Three images checked in printed order; all headings/prompts/answers catalogued |
-| Research current safety cross-checks | DONE | WHO surgical safety, CDC hand hygiene/surgical scrub, MedlinePlus latex allergy, ACS aspirin/surgery, MHAUS MH susceptibility, DailyMed vecuronium, ASA fasting guidance |
-| Create detailed notes | DONE pending repository verification | `notes/perioperative-nursing-pp89-91.md`; detailed source notes, external cross-check, quick recall, retrieval quiz |
-| Create coverage checklist | DONE pending repository verification | Item-level image coverage and uncertainty ledger |
-| Create research log and handoff | DONE pending repository verification | Sources, decisions, remaining project boundary |
-| Re-fetch and audit saved files | IN PROGRESS | Must fetch all created/updated paths from live `main` and verify substantive content |
-| Final status update | IN PROGRESS | Mark verified postconditions only after re-fetch |
+| Read canonical note-maker standards | DONE | Read source-of-truth, start guide, protocol, project status, work queue, master prompt, design/research log, checklist, page tracker, generated README, playground README, handoff, notes README, prompt template, and agent master prompt from live GitHub |
+| Inventory pages 89–91 | DONE | Three images checked in printed order; all visible headings/prompts/answers catalogued |
+| Research current safety cross-checks | DONE | WHO surgical safety; CDC hand hygiene, scrub time and hair removal; MedlinePlus latex allergy; ACS aspirin/surgery; MHAUS MH susceptibility; DailyMed vecuronium; ASA fasting guidance; Joint Commission Universal Protocol |
+| Save detailed notes | DONE | `notes/perioperative-nursing-pp89-91.md`; live blob re-fetched and checked for p. 89–91 sections, external references, uncertainty treatment and coverage audit |
+| Save image coverage checklist | DONE | Checklist re-fetched from live `main`; covers each visible prompt across all three images and logs review limitation |
+| Save research log | DONE | Log re-fetched from live `main`; includes governing standards, sources, research and content decisions |
+| Save handoff | DONE | Handoff re-fetched from live `main`; describes verified files and scope boundary |
+| Save queue and verify statuses | DONE | This queue is updated to reflect observed verification postconditions |
+| Qualified nursing review | NOT STARTED | No qualified nurse reviewer participated in this session; output is not represented as professionally reviewed |
 
-Acceptance rules: mark a deliverable DONE only after it is re-fetched and checked against the image and governing repository standards. Do not modify files outside this playground.
+Acceptance criteria are limited to this assigned image batch; do not modify project-wide status/queue or sibling agent directories.
