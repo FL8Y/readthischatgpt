@@ -2,9 +2,17 @@ import type { AppState, Topic } from '../core/types';
 import { estimateMastery, weakTopics } from '../core/mastery';
 import type { ModelRequest } from './provider';
 
+/**
+ * Compact question craft shared by the plain (non-PNLE-system) quiz prompts. The full rules live in
+ * src/pnle/systemPrompt.ts; this is the same idea in one line so small models still get it.
+ */
+export const CRAFT =
+  'ONE decision per item, not recall. Each wrong choice a distinct named error (wrong time, symptom not cause). ' +
+  'Rationale: cue, principle, rule, why it beats the runner-up, "Flip: if ..., then ...".';
+
 const QUESTION_SHAPE =
-  'Reply with JSON only: {"questions":[{"stem":string,"choices":string[],"answerIndex":number,"rationale":string}]}. ' +
-  'answerIndex is the zero-based index of the single correct choice. Write PNLE-style situational items with 4 choices.';
+  `PNLE 4-choice items. ${CRAFT} ` +
+  'JSON only: {"questions":[{"stem":string,"choices":string[],"answerIndex":number,"rationale":string}]}, answerIndex zero-based.';
 
 /**
  * The "pre-installed prompt": every AI call carries who the learner is and where they are weak,
@@ -17,25 +25,24 @@ export function learnerProfile(state: AppState, now: number): string {
   });
   const weak = weakTopics(state.topics, state.events, now).map((p) => p.title);
   return [
-    'You are a nursing-exam tutor for one learner preparing for the Philippine nursing licensure exam (PNLE).',
-    'Be accurate. Say so when you are unsure. Prefer the learner\'s own notes; mark anything you add beyond them.',
-    weak.length ? `Current weak areas, most urgent first: ${weak.join(', ')}.` : 'No weak areas identified yet.',
+    'You are a nursing-exam tutor for Philippine nursing licensure exam (PNLE); admit doubt, notes first, mark additions.',
+    weak.length ? `Weak, most urgent first: ${weak.join(', ')}.` : 'No weak areas identified yet.',
     'Topic mastery:',
     ...lines,
   ].join('\n');
 }
 
 const TOPIC_QUESTION_SHAPE =
-  'Reply with JSON only: {"questions":[{"topic":string,"stem":string,"choices":string[],"answerIndex":number,"rationale":string}]}. ' +
-  '"topic" must be copied exactly from the topic titles given. answerIndex is the zero-based index of the single correct choice. ' +
-  'Write PNLE-style situational items with 4 choices.';
+  `PNLE 4-choice items. ${CRAFT} ` +
+  'JSON only: {"questions":[{"topic":string,"stem":string,"choices":string[],"answerIndex":number,"rationale":string}]}, ' +
+  '"topic" copied exactly from the titles given, answerIndex zero-based.';
 
 export function diagnosticRequest(state: AppState, folderId: string, count: number, now: number): ModelRequest {
   const topics = state.topics.filter((t) => t.folderId === folderId);
   return {
     system: `${learnerProfile(state, now)}\n${TOPIC_QUESTION_SHAPE}`,
     user:
-      `Write ${count} diagnostic questions spread across these topics, covering each at least once where possible:\n` +
+      `Write ${count} diagnostic questions across these topics, each once where possible, exposing reasoning:\n` +
       topics.map((t) => `## ${t.title}\n${t.body.slice(0, 1200)}`).join('\n\n'),
   };
 }
@@ -51,7 +58,7 @@ export function lessonRequest(state: AppState, topic: Topic, now: number): Model
   return {
     system: learnerProfile(state, now),
     user:
-      `Teach "${topic.title}" in Markdown: explanation, a mnemonic, key facts, common exam traps. ` +
-      `Link related concepts as [[Wikilinks]] so they join the learner's graph. Notes to build on:\n${topic.body.slice(0, 2000)}`,
+      `Teach "${topic.title}" in Markdown: mechanism (why), decision rule, exam trap, mnemonic; keep only testable facts. ` +
+      `Link related concepts as [[Wikilinks]]. Notes to build on:\n${topic.body.slice(0, 2000)}`,
   };
 }

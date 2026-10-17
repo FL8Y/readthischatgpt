@@ -22,9 +22,9 @@ const MAX_FIELD = 600;
 export const normalizeFront = (s: string) => s.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
 
 const CARD_SHAPE =
-  'Reply with JSON only: {"cards":[{"front":string,"back":string,"beyondNotes":boolean}]}. ' +
-  'front is one clear question or cue; back is a short answer (under 40 words). ' +
-  'Set beyondNotes to true for any card whose answer is not stated in the notes given; otherwise false.';
+  'One idea per card. front is a cue or mini-scenario asking "what first / why / X versus Y", never a bare definition; ' +
+  'back is the answer plus its reason (under 40 words). beyondNotes is true if the answer is not stated in the notes given, else false. ' +
+  'Reply with JSON only: {"cards":[{"front":string,"back":string,"beyondNotes":boolean}]}';
 
 export function cardsRequest(state: AppState, topic: Topic, n: number, now: number): ModelRequest {
   const count = Math.max(1, Math.min(MAX_CARDS_PER_TOPIC, Math.floor(n)));

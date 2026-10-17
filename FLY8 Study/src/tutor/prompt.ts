@@ -33,7 +33,7 @@ export function capHistory(history: TutorMessage[]): TutorMessage[] {
 function deckHint(title: string): string[] {
   const hits = relatedOutline(title, undefined, 6);
   return hits.length
-    ? [`The learner's own review deck groups this topic near: ${hits.join('; ')}. You may suggest which of these to review next, without quoting any deck.`]
+    ? [`The learner's review deck groups this near: ${hits.join('; ')}. You may suggest one to review next; quote no deck.`]
     : [];
 }
 
@@ -45,10 +45,12 @@ export function tutorRequest(
   now: number,
 ): ModelRequest {
   const rules = [
-    'You are in a tutoring chat. Answer the latest question clearly and briefly.',
-    `Start with a section headed "${NOTES_LABEL}" using only the learner's notes${topic ? '' : ' (none were chosen, so say so and skip it)'}.`,
-    `Put anything not in the notes under a separate heading "${BEYOND_LABEL}". Never blend the two.`,
-    'If you are unsure, say so. If a diagram would help, you may include one ```svg or ```mermaid block.',
+    'Tutoring chat. Be brief. Rules:',
+    '1. Vague question: ask what the learner thinks or which part is unclear, then stop. Otherwise name the likely misconception.',
+    '2. Explain the mechanism (why). For look-alikes give a contrast pair.',
+    `3. Start with "${NOTES_LABEL}" using only the learner's notes${topic ? '' : ' (none were chosen, so say so and skip it)'}. Anything else goes under "${BEYOND_LABEL}"; never blend.`,
+    '4. Admit uncertainty. A diagram may be one ```svg or ```mermaid block.',
+    '5. End with ONE short transfer question: same reasoning, new scenario.',
     ...(topic ? deckHint(topic.title) : []),
   ].join('\n');
   const notes = topic
