@@ -33,8 +33,8 @@
 - [x] Retrieval questions with answers and rationales
 - [x] External references included with claim relevance
 
-## Verification result
+## Verification result — PASS
 - Images visually inspected directly from uploaded JPGs.
-- Coverage checklist compared against each printed table row and all legible text.
+- Saved study note re-fetched from live GitHub and checked for all eight liver tests, all six electrolytes, all five “Other Values” measures, and all eight TLC nutrient rows.
+- Research log, queue, handoff, and this checklist re-fetched after write.
 - Potassium second range remains explicitly uncertain; no guess substituted.
-- Repository write must still be re-fetched and audited before this batch can be called DONE.
