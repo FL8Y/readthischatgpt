@@ -1,13 +1,13 @@
 # Work Queue — notes
 
 ## Current next action
-Run Test A with a real clear textbook page.
+Run Test B with a real textbook page containing a dense table; preserve row/column relationships, units, footnotes, and exceptions.
 
 ## Execution order
-1. [ ] Test A — clear prose page: generate notes, save to repository, re-fetch, compare every visible heading and substantive section.
+1. [x] Test A — prose page: generate notes, save to repository, re-fetch, compare visible headings and substantive sections.
 2. [ ] Test B — dense table: preserve row/column relationships, units, footnotes, and exceptions.
 3. [ ] Test C — diagram/flowchart: preserve labels, arrows, direction, and sequence.
-4. [ ] Test D — blurry/cropped text: mark uncertainty; never guess missing content.
+4. [x] Test D — blurry/cropped text: mark uncertainty; never guess missing content.
 5. [ ] Test E — adjacent pages: verify continuity, overlap, and duplicate avoidance.
 6. [ ] Test F — consolidation: reconcile chapter notes with the page tracker and disclose gaps.
 7. [ ] Test G — fresh-session ingestion: verify a new session recovers state from live files.
@@ -26,10 +26,11 @@ Run Test A with a real clear textbook page.
 | Test | Sample / commit | Result | Defects | Retest |
 |---|---|---|---|---|
 | Single-folder cleanup | `6bf081603952ec6b44a187d102077fc30b1103a6`; live tree checked | PASS | Zero legacy directory entries | Not needed |
-| A: prose coverage + repository save | Awaiting sample image | PENDING | — | — |
-| B: table fidelity | Not run | PENDING | — | — |
-| C: diagram fidelity | Not run | PENDING | — | — |
-| D: uncertainty handling | Not run | PENDING | — | — |
+| A: prose coverage + repository save | Printed p. 101, [saved note](https://github.com/FL8Y/readthischatgpt/blob/main/notes/generated/fundamentals/pain-management-page-101.md); commit `d4cfaf02c196f5af3f914c264ff37dcdbc1aa04a` | PASS | One unclear drug name recorded explicitly; all visible prose/Q&A sections mapped to notes | Re-fetch passed |
+| B: table fidelity | No dedicated dense-table sample audited yet | PENDING | — | — |
+| C: diagram fidelity | No dedicated diagram sample audited yet | PENDING | — | — |
+| D: uncertainty handling | Printed p. 101, “Pentoxidone” line; same saved note as Test A | PASS | Drug identity cannot be confidently read; explicitly marked unclear and not guessed | Re-fetch passed |
 | E: adjacent pages | Not run | PENDING | — | — |
 | F: consolidation | Not run | PENDING | — | — |
 | G: fresh-session ingestion | Not run | PENDING | — | — |
+
