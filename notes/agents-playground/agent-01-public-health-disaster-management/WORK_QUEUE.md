@@ -11,13 +11,19 @@
 | Image 1 / printed p. 83 inventory | DONE | Disease table: partial scabies continuation; poliomyelitis; Zika virus; Ebola beginning/continuation. |
 | Image 2 / printed p. 84 inventory | DONE | Ebola continuation; bird flu; H1N1 influenza A; SARS; MERS. |
 | Image 3 / printed p. 85 inventory | DONE | Table “3 Levels of Public Health Prevention”; Disaster Management stages Prevention and Preparedness & Planning, with definitions and visible activities. |
-| External cross-check | IN PROGRESS | WHO/CDC disease factsheets and disaster-management references; keep historical textbook claims separate from current guidance. |
-| Draft detailed source-faithful notes | IN PROGRESS | `notes/public-health-infectious-diseases-disaster-management-pp83-85.md` |
-| Coverage checklist and uncertainty register | IN PROGRESS | `IMAGE_COVERAGE_CHECKLIST.md` |
-| Research log and sources | IN PROGRESS | `RESEARCH_LOG.md` |
-| Save files and re-fetch from GitHub | NOT STARTED | Verify intended path, contents, relevant headings, tables, caveats, and links from live repository. |
-| Final image-to-notes audit | NOT STARTED | Compare every visible row and table cell against saved notes; retain source uncertainty, especially shadowed/cropped lower page 84 and bottom page 85. |
-| Handoff | NOT STARTED | `HANDOFF.md` records completed items, limitations, and next exact action. |
+| External cross-check | DONE | WHO/CDC disease factsheets and disaster-management references reviewed; titles, links and cross-check decisions saved in RESEARCH_LOG.md and main notes. |
+| Draft detailed source-faithful notes | DONE | Main notes saved and re-fetched; all visible disease and disaster-prevention sections represented. |
+| Coverage checklist and uncertainty register | DONE | Itemized inventory saved and re-fetched; all three images and each visible section are listed. |
+| Research log and sources | DONE | Repository standards, image inventory, sources, cross-check decisions and limits saved and re-fetched. |
+| Save files and re-fetch from GitHub | DONE | All five agent deliverables re-fetched from live main; correct paths, substantial content and links confirmed. |
+| Final image-to-notes audit | DONE | Automated content-presence checks plus visual inventory comparison covered all disease rows, all three prevention levels, both visible disaster-management stages, source separation and retrieval check; crop/blur limits recorded. |
+| Handoff | DONE | HANDOFF.md created and re-fetched; verification evidence and uncertainty boundaries recorded. |
+
+## Verification record
+- Main note was re-fetched from live GitHub (SHA `eac4b3ea45ac9f42afe55b6b90136e76580795a8`; 33,894 characters).
+- Coverage checklist was re-fetched (SHA `6bf5de5119d8ce37df0211d045b683c5c69fe299`; 6,373 characters).
+- Targeted check confirmed sections for polio, Zika, Ebola, bird flu, H1N1, SARS, MERS, Primary/Secondary/Tertiary prevention, Disaster Management—Prevention, Preparedness & Planning, source separation and retrieval questions. The checklist separately confirms every disease/topic and visible table row.
+- Remaining uncertainty is inherent in the images: p. 83 top row heading is cropped; some words on pp. 83–84 are shadowed/soft; p. 85 cuts off the Preparedness & Planning row. No absent text was invented.
 
 ## Acceptance criteria
 - All visible content from all three supplied photos is represented.
