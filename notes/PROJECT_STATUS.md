@@ -2,7 +2,7 @@
 
 ## Current state
 - Active project lives under `notes/`; generated study notes must be saved in the designated repository output folder, not merely returned in chat.
-- Master prompt now prioritizes digesting repository state, processing each available page, writing Markdown notes, re-reading saved files, checking coverage, updating the tracker, and continuing through remaining work.
+- Master prompt now prioritizes repository digestion, processing each available page, writing Markdown notes, re-reading saved files, checking coverage, updating the tracker, and continuing through remaining work.
 - Session protocol points to the current root entry guide.
 - Functional image tests and qualified nursing review remain unverified.
 
