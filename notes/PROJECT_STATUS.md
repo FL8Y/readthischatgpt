@@ -1,23 +1,23 @@
 # Project Status — notes
 
 ## Current state
-- Project files are relocated under the repository root folder `notes/`.
-- Master prompt includes nursing-specific note logic, source fidelity, contextual prioritization, retrieval practice, continuity, and a quality gate.
-- Research synthesis, session protocol, work queue, handoff, user template, page tracker, and acceptance checklist are included.
-- Formal image tests and qualified nursing review remain pending.
+- Active project lives under `notes/`; generated study notes must be saved in the designated repository output folder, not merely returned in chat.
+- Master prompt now prioritizes digesting repository state, processing each available page, writing Markdown notes, re-reading saved files, checking coverage, updating the tracker, and continuing through remaining work.
+- Session protocol points to the current root entry guide.
+- Functional image tests and qualified nursing review remain unverified.
 
 ## Session ledger
 | Work item | Status |
 |---|---|
-| Core note-making prompt | DONE — file existence/content to verify after relocation |
-| Focused research synthesis | DONE — not a formal systematic review |
-| Cross-session anti-loop protocol | DONE — needs practical stress test |
-| Relocation to `notes/` | IN PROGRESS until all paths fetched and checked |
-| Functional image tests | NOT STARTED |
-| Independent nursing accuracy review | NOT STARTED |
+| Execution-first master prompt | DONE — re-fetched and key instructions verified |
+| Session entry-point reference | DONE — re-fetched; obsolete reference removed |
+| Repository relocation/link audit | IN PROGRESS — full audit not yet evidenced |
+| Test A: clear prose coverage | BLOCKED — needs a sample image |
+| Tests B–G | NOT STARTED |
+| Qualified nursing accuracy review | NOT STARTED |
 
 ## Resume rule
-Every new session reads SESSION_PROTOCOL.md, this file, WORK_QUEUE.md, RESEARCH_AND_DESIGN.md, and MASTER_SYSTEM_PROMPT.txt. Resume the first incomplete item. Don't repeat DONE work unless requested, evidence changes, or verification fails.
+Read the live repository instructions and resume the first actionable unfinished task. Do not treat prompt edits as proof that image extraction or clinical accuracy works.
 
 ## Next action
-Verify the relocated folder and all links; then run the first clear-prose image coverage test.
+Run Test A on a clear textbook page; save the resulting notes to the repository, compare every visible section against the saved file, and record defects before proceeding to the table test.
