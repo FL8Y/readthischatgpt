@@ -32,7 +32,19 @@ The user-provided repository URL used the shortened name `readthischat`, which r
 6. **OpenStax, Maternal-Newborn Nursing, “27.1 Clinical Judgment within the Nursing Process”** — accessible summary of the novice-to-expert framework.
    https://openstax.org/books/maternal-newborn-nursing/pages/27-1-clinical-judgment-within-the-nursing-process
 7. **Supreme Court E-Library, PRC Board of Nursing Resolution No. 220, Series 2004: Code of Ethics for Registered Nurses** — Philippine professional ethics reference on respect for individual freedom, confidentiality, and accountability.
-   https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/11/41009
+   https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/10/41009
+8. **American Nurses Association, The Ethical Use of Restraints: Balancing Dual Nursing Duties of Patient Safety and Personal Safety** (effective 2020) — authoritative professional position statement relevant to the source image’s restraint example.
+   https://anaprodsite1.nursingworld.org/globalassets/practiceandpolicy/nursing-excellence/ana-position-statements/nursing-practice/restraints-position-statement.pdf
+
+## Live source verification performed (2026-10-18)
+- Opened and checked the NCBI Bookshelf chapter on ethical practice; it confirms the six foundational principles and explains autonomy, beneficence, nonmaleficence, justice, fidelity, veracity, and paternalism.
+- Opened and checked OpenStax Fundamentals of Nursing, section 16.2; it confirms the ethics topics including confidentiality and accountability.
+- Opened and checked the ANA 2025 Code of Ethics, Provision 3; it explicitly covers advocacy, rights, health, safety, privacy, and confidentiality.
+- Opened and checked the ANA privacy/confidentiality position statement (revised 2024), confirming the current source and its relevance to professional confidentiality.
+- Opened and checked the NLM Catalog entry for Benner’s *From Novice to Expert* (1984), confirming bibliographic details.
+- Opened and checked OpenStax’s Benner overview, which identifies Benner (1984) and describes the five-stage novice-to-expert framework.
+- Opened and checked the Philippine Supreme Court E-Library page for PRC Board of Nursing Resolution No. 220, Series 2004; corrected the URL in the study note to the verified `/showdocs/10/41009` path.
+- Opened and checked the ANA restraint position statement (effective 2020). It emphasizes balancing safety, potential harms, patient autonomy, least-restrictive alternatives, monitoring, and policy. This supports retaining the textbook’s epikia example while clearly warning that it is not a blanket authorization.
 
 ## Research conclusions and caution
 - The image contains 11 named values/concepts on p. 11 and 3 on p. 12, for 14 total. The six widely taught principles are autonomy, nonmaleficence, beneficence, justice, fidelity, and veracity; the image also includes accountability, responsibility, advocacy, confidentiality, epikia, paternalism, altruism, and utilitarianism.
