@@ -45,7 +45,7 @@ These pages are a rapid-review list of Philippine laws, executive orders, admini
 | Instrument shown | Title or description shown in the guide | Source-page detail |
 |---|---|---|
 | RA 9211 | Tobacco Regulation Act of 2003 | Guide says it prohibits smoking in public places and sales of tobacco products to minors; requires printed warnings on cigarette packages; prohibits all forms of tobacco advertising in mass media and regulates other forms of tobacco promotion. |
-| RA 6425 | Penalties for Violations of the Dangerous Drug Act of 1972 | Wording as printed; not the full statute title. |
+| RA 6425 | Penalties for Violations of the Dangerous Drug Act of 1972 | Guide wording is inaccurate as a title. The statute's short title is “The Dangerous Drugs Act of 1972”; RA 9165 expressly repealed RA 6425. |
 | RA 9165 | Comprehensive Dangerous Drug Act of 2002 | Title only. |
 | RA 8423 | Traditional & Alternative Medicine Act of 1997 | Guide says it was signed into law through efforts of Secretary of Health Juan Flavier. |
 | RA 10352 | Excise Tax on Alcohol & Tobacco | This number/description pairing is inconsistent with the Senate legislative reference; see external cross-check. |
@@ -59,7 +59,7 @@ These pages are a rapid-review list of Philippine laws, executive orders, admini
 | RA 8504 | Philippine AIDS Prevention and Control Act of 1998 | Highlighted in pink on page 4. |
 | Ministry Circular No. 2, s. 1986 | Includes AIDS as a notifiable disease | Listed immediately below RA 8504. |
 | RA 9482 | Rabies Act of 2007 | Title only. |
-| RA 1136 | Tuberculosis Law of 1954 | Title as printed; verify against authoritative source. |
+| RA 1136 | Tuberculosis Law of 1954 | Guide's shorthand is not the full title. The official title is “An Act Reorganizing the Division of Tuberculosis in the Department of Health” (approved June 16, 1954). |
 | Memorandum Circular No. 98-155 | National Tuberculosis Control Program pronounced the highest-priority public health program of LGUs | Description as printed. |
 | Presidential Proclamation No. 46 of 1992 | Reaffirming commitment to the Universal Child and Mother Immunization Goal by launching the Polio Eradication Project | Description as printed. |
 | Presidential Proclamation No. 1204 of 1998 | Declares National Dengue Awareness Month every June and formulation of the National Dengue Prevention and Control Program | Description as printed. |
@@ -134,12 +134,12 @@ These are external cross-checks, not claims transcribed from the page.
 - **RA 8504 is historical, not the current principal HIV statute:** RA 11166 expressly repealed RA 8504. For current HIV/AIDS law review, study RA 11166 alongside relevant current rules.
 - **RA 3573 is historical, not the current reporting statute:** RA 11332 expressly repealed it. For current mandatory disease reporting, use RA 11332 and applicable DOH rules.
 - **Breastfeeding legislation:** the Senate Legislative Reference Bureau identifies RA 10028 as an amendment to RA 7600; do not memorize them as unrelated statutes.
-- **RA 6425:** this was the Dangerous Drugs Act of 1972; it was superseded/repealed by later dangerous-drug legislation, including RA 9165. The guide's phrasing “Penalties for Violations…” is not the full statute title.
+- **RA 6425:** the official short title is “The Dangerous Drugs Act of 1972”; RA 9165 expressly repealed it. The guide's phrasing “Penalties for Violations…” is not the full statute title. Official source: https://issuances-library.senate.gov.ph/legislative-issuance/republic-act-no-6425; repeal clause: https://issuances-library.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%209165
 - **RA 7846:** the Senate Legislative Reference Bureau confirms the full title is an act requiring compulsory hepatitis-B immunization for infants and children below eight, amending PD 996. The guide's shortened description is broadly consistent with that title. Source: https://ldr.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%207846
 - **RA 10352 is a likely number error in the guide:** the Senate Legislative Reference Bureau identifies RA 10352 as the 2013 General Appropriations Act, while RA 10351 restructures excise tax on alcohol and tobacco products (the Sin Tax Reform Act of 2012). Memorize the page's source wording as a possible typo, but verify the intended number as RA 10351. Sources: https://issuances-library.senate.gov.ph/legislative-issuances/republic-acts?field_date_of_approval_value=All&items_per_page=50&page=38 and https://ldr.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%2010351
 - **RA 8749:** the number is printed twice in the image; likely a duplication/printing artifact, not two separate laws.
 - **RA 6541 / PD 1096:** the Senate Legislative Reference Bureau confirms PD 1096 revised RA 6541 and adopted the National Building Code of the Philippines. The page's paired reference is understandable but RA 6541 and PD 1096 are not interchangeable citations. Source: https://issuances-library.senate.gov.ph/legislative%2Bissuances/Presidential%20Decree%20No.%201096%2C%20s.%201977
-- **RA 1136:** the page labels it “Tuberculosis Law of 1954.” Preserve this source wording, but verify the law number/title against an authoritative legal source before relying on it.
+- **RA 1136:** the number and 1954 date are real, but the official title is “An Act Reorganizing the Division of Tuberculosis in the Department of Health,” not “Tuberculosis Law of 1954.” This is a guide shorthand, not the full title. Official source: https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/10654
 
 ## 5. High-value terms
 
@@ -170,5 +170,39 @@ The pages are a broad index of Philippine public-health-related laws. Memorize b
 - **Upload 1 / printed p. 3:** all visible headings and listed entries covered from maternal/child health through communicable-disease laws.
 - **Upload 2 / printed p. 4:** continuation of communicable-disease laws, environmental/disaster management, and occupational-health legislation covered.
 - **Upload 3 / printed p. 5:** RA 10968, RA 11058, RA 11369, and accompanying explanatory paragraphs covered.
-- **Unclear/possible print issues:** RA 8749 appears duplicated; RA 10352 is likely a typo for RA 10351 in the excise-tax context; RA 1136 title still needs confirmation. RA 7846 and the RA 6541/PD 1096 relationship were cross-checked against Senate legislative references. The bottom area of page 5 is blank; no additional text is visible.
+- **Unclear/possible print issues:** RA 8749 appears duplicated; RA 10352 is a number/title mismatch and should be RA 10351 for alcohol/tobacco excise tax; the RA 1136 short description is not its full official title. RA 7846 and the RA 6541/PD 1096 relationship were cross-checked against Senate legislative references. The bottom area of page 5 is blank; no additional text is visible.
 - **Limit:** This is a coverage-oriented extraction and targeted legal cross-check, not a complete legal memorandum on every listed instrument. Exact titles/statuses for all entries have not yet been independently verified.
+
+
+## 9. Authoritative source register for legal corrections
+
+- RA 9288 — Newborn Screening Act of 2004, Supreme Court E-Library: https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/1467
+- RA 9709 — Universal Newborn Hearing Screening Act, Supreme Court E-Library: https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/26010
+- RA 10152 — Mandatory Infants and Children Health Immunization Act, Supreme Court E-Library: https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/11/37483
+- RA 7846 — compulsory Hepatitis-B immunization; amends PD 996, Senate Legislative Reference Bureau: https://issuances-library.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%207846
+- RA 7600 — rooming-in and breastfeeding; amended by RA 10028, Senate Legislative Reference Bureau: https://issuances-library.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%207600
+- RA 8976 — Philippine Food Fortification Program, Senate Legislative Reference Bureau: https://ldr.senate.gov.ph/subject/republic-act-ra
+- RA 9173 — Philippine Nursing Act of 2002, Supreme Court E-Library: https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/1459
+- RA 7305 — Magna Carta of Public Health Workers, Supreme Court E-Library: https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3194
+- RA 7160 — Local Government Code of 1991, Official Gazette: https://officialgazette.gov.ph/1991/10/10/republic-act-no-7160/
+- RA 9211 — Tobacco Regulation Act of 2003, Senate Legislative Reference Bureau: https://issuances-library.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%209211
+- RA 6425 — Dangerous Drugs Act of 1972, repealed by RA 9165, Senate Legislative Reference Bureau: https://issuances-library.senate.gov.ph/legislative-issuance/republic-act-no-6425
+- RA 9165 — Comprehensive Dangerous Drugs Act of 2002; repeals RA 6425, Senate Legislative Reference Bureau: https://issuances-library.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%209165
+- RA 8423 — Traditional and Alternative Medicine Act of 1997, Supreme Court E-Library: https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3840
+- RA 10351 — excise tax on alcohol and tobacco; confirms likely correction to the guide's RA 10352, Senate Legislative Reference Bureau: https://issuances-library.senate.gov.ph/legislative-issuances/republic-acts?field_date_of_approval_value=All&items_per_page=50&page=38
+- RA 10352 — 2013 General Appropriations Act, Senate Legislative Reference Bureau: https://issuances-library.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%2010352
+- RA 11332 — Mandatory Reporting of Notifiable Diseases and Health Events of Public Health Concern Act; repeals RA 3573, Senate Legislative Reference Bureau: https://issuances-library.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%2011332
+- RA 11166 — Philippine HIV and AIDS Policy Act; repeals RA 8504, Lawphil: https://lawphil.net/statutes/repacts/ra2018/ra_11166_2018.html
+- RA 9482 — Anti-Rabies Act of 2007, Supreme Court E-Library: https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/8308
+- RA 1136 — tuberculosis division reorganization (not a full “Tuberculosis Law” title), Supreme Court E-Library: https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/10654
+- RA 6969 — Toxic Substances and Hazardous and Nuclear Wastes Control Act of 1990, Senate Legislative Reference Bureau: https://issuances-library.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%206969
+- RA 9003 — Ecological Solid Waste Management Act of 2000, Environmental Management Bureau: https://ncr.emb.gov.ph/solidwastemanagement/
+- RA 9275 — Philippine Clean Water Act of 2004, Environmental Management Bureau: https://r5.emb.gov.ph/environmental-compliance-assistance-center/environmental-compliance-assistance-center-2/
+- RA 8749 — Philippine Clean Air Act of 1999, Environmental Management Bureau: https://r12.emb.gov.ph/mandates-functions/
+- RA 10912 — Continuing Professional Development Act of 2016, Supreme Court E-Library: https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/70325
+- RA 10173 — Data Privacy Act of 2012, Supreme Court E-Library: https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/50253
+- RA 10968 — PQF Act, Supreme Court E-Library: https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/80949
+- RA 11058 — occupational safety and health, Supreme Court E-Library: https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/86355
+- RA 11369 — National Students' Day Act, Supreme Court E-Library: https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/89640
+
+**Verification boundary:** These links establish the listed titles or specific corrections where stated. The remaining executive orders, administrative orders, proclamations, and some Republic Acts still need individual official-source checks before claiming every instrument has been verified.
