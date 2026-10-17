@@ -1,20 +1,21 @@
 # Session Handoff — notes
 
-## Current objective
-Relocate the image-to-notes project into repository folder `notes/` and ensure all links/session instructions point there.
+## Objective
+Make the image-to-notes workflow execute toward saved, verified repository notes instead of repeatedly reporting progress.
 
-## Next session
-1. Read SESSION_PROTOCOL.md, PROJECT_STATUS.md, WORK_QUEUE.md, RESEARCH_AND_DESIGN.md, MASTER_SYSTEM_PROMPT.txt.
-2. Verify all files under `notes/` and the root handoff.
-3. Resume the first unchecked test in WORK_QUEUE.md.
+## Verified completed
+- Updated `notes/MASTER_SYSTEM_PROMPT.txt` to require repository ingestion, an inspect → extract → organize → save → re-read → verify → track → continue loop, source fidelity, adaptive note structure, and explicit blocker handling.
+- Re-fetched the master prompt and verified the new execution-first and repository-output instructions.
+- Fixed the session protocol's entry-point reference to `START_HERE_NOTES.md`.
 
-## Still untested
-- Clear prose coverage.
-- Dense table fidelity.
-- Diagram/flowchart fidelity.
-- Unclear-text handling.
-- Adjacent-page continuity and duplicate avoidance.
-- Consolidation against page tracker.
-- Qualified nursing review.
+## Still unverified
+- Actual image-to-notes output quality.
+- Successful creation and verification of a generated Markdown note from a supplied image.
+- Table/diagram fidelity, uncertainty handling, adjacent-page continuity, consolidation, and fresh-session recovery.
+- Qualified nursing accuracy review.
 
-Do not claim production readiness until these are tested and reviewed.
+## First exact action next session
+Use a clear supplied textbook page for Test A. Produce notes, save them in the designated repository output folder using existing naming conventions, re-fetch the saved file, compare it with the image, and record actual omissions or defects.
+
+## Blocker
+No sample textbook image is available in this current turn, so functional image test A cannot be truthfully completed yet.
