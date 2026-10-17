@@ -333,3 +333,197 @@ External: [CDC — Clinical Overview of Crusted Scabies](https://www.cdc.gov/sca
 - Blurry terms are retained with caveats, including “highly infectious necrosis,” the exact methylene-blue microscopy line, the HBsAg vaccine-volume/route notation, the paragonimiasis infective-stage phrase, and scabies incubation wording.
 - The source's clinical claims are not silently rewritten. Modern differences are explicitly labeled as external cross-checks.
 - No diagrams, arrows, formulas, or figure captions are visible in the supplied photographs; the main visual structure is a multi-row, two-column table, represented as separate topic sections.
+
+
+---
+
+## 8. Topic extension: pages 77–79 — viral illnesses, common STIs, and HIV/AIDS
+
+**Additional source batch:** photographs supplied in this session, printed pages 77, 78, and 79. This extension preserves the order and the page's table content while separating current clinical cross-checks. Drug lines in the older guide are historical study material, not prescribing instructions.
+
+### 8.1 Typhoid fever — continuation at top of p. 77
+
+The disease heading is above the crop, but the row content identifies typhoid. Only the visible continuation is recorded.
+
+**Textbook states**
+- **Diagnostic tests:** “typhidot” (wording as printed), ELISA, Widal test, rectal swab.
+- **Onset symptoms:** headache; chills/chilly sensation and aching; nausea and vomiting; diarrhea; higher temperature in the morning than in the afternoon; accelerated breathing; furred tongue; hot, dry skin; tender/distended abdomen; rose spots.
+- **“Typhoid” tongue findings:** protruding tongue, dry and brown; dirty-brown collection of dried mucus and bacteria on teeth and lips (“sordes”); coma vigil; subsultus tendinum; carphologia; slipping down to the foot end of the bed.
+- **Complications:** intestinal hemorrhage/perforation; peritonitis; bronchitis/pneumonia; tympanitis; thrombosis/embolism; “early HF” (abbreviation unclear in this context); typhoid spine or neuritis; septicemia; Reiter’s syndrome (joint pain, eye irritation, painful urination that may lead to chronic arthritis).
+- **Prevention:** proper excreta disposal; safe food handling; enteric isolation; adequate safe drinking-water supply; health education.
+- **Management/drugs printed:** chloramphenicol (DOC as printed); ampicillin; cotrimoxazole; ciprofloxacin/ceftriaxone; isolation; maintain/restore fluids and electrolytes at frequent intervals; safety and disinfection.
+
+**External cross-check**
+Typhoid is a systemic infection caused by *Salmonella enterica* serovar Typhi and is typically spread by food or water contaminated with human feces. Blood culture is central to diagnosis; stool or other cultures may be used in context. Antibiotic selection must follow current susceptibility patterns and local guidance because resistance is common; the old page's fixed list (including chloramphenicol and ciprofloxacin) should not be treated as current first-line advice. Safe water, sanitation, food hygiene, handwashing, and typhoid vaccination where recommended are important prevention measures.  
+Sources: WHO, [Typhoid fact sheet](https://www.who.int/news-room/fact-sheets/detail/typhoid); CDC, [Clinical guidance for typhoid fever](https://www.cdc.gov/typhoid-fever/hcp/clinical-overview/index.html).
+
+### 8.2 Infectious mononucleosis — “Glandular Fever” (p. 77)
+
+**Textbook states**
+- **Causative agent:** Epstein–Barr virus (EBV).
+- **Incubation period:** 30–50 days, averaging 6 weeks.
+- **Transmission:** close personal contact (“kissing disease”); saliva, blood, and genital secretions are listed.
+- **Diagnostic notes:** lymphocytosis; positive cephalin-cholesterol flocculation test; increased transaminase levels (examples: SGOT, SGPT, LDH as printed); total IgM level.
+- **Signs/symptoms:** fatigue; anorexia; inability to concentrate; chills; headache; fever with enlarged lymph nodes and sore throat; exudative tonsillitis, sometimes ulcerated; severe dysphagia and gum bleeding; palatine petechiae; retro-orbital headache; photophobia and puffy eyelids; splenomegaly; hepatomegaly and jaundice.
+- **Complications:** pneumonia; neurologic manifestations including meningitis, encephalitis, and GBS; hematologic manifestations.
+- **Management/care:** dispose of oral secretions appropriately; avoid straining or strenuous activity; cooling measures for fever; soft diet and increased fluid intake.
+
+**Explanation and current cross-check**
+EBV is the most common cause of infectious mononucleosis and spreads primarily through saliva. Fatigue, fever, sore throat, lymphadenopathy, and sometimes an enlarged spleen or liver are typical. The photographed incubation estimate (about 6 weeks) accords with CDC's usual 4–6-week symptom interval. The page's named historical tests are not a modern testing algorithm; CDC notes the Monospot test is not recommended for general use because false results occur and it does not specifically confirm EBV. EBV-specific antibody testing can be useful when confirmation matters. Strenuous/contact sports should be avoided while splenomegaly is a concern because splenic rupture, though uncommon, is serious; individualized clearance is required.  
+Sources: CDC, [About infectious mononucleosis](https://www.cdc.gov/epstein-barr/about/mononucleosis.html); CDC, [Laboratory testing for EBV](https://www.cdc.gov/epstein-barr/php/laboratories/).
+
+### 8.3 Herpes simplex (HSV-1 and HSV-2) — pp. 77–78
+
+**Textbook states — agent and transmission**
+- **Causative agent:** herpes simplex virus types 1 and 2.
+- **Type 1 (as described):** close personal contact such as kissing or sharing kitchen utensils/towels; sores listed as appearing 2–20 days after contact and lasting 7–10 days; sites include lips, mouth, nose, chin/cheek, and open wounds shortly after exposure.
+- **Type 2 (as described):** sexual contact with an infected person and touching lesions; itchy, painful sores; fever and muscle pain; burning during urination; listed sites include buttocks, penis, vagina, or cervix; duration stated as 2–20 days.
+
+**Visible types/manifestations on p. 77**
+- **Oral herpes:** gingivostomatitis (noted as common in children); vesicular and ulcerative lesions of buccal mucosa and tongue; inflamed gums; cervical adenopathy; fever; excessive salivation because swallowing hurts.
+- **Labial herpes:** cold sores/fever blisters.
+- **Ocular herpes:** herpetic keratitis that can lead to vision loss; primary keratitis accompanied by conjunctivitis and preauricular lymphadenopathy.
+
+**Continuation on p. 78**
+- **Cutaneous herpes:** deep burning pain, fever, skin edema, ascending lymphangitis, regional lymphadenopathy.
+- **Erythema multiforme:** source describes a zosteriform distribution of lesions that can mimic herpes zoster.
+- **Genital herpes:** described as one of the most common STIs.
+- **Newborns:** neonatal herpetic infection may follow maternal infection during delivery; marked “severe-fatal” in the source.
+- **Eczema herpeticum/eczema vacciniforme eruption:** described in atopic dermatitis, occasionally seborrheic dermatitis and diaper rash.
+- **Encephalitis:** described as the most common non-epidemic form.
+- **Management/care:** oral antivirals listed include acyclovir, famciclovir, valacyclovir; personal hygiene; fluid/electrolyte balance; isolation particularly with eczema herpeticum/neonatal herpes; standard/universal precautions and handwashing.
+
+**Explanation and current cross-check**
+HSV establishes lifelong latency and can recur. HSV-1 commonly causes oral herpes but can also cause genital infection; HSV-2 commonly causes genital infection, but the type does not perfectly predict anatomic site. Transmission can occur during symptomatic outbreaks and sometimes when lesions are absent due to asymptomatic shedding. Antiviral medicines (acyclovir, valacyclovir, famciclovir) control episodes and can suppress recurrences but do not eradicate latent virus. Suspected eye involvement, encephalitis, severe/disseminated disease, or neonatal exposure/illness warrants urgent specialist medical assessment. Neonatal HSV can be life-threatening; prevention depends on obstetric assessment of maternal infection and lesions at delivery, and neonatal evaluation/treatment when indicated. Avoid contact with lesions, handwash carefully, and avoid touching eyes after lesion contact. Do not generalize the textbook's precise lesion timing/duration to every patient.  
+Sources: CDC, [Genital herpes STI treatment guidance](https://www.cdc.gov/std/treatment-guidelines/herpes.htm); NIH ClinicalInfo, [Adult/adolescent opportunistic infections — HSV](https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/herpes-simplex-virus).
+
+### 8.4 Chlamydia (p. 78)
+
+**Textbook states**
+- **Agent:** *Chlamydia trachomatis*.
+- **Transmission:** vaginal/rectal intercourse and oro-genital contact.
+- **Diagnostic methods listed:** swab from infection site; culture of aspirated material; ELISA; direct fluorescent antibody (DFA) test.
+- **Signs/symptoms listed:** mucopurulent discharge; pelvic pain; dyspareunia; abdominal tenderness; urinary frequency/discharge; diarrhea; tenesmus.
+- **Management listed:** doxycycline orally for 7 days; single-dose azithromycin; universal precautions and HIV testing.
+
+**External cross-check**
+Chlamydia is often asymptomatic. When symptomatic, cervicitis/urethritis, discharge, dysuria, pelvic pain, or rectal symptoms can occur. Nucleic-acid amplification testing (NAAT) is the preferred sensitive diagnostic method for appropriate urogenital specimens. CDC's usual recommended regimen for adolescents/adults is doxycycline 100 mg orally twice daily for 7 days; azithromycin 1 g orally once is an alternative in selected circumstances. Pregnancy requires a pregnancy-appropriate regimen and test-of-cure follow-up. Sex partners need evaluation/treatment, and retesting is recommended about 3 months after treatment to identify reinfection. The textbook's culture/ELISA/DFA listing is not a complete modern diagnostic pathway.  
+Source: CDC, [Chlamydial infections — STI treatment guidelines](https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm).
+
+### 8.5 Gonorrhea — “Clap,” “Flores Blancas,” “Gleet,” or “Tulo” (pp. 78–79)
+
+**Textbook states — agent and transmission**
+- **Agent:** *Neisseria gonorrhoeae* (gonococcus).
+- **Incubation period:** 3–21 days, average 3–5 days.
+- **Transmission:** direct sexual contact (orogenital/anogenital); uterine transmission; fomites are listed by the source.
+- **Diagnostic methods:** culture from cervix and anal canal on Thayer–Martin medium in females; Gram stain in males.
+- **Females:** burning/frequent urination; yellowish purulent vaginal discharge; genital redness/swelling; burning/itching; urethritis/cervicitis; endometritis; salpingitis/PID; peritonitis/pelvic peritonitis with fever, nausea/vomiting, and abdominal tenderness.
+- **Males:** dysuria with purulent urethral discharge (“gleet”); rectal infection; urethral inflammation; prostatitis/urethritis; pelvic pain and fever.
+- **By site involved:** urethral symptoms include dysuria, frequency, incontinence and purulent discharge; pelvic involvement may include severe abdominal pain, muscle rigidity, tenderness, distention, and tachycardia; liver/RUQ pain is listed.
+- **Complications:** infertility/sterility; PID; epididymitis; arthritis; endocarditis; conjunctivitis; meningitis; ophthalmia neonatorum.
+- **Prevention:** sex education; case finding/contact tracing.
+- **Treatment/care shown on p. 78–79:** uncomplicated adult: ceftriaxone 125–250 mg IM single dose; doxycycline 100 mg twice daily for 7 days; pregnant: ceftriaxone 125–250 mg IM once plus erythromycin 500 mg orally for 7 days. For disseminated gonococcal infection: “1 g ceftriaxone IM/IV q 24 hours”; with allergy “2 g spectinomycin IM q 12 hours”; continuation antimicrobials listed as ceftriaxone 400 mg orally twice daily or ciprofloxacin 500 mg orally twice daily. The lower line is partly cropped; exact ending not visible.
+- **Page 79 nursing management:** ask about drug sensitivities; standard precaution; keep information confidential; isolation; apply moist heat to relieve pain for gonococcal arthritis; 1% silver nitrate or another ophthalmic prophylaxis (Credé's) is noted; inform sexual contacts to seek treatment. The p. 79 top line completes the prior pregnancy/eye section: gonococcal conjunctivitis — 1 g ceftriaxone IM single dose and irrigation of infected eye with normal saline.
+
+**External cross-check — major date-sensitive correction**
+The photographed gonorrhea drug regimens are outdated and should not be followed as current prescriptions. CDC's current U.S. guideline recommends ceftriaxone 500 mg IM once for uncomplicated infection in adults/adolescents under 150 kg, or 1 g once if ≥150 kg; treat for chlamydia if it has not been excluded. Pregnancy and complicated/disseminated infection require clinician-managed, site-specific regimens. Gonorrhea may be asymptomatic and can affect genital, rectal, and pharyngeal sites. NAAT is widely used; culture with antimicrobial-susceptibility testing is important when treatment failure is suspected. Partner evaluation/treatment and retesting about 3 months after treatment are important. Fomites are not considered a usual transmission route for genital gonorrhea, so the source's fomite line should not be read as an equal common route.  
+Sources: CDC, [Gonococcal infections among adolescents and adults](https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.htm); CDC, [Retesting after treatment](https://www.cdc.gov/std/treatment-guidelines/clinical-retesting.htm).
+
+### 8.6 Candidiasis — “Moniliasis” / “Candidosis” (p. 79)
+
+**Textbook states**
+- **Agents:** *Candida albicans*; *Candida tropicalis*.
+- **Incubation period:** variable.
+- **Diagnostic note:** microscopic demonstration of pseudohyphae or yeast cells in infected tissue or body fluids (vaginal discharge).
+- **Signs/symptoms:** severe vulvar pruritus; vaginal discharge; sore vulva; oropharyngeal mucosa/thrush; flank pain (listed in the same line, but not specific to uncomplicated vulvovaginal candidiasis); treatment of underlying medical conditions/predisposing factors.
+- **Management listed:** nystatin for oral thrush; clotrimazole, fluconazole, ketoconazole; avoid sharing utensils; mouth care; proper disposal.
+
+**Explanation and current cross-check**
+Candida can cause oral thrush, vulvovaginal candidiasis, and invasive disease in certain high-risk settings. Vulvovaginal candidiasis often causes itching, soreness, external dysuria, and discharge, but symptoms are not specific; microscopy with saline/KOH and, when needed, culture or other validated testing helps distinguish it from other causes. Uncomplicated vulvovaginal candidiasis is not usually acquired through sexual intercourse and routine treatment of sex partners is not supported. In pregnancy, CDC recommends topical azole therapy for 7 days and advises against oral fluconazole. Oral thrush and invasive candidiasis require management based on site and host status. The source's list is not a one-size-fits-all regimen.  
+Sources: CDC, [Vulvovaginal candidiasis — STI treatment guidance](https://www.cdc.gov/std/treatment-guidelines/candidiasis.htm); CDC, [Treatment of candidiasis](https://www.cdc.gov/candidiasis/treatment/index.html).
+
+### 8.7 Syphilis — “Lues Venerea” / “Morbus Gallicus” (p. 79)
+
+**Textbook states**
+- **Agent:** *Treponema pallidum*.
+- **“Source” listed:** discharge from lesions of skin/mucous membranes; semen; blood; tears; urine (the last fluids are preserved as printed, not endorsed as all typical transmission routes).
+- **Incubation period:** 10–90 days.
+- **Transmission listed:** direct transmission; sexual contact; indirect contact; placental transmission.
+- **Diagnostic tests listed:** dark-field illumination; VDRL; fluorescent treponemal antibody-absorption (FTA-ABS) test.
+- **Primary stage:** painless chancres, including genitalia, anus, nipples (as listed).
+- **Secondary stage:** pinkish/grayish-white lesions (condylomata); alopecia; sore throat; weight loss; nausea/vomiting; anorexia.
+- **Tertiary stage:** gumma formation; cardiovascular and nervous-system involvement.
+- **Prevention:** “practice monogamy” and sex education.
+- **Management listed:** penicillin; tetracycline; universal precaution; symptomatic treatment.
+
+**Explanation and current cross-check**
+Syphilis is a systemic sexually transmitted infection that can also pass from a pregnant person to the fetus. Primary disease classically causes a painless chancre; secondary disease may cause rash and mucocutaneous lesions; untreated infection can progress to latent and tertiary disease, including cardiovascular or neurologic involvement. Current presumptive diagnosis generally requires both a nontreponemal test (RPR or VDRL) and a treponemal test; either test alone is insufficient in many situations. Parenteral penicillin G is preferred, with regimen determined by stage and special circumstances; pregnancy requires penicillin treatment and specialist-managed desensitization if allergic. “Tetracycline” on the page is not a universally suitable substitute, especially not in pregnancy. Syphilis can be transmitted by direct contact with infectious lesions and across the placenta; do not interpret every fluid listed in the table as a common route. Partner services, testing, and follow-up are essential.  
+Sources: CDC, [Syphilis — STI treatment guidance](https://www.cdc.gov/std/treatment-guidelines/syphilis.htm); CDC, [Primary and secondary syphilis](https://www.cdc.gov/std/treatment-guidelines/p-and-s-syphilis.htm).
+
+### 8.8 HIV/AIDS — p. 79
+
+**Textbook states**
+- **Agents:** HIV types 1 and 2.
+- **Incubation/progression note:** “3–6 months to many years (8–10)” (the source's use of “incubation period” conflates different phases; it should not be taken as a universal interval).
+- **Transmission listed:** sexual contact; blood transfusion; contaminated syringes, needles, nippers, and blades; direct contact of open wounds/mucous membranes with contaminated blood/body fluids, semen, or vaginal discharges.
+- **Tests listed:** EIA/ELISA; western blot (confirmatory as printed); HIV antibody testing.
+- **“Minor” manifestations listed:** persistent cough for 1 month; generalized pruritic dermatitis; recurrent herpes zoster; oropharyngeal candidiasis; lymphadenopathy.
+- **“Major” manifestations listed:** weight loss of 10% body weight; chronic diarrhea; prolonged fever for 1 month.
+- **Opportunistic disease/cancer list printed:**
+  - **Bacterial:** *Mycobacterium avium* complex; tuberculosis; salmonellosis.
+  - **Viral:** herpes; hepatitis; genital warts; cytomegalovirus; molluscum contagiosum.
+  - **Fungal:** candidiasis; cryptococcal meningitis; histoplasmosis.
+  - **Pneumonias:** bacterial and “pneumocystis carinii” (current common name: *Pneumocystis jirovecii*).
+  - **Cancer:** Kaposi sarcoma; cervical dysplasia and cancer; non-Hodgkin lymphoma.
+  - **Parasitic:** toxoplasmosis; cryptosporidiosis.
+
+**Explanation and current cross-check**
+HIV attacks immune cells; untreated infection can progress over years to advanced immunodeficiency/AIDS, but the timeline varies substantially and effective antiretroviral therapy (ART) changes the course. HIV is transmitted through specific infectious body fluids (including blood, semen, vaginal/rectal fluids, and breast milk) by sexual exposure, blood exposure, and perinatal transmission. It is not spread through casual contact, sharing food, hugging, or ordinary social contact. Modern testing algorithms use antigen/antibody testing with supplemental testing and, in selected contexts, nucleic-acid testing; Western blot is not the contemporary universal confirmatory test in the U.S. algorithm. Prompt linkage to HIV care and ART can preserve health and, with sustained undetectable viral load, prevents sexual transmission. The listed opportunistic infections and cancers are examples rather than a diagnostic checklist; risks depend partly on immune status and other clinical factors.  
+Sources: WHO, [HIV and AIDS fact sheet](https://www.who.int/en/news-room/fact-sheets/detail/hiv-aids); CDC, [HIV testing](https://www.cdc.gov/hivpartners/php/hiv-testing/index.html); NIH ClinicalInfo, [Guidelines for prevention and treatment of opportunistic infections in adults and adolescents with HIV](https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/introduction).
+
+## 9. Page 77–79 comparison and retrieval check
+
+| Condition | Agent | High-yield clue from these pages | Important modern caution |
+|---|---|---|---|
+| Typhoid | *Salmonella Typhi* | Sustained fever, abdominal symptoms, rose spots; intestinal bleeding/perforation may occur | Culture/susceptibility and current local resistance guide antibiotics |
+| Infectious mononucleosis | EBV | Fatigue, sore throat, cervical lymphadenopathy, possible splenomegaly | Monospot is not recommended for general use by CDC; avoid strenuous/contact activity if spleen enlarged |
+| Herpes simplex | HSV-1/HSV-2 | Oral vesicles/ulcers, painful genital lesions; ocular/neonatal/CNS disease can be severe | Latent infection persists; antivirals suppress but do not eradicate; eye/newborn/CNS concern is urgent |
+| Chlamydia | *C. trachomatis* | Often silent; cervicitis/urethritis, pelvic or rectal symptoms | NAAT preferred; pregnancy regimen differs; partner treatment and retesting matter |
+| Gonorrhea | *N. gonorrhoeae* | Purulent discharge/dysuria; may cause PID or disseminated infection | The photographed ceftriaxone doses are outdated; current guidance must be consulted |
+| Candidiasis | *Candida* spp. | Vulvar itching/discharge or oral thrush | Symptoms are nonspecific; pregnancy treatment differs; routine partner therapy not indicated for uncomplicated VVC |
+| Syphilis | *T. pallidum* | Primary chancre; secondary rash/mucocutaneous lesions; late systemic disease | Use both nontreponemal and treponemal tests; penicillin is stage-specific preferred therapy |
+| HIV/AIDS | HIV-1/HIV-2 | Progressive immune dysfunction; opportunistic infections/cancers in advanced disease | Modern diagnostic algorithm differs from Western-blot-era wording; ART is foundational |
+
+### Retrieval questions
+
+1. **What should be considered the source of truth for the exact typhoid drug regimen printed on p. 77?**  
+   **Answer:** The image is evidence of what the textbook says, but not proof of current care standards. Use current local guidance and susceptibility-informed clinical decisions before any treatment decision.
+
+2. **Why is splenic enlargement important in infectious mononucleosis?**  
+   **Answer:** It creates a risk of splenic injury/rupture, so strenuous or contact activity should be avoided until clinically cleared.
+
+3. **Do HSV antivirals eliminate latent herpes simplex virus?**  
+   **Answer:** No. They control symptoms and recurrences but do not eradicate latent virus.
+
+4. **What is the preferred test type for many urogenital chlamydia infections today?**  
+   **Answer:** Nucleic-acid amplification testing (NAAT), using a suitable specimen.
+
+5. **Which source-listed gonorrhea doses need particular caution during study?**  
+   **Answer:** The 125–250 mg ceftriaxone dose and the historical erythromycin/other antimicrobial lines. CDC's current uncomplicated adult regimen differs; do not use the printed line as prescribing advice.
+
+6. **Why does syphilis testing generally use two categories of serology?**  
+   **Answer:** Nontreponemal tests (RPR/VDRL) and treponemal tests provide complementary evidence; a single category alone can mislead.
+
+7. **Can HIV be spread through sharing food or casual hugging?**  
+   **Answer:** No. HIV is transmitted through specific infectious body fluids and exposure routes, not ordinary social contact.
+
+8. **Name three examples of opportunistic infection/cancer categories included in the textbook's HIV/AIDS row.**  
+   **Answer:** Examples include bacterial (TB/MAC), viral (CMV/herpes), fungal (cryptococcosis/candidiasis), pneumonias (including Pneumocystis), cancers (Kaposi sarcoma/lymphoma), and parasitic (toxoplasmosis/cryptosporidiosis).
+
+## 10. Coverage and uncertainty audit — pp. 77–79
+
+- **Printed p. 77:** top cropped typhoid continuation; complications/prevention/management; mononucleosis agent/incubation/transmission/diagnostics/symptoms/complications/care; HSV agent and type descriptions, oral/labial/ocular herpes start.
+- **Printed p. 78:** HSV cutaneous/erythema multiforme/genital/neonatal/eczema-herpeticum/encephalitis/care continuation; chlamydia entire row; gonorrhea agent/incubation/transmission/tests/symptoms/site-specific effects/complications and start of prevention/treatment.
+- **Printed p. 79:** gonorrhea treatment continuation (including pregnancy, disseminated disease, conjunctivitis and nursing management); candidiasis; syphilis; HIV/AIDS manifestations and opportunistic infection categories.
+- **Uncertainty retained:** the p. 77 typhoid heading is outside the crop; “early HF” in the typhoid complications line is ambiguous; one gonorrhea continuation line at the bottom of p. 78 is partly obscured/cropped; exact p. 79 top carryover and some small words were read in context but should be rechecked with a closer crop if verbatim transcription is needed. The source's printed treatment lines are quoted as study-guide content and externally flagged where outdated.
+- **Table/relationship audit:** all visible disease rows are represented as separate sections; multi-line gonorrhea treatment and the HIV opportunistic infection taxonomy retain their grouped relationships. No diagram arrows or separate figure captions are visible.
