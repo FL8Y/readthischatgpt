@@ -6,6 +6,7 @@ import { exportAll, writeExtras } from '../backupIO';
 import { KeySetup } from './Onboarding';
 import { ProviderPool } from './ProviderPool';
 import { FreeAiGuide } from './FreeAiGuide';
+import { QuickSetup } from './QuickSetup';
 import { Btn, Card, Field, H, P, Pill, c, sp } from './kit';
 
 export function Settings({ state, update }: { state: AppState; update: (s: AppState) => void }) {
@@ -38,6 +39,7 @@ export function Settings({ state, update }: { state: AppState; update: (s: AppSt
   const hasPool = !!state.settings.pool?.length;
   return (
     <View style={{ gap: sp.md }}>
+      <QuickSetup settings={state.settings} onSave={(settings) => update({ ...state, settings })} />
       {hasPool ? null : (
       <Card>
         <H>AI provider</H>

@@ -5,6 +5,7 @@ import type { Settings } from '../core/types';
 import { DEFAULT_MODELS } from '../ai/provider';
 import { ProviderEditor } from './ProviderEditor';
 import { FreeAiGuide } from './FreeAiGuide';
+import { QuickSetup } from './QuickSetup';
 import { Btn, Card, Chip, H, Header, Illustration, PressableScale, Screen, TOP_INSET, sp } from './kit';
 import type { IconName } from './kit';
 import { radius, space, useTheme } from './theme';
@@ -92,6 +93,7 @@ export function Onboarding({
   const { colors, type } = useTheme();
   const [advanced, setAdvanced] = useState(false);
   const [guide, setGuide] = useState(false);
+  const [quickSaved, setQuickSaved] = useState<Settings | null>(null);
   const [draft, setDraft] = useState<Settings>(settings.provider === 'manual' ? { ...settings, provider: 'gemini', model: DEFAULT_MODELS.gemini } : settings);
   if (guide) {
     return (
@@ -134,6 +136,11 @@ export function Onboarding({
             Lessons, quizzes and the tutor need an AI. You can change this later in Settings.
           </Text>
         </View>
+        <QuickSetup settings={settings} onSave={setQuickSaved} />
+        {quickSaved ? <Btn label="Continue" onPress={() => onSave(quickSaved)} hint="Finishes setup with your connected keys" /> : null}
+        <Text accessibilityRole="header" style={[type('headline'), { color: colors.text }]}>
+          Other options
+        </Text>
         <ChoiceCard
           icon="clipboard-outline"
           title="Copy and paste"
