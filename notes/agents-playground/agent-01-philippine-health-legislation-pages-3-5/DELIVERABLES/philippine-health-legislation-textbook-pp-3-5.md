@@ -37,7 +37,7 @@ These pages are a rapid-review list of Philippine laws, executive orders, admini
 | RA 7305 | Magna Carta of Public Health Workers | Title only. |
 | RA 7883 | Barangay Health Workers' Benefits and Incentives Act | Guide says it entitles them to hazard and subsistence allowances and other benefits. |
 | RA 7160 | Local Government Code | Title only. |
-| EO 352 | Field Health Service Information System (FHSIS) | Guide calls FHSIS the official recording and reporting system of the DOH, used to generate health statistics. |
+| EO 352 | Field Health Service Information System (FHSIS) — as labelled by the guide | **Potential citation mismatch:** later official issuances identify EO 352 (s. 1996) as establishing the System of Designated Statistics, and EO 87 (2025) repeals it. Do not treat EO 352 as the verified legal basis for FHSIS without a separate primary DOH source. See legal verification matrix. |
 | AO 2010-0036 | Policy Directions of Universal Health Care | Title only. |
 
 ### C. Laws Affecting Noncommunicable Disease — printed page 3
@@ -73,7 +73,7 @@ These pages are a rapid-review list of Philippine laws, executive orders, admini
 | PD 856 | Sanitation Code |
 | PD 825 | Anti-improper Garbage Disposal |
 | EO 489 | Institutionalizing the Inter-Agency Committee on Environmental Health (IACEH) |
-| AO 2007-0012 | Philippine National Standards for Drinking Water of 2007 |
+| AO 2007-0012 | Philippine National Standards for Drinking Water of 2007 | **Historical/superseded:** DOH AO 2017-0010 expressly repealed AO 2007-0012. |
 | RA 9275 | Philippine Clean Water Act of 2004 |
 | AO 2000-81 | Implementing Rules and Regulations |
 | RA 8749 / RA 8749 | Clean Air Act of 1999 (the number appears duplicated in the photograph) |
@@ -146,7 +146,7 @@ These are external cross-checks, not claims transcribed from the page.
 | Term | Meaning in this context | Distinction / caveat |
 |---|---|---|
 | Rooming-in | Keeping newborn and mother in the same room after birth to support bonding and breastfeeding | RA 7600; amended/expanded by RA 10028. |
-| FHSIS | Field Health Service Information System, described by the guide as the DOH's official recording/reporting system for health statistics | Source-page claim; check current DOH guidance if needed. |
+| FHSIS | Field Health Service Information System, described by the guide as the DOH's official recording/reporting system for health statistics | Source-page claim, not independently established by EO 352. Later official sources identify EO 352 (1996) with the System of Designated Statistics and EO 87 (2025) repeals EO 352. Do not memorize the guide's EO/FHSIS pairing as verified law. |
 | Notifiable disease | A disease/condition that must be reported under public-health reporting rules | Current framework includes RA 11332, which repealed RA 3573. |
 | DOTS | Directly Observed Treatment, Short-course, a TB-control strategy named in the guide | The page only notes adoption; current program protocols may have evolved. |
 | OSHC | Occupational Safety and Health Center | Page links it to EO 307 and separately lists RA 11058. |
@@ -161,7 +161,7 @@ The pages are a broad index of Philippine public-health-related laws. Memorize b
 2. **Which act expanded breastfeeding promotion and amended RA 7600?** RA 10028. *Rationale:* RA 7600 is the original act; RA 10028 amended it.
 3. **What current law repealed RA 3573?** RA 11332. *Rationale:* Its repealing clause expressly repeals RA 3573.
 4. **What current law repealed RA 8504?** RA 11166, the Philippine HIV and AIDS Policy Act. *Rationale:* RA 11166 expressly repeals RA 8504.
-5. **What does the guide say FHSIS is used for?** Official DOH recording/reporting and generation of health statistics. *Rationale:* This is the explanation printed under EO 352.
+5. **What does the guide say FHSIS is used for?** The guide describes it as the DOH recording/reporting system for generating health statistics. *Rationale:* This tests the source-page wording only. Important correction: the guide's citation of EO 352 as its legal basis is not verified and appears inconsistent with later official descriptions of EO 352 (1996).
 6. **Which law is associated with the 105-day expanded maternity-leave framework?** RA 11210. *Rationale:* The title and guide description identify the 105-day framework, optional additional 30 days without pay, and additional 15 paid days for qualifying solo mothers.
 7. **Name three environmental-health laws/issuances listed on page 4.** Examples: PD 856 (Sanitation Code), RA 9275 (Philippine Clean Water Act), RA 9003 (Ecological Solid Waste Management Act). *Rationale:* Each appears in that section.
 8. **Which law is listed for data privacy?** RA 10173, Data Privacy Act of 2012. *Rationale:* Highlighted under occupational-health legislation.
@@ -205,4 +205,4 @@ The pages are a broad index of Philippine public-health-related laws. Memorize b
 - RA 11058 — occupational safety and health, Supreme Court E-Library: https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/86355
 - RA 11369 — National Students' Day Act, Supreme Court E-Library: https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/89640
 
-**Verification boundary:** These links establish the listed titles or specific corrections where stated. The remaining executive orders, administrative orders, proclamations, and some Republic Acts still need individual official-source checks before claiming every instrument has been verified.
+**Verification boundary:** These links establish the listed titles or specific corrections where stated. The legal matrix separately distinguishes verified findings, superseded instruments, probable citation mismatches, and references still lacking a reliable primary source. Do not claim every instrument has been verified.
