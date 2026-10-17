@@ -2,30 +2,37 @@
 
 Upload order matches printed page order.
 
-| Image / page | Visible section | Granular coverage target | Status before final audit | Notes |
+| Image / page | Visible section | Granular coverage target | Final status | Audit note |
 |---|---|---|---|---|
-| 1 / p. 56 | Anxiolytic table continuation | Nonbenzodiazepines label; buspirone/BuSpar; meprobamate/Miltown/Equanil; onset labels very slow/rapid; shared side-effect cell; nursing implications | Drafted | Table begins mid-page; column/cell association uncertain. |
-| 1 / p. 56 | Schizophrenia | Positive/hard list: ambivalence, associative looseness, delusions, echopraxia, flight of ideas, hallucination, ideas of reference, perseveration, bizarre behavior | Drafted | Nine entries captured in source group. |
-| 1 / p. 56 | Schizophrenia | Negative/soft list: alogia, anhedonia, apathy, asociality, blunted affect, catatonia, flat affect, avolition/lack of volition, inattention | Drafted | Nine entries captured in source group. |
-| 1 / p. 56 | Antipsychotic adverse effects | Dystonic reactions; tardive dyskinesia; NMS; akathisia; EPS/neuroleptic-induced parkinsonism; seizures; sedation; photosensitivity; weight gain; anticholinergic symptoms; dry mouth; blurred vision | Drafted | All visible rows represented. |
-| 2 / p. 57 | Table continuation | Constipation, increase fluid/fiber and possible stool softener; urinary retention row text | Drafted | Urinary retention's printed nursing intervention seems misaligned/unclear; disclosed. |
-| 2 / p. 57 | Lithium toxicity | 1.5–2 mEq/L; all listed symptoms; withhold next dose, serum level, suspend/reduce dose | Drafted | Preserve as source table, not current standalone management. |
-| 2 / p. 57 | Lithium toxicity | 2–3 mEq/L; symptom list includes ataxia, agitation, blurred vision, tinnitus, choreoathetoid movement, confusion, fasciculation, hyperreflexia, myoclonic twitches, rash, dilute urine output, incontinence, vertigo; intervention list | Drafted | Historical interventions cross-checked separately. |
-| 2 / p. 57 | Lithium toxicity | 3.0 mEq/L and above; cardiac/vascular/seizure/consciousness/muscle signs; preceding actions, aminophylline/mannitol/urea, hemodialysis, system monitoring | Drafted | Dangerous older recommendations explicitly identified as historical. |
-| 3 / p. 58 | Cluster A | Odd/eccentric label; paranoid, schizoid, schizotypal traits and each associated nursing-intervention cell | Drafted | “Develop skin-care skills” under schizotypal preserved as printed, caveated as unusual. |
-| 3 / p. 58 | Cluster B | Erratic/dramatic label; antisocial, borderline, histrionic, narcissistic traits and intervention cells | Drafted | “Confrontation” paraphrased with current non-punitive caveat. |
-| 3 / p. 58 | Cluster C | Anxious/fearful label; avoidant, dependent, obsessive-compulsive traits and intervention cells | Drafted | Includes autonomy, problem-solving, restructuring, task completion. |
+| 1 / p. 56 | Anxiolytic table continuation | Nonbenzodiazepines; buspirone/BuSpar; meprobamate/Miltown/Equanil; onset words “Very slow” and “Rapid”; side-effect cell and nursing implications | DONE — verified | Begins mid-table; column and cell association uncertainty explicitly retained. |
+| 1 / p. 56 | Schizophrenia | Positive/hard entries: ambivalence, associative looseness, delusions, echopraxia, flight of ideas, hallucination, ideas of reference, perseveration, bizarre behavior | DONE — verified | All nine entries present under the source's positive/hard column. |
+| 1 / p. 56 | Schizophrenia | Negative/soft entries: alogia, anhedonia, apathy, asociality, blunted affect, catatonia, flat affect, avolition/lack of volition, inattention | DONE — verified | All nine entries present under the source's negative/soft column. |
+| 1 / p. 56 | Antipsychotic adverse effects | Dystonic reactions; tardive dyskinesia; NMS; akathisia; EPS/neuroleptic-induced parkinsonism; seizures; sedation; photosensitivity; weight gain; anticholinergic symptoms; dry mouth; blurred vision | DONE — verified | All 12 entries appear in the saved note; lower merged cell pairings are qualified. |
+| 2 / p. 57 | Table continuation | Constipation; increased fluid/fiber and possible stool softener; urinary-retention row text | DONE — verified | The odd urinary-retention intervention wording is explicitly disclosed rather than silently corrected. |
+| 2 / p. 57 | Lithium toxicity | 1.5–2 mEq/L; every printed symptom and intervention | DONE — verified | Source level range, symptoms, withholding next dose, serum check, suspension/reduction captured. |
+| 2 / p. 57 | Lithium toxicity | 2–3 mEq/L; ataxia/agitation/vision/hearing/movement/neurological/urinary and other signs; all printed interventions | DONE — verified | Key text and all intervention categories retained; old interventions separately flagged. |
+| 2 / p. 57 | Lithium toxicity | 3.0 mEq/L and above; cardiac/vascular/seizure/consciousness/muscle signs; previous actions, aminophylline/mannitol/urea, hemodialysis, system monitoring | DONE — verified | Printed advice preserved as source content but marked historical, not current routine advice. |
+| 3 / p. 58 | Cluster A | Odd/eccentric; paranoid, schizoid, schizotypal traits and intervention cells | DONE — verified | All three disorders and source interventions included. “Skin-care skills” wording is retained with caveat. |
+| 3 / p. 58 | Cluster B | Erratic/dramatic; antisocial, borderline, histrionic, narcissistic traits and intervention cells | DONE — verified | All four disorders and intervention rows included; “confrontation” is qualified with person-centered context. |
+| 3 / p. 58 | Cluster C | Anxious/fearful; avoidant, dependent, obsessive-compulsive traits and intervention cells | DONE — verified | All three disorders and intervention rows included, including autonomy/problem-solving/restructuring/task completion. |
 
-## Verification checklist
-- [ ] Re-fetch note file and visually compare each page/row.
-- [ ] Verify all source rows and values are represented.
-- [ ] Confirm source claims are separated from external updates.
-- [ ] Verify citations point to the named authoritative sources.
-- [ ] Re-fetch coverage checklist, research log, queue, and handoff.
+## Verification record
+
+- [x] Re-fetch the saved study-note file from live GitHub; confirm correct path, nonempty content, and all section headings.
+- [x] Check 27 key terms/values in the re-fetched note, including both anxiolytic names, both schizophrenia columns, antipsychotic rows, constipation/urinary retention, all three lithium threshold bands, hemodialysis/historical excretion recommendations, all clusters, and all ten diagnoses.
+- [x] Compare the visible source page inventory to the saved notes page by page and check table row/column relationships.
+- [x] Confirm source claims are separated from added explanation and current external updates.
+- [x] Confirm external source links/citations are included in the notes and research log.
+- [x] Re-fetch coverage checklist, research log, work queue, and handoff; correct outdated in-progress status statements.
+- [x] Preserve image ambiguity in the notes rather than inventing certainty.
+- [ ] Qualified nursing-professional review — not performed in this task; external source cross-checks are not equivalent to review by a qualified professional.
 
 ## Uncertainty register
-1. Page 56 begins partway through an anxiolytic table; missing heading/column boundaries mean the drug-specific assignment of side effects and nursing instructions cannot be stated with full certainty.
-2. Page 56 antipsychotic table has merged cells around anticholinergic symptoms, dry mouth, and blurred vision; row-specific intervention alignment at the bottom is not perfectly clear.
-3. Page 57 urinary-retention intervention reads awkwardly (“Report any urge to rise slowly…”) and likely combines a urinary symptom row with postural-dizziness text from another row. It is preserved with this uncertainty instead of corrected silently.
-4. Page 58 “Develop skin-care skills” appears in the schizotypal-personality nursing intervention cell; visually present but unusual in context.
-5. Page 58 bottom rows are partially shadowed, but the highlighted OCPD phrase and visible intervention text remain sufficiently readable; no unseen continuation is inferred.
+
+1. **Page 56 anxiolytic fragment:** The table starts mid-table; missing column headings and cell boundaries mean exact drug-specific assignment of the shared side-effect and nursing-implication text cannot be stated with full confidence.
+2. **Page 56 antipsychotic table:** Merged cells around anticholinergic symptoms, dry mouth, blurred vision, and the bottom interventions make exact row association somewhat unclear.
+3. **Page 57 urinary retention:** The intervention phrase (“Report any urge to rise slowly…”) appears to combine a urinary symptom row with postural dizziness text. The unclear wording is reported, not guessed into a corrected instruction.
+4. **Page 58 schizotypal row:** “Develop skin-care skills” appears in the nursing intervention cell. It is retained as printed and flagged as unusual/context-specific.
+5. **Page 58 bottom row:** The page is partly shadowed near the OCPD row, but the printed trait and intervention text included in the notes are visible; no unseen continuation is inferred.
+
+**Coverage result:** All visible meaningful sections and listed rows on printed pages 56–58 are represented in the saved notes; remaining ambiguity is localized to the specific entries above.
