@@ -25,6 +25,9 @@
 - Targeted check confirmed sections for polio, Zika, Ebola, bird flu, H1N1, SARS, MERS, Primary/Secondary/Tertiary prevention, Disaster Management—Prevention, Preparedness & Planning, source separation and retrieval questions. The checklist separately confirms every disease/topic and visible table row.
 - Remaining uncertainty is inherent in the images: p. 83 top row heading is cropped; some words on pp. 83–84 are shadowed/soft; p. 85 cuts off the Preparedness & Planning row. No absent text was invented.
 
+## Final status
+All assigned source material visible in the three uploaded photos has been noted, cross-checked, saved, and coverage-audited. See `HANDOFF.md` for the verification record and exact limits of the image/source evidence.
+
 ## Acceptance criteria
 - All visible content from all three supplied photos is represented.
 - Table row/column relationships are retained or made explicit in structured tables.
