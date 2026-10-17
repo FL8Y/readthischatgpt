@@ -19,3 +19,7 @@ The re-fetched study note includes all 14 named values/concepts (11 on p. 11 and
 
 ## Future action
 If a sharper image of the lower-left p. 13 figure credit becomes available, inspect that credit only; otherwise this assigned three-image unit is complete.
+
+
+## Final research audit
+The core deliverable and supporting records were re-fetched after a source-verification pass. The NCBI Bookshelf ethics chapter, OpenStax ethics chapter, ANA 2025 Code of Ethics Provision 3, ANA privacy/confidentiality statement, NLM Benner catalog record, OpenStax Benner summary, Philippine PRC Board of Nursing Code of Ethics page, and ANA restraint position statement were opened and checked. The Philippine E-Library URL was corrected to the verified `/showdocs/10/41009` path; the restraint position statement was added as a direct supporting source. No remaining substantive page work is identified.
