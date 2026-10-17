@@ -18,7 +18,8 @@
 - [x] Highlighted items recorded: RA 7600, RA 9173, RA 8504, RA 10173.
 - [x] Duplicated printed reference RA 8749 recorded as printed.
 - [x] External legal updates separated from textbook claims.
-- [ ] Full authoritative verification of every listed law, EO, AO, proclamation, and PD.
+- [x] Added LEGAL_VERIFICATION_MATRIX.md with verified primary-source titles and an explicit list of issuances still requiring source checks.
+- [ ] Full authoritative verification of every listed EO, AO, proclamation, and PD; some Republic Act title/status checks also remain.
 - [x] Re-fetched saved notes from GitHub and compared all visible sections/entries against all three supplied images.
 
 Image coverage check passed for visible headings, list entries, and explanatory paragraphs. Legal verification of every listed instrument remains incomplete; do not treat legal cross-checking as complete.
