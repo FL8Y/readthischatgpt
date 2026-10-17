@@ -5,11 +5,12 @@
 | Read repository source-of-truth and mandatory standards | DONE | Live GitHub files fetched before image analysis; list in REFERENCES.md. |
 | Inspect images and establish page order | DONE | Uploads 1–3 are printed pages 6–8. |
 | Map content to topic | DONE | Henderson need theory and nursing-theorist comparison table. |
-| Research contextual sources | DONE | ANA, OpenStax, Henderson overview, theory index, Elsevier listing. |
-| Draft Henderson components note | IN PROGRESS | Created; re-fetch still required. |
-| Draft theorists pages 7–8 note | IN PROGRESS | Created; re-fetch still required. |
-| Coverage checklist | IN PROGRESS | Text inventory done; final repository comparison pending. |
-| Re-fetch and verify created files | NOT STARTED | Fetch every created path and inspect content. |
-| Final handoff | NOT STARTED | Update after verification. |
+| Research contextual sources | DONE | ANA, OpenStax, Henderson overview, theory index, Elsevier listing; limitations documented. |
+| Draft Henderson components note | DONE | Re-fetched from GitHub; 3,660 characters; expected first and last components present. |
+| Draft theorists pages 7–8 note | DONE | Re-fetched from GitHub; 8,451 characters; Barnard and Meleis coverage present. |
+| Coverage checklist | DONE | Re-fetched and updated with verification evidence. |
+| Re-fetch and verify created files | DONE | All seven paths returned content, blob SHA, and non-empty character counts. |
+| Recover final Meleis line | BLOCKED | The source photograph crops the row's last line; request clearer bottom crop. |
+| Final handoff | DONE | Updated with exact status and next action. |
 
-Scope boundary: write only inside this agent's playground. Mark DONE only after saved output has been re-fetched and compared. Meleis's final line is cropped and must remain uncertain.
+Scope boundary: all writes are confined to this agent's playground. The final Meleis line remains uncertain; no missing wording was invented.
