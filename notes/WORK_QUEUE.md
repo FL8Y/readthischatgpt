@@ -1,21 +1,33 @@
-# Work Queue — Detailed Image-to-Notes Maker
-
-## Priority order
-1. [ ] Verify updated master prompt, research synthesis, README, status, queue, session protocol, and handoff links from GitHub.
-2. [ ] Run test A: clear prose page; audit every heading and substantive detail.
-3. [ ] Run test B: dense table or comparison; audit cell alignment and exceptions.
-4. [ ] Run test C: diagram/flowchart; audit labels, arrows, and sequence.
-5. [ ] Run test D: deliberately blurry/cropped text; confirm uncertainty is marked, not guessed.
-6. [ ] Run test E: two consecutive pages; check continuity and no duplicate reprocessing.
-7. [ ] Run test F: consolidation; compare final notes against page ledger.
-8. [ ] Revise prompt only where tests expose a specific failure; rerun the failed test.
-9. [ ] Obtain qualified nursing review for clinically material examples before describing clinical accuracy as validated.
+# Work Queue — notes
 
 ## Current next action
-Complete item 1, then begin test A if a representative image is available in the active session.
+Run image-based acceptance tests in priority order. Do not keep rewriting the prompt unless a test reveals a specific failure.
 
-## Stop / anti-loop conditions
-- Do not redo a verified file unless the test reveals a defect or user asks for a revision.
-- If two consecutive actions yield no new evidence or changed state, stop and change method.
-- After three materially different failed fixes, stop patching and revisit the architecture.
-- Never mark an item DONE based solely on intention or an attempted write; re-fetch and inspect the result.
+## Priority order
+1. [ ] Test A — clear prose page: compare every visible heading and substantive section against the notes.
+2. [ ] Test B — dense table: check row/column relationships, units, footnotes, and exceptions.
+3. [ ] Test C — diagram/flowchart: check labels, arrows, direction, and sequence.
+4. [ ] Test D — blurry/cropped text: ensure uncertainty is marked and missing text is not guessed.
+5. [ ] Test E — adjacent pages: check continuation, overlap, and duplicate avoidance.
+6. [ ] Test F — consolidation: reconcile chapter notes with the page tracker and disclose gaps.
+7. [ ] Test G — fresh-session ingestion: verify a new chat rebuilds state from live files and resumes correctly.
+8. [ ] Qualified nursing review of representative clinical output.
+9. [ ] Fix specific failures and rerun the relevant tests.
+
+## Anti-loop rules
+- Don't repeat a DONE item without a specific reason.
+- An attempted write is not a verified change.
+- After two actions with no new evidence or progress, re-plan.
+- After three materially different failed fixes, revisit the design.
+- Don't mark a test passed without a sample and a documented result.
+
+## Acceptance-test record
+| Test | Sample / commit | Result | Defects | Retest |
+|---|---|---|---|---|
+| A: prose coverage | Not run | PENDING | — | — |
+| B: table fidelity | Not run | PENDING | — | — |
+| C: diagram fidelity | Not run | PENDING | — | — |
+| D: uncertainty handling | Not run | PENDING | — | — |
+| E: adjacent pages | Not run | PENDING | — | — |
+| F: consolidation | Not run | PENDING | — | — |
+| G: fresh-session ingestion | Not run | PENDING | — | — |
