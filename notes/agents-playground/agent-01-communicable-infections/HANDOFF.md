@@ -1,39 +1,34 @@
-# Handoff — Agent 01: Communicable Infections
+# Handoff — Agent 01: Communicable Infections pp. 77–82
 
 ## Objective
-Convert three supplied textbook table photographs (printed pages 80–82) into source-faithful, evidence-informed nursing study notes and verify visible section coverage.
+Append photographed pages 77–79 to existing contiguous textbook notes for pages 80–82, keeping the original source content and modern cross-checks separate.
 
-## Repository standards inspected
-Read the live current contents of:
-- `NOTES_MAKER_SOURCE_OF_TRUTH.md`
-- `START_HERE_NOTES.md`
-- `notes/SESSION_PROTOCOL.md`
-- `notes/PROJECT_STATUS.md`
-- `notes/WORK_QUEUE.md`
-- `notes/MASTER_SYSTEM_PROMPT.txt`
-- `notes/RESEARCH_AND_DESIGN.md`
-- `notes/RESEARCH_LOG.md`
-- `notes/COMPLETION_CHECKLIST.md`
-- `notes/PAGE_TRACKER_TEMPLATE.md`
-- `notes/generated/README.md`
-- `notes/agents-playground/README.md`
-- `notes/SESSION_HANDOFF.md`
-- `notes/README.md`
+## Session / repository state
+- Date: 2026-10-18 (user locale)
+- Repository: `FL8Y/readthischatgpt`, default branch `main`
+- Initial tree SHA: `4068979135fb1728eedc542dc056e65bb34d0ba6`
+- Unique write directory: `notes/agents-playground/agent-01-communicable-infections/`
+- Governing standards fetched: root source of truth, start guide, protocol, project status/queue, active master prompt, research/design/log, completion checklist, page tracker, generated-output README, playground README, agent master prompt, session handoff and notes README.
 
-## Deliverables created and re-fetched
-- [Study notes](notes/communicable-infections-hepatitis-enteric-parasitic-p80-82.md)
-- [Image coverage checklist](IMAGE_COVERAGE_CHECKLIST.md)
-- [Research log](RESEARCH_LOG.md)
-- [Work queue](WORK_QUEUE.md)
-- This handoff.
+## Deliverables
+- Combined study note: `notes/agents-playground/agent-01-communicable-infections/notes/communicable-infections-hepatitis-enteric-parasitic-p80-82.md`
+- Reference list: `notes/agents-playground/agent-01-communicable-infections/REFERENCES_PP77-79.md`
+- Research log: `notes/agents-playground/agent-01-communicable-infections/RESEARCH_LOG.md`
+- Image coverage checklist: `notes/agents-playground/agent-01-communicable-infections/IMAGE_COVERAGE_CHECKLIST.md`
+- Work queue: `notes/agents-playground/agent-01-communicable-infections/WORK_QUEUE.md`
+- Handoff: `notes/agents-playground/agent-01-communicable-infections/HANDOFF.md`
 
-## Verification performed
-- Re-fetched each of the five files from GitHub after creation.
-- Confirmed the main notes contain sections for the cropped p. 80 fragment, hepatitis A/E/B/C/D, shared hepatitis stages, bacillary dysentery, amoebic dysentery, cholera, giardiasis, taeniasis, paragonimiasis, hookworm, enterobiasis, and scabies.
-- Compared the note section inventory with the three-image coverage checklist.
-- Preserved the partial p. 80 row without guessing its missing heading.
-- Separated textbook claims from external cross-checks and cited the selected CDC/WHO references.
-- No shared project files outside this agent folder were changed.
+## Content verified
+- **p. 77:** typhoid continuation; infectious mononucleosis; HSV oral/labial/ocular start.
+- **p. 78:** HSV continuation; chlamydia; gonorrhea.
+- **p. 79:** gonorrhea treatment/eye/nursing continuation; candidiasis; syphilis; HIV/AIDS and grouped opportunistic conditions.
+- **pp. 80–82:** prior hepatitis, enteric infections, helminths, enterobiasis and scabies material remains in the combined file.
 
-## Final status
-All three supplied images have corresponding source-faithful notes and the saved files have been re-fetched. The output is complete for the visible material in these three photographs. Small soft-focus/shadowed wording is explicitly caveated rather than guessed. The external review is targeted, not a systematic review of every parasite listed; this limitation is recorded in RESEARCH_LOG.md.
+## Clinical caveats
+Printed antimicrobial/testing details are documented as source claims, not prescriptions. Outdated gonorrhea dosing and older HIV testing language are flagged; modern chlamydia, syphilis, EBV, HSV, candidiasis and typhoid guidance is summarized separately. External checks are targeted official-source checks, not a systematic review or formal clinical review. No qualified clinician has certified these notes.
+
+## Verification
+The combined note was re-fetched from GitHub after the append commit. A content-presence audit confirmed all sections 8.1–8.8, the p. 77–79 comparison/retrieval section and coverage audit, and retained original pp. 80–82 headings.
+  
+## Next exact action
+Re-fetch the supporting tracking files and references, ensure their contents and statuses match the saved note, and confirm the final agent directory contains only the intended deliverables.
