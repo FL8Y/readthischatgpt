@@ -8,6 +8,7 @@
 5. MASTER_SYSTEM_PROMPT.txt
 6. RESEARCH_LOG.md and COMPLETION_CHECKLIST.md
 7. START_HERE_NOTES.md (current root entry point; use its links to locate the active project files)
+8. notes/generated/README.md (output location and naming conventions)
 
 ## Mandatory start-of-session routine
 1. Inspect the current repository branch and latest commit.
@@ -19,6 +20,11 @@
 7. After editing, re-fetch every changed file and verify key content/links.
 8. Update PROJECT_STATUS.md, WORK_QUEUE.md, RESEARCH_LOG.md, COMPLETION_CHECKLIST.md, and SESSION_HANDOFF.md as applicable.
 9. Commit a concise handoff so the next session can resume without reconstructing context.
+
+## Generated-note execution rule
+- The deliverable is actual study-note files under `notes/generated/`, not a chat-only answer, plan, or percentage report.
+- For each supplied image, inspect, draft, save, re-fetch, compare against the image, record uncertainty, and continue to the next unfinished page.
+- Do not mark an image or batch complete until the saved notes pass the coverage check.
 
 ## Completion state vocabulary
 - DONE: direct evidence confirms the postcondition.
