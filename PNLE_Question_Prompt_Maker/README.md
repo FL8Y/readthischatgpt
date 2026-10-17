@@ -23,7 +23,9 @@ The generated questions are original study material, not official PRC questions,
 Official references
 - PRC / Professional Regulatory Board of Nursing, Resolution No. 10 (s. 2025), Enhanced Tables of Specifications for the Nurses Licensure Examination: https://www.prc.gov.ph/sites/default/files/2025-10%20%20published%20Enhanced%20TOS%20nuse.pdf
 - PRC, Professional Regulation Board of Nursing page listing Resolution No. 10 (s. 2025): https://www.prc.gov.ph/Pages/PRBv4/Nursing.htm
+- PRC, official May 2023 PNLE program: https://www.prc.gov.ph/sites/default/files/040423%20exam%20progam%20may%202023%20pnle%20%28nursing%29.pdf
 - PRC, official May 2024 PNLE program: https://prc.gov.ph/sites/default/files/exam%20progam%20may%202024%20pnle%20%28nursing%29%20v2%20signed.pdf
+- PRC, official May 2025 NLE program: https://www.prc.gov.ph/sites/default/files/14%20-%20MAY2025%20NURSES_Tacloban.pdf
 - PRC, official August 2026 NLE program: https://www.prc.gov.ph/sites/default/files/exam%20progam%20aug%202026%20nle%20%28nursing%29%20signed.pdf
 - PRC, official May 2022 PNLE program: https://www.prc.gov.ph/sites/default/files/032122%20exam%20progam%20MAY%202022%20PNLE%20%28nursing%29.pdf
 - PRC, official November 2021 PNLE program: https://www.prc.gov.ph/sites/default/files/PNLE%20Progam%20November%202021%20LOGO%20corrected_0.pdf
