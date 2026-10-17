@@ -28,7 +28,7 @@ Append photographed pages 77–79 to existing contiguous textbook notes for page
 Printed antimicrobial/testing details are documented as source claims, not prescriptions. Outdated gonorrhea dosing and older HIV testing language are flagged; modern chlamydia, syphilis, EBV, HSV, candidiasis and typhoid guidance is summarized separately. External checks are targeted official-source checks, not a systematic review or formal clinical review. No qualified clinician has certified these notes.
 
 ## Verification
-The combined note was re-fetched from GitHub after the append commit. A content-presence audit confirmed all sections 8.1–8.8, the p. 77–79 comparison/retrieval section and coverage audit, and retained original pp. 80–82 headings.
+The combined note was re-fetched from GitHub after the append commit (54,137 characters). A section-presence audit confirmed all eight new disease sections (8.1–8.8), pp. 77–79 comparison/retrieval section and coverage audit, plus retained original sections for hepatitis A, bacillary dysentery, cholera, giardiasis and scabies from pp. 80–82. All six expected files in this agent folder were re-fetched successfully, and the live recursive tree contains exactly the intended deliverables and nested notes file.
   
 ## Next exact action
 Re-fetch the supporting tracking files and references, ensure their contents and statuses match the saved note, and confirm the final agent directory contains only the intended deliverables.
