@@ -1,28 +1,26 @@
 # Handoff — Nursing Theory Pages 6–8
 
 ## Objective
-Finish and verify source-faithful notes from three textbook photographs.
+Create and verify source-faithful notes from three textbook photographs.
 
-## Workspace deliverables
-- DELIVERABLES/01-virginia-henderson-14-components.md
-- DELIVERABLES/02-nursing-theorists-pages-7-8.md
-- IMAGE_COVERAGE_CHECKLIST.md
-- REFERENCES.md
-- WORK_QUEUE.md
-- RESEARCH_LOG.md
+## Verified deliverables
+- DELIVERABLES/01-virginia-henderson-14-components.md — re-fetched from GitHub; 3,660 characters; contains the first and final Henderson components.
+- DELIVERABLES/02-nursing-theorists-pages-7-8.md — re-fetched from GitHub; 8,451 characters; contains the theorist entries through Kathryn Barnard and Afaf Meleis.
+- IMAGE_COVERAGE_CHECKLIST.md — re-fetched and updated.
+- REFERENCES.md — re-fetched; repository standards and external sources recorded.
+- WORK_QUEUE.md — re-fetched and updated.
+- RESEARCH_LOG.md — re-fetched; inventory and research limits recorded.
+- HANDOFF.md — re-fetched; handoff status recorded.
 
-## Drafted
+## Completed
 - Printed page 6: all fourteen Henderson components in order.
 - Printed page 7: entries Nightingale through Abdellah.
 - Printed page 8: Abdellah continuation and Benner through Meleis.
 - Added explanations and retrieval questions separated from source notes.
-- Cropped Meleis ending marked uncertain.
+- Re-fetched all seven created files and confirmed non-empty content. Re-fetched both main note files and checked expected key concepts.
 
-## Remaining
-Re-fetch every created file from GitHub and inspect content to confirm paths exist and content is complete. Then update checklist, queue, and handoff with actual verification results.
-
-## Blocker
-The last line of Afaf Meleis's row is cropped at the bottom of the page 8 photograph. A clearer photo including the full row is needed.
+## Remaining blocker
+The last line of Afaf Meleis's row is cropped at the bottom of the page 8 photograph. Exact wording cannot be verified. Do not guess.
 
 ## Exact next action
-Call GitHub fetch_file for each created path, inspect content and SHA, then update status files.
+If the user supplies a clearer image of the bottom of printed page 8, transcribe the remainder of Meleis's entry, update the theorist note and coverage checklist, then re-fetch and verify those edited files.
