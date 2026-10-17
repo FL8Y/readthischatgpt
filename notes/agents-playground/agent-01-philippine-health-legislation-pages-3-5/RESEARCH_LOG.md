@@ -51,6 +51,11 @@ Key constraints: actual files are required; preserve source content and uncertai
 - Remaining references needing authoritative checking include RA 1136 title, the AOs/proclamations, and duplicated RA 8749.
 - No legal advice is offered; this is a study aid.
 
+## Additional legal verification
+Created LEGAL_VERIFICATION_MATRIX.md with authoritative links for the key Republic Acts and decrees, including RA 9288, 9709, 10152, 7846, 7600/10028, 8172, 8976, 9173, 7875, 7305, 7883, 7160, 9211, 6425/9165, 8423, 10351/10352, 3573/11332, 4073, 8504/11166, 9482, 1136, PD 856/825/1144, RA 9275, 8749, 9003, 9711, 6541/PD 1096, 10072, 10121, 6969, 9231, 10912, 10173, 10968, 11058, and 11369.
+
+The matrix explicitly marks the remaining AOs, EOs, proclamations, and related issuance references that were not individually verified in this pass. This prevents an unsupported claim of complete legal verification.
+
 ## Verification state
 - Main note file saved and re-fetched after corrections.
 - Coverage audit against all three photographs passed for visible headings, list entries, and explanatory paragraphs.
