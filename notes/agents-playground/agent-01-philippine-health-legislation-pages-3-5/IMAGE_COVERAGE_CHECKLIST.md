@@ -23,3 +23,10 @@
 - [x] Re-fetched saved notes from GitHub and compared all visible sections/entries against all three supplied images.
 
 Image coverage check passed for visible headings, list entries, and explanatory paragraphs. Legal verification of every listed instrument remains incomplete; do not treat legal cross-checking as complete.
+
+
+## Legal research status addendum
+- [x] High-impact law-number/title corrections recorded in the legal matrix.
+- [x] Additional DOH/judicial sources added for Proclamation 46, PD 996, AO 36 s. 2010, AO 2010-0036, and AO 2007-0012.
+- [x] EO 352 / FHSIS mismatch and superseded drinking-water standard flagged.
+- [ ] Complete primary-text verification of every AO, EO, proclamation, memorandum circular, and decree reference. See `LEGAL_VERIFICATION_MATRIX.md`; do not mark the legal audit complete while unresolved entries remain.
