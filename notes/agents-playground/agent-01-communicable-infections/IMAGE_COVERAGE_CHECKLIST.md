@@ -3,9 +3,9 @@
 ## Page inventory
 | Upload | Printed page | Visible rows/sections | Current status |
 |---|---:|---|---|
-| 1 | 77 | Typhoid continuation; mononucleosis; HSV oral/labial/ocular start | Drafted, pending after-save audit |
-| 2 | 78 | HSV continuation; chlamydia; gonorrhea main row and treatment start | Drafted, pending after-save audit |
-| 3 | 79 | Gonorrhea treatment/nursing continuation; candidiasis; syphilis; HIV/AIDS and opportunistic taxonomy | Drafted, pending after-save audit |
+| 1 | 77 | Typhoid continuation; mononucleosis; HSV oral/labial/ocular start | DONE — saved combined note re-fetched; heading/presence checks passed |
+| 2 | 78 | HSV continuation; chlamydia; gonorrhea main row and treatment start | DONE — saved combined note re-fetched; heading/presence checks passed |
+| 3 | 79 | Gonorrhea treatment/nursing continuation; candidiasis; syphilis; HIV/AIDS and opportunistic taxonomy | DONE — saved combined note re-fetched; heading/presence checks passed |
 | Previously processed adjacent set | 80–82 | Viral hepatitis, dysentery, cholera, giardiasis, tapeworm/lung fluke/hookworm/pinworm/scabies | Existing note retained |
 
 ## Upload 1 / p. 77
@@ -35,7 +35,7 @@
 - [x] Table rows and grouped HIV opportunistic condition categories are preserved; no independent diagrams/arrows are visible.
 
 ## Required post-save acceptance checks
-- [ ] Re-fetch combined note and confirm sections 8.1–8.8 and audit section are present.
-- [ ] Re-fetch all metadata/reference files.
-- [ ] Verify every listed source row exists in the combined note and pages 80–82 have not been overwritten.
-- [ ] Mark DONE only after this evidence exists.
+- [x] Re-fetch combined note and confirm sections 8.1–8.8 and audit section are present.
+- [x] Re-fetch all metadata/reference files.
+- [x] Verify every listed source row exists in the combined note and pages 80–82 have not been overwritten.
+- [x] Mark DONE only after this evidence exists.
