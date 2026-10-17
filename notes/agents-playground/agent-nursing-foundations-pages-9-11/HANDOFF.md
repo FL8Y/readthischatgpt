@@ -4,25 +4,26 @@
 Process the three supplied textbook photographs into detailed source-faithful notes and durable evidence/checklist files, respecting the repository's exclusive playground write boundary.
 
 ## Verified repository context
-- Correct live repository: https://github.com/FL8Y/readthischatgpt (the prompt's `FL8Y/readthischat` path was missing the final “gpt”).
+- Correct live repository: https://github.com/FL8Y/readthischatgpt (the user-provided URL omitted “gpt”).
 - Branch: `main`.
-- Canonical project: `notes/`; however, this agent's writes must remain inside its unique `notes/agents-playground/agent-nursing-foundations-pages-9-11/` folder.
-- Read the repository standards and session guides listed in `RESEARCH_LOG.md`.
-- Adjacent nursing-theory pages 6–8 agent folder and ethics/Benner folder were inspected for structure; neither was modified.
+- Canonical project: `notes/`; this agent's writes are limited to its unique `notes/agents-playground/agent-nursing-foundations-pages-9-11/` folder.
+- Read the source-of-truth, start guide, session protocol, project status, work queue, master prompt, research/design, research log, completion checklist, page tracker, generated README, playground README, session handoff, notes README, user prompt template, and agent master prompt.
+- Inspected sibling nursing-theory pages 6–8 and ethics/Benner agent-folder structures; neither was modified.
 
-## Deliverables
-- `notes/nursing-foundations-pages-9-11.md`: detailed notes for pages 9–11, historical leaders, six care-delivery models, 11 ethical principles, distinctions, and practice questions.
-- `IMAGE_COVERAGE_CHECKLIST.md`: item-by-item image coverage.
-- `WORK_QUEUE.md`: status and acceptance criteria.
-- `RESEARCH_LOG.md`: repository digestion, image findings, sources, and editorial decisions.
+## Deliverables saved and re-fetched from GitHub
+- [Study notes](https://github.com/FL8Y/readthischatgpt/blob/main/notes/agents-playground/agent-nursing-foundations-pages-9-11/notes/nursing-foundations-pages-9-11.md)
+- [Image coverage checklist](https://github.com/FL8Y/readthischatgpt/blob/main/notes/agents-playground/agent-nursing-foundations-pages-9-11/IMAGE_COVERAGE_CHECKLIST.md)
+- [Work queue](https://github.com/FL8Y/readthischatgpt/blob/main/notes/agents-playground/agent-nursing-foundations-pages-9-11/WORK_QUEUE.md)
+- [Research log](https://github.com/FL8Y/readthischatgpt/blob/main/notes/agents-playground/agent-nursing-foundations-pages-9-11/RESEARCH_LOG.md)
+- [This handoff](https://github.com/FL8Y/readthischatgpt/blob/main/notes/agents-playground/agent-nursing-foundations-pages-9-11/HANDOFF.md)
 
 ## Status
-- Repository digestion: DONE (required files actually fetched/read).
-- Image inspection and content drafting: DONE for legible material.
-- Cropped page 9 entry: PARTIAL because its name and beginning are outside the photograph.
-- GitHub save/re-fetch: IN PROGRESS until each file is fetched after writing.
+- Repository digestion: DONE.
+- Image inspection and notes drafting: DONE for all legible material.
+- Image coverage: DONE for legible content; the preceding theory name on page 9 is PARTIAL because it is cropped out.
+- GitHub save/re-fetch: DONE; all five paths returned nonempty content from `main`.
 - External link and historical fact verification: IN PROGRESS.
 - Qualified nursing review: NOT PERFORMED.
 
 ## First exact next action
-Fetch each newly created file from `main`, verify its path and nonempty content, and compare the committed notes against the coverage checklist and original images. Then correct any omission and re-fetch the corrected file.
+Verify key external sources, especially the Clara Barton/Geneva Convention/1882 wording and current ANA confidentiality guidance. Record the actual evidence and any limitations in `RESEARCH_LOG.md`, then re-fetch the changed file(s). Do not claim professional review unless a qualified reviewer performs it.
