@@ -1,5 +1,7 @@
 # START HERE — notes
 
+**Canonical recovery guide:** [NOTES_MAKER_SOURCE_OF_TRUTH.md](https://github.com/FL8Y/readthischatgpt/blob/main/NOTES_MAKER_SOURCE_OF_TRUTH.md). If chat memory is missing or conflicting, re-read that guide and the live files below; do not rely on summaries alone.
+
 The project lives in the repository's `notes/` folder.
 
 Read these in every new chat/session:
