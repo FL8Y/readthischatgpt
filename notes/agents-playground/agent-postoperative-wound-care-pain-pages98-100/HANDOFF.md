@@ -47,7 +47,7 @@ NICE surgical-site infection recommendations; CDC surgical site infection basics
 
 ## Verification state — PASSED
 - Re-fetched both note files, coverage checklist, research log, work queue, and this handoff from the live repository after saving.
-- P. 98 note re-fetch: 12,621 characters; title, bleeding/hemorrhage cues, all five instruments, evisceration, and CDC/NICE references present.
+- P. 98 note re-fetch: 12,621 characters; title, bleeding/hemorrhage cues, all five instruments, evisceration, and CDC/NICE references present. (This file focuses on p. 98 and mentions p. 99 only for page continuity.)
 - Pp. 99–100 note re-fetch: 16,502 characters; classification, PQRSTU/intensity, IASP references, and the book's “less than 6 months” answer with caveat present.
 - Coverage checklist re-fetch: all three printed pages and clinical caveats listed; the initial automated presence check was too strict about the exact page notation, so visual/content review was used and the checklist was updated to record final verification.
 - Research log, work queue, and handoff re-fetches succeeded. The queue was updated to DONE for the re-fetch/check and handoff items.
