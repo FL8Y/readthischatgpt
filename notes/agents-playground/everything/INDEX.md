@@ -5,7 +5,8 @@ This is the browseable collection of study-note copies from the agent workspaces
 ## How to use this collection
 
 - Browse by subject below.
-- Use `MIGRATION_MANIFEST.csv` to find each exact source path, source blob SHA, destination, page range, and copy verification status.
+- Use `MIGRATION_MANIFEST.csv` to find each copied note's exact source path, source blob SHA, destination, page range, and copy verification status.
+- Use [SOURCE_FILE_INVENTORY.csv](SOURCE_FILE_INVENTORY.csv) for the full 147-file snapshot of the agent playground, including support files retained in their original workspaces. Some support-file categories are preliminary path/name classifications and still need content review.
 - The files under `notes/` are source-preserving copies. Do not edit them in place to make curated improvements.
 - Future expanded or fused notes belong in `curated/` as new files with links to all source notes and a change record.
 
