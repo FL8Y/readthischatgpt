@@ -4,6 +4,8 @@ import type { AppState, Topic } from '../core/types';
 import { parseMarkdownBlocks, type Block, type Span } from '../core/markdownBlocks';
 import { backlinks, buildGraph, slugify } from '../core/vault';
 import { PRESET_DISCLAIMER, findPresetNote } from '../presets';
+import { visualForNote } from '../presets/visuals';
+import { SvgView } from '../visual/SvgView';
 import { Btn, Card, H, P, Pill, TOUCH, c, sp } from './kit';
 
 type Resolve = (target: string) => Topic | undefined;
@@ -141,6 +143,7 @@ export function NoteReader({
   const prev = idx > 0 ? siblings[idx - 1] : undefined;
   const next = idx >= 0 && idx < siblings.length - 1 ? siblings[idx + 1] : undefined;
   const meta = findPresetNote(topic.id);
+  const visual = meta ? visualForNote(meta.id) : undefined;
   const isPreset = topic.sourceIds.some((id) => state.sources.find((s) => s.id === id)?.kind === 'preset');
 
   return (
@@ -152,6 +155,12 @@ export function NoteReader({
           <View style={{ flexDirection: 'row', gap: sp.sm, flexWrap: 'wrap' }}>
             <Pill text={meta.area} color={c.accent} />
             <Pill text={`${meta.priority} priority`} color={PRIORITY_COLOR[meta.priority]} />
+          </View>
+        ) : null}
+        {visual ? (
+          <View style={{ gap: sp.xs }}>
+            <SvgView code={visual.svg} label={visual.caption} natural />
+            <P dim>{`Diagram (schematic): ${visual.caption}`}</P>
           </View>
         ) : null}
         <View style={{ gap: sp.md }}>

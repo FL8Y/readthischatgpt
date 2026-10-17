@@ -25,11 +25,14 @@ function draw(node: SvgNode, key: string): React.ReactNode {
 }
 
 /** Draws already-validated AI SVG. Returns null when the markup does not pass the sanitizer. */
-export function SvgView({ code, label }: { code: string; label: string }) {
+export function SvgView({ code, label, natural }: { code: string; label: string; natural?: boolean }) {
   const res = sanitizeSvg(code);
   if (!res.ok) return null;
+  // natural: size the box from the drawing's own viewBox (preset diagrams are 360 wide and vary in height).
+  const [, , vw, vh] = res.viewBox.split(/[\s,]+/).map(Number);
+  const ratio = natural && vw > 0 && vh > 0 ? vw / vh : 1.4;
   return (
-    <View style={{ backgroundColor: '#f2f4f8', borderRadius: 12, overflow: 'hidden', aspectRatio: 1.4 }}>
+    <View style={{ backgroundColor: natural ? '#ffffff' : '#f2f4f8', borderRadius: 12, overflow: 'hidden', aspectRatio: ratio }}>
       <Svg width="100%" height="100%" viewBox={res.viewBox} accessibilityLabel={label}>
         {res.root.children.map((ch, i) => draw(ch, String(i)))}
       </Svg>

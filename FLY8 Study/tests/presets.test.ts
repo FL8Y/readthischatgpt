@@ -9,7 +9,7 @@ const mk = (id: string, title: string) => ({
 
 const raw = [mk('a-1', 'Alpha'), mk('a-2', 'Beta'), mk('a-3', 'Gamma')];
 const { notes } = validatePresetNotes(raw);
-const packs: PresetPack[] = [{ id: 'np1', name: 'NP1 Community Health Nursing', folderName: 'NP1 Community Health Nursing', notes }];
+const packs: PresetPack[] = [{ id: 'np1', area: 'NP1', blurb: 'test pack', name: 'NP1 Community Health Nursing', folderName: 'NP1 Community Health Nursing', notes }];
 
 describe('validatePresetNotes', () => {
   it('drops malformed, duplicate-id and duplicate-title notes with warnings', () => {

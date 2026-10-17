@@ -1,27 +1,28 @@
 import type { AppState, Chunk, Folder, Source, Topic } from '../core/types';
 import { assessTextQuality, chunkText } from '../core/provenance';
 import { slugify } from '../core/vault';
-import np1a from '../../data/presets/np1-a.json';
-import np1b from '../../data/presets/np1-b.json';
-import np1chn2 from '../../data/presets/np1-chn2.json';
-import np1comm from '../../data/presets/np1-comm.json';
-import np2ob from '../../data/presets/np2-ob.json';
-import np2pedia from '../../data/presets/np2-pedia.json';
-import np3cardioresp from '../../data/presets/np3-cardioresp.json';
-import np3hop from '../../data/presets/np3-hop.json';
-import np3erdnRenal from '../../data/presets/np3-erdn-renal.json';
-import np4ortho from '../../data/presets/np4-ortho.json';
-import np4neurosenses from '../../data/presets/np4-neurosenses.json';
-import np4gitendo from '../../data/presets/np4-gitendo.json';
-import np5a from '../../data/presets/np5-a.json';
-import np5b from '../../data/presets/np5-b.json';
-import np5psychC from '../../data/presets/np5-psych-c.json';
-import np5psychD from '../../data/presets/np5-psych-d.json';
 import genFundA from '../../data/presets/gen-fund-a.json';
 import genFundB from '../../data/presets/gen-fund-b.json';
 import genFundC from '../../data/presets/gen-fund-c.json';
 import genPharm from '../../data/presets/gen-pharm.json';
 import genPlmar from '../../data/presets/gen-plmar.json';
+import np1A from '../../data/presets/np1-a.json';
+import np1B from '../../data/presets/np1-b.json';
+import np1Chn2 from '../../data/presets/np1-chn2.json';
+import np1Comm from '../../data/presets/np1-comm.json';
+import np2Ob from '../../data/presets/np2-ob.json';
+import np2Pedia from '../../data/presets/np2-pedia.json';
+import np3Cardioresp from '../../data/presets/np3-cardioresp.json';
+import np3ErdnRenal from '../../data/presets/np3-erdn-renal.json';
+import np3Hop from '../../data/presets/np3-hop.json';
+import np4Gitendo from '../../data/presets/np4-gitendo.json';
+import np4Neurosenses from '../../data/presets/np4-neurosenses.json';
+import np4Ortho from '../../data/presets/np4-ortho.json';
+import np5A from '../../data/presets/np5-a.json';
+import np5B from '../../data/presets/np5-b.json';
+import np5PsychC from '../../data/presets/np5-psych-c.json';
+import np5PsychD from '../../data/presets/np5-psych-d.json';
+import bundlesJson from '../../data/presets/bundles.json';
 
 export const PRESET_DISCLAIMER =
   'AI-written study notes from general nursing knowledge, coverage guided by a review deck outline. Not nurse-reviewed. Check against your textbook and local policy.';
@@ -46,6 +47,8 @@ export interface PresetNote {
 
 export interface PresetPack {
   id: string;
+  area: PresetArea;
+  blurb: string;
   name: string;
   folderName: string;
   notes: PresetNote[];
@@ -88,28 +91,38 @@ export function validatePresetNotes(raw: unknown): { notes: PresetNote[]; warnin
   return { notes, warnings };
 }
 
-function buildPack(id: PresetPack['id'], name: string, files: unknown[]): PresetPack & { warnings: string[] } {
-  const merged = files.flatMap((f) => (Array.isArray(f) ? (f as unknown[]) : []));
-  const { notes, warnings } = validatePresetNotes(merged);
-  return { id, name, folderName: id === 'np1' ? 'NP1 Community Health Nursing' : name, notes, warnings };
+const ALL_FILES: unknown[] = [genFundA, genFundB, genFundC, genPharm, genPlmar, np1A, np1B, np1Chn2, np1Comm, np2Ob, np2Pedia, np3Cardioresp, np3ErdnRenal, np3Hop, np4Gitendo, np4Neurosenses, np4Ortho, np5A, np5B, np5PsychC, np5PsychD];
+
+interface BundleDef {
+  id: string;
+  name: string;
+  area: PresetArea;
+  blurb: string;
+  notes: string[];
 }
 
-const BUILT = [
-  buildPack('np1', 'NP1 Community Health Nursing', [np1a, np1b, np1chn2]),
-  buildPack('comm', 'NP1 Communicable Disease Nursing', [np1comm]),
-  buildPack('ob', 'NP2 Obstetrics', [np2ob]),
-  buildPack('pedia', 'NP2 Pediatrics and Child Development', [np2pedia]),
-  buildPack('cardioresp', 'NP3 Cardiovascular and Respiratory', [np3cardioresp]),
-  buildPack('hop', 'NP3 Blood, Cancer and Surgery Care', [np3hop]),
-  buildPack('fer', 'NP3 Fluids, Electrolytes, Burns and Renal', [np3erdnRenal]),
-  buildPack('ortho', 'NP4 Bones, Joints and Muscles', [np4ortho]),
-  buildPack('neuro', 'NP4 Neurologic and Sensory', [np4neurosenses]),
-  buildPack('gitendo', 'NP4 Digestive and Endocrine', [np4gitendo]),
-  buildPack('np5', 'NP5 Psychiatric and Emergency Nursing', [np5a, np5b, np5psychC, np5psychD]),
-  buildPack('fund', 'Fundamentals of Nursing', [genFundA, genFundB, genFundC]),
-  buildPack('pharm', 'Pharmacology', [genPharm]),
-  buildPack('plmar', 'Laws, Leadership, Management and Research', [genPlmar]),
-];
+/**
+ * Notes are grouped into one pack per subject, the way the review handouts are organised
+ * (data/presets/bundles.json lists each subject's notes in handout order). A note missing from the
+ * bundle list is kept in an "Other notes" pack rather than dropped.
+ */
+function buildPacks(): (PresetPack & { warnings: string[] })[] {
+  const { notes, warnings } = validatePresetNotes(ALL_FILES.flatMap((f) => (Array.isArray(f) ? (f as unknown[]) : [])));
+  const byId = new Map(notes.map((n) => [n.id, n]));
+  const used = new Set<string>();
+  const packs: (PresetPack & { warnings: string[] })[] = [];
+  for (const b of (bundlesJson as { bundles: BundleDef[] }).bundles) {
+    const list = b.notes.map((id) => byId.get(id)).filter((n): n is PresetNote => !!n && !used.has(n.id));
+    list.forEach((n) => used.add(n.id));
+    if (list.length) packs.push({ id: b.id, name: b.name, area: b.area, blurb: b.blurb, folderName: b.name, notes: list, warnings: [] });
+  }
+  const rest = notes.filter((n) => !used.has(n.id));
+  if (rest.length) packs.push({ id: 'other', name: 'Other notes', area: 'GEN', blurb: 'Notes not placed in a subject yet', folderName: 'Other notes', notes: rest, warnings: [] });
+  if (packs.length) packs[0].warnings = warnings;
+  return packs;
+}
+
+const BUILT = buildPacks();
 export const PRESET_PACKS: PresetPack[] = BUILT.map(({ warnings: _w, ...p }) => p);
 export const PRESET_WARNINGS: string[] = BUILT.flatMap((p) => p.warnings);
 

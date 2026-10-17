@@ -579,7 +579,7 @@
   "id": "np3-cr-buergers",
   "area": "NP3",
   "title": "Buerger's Disease (Thromboangiitis Obliterans)",
-  "body": "## What it is\nRecurring inflammation of small and medium arteries and veins of the arms and legs. It is tightly linked to heavy smoking and chewing tobacco and typically affects men aged 20 to 35.\n\n## Findings\n- Cramping in the foot arch (instep claudication) after exercise; relieved by rest.\n- Intense rubor (reddish-blue discoloration) of the foot and absent pedal pulses.\n\n## Management\n- Improve circulation to the limbs and stop disease progression. The key is complete nicotine cessation.\n- Vasodilators are rarely prescribed.\n\n## Nursing focus\n- Stop all tobacco (see [[Stop Smoking and Tobacco Cessation]]).\n- Protect the feet: warmth, proper footwear, avoid injury, inspect skin daily.\n\n## How the exam asks about it\n- Young male smoker with foot cramps relieved by rest and absent pedal pulses = Buerger's disease. Compare with [[Raynaud's Phenomenon]].\n\n## Related topics\n[[Deep Vein Thrombosis]], [[Coronary Artery Disease and Atherosclerosis]]",
+  "body": "## What it is\nRecurring inflammation of the small and medium arteries and veins of the arms and legs, with clot formation that narrows the vessels. It is strongly linked to heavy smoking and tobacco chewing and typically affects men aged 20 to 35.\n\n## Must-know facts\n- Tobacco is the driver: the disease flares with nicotine and calms when all nicotine stops.\n- Both arms and legs can be involved, mostly the legs.\n- Cause of damage: reduced blood flow leads to tissue ischemia.\n- Vasodilators are rarely prescribed (the handout's point).\n\n## Assessment\n- Foot cramps, especially in the arch (instep claudication), after exercise; eased by rest.\n- Intense rubor, a reddish-blue color of the foot, and absent pedal pulses.\n- Check temperature, color, capillary refill, pulses and skin breaks in all four limbs.\n\n## Priority nursing actions\n1. Stop all nicotine, including gum and patches: this is the single action that changes the course (cause removal).\n2. Protect the limbs from injury and cold: skin breaks heal poorly with poor blood flow (safety).\n3. Inspect feet daily; wear well-fitting footwear; keep feet clean and dry.\n4. Report new pain at rest, sores, black or very cold skin at once.\n\n## Treatment and medications\n- Improve circulation and prevent progression. Pain control as needed. Vasodilators are rarely used.\n\n## Complications and red flags\n- Ulcers and gangrene, which may lead to amputation (beyond the handout, standard).\n\n## Client teaching\n- Quit smoking and avoid secondhand smoke; walking within limits; avoid very hot or cold exposure.\n- Support for cessation: see [[Stop Smoking and Tobacco Cessation]].\n\n## How the exam asks about it\n- Young male heavy smoker, instep pain with exercise relieved by rest, absent pedal pulse = Buerger's. Best teaching: stop smoking and tobacco. Compare [[Raynaud's Phenomenon]].\n\n## Related topics\n[[Peripheral Vascular Disorders Compared: Buerger, Raynaud, DVT, Aneurysm]], [[Deep Vein Thrombosis]], [[Coronary Artery Disease and Atherosclerosis]]\n\n## Check against your textbook\n- Gangrene and amputation risk are added from general knowledge.",
   "tags": [
    "cardiovascular",
    "peripheral vascular",
@@ -598,7 +598,7 @@
   "id": "np3-cr-raynauds",
   "area": "NP3",
   "title": "Raynaud's Phenomenon",
-  "body": "## What it is\nIntermittent arteriolar vasoconstriction of the fingertips or toes that causes coldness, pain and pallor. Most common in women 16 to 40, more frequent in cold climates.\n\n## Findings\n- Typical color sequence: white (pallor), blue (cyanosis), then red (reactive flow).\n- Numbness, tingling and burning pain as colors change.\n- Usually bilateral and symmetric.\n\n## Management\n- Avoid triggers: cold and tobacco.\n- Calcium channel blockers (nifedipine, amlodipine).\n- Sympathectomy (interrupting sympathetic nerves) helps some clients.\n\n## Nursing teaching\n- Limit cold exposure; wear gloves, warm layers, and bring a sweater into air-conditioned rooms.\n- Avoid smoking and all nicotine sources (gum, patches).\n\n## How the exam asks about it\n- Pick the right color sequence or the most important teaching (avoid cold and nicotine).\n\n## Memory aid\nWhite, Blue, Red = \"WBR\" (made-up). Compare with [[Buerger's Disease (Thromboangiitis Obliterans)]].\n\n## Related topics\n[[Stop Smoking and Tobacco Cessation]]",
+  "body": "## What it is\nIntermittent narrowing of small arteries (arteriolar vasoconstriction) in the fingertips or toes, causing coldness, pain and pallor. It is most common in women 16 to 40 and is more frequent in cold climates.\n\n## Must-know facts\n- Color sequence: white (no flow), blue (oxygen used up), then red (blood returns).\n- Numbness, tingling and burning pain as color changes.\n- Usually bilateral and symmetric; toes and fingers.\n- Triggers: cold and tobacco; stress is a commonly added trigger (standard teaching).\n\n## Assessment\n- Skin color, temperature, pain, sensation, nail and skin condition. Ask what brought on the attack.\n\n## Priority nursing actions\n1. Warm the hands or feet gently and remove from the cold (remove the trigger first).\n2. Keep skin intact; avoid tight rings, gloves or shoes.\n3. Teach to avoid triggers: cold exposure, smoking, nicotine gum and patches.\n4. Give calcium channel blockers as ordered and monitor BP.\n\n## Treatment and medications\n- Avoiding triggers is the primary control.\n- Calcium channel blockers (nifedipine, amlodipine) widen vessels.\n- Sympathectomy (cutting or removing sympathetic ganglia or branches) is an option for some.\n\n## Complications and red flags\n- Sores or tissue damage on fingertips that do not heal (beyond the handout).\n\n## Client teaching\n- Wear gloves, warm socks and layers; carry a sweater into air-conditioned rooms.\n- Avoid all nicotine.\n- Report non-healing sores.\n\n## How the exam asks about it\n- Sequence white-blue-red; young woman; best teaching = avoid cold and nicotine. Compare [[Buerger's Disease (Thromboangiitis Obliterans)]] (male, smoker, absent pulses).\n\n## Memory aid\nWhite, blue, red - no flow, no oxygen, flow returns (made-up aid).\n\n## Related topics\n[[Peripheral Vascular Disorders Compared: Buerger, Raynaud, DVT, Aneurysm]], [[Stop Smoking and Tobacco Cessation]], [[Antihypertensive Drug Classes]]\n\n## Check against your textbook\n- Stress as a trigger and non-healing sore warning are standard teaching, not in the handout.",
   "tags": [
    "cardiovascular",
    "peripheral vascular",
@@ -607,8 +607,6 @@
   "priority": "medium",
   "outlineRefs": [
    "RAYNAUD'S PHENOMENON",
-   "CLINICAL MANIFESTATION",
-   "MEDICAL MANAGEMENT",
    "NURSING MANAGEMENT"
   ],
   "aiWritten": true,
@@ -754,7 +752,7 @@
   "id": "np3-cr-laryngitis",
   "area": "NP3",
   "title": "Laryngitis",
-  "body": "## What it is\nInflammation of the larynx, often from voice abuse or exposure to dust, chemicals, smoke and pollutants. Viruses are the commonest cause; bacterial infection may follow.\n\n## Findings\n- Hoarseness is the first sign; may progress to aphonia (complete voice loss).\n- Severe cough.\n- Throat feels worse in the morning and better in a warmer climate.\n\n## Management and nursing\n- Rest the voice and avoid irritants including smoking.\n- Cool steam or aerosol inhalation; more oral fluids.\n- Antibacterial therapy if ordered; topical inhaled corticosteroids may be given.\n\n## Red flag\nHoarseness lasting more than about 2 weeks needs evaluation for cancer: see [[Cancer of the Larynx and Laryngectomy]].\n\n## How the exam asks about it\n- The best teaching is voice rest, humidity and stopping smoking.\n\n## Related topics\n[[Rhinitis: Allergic and Viral]], [[Stop Smoking and Tobacco Cessation]]",
+  "body": "## What it is\nInflammation of the larynx (voice box), often from voice abuse or exposure to dust, chemicals, smoke and other pollutants. The commonest cause is a virus; bacterial infection may follow. The larynx is the voice organ, a cartilage structure joining pharynx and trachea.\n\n## Must-know facts\n- First sign is hoarseness.\n- It can progress to aphonia (complete loss of voice).\n- Severe cough.\n- Throat feels worse in the morning and better in a warmer climate.\n- A hoarse voice lasting more than about 2 weeks is a warning for laryngeal cancer.\n\n## Assessment\n- Voice quality, cough, throat pain, breathing effort, noisy breathing (stridor), smoking and voice-use history.\n\n## Priority nursing actions\n1. Check the airway if the client has stridor or breathing difficulty (airway first).\n2. Rest the voice completely; speak as little as possible.\n3. Give cool steam or an aerosol; raise oral fluids.\n4. Avoid irritants, especially smoking and dust.\n5. Give antibacterial therapy if ordered and inhaled corticosteroids if prescribed.\n\n## Treatment and medications\n- Supportive: voice rest, humidity, fluids. Antibiotic only if bacterial. Topical corticosteroids may be given by inhalation.\n\n## Complications and red flags\n- Airway swelling with noisy breathing.\n- Hoarseness lasting more than 2 weeks: refer.\n\n## Client teaching\n- Do not whisper (standard teaching, strains the cords); avoid smoking and alcohol; keep air humid.\n\n## How the exam asks about it\n- Best advice: voice rest, humidity, stop smoking. Persistent hoarseness over 2 weeks = further evaluation for cancer.\n\n## Related topics\n[[Cancer of the Larynx and Laryngectomy]], [[Rhinitis: Allergic and Viral]], [[Stop Smoking and Tobacco Cessation]]\n\n## Check against your textbook\n- The whispering advice is added from general knowledge.",
   "tags": [
    "respiratory",
    "upper airway",
@@ -941,7 +939,7 @@
   "id": "np3-cr-hemothorax",
   "area": "NP3",
   "title": "Hemothorax",
-  "body": "## What it is\nBlood in the pleural space from penetrating or blunt chest trauma. It accompanies many chest injuries and can hide large blood loss.\n\n## Findings\nMay be symptom-free, or the client may be dyspneic, apprehensive or in shock.\n\n## Management\n- Thoracentesis to aspirate blood, or chest tube insertion with a drainage system for complete, continuous removal of blood and air.\n- Replace volume with IV fluids or blood products.\n\n## Priority nursing actions\n1. Airway, breathing, oxygen; monitor for shock.\n2. Auscultate lungs and watch for relief of dyspnea.\n3. Measure and record chest tube drainage; report sudden large output.\n4. Replace volume as ordered.\n\n## Link\nMassive blood loss can lead to [[Circulatory Shock: Hypovolemic and Cardiogenic]].\n\n## How the exam asks about it\n- After chest trauma, falling BP and rising pulse with decreased breath sounds suggest bleeding into the chest.\n\n## Related topics\n[[Pneumothorax: Management and Chest Tube Care]], [[Pleural Effusion]]",
+  "body": "## What it is\nBlood in the pleural space from penetrating or blunt chest trauma. It accompanies a high share of chest injuries and can hide large blood loss, so the client may deteriorate quickly.\n\n## Must-know facts\n- The client may be symptom-free, short of breath, apprehensive, or in shock.\n- Often seen together with air (hemopneumothorax), so drainage must remove blood and air.\n- Compare: pneumothorax (air), effusion (fluid), empyema (pus).\n\n## Assessment\n- Breath sounds on both sides, respiratory rate and effort, oxygen saturation, BP and pulse, skin color, level of consciousness, chest wall injuries.\n- Chest drainage: amount, color, and rate of blood.\n\n## Priority nursing actions\n1. Airway, breathing, oxygen; watch for shock (ABC).\n2. Establish IV access and replace volume with IV fluids or blood products as ordered (circulation).\n3. Assist with thoracentesis or chest tube insertion; connect drainage for complete and continuous removal of blood and air.\n4. Auscultate lungs and watch for relief of dyspnea.\n5. Record the amount of bloody drainage regularly; report sudden large output or a sudden stop with worsening dyspnea (possible clotted tube).\n6. Keep the drainage system below chest level and sealed.\n\n## Treatment and medications\n- Chest tube drainage, volume replacement, pain relief; surgery may be needed if bleeding continues (beyond handout).\n\n## Complications and red flags\n- Hypovolemic shock; respiratory failure; infection (empyema).\n\n## Client teaching\n- Splint the chest to cough; report increasing breathlessness; keep tubing free of kinks.\n\n## How the exam asks about it\n- After chest trauma, falling BP, rising pulse and decreased breath sounds mean bleeding into the chest. First action: airway, oxygen, IV access.\n\n## Related topics\n[[Pneumothorax: Management and Chest Tube Care]], [[Pleural Effusion]], [[Circulatory Shock: Hypovolemic and Cardiogenic]], [[Pleural and Chest Cavity Problems Compared]]\n\n## Check against your textbook\n- The thresholds for surgery and the clotted-tube warning are general practice.",
   "tags": [
    "respiratory",
    "pleura",
@@ -958,7 +956,7 @@
   "id": "np3-cr-pleurisy",
   "area": "NP3",
   "title": "Pleurisy (Pleuritis)",
-  "body": "## What it is\nInflammation of both pleural layers (parietal and visceral). It may accompany pneumonia, upper respiratory infection, TB or collagen disease. The inflamed surfaces rub together, giving sharp, knife-like pain worse on inspiration.\n\n## Findings\n- Pain on deep breath, cough or sneeze, limited to a specific area.\n- Pleural friction rub on auscultation.\n\n## Diagnostics\nChest X-ray, sputum analysis, thoracentesis, pleural biopsy.\n\n## Management\n- Treat the underlying cause.\n- Heat or cold applications; indomethacin for pain; intercostal nerve block for severe pain.\n\n## Nursing teaching\n- Heat/cold application for relief.\n- Lie on the affected side to splint the chest wall and reduce stretching of the pleura.\n- Hold a pillow or hands against the ribs when coughing.\n\n## How the exam asks about it\n- Pain that worsens with breathing and a friction rub; compare with [[Pericarditis and Pericardiocentesis]] where pain is eased by leaning forward.\n\n## Related topics\n[[Pneumonia]], [[Pleural Effusion]]",
+  "body": "## What it is\nInflammation of both pleural layers (parietal and visceral). It may accompany pneumonia, an upper respiratory infection, TB or a collagen disease. The inflamed surfaces rub together during breathing, giving sharp, knife-like pain that is worse on inspiration.\n\n## Must-know facts\n- Pain is stabbing, limited to one area, and worse with deep breathing, coughing or sneezing.\n- Pleural friction rub heard on auscultation.\n- Breathing becomes shallow to avoid pain, which can lead to poor lung expansion.\n- Compare: pericarditis pain eases when leaning forward; angina and MI do not change with breathing.\n\n## Assessment\n- Pain pattern, breathing rate and depth, breath sounds and friction rub, fever, cough.\n- Diagnostics: chest X-ray, sputum analysis, thoracentesis, pleural biopsy.\n\n## Priority nursing actions\n1. Treat the underlying cause (give ordered antibiotics for infection).\n2. Pain relief: analgesics as ordered; heat or cold application.\n3. Teach to lie on the affected side to splint the chest wall and reduce stretching of the pleura.\n4. Teach splinting the ribcage with hands or a pillow while coughing.\n5. Still encourage deep breathing and coughing, so the lungs do not collapse or fill with secretions (atelectasis, pneumonia prevention).\n\n## Treatment and medications\n- Treat the cause; indomethacin for pain relief (handout); intercostal nerve block for severe pain.\n\n## Complications and red flags\n- Pleural effusion, empyema, reduced ventilation from guarding.\n\n## Client teaching\n- Use pain relief before deep breathing practice; report fever, worsening breathlessness.\n\n## How the exam asks about it\n- Pain worse on inspiration with a rub, no relief with rest: pleurisy. Positioning: lie on the painful side.\n\n## Related topics\n[[Pneumonia]], [[Pleural Effusion]], [[Pericarditis and Pericardiocentesis]], [[Chest Pain Compared: Angina, MI, Pericarditis, Pulmonary Embolism, Pleurisy]]\n\n## Check against your textbook\n- Indomethacin guidance is from the handout; its use in pleurisy and the risks of breathing depression with strong opioids should be checked against your drug book.",
   "tags": [
    "respiratory",
    "pleura",
@@ -975,7 +973,7 @@
   "id": "np3-cr-empyema",
   "area": "NP3",
   "title": "Empyema Thoracis",
-  "body": "## What it is\nPus in the pleural space, a complication of bacterial pneumonia, lung abscess or chest trauma. The client is acutely ill with signs like an acute respiratory infection.\n\n## Diagnosis and treatment\n- Chest CT establishes the diagnosis.\n- Goal: drain the pleural cavity.\n  - Thoracentesis if fluid is thin.\n  - Tube thoracostomy for loculated or complicated effusions.\n  - Open chest drainage via thoracotomy to remove thickened pleura, pus and debris.\n- Antibiotics are also given (standard care, not stated in the handout).\n\n## Nursing actions\nCare follows the drainage method used (chest tube care, dressing care, monitoring output and character). See [[Pneumothorax: Management and Chest Tube Care]].\n\n## How the exam asks about it\n- Empyema = pus; effusion = fluid; hemothorax = blood. Know which drainage suits which.\n\n## Related topics\n[[Pleural Effusion]], [[Pneumonia]]\n\n## Check against your textbook\n- Antibiotic therapy is added from general knowledge.",
+  "body": "## What it is\nPus (purulent fluid) in the pleural space. It develops as a complication of bacterial pneumonia, lung abscess or chest trauma. The client is acutely ill with signs like an acute respiratory infection.\n\n## Must-know facts\n- Diagnosis is confirmed by chest CT.\n- The main objective is to drain the pleural cavity.\n- Drainage choice depends on how thick or complicated the pus is:\n  - Thoracentesis if fluid is not too thick.\n  - Tube thoracostomy (chest tube) for loculated (walled-off) or complicated effusions.\n  - Open chest drainage (thoracotomy) to remove thickened pleura, pus and debris.\n- Antibiotics are also given (standard care, not stated in the handout).\n\n## Assessment\n- Fever, chills, cough, pleuritic pain, dyspnea; breath sounds, oxygen saturation; amount and character of drainage.\n\n## Priority nursing actions\n1. Support breathing: oxygen as ordered, upright position (breathing first).\n2. Prepare and assist with the drainage procedure.\n3. Care specific to the drainage method: keep chest tube system sealed, below chest level, patent; record drainage amount and character; dressing care.\n4. Give antibiotics and pain relief on time.\n5. Encourage deep breathing and coughing with chest splinting.\n\n## Treatment and medications\n- Drainage plus antibiotics; surgery for thick pleura.\n\n## Complications and red flags\n- Persistent fever, sepsis, scarring of lung and pleura (beyond the handout).\n\n## Client teaching\n- Importance of finishing antibiotics; deep breathing; report fever or increasing breathlessness.\n\n## How the exam asks about it\n- Empyema = pus; effusion = fluid; hemothorax = blood. Know which drainage suits which finding.\n\n## Related topics\n[[Pleural Effusion]], [[Pneumonia]], [[Pneumothorax: Management and Chest Tube Care]], [[Pleural and Chest Cavity Problems Compared]]\n\n## Check against your textbook\n- Antibiotic therapy and complications are added from general knowledge.",
   "tags": [
    "respiratory",
    "pleura",
@@ -1077,6 +1075,248 @@
   "priority": "high",
   "outlineRefs": [
    "PULMONARY EMBOLISM"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-cr-x-nitroglycerin",
+  "area": "NP3",
+  "title": "Nitroglycerin: Forms, Action and Safe Use",
+  "body": "## What it is\nNitroglycerin is the classic nitrate for angina. It dilates the veins, so blood pools in the body's veins and less blood returns to the heart. That lowers preload and the heart's workload and oxygen demand. It also widens coronary arteries and lowers afterload to some degree.\n\n## Must-know facts\n- Forms named in the handout: sublingual tablet, spray, topical (ointment), and intravenous.\n- Brand names listed: Nitrostat, Nitro-Bid.\n- In angina, the aim is short-term and long-term cutting of myocardial oxygen use by vasodilation.\n- In heart failure, nitroglycerin ointment or nitroprusside is used as a vasodilator to reduce preload and ease dyspnea.\n- In MI, nitroglycerin is part of the standard drug set (the MONA idea: morphine, oxygen, nitroglycerin, aspirin).\n\n## Assessment\n- Before each dose: chest pain description, blood pressure and heart rate.\n- After: is the pain gone? Is the client dizzy or hypotensive?\n\n## Priority nursing actions\n1. Stop activity and have the client sit or rest: rest alone reduces oxygen demand and sitting guards against a fall if pressure drops (safety).\n2. Check blood pressure before giving it; vasodilation can drop pressure, so do not give if the pressure is dangerously low (follow the order).\n3. Give the form ordered. For a tablet under the tongue, let it dissolve; do not swallow it.\n4. Reassess pain and pressure. Pain that is not relieved, or is lasting or worsening, is treated as possible MI: call for help, get an ECG (the exam wants action, not waiting).\n\n## Complications and red flags\n- Hypotension, dizziness, headache and flushing are common effects of vasodilation.\n- Pain not relieved by rest and nitroglycerin suggests unstable angina or MI.\n\n## Client teaching\n- Keep the medicine with you; use it at the first sign of an attack as prescribed.\n- Rise slowly, because pressure may fall.\n- Report chest pain that is not relieved, so the care team can act.\n- Do not stop the regular medicines or change the schedule without the prescriber.\n\n## How the exam asks about it\n- Why does nitroglycerin help angina? Fewer veins returning blood = less preload = less oxygen demand.\n- Stable angina eases with rest or nitroglycerin; pain that does not ease raises the alarm.\n\n## Related topics\n[[Angina Treatment: Procedures and Drugs]], [[Angina Pectoris: Types, Triggers and Findings]], [[Myocardial Infarction: Management and Drug Therapy]], [[Drugs Used in Heart Failure]]\n\n## Check against your textbook\n- Exact number of doses, spacing and storage rules, and interactions (for example with erectile-dysfunction drugs) are not in the handout. Confirm them in your drug book.",
+  "tags": [
+   "cardiovascular",
+   "nitrates",
+   "drug",
+   "angina"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "NITRATES",
+   "Facts about nitroglycerine",
+   "PHARMACOLOGIC MANAGEMENT"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-cr-x-antiplatelet-anticoag",
+  "area": "NP3",
+  "title": "Antiplatelet and Anticoagulant Drugs in Cardiac Care",
+  "body": "## What it is\nTwo different jobs. Antiplatelets stop platelets sticking together (arterial clots, as in angina and MI). Anticoagulants slow the clotting cascade so a thrombus does not form or grow (as in venous clots, atrial thrombus, PE). Thrombolytics (clot busters) are a third group that dissolves a clot that already exists.\n\n## Must-know facts\n- Antiplatelets in the handout: aspirin; clopidogrel (Plavix); glycoprotein agents abciximab (ReoPro), tirofiban (Aggrastat), eptifibatide (Integrilin). Prasugrel is also named under the \"thienopyridines\".\n- Anticoagulants in the handout: heparin (unfractionated); low-molecular-weight heparins enoxaparin (Lovenox) and dalteparin (Fragmin); warfarin (Coumadin) by mouth.\n- Thrombolytics in the handout: alteplase (Activase, t-PA), urokinase, streptokinase.\n- Monitoring in the handout: aPTT, prothrombin time (PT) and INR for the anticoagulated client.\n- Mitral stenosis: anticoagulants may be used to lower the risk of atrial thrombus.\n- DVT: subcutaneous heparin or LMWH is used in prevention for surgical clients; warfarin is the oral drug.\n\n## Assessment\n- Bleeding signs: bruising, gum or nose bleeding, blood in urine, stool or vomit, falling BP with rising pulse.\n- Lab trends: aPTT, PT/INR as ordered; platelet count.\n- Neurologic checks if headache or confusion appears (possible bleeding).\n\n## Priority nursing actions\n1. Check the right lab before each dose, because dose depends on the result (safety).\n2. Watch for bleeding at every contact; report promptly.\n3. Use soft techniques: soft toothbrush, electric razor, gentle handling, pressure on puncture sites.\n4. Give subcutaneous injections as ordered without rubbing the site (general practice; check your fundamentals book).\n5. Keep the antidote and emergency measures known to the unit.\n\n## Treatment and medications\n- Antiplatelet aim: prevent platelet aggregation, so artery stents and plaques do not clot.\n- Heparin/LMWH: prevent thrombus formation or extension of an existing one.\n- Warfarin: long-term oral control; the dose is guided by blood tests.\n\n## Complications and red flags\n- Bleeding is the main danger of every drug in this group. Sudden severe headache, black stools, or a falling BP means act at once.\n\n## Client teaching\n- Report bleeding or black stools; avoid unnecessary falls and injuries.\n- Take at the same time daily; do not skip or double.\n- Keep appointments for blood tests.\n- Tell every provider and dentist what you take.\n\n## How the exam asks about it\n- Which lab monitors warfarin (PT/INR) versus heparin (aPTT)? Which group works on arterial clots (antiplatelets) versus venous clots (anticoagulants)?\n\n## Related topics\n[[Anticoagulants: Heparin and Warfarin]], [[Thrombolytic Drugs]], [[Deep Vein Thrombosis]], [[Myocardial Infarction: Management and Drug Therapy]], [[Angina Treatment: Procedures and Drugs]]\n\n## Check against your textbook\n- The handout does not say which lab goes with which drug; the pairing of aPTT with heparin and PT/INR with warfarin is standard teaching: verify. Antidotes, diet rules for warfarin and dosing are not in the handout.",
+  "tags": [
+   "cardiovascular",
+   "drug",
+   "anticoagulant",
+   "antiplatelet"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Antiplatelet Medications",
+   "Anticoagulants",
+   "MEDICAL MANAGEMENT (DVT)",
+   "NURSING MANAGEMENT (DVT)"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-cr-x-chest-pain-compared",
+  "area": "NP3",
+  "title": "Chest Pain Compared: Angina, MI, Pericarditis, Pulmonary Embolism, Pleurisy",
+  "body": "## What it is\nMany conditions hurt in the chest. The exam gives you a short description and expects you to sort it by what makes the pain better or worse, how long it lasts, and what else is present.\n\n## Must-know facts\n- Stable angina: pressure or heaviness behind the sternum, brought on by exertion, cold, a heavy meal or stress; eased by rest or nitroglycerin; short.\n- Unstable angina: more frequent, more severe, may not ease with rest or nitroglycerin.\n- Prinzmetal (variant) angina: pain at rest, ST elevation that reverses, thought to be coronary spasm.\n- Myocardial infarction: pain usually longer than 30 minutes, spreads to the left arm, back or jaw, often starts without a cause (often morning), relieved only by opioids; with nausea, sweating, fear, shortness of breath.\n- Pericarditis: pain under the clavicle, in the neck or left scapula; worse on deep inspiration, eased by sitting and leaning forward; friction rub.\n- Pleurisy: sharp, knife-like pain on inspiration, cough or sneeze; limited to one area; pleural friction rub; eased by lying on the painful side.\n- Pulmonary embolism: sudden pleuritic pain, may mimic angina or MI; dyspnea and tachypnea are the most frequent signs.\n- Pneumonia: pleuritic pain with fever and productive cough.\n- Pneumothorax: sudden chest discomfort with dyspnea, hyperresonance and diminished breath sounds.\n\n## Assessment\n- PQRST of pain: provoking factors, quality, radiation, severity, time.\n- Vital signs, oxygen saturation, breath sounds, heart sounds (rub, S3, S4, muffled).\n- ECG for any chest pain with a cardiac look.\n\n## Priority nursing actions\n1. Airway, breathing, circulation: oxygen, monitor, vital signs (ABC).\n2. Get an ECG and notify the provider for chest pain that may be cardiac: the exam rewards early action over long assessment when MI is possible.\n3. Give ordered drugs (nitroglycerin, aspirin, opioid) in the order given by the protocol.\n4. Keep the client at rest and calm: anxiety raises oxygen demand.\n\n## Complications and red flags\n- Pain with falling BP, sweating and dysrhythmia suggests MI or shock.\n- Pain with muffled heart sounds, distended neck veins and low BP suggests tamponade.\n- Sudden dyspnea with tracheal shift suggests tension pneumothorax.\n\n## How the exam asks about it\n- Matching clue to disease: leaning forward eases = pericarditis; pain worse with breathing and rub = pleurisy; not relieved by rest or nitroglycerin and lasts over 30 minutes = MI.\n\n## How to reason about it\nCause, finding, action: if you cannot rule out the heart, treat it as the heart. Oxygen and ECG come before comfort measures.\n\n## Related topics\n[[Angina Pectoris: Types, Triggers and Findings]], [[Myocardial Infarction: Presentation and Cardiac Markers]], [[Pericarditis and Pericardiocentesis]], [[Pleurisy (Pleuritis)]], [[Pulmonary Embolism]]",
+  "tags": [
+   "cardiovascular",
+   "respiratory",
+   "chest pain",
+   "comparison"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "ANGINA PECTORIS",
+   "SUBSTANTIAL CHEST PAIN",
+   "Pericarditis",
+   "PLEURISY (PLEURITIS)",
+   "PULMONARY EMBOLISM"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-cr-x-ecg-changes",
+  "area": "NP3",
+  "title": "ECG Changes Linked to Cardiac and Electrolyte Disorders",
+  "body": "## What it is\nA collection of the ECG clues the handout ties to specific disorders. Know the normal values first, then the changes.\n\n## Must-know facts\n- P wave: atrial depolarization; no wider than 0.12 second.\n- PR interval: 0.12 to 0.20 second (conduction through atria, AV junction, Purkinje system).\n- QRS: ventricular depolarization; 0.04 to 0.10 second.\n- T wave: ventricular repolarization; over 5 mm is not normal.\n- QT interval: usually 0.32 to 0.40; prolonged QT raises risk of torsades de pointes, a lethal ventricular dysrhythmia.\n- U wave: usually unseen; may appear with hypokalemia.\n- Disease-linked changes:\n  - Angina (ischemia): T-wave inversion, ST depression.\n  - Prinzmetal angina: reversible ST elevation at rest.\n  - MI: T-wave changes, ST elevation, abnormal Q wave.\n  - Myocarditis: low-voltage QRS, ST elevation or heart block.\n  - Pulmonary embolism: sinus tachycardia, PR-interval depression, non-specific T-wave changes.\n  - Restrictive cardiomyopathy: heart block can occur.\n  - Mitral stenosis: atrial dysrhythmias.\n- Rate: PP interval gives atrial rate; RR interval gives ventricular rate.\n\n## Assessment\n- Read rate, rhythm, then intervals. Any new change in a client with chest pain is reported.\n\n## Priority nursing actions\n1. Treat the client, not the monitor: check pulse, BP, color and symptoms first (assess before intervening).\n2. For a dangerous rhythm or new ST change, call for help and keep emergency equipment ready.\n3. Check serum potassium and other electrolytes when the pattern suggests it, per orders.\n\n## Complications and red flags\n- Prolonged QT or runs of wide complexes, new Q waves, heart block.\n\n## How the exam asks about it\n- Match change to condition: U wave = low potassium; ST elevation = MI or variant angina; T inversion and ST depression = ischemia.\n\n## How to reason about it\nST depression = ischemia that is reversible; ST elevation with abnormal Q = tissue damage or spasm. The exam usually wants you to act on the client first.\n\n## Related topics\n[[ECG Waves and Intervals]], [[Angina Pectoris: Types, Triggers and Findings]], [[Myocardial Infarction: Presentation and Cardiac Markers]], [[Myocarditis]], [[Pulmonary Embolism]]\n\n## Check against your textbook\n- The handout states the T wave limit as \"not normal more than 5 mm\" and the AV node delay as \"0.8 milliseconds\"; both look garbled. Confirm normal values in your textbook.",
+  "tags": [
+   "cardiovascular",
+   "ECG",
+   "comparison"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "ELECTRICAL CONDUCTION THROUGH THE HEART",
+   "CG AND CARDIAC ENZYMES ASSESSMENTS",
+   "ASSESSMENT AND DIAGNOSTIC FINDINGS"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-cr-x-valve-murmurs-compared",
+  "area": "NP3",
+  "title": "Valve Lesions and Murmurs Compared",
+  "body": "## What it is\nFour valve problems share a family of exam questions. Learn each by three things: what part of the heart cycle is affected, the sound, and the main symptom.\n\n## Must-know facts\n- Mitral stenosis: narrowed mitral valve; usually rheumatic. Low-pitched rumbling diastolic murmur at the apex. Blood backs up into the left atrium then lungs: dyspnea on exertion, orthopnea, paroxysmal nocturnal dyspnea, hemoptysis, atrial dysrhythmias; right heart failure late.\n- Mitral regurgitation: leaky mitral valve; blood flows back into left atrium in systole. High-pitched blowing systolic murmur at the apex. Common causes: mitral valve prolapse and rheumatic heart disease. Fatigue, weakness, palpitations, dyspnea, cough.\n- Mitral valve prolapse: leaflets bulge into the left atrium in systole.\n- Aortic stenosis: narrowed aortic valve; loud rough systolic murmur over the aortic area; the left ventricle thickens. Classic triad: exertional dyspnea, angina, syncope or dizziness. BP is normal.\n- Aortic regurgitation: blood flows back into the left ventricle in diastole. High-pitched blowing diastolic murmur at the left sternal border, 3rd to 4th intercostal space. Widened pulse pressure, water-hammer (Corrigan's) pulse, visible pulsations in neck and head.\n\n## Assessment\n- Auscultate at the correct site and phase; note pulse pressure, rhythm, weight, edema, lung sounds.\n\n## Priority nursing actions\n1. Breathing first: high Fowler's position for dyspnea (mitral stenosis).\n2. Watch for pulmonary edema, thrombus and dysrhythmias; check ABG as ordered.\n3. Daily weight for fluid balance; low-sodium diet teaching.\n4. Reduce exertion in aortic regurgitation; vasodilators and ACE inhibitors may be ordered.\n\n## Treatment and medications\n- Mitral stenosis: anticoagulants against atrial clot; valvuloplasty or valve replacement.\n- Mitral regurgitation: afterload reduction with ACE inhibitors; valve repair or replacement.\n- Aortic regurgitation: valvuloplasty or replacement, ideally before left ventricular failure; vasodilators.\n- Aortic stenosis: valve replacement or percutaneous valvuloplasty.\n\n## Complications and red flags\n- Pulmonary edema, heart failure, atrial clots, syncope, infective endocarditis risk.\n\n## How the exam asks about it\n- \"Rumbling diastolic at the apex\" = mitral stenosis. \"Blowing systolic at the apex\" = mitral regurgitation. \"Rough systolic at the aortic area with syncope\" = aortic stenosis. \"Water-hammer pulse, wide pulse pressure\" = aortic regurgitation.\n\n## Memory aid\nStenosis = a stiff, narrow door: sound occurs when blood must pass through (mitral stenosis in diastole when the ventricle fills; aortic stenosis in systole when it empties). Regurgitation = leak: sound when the valve should be closed.\n\n## Related topics\n[[Valvular Heart Disease: Overview and Mitral Stenosis]], [[Mitral Regurgitation and Mitral Valve Prolapse]], [[Aortic Stenosis]], [[Aortic Regurgitation]], [[Heart Sounds S1 to S4]]",
+  "tags": [
+   "cardiovascular",
+   "valves",
+   "murmur",
+   "comparison"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "VALVULAR HEART DISEASE",
+   "MITRAL STENOSIS",
+   "MITRAL REGURGITATION (INSUFFICIENCY)",
+   "AORTIC REGURGITATION",
+   "AORTIC STENOSIS"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-cr-x-pulmonary-edema",
+  "area": "NP3",
+  "title": "Acute Pulmonary Edema",
+  "body": "## What it is\nFluid floods the lung tissue and alveoli, usually because the left heart cannot move blood forward. Pressure backs up into the pulmonary veins and fluid is forced out of the capillaries. Gas exchange fails.\n\n## Must-know facts\n- Main cause in the handout: left-sided heart failure. Also a complication of mitral stenosis, aortic stenosis, and of surgery on a stenosed mitral valve.\n- ARDS also has pulmonary edema but is a lung injury problem with normal left atrial pressure.\n- Hallmark sign: frothy, pink (blood-tinged) sputum.\n- Other findings: severe dyspnea, orthopnea, cough, crackles, low oxygen saturation, anxiety, S3 gallop.\n\n## Assessment\n- Rate and effort of breathing, oxygen saturation, breath sounds, sputum, BP and pulse, mental state.\n- Daily weight, intake and output, edema.\n\n## Priority nursing actions\n1. Sit the client upright (high Fowler's or semi-Fowler's), legs dependent if ordered: gravity pools blood in the legs and eases breathing (airway and breathing first).\n2. Give oxygen as ordered to treat hypoxemia and reduce heart workload.\n3. Give diuretics as ordered to pull fluid off; watch potassium.\n4. Give other ordered vasodilators and cardiac drugs; opioid for anxiety and chest tightness per order.\n5. Stay with the client; fear worsens workload.\n6. Record intake and output and monitor response.\n\n## Treatment and medications\n- Diuretics (furosemide and others), vasodilators (nitroglycerin, nitroprusside), inotropes (digoxin, dobutamine), ACE inhibitors and beta-blockers for long-term HF control.\n\n## Complications and red flags\n- Respiratory failure, shock, dysrhythmias, pneumonia.\n\n## Client teaching\n- Low-sodium diet; weigh daily and report quick gain; take heart failure drugs as prescribed; sleep with head raised.\n\n## How the exam asks about it\n- Pink frothy sputum plus crackles in HF = pulmonary edema. First action: upright position and oxygen, then drugs.\n\n## How to reason about it\nCause (weak left ventricle) -> finding (fluid in lungs, froth) -> action (sit up, oxygen, diuretic). Trap: lying the client flat for comfort or for an exam.\n\n## Related topics\n[[Left-Sided versus Right-Sided Heart Failure]], [[Drugs Used in Heart Failure]], [[Acute Respiratory Distress Syndrome (ARDS)]], [[Diuretics: Thiazide, Loop, Osmotic and Potassium-Sparing]]\n\n## Check against your textbook\n- Dependent leg positioning and the opioid role are standard teaching rather than handout text: verify.",
+  "tags": [
+   "cardiovascular",
+   "respiratory",
+   "heart failure",
+   "emergency"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "LEFT-SIDED HEART FAILURE",
+   "MITRAL STENOSIS NURSING MANAGEMENT",
+   "ACUTE RESPIRATORY DISTRESS SYNDROME (ARDS)"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-cr-x-common-cold",
+  "area": "NP3",
+  "title": "Common Cold (Viral Rhinitis)",
+  "body": "## What it is\nThe most frequent viral infection in the general population. The handout names coronavirus as the cause. The virus spreads easily because it is shed for about 2 days before symptoms and in the early symptomatic phase, so people spread it without knowing.\n\n## Must-know facts\n- Symptoms: low-grade fever, nasal congestion, rhinorrhea, sneezing, watery eyes, scratchy sore throat, bad breath, malaise, chills, headache, muscle aches.\n- No cure: care is symptomatic.\n- Allergic rhinitis differs: itching of nose, palate, throat, eyes and ears with sneezing, but no fever, and it is tied to pollen season (seasonal) or all year (perennial).\n\n## Assessment\n- Temperature, nasal discharge, throat, lung sounds, hydration.\n- Look for signs that it has gone beyond a cold: high fever, chest pain, ear pain, difficulty swallowing.\n\n## Priority nursing actions\n1. Rest and plenty of fluids.\n2. Prevent chilling.\n3. Warm salt-water gargles for sore throat.\n4. Steam or warm humidified air inhalation.\n5. Handwashing and covering coughs to stop spread (infection control).\n\n## Treatment and medications\n- NSAIDs for aches; antihistamines for sneezing, runny nose and congestion (allergic rhinitis also uses nasal corticosteroid sprays and desensitization).\n- Antibiotics do not treat viral colds (standard teaching; not in handout).\n\n## Complications and red flags\n- Sinus or ear infection, bronchitis, pneumonia in the vulnerable.\n\n## Client teaching\n- Blow the nose before using nasal medicine so it reaches the lining.\n- Avoid allergens in allergic rhinitis.\n\n## How the exam asks about it\n- Which instruction is best: fluids, rest, handwashing and symptom relief.\n\n## Related topics\n[[Rhinitis: Allergic and Viral]], [[Pharyngitis: Acute and Chronic]], [[Stop Smoking and Tobacco Cessation]]",
+  "tags": [
+   "respiratory",
+   "upper airway",
+   "infection"
+  ],
+  "priority": "low",
+  "outlineRefs": [
+   "VIRAL RHINITIS (COMMON COLD)",
+   "RHINITIS"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-cr-x-resp-tests",
+  "area": "NP3",
+  "title": "Respiratory Diagnostic Tests: Which Test for Which Disorder",
+  "body": "## What it is\nA quick map from lung disease to the test the handout names.\n\n## Must-know facts\n- Spirometry: measures airflow obstruction in COPD.\n- ABG: COPD (low PaO2 and pH, high CO2); ARDS (hypoxemia despite more oxygen); PE (hypoxemia and low CO2).\n- Chest X-ray: COPD late (hyperinflation, flat diaphragm, bullae); pneumonia (consolidation); TB (presence and extent); pleurisy; PE (infiltrates, atelectasis, raised diaphragm on affected side); ARDS (bilateral infiltrates).\n- CT scan: bronchiectasis (dilated bronchi); empyema; pleural effusion; laryngeal cancer work-up.\n- Lateral decubitus X-ray: pleural effusion.\n- Alpha-1-antitrypsin assay: inherited emphysema.\n- Sputum Gram stain and culture/sensitivity: pneumonia and bronchiectasis; sputum smear/culture confirms TB.\n- Tuberculin skin test (PPD, Mantoux): TB infection.\n- Blood culture: bacteremia with pneumonia.\n- V/Q scan, pulmonary angiography (best method), spiral CT: pulmonary embolism.\n- Thoracentesis, pleural biopsy: pleural disease.\n- Direct laryngoscopy, virtual endoscopy, optical imaging, CT/MRI: laryngeal cancer.\n- BNP, echocardiogram, pulmonary artery catheter: help separate ARDS from cardiac causes.\n\n## Assessment\n- Check the order, consent, allergies and how the client must prepare.\n\n## Priority nursing actions\n1. Explain the test and obtain the specimen correctly (sputum: early morning, deep cough, before antibiotics is standard teaching).\n2. After thoracentesis or bronchoscopy, watch breathing and oxygen saturation.\n3. Label and send specimens promptly.\n\n## How the exam asks about it\n- Best test for PE: pulmonary angiography. Test to confirm TB: sputum smear/culture. Test for airflow limitation: spirometry. Imaging for bronchiectasis: CT.\n\n## Related topics\n[[COPD Management and Nursing Care]], [[Arterial Blood Gas Basics]], [[Chest X-ray and Pulse Oximetry]], [[Pulmonary Embolism]], [[Pulmonary Tuberculosis: Diagnosis and Classification]]\n\n## Check against your textbook\n- Specimen collection details are standard teaching, not from the handout.",
+  "tags": [
+   "respiratory",
+   "diagnostics",
+   "comparison"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Diagnostic Procedure for COPD",
+   "Diagnostic Procedure",
+   "DIAGNOSTICS",
+   "Diagnostic Procedures"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-cr-x-pleural-compared",
+  "area": "NP3",
+  "title": "Pleural and Chest Cavity Problems Compared",
+  "body": "## What it is\nSix conditions put something abnormal in or around the pleural space. The content decides the name.\n\n## Must-know facts\n- Pneumothorax: air. Hyperresonance, diminished breath sounds, reduced chest movement; tension type shifts the trachea away.\n- Pleural effusion: fluid (transudate or exudate), from heart failure, infection or nephrotic syndrome. Dyspnea, cannot lie flat, cough, pleuritic pain.\n- Hemothorax: blood, from trauma. Possible shock, hidden blood loss.\n- Empyema: pus, from pneumonia, abscess or chest trauma. Acutely ill client.\n- Pleurisy: inflamed pleural layers rubbing; friction rub, sharp pain.\n- Drainage rules: thoracentesis for effusion; chest tube plus water seal for pneumothorax and hemothorax; tube thoracostomy for loculated effusion or empyema; open thoracotomy drainage for thick pus.\n\n## Assessment\n- Breath sounds, percussion, tracheal position, pain pattern, chest X-ray.\n\n## Priority nursing actions\n1. Airway, breathing, oxygen; treat tension pneumothorax or shock immediately (life-threatening first).\n2. Position upright if able; keep the chest drainage system sealed, below chest level, and patent.\n3. Measure drainage; report sudden large blood output.\n4. Splint the chest for coughing and give pain relief as ordered.\n\n## How the exam asks about it\n- Air = pneumothorax; fluid = effusion; blood = hemothorax; pus = empyema. A tension pneumothorax needs immediate decompression.\n\n## How to reason about it\nThe most dangerous finding is the one that shifts the trachea or drops the blood pressure. Treat that before comfort measures.\n\n## Related topics\n[[Pneumothorax: Types and Findings]], [[Pleural Effusion]], [[Hemothorax]], [[Empyema Thoracis]], [[Pleurisy (Pleuritis)]], [[Pneumothorax: Management and Chest Tube Care]]",
+  "tags": [
+   "respiratory",
+   "pleura",
+   "comparison"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "PNEUMOTHORAX",
+   "PLEURAL EFFUSION",
+   "HEMOTHORAX",
+   "PLEURISY (PLEURITIS)",
+   "EMPYEMA THORACIS"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-cr-x-hf-nursing-care",
+  "area": "NP3",
+  "title": "Heart Failure: Nursing Diagnoses and Care Priorities",
+  "body": "## What it is\nA practical care plan for the client with heart failure (HF), built from the handout's nursing diagnoses and interventions.\n\n## Must-know facts\n- Handout nursing diagnoses: impaired gas exchange (ventilation-perfusion imbalance); decreased cardiac output (altered contractility, preload, afterload); activity intolerance (oxygen supply below demand); risk for pulmonary edema, pneumonia and dysrhythmias.\n- Stages (ACC/AHA): A = at risk, no disease or symptoms; B = structural disease or left ventricular dysfunction, no symptoms; C = structural disease with current or past symptoms; D = refractory end-stage needing special care.\n- Compensation: sympathetic stimulation (faster rate, vasoconstriction, more afterload) and renin-angiotensin activation (angiotensin II vasoconstriction; aldosterone causes sodium and water retention) lead to fluid overload.\n- Left HF = lung signs (dyspnea, crackles, orthopnea, pink frothy sputum, S3). Right HF = body signs (neck vein distention, edema, hepatomegaly, ascites, weight gain).\n\n## Assessment\n- Breath sounds, rate, oxygen saturation, heart sounds, JVD, edema, liver size, abdominal girth, daily weight, intake and output.\n\n## Priority nursing actions\n1. Support breathing: semi-Fowler's or sitting up, oxygen as ordered (airway and breathing first).\n2. Monitor vital signs, rhythm with a cardiac monitor, and changes.\n3. Weigh daily at the same time; record intake and output (fluid overload check).\n4. Give diuretics, ACE inhibitors, beta-blockers, digoxin and vasodilators as prescribed; monitor potassium with diuretics.\n5. Avoid unnecessary IV fluids.\n6. Space activity with rest to match oxygen supply.\n7. Assess dependent edema, including sacrum and thighs in bed-bound clients.\n\n## Treatment and medications\n- Diuretics reduce volume; ACE inhibitors lower afterload; beta-blockers raise ejection fraction and reduce ventricle size; digoxin strengthens contraction; vasodilators lower preload.\n\n## Complications and red flags\n- Pulmonary edema, dysrhythmias, worsening weight gain, drop in urine output.\n\n## Client teaching\n- Low-sodium diet; daily weight; report weight gain and worsening breathlessness; pace activity; sleep propped up.\n\n## How the exam asks about it\n- Which finding needs action first: rising dyspnea and crackles. Which teaching is best: daily weights and sodium limits.\n\n## Related topics\n[[Heart Failure: Types, Causes and Compensation]], [[Left-Sided versus Right-Sided Heart Failure]], [[Drugs Used in Heart Failure]], [[Acute Pulmonary Edema]]",
+  "tags": [
+   "cardiovascular",
+   "heart failure",
+   "nursing care"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "COMMON NURSING DIAGNOSES",
+   "MANAGEMENT",
+   "NURSING INTERVENTIONS",
+   "ACC/AHA CLASSIFICATION OF HEART FAILURE"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-cr-x-copd-bloater-puffer",
+  "area": "NP3",
+  "title": "COPD Types Compared: Blue Bloater and Pink Puffer",
+  "body": "## What it is\nCOPD is airflow limitation that is not fully reversible and usually worsens over time. It has two classic forms that appear in many exam questions.\n\n## Must-know facts\n- Chronic bronchitis (\"blue bloater\"): productive cough for at least 3 months a year for 2 years in a row; thick gelatinous sputum; wheezing and dyspnea later.\n- Emphysema (\"pink puffer\"): destruction of alveolar walls; dyspnea, low exercise tolerance, minimal cough, barrel chest (raised anteroposterior diameter, flat diaphragm), weight loss.\n- Panlobular emphysema: all air spaces enlarge; little inflammation; hyperinflated chest.\n- Centrilobular emphysema: damage in the center of the lobule; chronic hypoxemia, hypercapnia, polycythemia, right-sided heart failure, central cyanosis, peripheral edema.\n- Alpha-1-antitrypsin deficiency: inherited cause of emphysema.\n- Tests: spirometry, ABG (low PaO2 and pH, high CO2), chest X-ray (hyperinflation, bullae).\n- Treatment: smoking cessation, bronchodilators, corticosteroids, antibiotics and mucolytics; surgery includes bullectomy and lung volume reduction.\n\n## Assessment\n- Respiratory rate and pattern, breath sounds, oxygen saturation, weight, edema, sputum color.\n\n## Priority nursing actions\n1. Oxygen at low flow (1 to 2 L/min) as ordered: in COPD the drive to breathe can depend on low oxygen, so high flow risks respiratory depression (airway and breathing first, but safe dose).\n2. Bronchodilators as prescribed; hydration to thin secretions.\n3. Teach pursed-lip and diaphragmatic breathing; chest physiotherapy as ordered.\n4. Small frequent meals and supplements to counter weight loss.\n5. Alternate activity with rest; pulmonary rehabilitation.\n\n## Complications and red flags\n- Respiratory failure, right heart failure, recurrent infection; increased confusion or sleepiness signals rising CO2.\n\n## Client teaching\n- Stop smoking, avoid bronchial irritants, plan rests, recognize early infection.\n\n## How the exam asks about it\n- Barrel chest and thin = pink puffer (emphysema). Cyanotic, productive cough, edema = blue bloater (bronchitis). Oxygen flow for COPD: low.\n\n## Related topics\n[[COPD: Chronic Bronchitis and Emphysema]], [[COPD Management and Nursing Care]], [[Respiratory Acidosis]], [[Oxygen Therapy: Safety and Delivery Devices]]\n\n## Check against your textbook\n- The handout places centrilobular and panlobular features loosely; confirm which type causes which signs. The explanation for low-flow oxygen is standard teaching, not handout text.",
+  "tags": [
+   "respiratory",
+   "COPD",
+   "comparison"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "CHRONIC OBSTRUCTIVE PULMONARY DISEASE (COPD)",
+   "Chronic Bronchitis",
+   "Emphysema"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np3-cr-x-peripheral-vascular-compared",
+  "area": "NP3",
+  "title": "Peripheral Vascular Disorders Compared: Buerger, Raynaud, DVT, Aneurysm",
+  "body": "## What it is\nFour vessel problems that students confuse. Sort them by who gets them, what the color or pain does, and what is the main teaching.\n\n## Must-know facts\n- Buerger's disease: men 20 to 35, heavy smoking or chewing tobacco; small and medium arteries and veins inflamed. Foot cramps in the arch after exercise relieved by rest, rubor of the foot, absent pedal pulse. Stop all nicotine.\n- Raynaud's phenomenon: women 16 to 40, cold climates; episodic color change white, blue, red; bilateral, symmetric. Avoid cold and nicotine; calcium channel blockers.\n- Deep vein thrombosis: Virchow's triad (vessel injury, stasis, altered clotting). Swelling, heaviness, limb pain. Anticoagulants, compression stockings, elevate, walk.\n- Aneurysm: localized dilation at a weak arterial wall. True, false, fusiform, saccular, dissecting. Control BP; surgery or endovascular graft; watch for rupture.\n\n## Assessment\n- Color, temperature, pulses, edema, pain pattern, skin integrity in both limbs.\n\n## Priority nursing actions\n1. Protect circulation: keep warm, avoid tight clothing and crossing legs.\n2. For DVT, do not massage the leg (risk of embolism: standard teaching) and report chest pain or dyspnea at once (possible PE).\n3. For suspected aneurysm rupture, treat sudden severe pain or falling BP as an emergency.\n4. Teach stopping nicotine for Buerger's and Raynaud's.\n\n## Complications and red flags\n- Gangrene (Buerger's), pulmonary embolism (DVT), rupture (aneurysm).\n\n## How the exam asks about it\n- White-blue-red = Raynaud's. Young male smoker with absent pedal pulse = Buerger's. Unilateral leg swelling = DVT. Pulsating mass or sudden tearing pain = aneurysm.\n\n## Related topics\n[[Buerger's Disease (Thromboangiitis Obliterans)]], [[Raynaud's Phenomenon]], [[Deep Vein Thrombosis]], [[Aneurysms]], [[Pulmonary Embolism]]\n\n## Check against your textbook\n- The no-massage rule is standard teaching, not in the handout.",
+  "tags": [
+   "cardiovascular",
+   "peripheral vascular",
+   "comparison"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "THROMBOANGIITIS OBLITERANS/ BUERGER'S DISEASE",
+   "RAYNAUD'S PHENOMENON",
+   "VENOUS THROMBOEMBOLISM",
+   "ANEURYSMS"
   ],
   "aiWritten": true,
   "nurseReviewed": false

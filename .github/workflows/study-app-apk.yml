@@ -1,5 +1,5 @@
 name: study-app-apk
-# rebuilt with 793 preset notes + new UI
+# rebuilt with 974 preset notes in 21 subject bundles + diagrams
 
 # Builds an installable Android APK of FLY8 Study and attaches it to the run as an artifact.
 # - Runs when this file changes on the working branch (so editing it rebuilds the APK).

@@ -624,5 +624,75 @@
   ],
   "aiWritten": true,
   "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-x-transfusion-reaction-sorting",
+  "area": "GEN",
+  "title": "Sorting Out Transfusion Reactions: Which One Is It and What Comes First",
+  "body": "## What it is\nA comparison note for the six reactions the handout lists. The exam rarely asks you to recite one reaction; it gives you a set of findings and asks what the client is having or what to do first.\n\n## Must-know facts\n- **Hemolytic** (client and donor blood are incompatible): chills, fever, headache, backache, dyspnea, cyanosis, chest pain, fast pulse, low blood pressure. This is the most dangerous; back pain and chest pain with falling pressure are the clues.\n- **Febrile** (sensitivity to white cells, platelets or plasma proteins): fever, chills, warm flushed skin, headache, anxiety, muscle pain. No breathing or circulation collapse.\n- **Mild allergic** (sensitivity to plasma protein): flushing, itching, hives, wheeze.\n- **Severe allergic** (antibody-antigen reaction): dyspnea, chest pain, circulatory collapse, possible cardiac arrest.\n- **Circulatory overload** (blood given faster than the circulation can handle): cough, dyspnea, crackles, distended neck veins, fast pulse, high blood pressure.\n- **Sepsis** (contaminated blood): high fever, chills, vomiting, diarrhea, low blood pressure.\n\n## How to reason about it\nCause -> finding -> priority action:\n- Any suspected reaction: **stop the transfusion first**, then keep the vein open with 0.9% saline through fresh tubing (blood left in the line would keep entering the client; dextrose would damage blood cells), then call the provider, then check vital signs.\n- Only the mild allergic reaction is described in the handout as \"stop or slow\" the transfusion; every other reaction is stop.\n- Overload is the one that needs the head up: upright with feet down, slow or stop, diuretic and oxygen as ordered.\n- Hemolytic and sepsis both need the bag, tubing and a client blood sample sent to the laboratory; sepsis also needs a blood culture.\n- Trap: the exam gives a client with fever and chills and tempts you to give an antipyretic and continue. Stopping first is the safe answer; treatment follows.\n\n## Related topics\n[[Blood Transfusion Reactions]], [[Blood Products and Preparing a Transfusion]], [[Complications of IV Infusion]]\n\n## Check against your textbook\n- The handout does not give timing of each reaction or exact drug names; confirm them in your textbook.\n- Not advice for a real patient.",
+  "tags": [
+   "transfusion",
+   "reaction",
+   "fundamentals"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Transfusion reaction"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-x-precaution-type-decision",
+  "area": "GEN",
+  "title": "Choosing the Isolation Type: Airborne, Droplet or Contact",
+  "body": "## What it is\nA decision guide for the three transmission-based precautions, always used on top of standard precautions. The exam gives you a disease or situation and asks for the room, the mask or the gown.\n\n## Must-know facts\n- **Airborne**: tiny droplet nuclei (under 5 microns) that travel more than 3 feet. Examples: measles, chickenpox including zoster, pulmonary tuberculosis. Private room with negative air pressure and 6-12 air changes an hour; N95 respirator for pulmonary TB; susceptible staff should not enter for measles or chickenpox.\n- **Droplet**: larger particles (over 5 microns) that fall quickly. Examples: diphtheria, mycoplasma pneumonia, pertussis, mumps, rubella, strep throat, scarlet fever in children, pneumonic plague. Private room; mask when within 3 feet.\n- **Contact**: spread by touching the client or objects. Examples: resistant bacteria, C. difficile, E. coli, Shigella, hepatitis A, RSV, herpes simplex, impetigo, lice, scabies. Gloves, change after contact with infectious material, remove before leaving; gown if clothing may touch infected surfaces or the client has diarrhea, a colostomy or uncontained wound drainage; remove the gown inside the room; keep equipment dedicated to the client.\n- SARS: standard plus contact plus airborne.\n- If no private room, put the client with someone infected by the same organism.\n- For all three, limit transport and put a surgical mask on the client if they must leave.\n\n## How to reason about it\nAsk how the germ travels: through the air for long distances (airborne), in a short spray (droplet), or by touch (contact). The mask or gown follows from that. The negative-pressure room belongs only to airborne. Soap-and-water or antimicrobial hand washing after glove removal applies to contact precautions.\n\n## Related topics\n[[Transmission-Based Precautions]], [[Standard Precautions]], [[Disposal of Soiled Items and Color-Coded Waste]]\n\n## Check against your textbook\n- The handout's droplet and airborne lists mix a few diseases that some texts group differently (for example chickenpox, rubella); confirm with your reference.",
+  "tags": [
+   "infection control",
+   "isolation",
+   "fundamentals"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Transmission-based precautions"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-x-syringe-air-and-order-rules",
+  "area": "GEN",
+  "title": "Syringe Preparation Rules: When Air Goes In and Which Drug Comes First",
+  "body": "## What it is\nA reasoning note for the preparation steps that exams like to flip: ampule versus vial, one vial versus two, and insulin order.\n\n## Must-know facts\n- **Ampule**: no air is added before withdrawing. Flick the neck, break it away from yourself with gauze or an opener, use a filter needle to draw up (glass bits), then switch to a regular needle before injecting.\n- **Vial**: draw up air equal to the volume you will remove, inject the air with the bevel above the fluid, then withdraw the drug. Air keeps the pressure inside balanced so the fluid comes out easily.\n- Roll a vial between the palms to mix; do not shake it.\n- **Two vials in one syringe**: put air into vial A without touching the fluid, then air into vial B, withdraw from B, then change to a new needle and withdraw from A. Never push the plunger when you go into A, or drug B contaminates vial A.\n- **Vial plus ampule**: prepare the vial first; the ampule needs no air.\n- **Insulins**: handout example is 30 units of air into NPH and 10 units of air into regular. Draw regular insulin first, then NPH. The needle must not touch the insulin when you inject air.\n- Check the label three times: when taking it from the cart, before drawing, and after drawing.\n\n## How to reason about it\nRule: clear before cloudy. Regular insulin is clear; NPH is cloudy and long-acting. If NPH gets into the regular vial, its action is changed for the next dose.\n\n## Related topics\n[[Preparing Medications from Ampules and Vials]], [[Mixing Medications in One Syringe and Mixing Insulins]], [[Insulin Storage, Mixing and Injection Technique]]\n\n## Check against your textbook\n- Number of units used for the air in the insulin example is only an example from the handout; follow the order and agency policy.",
+  "tags": [
+   "medication",
+   "syringe",
+   "insulin"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Preparing medications from ampules and vials",
+   "Mixing medications using one syringe"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-x-iv-vs-transfusion-complication-rules",
+  "area": "GEN",
+  "title": "IV and Transfusion Problems Compared: Overload, Air Embolism, Infiltration and Speed Shock",
+  "body": "## What it is\nA side-by-side reasoning note for problems that look alike. The exam asks for the first action.\n\n## Must-know facts\n- **Infiltration**: needle out of the vein, fluid in tissue. Swelling, cold and pale skin, pain. Stop the infusion and restart at another site; limit movement.\n- **Phlebitis (superficial thrombophlebitis)**: tenderness, redness, warmth, slightly swollen vein above the site. Stop the infusion, apply warm moist compress, avoid that vein, restart elsewhere.\n- **Circulatory overload**: neck veins up, high blood pressure, dyspnea. Slow the infusion, notify, monitor. In a transfusion the client is also placed upright with feet down.\n- **Air embolism**: air in circulation. Position the client on the left side and notify the physician, especially for sudden pain or breathing difficulty.\n- **Infection**: fever, malaise, swelling or discharge at the site. Prevent with aseptic technique, hand washing, regular dressing changes.\n- **Speed shock**: IV push given too fast: pounding headache, fainting, chills, rapid pulse, back pain, apprehension, dyspnea. Refer to the physician and monitor vital signs; use proper tubing in children.\n\n## How to reason about it\nCold and pale means fluid is in the tissue (infiltration); warm and red means inflamed vein (phlebitis). Wet lungs and engorged veins mean too much volume. Sudden dyspnea or chest pain with a line in place means air. Rapid push plus headache and fainting means speed shock.\n\n## Related topics\n[[Complications of IV Infusion]], [[IV Flow Rate Computation]], [[Blood Transfusion Reactions]]\n\n## Check against your textbook\n- Handout lists \"slightly edema\" and \"acute tenderness\" only briefly; verify grading scales in your textbook.",
+  "tags": [
+   "IV",
+   "complications",
+   "reasoning"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Complications of IV infusion",
+   "Circulatory overload"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
  }
 ]

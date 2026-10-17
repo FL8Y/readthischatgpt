@@ -61,6 +61,7 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .tag.NP1 { background: var(--np1-soft); color: var(--np1); } .tag.NP5 { background: var(--np5-soft); color: var(--np5); }
 .tag.NP2, .tag.NP3, .tag.NP4, .tag.GEN { background: var(--np5-soft); color: var(--np5); }
 .seg { flex-wrap: wrap; }
+.fig { margin: 12px 0 18px; } .fig svg { width: 100%; height: auto; display: block; border-radius: 12px; border: 1px solid var(--line); } .fig figcaption { font-size: 13px; color: var(--mute, #586078); margin-top: 6px; }
 .tag.hi { background: var(--hi-soft); color: var(--hi); }
 .list { display: grid; gap: 8px; }
 .row { display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 10px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; cursor: pointer; text-align: left; width: 100%; }
@@ -199,7 +200,7 @@ article hr { border: 0; border-top: 1px solid var(--line); margin: 20px 0; }
     var sib = notes.filter(function (x) { return x.group === n.group; }), ix = sib.indexOf(n);
     var bl = Object.keys(back[n.id] || {}).map(function (k) { return byId[k]; });
     main.innerHTML = '<article><div class="meta"><span class="tag ' + n.area + '">' + n.area + '</span>' + (n.priority === 'high' ? '<span class="tag hi">High yield</span>' : '') + '</div>' +
-      '<h1>' + esc(n.title) + '</h1>' + md(n.body) +
+      '<h1>' + esc(n.title) + '</h1>' + (n.svg ? '<figure class="fig">' + n.svg + '<figcaption>Diagram (schematic): ' + esc(n.cap) + '</figcaption></figure>' : '') + md(n.body) +
       '<div class="actions"><button class="btn ' + (studied[n.id] ? 'on' : 'primary') + '" id="done">' + (studied[n.id] ? '✓ Studied' : 'Mark as studied') + '</button><button class="btn" id="copy">Copy note</button></div>' +
       (bl.length ? '<div class="back"><h3>Linked from</h3>' + bl.map(function (x) { return '<a href="#' + x.id + '">' + esc(x.title) + '</a>'; }).join('') + '</div>' : '') +
       '<div class="nav">' + (ix > 0 ? '<a class="btn" href="#' + sib[ix - 1].id + '" style="text-decoration:none;color:inherit">← ' + esc(sib[ix - 1].title) + '</a>' : '') +

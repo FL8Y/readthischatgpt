@@ -1018,5 +1018,295 @@
   ],
   "aiWritten": true,
   "nurseReviewed": false
+ },
+ {
+  "id": "np4-ns-x-tension-cluster-headaches",
+  "area": "NP4",
+  "title": "Tension-Type and Cluster Headaches",
+  "body": "## What it is\nHeadache (cephalgia) is a symptom, not a disease. Primary headaches have no organic cause that can be found. Tension-type and cluster headaches are primary, like migraine. A secondary headache is a symptom of another problem, such as a brain tumor or an aneurysm.\n\n## Must-know facts\n- Tension-type: the most common headache. It tends to be chronic and less severe. The client describes pressure and a tight feeling, often around the temples, sometimes with nausea.\n- Cluster: a severe vascular headache. The handout says it is most frequent in men. Sumatriptan is listed as effective for cluster headache as well as acute migraine.\n- Migraine for contrast: throbbing, pounding pain lasting 4 to 72 hours in adults, with phases (see [[Headache Types and Migraine Phases]]).\n- Secondary headache: tied to a cause such as tumor or aneurysm, so the cause must be found and treated.\n\n## Assessment\nAsk about location, quality (pressure versus throbbing), severity, duration, triggers, nausea, light sensitivity, and any new neurologic signs. Check vital signs and level of consciousness.\n\n## Priority nursing actions\n1. Rule out danger first: sudden severe headache, a change in level of consciousness, new weakness or vision change, or fever with a stiff neck is not a routine headache. Report at once, because bleeding, raised pressure or infection must come before comfort.\n2. Once safe, give comfort measures: quiet dark room, head of bed raised to 30 degrees, local heat or massage, analgesics as ordered.\n3. Teach stress reduction, biofeedback, exercise and meditation to give the client a sense of control.\n\n## Treatment and medications (general terms)\nAbortive drugs stop an attack that has begun. Preventive drugs are for frequent, predictable attacks. Triptans (sumatriptan and others) narrow vessels and reduce inflammation, but are avoided in ischemic heart disease. See [[Migraine Drugs and Headache Nursing Care]].\n\n## Client teaching\nKeep a headache diary of triggers, timing and what helped. Use relaxation methods. Report any change in the usual pattern.\n\n## How the exam asks about it\nA \"most common headache\" item points to tension-type. A man with severe, repeated vascular headaches in clusters points to cluster headache. A headache with a neurologic sign is the one that needs urgent action.\n\n## How to reason about it\nCause (primary versus secondary) -> finding (pattern and neurologic signs) -> action (exclude a dangerous cause first, then comfort). The trap: treating a secondary headache as a simple primary one.\n\n## Related topics\n[[Headache Types and Migraine Phases]], [[Migraine Drugs and Headache Nursing Care]], [[Increased Intracranial Pressure]]\n\n## Check against your textbook\nThe handout gives little detail on cluster headache (timing, eye symptoms, oxygen treatment). Fill these in from your textbook. Preventive drug names are not in the handout.",
+  "tags": [
+   "neuro",
+   "headache"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "HEADACHES",
+   "Tension-Type",
+   "Cluster headaches",
+   "Secondary Headaches"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-ns-x-tia",
+  "area": "NP4",
+  "title": "Transient Ischemic Attack",
+  "body": "## What it is\nA transient ischemic attack (TIA) is a short-lived neurologic deficit caused by a temporary loss of blood supply to part of the brain. In the handout it is a sudden loss of motor function, sensory function or both, typically lasting less than 1 hour.\n\n## Must-know facts\n- The deficit clears completely, but the event is a warning that a full stroke may follow.\n- The causes and risk factors match ischemic stroke: hypertension (the major risk factor), atrial fibrillation, high lipids, diabetes, age over 55, smoking, carotid stenosis, obesity and heavy alcohol use.\n- Carotid endarterectomy is listed for TIA and mild stroke; carotid stenting is for severe stenosis (see [[Carotid Endarterectomy and Stenting]]).\n- Platelet-inhibiting drugs are part of management.\n\n## Assessment\nRecord exactly what happened: which side, which function (weakness, numbness, speech, vision), when it began and how long it lasted. Check vital signs, rhythm, level of consciousness (use [[Level of Consciousness and Glasgow Coma Scale]]) and blood pressure.\n\n## Priority nursing actions\n1. Treat a new deficit as a possible stroke until proven otherwise. Note the time it started and report quickly: the time matters for clot-dissolving treatment.\n2. Airway and breathing, then neurologic checks and safety (fall precautions, since weakness may return).\n3. Prepare for CT, MRI or angiography as ordered.\n4. Teach risk-factor control after the event.\n\n## Treatment and medications (general terms)\nPlatelet-inhibiting drugs, control of blood pressure, lipids and glucose, and carotid surgery or stenting when the carotid artery is narrowed.\n\n## Complications and red flags\nA TIA that returns, lasts longer, or leaves any lasting deficit is a stroke. Rhythm problems such as atrial fibrillation raise the risk of clots.\n\n## Client teaching\nStop smoking, limit alcohol, control blood pressure, diabetes and weight, take prescribed antiplatelet or other drugs, and call for help at once if weakness, trouble speaking or vision loss starts again.\n\n## How the exam asks about it\n\"Symptoms disappear within an hour\" is TIA. The teaching point is that it is a warning and risk factors must be controlled.\n\n## How to reason about it\nCause (temporary clot or narrowing) -> finding (brief deficit that clears) -> priority (find and treat the cause before a stroke happens). The trap: treating a resolved TIA as \"nothing is wrong now\".\n\n## Related topics\n[[Stroke: Types, Causes and Risk Factors]], [[Stroke: Nursing Management]], [[Carotid Endarterectomy and Stenting]]\n\n## Check against your textbook\nThe one-hour limit is the handout's figure; newer definitions focus on absence of brain injury on imaging. Check which your school uses.",
+  "tags": [
+   "neuro",
+   "stroke",
+   "TIA",
+   "priority"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "CEREBROVASCULAR ACCIDENT",
+   "Transient Ischemic Attack",
+   "Medical Management"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-ns-x-hemorrhagic-stroke-sah",
+  "area": "NP4",
+  "title": "Hemorrhagic Stroke: Aneurysm, AVM and Subarachnoid Hemorrhage",
+  "body": "## What it is\nHemorrhagic stroke is bleeding into or around the brain. The handout says it is caused commonly by hypertension. Bleeding adds volume inside the skull and can raise intracranial pressure quickly.\n\n## Must-know facts\n- Intracerebral hemorrhage: bleeding inside brain tissue. Most common in clients with hypertension and cerebral atherosclerosis.\n- Intracranial aneurysm: a bulging dilation of a cerebral artery wall that forms where the wall is weak.\n- Arteriovenous malformation (AVM): a tangle of arteries and veins with no capillary bed between them, due to abnormal development before birth.\n- Subarachnoid hemorrhage: bleeding into the space around the brain. The most common cause is a leaking aneurysm near the Circle of Willis, or a congenital AVM.\n- Diagnosis: CT scan, MRI and angiography.\n\n## Assessment\nSudden severe headache, decreased level of consciousness, neck stiffness, vomiting, focal deficits. Trend neurologic status and pupils.\n\n## Priority nursing actions\n1. Airway and breathing first; a falling level of consciousness is the earliest sign of rising pressure.\n2. Monitor level of consciousness, GCS, pupils and vital signs often. Watch for Cushing's triad (see [[Increased Intracranial Pressure]]).\n3. Quiet, dark, restful room; avoid straining, Valsalva and anything that raises pressure.\n4. Head of bed raised to about 30 degrees with the head midline, unless told otherwise.\n5. Give blood-pressure drugs and others only as ordered: hypertension drives bleeding.\n\n## Treatment and medications (general terms)\nControl blood pressure; medicines for pressure and seizures; surgery or a procedure to secure an aneurysm or AVM as the team decides. Clot-dissolving drugs and anticoagulants are not used in bleeding.\n\n## Complications and red flags\nRe-bleeding, rising intracranial pressure, herniation, seizures. A sudden \"worst headache\" or falling level of consciousness needs immediate action.\n\n## Client teaching\nControl hypertension, avoid straining and heavy lifting if advised, take medicines as prescribed, report sudden headache or neurologic change.\n\n## How the exam asks about it\nKnow the four named causes, that hypertension is the common cause, and why a clot-buster would be dangerous in a bleed.\n\n## How to reason about it\nCause (ruptured vessel or aneurysm) -> finding (sudden headache, low consciousness) -> priority (airway, neuro checks, lower pressure, keep quiet). The trap: giving a drug that thins blood or raises pressure.\n\n## Related topics\n[[Stroke: Types, Causes and Risk Factors]], [[Increased Intracranial Pressure]], [[Aneurysms]]\n\n## Check against your textbook\nThe handout lists no drugs or surgery for hemorrhagic stroke, and no seizure or vasospasm care; those details here are general. Confirm blood-pressure targets and positioning in your reference.",
+  "tags": [
+   "neuro",
+   "stroke",
+   "hemorrhage",
+   "priority"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Hemorrhagic Stroke",
+   "Intracerebral Hemorrhage",
+   "Intracranial Aneurysm",
+   "Arteriovenous Malformation",
+   "Subarachnoid Hemorrhage"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-ns-x-carotid-surgery",
+  "area": "NP4",
+  "title": "Carotid Endarterectomy and Stenting",
+  "body": "## What it is\nProcedures that open or protect a narrowed carotid artery to prevent stroke. Carotid endarterectomy is removal of an atherosclerotic plaque or thrombus from the carotid artery. Carotid stenting is used for severe stenosis.\n\n## Must-know facts\n- The handout names endarterectomy for TIA and mild stroke, and stenting for severe stenosis.\n- Asymptomatic carotid stenosis is on the stroke risk-factor list.\n- Medical management of ischemic stroke also includes thrombolytic therapy and platelet-inhibiting drugs.\n\n## Assessment\nBefore: neurologic baseline, blood pressure, allergies (dye), medicines. After: neurologic status, speech, grip strength, neck swelling, airway.\n\n## Priority nursing actions\n1. After neck surgery, watch the airway for swelling or bleeding (airway comes first).\n2. Neurologic checks often, compared with the baseline; a new deficit is reported at once.\n3. Check the neck wound for bleeding or swelling and monitor blood pressure.\n4. Pain control and early activity as ordered.\n\n## Treatment and medications (general terms)\nAntiplatelet drugs and blood-pressure and lipid control before and after.\n\n## Complications and red flags\nNew stroke signs, neck hematoma with breathing difficulty, wound bleeding, very high or low blood pressure.\n\n## Client teaching\nStop smoking, control blood pressure and cholesterol, take prescribed drugs, report weakness, speech change or neck swelling.\n\n## How the exam asks about it\nMatch the procedure to the indication: TIA or mild stroke leads to endarterectomy; severe stenosis leads to stenting.\n\n## How to reason about it\nCause (plaque narrowing) -> risk (clot or stroke) -> action (open the vessel, then protect the airway and brain). The trap: forgetting airway watch after neck surgery.\n\n## Related topics\n[[Transient Ischemic Attack]], [[Stroke: Types, Causes and Risk Factors]], [[Thrombolytic Drugs]]\n\n## Check against your textbook\nPost-procedure monitoring and complications here are general knowledge, not handout content. Verify with your reference.",
+  "tags": [
+   "neuro",
+   "stroke",
+   "surgery"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Medical Management",
+   "Carotid Endarterectomy",
+   "Carotid Stenting"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-ns-x-aphasia-communication",
+  "area": "NP4",
+  "title": "Aphasia, Dysarthria and Apraxia",
+  "body": "## What it is\nCommunication problems after a stroke come in several forms that sound alike but are different. The exam expects you to tell them apart.\n\n## Must-know facts\n- Dysarthria: difficulty speaking because of weak or poorly controlled speech muscles. The words are understood by the speaker but sound slurred.\n- Dysphasia or aphasia: impaired language itself.\n  - Expressive aphasia: understands, but cannot form understandable words; may manage single words. Linked to the frontal speech area (Broca).\n  - Receptive aphasia: cannot understand spoken words; can speak but may not make sense. Linked to the temporal area (Wernicke).\n  - Global (mixed) aphasia: both together.\n- Apraxia: cannot perform a previously learned action though the muscles work.\n- Aphasia is typical of a left hemispheric stroke (see [[Stroke: Deficits and Left versus Right Hemisphere]]).\n\n## Assessment\nTest whether the client follows commands, names objects, repeats words and writes. Separate \"cannot understand\" from \"cannot speak\". Hearing and consciousness need to be ruled out first.\n\n## Priority nursing actions\n1. Keep safety first: a client who cannot call for help or understand warnings needs close watch and a reliable call method.\n2. Speak slowly and clearly in short, simple sentences.\n3. Use gestures, pictures, writing and reading where the client is able.\n4. Ask the client to repeat alphabet sounds as practice.\n5. Allow time to answer; do not finish sentences or talk down to the client.\n6. Keep calm, face the client, reduce noise.\n\n## Complications and red flags\nFrustration, depression, withdrawal and emotional lability. Sudden new speech loss in a recovering client is a red flag for a new event.\n\n## Client teaching\nTeach family the same strategies: short sentences, patience, visual cues, and treat the client as an adult.\n\n## How the exam asks about it\nA client \"understands but cannot find words\" is expressive; \"talks fluently but makes no sense and does not follow commands\" is receptive. The best nursing answer is the communication method that fits the type.\n\n## How to reason about it\nSite of damage -> type of language loss -> matched communication method. The trap: using only spoken instructions with a client who cannot understand speech.\n\n## Related topics\n[[Stroke: Deficits and Left versus Right Hemisphere]], [[Brain Regions and Their Functions]], [[Stroke: Nursing Management]]\n\n## Check against your textbook\nFluent versus non-fluent wording and the exact speech areas are textbook details beyond the handout.",
+  "tags": [
+   "neuro",
+   "stroke",
+   "communication"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Communication Loss",
+   "Expressive Aphasia",
+   "Receptive Aphasia",
+   "Global (Mixed) Aphasia",
+   "Manage verbal deficits"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-ns-x-levodopa-teaching",
+  "area": "NP4",
+  "title": "Levodopa Therapy: Teaching and Interactions",
+  "body": "## What it is\nLevodopa is the most effective drug and the mainstay of treatment for Parkinson's disease. It is converted to dopamine in the brain to replace the missing supply. It is usually paired with carbidopa.\n\n## Must-know facts\n- Side effects (handout): nausea and vomiting, orthostatic hypotension, insomnia, agitation, mental confusion. The handout also lists renal damage, which is doubtful.\n- Drugs that block its effect: phenothiazines, reserpine and pyridoxine (vitamin B6).\n- Foods to avoid (listed in the handout): tuna, pork, dried beans, salmon, beef liver. These are rich in vitamin B6.\n- Other Parkinson drug groups: amantadine, dopamine agonists (bromocriptine, pergolide), antihistamines, anticholinergics (benztropine, trihexyphenidyl, biperiden).\n\n## Assessment\nWatch tremor, rigidity and bradykinesia before and after doses; blood pressure sitting and standing; mood and confusion; nausea.\n\n## Priority nursing actions\n1. Safety first: check for orthostatic hypotension and teach slow position changes to prevent falls.\n2. Give the drug on schedule; effect depends on steady levels.\n3. Check the medicine list for blockers (antipsychotics such as phenothiazines, reserpine, vitamin B6).\n4. Monitor for confusion, agitation and abnormal movements.\n5. Support nutrition and prevent constipation with fluids and fiber.\n\n## Treatment and medications (general terms)\nSee also [[Antiparkinson Drugs: Levodopa, Carbidopa and Anticholinergics]]. Surgery (thalamotomy, pallidotomy, brain implants) is for advanced cases.\n\n## Complications and red flags\nSevere confusion or hallucinations, sudden drops in blood pressure, worsening movement control.\n\n## Client teaching\nRise slowly; take with the schedule given; avoid listed foods and vitamin B6 supplements unless the prescriber agrees; avoid drugs that block dopamine; report confusion, severe nausea or movement changes.\n\n## How the exam asks about it\n\"Which statement shows understanding?\" Correct answers mention rising slowly and avoiding vitamin B6 foods or supplements. Wrong answers add vitamin B6 for energy.\n\n## Memory aid\n\"B6 blocks it\": tuna, pork, beans, salmon, liver. Made-up helper.\n\n## Related topics\n[[Parkinson's Disease: Drugs, Surgery and Nursing Care]], [[Parkinson's Disease: Signs and Pathophysiology]], [[Antiparkinson Drugs: Levodopa, Carbidopa and Anticholinergics]]\n\n## Check against your textbook\nVitamin B6 interaction matters mainly when levodopa is given without carbidopa. Protein timing is not in the handout. Check the \"renal damage\" claim.",
+  "tags": [
+   "neuro",
+   "parkinson",
+   "pharmacology",
+   "levodopa"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Health Teaching during Levodopa Therapy",
+   "Side Effects of Levodopa",
+   "Drugs that block the effect of Levodopa",
+   "Foods to Avoid"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-ns-x-neuromuscular-compared",
+  "area": "NP4",
+  "title": "Neuromuscular and Demyelinating Diseases Compared",
+  "body": "## What it is\nA side-by-side study sheet for four diseases the exam likes to mix up.\n\n## Must-know facts\n- Myasthenia gravis (MG): defect at the nerve-muscle junction, too little usable acetylcholine; autoimmune or unknown. Earliest signs diplopia and ptosis. Worse with activity. Respiratory paralysis is the cause of death. Test: edrophonium (Tensilon). Drugs: pyridostigmine first line, neostigmine. Also plasmapheresis, thymectomy.\n- Multiple sclerosis (MS): demyelination of nerve fibers in the central nervous system, remissions and exacerbations. Charcot's triad: scanning speech, intention tremor, nystagmus. Drugs: interferon beta, steroids, baclofen for spasticity.\n- Guillain-Barre syndrome (GBS): autoimmune attack on peripheral nerve myelin, rapid ascending weakness, reflexes diminished. Respiratory failure is the main danger. Treatment: plasmapheresis, supportive care.\n- Amyotrophic lateral sclerosis (ALS): progressive loss of motor neurons; weakness, fasciculations, dysphagia, breathing trouble. Riluzole (glutamate antagonist).\n\n## Assessment focus\n- MG: ptosis, double vision, voice, swallowing, strength that fades with use.\n- MS: vision, balance, tremor, bowel and bladder, fatigue.\n- GBS: weakness moving upward, breathing, heart rate and blood pressure, swallowing.\n- ALS: muscle weakness, cramps, twitching, swallowing, breathing.\n\n## Priority nursing actions\nAcross all four, airway and breathing come first, then swallowing safety, then mobility and safety. In MG, plan around medicine timing; in GBS, watch vital capacity and rhythm; in MS, avoid heat and fatigue; in ALS, support breathing and communication.\n\n## Treatment and medications (general terms)\nSee each disease note. Avoid, in MG, muscle relaxants, barbiturates, morphine, tranquilizers and neomycin.\n\n## Complications and red flags\nRespiratory failure (MG crisis, GBS, ALS), aspiration, falls.\n\n## Client teaching\nRest and pace activity (MG, ALS), avoid overheating and strenuous exercise (MS), prevent infection (MG, GBS).\n\n## How the exam asks about it\nClues: \"ptosis and diplopia, worse at day's end\" is MG; \"scanning speech\" is MS; \"weakness starting in the feet and climbing\" is GBS; \"twitching and weakness with intact thinking\" is ALS.\n\n## Memory aid\nM = Muscle junction (MG); M = Myelin in the brain (MS); G = Goes up (GBS); A = Anterior horn/Atrophy (ALS). Made-up helper.\n\n## Related topics\n[[Myasthenia Gravis]], [[Multiple Sclerosis]], [[Guillain-Barre Syndrome]], [[Amyotrophic Lateral Sclerosis]]\n\n## Check against your textbook\nVerify the ALS statement that intellect is spared, and the exact acetylcholine mechanism in MG.",
+  "tags": [
+   "neuro",
+   "comparison",
+   "MG",
+   "MS",
+   "GBS",
+   "ALS"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "MYASTHENIA GRAVIS",
+   "MULTIPLE SCLEROSIS",
+   "GUILLAIN-BARRE SYNDROME",
+   "AMYOTROPHIC LATERAL SCLEROSIS"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-ns-x-refractive-errors",
+  "area": "NP4",
+  "title": "Refractive Errors and Visual Acuity Terms",
+  "body": "## What it is\nRefractive errors are focusing problems: the light does not land correctly on the retina. The handout defines several terms briefly; this note gathers them.\n\n## Must-know facts\n- Emmetropia: normal vision.\n- Myopia: nearsighted (near objects clear, distance blurred).\n- Hyperopia: farsighted.\n- Astigmatism: irregular curve of the cornea.\n- Aphakia: no lens (after cataract removal without a lens implant).\n- Acuity is read from the Snellen chart: 20/20 is normal; a person at 20/200 sees at 20 feet what a normal eye sees at 200 feet.\n- Legal blindness: best corrected acuity of 20/200 or worse.\n- Strabismus: eyes not aligned. Diplopia: double vision. Nystagmus: involuntary eye oscillation. Ptosis: drooping lid.\n- The lens focuses near and far by accommodation.\n\n## Assessment\nSnellen chart for distance acuity, visual fields by perimetry, ophthalmoscope and slit lamp for structure (see [[Vision Tests and Eye Examination Tools]]).\n\n## Priority nursing actions\n1. Safety for clients with poor vision: orient to the room, keep the path clear, call light within reach.\n2. Teach glasses or contact lens use and care.\n3. After cataract removal without an implant, expect aphakic glasses or contact lenses.\n4. Report sudden vision change at once: this can be an emergency.\n\n## Treatment and medications (general terms)\nEyeglasses, contact lenses or surgery. Aphakic glasses magnify objects by about a quarter, making them look closer (see [[Cataract Surgery and Lens Replacement]]).\n\n## Client teaching\nRegular eye checks, protective eyewear, clean hands when handling lenses.\n\n## How the exam asks about it\nMatch the term to the meaning: \"without lens\" is aphakia; \"uneven corneal curve\" is astigmatism.\n\n## Memory aid\nMyopia = \"My eyes see near\"; hyperopia = far. Made-up helper.\n\n## Related topics\n[[Eye Terms and Eye Removal Surgeries]], [[Vision Tests and Eye Examination Tools]], [[Cataract Surgery and Lens Replacement]]\n\n## Check against your textbook\nThe handout lists \"blindness\" as acuity \"ranges from 20/400\" and proptosis as downward displacement; both look garbled. Verify. The cause of myopia and hyperopia (eyeball length) is textbook knowledge beyond the handout.",
+  "tags": [
+   "eye",
+   "refraction",
+   "terminology"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "TERMS",
+   "Aphakia",
+   "Astigmatism",
+   "Hyperopia",
+   "Myopia",
+   "Emmetropia",
+   "Blindness",
+   "Legal Blindness"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-ns-x-eye-drugs-instillation",
+  "area": "NP4",
+  "title": "Eye Medications and Drop Instillation",
+  "body": "## What it is\nA summary of the eye drug groups the handout uses, and how clients use them safely.\n\n## Must-know facts\n- Antibiotic drops or ointment: blepharitis, bacterial conjunctivitis, corneal abrasion, after surgery. Antiviral drops for herpes simplex dendritic keratitis.\n- Cycloplegics: paralyze the ciliary muscle to relieve pain from spasm (corneal abrasion, uveitis). Mydriatic-cycloplegic drops may be given before cataract surgery. Cycloplegics are deferred in a ruptured globe.\n- Topical corticosteroids: uveitis and eye injuries. They can raise intraocular pressure, so pressure checks are needed.\n- Pilocarpine (miotic): narrows the pupil and increases aqueous outflow; used in glaucoma, including the other eye in acute angle-closure.\n- Beta-blockers (such as betaxolol) and carbonic anhydrase inhibitors (acetazolamide): lower pressure by reducing aqueous production.\n- Antihistamines, vasoconstrictors and mast cell stabilizers: allergic conjunctivitis.\n- Ranibizumab and bevacizumab: wet macular degeneration.\n- Aminocaproic acid: stabilizes clot after traumatic bleeding in the eye.\n\n## Priority nursing actions\n1. Safety first for emergencies: acute angle-closure glaucoma needs pressure-lowering drugs quickly.\n2. Wash hands before and after; teach the client to do the same.\n3. Teach the client the drop technique and the schedule: skipping doses can cause permanent damage in uveitis and glaucoma.\n4. Use a clean technique; do not let the bottle tip touch the eye.\n5. Do not use steroids or anticholinergic drugs in glaucoma unless the benefit outweighs the risk.\n\n## Complications and red flags\nReturn of severe eye pain, light sensitivity or heavy tearing; sudden vision change; rising pressure with steroids.\n\n## Client teaching\nEye drops are medicine, and glaucoma is a chronic illness needing lifelong drops even without symptoms. Keep follow-up visits. Tell every health provider about the eye condition.\n\n## How the exam asks about it\nMatch the drug to the condition; know that pilocarpine constricts the pupil and cycloplegics relieve pain from spasm; steroids need pressure checks.\n\n## Related topics\n[[Acute Angle-Closure Glaucoma]], [[Uveitis (Iritis)]], [[Chronic Open-Angle Glaucoma]]\n\n## Check against your textbook\nThe handout calls acetazolamide a hyperosmotic agent, but it is a carbonic anhydrase inhibitor. The detailed eye-drop steps (pressing the inner corner, spacing drops) are general knowledge, not handout content.",
+  "tags": [
+   "eye",
+   "pharmacology",
+   "teaching"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Management",
+   "Nursing Intervention",
+   "Patient Education and Health Maintenance"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-ns-x-hearing-loss-types",
+  "area": "NP4",
+  "title": "Conductive versus Sensorineural Hearing Loss",
+  "body": "## What it is\nHearing loss is either conductive (sound is blocked on its way through the outer or middle ear) or sensorineural (the cochlea or nerve is damaged). The tuning fork tests help tell them apart.\n\n## Must-know facts\n- Normal: Weber is heard equally in both ears; Rinne shows air-conducted sound louder than bone-conducted.\n- Conductive loss: Weber is louder in the affected ear; Rinne shows bone conduction lasting longer than air.\n- Sensorineural loss: Weber is heard in the better ear; Rinne shows air conduction longer than bone.\n- Conductive examples in the handout: impacted cerumen, foreign body, otitis externa and media, and stapes fixation (otosclerosis).\n- Sensorineural example: Meniere's disease (with tinnitus and vertigo).\n- Audiometry: pure-tone (the louder the tone needed, the greater the loss) and speech audiometry.\n\n## Assessment\nWhisper test, tuning fork tests, otoscope view of canal and drum, audiogram. Ask about pain, discharge, tinnitus, vertigo.\n\n## Priority nursing actions\n1. Safety: vertigo and hearing loss raise fall risk.\n2. Communicate well: face the client, speak clearly, reduce background noise, do not shout.\n3. Treat the cause: remove cerumen or foreign body, treat infection.\n4. Refer for hearing evaluation.\n\n## Treatment and medications (general terms)\nRemove blockage, antibiotic or antifungal drops for infection, stapedectomy for otosclerosis, medicines for Meniere's. See each ear note.\n\n## Complications and red flags\nSocial isolation, falls, permanent loss in Meniere's.\n\n## Client teaching\nDo not clean the canal with cotton swabs; protect from loud noise; keep follow-up hearing tests.\n\n## How the exam asks about it\nGiven Weber and Rinne results, name the type. Rule: conductive loss makes the bad ear sound louder on Weber; sensorineural makes the good ear sound louder.\n\n## Memory aid\nConductive = \"the Bad ear Booms\" on Weber. Made-up helper.\n\n## Related topics\n[[Hearing Tests: Weber, Rinne and Audiometry]], [[Meniere's Disease]], [[Otosclerosis and Stapedectomy]]\n\n## Check against your textbook\nThe handout lists the Rinne result for a middle-ear infection oddly (see [[Acute Otitis Media]]). Verify.",
+  "tags": [
+   "ear",
+   "hearing",
+   "comparison"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Tuning Fork Tests",
+   "Weber test",
+   "Rinne test",
+   "Audiometry"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-ns-x-hyphema-sympathetic",
+  "area": "NP4",
+  "title": "Hyphema, Eye Contusion and Sympathetic Ophthalmia",
+  "body": "## What it is\nBlunt injury to the eyeball (contusion) and penetrating wounds can cause bleeding and damage inside the eye. Hyphema is hemorrhage within the anterior chamber. Sympathetic ophthalmia is inflammation in the uninjured eye caused by the injured eye, which can lead to blindness in the good eye.\n\n## Must-know facts\n- Findings after contusion or penetration: marked vision loss, hemorrhagic chemosis (edema of the conjunctiva), conjunctival laceration, shallow anterior chamber with an off-center pupil, hyphema, vitreous hemorrhage.\n- Do not remove a foreign object. Protect it from movement. Do not put pressure or a patch on the eye. Cover with a metal shield or a stiff paper cup.\n- Topical corticosteroids reduce inflammation. Aminocaproic acid (Amicar) is an antifibrinolytic that stabilizes clot.\n- Enucleation (removal of the eyeball and part of the optic nerve) is considered when the globe cannot be repaired and has no light perception. It is done within about 2 weeks to prevent sympathetic ophthalmia.\n\n## Assessment\nVision, pupil shape, depth of anterior chamber, bleeding, pain. Ask the mechanism of injury.\n\n## Priority nursing actions\n1. Protect the eye with a shield; do not press on it.\n2. Keep the client calm and still; avoid coughing, straining and bending, which raise pressure.\n3. Prevent bleeding and rising pressure; keep the head elevated as ordered.\n4. Report pain, vision change or bleeding immediately; prepare for urgent ophthalmology.\n\n## Complications and red flags\nRe-bleeding, raised eye pressure, loss of vision, sympathetic ophthalmia in the other eye.\n\n## Client teaching\nWear protective eyewear; report new redness, pain or vision change in either eye after an old injury.\n\n## How the exam asks about it\n\"Metal shield, no patch, do not remove the object\" is the penetrating-injury answer; \"irrigate\" is for chemical splashes.\n\n## Related topics\n[[Penetrating Eye Injuries and Splash Injuries]], [[Eye Terms and Eye Removal Surgeries]], [[Orbital Trauma and Fractures]]\n\n## Check against your textbook\nHyphema positioning and activity restrictions are not in the handout; check your reference.",
+  "tags": [
+   "eye",
+   "trauma",
+   "priority"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "CONTUSION OF THE EYEBALL",
+   "Clinical Manifestations",
+   "Primary enucleation"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-ns-x-status-epilepticus",
+  "area": "NP4",
+  "title": "Status Epilepticus",
+  "body": "## What it is\nStatus epilepticus is a neurologic emergency: one seizure, or a series of seizures, without the client regaining consciousness in between. The handout describes it as one or a series of grand mal seizures lasting more than 30 minutes without waking intervals.\n\n## Must-know facts\n- A tonic-clonic seizure normally lasts 30 to 60 seconds, with rigidity, fixed dilated pupils, clenched jaw and hands, a pause in breathing and possible incontinence.\n- Causes of seizures include brain injury, infection, vascular disease, drugs, poisons, and drug or alcohol withdrawal.\n- EEG is the most useful test.\n- Anticonvulsant drugs are used (see [[Anticonvulsants: Phenytoin, Diazepam and Phenobarbital]]).\n\n## Assessment\nTime the seizure from the start; note body parts involved, eye position, breathing and color. Afterward check consciousness and orientation.\n\n## Priority nursing actions\n1. Airway and breathing: this is the main danger when seizures do not stop. Side-lying position, suction ready, oxygen as ordered.\n2. Protect from injury: ease the client to the floor, protect the head, remove hazards, loosen clothing, bed low. Do not restrain or put anything in the mouth.\n3. Call for help; give anticonvulsant drugs and other emergency orders quickly.\n4. Document timing and events.\n5. Check blood glucose and look for the cause, as ordered.\n\n## Treatment and medications (general terms)\nIV anticonvulsants as ordered. Doses are not in the handout; follow orders.\n\n## Complications and red flags\nHypoxia, aspiration, injury, brain damage. Long seizures need urgent medical care.\n\n## Client teaching\nTake anticonvulsants exactly as prescribed; do not stop suddenly; avoid triggers such as alcohol and sleep loss.\n\n## How the exam asks about it\nA seizure that continues or repeats without recovery is an emergency: airway first.\n\n## How to reason about it\nCause (seizure that will not stop) -> risk (hypoxia and brain damage) -> action (airway, oxygen, protect, drug). The trap: restraining or placing an object in the mouth.\n\n## Related topics\n[[Seizure Types and Epilepsy]], [[Seizure Nursing Care]], [[Anticonvulsants: Phenytoin, Diazepam and Phenobarbital]]\n\n## Check against your textbook\nModern definitions treat status epilepticus as a much shorter continuous seizure than 30 minutes. Verify the time your school teaches.",
+  "tags": [
+   "neuro",
+   "seizure",
+   "emergency",
+   "priority"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Status Epilepticus",
+   "SEIZURES",
+   "Nursing Management"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-ns-x-neuro-drugs-glance",
+  "area": "NP4",
+  "title": "Neurologic and Sensory Drugs at a Glance",
+  "body": "## What it is\nA quick lookup of drugs named in the neurologic and sensory handouts, grouped by disease, so you can match drug to condition.\n\n## Must-know facts\n- Migraine and cluster: sumatriptan and other triptans (not in ischemic heart disease).\n- Increased intracranial pressure: mannitol, corticosteroids, anticonvulsants.\n- Meningitis: vancomycin, cephalosporins, dexamethasone. Encephalitis: acyclovir, plus anticonvulsants and antipyretics.\n- Myasthenia gravis: pyridostigmine (first line), neostigmine; edrophonium for testing; atropine for edrophonium toxicity.\n- Multiple sclerosis: interferon beta, methylprednisolone, baclofen for spasticity.\n- Parkinson's disease: levodopa with carbidopa, amantadine, bromocriptine, pergolide, anticholinergics (benztropine, trihexyphenidyl).\n- Alzheimer's disease: donepezil, rivastigmine, tacrine (cholinesterase inhibitors); memantine (NMDA antagonist).\n- ALS: riluzole; spasticity drugs baclofen, dantrolene, diazepam.\n- Autonomic dysreflexia: hydralazine (named in the handout).\n- Bell's palsy: prednisone, analgesics, antivirals. Trigeminal neuralgia: carbamazepine, phenytoin.\n- Huntington's disease: thiothixene, haloperidol (chorea).\n- Glaucoma: acetazolamide, pilocarpine, betaxolol. Uveitis: topical steroid with a cycloplegic. Wet macular degeneration: ranibizumab, bevacizumab.\n- Meniere's disease: meclizine, diphenhydramine, diazepam, promethazine.\n\n## Priority nursing actions\nBefore giving any drug in an emergency, check airway, breathing and circulation. In the stable client, verify the right drug for the condition, then monitor effect and side effects. Teach the client the purpose and side effects.\n\n## Complications and red flags\nOrthostatic hypotension (levodopa), raised eye pressure (steroids), sedation and falls (diazepam, meclizine), breathing trouble (myasthenic crisis).\n\n## Client teaching\nTake drugs on schedule, never stop abruptly, and report side effects.\n\n## How the exam asks about it\nDirect matching: \"drug of choice for spasticity in MS\" is baclofen; \"first line in myasthenia gravis\" is pyridostigmine.\n\n## Memory aid\nSpasticity = baclofen (MS, ALS). Dopamine low = levodopa. ACh low = pyridostigmine (MG) or donepezil (AD). Made-up helper.\n\n## Related topics\n[[Multiple Sclerosis]], [[Myasthenia Gravis]], [[Parkinson's Disease: Drugs, Surgery and Nursing Care]]\n\n## Check against your textbook\nDose, class and antidote statements here follow the handout; the migraine \"serotonin receptor agonist\" label, the hyperosmotic label for acetazolamide, and tacrine use should be verified.",
+  "tags": [
+   "neuro",
+   "eye",
+   "ear",
+   "pharmacology",
+   "summary"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Medical Management",
+   "Pharmacologic Therapy",
+   "Treatment"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-ns-x-eye-emergencies-compared",
+  "area": "NP4",
+  "title": "Red Eye and Eye Emergencies Compared",
+  "body": "## What it is\nA comparison to help decide which eye problem is an emergency and what the nurse does first.\n\n## Must-know facts\n- Acute angle-closure glaucoma: emergency. Severe eye pain, red congested eye, nausea and vomiting, halos, mid-dilated fixed oval pupil, very high eye pressure. Needs pressure-lowering drugs (acetazolamide, pilocarpine, beta-blocker) and laser iridotomy.\n- Anterior uveitis: urgent. Sudden deep pain, light sensitivity, red eye, small sluggish pupil. Steroid drops plus cycloplegic.\n- Corneal abrasion: urgent. Pain, tearing, foreign body feeling, light sensitivity; fluorescein stain. Antibiotic drops, cycloplegic, patch.\n- Retinal detachment: emergency. Floaters, flashes, curtain or veil, painless. Surgery: scleral buckling, retinopexy, cryopexy.\n- Conjunctivitis: usually less urgent. Redness, itching, burning, discharge; contagious (bacterial, viral) or allergic.\n- Penetrating injury: shield, do not remove the object, no patch. Chemical splash: irrigate immediately.\n- Chronic open-angle glaucoma: painless; slow loss of side vision.\n\n## Assessment\nPain (severe or mild), vision change, pupil size and shape, discharge, light sensitivity, history of injury, contact lens use.\n\n## Priority nursing actions\n1. Treat severe pain with vision loss and nausea as an emergency; call the provider immediately.\n2. Chemical in the eye: irrigate first, ask questions later.\n3. Penetrating injury: shield only, no pressure.\n4. Avoid actions that raise eye pressure (straining, bending, coughing).\n5. Teach hand washing for infectious conditions.\n\n## Complications and red flags\nBlindness, raised eye pressure, spread of infection, loss of the other eye after trauma.\n\n## Client teaching\nSeek care at once for severe eye pain, sudden vision change, floaters with flashes, or injury. Never squeeze or rub the eye.\n\n## How the exam asks about it\nCompare pupils: small and sluggish (uveitis), mid-dilated and fixed (acute glaucoma). Painless vision loss with a curtain is retinal detachment.\n\n## How to reason about it\nCause (pressure, inflammation, tear, infection) -> finding (pain, pupil, vision pattern) -> priority (save vision first). The trap: patching a penetrating injury or delaying treatment for acute glaucoma.\n\n## Related topics\n[[Acute Angle-Closure Glaucoma]], [[Uveitis (Iritis)]], [[Retinal Detachment]], [[Corneal Abrasion and Keratitis]]\n\n## Check against your textbook\nThe retinal detachment \"painless\" feature and the chemical-irrigation rule are standard teaching and only partly in the handout. Verify.",
+  "tags": [
+   "eye",
+   "emergency",
+   "comparison",
+   "priority"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Corneal Abrasion",
+   "Iritis/Uveitis",
+   "ACUTE (CLOSE ANGLE) GLAUCOMA",
+   "RETINAL DETACHMENT",
+   "Conjunctivitis"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
  }
 ]
