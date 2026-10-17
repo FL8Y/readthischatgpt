@@ -10,6 +10,7 @@
 - [x] Created a full source file inventory with 147 rows from the captured playground tree; 32 are verified study-note copies and the remaining 115 are retained source/process/support files.
 - [x] Created a separate curated mental-health review integrating complementary, adjacent pp. 53–58 source notes; linked its source copies and recorded curation boundaries.
 - [x] Created a separate curated perioperative/postoperative/pain review connecting five related source notes across pp. 89–101; linked every source and retained source uncertainty.
+- [x] Created a separate communicable-disease/public-health overview across pp. 68–85, linked five detailed source notes, and documented its scope in the overlap review.
 
 ## Remaining work
 - [ ] Content-audit supporting files whose SOURCE_FILE_INVENTORY.csv classifications are marked preliminary; correct misclassifications and record explicit exclusion/review reasons.
