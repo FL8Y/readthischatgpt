@@ -1,7 +1,7 @@
 # Handoff — Agent 01: Communicable Infections
 
 ## Objective
-Convert three supplied textbook table photographs (printed pages 80–82) into source-faithful, evidence-informed nursing study notes and verify that the visible sections are covered.
+Convert three supplied textbook table photographs (printed pages 80–82) into source-faithful, evidence-informed nursing study notes and verify visible section coverage.
 
 ## Repository standards inspected
 Read the live current contents of:
@@ -20,18 +20,20 @@ Read the live current contents of:
 - `notes/SESSION_HANDOFF.md`
 - `notes/README.md`
 
-## Deliverables
-- `notes/agents-playground/agent-01-communicable-infections/notes/communicable-infections-hepatitis-enteric-parasitic-p80-82.md`
-- `notes/agents-playground/agent-01-communicable-infections/IMAGE_COVERAGE_CHECKLIST.md`
-- `notes/agents-playground/agent-01-communicable-infections/RESEARCH_LOG.md`
-- `notes/agents-playground/agent-01-communicable-infections/WORK_QUEUE.md`
-- `notes/agents-playground/agent-01-communicable-infections/HANDOFF.md`
+## Deliverables created and re-fetched
+- [Study notes](notes/communicable-infections-hepatitis-enteric-parasitic-p80-82.md)
+- [Image coverage checklist](IMAGE_COVERAGE_CHECKLIST.md)
+- [Research log](RESEARCH_LOG.md)
+- [Work queue](WORK_QUEUE.md)
+- This handoff.
 
-## Verification
-Each deliverable is to be re-fetched from GitHub after writing. The main note file must be checked for all headings/rows from p. 80, p. 81, and p. 82. The cropped top row of p. 80 is deliberately unnamed. External updates are labeled separately from the source's claims.
+## Verification performed
+- Re-fetched each of the five files from GitHub after creation.
+- Confirmed the main notes contain sections for the cropped p. 80 fragment, hepatitis A/E/B/C/D, shared hepatitis stages, bacillary dysentery, amoebic dysentery, cholera, giardiasis, taeniasis, paragonimiasis, hookworm, enterobiasis, and scabies.
+- Compared the note section inventory with the three-image coverage checklist.
+- Preserved the partial p. 80 row without guessing its missing heading.
+- Separated textbook claims from external cross-checks and cited the selected CDC/WHO references.
+- No shared project files outside this agent folder were changed.
 
-## Scope boundary
-Only this agent's folder is modified. Shared project status/queue/handoff files outside the assigned playground are not changed.
-
-## Next exact action
-Re-fetch all five files and compare the main note file with the coverage checklist; if any visible heading or row is missing, correct the note and re-fetch it again.
+## Final status
+All three supplied images have corresponding source-faithful notes and the saved files have been re-fetched. The output is complete for the visible material in these three photographs. Small soft-focus/shadowed wording is explicitly caveated rather than guessed. The external review is targeted, not a systematic review of every parasite listed; this limitation is recorded in RESEARCH_LOG.md.
