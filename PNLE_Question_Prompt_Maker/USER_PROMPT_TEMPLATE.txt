@@ -13,7 +13,8 @@ Output format: [plain text / valid JSON]
 
 Requirements:
 - Use realistic, original clinical scenarios and four options (A–D) with one best answer per question unless SATA is explicitly selected.
-- Make the questions challenging through prioritization, cue interpretation, safe action sequencing, and plausible distractors—not ambiguity or obscure trivia.
+- Make the questions challenging through prioritization, cue interpretation, safe action sequencing, causal/pathophysiological chains, and plausible distractors—not ambiguity or obscure trivia.
+- Use a purposeful mix where useful: linked case items, mechanism questions, numbered statements/Statement I-II, EXCEPT/least-appropriate items, event sequences, teach-back, misconception checks, and occasional clinically accurate analogies. Preserve one defensible answer and explain the reasoning.
 - Favor application, analysis, and evaluation over rote recall.
 - Use the current official PRC/BON TOS and the official exam program for the target sitting; match its exact Nursing Practice/part labels. Do not infer item weights from program headings alone.
 - Explain why the correct answer is best and why each distractor is less appropriate.
