@@ -11,7 +11,7 @@
 | Create durable tracking files | DONE | Checklist, work queue, research log, handoff saved in the assigned folder | Update if status changes |
 | GitHub persistence + re-fetch | DONE | All five files fetched from `main`; correct paths, nonempty content, and study-note ending confirmed | None |
 | Image coverage audit | DONE for legible content | Checklist covers every named leader, six delivery models, and eleven ethical principles; cropped preceding name remains partial | Request clearer crop only if needed |
-| External source verification | IN PROGRESS | Source links and intended claims recorded; authoritative details need link-level verification | Verify key historical and professional claims |
+| External source verification | DONE for key claims only | Official Red Cross sources confirm 1881 founding and March 1882 ratification; current ANA statement and Richards history also cross-checked | Additional references not audited claim-by-claim |
 | Independent nursing review | NOT STARTED | Qualified reviewer checks clinical/ethical accuracy | Requires a qualified reviewer |
 
 ## Status rules
@@ -21,4 +21,4 @@
 - BLOCKED: specific missing input/permission/tool/evidence prevents completion.
 
 ## Exact next action
-Verify the highest-risk external claims and links—especially the Clara Barton/Geneva Convention timeline and the current professional confidentiality guidance—then update the research log and re-fetch any corrections. Do not claim independent clinical review.
+Re-fetch the updated note, research log, checklist, queue, and handoff one final time; verify all five paths and key updated status. Keep independent nursing review marked NOT PERFORMED.
