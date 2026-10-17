@@ -1,11 +1,11 @@
-Use the Detailed Image-to-Notes Maker rules.
+Use the Detailed Image-to-Notes Maker master prompt and session protocol.
 
 Subject/book: [optional]
-Chapter/section: [optional]
+Chapter/topic: [optional]
 Printed page number(s): [optional]
-Detail level: very detailed (default)
-Language: same as source (default)
-Output: detailed notes + key terms + tables/diagrams/processes + recap + 3–8 original recall questions with answers (default)
-Optional overrides: [notes only / no questions / flashcards / simpler language / other]
+Detail level: very detailed by default
+Language: same as source by default
+Mode: detailed notes + key terms + relevant tables/diagrams + recap + 3–8 original retrieval questions with answers/rationales
+Overrides: [notes only / no questions / flashcards / simpler language / other]
 
-Read the attached page image carefully. Cover all meaningful visible content in the order it appears. Preserve definitions, technical terms, numbers, units, examples, exceptions, tables, diagrams, captions, and process relationships. Explain the content clearly without losing accuracy. Do not transcribe long passages verbatim. Separate any added clarification from notes based on the page. Mark unreadable or cropped text as [unclear in image]; never guess. Connect the page to earlier uploaded pages only where supported, track page sequence and unresolved gaps, then provide a coverage/uncertainty check.
+Read the entire image before drafting. Cover all meaningful visible content in reading order, preserve terminology, numbers, units, conditions, exceptions, table/diagram relationships, and procedural sequence. For nursing topics, apply only the relevant subject-specific structure. Explain mechanisms and priorities only where supported; distinguish source content from added explanation. Never guess blurry or cropped text. Process only the newly supplied pages, connect them to previous pages when evidence supports it, and update the page/session ledger when repository tools are available.

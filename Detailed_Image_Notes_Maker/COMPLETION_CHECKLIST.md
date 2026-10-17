@@ -1,25 +1,31 @@
 # Completion Checklist
 
 ## Repository artifacts
-- [x] Master system prompt exists.
-- [x] README explains purpose, usage, and limitations.
-- [x] User prompt template exists.
-- [x] Page tracker template exists.
-- [x] Research/build log records decisions and limitations.
-- [x] Functional acceptance criteria are listed.
+- [x] Base project files created.
+- [x] Root handoff file exists.
+- [ ] Nursing-specific master prompt re-fetched after improvement.
+- [ ] Evidence review and references re-fetched.
+- [ ] Cross-session status/queue/protocol/handoff re-fetched.
+- [ ] All internal links checked.
 
-## Functional acceptance criteria — NOT YET TESTED
-- [ ] Captures all visible headings and meaningful content.
-- [ ] Preserves definitions, terms, numbers, units, exceptions, and examples.
-- [ ] Represents tables without losing row/column relationships.
-- [ ] Explains diagrams, labels, arrows, and process sequence.
-- [ ] Marks blurry/cropped text without guessing.
-- [ ] Separates source-derived content from added clarifications.
-- [ ] Maintains page sequence and continuity across adjacent images.
-- [ ] Tracks missing pages and unresolved references.
-- [ ] Consolidates notes without contradictions or accidental omissions.
-- [ ] Avoids long verbatim reproduction.
-- [ ] Produces readable notes appropriate to the requested detail level.
+## Functional acceptance tests — NOT YET PASSED
+- [ ] Clear prose page: all meaningful content captured.
+- [ ] Dense table: row/column relationships preserved.
+- [ ] Diagram: labels, arrows, direction, and sequence preserved.
+- [ ] Blurry/cropped text: uncertainty marked without guessing.
+- [ ] Adjacent pages: continuity without duplicate reprocessing.
+- [ ] Nursing disease topic: causal chain and nursing relevance only where source supports them.
+- [ ] Medication/procedure topic: exact details and ordered steps preserved; unclear values flagged.
+- [ ] Non-clinical nursing topic: correct topic-specific structure, not forced into disease template.
+- [ ] Retrieval questions: answers and rationales grounded in source.
+- [ ] Consolidated chapter pack: reconciles with page ledger and discloses gaps.
+- [ ] Source-derived claims separated from added explanation/external updates.
+- [ ] No long verbatim reproduction.
+
+## Review gates
+- [ ] Qualified nursing reviewer checks clinical accuracy of representative outputs.
+- [ ] All fixes retested.
+- [ ] PROJECT_STATUS.md and SESSION_HANDOFF.md reflect actual verification.
 
 ## Release status
-**Specification drafted; functional validation pending.** Do not describe this project as fully tested or production-ready until the test cases above have been run and reviewed.
+Prompt and workflow improvements are not equivalent to functional validation. Do not call production-ready until relevant tests and review are complete.

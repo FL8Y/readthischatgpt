@@ -1,35 +1,41 @@
 # Detailed Image-to-Notes Maker
 
 ## Purpose
-A reusable prompt framework for converting sequential images of book pages into detailed, structured study notes while preserving the source's meaning and making uncertainty visible.
+Convert sequential images of book pages into detailed, organized, source-faithful study notes, with nursing-specific structure where appropriate. This project is separate from PNLE Question Prompt Maker.
+
+## Start here
+For any new chat/session, read [SESSION_PROTOCOL.md](SESSION_PROTOCOL.md), [PROJECT_STATUS.md](PROJECT_STATUS.md), [WORK_QUEUE.md](WORK_QUEUE.md), [RESEARCH_AND_DESIGN.md](RESEARCH_AND_DESIGN.md), then [MASTER_SYSTEM_PROMPT.txt](MASTER_SYSTEM_PROMPT.txt). Follow the anti-loop rules; resume the first incomplete task.
 
 ## Files
-1. `MASTER_SYSTEM_PROMPT.txt` — full operating rules and output structure.
-2. `README.md` — project overview and usage.
-3. `RESEARCH_LOG.md` — design decisions, limitations, and validation status.
-4. `COMPLETION_CHECKLIST.md` — artifact and functional acceptance criteria.
-5. `USER_PROMPT_TEMPLATE.txt` — reusable request template.
-6. `PAGE_TRACKER_TEMPLATE.md` — page coverage and follow-up tracker.
+- `MASTER_SYSTEM_PROMPT.txt` — core prompt, nursing-specific content logic, prioritization, note formats, uncertainty, and quality gate.
+- `RESEARCH_AND_DESIGN.md` — focused evidence review and how findings were translated into prompt rules.
+- `SESSION_PROTOCOL.md` — repeatable cross-session startup, execution, verification, and closeout protocol.
+- `PROJECT_STATUS.md` — verified current state and session ledger.
+- `WORK_QUEUE.md` — prioritized work with explicit acceptance criteria.
+- `SESSION_HANDOFF.md` — next-session starting point.
+- `USER_PROMPT_TEMPLATE.txt` — reusable user-facing prompt.
+- `PAGE_TRACKER_TEMPLATE.md` — tracks uploaded pages, key terms, and gaps.
+- `RESEARCH_LOG.md` — design decisions and changes.
+- `COMPLETION_CHECKLIST.md` — artifact and functional acceptance criteria.
 
-## How to use
-1. Upload the first page image.
-2. Provide the optional subject/chapter and any output preferences.
-3. Request detailed notes using the master prompt and user template.
-4. Upload following pages in sequence. Each response should cover the new page and connect to prior supplied pages when relevant.
-5. Keep a page tracker in the working document or conversation. Mark blurry/cropped regions and request targeted re-uploads.
-6. When finished, request a consolidated chapter pack with glossary, comparison tables, process summaries, recap, and review questions.
+## Workflow
+1. Upload one or more page images in reading order.
+2. State book/subject/chapter and output preferences if desired.
+3. Process each new page once. Maintain the page ledger and mark uncertain regions.
+4. Ask for a clearer crop only for the region that affects understanding.
+5. When all intended pages are processed, request consolidation and compare it with the ledger.
+6. Use original recall questions and spaced review as learning aids, not guarantees.
 
-## Operating principles
-- The supplied images are the primary evidence.
-- Cover all meaningful visible content, not only the main paragraph.
-- Preserve the relationships in tables, diagrams, formulas, and sequences.
-- Never guess unreadable or unseen content.
-- Keep source-derived notes distinct from added explanations.
-- Transform the content into notes rather than reproducing long passages verbatim.
-- Be explicit about pages and validation that have not been processed or tested.
+## Design principles
+- Faithful extraction before summarization.
+- Tables, diagrams, procedures, and formulas retain their relationships and order.
+- Source claims, explanatory paraphrase, and external updates are kept distinct.
+- Nursing-specific structures are selected by topic; no one template is forced on every subject.
+- Priority rules are contextual, not mechanical.
+- Reuse verified work across sessions; do not restart just because the conversation changed.
 
 ## Limitations
-Output quality depends on image resolution, focus, glare, cropping, page curvature, handwriting, and layout complexity. The prompt cannot guarantee perfect visual extraction or subject-matter correctness. Review high-stakes or technical notes against the source. This framework has not been production-validated merely by creating these files.
+No prompt guarantees perfect OCR, complete coverage, clinical currency, or mastery. Formal image tests and qualified nursing review are still required before claiming functional or clinical validation. These are educational notes, not patient-specific clinical guidance.
 
 ## Copyright-aware use
-Use the framework to study and transform user-provided excerpts into notes, explanations, and original review questions. Avoid reproducing substantial portions of a copyrighted book verbatim or reconstructing a substitute for the book.
+Transform supplied excerpts into notes, explanations, and original review questions; do not reproduce substantial copyrighted text verbatim or create a substitute for the book.

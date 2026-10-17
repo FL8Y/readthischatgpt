@@ -1,43 +1,27 @@
 # Research and Build Log
 
 ## Objective
-Create a reusable framework for detailed notes from sequential book-page images, separate from the PNLE Question Prompt Maker.
+Build a source-faithful image-to-notes prompt for sequential textbook pages, especially nursing study material, and a cross-session workflow that prevents repeating completed work.
 
-## Design decisions
-- Treat user-supplied images as the primary source.
-- Capture all meaningful visible content, including visual elements and small-print details.
-- Preserve page order and printed page numbers where legible.
-- Mark unreadable or cropped material explicitly instead of guessing.
-- Distinguish source-derived notes from added clarifications.
-- Transform content into organized notes rather than copying long passages.
-- Track pages, terms, continuity, and unresolved gaps.
-- Make practice questions optional and configurable.
+## Evidence-informed decisions
+- Faithful page coverage and explicit uncertainty come before summary or embellishment.
+- Match note representation to content: outlines, comparison tables, causal chains, concept maps, timelines, and stepwise checklists.
+- Nursing disease notes may connect causes/risk, normal function, pathophysiology, manifestations, diagnostics, complications, management, nursing assessment/interventions, rationale, monitoring, and education when the source supports them.
+- Keep prioritization contextual; frameworks are lenses, not universal rules.
+- Include retrieval questions and concise answer rationales by default, while respecting notes-only requests.
+- Add project status, work queue, and session handoff to make state portable across chats.
+- Never mark tasks complete without a fresh verification signal.
 
-## Evidence and limitations
-- The prompt framework is a designed specification, not proof of accurate image extraction.
-- No representative book-page images have yet been processed as a formal test set.
-- Dense tables, multi-column layouts, diagrams, glare, blur, handwriting, and cropped text require practical validation.
-- Subject-matter accuracy should be checked against the supplied source, especially for technical or high-stakes material.
-- The framework does not claim that unseen pages were read or that all content will be captured perfectly.
+## Research synthesis
+See RESEARCH_AND_DESIGN.md for the focused evidence review and source links.
 
-## Validation plan
-- [ ] Test a clear prose page and compare coverage against every visible heading.
-- [ ] Test a dense table and verify row/column relationships.
-- [ ] Test a diagram or flowchart and verify labels, arrows, and sequence.
-- [ ] Test a deliberately blurry/cropped region and confirm uncertainty is marked.
-- [ ] Test two adjacent pages for continuity and duplicate handling.
-- [ ] Test final consolidation against the tracker and identify gaps.
-- [ ] Review output for unnecessary verbatim reproduction.
-
-## Current status
-- [x] Master system prompt drafted.
-- [x] User prompt template drafted.
-- [x] README drafted.
-- [x] Page tracker drafted.
-- [x] Completion checklist drafted.
-- [ ] Image-based functional tests completed.
-- [ ] Independent subject-matter review completed.
-- [ ] Production readiness established.
+## Current limits
+- Focused web review, not a formal systematic database search.
+- No representative image set has been processed as a formal acceptance test.
+- No qualified nursing reviewer has audited generated notes.
+- Prompt improvements do not prove image-extraction accuracy or clinical currency.
 
 ## Change log
-- Initial setup: created the framework and documented untested criteria. Functional claims remain pending until tested with real page images.
+- Initial version: source-faithful notes framework.
+- Improvement pass: nursing-specific logic, topic-matched note formats, priority caveats, learning-science retrieval features, evidence summary, and cross-session anti-loop state files.
+- Update this log only after the corresponding repository writes have been verified.
