@@ -1,19 +1,18 @@
 # Work Queue — notes
 
 ## Current next action
-Finish the single-folder cleanup and verify it against the live Git tree, then run Test A with a real clear textbook page.
+Run Test A with a real clear textbook page.
 
 ## Execution order
-1. [ ] Confirm `Detailed_Image_Notes_Maker/` is absent from current `main` and all active links point to `notes/`.
-2. [ ] Test A — clear prose page: generate notes, save to repository, re-fetch, compare every visible heading and substantive section.
-3. [ ] Test B — dense table: preserve row/column relationships, units, footnotes, and exceptions.
-4. [ ] Test C — diagram/flowchart: preserve labels, arrows, direction, and sequence.
-5. [ ] Test D — blurry/cropped text: mark uncertainty; never guess missing content.
-6. [ ] Test E — adjacent pages: verify continuity, overlap, and duplicate avoidance.
-7. [ ] Test F — consolidation: reconcile chapter notes with the page tracker and disclose gaps.
-8. [ ] Test G — fresh-session ingestion: verify a new session recovers state from live files.
-9. [ ] Qualified nursing review of representative clinical output.
-10. [ ] Fix specific failures and rerun affected tests.
+1. [ ] Test A — clear prose page: generate notes, save to repository, re-fetch, compare every visible heading and substantive section.
+2. [ ] Test B — dense table: preserve row/column relationships, units, footnotes, and exceptions.
+3. [ ] Test C — diagram/flowchart: preserve labels, arrows, direction, and sequence.
+4. [ ] Test D — blurry/cropped text: mark uncertainty; never guess missing content.
+5. [ ] Test E — adjacent pages: verify continuity, overlap, and duplicate avoidance.
+6. [ ] Test F — consolidation: reconcile chapter notes with the page tracker and disclose gaps.
+7. [ ] Test G — fresh-session ingestion: verify a new session recovers state from live files.
+8. [ ] Qualified nursing review of representative clinical output.
+9. [ ] Fix specific failures and rerun affected tests.
 
 ## Operating rules
 - Canonical project folder is `notes/`; do not recreate or edit `Detailed_Image_Notes_Maker/`.
@@ -26,7 +25,7 @@ Finish the single-folder cleanup and verify it against the live Git tree, then r
 ## Acceptance-test record
 | Test | Sample / commit | Result | Defects | Retest |
 |---|---|---|---|---|
-| Single-folder cleanup | Pending live-tree check | IN PROGRESS | — | — |
+| Single-folder cleanup | `6bf081603952ec6b44a187d102077fc30b1103a6`; live tree checked | PASS | Zero legacy directory entries | Not needed |
 | A: prose coverage + repository save | Awaiting sample image | PENDING | — | — |
 | B: table fidelity | Not run | PENDING | — | — |
 | C: diagram fidelity | Not run | PENDING | — | — |
