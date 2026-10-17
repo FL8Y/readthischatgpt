@@ -2,7 +2,8 @@ USER PROMPT TEMPLATE — PNLE QUESTION MAKER
 
 Make me a [TOPIC] with [NUMBER, default 10] hard PNLE-style multiple-choice questions focused on [PNLE LOGIC / SKILL TYPE].
 
-Subject / Nursing Practice: [NP I / NP II / NP III / NP IV / NP V / cross-subject / leave blank]
+Target exam sitting/year: [e.g., November 2025, August 2026, or leave blank]
+Subject / Nursing Practice: [use the exact NP/part label in the target sitting's official PRC program / cross-subject / leave blank]
 Difficulty: Hard
 Learner level: PNLE candidate
 Question logic: [priority and triage / first-next action / clinical judgment / nursing process / safety / pharmacology / delegation and scope / maternal-newborn / pediatrics / community health / medical-surgical / psychiatric nursing / fundamentals and professional practice / PALMR / calculations / case-cluster / mixed]
@@ -14,7 +15,7 @@ Requirements:
 - Use realistic, original clinical scenarios and four options (A–D) with one best answer per question unless SATA is explicitly selected.
 - Make the questions challenging through prioritization, cue interpretation, safe action sequencing, and plausible distractors—not ambiguity or obscure trivia.
 - Favor application, analysis, and evaluation over rote recall.
-- Use current official PRC/BON TOS and appropriate Philippine nursing context where applicable.
+- Use the current official PRC/BON TOS and the official exam program for the target sitting; match its exact Nursing Practice/part labels. Do not infer item weights from program headings alone.
 - Explain why the correct answer is best and why each distractor is less appropriate.
 - Do not claim the questions are actual or guaranteed PNLE items; do not copy, reconstruct, or closely paraphrase purported real/recalled/leaked questions.
 - Check the clinical safety, scope of practice, calculations, answer uniqueness, rationales, and requested question count before responding.
