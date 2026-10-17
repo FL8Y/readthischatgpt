@@ -46,18 +46,14 @@ Related topic continuity checked in existing infectious-disease pages 71–73 an
 ## External evidence used
 WHO/CDC polio, Zika, Ebola, H5N1, seasonal influenza, SARS and MERS factsheets or clinical pages; FEMA disaster-management training material; WHO health emergency/disaster risk management framework; WHO Western Pacific Journal context about post-Typhoon Haiyan response/recovery; and the Philippine RA 10121 summary. Complete titles, dates where available, links and conclusions are in `RESEARCH_LOG.md` and referenced in the notes.
 
-## Verification plan / exact next action
-1. Re-fetch the four metadata/deliverable files from live GitHub: `WORK_QUEUE.md`, `RESEARCH_LOG.md`, `IMAGE_COVERAGE_CHECKLIST.md`, `HANDOFF.md`, and the actual notes file.
-2. Compare every visible row and bullet against the note file, especially:
-   - polio symptoms/reflex signs/complications and prevention;
-   - Zika transmission, pregnancy risk, and the "few days" source claim;
-   - Ebola's 2–21-day range, body-fluid route, symptoms and historical "no treatment" text;
-   - bird-flu and H1N1 vaccine/antiviral statements;
-   - SARS/MERS source dates, transmission and incubation entries;
-   - Primary/Secondary/Tertiary rows and the first two Disaster Management stages.
-3. Check for broken references, missing headings, inaccurate table relationships, placeholders or invented cropped text.
-4. Correct any defect, re-fetch the edited file and repeat the coverage check.
-5. Update this handoff and queue with actual verification evidence before final status.
+## Verification performed
+1. Re-fetched all five deliverables from live GitHub after writing. Main notes are 33,894 characters (SHA `eac4b3ea45ac9f42afe55b6b90136e76580795a8`); checklist has 23 checked items and zero unchecked items (SHA `50a35f88b993b900431b34d8d81d41c769474fb7`); work queue (SHA `c28494aa8b7ba0f833cd456583d480fbed6a01ee`); research log (SHA `b521c929aacc8d9345b7e0ca7cb82290b391ad02`); handoff re-fetched (this file).
+2. Targeted presence checks passed for poliomyelitis, Zika, Ebola, bird flu, H1N1, SARS, MERS, the Primary/Secondary/Tertiary table, Disaster Management's Prevention and Preparedness & Planning rows, source-vs-external separation, retrieval check, and the uncertainty audit.
+3. Checklist confirms all three images and every visible row/section, including the partial top row and the cropped bottom table. It records the exact image limitations rather than guessing absent content.
+4. Current-source links are present in the research log and within disease/disaster sections of the main notes. Clinical differences are separately identified from what the source says.
+
+## Final status
+All visible material from pp. 83–85 is represented in the saved notes and the checklist coverage checks passed. Source-specific historical claims and uncertainty from cropping/shadows remain explicitly documented. This was a targeted external cross-check, not a systematic review or professional clinical/disaster-management sign-off.
 
 ## Uncertainty to preserve
 - The top of page 83 starts inside a row; scabies continuity is probable from context, but its heading is not visible on the photo.
