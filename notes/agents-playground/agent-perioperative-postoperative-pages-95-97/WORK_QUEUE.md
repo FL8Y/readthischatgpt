@@ -2,13 +2,16 @@
 
 | Item | Status | Evidence / postcondition |
 |---|---|---|
-| Read core repository standards | DONE | Live contents read: source of truth, start guide, session protocol, project status, work queue, master prompt, research/design and log, completion checklist, tracker template, generated README, playground README/master prompt. |
-| Read subject hierarchy | DONE | Medical-Surgical Nursing research guide and research log read from actual nested topic path. |
-| Inspect source photos and confirm page order | DONE | Three original photos viewed; printed pages 95, 96, 97 confirmed. |
-| Draft comprehensive page-aligned notes | DONE | Main note includes OR roles/counts, closure, PACU/airway, breathing, circulation, drains, nutrition, elimination, positioning, complications and review questions. |
+| Read core repository standards | DONE | Live contents read; see RESEARCH_LOG.md. |
+| Read subject hierarchy | DONE | Medical-Surgical Nursing research guide and log read from the live repository. |
+| Inspect source photos and confirm page order | DONE | Three photos reviewed; printed pages 95, 96, 97 confirmed. |
+| Draft comprehensive page-aligned notes | DONE | Main study note covers all visible sections and retrieval questions. |
 | External clinical cross-check | DONE | AORN, ASA, MedlinePlus, AARC/PubMed and NICE references recorded. |
-| Coverage checklist | DONE | Each meaningful visible printed entry mapped to a section; shadows documented. |
-| Save all deliverables in this playground | IN PROGRESS | Create files inside the assigned directory and confirm returned commits. |
-| Re-fetch and verify every saved deliverable | IN PROGRESS | Fetch each exact new path from GitHub and inspect key sections/content. |
-| Final handoff | IN PROGRESS | Update only after persistence verification. |
-| Qualified nursing peer review | NOT PERFORMED | No qualified reviewer participated; no claim of professional review. |
+| Image coverage audit | DONE | Every meaningful visible entry mapped to a section in the study notes. |
+| Save and re-fetch all deliverables | DONE | All five original deliverables re-fetched from GitHub main; contents verified. |
+| Independent AI-assisted content/safety audit | DONE | `AI_CONTENT_AUDIT.md` created; findings and limitations documented. |
+| Qualified nursing peer review | BLOCKED — reviewer required | No credentialed nurse participated. AI cannot substitute for an RN or claim professional peer review. See `AI_CONTENT_AUDIT.md` for exact human-review checklist. |
+| Final handoff | DONE WITH LIMITATION | Repository files are persisted and verified. Professional sign-off is explicitly not claimed. |
+
+## Final status
+The study-note production and AI-assisted audit are complete. **The qualified nursing peer-review requirement remains blocked until a credentialed nurse actually reviews and signs off.** Do not relabel that requirement DONE without evidence of a real reviewer.
