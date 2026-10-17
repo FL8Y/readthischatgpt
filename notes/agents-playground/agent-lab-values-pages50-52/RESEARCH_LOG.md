@@ -51,7 +51,7 @@ Existing neighboring work covers printed pages 44–46. This batch continues the
 - TLC is a broader lifestyle program, not merely the diet table.
 
 ## Source uncertainties / discrepancies preserved
-- Printed p. 51 potassium row: visible first range reads 3.5–5 mEq/L, but the second equivalent range is blurred/inconsistent; marked `[unclear in image]`.
+- Printed p. 51 potassium row: visible first range reads 3.5–5 mEq/L, but the second equivalent range is blurred/inconsistent; marked `[unclear in image: second potassium range]`.
 - Printed p. 50 lists renal failure as a cause of low ammonia; flagged as not a universal rule.
 - Printed p. 50 PT “excess/deficit” grouping is conceptually awkward; preserved in source notes and qualified separately.
 - Printed p. 52 CVP says “4–12 mm Hg or cm H2O”; units are not equivalent and this is flagged.
@@ -59,5 +59,9 @@ Existing neighboring work covers printed pages 44–46. This batch continues the
 - Printed p. 52 TLC values are consistent with historical NHLBI ATP III composition table; modern patient-specific nutrition plans require individualized context.
 - Normal ranges and critical thresholds are not universal; use local laboratory and protocol.
 
-## Write/verification record
-The notes, coverage checklist, work queue, research log, and handoff are intended to be saved under this unique directory only. Completion depends on the final GitHub re-fetch and inspection of saved contents, not the write response alone.
+## Verification completed
+- Created five files inside the assigned unique playground.
+- Re-fetched the full study note, checklist, research log, work queue, and handoff from live GitHub.
+- Confirmed the note includes ALT, AST, albumin, ALP, ammonia, bilirubin, GGT, PT; all six electrolytes; ICP, CPP, CVP, IOP, ESR; all TLC nutrient rows; and external links.
+- Confirmed the potassium uncertainty marker is explicit. The initial automated phrase check looked for the shorter exact string `[unclear in image]` and returned false because the note uses the more specific `[unclear in image: second potassium range]`; visual/text review confirmed uncertainty is present.
+- All five files returned substantive content after re-fetch. No shared files or other agent directories were modified.
