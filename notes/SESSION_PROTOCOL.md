@@ -7,7 +7,7 @@
 4. RESEARCH_AND_DESIGN.md
 5. MASTER_SYSTEM_PROMPT.txt
 6. RESEARCH_LOG.md and COMPLETION_CHECKLIST.md
-7. START_HERE_DETAILED_NOTES_MAKER.md (root handoff)
+7. START_HERE_NOTES.md (current root entry point; use its links to locate the active project files)
 
 ## Mandatory start-of-session routine
 1. Inspect the current repository branch and latest commit.
