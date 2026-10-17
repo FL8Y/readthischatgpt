@@ -40,3 +40,9 @@
 - Printed page numbers and reading order were confirmed.
 - Draft study note and item-by-item image coverage audit were created.
 - Persistence status only becomes DONE after all repository files are re-fetched and their contents checked against the saved versions.
+
+
+## Follow-up AI-assisted content audit (2026-10-18)
+- Added `AI_CONTENT_AUDIT.md` with checks of source fidelity, separation of textbook and external content, hypoxemia safety framing, surgical-count caveat, incentive spirometry, procedure-specific positioning/suction, ORIF neurovascular warning, drainage and urinary output.
+- Audit outcome: AI-assisted editorial/safety audit completed. This is not a credentialed clinical review; links were not all revalidated against full source text during this pass.
+- Qualified nursing peer review remains NOT PERFORMED because no credentialed nurse participated. The human reviewer checklist is in `AI_CONTENT_AUDIT.md`; do not mark this item done without a real review.
