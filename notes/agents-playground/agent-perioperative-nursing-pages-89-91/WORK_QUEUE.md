@@ -13,7 +13,7 @@
 | Save image coverage checklist | DONE | Checklist re-fetched from live `main`; covers each visible prompt across all three images and logs review limitation |
 | Save research log | DONE | Log re-fetched from live `main`; includes governing standards, sources, research and content decisions |
 | Save handoff | DONE | Handoff re-fetched from live `main`; describes verified files and scope boundary |
-| Save queue and verify statuses | DONE | This queue is updated to reflect observed verification postconditions |
+| Save queue and verify statuses | DONE | Latest queue re-fetched from live `main` after status update; content and completion states checked |
 | Qualified nursing review | NOT STARTED | No qualified nurse reviewer participated in this session; output is not represented as professionally reviewed |
 
 Acceptance criteria are limited to this assigned image batch; do not modify project-wide status/queue or sibling agent directories.
