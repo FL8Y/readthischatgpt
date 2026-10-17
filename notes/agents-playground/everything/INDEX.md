@@ -38,6 +38,7 @@ This is the browseable collection of study-note copies from the agent workspaces
 
 ## Medical-surgical and perioperative nursing
 
+- [Integrated perioperative, postoperative, and pain review — pp. 89–101](curated/medical-surgical/integrated-perioperative-postoperative-pain-review-pp89-101.md) — curated care-continuum synthesis of five source notes below
 - [Cardiac arrest, surgical safety, and Glasgow Coma Scale — pp. 62–64](notes/medical-surgical/cardiac-arrest-surgical-safety-gcs-pp62-64.md)
 - [Perioperative nursing — pp. 89–91](notes/medical-surgical/perioperative-nursing-pp89-91.md)
 - [Perioperative and postoperative nursing — pp. 95–97](notes/medical-surgical/perioperative-postoperative-nursing-pp95-97.md)
@@ -68,7 +69,7 @@ This is the browseable collection of study-note copies from the agent workspaces
 
 ## Verification status
 
-All 32 collected note copies were independently re-fetched and compared against their live source bodies after removing the collection-only provenance comment; the bodies match exactly. The manifest records all 32 source paths, source SHAs, destinations, and verification state. The mental-health derivative is a separate synthesis linked to its two source copies; it does not replace or edit them. Full non-note inventory, relationship classification across the entire corpus, and final link/path audit remain outstanding.
+All 32 collected note copies were independently re-fetched and compared against their live source bodies after removing the collection-only provenance comment; the bodies match exactly. The manifest records all 32 source paths, source SHAs, destinations, and verification state. The mental-health derivative is a separate synthesis linked to its two source copies; it does not replace or edit them. A second perioperative/pain derivative integrates five related page-specific notes and links each source. Full non-note inventory, relationship classification across the entire corpus, and final link/path audit remain outstanding.
 
 ## Next steps
 
