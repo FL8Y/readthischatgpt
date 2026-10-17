@@ -15,6 +15,7 @@ Prompt quality
 - [x] Include final item-quality control and exact-count checks.
 - [x] Prohibit fabricated citations and unsupported claims about actual exam questions.
 - [x] Distinguish the enhanced TOS effective from November 2025 onward from earlier frameworks.
+- [x] Add target sitting/year selection and account for the more specific August 2026 official NP topic groupings.
 - [x] Avoid copying/reconstructing purported actual or recalled exam items.
 
 Evidence
@@ -22,7 +23,7 @@ Evidence
 - [x] Official May 2024 PNLE program located.
 - [x] Official PRC exam schedule index located.
 - [x] Limitation on complete public 2021–2026 papers explicitly recorded.
-- [ ] Verify whether additional official year-specific programs or TOS documents materially change the historical comparison.
+- [ ] Complete a sitting-by-sitting audit of all available official 2021–2026 programs/TOS documents; this pass sampled official programs across the period and identified a material 2026 label/grouping change.
 - [ ] Do not state that every 2021–2026 question paper was scanned unless each full paper is obtained and reviewed.
 
 Technical verification
@@ -33,7 +34,7 @@ Technical verification
 - [ ] Review clinical answer keys with authoritative current sources and qualified nursing review before production use.
 
 Completion status
-Repository artifact: CREATED AND PATH/CONTENT VERIFIED.
+Repository artifact: CREATED, COUNCIL-REVIEWED, AND PATH/CONTENT VERIFIED.
 Live API execution: NOT TESTED; target API/runtime was not provided.
 Historical paper scan: PARTIAL EVIDENCE REVIEW ONLY; complete official question papers for every sitting from 2021–2026 were not established as publicly accessible in the reviewed sources.
 Clinical production validation: NOT COMPLETE; generated items need current-source checks and qualified nursing review.
