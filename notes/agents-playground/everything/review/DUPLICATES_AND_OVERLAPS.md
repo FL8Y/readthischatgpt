@@ -69,3 +69,21 @@ These source notes cover distinct diseases and prevention topics, with overlappi
 
 All five source notes and collection copies remain unchanged. Transmission-pattern groupings are an organizational aid, not proof that diseases share the same route or management. Page-specific uncertainty and external cross-checks remain in the linked source notes. Qualified nursing review has not been performed and is not claimed.
 
+
+
+## Confirmed relationship: professional nursing foundations, images/printed pp. 1–13
+
+**Classification:** Complementary introductory material with specific overlaps, not one exact duplicate group.
+
+- [Laws affecting nursing practice, images 1–3](../notes/nursing-theory-ethics-law/laws-affecting-nursing-practice-images-1-3.md)
+- [Philippine health legislation, printed pp. 3–5](../notes/nursing-theory-ethics-law/philippine-health-legislation-pp3-5.md)
+- [Virginia Henderson's 14 components](../notes/nursing-theory-ethics-law/virginia-henderson-14-components.md)
+- [Nursing theorists, printed pp. 7–8](../notes/nursing-theory-ethics-law/nursing-theorists-pages-7-8.md)
+- [Nursing ethics and Benner stages, printed pp. 11–13](../notes/nursing-theory-ethics-law/nursing-ethics-benner-stages-pp11-13.md)
+- Curated derivative: [Integrated Professional Nursing Foundations Review, images/printed pp. 1–13](../curated/nursing-theory-ethics-law/integrated-professional-nursing-foundations-pp1-13.md)
+
+### Relationship notes
+
+The two legal notes overlap on printed page 3 but organize the content differently: one is grouped by type of legal/administrative instrument; the other is grouped by public-health topic. The Henderson components note provides the full ordered list, while the theorists note gives a comparative view that also names Henderson. The ethics/Benner note joins moral principles with a clinical-skill trajectory, which is related to but distinct from law and theory.
+
+The derivative is an overview and navigation aid. It preserves the source files, highlights where they complement one another, and explicitly avoids presenting selective legal cross-checks as proof that every listed instrument is currently in force. No source note is overwritten; qualified legal or nursing review is not claimed.
