@@ -1,21 +1,25 @@
 # Inventory Work Queue
 
-- [x] Confirm scope is limited to `notes/agents-playground/`.
-- [x] Capture source commit and recursive tree inventory.
-- [x] Inventory snapshot at commit `71d3bd60e92e2597c3ae992708c2ab0cf61b39f4`: 202 entries under playground, 26 agent directories, 147 files.
-- [x] Copy and verify three pilot notes from `agent-01-pages-59-61/notes/`.
-- [x] Re-fetch each copied note and verify exact source-body equality after stripping the collection-only metadata prefix.
-- [x] Verify each original source blob SHA still matches the captured base.
-- [ ] Complete a file-by-file content inventory for every other agent workspace.
-- [ ] Choose and apply the final subject taxonomy based on real contents.
-- [ ] Compare all candidates for exact duplicates, near-duplicates, overlap, continuation, complementary material, and conflicts.
-- [ ] Copy all eligible notes, keeping the first-pass copies byte/text identical to source bodies.
-- [ ] Expand/fuse only in separate `curated/` derivatives with source-to-derivative provenance.
-- [ ] Re-fetch all collection files, validate links and complete manifest accounting, then prepare PR review summary.
+## Captured baseline
+- [x] Scope restricted to `notes/agents-playground/`.
+- [x] Captured source commit `71d3bd60e92e2597c3ae992708c2ab0cf61b39f4`.
+- [x] Captured recursive inventory: 202 entries under the playground, 26 agent directories, 147 files.
+- [x] Identified 31 Markdown study-note candidates under agent `notes/` or `DELIVERABLES/` directories by path pattern.
+- [x] Created 31 subject-organized copy destinations under `everything/notes/`.
 
-## Controls
+## Verification and quality work
+- [x] Re-fetched three pilot source notes and destinations; exact body equality confirmed after removing collection metadata comment.
+- [ ] Re-fetch and compare every remaining copy against its current source using the captured SHA as a stale-source check.
+- [ ] Review any source whose SHA changed; never copy a stale version silently.
+- [ ] Inspect excluded/uncertain files in each agent folder and classify them with reasons.
+- [ ] Classify candidate content relationships: exact duplicate, near-duplicate/revision, complement, overlapping page coverage, continuation, conflict, or uncertain.
+- [ ] Expand or fuse complementary notes into new files under `curated/` only after copy verification and content review.
+- [ ] Keep a source-to-derivative map for every curated note.
+- [ ] Re-fetch all new files and verify all index links and scope restrictions.
+- [ ] Final audit: every source path is preserved; every candidate is accounted for as copied, excluded with reason, or blocked with reason.
 
-- Original paths are read-only inputs. Never cut, delete, rename, or rewrite source notes.
-- All new files and directory organization must remain inside `notes/agents-playground/`.
-- A derivative is not a source copy and must not replace a copied source note.
-- Do not describe the whole project as complete while inventory, copy, or review work remains pending.
+## Non-negotiable controls
+- Never cut, delete, rename, or rewrite original items in agent workspaces.
+- Only add/organize files under `notes/agents-playground/`.
+- Exact copied notes remain distinct from curated derivatives.
+- A missing qualified clinical review must remain explicit.
