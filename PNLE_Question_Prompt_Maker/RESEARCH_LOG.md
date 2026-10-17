@@ -29,9 +29,9 @@ Research and decisions
 5. Official program comparison through 2026
    - 2021 source: PRC, November 2021 PNLE program (official PRC-hosted PDF).
    - 2022 source: PRC, May 2022 PNLE program (official PRC-hosted PDF).
-   - 2023 source: PRC, May 2023 PNLE program (official PRC-hosted PDF).
+   - 2023 source: PRC, May 2023 PNLE program: https://www.prc.gov.ph/sites/default/files/040423%20exam%20progam%20may%202023%20pnle%20%28nursing%29.pdf.
    - 2024 source: PRC, May 2024 PNLE program (official PRC-hosted PDF).
-   - 2025 source: PRC, May and November 2025 exam programs (official PRC-hosted PDFs/pages).
+   - 2025 source: PRC, May 2025 NLE program: https://www.prc.gov.ph/sites/default/files/14%20-%20MAY2025%20NURSES_Tacloban.pdf; November 2025 program also located through PRC-hosted material.
    - 2026 source: PRC, August 2026 NLE program: https://www.prc.gov.ph/sites/default/files/exam%20progam%20aug%202026%20nle%20%28nursing%29%20signed.pdf
    - Finding: Older programs (including 2022 and 2024) use NP I community health, NP II healthy/at-risk mother and child, and NP III–V physiologic/psychosocial alterations Parts A–C. The August 2026 program provides more specific topic groupings for NP I–V, including NP II Parts 1–2 and named physiologic systems for NP III–IV, with behavioral and high-acuity/emergency content in NP V.
    - Decision: The generator must use the exact official program for the target sitting; it must not hard-code older NP headings as timeless. Exam program headings are not enough to infer item-level weighting.
