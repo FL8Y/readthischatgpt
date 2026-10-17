@@ -22,8 +22,8 @@ Process the three supplied textbook photographs into detailed source-faithful no
 - Image inspection and notes drafting: DONE for all legible material.
 - Image coverage: DONE for legible content; the preceding theory name on page 9 is PARTIAL because it is cropped out.
 - GitHub save/re-fetch: DONE; all five paths returned nonempty content from `main`.
-- External link and historical fact verification: IN PROGRESS.
+- Key external cross-checks: DONE for official American Red Cross dates, current ANA privacy/confidentiality guidance, and Linda Richards historical claims; remaining listed references were not all audited claim-by-claim.
 - Qualified nursing review: NOT PERFORMED.
 
 ## First exact next action
-Verify key external sources, especially the Clara Barton/Geneva Convention/1882 wording and current ANA confidentiality guidance. Record the actual evidence and any limitations in `RESEARCH_LOG.md`, then re-fetch the changed file(s). Do not claim professional review unless a qualified reviewer performs it.
+Re-fetch all five deliverables one final time and verify that the Barton timeline update and status logs persisted. The remaining limitation is no independent qualified nursing review; do not claim professional review unless a qualified reviewer performs it.
