@@ -9,7 +9,8 @@
 - [x] Create three separate curated derivatives with source links and explicit curation limits:
   - mental-health review, printed pp. 53–58;
   - perioperative/postoperative/pain review, printed pp. 89–101;
-  - communicable-disease/public-health overview, printed pp. 68–85.
+  - communicable-disease/public-health overview, printed pp. 68–85;
+  - professional nursing foundations review, images/printed pp. 1–13.
 - [x] Link both derivatives in the subject index and document their source relationships in `DUPLICATES_AND_OVERLAPS.md`.
 
 ## Priority 1 — Supporting-file inventory audit
