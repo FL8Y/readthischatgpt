@@ -26,7 +26,17 @@ Research and decisions
    - Finding: PRC provides examination schedule pages across 2021–2026.
    - Decision: Schedules confirm sittings and administrative details, not the actual wording or difficulty distribution of question booklets.
 
-5. Availability of complete actual question papers
+5. Official program comparison through 2026
+   - 2021 source: PRC, November 2021 PNLE program (official PRC-hosted PDF).
+   - 2022 source: PRC, May 2022 PNLE program (official PRC-hosted PDF).
+   - 2023 source: PRC, May 2023 PNLE program (official PRC-hosted PDF).
+   - 2024 source: PRC, May 2024 PNLE program (official PRC-hosted PDF).
+   - 2025 source: PRC, May and November 2025 exam programs (official PRC-hosted PDFs/pages).
+   - 2026 source: PRC, August 2026 NLE program: https://www.prc.gov.ph/sites/default/files/exam%20progam%20aug%202026%20nle%20%28nursing%29%20signed.pdf
+   - Finding: Older programs (including 2022 and 2024) use NP I community health, NP II healthy/at-risk mother and child, and NP III–V physiologic/psychosocial alterations Parts A–C. The August 2026 program provides more specific topic groupings for NP I–V, including NP II Parts 1–2 and named physiologic systems for NP III–IV, with behavioral and high-acuity/emergency content in NP V.
+   - Decision: The generator must use the exact official program for the target sitting; it must not hard-code older NP headings as timeless. Exam program headings are not enough to infer item-level weighting.
+
+6. Availability of complete actual question papers
    - Finding: The official PRC pages reviewed surfaced schedules, examination programs, and TOS materials, but did not establish public availability of complete official PNLE question booklets for every sitting from 2021 through 2026.
    - Classification: NOT VERIFIED that full official papers are publicly accessible for the entire requested period.
    - Decision: Do not claim to have scanned every paper. Do not rely on unofficial recalled questions as authenticated exam content. Build original questions from official blueprint information and sound item-writing principles.
@@ -42,15 +52,16 @@ Implementation decisions
 - Make the prompt portable across AI APIs; API-specific JSON schemas can be added by the app when needed.
 
 Files created and verified
-- MASTER_SYSTEM_PROMPT.txt — fetched successfully; 13,838 characters.
-- USER_PROMPT_TEMPLATE.txt — fetched successfully; 1,912 characters.
-- README.md — fetched successfully; 2,574 characters.
+- MASTER_SYSTEM_PROMPT.txt — fetched successfully; revised after council audit for 2026 target-sitting program alignment.
+- USER_PROMPT_TEMPLATE.txt — fetched successfully; revised to capture target exam sitting/year.
+- README.md — fetched successfully; updated evidence limitation and official references.
 - RESEARCH_LOG.md — fetched successfully; this file.
 - COMPLETION_CHECKLIST.md — fetched successfully; 2,246 characters.
 
 Progress log
 - [x] Establish folder scope and create standalone root folder through new files.
 - [x] Research official PRC/BON TOS and publicly accessible exam-program evidence.
+- [x] Council re-audit: compare older official program headings with the August 2026 program and update target-sitting alignment rules.
 - [x] Draft reusable system prompt.
 - [x] Draft fill-in user prompt template.
 - [x] Document source limitations and research decisions.
