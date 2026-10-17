@@ -151,27 +151,31 @@ Sources: [WHO Surgical Safety Checklist (PDF)](https://www.who.int/docs/default-
 The guide states **10–15 minutes**. CDC guidance says antimicrobial surgical hand scrub duration depends on manufacturer instructions and is usually **2–6 minutes**; 10-minute scrubs are not necessary. Follow instructions for the actual approved surgical antiseptic.  
 Sources: [CDC Clinical Safety: Hand Hygiene for Healthcare Workers](https://www.cdc.gov/clean-hands/hcp/clinical-safety/index.html); [CDC infection-prevention guidance](https://www.cdc.gov/infection-control/hcp/isolation-precautions/prevention.html).
 
-### C. Latex and food association
+### C. Operative-site hair removal
+The book says hair may be clipped rather than shaved. Current CDC guidance adds an important limitation: **do not remove hair unless it will interfere with the procedure**; if removal is necessary, use clippers or an appropriate depilatory under local policy, not a razor for routine surgical-site preparation.  
+Source: [CDC Surgical Site Infection Basics](https://www.cdc.gov/surgical-site-infections/index.html); [CDC SSI prevention guidance](https://www.cdc.gov/infection-control/hcp/surgical-site-infection/).
+
+### D. Latex and food association
 MedlinePlus lists bananas, avocado and chestnuts among foods commonly associated with latex-fruit syndrome. Apples are among foods less strongly linked, so the exam answer “apples” is an oversimplification of a spectrum—not proof of safety or absence of allergy. Latex can be present in balloons, gloves and condoms; tell the care team and use verified latex-free products.  
 Sources: [MedlinePlus: Latex allergies for hospital patients](https://medlineplus.gov/ency/patientinstructions/000499.htm); [MedlinePlus: Managing latex allergies at home](https://www.medlineplus.gov/ency/patientinstructions/000500.htm).
 
-### D. Aspirin and perioperative medications
+### E. Aspirin and perioperative medications
 The textbook item flags “continue aspirin through the day of surgery” as needing teaching. It is not safe to generalize this to all patients. The American College of Surgeons advises discussing aspirin and other blood-thinning medicines with the surgical team, because the plan depends on indication and procedure-specific bleeding/thrombotic risks. Do not independently stop or continue prescribed aspirin.  
 Source: [American College of Surgeons: Medication and Surgery](https://www.facs.org/for-patients/preparing-for-surgery/medications/).
 
-### E. Malignant hyperthermia
+### F. Malignant hyperthermia
 MHAUS says people with a family history of MH should be evaluated; until susceptibility is resolved, manage as potentially MH-susceptible using a non-triggering anesthetic approach. MH supplies and dantrolene must be available under the emergency plan.  
 Sources: [MHAUS: Management of MH-susceptible patients](https://www.mhaus.org/faqs/category/frequently-asked-questions-about/management-of-mh-susceptible-patients-faqs/); [MHAUS FAQs](https://www.mhaus.org/faqs/).
 
-### F. Vecuronium
+### G. Vecuronium
 DailyMed's current product information warns that vecuronium should be administered by adequately trained professionals familiar with its actions and hazards. Because it can paralyze respiratory muscles, appropriate monitoring and ventilatory support are essential.  
 Source: [DailyMed: Vecuronium bromide injection](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aa35d139-25c8-4802-b165-0db7d1c08913).
 
-### G. Fasting and medication instructions
+### H. Fasting and medication instructions
 Do not infer fasting or medication instructions from an older review sheet alone. Directions depend on the procedure, patient factors, current anesthesia policy and the clinical team's plan. ASA guidance includes a two-hour minimum for clear liquids for selected healthy patients undergoing elective procedures, but this is not a universal instruction for every patient.  
 Source: [ASA Practice Guidelines for Preoperative Fasting](https://www.asahq.org/~/media/sites/asahq/files/public/resources/standards-guidelines/practice-guidelines-for-preoperative-fasting.pdf).
 
-### H. Hand hygiene in routine healthcare
+### I. Hand hygiene in routine healthcare
 CDC identifies hand hygiene as a core practice for preventing transmission of infectious agents. Routine hand hygiene recommendations differ from surgical hand antisepsis: in most routine clinical situations, alcohol-based hand sanitizer is preferred when hands are not visibly soiled, while surgical hand antisepsis follows the specific surgical product protocol.  
 Sources: [CDC Clinical Safety: Hand Hygiene](https://www.cdc.gov/clean-hands/hcp/clinical-safety/index.html); [CDC Fundamental Elements to Prevent Transmission](https://www.cdc.gov/infection-control/hcp/isolation-precautions/prevention.html).
 
