@@ -46,4 +46,5 @@ Also fetched the existing work queue, research log, handoff, and checklist for t
 - Visible textbook citations include Zerwekh and Garneau (2018), Berman, Snyder, and Frandsen (2016), and Hospital Nursing Service Administration Manual (2008); full book details are not visible and were not guessed.
 
 ## Status
-Drafts prepared for notes, coverage checklist, queue, and handoff. Final verification depends on fetching each saved GitHub file and checking paths/content. No independent qualified nursing review was performed.
+## GitHub persistence and verification
+Created and re-fetched five files from live main: study notes, coverage checklist, work queue, research log, and handoff. All paths returned nonempty content. The note file was checked for the five-rights section, QA section, Gantt section, retrieval questions, and external reference links. The checklist, queue, log, and handoff were also re-fetched. Independent qualified nursing review was not performed.
