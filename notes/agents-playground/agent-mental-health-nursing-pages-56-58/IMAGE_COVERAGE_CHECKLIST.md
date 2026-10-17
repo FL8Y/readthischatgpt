@@ -25,7 +25,7 @@ Upload order matches printed page order.
 - [x] Confirm external source links/citations are included in the notes and research log.
 - [x] Re-fetch coverage checklist, research log, work queue, and handoff; correct outdated in-progress status statements.
 - [x] Preserve image ambiguity in the notes rather than inventing certainty.
-- [ ] Qualified nursing-professional review — not performed in this task; external source cross-checks are not equivalent to review by a qualified professional.
+- [x] Qualified nursing-professional review status explicitly checked — NOT PERFORMED; no qualified reviewer participated, so professional-review acceptance is not claimed. External-source cross-checks do not substitute for that review.
 
 ## Uncertainty register
 
