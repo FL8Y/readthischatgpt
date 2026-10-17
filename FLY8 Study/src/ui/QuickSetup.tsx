@@ -51,14 +51,14 @@ export function QuickSetup({ settings, onSave, onDone }: { settings: Settings; o
     const r = await quickSetup({ keys });
     setResults(r);
     setBusy(false);
-    if (QUICK_ORDER.some((p) => r[p]?.ok)) {
+    if (QUICK_ORDER.some((p) => r[p]?.ok || (r[p]?.status === 'rate-limit' && r[p]?.model))) {
       onSave(buildPoolSettings(r, keys, settings));
       setSaved(true);
       onDone?.();
     }
   };
   const mark = (p: QuickProvider) => (detected[p] || keys[p] ? `${QUICK_TITLES[p]} ✓` : `${QUICK_TITLES[p]} —`);
-  const worked = results ? QUICK_ORDER.filter((p) => results[p]?.ok) : [];
+  const worked = results ? QUICK_ORDER.filter((p) => results[p]?.ok || (results[p]?.status === 'rate-limit' && results[p]?.model)) : [];
 
   return (
     <Card>

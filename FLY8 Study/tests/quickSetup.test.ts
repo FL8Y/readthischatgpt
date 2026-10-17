@@ -92,6 +92,12 @@ describe('buildPoolSettings', () => {
     expect(s.apiKey).toBe(G);
     expect(s.aiChosen).toBe(true);
   });
+  it('keeps a rate-limited key (it is real; the pool will cool it down)', () => {
+    const limited: QuickResult = { ok: false, status: 'rate-limit', model: 'gm', message: 'x' };
+    const s = buildPoolSettings({ gemini: limited, groq: bad }, { gemini: G, groq: R }, baseSettings);
+    expect(s.pool!.map((e) => e.provider)).toEqual(['gemini']);
+    expect(s.pool![0].model).toBe('gm');
+  });
   it('keeps existing non-quick entries after, replaces old quick ones, drops same-key duplicates', () => {
     const existing: Settings = {
       ...baseSettings,

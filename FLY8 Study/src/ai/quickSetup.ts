@@ -93,7 +93,7 @@ export interface QuickResult {
 export const QUICK_MESSAGES: Record<QuickStatus, string> = {
   ok: 'Works.',
   'bad-key': 'This key was rejected. Check you copied all of it.',
-  'rate-limit': 'The key looks real but its free limit is used up right now. Try again later.',
+  'rate-limit': 'Saved. The key is real but its free limit is used up right now; the app uses it again when it recovers.',
   offline: 'Could not reach the service. Check your internet connection.',
   other: 'The service answered with an error. Try again in a minute.',
 };
@@ -151,7 +151,8 @@ export function buildPoolSettings(
   for (const p of QUICK_ORDER) {
     const r = results[p];
     const key = keys[p]?.trim();
-    if (r?.ok && key) quick.push({ id: quickId(p), provider: p, apiKey: key, model: r.model, enabled: true });
+    // A rate-limited key is a real key: keep it (the pool cools it down and retries later).
+    if ((r?.ok || (r?.status === 'rate-limit' && r.model)) && key) quick.push({ id: quickId(p), provider: p, apiKey: key, model: r.model, enabled: true });
   }
   if (!quick.length) return existing;
   const usedKeys = new Set(quick.map((e) => e.apiKey));
