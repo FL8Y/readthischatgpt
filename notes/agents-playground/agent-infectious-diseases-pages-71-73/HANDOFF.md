@@ -34,9 +34,9 @@ All six files were re-fetched from GitHub main and key markers checked:
 - Main note SHA `e3d785df285349606e33a3169f2d8fffef80c14f`, 30,124 characters.
 - References SHA `af0144b153286030be0baf5f1417337c7bca84ff`, 6,164 characters.
 - Checklist SHA `4f1ec74cd761c77c890daf686f1e6c667de37465`, 4,994 characters.
-- Queue SHA `60b12372836c702d7c32f6e17bdd095975c6da19`, 3,282 characters before its final verification summary was added.
-- Research log SHA `23dfd8229857a5dac16fe832b1c18b311ecac79e`, 3,638 characters before its final verification summary was added.
-- This handoff SHA `376b1090bd76f166a8ddab80918c65990fc2b586`, 2,865 characters before its final update.
+- Queue SHA `0c6dda1905fda5b6a88ab2270c3ec9f8359284e0`, 3,118 characters after final verification update.
+- Research log SHA `f30fe66a2c7608c5ea9351986b00ef2ccf2bae1c`, 4,523 characters after final verification update.
+- Final handoff SHA to be recorded by the next fresh fetch.
 
 ## Final status
 The assigned three-image batch has been written and its actual GitHub contents re-fetched. Coverage is checked against the visible page content; clinical accuracy review by a qualified nurse remains outside this automated verification.
