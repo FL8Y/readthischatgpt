@@ -10,7 +10,7 @@ Run Test B with a real textbook page containing a dense table; preserve row/colu
 4. [x] Test D — blurry/cropped text: mark uncertainty; never guess missing content.
 5. [ ] Test E — adjacent pages: verify continuity, overlap, and duplicate avoidance.
 6. [ ] Test F — consolidation: reconcile chapter notes with the page tracker and disclose gaps.
-7. [ ] Test G — fresh-session ingestion: verify a new session recovers state from live files.
+7. [x] Test G — fresh-session ingestion: current session recovered canonical instructions and task state from live repository files.
 8. [ ] Qualified nursing review of representative clinical output.
 9. [ ] Fix specific failures and rerun affected tests.
 
@@ -32,5 +32,5 @@ Run Test B with a real textbook page containing a dense table; preserve row/colu
 | D: uncertainty handling | Printed p. 101, “Pentoxidone” line; same saved note as Test A | PASS | Drug identity cannot be confidently read; explicitly marked unclear and not guessed | Re-fetch passed |
 | E: adjacent pages | Not run | PENDING | — | — |
 | F: consolidation | Not run | PENDING | — | — |
-| G: fresh-session ingestion | Not run | PENDING | — | — |
+| G: fresh-session ingestion | Current session; source-of-truth, start guide, session protocol, project status, work queue, generated README, and active prompt re-read from live `main` | PASS | Live state recovered; generated note re-fetched | Passed |
 
