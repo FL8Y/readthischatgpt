@@ -38,7 +38,7 @@
 - [x] Source notes separated from added explanations and external cross-checks.
 - [x] Retrieval questions include answers and rationales.
 - [x] External references link directly to NCSBN, CMS, and AHRQ.
-- [ ] Re-fetch newly created files from GitHub and verify expected content.
+- [x] Re-fetch all five created files from GitHub; confirmed correct paths, nonempty content, page 32–34 topic coverage, retrieval questions, and external references.
 - [ ] Independent qualified nursing review (not performed in this workflow).
 
 ## Uncertainty
