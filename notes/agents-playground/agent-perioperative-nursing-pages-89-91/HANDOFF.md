@@ -4,29 +4,32 @@
 2026-10-18
 
 ## Objective
-Create source-faithful, research-supported study notes from three user-supplied textbook images, printed pages 89–91, using the live note-maker repository standards.
+Create source-faithful, research-supported study notes from three user-supplied textbook images, printed pages 89–91, using live repository standards.
 
-## Verified completed before writing
-- Read the live root source-of-truth and required notes-maker standards, including protocol, status, queue, master prompt, research/design log, checklist, page tracker, generated README, playground README, session handoff and agent master prompt.
-- Confirmed the canonical output convention and exclusive playground boundary.
+## Verified completed
+- Read the live root source-of-truth and governing notes-maker standards: start guide, session protocol, project status, work queue, master prompt, research/design log, completion checklist, page tracker template, generated README, playground README, session handoff, notes README, user prompt template, and agent master prompt.
+- Confirmed canonical output convention and exclusive playground boundary.
 - Inspected all three supplied images at full image and enlarged views; assigned printed page order 89 → 90 → 91.
-- Researched clinical cross-checks from WHO, CDC, MedlinePlus, American College of Surgeons, MHAUS, DailyMed and ASA.
+- Researched current cross-checks from WHO, CDC, MedlinePlus, American College of Surgeons, MHAUS, DailyMed, ASA, and Joint Commission.
+- Saved `notes/perioperative-nursing-pp89-91.md`; re-fetched the live file and verified p. 89, p. 90, p. 91 coverage, external-source section, explicitly unguessed cut-off answer, and final audit.
+- Saved and re-fetched `WORK_QUEUE.md`, `RESEARCH_LOG.md`, and `IMAGE_COVERAGE_CHECKLIST.md`; verified actual persisted content.
 
-## Files to persist in this directory
-- `notes/perioperative-nursing-pp89-91.md` — substantive study notes, text-specific exam key, external cross-checks, retrieval questions and uncertainty log.
-- `WORK_QUEUE.md` — item status.
-- `RESEARCH_LOG.md` — governing sources, external evidence and content decisions.
-- `IMAGE_COVERAGE_CHECKLIST.md` — per-prompt image-to-note coverage.
+## Changed files
+- `notes/perioperative-nursing-pp89-91.md` — detailed notes, source-specific exam key, clinical cross-checks, retrieval questions and uncertainty log.
+- `WORK_QUEUE.md` — item statuses tied to verified postconditions.
+- `RESEARCH_LOG.md` — standards read, external sources, evidence and decisions.
+- `IMAGE_COVERAGE_CHECKLIST.md` — item-by-item coverage against the images.
 - `HANDOFF.md` — this record.
 
 ## Verification performed
-- Visual source pass on three images; each image is 1152 × 1536 px.
-- Image mapping includes every substantive visible question-answer item.
-- Page 90's last question's answer is cropped; the notes preserve the uncertainty and do not invent the missing line.
-- Current guidance on scrub duration, surgical safety checks, latex, aspirin, MH and vecuronium is kept separate from source answers.
+- Images inspected visually at 1152 × 1536 px each; enlarged for small print.
+- Live GitHub re-fetch performed for all five files; returned note body was 26k+ characters and included the three page sections, research, quiz and coverage audit.
+- Current guidance on scrub duration, operative-site hair removal, surgical safety checks, latex, aspirin, MH and vecuronium is separated from source content.
+- Page 90's induction-check answer is cut off. Page 91 starts with “Check baseline vital signs”; relationship is noted but missing text was not invented.
+- No qualified nurse reviewed this output; do not describe it as professionally reviewed.
 
-## First exact action after saving
-Fetch each created file from the live `main` branch. Confirm the note begins with its intended title, contains the p. 89–91 sections, clinical cross-check and quiz, and ends with the coverage/uncertainty audit. Confirm the queue and checklist reflect actual verification status. Fix content if the returned content is missing/truncated.
+## Status
+Assigned three-page image batch: DONE for source coverage, persistence, re-fetch and in-scope verification. Qualified nursing review remains NOT STARTED and is not claimed.
 
 ## Scope boundary
-Write only within `notes/agents-playground/agent-perioperative-nursing-pages-89-91/`. Do not modify project-wide status/queue or generated folder, and do not modify sibling agents' work.
+All files are under `notes/agents-playground/agent-perioperative-nursing-pages-89-91/`. No shared project files or sibling agents' files were modified.
