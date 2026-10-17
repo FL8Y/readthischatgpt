@@ -41,6 +41,11 @@ Research and decisions
    - Classification: NOT VERIFIED that full official papers are publicly accessible for the entire requested period.
    - Decision: Do not claim to have scanned every paper. Do not rely on unofficial recalled questions as authenticated exam content. Build original questions from official blueprint information and sound item-writing principles.
 
+Council re-audit based on user-supplied classroom exam photos
+- Observed broad patterns: linked clinical vignettes; pathophysiology-to-manifestation reasoning; causal chains and event ordering; numbered statements and Statement I/II combinations; EXCEPT/least-appropriate items; priority/first action; patient-teaching interpretation; misconception correction; and analogies for explaining mechanisms.
+- Implementation: add these as reusable item-design patterns, not templates to copy verbatim. Validate each proposition, causal link, answer uniqueness, scope, and whether the stem supplies enough information.
+- Safeguard: format variety is optional; never force a format if it creates ambiguity, flawed premises, or two defensible answers. The photos are classroom assessment examples, not proof of official PRC wording or a verified 2021–2026 PNLE pattern.
+
 Implementation decisions
 - Four answer options (A–D), one best answer by default.
 - SATA only when explicitly selected.
@@ -62,6 +67,7 @@ Progress log
 - [x] Establish folder scope and create standalone root folder through new files.
 - [x] Research official PRC/BON TOS and publicly accessible exam-program evidence.
 - [x] Council re-audit: compare older official program headings with the August 2026 program and update target-sitting alignment rules.
+- [x] Council re-audit of supplied exam photos: extract broad reasoning formats and add them to the master prompt and user template.
 - [x] Draft reusable system prompt.
 - [x] Draft fill-in user prompt template.
 - [x] Document source limitations and research decisions.
