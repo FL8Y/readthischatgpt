@@ -20,7 +20,7 @@ Files for this batch are under notes/agents-playground/agent-nursing-foundations
 - HANDOFF.md — this handoff.
 
 ## Verification state
-The drafts were compared against the visible image content during preparation. Final acceptance requires re-fetching all four files from GitHub and confirming expected sections and nonempty content. External sources consulted: NCSBN delegation guidance; CMS QA/QAPI; AHRQ QI toolkit, Pareto chart, cause-and-effect diagram, and root-cause analysis. No qualified independent nursing review was performed.
+All five files were created and re-fetched from GitHub. The notes contain page 32 delegation/medication/pathway content, page 33 QA/QI tools, page 34 Gantt/audit content, retrieval questions, and linked external references. The four tracking/handoff files were also confirmed present and nonempty. External sources consulted: NCSBN delegation guidance; CMS QA/QAPI; AHRQ QI toolkit, Pareto chart, cause-and-effect diagram, and root-cause analysis. No qualified independent nursing review was performed.
 
 ## Exact next action
-Re-fetch the four files, verify that notes include all five delegation rights, ten medication rights, four clinical-pathway elements, structure/process/outcome, PDCA, fishbone, Pareto, DMAIC, Gantt, and every listed audit type. Update statuses only after verification.
+If this batch is continued, process the next supplied page sequence and preserve the current page ledger. Qualified nursing review is still not performed; do not claim it.
