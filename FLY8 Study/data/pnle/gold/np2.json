@@ -64,27 +64,28 @@
     "area": "NP2",
     "topic": "Immediate care of the newborn",
     "archetype": "priority-physiological-maslow",
-    "difficulty": 3,
-    "vignette": "A term newborn has just been born vaginally and placed on the mother's abdomen. The infant is crying vigorously, has a pink body, and is moving all limbs. The delivery room is cool and the infant is wet with fluids. The parents are smiling and ask to hold the baby.",
-    "stem": "Which nursing action has the highest priority at this moment?",
+    "difficulty": 4,
+    "vignette": "A term newborn was born vaginally a minute ago and has been placed on the mother's abdomen. The infant is crying strongly, the trunk is pink, the hands and feet are slightly blue, and the limbs are flexed. The infant is covered in fluid and the delivery room is cool. The mother is alert and asks to start breastfeeding now. Orders are present for eye prophylaxis and a vitamin K injection, and the nurse also needs to prepare the identification bands.",
+    "stem": "Which nursing action should the nurse perform first?",
     "options": [
-      "Dry the infant thoroughly and cover the skin and head to keep the infant warm",
-      "Administer the ordered prophylactic eye ointment to both eyes of the newborn",
-      "Complete the newborn identification bands with the parents present at the bedside",
-      "Give the parents quiet time to hold and bond with the baby before other care"
+      "Dry the infant, remove wet linen, and cover the body and head with a blanket",
+      "Suction the mouth and nose with a bulb syringe because of fluid on the face",
+      "Give the ordered eye ointment and vitamin K injection before moving the infant",
+      "Help the mother begin breastfeeding while the infant is alert and rooting"
     ],
     "answerIndex": 0,
-    "strategyTag": "Maslow: thermoregulation is physiological",
-    "reasoning": "1) Priority question: apply Maslow, physiological needs before safety and belonging. 2) ABC first: the infant is crying vigorously and pink, so airway and breathing are currently adequate. 3) The next physiological threat in the data is heat loss: wet skin plus a cool room can quickly cause cold stress in a newborn. 4) Drying the infant and keeping the skin and head covered and warm addresses that actual problem right now. 5) Eye prophylaxis is routine and important but not as urgent as preventing cold stress; it can follow shortly after. 6) Identification checks are safety; bonding is love/belonging. Both rank below the physiological need for warmth.",
+    "strategyTag": "Maslow: prevent heat loss before routine care",
+    "reasoning": "1) Priority question: Maslow places physiological needs first, and ABC comes before other physiological items. 2) Airway and breathing are adequate: the infant cries strongly and the trunk is pink; slightly blue hands and feet are an expected finding right after birth. 3) Suctioning is the right action for an infant with an obstructed airway, which is a different client from this one. 4) The remaining physiological threat in the data is heat loss from wet skin in a cool room, which can cause cold stress. 5) Drying, removing wet linen and covering the body and head addresses that threat now. 6) Eye prophylaxis and vitamin K are needed but can follow soon after; breastfeeding is encouraged and can proceed once the infant is dried and covered, and the identification bands are a safety task that ranks lower than preventing cold stress.",
     "optionRationales": [
-      "Correct. Heat loss from wet skin is an actual physiological threat; drying and warming is the immediate priority once airway and breathing are adequate.",
-      "Routine and necessary, but it can follow once the infant is dried and warm; it does not support an immediate physiological need.",
-      "Safety and verification matter, but the infant's physiological need for warmth ranks higher.",
-      "Love/belonging need; supporting it is good, but not before preventing heat loss, and skin-to-skin works best once the infant is dried and covered."
+      "Correct. Evaporative heat loss from wet skin in a cool room is the actual physiological threat; drying and covering the body and head prevents cold stress and still allows contact with the mother.",
+      "Right action for an infant with obstructed airway, but this infant is crying strongly and pink, so routine suctioning is not needed and does not address heat loss.",
+      "Required care, but it is routine and is given after the infant is dried and warm; it does not address the present threat.",
+      "Early breastfeeding is a good practice and meets a need for bonding and nutrition, but it does not stop heat loss and is supported after the infant is dried and covered."
     ],
     "keyFacts": [
-      "Newborns lose heat rapidly by evaporation, convection, conduction and radiation; dry and warm them immediately.",
-      "Cold stress increases the newborn's oxygen and glucose use."
+      "Newborns lose heat rapidly by evaporation, convection, conduction and radiation, so dry and cover them promptly.",
+      "Slightly blue hands and feet in the first minutes after birth are common; a strong cry and pink trunk show adequate airway and breathing.",
+      "Cold stress increases oxygen and glucose use in the newborn."
     ],
     "aiWritten": true,
     "nurseReviewed": false
@@ -154,27 +155,27 @@
     "area": "NP2",
     "topic": "Adolescent fears about pregnancy",
     "archetype": "distressed-client-best-response",
-    "difficulty": 4,
-    "vignette": "A 16-year-old comes alone to a community clinic. She is tearful and says, \"My period is late. I think I might be pregnant, and my mother is going to be so angry at me. I don't know what to do.\" The nurse has not yet performed any assessment.",
+    "difficulty": 5,
+    "vignette": "A 16-year-old comes alone to a community clinic. She sits with her arms crossed and is tearful. She says, \"My period is two weeks late. I think I might be pregnant and my mother is going to be so angry. Please don't tell anyone I came here. I don't know what to do.\"",
     "stem": "Which response by the nurse is most therapeutic?",
     "options": [
-      "\"You sound frightened about your mother's reaction. Tell me more about that.\"",
-      "\"Try not to worry. I am sure your mother will understand once she knows.\"",
-      "\"Why didn't you use protection so that this would not have happened?\"",
-      "\"Let's first find out whether you are pregnant, then you can decide what to do.\""
+      "\"You sound frightened about how your mother will react. What worries you most?\"",
+      "\"It is normal to feel scared, and most mothers calm down once the shock passes.\"",
+      "\"I can arrange a pregnancy test today, and then we will talk about your choices.\"",
+      "\"Your mother has a right to know, so let us call her to come in and talk together.\""
     ],
     "answerIndex": 0,
-    "strategyTag": "Therapeutic: reflect feelings, open-ended",
-    "reasoning": "1) Communication rule: acknowledge the feeling, use an open-ended prompt, avoid advice, false reassurance and closed or 'why' questions. 2) The client is expressing fear about her mother's reaction and uncertainty. 3) The best response names the emotion and invites her to say more. 4) 'Don't worry, your mother will understand' is false reassurance; the nurse cannot know that. 5) 'Why did you not use protection?' is a 'why' question and sounds judgmental, which shuts the client down. 6) Telling her to confirm the result first and then decide changes the subject away from her feelings and gives advice before she has been heard.",
+    "strategyTag": "Therapeutic: reflect feeling, open-ended question",
+    "reasoning": "1) Communication rule: acknowledge the feeling, use an open-ended prompt, and avoid advice, false reassurance and actions that skip the client's concern. 2) The client states fear of her mother's reaction and asks for privacy. 3) Reflecting the fear and asking what worries her most invites her to continue and builds trust. 4) Telling her that most mothers calm down is reassurance the nurse cannot support. 5) Arranging a test is a reasonable later step, but offering it now responds to the task and not to her stated distress. 6) Calling her mother ignores her request for privacy, is outside the nurse's role at this moment, and would damage trust.",
     "optionRationales": [
-      "Correct. It reflects the feeling and uses an open-ended invitation, which builds trust before assessment and teaching.",
-      "False reassurance; the nurse cannot know the mother's reaction and it dismisses the client's feeling.",
-      "A 'why' question that sounds accusing and blocks communication.",
-      "Practical, but it moves quickly to a task and ignores her stated feelings; advice before acknowledgment."
+      "Correct. It reflects the stated feeling and uses an open-ended question, which keeps the client talking and respects her request for privacy.",
+      "Normalizes the feeling but then gives false reassurance about the mother's reaction, which the nurse cannot know.",
+      "A reasonable later step, and the statement is true, but it moves to a task and does not respond to the fear the client just expressed.",
+      "Overrides the client's request for privacy and takes a decision that is not the nurse's to make; it would block further communication."
     ],
     "keyFacts": [
-      "Reflect feelings before problem solving.",
-      "Avoid 'why' questions, advice and false reassurance with distressed clients."
+      "Reflect feelings and ask open-ended questions before problem solving.",
+      "Avoid false reassurance, advice given too early, and disclosure that the client has asked to keep private unless a legal duty applies."
     ],
     "aiWritten": true,
     "nurseReviewed": false
@@ -244,27 +245,27 @@
     "area": "NP2",
     "topic": "Dehydration in an infant",
     "archetype": "stable-vs-unstable",
-    "difficulty": 4,
-    "vignette": "A nurse admits a 9-month-old with vomiting and diarrhea for 2 days. The parent reports the infant has had no wet diaper for about 8 hours. The infant is sleepy, difficult to arouse, with a sunken anterior fontanelle, dry mucous membranes, cool hands and feet, and capillary refill that takes longer than usual.",
-    "stem": "Which finding is most concerning to the nurse?",
+    "difficulty": 5,
+    "vignette": "A nurse admits a 9-month-old with vomiting and diarrhea for 2 days. The parent reports no wet diaper for about 8 hours and that the infant has refused feeds. On assessment the infant is sleepy but cries when handled, with no tears. The anterior fontanelle is sunken and the mucous membranes are dry. The hands and feet are cool and capillary refill is slower than expected. The heart rate is fast.",
+    "stem": "Which finding should the nurse report to the provider first?",
     "options": [
-      "The infant is difficult to arouse and has cool hands and feet",
-      "The anterior fontanelle appears sunken and the eyes look hollow",
-      "The infant has had no wet diaper for 8 hours and the urine was dark",
-      "The mucous membranes feel dry and the lips look cracked"
+      "The hands and feet are cool and capillary refill is slower than expected",
+      "The infant has had no wet diaper for about 8 hours despite attempts to feed",
+      "The sunken anterior fontanelle and dry mucous membranes seen on assessment",
+      "The infant cries when handled but produces no tears when upset"
     ],
     "answerIndex": 0,
-    "strategyTag": "Unstable: altered level of consciousness",
-    "reasoning": "1) 'Most concerning' calls for the most dangerous sign: apply stable versus unstable and Maslow (circulation, perfusion). 2) Dry mucous membranes and a sunken fontanelle show dehydration but are expected with this history. 3) No wet diaper for hours indicates reduced output, which is significant but is a consequence of the volume loss. 4) Difficulty to arouse together with cool extremities and slow refill suggests poor perfusion and a failing circulation: a sign of serious, possibly worsening dehydration. 5) Altered level of consciousness in an infant is a late and serious sign that the brain and organs are not being perfused well. 6) Select the finding reflecting unstable perfusion, not a sign of mild-to-moderate dehydration.",
+    "strategyTag": "Unstable: poor perfusion before volume-loss signs",
+    "reasoning": "1) 'First' with several true findings calls for the most dangerous: apply stable versus unstable and circulation. 2) All four findings are consistent with dehydration. 3) No wet diaper, a sunken fontanelle, dry mucous membranes and absent tears show significant fluid loss, and they are the expected picture of the problem. 4) Cool extremities with slow capillary refill, together with the fast heart rate in the history, point to reduced perfusion, meaning the infant may be moving from compensated toward decompensated volume loss. 5) That finding signals possible shock and needs urgent provider notification and rapid fluid replacement. 6) Report the perfusion finding first, then the rest of the picture.",
     "optionRationales": [
-      "Correct. Altered consciousness with cool extremities indicates poor perfusion and is the most unstable finding.",
-      "Expected with dehydration; informative but not the most unstable finding.",
-      "Important sign of reduced volume, yet it reflects the problem rather than showing impending collapse.",
-      "Common finding in dehydration; least specific for instability."
+      "Correct. Poor perfusion signs are the most unstable finding and indicate a need for urgent intervention.",
+      "Shows reduced output and significant volume loss, but it describes the loss itself and not how well the infant is perfusing.",
+      "Classic signs of dehydration, expected with this history and informative, but they do not by themselves indicate failing circulation.",
+      "A sign of dehydration, and the infant still responds to handling; less specific for instability than a perfusion change."
     ],
     "keyFacts": [
-      "Lethargy or difficulty arousing an infant with dehydration signals serious fluid loss and poor perfusion.",
-      "Delayed capillary refill and cool extremities suggest compromised circulation."
+      "Cool extremities, slow capillary refill and fast heart rate in a dehydrated infant suggest poor perfusion and possible shock.",
+      "Decreased urine output, sunken fontanelle, dry mucous membranes and absent tears are expected signs of dehydration."
     ],
     "aiWritten": true,
     "nurseReviewed": false
@@ -274,27 +275,27 @@
     "area": "NP2",
     "topic": "Vaccine administration safety",
     "archetype": "medication-safety-rights",
-    "difficulty": 3,
-    "vignette": "A nurse at a community immunization clinic is preparing to give a scheduled vaccine to a toddler. The parent reports that the child has had a mild runny nose, felt a little sore at the last injection site, and is a picky eater. When asked about the previous dose, the parent adds one more detail.",
-    "stem": "Which parent report should the nurse act on first before giving the vaccine?",
+    "difficulty": 4,
+    "vignette": "A nurse at a community immunization clinic is about to give a scheduled vaccine to a 15-month-old. The parent is talking quickly while the nurse checks the record and reports several things: the child is taking an antibiotic for an ear infection and has a mild cough; the older sibling once had a seizure with fever after a vaccine; a tender red area on the thigh lasted two days after the last dose; and the lips swelled and urgent treatment was needed after the last vaccine visit.",
+    "stem": "Which parent report should the nurse address first before giving the vaccine?",
     "options": [
-      "The child has had a mild runny nose and no fever for most of this week",
-      "The child had soreness and redness where the last shot was given",
-      "The child had hives and trouble breathing after the previous dose",
-      "The child often refuses vegetables and eats small portions at meals"
+      "The older sibling once had a seizure with fever after receiving a vaccine",
+      "The child is taking an antibiotic for an ear infection and has a mild cough",
+      "After the last vaccine visit the child's lips swelled and needed urgent treatment",
+      "A tender red area on the thigh lasted for two days after the last dose was given"
     ],
     "answerIndex": 2,
-    "strategyTag": "Safety: check contraindications first",
-    "reasoning": "1) Medication safety: verify the right client, drug, and, above all, check for contraindications before giving. 2) Mild runny nose without significant illness is generally not a reason to withhold routine vaccination. 3) Soreness at an earlier injection site is a common, expected local reaction. 4) Picky eating is unrelated to the vaccine. 5) A history of hives and difficulty breathing after the last dose suggests a possible severe allergic reaction, a safety issue that must be addressed before giving another dose. 6) Hold the vaccine, document, and consult the provider; the unexpected severe reaction outranks expected mild findings.",
+    "strategyTag": "Safety: screen for contraindications before giving",
+    "reasoning": "1) Medication safety: before giving any drug, screen for contraindications and precautions. 2) A mild illness, even with an antibiotic, generally does not prevent routine vaccination. 3) A tender red area at an earlier injection site is a common local reaction and does not stop vaccination. 4) The sibling's seizure is a family history item that sounds alarming but concerns a different client; it is worth recording and mentioning, but it is not this child's reaction. 5) Lip swelling needing urgent treatment after the previous visit suggests a possible severe allergic reaction in this child, which is a safety concern that has to be clarified before another dose. 6) Hold the vaccine, gather details about the reaction, and consult the provider.",
     "optionRationales": [
-      "Mild illness is generally not a barrier; true but not the safety concern.",
-      "Expected local reaction; does not stop vaccination.",
-      "Correct. A possible severe allergic reaction to a prior dose is a safety issue that must be resolved before administering again.",
-      "Unrelated to vaccine safety; tempting as a distractor because it is a parent concern."
+      "Family history that sounds serious but concerns a different client; record it, but it does not make this child's vaccine unsafe.",
+      "A mild illness is generally not a barrier to routine vaccination; a true statement but not the safety concern.",
+      "Correct. A possible severe allergic reaction after the previous visit is the highest safety concern and must be clarified with the provider before another dose.",
+      "A common, expected local reaction; it does not prevent vaccination."
     ],
     "keyFacts": [
-      "A severe allergic reaction to a previous dose is a precaution/contraindication; hold and consult the provider.",
-      "Mild local soreness and mild cold symptoms are generally not reasons to delay routine vaccination."
+      "A severe allergic reaction after a previous dose is a contraindication or precaution; hold and consult the provider.",
+      "Mild illness and mild local soreness are generally not reasons to delay routine vaccination."
     ],
     "aiWritten": true,
     "nurseReviewed": false
@@ -395,26 +396,26 @@
     "topic": "Late decelerations during oxytocin",
     "archetype": "initial-action-assess-vs-intervene",
     "difficulty": 5,
-    "vignette": "A client in active labor is receiving an oxytocin infusion. Contractions are strong and frequent. The electronic fetal monitor shows recurrent late decelerations of the fetal heart rate with reduced variability over the last 15 minutes. The client is lying on her back and reports feeling anxious. Her vital signs are stable.",
+    "vignette": "A client at term in active labor is receiving an oxytocin infusion by pump. Contractions have become strong and frequent. For the last 15 minutes the electronic fetal monitor shows recurrent late decelerations with reduced variability. The client is lying flat on her back, says she feels anxious, and her vital signs are stable. The nurse has a phone at the bedside and the provider is in the building.",
     "stem": "Which action should the nurse take first?",
     "options": [
-      "Telephone the provider and wait for orders before changing anything",
-      "Document the pattern and continue observing for another 15 minutes",
-      "Stop the oxytocin infusion and turn the client onto her side promptly",
-      "Prepare the client for an immediate cesarean birth before other measures"
+      "Notify the provider of the tracing and wait for orders before changing the infusion",
+      "Perform a vaginal examination to find the cervical dilation and fetal station",
+      "Stop the oxytocin infusion and turn the client onto her left or right side",
+      "Prepare the client and the consent forms for an urgent cesarean birth"
     ],
     "answerIndex": 2,
-    "strategyTag": "Unstable fetus: remove the cause now",
-    "reasoning": "1) The fetal heart tracing is abnormal and getting worse, so this is an unstable situation; act immediately, then notify. 2) Late decelerations suggest reduced placental blood flow; frequent, strong contractions from oxytocin worsen it. 3) Remove the likely cause: stop the oxytocin infusion, and also turn the client to a side and give supportive measures. 4) Calling the provider and waiting for an order delays correction; stopping the infusion is within nursing scope per standard labor protocols, and the provider is notified immediately after. 5) Documenting and watching longer ignores a worsening pattern. 6) Preparing for cesarean birth is a decision for the provider and does not address the correctable cause first.",
+    "strategyTag": "Unstable fetus: remove the cause, then notify",
+    "reasoning": "1) Recurrent late decelerations with reduced variability suggest reduced placental blood flow and a fetus at risk, so this is unstable and needs action now. 2) Strong, frequent contractions from oxytocin and lying flat both lower placental perfusion. 3) The first step is to remove the likely causes: stop the oxytocin and turn the client to her side, within the nurse's role under standard labor protocols. 4) The provider must be notified promptly and the nurse continues with supportive measures such as oxygen and fluids as ordered or per protocol, but telephoning first and waiting leaves the cause in place. 5) A vaginal examination gives useful information, including checking for cord prolapse, but it follows the corrective steps. 6) Preparing for cesarean birth is a provider decision made after reassessment, not the first step.",
     "optionRationales": [
-      "Notification is needed but waiting before correcting a worsening pattern delays care.",
-      "Documentation is needed, but watching a worsening pattern is unsafe.",
-      "Correct. It removes a contributing cause and improves placental perfusion immediately.",
-      "A provider decision; correctable causes should be addressed first and the nurse does not decide this alone."
+      "The provider must be told, but this is the right action at the wrong time; waiting for orders leaves the oxytocin running during a worsening pattern.",
+      "Useful assessment that follows the corrective steps; it does not relieve the cause of reduced placental perfusion.",
+      "Correct. It removes two causes of reduced placental perfusion immediately, after which the nurse notifies the provider and continues supportive measures.",
+      "A decision that belongs to the provider and comes after reassessment; correctable causes are addressed first."
     ],
     "keyFacts": [
-      "Recurrent late decelerations suggest uteroplacental insufficiency; stop oxytocin, change position to the side, and notify the provider.",
-      "Strong, frequent contractions reduce placental blood flow."
+      "Recurrent late decelerations suggest uteroplacental insufficiency; stop oxytocin, reposition to a side, and notify the provider promptly.",
+      "Strong, frequent contractions and a supine position can reduce placental blood flow."
     ],
     "aiWritten": true,
     "nurseReviewed": false
@@ -575,26 +576,26 @@
     "topic": "Magnesium sulfate toxicity",
     "archetype": "high-alert-medication-reasoning",
     "difficulty": 5,
-    "vignette": "A client with severe preeclampsia is receiving a magnesium sulfate infusion by pump. On assessment the nurse finds that deep tendon reflexes are absent, the respiratory rate is 10 breaths per minute, and the client is drowsy. The client's urine output has also decreased over the last two hours.",
+    "vignette": "A client with severe preeclampsia is receiving a magnesium sulfate infusion by pump. At the scheduled check the nurse finds the client is drowsy and slow to answer. Deep tendon reflexes are absent, the respiratory rate is 10 breaths per minute, and urine output has fallen over the last two hours. The call light, a bedside phone and the unit emergency supplies are within reach.",
     "stem": "Which action should the nurse take first?",
     "options": [
-      "Recheck reflexes and respiratory rate in one hour while the infusion runs",
-      "Administer calcium gluconate at once, before stopping the infusion",
-      "Stop the magnesium sulfate infusion and stay with the client to assess",
-      "Raise the head of the bed and coach the client to take deep breaths"
+      "Lower the infusion rate and recheck reflexes and breathing after thirty minutes",
+      "Obtain calcium gluconate from the unit supply and prepare it for administration",
+      "Stop the infusion at the pump and assess airway, breathing and responsiveness",
+      "Call the provider to report the findings and request an order to stop the infusion"
     ],
     "answerIndex": 2,
-    "strategyTag": "ABC: stop the drug causing depression",
-    "reasoning": "1) High-alert medication with toxic signs: absent reflexes, slow breathing, drowsiness, low urine output. 2) These findings are an unexpected, unstable change, and breathing (B) is at risk. 3) First stop the source of harm: stop the infusion, then call for help and assess the client. 4) The antidote (calcium gluconate) requires an order and is given after the infusion is stopped; having it ready is correct but it is not the first step. 5) Waiting and reassessing in an hour, or only raising the head of the bed, does not remove the cause. 6) Choose the action that stops further drug exposure immediately.",
+    "strategyTag": "ABC: stop the drug that is depressing breathing",
+    "reasoning": "1) A high-alert drug with drowsiness, absent reflexes, slowed breathing and falling urine output suggests toxicity, and breathing is at risk, so this is unstable. 2) The first step is to remove the source of harm: stop the infusion at the pump and assess airway, breathing and responsiveness while staying with the client. 3) Continuing the drug at a lower rate or waiting to recheck leaves a depressant running. 4) Calling the provider is needed and happens at once, along with calling for help or a rapid response if breathing worsens, but the nurse does not wait for an order to stop an infusion causing toxic signs. 5) Calcium gluconate is the usual antidote, and having it ready is appropriate, but it requires an order and follows stopping the drug. 6) Because several correct actions exist, choose the one that stops further exposure and protects breathing before the others.",
     "optionRationales": [
-      "Delays action while a toxic drug continues to run.",
-      "Antidote is appropriate but needs an order and should follow stopping the infusion; giving it first leaves the drug running.",
-      "Correct. It removes the cause of the depression of reflexes and respirations, protecting the airway and breathing.",
-      "Supportive, but it does not stop the toxic exposure and the client is drowsy."
+      "Keeps the drug running and delays reassessment while the client shows signs of toxicity.",
+      "Right action at the wrong time: the antidote is prepared after the infusion is stopped and requires an order, and the drug would keep running meanwhile.",
+      "Correct. It stops further exposure and lets the nurse assess breathing and consciousness, after which the provider or rapid response team is called and the antidote is prepared.",
+      "The provider must be notified promptly, but waiting for an order to stop an infusion that is causing toxic signs delays protection of the client's breathing."
     ],
     "keyFacts": [
-      "Signs of magnesium toxicity include loss of deep tendon reflexes, slowed respirations and decreased urine output.",
-      "Calcium gluconate is the antidote and should be readily available."
+      "Signs of magnesium sulfate toxicity include loss of deep tendon reflexes, slowed respirations, drowsiness and reduced urine output.",
+      "Stop the infusion, call the provider or rapid response, and have calcium gluconate available as ordered."
     ],
     "aiWritten": true,
     "nurseReviewed": false
