@@ -63,6 +63,7 @@ This is the browseable collection of study-note copies from the agent workspaces
 
 ## Nursing theory, ethics, and law
 
+- [Integrated professional nursing foundations review — images/printed pp. 1–13](curated/nursing-theory-ethics-law/integrated-professional-nursing-foundations-pp1-13.md) — connects laws, theory, ethics, and Benner's stages without replacing source notes
 - [Philippine health legislation — pp. 3–5](notes/nursing-theory-ethics-law/philippine-health-legislation-pp3-5.md)
 - [Nursing ethics and Benner stages — pp. 11–13](notes/nursing-theory-ethics-law/nursing-ethics-benner-stages-pp11-13.md)
 - [Laws affecting nursing practice — images 1–3](notes/nursing-theory-ethics-law/laws-affecting-nursing-practice-images-1-3.md)
