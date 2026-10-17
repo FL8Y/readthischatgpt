@@ -32,5 +32,29 @@ The user-provided assignment fields for agent ID, assigned subject, and source h
 - Cluster A/B/C assignments and every named disorder/trait/intervention row are preserved. “Develop skin-care skills” under schizotypal personality is unusual but visibly present; preserved and caveated rather than deleted or reinterpreted.
 - No medication doses were inferred or added.
 
-## Verification plan and status
-Initial artifact writes created the notes file, coverage checklist, and this research log. The handoff will be created after first verifying and comparing these artifacts. The direct verification gate requires fetching all four final files and checking expected headings and table section markers, then comparing against each uploaded photograph. Until that is completed, queue status remains IN PROGRESS.
+## Verification results — completed
+
+All five delivered files were re-fetched from the live GitHub repository after their writes and checked at their intended paths. The detailed notes returned nonempty content (25,401 characters at first final fetch) and the expected major section headings for anxiolytics, schizophrenia, antipsychotic effects, lithium toxicity, personality disorders, retrieval practice, image coverage, and external references.
+
+A marker audit checked 27 key terms/values covering:
+- Buspirone and meprobamate rows.
+- Both schizophrenia symptom columns.
+- Antipsychotic effects and nursing interventions, including NMS, akathisia, EPS, dry mouth, blurred vision, constipation, and urinary retention.
+- All three lithium toxicity ranges and the historical excretion recommendations/hemodialysis text.
+- Cluster A/B/C and all ten personality disorders.
+- External cross-check reference section.
+
+Visual coverage audit against the three supplied photos:
+- **Printed p. 56:** checked anxiolytic fragment, all nine entries in the positive/hard column, all nine negative/soft entries, and the antipsychotic adverse-effect entries through blurred vision.
+- **Printed p. 57:** checked constipation and urinary-retention continuation rows; all three lithium level bands, their symptom columns, and the listed intervention groups.
+- **Printed p. 58:** checked all three cluster labels and each of the ten disorder rows with the corresponding trait/intervention cells.
+- The source table relationships were carried into comparative tables in the notes. Where the photographed grid itself was ambiguous, the ambiguity was disclosed rather than guessed away.
+
+Source fidelity and clinical safety review:
+- Current external sources were selected for the relevant claims (DailyMed for buspirone, meprobamate, and lithium labels; NIMH for schizophrenia domains; NICE for antipsychotic monitoring; StatPearls for NMS; MedlinePlus for tardive dyskinesia; EXTRIP for lithium poisoning; Merck Manual and Open RN for personality disorders).
+- The photographed source's lithium threshold rows and interventions were preserved as source notes. Potentially outdated recommendations (gastric lavage and use of aminophylline, mannitol, or urea to augment excretion) were separately marked as historical source content, not current instructions.
+- The nonbenzodiazepine fragment, merged antipsychotic table cells, urinary-retention intervention wording, and schizotypal “skin-care skills” entry remain explicitly flagged as uncertainties.
+- Links and source descriptions are included in the notes and this log. This was a focused external cross-check, not a formal systematic review.
+- No qualified nursing-professional review was performed; that is stated transparently and has not been marked as passed.
+
+The queue and coverage checklist were updated to record the checks above. The handoff was updated only after the saved-file checks and visual audit were completed.
