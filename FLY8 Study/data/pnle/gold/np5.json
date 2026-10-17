@@ -92,29 +92,30 @@
  {
   "id": "np5-004",
   "area": "NP5",
-  "topic": "Complete airway obstruction",
-  "archetype": "airway-obstruction-exception",
-  "difficulty": 3,
-  "vignette": "A nurse is on a medical unit during the dinner hour. A 68-year-old client who was eating suddenly grabs their throat, cannot speak, makes no sound when trying to cough, and has a panicked expression. The client's lips are beginning to look dusky.",
-  "stem": "What should the nurse do immediately?",
+  "topic": "Acute chest pain: first action",
+  "archetype": "initial-action-assess-vs-intervene",
+  "difficulty": 4,
+  "vignette": "A nurse on a medical unit is caring for a 58-year-old client on the second day of treatment for a leg infection. The client has a prn analgesic ordered for muscle soreness after physiotherapy. While the nurse is preparing the afternoon medications, the client presses the call light and reports sudden pressure in the centre of the chest that spreads to the left arm. The client looks pale, is sweating and says they feel very frightened. The nurse has a full list of other tasks waiting.",
+  "stem": "Which action should the nurse take first?",
   "options": [
-   "Ask the client to speak again and then assess the breath sounds",
-   "Leave the client to call the rapid response team before intervening",
-   "Encourage the client to cough forcefully while a suction set is gathered",
-   "Start abdominal thrusts and continue until the object is expelled"
+   "Complete a full pain history covering onset, quality and triggers before calling anyone",
+   "Give the prn analgesic ordered for muscle soreness and reassess the pain after an hour",
+   "Review the medication record for drugs that could explain the chest discomfort first",
+   "Stay with the client, raise the head of the bed and call for the emergency team"
   ],
   "answerIndex": 3,
-  "strategyTag": "Exception: emergency overrides assess-first",
-  "reasoning": "1) Read the findings: unable to speak or cough, silent, dusky lips. This is a complete airway obstruction. 2) This is a stated exception to 'assess first': a clear life threat needs action now. 3) Asking the client to speak or auscultating wastes time the client does not have. 4) Leaving the client alone removes the only person who can relieve the obstruction; help is called by someone else or right after starting the intervention. 5) Coughing helps in a partial obstruction with effective air movement, not here. 6) Decision: begin abdominal thrusts and be ready to start CPR if the client becomes unresponsive.",
+  "strategyTag": "Unstable client: stay and act, do not leave or delay",
+  "reasoning": "1) Read the cues: sudden central chest pressure spreading to the arm, pallor and sweating. These suggest a possible acute cardiac event, a threat to circulation. 2) Assess-first is the usual rule, but here the client is unstable and delay can cost heart muscle, so the first action protects the client and brings help. 3) A full pain history is a correct assessment step at the wrong time; details can be gathered while help is on its way. 4) The prn analgesic was ordered for a different problem (muscle soreness) and would mask a serious symptom. 5) Reviewing the medication record is true-to-practice data gathering but does not address the immediate threat. 6) Decision: stay with the client, position for comfort and breathing, and summon the emergency team.",
   "optionRationales": [
-   "The client cannot speak, so this wastes time; assessment is not appropriate before action in complete obstruction.",
-   "Calling for help is needed but must not leave the client alone; the nurse should start relief and have someone else call.",
-   "Forceful coughing is encouraged only when air is still moving; this client cannot cough at all.",
-   "Correct. Abdominal thrusts are the immediate intervention for a conscious adult with complete obstruction."
+   "A complete history is a valid nursing step, but doing it before calling for help delays care for a client who may be having a cardiac event.",
+   "This order was written for muscle soreness; giving it treats the wrong problem and can hide a dangerous symptom while time is lost.",
+   "The medication record is useful later, but reviewing it first does not protect a client who looks unstable now.",
+   "Correct. Staying with the client, raising the head of the bed and calling the emergency team deals with the possible life threat at once."
   ],
   "keyFacts": [
-   "Inability to speak or cough means complete obstruction: act immediately.",
-   "If the client becomes unresponsive, start CPR."
+   "Sudden chest pressure with pallor and sweating is treated as an emergency until proven otherwise.",
+   "Do not leave an unstable client alone; get help while starting basic care.",
+   "An analgesic ordered for a different problem is not the response to new chest pain."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -152,29 +153,30 @@
  {
   "id": "np5-006",
   "area": "NP5",
-  "topic": "Sepsis: recognising deterioration",
+  "topic": "Recognising early deterioration in infection",
   "archetype": "stable-vs-unstable",
-  "difficulty": 4,
-  "vignette": "A nurse in a medical-surgical unit is assessing four clients being treated for infections. Over the last two hours, one client with pneumonia has become newly restless and confused, has a rising respiratory rate and heart rate, and a blood pressure lower than at the previous check. The nurse is deciding what to report first.",
-  "stem": "Which assessment finding requires the nurse's most urgent follow-up?",
+  "difficulty": 5,
+  "vignette": "A nurse on a medical unit starts the shift with four clients who are all being treated for infections. The assistant has recorded the start-of-shift vital signs, and the nurse has compared them with the readings from four hours earlier. Several tasks are due at the same time, and the nurse can assess only one client first.",
+  "stem": "Which client should the nurse assess first?",
   "options": [
-   "New confusion with falling blood pressure and rising heart rate in the client who has pneumonia",
-   "A temperature that is unchanged from the morning in a client being treated for a urinary infection",
-   "A cough producing the same amount of sputum as yesterday in a client recovering from pneumonia",
-   "A report of poor appetite on the third day of antibiotic therapy in a client with cellulitis"
+   "Client with pneumonia whose blood pressure has dropped since four hours ago, pulse is higher and who repeats questions",
+   "Client with a urinary infection who has a temperature of 39 degrees Celsius, is alert, comfortable and drinking fluids well",
+   "Client with leg cellulitis whose redness has spread a little past the marked border and who reports throbbing pain",
+   "Client with a wound infection who has had two loose stools since morning while taking an antibiotic course"
   ],
   "answerIndex": 0,
-  "strategyTag": "Unstable before stable",
-  "reasoning": "1) Find which finding is NEW or CHANGING versus stable. 2) Use 'unstable, new, unexpected outrank stable, expected'. 3) New confusion, falling blood pressure and rising heart rate and respiratory rate form a pattern consistent with worsening perfusion and possible sepsis progressing toward shock. 4) This pattern may involve more than one organ system (brain, circulation, lungs), which makes it more urgent. 5) The other findings are unchanged or expected during infection treatment. 6) Decision: report the deteriorating client now.",
+  "strategyTag": "Unstable before stable: trend over single value",
+  "reasoning": "1) Look at the trend and the pattern, not the most dramatic single number. 2) Option 1 shows a falling blood pressure with a rising pulse and a change in thinking: this suggests worsening perfusion and possible sepsis progressing toward shock, affecting circulation and brain together. 3) The high temperature in an alert, drinking client with stable circulation looks alarming but is a common, expected response to infection. 4) Spreading redness needs reporting and review, but the client is stable and the change is small. 5) Loose stools on an antibiotic need follow-up and infection-control precautions, but no sign of unstable circulation. 6) Decision: assess the client with the unstable trend first.",
   "optionRationales": [
-   "Correct. A change in mental status with lower blood pressure suggests inadequate perfusion and requires immediate reporting and intervention.",
-   "Unchanged temperature is stable data and not urgent.",
-   "A stable amount of sputum is expected and not changing.",
-   "Poor appetite is common and does not suggest immediate danger."
+   "Correct. A falling blood pressure, rising pulse and a change in thinking over four hours suggest poor perfusion in a client who is getting worse.",
+   "A high temperature is eye-catching, but this client is alert, drinking and shows no sign of unstable circulation.",
+   "Spread of redness beyond the marked border should be reported, but the change is small and the client is otherwise stable.",
+   "Loose stools on antibiotics need follow-up and precautions, yet nothing suggests an immediate threat to circulation or breathing."
   ],
   "keyFacts": [
-   "Confusion plus hypotension plus rising heart and respiratory rates suggests inadequate perfusion.",
-   "Trend matters more than a single value."
+   "Compare each client with their own earlier readings: a worsening trend outranks one high value.",
+   "Falling blood pressure with rising pulse and altered thinking suggests poor perfusion.",
+   "Fever in an alert, stable client is expected during infection."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -182,29 +184,30 @@
  {
   "id": "np5-007",
   "area": "NP5",
-  "topic": "Delegation on a psychiatric unit",
-  "archetype": "delegation-assignment",
-  "difficulty": 4,
-  "vignette": "A charge nurse on an inpatient mental health unit is assigning tasks for the shift. Staff available include a registered nurse and an unlicensed assistive personnel. One client was admitted this morning after expressing suicidal thoughts, one is anxious after a family argument, one received a prn antianxiety medication an hour ago, and one is stable and under routine observation.",
-  "stem": "Which task is most appropriate to delegate to the unlicensed assistive personnel?",
+  "topic": "Delegating constant observation",
+  "archetype": "scope-of-practice-boundaries",
+  "difficulty": 5,
+  "vignette": "A charge nurse on an inpatient mental health unit is preparing the evening assignments. A client was admitted yesterday after an intentional overdose and was medically cleared. The care plan orders one-to-one observation. The charge nurse plans to assign an unlicensed assistive personnel (UAP) to sit with the client while the registered nurse completes the medication round and a family meeting. The UAP has been told the nurse will review the plan with them first.",
+  "stem": "Which responsibility can the nurse appropriately include in the UAP's assignment for this client?",
   "options": [
-   "Assess the newly admitted client for current suicide risk and level of observation",
-   "Teach coping skills to the client who is anxious after the family argument today",
-   "Evaluate whether the prn antianxiety medication relieved the client's symptoms",
-   "Measure and record the vital signs of the stable client under routine observation"
+   "Decide whether the observation level can be eased because the client now seems calmer",
+   "Question the client about current thoughts of self-harm and judge how serious they are",
+   "Explain the purpose of the unit's therapy groups and answer questions about the medication",
+   "Keep the client in constant view, record behaviours at set times and report changes"
   ],
   "answerIndex": 3,
-  "strategyTag": "Delegation: stable and routine only",
-  "reasoning": "1) Identify the task type: assessment, teaching, evaluation, or routine measurement. 2) Rule: assessment, teaching, evaluation and care of unstable or new clients stay with the licensed nurse. 3) A suicide risk assessment of a newly admitted client is assessment of a high-risk client. 4) Teaching coping skills is teaching. 5) Evaluating medication response is evaluation and needs nursing judgement. 6) Routine vital signs on a stable client are predictable and within the assistant's training; the nurse remains responsible for interpreting results. 7) Decision: delegate the vital signs.",
+  "strategyTag": "Scope: UAP observes and reports; nurse assesses and decides",
+  "reasoning": "1) Separate tasks that need nursing judgement (assess, decide, teach) from tasks that follow clear instructions (observe, record, report). 2) Deciding to reduce an observation level is a clinical decision for the nurse and the team. 3) Asking about self-harm thoughts and judging how serious they are is a risk assessment, which is outside UAP scope. 4) Explaining groups and medication is teaching, which is a nursing responsibility. 5) Constant observation is a task the UAP can perform when given clear instructions, what to report and who to tell; the nurse remains accountable for the plan. 6) Decision: constant view, recording and reporting.",
   "optionRationales": [
-   "Assessment of a high-risk client cannot be delegated.",
-   "Teaching is a nursing responsibility.",
-   "Evaluation needs a nurse's judgement.",
-   "Correct. A routine, predictable task on a stable client, with results reported to the nurse."
+   "Changing the observation level is a clinical decision. A calmer appearance does not by itself show reduced risk, and the UAP cannot make this judgement.",
+   "Asking about self-harm and judging seriousness is an assessment; it must be done by a licensed nurse. The UAP reports what they see and hear instead.",
+   "Teaching about groups and medication is a nursing responsibility; it also needs knowledge the UAP is not trained to give.",
+   "Correct. Observing, recording and reporting changes are within the UAP's role when the nurse gives clear instructions and stays accountable."
   ],
   "keyFacts": [
-   "Delegate only stable, routine and predictable tasks.",
-   "Assessment, teaching and evaluation are not delegated to unlicensed staff."
+   "UAP can observe, record and report; the nurse assesses, teaches and decides.",
+   "Changes to observation level are made by the nurse and team, not by the person doing the observing.",
+   "Give the UAP clear instructions on what to report and whom to tell."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -302,29 +305,30 @@
  {
   "id": "np5-011",
   "area": "NP5",
-  "topic": "Hypovolemic shock: worsening",
+  "topic": "Hypovolemic shock: failing compensation",
   "archetype": "abnormal-finding-identification",
   "difficulty": 5,
-  "vignette": "A nurse is monitoring a 29-year-old man after a road traffic injury with internal bleeding. He has received fluids and blood products. At the last two checks he was anxious, with a fast pulse and cool pale skin. The nurse now compares the new findings with the earlier trend to decide whether he is getting worse.",
-  "stem": "Which finding best indicates the shock is progressing despite treatment?",
+  "vignette": "A nurse is monitoring a 29-year-old man after a road traffic injury with internal bleeding. He has received fluids and blood products over the past two hours. At the two earlier checks he was anxious, with a fast pulse and cool pale skin, and the surgical team is arranging theatre. The nurse now compares the new findings with the earlier trend to decide whether he is responding to treatment or whether his compensation is failing.",
+  "stem": "Which finding best indicates that compensation is failing despite treatment?",
   "options": [
-   "Reports of thirst and a dry mouth that are the same as at earlier checks",
-   "Cool, pale hands and skin that are unchanged from the earlier assessments",
-   "Urine output that has remained steady and adequate since the last two checks",
-   "New drowsiness with a falling blood pressure as the heart rate keeps rising"
+   "Pulse has slowed since the second unit of blood and he is less anxious than before",
+   "Skin is still cool and pale, and his thirst is the same as at the earlier checks",
+   "Urine output increased after the last unit of blood and he is passing urine freely",
+   "He is hard to rouse now, with a falling blood pressure and a climbing pulse"
   ],
   "answerIndex": 3,
-  "strategyTag": "Expected vs unexpected finding",
-  "reasoning": "1) The stem asks which finding shows progression, so look for change in a worsening direction. 2) Compare each finding with the trend: unchanged findings are not progression. 3) Thirst and cool pale skin were already present and unchanged. 4) Steady adequate urine output suggests kidney perfusion is being maintained. 5) New drowsiness and a falling blood pressure with a still-rising heart rate indicate the body can no longer compensate and the brain and circulation are affected. 6) Decision: the new decline in consciousness and blood pressure.",
+  "strategyTag": "Trend: improving, unchanged or worsening",
+  "reasoning": "1) The stem asks for failing compensation, so look for a change in a worsening direction. 2) Sort each finding: improving, unchanged or worsening. 3) A slower pulse with less anxiety after blood suggests improvement. 4) Skin and thirst unchanged show no new information. 5) Increased urine output suggests better kidney perfusion. 6) Reduced consciousness with falling blood pressure and a still-rising pulse shows the body can no longer compensate. 7) Decision: the new drowsiness with hypotension and rising pulse.",
   "optionRationales": [
-   "Expected in hypovolemia and unchanged, so it does not show progression.",
-   "Already present earlier; no change means no new information about progression.",
-   "This is reassuring and suggests organ perfusion is maintained.",
-   "Correct. Decreased level of consciousness and falling blood pressure signal decompensation."
+   "This is a change, but in a good direction: a slower pulse and less anxiety after blood suggest he is responding.",
+   "Unchanged findings are expected in hypovolemia and show no progression, though they should keep being monitored.",
+   "A change in a good direction: more urine suggests kidney perfusion is improving.",
+   "Correct. Falling consciousness and blood pressure with a rising pulse mean compensation is failing."
   ],
   "keyFacts": [
-   "Early shock shows anxiety and a rapid pulse; late shock shows falling blood pressure and reduced consciousness.",
-   "Compare against the trend, not single values."
+   "Sort findings into improving, unchanged or worsening before choosing.",
+   "Falling consciousness with falling blood pressure is a late, serious sign in shock.",
+   "Urine output is a useful sign of organ perfusion."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -332,29 +336,30 @@
  {
   "id": "np5-012",
   "area": "NP5",
-  "topic": "Disaster triage",
+  "topic": "Disaster triage: setting priorities",
   "archetype": "which-client-first",
   "difficulty": 5,
-  "vignette": "A nurse is assisting at the scene of a bus collision with many casualties, using a simple field triage system based on walking ability, breathing, circulation and mental status. Four casualties are assessed in sequence by the nurse.",
-  "stem": "Which casualty should be classified for immediate treatment and transport first?",
+  "vignette": "A nurse is helping at the scene of a bus collision with many casualties. Only a few responders and limited supplies are present, and more help is some time away. The triage lead reminds the team that the aim is to give quick, life-saving care first to those most likely to survive with the resources available, then to move to others. Four casualties are assessed in sequence.",
+  "stem": "Which casualty should the nurse prioritise for immediate treatment?",
   "options": [
-   "A casualty who is walking around with a small abrasion on the forearm",
-   "A casualty with rapid, shallow breathing who cannot follow simple commands",
-   "A casualty who is not breathing even after the airway has been repositioned",
-   "A casualty with an obvious forearm fracture who is alert and breathing normally"
+   "Casualty with no signs of life who was found without a pulse some time before the team arrived",
+   "Casualty with a bleeding thigh wound, weak fast pulse and drowsy answers, breathing alone",
+   "Casualty with a deformed lower leg who is in severe pain, shouting and breathing comfortably",
+   "Casualty with minor cuts who is walking about and asking staff to help find relatives"
   ],
   "answerIndex": 1,
-  "strategyTag": "Triage: unstable and new before stable",
-  "reasoning": "1) In mass-casualty triage the aim is the greatest good for the greatest number. 2) Walking casualties are minor and wait. 3) A casualty who is still not breathing after airway repositioning is generally classified as expectant or deceased in a mass-casualty setting, because resources go to survivable patients. 4) A casualty with rapid shallow breathing and inability to follow commands has a threatened airway/breathing/circulation or brain function but can likely be saved: immediate. 5) An alert, breathing casualty with a fracture is delayed. 6) Decision: the casualty with rapid shallow breathing and inability to obey commands.",
+  "strategyTag": "Triage: greatest good, treatable life threat first",
+  "reasoning": "1) In mass-casualty triage the goal is the greatest good for the greatest number, not the most dramatic injury. 2) A casualty with no signs of life is generally not given scarce resources first when others can be saved. 3) A casualty with serious bleeding, weak circulation and drowsiness has a life threat that may be reversed quickly with simple measures, so is a high priority. 4) A painful deformed leg is serious and noisy but the casualty is breathing comfortably and can wait a little. 5) A walking casualty with minor injuries is lowest priority. 6) Decision: the bleeding, drowsy casualty.",
   "optionRationales": [
-   "Minor injury, can walk; lowest priority.",
-   "Correct. Respiratory compromise with altered mental status is life threatening but treatable and warrants immediate category.",
-   "Tempting because it is the most critical looking, but in mass-casualty triage a casualty who does not breathe after repositioning the airway is not first priority.",
-   "Painful but not immediately life threatening; delayed category."
+   "Looks the most critical, but with scarce resources the focus is on those who can be saved; comfort and later reassessment may be used for this casualty.",
+   "Correct. Serious bleeding with signs of poor circulation and reduced alertness is a life threat that quick care can treat.",
+   "Loud and painful, but breathing and alertness are intact; this casualty can be treated after those with immediate threats.",
+   "Minor injuries and the ability to walk indicate a lower priority, however worried the casualty is."
   ],
   "keyFacts": [
-   "Mass-casualty triage differs from everyday priority: save those most likely to survive with quick treatment.",
-   "Walking casualties wait; breathing problems and altered mental status are immediate."
+   "Mass-casualty triage differs from everyday care: resources go where they save the most lives.",
+   "Look at breathing, circulation and alertness, not at how dramatic or noisy an injury is.",
+   "Casualties with minor injuries wait."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -542,29 +547,30 @@
  {
   "id": "np5-019",
   "area": "NP5",
-  "topic": "Sepsis: organ dysfunction",
+  "topic": "Sepsis: multi-organ dysfunction",
   "archetype": "lab-value-interpretation-qualitative",
-  "difficulty": 4,
-  "vignette": "A nurse in the intensive care unit is caring for a 62-year-old client with sepsis from an abdominal infection. Overnight, the client's urine output has fallen, and the morning laboratory report is received. The nurse reviews the results to find which indicate that more than one organ system is being affected.",
+  "difficulty": 5,
+  "vignette": "A nurse in the intensive care unit is caring for a 62-year-old client with sepsis from an abdominal infection. The client has mild chronic kidney disease and mildly raised liver enzymes that were recorded on admission. Overnight the urine output has fallen, and the morning results are available. The nurse compares them with the admission values to identify which indicate that more than one organ system is newly affected.",
   "stem": "Which set of findings most strongly suggests developing multi-organ dysfunction?",
   "options": [
-   "Rising creatinine, falling urine output and a new drop in platelet count",
-   "A mildly raised white blood cell count together with a low-grade fever",
-   "A slightly lowered appetite and mild nausea since the previous evening",
-   "A heart rate that rises slightly when the client is turned or repositioned in bed"
+   "Creatinine higher than on admission with low urine output, plus a new fall in platelets with bruising",
+   "Lactate that was raised on admission and has fallen after fluids, with urine output now improving",
+   "Creatinine unchanged from the admission value in a client with chronic kidney disease and steady urine output",
+   "Liver enzymes still mildly raised, as on admission, with creatinine and platelets within the client's usual range"
   ],
   "answerIndex": 0,
-  "strategyTag": "Lab: link result to risk",
-  "reasoning": "1) The stem asks for multi-organ involvement, so look for evidence of two or more systems. 2) Rising creatinine with falling urine output points to kidney injury. 3) A new fall in platelets points to blood-clotting involvement. 4) Together they show separate systems failing, which is the pattern of multi-organ dysfunction. 5) Raised white cells and fever are expected in infection, not evidence of organ failure. 6) Nausea and a small heart rate change with turning are non-specific and common. 7) Decision: kidney and clotting changes.",
+  "strategyTag": "Lab: compare with baseline and count the systems",
+  "reasoning": "1) The stem asks for multi-organ involvement, so look for new changes in two or more systems compared with baseline. 2) Creatinine higher than admission with falling urine output points to new kidney injury. 3) A new fall in platelets with bruising points to blood-clotting involvement. 4) Together these are separate systems newly failing. 5) A falling lactate with better urine output suggests recovery. 6) Unchanged creatinine in chronic kidney disease is the client's baseline, and unchanged liver enzymes are also baseline, involving at most one system with no new change. 7) Decision: new kidney and clotting changes.",
   "optionRationales": [
-   "Correct. Two organ systems show new dysfunction.",
-   "Expected response to infection.",
-   "Non-specific and common.",
-   "Normal variation with movement."
+   "Correct. Two systems, kidney and clotting, show new dysfunction compared with admission.",
+   "These results were abnormal at first but are improving, which suggests the client is responding to treatment.",
+   "A raised creatinine is organ-related, but it is the client's baseline, so there is no new dysfunction.",
+   "Liver enzymes are organ-related but unchanged from admission, and the other systems are within usual range."
   ],
   "keyFacts": [
-   "Organ dysfunction in sepsis is shown by changes such as falling urine output and rising creatinine.",
-   "Multi-organ failure means two or more systems are failing."
+   "Multi-organ dysfunction means two or more systems newly failing.",
+   "Compare results with the client's baseline before deciding they are new.",
+   "Falling urine output with rising creatinine suggests kidney injury."
   ],
   "aiWritten": true,
   "nurseReviewed": false
