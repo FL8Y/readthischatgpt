@@ -2,35 +2,35 @@
 
 ## Assignment
 - Agent ID: agent-infectious-diseases-pages-71-73
-- Subject: Infectious diseases / adult and community health nursing reference
-- Source: three supplied photographed textbook pages, printed 71–73
+- Subject: Infectious diseases / nursing study reference
+- Source: three user-supplied textbook photographs, printed pp. 71–73
 - Primary deliverable: `notes/infectious-diseases-leptospirosis-leprosy-rabies-influenza-pneumonia-malaria-dengue-pp71-73.md`
 - Write boundary: this folder only.
 
-## Items and status
-
-| Item | Status | Acceptance evidence |
+## Final status
+| Item | Status | Evidence |
 |---|---|---|
-| Repository standards digestion | DONE | Live root source-of-truth, start guide, session protocol, project status, work queue, master prompt, research/design/log, completion checklist, tracker template, generated README, playground README, notes README, session handoff, user prompt template and agent master prompt fetched. |
-| Image inventory and printed-page order | DONE | Upload 1 is p. 71; upload 2 p. 72; upload 3 p. 73. |
-| Leptospirosis source notes | DONE | Reservoir, IP, route, tests, manifestations, complications, prevention and management represented. |
-| Leprosy source notes | DONE | Agent, IP, route, diagnostic list, early/late signs, prevention, source management statements, PB and MB tables represented; uncertainty noted in MB pediatric line. |
-| Rabies source notes | DONE | Agent label, IPs, transmission, source diagnostics, dog/human signs, source management and post-exposure notes represented. |
-| Influenza source notes | DONE | Agent classification, IP, transmission, tests, manifestations, complications, prevention and source management listed; undefined “TSB” flagged. |
-| Pneumonia source notes | DONE | Pathogens, route, source IP, exposure-based types, classification fragment, tests, manifestations, prevention, source antimicrobials and supportive measures represented. |
-| Malaria source notes | DONE | Five named Plasmodium species, test, vector, signs, prevention methods, source regimen scheme and treatment caveats represented. |
-| Dengue page-fragment notes | DONE | Virus serotypes, named Aedes vectors, tests, IP and MOT represented; cut-off continuation not invented. |
-| External clinical cross-check | DONE | Current WHO/CDC pages located for all relevant high-stakes topics; claims and URLs listed in references file. |
-| Source-coverage audit | DONE | Compared each printed section and both leprosy tables with original photographs; specific unclear fragments preserved. |
-| GitHub persistence test | DONE | Main notes saved at commit `59b2b0278025a3487fb386c434a05c456d061ffa`; accompanying files queued for re-fetch validation. |
-| Re-fetch deliverables | IN PROGRESS | Re-fetch each output path and check section markers, tables, references, checklist, log and handoff. |
-| Update audit records | IN PROGRESS | Finalize after re-fetch verification. |
+| Repository standards digestion | DONE | Read the live source-of-truth, session protocol, status, work queue, master prompt, research/design/log, checklist, tracker template, generated README, playground README, handoff, notes README, prompt template and agent master prompt. |
+| Image inventory and printed-page order | DONE | Upload 1 = p. 71; upload 2 = p. 72; upload 3 = p. 73. |
+| Leptospirosis, leprosy, rabies, influenza, pneumonia, malaria and visible dengue fragment | DONE | All seven topics appear in the re-fetched 30,124-character notes file; markers checked for each section. |
+| PB and MB leprosy tables | DONE | Re-fetched file contains both table headings, 6-/12-month course details, 12 blister pack marker and pediatric rifampicin discrepancy marker. |
+| External clinical cross-check | DONE | References file re-fetched; CDC/WHO and each of the seven topic headings confirmed. |
+| Image coverage checklist | DONE | Re-fetched checklist confirms Uploads 1, 2, 3 plus PB/MB tables and uncertainty-limits section. |
+| Research log and handoff | DONE | Both files re-fetched; repository digestion, research decisions, source limits, deliverables and clinical review limitation recorded. |
+| GitHub persistence/content check | DONE | All six output/support files re-fetched from main; titles, blob SHAs, sizes and required content markers checked. |
 
-## Status meanings
-- `NOT STARTED`: no substantive work.
-- `IN PROGRESS`: work exists but the acceptance test is incomplete.
-- `DONE`: deliverable exists and re-fetch/content verification passed.
-- `BLOCKED`: specific limitation with recovery attempts recorded.
+## Verification evidence
+- Main notes: blob SHA `e3d785df285349606e33a3169f2d8fffef80c14f`, 30,124 characters.
+- Clinical references: blob SHA `af0144b153286030be0baf5f1417337c7bca84ff`, 6,164 characters.
+- Coverage checklist: blob SHA `4f1ec74cd761c77c890daf686f1e6c667de37465`, 4,994 characters.
+- Research log: blob SHA `23dfd8229857a5dac16fe832b1c18b311ecac79e`, 3,638 characters.
+- Handoff: blob SHA `376b1090bd76f166a8ddab80918c65990fc2b586`, 2,865 characters.
+- Queue: blob SHA `60b12372836c702d7c32f6e17bdd095975c6da19`, 3,282 characters.
+- Required term checks passed for all seven topics, both leprosy tables, key dose/course discrepancy, references, all upload pages, and handoff. The checklist/research log use the phrasing “limitations” rather than the exact literal test strings “unclear” or “uncertainty”; manual review confirms the specific uncertain source regions are documented.
+- This is image-coverage verification, not a qualified clinical accuracy review.
 
-## Next exact action
-Re-fetch the main notes and all support files from GitHub, check expected topic/table markers and cited URLs, then revise the checklist/log/handoff to reflect only actual verification.
+## Scope and open cautions
+- Only the assigned agent folder was written.
+- The photo does not show the remainder of the dengue section.
+- Several small/obscured source details are explicitly retained as uncertain in the notes and coverage checklist.
+- Qualified nursing review has not been performed.
