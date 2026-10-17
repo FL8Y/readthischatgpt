@@ -1,22 +1,49 @@
 # Study Notes Index
 
-This index currently covers a verified pilot copy set, not the whole repository. See `MIGRATION_MANIFEST.csv` for source blob IDs, destination paths, page identifiers, and copy-integrity status.
+This collection contains non-destructive copies of candidate study-note deliverables from agent workspaces. It does not replace the originals.
 
-| Topic | Page | Collection copy | Original source | Verification |
-|---|---:|---|---|---|
-| Medication toxicities and antidotes | 59 | [Common drug toxicities and antidotes](notes/medications-and-toxicology/common-drug-toxicities-antidotes-p59.md) | [Original](../agent-01-pages-59-61/notes/page-59-drug-toxicity-antidotes.md) | Exact body match verified |
-| Abdominal regions | 60 | [Nine abdominal regions](notes/fundamentals/anatomy-nine-abdominal-regions-p60.md) | [Original](../agent-01-pages-59-61/notes/page-60-nine-abdominal-regions.md) | Exact body match verified |
-| Infant reflexes | 61 | [Infant reflexes](notes/maternal-child/infant-reflexes-p61.md) | [Original](../agent-01-pages-59-61/notes/page-61-infant-reflexes.md) | Exact body match verified |
+## Notes by subject
 
-## Collection status
+- [communicable infections hepatitis enteric parasitic pp80 82](notes/notes/medications-and-toxicology/communicable-infections-hepatitis-enteric-parasitic-pp80-82.md) — source: [communicable-infections-hepatitis-enteric-parasitic-p80-82.md](../agent-01-communicable-infections/notes/communicable-infections-hepatitis-enteric-parasitic-p80-82.md)
+- [nursing research theories vital statistics pp38 40](notes/notes/community-health/nursing-research-theories-vital-statistics-pp38-40.md) — source: [community-health-nursing-research-theory-vital-statistics-pp38-40.md](../agent-01-community-health-nursing/notes/community-health-nursing-research-theory-vital-statistics-pp38-40.md)
+- [mortality immunization medicinal plants pp41 43](notes/notes/community-health/mortality-immunization-medicinal-plants-pp41-43.md) — source: [community-health-nursing-vital-rates-immunization-medicinal-plants-pp41-43.md](../agent-01-community-health-nursing/notes/community-health-nursing-vital-rates-immunization-medicinal-plants-pp41-43.md)
+- [common drug toxicities antidotes p59](notes/notes/medications-and-toxicology/common-drug-toxicities-antidotes-p59.md) — source: [page-59-drug-toxicity-antidotes.md](../agent-01-pages-59-61/notes/page-59-drug-toxicity-antidotes.md)
+- [anatomy nine abdominal regions p60](notes/notes/fundamentals/anatomy-nine-abdominal-regions-p60.md) — source: [page-60-nine-abdominal-regions.md](../agent-01-pages-59-61/notes/page-60-nine-abdominal-regions.md)
+- [infant reflexes p61](notes/notes/maternal-child/infant-reflexes-p61.md) — source: [page-61-infant-reflexes.md](../agent-01-pages-59-61/notes/page-61-infant-reflexes.md)
+- [philippine health legislation pp3 5](notes/notes/nursing-theory-ethics-law/philippine-health-legislation-pp3-5.md) — source: [philippine-health-legislation-textbook-pp-3-5.md](../agent-01-philippine-health-legislation-pages-3-5/DELIVERABLES/philippine-health-legislation-textbook-pp-3-5.md)
+- [infectious diseases disaster management pp83 85](notes/notes/community-health/infectious-diseases-disaster-management-pp83-85.md) — source: [public-health-infectious-diseases-disaster-management-pp83-85.md](../agent-01-public-health-disaster-management/notes/public-health-infectious-diseases-disaster-management-pp83-85.md)
+- [cardiac arrest surgical safety gcs pp62 64](notes/notes/medical-surgical/cardiac-arrest-surgical-safety-gcs-pp62-64.md) — source: [cardiac-arrest-surgical-safety-gcs-pages-62-64.md](../agent-cardiac-safety-gcs-pages-62-64/notes/cardiac-arrest-surgical-safety-gcs-pages-62-64.md)
+- [communicable diseases pp68 70](notes/notes/infectious-diseases/communicable-diseases-pp68-70.md) — source: [communicable-diseases-pages-68-70.md](../agent-communicable-diseases-pages-68-70/notes/communicable-diseases-pages-68-70.md)
+- [piaget kohlberg infant development pp26 28](notes/notes/maternal-child/piaget-kohlberg-infant-development-pp26-28.md) — source: [piaget-kohlberg-and-infant-development-pp26-28.md](../agent-developmental-theories-pages-26-28/DELIVERABLES/piaget-kohlberg-and-infant-development-pp26-28.md)
+- [nursing ethics benner stages pp11 13](notes/notes/nursing-theory-ethics-law/nursing-ethics-benner-stages-pp11-13.md) — source: [nursing-ethics-and-benner-stages-pp11-13.md](../agent-ethics-benner/DELIVERABLES/nursing-ethics-and-benner-stages-pp11-13.md)
+- [leptospirosis rabies influenza pneumonia malaria dengue pp71 73](notes/notes/infectious-diseases/leptospirosis-rabies-influenza-pneumonia-malaria-dengue-pp71-73.md) — source: [infectious-diseases-leptospirosis-leprosy-rabies-influenza-pneumonia-malaria-dengue-pp71-73.md](../agent-infectious-diseases-pages-71-73/notes/infectious-diseases-leptospirosis-leprosy-rabies-influenza-pneumonia-malaria-dengue-pp71-73.md)
+- [infectious diseases pp74 76](notes/notes/infectious-diseases/infectious-diseases-pp74-76.md) — source: [infectious-diseases-pages-74-76.md](../agent-infectious-diseases-pages-74-76/notes/infectious-diseases-pages-74-76.md)
+- [liver tests electrolytes tlc pp50 52](notes/notes/medications-and-laboratory/liver-tests-electrolytes-tlc-pp50-52.md) — source: [nursing-liver-tests-electrolytes-other-values-tlc-pp50-52.md](../agent-lab-values-pages50-52/DELIVERABLES/nursing-liver-tests-electrolytes-other-values-tlc-pp50-52.md)
+- [labor postpartum apgar development pp23 25](notes/notes/maternal-child/labor-postpartum-apgar-development-pp23-25.md) — source: [maternal-child-labor-postpartum-apgar-development-pp23-25.md](../agent-maternal-child-development-pages-23-25/DELIVERABLES/maternal-child-labor-postpartum-apgar-development-pp23-25.md)
+- [medication dosage iv calculations pp14 16](notes/notes/medications-and-laboratory/medication-dosage-iv-calculations-pp14-16.md) — source: [medication-dosage-iv-therapy-and-orders-pp14-16.md](../agent-medication-iv-calculations-pp14-16/DELIVERABLES/medication-dosage-iv-therapy-and-orders-pp14-16.md)
+- [psychiatric mental health pp53 55](notes/notes/mental-health/psychiatric-mental-health-pp53-55.md) — source: [psychiatric-mental-health-pages-53-55.md](../agent-mental-health-nursing-pages-53-55/notes/psychiatric-mental-health-pages-53-55.md)
+- [psychiatric mental health pp56 58](notes/notes/mental-health/psychiatric-mental-health-pp56-58.md) — source: [psychiatric-mental-health-pages-56-58.md](../agent-mental-health-nursing-pages-56-58/notes/psychiatric-mental-health-pages-56-58.md)
+- [infant milestones reflexes patient safety consent delegation pp29 31](notes/notes/maternal-child/infant-milestones-reflexes-patient-safety-consent-delegation-pp29-31.md) — source: [infant-milestones-reflexes-patient-safety-consent-delegation-pp29-31.md](../agent-nursing-development-reflexes-safety-consent-pp29-31/DELIVERABLES/infant-milestones-reflexes-patient-safety-consent-delegation-pp29-31.md)
+- [documentation nursing process abbreviations pp17 19](notes/notes/fundamentals/documentation-nursing-process-abbreviations-pp17-19.md) — source: [nursing-documentation-process-abbreviations-pp17-19.md](../agent-nursing-documentation-process-p17-19/DELIVERABLES/nursing-documentation-process-abbreviations-pp17-19.md)
+- [nursing foundations pp9 11](notes/notes/fundamentals/nursing-foundations-pp9-11.md) — source: [nursing-foundations-pages-9-11.md](../agent-nursing-foundations-pages-9-11/notes/nursing-foundations-pages-9-11.md)
+- [nursing quality delegation pp32 34](notes/notes/fundamentals/nursing-quality-delegation-pp32-34.md) — source: [nursing-quality-delegation-pages-32-34.md](../agent-nursing-foundations-pages-9-11/pages-32-34/notes/nursing-quality-delegation-pages-32-34.md)
+- [laws affecting nursing practice images 1 3](notes/notes/nursing-theory-ethics-law/laws-affecting-nursing-practice-images-1-3.md) — source: [laws-affecting-nursing-practice-images-1-3.md](../agent-nursing-laws/DELIVERABLES/laws-affecting-nursing-practice-images-1-3.md)
+- [virginia henderson 14 components](notes/notes/nursing-theory-ethics-law/virginia-henderson-14-components.md) — source: [01-virginia-henderson-14-components.md](../agent-nursing-theory-pages-6-8/DELIVERABLES/01-virginia-henderson-14-components.md)
+- [nursing theorists pages 7 8](notes/notes/nursing-theory-ethics-law/nursing-theorists-pages-7-8.md) — source: [02-nursing-theorists-pages-7-8.md](../agent-nursing-theory-pages-6-8/DELIVERABLES/02-nursing-theorists-pages-7-8.md)
+- [pain management p101](notes/notes/medical-surgical/pain-management-p101.md) — source: [pain-management-page-101.md](../agent-pain-management-page-101/DELIVERABLES/pain-management-page-101.md)
+- [perioperative nursing pp89 91](notes/notes/medical-surgical/perioperative-nursing-pp89-91.md) — source: [perioperative-nursing-pp89-91.md](../agent-perioperative-nursing-pages-89-91/notes/perioperative-nursing-pp89-91.md)
+- [perioperative postoperative nursing pp95 97](notes/notes/medical-surgical/perioperative-postoperative-nursing-pp95-97.md) — source: [perioperative-postoperative-nursing-pp95-97.md](../agent-perioperative-postoperative-pages-95-97/notes/perioperative-postoperative-nursing-pp95-97.md)
+- [pain definition classification assessment pp99 100](notes/notes/medical-surgical/pain-definition-classification-assessment-pp99-100.md) — source: [pain-definition-classification-assessment-pp99-100.md](../agent-postoperative-wound-care-pain-pages98-100/notes/pain-definition-classification-assessment-pp99-100.md)
+- [postoperative wound care surgical instruments p98](notes/notes/medical-surgical/postoperative-wound-care-surgical-instruments-p98.md) — source: [postoperative-wound-care-surgical-instruments-p98.md](../agent-postoperative-wound-care-pain-pages98-100/notes/postoperative-wound-care-surgical-instruments-p98.md)
+- [vital signs abg coagulation cbc pp44 46](notes/notes/medications-and-laboratory/vital-signs-abg-coagulation-cbc-pp44-46.md) — source: [nursing-vital-signs-abg-immunoglobulins-coagulation-cbc-pp44-46.md](../agent-vitals-labs-pages44-46/DELIVERABLES/nursing-vital-signs-abg-immunoglobulins-coagulation-cbc-pp44-46.md)
 
-- Pilot source set: 3 files copied.
-- Source-content check: all 3 copied bodies match their source contents exactly after removing the collection-only metadata comment.
-- Original source blobs: unchanged at the captured base commit.
-- Whole-playground inventory and classification: incomplete.
-- Duplicate/near-duplicate and clinical-conflict audit: not yet completed.
-- Curated fusion/expansion: intentionally not started until the whole note inventory and overlap review are complete.
+## Status
 
-## Next steps
+- Candidate source notes identified from the captured tree: 32.
+- Candidate copies currently present: 31.
+- Verification of the initial 3 pilot notes: exact content matches confirmed after removing the collection metadata prefix.
+- Verification of later copies: pending systematic re-fetch and body comparison.
+- Duplicate/near-duplicate and conflict audit: pending.
+- Curated fusion/expansion: not started; source copies must be verified first.
 
-See [WORK_QUEUE.md](WORK_QUEUE.md) and [review/REVIEW_QUEUE.md](review/REVIEW_QUEUE.md).
+See `MIGRATION_MANIFEST.csv` for each source, captured source blob SHA, intended destination, topic category, page information, and status. See `WORK_QUEUE.md` for remaining checks.
