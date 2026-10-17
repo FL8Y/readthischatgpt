@@ -325,3 +325,14 @@ These checks are learning prompts; real administration requires a valid order, c
 - **Image quality:** Some text is small and perspective-distorted, but the headings, formula values, examples, listed fluids, and implications are legible enough to transcribe. No key value was filled from guesswork.
 - **Not established:** The images do not show a textbook title, edition, or chapter heading beyond the publisher/study-guide header and printed pages. No broader chapter context is assumed.
 - **Verification status:** Content drafted against all three uploaded images; repository re-fetch verification must be recorded separately in the agent log/handoff.
+
+# 17. External references and scope
+
+These references support the added explanations and safety cross-checks; they are **not** citations printed on the textbook pages.
+
+1. **NCBI Bookshelf / StatPearls.** “Pharmacy Calculations.” https://www.ncbi.nlm.nih.gov/books/NBK560924/ — Cross-check for standard pharmacy-calculation conventions, drop-rate formula, and units.
+2. **American Physiological Society, Advances in Physiology Education.** “Isosmotic is not always isotonic: the five-minute version.” https://journals.physiology.org/doi/full/10.1152/advan.00080.2016 — Explains the distinction between D5W's osmolarity in the container and its physiologically hypotonic effect after glucose uptake/metabolism.
+3. **U.S. Food and Drug Administration.** “Labeling Changes on mortality, kidney injury, and excess bleeding with hydroxyethyl starch products.” July 7, 2021. https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/labeling-changes-mortality-kidney-injury-and-excess-bleeding-hydroxyethyl-starch-products — Official HES safety communication, including the recommendation not to use HES unless adequate alternative treatment is unavailable.
+4. **U.S. Food and Drug Administration.** HESPAN package insert. https://www.fda.gov/media/87260/download — Product-label cross-check for the boxed warning and restricted-use statement.
+
+The calculations are educational worked examples. External sources do not validate a prescription for a particular patient, and this note is not a substitute for current local policy, drug-specific references, or clinical supervision.
