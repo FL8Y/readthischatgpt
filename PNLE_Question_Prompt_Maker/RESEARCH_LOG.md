@@ -1,6 +1,6 @@
 PNLE QUESTION PROMPT MAKER — RESEARCH LOG
 
-Status: Initial implementation committed; verification pending.
+Status: Initial implementation committed and GitHub path/content verification completed. Live model testing remains pending because no target API/runtime was provided.
 Scope: Build a standalone, reusable prompt-maker folder at the repository root for generating hard, original PNLE-style multiple-choice practice questions from a topic and skill selection.
 Repository: FL8Y/readthischatgpt
 Folder: PNLE_Question_Prompt_Maker/
@@ -27,7 +27,7 @@ Research and decisions
    - Decision: Schedules confirm sittings and administrative details, not the actual wording or difficulty distribution of question booklets.
 
 5. Availability of complete actual question papers
-   - Finding: The reviewed official PRC pages surfaced schedules, examination programs, and TOS materials, but did not establish public availability of complete official PNLE question booklets for every sitting from 2021 through 2026.
+   - Finding: The official PRC pages reviewed surfaced schedules, examination programs, and TOS materials, but did not establish public availability of complete official PNLE question booklets for every sitting from 2021 through 2026.
    - Classification: NOT VERIFIED that full official papers are publicly accessible for the entire requested period.
    - Decision: Do not claim to have scanned every paper. Do not rely on unofficial recalled questions as authenticated exam content. Build original questions from official blueprint information and sound item-writing principles.
 
@@ -41,11 +41,12 @@ Implementation decisions
 - Avoid copying or reconstructing actual/recalled/leaked exam questions.
 - Make the prompt portable across AI APIs; API-specific JSON schemas can be added by the app when needed.
 
-Files created
-- MASTER_SYSTEM_PROMPT.txt
-- USER_PROMPT_TEMPLATE.txt
-- README.md
-- COMPLETION_CHECKLIST.md
+Files created and verified
+- MASTER_SYSTEM_PROMPT.txt — fetched successfully; 13,838 characters.
+- USER_PROMPT_TEMPLATE.txt — fetched successfully; 1,912 characters.
+- README.md — fetched successfully; 2,574 characters.
+- RESEARCH_LOG.md — fetched successfully; this file.
+- COMPLETION_CHECKLIST.md — fetched successfully; 2,246 characters.
 
 Progress log
 - [x] Establish folder scope and create standalone root folder through new files.
@@ -53,9 +54,10 @@ Progress log
 - [x] Draft reusable system prompt.
 - [x] Draft fill-in user prompt template.
 - [x] Document source limitations and research decisions.
-- [ ] Independently re-fetch all created files from GitHub and verify exact contents/paths.
+- [x] Independently re-fetch all created files from GitHub and verify paths and readable contents.
 - [ ] Validate a sample generated question set against the prompt (requires an available model/API execution environment).
 - [ ] Add app-specific structured output schema only if the app's parser requirements are known.
+- [ ] Review generated clinical answer keys with a qualified nursing reviewer before production use.
 
 Next validation rule
-Do not mark this project fully verified until GitHub paths and contents are re-fetched successfully. Do not claim live model-output testing because no target AI API or app runtime was supplied in this task.
+Do not claim live model-output testing because no target AI API or app runtime was supplied. Do not claim every official 2021–2026 paper was scanned: the available official source set reviewed here does not establish public access to complete official question booklets for every sitting.
