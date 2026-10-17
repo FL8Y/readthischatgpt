@@ -1,32 +1,44 @@
-# Research Log — Communicable Infections Image Batch
+# Research Log — Communicable Infections Image Batch (pp. 77–82)
 
-## Method
-1. Read live project source-of-truth, start guide, session protocol, status, queue, master prompt, research/design, research log, completion checklist, page-tracker template, generated-output README, playground README, session handoff, and notes README.
-2. Inspected all three supplied images in upload order. Printed page numbers 80, 81, and 82 are visible.
-3. Created a topic-by-topic coverage inventory before drafting.
-4. Kept image-supported textbook content separate from explanatory additions and external cross-checks.
-5. Saved deliverables in this agent's assigned playground and re-fetched the saved content for verification.
+## Assignment and repository
+- Agent: agent-01-communicable-infections
+- Subject: Communicable/infectious diseases from nursing study-guide tables
+- Write boundary: `notes/agents-playground/agent-01-communicable-infections/`
+- Repository `FL8Y/readthischatgpt`, branch `main`; recursive tree SHA at inventory: `4068979135fb1728eedc542dc056e65bb34d0ba6`.
+- Existing adjacent pp. 80–82 notes were read and preserved; pp. 77–79 were appended to the same combined note to avoid duplicate chapter files.
 
-## External sources consulted
-- CDC, **Clinical Overview of Viral Hepatitis** (updated Aug. 29, 2025): https://www.cdc.gov/hepatitis/hcp/clinical-overview/index.html — transmission routes, testing, prevention, chronicity and treatment distinctions for viral hepatitis.
-- CDC, **Clinical Overview of Hepatitis A** (updated Aug. 29, 2025): https://www.cdc.gov/hepatitis-a/hcp/clinical-overview/ — current HAV incubation range/average and fecal–oral transmission.
-- WHO, **Cholera fact sheet**: https://www.who.int/news-room/fact-sheets/detail/cholera — safe water/sanitation prevention and rehydration-centered care.
-- CDC, **Treating Cholera** (updated May 29, 2025): https://www.cdc.gov/cholera/treatment/index.html — ORS is primary treatment; severe dehydration requires IV fluids; antibiotics are adjuncts in selected cases.
-- CDC, **Clinical Overview of Shigellosis** (updated Mar. 18, 2024): https://www.cdc.gov/shigella/hcp/clinical-overview/index.html — species, symptoms, stool testing and antimicrobial-resistance-aware treatment.
-- CDC, **Treatment of Shigella Infection** (updated Mar. 12, 2024): https://www.cdc.gov/shigella/treatment/ — supportive hydration, antibiotic selection based on clinical need and susceptibility, and avoidance of antimotility drugs in bloody diarrhea.
-- CDC DPDx, **Taeniasis**: https://www.cdc.gov/dpdx/taeniasis/ — causative Taenia species, life cycle, stool diagnosis and cysticercosis risk associated with T. solium.
-- CDC DPDx, **Intestinal Hookworm**: https://www.cdc.gov/dpdx/hookworm/ — current human hookworm agents and relevance of Ancylostoma ceylanicum.
-- CDC, **Clinical Overview of Crusted Scabies**: https://www.cdc.gov/scabies/hcp/clinical-overview/ — control of highly contagious crusted scabies, contacts, bedding/clothing and clinical management.
+## Governing repository files fetched
+`NOTES_MAKER_SOURCE_OF_TRUTH.md`, `START_HERE_NOTES.md`, `notes/SESSION_PROTOCOL.md`, `notes/PROJECT_STATUS.md`, `notes/WORK_QUEUE.md`, `notes/MASTER_SYSTEM_PROMPT.txt`, `notes/RESEARCH_AND_DESIGN.md`, `notes/RESEARCH_LOG.md`, `notes/COMPLETION_CHECKLIST.md`, `notes/PAGE_TRACKER_TEMPLATE.md`, `notes/generated/README.md`, `notes/agents-playground/README.md`, `notes/agents-playground/AGENT_MASTER_PROMPT.md`, `notes/SESSION_HANDOFF.md`, and `notes/README.md`.
 
-## Cross-check findings that matter
-- HAV average incubation is commonly given as about 28 days (range 15–50 days) by CDC; the photographed guide says 30 days as average. Treat 30 days as the book's rounded figure, not an exact universal value.
-- Viral hepatitis types differ in route and chronicity. HAV and HEV are mainly fecal–oral; HBV, HCV, and HDV are associated with blood/body-fluid exposure (with specific distinctions). HAV and HBV vaccines exist; there is no HCV vaccine. HDV infection requires HBV.
-- Current cholera guidance prioritizes immediate rehydration (ORS; IV fluids for severe dehydration). Antibiotics are adjunctive for selected severe cases, not a substitute for fluid/electrolyte replacement.
-- Shigellosis diagnosis and antibiotic decisions should use contemporary stool testing and susceptibility/local resistance information. The old source's fixed management list should not be treated as current prescribing guidance.
-- Taeniasis from adult tapeworm infection must not be conflated with cysticercosis; T. solium eggs can cause cysticercosis.
-- The page's old drug names, doses, diagnostic tests, and management statements are study-guide content, not current patient-care instructions.
+## Image inventory
+| Upload | Printed page | Sections |
+|---|---:|---|
+| 1 | 77 | Typhoid continuation; infectious mononucleosis; start of HSV |
+| 2 | 78 | HSV continuation; chlamydia; gonorrhea |
+| 3 | 79 | Gonorrhea continuation and nursing management; candidiasis; syphilis; HIV/AIDS and opportunistic infection categories |
+| Existing adjacent set | 80–82 | Hepatitis, enteric infections, helminths, enterobiasis and scabies |
 
-## Limitations
-- External research here is a targeted cross-check, not a systematic review of every parasite listed.
-- No local Philippine Department of Health protocol was consulted in this pass; for clinical practice, current local protocols and a qualified clinician take precedence.
-- Image fidelity is checked against the visible photographed tables; shadows and soft focus limit confidence in a few small words. These are flagged rather than inferred.
+## External research
+Official cross-checks were consulted from WHO, CDC and NIH ClinicalInfo. Detailed URLs, topic mappings, and scope caveats are recorded in `REFERENCES_PP77-79.md`.
+
+Key findings:
+- Typhoid: current antibiotics require resistance-informed local guidance; the old fixed list is not universal current prescribing advice.
+- EBV: usual mono features align; CDC says Monospot is not recommended for general use.
+- HSV: antivirals suppress symptoms/recurrences but do not eliminate latent virus; eye, CNS and neonatal presentations can be severe.
+- Chlamydia: NAAT is preferred for many urogenital specimens; partners need evaluation/treatment and retesting is recommended around three months.
+- Gonorrhea: photographed ceftriaxone doses are outdated relative to current CDC adult/adolescent recommendations; clearly flagged as historical source content.
+- Candidiasis: diagnosis/treatment depends on site; pregnancy-specific treatment differs; uncomplicated VVC is not usually sexually acquired.
+- Syphilis: diagnostic serology typically combines nontreponemal and treponemal tests; penicillin choice/duration depends on stage and context.
+- HIV: contemporary testing uses antigen/antibody and supplemental algorithms; Western blot is not a universal current confirmation method; ART improves outcomes and prevents sexual transmission when viral suppression is maintained.
+
+## Fidelity and uncertainty
+- Page 77 begins mid-row. The heading is cropped; row content supports the typhoid identification but missing title is not fabricated.
+- “early HF” in typhoid complication line is ambiguous.
+- One gonorrhea continuation line is cropped at the bottom of p. 78; exact ending is not reconstructed.
+- Old drug entries are preserved only as source claims and separated from modern cross-checks.
+- The checklist is section-based since the photos show dense table rows, with no separate diagrams/arrows/captions.
+
+## Verification plan/status
+- Combined note fetched before append; update commit created.
+- Next: re-fetch all updated/created files; check pp. 77–79 headings and lists, while confirming pp. 80–82 content remains present.
+- This is targeted official-source checking, not a systematic review or formal clinical review.
