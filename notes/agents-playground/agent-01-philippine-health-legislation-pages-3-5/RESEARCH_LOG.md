@@ -46,8 +46,12 @@ Key constraints: actual files are required; preserve source content and uncertai
 - RA 11166 expressly repealed RA 8504.
 - RA 10028 amended RA 7600.
 - RA 6425 is historical and was superseded by later dangerous-drug law.
-- Remaining references needing authoritative checking include RA 10352 as described; RA 7846 exact title/coverage; RA 1136 title; RA 6541/PD 1096 grouping; and duplicated RA 8749.
+- The Senate Legislative Reference Bureau confirms RA 7846's full title and that PD 1096 revised RA 6541.
+- RA 10352 is the 2013 General Appropriations Act; RA 10351 is the Sin Tax Reform Act. The guide's pairing of RA 10352 with alcohol/tobacco excise tax is likely a number typo.
+- Remaining references needing authoritative checking include RA 1136 title, the AOs/proclamations, and duplicated RA 8749.
 - No legal advice is offered; this is a study aid.
 
 ## Verification state
-Notes and checklist drafts prepared for repository save. Do not mark the deliverable DONE until saved files are re-fetched and audited against all three images.
+- Main note file saved and re-fetched after corrections.
+- Coverage audit against all three photographs passed for visible headings, list entries, and explanatory paragraphs.
+- Legal cross-check remains partial; do not mark full legal verification DONE.
