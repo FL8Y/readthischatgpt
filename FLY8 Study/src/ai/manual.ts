@@ -37,11 +37,9 @@ export function getManualHandler(): ManualHandler | null {
 }
 
 const FORMAT: Record<ManualExpect, string> = {
-  json:
-    'Reply with ONLY one ```json fenced code block that holds valid JSON (double quotes, no trailing commas, no comments). ' +
-    'Write nothing before or after the block: no greeting, no explanation, no notes.',
-  markdown: 'Reply with ONLY the Markdown text itself. No greeting, no explanation, no surrounding code fence, no closing remarks.',
-  text: 'Reply with ONLY the requested text. No greeting, no explanation, no closing remarks.',
+  json: 'Reply with ONLY one ```json fenced code block of valid JSON (double quotes, no trailing commas, no comments). Nothing before or after it.',
+  markdown: 'Reply with ONLY the Markdown text: no greeting, no surrounding code fence, no closing remarks.',
+  text: 'Reply with ONLY the requested text: no greeting, no closing remarks.',
 };
 
 /**
@@ -52,9 +50,9 @@ export function composeManualPrompt(req: ModelRequest, opts: ManualOptions = {})
   const expect = opts.expect ?? 'text';
   const fmt = [
     FORMAT[expect],
-    'Keep to exactly the number of items the task asks for; do not add extra items.',
+    'Produce exactly the number of items the task asks for, no extras.',
     opts.partsHint ? opts.partsHint : '',
-    'If you run out of room, stop at a complete item and I will type "continue".',
+    'If you run out of room, stop at a complete item; I will type "continue".',
   ].filter(Boolean);
   return [
     '=== ROLE AND RULES ===',

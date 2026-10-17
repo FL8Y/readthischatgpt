@@ -120,7 +120,7 @@ describe('reference outline (headings only)', () => {
     const state = emptyState();
     const topic = { id: 't', folderId: 'f', title: 'Schizophrenia', body: 'notes', sourceIds: [] };
     const r = tutorRequest(state, topic, [], 'What should I review?', 0);
-    expect(r.system).toContain("learner's own review deck");
+    expect(r.system).toContain("learner's review deck");
     expect(r.system).toMatch(/Schizophrenia/);
   });
 });

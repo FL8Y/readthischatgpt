@@ -45,13 +45,17 @@ const NOTE_TEMPLATE = [
   '# <Subtopic title>',
   'Area: <NP1-NP5> | Type: <disease / concept / skill / drug class / law or ethics / program> | Exam priority: <high / medium / low>',
   '## What it is',
-  '2-4 plain sentences.',
+  '1-3 plain sentences.',
+  '## Mechanism (why)',
+  '- cause -> change in the body -> sign or symptom, so the findings can be derived, not memorised',
   '## Must-know facts',
-  '- bullets of facts a nurse must remember',
+  '- only facts an exam question could test',
   '## What the nurse assesses',
-  '- findings, signs, risk factors (expected vs abnormal)',
+  '- findings and risk factors (expected vs abnormal)',
   '## Priority nursing actions',
-  '1. numbered in priority order, and say WHY that order (Maslow / ABC / safety / assess before act)',
+  '1. numbered in priority order; after each, the rule that puts it there (Maslow / ABC / safety / assess before act / least invasive)',
+  '## Decision rule',
+  '- "If you see X, do Y first, because Z"; and the one finding that changes the order',
   '## Treatments and medications (general terms only)',
   '- drug classes and what to watch; NO doses unless you are certain they are standard',
   '## Complications and red flags',
@@ -59,13 +63,13 @@ const NOTE_TEMPLATE = [
   '## Client and family teaching',
   '- teach-back points; what shows understanding',
   '## How the exam asks about it',
-  '- typical question patterns, "which first" traps, look-alike options',
+  '- the trap: look-alike options and the tempting wrong action, each with its error type (wrong time, wrong client, symptom not cause, skipped assessment, out of scope)',
   '## Memory aid',
-  '- a mnemonic only if it is genuinely useful; say if you made it up',
+  '- a mnemonic only if genuinely useful; say if you made it up',
   '## Related topics',
-  '- [[Another subtopic]], [[A topic in another area]] (use exact note titles so links connect)',
+  '- [[Another subtopic]], [[A topic in another area]] (exact note titles so links connect)',
   '## Check against your textbook',
-  '- anything you are less than sure of, anything beyond common textbook teaching, and anything that may differ in Philippine practice or policy',
+  '- anything you are unsure of, beyond common textbook teaching, or possibly different in Philippine practice or policy',
 ].join('\n');
 
 /** The full prompt text. Pure: same input, same output. */
@@ -77,20 +81,20 @@ export function topicBuilderPrompt(input: TopicBuilderInput): string {
 
   lines.push(
     'ROLE',
-    'You are a Philippine nursing licensure exam (PNLE) review writer and tutor. You write complete, clear, accurate study notes for one nursing student. You think like a board-exam item writer: you know what is tested, how it is tested, and where students lose points.',
+    'You are a Philippine nursing licensure exam (PNLE) review writer for one nursing student. You think like a board-exam item writer: what is tested, how, and where students lose points.',
     '',
     'MY TOPIC',
     topic,
     input.area?.trim() ? `Exam area: ${input.area.trim()}` : 'Exam area: choose the best fit from the list below and say which.',
     '',
-    'EXAM AREAS (current structure as best known; if you disagree, say so):',
+    'EXAM AREAS (best known structure; if you disagree, say so):',
     PNLE_AREAS_TEXT,
     '',
   );
 
   if (input.notes?.trim()) {
     lines.push(
-      'MY OWN NOTES (build on these; keep what is right, fix what is wrong, and tell me what you changed under "Check against your textbook"):',
+      'MY OWN NOTES (build on them: keep what is right, fix what is wrong, list changes under "Check against your textbook"):',
       '"""',
       input.notes.trim().slice(0, 6000),
       '"""',
@@ -99,7 +103,7 @@ export function topicBuilderPrompt(input: TopicBuilderInput): string {
   }
   if (existing.length) {
     lines.push(
-      'NOTES I ALREADY HAVE (do not rewrite these titles; link to them with [[Title]] where related):',
+      'NOTES I ALREADY HAVE (do not rewrite these titles; link with [[Title]] where related):',
       existing.slice(0, 80).map((t) => `- ${t}`).join('\n'),
       '',
     );
@@ -107,7 +111,7 @@ export function topicBuilderPrompt(input: TopicBuilderInput): string {
   const outline = input.referenceOutline ?? relatedOutline(topic, input.area);
   if (outline.length) {
     lines.push(
-      'REFERENCE COVERAGE LIST (headings from my own review deck; cover every one that belongs under my topic, merge tiny ones, and tell me in the coverage map if one is not exam-relevant):',
+      'REFERENCE COVERAGE LIST (headings from my own review deck; cover each that belongs under my topic, merge tiny ones, and say in the coverage map if one is not exam-relevant):',
       outline.slice(0, 60).map((h) => `- ${h}`).join('\n'),
       '',
     );
@@ -121,28 +125,27 @@ export function topicBuilderPrompt(input: TopicBuilderInput): string {
 
   lines.push(
     'WHAT I WANT',
-    'Cover my topic COMPLETELY so I do not miss anything the exam could ask. Work in this order:',
-    '1. COVERAGE MAP. Before any notes, write a numbered checklist of EVERY subtopic, concept, skill, drug class, program, law and common exam trap that belongs under my topic across all five exam areas. Be exhaustive: include basics, assessment, priority actions, complications, teaching, ethics/legal, community and Philippine health-program angles where relevant, and cross-links to other topics. Mark each item high / medium / low exam priority. Think about what is easy to forget, and add it.',
-    '2. NOTES. Then write one note for each checklist item, in the exact template below. Order them from most to least important. Notes for tiny items may be short; important ones should be thorough. Aim for about ' + words + ' words per important note.',
-    '3. SELF-AUDIT. Silently re-read your coverage map and confirm every item has a note. If you ran out of room, stop at a clean boundary (end of a note) and finish with the line ' + CONTINUE_MARK + ' <title of the next subtopic>. I will reply "continue".',
+    'Cover my topic COMPLETELY so nothing the exam could ask is missed. Work in this order:',
+    '1. COVERAGE MAP. Before any notes, a numbered checklist of EVERY subtopic, concept, skill, drug class, program, law and exam trap under my topic across all five exam areas: basics, assessment, priority actions, complications, teaching, ethics/legal, community and Philippine health-program angles, cross-links. Mark each high / medium / low exam priority. Add what is easy to forget.',
+    '2. NOTES. One note per checklist item in the template below, most to least important. Teach mechanism first (why), then the decision rule, then the trap; keep a fact only if it is testable. Tiny items may be short; important ones about ' + words + ' words.',
+    '3. SELF-AUDIT. Silently check every map item has a note. If you run out of room, stop at the end of a note and finish with the line ' + CONTINUE_MARK + ' <title of the next subtopic>. I will reply "continue".',
     '',
-    'NOTE TEMPLATE (copy this structure for every note):',
+    'NOTE TEMPLATE (use for every note):',
     NOTE_TEMPLATE,
     '',
-    'OUTPUT FORMAT (my app reads this, so follow it exactly)',
-    '- Write the coverage map first as plain text with NO line that starts with "# ".',
-    '- Then each note starts with exactly ONE "# " heading line (a single # followed by a space and the title). Use "##" for the sections inside a note. Never use a single "#" anywhere else.',
-    '- Use [[Exact Note Title]] links to connect related notes, including notes for other exam areas.',
-    '- When the last note is finished and the coverage map is complete, end with the line ' + END_MARK + '.',
-    '- No introduction, no closing chat, no code fences around the notes.',
-    '',
     'RULES FOR ACCURACY',
-    '- Use only well-established nursing knowledge. If you are not sure, say "verify" in the "Check against your textbook" section instead of guessing.',
-    '- Never invent drug doses, lab ranges, statistics, guidelines, citations, page numbers or links. Give a number only if it is standard textbook knowledge and you are confident.',
-    '- Do not copy or recall real board-exam questions. Describe how the exam asks, in your own words.',
-    '- Say where Philippine practice or policy (DOH programs, local protocols) may differ from general textbooks, and mark it "verify local policy".',
-    '- Teach for understanding: explain WHY, put actions in priority order, and show how Maslow, ABCs, safety and assess-before-act decide the order.',
-    '- This is study support for an exam, not advice for a real patient.',
+    '- Well-established nursing knowledge only. If unsure, write "verify" in "Check against your textbook" instead of guessing.',
+    '- Never invent drug doses, lab ranges, statistics, guidelines, citations, page numbers or links. Give a number only if standard textbook knowledge and you are confident.',
+    '- Do not copy or recall real board-exam questions; describe how the exam asks, in your own words.',
+    '- Where Philippine practice or policy (DOH programs, local protocols) may differ from general textbooks, mark it "verify local policy".',
+    '- This is study support, not advice for a real patient.',
+    '',
+    'OUTPUT FORMAT (my app reads this, so follow it exactly)',
+    '- Coverage map first, plain text, NO line that starts with "# ".',
+    '- Then each note starts with exactly ONE "# " heading line (single # then a space and the title). Use "##" inside notes. No other single "#" anywhere.',
+    '- Link related notes with [[Exact Note Title]], including other exam areas.',
+    '- When the last note is done and the map is complete, end with the line ' + END_MARK + '.',
+    '- No introduction, no closing chat, no code fences around the notes.',
   );
 
   return lines.join('\n');

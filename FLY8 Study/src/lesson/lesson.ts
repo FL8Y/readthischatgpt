@@ -10,14 +10,16 @@ const MAX_ITEM = 400;
 const MAX_CODE = 20_000;
 
 const LESSON_SHAPE =
-  'Reply with JSON only (no prose outside it): {"explanation":string (Markdown),' +
+  'Write "explanation" (Markdown) in this order: the mechanism (why it happens), the decision rule (what the nurse does first and why), the exam trap (wrong habit). ' +
+  'Keep a fact only if an exam question could test it. keyFacts are cues that trigger a decision; each examTrap names the wrong habit and the correct move. ' +
+  "Learner's notes first; anything NOT in them goes in a section starting with the line \"AI-added, check against your textbook:\". " +
+  'Never invent doses, lab ranges or claims; say if unsure. ' +
+  'Omit "mnemonic" and "diagram" unless good. ' +
+  'svg: basic shapes and text only, with a viewBox; no scripts, links or images. ' +
+  'Reply with JSON only (no prose outside it): {"explanation":string,' +
   '"mnemonic":{"text":string,"rationale":string},"keyFacts":string[],"examTraps":string[],' +
-  '"relatedTopics":string[] (titles of related nursing topics, no brackets),' +
-  '"diagram":{"kind":"svg"|"mermaid","code":string,"caption":string}}. ' +
-  'Omit "mnemonic" and "diagram" if you cannot make a good one. ' +
-  'For an svg diagram use only basic shapes (svg, g, rect, circle, ellipse, line, polyline, polygon, path, text) with a viewBox, no scripts, no links, no images. ' +
-  "Build on the learner's notes first. Anything you add that is NOT in their notes must be written in a section starting with the line " +
-  '"AI-added, check against your textbook:". Do not invent doses, lab ranges or clinical claims you are unsure of; say so instead.';
+  '"relatedTopics":string[] (related topic titles, no brackets),' +
+  '"diagram":{"kind":"svg"|"mermaid","code":string,"caption":string}}';
 
 /** Prompt for a rich lesson. Only call this for a folder where canTeach() is true. */
 export function lessonPrompt(state: AppState, topic: Topic, now: number): ModelRequest {

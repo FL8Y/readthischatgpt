@@ -19,14 +19,14 @@ export const OTHER_KINDS_MIN_COUNT = 6;
 
 const OTHER_KINDS_ADDENDUM =
   'OTHER QUESTION KINDS. About 85% of the items must be PNLE vignette "choice" items in the OUTPUT SCHEMA above. ' +
-  'The remaining ~15% (roughly one in seven) may be other kinds when a fact suits it, to keep practice varied. Mark the PNLE items ' +
-  '"kind":"choice" or leave "kind" out. Exact shapes for the other kinds (each also carries "topic" when topics are named):\n' +
+  'The other ~15% may be these kinds where a fact suits it. PNLE items carry "kind":"choice" or no "kind". ' +
+  'Each also carries "topic" when topics are named:\n' +
   OTHER_KINDS_SHAPES +
-  'Never include answers in the stem. The same safety rules apply to every kind.';
+  'Never put answers in the stem. The same safety rules apply.';
 
 function weakLine(state: AppState, now: number): string {
   const weak = weakTopics(state.topics, state.events, now).map((p) => p.title);
-  return weak.length ? `Weak topics to favour, most urgent first: ${weak.join(', ')}.` : 'No weak topics identified yet.';
+  return weak.length ? `Weak, most urgent first (aim distractors at their reasoning errors): ${weak.join(', ')}.` : 'No weak topics identified yet.';
 }
 
 function exemplarBlock(query: { topicTitle: string; bodyText: string }, bank: readonly PnleItem[]): string {
@@ -75,7 +75,7 @@ export function pnlePopQuizRequest(
     user: join(
       exemplarBlock({ topicTitle: topic.title, bodyText: topic.body }, bank),
       weakLine(state, now),
-      `Write ${count} PNLE quiz question${count === 1 ? '' : 's'} on "${topic.title}". Use "${topic.title}" as the "topic" of every item.`,
+      `Write ${count} PNLE quiz question${count === 1 ? '' : 's'} on "${topic.title}". "topic" of every item: "${topic.title}".`,
       `The learner's notes:\n${topic.body.slice(0, NOTES_CAP_POP)}`,
     ),
   };

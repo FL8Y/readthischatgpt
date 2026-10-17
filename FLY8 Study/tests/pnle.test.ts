@@ -93,9 +93,9 @@ describe('PNLE system prompt', () => {
     );
   });
 
-  it('stays inside the word budget (2,500-4,000 words)', () => {
-    expect(PNLE_PROMPT_WORDS).toBeGreaterThanOrEqual(2500);
-    expect(PNLE_PROMPT_WORDS).toBeLessThanOrEqual(4000);
+  it('stays inside the word budget (1,500-2,300 words; shortened on purpose, see promptBudget.test.ts)', () => {
+    expect(PNLE_PROMPT_WORDS).toBeGreaterThanOrEqual(1500);
+    expect(PNLE_PROMPT_WORDS).toBeLessThanOrEqual(2300);
   });
 });
 

@@ -95,12 +95,10 @@ export interface VerificationResult {
 export function verificationPrompt(chunkTexts: string[]): { system: string; user: string } {
   return {
     system:
-      'You check nursing study notes for accuracy. Reply with JSON only: ' +
-      '{"legit":boolean,"issues":string[],"suggestedOrigin":string|null}. ' +
-      'List clinically doubtful or internally inconsistent statements in "issues". ' +
-      '"suggestedOrigin" is your best guess of the textbook or guideline family the material resembles; ' +
-      'use null if unsure. Name only a general textbook or guideline family, never a specific edition, page, quote or link. ' +
-      'Never invent citations, page numbers or URLs.',
+      'You check nursing study notes for accuracy. Each doubtful or self-contradicting claim is one "issues" entry: quote it, say why ' +
+      '(wrong, unsafe, outdated, ambiguous) and the correction, or "verify" if unsure. ' +
+      '"suggestedOrigin": a general textbook or guideline family the material resembles, else null; never an edition, page, quote, link or invented citation. ' +
+      'Reply with JSON only: {"legit":boolean,"issues":string[],"suggestedOrigin":string|null}.',
     user: chunkTexts.map((t, i) => `[${i + 1}] ${t}`).join('\n\n'),
   };
 }
