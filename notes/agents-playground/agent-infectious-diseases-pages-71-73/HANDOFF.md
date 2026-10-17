@@ -4,35 +4,39 @@
 Read three supplied textbook photos and create evidence-informed notes for the visible material on printed pages 71–73.
 
 ## Repository standards actually inspected
-Read root source-of-truth and start guide; session protocol, status, queue, master prompt, research/design and log, completion checklist, page tracker template, generated README, playground README, notes README, session handoff, user prompt template, and agent master prompt from live GitHub. Confirmed exclusive playground write boundary and the image-to-note/re-fetch/audit loop.
+Read the live source-of-truth and start guide; session protocol, status, queue, master prompt, research/design and log, completion checklist, page tracker template, generated README, playground README, notes README, session handoff, user prompt template, and agent master prompt. Confirmed the assigned playground write boundary and image-to-note/re-fetch/audit loop.
 
 ## Deliverables
-
-1. `notes/infectious-diseases-leptospirosis-leprosy-rabies-influenza-pneumonia-malaria-dengue-pp71-73.md` — all seven visible topics, source/explanation/current-cross-check separation, both leprosy tables, glossary, comparison table, nursing relevance, recap and retrieval questions.
+1. `notes/infectious-diseases-leptospirosis-leprosy-rabies-influenza-pneumonia-malaria-dengue-pp71-73.md` — seven visible topics, source/explanation/current-cross-check separation, both leprosy tables, glossary, comparison table, nursing relevance, recap, retrieval questions.
 2. `references/clinical-cross-checks.md` — WHO/CDC sources for each high-stakes clinical topic.
-3. `IMAGE_COVERAGE_CHECKLIST.md` — upload-by-upload coverage inventory including tables and uncertainty.
-4. `WORK_QUEUE.md` — item-level completion and verification status.
-5. `RESEARCH_LOG.md` — repository standards, decisions, source set and uncertainty.
+3. `IMAGE_COVERAGE_CHECKLIST.md` — upload-by-upload coverage inventory including tables and source limitations.
+4. `WORK_QUEUE.md` — item-level status and verification evidence.
+5. `RESEARCH_LOG.md` — repository standards, extraction decisions, references and limits.
 6. This `HANDOFF.md`.
 
 ## Page inventory and outcome
 - Upload 1 / printed p. 71: leptospirosis; leprosy; PB table; beginning MB table.
 - Upload 2 / printed p. 72: MB full-course continuation; rabies; influenza; pneumonia start.
-- Upload 3 / printed p. 73: pneumonia continuation; malaria; dengue visible fragment.
+- Upload 3 / printed p. 73: pneumonia continuation; malaria; visible dengue fragment.
 - No unseen dengue content was fabricated.
 
 ## Clinical/source cautions
-- The leprosy PB table appears to omit clofazimine in contrast to current WHO MDT, so discrepancy remains explicit.
-- Source pediatric rifampicin differs between PB and MB tables as visually read; no attempt to reconcile by inference.
-- The exact child MB clofazimine interval is affected by shadow.
+- The source PB leprosy table appears to omit clofazimine compared with current WHO MDT; discrepancy is explicit.
+- The pediatric rifampicin values differ between PB and MB tables as visually read; no inference was used to reconcile them.
+- The child MB clofazimine interval is partly shadowed.
 - “TSB” and part of the leptospirosis PCR parenthetical are unclear.
-- Current rabies PEP, influenza aspirin caution, pneumonia antibiotics, malaria regimens and dengue management are clearly identified as external updates.
-- These notes are educational and have not received qualified nursing-professional review.
+- The preceding heading for the p. 73 pneumonia classification fragment is not in the supplied frame.
+- Modern rabies PEP, influenza aspirin caution, pneumonia antibiotic choice, malaria treatment, and dengue warning-sign management are separately identified as external cross-checks.
+- Notes have not been reviewed by a qualified nursing professional.
 
 ## Verification record
-- Main note save was acknowledged by GitHub at commit `59b2b0278025a3487fb386c434a05c456d061ffa`.
-- The saved note must be re-fetched and checked for topic headings/table markers before it may be called verified.
-- After all six files have been re-fetched, replace any in-progress statuses with results based on returned content.
+All six files were re-fetched from GitHub main and key markers checked:
+- Main note SHA `e3d785df285349606e33a3169f2d8fffef80c14f`, 30,124 characters.
+- References SHA `af0144b153286030be0baf5f1417337c7bca84ff`, 6,164 characters.
+- Checklist SHA `4f1ec74cd761c77c890daf686f1e6c667de37465`, 4,994 characters.
+- Queue SHA `60b12372836c702d7c32f6e17bdd095975c6da19`, 3,282 characters before its final verification summary was added.
+- Research log SHA `23dfd8229857a5dac16fe832b1c18b311ecac79e`, 3,638 characters before its final verification summary was added.
+- This handoff SHA `376b1090bd76f166a8ddab80918c65990fc2b586`, 2,865 characters before its final update.
 
-## Exact next action
-Re-fetch all six paths from GitHub; validate each topic heading, PB/MB tables, reference URLs, three-image coverage checks, and consistent final status. If any check fails, correct the file and repeat the failed check.
+## Final status
+The assigned three-image batch has been written and its actual GitHub contents re-fetched. Coverage is checked against the visible page content; clinical accuracy review by a qualified nurse remains outside this automated verification.
