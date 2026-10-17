@@ -25,6 +25,7 @@ This is the browseable collection of study-note copies from the agent workspaces
 
 ## Infectious diseases
 
+- [Integrated communicable-disease and public-health overview — pp. 68–85](curated/infectious-diseases/infectious-disease-and-public-health-overview-pp68-85.md) — curated overview linking five detailed source notes
 - [Communicable diseases — pp. 68–70](notes/infectious-diseases/communicable-diseases-pp68-70.md)
 - [Infectious diseases — pp. 71–73](notes/infectious-diseases/leptospirosis-rabies-influenza-pneumonia-malaria-dengue-pp71-73.md)
 - [Infectious diseases — pp. 74–76](notes/infectious-diseases/infectious-diseases-pp74-76.md)
@@ -70,7 +71,7 @@ This is the browseable collection of study-note copies from the agent workspaces
 
 ## Verification status
 
-All 32 collected note copies were independently re-fetched and compared against their live source bodies after removing the collection-only provenance comment; the bodies match exactly. The manifest records all 32 source paths, source SHAs, destinations, and verification state. The mental-health derivative is a separate synthesis linked to its two source copies; it does not replace or edit them. A second perioperative/pain derivative integrates five related page-specific notes and links each source. Full non-note inventory, relationship classification across the entire corpus, and final link/path audit remain outstanding.
+All 32 collected note copies were independently re-fetched and compared against their live source bodies after removing the collection-only provenance comment; the bodies match exactly. The manifest records all 32 source paths, source SHAs, destinations, and verification state. The mental-health derivative is a separate synthesis linked to its two source copies; it does not replace or edit them. A second perioperative/pain derivative integrates five related page-specific notes and links each source. A third infectious-disease/public-health overview links five detailed notes across printed pp. 68–85. Full non-note content audit, relationship classification across the entire corpus, and final link/path audit remain outstanding.
 
 ## Next steps
 
