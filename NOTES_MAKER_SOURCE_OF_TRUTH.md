@@ -1,7 +1,7 @@
 # Notes-Maker Project — Single Source of Truth
 
 ## Canonical project location
-The active project is `notes/`. Do not continue development in `Detailed_Image_Notes_Maker/`; it is being retired as a duplicate. All new generated study notes go in `notes/generated/`.
+The active project is `notes/`. The duplicate `Detailed_Image_Notes_Maker/` directory has been removed from the current branch. All new generated study notes go in `notes/generated/`. The old directory's unique nursing-specific master-prompt rules were merged into the active master prompt before deletion; Git history retains prior commits.
 
 ## Start here after a new chat, memory loss, or handoff
 1. Read this file.
@@ -21,7 +21,7 @@ Preserve headings, concepts, examples, data, table relationships, diagram arrows
 
 ## Canonical files
 - `START_HERE_NOTES.md`: session entry guide.
-- `notes/MASTER_SYSTEM_PROMPT.txt`: execution and quality requirements.
+- `notes/MASTER_SYSTEM_PROMPT.txt`: detailed source-faithful nursing-aware rules plus execution and quality requirements.
 - `notes/SESSION_PROTOCOL.md`: session recovery and anti-loop rules.
 - `notes/PROJECT_STATUS.md`: verified current state.
 - `notes/WORK_QUEUE.md`: next unfinished tests.
@@ -34,13 +34,13 @@ Preserve headings, concepts, examples, data, table relationships, diagram arrows
 - `notes/generated/`: real generated study notes, organized by subject/chapter/topic.
 
 ## Verified state at consolidation
-- Execution-first master prompt saved and re-fetched.
-- Dedicated generated-output folder created with README.
-- Session protocol and repository README explicitly require actual verified Markdown notes in `notes/generated/`.
-- Work queue prioritizes Test A: clear prose page, including save and coverage comparison.
-- Functional image-to-repository test has NOT been run; there are no confirmed generated study-note files yet.
+- Detailed nursing-specific source fidelity, clinical topic structures, prioritization caveats, multi-page continuity, and learning-science rules were preserved from the retired folder in the active master prompt.
+- Execution-first repository loop and generated output path are explicit.
+- Dedicated generated-output folder exists.
+- Functional image-to-repository test has NOT been run; no confirmed generated study-note files have been validated yet.
 - Dense table, diagram, unclear-text, multi-page continuity, consolidation, and fresh-session tests remain pending.
 - Qualified nursing accuracy review remains pending.
+- Duplicate folder removal must be confirmed by fetching the live Git tree after commit.
 
 ## Recovery rules
 - Never rely on AI memory alone; re-read this repository guide and canonical files.
@@ -50,4 +50,4 @@ Preserve headings, concepts, examples, data, table relationships, diagram arrows
 - Do not claim autonomous background work continues after the current session ends.
 - If a source page or tool is missing, preserve progress, document the exact blocker, and continue with other available material.
 - After two actions without new evidence/progress, re-plan rather than looping.
-- Keep the legacy folder only as a short-lived migration source; once unique material is captured and active links point to `notes/`, it can be removed.
+- Keep all project work in `notes/`; do not recreate or continue the retired duplicate directory.
