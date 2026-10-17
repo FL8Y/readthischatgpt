@@ -14,9 +14,9 @@
 
 ## Verification record
 - Main note: `notes/communicable-diseases-pages-68-70.md` — SHA `58e947b472f9a18dc6c5045f4a5b0efeb836b487` at re-fetch; content marker audit passed.
-- Coverage checklist: updated to include live-repository verification.
-- Research log: re-fetched; includes external URLs and uncertainty notes.
-- Handoff: updated with verified paths and limitations.
+- Coverage checklist: re-fetched after adding the live-repository verification record; the page-level inventory and uncertainty register are present.
+- Research log: re-fetched after adding the final SHA/content-length verification record; external URLs and uncertainty notes present.
+- Handoff: re-fetched after finalizing the verified paths, limitations, and review status.
 - TB/mumps cross-page continuity and the truncated leptospirosis entry were directly checked against the three photos.
 - All writes stayed within this agent’s assigned playground.
 
