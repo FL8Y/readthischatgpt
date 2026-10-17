@@ -6,9 +6,10 @@
 - [x] Inventory all 147 file blobs under the playground in `SOURCE_FILE_INVENTORY.csv`.
 - [x] Copy all 32 identified study-note deliverables into subject-oriented destinations.
 - [x] Re-fetch and compare all 32 copied note bodies to live sources; all match exactly after removing the collection-only provenance comment.
-- [x] Create two separate curated derivatives with source links and explicit curation limits:
+- [x] Create three separate curated derivatives with source links and explicit curation limits:
   - mental-health review, printed pp. 53–58;
-  - perioperative/postoperative/pain review, printed pp. 89–101.
+  - perioperative/postoperative/pain review, printed pp. 89–101;
+  - communicable-disease/public-health overview, printed pp. 68–85.
 - [x] Link both derivatives in the subject index and document their source relationships in `DUPLICATES_AND_OVERLAPS.md`.
 
 ## Priority 1 — Supporting-file inventory audit
