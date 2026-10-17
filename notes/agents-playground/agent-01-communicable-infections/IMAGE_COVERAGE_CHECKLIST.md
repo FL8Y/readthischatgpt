@@ -1,43 +1,41 @@
-# Image Coverage Checklist
+# Image Coverage Checklist — Communicable Infections pp. 77–82
 
-## Upload order and page inventory
-
-| Upload | Printed page | Visible sections inventoried | Status |
+## Page inventory
+| Upload | Printed page | Visible rows/sections | Current status |
 |---|---:|---|---|
-| 1 | 80 | Cropped preceding disease row: prevention and “MGT: 4Cs”; Hepatitis A; Hepatitis E; Hepatitis B; Hepatitis C; Hepatitis D; combined hepatitis signs/stages; beginning of Bacillary Dysentery | Coverage checked |
-| 2 | 81 | Continuation of Bacillary Dysentery (“Bloody Flux”); Amoebic Dysentery; Cholera (“El Tor”); Giardiasis/Lamblia(sis) | Coverage checked |
-| 3 | 82 | Top continuation of giardiasis: prevention and management; Taeniasis; Paragonimiasis (“Lung Fluke”); Hookworm Disease; Enterobiasis (“Oxyuriasis” / “Pinworm”); Scabies | Coverage checked |
+| 1 | 77 | Typhoid continuation; mononucleosis; HSV oral/labial/ocular start | Drafted, pending after-save audit |
+| 2 | 78 | HSV continuation; chlamydia; gonorrhea main row and treatment start | Drafted, pending after-save audit |
+| 3 | 79 | Gonorrhea treatment/nursing continuation; candidiasis; syphilis; HIV/AIDS and opportunistic taxonomy | Drafted, pending after-save audit |
+| Previously processed adjacent set | 80–82 | Viral hepatitis, dysentery, cholera, giardiasis, tapeworm/lung fluke/hookworm/pinworm/scabies | Existing note retained |
 
-## Per-image visual checklist
+## Upload 1 / p. 77
+- [x] Typhoid diagnostics: Typhidot, ELISA, Widal, rectal swab
+- [x] Typhoid symptoms, named tongue findings, neurologic/behavioral findings
+- [x] Complications, prevention, fluid/electrolyte care and source drug list
+- [x] Mononucleosis: CA/IP/MOT/tests/symptoms/complications/management
+- [x] HSV-1/HSV-2 descriptions, oral herpes, labial herpes and ocular herpes start
 
-### Image 1 / printed p. 80
-- [x] Top partial entry retained without guessing its missing disease heading.
-- [x] Hepatitis A: alias names, agent, incubation period, transmission, listed tests, complications, prevention, management.
-- [x] Hepatitis E: alias, agent, incubation, transmission, detection, morning-meal/weight/I&O note.
-- [x] Hepatitis B: alias, agent, incubation, routes, listed tests, prevention and vaccine note.
-- [x] Hepatitis C: agent, incubation, transmission, diagnostic note.
-- [x] Hepatitis D: agent, blood/blood-product transmission and co-infection dependency, detection note.
-- [x] Shared hepatitis stages/signs: pre-icteric, icteric, post-icteric.
-- [x] Bacillary dysentery heading/species list at bottom.
-- [x] Uncertainty/modern clinical caveats kept separate from textbook content.
+## Upload 2 / p. 78
+- [x] Cutaneous herpes, erythema multiforme, genital herpes, neonatal HSV, eczema herpeticum, encephalitis, management
+- [x] Chlamydia: agent, transmission, tests, symptoms, management line
+- [x] Gonorrhea: agent, IP, transmission, diagnostics, female/male/site manifestations, complications
+- [x] Prevention and old adult/pregnancy treatment text at lower area
 
-### Image 2 / printed p. 81
-- [x] Bacillary dysentery continuation: incubation, transmission, diagnostics, signs/symptoms, prevention, complications, management.
-- [x] Amoebic dysentery: agent, incubation, transmission, diagnostics, signs/symptoms, prevention, management.
-- [x] Cholera: agent, incubation, transmission, diagnostics, hallmark stool and dehydration signs, complications, prevention, management.
-- [x] Giardiasis: agent, incubation, transmission, diagnostic methods, symptoms visible at bottom.
-- [x] Shadowed/cropped continuation is connected to image 3 without inventing absent text.
+## Upload 3 / p. 79
+- [x] Gonorrhea continuation: pregnancy/eye line, conjunctivitis, nursing care, confidentiality, contacts and precautions
+- [x] Candidiasis: agents, diagnosis, vulvovaginal/oral symptoms, treatment names and care
+- [x] Syphilis: agent, source-listed fluids, IP, routes, testing, primary/secondary/tertiary signs, prevention and management
+- [x] HIV/AIDS: HIV-1/2, timeline phrase, transmission, historical tests, minor/major manifestations, grouped opportunistic infection/cancer categories
 
-### Image 3 / printed p. 82
-- [x] Giardiasis continuation: prevention and management at page top.
-- [x] Taeniasis: pork/beef tapeworm cysticercus distinctions, diagnostics, symptoms, prevention.
-- [x] Paragonimiasis: species, reservoir hosts, infective food route, tests, symptoms, prevention, treatment name.
-- [x] Hookworm: species, incubation, routes, diagnostics, symptoms, prevention, management.
-- [x] Enterobiasis: agent, ingestion/inhalation, morning perianal tape test, symptom, complication, prevention.
-- [x] Scabies: agent, source-stated incubation note, transmission.
-- [x] No diagram, arrow, formula, or caption is visible in these three photographed tables; table rows/columns are represented as topic sections.
+## Fidelity and uncertainty controls
+- [x] Page 77 top row heading absent; missing printed title is not invented.
+- [x] “early HF” remains uncertain rather than silently expanded.
+- [x] Cropped gonorrhea drug line on p. 78 is not reconstructed.
+- [x] Historical medicine/testing instructions are clearly distinguished from current external guidance.
+- [x] Table rows and grouped HIV opportunistic condition categories are preserved; no independent diagrams/arrows are visible.
 
-## Uncertainty and fidelity notes
-- Page 80 starts with a partial prior row; only the visible prevention and “4Cs” management fragment is recorded. The heading and preceding diagnostic/treatment details are not visible.
-- Several exact source phrases appear outdated, misspelled, or medically questionable (e.g., the source's hepatitis A incubation average; hepatitis C agent classification; hepatitis B vaccine volume notation; treatment listed for hepatitis A; “complement fixation” spelling/terminology; several old diagnostic labels). They are preserved as “Textbook states” and not silently endorsed.
-- The final lower rows of image 2 and the top of image 3 are shadowed, but the topic headings and the content transcribed in the notes remain largely readable. Any detail that could not be resolved is explicitly marked.
+## Required post-save acceptance checks
+- [ ] Re-fetch combined note and confirm sections 8.1–8.8 and audit section are present.
+- [ ] Re-fetch all metadata/reference files.
+- [ ] Verify every listed source row exists in the combined note and pages 80–82 have not been overwritten.
+- [ ] Mark DONE only after this evidence exists.
