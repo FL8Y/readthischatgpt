@@ -1,12 +1,13 @@
 # Completion Checklist
 
-## Repository artifacts
-- [x] Base project files created.
-- [x] Root handoff file exists.
-- [ ] Nursing-specific master prompt re-fetched after improvement.
-- [ ] Evidence review and references re-fetched.
-- [ ] Cross-session status/queue/protocol/handoff re-fetched.
-- [ ] All internal links checked.
+## Repository artifacts — VERIFIED
+- [x] Base project files exist.
+- [x] Root handoff file exists and links to project files.
+- [x] Nursing-specific master prompt fetched and checked.
+- [x] Evidence review and references fetched and checked.
+- [x] Cross-session status/queue/protocol/handoff files fetched and checked.
+- [x] README, research log, user template, and page tracker exist.
+- [x] Relevant links point to the intended repository paths.
 
 ## Functional acceptance tests — NOT YET PASSED
 - [ ] Clear prose page: all meaningful content captured.
@@ -28,4 +29,4 @@
 - [ ] PROJECT_STATUS.md and SESSION_HANDOFF.md reflect actual verification.
 
 ## Release status
-Prompt and workflow improvements are not equivalent to functional validation. Do not call production-ready until relevant tests and review are complete.
+Repository artifacts and links are verified. Functional image extraction, continuity, and clinical accuracy are not yet validated. Do not call production-ready until relevant tests and review are complete.
