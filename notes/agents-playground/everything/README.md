@@ -6,7 +6,7 @@ This folder is a centralized, non-destructive collection of study-note files dis
 
 - `notes/` contains exact copies of selected source notes. The original agent workspaces remain the source of record and must not be deleted, cut, or edited by this collection workflow.
 - `curated/` is reserved for newly authored derivatives that synthesize or expand source notes. Derivatives must cite/link all inputs and describe additions, reconciliations, exclusions, uncertainties, and conflicts. Never replace the exact copies with derivatives.
-- `review/` records duplicate/overlap findings, content conflicts, and open review tasks. The current curated guides live under `curated/`: mental health pp. 53–58; perioperative/postoperative/pain pp. 89–101; and communicable diseases/public health pp. 68–85.
+- `review/` records duplicate/overlap findings, content conflicts, and open review tasks. The current curated guides live under `curated/`: mental health pp. 53–58; perioperative/postoperative/pain pp. 89–101; communicable diseases/public health pp. 68–85; and professional nursing foundations, images/printed pp. 1–13.
 - `MIGRATION_MANIFEST.csv` maps each copied study note to its original path and blob SHA, destination, topic, page range, relationship, and copy-verification state.
 - `SOURCE_FILE_INVENTORY.csv` records every file blob under `notes/agents-playground/` at the captured source commit, including copies and supporting files intentionally retained in place. Supporting-file categories are preliminary when based on filename/path; see `review/REVIEW_QUEUE.md` for the remaining content audit.
 
