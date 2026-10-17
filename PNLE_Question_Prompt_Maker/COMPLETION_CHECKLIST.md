@@ -27,10 +27,16 @@ Evidence
 
 Technical verification
 - [x] Files created through GitHub API; commit SHA returned for each creation.
-- [ ] Re-fetch README.md and all prompt/log files from the repository to verify path and contents.
-- [ ] Run a test prompt through the target model/API.
+- [x] Re-fetch README.md, master prompt, user template, research log, and checklist from GitHub; all paths and readable contents verified.
+- [ ] Run a test prompt through the target model/API; requires the target API/runtime.
 - [ ] Confirm output schema against the app's parser, if structured JSON is required.
 - [ ] Review clinical answer keys with authoritative current sources and qualified nursing review before production use.
 
+Completion status
+Repository artifact: CREATED AND PATH/CONTENT VERIFIED.
+Live API execution: NOT TESTED; target API/runtime was not provided.
+Historical paper scan: PARTIAL EVIDENCE REVIEW ONLY; complete official question papers for every sitting from 2021–2026 were not established as publicly accessible in the reviewed sources.
+Clinical production validation: NOT COMPLETE; generated items need current-source checks and qualified nursing review.
+
 Completion policy
-A GitHub file-creation success is evidence that a write was attempted and committed, but not by itself proof that every final file can be fetched or that the AI-generated clinical content is correct. Mark unverified steps honestly.
+A successful repository write proves the file was committed; re-fetching verifies the path and readable content. Neither proves that a target model's generated clinical answers are correct. Mark unverified steps honestly.
