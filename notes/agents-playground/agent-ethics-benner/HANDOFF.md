@@ -25,3 +25,7 @@ The exact lower-left figure-credit wording on p. 13 is partly cropped in the ori
 
 ## Next action
 No further work is required for this three-image assignment unless a sharper crop of the figure credit is supplied or the coordinator assigns related pages.
+
+
+## Additional source-validation pass
+After the first read-back, the main study note and research log were updated and re-fetched again. The NCBI Bookshelf, OpenStax, ANA Code of Ethics Provision 3, ANA privacy/confidentiality statement, NLM Benner catalog, OpenStax Benner summary, Philippine Supreme Court E-Library Code of Ethics, and ANA restraint position statement were opened and checked. The Philippine Code URL was corrected to the verified path. The restraint reference was added to strengthen the qualification around the source image’s epikia example. The note now re-fetches at 19,565 characters.
