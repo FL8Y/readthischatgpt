@@ -43,8 +43,8 @@
 - [x] Table row relationships represented in notes.
 - [x] Cropped name and questionable historical date not silently invented/corrected.
 - [x] Source-derived content distinguished from added explanation.
-- [ ] Re-fetch committed GitHub files and compare against this checklist.
+- [x] All five deliverable files were re-fetched from the live `main` branch; correct paths, nonempty content, and note ending were confirmed.
 - [ ] Verify all external links and historical details against primary/authoritative sources.
 - [ ] Independent qualified nursing review.
 
-Do not call the assignment fully complete until the unchecked verification items are resolved or individually documented as blocked.
+Do not call the assignment fully complete until the remaining verification items are resolved or individually documented as blocked.
