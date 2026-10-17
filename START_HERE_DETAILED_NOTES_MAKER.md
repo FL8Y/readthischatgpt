@@ -1,24 +1,33 @@
 # START HERE — Detailed Image-to-Notes Maker
 
-Before doing work, read these files in order:
+## For every new chat/session
+Read these in order before editing or redoing work:
 
-1. [Master System Prompt](https://github.com/FL8Y/readthischatgpt/blob/main/Detailed_Image_Notes_Maker/MASTER_SYSTEM_PROMPT.txt)
-2. [README](https://github.com/FL8Y/readthischatgpt/blob/main/Detailed_Image_Notes_Maker/README.md)
-3. [Research Log](https://github.com/FL8Y/readthischatgpt/blob/main/Detailed_Image_Notes_Maker/RESEARCH_LOG.md)
-4. [Completion Checklist](https://github.com/FL8Y/readthischatgpt/blob/main/Detailed_Image_Notes_Maker/COMPLETION_CHECKLIST.md)
-5. [User Prompt Template](https://github.com/FL8Y/readthischatgpt/blob/main/Detailed_Image_Notes_Maker/USER_PROMPT_TEMPLATE.txt)
-6. [Page Tracker Template](https://github.com/FL8Y/readthischatgpt/blob/main/Detailed_Image_Notes_Maker/PAGE_TRACKER_TEMPLATE.md)
+1. [Session Protocol](https://github.com/FL8Y/readthischatgpt/blob/main/Detailed_Image_Notes_Maker/SESSION_PROTOCOL.md)
+2. [Project Status](https://github.com/FL8Y/readthischatgpt/blob/main/Detailed_Image_Notes_Maker/PROJECT_STATUS.md)
+3. [Work Queue](https://github.com/FL8Y/readthischatgpt/blob/main/Detailed_Image_Notes_Maker/WORK_QUEUE.md)
+4. [Research and Design](https://github.com/FL8Y/readthischatgpt/blob/main/Detailed_Image_Notes_Maker/RESEARCH_AND_DESIGN.md)
+5. [Master System Prompt](https://github.com/FL8Y/readthischatgpt/blob/main/Detailed_Image_Notes_Maker/MASTER_SYSTEM_PROMPT.txt)
+6. [README](https://github.com/FL8Y/readthischatgpt/blob/main/Detailed_Image_Notes_Maker/README.md)
+7. [Research Log](https://github.com/FL8Y/readthischatgpt/blob/main/Detailed_Image_Notes_Maker/RESEARCH_LOG.md)
+8. [Completion Checklist](https://github.com/FL8Y/readthischatgpt/blob/main/Detailed_Image_Notes_Maker/COMPLETION_CHECKLIST.md)
+9. [User Prompt Template](https://github.com/FL8Y/readthischatgpt/blob/main/Detailed_Image_Notes_Maker/USER_PROMPT_TEMPLATE.txt)
+10. [Page Tracker Template](https://github.com/FL8Y/readthischatgpt/blob/main/Detailed_Image_Notes_Maker/PAGE_TRACKER_TEMPLATE.md)
+11. [Session Handoff](https://github.com/FL8Y/readthischatgpt/blob/main/Detailed_Image_Notes_Maker/SESSION_HANDOFF.md)
 
-## Handoff instructions
+## Project location
 - Repository: https://github.com/FL8Y/readthischatgpt
-- Project folder: https://github.com/FL8Y/readthischatgpt/tree/main/Detailed_Image_Notes_Maker
-- This is separate from [PNLE Question Prompt Maker](https://github.com/FL8Y/readthischatgpt/tree/main/PNLE_Question_Prompt_Maker). Do not edit or merge the PNLE project.
-- The user will upload book pages sequentially and wants detailed, structured, source-faithful notes.
-- Capture headings, definitions, important details, tables, diagrams, examples, exceptions, page order, and technical terminology.
-- Never guess unreadable or unseen content. Mark uncertainty and request clearer crops when needed.
-- Separate source-derived notes from added explanations. Transform the material into notes rather than transcribing entire pages verbatim.
-- Track page coverage and continuity; maintain the research log and checklist.
-- Inspect the live repository before editing. Re-fetch changed files to verify updates.
-- Do not claim image/model testing or production readiness until actual tests are performed.
+- [Project folder](https://github.com/FL8Y/readthischatgpt/tree/main/Detailed_Image_Notes_Maker)
+- Separate from [PNLE Question Prompt Maker](https://github.com/FL8Y/readthischatgpt/tree/main/PNLE_Question_Prompt_Maker).
 
-**First action:** inspect the six project files, report what exists and what remains untested, then run a practical test if a sample page and target model are available.
+## Non-negotiable continuation rules
+- Check the live repository state first; do not trust a stale conversation summary over current files.
+- Resume the first incomplete item in WORK_QUEUE.md. Do not repeat DONE work unless requested, evidence changes, or verification fails.
+- Process each new page once by default; maintain the page tracker and note missing/unclear regions.
+- Re-fetch edited files to verify writes. An attempted write is not proof of completion.
+- After two actions with no new evidence/progress, stop and re-plan. After three materially different failed fixes, revisit the approach.
+- Do not claim image testing, clinical review, or production readiness until performed.
+- End every session by updating PROJECT_STATUS.md, WORK_QUEUE.md, and SESSION_HANDOFF.md with verified progress and the exact next action.
+
+## Immediate next action
+Verify the files in the live repository, then run the first clear-prose image coverage test. Continue through WORK_QUEUE.md in order.
