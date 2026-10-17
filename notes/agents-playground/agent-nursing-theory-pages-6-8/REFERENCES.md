@@ -49,3 +49,9 @@ The canonical notes project normally saves generated study notes in notes/genera
 - This is focused contextual research, not a systematic literature review.
 - The bottom of the Meleis entry is cropped; no source was used to claim its missing wording was visible.
 - Study material only, not patient-specific clinical instructions.
+
+8. Schumacher, K. L., & Meleis, A. I. (1994). “Transitions: a central concept in nursing.” *Image: The Journal of Nursing Scholarship*, 26(2), 119–127. https://doi.org/10.1111/j.1547-5069.1994.tb00929.x; PubMed record: https://pubmed.ncbi.nlm.nih.gov/8063317/.
+   **Use:** Primary scholarly cross-check for transition types, conditions that affect transitions, nursing therapeutics, and indicators of successful transition. This supports the added explanation but does not recover the photograph's cropped sentence.
+
+9. “Effectiveness of Transition Theory-Based Interventions on Outcomes of Nursing Care: A Scoping Review.” PubMed Central: https://pmc.ncbi.nlm.nih.gov/articles/PMC12360756/.
+   **Use:** Recent review for the major conceptual components of transition theory and nursing interventions. Used as context only, not evidence of missing printed wording.
