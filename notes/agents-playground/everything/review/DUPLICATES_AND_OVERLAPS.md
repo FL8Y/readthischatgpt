@@ -34,3 +34,21 @@ The other candidates have not yet been fully classified. For each possible relat
 - Uncertain / needs review.
 
 Do not consolidate a pair solely because their filenames or page numbers overlap. Where clinical claims conflict, preserve both with provenance and route the issue to the content-conflict review instead of silently picking one.
+
+## Confirmed relationship: perioperative and pain pages 89–101
+
+**Classification:** Complementary material across a connected care continuum; not exact duplicates.
+
+- Preoperative/intraoperative source: [Perioperative Nursing, pp. 89–91](../notes/medical-surgical/perioperative-nursing-pp89-91.md)
+- Immediate postoperative source: [Perioperative and Immediate Postoperative Nursing, pp. 95–97](../notes/medical-surgical/perioperative-postoperative-nursing-pp95-97.md)
+- Wound/complications source: [Postoperative Wound Care and Surgical Instruments, p. 98](../notes/medical-surgical/postoperative-wound-care-surgical-instruments-p98.md)
+- Pain assessment source: [Pain Definition, Classification, and Assessment, pp. 99–100](../notes/medical-surgical/pain-definition-classification-assessment-pp99-100.md)
+- Pain management source: [Pain Management, p. 101](../notes/medical-surgical/pain-management-p101.md)
+- Curated derivative: [Integrated Perioperative, Postoperative, and Pain Nursing Review, pp. 89–101](../curated/medical-surgical/integrated-perioperative-postoperative-pain-review-pp89-101.md)
+
+### Rationale and boundaries
+
+These five documents cover connected phases—preoperative preparation, intraoperative safety, recovery, wound/complication monitoring, assessment of pain, and pain management. The derivative provides a single care-continuum view plus comparisons and retrieval prompts, but it is not a line-by-line replacement of the full source notes.
+
+All five source notes and exact copies remain unchanged. Source uncertainty, including the page 101 unclear medication name, remains explicit. The derivative does not infer a drug identity or turn historical/table content into patient-specific instructions. Qualified nursing review has not been performed and is not claimed.
+
