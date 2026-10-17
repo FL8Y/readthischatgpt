@@ -63,26 +63,27 @@
   "area": "NP1",
   "topic": "Isolation of suspected measles",
   "archetype": "infection-control-isolation",
-  "difficulty": 3,
-  "vignette": "A mother brings her 3-year-old child to a rural health unit. The child has had fever for three days, with cough, a runny nose, red watery eyes, and a red rash that began on the face. Several other mothers and infants are in the waiting area.",
-  "stem": "What should the nurse do first?",
+  "difficulty": 4,
+  "vignette": "At a rural health unit, a nurse sees a 3-year-old child held by the mother in a crowded queue at the registration desk. The child has had fever for three days with cough, runny nose, red watery eyes, and a red rash that began on the face and is now on the trunk. Nearby sit several infants younger than 9 months, a pregnant woman, and an older man waiting for blood pressure checks. The unit has one consultation room in use and a small side room with a window.",
+  "stem": "Which action should the nurse take first?",
   "options": [
-   "Move the child and mother to a separate ventilated room",
-   "Finish registering the child before attending to anything else",
-   "Ask the waiting mothers to show their children's vaccine cards",
-   "Give the mother a handout on rest and fluids to read at home"
+   "Move the child and mother to the side room with the window, away from the queue",
+   "Phone the municipal surveillance officer and wait for advice before moving anyone",
+   "Check the vaccination cards of the infants and the pregnant woman in the queue",
+   "Start assessing the child's hydration and nutrition while at the registration desk"
   ],
   "answerIndex": 0,
-  "strategyTag": "Safety/infection control: contain the source first",
-  "reasoning": "1. 'First' with a suspected communicable disease points to protecting others.\n2. The findings (fever, cough, runny nose, red eyes, rash starting on the face) suggest measles, which is airborne.\n3. Waiting infants and unvaccinated children are susceptible.\n4. Safety and infection control come before paperwork, teaching or record review.\n5. Separate the client now, then report, assess, and teach.\n6. Choose the separate ventilated room.",
+  "strategyTag": "Safety/infection control: contain the source before assessing, reporting or tracing",
+  "reasoning": "1. 'First' with a suspected communicable disease asks what stops harm to others right now.\n2. Fever, cough, runny nose, red eyes, and a rash spreading from the face suggest measles, which spreads through the air and is highly contagious.\n3. The queue contains infants too young to be fully vaccinated and a pregnant woman, so exposure is ongoing.\n4. Every other option is a correct nursing task (reporting, contact checking, assessment) but each leaves the child in the queue.\n5. Containment comes first; reporting, contact review, and full assessment follow once the child is separated.\n6. Choose moving the child to the ventilated side room.",
   "optionRationales": [
-   "Measles spreads through the air, so removing the suspected case from other clients immediately limits exposure before anything else is done.",
-   "Paperwork matters, but any delay keeps the child among susceptible infants.",
-   "Checking vaccine status is useful later, but it does not stop current exposure.",
-   "Education is appropriate later, but containing a possible airborne infection comes first."
+   "Separating the suspected case in a ventilated space stops further airborne exposure immediately. Reporting, assessment, and contact review can then be done safely.",
+   "Reporting a suspected notifiable disease is required, but waiting for advice before moving the child keeps susceptible infants exposed. Right action, wrong time.",
+   "Knowing who is protected helps later contact management, but it does nothing about the exposure happening now. Right action, wrong time.",
+   "Assessing hydration and nutrition is part of good care and tempts because assessment often comes first, but doing it in the queue prolongs exposure for everyone nearby."
   ],
   "keyFacts": [
-   "Measles is airborne and highly contagious; isolate suspected cases promptly."
+   "Measles is airborne and highly contagious; a suspected case is separated from other clients right away.",
+   "Reporting the suspected case and tracing contacts follow containment; verify reporting steps with local policy."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -92,27 +93,28 @@
   "area": "NP1",
   "topic": "Oral rehydration teaching",
   "archetype": "teaching-evaluation-understanding",
-  "difficulty": 3,
-  "vignette": "A nurse teaches mothers at a health center how to care for a child with diarrhea who is still alert and drinking. She demonstrates how to prepare oral rehydration solution from a packet and asks each mother to explain the plan back to her.",
-  "stem": "Which statement by a mother shows that teaching was effective?",
+  "difficulty": 4,
+  "vignette": "At a barangay health station, a nurse teaches four mothers whose children aged 1 to 3 years have had watery diarrhea for two days. The children are alert, thirsty, and drinking eagerly. The nurse demonstrates how to prepare oral rehydration solution from a packet using clean water, then asks each mother to describe in her own words how she will care for her child at home.",
+  "stem": "Which statement by a mother shows that teaching about home care was effective?",
   "options": [
-   "I will stop breastfeeding until the diarrhea has ended",
-   "I will mix the solution with fruit juice for better taste",
-   "I will give small sips often and offer more after each loose stool",
-   "I will withhold food and fluids for several hours first"
+   "I will keep breastfeeding, but use less water for the packet so it is stronger",
+   "I will stir the packet into his milk feeds and add sugar so he drinks more",
+   "I will give small sips often, and pause a few minutes if he vomits",
+   "I will give it when he asks for fluids, as forcing it may make him vomit"
   ],
   "answerIndex": 2,
-  "strategyTag": "Teaching evaluation: client restates the correct plan",
-  "reasoning": "1. The stem asks which statement shows understanding, so look for the one that is correct.\n2. Three statements contain unsafe or incorrect actions.\n3. Withholding fluids or stopping breastfeeding risks worsening dehydration.\n4. Altering the preparation can change how well the solution works.\n5. Small frequent sips with extra after each stool replaces losses safely.\n6. Choose that statement.",
+  "strategyTag": "Teaching evaluation: choose the statement that is fully correct, not partly correct",
+  "reasoning": "1. The stem asks which statement shows effective teaching, so the whole statement must be safe and correct.\n2. Three statements start with something reasonable (breastfeeding, drinking more, avoiding vomiting) and then contain an error.\n3. Preparing the solution with less water changes its balance and can be harmful.\n4. Mixing it into milk and adding sugar changes the preparation.\n5. Waiting for the child to ask delays replacing losses; fluids are offered regularly.\n6. Small frequent sips, with a short pause and slow restart after vomiting, matches standard home care.",
   "optionRationales": [
-   "Breastfeeding should continue during diarrhea, so this statement shows a need for reteaching.",
-   "The solution should be prepared as directed with the right amount of safe water; adding juice changes the balance.",
-   "Small frequent sips replace the fluid lost in stools and are tolerated better than large amounts, so this shows correct understanding.",
-   "Withholding fluids increases the risk of dehydration."
+   "Continuing breastfeeding is correct, which makes this tempting, but using less water makes the solution too concentrated. The preparation error means reteaching.",
+   "The wish to increase intake is good, but mixing the packet into milk and adding sugar changes the solution. It should be prepared as directed.",
+   "Small frequent sips replace stool losses and are tolerated well, and pausing briefly after vomiting before restarting slowly is accepted home care. Every part of the statement is sound.",
+   "Avoiding vomiting is a fair concern, but waiting for the child to ask delays replacing fluid losses. Small sips are offered regularly instead."
   ],
   "keyFacts": [
-   "Continue breastfeeding and give fluids frequently in small amounts during diarrhea.",
-   "Prepare rehydration solution exactly as directed."
+   "During diarrhea, continue breastfeeding and offer oral rehydration solution in small, frequent amounts.",
+   "Prepare the solution exactly as directed with safe water; do not add sugar or mix it into milk.",
+   "If the child vomits, pause briefly and then continue slowly; follow local program guidance."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -181,25 +183,27 @@
   "topic": "Prevalence vs incidence",
   "archetype": "acute-vs-chronic",
   "difficulty": 4,
-  "vignette": "A municipal nurse reviews health data for a long-term illness in the community. Over the past year, few new cases were found, yet a large share of the population is currently living with the condition.",
-  "stem": "Which interpretation of these data is most accurate?",
+  "vignette": "A municipal nurse reviews five years of records for hypertension in a barangay. The number of residents newly diagnosed each year stayed about the same, and the share of residents screened did not change. Over the same period, the number of residents living with hypertension rose steadily. During these years the health office provided free maintenance medicines, regular monitoring, and home visits for people with the condition.",
+  "stem": "Which explanation best accounts for the rising number of residents living with hypertension?",
   "options": [
-   "The illness is of short duration and is quickly fatal to those affected",
-   "Few new cases yet many existing cases suggest a long-lasting illness",
-   "A new outbreak is currently spreading rapidly through the community",
-   "The illness is being rapidly eliminated from the population over time"
+   "A hidden rise in new cases has occurred that the yearly diagnosis counts miss",
+   "People now live longer with the condition, so existing cases build up over time",
+   "The rise is an early outbreak phase that will settle when new cases stop appearing",
+   "The rising count shows the program is failing to prevent hypertension in residents"
   ],
   "answerIndex": 1,
-  "strategyTag": "Incidence = new cases; prevalence = all existing cases",
-  "reasoning": "1. Define the terms: incidence is new cases over a period; prevalence is all existing cases.\n2. Low incidence with high prevalence means cases accumulate.\n3. Cases accumulate when people live with the disease for a long time.\n4. A short or fast-fatal illness would not accumulate.\n5. An outbreak would raise incidence.\n6. Choose the long-duration interpretation.",
+  "strategyTag": "Prevalence depends on new cases (incidence) and how long people remain cases",
+  "reasoning": "1. Define the terms: incidence is new cases in a period; prevalence is all existing cases.\n2. Incidence stayed steady, so more new cases cannot be the reason prevalence rose.\n3. Prevalence also depends on duration: if people stay cases for longer, they accumulate.\n4. The program gave medicines, monitoring, and home visits, which keep people with a chronic condition alive and in the count.\n5. An outbreak pattern applies to an acute infection, not a chronic condition, and a steady incidence argues against a hidden rise.\n6. A growing count here can reflect program success, so the failure claim does not follow.",
   "optionRationales": [
-   "A short, quickly fatal illness would keep prevalence low because cases do not accumulate.",
-   "Prevalence counts all existing cases and builds up when people live with a condition for a long time, while incidence counts only new cases.",
-   "An outbreak would produce a rise in new cases, which means high incidence.",
-   "Elimination would show falling prevalence and incidence."
+   "The screening rate was stated to be unchanged, so a hidden rise in incidence is not supported. This tempts those who assume prevalence only rises when incidence does.",
+   "With steady incidence, a rising prevalence means cases stay in the count longer. Better control and longer survival lengthen duration, so cases accumulate.",
+   "An outbreak phase suits a short-lived infection with a surge of new cases. Here new cases were steady and the condition is chronic.",
+   "This is a true-sounding program critique, but a rising prevalence does not measure prevention failure when incidence is steady. Longer survival also raises the count."
   ],
   "keyFacts": [
-   "Incidence counts new cases; prevalence counts all existing cases at a time or period."
+   "Prevalence = existing cases; incidence = new cases in a period.",
+   "For a stable condition, prevalence is roughly incidence multiplied by average duration.",
+   "Better treatment and longer survival can raise prevalence without any rise in incidence."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -210,25 +214,26 @@
   "topic": "Research participation rights",
   "archetype": "ethics-rights-informed-consent",
   "difficulty": 4,
-  "vignette": "A nurse collects survey answers in households for a community health study. Halfway through an interview, a participant says she is uncomfortable and wants to stop and withdraw from the study altogether.",
-  "stem": "What is the nurse's most appropriate action?",
+  "vignette": "A nurse on a municipal study team is interviewing mothers at home about infant feeding practices. The mother signed a consent form that states participation is voluntary and that she may stop at any time. Partway through the interview she says she feels uncomfortable and wants to stop and withdraw from the study. A barangay health worker who came along says the answers so far are valuable and urges the nurse to ask the few remaining questions.",
+  "stem": "Which action should the nurse take?",
   "options": [
-   "Explain that the answers she already gave must stay in the study",
-   "Encourage her to finish the interview so the sample is complete",
-   "Continue the interview but promise that her name will not be shared",
-   "Stop the interview, reassure her care is unaffected, notify the lead"
+   "Ask the remaining questions quickly, then let her withdraw as she requested",
+   "Offer to skip the sensitive questions and continue with the rest of the form",
+   "Ask the health worker to explain the study's benefits to help her decide",
+   "Stop the interview and assure her that services will not be affected"
   ],
   "answerIndex": 3,
-  "strategyTag": "Ethics: autonomy; voluntary participation",
-  "reasoning": "1. The conflict is between the study's needs and the participant's autonomy.\n2. Autonomy and voluntary consent take priority over data completeness.\n3. Pressure, persuasion or bargaining are coercive.\n4. Promises about confidentiality do not answer a request to stop.\n5. The nurse stops, reassures that services will not be affected, and reports to the investigator.\n6. Choose that option.",
+  "strategyTag": "Ethics: voluntary participation and autonomy over study needs",
+  "reasoning": "1. The conflict is between the study's wish for complete data and the participant's right to withdraw.\n2. Autonomy and voluntary consent outrank data completeness and the health worker's urging.\n3. She asked to stop and withdraw altogether, so responses that keep the interview going override her request.\n4. Skipping only some questions answers a different request (discomfort with certain items), not a withdrawal.\n5. Explaining benefits to persuade her is a form of pressure.\n6. The nurse stops and reassures her that her care is not affected; handling of data already given follows the study protocol and is reported to the investigator.",
   "optionRationales": [
-   "Using this as a reason to refuse is pressure; handling of data already collected should follow the approved protocol and be explained, not used to block withdrawal.",
-   "Persuading her to continue undermines voluntary participation and risks coercion.",
-   "Anonymity does not remove her right to stop; this ignores her request.",
-   "Participation is voluntary and withdrawal is a right at any time without penalty, so the nurse respects it and follows the study process."
+   "A quick finish looks like a compromise, but it continues the interview after she asked to stop. Her request is ignored.",
+   "Skipping sensitive items would suit a participant who is uncomfortable with certain questions. She asked to withdraw altogether, so this answers a different request.",
+   "Explaining benefits to change her mind is persuasion that undermines voluntary participation, even if the intent is kind.",
+   "Withdrawal is a right at any time without penalty. Stopping and reassuring her respects autonomy and protects her access to services."
   ],
   "keyFacts": [
-   "Research participants may withdraw at any time without penalty or loss of services."
+   "Research participants may withdraw at any time without penalty or loss of services.",
+   "Handling of data already collected follows the approved study protocol; report the withdrawal to the investigator."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -269,25 +274,26 @@
   "topic": "Outbreak investigation steps",
   "archetype": "initial-action-assess-vs-intervene",
   "difficulty": 4,
-  "vignette": "A school nurse notes that 12 students from different classes developed vomiting and watery stools within one day of eating at the school canteen. The principal asks the nurse to follow proper steps in investigating this.",
-  "stem": "Following the systematic steps of an outbreak investigation, what is done first?",
+  "vignette": "An elementary school of about 600 pupils usually reports one or two cases of vomiting or loose stools a week. Over two days the school clinic records 12 pupils from different grade levels with vomiting and watery stools, and most of them ate at the school canteen. The principal wants the canteen closed at once. A municipal investigation team has arrived with roles assigned and its equipment ready.",
+  "stem": "Before any other investigation task, which must the team establish first?",
   "options": [
-   "Close the school canteen until the investigation has been completed",
-   "Confirm the diagnosis and that cases exceed the expected number",
-   "Send parents a letter about handwashing and safe food handling",
-   "Collect food samples from the canteen for laboratory testing"
+   "Which foods the canteen served and how they were prepared and stored",
+   "That the diagnosis is right and cases exceed the usual number",
+   "The onset time, grade level, and symptoms of each affected pupil in a list",
+   "Whether the canteen staff have current health certificates and training"
   ],
   "answerIndex": 1,
-  "strategyTag": "Nursing process: assess/verify before intervene",
-  "reasoning": "1. The stem asks for the first step in a sequence.\n2. The investigation begins by confirming that the problem is real.\n3. Verify the diagnosis and compare cases with the usual number.\n4. Only then define cases, collect data, and look for the source.\n5. Control actions and teaching follow findings.\n6. Choose verification.",
+  "strategyTag": "Assess/verify first: confirm the problem exists before tracing or controlling it",
+  "reasoning": "1. The stem asks what the team must establish before any other task, and the team is already prepared, so preparation is not the answer.\n2. Everything else depends on knowing that a real excess of cases exists and that the illness is correctly identified.\n3. Comparing 12 cases in two days with the usual one or two a week, and confirming the diagnosis, answers that.\n4. Listing cases, reviewing foods, and checking staff certificates are needed but build on a confirmed outbreak.\n5. The principal's request to close the canteen is a control measure and also comes after the problem is confirmed.\n6. Choose confirming the diagnosis and the excess of cases.",
   "optionRationales": [
-   "Control measures may be started while investigating, but they are not the first step of the sequence; closing without confirmation could be unfounded.",
-   "The first step is to establish that an outbreak really exists by confirming the diagnosis and comparing the number of cases with the usual number.",
-   "Health education is a general control measure and comes after confirming the problem.",
-   "Sampling is part of finding the source and follows establishing that an outbreak exists and defining cases."
+   "Reviewing food preparation helps find the source, but searching for a source before confirming an outbreak is premature. Right task, wrong time.",
+   "Confirming the diagnosis and that cases exceed the usual number establishes that there is an outbreak to investigate. Every later step relies on it.",
+   "A line list with onset times, grades, and symptoms is a core step, but it is organized after the problem is confirmed and a case definition is set. Right task, wrong time.",
+   "Staff certification is a relevant compliance check, but it is a true statement about risk factors that does not establish whether an outbreak exists."
   ],
   "keyFacts": [
-   "First step in outbreak investigation: verify diagnosis and confirm an outbreak exists."
+   "Outbreak investigations begin by verifying the diagnosis and confirming that cases exceed the expected number.",
+   "Case listing, source tracing, and control measures follow confirmation; step labels vary between references, so follow the sequence your course uses."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -415,25 +421,26 @@
   "topic": "Dengue warning signs",
   "archetype": "stable-vs-unstable",
   "difficulty": 4,
-  "vignette": "During a dengue outbreak, a nurse reviews four children at home. One has fever on day 2 with headache and body aches and is drinking well. One was febrile for four days and is now afebrile but has persistent vomiting, severe abdominal pain, and cold clammy skin. One has fever on day 3 with a positive tourniquet test but normal urine output. One has recovered and shows a rash on the arms with a good appetite.",
-  "stem": "Which child requires immediate referral to a hospital?",
+  "vignette": "During a dengue outbreak, a nurse makes home visits to four children. Child A has fever on day 2 with the highest temperature of the four, severe headache, and pain behind the eyes; the child is drinking and passing urine normally. Child B had fever for four days that stopped this morning; since last night the child has vomited three times, complains of severe stomach pain, and is restless with cold hands. Child C has fever on day 3 and a positive tourniquet test done yesterday, had a nosebleed that stopped with pressure, and is drinking and passing urine normally. Child D has been fever-free for two days and has an itchy rash with pale areas on the arms and legs.",
+  "stem": "Which child should the nurse refer to the hospital first?",
   "options": [
-   "The child with fever on day 2 who is alert, drinking well, and playing",
-   "The child with fever gone but vomiting, belly pain, and cold clammy skin",
-   "The child with a positive tourniquet test, normal urine output, and active play",
-   "The recovered child with a rash, good appetite, and normal activity"
+   "Child A, who has the highest temperature, severe headache, and eye pain",
+   "Child B, whose fever stopped but who has repeated vomiting and severe stomach pain",
+   "Child C, who has a positive tourniquet test and a nosebleed that stopped with pressure",
+   "Child D, who has an itchy rash with pale areas after two days without fever"
   ],
   "answerIndex": 1,
-  "strategyTag": "Unstable first: warning signs after fever drops",
-  "reasoning": "1. Identify who is deteriorating.\n2. Dengue can worsen when the fever falls.\n3. Persistent vomiting, severe abdominal pain, and cold clammy skin are warning signs of shock.\n4. The others are early, stable, or recovering.\n5. Unstable clients need action now.\n6. Refer the child with warning signs.",
+  "strategyTag": "Unstable first: warning signs when the fever falls point to possible shock",
+  "reasoning": "1. Rank the children by how unstable they are, not by how severe the fever or how dramatic the findings look.\n2. Child A has intense symptoms but is early in the illness and is hydrating and passing urine well.\n3. Child C has a bleeding sign and a positive tourniquet test, which support dengue, but the bleeding was minor and stopped and intake and urine output are normal.\n4. Child D shows a rash typical of recovery.\n5. Child B is deteriorating as the fever falls, with repeated vomiting, severe abdominal pain, restlessness, and cold hands, which are warning signs of possible plasma leakage and shock.\n6. Refer Child B first; the others need monitoring and review according to local guidance.",
   "optionRationales": [
-   "An early febrile phase with good intake can be managed with monitoring.",
-   "Warning signs after the fever subsides can mean plasma leakage and shock, which is an emergency.",
-   "This supports a dengue diagnosis and needs monitoring, but normal urine output suggests stability.",
-   "Recovery signs with good appetite are reassuring."
+   "The highest fever and severe pain are alarming, which makes this tempting, but the child is early in the illness and is still drinking and passing urine well.",
+   "Warning signs that appear as the fever falls can mean plasma leakage and impending shock. This child is the most unstable and needs urgent hospital care.",
+   "A nosebleed and a positive tourniquet test support dengue and call for close follow-up, but the bleeding stopped with pressure and hydration is normal. This child is stable for now.",
+   "An itchy rash with pale areas after fever has gone is a recognized recovery sign and does not need urgent referral."
   ],
   "keyFacts": [
-   "Dengue danger can appear as fever subsides; watch for persistent vomiting, severe abdominal pain, and cold clammy skin."
+   "Dengue can worsen as the fever falls; persistent vomiting, severe abdominal pain, restlessness, and cold extremities are warning signs.",
+   "Referral thresholds and monitoring steps follow the national dengue guidance; verify local policy."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -473,25 +480,26 @@
   "topic": "Planning health teaching",
   "archetype": "nursing-process-step-identification",
   "difficulty": 4,
-  "vignette": "A nurse is preparing a handwashing teaching session for mothers in a low-income community. Many of the mothers have limited reading skills and speak a local language.",
-  "stem": "Before choosing teaching materials, which action is the priority?",
+  "vignette": "A newly assigned nurse has been told by the municipal health plan to teach handwashing to mothers at the monthly barangay assembly, where she has a 30-minute slot. She has never met this group. She has been told that many mothers have limited reading skills, some speak a local language she knows only a little, and most bring young children to the meeting.",
+  "stem": "Which action should the nurse take first in preparing this session?",
   "options": [
-   "Prepare colorful posters with long text captions",
-   "Schedule the session at a time convenient for the nurse",
-   "Assess the group's learning needs, language, and literacy level",
-   "Write the evaluation questions for the session"
+   "Write measurable objectives for what the mothers should do afterward",
+   "Borrow a handwashing video from the municipal office for the assembly",
+   "Find out the mothers' practices, language, and reading ability",
+   "Review the barangay's diarrhea records to justify the topic choice"
   ],
   "answerIndex": 2,
-  "strategyTag": "Nursing process: assess learners before planning",
-  "reasoning": "1. Teaching follows the nursing process: assess, plan, implement, evaluate.\n2. The stem asks what comes before choosing materials.\n3. The learners' literacy and language shape the materials.\n4. Evaluation questions are written after objectives are set.\n5. Convenience for the nurse is not a learner-centered factor.\n6. Assess the group first.",
+  "strategyTag": "Nursing process: assess the learners before planning objectives or materials",
+  "reasoning": "1. Teaching follows the nursing process: assess, plan, implement, evaluate.\n2. The stem asks for the first action, so find the assessment step.\n3. The topic was already set by the municipal plan, so checking records to justify it adds little now.\n4. Objectives are a planning task and need assessment data to be realistic.\n5. Choosing a video is an implementation choice made before knowing whether it suits the group's language and reading level.\n6. Assess the learners first.",
   "optionRationales": [
-   "Materials with long text do not suit mothers with limited reading skills and are chosen too early.",
-   "Scheduling should consider the learners' availability, not the nurse's.",
-   "Effective teaching starts with assessing the learners so that methods and materials match their needs.",
-   "Evaluation tools come after objectives and planning."
+   "Objectives are an important planning step, but they should be based on what the mothers already do and can understand. Right action, wrong time.",
+   "A video may help, but selecting materials before knowing the group's language and literacy risks a poor fit. This is an implementation choice made too early.",
+   "Learning about the mothers' practices, language, and reading ability is learner assessment. It shapes the objectives, methods, and materials.",
+   "Diarrhea records show community need, but the topic was already assigned. The records are true and relevant, yet they do not describe the learners."
   ],
   "keyFacts": [
-   "Assess the learners' needs, literacy, and language before planning health teaching."
+   "Assess learners' existing practices, language, and literacy before setting objectives and choosing materials.",
+   "Teaching plan sequence: assess, set objectives, choose methods and materials, teach, evaluate."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -559,27 +567,28 @@
   "area": "NP1",
   "topic": "TB case finding in a household",
   "archetype": "abnormal-finding-identification",
-  "difficulty": 5,
-  "vignette": "During a home visit, a nurse meets a 62-year-old grandmother who has had a productive cough for more than 3 weeks, night sweats, and weight loss. A 2-year-old grandchild lives in the same small house. No one in the family has had tests.",
-  "stem": "What is the nurse's priority action?",
+  "difficulty": 4,
+  "vignette": "During a home visit, a nurse meets a 62-year-old grandmother who has had a productive cough for more than 3 weeks, night sweats, and weight loss. She has treated it with herbal remedies and has not been to the health center, which is far from the house. She cares for her 2-year-old grandchild all day in a small, poorly ventilated house. The family worries about stigma and asks the nurse to keep the matter quiet. No one in the household has been tested.",
+  "stem": "Which action should the nurse take as the priority?",
   "options": [
-   "Teach cough etiquette to the household and revisit them in two weeks",
-   "Start the child on preventive medicine today without further assessment",
-   "Tell the family to keep the grandmother isolated in a separate house",
-   "Arrange sputum examination for the grandmother and screen the child"
+   "Teach cough etiquette and ventilation now and recheck symptoms on the next visit",
+   "Bring the 2-year-old to the clinic first, since young children face the highest risk",
+   "Start preventive medicine for the 2-year-old based on the nurse's own judgment",
+   "Link the household to the TB program for evaluation of the grandmother and contacts"
   ],
   "answerIndex": 3,
-  "strategyTag": "Assess/confirm before intervene; protect vulnerable contact",
-  "reasoning": "1. Identify the abnormal pattern: prolonged cough, night sweats, weight loss suggests TB.\n2. A young child in the same household is a high-risk contact.\n3. Priority is confirming the diagnosis and screening contacts.\n4. Cough etiquette is supportive but delays action.\n5. Starting treatment is outside nursing scope and premature.\n6. Permanent isolation is not warranted or the nurse's decision.\n7. Choose referral for sputum testing and contact screening.",
+  "strategyTag": "Assess and confirm before treating; refer through the program; protect the vulnerable contact",
+  "reasoning": "1. A cough lasting weeks with night sweats and weight loss is a pattern that needs evaluation for TB.\n2. The grandmother is the likely source and the 2-year-old is a close, high-risk contact.\n3. The priority is getting a diagnosis for the source case and assessing contacts through the program, which also handles reporting and treatment decisions.\n4. Cough etiquette and ventilation are useful but delay diagnosis if done instead of referral.\n5. Evaluating only the child leaves the likely source undiagnosed.\n6. Starting medicine is outside nursing scope without a prescriber's order and program assessment.",
   "optionRationales": [
-   "Teaching is useful but waiting two weeks delays diagnosis in a likely contagious case.",
-   "Starting medication without assessment and diagnosis is outside nursing scope and premature.",
-   "Isolation without confirmation is extreme and not a nursing decision.",
-   "A cough lasting more than 2 weeks with these symptoms suggests TB, so confirming the diagnosis and screening the young contact comes first."
+   "These measures are helpful for infection control, but using them in place of referral and waiting until the next visit delays diagnosis. Right action, wrong priority.",
+   "Young children are at higher risk, which makes this tempting, but evaluating the child alone leaves the probable source untested and untreated.",
+   "Preventive treatment is a prescriber and program decision after assessment. Starting it on the nurse's own judgment is outside scope.",
+   "Linking the household to the program starts diagnosis for the likely source case and assessment of contacts, including the child, while respecting confidentiality and local procedures."
   ],
   "keyFacts": [
-   "Cough over 2 weeks should prompt TB evaluation.",
-   "Young household contacts of a suspected case need screening."
+   "Cough lasting more than two weeks with night sweats and weight loss needs evaluation for TB; exact criteria and tests follow the national TB program. Verify local policy.",
+   "Household contacts, especially young children, are assessed through the local TB program; verify local policy.",
+   "Starting treatment or preventive therapy is a prescriber and program decision, not an independent nursing action."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -649,27 +658,28 @@
   "area": "NP2",
   "topic": "Immediate care of the newborn",
   "archetype": "priority-physiological-maslow",
-  "difficulty": 3,
-  "vignette": "A term newborn has just been born vaginally and placed on the mother's abdomen. The infant is crying vigorously, has a pink body, and is moving all limbs. The delivery room is cool and the infant is wet with fluids. The parents are smiling and ask to hold the baby.",
-  "stem": "Which nursing action has the highest priority at this moment?",
+  "difficulty": 4,
+  "vignette": "A term newborn was born vaginally a minute ago and has been placed on the mother's abdomen. The infant is crying strongly, the trunk is pink, the hands and feet are slightly blue, and the limbs are flexed. The infant is covered in fluid and the delivery room is cool. The mother is alert and asks to start breastfeeding now. Orders are present for eye prophylaxis and a vitamin K injection, and the nurse also needs to prepare the identification bands.",
+  "stem": "Which nursing action should the nurse perform first?",
   "options": [
-   "Dry the infant thoroughly and cover the skin and head to keep the infant warm",
-   "Administer the ordered prophylactic eye ointment to both eyes of the newborn",
-   "Complete the newborn identification bands with the parents present at the bedside",
-   "Give the parents quiet time to hold and bond with the baby before other care"
+   "Dry the infant, remove wet linen, and cover the body and head with a blanket",
+   "Suction the mouth and nose with a bulb syringe because of fluid on the face",
+   "Give the ordered eye ointment and vitamin K injection before moving the infant",
+   "Help the mother begin breastfeeding while the infant is alert and rooting"
   ],
   "answerIndex": 0,
-  "strategyTag": "Maslow: thermoregulation is physiological",
-  "reasoning": "1) Priority question: apply Maslow, physiological needs before safety and belonging. 2) ABC first: the infant is crying vigorously and pink, so airway and breathing are currently adequate. 3) The next physiological threat in the data is heat loss: wet skin plus a cool room can quickly cause cold stress in a newborn. 4) Drying the infant and keeping the skin and head covered and warm addresses that actual problem right now. 5) Eye prophylaxis is routine and important but not as urgent as preventing cold stress; it can follow shortly after. 6) Identification checks are safety; bonding is love/belonging. Both rank below the physiological need for warmth.",
+  "strategyTag": "Maslow: prevent heat loss before routine care",
+  "reasoning": "1) Priority question: Maslow places physiological needs first, and ABC comes before other physiological items. 2) Airway and breathing are adequate: the infant cries strongly and the trunk is pink; slightly blue hands and feet are an expected finding right after birth. 3) Suctioning is the right action for an infant with an obstructed airway, which is a different client from this one. 4) The remaining physiological threat in the data is heat loss from wet skin in a cool room, which can cause cold stress. 5) Drying, removing wet linen and covering the body and head addresses that threat now. 6) Eye prophylaxis and vitamin K are needed but can follow soon after; breastfeeding is encouraged and can proceed once the infant is dried and covered, and the identification bands are a safety task that ranks lower than preventing cold stress.",
   "optionRationales": [
-   "Correct. Heat loss from wet skin is an actual physiological threat; drying and warming is the immediate priority once airway and breathing are adequate.",
-   "Routine and necessary, but it can follow once the infant is dried and warm; it does not support an immediate physiological need.",
-   "Safety and verification matter, but the infant's physiological need for warmth ranks higher.",
-   "Love/belonging need; supporting it is good, but not before preventing heat loss, and skin-to-skin works best once the infant is dried and covered."
+   "Correct. Evaporative heat loss from wet skin in a cool room is the actual physiological threat; drying and covering the body and head prevents cold stress and still allows contact with the mother.",
+   "Right action for an infant with obstructed airway, but this infant is crying strongly and pink, so routine suctioning is not needed and does not address heat loss.",
+   "Required care, but it is routine and is given after the infant is dried and warm; it does not address the present threat.",
+   "Early breastfeeding is a good practice and meets a need for bonding and nutrition, but it does not stop heat loss and is supported after the infant is dried and covered."
   ],
   "keyFacts": [
-   "Newborns lose heat rapidly by evaporation, convection, conduction and radiation; dry and warm them immediately.",
-   "Cold stress increases the newborn's oxygen and glucose use."
+   "Newborns lose heat rapidly by evaporation, convection, conduction and radiation, so dry and cover them promptly.",
+   "Slightly blue hands and feet in the first minutes after birth are common; a strong cry and pink trunk show adequate airway and breathing.",
+   "Cold stress increases oxygen and glucose use in the newborn."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -739,27 +749,27 @@
   "area": "NP2",
   "topic": "Adolescent fears about pregnancy",
   "archetype": "distressed-client-best-response",
-  "difficulty": 4,
-  "vignette": "A 16-year-old comes alone to a community clinic. She is tearful and says, \"My period is late. I think I might be pregnant, and my mother is going to be so angry at me. I don't know what to do.\" The nurse has not yet performed any assessment.",
+  "difficulty": 5,
+  "vignette": "A 16-year-old comes alone to a community clinic. She sits with her arms crossed and is tearful. She says, \"My period is two weeks late. I think I might be pregnant and my mother is going to be so angry. Please don't tell anyone I came here. I don't know what to do.\"",
   "stem": "Which response by the nurse is most therapeutic?",
   "options": [
-   "\"You sound frightened about your mother's reaction. Tell me more about that.\"",
-   "\"Try not to worry. I am sure your mother will understand once she knows.\"",
-   "\"Why didn't you use protection so that this would not have happened?\"",
-   "\"Let's first find out whether you are pregnant, then you can decide what to do.\""
+   "\"You sound frightened about how your mother will react. What worries you most?\"",
+   "\"It is normal to feel scared, and most mothers calm down once the shock passes.\"",
+   "\"I can arrange a pregnancy test today, and then we will talk about your choices.\"",
+   "\"Your mother has a right to know, so let us call her to come in and talk together.\""
   ],
   "answerIndex": 0,
-  "strategyTag": "Therapeutic: reflect feelings, open-ended",
-  "reasoning": "1) Communication rule: acknowledge the feeling, use an open-ended prompt, avoid advice, false reassurance and closed or 'why' questions. 2) The client is expressing fear about her mother's reaction and uncertainty. 3) The best response names the emotion and invites her to say more. 4) 'Don't worry, your mother will understand' is false reassurance; the nurse cannot know that. 5) 'Why did you not use protection?' is a 'why' question and sounds judgmental, which shuts the client down. 6) Telling her to confirm the result first and then decide changes the subject away from her feelings and gives advice before she has been heard.",
+  "strategyTag": "Therapeutic: reflect feeling, open-ended question",
+  "reasoning": "1) Communication rule: acknowledge the feeling, use an open-ended prompt, and avoid advice, false reassurance and actions that skip the client's concern. 2) The client states fear of her mother's reaction and asks for privacy. 3) Reflecting the fear and asking what worries her most invites her to continue and builds trust. 4) Telling her that most mothers calm down is reassurance the nurse cannot support. 5) Arranging a test is a reasonable later step, but offering it now responds to the task and not to her stated distress. 6) Calling her mother ignores her request for privacy, is outside the nurse's role at this moment, and would damage trust.",
   "optionRationales": [
-   "Correct. It reflects the feeling and uses an open-ended invitation, which builds trust before assessment and teaching.",
-   "False reassurance; the nurse cannot know the mother's reaction and it dismisses the client's feeling.",
-   "A 'why' question that sounds accusing and blocks communication.",
-   "Practical, but it moves quickly to a task and ignores her stated feelings; advice before acknowledgment."
+   "Correct. It reflects the stated feeling and uses an open-ended question, which keeps the client talking and respects her request for privacy.",
+   "Normalizes the feeling but then gives false reassurance about the mother's reaction, which the nurse cannot know.",
+   "A reasonable later step, and the statement is true, but it moves to a task and does not respond to the fear the client just expressed.",
+   "Overrides the client's request for privacy and takes a decision that is not the nurse's to make; it would block further communication."
   ],
   "keyFacts": [
-   "Reflect feelings before problem solving.",
-   "Avoid 'why' questions, advice and false reassurance with distressed clients."
+   "Reflect feelings and ask open-ended questions before problem solving.",
+   "Avoid false reassurance, advice given too early, and disclosure that the client has asked to keep private unless a legal duty applies."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -829,27 +839,27 @@
   "area": "NP2",
   "topic": "Dehydration in an infant",
   "archetype": "stable-vs-unstable",
-  "difficulty": 4,
-  "vignette": "A nurse admits a 9-month-old with vomiting and diarrhea for 2 days. The parent reports the infant has had no wet diaper for about 8 hours. The infant is sleepy, difficult to arouse, with a sunken anterior fontanelle, dry mucous membranes, cool hands and feet, and capillary refill that takes longer than usual.",
-  "stem": "Which finding is most concerning to the nurse?",
+  "difficulty": 5,
+  "vignette": "A nurse admits a 9-month-old with vomiting and diarrhea for 2 days. The parent reports no wet diaper for about 8 hours and that the infant has refused feeds. On assessment the infant is sleepy but cries when handled, with no tears. The anterior fontanelle is sunken and the mucous membranes are dry. The hands and feet are cool and capillary refill is slower than expected. The heart rate is fast.",
+  "stem": "Which finding should the nurse report to the provider first?",
   "options": [
-   "The infant is difficult to arouse and has cool hands and feet",
-   "The anterior fontanelle appears sunken and the eyes look hollow",
-   "The infant has had no wet diaper for 8 hours and the urine was dark",
-   "The mucous membranes feel dry and the lips look cracked"
+   "The hands and feet are cool and capillary refill is slower than expected",
+   "The infant has had no wet diaper for about 8 hours despite attempts to feed",
+   "The sunken anterior fontanelle and dry mucous membranes seen on assessment",
+   "The infant cries when handled but produces no tears when upset"
   ],
   "answerIndex": 0,
-  "strategyTag": "Unstable: altered level of consciousness",
-  "reasoning": "1) 'Most concerning' calls for the most dangerous sign: apply stable versus unstable and Maslow (circulation, perfusion). 2) Dry mucous membranes and a sunken fontanelle show dehydration but are expected with this history. 3) No wet diaper for hours indicates reduced output, which is significant but is a consequence of the volume loss. 4) Difficulty to arouse together with cool extremities and slow refill suggests poor perfusion and a failing circulation: a sign of serious, possibly worsening dehydration. 5) Altered level of consciousness in an infant is a late and serious sign that the brain and organs are not being perfused well. 6) Select the finding reflecting unstable perfusion, not a sign of mild-to-moderate dehydration.",
+  "strategyTag": "Unstable: poor perfusion before volume-loss signs",
+  "reasoning": "1) 'First' with several true findings calls for the most dangerous: apply stable versus unstable and circulation. 2) All four findings are consistent with dehydration. 3) No wet diaper, a sunken fontanelle, dry mucous membranes and absent tears show significant fluid loss, and they are the expected picture of the problem. 4) Cool extremities with slow capillary refill, together with the fast heart rate in the history, point to reduced perfusion, meaning the infant may be moving from compensated toward decompensated volume loss. 5) That finding signals possible shock and needs urgent provider notification and rapid fluid replacement. 6) Report the perfusion finding first, then the rest of the picture.",
   "optionRationales": [
-   "Correct. Altered consciousness with cool extremities indicates poor perfusion and is the most unstable finding.",
-   "Expected with dehydration; informative but not the most unstable finding.",
-   "Important sign of reduced volume, yet it reflects the problem rather than showing impending collapse.",
-   "Common finding in dehydration; least specific for instability."
+   "Correct. Poor perfusion signs are the most unstable finding and indicate a need for urgent intervention.",
+   "Shows reduced output and significant volume loss, but it describes the loss itself and not how well the infant is perfusing.",
+   "Classic signs of dehydration, expected with this history and informative, but they do not by themselves indicate failing circulation.",
+   "A sign of dehydration, and the infant still responds to handling; less specific for instability than a perfusion change."
   ],
   "keyFacts": [
-   "Lethargy or difficulty arousing an infant with dehydration signals serious fluid loss and poor perfusion.",
-   "Delayed capillary refill and cool extremities suggest compromised circulation."
+   "Cool extremities, slow capillary refill and fast heart rate in a dehydrated infant suggest poor perfusion and possible shock.",
+   "Decreased urine output, sunken fontanelle, dry mucous membranes and absent tears are expected signs of dehydration."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -859,27 +869,27 @@
   "area": "NP2",
   "topic": "Vaccine administration safety",
   "archetype": "medication-safety-rights",
-  "difficulty": 3,
-  "vignette": "A nurse at a community immunization clinic is preparing to give a scheduled vaccine to a toddler. The parent reports that the child has had a mild runny nose, felt a little sore at the last injection site, and is a picky eater. When asked about the previous dose, the parent adds one more detail.",
-  "stem": "Which parent report should the nurse act on first before giving the vaccine?",
+  "difficulty": 4,
+  "vignette": "A nurse at a community immunization clinic is about to give a scheduled vaccine to a 15-month-old. The parent is talking quickly while the nurse checks the record and reports several things: the child is taking an antibiotic for an ear infection and has a mild cough; the older sibling once had a seizure with fever after a vaccine; a tender red area on the thigh lasted two days after the last dose; and the lips swelled and urgent treatment was needed after the last vaccine visit.",
+  "stem": "Which parent report should the nurse address first before giving the vaccine?",
   "options": [
-   "The child has had a mild runny nose and no fever for most of this week",
-   "The child had soreness and redness where the last shot was given",
-   "The child had hives and trouble breathing after the previous dose",
-   "The child often refuses vegetables and eats small portions at meals"
+   "The older sibling once had a seizure with fever after receiving a vaccine",
+   "The child is taking an antibiotic for an ear infection and has a mild cough",
+   "After the last vaccine visit the child's lips swelled and needed urgent treatment",
+   "A tender red area on the thigh lasted for two days after the last dose was given"
   ],
   "answerIndex": 2,
-  "strategyTag": "Safety: check contraindications first",
-  "reasoning": "1) Medication safety: verify the right client, drug, and, above all, check for contraindications before giving. 2) Mild runny nose without significant illness is generally not a reason to withhold routine vaccination. 3) Soreness at an earlier injection site is a common, expected local reaction. 4) Picky eating is unrelated to the vaccine. 5) A history of hives and difficulty breathing after the last dose suggests a possible severe allergic reaction, a safety issue that must be addressed before giving another dose. 6) Hold the vaccine, document, and consult the provider; the unexpected severe reaction outranks expected mild findings.",
+  "strategyTag": "Safety: screen for contraindications before giving",
+  "reasoning": "1) Medication safety: before giving any drug, screen for contraindications and precautions. 2) A mild illness, even with an antibiotic, generally does not prevent routine vaccination. 3) A tender red area at an earlier injection site is a common local reaction and does not stop vaccination. 4) The sibling's seizure is a family history item that sounds alarming but concerns a different client; it is worth recording and mentioning, but it is not this child's reaction. 5) Lip swelling needing urgent treatment after the previous visit suggests a possible severe allergic reaction in this child, which is a safety concern that has to be clarified before another dose. 6) Hold the vaccine, gather details about the reaction, and consult the provider.",
   "optionRationales": [
-   "Mild illness is generally not a barrier; true but not the safety concern.",
-   "Expected local reaction; does not stop vaccination.",
-   "Correct. A possible severe allergic reaction to a prior dose is a safety issue that must be resolved before administering again.",
-   "Unrelated to vaccine safety; tempting as a distractor because it is a parent concern."
+   "Family history that sounds serious but concerns a different client; record it, but it does not make this child's vaccine unsafe.",
+   "A mild illness is generally not a barrier to routine vaccination; a true statement but not the safety concern.",
+   "Correct. A possible severe allergic reaction after the previous visit is the highest safety concern and must be clarified with the provider before another dose.",
+   "A common, expected local reaction; it does not prevent vaccination."
   ],
   "keyFacts": [
-   "A severe allergic reaction to a previous dose is a precaution/contraindication; hold and consult the provider.",
-   "Mild local soreness and mild cold symptoms are generally not reasons to delay routine vaccination."
+   "A severe allergic reaction after a previous dose is a contraindication or precaution; hold and consult the provider.",
+   "Mild illness and mild local soreness are generally not reasons to delay routine vaccination."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -980,26 +990,26 @@
   "topic": "Late decelerations during oxytocin",
   "archetype": "initial-action-assess-vs-intervene",
   "difficulty": 5,
-  "vignette": "A client in active labor is receiving an oxytocin infusion. Contractions are strong and frequent. The electronic fetal monitor shows recurrent late decelerations of the fetal heart rate with reduced variability over the last 15 minutes. The client is lying on her back and reports feeling anxious. Her vital signs are stable.",
+  "vignette": "A client at term in active labor is receiving an oxytocin infusion by pump. Contractions have become strong and frequent. For the last 15 minutes the electronic fetal monitor shows recurrent late decelerations with reduced variability. The client is lying flat on her back, says she feels anxious, and her vital signs are stable. The nurse has a phone at the bedside and the provider is in the building.",
   "stem": "Which action should the nurse take first?",
   "options": [
-   "Telephone the provider and wait for orders before changing anything",
-   "Document the pattern and continue observing for another 15 minutes",
-   "Stop the oxytocin infusion and turn the client onto her side promptly",
-   "Prepare the client for an immediate cesarean birth before other measures"
+   "Notify the provider of the tracing and wait for orders before changing the infusion",
+   "Perform a vaginal examination to find the cervical dilation and fetal station",
+   "Stop the oxytocin infusion and turn the client onto her left or right side",
+   "Prepare the client and the consent forms for an urgent cesarean birth"
   ],
   "answerIndex": 2,
-  "strategyTag": "Unstable fetus: remove the cause now",
-  "reasoning": "1) The fetal heart tracing is abnormal and getting worse, so this is an unstable situation; act immediately, then notify. 2) Late decelerations suggest reduced placental blood flow; frequent, strong contractions from oxytocin worsen it. 3) Remove the likely cause: stop the oxytocin infusion, and also turn the client to a side and give supportive measures. 4) Calling the provider and waiting for an order delays correction; stopping the infusion is within nursing scope per standard labor protocols, and the provider is notified immediately after. 5) Documenting and watching longer ignores a worsening pattern. 6) Preparing for cesarean birth is a decision for the provider and does not address the correctable cause first.",
+  "strategyTag": "Unstable fetus: remove the cause, then notify",
+  "reasoning": "1) Recurrent late decelerations with reduced variability suggest reduced placental blood flow and a fetus at risk, so this is unstable and needs action now. 2) Strong, frequent contractions from oxytocin and lying flat both lower placental perfusion. 3) The first step is to remove the likely causes: stop the oxytocin and turn the client to her side, within the nurse's role under standard labor protocols. 4) The provider must be notified promptly and the nurse continues with supportive measures such as oxygen and fluids as ordered or per protocol, but telephoning first and waiting leaves the cause in place. 5) A vaginal examination gives useful information, including checking for cord prolapse, but it follows the corrective steps. 6) Preparing for cesarean birth is a provider decision made after reassessment, not the first step.",
   "optionRationales": [
-   "Notification is needed but waiting before correcting a worsening pattern delays care.",
-   "Documentation is needed, but watching a worsening pattern is unsafe.",
-   "Correct. It removes a contributing cause and improves placental perfusion immediately.",
-   "A provider decision; correctable causes should be addressed first and the nurse does not decide this alone."
+   "The provider must be told, but this is the right action at the wrong time; waiting for orders leaves the oxytocin running during a worsening pattern.",
+   "Useful assessment that follows the corrective steps; it does not relieve the cause of reduced placental perfusion.",
+   "Correct. It removes two causes of reduced placental perfusion immediately, after which the nurse notifies the provider and continues supportive measures.",
+   "A decision that belongs to the provider and comes after reassessment; correctable causes are addressed first."
   ],
   "keyFacts": [
-   "Recurrent late decelerations suggest uteroplacental insufficiency; stop oxytocin, change position to the side, and notify the provider.",
-   "Strong, frequent contractions reduce placental blood flow."
+   "Recurrent late decelerations suggest uteroplacental insufficiency; stop oxytocin, reposition to a side, and notify the provider promptly.",
+   "Strong, frequent contractions and a supine position can reduce placental blood flow."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -1160,26 +1170,26 @@
   "topic": "Magnesium sulfate toxicity",
   "archetype": "high-alert-medication-reasoning",
   "difficulty": 5,
-  "vignette": "A client with severe preeclampsia is receiving a magnesium sulfate infusion by pump. On assessment the nurse finds that deep tendon reflexes are absent, the respiratory rate is 10 breaths per minute, and the client is drowsy. The client's urine output has also decreased over the last two hours.",
+  "vignette": "A client with severe preeclampsia is receiving a magnesium sulfate infusion by pump. At the scheduled check the nurse finds the client is drowsy and slow to answer. Deep tendon reflexes are absent, the respiratory rate is 10 breaths per minute, and urine output has fallen over the last two hours. The call light, a bedside phone and the unit emergency supplies are within reach.",
   "stem": "Which action should the nurse take first?",
   "options": [
-   "Recheck reflexes and respiratory rate in one hour while the infusion runs",
-   "Administer calcium gluconate at once, before stopping the infusion",
-   "Stop the magnesium sulfate infusion and stay with the client to assess",
-   "Raise the head of the bed and coach the client to take deep breaths"
+   "Lower the infusion rate and recheck reflexes and breathing after thirty minutes",
+   "Obtain calcium gluconate from the unit supply and prepare it for administration",
+   "Stop the infusion at the pump and assess airway, breathing and responsiveness",
+   "Call the provider to report the findings and request an order to stop the infusion"
   ],
   "answerIndex": 2,
-  "strategyTag": "ABC: stop the drug causing depression",
-  "reasoning": "1) High-alert medication with toxic signs: absent reflexes, slow breathing, drowsiness, low urine output. 2) These findings are an unexpected, unstable change, and breathing (B) is at risk. 3) First stop the source of harm: stop the infusion, then call for help and assess the client. 4) The antidote (calcium gluconate) requires an order and is given after the infusion is stopped; having it ready is correct but it is not the first step. 5) Waiting and reassessing in an hour, or only raising the head of the bed, does not remove the cause. 6) Choose the action that stops further drug exposure immediately.",
+  "strategyTag": "ABC: stop the drug that is depressing breathing",
+  "reasoning": "1) A high-alert drug with drowsiness, absent reflexes, slowed breathing and falling urine output suggests toxicity, and breathing is at risk, so this is unstable. 2) The first step is to remove the source of harm: stop the infusion at the pump and assess airway, breathing and responsiveness while staying with the client. 3) Continuing the drug at a lower rate or waiting to recheck leaves a depressant running. 4) Calling the provider is needed and happens at once, along with calling for help or a rapid response if breathing worsens, but the nurse does not wait for an order to stop an infusion causing toxic signs. 5) Calcium gluconate is the usual antidote, and having it ready is appropriate, but it requires an order and follows stopping the drug. 6) Because several correct actions exist, choose the one that stops further exposure and protects breathing before the others.",
   "optionRationales": [
-   "Delays action while a toxic drug continues to run.",
-   "Antidote is appropriate but needs an order and should follow stopping the infusion; giving it first leaves the drug running.",
-   "Correct. It removes the cause of the depression of reflexes and respirations, protecting the airway and breathing.",
-   "Supportive, but it does not stop the toxic exposure and the client is drowsy."
+   "Keeps the drug running and delays reassessment while the client shows signs of toxicity.",
+   "Right action at the wrong time: the antidote is prepared after the infusion is stopped and requires an order, and the drug would keep running meanwhile.",
+   "Correct. It stops further exposure and lets the nurse assess breathing and consciousness, after which the provider or rapid response team is called and the antidote is prepared.",
+   "The provider must be notified promptly, but waiting for an order to stop an infusion that is causing toxic signs delays protection of the client's breathing."
   ],
   "keyFacts": [
-   "Signs of magnesium toxicity include loss of deep tendon reflexes, slowed respirations and decreased urine output.",
-   "Calcium gluconate is the antidote and should be readily available."
+   "Signs of magnesium sulfate toxicity include loss of deep tendon reflexes, slowed respirations, drowsiness and reduced urine output.",
+   "Stop the infusion, call the provider or rapid response, and have calcium gluconate available as ordered."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -1277,29 +1287,29 @@
  {
   "id": "np3-004",
   "area": "NP3",
-  "topic": "Acid-base: respiratory acidosis",
+  "topic": "Postoperative opioid-induced respiratory acidosis",
   "archetype": "lab-value-interpretation-qualitative",
-  "difficulty": 4,
-  "vignette": "A 72-year-old client is on the first night after surgery and uses a patient-controlled opioid pump. The nurse finds the client hard to arouse with slow, shallow respirations of 8/min. Arterial blood gas results show a pH below the normal range, a carbon dioxide level above the normal range, and a bicarbonate level within normal limits.",
-  "stem": "Which action is the priority for the nurse?",
+  "difficulty": 5,
+  "vignette": "A 72-year-old client is on the first night after major abdominal surgery and uses a patient-controlled opioid pump. At 0300 the nurse finds the client difficult to arouse, with slow shallow respirations at 8 per minute. The nurse stops the pump. The arterial blood gas result shows a pH below the normal range, a carbon dioxide level above the normal range, and a bicarbonate level within normal limits. The provider has been paged but has not yet called back.",
+  "stem": "The nurse is at the bedside and the pump is stopped. Which action should the nurse take next?",
   "options": [
-   "Encourage oral fluids and deep breaths to help correct the acidosis and flush out the medication.",
-   "Record the result and repeat the blood gas in the morning to see whether the pH has changed.",
-   "Apply a face mask with oxygen and leave the pump running while watching the respiratory rate closely.",
-   "Withhold further opioid doses, stimulate the client, support breathing, and notify the provider."
+   "Place an oxygen mask on the client and reassess the oxygen saturation in ten minutes",
+   "Ask the provider for an order for an opioid reversal agent and wait to hear back before acting",
+   "Draw a repeat arterial blood sample to confirm the carbon dioxide trend before intervening",
+   "Rouse the client firmly by voice and touch and reposition the airway to support breathing"
   ],
   "answerIndex": 3,
-  "strategyTag": "Lab: link result to risk",
-  "reasoning": "1) Interpret qualitatively: low pH means acidosis; high carbon dioxide points to a respiratory cause; normal bicarbonate means little metabolic compensation yet, so it is acute. 2) Link to the history: opioid, hard to arouse, rate of 8/min and shallow, so hypoventilation. 3) The problem is airway and breathing, the first ABC priorities, and the client is unstable. 4) Remove the cause (stop the opioid) and support ventilation before anything else. 5) Eliminate fluids (wrong mechanism) and delayed repeat testing (ignores instability). 6) Eliminate oxygen alone because the depressant continues.",
+  "strategyTag": "ABC: breathing before results and orders",
+  "reasoning": "1) Read the gas: low pH with high carbon dioxide and normal bicarbonate means acute respiratory acidosis, so the body has not had time to compensate. 2) Link it to the history: sedating drug, hard to arouse, rate of 8 per minute, so the client is hypoventilating. 3) Maslow and ABC: breathing is the threat and the client is unstable, so the nurse acts at the bedside now. 4) The drug source is already stopped, so the next step is to support ventilation by rousing the client and opening the airway. 5) Oxygen alone, a repeat sample, and waiting for an order each delay direct support of breathing. 6) A reversal agent may be needed, but it requires an order and does not replace airway support while waiting.",
   "optionRationales": [
-   "Fluids do not address retained carbon dioxide and the client is too drowsy to drink safely.",
-   "Documentation matters, but this is an unexpected, unstable finding that needs action now, not next-day follow-up.",
-   "Oxygen can help, but continuing the opioid keeps depressing breathing, and oxygen alone does not fix hypoventilation.",
-   "The results show acute respiratory acidosis from hypoventilation, most likely caused by the opioid. The nurse removes the cause, supports ventilation, and escalates."
+   "Oxygen is right for low oxygen, but this problem is retained carbon dioxide from slow breathing. A mask with a ten-minute wait leaves the client unsupported and hides worsening drowsiness.",
+   "A reversal agent may be part of the plan, but it needs a provider order and takes time. The nurse does not stand by while the client is under-breathing; direct support of breathing comes first.",
+   "The result is already clear and a second sample would be the right follow-up later. Collecting it before intervening treats a number while the client is deteriorating.",
+   "Rousing the client and repositioning the airway directly supports breathing at the bedside, which is the first priority for an unstable client with respiratory acidosis from opioid sedation."
   ],
   "keyFacts": [
-   "High carbon dioxide with low pH indicates respiratory acidosis, often from hypoventilation.",
-   "Opioid sedation is a leading cause of postoperative hypoventilation."
+   "High carbon dioxide with low pH and normal bicarbonate indicates acute respiratory acidosis, often from hypoventilation.",
+   "Opioid sedation is a leading cause of postoperative hypoventilation; breathing support comes before further testing or waiting for orders."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -1427,29 +1437,29 @@
  {
   "id": "np3-009",
   "area": "NP3",
-  "topic": "Neutropenic fever",
+  "topic": "Neutropenic fever versus other chemotherapy effects",
   "archetype": "expected-vs-adverse-effect",
-  "difficulty": 4,
-  "vignette": "A client is on day 8 after a cycle of chemotherapy and the laboratory report shows a very low neutrophil count. During rounds the nurse notes four findings: mild fatigue, thinning hair, nausea controlled with an antiemetic, and a temperature of 38.5 C with chills.",
-  "stem": "Which finding requires the nurse to act first?",
+  "difficulty": 5,
+  "vignette": "A 61-year-old client is on day 8 after a cycle of chemotherapy, and this morning's laboratory report shows a very low neutrophil count. The client is sitting in a chair and says nothing hurts. During the shift the nurse notes four findings in the chart and at the bedside, and must decide which one to act on first.",
+  "stem": "Which finding should the nurse act on first?",
   "options": [
-   "Mild fatigue after a short walk",
-   "Gradual thinning of scalp hair",
-   "Temperature of 38.5 C with chills",
-   "Nausea controlled with an antiemetic"
+   "Mouth sores that make swallowing tablets painful this morning",
+   "Fatigue so marked that help is needed to reach the bathroom",
+   "Temperature of 38.3 C in a client who says they feel fine",
+   "Vomiting twice this shift with half the meal tray eaten"
   ],
   "answerIndex": 2,
-  "strategyTag": "Therapeutic vs adverse",
-  "reasoning": "1) Separate expected effects of chemotherapy (fatigue, hair thinning, controlled nausea) from dangerous ones. 2) Link the lab data: very low neutrophils means weak defense against infection. 3) Fever may be the only sign of infection because the usual inflammatory signs are blunted. 4) Unstable or potentially life-threatening outranks expected findings. 5) Choose the fever and notify the provider promptly.",
+  "strategyTag": "Unstable or life-threatening before expected effects",
+  "reasoning": "1) All four findings can occur after chemotherapy, so first sort expected effects from dangerous ones. 2) Use the lab data: very low neutrophils means the usual defenses against infection are weak. 3) In this state fever may be the earliest and sometimes the only sign of infection, so the client's comfort does not lower the priority. 4) Mouth sores, marked fatigue with a fall risk, and vomiting all need nursing care, but none is as quickly life-threatening. 5) Choose the fever and report it promptly.",
   "optionRationales": [
-   "Common and expected during chemotherapy; plan rest and monitor.",
-   "Expected adverse effect of some chemotherapy; it needs supportive and emotional care, not urgent action.",
-   "Fever in a client with very low neutrophils may signal serious infection with little warning and can progress quickly to sepsis, so it is treated as an emergency.",
-   "The treatment is working, so this is an expected, managed effect."
+   "Painful mouth sores need pain relief and a way to take medication, but they are an expected effect and not an immediate threat to life.",
+   "Fatigue with a fall risk needs help and a safety plan, which is a real concern, but the risk can be managed at once and is not rapidly fatal.",
+   "With very low neutrophils, a fever may be the only warning of serious infection that can progress quickly to sepsis, even when the client feels well. This is treated as an emergency.",
+   "Vomiting and reduced intake need antiemetic and fluid follow-up, but this is an expected effect that can be managed while the fever is reported."
   ],
   "keyFacts": [
-   "Fever in a client with low neutrophils is a medical emergency.",
-   "Chemotherapy lowers white cells for a period after each cycle."
+   "Fever in a client with very low neutrophils is a medical emergency, even if the client feels well.",
+   "Chemotherapy lowers white cells for a period after each cycle, and the usual signs of infection may be blunted."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -1607,29 +1617,29 @@
  {
   "id": "np3-015",
   "area": "NP3",
-  "topic": "Postoperative discharge teaching",
+  "topic": "Postoperative discharge teaching priority",
   "archetype": "discharge-teaching",
-  "difficulty": 3,
-  "vignette": "A nurse is preparing a 55-year-old client for discharge home on day 3 after open abdominal surgery. The client has an incision with staples and will go home with a family member. The nurse has time to cover several topics.",
-  "stem": "Which instruction should the nurse prioritize?",
+  "difficulty": 4,
+  "vignette": "A nurse is preparing a 55-year-old client with diabetes for discharge home on day 3 after open abdominal surgery. The incision is closed with staples and the client lives with a spouse who will help. The client is eager to return to gardening and asks about everything except warning signs. The nurse has limited time before the transport arrives.",
+  "stem": "Which instruction should the nurse give the highest priority?",
   "options": [
-   "Arrange transportation to the follow-up visit and confirm the appointment date",
-   "Plan a list of preferred foods and meal times for the weeks of recovery",
-   "Keep a supply of dressing materials at home in a clean, dry storage area",
-   "Report fever, spreading redness, pus-like drainage or worse incision pain"
+   "Hold a pillow firmly over the incision when coughing or changing position",
+   "Take the prescribed pain medicine before walking so activity is comfortable",
+   "Walk short distances several times a day and increase the distance gradually",
+   "Call the surgeon the same day if the wound turns hot, swollen or leaks pus"
   ],
   "answerIndex": 3,
-  "strategyTag": "Discharge: safety-critical first",
-  "reasoning": "1) Stem asks for the instruction to prioritize, so rank by risk. 2) Safety-critical teaching about warning signs outranks convenience and general advice. 3) Early wound infection or sepsis can occur at home after discharge. 4) Transportation, food preferences and supplies are helpful but lower in risk. 5) Choose the warning-sign teaching.",
+  "strategyTag": "Discharge: complication warning signs first",
+  "reasoning": "1) The stem asks for the highest priority, so rank by risk of harm. 2) Four teaching points are all correct for this client, so none can be eliminated as wrong, only ranked. 3) Splinting, timing of pain medicine and gradual walking improve comfort and recovery, and the client will likely do them anyway. 4) The client has diabetes and a stapled wound, which raises the risk of infection, and the client is not asking about warning signs, so this knowledge gap carries the greatest danger. 5) Choose teaching on when to call for help.",
   "optionRationales": [
-   "Useful for continuity of care, but missing the date is less dangerous than missing warning signs.",
-   "Nutrition supports healing, but food preference is not safety-critical.",
-   "Practical, but it does not help the client recognize dangerous changes.",
-   "Recognizing and reporting signs of wound infection is a safety-critical instruction because early reporting prevents serious complications."
+   "Splinting reduces strain on the wound and is good teaching, but a client who misses it has discomfort rather than an unrecognized emergency.",
+   "Pain control supports walking and recovery. It is useful teaching but the client is likely to seek relief and it does not protect against unrecognized complications.",
+   "Gradual walking supports circulation and recovery and is an important routine instruction. It is a healthy habit, not a response to a dangerous change.",
+   "Recognizing and reporting early signs of wound infection prevents serious complications. The client has diabetes and has not asked about warning signs, so this gap carries the highest risk."
   ],
   "keyFacts": [
-   "Discharge teaching should put warning signs and when to call first.",
-   "Signs of wound infection: fever, spreading redness, pus-like drainage, increasing pain."
+   "Discharge teaching should cover warning signs and when to call before comfort and lifestyle advice.",
+   "Diabetes slows healing and raises the risk of wound infection."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -1637,29 +1647,29 @@
  {
   "id": "np3-016",
   "area": "NP3",
-  "topic": "Choking in a conscious adult",
-  "archetype": "airway-obstruction-exception",
-  "difficulty": 3,
-  "vignette": "During lunch on a medical unit, a 69-year-old client suddenly stands, clutches the throat, and cannot speak, cough or breathe. The lips are turning blue. The nurse is in the room.",
-  "stem": "What should the nurse do first?",
+  "topic": "Postoperative fluid volume deficit prioritization",
+  "archetype": "acute-vs-chronic",
+  "difficulty": 5,
+  "vignette": "A nurse on a surgical unit begins the morning shift with four clients and a short time to see each of them. All are stable enough to be on the unit, and all have a documented fluid or electrolyte concern. The nurse must decide whom to assess first.",
+  "stem": "Which client should the nurse assess first?",
   "options": [
-   "Measure the oxygen saturation and respiratory rate before acting",
-   "Leave the room to call the rapid response team and return quickly",
-   "Begin abdominal thrusts immediately and ask someone to call for help",
-   "Encourage the client to cough forcefully and keep trying"
+   "A client with long-standing heart failure whose ankle swelling matches the admission note",
+   "A client with chronic kidney disease whose daily weight is steady and who has mild itching",
+   "A client after bowel surgery with falling urine output, rising pulse and new dizziness",
+   "A client on nasogastric suction who reports thirst and dry lips, with vital signs at baseline"
   ],
   "answerIndex": 2,
-  "strategyTag": "Exception: emergency overrides assess-first",
-  "reasoning": "1) Read the data: cannot speak, cough or breathe, cyanosis, which means complete obstruction. 2) Recall the exception: a clear airway emergency overrides assess-first. 3) Eliminate assessment tasks as delay. 4) Eliminate leaving the client alone. 5) Eliminate coughing, which is for partial obstruction. 6) Choose abdominal thrusts.",
+  "strategyTag": "Acute before chronic",
+  "reasoning": "1) The stem asks who to see first, so sort by acute versus chronic and stable versus unstable. 2) Chronic problems with unchanged findings (heart failure swelling, kidney disease with steady weight) are lower priority. 3) Thirst and dry lips with baseline vital signs on suction are expected and manageable, but need follow-up. 4) A new fall in urine output with rising pulse and dizziness after surgery suggests developing volume loss or bleeding, an acute change in an early postoperative client. 5) Choose the acute, changing client.",
   "optionRationales": [
-   "Assessment is normally first, but here delay is dangerous and the client has already shown complete obstruction.",
-   "Help is needed but the nurse should not leave; the nurse stays and acts while someone else summons help.",
-   "Complete airway obstruction is an exception to assess-first. The nurse acts immediately with abdominal thrusts while someone else calls for help.",
-   "Coughing is appropriate for partial obstruction; this client cannot cough or speak, so it will not clear the airway."
+   "Swelling that matches the admission note is chronic and unchanged, so it is a lower priority than a new change.",
+   "Steady weight and mild itching in chronic kidney disease are stable and long-standing, though they still need care later.",
+   "Falling urine output, rising pulse and orthostatic dizziness are new and point to volume loss or bleeding after surgery. This is the acute and potentially unstable client.",
+   "Thirst on suction is an expected consequence and vital signs are at baseline, so this client is stable and can be seen after the unstable client."
   ],
   "keyFacts": [
-   "Complete airway obstruction needs immediate action, not assessment.",
-   "Encourage coughing only if the client can still cough or speak."
+   "Acute and new findings take priority over chronic findings that are unchanged from baseline.",
+   "After surgery, falling urine output with rising pulse and dizziness can signal volume loss or bleeding and needs prompt assessment."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -1699,27 +1709,27 @@
   "area": "NP3",
   "topic": "Early signs of hypovolemic shock",
   "archetype": "stable-vs-unstable",
-  "difficulty": 4,
-  "vignette": "A 28-year-old client arrives after a motorcycle collision with a suspected abdominal bleed. The client is awake, speaks normally, and the systolic blood pressure is still in the normal range. The nurse notes a fast pulse, restlessness, and cool skin.",
-  "stem": "Which finding best indicates early compensated shock?",
+  "difficulty": 5,
+  "vignette": "A 28-year-old client arrives after a motorcycle collision with a suspected abdominal bleed. On arrival the client is awake and anxious, the systolic blood pressure is in the normal range, the pulse is 112 beats per minute and the skin is cool. Intravenous access is placed and fluids are started. The nurse reassesses thirty minutes later.",
+  "stem": "Which reassessment finding most strongly suggests the client is no longer compensating?",
   "options": [
-   "Fast pulse with restlessness and cool skin",
-   "A systolic pressure that has fallen markedly",
-   "Very little urine over the last several hours",
-   "No response to voice or to painful stimuli"
+   "Growing confusion with a blood pressure now trending downward",
+   "A heart rate that has risen slightly since the first reading",
+   "A new complaint of thirst along with a dry mouth and dry lips",
+   "Cool and pale skin that remains unchanged on the arms and legs"
   ],
   "answerIndex": 0,
-  "strategyTag": "Early recognition: trend and ABC",
-  "reasoning": "1) Notice the clue: blood pressure is still normal. 2) Shock progresses in stages; the first stage is compensated. 3) Early compensation shows up as fast pulse, anxiety or restlessness, and cool, pale skin. 4) Falling blood pressure, prolonged low urine and unresponsiveness are late signs. 5) Choose the earliest signs.",
+  "strategyTag": "Trend: compensation failing",
+  "reasoning": "1) The clue is the word no longer: the client has already shown compensation (tachycardia, cool skin) with a normal pressure. 2) The question asks what shows compensation failing, not what shows shock exists. 3) Thirst, a small rise in heart rate, and persistent cool skin are consistent with ongoing compensation and early volume loss. 4) Falling blood pressure with changing mental status means the brain and body are no longer perfused, which is decompensation and a late, dangerous sign. 5) Choose the finding that marks a change in trend.",
   "optionRationales": [
-   "The body compensates early by increasing heart rate and narrowing vessels, producing tachycardia, restlessness and cool skin while blood pressure is still maintained.",
-   "A late finding; low blood pressure appears after compensation fails.",
-   "Reduced output is concerning but typically becomes obvious later than tachycardia and restlessness.",
-   "A very late sign of severe shock and brain hypoperfusion."
+   "Falling pressure with new confusion shows compensation is failing and perfusion of the brain is dropping. This is a late, dangerous trend that needs immediate escalation.",
+   "A small rise in heart rate fits a compensating body that is still maintaining pressure, so it does not show failure on its own.",
+   "Thirst is an early sign of fluid loss and is expected while the body compensates.",
+   "Cool skin was already present and fits vasoconstriction during compensation, so an unchanged finding does not show a new decline."
   ],
   "keyFacts": [
-   "Falling blood pressure is a late sign of shock.",
-   "Tachycardia and restlessness are early signs."
+   "Falling blood pressure with changed mental status is a late sign that compensation has failed in shock.",
+   "Tachycardia, thirst, and cool skin are early signs while blood pressure is still maintained."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -1937,29 +1947,29 @@
  {
   "id": "np4-006",
   "area": "NP4",
-  "topic": "Delegation on a stroke unit",
+  "topic": "Delegating tube feeding and glucose-related tasks",
   "archetype": "delegation-assignment",
-  "difficulty": 3,
-  "vignette": "A registered nurse on a stroke unit is making assignments for the day shift. A nursing assistant with current competency checks is available. The nurse considers several tasks for the assistant, keeping in mind that assessment, teaching, and evaluation stay with the nurse.",
-  "stem": "Which task is most appropriate for the nurse to delegate to the nursing assistant?",
+  "difficulty": 4,
+  "vignette": "A registered nurse on a medical unit is assigning tasks to a nursing assistant whose competencies are current and whose duties are limited to what the facility allows. Four clients need care this morning. One client has a feeding tube placed an hour ago that has not yet been used. A second client was started on insulin yesterday and is new to injections. A third client with diabetes is drowsy and had a low fingerstick glucose reading ten minutes ago. A fourth client has received the same continuous tube feeding for two weeks and has been steady throughout. The nurse is also short of time and wants to hand off as many tasks as safely possible.",
+  "stem": "Which task is the most appropriate for the nurse to delegate to the nursing assistant?",
   "options": [
-   "Feed a client admitted this morning with a facial droop who has not had a swallowing screen",
-   "Evaluate how well a client with a recent stroke recognizes the weak left side",
-   "Teach a client about the warning signs of another stroke before discharge",
-   "Measure and record the vital signs of a client on day three whose condition is stable"
+   "Verify the position of the feeding tube placed an hour ago before formula is started",
+   "Show the client newly started on insulin how to rotate injection sites at home",
+   "Decide whether the drowsy client's low glucose reading needs juice or a call to the provider",
+   "Record formula volume and urine output for the client on a long-standing tube feeding"
   ],
   "answerIndex": 3,
-  "strategyTag": "Delegate stable, routine tasks; keep assess/teach/evaluate",
-  "reasoning": "1) Delegation questions are decided by scope: the nurse keeps assessment, evaluation, teaching, and care of unstable or unpredictable clients. 2) The assistant may do routine, predictable tasks on stable clients. 3) Feeding a client with a possible swallowing problem before screening risks aspiration, so it is not safe to delegate. 4) Evaluating recognition of the weak side is an assessment and evaluation task. 5) Teaching is a nursing responsibility. 6) Taking vital signs on a stable client is routine and within the assistant's scope, with a request to report abnormal values.",
+  "strategyTag": "Delegation: routine tasks on stable clients; nurse keeps assess, teach, judge",
+  "reasoning": "1) Delegation is decided by scope and client stability: the nurse keeps assessment, teaching, evaluation and clinical judgment, and the assistant takes routine, predictable tasks. 2) Confirming placement of a new feeding tube is an assessment with a risk of aspiration if wrong, so it stays with the nurse. 3) Teaching a new insulin user is a nursing responsibility. 4) Deciding how to respond to a low glucose in a drowsy client is interpretation and judgment about an unstable client. 5) Recording intake and output for a client who has been steady on the same feeding is routine and within the assistant's scope, with a request to report any change. 6) The key is the one task that needs no nursing judgment.",
   "optionRationales": [
-   "Feeding looks like a routine task, but without a swallowing screen the client could aspirate, and judging swallowing safety requires nursing assessment.",
-   "Judging how well a client perceives the affected side requires assessment and evaluation, which cannot be delegated.",
-   "Client teaching and the evaluation of learning are nursing responsibilities and are not delegated.",
-   "Correct. Measuring and recording vital signs on a stable client is a routine, predictable task within the assistant's scope; the nurse reviews the results."
+   "Right action, wrong person: checking tube placement before first use is a nursing assessment and cannot be handed off.",
+   "Right action for the nurse, but teaching and checking understanding are not delegated.",
+   "Plausible because glucose care is routine on this unit, but interpreting the result in a drowsy client and choosing treatment requires nursing judgment about an unstable client.",
+   "Correct. Recording volumes and urine output for a steady client is a routine task within the assistant's scope; the nurse reviews the totals and asks to be told of any change."
   ],
   "keyFacts": [
-   "Do not delegate assessment, teaching, evaluation, or care of unstable clients.",
-   "Unscreened swallowing in a new stroke is an aspiration risk that needs nursing judgment."
+   "Do not delegate assessment, teaching, evaluation, or decisions about unstable clients.",
+   "Routine intake and output recording on a steady tube-fed client may be delegated to a competent assistant."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -2027,29 +2037,29 @@
  {
   "id": "np4-009",
   "area": "NP4",
-  "topic": "Prioritizing among four clients",
+  "topic": "Prioritizing among four competing clients",
   "archetype": "which-client-first",
-  "difficulty": 4,
-  "vignette": "At the start of the shift a nurse on a medical unit receives report on four clients. (1) A 70-year-old woman three days after a stroke, stable, waiting for help to the bathroom. (2) A 56-year-old man with cirrhosis who has a new black tarry stool, feels lightheaded, and has a heart rate of 112 when he sits up. (3) A 34-year-old woman with Crohn disease who reports cramping and four loose stools overnight. (4) A 48-year-old man with type 2 diabetes whose fasting glucose is higher than usual and who is asking about breakfast.",
+  "difficulty": 5,
+  "vignette": "At the start of the shift a nurse on a medical-surgical unit receives report on four clients. (1) A 62-year-old man two days after bowel surgery who rates his incision pain 8 out of 10 and has asked twice for medication; his vital signs are within his usual range. (2) A 56-year-old man with cirrhosis who passed a black, sticky stool during the night; sitting up, his heart rate is 112 and his blood pressure is 96/58, and he says he is waiting for his breakfast tray. (3) A 34-year-old woman with Crohn disease who has had four loose stools overnight and a temperature of 37.9 C; she is drinking fluids and walking in the hall. (4) A 48-year-old man with type 2 diabetes whose fingerstick glucose is 66 before breakfast; he is alert and the breakfast tray is at his bedside.",
   "stem": "Which client should the nurse assess first?",
   "options": [
-   "The woman three days after a stroke who needs help to the bathroom",
-   "The man with cirrhosis who has a black tarry stool and feels quite lightheaded",
-   "The woman with Crohn disease who reports abdominal cramping and a few loose stools",
-   "The man with type 2 diabetes whose fasting glucose is higher than usual"
+   "The man two days after bowel surgery who rates his incision pain 8 out of 10",
+   "The man with cirrhosis who passed a black, sticky stool during the night",
+   "The woman with Crohn disease who has had loose stools and a mild temperature",
+   "The man with type 2 diabetes whose glucose is 66 before breakfast"
   ],
   "answerIndex": 1,
-  "strategyTag": "Unstable before stable; circulation threatened",
-  "reasoning": "1) Sort the clients into unstable, potentially unstable, and stable. 2) Black tarry stool suggests bleeding in the upper gastrointestinal tract, and lightheadedness with a fast pulse on sitting up suggests fluid loss, so circulation is threatened: this client is unstable. 3) The stable stroke client needs help but is not at immediate risk if toileting is done soon after. 4) Cramping and a few loose stools in Crohn disease need follow-up but are expected for the condition. 5) A mildly raised fasting glucose is a chronic problem to address with breakfast and the provider. 6) Choose the client with threatened circulation first.",
+  "strategyTag": "Circulation threat before pain, mild fever, or treatable glucose",
+  "reasoning": "1) Sort the clients by threat to life and how fast it can worsen. 2) A black, sticky stool in a client with cirrhosis suggests upper gastrointestinal bleeding, and a heart rate of 112 with a blood pressure of 96/58 shows his circulation is already compromised, so he is unstable. 3) The postoperative client's pain is real and needs attention, but his vital signs are stable, so it can follow. 4) The Crohn client has mild fever and loose stools but is drinking and walking. 5) A glucose of 66 in an alert client who can eat is fixed in minutes with the tray at the bedside. 6) Choose the client whose circulation is threatened.",
   "optionRationales": [
-   "She is stable and needs assistance, which should be arranged soon, but there is no sign of immediate physiological threat.",
-   "Correct. Tarry stool in a client with cirrhosis plus lightheadedness and a rapid pulse suggests significant bleeding and falling volume; circulation takes priority.",
-   "Tempting because she is symptomatic, but cramping with a few loose stools is an expected pattern and she shows no signs of instability.",
-   "A mildly elevated fasting glucose is a chronic management issue and does not need immediate action."
+   "Tempting because pain is the loudest complaint, but his vital signs are steady; medicating him matters, yet it is not a threat to life.",
+   "Correct. Black stool with a fast pulse and a low-normal blood pressure suggests bleeding with falling volume; circulation takes priority and he needs help now.",
+   "Symptomatic and worth follow-up, but she is hydrating and walking, and a mild temperature with loose stools is an expected pattern in her condition.",
+   "A glucose of 66 needs prompt attention, but this client is alert and can take food at the bedside, so it can be treated quickly after the unstable client is seen."
   ],
   "keyFacts": [
-   "Black tarry stool suggests upper GI bleeding; lightheadedness with a rising heart rate signals volume loss.",
-   "Prioritize unstable, acute problems over stable and chronic ones."
+   "Black, sticky stool suggests upper GI bleeding; a rising heart rate with a falling blood pressure signals volume loss.",
+   "Rank clients by threat to life: unstable circulation before pain, mild fever, or an easily treated glucose."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -2209,27 +2219,27 @@
   "area": "NP4",
   "topic": "Worsening pain under a cast",
   "archetype": "initial-action-assess-vs-intervene",
-  "difficulty": 4,
-  "vignette": "A 29-year-old man has had a short leg cast applied after a tibial fracture six hours ago. He tells the nurse his pain is getting steadily worse even though an opioid analgesic was given 45 minutes ago, and the foot feels tight. The leg is resting elevated on a pillow and the toes look slightly swollen.",
-  "stem": "What is the nurse's most appropriate initial action?",
+  "difficulty": 5,
+  "vignette": "A 29-year-old man had a short leg cast applied six hours ago after a tibial fracture. He tells the nurse his pain has climbed steadily and now feels deep and burning, even though an opioid analgesic was given 45 minutes ago. The leg is resting elevated on a pillow and the toes look slightly swollen. He winces when the nurse gently moves his toes and says they feel tight and tingly. His roommate suggests the cast simply needs time to settle.",
+  "stem": "Which action should the nurse take first?",
   "options": [
-   "Give the next analgesic dose ahead of schedule because the pain is poorly controlled",
-   "Elevate the leg on pillows and apply a cold pack over the cast before checking the toes",
-   "Assess color, warmth, sensation, movement, and pulses of the toes against the other foot",
-   "Call the provider right away to report that the cast may be too tight and the pain is worse"
+   "Ask the provider for an earlier analgesic dose because the pain is poorly controlled",
+   "Telephone the provider to report the pain and ask for an order to bivalve the cast",
+   "Compare toe color, warmth, sensation, movement, and pulses with the other foot",
+   "Cut along the cast with the cast cutter to relieve pressure over the swollen area"
   ],
   "answerIndex": 2,
-  "strategyTag": "Nursing process: assess before you act or call",
-  "reasoning": "1) Pain that keeps getting worse despite an analgesic, with tightness and swelling, may mean circulation or nerve function is threatened under the cast. 2) The nursing process says assess before intervening when the data are incomplete. 3) A neurovascular check (color, warmth, sensation, movement, pulses, comparison with the other limb) gives the facts. 4) Giving more analgesic only masks a possible warning sign and delays recognition. 5) Comfort measures such as elevating the leg or applying a cold pack come after the assessment, not before it. 6) The provider must be notified, but the report is stronger and safer after the nurse has assessed.",
+  "strategyTag": "Nursing process: assess first, then report urgently",
+  "reasoning": "1) Pain that is increasing and out of proportion despite an analgesic, with tightness, tingling and pain on toe movement, may mean compartment syndrome, a limb-threatening emergency. 2) The data are incomplete, so the first action is to assess: a neurovascular check of color, warmth, sensation, movement and pulses, compared with the other foot. 3) The assessment is followed by an urgent report to the provider with those findings, not a delay. 4) More analgesic treats a symptom and can mask the warning sign. 5) Calling before assessing is the right action at the wrong time, since the report needs the findings. 6) Opening or cutting a cast is outside the nurse's scope without an order and skill, and could harm the client.",
   "optionRationales": [
-   "Tempting because the client is in pain, but extra analgesic can hide a developing circulation problem and delays finding the cause.",
-   "Elevation and cooling are comfort measures, but doing them before assessing the limb puts treatment ahead of assessment and could delay recognition of a circulation problem.",
-   "Correct. A neurovascular assessment with comparison to the other limb provides the data needed to decide what to do next and what to report.",
-   "Right action but wrong order: the provider needs a report built on the nurse's assessment findings, so assess first."
+   "Fits a client with ordinary fracture pain, but here extra analgesic can hide a developing circulation problem and delays finding the cause.",
+   "Right action, wrong time: the provider must be told promptly, but the report should carry assessment findings, so the nurse checks the limb first and then calls urgently.",
+   "Correct. A neurovascular check compared with the other foot supplies the findings needed for an urgent report to the provider, who decides about relieving pressure.",
+   "Plausible because pressure is the problem, but cutting a cast is outside the nurse's scope without an order and training, and it is not the first step."
   ],
   "keyFacts": [
-   "Increasing pain unrelieved by analgesics under a cast is a warning of possible impaired circulation.",
-   "Neurovascular checks: color, warmth, sensation, movement, pulses, and compare with the other limb."
+   "Pain out of proportion that is unrelieved by analgesics, with tightness and tingling, may signal compartment syndrome.",
+   "Neurovascular check: color, warmth, sensation, movement, pulses, compared with the other limb, then report urgently."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -2239,27 +2249,27 @@
   "area": "NP4",
   "topic": "Infant with persistent forceful vomiting",
   "archetype": "pediatric-growth-safety",
-  "difficulty": 3,
-  "vignette": "A 5-week-old boy is brought to the clinic because he has had forceful vomiting after most feedings for three days. The vomit is milk without bile and he seems hungry again right afterward. He has had two wet diapers in the past day, and his anterior fontanelle looks slightly sunken. The nurse can feel a small olive-shaped mass in the upper abdomen.",
-  "stem": "Which nursing diagnosis has the highest priority?",
+  "difficulty": 4,
+  "vignette": "A 5-week-old boy is brought to the clinic because he has had forceful vomiting after most feedings for three days. The vomit is milk without bile and he seems hungry again right afterward. His weight is lower than at the last visit, he has had two wet diapers in the past day, and his anterior fontanelle looks slightly sunken. The nurse can feel a small olive-shaped mass in the upper abdomen. His parents have slept little, say they feel they are failing him, and have been propping him upright after feedings as they read online.",
+  "stem": "Which concern should the nurse address first?",
   "options": [
-   "Risk for impaired parent-infant attachment related to feeding stress",
-   "Inadequate nutrition related to repeated vomiting after most feedings",
-   "Anxiety related to the unfamiliar clinic setting and procedures",
-   "Dehydration related to repeated vomiting and reduced fluid intake"
+   "The parents are exhausted and fear that feeding trouble is harming their bond",
+   "The baby has lost weight and is not receiving enough calories for growth",
+   "The parents have not been shown the best way to position him after feeding",
+   "The baby is losing more fluid by vomiting than he is able to take in"
   ],
   "answerIndex": 3,
-  "strategyTag": "Maslow: fluid balance first in an infant",
-  "reasoning": "1) The picture suggests an obstruction at the stomach outlet with repeated vomiting. 2) Infants have little fluid reserve, so fluid loss quickly becomes dangerous. 3) Fewer wet diapers and a sunken fontanelle show dehydration is already present, so this is an actual, physiological problem. 4) Poor nutrition is also true, but it develops over time and cannot be corrected until fluid and electrolyte balance is restored. 5) Attachment and anxiety are psychosocial and rank lower by Maslow. 6) Pick the diagnosis that addresses the immediate physiological threat.",
+  "strategyTag": "Maslow: fluid balance before nutrition, teaching, and bonding",
+  "reasoning": "1) The picture suggests an obstruction at the stomach outlet with repeated forceful vomiting. 2) Infants have little fluid reserve, and few wet diapers with a sunken fontanelle show that fluid loss is already affecting him. 3) Fluid and electrolyte balance is a physiological need that must be corrected before anything else. 4) Weight loss and low calorie intake are true, but they develop over days and cannot be addressed until he is rehydrated. 5) Positioning advice would suit a baby with simple reflux, and the parents' distress is real, but both rank below a physiological threat. 6) Choose the concern that threatens him now.",
   "optionRationales": [
-   "Feeding stress can strain bonding, but this is a psychosocial concern that ranks below physiological needs.",
-   "Tempting and true, but nutritional deficit develops more slowly; dehydration is the more urgent physiological threat in an infant.",
-   "Anxiety related to the setting is minor and lower in priority than a physiological problem.",
-   "Correct. Sunken fontanelle and fewer wet diapers show dehydration already exists in a small infant who cannot compensate well, so it is the top priority."
+   "Real and worth supporting, but it is a psychosocial need and ranks below a physiological threat.",
+   "True and important, but nutritional deficit builds over time; the fluid loss is the more immediate danger in a small infant.",
+   "Right action for an infant with simple reflux, but positioning does not fix an obstruction and teaching ranks below the physiological problem.",
+   "Correct. Fewer wet diapers and a sunken fontanelle show dehydration is under way in an infant who compensates poorly, so fluid balance comes first."
   ],
   "keyFacts": [
    "Infants dehydrate quickly; signs include a sunken fontanelle and fewer wet diapers.",
-   "Projectile non-bilious vomiting with an olive-shaped mass suggests pyloric stenosis."
+   "Forceful non-bilious vomiting with an olive-shaped mass suggests pyloric stenosis."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -2327,29 +2337,29 @@
  {
   "id": "np4-019",
   "area": "NP4",
-  "topic": "Evaluation step after diabetic foot teaching",
+  "topic": "Naming the nursing process step after foot teaching",
   "archetype": "nursing-process-step-identification",
-  "difficulty": 3,
-  "vignette": "A nurse has taught a 55-year-old man with type 2 diabetes and reduced feeling in his feet to inspect his feet daily. The care plan states the outcome: 'Client will describe and demonstrate daily foot inspection by the end of the week.' At the end of the week the nurse asks him to demonstrate how he checks his feet and what he would report.",
-  "stem": "Which nursing process step is the nurse performing?",
+  "difficulty": 4,
+  "vignette": "A nurse taught a 55-year-old man with type 2 diabetes and reduced feeling in his feet to inspect his feet daily. The care plan states the outcome: 'Client will describe and demonstrate daily foot inspection by the end of the week.' At the end of the week the nurse asks him to show how he checks his feet. He looks at the tops of his feet but skips the soles and the spaces between his toes, and he cannot say what he would report. The nurse concludes that the outcome was only partly met and notes that more teaching will be needed.",
+  "stem": "Which phase of the nursing process does the nurse's conclusion represent?",
   "options": [
-   "Evaluation, by comparing his performance with the expected outcome",
-   "Implementation, by carrying out the teaching plan for foot care",
-   "Planning, by setting a new goal for the client's foot care teaching",
-   "Assessment, by collecting new baseline data about his feet today"
+   "Evaluation of care provided",
+   "Assessment of a new problem",
+   "Planning of revised teaching",
+   "Implementation of the plan"
   ],
   "answerIndex": 0,
-  "strategyTag": "Nursing process: compare results with the outcome",
-  "reasoning": "1) Read what the nurse is actually doing, not just the topic. 2) The outcome was already written in the plan, so planning is finished. 3) The teaching has already been delivered, so implementation is finished. 4) The nurse now checks whether the stated outcome was met by comparing the client's performance with it. 5) That comparison of results against the outcome is evaluation. 6) Assessment collects new data to identify problems, which is not the purpose here.",
+  "strategyTag": "Nursing process: judging results against a written outcome",
+  "reasoning": "1) Name the phase by what the nurse is doing at this moment, not by the topic. 2) The nurse has the written outcome from the plan and the client's performance, and decides the outcome was only partly met. 3) Judging results against a stated outcome is the evaluation phase. 4) Assessment is gathering data to find a problem, and the problem was already known. 5) Planning is writing new goals and actions, which will come next but has not happened yet. 6) Implementation was the teaching already given.",
   "optionRationales": [
-   "Correct. Asking him to show and describe the skill and comparing it with the stated outcome is evaluation.",
-   "Tempting because teaching is involved, but the teaching has already been done; this action measures its result.",
-   "The goal already exists in the care plan, so the nurse is not setting a new one.",
-   "Assessment gathers data to identify problems; here the nurse is judging whether a stated outcome was achieved."
+   "Correct. Comparing the client's performance with the written outcome and judging it partly met is evaluation.",
+   "The nurse is not searching for a new problem; the foot-care knowledge need was already identified.",
+   "Revising the teaching plan is likely the next step, but at this moment the nurse is judging results, not writing new actions.",
+   "Implementation was the teaching already delivered; observing the result of that teaching is not carrying out the plan."
   ],
   "keyFacts": [
-   "Evaluation compares the client's response with the planned outcome.",
-   "Teach-back and return demonstration are common ways to evaluate learning."
+   "Evaluation compares the client's response with the written outcome and judges whether it was met.",
+   "Return demonstration is a common way to evaluate learning."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -2477,29 +2487,30 @@
  {
   "id": "np5-004",
   "area": "NP5",
-  "topic": "Complete airway obstruction",
-  "archetype": "airway-obstruction-exception",
-  "difficulty": 3,
-  "vignette": "A nurse is on a medical unit during the dinner hour. A 68-year-old client who was eating suddenly grabs their throat, cannot speak, makes no sound when trying to cough, and has a panicked expression. The client's lips are beginning to look dusky.",
-  "stem": "What should the nurse do immediately?",
+  "topic": "Acute chest pain: first action",
+  "archetype": "initial-action-assess-vs-intervene",
+  "difficulty": 4,
+  "vignette": "A nurse on a medical unit is caring for a 58-year-old client on the second day of treatment for a leg infection. The client has a prn analgesic ordered for muscle soreness after physiotherapy. While the nurse is preparing the afternoon medications, the client presses the call light and reports sudden pressure in the centre of the chest that spreads to the left arm. The client looks pale, is sweating and says they feel very frightened. The nurse has a full list of other tasks waiting.",
+  "stem": "Which action should the nurse take first?",
   "options": [
-   "Ask the client to speak again and then assess the breath sounds",
-   "Leave the client to call the rapid response team before intervening",
-   "Encourage the client to cough forcefully while a suction set is gathered",
-   "Start abdominal thrusts and continue until the object is expelled"
+   "Complete a full pain history covering onset, quality and triggers before calling anyone",
+   "Give the prn analgesic ordered for muscle soreness and reassess the pain after an hour",
+   "Review the medication record for drugs that could explain the chest discomfort first",
+   "Stay with the client, raise the head of the bed and call for the emergency team"
   ],
   "answerIndex": 3,
-  "strategyTag": "Exception: emergency overrides assess-first",
-  "reasoning": "1) Read the findings: unable to speak or cough, silent, dusky lips. This is a complete airway obstruction. 2) This is a stated exception to 'assess first': a clear life threat needs action now. 3) Asking the client to speak or auscultating wastes time the client does not have. 4) Leaving the client alone removes the only person who can relieve the obstruction; help is called by someone else or right after starting the intervention. 5) Coughing helps in a partial obstruction with effective air movement, not here. 6) Decision: begin abdominal thrusts and be ready to start CPR if the client becomes unresponsive.",
+  "strategyTag": "Unstable client: stay and act, do not leave or delay",
+  "reasoning": "1) Read the cues: sudden central chest pressure spreading to the arm, pallor and sweating. These suggest a possible acute cardiac event, a threat to circulation. 2) Assess-first is the usual rule, but here the client is unstable and delay can cost heart muscle, so the first action protects the client and brings help. 3) A full pain history is a correct assessment step at the wrong time; details can be gathered while help is on its way. 4) The prn analgesic was ordered for a different problem (muscle soreness) and would mask a serious symptom. 5) Reviewing the medication record is true-to-practice data gathering but does not address the immediate threat. 6) Decision: stay with the client, position for comfort and breathing, and summon the emergency team.",
   "optionRationales": [
-   "The client cannot speak, so this wastes time; assessment is not appropriate before action in complete obstruction.",
-   "Calling for help is needed but must not leave the client alone; the nurse should start relief and have someone else call.",
-   "Forceful coughing is encouraged only when air is still moving; this client cannot cough at all.",
-   "Correct. Abdominal thrusts are the immediate intervention for a conscious adult with complete obstruction."
+   "A complete history is a valid nursing step, but doing it before calling for help delays care for a client who may be having a cardiac event.",
+   "This order was written for muscle soreness; giving it treats the wrong problem and can hide a dangerous symptom while time is lost.",
+   "The medication record is useful later, but reviewing it first does not protect a client who looks unstable now.",
+   "Correct. Staying with the client, raising the head of the bed and calling the emergency team deals with the possible life threat at once."
   ],
   "keyFacts": [
-   "Inability to speak or cough means complete obstruction: act immediately.",
-   "If the client becomes unresponsive, start CPR."
+   "Sudden chest pressure with pallor and sweating is treated as an emergency until proven otherwise.",
+   "Do not leave an unstable client alone; get help while starting basic care.",
+   "An analgesic ordered for a different problem is not the response to new chest pain."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -2537,29 +2548,30 @@
  {
   "id": "np5-006",
   "area": "NP5",
-  "topic": "Sepsis: recognising deterioration",
+  "topic": "Recognising early deterioration in infection",
   "archetype": "stable-vs-unstable",
-  "difficulty": 4,
-  "vignette": "A nurse in a medical-surgical unit is assessing four clients being treated for infections. Over the last two hours, one client with pneumonia has become newly restless and confused, has a rising respiratory rate and heart rate, and a blood pressure lower than at the previous check. The nurse is deciding what to report first.",
-  "stem": "Which assessment finding requires the nurse's most urgent follow-up?",
+  "difficulty": 5,
+  "vignette": "A nurse on a medical unit starts the shift with four clients who are all being treated for infections. The assistant has recorded the start-of-shift vital signs, and the nurse has compared them with the readings from four hours earlier. Several tasks are due at the same time, and the nurse can assess only one client first.",
+  "stem": "Which client should the nurse assess first?",
   "options": [
-   "New confusion with falling blood pressure and rising heart rate in the client who has pneumonia",
-   "A temperature that is unchanged from the morning in a client being treated for a urinary infection",
-   "A cough producing the same amount of sputum as yesterday in a client recovering from pneumonia",
-   "A report of poor appetite on the third day of antibiotic therapy in a client with cellulitis"
+   "Client with pneumonia whose blood pressure has dropped since four hours ago, pulse is higher and who repeats questions",
+   "Client with a urinary infection who has a temperature of 39 degrees Celsius, is alert, comfortable and drinking fluids well",
+   "Client with leg cellulitis whose redness has spread a little past the marked border and who reports throbbing pain",
+   "Client with a wound infection who has had two loose stools since morning while taking an antibiotic course"
   ],
   "answerIndex": 0,
-  "strategyTag": "Unstable before stable",
-  "reasoning": "1) Find which finding is NEW or CHANGING versus stable. 2) Use 'unstable, new, unexpected outrank stable, expected'. 3) New confusion, falling blood pressure and rising heart rate and respiratory rate form a pattern consistent with worsening perfusion and possible sepsis progressing toward shock. 4) This pattern may involve more than one organ system (brain, circulation, lungs), which makes it more urgent. 5) The other findings are unchanged or expected during infection treatment. 6) Decision: report the deteriorating client now.",
+  "strategyTag": "Unstable before stable: trend over single value",
+  "reasoning": "1) Look at the trend and the pattern, not the most dramatic single number. 2) Option 1 shows a falling blood pressure with a rising pulse and a change in thinking: this suggests worsening perfusion and possible sepsis progressing toward shock, affecting circulation and brain together. 3) The high temperature in an alert, drinking client with stable circulation looks alarming but is a common, expected response to infection. 4) Spreading redness needs reporting and review, but the client is stable and the change is small. 5) Loose stools on an antibiotic need follow-up and infection-control precautions, but no sign of unstable circulation. 6) Decision: assess the client with the unstable trend first.",
   "optionRationales": [
-   "Correct. A change in mental status with lower blood pressure suggests inadequate perfusion and requires immediate reporting and intervention.",
-   "Unchanged temperature is stable data and not urgent.",
-   "A stable amount of sputum is expected and not changing.",
-   "Poor appetite is common and does not suggest immediate danger."
+   "Correct. A falling blood pressure, rising pulse and a change in thinking over four hours suggest poor perfusion in a client who is getting worse.",
+   "A high temperature is eye-catching, but this client is alert, drinking and shows no sign of unstable circulation.",
+   "Spread of redness beyond the marked border should be reported, but the change is small and the client is otherwise stable.",
+   "Loose stools on antibiotics need follow-up and precautions, yet nothing suggests an immediate threat to circulation or breathing."
   ],
   "keyFacts": [
-   "Confusion plus hypotension plus rising heart and respiratory rates suggests inadequate perfusion.",
-   "Trend matters more than a single value."
+   "Compare each client with their own earlier readings: a worsening trend outranks one high value.",
+   "Falling blood pressure with rising pulse and altered thinking suggests poor perfusion.",
+   "Fever in an alert, stable client is expected during infection."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -2567,29 +2579,30 @@
  {
   "id": "np5-007",
   "area": "NP5",
-  "topic": "Delegation on a psychiatric unit",
-  "archetype": "delegation-assignment",
-  "difficulty": 4,
-  "vignette": "A charge nurse on an inpatient mental health unit is assigning tasks for the shift. Staff available include a registered nurse and an unlicensed assistive personnel. One client was admitted this morning after expressing suicidal thoughts, one is anxious after a family argument, one received a prn antianxiety medication an hour ago, and one is stable and under routine observation.",
-  "stem": "Which task is most appropriate to delegate to the unlicensed assistive personnel?",
+  "topic": "Delegating constant observation",
+  "archetype": "scope-of-practice-boundaries",
+  "difficulty": 5,
+  "vignette": "A charge nurse on an inpatient mental health unit is preparing the evening assignments. A client was admitted yesterday after an intentional overdose and was medically cleared. The care plan orders one-to-one observation. The charge nurse plans to assign an unlicensed assistive personnel (UAP) to sit with the client while the registered nurse completes the medication round and a family meeting. The UAP has been told the nurse will review the plan with them first.",
+  "stem": "Which responsibility can the nurse appropriately include in the UAP's assignment for this client?",
   "options": [
-   "Assess the newly admitted client for current suicide risk and level of observation",
-   "Teach coping skills to the client who is anxious after the family argument today",
-   "Evaluate whether the prn antianxiety medication relieved the client's symptoms",
-   "Measure and record the vital signs of the stable client under routine observation"
+   "Decide whether the observation level can be eased because the client now seems calmer",
+   "Question the client about current thoughts of self-harm and judge how serious they are",
+   "Explain the purpose of the unit's therapy groups and answer questions about the medication",
+   "Keep the client in constant view, record behaviours at set times and report changes"
   ],
   "answerIndex": 3,
-  "strategyTag": "Delegation: stable and routine only",
-  "reasoning": "1) Identify the task type: assessment, teaching, evaluation, or routine measurement. 2) Rule: assessment, teaching, evaluation and care of unstable or new clients stay with the licensed nurse. 3) A suicide risk assessment of a newly admitted client is assessment of a high-risk client. 4) Teaching coping skills is teaching. 5) Evaluating medication response is evaluation and needs nursing judgement. 6) Routine vital signs on a stable client are predictable and within the assistant's training; the nurse remains responsible for interpreting results. 7) Decision: delegate the vital signs.",
+  "strategyTag": "Scope: UAP observes and reports; nurse assesses and decides",
+  "reasoning": "1) Separate tasks that need nursing judgement (assess, decide, teach) from tasks that follow clear instructions (observe, record, report). 2) Deciding to reduce an observation level is a clinical decision for the nurse and the team. 3) Asking about self-harm thoughts and judging how serious they are is a risk assessment, which is outside UAP scope. 4) Explaining groups and medication is teaching, which is a nursing responsibility. 5) Constant observation is a task the UAP can perform when given clear instructions, what to report and who to tell; the nurse remains accountable for the plan. 6) Decision: constant view, recording and reporting.",
   "optionRationales": [
-   "Assessment of a high-risk client cannot be delegated.",
-   "Teaching is a nursing responsibility.",
-   "Evaluation needs a nurse's judgement.",
-   "Correct. A routine, predictable task on a stable client, with results reported to the nurse."
+   "Changing the observation level is a clinical decision. A calmer appearance does not by itself show reduced risk, and the UAP cannot make this judgement.",
+   "Asking about self-harm and judging seriousness is an assessment; it must be done by a licensed nurse. The UAP reports what they see and hear instead.",
+   "Teaching about groups and medication is a nursing responsibility; it also needs knowledge the UAP is not trained to give.",
+   "Correct. Observing, recording and reporting changes are within the UAP's role when the nurse gives clear instructions and stays accountable."
   ],
   "keyFacts": [
-   "Delegate only stable, routine and predictable tasks.",
-   "Assessment, teaching and evaluation are not delegated to unlicensed staff."
+   "UAP can observe, record and report; the nurse assesses, teaches and decides.",
+   "Changes to observation level are made by the nurse and team, not by the person doing the observing.",
+   "Give the UAP clear instructions on what to report and whom to tell."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -2687,29 +2700,30 @@
  {
   "id": "np5-011",
   "area": "NP5",
-  "topic": "Hypovolemic shock: worsening",
+  "topic": "Hypovolemic shock: failing compensation",
   "archetype": "abnormal-finding-identification",
   "difficulty": 5,
-  "vignette": "A nurse is monitoring a 29-year-old man after a road traffic injury with internal bleeding. He has received fluids and blood products. At the last two checks he was anxious, with a fast pulse and cool pale skin. The nurse now compares the new findings with the earlier trend to decide whether he is getting worse.",
-  "stem": "Which finding best indicates the shock is progressing despite treatment?",
+  "vignette": "A nurse is monitoring a 29-year-old man after a road traffic injury with internal bleeding. He has received fluids and blood products over the past two hours. At the two earlier checks he was anxious, with a fast pulse and cool pale skin, and the surgical team is arranging theatre. The nurse now compares the new findings with the earlier trend to decide whether he is responding to treatment or whether his compensation is failing.",
+  "stem": "Which finding best indicates that compensation is failing despite treatment?",
   "options": [
-   "Reports of thirst and a dry mouth that are the same as at earlier checks",
-   "Cool, pale hands and skin that are unchanged from the earlier assessments",
-   "Urine output that has remained steady and adequate since the last two checks",
-   "New drowsiness with a falling blood pressure as the heart rate keeps rising"
+   "Pulse has slowed since the second unit of blood and he is less anxious than before",
+   "Skin is still cool and pale, and his thirst is the same as at the earlier checks",
+   "Urine output increased after the last unit of blood and he is passing urine freely",
+   "He is hard to rouse now, with a falling blood pressure and a climbing pulse"
   ],
   "answerIndex": 3,
-  "strategyTag": "Expected vs unexpected finding",
-  "reasoning": "1) The stem asks which finding shows progression, so look for change in a worsening direction. 2) Compare each finding with the trend: unchanged findings are not progression. 3) Thirst and cool pale skin were already present and unchanged. 4) Steady adequate urine output suggests kidney perfusion is being maintained. 5) New drowsiness and a falling blood pressure with a still-rising heart rate indicate the body can no longer compensate and the brain and circulation are affected. 6) Decision: the new decline in consciousness and blood pressure.",
+  "strategyTag": "Trend: improving, unchanged or worsening",
+  "reasoning": "1) The stem asks for failing compensation, so look for a change in a worsening direction. 2) Sort each finding: improving, unchanged or worsening. 3) A slower pulse with less anxiety after blood suggests improvement. 4) Skin and thirst unchanged show no new information. 5) Increased urine output suggests better kidney perfusion. 6) Reduced consciousness with falling blood pressure and a still-rising pulse shows the body can no longer compensate. 7) Decision: the new drowsiness with hypotension and rising pulse.",
   "optionRationales": [
-   "Expected in hypovolemia and unchanged, so it does not show progression.",
-   "Already present earlier; no change means no new information about progression.",
-   "This is reassuring and suggests organ perfusion is maintained.",
-   "Correct. Decreased level of consciousness and falling blood pressure signal decompensation."
+   "This is a change, but in a good direction: a slower pulse and less anxiety after blood suggest he is responding.",
+   "Unchanged findings are expected in hypovolemia and show no progression, though they should keep being monitored.",
+   "A change in a good direction: more urine suggests kidney perfusion is improving.",
+   "Correct. Falling consciousness and blood pressure with a rising pulse mean compensation is failing."
   ],
   "keyFacts": [
-   "Early shock shows anxiety and a rapid pulse; late shock shows falling blood pressure and reduced consciousness.",
-   "Compare against the trend, not single values."
+   "Sort findings into improving, unchanged or worsening before choosing.",
+   "Falling consciousness with falling blood pressure is a late, serious sign in shock.",
+   "Urine output is a useful sign of organ perfusion."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -2717,29 +2731,30 @@
  {
   "id": "np5-012",
   "area": "NP5",
-  "topic": "Disaster triage",
+  "topic": "Disaster triage: setting priorities",
   "archetype": "which-client-first",
   "difficulty": 5,
-  "vignette": "A nurse is assisting at the scene of a bus collision with many casualties, using a simple field triage system based on walking ability, breathing, circulation and mental status. Four casualties are assessed in sequence by the nurse.",
-  "stem": "Which casualty should be classified for immediate treatment and transport first?",
+  "vignette": "A nurse is helping at the scene of a bus collision with many casualties. Only a few responders and limited supplies are present, and more help is some time away. The triage lead reminds the team that the aim is to give quick, life-saving care first to those most likely to survive with the resources available, then to move to others. Four casualties are assessed in sequence.",
+  "stem": "Which casualty should the nurse prioritise for immediate treatment?",
   "options": [
-   "A casualty who is walking around with a small abrasion on the forearm",
-   "A casualty with rapid, shallow breathing who cannot follow simple commands",
-   "A casualty who is not breathing even after the airway has been repositioned",
-   "A casualty with an obvious forearm fracture who is alert and breathing normally"
+   "Casualty with no signs of life who was found without a pulse some time before the team arrived",
+   "Casualty with a bleeding thigh wound, weak fast pulse and drowsy answers, breathing alone",
+   "Casualty with a deformed lower leg who is in severe pain, shouting and breathing comfortably",
+   "Casualty with minor cuts who is walking about and asking staff to help find relatives"
   ],
   "answerIndex": 1,
-  "strategyTag": "Triage: unstable and new before stable",
-  "reasoning": "1) In mass-casualty triage the aim is the greatest good for the greatest number. 2) Walking casualties are minor and wait. 3) A casualty who is still not breathing after airway repositioning is generally classified as expectant or deceased in a mass-casualty setting, because resources go to survivable patients. 4) A casualty with rapid shallow breathing and inability to follow commands has a threatened airway/breathing/circulation or brain function but can likely be saved: immediate. 5) An alert, breathing casualty with a fracture is delayed. 6) Decision: the casualty with rapid shallow breathing and inability to obey commands.",
+  "strategyTag": "Triage: greatest good, treatable life threat first",
+  "reasoning": "1) In mass-casualty triage the goal is the greatest good for the greatest number, not the most dramatic injury. 2) A casualty with no signs of life is generally not given scarce resources first when others can be saved. 3) A casualty with serious bleeding, weak circulation and drowsiness has a life threat that may be reversed quickly with simple measures, so is a high priority. 4) A painful deformed leg is serious and noisy but the casualty is breathing comfortably and can wait a little. 5) A walking casualty with minor injuries is lowest priority. 6) Decision: the bleeding, drowsy casualty.",
   "optionRationales": [
-   "Minor injury, can walk; lowest priority.",
-   "Correct. Respiratory compromise with altered mental status is life threatening but treatable and warrants immediate category.",
-   "Tempting because it is the most critical looking, but in mass-casualty triage a casualty who does not breathe after repositioning the airway is not first priority.",
-   "Painful but not immediately life threatening; delayed category."
+   "Looks the most critical, but with scarce resources the focus is on those who can be saved; comfort and later reassessment may be used for this casualty.",
+   "Correct. Serious bleeding with signs of poor circulation and reduced alertness is a life threat that quick care can treat.",
+   "Loud and painful, but breathing and alertness are intact; this casualty can be treated after those with immediate threats.",
+   "Minor injuries and the ability to walk indicate a lower priority, however worried the casualty is."
   ],
   "keyFacts": [
-   "Mass-casualty triage differs from everyday priority: save those most likely to survive with quick treatment.",
-   "Walking casualties wait; breathing problems and altered mental status are immediate."
+   "Mass-casualty triage differs from everyday care: resources go where they save the most lives.",
+   "Look at breathing, circulation and alertness, not at how dramatic or noisy an injury is.",
+   "Casualties with minor injuries wait."
   ],
   "aiWritten": true,
   "nurseReviewed": false
@@ -2927,29 +2942,30 @@
  {
   "id": "np5-019",
   "area": "NP5",
-  "topic": "Sepsis: organ dysfunction",
+  "topic": "Sepsis: multi-organ dysfunction",
   "archetype": "lab-value-interpretation-qualitative",
-  "difficulty": 4,
-  "vignette": "A nurse in the intensive care unit is caring for a 62-year-old client with sepsis from an abdominal infection. Overnight, the client's urine output has fallen, and the morning laboratory report is received. The nurse reviews the results to find which indicate that more than one organ system is being affected.",
+  "difficulty": 5,
+  "vignette": "A nurse in the intensive care unit is caring for a 62-year-old client with sepsis from an abdominal infection. The client has mild chronic kidney disease and mildly raised liver enzymes that were recorded on admission. Overnight the urine output has fallen, and the morning results are available. The nurse compares them with the admission values to identify which indicate that more than one organ system is newly affected.",
   "stem": "Which set of findings most strongly suggests developing multi-organ dysfunction?",
   "options": [
-   "Rising creatinine, falling urine output and a new drop in platelet count",
-   "A mildly raised white blood cell count together with a low-grade fever",
-   "A slightly lowered appetite and mild nausea since the previous evening",
-   "A heart rate that rises slightly when the client is turned or repositioned in bed"
+   "Creatinine higher than on admission with low urine output, plus a new fall in platelets with bruising",
+   "Lactate that was raised on admission and has fallen after fluids, with urine output now improving",
+   "Creatinine unchanged from the admission value in a client with chronic kidney disease and steady urine output",
+   "Liver enzymes still mildly raised, as on admission, with creatinine and platelets within the client's usual range"
   ],
   "answerIndex": 0,
-  "strategyTag": "Lab: link result to risk",
-  "reasoning": "1) The stem asks for multi-organ involvement, so look for evidence of two or more systems. 2) Rising creatinine with falling urine output points to kidney injury. 3) A new fall in platelets points to blood-clotting involvement. 4) Together they show separate systems failing, which is the pattern of multi-organ dysfunction. 5) Raised white cells and fever are expected in infection, not evidence of organ failure. 6) Nausea and a small heart rate change with turning are non-specific and common. 7) Decision: kidney and clotting changes.",
+  "strategyTag": "Lab: compare with baseline and count the systems",
+  "reasoning": "1) The stem asks for multi-organ involvement, so look for new changes in two or more systems compared with baseline. 2) Creatinine higher than admission with falling urine output points to new kidney injury. 3) A new fall in platelets with bruising points to blood-clotting involvement. 4) Together these are separate systems newly failing. 5) A falling lactate with better urine output suggests recovery. 6) Unchanged creatinine in chronic kidney disease is the client's baseline, and unchanged liver enzymes are also baseline, involving at most one system with no new change. 7) Decision: new kidney and clotting changes.",
   "optionRationales": [
-   "Correct. Two organ systems show new dysfunction.",
-   "Expected response to infection.",
-   "Non-specific and common.",
-   "Normal variation with movement."
+   "Correct. Two systems, kidney and clotting, show new dysfunction compared with admission.",
+   "These results were abnormal at first but are improving, which suggests the client is responding to treatment.",
+   "A raised creatinine is organ-related, but it is the client's baseline, so there is no new dysfunction.",
+   "Liver enzymes are organ-related but unchanged from admission, and the other systems are within usual range."
   ],
   "keyFacts": [
-   "Organ dysfunction in sepsis is shown by changes such as falling urine output and rising creatinine.",
-   "Multi-organ failure means two or more systems are failing."
+   "Multi-organ dysfunction means two or more systems newly failing.",
+   "Compare results with the client's baseline before deciding they are new.",
+   "Falling urine output with rising creatinine suggests kidney injury."
   ],
   "aiWritten": true,
   "nurseReviewed": false
