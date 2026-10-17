@@ -19,8 +19,8 @@ Create and verify source-faithful notes from three textbook photographs.
 - Added explanations and retrieval questions separated from source notes.
 - Re-fetched all seven created files and confirmed non-empty content. Re-fetched both main note files and checked expected key concepts.
 
-## Remaining blocker
-The last line of Afaf Meleis's row is cropped at the bottom of the page 8 photograph. Exact wording cannot be verified. Do not guess.
+## Remaining source limitation
+The last line of Afaf Meleis's row is cropped at the bottom of the page 8 photograph. Exact wording cannot be verified and is not guessed. The study note includes a separately labeled external cross-check based on scholarly sources.
 
 ## Exact next action
 If the user supplies a clearer image of the bottom of printed page 8, transcribe the remainder of Meleis's entry, update the theorist note and coverage checklist, then re-fetch and verify those edited files.
