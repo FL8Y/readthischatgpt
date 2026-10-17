@@ -48,7 +48,7 @@ These pages are a rapid-review list of Philippine laws, executive orders, admini
 | RA 6425 | Penalties for Violations of the Dangerous Drug Act of 1972 | Wording as printed; not the full statute title. |
 | RA 9165 | Comprehensive Dangerous Drug Act of 2002 | Title only. |
 | RA 8423 | Traditional & Alternative Medicine Act of 1997 | Guide says it was signed into law through efforts of Secretary of Health Juan Flavier. |
-| RA 10352 | Excise Tax on Alcohol & Tobacco | Listed by this description; number/title should be checked. |
+| RA 10352 | Excise Tax on Alcohol & Tobacco | This number/description pairing is inconsistent with the Senate legislative reference; see external cross-check. |
 
 ### D. Laws Affecting Communicable Disease — printed pages 3–4
 
@@ -135,10 +135,10 @@ These are external cross-checks, not claims transcribed from the page.
 - **RA 3573 is historical, not the current reporting statute:** RA 11332 expressly repealed it. For current mandatory disease reporting, use RA 11332 and applicable DOH rules.
 - **Breastfeeding legislation:** the Senate Legislative Reference Bureau identifies RA 10028 as an amendment to RA 7600; do not memorize them as unrelated statutes.
 - **RA 6425:** this was the Dangerous Drugs Act of 1972; it was superseded/repealed by later dangerous-drug legislation, including RA 9165. The guide's phrasing “Penalties for Violations…” is not the full statute title.
-- **RA 7846:** the guide's description refers to compulsory hepatitis B immunization. Treat the exact title/coverage as a legal reference to verify rather than relying on shortened wording.
-- **RA 10352:** verify the number/title before memorizing. The guide's “Excise Tax on Alcohol & Tobacco” label may be shorthand or a transcription issue; do not infer the full statute title from it.
+- **RA 7846:** the Senate Legislative Reference Bureau confirms the full title is an act requiring compulsory hepatitis-B immunization for infants and children below eight, amending PD 996. The guide's shortened description is broadly consistent with that title. Source: https://ldr.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%207846
+- **RA 10352 is a likely number error in the guide:** the Senate Legislative Reference Bureau identifies RA 10352 as the 2013 General Appropriations Act, while RA 10351 restructures excise tax on alcohol and tobacco products (the Sin Tax Reform Act of 2012). Memorize the page's source wording as a possible typo, but verify the intended number as RA 10351. Sources: https://issuances-library.senate.gov.ph/legislative-issuances/republic-acts?field_date_of_approval_value=All&items_per_page=50&page=38 and https://ldr.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%2010351
 - **RA 8749:** the number is printed twice in the image; likely a duplication/printing artifact, not two separate laws.
-- **RA 6541 / PD 1096:** the page groups these references together in the environmental section and repeats RA 6541 in the occupational-health section. Preserve the guide's listing, but verify exact legislative relationships before using it as a legal citation.
+- **RA 6541 / PD 1096:** the Senate Legislative Reference Bureau confirms PD 1096 revised RA 6541 and adopted the National Building Code of the Philippines. The page's paired reference is understandable but RA 6541 and PD 1096 are not interchangeable citations. Source: https://issuances-library.senate.gov.ph/legislative%2Bissuances/Presidential%20Decree%20No.%201096%2C%20s.%201977
 - **RA 1136:** the page labels it “Tuberculosis Law of 1954.” Preserve this source wording, but verify the law number/title against an authoritative legal source before relying on it.
 
 ## 5. High-value terms
@@ -170,5 +170,5 @@ The pages are a broad index of Philippine public-health-related laws. Memorize b
 - **Upload 1 / printed p. 3:** all visible headings and listed entries covered from maternal/child health through communicable-disease laws.
 - **Upload 2 / printed p. 4:** continuation of communicable-disease laws, environmental/disaster management, and occupational-health legislation covered.
 - **Upload 3 / printed p. 5:** RA 10968, RA 11058, RA 11369, and accompanying explanatory paragraphs covered.
-- **Unclear/possible print issues:** RA 8749 appears duplicated; RA 10352 description, RA 1136 title, RA 7846 wording, and RA 6541/PD 1096 grouping need legal-source confirmation. The bottom area of page 5 is blank; no additional text is visible.
+- **Unclear/possible print issues:** RA 8749 appears duplicated; RA 10352 is likely a typo for RA 10351 in the excise-tax context; RA 1136 title still needs confirmation. RA 7846 and the RA 6541/PD 1096 relationship were cross-checked against Senate legislative references. The bottom area of page 5 is blank; no additional text is visible.
 - **Limit:** This is a coverage-oriented extraction and targeted legal cross-check, not a complete legal memorandum on every listed instrument. Exact titles/statuses for all entries have not yet been independently verified.
