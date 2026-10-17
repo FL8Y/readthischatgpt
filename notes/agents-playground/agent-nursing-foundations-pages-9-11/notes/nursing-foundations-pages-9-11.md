@@ -35,8 +35,8 @@ Nightingale promoted sanitation, environmental improvement, systematic observati
 - Established the American Red Cross.
 - The study guide says the American Red Cross was linked with the International Red Cross after the U.S. Congress ratified the Geneva Convention in 1882, allowing humanitarian efforts.
 
-**Cross-check / caution**
-Barton founded the American Red Cross in 1881. The guide's exact 1882/Geneva Convention causal wording may compress the historical/legal sequence; verify the precise date against an authoritative history before memorizing that detail. The central contribution is leadership in organized humanitarian and disaster relief.
+**External cross-check**
+The American Red Cross confirms that Barton and associates founded the organization on May 21, 1881, and that the U.S. Senate ratified the 1864 Geneva Convention on March 16, 1882. The textbook's year is therefore consistent with the Red Cross's own timeline. Its wording that the American Red Cross was “linked with” the International Red Cross after ratification is compressed; do not interpret ratification as the sole event that created the organization. Barton campaigned for both the American organization and U.S. ratification of the Convention. Sources: [American Red Cross — Clara Barton](https://www.redcross.org/about-us/who-we-are/history/clara-barton.html); [American Red Cross — Significant Dates](https://www.redcross.org/about-us/who-we-are/history/significant-dates.html).
 
 ## Linda Richards
 
@@ -332,7 +332,7 @@ Ethical principles help nurses reason about competing duties. They are not merel
 # Source limitations and cross-check notes
 
 - The name for the cropped theory entry above Wiedenbach on page 9 is not visible; it is intentionally not guessed.
-- The page 9 statement about Clara Barton, the Geneva Convention, and 1882 may compress or misstate the historical sequence. It is flagged rather than silently corrected.
+- The American Red Cross's own history confirms its founding in 1881 and U.S. Senate ratification of the 1864 Geneva Convention in March 1882. The year in the study guide is consistent; its causal wording about being “linked with” the International Red Cross is compressed.
 - “First nurse researcher,” “founder of public health nursing,” and “America's first trained nurse” are conventional shorthand labels, not literal claims that no predecessors existed.
 - The page 11 epikeia/restraint example is preserved as textbook content but explicitly cautioned against as a standalone clinical authorization.
 - The page references Berman, Snyder, Frandsen (2016); Black & Hawks (2008); Zerwekh & Garneau (2018); ANA (1985b); and De Belen (2007). Full bibliographic details/editions are not all visible, so missing publication details have not been fabricated.
@@ -343,7 +343,7 @@ Ethical principles help nurses reason about competing duties. They are not merel
 2. Fawcett, J. (2021), **“Thoughts About Models of Nursing Practice Delivery,”** *Nursing Science Quarterly* — https://doi.org/10.1177/08943184211010460
 3. **“Work Methods for Nursing Care Delivery,”** PubMed Central — https://pmc.ncbi.nlm.nih.gov/articles/PMC7924841/
 4. National Women's History Museum, **“The Evolution of Nursing”** — https://www.womenshistory.org/articles/evolution-nursing
-5. American Nurses Association, **“Privacy and Confidentiality”** — https://www.nursingworld.org/practice-policy/nursing-excellence/official-position-statements/id/privacy-and-confidentiality/
+5. American Nurses Association, **“Privacy and Confidentiality”** (revised position statement effective February 2024; states that privacy rights and the duty of confidentiality are foundational to dignity, autonomy, and trust) — https://www.nursingworld.org/practice-policy/nursing-excellence/official-position-statements/id/privacy-and-confidentiality/
 6. American Nurses Association, **“Lavinia Lloyd Dock”** — https://www.nursingworld.org/ana/about-ana/history/hall-of-fame/1976-1982-inductees/
 7. Beckfield College, **“Nursing Care Models: How Nurses Organize and Deliver Patient Care”** — https://www.beckfield.edu/nursing-school/nursing-care-models/
 8. American Nurses Association, **“Nightingale’s Legacy: The Evolution of American Nurse Leaders”** (contents) — https://www.nursingworld.org/globalassets/catalog/book-toc/nightingales-legacy_toc.pdf
