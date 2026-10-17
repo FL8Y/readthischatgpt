@@ -97,3 +97,10 @@ The page prints references including Berman, Snyder, and Frandsen (2016) and All
 ## Coverage audit
 
 Page 7: all entries Nightingale through Abdellah captured. Page 8: Abdellah continuation and Benner through Meleis captured. Table relationships preserved. The final Meleis line remains explicitly uncertain. Full lists not visible in the source (e.g., Abdellah's 21 problems) are not fabricated.
+
+
+## External cross-check for Afaf Meleis — not a transcription of the cropped line
+
+The supplied image ends mid-entry after the visible phrase about transitions such as recovery and diagnosis of chronic disease. The exact missing continuation is unknown. External nursing-theory literature independently supports this fuller explanation of Transition Theory: transitions may be developmental, situational, health/illness-related, or organizational; they involve changes in identity, roles, relationships, abilities, and patterns of behavior. Nursing assessment considers the nature and pattern of the transition, factors that facilitate or inhibit it, and indicators of the person's response. The 1994 review by Schumacher and Meleis identifies subjective well-being, role mastery, and relationship well-being as indicators of successful transitions. This is an **external explanation**, not recovered wording from the photographed page.
+
+Primary research cross-check: Schumacher, K. L., & Meleis, A. I. (1994). “Transitions: a central concept in nursing.” *Image: The Journal of Nursing Scholarship*, 26(2), 119–127. https://doi.org/10.1111/j.1547-5069.1994.tb00929.x (PubMed record: https://pubmed.ncbi.nlm.nih.gov/8063317/). A more recent review describes the framework's concepts as transition types/patterns, properties, transition conditions, response patterns, and nursing therapeutics: https://pmc.ncbi.nlm.nih.gov/articles/PMC12360756/.
