@@ -4,9 +4,9 @@
 
 | Upload order | Printed page | Main visible heading | Status |
 |---|---:|---|---|
-| 1 | 17 | Documentation Systems | Coverage drafted; re-fetch audit pending |
+| 1 | 17 | Documentation Systems | PASS — note re-fetched and compared |
 | 2 | 18 | Case Management; Overview of Nursing Process | Coverage drafted; re-fetch audit pending |
-| 3 | 19 | Commonly Used Abbreviations | Coverage drafted; re-fetch audit pending; one unclear entry |
+| 3 | 19 | Commonly Used Abbreviations | PASS WITH ONE FLAGGED UNCLEAR ENTRY — note re-fetched and compared |
 
 ## Upload 1 — printed page 17
 - [x] Source-oriented record: definition, examples, advantages, disadvantages, Berman et al. citation.
@@ -35,4 +35,4 @@
 - [x] Reading order follows upload sequence and printed page numbers 17, 18, 19.
 - [x] Page 18 case-management continuation linked to page 17 documentation systems.
 - [x] Textbook source notes separated from added explanation and external cross-check.
-- [ ] Final persisted file must be re-fetched and checked before assignment is marked complete.
+- [x] Final persisted file re-fetched from GitHub; 21,854 characters, required sections and final uncertainty audit present. Blob SHA `28f83f443a86b8e40ce068172f0682bf766a24a6`.
