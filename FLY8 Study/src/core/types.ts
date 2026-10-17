@@ -1,5 +1,5 @@
 /** 'manual' = copy-paste with the ChatGPT or Claude app; no key, no model. */
-export type ProviderName = 'openai' | 'anthropic' | 'manual';
+export type ProviderName = 'openai' | 'anthropic' | 'gemini' | 'openrouter' | 'groq' | 'custom' | 'manual';
 
 export type Verification = 'unverified' | 'needs-review' | 'ai-checked';
 
@@ -99,12 +99,32 @@ export interface AttemptEvent {
   hinted?: boolean;
 }
 
+/** One API provider in the owner's pool. Never exported in backups (apiKey is blanked). */
+export interface PoolEntry {
+  id: string;
+  provider: Exclude<ProviderName, 'manual'>;
+  apiKey: string;
+  model: string;
+  enabled: boolean;
+  /** Only for provider 'custom': any OpenAI-compatible endpoint. */
+  baseUrl?: string;
+}
+
+export type PoolMode = 'fallback' | 'spread';
+
 export interface Settings {
   provider: ProviderName;
   apiKey: string;
   model: string;
   /** True once the owner picked how to use AI on the first screen (hides onboarding). */
   aiChosen?: boolean;
+  /** Only for provider 'custom'. */
+  baseUrl?: string;
+  /** Ordered provider pool. Absent/empty = legacy single provider above. provider/apiKey/model then mirror the first entry. */
+  pool?: PoolEntry[];
+  poolMode?: PoolMode;
+  /** When every pool entry fails, fall back to manual copy-paste. Default on (only used when a pool exists). */
+  manualLastResort?: boolean;
 }
 
 export interface AppState {

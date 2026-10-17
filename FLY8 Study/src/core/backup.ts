@@ -1,5 +1,7 @@
 import type { AppState } from './types';
 
+const PROVIDERS: string[] = ['openai', 'anthropic', 'gemini', 'openrouter', 'groq', 'custom', 'manual'];
+
 export interface BackupSummary {
   folders: number;
   topics: number;
@@ -32,9 +34,14 @@ export function pickExtras(raw: unknown): Extras {
   return out;
 }
 
+/** Blanks the main key and every pool key. */
+export function stripKeys(settings: AppState['settings']): AppState['settings'] {
+  return { ...settings, apiKey: '', ...(settings.pool ? { pool: settings.pool.map((e) => ({ ...e, apiKey: '' })) } : {}) };
+}
+
 /** Builds export text: study data and extras, never the API key. */
 export function buildExport(state: AppState, extras: Extras): string {
-  return JSON.stringify({ ...state, settings: { ...state.settings, apiKey: '' }, extras }, null, 2);
+  return JSON.stringify({ ...state, settings: stripKeys(state.settings), extras }, null, 2);
 }
 
 const ARRAYS = ['folders', 'topics', 'sources', 'chunks', 'events', 'diagnosticsDone'] as const;
@@ -83,7 +90,7 @@ export function validateBackup(raw: string): BackupResult {
   );
   if (!list('diagnosticsDone').every(isStr)) errors.push('diagnosticsDone must be a list of folder ids.');
   const st = data.settings as Record<string, unknown>;
-  if (st.provider !== 'openai' && st.provider !== 'anthropic' && st.provider !== 'manual') errors.push('Settings has an unknown provider.');
+  if (!PROVIDERS.includes(st.provider as string)) errors.push('Settings has an unknown provider.');
   if (!isStr(st.model)) errors.push('Settings has no model.');
   if (errors.length) return { ok: false, errors };
 
@@ -108,5 +115,15 @@ export function validateBackup(raw: string): BackupResult {
 
 /** Replaces study data with the import but keeps the key already on this phone. */
 export function applyImport(current: AppState, imported: AppState): AppState {
-  return { ...imported, settings: { ...imported.settings, apiKey: current.settings.apiKey, aiChosen: current.settings.aiChosen } };
+  return {
+    ...imported,
+    settings: {
+      ...imported.settings,
+      apiKey: current.settings.apiKey,
+      aiChosen: current.settings.aiChosen,
+      pool: current.settings.pool,
+      poolMode: current.settings.poolMode,
+      manualLastResort: current.settings.manualLastResort,
+    },
+  };
 }

@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { Text, View } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import type { ProviderName, Settings } from '../core/types';
-import { callModel, DEFAULT_MODELS, ProviderError } from '../ai/provider';
-import { Btn, Card, Chip, Field, H, Header, Illustration, P, PressableScale, Screen, TOP_INSET, sp } from './kit';
+import type { Settings } from '../core/types';
+import { DEFAULT_MODELS } from '../ai/provider';
+import { ProviderEditor } from './ProviderEditor';
+import { FreeAiGuide } from './FreeAiGuide';
+import { Btn, Card, Chip, H, Header, Illustration, PressableScale, Screen, TOP_INSET, sp } from './kit';
 import type { IconName } from './kit';
 import { radius, space, useTheme } from './theme';
 
@@ -30,45 +32,9 @@ export function HowManualWorks() {
   );
 }
 
-export type KeyTestState =
-  | { status: 'idle' }
-  | { status: 'testing' }
-  | { status: 'ok' | 'bad-key' | 'rate-limit' | 'offline' | 'other'; message: string };
+export { describeKeyTestError, testKey, type KeyTestState } from './ProviderEditor';
 
-/** Fixed, key-free messages. The key is never part of any text shown here. */
-export function describeKeyTestError(e: unknown): Exclude<KeyTestState, { status: 'idle' | 'testing' | 'ok' }> {
-  const kind = e instanceof ProviderError ? e.kind : 'network';
-  switch (kind) {
-    case 'auth':
-      return { status: 'bad-key', message: 'The provider rejected this key. Check you copied all of it and picked the right provider.' };
-    case 'rate-limit':
-      return { status: 'rate-limit', message: 'The key looks valid but you are rate limited right now. Wait a minute and test again.' };
-    case 'network':
-      return { status: 'offline', message: 'Could not reach the provider. Check your internet connection and try again.' };
-    default:
-      return { status: 'other', message: 'The provider answered with an error. Try again later.' };
-  }
-}
-
-/** Sends one tiny request. Resolves to a message state; never throws, never echoes the key. */
-export async function testKey(settings: Settings): Promise<KeyTestState> {
-  try {
-    await callModel(settings, { system: 'Reply with the single word OK.', user: 'ok' });
-    return { status: 'ok', message: 'Key works. You are ready to study.' };
-  } catch (e) {
-    return describeKeyTestError(e);
-  }
-}
-
-const STATUS_TONE = {
-  ok: 'success',
-  'bad-key': 'danger',
-  'rate-limit': 'warning',
-  offline: 'warning',
-  other: 'danger',
-} as const;
-
-/** Provider choice + key field + "Test key". Used by onboarding and Settings. */
+/** Provider choice (Manual or an API provider) + the provider fields. Used by onboarding and Settings. */
 export function KeySetup({
   settings,
   onChange,
@@ -78,83 +44,37 @@ export function KeySetup({
   settings: Settings;
   onChange: (next: Settings) => void;
   onRemove?: () => void;
-  /** Settings shows Manual as a third choice; onboarding offers it on its own first screen. */
+  /** Settings shows Manual as a choice; onboarding offers it on its own first screen. */
   includeManual?: boolean;
 }) {
-  const [result, setResult] = useState<KeyTestState>({ status: 'idle' });
-  const pick = (provider: ProviderName) => {
-    setResult({ status: 'idle' });
-    onChange({ ...settings, provider, model: DEFAULT_MODELS[provider], aiChosen: true });
-  };
-  const hasKey = settings.apiKey.trim().length > 0;
-  const run = async () => {
-    setResult({ status: 'testing' });
-    setResult(await testKey(settings));
-  };
   const manual = settings.provider === 'manual';
-  const selector = (
-    <View style={{ gap: sp.sm }}>
-      {includeManual ? (
-        <Btn label="Manual (free)" kind={manual ? 'primary' : 'ghost'} onPress={() => pick('manual')} hint="Copy-paste with the ChatGPT or Claude app" />
-      ) : null}
-      <View style={{ flexDirection: 'row', gap: sp.sm }}>
-        <View style={{ flex: 1 }}>
-          <Btn label={includeManual ? 'Claude API' : 'Claude'} kind={settings.provider === 'anthropic' ? 'primary' : 'ghost'} onPress={() => pick('anthropic')} />
-        </View>
-        <View style={{ flex: 1 }}>
-          <Btn label={includeManual ? 'ChatGPT API' : 'ChatGPT'} kind={settings.provider === 'openai' ? 'primary' : 'ghost'} onPress={() => pick('openai')} />
-        </View>
-      </View>
-    </View>
-  );
-  if (manual) {
-    return (
-      <View style={{ gap: sp.md }}>
-        {selector}
-        <HowManualWorks />
-      </View>
-    );
-  }
+  const hasKey = settings.apiKey.trim().length > 0;
   return (
     <View style={{ gap: sp.md }}>
-      {selector}
-      <Field
-        label="API key"
-        value={settings.apiKey}
-        onChangeText={(apiKey) => {
-          setResult({ status: 'idle' });
-          onChange({ ...settings, apiKey });
-        }}
-        secureTextEntry
-        autoCapitalize="none"
-        autoCorrect={false}
-        placeholder={settings.provider === 'anthropic' ? 'sk-ant-...' : 'sk-...'}
-      />
-      <Field
-        label="Model"
-        value={settings.model}
-        onChangeText={(model) => onChange({ ...settings, model })}
-        autoCapitalize="none"
-        autoCorrect={false}
-      />
-      <Btn
-        label={result.status === 'testing' ? 'Testing...' : 'Test key'}
-        kind="ghost"
-        disabled={!hasKey || result.status === 'testing'}
-        hint="Sends one tiny request to your provider"
-        onPress={() => void run()}
-      />
-      {result.status !== 'idle' && result.status !== 'testing' ? (
-        <View accessibilityLiveRegion="polite" style={{ gap: sp.xs }}>
-          <Chip
-            text={result.status === 'ok' ? 'Success' : 'Problem'}
-            tone={STATUS_TONE[result.status]}
-            icon={result.status === 'ok' ? 'checkmark-circle' : 'alert-circle'}
-          />
-          <P>{result.message}</P>
-        </View>
+      {includeManual ? (
+        <Btn
+          label="Manual (free)"
+          kind={manual ? 'primary' : 'ghost'}
+          onPress={() => onChange({ ...settings, provider: 'manual', model: DEFAULT_MODELS.manual, apiKey: '', baseUrl: undefined, aiChosen: true })}
+          hint="Copy-paste with the ChatGPT or Claude app"
+        />
       ) : null}
-      {onRemove && hasKey ? <Btn label="Remove key from this phone" kind="danger" onPress={onRemove} /> : null}
+      {manual ? (
+        <HowManualWorks />
+      ) : (
+        <>
+          <ProviderEditor
+            value={{
+              provider: settings.provider === 'manual' ? 'gemini' : settings.provider,
+              apiKey: settings.apiKey,
+              model: settings.model,
+              baseUrl: settings.baseUrl,
+            }}
+            onChange={(v) => onChange({ ...settings, ...v, aiChosen: true })}
+          />
+          {onRemove && hasKey ? <Btn label="Remove key from this phone" kind="danger" onPress={onRemove} /> : null}
+        </>
+      )}
     </View>
   );
 }
@@ -171,7 +91,18 @@ export function Onboarding({
 }) {
   const { colors, type } = useTheme();
   const [advanced, setAdvanced] = useState(false);
-  const [draft, setDraft] = useState<Settings>(settings.provider === 'manual' ? { ...settings, provider: 'anthropic', model: DEFAULT_MODELS.anthropic } : settings);
+  const [guide, setGuide] = useState(false);
+  const [draft, setDraft] = useState<Settings>(settings.provider === 'manual' ? { ...settings, provider: 'gemini', model: DEFAULT_MODELS.gemini } : settings);
+  if (guide) {
+    return (
+      <View style={{ flex: 1, backgroundColor: colors.bg }}>
+        <Header title="How to get free AI" onBack={() => setGuide(false)} />
+        <Screen>
+          <FreeAiGuide />
+        </Screen>
+      </View>
+    );
+  }
   if (advanced) {
     return (
       <View style={{ flex: 1, backgroundColor: colors.bg }}>
@@ -183,7 +114,8 @@ export function Onboarding({
           <Card>
             <H>Connect your AI</H>
             <KeySetup settings={draft} onChange={setDraft} />
-            <Btn label="Save and continue" disabled={!draft.apiKey.trim()} onPress={() => onSave({ ...draft, aiChosen: true })} />
+            <Btn label="How to get free AI" kind="ghost" onPress={() => setGuide(true)} />
+            <Btn label="Save and continue" disabled={draft.provider === 'custom' ? !draft.baseUrl?.trim() : !draft.apiKey.trim()} onPress={() => onSave({ ...draft, aiChosen: true })} />
           </Card>
         </Screen>
       </View>
@@ -215,8 +147,8 @@ export function Onboarding({
         <ChoiceCard
           icon="key-outline"
           title="Use an API key"
-          badge="Advanced, paid by usage"
-          body="Answers arrive inside the app with no copying. Needs your own key, billed by the provider."
+          badge="Advanced, some free options"
+          body="Answers arrive inside the app with no copying. Needs a key: Gemini, Groq and OpenRouter have free tiers (limits change), Claude and ChatGPT are paid by usage."
           cta="Set up an API key"
           onPress={() => setAdvanced(true)}
         />

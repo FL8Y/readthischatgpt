@@ -4,12 +4,15 @@ import type { AppState } from '../core/types';
 import { applyImport, validateBackup, type BackupResult } from '../core/backup';
 import { exportAll, writeExtras } from '../backupIO';
 import { KeySetup } from './Onboarding';
+import { ProviderPool } from './ProviderPool';
+import { FreeAiGuide } from './FreeAiGuide';
 import { Btn, Card, Field, H, P, Pill, c, sp } from './kit';
 
 export function Settings({ state, update }: { state: AppState; update: (s: AppState) => void }) {
   const [raw, setRaw] = useState('');
   const [checked, setChecked] = useState<BackupResult | null>(null);
   const [done, setDone] = useState(false);
+  const [guide, setGuide] = useState(false);
 
   const check = () => {
     setDone(false);
@@ -24,17 +27,30 @@ export function Settings({ state, update }: { state: AppState; update: (s: AppSt
     setDone(true);
   };
 
+  if (guide) {
+    return (
+      <View style={{ gap: sp.md }}>
+        <Btn label="Back to Settings" kind="ghost" onPress={() => setGuide(false)} />
+        <FreeAiGuide />
+      </View>
+    );
+  }
+  const hasPool = !!state.settings.pool?.length;
   return (
     <View style={{ gap: sp.md }}>
+      {hasPool ? null : (
       <Card>
         <H>AI provider</H>
         <P dim>Manual mode needs no key. For an API mode, paste your own key; it stays on this phone and is left out of exports.</P>
         <KeySetup
-          includeManual          settings={state.settings}
+          includeManual
+          settings={state.settings}
           onChange={(settings) => update({ ...state, settings })}
           onRemove={() => update({ ...state, settings: { ...state.settings, apiKey: '' } })}
         />
       </Card>
+      )}
+      <ProviderPool settings={state.settings} onChange={(settings) => update({ ...state, settings })} onGuide={() => setGuide(true)} />
       <Card>
         <H>Backup</H>
         <Btn label="Export everything (no key)" kind="ghost" onPress={() => void exportAll(state).then((message) => Share.share({ message }))} />
