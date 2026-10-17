@@ -1,0 +1,708 @@
+{
+ "method": "Two independent Opus solver passes answered all 100 items blind (answer key withheld; same model family as the question writers, so correlated errors are possible). Not a nurse review.",
+ "agree": 100,
+ "total": 100,
+ "withConcern": 30,
+ "items": [
+  {
+   "id": "np1-001",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np1-002",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np1-003",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": "Weak distractor: 'finish registering before attending to anything else' is obviously wrong."
+  },
+  {
+   "id": "np1-004",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": "All three distractors are blatant errors; low discrimination."
+  },
+  {
+   "id": "np1-005",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np1-006",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np1-007",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": "Answer giveaway: correct option nearly restates the vignette ('few new cases... many existing cases'); tests reading, not prevalence/incidence concept."
+  },
+  {
+   "id": "np1-008",
+   "blindAnswerMatchesKey": true,
+   "confidence": 4,
+   "ambiguous": false,
+   "concern": "Correct option is clipped/compound ('notify the lead'); 'care is unaffected' fits poorly in a household survey. Fate of already-collected data depends on protocol, not stated."
+  },
+  {
+   "id": "np1-009",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np1-010",
+   "blindAnswerMatchesKey": true,
+   "confidence": 4,
+   "ambiguous": false,
+   "concern": "Order is defensible but textbooks vary (prepare for fieldwork / establish outbreak existence first); control measures may start any time, so 'close canteen' is not strictly wrong."
+  },
+  {
+   "id": "np1-011",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np1-012",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np1-013",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np1-014",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np1-015",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": "Options add details ('alert, playing', 'active play') not in the vignette; minor inconsistency."
+  },
+  {
+   "id": "np1-016",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np1-017",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": "Distractors weak; correct option the only assessment-type answer."
+  },
+  {
+   "id": "np1-018",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np1-019",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np1-020",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": "'Sputum examination' generic; current PH practice favors Xpert MTB/RIF. Correct option is compound (two actions)."
+  },
+  {
+   "id": "np2-001",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np2-002",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np2-003",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": "Correct per Essential Newborn Care, but immediate skin-to-skin is also warming; option D only wrong because of 'before other care'."
+  },
+  {
+   "id": "np2-004",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np2-005",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np2-006",
+   "blindAnswerMatchesKey": true,
+   "confidence": 4,
+   "ambiguous": false,
+   "concern": "Note 'nurse has not yet performed any assessment' may cue option D; A is still the best therapeutic response."
+  },
+  {
+   "id": "np2-007",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np2-008",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np2-009",
+   "blindAnswerMatchesKey": true,
+   "confidence": 4,
+   "ambiguous": false,
+   "concern": "All four options are severe-dehydration signs; B and C add facts (hollow eyes, dark urine) not in the vignette. Lethargy plus poor perfusion is best, but discrimination relies on hierarchy."
+  },
+  {
+   "id": "np2-010",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": "Vignette hint 'adds one more detail' plus weak distractors gives the answer away."
+  },
+  {
+   "id": "np2-011",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np2-012",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np2-013",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np2-014",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": "Full intrauterine resuscitation also includes IV bolus, O2 per protocol and notifying provider; acceptable as keyed."
+  },
+  {
+   "id": "np2-015",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np2-016",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np2-017",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np2-018",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np2-019",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np2-020",
+   "blindAnswerMatchesKey": true,
+   "confidence": 4,
+   "ambiguous": false,
+   "concern": "Some sources pair stopping the infusion with calcium gluconate; distractor B made wrong only by 'before stopping'. Should also call provider/rapid response."
+  },
+  {
+   "id": "np3-001",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np3-002",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np3-003",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np3-004",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": "Correct option bundles four actions and is longest (length/completeness giveaway); naloxone not mentioned."
+  },
+  {
+   "id": "np3-005",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np3-006",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np3-007",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np3-008",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np3-009",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": "Distractors trivially non-urgent; low discrimination."
+  },
+  {
+   "id": "np3-010",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np3-011",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np3-012",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np3-013",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np3-014",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np3-015",
+   "blindAnswerMatchesKey": true,
+   "confidence": 4,
+   "ambiguous": false,
+   "concern": "Correct option is the only clinical/safety item among logistics distractors; distractors weak, answer easy to spot."
+  },
+  {
+   "id": "np3-016",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": "Near-duplicate of np5-004 (choking, abdominal thrusts); consider removing one."
+  },
+  {
+   "id": "np3-017",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np3-018",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": "Answer giveaway: correct option restates the vignette findings verbatim (fast pulse, restlessness, cool skin)."
+  },
+  {
+   "id": "np3-019",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np3-020",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np4-001",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np4-002",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np4-003",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np4-004",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np4-005",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np4-006",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": "Near-duplicate of np5-007 (delegate stable-client vital signs to assistant)."
+  },
+  {
+   "id": "np4-007",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np4-008",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np4-009",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": "Mild cue: option says 'quite lightheaded' while vignette says 'lightheaded'; wording intensifier and length hint the key."
+  },
+  {
+   "id": "np4-010",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np4-011",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np4-012",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np4-013",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np4-014",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np4-015",
+   "blindAnswerMatchesKey": true,
+   "confidence": 4,
+   "ambiguous": false,
+   "concern": "Possible compartment syndrome: calling provider (D) is also defensible; quick neurovascular check first is standard, but key should state urgent notification follows. Leg already elevated, so B partly moot."
+  },
+  {
+   "id": "np4-016",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": "'Dehydration' is not a NANDA-I label (use Deficient fluid volume); keyed choice still clear."
+  },
+  {
+   "id": "np4-017",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np4-018",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np4-019",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": "Options include their own rationale; keyed option's rationale mirrors the stem wording, cueing the answer."
+  },
+  {
+   "id": "np4-020",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np5-001",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np5-002",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np5-003",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np5-004",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": "Duplicate of np3-016. 'Continue until the object is expelled' omits 'or client becomes unresponsive' (then start CPR); slightly incomplete."
+  },
+  {
+   "id": "np5-005",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np5-006",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": "Vignette already describes the deteriorating client; other three options are clearly stable, so distractors are weak."
+  },
+  {
+   "id": "np5-007",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": "Near-duplicate of np4-006."
+  },
+  {
+   "id": "np5-008",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np5-009",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np5-010",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np5-011",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": "Giveaway: only option with a change ('new', 'falling'); distractors all say 'unchanged/same/steady'."
+  },
+  {
+   "id": "np5-012",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": "START criteria need RR>30 or failure to follow commands; 'rapid' unquantified, but key still correct. Apneic after reposition = expectant."
+  },
+  {
+   "id": "np5-013",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np5-014",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np5-015",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np5-016",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np5-017",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np5-018",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  },
+  {
+   "id": "np5-019",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": "Distractors are trivially non-organ findings; weak discrimination."
+  },
+  {
+   "id": "np5-020",
+   "blindAnswerMatchesKey": true,
+   "confidence": 5,
+   "ambiguous": false,
+   "concern": null
+  }
+ ]
+}

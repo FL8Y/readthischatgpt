@@ -1,0 +1,1538 @@
+[
+ {
+  "id": "gen-pl-profession-licensure",
+  "area": "GEN",
+  "title": "Profession, Professional Nurse and Licensure",
+  "body": "## What it is\n- A **profession** is an occupation that needs advanced training in a specialised body of knowledge and serves society in that field.\n- A **professional nurse** has finished a basic nursing program and is licensed to practise. Per the handout the nurse must hold a license, have a BSN degree, and be physically and mentally fit.\n- A **license** is a legal document from the government that lets a person offer skills to the public where doing so without it would be unlawful. It is also called the **Certificate of Registration**.\n- **Registration** is the recording of names of people who qualified under the law to practise.\n\n## Must-know facts\n- The main purpose of licensure is to **protect public health** by setting minimum standards that practitioners must meet. Think \"protect the client first\", the same logic as safety in Maslow.\n- It also discourages people from falsely passing themselves off as nurses.\n- Licenses are issued to those who pass the licensure exam or qualify by reciprocity (see [[Registration, Reciprocity and Special Permits]]).\n\n## How the exam asks about it\n- \"Primary purpose of a license\" -> protect the public.\n- \"Another name for professional license\" -> Certificate of Registration.\n\n## Related topics\n[[Nursing Act (RA 9173) and Appeals Process]], [[Continuing Professional Development and In-Service Education]]\n\n## Check against your textbook\n- The BSN requirement and \"physically and mentally fit\" wording come from the handout; confirm against RA 9173 qualifications.",
+  "tags": [
+   "professional adjustment",
+   "license",
+   "registration"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Definition of a Profession",
+   "Definition of a Professional Nurse",
+   "Definition of License",
+   "Definition of Registration"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-registration-reciprocity",
+  "area": "GEN",
+  "title": "Registration, Reciprocity and Special Permits",
+  "body": "## What it is\nThree routes to practise nursing in the Philippines, as the handout summarises the Nursing Act of 2002 (RA 9173).\n\n## Must-know facts\n- **By examination (Sec. 12):** applicants must pass a written exam given by the Board at places and dates set by the Commission. The handout says the exam must comply with RA 8981.\n- **By reciprocity (Sec. 20):** a certificate may be issued **without exam** to nurses registered in a foreign country, provided that country's requirements are substantially the same as ours.\n- **Special/temporary permit:** issued by the Board, with Commission approval and fees, to foreign licensed nurses who are:\n  - internationally known specialists or outstanding experts (paid or free service)\n  - on a medical mission giving free service in a hospital, center or clinic\n  - exchange professors in a nursing school\n- The permit lasts only for the project, mission or contract.\n\n## Memory aid (made up)\n\"Exam, Equal country, Event-only\" = exam, reciprocity, temporary permit.\n\n## How the exam asks about it\n- Which situation allows practice without taking the local exam? Reciprocity, but only if the foreign requirements are substantially the same.\n- A foreign nurse on a free medical mission -> special permit, valid only for the mission.\n\n## Related topics\n[[Profession, Professional Nurse and Licensure]], [[Nursing Act (RA 9173) and Appeals Process]]\n\n## Check against your textbook\n- Section numbers (12 and 20) and the reference to RA 8981 are as written in the handout.",
+  "tags": [
+   "RA 9173",
+   "reciprocity",
+   "special permit"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Registration by Reciprocity",
+   "Registration by Examination",
+   "Practice through Special/Temporary Permit"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-cpd-inservice",
+  "area": "GEN",
+  "title": "Continuing Professional Development and In-Service Education",
+  "body": "## What it is\n**Continuing Professional Development (CPD)** is planned learning after the basic nursing degree. It builds advanced knowledge, skills and ethical values, either in a post-licensure specialty or in a multidisciplinary field, so that the nurse can apply it in practice, in self-directed research and in lifelong learning.\n\n## Must-know facts (from the handout)\n- Law: **RA 10912**, the Continuing Professional Development Act of 2016.\n- Required: **15 CPD credit units per year**.\n- The **Professional Identification Card (PIC)** is renewed **every 3 years**, which needs **45 CPD units** (3 years x 15 units).\n- Examples of CPD activities listed: seminars, conventions, residency, distance learning.\n- **In-service education** is a planned program given by the employing agency to its own employees. Its aim is better practice, re-training, better performance and communication, and fuller growth of the nurse as a person and a contributing member of society. The handout calls it a start on the \"never-ending continuum of education\".\n\n## CPD versus in-service (easy to confuse)\n- CPD: credit-bearing, required for license (PIC) renewal, can be done anywhere.\n- In-service: given by the employer, aimed at job performance; it may or may not carry CPD credit.\n- Orientation (for new employees) is a different, earlier step; see [[Staff Development, Supervision and Coordination]].\n\n## Client and staff teaching\nNurses plan their own CPD early in the 3-year cycle and keep proof of attendance.\n\n## How the exam asks about it\n- Units per year: 15. Units per renewal: 45. Renewal interval: 3 years.\n- \"Training given by the hospital to its staff\" -> in-service education.\n- \"Attending a seminar after graduation\" -> CPD.\n\n## How to reason about it\nWho provides it and what it is for decides the answer: employer plus job skills equals in-service; license renewal plus credit units equals CPD.\n\n## Related topics\n[[Registration, Reciprocity and Special Permits]], [[Profession, Professional Nurse and Licensure]]\n\n## Check against your textbook\n- Confirm the current CPD unit rules; implementation details may have been updated since the handout.",
+  "tags": [
+   "CPD",
+   "RA 10912",
+   "in-service",
+   "PIC renewal"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Continuing Professional Development",
+   "Examples",
+   "In-Service Education"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-ethical-theories",
+  "area": "GEN",
+  "title": "Ethical Theories: Teleological, Deontological and Virtue",
+  "body": "## What it is\n**Nursing ethics** examines ethical and bio-ethical issues from the viewpoint of nursing theory and nursing practice. Three classic approaches explain WHY an action is judged right.\n\n## Must-know facts\n- **Teleological (consequence-based):** from *telos*, \"goal or end\". \"The right thing to do is the good thing to do.\" Goodness lies in promoting happiness, the greatest net increase of pleasure over pain. The result decides.\n- **Deontological (duty-based):** from Immanuel Kant. A person is morally good if actions are done from a sense of **duty and reason**, whatever the result. The rule or duty decides.\n- **Virtue ethics:** looks at the **heart and character** of the person acting, the traits of a good person (such as honesty, compassion). The person decides, not the rule or result.\n\n## How to reason about it\nAsk what the question focuses on:\n- \"greatest good\", \"outcome\", \"benefits outweigh harm\" -> teleological.\n- \"duty\", \"obligation\", \"regardless of consequences\", \"Kant\" -> deontological.\n- \"character\", \"traits\", \"what a good nurse is like\" -> virtue.\nThe trap: mixing teleological and deontological; remember \"T = Target/Result\", \"D = Duty\".\n\n## Memory aid (made up)\nT = Things turn out well (result). D = Do your duty. V = Virtuous heart.\n\n## Examples\n- A nurse tells a client a hard truth because truthfulness is a duty (deontological).\n- A nurse chooses the plan that helps most clients on the ward (teleological).\n- A nurse stays kind and honest even when nobody is watching (virtue).\n\n## How the exam asks about it\nMatching a short statement to the theory, usually with the keywords above.\n\n## Related topics\n[[Principles of Biomedical Ethics]], [[Epikia, Double Effect and Codes of Ethics]], [[Applying Ethical Principles to Case Scenarios]]\n\n## Check against your textbook\n- The handout describes the teleological view in terms of pleasure and pain (utilitarian style); other textbooks define teleology more broadly. Use your own textbook's wording if it differs.",
+  "tags": [
+   "ethics",
+   "teleological",
+   "deontological",
+   "virtue",
+   "Kant"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Nursing Ethics",
+   "Teleological Approach",
+   "Deontological Approach",
+   "Virtue Ethics Approach"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-biomedical-ethics-principles",
+  "area": "GEN",
+  "title": "Principles of Biomedical Ethics",
+  "body": "## What it is\nThe core principles used to decide ethical dilemmas in care. Match the principle to the situation.\n\n## Must-know facts\n- **Autonomy:** voluntary decision-making, self-governance, freedom to choose and carry out one's own decision.\n- **Veracity:** truth-telling.\n- **Beneficence:** doing good; acts of kindness and mercy that benefit the client: promote health, prevent illness or complications, relieve suffering, help toward a peaceful death when death is inevitable.\n- **Non-maleficence:** do no harm (stated in the negative). Examples in the handout: not assisting suicide, not performing euthanasia or mercy killing, not knowingly exposing patients to experimental drugs whose harm exceeds the benefit, not damaging reputation by revealing confidential information.\n- **Justice:** just, fair and equal treatment.\n- **Fidelity:** keeping promises; loyalty.\n\n## How the exam asks about it\n- Client refuses treatment and the nurse respects it -> autonomy.\n- Nurse tells the truth about a diagnosis -> veracity.\n- Giving equal care regardless of status -> justice.\n- Keeping a promise to return to the client -> fidelity.\n- Beneficence = do good; non-maleficence = avoid harm. Do not mix them up.\n\n## Related topics\n[[Ethical Theories: Teleological, Deontological and Virtue]], [[Epikia, Double Effect and Codes of Ethics]], [[Informed Consent]], [[Research Ethics and Participant Rights]]",
+  "tags": [
+   "ethics",
+   "autonomy",
+   "beneficence",
+   "non-maleficence",
+   "justice"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Universal Principles of Biomedical Ethics"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-epikia-double-effect",
+  "area": "GEN",
+  "title": "Epikia, Double Effect and Codes of Ethics",
+  "body": "## What it is\nTools for gray-zone situations plus the written ethical guides.\n\n## Principle of Epikia\n- \"Exception to the general rule\": it is reasonable to presume that the lawmaker would not want the law to bind a person in a particular case even though the case falls under the letter of the law.\n- Handout examples: restraining a violent mental patient when the doctor cannot be reached; letting a relative see a seriously ill patient outside visiting hours.\n\n## Two-fold (double) effect\nWhen an action has both good and bad effects, it is acceptable if:\n- the action itself is morally good\n- the good effect is the one intended and the bad effect is merely allowed\n- the good effect comes directly from the action, not from an evil act\n- the good effect outweighs the bad\n\n## Codes\n- A **code of ethics** is a systematic guide to ethical behaviour: it answers what beliefs and values should be morally accepted.\n- The **Code of Good Governance** (PRC, July 23, 2003, per the handout) says the hallmark of a professional is willingness to follow professional and ethical principles; adopted by PRC and its 42 boards.\n\n## Related topics\n[[Principles of Biomedical Ethics]], [[Ethical Theories: Teleological, Deontological and Virtue]]\n\n## Check against your textbook\n- Date, year and the \"42 boards\" figure are from the handout; confirm.",
+  "tags": [
+   "epikia",
+   "two-fold effect",
+   "code of ethics",
+   "good governance"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Principle of Epikia",
+   "Two-fold Effect",
+   "Code of Ethics",
+   "Code of Good Governance"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-law-basics",
+  "area": "GEN",
+  "title": "Law Basics and Functions of Law in Nursing",
+  "body": "## What it is\n**Law** is the sum of rules by which society is governed: man-made rules of conduct from a controlling authority that can be enforced.\n\n## Must-know facts\n- By origin: **divine law** (author is God, e.g. the commandments) and **human law** (author is man).\n- **Public law** affects the general public (criminal law: theft, robbery, abortion, euthanasia).\n- **Private law** governs relations between individuals.\n- Functions of law in nursing:\n  - frames which nursing actions are legal\n  - separates nursing duties from those of other professions\n  - sets the boundaries of independent nursing actions\n  - keeps standards by making people accountable\n\n## Related topics\n[[Nursing Act (RA 9173) and Appeals Process]], [[Nursing Negligence, Malpractice and Res Ipsa Loquitur]], [[Crimes, Felonies and Participation]]",
+  "tags": [
+   "law",
+   "public law",
+   "private law"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Law",
+   "Two Classifications of Law According to Origin",
+   "Public Law",
+   "Private Law",
+   "Functions of Law Nursing"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-nursing-act-appeals",
+  "area": "GEN",
+  "title": "Nursing Act (RA 9173) and Appeals Process",
+  "body": "## What it is\nRA 9173, the Philippine Nursing Act of 2002 (dated October 21, 2002 in the handout), replaced RA 7164.\n\n## Must-know facts\n- No more refresher course; a candidate may retake the board exam until passing (handout cites Section 15); the upper 40% rule no longer applies.\n- **Chain of bodies:** Board of Nursing -> under the Professional Regulation Commission (PRC) -> under the Office of the President.\n- If the Board revokes or suspends a license, appeal to the **PRC within 30 days** of receiving the order (the *reglementary period*). The highest appeal for this is the Office of the President.\n- Revocation or suspension is an **administrative** case. Civil and criminal cases are appealed in court.\n- **Revocation:** invalidation of the license. **Suspension:** temporary, for a fixed period. See [[License Revocation, Suspension and Illegal Dismissal]].\n\n## How the exam asks about it\n- Where to appeal a revocation -> PRC, within 30 days.\n- Which type of case is a license revocation -> administrative.\n\n## Related topics\n[[Registration, Reciprocity and Special Permits]], [[Profession, Professional Nurse and Licensure]]\n\n## Check against your textbook\n- Confirm the 30-day period, the Section 15 citation and what exactly the law repealed.",
+  "tags": [
+   "RA 9173",
+   "PRC",
+   "appeal",
+   "administrative case"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Republic Act 9173",
+   "Concepts (appeals)",
+   "Revocation",
+   "Suspension"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-revocation-illegal-dismissal",
+  "area": "GEN",
+  "title": "License Revocation, Suspension and Illegal Dismissal",
+  "body": "## What it is\nTwo different problems: losing the license (a PRC/Board matter) and losing the job (a labour matter).\n\n## Revocation vs suspension\n- **Revocation:** invalidates the license. The handout calls it permanent, then adds that under RA 9173 revocation is limited to four years in certain conditions: the reason must have been cured or no longer exists.\n- **Suspension:** temporary, for a fixed period.\n\n## Illegal dismissal\n- Filed with the **Department of Labor and Employment (DOLE)**.\n- Applies when there was no **due process** before dismissal.\n- No lawyer is required.\n- If the nurse wins: back pay and reinstatement, either **paper reinstatement** or **payroll reinstatement**.\n\n## How the exam asks about it\n- Nurse fired without a hearing -> illegal dismissal, file at DOLE, not the PRC.\n- Revoked/suspended license -> appeal to PRC (see [[Nursing Act (RA 9173) and Appeals Process]]).\n\n## Related topics\n[[Stages of Disciplinary Action]]\n\n## Check against your textbook\n- The handout is self-contradictory (\"permanent\" vs \"limited to four years\"). Verify what RA 9173 actually says about re-issuing a revoked license.",
+  "tags": [
+   "revocation",
+   "suspension",
+   "illegal dismissal",
+   "DOLE"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Revocation",
+   "Suspension",
+   "Illegal Dismissal"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-negligence-malpractice",
+  "area": "GEN",
+  "title": "Nursing Negligence, Malpractice and Res Ipsa Loquitur",
+  "body": "## What it is\n- **Standard:** the desired, achievable level of performance used as a benchmark.\n- **Negligence:** doing or failing to do what a reasonably prudent person in the same circumstances would (not) do, which is the proximate cause of injury to a person or property.\n- **Malpractice:** improper or unskillful care by a professional; also stepping beyond one's authority with serious consequences. It is negligence of a professional, used properly only for acts within professional performance.\n\n## Elements of negligence\n1. Existence of a duty\n2. Breach of duty (failure to meet standard of care)\n3. Foreseeability of harm\n4. Injury to the plaintiff\n(Most texts add causation; the handout's list is above.)\n\n## Examples\n- Not reporting observations to the physician\n- Lacking the diligence the case demands: mistaken identity, wrong drug/concentration/route/dose\n- Defective equipment (stretchers, wheelchairs) causing falls\n\n## Res ipsa loquitur (\"the thing speaks for itself\")\nThe injury would not have happened without negligence, so no further proof is needed. Three conditions:\n- the injury does not normally occur without negligence\n- caused by something within the defendant's control\n- the plaintiff did not contribute\n\n## Priority actions\nCheck the five/six rights, verify identity, report changes promptly, document, use safe equipment.\n\n## Related topics\n[[Respondeat Superior, Force Majeure and Incompetence]], [[Medical Records and Documentation]], [[Informed Consent]]",
+  "tags": [
+   "negligence",
+   "malpractice",
+   "res ipsa loquitur",
+   "standard of care"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Standard",
+   "Negligence",
+   "Elements",
+   "Specific Examples",
+   "Res Ipsa Loquitor",
+   "Malpractice"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-respondeat-superior",
+  "area": "GEN",
+  "title": "Respondeat Superior, Force Majeure and Incompetence",
+  "body": "## What it is\nThree legal ideas that decide WHO is responsible when harm happens.\n\n## Must-know facts\n- **Respondeat superior:** \"let the master answer for the acts of the subordinate\". The employer is answerable for an employee's faulty act done in the job. Per the handout, liability is **shared** by employee and employer; it is not shifted away from the employee. The nurse who made the error is still liable.\n- **Force majeure:** an irresistible force that is unforeseen or unavoidable (for example a natural calamity). Harm from it is not blamed on the nurse. In criminal law it is listed among exempting circumstances.\n- **Incompetence:** lack of ability or legal qualifications, being unfit to do the required duty. A nurse who accepts a task beyond his or her competence is open to liability.\n\n## Priority nursing actions\n1. Know your own competence and scope of practice; decline or ask for help when a task is beyond them (safety of the client first).\n2. Report errors and incidents promptly and truthfully through the incident report.\n3. Never rely on \"the hospital will pay\" as a shield, since liability is shared.\n\n## Complications and red flags\n- Doing a procedure you were never trained for, because staff is short.\n- Following an order you know is wrong; \"I was told to\" does not remove your own duty.\n\n## How the exam asks about it\n- \"Employer shares liability for the staff nurse's error\" -> respondeat superior.\n- \"Typhoon damages equipment and a client is hurt\" -> force majeure, not negligence.\n- \"Nurse assigned to an area she is not prepared for\" -> incompetence risk.\n\n## How to reason about it\nWas the act within work duties? Then employer and employee both answer. Was the cause truly unforeseeable? Then force majeure. The trap: thinking the employer takes all the blame.\n\n## Related topics\n[[Nursing Negligence, Malpractice and Res Ipsa Loquitur]], [[Standards of Care and Elements of Negligence]], [[Delegation and Staff Responsibilities]]\n\n## Check against your textbook\n- Philippine civil-code wording on employer liability is not in the handout.",
+  "tags": [
+   "respondeat superior",
+   "force majeure",
+   "incompetence",
+   "liability"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Respondeat Superior",
+   "Force Majeure",
+   "Incompetence"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-informed-consent",
+  "area": "GEN",
+  "title": "Informed Consent",
+  "body": "## What it is\nA free, rational act, given with knowledge of what is being agreed to, by someone legally able to consent. It comes from the client or authorised representative (parent or guardian).\n\n## Must-know facts\n- The **physician** obtains and explains the consent; the **nurse** secures the signed form on admission and witnesses that the client signed. A written form is proof against liability.\n- Elements of informed consent: diagnosis and explanation; fair explanation of procedures and consequences; alternatives; expected benefits; material rights; prognosis if refused.\n- Signing shows the person understood the nature, risks and consequences.\n\n## Who consents\n- **Minor:** parents or someone acting for them; not needed if married or emancipated.\n- **Mentally ill:** parents or legal guardian.\n- **Emergency:** consent waived (implied consent) because delay could cause greater harm.\n- **Sterilization:** husband and wife if the main aim is sterilization; the patient alone if sterilization is only an incidental result of medically necessary surgery.\n\n## Priority nursing actions\nIf the client seems confused or unsure, stop and notify the physician before the procedure; do not let a client sign if sedated or not informed.\n\n## Related topics\n[[Principles of Biomedical Ethics]], [[Torts: Assault, Battery and False Imprisonment]], [[Advance Directives]]",
+  "tags": [
+   "consent",
+   "informed consent",
+   "minor",
+   "emergency"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Consent to Medical and Surgical Procedures",
+   "Nature",
+   "Elements of an Informed Consent",
+   "Proof of Consent",
+   "Who Must Consent"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-medical-records",
+  "area": "GEN",
+  "title": "Medical Records and Documentation",
+  "body": "## What it is\nThe legal and clinical record of the client's condition and management.\n\n## Must-know facts\n- Purposes: avoid duplication and speed treatment; material for research; legal protection for hospital, doctor and nurse.\n- Famous rule: \"If it was not charted, it was not observed or done.\"\n- Nurses' notes must be full, accurate, legible and prompt. They include medications, treatments, and physical and emotional symptoms.\n- Nurse's role: protect the record from loss, destruction, or access by unauthorised people.\n- In court, the medical records librarian, on a **subpoena duces tecum**, testifies that records are kept and protected from alteration.\n\n## How the exam asks about it\n- Best documentation -> factual, timely, signed, objective, no erasing or altering.\n- A visitor asks to read the chart -> deny; confidentiality.\n\n## Related topics\n[[Privacy, Confidentiality and Defamation]], [[Nursing Negligence, Malpractice and Res Ipsa Loquitur]]",
+  "tags": [
+   "documentation",
+   "charting",
+   "medical records"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Medical Records",
+   "Purposes",
+   "Nurses' Notes",
+   "Nurses' Roles",
+   "Medical Records in Legal Proceedings"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-advance-directives",
+  "area": "GEN",
+  "title": "Advance Directives",
+  "body": "## What it is\nAn advance directive is a client's instruction, given while able to decide, about care to be followed later if the client can no longer speak for himself or herself. It protects **autonomy**: the client's choice still counts when he or she is unconscious or in respiratory arrest.\n\n## Must-know facts\n- **Living will:** the client states what treatment he or she does or does not want if breathing stops. Examples in the handout: **DNR** (do not resuscitate) and **DNI** (do not intubate).\n- **Durable power of attorney for health care (health care proxy):** the client legally names another person to decide about treatment on the client's behalf.\n- The living will says WHAT is wanted; the proxy says WHO decides.\n- A directive is a legal and ethical record, so it must be in the chart where the team can find it.\n\n## Priority nursing actions\n1. Check the chart and the order sheet for a valid directive and the matching physician order **before** an emergency arises (safety first: the team must not act against a known wish, and must not withhold care that was never refused).\n2. If a client wants to make a directive, tell the physician and follow agency policy; the nurse does not replace the physician in explaining the medical outlook.\n3. If the client is dying and there is no directive or order, the default is full resuscitation.\n4. Document who the proxy is and how to reach him or her.\n5. Support the client and family emotionally; refusing resuscitation is not refusing comfort, hygiene or pain relief.\n\n## Complications and red flags\n- A DNR with no matching order, or an order nobody saw, leads to the wrong action at the bedside.\n- Family members disagreeing with the client's written wish.\n\n## How the exam asks about it\n- \"Document that tells what treatment the client wants at respiratory arrest\" -> living will.\n- \"Person who decides for the client when he cannot\" -> health care proxy / durable power of attorney.\n- Ethical principle behind it -> autonomy; also fidelity (keeping the promise to honour the wish).\n\n## How to reason about it\nClient cannot decide now -> look for a prior written wish or a named proxy -> follow the wish, do not substitute your own view. The trap: choosing \"do everything\" because it feels safe when a valid directive exists.\n\n## Related topics\n[[Informed Consent]], [[Principles of Biomedical Ethics]], [[Medical Records and Documentation]]\n\n## Check against your textbook\n- Philippine rules on DNR orders and who may sign are not in the handout; confirm hospital policy and current law.",
+  "tags": [
+   "advance directive",
+   "living will",
+   "DNR",
+   "DNI",
+   "proxy"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Advance Directives",
+   "Living Will",
+   "Durable Power of Attorney or Health Care Proxy"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-torts-assault-battery",
+  "area": "GEN",
+  "title": "Torts: Assault, Battery and False Imprisonment",
+  "body": "## What it is\nA **tort** is a civil wrong against a person or property, independent of a contract, that makes the wrongdoer liable for damages.\n\n## Key torts\n- **Assault:** imminent threat of harmful or offensive contact, including a verbal threat. Example: threatening to restrain a client who refuses medicine.\n- **Battery:** intentional touching without consent. Example: giving an injection the client refused.\n- **False imprisonment / illegal detention:** unjustified confinement without legal basis.\n  - A client who insists on leaving: a competent doctor or staff explains the consequences, then the client may leave **against medical advice**.\n\n## Memory aid\nAssault = the threat (words); Battery = the touch (body).\n\n## Priority nursing actions\nRespect refusals, explain, document, notify the physician, have AMA form signed.\n\n## Related topics\n[[Informed Consent]], [[Privacy, Confidentiality and Defamation]]",
+  "tags": [
+   "torts",
+   "assault",
+   "battery",
+   "false imprisonment"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Torts",
+   "Assault",
+   "Battery",
+   "False Imprisonment or Illegal Detention"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-privacy-defamation",
+  "area": "GEN",
+  "title": "Privacy, Confidentiality and Defamation",
+  "body": "## Must-know facts\n- **Privacy:** the right to be left alone and free from unwanted exposure. It concerns the person. Example: close the curtains during physical exam.\n- **Confidentiality:** concerns information about the person. Example: charts are not discussed with people outside the health team.\n- **Defamation:** damaging someone's reputation, written or spoken. A third person must hear or read it.\n  - **Slander** = spoken\n  - **Libel** = written\n  (memory aid: Libel is Literature/written)\n\n## How the exam asks about it\n- Nurse posts a client's story online -> breach of confidentiality, possible libel.\n- Nurse gossips in the elevator -> breach of confidentiality.\n\n## Related topics\n[[Medical Records and Documentation]], [[Torts: Assault, Battery and False Imprisonment]]",
+  "tags": [
+   "privacy",
+   "confidentiality",
+   "libel",
+   "slander"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Invasion of Right to Privacy and Breach of Confidentiality",
+   "Defamation"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-crimes-felonies",
+  "area": "GEN",
+  "title": "Crimes, Felonies and Participation",
+  "body": "## What it is\nA **crime** is an act or omission that violates the law. Elements: a criminal act plus evil (criminal) intent.\n\n## Participation\n- **Principal:** takes direct part, forces or induces others, or is the mastermind (principal by inducement).\n- **Accomplice:** cooperates in the offence by earlier or simultaneous act and knows the principal's intent.\n- **Accessory:** knows of the crime and takes part afterwards, e.g. profiting or helping the offender profit or escape.\n\n## Felony\nCommitted with deceit and fault; a serious public offence punishable by imprisonment (handout also mentions death).\n\n## Degrees of a felony\n- **Consummated:** all elements present.\n- **Frustrated:** offender did all acts needed, but the felony did not happen for reasons beyond his will.\n- **Attempted:** started by overt acts but did not finish all acts.\n\n## Related topics\n[[Circumstances Affecting Criminal Liability]], [[Law Basics and Functions of Law in Nursing]]\n\n## Check against your textbook\n- The death penalty reference is from the handout; confirm current law.",
+  "tags": [
+   "crime",
+   "felony",
+   "principal",
+   "accomplice",
+   "accessory"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Crimes, Misdemeanors, and Felonies",
+   "Elements",
+   "Conspiracy",
+   "According to Degree of Act"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-criminal-circumstances",
+  "area": "GEN",
+  "title": "Circumstances Affecting Criminal Liability",
+  "body": "## Must-know facts\n- **Justifying:** no liability because the act is justified. Examples: self-defence, fulfilling a lawful order or duty, state of necessity. Self-defence needs three elements: unlawful aggression, reasonable necessity of the means used, and no sufficient provocation. If one is missing it is incomplete self-defence (a mitigating circumstance).\n- **Exempting:** no liability because the person is exempt: insane or imbecile, a child below nine years, force majeure/calamity. Lucid interval: a normal state of mind during an episode of illness.\n- **Mitigating:** lowers liability for fairness: voluntary surrender, confession of guilt, provocation, age below 18 or above 70, blind/deaf/mute.\n- **Aggravating:** increases liability: cruelty, abuse of authority, crimes during calamity (looting), treachery, insulting authority, premeditation.\n- **Alternative:** may lower or raise liability: education level, intoxication (alcohol or prohibited drugs under RA 9165), relationship.\n\n## Related topics\n[[Crimes, Felonies and Participation]]\n\n## Check against your textbook\n- Age cut-offs (9 years; below 18, above 70) come from the handout. Philippine law has been amended on minors, so verify. Parents paying damages and the relationship example are as written in the handout.",
+  "tags": [
+   "justifying",
+   "exempting",
+   "mitigating",
+   "aggravating"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Circumstances Affecting Criminal Liability",
+   "Justifying",
+   "Exempting",
+   "Mitigating",
+   "Aggravating",
+   "Alternative"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-ph-laws-nursing",
+  "area": "GEN",
+  "title": "Philippine Laws Related to Nursing Practice",
+  "body": "## What it is\nA matching list of laws the handout expects you to know. Memorise by topic.\n\n## The list (as the handout states it)\n- **RA 9173:** Philippine Nursing Act of 2002\n- **RA 7160:** Local Government Code\n- **RA 7305:** Magna Carta for Public Health Workers ([[Magna Carta of Public Health Workers]])\n- **RA 3573:** reporting of communicable diseases to the nearest health station\n- **RA 2382:** Philippine Medical Act\n- **RA 8749:** Clean Air Act of 2000\n- **PD 825:** penalty for improper garbage disposal and uncleanliness\n- **PD 856:** Code of Sanitation\n- **RA 9211:** Tobacco Regulation Act\n- **RA 8976:** Philippine Food Fortification\n- **RA 6365:** National Policy on Population\n- **Family Code of the Philippines**\n- **RA 7432:** senior citizen 20% discount\n- **RA 7600:** Rooming-In and Breastfeeding\n- **RA 9288:** Newborn Screening Act of 2004 ([[Newborn Screening]])\n- **RA 9262:** Anti-Violence Against Women and Their Children ([[VAWC and Violence Against Women and Children]])\n- **RA 7719:** National Blood Service\n- **RA 7875:** National Health Insurance Act\n- **PD 996:** compulsory immunization of children against six childhood diseases\n- **RA 6675:** Generics Act\n- **RA 6425:** Dangerous Drugs Act\n- **RA 4226:** Hospital Licensure Act\n- **RA 8504:** Philippine AIDS Prevention and Control\n- **LOI 949:** legal basis of Primary Health Care ([[Primary Health Care Basics]])\n- **RA 6173** (handout): Code of Conduct and Ethical Standards for Public Officials\n\n## Check against your textbook\n- \"RA 6173\" for the public-officials code looks like a typo; it is usually listed as RA 6713. Verify.\n- \"E0 2009\" for the Family Code is probably EO 209.\n- PD 996 is quoted as children \"below 8 years\"; confirm age.\n- The handout repeats RA 9211 twice and gives RA 2382 an odd extra line about communicable disease; ignore the duplicate text.\n- Verify all numbers and years in your textbook.",
+  "tags": [
+   "laws",
+   "RA",
+   "PD",
+   "health laws"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Important Laws Related to Nursing Practice"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-leadership-theories",
+  "area": "GEN",
+  "title": "Leadership Concepts and Theories",
+  "body": "## What it is\nLeadership is the process of influencing people to reach shared goals (an \"art of developing people\"). It involves three dimensions: the **leader, the follower and the situation**. Nursing leadership guides personnel toward quality patient care.\n\n## Theories (handout list)\n- **Great Man / Trait:** leaders are born, not made; arise when needed. Traits can be task-oriented (planning, scheduling), relationship-oriented (friendly, trusting) or participative (group meetings for decisions).\n- **Charismatic:** inspirational quality and emotional commitment from followers.\n- **Contingency (Fiedler, 1960):** effectiveness depends on the situation: leader-member relations, task structure (high if easy to define and measure), position power.\n- **Path-goal:** leader removes obstacles so followers can reach goals; focuses on motivation and productivity.\n- **Situational:** a person may lead in one situation and follow in another.\n- **Transactional:** management tasks and trade-offs; people motivated by reward and punishment.\n- **Transformational:** inspires, develops staff, attends to needs, uses optimism, encourages creativity.\n- **Strategy theory:** based on people-handling skills: attention through vision, meaning through communication, trust through positioning, self-regard.\n\n## How the exam asks about it\n- \"Leader adjusts to the situation\" -> situational/contingency.\n- \"Rewards and punishments\" -> transactional; \"inspires and develops\" -> transformational.\n\n## Related topics\n[[Leadership Styles]], [[Leadership versus Management]]",
+  "tags": [
+   "leadership",
+   "theories",
+   "contingency",
+   "transformational"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Leadership",
+   "Nursing Leadership",
+   "Leadership Theories"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-leadership-styles",
+  "area": "GEN",
+  "title": "Leadership Styles",
+  "body": "## Compare the three\n- **Authoritarian (autocratic):** strong control by commands; one person decides; communication flows downward.\n- **Democratic (participative):** control through guidance; leader and group decide together; communication goes up and down.\n- **Laissez-faire:** little or no control; the group decides; horizontal communication; works only with self-directed, skilled members.\n\n## When each fits (textbook logic, check yours)\n- Emergency or code, new inexperienced staff needing direction -> authoritarian.\n- Planning, staff development, committee work -> democratic.\n- Highly skilled self-directed team -> laissez-faire.\n\n## How the exam asks about it\nA nurse manager makes a decision alone and announces it -> authoritarian. Staff vote on schedule -> democratic.\n\n## Related topics\n[[Leadership Concepts and Theories]], [[Types of Leaders and Sources of Power]]\n\n## Check against your textbook\n- The \"when each fits\" list is general textbook knowledge, not from the handout.",
+  "tags": [
+   "authoritarian",
+   "democratic",
+   "laissez-faire"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Leadership Styles"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-early-management-theories",
+  "area": "GEN",
+  "title": "Early Management Theories: Scientific, Classical and Human Relations",
+  "body": "## Scientific management\n- **Frederick Taylor:** father of scientific management; stopwatch studies to find the most efficient way to do a task.\n- **Frank and Lillian Gilbreth:** time-and-motion studies, job simplification, work standards, and the effects of incentive pay and fatigue.\n- **Henry Gantt:** efficiency; the **Gantt chart** compares planned versus completed work against time; favoured a humane approach, service over profit.\n\n## Classical organization\n- **Henri Fayol:** father of the management process school; management is universal; division of work; specialisation; scalar chain.\n- **Max Weber:** father of organization theory (bureaucracy); rules over individuals; competence over favouritism.\n- **Lyndall Urwick:** blended scientific and classical views; planning, coordinating, controlling; authority balanced with responsibility, span of control, unity of command, delegation, departmentalization.\n\n## Human relations\n- **Chester Barnard:** authority depends on followers' acceptance; informal organizations help communication and cohesion.\n- **Mary Follett:** coordinate the psychological and sociological aspects of management.\n\n## Related topics\n[[Behavioral Science Theorists in Management]], [[Organizing: Authority, Principles and Structure]]\n\n## Check against your textbook\n- The handout spells \"Henry Fayol\"; the usual spelling is Henri.",
+  "tags": [
+   "Taylor",
+   "Fayol",
+   "Weber",
+   "Gantt"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Management Theories",
+   "Scientific Management",
+   "Classic Organization",
+   "Human Relations"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-behavioral-theorists",
+  "area": "GEN",
+  "title": "Behavioral Science Theorists in Management",
+  "body": "## Must-know facts\n- **Maslow:** hierarchy of needs: physiological, safety, love and belonging, self-esteem, self-actualization. Lower needs are met first; in client care this is why airway and breathing come before teaching.\n- **Herzberg (two-factor):** *Motivators* (satisfiers): achievement, recognition, the work itself, responsibility, advancement, growth. *Hygiene factors* (dissatisfiers): supervision, policy, working conditions, relationships, job security. Fixing hygiene prevents unhappiness but does not motivate.\n- **McGregor:** Theory X: people dislike work, need threats and security. Theory Y: people seek responsibility, are self-directed, respond to praise and recognition.\n- **Blake and Mouton:** two dimensions of leadership: concern for people and concern for production.\n- **Peter Drucker:** management justifies itself through economic results; manages the business, managers and workers.\n\n## How the exam asks about it\n- Salary and supervision dissatisfaction -> hygiene factor.\n- \"Staff are lazy and must be watched\" -> Theory X.\n\n## Related topics\n[[Theories of Motivation]], [[Leadership Styles]]",
+  "tags": [
+   "Maslow",
+   "Herzberg",
+   "McGregor",
+   "Blake Mouton",
+   "Drucker"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Behavioral Science",
+   "Maslow",
+   "Herzberg",
+   "McGregor",
+   "Blake and Mouton",
+   "Drucker"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-leaders-power",
+  "area": "GEN",
+  "title": "Types of Leaders and Sources of Power",
+  "body": "## Types of leaders\n- **Formal:** holds a position; appointed with legitimate authority.\n- **Informal:** leads without a formal title; accepted by others because of seniority, age, skill, personality or counselling ability.\n\n## Sources of power\n- **Legitimate:** from position (Director of Nursing).\n- **Reward:** can give incentives (money, desired assignments, recognition).\n- **Coercive:** fear of punishment.\n- **Expert:** special skill or knowledge.\n- **Referent:** followers admire and want to be like the leader.\n- **Connection:** links to influential people (e.g. the mayor's child).\n- **Information:** knowledge others lack.\n\n## How the exam asks about it\n- Staff follow a respected senior nurse who has no title -> informal leader (referent/expert power).\n- A supervisor threatens suspension -> coercive.\n\n## Related topics\n[[Leadership Styles]], [[Behavioral Science Theorists in Management]]",
+  "tags": [
+   "formal leader",
+   "informal leader",
+   "power"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Types of Leaders",
+   "Sources of Power"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-management-basics",
+  "area": "GEN",
+  "title": "Management Basics, Roles and Skills",
+  "body": "## What it is\nManagement is the process by which a cooperative group directs actions toward common goals: planning, organizing, directing, controlling. A **manager** creates and maintains an environment where people work together as a group.\n\n## Principles\n- **Pareto (80-20):** about 80% of effects come from 20% of causes; fix the vital few causes for large impact.\n- **Least effort:** people use the most convenient, familiar tools to get information.\n\n## Managerial roles\n- **Interpersonal:** symbol, facilitator (hire, train, motivate), liaison.\n- **Informational:** monitor, disseminator, spokesperson.\n- **Decisional:** entrepreneur/innovator, troubleshooter, negotiator.\n\n## Skills\n- **Katz:** technical (doing the task correctly), human (working with people), conceptual (seeing the big picture).\n- **Summer:** knowledge, attitude, ability factors.\n\n## Related topics\n[[Management Levels and the POLE Process]], [[Leadership versus Management]]",
+  "tags": [
+   "management",
+   "Pareto",
+   "Katz",
+   "managerial roles"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Management",
+   "Principles of Management",
+   "General Management Roles",
+   "Fundamental Skills of Managers"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-management-levels-pole",
+  "area": "GEN",
+  "title": "Management Levels and the POLE Process",
+  "body": "## Management levels\n- **First-level:** unit workflow and daily problems; head nurse.\n- **Middle-level:** coordinates lower levels; link between top and first level; supervisor.\n- **Top-level:** manages the organisation as a whole, few guidelines; chief nurse.\n\n## Management process: P.O.L.E.\n- **P**lanning\n- **O**rganizing (includes staffing)\n- **L**eading (directing)\n- **E**valuating (controlling)\n\n## How the exam asks about it\n- Writing the unit's vision -> planning. Making the duty roster -> organizing/staffing. Giving instructions -> directing. Comparing performance with standards -> controlling.\n\n## Related topics\n[[Planning: Vision, Mission, Philosophy and Objectives]], [[Organizing: Authority, Principles and Structure]], [[Directing and Lines of Communication]], [[Controlling and Decision Making]]",
+  "tags": [
+   "POLE",
+   "management levels",
+   "head nurse"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Management Levels",
+   "Steps in Management"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-planning",
+  "area": "GEN",
+  "title": "Planning: Vision, Mission, Philosophy and Objectives",
+  "body": "## What it is\nPlanning is deciding in advance what to do, who does it, and how, when and where. It is continuous: assess, set goals, implement, evaluate, revise.\n\n## Good plan\nPrecise objectives, guided by policy, shows priorities, flexible and realistic, logical sequence, practical methods, reaches the whole organisation.\n\n## Scope\n- **Strategic:** 3-5 years; overall goals and policies; directors and chief nurses.\n- **Intermediate:** 6 months to 2 years; policies, rules and procedures with other levels; supervisors.\n- **Operational:** departmental, daily and weekly plans; head nurses.\n\n## Planning elements (broad to specific)\n- **Vision:** future aim of the organisation.\n- **Mission:** why the organisation exists.\n- **Philosophy:** values and beliefs guiding action.\n- **Goals:** actions to achieve mission.\n- **Objectives:** specific, measurable, observable, obtainable.\n- **Standards:** professionally desirable norms.\n- **Policies:** broad guidelines for decisions.\n- **Procedures:** steps for a task.\n- **Rules:** only one choice of action; inflexible.\n\n## Related topics\n[[Budgeting]], [[Management Levels and the POLE Process]]",
+  "tags": [
+   "planning",
+   "vision",
+   "mission",
+   "philosophy",
+   "policy"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Planning",
+   "Characteristics of a Good Plan",
+   "Scope of Planning",
+   "Vision",
+   "Mission",
+   "Philosophy",
+   "Goals",
+   "Objectives",
+   "Standards",
+   "Policies",
+   "Procedures",
+   "Rules"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-budgeting",
+  "area": "GEN",
+  "title": "Budgeting",
+  "body": "## What it is\nA budget is a financial road map estimating costs and planning use of resources.\n\n## Types\n- **Operating budget:** daily revenue and expenses (salaries, supplies, contractual services, benefits, laundry, drugs, in-service education). It has a *revenue budget* (income) and *expense budget* (salaries, supplies, utilities, maintenance).\n- **Cash budget:** forecasts money received: beginning balance, estimated receipts and disbursements, ending balance.\n- **Capital expenditure budget:** major purchases of fixed assets (MRI, X-ray, CT scan), plant or equipment replacement and expansion.\n- **Flexible budget:** adjusts automatically with volume and labour costs.\n- **Zero-based budget:** every item must be justified from zero each period; forces priorities but is time-consuming.\n\n## How the exam asks about it\n- Buying a CT scan -> capital expenditure. Salaries -> operating (expense). Justify every item each year -> zero-based.\n\n## Related topics\n[[Planning: Vision, Mission, Philosophy and Objectives]], [[Staffing and Scheduling]]",
+  "tags": [
+   "budget",
+   "operating budget",
+   "zero-based"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Budgeting: Financial Plan",
+   "Operating Budget",
+   "Cash Budget",
+   "Capital Expenditure Budget",
+   "Flexible Budget",
+   "Zero-Based Budgeting"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-organizing",
+  "area": "GEN",
+  "title": "Organizing: Authority, Principles and Structure",
+  "body": "## What it is\nOrganizing sets up formal authority: the structure, roles, relationships, and number of staff and where they are placed.\n\n## Elements\nOrganization structure, staffing, scheduling, job descriptions.\n\n## Key terms\n- **Authority:** right to act or decide without higher approval.\n- **Responsibility:** obligation to perform an assigned task.\n- **Accountability:** taking full responsibility for the quality of work and behaviour.\n\n## Principles\n- **Unity of command:** one superior only.\n- **Scalar principle / chain of command:** authority flows from high to low.\n- **Departmentalization:** grouping similar work.\n- **Span of control:** number reporting directly to one manager.\n- **Centralization:** staff report to one higher person.\n- **Decentralization / delegation:** decision-making passed to lower levels.\n\n## Related topics\n[[Types of Organization and Organizational Charts]], [[Delegation and Staff Responsibilities]]",
+  "tags": [
+   "organizing",
+   "authority",
+   "accountability",
+   "span of control"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Organizing",
+   "Elements of Organizing",
+   "Terms Used in Organizing Authority",
+   "Principles of Organizing"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-organization-types-charts",
+  "area": "GEN",
+  "title": "Types of Organization and Organizational Charts",
+  "body": "## Organization types\n- **Line:** simplest; each position has authority over lower positions (clinical and administration). Pros: simple, quick action, clear authority. Cons: neglects special planning, overworks key people, depends on few key people.\n- **Staff:** advisory only; no authority to enforce (training, research). Pros: frees line executive, expert advice, trains specialists. Cons: expert has little power to act, tends toward centralization, may continue though functions unclear.\n- **Functional:** each unit handles a part of the workload; clear roles. Pros: relieves line of routine specialised decisions, uses expertise. Cons: complex relationships, hard to define authority limits.\n\n## Organizational chart\nA diagram of structure. Five characteristics: division of work, chain of command, type of work, grouping of work, levels of management.\n- **Vertical (tall):** chief executive at top, authority flows down.\n- **Horizontal:** manager at top with wide span of control.\n- **Concentric / circular:** communication flows outward from the center.\n\n## Related topics\n[[Organizing: Authority, Principles and Structure]]\n\n## Check against your textbook\n- The handout labels both horizontal and concentric charts as \"circular\"; verify.",
+  "tags": [
+   "line",
+   "staff",
+   "functional",
+   "organizational chart"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Types of Organization",
+   "Line Organization",
+   "Staff Organization",
+   "Functional Organization",
+   "Organizational Chart",
+   "Forms of Organizational Chart"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-staffing-scheduling",
+  "area": "GEN",
+  "title": "Staffing and Scheduling",
+  "body": "## What it is\nStaffing is providing the acceptable number and mix of personnel to deliver the needed level of care. A schedule is a timetable of workdays and shifts.\n\n## Types of scheduling\n- **Centralized:** done by the chief nurse for all units.\n- **Decentralized:** done by the unit's supervisor or senior nurse.\n- **Cyclical:** a set number of weeks repeated. Advantages: fair, saves time, lets staff plan ahead, stable leaves, better productivity.\n\n## Patient classification\nGrouping clients by amount and complexity of care. Levels (handout): 1 minimal (about 1.5 hrs/day); 2 moderate (3 hrs; some ADL help, VS three times per shift); 3 total/intensive (6 hrs; dependent, VS q30); 4 critical (6-9 hrs or more).\n\n## Related topics\n[[Staffing Formula and Nursing Care Hours]], [[Organizing: Authority, Principles and Structure]]\n\n## Check against your textbook\n- Hours per level are given as in the handout; verify.",
+  "tags": [
+   "staffing",
+   "scheduling",
+   "cyclical"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Staffing",
+   "Types of Scheduling",
+   "Patient Care Classification"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-staffing-formula",
+  "area": "GEN",
+  "title": "Staffing Formula and Nursing Care Hours",
+  "body": "## Reference numbers (handout)\n- Nursing care hours per patient per day: general medicine 3.5; medical 3.4; surgical 3.4; obstetrics 3.0; pediatrics 4.6; pathologic nursery 2.8; ER/ICU/RR 6.0; CCU 6.0.\n- Professional to non-professional: 60:40 for most; 70:30 pediatrics and ER/ICU/RR; 55:45 nursery; 80:20 CCU.\n- By hospital type: primary 55:45; secondary 60:40; tertiary 65:35; specialized 70:30 or 80:20.\n- Reliever factor: **0.15** for a 40-hour week, **0.12** for 48-hour week.\n- Working hours per year: 1,704 (40 hr/wk), 2,120 (48 hr/wk).\n- Shift distribution: AM 45%, PM 37%, night 18%.\n\n## Steps\n1. Classify patients by level of care (patients x percentage).\n2. Multiply each group by its care hours; add them for hours per day.\n3. Multiply by 365 days for hours per year.\n4. Work out hours one employee gives per year (hours per day x working days).\n5. Personnel needed = yearly care hours / yearly hours per employee; add relievers (0.15 or 0.12 x personnel).\n6. Split into professional and non-professional using the ratio.\n7. Distribute by shift.\n\n## How the exam asks about it\nCompute: do the steps in order; relievers are an add-on percentage.\n\n## Related topics\n[[Staffing and Scheduling]]\n\n## Check against your textbook\n- The handout's table of non-working and working days is garbled: 1,704 hrs / 8 = 213 working days and 2,120 / 8 = 265 working days (so 152 and 100 non-working days). Confirm against your textbook. Percentage table by hospital type was in the handout but should be checked too (primary 70/25/5; secondary 65/30/5; tertiary 30/45/15/10; special tertiary 10/25/45/20).",
+  "tags": [
+   "staffing formula",
+   "NCH",
+   "relievers"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Nursing care hours",
+   "Percentage of patients",
+   "Total working days",
+   "Staffing Formula",
+   "Professional to Non-Professional",
+   "Distribution Per Shift"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-directing-communication",
+  "area": "GEN",
+  "title": "Directing and Lines of Communication",
+  "body": "## What it is\n**Directing** is issuing orders, assignments and instructions so staff understand what is expected. It involves command and coordination. Its elements are communication, delegation, supervision, coordination, staff development and decision-making.\n\n## Must-know facts\n- **Communication:** transmitting information, opinions and intentions. Verbal = oral or written. Non-verbal = facial expression, tone of voice, body language, touch.\n- **Downward:** superior to subordinate (policies, rules, memoranda, employee handbooks, performance appraisal).\n- **Upward:** subordinates to superiors (incident report, grievance report).\n- **Horizontal:** peers or departments on the same level (endorsements, conferences, nursing rounds).\n- **Outward:** caregivers to clients and relatives (discharge teaching).\n- **Diagonal:** between people or departments not on the same level (nutrition department to nursing).\n- **Grapevine:** informal, fast, easily distorted (gossip, hearsay).\n\n## Priority nursing actions\n1. Give clear, complete directions and check understanding (feedback).\n2. Use the formal channel first; do not use the grapevine for official matters.\n3. Document and report incidents upward promptly.\n\n## How the exam asks about it\nMatch an example to a line: \"incident report\" = upward; \"memorandum\" = downward; \"endorsement\" = horizontal.\n\n## Related topics\n[[Delegation and Staff Responsibilities]], [[Communication Process and Characteristics in Nursing]], [[Staff Development, Supervision and Coordination]]\n\n## Check against your textbook\n- Some texts call outward communication \"external\".",
+  "tags": [
+   "directing",
+   "communication",
+   "downward",
+   "upward",
+   "grapevine"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Directing",
+   "Elements of Directing",
+   "Communication",
+   "Lines of Communication"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-delegation-responsibilities",
+  "area": "GEN",
+  "title": "Delegation and Staff Responsibilities",
+  "body": "## What it is\n**Delegation** is the process by which a manager assigns specific tasks or duties to workers, giving authority that matches the job. The delegator keeps accountability.\n\n## Must-know facts\n- **Principles of delegation:** choose the right person; delegate both interesting and uninteresting tasks; give enough time to learn; delegate gradually; delegate in advance; consult before delegating; avoid gaps and overlaps.\n- **Cannot be delegated:** overall responsibility, authority and accountability for the unit; the authority to sign one's name; evaluating staff and taking corrective or disciplinary action; maintaining morale (including a word of encouragement to new staff); jobs too technical or needing trust and confidence.\n- **RN:** IV medications, health teaching, assessment, evaluation, overall accountability, unstable or critical clients.\n- **Licensed practical nurse:** medications by IM, SC, ID (not IV), wound cleansing, blenderized feeding, suctioning.\n- **Nursing assistant:** routine activities, vital signs, applying a pulse oximeter sensor, post-mortem care, stable ambulatory clients.\n\n## Priority nursing actions\n1. Match the task to the lowest-trained person who can do it safely; keep unstable clients and assessment with the RN (safety first).\n2. Give clear instructions and a time frame; check results afterwards.\n3. Stay accountable: supervise, do not abandon.\n\n## How the exam asks about it\n\"Which client should the RN keep?\" -> the unstable or new one. \"Which task can go to the nursing assistant?\" -> vital signs on a stable client.\n\n## How to reason about it\nAssess, teach, evaluate and IV drugs stay with the RN; stable, routine, predictable care can be delegated. The trap: delegating a task for an unstable client because it looks simple.\n\n## Related topics\n[[Directing and Lines of Communication]], [[Nursing Care Delivery Modalities]], [[Respondeat Superior, Force Majeure and Incompetence]]\n\n## Check against your textbook\n- Scope for practical nurses and aides varies by agency and law; confirm local rules.",
+  "tags": [
+   "delegation",
+   "RN",
+   "LPN",
+   "nursing assistant",
+   "accountability"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Delegation",
+   "Principles of Delegation",
+   "What Cannot Be Delegated",
+   "Responsibilities"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-nursing-care-modalities",
+  "area": "GEN",
+  "title": "Nursing Care Delivery Modalities",
+  "body": "## What it is\nAlso called modalities, systems or patterns of nursing care: how work is divided among staff.\n\n## Must-know facts\n- **Functional:** task-oriented; each worker does certain tasks. Best with many patients and many professionals. Pros: work is done fast. Cons: fragmented care, client cannot identify his nurse, poor relationship, poor evaluation and documentation of outcomes.\n- **Total care:** one nurse gives total care to one patient; works when nurses are plenty and patients few.\n- **Team:** one nurse (team leader) leads a group of personnel for a group of patients; decentralised. Pros: team effort, conferences, care plan, frees coordinator. Cons: time needed to coordinate.\n- **Primary:** RN responsible for a small group (4 to 6) from admission to discharge, 24 hours. Pros: trust, continuity, better communication, no aides needed. Cons: high cost (higher RN skill), overlapping functions, ratio must be realistic.\n- **Case method:** one-to-one nurse-patient ratio (ICU, private duty). Pros: consistent care for the shift, better monitoring. Cons: may not have the same patient the next day; not decentralised.\n- **Modular (district nursing):** modification of team and primary nursing, used when RNs are short; RN gives direct care with aides.\n\n## How to reason about it\nMany patients and few RNs -> functional; continuity and accountability -> primary; one-to-one for the shift -> case; one RN leading a group -> team.\n\n## How the exam asks about it\nMatching a description to the type, or choosing the system for a scenario.\n\n## Related topics\n[[Delegation and Staff Responsibilities]], [[Staffing and Scheduling]]\n\n## Check against your textbook\n- Texts differ on whether modular equals team nursing; use the handout's wording.",
+  "tags": [
+   "functional",
+   "team",
+   "primary",
+   "case method",
+   "modular"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Nursing Care Assignments",
+   "Functional Nursing",
+   "Total Care Nursing",
+   "Team Nursing",
+   "Primary Nursing",
+   "Case Method",
+   "Modular Method"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-supervision-staff-dev",
+  "area": "GEN",
+  "title": "Staff Development, Supervision and Coordination",
+  "body": "## What it is\n**Supervision** is giving guidelines for a task with initial direction and periodic checking of actual results, plus coordination and synchronisation. **Staff development** gives structure and help for employees to learn more.\n\n## Must-know facts\n- **Good supervision:** is planned and organised; gives autonomy by competence, personality and commitment; stimulates growth; builds cordiality and trust; considers strengths and weaknesses; turns the unit into a learning place; shares work equally by age, physical condition and competence.\n- **Staff development steps:** (1) **Orientation** for new employees, planned and guided activities about the organisation, work environment and the job; (2) **In-service education**, on-the-job instruction to improve current performance; (3) **Specialty courses** by hospitals with trained specialists (dialysis, oncology, cardiology); (4) **Formal education** (graduate degree such as a Master's).\n- **Coordination:** unites personnel and services toward one aim, synchronises departments, prevents overlap, promotes good relationships and meeting schedules.\n\n## Priority nursing actions\n1. Orient a new nurse before assigning independent duties (safety).\n2. Supervise by checking results, not by hovering.\n3. Coordinate with other departments before the shift to avoid overlap.\n\n## How the exam asks about it\n\"New employee program\" -> orientation. \"Improve present job performance\" -> in-service.\n\n## Related topics\n[[Continuing Professional Development and In-Service Education]], [[Directing and Lines of Communication]]\n\n## Check against your textbook\n- Confirm local terms for training levels.",
+  "tags": [
+   "supervision",
+   "orientation",
+   "coordination",
+   "staff development"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Supervision",
+   "Principles of Good Supervision",
+   "Staff Development",
+   "Orientation",
+   "In-Service Education",
+   "Specialty Courses",
+   "Formal Education",
+   "Coordination"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-conflict-management",
+  "area": "GEN",
+  "title": "Conflict Management",
+  "body": "## What it is\n**Conflict** is a clash between two opposing parties; behaviour involving two or more parties in opposition.\n\n## Must-know facts\n- **Types:** intrapersonal (within one person); interpersonal (two people); intragroup (within a group); intergroup (between two groups).\n- **Resolution styles (handout):**\n  - **Avoidance:** avoid confrontation; lose-lose.\n  - **Accommodation:** one gives way to the other; win-lose.\n  - **Collaboration:** both work out a way to solve the problem; **win-win** (best).\n  - **Compromise:** both sacrifice; lose-lose (in the handout's wording).\n  - **Competition:** one wins; win-lose.\n\n## Priority nursing actions\n1. Assess the cause first, hear each side privately and calmly.\n2. Aim for collaboration when time and relationship allow; keep client care safe meanwhile.\n3. Use authority or competition only for urgent safety issues.\n\n## How the exam asks about it\nScenario to style: \"both nurses work out schedule that satisfies both\" -> collaboration. \"Nurse yields every time\" -> accommodation.\n\n## How to reason about it\nWho gets what? Both win = collaboration; both give up something = compromise; one gives in = accommodation; one forces = competition; nobody faces it = avoidance.\n\n## Related topics\n[[Controlling and Decision Making]], [[Directing and Lines of Communication]]\n\n## Check against your textbook\n- Many textbooks call compromise \"win some, lose some\" rather than lose-lose.",
+  "tags": [
+   "conflict",
+   "collaboration",
+   "compromise",
+   "avoidance",
+   "accommodation",
+   "competition"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Conflict Management",
+   "Types of Conflict",
+   "Conflict Resolution"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-controlling-decision",
+  "area": "GEN",
+  "title": "Controlling and Decision Making",
+  "body": "## What it is\n**Controlling** (also \"evaluating\") is an ongoing management function that occurs during planning, organising and directing. **Decision making** is the process of arriving at a course of action consciously chosen from alternatives.\n\n## Must-know facts\n- **Control process:** establish standards; measure actual performance; compare performance with standards; reinforce correct behaviour; implement corrective action.\n- **Decision-making process (handout):** define the problem; analyse the problem; develop alternative solutions; select a solution; implement and follow up.\n\n## Priority nursing actions\n1. Define the problem accurately before looking for solutions (assess first).\n2. Gather facts and options, then choose.\n3. After acting, check results and adjust.\n\n## How the exam asks about it\nOrdering the steps; \"first step of decision making\" -> define the problem; \"comparing actual performance with a standard\" -> controlling.\n\n## How to reason about it\nStandard set -> performance measured -> gap found -> action. The trap: jumping to corrective action before measuring.\n\n## Related topics\n[[Performance Appraisal]], [[Quality Assurance and Nursing Audit]], [[Management Levels and the POLE Process]]\n\n## Check against your textbook\n- The handout step 4 reads \"Select possible solutions\"; some texts split it into evaluate and select.",
+  "tags": [
+   "controlling",
+   "decision making",
+   "standards"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Controlling",
+   "Decision Making",
+   "Decision Making Process"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-performance-appraisal",
+  "area": "GEN",
+  "title": "Performance Appraisal",
+  "body": "## What it is\nA control process where an employee's performance is evaluated against standards.\n\n## Must-know facts\n- **Good evaluation tool:** objectivity, reliability, validity, sensitivity.\n- **Tools:** checklist (all expected nursing performances); ranking (rank employees against co-workers); rating scale (items from the job description); anecdotal record (describes experience with a person or group or checks skills and relationships); essay (paragraph on strengths, weaknesses, potential).\n- **Informal appraisal:** incidental observation during care.\n- **Formal appraisal:** collecting objective facts showing the gap between what was expected and what was done.\n\n## Priority nursing actions\n1. Tell staff the standards beforehand.\n2. Base the appraisal on observed facts, not impressions.\n3. Discuss privately and plan improvement.\n\n## How the exam asks about it\nMatching tool to description: \"paragraph about strengths\" -> essay.\n\n## Related topics\n[[Stages of Disciplinary Action]], [[Quality Assurance and Nursing Audit]]\n\n## Check against your textbook\n- Wording of \"sensitivity\" varies.",
+  "tags": [
+   "appraisal",
+   "evaluation tool",
+   "checklist",
+   "rating scale"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Performance Appraisal",
+   "Characteristics of an Evaluation Tool",
+   "Performance Appraisal Tools",
+   "Informal Appraisal",
+   "Formal appraisal"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-quality-assurance",
+  "area": "GEN",
+  "title": "Quality Assurance and Nursing Audit",
+  "body": "## What it is\n**Quality assurance** is evaluation of the health care system and of the services workers provide.\n\n## Must-know facts\n- **Criteria:** **structure** (physical setting, management system); **process** (steps of the nursing process); **outcome** (results and desirable change in the client).\n- **Benchmarking:** continuous process of measuring what exists against the best.\n- **CQI/TQM:** ensures customer satisfaction by involving employees in improving every product or service; continuously improves a system by gathering performance data.\n- **Nursing audit:** measures actual performance against standards; committee has members from all levels.\n- **Concurrent audit:** done while client is still admitted (chart review, observing staff, observing effects of care).\n- **Retrospective audit:** done after discharge (discharged charts, questionnaires or interviews).\n- **Peer review:** peers of the same rank evaluate each other's performance against accepted standards.\n\n## How to reason about it\nStill in hospital = concurrent; already discharged = retrospective.\n\n## Related topics\n[[Performance Appraisal]], [[Controlling and Decision Making]]\n\n## Check against your textbook\n- Audit definitions vary slightly between textbooks.",
+  "tags": [
+   "quality assurance",
+   "audit",
+   "benchmarking",
+   "CQI",
+   "TQM",
+   "peer review"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Quality Assurance",
+   "Quality Assurance Criteria",
+   "Benchmarking",
+   "CQI or TQM",
+   "Nursing Audit",
+   "Patient Care Audit",
+   "Peer Review"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-disciplinary-action",
+  "area": "GEN",
+  "title": "Stages of Disciplinary Action",
+  "body": "## What it is\n**Discipline** is a constructive means by which employees take responsibility for their own performance and behaviour.\n\n## Must-know facts (in order)\n1. **Counseling and oral warning:** in private, informal, employee may explain his side.\n2. **Written warning:** names the rule broken, consequences if it continues, and the employee's commitment to correct.\n3. **Suspension:** after oral and written warnings; temporary withdrawal from duty.\n4. **Dismissal:** permanent removal from the organisation.\n\n## Priority nursing actions\n1. Get the facts first, apply due process; discipline is a manager's duty and cannot be delegated.\n2. Praise in public, correct in private.\n\n## How the exam asks about it\nFirst step -> counseling/oral warning. \"Following due process\" avoids illegal dismissal (see [[License Revocation, Suspension and Illegal Dismissal]]).\n\n## Related topics\n[[Performance Appraisal]], [[Delegation and Staff Responsibilities]]\n\n## Check against your textbook\n- Severe offenses can skip steps in many policies.",
+  "tags": [
+   "discipline",
+   "counseling",
+   "warning",
+   "suspension",
+   "dismissal"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Discipline",
+   "Stages of Disciplinary Action"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-leadership-vs-management",
+  "area": "GEN",
+  "title": "Leadership versus Management",
+  "body": "## What it is\nLeaders influence people toward purpose; managers run structures and procedures.\n\n## Must-know facts\n- Motto: leadership **does the right thing**; management **does things right**.\n- Challenge: change versus continuity.\n- Focus: purpose versus structure and procedure.\n- Time frame: future versus present.\n- Methods: strategies versus schedules.\n- Questions: **why** (leadership) versus who, what, when, where, how (management).\n- Human: potential versus performance.\n\n## How the exam asks about it\n\"Focus on the future and change\" -> leadership. \"Schedules and procedures\" -> management.\n\n## Related topics\n[[Leadership Concepts and Theories]], [[Management Basics, Roles and Skills]]\n\n## Check against your textbook\n- None beyond the handout wording.",
+  "tags": [
+   "leadership",
+   "management",
+   "comparison"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Leadership vs Management"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-change-strategies",
+  "area": "GEN",
+  "title": "Change Theories and Strategies",
+  "body": "## What it is\nWays managers bring change, and Lewin's three-step model.\n\n## Must-know facts\n- **Empirical-rational:** people are rational; adopt change if justified and shown benefits.\n- **Normative-reeducative:** people act by sociocultural norms; focus on values, attitudes, skills, relationships plus information.\n- **Power-coercive:** less powerful comply with the more powerful (strikes, sit-ins, negotiations, rulings).\n- **Lewin:** **unfreezing** (awareness of need for change); **moving** (identify problem, explore alternatives, set goals, act); **refreezing** (integrate and stabilise the change).\n\n## Priority nursing actions\n1. Assess readiness and resistance first.\n2. Involve staff and show benefits.\n3. Reinforce and evaluate after the change.\n\n## How the exam asks about it\nName the Lewin stage from a description; name the strategy from the assumption (rational, norms, power).\n\n## Related topics\n[[Types of Change]], [[Theories of Motivation]]\n\n## Check against your textbook\n- The handout mentions coercion and guilt in unfreezing; some texts do not.",
+  "tags": [
+   "change",
+   "Lewin",
+   "empirical-rational",
+   "normative-reeducative",
+   "power-coercive"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Leadership and Change",
+   "Strategies for Effecting Change",
+   "Kurt Lewin's Theory of Change"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-types-of-change",
+  "area": "GEN",
+  "title": "Types of Change",
+  "body": "## What it is\nClassification of change by goal setting, power and deliberateness.\n\n## Must-know facts\n- **Planned:** mutual goals, equal power, deliberate (best in nursing).\n- **Coercive:** non-mutual goals, unequal power, one-sided.\n- **Emulative:** imitating power figures.\n- **Indoctrination:** mutual goals, unequal power, deliberate.\n- **Interactional:** mutual goals, fairly equal power, not deliberate.\n- **Natural:** accidents, acts of God; no goals, not deliberate.\n- **Socialization:** individual conforms to group needs; with more deliberation by the powerful it becomes indoctrination.\n- **Technocratic:** data collected and reported brings change.\n\n## How to reason about it\nAsk: are goals mutual? is power equal? is it deliberate? Mutual + equal + deliberate = planned.\n\n## Related topics\n[[Change Theories and Strategies]], [[Theories of Motivation]]\n\n## Check against your textbook\n- Handout descriptions of indoctrination and socialization are unclear; verify.",
+  "tags": [
+   "change types",
+   "planned change"
+  ],
+  "priority": "low",
+  "outlineRefs": [
+   "Types of Change"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-motivation-theories",
+  "area": "GEN",
+  "title": "Theories of Motivation",
+  "body": "## What it is\nExplanations of what drives workers.\n\n## Must-know facts\n- **Need theory (Maslow):** satisfy basic needs before complex ones: physiological, safety, love/belonging, esteem, self-actualization.\n- **Two-factor (Herzberg):** hygiene factors (salary, supervision quality, job security, working conditions) and motivators/satisfiers (the job itself). Managers need both to recruit and retain.\n- **McClelland:** achievement, power, affiliation needs in varying degrees.\n- **Expectancy (Vroom):** motivation rises when a person sees effort leading to performance.\n- **Operant (Skinner):** behaviour is controlled by external conditions (rewards).\n- **Equity:** fairness judged by comparing one's inputs and rewards with others'.\n\n## How to reason about it\nPay and conditions = hygiene; recognition and growth = motivator.\n\n## How the exam asks about it\nMatch theorist to keyword (Vroom = expectancy; Skinner = operant).\n\n## Related topics\n[[Behavioral Science Theorists in Management]], [[Leadership Concepts and Theories]]\n\n## Check against your textbook\n- Handout lists \"equity theory\" without a theorist (Adams in most texts).",
+  "tags": [
+   "motivation",
+   "Maslow",
+   "Herzberg",
+   "McClelland",
+   "Vroom",
+   "Skinner",
+   "equity"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Theories of Motivation"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-research-basics",
+  "area": "GEN",
+  "title": "Nursing Research Basics and Purposes",
+  "body": "## What it is\nResearch is systematic inquiry using disciplined methods to answer questions or solve problems. Nursing research builds trustworthy evidence for nursing practice, education, administration and informatics.\n\n## Purposes\nAccountability for practice, credibility and cost-effectiveness, evidence-based practice, documentation of care.\n\n## By purpose\n- **Basic:** extends knowledge or builds/refines theory (e.g. in-depth study of the normal grieving process).\n- **Applied:** solves existing problems; more immediately useful for practice (e.g. testing a nursing intervention to ease grieving, breastfeeding for pain relief during infant injections).\n\n## Related topics\n[[Quantitative versus Qualitative Research]], [[Research Ethics and Participant Rights]]",
+  "tags": [
+   "research",
+   "evidence-based practice",
+   "basic research",
+   "applied research"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Nursing Research Definition",
+   "Purposes of Nursing Research",
+   "Types of Research According to Purpose",
+   "Basic Research",
+   "Applied Research"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-quant-vs-qual",
+  "area": "GEN",
+  "title": "Quantitative versus Qualitative Research",
+  "body": "## What it is\nThe two main designs.\n\n## Must-know facts\n- **Quantitative:** positivist tradition, scientific method, numeric data, objective, systematic and controlled, empiricism (senses), general/broad, cause and effect, deductive, theory testing, laboratory setting; analysed statistically.\n- **Qualitative:** naturalistic inquiry, human experience, narrative data, subjective, flexible and evolving, analytical insight, specific, meaning discovery, inductive, theory development, field setting over extended time; holistic and individual.\n\n## How to reason about it\nNumbers and testing = quantitative; words and meaning = qualitative.\n\n## Related topics\n[[Qualitative Research Traditions]], [[Experimental Research Designs]]\n\n## Check against your textbook\n- Handout has \"positive traditions\"; it means positivist.",
+  "tags": [
+   "quantitative",
+   "qualitative"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Types of Research According to Design",
+   "Quantitative Research",
+   "Qualitative Research"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-experimental-designs",
+  "area": "GEN",
+  "title": "Experimental Research Designs",
+  "body": "## What it is\nResearchers actively introduce an intervention (example: pressure-relieving devices to prevent heel ulcers).\n\n## Must-know facts\n- **True experiment needs MRC:** **Manipulation** (treatment given to a treatment group); **Control** (a control group without treatment used for comparison); **Randomization** (random assignment, equal chance for each subject).\n- **Quasi-experimental:** has an intervention but **lacks randomization**.\n- Example in handout: classical music for review; randomly chosen students (R), music (M), a group without music (C), then a post-test.\n\n## How to reason about it\nMissing random assignment -> quasi. Missing control group -> not a true experiment.\n\n## Related topics\n[[Non-Experimental Quantitative Research]], [[Research Hypotheses and Problem Formulation]]\n\n## Check against your textbook\n- Pre-experimental designs are not in the handout.",
+  "tags": [
+   "experimental",
+   "quasi-experimental",
+   "randomization",
+   "control"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "True Experimental Design",
+   "Manipulation",
+   "Control",
+   "Randomization",
+   "Quasi-experimental design"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-nonexperimental",
+  "area": "GEN",
+  "title": "Non-Experimental Quantitative Research",
+  "body": "## What it is\nResearchers collect data without introducing treatments or changes.\n\n## Must-know facts\n- **Correlational:** relationships between variables (supervisor's sense of humour and staff job satisfaction); correlation = tendency for one variable to vary with another.\n- **Comparative:** identifies and explains similarities and differences.\n- **Survey:** prevalence, distribution and interrelation of variables in a population, by questionnaire or interview.\n- **Methodological:** investigates ways of obtaining and organising data and doing rigorous research.\n\n## How to reason about it\nNo treatment given = non-experimental. Relationship = correlational; population snapshot = survey.\n\n## Related topics\n[[Experimental Research Designs]], [[Data Collection Methods]]\n\n## Check against your textbook\n- Historical research and case study are in the qualitative note here.",
+  "tags": [
+   "correlational",
+   "comparative",
+   "survey",
+   "methodological"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Non-Experimental Research",
+   "Correlational",
+   "Comparative",
+   "Survey",
+   "Methodological"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-qualitative-traditions",
+  "area": "GEN",
+  "title": "Qualitative Research Traditions",
+  "body": "## What it is\nApproaches within qualitative research.\n\n## Must-know facts\n- **Grounded theory:** builds a theory grounded in reality; explains, focuses on the population's main concern and how it is resolved.\n- **Phenomenological:** lived experience of humans (in-depth interviews of women after surgery).\n- **Ethnographic:** patterns, lifeways and experiences of a cultural group, holistically (fieldwork in rural communities).\n- **Historical:** systematic collection and critical evaluation of evidence about past events.\n- **Case study:** in-depth study of a single entity or a few (a stroke patient with eating difficulty).\n\n## How to reason about it\nLived experience = phenomenology; culture = ethnography; theory = grounded; past = historical; one case = case study.\n\n## Related topics\n[[Quantitative versus Qualitative Research]], [[Data Collection Methods]]\n\n## Check against your textbook\n- Historical research is sometimes listed as its own category.",
+  "tags": [
+   "grounded theory",
+   "phenomenology",
+   "ethnography",
+   "historical",
+   "case study"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Qualitative Research",
+   "Grounded Theory",
+   "Phenomenological",
+   "Ethnographical",
+   "Historical Research",
+   "Case Studies"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-research-conceptual-phase",
+  "area": "GEN",
+  "title": "Research Conceptual Phase",
+  "body": "## What it is\nPhase 1 of a quantitative study: thinking and planning before any data are collected.\n\n## Must-know facts\n- **Research problem:** the situation that makes the researcher uneasy or confused; it marks out the problem area (who or what, where, when, why).\n- **Problem statement:** states the problem and argues the need for the study. **Research questions:** the specific queries to answer.\n- **Literature review:** gives a base for new evidence, done well before data collection. **Primary source** = description by the researchers who did the study (mostly recommended). **Secondary source** = description by someone else.\n- **Framework:** overall conceptual underpinning. **Conceptual framework** = abstract concepts joined by a common theme or model. **Theoretical framework** = study based on a theory.\n- **Conceptual definition:** abstract or theoretical meaning (weight = measure of gravitational force on an object). **Operational definition:** how it will be measured (weight read on a Newton spring scale).\n\n## How to reason about it\nConcept in words = conceptual; concept as a measurement procedure = operational.\n\n## How the exam asks about it\nPrimary versus secondary source; conceptual versus theoretical framework.\n\n## Related topics\n[[Research Hypotheses and Problem Formulation]], [[Research Designs, Populations and Sampling]]\n\n## Check against your textbook\n- The handout's framework definitions are brief; confirm in your research text.",
+  "tags": [
+   "research problem",
+   "literature review",
+   "framework",
+   "definitions"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Phase 1 Conceptual Phase",
+   "Formulating and Delimiting the Problem",
+   "Reviewing the Related Literature",
+   "Defining the Framework"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-hypotheses",
+  "area": "GEN",
+  "title": "Research Hypotheses and Problem Formulation",
+  "body": "## What it is\nA **hypothesis** is a statement of the researcher's expectations about relationships between study variables.\n\n## Must-know facts\n- **Research hypothesis:** expected relationship. **Directional** states the direction (more fast food, more weight gain). **Non-directional** says there is a difference without direction (test scores differ between students of 5-year and 1-year instructors).\n- **Null hypothesis:** no relationship between independent and dependent variables (no significant relationship between anxiety and duration of infertility).\n- **Independent variable:** presumed cause. **Dependent variable:** presumed effect. Example: prenatal classes attended (independent) and labour anxiety (dependent).\n\n## How to reason about it\nWords like \"positive\", \"higher\", \"less\" = directional. \"No relationship\" = null. Cause first = independent.\n\n## Related topics\n[[Hypothesis Testing and Statistical Tests]], [[Quantitative versus Qualitative Research]]\n\n## Check against your textbook\n- None beyond the handout.",
+  "tags": [
+   "hypothesis",
+   "null",
+   "directional",
+   "variables"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Formulating Hypothesis",
+   "Research Hypothesis",
+   "Non-Directional",
+   "Directional",
+   "Null Hypothesis",
+   "Variables"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-designs-sampling",
+  "area": "GEN",
+  "title": "Research Designs, Populations and Sampling",
+  "body": "## What it is\nPhase 2: choosing design and sample.\n\n## Must-know facts\n- **Cross-sectional:** data collected once. **Longitudinal:** at more than one time over a long period (premature infants followed through childhood). **Retrospective:** present outcome linked back to past causes. **Prospective:** cause first, effect measured later (Framingham Heart Study).\n- **Subjects/participants/respondents; informants** in qualitative. **Population:** all with common defining traits. **Accessible** (source) vs **target** population (to which results are generalised). **Sample:** subset. **Element:** basic unit. **Pilot study:** small trial run of methods before the larger parent study.\n- **Probability (random):** simple random (most basic); stratified (homogeneous subsets, random from each); cluster/multi-stage (successive random samples from larger to smaller units); systematic (every nth case).\n- **Non-probability:** convenience/accidental; snowball/network/chain (participants refer others); quota (set numbers per stratum); purposive/judgmental (researcher's knowledge picks).\n- Key consideration: **representativeness**.\n\n## How to reason about it\nRandom selection = probability; picked by availability or judgement = non-probability.\n\n## Related topics\n[[Data Collection Methods]], [[Research Hypotheses and Problem Formulation]]\n\n## Check against your textbook\n- Handout says the Framingham example compares those who develop disease with those who do not; confirm.",
+  "tags": [
+   "sampling",
+   "population",
+   "probability",
+   "non-probability",
+   "design"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Phase 2 Design and Planning",
+   "Selecting a Research Design",
+   "Identifying the Population",
+   "Designing the Sampling Plan"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-data-collection",
+  "area": "GEN",
+  "title": "Data Collection Methods",
+  "body": "## What it is\nPhase 3: gathering the data.\n\n## Must-know facts\n- **Data saturation:** sampling until no new information appears.\n- **Observation:** overt vs covert; non-participant (no interaction) vs participant (interacts and experiences). Advantages: real events, does not rely on willingness, sees what people do. Disadvantages: observer bias, **Hawthorne effect**, costly, does not explain why.\n- **Questionnaire:** closed-ended (list of choices) vs open-ended (full answer in own words). Advantages: cost, anonymity, no interviewer bias.\n- **Interview:** structured (word for word), semi-structured (some room), unstructured (topic checklist). Advantages: response rate, clarity, depth, less missing information, control of question order.\n- **Physiological measures:** weight is most objective. **Likert scale:** psychometric scale for questionnaires. **Delphi technique:** panel of experts.\n\n## How to reason about it\nWant depth and clarity -> interview; cheap and anonymous -> questionnaire.\n\n## Related topics\n[[Research Designs, Populations and Sampling]], [[Levels of Measurement and Descriptive Statistics]]\n\n## Check against your textbook\n- Handout text for pre-existing data is incomplete.",
+  "tags": [
+   "observation",
+   "questionnaire",
+   "interview",
+   "Likert",
+   "Delphi",
+   "Hawthorne"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Phase 3 Empirical Phase",
+   "Observation",
+   "Questionnaires",
+   "Interview",
+   "Physiological Measurements",
+   "Likert Scale",
+   "Delphi technique"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-measurement-descriptive",
+  "area": "GEN",
+  "title": "Levels of Measurement and Descriptive Statistics",
+  "body": "## What it is\nPhase 4 tools to describe data.\n\n## Must-know facts\n- **Nominal:** categories (gender, blood type). **Ordinal:** ranking (anxiety mild to panic). **Interval:** equal distances (Fahrenheit). **Ratio:** highest level, true zero (the handout's board score example). Nominal and ordinal = non-parametric; interval and ratio = parametric.\n- **Frequency distribution; percentage; graphs.**\n- **Mode** most frequent; **median** middle (50% above/below); **mean** sum / count.\n- **Variability:** range (highest minus lowest); standard deviation (average deviation from mean); variance = SD squared; percentile.\n- **Correlation:** Pearson's r (interval/ratio); Spearman's rho (ordinal); range -1.00 to +1.00, sign = direction, size = strength.\n\n## How to reason about it\nCategories only -> nominal; ordered -> ordinal; equal steps -> interval; true zero -> ratio.\n\n## Related topics\n[[Hypothesis Testing and Statistical Tests]], [[Data Collection Methods]]\n\n## Check against your textbook\n- Handout's ratio example (board scores) is unusual; textbooks use height or weight.",
+  "tags": [
+   "nominal",
+   "ordinal",
+   "interval",
+   "ratio",
+   "mean",
+   "median",
+   "mode"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Levels of Measurement",
+   "Descriptive Statistics",
+   "Measures of Central Tendency",
+   "Measures of Variability",
+   "Measures of relationship"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-hypothesis-testing",
+  "area": "GEN",
+  "title": "Hypothesis Testing and Statistical Tests",
+  "body": "## What it is\nInferential statistics decide whether findings reflect the population.\n\n## Must-know facts\n- **Parametric tests:** estimate a parameter, need at least interval data, assume normal distribution. **Non-parametric:** fewer assumptions.\n- **Chi-square:** proportions across categories (contingency table), non-parametric. **t-test:** means of two groups. **ANOVA:** means of three or more groups.\n- **Errors:** null true and accepted = correct; null false and rejected = correct; **Type I** = rejecting a true null (false positive); **Type II** = accepting a false null (false negative).\n\n## How to reason about it\nTwo groups = t-test; three or more = ANOVA; categories = chi-square.\n\n## Related topics\n[[Levels of Measurement and Descriptive Statistics]], [[Research Hypotheses and Problem Formulation]]\n\n## Check against your textbook\n- The handout's table labels are partly garbled; I used the standard definitions.",
+  "tags": [
+   "t-test",
+   "ANOVA",
+   "chi-square",
+   "Type I error",
+   "Type II error",
+   "parametric"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Inferential Statistics",
+   "Parametric tests",
+   "Non-parametric tests",
+   "Chi-Square",
+   "T-test",
+   "ANOVA",
+   "Hypothesis testing"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-research-quality",
+  "area": "GEN",
+  "title": "Research Quality and Trustworthiness",
+  "body": "## What it is\nHow to judge research.\n\n## Must-know facts\n- **Reliability:** accuracy and consistency. **Validity:** soundness; findings unbiased, convincing and well grounded.\n- **Dependability:** evidence consistent and stable. **Confirmability** (handout \"conformability\"): objectivity, results from participants and context, not researcher bias. **Credibility:** confidence in the truth of the data and interpretation. **Triangulation:** multiple sources to draw conclusions.\n- **Phase 5 dissemination:** write the report and use the findings in practice.\n\n## How to reason about it\nConsistency = reliability; truth = validity; qualitative trust = credibility, dependability, confirmability.\n\n## Related topics\n[[Research Ethics and Participant Rights]], [[Data Collection Methods]]\n\n## Check against your textbook\n- Handout spells \"conformability\"; the usual term is confirmability.",
+  "tags": [
+   "reliability",
+   "validity",
+   "credibility",
+   "dependability",
+   "confirmability",
+   "triangulation"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Criteria in Assessing Quality of Research",
+   "Reliability",
+   "Validity",
+   "Dependability",
+   "Confirmability",
+   "Credibility",
+   "Triangulation"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-research-ethics",
+  "area": "GEN",
+  "title": "Research Ethics and Participant Rights",
+  "body": "## What it is\nRules protecting people in research.\n\n## Must-know facts\n- **Nuremberg Code:** after Nazi atrocities. **Belmont Report (1978):** from the commission set by the National Research Act. **Declaration of Helsinki:** allowed vulnerable groups (minors, indigenous peoples).\n- **Beneficence:** minimise harm, maximise benefit; freedom from harm, protection from exploitation.\n- **Self-determination:** choose freely without penalty. **Full disclosure:** nature of study, right to refuse, responsibilities, risks, benefits. **Concealment** = collecting data without knowledge or consent; **deception** = withholding or giving false information.\n- **Justice/fair treatment:** equitable sharing of benefits and burdens. **Privacy:** research no more intrusive than needed. **Anonymity:** not even the researcher can link data to participants (strongest confidentiality).\n\n## Priority nursing actions\nGet voluntary informed consent before data; stop if harm appears.\n\n## How the exam asks about it\n\"Not even the researcher knows who\" -> anonymity.\n\n## Related topics\n[[Informed Consent]], [[Research Quality and Trustworthiness]]\n\n## Check against your textbook\n- Handout limits the Helsinki detail; verify.",
+  "tags": [
+   "Nuremberg",
+   "Belmont",
+   "Helsinki",
+   "self-determination",
+   "anonymity"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Ethics in Research",
+   "Nuremberg code",
+   "Declaration of Helsinki",
+   "Ethical Principles for Protecting Study Participants"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-x-standards-of-care",
+  "area": "GEN",
+  "title": "Standards of Care and Elements of Negligence",
+  "body": "## What it is\nA **standard** is the desired and achievable level of performance that actual practice is compared against; it is the benchmark used to plan, carry out and judge the quality of services. **Negligence** is doing, or failing to do, what a reasonably prudent person in the same or a similar situation would or would not do, where that act or omission is the proximate (direct) cause of injury to another person or property. **Malpractice** is negligence of a professional: improper or unskillful care, or going beyond one's authority with serious consequences. It is used properly only for negligent acts in the course of professional work (the handout cites Lesnik, 1962).\n\n## Must-know facts\n- **Four elements of negligence (all required):**\n  1. Existence of **duty** (the nurse-client relationship).\n  2. **Breach**: failure to meet the standard of due care.\n  3. **Foreseeability** of harm.\n  4. **Injury** to the plaintiff.\n- Handout examples of negligent acts: not reporting observations to the attending physician; not using the degree of diligence the case demands; mistaken identity; wrong medicine, concentration, route or dose; faulty equipment (stretchers, wheelchairs) leading to falls.\n- The test is the \"reasonably prudent nurse\" in the same circumstance, not a perfect nurse.\n\n## Priority nursing actions (to avoid liability)\n1. Follow the standard of care and agency policy (this is the benchmark a court uses).\n2. Verify identity and the rights of medication before giving it (client safety).\n3. Report changes in the client's condition to the physician promptly, and chart that you did.\n4. Check equipment before use.\n5. Document facts accurately; \"if it was not charted, it was not done\".\n\n## Complications and red flags\n- Missing any one element means the claim usually fails; missing a duty means no negligence.\n- A bad outcome alone is not negligence; there must be a breach that caused it.\n\n## How the exam asks about it\n- Listing the four elements in order.\n- Spotting which element is missing in a scenario.\n- Identifying a medication error as negligence (and, if by a professional, malpractice).\n\n## How to reason about it\nDuty -> breach -> foreseeable harm -> injury. The trap: calling every poor outcome malpractice.\n\n## Related topics\n[[Nursing Negligence, Malpractice and Res Ipsa Loquitur]], [[Respondeat Superior, Force Majeure and Incompetence]], [[Medical Records and Documentation]]\n\n## Check against your textbook\n- The handout's \"foreseeability\" and \"causation\" steps are worded loosely; some textbooks list causation as a separate element.",
+  "tags": [
+   "standards",
+   "negligence",
+   "duty",
+   "breach",
+   "malpractice"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Professional Negligence and Malpractice",
+   "Standard",
+   "Negligence",
+   "Elements",
+   "Specific Examples",
+   "Malpractice"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-x-consent-special-situations",
+  "area": "GEN",
+  "title": "Consent in Special Situations: Minors, Mental Illness, Emergency and Sterilization",
+  "body": "## What it is\n**Consent** is a free and rational act that needs knowledge of what is being agreed to, given by someone legally able to give it. It comes from the patient or an authorised representative (parent or guardian). The physician obtains the informed consent; the nurse secures the general consent on admission and makes sure the signed form is present, understood and in the chart.\n\n## Must-know facts: who consents\n- **Adult with capacity:** the client himself or herself.\n- **Minor:** parents, or someone standing in their place. If the minor is **married or emancipated**, parental consent is not needed.\n- **Mentally ill client:** the parents or the legal guardian.\n- **Emergency:** consent is waived (**implied consent**) because delay would cause greater injury.\n- **Sterilization:** husband **and** wife if the operation is mainly for sterilization; the patient alone if sterilization is only an incidental result of an operation needed for medical reasons.\n- A written form is proof that the person agreed and understood the nature, risks and consequences.\n\n## Priority nursing actions\n1. Before any procedure, check that a signed consent is on the chart (legal and safety step).\n2. If the client seems not to understand, notify the physician; the nurse does not give the medical explanation and does not pressure the client.\n3. If the client refuses, stop and respect autonomy; notify the physician. Giving a treatment anyway is battery.\n4. In a true life-threatening emergency, do not delay care waiting for a signature.\n5. Document who gave consent and when.\n\n## Complications and red flags\n- Signature obtained under sedation, pressure or without explanation: not valid.\n- Confused client with no representative: involve the guardian or the physician.\n\n## How the exam asks about it\n- \"Who gives consent for a 14-year-old?\" -> parent or guardian (unless married or emancipated).\n- \"Unconscious accident victim, no relatives\" -> implied consent; treat.\n- \"Surgery mainly for sterilization\" -> both spouses.\n\n## How to reason about it\nIs the person able to decide? Is it an emergency? If yes to emergency, treat first. If no, find the lawful decider.\n\n## Related topics\n[[Informed Consent]], [[Torts: Assault, Battery and False Imprisonment]], [[Advance Directives]]\n\n## Check against your textbook\n- Local rules for minors, for sterilization consent and for refusal of care may differ from the handout; check current law and policy.",
+  "tags": [
+   "consent",
+   "minor",
+   "emergency",
+   "sterilization",
+   "implied consent"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Consent to Medical and Surgical Procedures",
+   "Who Must Consent",
+   "Proof of Consent"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-x-legal-wrongs-compared",
+  "area": "GEN",
+  "title": "Legal Wrongs Compared: Torts, Defamation, Privacy and Crimes",
+  "body": "## What it is\nA **tort** is a legal wrong against a person or property, independent of a contract, that makes the wrongdoer liable for damages in a civil action. Many exam questions ask you to name the right wrong from a short scenario.\n\n## Must-know facts\n- **Assault:** an imminent threat of harmful or offensive touching; usually verbal. A nurse says she will restrain a client if he refuses medicine.\n- **Battery:** intentional touching without consent. A client refuses an injection and the nurse gives it anyway.\n- **False imprisonment (illegal detention):** unjustified confinement without legal warrant within limits set by the defendant. A client who insists on leaving must be told the likely consequences by the doctor or a competent staff member, then may leave against advice.\n- **Invasion of privacy:** the right to be let alone and free from unwanted exposure. Privacy concerns the **person**: close the curtain during examination.\n- **Breach of confidentiality:** concerns **information**: do not share the chart with people outside the care team.\n- **Defamation:** damaging a person's reputation. **Slander** = spoken. **Libel** = written. A third person must hear or read it.\n- **Crime** (different from a tort): an act or omission violating the law, needing a criminal act plus evil intent; see [[Crimes, Felonies and Participation]].\n\n## Priority nursing actions\n1. Explain and get permission before touching or treating (autonomy).\n2. Never threaten or restrain without a valid order or emergency need.\n3. Use screens, drapes and closed doors for privacy; share information only with those who need it.\n4. Chart facts only, not opinions about a colleague or client (libel).\n\n## How the exam asks about it\n- Verbal threat -> assault; unwanted physical act -> battery; stopping a client from leaving -> false imprisonment.\n- Spoken lie damaging reputation -> slander; written -> libel.\n\n## How to reason about it\nThreat or touch? Threat = assault, touch = battery. Words? Spoken = slander, written = libel. The trap: calling any unwanted touch \"assault\".\n\n## Memory aid (made up)\nAssault = Ahead (before the touch). Battery = Body contact. Libel = Letters written.\n\n## Related topics\n[[Torts: Assault, Battery and False Imprisonment]], [[Privacy, Confidentiality and Defamation]], [[Informed Consent]]\n\n## Check against your textbook\n- Wording of legal definitions varies between textbooks; follow your school's text.",
+  "tags": [
+   "tort",
+   "assault",
+   "battery",
+   "libel",
+   "slander",
+   "privacy"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Torts",
+   "Assault",
+   "Battery",
+   "False Imprisonment",
+   "Invasion of Privacy",
+   "Defamation"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-x-alternative-circumstances",
+  "area": "GEN",
+  "title": "Alternative Circumstances and a Criminal Liability Summary",
+  "body": "## What it is\nCircumstances affecting criminal liability describe what makes a person fully free of liability, less liable, more liable, or sometimes either. **Alternative circumstances** can count either way (lessening or increasing liability) depending on the case.\n\n## Must-know facts: alternative circumstances (handout)\n- **Degree of education** of the offender.\n- **Degree of intoxication** (alcohol or prohibited drugs as defined by RA 9165).\n- **Relationship** between the parties. In cases of theft, malicious mischief, estafa and swindling, relationship is mostly mitigating (it lessens liability).\n\n## Summary of all five types\n- **Justifying:** no liability because the act is reasonable. Self-defense (unlawful aggression, necessity of the means, no sufficient provocation by the defender), fulfilling a lawful order or duty, state of necessity. If one self-defense element is missing, it becomes incomplete self-defense and is mitigating.\n- **Exempting:** no liability because the offender is exempt: insane or imbecile persons (no ability to tell right from wrong), a person under nine years old, force majeure/natural calamity, accident. A lucid interval means a normal state of mind.\n- **Mitigating:** lowers liability: voluntary surrender, confession of guilt, provocation, age under 18 or over 70, blind/deaf/mute (they cannot defend themselves well).\n- **Aggravating:** raises liability: cruelty, abuse of authority, crimes in a calamity (looting, profiteering), treachery, insult to authority, premeditation.\n- **Alternative:** may lower or raise depending on the case (education, intoxication, relationship).\n\n## How the exam asks about it\n- A scenario with one fact and a request to classify it.\n- \"Which is NOT an alternative circumstance?\"\n\n## How to reason about it\nDoes it free (justifying/exempting), lower (mitigating), raise (aggravating) or depend (alternative)? The trap: placing self-defense under exempting; justifying means the act was lawful, exempting means the person is excused.\n\n## Related topics\n[[Circumstances Affecting Criminal Liability]], [[Crimes, Felonies and Participation]]\n\n## Check against your textbook\n- Legal definitions of estafa and the exempting age may have changed in newer law; the handout's number is nine years; confirm against current law.",
+  "tags": [
+   "alternative circumstance",
+   "mitigating",
+   "aggravating",
+   "exempting",
+   "justifying"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Circumstances Affecting Criminal Liability",
+   "Alternative Circumstance"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-x-laws-disease-sanitation",
+  "area": "GEN",
+  "title": "Philippine Laws on Disease Reporting, Immunization, Sanitation and Environment",
+  "body": "## What it is\nA group of laws about preventing and controlling disease and protecting the environment. In board questions you match the law number to its subject.\n\n## Must-know facts (as given in the handout)\n- **RA 3573:** all communicable diseases must be reported to the nearest health station; any person may be given preventive (prophylactic) preparations.\n- **PD 996:** compulsory immunization of children **below 8 years old** against the six childhood immunizable diseases.\n- **PD 856:** Code of Sanitation.\n- **PD 825:** penalty for improper garbage disposal and other uncleanliness.\n- **RA 8749:** Clean Air Act (the handout says 2000).\n- **RA 9211:** Tobacco Regulation Act (listed twice in the handout).\n- **RA 8504:** Philippine AIDS Prevention and Control Act.\n- **RA 8976:** Philippine Food Fortification Act (food safety/nutrition, see the other laws note).\n\n## Priority nursing actions\n1. Report a notifiable communicable disease to the nearest health station (public health protection).\n2. Make sure the child's immunizations are complete, and refer for missing ones.\n3. Teach sanitation and proper waste disposal at home and in the community.\n4. Keep HIV test results and status confidential while following the reporting rules of the law.\n\n## How the exam asks about it\n- Matching: PD 996 -> compulsory immunization; PD 856 -> sanitation; RA 3573 -> reporting.\n- \"Which law requires reporting of communicable disease?\" -> RA 3573.\n\n## How to reason about it\nLook at the topic word in the question (sanitation, garbage, immunization, tobacco, air, AIDS) and match it to the number. The trap: confusing PD 856 (sanitation code) with PD 825 (garbage penalty).\n\n## Related topics\n[[Philippine Laws Related to Nursing Practice]], [[Philippine Laws on Mothers, Infants, Women, Elderly and Population]], [[Philippine Laws on Health Financing, Drugs, Blood, Facilities and Workers]]\n\n## Check against your textbook\n- Years given in the handout (for example the Clean Air Act year) and the age limit in PD 996 should be confirmed.",
+  "tags": [
+   "RA 3573",
+   "PD 996",
+   "PD 856",
+   "PD 825",
+   "RA 8749",
+   "RA 9211",
+   "RA 8504"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Important Laws Related to Nursing Practice",
+   "RA 3573",
+   "PD 996",
+   "PD 856",
+   "PD 825",
+   "RA 8749",
+   "RA 9211",
+   "RA 8504"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-x-laws-mother-child-elderly",
+  "area": "GEN",
+  "title": "Philippine Laws on Mothers, Infants, Women, Elderly and Population",
+  "body": "## What it is\nLaws protecting mothers, newborns, women and children, older persons and the family. They are heavily tested in the Community Health and Maternal-Child areas.\n\n## Must-know facts (handout wording)\n- **RA 7600:** Rooming-in and Breastfeeding Act.\n- **RA 9288:** Newborn Screening Act of 2004.\n- **RA 9262:** Anti-Violence Against Women and Their Children Act.\n- **RA 7432:** entitles the elderly to a 20% discount in all public establishments.\n- **RA 6365:** National Policy on Population.\n- **EO 209 (written \"E0 2009\" in the handout):** Family Code of the Philippines.\n- **RA 8976:** Philippine Food Fortification Act.\n\n## Priority nursing actions\n1. Promote rooming-in and breastfeeding right after a normal birth (bonding, the mother-baby relationship).\n2. Make sure newborn screening is done and tell parents the purpose (early detection of treatable conditions before harm occurs).\n3. For a woman or child suspected of abuse: ensure safety first, document facts, report per policy.\n4. Teach older persons about their benefits.\n\n## How the exam asks about it\n- Matching a number to rooming-in (7600), newborn screening (9288), VAWC (9262), elderly discount (7432).\n- Scenario: a nurse promotes breastfeeding -> RA 7600.\n\n## How to reason about it\nWho is the protected group? Mothers and babies, women and children, older persons, or family/population?\n\n## Related topics\n[[Philippine Laws Related to Nursing Practice]], [[Philippine Laws on Disease Reporting, Immunization, Sanitation and Environment]]\n\n## Check against your textbook\n- The elderly discount law may have been amended since the handout (the handout gives 20%); the Family Code is spelled \"E0 2009\" in the handout, which is probably Executive Order 209.",
+  "tags": [
+   "RA 7600",
+   "RA 9288",
+   "RA 9262",
+   "RA 7432",
+   "RA 6365",
+   "Family Code"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Important Laws Related to Nursing Practice",
+   "RA 7600",
+   "RA 9288",
+   "RA 9262",
+   "RA 7432",
+   "RA 6365",
+   "EO 209"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-x-laws-health-system-drugs",
+  "area": "GEN",
+  "title": "Philippine Laws on Health Financing, Drugs, Blood, Facilities and Workers",
+  "body": "## What it is\nThe laws covering how health care is organised, paid for and regulated.\n\n## Must-know facts (handout wording)\n- **RA 6173:** Code of Conduct and Ethical Standards for Public Officials and Employees.\n- **LOI 949:** legal basis of Primary Health Care.\n- **RA 7160:** Local Government Code (devolves health services to local governments).\n- **RA 7305:** Magna Carta for Public Health Workers.\n- **RA 2382:** Philippine Medical Act.\n- **RA 9173:** Philippine Nursing Act of 2002.\n- **RA 7875:** National Health Insurance Act.\n- **RA 6675:** Generics Act.\n- **RA 6425:** Dangerous Drugs Act (the handout also mentions RA 9165 elsewhere).\n- **RA 4226:** Hospital Licensure Act.\n- **RA 7719:** National Blood Services Act.\n\n## Priority nursing actions\n1. Practise within the law (RA 9173 scope) and know where the legal basis of your tasks lies.\n2. Explain insurance coverage and generic medicine choices to clients.\n3. Handle controlled drugs with strict counts and records.\n4. Refer clients properly to public programs available under the local government.\n\n## How the exam asks about it\nMatching: Primary Health Care -> LOI 949; Local Government Code -> RA 7160; Generics -> RA 6675; Hospital licensure -> RA 4226; Blood -> RA 7719; Health insurance -> RA 7875; Magna Carta -> RA 7305.\n\n## How to reason about it\nFind the keyword in the question and pair it with its law. The trap: a number in the answer choices that is close but wrong; learn the pairs, not just the numbers.\n\n## Related topics\n[[Philippine Laws Related to Nursing Practice]], [[Nursing Act (RA 9173) and Appeals Process]], [[Philippine Laws on Disease Reporting, Immunization, Sanitation and Environment]]\n\n## Check against your textbook\n- The handout labels the code of conduct as RA 6173; check your textbook. Also the RA 2382 line in the handout has stray text copied from the RA 3573 line.",
+  "tags": [
+   "RA 7875",
+   "RA 7305",
+   "RA 6675",
+   "RA 6425",
+   "RA 4226",
+   "RA 7719",
+   "RA 2382",
+   "RA 7160",
+   "LOI 949",
+   "RA 6173"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Important Laws Related to Nursing Practice",
+   "RA 6173",
+   "LOI 949",
+   "RA 7160",
+   "RA 7305",
+   "RA 2382",
+   "RA 9173",
+   "RA 7875",
+   "RA 6675",
+   "RA 6425",
+   "RA 4226",
+   "RA 7719"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-x-appeal-routes",
+  "area": "GEN",
+  "title": "Where to Appeal: Administrative, Civil and Criminal Cases",
+  "body": "## What it is\nWhich office hears which kind of case is a favourite exam item.\n\n## Must-know facts\n- **License revoked or suspended by the Board of Nursing** is an **administrative case**.\n  - The Board of Nursing is under the **Professional Regulation Commission (PRC)**.\n  - Appeal to the **PRC** within **30 days** of receiving the order (the reglementary period).\n  - The PRC is under the **Office of the President**, the highest agency for appeal.\n- **Civil and criminal cases** are appealed in **court**.\n- **Illegal dismissal** (no due process before firing) is filed with the **Department of Labor and Employment (DOLE)**; no lawyer is needed. A win brings back pay and reinstatement (paper or payroll).\n- **Revocation:** permanent invalidation of the license; **suspension:** temporary, for a fixed period.\n\n## Priority nursing actions\n1. Keep copies of notices and the date of receipt (the 30 days start from receipt).\n2. Act within the time limit; an appeal filed late may not be heard.\n3. Do not confuse the office: license issue = PRC; job loss = DOLE; civil/criminal = courts.\n\n## How the exam asks about it\n- \"Where does a nurse appeal a revocation?\" -> PRC.\n- \"Highest agency for license appeal\" -> Office of the President.\n- \"Where to file illegal dismissal?\" -> DOLE.\n\n## How to reason about it\nWhat was lost? License -> PRC/Office of the President; job -> DOLE; money or liberty -> court.\n\n## Related topics\n[[Nursing Act (RA 9173) and Appeals Process]], [[License Revocation, Suspension and Illegal Dismissal]]\n\n## Check against your textbook\n- The handout says revocation can be lifted after four years when the reason is cured; verify with the Nursing Act. The 30-day period should also be confirmed with current PRC rules.",
+  "tags": [
+   "appeal",
+   "PRC",
+   "DOLE",
+   "Office of the President",
+   "reglementary period"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Responsibility and Accountability for the Practice of Professional Nursing",
+   "Concepts",
+   "Revocation",
+   "Suspension",
+   "Illegal Dismissal"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-x-applying-ethics-cases",
+  "area": "GEN",
+  "title": "Applying Ethical Principles to Case Scenarios",
+  "body": "## What it is\nMost ethics questions give a short case and ask which principle is shown or broken. This note lists the handout principles with typical case clues.\n\n## Must-know facts\n- **Autonomy:** voluntary decisions, self-determination. Clue: client chooses or refuses.\n- **Veracity:** truth-telling. Clue: nurse lies or hides the truth.\n- **Beneficence:** doing good, acts of kindness and mercy that benefit the client (promote health, prevent illness, relieve suffering, assist toward a peaceful death). Clue: nurse acts for the client's benefit.\n- **Non-maleficence:** do no harm; a negative admonition. Not assisting suicide, not doing euthanasia, not subjecting clients to experimental drugs whose harm may exceed benefit, not harming reputation by revealing confidential information.\n- **Justice:** fair and equal treatment. Clue: sharing scarce resources, no discrimination.\n- **Fidelity:** keeping promises, loyalty. Clue: returning when you said you would.\n\n## How to reason about it\nAsk: who decides (autonomy)? Is the truth involved (veracity)? Is harm being avoided (non-maleficence) or good being done (beneficence)? Is it fair (justice)? Was a promise kept (fidelity)? The trap: beneficence versus non-maleficence; one DOES good, the other AVOIDS harm.\n\n## Priority nursing actions in a dilemma\n1. Gather the facts (assess first).\n2. Identify the principles in conflict.\n3. Protect the client's safety and rights first.\n4. Consult the ethics committee, charge nurse or policy when unsure.\n5. Document.\n\n## How the exam asks about it\nCase -> principle matching; \"which action is the nurse NOT allowed to take?\"\n\n## Related topics\n[[Principles of Biomedical Ethics]], [[Ethical Theories: Teleological, Deontological and Virtue]], [[Epikia, Double Effect and Codes of Ethics]]\n\n## Check against your textbook\n- Confirm the exact wording of each principle in your school text.",
+  "tags": [
+   "ethics",
+   "autonomy",
+   "beneficence",
+   "non-maleficence",
+   "justice",
+   "fidelity",
+   "veracity"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Universal Principles of Biomedical Ethics",
+   "Autonomy",
+   "Veracity",
+   "Beneficence",
+   "Non-maleficence",
+   "Justice",
+   "Fidelity"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-x-patient-classification-levels",
+  "area": "GEN",
+  "title": "Patient Classification, Levels of Care and Hospital Mix Percentages",
+  "body": "## What it is\nPatient classification groups clients by the amount and complexity of nursing care they need. Staffing numbers are built from it.\n\n## Must-know facts (handout)\n- **Level 1 Minimal:** for discharge, non-emergency; about **1.5 hours/day**.\n- **Level 2 Moderate:** some help with ADL, IV, vital signs 3x per shift; about **3 hours/day**.\n- **Level 3 Total/Intensive:** completely dependent, vital signs every 30 minutes; about **6 hours/day**.\n- **Level 4 Critical (highly specialized):** continuous observation; **6 to 9 hours or more/day**.\n- **Percent of patients by hospital type (minimal / moderate / intensive / highly specialized):**\n  - Primary 70 / 25 / 5 / none\n  - Secondary 65 / 30 / 5 / none\n  - Tertiary 30 / 45 / 15 / 10\n  - Special tertiary 10 / 25 / 45 / 20\n- **Nursing care hours per patient per day by unit (DOH manual, as in handout):** general medicine 3.5; medical 3.4; surgical 3.4; obstetrics 3.0; pediatrics 4.6; pathologic nursery 2.8; ER/ICU/RR 6.0; CCU 6.0. Professional to non-professional ratio: 60:40 for medicine, surgery, OB; 70:30 pediatrics and ER/ICU/RR; 55:45 pathologic nursery; 80:20 CCU.\n- **Working days per year:** 40 hr/week = 213 working days (152 non-working), 1,704 working hours, relievers 0.15; 48 hr/week = 265 working days (100 non-working), 2,120 hours, relievers 0.12. (The arithmetic 213 x 8 = 1,704 and 265 x 8 = 2,120 confirms the table.)\n\n## How to reason about it\nMore dependent and unstable clients need more hours and a higher share of RNs. The trap: reading the percentages by the wrong hospital type.\n\n## How the exam asks about it\nLook-up questions on hours per level, and the percent of minimal-care clients in a primary hospital (70).\n\n## Related topics\n[[Staffing Formula and Nursing Care Hours]], [[Staffing and Scheduling]], [[Staffing Formula Worked Example]]\n\n## Check against your textbook\n- The handout table text is garbled (hospital-type ratios appear as \"55.45\", \"60. 40\"); I read them as 55:45, 60:40 and so on. Confirm the figures in the DOH manual.",
+  "tags": [
+   "staffing",
+   "levels of care",
+   "NCH",
+   "hospital type"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Patient Care Classification",
+   "Levels of Care",
+   "Percentage of Patients in Various Levels of Care",
+   "Total Number of Working Days Per Year"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-x-staffing-worked-example",
+  "area": "GEN",
+  "title": "Staffing Formula Worked Example",
+  "body": "## What it is\nA step-by-step illustration of the handout's seven-step formula. The patient numbers below are made up for practice (ILLUSTRATIVE); the hours, percentages and factors are the handout's.\n\n## Steps with a worked example (secondary hospital, 100 patients, 40-hour week)\n1. Split patients by level: 65% minimal = 65, 30% moderate = 30, 5% intensive = 5.\n2. Hours per day: 65 x 1.5 = 97.5; 30 x 3 = 90; 5 x 6 = 30. Total **217.5 hours/day**.\n3. Per year: 217.5 x 365 = **79,387.5 hours**.\n4. One employee's yearly hours: **1,704** (40-hour week).\n5. Staff needed: 79,387.5 / 1,704 = about **46.6**. Relievers: 46.6 x 0.15 = about **7.0**. Total about **53.6**, so 54.\n6. Professional versus non-professional (secondary hospital 60:40): about 32 RNs and 21 non-professional staff.\n7. Shifts (AM 45%, PM 37%, night 18%): about 24, 20 and 10 staff.\n\n## Priority reasoning\nAssess patient dependency first (classification), then compute hours, then people, then ratios, then shifts. Never reverse the order.\n\n## How the exam asks about it\n- \"Multiply the number of staff needed by 0.15\" -> relievers (use 0.12 for a 48-hour week).\n- Ordering the steps.\n- Applying shift percentages.\n\n## Related topics\n[[Staffing Formula and Nursing Care Hours]], [[Patient Classification, Levels of Care and Hospital Mix Percentages]]\n\n## Check against your textbook\n- Rounding rules differ; follow your instructor's method. Use 365 days unless your text says otherwise.",
+  "tags": [
+   "staffing",
+   "computation",
+   "relievers",
+   "shift distribution"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Staffing Formula",
+   "Distribution Per Shift"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-pl-x-management-skills-principles",
+  "area": "GEN",
+  "title": "Management Skills, Pareto Principle and Principle of Least Effort",
+  "body": "## What it is\nSkill sets and rules of thumb for managers.\n\n## Must-know facts\n- **Katz:** technical (right technique), human (dealing with people), conceptual (seeing the whole picture, discarding irrelevant facts). Top managers need more conceptual; first-level more technical (usual teaching, not in handout).\n- **Summer:** knowledge (ideas), attitude (beliefs, feelings, values), ability (skills, art, judgment) factors.\n- **Pareto 80-20:** about 80% of effects come from 20% of causes; fix the vital few causes.\n- **Least effort:** people use the most convenient, familiar method that works.\n- **Roles:** interpersonal (symbol, facilitator, liaison); informational (monitor, disseminator, spokesperson); decisional (entrepreneur, troubleshooter, negotiator).\n\n## Priority nursing actions\nFind the top causes of a problem first (for example most incident reports) and fix those.\n\n## Related topics\n[[Management Basics, Roles and Skills]], [[Leadership versus Management]]\n\n## Check against your textbook\n- Level-by-skill emphasis is common teaching, not in the handout.",
+  "tags": [
+   "Katz",
+   "Summer",
+   "Pareto",
+   "least effort",
+   "roles"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Fundamental Skills of Managers",
+   "Principles of Management",
+   "General Management Roles"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ }
+]

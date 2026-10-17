@@ -1,0 +1,52 @@
+{
+  "_note": "Demo data for scripts/screenshots.mjs only. Events use daysAgo (the script turns it into a timestamp). All content is invented for screenshots.",
+  "app": {
+    "folders": [{ "id": "np1", "name": "NP1 Nursing" }],
+    "topics": [
+      { "id": "t-prev", "folderId": "np1", "title": "Levels of prevention", "body": "Primary prevents disease (immunisation, health education). Secondary finds it early (screening). Tertiary limits disability. See [[Immunization schedule]].", "sourceIds": ["s1"] },
+      { "id": "t-immun", "folderId": "np1", "title": "Immunization schedule", "body": "BCG at birth, Hepatitis B at birth, Pentavalent 6/10/14 weeks, MMR at 9 months. Cold chain keeps vaccines potent.", "sourceIds": ["s1"] },
+      { "id": "t-epi", "folderId": "np1", "title": "Epidemiology basics", "body": "Incidence counts new cases; prevalence counts all existing cases. The epidemiologic triad: agent, host, environment.", "sourceIds": ["s2"] },
+      { "id": "t-fam", "folderId": "np1", "title": "Family nursing process", "body": "Family assessment, first-level and second-level assessment, family health problems: health threat, health deficit, foreseeable crisis.", "sourceIds": ["s2"] },
+      { "id": "t-teach", "folderId": "np1", "title": "Health teaching in the community", "body": "Assess readiness, set goals with the client, teach in simple words, return-demonstrate.", "sourceIds": [] },
+      { "id": "t-vital", "folderId": "np1", "title": "Vital statistics", "body": "Crude birth rate, crude death rate, infant mortality rate, maternal mortality ratio.", "sourceIds": [] }
+    ],
+    "sources": [
+      { "id": "s1", "title": "Community health notes (typed)", "kind": "paste", "addedAt": 1, "quality": { "score": 0.92, "flags": [] }, "verification": "ai-checked" },
+      { "id": "s2", "title": "Lecture photo: epidemiology", "kind": "file", "addedAt": 2, "quality": { "score": 0.58, "flags": ["blurry"] }, "verification": "needs-review", "suggestedOrigin": "Looks like a public health textbook chapter (a suggestion, not proof)." }
+    ],
+    "chunks": [
+      { "id": "c1", "sourceId": "s1", "text": "Primary prevention aims to prevent disease before it occurs.", "loc": "chars 0-60" }
+    ],
+    "events": [
+      { "id": "e1", "questionId": "q1", "topicId": "t-prev", "correct": true, "kind": "diagnostic", "daysAgo": 5.2 },
+      { "id": "e2", "questionId": "q2", "topicId": "t-immun", "correct": false, "kind": "diagnostic", "daysAgo": 5.2 },
+      { "id": "e3", "questionId": "q3", "topicId": "t-epi", "correct": false, "kind": "diagnostic", "daysAgo": 5.2 },
+      { "id": "e4", "questionId": "q4", "topicId": "t-fam", "correct": true, "kind": "diagnostic", "daysAgo": 5.1 },
+      { "id": "e5", "questionId": "q5", "topicId": "t-immun", "correct": false, "kind": "pop", "daysAgo": 3.6 },
+      { "id": "e6", "questionId": "q6", "topicId": "t-immun", "correct": true, "kind": "pop", "daysAgo": 3.5 },
+      { "id": "e7", "questionId": "q7", "topicId": "t-epi", "correct": false, "kind": "pop", "daysAgo": 2.4 },
+      { "id": "e8", "questionId": "q8", "topicId": "t-epi", "correct": true, "kind": "pop", "daysAgo": 2.3 },
+      { "id": "e9", "questionId": "q9", "topicId": "t-prev", "correct": true, "kind": "module", "daysAgo": 1.4 },
+      { "id": "e10", "questionId": "q10", "topicId": "t-fam", "correct": true, "kind": "module", "daysAgo": 1.4 },
+      { "id": "e11", "questionId": "q11", "topicId": "t-vital", "correct": false, "kind": "module", "daysAgo": 1.3 },
+      { "id": "e12", "questionId": "q12", "topicId": "t-immun", "correct": true, "kind": "module", "daysAgo": 0.4 },
+      { "id": "e13", "questionId": "q13", "topicId": "t-epi", "correct": false, "kind": "module", "daysAgo": 0.4 },
+      { "id": "e14", "questionId": "q14", "topicId": "t-vital", "correct": false, "kind": "module", "daysAgo": 0.3 },
+      { "id": "e15", "questionId": "q15", "topicId": "t-prev", "correct": true, "kind": "module", "daysAgo": 0.2 }
+    ],
+    "diagnosticsDone": ["np1"],
+    "settings": { "provider": "manual", "apiKey": "", "model": "manual", "aiChosen": true }
+  },
+  "srs": {
+    "version": 1,
+    "cards": [
+      { "id": "k1", "topicId": "t-immun", "front": "When is the BCG vaccine given?", "back": "At birth.", "sourceTopicTitle": "Immunization schedule", "dismissed": false, "edited": false, "beyondNotes": false, "createdAt": 1 },
+      { "id": "k2", "topicId": "t-immun", "front": "Which vaccine is given at 9 months?", "back": "MMR.", "sourceTopicTitle": "Immunization schedule", "dismissed": false, "edited": false, "beyondNotes": false, "createdAt": 1 },
+      { "id": "k3", "topicId": "t-epi", "front": "Incidence vs prevalence?", "back": "Incidence = new cases; prevalence = all existing cases.", "sourceTopicTitle": "Epidemiology basics", "dismissed": false, "edited": false, "beyondNotes": false, "createdAt": 1 },
+      { "id": "k4", "topicId": "t-epi", "front": "Epidemiologic triad?", "back": "Agent, host, environment.", "sourceTopicTitle": "Epidemiology basics", "dismissed": false, "edited": false, "beyondNotes": false, "createdAt": 1 },
+      { "id": "k5", "topicId": "t-prev", "front": "Secondary prevention example?", "back": "Screening.", "sourceTopicTitle": "Levels of prevention", "dismissed": false, "edited": false, "beyondNotes": false, "createdAt": 1 }
+    ],
+    "events": [],
+    "sched": {}
+  }
+}

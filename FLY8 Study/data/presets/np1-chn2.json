@@ -1,0 +1,554 @@
+[
+ {
+  "id": "np1-g-phn-roles",
+  "area": "NP1",
+  "title": "Public Health Nurse Roles and Qualifications",
+  "body": "## What it is\nThe public health nurse (PHN) is a nurse working for a local or national health office or a public school, whatever the job title. The role covers many hats at once, and the exam likes to ask which hat a described action belongs to.\n\n## Roles and what each looks like\n- Planner/programmer: identifies health needs, priorities and problems of individuals, families and the community.\n- Nursing care provider: cares for the sick and disabled at home, clinic, school or workplace.\n- Manager/supervisor: writes and carries out the nursing plan and leads people to solve their own health problems.\n- Community organizer: motivates participation and starts or joins community development work (see [[Community Organizing (COPAR) Basic Principles]]).\n- Service coordinator: works with individuals, families and groups to link them to services.\n- Health educator/counselor/trainer: teaches, counsels, trains rural health midwives, speaks as a resource person.\n- Health monitor: tracks the status of clients through repeated contacts.\n- Role model: lives a healthy lifestyle visibly.\n- Change agent: motivates changes in health behavior.\n- Reporter/recorder/statistician: records every intervention, updates the database, analyzes data (links to [[Epidemiology and FHSIS]]).\n- Researcher: uses observation, interview, survey and physical exam for assessment.\n\n## Qualifications (as listed in the handout)\n- BSN graduate and registered nurse, in good physical and mental health.\n- Interest and willingness to work in the community; able to work with other disciplines and community members.\n- Able to analyze factors that affect population health, apply the nursing process and mobilize community resources.\n- Leadership potential, resourcefulness, active membership in professional nursing organizations.\n- Salary grade given in the handout: 15.\n\n## How the exam asks about it\nMatch the action to the role: a nurse teaching midwives is trainer; a nurse who tallies cases is recorder/statistician; a nurse who motivates smoking cessation is change agent.\n\n## Related topics\n[[Community Health Nursing Basics]], [[Department of Health (DOH) Concepts and Functions]].\n\n## Check against your textbook\nSalary grade and the exact qualification list can change with civil service rules.",
+  "tags": [
+   "CHN",
+   "public health nurse",
+   "roles"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "PUBLIC HEALTH NURSE",
+   "Roles & Functions",
+   "Qualifications of Public Health Nurses"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-g-hsra-fourmula",
+  "area": "NP1",
+  "title": "Health Sector Reform Agenda and FOURmula One",
+  "body": "## What it is\nThe Health Sector Reform Agenda (HSRA) is described as the overriding goal of the DOH. FOURmula One for Health (2005-2010) was the framework for putting HSRA into action.\n\n## Must-know facts\n- Goals: better health outcomes, more responsive health systems, equitable health care financing.\n- Four elements of the strategy (match each to its purpose):\n  - Health financing: more, better and sustained investment in health (PhilHealth is the example).\n  - Health regulation: quality and affordability of health goods and services.\n  - Health service delivery: accessibility and availability of basic and essential care.\n  - Good governance: better health system performance at national and local levels.\n- DOH vision in the handout: Filipinos among the healthiest in Southeast Asia by 2022 and Asia by 2040. Mission: lead a productive, resilient, equitable, people-centered health system.\n- DOH roles: leader in health (policy, plans, advocacy), enabler and capacity builder (oversight, quality standards), administrator of specific services (selected national hospitals, emergency response).\n\n## How the exam asks about it\nGiven a program (for example, PhilHealth expansion), name which of the four elements it belongs to. Financing is the PhilHealth answer.\n\n## Related topics\n[[Department of Health (DOH) Concepts and Functions]], [[Local Health System and Inter-Local Health Zones]].\n\n## Check against your textbook\nVision years and later frameworks (for example, universal health care) may have replaced these dates.",
+  "tags": [
+   "DOH",
+   "HSRA",
+   "health policy"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Philippine Health Care Delivery System",
+   "Framework for the Implementation of HSRA",
+   "FOURmula ONE for Health"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-g-local-health-system",
+  "area": "NP1",
+  "title": "Local Health System and Inter-Local Health Zones",
+  "body": "## What it is\nUnder RA 7160 (Local Government Code), health structures, staff and budgets from the provincial level down to barangays were devolved to local government units (LGUs). The inter-local health zone (ILHZ) is the DOH-promoted system similar to a district health system.\n\n## Must-know facts\n- Objectives: set up a local health system, upgrade management and service capability of local facilities, promote inter-LGU links and cost sharing, involve the private sector, NGOs and community.\n- Four parts of a health zone:\n  - People: an ideal district serves about 100,000 to 500,000 for efficiency.\n  - Boundaries: clear lines decide who is accountable.\n  - Health facilities: district or provincial hospital and other services working as one integrated system.\n  - Health workers: the right mix of providers for comprehensive services.\n\n## Why it matters\nDevolution made LGUs responsible for primary care, which is why the PHN works under the local government but follows DOH program protocols.\n\n## Related topics\n[[Health Sector Reform Agenda and FOURmula One]], [[Levels of Health Care and the Referral System]], [[Primary Health Care Basics]].\n\n## Check against your textbook\nPopulation size range is as given by the handout.",
+  "tags": [
+   "LGU",
+   "RA 7160",
+   "health zone"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Local Health System",
+   "RA 7160",
+   "Inter Local Health System",
+   "Composition of Inter-Local Health Zone"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-g-levels-care-referral",
+  "area": "NP1",
+  "title": "Levels of Health Care and the Referral System",
+  "body": "## What it is\nCare is organized into three levels, and clients are referred upward when needs exceed what a facility can provide. Referral should be two-way: clients also return to the lower level for follow-up.\n\n## Must-know facts\n- Primary level: first contact, devolved to cities and municipalities. Staff: center physicians, public health nurses, rural health midwives, barangay health workers, traditional healers. Examples: barangay health station, rural health unit, health center, community hospital, puericulture center.\n- Secondary level: physicians with basic training; referral center for primary facilities; can do minor surgery and simple laboratory tests. Examples: district or emergency hospital, provincial or city hospital.\n- Tertiary level: specialists; handles complicated cases and intensive care; referral center for secondary facilities. Examples: regional and national medical centers, teaching hospitals.\n- Primary health care worker levels: village or barangay health worker (trained community health worker, health auxiliary volunteer, traditional birth attendant or healer) and intermediate level (public health nurse, midwife, sanitary inspector, rural health physician).\n\n## How the exam asks about it\nName the level of a given facility, or decide where to send a client: simple cases stay at primary; accompany the client during an emergency referral.\n\n## Related topics\n[[Primary Health Care Basics]], [[Primary Health Care Pillars and Characteristics]], [[Clinic Visit Standard Procedures]].\n\n## Check against your textbook\nWhether a community hospital counts as primary or secondary varies by source; the handout lists it under primary.",
+  "tags": [
+   "referral",
+   "levels of care",
+   "health system"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Levels of Health Care and Health Referral System",
+   "Levels of Primary Health Care Worker"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-g-management-functions",
+  "area": "NP1",
+  "title": "Management Functions of the Community Health Nurse",
+  "body": "## What it is\nThe CHN manages programs and people using six functions. Know them in order and what each means.\n\n## Must-know facts\n- Planning: build a vision, decide what must be done and what the organization wants to achieve.\n- Organizing: decide how to carry out the plan; major concerns are analysis of systems, analysis of functions, assigning job responsibilities, and implementation.\n- Directing: tell workers what was decided in planning and organizing.\n- Coordinating: link members of the health team so objectives are met.\n- Controlling: measure and correct activities; steps are establishing standards, measuring performance against criteria, and correcting deviations.\n- Evaluating: judge the effectiveness of actions to decide future action, by documenting progress and comparing achievements with a performance standard.\n\n## What the nurse does (priority order and why)\n1. Plan first, since every later function depends on a clear target.\n2. Organize people and resources.\n3. Direct and coordinate the team.\n4. Control and evaluate, then feed results into the next plan.\n\n## How to reason about it\n- Cause to finding to action: if staff do not know their tasks, directing or organizing failed; if results drift from the target, controlling needs to correct deviations; if you want to know whether a program worked, evaluate.\n- Order: plan, organize, direct, coordinate, control, evaluate. Controlling includes standards; evaluating includes the final judgment.\n\n## How the exam asks about it\nScenarios: writing job descriptions is organizing; checking staff output against standards is controlling; holding a meeting to relay the plan is directing. Trap: confusing controlling (correcting during the work) with evaluating (judging results).\n\n## Related topics\n[[Family Nursing Process: Planning and Prioritization]], [[Public Health Nurse Roles and Qualifications]], [[Management Basics, Roles and Skills]], [[Management Levels and the POLE Process]]\n\n## Check against your textbook\nSome books use four or five functions (POLC); match your reviewer.\n",
+  "tags": [
+   "management",
+   "CHN"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Management Functions of the Community Health Nurse"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-g-clinic-visit",
+  "area": "NP1",
+  "title": "Clinic Visit Standard Procedures",
+  "body": "## What it is\nThe standard flow a client follows in a health center, with the nurse managing program-based cases by protocol.\n\n## Steps in order\n1. Registration or admission: greet and build rapport, prepare a family record (new client) or retrieve it (old client), record chief complaint and history, do physical exam.\n2. Waiting time: give priority numbers; first come first served, except emergencies.\n3. Triaging: manage program-based cases per protocol, refer non-program cases to the physician, give first aid to emergencies.\n4. Clinical evaluation: validate history and exam, reach an evidence-based diagnosis and treatment based on DOH programs, explain illness, treatment and prevention.\n5. Laboratory and diagnostics: identify a designated referral laboratory when needed.\n6. Referral: two-way referral; accompany the client in an emergency.\n7. Prescription or dispensing: teach correct drug intake.\n8. Health education: one-on-one counseling, reinforce messages, set the next appointment.\n\n## Priority reasoning\nEmergencies skip the queue (safety and ABC first). Everything else follows order of arrival.\n\n## Related topics\n[[Levels of Health Care and the Referral System]], [[Home Visit and Bag Technique]], [[Blood Pressure Measurement Technique]].",
+  "tags": [
+   "clinic",
+   "procedure",
+   "triage"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Nursing Procedures",
+   "Clinic Visit",
+   "Standard Procedures"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-g-bp-technique",
+  "area": "NP1",
+  "title": "Blood Pressure Measurement Technique",
+  "body": "## What it is\nCommunity-level BP measurement steps. Technique errors are a favorite exam target.\n\n## Preparation\n- Client relaxed and rested 5 minutes; no smoking or caffeine in the previous 30 minutes.\n- Explain the procedure; seated or supine position.\n\n## Applying equipment\n- Bare the arm; cuff 2-3 cm above the brachial artery, snug without creases.\n- Manometer at eye level; arm at heart level (supported on a table or chair arm; at the side if lying).\n- Palpate the brachial pulse just below or slightly medial to the antecubital area.\n\n## Palpatory then auscultatory\n- Palpate: inflate until the pulse disappears; note that value as palpated systolic; deflate fully and wait 1-2 minutes.\n- Auscultate: stethoscope over the brachial pulse; inflate to 30 mmHg above the palpated systolic; deflate slowly at 2-3 mmHg per beat.\n- First clear tapping sound (Korotkoff phase I) is systolic; disappearance of sound (phase V) is diastolic.\n\n## Recording\n- At each visit, take the mean of 2 readings at least 2 minutes apart.\n- First visit: measure both arms; later use the arm with the higher reading.\n\n## Check against your textbook\nThe handout says \"use the bell side\" but then says the diaphragm for obese clients; most textbooks use the diaphragm for Korotkoff sounds and the bell for low sounds. Confirm which your school teaches.\n\n## Related topics\n[[Clinic Visit Standard Procedures]], [[Treatment of CD, NCD and Emergency Services]].",
+  "tags": [
+   "BP",
+   "procedure",
+   "vital signs"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Blood Pressure Measurement"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-g-home-visit-bag",
+  "area": "NP1",
+  "title": "Home Visit and Bag Technique",
+  "body": "## What it is\nA home visit is a professional family-nurse contact for assessing home and family situations and giving care. The bag technique is the method that keeps the visit efficient and prevents spread of infection.\n\n## Home visit principles and purposes\n- Must have a purpose; plan using available information, involve the family, prioritize essential needs.\n- Purposes: give care, assess living conditions, teach prevention and control, link agencies and the public, use the referral system.\n- Frequency depends on (most important first): family needs, then family acceptance, then agency policy, other agencies involved, past services, ability to recognize own needs.\n\n## Steps\n1. Greet and introduce self. 2. State purpose. 3. Observe and determine needs. 4. Place the bag in a convenient place and do the bag technique. 5. Give care and teaching. 6. Record. 7. Set a return visit.\n\n## Bag technique\n- Public health bag: essential equipment carried on every visit.\n- Principles: minimize or prevent spread of infection; save time and effort; show total care effectiveness; may vary by agency or home as long as infection transfer is avoided.\n- Bag contents: all needed supplies and emergency items, cleaned often and replaced, protected from contact with other articles, arranged for the user's convenience.\n\n## Related topics\n[[Family Nursing Process: Implementation and Evaluation]], [[Clinic Visit Standard Procedures]].",
+  "tags": [
+   "home visit",
+   "bag technique"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Home Visit",
+   "Bag Technique",
+   "Public Health Bag"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-g-maternal-prenatal-supplements",
+  "area": "NP1",
+  "title": "Maternal Health Program: Prenatal Visits, Supplements and Postpartum Care",
+  "body": "## What it is\nThe antenatal-to-postpartum service package under the family health program.\n\n## Prenatal visit schedule\n- 1st visit: as early in pregnancy as possible; 2nd: second trimester; 3rd: third trimester.\n- After the 8th month: every 2 weeks until delivery.\n\n## Micronutrient supplements (values as given in the handout)\n- Vitamin A: 10,000 IU twice a week starting in the 4th month.\n- Iron with folic acid: 60 mg/400 mcg tablet daily from the 5th month until 2 months postpartum.\n\n## Other package items\n- Treatment of diseases and conditions, clean and safe delivery.\n- Teaching: birth registration, breastfeeding, newborn screening between 48 hours and 2 weeks of age.\n- Postpartum visits: first in week one (preferably days 3-5), second at 6 weeks.\n- Breastfeeding support and family planning counseling; spacing births 3-5 years.\n\n## Related topics\n[[Tetanus Toxoid Immunization]], [[Maternal and Child Health]], [[Newborn Screening]], [[Infant and Young Child Feeding]].\n\n## Check against your textbook\nVitamin A dosing in pregnancy is highly source-dependent (and high doses can be harmful). Verify dose and timing with current DOH guidance before relying on this.",
+  "tags": [
+   "maternal health",
+   "prenatal",
+   "supplements"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Maternal Health Program",
+   "Antenatal Registration",
+   "Micronutrient Supplementation"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-g-fp-permanent-hormonal",
+  "area": "NP1",
+  "title": "Family Planning Methods: Permanent, Hormonal and Barrier",
+  "body": "## Goal and role\nGoal: universal access to FP information and services; helps couples reach desired family size under responsible parenthood and lowers infant, neonatal, under-five and maternal deaths. PHN roles: counseling, providing service packages, ensuring supplies. Common misconceptions: causes abortion, makes couples sterile, kills sexual desire.\n\n## Methods\n- Female sterilization (bilateral tubal ligation): permanent; fallopian tubes cut or blocked. Pros: no effect on sex or breastfeeding. Cons: surgical risks (infection, bleeding), ectopic pregnancy risk, hard to reverse, no STI protection.\n- Male sterilization (vasectomy): vas deferens tied and cut or blocked via small scrotal opening. Effective after 3 months; mild pain and swelling 2-3 days; possible hematoma; reversal difficult and costly. Sexual ability and ejaculation are kept.\n- Pill: estrogen and progesterone. Reduces painful menses and endometriosis symptoms; must be taken consistently; may cause nausea, dizziness, breast tenderness and can suppress lactation.\n- Injectable: progestin; suppresses ovulation, thickens cervical mucus, alters uterine lining; reversible, no daily intake, no estrogen effects.\n- Male condom: latex sheath; no hormones and protects against STIs; latex allergy or reduced sensation possible.\n- LAM (lactational amenorrhea method): temporary postpartum method; works for a maximum of 6 months; effectiveness drops with separation or non-full breastfeeding.\n\n## How the exam asks about it\nWhich method protects against STI (condom); which suppresses lactation (pill); LAM duration (6 months).\n\n## Related topics\n[[Fertility Awareness Family Planning Methods]], [[Reproductive Health and Family Planning]], [[Maternal and Child Health]].\n\n## Check against your textbook\nCombined pills are generally avoided in breastfeeding; confirm eligibility rules.",
+  "tags": [
+   "family planning",
+   "contraception"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Family Planning (FP)",
+   "Female Sterilization",
+   "Male Sterilization",
+   "Pill",
+   "Male Condom",
+   "Injectables",
+   "Lactating Amenorrhea Method"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-g-fp-natural",
+  "area": "NP1",
+  "title": "Fertility Awareness Family Planning Methods",
+  "body": "## What it is\nNatural methods identify fertile days so the couple abstains (or uses a barrier) on those days. They need cooperation of both partners.\n\n## Methods\n- Mucus/billings method: abstain on fertile days based on cervical mucus. Unsuitable with unusual vaginal discharge.\n- Basal body temperature: take temperature daily; a rise after ovulation marks the end of fertility. Handout figures: slight drop before ovulation and about 1 degree F rise at ovulation.\n- Sympto-thermal: combines mucus, temperature and other ovulation signs.\n- Two-day method: check for cervical secretions daily; any secretions today or yesterday mean fertile. Works for any cycle length, no cost, immediately reversible, involves the male partner; unreliable with abnormal secretions.\n- Standard days method: color-coded cycle beads mark fertile and infertile days; no side effects; can avoid or achieve pregnancy.\n\n## Cautions\n- Not for women whose pregnancy would be dangerous (reliability matters).\n\n## Check against your textbook\nThe handout says the standard days method \"cannot be used by women who usually have cycles between 26 and 32 days\"; this is reversed. It is meant for women whose cycles are usually 26-32 days long and is unsuitable outside that range.\n\n## Related topics\n[[Family Planning Methods: Permanent, Hormonal and Barrier]], [[Reproductive Health and Family Planning]].",
+  "tags": [
+   "family planning",
+   "natural FP"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Mucus/Billing Methods",
+   "Basal Body Temperature",
+   "Sympto-thermal Method",
+   "Two Day Method",
+   "Standard Days Method"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-g-iycf",
+  "area": "NP1",
+  "title": "Infant and Young Child Feeding",
+  "body": "## What it is\nA child health program to improve nutrition of infants and young children and lower child mortality. It is one of the child health programs for ages 0-9, alongside newborn screening, immunization, childhood illness management, micronutrients, dental health, early child development and child injuries.\n\n## Key messages\n- Start breastfeeding within 1 hour of birth.\n- Exclusive breastfeeding for 6 months: breast milk only, not even water.\n- At 6 months add complementary foods that are timely, adequate, safe and properly fed.\n- Continue breastfeeding to 2 years and beyond.\n- Do not breastfeed when the mother has AIDS (handout position).\n\n## Priority reasoning\nEarly skin-to-skin and early feeding support survival; teach before discharge.\n\n## Related topics\n[[Laws Protecting Infant Feeding and Food Fortification]], [[EINC and Active Management of Third Stage of Labor]], [[Nutrition]].\n\n## Check against your textbook\nHIV and breastfeeding advice varies with ART availability; verify current DOH policy.",
+  "tags": [
+   "IYCF",
+   "breastfeeding",
+   "child health"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Child Health Programs",
+   "Infant & Young Child Feeding (IYCF)"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-g-feeding-laws",
+  "area": "NP1",
+  "title": "Laws Protecting Infant Feeding and Food Fortification",
+  "body": "## Must-know laws\n- Milk Code (EO 51): regulates breast milk substitutes including infant formula, other milk products and bottle-fed complementary foods.\n- Rooming-In and Breastfeeding Act of 1992 (RA 7600): promotes rooming-in; mother and baby together for 24 hours (a step of baby-friendly hospitals).\n- Food Fortification Law (RA 8976): mandatory fortification of rice, flour, edible oil and sugar; voluntary for processed foods.\n- Expanded Breastfeeding Promotion Act of 2009 (RA 10028 in the handout): supports exclusive breastfeeding for the first 6 months.\n\n## How the exam asks about it\nMatch law to topic: rooming-in (7600), fortification (8976), formula marketing (EO 51).\n\n## Related topics\n[[Infant and Young Child Feeding]], [[Nutrition]].\n\n## Check against your textbook\nThe handout gives the year of RA 10028 as 2010; it is commonly dated 2009. Verify.",
+  "tags": [
+   "laws",
+   "breastfeeding",
+   "fortification"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Laws that Protect Infant and Young Child Feeding"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-g-oral-health",
+  "area": "NP1",
+  "title": "Oral Health Program",
+  "body": "## What it is\nA program to lower dental caries and periodontal disease and keep people orally fit.\n\n## Must-know facts\n- Handout targets: caries prevalence from 92 percent (1998) to 85 percent, and periodontal disease from 78 percent to 60 percent, by 2010.\n- Objectives: raise the proportion of orally fit children under 6 to 80 percent by 2010; control oral health risk among young people; improve oral health of pregnant women by 20 percent and older persons by 10 percent every year until 2010.\n- Promotive: health education.\n- Preventive: oral examination, oral hygiene, pit and fissure sealant program, fluoride use.\n- Curative: permanent filling, gum treatment, atraumatic restorative treatment, temporary filling, extraction, post-extraction care, drainage of localized oral abscesses.\n\n## What the nurse does (priority order and why)\n1. Assess teeth and gums.\n2. Teach brushing and diet.\n3. Refer for sealants, fillings or extraction.\n\n## How to reason about it\n- Cause to finding to action: early decay without pain points to prevention (sealant, fluoride); an abscess needs curative drainage and referral.\n- Order: prevent first, treat what already exists.\n\n## How the exam asks about it\nSort activities into promotive, preventive or curative. Sealants and fluoride are preventive; extraction and fillings are curative.\n\n## Related topics\n[[Levels of Prevention]], [[Maternal and Child Health]], [[Child Health Programs Overview (Ages 0-9)]]\n\n## Check against your textbook\nTargets are dated (2010); verify current ones.\n",
+  "tags": [
+   "oral health",
+   "dental"
+  ],
+  "priority": "low",
+  "outlineRefs": [
+   "Oral Health Programs",
+   "Classification of Oral Interventions"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-g-herbal-guidelines",
+  "area": "NP1",
+  "title": "Herbal Medicine: General Guidelines",
+  "body": "## What it is\nRules for safe use of medicinal plants in community health teaching.\n\n## Must-know rules\n- Use the right plant for the purpose, the suggested plant part, and the recommended dose and directions.\n- Use one kind of plant at a time.\n- Stop if there is any untoward reaction or side effect.\n- If there is no improvement after two or three doses, consult a physician.\n- Boil in enamel or clay pots, not aluminum; clean the pot before and after boiling.\n- Avoid plants treated with insecticides.\n- Wash and chop plants before boiling.\n\n## What the nurse does (priority order and why)\n1. Confirm the plant is the right one.\n2. Teach correct preparation and dose.\n3. Tell the client when to stop and when to see a doctor.\n\n## How to reason about it\n- Cause to finding to action: a client with a rash after a decoction should stop it, which is safety first; a client with no improvement should be referred.\n- Order: safety (stop on reaction), then effectiveness (dose and plant part), then referral. Herbs do not replace care for serious illness.\n- Avoid combining several herbs because a reaction could not be traced to one plant.\n\n## How the exam asks about it\nSpot the unsafe instruction (aluminum pot, several plants at once). Trap: choosing to continue despite a reaction.\n\n## Related topics\n[[Common Philippine Herbal Plants and Their Uses]], [[Essential Drugs]]\n\n## Check against your textbook\nHerbal guidance is DOH-endorsed only for listed plants; verify the list.\n",
+  "tags": [
+   "herbal",
+   "safety"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Herbal Medicine",
+   "General guidelines for the use of medicinal plants"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-g-herbal-plants",
+  "area": "NP1",
+  "title": "Common Philippine Herbal Plants and Their Uses",
+  "body": "## What it is\nTen plants endorsed for community use. Memorize plant to use.\n\n## Plant, use and preparation notes\n- Lagundi (Vitex negundo): cough, asthma, fever. Boil chopped leaves in two cups of water 15 minutes on low fire; divide into three parts through the day (for fever, every four hours). Handout amounts: adult 6 tbsp fresh or 4 tbsp dried; ages 7-12 half of that; ages 2-6 about a quarter.\n- Yerba buena: body pain. Boil, leave uncovered, cool and strain; drink in three parts; fresh crushed leaves may be applied to painful areas.\n- Sambong (Blumea balsamifera): swelling, diuretic, helps urinary stones. Boil leaves uncovered.\n- Tsaang gubat: stomachache. Divide into two parts, one part every four hours.\n- Niyug-niyugan: ascariasis. Eat dried mature seeds two hours after supper; adult 8-10 seeds, fewer for children.\n- Bayabas (guava): wound cleansing, mouth infection, swollen gums. Wash wounds twice a day; lukewarm solution as mouthwash.\n- Akapulko (Cassia alata): infected skin, irritation, scabies. Apply squeezed leaf juice twice a day.\n- Ulasimang bato: lowers uric acid; for arthritis and gout. Eat leaves as salad or take decoction.\n- Bawang (garlic): lowers cholesterol. Two cloves with meals three times a day.\n- Ampalaya: mild diabetes. Boil leaves 15 minutes; drink half a glass three times a day before meals.\n\n## Check against your textbook\nDoses are from the handout and are unverified; the DOH list also names plants such as these with different forms (for example, tablets). Check the official list.\n\n## Related topics\n[[Herbal Medicine: General Guidelines]].",
+  "tags": [
+   "herbal",
+   "DOH-endorsed"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Herbal Plants",
+   "Lagundi",
+   "Yerba Buena",
+   "Sambong",
+   "Tsaang Gubat",
+   "Niyug-niyugan",
+   "Bayabas",
+   "Akapulko",
+   "Ulasimang bato",
+   "Bawang",
+   "Ampalaya"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-g-health-emergency-program",
+  "area": "NP1",
+  "title": "Health Emergency Preparedness and Response Program",
+  "body": "## What it is\nThe program for preparing the public and strengthening the health sector to respond to emergencies and disasters. It stresses that emergencies need immediate response and are everyone's responsibility.\n\n## Must-know facts\n- Goal: promote health emergency preparedness among the public and strengthen the health sector's capability to respond.\n- Legal basis: PD 1566 (1978), strengthening disaster control and community disaster preparedness; RA 7160, which transferred responsibilities to LGUs.\n- Disaster: serious disruption of society's functioning causing widespread human, material or environmental loss beyond what the society can cope with using its own resources. By cause: natural or man-made.\n- Emergency: requires immediate response, is everyone's responsibility, should be woven into community and administrative levels, and should focus on process and people rather than documentation.\n- Main objective: decrease mortality and morbidity and prevent disability.\n- Hazard: any phenomenon that could disrupt or damage people and their environment.\n- Principles: first priority is protecting people at risk; second is protecting critical resources and systems; disaster management is part of national development plans; relies on understanding hazard risk; capabilities must be built before impact; needs interdisciplinary collaboration.\n- Major risks: natural (flood, earthquake, cyclone), technological (chemical, radiological), epidemics, and societal (social exclusion, extreme poverty, group violence).\n\n## What the nurse does (priority order and why)\n1. Protect people at risk first.\n2. Protect critical resources and systems second.\n3. Prepare before the hazard: plan, train, stock.\n4. Respond, then help recovery.\n\n## How to reason about it\n- Cause to finding to action: identify the hazard, find who is vulnerable, prepare capacity before impact.\n- Order: life before property; preparedness before response, because capabilities cannot be built during the event.\n\n## How the exam asks about it\nStems ask the first priority (people) or the second (critical resources). Trap: choosing documentation over action.\n\n## Related topics\n[[Disaster Nursing Basic Concepts]], [[Disaster Management Continuum]], [[NDRRMC and the Philippine Disaster Framework]]\n\n## Check against your textbook\nPD 1566 is old; current law is RA 10121 (see the NDRRMC note).\n",
+  "tags": [
+   "disaster",
+   "emergency",
+   "DOH program"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Health Emergency Preparedness and Response Program",
+   "Disaster and Health Emergency Management"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-g-blood-services",
+  "area": "NP1",
+  "title": "National Voluntary Blood Services Program",
+  "body": "## What it is\nProgram under the Blood Services Act (RA 7719, 1994) promoting voluntary, non-profit blood donation and a safe, adequate supply.\n\n## Must-know facts\n- Aims: encourage voluntary donation as a humanitarian act; provide safe, affordable, equitably distributed blood; involve all sectors.\n- Donor requirements: age 16-65 (parental consent at 16-17), good health, weight over 45 kg for 250 mL or 50 kg for 450 mL, BP 90-160 systolic and 60-100 diastolic, hemoglobin at least 12.5 g/dL.\n- Contraindications: diabetes, cancer, hyperthyroidism, cardiovascular, severe psychiatric, epilepsy, severe bronchitis, AIDS or syphilis and other STIs, malaria, kidney or liver disease, prolonged bleeding, prohibited drug use.\n- Storage: whole blood and red cells up to 5 weeks; plasma frozen up to 12 months.\n\n## Donor teaching after donation\n- Keep the dressing on 3 to 12 hours; bruising is normal; avoid heavy lifting with that arm.\n- No smoking for 2 hours, no alcohol for 12 hours; eat regular meals and drink more fluids.\n\n## Related topics\n[[Treatment of CD, NCD and Emergency Services]], [[Blood Pressure Measurement Technique]].\n\n## Check against your textbook\nEligibility values vary by blood center.",
+  "tags": [
+   "blood donation",
+   "RA 7719"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "National Voluntary Blood Services Program",
+   "RA 7719"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-g-botika-barangay",
+  "area": "NP1",
+  "title": "Botika ng Barangay",
+  "body": "## What it is\nA community drug store that supplies affordable, safe, essential medicines in remote and underserved areas, a partnership between the DOH and LGUs involving barangay health workers.\n\n## Goal and objectives\n- Ensure essential drugs are available and affordable, with priority for marginalized and hard-to-reach areas.\n- Rationalize drug distribution; link DOH with LGUs; involve barangay health workers.\n\n## Criteria for establishing one\n- Run by a recognized community organization or cooperative with legal personality.\n- Located in a far-flung, depressed or hard-to-reach barangay.\n- Community-sourced funds of at least one third of initial capital, and the same from LGU or government sources.\n- Barangay socio-economic and health profile, with list of indigents if available.\n- Commitment of a licensed pharmacist to supervise.\n- At least 2 accredited barangay health workers or volunteers trained as aides; designated space.\n\n## Related topics\n[[Essential Drugs]], [[Magna Carta of Public Health Workers]].",
+  "tags": [
+   "essential drugs",
+   "botika"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Botika ng Barangay"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-g-copar-activities-par",
+  "area": "NP1",
+  "title": "COPAR Ten Critical Activities and Participatory Action Research",
+  "body": "## What it is\nBeyond the phases, COPAR uses ten recurring activities and a research approach where the community does the investigating.\n\n## Ten critical activities\n- Integration: living with and sharing the people's experience to build trust.\n- Social investigation: systematic study of community structures and forces; gather geographic, economic, political and socio-cultural data, identify classes and sectors, decide approach.\n- Planning: choose specific activities.\n- Ground work (agitation): one-to-one motivation to act.\n- Community meeting: ratifies decisions and gives collective power.\n- Role play: rehearse the meeting with the target group.\n- Social mobilization: people's action to solve their problems.\n- Evaluation: what was done, left out, remains.\n- Reflection: analyze strengths and weaknesses of finished action.\n- Organization: widens participation and collective action.\n\n## Participatory action research\n- Beneficiaries are the main actors; blends education, research and action; purpose is empowerment.\n- Versus traditional research: problems are defined by community members, not outside experts; the community runs the investigation with external researchers working alongside, and formulates its own recommendations.\n\n## Related topics\n[[Community Organizing (COPAR) Phases]], [[Community Organizing (COPAR) Basic Principles]].",
+  "tags": [
+   "COPAR",
+   "participatory research"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "10 Critical Activities in COPAR",
+   "Participatory Action Research"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-x-chn-process",
+  "area": "NP1",
+  "title": "Community Health Nursing Process: Assessment to Evaluation",
+  "body": "## What it is\nThe community health nursing process applies assessment, planning, implementation and evaluation to a family, group or community. It is the same logic as the ordinary nursing process but the client is a population, so it asks how far a family or community is from the health it could achieve.\n\n## Must-know facts\nAssessment gives an estimate of the degree to which a family, group or community is reaching the level of health possible for it, identifies specific deficiencies or guidance needed, and estimates the possible effects of nursing interventions. Four kinds of findings are named in the handout:\n- Health deficit: a gap between actual and achievable health; failure in health maintenance; disease or disability already present, or developmental lag.\n- Health threat: a condition that promotes disease or injury and keeps people from reaching their health potential.\n- Foreseeable crisis: an anticipated period of unusual demand on the individual or family for resources and adjustment.\n- Wellness potential: a state of wellness and the likelihood that health will be maintained or improved, depending on the family's desire.\n\nPlanning has three parts: goal setting (the first step; a declaration of purpose giving direction), constructing a plan of action (choose courses of action, select types of nursing intervention, identify resources), and developing an operational plan (set priorities, phase and coordinate activities). Evaluation parameters are developed during planning.\n\nImplementation carries out the interventions set by the goals and objectives; nursing procedures are performed and documentation is done at this phase.\n\nEvaluation uses three classic frameworks: structure elements, process elements and outcome elements.\n\n## What the nurse does (priority order and why)\n1. Assess first, using community data, so goals fit real need.\n2. Set goals with the people, then choose interventions and resources.\n3. Put priorities and a schedule in the operational plan.\n4. Implement and document at once.\n5. Evaluate against the parameters that were written in the planning stage.\n\n## How to reason about it\n- Cause to finding to action: the type of finding changes the action. A deficit needs treatment or rehabilitation, a threat needs prevention and risk removal, a foreseeable crisis needs anticipatory guidance, and wellness potential needs support to keep improving.\n- Order: assessment before planning, goals before interventions, plan before action, evaluation criteria before the action starts. The reason is that you cannot judge success without a pre-set standard.\n- Under limited resources, tackle problems that are life-threatening, spread to others or are easily changed first.\n\n## Key terms and steps\n- Structure: facilities, staff, supplies. Process: how the work is done. Outcome: change in health status.\n\n## How the exam asks about it\nStems give a situation and ask which finding it is, or which step of the process an activity belongs to (for example setting evaluation parameters belongs to planning; recording the care given belongs to implementation). Trap: placing documentation only at the end.\n\n## Related topics\n[[Family Nursing Process: Assessment]], [[Family Nursing Process: Planning and Prioritization]], [[Family Nursing Process: Implementation and Evaluation]], [[Community Health Nursing Basics]], [[Management Functions of the Community Health Nurse]]\n\n## Check against your textbook\nWhether wellness potential is a fourth category or part of another classification differs by book. Structure, process and outcome are commonly attributed to Donabedian; verify.\n",
+  "tags": [
+   "CHN",
+   "nursing process",
+   "community diagnosis"
+  ],
+  "priority": "high",
+  "outlineRefs": [],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-x-subspecialties",
+  "area": "NP1",
+  "title": "Community-Based Nursing, Public Health Nursing and CHN Subspecialties",
+  "body": "## What it is\nSeveral terms sound alike: community health nursing, community-based nursing and public health nursing. The handout separates them and lists the subspecialties of CHN. These definitions are easy exam points.\n\n## Must-know facts\n- Community health nursing: synthesis of nursing practice and public health applied to promoting and preserving the health of populations (ANA, 1980). The focus is the community as a whole, with care of individuals, families and groups given within that context.\n- Community-based nursing: a philosophy of care in which care is provided as clients and their families move among various services outside hospitals.\n- Public health nursing: a special field combining the skills of nursing, public health and some phases of social assistance (WHO). It functions within the total public health program to promote health, improve social and physical conditions, and rehabilitate illness and disability.\n- Winslow's public health: the science and art of preventing disease, prolonging life and promoting health and efficiency.\n- Four levels of clientele: individuals, family, population, community.\n- Subspecialties: school nursing, occupational health nursing, community mental health nursing, public health nursing.\n- Public health nurse (handout): a nurse in the local or national health departments or public schools, whatever the title (public health nurse or school nurse); starting salary grade 15.\n\n## What the nurse does (priority order and why)\n1. Identify the client level (individual, family, population, community) before choosing an approach.\n2. Pick services and settings for that client: school, workplace, home, health center.\n3. Work across services so that the client moves smoothly between them.\n\n## How to reason about it\n- Cause to finding to action: a nurse at a factory who monitors worker hazards is occupational health nursing; a nurse who screens pupils is school nursing; a nurse who follows a discharged client at home across clinic and home services is practicing community-based nursing.\n- Focus clue: population-wide prevention and promotion points to public health nursing; care outside hospitals for individuals and families points to community-based nursing.\n\n## How the exam asks about it\nMatch the definition to the term or the setting to the subspecialty. Trap: treating community-based nursing and public health nursing as identical.\n\n## Related topics\n[[Community Health Nursing Basics]], [[Public Health Nurse Roles and Qualifications]], [[Primary Health Care Basics]]\n\n## Check against your textbook\nThe salary grade, the attributions (ANA 1980, WHO) and the exact wording come from the handout; verify them in your textbook.\n",
+  "tags": [
+   "CHN",
+   "definitions",
+   "subspecialties"
+  ],
+  "priority": "medium",
+  "outlineRefs": [],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-x-epi-concepts",
+  "area": "NP1",
+  "title": "Epidemiology: Multiple Causation, Natural History and Four Approaches",
+  "body": "## What it is\nEpidemiology studies the occurrence and distribution of health conditions such as disease, death, deformity and disability in human populations. The nurse measures frequency and distribution with vital statistics.\n\n## Must-know facts\n- Important concepts: the multiple causation theory (pictured as the wheel, the web and the ecologic triad), the natural history of disease, the levels of prevention of health problems, and the concept of causality and association.\n- Natural history of disease: pre-pathogenesis (susceptibility, before the agent acts) then pathogenesis, which has three substages: pre-symptomatic, discernible lesions, and advanced disease.\n- Four epidemiological approaches: descriptive (distribution and frequency, by person, place and time); analytical (looks for causes and determinants by hypothesis testing); intervention or experimental (tests the effectiveness of new methods of control or improving conditions); evaluation (measures the effectiveness of different health services and programs).\n- Multiple causation means disease usually results from several interacting factors rather than one cause.\n\n## What the nurse does (priority order and why)\n1. Describe the problem first: who, where, when.\n2. Look for factors that explain it and test them.\n3. Choose and try control measures; evaluate whether they work.\n4. Match prevention to the stage of the natural history.\n\n## How to reason about it\n- Cause to finding to action: pre-pathogenesis points to primary prevention (promotion and protection); pre-symptomatic and early lesions point to screening and early treatment; advanced disease points to limiting disability.\n- Order of epidemiologic work: describe, then analyze, then intervene, then evaluate. The reason is that you cannot test causes before the pattern is known, and you cannot evaluate a program that was never tried.\n- Approach recognition: counts and rates by place and time are descriptive; comparing exposed and unexposed to test a cause is analytical; trying a new control method is experimental; judging a program's results is evaluation.\n\n## How the exam asks about it\nStems describe an activity (computing rates, testing a hypothesis, trialing a new bednet) and ask for the approach, or give a stage of illness and ask for the prevention level. Trap: confusing evaluation epidemiology with experimental epidemiology.\n\n## Related topics\n[[Epidemiology and FHSIS]], [[Vital Statistics]], [[Levels of Prevention]], [[Epidemiologic Triangle and Patterns of Disease Occurrence]], [[Incidence, Prevalence and Population Pyramid]]\n\n## Check against your textbook\nSome books name only three approaches or merge intervention and evaluation; match your textbook.\n",
+  "tags": [
+   "epidemiology",
+   "natural history",
+   "causation"
+  ],
+  "priority": "high",
+  "outlineRefs": [],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-x-fhsis-blocks",
+  "area": "NP1",
+  "title": "FHSIS Objectives and Building Blocks",
+  "body": "## What it is\nThe Field Health Services Information System (FHSIS) is the standard record-and-report system of Philippine health facilities. Knowing its building blocks and what each does is a common recall item.\n\n## Must-know facts\n- Objectives: give a summary of data on health service delivery; supply data for program monitoring and evaluation; provide a standardized facility-level database that can be used for deeper studies; make sure data are useful and accurate; reduce the recording and reporting burden at the service level.\n- Family Treatment Record: the fundamental building block of FHSIS.\n- Target Client List: the second building block.\n- Reporting forms: the only mechanism through which data are routinely sent from one facility to another; prepared and submitted monthly or quarterly.\n- Output reports: designed so the results are useful for monitoring and management.\n\n## What the nurse does (priority order and why)\n1. Record each contact on the family treatment record at the time of service.\n2. Keep the target client list updated so that defaulters and due clients can be found.\n3. Summarize into the monthly or quarterly report and send it upward.\n4. Use the output reports to plan and manage programs.\n\n## How to reason about it\n- Cause to finding to action: if a barangay's coverage looks low, check whether the target client list is up to date before concluding service failure.\n- Order of data flow: individual record, then client list, then report, then output. Each layer is built from the one before, so errors at the base spread upward.\n- The reporting form, not the individual record, is what travels between facilities.\n\n## How the exam asks about it\nItems ask which component is the fundamental building block (family treatment record), which is second (target client list), or how data moves between facilities (reporting forms). Trap: swapping the first and second building blocks.\n\n## Related topics\n[[Epidemiology and FHSIS]], [[Vital Statistics]], [[Management Functions of the Community Health Nurse]]\n\n## Check against your textbook\nCurrent forms and electronic versions: verify local policy.\n",
+  "tags": [
+   "FHSIS",
+   "records",
+   "reporting"
+  ],
+  "priority": "medium",
+  "outlineRefs": [],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-x-epi-law-contraindications",
+  "area": "NP1",
+  "title": "EPI Law Principles and Vaccine Contraindications",
+  "body": "## What it is\nThe handout groups the working principles behind the Expanded Program on Immunization and the lists of false and absolute contraindications. These are favorite exam statements.\n\n## Must-know facts\nPrinciples (EPI law, PD 996 in the handout):\n- It is safe and immunologically effective to give all EPI vaccines on the same day at different body sites.\n- Measles vaccine goes as soon as the child is 9 months old; in an endemic area give as early as 6 months. Protection is about 85 percent when given at 9 months and about 95 percent at one year and older.\n- Do not restart the vaccine schedule if a dose is missed.\n- Giving doses at less than the recommended interval may lessen the antibody response.\n- No extra dose is given to a child or mother who missed a dose of DPT, hepatitis B, OPV or TT; continue where left off.\n- Never reconstitute freeze-dried vaccines with anything except the diluent supplied with them.\n- One syringe, one needle per child.\n- RA 10152 (2011) provides for mandatory basic immunization services for infants and children.\n\nFalse contraindications (vaccinate anyway): malnutrition, low-grade fever, mild respiratory infection, cough, diarrhea, vomiting.\n\nAbsolute contraindications: DPT 2 or 3 to a child who had convulsions or shock within 3 days after the previous dose; vaccines containing whole-cell pertussis in a patient with neurologic disease; live vaccines such as BCG for individuals immunosuppressed by malignant disease.\n\n## What the nurse does (priority order and why)\n1. Screen: look for true contraindications first; safety before coverage.\n2. Do not send away children with false contraindications; each missed visit is a missed protection.\n3. Give the vaccine on the correct date, not earlier than the minimum interval.\n4. Record and arrange the next visit.\n\n## How to reason about it\n- Cause to finding to action: a child with cough and mild fever has a false contraindication, so vaccinate; a child with seizures within 3 days after DPT has a true contraindication for the next dose, so withhold it and refer.\n- Order: look for severe reaction to a prior dose, then immunosuppression, then neurologic disease; ignore mild illness.\n- A missed dose is given when seen; shortening intervals reduces the antibody response, so do not give early to catch up.\n\n## How the exam asks about it\nStems list conditions and ask which is a contraindication. Mild illness, malnutrition and diarrhea are the favorite false ones. Trap: restarting a series after a delay.\n\n## Related topics\n[[Expanded Program on Immunization]], [[Vaccine Principles and Nursing Responsibilities]], [[EPI Routine Schedule: Minimum Ages, Doses, Routes and Sites]], [[Cold Chain and Vaccine Logistics]]\n\n## Check against your textbook\nThe handout calls the EPI law PD 996; confirm the number. Protection percentages for measles and the list of absolute contraindications should be checked.\n",
+  "tags": [
+   "EPI",
+   "contraindications",
+   "PD 996",
+   "RA 10152"
+  ],
+  "priority": "high",
+  "outlineRefs": [],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-x-epi-schedule-table",
+  "area": "NP1",
+  "title": "EPI Routine Schedule: Minimum Ages, Doses, Routes and Sites",
+  "body": "## What it is\nA compact reference of the handout's routine immunization schedule and the dose, route and site of each vaccine.\n\n## Must-know facts\nMinimum age, number of doses and interval:\n- BCG: at birth, 1 dose.\n- Pentavalent: 6 weeks, 3 doses, 4 weeks apart.\n- OPV: 6 weeks, 3 doses, 4 weeks apart.\n- Hepatitis B: at birth, 1 dose (a later dose 6 weeks after the first in the handout).\n- Measles: 9 months, 1 dose.\n- MMR: 12 months, 1 dose.\n- IPV: 14 weeks, 1 dose.\n\nDose, route and site:\n- BCG 0.05 mL, intradermal, right deltoid region.\n- DPT 0.5 mL, intramuscular, upper outer thigh (vastus lateralis).\n- OPV 2 to 3 drops, oral.\n- Hepatitis B 0.5 mL, intramuscular, upper outer thigh.\n- Measles 0.5 mL, subcutaneous, outer upper arm.\n\n## What the nurse does (priority order and why)\n1. Check the card and age before choosing a vaccine.\n2. Confirm the right route and site (infant IM injections go to the thigh because it has the largest muscle).\n3. Respect minimum ages and intervals.\n4. Record the dose and tell the mother when to return.\n\n## How to reason about it\n- Cause to finding to action: a 10-week-old with no vaccines can get BCG, pentavalent 1 and OPV 1 together (different sites), because all are due and safe on the same day.\n- Order: BCG and hepatitis B at birth, then the 6-week visit, then 10 and 14 weeks for the series, then measles at 9 months. The reason is that the first doses wait until maternal protection has waned.\n- A tiny intradermal bleb (BCG) means the correct layer; a deeper injection is wrong.\n\n## How the exam asks about it\nStems give an age and ask which vaccine is due, or ask the site and route. Trap: giving measles intramuscularly or BCG subcutaneously.\n\n## Related topics\n[[Expanded Program on Immunization]], [[BCG and Pentavalent Vaccine]], [[EPI Law Principles and Vaccine Contraindications]], [[Vaccine Principles and Nursing Responsibilities]]\n\n## Check against your textbook\nThe Philippine schedule changes (vaccines added and intervals revised). The handout lists pentavalent at 6 weeks, and a hepatitis B interval that conflicts with common practice; verify the current schedule with your instructor.\n",
+  "tags": [
+   "EPI",
+   "schedule",
+   "routes",
+   "sites"
+  ],
+  "priority": "high",
+  "outlineRefs": [],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-x-food-safety",
+  "area": "NP1",
+  "title": "Food Safety: Four Rights and Food Establishment Rating",
+  "body": "## What it is\nFood safety in the community uses simple rules (the four rights) and inspections of food establishments.\n\n## Must-know facts\n- Establishments are appraised on inspection and approval of food sources, containers and transport vehicles; sanitary permit requirements; and up-to-date health certificates for food handlers, cooks and helpers. A DOH order (2006) requires laboratories to use the formalin ether concentration technique for stool exams of food handlers instead of the direct fecal smear.\n- Rating: Class A excellent, Class B very satisfactory, Class C satisfactory.\n- Four rights: right source (buy fresh food, check expiry dates, avoid dented, bulging or broken-seal cans, boil water at a rolling boil for at least 2 minutes); right preparation (keep raw and cooked food apart, buy pasteurized milk and juice, wash raw vegetables, wash hands and utensils, sweep food droppings); right cooking (cook thoroughly to about 70 degrees Celsius in all parts, eat cooked food at once, wash hands before and after eating); right storage (cooked food at room temperature for not more than 2 hours, tight containers, hot above 60 degrees or cold at or below 10 degrees for storage beyond 4 to 5 hours, do not overload the refrigerator with warm food, reheat to at least 70 degrees).\n- Rule: when in doubt, throw it out.\n\n## What the nurse does (priority order and why)\n1. Identify the likely food source and stop further exposure.\n2. Check food handlers' health certificates and symptoms.\n3. Teach the four rights.\n4. Report suspected outbreaks.\n\n## How to reason about it\n- Cause to finding to action: cooked food left out for hours points to storage failure, raw-cooked contact points to preparation failure; correct the matching right.\n- Order: remove the suspect food first (safety), then teach and inspect.\n- Temperature logic: keep food out of the danger zone between cold and hot limits, which is why it must be kept below 10 or above 60 degrees.\n\n## How the exam asks about it\nMatch an error to the right, or identify the rating class. Trap: confusing storage (2 hours at room temperature) with cooking temperature (70 degrees).\n\n## Related topics\n[[Waste, Food Sanitation and Sanitation Laws]], [[Environmental Sanitation]], [[Typhoid Fever]], [[Cholera]]\n\n## Check against your textbook\nTemperatures, hours and the FECT detail come from the handout; verify them locally.\n",
+  "tags": [
+   "food sanitation",
+   "food safety",
+   "environmental health"
+  ],
+  "priority": "medium",
+  "outlineRefs": [],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-x-water-toilet-specs",
+  "area": "NP1",
+  "title": "Approved Water and Toilet Facility Levels: Specifications",
+  "body": "## What it is\nThe handout gives numeric specifications for the three levels of water supply and the three levels of toilet facilities.\n\n## Must-know facts\nWater:\n- Level I (point source): protected well or developed spring with an outlet but no distribution system; serves about 15 to 25 households; farthest user within 250 meters; yield about 40 to 140 liters per minute; for thinly scattered rural houses.\n- Level II (communal faucet or standpost): source or reservoir, piped network and communal faucets; faucet not more than 25 meters from the farthest house; designed for 40 to 80 liters per capita per day; about 100 households; one faucet per 4 to 6 households; for rural areas with clustered houses.\n- Level III (waterworks): individual house connections (examples in the handout are the Manila metropolitan water utilities).\n- Unapproved: open dug wells, unimproved springs, wells that need priming.\n- Disinfect new or repaired water sources. Well sites need prior approval from the Health Secretary or representative.\n\nToilets:\n- Level I: non-water-carriage (pit latrine, reed odorless earth closet) and facilities that need small amounts of water (pour-flush toilet, aqua privy).\n- Level II: water-carriage with septic vault or tank disposal.\n- Level III: water-carriage connected to septic tanks and/or a sewerage system with a treatment plant.\n\n## What the nurse does (priority order and why)\n1. Classify the facility.\n2. Disinfect and test questionable water.\n3. Advise upgrades suited to the settlement.\n4. Teach handwashing.\n\n## How to reason about it\n- Cause to finding to action: if a barangay's clustered houses share a tap, that is Level II; recommend protecting the source and maintaining the faucet.\n- Order: make drinking water safe first, then improve excreta disposal, because contaminated water spreads disease fastest.\n\n## How the exam asks about it\nMatch numbers or descriptions to levels. Trap: swapping the 250 m figure (Level I) with the 25 m figure (Level II).\n\n## Related topics\n[[Water Supply and Toilet Facilities]], [[Environmental Sanitation]], [[Waste, Food Sanitation and Sanitation Laws]]\n\n## Check against your textbook\nHousehold counts and distances are from the handout and differ among sources; verify.\n",
+  "tags": [
+   "water supply",
+   "toilet",
+   "sanitation levels"
+  ],
+  "priority": "medium",
+  "outlineRefs": [],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-x-environmental-health-laws",
+  "area": "NP1",
+  "title": "Environmental Health: Definition and Sanitation Laws",
+  "body": "## What it is\nEnvironmental health is the part of public health that prevents illness by managing the environment and changing behavior to lower exposure to biological and non-biological agents of disease or injury. Environmental sanitation studies all factors in the physical environment that may harm health, well-being and survival.\n\n## Must-know facts\nLaws listed in the handout:\n- PD 856: Sanitation Code of the Philippines.\n- RA 6969: Toxic Substances and Hazardous and Nuclear Waste Control Act of 1990.\n- RA 8749: Clean Air Act of 1999.\n- RA 9003: Ecological Solid Waste Management Act of 2000.\n- RA 9275: Clean Water Act of 2004.\n\nThe environmental and occupational health office sets policies on approved water supply types, unapproved facilities, safe and potable water access, water quality monitoring, and waterworks and well construction.\n\n## What the nurse does (priority order and why)\n1. Assess hazards at household and community level.\n2. Remove or reduce the most dangerous hazard first.\n3. Teach behavior change and coordinate with the sanitary inspector.\n4. Report violations and outbreaks.\n\n## How to reason about it\n- Cause to finding to action: a hazard category suggests the law (water, air, waste, toxic).\n- Order: control the exposure that is nearest and most harmful, then upstream causes.\n\n## How the exam asks about it\nMatch the law to the topic. Trap: confusing RA 9003 (solid waste) with RA 6969 (toxic and hazardous waste).\n\n## Related topics\n[[Environmental Sanitation]], [[Waste, Food Sanitation and Sanitation Laws]], [[Approved Water and Toilet Facility Levels: Specifications]]\n\n## Check against your textbook\nLaw numbers and years: verify.\n",
+  "tags": [
+   "environmental health",
+   "laws",
+   "sanitation"
+  ],
+  "priority": "medium",
+  "outlineRefs": [],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-x-child-health-programs",
+  "area": "NP1",
+  "title": "Child Health Programs Overview (Ages 0-9)",
+  "body": "## What it is\nThe DOH child health package aims to lower illness and death in children aged 0 to 9 years.\n\n## Must-know facts\n- Goal: reduce morbidity and mortality in children 0 to 9.\n- Programs: infant and young child feeding, newborn screening, expanded program on immunization, management of childhood illnesses, micronutrient supplementation, dental health, early child development, and child health injuries.\n- Infant and young child feeding aims to cut child mortality by two thirds by 2015 (handout) through exclusive and extended breastfeeding and appropriate complementary feeding.\n\n## What the nurse does (priority order and why)\n1. Screen at each contact for danger signs.\n2. Deliver the package items that are due (vaccine, vitamin A, feeding advice).\n3. Teach caregivers and follow up.\n\n## How to reason about it\n- Cause to finding to action: choose the program that matches the child's need (poor feeding, missed vaccine, injury).\n- Order: danger signs first, then preventive services.\n\n## How the exam asks about it\nName the program from a described activity. Trap: placing newborn screening under immunization.\n\n## Related topics\n[[Infant and Young Child Feeding]], [[Newborn Screening]], [[Expanded Program on Immunization]], [[Oral Health Program]], [[Nutrition]]\n\n## Check against your textbook\nThe 2015 target is outdated; verify the current target.\n",
+  "tags": [
+   "child health",
+   "programs",
+   "DOH"
+  ],
+  "priority": "medium",
+  "outlineRefs": [],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-x-nutrition-program",
+  "area": "NP1",
+  "title": "National Nutrition Program Components",
+  "body": "## What it is\nThe handout's nutrition program aims to improve quality of life through better nutrition, improved health and more productivity.\n\n## Must-know facts\n- Common deficiencies: vitamin A, iron, iodine.\n- Programs and projects: micronutrient supplementation; food fortification; the essential maternal and child health service package; nutrition information, communication and education; home, school and community food production; food assistance; livelihood assistance.\n\n## What the nurse does (priority order and why)\n1. Identify deficiency and risk groups.\n2. Give supplements on schedule.\n3. Teach food production and feeding.\n4. Link families to assistance.\n\n## How to reason about it\n- Cause to finding to action: low income and poor diet point to food assistance and production; knowledge gaps point to education.\n- Order: treat immediate deficiency, then build lasting food security.\n\n## How the exam asks about it\nAssign an activity to a component. Trap: confusing fortification (adding nutrients to staple foods) with supplementation (giving tablets or capsules).\n\n## Related topics\n[[Nutrition]], [[Laws Protecting Infant Feeding and Food Fortification]], [[Maternal Health Program: Prenatal Visits, Supplements and Postpartum Care]]\n\n## Check against your textbook\nVerify program names and current schedules.\n",
+  "tags": [
+   "nutrition",
+   "programs",
+   "deficiency"
+  ],
+  "priority": "medium",
+  "outlineRefs": [],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-x-reproductive-health-program",
+  "area": "NP1",
+  "title": "Philippine Reproductive Health Program: Goals and Elements",
+  "body": "## What it is\nThe handout describes the national reproductive health program with an overall goal of better quality of life.\n\n## Must-know facts\n- Main objectives: reduce maternal mortality, reduce child mortality, halt and reverse the spread of HIV/AIDS, and increase access to reproductive health information and services.\n- Elements: family planning; maternal and child health and nutrition; prevention and management of reproductive tract infections; adolescent reproductive health; prevention and management of abortion complications; prevention and management of breast and reproductive tract cancers and other gynecologic conditions; education and counseling on sexuality; men's reproductive health and involvement; violence against women and children; prevention and management of infertility and sexual dysfunction.\n\n## What the nurse does (priority order and why)\n1. Assess the client's need and give counseling.\n2. Refer for services beyond the facility.\n3. Protect from violence.\n\n## How to reason about it\n- Cause to finding to action: match the client's problem to the element and offer that service.\n- Order: safety and life-threatening problems first.\n\n## How the exam asks about it\nMatch a service to its element; recall the objectives.\n\n## Related topics\n[[Reproductive Health and Family Planning]], [[VAWC and Violence Against Women and Children]], [[Maternal and Child Health]]\n\n## Check against your textbook\nElement lists vary by source; verify.\n",
+  "tags": [
+   "reproductive health",
+   "program",
+   "elements"
+  ],
+  "priority": "medium",
+  "outlineRefs": [],
+  "aiWritten": true,
+  "nurseReviewed": false
+ }
+]
