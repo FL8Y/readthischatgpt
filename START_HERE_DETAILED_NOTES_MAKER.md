@@ -1,9 +1,7 @@
-# START HERE — moved to notes/
+# START HERE — legacy redirect
 
-The active project location is now [the notes folder](https://github.com/FL8Y/readthischatgpt/tree/main/notes).
+The active project is [`notes/`](https://github.com/FL8Y/readthischatgpt/tree/main/notes). The duplicate `Detailed_Image_Notes_Maker/` directory has been removed from the current `main` branch after its unique master-prompt rules were merged into the active prompt.
 
-For new sessions, use the updated [START HERE — notes](https://github.com/FL8Y/readthischatgpt/blob/main/START_HERE_NOTES.md) file. Do not start from this legacy handoff or continue editing the old Detailed_Image_Notes_Maker path.
+For new sessions, use [START_HERE_NOTES.md](https://github.com/FL8Y/readthischatgpt/blob/main/START_HERE_NOTES.md) and the canonical recovery guide [NOTES_MAKER_SOURCE_OF_TRUTH.md](https://github.com/FL8Y/readthischatgpt/blob/main/NOTES_MAKER_SOURCE_OF_TRUTH.md). Do not recreate the deleted directory or continue editing its old path.
 
-Read the session protocol, project status, work queue, research/design review, and master prompt from the `notes/` folder. Resume the first incomplete task and do not repeat verified work.
-
-The original folder is preserved as a backup for now; the active project and future edits belong in `notes/`.
+Git history retains the prior commits if an old version needs to be inspected or restored. New generated notes belong in `notes/generated/`.
