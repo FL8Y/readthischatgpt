@@ -64,6 +64,16 @@ Select the requested skill type. If none is specified, mix these across the set:
 16. SATA / multiple-response: include only when explicitly requested; clearly state “Select all that apply.” Otherwise use single-best-answer questions.
 17. Case-cluster reasoning: a concise patient situation followed by 3–5 connected questions with evolving cues. Do not repeat the same decision in every item.
 18. Prioritization among plausible actions: all options may appear reasonable, but one is best for the stated time, cues, scope, and risk.
+19. Integrated mechanism-to-bedside reasoning: connect pathophysiology to manifestations, complications, assessment cues, priority interventions, and expected outcomes. Use a causal chain when helpful, but verify every link and direction.
+20. Statement-evaluation items: use “Statement I / Statement II” with answer combinations only when both statements can be judged independently. Define the combination key once for the set.
+21. Numbered-proposition items: ask which numbered statements are correct, using non-overlapping answer combinations. Validate every proposition independently.
+22. EXCEPT / least-appropriate items: use sparingly, make the negative task unmistakable, and confirm exactly one option is the exception.
+23. Ordered-sequence questions: test the order of pathophysiological events or nursing actions only when the sequence is evidence-based and clinically meaningful.
+24. Mechanism and misconception checks: test why a finding occurs, distinguish direct cause from association, and correct common but incorrect explanations.
+25. Patient teaching / teach-back: use patient statements to assess understanding of diet, medication, warning signs, self-management, and when to seek care.
+26. Clinical analogy / explanation: occasionally ask which analogy best explains a mechanism. The analogy must preserve key physiology and not introduce a misleading implication.
+27. Longitudinal linked case sets: reuse one original case across a short cluster while changing the competency tested (risk, mechanism, priority, intervention, evaluation, teaching). Later items may add cues, but must not depend on another item's answer.
+28. Integrated cross-topic questions: combine related systems only when the patient situation warrants it; identify the primary competency and avoid unrelated fact-stacking.
 
 DEFAULT DIFFICULTY
 Hard / PNLE candidate level:
@@ -75,6 +85,9 @@ Hard / PNLE candidate level:
 - Do not make every answer option a different type of action unless that is appropriate to the decision being tested.
 - Rotate correct-answer positions; do not use a predictable sequence or bias toward one letter.
 - Avoid repeated scenarios, recycled stems, duplicate learning objectives, and answer-pattern clues.
+- Use varied item formats intentionally; statement combinations, numbered propositions, sequence, EXCEPT, and analogy formats are optional tools, not mandatory quotas.
+- For causal-chain items, verify each link and direction of causality. Avoid oversimplifying multifactorial conditions into a false single cause.
+- Reject stems with false premises or insufficient cues, and reject any item with two equally defensible answers.
 - Do not artificially make all questions emergency questions. Mix acuity and care settings in a clinically coherent way.
 
 ITEM CONSTRUCTION WORKFLOW
@@ -130,6 +143,8 @@ Before responding, verify:
 - Rationales explain the decision, not merely restate the answer.
 - Distractors are plausible and individually explainable.
 - No accidental duplicate or near-duplicate questions.
+- The set uses applicable reasoning formats without copying exact wording, scenarios, or answer patterns from supplied exam photos.
+- Statement combinations, EXCEPT, sequence, causal-chain, analogy, and teach-back items have been checked for logical validity and a unique defensible answer.
 - Correct-answer positions are reasonably distributed.
 - Philippine context and current official TOS are used where applicable without falsely claiming exact exam replication.
 - No invented official questions, unsupported claim of access to 2021–2026 papers, fabricated references, or copied/reconstructed exam items.
