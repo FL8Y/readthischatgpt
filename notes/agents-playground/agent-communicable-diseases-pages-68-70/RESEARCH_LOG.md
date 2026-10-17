@@ -62,3 +62,12 @@
 
 ## Verification state
 Draft coverage and note structure are complete. The GitHub write operation and post-write re-fetch are tracked in WORK_QUEUE/HANDOFF; task is not marked final DONE until every file is fetched again from the live repository and the fetched content is audited.
+
+## Live-write verification record
+On 2026-10-18, exact GitHub paths were re-fetched after writes:
+- Main note: SHA `58e947b472f9a18dc6c5045f4a5b0efeb836b487`; 42,319 characters; 58 headings; markers for all ten disease/topic entries, URL citations, and uncertainty flags all present.
+- Coverage checklist: SHA `b6556dcb71480c2f0c1c5b1ba5228f0efae98b38`; 4,052 characters; contains page inventory and verification record.
+- Work queue: SHA `75b1e2c20dc2f8b49efa27482dbb71070f3019f8`; 2,367 characters; statuses and acceptance evidence present.
+- Handoff: SHA `8cac2b9263e4363121e392ca64f481b7fa916ac4`; 2,877 characters; deliverable links and clinical-review limitation present.
+- Research log: re-fetched successfully; content included the external source list and uncertainty register.
+The post-write audit found all expected artifacts. Checks validate content presence and repository persistence; they do not substitute for professional clinical review.
