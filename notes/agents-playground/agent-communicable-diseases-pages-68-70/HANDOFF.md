@@ -1,31 +1,32 @@
 # Handoff — Communicable Diseases, Printed Pages 68–70
 
-## Objective
-Produce source-faithful, researched study notes for three photographs of communicable-disease tables, preserving page continuity and uncertainty.
+## Final batch status
+The three supplied textbook photos were processed into detailed source-faithful notes with focused external cross-checks. The actual files below were saved to and re-fetched from live GitHub main.
 
-## Repository standards
-The live repository `FL8Y/readthischatgpt` was inspected. Canonical folder is `notes/`; actual generated notes normally go in `notes/generated/`, but this agent’s write boundary is only its unique playground folder. To respect the more specific permission boundary, all deliverables are placed in this agent’s folder and a project-wide generated folder/status update was not made. If the coordinator requires canonical publication under `notes/generated/`, that move/copy must be authorized outside the agent playground.
+## Verified deliverables
+- [Main study notes](https://github.com/FL8Y/readthischatgpt/blob/main/notes/agents-playground/agent-communicable-diseases-pages-68-70/notes/communicable-diseases-pages-68-70.md)
+- [Image coverage checklist](https://github.com/FL8Y/readthischatgpt/blob/main/notes/agents-playground/agent-communicable-diseases-pages-68-70/IMAGE_COVERAGE_CHECKLIST.md)
+- [Research log](https://github.com/FL8Y/readthischatgpt/blob/main/notes/agents-playground/agent-communicable-diseases-pages-68-70/RESEARCH_LOG.md)
+- [Work queue](https://github.com/FL8Y/readthischatgpt/blob/main/notes/agents-playground/agent-communicable-diseases-pages-68-70/WORK_QUEUE.md)
+- [This handoff](https://github.com/FL8Y/readthischatgpt/blob/main/notes/agents-playground/agent-communicable-diseases-pages-68-70/HANDOFF.md)
 
-## Deliverables in this folder
-- `notes/communicable-diseases-pages-68-70.md` — main study notes, all visible disease rows and external cross-checks.
-- `IMAGE_COVERAGE_CHECKLIST.md` — per-page coverage inventory and uncertain areas.
-- `RESEARCH_LOG.md` — repository sources, external references, conflicts and decisions.
-- `WORK_QUEUE.md` — assigned item status/acceptance checks.
-- `HANDOFF.md` — this file.
+## Scope covered
+- Printed p. 68: varicella/chickenpox, herpes zoster/shingles, tuberculosis begins.
+- Printed p. 69: tuberculosis continues, measles, rubella, mumps heading begins.
+- Printed p. 70: mumps continues, erythema infectiosum/Fifth Disease, roseola infantum/Sixth Disease, schistosomiasis, and the leptospirosis heading/partial first line.
 
-## Source scope accounted for
-- Page 68: chickenpox, shingles, TB beginning.
-- Page 69: TB continuation, measles, rubella, mumps heading.
-- Page 70: mumps continuation, fifth disease, roseola, schistosomiasis, leptospirosis heading and clipped first line.
+## Direct verification performed
+- Re-fetched exact main note from live GitHub: 42,319 characters, 58 headings.
+- Checked presence of each ten topic markers, citations/URLs, and uncertainty terms.
+- Re-fetched work queue, coverage checklist, research log, and handoff from the exact GitHub paths.
+- Audited adjacent-page continuity: TB continues p. 68 to p. 69; mumps continues p. 69 to p. 70.
+- Preserved uncertain or cut-off wording rather than filling gaps with guesses.
+- The coverage checklist records the exact verification evidence and uncertainty inventory.
 
-## High-risk caveats preserved
-- Old/variable vaccine age schedule separated from current cross-check.
-- Varicella acyclovir dosage not presented as universal.
-- TB hemoptysis/sputum issue flagged; modern diagnostic approach and regimen dependence noted.
-- Rubella immune-globulin statement not presented as standard post-exposure prophylaxis.
-- Mumps aspirin wording qualified for pediatric safety.
-- Praziquantel line ambiguity preserved; not translated into treatment duration/dose.
-- Text cut off/uncertain at mumps ending, the schistosomiasis margin, “fundin,” and leptospirosis agent line.
+## Important limits
+- The photographed leptospirosis row is incomplete; only its heading and partial causative-agent line are visible. External Leptospira context is explicitly labeled and does not pretend to reproduce the missing textbook text.
+- “TSB,” the end of the mumps management line, part of the schistosomiasis margin note, and “fundin” remain uncertain as documented.
+- Clinical guidance was cross-checked against public CDC/WHO resources, but **no qualified nursing/medical reviewer performed a professional review**.
 
-## Verification plan
-After files are created, re-fetch the exact five GitHub paths; confirm substantial nonempty content, disease headings, page inventory, sources, uncertainty flags and acceptance state. Compare against the photographs again and fix any missing visible content before marking `DONE`.
+## Write boundary
+Only files in `notes/agents-playground/agent-communicable-diseases-pages-68-70/` were created/updated. The active project's general generated-output convention points to `notes/generated/`, but the playground rules restrict this agent to its exclusive folder; therefore, no write outside the assigned directory was made.
