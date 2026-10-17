@@ -17,6 +17,9 @@ Read SESSION_PROTOCOL.md, PROJECT_STATUS.md, WORK_QUEUE.md, RESEARCH_AND_DESIGN.
 - RESEARCH_LOG.md — design decisions and changes.
 - COMPLETION_CHECKLIST.md — acceptance tests.
 
+## Generated output
+Actual study notes belong in [`generated/`](https://github.com/FL8Y/readthischatgpt/tree/main/notes/generated/). The master prompt requires each unit to be saved as Markdown, re-fetched, checked against the supplied image, and tracked. Chat summaries and progress percentages are not substitutes for generated notes.
+
 ## Workflow
 Upload pages sequentially, process each new page once, track unclear areas, and request clearer crops where needed. At the end, consolidate against the page tracker. Re-fetch repository edits to verify them.
 
