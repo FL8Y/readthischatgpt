@@ -51,29 +51,38 @@
 | RA 11058 | Strengthening Compliance with Occupational Safety and Health Standards and Providing Penalties for Violations Thereof. | [Supreme Court E-Library](https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/86355) |
 | RA 11369 | National Students' Day Act; November 17 is declared National Students' Day. | [Supreme Court E-Library](https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/89640) |
 
-## Not yet individually verified in this pass
+## Additional issuance checks completed in this pass
 
-These entries are preserved from the source page, but I did not find and check a direct authoritative primary record for each exact issuance/title in this run. Do not claim they have been legally verified solely because they appear in the textbook:
+| Reference in textbook | Verified finding | Authority / limits |
+|---|---|---|
+| Presidential Proclamation No. 46 (1992) | A Supreme Court decision recounts that this proclamation launched/authorized the Philippine Poliomyelitis Eradication Project and tasked DOH with pursuing polio eradication. The exact proclamation text was not separately retrieved, so this is a secondary judicial confirmation of the reference, not a full text audit. | [Supreme Court E-Library, G.R. No. 235891](https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/27/68578) |
+| PD 996 | The Supreme Court E-Library identifies PD 996 as providing compulsory basic immunization for infants and children below eight years of age. Later laws expanded/changed the legal framework; do not present the 1976 decree alone as a complete statement of current immunization requirements. | [Supreme Court E-Library, G.R. No. 235891](https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/27/68578); [RA 10152](https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/11/37483) |
+| AO 36, s. 2010 | DOH material confirms this is the Garantisadong Pambata program and describes its integrated child health, nutrition, and environmental services. | [DOH — Philippine Health Advisories](https://caro.doh.gov.ph/wp-content/uploads/2014/09/child-health.pdf) |
+| AO 2010-0036 | DOH publications identify the title as “The Aquino Health Agenda: Achieving Universal Health Care for All Filipinos” and describe Kalusugan Pangkalahatan. This is a historical policy issuance; its wording should not be treated as the entirety of current UHC law or policy. | [DOH — National Objectives for Health 2011–2016, Chapter 2](https://doh.gov.ph/wp-content/uploads/2023/09/4Chapter2.pdf); [DOH implementing-guidelines PDF](https://doh.gov.ph/wp-content/uploads/2023/08/ITISImplementingGuidelinesrev_0.pdf) |
+| AO 2007-0012 | DOH identifies this as the Philippine National Standards for Drinking Water of 2007. DOH AO 2017-0010 expressly repealed it and established the 2017 standards; therefore the 2007 issuance is historical, not the current standard. | [DOH AO 2017-0010](https://doh.gov.ph/wp-content/uploads/2023/08/Administrative-Order-No.-2017-0010-Philippine-National-Standards-for-Drinking-Water.pdf); [DOH CHD Region I regulatory brief](https://ro1.doh.gov.ph/images/RLED/RLED_Briefer2020_compressed.pdf) |
+| EO 352 (if the page labels it “FHSIS”) | **Potential citation mismatch.** EO 352 (s. 1996) is identified by later official issuances as establishing the System of Designated Statistics / designated statistical activities, not as the original FHSIS authority. The textbook’s pairing of EO 352 with FHSIS needs correction or a separate source. EO 352 was repealed by EO 87 (2025). | [Supreme Court E-Library, EO 87 (2025)](https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/5/99164) |
+| AO 2017-0010 (context for AO 2007-0012) | Philippine National Standards for Drinking Water of 2017; expressly repeals AO 2007-0012. Included here to flag that the older standard is superseded. | [DOH official PDF](https://doh.gov.ph/wp-content/uploads/2023/08/Administrative-Order-No.-2017-0010-Philippine-National-Standards-for-Drinking-Water.pdf) |
+
+## Still unresolved: primary text not individually located or verified
+
+These entries remain in the source-faithful notes, but I could not establish a direct authoritative primary record for each exact reference. Treat them as **unverified**, not as confirmed legal titles or current rules:
+
 - Presidential Proclamation No. 1066, s. 1997 (neonatal tetanus campaign)
-- EO 382 (National Food Fortification Day)
+- EO 382 as cited for National Food Fortification Day — search results show that a different EO 382 from 1950 exists, concerning price ceilings; the year and subject in the textbook therefore need a primary-source match before use.
 - AO 2005-0014 (infant and young child feeding)
-- AO 36, s. 2010 (Expanded Garantisadong Pambata)
-- EO 352 (FHSIS)
-- AO 2010-0036 (Universal Health Care policy directions)
-- Presidential Proclamation No. 46, s. 1992 (immunization/polio campaign)
 - Presidential Proclamation No. 1204, s. 1998 (dengue awareness)
 - Memorandum Circular No. 98-155 (TB program)
 - AO 24, s. 1996 (DOTS)
-- PD 996 (compulsory immunization; amended/repealed in relevant part by later laws)
 - EO 489 / IACEH
-- AO 2007-0012 (drinking-water standards)
-- AO 2000-81 (IRR entry, exact underlying law not clear from page)
-- PD 442 (Labor Code; source-page description “on Prevention & Compensation” is not the title)
-- PD 626 (Employees' Compensation and State Insurance Fund)
+- AO 2000-81 (the underlying law/IRR citation is unclear from the image)
+- PD 442 (Labor Code; the source-page description “on Prevention & Compensation” is not the decree's title; verify the exact relationship being claimed)
+- PD 626 (Employees' Compensation and State Insurance Fund; verify the exact source-page proposition)
 - AO 24, s. 2001 (National Mental Health Policy)
 - AO 114, s. 1991 (municipal health officers/public health nurses/rural midwives)
-- AO 2010-0036 and the guide's FHSIS description need current DOH-policy cross-checks before presenting as current operational guidance.
+- AO 2005-0014, Proclamation 1066, Proclamation 1204, MC 98-155, AO 24 s. 1996, EO 489, AO 2000-81, PD 442/626, AO 24 s. 2001 and AO 114 s. 1991 require further exact-title/primary-document verification.
+
+Searches for Proclamation 1066, Proclamation 1204, EO 489, AO 2005-0014, MC 98-155, AO 24 s. 1996, AO 24 s. 2001 and AO 114 s. 1991 did not yield a sufficiently reliable primary source in this pass. A missing search result is not proof that an issuance does not exist.
 
 ## Audit conclusion
 
-The most consequential mismatch discovered is **RA 10352 vs RA 10351**. RA 10352 is the 2013 General Appropriations Act; RA 10351 is the alcohol/tobacco excise-tax law. RA 1136 is also mislabelled by shorthand, while RA 6425 and RA 3573 are historical statutes expressly repealed by RA 9165 and RA 11332 respectively. The page's pink-highlighted RA 8504 is also historical and was repealed by RA 11166.
+The most consequential mismatches discovered are **RA 10352 vs RA 10351**, **EO 352 vs the FHSIS label**, and the use of superseded drinking-water standards (AO 2007-0012). RA 10352 is the 2013 General Appropriations Act; RA 10351 is the alcohol/tobacco excise-tax law. RA 1136 is also mislabelled by shorthand, while RA 6425 and RA 3573 are historical statutes expressly repealed by RA 9165 and RA 11332 respectively. The page's pink-highlighted RA 8504 is also historical and was repealed by RA 11166.
