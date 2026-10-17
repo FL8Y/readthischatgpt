@@ -9,6 +9,9 @@ Files
 - RESEARCH_LOG.md — evidence reviewed, limitations, and decisions.
 - COMPLETION_CHECKLIST.md — acceptance criteria for future revisions.
 
+Question logic incorporated
+The generator uses broad assessment patterns visible in the supplied classroom-exam examples—not exact copied questions. These include linked case clusters; mechanism-to-manifestation reasoning; causal sequences; Statement I/II and numbered-statement evaluation; carefully controlled EXCEPT items; priority/action-sequence questions; teach-back; misconception correction; and occasional patient-friendly analogies. Each item must be original, clinically accurate, and have one defensible best answer. Format variety is subordinate to quality.
+
 Quick use
 1. Send MASTER_SYSTEM_PROMPT.txt as the system/developer instruction to the AI API.
 2. Fill USER_PROMPT_TEMPLATE.txt with the selected topic, question count, and logic skill.
