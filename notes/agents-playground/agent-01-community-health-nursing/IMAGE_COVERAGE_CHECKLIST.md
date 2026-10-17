@@ -37,4 +37,4 @@ Status definitions: **DONE** means checked against the saved note after re-fetch
 - Printed p. 40 continues the theory table from p. 39.
 - Full reference details for author-year citations are not present in the photographs.
 - The textbook MMR and FDR formulas are retained as printed; their difference from current standardized definitions is documented separately.
-- Final status must be updated only after the saved note is re-fetched and checked.
+- Final status: verified after the saved note was re-fetched from GitHub and its key sections/formulas were checked.
