@@ -1,5 +1,7 @@
 import type { Settings } from '../core/types';
-import { callManual, DEFAULT_MODELS, ProviderError, redact, type ModelRequest } from '../ai/provider';
+import { callManual, ProviderError, redact, type ModelRequest } from '../ai/provider';
+import { runPool, type CallMeta } from '../ai/pool';
+import { buildTextRequest, checkResponse, extractReplyText, routedVia } from '../ai/transport';
 
 export class TutorCancelled extends Error {
   constructor() {
@@ -9,7 +11,16 @@ export class TutorCancelled extends Error {
 
 type Fetch = typeof fetch;
 
-/** Same request shape as callModel, plus an AbortSignal. One call, no hidden retries. */
+async function manualTutor(req: ModelRequest, signal?: AbortSignal): Promise<string> {
+  try {
+    return await callManual(req, { purpose: 'Tutor question', expect: 'text', signal });
+  } catch (e) {
+    if (signal?.aborted || (e instanceof ProviderError && e.kind === 'cancelled')) throw new TutorCancelled();
+    throw e;
+  }
+}
+
+/** Same request shape as callModel, plus an AbortSignal. One call per provider, no hidden retries unless a pool is set. */
 export async function tutorCall(
   settings: Settings,
   req: ModelRequest,
@@ -17,41 +28,27 @@ export async function tutorCall(
   doFetch: Fetch = fetch,
 ): Promise<string> {
   if (signal?.aborted) throw new TutorCancelled();
-  if (settings.provider === 'manual') {
-    try {
-      return await callManual(req, { purpose: 'Tutor question', expect: 'text', signal });
-    } catch (e) {
-      if (signal?.aborted || (e instanceof ProviderError && e.kind === 'cancelled')) throw new TutorCancelled();
-      throw e;
-    }
+  if (settings.pool?.length) {
+    return (await runPool(settings, { kind: 'text' }, (e, meta) => tutorOne(e, req, signal, doFetch, meta), () => manualTutor(req, signal))).value;
   }
-  if (!settings.apiKey.trim()) throw new ProviderError('Add your API key in Settings first.', 'auth');
-  const model = settings.model || DEFAULT_MODELS[settings.provider];
-  const isAnthropic = settings.provider === 'anthropic';
-  const url = isAnthropic ? 'https://api.anthropic.com/v1/messages' : 'https://api.openai.com/v1/chat/completions';
-  const headers: Record<string, string> = isAnthropic
-    ? { 'x-api-key': settings.apiKey, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' }
-    : { authorization: `Bearer ${settings.apiKey}`, 'content-type': 'application/json' };
-  const body = isAnthropic
-    ? { model, max_tokens: 4096, system: req.system, messages: [{ role: 'user', content: req.user }] }
-    : {
-        model,
-        messages: [
-          { role: 'system', content: req.system },
-          { role: 'user', content: req.user },
-        ],
-      };
+  if (settings.provider === 'manual') return manualTutor(req, signal);
+  return tutorOne(settings, req, signal, doFetch);
+}
 
+async function tutorOne(settings: Settings, req: ModelRequest, signal: AbortSignal | undefined, doFetch: Fetch, meta?: CallMeta): Promise<string> {
+  if (settings.provider === 'custom' ? !settings.baseUrl?.trim() : !settings.apiKey.trim()) {
+    throw new ProviderError(settings.provider === 'custom' ? 'Add the endpoint address in Settings first.' : 'Add your API key in Settings first.', 'auth');
+  }
+  const r = buildTextRequest(settings, req);
   let res: Response;
   try {
-    res = await doFetch(url, { method: 'POST', headers, body: JSON.stringify(body), signal });
+    res = await doFetch(r.url, { method: 'POST', headers: r.headers, body: JSON.stringify(r.body), signal });
   } catch (e) {
     if (signal?.aborted || (e as { name?: string })?.name === 'AbortError') throw new TutorCancelled();
     throw new ProviderError(redact(String(e), settings.apiKey), 'network');
   }
-  if (res.status === 401 || res.status === 403) throw new ProviderError('The provider rejected your API key.', 'auth');
-  if (res.status === 429) throw new ProviderError('Rate limited by the provider. Try again shortly.', 'rate-limit');
-  if (!res.ok) throw new ProviderError(`Provider error ${res.status}.`, 'server');
+  await checkResponse(res, settings);
+  if (meta) meta.routedVia = routedVia(res);
 
   let data: any;
   try {
@@ -60,7 +57,7 @@ export async function tutorCall(
     if (signal?.aborted) throw new TutorCancelled();
     throw new ProviderError('The provider returned unreadable output.', 'bad-output');
   }
-  const text: unknown = isAnthropic ? data?.content?.[0]?.text : data?.choices?.[0]?.message?.content;
-  if (typeof text !== 'string' || !text) throw new ProviderError('The provider returned no text.', 'bad-output');
+  const text = extractReplyText(settings.provider, data);
+  if (!text) throw new ProviderError('The provider returned no text.', 'bad-output');
   return text;
 }

@@ -1,6 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import type { AppState } from './core/types';
 import { DEFAULT_MODELS } from './ai/provider';
+import { stripKeys } from './core/backup';
 import { joinState, shardMeta, splitState } from './core/shards';
 
 const KEY = 'nursing-study-app/state/v1';
@@ -60,5 +61,5 @@ export async function saveState(state: AppState): Promise<void> {
 
 /** Export for backup: everything except the API key. */
 export function exportJson(state: AppState): string {
-  return JSON.stringify({ ...state, settings: { ...state.settings, apiKey: '' } }, null, 2);
+  return JSON.stringify({ ...state, settings: stripKeys(state.settings) }, null, 2);
 }

@@ -1,5 +1,7 @@
 import type { Settings } from '../core/types';
-import { callManual, DEFAULT_MODELS, ProviderError, redact } from '../ai/provider';
+import { callManual, ProviderError, redact } from '../ai/provider';
+import { looksVisionCapable, runPool, type CallMeta } from '../ai/pool';
+import { authHeaders, chatUrl, checkResponse, modelFor, providerLabel, routedVia } from '../ai/transport';
 import type { VisionInput, VisionResult } from './types';
 
 export const TRANSCRIBE_SYSTEM =
@@ -26,8 +28,30 @@ export interface VisionRequest {
 
 /** Pure: builds the provider-specific request. Throws ProviderError for unsupported combinations. */
 export function buildVisionRequest(settings: Settings, input: VisionInput): VisionRequest {
-  if (!settings.apiKey.trim()) throw new ProviderError('Add your API key in Settings first.', 'auth');
-  const model = settings.model || DEFAULT_MODELS[settings.provider];
+  if (settings.provider === 'custom' ? !settings.baseUrl?.trim() : !settings.apiKey.trim()) {
+    throw new ProviderError(settings.provider === 'custom' ? 'Add the endpoint address in Settings first.' : 'Add your API key in Settings first.', 'auth');
+  }
+  const model = modelFor(settings);
+  const p = settings.provider;
+  if ((p === 'openrouter' || p === 'groq') && !looksVisionCapable(model)) {
+    throw new ProviderError(
+      `The model "${model}" does not look like a vision model. Pick a vision model for ${providerLabel(p)} in Settings, or use manual mode and attach the photo in your chat app.`,
+      'bad-output',
+    );
+  }
+
+  if (p === 'gemini') {
+    // Images and PDF both go as inlineData.
+    return {
+      url: chatUrl(settings),
+      headers: authHeaders(settings),
+      body: {
+        systemInstruction: { parts: [{ text: TRANSCRIBE_SYSTEM }] },
+        contents: [{ role: 'user', parts: [{ inlineData: { mimeType: input.mediaType, data: input.base64 } }, { text: TRANSCRIBE_USER }] }],
+        generationConfig: { maxOutputTokens: 8192 },
+      },
+    };
+  }
 
   if (settings.provider === 'anthropic') {
     const block =
@@ -48,13 +72,13 @@ export function buildVisionRequest(settings: Settings, input: VisionInput): Visi
 
   if (input.kind === 'pdf') {
     throw new ProviderError(
-      'PDF import is not supported with OpenAI here. Take photos of the pages instead, or switch to Claude in Settings.',
+      `PDF import is not supported with ${providerLabel(p)} here. Take photos of the pages instead, or switch to Claude or Gemini in Settings.`,
       'bad-output',
     );
   }
   return {
-    url: 'https://api.openai.com/v1/chat/completions',
-    headers: { authorization: `Bearer ${settings.apiKey}`, 'content-type': 'application/json' },
+    url: chatUrl(settings),
+    headers: authHeaders(settings),
     body: {
       model,
       messages: [
@@ -82,6 +106,10 @@ export function parseVisionReply(provider: Settings['provider'], data: any): Vis
       .map((b) => b.text)
       .join('\n\n');
     truncated = data?.stop_reason === 'max_tokens';
+  } else if (provider === 'gemini') {
+    const parts: any[] = Array.isArray(data?.candidates?.[0]?.content?.parts) ? data.candidates[0].content.parts : [];
+    text = parts.filter((x) => typeof x?.text === 'string').map((x) => x.text).join('');
+    truncated = data?.candidates?.[0]?.finishReason === 'MAX_TOKENS';
   } else {
     text = data?.choices?.[0]?.message?.content;
     truncated = data?.choices?.[0]?.finish_reason === 'length';
@@ -92,20 +120,29 @@ export function parseVisionReply(provider: Settings['provider'], data: any): Vis
   return { text: text.trim(), truncated };
 }
 
-/** Thin wrapper: one call, no hidden retries. The key never appears in thrown messages. */
+/** Thin wrapper: one call, no hidden retries unless a provider pool is set. The key never appears in thrown messages. */
 export async function callModelVision(
   settings: Settings,
   input: VisionInput,
   doFetch: Fetch = fetch,
 ): Promise<VisionResult> {
-  if (settings.provider === 'manual') {
+  const manual = async (): Promise<VisionResult> => {
     const label = input.kind === 'pdf' ? 'PDF' : 'photo';
     const text = await callManual(
       { system: TRANSCRIBE_SYSTEM, user: TRANSCRIBE_MANUAL_USER },
       { purpose: `Transcribe a ${label} (attach it in the chat app)`, expect: 'markdown' },
     );
     return { text: text.trim(), truncated: false };
+  };
+  if (settings.pool?.length) {
+    const need = { kind: 'vision', input: input.kind === 'pdf' ? 'pdf' : 'image' } as const;
+    return (await runPool(settings, need, (e, meta) => callVisionOne(e, input, doFetch, meta), manual)).value;
   }
+  if (settings.provider === 'manual') return manual();
+  return callVisionOne(settings, input, doFetch);
+}
+
+async function callVisionOne(settings: Settings, input: VisionInput, doFetch: Fetch, meta?: CallMeta): Promise<VisionResult> {
   const req = buildVisionRequest(settings, input);
   let res: Response;
   try {
@@ -113,10 +150,17 @@ export async function callModelVision(
   } catch (e) {
     throw new ProviderError(redact(`Could not reach the AI (${String(e)}). Check your connection.`, settings.apiKey), 'network');
   }
-  if (res.status === 401 || res.status === 403) throw new ProviderError('The provider rejected your API key.', 'auth');
-  if (res.status === 429) throw new ProviderError('Rate limited by the provider. Try again shortly.', 'rate-limit');
-  if (res.status === 413) throw new ProviderError('The provider says that file is too large.', 'server');
-  if (!res.ok) throw new ProviderError(`Provider error ${res.status}.`, 'server');
+  const p = settings.provider;
+  if ((p === 'openrouter' || p === 'groq' || p === 'custom') && (res.status === 400 || res.status === 404 || res.status === 422)) {
+    throw new ProviderError(
+      `${providerLabel(p)} would not accept the image. The chosen model is probably not a vision model: pick a vision model in Settings, or use manual mode.`,
+      'server',
+      { status: res.status, modelSpecific: true },
+    );
+  }
+  if (res.status === 413) throw new ProviderError('The provider says that file is too large.', 'server', { status: 413 });
+  await checkResponse(res, settings);
+  if (meta) meta.routedVia = routedVia(res);
   let data: unknown;
   try {
     data = await res.json();
