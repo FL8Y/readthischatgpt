@@ -1,25 +1,26 @@
 # Project Status — Detailed Image-to-Notes Maker
 
-## Current state (verified repository baseline)
-- Master prompt exists; previous version covered source fidelity but lacked detailed nursing-specific logic and strong cross-session state control.
-- README, research log, checklist, user template, and page tracker exist.
-- START_HERE handoff exists at repository root.
-- Evidence review and prompt redesign are being added in the current improvement pass.
-- No formal image test suite has been run; do not call the system production-validated.
+## Current verified state
+- The master prompt now includes nursing-specific learning logic, source fidelity, topic-matched note structures, contextual prioritization, retrieval practice, multi-page continuity, and an explicit quality gate.
+- Focused research synthesis and source links are present in RESEARCH_AND_DESIGN.md.
+- Cross-session continuation files exist: SESSION_PROTOCOL.md, PROJECT_STATUS.md, WORK_QUEUE.md, and SESSION_HANDOFF.md.
+- README, research log, completion checklist, user prompt template, and page tracker remain in the project.
+- Root handoff START_HERE_DETAILED_NOTES_MAKER.md links to the new files.
+- All eleven changed/relevant files were freshly fetched from GitHub after the improvement commit; their content and sizes were confirmed.
 
 ## Session ledger
-| Work item | Status | Evidence / location |
+| Work item | Status | Evidence |
 |---|---|---|
-| Initial project files | DONE | Detailed_Image_Notes_Maker folder |
-| Root handoff file | DONE | START_HERE_DETAILED_NOTES_MAKER.md |
-| Nursing note design evidence review | IN PROGRESS until references and synthesis are verified | RESEARCH_AND_DESIGN.md |
-| Nursing-specific master prompt | IN PROGRESS until re-fetched and verified | MASTER_SYSTEM_PROMPT.txt |
-| Cross-session anti-loop protocol | IN PROGRESS until files verified | SESSION_PROTOCOL.md, WORK_QUEUE.md |
-| Functional image tests | NOT STARTED | Needs representative sample pages |
-| Independent nursing accuracy review | NOT STARTED | Needs qualified reviewer |
+| Initial project artifacts | DONE | All original files fetched |
+| Nursing notes research synthesis | DONE — focused review, not formal systematic review | RESEARCH_AND_DESIGN.md fetched |
+| Nursing-specific master prompt | DONE — prompt content verified, not functionally tested | MASTER_SYSTEM_PROMPT.txt fetched |
+| Cross-session anti-loop protocol | DONE — documents verified, behavior not yet stress-tested | SESSION_PROTOCOL.md, PROJECT_STATUS.md, WORK_QUEUE.md, SESSION_HANDOFF.md fetched |
+| Handoff links | DONE | START_HERE_DETAILED_NOTES_MAKER.md fetched |
+| Functional image tests | NOT STARTED | Requires representative page images and coverage audits |
+| Independent nursing accuracy review | NOT STARTED | Requires qualified reviewer |
 
 ## Resume rule
-New sessions must read SESSION_PROTOCOL.md, this file, WORK_QUEUE.md, and the handoff before changing anything. Resume the first incomplete item. Do not redo DONE items without a stated reason.
+Every new session reads SESSION_PROTOCOL.md, this file, WORK_QUEUE.md, RESEARCH_AND_DESIGN.md, and the master prompt before work. Resume the first incomplete item; don't redo DONE work unless requested, evidence changes, or verification fails.
 
 ## Last verified change
-Update this section only after fetching the actual repository files and confirming their contents.
+Improvement commit files were re-fetched successfully. Next work is functional test A in WORK_QUEUE.md. Prompt quality and file existence do not establish production readiness.
