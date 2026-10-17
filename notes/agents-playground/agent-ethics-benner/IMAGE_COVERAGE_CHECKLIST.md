@@ -45,3 +45,14 @@
 
 ## Remaining limitation
 The lower-left figure-credit line on p. 13 is partly cropped in the original photo. No missing words were invented. A clearer crop is needed only if the exact credit wording is required.
+
+
+## External-source audit (completed)
+- [x] NCBI Bookshelf ethics chapter opened and checked.
+- [x] OpenStax Fundamentals of Nursing ethics chapter opened and checked.
+- [x] ANA 2025 Code of Ethics, Provision 3 opened and checked.
+- [x] ANA privacy/confidentiality position statement (revised 2024) opened and checked.
+- [x] NLM catalog entry for Benner’s *From Novice to Expert* opened and checked.
+- [x] OpenStax Benner novice-to-expert overview opened and checked.
+- [x] Philippine Supreme Court E-Library Code of Ethics page opened; corrected URL re-fetched in saved note.
+- [x] ANA restraint position statement opened and added to the note to contextualize the textbook’s epikia example.
