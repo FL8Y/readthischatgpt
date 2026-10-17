@@ -54,6 +54,7 @@ This is the browseable collection of study-note copies from the agent workspaces
 
 ## Mental health
 
+- [Integrated psychiatric–mental health nursing review — pp. 53–58](curated/mental-health/psychiatric-mental-health-integrated-review-pp53-58.md) — curated synthesis of the two notes below
 - [Psychiatric and mental health nursing — pp. 53–55](notes/mental-health/psychiatric-mental-health-pp53-55.md)
 - [Psychiatric and mental health nursing — pp. 56–58](notes/mental-health/psychiatric-mental-health-pp56-58.md)
 
@@ -67,7 +68,7 @@ This is the browseable collection of study-note copies from the agent workspaces
 
 ## Verification status
 
-The three pilot notes from pages 59–61 and subsequent sampled copy batches were independently re-fetched and confirmed body-identical to their source. The manifest records all 31 copy paths, source SHAs, and verification state; final whole-collection audit and content relationship classification remain outstanding.
+All 32 collected note copies were independently re-fetched and compared against their live source bodies after removing the collection-only provenance comment; the bodies match exactly. The manifest records all 32 source paths, source SHAs, destinations, and verification state. The mental-health derivative is a separate synthesis linked to its two source copies; it does not replace or edit them. Full non-note inventory, relationship classification across the entire corpus, and final link/path audit remain outstanding.
 
 ## Next steps
 
