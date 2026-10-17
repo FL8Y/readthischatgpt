@@ -39,7 +39,7 @@ Also inspected directory listings for `notes/generated/` and `notes/agents-playg
 6. American Nurses Association, “Lavinia Lloyd Dock,” https://www.nursingworld.org/ana/about-ana/history/hall-of-fame/1976-1982-inductees/ — historical/professional advocacy context.
 7. Beckfield College, “Nursing Care Models: How Nurses Organize and Deliver Patient Care,” https://www.beckfield.edu/nursing-school/nursing-care-models/ — accessible model overview.
 8. American Nurses Association, “Nightingale’s Legacy: The Evolution of American Nurse Leaders” contents PDF, https://www.nursingworld.org/globalassets/catalog/book-toc/nightingales-legacy_toc.pdf — historical leader topics.
-These sources are recorded as research starting points; external-link validation and source-by-source claim verification remain an explicit follow-up, not a claim that every source was fully audited.
+Key external claims/links were cross-checked in this session: the American Red Cross's official Clara Barton page and timeline confirm the organization's 1881 founding and U.S. Senate ratification of the 1864 Geneva Convention on March 16, 1882; the ANA's current position statement page identifies a revised statement effective February 2024 and describes privacy and confidentiality as foundational ethical obligations; the National Women's History Museum and ANA historical pages support the conventional description of Linda Richards as America's first trained/professionally trained nurse and her work on records. Sources: https://www.redcross.org/about-us/who-we-are/history/clara-barton.html ; https://www.redcross.org/about-us/who-we-are/history/significant-dates.html ; https://www.nursingworld.org/practice-policy/nursing-excellence/official-position-statements/id/privacy-and-confidentiality/ ; https://www.womenshistory.org/articles/evolution-nursing ; https://www.nursingworld.org/ana/about-ana/history/hall-of-fame/1976-1982-inductees/. The other listed sources remain useful context but were not all independently checked claim-by-claim.
 
 ## Editorial decisions
 - Paraphrased rather than reproducing long passages.
@@ -53,4 +53,4 @@ These sources are recorded as research starting points; external-link validation
 - Added 10 practice questions with answers/rationales grounded in the page concepts.
 
 ## Current status
-Notes and checklist drafted. Commit and post-write re-fetch are the next acceptance gate. No qualified nursing review is claimed.
+Five files were created in the assigned playground and re-fetched from the live main branch. The notes were then updated to reflect the official American Red Cross timeline and re-fetched again. Image coverage for legible material is complete. Remaining limits: cropped name above Wiedenbach; not every external source was independently audited; no qualified nursing review was performed.
