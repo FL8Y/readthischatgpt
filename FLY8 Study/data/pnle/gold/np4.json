@@ -152,29 +152,29 @@
   {
     "id": "np4-006",
     "area": "NP4",
-    "topic": "Delegation on a stroke unit",
+    "topic": "Delegating tube feeding and glucose-related tasks",
     "archetype": "delegation-assignment",
-    "difficulty": 3,
-    "vignette": "A registered nurse on a stroke unit is making assignments for the day shift. A nursing assistant with current competency checks is available. The nurse considers several tasks for the assistant, keeping in mind that assessment, teaching, and evaluation stay with the nurse.",
-    "stem": "Which task is most appropriate for the nurse to delegate to the nursing assistant?",
+    "difficulty": 4,
+    "vignette": "A registered nurse on a medical unit is assigning tasks to a nursing assistant whose competencies are current and whose duties are limited to what the facility allows. Four clients need care this morning. One client has a feeding tube placed an hour ago that has not yet been used. A second client was started on insulin yesterday and is new to injections. A third client with diabetes is drowsy and had a low fingerstick glucose reading ten minutes ago. A fourth client has received the same continuous tube feeding for two weeks and has been steady throughout. The nurse is also short of time and wants to hand off as many tasks as safely possible.",
+    "stem": "Which task is the most appropriate for the nurse to delegate to the nursing assistant?",
     "options": [
-      "Feed a client admitted this morning with a facial droop who has not had a swallowing screen",
-      "Evaluate how well a client with a recent stroke recognizes the weak left side",
-      "Teach a client about the warning signs of another stroke before discharge",
-      "Measure and record the vital signs of a client on day three whose condition is stable"
+      "Verify the position of the feeding tube placed an hour ago before formula is started",
+      "Show the client newly started on insulin how to rotate injection sites at home",
+      "Decide whether the drowsy client's low glucose reading needs juice or a call to the provider",
+      "Record formula volume and urine output for the client on a long-standing tube feeding"
     ],
     "answerIndex": 3,
-    "strategyTag": "Delegate stable, routine tasks; keep assess/teach/evaluate",
-    "reasoning": "1) Delegation questions are decided by scope: the nurse keeps assessment, evaluation, teaching, and care of unstable or unpredictable clients. 2) The assistant may do routine, predictable tasks on stable clients. 3) Feeding a client with a possible swallowing problem before screening risks aspiration, so it is not safe to delegate. 4) Evaluating recognition of the weak side is an assessment and evaluation task. 5) Teaching is a nursing responsibility. 6) Taking vital signs on a stable client is routine and within the assistant's scope, with a request to report abnormal values.",
+    "strategyTag": "Delegation: routine tasks on stable clients; nurse keeps assess, teach, judge",
+    "reasoning": "1) Delegation is decided by scope and client stability: the nurse keeps assessment, teaching, evaluation and clinical judgment, and the assistant takes routine, predictable tasks. 2) Confirming placement of a new feeding tube is an assessment with a risk of aspiration if wrong, so it stays with the nurse. 3) Teaching a new insulin user is a nursing responsibility. 4) Deciding how to respond to a low glucose in a drowsy client is interpretation and judgment about an unstable client. 5) Recording intake and output for a client who has been steady on the same feeding is routine and within the assistant's scope, with a request to report any change. 6) The key is the one task that needs no nursing judgment.",
     "optionRationales": [
-      "Feeding looks like a routine task, but without a swallowing screen the client could aspirate, and judging swallowing safety requires nursing assessment.",
-      "Judging how well a client perceives the affected side requires assessment and evaluation, which cannot be delegated.",
-      "Client teaching and the evaluation of learning are nursing responsibilities and are not delegated.",
-      "Correct. Measuring and recording vital signs on a stable client is a routine, predictable task within the assistant's scope; the nurse reviews the results."
+      "Right action, wrong person: checking tube placement before first use is a nursing assessment and cannot be handed off.",
+      "Right action for the nurse, but teaching and checking understanding are not delegated.",
+      "Plausible because glucose care is routine on this unit, but interpreting the result in a drowsy client and choosing treatment requires nursing judgment about an unstable client.",
+      "Correct. Recording volumes and urine output for a steady client is a routine task within the assistant's scope; the nurse reviews the totals and asks to be told of any change."
     ],
     "keyFacts": [
-      "Do not delegate assessment, teaching, evaluation, or care of unstable clients.",
-      "Unscreened swallowing in a new stroke is an aspiration risk that needs nursing judgment."
+      "Do not delegate assessment, teaching, evaluation, or decisions about unstable clients.",
+      "Routine intake and output recording on a steady tube-fed client may be delegated to a competent assistant."
     ],
     "aiWritten": true,
     "nurseReviewed": false
@@ -242,29 +242,29 @@
   {
     "id": "np4-009",
     "area": "NP4",
-    "topic": "Prioritizing among four clients",
+    "topic": "Prioritizing among four competing clients",
     "archetype": "which-client-first",
-    "difficulty": 4,
-    "vignette": "At the start of the shift a nurse on a medical unit receives report on four clients. (1) A 70-year-old woman three days after a stroke, stable, waiting for help to the bathroom. (2) A 56-year-old man with cirrhosis who has a new black tarry stool, feels lightheaded, and has a heart rate of 112 when he sits up. (3) A 34-year-old woman with Crohn disease who reports cramping and four loose stools overnight. (4) A 48-year-old man with type 2 diabetes whose fasting glucose is higher than usual and who is asking about breakfast.",
+    "difficulty": 5,
+    "vignette": "At the start of the shift a nurse on a medical-surgical unit receives report on four clients. (1) A 62-year-old man two days after bowel surgery who rates his incision pain 8 out of 10 and has asked twice for medication; his vital signs are within his usual range. (2) A 56-year-old man with cirrhosis who passed a black, sticky stool during the night; sitting up, his heart rate is 112 and his blood pressure is 96/58, and he says he is waiting for his breakfast tray. (3) A 34-year-old woman with Crohn disease who has had four loose stools overnight and a temperature of 37.9 C; she is drinking fluids and walking in the hall. (4) A 48-year-old man with type 2 diabetes whose fingerstick glucose is 66 before breakfast; he is alert and the breakfast tray is at his bedside.",
     "stem": "Which client should the nurse assess first?",
     "options": [
-      "The woman three days after a stroke who needs help to the bathroom",
-      "The man with cirrhosis who has a black tarry stool and feels quite lightheaded",
-      "The woman with Crohn disease who reports abdominal cramping and a few loose stools",
-      "The man with type 2 diabetes whose fasting glucose is higher than usual"
+      "The man two days after bowel surgery who rates his incision pain 8 out of 10",
+      "The man with cirrhosis who passed a black, sticky stool during the night",
+      "The woman with Crohn disease who has had loose stools and a mild temperature",
+      "The man with type 2 diabetes whose glucose is 66 before breakfast"
     ],
     "answerIndex": 1,
-    "strategyTag": "Unstable before stable; circulation threatened",
-    "reasoning": "1) Sort the clients into unstable, potentially unstable, and stable. 2) Black tarry stool suggests bleeding in the upper gastrointestinal tract, and lightheadedness with a fast pulse on sitting up suggests fluid loss, so circulation is threatened: this client is unstable. 3) The stable stroke client needs help but is not at immediate risk if toileting is done soon after. 4) Cramping and a few loose stools in Crohn disease need follow-up but are expected for the condition. 5) A mildly raised fasting glucose is a chronic problem to address with breakfast and the provider. 6) Choose the client with threatened circulation first.",
+    "strategyTag": "Circulation threat before pain, mild fever, or treatable glucose",
+    "reasoning": "1) Sort the clients by threat to life and how fast it can worsen. 2) A black, sticky stool in a client with cirrhosis suggests upper gastrointestinal bleeding, and a heart rate of 112 with a blood pressure of 96/58 shows his circulation is already compromised, so he is unstable. 3) The postoperative client's pain is real and needs attention, but his vital signs are stable, so it can follow. 4) The Crohn client has mild fever and loose stools but is drinking and walking. 5) A glucose of 66 in an alert client who can eat is fixed in minutes with the tray at the bedside. 6) Choose the client whose circulation is threatened.",
     "optionRationales": [
-      "She is stable and needs assistance, which should be arranged soon, but there is no sign of immediate physiological threat.",
-      "Correct. Tarry stool in a client with cirrhosis plus lightheadedness and a rapid pulse suggests significant bleeding and falling volume; circulation takes priority.",
-      "Tempting because she is symptomatic, but cramping with a few loose stools is an expected pattern and she shows no signs of instability.",
-      "A mildly elevated fasting glucose is a chronic management issue and does not need immediate action."
+      "Tempting because pain is the loudest complaint, but his vital signs are steady; medicating him matters, yet it is not a threat to life.",
+      "Correct. Black stool with a fast pulse and a low-normal blood pressure suggests bleeding with falling volume; circulation takes priority and he needs help now.",
+      "Symptomatic and worth follow-up, but she is hydrating and walking, and a mild temperature with loose stools is an expected pattern in her condition.",
+      "A glucose of 66 needs prompt attention, but this client is alert and can take food at the bedside, so it can be treated quickly after the unstable client is seen."
     ],
     "keyFacts": [
-      "Black tarry stool suggests upper GI bleeding; lightheadedness with a rising heart rate signals volume loss.",
-      "Prioritize unstable, acute problems over stable and chronic ones."
+      "Black, sticky stool suggests upper GI bleeding; a rising heart rate with a falling blood pressure signals volume loss.",
+      "Rank clients by threat to life: unstable circulation before pain, mild fever, or an easily treated glucose."
     ],
     "aiWritten": true,
     "nurseReviewed": false
@@ -424,27 +424,27 @@
     "area": "NP4",
     "topic": "Worsening pain under a cast",
     "archetype": "initial-action-assess-vs-intervene",
-    "difficulty": 4,
-    "vignette": "A 29-year-old man has had a short leg cast applied after a tibial fracture six hours ago. He tells the nurse his pain is getting steadily worse even though an opioid analgesic was given 45 minutes ago, and the foot feels tight. The leg is resting elevated on a pillow and the toes look slightly swollen.",
-    "stem": "What is the nurse's most appropriate initial action?",
+    "difficulty": 5,
+    "vignette": "A 29-year-old man had a short leg cast applied six hours ago after a tibial fracture. He tells the nurse his pain has climbed steadily and now feels deep and burning, even though an opioid analgesic was given 45 minutes ago. The leg is resting elevated on a pillow and the toes look slightly swollen. He winces when the nurse gently moves his toes and says they feel tight and tingly. His roommate suggests the cast simply needs time to settle.",
+    "stem": "Which action should the nurse take first?",
     "options": [
-      "Give the next analgesic dose ahead of schedule because the pain is poorly controlled",
-      "Elevate the leg on pillows and apply a cold pack over the cast before checking the toes",
-      "Assess color, warmth, sensation, movement, and pulses of the toes against the other foot",
-      "Call the provider right away to report that the cast may be too tight and the pain is worse"
+      "Ask the provider for an earlier analgesic dose because the pain is poorly controlled",
+      "Telephone the provider to report the pain and ask for an order to bivalve the cast",
+      "Compare toe color, warmth, sensation, movement, and pulses with the other foot",
+      "Cut along the cast with the cast cutter to relieve pressure over the swollen area"
     ],
     "answerIndex": 2,
-    "strategyTag": "Nursing process: assess before you act or call",
-    "reasoning": "1) Pain that keeps getting worse despite an analgesic, with tightness and swelling, may mean circulation or nerve function is threatened under the cast. 2) The nursing process says assess before intervening when the data are incomplete. 3) A neurovascular check (color, warmth, sensation, movement, pulses, comparison with the other limb) gives the facts. 4) Giving more analgesic only masks a possible warning sign and delays recognition. 5) Comfort measures such as elevating the leg or applying a cold pack come after the assessment, not before it. 6) The provider must be notified, but the report is stronger and safer after the nurse has assessed.",
+    "strategyTag": "Nursing process: assess first, then report urgently",
+    "reasoning": "1) Pain that is increasing and out of proportion despite an analgesic, with tightness, tingling and pain on toe movement, may mean compartment syndrome, a limb-threatening emergency. 2) The data are incomplete, so the first action is to assess: a neurovascular check of color, warmth, sensation, movement and pulses, compared with the other foot. 3) The assessment is followed by an urgent report to the provider with those findings, not a delay. 4) More analgesic treats a symptom and can mask the warning sign. 5) Calling before assessing is the right action at the wrong time, since the report needs the findings. 6) Opening or cutting a cast is outside the nurse's scope without an order and skill, and could harm the client.",
     "optionRationales": [
-      "Tempting because the client is in pain, but extra analgesic can hide a developing circulation problem and delays finding the cause.",
-      "Elevation and cooling are comfort measures, but doing them before assessing the limb puts treatment ahead of assessment and could delay recognition of a circulation problem.",
-      "Correct. A neurovascular assessment with comparison to the other limb provides the data needed to decide what to do next and what to report.",
-      "Right action but wrong order: the provider needs a report built on the nurse's assessment findings, so assess first."
+      "Fits a client with ordinary fracture pain, but here extra analgesic can hide a developing circulation problem and delays finding the cause.",
+      "Right action, wrong time: the provider must be told promptly, but the report should carry assessment findings, so the nurse checks the limb first and then calls urgently.",
+      "Correct. A neurovascular check compared with the other foot supplies the findings needed for an urgent report to the provider, who decides about relieving pressure.",
+      "Plausible because pressure is the problem, but cutting a cast is outside the nurse's scope without an order and training, and it is not the first step."
     ],
     "keyFacts": [
-      "Increasing pain unrelieved by analgesics under a cast is a warning of possible impaired circulation.",
-      "Neurovascular checks: color, warmth, sensation, movement, pulses, and compare with the other limb."
+      "Pain out of proportion that is unrelieved by analgesics, with tightness and tingling, may signal compartment syndrome.",
+      "Neurovascular check: color, warmth, sensation, movement, pulses, compared with the other limb, then report urgently."
     ],
     "aiWritten": true,
     "nurseReviewed": false
@@ -454,27 +454,27 @@
     "area": "NP4",
     "topic": "Infant with persistent forceful vomiting",
     "archetype": "pediatric-growth-safety",
-    "difficulty": 3,
-    "vignette": "A 5-week-old boy is brought to the clinic because he has had forceful vomiting after most feedings for three days. The vomit is milk without bile and he seems hungry again right afterward. He has had two wet diapers in the past day, and his anterior fontanelle looks slightly sunken. The nurse can feel a small olive-shaped mass in the upper abdomen.",
-    "stem": "Which nursing diagnosis has the highest priority?",
+    "difficulty": 4,
+    "vignette": "A 5-week-old boy is brought to the clinic because he has had forceful vomiting after most feedings for three days. The vomit is milk without bile and he seems hungry again right afterward. His weight is lower than at the last visit, he has had two wet diapers in the past day, and his anterior fontanelle looks slightly sunken. The nurse can feel a small olive-shaped mass in the upper abdomen. His parents have slept little, say they feel they are failing him, and have been propping him upright after feedings as they read online.",
+    "stem": "Which concern should the nurse address first?",
     "options": [
-      "Risk for impaired parent-infant attachment related to feeding stress",
-      "Inadequate nutrition related to repeated vomiting after most feedings",
-      "Anxiety related to the unfamiliar clinic setting and procedures",
-      "Dehydration related to repeated vomiting and reduced fluid intake"
+      "The parents are exhausted and fear that feeding trouble is harming their bond",
+      "The baby has lost weight and is not receiving enough calories for growth",
+      "The parents have not been shown the best way to position him after feeding",
+      "The baby is losing more fluid by vomiting than he is able to take in"
     ],
     "answerIndex": 3,
-    "strategyTag": "Maslow: fluid balance first in an infant",
-    "reasoning": "1) The picture suggests an obstruction at the stomach outlet with repeated vomiting. 2) Infants have little fluid reserve, so fluid loss quickly becomes dangerous. 3) Fewer wet diapers and a sunken fontanelle show dehydration is already present, so this is an actual, physiological problem. 4) Poor nutrition is also true, but it develops over time and cannot be corrected until fluid and electrolyte balance is restored. 5) Attachment and anxiety are psychosocial and rank lower by Maslow. 6) Pick the diagnosis that addresses the immediate physiological threat.",
+    "strategyTag": "Maslow: fluid balance before nutrition, teaching, and bonding",
+    "reasoning": "1) The picture suggests an obstruction at the stomach outlet with repeated forceful vomiting. 2) Infants have little fluid reserve, and few wet diapers with a sunken fontanelle show that fluid loss is already affecting him. 3) Fluid and electrolyte balance is a physiological need that must be corrected before anything else. 4) Weight loss and low calorie intake are true, but they develop over days and cannot be addressed until he is rehydrated. 5) Positioning advice would suit a baby with simple reflux, and the parents' distress is real, but both rank below a physiological threat. 6) Choose the concern that threatens him now.",
     "optionRationales": [
-      "Feeding stress can strain bonding, but this is a psychosocial concern that ranks below physiological needs.",
-      "Tempting and true, but nutritional deficit develops more slowly; dehydration is the more urgent physiological threat in an infant.",
-      "Anxiety related to the setting is minor and lower in priority than a physiological problem.",
-      "Correct. Sunken fontanelle and fewer wet diapers show dehydration already exists in a small infant who cannot compensate well, so it is the top priority."
+      "Real and worth supporting, but it is a psychosocial need and ranks below a physiological threat.",
+      "True and important, but nutritional deficit builds over time; the fluid loss is the more immediate danger in a small infant.",
+      "Right action for an infant with simple reflux, but positioning does not fix an obstruction and teaching ranks below the physiological problem.",
+      "Correct. Fewer wet diapers and a sunken fontanelle show dehydration is under way in an infant who compensates poorly, so fluid balance comes first."
     ],
     "keyFacts": [
       "Infants dehydrate quickly; signs include a sunken fontanelle and fewer wet diapers.",
-      "Projectile non-bilious vomiting with an olive-shaped mass suggests pyloric stenosis."
+      "Forceful non-bilious vomiting with an olive-shaped mass suggests pyloric stenosis."
     ],
     "aiWritten": true,
     "nurseReviewed": false
@@ -542,29 +542,29 @@
   {
     "id": "np4-019",
     "area": "NP4",
-    "topic": "Evaluation step after diabetic foot teaching",
+    "topic": "Naming the nursing process step after foot teaching",
     "archetype": "nursing-process-step-identification",
-    "difficulty": 3,
-    "vignette": "A nurse has taught a 55-year-old man with type 2 diabetes and reduced feeling in his feet to inspect his feet daily. The care plan states the outcome: 'Client will describe and demonstrate daily foot inspection by the end of the week.' At the end of the week the nurse asks him to demonstrate how he checks his feet and what he would report.",
-    "stem": "Which nursing process step is the nurse performing?",
+    "difficulty": 4,
+    "vignette": "A nurse taught a 55-year-old man with type 2 diabetes and reduced feeling in his feet to inspect his feet daily. The care plan states the outcome: 'Client will describe and demonstrate daily foot inspection by the end of the week.' At the end of the week the nurse asks him to show how he checks his feet. He looks at the tops of his feet but skips the soles and the spaces between his toes, and he cannot say what he would report. The nurse concludes that the outcome was only partly met and notes that more teaching will be needed.",
+    "stem": "Which phase of the nursing process does the nurse's conclusion represent?",
     "options": [
-      "Evaluation, by comparing his performance with the expected outcome",
-      "Implementation, by carrying out the teaching plan for foot care",
-      "Planning, by setting a new goal for the client's foot care teaching",
-      "Assessment, by collecting new baseline data about his feet today"
+      "Evaluation of care provided",
+      "Assessment of a new problem",
+      "Planning of revised teaching",
+      "Implementation of the plan"
     ],
     "answerIndex": 0,
-    "strategyTag": "Nursing process: compare results with the outcome",
-    "reasoning": "1) Read what the nurse is actually doing, not just the topic. 2) The outcome was already written in the plan, so planning is finished. 3) The teaching has already been delivered, so implementation is finished. 4) The nurse now checks whether the stated outcome was met by comparing the client's performance with it. 5) That comparison of results against the outcome is evaluation. 6) Assessment collects new data to identify problems, which is not the purpose here.",
+    "strategyTag": "Nursing process: judging results against a written outcome",
+    "reasoning": "1) Name the phase by what the nurse is doing at this moment, not by the topic. 2) The nurse has the written outcome from the plan and the client's performance, and decides the outcome was only partly met. 3) Judging results against a stated outcome is the evaluation phase. 4) Assessment is gathering data to find a problem, and the problem was already known. 5) Planning is writing new goals and actions, which will come next but has not happened yet. 6) Implementation was the teaching already given.",
     "optionRationales": [
-      "Correct. Asking him to show and describe the skill and comparing it with the stated outcome is evaluation.",
-      "Tempting because teaching is involved, but the teaching has already been done; this action measures its result.",
-      "The goal already exists in the care plan, so the nurse is not setting a new one.",
-      "Assessment gathers data to identify problems; here the nurse is judging whether a stated outcome was achieved."
+      "Correct. Comparing the client's performance with the written outcome and judging it partly met is evaluation.",
+      "The nurse is not searching for a new problem; the foot-care knowledge need was already identified.",
+      "Revising the teaching plan is likely the next step, but at this moment the nurse is judging results, not writing new actions.",
+      "Implementation was the teaching already delivered; observing the result of that teaching is not carrying out the plan."
     ],
     "keyFacts": [
-      "Evaluation compares the client's response with the planned outcome.",
-      "Teach-back and return demonstration are common ways to evaluate learning."
+      "Evaluation compares the client's response with the written outcome and judges whether it was met.",
+      "Return demonstration is a common way to evaluate learning."
     ],
     "aiWritten": true,
     "nurseReviewed": false
