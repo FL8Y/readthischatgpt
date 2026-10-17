@@ -44,7 +44,7 @@
 - [x] Cropped name and questionable historical date not silently invented/corrected.
 - [x] Source-derived content distinguished from added explanation.
 - [x] All five deliverable files were re-fetched from the live `main` branch; correct paths, nonempty content, and note ending were confirmed.
-- [ ] Verify all external links and historical details against primary/authoritative sources.
+- [x] Cross-checked Clara Barton dates against the American Red Cross official history/timeline; cross-checked current ANA privacy/confidentiality guidance and Linda Richards historical claims against ANA/National Women's History Museum pages. Other listed sources were not all audited claim-by-claim.
 - [ ] Independent qualified nursing review.
 
 Do not call the assignment fully complete until the remaining verification items are resolved or individually documented as blocked.
