@@ -60,3 +60,17 @@ The matrix explicitly marks the remaining AOs, EOs, proclamations, and related i
 - Main note file saved and re-fetched after corrections.
 - Coverage audit against all three photographs passed for visible headings, list entries, and explanatory paragraphs.
 - Legal cross-check remains partial; do not mark full legal verification DONE.
+
+
+## Further issuance research — 2026-10-18
+
+Additional authoritative/agency corroboration found:
+- Supreme Court E-Library decision G.R. No. 235891 recounts the purpose and DOH role under Presidential Proclamation No. 46 (1992), and identifies PD 996 as compulsory basic immunization for children below eight. This is judicial confirmation, not a substitute for locating the proclamation/decree text itself: https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/27/68578
+- DOH regional health advisory confirms AO 36 s. 2010 as the Garantisadong Pambata Program: https://caro.doh.gov.ph/wp-content/uploads/2014/09/child-health.pdf
+- DOH publications identify AO 2010-0036 as “The Aquino Health Agenda: Achieving Universal Health Care for All Filipinos”: https://doh.gov.ph/wp-content/uploads/2023/09/4Chapter2.pdf
+- DOH identifies AO 2007-0012 as the Philippine National Standards for Drinking Water 2007; AO 2017-0010 expressly repealed it: https://doh.gov.ph/wp-content/uploads/2023/08/Administrative-Order-No.-2017-0010-Philippine-National-Standards-for-Drinking-Water.pdf
+- EO 87 (2025) describes EO 352 (1996) as establishing the System of Designated Statistics and repeals EO 352. This raises a significant possible source-page mismatch if EO 352 is labelled FHSIS: https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/5/99164
+- A search for “EO 382 food fortification” surfaced EO 382 (1950) about price ceilings, not a food-fortification day. Do not infer that this is the same issuance; the source page's year/subject remains unresolved.
+- Further searches for Proclamation 1066, Proclamation 1204, AO 2005-0014, MC 98-155, AO 24 s. 1996, EO 489, AO 24 s. 2001 and AO 114 s. 1991 did not yield reliable primary texts.
+
+Status remains deliberately partial for exact primary-text verification. The matrix now distinguishes direct official/agency corroboration, judicial secondary confirmation, superseded instruments, likely citation mismatches, and references for which no reliable primary record was located. Search absence is not proof of nonexistence.
