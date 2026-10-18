@@ -256,3 +256,7 @@ These notes preserve the source table first. The following are external checks t
 - **Unclear/caution regions:** On p. 44, the pulse-pressure value “100 mmHg (during exercise)” and the newborn temperature entry are questionable as normal-reference values. On p. 45, PTT/aPTT normal ranges and therapeutic-range alignment appear inconsistent. These are flagged rather than silently corrected.
 - **No long passage copied verbatim:** Table entries are compactly transcribed/paraphrased; explanations are original.
 - **External additions:** Confined to the cross-check/caution section, functional explanations, glossary, and retrieval questions; linked sources supplied.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
