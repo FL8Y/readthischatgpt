@@ -358,3 +358,7 @@ All links below were consulted for selected current-context claims; the textbook
 - Page 70: leptospirosis entry ends immediately after an unclear/partial phrase that resembles “Leptospirosis inter organs.”
 
 **Audit result:** Every visible disease heading and meaningful legible table section from printed pp. 68–70 is represented. The source’s sequence and page-break continuity are retained. External additions are labeled separately; ambiguous/cropped text is not silently guessed.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
