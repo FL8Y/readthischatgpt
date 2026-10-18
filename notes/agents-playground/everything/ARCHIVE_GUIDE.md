@@ -14,13 +14,13 @@ This folder is the centralized study-note collection and preservation archive fo
 ## What is preserved
 - 32 organized study-note files under `notes/`. Their source study content is preserved, with the requested AI-written caution appended. Source paths and original blob SHAs are recorded.
 - Four separately authored curated guides under `curated/`.
-- 113 original workspace process/support records under `archive/agent-records/`, byte-for-byte identical to the original Git blobs. This includes handoffs, image coverage checklists, research logs, work queues, reference files, legal verification evidence, and the AI-assisted content audit.
+- All 145 original files from the 26 agent workspaces under `archive/agent-records/`, byte-for-byte identical to the original Git blobs. This includes 32 exact original study-note blobs plus handoffs, image coverage checklists, research logs, work queues, reference files, legal verification evidence, and the AI-assisted content audit.
 - `SOURCE_FILE_INVENTORY.csv`: inventory of all 147 original file blobs, including original paths, blob SHAs, dispositions, and archive destinations.
 - `MIGRATION_MANIFEST.csv`: provenance for the 32 organized study notes.
 - Two root-level governance files remain outside this collection: `notes/agents-playground/README.md` and `notes/agents-playground/AGENT_MASTER_PROMPT.md`.
 
 ## Deletion gate
-The original agent workspace directories may be retired only after a verifier confirms all 113 archived records exist at their mapped destinations with matching original blob SHAs, all 32 study notes and four guides are present, inventory/index links are valid, and the only items left outside `everything/` are the two root governance files. Do not delete anything inside `everything/`. Git history is additional recovery, not a substitute for this archive.
+The original agent workspace directories may be retired only after a verifier confirms all 145 archived records exist at their mapped destinations with matching original blob SHAs, all 32 study notes and four guides are present, inventory/index links are valid, and the only items left outside `everything/` are the two root governance files. Do not delete anything inside `everything/`. Git history is additional recovery, not a substitute for this archive.
 
 ## Quality boundary
 This is a content-preservation and organization workflow, not professional validation. Qualified nursing review of the four guides and qualified legal/nursing review of the Philippine legal overview remain outstanding. The cross-corpus overlap audit is incomplete; do not infer that every note is clinically validated or every possible duplicate has been resolved.

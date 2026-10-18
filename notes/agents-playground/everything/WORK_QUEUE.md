@@ -9,6 +9,7 @@
 - [x] Create four separate curated guides with source links, change descriptions, limits and explicit uncertainty.
 - [x] Create a 147-row source inventory and a 32-row migration manifest; content-review supporting files and retain non-study artefacts with reasons.
 - [x] Copy all 113 non-note records into `archive/agent-records/` by reusing their exact original Git blob SHAs; update inventory destinations and byte-identity status.
+- [x] Archive the exact original Git blobs for all 32 study notes too, preserving their original pre-caution versions byte-for-byte.
 - [x] Link the copies and curated guides in the subject index.
 - [x] Validate 78 relative links across index, README, work queue, review queue, overlap review, and four curated guides; zero broken.
 - [x] Check all 32 copies for relative Markdown links that would break at their new paths; zero found.
@@ -18,7 +19,7 @@
 - [ ] Have a qualified nursing reviewer assess the four curated guides for clinical accuracy and intended educational use; current AI-assisted curation is not professional nursing peer review.
 - [ ] Have qualified legal/nursing review evaluate the Philippine legal overview before treating all legal-title/status claims as final.
 - [ ] Finish the remaining cross-corpus note-relationship audit. The current four curated groups are documented; other notes are left unclassified rather than presumed duplicates.
-- [ ] Verify all 113 archive entries exist at their manifest destinations and have the same blob SHAs as the original source records.
+- [ ] Verify all 145 archive entries exist at their inventory destinations and have the same blob SHAs as the original source records.
 - [ ] Verify the 32 organized study notes and four guides, update all internal instructions so future agents start from `everything/`, and confirm no unique content remains outside the collection except the two root governance/instruction files.
 - [ ] Only after those checks pass, remove the 26 redundant agent workspace directories in a separate cleanup commit; preserve `README.md` and `AGENT_MASTER_PROMPT.md` at the playground root.
 - [ ] Re-run path/link/inventory audits after cleanup.
