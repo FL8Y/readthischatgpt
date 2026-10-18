@@ -180,3 +180,7 @@ Visible introductory bullets:
 - Unclear: dengue Hct/platelet arrows; tiny DPT interval notes; some isolation wording; typhoid “5 Fs” expansion/remaining text.
 - Continuity: diphtheria spans p. 74–75; tetanus p. 75–76; typhoid continues beyond supplied image.
 - Official sources were consulted; no qualified clinician has signed off on these notes.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
