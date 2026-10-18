@@ -208,3 +208,7 @@ The pages are a broad index of Philippine public-health-related laws. Memorize b
 - RA 11369 — National Students' Day Act, Supreme Court E-Library: https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/89640
 
 **Verification boundary:** These links establish the listed titles or specific corrections where stated. The legal matrix separately distinguishes verified findings, superseded instruments, probable citation mismatches, and references still lacking a reliable primary source. Do not claim every instrument has been verified.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
