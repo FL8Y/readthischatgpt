@@ -57,3 +57,7 @@ The textbook’s ages are approximate, not deadlines. In particular, an extensor
 
 ## Coverage and uncertainty audit
 All eight reflex rows and their source descriptions/timings are represented. The source's Babinski age claim is retained and separately qualified with modern context. The photograph contains a table but no separate diagram; no unreadable row was identified.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
