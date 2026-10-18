@@ -2,7 +2,7 @@
 
 ## Method and limits
 
-This matrix classifies the 32 collected notes by topic and source-page coverage, using the saved note content and the provenance mapping. It distinguishes **same subject/adjacent pages** from **actual duplication**. A page-range overlap by itself is not evidence of a duplicate. The 32 copied files were independently verified as exact-body copies of their respective source notes, but that does not make different source notes duplicates of one another.
+This matrix classifies the 32 collected notes by topic and source-page coverage, using the saved note content and the provenance mapping. It distinguishes **same subject/adjacent pages** from **actual duplication**. A page-range overlap by itself is not evidence of a duplicate. The 32 collected notes preserve their respective source study content, with the requested AI-written/not-nurse-reviewed caution appended as a transparent collection-level addition. This addition does not make different source notes duplicates of one another.
 
 No original or exact-copy note was deleted, moved, or rewritten. The four curated guides are derivatives only. No claim of qualified nursing/legal peer review is made.
 
