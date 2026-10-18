@@ -1,28 +1,27 @@
 # Inventory Work Queue
 
-## Captured baseline
-- [x] Scope restricted to `notes/agents-playground/`.
-- [x] Captured source commit `71d3bd60e92e2597c3ae992708c2ab0cf61b39f4`.
-- [x] Inventory: 202 entries under the playground, 26 agent directories, 147 files.
-- [x] Identified and copied 32 Markdown study-note candidates from agent `notes/` and `DELIVERABLES/` locations.
-- [x] Independently re-fetched and verified all 32 copy bodies match current source bodies exactly after removing the collection-only provenance comment.
-- [x] Manifest and subject index updated for all 32 copied note files.
-- [x] Created a full source file inventory with 147 rows from the captured playground tree; 32 are verified study-note copies and the remaining 115 are retained source/process/support files.
-- [x] Created a separate curated mental-health review integrating complementary, adjacent pp. 53–58 source notes; linked its source copies and recorded curation boundaries.
-- [x] Created a separate curated perioperative/postoperative/pain review connecting five related source notes across pp. 89–101; linked every source and retained source uncertainty.
-- [x] Created a separate communicable-disease/public-health overview across pp. 68–85, linked five detailed source notes, and documented its scope in the overlap review.
-- [x] Created a professional nursing foundations overview linking the two complementary legal notes, Henderson's 14 components, the theorist comparison, and ethics/Benner stages; recorded page overlap and content boundaries.
+## Baseline and completed curation
+- [x] Confirm scope is restricted to `notes/agents-playground/`.
+- [x] Read live repository source-of-truth, playground README/master prompt, and canonical generated-notes README; kept this collection separate from `notes/generated/`.
+- [x] Capture the baseline recursive tree at `71d3bd60e92e2597c3ae992708c2ab0cf61b39f4`: 202 tree entries, 147 file blobs, 26 agent workspaces.
+- [x] Copy 32 study-note deliverables into subject-oriented folders and retain all source workspaces.
+- [x] Re-fetch all 32 source notes and destination copies; every destination body matches its live source after removing the collection-only provenance comment.
+- [x] Create four separate curated guides with source links, change descriptions, limits and explicit uncertainty.
+- [x] Create a 147-row source inventory and a 32-row migration manifest; content-review supporting files and retain non-study artefacts with reasons.
+- [x] Link the copies and curated guides in the subject index.
+- [x] Validate 78 relative links across index, README, work queue, review queue, overlap review, and four curated guides; zero broken.
+- [x] Check all 32 copies for relative Markdown links that would break at their new paths; zero found.
 
-## Remaining work
-- [ ] Content-audit supporting files whose SOURCE_FILE_INVENTORY.csv classifications are marked preliminary; correct misclassifications and record explicit exclusion/review reasons.
-- [ ] Inspect remaining candidates to classify exact duplicates, near-duplicates, complementary content, overlapping coverage, continuations, conflicts, or uncertain relationships.
-- [ ] Create additional curated expansions/fusions only as separate derivative files with section-level provenance and a change record, where real learning value exists.
-- [ ] Flag clinical conflicts and high-risk medication details; do not claim qualified review unless performed.
-- [ ] Re-fetch the collection README, index, manifest, derivative, and review files; validate index links and path confinement.
-- [ ] Re-fetch recursive branch tree and PR file list; confirm all changed paths remain under `notes/agents-playground/`.
-- [ ] Update PR and final audit before treating Issue #13 as complete.
+## Open items — do not silently mark complete
+- [ ] Close the printed-page-18 re-fetch/coverage audit in `agent-nursing-documentation-process-p17-19/IMAGE_COVERAGE_CHECKLIST.md` and update its original queue/checklist only if coordinator authorization is granted. Until that separate agent workspace is explicitly authorized for edits, leave the source artifact unchanged and keep the gap visible here.
+- [ ] Have a qualified nursing reviewer assess the four curated guides for clinical accuracy and intended educational use; current AI-assisted curation is not professional nursing peer review.
+- [ ] Have qualified legal/nursing review evaluate the Philippine legal overview before treating all legal-title/status claims as final.
+- [ ] Finish the remaining cross-corpus note-relationship audit. The current four curated groups are documented; other notes are left unclassified rather than presumed duplicates.
+- [ ] Run a final audit after any authorized follow-up to reconfirm source SHAs, index links, branch path confinement, and absence of deletions/renames.
 
-## Non-negotiable controls
-- Never cut, delete, rename, or rewrite original items in agent workspaces.
-- Only add/organize files under `notes/agents-playground/`.
-- Exact copied notes remain distinct from curated derivatives.
+## Scope and preservation guard
+- Never cut, delete, rename, or rewrite original agent deliverables.
+- Do not edit another agent's workspace without coordinator authorization; the collection changes stay within `everything/`.
+- Do not copy handoffs, references-only material, queues, or checklists into `everything/notes/` as study-note content.
+- Exact source copies remain separate from all curated derivatives.
+- Do not claim clinical/legal sign-off unless a qualified professional actually performs it.
