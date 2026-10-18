@@ -338,3 +338,7 @@ This section is **added research**, not a transcription of the textbook.
 - **Source citations visible:** pp. 42 vaccine schedule cites Famorca, Nies, McEwen (2013, p. 225); p. 43 TT table cites Famorca, Nies, McEwen (2013, p. 206); medicinal plants cites Famorca, Nies, McEwen (2013, p. 56). Full book bibliographic details are not printed on these photographs and have not been invented.
 - **Current-guidance caveats:** vaccine schedules and tetanus dose series are distinguished from the photographed table; RA 10152's repeal of PD 996 is explicit; herbal claims remain source-labeled and are not presented as a substitute for clinical care.
 - **Continuity:** pages 41–43 continue the community-health nursing/statistics material already documented for pp. 38–40. No claim is made about unseen pages between or after these printed pages.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
