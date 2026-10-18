@@ -351,3 +351,7 @@ Ethical principles help nurses reason about competing duties. They are not merel
 8. American Nurses Association, **“Nightingale’s Legacy: The Evolution of American Nurse Leaders”** (contents) — https://www.nursingworld.org/globalassets/catalog/book-toc/nightingales-legacy_toc.pdf
 
 **Research limitation:** this is a focused evidence-informed study note, not a systematic literature review or qualified nursing review. Verify historical details and current clinical/legal requirements against authoritative sources for the relevant jurisdiction.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
