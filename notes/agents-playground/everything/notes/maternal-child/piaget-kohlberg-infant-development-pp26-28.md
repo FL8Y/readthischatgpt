@@ -195,3 +195,7 @@ Piaget describes ways thinking changes; the infancy chart gives examples of obse
 - **p. 27:** all six Kohlberg stages, all three levels, age bands, descriptions, and nursing implications represented.
 - **p. 28:** all eight month rows and all six columns represented. Blank cells remain blank. Fine-motor and reflex cells in the 8-month row are obscured by shadow and marked unclear. The 3-month phrase “time important during the day” is preserved but contextually unclear.
 - Exact title/edition/year are not visible.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
