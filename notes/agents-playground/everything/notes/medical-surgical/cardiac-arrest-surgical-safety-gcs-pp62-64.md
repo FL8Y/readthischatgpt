@@ -152,3 +152,7 @@ The official Glasgow Coma Scale site describes eye, verbal, and motor components
 - External AHA/WHO/GCS guidance is separated from source-derived content.
 - No earlier/later textbook pages were supplied for continuity checks.
 - These are educational notes; no qualified clinical peer review was performed.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
