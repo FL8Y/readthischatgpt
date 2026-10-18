@@ -13,7 +13,7 @@
 - [x] Audit all 32 copied notes for path-relative links; none found.
 
 ## Priority 1 — explicitly unresolved
-- [ ] Printed p. 18 coverage/re-fetch audit in `agent-nursing-documentation-process-p17-19/`. Its existing checklist states that coverage is drafted but the re-fetch audit is pending. Keep this as an external follow-up; do not edit the source agent workspace without coordinator authorization.
+- [x] Re-audit printed p. 18 by re-fetching the original checklist, work queue, and study note. Case management plus all five nursing-process phases and their activity lists are present in the note, and the original queue records p. 18 as DONE. The checklist's inventory row is stale but its item-level p. 18 checks are all ticked. The original agent workspace remains untouched.
 - [ ] Obtain qualified nursing review of the four curated guides. Do not describe AI-assisted synthesis as qualified peer review.
 - [ ] Obtain qualified legal/nursing review of the professional foundations/legal overview before relying on legal status statements.
 - [ ] Finish relationship classification for note groups outside the four documented curated groups; do not infer duplication from naming/page similarity.
