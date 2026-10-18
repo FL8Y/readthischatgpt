@@ -343,3 +343,7 @@ These sources were consulted as educational cross-checks; they do not establish 
 - [ ] **Needs clearer crop:** abbreviation immediately preceding “(L) Left” on p. 19; the printed characters are not sufficiently sharp to identify reliably.
 - [ ] **Bibliographic limit:** full title, edition, and publication year of the photographed study guide are not visible. The cited Berman et al. (2016) page references are transcribed as shown, not independently checked against that book.
 - [ ] **Clinical-use limit:** abbreviations in this historical study table have not been validated against a specific hospital's current approved list. The page is for study, not a standalone clinical order reference.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
