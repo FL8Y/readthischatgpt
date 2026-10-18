@@ -259,3 +259,7 @@ This section is cut off at the bottom of the photograph, so only the visible lin
 - **Unclear abbreviations:** “TSB” in influenza management is undefined in the source; the nearby PCR parenthetical in leptospirosis is partly obscured; both are explicitly flagged.
 - **Clinical safety:** Historical/source drug regimens are separated from current external cross-checks. WHO/CDC links are given below. This content has not been reviewed by a qualified nursing professional.
 - **References and external cross-checks** are detailed in the accompanying `../references/clinical-cross-checks.md` and `../RESEARCH_LOG.md`.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
