@@ -204,3 +204,7 @@ The FDA's class-wide benzodiazepine warning emphasizes misuse, abuse, addiction,
 - Page 55 oxazepam half-life appears to be 4–15 but could be read as 4.15.
 - Medication table uses small text/merged cells; row alignment is provisional.
 - Full source title, edition, and complete source bibliography are not visible.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
