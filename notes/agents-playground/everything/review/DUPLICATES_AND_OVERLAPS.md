@@ -1,89 +1,48 @@
-# Duplicates and Overlaps Review
+# Duplicates, Overlaps, and Note Relationships
 
-This review records content relationships based on inspected note content, not on filenames alone. No originals or exact-copy files are deleted or overwritten during curation.
+## Method and limits
 
-## Confirmed relationship: mental health pages 53–58
+This matrix classifies the 32 collected notes by topic and source-page coverage, using the saved note content and the provenance mapping. It distinguishes **same subject/adjacent pages** from **actual duplication**. A page-range overlap by itself is not evidence of a duplicate. The 32 copied files were independently verified as exact-body copies of their respective source notes, but that does not make different source notes duplicates of one another.
 
-**Classification:** Complementary / adjacent continuation, not duplicates.
+No original or exact-copy note was deleted, moved, or rewritten. The four curated guides are derivatives only. No claim of qualified nursing/legal peer review is made.
 
-- Source A: [Psychiatric–Mental Health Nursing Study Notes, printed pp. 53–55](../notes/mental-health/psychiatric-mental-health-pp53-55.md)
-- Source B: [Psychiatric–Mental Health Nursing Study Notes, printed pp. 56–58](../notes/mental-health/psychiatric-mental-health-pp56-58.md)
-- Curated derivative: [Integrated Psychiatric–Mental Health Nursing Review, printed pp. 53–58](../curated/mental-health/psychiatric-mental-health-integrated-review-pp53-58.md)
+## Confirmed complementary clusters (four existing curated guides)
 
-### Rationale
+| Cluster | Notes and page ranges | Relationship finding | Curation |
+|---|---|---|---|
+| Mental health | Psychiatric mental health pp. 53–55; psychiatric mental health pp. 56–58 | Complementary continuation with some anxiolytic overlap; topics differ across adjacent page ranges. Not established as duplicates. | [Integrated mental-health guide](../curated/mental-health/psychiatric-mental-health-integrated-review-pp53-58.md) |
+| Perioperative and pain | Perioperative nursing pp. 89–91; peri/postoperative nursing pp. 95–97; wound care/instruments p. 98; pain assessment pp. 99–100; pain management p. 101 | Connected care continuum across distinct phases. Complementary, not duplicate notes. Printed p. 101 includes an explicitly unclear medication name; do not infer it. | [Integrated perioperative/pain guide](../curated/medical-surgical/integrated-perioperative-postoperative-pain-review-pp89-101.md) |
+| Communicable diseases/public health | Communicable diseases pp. 68–70; infections pp. 71–73; infections pp. 74–76; hepatitis/enteric/parasitic infections pp. 80–82; public health/infectious disease/disaster management pp. 83–85 | Related disease and prevention material across distinct/adjacent ranges. Complementary, not duplicates; transmission and management must be checked disease by disease. | [Communicable-disease/public-health guide](../curated/infectious-diseases/infectious-disease-and-public-health-overview-pp68-85.md) |
+| Professional foundations | Laws affecting nursing practice images 1–3; Philippine health legislation pp. 3–5; Henderson's 14 components; nursing theorists pp. 7–8; ethics/Benner pp. 11–13 | Related introductory domain; the two law notes overlap around page 3 but organize legal content differently. Henderson's component list and theorist comparison have related scope but different purposes. | [Professional foundations guide](../curated/nursing-theory-ethics-law/integrated-professional-nursing-foundations-pp1-13.md) |
 
-The pages cover connected but distinct topics. Pages 53–55 cover defense mechanisms, an abuse-cycle model, interpersonal-space zones, anxiety levels, and benzodiazepines. Pages 56–58 continue anxiolytic medicines and cover schizophrenia symptom terminology, antipsychotic adverse effects, lithium toxicity, and personality-disorder clusters. A combined guide makes the cross-page relationships easier to review, but the source notes retain distinct sections and uncertainty registers.
+## Additional topic/page relationships reviewed
 
-### Curation boundary
+| Topic cluster | Notes | Classification | Evidence / caution |
+|---|---|---|---|
+| Fundamentals and nursing process | Nursing foundations pp. 9–11; documentation/process/abbreviations pp. 17–19; nursing quality/delegation pp. 32–34 | Complementary within fundamentals; no exact duplicate established | Topics address foundations, documentation/process, and quality/delegation, respectively. p. 18 is verified in the saved note, while one original checklist summary row is stale; originals remain unchanged. |
+| Anatomy and infant reflexes | Nine abdominal regions p. 60; infant reflexes p. 61 | Adjacent page numbers, unrelated subject matter; not duplicates | Page adjacency is not a content relationship. |
+| Infant/child development | Piaget/Kohlberg/infant development pp. 26–28; infant milestones/reflexes/safety/consent/delegation pp. 29–31; infant reflexes p. 61; labor/postpartum/APGAR/development pp. 23–25 | Complementary maternal-child/development scope; some conceptual overlap on infant development/reflexes is likely, but not a duplicate without item-level comparison | pp. 26–31 are adjacent and include developmental content. The p. 61 reflex note is a separate retrieval aid on the same subtopic; preserve both. |
+| Community health | Research/theory/vital statistics pp. 38–40; mortality/immunization/medicinal plants pp. 41–43; infectious disease/disaster management pp. 83–85 | Complementary subject group, with statistics/prevention links; no exact duplicate established | Adjacent pages 38–43 cover different material; pp. 83–85 also appears in the infectious-disease cluster. |
+| Medication and toxicology | Dosage/IV calculations pp. 14–16; drug toxicities/antidotes p. 59 | Complementary medication-safety topics, not duplicates | One concerns calculations/therapy/orders; the other toxicity recognition and antidotes. High-risk doses/units still require clinical review. |
+| Laboratory/assessment values | Vital signs/ABG/immunoglobulins/coagulation/CBC pp. 44–46; liver tests/electrolytes/TLC pp. 50–52 | Complementary laboratory/reference material, not duplicates | Distinct panels and page ranges. Values/ranges depend on source, population, and lab. |
+| Medical-surgical emergency and procedural safety | Cardiac arrest/surgical safety/GCS pp. 62–64; perioperative nursing pp. 89–91; postoperative recovery pp. 95–97; wound/instruments p. 98 | Related medical-surgical domain, not one duplicate group | Some safety themes recur, but emergency recognition, surgical phases, recovery, and wound/instrument content serve different purposes. |
+| Pain | Pain assessment pp. 99–100; pain management p. 101 | Sequential and complementary; overlap of pain terminology/assessment-management framework is expected, not proof of duplication | Assessment and intervention are distinct tasks. Preserve uncertainty about the unclear p. 101 medication name. |
+| Laws and ethics | Nursing-practice law images 1–3; Philippine health legislation pp. 3–5; nursing ethics/Benner pp. 11–13 | The two legal notes have a confirmed page-3 overlap; likely complementary/reframed coverage, not confirmed exact duplication. Law vs ethics/Benner is distinct. | Legal effect/current status needs qualified legal/nursing review; this matrix is not legal advice. |
 
-- The two source notes and exact-copy versions remain untouched.
-- The derivative is a newly authored study aid, not a claim that every row of both source tables was fully duplicated into one file.
-- It includes source links, a list of additions, and a statement of unresolved review needs.
-- Medication and clinical safety details are presented as educational content. Qualified nursing review has not been performed and is not claimed.
+## Exact-duplicate determination
 
-## Remaining relationship audit
+- **Between the 32 collected source notes:** no exact duplicate pair has been established by a full cross-file content/hash comparison. Do not describe them as all unique; the statement is “no exact duplicate confirmed.”
+- **Source-to-collection copy integrity:** all 32 source/destination pairs passed the documented exact-body check after removing the collection-only provenance comment.
+- **Near-duplicates or partial row-level overlap:** likely candidates are infant milestones/reflexes pp. 29–31 vs infant reflexes p. 61; the two legal notes sharing printed p. 3; and repeated safety/assessment concepts across medical-surgical notes. These remain overlapping/complementary pending a detailed section-by-section comparison; no source row should be dropped.
+- **Source conflicts:** no conflict audit should be inferred from this overlap matrix. A separate conflict log below distinguishes “no conflict confirmed in this pass” from “content professionally validated.”
 
-The other candidates have not yet been fully classified. For each possible relationship, record the source paths and evidence, then classify as one of:
+## Follow-up conflict register
 
-- Exact duplicate — only after direct content/hash comparison.
-- Near-duplicate or revised version.
-- Complementary notes.
-- Overlapping page coverage.
-- Continuation.
-- Conflicting claims.
-- Uncertain / needs review.
+No specific cross-note contradiction is confirmed from the relationship classification above. This does **not** mean all clinical claims agree or are current. Any differences found in numeric ranges, medication names/doses, contraindications, diagnostic criteria, legal citations, or source-versus-current-guidance claims must be captured in [CONTENT_CONFLICTS.md](CONTENT_CONFLICTS.md), with both passages preserved, source/page provenance, authoritative evidence, and reviewer status.
 
-Do not consolidate a pair solely because their filenames or page numbers overlap. Where clinical claims conflict, preserve both with provenance and route the issue to the content-conflict review instead of silently picking one.
+## Non-negotiable boundaries
 
-## Confirmed relationship: perioperative and pain pages 89–101
-
-**Classification:** Complementary material across a connected care continuum; not exact duplicates.
-
-- Preoperative/intraoperative source: [Perioperative Nursing, pp. 89–91](../notes/medical-surgical/perioperative-nursing-pp89-91.md)
-- Immediate postoperative source: [Perioperative and Immediate Postoperative Nursing, pp. 95–97](../notes/medical-surgical/perioperative-postoperative-nursing-pp95-97.md)
-- Wound/complications source: [Postoperative Wound Care and Surgical Instruments, p. 98](../notes/medical-surgical/postoperative-wound-care-surgical-instruments-p98.md)
-- Pain assessment source: [Pain Definition, Classification, and Assessment, pp. 99–100](../notes/medical-surgical/pain-definition-classification-assessment-pp99-100.md)
-- Pain management source: [Pain Management, p. 101](../notes/medical-surgical/pain-management-p101.md)
-- Curated derivative: [Integrated Perioperative, Postoperative, and Pain Nursing Review, pp. 89–101](../curated/medical-surgical/integrated-perioperative-postoperative-pain-review-pp89-101.md)
-
-### Rationale and boundaries
-
-These five documents cover connected phases—preoperative preparation, intraoperative safety, recovery, wound/complication monitoring, assessment of pain, and pain management. The derivative provides a single care-continuum view plus comparisons and retrieval prompts, but it is not a line-by-line replacement of the full source notes.
-
-All five source notes and exact copies remain unchanged. Source uncertainty, including the page 101 unclear medication name, remains explicit. The derivative does not infer a drug identity or turn historical/table content into patient-specific instructions. Qualified nursing review has not been performed and is not claimed.
-
-## Confirmed relationship: communicable diseases and public health, printed pp. 68–85
-
-**Classification:** Complementary disease notes across adjacent/related topic ranges, not exact duplicates.
-
-- [Communicable diseases, pp. 68–70](../notes/infectious-diseases/communicable-diseases-pp68-70.md)
-- [Infectious diseases, pp. 71–73](../notes/infectious-diseases/leptospirosis-rabies-influenza-pneumonia-malaria-dengue-pp71-73.md)
-- [Infectious diseases, pp. 74–76](../notes/infectious-diseases/infectious-diseases-pp74-76.md)
-- [Communicable infections, hepatitis, enteric infections, helminths, and scabies, pp. 80–82](../notes/infectious-diseases/communicable-infections-hepatitis-enteric-parasitic-pp80-82.md)
-- [Public health: infectious diseases and disaster management, pp. 83–85](../notes/community-health/infectious-diseases-disaster-management-pp83-85.md)
-- Curated overview: [Integrated Communicable-Disease and Public-Health Overview, pp. 68–85](../curated/infectious-diseases/infectious-disease-and-public-health-overview-pp68-85.md)
-
-### Rationale and boundaries
-
-These source notes cover distinct diseases and prevention topics, with overlapping or adjacent ranges and a shared structure around agent/exposure, manifestations, diagnosis, complications, and prevention/management. The derivative provides a page map, comparison lens, broad transmission-pattern orientation, and connection to primary/secondary/tertiary prevention; it is explicitly not a line-by-line replacement for the disease-specific tables.
-
-All five source notes and collection copies remain unchanged. Transmission-pattern groupings are an organizational aid, not proof that diseases share the same route or management. Page-specific uncertainty and external cross-checks remain in the linked source notes. Qualified nursing review has not been performed and is not claimed.
-
-
-
-## Confirmed relationship: professional nursing foundations, images/printed pp. 1–13
-
-**Classification:** Complementary introductory material with specific overlaps, not one exact duplicate group.
-
-- [Laws affecting nursing practice, images 1–3](../notes/nursing-theory-ethics-law/laws-affecting-nursing-practice-images-1-3.md)
-- [Philippine health legislation, printed pp. 3–5](../notes/nursing-theory-ethics-law/philippine-health-legislation-pp3-5.md)
-- [Virginia Henderson's 14 components](../notes/nursing-theory-ethics-law/virginia-henderson-14-components.md)
-- [Nursing theorists, printed pp. 7–8](../notes/nursing-theory-ethics-law/nursing-theorists-pages-7-8.md)
-- [Nursing ethics and Benner stages, printed pp. 11–13](../notes/nursing-theory-ethics-law/nursing-ethics-benner-stages-pp11-13.md)
-- Curated derivative: [Integrated Professional Nursing Foundations Review, images/printed pp. 1–13](../curated/nursing-theory-ethics-law/integrated-professional-nursing-foundations-pp1-13.md)
-
-### Relationship notes
-
-The two legal notes overlap on printed page 3 but organize the content differently: one is grouped by type of legal/administrative instrument; the other is grouped by public-health topic. The Henderson components note provides the full ordered list, while the theorists note gives a comparative view that also names Henderson. The ethics/Benner note joins moral principles with a clinical-skill trajectory, which is related to but distinct from law and theory.
-
-The derivative is an overview and navigation aid. It preserves the source files, highlights where they complement one another, and explicitly avoids presenting selective legal cross-checks as proof that every listed instrument is currently in force. No source note is overwritten; qualified legal or nursing review is not claimed.
+- Do not delete or merge away source notes.
+- Do not assert exact/near duplicate without direct text-level evidence.
+- Do not treat textbook page dates/claims or the agent research logs as proof of current clinical/legal status.
+- Qualified nursing and legal review remains an external acceptance gate, not a task an AI checklist can mark complete.
