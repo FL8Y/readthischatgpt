@@ -384,3 +384,7 @@ These examples use fictional data and are not taken from the textbook.
 - **Unclear text:** no substantive section was omitted because of unreadability in the supplied views. The small citation under the Transtheoretical Model is legible enough to identify Prochaska et al. (2008); full bibliographic details are not provided on the page and have not been invented.
 - **Cross-page continuity:** printed page 40 continues the theory table from page 39, then begins Vital Health Statistics. No prior textbook pages were supplied, so no claims are made about material before page 38.
 - **External discrepancies preserved:** textbook MMR and FDR formulas are transcribed as shown, then contrasted separately with external standard definitions.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
