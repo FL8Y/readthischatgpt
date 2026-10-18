@@ -173,3 +173,7 @@ Try answering before reading the answer key.
 | 3 | Study Guide/Page 2 | RA 9262 through RA 11230; MNCHN-related laws | RA 5901 description and some UHC explanatory claims require current legal/administrative cross-check. |
 
 **Visual extraction note:** All legible list entries in the three supplied photographs have been represented above. Some lines are low contrast or have ambiguous punctuation, but no missing words have been silently invented. The photos contain no meaningful tables or diagrams; the main fidelity risk is legal identifier/title accuracy, not diagram geometry.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
