@@ -529,3 +529,7 @@ Sources: WHO, [HIV and AIDS fact sheet](https://www.who.int/en/news-room/fact-sh
 - **Printed p. 79:** gonorrhea treatment continuation (including pregnancy, disseminated disease, conjunctivitis and nursing management); candidiasis; syphilis; HIV/AIDS manifestations and opportunistic infection categories.
 - **Uncertainty retained:** the p. 77 typhoid heading is outside the crop; “early HF” in the typhoid complications line is ambiguous; one gonorrhea continuation line at the bottom of p. 78 is partly obscured/cropped; exact p. 79 top carryover and some small words were read in context but should be rechecked with a closer crop if verbatim transcription is needed. The source's printed treatment lines are quoted as study-guide content and externally flagged where outdated.
 - **Table/relationship audit:** all visible disease rows are represented as separate sections; multi-line gonorrhea treatment and the HIV opportunistic infection taxonomy retain their grouped relationships. No diagram arrows or separate figure captions are visible.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
