@@ -178,3 +178,7 @@ These sources are external context and were not present in the photograph. They 
 - [x] Images are not cropped in a way that conceals additional text within the main printed page area; the lower edge of page 99 is shadowed, but the visible phantom-pain entry remains legible.
 - [ ] Full study-guide title/edition cannot be determined from the photos.
 - [ ] No qualified nursing faculty review was performed; these are educational notes, not patient-specific clinical advice.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
