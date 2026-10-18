@@ -20,7 +20,7 @@ This folder is the centralized study-note collection and preservation archive fo
 - Two root-level governance files remain outside this collection: `notes/agents-playground/README.md` and `notes/agents-playground/AGENT_MASTER_PROMPT.md`.
 
 ## Deletion gate
-The original agent workspace directories may be retired only after a verifier confirms all 145 archived records exist at their mapped destinations with matching original blob SHAs, all 32 study notes and four guides are present, inventory/index links are valid, and the only items left outside `everything/` are the two root governance files. Do not delete anything inside `everything/`. Git history is additional recovery, not a substitute for this archive.
+**Verification passed on the cleanup branch:** all 145 agent-workspace files listed in the 147-row baseline inventory have archive destinations, and every archived Git blob SHA exactly matches its source blob SHA (zero missing paths, zero mismatches). The 32 organized notes, four curated guides, manifest, inventory, and index are present. See `ARCHIVE_VERIFICATION.md`. The 26 original agent workspace directories are now being retired in a separate cleanup commit; the two root governance files stay in place. Do not delete anything inside `everything/`. Git history is additional recovery, not a substitute for this archive.
 
 ## Quality boundary
 This is a content-preservation and organization workflow, not professional validation. Qualified nursing review of the four guides and qualified legal/nursing review of the Philippine legal overview remain outstanding. The cross-corpus overlap audit is incomplete; do not infer that every note is clinically validated or every possible duplicate has been resolved.

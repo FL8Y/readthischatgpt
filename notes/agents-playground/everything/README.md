@@ -26,4 +26,4 @@ Use lowercase kebab-case names. Preserve printed page numbers in file names when
 
 ## Status
 
-This is the centralized collection and archive for the captured 147-file baseline. Use `ARCHIVE_GUIDE.md` first: future agents should read the index and task-relevant summaries, and consult archived process records only when needed rather than rereading every workspace by default. Archive completeness must be verified before deleting redundant workspace directories.
+This is the centralized collection and archive for the captured 147-file baseline. Use `ARCHIVE_GUIDE.md` first: future agents should read the index and task-relevant summaries, and consult archived process records only when needed rather than rereading every workspace by default. Archive verification passed for the captured baseline: all 145 original files from the 26 agent workspaces have matching byte-identical archived blobs. The original workspaces are being retired in a separate cleanup commit; the two top-level governance/instruction files remain at the playground root.

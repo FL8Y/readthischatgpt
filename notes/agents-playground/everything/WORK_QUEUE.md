@@ -19,9 +19,9 @@
 - [ ] Have a qualified nursing reviewer assess the four curated guides for clinical accuracy and intended educational use; current AI-assisted curation is not professional nursing peer review.
 - [ ] Have qualified legal/nursing review evaluate the Philippine legal overview before treating all legal-title/status claims as final.
 - [ ] Finish the remaining cross-corpus note-relationship audit. The current four curated groups are documented; other notes are left unclassified rather than presumed duplicates.
-- [ ] Verify all 145 archive entries exist at their inventory destinations and have the same blob SHAs as the original source records.
+- [x] Verify all 145 archive entries exist at their inventory destinations and have the same blob SHAs as the original source records; zero missing paths and zero blob mismatches.
 - [ ] Verify the 32 organized study notes and four guides, update all internal instructions so future agents start from `everything/`, and confirm no unique content remains outside the collection except the two root governance/instruction files.
-- [ ] Only after those checks pass, remove the 26 redundant agent workspace directories in a separate cleanup commit; preserve `README.md` and `AGENT_MASTER_PROMPT.md` at the playground root.
+- [ ] Remove the 26 redundant agent workspace directories in a separate cleanup commit; preserve `README.md` and `AGENT_MASTER_PROMPT.md` at the playground root.
 - [ ] Re-run path/link/inventory audits after cleanup.
 
 ## Scope and preservation guard
