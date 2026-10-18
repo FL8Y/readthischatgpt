@@ -338,3 +338,7 @@ These references support the added explanations and safety cross-checks; they ar
 4. **U.S. Food and Drug Administration.** HESPAN package insert. https://www.fda.gov/media/87260/download — Product-label cross-check for the boxed warning and restricted-use statement.
 
 The calculations are educational worked examples. External sources do not validate a prescription for a particular patient, and this note is not a substitute for current local policy, drug-specific references, or clinical supervision.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
