@@ -286,4 +286,8 @@ Sources: [CDC Clinical Safety: Hand Hygiene](https://www.cdc.gov/clean-hands/hcp
 - No tables, diagrams, arrows, formulas, or captions appear in the three supplied images.
 - The tank color answer is preserved as source content, not recommended as a safe identification method.
 
-**Source-to-note check:** Each page's visible entries were reviewed in image order against the source-specific notes and quick-recall table. Small print was checked by visual enlargement; no OCR-based reconstruction was used. Externally added information is labeled separately.  
+**Source-to-note check:** Each page's visible entries were reviewed in image order against the source-specific notes and quick-recall table. Small print was checked by visual enlargement; no OCR-based reconstruction was used. Externally added information is labeled separately.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
