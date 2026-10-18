@@ -25,6 +25,17 @@ Record all of the following before resolving anything:
 5. Disposition: preserve both with context, correct a transcription only with image evidence, or amend a derivative while leaving exact-copy notes untouched.
 6. Reviewer identity/qualification and review date, if a qualified professional reviewed it. Never fill this with an AI-generated sign-off.
 
+## Verified source-level discrepancies already present in the Philippine legislation note
+
+The source transcription itself preserves several specific issues that must remain visible in study materials. The following two have direct external support from the sources checked in this pass:
+
+1. **RA 10352 mislabeled as an alcohol/tobacco excise-tax law.** Lawphil's Republic Acts index identifies RA 10352 as the **General Appropriations Act of 2013**, while RA 10351 is the act restructuring excise tax on alcohol and tobacco products. Do not silently change the exact-copy source note; add a clearly labelled correction to a separate derivative or keep this flag visible. Sources: [Lawphil RA index](https://lawphil.net/statutes/repacts/) and [Lawphil 2013 RA listing](https://lawphil.net/statutes/repacts/ra2013/ra2013.html).
+2. **Drinking-water standard: AO 2007-0012 is historical.** The Department of Health source listing identifies AO 2007-0012 as the Philippine National Standards for Drinking Water of 2007 and AO 2017-0010 as the 2017 standard. The current study guide itself already calls AO 2007-0012 historical/superseded. Keep that caveat explicit and verify current implementation against the latest DOH issuance before clinical or public-health use. Source: [DOH RLED reference document](https://ro1.doh.gov.ph/images/RLED/RLED_Briefer2020_compressed.pdf).
+
+A further **internal citation mismatch** is already flagged in the source note: EO 352 is described there as the basis for FHSIS, but the note's own external-check record says EO 352 is associated with the System of Designated Statistics and has a later-repeal concern. Keep the mismatch open until verified against an authoritative DOH source; do not state the FHSIS legal basis as settled.
+
+For the communicable-disease derivative, the safe organizing rule is that Standard Precautions apply to all patient care, with Contact/Droplet/Airborne Transmission-Based Precautions added according to the suspected or confirmed pathogen and clinical setting. Use the CDC guidance as an additional reference, not a blanket instruction that replaces Philippine DOH/facility protocols: [CDC Standard Precautions](https://www.cdc.gov/infection-control/hcp/basics/standard-precautions.html) and [CDC Transmission-Based Precautions](https://www.cdc.gov/infection-control/hcp/basics/transmission-based-precautions.html).
+
 ## Current disposition
 
 - No source note has been altered.
