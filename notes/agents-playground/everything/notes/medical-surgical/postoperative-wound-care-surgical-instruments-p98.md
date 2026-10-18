@@ -112,3 +112,7 @@ The photographed study guide defines Homan's sign as calf/leg pain with foot dor
 - [x] Important clinical oversimplifications are labeled rather than silently rewritten.
 - [ ] Full study-guide title/edition is not visible; the page header is the only source identity available.
 - [ ] No qualified nursing faculty review was performed; use these notes for education and consult current clinical protocols in practice.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
