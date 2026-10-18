@@ -169,3 +169,7 @@ These sources are external additions, not references printed on page 101.
 6. **Institute for Safe Medication Practices (ISMP).** *Medication Safety Self Assessment* (PCA section). https://www.ismp.org/sites/default/files/attachments/2018-01/EntireAssessmentWorkbook.pdf — PCA eligibility, monitoring, naloxone readiness, and preventing PCA-by-proxy.
 
 Regulatory and drug-product references vary by country. U.S. labeling is included as a safety cross-check, not as Philippine law. Use current Philippine-approved labeling, prescriber orders, and institutional protocols for practice.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
