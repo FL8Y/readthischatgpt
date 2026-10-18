@@ -1,5 +1,7 @@
 # Study Notes Index
 
+> Start here: [Archive and Agent Handoff Guide](ARCHIVE_GUIDE.md). Read the task-relevant study note or curated guide first; archived handoffs, logs, and checklists are preserved for targeted lookup, not routine bulk rereading.
+
 This is the browseable collection of study-note copies from the agent workspaces. It does not replace or overwrite the original source files.
 
 ## How to use this collection
@@ -7,7 +9,7 @@ This is the browseable collection of study-note copies from the agent workspaces
 - Browse by subject below.
 - Use `MIGRATION_MANIFEST.csv` to find each copied note's exact source path, source blob SHA, destination, page range, and copy verification status.
 - Use [SOURCE_FILE_INVENTORY.csv](SOURCE_FILE_INVENTORY.csv) for the full 147-file snapshot of the agent playground, including support files retained in their original workspaces. Some support-file categories are preliminary path/name classifications and still need content review.
-- The files under `notes/` are source-preserving copies. Do not edit them in place to make curated improvements.
+- The files under `notes/` preserve source study content with the requested AI-written caution appended. Do not edit them in place to make curated improvements. Exact original support/process records are under `archive/agent-records/`.
 - Future expanded or fused notes belong in `curated/` as new files with links to all source notes and a change record.
 
 ## Fundamentals
@@ -69,6 +71,10 @@ This is the browseable collection of study-note copies from the agent workspaces
 - [Laws affecting nursing practice — images 1–3](notes/nursing-theory-ethics-law/laws-affecting-nursing-practice-images-1-3.md)
 - [Virginia Henderson's 14 components](notes/nursing-theory-ethics-law/virginia-henderson-14-components.md)
 - [Nursing theorists — pp. 7–8](notes/nursing-theory-ethics-law/nursing-theorists-pages-7-8.md)
+
+## Archived agent records
+
+The original workspace's 113 non-study-note records are preserved byte-for-byte under [archive/agent-records/](archive/agent-records/), organized by their original agent workspace and relative path. See [ARCHIVE_GUIDE.md](ARCHIVE_GUIDE.md) and [SOURCE_FILE_INVENTORY.csv](SOURCE_FILE_INVENTORY.csv) for exact mappings. The archive is intentionally separate from the study-note browsing paths.
 
 ## Verification status
 
