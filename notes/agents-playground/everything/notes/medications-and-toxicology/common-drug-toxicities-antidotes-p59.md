@@ -53,3 +53,7 @@ Suspected poisoning is an emergency. Activate emergency services and obtain pois
 
 ## Coverage and uncertainty audit
 All 17 visible toxicity rows are represented in source order. Small print is readable enough for the listed entries; the exact wording around acetaminophen's “18 doses every 4 hours” is retained as a quotation/claim from the page and explicitly flagged as not universal. No clinical dose is endorsed for real-world use.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
