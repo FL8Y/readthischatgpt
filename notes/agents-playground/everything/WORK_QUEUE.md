@@ -5,7 +5,7 @@
 - [x] Read live repository source-of-truth, playground README/master prompt, and canonical generated-notes README; kept this collection separate from `notes/generated/`.
 - [x] Capture the baseline recursive tree at `71d3bd60e92e2597c3ae992708c2ab0cf61b39f4`: 202 tree entries, 147 file blobs, 26 agent workspaces.
 - [x] Copy 32 study-note deliverables into subject-oriented folders and retain all source workspaces.
-- [x] Re-fetch all 32 source notes and destination copies; every destination body matches its live source after removing the collection-only provenance comment.
+- [x] Re-fetch all 32 source notes and destination copies; source study content was preserved, then the requested AI-written study-note caution was appended to each collected note. The migration manifest records this intentional derivative change.
 - [x] Create four separate curated guides with source links, change descriptions, limits and explicit uncertainty.
 - [x] Create a 147-row source inventory and a 32-row migration manifest; content-review supporting files and retain non-study artefacts with reasons.
 - [x] Link the copies and curated guides in the subject index.
