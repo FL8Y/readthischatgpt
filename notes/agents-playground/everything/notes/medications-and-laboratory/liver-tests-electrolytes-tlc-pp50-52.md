@@ -164,3 +164,7 @@ The Therapeutic Lifestyle Changes plan was developed by the U.S. National Heart,
 - Exact local reference ranges for all analytes and invasive pressure targets were not exhaustively validated against one institution's protocols; the source's values are preserved and caveated.
 - The potassium row's second range is unreadable/inconsistent in the image and is marked unclear.
 - This is a study aid, not clinical advice or a substitute for laboratory-specific intervals, current protocols, or qualified clinical judgment.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
