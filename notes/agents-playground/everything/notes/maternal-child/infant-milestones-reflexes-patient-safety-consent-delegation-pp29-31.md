@@ -284,3 +284,7 @@ Source: NCSBN, [Delegation](https://ncsbn.org/nursing-regulation/practice/delega
 8. NCSBN. **National Guidelines for Nursing Delegation.** https://www.ncsbn.org/public-files/NCSBN_Delegation_Guidelines.pdf
 
 **Review limitation:** These notes were cross-checked against the visible images and listed sources, but no independent qualified nursing reviewer reviewed this deliverable.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
