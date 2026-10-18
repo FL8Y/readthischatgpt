@@ -68,3 +68,7 @@ The nine-region scheme is more detailed. The four-quadrant scheme uses vertical 
 
 ## Coverage and uncertainty audit
 All nine regions and each visible listed structure are represented. The source table's terminology is preserved, with common alternate terms added only in the explanatory sections. No diagram was present on the photographed page.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
