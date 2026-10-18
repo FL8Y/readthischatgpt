@@ -276,3 +276,7 @@ These three are **added context**, not visible entries on p. 25. The NCBI Booksh
 - External sources were used to cross-check selected clinically important claims, not to perform a systematic review of all obstetric or developmental literature.
 - The photographed source's exact title/edition/year cannot be identified from these pages alone.
 - The source's traditional puerperium phases and Freud/Erikson tables are educational frameworks; they should not be treated as diagnostic instruments.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
