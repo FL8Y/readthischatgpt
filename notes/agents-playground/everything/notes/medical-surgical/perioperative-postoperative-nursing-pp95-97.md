@@ -175,3 +175,7 @@ The following points are **not claims that the textbook printed them**; they are
 - Strickland, S. L., et al. “AARC Clinical Practice Guideline: Effectiveness of Nonpharmacologic Airway Clearance Therapies in Hospitalized Patients.” *Respiratory Care* (2013). https://pubmed.ncbi.nlm.nih.gov/24222709/
 - MedlinePlus. “Closed suction drain with bulb.” https://www.medlineplus.gov/ency/patientinstructions/000039.htm
 - National Institute for Health and Care Excellence (NICE). *Surgical site infections: prevention and treatment* (NG125). https://www.nice.org.uk/guidance/ng125/chapter/recommendations
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
