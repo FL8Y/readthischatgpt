@@ -13,7 +13,7 @@
 - [x] Check all 32 copies for relative Markdown links that would break at their new paths; zero found.
 
 ## Open items — do not silently mark complete
-- [ ] Close the printed-page-18 re-fetch/coverage audit in `agent-nursing-documentation-process-p17-19/IMAGE_COVERAGE_CHECKLIST.md` and update its original queue/checklist only if coordinator authorization is granted. Until that separate agent workspace is explicitly authorized for edits, leave the source artifact unchanged and keep the gap visible here.
+- [x] Re-audit printed page 18 by re-fetching the original image-coverage checklist, work queue, and study note. All five nursing-process phases and the case-management row are present in the saved note; the earlier queue shows the page sections were inventoried. The mismatch was a stale checklist status, not missing note content. The original agent workspace is intentionally unchanged; the collection inventory records the provenance check.
 - [ ] Have a qualified nursing reviewer assess the four curated guides for clinical accuracy and intended educational use; current AI-assisted curation is not professional nursing peer review.
 - [ ] Have qualified legal/nursing review evaluate the Philippine legal overview before treating all legal-title/status claims as final.
 - [ ] Finish the remaining cross-corpus note-relationship audit. The current four curated groups are documented; other notes are left unclassified rather than presumed duplicates.
