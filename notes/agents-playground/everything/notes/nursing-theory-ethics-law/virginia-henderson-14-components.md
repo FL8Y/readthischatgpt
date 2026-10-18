@@ -56,3 +56,7 @@ These are connected needs, not isolated boxes. A single concern such as pain can
 ## Coverage audit
 
 All fourteen numbered statements and their order are represented. No material wording in the list was judged unreadable. Decorative icons were not treated as additional evidence. See REFERENCES.md for external context and source limitations.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
