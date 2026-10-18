@@ -162,3 +162,7 @@ The figure lists **Taylor (2012), Daley (1999), and Benner (2001)**. The lower-l
 8. American Nurses Association. **The Ethical Use of Restraints: Balancing Dual Nursing Duties of Patient Safety and Personal Safety** (revised position statement, effective 2020). Supports the caution that restraint is high-risk, should be considered carefully, and must be balanced against patient rights and safety. https://anaprodsite1.nursingworld.org/globalassets/practiceandpolicy/nursing-excellence/ana-position-statements/nursing-practice/restraints-position-statement.pdf
 
 **Scope note:** These are educational study notes, not patient-specific clinical advice. In practice, apply the current professional code, applicable Philippine law and institutional policy, and the clinical setting’s authorized protocols.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
