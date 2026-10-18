@@ -231,3 +231,7 @@ Vomiting/diarrhea with new tremor, slurred speech, worsening coordination, confu
    https://www.merckmanuals.com/professional/psychiatric-disorders/personality-disorders/overview-of-personality-disorders
 10. **Open RN, “Personality Disorders — Nursing: Mental Health and Community Concepts.”** Nursing-oriented descriptions and symptom dimensions.  
     https://www.ncbi.nlm.nih.gov/books/NBK617009/
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
