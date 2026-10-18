@@ -350,3 +350,7 @@ These are general educational principles added to explain the source; local prot
 - **Partial/cropped content:** the top of p. 83 lacks its row heading; the bottom of p. 85 cuts off the end of the Preparedness & Planning row and all subsequent stages. No text from the unseen area is invented.
 - **Soft/shadowed wording:** exact signs/eponyms in the polio row, Ebola row's survivor-sexual-activity wording, the end of the SARS management line, and the last preparedness sentence should be compared with a clearer photo if exact wording is consequential.
 - **Clinical update boundary:** external sources are targeted cross-checks, not a systematic review or a qualified clinician's review. Source figures remain separate from current guidance.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
