@@ -210,3 +210,7 @@ This is a distinction of emphasis, not an absolute separation. CMS describes QA 
 
 ## 10. Source citation notes
 The page cites Zerwekh and Garneau (2018, pp. 238, 331, 508), Berman, Snyder, and Frandsen (2016, pp. 60, 240–242), and *Hospital Nursing Service Administration Manual* (2008, pp. 157–162). Full bibliographic details and edition are not visible, so no missing details are invented.
+
+---
+
+**AI-written study note:** Based on general nursing knowledge, with coverage guided by a review-deck outline. Not nurse-reviewed. Check against your textbook and local policy.
