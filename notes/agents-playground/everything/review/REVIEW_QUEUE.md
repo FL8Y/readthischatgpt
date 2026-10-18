@@ -5,7 +5,7 @@
 - [x] Capture the baseline recursive tree at `71d3bd60e92e2597c3ae992708c2ab0cf61b39f4`.
 - [x] Inventory all 147 file blobs at that baseline with `SOURCE_FILE_INVENTORY.csv`.
 - [x] Copy and verify 32 study-note files, with a 32-row `MIGRATION_MANIFEST.csv`.
-- [x] Re-fetch source and destination for all 32 copies; exact body matches confirmed after removing only the collection provenance comment.
+- [x] Source and destination bodies were checked before adding the requested caution; source study content is preserved, with a transparent AI-written/not-nurse-reviewed caution appended to each of the 32 collected notes.
 - [x] Create four separately authored curated guides, each with source links and an explicit source-to-derivative record.
 - [x] Content-review supporting artefacts across handoffs, image-coverage checklists, research logs, references, work queues, a legal verification matrix, and an AI-assisted perioperative content audit. Each has a reasoned classification in the source inventory.
 - [x] Update the index and overlap review with the four confirmed curated groups.
