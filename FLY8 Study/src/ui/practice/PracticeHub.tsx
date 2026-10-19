@@ -119,6 +119,14 @@ export function PracticeHub(p: PracticeHubProps) {
             </View>
           ) : null}
           <Divider />
+          <ListRow
+            icon="albums-outline"
+            title="Case study"
+            detail="One shared case with 3 to 6 linked questions"
+            onPress={() => p.onStart({ kind: 'case', sets: 1 })}
+            disabled={empty}
+          />
+          <Divider />
           <ListRow icon="time-outline" title="History" detail="Past sessions and results" onPress={p.onHistory} />
         </Card>
 

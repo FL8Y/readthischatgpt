@@ -9,13 +9,15 @@ import { Btn, Chip, haptic } from '../kit';
 import { BOTTOM_INSET } from '../kitParts';
 import { radius, space, useTheme } from '../theme';
 import { OptionRow } from './OptionRow';
+import { CaseItemInput, CasePanel, CaseResultCard, stemIsInline, vignetteIsInline } from './CaseSet';
 import { QuestionMap } from './QuestionMap';
 import { RationaleCard } from './RationaleCard';
 import { TimerHeader } from './TimerHeader';
 import type { ItemReport } from './ReportSheet';
+import { caseSetResult, clusterAnswered, clusterAt, clusterItems, emptyResponse, slotsOf } from './caseLogic';
 import {
   canGoPrevious, canSubmit, dropStruck, isLastQuestion, isLocked, isMultiPick, isPlayable, isTimeUp,
-  mapCounts, optionVerdict, secondsSince, selectHint, showsFeedback, struckOf, toggleSelection,
+  mapCounts, optionVerdict, secondsSince, selectHint, showsFeedback, struckOf, toggleSelection, usesOptionRows,
 } from './playerLogic';
 
 export interface PlayerProps {
@@ -90,7 +92,7 @@ export function Player({ session, items, onChange, onFinish, onLeave, onReport, 
   if (!isPlayable(item)) {
     return (
       <View style={{ flex: 1, backgroundColor: colors.bg, padding: space.xl, justifyContent: 'center', gap: space.md }}>
-        <Text style={[type('body'), { color: colors.text }]}>This question type opens in the case-study player.</Text>
+        <Text style={[type('body'), { color: colors.text }]}>This question type is not supported yet.</Text>
         <Btn label="Skip this question" onPress={() => onChange(moveTo(session, session.cursor + 1))} />
       </View>
     );
@@ -101,7 +103,10 @@ export function Player({ session, items, onChange, onFinish, onLeave, onReport, 
   const locked = isLocked(session, id);
   const answered = isAnswered(session, id);
   const feedback = showsFeedback(session, id);
-  const selected = drafts[id] ?? ans?.selected ?? [];
+  const rawPos = clusterAt(session.order, byId, session.cursor);
+  const pos = rawPos && rawPos.size > 1 ? rawPos : null;
+  const optionRows = usesOptionRows(item);
+  const selected = optionRows ? (drafts[id] ?? ans?.selected ?? []) : slotsOf(item, drafts[id] ?? ans?.selected ?? emptyResponse(item));
   const multi = isMultiPick(item);
   const dirty = answered && !locked && selected.join() !== (ans?.selected ?? []).join();
   const last = isLastQuestion(session);
@@ -143,16 +148,20 @@ export function Player({ session, items, onChange, onFinish, onLeave, onReport, 
         onFlag={() => onChange(flagItem(session, id, !ans?.flagged))}
         onMap={() => setMapOpen(true)}
       />
+      {pos ? <CasePanel pos={pos} vignette={item.vignette} hideText={vignetteIsInline(item)} /> : null}
       <ScrollView ref={scroll} contentContainerStyle={{ padding: space.lg, gap: space.lg }}>
         <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: space.sm }}>
           <Chip text={item.topic} tone="neutral" />
           {ans?.flagged ? <Chip text="Flagged" tone="warning" icon="flag" /> : null}
         </View>
-        {item.vignette ? <Text style={[type('body'), { color: colors.text }]}>{item.vignette}</Text> : null}
-        <Text accessibilityRole="header" style={[type('headline'), { color: colors.text }]}>{item.stem}</Text>
-        <Text style={[type('label'), { color: colors.accentText }]}>{selectHint(item)}</Text>
-        <View style={{ gap: space.sm }} accessibilityRole={multi ? undefined : 'radiogroup'}>
-          {item.options.map((text, idx) => (
+        {item.vignette && !pos && !vignetteIsInline(item) ? <Text style={[type('body'), { color: colors.text }]}>{item.vignette}</Text> : null}
+        {!stemIsInline(item) ? <Text accessibilityRole="header" style={[type('headline'), { color: colors.text }]}>{item.stem}</Text> : null}
+        {!optionRows ? (
+          <CaseItemInput item={item} selected={selected} locked={locked} showVerdict={feedback} onChange={setDraft} onDone={submit} />
+        ) : null}
+        {optionRows ? <Text style={[type('label'), { color: colors.accentText }]}>{selectHint(item)}</Text> : null}
+        <View style={{ gap: space.sm, display: optionRows ? 'flex' : 'none' }} accessibilityRole={multi ? undefined : 'radiogroup'}>
+          {(optionRows ? item.options : []).map((text, idx) => (
             <OptionRow
               key={idx}
               index={idx}
@@ -167,11 +176,14 @@ export function Player({ session, items, onChange, onFinish, onLeave, onReport, 
             />
           ))}
         </View>
-        {!locked ? <Text style={[type('caption'), { color: colors.textDim }]}>Tip: long press an option to cross it out.</Text> : null}
+        {!locked && optionRows ? <Text style={[type('caption'), { color: colors.textDim }]}>Tip: long press an option to cross it out.</Text> : null}
         {feedback ? (
           <RationaleCard item={item} answer={ans} onReadNote={onReadNote} onAskTutor={onAskTutor} onReport={onReport} />
         ) : answered && session.revealMode === 'end' ? (
           <Text style={[type('caption'), { color: colors.textDim }]}>Answer saved. Results show at the end.</Text>
+        ) : null}
+        {pos && pos.end === session.cursor && feedback && clusterAnswered(session, clusterItems(session, byId, pos)) ? (
+          <CaseResultCard result={caseSetResult(session, clusterItems(session, byId, pos))} />
         ) : null}
       </ScrollView>
       <View style={{ flexDirection: 'row', gap: space.sm, padding: space.lg, paddingBottom: space.lg + BOTTOM_INSET, borderTopWidth: 1, borderColor: colors.border, backgroundColor: colors.surface }}>

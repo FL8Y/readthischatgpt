@@ -2,6 +2,7 @@
 import type { BankItem, ReviewLevel } from '../../bank/schema';
 import { formatClock, elapsedSeconds, remainingSeconds } from '../../bank/clock';
 import { isAnswered, type PracticeSession, type SessionAnswer } from '../../bank/session';
+import { caseHint, isComplete } from './caseLogic';
 
 export const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F'] as const;
 export const LOW_TIME_SECONDS = 60;
@@ -10,10 +11,14 @@ export const optionLetter = (i: number): string => LETTERS[i] ?? String(i + 1);
 
 export const isMultiPick = (item: BankItem): boolean => item.type === 'sata';
 
-/** The player handles single and sata here; other types are rendered by the case-study player. */
-export const isPlayable = (item: BankItem): boolean => item.type === 'single' || item.type === 'sata';
+/** Every item type has a UI: single/sata option rows, matrix/cloze/highlight through caseLogic + CaseSet. */
+export const isPlayable = (item: BankItem): boolean => ['single', 'sata', 'matrix', 'cloze', 'highlight'].includes(item.type);
+
+/** True for the types drawn as lettered option rows (strike-out applies). */
+export const usesOptionRows = (item: BankItem): boolean => item.type === 'single' || item.type === 'sata';
 
 export function selectHint(item: BankItem): string {
+  if (!usesOptionRows(item)) return caseHint(item);
   return isMultiPick(item) ? 'Select all that apply' : 'Choose one answer';
 }
 
@@ -50,7 +55,7 @@ export function showsFeedback(s: PracticeSession, id: string): boolean {
 
 export function canSubmit(item: BankItem, selected: number[], locked: boolean): boolean {
   if (locked) return false;
-  return isMultiPick(item) ? selected.length >= 1 : selected.length === 1;
+  return isComplete(item, selected);
 }
 
 export const canGoPrevious = (s: PracticeSession): boolean => s.mode !== 'mock' && s.cursor > 0;
