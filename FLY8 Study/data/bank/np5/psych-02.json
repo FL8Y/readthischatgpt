@@ -1,0 +1,933 @@
+[
+ {
+  "id": "np5-0026",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Acute dystonia",
+  "noteId": "np5-pc-eps-nms",
+  "vignette": "Thirty minutes after an IM dose of haloperidol, a 23-year-old man's neck twists sharply to one side, his tongue feels thick and he has trouble swallowing his saliva. He is frightened and asks if he is having a seizure. The next scheduled dose is due at the end of the shift.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Give the next scheduled haloperidol early to settle his body",
+   "Reassure him it will wear off and check on him in an hour",
+   "Stay, check his breathing and call for an IM anticholinergic",
+   "Document the episode and ask the aide to sit with him"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: early muscle spasm, thick tongue and swallowing trouble after a first-generation antipsychotic.\n2. Principle: dopamine blockade causes dystonia; laryngeal spasm can obstruct the airway.\n3. Priority rule: protect breathing and get the antidote ordered before documenting or reassuring.\n4. The key beats reassurance because dystonia is an emergency.\nFlip: If he had only a mild restlessness and normal swallowing, reporting for a dose review would be appropriate.",
+  "optionRationales": [
+   "Makes the reaction worse; the drug causing it must not be repeated.",
+   "Under-reaction. Throat involvement can progress to airway compromise.",
+   "Correct. Acute dystonia with trouble swallowing threatens the airway and is treated urgently with an injected anticholinergic.",
+   "Delegation outside scope and no treatment. A nurse must assess the airway."
+  ],
+  "strategy": "Maslow: airway first",
+  "archetype": "Airway before comfort",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Acute dystonia is an emergency",
+   "Treat with IM anticholinergic"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0027",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Fever and rigidity on an antipsychotic",
+  "noteId": "np5-pc-eps-nms",
+  "vignette": "A client on a long-acting antipsychotic is found sweaty and confused, with a temperature of 39.5 C, a blood pressure that swings between high and low, and very stiff muscles. A PRN anticholinergic for stiffness and an acetaminophen order are available. He was agitated yesterday.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Hold the drug, call the provider and start cooling",
+   "Give the PRN anticholinergic to relieve the stiffness",
+   "Give acetaminophen and give the scheduled antipsychotic on time",
+   "Give an extra dose of the antipsychotic to calm the agitation"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: high fever, rigidity, unstable blood pressure and confusion on an antipsychotic.\n2. Principle: neuroleptic malignant syndrome is fatal if the drug continues.\n3. Priority rule: hold the drug and escalate before symptomatic treatment.\n4. The key beats the PRN because fever with autonomic instability is not simple stiffness.\nFlip: If he had stiffness and a shuffling gait with a normal temperature, the PRN anticholinergic could be appropriate.",
+  "optionRationales": [
+   "Correct. This pattern is neuroleptic malignant syndrome; stopping the drug and urgent supportive care are required.",
+   "Right drug for a milder reaction, wrong here: it does not treat this life-threatening syndrome.",
+   "Treats the fever symptom and continues the cause.",
+   "Unsafe. More drug worsens the reaction."
+  ],
+  "strategy": "Stop the offending drug",
+  "archetype": "Stop the drug",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "NMS: fever, rigidity, unstable vital signs",
+   "Stop all antipsychotics at once"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0028",
+  "v": 2,
+  "type": "sata",
+  "area": "NP5",
+  "topic": "Antipsychotic self-care",
+  "noteId": "np5-x-antipsychotic-teaching",
+  "vignette": "A client is starting an antipsychotic and has complained of dry mouth, constipation and light-headedness when standing. The nurse is teaching about side effects.",
+  "stem": "Which instructions should the nurse include? Select all that apply.",
+  "options": [
+   "Rise slowly from lying or sitting",
+   "Use sunscreen and cover the skin outdoors",
+   "Use sugar-free hard candy and drink adequate fluids",
+   "Stop the medicine if your mouth feels dry",
+   "Double the next dose if you miss one",
+   "Drive as normal since dizziness fades after a day"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "rationale": "1. Cue: dry mouth, constipation and orthostatic symptoms on a new antipsychotic.\n2. Principle: these are anticholinergic and blood-pressure effects that lessen over weeks.\n3. Priority rule: teach measures for comfort and safety and avoid unsafe shortcuts.\n4. The correct options are rising slowly, sun protection and mouth and bowel measures.\nFlip: If he developed fever and sore throat on clozapine, the instruction would change to reporting immediately.",
+  "optionRationales": [
+   "Correct. This prevents falls from low blood pressure on standing.",
+   "Correct. The drug can make the skin sensitive to sun.",
+   "Correct. This relieves dry mouth and helps constipation.",
+   "Incorrect. Stopping suddenly risks relapse; report troublesome effects instead.",
+   "Incorrect. Doubling can cause excess sedation and side effects.",
+   "Incorrect. Driving is avoided until drowsiness and dizziness settle."
+  ],
+  "strategy": "Teach comfort and safety measures",
+  "archetype": "Select correct teaching",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Anticholinergic effects: dry mouth, constipation, orthostasis",
+   "Sunscreen for photosensitivity"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0029",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Sore throat on clozapine",
+  "noteId": "np5-x-antipsychotic-teaching",
+  "vignette": "A client who has taken clozapine for six months phones the clinic with a sore throat and a temperature of 38.4 C. He also has a dry mouth, mild constipation and a bit of drowsiness, and he says he does not want to miss his next dose.",
+  "stem": "Which advice should the nurse give?",
+  "options": [
+   "Gargle with salt water and take the next dose as usual",
+   "Treat the dry mouth with sugar-free candy and recheck tomorrow",
+   "Take acetaminophen and call back if it lasts more than a week",
+   "Come in today to be checked and have blood tests"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: sore throat and fever on clozapine.\n2. Principle: blood-count and infection risks outrank comfort side effects.\n3. Priority rule: report fever or sore throat immediately.\n4. The key beats gargling because it escalates a potential emergency.\nFlip: If he only had dry mouth and constipation, comfort measures would be correct.",
+  "optionRationales": [
+   "Treats the symptom and continues a drug that may be the cause.",
+   "Addresses a comfort effect and delays the dangerous one.",
+   "Under-reaction. Waiting can allow serious infection to develop.",
+   "Correct. Sore throat and fever on clozapine could mean a dangerous drop in infection-fighting cells and must be checked at once."
+  ],
+  "strategy": "Rank by danger",
+  "archetype": "Rank by danger",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Report sore throat or fever on clozapine at once",
+   "Blood count risk outranks comfort effects"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0030",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Weight gain on an atypical drug",
+  "noteId": "np5-antipsychotics",
+  "vignette": "A client taking olanzapine has gained several kilograms in three months. He now reports constant thirst, frequent urination and fatigue. His movements are normal and he is hearing no voices.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Stop the medicine at once to prevent more weight gain",
+   "Check his blood sugar and report the findings",
+   "Reassure him that weight gain is expected and not a concern",
+   "Tell him to restrict fluids to reduce urination"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: weight gain plus thirst and frequent urination on an atypical antipsychotic.\n2. Principle: atypical drugs can change blood sugar and lipids.\n3. Priority rule: assess and report rather than reassure.\n4. The key beats stopping the drug because it checks the cause.\nFlip: If he only had mild weight gain, diet and exercise teaching would be the focus.",
+  "optionRationales": [
+   "Unsafe. Stopping suddenly risks relapse and is the provider's decision.",
+   "Correct. Weight gain with thirst and frequent urination on an atypical drug suggests a blood sugar change.",
+   "True that weight gain is common, but it ignores the new symptoms.",
+   "Misreads thirst and polyuria as the problem."
+  ],
+  "strategy": "Recognise a new complication",
+  "archetype": "Metabolic monitoring",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Atypical drugs can cause weight and blood sugar changes",
+   "Monitor weight, glucose and lipids"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0031",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Restlessness on haloperidol",
+  "noteId": "np5-antipsychotics",
+  "vignette": "A client started on haloperidol last week constantly paces, shifts his legs when seated and says he cannot get comfortable. He is anxious and asks to leave the group. The charge nurse says he is just anxious and suggests an extra PRN antipsychotic.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Give the PRN antipsychotic to calm his anxiety",
+   "Report the restlessness as a possible drug effect",
+   "Insist that he stay seated for the group to build discipline",
+   "Tell him the restlessness shows his illness is getting worse"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: constant pacing and inner restlessness a week after starting haloperidol.\n2. Principle: akathisia is an extrapyramidal effect.\n3. Priority rule: identify drug effects before adding more drug.\n4. The key beats the PRN because the drug is the cause.\nFlip: If he were paranoid and shouting at voices, the symptoms would be treated as psychosis.",
+  "optionRationales": [
+   "Treats a drug effect with more of the drug.",
+   "Correct. Inner restlessness with pacing is akathisia from dopamine blockade, and more antipsychotic would worsen it.",
+   "Ignores a distressing physical effect.",
+   "Misattributes the cause."
+  ],
+  "strategy": "Recognise an adverse effect",
+  "archetype": "Medication effect, not misbehavior",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Akathisia: cannot sit still",
+   "Treatment may be a drug change or an added agent"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0032",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Calm after severe depression",
+  "noteId": "np5-mdd",
+  "vignette": "A client with major depression started an antidepressant ten days ago. Today he is smiling, has more energy, and gives his watch to a nurse saying he will not need it. His mood on the scale is still low. He asks to be moved to a room with a view.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Praise his improvement and begin discharge teaching",
+   "Reduce his observation level since he has more energy",
+   "Explain that it is too early for the medicine to be working",
+   "Ask him directly about suicide plans and report"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: sudden brightness, giving away a possession and persistent low mood.\n2. Principle: suicide risk rises when energy returns before mood lifts.\n3. Priority rule: assess directly for plan and intent before anything else.\n4. The key beats praising because the safe response is to ask.\nFlip: If his mood scores had also risen and he was making future plans, discharge planning could proceed.",
+  "optionRationales": [
+   "Teaches on the assumption of recovery while risk is unassessed.",
+   "Under-reaction. Observation should rise, not fall, until risk is clarified.",
+   "Misreads the change as a drug effect.",
+   "Correct. Returning energy with a still low mood and giving away belongings can signal readiness to act on suicidal intent."
+  ],
+  "strategy": "Safety first: ask directly",
+  "archetype": "Improvement can hide risk",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Suicide risk rises when energy returns but mood is low",
+   "Ask directly about suicide"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0033",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Severely depressed client not eating",
+  "noteId": "np5-mdd",
+  "vignette": "A client with major depression has psychomotor slowing, speaks very little and has eaten almost nothing for two days. Her tray is untouched. A visitor tells the nurse to cheer her up by listing the good things in her life.",
+  "stem": "Which approach is best?",
+  "options": [
+   "Sit with her briefly and offer small portions of food",
+   "Tell her she has so much to live for and must eat",
+   "Start a detailed teaching session about her new medicine",
+   "Leave the tray and check on her at the end of shift"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: psychomotor slowing and poor intake.\n2. Principle: basic needs come before teaching or cheer.\n3. Priority rule: gentle presence and small offers.\n4. The key beats cheering up because it respects her state.\nFlip: If she were eating well and brighter, teaching could begin.",
+  "optionRationales": [
+   "Correct. A nonjudgmental regular presence with small offerings meets basic nutrition needs.",
+   "Pushing cheerfulness invalidates her feelings.",
+   "Learning is limited in severe depression.",
+   "Under-reaction. She needs active help with intake."
+  ],
+  "strategy": "Meet basic needs first",
+  "archetype": "Meet basic needs gently",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Meet nutrition, fluids and sleep needs",
+   "Do not push cheerfulness or give advice"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0034",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Safe prescribing in suicidal clients",
+  "noteId": "np5-x-tca-ssri-drugs",
+  "vignette": "A depressed, impulsive young woman is prescribed amitriptyline for discharge. She has recently said she wishes she could sleep and not wake up. Her mother will manage her medicines at home.",
+  "stem": "What is the safest discharge plan for the medicine?",
+  "options": [
+   "A three-month supply so that she never runs out",
+   "Let her keep the bottle in her room to take at night",
+   "Small supplies at a time, held by her mother",
+   "Skip the medicine until she feels worse again"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: impulsive client with passive death wish and an overdose-prone drug.\n2. Principle: this class is lethal in overdose.\n3. Priority rule: limit supply and control access.\n4. The key beats the large supply because it reduces lethality.\nFlip: If risk were very low and she were reliable, a regular supply could be reasonable.",
+  "optionRationales": [
+   "Gives a lethal quantity to an at-risk client.",
+   "Unsafe. Easy access in an impulsive client raises risk.",
+   "Correct. Older antidepressants are dangerous in overdose, so limited supplies reduce risk.",
+   "Under-treatment of a high-risk illness."
+  ],
+  "strategy": "Safety: limit lethal means",
+  "archetype": "Limit the supply",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Limited supplies in suicidal clients",
+   "Overdose risk with older antidepressants"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0035",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Combined serotonergic drugs",
+  "noteId": "np5-antidepressants-stabilizers",
+  "vignette": "A client on sertraline was given tramadol for back pain two days ago. Tonight he is agitated, sweating and trembling, with diarrhea, a pulse of 124 and a temperature of 38.6 C. His mother says he is just anxious about his job.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Give the PRN anxiety medicine and recheck in the morning",
+   "Give the evening sertraline dose to steady his mood",
+   "Encourage him to drink fluids and rest before calling anyone",
+   "Hold the next doses and notify the provider urgently"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: new serotonergic drug, agitation, tremor, sweating, fever, diarrhea and tachycardia.\n2. Principle: serotonin syndrome is a medication emergency.\n3. Priority rule: hold offending drugs and escalate.\n4. The key beats the PRN because symptoms are autonomic and drug-related.\nFlip: If he were only mildly nauseated with normal vitals, monitoring and reporting would suffice.",
+  "optionRationales": [
+   "Treats the symptom and ignores a possible emergency.",
+   "Continues the drug that is likely contributing.",
+   "Under-reaction. This needs prompt medical care.",
+   "Correct. Agitation, tremor, sweating, fever, diarrhea and fast pulse after combining serotonergic drugs suggest serotonin syndrome."
+  ],
+  "strategy": "Unstable before stable",
+  "archetype": "Recognise serotonin toxicity",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Serotonin syndrome risk with combined serotonergic drugs",
+   "Antidepressants never stopped suddenly without direction"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0036",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Hypertensive crisis on phenelzine",
+  "noteId": "np5-x-maoi-atypical",
+  "vignette": "A client on phenelzine ate pepperoni pizza at a party tonight. He now has a severe pounding headache at the back of his head, palpitations, flushing and a blood pressure of 218/124. He asks for a pain reliever and to lie down.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Give acetaminophen and have him lie flat",
+   "Check vital signs and arrange emergency treatment",
+   "Review the list of foods to avoid so it does not happen again",
+   "Have him drink fluids and recheck in an hour"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: occipital headache, palpitations and extreme blood pressure after a forbidden food.\n2. Principle: some antidepressants block breakdown of tyramine, causing a pressure surge.\n3. Priority rule: stabilise first, teach later.\n4. The key beats teaching because the pressure is life-threatening.\nFlip: If the pressure were normal with mild nausea only, dietary teaching would be the next step.",
+  "optionRationales": [
+   "Treats the symptom and delays treatment of the emergency.",
+   "Correct. A severe headache with very high blood pressure after a food interaction is a hypertensive crisis.",
+   "True teaching that does not address the crisis.",
+   "Under-reaction. The pressure is dangerously high."
+  ],
+  "strategy": "Unstable before stable",
+  "archetype": "Recognise the emergency",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Hypertensive crisis after interacting foods",
+   "Severe occipital headache with high BP is an emergency"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0037",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Lithium and gastroenteritis",
+  "noteId": "np5-pc-lithium-toxicity",
+  "vignette": "A client on lithium has had vomiting and diarrhea for two days. This morning he has a coarse hand tremor, unsteady walking and is confused. He says he is afraid of a relapse and asks for his usual dose.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Give the usual dose with breakfast to prevent a relapse",
+   "Give the dose with extra salt tablets to balance the vomiting",
+   "Hold the dose, report and expect a blood test",
+   "Wait a day to see whether the symptoms settle"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: coarse tremor, ataxia and confusion after two days of fluid loss.\n2. Principle: dehydration and sodium loss raise lithium and risk toxicity.\n3. Priority rule: hold the dose and escalate.\n4. The key beats giving the dose because it avoids further toxicity.\nFlip: If he had only a mild fine tremor and felt well, continuing the dose with food would be correct.",
+  "optionRationales": [
+   "Unsafe. More drug adds to toxicity.",
+   "Unsafe. Salt supplements without an order do not make the dose safe.",
+   "Correct. These are signs of lithium toxicity, which worsens with dehydration, so the dose is held and the provider told.",
+   "Under-reaction. Toxic signs are urgent."
+  ],
+  "strategy": "Hold the drug and report",
+  "archetype": "Hold and report",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Toxic signs: coarse tremor, vomiting, ataxia",
+   "Fluid and sodium loss raises lithium"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0038",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Lithium teaching",
+  "noteId": "np5-pd-lithium-therapy",
+  "vignette": "A client who takes lithium for bipolar disorder tells the nurse about her plans for the summer, including a new diet.",
+  "stem": "Which statement shows the need for further teaching?",
+  "options": [
+   "I will cut out all salt to help me lose weight",
+   "I will call you if I have vomiting or diarrhea",
+   "I will drink water through the day and keep my usual salt",
+   "I will take my dose with a meal"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: planned strict salt restriction.\n2. Principle: sodium loss raises lithium and risks toxicity.\n3. Priority rule: choose the statement that introduces risk.\n4. The key stands out because the other three statements are correct.\nFlip: If she planned to eat her usual amount of salt, no further teaching would be needed on that point.",
+  "optionRationales": [
+   "Correct. A low-salt diet can raise the lithium concentration to toxic levels.",
+   "Appropriate. Fluid loss can cause toxicity.",
+   "Appropriate. Steady fluids and salt keep the drug stable.",
+   "Appropriate. Food reduces nausea."
+  ],
+  "strategy": "Spot the unsafe plan",
+  "archetype": "Spot the unsafe plan",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Keep salt and fluids steady on lithium",
+   "Call for vomiting, diarrhea or fever"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0039",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Mania and nutrition",
+  "noteId": "np5-bipolar",
+  "vignette": "A client in a manic episode has slept two hours in two nights, walks constantly, and has not eaten a meal since yesterday. He talks fast about starting a business. The dining room is busy and loud at mealtime.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Offer energy-dense finger foods he can eat while moving",
+   "Insist he sit and finish a full meal in the dining room",
+   "Join him in planning the business to build rapport",
+   "Explain why his plans are unrealistic and risky"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: little sleep, constant movement and no meals.\n2. Principle: mania uses up energy and fluids.\n3. Priority rule: meet physical needs in a way the client can accept.\n4. The key beats the dining room because portable food works.\nFlip: If he were calm and sitting, a regular meal would be reasonable.",
+  "optionRationales": [
+   "Correct. Manic clients burn calories and neglect food, so portable high-calorie foods meet physical needs.",
+   "Right goal, but the loud room and the demand for sitting will fail.",
+   "Feeds the grandiosity and stimulation.",
+   "Argument increases agitation."
+  ],
+  "strategy": "Physical needs first",
+  "archetype": "Meet physical needs first",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Energy-dense finger foods for manic clients",
+   "Reduce stimulation"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0040",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Intrusive manic behavior",
+  "noteId": "np5-bipolar",
+  "vignette": "A client with mania keeps entering other clients' rooms, rearranging their belongings and telling jokes at their expense. When asked to stop he laughs and says he is the unit's host. Two clients have complained.",
+  "stem": "Which response is best?",
+  "options": [
+   "Joke back with him to keep the mood light",
+   "Explain at length why his behaviour is upsetting others",
+   "State a clear limit calmly and redirect him safely",
+   "Lock him in his room until he is calm"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: intrusive behavior with humor and complaints from others.\n2. Principle: manic clients need firm, consistent limits without argument.\n3. Priority rule: protect others and redirect energy using the gentlest step.\n4. The key beats locking him in because there is no imminent danger.\nFlip: If he began threatening another client, immediate protective steps would be needed.",
+  "optionRationales": [
+   "Adds stimulation and mocks nothing but encourages the behaviour.",
+   "Lengthy reasoning invites argument and does not hold at this level of arousal.",
+   "Correct. Firm, brief limits without argument protect others and give his energy somewhere safe to go.",
+   "Over-intervention. Locking a door is for imminent danger."
+  ],
+  "strategy": "Set limits kindly",
+  "archetype": "Limits without argument",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Set firm consistent limits kindly",
+   "Redirect energy to safe activity"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0041",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "New mother with confusion",
+  "noteId": "np5-pd-mood-theories-variants",
+  "vignette": "Two weeks after delivery a woman becomes confused, sleepless and suspicious. She tells her husband she hears voices saying something is wrong with the baby. She cried for a few days after the birth, which the family called the baby blues. The baby is asleep in the same room.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Reassure the family it is the baby blues and will fade",
+   "Keep the baby safe and notify the provider urgently",
+   "Advise rest and a sleep schedule at home",
+   "Teach her breastfeeding technique while she is calm"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: confusion, voices and suspicion about the baby two weeks after delivery.\n2. Principle: postpartum psychosis is rapid and dangerous.\n3. Priority rule: protect mother and baby and escalate.\n4. The key beats reassurance because blues do not include psychosis.\nFlip: If she had only brief tearfulness in the first week, blues with reassurance would fit.",
+  "optionRationales": [
+   "Under-reaction. Blues are mild and do not include delusions or confusion.",
+   "Correct. Confusion with delusions and hallucinations soon after birth suggests postpartum psychosis, an emergency.",
+   "Right comfort measure, wrong urgency.",
+   "True teaching that does not address the danger."
+  ],
+  "strategy": "Unstable before stable",
+  "archetype": "Recognise the emergency",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Postpartum psychosis is an emergency",
+   "Blues are mild and fade"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0042",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "After ECT",
+  "noteId": "np5-pc-electroconvulsive-therapy",
+  "vignette": "A client returns from ECT drowsy and confused. His breathing is shallow with an occasional pause. He asks where he is and what happened, and a colleague offers him breakfast.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Orient him fully to place, time and what the procedure was",
+   "Give him breakfast now that the treatment is over",
+   "Document the length of the seizure first",
+   "Check airway and breathing and give oxygen if needed"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: drowsy, confused client with shallow breathing and pauses after ECT.\n2. Principle: anesthesia and seizure can depress breathing.\n3. Priority rule: airway, breathing then orientation and safety.\n4. The key beats reorientation because oxygenation is at risk.\nFlip: If breathing were normal and he were alert, reorientation and fall precautions would lead.",
+  "optionRationales": [
+   "Right action, wrong time. Reorientation follows safe breathing.",
+   "Unsafe. A drowsy client may aspirate and needs to be awake.",
+   "Required but not the first priority.",
+   "Correct. The first priority after ECT is airway and breathing; respiratory depression is a known complication."
+  ],
+  "strategy": "Maslow: airway first",
+  "archetype": "Airway then orientation",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "After ECT: airway first",
+   "Expect short-term confusion"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0043",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "ECT family teaching",
+  "noteId": "np5-pc-electroconvulsive-therapy",
+  "vignette": "A client's husband asks what to expect after a course of ECT. He is worried because she was confused and could not recall her breakfast after the first treatment.",
+  "stem": "Which reply is best?",
+  "options": [
+   "The treatment cannot affect her memory or thinking in any way",
+   "Confusion after treatment means the therapy has failed",
+   "Memory loss and confusion are common and usually improve",
+   "She will not need any more treatments after the first"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: expected confusion and memory gaps.\n2. Principle: these effects are common and generally improve.\n3. Priority rule: give accurate, calm information.\n4. The key beats denial because it is honest.\nFlip: If she became unresponsive, the team would be called immediately.",
+  "optionRationales": [
+   "False reassurance.",
+   "Misinterprets an expected effect.",
+   "Correct. Temporary confusion and memory gaps are expected and tend to improve.",
+   "Unrealistic; a course of several treatments is usual."
+  ],
+  "strategy": "Honest teaching",
+  "archetype": "Honest expectations",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "ECT memory loss is common",
+   "Course of several treatments"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0044",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Stopping a benzodiazepine",
+  "noteId": "np5-pc-antianxiety-drugs",
+  "vignette": "A woman who has taken lorazepam daily for months says she feels calm now and plans to stop her tablets tomorrow. She also asks whether she can drive to work. The nurse has time for one priority teaching point before she leaves.",
+  "stem": "Which point is the priority?",
+  "options": [
+   "Avoid driving until you know how the medicine affects you",
+   "The medicine relieves symptoms but does not treat the cause",
+   "Learn relaxation techniques to use with the medicine",
+   "Do not stop suddenly; withdrawal can be dangerous"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: planned abrupt stop after months of daily use.\n2. Principle: sudden withdrawal can be fatal.\n3. Priority rule: teach the greatest danger first.\n4. The key beats driving advice because withdrawal is more dangerous.\nFlip: If she had never taken the medicine regularly, driving advice might lead.",
+  "optionRationales": [
+   "True and important, but lower in danger than abrupt withdrawal.",
+   "True statement that does not address the plan to stop.",
+   "Useful, but it does not prevent withdrawal.",
+   "Correct. Abrupt stopping of a benzodiazepine can cause severe withdrawal and is the greatest immediate risk."
+  ],
+  "strategy": "Danger ranking",
+  "archetype": "Danger ranking in teaching",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Benzodiazepine withdrawal can be fatal",
+   "Never stop abruptly without supervision"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0045",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Wanting fast relief from buspirone",
+  "noteId": "np5-pc-antianxiety-drugs",
+  "vignette": "A client newly prescribed buspirone for anxiety returns after four days saying it is not working and asks to double the dose. She has not been drowsy. She is not currently in distress.",
+  "stem": "What is the nurse's best response?",
+  "options": [
+   "Explain it works slowly and to keep taking it",
+   "Agree that she may take a double dose starting tonight",
+   "Tell her buspirone works like a quick-acting sedative",
+   "Advise her to stop it because it is clearly ineffective"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: no effect after four days and request to double the dose.\n2. Principle: buspirone takes time and is not a sedative.\n3. Priority rule: teach accurately and avoid self-adjustment.\n4. The key beats doubling because it respects the drug's profile.\nFlip: If she had no benefit after several weeks, the provider would review the choice.",
+  "optionRationales": [
+   "Correct. Buspirone is non-sedating with slow onset; a client needs explanation, not a self-directed dose increase.",
+   "Unsafe. Dose changes need an order.",
+   "False; the drug acts slowly.",
+   "Premature. Four days is too soon to judge."
+  ],
+  "strategy": "Explain and reassure accurately",
+  "archetype": "Explain, do not increase",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Buspirone is slow acting and non-sedating",
+   "Do not self-adjust doses"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0046",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Acute confusion on a ward",
+  "noteId": "np5-delirium-dementia",
+  "vignette": "An 82-year-old woman with mild dementia has been calm and oriented to person for two years. Over the past day she has become agitated, drowsy by turns, and unable to keep her attention on a conversation. Her daughter says her memory has always been like that and asks for a sedative.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Request a sedative to settle her tonight",
+   "Check vital signs, oxygen and glucose, then report",
+   "Tell her daughter this is the expected progression of dementia",
+   "Restrain her gently to prevent falls"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: acute change in attention and alertness in a client with stable dementia.\n2. Principle: delirium can be superimposed on dementia and can kill if its cause is missed.\n3. Priority rule: treat sudden confusion as a medical emergency.\n4. The key beats sedation because it seeks the cause.\nFlip: If the change had been gradual over months, routine dementia care would be correct.",
+  "optionRationales": [
+   "Treats the symptom and may worsen confusion.",
+   "Correct. A sudden fluctuating change in attention suggests delirium, an emergency with a reversible cause.",
+   "Mislabels an acute change as slow decline.",
+   "Over-intervention. Restraints increase agitation and risk."
+  ],
+  "strategy": "Look for the reversible cause",
+  "archetype": "Look for the reversible cause",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Delirium: sudden onset and fluctuating",
+   "Look for infection, oxygen, glucose, drugs"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0047",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Repeated questions",
+  "noteId": "np5-alzheimers",
+  "vignette": "A client with Alzheimer's disease asks every few minutes, 'When is my husband coming?' The nurse has answered several times, and a new aide suggests telling her sharply that her husband died years ago.",
+  "stem": "Which response is best?",
+  "options": [
+   "Remind her firmly that her husband died years ago",
+   "Answer kindly each time and offer an activity",
+   "Ignore the question until she stops asking",
+   "Request a sedative so she stops asking"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: repeated questions from a client with Alzheimer's disease.\n2. Principle: questions arise from anxiety and memory loss.\n3. Priority rule: respond calmly and redirect rather than argue.\n4. The key beats confronting because it preserves dignity.\nFlip: If she became dangerously agitated, additional safety measures would be added.",
+  "optionRationales": [
+   "Quizzing or confronting with facts causes distress.",
+   "Correct. Repeated questions come from anxiety, so calm answers and redirection help.",
+   "Leaves her anxious and unsupported.",
+   "Skips non-drug measures."
+  ],
+  "strategy": "Validation and redirection",
+  "archetype": "Kind answers each time",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Do not argue or quiz; use validation",
+   "Short, calm statements"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0048",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Autism and safety",
+  "noteId": "np5-pc-autism-spectrum",
+  "vignette": "A 4-year-old with autism spectrum disorder is admitted for an infection. He bangs his head against the bed rail when the usual nurse is replaced by a new one and his lunch comes on a different plate. His mother is anxious and asks the nurse many questions.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Pad the area to prevent injury and stay close",
+   "Explain the plate and staff changes to him at length",
+   "Answer all of his mother's questions before anything else",
+   "Ask him to stop and tell him why it is unsafe"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: head banging after changes in routine in a child with autism.\n2. Principle: injury risk is the priority diagnosis.\n3. Priority rule: protect first, then reduce change and communicate simply.\n4. The key beats explanations because safety is immediate.\nFlip: If he were calm and eating, keeping consistent staff and routine would lead.",
+  "optionRationales": [
+   "Correct. Risk for injury is the priority because he does not sense danger and head banging can hurt him.",
+   "Right idea to ease change but too wordy for him and not the immediate danger.",
+   "Family support matters but comes after his immediate safety.",
+   "He understands little speech and the behavior is a response to change."
+  ],
+  "strategy": "Safety first",
+  "archetype": "Protect from injury first",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Risk for injury is the priority",
+   "Consistent routine and short sentences"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0049",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Stimulant timing",
+  "noteId": "np5-pc-adhd",
+  "vignette": "A 9-year-old taking methylphenidate for ADHD has lost weight and eats little at lunch. His mother asks about timing and mentions he also has a second dose of another stimulant in the late afternoon that keeps him up at night.",
+  "stem": "Which teaching is most appropriate?",
+  "options": [
+   "Give it before breakfast on an empty stomach",
+   "Give the last dose at bedtime so it lasts overnight",
+   "Give extra sugar and caffeine to boost his weight",
+   "Give it after meals and give later doses early"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: weight loss, poor lunch intake and insomnia on stimulants.\n2. Principle: stimulants suppress appetite and cause insomnia.\n3. Priority rule: adjust timing and monitor growth.\n4. The key beats before-breakfast dosing because it limits appetite loss.\nFlip: If he also had palpitations, the provider would be notified at once.",
+  "optionRationales": [
+   "Increases appetite suppression.",
+   "Causes insomnia.",
+   "Both are avoided in ADHD care.",
+   "Correct. Dosing after meals limits appetite loss and an early final dose reduces insomnia."
+  ],
+  "strategy": "Time the dose to side effects",
+  "archetype": "Reduce appetite and sleep effects",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Give methylphenidate after meals",
+   "Monitor weight and height"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0050",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Paranoid personality approach",
+  "noteId": "np5-personality-clusters",
+  "vignette": "A client with paranoid personality disorder sees two staff whispering at the nurses' station and tells the nurse, 'They are talking about me.' The staff were discussing a lunch order. He is tense and looks around the unit.",
+  "stem": "Which approach is best?",
+  "options": [
+   "Argue that no one is talking about him and he must trust you",
+   "Join the staff and laugh with them to prove nothing is wrong",
+   "Be honest and straightforward and avoid whispering near him",
+   "Agree that the staff may be talking about him to gain trust"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: suspicion triggered by staff whispering.\n2. Principle: paranoid clients need openness and no secrecy.\n3. Priority rule: do not argue or agree; avoid whispering and laughing near him.\n4. The key beats arguing because it maintains trust.\nFlip: If he expressed a plan to harm the staff, safety would take priority.",
+  "optionRationales": [
+   "Argument deepens suspicion.",
+   "Laughing near a paranoid client increases suspicion.",
+   "Correct. Honesty, openness and not arguing about suspicions build trust with a paranoid client.",
+   "Agreeing reinforces the belief."
+  ],
+  "strategy": "Be honest; do not argue",
+  "archetype": "Be honest, not clever",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Paranoid: honest, no whispering or joking",
+   "Do not argue about suspicions"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ }
+]
