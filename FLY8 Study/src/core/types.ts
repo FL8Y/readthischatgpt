@@ -97,6 +97,16 @@ export interface AttemptEvent {
   kind: AttemptKind;
   /** True when a hint was used before answering. Absent on old events (= not hinted). */
   hinted?: boolean;
+  /** Partial credit 0..1 (bank practice). Absent on old events: use `correct`. */
+  credit?: number;
+  /** Chosen option/column/choice indexes (-1 = left blank). */
+  selected?: number[];
+  /** Seconds spent on the item. */
+  seconds?: number;
+  /** Practice session this attempt belongs to. */
+  sessionId?: string;
+  /** Session mode ('quick', 'mock', ...). */
+  mode?: string;
 }
 
 /** One API provider in the owner's pool. Never exported in backups (apiKey is blanked). */
