@@ -11,7 +11,7 @@ import { space, useTheme } from './theme';
 
 const PRESETS = [5, 10, 20, 30, 50];
 
-/** Diagnostic gate (R-004): shown until the folder's diagnostic is done. StudyHub mounts it and runs the quiz. */
+/** Optional AI placement quiz (no longer a gate). StudyHub mounts it and runs the quiz. */
 export function Diagnostic({
   state,
   folder,
@@ -78,10 +78,10 @@ export function Diagnostic({
         <Illustration kind="quiz" />
       </View>
       <Text accessibilityRole="header" style={[type('title'), { color: colors.text }]}>
-        Start with a quick check
+        AI placement quiz
       </Text>
       <Text style={[type('body'), { color: colors.textDim }]}>
-        A short diagnostic shows where you stand. Lessons unlock after it, and your score decides which topics come first.
+        A short AI-written quiz from your notes shows where you stand and helps order your topics. It is optional: lessons and practice never wait for it.
       </Text>
       <Text style={[type('label'), { color: colors.textDim }]}>{`How many questions? (1-${DIAGNOSTIC_MAX})`}</Text>
       <ChoiceChips options={PRESETS} value={count} onChange={setCount} label="Number of questions" />

@@ -29,8 +29,11 @@ const msg = (e: unknown) => (e instanceof Error ? e.message : 'Something went wr
 const POP_COUNTS = [1, 2, 3, 4, 5] as const;
 const MODULE_COUNTS = [10, 20, 30, 50] as const;
 
-/** Study tab: diagnostic gate, then study order, pop quizzes, module quiz and the weakness loop. */
-export function StudyHub({ state, update }: { state: AppState; update: (s: AppState) => void }) {
+/**
+ * "Make new questions with AI" (opened from the Practice hub): study order, pop quizzes, module quiz and the weakness loop.
+ * The old diagnostic gate is now an optional card; nothing here is locked behind it.
+ */
+export function StudyHub({ state, update, onBack }: { state: AppState; update: (s: AppState) => void; onBack?: () => void }) {
   const { colors, type } = useTheme();
   const folder = state.folders[0];
   const [session, setSession] = useState<QuizSession | null>(null);
@@ -42,6 +45,7 @@ export function StudyHub({ state, update }: { state: AppState; update: (s: AppSt
   const [note, setNote] = useState('');
   /** The pop/module session just finished, kept so one optional hard round can be offered for it. */
   const [finished, setFinished] = useState<QuizSession | null>(null);
+  const [dxOpen, setDxOpen] = useState(false);
 
   if (!folder) {
     return (
@@ -57,8 +61,9 @@ export function StudyHub({ state, update }: { state: AppState; update: (s: AppSt
   const { rank, level } = rankFor(points);
   const header = (
     <Header
-      title="Study"
+      title="Make new questions"
       subtitle={folder.name}
+      onBack={onBack}
       right={<Chip icon="trophy-outline" tone="accent" text={`${rank} · level ${level}`} />}
     />
   );
@@ -74,7 +79,7 @@ export function StudyHub({ state, update }: { state: AppState; update: (s: AppSt
         onDone={(r) => {
           if (isDx) {
             update(completeDiagnostic(state, folder.id));
-            setNote(`Diagnostic done: ${r.correct}/${r.total} correct. Your lessons are unlocked.`);
+            setNote(`Placement quiz done: ${r.correct}/${r.total} correct.`);
           } else if (session.id.startsWith(HARD_PREFIX)) {
             setNote(`Hard round done: ${r.correct}/${r.total} correct.`);
           } else {
@@ -85,25 +90,6 @@ export function StudyHub({ state, update }: { state: AppState; update: (s: AppSt
           setSession(null);
         }}
       />
-    );
-  }
-
-  if (!canTeach(state, folder.id)) {
-    return (
-      <View style={{ flex: 1, backgroundColor: colors.bg }}>
-        {header}
-        <Screen>
-          {err ? <Chip tone="danger" icon="close-circle-outline" text={err} /> : null}
-          <Diagnostic
-            state={state}
-            folder={folder}
-            onSession={(s, n) => {
-              setErr(n ?? '');
-              setSession(s);
-            }}
-          />
-        </Screen>
-      </View>
     );
   }
 
@@ -214,6 +200,26 @@ export function StudyHub({ state, update }: { state: AppState; update: (s: AppSt
           </Card>
         ) : null}
         {err ? <Chip tone="danger" icon="close-circle-outline" text={err} /> : null}
+        {!canTeach(state, folder.id) ? (
+          dxOpen ? (
+            <Diagnostic
+              state={state}
+              folder={folder}
+              onSession={(s, n) => {
+                setErr(n ?? '');
+                setSession(s);
+              }}
+            />
+          ) : (
+            <Card>
+              <H>AI placement quiz (optional)</H>
+              <Text style={[type('body'), { color: colors.textDim }]}>
+                The free placement check is in Practice. This one writes its questions with AI from your notes. Nothing is locked without it.
+              </Text>
+              <Btn label="Set up AI placement quiz" kind="ghost" onPress={() => setDxOpen(true)} />
+            </Card>
+          )
+        ) : null}
         {streak > 0 && !note && !busy ? <Chip tone="warning" icon="flame" text={`${streak} day streak. Keep it going.`} /> : null}
 
         {showHard ? (
