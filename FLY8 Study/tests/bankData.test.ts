@@ -1,14 +1,18 @@
 import { describe, expect, it } from 'vitest';
+// No @types/node in this project: node built-ins are untyped here on purpose.
+// @ts-ignore
 import { readdirSync, readFileSync, statSync } from 'node:fs';
+// @ts-ignore
 import { join, relative } from 'node:path';
 import { validateBank, validateFile } from '../src/bank/validate';
 import type { BankItem } from '../src/bank/schema';
 
+declare const __dirname: string;
 const ROOT = join(__dirname, '..', 'data', 'bank');
 
 function walk(dir: string): string[] {
   const out: string[] = [];
-  for (const name of readdirSync(dir)) {
+  for (const name of readdirSync(dir) as string[]) {
     const p = join(dir, name);
     if (statSync(p).isDirectory()) {
       if (name === 'review') continue;

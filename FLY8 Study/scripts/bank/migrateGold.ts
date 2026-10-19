@@ -3,8 +3,12 @@
  * Run from "FLY8 Study":  node --experimental-strip-types scripts/bank/migrateGold.ts
  * (Node 22.18+ strips types by default.)
  */
+// No @types/node in this project; these built-ins are untyped on purpose.
+// @ts-ignore
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+// @ts-ignore
 import { dirname, resolve } from 'node:path';
+// @ts-ignore
 import { fileURLToPath, pathToFileURL } from 'node:url';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..', '..');
