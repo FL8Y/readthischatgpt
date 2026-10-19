@@ -39,6 +39,7 @@ export type StartRequest =
   | { kind: 'requeue' }
   | { kind: 'diagnostic' }
   | { kind: 'mock'; area: Area }
+  | { kind: 'case'; sets: number }
   | { kind: 'custom'; values: CustomValues };
 
 export interface PlanContext {
@@ -77,6 +78,7 @@ export function planSession(req: StartRequest, ctx: PlanContext): Plan {
       // Ids that left the bank are not "missing questions": ask for what exists.
       return done('requeue', { ids: sel.ids, requested: sel.ids.length, short: false });
     }
+    case 'case': return done('case', pick.caseStudy(sc, req.sets));
     case 'diagnostic': return done('diagnostic', pick.diagnostic(sc));
     case 'mock': {
       const available = ctx.items.filter((i) => i.area === req.area).length;

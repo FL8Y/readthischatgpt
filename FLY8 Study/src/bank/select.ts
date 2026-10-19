@@ -3,6 +3,7 @@ import {
   Picker, accuracyBy, latestByItem, makeRng, makeSelection, shuffled, smartSet, type KeyStat,
 } from './curate';
 import type { AttemptRecord, CustomFilter, Selection } from './types2';
+import { ClusterPicker, pickCaseSets } from '../ui/practice/caseLogic';
 
 /** Everything a selector needs, as plain data. Same seed + same data = same ids. */
 export interface SelectContext {
@@ -17,7 +18,7 @@ export const DIAGNOSTIC_AREAS: readonly Area[] = ['NP1', 'NP2', 'NP3', 'NP4', 'N
 export const DIAGNOSTIC_PER_AREA = 5;
 
 export function quick(ctx: SelectContext, n: number): Selection {
-  const picker = new Picker(n);
+  const picker = new ClusterPicker(n, ctx.items);
   picker.add(shuffled(ctx.items, makeRng(ctx.seed)));
   return picker.selection();
 }
@@ -50,7 +51,7 @@ export function custom(ctx: SelectContext, o: CustomOptions): Selection {
     if (filters.has('flagged') && !flagged.has(i.id)) return false;
     return true;
   });
-  const picker = new Picker(o.count);
+  const picker = new ClusterPicker(o.count, ctx.items);
   picker.add(shuffled(pool, makeRng(ctx.seed)));
   return picker.selection();
 }
@@ -81,7 +82,7 @@ export function diagnostic(ctx: SelectContext): Selection {
 /** Mock board for one area. Short mock (all available) when the area has fewer than `count`. */
 export function mock(ctx: SelectContext, area: Area, count: number): Selection {
   const pool = ctx.items.filter((i) => i.area === area);
-  const picker = new Picker(count);
+  const picker = new ClusterPicker(count, ctx.items);
   picker.add(shuffled(pool, makeRng(ctx.seed)));
   return picker.selection();
 }
@@ -111,6 +112,11 @@ export function requeue(ctx: SelectContext, dueIds: readonly string[]): Selectio
   const have = new Set(ctx.items.map((i) => i.id));
   const ids = [...new Set(dueIds)].filter((id) => have.has(id));
   return makeSelection(ids, new Set(dueIds).size);
+}
+
+/** Case-study mode: whole case sets only (never split). */
+export function caseStudy(ctx: SelectContext, sets: number): Selection {
+  return pickCaseSets(ctx.items, sets, ctx.seed);
 }
 
 /** Smart set (local curation). Logic lives in curate.ts. */
