@@ -1,0 +1,698 @@
+[
+ {
+  "id": "gen-fb-med-orders-oral-routes",
+  "area": "GEN",
+  "title": "Medication Order Types and Oral, Sublingual, Buccal and Topical Routes",
+  "body": "## What it is\nA medication order tells the nurse what to give, how much, by which route and how often. The type of order decides when and how many times you give the drug. The route decides how fast the drug acts and what can go wrong.\n\n## Must-know facts\nTypes of orders:\n- **Stat**: one dose, given right away (emergencies, sudden need).\n- **Single (one-time) dose**: given once at a set time (for example a pre-operative drug).\n- **Standing order**: stays in force until someone cancels it, or until a stated end date or number of days.\n- **PRN**: the nurse decides when to give it, based on assessment of the client's need (pain, nausea). Always check the minimum interval since the last dose.\n\nOral route:\n- Most convenient, usually cheapest, and safe because the skin is not broken.\n- Disadvantages: bad taste, may stain teeth, may irritate the stomach lining, risk of aspiration in a seriously ill client, and unsuitable for a client who is vomiting or cannot swallow.\n- **Never crush enteric-coated or sustained-release tablets**: crushing destroys the coating, so the drug is released all at once or damages the stomach.\n- Forms: solids (capsules, tablets, pills, powder) and liquids. Syrup is sugar-based, suspension is water-based (shake well before pouring), emulsion is oil-based, elixir is alcohol-based.\n\nSublingual: placed under the tongue to dissolve; absorbed quickly into the blood. Swallowing it lets stomach acid inactivate it.\n\nBuccal: held between the cheek and gum until dissolved. Do not chew, swallow or put under the tongue.\n\nTopical: applied to a limited area. Includes skin preparations, instillations or irrigations into body openings (eyes, ears, nose, rectum, vagina, bladder) and inhalations through a nebulizer or positive-pressure device.\n\n## How the exam asks about it\n- A client asks you to crush a sustained-release tablet: the correct answer is to refuse and ask for another form.\n- \"Which order needs to be given immediately and only once?\" Stat.\n- A PRN order: your judgement and assessment come first.\n\n## Related topics\n[[Parenteral Routes, Intradermal and Subcutaneous Injection]], [[Intramuscular and Intravenous Medication Administration]], [[Dosage Calculation and Pediatric Dose Rules]]\n\n## Check against your textbook\n- The handout says elixirs need a 30-minute wait; the reason is not given, so confirm the actual teaching (usually: do not rinse the mouth or take water right after, so the drug stays in contact).",
+  "tags": [
+   "pharmacology",
+   "medication administration",
+   "routes"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Types of medication orders",
+   "Routes of drug administration: oral, sublingual, buccal, topical"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-parenteral-id-sc",
+  "area": "GEN",
+  "title": "Parenteral Routes, Intradermal and Subcutaneous Injection",
+  "body": "## What it is\nParenteral means given by needle, bypassing the digestive tract. The route names tell you the target tissue.\n\n## Must-know facts\nRoutes by target:\n- Subcutaneous: just under the skin. Intramuscular: into muscle. Intradermal: into the dermis.\n- Intravenous: vein. Intra-arterial: artery. Intracardiac: heart muscle. Intraosseous: bone.\n- Intrathecal: spinal canal. Epidural: epidural space. Intrapleural: pleural space.\n\nIntradermal (ID):\n- Used for allergy testing, tuberculin skin testing and some vaccines.\n- Sites: inner forearm, upper chest, upper back below the scapulae.\n- Small needle (gauge 25-27, about 1/4 to 5/8 inch), bevel up, angle 10-15 degrees.\n- Inject a very small amount slowly until a **wheal (bleb)** forms. Do not massage, because rubbing spreads the drug and can distort the test reading.\n\nSubcutaneous (SC):\n- Typical drugs: vaccines, pre-operative medications, narcotics, insulin and heparin.\n- Sites: outer upper arm, front of thigh, abdomen, upper back (scapular area) and buttocks. Rotate sites to limit tissue damage.\n- Usual adult of normal weight: 25 gauge, 5/8 inch needle at 45 degrees. For an obese client a shorter 3/8 inch needle goes in at 90 degrees. A child may need a 1/2 inch needle at 45 degrees.\n- Do not massage after insulin, because rubbing speeds absorption and can cause a sudden drop in blood sugar.\n\n## Priority nursing actions\n1. Check the order and the \"rights\" of medication.\n2. Pick a healthy, intact site; avoid scars, lumps, bruises.\n3. Use the correct needle and angle for the route and the client's body build.\n4. Observe the site and the client's response afterwards.\n\n## Related topics\n[[Intramuscular and Intravenous Medication Administration]], [[Medication Order Types and Oral, Sublingual, Buccal and Topical Routes]], [[Mixing Medications in One Syringe and Mixing Insulins]]",
+  "tags": [
+   "pharmacology",
+   "injection",
+   "insulin"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Parenteral routes",
+   "Intradermal injection",
+   "Subcutaneous injection"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-im-iv-admin",
+  "area": "GEN",
+  "title": "Intramuscular and Intravenous Medication Administration",
+  "body": "## What it is\nIntramuscular (IM) injections put the drug deep into muscle for fairly fast absorption. Intravenous (IV) medication goes straight into the bloodstream, so it acts fastest and leaves the least room for error.\n\n## Must-know facts\nIM:\n- Needle length about 1 to 1 1/2 inches; gauge 20-23 depending on the muscle and the client's age.\n- Sites: dorsogluteal, ventrogluteal, deltoid, vastus lateralis and rectus femoris.\n- **Vastus lateralis is the site of choice for infants up to about 1 year.**\n- Do not inject into injured tissue or areas with nodules, lumps, abscess or tenderness.\n- Avoid major blood vessels, bone and the sciatic nerve (the reason the dorsogluteal site carries more risk).\n\nIV:\n- Chosen when a drug is too irritating for other routes or when a rapid effect is needed.\n- Ways to give: large-volume continuous infusion, intermittent (piggyback) infusion, volume-controlled infusion, IV push (bolus) and injection ports.\n- Always watch the client's reaction.\n\n## Priority nursing actions\n1. Verify order, client, drug, dose, route, time.\n2. Assess the site (IM) or the IV line for patency and signs of infiltration before giving anything (IV).\n3. Give IV push slowly as ordered, because rapid push can cause speed shock (see [[Complications of IV Infusion]]).\n4. Monitor for adverse reactions afterwards.\n\n## How the exam asks about it\n- Best IM site for a 6-month-old: vastus lateralis.\n- Which area to avoid: tissue with lumps or tenderness.\n\n## Related topics\n[[Parenteral Routes, Intradermal and Subcutaneous Injection]], [[IV Solutions: Isotonic, Hypotonic and Hypertonic]]\n\n## Check against your textbook\n- Modern guidance often prefers ventrogluteal over dorsogluteal because of the sciatic nerve. The handout lists both without comment.",
+  "tags": [
+   "pharmacology",
+   "injection",
+   "IV"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Intramuscular injection",
+   "Intravenous medication"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-dosage-calc",
+  "area": "GEN",
+  "title": "Dosage Calculation and Pediatric Dose Rules",
+  "body": "## What it is\nDrug computation turns the order (what is wanted) into the amount to draw up or give (what you actually measure), using what the label says is on hand.\n\n## Must-know facts\nSolid oral drugs:\n- Quantity to give = desired dose divided by stock (available) dose.\n\nLiquids (oral or parenteral):\n- Quantity = (desired dose divided by stock dose) multiplied by the volume the stock dose comes in.\n- Units must match first (mg with mg, mcg with mg converted).\n\nPediatric dose rules (estimates from the adult dose):\n- **Clark's rule**: weight in pounds divided by 150, times the adult dose.\n- **Fried's rule** (for infants): age in months divided by 150, times the adult dose.\n- **Young's rule**: age in years divided by (age in years + 12), times the adult dose.\n\n## Priority nursing actions\n1. Convert to the same unit.\n2. Compute, then ask \"does this amount make sense?\" (a tablet count of 20 is a warning sign).\n3. Have a second nurse verify high-alert drugs (insulin, heparin) per agency policy.\n4. Recheck with the label, the order and the client's weight where relevant.\n\n## How the exam asks about it\n- Straight \"ordered vs available\" problems and pediatric-rule problems. Write the formula first, then plug in numbers.\n- Pediatric doses in practice are normally set by weight (mg/kg) by the prescriber; the rules are for exams and rough checks.\n\n## Related topics\n[[IV Flow Rate Computation]], [[Preparing Medications from Ampules and Vials]]\n\n## Check against your textbook\n- Confirm which rule your school expects for infants; the handout gives Fried's in months.",
+  "tags": [
+   "pharmacology",
+   "computation",
+   "pediatric"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Calculating dosages",
+   "Clark's, Fried's and Young's rules"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-ampule-vial",
+  "area": "GEN",
+  "title": "Preparing Medications from Ampules and Vials",
+  "body": "## What it is\nAmpules are sealed glass containers; vials are rubber-capped bottles. They are prepared differently because a vial is a closed system that needs air to balance pressure, and an ampule is open once broken.\n\n## Must-know facts\nBoth:\n- Check the order, compare the label with the medication record, check expiry, and wash your hands.\n- Read the label three times: when taking it from the cart, before drawing up, and after drawing up.\n\nAmpule:\n- Flick the top so liquid falls to the bottom.\n- Protect your fingers with gauze or an alcohol wipe and snap the neck **away from you and others**.\n- Use a **filter needle** to draw up (to catch glass particles), keep the ampule on a flat surface or tilt it slightly, then swap to a regular needle for injection.\n- No air is injected into an ampule.\n\nVial:\n- Mix by rolling between the palms (do not shake), remove the cap, and clean the rubber stopper with antiseptic in circles.\n- Draw into the syringe air equal to the dose, push the air into the vial with the bevel above the liquid, then withdraw the dose.\n- Keep the needle tip below the fluid level; avoid taking the last drop.\n- Check the dose at eye level and expel air bubbles. Use the scoop method when recapping to keep the needle sterile; most agencies now prefer safety devices.\n\n## Priority nursing actions\n1. Safety (three label checks, correct drug).\n2. Asepsis (clean stopper, sterile needle).\n3. Accuracy of volume.\n\n## Related topics\n[[Mixing Medications in One Syringe and Mixing Insulins]], [[Dosage Calculation and Pediatric Dose Rules]]",
+  "tags": [
+   "pharmacology",
+   "aseptic technique",
+   "syringe"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Preparing medications from ampules",
+   "Preparing medications from vial"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-mix-syringe-insulin",
+  "area": "GEN",
+  "title": "Mixing Medications in One Syringe and Mixing Insulins",
+  "body": "## What it is\nCompatible drugs may be drawn into one syringe to spare the client an extra injection. The key rule: never contaminate one vial with the other.\n\n## Must-know facts\nTwo vials (A and B):\n1. Draw into the syringe air equal to the total volume you will remove from both vials.\n2. Inject the air for A into vial A without touching the liquid, pull the needle out.\n3. Inject the remaining air into vial B, then withdraw the required dose from B.\n4. Take a fresh needle and withdraw the required amount from A without pushing the plunger (that would push B into A).\n\nVial plus ampule:\n- Prepare the vial first; the ampule needs no air, so draw its dose last.\n\nInsulins (example in the handout):\n- Inject air equal to the NPH dose into the NPH vial (30 units), withdraw the needle without taking any insulin.\n- Inject air equal to the regular dose (10 units) into the regular vial and **withdraw the regular insulin first**.\n- Then go back into the NPH vial and withdraw its dose. Total in the syringe is regular plus NPH.\n- Mix the cloudy insulin (NPH) by rolling gently before drawing up.\n\n## Memory aid\n\"Clear before cloudy\" (regular is clear, NPH is cloudy), a common made-up memory phrase, not from the handout.\n\n## Priority nursing actions\nVerify both orders and compatibility, then draw in the order above. A wrong order contaminates the clear insulin and changes its action.\n\n## Related topics\n[[Preparing Medications from Ampules and Vials]], [[Parenteral Routes, Intradermal and Subcutaneous Injection]]\n\n## Check against your textbook\n- The unit numbers are just an example in the handout. Do not memorize them as fixed doses.",
+  "tags": [
+   "pharmacology",
+   "insulin",
+   "syringe"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Mixing medications using one syringe",
+   "Mixing insulins"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-iv-solutions",
+  "area": "GEN",
+  "title": "IV Solutions: Isotonic, Hypotonic and Hypertonic",
+  "body": "## What it is\nIV fluids supply water and electrolytes when a client cannot take oral fluids. The choice depends on whether the fluid should stay inside the blood vessels, enter cells, or pull water out of cells.\n\n## Must-know facts\n- **Isotonic**: same concentration as plasma; expands the blood volume. Examples: 0.9% sodium chloride (normal saline), lactated Ringer's, D5W.\n- **Hypotonic**: lower concentration than plasma; water moves into cells. Examples: 0.45% saline (half-normal), 0.33% saline.\n- **Hypertonic**: higher concentration than plasma; draws water out of cells into blood. Examples in the handout: D5 in normal saline, D5 in 0.45% saline, D5 in lactated Ringer's.\n- Lactated Ringer's contains lactate, which the liver turns into bicarbonate, so it is alkalinizing and may be used for metabolic acidosis.\n- Saline and balanced solutions are used to restore vascular volume after trauma or surgery.\n- **Volume expanders** (dextran, plasma, albumin) raise blood volume after severe blood or plasma loss.\n\n## Priority nursing actions\n1. Check the solution against the order: right fluid, rate, additives.\n2. Inspect the bag: clear, in date, intact.\n3. Monitor intake, output, vital signs and lung sounds, especially with hypertonic fluids.\n\n## How the exam asks about it\n- \"Which fluid is isotonic?\" or \"Which is used first for hypovolemia?\" (isotonic saline).\n\n## Related topics\n[[Venipuncture Sites and IV Equipment]], [[Complications of IV Infusion]]\n\n## Check against your textbook\n- The handout labels dextrose-in-saline mixes hypertonic. D5W itself is isotonic in the bag but acts like free water once the sugar is used. Confirm how your school groups these.",
+  "tags": [
+   "fluids and electrolytes",
+   "IV therapy"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Parenteral fluid and electrolyte replacement",
+   "Types of intravenous solutions"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-venipuncture-equipment",
+  "area": "GEN",
+  "title": "Venipuncture Sites and IV Equipment",
+  "body": "## What it is\nChoosing the right vein and the right equipment lowers the risk of infiltration, phlebitis and infection.\n\n## Must-know facts\nSite choice depends on age, how long the infusion will run, the solution, and vein condition.\n- Adults: veins of the arm and hand (metacarpal, basilic, cephalic).\n- Infants: scalp and dorsal foot veins.\n- Large veins for rapid infusions or irritating solutions.\n- A **central venous catheter** is used for long-term therapy, parenteral nutrition, or drugs that damage small veins.\n\nVein selection:\n- Start with the distal veins of the arm and use the non-dominant arm when possible.\n- Pick veins that feel soft and full, are easy to feel, are splinted by bone, and are big enough for blood to flow around the catheter.\n- Avoid veins over joints, very visible rolling veins, previously damaged or scarred veins, hard or knotted veins, and injured or surgically affected limbs.\n\nEquipment:\n- Containers come in 50, 100, 250, 500 and 1000 mL; small ones carry medications.\n- Solution must be sterile, clear and in date. **Cloudiness means contamination.**\n- Infusion set: spike, drip chamber, roller clamp or screw clamp (controls rate), protective cap and injection ports.\n- Over-the-needle catheter (angiocath) is common in adults: the needle is removed after insertion. Butterfly (winged) needles are used for short use.\n\n## Related topics\n[[IV Solutions: Isotonic, Hypotonic and Hypertonic]], [[IV Flow Rate Computation]], [[Complications of IV Infusion]]",
+  "tags": [
+   "IV therapy",
+   "equipment"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Venipuncture sites",
+   "Guidelines in vein selection",
+   "Intravenous equipment",
+   "Infusion sets"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-iv-flow-rate",
+  "area": "GEN",
+  "title": "IV Flow Rate Computation",
+  "body": "## What it is\nYou must know how fast a solution should run so the client gets the right volume over the ordered time.\n\n## Must-know facts\n- **Drops per minute** = (total volume in mL x drop factor) divided by (total time in minutes). The handout writes time as hours x 60 minutes, which is the same thing.\n- **mL per minute** (or mL per hour) = total volume divided by total time.\n- The drop factor (gtt/mL) is printed on the tubing package. Macrodrip sets deliver larger drops; microdrip sets deliver smaller ones, used for small volumes and children.\n\n## Steps\n1. Convert time to minutes (hours x 60).\n2. Check the drop factor on the set.\n3. Compute, round to a whole number of drops.\n4. Count drops for a full minute at the drip chamber and adjust the roller clamp.\n5. Recheck regularly; position changes alter the rate.\n\n## Priority nursing actions\nAssess the client first (lungs, heart, kidney status). A correct number is not safe if the client cannot tolerate the volume.\n\n## Related topics\n[[Dosage Calculation and Pediatric Dose Rules]], [[Complications of IV Infusion]]",
+  "tags": [
+   "computation",
+   "IV therapy"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Computation of intravenous infusion"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-iv-complications",
+  "area": "GEN",
+  "title": "Complications of IV Infusion",
+  "body": "## What it is\nProblems that happen with IV therapy; most are caught by regular checking of the site and the client.\n\n## Must-know facts\n- **Infiltration**: needle or catheter out of the vein, fluid collects in tissue. Signs: swelling, cool pale skin, pain at the site. Action: stop the infusion, restart at a different site, limit movement of the arm.\n- **Circulatory (fluid) overload**: too much volume. Signs: engorged neck veins, hypertension, dyspnea. Action: slow the rate, notify the physician, monitor vital signs and rate. Raising the head helps breathing.\n- **Superficial thrombophlebitis**: from overused vein, irritating drugs, clots, large catheters. Signs: tenderness, redness, warmth, slight swelling above the site. Action: stop the infusion, apply warm moist compress, avoid the vein, restart elsewhere.\n- **Air embolism**: air enters the circulation. Action: position the client on the **left side** (and, per most textbooks, head down) and call for help urgently, especially with sudden chest pain or breathlessness.\n- **Infection**: fever, malaise, pain, swelling or drainage at the site. Prevention: aseptic technique, regular dressing changes, hand washing. Give antibiotics as ordered.\n- **Speed shock**: IV push given too fast. Signs: pounding headache, fainting, chills, fast pulse, back pain, apprehension, dyspnea. Action: refer to the physician, monitor vital signs and rate; use proper tubing, especially for children.\n\n## Priority nursing actions\nStop or slow the infusion, protect the airway and circulation (ABC), assess, notify, then document. For suspected air embolism act immediately.\n\n## Related topics\n[[IV Solutions: Isotonic, Hypotonic and Hypertonic]], [[Intramuscular and Intravenous Medication Administration]], [[Types of Shock]]\n\n## Check against your textbook\n- The handout gives only left side lying for air embolism; many textbooks add Trendelenburg. Confirm.",
+  "tags": [
+   "IV therapy",
+   "complications",
+   "air embolism"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Complications of IV infusion: infiltration, circulatory overload, phlebitis, air embolism, infection, speed shock"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-blood-products-prep",
+  "area": "GEN",
+  "title": "Blood Products and Preparing a Transfusion",
+  "body": "## What it is\nTransfusion puts whole blood or a blood component into the vein. Safety checks matter because an ABO mismatch can be fatal.\n\n## Must-know facts\nProducts and use:\n- Whole blood: extreme acute hemorrhage.\n- Packed red cells: raise oxygen-carrying capacity.\n- Autologous red cells: replacement after planned elective surgery.\n- Platelets: bleeding disorders or low platelets.\n- Fresh frozen plasma: expands volume and supplies clotting factors.\n- Albumin and plasma protein fraction: volume expanders and protein.\n- Clotting factors and cryoprecipitate: clotting factor deficiency.\n\nRules:\n- Get blood from the blood bank only when ready to start. Packed cells should not hang more than about 4 hours after leaving the refrigerator, and the transfusion should be done within 4 hours.\n- Do not leave blood at room temperature more than 30 minutes before starting.\n- Use an 18-20 gauge catheter and a Y-type set with a filter.\n- **Only 0.9% saline goes with blood**; dextrose causes hemolysis.\n- Change the blood tubing after 4-6 units per policy.\n\n## Priority nursing actions\n1. Identify the client and explain the procedure; ask them to report chills, itch, rash, dyspnea, back pain.\n2. Two nurses check the blood bag against the record: name, ID number, ABO and Rh, donor number, expiry.\n3. Prime the Y-set with saline, mix the bag gently, connect, and start slowly.\n4. Stay with the client for the first 5-15 minutes; run at about 10 drops/min for the first 15 minutes.\n5. Check vital signs at 15 minutes, then about every 30 minutes (or per policy).\n6. At the end flush with saline, change tubing, document.\n\n## Related topics\n[[Blood Transfusion Reactions]], [[IV Solutions: Isotonic, Hypotonic and Hypertonic]]",
+  "tags": [
+   "blood transfusion",
+   "safety"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Blood transfusion",
+   "Blood products for transfusion",
+   "Administering blood",
+   "Initiating, maintaining and terminating blood transfusion"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-transfusion-reactions",
+  "area": "GEN",
+  "title": "Blood Transfusion Reactions",
+  "body": "## What it is\nAdverse effects of transfusion. The first action in nearly every type is the same: **stop the transfusion**.\n\n## Must-know facts\n- **Hemolytic**: donor and client blood are incompatible. Signs: chills, fever, headache, back pain, dyspnea, cyanosis, chest pain, fast pulse, low blood pressure. Actions: stop, keep the line open with saline (new tubing), notify the physician, monitor vital signs and intake/output, send the remaining blood, tubing and a client sample to the laboratory.\n- **Febrile**: reaction to white cells, platelets or plasma proteins. Signs: fever, chills, flushed warm skin, headache, anxiety, muscle pain. Actions: stop, antipyretic as ordered, notify, keep vein open.\n- **Mild allergic**: reaction to plasma protein. Signs: flushing, itching, hives, wheezing. Actions: stop or slow, notify, antihistamine as ordered.\n- **Severe allergic (anaphylactic)**: dyspnea, chest pain, collapse, cardiac arrest. Actions: stop, keep vein open with saline, call the physician at once, monitor vital signs, give drugs and oxygen as ordered.\n- **Circulatory overload**: blood too fast. Signs: cough, dyspnea, crackles, distended neck veins, tachycardia, hypertension. Actions: upright with feet down, stop or slow, notify, give diuretics and oxygen as ordered.\n- **Sepsis (contaminated blood)**: high fever, chills, vomiting, diarrhea, low blood pressure. Actions: stop, keep vein open, notify, IV fluids and antibiotics as ordered, blood cultures, send blood and tubing to the lab.\n\n## Priority nursing actions\nStop transfusion, keep the vein open with new tubing and saline (so you do not push residual blood), assess ABC, notify the physician, send evidence to the lab.\n\n## Related topics\n[[Blood Products and Preparing a Transfusion]], [[Types of Shock]], [[Sepsis and Septic Shock Recognition]]",
+  "tags": [
+   "blood transfusion",
+   "emergency",
+   "complications"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Transfusion reaction: hemolytic, febrile, allergic, circulatory overload, sepsis"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-nosocomial-disinfection",
+  "area": "GEN",
+  "title": "Nosocomial Infection, Disinfectants and Antiseptics",
+  "body": "## What it is\nA healthcare-associated (nosocomial) infection is one tied to care in a health facility; it may appear during the stay or after discharge.\n\n## Must-know facts\nTypes by source:\n- **Endogenous**: organisms come from the client's own body.\n- **Exogenous**: organisms come from the hospital environment or staff.\n- **Iatrogenic**: a direct result of a diagnostic or treatment procedure.\n\nDisinfectant versus antiseptic:\n- Disinfectants (phenol, iodine compounds) are used on **objects**; often harsh or toxic to tissue.\n- Antiseptics are used on **skin and tissue**; bactericidal destroys bacteria, bacteriostatic stops growth.\n\nDisinfection types:\n- Concurrent: done continuously during care.\n- Terminal: after the illness is no longer communicable, cleaning belongings and surroundings.\n\nAgents as given in the handout:\n- Alcohols (isopropyl, ethyl): hands and vial stoppers.\n- Chlorine (bleach): blood spills.\n- Hydrogen peroxide: surfaces.\n- Iodophors: equipment, intact skin or diluted for tissue.\n- Phenol: surfaces.\n- Chlorhexidine: hands.\n- Triclosan: hands and intact skin.\n\n## Priority nursing actions\nHand hygiene first (cheapest and most effective), then use of the right agent for the right target.\n\n## Related topics\n[[Sterilization Methods]], [[Standard Precautions]]\n\n## Check against your textbook\n- The handout lists nearly every agent as killing everything, which is oversimplified. Confirm spectrum (for example alcohol does not kill spores).",
+  "tags": [
+   "infection control",
+   "disinfection"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Asepsis and infection control: nosocomial infection",
+   "Disinfecting and sterilizing",
+   "Types of disinfection",
+   "Commonly used antiseptics and disinfectants"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-sterilization",
+  "area": "GEN",
+  "title": "Sterilization Methods",
+  "body": "## What it is\nSterilization destroys all microorganisms, including spores and viruses. Disinfection does not do all of that.\n\n## Must-know facts\n- **Moist heat (steam under pressure, autoclave)**: higher than boiling point. The handout gives 15-17 pounds pressure and 121-123 degrees Celsius.\n- **Gas (ethylene oxide)**: penetrates well and suits heat-sensitive items. Disadvantage: toxic to humans, so items need proper aeration.\n- **Radiation**: ultraviolet light does not penetrate deeply. It is used for heat-sensitive items such as food and drugs. Ionizing radiation is effective but expensive.\n\n## How the exam asks about it\n- Which method for heat-sensitive equipment: ethylene oxide gas.\n- Which is the most common hospital method: steam autoclave.\n\n## Related topics\n[[Nosocomial Infection, Disinfectants and Antiseptics]], [[Standard Precautions]]\n\n## Check against your textbook\n- Confirm autoclave temperature/time values, which differ by source (121 and 134 degrees are both used).",
+  "tags": [
+   "infection control",
+   "sterilization"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Sterilization"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-standard-precautions",
+  "area": "GEN",
+  "title": "Standard Precautions",
+  "body": "## What it is\nThe base level of infection control used for **every** client, whatever the diagnosis. It treats blood, all body fluids, secretions, excretions (except sweat), non-intact skin and mucous membranes as possibly infectious. It combines universal precautions with body substance isolation.\n\n## Must-know facts\n- **Hand hygiene** after touching blood, fluids, secretions or contaminated items, **whether or not gloves were worn**, and immediately after removing gloves. Plain soap for routine washing; antimicrobial agent for outbreaks.\n- **Gloves** when touching these substances or soiled items; clean gloves are enough unless the task needs sterility. Remove them before touching clean surfaces, then wash hands.\n- **Mask, eye protection or face shield** if splashes are expected.\n- **Clean gown** to protect clothing; remove carefully, then wash hands.\n- Handle soiled equipment so it does not contaminate others; clean and reprocess reusable items, discard single-use items.\n- Handle soiled linen so it does not contaminate clothes or environment.\n- Prevent sharps injury; put used needles and blades in puncture-resistant containers.\n\n## Priority nursing actions\nProtect yourself and the next client: hand hygiene, glove, then PPE as the task requires, then safe disposal.\n\n## Related topics\n[[Transmission-Based Precautions]], [[Disposal of Soiled Items and Color-Coded Waste]]",
+  "tags": [
+   "infection control",
+   "standard precautions",
+   "PPE"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "CDC/HICPAC standard precautions"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-transmission-precautions",
+  "area": "GEN",
+  "title": "Transmission-Based Precautions",
+  "body": "## What it is\nExtra precautions added to standard precautions when an infection is known or suspected to spread in a specific way.\n\n## Must-know facts\nAirborne (tiny droplet nuclei under 5 microns that travel far):\n- Examples: measles, chickenpox (varicella, including zoster), pulmonary tuberculosis.\n- Private room with **negative air pressure**, 6-12 air changes per hour, air exhausted outside or filtered.\n- If no private room: place with another client infected by the same organism.\n- N95 respirator for staff with TB; susceptible people stay out of measles and chickenpox rooms.\n- Client wears a surgical mask during necessary transport.\n\nDroplet (larger particles over 5 microns, travel short distance):\n- Examples in the handout: diphtheria, mycoplasma pneumonia, pertussis, mumps, rubella, strep throat, scarlet fever in children, pneumonic plague.\n- Private room, mask when within about 3 feet, mask on client during transport.\n\nContact (direct touch or touching contaminated items):\n- Examples: multi-drug resistant organisms, C. difficile, Shigella, hepatitis A, RSV, herpes simplex, impetigo, lice, scabies.\n- Private room, gloves (change after contact with infective material, remove before leaving), hand washing with antimicrobial agent, gown if clothing may touch contaminated surfaces, dedicated equipment.\n- SARS needs standard plus contact plus airborne.\n\n## Priority nursing actions\nPut the client in the right type of room, put on the right protection before entering, limit client movement, and tell visitors what to wear.\n\n## How the exam asks about it\n- Match disease to precaution; choose the right room and mask for a given disease.\n\n## Related topics\n[[Standard Precautions]], [[Disposal of Soiled Items and Color-Coded Waste]]\n\n## Check against your textbook\n- The handout groups many diseases; some (for example hepatitis A, rubella) are classified differently in newer guidance. Confirm.",
+  "tags": [
+   "infection control",
+   "isolation",
+   "airborne",
+   "droplet",
+   "contact"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Transmission-based precautions: airborne, droplet, contact"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-waste-disposal",
+  "area": "GEN",
+  "title": "Disposal of Soiled Items and Color-Coded Waste",
+  "body": "## What it is\nRules for getting contaminated items out of the room without exposing staff or spreading germs.\n\n## Must-know facts\n- Items contaminated with pus, blood, fluids, feces or respiratory secretions go into a sturdy bag that microorganisms cannot pass through, before leaving the client's room. Use infection labels or colors. **Double-bag** when the bag is not sturdy or leak-proof.\n- Linen: handle as little as possible, with minimal shaking, then place in the hamper.\n- Lab specimens: leak-proof container with secure lid and biohazard label.\n- Dishes: no special precautions. Blood pressure equipment: no special precautions unless soiled.\n- Needles, syringes and sharps: puncture-resistant container.\n\nColor codes in the handout:\n- Black: non-biodegradable.\n- Orange: radioactive items.\n- Red: puncture-resistant (sharps).\n- Green: biodegradable.\n- Yellow: infectious items.\n\n## How the exam asks about it\n- Which bin for a used needle, soiled dressing, or food waste.\n\n## Related topics\n[[Standard Precautions]], [[Transmission-Based Precautions]]\n\n## Check against your textbook\n- Color schemes differ between agencies; confirm the Philippine DOH color code in your references.",
+  "tags": [
+   "infection control",
+   "waste",
+   "sharps"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Disposal of soiled equipment and supplies",
+   "Color-coded receptacles"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-hypoxia-breathing",
+  "area": "GEN",
+  "title": "Hypoxia and Abnormal Breathing Patterns",
+  "body": "## What it is\nOxygen makes up about 21% of air and is needed by every cell. Without it, cells, tissues and organs die.\n\n## Must-know facts\nTerms:\n- **Hypoxia**: not enough oxygen anywhere between inhaled air and tissues.\n- **Hypoxemia**: low oxygen in the blood.\n- **Hypoventilation**: inadequate alveolar ventilation.\n- **Hypercapnia**: carbon dioxide build-up in the blood.\n\nBreathing patterns:\n- Eupnea: normal. Tachypnea: fast. Bradypnea: abnormally slow. Apnea: no breathing.\n- **Kussmaul**: deep, rapid breathing.\n- **Cheyne-Stokes**: cycles from very deep to very shallow breathing then a pause of apnea.\n- **Biot**: shallow breaths interrupted by apnea.\n- Orthopnea: can breathe only upright. Dyspnea: difficult or uncomfortable breathing.\n\n## Priority nursing actions\nOxygenation is the first Maslow level (physiological), and airway/breathing come before circulation. Assess breathing, raise the head of bed, give oxygen as ordered and call for help if distress is severe.\n\n## How the exam asks about it\n- Matching a described pattern to its name.\n- Choosing the first action for a client with new shortness of breath: position upright and assess.\n\n## Related topics\n[[Breathing Exercises, Coughing and Incentive Spirometry]], [[Oxygen Therapy: Safety and Delivery Devices]], [[Respiratory Failure Recognition]]",
+  "tags": [
+   "oxygenation",
+   "respiratory",
+   "assessment"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Oxygenation",
+   "Alterations in respiratory functions",
+   "Altered breathing patterns"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-breathing-exercises-spirometry",
+  "area": "GEN",
+  "title": "Breathing Exercises, Coughing and Incentive Spirometry",
+  "body": "## What it is\nSimple exercises that expand the lungs, move secretions and prevent post-operative lung problems.\n\n## Must-know facts\nDeep breathing and coughing help remove secretions; breathing exercises suit clients with limited lung expansion.\n\nAbdominal (diaphragmatic) and pursed-lip breathing:\n- Semi-sitting or lying with knees bent; hand on the abdomen below the ribs.\n- Breathe in so the abdomen rises (no arching back).\n- Purse lips as if whistling and breathe out slowly, tightening the belly muscles.\n- Use whenever short of breath; build up to 5-10 minutes, four times daily.\n\nControlled and huff coughing:\n- Breathe in deeply, hold a few seconds, cough twice (first loosens, second expels).\n- Huff: lean forward and exhale sharply with a \"huff\"; then take short rapid breaths to stop mucus slipping back. Rest after, because over-coughing causes fatigue and hypoxemia.\n\nIncentive spirometer (sustained maximal inspiration):\n- Purpose: improve ventilation, counter the shallow breathing after anesthesia, loosen secretions, expand collapsed alveoli.\n- Hold upright, exhale normally, seal lips on the mouthpiece, take a **slow, deep** breath to raise the balls/cylinder, hold 2 seconds at first and work up to about 6.\n- Fast, shallow breaths defeat the purpose. A nose clip helps if air escapes by the nose.\n- Cough afterwards, rest, repeat several times, and four or five times an hour. Rinse the mouthpiece and shake it dry.\n\n## Related topics\n[[Hypoxia and Abnormal Breathing Patterns]], [[Chest Physiotherapy: Percussion, Vibration and Postural Drainage]]",
+  "tags": [
+   "oxygenation",
+   "client teaching",
+   "post-operative"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Promoting oxygenation: deep breathing and coughing",
+   "Abdominal and pursed-lip breathing",
+   "Controlled and huff coughing",
+   "Incentive spirometry"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-chest-physio",
+  "area": "GEN",
+  "title": "Chest Physiotherapy: Percussion, Vibration and Postural Drainage",
+  "body": "## What it is\nA dependent nursing action done on the order of the primary care provider to loosen and drain lung secretions.\n\n## Must-know facts\n- Usual order: **postural drainage, percussion, vibration, then coughing or suctioning**.\n- Each position is held about 10-15 minutes.\n- **Percussion** (\"clapping\"): cupped hands, fingers together, alternate wrist flexion and extension over the congested segment for 1-2 minutes. Cover the area with a towel or gown. Avoid breasts, sternum, spine and kidneys.\n- **Vibration**: used after percussion; hands flat, one over the other, tense arm muscles and vibrate **only during exhalation** (stop on inhalation), for about five exhalations per segment, then encourage coughing.\n- **Postural drainage**: gravity moves secretions from lung segments. Lower lobes need drainage most often. Not every position is needed for every client.\n- Schedule 2-3 times a day: before breakfast, before lunch, late afternoon and before bedtime. A bronchodilator or nebulizer may be given first.\n\n## Priority nursing actions\n1. Check vital signs, pulse and respiratory rate, and lung sounds first.\n2. Do the therapy, watch tolerance.\n3. Afterwards auscultate again, compare with baseline, and record amount, color and character of sputum.\n\n## Related topics\n[[Breathing Exercises, Coughing and Incentive Spirometry]], [[Airway Suctioning]]",
+  "tags": [
+   "oxygenation",
+   "respiratory care",
+   "procedure"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Percussion, vibration and postural drainage"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-oxygen-therapy",
+  "area": "GEN",
+  "title": "Oxygen Therapy: Safety and Delivery Devices",
+  "body": "## What it is\nOxygen is a drug: it needs an order and a set flow rate. It helps clients who ventilate poorly, have impaired gas exchange, or have heart failure.\n\n## Must-know facts\nSafety (oxygen supports fire):\n- No smoking signs on the door, bed and equipment.\n- Electrical devices in good order; ground monitors and suction machines.\n- Avoid static (wool, synthetic fabrics); use cotton.\n- Avoid oils, grease, alcohol, ether, acetone near oxygen.\n- Know where fire extinguishers are.\n\nDevices (values from the handout):\n- **Nasal cannula**: most common and cheap; 24-45% at 2-6 L/min; limits: cannot give higher concentration and dries/irritates the nose.\n- **Simple face mask**: 40-60% at 5-10 L/min.\n- **Partial rebreather**: 60-90% at 6-10 L/min; client rebreathes roughly the first third of exhaled air.\n- **Non-rebreather**: highest concentration, 95-100% at 10-15 L/min.\n- **Venturi mask**: precise concentration, roughly 24-40 or 50% at 4-10 L/min.\n- **Face tent**: when masks are not tolerated; about 30-50% at 4-8 L/min; keep the face skin dry.\n\n## Priority nursing actions\nCheck order and device, set flow, assess breathing and skin, keep the reservoir bag of a rebreather mask inflated (standard teaching), and teach fire safety.\n\n## Related topics\n[[Hypoxia and Abnormal Breathing Patterns]], [[Tracheostomy Care]], [[Respiratory Failure Recognition]]\n\n## Check against your textbook\n- Percentages are estimates; the \"3050%\" in the handout is read as 30-50%.",
+  "tags": [
+   "oxygenation",
+   "oxygen therapy",
+   "safety"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Oxygen therapy",
+   "Safety precautions",
+   "Oxygen delivery system"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-tracheostomy-care",
+  "area": "GEN",
+  "title": "Tracheostomy Care",
+  "body": "## What it is\nA tracheostomy is an opening into the windpipe through the neck. A curved tube through the stoma forms an artificial airway.\n\n## Must-know facts\nCleaning is done with **sterile technique** and the airway comes first.\n\n## Priority nursing actions (in order)\n1. Hand hygiene, identify the client, give privacy.\n2. Position semi-Fowler's or Fowler's.\n3. Open the sterile kit; **suction first if secretions are present**, so the airway is clear.\n4. Sterile gloves. Unlock the inner cannula (counter-clockwise) and take it out following the curve; place in soaking solution.\n5. Remove the soiled dressing, change gloves.\n6. Clean the inner cannula with brush or pipe cleaner, check by holding it to the light, rinse with sterile saline, tap off excess, dry the inside only.\n7. Reinsert along the curve and lock.\n8. Clean the stoma and flange with saline-moistened gauze or applicators, one stroke per piece; hydrogen peroxide can loosen crusts, then rinse well. Dry the skin.\n9. Use a non-raveling pre-cut dressing or a folded 4 x 4 gauze (no cotton-filled or cut gauze).\n10. Change the ties while the tube is held; tie with a pad under the knot; check tightness (usually one finger).\n11. Document.\n\n## Complications and red flags\nBlocked airway, bleeding, infection, tube displacement: these are emergencies; call for help and maintain oxygenation.\n\n## Related topics\n[[Airway Suctioning]], [[Oxygen Therapy: Safety and Delivery Devices]]",
+  "tags": [
+   "oxygenation",
+   "tracheostomy",
+   "sterile technique"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Tracheostomy",
+   "Tracheostomy care"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-airway-suctioning",
+  "area": "GEN",
+  "title": "Airway Suctioning",
+  "body": "## What it is\nRemoving secretions through a catheter connected to a suction source. Use **sterile technique** to avoid pushing germs into the lungs.\n\n## Must-know facts\nCatheters and equipment:\n- Whistle-tip catheters irritate less; open-tip catheters clear thick plugs better.\n- Yankauer is for the mouth and throat.\n- Catheter sizes (Fr): adult 12-18, child 8-10, infant 5-8.\n- Wall suction pressure: adult 100-120 mmHg, child 95-110, infant 50-95. Portable: adult 10-15, child 5-10, infant 2-5.\n- **Hyperinflation** = breaths 1-1.5 times the set tidal volume; **hyperoxygenation** = oxygen to 100% before and between passes.\n\nOral/nasal suction:\n- Conscious client: semi-Fowler's; unconscious: side-lying facing you.\n- Oral: advance about 10-15 cm; no suction while inserting.\n- Nasal: measure nose tip to earlobe (about 13 cm adult), lubricate, go along the floor of the nose, never force; try the other nostril.\n\nTracheostomy / endotracheal:\n- Hyperoxygenate or hyperventilate (resuscitation bag, 100% oxygen) first.\n- Insert about 12.5 cm or until the client coughs or you feel resistance, **without suction**.\n- Apply suction **5-10 seconds** while rotating and withdrawing; a whole pass should be 10-15 seconds at most.\n- Allow 2-3 minutes of oxygenation between passes; total suctioning limited to about 5 minutes.\n\n## Priority nursing actions\nOxygenate, suction briefly, reassess breathing and heart rate. Stop if the client becomes cyanotic, bradycardic or distressed.\n\n## Related topics\n[[Tracheostomy Care]], [[Oxygen Therapy: Safety and Delivery Devices]], [[Airway Obstruction and Choking]]\n\n## Check against your textbook\n- Pressure and time values vary slightly between texts; verify against your reference. The handout's \"12.5 cm (5 in)\" for adults is kept.",
+  "tags": [
+   "oxygenation",
+   "suctioning",
+   "sterile technique"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Suctioning",
+   "Oropharyngeal, nasopharyngeal and nasotracheal suctioning",
+   "Suctioning of tracheostomy or endotracheal tube"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-enteral-feeding-tubes",
+  "area": "GEN",
+  "title": "Enteral Feeding and Types of Feeding Tubes",
+  "body": "## What it is\nEnteral feeding delivers nutrition into the gut when a client cannot eat but the gut works. It is sometimes called total enteral nutrition.\n\n## Must-know facts\nRoutes: nasogastric, gastrostomy, jejunostomy.\n\nNasogastric tube uses:\n- Short-term feeding if gastric emptying is good (not for clients without gag and cough reflexes).\n- Prevent nausea, vomiting and distension after surgery.\n- Remove stomach contents for analysis.\n- Gastric lavage in poisoning or overdose.\n\nTube types:\n- Levin: single lumen, holes near the tip.\n- Salem sump: double lumen.\n- Sengstaken-Blakemore: triple lumen, for bleeding esophageal varices.\n- Miller-Abbott: intestinal decompression.\n- Nasoenteric: at least 40 inches long, ends in the upper small intestine. Indications: decreased consciousness, poor cough or gag reflex, endotracheal intubation, recent extubation, restlessness or an uncooperative client.\n\nFeeding schedules:\n- Intermittent: 300-500 mL several times daily.\n- Continuous: over 24 hours by infusion pump.\n- Cyclic: continuous but less than 24 hours.\n- Replace the bag and tubing every 24 hours.\n\n## Priority nursing actions\nVerify tube position before every feeding, raise the head of bed, watch for aspiration.\n\n## Related topics\n[[Inserting and Checking a Nasogastric Tube]], [[Gastrostomy, Jejunostomy and Parenteral Nutrition]]",
+  "tags": [
+   "nutrition",
+   "enteral feeding",
+   "tubes"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Enteral feeding",
+   "Enteral access device",
+   "Types of tubes"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-ng-insertion-check",
+  "area": "GEN",
+  "title": "Inserting and Checking a Nasogastric Tube",
+  "body": "## What it is\nPassing a tube through the nose into the stomach, then confirming its position before use.\n\n## Must-know facts\nInsertion:\n- Position high Fowler's with head supported (easier swallowing, gravity helps).\n- Choose the nostril with better airflow. Measure from nose tip to earlobe to xiphoid process.\n- Lubricate with **water-soluble** lubricant, because oil-based jelly could cause lipid pneumonia if the tube enters the lung.\n- Advance along the floor of the nose toward the ear, avoiding the turbinates.\n- Once past the nasopharynx, have the client tilt the head forward and sip and swallow to guide the tube down the esophagus.\n- Never force. If resistance, withdraw, relubricate, try the other nostril. If the client gags and the tube won't advance, it may be coiled in the throat: pull back and inspect.\n- Tape over the bridge of the nose, splitting the tape to avoid pressure on the nostril, and pin the tube to the gown.\n\nChecking placement:\n- Aspirate stomach contents: gastric pH is usually 1-5 (the handout). Bilirubin testing can also separate lung, stomach and intestine.\n- Confirm by X-ray (tubes are radiopaque). The handout also lists air injection with listening at the epigastrium.\n\nFeeding:\n- Fowler's position at least 30 degrees (or right side-lying if sitting is contraindicated).\n- Aspirate and measure residual before feeding. If about 100 mL is returned, follow agency policy about re-instilling or delaying.\n- Warm feeding to room temperature.\n\n## Priority nursing actions\nAirway protection first: confirm position (pH or X-ray) before every use; stop if the client coughs, becomes cyanotic or short of breath.\n\n## Related topics\n[[Enteral Feeding and Types of Feeding Tubes]], [[Gastrostomy, Jejunostomy and Parenteral Nutrition]]\n\n## Check against your textbook\n- Auscultation of injected air alone is no longer considered reliable; X-ray is the gold standard.\n- The handout mentions neck hyperextension and then head forward; many textbooks teach head neutral/slightly flexed. Confirm.\n- Bilirubin values in the handout look garbled; do not memorize them.",
+  "tags": [
+   "nutrition",
+   "nasogastric tube",
+   "aspiration"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Inserting a nasogastric tube",
+   "Checking tube placement and feeding"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-gastrostomy-tpn",
+  "area": "GEN",
+  "title": "Gastrostomy, Jejunostomy and Parenteral Nutrition",
+  "body": "## What it is\nSurgical tube feeding routes for long-term needs, and intravenous nutrition for when the gut cannot be used.\n\n## Must-know facts\nGastrostomy / jejunostomy:\n- For long-term support, usually beyond 6-8 weeks.\n- Tubes are placed by surgery or laparoscopy into the stomach or jejunum.\n- After feeding, keep the client sitting or in slight right side-lying for at least 30 minutes (aspiration risk).\n- Check the skin around the stoma, since digestive juices can irritate it.\n\nParenteral nutrition (TPN):\n- Used when the gut is non-functional or cannot absorb.\n- Given by a **central venous catheter into the superior vena cava**.\n- Contains dextrose, water, fat, protein, electrolytes, vitamins, trace elements. It is hypertonic and is diluted by the high blood flow.\n- Goal: anabolic state and nitrogen balance in severe malnutrition, severe burns or bowel disease.\n- Start **gradually** to prevent hyperglycemia; stop **gradually** to prevent rebound hypoglycemia (hyperinsulinemia). Weaning can take 48 hours or as little as 6 hours if carbohydrates are given orally or IV.\n- Strict infection control.\n\n## Priority nursing actions\nAseptic technique for the line and dressing, monitor blood glucose, weight and fluid balance, never abruptly stop the infusion.\n\n## Related topics\n[[Enteral Feeding and Types of Feeding Tubes]], [[Inserting and Checking a Nasogastric Tube]], [[Complications of IV Infusion]]",
+  "tags": [
+   "nutrition",
+   "TPN",
+   "gastrostomy"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Gastrostomy and jejunostomy",
+   "Parenteral nutrition"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-stool-fecal-problems",
+  "area": "GEN",
+  "title": "Normal and Abnormal Stool and Fecal Elimination Problems",
+  "body": "## What it is\nStool appearance tells a lot about digestion and bleeding.\n\n## Must-know facts\nNormal stool:\n- Color: adult brown, infant yellow.\n- Consistency: formed, soft, semisolid, moist.\n- Shape: cylindrical, about 2.5 cm wide.\n- Amount: depends on diet (100-400 g a day).\n- Odor: aromatic. Contains roughage, dead bacteria and cells, some fat and protein.\n\nAbnormal:\n- Color: clay or white, black or tarry, red, pale, orange or green.\n- Hard, dry or watery.\n- Narrow, pencil-like or string-like shape.\n- Pungent odor; pus, mucus, parasites, blood, much fat, foreign objects.\n\nProblems:\n- **Constipation**: fewer than three bowel movements a week.\n- **Fecal impaction**: hardened mass of stool in the rectum from prolonged retention.\n- **Diarrhea**: liquid stool, increased frequency, rapid movement through the large intestine.\n- **Bowel incontinence**: loss of voluntary control of stool or gas.\n- **Flatulence**: too much gas stretching the intestine.\n\n## Priority nursing actions\nAssess pattern and appearance, report black tarry or red stool, and treat the cause (fluids, fiber, mobility). See [[Bowel Ostomy Care and Promoting Regular Defecation]].\n\n## Related topics\n[[Types of Enema]], [[Bowel Ostomies]]\n\n## Check against your textbook\n- Black tarry stool usually means upper GI bleeding, clay-colored stool means bile obstruction. The handout lists colors without explaining; confirm.",
+  "tags": [
+   "elimination",
+   "bowel",
+   "assessment"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Bowel/fecal elimination",
+   "Characteristics of normal and abnormal feces",
+   "Fecal elimination problems"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-enema-types",
+  "area": "GEN",
+  "title": "Types of Enema",
+  "body": "## What it is\nAn enema is fluid put into the rectum and colon to stretch the bowel and irritate its lining so peristalsis moves stool or gas out.\n\n## Must-know facts\nTypes:\n- **Cleansing**: before surgery or tests (such as colonoscopy), or to remove stool in constipation or impaction. High enema: client changes from left lateral to dorsal recumbent to right lateral so fluid follows the colon; container 12-18 inches above the rectum. Low enema: cleans only rectum and sigmoid; container no higher than 12 inches.\n- **Carminative**: expels flatus; 60-80 mL in an adult.\n- **Retention**: oil or medication kept in rectum and sigmoid for a long time to soften stool and lubricate.\n- **Return flow (Harris flush)**: 100-200 mL moved in and out 5-6 times to expel flatus.\n\nSolutions:\n- Hypertonic (Fleet): 90-120 mL, 5-10 minutes; draws water into colon.\n- Hypotonic (tap water): 500-1000 mL, 15-20 minutes; distends and stimulates.\n- Isotonic (saline): similar volume.\n- Soapsuds: 500-1000 mL with 3-5 mL soap per 1000 mL water, 10-15 minutes; irritates.\n- Oil: 90-120 mL, 1-3 hours; lubricates.\n\nRectal tube: adult Fr 22-32, insert 3-4 inches; child Fr 14-18, 2-3 inches; infant Fr 12, 1-1.5 inches.\n\n## Priority nursing actions\n1. Check the order, give privacy, position left side-lying (Sims'), relax the client.\n2. Lubricate the tube, expel air, insert slowly 3-4 inches.\n3. Give slowly. If cramps occur, lower the container or clamp for 30 seconds then restart slowly.\n4. Have the client hold the fluid, then defecate; observe the return; do perineal care; document.\n\n## Related topics\n[[Normal and Abnormal Stool and Fecal Elimination Problems]], [[Bowel Ostomies]]\n\n## Check against your textbook\n- The handout says retention enemas stay \"13 hours\", which is probably wrong (usually 30 minutes to 1 hour or more). The handout also gives the same details for hypotonic and isotonic solutions.\n- Hypertonic enemas may upset electrolytes in children and kidney patients; confirm cautions.",
+  "tags": [
+   "elimination",
+   "enema",
+   "procedure"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Enema",
+   "Types of enema",
+   "Solutions used in enema",
+   "Size and insertion of rectal tube",
+   "Administration of enema"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-bowel-ostomies",
+  "area": "GEN",
+  "title": "Bowel Ostomies",
+  "body": "## What it is\nAn ostomy is an opening from the bowel to the skin used to divert and drain stool.\n\n## Must-know facts\nBy permanence:\n- Temporary: trauma, bowel inflammation, resting a diseased distal bowel.\n- Permanent: non-functional rectum or anus, birth defects, some cancers.\n\nBy location (the further along, the firmer the stool):\n- **Ileostomy**: end of small intestine; liquid stool that cannot be regulated; enzymes damage skin; wear the appliance all the time; little odor.\n- **Cecostomy / ascending colostomy**: liquid drainage, enzymes present, odor is a problem.\n- **Transverse colostomy**: mushy, foul-smelling, usually no control.\n- **Descending colostomy**: more formed.\n- **Sigmoidostomy**: normal formed stool; can be regulated and sometimes needs no appliance.\n\nBy construction:\n- Single (end) stoma: one end brought out.\n- Loop: loop of bowel on a plastic bridge or rod.\n- Divided: two separate edges.\n- Double-barreled: proximal and distal loops sutured together, both ends brought up.\n\n## How the exam asks about it\n- Which ostomy has liquid output and skin risk: ileostomy.\n- Which can be irrigated: descending and sigmoid colostomies.\n\n## Related topics\n[[Bowel Ostomy Care and Promoting Regular Defecation]], [[Types of Enema]]",
+  "tags": [
+   "elimination",
+   "ostomy",
+   "colostomy"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Bowel ostomies",
+   "Classifications by permanence and anatomic location",
+   "Types of stoma by surgical construction"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-ostomy-care-defecation",
+  "area": "GEN",
+  "title": "Bowel Ostomy Care and Promoting Regular Defecation",
+  "body": "## What it is\nRoutine care of the stoma and supports for normal bowel habits.\n\n## Must-know facts\nPromoting regular defecation:\n- Privacy, timing (respond to the urge, use times of mass peristalsis).\n- Constipation: more fluids (warm drinks, prune juice) and fiber.\n- Diarrhea: oral fluids, bland foods, small meals; avoid spicy and high-fiber foods.\n- Flatulence: limit carbonated drinks, straws, chewing gum, and gas foods (cabbage, beans, onions, cauliflower).\n\nStoma and skin care:\n- Keep skin clean and dry. Empty closed pouches 1-2 times a day; empty a pouch when about one third full.\n- Appliances may stay on up to 7 days; if skin is red or eroded change every 24-48 hours so it can be treated.\n- Irrigation is only for sigmoid or descending colostomies; it can create a regular pattern and may make a pouch unnecessary.\n\nAssessing the stoma:\n- Healthy stoma: red, moist. **Pale, dusky, blue or purple means poor blood supply: notify the surgeon immediately.**\n- New stoma is swollen; swelling falls over 2-6 weeks. Slight bleeding when touched is normal; other bleeding is reported.\n- Burning under the barrier suggests skin breakdown.\n\nChanging the appliance:\n- Avoid times near meals or just after meals/medications.\n- Empty the pouch first; clean with warm water and mild soap (no deodorant or moisturizing soap); pat dry.\n- Cover the stoma with gauze to absorb seepage.\n- Cut the barrier opening 1/8 to 1/4 inch larger than the stoma, press on for 30 seconds.\n\n## Related topics\n[[Bowel Ostomies]], [[Normal and Abnormal Stool and Fecal Elimination Problems]]",
+  "tags": [
+   "elimination",
+   "ostomy care",
+   "client teaching"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Promoting regular defecation",
+   "Stoma and skin care",
+   "Colostomy irrigation",
+   "Changing a bowel diversion ostomy appliance"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-urine-problems",
+  "area": "GEN",
+  "title": "Normal Urine and Problems of Urinary Elimination",
+  "body": "## What it is\nUrine amount, color and content show kidney and bladder function.\n\n## Must-know facts\nNormal adult urine:\n- Amount 1200-1500 mL per 24 hours.\n- Straw to amber, clear; faint aromatic odor; sterile; pH 4.5-8; specific gravity 1.010-1.025.\n- No glucose, no ketones, no visible blood.\n\nAltered production:\n- Polyuria: large amounts.\n- **Oliguria**: low output, usually under 500 mL/day (about under 30 mL/hour in adults).\n- **Anuria**: practically none (under 100 mL/day).\n\nAltered voiding:\n- Frequency, nocturia (twice or more at night), urgency, dysuria, hesitancy, enuresis (bedwetting beyond 4-5 years).\n- Retention: bladder cannot empty.\n\nIncontinence types:\n- Total: continuous, unpredictable.\n- Stress: small leak (under 50 mL) with coughing, sneezing.\n- Urge: sudden strong urge with involuntary detrusor contraction.\n- Functional: unpredictable passage due to mobility or cognition barriers.\n- Reflex: leak at predictable intervals when a certain volume is reached.\n\n## Priority nursing actions\nMeasure intake and output, assess for bladder distension, report output under 30 mL/hour, and encourage fluids if allowed.\n\n## Related topics\n[[Urinary Catheterization]], [[Normal and Abnormal Stool and Fecal Elimination Problems]]\n\n## Check against your textbook\n- The handout gives oliguria as \"greater than 30 ml/hr\"; this is almost certainly a typo for less than 30 mL/hour.",
+  "tags": [
+   "elimination",
+   "urinary",
+   "assessment"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Urinary elimination",
+   "Characteristics of normal and abnormal urine",
+   "Problems in urinary elimination"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-urinary-catheterization",
+  "area": "GEN",
+  "title": "Urinary Catheterization",
+  "body": "## What it is\nPassing a catheter into the bladder using strict sterile technique.\n\n## Must-know facts\nTypes:\n- **Straight**: single lumen, short-term; less traumatic, so suited to men with enlarged prostate.\n- **Two-way Foley (retention)**: one lumen drains, one inflates the balloon; used long term.\n- **Three-way Foley**: third lumen for continuous or intermittent bladder irrigation.\n\nPurposes: relieve distension, instill medication, irrigate, measure output exactly, collect sterile specimen, measure residual urine, manage incontinence, promote healing after surgery, empty the bladder before tests or surgery.\n\nInsertion:\n- Sizes: male Fr 16-18, female Fr 12-14. Insert male 6-9 inches, female 3-4 inches. Advance 2 more inches once urine flows.\n- Position: male supine with thighs slightly apart; female dorsal recumbent.\n- Test the balloon first. Hold the penis at 90 degrees to straighten the urethra.\n- Ask the client to breathe slowly or bear down gently to relax the sphincter.\n- If the catheter goes into the vagina, leave it there as a marker and use a new sterile catheter.\n- Retention catheter balloon: inflate with 5 mL sterile fluid, tug gently to confirm. Anchor male laterally or upward over lower abdomen; female on inner thigh with slack. Keep bag below bladder and tubing free of loops.\n- **Gradual decompression**: drain only 750-1000 mL at a time in a distended bladder (per the handout) to avoid shock.\n\nRemoval:\n- Order check, deflate the balloon fully, withdraw slowly while client exhales.\n- Expect voiding within 6-8 hours; if no void at 8 hours, assess for retention and notify the physician.\n\n## Priority nursing actions\nAseptic technique to prevent infection (the main risk), privacy, perineal care first, correct size, document.\n\n## Related topics\n[[Normal Urine and Problems of Urinary Elimination]]\n\n## Check against your textbook\n- Decompression limits differ between agencies and many now clamp no volume. Confirm.",
+  "tags": [
+   "elimination",
+   "catheter",
+   "sterile technique"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Urinary catheterization",
+   "Purpose of urinary catheterization",
+   "Administration of urinary catheter",
+   "Removal of indwelling catheter"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-stretcher-transfer",
+  "area": "GEN",
+  "title": "Stretcher Safety and Bed-to-Wheelchair Transfer",
+  "body": "## What it is\nSafe moving of clients protects them from falls and the nurse from injury.\n\n## Must-know facts\nStretcher:\n- Lock bed and stretcher wheels before any transfer.\n- Fasten safety straps and raise side rails; never leave a client unattended unless wheels are locked and rails/straps are up.\n- Push from the head end so the client is protected in a collision.\n- If two wheels swivel and two are fixed, put the head at the fixed wheel end and push from there for easier steering.\n- Enter an elevator head first.\n\nBed to wheelchair - assess first: body size, ability to follow instructions, activity tolerance, strength, joint mobility, paralysis, comfort, orthostatic hypotension, the technique the client knows, space, number of helpers, and your own skill.\n\nSteps:\n1. Identify, explain, privacy, infection control.\n2. Lower the bed to its lowest position, lock the wheels; place the wheelchair parallel and close, on the side of the client's **stronger side**; lock it and raise the footplates.\n3. Client sits at bed edge, leans slightly forward, stronger foot under the bed edge, hands on bed or your shoulders.\n4. You stand in front, wide stance, bend hips and knees (good body mechanics), hold the transfer belt at the back with thumbs down, tighten your core and leg muscles.\n5. On \"three\" stand together, pivot, lower the client into the chair, have them sit well back, lower footplates and apply a seat belt.\n\nSpecial cases:\n- Poor walking: angle the wheelchair at 45 degrees so the client pivots.\n- Injured leg: always move toward the unaffected side.\n\n## Related topics\n[[Loss, Grief and Types of Grief Responses]]",
+  "tags": [
+   "safety",
+   "mobility",
+   "body mechanics"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Safe use of stretcher",
+   "Transferring a patient from bed to wheelchair"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-loss-grief",
+  "area": "GEN",
+  "title": "Loss, Grief and Types of Grief Responses",
+  "body": "## What it is\nLoss is a real or possible situation in which something valued is changed or no longer available. Illness and hospitalization often cause loss: body image, independence, a job, a loved one.\n\n## Must-know facts\nTypes of loss:\n- Actual (others can see it), perceived (only the person feels it), anticipatory (before it happens), situational (job loss, child's death, loss of function), developmental (normal life changes such as children leaving home, retirement).\n\nSources: part of oneself (body part, function, psychological trait), external objects, familiar environment, a loved person.\n\nTerms:\n- **Grief**: the whole emotional response to loss.\n- **Bereavement**: the survivors' response after a death.\n- **Mourning**: the behavior and rituals through which grief is worked through; shaped by culture and religion.\n\nKinds of grief:\n- Abbreviated: short but real.\n- Anticipatory: before the loss occurs.\n- Disenfranchised: loss that cannot be openly shared because society does not accept it (suicide, abortion, unsanctioned relationships).\n- Complicated: unhealthy, pathological grief where coping fails (the handout text stops at this point).\n\n## Priority nursing actions\nAccept the client's feelings, listen without judging, respect cultural and spiritual practices, stay present and use therapeutic communication.\n\n## Related topics\n[[Therapeutic Communication]], [[Crisis and Crisis Intervention]]\n\n## Check against your textbook\n- The slice cuts off in the middle of complicated grief and before death-stage models; review the rest from your textbook.",
+  "tags": [
+   "psychosocial",
+   "grief",
+   "therapeutic communication"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Loss, grieving and death",
+   "Types of loss",
+   "Grief, bereavement and mourning",
+   "Types of grief responses"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-x-transfusion-reaction-sorting",
+  "area": "GEN",
+  "title": "Sorting Out Transfusion Reactions: Which One Is It and What Comes First",
+  "body": "## What it is\nA comparison note for the six reactions the handout lists. The exam rarely asks you to recite one reaction; it gives you a set of findings and asks what the client is having or what to do first.\n\n## Must-know facts\n- **Hemolytic** (client and donor blood are incompatible): chills, fever, headache, backache, dyspnea, cyanosis, chest pain, fast pulse, low blood pressure. This is the most dangerous; back pain and chest pain with falling pressure are the clues.\n- **Febrile** (sensitivity to white cells, platelets or plasma proteins): fever, chills, warm flushed skin, headache, anxiety, muscle pain. No breathing or circulation collapse.\n- **Mild allergic** (sensitivity to plasma protein): flushing, itching, hives, wheeze.\n- **Severe allergic** (antibody-antigen reaction): dyspnea, chest pain, circulatory collapse, possible cardiac arrest.\n- **Circulatory overload** (blood given faster than the circulation can handle): cough, dyspnea, crackles, distended neck veins, fast pulse, high blood pressure.\n- **Sepsis** (contaminated blood): high fever, chills, vomiting, diarrhea, low blood pressure.\n\n## How to reason about it\nCause -> finding -> priority action:\n- Any suspected reaction: **stop the transfusion first**, then keep the vein open with 0.9% saline through fresh tubing (blood left in the line would keep entering the client; dextrose would damage blood cells), then call the provider, then check vital signs.\n- Only the mild allergic reaction is described in the handout as \"stop or slow\" the transfusion; every other reaction is stop.\n- Overload is the one that needs the head up: upright with feet down, slow or stop, diuretic and oxygen as ordered.\n- Hemolytic and sepsis both need the bag, tubing and a client blood sample sent to the laboratory; sepsis also needs a blood culture.\n- Trap: the exam gives a client with fever and chills and tempts you to give an antipyretic and continue. Stopping first is the safe answer; treatment follows.\n\n## Related topics\n[[Blood Transfusion Reactions]], [[Blood Products and Preparing a Transfusion]], [[Complications of IV Infusion]]\n\n## Check against your textbook\n- The handout does not give timing of each reaction or exact drug names; confirm them in your textbook.\n- Not advice for a real patient.",
+  "tags": [
+   "transfusion",
+   "reaction",
+   "fundamentals"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Transfusion reaction"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-x-precaution-type-decision",
+  "area": "GEN",
+  "title": "Choosing the Isolation Type: Airborne, Droplet or Contact",
+  "body": "## What it is\nA decision guide for the three transmission-based precautions, always used on top of standard precautions. The exam gives you a disease or situation and asks for the room, the mask or the gown.\n\n## Must-know facts\n- **Airborne**: tiny droplet nuclei (under 5 microns) that travel more than 3 feet. Examples: measles, chickenpox including zoster, pulmonary tuberculosis. Private room with negative air pressure and 6-12 air changes an hour; N95 respirator for pulmonary TB; susceptible staff should not enter for measles or chickenpox.\n- **Droplet**: larger particles (over 5 microns) that fall quickly. Examples: diphtheria, mycoplasma pneumonia, pertussis, mumps, rubella, strep throat, scarlet fever in children, pneumonic plague. Private room; mask when within 3 feet.\n- **Contact**: spread by touching the client or objects. Examples: resistant bacteria, C. difficile, E. coli, Shigella, hepatitis A, RSV, herpes simplex, impetigo, lice, scabies. Gloves, change after contact with infectious material, remove before leaving; gown if clothing may touch infected surfaces or the client has diarrhea, a colostomy or uncontained wound drainage; remove the gown inside the room; keep equipment dedicated to the client.\n- SARS: standard plus contact plus airborne.\n- If no private room, put the client with someone infected by the same organism.\n- For all three, limit transport and put a surgical mask on the client if they must leave.\n\n## How to reason about it\nAsk how the germ travels: through the air for long distances (airborne), in a short spray (droplet), or by touch (contact). The mask or gown follows from that. The negative-pressure room belongs only to airborne. Soap-and-water or antimicrobial hand washing after glove removal applies to contact precautions.\n\n## Related topics\n[[Transmission-Based Precautions]], [[Standard Precautions]], [[Disposal of Soiled Items and Color-Coded Waste]]\n\n## Check against your textbook\n- The handout's droplet and airborne lists mix a few diseases that some texts group differently (for example chickenpox, rubella); confirm with your reference.",
+  "tags": [
+   "infection control",
+   "isolation",
+   "fundamentals"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Transmission-based precautions"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-x-syringe-air-and-order-rules",
+  "area": "GEN",
+  "title": "Syringe Preparation Rules: When Air Goes In and Which Drug Comes First",
+  "body": "## What it is\nA reasoning note for the preparation steps that exams like to flip: ampule versus vial, one vial versus two, and insulin order.\n\n## Must-know facts\n- **Ampule**: no air is added before withdrawing. Flick the neck, break it away from yourself with gauze or an opener, use a filter needle to draw up (glass bits), then switch to a regular needle before injecting.\n- **Vial**: draw up air equal to the volume you will remove, inject the air with the bevel above the fluid, then withdraw the drug. Air keeps the pressure inside balanced so the fluid comes out easily.\n- Roll a vial between the palms to mix; do not shake it.\n- **Two vials in one syringe**: put air into vial A without touching the fluid, then air into vial B, withdraw from B, then change to a new needle and withdraw from A. Never push the plunger when you go into A, or drug B contaminates vial A.\n- **Vial plus ampule**: prepare the vial first; the ampule needs no air.\n- **Insulins**: handout example is 30 units of air into NPH and 10 units of air into regular. Draw regular insulin first, then NPH. The needle must not touch the insulin when you inject air.\n- Check the label three times: when taking it from the cart, before drawing, and after drawing.\n\n## How to reason about it\nRule: clear before cloudy. Regular insulin is clear; NPH is cloudy and long-acting. If NPH gets into the regular vial, its action is changed for the next dose.\n\n## Related topics\n[[Preparing Medications from Ampules and Vials]], [[Mixing Medications in One Syringe and Mixing Insulins]], [[Insulin Storage, Mixing and Injection Technique]]\n\n## Check against your textbook\n- Number of units used for the air in the insulin example is only an example from the handout; follow the order and agency policy.",
+  "tags": [
+   "medication",
+   "syringe",
+   "insulin"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Preparing medications from ampules and vials",
+   "Mixing medications using one syringe"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fb-x-iv-vs-transfusion-complication-rules",
+  "area": "GEN",
+  "title": "IV and Transfusion Problems Compared: Overload, Air Embolism, Infiltration and Speed Shock",
+  "body": "## What it is\nA side-by-side reasoning note for problems that look alike. The exam asks for the first action.\n\n## Must-know facts\n- **Infiltration**: needle out of the vein, fluid in tissue. Swelling, cold and pale skin, pain. Stop the infusion and restart at another site; limit movement.\n- **Phlebitis (superficial thrombophlebitis)**: tenderness, redness, warmth, slightly swollen vein above the site. Stop the infusion, apply warm moist compress, avoid that vein, restart elsewhere.\n- **Circulatory overload**: neck veins up, high blood pressure, dyspnea. Slow the infusion, notify, monitor. In a transfusion the client is also placed upright with feet down.\n- **Air embolism**: air in circulation. Position the client on the left side and notify the physician, especially for sudden pain or breathing difficulty.\n- **Infection**: fever, malaise, swelling or discharge at the site. Prevent with aseptic technique, hand washing, regular dressing changes.\n- **Speed shock**: IV push given too fast: pounding headache, fainting, chills, rapid pulse, back pain, apprehension, dyspnea. Refer to the physician and monitor vital signs; use proper tubing in children.\n\n## How to reason about it\nCold and pale means fluid is in the tissue (infiltration); warm and red means inflamed vein (phlebitis). Wet lungs and engorged veins mean too much volume. Sudden dyspnea or chest pain with a line in place means air. Rapid push plus headache and fainting means speed shock.\n\n## Related topics\n[[Complications of IV Infusion]], [[IV Flow Rate Computation]], [[Blood Transfusion Reactions]]\n\n## Check against your textbook\n- Handout lists \"slightly edema\" and \"acute tenderness\" only briefly; verify grading scales in your textbook.",
+  "tags": [
+   "IV",
+   "complications",
+   "reasoning"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Complications of IV infusion",
+   "Circulatory overload"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ }
+]

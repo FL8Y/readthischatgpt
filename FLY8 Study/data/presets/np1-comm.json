@@ -1,0 +1,893 @@
+[
+ {
+  "id": "np1-cd-terms",
+  "area": "NP1",
+  "title": "Communicable Disease Terminology",
+  "body": "## What it is\nVocabulary that the exam uses to separate look-alike ideas. Learn the contrasts, not just the definitions.\n\n## Must-know facts\n- **Infection**: an organism lodges and multiplies in host tissue and causes signs, symptoms and an immune response.\n- **Carrier**: harbors and can pass on the organism but shows no disease. Hard to find, so an important source of spread.\n- **Communicable disease**: caused by an infectious agent or its toxins, passed directly or indirectly (through a vector or object) to a well person. **Contagious** means it spreads easily from person to person.\n- **Contact**: any person or animal closely associated with an infected person or freshly soiled material.\n- **Infectious disease** (in this handout): needs direct inoculation through broken skin or mucous membrane, not casual contact.\n- **Host**: the person, animal or plant a parasite depends on. **Habitat**: where an organism normally lives. **Reservoir**: the species (animal or plant) in which the agent lives and multiplies so it can reach humans.\n- **Disinfection**: destroying pathogens on inanimate objects by physical or chemical means.\n  - **Concurrent**: done right after the client discharges infectious material, while the client is still a source.\n  - **Terminal**: done when the client is no longer a source, e.g. after discharge, to ready the room.\n- **Isolation**: separating a sick person during the period of communicability.\n- **Quarantine**: limiting movement of *exposed but not necessarily sick* people or animals for the longest incubation period of that disease.\n\n## How the exam asks about it\n- Isolation = the sick person; quarantine = the exposed person. This pair is a favorite.\n- Concurrent vs terminal: ask whether the client is still the source.\n\n## Related topics\n[[Chain of Infection and Modes of Transmission]], [[Isolation Categories and Precautions]], [[Epidemiologic Triangle and Patterns of Disease Occurrence]]",
+  "tags": [
+   "communicable disease",
+   "infection control",
+   "terms"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "TERMINOLOGIES"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-epi-triangle",
+  "area": "NP1",
+  "title": "Epidemiologic Triangle and Patterns of Disease Occurrence",
+  "body": "## What it is\nEpidemiology studies how often disease occurs, who gets it and why, then uses that knowledge to control health problems. It is the foundation of disease prevention.\n\n## Uses of epidemiology\n- Track the rise and fall of disease over time.\n- Diagnose the health of a community.\n- Evaluate health services so they can be improved.\n- Estimate risk of disease or accident and the chance of avoiding it.\n- Complete the clinical picture and natural history of chronic disease.\n\n## Epidemiologic triangle\n- **Host**: the organism that harbors and feeds the agent.\n- **Agent**: the microbe's built-in ability to survive, multiply and cause disease.\n- **Environment**: all external conditions that affect the organism: biological, social, physical.\n- Disease results when the three are out of balance.\n\n## Patterns of occurrence\n- **Sporadic**: a few scattered, unrelated cases (the handout's example is rabies).\n- **Endemic**: the usual number of cases is always present in a place. Philippine examples given: schistosomiasis (Leyte, Samar), filariasis (Sorsogon), malaria (Palawan).\n- **Epidemic / outbreak**: an unusually large number of cases in a short time.\n- **Pandemic**: epidemics of the same disease in several countries at once (HIV/AIDS, SARS in the handout).\n\n## How the exam asks about it\n- Constant, expected level in a place = endemic, even if the level is high.\n- Sudden excess above expected = epidemic.\n\n## Related topics\n[[Epidemiology and Endemic Diseases]], [[Locally Endemic Diseases]], [[Epidemiology and FHSIS]], [[Communicable Disease Terminology]]\n\n## Check against your textbook\nRabies is given as sporadic; in the Philippines it is also treated as a recurring public-health problem, so confirm how your reference classifies it.",
+  "tags": [
+   "epidemiology",
+   "endemic",
+   "epidemic"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "EPIDEMIOLOGY",
+   "Epidemiologic Triangle",
+   "Patterns of Occurrence and Distribution"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-chain",
+  "area": "NP1",
+  "title": "Chain of Infection and Modes of Transmission",
+  "body": "## What it is\nInfection needs six linked steps. Breaking any one link stops spread.\n\n## The six links\n1. **Causative agent**: bacteria, spirochetes, viruses, rickettsiae, chlamydiae, fungi, protozoa, parasites.\n2. **Reservoir**: where the organism survives and multiplies.\n3. **Portal of exit**: respiratory tract, genitourinary tract, GI tract, skin and mucous membrane, placenta.\n4. **Mode of transmission**: how it travels from exit to a new host.\n5. **Portal of entry**: usually the same routes as the exit.\n6. **Susceptible host**: good defenses mean no infection; weakened defenses allow disease.\n\n## Modes of transmission\n- **Contact** (the most common): direct is person to person; indirect is through a contaminated object.\n- **Droplet**: large respiratory particles from cough, sneeze or talk; travel only about 3 feet.\n- **Airborne**: tiny particles or dust carrying microbes stay suspended; can travel farther than 3 feet.\n- **Vehicle**: contaminated food, water, blood or articles that carry the organism until ingested or inoculated.\n- **Vector-borne**: fleas, flies, mosquitoes carry the microbe to another living host.\n\n## Nursing priority\nThe handout calls the mode of transmission the **easiest link to break**. In practice that means hand hygiene, barrier precautions, safe water and food, and vector control.\n\n## Related topics\n[[Isolation Categories and Precautions]], [[Types of Immunity and Antigens]], [[Communicable Disease Terminology]]",
+  "tags": [
+   "chain of infection",
+   "transmission",
+   "infection control"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "CHAIN OF INFECTION",
+   "Contact Transmission",
+   "Droplet Spread",
+   "Airborne Transmission",
+   "Vehicle Transmission",
+   "Vector-borne Transmission"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-immunity",
+  "area": "NP1",
+  "title": "Types of Immunity and Antigens",
+  "body": "## What it is\nImmunity is classified by whether it is natural or artificial and whether the body makes the antibodies (active) or receives them (passive).\n\n## Must-know facts\n- **Natural active**: after recovering from the disease.\n- **Natural passive**: antibodies from mother to baby across the placenta.\n- **Artificial active**: after a vaccine or toxoid.\n- **Artificial passive**: antitoxin, antiserum, convalescent serum or immunoglobulin given ready-made.\n- Active immunity lasts longer; passive is immediate but short-lived.\n\n## Vaccine antigens\n- **Inactivated (killed)**: immunity does not last long; needs multiple doses and boosters.\n- **Attenuated (live, weakened)**: usually a single dose and long-lasting immunity. Live vaccines are avoided in pregnancy and in weakened immunity (see [[Measles (Rubeola)]]).\n\n## How the exam asks about it\nA baby protected by maternal antibodies = natural passive. A child given TIG or immune globulin = artificial passive.\n\n## Related topics\n[[Expanded Program on Immunization]], [[Vaccine Principles and Nursing Responsibilities]], [[Chain of Infection and Modes of Transmission]]",
+  "tags": [
+   "immunity",
+   "vaccines"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "IMMUNITY",
+   "Type of Antigen"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-isolation",
+  "area": "NP1",
+  "title": "Isolation Categories and Precautions",
+  "body": "## What it is\nIsolation separates people with communicable disease from others to prevent direct or indirect spread. Choose the category by how the organism travels.\n\n## Categories in the handout\n- **Strict**: highly contagious or virulent infections (chickenpox is listed here).\n- **Contact**: spread by close or direct contact.\n- **Respiratory**: spread through the air over short distances.\n- **TB isolation**: smear-positive TB or a chest X-ray strongly suggesting active TB.\n- **Enteric**: infections spread through feces (cholera, typhoid, dysentery, amoebiasis).\n- **Reverse / neutropenic (protective)**: an immunocompromised client is protected from the environment.\n\n## Precaution tiers\n- **Standard precautions**: first tier, for all clients. Combines universal precautions (protect staff from blood-borne pathogens through mucous membrane or non-intact skin) with body substance isolation. Applies to blood, body fluids, secretions, drainage (except sweat).\n- **Transmission-based precautions**: second tier for highly contagious clients: **contact, droplet, airborne**.\n\n## Priority nursing actions\n1. Apply standard precautions to everyone.\n2. Add the transmission-based layer that matches the organism.\n3. Teach family and visitors.\n\n## How the exam asks about it\nMatch disease to precaution: measles, TB, chickenpox = airborne; pertussis, influenza, mumps, diphtheria (respiratory) = droplet; scabies, pediculosis = contact; cholera, typhoid = enteric.\n\n## Related topics\n[[Chain of Infection and Modes of Transmission]], [[Communicable Disease Terminology]], [[Tuberculosis: Features and Diagnosis]]\n\n## Check against your textbook\nThe handout uses older isolation categories; current practice uses standard plus contact, droplet and airborne only. Confirm which your school expects.",
+  "tags": [
+   "isolation",
+   "standard precautions",
+   "infection control"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "ISOLATION",
+   "Categories Recommended in Isolation",
+   "Standard Precaution",
+   "Transmission Based Precaution"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-varicella",
+  "area": "NP1",
+  "title": "Chickenpox (Varicella)",
+  "body": "## What it is\nAcute, highly infectious viral disease (varicella-zoster virus, human herpesvirus 3) with sudden mild fever and a rash that moves through stages: flat-raised spots for hours, **vesicles for 3-4 days**, then granular scabs.\n\n## Must-know facts\n- Spread by respiratory secretions, direct contact, contaminated linen and fomites, and airborne.\n- Scabs are not infective. Vesicle fluid and secretions are.\n- Incubation about 2-3 weeks. Infectious from **2 days before the rash until 5 days after the first crop of vesicles**.\n- Diagnosis: virus from vesicle fluid in the first 3-4 days; antibodies appear about day 7.\n- Everyone not previously infected is susceptible; adults get it more severely; one attack gives long immunity and second attacks are rare.\n- **Congenital varicella** can cause limb hypoplasia and scarring, growth retardation, brain and eye problems.\n\n## Priority nursing actions\n1. Isolate (airborne and contact) to protect others: exposure risk comes first.\n2. Keep the child home until the lesions have crusted (handout: about 1 week after the rash starts) and avoid susceptible people.\n3. Concurrent disinfection of nose and throat discharge.\n4. Comfort: discourage scratching, teach correct use of topical antipruritics.\n\n## Prevention\nVaricella vaccine; **VZIG within 10 days of exposure** for high-risk exposed people.\n\n## How the exam asks about it\nRash in different stages at the same time, or a pregnant or immunosuppressed contact who needs protection.\n\n## Related topics\n[[Herpes Zoster (Shingles)]], [[Isolation Categories and Precautions]], [[Communicable Disease Terminology]]\n\n## Check against your textbook\nThe handout does not mention avoiding aspirin in children with chickenpox (Reye syndrome risk); confirm in your textbook.",
+  "tags": [
+   "chickenpox",
+   "varicella",
+   "skin",
+   "airborne"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "INTEGUMENTARY DISEASE",
+   "CHICKEN POX"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-zoster",
+  "area": "NP1",
+  "title": "Herpes Zoster (Shingles)",
+  "body": "## What it is\nPainful, one-sided, band-like inflammation of a nerve root (dorsal root ganglion) caused by **reactivation** of the same virus that causes chickenpox. Usually seen in adults.\n\n## Must-know facts\n- Communicable from a day before the rash until 5-6 days after the last crust.\n- Spread by airborne, droplet and direct contact (a susceptible person can catch chickenpox, not shingles, from it).\n- Incubation is unknown, thought to be 13-17 days.\n\n## Assessment findings\n- Fever and malaise first.\n- Severe deep pain, itching, tingling or hypersensitivity, mainly on the trunk.\n- Red, unilateral nodular lesions about up to 2 weeks later, becoming fluid- or pus-filled vesicles. Cranial nerve involvement possible.\n\n## Complications\nCNS infection, transverse or ascending myelitis, long-lasting nerve pain.\n\n## Treatment and nursing care\n- Antiviral (acyclovir), analgesics, anti-inflammatory drugs.\n- Airborne and contact precautions; cold compress if vesicles rupture; no scratching; bed rest and hygiene.\n- Check pain relief after each analgesic.\n\n## Prevention\nVaricella vaccination; avoid contact with people who have chickenpox.\n\n## Related topics\n[[Chickenpox (Varicella)]], [[Isolation Categories and Precautions]]\n\n## Check against your textbook\nThe handout says diagnosis separates zoster from herpes simplex by \"fluorescent light\"; verify the test name.",
+  "tags": [
+   "shingles",
+   "herpes zoster",
+   "skin"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "HERPES ZOSTER"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-measles",
+  "area": "NP1",
+  "title": "Measles (Rubeola)",
+  "body": "## What it is\nAcute, highly contagious viral illness (paramyxovirus) with fever, respiratory symptoms and a rash. Also called rubeola, morbilli, 7-day measles.\n\n## Must-know facts\n- Spread by droplet, direct contact, articles with secretions, and airborne.\n- Incubation 1-2 weeks. Communicable from just before the prodrome until **4 days after the rash appears**.\n- **Koplik spots** are the pathognomonic sign (they appear before the rash).\n\n## Assessment findings by stage\n- **Pre-eruptive**: fever, cough, conjunctivitis, coryza, photophobia, Stimson line (red line on lower conjunctiva).\n- **Eruptive**: maculopapular rash, high fever, anorexia, irritability, very sore red throat.\n- **Convalescent**: rash fades, fever drops, skin peels (desquamation), appetite returns.\n\n## Priority nursing actions\n1. Airborne plus standard precautions, ideally a negative-pressure room.\n2. Lower fever (tepid sponge bath), keep fluids up.\n3. Eye care (photosensitivity: dim light), ear, oral and nasal hygiene, skin care.\n4. Watch for complications.\n\n## Complications\nBronchopneumonia, pneumonia, otitis media, nephritis, encephalitis.\n\n## Prevention\nMeasles vaccine at **9 months** (single dose in the handout); MMR later. **Do not give to pregnant women** or people with active TB, leukemia, lymphoma or weak immunity (live vaccine).\n\n## Related topics\n[[German Measles (Rubella)]], [[Mumps]], [[Expanded Program on Immunization]], [[Isolation Categories and Precautions]]\n\n## Check against your textbook\nHandout lists \"penicillin\", an antiviral (isoprenosine) and a laxative. Measles treatment is mainly supportive and vitamin A is usually given; the MMR ages (15 months, 11-12 years) differ from current national schedules.",
+  "tags": [
+   "measles",
+   "rubeola",
+   "immunization",
+   "airborne"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "MEASLES"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-rubella",
+  "area": "NP1",
+  "title": "German Measles (Rubella)",
+  "body": "## What it is\nMild viral illness (rubella virus), also called three-day measles. Its real danger is **teratogenic effect on a fetus**.\n\n## Must-know facts\n- Droplet spread; transplacental spread causes congenital rubella.\n- Incubation 2-3 weeks.\n- Prodrome: low fever, headache, malaise, mild coryza and conjunctivitis, plus **post-auricular, sub-occipital and posterior cervical lymph node swelling** about the 3rd-5th day.\n- Eruptive: Forchheimer spots on the soft palate; rash after the adenopathy, lasts 1-5 days, **no pigmentation or peeling**. Adults may have joint pain or arthritis; young men may have testicular pain.\n\n## Congenital rubella\nGrowth retardation, low birth weight, \"blueberry muffin\" purpuric skin; heart defects (patent ductus, atrial septal defect), eye defects (cataract, glaucoma), microcephaly, intellectual delay, deafness. Infection in pregnancy can end in miscarriage.\n\n## Priority nursing actions\n1. Protect pregnant women: teach women of child-bearing age to avoid exposure.\n2. Comfort: acetaminophen for fever and joint pain; darken the room, irrigate eyes with warm saline.\n3. Cold compress if lymph nodes stay swollen.\n4. Report confirmed cases.\n\n## Prevention\nLive attenuated MMR vaccine; immune serum globulin about a week after exposure.\n\n## How the exam asks about it\nA pregnant client exposed to rubella, or the question of when to vaccinate (not during pregnancy).\n\n## Related topics\n[[Measles (Rubeola)]], [[Mumps]], [[Expanded Program on Immunization]]\n\n## Check against your textbook\nDose timing of immune globulin and the pregnancy-avoidance interval after vaccination are not given in the handout.",
+  "tags": [
+   "rubella",
+   "teratogenic",
+   "immunization"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "GERMAN MEASLES"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-leprosy",
+  "area": "NP1",
+  "title": "Leprosy (Hansen's Disease)",
+  "body": "## What it is\nChronic infection by *Mycobacterium leprae* that attacks skin and peripheral nerves. Spread by airborne droplets and prolonged skin-to-skin contact. Incubation ranges from months to many years.\n\n## Types\n- **Lepromatous (multibacillary)**: most serious; skin lesions contain many bacilli; lepromin test **negative**; slow nerve damage with loss of sensation; can harm respiratory tract, eyes and testes.\n- **Tuberculoid (paucibacillary)**: nerves and nearby skin; lepromin **positive**; elevated macules with clear centers; bacilli rarely found.\n- **Borderline (dimorphous)**: features of both.\n\n## Assessment findings\n- Early: pale or reddish skin patches, loss of sensation, less sweating and hair growth over the patch, thick painful nerves, weakness, red eye, nasal blockage, non-healing ulcers.\n- Late: loss of eyebrows and lashes (madarosis), cannot close eyelids (lagophthalmos), clawed fingers and toes, contractures, collapsed nose bridge, gynecomastia.\n\n## Diagnosis and treatment\n- Slit-skin smear.\n- **Multidrug therapy**: multibacillary = rifampicin, clofazimine, dapsone for about 12 months; paucibacillary = rifampicin and dapsone for 6-9 months.\n\n## Priority nursing actions\n1. Protect anesthetic skin: check water temperature before use, proper footwear, avoid injury or pressure.\n2. Eye care: daily tear substitute, protect against corneal ulcer.\n3. Emotional support, rehabilitation, nutritious diet.\n4. Report all cases and suspects; BCG and health education for prevention.\n\n## Related topics\n[[BCG and Pentavalent Vaccine]], [[Locally Endemic Diseases]], [[Isolation Categories and Precautions]]\n\n## Check against your textbook\nThe handout calls lepromatous \"not infectious\" but also lists multibacillary as \"infectious type\"; the second is the accepted view. Hospital isolation is not generally needed once treated. The blood-test changes listed are unusual; verify.",
+  "tags": [
+   "leprosy",
+   "multiple drug therapy",
+   "skin",
+   "nerves"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "LEPROSY"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-scabies",
+  "area": "NP1",
+  "title": "Scabies",
+  "body": "## What it is\nHighly transmissible skin infestation by the itch mite *Sarcoptes scabiei*, causing burrows, itching and scratch lesions that can become infected.\n\n## Must-know facts\n- Spread by skin-to-skin contact and contaminated fomites. The mite can burrow and lay eggs within 24 hours of contact.\n- Communicable as long as the host is infested.\n\n## Assessment findings\n- **Intense itching, worse at night.**\n- Burrows in finger webs, wrists, elbows. In infants, young children, elderly or immunocompromised: also face, neck, scalp, ears.\n- Diagnosis: scraping a burrow and viewing under a low-power microscope.\n\n## Treatment\nPermethrin cream left on 8-12 hours, aqueous malathion lotion, benzyl benzoate, sulfur in petrolatum; ivermectin for resistant cases; emollients or topical steroid for itch.\n\n## Priority nursing actions\n1. Contact precautions; terminal disinfection.\n2. Teach correct drug application.\n3. Cut nails short to reduce skin breaks.\n4. Dry-clean or boil clothing and bedding.\n5. **Treat and check all household and close contacts**; reinforce hygiene; allow the client to voice feelings.\n\n## Complications\nPersistent itching, excoriation, secondary bacterial infection.\n\n## Related topics\n[[Pediculosis (Lice Infestation)]], [[Isolation Categories and Precautions]]",
+  "tags": [
+   "scabies",
+   "skin",
+   "infestation"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "SCABIES"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-pediculosis",
+  "area": "NP1",
+  "title": "Pediculosis (Lice Infestation)",
+  "body": "## What it is\nInfestation by lice on the scalp, body or pubic area. Incubation about 3-7 days. Spread by head-to-head contact, fomites and sexual contact.\n\n## Types\n- **Capitis**: head lice; nits behind ears and nape.\n- **Corporis**: body lice; live in clothing seams.\n- **Pubis**: pubic lice; attach at the base of pubic hair, may reach eyebrows, lashes, axillae.\n\n## Assessment findings\nItching (most common), tickling feeling of movement. Wood's light or microscope to confirm.\n\n## Treatment\n- **Permethrin or pyrethrin** topical insecticide is the initial choice for head and pubic lice.\n- Fine-tooth comb dipped in vinegar; ordinary shampoo.\n- Oral ivermectin, levamisole or albendazole are options.\n- Wash clothes and linens in hot water, iron or dry-clean; storing items about 30 days or dry heat of 60 C kills lice.\n\n## Priority nursing actions\n1. Contact precautions until treatment is complete.\n2. Protect yourself: gloves, gown and head covering when applying treatment.\n3. Re-inspect for lice and eggs after each treatment; teach family to inspect.\n4. Cut nails to avoid scratch infection; watch for drug reactions (sensitivity, CNS toxicity).\n5. Teach correct use of lotions and shampoos (lindane can be absorbed and cause CNS problems).\n\n## Complications\nExcoriation, secondary infection, crusted scaly scarred skin if untreated.\n\n## Related topics\n[[Scabies]], [[Isolation Categories and Precautions]]\n\n## Check against your textbook\nLindane is no longer preferred in many places because of neurotoxicity; confirm current first-line drugs.",
+  "tags": [
+   "pediculosis",
+   "lice",
+   "skin"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "PEDICULOSIS"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-diphtheria",
+  "area": "NP1",
+  "title": "Diphtheria",
+  "body": "## What it is\nAcute infection of tonsils, throat, nose, larynx or wounds by *Corynebacterium diphtheriae* (Klebs-Loeffler bacillus). Marked by a **grayish pseudomembrane**. Humans are the reservoir.\n\n## Must-know facts\n- Spread by contact with a patient, carrier or soiled articles; milk can be a vehicle.\n- Incubation 2-5 days. Communicable 2 weeks to over 4 weeks, until bacilli are gone from secretions and lesions.\n- Types: nasal (foul serosanguinous discharge), tonsillar (lower fatality), nasopharyngeal (swollen cervical nodes, edematous neck), **laryngeal** (ages 2-5, the most severe and fatal; hoarseness progressing to loss of voice), cutaneous/wound.\n\n## Assessment findings\nBull neck, gray pseudomembrane, sore throat, hoarse voice, breathing difficulty, low fever, malaise.\n\n## Diagnosis\nNose and throat swab. **Schick test** (intradermal toxin; a positive reaction means no antibodies = susceptible). Moloney test detects sensitivity to toxoid.\n\n## Priority nursing actions\n1. **Airway first**: watch for obstruction and shock (collapse, anaphylaxis).\n2. Absolute bed rest (about 2 weeks) to protect the heart.\n3. Give antitoxin with correct technique; penicillin or erythromycin as ordered.\n4. Soft diet, small frequent feeds; ice collar for neck.\n5. Teach disposal of nasopharyngeal secretions. Peripheral neuritis may appear 2-3 months later.\n\n## Prevention\nThree doses of DPT in infancy, pasteurized milk, parent education, report cases.\n\n## Related topics\n[[Pertussis (Whooping Cough)]], [[Expanded Program on Immunization]], [[Isolation Categories and Precautions]]\n\n## Check against your textbook\nAntitoxin requires a sensitivity test first; the handout does not state this. Schedule is now pentavalent in the EPI.",
+  "tags": [
+   "diphtheria",
+   "respiratory",
+   "DPT"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "DIPHTHERIA"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-pertussis",
+  "area": "NP1",
+  "title": "Pertussis (Whooping Cough)",
+  "body": "## What it is\nRespiratory infection by *Bordetella pertussis* with repeated spasms of coughing that end in a crowing \"whoop\" and often vomiting.\n\n## Must-know facts\n- Spread by respiratory and salivary contact from laryngeal and bronchial secretions.\n- Incubation 7-10 days (up to 3 weeks). Communicable from about 7 days after exposure to 3 weeks after typical paroxysms.\n\n## Assessment findings\nViolent coughing, nosebleed, distended neck veins, periorbital edema, conjunctival hemorrhage.\n\n## Complications\n**Bronchopneumonia (most dangerous)**, convulsions, umbilical hernia, otitis media, malnutrition from vomiting.\n\n## Diagnosis\nNasopharyngeal swab, sputum culture, CBC (high white cells), chest X-ray (infiltrates, atelectasis).\n\n## Treatment\nErythromycin or ampicillin; oxygen, fluids and electrolytes, nutrition. Post-exposure hyperimmune serum or gamma globulin.\n\n## Priority nursing actions\n1. Airway: suction at bedside, oxygen; watch breathing during paroxysms.\n2. Isolation and medical asepsis (droplet).\n3. Monitor intake and output because vomiting causes dehydration.\n4. Small feedings after coughing spells, warm baths, keep bed dry.\n5. Teach cough etiquette and handwashing.\n\n## Prevention\nReport every case; isolate patient 4-6 weeks per the handout; immunize with DPT and give boosters.\n\n## Related topics\n[[Diphtheria]], [[Tetanus (Lockjaw) Disease]], [[Expanded Program on Immunization]]\n\n## Check against your textbook\nThe handout's isolation duration (4-6 weeks) is much longer than current practice (about 5 days of effective antibiotics).",
+  "tags": [
+   "pertussis",
+   "respiratory",
+   "DPT"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "PERTUSSIS"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-influenza",
+  "area": "NP1",
+  "title": "Influenza",
+  "body": "## What it is\nAcute viral respiratory infection (influenza virus A, B or C), also called la grippe.\n\n## Must-know facts\n- Droplet, direct contact and fomites.\n- Incubation 1-3 days (up to 5). Infectious from 1 day before symptoms to 3-5 days after in adults.\n\n## Assessment findings\nChills, very high fever, severe aches (especially back) with sweating, vomiting, sore throat, coryza and cough.\n\n## Complications\nHemorrhagic pneumonia, encephalitis, myocarditis, sudden infant death syndrome, myoglobinuria.\n\n## Diagnosis\nViral culture of throat wash in the first days, serology (complement fixation), leukopenia on blood count, chest X-ray, and ABG if severe.\n\n## Priority nursing actions\n1. Contact and droplet precautions.\n2. Rest at home, lots of fluids, fever control (paracetamol, ibuprofen as ordered).\n3. Watch for pneumonia: crackles, fresh fever, purulent or bloody sputum.\n4. Teach tissue disposal, handwashing, avoid contact with others for at least 24 hours after fever is gone.\n\n## Prevention\nYearly influenza vaccine; avoid crowds; do not share towels, glasses or utensils; public education on coughing and spitting.\n\n## Related topics\n[[Bird Flu (Avian Influenza)]], [[Severe Acute Respiratory Syndrome (SARS)]], [[Pneumonia]]\n\n## Check against your textbook\nHandout says to avoid contact for \"at least 24 hours\"; confirm the exact period (usually 24 hours fever-free).",
+  "tags": [
+   "influenza",
+   "respiratory",
+   "droplet"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "INFLUENZA"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-anthrax",
+  "area": "NP1",
+  "title": "Anthrax",
+  "body": "## What it is\nBacterial disease from *Bacillus anthracis*, mostly of the skin but sometimes lungs, mediastinum or intestine. Called wool-sorter's or ragpicker's disease.\n\n## Must-know facts\n- Skin infection comes from contact with dying animals' tissue, contaminated wool or hair products, or soil and bone meal.\n- Incubation usually 1-7 days (inhalation usually within 48 hours).\n\n## Forms\n- **Cutaneous** (over 90%): a pimple becomes an ulcer with a **black scab** ringed by purple vesicles; fatal in about 20% untreated.\n- **Inhalational** (most fatal): flu-like onset, dyspnea, cyanosis, shock, death in 2-6 days; widened mediastinum on chest X-ray.\n- **Intestinal**: eating infected meat; vomiting, bloody stool, septicemia; poor prognosis.\n\n## Diagnosis\nPCR is definitive; swabs of lesion, blood cultures, aspirates.\n\n## Treatment\nAntibiotics (ciprofloxacin is the drug of choice in the handout; also penicillin, doxycycline). Cutaneous: 7-10 days oral.\n\n## Priority nursing actions\n1. Collect cultures **before** antibiotics.\n2. Supportive care by type; respiratory support in inhalational anthrax.\n3. Teach: finish antibiotics, do not scratch lesions, wash with soap and water (alcohol rubs do not kill spores).\n4. Anyone exposed must see a doctor immediately.\n\n## Prevention\nTreat animal products, supervise disposal of dead animals, vaccinate animals, protect workers.\n\n## Related topics\n[[Botulism]], [[Leptospirosis]], [[Isolation Categories and Precautions]]\n\n## Check against your textbook\nAnthrax duration for GI and inhalation treatment is much longer in current guidelines; verify.",
+  "tags": [
+   "anthrax",
+   "zoonosis",
+   "bioterrorism"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "ANTHRAX"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-pneumonia",
+  "area": "NP1",
+  "title": "Pneumonia: Communicable Disease View",
+  "body": "## What it is\nAcute infection that fills the air spaces of one or more lobes with exudate (consolidation). Commonly *Streptococcus pneumoniae*; others in the handout: *Staphylococcus aureus*, *Haemophilus influenzae*, Friedlander's pneumococcus.\n\n## Must-know facts\n- Droplet and fomites; incubation 2-3 days.\n\n## Assessment findings\nRhinitis, chest indrawing, **rusty sputum**, productive cough, high fever, vomiting or convulsions in children, flushed face, chest pain over the lung, dull percussion note over the affected area, concentrated urine.\n\n## Complications\nPleural problems (emphysema/empyema), endocarditis, meningitis, otitis media, jaundice.\n\n## Diagnosis\nChest X-ray, sputum analysis, blood tests.\n\n## Priority nursing actions\n1. Airway and breathing: position for lung expansion, oxygen as ordered, assess respiratory rate and chest indrawing (key sign in children).\n2. Frequent turning side to side; bed rest.\n3. Adequate fluids, calories, salt, vitamins; tepid sponge bath for fever.\n4. Give antibiotics as ordered.\n\n## Prevention\nAvoid colds, immunize against pneumococcus and influenza, remove risks (cold, pollution, fatigue, alcohol).\n\n## Related topics\n[[Influenza]], [[Tuberculosis: Features and Diagnosis]], [[Measles (Rubeola)]]\n\n## Check against your textbook\nThe handout lacks treatment drugs and the IMCI classification used in Philippine community programs; add them from your textbook.",
+  "tags": [
+   "pneumonia",
+   "respiratory"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "PNEUMONIA"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-tb-dx",
+  "area": "NP1",
+  "title": "Tuberculosis: Features and Diagnosis",
+  "body": "## What it is\nChronic infection of the lungs by *Mycobacterium tuberculosis* (also *M. africanum*, *M. bovis*) forming tubercles that undergo caseation and calcification. The Philippines is among the countries with the highest TB burden.\n\n## Must-know facts\n- Airborne, plus direct or indirect contact with sputum, blood from hemoptysis, nasal discharge, saliva.\n- Incubation 3-8 weeks (up to 12). Communicable as long as bacilli are in sputum.\n\n## Assessment findings\nCough for **2 weeks or more**, afternoon fever, night sweats, chest or back pain, hemoptysis, weight loss, fatigue, shortness of breath.\n\n## Diagnosis\n- **Sputum AFB smear: confirmatory**.\n- Chest X-ray.\n- Tuberculin tests (Mantoux/PPD, tine, Heaf) show **exposure**, not active disease.\n\n## Priority nursing actions\n1. Airborne / TB isolation until sputum is negative; cover cough.\n2. Ensure sputum collection (early-morning specimen is customary; verify).\n3. Start and supervise treatment: see [[Tuberculosis: Treatment and Nursing Care]].\n4. Nutrition: high-calorie, small frequent meals; rest periods; stop smoking.\n\n## Prevention and control\nBCG for all babies, avoid overcrowding, improve nutrition, tuberculin test for exposed persons, find and treat sources.\n\n## Related topics\n[[BCG and Pentavalent Vaccine]], [[Isolation Categories and Precautions]], [[Pneumonia]]\n\n## Check against your textbook\nThe handout lists the tine and Heaf tests, which are rarely used now. Confirm the DOH case-finding rules (symptomatic for 2+ weeks).",
+  "tags": [
+   "tuberculosis",
+   "respiratory",
+   "airborne",
+   "DOTS"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "TUBERCULOSIS"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-tb-tx",
+  "area": "NP1",
+  "title": "Tuberculosis: Treatment and Nursing Care",
+  "body": "## What it is\nShort-course chemotherapy lasts six months with four first-line drugs, taken under **DOTS** (direct observation) to prevent non-adherence and drug resistance.\n\n## Drugs and nursing points\n- **Rifampicin**: empty stomach; red-orange body fluids; hepatotoxic and nephrotoxic; permanently stains contact lenses; can make oral contraceptives less effective.\n- **Isoniazid (INH)**: empty stomach; peripheral neuropathy (give vitamin B6); avoid alcohol; hepatotoxic.\n- **Pyrazinamide**: watch for liver injury (anorexia, fatigue, dark urine), do liver function studies; causes high uric acid.\n- **Ethambutol**: food does not matter; report visual changes (optic neuritis); avoid in young children.\n- **Streptomycin**: injection; ototoxic, nephrotoxic, neurotoxic; report low urine output.\n\n## Priority nursing actions\n1. Observe the client swallowing each dose (DOTS).\n2. Teach drug side effects to report: yellow skin or eyes, dark urine, vision change, hearing change, numbness.\n3. Teach red-orange urine is expected with rifampicin, not bleeding.\n4. Advise women on oral contraceptives to use another method.\n5. Maintain respiratory precautions, rest, nutrition, no smoking.\n\n## How the exam asks about it\nMatch drug to side effect: INH = neuropathy (B6), rifampicin = orange fluids, ethambutol = vision, pyrazinamide = uric acid, streptomycin = hearing and kidney.\n\n## Related topics\n[[Tuberculosis: Features and Diagnosis]], [[Treatment of CD, NCD and Emergency Services]]\n\n## Check against your textbook\nThe handout lists isoniazid with nephrotoxicity; usually its main toxicities are liver and nerve. Verify dosing timing and the ethambutol age limit.",
+  "tags": [
+   "tuberculosis",
+   "DOTS",
+   "antituberculosis drugs"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "TUBERCULOSIS",
+   "Treatment Modalities",
+   "Nursing Management"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-bird-flu",
+  "area": "NP1",
+  "title": "Bird Flu (Avian Influenza)",
+  "body": "## What it is\nAn infectious disease of birds, from mild to severe, caused by influenza viruses that normally infect birds and, less often, pigs. Severe strains can infect people.\n\n## Must-know facts\n- Human incubation 3 to 5 days (handout).\n- Symptoms: fever, weakness and muscle pain, cough, sore throat, sore eyes; breathing difficulty in severe cases.\n- All birds can be infected; poultry flocks are especially vulnerable and can reach epidemic level fast.\n- Control on farms: rapid destruction of flocks, proper disposal of carcasses, quarantine, thorough disinfection, limits on moving live poultry.\n\n## Assessment\nAsk about contact with sick or dead poultry; look for fever, cough, and breathing difficulty. Early recognition of cases during a poultry outbreak is key.\n\n## Priority nursing actions\n1. Apply isolation precautions and strict infection control.\n2. Monitor breathing and oxygenation (airway/breathing first in severe cases).\n3. Report suspected cases at once.\n4. Teach handwashing and avoiding contact with sick birds.\n\n## How the exam asks about it\nPoultry exposure plus flu-like illness. Isolation and reporting are the expected nursing answers.\n\n## Related topics\n[[Influenza]], [[Severe Acute Respiratory Syndrome (SARS)]], [[Isolation Categories and Precautions]]\n\n## Check against your textbook\nThe handout is brief: add the viral subtype, treatment, and the current DOH reporting rules.",
+  "tags": [
+   "avian influenza",
+   "zoonosis",
+   "respiratory"
+  ],
+  "priority": "low",
+  "outlineRefs": [
+   "BIRD FLU"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-sars",
+  "area": "NP1",
+  "title": "Severe Acute Respiratory Syndrome (SARS)",
+  "body": "## What it is\nA respiratory illness caused by a human coronavirus. The handout dates: earliest known case in Guangdong, China in November 2002; worldwide surveillance from 12 March 2003; first Philippine case 11 April 2003. It is the handout's example of a pandemic disease.\n\n## Must-know facts\n- Spread by droplet contact.\n- Incubation mean 5 days (range 2 to 10, up to 14).\n- **Prodromal phase**: fever above 38 C (the first sign), chills, malaise, myalgia, headache.\n- **Respiratory phase**: dry non-productive cough, hypoxia, crackles, dullness to percussion, decreased breath sounds; with or without respiratory distress.\n\n## Assessment\nScreen for travel history, symptoms, and close contact with cases.\n\n## Priority nursing actions\n1. Isolate suspected and probable cases; barrier nursing technique.\n2. Use personal protective equipment and strict handwashing.\n3. Monitor oxygenation and respiratory effort (breathing is the first priority).\n4. Report to health authorities.\n\n## How the exam asks about it\nFever above 38 C plus recent travel or contact; first action is isolation and screening.\n\n## Related topics\n[[Influenza]], [[Bird Flu (Avian Influenza)]], [[Epidemiologic Triangle and Patterns of Disease Occurrence]]\n\n## Check against your textbook\nThe handout says \"droplet contact\"; confirm the precaution level (airborne and contact for aerosol-producing procedures).",
+  "tags": [
+   "SARS",
+   "coronavirus",
+   "droplet"
+  ],
+  "priority": "low",
+  "outlineRefs": [
+   "SEVERE ACUTE RESPIRATORY SYNDROME (SARS)"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-cholera",
+  "area": "NP1",
+  "title": "Cholera",
+  "body": "## What it is\nAcute bacterial intestinal disease (*Vibrio cholerae* El Tor) with profuse watery diarrhea and vomiting, leading to massive fluid and electrolyte loss, hypovolemic shock, acidosis and death.\n\n## Must-know facts\n- Source: vomitus and feces. Spread by food and water contaminated by patients or carriers.\n- Incubation 6-48 hours. Infectious during diarrhea and up to about 7 days after.\n\n## Assessment findings\n**Rice-water stools**, vomiting, \"washerwoman's hands\" (wrinkled skin from dehydration), deep rapid breathing (acidosis), low urine output.\n\n## Diagnosis\nRectal swab, stool exam with darkfield microscopy, blood tests (high BUN and creatinine).\n\n## Priority nursing actions\n1. **Replace fluid first**: oral rehydration (ORESOL) if able to drink, IV fluids if severe or in shock. Fluid loss kills before the germ does.\n2. Monitor vital signs and accurate intake and output.\n3. Enteric isolation, handwashing, proper excreta disposal.\n4. Antibiotics as ordered (tetracycline and others in the handout).\n\n## Prevention\nProtect food and water from feces, boil and chlorinate water, pasteurize milk, sanitary excreta disposal.\n\n## Related topics\n[[Typhoid Fever]], [[Bacillary Dysentery (Shigellosis)]], [[Water Supply and Toilet Facilities]], [[Isolation Categories and Precautions]]\n\n## Check against your textbook\nThe handout lists chloramphenicol and furazolidone; current choices differ, and rehydration remains the mainstay.",
+  "tags": [
+   "cholera",
+   "enteric",
+   "dehydration"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "CHOLERA"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-typhoid",
+  "area": "NP1",
+  "title": "Typhoid Fever",
+  "body": "## What it is\nSystemic infection by *Salmonella typhi* with prolonged fever and ulceration of Peyer's patches in the intestine.\n\n## Must-know facts\n- Fecal-oral; feces and urine are sources; contaminated food, water, milk. Incubation 1-3 weeks. Communicable while bacilli are in excreta (carriers matter).\n\n## Assessment findings\n- Onset: headache, nausea/vomiting, **stepladder (ladder-like) fever**, **rose spots** on the abdomen.\n- Typhoid state: coma vigil, subsultus tendinum, carphologia, delirium.\n\n## Complications\n**Intestinal hemorrhage and perforation** (most dreaded), peritonitis, pneumonia, septicemia, typhoid spine.\n\n## Diagnosis\nTyphidot (confirmatory in the handout), ELISA, Widal, stool/rectal swab, bone marrow culture.\n\n## Treatment\nChloramphenicol is called the drug of choice in the handout; alternatives ampicillin, co-trimoxazole, ciprofloxacin, cefixime, azithromycin; ceftriaxone for complicated cases.\n\n## Priority nursing actions\n1. Watch for bleeding and perforation: sudden right lower abdominal pain, rigid abdomen, falling BP.\n2. Small frequent fluid feedings; monitor vital signs.\n3. Enteric precautions; handwashing.\n4. Skin and mouth care, turn often.\n\n## Prevention\nExcreta disposal, supervise food handlers, safe water, find and treat carriers.\n\n## Related topics\n[[Cholera]], [[Bacillary Dysentery (Shigellosis)]], [[Waste, Food Sanitation and Sanitation Laws]]\n\n## Check against your textbook\nHeat on the abdomen (handout) conflicts with perforation risk; check. Chloramphenicol is no longer first choice in many places.",
+  "tags": [
+   "typhoid",
+   "enteric",
+   "Salmonella"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "TYPHOID FEVER"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-shigella",
+  "area": "NP1",
+  "title": "Bacillary Dysentery (Shigellosis)",
+  "body": "## What it is\nAcute bacterial intestinal infection (*Shigella* species) with fever, cramps, tenesmus and bloody mucoid stools. Also called bloody flux.\n\n## Must-know facts\n- Fecal-oral; contaminated food, water, milk, flies.\n- Incubation 12-96 hours (up to a week). Communicable until stool is free of the organism.\n\n## Assessment findings\nFever, tenesmus, nausea/vomiting, headache, colicky pain, anorexia, weakness, bloody-mucoid stool, rapid dehydration.\n\n## Diagnosis\nFresh stool microscopy (mucus, red and white cells), immunofluorescence, sigmoidoscopy (superficial ulcers), stool culture.\n\n## Treatment\nAntibiotics (ampicillin, ceftriaxone, co-trimoxazole, ciprofloxacin); IV fluids; low-residue diet. **Antidiarrheals are contraindicated** because they hold the organism in and prolong fever.\n\n## Priority nursing actions\n1. Rehydrate and monitor intake and output.\n2. Enteric isolation in the acute stage; handwashing.\n3. Do not give antidiarrheals.\n\n## Prevention\nSanitary stool disposal, handwashing after defecation, food hygiene, fly control, safe water.\n\n## Related topics\n[[Amoebiasis]], [[Cholera]], [[Typhoid Fever]]",
+  "tags": [
+   "dysentery",
+   "shigella",
+   "enteric"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "BACILLARY DYSENTERY"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-amoebiasis",
+  "area": "NP1",
+  "title": "Amoebiasis",
+  "body": "## What it is\nProtozoal infection by *Entamoeba histolytica* that begins in the colon and can spread to liver and lungs.\n\n## Must-know facts\n- **Cyst** = infective stage and hardy outside the body; **trophozoite** = invasive form.\n- Fecal-oral; contaminated food, water, flies. Average incubation 2-4 weeks. Communicable while cysts are in stool.\n\n## Assessment findings\n- Acute: diarrhea alternating with constipation, foul watery stool with blood-streaked mucus, lower abdominal gas, right iliac tenderness.\n- Chronic: weeks of diarrhea then constipation, weight loss, weakness, bloody mucoid stools.\n\n## Diagnosis\nStool exam for cysts; leukocytosis; sigmoidoscopy for ulcers.\n\n## Treatment\nMetronidazole (Flagyl) is the main drug; others listed in the handout are tetracycline, ampicillin, streptomycin, chloramphenicol.\n\n## Priority nursing actions\n1. Enteric precautions.\n2. Stool specimen: no oil preparations for 48 hours beforehand, choose portion with blood and mucus, label, send immediately (live trophozoites die when cooled).\n3. Keep warm, force fluids, bland low-residue diet.\n4. Skin care.\n\n## Prevention\nFly control, safe water, food handling, treat carriers, sanitary excreta disposal.\n\n## Related topics\n[[Bacillary Dysentery (Shigellosis)]], [[Water Supply and Toilet Facilities]], [[Trichomoniasis]]\n\n## Check against your textbook\nThe handout's metronidazole dose (800 mg TID x 5 days) should be verified; do not memorize it without checking.",
+  "tags": [
+   "amoebiasis",
+   "protozoa",
+   "enteric"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "AMOEBIASIS"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-paragonimiasis",
+  "area": "NP1",
+  "title": "Paragonimiasis (Lung Fluke)",
+  "body": "## What it is\nA lung fluke infection (*Paragonimus westermani*, also *P. siamensis*) caught by eating raw or undercooked crabs and crayfish, or by using the meat or juice of infected animals. Reservoir hosts listed: cats, dogs, rats, pigs.\n\n## Must-know facts\n- Contaminated food is the route of spread.\n- Signs: long-lasting cough, recurrent blood-streaked sputum, chest and back pain.\n- **Looks like TB** but does not respond to anti-TB drugs.\n- Cerebral paragonimiasis is the brain form listed under diagnosis.\n\n## Assessment\nSputum microscopy for eggs and immunologic tests.\n\n## Priority nursing actions\n1. Take a diet history for raw crab or crayfish.\n2. Give praziquantel as ordered and teach about it.\n3. Health education: cook crabs and crayfish thoroughly.\n4. Treat infected people; the handout also lists snail-control campaigns.\n\n## How the exam asks about it\nChronic cough with blood-streaked sputum, no improvement on TB drugs, eats raw crab = paragonimiasis.\n\n## Related topics\n[[Tuberculosis: Features and Diagnosis]], [[Schistosomiasis]], [[Locally Endemic Diseases]]\n\n## Check against your textbook\nThe handout calls praziquantel \"Billtrizide\" and lists anti-mollusk campaigns, which belong more to schistosomiasis; confirm control measures.",
+  "tags": [
+   "paragonimiasis",
+   "parasite",
+   "fluke"
+  ],
+  "priority": "low",
+  "outlineRefs": [
+   "PARAGONIMIASIS"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-mumps",
+  "area": "NP1",
+  "title": "Mumps",
+  "body": "## What it is\nAcute viral disease (paramyxovirus) causing swelling of one or both parotid glands, sometimes testes and other glands.\n\n## Must-know facts\n- Spread by direct contact and articles soiled with nose/throat secretions.\n- Communicable from up to a week before swelling to 9 days after; **highest in the 48 hours before swelling**.\n\n## Assessment findings\nSudden headache, earache, anorexia, fever, parotid swelling between earlobe and jaw angle.\n\n## Complications\n**Orchitis** (can threaten fertility), oophoritis, mastitis, meningoencephalitis, pancreatitis, deafness, myocarditis, nephritis.\n\n## Diagnosis\nSerum amylase (early clue), complement fixation, hemagglutination inhibition, viral culture.\n\n## Priority nursing actions\n1. Isolation (single room, droplet).\n2. Pain and fever: analgesics, antipyretics, warm or cold compresses.\n3. Oral care with warm salt-water gargles; soft bland diet; **avoid acid foods and juices** that provoke pain.\n4. Extra fluids, bed rest, report cases.\n\n## Prevention\nMMR vaccine.\n\n## Related topics\n[[Measles (Rubeola)]], [[German Measles (Rubella)]], [[Expanded Program on Immunization]]",
+  "tags": [
+   "mumps",
+   "MMR",
+   "droplet"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "MUMPS"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-botulism",
+  "area": "NP1",
+  "title": "Botulism",
+  "body": "## What it is\nSevere poisoning by a neurotoxin of *Clostridium botulinum* (gram-positive anaerobe) causing **descending flaccid paralysis**. Forms: foodborne, wound, infant.\n\n## Must-know facts\n- Sources: improperly canned low-acid or home-canned foods, cured meats, smoked fish, honey and corn syrup (infants). Spores survive boiling for hours.\n- Incubation 12-72 hours (range 2 hours to 10 days).\n\n## Assessment findings\nDouble or blurred vision, drooping eyelids, dry mouth, trouble swallowing, speaking and breathing, descending weakness, reduced reflexes, early vomiting/diarrhea then constipation.\n\n## Diagnosis\nToxin in serum or stool, food culture, mouse test (most direct), EMG; rule out myasthenia gravis and Guillain-Barre.\n\n## Priority nursing actions\n1. **Airway and breathing**: monitor respiratory function; ventilation may be needed.\n2. Give botulinum antitoxin after allergy history and skin test.\n3. Frequent neurologic checks; NG feeding if swallowing is impaired; purge GI tract as ordered.\n4. Food history; notify authorities and identify others exposed.\n\n## Teaching\nCook food thoroughly, boil home-canned food 10 minutes, no honey for infants (verify), treat wounds promptly, avoid street injectables.\n\n## Related topics\n[[Tetanus (Lockjaw) Disease]], [[Anthrax]], [[Poliomyelitis]]\n\n## Check against your textbook\nHandout suggests inducing vomiting in infants; this is not standard. Confirm.",
+  "tags": [
+   "botulism",
+   "toxin",
+   "neurologic"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "BOTULISM"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-schisto",
+  "area": "NP1",
+  "title": "Schistosomiasis",
+  "body": "## What it is\nBlood fluke disease (snail fever). In the Philippines: ***Schistosoma japonicum***; intermediate host is the snail ***Oncomelania hupensis quadrasi***. Endemic areas include Leyte and Samar.\n\n## Must-know facts\n- Spread through contact with contaminated water; larvae (cercariae) penetrate skin. Source: stool and urine of infected people and animals.\n- Incubation at least 2 months.\n\n## Stages\n1. **Swimmer's itch** 24 hours after skin penetration.\n2. Bloody mucoid stool and **Katayama fever** (fever, headache, cough, chills, lymph node and liver/spleen enlargement).\n3. Chronic: egg granulomas in intestine, liver, bladder; jaundice, ascites, big spleen, brain involvement (seizures), hematuria.\n\n## Complications\nCirrhosis, portal hypertension, esophageal varices, ascites, bladder cancer, heart and renal failure.\n\n## Diagnosis\nStool exam, biopsy, ELISA, **circumoval precipitin test (COPT) confirmatory**.\n\n## Treatment\nPraziquantel (drug of choice).\n\n## Priority nursing actions\nComfort, skin care, nutrition, tepid sponge bath; monitor for bleeding and liver failure.\n\n## Prevention\nKill snails (molluscicides, clear vegetation), sanitary excreta disposal, control stray animals, safe water, footbridges over snail streams, health education.\n\n## Related topics\n[[Locally Endemic Diseases]], [[Filariasis]], [[Paragonimiasis (Lung Fluke)]]\n\n## Check against your textbook\nThe handout's 6-month praziquantel schedule is doubtful (usually a one-day course). Verify.",
+  "tags": [
+   "schistosomiasis",
+   "snail fever",
+   "endemic"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "SCHISTOSOMIASIS"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-syphilis",
+  "area": "NP1",
+  "title": "Syphilis",
+  "body": "## What it is\nA sexually transmitted infection by the spirochete *Treponema pallidum*. It is also spread by contact with lesions, blood or discharges, and across the placenta to the fetus. Other names in the handout: bad blood, the pox, lues venereal.\n\n## Must-know facts\n- Incubation about 3 weeks; communicability variable and indefinite.\n- Sources: lesions, semen, blood, tears, urine, mucous discharges.\n- **Primary**: painless chancre at the entry site, swollen glands; it goes away in 3 to 6 weeks even without treatment. The disease has not gone.\n- **Secondary**: macular, papular, pustular or nodular rash, including palms, soles, face, scalp; temporary hair loss; brittle pitted nails.\n- **Latent**: no symptoms, bacteria dormant.\n- **Late**: damage to brain, heart, liver and other organs.\n\n## Assessment\nDarkfield illumination of lesion fluid gives an immediate diagnosis; FTA-ABS; VDRL (nonspecific, reactive 1 to 2 weeks after the chancre or 4 to 5 weeks after infection); CSF protein above 40 mg/dL suggests neurosyphilis.\n\n## Priority nursing actions\n1. Confirm treatment is complete even when symptoms disappear (the painless chancre fools clients into stopping).\n2. Standard precautions; keep secondary lesions dry.\n3. Trace and treat partners; report cases to the Department of Health.\n4. Sex education.\n\n## Treatment and medications\nPenicillin G benzathine IM; tetracycline or doxycycline are listed as alternatives.\n\n## Complications and red flags\nNeurologic and cardiac damage in late disease; congenital syphilis from transplacental spread.\n\n## How the exam asks about it\nPainless sore that vanishes = primary stage. Palm and sole rash = secondary. Nonspecific test = VDRL.\n\n## Related topics\n[[Gonorrhea]], [[Chlamydia]], [[HIV/AIDS: Diagnosis and Nursing Care]], [[Trichomoniasis]]\n\n## Check against your textbook\nThe handout lists control of prostitution and mandatory checkups; modern guidance stresses confidential testing and partner notification. Check current DOH policy.",
+  "tags": [
+   "syphilis",
+   "STI",
+   "Treponema"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "SYPHILIS"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-trich",
+  "area": "NP1",
+  "title": "Trichomoniasis",
+  "body": "## What it is\nA sexually transmitted infection caused by the protozoan *Trichomonas vaginalis* (\"trich\"). It spreads by direct sexual contact or by damp items such as towels, washcloths and douching equipment.\n\n## Must-know facts\n- Incubation 5 to 21 days.\n- Women: white or greenish-yellow, foul-smelling discharge, vaginal itching and soreness, painful urination.\n- Men: slight penile itching, painful urination, clear penile discharge (often mild).\n- Cervical cancer is listed as a complication in the handout.\n\n## Assessment\nMicroscopy of discharge, culture of urethral tissue, urine or semen, physical exam. A rapid test gives results in 10 to 45 minutes but is less sensitive and specific than culture.\n\n## Priority nursing actions\n1. Standard precautions; help collect the specimen.\n2. Teach: **no alcohol** during metronidazole and for 48 hours after the last dose (severe nausea and vomiting, cramps, headache, flushing). Why: it is a drug-alcohol reaction that can be dangerous.\n3. Treat sexual partners at the same time to prevent reinfection.\n4. Teach not to share towels and to practice hygiene.\n\n## Treatment and medications\nMetronidazole (Flagyl) is the treatment of choice; tinidazole is the other drug named.\n\n## Client teaching\nFinish the full course; abstain until both partners are treated.\n\n## How the exam asks about it\nGreenish foul discharge plus itching = trichomoniasis; metronidazole; alcohol warning.\n\n## Related topics\n[[Candidiasis]], [[Chlamydia]], [[Gonorrhea]], [[Syphilis]]\n\n## Check against your textbook\nThe link to cervical cancer is weaker than the handout implies; verify.",
+  "tags": [
+   "trichomoniasis",
+   "STI",
+   "metronidazole"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "TRICHOMONIASIS"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-chlamydia",
+  "area": "NP1",
+  "title": "Chlamydia",
+  "body": "## What it is\nA sexually transmitted infection by *Chlamydia trachomatis*, passed by vaginal or rectal intercourse and by oral-genital contact. It often causes few symptoms, so partners spread it unknowingly.\n\n## Must-know facts\n- Incubation 7 to 14 days; the case remains infectious until treated.\n- Findings in the handout: cervical erosion, mucopurulent discharge, painful intercourse (dyspareunia), abdominal pain and tenderness, chills, fever, painful urination, urinary frequency, painful scrotal swelling, diarrhea, tenesmus.\n- Complications: sterility, prematurity, stillbirth, infant pneumonia, newborn eye infection.\n\n## Assessment\nCulture of the infection site; nucleic acid probe positive for *C. trachomatis*.\n\n## Priority nursing actions\n1. Observe standard precautions.\n2. Teach to finish the whole antibiotic course even when symptoms subside.\n3. Ask the client to tell sexual contacts so they can be treated; offer HIV testing for both partners.\n4. Assess the newborn of an infected mother for eye infection and pneumonia.\n5. Hygiene teaching: do not touch discharge; wash and dry hands before touching the eyes.\n\n## Treatment and medications\nTetracycline, erythromycin or azithromycin.\n\n## How the exam asks about it\nNewborn eye infection or pneumonia with maternal STI; partner treatment; compliance teaching.\n\n## Related topics\n[[Gonorrhea]], [[Syphilis]], [[HIV/AIDS: Diagnosis and Nursing Care]], [[Trichomoniasis]]\n\n## Check against your textbook\nTetracycline is avoided in pregnancy; check pregnancy-safe options.",
+  "tags": [
+   "chlamydia",
+   "STI"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "CHLAMYDIA"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-gonorrhea",
+  "area": "NP1",
+  "title": "Gonorrhea",
+  "body": "## What it is\nA sexually transmitted bacterial infection by *Neisseria gonorrhoeae* affecting the lining of the genitourinary tract, rectum and throat. Other names: clap, drip, gleet, flores blancas.\n\n## Must-know facts\n- Incubation 2 to 5 days.\n- Spread by sexual intercourse, by contact with the mother's infected secretions at vaginal delivery, and by fomites.\n- Women: about 80% have **no symptoms**; others have burning, frequency, yellowish purulent discharge, redness and swelling of genitals.\n- Men: painful urination with purulent discharge, urethral inflammation, rectal infection, prostatitis, pelvic pain.\n- Complications: sterility, pelvic infection, epididymitis, arthritis, endocarditis, conjunctivitis, meningitis.\n\n## Assessment\nGram stain; culture of cervical and urethral smears.\n\n## Priority nursing actions\n1. Standard precautions.\n2. Advise sexual abstinence until recovered; treat partners.\n3. Moist heat for the pain of gonococcal arthritis.\n4. Case finding, reporting, sex education.\n5. Remember newborn eye care (the infant can be infected at birth).\n\n## Treatment and medications\nCeftriaxone IM; azithromycin or doxycycline by mouth.\n\n## How the exam asks about it\nAsymptomatic women still spread infection; purulent discharge in men; newborn conjunctivitis.\n\n## Related topics\n[[Chlamydia]], [[Syphilis]], [[Trichomoniasis]], [[Newborn Screening]]\n\n## Check against your textbook\nResistance patterns change which antibiotics are used; verify current regimens.",
+  "tags": [
+   "gonorrhea",
+   "STI"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "GONORRHEA"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-candida",
+  "area": "NP1",
+  "title": "Candidiasis",
+  "body": "## What it is\nA fungal infection by *Candida albicans*. The yeast lives normally in the mouth, gut, vagina and skin. It causes disease when something changes, such as high blood glucose or weakened immunity. Other names: candidosis, moniliasis.\n\n## Must-know facts\n- Skin: scaly red papular rash, sometimes with exudate, in folds: under breasts, between fingers, axillae, groin, umbilicus.\n- Nails: red, swollen, darkened nail bed; pus; nail separates.\n- Mouth (thrush): cream or bluish-white curd-like patches on tongue, mouth or throat that bleed when scraped.\n- Esophagus: painful swallowing, chest pain behind the sternum, regurgitation.\n- Vagina: white or yellow discharge, itching, raw skin, raised white-gray patches, painful intercourse.\n- Deep spread: lungs (cough, hemoptysis), kidney (flank pain, hematuria, cloudy urine), brain (headache, stiff neck, seizures), heart (murmur, fever, emboli), eye (blurred vision, eye pain).\n\n## Assessment\nBlood culture, culture of vaginal scraping, echocardiography for heart involvement, fundoscopy for eye involvement.\n\n## Priority nursing actions\n1. Oral care and inspection of the mouth, especially for clients on antibiotics, steroids or with diabetes.\n2. Keep skin folds clean and dry.\n3. Control blood sugar.\n4. Teach correct use of antifungals and finishing the course.\n\n## Treatment and medications\nNystatin, clotrimazole, miconazole.\n\n## How the exam asks about it\nWhite patches that bleed when scraped = thrush; risk factors are diabetes, antibiotics, immunosuppression.\n\n## Related topics\n[[Trichomoniasis]], [[HIV/AIDS: Diagnosis and Nursing Care]], [[Syphilis]]\n\n## Check against your textbook\nThe handout text is cut after the antifungals; add systemic therapy and prevention from a textbook.",
+  "tags": [
+   "candidiasis",
+   "fungal",
+   "thrush"
+  ],
+  "priority": "low",
+  "outlineRefs": [
+   "CANDIDIASIS"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-hiv",
+  "area": "NP1",
+  "title": "HIV/AIDS: Diagnosis and Nursing Care",
+  "body": "## What it is\nHIV is a virus that destroys the body's immune defenses, leaving the person open to infections. The part of the handout that covers cause, spread and symptoms is cut off in the text, so only the tail (late brain signs, tests, drugs, precautions) survives. Items marked in the check section come from general knowledge, not the handout.\n\n## Must-know facts\n- Late brain involvement in the handout includes mutism and coma.\n- **ELISA** is the presumptive (screening) test; **Western blot** is confirmatory; particle agglutination and immunofluorescence are also listed.\n- Drug classes named: reverse transcriptase inhibitors (zidovudine) and protease inhibitors (ritonavir).\n- HIV/AIDS is the handout's example of a pandemic.\n\n## Priority nursing actions\n1. Standard precautions for every client: gloves for blood and body fluids, handwashing. Why: you cannot tell who is infected, and the main risk is blood exposure.\n2. Needle safety: never bend or recap needles; put them in a puncture-resistant container.\n3. Label blood and specimens prominently.\n4. Avoid contact with open skin lesions; cover your own broken skin.\n5. Sterilize lensed instruments after use on an AIDS client.\n6. Clean a thermometer with warm soapy water, soak in 70% alcohol for 10 minutes, dry and store.\n7. Protect the client with active AIDS from infection (the handout says isolate; this is for the client's protection, not because staff are at special risk).\n\n## Treatment and medications\nAntiretroviral therapy suppresses the virus; adherence is the priority teaching point.\n\n## Complications and red flags\nOpportunistic infections, wasting, and brain involvement (confusion, mutism, coma in the late stage).\n\n## How the exam asks about it\nScreening versus confirmatory test (ELISA then Western blot); needle-stick and standard precaution questions; isolating the client to protect him or her.\n\n## Related topics\n[[Syphilis]], [[Candidiasis]], [[Isolation Categories and Precautions]], [[Gonorrhea]]\n\n## Check against your textbook\nMissing from the handout text: the causative virus, modes of transmission (sexual contact, blood, mother to child), stages, common opportunistic infections, counseling, confidentiality, and Philippine HIV law. Add them from your textbook.",
+  "tags": [
+   "HIV",
+   "AIDS",
+   "standard precautions"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "HIV/AIDS",
+   "Diagnostic Tests",
+   "Nursing Management"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-dengue",
+  "area": "NP1",
+  "title": "Dengue Fever",
+  "body": "## What it is\nAcute febrile viral disease from dengue virus types 1-4, spread by the day-biting female *Aedes aegypti* mosquito. No person-to-person spread; people are infectious to mosquitoes while febrile. Incubation 3-15 days.\n\n## Assessment findings\nHerman's sign (rash with islands of normal skin) is called pathognomonic.\n1. **Febrile**: first ~4 days, high fever 39-40 C, pain, headache.\n2. **Toxic/hemorrhagic (critical)**: temperature **falls**, severe abdominal pain, vomiting, melena, hematemesis. Falling fever with shock signs is the danger.\n3. **Convalescent**: flushing with white patches, stable BP.\n\n## Diagnosis\nTourniquet (Rumpel-Leede) test, low platelets, hemoconcentration (hematocrit up 20% or more), occult blood, NS1 test.\n\n## Priority nursing actions\n1. Watch for shock and bleeding (circulation).\n2. Rapid fluid replacement; oral rehydration; oxygen; transfusion for severe bleeding.\n3. Paracetamol for fever, **no aspirin** (bleeding).\n4. Nosebleed: ice bag to forehead and nasal bridge.\n5. Nursing diet: low fat, low fiber, non-irritating, no carbonated drinks.\n6. Keep patient under a mosquito net.\n\n## Prevention\nRemove breeding sites, treated nets, early case detection and treatment, health education (clean up, cover water containers).\n\n## Related topics\n[[Malaria]], [[Filariasis]], [[Environmental Sanitation]]\n\n## Check against your textbook\nHandout bundles chikungunya and other names; verify.",
+  "tags": [
+   "dengue",
+   "vector-borne",
+   "hemorrhagic"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "DENGUE FEVER"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-malaria",
+  "area": "NP1",
+  "title": "Malaria",
+  "body": "## What it is\nParasitic disease by *Plasmodium* (falciparum most common, vivax, malariae, ovale), transmitted by the bite of the female **Anopheles** mosquito; also by transfusion and across the placenta. Endemic example: Palawan.\n\n## Incubation\nfalciparum 5-7 days; vivax 6-8; ovale 8-9; malariae 12-16.\n\n## Assessment findings\nParoxysms with shaking chills, rapidly rising fever and severe headache, then profuse sweating; muscle pain, enlarged spleen and liver.\n\n## Prevention and control\n- Chloroquine weekly, starting 1-2 weeks before entering an endemic area.\n- Treated mosquito nets, house spraying, stream clearing and seeding, long clothing in evening, avoid outdoor night activity (9 PM-3 AM), neem trees, zooprophylaxis.\n\n## Priority nursing actions\nProtect from bites, give antimalarials as ordered, manage fever and chills, monitor for complications, report cases.\n\n## Related topics\n[[Dengue Fever]], [[Locally Endemic Diseases]], [[Filariasis]]\n\n## Check against your textbook\nThe handout has no treatment section or diagnosis (blood smear). Add them.",
+  "tags": [
+   "malaria",
+   "vector-borne",
+   "Anopheles"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "MALARIA"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-filariasis",
+  "area": "NP1",
+  "title": "Filariasis",
+  "body": "## What it is\nParasitic disease from thread-like filarial worms (*Wuchereria bancrofti*, *Brugia malayi*) spread by mosquito (*Aedes poecilus* in the handout). Disabling and stigmatizing. Incubation 8-16 months. Endemic example: Sorsogon.\n\n## Stages\n- Asymptomatic.\n- Acute: lymphadenitis, lymphangitis, epididymitis, orchitis.\n- Chronic (10-15 years later): hydrocele, lymphedema, **elephantiasis**.\n\n## Diagnosis\nNocturnal blood examination (blood drawn around 8 PM because microfilariae circulate at night). Immunochromatographic test (ICT) is a rapid antigen test done in daytime.\n\n## Treatment and prevention\nDiethylcarbamazine citrate (Hetrazan); yearly mass drug dose; nets and repellents.\n\n## Priority nursing actions\nHealth education, sanitation, hygiene of affected limbs, psychological support for body image.\n\n## Related topics\n[[Malaria]], [[Dengue Fever]], [[Locally Endemic Diseases]]\n\n## Check against your textbook\nThe handout confusingly mentions \"African eye worm\" (Loa loa) and a vector name; verify.",
+  "tags": [
+   "filariasis",
+   "vector-borne",
+   "endemic"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "FILIRIASIS"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-lepto",
+  "area": "NP1",
+  "title": "Leptospirosis",
+  "body": "## What it is\nBacterial zoonosis by *Leptospira interrogans*. Animal urine (rats, dogs, pigs) contaminates floodwater or food; bacteria enter through **skin wounds** or mucous membranes. Incubation 7-13 days.\n\n## Assessment findings\n- **Leptospiremic** (4-7 days): fever, headache, muscle pain (calf), vomiting.\n- **Immune** (4-30 days): meningeal irritation, little or no urine, severe cases shock and heart failure.\n- Convalescence: relapse possible week 4-5.\n\n## Complications\nMeningitis, respiratory distress, kidney tubular necrosis, heart problems.\n\n## Treatment\nPenicillin, doxycycline (also prophylaxis), tetracycline, erythromycin; fluids, electrolytes, blood.\n\n## Priority nursing actions\n1. Monitor urine output (kidney failure) and breathing.\n2. Skin care; darkened room; oral fluids.\n3. Teach: avoid wading in flood water, wear boots, rat control, drainage.\n\n## Related topics\n[[Environmental Sanitation]], [[Rabies]], [[Anthrax]]\n\n## Check against your textbook\nHandout lists \"isolate patient\"; standard precautions are usual. Doxycycline prophylaxis is typically given after flood exposure per DOH advisory; verify.",
+  "tags": [
+   "leptospirosis",
+   "zoonosis",
+   "flood"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "LEPTOSPIROSIS"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-rabies",
+  "area": "NP1",
+  "title": "Rabies",
+  "body": "## What it is\nFatal viral infection (rhabdovirus) passed through saliva of an infected animal, usually a bite. Incubation 3-8 weeks (9 days to 7 years); shorter with deep bites near the head.\n\n## Phases\n- **Prodromal**: fever, malaise, irritability, light and sound sensitivity.\n- **Excitement**: hydrophobia, aerophobia, painful throat spasms, drooling.\n- **Paralytic**: quiet, unconscious, paralysis, respiratory and heart failure.\n\n## Diagnosis\nFluorescent rabies antibody (most definitive); Negri bodies in animal brain.\n\n## Priority nursing actions\n1. **Wash the wound immediately** with soap and running water, then apply antiseptic (povidone iodine). This is the first priority.\n2. Refer for anti-rabies vaccine and immune globulin.\n3. In hospital: quiet room, no running water in view, concurrent and terminal disinfection; protect staff from saliva.\n\n## Prevention\nVaccinate dogs at 3 months and yearly; confine a biting dog 10-14 days for observation; public education.\n\n## Related topics\n[[Tetanus (Lockjaw) Disease]], [[Leptospirosis]]\n\n## Check against your textbook\nThe handout says \"patients should not be bathed\"; verify and check Philippine Rabies Act details.",
+  "tags": [
+   "rabies",
+   "zoonosis",
+   "bite"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "RABIES"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-tetanus",
+  "area": "NP1",
+  "title": "Tetanus (Lockjaw) Disease",
+  "body": "## What it is\nAn acute illness from the toxin of *Clostridium tetani*. Spores in soil and feces get into the body through dirty wounds, injection drug use, or sometimes abdominal surgery. It is usually systemic, less often localized.\n\n## Must-know facts\n- Incubation 3 to 21 days, depending on wound site and contamination.\n- **Localized**: spasm and increased muscle tone near the wound.\n- **Generalized**: marked muscle stiffness, hyperactive deep tendon reflexes, fast heart rate, heavy sweating, low-grade fever, painful involuntary contractions: lockjaw (trismus), painful chewing-muscle spasm, risus sardonicus, arched-back rigidity and board-like abdomen.\n- Intermittent tonic seizures can cause cyanosis and sudden death by asphyxia.\n- Blood cultures and antibody tests are often negative; only about a third have a positive wound culture; CSF pressure may rise. Diagnosis is clinical.\n\n## Priority nursing actions\n1. Airway and ventilation first: suction often, watch for distress, prevent atelectasis and pneumonia.\n2. Quiet, dim room; warn visitors not to stimulate the client (stimuli trigger spasms).\n3. Keep an IV line for drugs and emergencies; monitor for arrhythmias.\n4. Accurate intake and output, frequent vital signs.\n5. Give muscle relaxants; passive range of motion.\n6. Nutrition for the high metabolic demand.\n7. Teach wound care and booster toxoid every 10 years.\n\n## Treatment and medications\nDrain abscesses; metronidazole (first line) or penicillin G; tetanus immune globulin (TIG); sedatives; intubate, sedate and paralyze if spasm is severe or rapidly worsening; labetalol for autonomic instability.\n\n## Complications and red flags\nAtelectasis, pneumonia, pulmonary emboli, acute gastric ulcers, seizures, flexion contractures, arrhythmias.\n\n## How the exam asks about it\nDirty wound plus stiff jaw = tetanus; first nursing priority is airway; environment = quiet and dim.\n\n## Related topics\n[[Tetanus Toxoid Immunization]], [[Botulism]], [[Pertussis (Whooping Cough)]], [[Rabies]]\n\n## Check against your textbook\nDosing of TIG and the order of antibiotics versus immunoglobulin are not in the handout; confirm.",
+  "tags": [
+   "tetanus",
+   "toxin",
+   "immunization"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "TETANUS"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-polio",
+  "area": "NP1",
+  "title": "Poliomyelitis",
+  "body": "## What it is\nViral disease (poliovirus 1, 2, 3) spread by oropharyngeal secretions or feces. Incubation 7-14 days.\n\n## Assessment findings\nFever, headache, vomiting, neck, back and limb pain, muscle tenderness and weakness, loss of reflexes, positive Kernig's and Brudzinski's signs, **tripod sign**, Hoyne sign, urinary retention, difficulty swallowing.\n\n## Diagnosis\nStool culture, rising antibody titer, CSF changes, EMG.\n\n## Treatment and nursing\n- Analgesics (no morphine per handout), moist heat, bed rest until pain eases, physical therapy, braces.\n- **Airway and breathing first**: watch for respiratory failure; check BP.\n- Skin care, reposition, balanced diet, handwashing.\n\n## Complications\nRespiratory failure, pulmonary edema, pneumonia, urinary tract infection, cor pulmonale.\n\n## Prevention\nOral polio vaccine; boosters before travel to endemic areas.\n\n## Related topics\n[[Expanded Program on Immunization]], [[Vaccine Principles and Nursing Responsibilities]], [[Botulism]]\n\n## Check against your textbook\nCurrent schedules also use inactivated polio vaccine; verify.",
+  "tags": [
+   "polio",
+   "paralysis",
+   "immunization"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "POLIOMYELITIS"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-x-incubation-quickref",
+  "area": "NP1",
+  "title": "Communicable Disease Incubation and Communicability Quick Reference",
+  "body": "## What it is\nA one-page recall list of the incubation periods and infectious periods the handout gives, grouped so you can compare diseases instead of memorizing them one by one.\n\n## Must-know facts\n**Respiratory and rash diseases**\n- Chickenpox: incubation given as 2 to 3 weeks; infectious from 2 days before the rash until 5 days after the first crop of vesicles; scabs are not infective.\n- Measles: 1 to 2 weeks; infectious from just before the prodrome until 4 days after the rash appears.\n- Rubella: 2 to 3 weeks.\n- Herpes zoster: believed 13 to 17 days; infectious from 1 day before the rash until 5 to 6 days after the last crust.\n- Diphtheria: 2 to 5 days; infectious 2 weeks to more than 4 weeks, until virulent bacilli are gone from secretions and lesions.\n- Pertussis: 7 to 10 days (sometimes up to 3 weeks); infectious from 7 days after exposure to 3 weeks after typical paroxysms.\n- Influenza: 1 to 3 days (up to 5); infectious from 1 day before to 3 to 5 days after symptoms start.\n- Pneumonia: 2 to 3 days.\n- Tuberculosis: 3 to 8 weeks (up to 12); infectious as long as bacilli appear in sputum.\n- Bird flu: 3 to 5 days. SARS: mean 5 days (range 2 to 10, up to 14).\n- Mumps: infectious from up to a week (usually 2 days) before parotid swelling until 9 days after; the 48 hours before swelling is the highest-risk time.\n\n**Gut diseases**\n- Cholera: 6 to 48 hours; infectious during diarrhea and up to 7 days after.\n- Typhoid: 1 to 3 weeks (average 2); infectious while bacilli are in excreta.\n- Bacillary dysentery: 12 to 96 hours (up to 1 week); infectious until stool is negative.\n- Amoebiasis: average 2 to 4 weeks; infectious while cysts are in stool.\n- Botulism: 12 to 72 hours (extremes 2 hours to 10 days).\n\n**Skin, nerve, blood and sexual diseases**\n- Pediculosis: 3 to 7 days. Scabies: mites burrow and lay eggs within 24 hours of contact.\n- Tetanus: 3 to 21 days. Polio: 7 to 14 days. Rabies: usually 3 to 8 weeks (9 days to 7 years).\n- Dengue: 3 to 15 days. Leptospirosis: 7 to 13 days (4 to 19). Filariasis: 8 to 16 months. Schistosomiasis: at least 2 months.\n- Malaria: P. falciparum 5 to 7 days, P. vivax 6 to 8, P. ovale 8 to 9, P. malariae 12 to 16 days.\n- Trichomoniasis 5 to 21 days; chlamydia 7 to 14 days; gonorrhea 2 to 5 days; syphilis about 3 weeks.\n\n## How the exam asks about it\nShortest incubation among the gut diseases = cholera. Longest in the list = filariasis (months) and rabies (can be years). Questions on when a client may return to school or be considered non-infectious use the communicability period, not the incubation period.\n\n## Memory aid\nIncubation = from exposure to first symptom. Communicability = how long the person can pass it on. They are different clocks.\n\n## Related topics\n[[Communicable Disease Terminology]], [[Chickenpox (Varicella)]], [[Measles (Rubeola)]], [[Cholera]], [[Malaria]]\n\n## Check against your textbook\nChickenpox 2 to 3 weeks and zoster 13 to 17 days are as the handout states; other references give slightly different ranges. Rabies and polio ranges are taken from the handout as written.",
+  "tags": [
+   "incubation",
+   "communicability",
+   "quick reference"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "TERMINOLOGIES",
+   "Incubation Period",
+   "Period of Communicability"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-x-diagnostic-quickref",
+  "area": "NP1",
+  "title": "Diagnostic Tests in Communicable Diseases: Quick Reference",
+  "body": "## What it is\nThe named tests in the handout, grouped by disease, with what each one tells you. Examiners like to ask \"which test is confirmatory\" or \"which test is named after the disease\".\n\n## Must-know facts\n- **Chickenpox**: virus isolated from vesicle fluid in the first 3 to 4 days of rash; serum antibodies appear about 7 days after onset.\n- **Measles**: nose and throat swab, urinalysis, blood (single raised IgM or rising IgG).\n- **Rubella**: cell cultures of throat, blood, urine and CSF; fourfold rise in antibody titer supports the diagnosis.\n- **Leprosy**: slit-skin smear; lepromin test (negative in lepromatous, positive in tuberculoid).\n- **Scabies**: scraping of a burrow examined under a low-power microscope.\n- **Pediculosis**: Wood's light (adult lice fluoresce); microscopy for nits on the hair shaft.\n- **Herpes zoster**: tissue culture, smear of vesicle fluid, microscopy; fluorescent methods separate it from herpes simplex.\n- **Diphtheria**: nose and throat swab; **Schick test** (0.1 mL dilute toxin intradermally, read in 3 to 4 days; a positive reaction, redness or hardness, means the person has no antibodies); virulence test; **Moloney test** (detects high sensitivity to diphtheria toxoid).\n- **Pertussis**: nasopharyngeal swab, sputum culture, CBC with leukocytosis, chest X-ray.\n- **Influenza**: viral culture of throat wash or swab, complement fixation (serology), chest X-ray, ABG for hypoxemia.\n- **Anthrax**: PCR is the definitive test; swabs, blood cultures, node or spleen aspirates, CSF stain; chest imaging may show a widened mediastinum.\n- **Tuberculosis**: sputum AFB is confirmatory; chest X-ray; tuberculin tests (Mantoux/PPD, Tine, Heaf) show exposure only.\n- **Cholera**: rectal swab, darkfield or phase microscopy, stool exam; BUN and creatinine rise.\n- **Typhoid**: **Typhidot** is confirmatory in the handout; also ELISA, Widal, rectal swab, bone marrow aspiration.\n- **Dysentery**: fresh stool microscopy, immunofluorescence, sigmoidoscopy, stool culture.\n- **Amoebiasis**: stool exam for cysts, blood (leukocytosis), sigmoidoscopy.\n- **Mumps**: serum amylase (most useful early presumptive test), complement fixation, hemagglutination inhibition, neutralization test, viral culture.\n- **Botulism**: toxin or organism in serum, stool or the suspect food; EMG; the mouse inoculation test is the most direct confirmation.\n- **Schistosomiasis**: fecalysis, liver or rectal biopsy, ELISA, **circumoval precipitation test (COPT)** confirmatory.\n- **Syphilis**: darkfield (immediate), FTA-ABS, VDRL, CSF protein above 40 mg/dL for neurosyphilis.\n- **HIV**: ELISA presumptive, Western blot confirmatory.\n- **Dengue**: tourniquet (Rumpel-Leede) test, falling platelets, hemoconcentration of at least 20%, occult blood, hemoglobin, **NS1** confirmatory.\n- **Filariasis**: nocturnal blood examination (blood taken about 8 pm); immunochromatographic test (ICT), antigen test usable by day.\n- **Leptospirosis**: ELISA, liver function tests, antigen and antibody tests.\n- **Rabies**: virus isolation from saliva or throat; fluorescent rabies antibody (RFA) most definitive; Negri bodies in the animal's brain.\n- **Polio**: stool viral culture, rising antibody titers, CSF changes, EMG.\n\n## How the exam asks about it\n\"Confirmatory\" questions: sputum AFB (TB), Western blot (HIV), Typhidot (typhoid in this handout), NS1 (dengue), COPT (schisto), RFA (rabies), PCR (anthrax). A screening or exposure test (ELISA, Mantoux) is never the final proof.\n\n## Related topics\n[[Diphtheria]], [[Tuberculosis: Features and Diagnosis]], [[Dengue Fever]], [[HIV/AIDS: Diagnosis and Nursing Care]], [[Schistosomiasis]]\n\n## Check against your textbook\nWidal and Typhidot reliability and which is \"confirmatory\" differs by textbook; the Schick test is now mainly historical. Confirm before exam day.",
+  "tags": [
+   "diagnostic tests",
+   "confirmatory",
+   "quick reference"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Diagnostic Tests",
+   "Diagnostic Procedures"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-x-named-signs",
+  "area": "NP1",
+  "title": "Named Signs and Classic Findings in Communicable Diseases",
+  "body": "## What it is\nMany communicable diseases have one signature finding that the exam uses as the clue. Learn the sign, then the disease.\n\n## Must-know facts\n- **Koplik spots**: pathognomonic for measles. **Stimson's line**: red line on the lower conjunctiva, also measles.\n- **Forchheimer's spots**: pinkish spots on the soft palate in rubella; rash fades in 1 to 5 days with no pigmentation or peeling.\n- **Herman's sign**: rash with patches of normal skin; pathognomonic for dengue.\n- **Rice-water stool and washerwoman's hands**: cholera (profuse loss of fluid).\n- **Rose spots on the abdomen, ladder-like (step-wise) fever**: typhoid. Late typhoid state: coma vigil, subsultus tendinum (twitching of tendons), carphologia (picking at the bedclothes), delirium.\n- **Bull neck and grayish pseudomembrane**: diphtheria.\n- **Whoop after explosive coughing, then vomiting**: pertussis.\n- **Painless chancre**: primary syphilis.\n- **Swimmer's itch, then Katayama fever**: schistosomiasis.\n- **Burrows in finger webs, itch worse at night**: scabies.\n- **Trismus (lockjaw) and risus sardonicus**: tetanus.\n- **Hydrophobia and aerophobia, drooling**: rabies.\n- **Tripod sign and Hoyne sign**: poliomyelitis.\n- **Descending flaccid paralysis with droopy eyelids and double vision**: botulism.\n- **Black scab (eschar) with purplish vesicles around a painless sore**: cutaneous anthrax.\n- **Madarosis, lagophthalmos, claw hand, collapsed nose bridge**: late leprosy.\n- **Rusty sputum**: pneumococcal pneumonia. **Cough of 2 weeks or more with afternoon fever and night sweats**: TB.\n- **Parotid swelling between earlobe and jaw angle**: mumps.\n- **Unilateral band of painful vesicles along a nerve**: herpes zoster.\n\n## How to reason about it\nCause -> sign -> priority action: Koplik spots mean airborne isolation and fluids; bull neck or stridor in a child means watch the airway before anything else; descending paralysis means watch breathing; a sudden high-risk finding (hemorrhage, perforation, shock) always outranks comfort measures. The trap is picking the answer about the rash when the airway is the real threat.\n\n## Related topics\n[[Measles (Rubeola)]], [[Diphtheria]], [[Typhoid Fever]], [[Dengue Fever]], [[Tetanus (Lockjaw) Disease]]\n\n## Check against your textbook\n\"Pathognomonic\" is the handout's wording for Koplik spots and Herman's sign; some textbooks are less absolute.",
+  "tags": [
+   "signs",
+   "pathognomonic",
+   "recall"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Clinical Manifestations"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-x-drug-choices",
+  "area": "NP1",
+  "title": "Drugs of Choice and Key Medications in Communicable Diseases",
+  "body": "## What it is\nA drug-by-disease list drawn from the handout, with the one or two nursing points tied to each drug. Doses are not given because the handout gives few; follow the prescriber.\n\n## Must-know facts\n- **Chickenpox**: varicella-zoster immune globulin (VZIG) for exposed susceptible people, within 10 days of exposure.\n- **Measles**: antiviral (Isoprenosine), antibiotics for complications, oxygen, IV fluids.\n- **Rubella**: acetaminophen for fever and joint pain; immune serum globulin one week after exposure.\n- **Herpes zoster**: acyclovir, analgesics, anti-inflammatory drugs.\n- **Scabies**: aqueous malathion lotion, permethrin cream left on 8 to 12 hours, benzyl benzoate, sulfur in petrolatum, ivermectin for resistant cases, antipruritic or topical steroid for itch.\n- **Pediculosis**: permethrin or pyrethrin first choice for head and pubic lice; ivermectin, levamisole, albendazole by mouth also work; lindane is absorbed through skin and can cause CNS effects.\n- **Leprosy**: multidrug therapy. Multibacillary: rifampicin, clofazimine, dapsone for about 12 months. Paucibacillary: rifampicin and dapsone for 6 to 9 months.\n- **Diphtheria**: antitoxin plus penicillin or erythromycin.\n- **Pertussis**: erythromycin or ampicillin; hyperimmune or convalescent serum after exposure.\n- **Anthrax**: ciprofloxacin is the drug of choice; penicillin, doxycycline also used; cutaneous 7 to 10 days.\n- **Tuberculosis**: isoniazid, rifampicin, pyrazinamide, ethambutol (streptomycin as listed).\n- **Cholera**: rehydration first (oral or IV, ORESOL, coconut water), then tetracycline, furazolidone, chloramphenicol or cotrimoxazole.\n- **Typhoid**: chloramphenicol is the drug of choice in the handout; ceftriaxone for complicated cases.\n- **Dysentery**: ampicillin, ceftriaxone, trimethoprim-sulfamethoxazole, ciprofloxacin. Anti-diarrheal drugs are contraindicated.\n- **Amoebiasis**: metronidazole (Flagyl).\n- **Paragonimiasis and schistosomiasis**: praziquantel (alternative for schisto: oxamniquine).\n- **Botulism**: botulinum antitoxin (skin test first).\n- **Syphilis**: benzathine penicillin G IM; tetracycline or doxycycline. **Gonorrhea**: ceftriaxone IM, azithromycin or doxycycline. **Chlamydia**: tetracycline, erythromycin, azithromycin. **Trichomoniasis**: metronidazole, tinidazole (no alcohol). **Candidiasis**: nystatin, clotrimazole, miconazole.\n- **HIV**: zidovudine (reverse transcriptase inhibitor), ritonavir (protease inhibitor).\n- **Malaria prevention**: chloroquine weekly, starting 1 to 2 weeks before entering an endemic area.\n- **Filariasis**: diethylcarbamazine (Hetrazan). **Leptospirosis**: doxycycline (prophylaxis), penicillin, tetracycline, erythromycin. **Tetanus**: metronidazole first line, penicillin G, tetanus immune globulin, labetalol for autonomic instability.\n\n## How the exam asks about it\nMatch disease to drug of choice; or ask what to teach: no alcohol with metronidazole, orange body fluids with rifampicin, finish the antibiotic course in STIs, skin-test before antitoxin.\n\n## Related topics\n[[Tuberculosis: Treatment and Nursing Care]], [[Typhoid Fever]], [[Scabies]], [[Leprosy (Hansen's Disease)]], [[Amoebiasis]]\n\n## Check against your textbook\nTreatments in the handout reflect older practice (for example chloramphenicol, tetracycline for cholera). Current first-line choices differ; confirm with your reference and local DOH guidance.",
+  "tags": [
+   "drugs",
+   "treatment",
+   "quick reference"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Treatment Modalities",
+   "Management",
+   "Treatment"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-x-prevention-timing",
+  "area": "NP1",
+  "title": "Immunization and Prevention Measures Listed in the Communicable Disease Handout",
+  "body": "## What it is\nEvery preventive vaccine, immune globulin and control step the handout names, in one place.\n\n## Must-know facts\n- **Chickenpox**: vaccine; VZIG within 10 days of exposure. Exclude the child from school for 1 week after the rash first appears.\n- **Measles**: anti-measles vaccine at 9 months (single dose); MMR at 15 months, second dose at 11 to 12 years. Do not give to pregnant women, or to people with active TB, leukemia, lymphoma or weakened immunity.\n- **Rubella**: live attenuated vaccine (MMR); pregnant women must avoid exposure; immune serum globulin one week after exposure.\n- **Herpes zoster**: varicella vaccination; avoid contact with varicella cases.\n- **Diphtheria and pertussis**: three doses of DPT for infants and children; reinforcing (booster) dose for previously immunized children; pasteurize milk; report cases.\n- **Influenza**: yearly vaccine, avoid crowds and shared towels, glasses and utensils.\n- **Pneumonia**: pneumonia vaccine, prevent colds and influenza, avoid cold, pollution, fatigue, alcohol.\n- **Tuberculosis and leprosy**: BCG for babies; avoid overcrowding; test exposed persons.\n- **Anthrax**: animal vaccination, supervised disposal of dead animals, vaccine for at-risk workers.\n- **Mumps**: MMR, report cases, isolate.\n- **Polio**: oral polio vaccine; boosters every 10 years for travel to endemic areas (as the handout states).\n- **Tetanus**: toxoid booster every 10 years, wound care; tetanus immune globulin after dirty wounds.\n- **Rabies**: vaccinate dogs at 3 months of age and yearly; confine a dog that bit a person for 10 to 14 days.\n- **Cholera, typhoid, dysentery, amoebiasis**: safe water (boiled, chlorinated), pasteurized milk, sanitary excreta disposal, food-handler supervision, fly control, handwashing.\n- **Malaria, dengue, filariasis**: mosquito nets, house spraying, repellents, clearing breeding sites; chloroquine prophylaxis for malaria travelers.\n\n## How the exam asks about it\nLive vaccines (measles, MMR, rubella) are avoided in pregnancy and in the immunocompromised. Questions pair a disease with the correct vaccine age or ask which control step breaks the chain of infection.\n\n## Related topics\n[[Expanded Program on Immunization]], [[Types of Immunity and Antigens]], [[Chain of Infection and Modes of Transmission]], [[Vaccine Principles and Nursing Responsibilities]]\n\n## Check against your textbook\nVaccine ages and boosters (especially measles, MMR, polio) change with national programs; use the current DOH schedule rather than the handout's figures.",
+  "tags": [
+   "immunization",
+   "prevention",
+   "vaccines"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Preventive Measures",
+   "Prevention and Control"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-x-vectors-hosts",
+  "area": "NP1",
+  "title": "Vectors, Intermediate Hosts, Reservoirs and Sources by Disease",
+  "body": "## What it is\nA \"who carries it, where does it come from\" list. Exam items often ask for the vector or the intermediate host.\n\n## Must-know facts\n- **Aedes aegypti** (female) bites carry dengue (and chikungunya virus is listed with it).\n- **Anopheles** (female) carries malaria; also by blood transfusion and across the placenta.\n- **Aedes poecilius** is the filariasis mosquito in the handout (worms: Wuchereria bancrofti, Brugia malayi, Brugia timori, Loa loa).\n- **Oncomelania hupensis quadrasi** snail is the intermediate host of Schistosoma japonicum.\n- **Snails and crabs**: paragonimiasis comes from eating raw crab or crayfish; reservoir hosts are cats, dogs, rats, pigs.\n- **Rats and other animals**: leptospirosis from urine in water or food, entering through broken skin.\n- **Dogs and other warm-blooded mammals**: rabies in saliva.\n- **Birds and sometimes pigs**: avian influenza.\n- **Cattle, sheep, goats, horses, pigs and their hair, wool or bone meal**: anthrax.\n- **Soil and feces**: tetanus spores. **Soil, canned or smoked foods, honey in infants**: botulism.\n- **Humans as the only reservoir**: diphtheria (and milk can be a vehicle).\n- **Flies**: carry dysentery and amoebiasis organisms to food.\n- **Carriers**: typhoid, cholera and amoebiasis carriers pass organisms without being ill.\n- **Human skin and fomites**: scabies; hair, clothing seams: lice.\n- **Contaminated water**: cholera, typhoid, schistosomiasis, leptospirosis.\n\n## How to reason about it\nCause -> control: if the link is a vector, break it with nets, spraying, repellents and clearing breeding sites; if it is water or food, use boiling, chlorination and sanitation; if it is an animal reservoir, vaccinate or control the animal.\n\n## Related topics\n[[Chain of Infection and Modes of Transmission]], [[Dengue Fever]], [[Malaria]], [[Schistosomiasis]], [[Leptospirosis]]\n\n## Check against your textbook\nFilariasis vector species and the mention of Loa loa as an \"African eye worm\" in the handout are unusual; confirm which organisms and mosquito belong to Philippine filariasis.",
+  "tags": [
+   "vector",
+   "reservoir",
+   "intermediate host"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Source of Infection",
+   "Mode of Transmission"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-x-enteric-compared",
+  "area": "NP1",
+  "title": "Gut (Fecal-Oral) Infections Compared",
+  "body": "## What it is\nCholera, typhoid, bacillary dysentery, amoebiasis, and botulism are grouped because they arrive through food, water or hands. Telling them apart is a common exam task.\n\n## Must-know facts\n- **Cholera**: Vibrio El Tor; rice-water stool, vomiting, washerwoman's hands, oliguria; shock from fluid loss. Fastest incubation (6 to 48 hours).\n- **Typhoid**: Salmonella typhi; stepwise fever, rose spots, Peyer's patch ulceration; risks are intestinal hemorrhage and perforation.\n- **Bacillary dysentery**: Shigella species; tenesmus, bloody-mucoid stools, cramps, fever; anti-diarrheals are contraindicated.\n- **Amoebiasis**: Entamoeba histolytica; cyst is the infective stage, trophozoite invades tissue; foul stools with blood-streaked mucus, right iliac tenderness; metronidazole.\n- **Botulism**: preformed toxin; descending paralysis, not diarrhea, is the main picture.\n- Enteric isolation applies to cholera, typhoid and amoebiasis; handwashing and excreta disposal break the chain for all.\n\n## Priority nursing actions\n1. Replace fluids first in cholera and severe dysentery (circulation/ABC: hypovolemia kills).\n2. Watch for bleeding and sudden right-lower abdominal pain or rigid abdomen in typhoid (perforation; notify the physician at once).\n3. Accurate intake and output and vital signs.\n4. Enteric precautions, handwashing, safe disposal of stool.\n5. Teach safe water and food, and fly control.\n\n## How the exam asks about it\nStool picture is the clue: rice-water = cholera; bloody mucus with tenesmus = shigella; foul with blood-streaked mucus = amoeba; stepwise fever with rose spots = typhoid.\n\n## Related topics\n[[Cholera]], [[Typhoid Fever]], [[Bacillary Dysentery (Shigellosis)]], [[Amoebiasis]], [[Botulism]]\n\n## Check against your textbook\nOral rehydration versus IV choice depends on dehydration severity; verify current protocols.",
+  "tags": [
+   "enteric",
+   "comparison",
+   "fecal-oral"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "GASTROINTESTINAL DISEASES"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-x-mosquito-compared",
+  "area": "NP1",
+  "title": "Mosquito-Borne Diseases Compared: Dengue, Malaria, Filariasis",
+  "body": "## What it is\nThree mosquito-borne diseases in the handout, compared so their vectors, signs and controls are not mixed up.\n\n## Must-know facts\n- **Dengue**: virus types 1 to 4; female Aedes aegypti; incubation 3 to 15 days; three stages (febrile, toxic/hemorrhagic, convalescent); platelets fall and hemoconcentration rises at least 20%; tourniquet test; NS1 confirmatory; no aspirin.\n- **Malaria**: four Plasmodium species (falciparum the most common in the handout); female Anopheles; paroxysms of chills, fever, drenching sweat; splenomegaly; chloroquine prophylaxis weekly.\n- **Filariasis**: Wuchereria and Brugia worms; incubation 8 to 16 months; asymptomatic, acute (lymphadenitis, lymphangitis, orchitis), chronic (hydrocele, lymphedema, elephantiasis); nocturnal blood test; diethylcarbamazine.\n- Shared control: nets (insecticide-treated), repellents, house spraying, remove stagnant water, clothing covering arms and legs, avoid outdoor night activity.\n\n## Priority nursing actions\n1. Dengue: watch for shock and bleeding (falling temperature with severe abdominal pain, melena, hematemesis); replace fluids fast; ice bag on forehead and nose bridge for nosebleed.\n2. Malaria: keep the room mosquito-free; manage chills, fever and sweating comfort; give prophylaxis as ordered.\n3. Filariasis: support, hygiene, and psychological care for disfigurement; yearly medicine in endemic areas.\n4. Teach prevention, report cases.\n\n## How the exam asks about it\n\"Febrile drop with bleeding\" = dengue danger period, not recovery. Night-time blood sample = filariasis. Weekly chloroquine before entering an endemic area = malaria.\n\n## Related topics\n[[Dengue Fever]], [[Malaria]], [[Filariasis]], [[Locally Endemic Diseases]]\n\n## Check against your textbook\nHandout says temperature \"lowers\" in the toxic stage; this drop is the critical phase when shock risk is highest.",
+  "tags": [
+   "dengue",
+   "malaria",
+   "filariasis",
+   "vector"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "VECTOR-BORNE DISEASES"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np1-cd-x-rash-compared",
+  "area": "NP1",
+  "title": "Rash and Skin Illnesses Compared",
+  "body": "## What it is\nChickenpox, measles, rubella, herpes zoster, scabies and pediculosis all affect the skin but differ in cause, rash pattern and isolation. This note puts the differences side by side.\n\n## Must-know facts\n- **Chickenpox**: macules/papules for hours, vesicles 3 to 4 days, then granular scabs; all stages at once; airborne and contact precautions; lasting immunity.\n- **Measles**: Koplik spots then maculopapular rash starting after fever and cough; airborne precautions, negative-pressure room; complications bronchopneumonia, otitis media, encephalitis.\n- **Rubella**: mild; postauricular and suboccipital nodes first; rash 1 to 5 days; danger is to the fetus (cataract, deafness, heart defects, small head).\n- **Herpes zoster**: reactivation of the chickenpox virus along one nerve; painful, one side only; nursing: avoid scratching, analgesics, acyclovir.\n- **Scabies**: mite; itch worse at night; burrows in finger webs, wrists, elbows; treat the whole household.\n- **Pediculosis**: lice; itch; nits behind the ears and nape; permethrin first; wash linens in hot water.\n- **Leprosy**: skin patches with loss of sensation; protect anesthetic areas.\n\n## Priority nursing actions\n1. Identify the precaution type (airborne, droplet, contact) before entering the room.\n2. Protect from complications: airway in measles, eyes in leprosy.\n3. Relieve itch and prevent scratching, trim nails.\n4. Protect pregnant women from rubella exposure.\n\n## How the exam asks about it\nRash that is vesicular in several stages at once = chickenpox. Rash after nodes behind the ears = rubella. Cough, coryza, conjunctivitis then Koplik spots = measles. Pregnant client exposed = rubella is the hazard.\n\n## Related topics\n[[Chickenpox (Varicella)]], [[Measles (Rubeola)]], [[German Measles (Rubella)]], [[Herpes Zoster (Shingles)]], [[Scabies]]\n\n## Check against your textbook\nIsolation level for chickenpox is called \"strict isolation\" in the handout; modern practice is airborne plus contact precautions.",
+  "tags": [
+   "rash",
+   "skin",
+   "comparison"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "INTEGUMENTARY DISEASE"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ }
+]

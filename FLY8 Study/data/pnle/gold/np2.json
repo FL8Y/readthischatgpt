@@ -1,0 +1,603 @@
+[
+  {
+    "id": "np2-001",
+    "area": "NP2",
+    "topic": "Postpartum uterine atony",
+    "archetype": "maternal-newborn-reasoning",
+    "difficulty": 3,
+    "vignette": "A nurse assesses a client 2 hours after a vaginal birth. The client reports feeling fine, but the nurse notes that the uterine fundus is soft and boggy at the midline, and the perineal pad is heavily soaked with bright red lochia. The client's bladder is not palpable and vital signs are currently stable.",
+    "stem": "Which action should the nurse take first?",
+    "options": [
+      "Encourage the client to void, then reassess the fundus and lochia in one hour",
+      "Massage the fundus until it is firm while supporting the lower uterine segment",
+      "Document the findings in the chart and recheck at the next routine assessment time",
+      "Teach the client how to massage her own fundus and check her pad before discharge"
+    ],
+    "answerIndex": 1,
+    "strategyTag": "Physiology first: control bleeding",
+    "reasoning": "1) The stem asks for the FIRST action, so rank the options by urgency and invasiveness. 2) Findings: soft, boggy fundus plus heavy bleeding signal uterine atony, an actual and potentially life-threatening circulation problem. 3) The bladder is not palpable, so a full bladder is not the likely cause; the bladder-emptying option does not match the data. 4) Vital signs are stable, so the nurse can treat the cause at the bedside right now without waiting. 5) Least invasive effective measure first: fundal massage directly helps the uterus contract and slows bleeding. 6) Calling the provider is appropriate soon after, once the nurse has own assessment data and has started intervening. 7) Documentation and teaching rank lower than an active bleeding risk (Maslow: circulation).",
+    "optionRationales": [
+      "Tempting because a full bladder can displace the uterus and cause atony, but the bladder is not palpable here and waiting an hour delays treatment of active bleeding.",
+      "Correct. Massage stimulates contraction, treats the likely cause, and is the least invasive immediate measure for an actual bleeding problem.",
+      "Documentation is needed but is not a first action; a routine recheck is too slow for heavy bleeding.",
+      "Teaching is useful later, but this client has an unresolved physiological problem now; teaching follows stabilization."
+    ],
+    "keyFacts": [
+      "A soft, boggy fundus with heavy lochia indicates uterine atony; massage the fundus until firm.",
+      "Uterine atony is the leading cause of early postpartum hemorrhage."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np2-002",
+    "area": "NP2",
+    "topic": "Warning signs in late pregnancy",
+    "archetype": "abnormal-finding-identification",
+    "difficulty": 3,
+    "vignette": "A nurse in a prenatal clinic reviews statements from four clients, all at about 35 weeks of gestation. One of them had a blood pressure that was higher than her usual readings at the last visit. The nurse must decide which statement needs follow-up first.",
+    "stem": "Which client statement requires the nurse's immediate follow-up?",
+    "options": [
+      "\"My ankles look puffy by the end of the day, but they go down overnight.\"",
+      "\"I have to urinate much more often than before, especially at night.\"",
+      "\"I have a headache that won't go away, and I keep seeing spots.\"",
+      "\"My lower back aches after I stand for a long time at my job.\""
+    ],
+    "answerIndex": 2,
+    "strategyTag": "Unexpected/new finding outranks expected",
+    "reasoning": "1) Signal words: 'immediate follow-up' means choose the new, abnormal, potentially dangerous finding. 2) Sort the statements into expected discomforts of late pregnancy versus warning signs. 3) Mild ankle swelling by evening, backache and urinary frequency are common expected changes with the growing uterus. 4) A headache that persists with spots in vision, in a client whose blood pressure was already rising, suggests preeclampsia with severe features and seizure risk. 5) Unstable or unexpected findings outrank expected ones, so choose the warning sign. 6) The expected-discomfort options are true and worth teaching about, which is why they tempt, but they do not answer 'immediate'.",
+    "optionRationales": [
+      "Mild dependent swelling is an expected change in late pregnancy; true and common, so it tempts, but it is not urgent.",
+      "Frequency from uterine pressure on the bladder is expected at this stage.",
+      "Correct. Persistent headache with visual changes in a client with rising blood pressure is a warning sign of severe preeclampsia and needs prompt evaluation.",
+      "Backache from postural change and weight gain is expected and handled with comfort measures, not urgent follow-up."
+    ],
+    "keyFacts": [
+      "Persistent severe headache, visual disturbances, epigastric pain or sudden marked swelling of the face and hands in late pregnancy need prompt evaluation.",
+      "Mild dependent ankle edema is an expected finding."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np2-003",
+    "area": "NP2",
+    "topic": "Immediate care of the newborn",
+    "archetype": "priority-physiological-maslow",
+    "difficulty": 4,
+    "vignette": "A term newborn was born vaginally a minute ago and has been placed on the mother's abdomen. The infant is crying strongly, the trunk is pink, the hands and feet are slightly blue, and the limbs are flexed. The infant is covered in fluid and the delivery room is cool. The mother is alert and asks to start breastfeeding now. Orders are present for eye prophylaxis and a vitamin K injection, and the nurse also needs to prepare the identification bands.",
+    "stem": "Which nursing action should the nurse perform first?",
+    "options": [
+      "Dry the infant, remove wet linen, and cover the body and head with a blanket",
+      "Suction the mouth and nose with a bulb syringe because of fluid on the face",
+      "Give the ordered eye ointment and vitamin K injection before moving the infant",
+      "Help the mother begin breastfeeding while the infant is alert and rooting"
+    ],
+    "answerIndex": 0,
+    "strategyTag": "Maslow: prevent heat loss before routine care",
+    "reasoning": "1) Priority question: Maslow places physiological needs first, and ABC comes before other physiological items. 2) Airway and breathing are adequate: the infant cries strongly and the trunk is pink; slightly blue hands and feet are an expected finding right after birth. 3) Suctioning is the right action for an infant with an obstructed airway, which is a different client from this one. 4) The remaining physiological threat in the data is heat loss from wet skin in a cool room, which can cause cold stress. 5) Drying, removing wet linen and covering the body and head addresses that threat now. 6) Eye prophylaxis and vitamin K are needed but can follow soon after; breastfeeding is encouraged and can proceed once the infant is dried and covered, and the identification bands are a safety task that ranks lower than preventing cold stress.",
+    "optionRationales": [
+      "Correct. Evaporative heat loss from wet skin in a cool room is the actual physiological threat; drying and covering the body and head prevents cold stress and still allows contact with the mother.",
+      "Right action for an infant with obstructed airway, but this infant is crying strongly and pink, so routine suctioning is not needed and does not address heat loss.",
+      "Required care, but it is routine and is given after the infant is dried and warm; it does not address the present threat.",
+      "Early breastfeeding is a good practice and meets a need for bonding and nutrition, but it does not stop heat loss and is supported after the infant is dried and covered."
+    ],
+    "keyFacts": [
+      "Newborns lose heat rapidly by evaporation, convection, conduction and radiation, so dry and cover them promptly.",
+      "Slightly blue hands and feet in the first minutes after birth are common; a strong cry and pink trunk show adequate airway and breathing.",
+      "Cold stress increases oxygen and glucose use in the newborn."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np2-004",
+    "area": "NP2",
+    "topic": "Postpartum client prioritization",
+    "archetype": "which-client-first",
+    "difficulty": 4,
+    "vignette": "A nurse on a postpartum unit receives report on four clients. One is 6 hours after a vaginal birth, says her pad is soaked, and has a soft fundus. One is on day 2 with breast fullness. One is on day 1 after cesarean birth reporting incisional pain that is controlled by her ordered analgesic. One is a first-time breastfeeding mother who wants help with positioning.",
+    "stem": "Which client should the nurse assess first?",
+    "options": [
+      "The client on day 2 with fullness and mild tenderness in both breasts",
+      "The client on day 1 after cesarean birth whose incisional pain is controlled",
+      "The first-time mother who wants help with breastfeeding positions today",
+      "The client 6 hours after vaginal birth with soaked pad and soft fundus"
+    ],
+    "answerIndex": 3,
+    "strategyTag": "Unstable/actual hemorrhage before routine needs",
+    "reasoning": "1) 'Which client first' calls for ranking: unstable or new problems outrank stable, expected ones. 2) Soaked pad plus soft fundus: possible postpartum hemorrhage, a circulation threat and potentially unstable. 3) Day 2 breast fullness is an expected change (engorgement) and is not threatening. 4) Day 1 cesarean pain controlled by an ordered analgesic is expected and currently managed, so she is stable. 5) Breastfeeding help is a teaching need; teaching comes after physiological and safety needs. 6) Choose the client with the circulation threat, using Maslow and ABC (C = circulation).",
+    "optionRationales": [
+      "Expected change; uncomfortable but not life-threatening, so it can follow.",
+      "Pain is a physiological need, but it is already controlled by ordered treatment, so she is stable.",
+      "Teaching need for a stable client; it ranks below a possible bleed.",
+      "Correct. Possible hemorrhage is an unstable, circulation-related problem that outranks the other needs."
+    ],
+    "keyFacts": [
+      "Quickly saturated pads with a soft fundus suggest postpartum hemorrhage.",
+      "Expected, stable, or teaching needs wait when another client may be bleeding."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np2-005",
+    "area": "NP2",
+    "topic": "Delegation in the newborn nursery",
+    "archetype": "delegation-assignment",
+    "difficulty": 3,
+    "vignette": "A registered nurse is assigning care on a newborn unit. The unit has unlicensed assistive personnel (UAP) who completed unit orientation. All of the newborns are stable with no current concerns. The nurse must decide which of several tasks can be safely delegated.",
+    "stem": "Which task is most appropriate for the nurse to delegate to the UAP?",
+    "options": [
+      "Assess a newborn's skin and sclerae for yellow discoloration",
+      "Teach a new mother how to position and latch her baby at the breast",
+      "Weigh a stable newborn and report the measured weight to the nurse",
+      "Evaluate whether the parents understood the safe sleep teaching"
+    ],
+    "answerIndex": 2,
+    "strategyTag": "Delegate routine, stable tasks only",
+    "reasoning": "1) Delegation rule: stable, routine, predictable tasks may be delegated; assessment, teaching and evaluation stay with the licensed nurse. 2) Check each option: is it a simple measurement on a stable infant, or does it need nursing judgment? 3) Assessing skin color for jaundice requires interpretation, so the nurse keeps it. 4) Teaching feeding technique is teaching, which stays with the nurse. 5) Evaluating whether parents understood safe sleep teaching is evaluation, which also stays with the nurse. 6) Weighing a stable newborn is a routine measurement the UAP can do and report; the nurse interprets the result.",
+    "optionRationales": [
+      "Assessment requires judgment, so it stays with the nurse; it tempts because looking at skin seems simple.",
+      "Teaching cannot be delegated to unlicensed personnel.",
+      "Correct. A routine measurement on a stable infant is within UAP scope; the nurse interprets the finding.",
+      "Evaluation of learning is a nursing responsibility and cannot be delegated."
+    ],
+    "keyFacts": [
+      "UAP may perform routine tasks on stable clients, such as weighing, but the nurse interprets results.",
+      "Assessment, teaching and evaluation are not delegated."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np2-006",
+    "area": "NP2",
+    "topic": "Adolescent fears about pregnancy",
+    "archetype": "distressed-client-best-response",
+    "difficulty": 5,
+    "vignette": "A 16-year-old comes alone to a community clinic. She sits with her arms crossed and is tearful. She says, \"My period is two weeks late. I think I might be pregnant and my mother is going to be so angry. Please don't tell anyone I came here. I don't know what to do.\"",
+    "stem": "Which response by the nurse is most therapeutic?",
+    "options": [
+      "\"You sound frightened about how your mother will react. What worries you most?\"",
+      "\"It is normal to feel scared, and most mothers calm down once the shock passes.\"",
+      "\"I can arrange a pregnancy test today, and then we will talk about your choices.\"",
+      "\"Your mother has a right to know, so let us call her to come in and talk together.\""
+    ],
+    "answerIndex": 0,
+    "strategyTag": "Therapeutic: reflect feeling, open-ended question",
+    "reasoning": "1) Communication rule: acknowledge the feeling, use an open-ended prompt, and avoid advice, false reassurance and actions that skip the client's concern. 2) The client states fear of her mother's reaction and asks for privacy. 3) Reflecting the fear and asking what worries her most invites her to continue and builds trust. 4) Telling her that most mothers calm down is reassurance the nurse cannot support. 5) Arranging a test is a reasonable later step, but offering it now responds to the task and not to her stated distress. 6) Calling her mother ignores her request for privacy, is outside the nurse's role at this moment, and would damage trust.",
+    "optionRationales": [
+      "Correct. It reflects the stated feeling and uses an open-ended question, which keeps the client talking and respects her request for privacy.",
+      "Normalizes the feeling but then gives false reassurance about the mother's reaction, which the nurse cannot know.",
+      "A reasonable later step, and the statement is true, but it moves to a task and does not respond to the fear the client just expressed.",
+      "Overrides the client's request for privacy and takes a decision that is not the nurse's to make; it would block further communication."
+    ],
+    "keyFacts": [
+      "Reflect feelings and ask open-ended questions before problem solving.",
+      "Avoid false reassurance, advice given too early, and disclosure that the client has asked to keep private unless a legal duty applies."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np2-007",
+    "area": "NP2",
+    "topic": "Infant fall prevention",
+    "archetype": "safety-fall-prevention",
+    "difficulty": 2,
+    "vignette": "A nurse is teaching the parents of a healthy 5-month-old at a well-baby visit. The infant has begun to roll from front to back and is starting to roll the other way. The parents often change diapers on a bed or sofa because it is comfortable for them.",
+    "stem": "Which instruction is most important for the nurse to include about preventing falls?",
+    "options": [
+      "Place pillows around the infant on the bed so a roll would be cushioned",
+      "Discourage rolling by placing the infant on the back during play time",
+      "Reassure the parents that falls are uncommon at this age and need no precautions",
+      "Keep one hand on the infant whenever the infant is on a raised surface"
+    ],
+    "answerIndex": 3,
+    "strategyTag": "Safety: developmental ability drives risk",
+    "reasoning": "1) Link the infant's developmental stage to the risk: new rolling means a fall can happen in an instant. 2) The parents' current habit (changing diapers on a bed or sofa) is the actual hazard in the data. 3) Safety teaching must prevent the injury: never leave the infant unattended on a raised surface, and keep a hand on the infant. 4) Rolling is a normal milestone, so stopping or discouraging it is neither possible nor appropriate. 5) Reassurance that falls are rare is false reassurance and does not teach prevention. 6) Pick the option that gives a concrete, protective behavior the parents can use right away.",
+    "optionRationales": [
+      "Pillows can create a suffocation hazard and do not prevent a fall from a height.",
+      "Rolling is a normal milestone and cannot be reliably prevented; the hazard is the unattended raised surface.",
+      "True-sounding but it is false reassurance and teaches nothing that prevents injury.",
+      "Correct. It targets the real hazard and works regardless of how suddenly the infant moves."
+    ],
+    "keyFacts": [
+      "Never leave an infant alone on a bed, sofa or changing surface; keep one hand on the infant.",
+      "A new motor skill such as rolling raises the fall risk before parents expect it."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np2-008",
+    "area": "NP2",
+    "topic": "Croup versus epiglottitis airway threat",
+    "archetype": "airway-obstruction-exception",
+    "difficulty": 5,
+    "vignette": "A nurse in an emergency department sees a 4-year-old who developed a high fever and a very sore throat over a few hours. The child sits leaning forward with the chin out, is drooling, has a muffled voice, and appears anxious and tired. A resident hands the nurse a tongue depressor and says to look at the throat.",
+    "stem": "Which action by the nurse is most appropriate?",
+    "options": [
+      "Use the tongue depressor to look at the back of the throat while the parent holds the child still",
+      "Keep the child upright with the parent, avoid throat examination, and call for airway help",
+      "Lay the child flat on the stretcher, tilt the head back, and obtain a throat culture",
+      "Obtain a full set of blood tests and a chest x-ray before notifying the provider"
+    ],
+    "answerIndex": 1,
+    "strategyTag": "ABC: protect the airway; avoid triggers",
+    "reasoning": "1) Recognise the pattern: abrupt onset, fever, drooling, tripod posture, muffled voice, and anxiety suggest possible epiglottitis, an airway emergency. 2) Airway comes first; throat inspection or agitation can trigger complete obstruction. 3) Therefore avoid the tongue depressor, avoid lying the child flat, and avoid distressing procedures such as a throat swab. 4) Allow the child to stay in a position of comfort, keep the child calm with the parent present, and notify the provider and prepare for emergency airway support. 5) This is a clear life-threat exception to 'assess first': act to protect the airway and call for skilled help now. 6) Choose the option that protects the airway rather than one that gathers data in a risky way.",
+    "optionRationales": [
+      "Inspecting the throat can trigger spasm and complete obstruction; data gathering here is dangerous.",
+      "Correct. It protects the airway, limits agitation, and escalates to people who can secure the airway.",
+      "Lying flat and swabbing both risk airway obstruction and distress.",
+      "Delays help for an airway threat; labs can wait until the airway is safe."
+    ],
+    "keyFacts": [
+      "Drooling, tripod posture, muffled voice and fever in a child suggest epiglottitis; do not inspect the throat or agitate the child.",
+      "Keep the child upright in a position of comfort and prepare for airway support."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np2-009",
+    "area": "NP2",
+    "topic": "Dehydration in an infant",
+    "archetype": "stable-vs-unstable",
+    "difficulty": 5,
+    "vignette": "A nurse admits a 9-month-old with vomiting and diarrhea for 2 days. The parent reports no wet diaper for about 8 hours and that the infant has refused feeds. On assessment the infant is sleepy but cries when handled, with no tears. The anterior fontanelle is sunken and the mucous membranes are dry. The hands and feet are cool and capillary refill is slower than expected. The heart rate is fast.",
+    "stem": "Which finding should the nurse report to the provider first?",
+    "options": [
+      "The hands and feet are cool and capillary refill is slower than expected",
+      "The infant has had no wet diaper for about 8 hours despite attempts to feed",
+      "The sunken anterior fontanelle and dry mucous membranes seen on assessment",
+      "The infant cries when handled but produces no tears when upset"
+    ],
+    "answerIndex": 0,
+    "strategyTag": "Unstable: poor perfusion before volume-loss signs",
+    "reasoning": "1) 'First' with several true findings calls for the most dangerous: apply stable versus unstable and circulation. 2) All four findings are consistent with dehydration. 3) No wet diaper, a sunken fontanelle, dry mucous membranes and absent tears show significant fluid loss, and they are the expected picture of the problem. 4) Cool extremities with slow capillary refill, together with the fast heart rate in the history, point to reduced perfusion, meaning the infant may be moving from compensated toward decompensated volume loss. 5) That finding signals possible shock and needs urgent provider notification and rapid fluid replacement. 6) Report the perfusion finding first, then the rest of the picture.",
+    "optionRationales": [
+      "Correct. Poor perfusion signs are the most unstable finding and indicate a need for urgent intervention.",
+      "Shows reduced output and significant volume loss, but it describes the loss itself and not how well the infant is perfusing.",
+      "Classic signs of dehydration, expected with this history and informative, but they do not by themselves indicate failing circulation.",
+      "A sign of dehydration, and the infant still responds to handling; less specific for instability than a perfusion change."
+    ],
+    "keyFacts": [
+      "Cool extremities, slow capillary refill and fast heart rate in a dehydrated infant suggest poor perfusion and possible shock.",
+      "Decreased urine output, sunken fontanelle, dry mucous membranes and absent tears are expected signs of dehydration."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np2-010",
+    "area": "NP2",
+    "topic": "Vaccine administration safety",
+    "archetype": "medication-safety-rights",
+    "difficulty": 4,
+    "vignette": "A nurse at a community immunization clinic is about to give a scheduled vaccine to a 15-month-old. The parent is talking quickly while the nurse checks the record and reports several things: the child is taking an antibiotic for an ear infection and has a mild cough; the older sibling once had a seizure with fever after a vaccine; a tender red area on the thigh lasted two days after the last dose; and the lips swelled and urgent treatment was needed after the last vaccine visit.",
+    "stem": "Which parent report should the nurse address first before giving the vaccine?",
+    "options": [
+      "The older sibling once had a seizure with fever after receiving a vaccine",
+      "The child is taking an antibiotic for an ear infection and has a mild cough",
+      "After the last vaccine visit the child's lips swelled and needed urgent treatment",
+      "A tender red area on the thigh lasted for two days after the last dose was given"
+    ],
+    "answerIndex": 2,
+    "strategyTag": "Safety: screen for contraindications before giving",
+    "reasoning": "1) Medication safety: before giving any drug, screen for contraindications and precautions. 2) A mild illness, even with an antibiotic, generally does not prevent routine vaccination. 3) A tender red area at an earlier injection site is a common local reaction and does not stop vaccination. 4) The sibling's seizure is a family history item that sounds alarming but concerns a different client; it is worth recording and mentioning, but it is not this child's reaction. 5) Lip swelling needing urgent treatment after the previous visit suggests a possible severe allergic reaction in this child, which is a safety concern that has to be clarified before another dose. 6) Hold the vaccine, gather details about the reaction, and consult the provider.",
+    "optionRationales": [
+      "Family history that sounds serious but concerns a different client; record it, but it does not make this child's vaccine unsafe.",
+      "A mild illness is generally not a barrier to routine vaccination; a true statement but not the safety concern.",
+      "Correct. A possible severe allergic reaction after the previous visit is the highest safety concern and must be clarified with the provider before another dose.",
+      "A common, expected local reaction; it does not prevent vaccination."
+    ],
+    "keyFacts": [
+      "A severe allergic reaction after a previous dose is a contraindication or precaution; hold and consult the provider.",
+      "Mild illness and mild local soreness are generally not reasons to delay routine vaccination."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np2-011",
+    "area": "NP2",
+    "topic": "Evaluating breastfeeding teaching",
+    "archetype": "teaching-evaluation-understanding",
+    "difficulty": 3,
+    "vignette": "A nurse teaches a new mother, who is 1 day postpartum, about breastfeeding her term newborn. The nurse reviews hunger cues, latch, breaking suction and signs the infant is getting enough milk. The nurse asks the mother to restate the key points to check understanding.",
+    "stem": "Which statement by the mother indicates that teaching was effective?",
+    "options": [
+      "\"I will wait at least four hours between feeds so my nipples have time to rest.\"",
+      "\"To end a feed, I will slip a clean finger into the corner of his mouth first.\"",
+      "\"I will give him sips of water between feeds so he does not get jaundiced.\"",
+      "\"When he finishes, I will pull him straight off the breast so he cannot chew me.\""
+    ],
+    "answerIndex": 1,
+    "strategyTag": "Teaching evaluation: safe, correct action",
+    "reasoning": "1) Evaluation question: choose the statement that is correct and safe, not the one that merely sounds caring. 2) Eliminate statements that restrict feeding based on a schedule rather than hunger cues; frequent, cue-based feeds support milk supply. 3) Eliminate adding water for jaundice prevention; it displaces milk and is not recommended routinely. 4) Pulling the infant off the breast without releasing suction can injure the nipple. 5) Inserting a clean finger into the corner of the infant's mouth to break suction is the correct technique. 6) Select the statement that is both accurate and actionable.",
+    "optionRationales": [
+      "Rigid long intervals reduce stimulation and milk supply; feeding should follow hunger cues.",
+      "Correct. This protects the nipple and shows she understood the technique taught.",
+      "Routine water displaces milk and is not recommended; tempting because it sounds preventive.",
+      "Pulling without breaking suction can cause nipple trauma."
+    ],
+    "keyFacts": [
+      "Break suction by gently inserting a clean finger into the corner of the infant's mouth.",
+      "Breastfeed on infant hunger cues; routine water is not needed for healthy term infants."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np2-012",
+    "area": "NP2",
+    "topic": "Safe infant sleep teaching",
+    "archetype": "except-negative-stem",
+    "difficulty": 2,
+    "vignette": "A nurse on a newborn unit reviews safe sleep teaching with parents before discharge. The nurse asks each parent to describe how they plan to put the baby to sleep at home. The nurse is listening for any plan that would place the infant at increased risk.",
+    "stem": "Which parent statement requires further teaching by the nurse?",
+    "options": [
+      "\"I will lay him on his back on a firm, flat mattress for naps and at night.\"",
+      "\"I will keep pillows, bumper pads and loose blankets out of his crib.\"",
+      "\"I will keep his crib in our room for now and not use any soft padding.\"",
+      "\"I will lay him on his stomach so he can't choke if he spits up at night.\""
+    ],
+    "answerIndex": 3,
+    "strategyTag": "Negative stem: find the unsafe statement",
+    "reasoning": "1) Read the stem carefully: 'requires further teaching' means three options are correct and one is unsafe. 2) Judge each plan against safe sleep principles: back to sleep, firm flat surface, nothing soft in the sleep space. 3) Placing the baby on the back on a firm surface in a bare crib is safe. 4) Keeping the crib free of pillows and loose bedding is safe. 5) Placing the baby on the stomach to sleep so he does not choke is a common misconception and raises the risk of sudden infant death; this is the unsafe plan. 6) Select the unsafe plan.",
+    "optionRationales": [
+      "Safe and correct, so it does not require further teaching.",
+      "Safe and correct, so it does not require further teaching.",
+      "Safe and consistent with teaching; no further teaching needed.",
+      "Correct choice for this stem. Stomach sleeping increases risk of sudden infant death, so the statement shows a misunderstanding."
+    ],
+    "keyFacts": [
+      "Place infants on their back for every sleep on a firm, flat surface.",
+      "Keep soft items, loose bedding and pillows out of the sleep space."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np2-013",
+    "area": "NP2",
+    "topic": "Rh incompatibility reasoning",
+    "archetype": "lab-value-interpretation-qualitative",
+    "difficulty": 3,
+    "vignette": "A postpartum nurse reviews four mother-and-newborn pairs. Each mother had an uncomplicated vaginal birth and has not had any previous Rh immune globulin. Blood types are listed in each record. The nurse must identify which mother will most likely need Rh immune globulin after birth.",
+    "stem": "Which mother-newborn pair is most likely to need Rh immune globulin for the mother?",
+    "options": [
+      "Rh-negative mother who has an Rh-positive newborn",
+      "Rh-positive mother whose newborn is Rh-negative",
+      "Rh-negative mother who also has an Rh-negative newborn",
+      "Rh-positive mother who also has an Rh-positive newborn"
+    ],
+    "answerIndex": 0,
+    "strategyTag": "Know the pattern: Rh-neg mother, Rh-pos baby",
+    "reasoning": "1) The question depends on knowing when maternal sensitisation can occur. 2) Sensitisation happens when an Rh-negative mother is exposed to Rh-positive fetal blood. 3) So identify the pair with an Rh-negative mother and an Rh-positive newborn. 4) Rh-positive mothers do not form anti-Rh antibodies against Rh-negative infants; those options do not need the drug. 5) Rh-negative mother with Rh-negative newborn has no Rh-positive exposure. 6) Select the one pair that fits.",
+    "optionRationales": [
+      "Correct. This is the exposure pattern that can lead to antibody formation; immune globulin prevents it.",
+      "The mother is already Rh-positive and cannot form antibodies to Rh antigen; tempting due to the mismatch.",
+      "No Rh-positive exposure, so no need.",
+      "No incompatibility."
+    ],
+    "keyFacts": [
+      "Rh immune globulin is given to Rh-negative mothers who give birth to Rh-positive infants (and after other sensitising events) to prevent antibody formation.",
+      "It protects future pregnancies, not the current infant."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np2-014",
+    "area": "NP2",
+    "topic": "Late decelerations during oxytocin",
+    "archetype": "initial-action-assess-vs-intervene",
+    "difficulty": 5,
+    "vignette": "A client at term in active labor is receiving an oxytocin infusion by pump. Contractions have become strong and frequent. For the last 15 minutes the electronic fetal monitor shows recurrent late decelerations with reduced variability. The client is lying flat on her back, says she feels anxious, and her vital signs are stable. The nurse has a phone at the bedside and the provider is in the building.",
+    "stem": "Which action should the nurse take first?",
+    "options": [
+      "Notify the provider of the tracing and wait for orders before changing the infusion",
+      "Perform a vaginal examination to find the cervical dilation and fetal station",
+      "Stop the oxytocin infusion and turn the client onto her left or right side",
+      "Prepare the client and the consent forms for an urgent cesarean birth"
+    ],
+    "answerIndex": 2,
+    "strategyTag": "Unstable fetus: remove the cause, then notify",
+    "reasoning": "1) Recurrent late decelerations with reduced variability suggest reduced placental blood flow and a fetus at risk, so this is unstable and needs action now. 2) Strong, frequent contractions from oxytocin and lying flat both lower placental perfusion. 3) The first step is to remove the likely causes: stop the oxytocin and turn the client to her side, within the nurse's role under standard labor protocols. 4) The provider must be notified promptly and the nurse continues with supportive measures such as oxygen and fluids as ordered or per protocol, but telephoning first and waiting leaves the cause in place. 5) A vaginal examination gives useful information, including checking for cord prolapse, but it follows the corrective steps. 6) Preparing for cesarean birth is a provider decision made after reassessment, not the first step.",
+    "optionRationales": [
+      "The provider must be told, but this is the right action at the wrong time; waiting for orders leaves the oxytocin running during a worsening pattern.",
+      "Useful assessment that follows the corrective steps; it does not relieve the cause of reduced placental perfusion.",
+      "Correct. It removes two causes of reduced placental perfusion immediately, after which the nurse notifies the provider and continues supportive measures.",
+      "A decision that belongs to the provider and comes after reassessment; correctable causes are addressed first."
+    ],
+    "keyFacts": [
+      "Recurrent late decelerations suggest uteroplacental insufficiency; stop oxytocin, reposition to a side, and notify the provider promptly.",
+      "Strong, frequent contractions and a supine position can reduce placental blood flow."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np2-015",
+    "area": "NP2",
+    "topic": "Painless bleeding in late pregnancy",
+    "archetype": "except-negative-stem",
+    "difficulty": 4,
+    "vignette": "A client at 33 weeks of gestation arrives at the labor unit reporting sudden painless bright red vaginal bleeding that began at home. The uterus is soft and not tender. The nurse is aware that the cause has not yet been identified and that the provider has been notified.",
+    "stem": "Which action should the nurse AVOID?",
+    "options": [
+      "Monitor maternal vital signs and the fetal heart rate continuously",
+      "Count and weigh the perineal pads to estimate the amount of blood loss",
+      "Keep the client on bed rest, positioned on her side, with the call light close",
+      "Perform a digital vaginal examination to see how far the cervix has dilated"
+    ],
+    "answerIndex": 3,
+    "strategyTag": "Safety: no vaginal exam before ruling out previa",
+    "reasoning": "1) Read the negative stem: choose the action that is unsafe, the one the nurse should not do. 2) Painless bright red bleeding in late pregnancy suggests placenta previa until proven otherwise. 3) A digital vaginal or cervical examination can disturb the placenta and cause heavy hemorrhage. 4) Monitoring maternal vital signs and fetal heart rate, keeping the client at rest, and counting and weighing pads are all appropriate. 5) Therefore the action to avoid is the vaginal examination. 6) Answer with the unsafe action even though others are also familiar nursing actions.",
+    "optionRationales": [
+      "Appropriate and expected; this is safe monitoring.",
+      "Appropriate; helps estimate blood loss.",
+      "Appropriate; supports perfusion and avoids stimulating contractions.",
+      "Correct choice for this stem. A digital exam can disturb a low-lying placenta and provoke heavy bleeding."
+    ],
+    "keyFacts": [
+      "Do not perform a vaginal examination in late-pregnancy bleeding until placenta previa is ruled out.",
+      "Painless bright red bleeding is characteristic of placenta previa."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np2-016",
+    "area": "NP2",
+    "topic": "Toddler negativism",
+    "archetype": "pediatric-growth-safety",
+    "difficulty": 3,
+    "vignette": "A mother of a healthy 2-year-old tells the nurse that her son says \"no\" to almost everything, insists on doing tasks himself, and has tantrums when told to stop playing. She is frustrated and asks how to respond. The nurse recognises this as a typical developmental stage.",
+    "stem": "Which guidance should the nurse give the mother?",
+    "options": [
+      "Punish each tantrum with a long time-out and take away his favorite toy for the day",
+      "Offer limited choices, such as between two shirts, and keep limits consistent",
+      "Give in to his demands so that he stops crying and the tantrum ends quickly",
+      "Explain at length why he must obey and expect him to agree with the reasons"
+    ],
+    "answerIndex": 1,
+    "strategyTag": "Developmental stage drives response",
+    "reasoning": "1) Link behavior to stage: autonomy and negativism are expected in toddlers. 2) The best guidance supports healthy autonomy while keeping safe limits. 3) Offering limited, safe choices lets the child feel control; consistent, calm limits reduce tantrums. 4) Punishing or shaming the child harms trust and does not teach. 5) Giving in to every demand teaches that tantrums work and is unsafe. 6) Expecting full cooperation is unrealistic at this age.",
+    "optionRationales": [
+      "Overly punitive and does not meet the developmental need for autonomy.",
+      "Correct. It supports autonomy within safe limits.",
+      "Reinforces tantrums and sets unsafe precedent.",
+      "A toddler cannot reason like this; unrealistic expectation."
+    ],
+    "keyFacts": [
+      "Toddlers (autonomy versus shame and doubt) need safe choices and consistent limits.",
+      "Tantrums and the word 'no' are expected."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np2-017",
+    "area": "NP2",
+    "topic": "Breastfeeding sore nipples",
+    "archetype": "least-invasive-first",
+    "difficulty": 4,
+    "vignette": "A client on day 3 after a vaginal birth is breastfeeding her term newborn. She reports sore, cracked nipples and pain at the start of each feed. The infant is voiding and stooling appropriately. The nurse watches a feed and sees the infant latched only onto the nipple tip with lips pursed.",
+    "stem": "Which intervention should the nurse implement first?",
+    "options": [
+      "Provide a nipple shield to use at each feed until the nipples heal",
+      "Reposition the infant so more of the areola is taken into the mouth",
+      "Switch to formula feeding for several days until the nipples have healed",
+      "Tell her to pump and discard her milk for two days while the nipples heal"
+    ],
+    "answerIndex": 1,
+    "strategyTag": "Least invasive: fix technique first",
+    "reasoning": "1) First action: use least invasive measure addressing the cause. 2) Cause is evident in the data: shallow latch on the nipple tip with pursed lips. 3) Correcting latch and positioning is non-invasive and treats the cause directly. 4) A nipple shield or switching to formula changes feeding method without fixing technique and may reduce milk supply. 5) Pumping only and discarding milk is unnecessary; the infant is feeding well and the milk is safe. 6) Select the correct latch and positioning instruction.",
+    "optionRationales": [
+      "Device use can reduce milk transfer and does not correct latch; not first-line.",
+      "Correct. It treats the cause with the least invasive effective measure.",
+      "More drastic than needed, undermines breastfeeding, and ignores the correctable cause.",
+      "Unnecessary; the infant is feeding and milk is safe."
+    ],
+    "keyFacts": [
+      "Sore nipples are most often caused by poor latch or positioning.",
+      "Correct the latch before turning to devices or changing the feeding method."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np2-018",
+    "area": "NP2",
+    "topic": "Newborn jaundice reporting",
+    "archetype": "documentation-reporting",
+    "difficulty": 4,
+    "vignette": "A nurse on a newborn unit is caring for a term infant who is about 20 hours old. During routine assessment the nurse notices that the infant's skin and sclerae appear yellow, and the infant is feeding sleepily. Other vital signs are within expected ranges. The mother asks if this is normal.",
+    "stem": "What is the nurse's best action?",
+    "options": [
+      "Promptly report the finding to the provider and record the infant's age at onset",
+      "Tell the mother this is common in newborns and recheck at the next shift assessment",
+      "Document it as physiologic jaundice and continue routine newborn care and feeds",
+      "Encourage frequent feeds, note stools and voids, and reassess the next day"
+    ],
+    "answerIndex": 0,
+    "strategyTag": "Report: abnormal timing is a red flag",
+    "reasoning": "1) The key datum is timing: jaundice visible in the first 24 hours is not expected and may signal a pathologic cause. 2) Compare with expected 'physiologic' jaundice, which usually appears after the first day or two. 3) Because this finding is early and abnormal, it needs prompt reporting and evaluation. 4) False reassurance ('it's normal') and waiting for routine assessment delay care. 5) Increasing feeds is helpful but does not replace evaluation. 6) Choose to report the finding promptly and document objective details.",
+    "optionRationales": [
+      "Correct. Early jaundice is abnormal and needs prompt reporting.",
+      "False reassurance; the timing makes it abnormal.",
+      "Mislabels an abnormal finding without evaluation.",
+      "Helpful measure, but evaluation cannot wait a full day."
+    ],
+    "keyFacts": [
+      "Jaundice in the first 24 hours of life is not physiologic and needs prompt evaluation.",
+      "Report objective findings: timing, extent, feeding, voiding."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np2-019",
+    "area": "NP2",
+    "topic": "Postpartum depression screening",
+    "archetype": "mental-health-crisis",
+    "difficulty": 5,
+    "vignette": "A nurse sees a client at a 2-week postpartum visit. The mother says she cries most days, cannot sleep even when the baby sleeps, and feels hopeless. She quietly adds, \"Sometimes I think the baby would be better off without me.\" Her partner is in the waiting room.",
+    "stem": "Which action should the nurse take first?",
+    "options": [
+      "Reassure her that sadness after birth is common and will likely pass soon",
+      "Give her a handout about postpartum mood changes and review it with her now",
+      "Schedule a follow-up visit in two weeks and encourage rest and help from family",
+      "Ask directly about thoughts of harming herself or the baby, including any plan"
+    ],
+    "answerIndex": 3,
+    "strategyTag": "Safety: ask directly about harm",
+    "reasoning": "1) A statement suggesting self-harm or harm to the baby is a safety priority; safety comes before routine teaching. 2) Assessment first for a stable client, but here the statement is a possible suicide risk, so assess risk right now. 3) Ask directly and calmly whether she has thoughts of harming herself or the baby, and whether she has a plan. 4) Do not leave her alone and do not promise confidentiality that cannot be kept. 5) Reassurance that 'baby blues are normal' is false reassurance; blues pass within about two weeks and this picture is more severe. 6) Educating or scheduling a later visit before assessing risk is unsafe.",
+    "optionRationales": [
+      "False reassurance that dismisses a serious statement.",
+      "Teaching before assessing safety; handouts do not address risk.",
+      "Delays assessment of possible risk.",
+      "Correct. It assesses immediate safety, the priority."
+    ],
+    "keyFacts": [
+      "Ask directly about thoughts of self-harm or harming the infant; direct questions do not increase risk.",
+      "Baby blues are brief and mild; persistent hopelessness needs evaluation."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np2-020",
+    "area": "NP2",
+    "topic": "Magnesium sulfate toxicity",
+    "archetype": "high-alert-medication-reasoning",
+    "difficulty": 5,
+    "vignette": "A client with severe preeclampsia is receiving a magnesium sulfate infusion by pump. At the scheduled check the nurse finds the client is drowsy and slow to answer. Deep tendon reflexes are absent, the respiratory rate is 10 breaths per minute, and urine output has fallen over the last two hours. The call light, a bedside phone and the unit emergency supplies are within reach.",
+    "stem": "Which action should the nurse take first?",
+    "options": [
+      "Lower the infusion rate and recheck reflexes and breathing after thirty minutes",
+      "Obtain calcium gluconate from the unit supply and prepare it for administration",
+      "Stop the infusion at the pump and assess airway, breathing and responsiveness",
+      "Call the provider to report the findings and request an order to stop the infusion"
+    ],
+    "answerIndex": 2,
+    "strategyTag": "ABC: stop the drug that is depressing breathing",
+    "reasoning": "1) A high-alert drug with drowsiness, absent reflexes, slowed breathing and falling urine output suggests toxicity, and breathing is at risk, so this is unstable. 2) The first step is to remove the source of harm: stop the infusion at the pump and assess airway, breathing and responsiveness while staying with the client. 3) Continuing the drug at a lower rate or waiting to recheck leaves a depressant running. 4) Calling the provider is needed and happens at once, along with calling for help or a rapid response if breathing worsens, but the nurse does not wait for an order to stop an infusion causing toxic signs. 5) Calcium gluconate is the usual antidote, and having it ready is appropriate, but it requires an order and follows stopping the drug. 6) Because several correct actions exist, choose the one that stops further exposure and protects breathing before the others.",
+    "optionRationales": [
+      "Keeps the drug running and delays reassessment while the client shows signs of toxicity.",
+      "Right action at the wrong time: the antidote is prepared after the infusion is stopped and requires an order, and the drug would keep running meanwhile.",
+      "Correct. It stops further exposure and lets the nurse assess breathing and consciousness, after which the provider or rapid response team is called and the antidote is prepared.",
+      "The provider must be notified promptly, but waiting for an order to stop an infusion that is causing toxic signs delays protection of the client's breathing."
+    ],
+    "keyFacts": [
+      "Signs of magnesium sulfate toxicity include loss of deep tendon reflexes, slowed respirations, drowsiness and reduced urine output.",
+      "Stop the infusion, call the provider or rapid response, and have calcium gluconate available as ordered."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  }
+]

@@ -1,0 +1,198 @@
+import React, { useMemo } from 'react';
+import { ScrollView, Text, View } from 'react-native';
+import type { AppState, Topic } from '../core/types';
+import { parseMarkdownBlocks, type Block, type Span } from '../core/markdownBlocks';
+import { backlinks, buildGraph, slugify } from '../core/vault';
+import { PRESET_DISCLAIMER, findPresetNote } from '../presets';
+import { visualForNote } from '../presets/visuals';
+import { SvgView } from '../visual/SvgView';
+import { Btn, Card, H, P, Pill, TOUCH, c, sp } from './kit';
+
+type Resolve = (target: string) => Topic | undefined;
+
+function Spans({ spans, resolve, onOpen, base }: { spans: Span[]; resolve: Resolve; onOpen: (id: string) => void; base?: object }) {
+  return (
+    <Text selectable style={[{ color: c.text, fontSize: 16, lineHeight: 25 }, base]}>
+      {spans.map((s, i) => {
+        if (s.t === 'bold') return <Text key={i} style={{ fontWeight: '700' }}>{s.text}</Text>;
+        if (s.t === 'italic') return <Text key={i} style={{ fontStyle: 'italic' }}>{s.text}</Text>;
+        if (s.t === 'code') return <Text key={i} style={{ fontFamily: 'monospace', backgroundColor: c.raised }}>{s.text}</Text>;
+        if (s.t === 'link') {
+          const hit = resolve(s.target);
+          if (!hit) return <Text key={i} style={{ color: c.dim }}>{s.label}</Text>;
+          return (
+            <Text
+              key={i}
+              accessibilityRole="link"
+              onPress={() => onOpen(hit.id)}
+              style={{ color: c.accent, textDecorationLine: 'underline', fontWeight: '600' }}
+            >
+              {s.label}
+            </Text>
+          );
+        }
+        return <Text key={i}>{s.text}</Text>;
+      })}
+    </Text>
+  );
+}
+
+function BlockView({ b, resolve, onOpen }: { b: Block; resolve: Resolve; onOpen: (id: string) => void }) {
+  const sp_ = { resolve, onOpen };
+  switch (b.t) {
+    case 'heading':
+      return (
+        <View accessibilityRole="header" style={{ marginTop: b.level === 2 ? sp.md : sp.xs }}>
+          <Spans spans={b.spans} {...sp_} base={{ fontSize: b.level === 2 ? 20 : b.level === 3 ? 18 : 16, fontWeight: '700' }} />
+        </View>
+      );
+    case 'paragraph':
+      return <Spans spans={b.spans} {...sp_} />;
+    case 'bullets':
+    case 'numbered':
+      return (
+        <View style={{ gap: sp.sm }}>
+          {b.items.map((it, i) => (
+            <View key={i} style={{ flexDirection: 'row', gap: sp.sm, paddingRight: sp.md }}>
+              <Text style={{ color: c.dim, fontSize: 16, lineHeight: 25, minWidth: 22 }}>{b.t === 'bullets' ? '•' : `${i + 1}.`}</Text>
+              <View style={{ flex: 1 }}>
+                <Spans spans={it} {...sp_} />
+              </View>
+            </View>
+          ))}
+        </View>
+      );
+    case 'quote':
+      return (
+        <View style={{ borderLeftWidth: 3, borderLeftColor: c.accent, paddingLeft: sp.md }}>
+          <Spans spans={b.spans} {...sp_} base={{ color: c.dim }} />
+        </View>
+      );
+    case 'code':
+      return (
+        <View style={{ backgroundColor: c.raised, borderRadius: 8, padding: sp.md }}>
+          <Text selectable style={{ color: c.text, fontFamily: 'monospace', fontSize: 14 }}>{b.text}</Text>
+        </View>
+      );
+    case 'rule':
+      return <View style={{ height: 1, backgroundColor: c.line, marginVertical: sp.xs }} />;
+    case 'table':
+      return (
+        <ScrollView horizontal showsHorizontalScrollIndicator>
+          <View style={{ borderWidth: 1, borderColor: c.line, borderRadius: 8 }}>
+            {[b.header, ...b.rows].map((row, r) => (
+              <View key={r} style={{ flexDirection: 'row', backgroundColor: r === 0 ? c.raised : undefined }}>
+                {row.map((cell, k) => (
+                  <View key={k} style={{ width: 150, padding: sp.sm, borderRightWidth: 1, borderBottomWidth: 1, borderColor: c.line }}>
+                    <Spans spans={cell} {...sp_} base={{ fontSize: 14, lineHeight: 20, fontWeight: r === 0 ? '700' : '400' }} />
+                  </View>
+                ))}
+              </View>
+            ))}
+          </View>
+        </ScrollView>
+      );
+  }
+}
+
+const PRIORITY_COLOR = { high: c.bad, medium: c.warn, low: c.dim } as const;
+
+/** Plain Markdown note reader. No AI, no key, not gated by the diagnostic. */
+export function NoteReader({
+  state,
+  topicId,
+  studied,
+  onToggleStudied,
+  onOpen,
+  onBack,
+  onLesson,
+}: {
+  state: AppState;
+  topicId: string;
+  studied: boolean;
+  onToggleStudied: () => void;
+  onOpen: (id: string) => void;
+  onBack: () => void;
+  onLesson: () => void;
+}) {
+  const topic = state.topics.find((t) => t.id === topicId);
+  const { resolve, from } = useMemo(() => {
+    const bySlug = new Map<string, Topic>();
+    for (const t of state.topics) bySlug.set(slugify(t.title), t);
+    for (const t of state.topics) for (const a of t.aliases ?? []) if (!bySlug.has(slugify(a))) bySlug.set(slugify(a), t);
+    const g = buildGraph(state.topics);
+    return {
+      resolve: ((target: string) => bySlug.get(slugify(target))) as Resolve,
+      from: backlinks(g, topicId)
+        .map((id) => state.topics.find((t) => t.id === id))
+        .filter((t): t is Topic => !!t),
+    };
+  }, [state.topics, topicId]);
+  const blocks = useMemo(() => parseMarkdownBlocks(topic?.body ?? ''), [topic?.body]);
+
+  if (!topic) {
+    return (
+      <Card>
+        <H>Topic not found</H>
+        <Btn label="Back" onPress={onBack} />
+      </Card>
+    );
+  }
+  const siblings = state.topics.filter((t) => t.folderId === topic.folderId);
+  const idx = siblings.findIndex((t) => t.id === topic.id);
+  const prev = idx > 0 ? siblings[idx - 1] : undefined;
+  const next = idx >= 0 && idx < siblings.length - 1 ? siblings[idx + 1] : undefined;
+  const meta = findPresetNote(topic.id);
+  const visual = meta ? visualForNote(meta.id) : undefined;
+  const isPreset = topic.sourceIds.some((id) => state.sources.find((s) => s.id === id)?.kind === 'preset');
+
+  return (
+    <View style={{ gap: sp.md }}>
+      <Btn label="Back to topics" kind="ghost" onPress={onBack} />
+      <Card>
+        <H>{topic.title}</H>
+        {meta ? (
+          <View style={{ flexDirection: 'row', gap: sp.sm, flexWrap: 'wrap' }}>
+            <Pill text={meta.area} color={c.accent} />
+            <Pill text={`${meta.priority} priority`} color={PRIORITY_COLOR[meta.priority]} />
+          </View>
+        ) : null}
+        {visual ? (
+          <View style={{ gap: sp.xs }}>
+            <SvgView code={visual.svg} label={visual.caption} natural />
+            <P dim>{`Diagram (schematic): ${visual.caption}`}</P>
+          </View>
+        ) : null}
+        <View style={{ gap: sp.md }}>
+          {blocks.length ? blocks.map((b, i) => <BlockView key={i} b={b} resolve={resolve} onOpen={onOpen} />) : <P dim>This note is empty.</P>}
+        </View>
+        {isPreset ? <P dim>{PRESET_DISCLAIMER}</P> : null}
+      </Card>
+      <Btn label={studied ? 'Studied (tap to undo)' : 'Mark as studied'} kind={studied ? 'ghost' : 'primary'} onPress={onToggleStudied} />
+      {from.length ? (
+        <Card>
+          <H>Linked from</H>
+          {from.map((t) => (
+            <Text
+              key={t.id}
+              accessibilityRole="link"
+              onPress={() => onOpen(t.id)}
+              style={{ color: c.accent, fontSize: 16, minHeight: TOUCH, textAlignVertical: 'center', paddingVertical: sp.md }}
+            >
+              {t.title}
+            </Text>
+          ))}
+        </Card>
+      ) : null}
+      <View style={{ flexDirection: 'row', gap: sp.sm }}>
+        <View style={{ flex: 1 }}>
+          <Btn label="Previous" kind="ghost" disabled={!prev} onPress={() => prev && onOpen(prev.id)} />
+        </View>
+        <View style={{ flex: 1 }}>
+          <Btn label="Next" kind="ghost" disabled={!next} onPress={() => next && onOpen(next.id)} />
+        </View>
+      </View>
+      <Btn label="Generate AI lesson" kind="ghost" hint="Needs the AI and a finished diagnostic for this folder." onPress={onLesson} />
+    </View>
+  );
+}

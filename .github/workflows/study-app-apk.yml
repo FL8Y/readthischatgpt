@@ -1,0 +1,45 @@
+name: study-app-apk
+# rebuilt with 974 notes, diagrams, provider pool
+
+# Builds an installable Android APK of FLY8 Study and attaches it to the run as an artifact.
+# - Runs when this file changes on the working branch (so editing it rebuilds the APK).
+# - Once this file is on the default branch, the Actions tab also shows a "Run workflow" button.
+on:
+  workflow_dispatch:
+  push:
+    branches: [ccr-13ebab09-xygfde]
+    paths:
+      - .github/workflows/study-app-apk.yml
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    defaults:
+      run:
+        working-directory: FLY8 Study
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: FLY8 Study/package-lock.json
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - run: npm ci
+      - run: npm test
+      - name: Generate the native Android project
+        run: npx expo prebuild --platform android --no-install
+      - name: Build release APK (signed with the debug key, fine for personal install)
+        working-directory: FLY8 Study/android
+        run: ./gradlew assembleRelease --no-daemon
+        env:
+          GRADLE_OPTS: -Dorg.gradle.jvmargs=-Xmx4g
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fly8-study-apk
+          path: FLY8 Study/android/app/build/outputs/apk/release/*.apk
+          if-no-files-found: error

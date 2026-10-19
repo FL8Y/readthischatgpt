@@ -1,0 +1,602 @@
+[
+  {
+    "id": "np4-001",
+    "area": "NP4",
+    "topic": "Hypoglycemia in insulin-treated diabetes",
+    "archetype": "priority-physiological-maslow",
+    "difficulty": 3,
+    "vignette": "A 58-year-old man with type 2 diabetes who takes insulin is found on a medical unit sweating, trembling, and irritable shortly before lunch, about 90 minutes after his scheduled insulin dose. He is awake, answers questions slowly, and can hold a cup without help. A bedside glucose reading is below the normal range.",
+    "stem": "Which action should the nurse take first?",
+    "options": [
+      "Hold the next scheduled insulin dose and notify the provider about the low glucose reading",
+      "Give a fast-acting oral carbohydrate such as fruit juice and recheck the glucose afterward",
+      "Prepare to give a glucagon injection because he is slow to respond when the nurse speaks to him",
+      "Start an intravenous line and request an order for dextrose to correct the low glucose"
+    ],
+    "answerIndex": 1,
+    "strategyTag": "Maslow: treat the physiological threat first",
+    "reasoning": "1) The signs (sweating, tremor, irritability, slow responses) plus a low reading confirm hypoglycemia, so the problem is already identified and the stem asks what to do first. 2) Low glucose is a physiological threat, so it is treated before paperwork or notification (Maslow). 3) Choose the safest least invasive route that works: he is awake and can hold a cup, so he can swallow safely. 4) Glucagon and IV dextrose are for clients who cannot take food by mouth, so they skip a step. 5) Notifying the provider and holding insulin are appropriate but come after treatment. 6) Recheck the glucose afterward to confirm the response.",
+    "optionRationales": [
+      "Tempting because the provider should know and insulin may need adjusting, but this is the correct action in the wrong order: the low glucose must be treated before anything else.",
+      "Correct. He is awake and able to swallow, so an oral fast-acting carbohydrate is the quickest, safest, least invasive treatment; recheck the glucose afterward.",
+      "Glucagon is kept for clients who cannot safely swallow or who are unresponsive. He is slow but awake and holding a cup, so a less invasive option comes first.",
+      "An IV with dextrose is for clients who cannot take food by mouth and needs an order and time to set up; it is more invasive than needed for an alert client."
+    ],
+    "keyFacts": [
+      "Alert and able to swallow with low glucose: give a fast-acting oral carbohydrate, then recheck.",
+      "Glucagon or IV dextrose is for the client who cannot swallow or is unresponsive."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np4-002",
+    "area": "NP4",
+    "topic": "Complications after thyroidectomy",
+    "archetype": "postoperative-complication-recognition",
+    "difficulty": 4,
+    "vignette": "A 44-year-old woman is on the surgical unit on the evening after a total thyroidectomy. She has been awake and conversing since returning from the recovery area. Over the next hour she reports several concerns to the nurse, who is deciding which one needs attention first.",
+    "stem": "Which client report or finding requires the nurse to act first?",
+    "options": [
+      "Hoarse voice that has stayed the same since she woke up from anesthesia",
+      "Tingling and numbness around her mouth and in the tips of her fingers",
+      "Increasing neck swelling with a high-pitched sound heard on inspiration",
+      "Incisional soreness rated as moderate that eases when she changes position"
+    ],
+    "answerIndex": 2,
+    "strategyTag": "ABCs: airway before metabolic problems",
+    "reasoning": "1) Name the surgery and its two classic dangers: airway compromise from bleeding or swelling in the neck, and low calcium if the parathyroid glands are injured or removed. 2) The stem asks which to act on first, so rank the problems. 3) Apply ABCs: airway outranks every other concern. 4) Increasing neck swelling with a high-pitched inspiratory sound suggests the airway is narrowing. 5) Tingling around the mouth suggests low calcium and must be reported promptly, but it is a metabolic problem that develops over hours and does not close the airway immediately. 6) Unchanged hoarseness and manageable soreness are common and expected early on.",
+    "optionRationales": [
+      "Hoarseness can result from airway tube irritation or swelling and is common early; it is stable and does not show a worsening trend.",
+      "Tempting because it suggests low calcium, a real complication that needs prompt reporting. It is not the first priority because it does not threaten the airway at this moment.",
+      "Correct. Increasing swelling with a high-pitched sound on inspiration points to a narrowing airway, which is the most immediate life threat, so it is acted on first.",
+      "Moderate soreness that eases with repositioning is expected after surgery and responds to comfort measures; it is stable."
+    ],
+    "keyFacts": [
+      "After thyroidectomy, watch the airway (swelling, bleeding, stridor) and calcium (tingling, muscle spasm).",
+      "Airway compromise outranks metabolic complications when both are present."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np4-003",
+    "area": "NP4",
+    "topic": "Lactulose in hepatic encephalopathy",
+    "archetype": "expected-vs-adverse-effect",
+    "difficulty": 3,
+    "vignette": "A 63-year-old man with cirrhosis is admitted with increasing confusion and a flapping tremor when his arms are held out. The provider starts lactulose to lower the blood ammonia level. On the second day the nurse reviews his bowel pattern and mental status.",
+    "stem": "Which finding best shows that the medication is having its intended effect?",
+    "options": [
+      "Two to three soft stools daily along with improved orientation",
+      "No stool for a full day and confusion that is no better than before",
+      "Frequent watery stools with dizziness on standing from a seat",
+      "A single firm stool each day with the flapping tremor still present"
+    ],
+    "answerIndex": 0,
+    "strategyTag": "Expected effect vs too much of the drug",
+    "reasoning": "1) Identify the purpose: lactulose draws ammonia into the bowel and promotes stool so ammonia leaves the body; the goal is a modest number of soft stools. 2) The stem asks for the intended effect, so look for a finding that shows both a bowel response and a clinical improvement. 3) Eliminate findings that show too little effect (no stool, firm stool) because the ammonia is not being cleared. 4) Eliminate too much effect: watery stools with dizziness suggest fluid loss and a dose problem. 5) Confirm the correct option links the bowel pattern to better mental status.",
+    "optionRationales": [
+      "Correct. A few soft stools show the drug is working, and better orientation shows the ammonia effect on the brain is easing.",
+      "No stool and unchanged confusion mean the drug has not produced the needed response, so ammonia is probably not being cleared.",
+      "Tempting because more stool seems like more ammonia removal, but watery stools with dizziness suggest volume depletion and a dose that is too strong.",
+      "A single firm stool is too little effect, and the persisting tremor shows no clinical improvement."
+    ],
+    "keyFacts": [
+      "Lactulose goal in hepatic encephalopathy: a small number of soft stools per day, with improved mental status.",
+      "Excessive diarrhea is an adverse effect that can cause dehydration and electrolyte loss."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np4-004",
+    "area": "NP4",
+    "topic": "Early signs of rising intracranial pressure",
+    "archetype": "abnormal-finding-identification",
+    "difficulty": 4,
+    "vignette": "A 27-year-old man is admitted after a fall from a ladder with a head injury. For the first six hours his vital signs have been steady and his pupils equal and reactive. The nurse is checking him every hour and wants to detect any rise in intracranial pressure as early as possible.",
+    "stem": "Which new finding is the earliest sign of increasing intracranial pressure?",
+    "options": [
+      "A dilated pupil on the injured side that does not react to light",
+      "Slowing heart rate with a rising systolic blood pressure",
+      "Stiff extension of the arms and legs in response to pain",
+      "New restlessness and slower responses to questions than before"
+    ],
+    "answerIndex": 3,
+    "strategyTag": "Earliest sign = level of consciousness change",
+    "reasoning": "1) The stem asks for the earliest sign, not the most dramatic one, so think of the order in which findings appear. 2) The brain's higher centers are most sensitive to pressure, so a change in level of consciousness (restlessness, confusion, drowsiness, slower answers) appears first. 3) Pupil changes appear later as pressure affects the nerves to the eye. 4) Slowing heart rate with rising systolic pressure and abnormal posturing are late signs of severe pressure and impending herniation. 5) Choose the subtle early change; the dramatic options are tempting traps.",
+    "optionRationales": [
+      "A fixed dilated pupil is a late sign of pressure on the brainstem nerves, not the earliest.",
+      "Bradycardia with rising systolic blood pressure is part of the late Cushing response.",
+      "Extension posturing signals severe brain dysfunction and is a late finding.",
+      "Correct. A decrease in level of consciousness, including restlessness and slower responses, is the earliest and most sensitive indicator of rising pressure."
+    ],
+    "keyFacts": [
+      "Change in level of consciousness is the earliest and most sensitive sign of increased intracranial pressure.",
+      "Bradycardia, rising systolic pressure, fixed pupils, and posturing are late signs."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np4-005",
+    "area": "NP4",
+    "topic": "Seizure first aid and client safety",
+    "archetype": "safety-fall-prevention",
+    "difficulty": 2,
+    "vignette": "A 35-year-old woman with epilepsy is sitting in a chair in the day room of a rehabilitation unit when she stiffens, cries out, and begins rhythmic jerking of all four limbs. Two other clients are nearby and one calls for help. The nurse arrives within seconds.",
+    "stem": "What is the nurse's initial action?",
+    "options": [
+      "Hold her arms and legs firmly to limit the jerking",
+      "Place a padded object between her teeth to protect her tongue",
+      "Lower her to the floor and protect her head from injury",
+      "Apply supplemental oxygen and prepare a suction setup"
+    ],
+    "answerIndex": 2,
+    "strategyTag": "Safety first: prevent injury during the seizure",
+    "reasoning": "1) A seizure is under way and the immediate danger is injury from falling or striking objects. 2) Safety comes first when the client cannot protect herself. 3) The best first step is to lower her to a safe surface and cushion her head. 4) Never restrain the limbs, because this can cause fractures or muscle injury. 5) Never place anything in the mouth during a seizure, because it can break teeth or obstruct the airway. 6) Oxygen and suction may be needed afterward, but they are not the first step while the body is jerking. Note the time and turn her to the side when the jerking stops.",
+    "optionRationales": [
+      "Restraining the limbs does not stop the seizure and can cause injury to her and to the nurse.",
+      "Objects in the mouth can break teeth or block the airway; this old practice is not safe.",
+      "Correct. Easing her to the floor and protecting her head prevents injury, which is the immediate danger while she cannot control her movements.",
+      "Tempting because airway matters, but equipment is not the first step when injury risk is immediate; it is used afterward as needed."
+    ],
+    "keyFacts": [
+      "During a seizure: protect the head, loosen tight clothing, note the time, and do not restrain or put anything in the mouth.",
+      "After the seizure, turn the client to the side to keep the airway clear."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np4-006",
+    "area": "NP4",
+    "topic": "Delegating tube feeding and glucose-related tasks",
+    "archetype": "delegation-assignment",
+    "difficulty": 4,
+    "vignette": "A registered nurse on a medical unit is assigning tasks to a nursing assistant whose competencies are current and whose duties are limited to what the facility allows. Four clients need care this morning. One client has a feeding tube placed an hour ago that has not yet been used. A second client was started on insulin yesterday and is new to injections. A third client with diabetes is drowsy and had a low fingerstick glucose reading ten minutes ago. A fourth client has received the same continuous tube feeding for two weeks and has been steady throughout. The nurse is also short of time and wants to hand off as many tasks as safely possible.",
+    "stem": "Which task is the most appropriate for the nurse to delegate to the nursing assistant?",
+    "options": [
+      "Verify the position of the feeding tube placed an hour ago before formula is started",
+      "Show the client newly started on insulin how to rotate injection sites at home",
+      "Decide whether the drowsy client's low glucose reading needs juice or a call to the provider",
+      "Record formula volume and urine output for the client on a long-standing tube feeding"
+    ],
+    "answerIndex": 3,
+    "strategyTag": "Delegation: routine tasks on stable clients; nurse keeps assess, teach, judge",
+    "reasoning": "1) Delegation is decided by scope and client stability: the nurse keeps assessment, teaching, evaluation and clinical judgment, and the assistant takes routine, predictable tasks. 2) Confirming placement of a new feeding tube is an assessment with a risk of aspiration if wrong, so it stays with the nurse. 3) Teaching a new insulin user is a nursing responsibility. 4) Deciding how to respond to a low glucose in a drowsy client is interpretation and judgment about an unstable client. 5) Recording intake and output for a client who has been steady on the same feeding is routine and within the assistant's scope, with a request to report any change. 6) The key is the one task that needs no nursing judgment.",
+    "optionRationales": [
+      "Right action, wrong person: checking tube placement before first use is a nursing assessment and cannot be handed off.",
+      "Right action for the nurse, but teaching and checking understanding are not delegated.",
+      "Plausible because glucose care is routine on this unit, but interpreting the result in a drowsy client and choosing treatment requires nursing judgment about an unstable client.",
+      "Correct. Recording volumes and urine output for a steady client is a routine task within the assistant's scope; the nurse reviews the totals and asks to be told of any change."
+    ],
+    "keyFacts": [
+      "Do not delegate assessment, teaching, evaluation, or decisions about unstable clients.",
+      "Routine intake and output recording on a steady tube-fed client may be delegated to a competent assistant."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np4-007",
+    "area": "NP4",
+    "topic": "Discharge teaching after cataract surgery",
+    "archetype": "discharge-teaching",
+    "difficulty": 3,
+    "vignette": "A 72-year-old woman is preparing to go home after same-day cataract extraction on her right eye. The nurse reviews eye protection, activity, and warning signs. The client then restates her plan in her own words.",
+    "stem": "Which statement by the client indicates that further teaching is needed?",
+    "options": [
+      "I will wear the protective shield when I sleep at night",
+      "I will bend down to pick up my dog's food bowl each morning",
+      "I will call right away if I notice a sudden increase in eye pain",
+      "I will wash my hands before I put in the eye drops as prescribed"
+    ],
+    "answerIndex": 1,
+    "strategyTag": "Negative stem: choose the unsafe statement",
+    "reasoning": "1) The wording 'further teaching is needed' means three statements are correct and one is unsafe, so find the unsafe one. 2) Recall the goals after cataract surgery: protect the eye and avoid raising pressure in it. 3) Bending, straining, and lifting increase eye pressure and risk strain on the healing site. 4) The shield at night, hand washing before drops, and reporting sudden pain are all protective behaviors. 5) The statement about bending to the floor each morning shows a misunderstanding.",
+    "optionRationales": [
+      "Correct teaching: a shield protects the eye from accidental rubbing or pressure while asleep.",
+      "Correct choice for further teaching. Bending low and heavy lifting increase eye pressure and can harm the healing site.",
+      "Appropriate: sudden pain or a drop in vision can signal a complication and must be reported promptly.",
+      "Appropriate: clean hands help prevent infection when putting in eye drops."
+    ],
+    "keyFacts": [
+      "After cataract surgery avoid bending low, straining, heavy lifting, and rubbing the eye.",
+      "Report sudden pain, vision loss, or increasing redness or discharge."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np4-008",
+    "area": "NP4",
+    "topic": "Rapid-acting insulin and a delayed meal",
+    "archetype": "high-alert-medication-reasoning",
+    "difficulty": 4,
+    "vignette": "A nurse is about to give a scheduled mealtime dose of rapid-acting insulin to a 66-year-old woman on a medical unit. The order says to give it with the meal. The nurse learns the lunch trays will be about an hour late because of a kitchen equipment problem. The client is alert and her glucose is within her usual range.",
+    "stem": "What is the most appropriate action by the nurse?",
+    "options": [
+      "Hold the dose until the meal is at the bedside and ask dietary to speed up delivery",
+      "Give the dose on time as ordered and offer juice later when the tray finally arrives",
+      "Give a reduced amount of the dose now and the remainder when she begins her meal",
+      "Skip the dose, write in the record that the meal was late, and give the next one on time"
+    ],
+    "answerIndex": 0,
+    "strategyTag": "High-alert drug: match timing to the meal",
+    "reasoning": "1) Insulin is a high-alert medication; the main danger is hypoglycemia when insulin acts without food. 2) Rapid-acting insulin starts working quickly, so it must be given when the meal is ready to be eaten. 3) Ask what the nurse can safely do within scope: adjust timing to the actual meal and solve the barrier. 4) Giving insulin now leaves about an hour of insulin action without food. 5) Changing the dose is outside the nurse's scope without a prescriber order. 6) Skipping a dose without a decision from the prescriber is a medication omission and risks high glucose. 7) Holding until the meal is at the bedside and speeding up delivery meets the order and protects the client.",
+    "optionRationales": [
+      "Correct. The order is to give the insulin with the meal, so the nurse times it to the actual meal and works to resolve the delay.",
+      "Tempting because it follows the clock, but insulin would act for an hour with no food, which risks hypoglycemia; juice later does not make this safe.",
+      "The nurse cannot change an ordered dose on her own, and splitting the dose is not part of the order.",
+      "Omitting the dose is not necessary because the meal is coming, and an omission needs a provider decision; it could also cause high glucose."
+    ],
+    "keyFacts": [
+      "Rapid-acting insulin is given when the meal is about to be eaten, because it acts quickly.",
+      "Nurses time and verify high-alert drugs but do not alter ordered doses without a prescriber."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np4-009",
+    "area": "NP4",
+    "topic": "Prioritizing among four competing clients",
+    "archetype": "which-client-first",
+    "difficulty": 5,
+    "vignette": "At the start of the shift a nurse on a medical-surgical unit receives report on four clients. (1) A 62-year-old man two days after bowel surgery who rates his incision pain 8 out of 10 and has asked twice for medication; his vital signs are within his usual range. (2) A 56-year-old man with cirrhosis who passed a black, sticky stool during the night; sitting up, his heart rate is 112 and his blood pressure is 96/58, and he says he is waiting for his breakfast tray. (3) A 34-year-old woman with Crohn disease who has had four loose stools overnight and a temperature of 37.9 C; she is drinking fluids and walking in the hall. (4) A 48-year-old man with type 2 diabetes whose fingerstick glucose is 66 before breakfast; he is alert and the breakfast tray is at his bedside.",
+    "stem": "Which client should the nurse assess first?",
+    "options": [
+      "The man two days after bowel surgery who rates his incision pain 8 out of 10",
+      "The man with cirrhosis who passed a black, sticky stool during the night",
+      "The woman with Crohn disease who has had loose stools and a mild temperature",
+      "The man with type 2 diabetes whose glucose is 66 before breakfast"
+    ],
+    "answerIndex": 1,
+    "strategyTag": "Circulation threat before pain, mild fever, or treatable glucose",
+    "reasoning": "1) Sort the clients by threat to life and how fast it can worsen. 2) A black, sticky stool in a client with cirrhosis suggests upper gastrointestinal bleeding, and a heart rate of 112 with a blood pressure of 96/58 shows his circulation is already compromised, so he is unstable. 3) The postoperative client's pain is real and needs attention, but his vital signs are stable, so it can follow. 4) The Crohn client has mild fever and loose stools but is drinking and walking. 5) A glucose of 66 in an alert client who can eat is fixed in minutes with the tray at the bedside. 6) Choose the client whose circulation is threatened.",
+    "optionRationales": [
+      "Tempting because pain is the loudest complaint, but his vital signs are steady; medicating him matters, yet it is not a threat to life.",
+      "Correct. Black stool with a fast pulse and a low-normal blood pressure suggests bleeding with falling volume; circulation takes priority and he needs help now.",
+      "Symptomatic and worth follow-up, but she is hydrating and walking, and a mild temperature with loose stools is an expected pattern in her condition.",
+      "A glucose of 66 needs prompt attention, but this client is alert and can take food at the bedside, so it can be treated quickly after the unstable client is seen."
+    ],
+    "keyFacts": [
+      "Black, sticky stool suggests upper GI bleeding; a rising heart rate with a falling blood pressure signals volume loss.",
+      "Rank clients by threat to life: unstable circulation before pain, mild fever, or an easily treated glucose."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np4-010",
+    "area": "NP4",
+    "topic": "Reflux teaching",
+    "archetype": "except-negative-stem",
+    "difficulty": 2,
+    "vignette": "A 49-year-old man is newly diagnosed with gastroesophageal reflux disease after months of burning in the chest after meals and at night. The nurse is giving him instructions on lifestyle changes that reduce symptoms.",
+    "stem": "Which instruction by the nurse is NOT appropriate for this client?",
+    "options": [
+      "Lie down for a rest right after eating the evening meal",
+      "Raise the head of the bed using blocks under the frame",
+      "Eat smaller meals and avoid eating close to bedtime",
+      "Limit high-fat foods and avoid foods that trigger symptoms"
+    ],
+    "answerIndex": 0,
+    "strategyTag": "NOT stem: find the instruction that worsens reflux",
+    "reasoning": "1) The word NOT means three instructions are appropriate and one is harmful. 2) Reflux happens when stomach contents move up into the esophagus, so anything that increases pressure or lets gravity push contents upward makes symptoms worse. 3) Lying flat soon after eating makes reflux more likely. 4) Raising the head of the bed, eating smaller meals, avoiding late meals, and limiting fat and trigger foods all reduce reflux. 5) Select the instruction that goes against these principles.",
+    "optionRationales": [
+      "Correct choice for NOT appropriate. Lying down right after a meal lets stomach contents move upward and worsens reflux.",
+      "Appropriate: elevating the head of the bed uses gravity to keep stomach contents down at night.",
+      "Appropriate: smaller meals reduce stomach pressure, and avoiding late meals lets the stomach empty before lying down.",
+      "Appropriate: high-fat foods and known triggers can worsen reflux, so limiting them helps."
+    ],
+    "keyFacts": [
+      "Reflux self-care: stay upright after meals, elevate the head of the bed, eat smaller meals, and avoid late meals.",
+      "Common triggers include high-fat foods, caffeine, alcohol, and smoking."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np4-011",
+    "area": "NP4",
+    "topic": "Adrenal insufficiency laboratory pattern",
+    "archetype": "lab-value-interpretation-qualitative",
+    "difficulty": 4,
+    "vignette": "A 40-year-old woman with Addison disease has been vomiting for two days and could not keep down her daily steroid replacement. In the emergency department she is weak and lightheaded and has a low blood pressure. The nurse anticipates laboratory results that reflect too little adrenal hormone.",
+    "stem": "Which pattern of laboratory results does the nurse most expect?",
+    "options": [
+      "High sodium, low potassium, high glucose",
+      "Low sodium, low potassium, high glucose",
+      "Low sodium, high potassium, low glucose",
+      "High sodium, high potassium, low glucose"
+    ],
+    "answerIndex": 2,
+    "strategyTag": "Link the hormone deficit to the lab pattern",
+    "reasoning": "1) Name the problem: adrenal crisis from too little cortisol and aldosterone, triggered by missing her replacement. 2) Aldosterone normally holds sodium and water and removes potassium, so a shortage causes low sodium (and low volume and pressure) with high potassium. 3) Cortisol helps raise glucose, so a shortage tends to cause low glucose. 4) Match the pattern: low sodium, high potassium, low glucose. 5) The other options each break at least one link; the opposite pattern would suggest too much of these hormones.",
+    "optionRationales": [
+      "This is closer to the opposite picture, with excess hormone effects that retain sodium, lose potassium, and raise glucose.",
+      "Low sodium fits, but low potassium and high glucose do not; a lack of aldosterone causes potassium to rise and a lack of cortisol lowers glucose.",
+      "Correct. Too little aldosterone lowers sodium and raises potassium, and too little cortisol lowers glucose.",
+      "High sodium does not fit because a lack of aldosterone causes sodium loss."
+    ],
+    "keyFacts": [
+      "Adrenal insufficiency: low sodium, high potassium, low glucose, low blood pressure.",
+      "Missed steroid doses or illness can trigger adrenal crisis, which is an emergency."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np4-012",
+    "area": "NP4",
+    "topic": "Adolescent adjusting to type 1 diabetes",
+    "archetype": "distressed-client-best-response",
+    "difficulty": 3,
+    "vignette": "A 15-year-old girl with newly diagnosed type 1 diabetes is preparing for discharge. She tells the nurse she will not take her insulin at school and says, 'Everyone will stare at me and I just want to be normal.' Her glucose has been stable in the hospital and she has demonstrated the injection technique correctly.",
+    "stem": "Which response by the nurse is most therapeutic?",
+    "options": [
+      "You have to take it at school, or you will end up back in the hospital",
+      "Most teenagers manage this well at school, so I am sure you will be fine too",
+      "I will speak to your classmates so that nobody stares at you while you inject",
+      "It sounds like you are worried about being seen as different. Tell me more."
+    ],
+    "answerIndex": 3,
+    "strategyTag": "Reflect feelings; open-ended, not reassurance",
+    "reasoning": "1) The client voices a feeling (fear of being different), not a knowledge gap, because she can already inject correctly. 2) Therapeutic communication responds to the feeling first. 3) Threats and warnings add pressure and may close the conversation. 4) False reassurance dismisses her concern. 5) Solving the problem for her without asking removes her control and may embarrass her. 6) Reflecting the feeling and inviting her to say more builds trust and opens the way to joint problem solving.",
+    "optionRationales": [
+      "This is a threat that uses fear; it ignores her feeling and is likely to make her defensive.",
+      "False reassurance dismisses her concern and tells her how she will feel.",
+      "Tempting because it tries to help, but it takes over without asking what she wants and could increase her embarrassment.",
+      "Correct. It reflects her feeling and invites her to explain, which supports the relationship and leads to shared problem solving."
+    ],
+    "keyFacts": [
+      "Respond to feelings before facts; use reflection and open-ended invitations.",
+      "Adolescents value peer acceptance; involve them in planning how to manage diabetes at school."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np4-013",
+    "area": "NP4",
+    "topic": "Airway protection in acute stroke",
+    "archetype": "abc-ordering",
+    "difficulty": 5,
+    "vignette": "A 74-year-old man was admitted two hours ago with sudden right-sided weakness and slurred speech. While lying flat he becomes drowsy, saliva is pooling in his mouth, and his breathing has a gurgling sound. His oxygen saturation is lower than it was on admission. The nurse is at the bedside.",
+    "stem": "What is the priority nursing action?",
+    "options": [
+      "Complete a full neurologic assessment, including the Glasgow Coma Scale, before other care",
+      "Position him on his side with the head slightly raised and suction the mouth gently",
+      "Perform a bedside swallowing screen before giving him anything to eat or drink by mouth",
+      "Notify the provider about the change in his condition and wait for new orders"
+    ],
+    "answerIndex": 1,
+    "strategyTag": "ABCs: clear the airway before assessing or calling",
+    "reasoning": "1) Gurgling breathing, pooled saliva, drowsiness, and a falling saturation show a partly blocked airway and early failure of airway protection. 2) The airway is the first of the ABCs and it outranks assessment, screening, and notification. 3) Here the problem is already found, so assessing further would delay treatment: act now. 4) The simplest effective action is to position him to let secretions drain and remove them with suction. 5) A swallowing screen is not appropriate in a drowsy client who cannot protect the airway. 6) The provider should be informed right after the airway is secured, with the findings ready to report.",
+    "optionRationales": [
+      "Tempting because assessing is usually first, but the airway problem is already evident and a long assessment delays clearing secretions.",
+      "Correct. Positioning on the side with the head slightly raised and suctioning clears the secretions and protects the airway, the top priority.",
+      "A swallowing screen requires an alert client who can cooperate; this client is drowsy and cannot protect the airway.",
+      "Notification is needed, but it follows the airway action; waiting for orders delays care for a threatened airway."
+    ],
+    "keyFacts": [
+      "Airway, breathing, circulation come before neurologic assessment, screening, and notification.",
+      "Stroke clients are at risk for aspiration; keep suction available and make nothing by mouth until swallowing is screened."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np4-014",
+    "area": "NP4",
+    "topic": "Respiratory threat in Guillain-Barre syndrome",
+    "archetype": "stable-vs-unstable",
+    "difficulty": 5,
+    "vignette": "A 38-year-old man was admitted two days after a viral illness with weakness that is moving upward from his legs, and he has been diagnosed with Guillain-Barre syndrome. During the shift the nurse reviews his trend. The weakness has reached the hips, the ankle reflexes are absent, he has had no bowel movement since admission, and he now stops to take a breath in the middle of a sentence.",
+    "stem": "Which finding represents the greatest threat and requires immediate follow-up?",
+    "options": [
+      "Needing to pause for breath in the middle of a spoken sentence",
+      "Absent ankle reflexes on both sides noted on the neurologic exam",
+      "Weakness that has spread upward from the legs to the hips",
+      "Not having had a bowel movement since being admitted to the unit"
+    ],
+    "answerIndex": 0,
+    "strategyTag": "Expected findings vs a life threat: breathing first",
+    "reasoning": "1) Decide which findings are expected for the disease and which signal instability. 2) In Guillain-Barre syndrome, ascending weakness and absent reflexes are expected features. 3) Constipation is common with immobility and nerve involvement but is not urgent. 4) The danger is that weakness reaches the muscles of breathing. 5) Breathlessness during speech suggests falling respiratory function: breathing outranks all other findings (ABCs). 6) The nurse should act at once, check respiratory function, and call for help as policy requires.",
+    "optionRationales": [
+      "Correct. Pausing to breathe mid-sentence suggests the respiratory muscles are weakening, which can progress to respiratory failure, so it needs immediate action.",
+      "Absent reflexes are an expected feature of the disease and are not an urgent change.",
+      "Weakness spreading upward is expected and should be monitored, but it is a trend; it becomes critical when breathing is affected.",
+      "No bowel movement is a common problem that can be managed after the airway and breathing are protected."
+    ],
+    "keyFacts": [
+      "Guillain-Barre syndrome causes ascending weakness; monitor breathing closely because the respiratory muscles can fail.",
+      "Absent reflexes are expected; breathing difficulty is the urgent finding."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np4-015",
+    "area": "NP4",
+    "topic": "Worsening pain under a cast",
+    "archetype": "initial-action-assess-vs-intervene",
+    "difficulty": 5,
+    "vignette": "A 29-year-old man had a short leg cast applied six hours ago after a tibial fracture. He tells the nurse his pain has climbed steadily and now feels deep and burning, even though an opioid analgesic was given 45 minutes ago. The leg is resting elevated on a pillow and the toes look slightly swollen. He winces when the nurse gently moves his toes and says they feel tight and tingly. His roommate suggests the cast simply needs time to settle.",
+    "stem": "Which action should the nurse take first?",
+    "options": [
+      "Ask the provider for an earlier analgesic dose because the pain is poorly controlled",
+      "Telephone the provider to report the pain and ask for an order to bivalve the cast",
+      "Compare toe color, warmth, sensation, movement, and pulses with the other foot",
+      "Cut along the cast with the cast cutter to relieve pressure over the swollen area"
+    ],
+    "answerIndex": 2,
+    "strategyTag": "Nursing process: assess first, then report urgently",
+    "reasoning": "1) Pain that is increasing and out of proportion despite an analgesic, with tightness, tingling and pain on toe movement, may mean compartment syndrome, a limb-threatening emergency. 2) The data are incomplete, so the first action is to assess: a neurovascular check of color, warmth, sensation, movement and pulses, compared with the other foot. 3) The assessment is followed by an urgent report to the provider with those findings, not a delay. 4) More analgesic treats a symptom and can mask the warning sign. 5) Calling before assessing is the right action at the wrong time, since the report needs the findings. 6) Opening or cutting a cast is outside the nurse's scope without an order and skill, and could harm the client.",
+    "optionRationales": [
+      "Fits a client with ordinary fracture pain, but here extra analgesic can hide a developing circulation problem and delays finding the cause.",
+      "Right action, wrong time: the provider must be told promptly, but the report should carry assessment findings, so the nurse checks the limb first and then calls urgently.",
+      "Correct. A neurovascular check compared with the other foot supplies the findings needed for an urgent report to the provider, who decides about relieving pressure.",
+      "Plausible because pressure is the problem, but cutting a cast is outside the nurse's scope without an order and training, and it is not the first step."
+    ],
+    "keyFacts": [
+      "Pain out of proportion that is unrelieved by analgesics, with tightness and tingling, may signal compartment syndrome.",
+      "Neurovascular check: color, warmth, sensation, movement, pulses, compared with the other limb, then report urgently."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np4-016",
+    "area": "NP4",
+    "topic": "Infant with persistent forceful vomiting",
+    "archetype": "pediatric-growth-safety",
+    "difficulty": 4,
+    "vignette": "A 5-week-old boy is brought to the clinic because he has had forceful vomiting after most feedings for three days. The vomit is milk without bile and he seems hungry again right afterward. His weight is lower than at the last visit, he has had two wet diapers in the past day, and his anterior fontanelle looks slightly sunken. The nurse can feel a small olive-shaped mass in the upper abdomen. His parents have slept little, say they feel they are failing him, and have been propping him upright after feedings as they read online.",
+    "stem": "Which concern should the nurse address first?",
+    "options": [
+      "The parents are exhausted and fear that feeding trouble is harming their bond",
+      "The baby has lost weight and is not receiving enough calories for growth",
+      "The parents have not been shown the best way to position him after feeding",
+      "The baby is losing more fluid by vomiting than he is able to take in"
+    ],
+    "answerIndex": 3,
+    "strategyTag": "Maslow: fluid balance before nutrition, teaching, and bonding",
+    "reasoning": "1) The picture suggests an obstruction at the stomach outlet with repeated forceful vomiting. 2) Infants have little fluid reserve, and few wet diapers with a sunken fontanelle show that fluid loss is already affecting him. 3) Fluid and electrolyte balance is a physiological need that must be corrected before anything else. 4) Weight loss and low calorie intake are true, but they develop over days and cannot be addressed until he is rehydrated. 5) Positioning advice would suit a baby with simple reflux, and the parents' distress is real, but both rank below a physiological threat. 6) Choose the concern that threatens him now.",
+    "optionRationales": [
+      "Real and worth supporting, but it is a psychosocial need and ranks below a physiological threat.",
+      "True and important, but nutritional deficit builds over time; the fluid loss is the more immediate danger in a small infant.",
+      "Right action for an infant with simple reflux, but positioning does not fix an obstruction and teaching ranks below the physiological problem.",
+      "Correct. Fewer wet diapers and a sunken fontanelle show dehydration is under way in an infant who compensates poorly, so fluid balance comes first."
+    ],
+    "keyFacts": [
+      "Infants dehydrate quickly; signs include a sunken fontanelle and fewer wet diapers.",
+      "Forceful non-bilious vomiting with an olive-shaped mass suggests pyloric stenosis."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np4-017",
+    "area": "NP4",
+    "topic": "Levothyroxine client teaching",
+    "archetype": "teaching-evaluation-understanding",
+    "difficulty": 3,
+    "vignette": "A 52-year-old woman is starting levothyroxine for hypothyroidism. She also takes a calcium supplement for bone health. The nurse teaches her about the medication and then asks her to describe in her own words how she will take it.",
+    "stem": "Which statement by the client shows correct understanding?",
+    "options": [
+      "I will stop taking the pill once my energy has returned to normal and I feel well again",
+      "I will take it each morning at the same time on an empty stomach, apart from calcium",
+      "I will take an extra pill on days when I feel very tired to give me more energy",
+      "I will take it with my breakfast and my calcium supplement so that I remember both"
+    ],
+    "answerIndex": 1,
+    "strategyTag": "Evaluate learning: look for safe, consistent self-management",
+    "reasoning": "1) The stem tests whether the client's own words show safe self-management of thyroid hormone replacement. 2) Replacement therapy is usually lifelong and taken consistently; feeling better is a sign that it is working, not a reason to stop. 3) Extra doses can cause too much thyroid hormone with palpitations and anxiety. 4) Food and calcium can reduce absorption, so the drug is taken on an empty stomach and separated from calcium. 5) The correct statement shows regular timing, empty stomach, and separation from the supplement.",
+    "optionRationales": [
+      "Energy returning shows the drug is working; stopping can bring the symptoms back, because replacement is generally ongoing.",
+      "Correct. Consistent timing, an empty stomach, and separation from calcium support steady absorption and safe use.",
+      "Taking extra doses to treat tiredness can cause an excess of thyroid hormone, with a racing heart and anxiety.",
+      "Tempting for convenience, but food and calcium can reduce absorption of the drug."
+    ],
+    "keyFacts": [
+      "Levothyroxine: take consistently, usually in the morning on an empty stomach, and separate from calcium and iron.",
+      "Replacement is generally long-term; report palpitations, chest pain, or marked nervousness."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np4-018",
+    "area": "NP4",
+    "topic": "Refusal of a feeding tube",
+    "archetype": "ethics-rights-informed-consent",
+    "difficulty": 4,
+    "vignette": "A 61-year-old man with amyotrophic lateral sclerosis has progressive swallowing difficulty and weight loss. He is alert, understands his illness and the choices, and tells the nurse he does not want a feeding tube. His daughter insists he must have it, saying 'He has to eat.' A tube placement is scheduled for the morning.",
+    "stem": "What is the nurse's best action?",
+    "options": [
+      "Reassure the daughter that the tube will be placed as scheduled despite his refusal",
+      "Explain to the client that without a feeding tube he will slowly starve to death",
+      "Explore his reasons, confirm he understands his options, and inform the provider",
+      "Ask the daughter to help persuade him to accept the tube before the procedure"
+    ],
+    "answerIndex": 2,
+    "strategyTag": "Autonomy: competent client decides; nurse advocates",
+    "reasoning": "1) The client is alert and understands, so he has decision-making capacity, and a competent adult has the right to refuse treatment. 2) The nurse's role is to advocate and ensure the decision is informed, not to decide for him. 3) The daughter's wishes matter and can be heard, but she cannot consent or refuse for a capable client. 4) Frightening or pressuring the client violates his autonomy. 5) The best action explores his reasons, checks understanding, and informs the provider so the plan can be reviewed before the procedure. 6) The nurse documents the discussion.",
+    "optionRationales": [
+      "Proceeding because of the daughter's insistence overrides the client's own right to decide.",
+      "A blunt, frightening statement is coercive and does not support an informed choice.",
+      "Correct. This respects autonomy, ensures the refusal is informed, and brings the provider in to review the plan before the procedure.",
+      "Enlisting the daughter to persuade him is pressure, which undermines voluntary decision making."
+    ],
+    "keyFacts": [
+      "A competent adult may refuse treatment after being informed; the family cannot override the decision.",
+      "The nurse advocates, confirms understanding, informs the provider, and documents."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np4-019",
+    "area": "NP4",
+    "topic": "Naming the nursing process step after foot teaching",
+    "archetype": "nursing-process-step-identification",
+    "difficulty": 4,
+    "vignette": "A nurse taught a 55-year-old man with type 2 diabetes and reduced feeling in his feet to inspect his feet daily. The care plan states the outcome: 'Client will describe and demonstrate daily foot inspection by the end of the week.' At the end of the week the nurse asks him to show how he checks his feet. He looks at the tops of his feet but skips the soles and the spaces between his toes, and he cannot say what he would report. The nurse concludes that the outcome was only partly met and notes that more teaching will be needed.",
+    "stem": "Which phase of the nursing process does the nurse's conclusion represent?",
+    "options": [
+      "Evaluation of care provided",
+      "Assessment of a new problem",
+      "Planning of revised teaching",
+      "Implementation of the plan"
+    ],
+    "answerIndex": 0,
+    "strategyTag": "Nursing process: judging results against a written outcome",
+    "reasoning": "1) Name the phase by what the nurse is doing at this moment, not by the topic. 2) The nurse has the written outcome from the plan and the client's performance, and decides the outcome was only partly met. 3) Judging results against a stated outcome is the evaluation phase. 4) Assessment is gathering data to find a problem, and the problem was already known. 5) Planning is writing new goals and actions, which will come next but has not happened yet. 6) Implementation was the teaching already given.",
+    "optionRationales": [
+      "Correct. Comparing the client's performance with the written outcome and judging it partly met is evaluation.",
+      "The nurse is not searching for a new problem; the foot-care knowledge need was already identified.",
+      "Revising the teaching plan is likely the next step, but at this moment the nurse is judging results, not writing new actions.",
+      "Implementation was the teaching already delivered; observing the result of that teaching is not carrying out the plan."
+    ],
+    "keyFacts": [
+      "Evaluation compares the client's response with the written outcome and judges whether it was met.",
+      "Return demonstration is a common way to evaluate learning."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  },
+  {
+    "id": "np4-020",
+    "area": "NP4",
+    "topic": "Precautions for Clostridioides difficile infection",
+    "archetype": "infection-control-isolation",
+    "difficulty": 3,
+    "vignette": "A 70-year-old woman has watery diarrhea several times a day after a course of antibiotics, and stool testing confirms Clostridioides difficile infection. She has been placed in a private room. The nurse is reviewing precautions with a nursing assistant before they enter the room together.",
+    "stem": "Which instruction is most important for the nurse to give?",
+    "options": [
+      "Use alcohol-based hand rub before entering and after leaving the room",
+      "Wear a surgical mask whenever you enter the room to care for or talk with her",
+      "Wear gloves when you touch stool and skip the gown for routine bedside care",
+      "Wash hands with soap and water, and wear a gown and gloves for direct care"
+    ],
+    "answerIndex": 3,
+    "strategyTag": "Infection control: match precautions to the route",
+    "reasoning": "1) Identify the organism and route: C. difficile spreads by contact with contaminated surfaces, hands, and stool, and it forms spores. 2) Choose contact precautions: gown and gloves for care, a private room, and dedicated equipment. 3) Spores are not reliably removed by alcohol-based hand rub, so washing hands with soap and water is required. 4) A surgical mask protects against droplets, which is the wrong route. 5) Gloves without a gown leave clothing exposed to contaminated surfaces. 6) The only option that fits the route is soap-and-water hand washing plus gown and gloves.",
+    "optionRationales": [
+      "Tempting because alcohol rub is routine in most care, but it does not reliably remove C. difficile spores, so it is not enough here.",
+      "A surgical mask addresses droplet spread, which is not how this infection is transmitted.",
+      "Partial precautions leave the uniform exposed to contamination; a gown is part of contact precautions for care.",
+      "Correct. Contact precautions with a gown and gloves, plus washing with soap and water, address the route and the spores."
+    ],
+    "keyFacts": [
+      "C. difficile: contact precautions, gown and gloves, private room, and soap-and-water hand washing.",
+      "Alcohol-based rubs do not reliably kill the spores."
+    ],
+    "aiWritten": true,
+    "nurseReviewed": false
+  }
+]
