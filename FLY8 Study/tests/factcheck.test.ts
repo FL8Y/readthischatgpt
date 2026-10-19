@@ -1,9 +1,8 @@
 import { describe, expect, it } from 'vitest';
-import { readFileSync, readdirSync } from 'node:fs';
-import { join } from 'node:path';
-
-const root = join(__dirname, '..');
-const readJson = (p: string) => JSON.parse(readFileSync(join(root, p), 'utf8'));
+import factJson from '../data/pnle/factcheck.json';
+import blueprintJson from '../data/bank/blueprint.json';
+import bundlesJson from '../data/presets/bundles.json';
+import { PRESET_PACKS } from '../src/presets';
 
 type Fact = {
   id: string;
@@ -14,16 +13,14 @@ type Fact = {
   severity: string;
 };
 
-const presetDir = join(root, 'data/presets');
-const presetNotes = new Map<string, { area: string; priority: string }>();
-for (const f of readdirSync(presetDir)) {
-  if (!f.endsWith('.json') || f === 'bundles.json' || f === 'visuals.json') continue;
-  for (const n of readJson(`data/presets/${f}`)) presetNotes.set(n.id, n);
-}
-const bundles: { id: string; area: string; notes: string[] }[] = readJson('data/presets/bundles.json').bundles;
-const fact = readJson('data/pnle/factcheck.json');
+const presetNotes = new Map<string, { area: string; priority?: string }>();
+for (const n of PRESET_PACKS.flatMap((p) => p.notes)) presetNotes.set(n.id, n as { area: string; priority?: string });
+const bundles: { id: string; area: string; notes: string[] }[] = bundlesJson.bundles;
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const fact: any = factJson;
 const facts: Fact[] = fact.entries;
-const bp = readJson('data/bank/blueprint.json');
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const bp: any = blueprintJson;
 const AREAS = ['NP1', 'NP2', 'NP3', 'NP4', 'NP5'];
 
 describe('data/pnle/factcheck.json', () => {
