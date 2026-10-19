@@ -110,7 +110,7 @@ export interface TraceStep {
 
 export interface AdaptiveMeta {
   scope: Scope;
-  seed: string;
+  seed: string | number;
   /** Starting ability per NP area (default 0). */
   start: Partial<Record<Area, number>>;
   /** Topic -> weak-topic bonus used for picking. */
@@ -223,7 +223,7 @@ export interface StartAdaptive {
   id: string;
   now: number;
   scope: Scope;
-  seed: string;
+  seed: string | number;
   start?: Partial<Record<Area, number>>;
   weak?: Record<string, number>;
 }

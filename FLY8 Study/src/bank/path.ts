@@ -401,3 +401,26 @@ export function dayLabel(today: string, day: string): string {
   const d = daysBetween(today, day);
   return d === 0 ? 'Today' : d === 1 ? 'Tomorrow' : d === -1 ? 'Yesterday' : day;
 }
+
+// ---------- launching a task ----------
+
+export type Launch =
+  | { kind: 'diagnostic' }
+  | { kind: 'requeue' }
+  | { kind: 'mock'; area: Area }
+  | { kind: 'practice'; area: Area; topics: string[]; count: number }
+  | null;
+
+/** What session a task starts. Rest tasks and finished tasks start nothing. */
+export function launchFor(t: PathTask): Launch {
+  if (t.state === 'done') return null;
+  switch (t.kind) {
+    case 'diagnostic': return { kind: 'diagnostic' };
+    case 'requeue': return { kind: 'requeue' };
+    case 'mock': return t.area ? { kind: 'mock', area: t.area } : null;
+    case 'practice':
+    case 'review':
+      return t.area ? { kind: 'practice', area: t.area, topics: t.topics, count: Math.max(5, t.target - t.done) } : null;
+    default: return null;
+  }
+}

@@ -1,6 +1,11 @@
 import React, { useContext, useEffect, useMemo, useState } from 'react';
 import { View } from 'react-native';
 import type { AppState } from '../../core/types';
+import {
+  adaptivePool, extendAdaptive, isAdaptive, replayAdaptive, startAdaptive, thetaFromAttempts, weakBonusFrom,
+  type AdaptiveState, type Scope,
+} from '../../bank/adaptive';
+import { countdownText, type Launch } from '../../bank/path';
 import { dueItems } from '../../bank/requeue';
 import { buildResult, type SessionResult } from '../../bank/results';
 import type { BankItem } from '../../bank/schema';
@@ -15,9 +20,10 @@ import { History } from './History';
 import { Player } from './Player';
 import { PracticeHub } from './PracticeHub';
 import { Results } from './Results';
+import { AdaptiveSummaryScreen, Path } from './Path';
 import type { ItemReport } from './ReportSheet';
 import {
-  changedAnswerId, hubStats, planNotice, planSession, resumeDecision, sessionFromPlan,
+  changedAnswerId, defaultCustom, hubStats, planNotice, planSession, resumeDecision, sessionFromPlan,
   type CustomValues, type Plan, type StartRequest,
 } from './practiceFlow';
 
@@ -26,6 +32,8 @@ type View_ =
   | { v: 'custom' }
   | { v: 'history' }
   | { v: 'ai' }
+  | { v: 'path' }
+  | { v: 'adaptive'; result: SessionResult; items: BankItem[]; session: PracticeSession; st: AdaptiveState; scope: Scope; evidence: Partial<Record<string, number>> }
   | { v: 'session' }
   | { v: 'results'; result: SessionResult; items: BankItem[]; session: PracticeSession }
   | { v: 'dx'; result: SessionResult; items: BankItem[]; session: PracticeSession }
@@ -104,11 +112,35 @@ export function PracticeScreen({ state, update, go, registerBack }: PracticeScre
     const id = changedAnswerId(saved, next);
     const item = id ? byId.get(id) : undefined;
     const ans = id ? next.answers[id] : undefined;
-    if (id && item && ans) {
-      void dispatch({ type: 'session/answer', item, selected: ans.selected, now: Date.now(), seconds: ans.seconds, hinted: ans.hinted });
-      return;
-    }
-    void dispatch({ type: 'session/update', session: next });
+    void (async () => {
+      const after = id && item && ans
+        ? await dispatch({ type: 'session/answer', item, selected: ans.selected, now: Date.now(), seconds: ans.seconds, hinted: ans.hinted })
+        : await dispatch({ type: 'session/update', session: next });
+      // Adaptive exam: once every queued question is answered, pick the next one for the new ability estimate.
+      const cur = after.session;
+      if (isAdaptive(cur)) {
+        const ext = extendAdaptive(cur, adaptivePool(items, cur.adaptive.scope), byId);
+        if (ext !== cur) await dispatch({ type: 'session/update', session: ext });
+      }
+    })();
+  };
+
+  const startAdaptiveExam = async (scope: Scope) => {
+    const now = Date.now();
+    const s = startAdaptive(items, {
+      id: `adaptive-${now}`, now, scope, seed: `adaptive-${now}`,
+      start: thetaFromAttempts(byId, attempts).theta, weak: weakBonusFrom(attempts),
+    });
+    if (!s) return setNotice('No questions are available for the adaptive exam yet.');
+    await dispatch({ type: 'session/start', session: s });
+    setNotice('');
+    setView({ v: 'session' });
+  };
+
+  const launchPath = (l: NonNullable<Launch>) => {
+    if (l.kind === 'practice') start({ kind: 'custom', values: { ...defaultCustom(), areas: [l.area], topics: l.topics, count: l.count } });
+    else if (l.kind === 'mock') start({ kind: 'mock', area: l.area });
+    else start({ kind: l.kind });
   };
 
   const onFinish = async (done: PracticeSession) => {
@@ -117,6 +149,13 @@ export function PracticeScreen({ state, update, go, registerBack }: PracticeScre
     const sItems = s.order.map((id) => byId.get(id)).filter((x): x is BankItem => !!x);
     const earlier = attempts.filter((a) => a.sessionId !== s.id);
     const result = buildResult(s, sItems, earlier);
+    if (isAdaptive(s)) {
+      const st = replayAdaptive(s, byId);
+      const evidence: Partial<Record<string, number>> = {};
+      for (const a of earlier) evidence[a.area] = (evidence[a.area] ?? 0) + 1;
+      for (const [a, n] of Object.entries(st.n)) evidence[a] = (evidence[a] ?? 0) + (n ?? 0);
+      return setView({ v: 'adaptive', result, items: sItems, session: s, st, scope: s.adaptive.scope, evidence });
+    }
     setView({ v: s.mode === 'diagnostic' ? 'dx' : 'results', result, items: sItems, session: s });
   };
 
@@ -165,6 +204,34 @@ export function PracticeScreen({ state, update, go, registerBack }: PracticeScre
         onReport={onReport}
         onAskTutor={() => go('tutor')}
         onReadNote={() => go('topics')}
+      />
+    );
+  }
+
+  if (view.v === 'adaptive') {
+    const cur = view;
+    return (
+      <AdaptiveSummaryScreen
+        state={cur.st}
+        scope={cur.scope}
+        evidence={cur.evidence}
+        onDetails={() => setView({ v: 'results', result: cur.result, items: cur.items, session: cur.session })}
+        onDone={() => setView({ v: 'hub' })}
+      />
+    );
+  }
+
+  if (view.v === 'path') {
+    return (
+      <Path
+        items={items}
+        attempts={attempts}
+        state={bs}
+        today={today}
+        onSetExam={(date) => void dispatch({ type: 'exam/set', date })}
+        onSetMinutes={(minutes) => void dispatch({ type: 'path/minutes', minutes })}
+        onLaunch={launchPath}
+        onBack={() => setView({ v: 'hub' })}
       />
     );
   }
@@ -232,6 +299,9 @@ export function PracticeScreen({ state, update, go, registerBack }: PracticeScre
       onDiscardSaved={() => void dispatch({ type: 'session/clear' })}
       onHistory={() => { setNotice(''); setView({ v: 'history' }); }}
       onAi={() => setView({ v: 'ai' })}
+      onAdaptive={(scope) => void startAdaptiveExam(scope)}
+      onPath={() => { setNotice(''); setView({ v: 'path' }); }}
+      pathDetail={bs.examDate ? countdownText(today, bs.examDate) : undefined}
     />
   );
 }
