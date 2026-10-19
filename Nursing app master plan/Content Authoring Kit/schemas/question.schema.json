@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "question.schema.json",
+  "title": "Question item or situation cluster",
+  "description": "Fields follow the project's PNLE Question Maker master prompt (v2.0: four options A-D, one best answer, rationale, metadata). Extra item types (sata, matrix, cloze, highlight) are modelled on case-study item types seen in a reference app and are OPTIONAL extensions.",
+  "oneOf": [ { "$ref": "#/$defs/item" }, { "$ref": "#/$defs/situation" } ],
+  "$defs": {
+    "meta": {
+      "type": "object",
+      "required": ["nursing_practice", "tos_content_area", "topic", "cognitive_domain", "difficulty", "evidence_status"],
+      "additionalProperties": false,
+      "properties": {
+        "nursing_practice": { "enum": ["NP1", "NP2", "NP3", "NP4", "NP5"] },
+        "tos_content_area": { "type": "string", "minLength": 3 },
+        "topic": { "type": "string", "minLength": 2 },
+        "topic_id": { "type": "string", "description": "id from topic-tree.json" },
+        "competency": { "type": "string" },
+        "cognitive_domain": { "enum": ["remembering", "understanding", "applying", "analyzing", "evaluating", "creating"] },
+        "difficulty": { "enum": ["easy", "moderate", "difficult"] },
+        "nursing_process_phase": { "enum": ["assessment", "analysis_diagnosis", "planning", "implementation", "evaluation", "not_applicable"] },
+        "evidence_status": { "enum": ["verified_source", "established_knowledge", "needs_review"] },
+        "sources": { "type": "array", "items": { "type": "string" } },
+        "tags": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "base": {
+      "type": "object",
+      "required": ["id", "type", "stem", "rationale", "meta"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "stem": { "type": "string", "minLength": 10 },
+        "rationale": { "type": "string", "minLength": 40 },
+        "rationale_simplified": { "type": "string" },
+        "hint": { "type": "string" },
+        "images": { "type": "array", "items": { "type": "object", "required": ["url", "alt_text"], "properties": { "url": { "type": "string" }, "alt_text": { "type": "string" }, "caption": { "type": "string" }, "credit": { "type": "string" }, "license": { "type": "string" } } } },
+        "meta": { "$ref": "#/$defs/meta" }
+      }
+    },
+    "item": {
+      "oneOf": [
+        { "allOf": [ { "$ref": "#/$defs/base" }, { "type": "object", "required": ["type", "options", "answer"], "properties": {
+            "type": { "const": "mcq" },
+            "options": { "type": "array", "minItems": 4, "maxItems": 4, "items": { "type": "object", "required": ["label", "text"], "additionalProperties": false, "properties": { "label": { "enum": ["A", "B", "C", "D"] }, "text": { "type": "string", "minLength": 1 }, "why_not": { "type": "string", "description": "internal distractor note (hidden from learners)" } } } },
+            "answer": { "enum": ["A", "B", "C", "D"] } } } ] },
+        { "allOf": [ { "$ref": "#/$defs/base" }, { "type": "object", "required": ["type", "options", "answers"], "properties": {
+            "type": { "const": "sata" },
+            "options": { "type": "array", "minItems": 5, "maxItems": 8, "items": { "type": "string", "minLength": 1 } },
+            "answers": { "type": "array", "minItems": 2, "items": { "type": "integer", "minimum": 0 } } } } ] },
+        { "allOf": [ { "$ref": "#/$defs/base" }, { "type": "object", "required": ["type", "columns", "rows"], "properties": {
+            "type": { "const": "matrix" },
+            "columns": { "type": "array", "minItems": 2, "maxItems": 5, "items": { "type": "string" } },
+            "rows": { "type": "array", "minItems": 2, "items": { "type": "object", "required": ["text", "correct_column"], "properties": { "text": { "type": "string" }, "correct_column": { "type": "integer", "minimum": 0 } } } } } } ] },
+        { "allOf": [ { "$ref": "#/$defs/base" }, { "type": "object", "required": ["type", "text", "blanks"], "properties": {
+            "type": { "const": "cloze" },
+            "text": { "type": "string", "description": "use {{1}}, {{2}} ... for dropdown blanks" },
+            "blanks": { "type": "array", "minItems": 1, "items": { "type": "object", "required": ["id", "choices", "correct_index"], "properties": { "id": { "type": "string" }, "choices": { "type": "array", "minItems": 2, "items": { "type": "string" } }, "correct_index": { "type": "integer", "minimum": 0 } } } } } } ] },
+        { "allOf": [ { "$ref": "#/$defs/base" }, { "type": "object", "required": ["type", "segments"], "properties": {
+            "type": { "const": "highlight" },
+            "segments": { "type": "array", "minItems": 2, "items": { "type": "object", "required": ["text", "selectable", "correct"], "properties": { "text": { "type": "string" }, "selectable": { "type": "boolean" }, "correct": { "type": "boolean" } } } } } } ] }
+      ]
+    },
+    "situation": {
+      "type": "object",
+      "required": ["id", "type", "situation", "items"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string" },
+        "type": { "const": "situation" },
+        "situation": { "type": "string", "minLength": 20, "description": "shared vignette for all items" },
+        "items": { "type": "array", "minItems": 2, "items": { "$ref": "#/$defs/item" } }
+      }
+    }
+  }
+}
