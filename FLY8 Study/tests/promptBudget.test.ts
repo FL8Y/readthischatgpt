@@ -11,6 +11,7 @@ import { lessonPrompt } from '../src/lesson/lesson';
 import { composeManualPrompt } from '../src/ai/manual';
 import { verificationPrompt } from '../src/core/provenance';
 import { pnleModuleQuizRequest, pnlePopQuizRequest } from '../src/pnle/requests';
+import { buildUnifiedPrompt } from '../src/pnle/unifiedPrompt';
 import type { AppState, Question, Topic } from '../src/core/types';
 
 const words = (s: string) => s.split(/\s+/).filter(Boolean).length;
@@ -57,6 +58,10 @@ const BUDGET: Record<string, [number, () => string]> = {
   verificationSys: [62, () => verificationPrompt(['x']).system],
   pnlePopSys: [2758, () => pnlePopQuizRequest(st, topic, 3, now, []).system],
   pnleModuleSys: [2916, () => pnleModuleQuizRequest(st, [topic], bp, now, []).system],
+  // Unified question-maker prompt (W4-E), measured 2026-10-19: single 1461, case-set 1619 system words.
+  unifiedSingleSys: [1560, () => buildUnifiedPrompt({ shape: 'single', count: 5 }).system],
+  unifiedCaseSetSys: [1720, () => buildUnifiedPrompt({ shape: 'case-set', count: 4 }).system],
+  unifiedUser: [60, () => buildUnifiedPrompt({ shape: 'single', count: 5 }).user],
 };
 
 describe('prompt word budgets (deeper, not longer)', () => {
@@ -67,6 +72,15 @@ describe('prompt word budgets (deeper, not longer)', () => {
   }
   it('the PNLE system prompt is meaningfully shorter than before (at least 15%)', () => {
     expect(words(PNLE_SYSTEM_PROMPT)).toBeLessThanOrEqual(Math.floor(2710 * 0.85));
+  });
+});
+
+describe('unified prompt vs the old PNLE prompt', () => {
+  it('no shape is more than 15% longer than the old PNLE system prompt (it is shorter)', () => {
+    const old = words(PNLE_SYSTEM_PROMPT);
+    for (const shape of ['single', 'sata', 'statement', 'except', 'sequence', 'calc', 'case-set'] as const) {
+      expect(words(buildUnifiedPrompt({ shape, count: 4 }).system)).toBeLessThanOrEqual(Math.floor(old * 1.15));
+    }
   });
 });
 
