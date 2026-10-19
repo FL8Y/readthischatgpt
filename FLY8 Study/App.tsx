@@ -12,7 +12,6 @@ import { Topics } from './src/ui/Topics';
 import { Settings } from './src/ui/Settings';
 import { Onboarding } from './src/ui/Onboarding';
 import { ManualHost } from './src/ui/ManualHost';
-import { Review } from './src/ui/Review';
 import { Tutor } from './src/ui/Tutor';
 import { More, type MoreId } from './src/ui/More';
 import { DemoHarness } from './src/ui/DemoHarness';
@@ -20,14 +19,13 @@ import { Header, ImmersiveCtx, Screen, TabBar, type TabItem } from './src/ui/kit
 import { ThemeProvider, useTheme } from './src/ui/theme';
 
 /** Every id the app has ever used keeps working with go(). library/map/tutor/settings live under More. */
-type Tab = 'home' | 'study' | 'topics' | 'library' | 'map' | 'review' | 'tutor' | 'settings' | 'more';
+type Tab = 'home' | 'study' | 'topics' | 'library' | 'map' | 'tutor' | 'settings' | 'more';
 type Ctx = { state: AppState; update: (s: AppState) => void; go: (t: Tab) => void };
 
-const BAR: (TabItem & { id: 'home' | 'study' | 'topics' | 'review' | 'more' })[] = [
+const BAR: (TabItem & { id: 'home' | 'study' | 'topics' | 'more' })[] = [
   { id: 'home', label: 'Home', icon: 'home-outline', iconOn: 'home' },
   { id: 'study', label: 'Study', icon: 'school-outline', iconOn: 'school' },
   { id: 'topics', label: 'Learn', icon: 'book-outline', iconOn: 'book' },
-  { id: 'review', label: 'Review', icon: 'layers-outline', iconOn: 'layers' },
   { id: 'more', label: 'More', icon: 'ellipsis-horizontal-circle-outline', iconOn: 'ellipsis-horizontal-circle' },
 ];
 
@@ -41,7 +39,6 @@ const SCREENS: Record<Exclude<Tab, 'more'>, { title: string; render: (x: Ctx) =>
   topics: { title: 'Learn', render: (x) => <Topics state={x.state} /> },
   library: { title: 'Library', render: (x) => <Library state={x.state} update={x.update} /> },
   map: { title: 'Mind map', render: (x) => <Graph state={x.state} /> },
-  review: { title: 'Review', render: (x) => <Review state={x.state} /> },
   tutor: { title: 'Tutor', render: (x) => <Tutor state={x.state} /> },
   settings: { title: 'Settings', render: (x) => <Settings state={x.state} update={x.update} /> },
 };

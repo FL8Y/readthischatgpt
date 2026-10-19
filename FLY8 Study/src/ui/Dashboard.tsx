@@ -1,22 +1,17 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Text, View } from 'react-native';
 import type { AppState } from '../core/types';
 import { currentStreak, levelProgress, recommendNext, totalPoints, weakTopics } from '../core/mastery';
-import { countDueCards } from '../srs/store';
 import { Card, Header, Illustration, ListRow, PressableScale, ProgressRing, Screen, StatTile } from './kit';
 import { radius, space, useTheme } from './theme';
 
-type Go = (tab: 'study' | 'library' | 'review') => void;
+type Go = (tab: 'study' | 'library') => void;
 
 const greeting = (h: number) => (h < 5 ? 'Late night study' : h < 12 ? 'Good morning' : h < 18 ? 'Good afternoon' : 'Good evening');
 
 export function Dashboard({ state, go }: { state: AppState; go: Go }) {
   const { colors, type } = useTheme();
   const now = Date.now();
-  const [due, setDue] = useState(0);
-  useEffect(() => {
-    void countDueCards(Date.now()).then(setDue);
-  }, [state.events.length]);
   const tz = new Date(now).getTimezoneOffset();
   const points = totalPoints(state.events, now, tz);
   const lv = levelProgress(points);
@@ -53,14 +48,6 @@ export function Dashboard({ state, go }: { state: AppState; go: Go }) {
         <View style={{ flexDirection: 'row', gap: space.md }}>
           <StatTile icon="flame" value={String(streak)} label="day streak" tone="warning" />
           <StatTile icon="star" value={String(points)} label="points" />
-          <PressableScale
-            accessibilityRole="button"
-            accessibilityLabel={`${due} cards due. Open Review`}
-            onPress={() => go('review')}
-            style={{ flex: 1, minWidth: 0 }}
-          >
-            <StatTile icon="layers" value={String(due)} label="cards due" tone="success" />
-          </PressableScale>
         </View>
 
         <Card>

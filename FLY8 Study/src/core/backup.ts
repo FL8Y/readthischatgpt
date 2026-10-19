@@ -10,14 +10,13 @@ export interface BackupSummary {
   events: number;
 }
 
-/** Data kept outside AppState (own storage keys): lessons, flashcards + reviews, tutor chat. */
+/** Data kept outside AppState (own storage keys): lessons, tutor chat. An old backup's 'srs' (flashcards) key is ignored on import. */
 export interface Extras {
   lessons?: unknown;
-  srs?: unknown;
   tutor?: unknown;
 }
 
-export const EXTRA_KEYS = ['lessons', 'srs', 'tutor'] as const;
+export const EXTRA_KEYS = ['lessons', 'tutor'] as const;
 
 export type BackupResult =
   | { ok: true; state: AppState; summary: BackupSummary; extras: Extras }

@@ -67,8 +67,8 @@ describe('applyImport', () => {
   });
 });
 
-describe('backup extras (lessons, flashcards, tutor chat)', () => {
-  const extras = { lessons: { t1: { explanation: 'x' } }, srs: { cards: [] }, tutor: { messages: [] } };
+describe('backup extras (lessons, tutor chat)', () => {
+  const extras = { lessons: { t1: { explanation: 'x' } }, tutor: { messages: [] } };
 
   it('round-trips extras through export and validate, and never exports the key', () => {
     const state = { ...emptyState(), settings: { ...emptyState().settings, apiKey: 'sk-secret' } };
@@ -88,5 +88,15 @@ describe('backup extras (lessons, flashcards, tutor chat)', () => {
     expect(pickExtras(undefined)).toEqual({});
     const r = validateBackup(exportJson(emptyState()));
     expect(r.ok && r.extras).toEqual({});
+  });
+
+  it('imports an old backup that still contains flashcards (srs) and ignores them', () => {
+    const old = JSON.stringify({ ...emptyState(), extras: { ...extras, srs: { cards: [{ id: 'c1', front: 'a', back: 'b' }], reviews: [] } } });
+    const r = validateBackup(old);
+    expect(r.ok).toBe(true);
+    if (r.ok) {
+      expect(r.extras).toEqual(extras);
+      expect((r.extras as Record<string, unknown>).srs).toBeUndefined();
+    }
   });
 });

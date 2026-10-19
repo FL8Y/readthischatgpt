@@ -86,7 +86,7 @@ export function Settings({ state, update }: { state: AppState; update: (s: AppSt
           <View style={{ gap: sp.sm }} accessibilityLiveRegion="polite">
             <Pill text="Looks valid" color={c.good} />
             <P>
-              Found {checked.summary.topics} topics, {checked.summary.sources} sources, {checked.summary.events} answers{Object.keys(checked.extras).length ? ', plus lessons, cards and chat' : ''}.
+              Found {checked.summary.topics} topics, {checked.summary.sources} sources, {checked.summary.events} answers{Object.keys(checked.extras).length ? ', plus lessons and chat' : ''}.
               Importing replaces what is on this phone now.
             </P>
             <Btn label="Replace my data with this backup" kind="danger" onPress={confirmImport} />
