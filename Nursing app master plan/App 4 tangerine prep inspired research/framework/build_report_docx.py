@@ -173,7 +173,7 @@ T(['Feature', 'What it does (observed unless marked)'], [
  ['Cheat sheets / library', 'Condensed PNLE notes; a library of your own materials with folders, sources, search and AI refine.'],
  ['AI tutor "Cleo"', 'Ask-Cleo with streaming answers, voice transcription, usage limits and visuals (endpoints under /sessions/ask-cleo/v2/).'],
  ['Diagnostics and reports', 'Diagnostic test, passing-estimate and passing-probability with history and rank neighbours, a Bloom-level exam report with a premium tier.'],
- ['Social', 'Friends, groups, direct messages, school leaderboards, study rooms with voice, a "townhall" community, and a PNLE results lookup/celebration feature.'],
+ ['Social', 'Friends, groups, direct messages, study rooms with voice (the deeper pass found no leaderboard list; see the Complete Guide), a "townhall" community, and a PNLE results lookup/celebration feature.'],
  ['Battles', 'Duel and Royale modes with speed and streak bonuses, a ladder from Student II up to Apex Topnotcher, and 90-day seasons.'],
  ['Gamification', 'Streak days on a Manila-time day clock, a daily goal, and "energy" (free tier capped at 20). There is no XP counter and no spendable currency despite the tangerine branding.'],
  ['Offline mode', 'Chunked SQLite bundle (/offline/bundle/manifest and chunks) with an outbox table for later sync.'],

@@ -42,6 +42,10 @@ You are the project manager for an **original Nursing Study App** for nursing-li
 **Preset content already in the repo**
 - PNLE deck topic hierarchy (7 subjects, 637 nested topic folders): [nursing preset topics](https://github.com/FL8Y/readthischatgpt/tree/main/Nursing%20app%20master%20plan/nursing%20preset%20topics). It is a folder scaffold only, not imported question content.
 
+### 3a. Tangerine Prep complete guide (every feature, UI, code)
+- A 92-page guide to how every part of Tangerine Prep works (practice player, results, history, my stats, diagnostic, learning path, cheat sheets, case studies, flashcards, AI tutor Cleo, library, pre-built content, paywall, buttons and navigation, social and battles, UI design system, client-side functions) plus a tested TypeScript client kit (16/16 tests): [Tangerine Prep Complete Guide](https://github.com/FL8Y/readthischatgpt/tree/main/Nursing%20app%20master%20plan/Tangerine%20Prep%20Complete%20Guide) (report: `Tangerine_Prep_Complete_Guide.docx`; per-area notes in `research/`).
+- It lists corrections to earlier notes (for example: no leaderboard list, case-study items have five types, settings live under Townhall).
+
 ### 3b. Content authoring (topics and questions)
 - A separate kit covers how topics and questions are represented and made in each reference app, with schemas, a validator that enforces the canonical PNLE Question Maker prompt's rules, a topic-tree builder for the 7-subject PNLE hierarchy (636 nested topics), and six companion prompts: [Content Authoring Kit](https://github.com/FL8Y/readthischatgpt/tree/main/Nursing%20app%20master%20plan/Content%20Authoring%20Kit) (report: `Content_Authoring_and_Prompt_Reference.docx`). 11/11 tests pass; sample items are original and marked `needs_review`.
 - Correction to earlier wording: Tangerine's exam assistant curates existing questions; it does not write new ones. Its library feature can generate flashcards and questions from a user's own sources, with server-side prompts that were not visible.
