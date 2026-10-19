@@ -106,7 +106,7 @@ P('Source: Tanrinee_part1_of_3 … part3_of_3, three byte-split pieces of one fi
 
 H('1. Summary')
 B([
- ('What it is. ', 'A mobile exam-prep app for the Philippine Nurse Licensure Examination (PNLE; NCLEX also mentioned), with AI practice questions, mock board exams, an adaptive exam, NCLEX-style case studies, flashcards, a study planner, an AI tutor persona called Cleo, battles between friends, social groups, streaks and a paid tier.'),
+ ('What it is. ', 'A mobile exam-prep app for the Philippine Nurse Licensure Examination (PNLE; NCLEX also mentioned), with AI-curated practice sets, mock board exams, an adaptive exam, NCLEX-style case studies, flashcards, a study planner, an AI tutor persona called Cleo, battles between friends, social groups, streaks and a paid tier.'),
  ('How it is built. ', 'An Expo SDK 54 / React Native app. Almost all logic is a Hermes v96 bytecode bundle (9.6 MB). This version was fully decompiled to readable pseudo-JavaScript (56 MB), so unlike the Gizmo report, real code paths could be followed.'),
  ('Where the brains are. ', 'Question scoring, adaptive selection, spaced repetition, ranking and AI generation are all on the server (a Django-style REST API on Railway). The app is a client that sends answers and renders results; the formulas are not in the APK.'),
  ('What to take from it. ', 'Section 9 turns the findings into a feature blueprint for your nursing app: content taxonomy, item types, practice modes, energy and streak mechanics, offline mode and pricing structure. Section 10 delivers a tested TypeScript engine for scoring, adaptive selection, streaks and a free-tier cap.'),
@@ -165,8 +165,8 @@ P('Design points worth copying (observed): base-URL failover, a token-refresh ca
 H('6. How the learning features work')
 T(['Feature', 'What it does (observed unless marked)'], [
  ['Content taxonomy', 'PNLE content is organised NP1–NP5, each split into practice area > topic > TOS (table of specifications) section. Endpoints /practice-areas/ and /tos/question-structure/ supply the tree.'],
- ['Practice modes', 'Custom (choose areas and count), AI (Cleo generates questions), Mock Board, Adaptive Exam (a learner model called "Chev"), and a coaching waitlist pilot.'],
- ['Case studies', 'NCLEX-style items: mcq, sata (select all that apply), matrix, highlight and cloze, scored in credits (partial credit).'],
+ ['Practice modes', 'Custom (choose areas and count), AI (Cleo curates a set from the existing question bank; it does not write new exam questions), Mock Board, Adaptive Exam (a learner model called "Chev"), and a coaching waitlist pilot.'],
+ ['Case studies', 'Pre-authored cases served from /situations/v2/. Their items are mcq, sata (select all that apply), matrix, highlight, cloze and free_response, scored in credits with partial credit. Ordinary practice questions are single-select only.'],
  ['Rationales', 'Every question carries a rationale; there is a rationale-video lab screen for video explanations.'],
  ['Flashcards', 'Folders, packs, a card editor and shared decks. Review uses four buttons (again / hard / good / easy); the SRS is server-side. A review-undo endpoint exists.'],
  ['Study planner', '/study-plan/v2/ status, calendar, events and rebalance: it builds a schedule to the exam date and can rebalance it when you fall behind (algorithm server-side).'],
