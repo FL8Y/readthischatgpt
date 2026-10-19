@@ -10,7 +10,6 @@ import { tutorRequest } from '../src/tutor/prompt';
 import { lessonPrompt } from '../src/lesson/lesson';
 import { composeManualPrompt } from '../src/ai/manual';
 import { verificationPrompt } from '../src/core/provenance';
-import { cardsRequest } from '../src/srs/cards';
 import { pnleModuleQuizRequest, pnlePopQuizRequest } from '../src/pnle/requests';
 import type { AppState, Question, Topic } from '../src/core/types';
 
@@ -56,7 +55,6 @@ const BUDGET: Record<string, [number, () => string]> = {
   manualJson: [76, () => composeManualPrompt({ system: '', user: '' }, { expect: 'json' })],
   manualMarkdown: [62, () => composeManualPrompt({ system: '', user: '' }, { expect: 'markdown' })],
   verificationSys: [62, () => verificationPrompt(['x']).system],
-  cardsSys: [86, () => cardsRequest(st, topic, 5, now).system],
   pnlePopSys: [2758, () => pnlePopQuizRequest(st, topic, 3, now, []).system],
   pnleModuleSys: [2916, () => pnleModuleQuizRequest(st, [topic], bp, now, []).system],
 };
