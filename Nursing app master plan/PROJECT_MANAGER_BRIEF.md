@@ -94,6 +94,7 @@ Research notes, data extracts and the repeatable method are in each folder's `re
 6. A list of anything in the research you consider weak or unverified, with the cheapest way to verify it.
 
 ### 9. Where to read first
+0. [Master Links Index](https://github.com/FL8Y/readthischatgpt/blob/main/Nursing%20app%20master%20plan/MASTER_LINKS_INDEX.md): every report, folder, code module, preset topic, question prompt and notes project, with status and what is still missing.
 1. [Nursing app master plan README](https://github.com/FL8Y/readthischatgpt/tree/main/Nursing%20app%20master%20plan)
 2. [Blueprint index](https://github.com/FL8Y/readthischatgpt/blob/main/Nursing%20app%20master%20plan/App%20Master%20Plan%20Blue%20Print/README.md), the authoritative planning control center (architect plan, requirements R-001 to R-034, technical contracts, roadmap, QA, decision log)
 3. The three reports in section 2, then the code in section 4.
