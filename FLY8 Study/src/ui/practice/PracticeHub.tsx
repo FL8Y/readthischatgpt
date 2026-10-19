@@ -21,6 +21,11 @@ export interface PracticeHubProps {
   onDiscardSaved: () => void;
   onHistory: () => void;
   onAi: () => void;
+  /** Start an adaptive exam for one NP area or all of them. */
+  onAdaptive: (scope: Area | 'ALL') => void;
+  onPath: () => void;
+  /** One line under 'Learning path', e.g. the exam countdown. */
+  pathDetail?: string;
 }
 
 /** Practice tab landing: pick how to practice. Counts are live from the bank. */
@@ -31,6 +36,11 @@ export function PracticeHub(p: PracticeHubProps) {
   const [mockArea, setMockArea] = useState<Area>('NP1');
   const [mockOpen, setMockOpen] = useState(false);
   const [aiOpen, setAiOpen] = useState(false);
+  const [adaptiveOpen, setAdaptiveOpen] = useState(false);
+  const [adaptiveScope, setAdaptiveScope] = useState<Area | 'ALL'>('ALL');
+  const adaptiveAvailable = adaptiveScope === 'ALL'
+    ? NP_AREAS.reduce((n, a) => n + (stats.byArea[a] ?? 0), 0)
+    : stats.byArea[adaptiveScope] ?? 0;
   const empty = stats.total === 0;
 
   return (
@@ -118,6 +128,27 @@ export function PracticeHub(p: PracticeHubProps) {
               <Btn label={`Start ${mockArea} mock`} disabled={(stats.byArea[mockArea] ?? 0) === 0} onPress={() => p.onStart({ kind: 'mock', area: mockArea })} />
             </View>
           ) : null}
+          <Divider />
+          <ListRow
+            icon="pulse-outline"
+            title="Adaptive exam"
+            detail="Questions follow your level. 25 to 75 questions, answers at the end"
+            onPress={() => setAdaptiveOpen(!adaptiveOpen)}
+            disabled={empty}
+            trailing={<Chip text={adaptiveOpen ? 'Hide' : 'Set up'} />}
+          />
+          {adaptiveOpen ? (
+            <View style={{ gap: space.md, paddingBottom: space.md }}>
+              <ChoiceChips options={['ALL', ...NP_AREAS] as (Area | 'ALL')[]} value={adaptiveScope} onChange={setAdaptiveScope} label="Adaptive exam area" />
+              <Text style={[type('caption'), { color: colors.textDim }]}>
+                Each answer moves your level up or down and the next question is picked to match it. It ends once the estimate is steady.
+                {adaptiveScope === 'ALL' ? ' All five NP areas are mixed.' : ''} A rough estimate, not a pass prediction.
+              </Text>
+              <Btn label="Start adaptive exam" disabled={adaptiveAvailable === 0} onPress={() => p.onAdaptive(adaptiveScope)} />
+            </View>
+          ) : null}
+          <Divider />
+          <ListRow icon="calendar-outline" title="Learning path" detail={p.pathDetail ?? 'Daily tasks and exam countdown'} onPress={p.onPath} />
           <Divider />
           <ListRow icon="time-outline" title="History" detail="Past sessions and results" onPress={p.onHistory} />
         </Card>
