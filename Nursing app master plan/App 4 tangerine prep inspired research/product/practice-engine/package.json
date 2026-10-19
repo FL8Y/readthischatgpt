@@ -1,0 +1,1 @@
+{ "name": "practice-engine", "private": true, "type": "module", "scripts": { "test": "node --experimental-strip-types --test test/engine.test.ts" } }
