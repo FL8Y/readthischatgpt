@@ -1,0 +1,2199 @@
+{
+ "version": 1,
+ "scanRules": {
+  "matching": "A scanner lowercases the item text (vignette, stem, options, rationale) and checks each keyword as a whole word or phrase (word boundaries, not inside other words). severity 'high': one keyword hit flags the item. severity 'medium' or 'low': at least 2 different keywords of the same entry must hit.",
+  "onHit": "A flagged item must be fixed according to the entry guidance, or carry a visible 'check textbook' flag. 'do not use' means rewrite so the item does not depend on the claim at all.",
+  "neverDo": "Do not replace a doubtful claim by a fact from memory. Where the correction is unsure, the item must stay silent on it and say 'verify in current textbook/official source'.",
+  "caveat": "Keywords are heuristics. A hit is a reason to look, not proof of an error. All preset notes are AI-written and not nurse-reviewed.",
+  "guidanceValues": [
+   "do not use",
+   "avoid numbers",
+   "ask about priority not value",
+   "flag check textbook"
+  ],
+  "severityValues": [
+   "high",
+   "medium",
+   "low"
+  ]
+ },
+ "entries": [
+  {
+   "id": "law-ra-6173-vs-6713",
+   "noteIds": [
+    "gen-pl-ph-laws-nursing",
+    "gen-pl-x-laws-health-system-drugs"
+   ],
+   "keywords": [
+    "ra 6173",
+    "republic act 6173",
+    "republic act no. 6173"
+   ],
+   "claim": "The preset note cites RA 6173 for the public officials code of conduct; the note itself says this is probably RA 6713. Verify in current textbook/official source; never put either number in a stem or key.",
+   "guidance": "do not use",
+   "severity": "high"
+  },
+  {
+   "id": "law-eo-2009-family-code",
+   "noteIds": [
+    "gen-pl-ph-laws-nursing",
+    "gen-pl-x-laws-mother-child-elderly"
+   ],
+   "keywords": [
+    "e0 2009",
+    "eo 2009",
+    "executive order 2009",
+    "executive order no. 2009"
+   ],
+   "claim": "The handout writes 'E0 2009' for the Family Code; probably Executive Order 209. Verify in current textbook/official source before any item names it.",
+   "guidance": "do not use",
+   "severity": "high"
+  },
+  {
+   "id": "law-ra-10352-vs-10351",
+   "noteIds": [],
+   "keywords": [
+    "ra 10352",
+    "ra 10351",
+    "republic act 10352",
+    "republic act 10351",
+    "republic act no. 10352",
+    "republic act no. 10351"
+   ],
+   "claim": "The source material mixed up RA 10352 and RA 10351. Do not write items that depend on either number or on which law it names; verify in current textbook/official source.",
+   "guidance": "do not use",
+   "severity": "high"
+  },
+  {
+   "id": "doh-ao-2007-0012-superseded",
+   "noteIds": [],
+   "keywords": [
+    "ao 2007-0012",
+    "ao no. 2007-0012",
+    "administrative order 2007-0012",
+    "administrative order no. 2007-0012"
+   ],
+   "claim": "AO 2007-0012 is superseded in the source material. Do not use it as a current policy; verify in current textbook/official source.",
+   "guidance": "do not use",
+   "severity": "high"
+  },
+  {
+   "id": "doh-eo-352-unresolved",
+   "noteIds": [],
+   "keywords": [
+    "eo 352",
+    "e.o. 352",
+    "executive order 352",
+    "executive order no. 352"
+   ],
+   "claim": "EO 352 was left unresolved (unclear what it covers or whether it is current). Do not use; verify in current textbook/official source.",
+   "guidance": "do not use",
+   "severity": "high"
+  },
+  {
+   "id": "handout-p101-unreadable-drug",
+   "noteIds": [],
+   "keywords": [
+    "page 101",
+    "p. 101",
+    "p.101",
+    "handout page 101"
+   ],
+   "claim": "One drug name on handout page 101 could not be read. Do not write items about any drug whose name was reconstructed from that page; verify in current textbook/official source.",
+   "guidance": "do not use",
+   "severity": "high"
+  },
+  {
+   "id": "antidote-cyanide",
+   "noteIds": [
+    "gen-ph-x-antidotes"
+   ],
+   "keywords": [
+    "cyanide",
+    "cyanide poisoning",
+    "hydroxocobalamin",
+    "sodium nitrite",
+    "sodium thiosulfate",
+    "amyl nitrite"
+   ],
+   "claim": "The handout antidote table does not cover cyanide and the antidote list is dated in places. Verify in current textbook/official source; ask about airway and breathing priority rather than the antidote.",
+   "guidance": "avoid numbers",
+   "severity": "high"
+  },
+  {
+   "id": "antidote-tca-overdose",
+   "noteIds": [
+    "gen-ph-x-antidotes",
+    "np5-x-tca-ssri-drugs"
+   ],
+   "keywords": [
+    "tca overdose",
+    "tricyclic overdose",
+    "tca poisoning",
+    "tricyclic antidepressant overdose",
+    "amitriptyline overdose"
+   ],
+   "claim": "Antidote and management for tricyclic overdose is not reliably given in the handout and older teaching may be outdated. Verify in current textbook/official source; ask about monitoring and airway priority.",
+   "guidance": "flag check textbook",
+   "severity": "high"
+  },
+  {
+   "id": "antidote-acetylcysteine-nac",
+   "noteIds": [
+    "gen-ph-mucolytic",
+    "gen-ph-x-antidotes"
+   ],
+   "keywords": [
+    "acetylcysteine",
+    "n-acetylcysteine",
+    "nac",
+    "acetaminophen overdose",
+    "acetaminophen toxicity",
+    "paracetamol overdose"
+   ],
+   "claim": "The handout lists acetylcysteine only as a use, not as a full antidote protocol, and regimens differ by source. Verify in current textbook/official source; no doses or protocol timing in items.",
+   "guidance": "flag check textbook",
+   "severity": "high"
+  },
+  {
+   "id": "antidote-table-pairs",
+   "noteIds": [
+    "gen-ph-x-antidotes"
+   ],
+   "keywords": [
+    "phentolamine",
+    "protamine sulfate",
+    "aminocaproic acid",
+    "digoxin immune fab",
+    "pralidoxime",
+    "vitamin k antidote"
+   ],
+   "claim": "Antidote pairs come from one handout list. Phentolamine for MAOI crisis is listed there but not standard everywhere. Verify pairs in current textbook/official source; avoid reversal doses.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "digoxin-level-range",
+   "noteIds": [
+    "gen-ph-digoxin",
+    "gen-ph-x-antidotes",
+    "gen-ph-x-levels"
+   ],
+   "keywords": [
+    "digoxin level",
+    "digoxin toxicity",
+    "therapeutic range",
+    "0.5 to 2.0",
+    "0.5-2.0",
+    "mg/ml"
+   ],
+   "claim": "The handout digoxin range reads like a unit slip. Do not state a range or unit; ask about recognising toxicity and holding the drug instead.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "hiv-cause-transmission-missing",
+   "noteIds": [
+    "np1-cd-hiv"
+   ],
+   "keywords": [
+    "hiv transmission",
+    "transmission of hiv",
+    "modes of transmission of hiv",
+    "cause of aids",
+    "causative agent of hiv",
+    "how hiv is spread",
+    "hiv/aids"
+   ],
+   "claim": "HIV cause and transmission text is missing from the communicable disease handout, so the note rests on general knowledge, and an older line on breastfeeding in AIDS is outdated per the nutrition note. Verify in current textbook/official source; avoid current national policy claims.",
+   "guidance": "flag check textbook",
+   "severity": "high"
+  },
+  {
+   "id": "antidiabetic-section-missing",
+   "noteIds": [
+    "gen-ph-antidiabetic",
+    "np4-ge-oral-antidiabetics"
+   ],
+   "keywords": [
+    "sulfonylurea",
+    "metformin",
+    "glipizide",
+    "glyburide",
+    "glimepiride",
+    "acarbose",
+    "pioglitazone",
+    "repaglinide",
+    "nateglinide",
+    "dpp-4",
+    "oral antidiabetic",
+    "oral hypoglycemic"
+   ],
+   "claim": "The antidiabetic drug section is missing from the pharmacology handout, so drug lists and cautions in the notes rest on general knowledge. Verify in current textbook/official source; no doses.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "standard-days-method-reversed",
+   "noteIds": [
+    "np1-g-fp-natural",
+    "np1-reproductive-health-fp"
+   ],
+   "keywords": [
+    "standard days method",
+    "standard days",
+    "cycle beads",
+    "26 to 32 days",
+    "26-32 days"
+   ],
+   "claim": "The handout states the Standard Days Method cannot be used with cycles of 26 to 32 days, which the note flags as reversed. The fertile-day window is standard teaching, not from the handout. Verify in current textbook/official source before using any cycle length or day range.",
+   "guidance": "flag check textbook",
+   "severity": "high"
+  },
+  {
+   "id": "rule-of-nines-children",
+   "noteIds": [
+    "np3-er-burn-size-depth",
+    "np3-er-burned-child",
+    "np5-burns-rule-of-nines"
+   ],
+   "keywords": [
+    "rule of nines in children",
+    "pediatric rule of nines",
+    "child rule of nines",
+    "rule of nines for a child",
+    "lund and browder",
+    "burned child"
+   ],
+   "claim": "The handout child percentages look garbled (they should add to about 100 and the trunk split is unclear). Avoid child body-surface percentages; ask about priority (airway, fluids, burn centre referral) instead; verify in current textbook/official source.",
+   "guidance": "avoid numbers",
+   "severity": "high"
+  },
+  {
+   "id": "rule-of-nines-adult",
+   "noteIds": [
+    "np3-er-burn-size-depth",
+    "np5-burns-rule-of-nines"
+   ],
+   "keywords": [
+    "rule of nines",
+    "tbsa",
+    "total body surface area",
+    "body surface area burned"
+   ],
+   "claim": "Adult Rule of Nines is standard teaching but regional percentages differ in some sources. Flag check textbook if an item depends on a specific percentage.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "burn-diet-numbers",
+   "noteIds": [
+    "np3-er-burn-pain-nutrition",
+    "np5-burns-pain-infection-nutrition"
+   ],
+   "keywords": [
+    "burn",
+    "calories",
+    "kcal",
+    "protein",
+    "high-calorie",
+    "high-protein",
+    "nutritional requirement"
+   ],
+   "claim": "Calorie and protein targets for burns in the handout are very high and unconfirmed. Do not state numbers; ask whether a high-calorie, high-protein diet is indicated.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "burn-fluid-formulas",
+   "noteIds": [
+    "np3-er-burn-fluids",
+    "np5-burns-other-management",
+    "np5-burns-rule-of-nines"
+   ],
+   "keywords": [
+    "parkland",
+    "brooke",
+    "consensus formula",
+    "modified brooke",
+    "ml/kg/%tbsa",
+    "lactated ringer",
+    "first 24 hours"
+   ],
+   "claim": "Fluid formulas, volumes, urine output targets and colloid timing differ by source. Avoid numbers; ask which phase or which priority comes first.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "burn-phases-sodium-labs",
+   "noteIds": [
+    "np3-er-burn-phases",
+    "np3-er-x-burn-phase-compare",
+    "np5-burns-phases"
+   ],
+   "keywords": [
+    "emergent phase",
+    "acute phase",
+    "rehabilitative phase",
+    "hyponatremia",
+    "hyperkalemia",
+    "burn phase"
+   ],
+   "claim": "The handout says sodium is low in both emergent and acute phases, and phase names and timing vary by book. Flag check textbook.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "burn-degrees-terms",
+   "noteIds": [
+    "np3-er-burn-size-depth",
+    "np5-burns-degrees"
+   ],
+   "keywords": [
+    "first degree",
+    "second degree",
+    "third degree",
+    "superficial partial",
+    "deep partial",
+    "full thickness",
+    "superficial burn"
+   ],
+   "claim": "The handout equates first degree with superficial partial thickness and second with deep partial, unlike many books. Use one consistent term set and flag check textbook.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "burn-antimicrobials",
+   "noteIds": [
+    "np3-er-burn-topicals",
+    "np5-burns-antimicrobials"
+   ],
+   "keywords": [
+    "silver sulfadiazine",
+    "silvadene",
+    "mafenide",
+    "sulfamylon",
+    "silver nitrate",
+    "bactericidal"
+   ],
+   "claim": "The handout calls silver sulfadiazine most bactericidal and gives a doubtful TBSA limit for mafenide. Flag check textbook; no concentrations or limits.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "maoi-diet-tyramine",
+   "noteIds": [
+    "gen-ph-antidep",
+    "np5-x-maoi-atypical"
+   ],
+   "keywords": [
+    "maoi",
+    "tyramine",
+    "aged cheese",
+    "beer",
+    "wine",
+    "hypertensive crisis"
+   ],
+   "claim": "The handout beer allowance for MAOI diets is doubtful. Ask which foods to avoid in general, never an allowed quantity; verify in current textbook/official source.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "lithium-range-and-level",
+   "noteIds": [
+    "gen-ph-lithium",
+    "gen-ph-x-levels",
+    "np5-pc-lithium-toxicity",
+    "np5-pd-lithium-therapy"
+   ],
+   "keywords": [
+    "lithium level",
+    "serum lithium",
+    "lithium range",
+    "lithium toxicity level",
+    "therapeutic lithium",
+    "1.5 meq"
+   ],
+   "claim": "Lithium target ranges differ between books and the handout salt-intake line is a typo. Do not give a numeric range; ask about the priority action when toxicity signs appear or when to draw the level. Verify in current textbook/official source.",
+   "guidance": "ask about priority not value",
+   "severity": "high"
+  },
+  {
+   "id": "lithium-fluids-salt-mannitol",
+   "noteIds": [
+    "np5-antidepressants-stabilizers",
+    "np5-pd-lithium-therapy"
+   ],
+   "keywords": [
+    "lithium",
+    "sodium intake",
+    "salt intake",
+    "fluid intake",
+    "mannitol"
+   ],
+   "claim": "Handout says 'salt intake 2-3 L/day' (clear typo) and mannitol for toxicity is not standard in most sources. Ask only that sodium and fluid intake stay steady.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "tos-np-area-labels-unofficial",
+   "noteIds": [
+    "np5-psychiatric-overview"
+   ],
+   "keywords": [
+    "table of specification",
+    "table of specifications",
+    "tos",
+    "np1 covers",
+    "np2 covers",
+    "np3 covers",
+    "np4 covers",
+    "np5 covers",
+    "percent of the exam",
+    "weight of the exam"
+   ],
+   "claim": "NP1-NP5 area labels and TOS weights in the notes and prompts are unofficial, from second-hand summaries; exam weighting is UNKNOWN. Never state percentages or claim what the board 'tests most'.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "im-site-ventrogluteal",
+   "noteIds": [
+    "gen-fb-im-iv-admin"
+   ],
+   "keywords": [
+    "ventrogluteal",
+    "dorsogluteal",
+    "im injection site",
+    "intramuscular site",
+    "sciatic"
+   ],
+   "claim": "The handout lists both gluteal sites without comment; newer guidance often prefers ventrogluteal. Avoid items that depend on which site is 'best'.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "pediatric-dose-rules",
+   "noteIds": [
+    "gen-fb-dosage-calc"
+   ],
+   "keywords": [
+    "fried's rule",
+    "young's rule",
+    "clark's rule",
+    "dosage calculation",
+    "pediatric dose",
+    "body surface area dose"
+   ],
+   "claim": "Which infant dose rule a school expects differs; the handout gives Fried's rule in months. Avoid rule-based answers; calc items must supply their own formula.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "iv-solution-tonicity",
+   "noteIds": [
+    "gen-fb-iv-solutions"
+   ],
+   "keywords": [
+    "d5w",
+    "d5ns",
+    "d5lr",
+    "hypertonic",
+    "hypotonic",
+    "isotonic",
+    "dextrose in saline"
+   ],
+   "claim": "The handout labels dextrose-in-saline mixes hypertonic; D5W is isotonic in the bag but acts like free water. Flag check textbook; avoid classification-only items.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "air-embolism-position",
+   "noteIds": [
+    "gen-fb-iv-complications"
+   ],
+   "keywords": [
+    "air embolism",
+    "left side lying",
+    "trendelenburg",
+    "left lateral"
+   ],
+   "claim": "The handout gives only left side lying for air embolism; many books add Trendelenburg. Ask for the first nursing action, not the exact position.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "disinfectant-spectrum",
+   "noteIds": [
+    "gen-fb-nosocomial-disinfection"
+   ],
+   "keywords": [
+    "disinfectant",
+    "alcohol",
+    "spores",
+    "sporicidal",
+    "sterilant",
+    "glutaraldehyde",
+    "bleach"
+   ],
+   "claim": "The handout lists nearly every agent as killing everything, which is oversimplified (for example alcohol does not kill spores). Do not write 'kills all' statements.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "transmission-precaution-groupings",
+   "noteIds": [
+    "gen-fb-transmission-precautions",
+    "gen-fb-x-precaution-type-decision"
+   ],
+   "keywords": [
+    "droplet precautions",
+    "airborne precautions",
+    "contact precautions",
+    "chickenpox",
+    "rubella",
+    "hepatitis a",
+    "measles",
+    "mumps"
+   ],
+   "claim": "Disease groupings under droplet, airborne and contact precautions differ between texts (e.g. hepatitis A, rubella, chickenpox). Use clear-cut examples only.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "waste-color-code",
+   "noteIds": [
+    "gen-fb-waste-disposal",
+    "np1-waste-food-laws"
+   ],
+   "keywords": [
+    "color code",
+    "color-coded",
+    "yellow bag",
+    "black bag",
+    "red bag",
+    "biohazard",
+    "infectious waste"
+   ],
+   "claim": "Color schemes differ between agencies and the handout version may not match the DOH regulation. Avoid bag-color questions; verify in current textbook/official source.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "oxygen-percentages",
+   "noteIds": [
+    "gen-fb-oxygen-therapy"
+   ],
+   "keywords": [
+    "nasal cannula",
+    "simple mask",
+    "venturi",
+    "non-rebreather",
+    "fio2",
+    "oxygen percentage",
+    "l/min"
+   ],
+   "claim": "Oxygen delivery percentages are estimates and one handout figure was misread. Ask about device choice or priority, not the exact FiO2 or flow.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "ng-tube-placement-check",
+   "noteIds": [
+    "gen-fb-ng-insertion-check"
+   ],
+   "keywords": [
+    "nasogastric",
+    "ng tube",
+    "auscultation",
+    "air injection",
+    "x-ray confirmation",
+    "neck hyperextension",
+    "placement check"
+   ],
+   "claim": "Auscultation of injected air is no longer considered reliable alone (X-ray is the gold standard) and head positioning teaching differs. Flag check textbook.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "enema-types-details",
+   "noteIds": [
+    "gen-fb-enema-types"
+   ],
+   "keywords": [
+    "retention enema",
+    "hypertonic enema",
+    "hypotonic enema",
+    "isotonic enema",
+    "enema solution",
+    "enema retain"
+   ],
+   "claim": "Retention time ('13 hours') is probably wrong and the handout gives the same details for different solutions. Avoid times and volumes; ask about safety (children, kidney clients).",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "oliguria-threshold",
+   "noteIds": [
+    "gen-fb-urine-problems"
+   ],
+   "keywords": [
+    "oliguria",
+    "urine output",
+    "30 ml/hr",
+    "30 ml per hour",
+    "ml/hour"
+   ],
+   "claim": "The handout oliguria threshold reads 'greater than 30 ml/hr', almost certainly a typo for less than. Ask about the nursing action for low urine output, not the cut-off.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "transfusion-reaction-timing",
+   "noteIds": [
+    "gen-fb-transfusion-reactions",
+    "gen-fb-x-transfusion-reaction-sorting"
+   ],
+   "keywords": [
+    "transfusion reaction",
+    "febrile reaction",
+    "hemolytic reaction",
+    "allergic reaction transfusion",
+    "circulatory overload",
+    "trali"
+   ],
+   "claim": "The handout does not give timing of each reaction or drug names. Ask about the first action (stop the transfusion, keep line open, notify), not timing or doses.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "bone-marrow-site-and-cells",
+   "noteIds": [
+    "gen-fc-marrow"
+   ],
+   "keywords": [
+    "bone marrow",
+    "iliac crest",
+    "aplastic anemia",
+    "lymphadenoma",
+    "lymphosarcoma",
+    "neutrophil"
+   ],
+   "claim": "The handout pediatric site is unusual and lists older disease terms and cell patterns. Flag check textbook.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "license-revocation-reissue",
+   "noteIds": [
+    "gen-pl-revocation-illegal-dismissal",
+    "gen-pl-x-appeal-routes"
+   ],
+   "keywords": [
+    "revoked license",
+    "license revoked",
+    "revocation of license",
+    "reissue of license",
+    "re-issue of license"
+   ],
+   "claim": "The handout contradicts itself on whether a revoked license can be reissued (permanent versus after four years). Do not write items on this; verify in current textbook/official source.",
+   "guidance": "do not use",
+   "severity": "high"
+  },
+  {
+   "id": "nursing-act-appeal-period",
+   "noteIds": [
+    "gen-pl-nursing-act-appeals",
+    "gen-pl-x-appeal-routes"
+   ],
+   "keywords": [
+    "appeal",
+    "30 days",
+    "thirty days",
+    "section 15",
+    "prc decision",
+    "repealed"
+   ],
+   "claim": "The 30-day appeal period, the Section 15 citation and what the law repealed need confirmation. Avoid periods and section numbers.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "law-ra-2382-text",
+   "noteIds": [
+    "gen-pl-ph-laws-nursing",
+    "gen-pl-x-laws-health-system-drugs"
+   ],
+   "keywords": [
+    "ra 2382",
+    "republic act 2382"
+   ],
+   "claim": "The RA 2382 line in the handout has stray text copied from the RA 3573 line and a duplicate RA 9211 entry. Do not use; verify in current textbook/official source.",
+   "guidance": "do not use",
+   "severity": "high"
+  },
+  {
+   "id": "law-pd-996-age",
+   "noteIds": [
+    "gen-pl-ph-laws-nursing",
+    "gen-pl-x-laws-disease-sanitation",
+    "np1-epi-overview"
+   ],
+   "keywords": [
+    "pd 996",
+    "presidential decree 996",
+    "pd996",
+    "pd no. 996"
+   ],
+   "claim": "PD 996 is quoted with children 'below 8 years'; the age needs confirmation. Do not use the age or the decree number; verify in current textbook/official source.",
+   "guidance": "do not use",
+   "severity": "high"
+  },
+  {
+   "id": "law-numbers-and-years-generic",
+   "noteIds": [
+    "gen-pl-ph-laws-nursing",
+    "gen-pl-x-laws-disease-sanitation",
+    "gen-pl-x-laws-health-system-drugs",
+    "gen-pl-x-laws-mother-child-elderly"
+   ],
+   "keywords": [
+    "republic act",
+    "ra no.",
+    "signed into law",
+    "enacted in",
+    "presidential decree",
+    "executive order",
+    "year it was passed"
+   ],
+   "claim": "Law numbers and years in the preset notes come from handouts and memory and are unverified. Ask what a law covers, never its number or year; verify in current textbook/official source.",
+   "guidance": "do not use",
+   "severity": "medium"
+  },
+  {
+   "id": "law-senior-citizen-discount",
+   "noteIds": [
+    "gen-pl-ph-laws-nursing",
+    "gen-pl-x-laws-mother-child-elderly"
+   ],
+   "keywords": [
+    "senior citizen",
+    "ra 7432",
+    "ra 9994",
+    "20% discount",
+    "discount for senior"
+   ],
+   "claim": "The elderly discount law may have been amended since the handout (which gives 20%). Avoid discount percentages and law numbers.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "criminal-responsibility-age",
+   "noteIds": [
+    "gen-pl-criminal-circumstances",
+    "gen-pl-x-alternative-circumstances"
+   ],
+   "keywords": [
+    "age of criminal responsibility",
+    "minimum age of criminal responsibility",
+    "exempting circumstance",
+    "exempting age",
+    "minor criminal liability"
+   ],
+   "claim": "Age cut-offs (9 years; below 18; above 70) come from the handout and Philippine law has been amended on minors. Do not state ages; verify in current textbook/official source.",
+   "guidance": "do not use",
+   "severity": "high"
+  },
+  {
+   "id": "consent-special-situations",
+   "noteIds": [
+    "gen-pl-advance-directives",
+    "gen-pl-x-consent-special-situations",
+    "np5-er-nursing-issues"
+   ],
+   "keywords": [
+    "consent for a minor",
+    "informed consent",
+    "refusal of care",
+    "sterilization consent",
+    "dnr order",
+    "advance directive"
+   ],
+   "claim": "Local rules for minors, sterilization consent, refusal of care and DNR signers are not in the handout. Ask about the principle (autonomy, who can consent), not legal procedure; verify in current textbook/official source.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "staffing-formula-days",
+   "noteIds": [
+    "gen-pl-staffing-formula",
+    "gen-pl-staffing-scheduling",
+    "gen-pl-x-staffing-worked-example"
+   ],
+   "keywords": [
+    "staffing formula",
+    "working days",
+    "non-working days",
+    "nursing hours per patient day",
+    "nhppd",
+    "1,704",
+    "213 working days"
+   ],
+   "claim": "The handout staffing table is garbled; rounding and the 365-day convention depend on the instructor. Calc items must supply every number and the method.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "patient-classification-ratios",
+   "noteIds": [
+    "gen-pl-x-patient-classification-levels"
+   ],
+   "keywords": [
+    "patient classification",
+    "55:45",
+    "60:40",
+    "staff ratio",
+    "classification level"
+   ],
+   "claim": "Hospital-type ratios in the handout appear as garbled text read as 55:45, 60:40. Avoid ratios; verify in the DOH manual.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "delegation-scope",
+   "noteIds": [
+    "gen-pl-delegation-responsibilities",
+    "gen-pl-supervision-staff-dev"
+   ],
+   "keywords": [
+    "delegate",
+    "delegation",
+    "practical nurse",
+    "nursing aide",
+    "scope of practice",
+    "unlicensed"
+   ],
+   "claim": "Scope for practical nurses and aides varies by agency and law. Ask about the delegation principle (stable, predictable tasks; the nurse keeps accountability), not named local rules.",
+   "guidance": "ask about priority not value",
+   "severity": "medium"
+  },
+  {
+   "id": "copar-principles-phases",
+   "noteIds": [
+    "np1-copar-phases",
+    "np1-copar-principles"
+   ],
+   "keywords": [
+    "copar",
+    "community organizing",
+    "pre-entry",
+    "core group",
+    "salt",
+    "hrdp",
+    "phases of copar"
+   ],
+   "claim": "Books name and group COPAR phases and principles differently (the handout puts SALT and core-group formation in the entry phase). Ask about order or purpose only when phase groupings agree; flag check textbook.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "doh-structure-and-laws",
+   "noteIds": [
+    "np1-doh"
+   ],
+   "keywords": [
+    "doh function",
+    "doh vision",
+    "devolution",
+    "reorganization",
+    "doh attached agencies",
+    "doh mission"
+   ],
+   "claim": "DOH vision, mission, number of functions, structure, attached agencies and reorganization/devolution laws change over time. Avoid; verify in current textbook/official source.",
+   "guidance": "do not use",
+   "severity": "medium"
+  },
+  {
+   "id": "family-problem-prioritization",
+   "noteIds": [
+    "np1-family-assessment",
+    "np1-family-planning"
+   ],
+   "keywords": [
+    "prioritization of family",
+    "family health problem",
+    "scale for ranking"
+   ],
+   "claim": "The numeric weights of the family health problem prioritization scale are not confirmed even by the note author. Avoid weights; ask about relative priority.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "prevention-levels-grouping",
+   "noteIds": [
+    "np1-levels-of-prevention",
+    "np1-three-levels-of-prevention"
+   ],
+   "keywords": [
+    "primary prevention",
+    "secondary prevention",
+    "tertiary prevention",
+    "health promotion",
+    "specific protection",
+    "disability limitation",
+    "prompt treatment"
+   ],
+   "claim": "Books group health promotion, specific protection, prompt treatment and disability limitation under different levels. Use only unambiguous examples.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "anti-smoking-law",
+   "noteIds": [
+    "np1-stop-smoking"
+   ],
+   "keywords": [
+    "ra 9211",
+    "smoke-free",
+    "graphic health warning",
+    "tobacco regulation",
+    "smoking ban"
+   ],
+   "claim": "Philippine anti-smoking provisions and public-program medicines are not confirmed in the note. Avoid provisions; verify in current textbook/official source.",
+   "guidance": "do not use",
+   "severity": "medium"
+  },
+  {
+   "id": "leprosy-infectious-type",
+   "noteIds": [
+    "np1-endemic-diseases"
+   ],
+   "keywords": [
+    "leprosy",
+    "multibacillary",
+    "paucibacillary",
+    "lepromatous",
+    "tuberculoid"
+   ],
+   "claim": "The handout calls lepromatous leprosy both 'not infectious' and 'infectious'; the multibacillary type is the infectious one. Keep to that wording; flag check textbook.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "animal-bite-wound-washing",
+   "noteIds": [
+    "np1-endemic-diseases"
+   ],
+   "keywords": [
+    "animal bite",
+    "rabies",
+    "wash the wound",
+    "10 to 15 minutes",
+    "post-exposure"
+   ],
+   "claim": "Wound-washing time and the animal-bite vaccine schedule are unconfirmed. Ask about the first action, not minutes or schedule.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "vital-statistics-formulas",
+   "noteIds": [
+    "np1-incidence-prevalence-pyramid",
+    "np1-vital-statistics",
+    "np1-x-epi-concepts"
+   ],
+   "keywords": [
+    "per 1,000",
+    "per 100,000",
+    "maternal mortality",
+    "case fatality",
+    "attack rate",
+    "dependency ratio",
+    "sex ratio",
+    "neonatal mortality"
+   ],
+   "claim": "Multipliers, rate versus ratio wording and dependency-ratio age cut-offs differ by text. Calc items must supply the formula and multiplier.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "epi-schedule-and-vaccines",
+   "noteIds": [
+    "np1-bcg-pentavalent",
+    "np1-epi-overview",
+    "np1-vaccine-principles",
+    "np1-x-epi-law-contraindications",
+    "np1-x-epi-schedule-table"
+   ],
+   "keywords": [
+    "pentavalent",
+    "epi schedule",
+    "fully immunized child",
+    "bcg",
+    "measles vaccine",
+    "hepatitis b vaccine",
+    "6, 10 and 14 weeks",
+    "opv"
+   ],
+   "claim": "The immunization schedule, vaccine list, dose pattern and fully-immunized definition in the handout are older than current national schedules. Ask about contraindications or nursing actions, not ages, intervals or dose counts; verify in current textbook/official source.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "cold-chain-temperatures",
+   "noteIds": [
+    "np1-cold-chain"
+   ],
+   "keywords": [
+    "cold chain",
+    "vaccine storage",
+    "freezer",
+    "vial monitor",
+    "vvm",
+    "shake test",
+    "open-vial",
+    "vaccine carrier",
+    "2 to 8"
+   ],
+   "claim": "Temperature ranges, shelf placement, carrier hold time and the open-vial policy are from general training, not the handout. Avoid numbers.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "mch-prenatal-imci-numbers",
+   "noteIds": [
+    "np1-g-maternal-prenatal-supplements",
+    "np1-mch-program"
+   ],
+   "keywords": [
+    "prenatal visit",
+    "imci",
+    "vitamin a",
+    "iron-folic",
+    "iron and folic acid",
+    "breathing rate",
+    "fast breathing"
+   ],
+   "claim": "The handout prenatal-visit pattern is older than DOH guidance, vitamin A in pregnancy is now handled cautiously, and IMCI cut-offs are unconfirmed. Ask about priority classification, not counts or cut-offs.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "family-planning-methods-doses",
+   "noteIds": [
+    "np1-g-fp-natural",
+    "np1-g-fp-permanent-hormonal",
+    "np1-reproductive-health-fp"
+   ],
+   "keywords": [
+    "family planning",
+    "pill",
+    "injectable",
+    "dmpa",
+    "iud",
+    "lam",
+    "bilateral tubal",
+    "vasectomy",
+    "natural family planning"
+   ],
+   "claim": "Methods the DOH provides, pill and injectable schedules and the day-count rules are unconfirmed. Avoid schedules and day counts.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "tetanus-toxoid-schedule",
+   "noteIds": [
+    "np1-tetanus-toxoid"
+   ],
+   "keywords": [
+    "tetanus toxoid",
+    "td vaccine",
+    "tt1",
+    "tt2",
+    "tt3",
+    "tt4",
+    "tt5",
+    "tig",
+    "booster"
+   ],
+   "claim": "Dose intervals, protection percentages, Td replacing TT and the adult booster rule are unconfirmed. Avoid intervals and percentages.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "einc-cord-clamping-timing",
+   "noteIds": [
+    "np1-einc-amtsl"
+   ],
+   "keywords": [
+    "cord clamping",
+    "delayed cord",
+    "amtsl",
+    "skin-to-skin",
+    "first embrace",
+    "unang yakap",
+    "vitamin k",
+    "bath delay"
+   ],
+   "claim": "Timing of cord clamping (handout differs from 1 to 3 minutes taught elsewhere), vitamin K, vaccines, bath delay and oxytocin dose vary. Ask about the sequence principle, not minutes or doses.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "newborn-screening-window",
+   "noteIds": [
+    "np1-newborn-screening"
+   ],
+   "keywords": [
+    "newborn screening",
+    "48 hours",
+    "24 hours",
+    "pku",
+    "g6pd",
+    "congenital hypothyroidism",
+    "galactosemia"
+   ],
+   "claim": "The collection window, number of disorders in the panel and the hearing-screening law are unconfirmed. Avoid hours and disorder counts.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "vawc-provisions",
+   "noteIds": [
+    "np1-vawc"
+   ],
+   "keywords": [
+    "vawc",
+    "ra 9262",
+    "protection order",
+    "barangay protection order",
+    "battered woman",
+    "ra 7610"
+   ],
+   "claim": "The handout has no VAWC section; provisions, order durations and mandatory reporting duties are unconfirmed. Ask about the nursing response (safety, documentation), not legal durations.",
+   "guidance": "do not use",
+   "severity": "medium"
+  },
+  {
+   "id": "herbal-medicines-list",
+   "noteIds": [
+    "np1-essential-drugs-herbal"
+   ],
+   "keywords": [
+    "akapulko",
+    "lagundi",
+    "sambong",
+    "tsaang gubat",
+    "yerba buena",
+    "bawang",
+    "niyog-niyogan",
+    "ulasimang bato",
+    "ampalaya",
+    "herbal"
+   ],
+   "claim": "The endorsed herb list, uses and age-based preparation amounts are unconfirmed. Avoid amounts; flag check textbook.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "nutrition-supplement-schedules",
+   "noteIds": [
+    "np1-g-iycf",
+    "np1-nutrition"
+   ],
+   "keywords": [
+    "vitamin a",
+    "iron",
+    "zinc",
+    "stunting",
+    "wasting",
+    "underweight",
+    "fortification"
+   ],
+   "claim": "Supplement schedules, fortification list and stunting/wasting cut-offs were not in the handout, and the 'no breastfeeding in AIDS' line is outdated. Avoid doses, cut-offs and current policy.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "water-toilet-sanitation-numbers",
+   "noteIds": [
+    "np1-water-toilet"
+   ],
+   "keywords": [
+    "chlorine",
+    "boiling",
+    "rolling boil",
+    "toilet level",
+    "level i",
+    "level ii",
+    "safe distance",
+    "water supply level"
+   ],
+   "claim": "Household counts, safe distances, boiling and chlorine amounts, and toilet-level grouping vary. Avoid numbers.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "food-holding-temperatures",
+   "noteIds": [
+    "np1-waste-food-laws"
+   ],
+   "keywords": [
+    "cold holding",
+    "hot holding",
+    "food holding",
+    "sanitary permit",
+    "health certificate",
+    "food establishment"
+   ],
+   "claim": "The handout cold-holding limit is higher than the commonly taught one; rating classes and permit issuer are unconfirmed. Avoid temperatures.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "menstrual-phase-hormones",
+   "noteIds": [
+    "np2-ob-menstrual-phases"
+   ],
+   "keywords": [
+    "lh surge",
+    "luteal phase",
+    "follicular phase",
+    "ovulation",
+    "corpus luteum",
+    "menstrual cycle",
+    "progesterone"
+   ],
+   "claim": "The handout says LH peaks in the luteal phase; textbooks place the LH surge just before ovulation. Day ranges vary. Avoid day counts.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "ob-terms-definitions",
+   "noteIds": [
+    "np2-ob-terms"
+   ],
+   "keywords": [
+    "nulliparous",
+    "primigravida",
+    "term pregnancy",
+    "full term",
+    "37 weeks",
+    "38 weeks",
+    "42 weeks",
+    "gravida",
+    "para"
+   ],
+   "claim": "The handout definition of nulliparous is muddled and gives term as 38-42 weeks (usually 37-42). Avoid week boundaries; flag check textbook.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "development-age-ranges",
+   "noteIds": [
+    "np2-pd-adolescent-dev",
+    "np2-pd-age-theories",
+    "np2-pd-infant-dev",
+    "np2-pd-preschool-dev",
+    "np2-pd-school-dev",
+    "np2-pd-x-kohlberg",
+    "np2-pd-x-piaget"
+   ],
+   "keywords": [
+    "preschool age",
+    "school-age",
+    "formal operations",
+    "sensorimotor",
+    "kohlberg",
+    "piaget",
+    "puberty onset",
+    "age range"
+   ],
+   "claim": "The handout gives overlapping or inconsistent age bands for stages (preschool 3-5 and 4-6; school-age 6-12 and 7-12; formal operations 11 or 12). Ask what a child at a stage can do, not boundary ages.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "apgar-scoring",
+   "noteIds": [
+    "np2-pd-apgar"
+   ],
+   "keywords": [
+    "apgar",
+    "apgar score",
+    "muscle tone",
+    "respiratory effort",
+    "heart rate",
+    "reflex irritability"
+   ],
+   "claim": "The handout starts the 'poor' band at 1 rather than 0. Avoid cut-off scores; ask about the next action.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "congenital-anomaly-management",
+   "noteIds": [
+    "np2-pd-anomaly-clues",
+    "np2-pd-choanal",
+    "np2-pd-clubfoot",
+    "np2-pd-hernia-hydro",
+    "np2-pd-hypospadias",
+    "np2-pd-pylorus",
+    "np2-pd-x-cryptorchidism",
+    "np2-pd-x-torticollis-achondroplasia"
+   ],
+   "keywords": [
+    "esophageal atresia",
+    "choanal atresia",
+    "pyloric stenosis",
+    "clubfoot",
+    "hypospadias",
+    "cryptorchidism",
+    "torticollis",
+    "achondroplasia",
+    "inguinal hernia",
+    "hydrocele"
+   ],
+   "claim": "For these anomalies the handout lacks repair timing, post-op care or treatment (the Ponseti method is not named; the cremasteric reflex nerve level differs). Ask about recognition and safety priorities; avoid timing and surgical details.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "congenital-heart-defects",
+   "noteIds": [
+    "np2-pd-ps",
+    "np2-pd-x-eisenmenger",
+    "np2-pd-x-tricuspid-atresia",
+    "np2-pd-x-truncus-transposition"
+   ],
+   "keywords": [
+    "truncus arteriosus",
+    "transposition of the great",
+    "tricuspid atresia",
+    "pulmonic stenosis",
+    "eisenmenger",
+    "glenn",
+    "prostaglandin"
+   ],
+   "claim": "The handout gives no definitions, murmurs, treatment or timing for these defects. Avoid surgery names and drug doses (including PGE1).",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "pediatric-chf-digoxin",
+   "noteIds": [
+    "np2-pd-x-chf-child"
+   ],
+   "keywords": [
+    "digoxin infant",
+    "hold digoxin",
+    "apical pulse before digoxin",
+    "heart failure in children"
+   ],
+   "claim": "Digoxin hold parameters for infants and fluid guidance are not in the handout. Ask about the priority action; no hold numbers.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "apical-impulse-location",
+   "noteIds": [
+    "np3-cr-heart-structure"
+   ],
+   "keywords": [
+    "apical impulse",
+    "apex of the heart",
+    "point of maximal impulse",
+    "pmi",
+    "intercostal space"
+   ],
+   "claim": "The handout puts the apical impulse at the '15th' intercostal space (typo; the note says adult apex is 5th ICS, left mid-clavicular). Flag check textbook if location is asked.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "cardiac-output-numbers",
+   "noteIds": [
+    "np3-cr-cardiac-output"
+   ],
+   "keywords": [
+    "cardiac output",
+    "exercise cardiac output",
+    "l/min",
+    "stroke volume"
+   ],
+   "claim": "The handout exercise cardiac-output figure ('fourfold to 2 L/min') cannot be right. Avoid numbers.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "ecg-interval-values",
+   "noteIds": [
+    "np3-cr-conduction-system",
+    "np3-cr-ecg-basics",
+    "np3-cr-x-ecg-changes"
+   ],
+   "keywords": [
+    "pr interval",
+    "qt interval",
+    "qrs",
+    "t wave",
+    "av node delay",
+    "st segment",
+    "ecg interval"
+   ],
+   "claim": "The handout AV delay ('0.8 milliseconds') and T-wave limit look garbled; QT varies with heart rate. Avoid interval and amplitude values.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "cardiac-drugs-dosing-holds",
+   "noteIds": [
+    "np3-cr-antihypertensives",
+    "np3-cr-hf-drugs"
+   ],
+   "keywords": [
+    "digoxin",
+    "hold parameters",
+    "apical pulse",
+    "heart failure drug",
+    "ace inhibitor",
+    "diuretic dose"
+   ],
+   "claim": "Dosing and hold parameters are not in the handout. Ask about monitoring or priority, not values.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "pericarditis-pleurisy-nsaid",
+   "noteIds": [
+    "np3-cr-pericarditis",
+    "np3-cr-pleurisy"
+   ],
+   "keywords": [
+    "indomethacin",
+    "pericarditis",
+    "pleurisy",
+    "pleuritic"
+   ],
+   "claim": "Indomethacin guidance from the handout differs from some references, and opioid use in pleurisy needs a drug-book check.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "nitroglycerin-use-rules",
+   "noteIds": [
+    "np3-cr-angina-treatment",
+    "np3-cr-x-nitroglycerin"
+   ],
+   "keywords": [
+    "nitroglycerin",
+    "sublingual",
+    "tablets",
+    "call for help",
+    "chest pain unrelieved",
+    "erectile dysfunction"
+   ],
+   "claim": "Number of doses, spacing, storage and interactions are not in the handout. Ask about the priority action; no tablet counts or timing.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "mi-management-mona",
+   "noteIds": [
+    "np3-cr-mi-management"
+   ],
+   "keywords": [
+    "mona",
+    "morphine",
+    "oxygen",
+    "aspirin",
+    "myocardial infarction",
+    "prasugrel",
+    "nitroglycerin"
+   ],
+   "claim": "Modern guidelines treat morphine and oxygen more selectively than the older MONA approach (oxygen mainly when saturation is low). Ask about priority, not the full MONA list.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "hypertension-thresholds",
+   "noteIds": [
+    "np3-cr-hypertension"
+   ],
+   "keywords": [
+    "hypertension",
+    "140/90",
+    "130/80",
+    "stage 1",
+    "stage 2",
+    "prehypertension",
+    "blood pressure classification"
+   ],
+   "claim": "Hypertension thresholds differ between guidelines (some use 130/80). Do not ask for a cut-off; ask about priority actions for a hypertensive crisis or a client reading.",
+   "guidance": "ask about priority not value",
+   "severity": "medium"
+  },
+  {
+   "id": "antihypertensive-first-line",
+   "noteIds": [
+    "np3-cr-antihypertensives"
+   ],
+   "keywords": [
+    "first-line antihypertensive",
+    "first line antihypertensive",
+    "beta-blocker",
+    "ace inhibitor",
+    "calcium channel blocker",
+    "thiazide"
+   ],
+   "claim": "The handout calls beta-blockers first line; modern guidance generally favours other classes. Do not ask 'first-line' questions.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "dvt-heat-application",
+   "noteIds": [
+    "np3-cr-dvt"
+   ],
+   "keywords": [
+    "dvt",
+    "deep vein thrombosis",
+    "warm moist",
+    "warm compress",
+    "heat application",
+    "massage the leg"
+   ],
+   "claim": "The handout applies warm moist packs; some references limit local heat. Do not ask about heat; the no-massage rule is standard teaching.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "copd-types-labels",
+   "noteIds": [
+    "np3-cr-copd-types",
+    "np3-cr-x-copd-bloater-puffer"
+   ],
+   "keywords": [
+    "blue bloater",
+    "pink puffer",
+    "chronic bronchitis",
+    "emphysema",
+    "panlobular",
+    "centrilobular"
+   ],
+   "claim": "The handout is unclear on panlobular details and blurs which type gives which signs. Avoid bloater/puffer matching; the low-flow oxygen reason is standard teaching.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "pneumothorax-chest-dressing",
+   "noteIds": [
+    "np3-cr-pneumothorax-mgmt",
+    "np5-breathing"
+   ],
+   "keywords": [
+    "pneumothorax",
+    "chest tube",
+    "sucking chest wound",
+    "occlusive dressing",
+    "three sides",
+    "valsalva"
+   ],
+   "claim": "The handout describes a Valsalva-type breath during dressing; common teaching is a dressing taped on three sides. Observation size thresholds also vary. Ask about priority, not dressing technique.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "tb-regimen-and-class",
+   "noteIds": [
+    "np3-cr-tb-diagnosis",
+    "np3-cr-tb-drugs"
+   ],
+   "keywords": [
+    "tb regimen",
+    "tb treatment duration",
+    "intensive phase",
+    "continuation phase",
+    "category i",
+    "category ii",
+    "isoniazid dose",
+    "rifampin dose"
+   ],
+   "claim": "TB doses, the 8-week/4-7 month schedule and food advice are from the handout and may differ from the DOH program; the class system is the older American one. No doses, durations or categories; verify in current textbook/official source.",
+   "guidance": "avoid numbers",
+   "severity": "high"
+  },
+  {
+   "id": "tb-drug-names-effects",
+   "noteIds": [
+    "np3-cr-tb-drugs"
+   ],
+   "keywords": [
+    "isoniazid",
+    "rifampicin",
+    "rifampin",
+    "pyrazinamide",
+    "ethambutol",
+    "streptomycin",
+    "dots"
+   ],
+   "claim": "Drug-effect pairs are standard teaching but rifampin food advice and program regimens differ. Flag check textbook.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "anticoagulant-lab-pairing",
+   "noteIds": [
+    "gen-ph-x-antidotes",
+    "np3-cr-x-antiplatelet-anticoag"
+   ],
+   "keywords": [
+    "aptt",
+    "pt/inr",
+    "inr",
+    "heparin",
+    "warfarin",
+    "protamine",
+    "vitamin k"
+   ],
+   "claim": "The handout does not say which lab goes with which anticoagulant. The pairing of aPTT with heparin and PT/INR with warfarin is standard teaching; avoid target ranges, diet rules and doses.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "pernicious-anemia-iron-mixup",
+   "noteIds": [
+    "np3-ho-pernicious-anemia"
+   ],
+   "keywords": [
+    "pernicious anemia",
+    "z-track",
+    "schilling test",
+    "vitamin b12",
+    "intrinsic factor",
+    "parenteral iron"
+   ],
+   "claim": "The handout lists Z-track parenteral iron under pernicious anemia; that belongs to iron deficiency anemia. The Schilling test is rarely used today.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "therapeutic-technique-names",
+   "noteIds": [
+    "np5-therapeutic-communication",
+    "np5-x-nontherapeutic-blocks",
+    "np5-x-therapeutic-techniques"
+   ],
+   "keywords": [
+    "voicing doubt",
+    "reflecting",
+    "restating",
+    "clarification",
+    "non-therapeutic",
+    "why question",
+    "giving advice",
+    "reassurance"
+   ],
+   "claim": "Technique names, example sentences and whether 'voicing doubt' is acceptable differ by book. Prefer clear-cut communication choices.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "nurse-patient-relationship-phases",
+   "noteIds": [
+    "np5-nurse-patient-relationship"
+   ],
+   "keywords": [
+    "pre-orientation",
+    "orientation phase",
+    "working phase",
+    "termination phase",
+    "identification phase",
+    "exploitation phase",
+    "resolution phase",
+    "limit setting"
+   ],
+   "claim": "Phase names (handout versus the older Peplau names) and which tasks sit in which phase differ by book. Avoid phase-assignment items.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "crisis-duration-phases",
+   "noteIds": [
+    "np5-crisis-intervention",
+    "np5-pc-crisis-types-phases-styles"
+   ],
+   "keywords": [
+    "crisis",
+    "caplan",
+    "maturational crisis",
+    "situational crisis",
+    "adventitious",
+    "social crisis",
+    "4 to 6 weeks"
+   ],
+   "claim": "Crisis duration and phase counts differ among books and the third crisis type is named differently. Avoid durations and counts.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "seclusion-restraint-orders",
+   "noteIds": [
+    "np5-behavioral-management",
+    "np5-x-hallucinogens"
+   ],
+   "keywords": [
+    "restraint",
+    "seclusion",
+    "restraint order",
+    "face-to-face evaluation",
+    "renew the order",
+    "least restrictive"
+   ],
+   "claim": "Order durations, face-to-face evaluation and renewal come from law and facility policy, not the handout. Ask for least restrictive first and the priority action; no time limits.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "panic-ssri-safest-claim",
+   "noteIds": [
+    "np5-anxiety",
+    "np5-pc-antianxiety-drugs",
+    "np5-pd-anxiolytics-cbt"
+   ],
+   "keywords": [
+    "ssris are the safest",
+    "ssri safest drug",
+    "safest drug during a panic",
+    "anxiolytics before meals",
+    "anxiolytic before meals",
+    "incompatible with any drugs"
+   ],
+   "claim": "The handout calls SSRIs the safest drug during a panic attack (they act slowly) and advises anxiolytics before meals; both are doubtful. Do not write items on these; verify in current textbook/official source.",
+   "guidance": "do not use",
+   "severity": "high"
+  },
+  {
+   "id": "panic-attack-duration",
+   "noteIds": [
+    "np5-anxiety",
+    "np5-x-anxiety-types"
+   ],
+   "keywords": [
+    "panic attack",
+    "panic disorder",
+    "15 to 30 minutes",
+    "peak within 10 minutes",
+    "attack duration"
+   ],
+   "claim": "Handout says panic attacks last 15 to 30 minutes; many books say they peak within about 10 minutes. Avoid durations.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "eating-disorder-criteria-drugs",
+   "noteIds": [
+    "np5-eating-disorders",
+    "np5-pd-anorexia-bulimia-details"
+   ],
+   "keywords": [
+    "anorexia nervosa",
+    "bulimia nervosa",
+    "refeeding",
+    "bmi",
+    "weight criteria",
+    "once a week for three months",
+    "fluoxetine"
+   ],
+   "claim": "Weight cut-offs, bulimia frequency, refeeding steps and drug choices in the handout are dated. Avoid numbers and drug-choice items.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "alcohol-withdrawal-and-lavage",
+   "noteIds": [
+    "np5-alcohol",
+    "np5-x-alcohol-intox"
+   ],
+   "keywords": [
+    "alcohol withdrawal",
+    "delirium tremens",
+    "withdrawal timeline",
+    "lavage",
+    "dialysis",
+    "chlordiazepoxide",
+    "lorazepam"
+   ],
+   "claim": "The handout lists dialysis and lavage for intoxication (extreme cases only) and gives no reliable timeline. Avoid timelines and drug choices; ask about airway and safety first.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "opioid-antidote-naltrexone-naloxone",
+   "noteIds": [
+    "np5-downers",
+    "np5-pd-recovery-programs-drugs",
+    "np5-x-opioids"
+   ],
+   "keywords": [
+    "naltrexone",
+    "naloxone",
+    "opioid overdose",
+    "opioid antagonist",
+    "methadone",
+    "propoxyphene",
+    "normethadone"
+   ],
+   "claim": "The handout calls naltrexone a drug for overdose, which is naloxone's job; naltrexone blocks effects and reduces craving. Propoxyphene, normethadone and levomethadyl are rarely available now. No dosing; verify in current textbook/official source.",
+   "guidance": "flag check textbook",
+   "severity": "high"
+  },
+  {
+   "id": "antipsychotic-monitoring",
+   "noteIds": [
+    "np5-antipsychotics",
+    "np5-schizophrenia",
+    "np5-x-antipsychotic-teaching"
+   ],
+   "keywords": [
+    "clozapine",
+    "white blood cell",
+    "wbc monitoring",
+    "agranulocytosis",
+    "thioridazine",
+    "mesoridazine",
+    "antipsychotic after meals"
+   ],
+   "claim": "Handout white-cell schedule for clozapine may be out of date and 'take after meals' is not firm. Ask about the priority action when signs appear; no schedules.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "bipolar-rapid-cycling-mixed",
+   "noteIds": [
+    "np5-bipolar",
+    "np5-pd-mood-theories-variants"
+   ],
+   "keywords": [
+    "rapid cycling",
+    "mixed episode",
+    "hypomanic",
+    "manic episode",
+    "bipolar"
+   ],
+   "claim": "Handout treats mixed episode and rapid cycling as the same; rapid cycling usually means 4 or more episodes in a year. Avoid duration and episode-count criteria.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "antidepressant-class-wording",
+   "noteIds": [
+    "np5-antidepressants-stabilizers",
+    "np5-x-psychotropic-classes",
+    "np5-x-tca-ssri-drugs"
+   ],
+   "keywords": [
+    "tricyclic",
+    "ssri",
+    "maprotiline",
+    "amoxapine",
+    "mirtazapine",
+    "bupropion",
+    "first-choice antidepressant"
+   ],
+   "claim": "The handout lists mirtazapine, maprotiline and amoxapine among tricyclics and calls TCAs 'first choice' then says SSRIs replaced them; the bupropion seizure figure is unverified. Use SSRIs as first line only when explicit; avoid class-membership edge cases.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "ect-details",
+   "noteIds": [
+    "np5-mdd",
+    "np5-pc-electroconvulsive-therapy"
+   ],
+   "keywords": [
+    "ect",
+    "electroconvulsive",
+    "voltage",
+    "joules",
+    "seizure duration",
+    "indication for ect"
+   ],
+   "claim": "The handout voltage ('70-50 volts') looks garbled and indications such as schizophrenia and mania vary by source. Avoid electrical values; ask about pre- and post-procedure priorities.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "developmental-disorder-iq-bands",
+   "noteIds": [
+    "np5-developmental-disorders",
+    "np5-pc-adhd",
+    "np5-pc-autism-spectrum",
+    "np5-pc-intellectual-disability",
+    "np5-pd-intellectual-disability"
+   ],
+   "keywords": [
+    "intellectual disability",
+    "iq",
+    "mild intellectual",
+    "moderate intellectual",
+    "severe intellectual",
+    "profound",
+    "autism spectrum",
+    "adhd",
+    "pemoline"
+   ],
+   "claim": "IQ bands and labels vary by manual (newer ones grade by adaptive function), pemoline is withdrawn in many countries and the ADHD onset age wording changed. Avoid IQ numbers and drug-specific items.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "triage-categories-colors",
+   "noteIds": [
+    "np5-ctas-esi",
+    "np5-nato-triage",
+    "np5-triage-basics"
+   ],
+   "keywords": [
+    "triage",
+    "esi",
+    "ctas",
+    "start triage",
+    "expectant",
+    "red tag",
+    "yellow tag",
+    "green tag",
+    "black tag",
+    "triage category"
+   ],
+   "claim": "Category names, colours, target times, ESI resource lists and danger-zone vitals vary by scale and age; no handout covers these. Ask which client is seen first; avoid colour/time/cut-off facts.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "pena-triage-unknown",
+   "noteIds": [
+    "np5-pena-triage"
+   ],
+   "keywords": [
+    "pena",
+    "pena triage"
+   ],
+   "claim": "What PENA stands for and its levels are UNKNOWN. Do not write items about it.",
+   "guidance": "do not use",
+   "severity": "high"
+  },
+  {
+   "id": "primary-survey-order",
+   "noteIds": [
+    "np5-primary-secondary-survey"
+   ],
+   "keywords": [
+    "primary survey",
+    "secondary survey",
+    "abcde",
+    "c-abc",
+    "catastrophic bleeding",
+    "airway breathing circulation"
+   ],
+   "claim": "Some references place catastrophic bleeding first (C-ABC); where oxygen and IV access sit differs by book. Use the airway-breathing-circulation priority only where the stem makes the context clear.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "bls-numbers-sequence",
+   "noteIds": [
+    "np5-airway-obstruction-choking",
+    "np5-cardiac-arrest-bls"
+   ],
+   "keywords": [
+    "chest compressions",
+    "compression rate",
+    "compression depth",
+    "30:2",
+    "rescue breaths",
+    "aed",
+    "joules",
+    "back blows",
+    "abdominal thrusts",
+    "choking"
+   ],
+   "claim": "No handout covers resuscitation or choking; rates, depth, ratio, shock energy, drug doses and child/infant sequences must be verified against current guidelines. Ask about the first action, not numbers.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "ventilation-oxygen-targets",
+   "noteIds": [
+    "np5-breathing",
+    "np5-respiratory-failure"
+   ],
+   "keywords": [
+    "ventilation rate",
+    "respiratory failure",
+    "pao2",
+    "paco2",
+    "abg",
+    "oxygen target",
+    "ventilator settings"
+   ],
+   "claim": "Gas values, oxygen targets for chronic lung disease and ventilator settings need current guidelines. Ask about priority; no values.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "shock-types-stages",
+   "noteIds": [
+    "np5-early-late-shock",
+    "np5-types-of-shock"
+   ],
+   "keywords": [
+    "obstructive shock",
+    "cardiogenic shock",
+    "septic shock",
+    "compensated",
+    "progressive",
+    "irreversible",
+    "stages of shock"
+   ],
+   "claim": "Books differ on listing obstructive shock separately and on stage names; the handout ties septic shock to gram-negative infection only. Avoid classification edge cases.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "shock-management-fluids",
+   "noteIds": [
+    "np5-circulation-shock-overview",
+    "np5-shock-management"
+   ],
+   "keywords": [
+    "shock",
+    "fluid resuscitation",
+    "legs raised",
+    "trendelenburg",
+    "capillary refill",
+    "target blood pressure",
+    "tourniquet"
+   ],
+   "claim": "Fluid volumes, targets, tourniquet protocols and whether legs are raised 20 degrees or flat differ. Avoid numbers; ask about the first action.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "gcs-scoring",
+   "noteIds": [
+    "np5-disability-exposure"
+   ],
+   "keywords": [
+    "glasgow coma",
+    "gcs",
+    "gcs-p",
+    "eye opening",
+    "motor response",
+    "verbal response"
+   ],
+   "claim": "Exact GCS component scores and thresholds differ by source (the handout also mentions GCS-P); glucose in an unconscious client needs an order. Avoid score cut-offs.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "sepsis-dic-icu-values",
+   "noteIds": [
+    "np5-dic-mods",
+    "np5-icu-monitoring",
+    "np5-sepsis-septic-shock"
+   ],
+   "keywords": [
+    "sepsis bundle",
+    "qsofa",
+    "sofa",
+    "sirs",
+    "dic",
+    "mods",
+    "cvp",
+    "pcwp",
+    "icu monitoring"
+   ],
+   "claim": "Sepsis definitions have changed over time; DIC lab values, product choice, heparin use and ICU pressure ranges are not in handouts. Avoid definitions, values and bundle timing.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "disaster-phases-and-laws",
+   "noteIds": [
+    "np1-g-health-emergency-program",
+    "np5-disaster-basic-concepts",
+    "np5-disaster-continuum",
+    "np5-ndrrmc"
+   ],
+   "keywords": [
+    "ndrrmc",
+    "ra 10121",
+    "ra 9729",
+    "disaster cycle",
+    "disaster phases",
+    "mitigation",
+    "preparedness"
+   ],
+   "claim": "Decree and law numbers come from handouts and memory; the number and names of disaster phases differ (three to five); council membership and agency roles change. Avoid numbers and phase counts.",
+   "guidance": "do not use",
+   "severity": "medium"
+  },
+  {
+   "id": "er-legal-issues",
+   "noteIds": [
+    "np5-er-nursing-issues"
+   ],
+   "keywords": [
+    "medico-legal",
+    "chain of custody",
+    "hospital deposit",
+    "emergency treatment of a minor",
+    "paper bag evidence",
+    "er deposit"
+   ],
+   "claim": "Philippine emergency-care and deposit laws, reporting rules and evidence handling vary by law and hospital policy. Ask about principles (care first, document, preserve evidence), not legal citations.",
+   "guidance": "flag check textbook",
+   "severity": "medium"
+  },
+  {
+   "id": "drug-dose-numbers-generic",
+   "noteIds": [
+    "gen-ph-x-levels",
+    "gen-ph-x-timing"
+   ],
+   "keywords": [
+    "mg/kg",
+    "mcg/kg",
+    "units/kg",
+    "iv push",
+    "loading dose",
+    "maintenance dose",
+    "units per hour",
+    "dose range"
+   ],
+   "claim": "Preset notes carry no verified doses. Items must not state drug doses unless the item is a calc with all numbers supplied.",
+   "guidance": "avoid numbers",
+   "severity": "medium"
+  },
+  {
+   "id": "lab-reference-values-generic",
+   "noteIds": [
+    "gen-ph-x-levels"
+   ],
+   "keywords": [
+    "normal range",
+    "reference range",
+    "normal value",
+    "therapeutic level",
+    "toxic level",
+    "mmol/l",
+    "meq/l",
+    "mg/dl"
+   ],
+   "claim": "Lab reference ranges vary by lab and source and several handout values are garbled. Ask about the priority action for an abnormal result, not the range.",
+   "guidance": "ask about priority not value",
+   "severity": "medium"
+  }
+ ]
+}
