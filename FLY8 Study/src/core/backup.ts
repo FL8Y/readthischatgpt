@@ -14,9 +14,11 @@ export interface BackupSummary {
 export interface Extras {
   lessons?: unknown;
   tutor?: unknown;
+  /** Practice-bank state (attempts, flags, notes, mastery, re-queue). Old backups have none. */
+  bank?: unknown;
 }
 
-export const EXTRA_KEYS = ['lessons', 'tutor'] as const;
+export const EXTRA_KEYS = ['lessons', 'tutor', 'bank'] as const;
 
 export type BackupResult =
   | { ok: true; state: AppState; summary: BackupSummary; extras: Extras }

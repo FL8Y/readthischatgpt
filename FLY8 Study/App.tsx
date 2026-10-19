@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { ActivityIndicator, BackHandler, Platform, Text, View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { useFonts, Inter_400Regular, Inter_500Medium, Inter_600SemiBold, Inter_700Bold } from '@expo-google-fonts/inter';
@@ -6,7 +6,9 @@ import type { AppState } from './src/core/types';
 import { loadState, saveState } from './src/storage';
 import { Dashboard } from './src/ui/Dashboard';
 import { Library } from './src/ui/Library';
-import { StudyHub } from './src/ui/StudyHub';
+import { PracticeScreen } from './src/ui/practice/PracticeScreen';
+import { BankProvider } from './src/ui/practice/BankProvider';
+import { Stats } from './src/ui/practice/Stats';
 import { Graph } from './src/ui/Graph';
 import { Topics } from './src/ui/Topics';
 import { Settings } from './src/ui/Settings';
@@ -18,28 +20,34 @@ import { DemoHarness } from './src/ui/DemoHarness';
 import { Header, ImmersiveCtx, Screen, TabBar, type TabItem } from './src/ui/kit';
 import { ThemeProvider, useTheme } from './src/ui/theme';
 
-/** Every id the app has ever used keeps working with go(). library/map/tutor/settings live under More. */
-type Tab = 'home' | 'study' | 'topics' | 'library' | 'map' | 'tutor' | 'settings' | 'more';
-type Ctx = { state: AppState; update: (s: AppState) => void; go: (t: Tab) => void };
+/** Every id the app has ever used keeps working with go() ('study' now opens Practice). library/map/tutor/settings live under More. */
+type Tab = 'home' | 'practice' | 'topics' | 'stats' | 'library' | 'map' | 'tutor' | 'settings' | 'more';
+type GoId = Tab | 'study';
+type Ctx = { state: AppState; update: (s: AppState) => void; go: (t: GoId) => void; registerBack: (fn: (() => boolean) | null) => void };
 
-const BAR: (TabItem & { id: 'home' | 'study' | 'topics' | 'more' })[] = [
+const BAR: (TabItem & { id: 'home' | 'practice' | 'topics' | 'stats' | 'more' })[] = [
   { id: 'home', label: 'Home', icon: 'home-outline', iconOn: 'home' },
-  { id: 'study', label: 'Study', icon: 'school-outline', iconOn: 'school' },
+  { id: 'practice', label: 'Practice', icon: 'create-outline', iconOn: 'create' },
   { id: 'topics', label: 'Learn', icon: 'book-outline', iconOn: 'book' },
+  { id: 'stats', label: 'Stats', icon: 'stats-chart-outline', iconOn: 'stats-chart' },
   { id: 'more', label: 'More', icon: 'ellipsis-horizontal-circle-outline', iconOn: 'ellipsis-horizontal-circle' },
 ];
 
 /** Screens that draw their own header and scrolling. Everything else gets the shell header + Screen. */
-const SELF_DRAWN: Tab[] = ['home', 'study', 'more'];
+const SELF_DRAWN: Tab[] = ['home', 'practice', 'stats', 'more'];
+
+/** The diagnostic no longer gates lessons: Learn sees every folder as unlocked (canTeach is true for all). */
+const unlocked = (s: AppState): AppState => ({ ...s, diagnosticsDone: s.folders.map((f) => f.id) });
 
 /** One entry per screen. To add or change a screen, edit only its `render`. */
 const SCREENS: Record<Exclude<Tab, 'more'>, { title: string; render: (x: Ctx) => React.ReactNode }> = {
   home: { title: 'Home', render: (x) => <Dashboard state={x.state} go={x.go} /> },
-  study: { title: 'Study', render: (x) => <StudyHub state={x.state} update={x.update} /> },
-  topics: { title: 'Learn', render: (x) => <Topics state={x.state} /> },
+  practice: { title: 'Practice', render: (x) => <PracticeScreen state={x.state} update={x.update} go={x.go} registerBack={x.registerBack} /> },
+  topics: { title: 'Learn', render: (x) => <Topics state={unlocked(x.state)} /> },
+  stats: { title: 'Stats', render: () => <Stats /> },
   library: { title: 'Library', render: (x) => <Library state={x.state} update={x.update} /> },
   map: { title: 'Mind map', render: (x) => <Graph state={x.state} /> },
-  tutor: { title: 'Tutor', render: (x) => <Tutor state={x.state} /> },
+  tutor: { title: 'Tutor', render: (x) => <Tutor state={unlocked(x.state)} /> },
   settings: { title: 'Settings', render: (x) => <Settings state={x.state} update={x.update} /> },
 };
 
@@ -49,7 +57,9 @@ export default function App() {
   const [loaded] = useFonts({ Inter_400Regular, Inter_500Medium, Inter_600SemiBold, Inter_700Bold });
   return (
     <ThemeProvider fontsLoaded={loaded}>
-      <Root />
+      <BankProvider>
+        <Root />
+      </BankProvider>
     </ThemeProvider>
   );
 }
@@ -58,7 +68,8 @@ function Root() {
   const { colors, scheme } = useTheme();
   const [state, setState] = useState<AppState | null>(null);
   const [tab, setTab] = useState<Tab>('home');
-  const [skipped, setSkipped] = useState(false);
+  const backRef = useRef<(() => boolean) | null>(null);
+  const registerBack = useCallback((fn: (() => boolean) | null) => { backRef.current = fn; }, []);
   const [immersive, setImmersive] = useState(false);
 
   useEffect(() => {
@@ -73,6 +84,7 @@ function Root() {
   // Android back: leave a More sub-screen before leaving the app.
   useEffect(() => {
     const sub = BackHandler.addEventListener('hardwareBackPress', () => {
+      if (tab === 'practice' && backRef.current?.()) return true;
       if (isMoreChild(tab)) {
         setTab('more');
         return true;
@@ -105,16 +117,17 @@ function Root() {
     );
   }
 
-  if (!state.settings.aiChosen && !state.settings.apiKey.trim() && !skipped) {
+  if (!state.settings.aiChosen && !state.settings.apiKey.trim()) {
     return (
       <View style={{ flex: 1, backgroundColor: colors.bg }}>
         {bar}
-        <Onboarding settings={state.settings} onSave={(settings) => update({ ...state, settings })} onSkip={() => setSkipped(true)} />
+        <Onboarding settings={state.settings} onSave={(settings) => update({ ...state, settings })} onSkip={() => update({ ...state, settings: { ...state.settings, aiChosen: true } })} />
       </View>
     );
   }
 
-  const ctx: Ctx = { state, update, go: setTab };
+  const go = (t: GoId) => setTab(t === 'study' ? 'practice' : t);
+  const ctx: Ctx = { state, update, go, registerBack };
   const barId = isMoreChild(tab) ? 'more' : tab;
   const needsKey = state.settings.provider !== 'manual' && !state.settings.apiKey.trim();
 
