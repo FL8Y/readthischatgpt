@@ -1,0 +1,87 @@
+[
+  {
+    "id": "sample-psych-001", "type": "mcq",
+    "stem": "A client in a psychiatric unit says during group therapy, \"I don't see the point of coming to these groups. Nothing I do matters.\" Which response by the nurse is most therapeutic?",
+    "options": [
+      { "label": "A", "text": "\"It sounds like you are feeling discouraged. Tell me more about what has been happening.\"", "why_not": "" },
+      { "label": "B", "text": "\"Everything will work out once you give the groups a chance.\"", "why_not": "False reassurance that dismisses the client's feelings." },
+      { "label": "C", "text": "\"Why do you feel that nothing you do matters?\"", "why_not": "A 'why' question can feel accusatory and invites defensiveness." },
+      { "label": "D", "text": "\"You should try to think more positively about treatment.\"", "why_not": "Gives advice and disapproves of the client's feelings." }
+    ],
+    "answer": "A",
+    "rationale": "Reflecting the feeling and inviting the client to elaborate uses open-ended, client-centred communication and encourages expression. False reassurance, 'why' questions and advice block exploration and can make the client feel judged.",
+    "rationale_simplified": "Name the feeling, then invite the client to say more.",
+    "meta": { "nursing_practice": "NP5", "tos_content_area": "Psychiatric nursing - therapeutic communication (provisional mapping)", "topic": "Therapeutic communication", "topic_id": "psychiatric-nursing/part-1/therapeutic-communication", "competency": "Uses therapeutic communication techniques", "cognitive_domain": "applying", "difficulty": "easy", "nursing_process_phase": "implementation", "evidence_status": "needs_review", "tags": ["communication"] }
+  },
+  {
+    "id": "sample-oxy-001", "type": "sata",
+    "stem": "A nurse is teaching a client and family about safe use of home oxygen therapy. Which instructions should the nurse include? Select all that apply.",
+    "options": [
+      "Do not allow smoking or open flames in the room where oxygen is in use.",
+      "Use a water-based lubricant for dry lips or nostrils.",
+      "Secure oxygen cylinders upright so they cannot fall.",
+      "Apply petroleum jelly to the nostrils to prevent dryness.",
+      "Store a portable cylinder lying flat on the floor of the bedroom.",
+      "Increase the flow rate when breathless without calling the provider."
+    ],
+    "answers": [0, 1, 2],
+    "rationale": "Oxygen supports combustion, so ignition sources must be kept away. Petroleum-based products can ignite and irritate, so a water-based lubricant is used. Cylinders must be secured upright to prevent falls and damage. The flow rate is changed only as prescribed.",
+    "meta": { "nursing_practice": "NP3", "tos_content_area": "Oxygenation - safety and client teaching (provisional mapping)", "topic": "Oxygen therapy", "topic_id": "fundamentals/oxygenation/oxygen", "cognitive_domain": "applying", "difficulty": "moderate", "nursing_process_phase": "implementation", "evidence_status": "needs_review", "tags": ["safety", "teaching"] }
+  },
+  {
+    "id": "sample-dev-001", "type": "cloze",
+    "stem": "Complete the statement about typical infant development.",
+    "text": "An infant typically rolls over from front to back at about {{1}} months and sits without support at about {{2}} months.",
+    "blanks": [
+      { "id": "1", "choices": ["2", "4", "9"], "correct_index": 1 },
+      { "id": "2", "choices": ["3", "6", "12"], "correct_index": 1 }
+    ],
+    "rationale": "Rolling front to back usually appears around four months, and independent sitting around six months. Ranges vary, so the nurse should assess each child against the full set of milestones and consider referral when milestones are clearly delayed.",
+    "meta": { "nursing_practice": "NP2", "tos_content_area": "Human growth and development (provisional mapping)", "topic": "Developmental milestones", "topic_id": "pediatric-nursing/growth-and-development/developmental-milestones", "cognitive_domain": "remembering", "difficulty": "easy", "nursing_process_phase": "assessment", "evidence_status": "needs_review" }
+  },
+  {
+    "id": "sample-dm-cluster-001", "type": "situation",
+    "situation": "A nurse is caring for a client with type 1 diabetes mellitus who reports feeling shaky and sweaty before lunch. The client is awake and able to swallow.",
+    "items": [
+      {
+        "id": "sample-dm-001a", "type": "mcq",
+        "stem": "The capillary blood glucose is 58 mg/dL. Which action should the nurse take first?",
+        "options": [
+          { "label": "A", "text": "Give about 15 grams of a fast-acting carbohydrate by mouth.", "why_not": "" },
+          { "label": "B", "text": "Administer the scheduled rapid-acting insulin before lunch.", "why_not": "Insulin would lower the glucose further." },
+          { "label": "C", "text": "Offer a high-protein snack and recheck in one hour.", "why_not": "Protein raises glucose too slowly and the recheck is delayed." },
+          { "label": "D", "text": "Withhold food and notify the provider before any treatment.", "why_not": "Treatment of symptomatic hypoglycemia must not be delayed." }
+        ],
+        "answer": "A",
+        "rationale": "A symptomatic client with a low glucose who can swallow needs fast-acting carbohydrate immediately, followed by a recheck in about 15 minutes. Insulin, slow-acting food or delay worsen or prolong the hypoglycemia. Follow the facility protocol and the client's prescribed targets.",
+        "meta": { "nursing_practice": "NP4", "tos_content_area": "Endocrine - diabetes mellitus (provisional mapping)", "topic": "Diabetes mellitus", "topic_id": "medical-surgical-nursing/endocrine/diabetes-mellitus", "cognitive_domain": "applying", "difficulty": "moderate", "nursing_process_phase": "implementation", "evidence_status": "needs_review" }
+      },
+      {
+        "id": "sample-dm-001b", "type": "matrix",
+        "stem": "For each finding, select the condition it most likely indicates.",
+        "columns": ["Hypoglycemia", "Hyperglycemia"],
+        "rows": [
+          { "text": "Tremors and diaphoresis", "correct_column": 0 },
+          { "text": "Polyuria and polydipsia", "correct_column": 1 },
+          { "text": "Sudden confusion with cool, clammy skin", "correct_column": 0 },
+          { "text": "Deep, rapid respirations with fruity breath odor", "correct_column": 1 }
+        ],
+        "rationale": "Adrenergic and neuroglycopenic signs such as tremors, sweating and sudden confusion point to hypoglycemia. Osmotic diuresis causes polyuria and polydipsia, and Kussmaul respirations with a fruity odor suggest diabetic ketoacidosis from hyperglycemia.",
+        "meta": { "nursing_practice": "NP4", "tos_content_area": "Endocrine - diabetes mellitus (provisional mapping)", "topic": "Diabetes mellitus", "topic_id": "medical-surgical-nursing/endocrine/diabetes-mellitus", "cognitive_domain": "analyzing", "difficulty": "moderate", "nursing_process_phase": "analysis_diagnosis", "evidence_status": "needs_review" }
+      }
+    ]
+  },
+  {
+    "id": "sample-fund-001", "type": "mcq",
+    "stem": "A client on prolonged bed rest has intact skin but reddened areas over the sacrum that blanch when pressed. Which nursing action best helps prevent a pressure injury?",
+    "options": [
+      { "label": "A", "text": "Reposition the client regularly on a schedule suited to the skin and support surface.", "why_not": "" },
+      { "label": "B", "text": "Massage the reddened areas firmly to improve circulation.", "why_not": "Massage over at-risk skin can cause further tissue damage." },
+      { "label": "C", "text": "Place the client on a ring (donut) cushion.", "why_not": "Ring cushions concentrate pressure around the area." },
+      { "label": "D", "text": "Keep the head of the bed raised to 90 degrees at all times.", "why_not": "A high head-of-bed angle increases shear over the sacrum." }
+    ],
+    "answer": "A",
+    "rationale": "Pressure redistribution through regular, individualised repositioning, with a suitable support surface, reduces the pressure and shear that cause injury. Massage, ring cushions and high head-of-bed angles increase damage risk.",
+    "meta": { "nursing_practice": "NP3", "tos_content_area": "Fundamentals - skin integrity (provisional mapping)", "topic": "Patient positioning", "topic_id": "fundamentals/patient-positioning", "cognitive_domain": "applying", "difficulty": "easy", "nursing_process_phase": "implementation", "evidence_status": "needs_review" }
+  }
+]

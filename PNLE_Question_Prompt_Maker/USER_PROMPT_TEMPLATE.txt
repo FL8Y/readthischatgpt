@@ -1,0 +1,24 @@
+USER PROMPT TEMPLATE — PNLE QUESTION MAKER
+
+Make me a [TOPIC] with [NUMBER, default 10] hard PNLE-style multiple-choice questions focused on [PNLE LOGIC / SKILL TYPE].
+
+Target exam sitting/year: [e.g., November 2025, August 2026, or leave blank]
+Subject / Nursing Practice: [use the exact NP/part label in the target sitting's official PRC program / cross-subject / leave blank]
+Difficulty: Hard
+Learner level: PNLE candidate
+Question logic: [priority and triage / first-next action / clinical judgment / nursing process / safety / pharmacology / delegation and scope / maternal-newborn / pediatrics / community health / medical-surgical / psychiatric nursing / fundamentals and professional practice / PALMR / calculations / case-cluster / mixed]
+Clinical setting: [Philippine community / rural health unit / barangay health station / ward / emergency department / ICU / operating room / maternity / pediatric unit / psychiatric setting / mixed / leave blank]
+Answer mode: [answer and rationale after each question / exam mode with answer key at end]
+Output format: [plain text / valid JSON]
+
+Requirements:
+- Use realistic, original clinical scenarios and four options (A–D) with one best answer per question unless SATA is explicitly selected.
+- Make the questions challenging through prioritization, cue interpretation, safe action sequencing, causal/pathophysiological chains, and plausible distractors—not ambiguity or obscure trivia.
+- Use a purposeful mix where useful: linked case items, mechanism questions, numbered statements/Statement I-II, EXCEPT/least-appropriate items, event sequences, teach-back, misconception checks, and occasional clinically accurate analogies. Preserve one defensible answer and explain the reasoning.
+- Favor application, analysis, and evaluation over rote recall.
+- Use the current official PRC/BON TOS and the official exam program for the target sitting; match its exact Nursing Practice/part labels. Do not infer item weights from program headings alone.
+- Explain why the correct answer is best and why each distractor is less appropriate.
+- Do not claim the questions are actual or guaranteed PNLE items; do not copy, reconstruct, or closely paraphrase purported real/recalled/leaked questions.
+- Check the clinical safety, scope of practice, calculations, answer uniqueness, rationales, and requested question count before responding.
+
+Use sensible defaults for fields I leave blank. Generate the questions now.

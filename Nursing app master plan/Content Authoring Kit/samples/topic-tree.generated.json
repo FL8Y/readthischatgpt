@@ -1,0 +1,4020 @@
+{
+ "version": 1,
+ "source": "Anki Deck Topic Hierarchy",
+ "subjects": [
+  {
+   "id": "community-health-nursing",
+   "name": "Community Health Nursing",
+   "depth": 1,
+   "children": [
+    {
+     "id": "community-health-nursing/chn-phc",
+     "name": "CHN, PHC",
+     "depth": 2,
+     "children": [
+      {
+       "id": "community-health-nursing/chn-phc/clients-of-chn",
+       "name": "Clients of CHN",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "community-health-nursing/chn-phc/copar",
+       "name": "COPAR",
+       "depth": 3,
+       "children": [
+        {
+         "id": "community-health-nursing/chn-phc/copar/basic-principles-of-copar",
+         "name": "Basic Principles of COPAR",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/chn-phc/copar/phases-of-copar",
+         "name": "Phases of COPAR",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "community-health-nursing/chn-phc/doh",
+       "name": "DOH",
+       "depth": 3,
+       "children": [
+        {
+         "id": "community-health-nursing/chn-phc/doh/doh-concepts",
+         "name": "DOH Concepts",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/chn-phc/doh/functions-of-doh",
+         "name": "Functions of DOH",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "community-health-nursing/chn-phc/family-adpie",
+       "name": "Family ADPIE",
+       "depth": 3,
+       "children": [
+        {
+         "id": "community-health-nursing/chn-phc/family-adpie/assessment",
+         "name": "Assessment",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/chn-phc/family-adpie/evaluation",
+         "name": "Evaluation",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/chn-phc/family-adpie/implementation",
+         "name": "Implementation",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/chn-phc/family-adpie/planning",
+         "name": "Planning",
+         "depth": 4,
+         "children": [
+          {
+           "id": "community-health-nursing/chn-phc/family-adpie/planning/goal-setting",
+           "name": "Goal Setting",
+           "depth": 5,
+           "children": []
+          },
+          {
+           "id": "community-health-nursing/chn-phc/family-adpie/planning/prioritization",
+           "name": "Prioritization",
+           "depth": 5,
+           "children": []
+          },
+          {
+           "id": "community-health-nursing/chn-phc/family-adpie/planning/scoring",
+           "name": "Scoring",
+           "depth": 5,
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "community-health-nursing/chn-phc/health-promotion",
+       "name": "Health Promotion",
+       "depth": 3,
+       "children": [
+        {
+         "id": "community-health-nursing/chn-phc/health-promotion/diet",
+         "name": "Diet",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/chn-phc/health-promotion/exercise",
+         "name": "Exercise",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/chn-phc/health-promotion/health-promotion",
+         "name": "Health Promotion",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/chn-phc/health-promotion/stop-smoking",
+         "name": "Stop Smoking",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "community-health-nursing/chn-phc/magna-carta-of-public-health-workers",
+       "name": "Magna Carta of Public Health Workers",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "community-health-nursing/chn-phc/people-behind-chn",
+       "name": "People Behind CHN",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "community-health-nursing/chn-phc/primary-health-care",
+       "name": "Primary Health Care",
+       "depth": 3,
+       "children": [
+        {
+         "id": "community-health-nursing/chn-phc/primary-health-care/basics-of-phc",
+         "name": "Basics of PHC",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/chn-phc/primary-health-care/characteristics-of-phc",
+         "name": "Characteristics of PHC",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/chn-phc/primary-health-care/elements-of-phc",
+         "name": "Elements of PHC",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/chn-phc/primary-health-care/pillars-of-phc",
+         "name": "Pillars of PHC",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "community-health-nursing/chn-phc/sentrong-sigla-program",
+       "name": "Sentrong Sigla Program",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "community-health-nursing/elements-of-primary-health-care",
+     "name": "Elements of Primary Health Care",
+     "depth": 2,
+     "children": [
+      {
+       "id": "community-health-nursing/elements-of-primary-health-care/education",
+       "name": "Education",
+       "depth": 3,
+       "children": [
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/education/competency-based-teaching",
+         "name": "Competency-Based Teaching",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/education/identify-the-prevention",
+         "name": "Identify the Prevention",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/education/three-levels-of-prevention",
+         "name": "Three Levels of Prevention",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "community-health-nursing/elements-of-primary-health-care/essential-drugs",
+       "name": "Essential Drugs",
+       "depth": 3,
+       "children": [
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/essential-drugs/herbal",
+         "name": "Herbal",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "community-health-nursing/elements-of-primary-health-care/expanded-program-on-immunization",
+       "name": "Expanded Program on Immunization",
+       "depth": 3,
+       "children": [
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/expanded-program-on-immunization/chikiting-ligtas",
+         "name": "Chikiting Ligtas",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/expanded-program-on-immunization/cold-chain-and-logistics-management",
+         "name": "Cold Chain and Logistics Management",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/expanded-program-on-immunization/elements-of-immunization-and-laws",
+         "name": "Elements of Immunization and Laws",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/expanded-program-on-immunization/principles-and-nursing-responsibilities",
+         "name": "Principles and Nursing Responsibilities",
+         "depth": 4,
+         "children": [
+          {
+           "id": "community-health-nursing/elements-of-primary-health-care/expanded-program-on-immunization/principles-and-nursing-responsibilities/bcg",
+           "name": "BCG",
+           "depth": 5,
+           "children": []
+          },
+          {
+           "id": "community-health-nursing/elements-of-primary-health-care/expanded-program-on-immunization/principles-and-nursing-responsibilities/other-vaccines",
+           "name": "Other Vaccines",
+           "depth": 5,
+           "children": []
+          },
+          {
+           "id": "community-health-nursing/elements-of-primary-health-care/expanded-program-on-immunization/principles-and-nursing-responsibilities/pentavalent-vaccine",
+           "name": "Pentavalent Vaccine",
+           "depth": 5,
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/expanded-program-on-immunization/target-setting",
+         "name": "Target Setting",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/expanded-program-on-immunization/vaccine-table",
+         "name": "Vaccine Table",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "community-health-nursing/elements-of-primary-health-care/locally-endemic-diseases",
+       "name": "Locally-Endemic Diseases",
+       "depth": 3,
+       "children": [
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/locally-endemic-diseases/epidemiology",
+         "name": "Epidemiology",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/locally-endemic-diseases/fhsis",
+         "name": "FHSIS",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/locally-endemic-diseases/population-pyramid",
+         "name": "Population Pyramid",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/locally-endemic-diseases/vital-statistics",
+         "name": "Vital Statistics",
+         "depth": 4,
+         "children": [
+          {
+           "id": "community-health-nursing/elements-of-primary-health-care/locally-endemic-diseases/vital-statistics/common-vital-statistics",
+           "name": "Common Vital Statistics",
+           "depth": 5,
+           "children": []
+          },
+          {
+           "id": "community-health-nursing/elements-of-primary-health-care/locally-endemic-diseases/vital-statistics/incidence-vs-prevalence-rates",
+           "name": "Incidence vs Prevalence Rates",
+           "depth": 5,
+           "children": []
+          },
+          {
+           "id": "community-health-nursing/elements-of-primary-health-care/locally-endemic-diseases/vital-statistics/swaroops-sex-ratio",
+           "name": "Swaroops, Sex Ratio",
+           "depth": 5,
+           "children": []
+          },
+          {
+           "id": "community-health-nursing/elements-of-primary-health-care/locally-endemic-diseases/vital-statistics/vital-statistics-basic-concepts",
+           "name": "Vital Statistics Basic Concepts",
+           "depth": 5,
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "community-health-nursing/elements-of-primary-health-care/maternal-and-child-health",
+       "name": "Maternal and Child Health",
+       "depth": 3,
+       "children": [
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/maternal-and-child-health/active-management-of-third-stage-of-labor",
+         "name": "Active Management of Third Stage of Labor",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/maternal-and-child-health/activities",
+         "name": "Activities",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/maternal-and-child-health/bemoc-and-cemoc",
+         "name": "BEmOC and CEmOC",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/maternal-and-child-health/einc",
+         "name": "EINC",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/maternal-and-child-health/newborn-screening",
+         "name": "Newborn Screening",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/maternal-and-child-health/reproductive-health",
+         "name": "Reproductive Health",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/maternal-and-child-health/tt",
+         "name": "TT",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/maternal-and-child-health/vawc",
+         "name": "VAWC",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "community-health-nursing/elements-of-primary-health-care/nutrition",
+       "name": "Nutrition",
+       "depth": 3,
+       "children": [
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/nutrition/food-fortification-program",
+         "name": "Food Fortification Program",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/nutrition/malnutrition",
+         "name": "Malnutrition",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "community-health-nursing/elements-of-primary-health-care/sanitation-and-environmental-health",
+       "name": "Sanitation and Environmental Health",
+       "depth": 3,
+       "children": [
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/sanitation-and-environmental-health/approved-types-of-water-supply-facilities",
+         "name": "Approved Types of Water Supply Facilities",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/sanitation-and-environmental-health/color-and-type-of-waste",
+         "name": "Color and Type of Waste",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/sanitation-and-environmental-health/food-sanitation",
+         "name": "Food Sanitation",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/sanitation-and-environmental-health/health-and-sanitation-laws",
+         "name": "Health and Sanitation Laws",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/sanitation-and-environmental-health/toilet-facility",
+         "name": "Toilet Facility",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "community-health-nursing/elements-of-primary-health-care/treatment-of-communicable-and-noncommunicable-diseases-and-emergency-services",
+       "name": "Treatment of Communicable and Noncommunicable Diseases and Emergency Services",
+       "depth": 3,
+       "children": [
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/treatment-of-communicable-and-noncommunicable-diseases-and-emergency-services/emergency-services",
+         "name": "Emergency Services",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "community-health-nursing/elements-of-primary-health-care/treatment-of-communicable-and-noncommunicable-diseases-and-emergency-services/ncd",
+         "name": "NCD",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "community-health-nursing/mental-health-program",
+     "name": "Mental Health Program",
+     "depth": 2,
+     "children": []
+    }
+   ],
+   "np": [
+    "NP1"
+   ]
+  },
+  {
+   "id": "fundamentals",
+   "name": "Fundamentals",
+   "depth": 1,
+   "children": [
+    {
+     "id": "fundamentals/important-nursing-theorists",
+     "name": "Important Nursing Theorists",
+     "depth": 2,
+     "children": [
+      {
+       "id": "fundamentals/important-nursing-theorists/part-1",
+       "name": "Part 1",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "fundamentals/important-nursing-theorists/part-2",
+       "name": "Part 2",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "fundamentals/important-nursing-theorists/patricia-benner",
+       "name": "Patricia Benner",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "fundamentals/nutrition",
+     "name": "Nutrition",
+     "depth": 2,
+     "children": []
+    },
+    {
+     "id": "fundamentals/oxygenation",
+     "name": "Oxygenation",
+     "depth": 2,
+     "children": [
+      {
+       "id": "fundamentals/oxygenation/chest-physiotherapy",
+       "name": "Chest Physiotherapy",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "fundamentals/oxygenation/incentive-spirometer",
+       "name": "Incentive Spirometer",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "fundamentals/oxygenation/oxygen",
+       "name": "Oxygen",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "fundamentals/oxygenation/suctioning",
+       "name": "Suctioning",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "fundamentals/oxygenation/tracheostomy",
+       "name": "Tracheostomy",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "fundamentals/pain",
+     "name": "Pain",
+     "depth": 2,
+     "children": []
+    },
+    {
+     "id": "fundamentals/patient-positioning",
+     "name": "Patient Positioning",
+     "depth": 2,
+     "children": []
+    },
+    {
+     "id": "fundamentals/sleep",
+     "name": "Sleep",
+     "depth": 2,
+     "children": []
+    },
+    {
+     "id": "fundamentals/specimen-collection",
+     "name": "Specimen Collection",
+     "depth": 2,
+     "children": [
+      {
+       "id": "fundamentals/specimen-collection/sputum",
+       "name": "Sputum",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "fundamentals/specimen-collection/stool",
+       "name": "Stool",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "fundamentals/specimen-collection/urine",
+       "name": "Urine",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "fundamentals/theories-of-aging",
+     "name": "Theories of Aging",
+     "depth": 2,
+     "children": [
+      {
+       "id": "fundamentals/theories-of-aging/biologic",
+       "name": "Biologic",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "fundamentals/theories-of-aging/psychosocial",
+       "name": "Psychosocial",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "fundamentals/wound-care",
+     "name": "Wound Care",
+     "depth": 2,
+     "children": []
+    }
+   ],
+   "np": [
+    "CROSS_CUTTING"
+   ]
+  },
+  {
+   "id": "medical-surgical-nursing",
+   "name": "Medical-Surgical Nursing",
+   "depth": 1,
+   "children": [
+    {
+     "id": "medical-surgical-nursing/cancer",
+     "name": "Cancer",
+     "depth": 2,
+     "children": [
+      {
+       "id": "medical-surgical-nursing/cancer/basic-concepts-in-cancer",
+       "name": "Basic Concepts in Cancer",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/cancer/cancer-prevention",
+       "name": "Cancer Prevention",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/cancer/oncologic-emergencies",
+       "name": "Oncologic Emergencies",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/cancer/oncologic-emergencies/hypercalcemia",
+         "name": "Hypercalcemia",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/cancer/oncologic-emergencies/sepsis-and-disseminated-intravascular-coagulation-dic",
+         "name": "Sepsis and Disseminated Intravascular Coagulation (DIC)",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/cancer/oncologic-emergencies/siadh",
+         "name": "SIADH",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/cancer/oncologic-emergencies/spinal-cord-compression",
+         "name": "Spinal Cord Compression",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/cancer/oncologic-emergencies/superior-vena-cava-syndrome",
+         "name": "Superior Vena Cava Syndrome",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/cancer/oncologic-emergencies/tumor-lysis-syndrome",
+         "name": "Tumor Lysis Syndrome",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "medical-surgical-nursing/cancer/staging-and-grading",
+       "name": "Staging and Grading",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/cancer/treatment-modalities",
+       "name": "Treatment Modalities",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/cancer/treatment-modalities/antineoplastics",
+         "name": "Antineoplastics",
+         "depth": 4,
+         "children": [
+          {
+           "id": "medical-surgical-nursing/cancer/treatment-modalities/antineoplastics/ccns",
+           "name": "CCNS",
+           "depth": 5,
+           "children": [
+            {
+             "id": "medical-surgical-nursing/cancer/treatment-modalities/antineoplastics/ccns/alkylating",
+             "name": "Alkylating",
+             "depth": 6,
+             "children": []
+            },
+            {
+             "id": "medical-surgical-nursing/cancer/treatment-modalities/antineoplastics/ccns/antitumor",
+             "name": "Antitumor",
+             "depth": 6,
+             "children": []
+            },
+            {
+             "id": "medical-surgical-nursing/cancer/treatment-modalities/antineoplastics/ccns/hormones",
+             "name": "Hormones",
+             "depth": 6,
+             "children": []
+            }
+           ]
+          },
+          {
+           "id": "medical-surgical-nursing/cancer/treatment-modalities/antineoplastics/ccs",
+           "name": "CCS",
+           "depth": 5,
+           "children": [
+            {
+             "id": "medical-surgical-nursing/cancer/treatment-modalities/antineoplastics/ccs/antimetabolites",
+             "name": "Antimetabolites",
+             "depth": 6,
+             "children": []
+            },
+            {
+             "id": "medical-surgical-nursing/cancer/treatment-modalities/antineoplastics/ccs/plant-alkaloids",
+             "name": "Plant Alkaloids",
+             "depth": 6,
+             "children": []
+            }
+           ]
+          },
+          {
+           "id": "medical-surgical-nursing/cancer/treatment-modalities/antineoplastics/chemotherapy-nursing-care",
+           "name": "Chemotherapy Nursing Care",
+           "depth": 5,
+           "children": []
+          },
+          {
+           "id": "medical-surgical-nursing/cancer/treatment-modalities/antineoplastics/identify-the-class",
+           "name": "Identify the Class",
+           "depth": 5,
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "medical-surgical-nursing/cancer/treatment-modalities/radiation",
+         "name": "Radiation",
+         "depth": 4,
+         "children": [
+          {
+           "id": "medical-surgical-nursing/cancer/treatment-modalities/radiation/external-radiation-therapy-teletherapy",
+           "name": "External Radiation Therapy (Teletherapy)",
+           "depth": 5,
+           "children": []
+          },
+          {
+           "id": "medical-surgical-nursing/cancer/treatment-modalities/radiation/internal-radiation-therapy-brachytherapy",
+           "name": "Internal Radiation Therapy (Brachytherapy)",
+           "depth": 5,
+           "children": [
+            {
+             "id": "medical-surgical-nursing/cancer/treatment-modalities/radiation/internal-radiation-therapy-brachytherapy/nursing-management-of-internal-radiation",
+             "name": "Nursing Management of Internal Radiation",
+             "depth": 6,
+             "children": []
+            },
+            {
+             "id": "medical-surgical-nursing/cancer/treatment-modalities/radiation/internal-radiation-therapy-brachytherapy/principles-of-radiation-protection",
+             "name": "Principles of Radiation Protection",
+             "depth": 6,
+             "children": []
+            },
+            {
+             "id": "medical-surgical-nursing/cancer/treatment-modalities/radiation/internal-radiation-therapy-brachytherapy/types-of-internal-radiation",
+             "name": "Types of Internal Radiation",
+             "depth": 6,
+             "children": []
+            }
+           ]
+          },
+          {
+           "id": "medical-surgical-nursing/cancer/treatment-modalities/radiation/radiation-therapy",
+           "name": "Radiation Therapy",
+           "depth": 5,
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "medical-surgical-nursing/cancer/treatment-modalities/surgery",
+         "name": "Surgery",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "medical-surgical-nursing/cancer/warning-signs-of-cancer",
+       "name": "Warning Signs of Cancer",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "medical-surgical-nursing/cardiovascular",
+     "name": "Cardiovascular",
+     "depth": 2,
+     "children": [
+      {
+       "id": "medical-surgical-nursing/cardiovascular/coronary-arteries",
+       "name": "Coronary Arteries",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/cardiovascular/ecg-leads",
+       "name": "ECG Leads",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/cardiovascular/heart-sounds",
+       "name": "Heart Sounds",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/cardiovascular/mi",
+       "name": "MI",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/cardiovascular/pericardial-fluid",
+       "name": "Pericardial Fluid",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/cardiovascular/peripheral-vascular-diseases",
+       "name": "Peripheral Vascular Diseases",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/cardiovascular/who-blood-pressure-categories",
+       "name": "WHO Blood Pressure Categories",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "medical-surgical-nursing/emergency-and-disaster-nursing",
+     "name": "Emergency and Disaster Nursing",
+     "depth": 2,
+     "children": [
+      {
+       "id": "medical-surgical-nursing/emergency-and-disaster-nursing/chosen-emergency-conditions",
+       "name": "Chosen Emergency Conditions",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/emergency-and-disaster-nursing/chosen-emergency-conditions/burns",
+         "name": "Burns",
+         "depth": 4,
+         "children": [
+          {
+           "id": "medical-surgical-nursing/emergency-and-disaster-nursing/chosen-emergency-conditions/burns/causes-of-burns",
+           "name": "Causes of Burns",
+           "depth": 5,
+           "children": []
+          },
+          {
+           "id": "medical-surgical-nursing/emergency-and-disaster-nursing/chosen-emergency-conditions/burns/degrees-of-burns",
+           "name": "Degrees of Burns",
+           "depth": 5,
+           "children": []
+          },
+          {
+           "id": "medical-surgical-nursing/emergency-and-disaster-nursing/chosen-emergency-conditions/burns/first-aid-race-and-pass",
+           "name": "First Aid, RACE and PASS",
+           "depth": 5,
+           "children": []
+          },
+          {
+           "id": "medical-surgical-nursing/emergency-and-disaster-nursing/chosen-emergency-conditions/burns/management-of-burns",
+           "name": "Management of Burns",
+           "depth": 5,
+           "children": [
+            {
+             "id": "medical-surgical-nursing/emergency-and-disaster-nursing/chosen-emergency-conditions/burns/management-of-burns/antimicrobials-for-burns",
+             "name": "Antimicrobials for Burns",
+             "depth": 6,
+             "children": []
+            },
+            {
+             "id": "medical-surgical-nursing/emergency-and-disaster-nursing/chosen-emergency-conditions/burns/management-of-burns/other-burns-management",
+             "name": "Other Burns Management",
+             "depth": 6,
+             "children": []
+            },
+            {
+             "id": "medical-surgical-nursing/emergency-and-disaster-nursing/chosen-emergency-conditions/burns/management-of-burns/pain-infection-nutrition",
+             "name": "Pain, Infection, Nutrition",
+             "depth": 6,
+             "children": []
+            },
+            {
+             "id": "medical-surgical-nursing/emergency-and-disaster-nursing/chosen-emergency-conditions/burns/management-of-burns/rule-of-nines",
+             "name": "Rule of Nines",
+             "depth": 6,
+             "children": []
+            },
+            {
+             "id": "medical-surgical-nursing/emergency-and-disaster-nursing/chosen-emergency-conditions/burns/management-of-burns/wound-care",
+             "name": "Wound Care",
+             "depth": 6,
+             "children": [
+              {
+               "id": "medical-surgical-nursing/emergency-and-disaster-nursing/chosen-emergency-conditions/burns/management-of-burns/wound-care/different-methods-of-wound-care",
+               "name": "Different Methods of Wound Care",
+               "depth": 7,
+               "children": []
+              },
+              {
+               "id": "medical-surgical-nursing/emergency-and-disaster-nursing/chosen-emergency-conditions/burns/management-of-burns/wound-care/hydrotherapy-and-debridement",
+               "name": "Hydrotherapy and Debridement",
+               "depth": 7,
+               "children": []
+              },
+              {
+               "id": "medical-surgical-nursing/emergency-and-disaster-nursing/chosen-emergency-conditions/burns/management-of-burns/wound-care/skin-grafting",
+               "name": "Skin Grafting",
+               "depth": 7,
+               "children": []
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "medical-surgical-nursing/emergency-and-disaster-nursing/chosen-emergency-conditions/burns/stages-of-burns",
+           "name": "Stages of Burns",
+           "depth": 5,
+           "children": [
+            {
+             "id": "medical-surgical-nursing/emergency-and-disaster-nursing/chosen-emergency-conditions/burns/stages-of-burns/acute-phase",
+             "name": "Acute Phase",
+             "depth": 6,
+             "children": []
+            },
+            {
+             "id": "medical-surgical-nursing/emergency-and-disaster-nursing/chosen-emergency-conditions/burns/stages-of-burns/emergent-phase",
+             "name": "Emergent Phase",
+             "depth": 6,
+             "children": []
+            },
+            {
+             "id": "medical-surgical-nursing/emergency-and-disaster-nursing/chosen-emergency-conditions/burns/stages-of-burns/rehabilitation-stage",
+             "name": "Rehabilitation Stage",
+             "depth": 6,
+             "children": []
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "medical-surgical-nursing/emergency-and-disaster-nursing/disaster-nursing-concepts",
+       "name": "Disaster Nursing Concepts",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/emergency-and-disaster-nursing/disaster-nursing-concepts/basic-concepts",
+         "name": "Basic Concepts",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/emergency-and-disaster-nursing/disaster-nursing-concepts/disaster-management-continuum",
+         "name": "Disaster Management Continuum",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/emergency-and-disaster-nursing/disaster-nursing-concepts/nato-triage-system",
+         "name": "NATO Triage System",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/emergency-and-disaster-nursing/disaster-nursing-concepts/ndrrmc",
+         "name": "NDRRMC",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "medical-surgical-nursing/emergency-and-disaster-nursing/issues-in-er-nursing",
+       "name": "Issues in ER Nursing",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/emergency-and-disaster-nursing/primary-and-secondary-survey",
+       "name": "Primary and Secondary Survey",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/emergency-and-disaster-nursing/primary-and-secondary-survey/primary-survey",
+         "name": "Primary Survey",
+         "depth": 4,
+         "children": [
+          {
+           "id": "medical-surgical-nursing/emergency-and-disaster-nursing/primary-and-secondary-survey/primary-survey/airway",
+           "name": "Airway",
+           "depth": 5,
+           "children": []
+          },
+          {
+           "id": "medical-surgical-nursing/emergency-and-disaster-nursing/primary-and-secondary-survey/primary-survey/breathing",
+           "name": "Breathing",
+           "depth": 5,
+           "children": []
+          },
+          {
+           "id": "medical-surgical-nursing/emergency-and-disaster-nursing/primary-and-secondary-survey/primary-survey/circulation-and-shock",
+           "name": "Circulation and Shock",
+           "depth": 5,
+           "children": [
+            {
+             "id": "medical-surgical-nursing/emergency-and-disaster-nursing/primary-and-secondary-survey/primary-survey/circulation-and-shock/early-vs-late-stage-of-shock",
+             "name": "Early vs Late Stage of Shock",
+             "depth": 6,
+             "children": []
+            },
+            {
+             "id": "medical-surgical-nursing/emergency-and-disaster-nursing/primary-and-secondary-survey/primary-survey/circulation-and-shock/management-of-shock",
+             "name": "Management of Shock",
+             "depth": 6,
+             "children": []
+            },
+            {
+             "id": "medical-surgical-nursing/emergency-and-disaster-nursing/primary-and-secondary-survey/primary-survey/circulation-and-shock/types-of-shock",
+             "name": "Types of Shock",
+             "depth": 6,
+             "children": []
+            }
+           ]
+          },
+          {
+           "id": "medical-surgical-nursing/emergency-and-disaster-nursing/primary-and-secondary-survey/primary-survey/disability",
+           "name": "Disability",
+           "depth": 5,
+           "children": []
+          },
+          {
+           "id": "medical-surgical-nursing/emergency-and-disaster-nursing/primary-and-secondary-survey/primary-survey/exposure",
+           "name": "Exposure",
+           "depth": 5,
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "medical-surgical-nursing/emergency-and-disaster-nursing/primary-and-secondary-survey/primary-vs-secondary-survey",
+         "name": "Primary vs Secondary Survey",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "medical-surgical-nursing/emergency-and-disaster-nursing/routine-or-ed-triage",
+       "name": "Routine or ED Triage",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/emergency-and-disaster-nursing/routine-or-ed-triage/ctas",
+         "name": "CTAS",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/emergency-and-disaster-nursing/routine-or-ed-triage/esi",
+         "name": "ESI",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/emergency-and-disaster-nursing/routine-or-ed-triage/pena",
+         "name": "PENA",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/emergency-and-disaster-nursing/routine-or-ed-triage/three-level-triage",
+         "name": "Three-Level Triage",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/emergency-and-disaster-nursing/routine-or-ed-triage/triage",
+         "name": "Triage",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "medical-surgical-nursing/endocrine",
+     "name": "Endocrine",
+     "depth": 2,
+     "children": [
+      {
+       "id": "medical-surgical-nursing/endocrine/adh-di-and-siadh",
+       "name": "ADH: DI and SIADH",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/endocrine/adh-di-and-siadh/basic-concepts-of-adh-and-fluids",
+         "name": "Basic Concepts of ADH and Fluids",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/endocrine/adh-di-and-siadh/di",
+         "name": "DI",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/endocrine/adh-di-and-siadh/siadh",
+         "name": "SIADH",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "medical-surgical-nursing/endocrine/adrenal-disorders",
+       "name": "Adrenal Disorders",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/endocrine/adrenal-disorders/addison-s",
+         "name": "Addison's",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/endocrine/adrenal-disorders/adrenal-gland-and-hormones",
+         "name": "Adrenal Gland and Hormones",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/endocrine/adrenal-disorders/conn-s",
+         "name": "Conn's",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/endocrine/adrenal-disorders/cushing-s",
+         "name": "Cushing's",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "medical-surgical-nursing/endocrine/diabetes-mellitus",
+       "name": "Diabetes Mellitus",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/endocrine/pituitary",
+       "name": "Pituitary",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/endocrine/pituitary/pituitary-gland-hormones",
+         "name": "Pituitary Gland Hormones",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "medical-surgical-nursing/endocrine/pth",
+       "name": "PTH",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/endocrine/pth/hyperparathyroidism",
+         "name": "Hyperparathyroidism",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/endocrine/pth/hypoparathyroidism",
+         "name": "Hypoparathyroidism",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/endocrine/pth/pth-and-hormones",
+         "name": "PTH and Hormones",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "medical-surgical-nursing/endocrine/thyroid-disorders",
+       "name": "Thyroid Disorders",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/endocrine/thyroid-disorders/hyperthyroidism",
+         "name": "Hyperthyroidism",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/endocrine/thyroid-disorders/hypothyroidism",
+         "name": "Hypothyroidism",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/endocrine/thyroid-disorders/thyroid-gland-and-hormones",
+         "name": "Thyroid Gland and Hormones",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "medical-surgical-nursing/fluids-electrolytes-and-acid-base",
+     "name": "Fluids, Electrolytes and Acid-Base",
+     "depth": 2,
+     "children": [
+      {
+       "id": "medical-surgical-nursing/fluids-electrolytes-and-acid-base/acid-base",
+       "name": "Acid-Base",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/fluids-electrolytes-and-acid-base/acid-base/acidosis-vs-alkalosis",
+         "name": "Acidosis vs Alkalosis",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "medical-surgical-nursing/fluids-electrolytes-and-acid-base/calcium",
+       "name": "Calcium",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/fluids-electrolytes-and-acid-base/iv-fluids",
+       "name": "IV Fluids",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/fluids-electrolytes-and-acid-base/magnesium",
+       "name": "Magnesium",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/fluids-electrolytes-and-acid-base/phosphorus",
+       "name": "Phosphorus",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/fluids-electrolytes-and-acid-base/potassium",
+       "name": "Potassium",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/fluids-electrolytes-and-acid-base/sodium",
+       "name": "Sodium",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "medical-surgical-nursing/gi-and-hepatobiliary",
+     "name": "GI and Hepatobiliary",
+     "depth": 2,
+     "children": [
+      {
+       "id": "medical-surgical-nursing/gi-and-hepatobiliary/acute-phase-management",
+       "name": "Acute Phase Management",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/gi-and-hepatobiliary/appendicitis",
+       "name": "Appendicitis",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/gi-and-hepatobiliary/cholecystitis",
+       "name": "Cholecystitis",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/gi-and-hepatobiliary/diverticular-disease",
+       "name": "Diverticular Disease",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/gi-and-hepatobiliary/gerd",
+       "name": "GERD",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/gi-and-hepatobiliary/liver-cirrhosis",
+       "name": "Liver Cirrhosis",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/gi-and-hepatobiliary/pancreatitis",
+       "name": "Pancreatitis",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/gi-and-hepatobiliary/pancreatitis/acute-pancreatitis",
+         "name": "Acute Pancreatitis",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/gi-and-hepatobiliary/pancreatitis/chronic-pancreatitis",
+         "name": "Chronic Pancreatitis",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "medical-surgical-nursing/gi-and-hepatobiliary/pud",
+       "name": "PUD",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/gi-and-hepatobiliary/pud/dumping-syndrome",
+         "name": "Dumping Syndrome",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/gi-and-hepatobiliary/pud/gastric-vs-duodenal",
+         "name": "Gastric vs Duodenal",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/gi-and-hepatobiliary/pud/risk-factors-and-management",
+         "name": "Risk Factors and Management",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/gi-and-hepatobiliary/pud/surgical-procedures-of-pud",
+         "name": "Surgical Procedures of PUD",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "medical-surgical-nursing/hematology",
+     "name": "Hematology",
+     "depth": 2,
+     "children": [
+      {
+       "id": "medical-surgical-nursing/hematology/aplastic-anemia",
+       "name": "Aplastic Anemia",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/hematology/bleeding-precautions",
+       "name": "Bleeding Precautions",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/hematology/hemophilia",
+       "name": "Hemophilia",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/hematology/infection-precautions",
+       "name": "Infection Precautions",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/hematology/iron-deficiency-anemia",
+       "name": "Iron-Deficiency Anemia",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/hematology/megaloblastic-anemia",
+       "name": "Megaloblastic Anemia",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/hematology/myeloid-vs-lymphoid-lineage",
+       "name": "Myeloid vs Lymphoid Lineage",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/hematology/polycythemia-vera",
+       "name": "Polycythemia Vera",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/hematology/sickle-cell-anemia",
+       "name": "Sickle Cell Anemia",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "medical-surgical-nursing/immunology",
+     "name": "Immunology",
+     "depth": 2,
+     "children": [
+      {
+       "id": "medical-surgical-nursing/immunology/anaphylaxis",
+       "name": "Anaphylaxis",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/immunology/hiv",
+       "name": "HIV",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/immunology/hiv/aids",
+         "name": "AIDS",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "medical-surgical-nursing/immunology/immune-system",
+       "name": "Immune System",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/immunology/multiple-myeloma",
+       "name": "Multiple Myeloma",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/immunology/ra-and-oa",
+       "name": "RA and OA",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/immunology/rheumatoid-arthritis",
+       "name": "Rheumatoid Arthritis",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/immunology/scleroderma",
+       "name": "Scleroderma",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/immunology/sjogren-s-syndrome",
+       "name": "Sjogren's Syndrome",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/immunology/sle",
+       "name": "SLE",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "medical-surgical-nursing/msk",
+     "name": "MSK",
+     "depth": 2,
+     "children": [
+      {
+       "id": "medical-surgical-nursing/msk/arthritis",
+       "name": "Arthritis",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/msk/arthritis/comparison-of-arthritis",
+         "name": "Comparison of Arthritis",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/msk/arthritis/gout",
+         "name": "Gout",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "medical-surgical-nursing/msk/carpal-tunnel-syndrome",
+       "name": "Carpal Tunnel Syndrome",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/msk/de-quervain-syndrome",
+       "name": "De Quervain Syndrome",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/msk/dupuytren-s-contracture",
+       "name": "Dupuytren's Contracture",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/msk/fibromyalgia",
+       "name": "Fibromyalgia",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/msk/herniated-nucleus-pulposus",
+       "name": "Herniated Nucleus Pulposus",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/msk/hip-replacement",
+       "name": "Hip Replacement",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/msk/legg-calve-perthes-disease",
+       "name": "Legg-Calve-Perthes Disease",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/msk/limb-amputation",
+       "name": "Limb Amputation",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/msk/limb-amputation/postoperative-interventions",
+         "name": "Postoperative Interventions",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/msk/limb-amputation/preoperative-interventions",
+         "name": "Preoperative Interventions",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/msk/limb-amputation/stump-care",
+         "name": "Stump Care",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "medical-surgical-nursing/msk/msk-interventions",
+       "name": "MSK Interventions",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/msk/msk-interventions/assistive-devices-for-walking-cane-and-walker",
+         "name": "Assistive Devices for Walking (Cane and Walker)",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/msk/msk-interventions/assistive-devices-for-walking-crutches",
+         "name": "Assistive Devices for Walking (Crutches)",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/msk/msk-interventions/cast",
+         "name": "Cast",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/msk/msk-interventions/exercises",
+         "name": "Exercises",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/msk/msk-interventions/traction",
+         "name": "Traction",
+         "depth": 4,
+         "children": [
+          {
+           "id": "medical-surgical-nursing/msk/msk-interventions/traction/nursing-care-of-traction",
+           "name": "Nursing Care of Traction",
+           "depth": 5,
+           "children": []
+          },
+          {
+           "id": "medical-surgical-nursing/msk/msk-interventions/traction/skeletal-traction",
+           "name": "Skeletal Traction",
+           "depth": 5,
+           "children": [
+            {
+             "id": "medical-surgical-nursing/msk/msk-interventions/traction/skeletal-traction/balanced-suspension",
+             "name": "Balanced Suspension",
+             "depth": 6,
+             "children": []
+            },
+            {
+             "id": "medical-surgical-nursing/msk/msk-interventions/traction/skeletal-traction/thomas-splint",
+             "name": "Thomas Splint",
+             "depth": 6,
+             "children": []
+            }
+           ]
+          },
+          {
+           "id": "medical-surgical-nursing/msk/msk-interventions/traction/skin-traction",
+           "name": "Skin Traction",
+           "depth": 5,
+           "children": [
+            {
+             "id": "medical-surgical-nursing/msk/msk-interventions/traction/skin-traction/bryant-traction",
+             "name": "Bryant Traction",
+             "depth": 6,
+             "children": []
+            },
+            {
+             "id": "medical-surgical-nursing/msk/msk-interventions/traction/skin-traction/buck-s-traction",
+             "name": "Buck's Traction",
+             "depth": 6,
+             "children": []
+            },
+            {
+             "id": "medical-surgical-nursing/msk/msk-interventions/traction/skin-traction/cervical-traction",
+             "name": "Cervical Traction",
+             "depth": 6,
+             "children": []
+            },
+            {
+             "id": "medical-surgical-nursing/msk/msk-interventions/traction/skin-traction/pelvic-traction",
+             "name": "Pelvic Traction",
+             "depth": 6,
+             "children": []
+            },
+            {
+             "id": "medical-surgical-nursing/msk/msk-interventions/traction/skin-traction/russell-traction",
+             "name": "Russell Traction",
+             "depth": 6,
+             "children": []
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "medical-surgical-nursing/msk/muscular-dystrophy",
+       "name": "Muscular Dystrophy",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/msk/osteomyelitis",
+       "name": "Osteomyelitis",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/msk/osteoporosis-and-osteomalacia",
+       "name": "Osteoporosis and Osteomalacia",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/msk/paget-s-disease",
+       "name": "Paget's Disease",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/msk/scoliosis-and-others",
+       "name": "Scoliosis and Others",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/msk/spinal-fusion",
+       "name": "Spinal Fusion",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/msk/the-msk-system",
+       "name": "The MSK System",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/msk/trauma",
+       "name": "Trauma",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/msk/trauma/clinical-manifestations-of-fracture",
+         "name": "Clinical Manifestations of Fracture",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/msk/trauma/collaborative-management-of-fracture",
+         "name": "Collaborative Management of Fracture",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/msk/trauma/complications-of-fracture",
+         "name": "Complications of Fracture",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/msk/trauma/key-terms-in-trauma",
+         "name": "Key Terms in Trauma",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/msk/trauma/management-of-strain-and-sprain",
+         "name": "Management of Strain and Sprain",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/msk/trauma/open-reduction",
+         "name": "Open Reduction",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/msk/trauma/types-of-fracture",
+         "name": "Types of Fracture",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "medical-surgical-nursing/neuro",
+     "name": "Neuro",
+     "depth": 2,
+     "children": [
+      {
+       "id": "medical-surgical-nursing/neuro/alzheimer-s",
+       "name": "Alzheimer's",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/neuro/autonomic-dysreflexia",
+       "name": "Autonomic Dysreflexia",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/neuro/cerebrovascular-accident",
+       "name": "Cerebrovascular Accident",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/neuro/cerebrovascular-accident/heparin",
+         "name": "Heparin",
+         "depth": 4,
+         "children": [
+          {
+           "id": "medical-surgical-nursing/neuro/cerebrovascular-accident/heparin/warfarin",
+           "name": "Warfarin",
+           "depth": 5,
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "medical-surgical-nursing/neuro/cns",
+       "name": "CNS",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/neuro/cranial-nerves-and-diseases",
+       "name": "Cranial Nerves and Diseases",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/neuro/gcs-scoring",
+       "name": "GCS Scoring",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/neuro/increased-intracranial-pressure",
+       "name": "Increased Intracranial Pressure",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/neuro/neuro-autoimmune-diseases",
+       "name": "Neuro Autoimmune Diseases",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/neuro/neuro-autoimmune-diseases/guillain-barre-syndrome",
+         "name": "Guillain-Barre Syndrome",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/neuro/neuro-autoimmune-diseases/multiple-sclerosis",
+         "name": "Multiple Sclerosis",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/neuro/neuro-autoimmune-diseases/myasthenia-gravis",
+         "name": "Myasthenia Gravis",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "medical-surgical-nursing/neuro/parkinson-s-disease",
+       "name": "Parkinson's Disease",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/neuro/pns",
+       "name": "PNS",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/neuro/seizure",
+       "name": "Seizure",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/neuro/types-of-spinal-cord-injury",
+       "name": "Types of Spinal Cord Injury",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/neuro/types-of-spinal-cord-injury/anterior-cord-syndrome",
+         "name": "Anterior Cord Syndrome",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/neuro/types-of-spinal-cord-injury/identify-the-sci",
+         "name": "Identify the SCI",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/neuro/types-of-spinal-cord-injury/posterior-cord-syndrome",
+         "name": "Posterior Cord Syndrome",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "medical-surgical-nursing/perioperative-nursing",
+     "name": "Perioperative Nursing",
+     "depth": 2,
+     "children": [
+      {
+       "id": "medical-surgical-nursing/perioperative-nursing/classification-of-surgery",
+       "name": "Classification of Surgery",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/perioperative-nursing/classification-of-surgery/according-to-extent",
+         "name": "According to Extent",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/perioperative-nursing/classification-of-surgery/according-to-reason",
+         "name": "According to Reason",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/perioperative-nursing/classification-of-surgery/according-to-risk",
+         "name": "According to Risk",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/perioperative-nursing/classification-of-surgery/according-to-urgency",
+         "name": "According to Urgency",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "medical-surgical-nursing/perioperative-nursing/instrument-decontamination",
+       "name": "Instrument Decontamination",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/perioperative-nursing/instrument-decontamination/indicators-in-sterilization",
+         "name": "Indicators in Sterilization",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/perioperative-nursing/instrument-decontamination/types-of-sterilization",
+         "name": "Types of Sterilization",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "medical-surgical-nursing/perioperative-nursing/perioperative-nursing-and-phases",
+       "name": "Perioperative Nursing and Phases",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/perioperative-nursing/phases-of-operation",
+       "name": "Phases of Operation",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/perioperative-nursing/principles-of-asepsis-and-sterility",
+       "name": "Principles of Asepsis and Sterility",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/perioperative-nursing/principles-of-asepsis-and-sterility/definition-of-terms",
+         "name": "Definition of Terms",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "medical-surgical-nursing/perioperative-nursing/stages-of-anesthesia",
+       "name": "Stages of Anesthesia",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/perioperative-nursing/zones-of-or",
+       "name": "Zones of OR",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "medical-surgical-nursing/renal-and-urinary",
+     "name": "Renal and Urinary",
+     "depth": 2,
+     "children": [
+      {
+       "id": "medical-surgical-nursing/renal-and-urinary/access-for-hemodialysis",
+       "name": "Access for Hemodialysis",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/renal-and-urinary/aki",
+       "name": "AKI",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/renal-and-urinary/bladder-cancer",
+       "name": "Bladder Cancer",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/renal-and-urinary/bladder-cancer/bladder-cancer-basics",
+         "name": "Bladder Cancer Basics",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/renal-and-urinary/bladder-cancer/bladder-cancer-chemotherapy",
+         "name": "Bladder Cancer Chemotherapy",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/renal-and-urinary/bladder-cancer/bladder-cancer-surgery",
+         "name": "Bladder Cancer Surgery",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "medical-surgical-nursing/renal-and-urinary/bph",
+       "name": "BPH",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/renal-and-urinary/bph/bph",
+         "name": "BPH",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/renal-and-urinary/bph/management-of-bph",
+         "name": "Management of BPH",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/renal-and-urinary/bph/prostatectomy",
+         "name": "Prostatectomy",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "medical-surgical-nursing/renal-and-urinary/ckd",
+       "name": "CKD",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/renal-and-urinary/hemodialysis",
+       "name": "Hemodialysis",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/renal-and-urinary/kidney-transplant",
+       "name": "Kidney Transplant",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/renal-and-urinary/peritoneal-dialysis",
+       "name": "Peritoneal Dialysis",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/renal-and-urinary/polycystic-kidney",
+       "name": "Polycystic Kidney",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/renal-and-urinary/prostate-cancer",
+       "name": "Prostate Cancer",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/renal-and-urinary/toxic-shock-syndrome",
+       "name": "Toxic Shock Syndrome",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/renal-and-urinary/urinary-calculi",
+       "name": "Urinary Calculi",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/renal-and-urinary/urinary-calculi/adjusting-urine-ph",
+         "name": "Adjusting Urine pH",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/renal-and-urinary/urinary-calculi/clinical-manifestations",
+         "name": "Clinical Manifestations",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/renal-and-urinary/urinary-calculi/management",
+         "name": "Management",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/renal-and-urinary/urinary-calculi/types-of-urinary-calculi",
+         "name": "Types of Urinary Calculi",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/renal-and-urinary/urinary-calculi/urinary-calculi-basics",
+         "name": "Urinary Calculi Basics",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "medical-surgical-nursing/respiratory",
+     "name": "Respiratory",
+     "depth": 2,
+     "children": [
+      {
+       "id": "medical-surgical-nursing/respiratory/ards",
+       "name": "ARDS",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/respiratory/bronchial-asthma",
+       "name": "Bronchial Asthma",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/respiratory/chest-tube",
+       "name": "Chest Tube",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/respiratory/copd",
+       "name": "COPD",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/respiratory/copd/chronic-bronchitis",
+         "name": "Chronic Bronchitis",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/respiratory/copd/emphysema",
+         "name": "Emphysema",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "medical-surgical-nursing/respiratory/epistaxis",
+       "name": "Epistaxis",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/respiratory/pleural-effusion",
+       "name": "Pleural Effusion",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/respiratory/pneumothorax-and-hemothorax",
+       "name": "Pneumothorax and Hemothorax",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/respiratory/sinusitis",
+       "name": "Sinusitis",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/respiratory/the-respiratory-system",
+       "name": "The Respiratory System",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/respiratory/the-respiratory-system/lower-respiratory-airway",
+         "name": "Lower Respiratory Airway",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/respiratory/the-respiratory-system/upper-respiratory-airway",
+         "name": "Upper Respiratory Airway",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "medical-surgical-nursing/respiratory/tonsillectomy-and-adenoidectomy",
+       "name": "Tonsillectomy and Adenoidectomy",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "medical-surgical-nursing/respiratory/tonsillitis-and-adenoiditis",
+       "name": "Tonsillitis and Adenoiditis",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "medical-surgical-nursing/special-senses",
+     "name": "Special Senses",
+     "depth": 2,
+     "children": [
+      {
+       "id": "medical-surgical-nursing/special-senses/ears",
+       "name": "Ears",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/special-senses/ears/acoustic-neuroma",
+         "name": "Acoustic Neuroma",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/special-senses/ears/care-of-client-undergoing-ear-surgery",
+         "name": "Care of Client Undergoing Ear Surgery",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/special-senses/ears/conductive-vs-sensorineural-hearing-loss",
+         "name": "Conductive vs Sensorineural Hearing Loss",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/special-senses/ears/ear-assessments",
+         "name": "Ear Assessments",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/special-senses/ears/ear-disorders",
+         "name": "Ear Disorders",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/special-senses/ears/meniere-s-disease",
+         "name": "Meniere's Disease",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/special-senses/ears/otosclerosis",
+         "name": "Otosclerosis",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/special-senses/ears/the-ears",
+         "name": "The Ears",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "medical-surgical-nursing/special-senses/eyes",
+       "name": "Eyes",
+       "depth": 3,
+       "children": [
+        {
+         "id": "medical-surgical-nursing/special-senses/eyes/care-of-the-blind-person",
+         "name": "Care of the Blind Person",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/special-senses/eyes/cataract",
+         "name": "Cataract",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/special-senses/eyes/eye-assessments",
+         "name": "Eye Assessments",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/special-senses/eyes/glaucoma",
+         "name": "Glaucoma",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/special-senses/eyes/macular-degeneration",
+         "name": "Macular Degeneration",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/special-senses/eyes/other-disorders-of-the-eye",
+         "name": "Other Disorders of the Eye",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/special-senses/eyes/other-surgical-management-of-the-eye",
+         "name": "Other Surgical Management of the Eye",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/special-senses/eyes/postoperative-care-after-eye-surgery",
+         "name": "Postoperative Care After Eye Surgery",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/special-senses/eyes/preoperative-care-for-eye-surgery",
+         "name": "Preoperative Care for Eye Surgery",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/special-senses/eyes/refractive-disorders",
+         "name": "Refractive Disorders",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/special-senses/eyes/retinal-detachment",
+         "name": "Retinal Detachment",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/special-senses/eyes/sympathetic-ophthalmia",
+         "name": "Sympathetic Ophthalmia",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/special-senses/eyes/the-eyes",
+         "name": "The Eyes",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/special-senses/eyes/trauma-to-the-eye",
+         "name": "Trauma to the Eye",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "medical-surgical-nursing/special-senses/eyes/tumors-of-the-eye",
+         "name": "Tumors of the Eye",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "np": [
+    "NP3",
+    "NP4"
+   ]
+  },
+  {
+   "id": "ob-nursing",
+   "name": "OB Nursing",
+   "depth": 1,
+   "children": [
+    {
+     "id": "ob-nursing/common-complications",
+     "name": "Common Complications",
+     "depth": 2,
+     "children": [
+      {
+       "id": "ob-nursing/common-complications/abortion",
+       "name": "Abortion",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "ob-nursing/common-complications/abruptio-placenta",
+       "name": "Abruptio Placenta",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "ob-nursing/common-complications/cord-prolapse",
+       "name": "Cord Prolapse",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "ob-nursing/common-complications/ectopic-pregnancy",
+       "name": "Ectopic Pregnancy",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "ob-nursing/common-complications/gestational-diabetes",
+       "name": "Gestational Diabetes",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "ob-nursing/common-complications/hemolytic-disease-of-the-newborn",
+       "name": "Hemolytic Disease of the Newborn",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "ob-nursing/common-complications/hydatidiform-mole",
+       "name": "Hydatidiform Mole",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "ob-nursing/common-complications/hyperemesis-gravidarum",
+       "name": "Hyperemesis Gravidarum",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "ob-nursing/common-complications/incompetent-cervix",
+       "name": "Incompetent Cervix",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "ob-nursing/common-complications/placenta-previa",
+       "name": "Placenta Previa",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "ob-nursing/common-complications/premature-rupture-of-membranes",
+       "name": "Premature Rupture of Membranes",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "ob-nursing/common-complications/shoulder-dystocia",
+       "name": "Shoulder Dystocia",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "ob-nursing/common-complications/toxemia",
+       "name": "Toxemia",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "ob-nursing/normal-labor-and-delivery",
+     "name": "Normal Labor and Delivery",
+     "depth": 2,
+     "children": [
+      {
+       "id": "ob-nursing/normal-labor-and-delivery/cardinal-signs-of-labor",
+       "name": "Cardinal Signs of Labor",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "ob-nursing/normal-labor-and-delivery/components-of-labor",
+       "name": "Components of Labor",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "ob-nursing/normal-labor-and-delivery/fetal-heart-rate-monitoring-and-interpretation",
+       "name": "Fetal Heart Rate Monitoring and Interpretation",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "ob-nursing/normal-labor-and-delivery/labor-pain-management-and-support",
+       "name": "Labor Pain Management and Support",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "ob-nursing/normal-labor-and-delivery/stages-of-labor",
+       "name": "Stages of Labor",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "ob-nursing/normal-labor-and-delivery/true-vs-false-labor-contractions",
+       "name": "True vs False Labor Contractions",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "ob-nursing/normal-pregnancy",
+     "name": "Normal Pregnancy",
+     "depth": 2,
+     "children": [
+      {
+       "id": "ob-nursing/normal-pregnancy/adaptations-of-pregnancy",
+       "name": "Adaptations of Pregnancy",
+       "depth": 3,
+       "children": [
+        {
+         "id": "ob-nursing/normal-pregnancy/adaptations-of-pregnancy/cardiovascular-changes",
+         "name": "Cardiovascular Changes",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "ob-nursing/normal-pregnancy/adaptations-of-pregnancy/endocrine-changes",
+         "name": "Endocrine Changes",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "ob-nursing/normal-pregnancy/adaptations-of-pregnancy/gi-changes",
+         "name": "GI Changes",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "ob-nursing/normal-pregnancy/adaptations-of-pregnancy/other-changes",
+         "name": "Other Changes",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "ob-nursing/normal-pregnancy/antepartum-care",
+       "name": "Antepartum Care",
+       "depth": 3,
+       "children": [
+        {
+         "id": "ob-nursing/normal-pregnancy/antepartum-care/fetal-well-being",
+         "name": "Fetal Well-being",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "ob-nursing/normal-pregnancy/antepartum-care/maternal-well-being",
+         "name": "Maternal Well-being",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "ob-nursing/normal-pregnancy/discomforts-and-risk-factors-of-pregnancy",
+       "name": "Discomforts and Risk Factors of Pregnancy",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "ob-nursing/normal-pregnancy/fetal-growth-and-development",
+       "name": "Fetal Growth and Development",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "ob-nursing/normal-pregnancy/health-teachings",
+       "name": "Health Teachings",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "ob-nursing/normal-pregnancy/signs-and-symptoms-of-pregnancy",
+       "name": "Signs and Symptoms of Pregnancy",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "ob-nursing/normal-pregnancy/trimesters",
+       "name": "Trimesters",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "ob-nursing/others",
+     "name": "Others",
+     "depth": 2,
+     "children": [
+      {
+       "id": "ob-nursing/others/einc",
+       "name": "EINC",
+       "depth": 3,
+       "children": [
+        {
+         "id": "ob-nursing/others/einc/einc-basics",
+         "name": "EINC Basics",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "ob-nursing/others/einc/immediate-drying-and-skin-to-skin-contact",
+         "name": "Immediate Drying and Skin-to-Skin Contact",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "ob-nursing/others/einc/non-separation-and-breastfeeding-initiation",
+         "name": "Non-Separation and Breastfeeding Initiation",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "ob-nursing/others/einc/others",
+         "name": "Others",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "ob-nursing/others/einc/proper-cord-clamping-and-cutting",
+         "name": "Proper Cord Clamping and Cutting",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "ob-nursing/others/hormones-in-menstrual-cycle",
+       "name": "Hormones in Menstrual Cycle",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "ob-nursing/postpartum-changes",
+     "name": "Postpartum Changes",
+     "depth": 2,
+     "children": []
+    }
+   ],
+   "np": [
+    "NP2"
+   ]
+  },
+  {
+   "id": "palmer",
+   "name": "PALMER",
+   "depth": 1,
+   "children": [
+    {
+     "id": "palmer/leadership-and-management-final-coaching",
+     "name": "Leadership and Management Final Coaching",
+     "depth": 2,
+     "children": [
+      {
+       "id": "palmer/leadership-and-management-final-coaching/budget",
+       "name": "Budget",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/leadership-and-management-final-coaching/communication-within-the-organization",
+       "name": "Communication within the Organization",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/leadership-and-management-final-coaching/conflict-resolution-strategies",
+       "name": "Conflict Resolution Strategies",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/leadership-and-management-final-coaching/controlling",
+       "name": "Controlling",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/leadership-and-management-final-coaching/delegation",
+       "name": "Delegation",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/leadership-and-management-final-coaching/management-process",
+       "name": "Management Process",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/leadership-and-management-final-coaching/modalities-of-care",
+       "name": "Modalities of Care",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/leadership-and-management-final-coaching/problem-solving-and-decision-making",
+       "name": "Problem Solving and Decision Making",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/leadership-and-management-final-coaching/styles-of-leadership",
+       "name": "Styles of Leadership",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "palmer/professional-adjustment",
+     "name": "Professional Adjustment",
+     "depth": 2,
+     "children": [
+      {
+       "id": "palmer/professional-adjustment/bioethical-principles",
+       "name": "Bioethical Principles",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/professional-adjustment/code-of-ethics",
+       "name": "Code of Ethics",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/professional-adjustment/confidentiality-anonymity-and-privacy",
+       "name": "Confidentiality, Anonymity and Privacy",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/professional-adjustment/doctrines-of-negligence",
+       "name": "Doctrines of Negligence",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/professional-adjustment/informed-consent",
+       "name": "Informed Consent",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/professional-adjustment/malpractice-and-negligence",
+       "name": "Malpractice and Negligence",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/professional-adjustment/patient-s-autonomy",
+       "name": "Patient's Autonomy",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/professional-adjustment/torts",
+       "name": "Torts",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "palmer/research-a",
+     "name": "Research A",
+     "depth": 2,
+     "children": [
+      {
+       "id": "palmer/research-a/analyzing-data",
+       "name": "Analyzing Data",
+       "depth": 3,
+       "children": [
+        {
+         "id": "palmer/research-a/analyzing-data/central-tendency",
+         "name": "Central Tendency",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "palmer/research-a/analyzing-data/correlation-index-result",
+         "name": "Correlation Index Result",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "palmer/research-a/analyzing-data/measures-of-variability",
+         "name": "Measures of Variability",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "palmer/research-a/errors",
+       "name": "Errors",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/research-a/ethical-principles",
+       "name": "Ethical Principles",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/research-a/heterogeneity",
+       "name": "Heterogeneity",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/research-a/hypothesis",
+       "name": "Hypothesis",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/research-a/levels-of-measurement",
+       "name": "Levels of Measurement",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/research-a/literature-review",
+       "name": "Literature Review",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/research-a/population",
+       "name": "Population",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/research-a/qualitative",
+       "name": "Qualitative",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/research-a/quantitative",
+       "name": "Quantitative",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/research-a/reliability-validity-and-trustworthiness",
+       "name": "Reliability, Validity and Trustworthiness",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/research-a/research-design",
+       "name": "Research Design",
+       "depth": 3,
+       "children": [
+        {
+         "id": "palmer/research-a/research-design/time-frame-for-studying-the-sample",
+         "name": "Time Frame for Studying the Sample",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "palmer/research-a/research-design/types",
+         "name": "Types",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "palmer/research-a/research-ethics",
+       "name": "Research Ethics",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/research-a/sampling-concepts",
+       "name": "Sampling Concepts",
+       "depth": 3,
+       "children": [
+        {
+         "id": "palmer/research-a/sampling-concepts/definitions",
+         "name": "Definitions",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "palmer/research-a/sampling-concepts/non-probability-sampling",
+         "name": "Non-Probability Sampling",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "palmer/research-a/sampling-concepts/probability-sampling",
+         "name": "Probability Sampling",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "palmer/research-a/theory-generation-and-development",
+       "name": "Theory Generation and Development",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/research-a/types-of-research",
+       "name": "Types of Research",
+       "depth": 3,
+       "children": [
+        {
+         "id": "palmer/research-a/types-of-research/according-to-design",
+         "name": "According to Design",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "palmer/research-a/types-of-research/according-to-purpose",
+         "name": "According to Purpose",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "palmer/research-a/variables",
+       "name": "Variables",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "palmer/research-b",
+     "name": "Research B",
+     "depth": 2,
+     "children": [
+      {
+       "id": "palmer/research-b/analysis",
+       "name": "Analysis",
+       "depth": 3,
+       "children": [
+        {
+         "id": "palmer/research-b/analysis/descriptive-analysis",
+         "name": "Descriptive Analysis",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "palmer/research-b/analysis/inferential-analysis",
+         "name": "Inferential Analysis",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "palmer/research-b/basic-concepts-in-research",
+       "name": "Basic Concepts in Research",
+       "depth": 3,
+       "children": [
+        {
+         "id": "palmer/research-b/basic-concepts-in-research/definitions-in-research",
+         "name": "Definitions in Research",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "palmer/research-b/basic-concepts-in-research/importance-of-research",
+         "name": "Importance of Research",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "palmer/research-b/basic-concepts-in-research/sources-of-knowledge",
+         "name": "Sources of Knowledge",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "palmer/research-b/basic-rights-of-research-subjects",
+       "name": "Basic Rights of Research Subjects",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/research-b/clinical-trials",
+       "name": "Clinical Trials",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/research-b/criteria-in-qualitative-research",
+       "name": "Criteria in Qualitative Research",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/research-b/data-collection",
+       "name": "Data Collection",
+       "depth": 3,
+       "children": [
+        {
+         "id": "palmer/research-b/data-collection/criteria-for-effectivity-of-tool",
+         "name": "Criteria for Effectivity of Tool",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "palmer/research-b/data-collection/major-forms-of-data-collection",
+         "name": "Major Forms of Data Collection",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "palmer/research-b/hypothesis",
+       "name": "Hypothesis",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/research-b/levels-of-measurements",
+       "name": "Levels of Measurements",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "palmer/research-b/major-steps-of-research-process",
+       "name": "Major Steps of Research Process",
+       "depth": 3,
+       "children": [
+        {
+         "id": "palmer/research-b/major-steps-of-research-process/definitions-in-research-process",
+         "name": "Definitions in Research Process",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "palmer/research-b/major-steps-of-research-process/phases-of-research-process",
+         "name": "Phases of Research Process",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "palmer/research-b/population-and-sampling",
+       "name": "Population and Sampling",
+       "depth": 3,
+       "children": [
+        {
+         "id": "palmer/research-b/population-and-sampling/definitions-in-population-and-sampling",
+         "name": "Definitions in Population and Sampling",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "palmer/research-b/population-and-sampling/methods-of-sampling",
+         "name": "Methods of Sampling",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "palmer/research-b/research-design",
+       "name": "Research Design",
+       "depth": 3,
+       "children": [
+        {
+         "id": "palmer/research-b/research-design/according-to-approach-or-design",
+         "name": "According to Approach or Design",
+         "depth": 4,
+         "children": [
+          {
+           "id": "palmer/research-b/research-design/according-to-approach-or-design/experimental",
+           "name": "Experimental",
+           "depth": 5,
+           "children": []
+          },
+          {
+           "id": "palmer/research-b/research-design/according-to-approach-or-design/non-experimental",
+           "name": "Non-experimental",
+           "depth": 5,
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "palmer/research-b/research-design/according-to-investigation",
+         "name": "According to Investigation",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "palmer/research-b/research-design/according-to-motive",
+         "name": "According to Motive",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "palmer/research-b/research-design/according-to-time-frame",
+         "name": "According to Time Frame",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "palmer/research-b/research-design/qualitative-research-designs",
+         "name": "Qualitative Research Designs",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "palmer/research-b/research-problem",
+       "name": "Research Problem",
+       "depth": 3,
+       "children": [
+        {
+         "id": "palmer/research-b/research-problem/criteria-of-a-good-research-problem",
+         "name": "Criteria of a Good Research Problem",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "palmer/research-b/research-problem/sources-of-research-problem",
+         "name": "Sources of Research Problem",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "np": [
+    "CROSS_CUTTING"
+   ]
+  },
+  {
+   "id": "pediatric-nursing",
+   "name": "Pediatric Nursing",
+   "depth": 1,
+   "children": [
+    {
+     "id": "pediatric-nursing/cancers-of-the-child",
+     "name": "Cancers of the Child",
+     "depth": 2,
+     "children": [
+      {
+       "id": "pediatric-nursing/cancers-of-the-child/brain-tumor",
+       "name": "Brain Tumor",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/cancers-of-the-child/hodgkin-s",
+       "name": "Hodgkin's",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/cancers-of-the-child/leukemia",
+       "name": "Leukemia",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/cancers-of-the-child/nephroblastoma-wilms-tumor",
+       "name": "Nephroblastoma (Wilms' Tumor)",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/cancers-of-the-child/neuroblastoma",
+       "name": "Neuroblastoma",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/cancers-of-the-child/osteosarcoma",
+       "name": "Osteosarcoma",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "pediatric-nursing/cardiovascular-disorders",
+     "name": "Cardiovascular Disorders",
+     "depth": 2,
+     "children": [
+      {
+       "id": "pediatric-nursing/cardiovascular-disorders/coarctation-of-aorta",
+       "name": "Coarctation of Aorta",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/cardiovascular-disorders/heart-failure",
+       "name": "Heart Failure",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/cardiovascular-disorders/kawasaki-disease",
+       "name": "Kawasaki Disease",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/cardiovascular-disorders/patent-ductus-arteriosus",
+       "name": "Patent Ductus Arteriosus",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/cardiovascular-disorders/rheumatic-heart-fever",
+       "name": "Rheumatic Heart Fever",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/cardiovascular-disorders/septal-defects",
+       "name": "Septal Defects",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/cardiovascular-disorders/tetralogy-of-fallot",
+       "name": "Tetralogy of Fallot",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/cardiovascular-disorders/transposition-of-the-great-arteries",
+       "name": "Transposition of the Great Arteries",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "pediatric-nursing/gi-disorders",
+     "name": "GI Disorders",
+     "depth": 2,
+     "children": [
+      {
+       "id": "pediatric-nursing/gi-disorders/celiac-disease",
+       "name": "Celiac Disease",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/gi-disorders/cleft-lip-and-palate",
+       "name": "Cleft Lip and Palate",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/gi-disorders/colostomy-care",
+       "name": "Colostomy Care",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/gi-disorders/gerd",
+       "name": "GERD",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/gi-disorders/hirschsprung-s-disease",
+       "name": "Hirschsprung's Disease",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/gi-disorders/intussusception",
+       "name": "Intussusception",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/gi-disorders/pyloric-stenosis",
+       "name": "Pyloric Stenosis",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "pediatric-nursing/growth-and-development",
+     "name": "Growth and Development",
+     "depth": 2,
+     "children": [
+      {
+       "id": "pediatric-nursing/growth-and-development/adolescent",
+       "name": "Adolescent",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/growth-and-development/developmental-milestones",
+       "name": "Developmental Milestones",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/growth-and-development/infant",
+       "name": "Infant",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/growth-and-development/kohlberg-stages-of-moral-development",
+       "name": "Kohlberg Stages of Moral Development",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/growth-and-development/other-developmental-milestones",
+       "name": "Other Developmental Milestones",
+       "depth": 3,
+       "children": [
+        {
+         "id": "pediatric-nursing/growth-and-development/other-developmental-milestones/fine-motor",
+         "name": "Fine Motor",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "pediatric-nursing/growth-and-development/other-developmental-milestones/gross-motor",
+         "name": "Gross Motor",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "pediatric-nursing/growth-and-development/other-developmental-milestones/vocabulary",
+         "name": "Vocabulary",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "pediatric-nursing/growth-and-development/preschooler",
+       "name": "Preschooler",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/growth-and-development/school-age",
+       "name": "School Age",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/growth-and-development/stages-of-separation",
+       "name": "Stages of Separation",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/growth-and-development/toddler",
+       "name": "Toddler",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "pediatric-nursing/hematologic-disorders",
+     "name": "Hematologic Disorders",
+     "depth": 2,
+     "children": [
+      {
+       "id": "pediatric-nursing/hematologic-disorders/beta-thalassemia",
+       "name": "Beta-Thalassemia",
+       "depth": 3,
+       "children": [
+        {
+         "id": "pediatric-nursing/hematologic-disorders/beta-thalassemia/beta-thalassemia-major",
+         "name": "Beta-Thalassemia Major",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "pediatric-nursing/hematologic-disorders/beta-thalassemia/types-of-beta-thalassemia",
+         "name": "Types of Beta-Thalassemia",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "pediatric-nursing/hematologic-disorders/von-willebrand-s-disease",
+       "name": "Von Willebrand's Disease",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "pediatric-nursing/integumentary-disorders",
+     "name": "Integumentary Disorders",
+     "depth": 2,
+     "children": [
+      {
+       "id": "pediatric-nursing/integumentary-disorders/eczema",
+       "name": "Eczema",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/integumentary-disorders/impetigo",
+       "name": "Impetigo",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/integumentary-disorders/pediculosis-capitis-lice",
+       "name": "Pediculosis Capitis (Lice)",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/integumentary-disorders/scabies",
+       "name": "Scabies",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "pediatric-nursing/musculoskeletal-disorders",
+     "name": "Musculoskeletal Disorders",
+     "depth": 2,
+     "children": [
+      {
+       "id": "pediatric-nursing/musculoskeletal-disorders/congenital-hip-dysplasia",
+       "name": "Congenital Hip Dysplasia",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/musculoskeletal-disorders/talipes",
+       "name": "Talipes",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "pediatric-nursing/neurologic-disorders",
+     "name": "Neurologic Disorders",
+     "depth": 2,
+     "children": [
+      {
+       "id": "pediatric-nursing/neurologic-disorders/bacterial-meningitis",
+       "name": "Bacterial Meningitis",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/neurologic-disorders/cerebral-palsy",
+       "name": "Cerebral Palsy",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/neurologic-disorders/hydrocephalus",
+       "name": "Hydrocephalus",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/neurologic-disorders/increased-icp-and-head-trauma",
+       "name": "Increased ICP and Head Trauma",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/neurologic-disorders/reye-s-syndrome",
+       "name": "Reye's Syndrome",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/neurologic-disorders/seizure-disorder",
+       "name": "Seizure Disorder",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/neurologic-disorders/spina-bifida",
+       "name": "Spina Bifida",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "pediatric-nursing/renal-disorders",
+     "name": "Renal Disorders",
+     "depth": 2,
+     "children": [
+      {
+       "id": "pediatric-nursing/renal-disorders/bladder-exstrophy",
+       "name": "Bladder Exstrophy",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/renal-disorders/cryptorchidism",
+       "name": "Cryptorchidism",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/renal-disorders/enuresis",
+       "name": "Enuresis",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/renal-disorders/epispadias-and-hypospadias",
+       "name": "Epispadias and Hypospadias",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/renal-disorders/glomerulonephritis",
+       "name": "Glomerulonephritis",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/renal-disorders/hemolytic-uremic-syndrome",
+       "name": "Hemolytic Uremic Syndrome",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/renal-disorders/nephrotic-syndrome",
+       "name": "Nephrotic Syndrome",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/renal-disorders/uti",
+       "name": "UTI",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/renal-disorders/vesicoureteral-reflux-vur",
+       "name": "Vesicoureteral Reflux (VUR)",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "pediatric-nursing/respiratory-disorders",
+     "name": "Respiratory Disorders",
+     "depth": 2,
+     "children": [
+      {
+       "id": "pediatric-nursing/respiratory-disorders/asthma",
+       "name": "Asthma",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/respiratory-disorders/croup",
+       "name": "Croup",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "pediatric-nursing/respiratory-disorders/cystic-fibrosis",
+       "name": "Cystic Fibrosis",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    }
+   ],
+   "np": [
+    "NP2"
+   ]
+  },
+  {
+   "id": "psychiatric-nursing",
+   "name": "Psychiatric Nursing",
+   "depth": 1,
+   "children": [
+    {
+     "id": "psychiatric-nursing/part-1",
+     "name": "Part 1",
+     "depth": 2,
+     "children": [
+      {
+       "id": "psychiatric-nursing/part-1/behavioral-management",
+       "name": "Behavioral Management",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "psychiatric-nursing/part-1/crisis-and-crisis-intervention",
+       "name": "Crisis and Crisis Intervention",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "psychiatric-nursing/part-1/freud-s-theory-of-personality",
+       "name": "Freud's Theory of Personality",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "psychiatric-nursing/part-1/nurse-patient-relationship",
+       "name": "Nurse-Patient Relationship",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "psychiatric-nursing/part-1/symptomatologies-of-mental-disorder",
+       "name": "Symptomatologies of Mental Disorder",
+       "depth": 3,
+       "children": [
+        {
+         "id": "psychiatric-nursing/part-1/symptomatologies-of-mental-disorder/disturbances-in-affect",
+         "name": "Disturbances in Affect",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "psychiatric-nursing/part-1/symptomatologies-of-mental-disorder/disturbances-in-memory",
+         "name": "Disturbances in Memory",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "psychiatric-nursing/part-1/symptomatologies-of-mental-disorder/disturbances-in-perception",
+         "name": "Disturbances in Perception",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "psychiatric-nursing/part-1/symptomatologies-of-mental-disorder/disturbances-in-thought",
+         "name": "Disturbances in Thought",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "psychiatric-nursing/part-1/symptomatologies-of-mental-disorder/unusual-speech-patterns",
+         "name": "Unusual Speech Patterns",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "psychiatric-nursing/part-1/therapeutic-communication",
+       "name": "Therapeutic Communication",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "psychiatric-nursing/part-2",
+     "name": "Part 2",
+     "depth": 2,
+     "children": [
+      {
+       "id": "psychiatric-nursing/part-2/anxiety",
+       "name": "Anxiety",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "psychiatric-nursing/part-2/anxiety-related-disorders",
+       "name": "Anxiety-Related Disorders",
+       "depth": 3,
+       "children": [
+        {
+         "id": "psychiatric-nursing/part-2/anxiety-related-disorders/obsessive-compulsive-disorder",
+         "name": "Obsessive-Compulsive Disorder",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "psychiatric-nursing/part-2/anxiety-related-disorders/phobic-disorder",
+         "name": "Phobic Disorder",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "psychiatric-nursing/part-2/anxiety-related-disorders/somatic-symptom-illness",
+         "name": "Somatic Symptom Illness",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "psychiatric-nursing/part-2/eating-disorders",
+       "name": "Eating Disorders",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "psychiatric-nursing/part-2/personality-disorders",
+       "name": "Personality Disorders",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "psychiatric-nursing/part-2/substance-abuse-disorders",
+       "name": "Substance Abuse Disorders",
+       "depth": 3,
+       "children": [
+        {
+         "id": "psychiatric-nursing/part-2/substance-abuse-disorders/alcoholism",
+         "name": "Alcoholism",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "psychiatric-nursing/part-2/substance-abuse-disorders/barbiturates",
+         "name": "Barbiturates",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "psychiatric-nursing/part-2/substance-abuse-disorders/basic-concepts",
+         "name": "Basic Concepts",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "psychiatric-nursing/part-2/substance-abuse-disorders/hallucinogens",
+         "name": "Hallucinogens",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "psychiatric-nursing/part-2/substance-abuse-disorders/narcotics",
+         "name": "Narcotics",
+         "depth": 4,
+         "children": []
+        },
+        {
+         "id": "psychiatric-nursing/part-2/substance-abuse-disorders/stimulants",
+         "name": "Stimulants",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "psychiatric-nursing/part-2/trauma-related-disorders",
+       "name": "Trauma-Related Disorders",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "psychiatric-nursing/part-3",
+     "name": "Part 3",
+     "depth": 2,
+     "children": [
+      {
+       "id": "psychiatric-nursing/part-3/bipolar-disorder",
+       "name": "Bipolar Disorder",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "psychiatric-nursing/part-3/delirium-vs-dementia",
+       "name": "Delirium vs Dementia",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "psychiatric-nursing/part-3/major-depressive-disorder",
+       "name": "Major Depressive Disorder",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "psychiatric-nursing/part-3/schizophrenia",
+       "name": "Schizophrenia",
+       "depth": 3,
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "psychiatric-nursing/psych-extra",
+     "name": "Psych Extra",
+     "depth": 2,
+     "children": [
+      {
+       "id": "psychiatric-nursing/psych-extra/alzheimer-s-disease",
+       "name": "Alzheimer's Disease",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "psychiatric-nursing/psych-extra/anxiety-disorder-ocrd-and-stressor-related-disorder",
+       "name": "Anxiety Disorder, OCRD and Stressor-Related Disorder",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "psychiatric-nursing/psych-extra/developmental-disorders",
+       "name": "Developmental Disorders",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "psychiatric-nursing/psych-extra/downers-uppers-and-hallucinogens",
+       "name": "Downers, Uppers and Hallucinogens",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "psychiatric-nursing/psych-extra/major-depressive-disorder",
+       "name": "Major Depressive Disorder",
+       "depth": 3,
+       "children": [
+        {
+         "id": "psychiatric-nursing/psych-extra/major-depressive-disorder/mania",
+         "name": "Mania",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "psychiatric-nursing/psych-extra/medications-for-depression",
+       "name": "Medications for Depression",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "psychiatric-nursing/psych-extra/personality-disorders",
+       "name": "Personality Disorders",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "psychiatric-nursing/psych-extra/psychiatric-disorders",
+       "name": "Psychiatric Disorders",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "psychiatric-nursing/psych-extra/substance-use-disorders",
+       "name": "Substance Use Disorders",
+       "depth": 3,
+       "children": []
+      },
+      {
+       "id": "psychiatric-nursing/psych-extra/typical",
+       "name": "Typical",
+       "depth": 3,
+       "children": [
+        {
+         "id": "psychiatric-nursing/psych-extra/typical/atypical-antipsychotics",
+         "name": "Atypical Antipsychotics",
+         "depth": 4,
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "np": [
+    "NP5"
+   ]
+  }
+ ]
+}

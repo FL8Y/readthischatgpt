@@ -1,0 +1,97 @@
+# OB Nursing — Obsidian Mind Map
+
+> Agent 4 workspace map. This map reflects the repository hierarchy inspected on 2026-10-17. Research status is tracked in [[RESEARCH LOG]]; the guide is [[RESEARCH TOPIC GUIDE]].
+
+- [[RESEARCH LOG|OB Nursing Research Log]]
+- [[RESEARCH TOPIC GUIDE|Mandatory Research Topic Guide]]
+- Normal Pregnancy
+  - Adaptations of Pregnancy
+    - Cardiovascular Changes
+    - [[Normal Pregnancy/Adaptations of Pregnancy/Cardiovascular Changes/Research|Cardiovascular Changes]]
+    - Endocrine Changes
+    - [[Normal Pregnancy/Adaptations of Pregnancy/Endocrine Changes/Research|Endocrine Changes]]
+    - GI Changes
+    - [[Normal Pregnancy/Adaptations of Pregnancy/GI Changes/Research|GI Changes]]
+    - Other Changes
+    - [[Normal Pregnancy/Adaptations of Pregnancy/Other Changes/Research|Other Physiologic Changes]]
+  - Antepartum Care
+    - Fetal Well-being
+    - [[Normal Pregnancy/Antepartum Care/Fetal Well-being/Research|Fetal Well-being Assessment]]
+    - Maternal Well-being
+    - [[Normal Pregnancy/Antepartum Care/Maternal Well-being/Research|Maternal Well-being / Antenatal Care]]
+  - Discomforts and Risk Factors of Pregnancy
+  - [[Normal Pregnancy/Discomforts and Risk Factors of Pregnancy/Research|Discomforts and Risk Factors]]
+  - Fetal Growth and Development
+  - [[Normal Pregnancy/Fetal Growth and Development/Research|Fetal Growth and Development]]
+  - Health Teachings
+  - [[Normal Pregnancy/Health Teachings/Research|Pregnancy Health Teachings]]
+  - Signs and Symptoms of Pregnancy
+  - [[Normal Pregnancy/Signs and Symptoms of Pregnancy/Research|Signs and Symptoms of Pregnancy]]
+  - Trimesters
+  - [[Normal Pregnancy/Trimesters/Research|Pregnancy Trimesters]]
+- Normal Labor and Delivery
+  - [[Normal Labor and Delivery/Labor Pain Management and Support/Research|Labor Pain Management and Support]]
+  - [[Normal Labor and Delivery/Fetal Heart Rate Monitoring and Interpretation/Research|Intrapartum Fetal Heart-Rate Monitoring and Interpretation]]
+  - Cardinal Signs of Labor
+  - [[Normal Labor and Delivery/Cardinal Signs of Labor/Research|Cardinal Signs of Labor]]
+  - Components of Labor
+  - [[Normal Labor and Delivery/Components of Labor/Research|Components of Labor / 5 Ps]]
+  - Stages of Labor
+  - [[Normal Labor and Delivery/Stages of Labor/Research|Stages of Labor]]
+  - True vs False Labor Contractions
+  - [[Normal Labor and Delivery/True vs False Labor Contractions/Research|True vs False Labor Contractions]]
+- Common Complications
+  - Abortion / Pregnancy Loss
+  - [[Common Complications/Abortion/Research|Abortion and Pregnancy Loss]]
+  - Abruptio Placenta
+  - [[Common Complications/Abruptio Placenta/Research|Placental Abruption]]
+  - Cord Prolapse
+  - [[Common Complications/Cord Prolapse/Research|Umbilical Cord Prolapse]]
+  - Ectopic Pregnancy
+  - [[Common Complications/Ectopic Pregnancy/Research|Ectopic Pregnancy]]
+  - Gestational Diabetes
+  - [[Common Complications/Gestational Diabetes/Research|Gestational Diabetes]]
+  - Hemolytic Disease of the Newborn
+  - [[Common Complications/Hemolytic Disease of the Newborn/Research|Hemolytic Disease of the Newborn]]
+  - Hydatidiform Mole
+  - [[Common Complications/Hydatidiform Mole/Research|Hydatidiform Mole]]
+  - Hyperemesis Gravidarum
+  - [[Common Complications/Hyperemesis Gravidarum/Research|Hyperemesis Gravidarum]]
+  - Incompetent Cervix
+  - [[Common Complications/Incompetent Cervix/Research|Cervical Insufficiency]]
+  - Placenta Previa
+  - [[Common Complications/Placenta Previa/Research|Placenta Previa]]
+  - Premature Rupture of Membranes
+  - [[Common Complications/Premature Rupture of Membranes/Research|PROM and PPROM]]
+  - Shoulder Dystocia
+  - [[Common Complications/Shoulder Dystocia/Research|Shoulder Dystocia]]
+  - Toxemia (legacy folder label; research should use current terminology such as hypertensive disorders of pregnancy and explain historical terminology)
+  - [[Common Complications/Toxemia/Research|Hypertensive Disorders of Pregnancy (legacy folder: Toxemia)]]
+- Postpartum Changes
+- [[Postpartum Changes/Research|Postpartum Changes and Nursing Care]]
+- Others
+  - EINC (Essential Intrapartum and Newborn Care)
+    - EINC Basics
+    - [[Others/EINC/EINC Basics/Research|EINC Basics]]
+    - Immediate Drying and Skin-to-Skin Contact
+    - [[Others/EINC/Immediate Drying and Skin-to-Skin Contact/Research|Immediate Drying and Skin-to-Skin Contact]]
+    - Non-Separation and Breastfeeding Initiation
+    - [[Others/EINC/Non-Separation and Breastfeeding Initiation/Research|Non-Separation and Breastfeeding Initiation]]
+    - Proper Cord Clamping and Cutting
+    - [[Others/EINC/Proper Cord Clamping and Cutting/Research|Proper Cord Clamping and Cutting]]
+    - Others
+    - [[Others/EINC/Others/Research|Additional EINC Care]]
+  - Hormones in Menstrual Cycle
+  - [[Others/Hormones in Menstrual Cycle/Research|Hormones in the Menstrual Cycle]]
+
+## Coverage gaps to assess
+- Reproductive anatomy, conception, and preconception care
+- Prenatal screening, nutrition, immunization, and fetal surveillance
+- Fetal heart-rate interpretation and intrapartum monitoring
+- Pain management and obstetric medications/contraindications
+- Postpartum hemorrhage, infection, lactation complications, and mental health
+- Preeclampsia/eclampsia/HELLP and other obstetric emergencies
+- Preterm labor, pregnancy loss, and family planning
+- Philippine reproductive health laws and applicable DOH guidance
+
+The coverage-gap list is an audit queue, not a claim that these topics are already present or researched. Check for duplicates before adding folders.
