@@ -6,7 +6,7 @@ import type { HomeSummary } from '../bank/home';
 import { Card, Header, Illustration, ListRow, PressableScale, ProgressRing, Screen, StatTile } from './kit';
 import { radius, space, useTheme } from './theme';
 
-type Go = (tab: 'study' | 'library') => void;
+type Go = (tab: 'study' | 'library' | 'stats') => void;
 
 const greeting = (h: number) => (h < 5 ? 'Late night study' : h < 12 ? 'Good morning' : h < 18 ? 'Good afternoon' : 'Good evening');
 

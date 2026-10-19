@@ -8,7 +8,7 @@ import { Dashboard } from './src/ui/Dashboard';
 import { Library } from './src/ui/Library';
 import { PracticeScreen } from './src/ui/practice/PracticeScreen';
 import { BankProvider } from './src/ui/practice/BankProvider';
-import { Stats } from './src/ui/practice/Stats';
+import { HomeScreen, StatsScreen } from './src/ui/practice/BankScreens';
 import { Graph } from './src/ui/Graph';
 import { Topics } from './src/ui/Topics';
 import { Settings } from './src/ui/Settings';
@@ -41,10 +41,10 @@ const unlocked = (s: AppState): AppState => ({ ...s, diagnosticsDone: s.folders.
 
 /** One entry per screen. To add or change a screen, edit only its `render`. */
 const SCREENS: Record<Exclude<Tab, 'more'>, { title: string; render: (x: Ctx) => React.ReactNode }> = {
-  home: { title: 'Home', render: (x) => <Dashboard state={x.state} go={x.go} /> },
+  home: { title: 'Home', render: (x) => <HomeScreen state={x.state} go={x.go} /> },
   practice: { title: 'Practice', render: (x) => <PracticeScreen state={x.state} update={x.update} go={x.go} registerBack={x.registerBack} /> },
   topics: { title: 'Learn', render: (x) => <Topics state={unlocked(x.state)} /> },
-  stats: { title: 'Stats', render: () => <Stats /> },
+  stats: { title: 'Stats', render: (x) => <StatsScreen go={x.go} /> },
   library: { title: 'Library', render: (x) => <Library state={x.state} update={x.update} /> },
   map: { title: 'Mind map', render: (x) => <Graph state={x.state} /> },
   tutor: { title: 'Tutor', render: (x) => <Tutor state={unlocked(x.state)} /> },
