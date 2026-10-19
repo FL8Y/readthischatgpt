@@ -164,7 +164,7 @@ export function CustomSetup({ items, attempts, flaggedIds, onStart, onBack }: Cu
         </Card>
 
         <Text style={[type('body'), { color: colors.textDim, textAlign: 'center' }]}>
-          {pool === 0 ? 'No questions match these choices.' : `${pool} match${pool === 1 ? 'es' : ''}; this session will have ${count}.`}
+          {pool === 0 ? 'No questions match these choices.' : `${pool} ${pool === 1 ? 'match' : 'matches'}; this session will have ${count}.`}
         </Text>
         <Btn label={`Start ${count || ''} questions`.replace('  ', ' ')} disabled={pool === 0} onPress={() => onStart(v)} />
       </Screen>
