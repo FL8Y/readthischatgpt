@@ -39,11 +39,25 @@ export interface BankState {
   /** Questions per day the learner wants to answer. */
   dailyGoal: number;
   requeue: RequeueMap;
+  /** Learner's board exam day, 'YYYY-MM-DD' (optional; the learning path is a rolling week without it). */
+  examDate?: string;
+  /** Study minutes per day for the learning path (optional; default 60). */
+  pathMinutes?: number;
   /** The one active (or just finished) practice session. */
   session?: PracticeSession;
 }
 
 export const DEFAULT_DAILY_GOAL = 20;
+export const DEFAULT_PATH_MINUTES = 60;
+export const MIN_PATH_MINUTES = 15;
+export const MAX_PATH_MINUTES = 240;
+
+/** True for a real calendar day written 'YYYY-MM-DD'. */
+export function isDayString(x: unknown): x is string {
+  if (typeof x !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(x)) return false;
+  const t = Date.parse(`${x}T00:00:00Z`);
+  return Number.isFinite(t) && new Date(t).toISOString().slice(0, 10) === x;
+}
 /** Three right in a row = mastered; one or two = reviewing. */
 export const MASTERED_RUN = 3;
 
@@ -92,6 +106,9 @@ export type BankAction =
   | { type: 'userItems/add'; items: BankItem[] }
   | { type: 'userItems/remove'; id: string }
   | { type: 'goal/set'; goal: number }
+  /** Set (or clear with null) the exam date. An invalid date string is ignored. */
+  | { type: 'exam/set'; date: string | null }
+  | { type: 'path/minutes'; minutes: number }
   | { type: 'state/replace'; state: BankState };
 
 function recordAttempt(state: BankState, rec: AttemptRec): BankState {
@@ -175,6 +192,19 @@ export function bankReducer(state: BankState, a: BankAction): BankState {
       return { ...state, userItems: state.userItems.filter((i) => i.id !== a.id) };
     case 'goal/set':
       return { ...state, dailyGoal: Math.max(1, Math.min(500, Math.round(a.goal) || DEFAULT_DAILY_GOAL)) };
+    case 'exam/set': {
+      if (a.date === null) {
+        if (state.examDate === undefined) return state;
+        const { examDate: _e, ...rest } = state;
+        return rest;
+      }
+      return isDayString(a.date) && a.date !== state.examDate ? { ...state, examDate: a.date } : state;
+    }
+    case 'path/minutes': {
+      if (!Number.isFinite(a.minutes)) return state;
+      const m = Math.min(MAX_PATH_MINUTES, Math.max(MIN_PATH_MINUTES, Math.round(a.minutes)));
+      return m === state.pathMinutes ? state : { ...state, pathMinutes: m };
+    }
     case 'state/replace':
       return a.state;
     default:
@@ -222,6 +252,10 @@ export function importBank(raw: unknown): BankState {
   if (Array.isArray(s.reports)) out.reports = s.reports.filter((r) => isObj(r) && typeof r.id === 'string') as ProblemReport[];
   if (Array.isArray(s.userItems)) out.userItems = s.userItems.filter((i) => isObj(i) && typeof i.id === 'string') as BankItem[];
   if (typeof s.dailyGoal === 'number' && s.dailyGoal >= 1) out.dailyGoal = Math.min(500, Math.round(s.dailyGoal));
+  if (isDayString(s.examDate)) out.examDate = s.examDate;
+  if (typeof s.pathMinutes === 'number' && Number.isFinite(s.pathMinutes)) {
+    out.pathMinutes = Math.min(MAX_PATH_MINUTES, Math.max(MIN_PATH_MINUTES, Math.round(s.pathMinutes)));
+  }
   if (isObj(s.requeue)) {
     for (const [k, v] of Object.entries(s.requeue)) {
       if (isObj(v) && typeof v.stage === 'number' && typeof v.due === 'string') out.requeue[k] = { stage: v.stage, due: v.due };
@@ -274,6 +308,8 @@ interface MainRecord {
   reports: BankState['reports'];
   dailyGoal: number;
   requeue: BankState['requeue'];
+  examDate?: string;
+  pathMinutes?: number;
   shards: { attempts: number; userItems: number };
 }
 
@@ -332,6 +368,8 @@ export class BankPersistence {
     const main: MainRecord = {
       v: 1, flags: state.flags, itemNotes: state.itemNotes, mastery: state.mastery, reports: state.reports,
       dailyGoal: state.dailyGoal, requeue: state.requeue, shards: { ...this.counts },
+      ...(state.examDate ? { examDate: state.examDate } : {}),
+      ...(state.pathMinutes ? { pathMinutes: state.pathMinutes } : {}),
     };
     await this.put(KEY_MAIN, JSON.stringify(main));
   }
@@ -343,6 +381,7 @@ export class BankPersistence {
       prev.attempts !== next.attempts || prev.userItems !== next.userItems || prev.flags !== next.flags
       || prev.itemNotes !== next.itemNotes || prev.mastery !== next.mastery || prev.reports !== next.reports
       || prev.dailyGoal !== next.dailyGoal || prev.requeue !== next.requeue
+      || prev.examDate !== next.examDate || prev.pathMinutes !== next.pathMinutes
     ) await this.saveBank(next, prev);
   }
 
@@ -378,7 +417,7 @@ export class BankPersistence {
       attempts: await readShards<AttemptRec>(keyAttempts, nA),
       userItems: await readShards<BankItem>(keyUserItems, nU),
       flags: main.flags, itemNotes: main.itemNotes, mastery: main.mastery, reports: main.reports,
-      dailyGoal: main.dailyGoal, requeue: main.requeue,
+      dailyGoal: main.dailyGoal, requeue: main.requeue, examDate: main.examDate, pathMinutes: main.pathMinutes,
     });
     Object.assign(state, merged);
     try {
