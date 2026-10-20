@@ -115,7 +115,7 @@ export async function startQuick(page, n = 10) {
 
 /** Select the first option and submit; waits for the rationale card. */
 export async function answerFirst(page) {
-  await click(page.getByRole('radio', { name: /^Option A\./ }));
+  await click(page.getByRole('radio', { name: /^Option A\./ }).or(page.getByRole('checkbox', { name: /^Option A\./ })));
   await click(btn(page, 'Submit'));
   await see(page.getByText(/AI-written|Not yet checked|Checked by/), 'rationale card badge');
 }
