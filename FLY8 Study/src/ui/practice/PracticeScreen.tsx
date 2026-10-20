@@ -10,7 +10,7 @@ import { dueItems } from '../../bank/requeue';
 import { buildResult, type SessionResult } from '../../bank/results';
 import type { BankItem } from '../../bank/schema';
 import type { PracticeSession } from '../../bank/session';
-import { ImmersiveCtx, Header } from '../kit';
+import { Btn, ImmersiveCtx, Header, Screen } from '../kit';
 import { useTheme } from '../theme';
 import { StudyHub } from '../StudyHub';
 import { resolveNoteLink } from '../../bank/noteLink';
@@ -18,6 +18,8 @@ import { noteToBundleMap } from '../../bank/loader';
 import { PRESET_PACKS } from '../../presets';
 import bundlesJson from '../../../data/presets/bundles.json';
 import type { ItemContext } from '../../pnle/itemContext';
+import { finishRound, roundOfSessionId, weakBoostFrom, type BundleOf } from '../../bank/diagnosticRounds';
+import { WeaknessProfileCard } from './WeaknessProfileCard';
 import { useBank } from './BankProvider';
 import { CustomSetup } from './CustomSetup';
 import { DiagnosticResult } from './DiagnosticResult';
@@ -28,7 +30,7 @@ import { Results } from './Results';
 import { AdaptiveSummaryScreen, Path } from './Path';
 import type { ItemReport } from './ReportSheet';
 import {
-  changedAnswerId, defaultCustom, hubStats, planNotice, planSession, resumeDecision, sessionFromPlan,
+  changedAnswerId, defaultCustom, hubStats, planNotice, planSession, planSessionId, resumeDecision, sessionFromPlan,
   type CustomValues, type Plan, type StartRequest,
 } from './practiceFlow';
 
@@ -38,6 +40,7 @@ type View_ =
   | { v: 'history' }
   | { v: 'ai' }
   | { v: 'path' }
+  | { v: 'profile' }
   | { v: 'adaptive'; result: SessionResult; items: BankItem[]; session: PracticeSession; st: AdaptiveState; scope: Scope; evidence: Partial<Record<string, number>> }
   | { v: 'session' }
   | { v: 'results'; result: SessionResult; items: BankItem[]; session: PracticeSession }
@@ -45,12 +48,13 @@ type View_ =
   | { v: 'review'; itemId: string; back: View_ };
 
 const MODE_LABEL: Record<string, string> = {
-  quick: 'Quick practice', smart: 'Smart set', custom: 'Custom practice', diagnostic: 'Placement check',
+  quick: 'Quick practice', smart: 'Smart set', custom: 'Custom practice', diagnostic: 'Diagnostic',
   mock: 'Mock board', weak: 'Weak spots', requeue: 'Missed questions', adaptive: 'Adaptive', case: 'Case study',
 };
 
 const NOTE_BUNDLE = noteToBundleMap(bundlesJson.bundles);
 const BUNDLE_NAMES: Record<string, string> = Object.fromEntries(bundlesJson.bundles.map((b) => [b.id, b.name]));
+const bundleOf: BundleOf = (i) => (i.noteId ? NOTE_BUNDLE.get(i.noteId) : undefined);
 const noteTitle = (noteId: string): string | undefined => {
   for (const p of PRESET_PACKS) for (const n of p.notes) if (n.id === noteId) return n.title;
   return undefined;
@@ -116,20 +120,22 @@ export function PracticeScreen({ state, update, go, registerBack, onAskTutor, on
   );
   const readNote = (topicId: string) => (onReadNote ? onReadNote(topicId) : go('topics'));
 
-  const stats = useMemo(() => hubStats(items, bs, attempts, today), [items, bs, attempts, today]);
+  const profile = state.dx?.profile;
+  const stats = useMemo(() => hubStats(items, bs, attempts, today, profile), [items, bs, attempts, today, profile]);
 
   const begin = async (plan: Plan, label: string) => {
     const msg = planNotice(plan, label);
     if (plan.ids.length === 0) return setNotice(msg ?? '');
     const now = Date.now();
-    await dispatch({ type: 'session/start', session: sessionFromPlan(plan, `${plan.mode}-${now}`, now) });
-    setNotice(msg ?? '');
+    await dispatch({ type: 'session/start', session: sessionFromPlan(plan, planSessionId(plan, now), now) });
+    setNotice([msg, ...(plan.notes ?? [])].filter(Boolean).join(' '));
     setView({ v: 'session' });
   };
 
   const start = (req: StartRequest) => {
     const plan = planSession(req, {
       items, attempts, seed: Date.now(), flaggedIds: Object.keys(bs.flags), dueIds: dueItems(bs.requeue, today),
+      dx: state.dx, bundleOf, bundleNames: BUNDLE_NAMES, weakBoost: weakBoostFrom(profile, bundleOf),
     });
     void begin(plan, MODE_LABEL[plan.mode] ?? 'this mode');
   };
@@ -177,6 +183,11 @@ export function PracticeScreen({ state, update, go, registerBack, onAskTutor, on
     const sItems = s.order.map((id) => byId.get(id)).filter((x): x is BankItem => !!x);
     const earlier = attempts.filter((a) => a.sessionId !== s.id);
     const result = buildResult(s, sItems, earlier);
+    if (s.mode === 'diagnostic') {
+      const byId = new Map(items.map((i) => [i.id, i]));
+      const dx = finishRound(state.dx, s, attempts, { byId, bundleOf, names: BUNDLE_NAMES }, Date.now());
+      if (dx !== state.dx) update({ ...state, dx });
+    }
     if (isAdaptive(s)) {
       const st = replayAdaptive(s, byId);
       const evidence: Partial<Record<string, number>> = {};
@@ -272,7 +283,17 @@ export function PracticeScreen({ state, update, go, registerBack, onAskTutor, on
       onReviewItem: (itemId: string) => setView({ v: 'review', itemId, back: cur }),
     };
     if (view.v === 'dx') {
-      return <DiagnosticResult result={view.result} onDetails={() => setView({ v: 'results', result: cur.result, items: cur.items, session: cur.session })} onDone={() => setView({ v: 'hub' })} />;
+      return (
+        <DiagnosticResult
+          result={view.result}
+          round={roundOfSessionId(view.session.id)}
+          profile={profile}
+          onDetails={() => setView({ v: 'results', result: cur.result, items: cur.items, session: cur.session })}
+          onDone={() => setView({ v: 'hub' })}
+          onNext={(round) => start({ kind: 'diagnostic', round })}
+          onPractice={() => start({ kind: 'weak', count: 10 })}
+        />
+      );
     }
     return (
       <Results
@@ -315,6 +336,19 @@ export function PracticeScreen({ state, update, go, registerBack, onAskTutor, on
     );
   }
 
+  if (view.v === 'profile' && profile) {
+    return (
+      <View style={{ flex: 1, backgroundColor: colors.bg }}>
+        <Header title="Weakness profile" onBack={() => setView({ v: 'hub' })} />
+        <Screen>
+          <WeaknessProfileCard profile={profile} />
+          <Btn label="Practice my weak spots" onPress={() => start({ kind: 'weak', count: 10 })} />
+          <Btn label="Back" kind="ghost" onPress={() => setView({ v: 'hub' })} />
+        </Screen>
+      </View>
+    );
+  }
+
   if (view.v === 'ai') return <StudyHub state={state} update={update} onBack={() => setView({ v: 'hub' })} />;
 
   return (
@@ -332,6 +366,8 @@ export function PracticeScreen({ state, update, go, registerBack, onAskTutor, on
       onAdaptive={(scope) => void startAdaptiveExam(scope)}
       onPath={() => { setNotice(''); setView({ v: 'path' }); }}
       pathDetail={bs.examDate ? countdownText(today, bs.examDate) : undefined}
+      dx={state.dx}
+      onProfile={() => { setNotice(''); setView({ v: 'profile' }); }}
     />
   );
 }

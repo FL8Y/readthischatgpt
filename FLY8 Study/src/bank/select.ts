@@ -12,6 +12,18 @@ export interface SelectContext {
   seed: number | string;
   /** Item ids the learner flagged (for the 'flagged' custom filter). */
   flaggedIds?: readonly string[];
+  /** Diagnostic weakness profile as miss rates (0..1). Optional: raises matching items in weak(). */
+  weakBoost?: WeakBoost;
+}
+
+/** Miss rates from the saved diagnostic weakness profile, keyed by subject bundle id and by strategy family key. */
+export interface WeakBoost {
+  /** Item -> its unit key (subject bundle id, or 'NP1:other'). */
+  unitOf: (item: BankItem) => string;
+  /** Item -> its strategy family key. */
+  familyOf: (item: BankItem) => string;
+  units: ReadonlyMap<string, number>;
+  strategies: ReadonlyMap<string, number>;
 }
 
 /** Owner rule: select-all-that-apply is rare, at most 1 per 10 questions in any normal session. */
@@ -19,7 +31,7 @@ export const SATA_PER = 10;
 export const sataBudget = (n: number): number => Math.floor(n / SATA_PER);
 
 /** Case-study items (clusterId) belong to Case study mode; general sessions use standalone questions only. */
-const solo = <T extends BankItem>(items: readonly T[]): T[] => items.filter((i) => !i.clusterId);
+export const solo = <T extends BankItem>(items: readonly T[]): T[] => items.filter((i) => !i.clusterId);
 
 /** Keeps every non-SATA item and only as many SATA items (first ones in the given order) as the budget allows. */
 export function capSata<T extends BankItem>(ordered: readonly T[], n: number): T[] {
@@ -128,7 +140,10 @@ export function weak(ctx: SelectContext, n: number): Selection {
   const scored = solo(ctx.items).map((i) => {
     const last = latest.get(i.id);
     // Topic weakness counts most; strategy weakness next; an item missed last time gets a bump.
-    const score = miss(topicAcc, i.topic) * 0.6 + miss(stratAcc, i.strategy) * 0.3 + (last && last.credit < 1 ? 0.1 : 0);
+    let score = miss(topicAcc, i.topic) * 0.6 + miss(stratAcc, i.strategy) * 0.3 + (last && last.credit < 1 ? 0.1 : 0);
+    // Diagnostic weakness profile: weak subject bundles and weak strategies count too.
+    const b = ctx.weakBoost;
+    if (b) score += (b.units.get(b.unitOf(i)) ?? 0) * 0.5 + (b.strategies.get(b.familyOf(i)) ?? 0) * 0.25;
     return { i, score, jitter: rng() };
   });
   const evidence = scored.filter((s) => s.score > 0);

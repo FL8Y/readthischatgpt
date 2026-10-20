@@ -1,4 +1,5 @@
 import type { AppState } from './types';
+import { cleanDx } from '../bank/diagnosticRounds';
 
 const PROVIDERS: string[] = ['openai', 'anthropic', 'gemini', 'openrouter', 'groq', 'custom', 'manual'];
 
@@ -95,9 +96,11 @@ export function validateBackup(raw: string): BackupResult {
   if (!isStr(st.model)) errors.push('Settings has no model.');
   if (errors.length) return { ok: false, errors };
 
-  const { extras: rawExtras, ...core } = data;
+  const { extras: rawExtras, dx: rawDx, ...core } = data;
+  const dx = cleanDx(rawDx);
   const state = {
     ...(core as unknown as AppState),
+    ...(dx ? { dx } : {}),
     settings: { provider: st.provider as AppState['settings']['provider'], model: st.model as string, apiKey: '' },
   };
   return {

@@ -1,6 +1,7 @@
 import type { AppState, Topic } from '../core/types';
 import { estimateMastery, weakTopics } from '../core/mastery';
 import type { ModelRequest } from './provider';
+import { profileText } from '../bank/diagnosticRounds';
 
 /**
  * Compact question craft shared by the plain (non-PNLE-system) quiz prompts. The full rules live in
@@ -27,6 +28,7 @@ export function learnerProfile(state: AppState, now: number): string {
   return [
     'You are a nursing-exam tutor for Philippine nursing licensure exam (PNLE); admit doubt, notes first, mark additions.',
     weak.length ? `Weak, most urgent first: ${weak.join(', ')}.` : 'No weak areas identified yet.',
+    ...(profileText(state.dx?.profile) ? [profileText(state.dx?.profile)] : []),
     'Topic mastery:',
     ...lines,
   ].join('\n');

@@ -1,3 +1,4 @@
+import type { DxState } from '../bank/diagnosticRounds';
 /** 'manual' = copy-paste with the ChatGPT or Claude app; no key, no model. */
 export type ProviderName = 'openai' | 'anthropic' | 'gemini' | 'openrouter' | 'groq' | 'custom' | 'manual';
 
@@ -145,5 +146,7 @@ export interface AppState {
   events: AttemptEvent[];
   /** Folder ids whose diagnostic has been completed. */
   diagnosticsDone: string[];
+  /** Optional 3-round diagnostic: saved rounds and the weakness profile they produced. */
+  dx?: DxState;
   settings: Settings;
 }

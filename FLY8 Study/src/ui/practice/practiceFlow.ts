@@ -9,6 +9,10 @@ import { dueItems, type AttemptRec } from '../../bank/requeue';
 import { exportBank, importBank, type BankBackup, type BankState } from '../../bank/store';
 import { makeHistoryEntry } from '../../bank/history';
 import type { AttemptRecord, CustomFilter, HistoryEntry } from '../../bank/types2';
+import {
+  rankAreas, roundRows, roundSessionId, selectRound1, selectRound2, selectRound3, weakestStrategies, weakestUnits,
+  type BundleOf, type DxState, type RoundCtx, type RoundNo, type WeaknessProfile,
+} from '../../bank/diagnosticRounds';
 
 export const QUICK_COUNTS = [10, 25] as const;
 export const CUSTOM_COUNTS = [10, 25, 50, 75, 100] as const;
@@ -37,7 +41,7 @@ export type StartRequest =
   | { kind: 'smart'; count: number }
   | { kind: 'weak'; count: number }
   | { kind: 'requeue' }
-  | { kind: 'diagnostic' }
+  | { kind: 'diagnostic'; round?: RoundNo }
   | { kind: 'mock'; area: Area }
   | { kind: 'case'; sets: number }
   | { kind: 'custom'; values: CustomValues };
@@ -49,6 +53,12 @@ export interface PlanContext {
   flaggedIds?: readonly string[];
   /** Re-queue ids due today (see requeue.dueItems). */
   dueIds?: readonly string[];
+  /** Diagnostic rounds: saved rounds, how to find an item's subject bundle, bundle display names. Without bundleOf the old single diagnostic runs. */
+  dx?: DxState;
+  bundleOf?: BundleOf;
+  bundleNames?: Readonly<Record<string, string>>;
+  /** Weak-spots mode also uses the saved diagnostic weakness profile. */
+  weakBoost?: pick.WeakBoost;
 }
 
 export interface Plan {
@@ -58,6 +68,10 @@ export interface Plan {
   short: boolean;
   revealMode: RevealMode;
   limitSeconds?: number;
+  /** Diagnostic round (1-3). */
+  round?: RoundNo;
+  /** Plain-language notes about how the set was built (thin pools, uncovered bundles). */
+  notes?: string[];
 }
 
 export const clampMinutes = (m: number): number =>
@@ -65,7 +79,7 @@ export const clampMinutes = (m: number): number =>
 
 /** Turns a start request into the parameters for select.ts and session.createSession. */
 export function planSession(req: StartRequest, ctx: PlanContext): Plan {
-  const sc: pick.SelectContext = { items: ctx.items, attempts: ctx.attempts, seed: ctx.seed, flaggedIds: ctx.flaggedIds };
+  const sc: pick.SelectContext = { items: ctx.items, attempts: ctx.attempts, seed: ctx.seed, flaggedIds: ctx.flaggedIds, weakBoost: ctx.weakBoost };
   const done = (mode: SessionMode, sel: { ids: string[]; requested: number; short: boolean }, extra: Partial<Plan> = {}): Plan => ({
     mode, ids: sel.ids, requested: sel.requested, short: sel.short, revealMode: mode === 'mock' ? 'end' : 'now', ...extra,
   });
@@ -84,7 +98,19 @@ export function planSession(req: StartRequest, ctx: PlanContext): Plan {
       const pool = only ? ctx.items.filter((i) => i.clusterId === only) : ctx.items;
       return done('case', pick.caseStudy({ ...sc, items: pool }, req.sets));
     }
-    case 'diagnostic': return done('diagnostic', pick.diagnostic(sc));
+    case 'diagnostic': {
+      if (!ctx.bundleOf) return done('diagnostic', pick.diagnostic(sc));
+      const round = req.round ?? 1;
+      const rc: RoundCtx = { items: ctx.items, attempts: ctx.attempts, seed: ctx.seed, bundleOf: ctx.bundleOf, dx: ctx.dx };
+      const pc = { byId: new Map(ctx.items.map((i) => [i.id, i])), bundleOf: ctx.bundleOf, names: ctx.bundleNames ?? {} };
+      const sel = round === 1 ? selectRound1(rc)
+        : round === 2 ? selectRound2(rc, rankAreas(roundRows(ctx.attempts, ctx.dx, [1]), pc.byId).slice(0, 2).map((a) => a.area))
+          : (() => {
+            const rows = roundRows(ctx.attempts, ctx.dx, [1, 2]);
+            return selectRound3(rc, weakestUnits(rows, pc), weakestStrategies(rows, pc));
+          })();
+      return done('diagnostic', sel, { round, notes: sel.notes });
+    }
     case 'mock': {
       const available = ctx.items.filter((i) => i.area === req.area).length;
       const n = Math.min(MOCK_MAX_ITEMS, Math.max(available, 0));
@@ -105,6 +131,9 @@ export function planSession(req: StartRequest, ctx: PlanContext): Plan {
     }
   }
 }
+
+/** Session id: `<mode>-<now>`; diagnostic rounds 2 and 3 carry their round (`diagnostic-r2-<now>`). */
+export const planSessionId = (plan: Plan, now: number): string => (plan.mode === 'diagnostic' && plan.round ? roundSessionId(plan.round, now) : `${plan.mode}-${now}`);
 
 export function sessionFromPlan(plan: Plan, id: string, now: number): PracticeSession {
   return createSession({
@@ -173,7 +202,9 @@ export interface HubStats {
   seen: number;
 }
 
-export function hubStats(items: readonly BankItem[], state: BankState, attempts: readonly AttemptRecord[], today: string): HubStats {
+export function hubStats(
+  items: readonly BankItem[], state: BankState, attempts: readonly AttemptRecord[], today: string, profile?: WeaknessProfile,
+): HubStats {
   const ids = new Set(items.map((i) => i.id));
   const byArea: Record<string, number> = {};
   for (const i of items) byArea[i.area] = (byArea[i.area] ?? 0) + 1;
@@ -183,7 +214,7 @@ export function hubStats(items: readonly BankItem[], state: BankState, attempts:
     total: items.length,
     byArea,
     requeueDue: due.length,
-    weakAvailable: attempts.some((a) => a.credit < 1),
+    weakAvailable: attempts.some((a) => a.credit < 1) || !!profile?.topics.length || !!profile?.strategies.length,
     diagnosticTaken: state.attempts.some((a) => a.mode === 'diagnostic'),
     seen,
   };

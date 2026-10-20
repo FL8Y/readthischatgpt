@@ -2,6 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { Text, View } from 'react-native';
 import type { AppState } from '../core/types';
 import { estimateMastery } from '../core/mastery';
+import { weakBundleIds } from '../bank/diagnosticRounds';
 import {
   BUNDLE_TIERS,
   TIER_REASON,
@@ -73,7 +74,7 @@ export function StudyGuide({
       const m = estimateMastery(n.id, state.events, now);
       if (m.attempts) progress[n.id] = { attempts: m.attempts, mastery: m.mastery };
     }
-    return { guide: buildStudyGuide(r, studied, progress), ranked: r, progress };
+    return { guide: buildStudyGuide(r, studied, progress, weakBundleIds(state.dx?.profile)), ranked: r, progress };
   }, [state, studied]);
 
   if (!ranked.length) {
@@ -92,7 +93,7 @@ export function StudyGuide({
       <ListRow
         key={n.id}
         title={`${done ? '✓  ' : ''}${n.title}`}
-        detail={`${packName(n.bundleId)}  ·  ${n.label}`}
+        detail={`${packName(n.bundleId)}  ·  ${n.label}${guide.weakBundles.includes(n.bundleId) ? '  ·  weak spot' : ''}`}
         onPress={() => onOpen(n.id, n.stage === 1 ? 'beginner' : 'full')}
       />
     );

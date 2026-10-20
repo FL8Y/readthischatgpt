@@ -180,6 +180,8 @@ export interface StageSummary {
 
 export interface StudyGuide {
   startHere: RankedNote[];
+  /** Bundle ids flagged weak by the diagnostic (weakest first); notes in them are promoted inside their stage. */
+  weakBundles: string[];
   stages: StageSummary[];
 }
 
@@ -189,11 +191,16 @@ export function buildStudyGuide(
   ranked: RankedNote[],
   studied: string[],
   progress: Record<string, TopicProgress | undefined> = {},
+  weakBundles: readonly string[] = [],
 ): StudyGuide {
   const st = new Set(studied);
   // Start here: easiest topics that are not done yet. Never skip ahead to a later stage while an earlier one has undone topics.
   const todo = ranked.filter((n) => !isDone(n.id, st, progress));
-  const startHere = [...todo].sort((a, b) => a.stage - b.stage || a.score - b.score || a.title.localeCompare(b.title)).slice(0, START_HERE_COUNT);
+  // Diagnostic weak spots are promoted only inside the stage being worked on (stage is the first sort key, so a lower unfinished stage always wins).
+  const weakRank = (n: RankedNote) => { const k = weakBundles.indexOf(n.bundleId); return k < 0 ? Infinity : k; };
+  const startHere = [...todo]
+    .sort((a, b) => a.stage - b.stage || Number(weakRank(a) === Infinity) - Number(weakRank(b) === Infinity) || weakRank(a) - weakRank(b) || a.score - b.score || a.title.localeCompare(b.title))
+    .slice(0, START_HERE_COUNT);
   const stages = ([1, 2, 3] as Stage[]).map((stage) => {
     const topics = ranked.filter((n) => n.stage === stage);
     const tested = topics.filter((n) => (progress[n.id]?.attempts ?? 0) > 0);
@@ -207,5 +214,5 @@ export function buildStudyGuide(
       tested: tested.length,
     };
   });
-  return { startHere, stages };
+  return { startHere, weakBundles: [...weakBundles], stages };
 }

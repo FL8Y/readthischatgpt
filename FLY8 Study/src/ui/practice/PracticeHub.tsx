@@ -3,6 +3,7 @@ import { Text, View } from 'react-native';
 import { AREAS, type Area } from '../../bank/schema';
 import { Btn, Card, ChoiceChips, Chip, Divider, H, Header, ListRow, Screen } from '../kit';
 import { space, useTheme } from '../theme';
+import { roundAvailability, roundDone, type DxState, type RoundNo } from '../../bank/diagnosticRounds';
 import {
   mockSummary, QUICK_COUNTS, SOURCE_LABEL, type HubStats, type ResumeDecision, type StartRequest,
 } from './practiceFlow';
@@ -26,6 +27,43 @@ export interface PracticeHubProps {
   onPath: () => void;
   /** One line under 'Learning path', e.g. the exam countdown. */
   pathDetail?: string;
+  /** Saved diagnostic rounds and profile. */
+  dx?: DxState;
+  onProfile: () => void;
+}
+
+const ROUND_BLURB: Record<RoundNo, string> = {
+  1: 'Broad check, 25 questions, 5 per NP area',
+  2: 'Drill into your 2 weakest areas, about 20 questions',
+  3: 'Pinpoint the weakest topics and strategies, about 20 questions',
+};
+
+function DiagnosticCard({ p, empty }: { p: PracticeHubProps; empty: boolean }) {
+  const { colors, type } = useTheme();
+  const avail = roundAvailability(p.dx);
+  return (
+    <Card tone={roundDone(p.dx, 1) ? 'plain' : 'tinted'}>
+      <H>Diagnostic (optional, 3 rounds)</H>
+      <Text style={[type('body'), { color: colors.textDim }]}>
+        Finds your weak spots. Stop after any round; nothing is locked behind it. Results only suggest where to look, they are not a pass prediction.
+      </Text>
+      {([1, 2, 3] as RoundNo[]).map((r) => {
+        const done = roundDone(p.dx, r);
+        const label = done ? `Retake Round ${r}` : r === 3 && avail[3].anyway ? 'Start Round 3 anyway' : `Start Round ${r}`;
+        return (
+          <View key={r} style={{ gap: space.xs }}>
+            <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: space.sm }}>
+              <Text style={[type('caption'), { color: colors.textDim, flex: 1 }]}>{ROUND_BLURB[r]}</Text>
+              {done ? <Chip tone="success" text={`Round ${r} done`} /> : null}
+            </View>
+            <Btn label={label} kind={done || r > 1 ? 'ghost' : 'primary'} disabled={empty || !avail[r].open}
+              onPress={() => p.onStart({ kind: 'diagnostic', round: r })} />
+          </View>
+        );
+      })}
+      {p.dx?.profile ? <Btn label="See my weakness profile" kind="ghost" onPress={p.onProfile} /> : null}
+    </Card>
+  );
 }
 
 /** Practice tab landing: pick how to practice. Counts are live from the bank. */
@@ -67,15 +105,7 @@ export function PracticeHub(p: PracticeHubProps) {
           <Chip tone="warning" icon="alert-circle-outline" text={`${p.resume.reason} It was cleared.`} />
         ) : null}
 
-        {!stats.diagnosticTaken && !empty ? (
-          <Card tone="tinted">
-            <H>Start with a placement check</H>
-            <Text style={[type('body'), { color: colors.textDim }]}>
-              25 questions, 5 per NP area, with feedback after each. It shows where you stand. You can skip it and practice anything.
-            </Text>
-            <Btn label="Take the 25-question check" onPress={() => p.onStart({ kind: 'diagnostic' })} />
-          </Card>
-        ) : null}
+        <DiagnosticCard p={p} empty={empty} />
 
         <Card>
           <H>Quick practice</H>
