@@ -6,7 +6,7 @@ import { DEFAULT_MODELS } from '../ai/provider';
 import { ProviderEditor } from './ProviderEditor';
 import { FreeAiGuide } from './FreeAiGuide';
 import { QuickSetup } from './QuickSetup';
-import { Btn, Card, Chip, H, Header, Illustration, PressableScale, Screen, TOP_INSET, sp } from './kit';
+import { Btn, Card, Chip, H, Header, Illustration, PressableScale, Screen, TOP_INSET } from './kit';
 import type { IconName } from './kit';
 import { radius, space, useTheme } from './theme';
 
@@ -51,7 +51,7 @@ export function KeySetup({
   const manual = settings.provider === 'manual';
   const hasKey = settings.apiKey.trim().length > 0;
   return (
-    <View style={{ gap: sp.md }}>
+    <View style={{ gap: space.md }}>
       {includeManual ? (
         <Btn
           label="Manual (free)"

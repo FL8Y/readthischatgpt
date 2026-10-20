@@ -4,7 +4,7 @@ import type { ProviderName, Settings } from '../core/types';
 import { callOne, DEFAULT_MODELS, ProviderError } from '../ai/provider';
 import { fetchModels, LIMITS_NOTE, PROVIDER_INFO, SUGGESTED_MODELS, type ModelSuggestion } from '../ai/models';
 import { FREELLMAPI_URL_PLACEHOLDER, HTTP_WARNING, isPlainHttp } from '../ai/transport';
-import { Btn, ChoiceChips, Chip, Field, P, PressableScale, sp } from './kit';
+import { Btn, ChoiceChips, Chip, Field, P, PressableScale } from './kit';
 import { radius, space, useTheme } from './theme';
 
 export type KeyTestState =
@@ -85,8 +85,8 @@ export function ProviderEditor({ value, onChange }: { value: ProviderValue; onCh
   const chips: string[] = (fetched ? fetched.map((m) => m.id) : value.provider === 'custom' ? [] : SUGGESTED_MODELS[value.provider]).slice(0, 12);
 
   return (
-    <View style={{ gap: sp.md }}>
-      <View style={{ gap: sp.sm }}>
+    <View style={{ gap: space.md }}>
+      <View style={{ gap: space.sm }}>
         {PROVIDER_INFO.map((p) => {
           const on = p.name === value.provider;
           return (
@@ -117,7 +117,7 @@ export function ProviderEditor({ value, onChange }: { value: ProviderValue; onCh
       </View>
       <P dim>{info.keyHint} {LIMITS_NOTE}</P>
       {custom ? (
-        <View style={{ gap: sp.sm }}>
+        <View style={{ gap: space.sm }}>
           <Field
             label="Base address"
             value={value.baseUrl ?? ''}
@@ -129,7 +129,7 @@ export function ProviderEditor({ value, onChange }: { value: ProviderValue; onCh
           <Btn label="Preset: FreeLLMAPI" kind="ghost" hint="Fills model auto and an example address" onPress={() => set({ model: 'auto', baseUrl: value.baseUrl?.trim() ? value.baseUrl : FREELLMAPI_URL_PLACEHOLDER })} />
           <P dim>Works with any OpenAI-compatible server: FreeLLMAPI, Ollama, LM Studio.</P>
           {isPlainHttp(value.baseUrl) ? (
-            <View accessibilityLiveRegion="polite" style={{ gap: sp.xs }}>
+            <View accessibilityLiveRegion="polite" style={{ gap: space.xs }}>
               <Chip text="Not encrypted" tone="warning" icon="alert-circle" />
               <P>{HTTP_WARNING}</P>
             </View>
@@ -158,7 +158,7 @@ export function ProviderEditor({ value, onChange }: { value: ProviderValue; onCh
         onPress={() => void run()}
       />
       {result.status !== 'idle' && result.status !== 'testing' ? (
-        <View accessibilityLiveRegion="polite" style={{ gap: sp.xs }}>
+        <View accessibilityLiveRegion="polite" style={{ gap: space.xs }}>
           <Chip text={result.status === 'ok' ? 'Success' : 'Problem'} tone={STATUS_TONE[result.status]} icon={result.status === 'ok' ? 'checkmark-circle' : 'alert-circle'} />
           <P>{result.message}</P>
         </View>

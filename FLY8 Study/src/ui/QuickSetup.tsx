@@ -3,7 +3,8 @@ import { Linking, View } from 'react-native';
 import * as Clipboard from 'expo-clipboard';
 import type { Settings } from '../core/types';
 import { buildPoolSettings, detectKeys, QUICK_ORDER, QUICK_TITLES, quickSetup, type QuickProvider, type QuickResult, type QuickStatus } from '../ai/quickSetup';
-import { Btn, Card, Chip, Field, H, P, sp } from './kit';
+import { Btn, Card, Chip, Field, H, P } from './kit';
+import { space } from './theme';
 
 const WHERE: Record<QuickProvider, { text: string; url: string; placeholder: string }> = {
   gemini: { text: 'Where do I get this key? aistudio.google.com, tap "Get API key".', url: 'https://aistudio.google.com/apikey', placeholder: 'AIza...' },
@@ -79,7 +80,7 @@ export function QuickSetup({ settings, onSave, onDone }: { settings: Settings; o
         {detected.unknown.length ? <P dim>{detected.unknown.length} other piece(s) look like keys but were ignored (cut off, or from another service).</P> : null}
       </View>
       {QUICK_ORDER.map((p) => (
-        <View key={p} style={{ gap: sp.xs }}>
+        <View key={p} style={{ gap: space.xs }}>
           <Field
             label={QUICK_TITLES[p]}
             value={keys[p] ?? ''}
@@ -95,7 +96,7 @@ export function QuickSetup({ settings, onSave, onDone }: { settings: Settings; o
       ))}
       <Btn label={busy ? 'Testing...' : 'Connect and test'} disabled={busy || count === 0} onPress={() => void run()} hint="Tests each key with one tiny request" />
       {results ? (
-        <View style={{ gap: sp.sm }} accessibilityLiveRegion="polite">
+        <View style={{ gap: space.sm }} accessibilityLiveRegion="polite">
           {QUICK_ORDER.filter((p) => results[p]).map((p) => {
             const r = results[p] as QuickResult;
             return (

@@ -1,14 +1,14 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 import { GUIDE_HONESTY, GUIDE_INTRO, GUIDE_SECTIONS } from '../ai/freeAiGuide';
-import { Card, Chip, H, P, sp } from './kit';
+import { Card, Chip, H, P } from './kit';
 import { radius, space, useTheme } from './theme';
 
 /** Plain step-by-step guide. All wording lives in src/ai/freeAiGuide.ts. */
 export function FreeAiGuide() {
   const { colors, type } = useTheme();
   return (
-    <View style={{ gap: sp.md }}>
+    <View style={{ gap: space.md }}>
       <P>{GUIDE_INTRO}</P>
       {GUIDE_SECTIONS.map((sec) => (
         <Card key={sec.id}>

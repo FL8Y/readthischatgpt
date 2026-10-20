@@ -3,7 +3,8 @@ import { View } from 'react-native';
 import type { PoolEntry, PoolMode, Settings } from '../core/types';
 import { DEFAULT_MODELS } from '../ai/provider';
 import { answeredByLabel, entryLabel, migrateToPool, poolSnapshot, sessionRuntime, withPool } from '../ai/pool';
-import { Btn, Card, ChoiceChips, H, P, Pill, c, sp } from './kit';
+import { Btn, Card, Chip, ChoiceChips, H, P } from './kit';
+import { space } from './theme';
 import { ProviderEditor } from './ProviderEditor';
 
 const newId = () => `e${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`;
@@ -42,7 +43,7 @@ export function ProviderPool({ settings, onChange, onGuide }: { settings: Settin
       {pool.length === 0 ? (
         <P dim>Nothing here yet, so the single provider above is used. Add one to start a list.</P>
       ) : (
-        <View style={{ gap: sp.md }}>
+        <View style={{ gap: space.md }}>
           <ChoiceChips
             label="Mode"
             options={['Fallback', 'Spread load'] as const}
@@ -55,11 +56,11 @@ export function ProviderPool({ settings, onChange, onGuide }: { settings: Settin
               : 'Fallback: always tries the top provider first, then the next.'}
           </P>
           {pool.map((e, i) => (
-            <View key={e.id} style={{ gap: sp.sm }}>
-              <View style={{ flexDirection: 'row', alignItems: 'center', gap: sp.sm, flexWrap: 'wrap' }}>
-                <Pill text={`${i + 1}. ${entryLabel(e)}${e.model ? ` · ${e.model}` : ''}`} color={e.enabled ? c.good : c.bad} />
+            <View key={e.id} style={{ gap: space.sm }}>
+              <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.sm, flexWrap: 'wrap' }}>
+                <Chip text={`${i + 1}. ${entryLabel(e)}${e.model ? ` · ${e.model}` : ''}${e.enabled ? '' : ' (off)'}`} tone={e.enabled ? 'success' : 'neutral'} icon={e.enabled ? 'checkmark-circle' : 'pause-circle'} />
               </View>
-              <View style={{ flexDirection: 'row', gap: sp.sm, flexWrap: 'wrap' }}>
+              <View style={{ flexDirection: 'row', gap: space.sm, flexWrap: 'wrap' }}>
                 <Btn label={e.enabled ? 'Switch off' : 'Switch on'} kind="ghost" onPress={() => patch(e.id, { enabled: !e.enabled })} />
                 <Btn label="Up" kind="ghost" disabled={i === 0} onPress={() => move(i, -1)} />
                 <Btn label="Down" kind="ghost" disabled={i === pool.length - 1} onPress={() => move(i, 1)} />
@@ -88,7 +89,7 @@ export function ProviderPool({ settings, onChange, onGuide }: { settings: Settin
         <Btn label="Go back to one provider" kind="ghost" onPress={() => onChange({ ...settings, pool: undefined })} hint="Keeps the first provider only" />
       ) : null}
       {snap.length ? (
-        <View style={{ gap: sp.xs }} key={tick}>
+        <View style={{ gap: space.xs }} key={tick}>
           <H>This session</H>
           {snap.map((s) => (
             <P key={s.id} dim>

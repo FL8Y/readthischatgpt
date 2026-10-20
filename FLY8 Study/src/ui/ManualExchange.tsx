@@ -4,7 +4,8 @@ import * as Clipboard from 'expo-clipboard';
 import * as DocumentPicker from 'expo-document-picker';
 import { File } from 'expo-file-system';
 import { joinManualParts, validateManualReply, type ManualExpect } from '../ai/manual';
-import { Btn, Card, EmptyState, Field, H, P, Pill, Screen, c, sp } from './kit';
+import { Btn, Card, Chip, EmptyState, Field, H, P, Screen } from './kit';
+import { radius, space, useTheme } from './theme';
 
 export const HONESTY_NOTE =
   'What leaves this phone: the prompt below, including your notes, goes only where you paste it (the ChatGPT or Claude app). ' +
@@ -30,6 +31,7 @@ export function ManualExchange({
   onReply: (text: string) => void;
   onCancel: () => void;
 }) {
+  const { colors, type } = useTheme();
   const [step, setStep] = useState<1 | 2>(1);
   const [parts, setParts] = useState<string[]>([]);
   const [draft, setDraft] = useState('');
@@ -98,10 +100,10 @@ export function ManualExchange({
 
   return (
     <Screen>
-      <View accessibilityLiveRegion="polite" style={{ gap: sp.xs }}>
+      <View accessibilityLiveRegion="polite" style={{ gap: space.xs }}>
         <H>{title}</H>
         {purpose ? <P dim>{purpose}</P> : null}
-        <Pill text={`Step ${step} of 2`} color={c.accent} />
+        <Chip text={`Step ${step} of 2`} tone="accent" />
       </View>
 
       {step === 1 ? (
@@ -113,17 +115,17 @@ export function ManualExchange({
               you to attach a photo or PDF, attach it in the chat first. Then come back here.
             </P>
             <P dim>{HONESTY_NOTE}</P>
-            <Text accessibilityRole="header" style={{ color: c.dim, fontSize: 13 }}>
+            <Text accessibilityRole="header" style={[type('caption'), { color: colors.textDim }]}>
               Prompt preview ({prompt.length.toLocaleString()} characters)
             </Text>
             {prompt.trim() ? (
               <ScrollView
                 nestedScrollEnabled
                 accessibilityLabel="Prompt preview"
-                style={{ maxHeight: 260, backgroundColor: c.bg, borderRadius: 12, borderWidth: 1, borderColor: c.line }}
-                contentContainerStyle={{ padding: sp.md }}
+                style={{ maxHeight: 260, backgroundColor: colors.surfaceAlt, borderRadius: radius.md, borderWidth: 1, borderColor: colors.border }}
+                contentContainerStyle={{ padding: space.md }}
               >
-                <Text selectable style={{ color: c.text, fontSize: 13, lineHeight: 19 }}>
+                <Text selectable style={[type('caption'), { color: colors.text, lineHeight: 19 }]}>
                   {prompt}
                 </Text>
               </ScrollView>
@@ -131,7 +133,7 @@ export function ManualExchange({
               <EmptyState title="No prompt to show" detail="Go back and try again." />
             )}
             <Btn label="Copy prompt" disabled={!prompt.trim()} onPress={() => void copyPrompt()} />
-            <View style={{ flexDirection: 'row', gap: sp.sm }}>
+            <View style={{ flexDirection: 'row', gap: space.sm }}>
               <View style={{ flex: 1 }}>
                 <Btn label="Open ChatGPT" kind="ghost" onPress={() => void open('https://chatgpt.com')} hint="Opens the ChatGPT app or website" />
               </View>
@@ -149,7 +151,7 @@ export function ManualExchange({
           <Card>
             <H>2. Paste the reply</H>
             <P>{lead} Copy the chat reply, then paste it here. Long replies can come in several parts.</P>
-            {parts.length ? <Pill text={`${parts.length} part${parts.length === 1 ? '' : 's'} saved`} color={c.good} /> : null}
+            {parts.length ? <Chip text={`${parts.length} part${parts.length === 1 ? '' : 's'} saved`} tone="success" icon="checkmark-circle" /> : null}
             <Field
               label="Chat reply"
               value={draft}
@@ -166,17 +168,17 @@ export function ManualExchange({
             {note ? <P>{note}</P> : null}
           </Card>
 
-          <View accessibilityLiveRegion="polite" style={{ gap: sp.xs }}>
+          <View accessibilityLiveRegion="polite" style={{ gap: space.xs }}>
             {!hasText ? (
               <P dim>Nothing pasted yet.</P>
             ) : check.ok ? (
               <>
-                <Pill text="Looks usable" color={c.good} />
+                <Chip text="Looks usable" tone="success" icon="checkmark-circle" />
                 <P dim>{expect === 'json' ? 'Found valid JSON.' : `${check.text.length.toLocaleString()} characters.`} Still check facts against your textbook.</P>
               </>
             ) : (
               <>
-                <Pill text="Needs attention" color={c.warn} />
+                <Chip text="Needs attention" tone="warning" icon="alert-circle" />
                 <P>{check.hint}</P>
               </>
             )}

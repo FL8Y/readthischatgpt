@@ -7,7 +7,8 @@ import { KeySetup } from './Onboarding';
 import { ProviderPool } from './ProviderPool';
 import { FreeAiGuide } from './FreeAiGuide';
 import { QuickSetup } from './QuickSetup';
-import { Btn, Card, Field, H, P, Pill, c, sp } from './kit';
+import { Btn, Card, Chip, Field, H, P } from './kit';
+import { space } from './theme';
 
 export function Settings({ state, update }: { state: AppState; update: (s: AppState) => void }) {
   const [raw, setRaw] = useState('');
@@ -30,7 +31,7 @@ export function Settings({ state, update }: { state: AppState; update: (s: AppSt
 
   if (guide) {
     return (
-      <View style={{ gap: sp.md }}>
+      <View style={{ gap: space.md }}>
         <Btn label="Back to Settings" kind="ghost" onPress={() => setGuide(false)} />
         <FreeAiGuide />
       </View>
@@ -38,7 +39,7 @@ export function Settings({ state, update }: { state: AppState; update: (s: AppSt
   }
   const hasPool = !!state.settings.pool?.length;
   return (
-    <View style={{ gap: sp.md }}>
+    <View style={{ gap: space.md }}>
       <QuickSetup settings={state.settings} onSave={(settings) => update({ ...state, settings })} />
       {hasPool ? null : (
       <Card>
@@ -75,16 +76,16 @@ export function Settings({ state, update }: { state: AppState; update: (s: AppSt
         />
         <Btn label="Check backup" kind="ghost" disabled={!raw.trim()} onPress={check} />
         {checked && !checked.ok ? (
-          <View style={{ gap: sp.xs }} accessibilityLiveRegion="polite">
-            <Pill text="Not valid" color={c.bad} />
+          <View style={{ gap: space.xs }} accessibilityLiveRegion="polite">
+            <Chip text="Not valid" tone="danger" icon="alert-circle" />
             {checked.errors.slice(0, 5).map((e) => (
               <P key={e}>{e}</P>
             ))}
           </View>
         ) : null}
         {checked && checked.ok ? (
-          <View style={{ gap: sp.sm }} accessibilityLiveRegion="polite">
-            <Pill text="Looks valid" color={c.good} />
+          <View style={{ gap: space.sm }} accessibilityLiveRegion="polite">
+            <Chip text="Looks valid" tone="success" icon="checkmark-circle" />
             <P>
               Found {checked.summary.topics} topics, {checked.summary.sources} sources, {checked.summary.events} answers{Object.keys(checked.extras).length ? ', plus lessons and chat' : ''}.
               Importing replaces what is on this phone now.
