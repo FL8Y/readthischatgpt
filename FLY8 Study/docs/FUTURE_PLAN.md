@@ -15,3 +15,8 @@ Suggested stages:
 4. A real server only if there are enough users that stages 1-3 are not enough.
 
 Other deferred items already in the plan: refine flow for generated items, AI results analysis, Explain-It, "Beat your best" challenge, growth waves to 3,000+ questions, nurse review of the bank.
+
+## End-game content (owner, 2026-10-20: "do this at the end game, not now")
+Parked; do not start until the owner asks:
+- Writing Beginner's Eye (simplified, non-nurse) text for the remaining bundles beyond the first sample bundle (about 20 bundles, 974 notes in total). Idea: draft in bulk with a cheap model, check with the validator, spot-review.
+- Curve-ball questions and extra select-all-that-apply questions.
