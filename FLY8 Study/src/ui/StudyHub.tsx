@@ -35,7 +35,8 @@ const MODULE_COUNTS = [10, 20, 30, 50] as const;
  */
 export function StudyHub({ state, update, onBack }: { state: AppState; update: (s: AppState) => void; onBack?: () => void }) {
   const { colors, type } = useTheme();
-  const folder = state.folders[0];
+  // Use the folder that actually holds topics (ready-made packs or imports can live in a later folder), not blindly the first.
+  const folder = state.folders.reduce((best, f) => (state.topics.filter((t) => t.folderId === f.id).length > state.topics.filter((t) => t.folderId === best.id).length ? f : best), state.folders[0]);
   const [session, setSession] = useState<QuizSession | null>(null);
   const [result, setResult] = useState<SessionResult | null>(null);
   const [popCount, setPopCount] = useState<number>(3);
