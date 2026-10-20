@@ -2,17 +2,27 @@
 // Plain ESM (no imports, no React Native) so both `node scripts/gemini/apply.mjs` and vitest
 // (via src/gemini/patch.ts) run exactly this code. Types: patchCore.d.mts. Nothing here throws.
 
+// Owner rule: what the NURSE does (independent, needs no order) is kept apart from what needs an order
+// (collaborative) and from what the DOCTOR does (medical management). PNLE answers are nursing actions.
 const REQUIRED_DISEASE_SECTIONS = [
   'What it is', 'Causative agent', 'Main problem', 'Initial manifestations', 'Other manifestations',
-  'Laboratory and diagnostic data', 'Nursing diagnoses', 'Nursing interventions', 'Philippine context',
+  'Laboratory and diagnostic data', 'Medical management', 'Pharmacologic care', 'Nursing diagnoses',
+  'Independent nursing interventions', 'Collaborative nursing interventions', 'Philippine context',
   'Exam traps', 'References', 'Check against your textbook',
 ];
+// Drug-class notes (they have "## Mechanism of action").
+const REQUIRED_DRUG_SECTIONS = [
+  'What it is', 'Prototype drugs', 'Mechanism of action', 'Indications', 'Side and adverse effects',
+  'Contraindications and cautions', 'Nursing responsibilities', 'Health teaching', 'Exam traps',
+  'References', 'Check against your textbook',
+];
+const CROSSCHECK_VERDICTS = ['AGREE', 'FIXED', 'DOUBT'];
 const BODY_MIN = 300;
 const BODY_MAX = 12000;
 const PRIORITIES = ['high', 'medium', 'low'];
 const DOSE_RE = /\b\d+(\.\d+)?\s?(mg|mcg|g|mL|IU|units)\b/g;
-const ADD_ID_RE = /^np[1-5]-x-[a-z0-9-]+$/;
-const TARGET_RE = /^data\/presets\/np[^/]*\.json$/;
+const ADD_ID_RE = /^(np[1-5]|gen)-x-[a-z0-9-]+$/;
+const TARGET_RE = /^data\/presets\/(np|gen-)[^/]*\.json$/;
 const KNOWN_KEYS = ['id', 'area', 'title', 'body', 'tags', 'priority', 'outlineRefs', 'aiWritten', 'nurseReviewed'];
 
 const issue = (code, message, fix) => ({ code, message, ...(fix ? { fix } : {}) });
@@ -205,18 +215,42 @@ function checkMarkdown(body, errors) {
 
 const headings = (body) => body.split('\n').filter((l) => /^## /.test(l)).map((l) => l.slice(3).trim());
 
-function checkDisease(body, errors) {
-  if (!/^## Causative agent\s*$/m.test(body)) return;
+function checkSections(body, errors, kind, marker, required) {
+  if (!new RegExp(`^## ${marker}\\s*$`, 'm').test(body)) return;
   const hs = headings(body).map((h) => h.toLowerCase());
-  const missing = REQUIRED_DISEASE_SECTIONS.filter((s) => !hs.includes(s.toLowerCase()));
-  const order = REQUIRED_DISEASE_SECTIONS.join(' > ');
+  const missing = required.filter((s) => !hs.includes(s.toLowerCase()));
+  const order = required.join(' > ');
+  const code = kind.toUpperCase();
   if (missing.length) {
-    errors.push(issue('DISEASE_MISSING', `A disease note (it has "## Causative agent") is missing section(s): ${missing.join(', ')}.`, `Add the missing "## " heading(s). Full order: ${order}.`));
+    errors.push(issue(`${code}_MISSING`, `A ${kind} note (it has "## ${marker}") is missing section(s): ${missing.join(', ')}.`, `Add the missing "## " heading(s). Full order: ${order}.`));
     return;
   }
-  const pos = REQUIRED_DISEASE_SECTIONS.map((s) => hs.indexOf(s.toLowerCase()));
+  const pos = required.map((s) => hs.indexOf(s.toLowerCase()));
   if (!pos.every((p, i) => i === 0 || p > pos[i - 1])) {
-    errors.push(issue('DISEASE_ORDER', 'The disease sections are out of order.', `Reorder the headings to: ${order}.`));
+    errors.push(issue(`${code}_ORDER`, `The ${kind} sections are out of order.`, `Reorder the headings to: ${order}.`));
+  }
+}
+
+function checkDisease(body, errors) {
+  checkSections(body, errors, 'disease', 'Causative agent', REQUIRED_DISEASE_SECTIONS);
+  checkSections(body, errors, 'drug', 'Mechanism of action', REQUIRED_DRUG_SECTIONS);
+}
+
+/** Gemini's second pass: at least 2 sources it checked the note against, and a verdict. Warns, never rejects. */
+function checkCrosscheck(cc, warnings) {
+  if (cc === undefined) {
+    warnings.push(issue('NO_CROSSCHECK', 'No "crosscheck" for this note.', 'Add "crosscheck": { "sources": [2+ sources], "verdict": "AGREE|FIXED|DOUBT", "doubts": [] } to the op.'));
+    return;
+  }
+  const ok = isObj(cc) && Array.isArray(cc.sources) && cc.sources.filter(isStr).length >= 2 && CROSSCHECK_VERDICTS.includes(cc.verdict)
+    && (cc.doubts === undefined || (Array.isArray(cc.doubts) && cc.doubts.every(isStr)));
+  if (!ok) {
+    warnings.push(issue('CROSSCHECK_BAD', 'The "crosscheck" is incomplete.', 'It needs "sources" (2 or more), "verdict" (AGREE, FIXED or DOUBT) and optional "doubts" (list of text).'));
+    return;
+  }
+  if (cc.verdict === 'DOUBT') {
+    const d = (cc.doubts ?? []).filter(isStr);
+    warnings.push(issue('CROSSCHECK_DOUBT', `Cross-check found doubts${d.length ? `: ${d.slice(0, 5).join(' | ')}` : ''}.`));
   }
 }
 
@@ -267,13 +301,16 @@ function checkOp(op, ctx) {
     if (!old) errors.push(issue('UPDATE_UNKNOWN_ID', `No note with id ${op.id} exists in ${ctx.target}.`, 'Check the id spelling and the target pack, or use "add" with a new np<N>-x-<slug> id.'));
   } else {
     const idArea = /^np([1-5])-/.exec(op.id);
-    if (!ADD_ID_RE.test(op.id)) errors.push(issue('ADD_BAD_ID', `New id "${op.id}" is not allowed.`, 'New ids must look like np1-x-short-slug (np1..np5, then -x-, then lowercase letters, digits, hyphens).'));
+    const isGen = /^gen-/.test(op.id);
+    if (!ADD_ID_RE.test(op.id)) errors.push(issue('ADD_BAD_ID', `New id "${op.id}" is not allowed.`, 'New ids must look like np1-x-short-slug or gen-x-short-slug (np1..np5 or gen, then -x-, then lowercase letters, digits, hyphens).'));
     else if (ctx.allIds.has(op.id)) errors.push(issue('ADD_ID_EXISTS', `Id ${op.id} already exists in a pack.`, 'Pick a different id, or send an "update" if you meant to change that note.'));
-    if (idArea && ctx.targetPrefix && `np${idArea[1]}` !== ctx.targetPrefix) {
-      warnings.push(issue('TARGET_PREFIX_MISMATCH', `Id ${op.id} starts with np${idArea[1]} but the target pack is ${ctx.targetPrefix}*.`));
+    const idPrefix = idArea ? `np${idArea[1]}` : isGen ? 'gen' : '';
+    if (idPrefix && ctx.targetPrefix && idPrefix !== ctx.targetPrefix) {
+      warnings.push(issue('TARGET_PREFIX_MISMATCH', `Id ${op.id} starts with ${idPrefix} but the target pack is ${ctx.targetPrefix}*.`));
     }
-    if (!/^NP[1-5]$/.test(String(note.area)) || (idArea && note.area !== `NP${idArea[1]}`)) {
-      errors.push(issue('AREA_BAD', `area "${String(note.area)}" must be NP1..NP5 and match the id (np1-x-... -> NP1).`));
+    const wantArea = idArea ? `NP${idArea[1]}` : isGen ? 'GEN' : '';
+    if (!/^(NP[1-5]|GEN)$/.test(String(note.area)) || (wantArea && note.area !== wantArea)) {
+      errors.push(issue('AREA_BAD', `area "${String(note.area)}" must be NP1..NP5 or GEN and match the id (np1-x-... -> NP1, gen-x-... -> GEN).`));
     }
     if (!Array.isArray(note.outlineRefs) || !note.outlineRefs.every((x) => typeof x === 'string')) {
       errors.push(issue('OUTLINE_BAD', 'outlineRefs must be a list of strings (an empty list [] is fine for a new note).'));
@@ -325,6 +362,7 @@ function checkOp(op, ctx) {
     }
     checkMarkdown(body, errors);
     checkDisease(body, errors);
+    checkCrosscheck(op.crosscheck, warnings);
     if (!/UNVERIFIED/.test(body)) {
       const refs = refsSection(body);
       if (refs === null) warnings.push(issue('REFS_MISSING', 'No "## References" section (and the body does not say UNVERIFIED).'));
@@ -371,7 +409,7 @@ export function validatePatch(patch, packs, opts = {}) {
     if (!ops.length) result.errors.push(issue('NO_OPS', 'The patch has no "ops" list (or it is empty).', 'Send "ops": [ { "op": "update" | "add", "id": "...", "note": { ...full note } } ].'));
     const targetOk = TARGET_RE.test(target) && Array.isArray(packs?.[target]);
     if (!TARGET_RE.test(target)) {
-      result.errors.push(issue('TARGET_INVALID', `target "${target}" is not allowed.`, 'target must be one of the np*.json packs, written as data/presets/<file>.json (gen-*, bundles, visuals and beginner-eye files cannot be patched).'));
+      result.errors.push(issue('TARGET_INVALID', `target "${target}" is not allowed.`, 'target must be one of the np*.json or gen-*.json packs, written as data/presets/<file>.json (bundles, visuals and beginner-eye files cannot be patched).'));
     } else if (!targetOk) {
       result.errors.push(issue('TARGET_MISSING', `target ${target} does not exist.`, `Pick an existing pack. Available: ${Object.keys(packs ?? {}).filter((k) => TARGET_RE.test(k)).join(', ')}.`));
     }
@@ -394,7 +432,7 @@ export function validatePatch(patch, packs, opts = {}) {
     // `titles` (existing notes only) drives duplicate-title checks; `linkTitles` also includes this patch's titles.
     const ctx = {
       target, targetById, allIds, titles, linkTitles: resolvable, seen: new Set(), opTitles: new Map(),
-      targetPrefix: (/\/(np[1-5])-/.exec(target) ?? [])[1] ?? '',
+      targetPrefix: (/\/(np[1-5]|gen)-/.exec(target) ?? [])[1] ?? '',
     };
     ops.forEach((raw, index) => {
       const op = isObj(raw) ? raw : {};
@@ -452,3 +490,4 @@ export function applyPatch(packs, patch, opts = {}) {
 }
 
 export const REQUIRED_SECTIONS = REQUIRED_DISEASE_SECTIONS;
+export const REQUIRED_DRUG = REQUIRED_DRUG_SECTIONS;

@@ -5,7 +5,8 @@ export interface Note {
 }
 /** File path such as "data/presets/np1-comm.json" -> notes in that file. */
 export type Packs = Record<string, Note[]>;
-export interface PatchOp { op: 'update' | 'add'; id: string; note: Note }
+export interface Crosscheck { sources: string[]; verdict: 'AGREE' | 'FIXED' | 'DOUBT'; doubts?: string[] }
+export interface PatchOp { op: 'update' | 'add'; id: string; note: Note; crosscheck?: Crosscheck }
 export interface Patch { task?: string; target?: string; batch?: number; ops?: PatchOp[]; [extra: string]: unknown }
 export interface OpResult {
   index: number; op: string; id: string; title: string; status: 'ok' | 'rejected';
@@ -21,3 +22,4 @@ export function extractPatch(text: string): ExtractResult;
 export function validatePatch(patch: unknown, packs: Packs, opts?: ValidateOptions): ValidationResult;
 export function applyPatch(packs: Packs, patch: unknown, opts?: ValidateOptions): Packs;
 export const REQUIRED_SECTIONS: string[];
+export const REQUIRED_DRUG: string[];

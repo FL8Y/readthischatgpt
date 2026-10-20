@@ -108,8 +108,8 @@ describe('validatePatch: rejections', () => {
     expect(codes(r).e).toContain('ADD_ID_EXISTS');
   });
 
-  it('rejects unknown, gen, bundle and traversal targets without throwing', () => {
-    for (const target of ['data/presets/np9-none.json', 'data/presets/gen-fund-a.json', 'data/presets/bundles.json', '../np1-comm.json', 'data/presets/beginner-eye-chn.json', '']) {
+  it('rejects unknown, bundle and traversal targets without throwing', () => {
+    for (const target of ['data/presets/np9-none.json', 'data/presets/gen-missing.json', 'data/presets/bundles.json', '../np1-comm.json', 'data/presets/beginner-eye-chn.json', '']) {
       const r = validatePatch(patchOf([update('np1-a', mk('np1-a', 'Alpha Note'))], { target }), packs());
       expect(r.errors.map((e) => e.code)).toContainEqual(expect.stringMatching(/TARGET_/));
       expect(r.applied).toBe(0);
@@ -151,11 +151,11 @@ describe('validatePatch: rejections', () => {
   });
 
   it('rejects disease notes with missing or out-of-order sections', () => {
-    const order = ['What it is', 'Causative agent', 'Main problem', 'Initial manifestations', 'Other manifestations', 'Laboratory and diagnostic data', 'Nursing diagnoses', 'Nursing interventions', 'Philippine context', 'Exam traps', 'References', 'Check against your textbook'];
+    const order = ['What it is', 'Causative agent', 'Main problem', 'Initial manifestations', 'Other manifestations', 'Laboratory and diagnostic data', 'Medical management', 'Pharmacologic care', 'Nursing diagnoses', 'Independent nursing interventions', 'Collaborative nursing interventions', 'Philippine context', 'Exam traps', 'References', 'Check against your textbook'];
     const make = (names: string[]) => names.map((h) => `## ${h}\n${prose}\n`).join('\n');
     const good = make(order);
     const swapped = make([order[0], order[2], order[1], ...order.slice(3)]);
-    const missing = make(order.filter((h) => h !== 'Exam traps'));
+    const missing = make(order.filter((h) => h !== 'Collaborative nursing interventions'));
     const r = validatePatch(
       patchOf([update('np1-a', mk('np1-a', 'Alpha Note', { body: good })), update('np1-b', mk('np1-b', 'Other Note', { body: swapped })), add(mk('np1-x-m', 'Missing', { body: missing }))]),
       packs(),
@@ -163,6 +163,38 @@ describe('validatePatch: rejections', () => {
     expect(codes(r, 0).e).toEqual([]);
     expect(codes(r, 1).e).toEqual(['DISEASE_ORDER']);
     expect(codes(r, 2).e).toEqual(['DISEASE_MISSING']);
+  });
+
+  it('checks drug-class notes and allows gen packs (update and gen-x add)', () => {
+    const order = ['What it is', 'Prototype drugs', 'Mechanism of action', 'Indications', 'Side and adverse effects', 'Contraindications and cautions', 'Nursing responsibilities', 'Health teaching', 'Exam traps', 'References', 'Check against your textbook'];
+    const make = (names: string[]) => names.map((h) => `## ${h}\n${prose}\n`).join('\n');
+    const GEN = 'data/presets/gen-fund-a.json';
+    const r = validatePatch(
+      patchOf([
+        update('gen-1', mk('gen-1', 'Fundamentals Thing', { area: 'GEN', body: make(order) })),
+        add(mk('gen-x-loop-diuretics', 'Loop Diuretics', { area: 'GEN', outlineRefs: [], body: make(order.filter((h) => h !== 'Health teaching')) })),
+        add(mk('gen-x-bad-area', 'Bad Area', { area: 'NP1', outlineRefs: [] })),
+      ], { target: GEN }),
+      packs(),
+    );
+    expect(codes(r, 0).e).toEqual([]);
+    expect(codes(r, 1).e).toEqual(['DRUG_MISSING']);
+    expect(codes(r, 2).e).toEqual(['AREA_BAD']);
+  });
+});
+
+describe('validatePatch: cross-check', () => {
+  const op = (crosscheck?: unknown) => ({ ...update('np1-a', mk('np1-a', 'Alpha Note', { tags: ['chn', 'x'] })), ...(crosscheck === undefined ? {} : { crosscheck }) });
+  it('warns when the cross-check is missing, incomplete or doubtful, and never rejects for it', () => {
+    const r = validatePatch(patchOf([op()]), packs());
+    expect(codes(r).w).toContain('NO_CROSSCHECK');
+    expect(r.ops[0].status).toBe('ok');
+    expect(codes(validatePatch(patchOf([op({ sources: ['one'], verdict: 'AGREE' })]), packs())).w).toContain('CROSSCHECK_BAD');
+    const doubt = validatePatch(patchOf([op({ sources: ['DOH', 'Kozier'], verdict: 'DOUBT', doubts: ['incubation days differ'] })]), packs());
+    expect(codes(doubt).w).toContain('CROSSCHECK_DOUBT');
+    expect(doubt.ops[0].warnings.find((w) => w.code === 'CROSSCHECK_DOUBT')?.message).toContain('incubation days differ');
+    const fine = codes(validatePatch(patchOf([op({ sources: ['DOH', 'Kozier'], verdict: 'AGREE' })]), packs())).w;
+    expect(fine.filter((c) => c.includes('CROSSCHECK'))).toEqual([]);
   });
 });
 
