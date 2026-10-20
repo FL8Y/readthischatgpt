@@ -115,7 +115,30 @@ export async function startQuick(page, n = 10) {
 
 /** Select the first option and submit; waits for the rationale card. */
 export async function answerFirst(page) {
-  await click(page.getByRole('radio', { name: /^Option A\./ }).or(page.getByRole('checkbox', { name: /^Option A\./ })));
-  await click(btn(page, 'Submit'));
+  const plain = page.getByRole('radio', { name: /^Option A\./ }).or(page.getByRole('checkbox', { name: /^Option A\./ }));
+  const rowRadio = page.getByRole('radio', { name: /^Row 1, / });
+  const blank = page.getByRole('button', { name: /^Blank 1 of \d+\./ });
+  const segment = page.getByRole('checkbox', { name: /^Segment 1\./ });
+  // Case-set item types (matrix, cloze, highlight) can appear in any mixed session: answer them generically.
+  await plain.or(rowRadio).or(blank).or(segment).first().waitFor({ state: 'visible', timeout: T });
+  if (await plain.count()) {
+    await click(plain);
+    await click(btn(page, 'Submit'));
+  } else if (await rowRadio.count()) {
+    for (let r = 1; (await page.getByRole('radio', { name: new RegExp(`^Row ${r}, `) }).count()) > 0; r++) {
+      await click(page.getByRole('radio', { name: new RegExp(`^Row ${r}, `) }).first());
+    }
+    await click(btn(page, 'Submit'));
+  } else if (await blank.count()) {
+    const total = Number.parseInt((await blank.first().getAttribute('aria-label')).match(/of (\d+)/)[1], 10);
+    for (let b = 1; b <= total; b++) {
+      await click(page.getByRole('button', { name: new RegExp(`^Blank ${b} of ${total}\\.`) }));
+      await click(page.getByRole('radio', { name: /^Choice / }).first());
+    }
+    await click(btn(page, 'Submit'));
+  } else {
+    await click(segment);
+    await click(btn(page, 'Done'));
+  }
   await see(page.getByText(/AI-written|Not yet checked|Checked by/), 'rationale card badge');
 }

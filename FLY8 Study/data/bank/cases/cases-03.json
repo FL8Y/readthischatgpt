@@ -1,0 +1,838 @@
+[
+ {
+  "id": "cs-np4-02-1",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Dysphagia after stroke",
+  "noteId": "np4-ns-stroke-nursing",
+  "clusterId": "cs-np4-02",
+  "clusterSeq": 1,
+  "vignette": "Mang Dado, 71, has hypertension and is 36 hours after an ischemic stroke in the left hemisphere. He has weakness of the right arm and leg, trouble finding words although he follows simple commands, and cannot see to his right with either eye. His blood pressure is 178/96 and his Glasgow Coma Scale score is 14. At lunch, his tray is placed on his right side. He bumps the tray with his right hand, coughs repeatedly when his son gives him a sip of water, and his voice sounds wet afterward. The son wants him to eat now so that he can regain strength.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Offer thickened liquids in small amounts with him upright",
+   "Move the tray to his left side and let him feed himself",
+   "Hold oral intake and request a swallowing evaluation",
+   "Encourage the son to give soft foods one spoon at a time"
+  ],
+  "answer": [
+   2
+  ],
+  "optionRationales": [
+   "Right action, wrong time: texture changes are used only after a swallow assessment.",
+   "Right detail for hemianopsia but does not address the aspiration sign.",
+   "Right: protects the airway until swallowing is judged safe.",
+   "Unsafe but common habit: family feeding before evaluation increases risk."
+  ],
+  "rationale": "1. Coughing with sips and a wet voice after swallowing are signs of aspiration, a threat to the airway.\n2. Priority rule: airway and breathing before nutrition, so oral intake is held until a swallowing screen is done.\n3. Positioning and food choices are used only after the swallow is judged safe.\nFlip: if he swallowed water without coughing or voice change, feeding with upright positioning would be appropriate.",
+  "strategy": "Safety: protect the airway before feeding",
+  "archetype": "aspiration risk",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Check gag reflex and swallow before feeding",
+   "Aspiration risk signs: cough, wet voice"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np4-02-2",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Hemianopsia safety",
+  "noteId": "np4-ns-stroke-nursing",
+  "clusterId": "cs-np4-02",
+  "clusterSeq": 2,
+  "vignette": "Mang Dado, 71, has hypertension and is 36 hours after an ischemic stroke in the left hemisphere. He has weakness of the right arm and leg, trouble finding words although he follows simple commands, and cannot see to his right with either eye. His blood pressure is 178/96 and his Glasgow Coma Scale score is 14. At lunch, his tray is placed on his right side. He bumps the tray with his right hand, coughs repeatedly when his son gives him a sip of water, and his voice sounds wet afterward. The son wants him to eat now so that he can regain strength.",
+  "stem": "Where should the nurse place the tray and the call light, and from which side should the nurse approach?",
+  "options": [
+   "On the right side so that he practises using that arm",
+   "On the left side, approaching from the left",
+   "In the center of the table, approaching from the foot of the bed",
+   "On the right side, approaching quietly from behind"
+  ],
+  "answer": [
+   1
+  ],
+  "optionRationales": [
+   "Right action for rehabilitation but unsafe when he cannot see the right side.",
+   "Right: matches his intact visual field.",
+   "Plausible but not matched to the field defect.",
+   "Unsafe: approaching from the blind side startles him."
+  ],
+  "rationale": "He cannot see the right half of the visual field, so objects and people must be on the left side where he can see them. He should also be taught to turn his head toward the right to scan.",
+  "strategy": "Use the seeing side",
+  "archetype": "visual field loss",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Place items on the unaffected, seeing side",
+   "Teach scanning to the blind side"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np4-02-3",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP4",
+  "topic": "Stroke deficits and nursing actions",
+  "noteId": "np4-ns-stroke-nursing",
+  "clusterId": "cs-np4-02",
+  "clusterSeq": 3,
+  "vignette": "Mang Dado, 71, has hypertension and is 36 hours after an ischemic stroke in the left hemisphere. He has weakness of the right arm and leg, trouble finding words although he follows simple commands, and cannot see to his right with either eye. His blood pressure is 178/96 and his Glasgow Coma Scale score is 14. At lunch, his tray is placed on his right side. He bumps the tray with his right hand, coughs repeatedly when his son gives him a sip of water, and his voice sounds wet afterward. The son wants him to eat now so that he can regain strength.",
+  "stem": "Match each deficit with the most appropriate nursing action.",
+  "options": [],
+  "answer": [],
+  "rows": [
+   "Right visual field loss",
+   "Difficulty finding words",
+   "Wet voice after sips of water",
+   "Weak right arm"
+  ],
+  "columns": [
+   "Teach him to turn his head to scan",
+   "Use short phrases with gestures",
+   "Hold intake until swallow check",
+   "Range of motion and alignment"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "rationale": "Visual field loss needs scanning teaching. Aphasia needs short phrases with gestures and time. Dysphagia needs a swallow check before feeding. Weakness needs range of motion and alignment.",
+  "optionRationales": [],
+  "strategy": "Match deficit to action",
+  "archetype": "deficit matrix",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Aphasia: short sentences, gestures",
+   "Hemiparesis: ROM and alignment"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np4-02-4",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP4",
+  "topic": "Hemispheric stroke effects",
+  "noteId": "np4-ns-stroke-deficits-hemispheres",
+  "clusterId": "cs-np4-02",
+  "clusterSeq": 4,
+  "vignette": "Mang Dado, 71, has hypertension and is 36 hours after an ischemic stroke in the left hemisphere. He has weakness of the right arm and leg, trouble finding words although he follows simple commands, and cannot see to his right with either eye. His blood pressure is 178/96 and his Glasgow Coma Scale score is 14. At lunch, his tray is placed on his right side. He bumps the tray with his right hand, coughs repeatedly when his son gives him a sip of water, and his voice sounds wet afterward. The son wants him to eat now so that he can regain strength.",
+  "stem": "A stroke in the left hemisphere causes {{1}}-sided weakness and commonly {{2}}.",
+  "options": [],
+  "answer": [],
+  "blanks": [
+   {
+    "choices": [
+     "left",
+     "right"
+    ],
+    "answer": 1
+   },
+   {
+    "choices": [
+     "neglect of the left side",
+     "aphasia",
+     "impulsive behavior",
+     "loss of hearing"
+    ],
+    "answer": 1
+   }
+  ],
+  "rationale": "Each hemisphere controls the opposite side of the body, and speech is dominated by the left hemisphere in most people, so left strokes cause right weakness and aphasia.",
+  "optionRationales": [],
+  "strategy": "Contralateral effects",
+  "archetype": "cloze hemisphere",
+  "difficulty": 2,
+  "bloom": "recall",
+  "keyFacts": [
+   "Left stroke: right weakness, aphasia"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np4-02-5",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP4",
+  "topic": "Aspiration cues",
+  "noteId": "np4-ns-stroke-nursing",
+  "clusterId": "cs-np4-02",
+  "clusterSeq": 5,
+  "vignette": "Mang Dado, 71, has hypertension and is 36 hours after an ischemic stroke in the left hemisphere. He has weakness of the right arm and leg, trouble finding words although he follows simple commands, and cannot see to his right with either eye. His blood pressure is 178/96 and his Glasgow Coma Scale score is 14. At lunch, his tray is placed on his right side. He bumps the tray with his right hand, coughs repeatedly when his son gives him a sip of water, and his voice sounds wet afterward. The son wants him to eat now so that he can regain strength.",
+  "stem": "Select the findings that show he is at risk of aspiration.",
+  "options": [
+   "Coughs repeatedly after a sip of water",
+   "Voice sounds wet afterward",
+   "Weakness of the right arm",
+   "Blood pressure 178/96",
+   "Son wants him to eat now",
+   "Glasgow Coma Scale score 14"
+  ],
+  "answer": [
+   0,
+   1
+  ],
+  "optionRationales": [
+   "Aspiration sign.",
+   "Aspiration sign.",
+   "Motor deficit.",
+   "Not an aspiration cue.",
+   "Pressure to feed, not a finding.",
+   "Alertness is adequate."
+  ],
+  "rationale": "Coughing after sips and a wet voice are signs of unsafe swallowing. Weakness, blood pressure and the son's wish are not aspiration cues.",
+  "strategy": "Identify aspiration cues",
+  "archetype": "aspiration cues",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Cough and wet voice after swallowing"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np4-03-1",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Hip dislocation",
+  "noteId": "np4-or-total-hip",
+  "clusterId": "cs-np4-03",
+  "clusterSeq": 1,
+  "vignette": "Aling Cora, 72, is on postoperative day 1 after a right total hip replacement for osteoarthritis. An abduction wedge pillow is between her legs and she is receiving pain medication through a patient-controlled device. At 0800 she turns toward her bedside table to reach her glasses and suddenly cries out with sharp pain in her right hip. Her right leg now looks shorter than the left and lies in an unusual position. Her temperature is 37.2 C and her pedal pulses are present. Her daughter asks if she can sit in the soft low armchair by the bed for breakfast.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Help her stand to see if the pain eases with weight-bearing",
+   "Apply ice to the hip and give the next patient-controlled dose",
+   "Gently move the leg back into abduction on the wedge pillow",
+   "Keep the leg still and notify the surgeon immediately"
+  ],
+  "answer": [
+   3
+  ],
+  "optionRationales": [
+   "Unsafe: weight-bearing on a dislocated joint causes damage.",
+   "Treats the symptom: comfort measures do not address dislocation.",
+   "Over-intervention: reducing a dislocation is not a nursing action.",
+   "Right: immobilise and report."
+  ],
+  "rationale": "1. Sudden severe pain with a shortened, abnormally positioned leg after a movement is the pattern of a prosthesis dislocation.\n2. The nurse keeps the limb immobile and still, and notifies the surgeon at once; moving the leg risks nerve and vessel injury.\n3. Ice and ambulation are not first actions.\nFlip: if the pain were mild and the leg properly aligned, repositioning with pillows and rechecking would come first.",
+  "strategy": "Immobilise and report: do not manipulate",
+  "archetype": "suspected dislocation",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Dislocation: sudden pain, shortened, abnormal position",
+   "Do not try to reposition"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np4-03-2",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Discharge teaching hip precautions",
+  "noteId": "np4-or-total-hip",
+  "clusterId": "cs-np4-03",
+  "clusterSeq": 2,
+  "vignette": "Aling Cora, 72, is on postoperative day 1 after a right total hip replacement for osteoarthritis. An abduction wedge pillow is between her legs and she is receiving pain medication through a patient-controlled device. At 0800 she turns toward her bedside table to reach her glasses and suddenly cries out with sharp pain in her right hip. Her right leg now looks shorter than the left and lies in an unusual position. Her temperature is 37.2 C and her pedal pulses are present. Her daughter asks if she can sit in the soft low armchair by the bed for breakfast.",
+  "stem": "Which statement by Aling Cora, later, shows she understands hip precautions?",
+  "options": [
+   "I will cross my legs at the knees when I sit",
+   "I will bend forward to put on my own shoes",
+   "I will rest in my soft low armchair",
+   "I will use a raised toilet seat and a high chair"
+  ],
+  "answer": [
+   3
+  ],
+  "optionRationales": [
+   "Unsafe: crossing legs adducts the hip.",
+   "Unsafe: bending forward flexes the hip beyond 90 degrees.",
+   "Unsafe: low seats flex the hip.",
+   "Right: keeps flexion under 90 degrees."
+  ],
+  "rationale": "Raised toilet seats and high chairs keep the hip above 90 degrees of flexion. Low soft chairs, crossing legs and bending forward to reach her feet flex the hip and risk dislocation.",
+  "strategy": "Evaluate learning against the 90-degree rule",
+  "archetype": "teaching evaluation",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Never flex the hip beyond 90 degrees",
+   "Use high seats and raised toilet seat"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np4-03-3",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP4",
+  "topic": "Hip precautions in daily activities",
+  "noteId": "np4-or-total-hip",
+  "clusterId": "cs-np4-03",
+  "clusterSeq": 3,
+  "vignette": "Aling Cora, 72, is on postoperative day 1 after a right total hip replacement for osteoarthritis. An abduction wedge pillow is between her legs and she is receiving pain medication through a patient-controlled device. At 0800 she turns toward her bedside table to reach her glasses and suddenly cries out with sharp pain in her right hip. Her right leg now looks shorter than the left and lies in an unusual position. Her temperature is 37.2 C and her pedal pulses are present. Her daughter asks if she can sit in the soft low armchair by the bed for breakfast.",
+  "stem": "Classify each activity as safe or unsafe after the hip replacement.",
+  "options": [],
+  "answer": [],
+  "rows": [
+   "Sitting in a low soft chair",
+   "Using a raised toilet seat",
+   "Crossing the legs at the knees",
+   "Sleeping with a pillow between the knees"
+  ],
+  "columns": [
+   "Safe",
+   "Unsafe"
+  ],
+  "rowAnswer": [
+   1,
+   0,
+   1,
+   0
+  ],
+  "rationale": "A pillow between the legs keeps abduction. Raised seats keep flexion under 90 degrees. Low soft chairs and crossing the legs risk dislocation.",
+  "optionRationales": [],
+  "strategy": "Hip precautions",
+  "archetype": "safe unsafe",
+  "difficulty": 2,
+  "bloom": "apply",
+  "keyFacts": [
+   "Keep abduction, avoid adduction and over-flexion"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np4-03-4",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP4",
+  "topic": "Hip replacement positioning",
+  "noteId": "np4-or-total-hip",
+  "clusterId": "cs-np4-03",
+  "clusterSeq": 4,
+  "vignette": "Aling Cora, 72, is on postoperative day 1 after a right total hip replacement for osteoarthritis. An abduction wedge pillow is between her legs and she is receiving pain medication through a patient-controlled device. At 0800 she turns toward her bedside table to reach her glasses and suddenly cries out with sharp pain in her right hip. Her right leg now looks shorter than the left and lies in an unusual position. Her temperature is 37.2 C and her pedal pulses are present. Her daughter asks if she can sit in the soft low armchair by the bed for breakfast.",
+  "stem": "The nurse must never flex the hip beyond {{1}} degrees and keeps the leg in {{2}}.",
+  "options": [],
+  "answer": [],
+  "blanks": [
+   {
+    "choices": [
+     "45",
+     "90",
+     "120",
+     "135"
+    ],
+    "answer": 1
+   },
+   {
+    "choices": [
+     "adduction",
+     "internal rotation",
+     "abduction"
+    ],
+    "answer": 2
+   }
+  ],
+  "rationale": "The femoral head stays seated when flexion stays within 90 degrees and the leg is kept abducted.",
+  "optionRationales": [],
+  "strategy": "Positioning rule",
+  "archetype": "cloze hip",
+  "difficulty": 2,
+  "bloom": "recall",
+  "keyFacts": [
+   "Flexion under 90 degrees; abduction"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np4-03-5",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP4",
+  "topic": "Dislocation cues",
+  "noteId": "np4-or-total-hip",
+  "clusterId": "cs-np4-03",
+  "clusterSeq": 5,
+  "vignette": "Aling Cora, 72, is on postoperative day 1 after a right total hip replacement for osteoarthritis. An abduction wedge pillow is between her legs and she is receiving pain medication through a patient-controlled device. At 0800 she turns toward her bedside table to reach her glasses and suddenly cries out with sharp pain in her right hip. Her right leg now looks shorter than the left and lies in an unusual position. Her temperature is 37.2 C and her pedal pulses are present. Her daughter asks if she can sit in the soft low armchair by the bed for breakfast.",
+  "stem": "Select the findings that suggest the prosthesis has dislocated.",
+  "options": [
+   "Sudden sharp pain after turning",
+   "Right leg looks shorter",
+   "Leg lies in an unusual position",
+   "Temperature 37.2 C",
+   "Pedal pulses present",
+   "Wedge pillow between the legs"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "optionRationales": [
+   "Signal.",
+   "Signal.",
+   "Signal.",
+   "Normal.",
+   "Normal.",
+   "Correct precaution."
+  ],
+  "rationale": "Sudden sharp pain with movement, a shortened leg and an unusual leg position suggest dislocation. Temperature, pedal pulses, patient-controlled analgesia and the wedge pillow are unrelated.",
+  "strategy": "Separate dislocation cues from normal data",
+  "archetype": "dislocation cues",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Dislocation: sudden pain, leg shortening, abnormal position"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np5-01-1",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Acute dystonia",
+  "noteId": "np5-pc-eps-nms",
+  "clusterId": "cs-np5-01",
+  "clusterSeq": 1,
+  "vignette": "Marco, 24, has schizophrenia and was started on a high-potency antipsychotic three days ago on the psychiatric unit. This morning his neck is twisted to one side, his eyes are rolled upward and his tongue feels thick; he is struggling to swallow his saliva. Six days later, after the dose was increased, he has a temperature of 39.6 C, severe muscle rigidity, sweating, a blood pressure that swings between 170/100 and 90/60, and increasing confusion.",
+  "stem": "On the morning of day 3, what should the nurse do first?",
+  "options": [
+   "Give the next scheduled antipsychotic dose and observe",
+   "Reassure him that the stiffness is anxiety and will pass",
+   "Assess his airway and call the provider for an anticholinergic order",
+   "Document the finding and reassess at the end of the shift"
+  ],
+  "answer": [
+   2
+  ],
+  "optionRationales": [
+   "Unsafe: continuing the drug worsens dystonia.",
+   "Under-reaction: attributes a drug effect to anxiety.",
+   "Right: protects the airway and obtains treatment.",
+   "Under-reaction: delays an emergency."
+  ],
+  "rationale": "1. Neck twisting, upward gaze, thick tongue and trouble swallowing are acute dystonia, which can progress to laryngospasm.\n2. Priority is airway and breathing, then an order for an anticholinergic.\n3. Reassurance or waiting is unsafe.\nFlip: if he had only mild restlessness, the nurse would report it at the next opportunity.",
+  "strategy": "Airway first",
+  "archetype": "dystonia emergency",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Acute dystonia is an emergency",
+   "Treat with anticholinergic"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np5-01-2",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Neuroleptic malignant syndrome",
+  "noteId": "np5-pc-eps-nms",
+  "clusterId": "cs-np5-01",
+  "clusterSeq": 2,
+  "vignette": "Marco, 24, has schizophrenia and was started on a high-potency antipsychotic three days ago on the psychiatric unit. This morning his neck is twisted to one side, his eyes are rolled upward and his tongue feels thick; he is struggling to swallow his saliva. Six days later, after the dose was increased, he has a temperature of 39.6 C, severe muscle rigidity, sweating, a blood pressure that swings between 170/100 and 90/60, and increasing confusion.",
+  "stem": "On day 6, what should the nurse do first?",
+  "options": [
+   "Give the PRN anticholinergic and recheck in an hour",
+   "Hold the antipsychotic and notify the provider urgently",
+   "Apply cooling blankets and continue the schedule",
+   "Reassure him and encourage fluids"
+  ],
+  "answer": [
+   1
+  ],
+  "optionRationales": [
+   "Treats the wrong problem: anticholinergics treat EPS, not NMS.",
+   "Right: stopping the antipsychotic is the first treatment step.",
+   "Treats the symptom: fever without stopping the cause.",
+   "Under-reaction."
+  ],
+  "rationale": "Fever, severe rigidity, unstable blood pressure, sweating and confusion after a dose increase are NMS, a life-threatening reaction. The drug is held and the provider called immediately; cooling and fluids follow.\nFlip: if he had rigidity with no fever and stable vital signs, an anticholinergic for pseudoparkinsonism would be reasonable.",
+  "strategy": "Hold the drug and escalate",
+  "archetype": "NMS recognition",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "NMS: fever, rigidity, unstable BP, confusion; stop the drug"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np5-01-3",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP5",
+  "topic": "Antipsychotic side effects",
+  "noteId": "np5-pc-eps-nms",
+  "clusterId": "cs-np5-01",
+  "clusterSeq": 3,
+  "vignette": "Marco, 24, has schizophrenia and was started on a high-potency antipsychotic three days ago on the psychiatric unit. This morning his neck is twisted to one side, his eyes are rolled upward and his tongue feels thick; he is struggling to swallow his saliva. Six days later, after the dose was increased, he has a temperature of 39.6 C, severe muscle rigidity, sweating, a blood pressure that swings between 170/100 and 90/60, and increasing confusion.",
+  "stem": "Match each description with the side effect.",
+  "options": [],
+  "answer": [],
+  "rows": [
+   "Cannot sit still, paces constantly",
+   "Shuffling gait with pill-rolling tremor",
+   "Lip smacking after months of therapy",
+   "Neck twisting and upward gaze on day 3"
+  ],
+  "columns": [
+   "Acute dystonia",
+   "Pseudoparkinsonism",
+   "Akathisia",
+   "Tardive dyskinesia"
+  ],
+  "rowAnswer": [
+   2,
+   1,
+   3,
+   0
+  ],
+  "rationale": "Pacing and an urge to move is akathisia, shuffling gait with pill-rolling is pseudoparkinsonism, lip smacking and worm-like tongue after months is tardive dyskinesia, and early neck twisting is acute dystonia.",
+  "optionRationales": [],
+  "strategy": "Link sign to syndrome",
+  "archetype": "EPS matrix",
+  "difficulty": 3,
+  "bloom": "recall",
+  "keyFacts": [
+   "EPS types: dystonia, parkinsonism, akathisia, tardive dyskinesia"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np5-01-4",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP5",
+  "topic": "NMS management",
+  "noteId": "np5-pc-eps-nms",
+  "clusterId": "cs-np5-01",
+  "clusterSeq": 4,
+  "vignette": "Marco, 24, has schizophrenia and was started on a high-potency antipsychotic three days ago on the psychiatric unit. This morning his neck is twisted to one side, his eyes are rolled upward and his tongue feels thick; he is struggling to swallow his saliva. Six days later, after the dose was increased, he has a temperature of 39.6 C, severe muscle rigidity, sweating, a blood pressure that swings between 170/100 and 90/60, and increasing confusion.",
+  "stem": "NMS is managed by {{1}} the antipsychotic and giving {{2}}.",
+  "options": [],
+  "answer": [],
+  "blanks": [
+   {
+    "choices": [
+     "continuing",
+     "stopping",
+     "doubling"
+    ],
+    "answer": 1
+   },
+   {
+    "choices": [
+     "restricted fluids",
+     "supportive care with cooling and hydration",
+     "a higher dose of a different antipsychotic"
+    ],
+    "answer": 1
+   }
+  ],
+  "rationale": "The causative drug is stopped and the client is cooled and hydrated while the provider manages complications.",
+  "optionRationales": [],
+  "strategy": "Remove the cause and support",
+  "archetype": "cloze NMS",
+  "difficulty": 3,
+  "bloom": "recall",
+  "keyFacts": [
+   "Stop the drug; cool and hydrate"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np5-01-5",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP5",
+  "topic": "NMS versus EPS",
+  "noteId": "np5-pc-eps-nms",
+  "clusterId": "cs-np5-01",
+  "clusterSeq": 5,
+  "vignette": "Marco, 24, has schizophrenia and was started on a high-potency antipsychotic three days ago on the psychiatric unit. This morning his neck is twisted to one side, his eyes are rolled upward and his tongue feels thick; he is struggling to swallow his saliva. Six days later, after the dose was increased, he has a temperature of 39.6 C, severe muscle rigidity, sweating, a blood pressure that swings between 170/100 and 90/60, and increasing confusion.",
+  "stem": "Select the findings on day 6 that point to NMS rather than simple EPS.",
+  "options": [
+   "Temperature 39.6 C",
+   "Severe muscle rigidity",
+   "Blood pressure swings",
+   "Increasing confusion",
+   "Neck twisted to one side on day 3",
+   "Thick tongue on day 3"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "optionRationales": [
+   "Systemic.",
+   "Severe rigidity.",
+   "Autonomic instability.",
+   "Altered mental state.",
+   "Dystonia.",
+   "Dystonia."
+  ],
+  "rationale": "High fever, severe rigidity, unstable blood pressure and confusion are systemic features of NMS. The earlier neck twisting and thick tongue are dystonia from day 3.",
+  "strategy": "Systemic signs separate NMS from EPS",
+  "archetype": "NMS cues",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "NMS has systemic signs; EPS is movement only"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np5-02-1",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Inhalation injury",
+  "noteId": "np5-airway",
+  "clusterId": "cs-np5-02",
+  "clusterSeq": 1,
+  "vignette": "Mang Ben, 38, was rescued from a burning house after being trapped in a closed room. He is anxious and coughing. His voice is hoarse, his nasal hairs are singed, and there is soot around his mouth. Burns cover the entire front of his chest and abdomen and the whole of his left arm. His respiratory rate is 28/min, heart rate 118, blood pressure 100/60 and the pulse oximeter reads 99% on room air. Bystanders poured water over his burns.",
+  "stem": "Which action is the priority for the emergency room nurse?",
+  "options": [
+   "Begin fluid resuscitation because the saturation is normal",
+   "Cover the burns with clean dry dressings",
+   "Give pain medication so that he can breathe comfortably",
+   "Give high-flow oxygen and request urgent airway evaluation"
+  ],
+  "answer": [
+   3
+  ],
+  "optionRationales": [
+   "Right action, wrong priority: fluids matter, but the airway can fail first.",
+   "Right care, wrong time: wounds come after airway and breathing.",
+   "Treats the symptom: sedating pain relief can worsen airway risk.",
+   "Right: oxygen and early airway control."
+  ],
+  "rationale": "1. A hoarse voice, singed nasal hair, soot and a closed-space fire suggest inhalation injury, and airway swelling can close the airway within hours.\n2. Pulse oximetry can read falsely normal in carbon monoxide poisoning, so 99% is not reassuring.\n3. Give 100% oxygen and request early airway assessment before fluids or wound care.\nFlip: if there were no airway cues and burns only on the arm, cooling and fluids would lead.",
+  "strategy": "Airway first; do not trust the saturation",
+  "archetype": "airway burn",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Airway first",
+   "Pulse oximetry may be falsely normal with carbon monoxide"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np5-02-2",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Burn size estimate",
+  "noteId": "np5-burns-rule-of-nines",
+  "clusterId": "cs-np5-02",
+  "clusterSeq": 2,
+  "vignette": "Mang Ben, 38, was rescued from a burning house after being trapped in a closed room. He is anxious and coughing. His voice is hoarse, his nasal hairs are singed, and there is soot around his mouth. Burns cover the entire front of his chest and abdomen and the whole of his left arm. His respiratory rate is 28/min, heart rate 118, blood pressure 100/60 and the pulse oximeter reads 99% on room air. Bystanders poured water over his burns.",
+  "stem": "Using the rule of nines, which estimate of the body surface area burned is most accurate?",
+  "options": [
+   "18%",
+   "27%",
+   "36%",
+   "45%"
+  ],
+  "answer": [
+   1
+  ],
+  "optionRationales": [
+   "Counts the trunk only.",
+   "Right: 18% plus 9%.",
+   "Counts both arms or both sides of the trunk.",
+   "Overestimate."
+  ],
+  "rationale": "In an adult the front of the trunk is 18% and one entire arm is 9%, giving 27%.",
+  "strategy": "Apply the rule of nines",
+  "archetype": "TBSA estimate",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Rule of nines: front trunk 18%, each arm 9%"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np5-02-3",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP5",
+  "topic": "Burn depth",
+  "noteId": "np5-burns-degrees",
+  "clusterId": "cs-np5-02",
+  "clusterSeq": 3,
+  "vignette": "Mang Ben, 38, was rescued from a burning house after being trapped in a closed room. He is anxious and coughing. His voice is hoarse, his nasal hairs are singed, and there is soot around his mouth. Burns cover the entire front of his chest and abdomen and the whole of his left arm. His respiratory rate is 28/min, heart rate 118, blood pressure 100/60 and the pulse oximeter reads 99% on room air. Bystanders poured water over his burns.",
+  "stem": "Match each description with the burn depth.",
+  "options": [],
+  "answer": [],
+  "rows": [
+   "Red, dry, painful, no blisters",
+   "Blisters, weeping and very painful",
+   "White, leathery and painless"
+  ],
+  "columns": [
+   "Superficial",
+   "Partial thickness",
+   "Full thickness"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   2
+  ],
+  "rationale": "Superficial burns are red, dry and painful; partial-thickness burns blister and are very painful; full-thickness burns are leathery or charred and painless because the nerve endings are destroyed.",
+  "optionRationales": [],
+  "strategy": "Depth by appearance and pain",
+  "archetype": "depth matrix",
+  "difficulty": 3,
+  "bloom": "recall",
+  "keyFacts": [
+   "Full-thickness: painless, leathery"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np5-02-4",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP5",
+  "topic": "Burn fluid resuscitation",
+  "noteId": "np5-burns-other-management",
+  "clusterId": "cs-np5-02",
+  "clusterSeq": 4,
+  "vignette": "Mang Ben, 38, was rescued from a burning house after being trapped in a closed room. He is anxious and coughing. His voice is hoarse, his nasal hairs are singed, and there is soot around his mouth. Burns cover the entire front of his chest and abdomen and the whole of his left arm. His respiratory rate is 28/min, heart rate 118, blood pressure 100/60 and the pulse oximeter reads 99% on room air. Bystanders poured water over his burns.",
+  "stem": "The fluid rate in the first hours is based on the {{1}} burned and the client's weight, and adequacy is judged by {{2}}.",
+  "options": [],
+  "answer": [],
+  "blanks": [
+   {
+    "choices": [
+     "percentage of body surface area",
+     "number of dressings",
+     "time since rescue only"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "urine output",
+     "skin color alone",
+     "oral intake"
+    ],
+    "answer": 0
+   }
+  ],
+  "rationale": "Fluid formulas use burn size and weight, and urine output is the key bedside indicator of adequate resuscitation.",
+  "optionRationales": [],
+  "strategy": "Monitor perfusion by urine output",
+  "archetype": "cloze fluids",
+  "difficulty": 3,
+  "bloom": "recall",
+  "keyFacts": [
+   "Urine output guides fluid adequacy"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np5-02-5",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP5",
+  "topic": "Inhalation injury cues",
+  "noteId": "np5-airway",
+  "clusterId": "cs-np5-02",
+  "clusterSeq": 5,
+  "vignette": "Mang Ben, 38, was rescued from a burning house after being trapped in a closed room. He is anxious and coughing. His voice is hoarse, his nasal hairs are singed, and there is soot around his mouth. Burns cover the entire front of his chest and abdomen and the whole of his left arm. His respiratory rate is 28/min, heart rate 118, blood pressure 100/60 and the pulse oximeter reads 99% on room air. Bystanders poured water over his burns.",
+  "stem": "Select the findings that suggest an inhalation injury.",
+  "options": [
+   "Hoarse voice",
+   "Singed nasal hairs",
+   "Soot around the mouth",
+   "Trapped in a closed room",
+   "Burn on the left arm",
+   "Pulse oximeter 99%"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "optionRationales": [
+   "Airway swelling.",
+   "Heat exposure.",
+   "Smoke exposure.",
+   "Enclosed fire.",
+   "Not an airway sign.",
+   "Can be falsely normal."
+  ],
+  "rationale": "Hoarse voice, singed nasal hairs, soot around the mouth and a closed-space fire are the classic cues. Burns on the arm and a normal oximeter reading do not exclude or define it.",
+  "strategy": "Airway burn cues",
+  "archetype": "inhalation cues",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Hoarseness, singed nasal hairs, soot, enclosed space"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ }
+]
