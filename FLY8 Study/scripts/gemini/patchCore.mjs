@@ -346,6 +346,7 @@ function checkOp(op, ctx) {
     if (lost.length) errors.push(issue('TAGS_SHRUNK', `Tags were removed: ${lost.join(', ')}.`, 'Tags may only grow. Keep every existing tag and add new ones after them.'));
   }
   if (!PRIORITIES.includes(note.priority)) errors.push(issue('PRIORITY_BAD', `priority "${String(note.priority)}" must be high, medium or low.`));
+  else if (old && note.priority !== old.priority) errors.push(issue('PRIORITY_CHANGED', `priority changed from ${old.priority} to ${note.priority}.`, `Keep priority exactly "${old.priority}" (the question plan depends on it). If you think it is wrong, say so in NOTES.`));
   if (note.aiWritten !== true || note.nurseReviewed !== false) {
     errors.push(issue('FLAGS_BAD', 'aiWritten must be true and nurseReviewed must be false.', 'Set "aiWritten": true and "nurseReviewed": false (only a nurse may change this, by hand).'));
   }
