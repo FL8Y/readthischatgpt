@@ -15,15 +15,17 @@ import { Settings } from './src/ui/Settings';
 import { Onboarding } from './src/ui/Onboarding';
 import { ManualHost } from './src/ui/ManualHost';
 import { Tutor } from './src/ui/Tutor';
+import { PromptMaker } from './src/ui/PromptMaker';
+import type { ItemContext } from './src/pnle/itemContext';
 import { More, type MoreId } from './src/ui/More';
 import { DemoHarness } from './src/ui/DemoHarness';
 import { Header, ImmersiveCtx, Screen, TabBar, type TabItem } from './src/ui/kit';
 import { ThemeProvider, useTheme } from './src/ui/theme';
 
 /** Every id the app has ever used keeps working with go() ('study' now opens Practice). library/map/tutor/settings live under More. */
-type Tab = 'home' | 'practice' | 'topics' | 'stats' | 'library' | 'map' | 'tutor' | 'settings' | 'more';
+type Tab = 'home' | 'practice' | 'topics' | 'stats' | 'library' | 'map' | 'tutor' | 'prompts' | 'settings' | 'more';
 type GoId = Tab | 'study';
-type Ctx = { state: AppState; update: (s: AppState) => void; go: (t: GoId) => void; registerBack: (fn: (() => boolean) | null) => void };
+type Ctx = { state: AppState; update: (s: AppState) => void; go: (t: GoId) => void; registerBack: (fn: (() => boolean) | null) => void; tutorItem?: ItemContext; askTutor: (c: ItemContext) => void; clearTutorItem: () => void };
 
 const BAR: (TabItem & { id: 'home' | 'practice' | 'topics' | 'stats' | 'more' })[] = [
   { id: 'home', label: 'Home', icon: 'home-outline', iconOn: 'home' },
@@ -42,16 +44,17 @@ const unlocked = (s: AppState): AppState => ({ ...s, diagnosticsDone: s.folders.
 /** One entry per screen. To add or change a screen, edit only its `render`. */
 const SCREENS: Record<Exclude<Tab, 'more'>, { title: string; render: (x: Ctx) => React.ReactNode }> = {
   home: { title: 'Home', render: (x) => <HomeScreen state={x.state} go={x.go} /> },
-  practice: { title: 'Practice', render: (x) => <PracticeScreen state={x.state} update={x.update} go={x.go} registerBack={x.registerBack} /> },
+  practice: { title: 'Practice', render: (x) => <PracticeScreen state={x.state} update={x.update} go={x.go} registerBack={x.registerBack} onAskTutor={x.askTutor} /> },
   topics: { title: 'Learn', render: (x) => <Topics state={unlocked(x.state)} /> },
   stats: { title: 'Stats', render: (x) => <StatsScreen go={x.go} /> },
   library: { title: 'Library', render: (x) => <Library state={x.state} update={x.update} /> },
   map: { title: 'Mind map', render: (x) => <Graph state={x.state} /> },
-  tutor: { title: 'Tutor', render: (x) => <Tutor state={unlocked(x.state)} /> },
+  tutor: { title: 'Tutor', render: (x) => <Tutor state={unlocked(x.state)} itemContext={x.tutorItem} onClearContext={x.clearTutorItem} /> },
+  prompts: { title: 'Prompt Maker', render: (x) => <PromptMaker state={x.state} go={x.go} /> },
   settings: { title: 'Settings', render: (x) => <Settings state={x.state} update={x.update} /> },
 };
 
-const isMoreChild = (t: Tab): t is MoreId => t === 'library' || t === 'map' || t === 'tutor' || t === 'settings';
+const isMoreChild = (t: Tab): t is MoreId => t === 'library' || t === 'map' || t === 'tutor' || t === 'prompts' || t === 'settings';
 
 export default function App() {
   const [loaded] = useFonts({ Inter_400Regular, Inter_500Medium, Inter_600SemiBold, Inter_700Bold });
@@ -71,6 +74,7 @@ function Root() {
   const backRef = useRef<(() => boolean) | null>(null);
   const registerBack = useCallback((fn: (() => boolean) | null) => { backRef.current = fn; }, []);
   const [immersive, setImmersive] = useState(false);
+  const [tutorItem, setTutorItem] = useState<ItemContext | undefined>();
 
   useEffect(() => {
     void loadState().then(setState);
@@ -85,6 +89,11 @@ function Root() {
   useEffect(() => {
     const sub = BackHandler.addEventListener('hardwareBackPress', () => {
       if (tab === 'practice' && backRef.current?.()) return true;
+      if (tab === 'tutor' && tutorItem) {
+        setTutorItem(undefined);
+        setTab('practice');
+        return true;
+      }
       if (isMoreChild(tab)) {
         setTab('more');
         return true;
@@ -96,7 +105,7 @@ function Root() {
       return false;
     });
     return () => sub.remove();
-  }, [tab, immersive]);
+  }, [tab, immersive, tutorItem]);
 
   const bar = <StatusBar style={scheme === 'dark' ? 'light' : 'dark'} />;
   if (!state) {
@@ -127,7 +136,7 @@ function Root() {
   }
 
   const go = (t: GoId) => setTab(t === 'study' ? 'practice' : t);
-  const ctx: Ctx = { state, update, go, registerBack };
+  const ctx: Ctx = { state, update, go, registerBack, tutorItem, askTutor: (c) => { setTutorItem(c); setTab('tutor'); }, clearTutorItem: () => { setTutorItem(undefined); setTab('practice'); } };
   const barId = isMoreChild(tab) ? 'more' : tab;
   const needsKey = state.settings.provider !== 'manual' && !state.settings.apiKey.trim();
 
@@ -139,7 +148,7 @@ function Root() {
   } else {
     body = (
       <View style={{ flex: 1, backgroundColor: colors.bg }}>
-        <Header title={SCREENS[tab].title} onBack={isMoreChild(tab) ? () => setTab('more') : undefined} />
+        <Header title={SCREENS[tab].title} onBack={isMoreChild(tab) ? () => (tab === 'tutor' && tutorItem ? ctx.clearTutorItem() : setTab('more')) : undefined} />
         <Screen>
           {needsKey ? (
             <KeyNotice />

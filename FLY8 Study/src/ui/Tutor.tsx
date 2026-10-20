@@ -5,6 +5,7 @@ import { ProviderError } from '../ai/provider';
 import { TutorCancelled, tutorCall } from '../tutor/call';
 import { appendOnce, splitReply, tutorRequest, unansweredQuestion, type TutorMessage } from '../tutor/prompt';
 import { loadChat, saveChat } from '../tutor/store';
+import { itemContextText, itemQuickAsks, type ItemContext } from '../pnle/itemContext';
 import { Btn, Card, Field, H, P, Pill, c, sp } from './kit';
 
 const msg = (e: unknown) => (e instanceof Error ? e.message : 'Something went wrong.');
@@ -31,7 +32,7 @@ function Reply({ text }: { text: string }) {
 }
 
 /** Tutor tab: optional topic, chat list, send / cancel / retry. History is saved after every change. */
-export function Tutor({ state }: { state: AppState }) {
+export function Tutor({ state, itemContext, onClearContext }: { state: AppState; itemContext?: ItemContext; onClearContext?: () => void }) {
   const [messages, setMessages] = useState<TutorMessage[]>([]);
   const [topicId, setTopicId] = useState<string | undefined>();
   const [draft, setDraft] = useState('');
@@ -49,6 +50,16 @@ export function Tutor({ state }: { state: AppState }) {
     return () => abort.current?.abort();
   }, []);
 
+  // Opened from a question: pick the matching note topic so answers start from the learner's own notes.
+  const ctxId = itemContext?.item.id;
+  useEffect(() => {
+    if (!itemContext) return;
+    const it = itemContext.item;
+    const t = state.topics.find((x) => x.id === it.noteId || x.id === it.topicId) ?? state.topics.find((x) => x.title.toLowerCase() === it.topic.toLowerCase());
+    if (t) setTopicId(t.id);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [ctxId]);
+
   const persist = (m: TutorMessage[], t: string | undefined) => {
     if (ready.current) void saveChat({ messages: m, topicId: t }).catch(() => undefined);
   };
@@ -65,7 +76,9 @@ export function Tutor({ state }: { state: AppState }) {
     try {
       const now = Date.now();
       const topic = state.topics.find((t) => t.id === topicId);
-      const reply = await tutorCall(state.settings, tutorRequest(state, topic, prior, q.text, now), ctl.signal);
+      const base = tutorRequest(state, topic, prior, q.text, now);
+      const req = itemContext ? { ...base, user: `${itemContextText(itemContext)}\n\n${base.user}` } : base;
+      const reply = await tutorCall(state.settings, req, ctl.signal);
       const done = [...withQ, { id: `a-${now}-${withQ.length}`, role: 'assistant' as const, text: reply, at: Date.now() }];
       setMessages(done);
       persist(done, topicId);
@@ -77,10 +90,10 @@ export function Tutor({ state }: { state: AppState }) {
     }
   };
 
-  const send = () => {
-    const text = draft.trim();
+  const send = (override?: string) => {
+    const text = (override ?? draft).trim();
     if (!text || busy) return;
-    setDraft('');
+    if (override === undefined) setDraft('');
     const now = Date.now();
     void ask({ id: `u-${now}-${messages.length}`, role: 'user', text, at: now }, messages);
   };
@@ -93,6 +106,19 @@ export function Tutor({ state }: { state: AppState }) {
   return (
     <View style={{ gap: sp.md }}>
       <H>Tutor</H>
+      {itemContext ? (
+        <Card tone="tinted">
+          <Pill text="About this question" color={c.accent} />
+          <P>{itemContext.item.stem}</P>
+          <P dim>The tutor can see the case, the options, your answer and the rationale.</P>
+          <View style={{ gap: sp.sm }}>
+            {itemQuickAsks(itemContext).map((q) => (
+              <Btn key={q} label={q} kind="ghost" disabled={busy} onPress={() => send(q)} />
+            ))}
+            {onClearContext ? <Btn label="Done with this question" kind="ghost" onPress={onClearContext} /> : null}
+          </View>
+        </Card>
+      ) : null}
       <Card>
         <P dim>Topic (optional). Answers start from your own notes.</P>
         <View style={{ gap: sp.sm }}>
@@ -132,7 +158,7 @@ export function Tutor({ state }: { state: AppState }) {
       {!busy && pending ? <Btn label="Retry" onPress={retry} hint="Sends the last question again without repeating it in the chat" /> : null}
 
       <Field label="Your question" value={draft} onChangeText={setDraft} multiline placeholder="Ask anything about this topic" />
-      <Btn label="Send" onPress={send} disabled={busy || !draft.trim()} />
+      <Btn label="Send" onPress={() => send()} disabled={busy || !draft.trim()} />
       {messages.length ? (
         <Btn
           label="Clear chat"
