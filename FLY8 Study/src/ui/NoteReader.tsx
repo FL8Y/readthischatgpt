@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useState } from 'react';
 import { ScrollView, Text, View } from 'react-native';
 import type { AppState, Topic } from '../core/types';
 import { parseMarkdownBlocks, type Block, type Span } from '../core/markdownBlocks';
@@ -6,8 +6,8 @@ import { backlinks, buildGraph, slugify } from '../core/vault';
 import { PRESET_DISCLAIMER, findPresetNote } from '../presets';
 import { visualForNote } from '../presets/visuals';
 import { SvgView } from '../visual/SvgView';
-import { Btn, Card, H, P, Pill, TOUCH } from './kit';
-import { space, useTheme, type Palette } from './theme';
+import { Btn, Card, H, P, Pill, PressableScale, TOUCH } from './kit';
+import { radius, space, useTheme, type Palette } from './theme';
 
 type Resolve = (target: string) => Topic | undefined;
 
@@ -98,6 +98,46 @@ function BlockView({ b, resolve, onOpen }: { b: Block; resolve: Resolve; onOpen:
   }
 }
 
+export type NoteTab = 'full' | 'beginner';
+
+/** Two-tab switch: the full note, or the plain-language Beginner's Eye version. */
+function TabSwitch({ value, onChange, hasBeginner }: { value: NoteTab; onChange: (t: NoteTab) => void; hasBeginner: boolean }) {
+  const { colors, type } = useTheme();
+  const tabs: { id: NoteTab; label: string }[] = [
+    { id: 'full', label: 'Full note' },
+    { id: 'beginner', label: "Beginner's Eye" },
+  ];
+  return (
+    <View accessibilityRole="tablist" style={{ flexDirection: 'row', gap: space.xs, backgroundColor: colors.surfaceAlt, borderRadius: radius.md, padding: space.xs }}>
+      {tabs.map((t) => {
+        const on = t.id === value;
+        return (
+          <View key={t.id} style={{ flex: 1 }}>
+          <PressableScale
+            accessibilityRole="tab"
+            accessibilityLabel={t.label}
+            accessibilityState={{ selected: on }}
+            onPress={() => onChange(t.id)}
+            style={{
+              minHeight: TOUCH,
+              alignItems: 'center',
+              justifyContent: 'center',
+              borderRadius: radius.sm,
+              backgroundColor: on ? colors.surface : 'transparent',
+              borderWidth: on ? 1 : 0,
+              borderColor: colors.border,
+            }}
+          >
+            <Text style={[type('bodyStrong'), { color: on ? colors.accentText : colors.textDim }]}>{t.label}</Text>
+            {t.id === 'beginner' && !hasBeginner ? <Text style={[type('caption'), { color: colors.textDim }]}>coming</Text> : null}
+          </PressableScale>
+          </View>
+        );
+      })}
+    </View>
+  );
+}
+
 const priorityColor = (colors: Palette) => ({ high: colors.danger, medium: colors.warning, low: colors.textDim }) as const;
 
 /** Plain Markdown note reader. No AI, no key, not gated by the diagnostic. */
@@ -109,6 +149,7 @@ export function NoteReader({
   onOpen,
   onBack,
   onLesson,
+  initialTab = 'full',
 }: {
   state: AppState;
   topicId: string;
@@ -117,8 +158,11 @@ export function NoteReader({
   onOpen: (id: string) => void;
   onBack: () => void;
   onLesson: () => void;
+  /** Which tab to show first. 'beginner' only takes effect when the note has a Beginner's Eye. */
+  initialTab?: NoteTab;
 }) {
   const { colors } = useTheme();
+  const [pickedTab, setPickedTab] = useState<NoteTab | null>(null);
   const topic = state.topics.find((t) => t.id === topicId);
   const { resolve, from } = useMemo(() => {
     const bySlug = new Map<string, Topic>();
@@ -133,6 +177,8 @@ export function NoteReader({
     };
   }, [state.topics, topicId]);
   const blocks = useMemo(() => parseMarkdownBlocks(topic?.body ?? ''), [topic?.body]);
+  const beginnerText = findPresetNote(topicId)?.beginnerEye;
+  const beginnerBlocks = useMemo(() => parseMarkdownBlocks(beginnerText ?? ''), [beginnerText]);
 
   if (!topic) {
     return (
@@ -148,6 +194,13 @@ export function NoteReader({
   const next = idx >= 0 && idx < siblings.length - 1 ? siblings[idx + 1] : undefined;
   const meta = findPresetNote(topic.id);
   const visual = meta ? visualForNote(meta.id) : undefined;
+  const tab: NoteTab = pickedTab ?? (initialTab === 'beginner' && beginnerText ? 'beginner' : 'full');
+  const visualBlock = visual ? (
+    <View style={{ gap: space.xs }}>
+      <SvgView code={visual.svg} label={visual.caption} natural />
+      <P dim>{`Diagram (schematic): ${visual.caption}`}</P>
+    </View>
+  ) : null;
   const isPreset = topic.sourceIds.some((id) => state.sources.find((s) => s.id === id)?.kind === 'preset');
 
   return (
@@ -161,15 +214,28 @@ export function NoteReader({
             <Pill text={`${meta.priority} priority`} color={priorityColor(colors)[meta.priority]} />
           </View>
         ) : null}
-        {visual ? (
-          <View style={{ gap: space.xs }}>
-            <SvgView code={visual.svg} label={visual.caption} natural />
-            <P dim>{`Diagram (schematic): ${visual.caption}`}</P>
+        <TabSwitch value={tab} onChange={setPickedTab} hasBeginner={!!beginnerText} />
+        {tab === 'full' ? (
+          <View style={{ gap: space.md }}>
+            {visualBlock}
+            {blocks.length ? blocks.map((b, i) => <BlockView key={i} b={b} resolve={resolve} onOpen={onOpen} />) : <P dim>This note is empty.</P>}
           </View>
-        ) : null}
-        <View style={{ gap: space.md }}>
-          {blocks.length ? blocks.map((b, i) => <BlockView key={i} b={b} resolve={resolve} onOpen={onOpen} />) : <P dim>This note is empty.</P>}
-        </View>
+        ) : beginnerText ? (
+          <View style={{ gap: space.md }}>
+            <P dim>Plain-language version for non-nurses. Same facts as the full note, in simpler words. Switch to Full note for the exam details.</P>
+            {beginnerBlocks.map((b, i) => <BlockView key={i} b={b} resolve={resolve} onOpen={onOpen} />)}
+          </View>
+        ) : (
+          <View style={{ gap: space.sm, paddingVertical: space.sm }}>
+            <H>Beginner's Eye for this note is coming</H>
+            <P dim>
+              {isPreset
+                ? 'A plain-words version of this note has not been written yet. Nothing is made up in the meantime: the Full note has everything.'
+                : "Beginner's Eye is only written for the ready-made notes. Your own notes show here as you wrote them in the Full note."}
+            </P>
+            <Btn label="Read the full note" kind="ghost" onPress={() => setPickedTab('full')} />
+          </View>
+        )}
         {isPreset ? <P dim>{PRESET_DISCLAIMER}</P> : null}
       </Card>
       <Btn label={studied ? 'Studied (tap to undo)' : 'Mark as studied'} kind={studied ? 'ghost' : 'primary'} onPress={onToggleStudied} />
