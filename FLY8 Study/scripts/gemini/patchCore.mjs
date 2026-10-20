@@ -308,6 +308,20 @@ function checkOp(op, ctx) {
     return { errors, warnings, links: [] };
   }
   const old = isUpdate ? ctx.targetById.get(op.id) : undefined;
+  // Updates: fields the owner wants frozen are restored from the app, so the writer only has to send the new body.
+  if (isUpdate && old) {
+    if (note.id === undefined || note.id === null || note.id === '') note.id = op.id;
+    const fixed = [];
+    if (note.area !== old.area) { if (note.area !== undefined) fixed.push('area'); note.area = old.area; }
+    if (!Array.isArray(note.outlineRefs) || !sameList(note.outlineRefs, old.outlineRefs ?? [])) { if (note.outlineRefs !== undefined) fixed.push('outlineRefs'); note.outlineRefs = [...(old.outlineRefs ?? [])]; }
+    if (note.priority !== old.priority) { if (note.priority !== undefined) fixed.push('priority'); note.priority = old.priority; }
+    if (!isStr(note.title)) note.title = old.title;
+    else if (normTitle(note.title) !== normTitle(old.title)) { fixed.push('title'); note.title = old.title; }
+    if (note.aiWritten !== true || note.nurseReviewed !== false) { if (note.aiWritten !== undefined || note.nurseReviewed !== undefined) fixed.push('aiWritten/nurseReviewed'); note.aiWritten = true; note.nurseReviewed = false; }
+    const given = Array.isArray(note.tags) ? note.tags.filter(isStr) : [];
+    note.tags = [...new Set([...(old.tags ?? []), ...given])];
+    if (fixed.length) warnings.push(issue('FIELDS_RESTORED', `Kept the app's value for: ${fixed.join(', ')} (these never change).`));
+  }
   if (note.id !== op.id) errors.push(issue('ID_MISMATCH', `note.id ("${String(note.id)}") does not match op.id ("${op.id}").`, 'Make both ids identical.'));
   if (ctx.seen.has(op.id)) errors.push(issue('DUP_OP', `More than one op for id ${op.id} in this patch.`, 'Send one op per id per patch.'));
   ctx.seen.add(op.id);

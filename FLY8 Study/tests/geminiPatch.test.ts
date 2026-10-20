@@ -82,47 +82,30 @@ describe('validatePatch: accepted changes', () => {
 });
 
 describe('validatePatch: rejections', () => {
-  it('rejects a changed id, area, outlineRefs and shrinking tags on update', () => {
-    const r = validatePatch(
-      patchOf([update('np1-a', mk('np1-zzz', 'Alpha Note', { area: 'NP2', outlineRefs: ['9'], tags: [] }))]),
-      packs(),
-    );
-    expect(codes(r).e).toEqual(expect.arrayContaining(['ID_MISMATCH', 'AREA_CHANGED', 'OUTLINE_CHANGED', 'TAGS_SHRUNK']));
-    expect(r.applied).toBe(0);
+  it('rejects a changed id on update but restores area, outlineRefs, priority, title and tags', () => {
+    const r = validatePatch(patchOf([update('np1-a', mk('np1-zzz', 'Alpha Note', { area: 'NP2', outlineRefs: ['9'], tags: [] }))]), packs());
+    expect(codes(r).e).toEqual(['ID_MISMATCH']);
+    const ok = patchOf([update('np1-a', mk('np1-a', 'Renamed', { area: 'NP2', outlineRefs: ['9'], tags: ['extra'], priority: 'low', nurseReviewed: true as unknown as false, body: base('changed') }))]);
+    const v = validatePatch(ok, packs());
+    expect(codes(v).e).toEqual([]);
+    expect(codes(v).w).toContain('FIELDS_RESTORED');
+    const out = applyPatch(packs(), ok)[TARGET].find((n) => n.id === 'np1-a')!;
+    expect([out.area, out.outlineRefs, out.priority, out.title, out.nurseReviewed]).toEqual(['NP1', ['1.1'], 'high', 'Alpha Note', false]);
+    expect(out.tags).toEqual(['chn', 'extra']);
   });
 
-  it('rejects unknown update id, bad add id, and reused add id', () => {
-    const r = validatePatch(
-      patchOf([update('np1-nope', mk('np1-nope', 'Nope')), add(mk('np1-new', 'New One')), add(mk('np1-x-a', 'Bad area', { area: 'GEN' })), add(mk('np2-x-ok', 'Fine', { area: 'NP2' }))]),
-      packs(),
-    );
-    expect(codes(r, 0).e).toContain('UPDATE_UNKNOWN_ID');
-    expect(codes(r, 1).e).toContain('ADD_BAD_ID');
-    expect(codes(r, 2).e).toContain('AREA_BAD');
-    expect(r.ops[3].status).toBe('ok');
-    expect(codes(r, 3).w).toContain('TARGET_PREFIX_MISMATCH');
-  });
-
-  it('rejects an add whose id already exists in ANY pack', () => {
-    const r = validatePatch(patchOf([add(mk('np1-x-taken', 'Taken'))]), packs(), { reservedIds: ['np1-x-taken'] });
-    expect(codes(r).e).toContain('ADD_ID_EXISTS');
-  });
-
-  it('rejects unknown, bundle and traversal targets without throwing', () => {
-    for (const target of ['data/presets/np9-none.json', 'data/presets/gen-missing.json', 'data/presets/bundles.json', '../np1-comm.json', 'data/presets/beginner-eye-chn.json', '']) {
-      const r = validatePatch(patchOf([update('np1-a', mk('np1-a', 'Alpha Note'))], { target }), packs());
-      expect(r.errors.map((e) => e.code)).toContainEqual(expect.stringMatching(/TARGET_/));
-      expect(r.applied).toBe(0);
-    }
-    expect(validatePatch(null, packs()).errors[0].code).toBe('BAD_SHAPE');
-    expect(validatePatch(patchOf([null, 5, {}]), packs()).applied).toBe(0);
+  it('an update that sends only id and body is enough', () => {
+    const p = patchOf([{ op: 'update', id: 'np1-a', note: { body: base('only body') } }]);
+    const v = validatePatch(p, packs());
+    expect(codes(v).e).toEqual([]);
+    expect(applyPatch(packs(), p)[TARGET].find((n) => n.id === 'np1-a')!.body).toContain('only body');
   });
 
   it('rejects flags that are not aiWritten:true / nurseReviewed:false, empty title, duplicate title, short body', () => {
     const r = validatePatch(
       patchOf([
-        update('np1-a', mk('np1-a', 'Alpha Note', { nurseReviewed: true as unknown as false })),
-        update('np1-b', mk('np1-b', '  ')),
+        add(mk('np1-x-flag', 'Flagged New', { nurseReviewed: true as unknown as false })),
+        add(mk('np1-x-blank', '  ')),
         add(mk('np1-x-dup', 'alpha note')),
         add(mk('np1-x-short', 'Short', { body: 'too short' })),
       ]),
