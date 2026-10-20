@@ -109,6 +109,12 @@ export interface UnifiedRequest {
   weakness?: string;
   /** Existing stems the new items must not repeat. */
   avoidStems?: string[];
+  /** Replaces the shape module (used by the multi-topic generator for a mixed style plan). */
+  moduleOverride?: string;
+  /** Notes are already trimmed by the caller (word budget); skip the character trim. */
+  notesTrimmed?: boolean;
+  /** Extra request lines (batch label, style plan, digest of existing questions). Placed before the notes. */
+  extraLines?: string[];
 }
 
 export const NOTE_CHARS = 1800;
@@ -124,16 +130,17 @@ export function trimNotes(notes: NoteInput[]): NoteInput[] {
 }
 
 function requestBlock(req: UnifiedRequest, count: number): string {
-  const notes = trimNotes(req.notes ?? []);
+  const notes = req.notesTrimmed ? req.notes ?? [] : trimNotes(req.notes ?? []);
   const diff = typeof req.difficulty === 'number' ? `${Math.max(1, Math.min(5, Math.round(req.difficulty)))} of 5` : 'mixed (mostly 2 to 4)';
   const lines = [
     'REQUEST',
-    `Shape: ${shapeDef(req.shape).label}. Items: exactly ${count}${req.shape === 'case-set' ? ' in ONE case set' : ''}.`,
+    `Shape: ${req.moduleOverride ? 'mixed styles (see STYLE PLAN)' : shapeDef(req.shape).label}. Items: exactly ${count}${req.shape === 'case-set' ? ' in ONE case set' : ''}.`,
     `Area: ${req.area?.trim() || 'decide from the notes'}.`,
     `Topic: ${req.topic?.trim() || (notes.length ? notes.map((n) => n.title).join('; ') : 'any PNLE topic')}.`,
     `Difficulty: ${diff}. Setting: ${req.setting?.trim() || 'mixed Philippine settings'}.`,
     `Learner: PNLE candidate. ${req.weakness?.trim() ? `Weak spots (aim distractors at these reasoning errors): ${req.weakness.trim()}` : 'No weakness profile yet.'}`,
   ];
+  if (req.extraLines?.length) lines.push(...req.extraLines);
   const avoid = (req.avoidStems ?? []).slice(0, MAX_AVOID).map((s) => `- ${clip(s.trim(), 140)}`);
   if (avoid.length) lines.push('Do not repeat these existing questions:', ...avoid);
   lines.push(
@@ -150,7 +157,7 @@ export function buildUnifiedPrompt(req: UnifiedRequest): ModelRequest {
   const count = clampCount(req.shape, req.count);
   const def = shapeDef(req.shape);
   return {
-    system: [...UNIFIED_CORE_SECTIONS, def.module, SCHEMA, EXAMPLE].join('\n\n'),
+    system: [...UNIFIED_CORE_SECTIONS, req.moduleOverride ?? def.module, SCHEMA, EXAMPLE].join('\n\n'),
     user: requestBlock(req, count),
   };
 }

@@ -236,6 +236,8 @@ export function mapRawItem(raw: unknown, source: ItemSource, d: NonNullable<Pars
   if (bloom) item.bloom = bloom;
   const keyFacts = strArr(raw.keyFacts).filter(Boolean);
   if (keyFacts.length) item.keyFacts = keyFacts;
+  const flags = strArr(raw.flags).filter(Boolean).slice(0, 4);
+  if (flags.length) item.flags = flags;
   if (typeof raw.beyondNotes === 'boolean') item.beyondNotes = raw.beyondNotes;
   if (rows) item.rows = rows;
   if (columns) item.columns = columns;
