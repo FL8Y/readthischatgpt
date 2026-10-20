@@ -7,33 +7,36 @@ import pack4 from '../../data/bank/cases-pack/np2.json';
 import pack5 from '../../data/bank/cases-pack/np3.json';
 import pack6 from '../../data/bank/cases-pack/np4.json';
 import pack7 from '../../data/bank/cases-pack/np5.json';
-import pack8 from '../../data/bank/curveball/np4-curve-01.json';
-import pack9 from '../../data/bank/curveball/np5-curve-01.json';
-import pack10 from '../../data/bank/np1/chn-01.json';
-import pack11 from '../../data/bank/np1/chn-02.json';
-import pack12 from '../../data/bank/np1/chn-03.json';
-import pack13 from '../../data/bank/np1/comm-01.json';
-import pack14 from '../../data/bank/np1/comm-02.json';
-import pack15 from '../../data/bank/np2/ob-01.json';
-import pack16 from '../../data/bank/np2/ob-02.json';
-import pack17 from '../../data/bank/np2/pedia-01.json';
-import pack18 from '../../data/bank/np2/pedia-02.json';
-import pack19 from '../../data/bank/np3/burns-01.json';
-import pack20 from '../../data/bank/np3/cardio-01.json';
-import pack21 from '../../data/bank/np3/cardio-02.json';
-import pack22 from '../../data/bank/np3/fer-01.json';
-import pack23 from '../../data/bank/np3/fer-02.json';
-import pack24 from '../../data/bank/np3/hema-01.json';
-import pack25 from '../../data/bank/np3/onco-01.json';
-import pack26 from '../../data/bank/np3/respi-01.json';
-import pack27 from '../../data/bank/np4/endo-01.json';
-import pack28 from '../../data/bank/np4/gi-01.json';
-import pack29 from '../../data/bank/np4/neuro-01.json';
-import pack30 from '../../data/bank/np4/ortho-01.json';
-import pack31 from '../../data/bank/np5/emerg-01.json';
-import pack32 from '../../data/bank/np5/psych-01.json';
-import pack33 from '../../data/bank/np5/psych-02.json';
-import pack34 from '../../data/bank/np5/psych-03.json';
+import pack8 from '../../data/bank/curveball/np1-curve-01.json';
+import pack9 from '../../data/bank/curveball/np2-curve-01.json';
+import pack10 from '../../data/bank/curveball/np3-curve-01.json';
+import pack11 from '../../data/bank/curveball/np4-curve-01.json';
+import pack12 from '../../data/bank/curveball/np5-curve-01.json';
+import pack13 from '../../data/bank/np1/chn-01.json';
+import pack14 from '../../data/bank/np1/chn-02.json';
+import pack15 from '../../data/bank/np1/chn-03.json';
+import pack16 from '../../data/bank/np1/comm-01.json';
+import pack17 from '../../data/bank/np1/comm-02.json';
+import pack18 from '../../data/bank/np2/ob-01.json';
+import pack19 from '../../data/bank/np2/ob-02.json';
+import pack20 from '../../data/bank/np2/pedia-01.json';
+import pack21 from '../../data/bank/np2/pedia-02.json';
+import pack22 from '../../data/bank/np3/burns-01.json';
+import pack23 from '../../data/bank/np3/cardio-01.json';
+import pack24 from '../../data/bank/np3/cardio-02.json';
+import pack25 from '../../data/bank/np3/fer-01.json';
+import pack26 from '../../data/bank/np3/fer-02.json';
+import pack27 from '../../data/bank/np3/hema-01.json';
+import pack28 from '../../data/bank/np3/onco-01.json';
+import pack29 from '../../data/bank/np3/respi-01.json';
+import pack30 from '../../data/bank/np4/endo-01.json';
+import pack31 from '../../data/bank/np4/gi-01.json';
+import pack32 from '../../data/bank/np4/neuro-01.json';
+import pack33 from '../../data/bank/np4/ortho-01.json';
+import pack34 from '../../data/bank/np5/emerg-01.json';
+import pack35 from '../../data/bank/np5/psych-01.json';
+import pack36 from '../../data/bank/np5/psych-02.json';
+import pack37 from '../../data/bank/np5/psych-03.json';
 
 export interface BundledPack {
   name: string;
@@ -49,31 +52,34 @@ export const PACKS: BundledPack[] = [
   { name: 'cases-pack/np3.json', items: pack5 },
   { name: 'cases-pack/np4.json', items: pack6 },
   { name: 'cases-pack/np5.json', items: pack7 },
-  { name: 'curveball/np4-curve-01.json', items: pack8 },
-  { name: 'curveball/np5-curve-01.json', items: pack9 },
-  { name: 'np1/chn-01.json', items: pack10 },
-  { name: 'np1/chn-02.json', items: pack11 },
-  { name: 'np1/chn-03.json', items: pack12 },
-  { name: 'np1/comm-01.json', items: pack13 },
-  { name: 'np1/comm-02.json', items: pack14 },
-  { name: 'np2/ob-01.json', items: pack15 },
-  { name: 'np2/ob-02.json', items: pack16 },
-  { name: 'np2/pedia-01.json', items: pack17 },
-  { name: 'np2/pedia-02.json', items: pack18 },
-  { name: 'np3/burns-01.json', items: pack19 },
-  { name: 'np3/cardio-01.json', items: pack20 },
-  { name: 'np3/cardio-02.json', items: pack21 },
-  { name: 'np3/fer-01.json', items: pack22 },
-  { name: 'np3/fer-02.json', items: pack23 },
-  { name: 'np3/hema-01.json', items: pack24 },
-  { name: 'np3/onco-01.json', items: pack25 },
-  { name: 'np3/respi-01.json', items: pack26 },
-  { name: 'np4/endo-01.json', items: pack27 },
-  { name: 'np4/gi-01.json', items: pack28 },
-  { name: 'np4/neuro-01.json', items: pack29 },
-  { name: 'np4/ortho-01.json', items: pack30 },
-  { name: 'np5/emerg-01.json', items: pack31 },
-  { name: 'np5/psych-01.json', items: pack32 },
-  { name: 'np5/psych-02.json', items: pack33 },
-  { name: 'np5/psych-03.json', items: pack34 },
+  { name: 'curveball/np1-curve-01.json', items: pack8 },
+  { name: 'curveball/np2-curve-01.json', items: pack9 },
+  { name: 'curveball/np3-curve-01.json', items: pack10 },
+  { name: 'curveball/np4-curve-01.json', items: pack11 },
+  { name: 'curveball/np5-curve-01.json', items: pack12 },
+  { name: 'np1/chn-01.json', items: pack13 },
+  { name: 'np1/chn-02.json', items: pack14 },
+  { name: 'np1/chn-03.json', items: pack15 },
+  { name: 'np1/comm-01.json', items: pack16 },
+  { name: 'np1/comm-02.json', items: pack17 },
+  { name: 'np2/ob-01.json', items: pack18 },
+  { name: 'np2/ob-02.json', items: pack19 },
+  { name: 'np2/pedia-01.json', items: pack20 },
+  { name: 'np2/pedia-02.json', items: pack21 },
+  { name: 'np3/burns-01.json', items: pack22 },
+  { name: 'np3/cardio-01.json', items: pack23 },
+  { name: 'np3/cardio-02.json', items: pack24 },
+  { name: 'np3/fer-01.json', items: pack25 },
+  { name: 'np3/fer-02.json', items: pack26 },
+  { name: 'np3/hema-01.json', items: pack27 },
+  { name: 'np3/onco-01.json', items: pack28 },
+  { name: 'np3/respi-01.json', items: pack29 },
+  { name: 'np4/endo-01.json', items: pack30 },
+  { name: 'np4/gi-01.json', items: pack31 },
+  { name: 'np4/neuro-01.json', items: pack32 },
+  { name: 'np4/ortho-01.json', items: pack33 },
+  { name: 'np5/emerg-01.json', items: pack34 },
+  { name: 'np5/psych-01.json', items: pack35 },
+  { name: 'np5/psych-02.json', items: pack36 },
+  { name: 'np5/psych-03.json', items: pack37 },
 ];
