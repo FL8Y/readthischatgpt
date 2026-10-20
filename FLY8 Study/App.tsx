@@ -46,7 +46,7 @@ const unlocked = (s: AppState): AppState => ({ ...s, diagnosticsDone: s.folders.
 const SCREENS: Record<Exclude<Tab, 'more'>, { title: string; render: (x: Ctx) => React.ReactNode }> = {
   home: { title: 'Home', render: (x) => <HomeScreen state={x.state} go={x.go} /> },
   practice: { title: 'Practice', render: (x) => <PracticeScreen state={x.state} update={x.update} go={x.go} registerBack={x.registerBack} onAskTutor={x.askTutor} onReadNote={x.readNote} /> },
-  topics: { title: 'Learn', render: (x) => <Topics state={unlocked(x.state)} /> },
+  topics: { title: 'Learn', render: (x) => <Topics state={unlocked(x.state)} onAskTutor={() => x.go('tutor')} /> },
   stats: { title: 'Stats', render: (x) => <StatsScreen go={x.go} /> },
   library: { title: 'Library', render: (x) => <Library state={x.state} update={x.update} /> },
   map: { title: 'Mind map', render: (x) => <Graph state={x.state} /> },
