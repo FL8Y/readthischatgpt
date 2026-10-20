@@ -18,7 +18,7 @@ const REQUIRED_DRUG_SECTIONS = [
 ];
 const CROSSCHECK_VERDICTS = ['AGREE', 'FIXED', 'DOUBT'];
 const BODY_MIN = 300;
-const BODY_MAX = 12000;
+const BODY_MAX = 16000;
 const PRIORITIES = ['high', 'medium', 'low'];
 const DOSE_RE = /\b\d+(\.\d+)?\s?(mg|mcg|g|mL|IU|units)\b/g;
 const ADD_ID_RE = /^(np[1-5]|gen)-x-[a-z0-9-]+$/;
@@ -148,7 +148,22 @@ function firstObject(text, wantPatchLike) {
  * fence or no fence at all also works). Never throws.
  * @returns {{patch: object|null, warnings: object[], errors: object[], blocks: number}}
  */
+/** Google Docs "export as text/markdown" puts a backslash before markdown punctuation ("\\[", "\\#\\#", "\\\\n"). Undo that. */
+const DOCS_ESCAPES = /\\([\\`*_{}[\]()#+\-.!>~|<&=$%@^?:;,/'])/g;
+export const undoDocsEscapes = (t) => String(t ?? '').replace(DOCS_ESCAPES, '$1');
+
 export function extractPatch(text) {
+  const first = extractPatchRaw(text);
+  if (first.patch) return first;
+  const src = String(text ?? '');
+  if (!/\\[[\]#_*]/.test(src)) return first;
+  const second = extractPatchRaw(undoDocsEscapes(src));
+  if (!second.patch) return first;
+  second.warnings.push(issue('DOCS_ESCAPES', 'Google Docs added backslashes to the markdown; they were removed before reading the patch.', 'Fine as is. Exporting as plain text or copying from the chat avoids this.'));
+  return second;
+}
+
+function extractPatchRaw(text) {
   const warnings = [];
   const errors = [];
   try {
