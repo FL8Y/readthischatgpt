@@ -30,6 +30,6 @@ export default async function ({ ctx, base }) {
   const saved = JSON.parse(await page.evaluate(() => localStorage.getItem('fly8.bank.v1.session')));
   assertEq(saved.mode, 'custom', 'session mode');
   assertEq(saved.order.length, 10, 'ten questions');
-  assert(saved.order.every((id) => id.startsWith('np1') || id.startsWith('cs-np1')), `all questions are NP1 (${saved.order.join(',')})`);
+  assert(saved.order.every((id) => /^(cs-|cp-|cb-)?np1/.test(id)), `all questions are NP1 (${saved.order.join(',')})`);
   return { errors };
 }
