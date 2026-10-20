@@ -132,7 +132,7 @@
   "optionRationales": [
    "Right: stop and report.",
    "Wrong: unsafe habit of watching for harm after it starts.",
-   "Wrong: same error.",
+   "Wrong: asking him to report itching afterward still applies the cream to a client with a sulfa reaction history and waits for harm to start.",
    "Wrong: another sulfa agent and outside scope."
   ],
   "strategy": "Check allergy before the first dose",
@@ -170,7 +170,7 @@
    "Right: limb circulation threatened.",
    "Wrong: expected in full-thickness burns.",
    "Wrong: part of the picture but not the most specific sign.",
-   "Wrong: expected."
+   "Wrong: the partial-thickness area around the edge is expected in this burn and is not the most urgent finding."
   ],
   "strategy": "Circulation outranks depth",
   "archetype": "severe pain out of proportion",
@@ -242,7 +242,7 @@
   "rationale": "1. Shock is a perfusion problem; BP can be normal in early shock while pulse, skin, refill, mental state and urine already show poor perfusion.\n2. Oxygen, IV access, monitoring and early reporting come first, and bleeding control continues.\n3. Waiting or reassuring under-reacts; removing the dressing restarts bleeding.\nFlip: with warm dry skin, a calm client and good urine output, observation would suffice.",
   "optionRationales": [
    "Wrong: false reassurance.",
-   "Right: early shock.",
+   "Right: pale cool skin, fast pulse, slow capillary refill and restlessness show early shock, so oxygen, IV access, monitoring and a report come first.",
    "Wrong: under-reaction.",
    "Wrong: restarts bleeding."
   ],
@@ -574,7 +574,7 @@
   "optionRationales": [
    "Wrong: injures the fetus.",
    "Right: chest thrusts in pregnancy.",
-   "Wrong: incomplete.",
+   "Wrong: back blows alone are incomplete for a pregnant woman with total obstruction; chest thrusts are needed.",
    "Wrong: under-reaction."
   ],
   "strategy": "Adapt the technique",
@@ -611,7 +611,7 @@
   "optionRationales": [
    "Wrong: expected during healing.",
    "Wrong: expected in this phase.",
-   "Wrong: favorable.",
+   "Wrong: clean-looking wounds are a favorable finding and do not need to be reported first.",
    "Right: possible GI hemorrhage."
   ],
   "strategy": "Complication surveillance",
@@ -646,7 +646,7 @@
   ],
   "rationale": "1. A donor site is a partial-thickness wound that is painful and heals in 7-14 days.\n2. Analgesia is given before dressing changes.\nFlip: for a painless full-thickness area, the pain statement would differ.",
   "optionRationales": [
-   "Wrong: dismisses.",
+   "Wrong: telling him to tolerate the pain dismisses a real problem; donor sites are painful and should be treated.",
    "Right: explains and treats.",
    "Wrong: withholds analgesia.",
    "Wrong: right drug, wrong time."
@@ -758,7 +758,7 @@
    "Right: clock starts at injury.",
    "Wrong: starts at arrival.",
    "Wrong: gives the full-day amount in the first half.",
-   "Wrong: wrong split."
+   "Wrong: the Parkland formula gives half the total in the first 8 hours from the time of injury, not a quarter."
   ],
   "strategy": "Count from the time of injury",
   "archetype": "fluids count from injury",

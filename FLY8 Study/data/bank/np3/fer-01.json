@@ -168,7 +168,7 @@
   "rationale": "1. Normal urine is light yellow to straw, aromatic, clear or slightly turbid, pH 4.5-8, specific gravity 1.010-1.020, with no WBC, RBC or albumin and a few mucus threads.\n2. Albumin is normally too large to pass the glomerulus, so albumin in urine means glomerular damage.\nFlip: if Client A's specific gravity were 1.040, concentrated urine would also be reported.",
   "optionRationales": [
    "Wrong: expected (slight turbidity and a few threads).",
-   "Wrong: expected.",
+   "Wrong: an aromatic odor is normal for urine, so it should not be reported as abnormal.",
    "Wrong: within the normal 1.010-1.020.",
    "Right: albumin should be absent."
   ],
@@ -760,7 +760,7 @@
   "optionRationales": [
    "Wrong: stage 3 is 30-59.",
    "Wrong: stage 5 is below 15.",
-   "Right: stage 4.",
+   "Right: a GFR of 24 falls in the 15 to 29 range of stage 4, a severe decrease, when planning for dialysis or transplant begins.",
    "Wrong: stage 2 is 60-89."
   ],
   "strategy": "Stage by GFR",

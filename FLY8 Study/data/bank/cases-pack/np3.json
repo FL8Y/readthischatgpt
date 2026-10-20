@@ -69,13 +69,13 @@
   "rationale": "Blood loss lowers circulating volume, so the body compensates with a fast, weak pulse, cool clammy skin from peripheral vasoconstriction, restlessness from poor brain perfusion, and reduced urine output as the kidneys conserve fluid. A slow bounding pulse, warm flushed skin, rising blood pressure, or rising urine output indicates the opposite picture and does not fit hypovolemia.",
   "rationaleSimple": "Bleeding makes the pulse fast and weak, the skin cold and sweaty, the client restless, and urine less. The opposite findings do not fit.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Not expected: a slow bounding pulse with warm flushed skin is the opposite of the body's response to blood loss, which is a fast pulse and cool skin.",
+   "Expected: the heart beats faster to make up for the lost volume, and the pulse is weak because less blood is in the vessels.",
+   "Expected: the kidneys conserve fluid when circulating volume falls, so urine output decreases.",
+   "Expected: blood is diverted from the skin to vital organs, leaving the skin cool and clammy.",
+   "Not expected: rising urine output with a strong pulse suggests adequate or excess volume, not hypovolemia.",
+   "Not expected: blood pressure falls, not rises, in hypovolemic shock; a calm mood does not fit poor brain perfusion.",
+   "Expected: restlessness and anxiety are early signs that the brain is receiving too little blood and oxygen."
   ],
   "strategy": "Recognizing cues of shock",
   "difficulty": 2,
@@ -104,7 +104,12 @@
   "answer": [],
   "rationale": "Each finding is a classic cue. Infection shows local inflammation and purulent drainage a few days after surgery. Atelectasis appears early with shallow breathing and reduced basal breath sounds. A one-sided painful, swollen, warm calf suggests a clot, and a full bladder with small frequent voids suggests retention with overflow.",
   "rationaleSimple": "Pus and redness at the wound mean infection, weak lung bases mean atelectasis, a swollen painful calf means a clot, and a full bladder with tiny voids means retention.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Wound infection: warmth, spreading redness, swelling and pus at the incision a few days after surgery are signs of local infection.",
+   "Atelectasis: shallow breathing with diminished basal breath sounds and mild fever early after surgery points to collapsed air sacs.",
+   "Deep vein thrombosis: pain, swelling and warmth in one calf suggest a clot in a deep vein.",
+   "Urinary retention: a full bladder with frequent small voids suggests the bladder is not emptying and is overflowing."
+  ],
   "strategy": "Linking cues to complications",
   "difficulty": 3,
   "bloom": "judgment",
@@ -199,7 +204,11 @@
   "answer": [],
   "rationale": "Clots form when blood flow is slow, so activity, leg exercises, good hydration and compression devices all promote venous return. Bed rest, crossed legs, pillows under the knees, and fluid restriction either slow venous flow or thicken the blood, which raises the risk.",
   "rationaleSimple": "Moving early, doing leg exercises, drinking enough, and wearing compression stockings help stop clots.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Ambulation as ordered: moving the legs and walking keep blood flowing in the veins. Bed rest or crossed legs slow venous flow and raise clot risk.",
+   "Hydration: adequate fluids keep the blood from thickening. Fluid restriction or caffeine does not protect against clots.",
+   "Compression stockings or devices: they promote venous return in the legs. A pillow under the knees or tight thigh bandages can slow flow."
+  ],
   "strategy": "Preventing thromboembolism",
   "difficulty": 2,
   "bloom": "recall",
@@ -309,9 +318,14 @@
    1,
    2
   ],
-  "rationale": "A client who does not understand the procedure has not given informed consent, food taken despite the fasting instruction raises the risk of aspiration under anesthesia, and metal hairpins and jewelry are removed according to the preoperative checklist. The request for the chaplain is a spiritual need that should be supported but is not a barrier to surgery. The allergy documentation is already complete.",
+  "rationale": "A client who does not understand the procedure has not given informed consent, food taken despite the fasting instruction raises the risk of aspiration under anesthesia, and metal hairpins and jewelry are removed according to the preoperative checklist. The request for the chaplain is a spiritual need that should be supported but is not a barrier to surgery.",
   "rationaleSimple": "Not understanding the surgery, eating before surgery, and wearing hairpins and a necklace must be reported or fixed. Asking for the chaplain is fine.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Must be corrected: a client who does not understand the procedure cannot give informed consent, so the surgeon must be told.",
+   "Must be reported: eating despite the fasting instruction raises the risk of aspiration under anesthesia, and the team must decide what to do.",
+   "Must be corrected: metal hairpins and jewelry are removed according to the checklist before surgery.",
+   "No barrier: a request for the chaplain is a spiritual need to support and does not delay surgery."
+  ],
   "strategy": "Preoperative safety checks",
   "difficulty": 3,
   "bloom": "judgment",
@@ -354,13 +368,13 @@
   "rationale": "Preoperative teaching prepares the client to take part in recovery: breathing and leg exercises, pain reporting, what the postoperative period looks like, and why fasting is necessary. Guaranteeing no complications and promising no pain at all are unrealistic and damage trust; risks and the surgical plan are discussed by the surgeon during the consent discussion.",
   "rationaleSimple": "The nurse teaches breathing, leg exercises, pain reporting, what to expect, and why she must fast. Nobody can guarantee no complications or no pain.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Include: knowing why she must not eat or drink helps her follow the fasting instruction and lowers the risk of aspiration.",
+   "Include: leg exercises and early walking help prevent blood clots after surgery.",
+   "Do not include: no one can guarantee no complications, and false reassurance damages trust.",
+   "Include: she should learn to rate and report pain so it can be treated promptly.",
+   "Include: breathing, coughing and splinting the incision help prevent lung complications and ease pain.",
+   "Include: knowing what to expect, such as an IV line, monitoring and drains, lessens anxiety.",
+   "Do not include: promising no pain is unrealistic; the plan is to control pain."
   ],
   "strategy": "Preoperative client teaching",
   "difficulty": 2,
@@ -389,7 +403,11 @@
   "answer": [],
   "rationale": "The surgeon, who performs the procedure, must obtain informed consent. The nurse witnesses that the signature is genuine and voluntary and does not replace the explanation. Consent must be obtained while the client can think clearly, which means before sedation.",
   "rationaleSimple": "The surgeon explains the operation, the nurse witnesses the signature, and consent is signed before any sedating medicine.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Surgeon: the person who performs the procedure explains its risks, benefits and alternatives. A ward clerk or the nurse does not hold this responsibility.",
+   "Witness: the nurse confirms the signature is genuine and voluntary but does not replace the explanation or waive consent.",
+   "Before: consent must be signed while she can think clearly, so it comes before sedating medication."
+  ],
   "strategy": "Legal and ethical aspects of consent",
   "difficulty": 2,
   "bloom": "recall",
@@ -538,13 +556,13 @@
   "rationale": "A silent chest in a distressed client means very little air is moving. Drowsiness, confusion, blue lips and exhaustion show failing oxygenation and tiring breathing muscles, and speaking only a word or two shows severe airflow limitation. Easier speech and a productive cough after the reliever show improvement.",
   "rationaleSimple": "Faint wheezing with bad distress, sleepiness, blue lips, and exhaustion are danger signs. Speaking easier is a good sign.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Life-threatening: being able to say only a word or two shows severe airflow limitation.",
+   "Life-threatening: bluish lips show dangerously low oxygen.",
+   "Not life-threatening: a cough with a little clear sputum as tightness eases suggests improvement.",
+   "Life-threatening: exhaustion with weak, shallow breathing means the breathing muscles are tiring.",
+   "Life-threatening: wheezing that fades while distress continues means very little air is moving.",
+   "Life-threatening: drowsiness or confusion shows the brain is short of oxygen.",
+   "Not life-threatening: easier speech in full sentences after the reliever shows the attack is improving."
   ],
   "strategy": "Recognizing deterioration",
   "difficulty": 3,
@@ -573,7 +591,12 @@
   "answer": [],
   "rationale": "Reliever medicine acts quickly to open narrowed airways and must be available at all times. Controller therapy and trigger avoidance work over time to reduce inflammation and the number of attacks, so they continue even when the client feels well.",
   "rationaleSimple": "Reliever medicine is for attacks and is always carried. Controller medicine and avoiding triggers are for everyday prevention.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Quick-relief: the reliever is used at the first sign of wheezing or tightness to open narrowed airways fast.",
+   "Long-term control: controller therapy is taken regularly to reduce inflammation, even when there are no symptoms.",
+   "Long-term control: avoiding triggers lowers the number of attacks over time.",
+   "Quick-relief: the reliever must be carried at all times in case symptoms start suddenly."
+  ],
   "strategy": "Teaching asthma self-management",
   "difficulty": 2,
   "bloom": "recall",
@@ -633,9 +656,14 @@
    1,
    3
   ],
-  "rationale": "Persisting accessory-muscle use, speech limited to short phrases, and increasing sleepiness mean she has not responded adequately and may be tiring, so she needs urgent referral and emergency care. A looser cough alone is not a sign of danger, and the quieter wheeze must not be mistaken for improvement while distress continues.",
+  "rationale": "Persisting accessory-muscle use, speech limited to short phrases, and increasing sleepiness mean she has not responded adequately and may be tiring, so she needs urgent referral and emergency care. A looser cough alone is not a sign of danger.",
   "rationaleSimple": "She still works hard to breathe, speaks in short phrases, and is sleepy, so she needs urgent help even though the wheeze is quieter.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Needs urgent attention: continuing use of neck muscles shows she still works hard to breathe despite treatment.",
+   "Needs urgent attention: speech limited to short phrases shows severe airflow limitation remains.",
+   "Not a concern by itself: a looser cough does not show danger, and it does not outweigh the other findings.",
+   "Needs urgent attention: sleepiness suggests she is tiring or her oxygen is falling, which is ominous."
+  ],
   "strategy": "Evaluating response to treatment",
   "difficulty": 4,
   "bloom": "judgment",
@@ -767,13 +795,13 @@
   "rationale": "Home oxygen teaching centers on fire prevention, preventing the cylinder from falling, using the prescribed dose, and avoiding falls over tubing. Petroleum products are flammable and should not be used on or near the face; a water-based lubricant is safer. Self-adjusting the flow is unsafe because oxygen is a prescribed treatment.",
   "rationaleSimple": "No smoking, secure the cylinder upright, use only the prescribed flow, avoid trip hazards, and keep away from heat. No petroleum jelly, and never change the flow alone.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Include: tubing across the floor is a tripping hazard, and a fall can injure an already weak client.",
+   "Include: an unsecured cylinder can fall and be damaged or hurt someone.",
+   "Include: oxygen supports burning, so equipment must be kept away from the stove and other heat.",
+   "Include: oxygen is a prescribed treatment, so the flow and hours should not be changed without advice.",
+   "Do not include: raising the flow without advice is unsafe because too much oxygen can be harmful in some chronic lung disease.",
+   "Include: smoking near oxygen is a fire and explosion risk.",
+   "Do not include: petroleum jelly is flammable and should not be used near oxygen; a water-based lubricant is safer."
   ],
   "strategy": "Home oxygen safety teaching",
   "difficulty": 3,
@@ -802,7 +830,11 @@
   "answer": [],
   "rationale": "Oxygen is prescribed for a specific flow and duration. In some people with chronic lung disease, too much oxygen can lead to carbon dioxide retention, causing drowsiness, headache and confusion, which need prompt medical review rather than a change in flow by the family.",
   "rationaleSimple": "Use oxygen exactly as prescribed. If he becomes very sleepy, has headaches, or is confused, get medical help.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Prescribed: oxygen is treated like a medicine with a set dose. His own preference or neighbors' advice is not a safe basis for dosing.",
+   "Drowsy: unusual sleepiness can mean carbon dioxide is building up. Hunger or talkativeness would not point to this problem.",
+   "Seek medical help promptly: new drowsiness, headache or confusion needs medical review. Raising the flow or ignoring it can make things worse."
+  ],
   "strategy": "Recognizing oxygen-related complications",
   "difficulty": 3,
   "bloom": "recall",
@@ -896,7 +928,13 @@
   "answer": [],
   "rationale": "COPD commonly causes a chronic morning cough and exertional breathlessness that eases with rest. A sudden worsening with sputum change and fever suggests an infection or exacerbation, new confusion and sleepiness may indicate carbon dioxide retention or low oxygen, and breathlessness not relieved by usual measures needs prompt review.",
   "rationaleSimple": "A morning cough and tiredness on exertion are common. Sudden worsening, fever, confusion, or breathlessness that does not ease need quick help.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Usual: a chronic morning cough with a little sputum is common in COPD.",
+   "Needs attention: sudden worse breathlessness with sputum change and fever suggests infection or an exacerbation.",
+   "Usual: mild breathlessness on exertion that eases with rest is typical of COPD.",
+   "Needs attention: new confusion and extreme sleepiness may mean carbon dioxide retention or low oxygen.",
+   "Needs attention: breathlessness not relieved by usual measures needs prompt review."
+  ],
   "strategy": "Recognizing exacerbation",
   "difficulty": 3,
   "bloom": "judgment",
@@ -1007,14 +1045,14 @@
   "rationale": "Chest tube care focuses on keeping the system closed, upright, and below the chest, keeping the tubing free so air and fluid can leave, monitoring breathing and drainage, and promoting lung expansion. Routine stripping, unordered clamping, and raising the unit can raise pleural pressure or allow backflow and are not safe practice.",
   "rationaleSimple": "Keep the unit upright and low, tubing unkinked, watch breathing and drainage, and help him breathe deeply. Do not strip, clamp, or raise the unit without an order.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Wrong: clamping without an order can trap air and raise pressure in the chest. Check your textbook and local policy for when clamping is allowed.",
+   "Wrong: routine stripping or milking can create strong suction and is not routine practice. Check your textbook and local policy.",
+   "Right: an upright system below the chest keeps drainage flowing away from the client.",
+   "Wrong: raising the unit above the chest lets fluid flow back toward the pleural space.",
+   "Right: kinks and dependent loops block drainage, so tubing is kept free.",
+   "Right: breath sounds and breathing show whether the lung is re-expanding or a problem is developing.",
+   "Right: the amount and character of drainage show healing or bleeding and are recorded as the policy requires.",
+   "Right: deep breathing and coughing help re-expand the lung, and pain control makes them possible."
   ],
   "strategy": "Chest tube nursing care",
   "difficulty": 3,
@@ -1053,7 +1091,13 @@
   ],
   "rationale": "A disconnected tube can allow air into the pleural space, and sudden breathlessness, chest pain, and absent breath sounds on the affected side suggest the lung may have collapsed again. These findings require immediate action and a call for help. Small serous drainage is expected, and moderate pain should be treated but is not the emergency.",
   "rationaleSimple": "A disconnected tube with sudden breathlessness and no breath sounds on that side is an emergency. Small clear drainage and moderate pain are less urgent.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Expected: a small amount of serous drainage is expected and needs no emergency action.",
+   "Immediate action: a disconnected tube can let air enter the pleural space and the lung may collapse. Check your textbook and local policy for the exact steps.",
+   "Immediate action: sudden breathlessness with chest pain may mean the lung has collapsed again.",
+   "Immediate action: absent breath sounds on the affected side suggest the lung is not inflated.",
+   "Not the emergency: moderate pain should be treated but it is less urgent than a possible collapsed lung."
+  ],
   "strategy": "Recognizing chest tube complications",
   "difficulty": 4,
   "bloom": "judgment",
@@ -1081,7 +1125,11 @@
   "answer": [],
   "rationale": "The pleural space should contain no air and little fluid, so removing both allows the lung to re-expand against the chest wall. The water seal acts as a one-way valve so air can leave but not re-enter, and gravity drainage needs the unit to stay lower than the chest.",
   "rationaleSimple": "The tube drains air and fluid so the lung can expand again. A water seal keeps air from going back in.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Air: the pleural space should hold no air, so the tube removes air as well as fluid. Bile and urine do not belong there.",
+   "Re-expand: once air and fluid are out, the lung can expand against the chest wall. Shrinking or collapsing is the problem being treated.",
+   "Water seal: it is a one-way valve that lets air leave but not re-enter. A clamp or filter does not serve this role."
+  ],
   "strategy": "Understanding chest drainage principles",
   "difficulty": 2,
   "bloom": "recall",
@@ -1241,14 +1289,14 @@
   "rationale": "Dehydration reduces circulating volume, leading to dry mucous membranes, poor skin turgor, scant concentrated urine, a fast weak pulse, orthostatic dizziness and thirst. A bounding pulse, distended neck veins and lung crackles point toward fluid excess, not deficit.",
   "rationaleSimple": "A dry mouth, tented skin, little dark urine, a fast weak pulse, dizziness, and thirst fit dehydration. A bounding pulse, neck vein distention, and crackles mean too much fluid.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Deficit: thirst is the body's response to low fluid volume.",
+   "Deficit: dry mucous membranes show too little body water.",
+   "Deficit: the heart beats faster to compensate, and the pulse is weak because volume is low.",
+   "Deficit: low volume causes blood pressure to drop on standing, causing dizziness.",
+   "Excess, not deficit: a bounding pulse with distended neck veins shows too much volume.",
+   "Deficit: poor skin turgor shows loss of tissue fluid.",
+   "Deficit: the kidneys conserve water, so urine is scant and dark.",
+   "Excess, not deficit: crackles and breathlessness show fluid in the lungs."
   ],
   "strategy": "Recognizing fluid imbalance",
   "difficulty": 2,
@@ -1277,7 +1325,13 @@
   "answer": [],
   "rationale": "Fluid deficit shows low circulating volume: flat neck veins, a weak pulse, thirst and scant concentrated urine. Fluid excess shows too much volume: rapid weight gain, edema, lung crackles, a bounding pulse and distended neck veins, an important risk during IV therapy in clients with heart disease.",
   "rationaleSimple": "Too little fluid gives dry signs and weak pulse. Too much gives swelling, crackles, and a bounding pulse.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Excess: sudden weight gain and ankle swelling show the body is holding fluid.",
+   "Deficit: flat neck veins and a weak, thready pulse show low circulating volume.",
+   "Excess: crackles and breathlessness during an infusion suggest fluid overload in the lungs.",
+   "Deficit: dark, scant urine with thirst shows the body is conserving water.",
+   "Excess: a bounding pulse and distended neck veins show too much volume."
+  ],
   "strategy": "Differentiating deficit from excess",
   "difficulty": 3,
   "bloom": "judgment",
@@ -1372,7 +1426,11 @@
   "answer": [],
   "rationale": "The right solution, as shown on the label and matched to the prescription, is a basic medication safety check. Cloudiness, particles or leaks mean the solution should not be used, and aseptic technique prevents bloodstream infection.",
   "rationaleSimple": "Check the label against the order, look for cloudiness or particles, and keep everything clean using aseptic technique.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Label of the solution: matching the label to the prescription confirms the right solution. Bag color or tubing brand does not.",
+   "Cloudiness or particles: these mean the solution may be contaminated and should not be used. Aroma and temperature are not the check.",
+   "Aseptic: this technique prevents bloodstream infection when connecting the set. Rapid or one-handed is not a safety standard."
+  ],
   "strategy": "Medication and IV safety",
   "difficulty": 2,
   "bloom": "recall",
@@ -1481,13 +1539,13 @@
   "rationale": "Care for suspected MI focuses on monitoring for dysrhythmias, establishing IV access, assessing pain, giving prescribed treatment, and reducing anxiety, which also increases oxygen demand. Walking raises oxygen demand, and delaying the ECG postpones the diagnosis.",
   "rationaleSimple": "Monitor his heart, start an IV, assess the pain, give ordered treatment, and keep him calm. Do not make him walk or delay the ECG.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Appropriate: assessing the pain helps judge whether it fits a heart problem and guides treatment.",
+   "Appropriate: IV access allows fast delivery of medicines and fluids.",
+   "Appropriate: monitoring detects dangerous heart rhythms that can follow an MI.",
+   "Appropriate: calm reassurance lowers anxiety, which raises oxygen demand.",
+   "Inappropriate: delaying the ECG delays diagnosis and treatment, so it should be done promptly.",
+   "Inappropriate: walking increases the heart's oxygen demand when it may already be short of oxygen.",
+   "Appropriate: prescribed medicines and any ordered oxygen are part of treatment, given as the physician orders."
   ],
   "strategy": "Emergency care for suspected MI",
   "difficulty": 3,
@@ -1523,9 +1581,14 @@
    1,
    2
   ],
-  "rationale": "Crushing substernal pain radiating to the arm and jaw, pain unrelieved by rest, and pale, cool, sweaty skin are the key cues of an acute MI. A past episode of mild heartburn is a distractor, as it is not a current finding of infarction, and occupation is not a sign.",
+  "rationale": "Crushing substernal pain radiating to the arm and jaw, pain unrelieved by rest, and pale, cool, sweaty skin are the key cues of an acute MI. A past episode of mild heartburn is a distractor, as it is not a current finding of infarction.",
   "rationaleSimple": "Crushing chest pain going to the arm and jaw, pain that does not ease with rest, and cold sweaty skin point to a heart attack.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Suggests MI: crushing substernal pain spreading to the left arm and jaw is a classic cue.",
+   "Suggests MI: pain that does not ease with rest fits infarction rather than muscle strain or reflux.",
+   "Suggests MI: cool, pale, sweating skin shows the body's stress response to a heart emergency.",
+   "Distractor: mild heartburn last week is a past event, not a current finding of infarction."
+  ],
   "strategy": "Recognizing cues of MI",
   "difficulty": 3,
   "bloom": "judgment",
@@ -1562,7 +1625,13 @@
   "answer": [],
   "rationale": "In the first minutes, the aim is rapid diagnosis and treatment: ECG, monitoring, IV access, laboratory tests, resting, and pain assessment. Risk-factor education and rehabilitation are important but are done once he is stable.",
   "rationaleSimple": "First, diagnose and stabilize. Teaching about smoking and rehabilitation come later when he is stable.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Immediate: an ECG and monitoring give a fast diagnosis and detect dangerous rhythms.",
+   "Immediate: IV access and blood tests are needed quickly so that treatment can start.",
+   "Later: stopping smoking and other risk factors are taught once he is stable.",
+   "Later: cardiac rehabilitation is planned once he is stable, before discharge.",
+   "Immediate: resting him and assessing his pain lowers the heart's oxygen demand and guides treatment."
+  ],
   "strategy": "Prioritizing nursing actions",
   "difficulty": 2,
   "bloom": "judgment",
@@ -1703,13 +1772,13 @@
   "rationale": "Anaphylaxis is a rapid, systemic reaction. Skin signs such as hives and swelling, airway signs such as hoarseness and wheezing, and circulatory signs such as faintness and low blood pressure all support it. Local redness alone and a gradual fever do not suggest an immediate systemic reaction.",
   "rationaleSimple": "Hives, facial swelling, hoarseness, wheezing, and faintness together are anaphylaxis. Local redness or a slow fever are not.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Does not support: a dry cough with a gradual fever over days suggests infection, not a rapid reaction.",
+   "Supports: widespread hives are a typical skin sign of an allergic reaction throughout the body.",
+   "Supports: swelling of the lips, face or tongue can quickly block the airway.",
+   "Supports: a hoarse voice or noisy breathing suggests the airway is swelling.",
+   "Supports: faintness with falling blood pressure suggests circulatory collapse.",
+   "Supports: wheezing or difficulty breathing shows airway narrowing.",
+   "Does not support: redness limited to the injection site is a local reaction, not whole-body."
   ],
   "strategy": "Recognizing anaphylaxis",
   "difficulty": 2,
@@ -1738,7 +1807,11 @@
   "answer": [],
   "rationale": "Anaphylaxis involves the whole body and develops rapidly after exposure. The threat comes from airway swelling and circulatory collapse, and epinephrine is the first-line emergency treatment. Antihistamines may help skin symptoms but do not reverse airway or circulatory compromise.",
   "rationaleSimple": "Anaphylaxis is a severe whole-body reaction. Watch the airway and circulation, and give epinephrine first.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Severe, systemic: anaphylaxis affects the whole body and develops quickly. A mild, local or delayed reaction does not fit.",
+   "Airway and circulation: the danger is airway swelling and circulatory collapse. Hair, nails, bowel and bladder are not the threat.",
+   "Epinephrine: it is the first-line emergency medicine; check your textbook for the protocol. An oral antihistamine may help the skin but does not reverse airway or circulation problems."
+  ],
   "strategy": "Understanding anaphylaxis",
   "difficulty": 2,
   "bloom": "recall",
@@ -1832,7 +1905,13 @@
   "answer": [],
   "rationale": "Involvement of the airway, breathing, or circulation, together with skin symptoms, points to anaphylaxis, which needs immediate emergency care. A reaction limited to the skin site of contact, without systemic features, is more likely a mild local reaction that can be observed.",
   "rationaleSimple": "Trouble breathing, swallowing, or faintness with a reaction means anaphylaxis. Itching in one small area is usually mild.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Anaphylaxis suspected: hives with a swollen tongue and trouble swallowing involve the skin and the airway.",
+   "Mild local: redness and itching only at the injection site, without other symptoms, is local.",
+   "Anaphylaxis suspected: faintness, low blood pressure and wheezing minutes after an injection involve circulation and breathing.",
+   "Mild local: itching of one forearm after a new soap with no other symptoms is a local skin reaction.",
+   "Anaphylaxis suspected: a hoarse voice and noisy breathing after a sting suggest airway swelling."
+  ],
   "strategy": "Differentiating severity of allergic reactions",
   "difficulty": 3,
   "bloom": "judgment",
@@ -1947,7 +2026,13 @@
   ],
   "rationale": "Low platelets impair clotting, which shows as bleeding gums, pinpoint skin hemorrhages (petechiae), easy bruising, and prolonged nosebleeds. The sore throat and warmth point to possible infection, which is also important and must be reported but is not a sign of bleeding tendency.",
   "rationaleSimple": "Bleeding gums, tiny red spots, easy bruising, and a nosebleed that will not stop show low platelets. The sore throat is an infection concern, not bleeding.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Bleeding tendency: bleeding gums from tooth brushing show impaired clotting.",
+   "Bleeding tendency: pinpoint red spots (petechiae) are small bleeds into the skin, common with low platelets.",
+   "Not a bleeding sign: sore throat and warmth suggest infection, which should be reported but does not show a bleeding tendency.",
+   "Bleeding tendency: bruising at the cuff site shows blood vessels leak easily under light pressure.",
+   "Bleeding tendency: a nosebleed that is slow to stop shows clotting is impaired."
+  ],
   "strategy": "Recognizing bleeding tendency",
   "difficulty": 3,
   "bloom": "judgment",
@@ -2000,14 +2085,14 @@
   "rationale": "Bleeding precautions reduce trauma to fragile tissues and avoid anything that impairs clotting: soft brushes, electric razors, avoiding injections and rectal procedures, prolonged gentle pressure, and avoiding aspirin-type drugs. Flossing hard, using blades, and rubbing a puncture site all damage tissue and raise the chance of bleeding.",
   "rationaleSimple": "Use soft brushes and electric razors, avoid injections and rectal procedures, press gently for a long time, and avoid aspirin. Do not floss hard, use blades, or rub puncture sites.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Include: gentle prolonged pressure gives a clot time to form without damaging tissue.",
+   "Avoid: rubbing the puncture site bruises fragile tissue and can restart bleeding.",
+   "Avoid: a blade can cut the skin and cause bleeding that is hard to stop.",
+   "Avoid: vigorous flossing injures the gums and can cause bleeding.",
+   "Include: injections and rectal procedures can cause bleeding into tissues, so they are avoided unless specifically ordered.",
+   "Include: an electric razor is much less likely to cut the skin.",
+   "Include: a soft toothbrush or oral swabs reduce injury to the gums.",
+   "Include: aspirin-type medicines interfere with clotting, so they are avoided unless prescribed."
   ],
   "strategy": "Planning bleeding precautions",
   "difficulty": 3,
@@ -2076,7 +2161,11 @@
   "answer": [],
   "rationale": "Chemotherapy suppresses bone marrow activity. Low neutrophils, a type of white cell, impair defense against organisms, and low platelets impair clotting. Knowing which cell line is low guides which precautions the nurse applies.",
   "rationaleSimple": "Low white cells mean more infection, and low platelets mean more bleeding.",
-  "optionRationales": [],
+  "optionRationales": [
+   "White: neutropenia is a low count of neutrophils, a type of white blood cell. Red or sickled cells do not fit the term.",
+   "Infection: white cells defend the body against organisms, so a low number raises infection risk. Anemia and jaundice are not the main risks.",
+   "Platelets: thrombocytopenia is a low platelet count, and platelets are needed for clotting. Hemoglobin molecules and plasma proteins are different."
+  ],
   "strategy": "Understanding myelosuppression",
   "difficulty": 2,
   "bloom": "recall",

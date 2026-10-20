@@ -225,7 +225,7 @@
    "Supports: cough and coryza complete the cluster.",
    "Supports: rash behind the ears after the prodrome.",
    "Supports: unvaccinated means susceptible.",
-   "Irrelevant detail."
+   "Not relevant: her carrying a doll says nothing about measles, so it is not a diagnostic finding."
   ],
   "rationale": "Red watery eyes plus cough and runny nose are the pre-eruptive cluster, a rash starting behind the ears after several days of fever fits the eruptive stage, and no measles-containing vaccine leaves her susceptible. A fever alone is common in colds, and the doll is irrelevant.",
   "strategy": "Pattern recognition: cluster of cues beats a single sign",
@@ -464,7 +464,7 @@
    "Risk: possible neuropathy needing B6.",
    "Risk: reduced absorption.",
    "Expected effect of rifampicin.",
-   "Risk: liver injury.",
+   "Risk: weekend drinking adds liver injury to the effect of the antituberculosis drugs, which can also harm the liver.",
    "Not a risk to this treatment."
   ],
   "rationale": "Missed doses threaten cure. Tingling signals possible isoniazid neuropathy. Taking tablets with breakfast can lower absorption of some drugs. Weekend gin adds liver risk. Orange urine is expected, and a BCG scar on the grandchild is not a risk to treatment.",
@@ -691,11 +691,11 @@
    2
   ],
   "optionRationales": [
-   "Hold sign.",
-   "Hold sign.",
+   "Hold sign: a respiratory rate of 10 per minute shows magnesium toxicity is depressing breathing, so the infusion is held.",
+   "Hold sign: absent patellar reflexes are an early sign of magnesium toxicity, so the infusion is held.",
    "Hold sign: kidneys clear magnesium.",
    "Improving, expected.",
-   "Reassuring.",
+   "Not a hold sign: a fetal heart rate of 140 with moderate variability is reassuring and gives no reason to stop the infusion.",
    "Irrelevant to hold decision."
   ],
   "rationale": "Respiratory rate 10, absent reflexes and low urine output are hold signs. A falling blood pressure and a reassuring fetal heart rate are not reasons to hold, and the husband's request is a comfort question.",
@@ -907,7 +907,7 @@
    "Dehydration thickens blood.",
    "Raises oxygen demand.",
    "Dehydration and weakness.",
-   "Not a trigger.",
+   "Not a trigger: being held upright is a calming position that does not raise oxygen demand.",
    "Background, not trigger.",
    "Result of the spell, not cause."
   ],

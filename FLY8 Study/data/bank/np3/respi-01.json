@@ -540,7 +540,7 @@
   ],
   "rationale": "1. A low neutrophil count means a high risk of bacterial infection, often with few signs; fever is an emergency.\n2. Handwashing, cooked foods and early fever reporting protect him.\n3. Fresh flowers, raw fruits and vegetables carry organisms and are avoided in the neutropenic diet.\nFlip: with a normal white count the restrictions could be relaxed.",
   "optionRationales": [
-   "Correct.",
+   "Correct: hand hygiene before entering and before touching him protects a client with a low neutrophil count.",
    "Incorrect: flowers and plants can carry organisms.",
    "Correct: cooked food is safer.",
    "Correct: early fever reporting.",
@@ -727,9 +727,9 @@
   "rationale": "1. Viscous lidocaine is contraindicated in children because it suppresses the gag reflex and raises the risk of aspiration.\n2. Soft bland food, saline rinses and routine mouth inspection are standard care for stomatitis.\nFlip: for a 40-year-old adult with stomatitis, the lidocaine could be given.",
   "optionRationales": [
    "Right: unsafe in a child.",
-   "Wrong: appropriate.",
-   "Wrong: appropriate.",
-   "Wrong: appropriate."
+   "Wrong to question: a soft bland diet is appropriate for painful mouth sores.",
+   "Wrong to question: saline rinses are appropriate care for stomatitis.",
+   "Wrong to question: routine inspection of the mouth is appropriate to detect worsening sores."
   ],
   "strategy": "Question unsafe order for the child",
   "archetype": "question the order",

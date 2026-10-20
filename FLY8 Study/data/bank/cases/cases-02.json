@@ -210,7 +210,7 @@
    "S3 from failing left ventricle.",
    "Systemic congestion, more right-sided.",
    "Non-specific fluid retention.",
-   "Not specific."
+   "Not specific: occasional single premature beats occur in many conditions and do not point to left-sided heart failure."
   ],
   "rationale": "Basal crackles, hypoxemia and the S3 reflect pulmonary congestion from left ventricular failure. Ankle swelling and weight gain occur with right-sided or general fluid retention. Single premature beats are not specific.",
   "strategy": "Separate left-sided from non-specific findings",
@@ -435,11 +435,11 @@
   ],
   "optionRationales": [
    "Compensation for volume loss.",
-   "Falling pressure.",
-   "Visible loss.",
+   "Indicates bleeding: a falling blood pressure shows circulating volume is dropping.",
+   "Indicates bleeding: a saturated dressing with bright red drainage is visible blood loss.",
    "Expected after surgery.",
    "Low-grade rise is common.",
-   "Atelectasis sign."
+   "Fits atelectasis, not bleeding: fine crackles at the lung base come from collapsed air sacs."
   ],
   "rationale": "Heart rate and blood pressure trends and the saturated dressing show blood loss. Pain of 8/10, temperature 37.8 C and shallow breathing fit pain and atelectasis.",
   "strategy": "Separate bleeding cues from distractors",
@@ -513,9 +513,9 @@
    3
   ],
   "optionRationales": [
-   "Appropriate.",
-   "Appropriate.",
-   "Appropriate.",
+   "Appropriate: weighing him before treatment shows how much fluid he has gained since the last session.",
+   "Appropriate: a cardiac monitor is sensible because missed dialysis can cause dangerous potassium changes.",
+   "Appropriate: asking about fluid intake helps judge fluid overload.",
    "Right: the fistula arm must be protected."
   ],
   "rationale": "No blood pressures, venipunctures or tight items on the fistula arm because they can clot or damage it. Weighing, monitoring and asking about intake are safe.",
@@ -662,12 +662,12 @@
    2
   ],
   "optionRationales": [
-   "Retained fluid.",
-   "Retained fluid.",
+   "Fluid overload: a 3.5 kg gain since the last session shows retained fluid.",
+   "Fluid overload: ankle swelling shows fluid collecting in the tissues.",
    "Volume-related hypertension.",
-   "Potassium effect.",
-   "Potassium effect.",
-   "Potassium effect."
+   "Belongs to high potassium, not fluid overload: muscle weakness is an effect of potassium on muscle.",
+   "Belongs to high potassium, not fluid overload: a slow heart rate is an effect of potassium on the heart.",
+   "Belongs to high potassium, not fluid overload: peaked T waves are an ECG change of high potassium."
   ],
   "rationale": "Rapid weight gain, edema and raised blood pressure indicate retained fluid. Weakness, nausea and a slow heart rate with ECG changes belong to hyperkalemia.",
   "strategy": "Fluid overload cues",
@@ -887,11 +887,11 @@
    3
   ],
   "optionRationales": [
-   "Cause.",
-   "Compensation.",
-   "Ketones.",
-   "Acidosis.",
-   "Not diagnostic.",
+   "Supports DKA: stopping insulin removes the hormone needed to use glucose, which is the cause.",
+   "Supports DKA: rapid deep breathing is the body's attempt to blow off acid.",
+   "Supports DKA: fruity breath comes from ketones made when fat is broken down.",
+   "Supports DKA: a pH of 7.12 shows acidosis.",
+   "Does not support DKA: age 17 does not help to diagnose it.",
    "Safety concern, not diagnostic."
   ],
   "rationale": "Stopped insulin, deep rapid breathing, fruity breath and abdominal pain with a low pH point to DKA. Age and the potassium value do not define DKA.",

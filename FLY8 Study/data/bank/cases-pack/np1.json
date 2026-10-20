@@ -68,12 +68,12 @@
   "rationale": "Adults learn best when teaching builds on their experience, relates to real-life needs, and uses language and methods they understand. Medical jargon and a purely one-way lecture limit understanding and involvement, so they are poor choices.",
   "rationaleSimple": "Adults learn when teaching uses what they know, fits their daily life, and is easy to understand.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Applies: asking what they already know builds on adults' experience and shows the teaching answers their own needs.",
+   "Applies: linking content to their meals and work makes the teaching immediately useful, which motivates adult learners.",
+   "Does not apply: jargon the group does not understand blocks learning; accuracy is kept with plain words.",
+   "Applies: sharing experiences lets adults learn from one another and become involved in the session.",
+   "Does not apply: a one-way lecture leaves adults passive; they learn better through discussion and participation.",
+   "Applies: the local language and simple pictures or demonstrations make the message clear and easy to remember."
   ],
   "strategy": "Plans and conducts community health teaching",
   "difficulty": 3,
@@ -102,7 +102,10 @@
   "answer": [],
   "rationale": "Secondary prevention means early detection and prompt treatment, which is what screening does. Primary prevention means keeping disease from occurring in people who are well, as in health education for healthy people. Tertiary prevention limits disability and aids rehabilitation after disease is established.",
   "rationaleSimple": "Screening finds disease early (secondary); teaching well people to stay healthy is primary prevention.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Secondary prevention: screening finds disease early so that treatment can start promptly. Primary is for preventing disease and tertiary is for limiting disability after disease is established.",
+   "Primary prevention: teaching healthy eating to people who have no disease aims to stop disease from occurring. Secondary prevention is early detection and tertiary is rehabilitation."
+  ],
   "strategy": "Classifies health activities by level of prevention",
   "difficulty": 2,
   "bloom": "recall",
@@ -155,7 +158,11 @@
   ],
   "rationale": "Learners who cannot explain why treatment continues, or who plan to stop medicine when symptoms disappear, have not met the objective on medicine adherence. Thanks and requests for another session show satisfaction, but they are not evidence of learning.",
   "rationaleSimple": "Look for what people cannot do or say correctly; being thankful does not prove they learned.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Shows the objective was NOT met: participants who cannot explain why medicines continue when they feel well have not learned the adherence message.",
+   "Shows the objective was NOT met: planning to stop tablets once she feels better is a wrong belief about treatment that teaching should have corrected.",
+   "Does not show learning: thanks and requests for another session show satisfaction, not that anyone can state or do what was taught."
+  ],
   "strategy": "Evaluates learning outcomes of health teaching",
   "difficulty": 3,
   "bloom": "judgment",
@@ -284,12 +291,12 @@
   "rationale": "The cold chain keeps vaccines at the recommended temperature from storage to administration, so vaccines are kept in a proper refrigerator, temperatures are monitored, and vaccines travel in a cold box. Storing food, leaving vaccines out and opening the door often all expose vaccines to temperature changes.",
   "rationaleSimple": "Vaccines must stay cold the whole time, from the fridge to the child.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Applies: keeping vaccines within the recommended temperature range is the core of the cold chain because heat or freezing can destroy potency.",
+   "Applies: regular temperature recording shows whether storage stayed in range and allows a problem to be caught early.",
+   "Does not apply: food and drinks in the vaccine refrigerator mean frequent door opening and temperature swings; it is reserved for vaccines.",
+   "Does not apply: vaccines left on a table warm up and lose potency; they should stay in a cold box.",
+   "Applies: a cold box with ice packs keeps vaccines cold while the nurse is outside the health center.",
+   "Does not apply: opening the door often lets warm air in and disturbs the temperature; check the thermometer instead."
   ],
   "strategy": "Maintains the cold chain",
   "difficulty": 3,
@@ -367,7 +374,10 @@
   "answer": [],
   "rationale": "A vaccine stimulates the person's own immune system, giving artificial active immunity. Antibodies that cross the placenta are received ready-made through a natural process, so this is natural passive immunity.",
   "rationaleSimple": "A vaccine makes the body produce its own protection; antibodies from the mother are borrowed protection.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Artificial active: the vaccine stimulates the baby's own immune system to make antibodies. Natural active would follow actually having the disease.",
+   "Natural passive: antibodies pass ready-made from mother to baby through the placenta, a natural route in which the baby makes none itself."
+  ],
   "strategy": "Differentiates types of immunity",
   "difficulty": 3,
   "bloom": "recall",
@@ -413,7 +423,13 @@
   "answer": [],
   "rationale": "Screening for contraindications and checking the vaccine are done before administration. Observation, documentation and giving return instructions follow administration so the mother has complete information and the record is accurate.",
   "rationaleSimple": "Check safety first; watch, record and give advice afterwards.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Before: screening for a severe reaction to a previous dose checks for a contraindication and must be done before the vaccine is given.",
+   "Before: checking the expiry date makes sure the vaccine is usable and safe before it is drawn up.",
+   "After: observing for an immediate reaction can only happen once the vaccine has been given.",
+   "After: recording the vaccine, date and site is documented after administration so the record is accurate.",
+   "After: telling the mother when to return for the next dose is part of the instructions given when the visit is completed."
+  ],
   "strategy": "Carries out pre- and post-immunization responsibilities",
   "difficulty": 2,
   "bloom": "apply",
@@ -467,7 +483,12 @@
   ],
   "rationale": "Poor feeding together with unusual sleepiness and limpness are newborn danger signs that may indicate serious infection or another grave illness. Red-brown lochia and mild afterpains are expected on the fourth postpartum day, so they are not the urgent concerns.",
   "rationaleSimple": "A newborn who feeds poorly and is hard to wake is in danger; the mother's findings are normal.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Expected: red-brown lochia without foul odor is normal on the fourth postpartum day, so it is not urgent.",
+   "Urgent: poor feeding in a newborn is a danger sign that may point to serious infection and needs prompt assessment.",
+   "Urgent: a baby who is hard to wake and limp is lethargic, a danger sign of serious illness that needs immediate referral.",
+   "Expected: mild afterpains with soft breasts are common at this stage and are not a concern."
+  ],
   "strategy": "Recognises danger signs in the newborn",
   "difficulty": 3,
   "bloom": "judgment",
@@ -547,12 +568,12 @@
   "rationale": "Afterpains, a firm descending fundus and lochia changing from bright red to red-brown are part of normal uterine involution. Foul-smelling lochia suggests infection, rapid soaking with large clots suggests hemorrhage, and severe headache with blurred vision is a danger sign requiring prompt care.",
   "rationaleSimple": "Mild cramps, a firm uterus and darker bleeding are normal; foul smell, heavy bleeding and severe headache are not.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Expected: afterpains are uterine contractions that occur during involution and are often felt during breastfeeding.",
+   "Not expected: foul-smelling lochia suggests infection and should be reported.",
+   "Expected: a firm fundus that descends daily shows the uterus is involuting normally.",
+   "Expected: lochia changes from bright red to red-brown around this time as it contains less fresh blood.",
+   "Not expected: quickly soaking a pad with large clots suggests postpartum hemorrhage.",
+   "Not expected: severe headache with blurred vision is a danger sign that may indicate pre-eclampsia and needs prompt care."
   ],
   "strategy": "Differentiates normal from abnormal postpartum findings",
   "difficulty": 3,
@@ -581,7 +602,10 @@
   "answer": [],
   "rationale": "Good attachment features a wide-open mouth, a lower lip that is turned outward, the chin touching the breast and more areola visible above than below. Good attachment allows effective milk transfer and prevents nipple pain.",
   "rationaleSimple": "A good latch has a wide mouth and an outward-turned lower lip.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Wide: a wide-open mouth takes in enough breast tissue for effective milk transfer; a barely or slightly open mouth gives a poor latch and sore nipples.",
+   "Outward: a lower lip turned outward shows the baby has taken the breast well; an inward-turned lip suggests a shallow latch."
+  ],
   "strategy": "Teaches correct breastfeeding technique",
   "difficulty": 2,
   "bloom": "recall",
@@ -636,7 +660,13 @@
   "answer": [],
   "rationale": "Sneezing, hiccups and mild peeling of the skin are common and harmless in newborns. Convulsions, breathing difficulty with chest indrawing and persistent coldness are danger signs requiring prompt medical care.",
   "rationaleSimple": "Sneezing and peeling are normal; fits, hard breathing and being very cold are emergencies.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Normal: occasional sneezing and hiccups are common reflex behaviors in healthy newborns.",
+   "Urgent referral: convulsions are a danger sign of serious illness needing immediate medical care.",
+   "Urgent referral: fast breathing with chest indrawing shows respiratory distress, a danger sign that needs prompt care.",
+   "Normal: mild peeling of the skin on the hands and feet is common and harmless in newborns.",
+   "Urgent referral: a body that stays very cold despite wrapping suggests serious illness or hypothermia and needs prompt care."
+  ],
   "strategy": "Differentiates normal and abnormal newborn findings",
   "difficulty": 3,
   "bloom": "judgment",
@@ -744,12 +774,12 @@
   "rationale": "Mosquitoes that carry dengue breed in clean stored water and bite mostly during the day. Covering containers, removing water-collecting objects, changing water and using personal protection by day reduce the risk, whereas a night-only net does not protect against daytime biting.",
   "rationaleSimple": "Remove places where water collects and protect yourself from daytime bites.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Wrong: the mosquito that transmits dengue bites mostly in the daytime, so a net used only at night leaves the child unprotected when bites occur.",
+   "Wrong: uncovered containers give mosquitoes clean water in which to breed.",
+   "Right: old tires and cans collect rainwater, and removing or turning them over takes away breeding places.",
+   "Right: changing vase water regularly interrupts the breeding cycle of the mosquito.",
+   "Right: tightly covered storage stops mosquitoes from laying eggs in the stored water.",
+   "Right: repellent and long sleeves reduce daytime bites, which is when the dengue mosquito feeds."
   ],
   "strategy": "Teaches vector control measures",
   "difficulty": 2,
@@ -787,7 +817,13 @@
   "answer": [],
   "rationale": "A child who is alert, drinks well, passes urine and eats small meals may be monitored at home with clear return advice. Persistent vomiting, severe abdominal pain and bleeding are warning signs of severe disease and need urgent medical evaluation.",
   "rationaleSimple": "A child who is alert, drinking and passing urine can stay home; vomiting, severe tummy pain or bleeding means go now.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Home care: mild fever and aches with good drinking and normal urine output show the child is not dehydrated, so close home monitoring with return advice is reasonable.",
+   "Urgent referral: persistent vomiting means fluids cannot be kept down, risking dehydration and shock, which are warning signs of severe dengue.",
+   "Urgent referral: severe abdominal pain is a warning sign of severe dengue and needs medical evaluation.",
+   "Urgent referral: bleeding from the gums or nose is a warning sign of severe dengue and needs urgent evaluation.",
+   "Home care: a mild headache in an alert child who is eating and drinking shows no warning signs, so home monitoring is reasonable."
+  ],
   "strategy": "Recognises warning signs of severe dengue",
   "difficulty": 3,
   "bloom": "judgment",
@@ -842,7 +878,10 @@
   "answer": [],
   "rationale": "Paracetamol is the usual choice for fever in suspected dengue, whereas aspirin and other NSAIDs are avoided because they may increase bleeding risk. Adequate oral fluids help prevent dehydration, which is a main concern during the illness.",
   "rationaleSimple": "Use paracetamol, not aspirin, and give lots of fluids.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Paracetamol: it is the usual fever medicine in suspected dengue and does not add to the bleeding risk. Check your textbook for dosing.",
+   "Oral fluids: plenty of fluids prevent dehydration, a main concern in dengue. Fasting or salty snacks only would worsen fluid loss."
+  ],
   "strategy": "Teaches home care for fever",
   "difficulty": 3,
   "bloom": "recall",
@@ -981,12 +1020,12 @@
   "rationale": "Boiling kills disease-causing organisms, and clean covered storage with a handled dipper prevents recontamination. Dipping cups and uncovered storage reintroduce germs, which cancels the benefit of treatment.",
   "rationaleSimple": "Treat the water, keep it covered, and never put hands or cups into it.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Right: boiling to a rolling boil kills disease-causing organisms in drinking water.",
+   "Right: clean covered storage keeps treated water from being contaminated again.",
+   "Right: a clean dipper with a handle keeps hands from touching the water.",
+   "Wrong: dipping cups into the container puts hands and germs into the water.",
+   "Wrong: an uncovered pail lets dust, insects and dirty hands contaminate the water.",
+   "Right: washing hands with soap before handling water removes germs that could contaminate it."
   ],
   "strategy": "Teaches safe household water practices",
   "difficulty": 2,
@@ -1015,7 +1054,13 @@
   "answer": [],
   "rationale": "Food and plant waste decays naturally and can be composted. Clean plastic can be reused or recycled, while batteries and mercury need special handling because they can poison people and the environment.",
   "rationaleSimple": "Plant waste rots, clean plastic can be reused, and batteries or mercury are dangerous.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Biodegradable: vegetable peelings are plant waste that decays naturally and can be composted.",
+   "Recyclable: clean plastic bottles can be collected and reused or recycled.",
+   "Hazardous: used batteries contain chemicals that can poison people and soil if thrown out with ordinary garbage.",
+   "Biodegradable: banana leaves are plant material that decays naturally.",
+   "Hazardous: a broken mercury thermometer releases toxic mercury and needs special handling and disposal."
+  ],
   "strategy": "Classifies household waste",
   "difficulty": 2,
   "bloom": "recall",
@@ -1071,7 +1116,10 @@
   "answer": [],
   "rationale": "Nurses educate and mobilize the community and coordinate with the sanitary inspector, who has the authority to inspect and enforce sanitation standards. Treating individuals alone does not address the environmental cause of illness.",
   "rationaleSimple": "The nurse teaches and organizes, and works with the sanitary inspector.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Health education: teaching and mobilizing residents addresses the cause of the problem in the community. Treating individuals alone or building toilets alone does not change community practices.",
+   "Sanitary inspector: this officer has the authority to inspect and enforce sanitation standards, so the nurse coordinates with them. A school principal or tanod does not hold this role."
+  ],
   "strategy": "Coordinates sanitation activities",
   "difficulty": 3,
   "bloom": "recall",
@@ -1210,12 +1258,12 @@
   "rationale": "Vital statistics describe the health of populations, so they help identify risk groups, allocate resources, evaluate programs and plan services. They do not guide an individual's diagnosis or dosing.",
   "rationaleSimple": "Vital statistics help plan for groups, not treat one person.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Appropriate: vital statistics show which age groups or areas have more illness or death, so risk groups can be identified.",
+   "Appropriate: figures on illness and death help decide where limited resources are most needed.",
+   "Appropriate: changes in rates before and after a program show whether it is working.",
+   "Not appropriate: vital statistics describe populations, not the right dose for one patient.",
+   "Not appropriate: a diagnosis for one client comes from that client's assessment and tests, not from population data.",
+   "Appropriate: the age composition of the community guides which services, such as child or elderly care, to plan."
   ],
   "strategy": "Uses vital statistics in planning",
   "difficulty": 3,
@@ -1293,7 +1341,13 @@
   "answer": [],
   "rationale": "Morbidity measures describe illness, mortality measures describe deaths, and fertility measures describe births. Attack rate is a morbidity measure used during outbreaks.",
   "rationaleSimple": "Illness measures are morbidity, death measures are mortality, birth measures are fertility.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Morbidity: incidence rate counts new cases of illness in a population.",
+   "Mortality: the crude death rate measures deaths in the whole population.",
+   "Mortality: infant mortality rate measures deaths among infants.",
+   "Fertility: the general fertility rate measures births among women of childbearing age.",
+   "Morbidity: attack rate is the proportion of exposed people who become ill, used in outbreaks, so it measures illness."
+  ],
   "strategy": "Classifies epidemiologic measures",
   "difficulty": 3,
   "bloom": "recall",
@@ -1340,7 +1394,10 @@
   "answer": [],
   "rationale": "Epidemiology studies how diseases are distributed and what factors determine them, then applies findings to prevent and control health problems.",
   "rationaleSimple": "Epidemiology studies who gets sick and why, to control problems.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Determinants: epidemiology studies both how disease is distributed and the factors that cause it; symptoms or treatments alone are not the focus.",
+   "Control: the findings are applied to prevent and control health problems in populations, not to diagnose one person."
+  ],
   "strategy": "Defines epidemiology",
   "difficulty": 2,
   "bloom": "recall",
@@ -1448,12 +1505,12 @@
   "rationale": "Bag technique prevents cross-infection between the nurse, the bag and the families visited. Hand hygiene, a clean lined surface, separating clean from contaminated items and cleaning the bag achieve this, while floors and unclean items return germs to the bag.",
   "rationaleSimple": "Keep the bag clean and the items separate to avoid spreading germs.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Right: hand washing before and after care prevents cross-infection between the nurse and the family.",
+   "Right: a clean, lined surface keeps the bag from picking up germs.",
+   "Wrong: the floor and pets carry germs that would contaminate the bag.",
+   "Right: separating clean from contaminated items prevents cross-contamination inside the bag.",
+   "Wrong: used items put back without cleaning contaminate the bag and the next family's care.",
+   "Right: cleaning the bag after the visit keeps it safe to use for the next family."
   ],
   "strategy": "Applies bag technique",
   "difficulty": 3,
@@ -1491,7 +1548,13 @@
   "answer": [],
   "rationale": "The five family health tasks are recognizing a health problem, deciding on action, caring for a sick member, maintaining a healthful environment and using community resources. Each action here fits one task.",
   "rationaleSimple": "The tasks are notice, decide, care, keep the home healthy and use outside help.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Recognize the health problem: noticing swollen feet and sensing something is wrong is the first task, awareness that a problem exists.",
+   "Decide on appropriate action: choosing to go to the health center rather than waiting is making a decision about what to do.",
+   "Care for the sick member: giving medicines on time and preparing low-salt meals is providing care at home.",
+   "Maintain a healthful home: covering water containers and cleaning the surroundings keeps the home environment healthy.",
+   "Use community resources: registering with the rural health unit and attending its clinic uses available health services."
+  ],
   "strategy": "Assesses family health task ability",
   "difficulty": 3,
   "bloom": "judgment",
@@ -1540,7 +1603,10 @@
   "answer": [],
   "rationale": "A health deficit exists when a health problem is present, such as a diagnosed illness. A foreseeable crisis is an expected stressful event in family life, such as a child's entry to school.",
   "rationaleSimple": "An existing illness is a deficit; an expected life change is a foreseeable crisis.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Health deficit: hypertension is an existing, diagnosed problem. A health threat is a condition that could lead to disease, and a foreseeable crisis is an expected life event.",
+   "Foreseeable crisis: starting school is an expected, stressful change in family life that the family can prepare for. It is not an illness, so it is not a deficit."
+  ],
   "strategy": "Classifies family health problems",
   "difficulty": 3,
   "bloom": "recall",
@@ -1679,12 +1745,12 @@
   "rationale": "Children, pregnant women, older adults and persons with disabilities are more affected by disrupted care, crowding and limited resources, so they receive priority attention. Healthy adults are generally able to meet their own needs.",
   "rationaleSimple": "Those who depend on others or are at higher risk need attention first.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Not vulnerable: residents without health problems can generally meet their own needs, so they are not a priority group.",
+   "Vulnerable: pregnant women need safe delivery, nutrition and monitoring that crowded conditions can disrupt.",
+   "Vulnerable: persons with disabilities may need help with mobility, hygiene and access to services.",
+   "Vulnerable: infants and young children dehydrate and catch infections quickly and depend on others.",
+   "Not vulnerable: healthy young adults are usually able to look after themselves and can help as volunteers.",
+   "Vulnerable: older adults often have chronic illness and limited mobility, so disrupted care affects them more."
   ],
   "strategy": "Identifies vulnerable groups",
   "difficulty": 2,
@@ -1719,9 +1785,14 @@
    0,
    2
   ],
-  "rationale": "A woman in labor and a lethargic toddler with signs of dehydration have potentially life-threatening needs. Minor scratches and boredom are lower priority, and the sorting of clothes is not a clinical finding.",
+  "rationale": "A woman in labor and a lethargic toddler with signs of dehydration have potentially life-threatening needs. Minor scratches and boredom are lower priority.",
   "rationaleSimple": "Labor and a lethargic dehydrated toddler are most urgent.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Urgent: regular painful contractions suggest labor, which needs safe delivery arrangements without delay.",
+   "Lower priority: minor scratches can be cleaned and dressed after the more serious problems.",
+   "Urgent: a lethargic toddler with sunken eyes after repeated watery stools is severely dehydrated and at risk of shock.",
+   "Lower priority: boredom is not a clinical problem."
+  ],
   "strategy": "Prioritizes needs in a disaster",
   "difficulty": 3,
   "bloom": "judgment",
@@ -1749,7 +1820,13 @@
   "answer": [],
   "rationale": "Preparedness activities are done before a disaster, response activities during or immediately after, and recovery activities restore health and normal life afterward.",
   "rationaleSimple": "Before is preparedness, during is response, after is recovery.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Preparedness: drills are carried out before a disaster so people know what to do.",
+   "Response: first aid at the evacuation center is care given during and immediately after the event.",
+   "Preparedness: stocking emergency kits before a disaster makes sure supplies are ready.",
+   "Recovery: counseling survivors who remain stressed addresses longer-term effects after the event.",
+   "Recovery: rehabilitating contaminated water sources restores safe conditions after the disaster."
+  ],
   "strategy": "Classifies disaster phases",
   "difficulty": 3,
   "bloom": "recall",
@@ -1813,7 +1890,7 @@
   "rationale": "Psychological first aid offers calm presence, basic comfort and the choice to talk, without forcing disclosure. Pressuring her or dismissing feelings can worsen distress.",
   "rationaleSimple": "Be with her calmly and listen if she wants to talk.",
   "optionRationales": [
-   "Dismisses feelings.",
+   "Wrong: telling her to be strong and stop crying dismisses her feelings and does not help her cope with the loss.",
    "May increase distress.",
    "Withdrawal may increase isolation.",
    "Best answer. Psychological first aid offers calm presence, basic comfort and the choice to talk, without forcing disclosure."

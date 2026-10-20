@@ -15,7 +15,7 @@ function walk(dir: string): string[] {
   for (const name of readdirSync(dir) as string[]) {
     const p = join(dir, name);
     if (statSync(p).isDirectory()) {
-      if (name !== 'review' && name !== 'cases-pack') out.push(...walk(p));
+      if (name !== 'review') out.push(...walk(p));
     } else if (name.endsWith('.json') && name !== 'blueprint.json') out.push(p);
   }
   return out.sort();

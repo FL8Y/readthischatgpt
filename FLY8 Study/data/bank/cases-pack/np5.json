@@ -68,12 +68,12 @@
   "rationale": "Limits work when they are clear, applied the same way by every team member, and delivered without anger. Sharing the plan at handover and documenting objectively keep the team aligned. Individual shift-by-shift exceptions and labelling the client as difficult both weaken consistency and damage the therapeutic relationship.",
   "rationaleSimple": "Everyone on the team uses the same limit, says it calmly, and records what happened.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Right: discussing the limit at handover lets all staff respond in the same way.",
+   "Right: a calm, neutral tone avoids a power struggle and keeps the relationship therapeutic.",
+   "Wrong: private exceptions each shift make the limit inconsistent and teach the client to test staff.",
+   "Right: stating the expected behavior and the consequence makes the limit clear.",
+   "Wrong: calling her difficult labels the client and damages trust; limits apply to behavior.",
+   "Right: objective documentation of the behavior and the staff response keeps the team aligned."
   ],
   "strategy": "Team consistency in behavioral plans",
   "difficulty": 3,
@@ -102,7 +102,12 @@
   "answer": [],
   "rationale": "Reflecting names the feeling the client is expressing and invites her to say more. Asking 'why' pushes the client to defend herself and often sounds like criticism. Statements such as 'everything will turn out fine' offer reassurance the nurse cannot guarantee and shut down feelings.",
   "rationaleSimple": "Naming the feeling helps. 'Why' questions and empty promises do not.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Reflecting feelings: naming the frustration shows understanding and invites her to say more.",
+   "Asking 'why': it makes the client defend herself and can sound like criticism.",
+   "False reassurance: the nurse cannot guarantee that everything will turn out fine, and the statement shuts down her feelings.",
+   "Reflecting feelings: noticing that she seems upset about the rules names her feeling and opens discussion."
+  ],
   "strategy": "Using therapeutic techniques",
   "difficulty": 2,
   "bloom": "recall",
@@ -147,7 +152,10 @@
   "answer": [],
   "rationale": "A useful limit is specific so the client knows exactly what is not allowed, and it is applied consistently so that behavior is not reinforced by uneven responses. Vague limits or uneven enforcement give clients room to test the staff.",
   "rationaleSimple": "Say exactly what is not allowed and apply the rule the same way every time.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Specific unacceptable: a limit must say exactly what is not allowed. A vague or occasional description leaves room to argue.",
+   "Consistently: every staff member applies it the same way so behavior is not reinforced. Flexible or night-only enforcement invites testing."
+  ],
   "strategy": "Principles of limit setting",
   "difficulty": 2,
   "bloom": "recall",
@@ -283,7 +291,13 @@
   ],
   "rationale": "A statement of being a burden, giving away valued possessions and a stated method with a place are warning signs that indicate higher risk. Job loss is a stressor but not itself a sign of immediate intent, and eating half a meal is not a specific warning sign of suicide.",
   "rationaleSimple": "Being a burden, giving things away and having a plan are warning signs.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Stressor, not a sign of immediate intent: losing his job raises risk in the background but does not show he plans to act.",
+   "Warning sign: saying his family would be better off without him shows he feels like a burden.",
+   "Warning sign: giving away valued possessions can mean he is putting his affairs in order.",
+   "Warning sign: a stated method and place mean he has a plan, the highest-risk finding.",
+   "Not a warning sign: eating half his breakfast says little about suicide risk."
+  ],
   "strategy": "Identifying suicide warning signs",
   "difficulty": 3,
   "bloom": "judgment",
@@ -324,12 +338,12 @@
   "rationale": "Safety comes first: a high-risk client is kept in a visible area, hazards are removed and he is not left alone. The team must be informed, so the nurse cannot promise secrecy. Unsupervised time behind a locked door removes observation when he is most at risk.",
   "rationaleSimple": "Keep him in view, remove dangers, never leave him alone and tell the team.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Right: a room near the nurses' station allows close observation.",
+   "Right: sharp objects and cords are possible means of self-harm.",
+   "Right: continuous presence is needed when a client has a plan and means, following facility protocol.",
+   "Wrong: the nurse cannot keep this secret because the team must know to keep him safe.",
+   "Wrong: being alone behind a locked door removes observation when he is most at risk.",
+   "Right: the physician must know about the risk and the assessment must be documented."
   ],
   "strategy": "Suicide precautions",
   "difficulty": 3,
@@ -358,7 +372,10 @@
   "answer": [],
   "rationale": "A specific plan with access to the means signals high risk, which calls for continuous presence and urgent communication with the physician. Checking only when time allows does not give protection against an impulsive act.",
   "rationaleSimple": "A plan plus the means means high risk. Stay with him and call the doctor.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Higher: a specific plan with access to the means signals high risk. Lower does not fit these findings.",
+   "Remain with the client: continuous presence protects him. Checking only when time allows does not guard against an impulsive act."
+  ],
   "strategy": "Responding to high suicide risk",
   "difficulty": 2,
   "bloom": "recall",
@@ -496,13 +513,13 @@
   "rationale": "Alcohol withdrawal is a state of nervous system overactivity: tremor, sweating, tachycardia, anxiety and hallucinations. Slow pulse, constricted pupils and heavy drowsiness suggest sedation or opioid effects, not withdrawal.",
   "rationaleSimple": "Withdrawal makes the body overactive: shaking, sweating, fast pulse and seeing things.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Consistent: sweating reflects overactivity of the nervous system during withdrawal.",
+   "Consistent: tachycardia is part of the same overactivity.",
+   "Consistent: visual hallucinations can occur in severe withdrawal.",
+   "Consistent: tremors are a common early sign of withdrawal.",
+   "Not consistent: slow heart rate suggests sedation, whereas withdrawal causes a fast heart rate.",
+   "Not consistent: constricted pupils suggest opioid effect, not alcohol withdrawal.",
+   "Not consistent: heavy sleepiness suggests sedation, whereas withdrawal causes agitation and wakefulness."
   ],
   "strategy": "Recognizing withdrawal",
   "difficulty": 2,
@@ -531,7 +548,13 @@
   "answer": [],
   "rationale": "A calm, well-lit, low-stimulation environment with frequent observation and simple reality orientation lowers fear and risk. Arguing with the hallucination increases agitation, and leaving a confused client alone for long periods risks injury.",
   "rationaleSimple": "Keep things calm, simple and close to staff. Do not argue or leave him alone.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Appropriate: a quiet, well-lit room reduces fear and misperceptions.",
+   "Avoid: arguing with a hallucination increases agitation; acknowledge his fear and orient him gently.",
+   "Avoid: a confused client left alone for long periods risks injury.",
+   "Appropriate: short calm statements and reality orientation help a frightened client.",
+   "Appropriate: a bed near the nurses' station allows frequent observation."
+  ],
   "strategy": "Environmental management",
   "difficulty": 3,
   "bloom": "apply",
@@ -577,7 +600,10 @@
   "answer": [],
   "rationale": "Chronic heavy drinking commonly leads to thiamine deficiency, which is why supplementation is typically ordered. Withdrawal can change quickly, so vital signs and mental status are monitored frequently rather than once per shift.",
   "rationaleSimple": "Heavy drinkers often lack vitamin B1. Check vital signs and mental status often.",
-  "optionRationales": [],
+  "optionRationales": [
+   "B1 (thiamine): chronic heavy drinking commonly causes thiamine deficiency. Vitamins C and K are not the usual concern here.",
+   "Monitor frequently: withdrawal can change quickly, so vital signs and mental status are checked often, not just once per shift."
+  ],
   "strategy": "Nutritional and monitoring needs",
   "difficulty": 2,
   "bloom": "recall",
@@ -724,12 +750,12 @@
   "rationale": "Consent is valid when the client is competent, free from pressure, and adequately informed in understandable terms. A signature without understanding is only paper, and a competent adult's decision is not overruled by relatives.",
   "rationaleSimple": "Consent needs a capable, willing and well-informed client who understands.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Essential: the client must be told the risks, benefits and alternatives.",
+   "Not valid: a competent adult's decision is not overruled by relatives.",
+   "Not valid: a signature without understanding is only paper, not informed consent.",
+   "Essential: consent must be free from pressure.",
+   "Essential: information must be in language the client understands.",
+   "Essential: the client must be able to understand and decide for himself."
   ],
   "strategy": "Elements of informed consent",
   "difficulty": 2,
@@ -758,7 +784,12 @@
   "answer": [],
   "rationale": "Autonomy is the right to self-determination, beneficence is doing good, nonmaleficence is avoiding harm, and justice is fairness in giving care. Each action matches the principle that is its main purpose.",
   "rationaleSimple": "Autonomy is choice, beneficence is doing good, nonmaleficence is avoiding harm, justice is fairness.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Autonomy: respecting a competent client's refusal honors the right to self-determination.",
+   "Beneficence: giving pain relief is doing good for the client.",
+   "Nonmaleficence: checking the identification band prevents harm from a treatment given to the wrong person.",
+   "Justice: the same quality of care regardless of ability to pay is fairness."
+  ],
   "strategy": "Applying bioethical principles",
   "difficulty": 3,
   "bloom": "recall",
@@ -804,7 +835,10 @@
   "answer": [],
   "rationale": "The professional performing the procedure explains it. The nurse's usual role is to witness, where facility practice asks for it, that the client signed voluntarily, and to advocate when the client appears not to understand. A nurse cannot sign for a competent adult.",
   "rationaleSimple": "The doctor explains. The nurse may witness the signing and speak up for the client.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Physician: the professional performing the procedure explains it. A staff nurse or administrator does not hold this responsibility.",
+   "Witness: the nurse may witness that the client signed voluntarily. The nurse does not replace the explanation or sign for a competent adult."
+  ],
   "strategy": "Roles in consent",
   "difficulty": 2,
   "bloom": "recall",
@@ -942,12 +976,12 @@
   "rationale": "Information must be shared only with those directly involved in the client's care and for care purposes. Photos on social groups, public conversations and unattended charts expose information to people with no need to know. Handover, documentation and consulting the treating physician are legitimate care activities.",
   "rationaleSimple": "Only share information with the people who need it for care, and in private places.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Not a breach: a full report to the oncoming nurse caring for the client is a legitimate care activity.",
+   "Not a breach: documenting in the chart is part of care.",
+   "Breach: an open chart on the counter lets visitors read private information.",
+   "Breach: discussing a client in the elevator exposes information to people who may overhear.",
+   "Breach: posting a wound photo in a group chat shares private information with people who do not need it.",
+   "Not a breach: consulting the treating physician is sharing information for care."
   ],
   "strategy": "Recognizing breaches",
   "difficulty": 3,
@@ -976,7 +1010,12 @@
   "answer": [],
   "rationale": "Negligence requires a duty owed, a breach of the standard of care, harm caused by the breach, and actual damages. Failure to perform a basic safety check is the breach; the extra treatment is the damage.",
   "rationaleSimple": "Negligence needs a duty, a mistake, the mistake causing harm, and real harm.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Duty: being assigned to the client that shift created a duty of care.",
+   "Breach of duty: not checking the allergy band fell below the standard of care.",
+   "Causation: the harm happened because the drug was given.",
+   "Damages: extra treatment and a longer stay are actual harm to the client."
+  ],
   "strategy": "Elements of negligence",
   "difficulty": 3,
   "bloom": "judgment",
@@ -1022,7 +1061,10 @@
   "answer": [],
   "rationale": "Negligence is failing to act as a reasonably prudent person would; for a professional acting in the course of practice, it is termed malpractice. Battery, libel, slander and assault are different torts.",
   "rationaleSimple": "Not giving expected care is negligence. For professionals it is called malpractice.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Negligence: failure to act as a reasonably prudent person would. Battery and libel are different torts.",
+   "Malpractice: negligence by a professional in the course of practice. Slander and assault are different torts."
+  ],
   "strategy": "Legal terms",
   "difficulty": 2,
   "bloom": "recall",
@@ -1077,7 +1119,7 @@
   "rationaleSimple": "Protect the client first, then tell the doctor and report honestly.",
   "optionRationales": [
    "Incident reports are not mentioned in the chart.",
-   "Delays treatment.",
+   "Wrong: waiting to see whether the reaction settles delays treatment of a client who may deteriorate.",
    "Altering records is improper and unethical.",
    "Best answer. Client safety comes first: assess, call for help and notify the physician so treatment can start."
   ],
@@ -1178,12 +1220,12 @@
   "rationale": "Assessment, teaching and interpretation of data call for nursing judgment and cannot be delegated to unlicensed personnel. Feeding, routine measurements and toileting for stable clients are acceptable tasks if the nurse reviews the results and supervises.",
   "rationaleSimple": "Thinking, assessing and teaching stay with the nurse. Routine help can be delegated.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Do not delegate: the initial assessment of a newly returned postoperative client needs nursing judgment.",
+   "Do not delegate: interpreting a change in condition requires nursing judgment.",
+   "Can delegate: routine vital signs for a stable client are acceptable if the nurse reviews the results.",
+   "Can delegate: helping a stable client eat is an acceptable task with supervision.",
+   "Do not delegate: teaching requires the nurse's knowledge and judgment.",
+   "Can delegate: assisting a stable client to the toilet is an acceptable task with supervision."
   ],
   "strategy": "Limits of delegation",
   "difficulty": 3,
@@ -1220,10 +1262,10 @@
   "rationale": "Sudden chest pain and breathlessness after surgery may signal a life-threatening complication, such as a clot in the lung. Using the airway, breathing and circulation priority, he is assessed first. The other tasks can wait or be delegated.",
   "rationaleSimple": "Chest pain and trouble breathing come first.",
   "optionRationales": [
-   "Not urgent.",
+   "Wrong: discharge teaching is not urgent and can be done after the client with possible life-threatening chest pain is assessed.",
    "Best answer. Sudden chest pain and breathlessness after surgery may signal a life-threatening complication, such as a clot in the lung.",
-   "Not urgent.",
-   "Not urgent."
+   "Wrong: help with a bath is not urgent and can wait or be delegated while the unstable client is assessed.",
+   "Wrong: a comfort dressing change is not urgent and can wait until the client with chest pain and breathlessness has been seen."
   ],
   "strategy": "Prioritizing assignments",
   "difficulty": 3,
@@ -1252,7 +1294,12 @@
   "answer": [],
   "rationale": "Collaboration seeks a solution that satisfies both sides. Compromise gives each side partial satisfaction. Avoidance sidesteps the issue and accommodation yields to the other person.",
   "rationaleSimple": "Collaboration solves it together. Compromise splits it. Avoidance steps away. Accommodation gives in.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Collaboration: both sides meet and agree on a plan that meets both needs.",
+   "Compromise: each gets part of what she wants.",
+   "Avoidance: staying away from a coworker sidesteps the disagreement.",
+   "Accommodation: giving in to a demand she disagrees with yields to the other person."
+  ],
   "strategy": "Conflict resolution",
   "difficulty": 3,
   "bloom": "recall",
@@ -1298,7 +1345,10 @@
   "answer": [],
   "rationale": "The delegating nurse remains accountable for outcomes, so she must choose the right task and person, give clear directions, supervise and evaluate. Delegation never ends the nurse's accountability.",
   "rationaleSimple": "You can hand over the task but not the accountability. Supervise and check.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Accountability: the delegating nurse remains answerable for the outcome. Authority or autonomy is not what stays with her.",
+   "Supervision and evaluation: the nurse must supervise and evaluate. A client waiver or the unit schedule does not meet that duty."
+  ],
   "strategy": "Accountability in delegation",
   "difficulty": 3,
   "bloom": "recall",
@@ -1403,7 +1453,13 @@
   ],
   "rationale": "Unresponsiveness, gurgling and blood in the mouth indicate a threatened airway that needs immediate suctioning and opening. A palpable radial pulse and a forearm bruise are relevant to later assessment but do not show airway compromise.",
   "rationaleSimple": "Gurgling, blood in the mouth and being unresponsive mean the airway is in danger.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Threatened airway: an unresponsive client may not be able to protect the airway.",
+   "Threatened airway: gurgling with breaths suggests fluid in the airway.",
+   "Threatened airway: blood pooling in the mouth can block or be breathed into the airway.",
+   "Not an airway sign: a radial pulse shows circulation, not an open airway.",
+   "Not an airway sign: a forearm bruise is relevant to later assessment only."
+  ],
   "strategy": "Identifying airway compromise",
   "difficulty": 3,
   "bloom": "judgment",
@@ -1431,7 +1487,12 @@
   "answer": [],
   "rationale": "Immediate means life-threatening problems that can be reversed with prompt care. Delayed injuries are significant but stable and can wait safely. Minor injuries need only simple care and can wait longest.",
   "rationaleSimple": "Life-threatening and fixable is immediate. Stable but serious is delayed. Small injuries are minor.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Immediate: a life-threatening airway problem that improves with the airway opened can be reversed by prompt care.",
+   "Delayed: a closed forearm fracture with stable breathing is significant but stable and can wait.",
+   "Minor: a walking man with a bruised wrist needs only simple care.",
+   "Minor: small scrapes need simple care and can wait longest."
+  ],
   "strategy": "Triage categories",
   "difficulty": 3,
   "bloom": "apply",
@@ -1497,12 +1558,12 @@
   "rationale": "Triage sorts by urgency and likelihood of benefit, aims to do the most good for the most people and is repeated because conditions change. Order of arrival, noise level and a single assessment ignore clinical need.",
   "rationaleSimple": "Treat by urgent need, not by who comes first or shouts loudest, and reassess.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Apply: sorting by urgency and chance of benefit directs care where it helps most.",
+   "Apply: condition changes, so the triage category is reassessed.",
+   "Do not apply: triage is repeated because casualties can improve or worsen.",
+   "Do not apply: noise does not show clinical need.",
+   "Apply: triage aims to do the greatest good for the greatest number.",
+   "Do not apply: arrival order ignores clinical need."
   ],
   "strategy": "Triage principles",
   "difficulty": 3,

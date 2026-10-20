@@ -281,7 +281,7 @@
    "Respects comfort but misses a dangerous change.",
    "Over-intervention that does not treat infection.",
    "Correct. Burned skin and a weakened immune system make infection and sepsis leading threats.",
-   "Under-reaction."
+   "Wrong: documenting the odor and waiting until tomorrow under-reacts to signs of infection that can progress to sepsis."
   ],
   "strategy": "Unstable before stable",
   "archetype": "Report signs of infection",
@@ -390,7 +390,7 @@
   "rationale": "1. Cue: oozing from several sites, petechiae and cold blue toes in severe infection.\n2. Principle: DIC causes both bleeding and clotting.\n3. Priority rule: escalate and avoid procedures that add bleeding.\n4. The key beats the injection because it avoids more harm.\nFlip: If she had a single small bruise and normal tests, routine care would continue.",
   "optionRationales": [
    "Unsafe habit. Injections add bleeding sites.",
-   "Under-reaction.",
+   "Wrong: documenting and waiting until morning under-reacts to oozing from several sites, which suggests DIC.",
    "Correct. Oozing with clotting signs suggests DIC, so the team must act and injections are avoided.",
    "Treats the symptom and risks injury to poor circulation."
   ],
@@ -576,7 +576,7 @@
   "optionRationales": [
    "Right care for another cause, but compressions come first in adult arrest.",
    "Unsafe delay. A pulse check should be brief.",
-   "Delays CPR.",
+   "Wrong: moving him to a bed first delays CPR; compressions should begin where he is.",
    "Correct. Early help, defibrillation and compressions form the chain of survival."
   ],
   "strategy": "Chain of survival",
@@ -765,7 +765,7 @@
   ],
   "rationale": "1. Cue: heavy bleeding in a medico-legal case.\n2. Principle: treat life threats first.\n3. Priority rule: then collect and label evidence per policy.\n4. The key beats handing over the shirt because bleeding is the priority.\nFlip: If the client were stable, evidence collection could proceed alongside routine care.",
   "optionRationales": [
-   "Delays care.",
+   "Wrong: handing over the shirt first delays treatment of a man who is bleeding heavily.",
    "Correct. Life-saving care comes first, followed by careful evidence handling and documentation.",
    "Destroys possible evidence.",
    "Alters evidence without being the priority."
@@ -877,8 +877,8 @@
   "rationale": "1. Cue: new hypotension and noisy breathing during the head-to-toe check.\n2. Principle: the thorough examination begins only when the client is stable.\n3. Priority rule: if the client worsens, return to ABC.\n4. The key beats finishing the legs because stability has been lost.\nFlip: If he remained stable, the examination would continue.",
   "optionRationales": [
    "Delays treatment of a new life threat.",
-   "Not the priority.",
-   "Under-reaction.",
+   "Wrong: taking a detailed history is not the priority when his blood pressure has dropped and his breathing is noisy.",
+   "Wrong: only documenting vital signs under-reacts to a new life threat.",
    "Correct. If the client worsens, the nurse returns to the primary assessment."
   ],
   "strategy": "ABC first; treat as found",
