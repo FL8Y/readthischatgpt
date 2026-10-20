@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import type { AppState, Question } from '../core/types';
 import type { QuizSession } from '../core/quiz';
 import { Quiz } from './Quiz';
+import { Graph } from './Graph';
+import { PRESET_PACKS, installPack } from '../presets';
+import { ScrollView } from 'react-native';
 
 /**
  * Web-preview only (opened with #demo=choice|typing|matching|ordering|cloze). It mounts the real Quiz with fixed
@@ -81,8 +84,24 @@ const BY_KIND: Record<string, Question[]> = {
   cloze: [cloze],
 };
 
+/** #demo=graph: every preset pack installed plus fake quiz history, so the mind map can be screenshotted at full size. Not saved. */
+function GraphDemo({ state }: { state: AppState }) {
+  const demo = React.useMemo(() => {
+    let s = state;
+    for (const p of PRESET_PACKS) s = installPack(s, p.id);
+    const events = s.topics.filter((_, i) => i % 3 === 0).flatMap((t, i) => [0, 1, 2].map((k) => ({ id: `demo-${i}-${k}`, topicId: t.id, correct: (i + k) % 4 !== 0, at: Date.now() })));
+    return { ...s, events } as AppState;
+  }, [state]);
+  return (
+    <ScrollView contentContainerStyle={{ padding: 16 }}>
+      <Graph state={demo} />
+    </ScrollView>
+  );
+}
+
 export function DemoHarness({ state, update, kind }: { state: AppState; update: (s: AppState) => void; kind: string }) {
   const [done, setDone] = useState(false);
+  if (kind === 'graph') return <GraphDemo state={state} />;
   const questions = BY_KIND[kind] ?? BY_KIND.choice;
   const session: QuizSession = { id: `demo-${kind}`, kind: 'module', folderId: 'np1', questions, createdAt: 0 };
   if (done) return null;
