@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Text, View } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import type { BankItem } from '../../bank/schema';
+import type { NoteLink } from '../../bank/noteLink';
+import { buildSourceLine, slotLabels } from '../../bank/provenance';
 import type { SessionAnswer } from '../../bank/session';
 import { Chip, PressableScale } from '../kitParts';
 import { radius, space, useTheme } from '../theme';
@@ -24,11 +26,34 @@ function LinkRow({ icon, label, onPress }: { icon: React.ComponentProps<typeof I
   );
 }
 
+function NoteBlock({ item, note, onReadNote }: { item: BankItem; note?: NoteLink; onReadNote?: (topicId: string) => void }) {
+  const { colors, type } = useTheme();
+  const src = buildSourceLine(item, note);
+  return (
+    <View style={{ gap: space.xs, padding: space.md, borderRadius: radius.md, backgroundColor: colors.surfaceAlt }}>
+      <Text style={[type('label'), { color: colors.textDim }]}>{src.heading}</Text>
+      <Text style={[type('bodyStrong'), { color: colors.text }]}>{src.note}</Text>
+      {src.facts.map((f, i) => (
+        <Text key={i} style={[type('caption'), { color: colors.text }]}>{'•'} {f}</Text>
+      ))}
+      <Text style={[type('caption'), { color: colors.textDim }]}>{src.status}</Text>
+      {note?.kind === 'note' && onReadNote ? (
+        <LinkRow icon="book-outline" label="Read this in your notes" onPress={() => onReadNote(note.topicId)} />
+      ) : note?.kind === 'missing' ? (
+        <Text style={[type('caption'), { color: colors.textDim }]}>This ready-made note is not added yet. Add it in More &gt; Library, then it opens from here.</Text>
+      ) : null}
+    </View>
+  );
+}
+
 /** Shown after an answer when feedback is on: verdict, points, why, per-option notes, facts, links. */
-export function RationaleCard({ item, answer, onReadNote, onAskTutor, onReport }: {
+export function RationaleCard({ item, answer, note, onReadNote, onAskTutor, onReport }: {
   item: BankItem;
   answer: SessionAnswer | undefined;
-  onReadNote?: (noteId: string) => void;
+  /** Where to read this again (see resolveNoteLink). Omitted or kind 'none' hides the block. */
+  note?: NoteLink;
+  /** Opens the topic with this id in the note reader. */
+  onReadNote?: (topicId: string) => void;
   onAskTutor?: (itemId: string) => void;
   onReport: (report: ItemReport) => void;
 }) {
@@ -40,7 +65,8 @@ export function RationaleCard({ item, answer, onReadNote, onAskTutor, onReport }
   const bg = v.tone === 'success' ? colors.successSoft : v.tone === 'warning' ? colors.warningSoft : colors.dangerSoft;
   const icon = v.tone === 'success' ? 'checkmark-circle' : v.tone === 'warning' ? 'alert-circle' : 'close-circle';
   const badge = reviewBadge(item);
-  const notes = item.optionRationales.length === item.options.length ? item.optionRationales : [];
+  const slots = slotLabels(item);
+  const notes = item.optionRationales.length === slots.length ? item.optionRationales : [];
   const facts = item.keyFacts ?? [];
   return (
     <View
@@ -81,12 +107,14 @@ export function RationaleCard({ item, answer, onReadNote, onAskTutor, onReport }
           {why ? (
             <View style={{ gap: space.sm }}>
               {notes.map((n, i) => {
-                const right = item.answer.includes(i);
+                const slotted = item.type === 'matrix' || item.type === 'cloze';
+                const right = slotted ? true : item.answer.includes(i);
+                const name = slotted ? slots[i] : `Option ${optionLetter(i)}`;
                 return (
-                  <View key={i} accessible accessibilityLabel={`Option ${optionLetter(i)}, ${right ? 'correct' : 'not correct'}. ${n}`}
+                  <View key={i} accessible accessibilityLabel={`${name}${slotted ? '' : `, ${right ? 'correct' : 'not correct'}`}. ${n}`}
                     style={{ gap: 2, padding: space.md, borderRadius: radius.md, backgroundColor: colors.surfaceAlt }}>
-                    <Text style={[type('label'), { color: right ? colors.success : colors.danger }]}>
-                      {right ? '✓' : '✗'} {optionLetter(i)}. {right ? 'Correct' : 'Not correct'}
+                    <Text style={[type('label'), { color: slotted ? colors.text : right ? colors.success : colors.danger }]}>
+                      {slotted ? slots[i] : `${right ? '✓' : '✗'} ${optionLetter(i)}. ${right ? 'Correct' : 'Not correct'}`}
                     </Text>
                     <Text style={[type('body'), { color: colors.text }]}>{n}</Text>
                   </View>
@@ -106,8 +134,9 @@ export function RationaleCard({ item, answer, onReadNote, onAskTutor, onReport }
         </View>
       ) : null}
 
+      <NoteBlock item={item} note={note} onReadNote={onReadNote} />
+
       <View>
-        {item.noteId && onReadNote ? <LinkRow icon="book-outline" label="Read the note" onPress={() => onReadNote(item.noteId as string)} /> : null}
         {onAskTutor ? <LinkRow icon="chatbubble-ellipses-outline" label="Ask tutor" onPress={() => onAskTutor(item.id)} /> : null}
         <LinkRow icon="flag-outline" label="Report a problem" onPress={() => setReporting(true)} />
       </View>

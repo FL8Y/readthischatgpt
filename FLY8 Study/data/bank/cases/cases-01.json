@@ -116,7 +116,12 @@
    3
   ],
   "rationale": "Row 1: a healthy unvaccinated 4-year-old is eligible for the live vaccine and should receive it. Row 2: the pregnant mother cannot receive the live vaccine, so she needs physician assessment. Row 3: a fully immunized, symptom-free cousin needs only teaching and watchful waiting. Row 4: fast breathing with chest indrawing suggests pneumonia, a measles complication, so urgent referral comes before anything else.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right (vaccinate today): a healthy, unvaccinated child exposed in an outbreak is eligible for the live vaccine, which can still help if given early. Referring or only watching would leave the child unprotected.",
+   "Right (refer to physician): the live measles vaccine is contraindicated in pregnancy, so vaccinating her is wrong. She is not sick yet, so she needs a physician to assess exposure and immunity, not just teaching.",
+   "Right (observe and teach): a fully immunized child with no symptoms is protected, so another vaccine dose or a hospital referral is unnecessary. Teaching danger signs covers the remaining risk.",
+   "Right (refer urgently): fast breathing and chest indrawing mean pneumonia, a serious measles complication. Vaccinating or only teaching delays care. Airway and breathing problems come first."
+  ],
   "strategy": "Match the action to the contact's risk",
   "archetype": "contact triage matrix",
   "difficulty": 4,
@@ -172,7 +177,11 @@
    }
   ],
   "rationale": "Measles travels in airborne respiratory particles, so airborne plus standard precautions are used. The infectious period runs from about 4 days before the rash until about 4 days after it appears, which is why Mia was spreading the virus before anyone knew what she had.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right: measles spreads through airborne respiratory particles. Food and water, mosquito bites and blood contact are routes for other diseases (for example cholera, dengue, hepatitis B), not measles.",
+   "Right: infectiousness runs from about 4 days before to 4 days after the rash starts. The other choices are too short or start too late, which would miss the days when Mia was already spreading the virus.",
+   "Right: airborne precautions (plus standard) match the airborne mode of spread. Contact or droplet-only precautions do not stop tiny particles that stay in the air, and reverse isolation protects a vulnerable client, not others."
+  ],
   "strategy": "Chain of infection: mode of transmission decides precautions",
   "archetype": "cloze transmission",
   "difficulty": 3,
@@ -347,7 +356,12 @@
    2
   ],
   "rationale": "The 15-year-old has a cough of three weeks and needs evaluation now. The 4-year-old in the same house is a young close contact, so referral for evaluation is needed. The wife needs contraceptive counseling because rifampicin lowers pill reliability. A neighbor with a single brief visit and no symptoms needs only teaching and observation.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right (refer now): a cough lasting three weeks in a household contact is a symptomatic case that needs sputum testing now. Waiting or only teaching would delay finding active TB.",
+   "Right (refer now): a young child in the same home is a high-risk close contact because children develop serious TB quickly. Observation alone is not enough; the child needs evaluation.",
+   "Right (counsel on another method): rifampicin speeds the breakdown of hormones, so pills may fail. She needs a back-up method. She has no TB symptoms, so TB referral is not the issue here.",
+   "Right (teach and observe): one brief visit and no symptoms means low risk. Referral for testing is not needed, but teaching about the cough sign lets the neighbor report early."
+  ],
   "strategy": "Prioritise by exposure and symptoms",
   "archetype": "contact matrix",
   "difficulty": 3,
@@ -403,7 +417,11 @@
    }
   ],
   "rationale": "Rifampicin colors urine and other fluids red-orange. Isoniazid causes peripheral neuropathy, which is prevented with vitamin B6 (pyridoxine).",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right: rifampicin turns urine, sweat and tears orange-red and is harmless. Isoniazid, pyrazinamide and ethambutol do not color urine this way, so naming them mixes up the side effects.",
+   "Right: isoniazid causes peripheral neuropathy (tingling feet). Ethambutol affects vision, pyrazinamide raises uric acid and joint pain, and rifampicin colors fluids, so those do not fit tingling.",
+   "Right: vitamin B6 (pyridoxine) prevents isoniazid neuropathy. Vitamin C, vitamin K and folic acid are not the preventive for this drug effect."
+  ],
   "strategy": "Match drug to side effect",
   "archetype": "cloze drug effects",
   "difficulty": 3,
@@ -571,7 +589,12 @@
    1
   ],
   "rationale": "Warmth and flushing are common at the start of magnesium infusion. Absent reflexes and a respiratory rate of 10 signal toxicity. New right-upper-quadrant pain with preeclampsia points to worsening disease such as HELLP and must be reported.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right (expected effect): warmth and flushing are common when magnesium infusion starts and are not harmful on their own. Calling this toxicity or worsening disease would cause needless alarm.",
+   "Right (magnesium toxicity): absent patellar reflexes are the early warning of too much magnesium, so the infusion is held and the provider told. It is not an expected effect, and it is not a disease sign.",
+   "Right (worsening disease): new right upper quadrant pain in preeclampsia suggests liver involvement such as HELLP. It is not caused by magnesium and is not harmless, so report it.",
+   "Right (magnesium toxicity): a respiratory rate of 10 per minute means respiratory depression from magnesium. Breathing is a priority, so stop the infusion and call for help. It is not an expected effect."
+  ],
   "strategy": "Recognise toxicity versus expected effect versus worsening disease",
   "archetype": "classification matrix",
   "difficulty": 3,
@@ -626,7 +649,11 @@
    }
   ],
   "rationale": "Calcium gluconate reverses magnesium effects. Magnesium leaves the body through the kidneys, so oliguria allows levels to rise.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right: calcium gluconate is the antidote that reverses magnesium effects. Protamine reverses heparin, vitamin K reverses warfarin and naloxone reverses opioids.",
+   "Right: magnesium leaves the body through the kidneys. The liver, lungs and bile are not the main route, so they do not explain the link to urine output.",
+   "Right: low urine output raises the risk because magnesium is retained. Saying it lowers or does not change the risk ignores that the kidneys clear the drug, which is why urine output is checked."
+  ],
   "strategy": "Know the antidote and why urine output matters",
   "archetype": "cloze antidote",
   "difficulty": 3,
@@ -790,7 +817,12 @@
    1
   ],
   "rationale": "Tetralogy of Fallot, transposition of the great vessels and tricuspid atresia send unoxygenated blood to the body (cyanotic). Atrial septal defect is typically acyanotic because flow is left to right.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right (cyanotic): Tetralogy of Fallot includes pulmonary stenosis and a right-to-left shunt, so unoxygenated blood reaches the body.",
+   "Right (acyanotic): in atrial septal defect the shunt is left to right, so oxygenated blood recirculates and there is no cyanosis early on.",
+   "Right (cyanotic): in transposition the two circuits run in parallel, so oxygen-poor blood goes to the body. Survival depends on a mixing defect.",
+   "Right (acyanotic): patent ductus arteriosus shunts blood left to right, from the aorta to the pulmonary artery, so it is acyanotic."
+  ],
   "strategy": "Right-to-left shunt means cyanosis",
   "archetype": "defect classification",
   "difficulty": 2,
@@ -832,7 +864,10 @@
    }
   ],
   "rationale": "Flexing the legs raises systemic vascular resistance, which shifts more blood through the lungs instead of across the septal defect.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right: flexing the legs (knee-chest) raises systemic vascular resistance. Lowering would defeat the purpose of the position.",
+   "Right: higher systemic resistance pushes more blood toward the lungs instead of across the defect, so lung blood flow increases. A decrease would mean the position does not help the cyanotic spell."
+  ],
   "strategy": "Understand the why of the position",
   "archetype": "cloze rationale",
   "difficulty": 3,
