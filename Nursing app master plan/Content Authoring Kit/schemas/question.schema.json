@@ -66,6 +66,7 @@
       "properties": {
         "id": { "type": "string" },
         "type": { "const": "situation" },
+        "title": { "type": "string", "minLength": 3 },
         "situation": { "type": "string", "minLength": 20, "description": "shared vignette for all items" },
         "items": { "type": "array", "minItems": 2, "items": { "$ref": "#/$defs/item" } }
       }
