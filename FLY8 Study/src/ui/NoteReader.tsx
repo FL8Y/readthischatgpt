@@ -6,26 +6,28 @@ import { backlinks, buildGraph, slugify } from '../core/vault';
 import { PRESET_DISCLAIMER, findPresetNote } from '../presets';
 import { visualForNote } from '../presets/visuals';
 import { SvgView } from '../visual/SvgView';
-import { Btn, Card, H, P, Pill, TOUCH, c, sp } from './kit';
+import { Btn, Card, H, P, Pill, TOUCH } from './kit';
+import { space, useTheme, type Palette } from './theme';
 
 type Resolve = (target: string) => Topic | undefined;
 
 function Spans({ spans, resolve, onOpen, base }: { spans: Span[]; resolve: Resolve; onOpen: (id: string) => void; base?: object }) {
+  const { colors, type } = useTheme();
   return (
-    <Text selectable style={[{ color: c.text, fontSize: 16, lineHeight: 25 }, base]}>
+    <Text selectable style={[type('body'), { color: colors.text, fontSize: 16, lineHeight: 25 }, base]}>
       {spans.map((s, i) => {
         if (s.t === 'bold') return <Text key={i} style={{ fontWeight: '700' }}>{s.text}</Text>;
         if (s.t === 'italic') return <Text key={i} style={{ fontStyle: 'italic' }}>{s.text}</Text>;
-        if (s.t === 'code') return <Text key={i} style={{ fontFamily: 'monospace', backgroundColor: c.raised }}>{s.text}</Text>;
+        if (s.t === 'code') return <Text key={i} style={{ fontFamily: 'monospace', backgroundColor: colors.surfaceAlt }}>{s.text}</Text>;
         if (s.t === 'link') {
           const hit = resolve(s.target);
-          if (!hit) return <Text key={i} style={{ color: c.dim }}>{s.label}</Text>;
+          if (!hit) return <Text key={i} style={{ color: colors.textDim }}>{s.label}</Text>;
           return (
             <Text
               key={i}
               accessibilityRole="link"
               onPress={() => onOpen(hit.id)}
-              style={{ color: c.accent, textDecorationLine: 'underline', fontWeight: '600' }}
+              style={{ color: colors.accentText, textDecorationLine: 'underline', fontWeight: '600' }}
             >
               {s.label}
             </Text>
@@ -38,11 +40,12 @@ function Spans({ spans, resolve, onOpen, base }: { spans: Span[]; resolve: Resol
 }
 
 function BlockView({ b, resolve, onOpen }: { b: Block; resolve: Resolve; onOpen: (id: string) => void }) {
+  const { colors } = useTheme();
   const sp_ = { resolve, onOpen };
   switch (b.t) {
     case 'heading':
       return (
-        <View accessibilityRole="header" style={{ marginTop: b.level === 2 ? sp.md : sp.xs }}>
+        <View accessibilityRole="header" style={{ marginTop: b.level === 2 ? space.md : space.xs }}>
           <Spans spans={b.spans} {...sp_} base={{ fontSize: b.level === 2 ? 20 : b.level === 3 ? 18 : 16, fontWeight: '700' }} />
         </View>
       );
@@ -51,10 +54,10 @@ function BlockView({ b, resolve, onOpen }: { b: Block; resolve: Resolve; onOpen:
     case 'bullets':
     case 'numbered':
       return (
-        <View style={{ gap: sp.sm }}>
+        <View style={{ gap: space.sm }}>
           {b.items.map((it, i) => (
-            <View key={i} style={{ flexDirection: 'row', gap: sp.sm, paddingRight: sp.md }}>
-              <Text style={{ color: c.dim, fontSize: 16, lineHeight: 25, minWidth: 22 }}>{b.t === 'bullets' ? '•' : `${i + 1}.`}</Text>
+            <View key={i} style={{ flexDirection: 'row', gap: space.sm, paddingRight: space.md }}>
+              <Text style={{ color: colors.textDim, fontSize: 16, lineHeight: 25, minWidth: 22 }}>{b.t === 'bullets' ? '•' : `${i + 1}.`}</Text>
               <View style={{ flex: 1 }}>
                 <Spans spans={it} {...sp_} />
               </View>
@@ -64,26 +67,26 @@ function BlockView({ b, resolve, onOpen }: { b: Block; resolve: Resolve; onOpen:
       );
     case 'quote':
       return (
-        <View style={{ borderLeftWidth: 3, borderLeftColor: c.accent, paddingLeft: sp.md }}>
-          <Spans spans={b.spans} {...sp_} base={{ color: c.dim }} />
+        <View style={{ borderLeftWidth: 3, borderLeftColor: colors.accentText, paddingLeft: space.md }}>
+          <Spans spans={b.spans} {...sp_} base={{ color: colors.textDim }} />
         </View>
       );
     case 'code':
       return (
-        <View style={{ backgroundColor: c.raised, borderRadius: 8, padding: sp.md }}>
-          <Text selectable style={{ color: c.text, fontFamily: 'monospace', fontSize: 14 }}>{b.text}</Text>
+        <View style={{ backgroundColor: colors.surfaceAlt, borderRadius: 8, padding: space.md }}>
+          <Text selectable style={{ color: colors.text, fontFamily: 'monospace', fontSize: 14 }}>{b.text}</Text>
         </View>
       );
     case 'rule':
-      return <View style={{ height: 1, backgroundColor: c.line, marginVertical: sp.xs }} />;
+      return <View style={{ height: 1, backgroundColor: colors.border, marginVertical: space.xs }} />;
     case 'table':
       return (
         <ScrollView horizontal showsHorizontalScrollIndicator>
-          <View style={{ borderWidth: 1, borderColor: c.line, borderRadius: 8 }}>
+          <View style={{ borderWidth: 1, borderColor: colors.border, borderRadius: 8 }}>
             {[b.header, ...b.rows].map((row, r) => (
-              <View key={r} style={{ flexDirection: 'row', backgroundColor: r === 0 ? c.raised : undefined }}>
+              <View key={r} style={{ flexDirection: 'row', backgroundColor: r === 0 ? colors.surfaceAlt : undefined }}>
                 {row.map((cell, k) => (
-                  <View key={k} style={{ width: 150, padding: sp.sm, borderRightWidth: 1, borderBottomWidth: 1, borderColor: c.line }}>
+                  <View key={k} style={{ width: 150, padding: space.sm, borderRightWidth: 1, borderBottomWidth: 1, borderColor: colors.border }}>
                     <Spans spans={cell} {...sp_} base={{ fontSize: 14, lineHeight: 20, fontWeight: r === 0 ? '700' : '400' }} />
                   </View>
                 ))}
@@ -95,7 +98,7 @@ function BlockView({ b, resolve, onOpen }: { b: Block; resolve: Resolve; onOpen:
   }
 }
 
-const PRIORITY_COLOR = { high: c.bad, medium: c.warn, low: c.dim } as const;
+const priorityColor = (colors: Palette) => ({ high: colors.danger, medium: colors.warning, low: colors.textDim }) as const;
 
 /** Plain Markdown note reader. No AI, no key, not gated by the diagnostic. */
 export function NoteReader({
@@ -115,6 +118,7 @@ export function NoteReader({
   onBack: () => void;
   onLesson: () => void;
 }) {
+  const { colors } = useTheme();
   const topic = state.topics.find((t) => t.id === topicId);
   const { resolve, from } = useMemo(() => {
     const bySlug = new Map<string, Topic>();
@@ -147,23 +151,23 @@ export function NoteReader({
   const isPreset = topic.sourceIds.some((id) => state.sources.find((s) => s.id === id)?.kind === 'preset');
 
   return (
-    <View style={{ gap: sp.md }}>
+    <View style={{ gap: space.md }}>
       <Btn label="Back to topics" kind="ghost" onPress={onBack} />
       <Card>
         <H>{topic.title}</H>
         {meta ? (
-          <View style={{ flexDirection: 'row', gap: sp.sm, flexWrap: 'wrap' }}>
-            <Pill text={meta.area} color={c.accent} />
-            <Pill text={`${meta.priority} priority`} color={PRIORITY_COLOR[meta.priority]} />
+          <View style={{ flexDirection: 'row', gap: space.sm, flexWrap: 'wrap' }}>
+            <Pill text={meta.area} color={colors.accentText} />
+            <Pill text={`${meta.priority} priority`} color={priorityColor(colors)[meta.priority]} />
           </View>
         ) : null}
         {visual ? (
-          <View style={{ gap: sp.xs }}>
+          <View style={{ gap: space.xs }}>
             <SvgView code={visual.svg} label={visual.caption} natural />
             <P dim>{`Diagram (schematic): ${visual.caption}`}</P>
           </View>
         ) : null}
-        <View style={{ gap: sp.md }}>
+        <View style={{ gap: space.md }}>
           {blocks.length ? blocks.map((b, i) => <BlockView key={i} b={b} resolve={resolve} onOpen={onOpen} />) : <P dim>This note is empty.</P>}
         </View>
         {isPreset ? <P dim>{PRESET_DISCLAIMER}</P> : null}
@@ -177,14 +181,14 @@ export function NoteReader({
               key={t.id}
               accessibilityRole="link"
               onPress={() => onOpen(t.id)}
-              style={{ color: c.accent, fontSize: 16, minHeight: TOUCH, textAlignVertical: 'center', paddingVertical: sp.md }}
+              style={{ color: colors.accentText, fontSize: 16, minHeight: TOUCH, textAlignVertical: 'center', paddingVertical: space.md }}
             >
               {t.title}
             </Text>
           ))}
         </Card>
       ) : null}
-      <View style={{ flexDirection: 'row', gap: sp.sm }}>
+      <View style={{ flexDirection: 'row', gap: space.sm }}>
         <View style={{ flex: 1 }}>
           <Btn label="Previous" kind="ghost" disabled={!prev} onPress={() => prev && onOpen(prev.id)} />
         </View>

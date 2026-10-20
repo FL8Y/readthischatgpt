@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { Pressable, Text, View } from 'react-native';
 import type { AppState } from '../core/types';
 import { PRESET_DISCLAIMER, PRESET_PACKS, installPack, presetStatus, presetTopicId } from '../presets';
-import { Btn, Card, H, P, Pill, TOUCH, c, sp } from './kit';
+import { Btn, Card, H, P, Pill, TOUCH } from './kit';
+import { space, useTheme, type Palette } from './theme';
 
 const AREA_TITLES: Record<string, string> = {
   NP1: 'NP1 Community Health Nursing',
@@ -12,10 +13,11 @@ const AREA_TITLES: Record<string, string> = {
   NP5: 'NP5 Psychiatric and Emergency',
   GEN: 'Core subjects (all five exams)',
 };
-const PRIORITY_COLOR = { high: c.bad, medium: c.warn, low: c.dim } as const;
+const priorityColor = (colors: Palette) => ({ high: colors.danger, medium: colors.warning, low: colors.textDim }) as const;
 
 /** Ready-made review notes (NP1-NP5, fundamentals, pharmacology, laws). Adding them needs no AI and no key. */
 export function PresetPacks({ state, update }: { state: AppState; update: (s: AppState) => void }) {
+  const { colors, type } = useTheme();
   const [open, setOpen] = useState<string | null>(null);
   const [msg, setMsg] = useState('');
   const status = presetStatus(state);
@@ -56,15 +58,15 @@ export function PresetPacks({ state, update }: { state: AppState; update: (s: Ap
         const done = p.notes.length > 0 && installed === p.notes.length;
         const expanded = open === p.id;
         return (
-          <View key={p.id} style={{ gap: sp.sm, borderTopWidth: 1, borderTopColor: c.line, paddingTop: sp.md }}>
+          <View key={p.id} style={{ gap: space.sm, borderTopWidth: 1, borderTopColor: colors.border, paddingTop: space.md }}>
             {pi === 0 || PRESET_PACKS[pi - 1].area !== p.area ? (
-              <Text accessibilityRole="header" style={{ color: c.accent, fontSize: 14, fontWeight: '700' }}>{AREA_TITLES[p.area] ?? p.area}</Text>
+              <Text accessibilityRole="header" style={[type('label'), { color: colors.accentText }]}>{AREA_TITLES[p.area] ?? p.area}</Text>
             ) : null}
-            <Text style={{ color: c.text, fontSize: 17, fontWeight: '600' }}>{p.name}</Text>
+            <Text style={[type('headline'), { color: colors.text }]}>{p.name}</Text>
             <P dim>
               {p.blurb}. {p.notes.length} notes, {installed} added
             </P>
-            <View style={{ flexDirection: 'row', gap: sp.sm, flexWrap: 'wrap' }}>
+            <View style={{ flexDirection: 'row', gap: space.sm, flexWrap: 'wrap' }}>
               <Btn label={done ? 'All added' : 'Add all'} disabled={done || !p.notes.length} onPress={() => add(p.id)} />
               <Btn label={expanded ? 'Hide notes' : 'Show notes'} kind="ghost" onPress={() => setOpen(expanded ? null : p.id)} />
             </View>
@@ -72,21 +74,21 @@ export function PresetPacks({ state, update }: { state: AppState; update: (s: Ap
               ? p.notes.map((n) => {
                   const added = have.has(presetTopicId(n.id));
                   return (
-                    <View key={n.id} style={{ minHeight: TOUCH, flexDirection: 'row', alignItems: 'center', gap: sp.sm }}>
+                    <View key={n.id} style={{ minHeight: TOUCH, flexDirection: 'row', alignItems: 'center', gap: space.sm }}>
                       <View style={{ flex: 1, gap: 4 }}>
-                        <Text style={{ color: c.text, fontSize: 15 }}>{n.title}</Text>
-                        <Pill text={`${n.priority} priority`} color={PRIORITY_COLOR[n.priority]} />
+                        <Text style={[type('body'), { color: colors.text }]}>{n.title}</Text>
+                        <Pill text={`${n.priority} priority`} color={priorityColor(colors)[n.priority]} />
                       </View>
                       {added ? (
-                        <Text style={{ color: c.good, fontSize: 14 }}>Added</Text>
+                        <Text style={[type('caption'), { color: colors.success }]}>Added</Text>
                       ) : (
                         <Pressable
                           accessibilityRole="button"
                           accessibilityLabel={`Add ${n.title}`}
                           onPress={() => add(p.id, [n.id])}
-                          style={{ minHeight: TOUCH, minWidth: TOUCH, justifyContent: 'center', paddingHorizontal: sp.md }}
+                          style={{ minHeight: TOUCH, minWidth: TOUCH, justifyContent: 'center', paddingHorizontal: space.md }}
                         >
-                          <Text style={{ color: c.accent, fontSize: 15, fontWeight: '600' }}>Add</Text>
+                          <Text style={[type('bodyStrong'), { color: colors.accentText }]}>Add</Text>
                         </Pressable>
                       )}
                     </View>
