@@ -649,7 +649,7 @@
   ],
   "rationale": "1. Internal radiation requires shielding (dosimeter badge), limited time, distance (about 6 feet) and a private room; pregnant staff and child visitors are excluded.\n2. Flushing the toilet three times applies to unsealed sources whose body fluids are radioactive; with a sealed implant, fluids are not radioactive.\nFlip: for iodine-131, flushing three times would be added.",
   "optionRationales": [
-   "Correct: shielding.",
+   "Correct: a dosimeter badge measures the radiation dose the staff member receives while giving care.",
    "Correct: private room.",
    "Correct: time and distance.",
    "Incorrect: children are excluded as visitors.",
@@ -762,7 +762,7 @@
   "rationale": "1. Some drugs are safe by only one route; confusing intravenous with intrathecal can be fatal.\n2. A mismatch between the order and the label means stop and verify with the prescriber and pharmacy.\n3. Following the order without reconciling the label, or choosing the label, perpetuates the error.\nFlip: if the label and order matched, the nurse would follow safe-handling rules and aseptic technique for the device.",
   "optionRationales": [
    "Wrong: unsafe habit; the product may be unsuitable.",
-   "Wrong: also unsafe.",
+   "Wrong: giving the drug intravenously because of the label is also unsafe; the order and label conflict, so the route must be verified first.",
    "Wrong: a colleague's glance is not verification.",
    "Right: stop and verify."
   ],
@@ -840,7 +840,7 @@
   "rationale": "1. Itching in pancreatic and biliary obstruction is caused by bile salts deposited in the skin.\n2. Care aims to relieve itching and protect the skin: short nails, cool or tepid baths, emollients, and prescribed medicines.\n3. Heat and rough rubbing worsen itching and damage skin; fluid restriction does not remove bile salts.\nFlip: if the skin were intact and itching mild, simple emollients would suffice.",
   "optionRationales": [
    "Wrong: heat worsens itching.",
-   "Wrong: trauma.",
+   "Wrong: rubbing firmly with a rough cloth injures the skin just as scratching does.",
    "Wrong: fluids support nutrition and hydration.",
    "Right: relieves itch and protects skin."
   ],

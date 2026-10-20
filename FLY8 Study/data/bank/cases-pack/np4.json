@@ -25,7 +25,13 @@
   ],
   "rationale": "A reduced food intake after insulin, together with sweating, tremors and new irritability, forms the cue cluster of hypoglycemia (adrenergic and early brain-related signs). Receiving insulin as prescribed is relevant background but is expected care, not an abnormal finding. The dry foot dressing is unrelated to the current change.",
   "rationaleSimple": "Little food after insulin plus sweating, shaking and irritability points to low blood sugar.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Background, not a sign: getting insulin as prescribed is expected care; it matters only because insulin lowers glucose.",
+   "Suggests hypoglycemia: little food intake after insulin leaves too little glucose to match the dose.",
+   "Suggests hypoglycemia: sweating and trembling are adrenergic responses to falling glucose.",
+   "Suggests hypoglycemia: new irritability and hunger are early signs of low glucose affecting the brain.",
+   "Unrelated: a dry intact foot dressing says nothing about the current glucose level."
+  ],
   "strategy": "Recognizes cues of hypoglycemia",
   "difficulty": 2,
   "bloom": "judgment",
@@ -93,7 +99,10 @@
   "answer": [],
   "rationale": "The effect of treatment must be verified by rechecking the glucose, and the check is repeated until the level is safe. A snack containing complex carbohydrate and protein then helps prevent the glucose from falling again. A sugar-free drink or no food leaves the client at risk of a repeat episode.",
   "rationaleSimple": "Check the sugar again, then give a snack so it does not drop again.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Recheck: the effect of treatment must be verified, and the check is repeated until the level is safe. Skipping the check or doubling treatment is unsafe.",
+   "A snack with complex carbohydrate and protein: it helps keep the glucose from dropping again. A sugar-free drink or no food leaves him at risk of a repeat episode."
+  ],
   "strategy": "Evaluates response to treatment",
   "difficulty": 3,
   "bloom": "recall",
@@ -152,12 +161,12 @@
   "rationale": "Hypoglycemia is prevented by matching insulin to food intake, anticipating changes in appetite, recognizing early symptoms and having rapid carbohydrate available. Omitting insulin on his own can cause hyperglycemia and should be discussed with the provider. Alcohol on an empty stomach increases the risk of low glucose.",
   "rationaleSimple": "Regular meals, quick sugar on hand and knowing the warning signs help prevent lows.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Wrong: skipping insulin without telling anyone can cause high glucose; changes in dose must be decided with the provider.",
+   "Include: poor appetite or illness changes how much he eats, so the insulin dose may need adjusting by the provider.",
+   "Include: knowing early signs such as shakiness, sweating and hunger lets him act before glucose drops further.",
+   "Include: a fast-acting sugar source lets him treat a low quickly.",
+   "Include: regular meals match food intake to insulin, and skipping meals after insulin risks a low.",
+   "Wrong: alcohol on an empty stomach increases the risk of low glucose."
   ],
   "strategy": "Teaches self-management to prevent hypoglycemia",
   "difficulty": 3,
@@ -195,7 +204,13 @@
   "answer": [],
   "rationale": "Diabetes can reduce sensation and circulation in the feet, so daily inspection, gentle hygiene and protective, well-fitting footwear help prevent unnoticed injury. Going barefoot and using hot water risk cuts and burns that the client may not feel.",
   "rationaleSimple": "Protect numb feet: check daily, keep them clean and dry, and never go barefoot or use hot water.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Appropriate: daily inspection finds injuries he may not feel because diabetes reduces sensation.",
+   "Needs correction: going barefoot risks cuts and injuries he may not notice.",
+   "Appropriate: lukewarm water and drying between the toes keeps skin clean and lowers the risk of fungal infection.",
+   "Needs correction: hot water can burn feet with reduced sensation and does not safely improve circulation.",
+   "Appropriate: well-fitting closed shoes protect the feet, and checking inside finds objects that could injure them."
+  ],
   "strategy": "Teaches foot care to a client with diabetes",
   "difficulty": 2,
   "bloom": "apply",
@@ -250,7 +265,12 @@
   "answer": [],
   "rationale": "Insulin deficiency leads to fat breakdown and ketone formation. The acidosis is compensated by deep, rapid breathing, and high glucose causes osmotic fluid loss and dehydration. Cold, clammy skin with shakiness is the adrenergic picture of hypoglycemia.",
   "rationaleSimple": "Fruity breath, deep fast breathing and dehydration fit ketoacidosis; cold clammy shakiness fits a low sugar.",
-  "optionRationales": [],
+  "optionRationales": [
+   "DKA: fruity breath comes from ketones produced when fat is broken down.",
+   "DKA: deep rapid breathing is the body's way of blowing off acid.",
+   "Hypoglycemia: cold, clammy skin with sudden shakiness is the adrenergic response to low glucose.",
+   "DKA: high glucose pulls fluid out through the urine, causing dehydration, dry membranes and poor skin turgor."
+  ],
   "strategy": "Distinguishes DKA from hypoglycemia",
   "difficulty": 3,
   "bloom": "judgment",
@@ -387,12 +407,12 @@
   "rationale": "Illness raises glucose and the risk of ketoacidosis, so insulin is usually still needed even when intake is poor and doses are adjusted with the provider. More frequent monitoring, fluids and early help-seeking prevent progression. Stopping insulin or waiting for a routine visit is unsafe.",
   "rationaleSimple": "When sick, keep taking insulin as advised, check often, drink fluids and get help early.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Appropriate: illness raises glucose, so insulin is usually still needed; adjust it with the provider rather than stopping alone.",
+   "Appropriate: continued vomiting can lead to dehydration and ketoacidosis, so she needs prompt help.",
+   "Appropriate: fluids prevent dehydration, which is a risk when glucose is high.",
+   "Wrong: stopping all insulin when unable to eat can lead to ketoacidosis; ask the provider how to adjust the dose.",
+   "Appropriate: more frequent checks show how illness is affecting glucose so treatment can be adjusted.",
+   "Wrong: waiting for a routine visit delays care when an illness is already making glucose unstable."
   ],
   "strategy": "Teaches sick-day management",
   "difficulty": 3,
@@ -421,7 +441,10 @@
   "answer": [],
   "rationale": "When insulin is lacking, cells cannot use glucose and the body breaks down fat, releasing ketone acids into the blood. The accumulation of these acids lowers the blood pH, which is metabolic acidosis.",
   "rationaleSimple": "No insulin means fat is burned and acid ketones build up.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Fat: without insulin, cells cannot use glucose, so the body breaks down fat. Bone and vitamins are not energy sources in this way.",
+   "Acidosis: ketones are acids and lower the blood pH. Alkalosis would mean the opposite, and stability does not describe the problem."
+  ],
   "strategy": "Explains the pathophysiology of DKA",
   "difficulty": 2,
   "bloom": "recall",
@@ -477,7 +500,13 @@
   ],
   "rationale": "A tight neck can signal bleeding or swelling that threatens the airway, perioral and fingertip tingling suggest low calcium after parathyroid injury, and hoarseness may reflect laryngeal nerve irritation. Each of these needs prompt assessment. An intact dry dressing and comfortable sips are reassuring and not the focus.",
   "rationaleSimple": "Neck tightness, tingling and hoarseness can mean airway or calcium trouble after surgery.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Reassuring: a dry intact dressing shows no obvious bleeding at the wound.",
+   "Needs attention: a tight feeling in the neck can mean bleeding or swelling that threatens the airway.",
+   "Needs attention: tingling around the mouth and fingertips suggests low calcium after parathyroid injury.",
+   "Needs attention: hoarseness may mean irritation of the laryngeal nerve.",
+   "Reassuring: sipping water without difficulty shows swallowing is comfortable."
+  ],
   "strategy": "Recognizes early postoperative complications",
   "difficulty": 3,
   "bloom": "judgment",
@@ -559,12 +588,12 @@
   "rationale": "Hypocalcemia from parathyroid injury produces tingling and muscle twitching or spasm. Respiratory difficulty, neck swelling and worsening hoarseness suggest airway obstruction, bleeding or nerve injury. A comfortable client with normal speech is the expected recovery.",
   "rationaleSimple": "Tingling, twitching, breathing trouble, neck swelling and worsening hoarseness need to be reported.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Report: increasing hoarseness may mean nerve injury or swelling.",
+   "Report: increasing neck swelling may be bleeding that can compress the airway.",
+   "Report: difficulty or noisy breathing may mean the airway is narrowing, an emergency.",
+   "Report: tingling around the mouth is an early sign of low calcium.",
+   "Do not report as a problem: a relaxed, pain-free expression with normal speech is the expected recovery.",
+   "Report: twitching or spasm is a sign of low calcium."
   ],
   "strategy": "Monitors for complications after thyroidectomy",
   "difficulty": 3,
@@ -651,7 +680,10 @@
   "answer": [],
   "rationale": "With the whole gland removed the body can no longer make thyroid hormone, so replacement is needed every day and continues for life. The dose is adjusted by the provider, and the client should not stop it when she feels well.",
   "rationaleSimple": "With no thyroid left, she takes thyroid hormone every day for life.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Daily: once the gland is removed, the body cannot make thyroid hormone, so replacement is taken every day. Occasional or no replacement is unsafe.",
+   "Life: the need continues permanently. One week or one month would leave her without hormone afterwards. The dose is adjusted by the provider."
+  ],
   "strategy": "Teaches long-term thyroid replacement",
   "difficulty": 2,
   "bloom": "recall",
@@ -710,12 +742,12 @@
   "rationale": "Typical appendicitis begins with vague central pain that localizes to the right lower quadrant, with anorexia, nausea, fever and local tenderness. Pain relieved by eating suggests a different problem, and left upper abdominal pain does not fit.",
   "rationaleSimple": "Pain moving to the right lower belly with no appetite, nausea and mild fever fits appendicitis.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Consistent: tenderness over the right lower abdomen is a typical finding.",
+   "Consistent: low-grade fever is common as inflammation develops.",
+   "Consistent: pain that starts near the navel and moves to the right lower abdomen is the classic pattern.",
+   "Not consistent: pain relieved completely by eating suggests a different problem, such as an ulcer.",
+   "Not consistent: pain only in the left upper abdomen does not fit the usual location.",
+   "Consistent: loss of appetite with nausea commonly accompanies appendicitis."
   ],
   "strategy": "Recognizes signs of appendicitis",
   "difficulty": 2,
@@ -793,7 +825,13 @@
   "answer": [],
   "rationale": "Serial assessment detects worsening or rupture, an empty stomach prepares the client for surgery, and a position of comfort eases pain. Heat and enemas can increase the risk of the appendix rupturing.",
   "rationaleSimple": "Watch him closely, keep him fasting and comfortable, and do not use heat or enemas.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Appropriate: regular reassessment finds worsening pain or signs of rupture early.",
+   "Avoid: heat may increase blood flow and raise the risk that the appendix ruptures.",
+   "Avoid: an enema increases bowel activity and may cause the appendix to rupture.",
+   "Appropriate: an empty stomach prepares the client for possible surgery.",
+   "Appropriate: bent knees relax the abdominal muscles and ease pain."
+  ],
   "strategy": "Identifies safe and unsafe actions",
   "difficulty": 3,
   "bloom": "apply",
@@ -879,7 +917,10 @@
   "answer": [],
   "rationale": "Rupture releases bacteria into the peritoneal cavity, causing peritonitis, a serious infection. Prompt surgical treatment reduces the risk of this complication, so delay is dangerous.",
   "rationaleSimple": "A burst appendix can infect the whole belly, so surgery should not be delayed.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Peritonitis: spilled infected contents inflame the lining of the abdomen. Gastric ulcer is unrelated and dehydration alone does not describe it.",
+   "Surgical treatment: prompt surgery lowers the risk of rupture and peritonitis. Delays in eating or bathing are not the danger."
+  ],
   "strategy": "Explains complications of appendicitis",
   "difficulty": 2,
   "bloom": "recall",
@@ -936,7 +977,13 @@
   ],
   "rationale": "Black tarry stool and coffee-ground vomitus suggest bleeding in the upper gastrointestinal tract, while dizziness and pallor suggest blood loss affecting circulation. Frequent use of pain tablets such as NSAIDs is a risk factor for gastric injury. Chronic knee pain explains the medication use but is not a sign of bleeding.",
   "rationaleSimple": "Black stools, coffee-ground vomit, dizziness and daily pain tablets point to a stomach bleed.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Risk factor: near-daily pain tablets such as NSAIDs can injure the stomach lining and cause bleeding.",
+   "Sign of bleeding: black tarry stool suggests digested blood from the upper tract.",
+   "Sign of bleeding: coffee-ground vomit is blood altered by stomach acid.",
+   "Sign of blood loss: dizziness and pallor on standing show circulation is affected.",
+   "Not a sign of bleeding: chronic knee pain explains the medication use but does not show bleeding."
+  ],
   "strategy": "Recognizes GI bleeding cues",
   "difficulty": 3,
   "bloom": "judgment",
@@ -1017,12 +1064,12 @@
   "rationale": "An empty stomach, secure IV access for fluids or blood products, careful measurement of losses, and assisted position changes all support safety in a client at risk of shock. Walking alone risks fainting, and NSAID-type tablets may worsen bleeding.",
   "rationaleSimple": "Keep him fasting, ready for IV fluids, track blood loss and help him when he moves.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Wrong: NSAID-type tablets may irritate the stomach and worsen bleeding.",
+   "Right: an empty stomach is safer if he needs a procedure or if he vomits.",
+   "Wrong: walking alone risks fainting if he has lost blood.",
+   "Right: assisting position changes prevents falls from dizziness.",
+   "Right: measuring and recording emesis and stool shows how much blood is being lost.",
+   "Right: reliable IV access allows quick fluids or blood products if he becomes unstable."
   ],
   "strategy": "Plans safe care for GI bleeding",
   "difficulty": 3,
@@ -1051,7 +1098,12 @@
   "answer": [],
   "rationale": "Blood from the stomach or esophagus is altered by digestive acid and appears as coffee-ground vomitus or black tarry stool, or as fresh blood if bleeding is brisk. Bright red blood in the stool without vomiting is more often from the lower tract.",
   "rationaleSimple": "Black or coffee-ground blood is usually from higher up; bright red blood in the stool is usually from lower down.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Upper GI: coffee-ground vomitus is blood altered by stomach acid.",
+   "Upper GI: black tarry stool is digested blood from the upper tract.",
+   "Lower GI: bright red blood mixed with stool without vomiting suggests bleeding from the lower tract.",
+   "Upper GI: vomiting fresh blood suggests brisk bleeding from the esophagus or stomach."
+  ],
   "strategy": "Differentiates upper and lower GI bleeding",
   "difficulty": 3,
   "bloom": "judgment",
@@ -1148,12 +1200,12 @@
   "rationale": "A failing liver causes bilirubin to accumulate (jaundice), fluid to collect in the abdomen (ascites), vascular changes such as spider angiomas, and reduced clotting factors leading to easy bruising. Good wound healing and muscle bulk would not be expected.",
   "rationaleSimple": "Yellow eyes, big belly, spider veins and easy bruising fit a failing liver.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Not consistent: decreasing girth without treatment is the opposite of ascites; advanced liver disease causes fluid to collect.",
+   "Consistent: bilirubin builds up when the liver cannot clear it, causing jaundice.",
+   "Consistent: spider-like vessels (angiomas) are a vascular change of liver disease.",
+   "Not consistent: brisk healing and well-developed muscle are not expected in advanced liver disease.",
+   "Consistent: increasing girth suggests ascites from fluid collecting in the abdomen.",
+   "Consistent: fewer clotting factors cause easy bruising."
   ],
   "strategy": "Recognizes manifestations of cirrhosis",
   "difficulty": 2,
@@ -1231,7 +1283,13 @@
   "answer": [],
   "rationale": "Low clotting factors raise bleeding risk, so soft brushes and electric razors reduce injury. Daily weight and girth measurements track fluid accumulation. The damaged liver cannot safely handle alcohol or many medicines, so these are avoided unless approved.",
   "rationaleSimple": "Prevent bleeding, track fluid, and avoid alcohol and unapproved medicines.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Appropriate: a soft toothbrush and electric razor reduce injury because clotting is poor.",
+   "Avoid: the damaged liver may not handle many medicines safely, so they must be checked with the provider.",
+   "Appropriate: daily weight and girth measured the same way track fluid accumulation.",
+   "Avoid: a damaged liver cannot safely handle alcohol.",
+   "Appropriate: elevating the legs helps reduce swelling."
+  ],
   "strategy": "Plans safe care for cirrhosis",
   "difficulty": 3,
   "bloom": "apply",
@@ -1317,7 +1375,10 @@
   "answer": [],
   "rationale": "The liver produces most clotting factors, so impaired function increases bleeding and bruising. It also converts ammonia to a form that can be excreted, and when this fails ammonia accumulates and can cause confusion.",
   "rationaleSimple": "A weak liver means less clotting and a build-up of ammonia that affects the brain.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Clotting factors: the liver makes most of them, so liver damage increases bleeding. It is not the main source of red cells or growth hormones.",
+   "Ammonia: the liver converts ammonia for excretion; when it fails, ammonia builds up and can cause confusion. Oxygen and glucose are not the problem."
+  ],
   "strategy": "Links liver function to manifestations",
   "difficulty": 3,
   "bloom": "recall",
@@ -1376,7 +1437,14 @@
   ],
   "rationale": "Reduced blood flow to the kidneys from blood loss and low pressure is a common cause of acute kidney injury, regular NSAID use is a recognized risk factor, and falling urine output with fluid retention (edema, weight gain) shows the kidneys are not clearing fluid. The dry dressing is unrelated to kidney function.",
   "rationaleSimple": "Blood loss, low pressure, less urine and fluid gain point to the kidneys struggling.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Risk: major blood loss reduces blood flow to the kidneys.",
+   "Risk: low blood pressure during the operation reduces blood flow to the kidneys.",
+   "Sign: markedly decreased urine output shows the kidneys are not producing urine.",
+   "Sign: ankle swelling and weight gain show fluid is being retained.",
+   "Unrelated: a dry intact dressing says nothing about kidney function.",
+   "Risk: NSAIDs can reduce blood flow to the kidneys and injure them."
+  ],
   "strategy": "Recognizes cues of acute kidney injury",
   "difficulty": 3,
   "bloom": "judgment",
@@ -1444,7 +1512,12 @@
   "answer": [],
   "rationale": "Prerenal injury results from too little blood reaching the kidneys, as in dehydration or poor cardiac output. Postrenal injury results from obstruction of urine outflow, such as an enlarged prostate or stones in the ureters.",
   "rationaleSimple": "Prerenal means not enough blood flow; postrenal means urine cannot drain.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Prerenal: severe fluid loss from vomiting and diarrhea means too little blood reaches the kidneys.",
+   "Postrenal: an enlarged prostate can block the urethra and stop urine from leaving.",
+   "Postrenal: stones blocking both ureters obstruct urine outflow from both kidneys.",
+   "Prerenal: heart failure with low cardiac output reduces blood flow to the kidneys."
+  ],
   "strategy": "Classifies causes of acute kidney injury",
   "difficulty": 3,
   "bloom": "judgment",
@@ -1501,12 +1574,12 @@
   "rationale": "Daily weights, observation for overload, medicine review and adherence to prescribed fluids and diet support safe management of impaired kidney function. Unlimited fluids may cause overload, and ignoring urine changes delays recognition of deterioration.",
   "rationaleSimple": "Weigh daily, watch for fluid overload, review medicines and follow fluid orders.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Appropriate: some medicines can harm the kidneys, and the provider can adjust or avoid them.",
+   "Appropriate: failing kidneys may not clear fluid, so swelling and breathlessness are watched for.",
+   "Appropriate: daily weight at the same time on the same scale is a reliable way to track fluid balance.",
+   "Appropriate: fluid and diet prescriptions are set to match the kidneys' limited ability.",
+   "Wrong: unlimited fluids may cause fluid overload when the kidneys cannot remove it.",
+   "Wrong: changes in urine color and amount show whether the kidneys are improving or worsening."
   ],
   "strategy": "Plans care for acute kidney injury",
   "difficulty": 3,
@@ -1595,7 +1668,13 @@
   ],
   "rationale": "One-sided weakness, facial droop and speech difficulty are classic stroke warning signs, and the time he was last known to be well is essential because treatment decisions depend on timing. Hypertension is a risk factor but not a sign of the current event.",
   "rationaleSimple": "Weakness on one side, a drooping face and slurred speech are stroke signs, and the time matters.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Risk factor only: hypertension raises stroke risk but is not a sign of the current event.",
+   "Stroke cue: weakness on one side of the body is a classic sign.",
+   "Stroke cue: facial droop on one side is a classic sign.",
+   "Stroke cue: slurred speech shows brain involvement.",
+   "Key information: the time he was last known to be well is essential because treatment decisions depend on timing."
+  ],
   "strategy": "Recognizes stroke warning signs",
   "difficulty": 2,
   "bloom": "judgment",
@@ -1685,12 +1764,12 @@
   "rationale": "Nothing by mouth protects against aspiration, and monitoring consciousness and breathing detects deterioration. Safety, calm reassurance and close observation for any change in speech, strength or alertness give the receiving team useful information. Food and walking are unsafe.",
   "rationaleSimple": "Nothing by mouth, watch him closely, keep him safe and calm, and avoid walking.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Appropriate: watching for changes in speech, strength or alertness gives the receiving team useful information.",
+   "Appropriate: nothing by mouth protects against aspiration because swallowing may be impaired.",
+   "Appropriate: preventing falls and calm reassurance keep him safe and reduce stress.",
+   "Appropriate: consciousness and breathing may deteriorate and must be watched.",
+   "Wrong: standing and walking risks a fall if one side is weak.",
+   "Wrong: food is unsafe because he may not be able to swallow safely."
   ],
   "strategy": "Provides initial stroke care",
   "difficulty": 3,
@@ -1719,7 +1798,12 @@
   "answer": [],
   "rationale": "Early rises in pressure cause subtle changes in alertness, behavior and headache. Late signs such as bradycardia with a widening pulse pressure and a fixed dilated pupil indicate brain compression and are emergencies. Changes in level of consciousness are often the earliest and most sensitive indicator.",
   "rationaleSimple": "Small changes in alertness come first; slow pulse and a fixed wide pupil come late.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Earlier: subtle restlessness and confusion are among the first signs of rising pressure on the brain.",
+   "Earlier: a new or worsening headache is an early sign of rising pressure.",
+   "Later: a slow heart rate with widening pulse pressure indicates the brain is being compressed.",
+   "Later: a dilated pupil that does not react to light is a late sign of serious compression and an emergency."
+  ],
   "strategy": "Differentiates early and late ICP signs",
   "difficulty": 4,
   "bloom": "judgment",
@@ -1866,12 +1950,12 @@
   "rationale": "Precise documentation of onset, duration, the pattern of movements, loss of consciousness, post-seizure state and injuries helps the team classify the seizure and adjust treatment. Her opinion of the food is unrelated.",
   "rationaleSimple": "Record when it started and ended, what happened, her awareness afterwards and any injury.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Record: any injury is important for follow-up care.",
+   "Record: the time and duration help classify the seizure and guide treatment.",
+   "Record: her condition and orientation afterwards show how she is recovering.",
+   "Do not record as a seizure finding: her opinion of the food is unrelated.",
+   "Record: which body parts were involved and the type of movement help classify the seizure.",
+   "Record: loss of consciousness is an important feature of the seizure type."
   ],
   "strategy": "Documents seizure activity",
   "difficulty": 2,
@@ -1900,7 +1984,10 @@
   "answer": [],
   "rationale": "A side-lying position lets saliva drain and reduces the risk of aspiration after a seizure. Breathing and level of consciousness are monitored until she is fully awake, because the post-ictal period can include drowsiness and confusion.",
   "rationaleSimple": "Turn her on her side and watch her breathing and alertness.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Side-lying: it lets saliva drain and reduces the risk of aspiration. Lying flat on the back or prone is less safe for the airway.",
+   "Breathing and level of consciousness: they are monitored until she is fully awake because drowsiness and confusion follow a seizure. Appetite and visitors are not the priority."
+  ],
   "strategy": "Provides post-seizure care",
   "difficulty": 2,
   "bloom": "recall",
@@ -1955,7 +2042,13 @@
   "answer": [],
   "rationale": "The family should keep her safe, time the event and place her in a side-lying position afterwards. Restraining her or putting objects in her mouth can cause injury and airway problems.",
   "rationaleSimple": "Stay, time it, clear the area and turn her on her side; never hold her down or put things in her mouth.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Appropriate: staying with her keeps her safe and noting the time helps the team.",
+   "Avoid: objects in the mouth can break teeth or block the airway.",
+   "Appropriate: moving hard or sharp objects away prevents injury.",
+   "Avoid: holding her down can cause injury and does not stop the seizure.",
+   "Appropriate: turning her onto her side after the jerking stops protects her airway."
+  ],
   "strategy": "Teaches family seizure first aid",
   "difficulty": 3,
   "bloom": "apply",

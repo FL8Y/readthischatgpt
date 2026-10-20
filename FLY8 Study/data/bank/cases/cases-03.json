@@ -198,9 +198,9 @@
    1
   ],
   "optionRationales": [
-   "Aspiration sign.",
-   "Aspiration sign.",
-   "Motor deficit.",
+   "Aspiration risk: coughing after a sip shows liquid is entering the airway.",
+   "Aspiration risk: a wet voice after swallowing suggests liquid remains near the airway.",
+   "Not an aspiration sign: arm weakness is a motor deficit and does not show unsafe swallowing.",
    "Not an aspiration cue.",
    "Pressure to feed, not a finding.",
    "Alertness is adequate."
@@ -415,12 +415,12 @@
    2
   ],
   "optionRationales": [
-   "Signal.",
-   "Signal.",
-   "Signal.",
-   "Normal.",
-   "Normal.",
-   "Correct precaution."
+   "Suggests dislocation: sudden sharp pain after turning suggests the joint has moved out of place.",
+   "Suggests dislocation: a shortened leg means the head of the prosthesis has moved out of its socket.",
+   "Suggests dislocation: an unusual leg position, often turned inward or outward, suggests the joint is out of place.",
+   "Not a sign of dislocation: a temperature of 37.2 C is normal and unrelated.",
+   "Not a sign of dislocation: present pedal pulses show circulation is intact and are unrelated.",
+   "Not a sign of dislocation: the wedge pillow is a correct precaution that prevents dislocation."
   ],
   "rationale": "Sudden sharp pain with movement, a shortened leg and an unusual leg position suggest dislocation. Temperature, pedal pulses, patient-controlled analgesia and the wedge pillow are unrelated.",
   "strategy": "Separate dislocation cues from normal data",
@@ -497,7 +497,7 @@
    "Treats the wrong problem: anticholinergics treat EPS, not NMS.",
    "Right: stopping the antipsychotic is the first treatment step.",
    "Treats the symptom: fever without stopping the cause.",
-   "Under-reaction."
+   "Wrong: reassuring him and encouraging fluids under-reacts to a life-threatening reaction that needs the drug held and the provider called."
   ],
   "rationale": "Fever, severe rigidity, unstable blood pressure, sweating and confusion after a dose increase are NMS, a life-threatening reaction. The drug is held and the provider called immediately; cooling and fluids follow.\nFlip: if he had rigidity with no fever and stable vital signs, an anticholinergic for pseudoparkinsonism would be reasonable.",
   "strategy": "Hold the drug and escalate",
@@ -633,12 +633,12 @@
    3
   ],
   "optionRationales": [
-   "Systemic.",
-   "Severe rigidity.",
+   "Points to NMS: a temperature of 39.6 C is a whole-body feature, not seen with simple EPS.",
+   "Points to NMS: severe muscle rigidity is a hallmark of NMS, whereas EPS stiffness is milder.",
    "Autonomic instability.",
    "Altered mental state.",
-   "Dystonia.",
-   "Dystonia."
+   "Not for NMS: a twisted neck on day 3 was dystonia, an earlier EPS effect.",
+   "Not for NMS: a thick tongue on day 3 was dystonia, an earlier EPS effect."
   ],
   "rationale": "High fever, severe rigidity, unstable blood pressure and confusion are systemic features of NMS. The earlier neck twisting and thick tongue are dystonia from day 3.",
   "strategy": "Systemic signs separate NMS from EPS",
@@ -713,9 +713,9 @@
   ],
   "optionRationales": [
    "Counts the trunk only.",
-   "Right: 18% plus 9%.",
+   "Right: the front of the trunk is 18% and one entire arm is 9%, which add to 27%.",
    "Counts both arms or both sides of the trunk.",
-   "Overestimate."
+   "Wrong: 45% overestimates the burn and does not match the areas described."
   ],
   "rationale": "In an adult the front of the trunk is 18% and one entire arm is 9%, giving 27%.",
   "strategy": "Apply the rule of nines",
@@ -847,11 +847,11 @@
    3
   ],
   "optionRationales": [
-   "Airway swelling.",
-   "Heat exposure.",
-   "Smoke exposure.",
-   "Enclosed fire.",
-   "Not an airway sign.",
+   "Suggests inhalation injury: a hoarse voice shows the airway is swelling.",
+   "Suggests inhalation injury: singed nasal hairs show he breathed in hot air.",
+   "Suggests inhalation injury: soot around the mouth shows he breathed in smoke.",
+   "Suggests inhalation injury: being trapped in a closed room means he breathed smoke in an enclosed space.",
+   "Not an airway sign: a burn on the arm does not show injury to the airway.",
    "Can be falsely normal."
   ],
   "rationale": "Hoarse voice, singed nasal hairs, soot around the mouth and a closed-space fire are the classic cues. Burns on the arm and a normal oximeter reading do not exclude or define it.",

@@ -1136,7 +1136,7 @@
       "Correct. This is the exposure pattern that can lead to antibody formation; immune globulin prevents it.",
       "The mother is already Rh-positive and cannot form antibodies to Rh antigen; tempting due to the mismatch.",
       "No Rh-positive exposure, so no need.",
-      "No incompatibility."
+      "Wrong: with an Rh-positive mother there is no Rh incompatibility, so she cannot form antibodies and needs no immune globulin."
     ],
     "strategy": "Know the pattern: Rh-neg mother, Rh-pos baby",
     "archetype": "lab-value-interpretation-qualitative",
@@ -3308,9 +3308,9 @@
     ],
     "rationale": "1) The stem asks which statement shows a misunderstanding. 2) Recall the key safety teaching for MAOIs: avoid foods high in tyramine and check before using other medicines. 3) Aged cheeses and cured meats are high-tyramine foods and should be avoided. 4) Postural dizziness is a possible effect, so rising slowly is correct. 5) Checking before any over-the-counter product is correct because of dangerous interactions. 6) Allowing small amounts of aged cheese shows a misunderstanding: even small amounts can be risky. 7) Decision: the aged-cheese statement.",
     "optionRationales": [
-      "Correct teaching.",
-      "Correct teaching.",
-      "Correct teaching.",
+      "Wrong choice for this stem: this is correct teaching because interactions with cold or allergy medicines can be dangerous, so no more teaching is needed.",
+      "Wrong choice for this stem: this is correct teaching because aged and cured foods are high in tyramine and must be avoided.",
+      "Wrong choice for this stem: this is correct teaching because dizziness can occur and rising slowly prevents falls.",
       "Correct choice for the stem. It shows a misunderstanding about the dietary restriction."
     ],
     "strategy": "Teaching: teach-back accuracy",

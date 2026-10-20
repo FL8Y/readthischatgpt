@@ -169,8 +169,8 @@
   "optionRationales": [
    "Wrong: urgent but can wait up to 24-48 hours.",
    "Wrong: required, within weeks.",
-   "Right: emergency.",
-   "Wrong: optional."
+   "Right: intestinal obstruction is an emergency and must be operated on first.",
+   "Wrong: a facelift is optional, chosen by the client, so it is last."
   ],
   "strategy": "Urgency classification",
   "archetype": "classify surgery urgency",
@@ -425,10 +425,10 @@
   ],
   "rationale": "1. The front of a mask is contaminated; it should be handled by the ties, never hung on the neck or kept in a pocket, and changed between patients.\n2. Tucking in drawstrings, removing shoe covers before leaving, and covering all hair are correct.\nFlip: a fresh mask applied by the ties for the second case would be correct.",
   "optionRationales": [
-   "Correct: expected.",
-   "Correct: expected.",
+   "Correct practice: tucking in drawstrings keeps loose ties from contaminating the sterile field, so this needs no correction.",
+   "Correct practice: removing shoe covers before leaving prevents carrying contamination out, so this needs no correction.",
    "Right: contaminated mask reused.",
-   "Correct: expected."
+   "Correct practice: a cap covering all hair prevents shedding into the field, so this needs no correction."
   ],
   "strategy": "Attire rules: mask is contaminated",
   "archetype": "correct unsafe attire practice",
@@ -464,7 +464,7 @@
    "Wrong: unsafe habit; breached barrier.",
    "Wrong: tape does not restore sterility.",
    "Wrong: transfers responsibility.",
-   "Right: replace it."
+   "Right: a torn outer wrapper breaches the barrier, so the pack is treated as contaminated and replaced."
   ],
   "strategy": "If in doubt, it is not sterile",
   "archetype": "if in doubt, replace",

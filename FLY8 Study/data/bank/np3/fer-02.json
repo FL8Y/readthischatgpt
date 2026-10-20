@@ -391,7 +391,7 @@
    "Wrong: addresses the expected minor finding.",
    "Right: report a circulatory emergency.",
    "Wrong: under-reaction.",
-   "Wrong: delay."
+   "Wrong: elevating the arm and rechecking next shift delays action on an absent pulse, which is a circulatory emergency."
   ],
   "strategy": "Circulation: unrelieved constriction",
   "archetype": "neurovascular check",

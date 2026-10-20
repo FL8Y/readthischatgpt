@@ -77,12 +77,12 @@
   "rationale": "Position changes, a regularly emptied bladder, relaxation techniques and continuous supportive presence all promote comfort and progress. Pushing before the woman is ready exhausts her and can cause cervical swelling, and lying flat on the back can reduce blood flow to the uterus and fetus.",
   "rationaleSimple": "Help her move, void, relax and feel supported. Do not make her push early or lie flat.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Wrong: lying flat on the back lets the uterus press on the large vessels, lowering blood return and flow to the placenta and fetus.",
+   "Right: moving and changing position eases discomfort and can help labor progress when there is no contraindication.",
+   "Right: continuous presence and her husband's support lower anxiety and pain.",
+   "Wrong: pushing before she is ready tires her and can swell the cervix; she should push when the second stage begins.",
+   "Right: breathing and relaxation techniques with coaching help her cope with contractions.",
+   "Right: a full bladder can slow descent of the baby, so regular emptying helps progress."
   ],
   "strategy": "Supportive care in the first stage of labor",
   "difficulty": 3,
@@ -111,7 +111,12 @@
   "answer": [],
   "rationale": "Stages are defined by landmarks: the first ends at full dilation, the second at birth of the baby, the third at delivery of the placenta, and the fourth is the early recovery period. Mixing up the second and third stages is the common error because both involve delivery of something.",
   "rationaleSimple": "Each stage ends at a landmark: full dilation, baby born, placenta out, then recovery.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Second stage: it starts at full dilation and ends with birth of the baby.",
+   "Third stage: it runs from the birth of the baby until the placenta is delivered.",
+   "First stage: it covers regular contractions up to full cervical dilation.",
+   "Fourth stage: the first hours after the placenta is delivered are the recovery period when bleeding and fundus are closely watched."
+  ],
   "strategy": "Identifying stages of labor",
   "difficulty": 2,
   "bloom": "recall",
@@ -166,7 +171,10 @@
   "answer": [],
   "rationale": "A strong involuntary urge to bear down with a bulging perineum signals that birth is near. The nurse stays with the woman, informs the birth attendant at once and prepares the equipment. Delaying the report or asking her to resist the urge is unsafe.",
   "rationaleSimple": "Bearing down plus a bulging perineum means birth is close, so call the attendant now.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Inform the birth attendant right away: a bulging perineum with an urge to bear down means birth is near and the provider must be present. Waiting an hour or crossing her legs is unsafe.",
+   "Imminent birth: these signs show the second stage is close, so equipment is prepared. A long wait or discharge does not fit the findings."
+  ],
   "strategy": "Recognizing the second stage of labor",
   "difficulty": 3,
   "bloom": "apply",
@@ -310,7 +318,12 @@
   ],
   "rationale": "Repeated late decelerations and absent variability are nonreassuring, and the supine position and ongoing oxytocin are contributing factors the nurse can act on. A baseline in the expected range is reassuring on its own, but it does not cancel the other findings.",
   "rationaleSimple": "Late dips, no variability and lying flat are the worrying parts.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Reassuring: a baseline in the expected range is a good sign, but it does not cancel the other findings, so it needs no action.",
+   "Needs attention: repeated late decelerations suggest the placenta is not supplying enough oxygen.",
+   "Needs attention: absent variability suggests the fetus may be short of oxygen and is not reassuring.",
+   "Needs attention: lying flat compresses the large vessels and reduces placental blood flow, and changing her position is something the nurse can do now."
+  ],
   "strategy": "Interpreting fetal heart rate findings",
   "difficulty": 3,
   "bloom": "judgment",
@@ -351,12 +364,12 @@
   "rationale": "Stopping or holding oxytocin, reporting to the provider, checking maternal vital signs and the contraction pattern, and close observation aim to restore placental blood flow and let the provider decide on further management. Increasing oxytocin or removing monitoring would harm or hide a possibly compromised fetus.",
   "rationaleSimple": "Stop the oxytocin, report, check her vital signs and contractions, and keep watching.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Right: stopping or holding oxytocin reduces contraction strength and frequency so placental blood flow can recover, following the protocol.",
+   "Wrong: removing the monitor would hide a fetus that may be in trouble.",
+   "Wrong: more oxytocin means stronger contractions and less oxygen to the fetus.",
+   "Right: close observation shows whether the tracing improves or worsens.",
+   "Right: the provider needs to know about nonreassuring findings to decide on further management.",
+   "Right: maternal blood pressure and the contraction pattern are checked because low pressure or overly frequent contractions can reduce blood flow to the fetus."
   ],
   "strategy": "Managing a nonreassuring tracing",
   "difficulty": 3,
@@ -385,7 +398,12 @@
   "answer": [],
   "rationale": "Accelerations with movement and moderate variability indicate a well-oxygenated fetus with an intact nervous system. Late decelerations and absent variability with decelerations point to inadequate oxygen reaching the fetus and must be reported promptly.",
   "rationaleSimple": "Accelerations and normal variability are good signs; late dips and flat tracing are not.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Reassuring: accelerations with movement show a well-oxygenated fetus with a responsive nervous system.",
+   "Needs prompt reporting: repeated late decelerations suggest inadequate oxygen reaching the fetus.",
+   "Needs prompt reporting: absent variability with recurring decelerations is a sign of possible fetal compromise.",
+   "Reassuring: moderate variability shows an intact nervous system and adequate oxygenation."
+  ],
   "strategy": "Classifying fetal heart rate patterns",
   "difficulty": 3,
   "bloom": "judgment",
@@ -438,7 +456,10 @@
   "answer": [],
   "rationale": "A side-lying position keeps the heavy uterus from compressing the large vessels, which improves blood flow to the placenta and fetus. The explanation also lets the woman cooperate with the position change.",
   "rationaleSimple": "Lying on your side lets more blood reach the baby.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Side: lying on the side moves the heavy uterus off the large blood vessels. Lying on the back or stomach does not.",
+   "Blood flow: relieving pressure on the vessels improves blood flow to the placenta and fetus, not contraction strength or dilation."
+  ],
   "strategy": "Explaining positioning in labor",
   "difficulty": 2,
   "bloom": "recall",
@@ -499,13 +520,13 @@
   "rationale": "Severe headache, visual changes, epigastric pain, rapid swelling and falling urine output are signs of worsening hypertension in pregnancy and impending seizures. Mild backache and painless occasional tightening are common pregnancy discomforts and do not point to this complication.",
   "rationaleSimple": "Headache, blurred vision, upper belly pain, fast swelling and little urine are warning signs.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Worsening: a persistent severe headache is a warning sign of worsening hypertension and impending seizures.",
+   "Worsening: sudden swelling of the face and hands shows fluid shifting and is a sign of progression.",
+   "Not a warning sign: mild backache after standing is a common discomfort of pregnancy.",
+   "Worsening: blurred vision or spots show brain involvement and raise seizure risk.",
+   "Worsening: upper abdominal pain suggests liver involvement and is a danger sign.",
+   "Worsening: very little urine suggests kidney involvement and falling circulation.",
+   "Not a warning sign: occasional painless tightening of the abdomen is common in pregnancy and not linked to this problem."
   ],
   "strategy": "Recognizing warning signs of worsening hypertension in pregnancy",
   "difficulty": 3,
@@ -623,7 +644,12 @@
   "answer": [],
   "rationale": "Stimulation can trigger a seizure, so the environment is kept calm. Padded rails, suction and oxygen prepare for an emergency, and frequent observation is required. Leaving her alone or allowing many visitors increases risk.",
   "rationaleSimple": "Keep her calm and safe with equipment ready, and do not leave her alone.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Appropriate: a quiet, dim room lowers stimulation, which can trigger a seizure.",
+   "Appropriate: padded rails keep her from injury, and suction and oxygen are needed if a seizure occurs.",
+   "Avoid: noise and many visitors stimulate her and increase seizure risk.",
+   "Avoid: she needs frequent observation, so leaving her alone for long periods is unsafe."
+  ],
   "strategy": "Seizure precautions",
   "difficulty": 2,
   "bloom": "apply",
@@ -667,7 +693,10 @@
   "answer": [],
   "rationale": "Delivery of the baby and placenta is the definitive treatment, but the risk of seizures does not end at birth, so assessment continues after delivery. Bed rest and diet may support care but do not resolve the condition.",
   "rationaleSimple": "Birth treats it, but the mother still needs close watching after delivery.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Birth of the baby and placenta: delivery is the definitive treatment for this pregnancy condition. Bed rest or a low-salt diet only supports care.",
+   "Into the postpartum period: seizures can still occur after birth, so monitoring continues. Stopping at labor or relying on the headache alone is unsafe."
+  ],
   "strategy": "Teaching about hypertensive disorders of pregnancy",
   "difficulty": 3,
   "bloom": "recall",
@@ -773,7 +802,13 @@
   ],
   "rationale": "A boggy displaced fundus, a full bladder preventing contraction, rapid pad saturation and pallor with restlessness are signs of significant blood loss. Mild perineal swelling is common after birth and is not the concern here.",
   "rationaleSimple": "Soft womb, full bladder, soaked pad and pale restless mother point to bleeding.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Hemorrhage sign: a soft, boggy fundus is not contracting, so the uterus cannot close the bleeding vessels; displacement to the right suggests a full bladder.",
+   "Hemorrhage sign: a distended bladder pushes the uterus up and stops it contracting, so bleeding continues.",
+   "Hemorrhage sign: a pad that saturates quickly shows heavy blood loss.",
+   "Hemorrhage sign: pallor and restlessness are signs of shock from blood loss.",
+   "Not a concern here: mild perineal swelling is common after birth and is not a sign of hemorrhage."
+  ],
   "strategy": "Recognizing postpartum hemorrhage",
   "difficulty": 3,
   "bloom": "judgment",
@@ -814,12 +849,12 @@
   "rationale": "A full bladder prevents the uterus from staying contracted, so voiding is encouraged. Frequent monitoring and reporting detect ongoing blood loss early and guide treatment, and accurate records support decisions. A firm fundus does not mean the risk has passed, and fluids are not routinely restricted.",
   "rationaleSimple": "Keep watching, help her pass urine, report and write it down.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Continue: an empty bladder lets the uterus stay contracted and helps prevent more bleeding.",
+   "Continue: records of pad use and fundal checks show whether bleeding is controlled.",
+   "Wrong: fluids are not routinely restricted; she needs adequate hydration after blood loss.",
+   "Continue: vital signs and consciousness show whether blood loss is affecting circulation.",
+   "Wrong: a firm fundus does not mean the risk has passed; she must still be assessed regularly.",
+   "Continue: the provider needs to know about the bleeding to guide treatment."
   ],
   "strategy": "Ongoing management after fundal massage",
   "difficulty": 3,
@@ -857,7 +892,12 @@
   "answer": [],
   "rationale": "A soft uterus is atony, which is common after prolonged labor. A firm fundus with persistent bright-red bleeding suggests trauma to the genital tract, and an incomplete placenta suggests retained tissue.",
   "rationaleSimple": "Soft womb means atony; firm womb with steady bleeding means a tear; missing placenta means retained tissue.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Uterine atony: a soft boggy fundus cannot compress vessels, causing heavy bleeding.",
+   "Genital tract tear: a firm fundus means the uterus is contracting, so continuing bright-red bleeding suggests trauma.",
+   "Retained placental tissue: an incomplete placenta suggests a piece remains in the uterus and keeps it from contracting.",
+   "Uterine atony: a uterus tired from a very long labor is often soft and slow to contract."
+  ],
   "strategy": "Differentiating causes of postpartum bleeding",
   "difficulty": 4,
   "bloom": "judgment",
@@ -995,12 +1035,12 @@
   "rationale": "Keeping the baby warm, undisturbed skin-to-skin contact, delayed cord clamping and early breastfeeding support are core steps of early newborn care. Bathing and separation work against warmth and bonding.",
   "rationaleSimple": "Keep her warm and with her mother and start breastfeeding early.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Wrong: separating mother and baby delays bonding, warmth and the first feed.",
+   "Right: helping with breastfeeding when feeding cues appear supports early successful feeding.",
+   "Wrong: an immediate bath cools the baby and delays skin-to-skin contact and feeding.",
+   "Right: delayed cord clamping, if the protocol allows it, benefits the newborn.",
+   "Right: uninterrupted skin-to-skin contact keeps the baby warm and promotes bonding and breastfeeding.",
+   "Right: drying and covering the baby, including the head, prevents heat loss."
   ],
   "strategy": "Essential newborn care steps",
   "difficulty": 3,
@@ -1078,7 +1118,12 @@
   "answer": [],
   "rationale": "Audible swallowing and a content baby with regular wet diapers indicate effective milk transfer. Ongoing pain or a baby too sleepy to feed suggests poor attachment or inadequate intake and needs more support.",
   "rationaleSimple": "Swallowing and wet diapers are good; pain or a sleepy baby who will not feed needs help.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Effective feeding: audible swallowing shows milk is moving into the baby.",
+   "Needs support: nipple pain throughout each feed suggests poor attachment.",
+   "Effective feeding: a content baby with regular wet diapers is getting enough milk.",
+   "Needs support: a baby who sleeps after a few sucks and is hard to wake may not be getting enough milk."
+  ],
   "strategy": "Evaluating breastfeeding effectiveness",
   "difficulty": 3,
   "bloom": "judgment",
@@ -1122,7 +1167,10 @@
   "answer": [],
   "rationale": "Early initiation promotes bonding, uterine contraction and milk supply, and feeding on demand lets the baby take the amount she needs. Strict schedules or routine supplements can reduce milk supply.",
   "rationaleSimple": "Start in the first hour and feed whenever the baby is hungry.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Within the first hour: early breastfeeding promotes bonding, uterine contraction and milk supply. Waiting a day or for white milk delays these.",
+   "On demand: feeding when she shows hunger cues lets the baby take what she needs. Strict schedules or routine formula can reduce milk supply."
+  ],
   "strategy": "Breastfeeding teaching",
   "difficulty": 2,
   "bloom": "recall",
@@ -1222,12 +1270,12 @@
   "rationale": "Toddlers are curious, mobile and put things in their mouths, so safety depends on adult supervision and environmental control. A toddler cannot reliably remember or follow safety rules.",
   "rationaleSimple": "Keep dangerous things out of reach and always watch him.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Right: pot handles turned to the back prevent a curious toddler from pulling hot contents down.",
+   "Wrong: toddlers cannot reliably remember rules, so safety depends on adult supervision.",
+   "Right: toddlers can drown in very little water, so they must never be left alone near it.",
+   "Right: small objects and hard foods are choking hazards for a toddler who puts things in his mouth.",
+   "Right: locked storage keeps medicines and cleaning products from being swallowed.",
+   "Right: gates and secure windows prevent falls."
   ],
   "strategy": "Injury prevention teaching for toddlers",
   "difficulty": 3,
@@ -1256,7 +1304,12 @@
   "answer": [],
   "rationale": "Toddlers play beside rather than with others and have tantrums as they test limits. Preschoolers use fantasy and imagination, while school-age children enjoy organized games with rules.",
   "rationaleSimple": "Toddlers play alongside others; preschoolers pretend; school-age children follow rules.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Toddler: toddlers play beside other children rather than with them.",
+   "Preschooler: imaginary friends and magical thinking are typical of the preschool years.",
+   "School-age child: team games with rules fit the rule-based thinking of school-age children.",
+   "Toddler: tantrums are common as toddlers test limits and cannot yet express frustration."
+  ],
   "strategy": "Age-typical behavior",
   "difficulty": 3,
   "bloom": "recall",
@@ -1350,7 +1403,10 @@
   "answer": [],
   "rationale": "Readiness varies, so training starts when the child can control his muscles and shows interest, not at a set age. Positive reinforcement supports learning, while punishment can cause fear and delay.",
   "rationaleSimple": "Wait until he is ready and praise him when he does well.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Physical and emotional readiness: training should begin when the child can control his muscles and shows interest, not at a set age or to match other children.",
+   "Praise: positive reinforcement supports learning. Punishing or ignoring successes can cause fear and delay training."
+  ],
   "strategy": "Toilet training guidance",
   "difficulty": 2,
   "bloom": "recall",
@@ -1449,12 +1505,12 @@
   "rationale": "Mothers should know the expected mild reactions, how to comfort the baby, which signs need urgent help and the importance of the record. Applying unproven substances to the site or withholding feeds is harmful or unnecessary.",
   "rationaleSimple": "Tell her what is normal, what is urgent, keep feeding and keep the card.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Right: feeding as usual keeps the baby comfortable and well hydrated.",
+   "Right: the immunisation card is the record of vaccines given and is needed at the next visit.",
+   "Right: telling the mother that mild fever, soreness and fussiness can occur prevents unnecessary worry.",
+   "Wrong: withholding feeds is unnecessary and could harm the baby.",
+   "Right: difficulty in breathing or facial swelling may mean a serious reaction and needs urgent help.",
+   "Wrong: hot or unproven substances on the site can burn or infect it."
   ],
   "strategy": "Post-immunisation teaching",
   "difficulty": 3,
@@ -1532,7 +1588,13 @@
   "answer": [],
   "rationale": "Local tenderness and mild fussiness or low-grade fever are common and settle. Breathing difficulty, seizures and prolonged inconsolable crying are not expected and require urgent evaluation.",
   "rationaleSimple": "Soreness and mild fussiness are fine; trouble breathing, seizures or endless crying need help.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Expected mild reaction: tenderness at the injection site is common and settles.",
+   "Expected mild reaction: mild fussiness with low-grade fever is common after vaccines.",
+   "Report urgently: difficulty in breathing may be a serious allergic reaction.",
+   "Report urgently: a seizure is not an expected reaction and needs urgent evaluation.",
+   "Report urgently: prolonged, inconsolable high-pitched crying is not expected and needs urgent evaluation."
+  ],
   "strategy": "Differentiating reactions",
   "difficulty": 3,
   "bloom": "judgment",
@@ -1578,7 +1640,10 @@
   "answer": [],
   "rationale": "Vaccines trigger the child's own immune system to produce antibodies and memory cells, which is active immunity. Passive immunity is borrowed from another source, such as the mother or a serum.",
   "rationaleSimple": "A vaccine teaches the body to make its own protection.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Active: the vaccine makes the child's own immune system respond. Passive immunity is borrowed from the mother or a serum.",
+   "Antibodies: a vaccine triggers antibody production and memory cells without the full disease."
+  ],
   "strategy": "Explaining immunisation",
   "difficulty": 2,
   "bloom": "recall",
@@ -1637,7 +1702,14 @@
   ],
   "rationale": "Use of accessory muscles, retractions, nasal flaring, wheeze and bluish lips show increased work of breathing and poor oxygenation. A normal temperature is useful but does not indicate the severity of distress.",
   "rationaleSimple": "Leaning forward, pulling in at the ribs, flaring nostrils, wheeze and blue lips show he is struggling.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Distress: sitting upright, leaning forward and using shoulder muscles show the child is working hard to breathe.",
+   "Distress: retractions between and under the ribs show strong effort to move air.",
+   "Distress: nasal flaring is a sign the child is trying to get more air in.",
+   "Distress: wheeze on breathing out shows narrowed airways.",
+   "Distress: bluish lips show low oxygen in the blood and are a serious sign.",
+   "Not a sign of distress: a normal temperature does not show how hard the child is breathing."
+  ],
   "strategy": "Recognizing respiratory distress",
   "difficulty": 3,
   "bloom": "judgment",
@@ -1719,12 +1791,12 @@
   "rationale": "Drowsiness, cyanosis, deepening retractions, inability to talk and a silent chest are signs of fatigue and impending respiratory failure. Playing and speaking in full sentences show improvement.",
   "rationaleSimple": "Sleepiness, blue lips, harder breathing and a silent chest mean he is getting worse.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Worse: deepening retractions show increasing effort to breathe.",
+   "Better: playing and speaking in full sentences show the child is breathing comfortably.",
+   "Worse: a very quiet chest with little air movement means too little air is moving, which is ominous.",
+   "Worse: being unable to speak or feed shows severe breathlessness.",
+   "Worse: bluish lips show low oxygen in the blood.",
+   "Worse: restlessness followed by drowsiness suggests the child is tiring and oxygen is falling."
   ],
   "strategy": "Evaluating response to treatment",
   "difficulty": 4,
@@ -1753,7 +1825,12 @@
   "answer": [],
   "rationale": "Anxiety and flaring appear early as the child tries to get more oxygen. Drowsiness and cyanosis occur when oxygen is critically low and indicate impending respiratory failure.",
   "rationaleSimple": "Restless and flaring early; sleepy and blue late.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Early: restlessness and anxiety appear when the body first senses low oxygen.",
+   "Early: mild nasal flaring is an early effort to take in more air.",
+   "Late: drowsiness and difficulty to arouse mean oxygen to the brain is critically low.",
+   "Late: cyanosis shows severe lack of oxygen and impending respiratory failure."
+  ],
   "strategy": "Early versus late signs",
   "difficulty": 3,
   "bloom": "judgment",
@@ -1816,7 +1893,7 @@
   "optionRationales": [
    "Unnecessary restriction; activity can be adjusted.",
    "Controller therapy needs consistent use as prescribed.",
-   "Delay is unsafe.",
+   "Wrong: waiting several hours with breathing difficulty is unsafe because an asthma attack can worsen quickly and needs prompt treatment.",
    "Best answer. Reducing triggers such as smoke and dust and following the prescribed plan are the basis of asthma control."
   ],
   "strategy": "Teaching on asthma control",
@@ -1860,12 +1937,12 @@
   "rationale": "Sunken eyes, dry mouth, reduced urine, absence of tears and slow skin return reflect fluid loss. Puffy eyelids with a moist mouth point to fluid excess, not loss.",
   "rationaleSimple": "Sunken eyes, dry mouth, little urine, no tears and slow skin return mean dehydration.",
   "optionRationales": [
-   "",
-   "",
-   "",
-   "",
-   "",
-   ""
+   "Dehydration: sunken eyes reflect fluid loss.",
+   "Dehydration: slow return of pinched skin shows loss of tissue fluid.",
+   "Not dehydration: puffy eyelids with a moist mouth point to fluid excess.",
+   "Dehydration: dry mucous membranes mean the body has too little fluid.",
+   "Dehydration: the absence of tears when crying shows reduced fluid.",
+   "Dehydration: decreased urine shows the kidneys are conserving water."
   ],
   "strategy": "Assessing hydration status",
   "difficulty": 3,
@@ -1902,7 +1979,7 @@
   "rationale": "Intake and output with weight trends are objective measures of fluid balance in a small child, because weight changes quickly with fluid loss or gain. The other options do not measure fluid status.",
   "rationaleSimple": "Measure what goes in and out, and her weight.",
   "optionRationales": [
-   "Not specific.",
+   "Wrong: appetite and play level are vague and subjective, so they do not measure how much fluid the child has gained or lost.",
    "Best answer. Intake and output with weight trends are objective measures of fluid balance in a small child, because weight changes quickly with fluid loss or gain.",
    "Subjective and unreliable.",
    "Temperature does not measure fluid status."
@@ -1934,7 +2011,12 @@
   "answer": [],
   "rationale": "Thirst, a slightly dry mouth and reduced urine suggest early fluid loss. Lethargy, poor perfusion and a weak fast pulse show circulatory compromise and need urgent treatment.",
   "rationaleSimple": "Thirsty and alert is mild; sleepy, cold and weak pulse is severe.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Mild: an alert child who is thirsty and drinks eagerly still has good circulation.",
+   "Severe: a lethargic child who is hard to wake has poor brain perfusion and needs urgent care.",
+   "Severe: very sunken eyes with cold hands and a weak fast pulse show circulation is failing.",
+   "Mild: a slightly dry mouth and less frequent urine suggest early fluid loss only."
+  ],
   "strategy": "Grading dehydration",
   "difficulty": 3,
   "bloom": "judgment",
@@ -2027,7 +2109,10 @@
   "answer": [],
   "rationale": "Hand washing at key times prevents spread of diarrhea-causing organisms. Small frequent sips of rehydration solution replace fluid and salts without triggering vomiting.",
   "rationaleSimple": "Wash hands at key times and give small sips of oral rehydration solution.",
-  "optionRationales": [],
+  "optionRationales": [
+   "After changing diapers and before preparing food: these are the key times when germs that cause diarrhea are spread. Washing only when hands look dirty misses many risks.",
+   "Oral rehydration solution in small, frequent sips: it replaces fluid and salts without triggering vomiting. Soft drinks lack the right balance and a large volume at once may be vomited."
+  ],
   "strategy": "Prevention and home care",
   "difficulty": 2,
   "bloom": "apply",
