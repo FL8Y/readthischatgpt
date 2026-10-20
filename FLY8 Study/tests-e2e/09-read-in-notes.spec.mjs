@@ -28,7 +28,10 @@ export default async function ({ ctx, base }) {
   await click(page.getByRole('button', { name: /^Custom practice/ }));
   // Seeded items have no bundle, so they sit under NP1 > Other topics.
   await click(btn(page, 'Open')); // NP1
-  await click(btn(page, 'Open').nth(2)); // Other topics (third group)
+  // Find the "Other topics" group by name (the tree grows as packs are added), then open it.
+  const otherRow = page.getByRole('checkbox', { name: /^Other topics, / }).first();
+  await see(otherRow, 'NP1 Other topics group');
+  await otherRow.locator('xpath=ancestor::*[.//*[@role="button" and @aria-label="Open"]][1]').getByRole('button', { name: 'Open', exact: true }).first().click();
   const linked = page.getByRole('checkbox', { name: /^E2E Linked, / });
   await click(linked);
   await click(page.getByRole('button', { name: /^Start \d+ question/ }));
