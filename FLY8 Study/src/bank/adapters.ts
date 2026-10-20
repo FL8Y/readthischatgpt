@@ -111,6 +111,16 @@ export function fromKitItem(k: KitItem, shared: { vignette?: string; clusterId?:
     vignette: shared.vignette ?? '',
     stem: String(k.stem ?? ''),
     rationale: String(k.rationale ?? ''),
+    ...(k.rationale_simplified ? { rationaleSimple: String(k.rationale_simplified) } : {}),
+    ...(k.image_suggestion && k.image_suggestion.description
+      ? {
+          imageSuggestion: {
+            description: String(k.image_suggestion.description),
+            placement: String(k.image_suggestion.placement ?? 'stem'),
+            searchTerms: (k.image_suggestion.search_terms ?? []).map(String),
+          },
+        }
+      : {}),
     strategy: String(meta.competency || meta.tos_content_area || 'unspecified'),
     difficulty: KIT_DIFFICULTY[String(meta.difficulty)] ?? 3,
     bloom: KIT_BLOOM[String(meta.cognitive_domain)],

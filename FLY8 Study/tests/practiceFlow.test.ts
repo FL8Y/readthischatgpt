@@ -69,7 +69,9 @@ describe('mode setup -> selection params', () => {
     expect(p.revealMode).toBe('end');
     expect(p.limitSeconds).toBe(120 * 60);
     expect(p.ids.length).toBeGreaterThan(0);
-    expect(p.ids.every((id) => byId.get(id)!.topic === topic)).toBe(true);
+    // case-set items come in whole clusters, so a sibling may carry another topic when the cluster has a matching item
+    const clusterHit = new Set(items.filter((i) => i.topic === topic && i.clusterId).map((i) => i.clusterId));
+    expect(p.ids.every((id) => { const it = byId.get(id)!; return it.topic === topic || (!!it.clusterId && clusterHit.has(it.clusterId)); })).toBe(true);
     expect(clampMinutes(1)).toBe(5);
     expect(clampMinutes(NaN)).toBe(5);
     const off = planSession({ kind: 'custom', values: { ...v, timerOn: false } }, ctx());
