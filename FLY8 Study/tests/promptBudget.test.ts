@@ -12,6 +12,8 @@ import { composeManualPrompt } from '../src/ai/manual';
 import { verificationPrompt } from '../src/core/provenance';
 import { pnleModuleQuizRequest, pnlePopQuizRequest } from '../src/pnle/requests';
 import { buildUnifiedPrompt } from '../src/pnle/unifiedPrompt';
+import { BATCH_WORD_CAP, DEFAULT_MIX, planBatches } from '../src/pnle/generator';
+import { BANK } from '../src/bank/loader';
 import type { AppState, Question, Topic } from '../src/core/types';
 
 const words = (s: string) => s.split(/\s+/).filter(Boolean).length;
@@ -140,5 +142,24 @@ describe('key quality rules survive', () => {
     const s = explainRequest(st, q, 'x', false, now).system;
     expect(s).toMatch(/error type/);
     expect(s).toMatch(/flip/);
+  });
+});
+
+describe('multi-topic generator batches (app-aware prompts)', () => {
+  const names = [...new Set(BANK.items.map((i) => i.topic))].slice(0, 10);
+  const body = `## Key facts\n${'fact words here '.repeat(400)}\n\n## Check against your textbook\n- note`;
+  const topics = names.map((name) => ({ name, body, noteId: name, count: 7 }));
+  it(`every batch prompt, wrapper included, stays within ${BATCH_WORD_CAP} words`, () => {
+    const batches = planBatches({ topics, mix: DEFAULT_MIX, difficulty: 'mixed', existing: BANK.items, weakness: 'priority; delegation' });
+    expect(batches.length).toBeGreaterThan(5);
+    for (const b of batches) {
+      expect(words(b.text)).toBeLessThanOrEqual(BATCH_WORD_CAP);
+      expect(b.count).toBeLessThanOrEqual(10);
+    }
+  });
+  it('a single small batch is well inside the cap and numbered', () => {
+    const [b] = planBatches({ topics: topics.slice(0, 1), mix: DEFAULT_MIX, difficulty: 3, existing: BANK.items });
+    expect(b.text).toContain('Batch 1 of 1');
+    expect(b.words).toBeLessThan(BATCH_WORD_CAP);
   });
 });
