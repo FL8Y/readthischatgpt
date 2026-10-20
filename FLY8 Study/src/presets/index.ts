@@ -23,6 +23,7 @@ import np5B from '../../data/presets/np5-b.json';
 import np5PsychC from '../../data/presets/np5-psych-c.json';
 import np5PsychD from '../../data/presets/np5-psych-d.json';
 import bundlesJson from '../../data/presets/bundles.json';
+import beginnerChn from '../../data/presets/beginner-eye-chn.json';
 
 export const PRESET_DISCLAIMER =
   'AI-written study notes from general nursing knowledge, coverage guided by a review deck outline. Not nurse-reviewed. Check against your textbook and local policy.';
@@ -41,6 +42,11 @@ export interface PresetNote {
   tags: string[];
   priority: PresetPriority;
   outlineRefs: string[];
+  /**
+   * Optional plain-language version for non-nurses (markdown-lite like `body`). Absent = not written yet;
+   * the reader then says so and never invents one. Written files live in data/presets/beginner-eye-*.json.
+   */
+  beginnerEye?: string;
   aiWritten: true;
   nurseReviewed: false;
 }
@@ -84,6 +90,7 @@ export function validatePresetNotes(raw: unknown): { notes: PresetNote[]; warnin
       tags: strs(n.tags),
       priority: n.priority === 'high' || n.priority === 'low' ? n.priority : 'medium',
       outlineRefs: strs(n.outlineRefs),
+      ...(isStr(n.beginnerEye) ? { beginnerEye: n.beginnerEye.trim() } : {}),
       aiWritten: true,
       nurseReviewed: false,
     });
@@ -92,6 +99,15 @@ export function validatePresetNotes(raw: unknown): { notes: PresetNote[]; warnin
 }
 
 const ALL_FILES: unknown[] = [genFundA, genFundB, genFundC, genPharm, genPlmar, np1A, np1B, np1Chn2, np1Comm, np2Ob, np2Pedia, np3Cardioresp, np3ErdnRenal, np3Hop, np4Gitendo, np4Neurosenses, np4Ortho, np5A, np5B, np5PsychC, np5PsychD];
+
+/** Beginner's Eye overlays: { noteId: text } maps, one file per written bundle. An inline `beginnerEye` on a note wins. */
+const BEGINNER_FILES: Record<string, unknown>[] = [beginnerChn];
+
+export function applyBeginnerEye(notes: PresetNote[], overlays: Record<string, unknown>[] = BEGINNER_FILES): PresetNote[] {
+  const map = new Map<string, string>();
+  for (const o of overlays) for (const [id, text] of Object.entries(o ?? {})) if (isStr(text) && !map.has(id)) map.set(id, text.trim());
+  return notes.map((n) => (n.beginnerEye || !map.has(n.id) ? n : { ...n, beginnerEye: map.get(n.id) }));
+}
 
 interface BundleDef {
   id: string;
@@ -107,7 +123,9 @@ interface BundleDef {
  * bundle list is kept in an "Other notes" pack rather than dropped.
  */
 function buildPacks(): (PresetPack & { warnings: string[] })[] {
-  const { notes, warnings } = validatePresetNotes(ALL_FILES.flatMap((f) => (Array.isArray(f) ? (f as unknown[]) : [])));
+  const checked = validatePresetNotes(ALL_FILES.flatMap((f) => (Array.isArray(f) ? (f as unknown[]) : [])));
+  const warnings = checked.warnings;
+  const notes = applyBeginnerEye(checked.notes);
   const byId = new Map(notes.map((n) => [n.id, n]));
   const used = new Set<string>();
   const packs: (PresetPack & { warnings: string[] })[] = [];
@@ -194,4 +212,12 @@ export function presetStatus(
     installed: p.notes.filter((n) => have.has(presetTopicId(n.id))).length,
     total: p.notes.length,
   }));
+}
+
+/** How many bundled notes have a Beginner's Eye, overall and per pack (for the lead's queue). */
+export function beginnerEyeCoverage(packs: PresetPack[] = PRESET_PACKS): { with: number; without: number; byPack: { packId: string; with: number; total: number }[] } {
+  const byPack = packs.map((p) => ({ packId: p.id, with: p.notes.filter((n) => n.beginnerEye).length, total: p.notes.length }));
+  const w = byPack.reduce((a, b) => a + b.with, 0);
+  const t = byPack.reduce((a, b) => a + b.total, 0);
+  return { with: w, without: t - w, byPack };
 }

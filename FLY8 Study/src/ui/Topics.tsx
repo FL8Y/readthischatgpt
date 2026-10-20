@@ -6,18 +6,21 @@ import { exportVault, vaultAsText } from '../lesson/vaultExport';
 import { isStudied, studiedLabel, studiedProgress, toggleStudied } from '../presets/studied';
 import { loadStudied, saveStudied } from '../presets/studiedStore';
 import { Lesson } from './Lesson';
-import { NoteReader } from './NoteReader';
+import { NoteReader, type NoteTab } from './NoteReader';
+import { StudyGuide } from './StudyGuide';
 import { Btn, Card, EmptyState, Field, H, P, ProgressBar, TOUCH } from './kit';
 import { space, useTheme } from './theme';
 
 /** Learn tab: every topic (preset and your own) grouped by folder. Notes open in a plain reader; AI lessons stay optional. */
-export function Topics({ state }: { state: AppState }) {
+export function Topics({ state, onAskTutor }: { state: AppState; onAskTutor?: () => void }) {
   const { colors, type } = useTheme();
   const [open, setOpen] = useState<string | null>(null);
   const [lessonOpen, setLessonOpen] = useState(false);
   const [note, setNote] = useState('');
   const [query, setQuery] = useState('');
   const [studied, setStudied] = useState<string[]>([]);
+  const [guide, setGuide] = useState(false);
+  const [openTab, setOpenTab] = useState<NoteTab>('full');
 
   useEffect(() => {
     let live = true;
@@ -32,8 +35,9 @@ export function Topics({ state }: { state: AppState }) {
     setStudied(next);
     void saveStudied(next);
   };
-  const openTopic = (id: string) => {
+  const openTopic = (id: string, tab: NoteTab = 'full') => {
     setLessonOpen(false);
+    setOpenTab(tab);
     setOpen(id);
   };
 
@@ -45,11 +49,16 @@ export function Topics({ state }: { state: AppState }) {
         topicId={open}
         studied={isStudied(studied, open)}
         onToggleStudied={() => toggle(open)}
-        onOpen={openTopic}
+        onOpen={(id) => openTopic(id, openTab)}
+        initialTab={openTab}
         onBack={() => setOpen(null)}
         onLesson={() => setLessonOpen(true)}
       />
     );
+  }
+
+  if (guide) {
+    return <StudyGuide state={state} studied={studied} onOpen={openTopic} onAskTutor={onAskTutor} onClose={() => setGuide(false)} />;
   }
 
   const share = async () => {
@@ -73,6 +82,11 @@ export function Topics({ state }: { state: AppState }) {
   let shown = 0;
   return (
     <View style={{ gap: space.md }}>
+      <Card tone="tinted">
+        <H>Not sure where to start?</H>
+        <P dim>The Study Guide lines your notes up from easiest to hardest, with a Beginner's Eye version of each ready-made note.</P>
+        <Btn label="Open Study Guide" onPress={() => setGuide(true)} />
+      </Card>
       <Field label="Search notes" value={query} onChangeText={setQuery} placeholder="Title or text" autoCorrect={false} />
       {state.folders.map((f) => {
         const all = state.topics.filter((t) => t.folderId === f.id);
