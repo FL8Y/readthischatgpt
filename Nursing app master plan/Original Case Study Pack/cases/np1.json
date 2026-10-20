@@ -1,0 +1,1772 @@
+[
+  {
+    "id": "cs-np1-01",
+    "type": "situation",
+    "title": "Blood Pressure Awareness at the Barangay",
+    "situation": "Nurse Liza Dimaculangan works at a barangay health center in a rural municipality. Many residents have high blood pressure, but few come for regular check-ups. She meets the barangay captain, barangay health workers and a group of adult residents to plan a community health session on blood pressure control.",
+    "items": [
+      {
+        "id": "cs-np1-01-a",
+        "type": "mcq",
+        "stem": "The barangay captain, health workers and residents themselves meet with the nurse and decide which health problem to tackle first. Which principle of primary health care does this best illustrate?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Equity in access to services",
+            "why_not": "Equity is about fair reach of services to all groups, not about residents deciding priorities."
+          },
+          {
+            "label": "B",
+            "text": "Community participation",
+            "why_not": ""
+          },
+          {
+            "label": "C",
+            "text": "Intersectoral collaboration",
+            "why_not": "This involves other sectors such as education or agriculture, which is not the cue here."
+          },
+          {
+            "label": "D",
+            "text": "Use of appropriate technology",
+            "why_not": "This concerns methods that are acceptable and affordable, not who sets priorities."
+          }
+        ],
+        "answer": "B",
+        "rationale": "The decisive cue is that residents take part in identifying and prioritising their own health problem; this is community participation, a core principle of primary health care. Intersectoral collaboration is the strongest distractor, but it requires partner sectors beyond health, which the scenario does not describe.",
+        "rationale_simplified": "When residents help choose and plan what to work on, that is community participation.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Primary health care",
+          "topic_id": "community-health-nursing/chn-phc/primary-health-care",
+          "cognitive_domain": "understanding",
+          "difficulty": "easy",
+          "nursing_process_phase": "not_applicable",
+          "evidence_status": "needs_review",
+          "competency": "Applies principles of primary health care"
+        }
+      },
+      {
+        "id": "cs-np1-01-b",
+        "type": "sata",
+        "stem": "The nurse will teach a mixed group of adults about controlling high blood pressure. Which actions apply adult-learning principles? Select all that apply.",
+        "options": [
+          "Ask participants what they already know and what they want to learn",
+          "Relate the content to their daily meals and work routines",
+          "Use only medical terms so the information stays accurate",
+          "Invite participants to share their own experiences",
+          "Keep the session as a one-way lecture to save time",
+          "Use the local language and simple pictures or demonstrations"
+        ],
+        "answers": [
+          0,
+          1,
+          3,
+          5
+        ],
+        "rationale": "Adults learn best when teaching builds on their experience, relates to real-life needs, and uses language and methods they understand. Medical jargon and a purely one-way lecture limit understanding and involvement, so they are poor choices.",
+        "rationale_simplified": "Adults learn when teaching uses what they know, fits their daily life, and is easy to understand.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Health teaching",
+          "topic_id": "community-health-nursing/chn-phc/health-promotion",
+          "cognitive_domain": "applying",
+          "difficulty": "moderate",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Plans and conducts community health teaching"
+        }
+      },
+      {
+        "id": "cs-np1-01-c",
+        "type": "cloze",
+        "stem": "Choose the level of prevention that completes each statement.",
+        "text": "Screening residents for high blood pressure to detect disease early is {{1}} prevention, while teaching healthy eating to residents who have no disease is {{2}} prevention.",
+        "blanks": [
+          {
+            "id": "1",
+            "choices": [
+              "primary",
+              "secondary",
+              "tertiary"
+            ],
+            "correct_index": 1
+          },
+          {
+            "id": "2",
+            "choices": [
+              "tertiary",
+              "secondary",
+              "primary"
+            ],
+            "correct_index": 2
+          }
+        ],
+        "rationale": "Secondary prevention means early detection and prompt treatment, which is what screening does. Primary prevention means keeping disease from occurring in people who are well, as in health education for healthy people. Tertiary prevention limits disability and aids rehabilitation after disease is established.",
+        "rationale_simplified": "Screening finds disease early (secondary); teaching well people to stay healthy is primary prevention.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Levels of prevention",
+          "topic_id": "community-health-nursing/chn-phc/health-promotion",
+          "cognitive_domain": "understanding",
+          "difficulty": "easy",
+          "nursing_process_phase": "not_applicable",
+          "evidence_status": "needs_review",
+          "competency": "Classifies health activities by level of prevention"
+        }
+      },
+      {
+        "id": "cs-np1-01-d",
+        "type": "highlight",
+        "stem": "Select the parts of the nurse's post-session note that show the teaching objectives were NOT yet achieved.",
+        "segments": [
+          {
+            "text": "Twelve of fifteen participants named foods they should limit.",
+            "selectable": false,
+            "correct": false
+          },
+          {
+            "text": "Three participants could not explain why medicines must be continued even when they feel well.",
+            "selectable": true,
+            "correct": true
+          },
+          {
+            "text": "Most participants correctly showed the arm position for blood pressure measurement.",
+            "selectable": false,
+            "correct": false
+          },
+          {
+            "text": "One participant said she will stop her tablets once she feels better.",
+            "selectable": true,
+            "correct": true
+          },
+          {
+            "text": "Several participants thanked the nurse and asked for another session.",
+            "selectable": true,
+            "correct": false
+          }
+        ],
+        "rationale": "Learners who cannot explain why treatment continues, or who plan to stop medicine when symptoms disappear, have not met the objective on medicine adherence. Thanks and requests for another session show satisfaction, but they are not evidence of learning.",
+        "rationale_simplified": "Look for what people cannot do or say correctly; being thankful does not prove they learned.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Evaluation of health teaching",
+          "topic_id": "community-health-nursing/chn-phc/health-promotion",
+          "cognitive_domain": "analyzing",
+          "difficulty": "moderate",
+          "nursing_process_phase": "evaluation",
+          "evidence_status": "needs_review",
+          "competency": "Evaluates learning outcomes of health teaching"
+        }
+      },
+      {
+        "id": "cs-np1-01-e",
+        "type": "mcq",
+        "stem": "Which evaluation method best shows that participants can correctly check their own blood pressure at home?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Ask the group whether they understood the steps that were taught",
+            "why_not": "Self-report of understanding does not confirm a skill."
+          },
+          {
+            "label": "B",
+            "text": "Count how many people attended and stayed for the whole session",
+            "why_not": "Attendance measures participation, not learning."
+          },
+          {
+            "label": "C",
+            "text": "Give a written quiz on the definition and causes of hypertension",
+            "why_not": "This tests knowledge of a definition, not the ability to perform the skill."
+          },
+          {
+            "label": "D",
+            "text": "Have each participant perform it while the nurse observes",
+            "why_not": ""
+          }
+        ],
+        "answer": "D",
+        "rationale": "A psychomotor skill is best evaluated by return demonstration, in which the learner performs the procedure and the nurse observes accuracy. A written quiz tests cognitive recall only, and asking whether people understood often brings polite agreement even when errors remain.",
+        "rationale_simplified": "To check a skill, watch the person do it.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Evaluation of health teaching",
+          "topic_id": "community-health-nursing/chn-phc/health-promotion",
+          "cognitive_domain": "applying",
+          "difficulty": "easy",
+          "nursing_process_phase": "evaluation",
+          "evidence_status": "needs_review",
+          "competency": "Evaluates learning outcomes of health teaching"
+        },
+        "image_suggestion": {
+          "description": "Close-up of an adult seated with arm supported at heart level while a cuff is applied to the upper arm and a stethoscope is placed over the brachial artery.",
+          "placement": "stem",
+          "search_terms": [
+            "blood pressure measurement technique",
+            "sphygmomanometer upper arm cuff",
+            "brachial artery auscultation"
+          ],
+          "must_be": "unlabelled"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cs-np1-02",
+    "type": "situation",
+    "title": "Immunization Day at the Rural Health Unit",
+    "situation": "Nurse Mario Santos conducts an immunization session at a rural health unit. Mrs. Gina Reyes brings her 3-month-old son for a scheduled vaccine. She says he has had a runny nose and a mild cough for two days but he is feeding well, is active and is not feverish. She is worried that he may not be allowed to receive the vaccine today.",
+    "items": [
+      {
+        "id": "cs-np1-02-a",
+        "type": "mcq",
+        "stem": "After screening, the nurse finds the baby active, feeding well and without fever. Which action is most appropriate?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Proceed with the scheduled vaccine and reassure the mother",
+            "why_not": ""
+          },
+          {
+            "label": "B",
+            "text": "Postpone the vaccine until the cough has completely cleared",
+            "why_not": "A minor cold without fever is not a usual reason to delay and causes a missed opportunity."
+          },
+          {
+            "label": "C",
+            "text": "Refer the infant to a physician for clearance first",
+            "why_not": "Routine referral is unnecessary for a minor illness in a well-appearing infant."
+          },
+          {
+            "label": "D",
+            "text": "Give a fever-reducing medicine to the baby before the injection",
+            "why_not": "Routine pre-medication is not required and adds an unneeded step."
+          }
+        ],
+        "answer": "A",
+        "rationale": "A well-appearing infant with only a mild cold and no fever can usually be vaccinated, so the nurse proceeds and reassures the mother. Delaying causes missed opportunities and leaves the child unprotected, which is the main weakness of the deferral option.",
+        "rationale_simplified": "A baby who is well apart from a mild cold can still be vaccinated.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Immunization principles",
+          "topic_id": "community-health-nursing/elements-of-primary-health-care/expanded-program-on-immunization",
+          "cognitive_domain": "applying",
+          "difficulty": "easy",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Screens clients before immunization"
+        }
+      },
+      {
+        "id": "cs-np1-02-b",
+        "type": "sata",
+        "stem": "The RHU nurse prepares for an outreach immunization session. Which practices help maintain the cold chain? Select all that apply.",
+        "options": [
+          "Keep vaccines within the recommended temperature range",
+          "Record refrigerator temperature regularly",
+          "Store drinks and food in the vaccine refrigerator",
+          "Leave vaccines on the table during the whole session",
+          "Place vaccines in a cold box with ice packs during outreach",
+          "Open the refrigerator door often to check the vaccines"
+        ],
+        "answers": [
+          0,
+          1,
+          4
+        ],
+        "rationale": "The cold chain keeps vaccines at the recommended temperature from storage to administration, so vaccines are kept in a proper refrigerator, temperatures are monitored, and vaccines travel in a cold box. Storing food, leaving vaccines out and opening the door often all expose vaccines to temperature changes.",
+        "rationale_simplified": "Vaccines must stay cold the whole time, from the fridge to the child.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Cold chain",
+          "topic_id": "community-health-nursing/elements-of-primary-health-care/expanded-program-on-immunization",
+          "cognitive_domain": "applying",
+          "difficulty": "moderate",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Maintains the cold chain"
+        },
+        "image_suggestion": {
+          "description": "A vaccine carrier or cold box packed with conditioned ice packs, vaccine vials and a thermometer, showing the arrangement of items inside.",
+          "placement": "rationale",
+          "search_terms": [
+            "vaccine carrier ice packs",
+            "cold chain vaccine storage",
+            "vaccine cold box"
+          ],
+          "must_be": "labelled"
+        }
+      },
+      {
+        "id": "cs-np1-02-c",
+        "type": "mcq",
+        "stem": "The mother asks what to expect after the injection. Which teaching is most appropriate?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Babies should show no reaction, so any fussiness or fever means the vaccine did not work",
+            "why_not": "Mild reactions are common and do not mean the vaccine failed."
+          },
+          {
+            "label": "B",
+            "text": "A fever after the injection is harmless, so there is no need to return even if the baby looks very ill",
+            "why_not": "Danger signs need prompt attention; this advice is unsafe."
+          },
+          {
+            "label": "C",
+            "text": "Mild soreness or fever may occur; return at once if the baby is very sleepy or has trouble breathing",
+            "why_not": ""
+          },
+          {
+            "label": "D",
+            "text": "Hold back breastfeeding for the rest of the day so the baby's stomach can settle",
+            "why_not": "There is no need to stop breastfeeding after routine vaccination."
+          }
+        ],
+        "answer": "C",
+        "rationale": "Parents should be told about common mild reactions and about warning signs that require prompt care, such as unusual drowsiness or breathing difficulty. Telling parents that no reaction occurs or that all fever is harmless is inaccurate and may delay care.",
+        "rationale_simplified": "Tell the mother what is normal and which warning signs mean she must come back at once.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Immunization health teaching",
+          "topic_id": "community-health-nursing/elements-of-primary-health-care/expanded-program-on-immunization",
+          "cognitive_domain": "applying",
+          "difficulty": "moderate",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Teaches parents about vaccine reactions"
+        }
+      },
+      {
+        "id": "cs-np1-02-d",
+        "type": "cloze",
+        "stem": "Complete the statements about types of immunity.",
+        "text": "Immunity gained when the body makes its own antibodies after a vaccine is {{1}} immunity, while antibodies passed from a mother to her baby through the placenta give {{2}} immunity.",
+        "blanks": [
+          {
+            "id": "1",
+            "choices": [
+              "artificial active",
+              "natural active",
+              "artificial passive"
+            ],
+            "correct_index": 0
+          },
+          {
+            "id": "2",
+            "choices": [
+              "artificial active",
+              "natural passive",
+              "artificial passive"
+            ],
+            "correct_index": 1
+          }
+        ],
+        "rationale": "A vaccine stimulates the person's own immune system, giving artificial active immunity. Antibodies that cross the placenta are received ready-made through a natural process, so this is natural passive immunity.",
+        "rationale_simplified": "A vaccine makes the body produce its own protection; antibodies from the mother are borrowed protection.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Types of immunity",
+          "topic_id": "community-health-nursing/elements-of-primary-health-care/expanded-program-on-immunization",
+          "cognitive_domain": "remembering",
+          "difficulty": "moderate",
+          "nursing_process_phase": "not_applicable",
+          "evidence_status": "needs_review",
+          "competency": "Differentiates types of immunity"
+        }
+      },
+      {
+        "id": "cs-np1-02-e",
+        "type": "matrix",
+        "stem": "Place each nursing responsibility in the correct time of the immunization visit.",
+        "columns": [
+          "Before giving the vaccine",
+          "After giving the vaccine"
+        ],
+        "rows": [
+          {
+            "text": "Ask about a severe reaction to a previous dose",
+            "correct_column": 0
+          },
+          {
+            "text": "Check the expiry date of the vaccine",
+            "correct_column": 0
+          },
+          {
+            "text": "Observe the child for an immediate reaction",
+            "correct_column": 1
+          },
+          {
+            "text": "Record the vaccine, date and injection site",
+            "correct_column": 1
+          },
+          {
+            "text": "Advise the mother when to return for the next dose",
+            "correct_column": 1
+          }
+        ],
+        "rationale": "Screening for contraindications and checking the vaccine are done before administration. Observation, documentation and giving return instructions follow administration so the mother has complete information and the record is accurate.",
+        "rationale_simplified": "Check safety first; watch, record and give advice afterwards.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Immunization nursing responsibilities",
+          "topic_id": "community-health-nursing/elements-of-primary-health-care/expanded-program-on-immunization",
+          "cognitive_domain": "applying",
+          "difficulty": "easy",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Carries out pre- and post-immunization responsibilities"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cs-np1-03",
+    "type": "situation",
+    "title": "Postpartum Home Visit",
+    "situation": "Nurse Carlo Mendoza visits Mrs. Ana Villanueva, 28, four days after she delivered her second baby at the district hospital. Mrs. Villanueva says the baby has been feeding poorly since last night and seems unusually sleepy. She also has mild afterpains and describes her vaginal discharge as red-brown without odor. The house is clean and her older child is playing nearby.",
+    "items": [
+      {
+        "id": "cs-np1-03-a",
+        "type": "highlight",
+        "stem": "Select the findings in the nurse's home-visit note that need urgent attention.",
+        "segments": [
+          {
+            "text": "Mother reports red-brown lochia without foul odor.",
+            "selectable": true,
+            "correct": false
+          },
+          {
+            "text": "Newborn has been feeding poorly since last night.",
+            "selectable": true,
+            "correct": true
+          },
+          {
+            "text": "Newborn is hard to wake and feels limp when picked up.",
+            "selectable": true,
+            "correct": true
+          },
+          {
+            "text": "Umbilical cord stump is dry with no redness.",
+            "selectable": false,
+            "correct": false
+          },
+          {
+            "text": "Mother has mild afterpains; breasts are soft.",
+            "selectable": true,
+            "correct": false
+          },
+          {
+            "text": "Older child is playing and appears well.",
+            "selectable": false,
+            "correct": false
+          }
+        ],
+        "rationale": "Poor feeding together with unusual sleepiness and limpness are newborn danger signs that may indicate serious infection or another grave illness. Red-brown lochia and mild afterpains are expected on the fourth postpartum day, so they are not the urgent concerns.",
+        "rationale_simplified": "A newborn who feeds poorly and is hard to wake is in danger; the mother's findings are normal.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Newborn danger signs",
+          "topic_id": "community-health-nursing/elements-of-primary-health-care/maternal-and-child-health",
+          "cognitive_domain": "analyzing",
+          "difficulty": "moderate",
+          "nursing_process_phase": "assessment",
+          "evidence_status": "needs_review",
+          "competency": "Recognises danger signs in the newborn"
+        }
+      },
+      {
+        "id": "cs-np1-03-b",
+        "type": "mcq",
+        "stem": "Which action should the nurse take first for the newborn?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Advise the mother to breastfeed more often and review the baby again in two days",
+            "why_not": "Delays care for a baby showing danger signs."
+          },
+          {
+            "label": "B",
+            "text": "Advise giving sugar water by spoon at home until the baby becomes more awake",
+            "why_not": "Gives no reliable benefit and risks aspiration; it is not a substitute for urgent care."
+          },
+          {
+            "label": "C",
+            "text": "Keep the baby warm and refer immediately to a facility that treats sick newborns",
+            "why_not": ""
+          },
+          {
+            "label": "D",
+            "text": "Finish the routine postpartum checklist first, then decide whether referral is needed",
+            "why_not": "Completing routine tasks first delays urgent care."
+          }
+        ],
+        "answer": "C",
+        "rationale": "A newborn who feeds poorly and is difficult to wake needs urgent assessment and care that cannot be provided at home, so the nurse keeps the baby warm and refers immediately. Completing the routine checklist or waiting for a revisit would delay treatment of a possibly life-threatening condition.",
+        "rationale_simplified": "A sleepy newborn who will not feed needs to go to a facility now.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Newborn danger signs",
+          "topic_id": "community-health-nursing/elements-of-primary-health-care/maternal-and-child-health",
+          "cognitive_domain": "applying",
+          "difficulty": "moderate",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Prioritises care and referral for sick newborns"
+        }
+      },
+      {
+        "id": "cs-np1-03-c",
+        "type": "sata",
+        "stem": "Which findings are expected in the mother on the fourth day after a normal vaginal delivery? Select all that apply.",
+        "options": [
+          "Mild afterpains, especially during breastfeeding",
+          "Lochia with a foul odor",
+          "A firm uterine fundus that is gradually descending",
+          "Lochia changing to a red-brown color",
+          "Soaking a pad quickly with passage of large clots",
+          "Severe headache with blurred vision"
+        ],
+        "answers": [
+          0,
+          2,
+          3
+        ],
+        "rationale": "Afterpains, a firm descending fundus and lochia changing from bright red to red-brown are part of normal uterine involution. Foul-smelling lochia suggests infection, rapid soaking with large clots suggests hemorrhage, and severe headache with blurred vision is a danger sign requiring prompt care.",
+        "rationale_simplified": "Mild cramps, a firm uterus and darker bleeding are normal; foul smell, heavy bleeding and severe headache are not.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Postpartum assessment",
+          "topic_id": "community-health-nursing/elements-of-primary-health-care/maternal-and-child-health",
+          "cognitive_domain": "applying",
+          "difficulty": "moderate",
+          "nursing_process_phase": "assessment",
+          "evidence_status": "needs_review",
+          "competency": "Differentiates normal from abnormal postpartum findings"
+        }
+      },
+      {
+        "id": "cs-np1-03-d",
+        "type": "cloze",
+        "stem": "Complete the description of good breastfeeding attachment.",
+        "text": "A well-attached baby has the mouth {{1}} open and the lower lip turned {{2}}, with more areola visible above the mouth than below it.",
+        "blanks": [
+          {
+            "id": "1",
+            "choices": [
+              "wide",
+              "slightly",
+              "barely"
+            ],
+            "correct_index": 0
+          },
+          {
+            "id": "2",
+            "choices": [
+              "outward",
+              "inward",
+              "tightly in"
+            ],
+            "correct_index": 0
+          }
+        ],
+        "rationale": "Good attachment features a wide-open mouth, a lower lip that is turned outward, the chin touching the breast and more areola visible above than below. Good attachment allows effective milk transfer and prevents nipple pain.",
+        "rationale_simplified": "A good latch has a wide mouth and an outward-turned lower lip.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Breastfeeding",
+          "topic_id": "community-health-nursing/elements-of-primary-health-care/maternal-and-child-health",
+          "cognitive_domain": "remembering",
+          "difficulty": "easy",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Teaches correct breastfeeding technique"
+        },
+        "image_suggestion": {
+          "description": "Mother breastfeeding a newborn showing the baby's mouth wide open around the areola, chin touching the breast and body turned toward the mother.",
+          "placement": "rationale",
+          "search_terms": [
+            "breastfeeding good attachment",
+            "breastfeeding latch",
+            "infant latch on breast"
+          ],
+          "must_be": "labelled"
+        }
+      },
+      {
+        "id": "cs-np1-03-e",
+        "type": "matrix",
+        "stem": "Classify each newborn finding.",
+        "columns": [
+          "Normal newborn finding",
+          "Needs urgent referral"
+        ],
+        "rows": [
+          {
+            "text": "Occasional sneezing and hiccups",
+            "correct_column": 0
+          },
+          {
+            "text": "Convulsions",
+            "correct_column": 1
+          },
+          {
+            "text": "Fast breathing with chest indrawing",
+            "correct_column": 1
+          },
+          {
+            "text": "Peeling of the skin on the hands and feet",
+            "correct_column": 0
+          },
+          {
+            "text": "Body feels very cold despite wrapping",
+            "correct_column": 1
+          }
+        ],
+        "rationale": "Sneezing, hiccups and mild peeling of the skin are common and harmless in newborns. Convulsions, breathing difficulty with chest indrawing and persistent coldness are danger signs requiring prompt medical care.",
+        "rationale_simplified": "Sneezing and peeling are normal; fits, hard breathing and being very cold are emergencies.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Newborn assessment",
+          "topic_id": "community-health-nursing/elements-of-primary-health-care/maternal-and-child-health",
+          "cognitive_domain": "analyzing",
+          "difficulty": "moderate",
+          "nursing_process_phase": "assessment",
+          "evidence_status": "needs_review",
+          "competency": "Differentiates normal and abnormal newborn findings"
+        },
+        "image_suggestion": {
+          "description": "A series of photographs of a newborn's skin, umbilical cord stump and eyes in different conditions, shown without captions so the learner must judge each.",
+          "placement": "stem",
+          "search_terms": [
+            "newborn umbilical cord stump",
+            "neonatal jaundice",
+            "newborn skin examination"
+          ],
+          "must_be": "unlabelled"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cs-np1-04",
+    "type": "situation",
+    "title": "Cluster of Fevers in Purok 3",
+    "situation": "Nurse Joy Alcantara at a rural health unit is told by barangay health workers that five children in the same purok have had fever for two to three days within one week during the rainy season. Many households keep uncovered water drums, and old tires lie around the yards. One of the children, a 9-year-old, is brought in on the fourth day with fever, headache and body aches.",
+    "items": [
+      {
+        "id": "cs-np1-04-a",
+        "type": "mcq",
+        "stem": "What is the most appropriate first action of the nurse regarding the cluster of cases?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Advise families to treat fevers at home and report again after one month if it persists",
+            "why_not": "This delays detection and response to a possible outbreak."
+          },
+          {
+            "label": "B",
+            "text": "Wait for laboratory confirmation of every child before notifying anyone in authority",
+            "why_not": "Prompt reporting should not wait for complete confirmation."
+          },
+          {
+            "label": "C",
+            "text": "Begin fogging the whole barangay at once, before any other action is taken",
+            "why_not": "Fogging alone is not the first or sole measure; it does not replace reporting and removing breeding sites."
+          },
+          {
+            "label": "D",
+            "text": "Report the cluster to the surveillance unit and start collecting case details",
+            "why_not": ""
+          }
+        ],
+        "answer": "D",
+        "rationale": "Several similar illnesses in one area within a short time suggest a possible outbreak, so the nurse promptly notifies the surveillance unit and gathers information on cases. Waiting for full confirmation delays the response, and spraying without investigation does not address breeding sites.",
+        "rationale_simplified": "Several similar cases close together should be reported quickly.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Disease surveillance and reporting",
+          "topic_id": "community-health-nursing/elements-of-primary-health-care/locally-endemic-diseases",
+          "cognitive_domain": "applying",
+          "difficulty": "moderate",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Reports suspected outbreaks"
+        }
+      },
+      {
+        "id": "cs-np1-04-b",
+        "type": "sata",
+        "stem": "Which household measures help reduce mosquito breeding and bites? Select all that apply.",
+        "options": [
+          "Cover water storage containers tightly",
+          "Dispose of or turn over old tires and cans that collect rainwater",
+          "Change water in flower vases regularly",
+          "Use repellent and wear long sleeves during the day",
+          "Depend on a mosquito net at night to protect against daytime bites",
+          "Leave water containers uncovered for convenience"
+        ],
+        "answers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationale": "Mosquitoes that carry dengue breed in clean stored water and bite mostly during the day. Covering containers, removing water-collecting objects, changing water and using personal protection by day reduce the risk, whereas a night-only net does not protect against daytime biting.",
+        "rationale_simplified": "Remove places where water collects and protect yourself from daytime bites.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Dengue prevention",
+          "topic_id": "community-health-nursing/elements-of-primary-health-care/locally-endemic-diseases",
+          "cognitive_domain": "applying",
+          "difficulty": "easy",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Teaches vector control measures"
+        },
+        "image_suggestion": {
+          "description": "Photograph of household containers and areas where Aedes mosquitoes breed, such as water drums, used tires, flower vases and clogged gutters.",
+          "placement": "rationale",
+          "search_terms": [
+            "Aedes aegypti breeding sites",
+            "mosquito breeding container water",
+            "dengue prevention clean-up"
+          ],
+          "must_be": "labelled"
+        }
+      },
+      {
+        "id": "cs-np1-04-c",
+        "type": "matrix",
+        "stem": "Decide whether each finding in a child with suspected dengue can be managed with close home monitoring or needs urgent referral.",
+        "columns": [
+          "Home care with close monitoring",
+          "Urgent referral"
+        ],
+        "rows": [
+          {
+            "text": "Fever with mild body aches; drinking well and passing urine normally",
+            "correct_column": 0
+          },
+          {
+            "text": "Persistent vomiting; unable to keep fluids down",
+            "correct_column": 1
+          },
+          {
+            "text": "Severe abdominal pain",
+            "correct_column": 1
+          },
+          {
+            "text": "Bleeding from the gums or nose",
+            "correct_column": 1
+          },
+          {
+            "text": "Mild headache; alert, eating small meals and drinking fluids",
+            "correct_column": 0
+          }
+        ],
+        "rationale": "A child who is alert, drinks well, passes urine and eats small meals may be monitored at home with clear return advice. Persistent vomiting, severe abdominal pain and bleeding are warning signs of severe disease and need urgent medical evaluation.",
+        "rationale_simplified": "A child who is alert, drinking and passing urine can stay home; vomiting, severe tummy pain or bleeding means go now.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Dengue warning signs",
+          "topic_id": "community-health-nursing/elements-of-primary-health-care/treatment-of-communicable-and-noncommunicable-diseases-and-emergency-services",
+          "cognitive_domain": "analyzing",
+          "difficulty": "moderate",
+          "nursing_process_phase": "assessment",
+          "evidence_status": "needs_review",
+          "competency": "Recognises warning signs of severe dengue"
+        },
+        "image_suggestion": {
+          "description": "Skin of a child's forearm showing a petechial rash and a tourniquet-test site, shown without a caption.",
+          "placement": "rationale",
+          "search_terms": [
+            "dengue petechiae",
+            "tourniquet test dengue",
+            "petechial rash child"
+          ],
+          "must_be": "labelled"
+        }
+      },
+      {
+        "id": "cs-np1-04-d",
+        "type": "cloze",
+        "stem": "Choose the correct words for the home care advice.",
+        "text": "For fever the mother is advised to give {{1}} as ordered and to encourage plenty of {{2}}.",
+        "blanks": [
+          {
+            "id": "1",
+            "choices": [
+              "paracetamol",
+              "aspirin",
+              "mefenamic acid"
+            ],
+            "correct_index": 0
+          },
+          {
+            "id": "2",
+            "choices": [
+              "oral fluids",
+              "fasting",
+              "salty snacks only"
+            ],
+            "correct_index": 0
+          }
+        ],
+        "rationale": "Paracetamol is the usual choice for fever in suspected dengue, whereas aspirin and other NSAIDs are avoided because they may increase bleeding risk. Adequate oral fluids help prevent dehydration, which is a main concern during the illness.",
+        "rationale_simplified": "Use paracetamol, not aspirin, and give lots of fluids.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Dengue home care",
+          "topic_id": "community-health-nursing/elements-of-primary-health-care/treatment-of-communicable-and-noncommunicable-diseases-and-emergency-services",
+          "cognitive_domain": "remembering",
+          "difficulty": "moderate",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Teaches home care for fever"
+        }
+      },
+      {
+        "id": "cs-np1-04-e",
+        "type": "mcq",
+        "stem": "A nurse trainee asks what disease surveillance means. Which is the best explanation?",
+        "options": [
+          {
+            "label": "A",
+            "text": "A one-time survey of residents carried out after an outbreak has already ended",
+            "why_not": "Surveillance is ongoing, not a single survey."
+          },
+          {
+            "label": "B",
+            "text": "Ongoing, systematic collection and analysis of health data to guide public health action",
+            "why_not": ""
+          },
+          {
+            "label": "C",
+            "text": "Treating each sick person at the health center until he or she has recovered",
+            "why_not": "Describes clinical care, not surveillance."
+          },
+          {
+            "label": "D",
+            "text": "Spraying or cleaning the places where disease-carrying insects breed",
+            "why_not": "This is a control measure, not surveillance."
+          }
+        ],
+        "answer": "B",
+        "rationale": "Surveillance is the ongoing systematic collection, analysis and interpretation of health data, followed by use of the information for action. A single survey, case treatment and vector control are separate activities.",
+        "rationale_simplified": "Surveillance means always watching the health data so action can be taken early.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Surveillance",
+          "topic_id": "community-health-nursing/elements-of-primary-health-care/locally-endemic-diseases",
+          "cognitive_domain": "understanding",
+          "difficulty": "easy",
+          "nursing_process_phase": "not_applicable",
+          "evidence_status": "needs_review",
+          "competency": "Explains disease surveillance"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cs-np1-05",
+    "type": "situation",
+    "title": "Sanitation Survey in a Coastal Barangay",
+    "situation": "Nurse Rosario Lim joins the rural health unit sanitary inspector in a sanitation survey of a coastal barangay. Some households share an open well that is near a pit latrine, a few families defecate in the open near the creek, and garbage is dumped near the water where children play. Several young children have had repeated episodes of watery stools.",
+    "items": [
+      {
+        "id": "cs-np1-05-a",
+        "type": "mcq",
+        "stem": "Which survey finding poses the greatest immediate risk of contaminating the shared drinking-water source?",
+        "options": [
+          {
+            "label": "A",
+            "text": "A pit latrine dug close to the shared well",
+            "why_not": ""
+          },
+          {
+            "label": "B",
+            "text": "Chickens kept in fenced pens in the backyards",
+            "why_not": "This is less likely to contaminate a protected well than a nearby latrine pit."
+          },
+          {
+            "label": "C",
+            "text": "Dry leaves swept into a pile and burned each week",
+            "why_not": "This is an air pollution issue, not a direct contaminant of the well."
+          },
+          {
+            "label": "D",
+            "text": "Kitchen waste in a covered compost pit far from the well",
+            "why_not": "A covered pit placed far from the well is an acceptable practice."
+          }
+        ],
+        "answer": "A",
+        "rationale": "Human waste from a pit latrine close to a well can seep into the water and spread fecal-oral diseases such as diarrhea. The other options are lesser or acceptable practices, so the latrine location is the greatest risk.",
+        "rationale_simplified": "A toilet pit near the well can pollute the drinking water.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Environmental sanitation",
+          "topic_id": "community-health-nursing/elements-of-primary-health-care/sanitation-and-environmental-health",
+          "cognitive_domain": "analyzing",
+          "difficulty": "moderate",
+          "nursing_process_phase": "assessment",
+          "evidence_status": "needs_review",
+          "competency": "Identifies sanitation hazards"
+        }
+      },
+      {
+        "id": "cs-np1-05-b",
+        "type": "sata",
+        "stem": "Which household practices help make drinking water safer? Select all that apply.",
+        "options": [
+          "Bring water to a rolling boil and let it cool",
+          "Store treated water in a clean covered container",
+          "Use a clean dipper with a handle to get water",
+          "Dip cups directly into the storage container",
+          "Keep water in an uncovered pail for easy access",
+          "Wash hands with soap before handling drinking water"
+        ],
+        "answers": [
+          0,
+          1,
+          2,
+          5
+        ],
+        "rationale": "Boiling kills disease-causing organisms, and clean covered storage with a handled dipper prevents recontamination. Dipping cups and uncovered storage reintroduce germs, which cancels the benefit of treatment.",
+        "rationale_simplified": "Treat the water, keep it covered, and never put hands or cups into it.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Safe water",
+          "topic_id": "community-health-nursing/elements-of-primary-health-care/sanitation-and-environmental-health",
+          "cognitive_domain": "applying",
+          "difficulty": "easy",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Teaches safe household water practices"
+        }
+      },
+      {
+        "id": "cs-np1-05-c",
+        "type": "matrix",
+        "stem": "Classify each household waste item.",
+        "columns": [
+          "Biodegradable",
+          "Recyclable",
+          "Hazardous"
+        ],
+        "rows": [
+          {
+            "text": "Vegetable peelings",
+            "correct_column": 0
+          },
+          {
+            "text": "Clean plastic bottles",
+            "correct_column": 1
+          },
+          {
+            "text": "Used batteries",
+            "correct_column": 2
+          },
+          {
+            "text": "Banana leaves",
+            "correct_column": 0
+          },
+          {
+            "text": "Broken thermometer containing mercury",
+            "correct_column": 2
+          }
+        ],
+        "rationale": "Food and plant waste decays naturally and can be composted. Clean plastic can be reused or recycled, while batteries and mercury need special handling because they can poison people and the environment.",
+        "rationale_simplified": "Plant waste rots, clean plastic can be reused, and batteries or mercury are dangerous.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Solid waste management",
+          "topic_id": "community-health-nursing/elements-of-primary-health-care/sanitation-and-environmental-health",
+          "cognitive_domain": "understanding",
+          "difficulty": "easy",
+          "nursing_process_phase": "not_applicable",
+          "evidence_status": "needs_review",
+          "competency": "Classifies household waste"
+        },
+        "image_suggestion": {
+          "description": "Set of colour-coded waste containers for segregation (biodegradable, recyclable, residual, hazardous) as used in community or health facility settings.",
+          "placement": "rationale",
+          "search_terms": [
+            "waste segregation bins",
+            "colour coded waste containers",
+            "household waste segregation"
+          ],
+          "must_be": "labelled"
+        }
+      },
+      {
+        "id": "cs-np1-05-d",
+        "type": "cloze",
+        "stem": "Complete the statements about the nurse's role.",
+        "text": "The nurse's main contribution to community sanitation is {{1}} and mobilizing residents, while coordinating with the {{2}} for inspection and enforcement.",
+        "blanks": [
+          {
+            "id": "1",
+            "choices": [
+              "health education",
+              "individual treatment only",
+              "building toilets alone"
+            ],
+            "correct_index": 0
+          },
+          {
+            "id": "2",
+            "choices": [
+              "sanitary inspector",
+              "school principal",
+              "barangay tanod"
+            ],
+            "correct_index": 0
+          }
+        ],
+        "rationale": "Nurses educate and mobilize the community and coordinate with the sanitary inspector, who has the authority to inspect and enforce sanitation standards. Treating individuals alone does not address the environmental cause of illness.",
+        "rationale_simplified": "The nurse teaches and organizes, and works with the sanitary inspector.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Role of the community health nurse",
+          "topic_id": "community-health-nursing/elements-of-primary-health-care/sanitation-and-environmental-health",
+          "cognitive_domain": "understanding",
+          "difficulty": "moderate",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Coordinates sanitation activities"
+        }
+      },
+      {
+        "id": "cs-np1-05-e",
+        "type": "mcq",
+        "stem": "A mother asks how to care for her child who has watery stools but is still alert and drinking. Which advice is best?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Stop all food and fluids for several hours so that the stomach can rest",
+            "why_not": "Withholding fluids worsens dehydration."
+          },
+          {
+            "label": "B",
+            "text": "Give plain water by itself until the stools become formed again",
+            "why_not": "Plain water does not replace lost salts and food should continue."
+          },
+          {
+            "label": "C",
+            "text": "Continue feeding and give oral rehydration solution as directed",
+            "why_not": ""
+          },
+          {
+            "label": "D",
+            "text": "Give an anti-diarrheal medicine that a neighbor used for her own child",
+            "why_not": "Unprescribed medicines are not advised for children."
+          }
+        ],
+        "answer": "C",
+        "rationale": "In diarrhea the priority is to replace fluid and salts with oral rehydration solution while continuing normal feeding. Withholding fluids or giving unprescribed anti-diarrheal drugs can be harmful.",
+        "rationale_simplified": "Keep feeding and give oral rehydration fluid.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Diarrhea home care",
+          "topic_id": "community-health-nursing/elements-of-primary-health-care/treatment-of-communicable-and-noncommunicable-diseases-and-emergency-services",
+          "cognitive_domain": "applying",
+          "difficulty": "easy",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Teaches home management of diarrhea"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cs-np1-06",
+    "type": "situation",
+    "title": "Reading the Municipal Health Data",
+    "situation": "Nurse Rhea Bautista at the municipal health office is preparing the annual health report. The municipality has a mid-year population of 5,000. At the start of the year, 25 residents already had a chronic disease, and 15 more residents developed it during the year. There were 40 live births and 10 deaths during the year.",
+    "items": [
+      {
+        "id": "cs-np1-06-a",
+        "type": "mcq",
+        "stem": "Which measure counts only the new cases of a disease that develop in a population during a given period?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Prevalence rate",
+            "why_not": "Includes both new and existing cases."
+          },
+          {
+            "label": "B",
+            "text": "Case fatality rate",
+            "why_not": "Measures deaths among those with the disease."
+          },
+          {
+            "label": "C",
+            "text": "Crude death rate",
+            "why_not": "Measures all deaths in the population, not new cases."
+          },
+          {
+            "label": "D",
+            "text": "Incidence rate",
+            "why_not": ""
+          }
+        ],
+        "answer": "D",
+        "rationale": "Incidence reflects new cases occurring over a period and shows the risk of developing disease. Prevalence is the strongest distractor because it includes existing cases as well.",
+        "rationale_simplified": "Incidence counts only the new cases.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing; epidemiology",
+          "topic": "Epidemiologic measures",
+          "topic_id": "community-health-nursing",
+          "cognitive_domain": "remembering",
+          "difficulty": "easy",
+          "nursing_process_phase": "not_applicable",
+          "evidence_status": "needs_review",
+          "competency": "Defines basic epidemiologic measures"
+        }
+      },
+      {
+        "id": "cs-np1-06-b",
+        "type": "sata",
+        "stem": "Which are appropriate uses of vital statistics in community health planning? Select all that apply.",
+        "options": [
+          "Identifying groups at higher risk of illness or death",
+          "Deciding how to allocate limited health resources",
+          "Evaluating whether a health program is making a difference",
+          "Choosing the medication dose for an individual patient",
+          "Making a medical diagnosis for one client",
+          "Planning services based on the community's age groups"
+        ],
+        "answers": [
+          0,
+          1,
+          2,
+          5
+        ],
+        "rationale": "Vital statistics describe the health of populations, so they help identify risk groups, allocate resources, evaluate programs and plan services. They do not guide an individual's diagnosis or dosing.",
+        "rationale_simplified": "Vital statistics help plan for groups, not treat one person.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing; epidemiology",
+          "topic": "Vital statistics",
+          "topic_id": "community-health-nursing",
+          "cognitive_domain": "understanding",
+          "difficulty": "moderate",
+          "nursing_process_phase": "planning",
+          "evidence_status": "needs_review",
+          "competency": "Uses vital statistics in planning"
+        },
+        "image_suggestion": {
+          "description": "Population pyramid (age-sex distribution) for a developing-country municipality, with age bands on the vertical axis and males and females on opposite sides.",
+          "placement": "stem",
+          "search_terms": [
+            "population pyramid Philippines",
+            "age sex pyramid",
+            "demographic pyramid"
+          ],
+          "must_be": "either"
+        }
+      },
+      {
+        "id": "cs-np1-06-c",
+        "type": "mcq",
+        "stem": "The municipality has a mid-year population of 5,000 and recorded 40 live births in the year. What is the crude birth rate per 1,000 population?",
+        "options": [
+          {
+            "label": "A",
+            "text": "40",
+            "why_not": "This is the number of births, not a rate per 1,000."
+          },
+          {
+            "label": "B",
+            "text": "8",
+            "why_not": ""
+          },
+          {
+            "label": "C",
+            "text": "0.8",
+            "why_not": "Decimal misplaced; the result must be multiplied by 1,000."
+          },
+          {
+            "label": "D",
+            "text": "80",
+            "why_not": "Incorrect scaling of the calculation."
+          }
+        ],
+        "answer": "B",
+        "rationale": "Crude birth rate is live births divided by mid-year population, multiplied by 1,000. Here, 40 divided by 5,000 is 0.008, and multiplying by 1,000 gives 8 per 1,000 population.",
+        "rationale_simplified": "Divide births by population and multiply by 1,000.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing; epidemiology",
+          "topic": "Vital statistics computation",
+          "topic_id": "community-health-nursing",
+          "cognitive_domain": "applying",
+          "difficulty": "moderate",
+          "nursing_process_phase": "not_applicable",
+          "evidence_status": "needs_review",
+          "competency": "Computes basic vital statistics rates"
+        }
+      },
+      {
+        "id": "cs-np1-06-d",
+        "type": "matrix",
+        "stem": "Classify each measure.",
+        "columns": [
+          "Morbidity",
+          "Mortality",
+          "Fertility"
+        ],
+        "rows": [
+          {
+            "text": "Incidence rate",
+            "correct_column": 0
+          },
+          {
+            "text": "Crude death rate",
+            "correct_column": 1
+          },
+          {
+            "text": "Infant mortality rate",
+            "correct_column": 1
+          },
+          {
+            "text": "General fertility rate",
+            "correct_column": 2
+          },
+          {
+            "text": "Attack rate",
+            "correct_column": 0
+          }
+        ],
+        "rationale": "Morbidity measures describe illness, mortality measures describe deaths, and fertility measures describe births. Attack rate is a morbidity measure used during outbreaks.",
+        "rationale_simplified": "Illness measures are morbidity, death measures are mortality, birth measures are fertility.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing; epidemiology",
+          "topic": "Vital statistics",
+          "topic_id": "community-health-nursing",
+          "cognitive_domain": "understanding",
+          "difficulty": "moderate",
+          "nursing_process_phase": "not_applicable",
+          "evidence_status": "needs_review",
+          "competency": "Classifies epidemiologic measures"
+        }
+      },
+      {
+        "id": "cs-np1-06-e",
+        "type": "cloze",
+        "stem": "Complete the definition.",
+        "text": "Epidemiology is the study of the distribution and {{1}} of health-related conditions in populations, and the application of this study to {{2}} health problems.",
+        "blanks": [
+          {
+            "id": "1",
+            "choices": [
+              "determinants",
+              "symptoms",
+              "treatments only"
+            ],
+            "correct_index": 0
+          },
+          {
+            "id": "2",
+            "choices": [
+              "control",
+              "document",
+              "diagnose individually"
+            ],
+            "correct_index": 0
+          }
+        ],
+        "rationale": "Epidemiology studies how diseases are distributed and what factors determine them, then applies findings to prevent and control health problems.",
+        "rationale_simplified": "Epidemiology studies who gets sick and why, to control problems.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing; epidemiology",
+          "topic": "Epidemiology",
+          "topic_id": "community-health-nursing",
+          "cognitive_domain": "remembering",
+          "difficulty": "easy",
+          "nursing_process_phase": "not_applicable",
+          "evidence_status": "needs_review",
+          "competency": "Defines epidemiology"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cs-np1-07",
+    "type": "situation",
+    "title": "First Home Visit to the Cruz Family",
+    "situation": "Nurse Ben Ocampo will make a first home visit to the Cruz family of six: the parents, three children and Lola, 68, who has hypertension and was recently seen at the rural health unit. The nurse brings the public health bag and plans to assess the family's health situation and ability to care for Lola.",
+    "items": [
+      {
+        "id": "cs-np1-07-a",
+        "type": "mcq",
+        "stem": "Before the first home visit to the Cruz family, what should the nurse do first?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Review the family record and set the objectives of the visit",
+            "why_not": ""
+          },
+          {
+            "label": "B",
+            "text": "Write a care plan for each family member before meeting any of them",
+            "why_not": "Care plans must be based on assessment done with the family."
+          },
+          {
+            "label": "C",
+            "text": "Examine every family member for illness as soon as the nurse arrives",
+            "why_not": "Examination belongs to the visit proper and follows preparation and the family's consent."
+          },
+          {
+            "label": "D",
+            "text": "Ask the barangay captain to decide what the objectives of the visit will be",
+            "why_not": "The nurse and family set objectives, not an outside person."
+          }
+        ],
+        "answer": "A",
+        "rationale": "Preparation comes first: reviewing the available family record and defining the purpose of the visit makes the visit focused and efficient. Writing care plans before meeting the family skips assessment, and examining everyone on arrival is done during the visit, not before preparing for it.",
+        "rationale_simplified": "Prepare and set goals before the visit.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Home visit",
+          "topic_id": "community-health-nursing/chn-phc/family-adpie",
+          "cognitive_domain": "applying",
+          "difficulty": "easy",
+          "nursing_process_phase": "planning",
+          "evidence_status": "needs_review",
+          "competency": "Plans a home visit"
+        },
+        "image_suggestion": {
+          "description": "Family genogram or family tree of a six-member household with three generations, using standard symbols, with no health problems marked.",
+          "placement": "situation",
+          "search_terms": [
+            "genogram example",
+            "family tree genogram symbols",
+            "family health assessment genogram"
+          ],
+          "must_be": "unlabelled"
+        }
+      },
+      {
+        "id": "cs-np1-07-b",
+        "type": "sata",
+        "stem": "Which actions follow correct bag technique during the home visit? Select all that apply.",
+        "options": [
+          "Wash hands before and after caring for the client",
+          "Place the bag on a clean, lined surface",
+          "Set the bag on the floor beside the family's pets",
+          "Keep clean and contaminated items separate in the bag",
+          "Return used items to the bag without cleaning them",
+          "Clean the bag after the visit"
+        ],
+        "answers": [
+          0,
+          1,
+          3,
+          5
+        ],
+        "rationale": "Bag technique prevents cross-infection between the nurse, the bag and the families visited. Hand hygiene, a clean lined surface, separating clean from contaminated items and cleaning the bag achieve this, while floors and unclean items return germs to the bag.",
+        "rationale_simplified": "Keep the bag clean and the items separate to avoid spreading germs.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Bag technique",
+          "topic_id": "community-health-nursing/chn-phc/family-adpie",
+          "cognitive_domain": "applying",
+          "difficulty": "moderate",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Applies bag technique"
+        },
+        "image_suggestion": {
+          "description": "Public health nurse's bag laid open on a clean surface with a newspaper or paper lining, showing the usual contents arranged for use.",
+          "placement": "rationale",
+          "search_terms": [
+            "public health nurse bag",
+            "nursing bag technique",
+            "home visit nurse bag contents"
+          ],
+          "must_be": "labelled"
+        }
+      },
+      {
+        "id": "cs-np1-07-c",
+        "type": "matrix",
+        "stem": "Match each family action to the family health task it shows.",
+        "columns": [
+          "Recognize the health problem",
+          "Decide on appropriate action",
+          "Care for the sick member",
+          "Maintain a healthful home",
+          "Use community resources"
+        ],
+        "rows": [
+          {
+            "text": "The mother notices Lola's swollen feet and says something is wrong",
+            "correct_column": 0
+          },
+          {
+            "text": "The family agrees to bring Lola to the health center instead of waiting",
+            "correct_column": 1
+          },
+          {
+            "text": "Her daughter gives her medicines on time and prepares low-salt meals",
+            "correct_column": 2
+          },
+          {
+            "text": "The family covers water containers and cleans the surroundings weekly",
+            "correct_column": 3
+          },
+          {
+            "text": "The family registers Lola with the rural health unit and attends its monthly hypertension clinic",
+            "correct_column": 4
+          }
+        ],
+        "rationale": "The five family health tasks are recognizing a health problem, deciding on action, caring for a sick member, maintaining a healthful environment and using community resources. Each action here fits one task.",
+        "rationale_simplified": "The tasks are notice, decide, care, keep the home healthy and use outside help.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Family health tasks",
+          "topic_id": "community-health-nursing/chn-phc/family-adpie",
+          "cognitive_domain": "analyzing",
+          "difficulty": "moderate",
+          "nursing_process_phase": "assessment",
+          "evidence_status": "needs_review",
+          "competency": "Assesses family health task ability"
+        }
+      },
+      {
+        "id": "cs-np1-07-d",
+        "type": "cloze",
+        "stem": "Choose the correct family health problem classification.",
+        "text": "A family member with diagnosed hypertension is a {{1}}, while a family whose child is about to start school is facing a {{2}}.",
+        "blanks": [
+          {
+            "id": "1",
+            "choices": [
+              "health threat",
+              "health deficit",
+              "foreseeable crisis"
+            ],
+            "correct_index": 1
+          },
+          {
+            "id": "2",
+            "choices": [
+              "health threat",
+              "health deficit",
+              "foreseeable crisis"
+            ],
+            "correct_index": 2
+          }
+        ],
+        "rationale": "A health deficit exists when a health problem is present, such as a diagnosed illness. A foreseeable crisis is an expected stressful event in family life, such as a child's entry to school.",
+        "rationale_simplified": "An existing illness is a deficit; an expected life change is a foreseeable crisis.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Family nursing diagnosis",
+          "topic_id": "community-health-nursing/chn-phc/family-adpie",
+          "cognitive_domain": "understanding",
+          "difficulty": "moderate",
+          "nursing_process_phase": "analysis_diagnosis",
+          "evidence_status": "needs_review",
+          "competency": "Classifies family health problems"
+        }
+      },
+      {
+        "id": "cs-np1-07-e",
+        "type": "mcq",
+        "stem": "During the visit the nurse learns that the family cannot afford all of Lola's medicines. Which action best reflects family-centered care?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Tell them to buy all of the prescribed medicines, regardless of the cost to the family",
+            "why_not": "Ignores the family's situation."
+          },
+          {
+            "label": "B",
+            "text": "Discuss the family's priorities and link them to available resources",
+            "why_not": ""
+          },
+          {
+            "label": "C",
+            "text": "Shorten the visit and note the problem to raise at the next staff report",
+            "why_not": "Does not solve the problem."
+          },
+          {
+            "label": "D",
+            "text": "Give them some of your own money so they can buy the medicines",
+            "why_not": "Not sustainable and outside professional boundaries."
+          }
+        ],
+        "answer": "B",
+        "rationale": "Family-centered care works with the family's circumstances, so the nurse explores priorities and links them to resources such as the rural health unit. Giving personal money is not sustainable and blurs professional boundaries.",
+        "rationale_simplified": "Work with the family and connect them to available help.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Family-centered care",
+          "topic_id": "community-health-nursing/chn-phc/family-adpie",
+          "cognitive_domain": "applying",
+          "difficulty": "moderate",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Provides family-centered care"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cs-np1-08",
+    "type": "situation",
+    "title": "Evacuation Center After the Typhoon",
+    "situation": "After a strong typhoon caused flooding, Nurse Maricel Navarro is assigned to an evacuation center in a school gymnasium. Hundreds of families are crowded together, toilets are shared, and many residents have lost their homes. Among them are infants, pregnant women and older adults with chronic illnesses.",
+    "items": [
+      {
+        "id": "cs-np1-08-a",
+        "type": "mcq",
+        "stem": "What should the nurse do first on arrival at the evacuation center?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Start group health teaching about handwashing for the families present",
+            "why_not": "Teaching comes after urgent needs are identified."
+          },
+          {
+            "label": "B",
+            "text": "Begin detailed long-term follow-up records for each family in the center",
+            "why_not": "Detailed records are not the first priority."
+          },
+          {
+            "label": "C",
+            "text": "Do a rapid assessment of urgent health needs, hazards, water and toilets",
+            "why_not": ""
+          },
+          {
+            "label": "D",
+            "text": "Start giving routine vaccines to every evacuee who is present in the center",
+            "why_not": "Not a first-line response without assessment of needs."
+          }
+        ],
+        "answer": "C",
+        "rationale": "Early in a disaster response the nurse assesses urgent health needs and environmental risks so that resources are directed to the most pressing problems. Teaching and records follow once life-threatening needs are addressed.",
+        "rationale_simplified": "First find out the most urgent needs and hazards.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Disaster response",
+          "topic_id": "community-health-nursing/elements-of-primary-health-care/treatment-of-communicable-and-noncommunicable-diseases-and-emergency-services",
+          "cognitive_domain": "applying",
+          "difficulty": "moderate",
+          "nursing_process_phase": "assessment",
+          "evidence_status": "needs_review",
+          "competency": "Performs rapid assessment in a disaster"
+        }
+      },
+      {
+        "id": "cs-np1-08-b",
+        "type": "sata",
+        "stem": "Which groups are especially vulnerable in the evacuation center and need priority attention? Select all that apply.",
+        "options": [
+          "Infants and young children",
+          "Pregnant women",
+          "Older adults",
+          "Persons with disabilities",
+          "Healthy young adult volunteers",
+          "Residents with no health problems"
+        ],
+        "answers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationale": "Children, pregnant women, older adults and persons with disabilities are more affected by disrupted care, crowding and limited resources, so they receive priority attention. Healthy adults are generally able to meet their own needs.",
+        "rationale_simplified": "Those who depend on others or are at higher risk need attention first.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Vulnerable groups in disaster",
+          "topic_id": "community-health-nursing/elements-of-primary-health-care/treatment-of-communicable-and-noncommunicable-diseases-and-emergency-services",
+          "cognitive_domain": "understanding",
+          "difficulty": "easy",
+          "nursing_process_phase": "assessment",
+          "evidence_status": "needs_review",
+          "competency": "Identifies vulnerable groups"
+        }
+      },
+      {
+        "id": "cs-np1-08-c",
+        "type": "highlight",
+        "stem": "Select the two findings in the rapid assessment note that need the most urgent attention.",
+        "segments": [
+          {
+            "text": "A pregnant woman reports regular painful contractions.",
+            "selectable": true,
+            "correct": true
+          },
+          {
+            "text": "Two men have minor scratches on their forearms.",
+            "selectable": true,
+            "correct": false
+          },
+          {
+            "text": "A toddler is lethargic with sunken eyes after repeated watery stools.",
+            "selectable": true,
+            "correct": true
+          },
+          {
+            "text": "Volunteers are sorting donated clothes.",
+            "selectable": false,
+            "correct": false
+          },
+          {
+            "text": "A boy says he is bored.",
+            "selectable": true,
+            "correct": false
+          }
+        ],
+        "rationale": "A woman in labor and a lethargic toddler with signs of dehydration have potentially life-threatening needs. Minor scratches and boredom are lower priority, and the sorting of clothes is not a clinical finding.",
+        "rationale_simplified": "Labor and a lethargic dehydrated toddler are most urgent.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Disaster triage and priorities",
+          "topic_id": "community-health-nursing/elements-of-primary-health-care/treatment-of-communicable-and-noncommunicable-diseases-and-emergency-services",
+          "cognitive_domain": "analyzing",
+          "difficulty": "moderate",
+          "nursing_process_phase": "assessment",
+          "evidence_status": "needs_review",
+          "competency": "Prioritizes needs in a disaster"
+        }
+      },
+      {
+        "id": "cs-np1-08-d",
+        "type": "matrix",
+        "stem": "Classify each activity by disaster phase.",
+        "columns": [
+          "Preparedness",
+          "Response",
+          "Recovery"
+        ],
+        "rows": [
+          {
+            "text": "Conducting evacuation drills with the barangay",
+            "correct_column": 0
+          },
+          {
+            "text": "Providing first aid at the evacuation center clinic",
+            "correct_column": 1
+          },
+          {
+            "text": "Checking and stocking emergency supply kits",
+            "correct_column": 0
+          },
+          {
+            "text": "Counseling survivors who remain stressed after returning home",
+            "correct_column": 2
+          },
+          {
+            "text": "Rehabilitating contaminated water sources",
+            "correct_column": 2
+          }
+        ],
+        "rationale": "Preparedness activities are done before a disaster, response activities during or immediately after, and recovery activities restore health and normal life afterward.",
+        "rationale_simplified": "Before is preparedness, during is response, after is recovery.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Disaster management phases",
+          "topic_id": "community-health-nursing/elements-of-primary-health-care/treatment-of-communicable-and-noncommunicable-diseases-and-emergency-services",
+          "cognitive_domain": "understanding",
+          "difficulty": "moderate",
+          "nursing_process_phase": "not_applicable",
+          "evidence_status": "needs_review",
+          "competency": "Classifies disaster phases"
+        },
+        "image_suggestion": {
+          "description": "Cycle diagram of the disaster management phases (mitigation, preparedness, response, recovery).",
+          "placement": "rationale",
+          "search_terms": [
+            "disaster management cycle",
+            "disaster phases diagram",
+            "emergency management cycle"
+          ],
+          "must_be": "labelled"
+        }
+      },
+      {
+        "id": "cs-np1-08-e",
+        "type": "mcq",
+        "stem": "A mother sits quietly crying after losing her home. Which response is most appropriate?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Tell her to be strong and stop crying for the sake of her children",
+            "why_not": "Dismisses feelings."
+          },
+          {
+            "label": "B",
+            "text": "Ask her to describe in detail everything that happened during the typhoon",
+            "why_not": "May increase distress."
+          },
+          {
+            "label": "C",
+            "text": "Leave her alone for now and check on her again after a few days",
+            "why_not": "Withdrawal may increase isolation."
+          },
+          {
+            "label": "D",
+            "text": "Stay near her, offer water, and listen if she wishes to talk",
+            "why_not": ""
+          }
+        ],
+        "answer": "D",
+        "rationale": "Psychological first aid offers calm presence, basic comfort and the choice to talk, without forcing disclosure. Pressuring her or dismissing feelings can worsen distress.",
+        "rationale_simplified": "Be with her calmly and listen if she wants to talk.",
+        "meta": {
+          "nursing_practice": "NP1",
+          "tos_content_area": "Community health nursing",
+          "topic": "Psychological first aid",
+          "topic_id": "community-health-nursing/elements-of-primary-health-care/treatment-of-communicable-and-noncommunicable-diseases-and-emergency-services",
+          "cognitive_domain": "applying",
+          "difficulty": "easy",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Provides psychological first aid"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+# Original case-study pack: writer/reviewer rules
+
+PURPOSE: 42 ORIGINAL nursing case studies (same format as a reference app's case studies: one shared clinical situation + 5 linked items of mixed types, each with a rationale) for a PNLE-oriented study app. UNVERIFIED drafts for later clinician review, but they must be as accurate as you can make them.
+
+HARD RULES
+1. 100% original text. Do not reproduce or paraphrase any item from any existing question bank or app. Do not claim items come from a real exam or are endorsed by PRC/BON. Do not invent citations or sources (omit the sources field).
+2. CLINICAL CAUTION (most important): use only well-established, textbook-level facts that are stable across guidelines. Avoid drug doses, exact lab/vital-sign cut-offs and country-programme schedules unless they are universally standard (e.g., normal adult heart-rate range, the five rights of medication administration, hand hygiene). Prefer principle-based answers (prioritisation, safety, assessment-before-intervention, therapeutic communication, scope of practice, infection control, teaching). If a fact is guideline-dependent, build the item on the principle, not the number. Never include a question whose best answer could be defensible in two ways. When unsure, rewrite or drop the item.
+3. Scope: entry-level registered nurse in the Philippines. Use natural Philippine settings and names (barangay health center, rural health unit, district hospital, tertiary hospital, Filipino names) without making clinical facts depend on local policy details.
+4. FORMAT: each case is a "situation" object (see /home/user/readthischatgpt/Nursing app master plan/Content Authoring Kit/schemas/question.schema.json): {"id":"cs-np<N>-<NN>","type":"situation","title":"...","situation":"3-6 sentences","items":[5 items]}.
+   Items (5 per case, mix of types; every case has at least one mcq and one sata; the other three from mcq/matrix/cloze/highlight, varying across cases):
+   - mcq: options array of exactly four {label A-D, text, why_not}; answer = one letter. why_not is a short internal note for each distractor ("" for the answer). Options parallel in form, similar length, no "all/none of the above", no giveaway absolutes.
+   - sata: stem ends "Select all that apply."; 5-8 options (strings); answers = list of correct indexes (0-based), 2 or more, never all.
+   - matrix: columns (2-5 strings) and rows [{text, correct_column}] (3-6 rows).
+   - cloze: text with {{1}},{{2}} blanks; blanks [{id:"1", choices:[2-4 strings], correct_index}].
+   - highlight: segments [{text, selectable, correct}] (5-9 segments of a short chart note; only abnormal/relevant ones are selectable and correct; a few selectable-but-incorrect distractors allowed).
+   Each item: id "cs-np<N>-<NN>-a".."-e", type, stem (a direct question/instruction; for highlight/cloze/matrix the stem tells what to do), rationale (min 40 chars: name the decisive cue, why the answer is best, why the strongest distractor is weaker; 2-4 sentences), rationale_simplified (1-2 plain sentences), meta.
+   meta (required): nursing_practice "NP<N>", tos_content_area (short text), topic (name), topic_id (must be an id from your ids file), cognitive_domain (remembering|understanding|applying|analyzing|evaluating|creating; vary; most applying/analyzing), difficulty (easy|moderate|difficult; mix), nursing_process_phase (assessment|analysis_diagnosis|planning|implementation|evaluation|not_applicable), evidence_status MUST be "needs_review", competency (short).
+5. Vary correct-answer letters across MCQs (A-D roughly evenly); make the correct option NOT consistently the longest.
+6. Each case should progress logically (e.g., recognise cues -> prioritise -> act -> teach/evaluate) and cover a different clinical focus from the other cases.
+7. No two stems identical anywhere. Write in clear, plain English.
+8. VALIDATE: run  python3 "/home/user/readthischatgpt/Nursing app master plan/Content Authoring Kit/tools/validate_content.py" <your file> --topic-tree "/home/user/readthischatgpt/Nursing app master plan/Content Authoring Kit/samples/topic-tree.generated.json"  and fix every ERROR until it reports 0 errors (needs_review warnings and why_not warnings are expected/acceptable; fill every why_not anyway).
