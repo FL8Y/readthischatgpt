@@ -11,6 +11,8 @@ import { StudyGuide } from './StudyGuide';
 import { Btn, Card, EmptyState, Field, H, P, ProgressBar, TOUCH } from './kit';
 import { space, useTheme } from './theme';
 
+const PAGE = 25;
+
 /** Learn tab: every topic (preset and your own) grouped by folder. Notes open in a plain reader; AI lessons stay optional. */
 export function Topics({ state, onAskTutor }: { state: AppState; onAskTutor?: () => void }) {
   const { colors, type } = useTheme();
@@ -21,6 +23,9 @@ export function Topics({ state, onAskTutor }: { state: AppState; onAskTutor?: ()
   const [studied, setStudied] = useState<string[]>([]);
   const [guide, setGuide] = useState(false);
   const [openTab, setOpenTab] = useState<NoteTab>('full');
+  // Folders start collapsed so the tab is short; each opened folder shows 25 notes at a time.
+  const [openFolders, setOpenFolders] = useState<string[]>([]);
+  const [shownCount, setShownCount] = useState<Record<string, number>>({});
 
   useEffect(() => {
     let live = true;
@@ -95,11 +100,26 @@ export function Topics({ state, onAskTutor }: { state: AppState; onAskTutor?: ()
         if (!topics.length) return null;
         shown += topics.length;
         const prog = studiedProgress(studied, all.map((t) => t.id));
+        // A search opens every folder that has a match; otherwise the learner opens folders one by one.
+        const isOpen = !!q || openFolders.includes(f.id);
+        const limit = shownCount[f.id] ?? PAGE;
+        const visible = topics.slice(0, limit);
         return (
           <Card key={f.id}>
-            <H>{f.name}</H>
-            <P dim>{studiedLabel(prog)}</P>
-            {topics.map((t) => {
+            <Pressable
+              accessibilityRole="button"
+              accessibilityState={{ expanded: isOpen }}
+              accessibilityLabel={`${f.name}, ${q ? `${topics.length} matches` : `${all.length} notes`}, ${studiedLabel(prog)}. ${isOpen ? 'Collapse' : 'Expand'}`}
+              onPress={() => setOpenFolders((cur) => (cur.includes(f.id) ? cur.filter((x) => x !== f.id) : [...cur, f.id]))}
+              style={{ minHeight: TOUCH, gap: 4, justifyContent: 'center' }}
+            >
+              <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: space.md }}>
+                <View style={{ flex: 1 }}><H>{f.name}</H></View>
+                <Text style={[type('bodyStrong'), { color: colors.accent }]}>{q ? '' : isOpen ? 'Hide ▴' : `${all.length} ▾`}</Text>
+              </View>
+              <P dim>{q ? `${topics.length} match${topics.length === 1 ? '' : 'es'}` : studiedLabel(prog)}</P>
+            </Pressable>
+            {isOpen ? visible.map((t) => {
               const m = estimateMastery(t.id, state.events, now);
               const status = m.attempts ? `${Math.round(m.mastery * 100)}% mastery` : 'not tested';
               const done = isStudied(studied, t.id);
@@ -115,10 +135,13 @@ export function Topics({ state, onAskTutor }: { state: AppState; onAskTutor?: ()
                     {done ? '✓' : '▸'}  {t.title}
                   </Text>
                   {m.attempts ? <ProgressBar value={m.mastery} label={`${t.title} mastery`} /> : null}
-                  <P dim>{done ? `studied, ${status}` : status}</P>
+                  {m.attempts || done ? <P dim>{done ? `studied, ${status}` : status}</P> : null}
                 </Pressable>
               );
-            })}
+            }) : null}
+            {isOpen && topics.length > limit ? (
+              <Btn label={`Show ${Math.min(PAGE, topics.length - limit)} more (${topics.length - limit} left)`} kind="ghost" onPress={() => setShownCount((cur) => ({ ...cur, [f.id]: limit + PAGE }))} />
+            ) : null}
           </Card>
         );
       })}
