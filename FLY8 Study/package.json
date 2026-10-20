@@ -38,7 +38,8 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "e2e": "node scripts/e2e/run.mjs",
-    "bank:gen": "node scripts/bank/genPacks.mjs"
+    "bank:gen": "node scripts/bank/genPacks.mjs",
+    "gemini:apply": "node scripts/gemini/apply.mjs"
   },
   "private": true
 }
