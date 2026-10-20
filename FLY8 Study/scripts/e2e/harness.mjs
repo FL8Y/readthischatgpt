@@ -110,7 +110,8 @@ export async function startQuick(page, n = 10) {
   await goTab(page, 'Practice');
   if (n !== 10) await click(role(page, 'radio', String(n), { exact: true }));
   await click(btn(page, `Quick ${n}`));
-  await see(page.getByText('Tip: long press an option to cross it out.'), 'question player');
+  // Only option-row items show the long-press tip; every item type shows the progress label.
+  await see(page.getByText(`Question 1 of ${n}`, { exact: true }), 'question player');
 }
 
 /** Select the first option and submit; waits for the rationale card. */
