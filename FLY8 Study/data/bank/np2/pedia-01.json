@@ -1,0 +1,851 @@
+[
+  {
+    "id": "np2-0056",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Direction of development",
+    "noteId": "np2-pd-gd-principles",
+    "vignette": "The mother of an 18-month-old boy tells the nurse she is worried because he walks well and climbs on the furniture, but he cannot button his shirt or hold a crayon with his fingers. He babbled early and has gained weight steadily.",
+    "stem": "Which explanation by the nurse is most accurate?",
+    "options": [
+      "Growth and development proceed at the same pace in every body system, so he is clearly behind",
+      "Large-muscle skills come before fine skills, and control moves from the center outward",
+      "Weight is the only index of development, and his steady weight proves he is normal",
+      "Fine skills develop before large muscle skills in toddlers and he may be delayed"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: well-developed walking and climbing but no fine finger skills at 18 months.\n2. Principle: development goes from gross to refined (large-muscle skills before fine ones) and from proximal to distal (shoulder control before finger control); body systems grow at different rates (asynchronous).\n3. Weight is the best single index of growth, not of development.\n4. Flip: if he could not walk at 18 months, that would be a concern needing evaluation.",
+    "optionRationales": [
+      "Contradicts the principle that body systems grow at different rates.",
+      "Correct: it matches the gross-to-refined and proximal-to-distal principles.",
+      "True statement that does not answer the question: weight is an index of growth, not of development.",
+      "Reversed principle: fine skills follow gross skills."
+    ],
+    "strategy": "Principles of growth: gross before fine, proximal to distal",
+    "archetype": "explain a milestone pattern",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Gross to refined; proximal to distal; cephalocaudal.",
+      "Weight is the best single index of growth."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0057",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Caring for a hospitalized adolescent",
+    "noteId": "np2-pd-adolescent-dev",
+    "vignette": "A 15-year-old boy is admitted for a fractured leg. He refuses to remove his shirt for an examination and answers his mother's questions with one word. His mother wants to stay for the entire interview and says she will \"answer for him\". He has asked whether his friends can visit.",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Interview him with his mother present and use simple words as for a school-age child, to calm him",
+      "Let his mother answer all questions and examine him quickly before he becomes more upset",
+      "Arrange time alone with him, explain procedures fully and involve him in decisions",
+      "Limit visitors to family so that he can rest and his mother can supervise his care"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: modesty, silence in front of his mother, and a request for peers.\n2. Principle: adolescents need privacy and confidentiality within safety limits, talk time, full adult-style explanations, involvement in decisions, and contact with peers; the fear is displacement from peers.\n3. Their identity grows with independence, so the key restores a sense of control.\n4. Flip: if he were 6 years old, the parent would stay and simple explanations would be used.",
+    "optionRationales": [
+      "Under-reaction to his developmental needs: simple wording and constant parental presence are for younger children.",
+      "Skips assessment of the client: the nurse must speak with the adolescent himself.",
+      "Correct: it respects privacy and promotes independence.",
+      "Contradicts his need: peer contact is protective during hospitalization."
+    ],
+    "strategy": "Privacy and involvement support identity",
+    "archetype": "privacy and involvement",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Adolescent: privacy, confidentiality, talk time, involvement in decisions, peer contact.",
+      "Fear: displacement from peers."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0058",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Toddler separation distress",
+    "noteId": "np2-pd-x-fears-play-toys",
+    "vignette": "An 18-month-old girl is admitted for gastroenteritis. She screams and clings whenever her mother steps out of the room, even for a moment. The play room has puzzles and push-and-pull toys, and an older child offers to play with her.",
+    "stem": "Which nursing approach is MOST helpful?",
+    "options": [
+      "Distract her with an elaborate puzzle and play group with the older children",
+      "Explain the procedures with a doll and reassure her that the illness is not punishment",
+      "Allow her mother to stay and let her keep her favorite blanket and routines",
+      "Arrange schoolwork and a visit from classmates so that she will feel connected"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: a toddler with intense separation distress.\n2. Principle: the toddler's fear is separation; parallel play and push-and-pull toys suit the age; the nurse keeps a parent present, allows a favorite object, offers choices and keeps routines.\n3. The other options are aimed at other ages: preschool (doll and not-punishment teaching) and school-age (schoolwork and classmates).\n4. Flip: for a 4-year-old afraid of injury, doll play and reassurance would be best.",
+    "optionRationales": [
+      "Wrong play for age: toddlers play beside, not with, others, and distraction does not remove the fear.",
+      "Plausible detail from a similar age group: this fits a preschooler's fear of body injury.",
+      "Correct: it addresses separation anxiety directly.",
+      "Plausible detail from a similar age group: this fits a school-age child's fear of displacement from school."
+    ],
+    "strategy": "Toddler: separation fear; keep parent and favorite object",
+    "archetype": "age-appropriate comfort",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Toddler: separation fear, parallel play, push-and-pull toys.",
+      "Keep a parent present, allow a favorite object, keep routines."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0059",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Newborn findings needing a report",
+    "noteId": "np2-pd-nb-head-chest",
+    "vignette": "A nurse is doing the first full examination of a 6-hour-old term newborn. She notes a soft, flat, diamond-shaped anterior fontanel, a small red patch on the white of one eye, a puffy scalp swelling that crosses a suture line, and mild retractions of the chest wall on inspiration. The baby is pink and feeding.",
+    "stem": "Which finding should the nurse report to the physician?",
+    "options": [
+      "The small red patch on the white of the eye",
+      "Retractions of the chest wall on inspiration",
+      "The puffy scalp swelling that crosses a suture line",
+      "The soft, flat, diamond-shaped anterior fontanel"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: four findings, three of which are expected after birth pressure.\n2. Principle: retractions on inspiration are never normal and signal respiratory distress; subconjunctival hemorrhage is absorbed in a few weeks; caput succedaneum crosses suture lines and is gone in about 3 days; a soft flat fontanel is normal.\n3. Priority rule: breathing before cosmetic findings; being pink and feeding does not cancel the finding.\n4. Flip: a bulging fontanel or widely separated sutures would also be reported.",
+    "optionRationales": [
+      "Expected finding: subconjunctival hemorrhage resolves on its own.",
+      "Correct: retractions mean respiratory distress and need prompt report.",
+      "Expected finding: caput crosses suture lines and resolves in days.",
+      "Normal finding: a soft, flat fontanel is expected."
+    ],
+    "strategy": "Retractions are never normal",
+    "archetype": "normal versus abnormal",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Retractions on inspiration are never normal.",
+      "Caput crosses suture lines; subconjunctival hemorrhage resolves in 2 to 3 weeks."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0060",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Supporting the developmental task",
+    "noteId": "np2-pd-age-theories",
+    "vignette": "A 5-year-old boy is admitted for a procedure. His nurse wants to support his developmental task. His mother says he insists on doing things himself at home, such as pouring his juice, and feels sad if told he did something wrong.",
+    "stem": "Which approach best supports this child's task?",
+    "options": [
+      "Let him help with simple parts of his care and praise his attempts",
+      "Respond to every cry promptly and keep the same caregiver at the bedside all day",
+      "Praise him for finishing tasks well and give him jobs he can complete correctly",
+      "Let him decide when and how procedures will be done to promote his independence"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: age 5, wants to do things himself, upset by being told he was wrong.\n2. Principle: Erikson's task for the preschooler is initiative versus guilt (start things, solve problems); trust is the infant's task, autonomy the toddler's, industry the school-age child's.\n3. The key lets him begin and take part without guilt for mistakes.\n4. Flip: for a toddler insisting on independence, offering limited choices to support autonomy would fit.",
+    "optionRationales": [
+      "Correct: it supports initiative and reduces guilt.",
+      "Plausible detail from a different age: this fits the infant's task of trust.",
+      "Plausible detail from a different age: this fits the school-age task of industry.",
+      "Over-intervention: full control over procedures is not possible, and independence of choice is the toddler's autonomy task."
+    ],
+    "strategy": "Match the intervention to the age-specific task",
+    "archetype": "task of the age group",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Preschool: initiative versus guilt; infant: trust; toddler: autonomy; school-age: industry."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0061",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Readiness for toilet training",
+    "noteId": "np2-pd-toddler-dev",
+    "vignette": "The mother of a 20-month-old tells the nurse that her neighbor's child was trained at 18 months, so she wants to begin training tomorrow and sit him on the potty every hour. He stays dry for about an hour, does not seem to notice when he is wet, and cannot yet pull down his own pants.",
+    "stem": "What is the nurse's BEST response?",
+    "options": [
+      "Support her plan and suggest a firm schedule so that he learns quickly",
+      "Advise her to begin night training first because it is easier",
+      "Tell her that training before age 3 is harmful and should never be tried",
+      "Explain the readiness signs and suggest waiting until he shows them"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: age 20 months, dry for only about an hour, no awareness of wetness, cannot manage clothing, and a plan driven by comparison.\n2. Principle: readiness must fit the child, not the calendar: dry about 2 hours or after naps, sits, squats and walks, removes clothing, recognizes the urge, wants to please, and can sit 5 to 10 minutes.\n3. Beginning before he is ready leads to frustration and negativism.\n4. Flip: if he stayed dry for 2 hours, announced when he was wet and could pull down his pants, training could begin.",
+    "optionRationales": [
+      "Unsafe common habit: a forced schedule before readiness causes frustration.",
+      "Wrong target: night control is not the first step and does not address readiness.",
+      "Overstatement: training can begin when the child shows readiness.",
+      "Correct: it teaches the criteria and respects individual readiness."
+    ],
+    "strategy": "Readiness signs, not the calendar",
+    "archetype": "readiness not calendar",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Toilet training readiness: stays dry about 2 hours, recognizes the urge, removes clothing, wants to please."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0062",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Comfort while NPO",
+    "noteId": "np2-pd-infant-dev",
+    "vignette": "A 6-week-old boy is kept NPO for several hours before a procedure. He is fussy and sucks on his fist. His mother asks if she can give him a feed \"just a little\" so he calms down. The nurse also notes a toy with small detachable parts at the bedside.",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Offer a pacifier and remove the toy with small parts",
+      "Allow a small feed to calm him since he is hungry",
+      "Ignore the sucking behavior since it will stop by itself",
+      "Place the toy in the crib so that he has something to hold"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: NPO status, an infant who needs to suck, a mother asking to feed, and a choking hazard.\n2. Principle: infants have strong oral needs; when oral feeding is not allowed but sucking is, give a pacifier; keep toys too large to swallow and keep small objects away.\n3. Safety rules out the toy; NPO rules out the feed.\n4. Flip: if the infant were allowed a feed per the orders, feeding on demand would be right.",
+    "optionRationales": [
+      "Correct: it meets the oral need without breaking NPO and removes a hazard.",
+      "Unsafe: feeding breaks the NPO order before a procedure.",
+      "Under-reaction: non-nutritive sucking is a real comfort need.",
+      "Unsafe: small detachable parts are a choking risk."
+    ],
+    "strategy": "Meet the infant's oral need",
+    "archetype": "non-nutritive sucking",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "When oral feeding is not allowed but sucking is, give a pacifier.",
+      "Keep toys too large to swallow and small objects away."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0063",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Explaining to a school-age child",
+    "noteId": "np2-pd-x-piaget",
+    "vignette": "A 9-year-old boy recovering from abdominal surgery refuses deep-breathing exercises. He asks, \"Why do I have to?\" His nurse wants to give an explanation that fits how he thinks.",
+    "stem": "Which explanation is BEST for this child?",
+    "options": [
+      "Ask him to consider all the possible things that could happen if he did not breathe deeply",
+      "Tell him it is good for him and that good boys always do what the nurse says to them",
+      "Tell him the exercises will keep his lungs from being sad and hurting after the surgery",
+      "Show a simple diagram and explain step by step how deep breaths prevent pneumonia"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cue: a 9-year-old in the concrete operational stage.\n2. Principle: school-age children use systematic, logical reasoning with concrete things; give step-by-step reasons and allow questions; adolescents handle hypothetical reasoning; young children think literally and magically.\n3. A diagram with a logical explanation fits concrete thought.\n4. Flip: for a 15-year-old, a full hypothetical explanation of consequences would fit.",
+    "optionRationales": [
+      "Right for an adolescent: this requires hypothetical, formal reasoning.",
+      "Insufficient: school-age children need reasons, and the appeal to obedience does not explain.",
+      "Right for a preschooler: magical thinking does not match a 9-year-old's logic.",
+      "Correct: concrete, logical and step by step."
+    ],
+    "strategy": "Match explanation to the cognitive stage",
+    "archetype": "concrete operational teaching",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Concrete operational (7 to 12): systematic reasoning, reversibility; explain step by step.",
+      "Formal operational: hypothetical reasoning."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0064",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Using moral reasoning in care",
+    "noteId": "np2-pd-x-kohlberg",
+    "vignette": "An 8-year-old girl with asthma often skips her inhaler at school because her classmates tease her. Her teacher says she responds when told what \"good students\" do. The nurse is designing a plan for her.",
+    "stem": "Which approach fits her level of moral reasoning?",
+    "options": [
+      "Promise a reward or a punishment depending on whether she uses the inhaler",
+      "Ask her to decide for herself what universal principle should guide her self-care",
+      "Allow her to choose freely and let her experience the consequences alone",
+      "Give her clear rules to follow and acknowledge her as a responsible, good patient"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cue: a school-age child who follows rules to be seen as good.\n2. Principle: Kohlberg's conventional level (about 7 to 10) means following rules to be a good person in her own and others' eyes; give school-age children rules to follow in care and appeal to being good.\n3. Rewards and punishments fit the pre-conventional level of toddlers and young children.\n4. Flip: for a 3-year-old, praise, clear limits and consequences would be used.",
+    "optionRationales": [
+      "Plausible detail from a younger level: reward and punishment fit pre-conventional reasoning.",
+      "Plausible detail from an older level: universal principles belong to the post-conventional level.",
+      "Under-support: leaving a child alone with consequences ignores her need for rules.",
+      "Correct: it appeals to being good and gives rules."
+    ],
+    "strategy": "Appeal to being good for conventional-level children",
+    "archetype": "rules to be seen as good",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Conventional (about 7 to 10): follows rules to be a good person.",
+      "Pre-conventional: punishment and reward."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0065",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "A preschooler's explanation of illness",
+    "noteId": "np2-pd-preschool-dev",
+    "vignette": "A 4-year-old girl admitted for pneumonia tells the nurse, \"I got sick because I was mean to my baby brother.\" She cries and hides under the blanket when it is time for an injection and says the needle will \"take away part of me\". Her mother is trying to bargain with her to be brave.",
+    "stem": "Which nursing response is BEST?",
+    "options": [
+      "Reassure her that illness is not a punishment, explain simply and let her handle a doll first",
+      "Ask her to be brave for her mother and promise a prize afterward for each injection given",
+      "Explain in detail how the medicine works in the lungs so she can understand the need for it",
+      "Give the injection quickly while distracting her so she has less time to be afraid"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: guilt about causing the illness and fear of body injury at age 4.\n2. Principle: preschoolers have magical thinking and fear mutilation; reassure that treatment is not punishment, use short simple concrete words, show the equipment and allow make-believe play with dolls, and use bandages while explaining the body part.\n3. Bargaining and quick procedures do not address the fear.\n4. Flip: for a 9-year-old, a step-by-step logical explanation would fit.",
+    "optionRationales": [
+      "Correct: it addresses guilt and fear through age-appropriate teaching and play.",
+      "Treats the symptom: bribery and bargaining do not reduce the fear.",
+      "Wrong level: detailed physiology does not fit concrete, magical thinking.",
+      "Skips assessment: a surprise procedure increases fear of body injury."
+    ],
+    "strategy": "Magical thinking: reassure that it is not punishment",
+    "archetype": "magical thinking",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Preschooler: magical thinking, fear of mutilation; reassure that illness is not punishment.",
+      "Use doll play, simple words, show equipment."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0066",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Prolonged hospitalization of a school-age child",
+    "noteId": "np2-pd-school-dev",
+    "vignette": "A 10-year-old boy has been in the pediatric ward for 10 days for a leg infection. He is quiet, will not eat his meals and tells the nurse, \"My teacher will think I'm dumb, and my friends will find someone else to play with.\" His father brings a handheld game.",
+    "stem": "What is the nurse's BEST action?",
+    "options": [
+      "Encourage him to spend the time resting and playing the games his father brought",
+      "Arrange for schoolwork and contact with his classmates during his stay",
+      "Explain the infection and treatment using simple one-step phrases",
+      "Give him a doll to rehearse the injections he fears"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: worry about falling behind and losing friends, withdrawal and poor appetite in a 10-year-old.\n2. Principle: the school-age child fears displacement from school; keep up schoolwork and contact with classmates; industry versus inferiority makes him want to do things well.\n3. Games suit the age but do not address his stated fear.\n4. Flip: if his words centered on pain from procedures, step-by-step explanations would be the priority.",
+    "optionRationales": [
+      "Partial: games are suitable activity but do not address his fear.",
+      "Correct: it addresses displacement and industry.",
+      "Wrong level: simple one-step phrases fit toddlers and preschoolers.",
+      "Wrong age: doll rehearsal is used for preschoolers."
+    ],
+    "strategy": "Fear of displacement from school and classmates",
+    "archetype": "fear of displacement",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "School-age: fear of displacement from school; industry versus inferiority.",
+      "Keep up schoolwork and contact with classmates."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0067",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "First-day findings in a newborn",
+    "noteId": "np2-pd-nb-body",
+    "vignette": "During a 26-hour-old female newborn's routine check, the nurse notes a slightly protruding abdomen, a swollen vulva with a small amount of white mucus, and that the baby has fed well but has not yet passed any stool since birth.",
+    "stem": "Which finding should the nurse report?",
+    "options": [
+      "The slightly protruding abdomen when he is calm",
+      "The swollen vulva noted on the genital check",
+      "No stool passed in the 26 hours since birth",
+      "The small amount of white mucus from the vagina"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: three expected findings and one that is delayed.\n2. Principle: a slightly protruding abdomen is normal; the vulva is swollen and pseudomenstruation (mucus, sometimes blood-tinged) is normal from maternal hormones; no stool in the first 24 hours suggests imperforate anus or meconium ileus.\n3. Priority rule: report what is outside the expected pattern.\n4. Flip: if the baby had passed meconium at 6 hours, no report would be needed.",
+    "optionRationales": [
+      "Normal finding.",
+      "Normal finding from maternal hormones.",
+      "Correct: no stool beyond the first 24 hours needs evaluation.",
+      "Normal finding: pseudomenstruation."
+    ],
+    "strategy": "Distinguish normal findings from those to report",
+    "archetype": "normal versus report",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "No stool in the first 24 hours: suspect imperforate anus or meconium ileus.",
+      "Swollen vulva and pseudomenstruation are normal in a female newborn."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0068",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Scoring a newborn",
+    "noteId": "np2-pd-apgar",
+    "vignette": "At one minute the nurse assesses a newborn: the body is pink and the hands and feet are blue, the heart rate is 130 per minute, the baby grimaces when the nose is suctioned, flexes the limbs minimally, and has a weak cry.",
+    "stem": "What is the Apgar score and the appropriate action?",
+    "options": [
+      "A score of 8: provide routine care with the mother and observe",
+      "A score of 6: dry, stimulate and clear the airway if needed",
+      "A score of 3: begin resuscitation at once and call for help",
+      "A score of 6: wait for the five-minute score before doing anything"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: acrocyanosis (1), heart rate over 100 (2), grimace (1), minimal flexion (1), weak cry (1).\n2. Principle: the total is 6, which is fair (4 to 7) and needs observation, stimulation and suctioning; 8 to 10 is good; 3 or less needs resuscitation; do not wait for the 5-minute score when action is needed.\n3. Priority rule: airway first (dry, warm, position, suction), then stimulate.\n4. Flip: if the heart rate were under 100 and the baby were limp with no breathing, resuscitation would begin.",
+    "optionRationales": [
+      "Miscounted total: acrocyanosis, a grimace, minimal flexion and a weak cry each score 1.",
+      "Correct: score 6 is fair and needs stimulation and airway care with reassessment.",
+      "Miscounted total: the heart rate over 100 scores 2.",
+      "Unsafe: low or fair scores need action now, not after the five-minute score."
+    ],
+    "strategy": "Score each criterion, then act by the total",
+    "archetype": "compute and act",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Apgar: appearance, pulse, grimace, activity, respiration; 8 to 10 good, 4 to 7 fair, 3 or less poor.",
+      "Do not wait for the five-minute score to act."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0069",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Weight loss in the first days",
+    "noteId": "np2-pd-ga-measure",
+    "vignette": "A breastfed term newborn weighed 3,400 g at birth and weighs 3,150 g on day 3. He feeds well, has wet diapers and has an alert, active appearance. His mother is frightened by the drop and wants to give formula.",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Explain that this loss is expected and encourage continued breastfeeding",
+      "Support the use of formula supplements so that he regains his weight faster than now",
+      "Refer him urgently to the hospital for treatment of dehydration and weight loss",
+      "Tell the mother to wake him every hour for feeds until he starts to gain weight"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: loss of about 7 percent in an active, feeding, wetting baby.\n2. Principle: a newborn loses about 5 to 10 percent of birth weight in the first days because maternal salt and fluid-retaining hormones are gone.\n3. The weight change is within the expected range and the baby shows no signs of dehydration.\n4. Flip: a loss of well over 10 percent with lethargy and dry diapers would need assessment and referral.",
+    "optionRationales": [
+      "Correct: the loss is expected and breastfeeding is encouraged.",
+      "Over-intervention: formula is not needed for an expected loss.",
+      "Over-reaction: there are no signs of dehydration.",
+      "Unnecessary instruction: rigid hourly waking is not required for an active, feeding infant."
+    ],
+    "strategy": "Expected newborn weight loss",
+    "archetype": "expected loss",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "A newborn loses 5 to 10 percent of birth weight in the first days.",
+      "Normal birth weight 2.5 to 4.0 kg."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0070",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Persistent primitive reflex",
+    "noteId": "np2-pd-reflexes",
+    "vignette": "A nurse reviews findings at four well-baby visits. An 8-week-old has a strong palmar grasp. A 10-week-old turns toward a stroke on the cheek and sucks. A 7-month-old startles with symmetrical arm abduction and extension to a loud noise. A 9-month-old fans the toes when the sole is stroked.",
+    "stem": "Which finding should the nurse report?",
+    "options": [
+      "The 8-week-old with a strong palmar grasp",
+      "The 10-week-old who turns toward a cheek stroke and sucks",
+      "The 7-month-old who still shows the Moro reflex",
+      "The 9-month-old who fans the toes when the sole is stroked"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: four reflexes at four ages.\n2. Principle: Moro persisting beyond about 6 months may suggest brain damage; palmar grasp lessens by 3 to 4 months; rooting fades by 3 to 4 months (may last up to a year); Babinski disappears after about 1 year.\n3. Only the Moro reflex has persisted beyond its expected time.\n4. Flip: if the 9-month-old had no Babinski response at all, a neurologic examination would be needed.",
+    "optionRationales": [
+      "Expected at 8 weeks: grasp lessens by 3 to 4 months.",
+      "Expected at 10 weeks: rooting may last until 3 to 4 months or longer.",
+      "Correct: persistence beyond 6 months is a red flag.",
+      "Expected at 9 months: Babinski disappears after about 1 year."
+    ],
+    "strategy": "Retained reflex signals neurologic concern",
+    "archetype": "which reflex to report",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Moro persisting beyond 6 months may suggest brain damage.",
+      "Absent Babinski needs a neurologic exam."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0071",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Newborn heat loss risk",
+    "noteId": "np2-pd-nb-vitals",
+    "vignette": "Four infants are in the newborn unit: a 34-week infant weighing 1.9 kg, a term infant being held skin-to-skin, a term infant under a radiant warmer, and a term infant breastfeeding, wrapped with a cap.",
+    "stem": "Which infant is at the greatest risk of cold stress?",
+    "options": [
+      "The 34-week infant weighing 1.9 kg",
+      "The term infant held skin-to-skin on his mother",
+      "The term infant under a radiant warmer",
+      "The breastfeeding term infant wrapped with a cap"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cue: four infants with different gestation and warming measures.\n2. Principle: newborns conserve heat by constricting skin vessels; brown fat makes heat in mature newborns and premature infants have less; cold stress increases oxygen use and can lead to low blood sugar and breathing trouble.\n3. The other three infants are mature and have effective warming measures in place.\n4. Flip: if the term infant under the warmer were wet and uncovered, his risk would rise.",
+    "optionRationales": [
+      "Correct: prematurity means less brown fat and a high risk of cold stress.",
+      "Lower risk: skin-to-skin contact is an effective warming method.",
+      "Lower risk: a radiant warmer prevents heat loss.",
+      "Lower risk: a cap and wrapping conserve heat."
+    ],
+    "strategy": "Preterm infants have less brown fat",
+    "archetype": "who is most at risk",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Premature infants have less brown fat.",
+      "Dry the baby, cover the head, keep skin-to-skin or under a radiant warmer."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0072",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Teaching parents about caput",
+    "noteId": "np2-pd-x-scalp-swellings",
+    "vignette": "A 12-hour-old newborn after a prolonged labor has a soft, puffy scalp swelling that crosses a suture line. His parents are anxious and ask if it will damage his brain and if they should massage it.",
+    "stem": "Which response is BEST?",
+    "options": [
+      "Teach them to massage the swelling gently twice a day to speed absorption",
+      "Explain that it is a collection of blood that will take several weeks to be absorbed and will need to be drained",
+      "Tell them that a CT scan is needed to rule out brain injury and bleeding inside the skull",
+      "Explain that the swelling is expected, needs no treatment and goes in about three days"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: swelling across suture lines after a prolonged labor.\n2. Principle: caput succedaneum is scalp swelling from prolonged labor that crosses suture lines and resolves by about the third day; no treatment is needed; avoid pressing or rubbing.\n3. A cephalhematoma, by contrast, is blood under the periosteum and takes 3 to 6 weeks to absorb.\n4. Flip: a firm swelling confined to one bone appearing on day 2 would suggest cephalhematoma.",
+    "optionRationales": [
+      "Unsafe: rubbing or pressing the swelling is not recommended.",
+      "Confuses conditions: this describes a cephalhematoma, not caput.",
+      "Over-intervention: no scan is needed for an expected finding.",
+      "Correct: accurate, reassuring and appropriate."
+    ],
+    "strategy": "Reassure about an expected finding",
+    "archetype": "expected resolution",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Caput succedaneum crosses suture lines and resolves by about day 3.",
+      "Cephalhematoma absorbs in 3 to 6 weeks."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0073",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "First priority for an infant with Down syndrome",
+    "noteId": "np2-pd-down",
+    "vignette": "A 3-day-old with Down syndrome is pale around the mouth when feeding and tires quickly. The nurse hears a heart murmur and notes a respiratory rate that is faster than before. The parents are tearful and ask many questions about the future and support groups.",
+    "stem": "What should the nurse do FIRST?",
+    "options": [
+      "Spend time explaining early intervention services and support groups to the parents",
+      "Assess the infant's cardiac and respiratory status and report the findings",
+      "Begin an early stimulation program to improve his development",
+      "Plan nutrition and weight control to prevent rapid weight gain"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: feeding fatigue, perioral pallor, a murmur and faster breathing in an infant with Down syndrome.\n2. Principle: congenital heart defects (such as VSD) are associated with Down syndrome; assess and stabilize any heart or breathing problem first, then plan by developmental age and support the family.\n3. Priority rule: ABC before teaching and developmental planning.\n4. Flip: if the infant were stable and feeding well, supporting the parents and discussing early intervention would be the priority.",
+    "optionRationales": [
+      "Right task, wrong time: family support follows stabilization.",
+      "Correct: heart and breathing problems come first.",
+      "Right task, wrong time: developmental stimulation is not the priority now.",
+      "Right topic, wrong time: weight control is a later teaching point."
+    ],
+    "strategy": "ABC: stabilize heart and breathing first",
+    "archetype": "stabilize before teaching",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Down syndrome: assess and stabilize heart or breathing problems first.",
+      "Associated problems: congenital heart defects, Hirschsprung's disease, leukemia."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0074",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Cyanosis during feeding",
+    "noteId": "np2-pd-choanal",
+    "vignette": "A 2-day-old newborn turns blue while sucking at the breast, then becomes pink and calm when he cries. His mouth stays open during crying. His mother says she has been trying to feed him for 20 minutes and wants to continue. His respirations are noisy and he has nasal flaring.",
+    "stem": "What should the nurse do FIRST?",
+    "options": [
+      "Encourage the mother to continue feeding until the baby is calm and then burp him",
+      "Place him prone on the mother's chest and continue the feed to build his strength",
+      "Stop the feeding, keep the mouth open with an oral airway and report",
+      "Wrap him tightly and hold him in a semi-upright position for the next feed"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: cyanosis during feeding relieved by crying, noisy breathing, and nasal flaring.\n2. Principle: newborns breathe mostly through the nose, so a nasal blockage such as choanal atresia causes cyanosis at rest or in feeding that clears with crying; an oral airway relieves breathing temporarily; screening includes failure to pass a small catheter through the nares.\n3. Priority rule: airway first, feed later.\n4. Flip: if the baby were pink and calm throughout the feed, the feed could continue.",
+    "optionRationales": [
+      "Unsafe: continuing the feed risks hypoxia and aspiration.",
+      "Unsafe: positioning prone and continuing the feed does not relieve the nasal blockage.",
+      "Correct: it secures the airway and gets the diagnosis confirmed.",
+      "Under-reaction: tight wrapping and waiting does not address the obstruction."
+    ],
+    "strategy": "Airway first: choanal atresia",
+    "archetype": "airway first",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Choanal atresia: cyanosis during feeding that improves with crying.",
+      "Airway first: oral airway to relieve breathing temporarily."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0075",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Umbilical hernia remedy",
+    "noteId": "np2-pd-x-umbilical-cord",
+    "vignette": "At a 10-day well-baby visit the mother shows a coin taped over her son's small umbilical bulge. The cord stump has separated and the area is clean and dry. She says an older relative told her the coin would \"push the belly button in\".",
+    "stem": "What should the nurse tell her?",
+    "options": [
+      "The coin is helpful and she should keep it taped until the hernia disappears",
+      "The coin does not help the defect close; remove it and watch the bulge",
+      "The coin should be replaced with a firm tight binder around the abdomen at all times",
+      "The bulge is an infection and he must be given antibiotics at once"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: an umbilical hernia, a taped coin, a separated stump that is clean and dry.\n2. Principle: taping the cord or placing buttons or coins on an umbilical hernia does not help closure; teach parents not to apply home remedies; report redness, pus, foul smell or bleeding.\n3. The stump looks healthy, so there is no sign of infection.\n4. Flip: if the area were red with pus, omphalitis would be suspected and reported.",
+    "optionRationales": [
+      "Reinforces a useless remedy.",
+      "Correct: it corrects the belief without alarm.",
+      "Unsafe: tight binders are not recommended and do not close the defect.",
+      "Over-reaction: the area is clean and dry, with no signs of infection."
+    ],
+    "strategy": "Correct an unhelpful home remedy",
+    "archetype": "teaching about folk remedies",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Taping coins or buttons on an umbilical hernia does not help closure.",
+      "Report redness, pus, foul smell or bleeding at the cord."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0076",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Empty scrotum in a newborn",
+    "noteId": "np2-pd-x-cryptorchidism",
+    "vignette": "A nurse examines a term male newborn who is 2 days old. The scrotum is small and empty on both sides. She strokes the inner thigh and sees no rise of the testis. The baby is feeding well and passing urine. His mother asks, \"The doctor told me testes sometimes come down later, so it is fine, right?\"",
+    "stem": "What is the nurse's BEST action?",
+    "options": [
+      "Document the absent cremasteric reflex as proof that the testes are normal",
+      "Tell the mother that this is expected and that no follow-up is needed",
+      "Wait until the baby is a year old before telling the physician about the empty scrotum",
+      "Report the absent testes for evaluation and teach that follow-up is needed"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: a term boy with an empty scrotum, no cremasteric response, and a mother expecting spontaneous descent.\n2. Principle: both testes should be in the scrotum at term; undescended testes are normal for premature boys but a term boy with absent testes needs evaluation (with a kidney work-up per the handout); the cremasteric reflex may be absent before 10 days and is therefore not informative.\n3. Priority rule: report and document, then teach about follow-up.\n4. Flip: in a premature newborn, undescended testes could be normal for gestational age with follow-up.",
+    "optionRationales": [
+      "Misreading the test: the reflex may be absent before 10 days and does not show normality.",
+      "False reassurance: follow-up is needed even if descent is possible.",
+      "Under-reaction: waiting a year delays evaluation.",
+      "Correct: absent testes at term need evaluation."
+    ],
+    "strategy": "Report absent testes; do not rely on the reflex",
+    "archetype": "report absent testis",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Both testes should be in the scrotum at term; report absent testes.",
+      "Cremasteric reflex may be absent before 10 days."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0077",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Suspected esophageal atresia",
+    "noteId": "np2-pd-anomaly-clues",
+    "vignette": "A newborn whose mother had hydramnios drools heavily, chokes and turns blue with the first sugar-water feed, then recovers when the nurse suctions his mouth. His mother, who is hungry to feed him, asks to try the breast. The pediatrician is on her way.",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Let the mother try a short breastfeed since he recovered after suctioning",
+      "Offer a different type of nipple and slow the flow of the feed to prevent choking",
+      "Keep him nil by mouth, keep the airway clear with suction and report",
+      "Burp him well and offer the feed again in 15 minutes using a different nipple"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: maternal hydramnios (the baby cannot swallow fluid), drooling, choking and cyanosis with feeding.\n2. Principle: hydramnios suggests a gastrointestinal obstruction such as esophageal atresia; keep the airway first and do not feed until patency is checked, because feeding can cause aspiration or vomiting; report to the provider.\n3. The recovery after suction does not make the next feed safe.\n4. Flip: if a catheter passed easily into the stomach, feeding could be considered with orders.",
+    "optionRationales": [
+      "Unsafe: feeding risks aspiration while the cause is unknown.",
+      "Treats the symptom: the problem is anatomical, not the nipple or flow.",
+      "Correct: airway protection and no feeding until patency is checked.",
+      "Unsafe: repeating the feed after burping repeats the risk."
+    ],
+    "strategy": "Hydramnios points to a gut obstruction: do not feed",
+    "archetype": "withhold feeding, airway first",
+    "difficulty": 5,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Hydramnios suggests a gastrointestinal obstruction (esophageal or duodenal atresia).",
+      "Do not feed until patency is checked when atresia is suspected."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0078",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Bottle-feeding safety teaching",
+    "noteId": "np2-pd-feeding-safety",
+    "vignette": "A nurse teaches new mothers about bottle feeding and then asks each to describe her routine. A mother with a 2-month-old says she is exhausted from night feeds and works from home. She describes four things she does.",
+    "stem": "Which statement shows that further teaching is needed?",
+    "options": [
+      "\"I heat the bottle in the microwave for twenty seconds, shake it and test it.\"",
+      "\"I hold my baby in a semi-upright position for every feed, even at night when I am tired.\"",
+      "\"I warm the bottle in a pan of warm water and test it on my wrist before feeding.\"",
+      "\"I ask my doctor before taking any medicine or herbal product while I am breastfeeding.\""
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cue: one statement uses a microwave.\n2. Principle: do not warm bottles in a microwave because the inner core can become very hot while the bottle feels cool; warm in a pan of warm water or under running warm water and test on the wrist; hold the infant semi-upright during every feed; almost all drugs pass into breast milk, so check with the provider.\n3. Shaking and wrist testing do not fix an uneven-heating problem.\n4. Flip: if she warmed the bottle in a pan of warm water, no further teaching would be needed.",
+    "optionRationales": [
+      "Correct: microwaves create hot spots even if the bottle feels cool.",
+      "Correct practice: semi-upright holding lowers aspiration and ear infection risk.",
+      "Correct practice: a water bath warms evenly.",
+      "Correct practice: almost all drugs pass into breast milk."
+    ],
+    "strategy": "Evaluate teaching: unsafe bottle practice",
+    "archetype": "spot the unsafe practice",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Do not warm bottles in a microwave; never prop a bottle; no bottle in bed.",
+      "Almost all drugs pass into breast milk."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  }
+]
