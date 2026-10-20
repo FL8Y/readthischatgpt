@@ -1,0 +1,933 @@
+[
+ {
+  "id": "np5-0051",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Hospitalised drinker turns confused",
+  "noteId": "np5-alcohol",
+  "vignette": "On day two after hip surgery, a 58-year-old man who drinks heavily every day has a coarse tremor, drenching sweat and a pulse of 118. Tonight he is pulling at the covers, says bugs are crawling on the wall, and has a temperature of 38.5 C. The night nurse thinks he is anxious about the pain.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Give the PRN analgesic and reassure him about the pain",
+   "Remind him where he is and ask him to rest quietly",
+   "Notify the provider and start seizure precautions",
+   "Recheck vital signs and the surgical site in two hours"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: heavy daily drinking, tremor, sweating, tachycardia, visual hallucinations and fever after surgery.\n2. Principle: severe withdrawal can bring seizures and death.\n3. Priority rule: escalate and protect before routine comfort measures.\n4. The key beats analgesia because pain does not explain the hallucinations.\nFlip: If he had only mild tremor and anxiety with normal vitals, close monitoring and scheduled withdrawal medicines would lead.",
+  "optionRationales": [
+   "Treats the wrong cause. The picture is withdrawal, not pain.",
+   "Orientation alone does not treat a life-threatening condition.",
+   "Correct. Hallucinations, fever and autonomic arousal after stopping heavy drinking signal severe withdrawal, an emergency.",
+   "Under-reaction. Waiting allows the withdrawal to progress."
+  ],
+  "strategy": "Unstable before stable",
+  "archetype": "Recognise severe withdrawal",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Withdrawal can cause seizures and delirium",
+   "Benzodiazepines are the usual treatment"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0052",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Confused drinker with eye signs",
+  "noteId": "np5-alcohol",
+  "vignette": "A thin man with a long history of heavy drinking is brought in confused. He sways when he stands and his eyes move abnormally. His friend says he has hardly eaten for weeks and believes he has been drinking again. The triage nurse is about to let him sleep it off in a chair.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Report these signs and expect thiamine",
+   "Let him sleep it off and recheck his mental state in the morning",
+   "Confront him about his drinking to motivate him to stop",
+   "Give a high-calorie meal and send him home with his friend"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: confusion, unsteady gait and eye movement problems in a malnourished heavy drinker.\n2. Principle: thiamine deficiency causes Wernicke encephalopathy.\n3. Priority rule: treat the deficiency and escalate rather than attribute signs to drunkenness.\n4. The key beats sleeping it off because the disorder is treatable and dangerous.\nFlip: If his gait and eyes were normal and he was only drowsy, supervision while sobering would be sufficient.",
+  "optionRationales": [
+   "Correct. These signs suggest Wernicke encephalopathy from thiamine deficiency, which needs prompt treatment.",
+   "Under-reaction. Missing a vitamin-deficiency emergency risks lasting memory damage.",
+   "Not the priority. Confrontation does not treat the confusion.",
+   "Feeding without assessment misses the neurological emergency."
+  ],
+  "strategy": "Recognise the emergency",
+  "archetype": "Think thiamine",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Thiamine prevents or treats Wernicke and Korsakoff",
+   "Do not assume confusion is only intoxication"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0053",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Reaction on disulfiram",
+  "noteId": "np5-x-disulfiram",
+  "vignette": "A client taking disulfiram calls the unit after using a new cologne. He is flushed with a throbbing headache, sweating, nauseated and dizzy. He asks the nurse what to read on labels in future, and says he feels weak when he stands.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Teach him how to read labels for alcohol-free products",
+   "Tell him to take his next dose as usual to stay protected",
+   "Advise him to lie down and sleep it off at home",
+   "Check his blood pressure; arrange emergency care if low"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: flushing, headache, sweating and weakness after alcohol-containing cologne on disulfiram.\n2. Principle: the drug makes even topical alcohol cause a reaction that can drop blood pressure.\n3. Priority rule: assess and treat the dangerous effect before teaching.\n4. The key beats teaching because hypotension can be fatal.\nFlip: If he were only mildly flushed with normal blood pressure, teaching label reading would be next.",
+  "optionRationales": [
+   "Right teaching, wrong time. Safety comes first.",
+   "Unsafe. More drug does not help and the reaction is already occurring.",
+   "Under-reaction. Weakness on standing may mean low blood pressure.",
+   "Correct. Severe hypotension is the dangerous part of this reaction and is treated as an emergency."
+  ],
+  "strategy": "Unstable before stable",
+  "archetype": "Assess before teaching",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Disulfiram reaction: flushing, headache, nausea, hypotension",
+   "Hidden alcohol in cologne and aftershave"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0054",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Waking after a reversal drug",
+  "noteId": "np5-x-opioids",
+  "vignette": "A 30-year-old found drowsy with slow breathing and tiny pupils is given an ordered reversal agent and wakes up in the emergency department. His breathing is now normal. He is irritable and says he is leaving. Staff are busy with another arrival.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Let him leave since he is awake and breathing normally",
+   "Keep him for repeated observation of breathing",
+   "Give a sedative for his irritability before he leaves",
+   "Discharge him with a leaflet about recovery programs"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: recent drowsiness, slow breathing and tiny pupils reversed, now awake and wanting to leave.\n2. Principle: reversal agents are short acting and may need repeating.\n3. Priority rule: keep monitoring breathing until the opioid effect is gone.\n4. The key beats discharge because the danger may return.\nFlip: If many hours had passed with stable breathing, discharge planning could proceed.",
+  "optionRationales": [
+   "Unsafe. Breathing can fail again after the reversal wears off.",
+   "Correct. The reversal drug wears off sooner than many opioids, so respiratory depression can return.",
+   "Unsafe. Sedatives can depress breathing further.",
+   "Teaching is useful but not before safety is assured."
+  ],
+  "strategy": "Maslow: airway and breathing first",
+  "archetype": "Observe repeatedly",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Airway first, then reversal agent",
+   "Observe repeatedly after reversal"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0055",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Crash after stimulant use",
+  "noteId": "np5-x-stimulants",
+  "vignette": "A client admitted after three days of methamphetamine use sleeps most of the day, wakes irritable and flat, and eats ravenously. Tonight he tells the nurse that nothing matters and he is tired of feeling this way. His vital signs are stable.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Let him sleep and feed him whenever he wakes",
+   "Ask directly about suicidal thoughts",
+   "Reassure him it will pass in a few days",
+   "Teach him about recovery meetings now that he is awake"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: crash phase with hopeless statement.\n2. Principle: stimulant withdrawal brings depression and suicidal thinking.\n3. Priority rule: assess suicide before teaching or reassurance.\n4. The key beats feeding because safety comes first.\nFlip: If he denied any thoughts of self-harm, meeting his sleep and food needs would be reasonable.",
+  "optionRationales": [
+   "Meets basic needs but ignores the danger.",
+   "Correct. The crash phase brings depression and suicide risk, which outrank hunger and sleep needs.",
+   "False comfort that avoids the risk.",
+   "Right teaching, wrong time."
+  ],
+  "strategy": "Safety first: ask directly",
+  "archetype": "Watch for suicide",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Stimulant crash: depression, hypersomnia, suicide risk",
+   "Suicide precautions during the crash"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0056",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Frightened after a hallucinogen",
+  "noteId": "np5-uppers-hallucinogens",
+  "vignette": "A young woman brought from a party after taking LSD is terrified, sees colors moving and says she is losing her mind. Her vital signs are stable and she is not violent. The department is bright and noisy.",
+  "stem": "Which action is best?",
+  "options": [
+   "Leave her alone in a dark room with the door shut",
+   "Apply restraints until the effects wear off",
+   "Explain the long-term damage that hallucinogens cause",
+   "Move her to a quiet room and stay with her"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: terror from a hallucinogen with stable vitals and no violence.\n2. Principle: reduce stimulation and talk the client through the experience.\n3. Priority rule: stay present and avoid restraint where possible.\n4. The key beats leaving her because presence reduces fear.\nFlip: If she became violent or dangerously hot, more active safety and temperature measures would be needed.",
+  "optionRationales": [
+   "Unobserved isolation leaves her frightened and at risk.",
+   "Over-intervention. Restraints are not needed without danger.",
+   "Teaching during panic is not helpful.",
+   "Correct. A low-stimulation setting and a calm companion reduce panic from a bad trip."
+  ],
+  "strategy": "Low stimulation; stay with the client",
+  "archetype": "Low stimulation and stay",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Quiet, low-stimulation room",
+   "Talk down with calm short sentences"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0057",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Family support after discharge",
+  "noteId": "np5-pd-recovery-programs-drugs",
+  "vignette": "The wife of a man in recovery from alcohol use asks the nurse where she can get support, saying she has covered for him with his employer for years and feels lost. Her teenage son also feels ashamed at school.",
+  "stem": "Which referral is most appropriate for the wife and son?",
+  "options": [
+   "Al-Anon for the wife and Alateen for the son",
+   "Alcoholics Anonymous closed meetings for both",
+   "Narcotics Anonymous for the whole family",
+   "A weekly insight therapy session for her husband alone"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: relatives of a person in recovery, with a history of covering for him.\n2. Principle: Al-Anon supports spouses and friends; Alateen supports children.\n3. Priority rule: refer family members to family-focused groups.\n4. The key beats AA because AA is for the person with the problem.\nFlip: If the wife herself had an alcohol problem, AA would also be appropriate.",
+  "optionRationales": [
+   "Correct. These groups support relatives and children of people with alcohol problems.",
+   "Closed meetings are for people seeking recovery from alcohol use themselves.",
+   "Fits drug use, not this situation or the needs of relatives.",
+   "Does not meet the needs of the family members."
+  ],
+  "strategy": "Match the support to the person",
+  "archetype": "Match support to need",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Al-Anon for spouses; Alateen for children",
+   "Reduce codependent behavior"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0058",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Enabling behaviour",
+  "noteId": "np5-substance-basics",
+  "vignette": "The wife of a man admitted for substance use says she calls his employer with excuses whenever he is too drunk to work and pays his debts. She believes she is helping him and asks the nurse what more she can do.",
+  "stem": "What is the nurse's best response?",
+  "options": [
+   "Praise her loyalty and encourage her to keep covering for him",
+   "Suggest she handle his problem entirely on her own at home",
+   "Explain that protecting him prolongs his drinking",
+   "Tell her the situation is her fault and she should leave him"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: excuses and rescuing behavior.\n2. Principle: enabling protects a person from consequences and maintains addiction.\n3. Priority rule: teach without blaming and refer for support.\n4. The key beats praise because it addresses the pattern.\nFlip: If she were being threatened, safety planning would come first.",
+  "optionRationales": [
+   "Reinforces enabling.",
+   "Leaves her without support.",
+   "Correct. Covering for him is enabling; letting him face the effects supports change.",
+   "Blaming and directive; it also takes her decisions from her."
+  ],
+  "strategy": "Reduce enabling",
+  "archetype": "Let consequences land",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Enabling and codependency",
+   "Refer family for help"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0059",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Colleague who seems impaired",
+  "noteId": "np5-substance-basics",
+  "vignette": "During the medication round, a nurse smells alcohol on a colleague who is slurring slightly and about to give insulin to a client. The colleague says she is just tired and asks the nurse to say nothing.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Keep quiet this once and talk to her privately next week",
+   "Take over her clients without telling anyone",
+   "Confront her loudly in front of the other staff",
+   "Ensure client safety and report to the supervisor"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: alcohol smell, slurred speech and a pending insulin dose.\n2. Principle: impaired practice endangers clients and requires reporting.\n3. Priority rule: protect the client, then report per policy.\n4. The key beats private talk because it acts now.\nFlip: If the smell were from a mouthwash and she was clearly steady, she could be asked privately about it.",
+  "optionRationales": [
+   "Leaves clients at risk and delays help.",
+   "Covers the problem without protecting future clients.",
+   "Humiliating and does not secure client safety.",
+   "Correct. Client safety comes first and impaired practice is reported according to policy, which also gets the colleague help."
+  ],
+  "strategy": "Client safety first",
+  "archetype": "Protect clients and report",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Impaired nurses: report per policy",
+   "Protect clients and offer help"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0060",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Anorexia on admission",
+  "noteId": "np5-eating-disorders",
+  "vignette": "A 19-year-old with anorexia nervosa is admitted with a pulse of 42, blood pressure of 84/50 and dizziness. Her potassium is low. She is crying and asks not to be weighed. Lunch is arriving, and the dietitian wants to set calorie goals.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Stay with her at lunch to supervise her eating",
+   "Monitor her heart rhythm and vital signs",
+   "Start a discussion of her body image with her",
+   "Set up the calorie plan with the dietitian right away"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: slow pulse, low blood pressure, dizziness and low potassium.\n2. Principle: electrolyte loss and bradycardia cause dangerous heart rhythms.\n3. Priority rule: stabilise physical status before nutrition and psychological work.\n4. The key beats supervising lunch because rhythm risk comes first.\nFlip: If her vital signs and potassium were normal, supervising meals would be next.",
+  "optionRationales": [
+   "Needed, but nutrition follows physical stabilisation.",
+   "Correct. Life-threatening physical problems come first, and low potassium with bradycardia threatens the heart.",
+   "Valid care but not urgent compared with her cardiac risk.",
+   "Planning can follow stabilisation."
+  ],
+  "strategy": "Maslow: physiologic first",
+  "archetype": "Physical stability first",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Treat life-threatening physical problems first",
+   "Low potassium risks heart rhythm problems"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0061",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Post-meal bathroom visits",
+  "noteId": "np5-eating-disorders",
+  "vignette": "A client with bulimia nervosa finishes dinner and asks to go to the bathroom alone, saying she needs privacy. She has gone straight to the bathroom after every meal this week, and the smell of vomit has been noticed.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Allow her privacy to respect her dignity",
+   "Search her room and belongings tonight without telling her",
+   "Stay with her in a common area for a set time after meals",
+   "Lecture her about the dangers of vomiting"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: bathroom visits after every meal and signs of vomiting.\n2. Principle: purging follows meals.\n3. Priority rule: provide supervision for a set time after meals.\n4. The key beats privacy because it prevents harm.\nFlip: If she had no pattern of purging, normal privacy would be fine.",
+  "optionRationales": [
+   "Right value, but it permits purging.",
+   "Over-intervention that destroys trust.",
+   "Correct. Supervision after meals prevents purging while keeping dignity.",
+   "Does not prevent the behaviour."
+  ],
+  "strategy": "Supervise meals and after",
+  "archetype": "Supervise after meals",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Supervise meals and stay afterward",
+   "Bulimia: binge then compensate"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0062",
+  "v": 2,
+  "type": "sata",
+  "area": "NP5",
+  "topic": "Findings with self-induced vomiting",
+  "noteId": "np5-pd-anorexia-bulimia-details",
+  "vignette": "A 24-year-old woman with a normal weight tells the nurse she binges at night and then makes herself vomit every day. She denies using laxatives. The nurse prepares to assess her.",
+  "stem": "Which findings are expected? Select all that apply.",
+  "options": [
+   "Ragged enamel loss on the teeth",
+   "Scars on the knuckles",
+   "Metabolic alkalosis",
+   "Severe emaciation with cold intolerance",
+   "A slow pulse and low temperature",
+   "High potassium"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "rationale": "1. Cue: normal weight with daily self-induced vomiting.\n2. Principle: vomiting causes enamel loss, hand scars and alkalosis.\n3. Priority rule: do not apply anorexia findings to bulimia.\n4. The correct options are the vomiting-related findings.\nFlip: If she also used laxatives daily, metabolic acidosis could appear from the diarrhoea.",
+  "optionRationales": [
+   "Correct. Stomach acid erodes the tooth surface.",
+   "Correct. Fingers used to induce vomiting can scar the skin.",
+   "Correct. Loss of stomach acid raises blood pH.",
+   "Incorrect. These point to anorexia nervosa; bulimia weight is usually normal.",
+   "Incorrect. Typical of anorexia.",
+   "Incorrect. Vomiting lowers potassium."
+  ],
+  "strategy": "Match findings to the disorder",
+  "archetype": "Select expected findings",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Bulimia: enamel loss, alkalosis",
+   "Anorexia: bradycardia, amenorrhea, emaciation"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0063",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Manipulation and limits",
+  "noteId": "np5-personality-disorders",
+  "vignette": "A client with antisocial personality disorder tells the nurse, 'You are the only one who understands me. Just let me skip group today and I will do twice as much tomorrow.' He has missed three groups this week and is smiling.",
+  "stem": "Which response is best?",
+  "options": [
+   "You said you wanted to manage anger, yet missed three groups.",
+   "I'll make an exception today since you are being so honest.",
+   "If you skip again, I will make sure you lose all your privileges!",
+   "Let's talk about this with the other clients and see what they think."
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: flattery and bargaining after repeated missed groups.\n2. Principle: manipulation is met with calm facts and consistent limits.\n3. Priority rule: no special favours, no anger, no bargaining.\n4. The key beats the exception because limits must be the same for all.\nFlip: If he expressed thoughts of harming himself, safety assessment would come first.",
+  "optionRationales": [
+   "Correct. Calm confrontation with facts, without anger or punishment, addresses manipulation.",
+   "Special favours reinforce manipulation.",
+   "An angry threat turns the exchange into a power struggle.",
+   "Discussing him with others breaks confidentiality and invites splitting."
+  ],
+  "strategy": "Consistent limits; factual confrontation",
+  "archetype": "State facts calmly",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Confrontation uses calm facts",
+   "Consistent limits across staff"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0064",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Group for an isolated older adult",
+  "noteId": "np5-pc-group-milieu-family-therapy",
+  "vignette": "An 80-year-old widow recently moved to a care home spends her days in her room and says she misses her old life. She enjoys looking at photographs. The unit offers insight groups, socialization groups and a reminiscing group.",
+  "stem": "Which activity is most appropriate?",
+  "options": [
+   "The life review (reminiscing) group",
+   "A therapeutic insight group about her childhood conflicts",
+   "A loud socialization group with young clients",
+   "A family therapy session about domestic violence"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: isolation and loss in an older adult who values memories.\n2. Principle: reminiscing groups reduce isolation in older people.\n3. Priority rule: match the group to the stated need.\n4. The key beats the insight group because it fits her goal.\nFlip: If she were expressing thoughts of ending her life, safety assessment would lead.",
+  "optionRationales": [
+   "Correct. It lessens isolation in older adults by sharing memories.",
+   "Aimed at insight, not isolation.",
+   "Poor fit for her need and level of comfort.",
+   "Not indicated by her situation."
+  ],
+  "strategy": "Match the therapy to the goal",
+  "archetype": "Match group to goal",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Life review group lessens isolation in older adults",
+   "Milieu therapy plans the environment"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0065",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Reinforcing self-care",
+  "noteId": "np5-pc-behavior-modification",
+  "vignette": "A client with schizophrenia rarely showers. The team wants to increase his showering. When he showers today, the nurse is on the unit and available.",
+  "stem": "Which approach best increases the behavior?",
+  "options": [
+   "Give a sticker at the end of the week for all showers",
+   "Remove his television privileges whenever he forgets",
+   "Praise him immediately each time he showers",
+   "Ignore showering until he does it spontaneously"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: a target behavior and a chance to reinforce it.\n2. Principle: reinforcement works best when immediate and consistent.\n3. Priority rule: reinforce the wanted behavior, not punish the unwanted one.\n4. The key beats delayed rewards because timing matters.\nFlip: If the goal were to reduce an unwanted behavior, ignoring it could be used.",
+  "optionRationales": [
+   "Delayed reinforcement is weak.",
+   "Punishment, not reinforcement.",
+   "Correct. A reinforcer given right after the wanted behavior strengthens it.",
+   "Nothing is strengthened."
+  ],
+  "strategy": "Reinforce immediately",
+  "archetype": "Reinforce immediately",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Reinforcers must follow the behavior at once",
+   "Keep all staff using the same plan"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0066",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Teaching tooth brushing",
+  "noteId": "np5-pd-intellectual-disability",
+  "vignette": "A 20-year-old with a severe level of intellectual disability is learning to brush his teeth. He does not respond to long verbal explanations and becomes upset when the routine changes.",
+  "stem": "Which teaching approach is best?",
+  "options": [
+   "Explain the importance of oral hygiene in detail",
+   "Use small steps, demonstrate and repeat daily",
+   "Give him a booklet on dental care to read",
+   "Let him work it out himself and avoid interrupting"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: intellectual disability at a severe level and a self-care skill.\n2. Principle: use repetition, role modelling and a consistent routine.\n3. Priority rule: teach to the functional level, not the age.\n4. The key beats a booklet because it fits his abilities.\nFlip: If he had mild disability, more verbal explanation could be added.",
+  "optionRationales": [
+   "Verbal explanation is beyond his level.",
+   "Correct. Skills are learned by repetition and modelling at the person's level.",
+   "Academic teaching does not suit his level.",
+   "Under-supports learning."
+  ],
+  "strategy": "Match teaching to the level of function",
+  "archetype": "Match teaching to level",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Teach in small steps with repetition",
+   "Match teaching to the level of function"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0067",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Suspicion of harm to a child",
+  "noteId": "np5-pd-malingering-factitious",
+  "vignette": "A mother frequently brings her 3-year-old to the unit with unexplained symptoms. Tests are often normal, her story changes, and symptoms improve when she is away. Staff praise her devotion. The nurse is concerned and finds the mother friendly and cooperative.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Confront the mother directly in the hallway",
+   "Stop recording details to avoid appearing biased",
+   "Assume the mother is simply anxious and continue routine care",
+   "Protect the child, document facts and report per policy"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: unexplained symptoms, changing stories and improvement when the mother is away.\n2. Principle: harming another person to gain attention is abuse.\n3. Priority rule: protect the victim and report according to law and policy.\n4. The key beats confronting the mother because the child's safety comes first.\nFlip: If the child had a diagnosed condition explaining the symptoms, the pattern would not raise concern.",
+  "optionRationales": [
+   "May put the child at risk and compromise evidence.",
+   "Removes the facts needed for the case.",
+   "Under-reaction to a pattern that suggests harm.",
+   "Correct. Suspected harm to a child to gain attention is abuse and must be reported while protecting the child."
+  ],
+  "strategy": "Protect the vulnerable client",
+  "archetype": "Protect and report",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Protect the victim and report",
+   "Document facts, not opinions"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0068",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Identifying displacement",
+  "noteId": "np5-freud-defense-mechanisms",
+  "vignette": "A client is criticised by his supervisor and says nothing. At home he shouts at his wife about a small mistake and slams the door.",
+  "stem": "Which defense mechanism is shown?",
+  "options": [
+   "Projection",
+   "Reaction formation",
+   "Displacement",
+   "Rationalization"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: anger at the supervisor expressed toward the wife.\n2. Principle: displacement shifts feelings to a safer target.\n3. Priority rule: match the behaviour to its definition.\n4. The key beats projection because he is not blaming others for his feelings.\nFlip: If he praised his supervisor excessively while resenting him, reaction formation would fit.",
+  "optionRationales": [
+   "Would involve blaming others for his own feelings.",
+   "Would involve acting opposite to his true feeling.",
+   "Correct. Feelings are shifted from a threatening target to a safer one.",
+   "Would involve logical excuses for his behaviour."
+  ],
+  "strategy": "Match the mechanism",
+  "archetype": "Match the mechanism",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Displacement shifts feelings to a safer target",
+   "Ego reduces anxiety through defenses"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0069",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Intoxicated and belligerent",
+  "noteId": "np5-x-alcohol-intox",
+  "vignette": "A man brought to the emergency department is loud, slurring and swearing. He then becomes drowsy and his breathing slows. His wife says he drinks daily. A security guard suggests telling him firmly he is not welcome.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Confront him about his drinking while he is awake",
+   "Give him coffee to help him sober up",
+   "Leave him alone on his back until he sleeps it off",
+   "Assess airway, breathing and consciousness"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: drowsiness and slow breathing in an intoxicated client.\n2. Principle: alcohol is a central nervous system depressant.\n3. Priority rule: airway, breathing and consciousness before behaviour.\n4. The key beats confrontation because the client may stop breathing.\nFlip: If he were calm with normal vital signs, supervised sobering would be appropriate.",
+  "optionRationales": [
+   "Do not confront while intoxicated.",
+   "Does not treat intoxication and risks aspiration.",
+   "Unsafe. A drowsy client with slowing breathing needs observation.",
+   "Correct. Intoxication can depress breathing, so physiologic status comes before confrontation."
+  ],
+  "strategy": "Maslow: airway first",
+  "archetype": "Airway before confrontation",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Do not confront while intoxicated",
+   "Airway, breathing, circulation first"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0070",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Order to stop a sedative",
+  "noteId": "np5-x-sedatives",
+  "vignette": "A client who has taken lorazepam every night for a year is admitted for pneumonia. The new orders say to discontinue lorazepam. The client says she has not slept without it for years and the night nurse is about to give no dose.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Clarify the order with the provider first",
+   "Follow the order and give no dose tonight",
+   "Give the dose anyway without telling the provider",
+   "Offer herbal tea and tell her she will manage"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: long-term nightly sedative suddenly discontinued.\n2. Principle: withdrawal from sedatives can be dangerous and requires tapering.\n3. Priority rule: question the order before it causes harm.\n4. The key beats following it because it is an unsafe plan.\nFlip: If she had taken it only for two nights, stopping would be reasonable.",
+  "optionRationales": [
+   "Correct. Abrupt stopping can cause withdrawal including seizures, so a taper should be considered.",
+   "Risks withdrawal from sudden discontinuation.",
+   "Acts outside the order.",
+   "Under-reaction to a serious risk."
+  ],
+  "strategy": "Clarify the unsafe order",
+  "archetype": "Clarify before giving or holding",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Taper sedatives; never stop abruptly",
+   "Seizure precautions in withdrawal"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0071",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Mixed feelings about stopping",
+  "noteId": "np5-substance-basics",
+  "vignette": "A man admitted after a driving accident says, 'My wife says I drink too much. I suppose she could be right, but I don't think it's that bad. I've been thinking about it.' He asks what the nurse thinks.",
+  "stem": "Which response is best?",
+  "options": [
+   "Give him a detailed relapse-prevention plan for after stopping",
+   "Explore the good and bad sides of drinking from his viewpoint",
+   "Tell him he must attend a recovery meeting this week",
+   "Confront him that he is in denial about the accident"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: acknowledges a possible problem but is not committed.\n2. Principle: ambivalence calls for exploration of pros and cons.\n3. Priority rule: match the intervention to the stage of change.\n4. The key beats the relapse plan because he has not decided to stop.\nFlip: If he said he had stopped drinking three months ago, relapse prevention would fit.",
+  "optionRationales": [
+   "Fits a later stage.",
+   "Correct. He is considering change, so exploring his own pros and cons supports movement.",
+   "Pushes action before he is ready.",
+   "Confrontation raises resistance."
+  ],
+  "strategy": "Match the intervention to the stage",
+  "archetype": "Match the stage of change",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Stages of change: precontemplation to maintenance",
+   "Relapse is part of the process"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0072",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Rhyming speech",
+  "noteId": "np5-unusual-speech",
+  "vignette": "A manic client tells the nurse, 'Fill the pill, climb the hill, call Jill, give her the bill.' The words rhyme and carry little meaning. He speaks rapidly and is hard to interrupt.",
+  "stem": "Which term best describes this pattern?",
+  "options": [
+   "Echolalia, repeating the nurse's words",
+   "Clang associations",
+   "Neologisms, newly invented words",
+   "Thought blocking, stopping mid-sentence"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: rhyming words with little meaning in mania.\n2. Principle: clang associations link words by sound.\n3. Priority rule: match the example to the definition.\n4. The key beats neologisms because no new words are invented.\nFlip: If he repeated the nurse's question word for word, echolalia would apply.",
+  "optionRationales": [
+   "Would be repeating the nurse's words.",
+   "Correct. Words are chosen because of how they sound.",
+   "Would be newly invented words.",
+   "Would be sudden stopping mid-sentence."
+  ],
+  "strategy": "Name the pattern",
+  "archetype": "Name the speech pattern",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Clang association: words chosen by sound",
+   "Pressured speech is typical of mania"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0073",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Confabulation",
+  "noteId": "np5-symptoms-affect-memory",
+  "vignette": "A client with a long history of heavy drinking tells the nurse that his sister took him to the market yesterday. The sister says she has not visited for months. He tells the story with confidence and no intent to deceive.",
+  "stem": "How should the nurse respond?",
+  "options": [
+   "Document confabulation and orient him gently",
+   "Accuse him of lying and ask why he makes things up",
+   "Agree with his story to keep him comfortable",
+   "Ignore the statement and do not record it"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: confident false recollection in a heavy drinker.\n2. Principle: confabulation is unintentional filling of memory gaps.\n3. Priority rule: record it and orient gently rather than confront.\n4. The key beats accusation because it is a symptom, not a lie.\nFlip: If the sister confirmed the visit, no concern would arise.",
+  "optionRationales": [
+   "Correct. He fills memory gaps with made-up details without meaning to lie.",
+   "Misreads a memory disorder as deceit and a why question blocks communication.",
+   "Reinforces false details.",
+   "Loses important diagnostic information."
+  ],
+  "strategy": "Do not confront; document and orient",
+  "archetype": "Do not confront",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Confabulation in alcohol-related memory disorders",
+   "Do not argue with distorted memories"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0074",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Reality orientation group",
+  "noteId": "np5-pc-expressive-insight-therapies",
+  "vignette": "A reality orientation group is scheduled this afternoon. One client is acutely psychotic, agitated and shouting about spies. The group room is small and busy.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Insist he attends so he learns the date and place",
+   "Ask him to explain to the group why the spies are real",
+   "Sedate him so he can sit through the session",
+   "Hold him out of the group and give him a quiet space"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: acute psychosis, agitation and a crowded group room.\n2. Principle: reality orientation suits rehabilitation clients, not those acutely psychotic.\n3. Priority rule: match the therapy to the client's level of function and safety.\n4. The key beats insisting because it protects the client.\nFlip: If he were calm and in a rehabilitation phase, the group could help.",
+  "optionRationales": [
+   "Increases agitation.",
+   "Invites argument over a delusion.",
+   "Over-intervention for a scheduling reason.",
+   "Correct. Pushing reality orientation on an acutely psychotic client may increase agitation."
+  ],
+  "strategy": "Match therapy to function and safety",
+  "archetype": "Match therapy to function",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Do not push reality orientation on an acutely psychotic client",
+   "Match therapy to level of function"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0075",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Resisting meals",
+  "noteId": "np5-pd-anorexia-bulimia-details",
+  "vignette": "A client with anorexia nervosa hides food in her napkin, cries, and begs to skip dinner, saying she feels fat. Staff have tried small deals on portions each night. A nurse says she should be allowed to skip when she is distressed.",
+  "stem": "What is the nurse's best approach?",
+  "options": [
+   "Negotiate smaller portions again to ease her distress",
+   "Lecture her about the health risks of not eating",
+   "Stay calm, be matter-of-fact and follow the agreed plan",
+   "Let her skip dinner when she cries and try again tomorrow"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: food hiding and pleading to skip meals.\n2. Principle: behaviour modification uses clear rules and a calm manner.\n3. Priority rule: do not bargain or lecture.\n4. The key beats bargaining because consistency is therapeutic.\nFlip: If she were dizzy and faint, medical assessment would come before the meal plan.",
+  "optionRationales": [
+   "Bargaining reinforces avoidance.",
+   "Does not change behaviour and raises resistance.",
+   "Correct. Clear rules and consistent expectations support recovery without a power struggle.",
+   "Rewards distress and weakens the plan."
+  ],
+  "strategy": "Consistent limits",
+  "archetype": "Calm and consistent",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Calm, matter-of-fact approach",
+   "Behaviour modification with clear rules"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ }
+]

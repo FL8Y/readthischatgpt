@@ -1,0 +1,933 @@
+[
+ {
+  "id": "np5-0076",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Re-triage of a waiting client",
+  "noteId": "np5-triage-basics",
+  "vignette": "In a crowded emergency department waiting area, a man with a sprained ankle has been tagged non-urgent and is annoyed about the wait. Nearby, a woman with abdominal pain who was tagged urgent an hour ago now looks pale and sweaty, and her pulse is fast. She says she can wait her turn.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Keep the order of arrival so the process stays fair",
+   "Ask her to sit and recheck her in another hour",
+   "Re-triage the woman to a higher priority and move her in",
+   "Move the man with the ankle first because he is complaining"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: an urgent client now pale, sweaty and tachycardic while a stable client complains.\n2. Principle: triage is repeated, and deterioration moves a client up.\n3. Priority rule: unstable before stable, regardless of complaints.\n4. The key beats waiting because her condition has changed.\nFlip: If her appearance and pulse were unchanged, she would keep her place.",
+  "optionRationales": [
+   "Ranking is by urgency, not arrival order.",
+   "Under-reaction. The change in colour and pulse needs action now.",
+   "Correct. A waiting client who worsens is re-triaged upward, whatever her own wish to wait.",
+   "Responds to the louder complaint instead of the sicker client."
+  ],
+  "strategy": "Unstable before stable",
+  "archetype": "Triage is ongoing",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Triage is repeated; a worsening client is moved up",
+   "Ranked by urgency, not arrival"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0077",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Who is most urgent",
+  "noteId": "np5-triage-basics",
+  "vignette": "Four clients arrive together at triage. A man with a stable closed arm fracture reports severe pain. A woman with a nosebleed that has stopped looks tired. An older man is new-onset confused, sweaty, with a pulse of 128 and blood pressure of 82/50. A child with a high fever is alert and playing with a toy.",
+  "stem": "Which client should the nurse send in first?",
+  "options": [
+   "The confused older man with a fast pulse and low pressure",
+   "The man with the stable closed arm fracture who reports severe pain",
+   "The woman with the stopped nosebleed",
+   "The child with the high fever who is playing"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: confusion, sweating, tachycardia and hypotension in one client.\n2. Principle: threats to circulation and consciousness come first.\n3. Priority rule: unstable before stable, however painful the stable problem.\n4. The key beats the fracture because pain is not an immediate threat to life.\nFlip: If the child were drowsy and hard to rouse, the child would rank higher.",
+  "optionRationales": [
+   "Correct. Altered mental status with signs of poor perfusion indicates an immediate threat to life.",
+   "Serious and painful but stable.",
+   "Bleeding has stopped and she is stable.",
+   "Alert and active, so lower priority."
+  ],
+  "strategy": "Unstable before stable",
+  "archetype": "Rank the instability",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Emergent: immediate threat to life",
+   "Fast focused assessment of ABC and consciousness"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0078",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Casualties after an earthquake",
+  "noteId": "np5-nato-triage",
+  "vignette": "After an earthquake, one nurse and one doctor are at a field site with limited supplies. Casualties include a man walking with small cuts, a man with massive head injury who is unresponsive with gasping breaths, a woman with heavy bleeding from a thigh who is conscious, and a man with a stable broken forearm.",
+  "stem": "Which casualty should be treated first?",
+  "options": [
+   "The man with massive head injury and gasping breaths",
+   "The man with the stable broken forearm",
+   "The man walking with small cuts",
+   "The woman with heavy thigh bleeding who is conscious"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: limited resources and four different injuries.\n2. Principle: disaster triage weighs urgency and survivability.\n3. Priority rule: treat the immediate, salvageable casualty first.\n4. The key beats the head injury because resources are better used where they save a life.\nFlip: If resources were plentiful, the head-injured man would receive full care alongside the others.",
+  "optionRationales": [
+   "Survival is unlikely with available resources, so he is expectant.",
+   "Can wait without immediate risk to life.",
+   "Minor injuries; he can wait or help others.",
+   "Correct. Her injury is life-threatening but treatable and survival is likely with quick care."
+  ],
+  "strategy": "Disaster triage: salvageable first",
+  "archetype": "Greatest benefit for the most",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Immediate: life-threatening and treatable",
+   "Expectant: survival unlikely with available resources"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0079",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Family of an expectant casualty",
+  "noteId": "np5-nato-triage",
+  "vignette": "At the field treatment area, the nurse has tagged a man with a massive head injury as expectant. His wife, crying, demands that the nurse start full resuscitation at once. Two immediate casualties are still waiting for care.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Start full resuscitation and delay the immediate casualties",
+   "Explain gently, give comfort care and recheck later",
+   "Move him out of sight without explaining to his wife",
+   "Promise her he will receive surgery as soon as possible"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: expectant tag, distressed family and waiting immediate casualties.\n2. Principle: comfort care and repeated reassessment for expectant clients.\n3. Priority rule: save the salvageable while treating family with respect.\n4. The key beats resuscitation because resources go where they save most lives.\nFlip: If few casualties were present and resources were ample, he would be treated fully.",
+  "optionRationales": [
+   "Uses scarce resources where survival is unlikely.",
+   "Correct. Expectant clients receive comfort care and are rechecked as conditions change.",
+   "Disrespectful and unsupportive.",
+   "A promise that may be false."
+  ],
+  "strategy": "Disaster triage ethics",
+  "archetype": "Comfort and recheck",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Expectant clients receive comfort care",
+   "Triage is repeated"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0080",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Quiet restlessness after surgery",
+  "noteId": "np5-early-late-shock",
+  "vignette": "Six hours after an abdominal operation, a woman is restless and anxious and says she is thirsty. Her pulse is 112, her breathing is fast, her skin is cool and pale, and her blood pressure is 118/92. Her dressing is dry. She asks for something to calm her nerves.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Give the PRN anxiolytic and recheck in a few hours",
+   "Report possible early shock and look for bleeding",
+   "Reassure her that her blood pressure is normal",
+   "Encourage oral fluids to relieve her thirst"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: restlessness, tachycardia, cool pale skin, thirst and narrowing pulse pressure after surgery.\n2. Principle: the body compensates early, so pressure stays near normal.\n3. Priority rule: act on early signs rather than wait for hypotension.\n4. The key beats the anxiolytic because behaviour change is the earliest sign.\nFlip: If vital signs were normal and she was calm, routine postoperative care would continue.",
+  "optionRationales": [
+   "Treats the symptom and misses early shock.",
+   "Correct. Restlessness, tachycardia and cool skin with a narrowing pulse pressure are early signs even when pressure looks normal.",
+   "False reassurance. Hypotension is a late sign.",
+   "Unsafe after surgery and ignores the cause."
+  ],
+  "strategy": "Unstable before stable",
+  "archetype": "Early signs before low pressure",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Hypotension is a late sign",
+   "Restlessness and anxiety are early signs"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0081",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "New confusion in an older client",
+  "noteId": "np5-early-late-shock",
+  "vignette": "An 84-year-old woman being treated for pneumonia is newly confused tonight and picks at her sheets. Her blood pressure is only slightly lower than earlier, her pulse is faster, her skin is cool, and her urine output over the last hours has fallen. Her daughter says she is just tired.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Let her sleep and recheck her at the next routine round",
+   "Request a sedative to stop her picking at the sheets",
+   "Explain to her daughter that confusion is normal with age",
+   "Check perfusion and oxygenation; report the confusion"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: new confusion, faster pulse, cool skin and falling urine output.\n2. Principle: behavioural change is an early sign of poor brain perfusion.\n3. Priority rule: act on early signs.\n4. The key beats sleep because it seeks the cause.\nFlip: If her confusion had been present for months with stable vitals, routine care would continue.",
+  "optionRationales": [
+   "Under-reaction to an acute change.",
+   "Treats the behaviour and may hide deterioration.",
+   "Misattributes an acute change.",
+   "Correct. New confusion in an older adult can be the first sign of poor perfusion."
+  ],
+  "strategy": "Unstable before stable",
+  "archetype": "Brain perfusion clue",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "New confusion is an early sign in older adults",
+   "Falling urine output signals poor kidney perfusion"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0082",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Fever and confusion with a catheter",
+  "noteId": "np5-sepsis-septic-shock",
+  "vignette": "A 70-year-old man with an indwelling urinary catheter has a temperature of 39 C, a pulse of 118, rapid breathing, and is new-onset confused. His skin is warm and flushed and his blood pressure is still acceptable. His wife offers him juice.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Report suspected sepsis and prepare for cultures",
+   "Give acetaminophen for the fever and recheck in an hour",
+   "Encourage him to drink the juice and rest",
+   "Withhold antibiotics until the culture results return"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: catheter, fever, fast pulse, rapid breathing and new confusion.\n2. Principle: infection can progress rapidly to organ dysfunction.\n3. Priority rule: recognise and escalate early.\n4. The key beats acetaminophen because the picture is more than fever.\nFlip: If he were alert with only a mild temperature and normal vital signs, monitoring and routine care would continue.",
+  "optionRationales": [
+   "Correct. Early recognition and prompt cultures then antibiotics are the key time-critical steps.",
+   "Treats the symptom and delays treatment.",
+   "Under-reaction to a time-critical illness.",
+   "Unsafe delay. Treatment is not postponed for results."
+  ],
+  "strategy": "Unstable before stable",
+  "archetype": "Recognise early sepsis",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Sepsis is time-critical",
+   "Cultures before antibiotics without delaying them"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0083",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Burn wound change",
+  "noteId": "np5-burns-pain-infection-nutrition",
+  "vignette": "A client on day six after a major burn has a wound that has changed colour, has a new foul odour and more drainage. His pulse is rising and his temperature has crept up. He asks for his dressing to be left alone because it hurts.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Leave the dressing alone because the client asked",
+   "Apply a heavy pressure dressing to stop the drainage",
+   "Report the wound change and fever as infection",
+   "Document the odour only and review it tomorrow"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: changed wound colour, odour, drainage, rising pulse and temperature.\n2. Principle: burns remove skin protection and depress immunity.\n3. Priority rule: escalate infection signs and give pain care before wound care.\n4. The key beats leaving the dressing because infection can progress to sepsis.\nFlip: If the wound looked clean with no odour or fever, routine dressings with pain relief first would continue.",
+  "optionRationales": [
+   "Respects comfort but misses a dangerous change.",
+   "Over-intervention that does not treat infection.",
+   "Correct. Burned skin and a weakened immune system make infection and sepsis leading threats.",
+   "Under-reaction."
+  ],
+  "strategy": "Unstable before stable",
+  "archetype": "Report signs of infection",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Infection is a leading cause of illness in burns",
+   "Signs: odour, pus, fever, rising pulse"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0084",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Sleepy client with chronic lung disease",
+  "noteId": "np5-respiratory-failure",
+  "vignette": "A client with advanced COPD on oxygen becomes drowsy and breathes slowly and shallowly. His saturation is falling and he is hard to rouse. A student suggests turning off the oxygen because it may be making him retain carbon dioxide.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Turn off the oxygen to prevent carbon dioxide retention",
+   "Let him sleep and recheck his saturation in an hour",
+   "Raise the oxygen to its highest setting and leave",
+   "Keep oxygen on and call for help urgently"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: drowsiness, slow shallow breathing and falling saturation in COPD.\n2. Principle: failing ventilation causes confusion and drowsiness.\n3. Priority rule: treat hypoxia and call for help.\n4. The key beats turning off oxygen because hypoxia is the immediate danger.\nFlip: If he were alert with a stable saturation, the ordered controlled oxygen would continue.",
+  "optionRationales": [
+   "Unsafe. Oxygen is never withheld from a hypoxic client.",
+   "Under-reaction. Drowsiness here is dangerous.",
+   "Right idea of treating hypoxia, wrong because he needs urgent ventilatory support.",
+   "Correct. Hypoxia must be treated; drowsy slow breathing signals failing ventilation that needs support."
+  ],
+  "strategy": "Maslow: oxygenation first",
+  "archetype": "Never withhold oxygen",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Drowsiness with high carbon dioxide is dangerous",
+   "Oxygen is never withheld from someone who is hypoxic"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0085",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Early breathing difficulty",
+  "noteId": "np5-respiratory-failure",
+  "vignette": "A postoperative client lying flat is restless and anxious with a respiratory rate of 28, using neck muscles to breathe, and her saturation is 91 percent. Her pulse is fast. A nurse offers a PRN sedative for her anxiety.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Give the PRN sedative to relieve her anxiety",
+   "Sit her upright, give oxygen and report",
+   "Encourage her to cough and recheck in an hour",
+   "Keep her flat to rest her breathing muscles"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: restlessness, fast breathing, accessory muscle use and saturation 91 percent.\n2. Principle: these are early signs of respiratory failure.\n3. Priority rule: position, oxygen and escalate before sedating.\n4. The key beats the sedative because anxiety is from hypoxia.\nFlip: If saturation were normal and she were calm, routine deep-breathing encouragement would be enough.",
+  "optionRationales": [
+   "Unsafe. Sedatives depress breathing and mask worsening hypoxia.",
+   "Correct. Restlessness, fast breathing and accessory muscle use are early signs of failing gas exchange.",
+   "Under-reaction to falling saturation.",
+   "Flat positioning worsens breathing effort."
+  ],
+  "strategy": "Maslow: oxygenation first",
+  "archetype": "Position and oxygen",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Early signs: restlessness, fast breathing, accessory muscles",
+   "Upright positioning and oxygen"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0086",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Oozing in a septic client",
+  "noteId": "np5-dic-mods",
+  "vignette": "A client admitted with severe infection now oozes blood from old IV sites and her gums, has small red spots on her skin and cold bluish toes. Her urine output is low. A colleague is about to give her scheduled intramuscular injection.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Give the injection and apply pressure afterward",
+   "Document the bruising and review it in the morning",
+   "Report the bleeding and hold the injection",
+   "Warm her toes with a heating pad"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: oozing from several sites, petechiae and cold blue toes in severe infection.\n2. Principle: DIC causes both bleeding and clotting.\n3. Priority rule: escalate and avoid procedures that add bleeding.\n4. The key beats the injection because it avoids more harm.\nFlip: If she had a single small bruise and normal tests, routine care would continue.",
+  "optionRationales": [
+   "Unsafe habit. Injections add bleeding sites.",
+   "Under-reaction.",
+   "Correct. Oozing with clotting signs suggests DIC, so the team must act and injections are avoided.",
+   "Treats the symptom and risks injury to poor circulation."
+  ],
+  "strategy": "Unstable before stable",
+  "archetype": "Recognise DIC",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "DIC is secondary to another condition",
+   "Avoid injections where possible"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0087",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Arterial line alarm",
+  "noteId": "np5-icu-monitoring",
+  "vignette": "An alarm sounds for very low blood pressure on a client's arterial line. The client is awake, talking, pink and warm, with a normal heart rate and good pulse oximeter reading. The waveform on the screen looks flattened.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Check the client, then troubleshoot the line",
+   "Give a fluid bolus as the monitor reading suggests",
+   "Silence the alarm and carry on",
+   "Call the rapid response team immediately"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: low reading and flat waveform but a well client.\n2. Principle: trust the client's findings and check the equipment.\n3. Priority rule: assess the client first and treat the cause.\n4. The key beats the fluid bolus because treating a false reading is harmful.\nFlip: If the client were grey, drowsy and hypotensive by cuff, rapid response would be correct.",
+  "optionRationales": [
+   "Correct. A normal-looking client and a damped waveform suggest a line problem, so check before treating.",
+   "Treats a number rather than the client.",
+   "Under-reaction. The cause must be identified.",
+   "Over-reaction when the client looks well."
+  ],
+  "strategy": "Assess before act",
+  "archetype": "Assess the client first",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Assess the client before the machine",
+   "Damped waveforms need troubleshooting"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0088",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Falling urine output",
+  "noteId": "np5-icu-monitoring",
+  "vignette": "A client in intensive care after major surgery has had a steadily falling urine output for three hours despite a working catheter. His pressure is slightly lower than before and he is more sleepy. His oxygen saturation is normal.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Check his pressure and mental status; report",
+   "Flush the catheter and record the result",
+   "Wait for the next routine blood test before acting",
+   "Reduce his fluids to avoid overload"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: falling urine output, lower pressure and increased sleepiness.\n2. Principle: urine output and mental status are bedside perfusion measures.\n3. Priority rule: report trends before collapse.\n4. The key beats flushing because it considers the whole picture.\nFlip: If the catheter were kinked and the client otherwise stable, unkinking it would be enough.",
+  "optionRationales": [
+   "Correct. Urine output reflects kidney perfusion, and the trend with sleepiness points to poor perfusion.",
+   "Right action to exclude a blockage but not enough on its own.",
+   "Delays recognition of a trend.",
+   "Unsafe. It may worsen perfusion."
+  ],
+  "strategy": "Trend and escalate",
+  "archetype": "Perfusion trend",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Urine output reflects kidney perfusion",
+   "Mental status reflects brain perfusion"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0089",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Trauma with a breathing problem",
+  "noteId": "np5-primary-secondary-survey",
+  "vignette": "A man who fell from a roof is awake with a bleeding scalp wound and a deformed forearm. He speaks in short phrases, his respirations are 32 and laboured, and breath sounds are absent on the left. A colleague starts to splint the forearm.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Splint the forearm so that it does not move at all",
+   "Clean and dress the bleeding scalp wound first",
+   "Address breathing and call for urgent help",
+   "Take a full history of the fall"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: laboured fast breathing and absent breath sounds on one side after a fall.\n2. Principle: the survey follows airway, breathing, circulation, disability and exposure.\n3. Priority rule: treat each life threat as it is found.\n4. The key beats splinting because breathing outranks fractures.\nFlip: If breathing were normal, controlling the scalp bleeding would be next.",
+  "optionRationales": [
+   "Right care, wrong time. Limb injuries wait for threats to breathing.",
+   "Lower priority than breathing.",
+   "Correct. Breathing is fixed before circulation, disability and other injuries.",
+   "Gathering history comes after life threats are managed."
+  ],
+  "strategy": "Maslow: ABC order",
+  "archetype": "Fix airway and breathing first",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "ABCDE order",
+   "Life threats are treated as found"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0090",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Roadside collision",
+  "noteId": "np5-primary-secondary-survey",
+  "vignette": "A nurse driving home comes across a collision where one driver is shouting and bleeding and another car is smoking. Several bystanders are crowding the vehicles.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Run to the bleeding driver and apply pressure",
+   "Check that the scene is safe and call for help",
+   "Ask the bystanders to move the victims away",
+   "Begin a head-to-toe examination of both drivers"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: smoking vehicle, crowd and a bleeding victim.\n2. Principle: the rescuer must be safe before helping.\n3. Priority rule: scene safety, call for help, then life threats.\n4. The key beats running in because a rescuer who is hurt cannot help.\nFlip: If the scene were already safe, controlling bleeding would be first.",
+  "optionRationales": [
+   "Right care, wrong time. A smoking car may be unsafe.",
+   "Correct. Rescuer safety is confirmed before touching any victim.",
+   "Unsafe. Moving injured people risks further injury.",
+   "Premature before the scene and life threats are addressed."
+  ],
+  "strategy": "Scene safety first",
+  "archetype": "Scene safety first",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Scene safety before touching the client",
+   "Note the mechanism of injury"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0091",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Witnessed collapse",
+  "noteId": "np5-cardiac-arrest-bls",
+  "vignette": "In the hospital corridor, an adult visitor collapses. He does not respond to shouting and is not breathing normally. A nurse is alone, a colleague is within earshot, and a defibrillator is on the nearby wall.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Give two rescue breaths before anything else",
+   "Check for a pulse for a full minute",
+   "Move him to a bed before starting",
+   "Call for help and start compressions"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: unresponsive adult not breathing normally.\n2. Principle: early CPR and defibrillation save lives.\n3. Priority rule: call for help and start compressions without delay.\n4. The key beats rescue breaths because circulation comes first.\nFlip: If he had a pulse and was breathing, positioning and monitoring would be correct.",
+  "optionRationales": [
+   "Right care for another cause, but compressions come first in adult arrest.",
+   "Unsafe delay. A pulse check should be brief.",
+   "Delays CPR.",
+   "Correct. Early help, defibrillation and compressions form the chain of survival."
+  ],
+  "strategy": "Chain of survival",
+  "archetype": "Start compressions and get the defibrillator",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Early recognition, CPR and defibrillation",
+   "Minimise interruptions"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0092",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Using the defibrillator",
+  "noteId": "np5-cardiac-arrest-bls",
+  "vignette": "A rescuer is giving compressions when the defibrillator arrives. The pads are placed and the device announces that a shock is advised. A colleague is still touching the client's legs while checking IV tubing.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Let the colleague keep touching so compressions are not interrupted",
+   "Wait for a physician before delivering the shock",
+   "Make all clear, shock, then resume compressions",
+   "Pause for a long pulse check after the shock"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: shock advised with a person touching the client.\n2. Principle: defibrillation needs everyone clear, and compressions resume right after.\n3. Priority rule: safety first, then minimal interruption.\n4. The key beats waiting because early shock matters.\nFlip: If the device said no shock advised, compressions would continue.",
+  "optionRationales": [
+   "Unsafe. Anyone touching the client may be shocked.",
+   "Delays defibrillation.",
+   "Correct. Stand clear for safety and resume compressions immediately after the shock.",
+   "Wastes time without compressions."
+  ],
+  "strategy": "Safe defibrillation",
+  "archetype": "Safe defibrillation",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Stand clear before a shock",
+   "Resume compressions right after"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0093",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Typhoon season in a barangay",
+  "noteId": "np5-disaster-continuum",
+  "vignette": "In a barangay that floods every typhoon season, the nurse lists possible activities for the health center.",
+  "stem": "Which activity belongs to the phase of getting ready before a hazard strikes?",
+  "options": [
+   "Enforcing building rules and mapping flood hazards",
+   "Treating injured people at the evacuation center",
+   "Following up residents for counselling after the flood",
+   "Training volunteers and rehearsing evacuation routes"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: activities across the disaster continuum.\n2. Principle: readiness covers plans, drills and training.\n3. Priority rule: match each action to its phase.\n4. The key beats hazard reduction because that lowers hazards, not readiness.\nFlip: If the flood had already hit, treating the injured would be the response.",
+  "optionRationales": [
+   "Hazard reduction is done before disaster.",
+   "This is the response phase.",
+   "This is the recovery phase.",
+   "Correct. Readiness work is done before a hazard strikes."
+  ],
+  "strategy": "Match the action to the phase of the cycle",
+  "archetype": "Match the action to the phase of the cycle",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Preparedness: plans, drills, training",
+   "Nursing roles: educate before, treat during, follow up after"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0094",
+  "v": 2,
+  "type": "sata",
+  "area": "NP5",
+  "topic": "Vulnerable groups",
+  "noteId": "np5-disaster-basic-concepts",
+  "vignette": "The nurse is preparing a list of residents to check first after a flood in a coastal barangay.",
+  "stem": "Which groups are most vulnerable in a disaster? Select all that apply.",
+  "options": [
+   "Young children",
+   "Older adults",
+   "Pregnant women",
+   "Trained community volunteers with emergency kits",
+   "Healthy adults with a prepared evacuation plan",
+   "Staff of a well-stocked health center"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "rationale": "1. Cue: planning who to check first after a flood.\n2. Principle: vulnerability is how exposed and unprepared people are.\n3. Priority rule: protect people at risk first.\n4. The correct options are children, older adults and pregnant women.\nFlip: If a prepared family included an older adult with limited mobility, that member would still be vulnerable.",
+  "optionRationales": [
+   "Correct. They depend on adults and are less able to protect themselves.",
+   "Correct. Mobility and chronic illness raise vulnerability.",
+   "Correct. They have special health needs and limited mobility.",
+   "Incorrect. They add capacity rather than vulnerability.",
+   "Incorrect. Preparedness lowers their vulnerability.",
+   "Incorrect. They are resources, not the most vulnerable."
+  ],
+  "strategy": "Identify vulnerability",
+  "archetype": "Select those most vulnerable",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Vulnerable: children, older adults, pregnant women",
+   "Capacity helps people cope"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0095",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Unconscious client with no relatives",
+  "noteId": "np5-er-nursing-issues",
+  "vignette": "An unconscious man is brought in after a collapse. He is not breathing adequately and needs an airway placed immediately. No relatives are present and bystanders do not know him.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Give life-saving care under implied consent",
+   "Wait for a family member to sign a consent form",
+   "Ask a bystander to sign for him",
+   "Delay treatment until a court grants permission"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: unconscious, failing breathing and no representative.\n2. Principle: implied consent covers life-saving care when delay harms.\n3. Priority rule: treat life threats and document.\n4. The key beats waiting because delay would cause harm.\nFlip: If a conscious competent client refused care, the refusal would be respected.",
+  "optionRationales": [
+   "Correct. In a true emergency, consent is presumed when delay would cause greater harm.",
+   "Unsafe delay that costs the client his airway.",
+   "Bystanders are not legal representatives.",
+   "Impractical and harmful."
+  ],
+  "strategy": "Emergency consent",
+  "archetype": "Implied consent",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Implied consent in true emergencies",
+   "Competent clients can still refuse"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0096",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Assault victim evidence",
+  "noteId": "np5-er-nursing-issues",
+  "vignette": "A man arrives with a stab wound and is bleeding heavily. The police ask the nurse to hand over his torn shirt immediately. The nurse is cutting off the clothing.",
+  "stem": "What is the correct order of care?",
+  "options": [
+   "Hand the shirt to the police before treating him",
+   "Treat life threats first, then preserve and label evidence",
+   "Discard the clothing to prevent infection",
+   "Wash his hands and wound thoroughly to remove contaminants"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: heavy bleeding in a medico-legal case.\n2. Principle: treat life threats first.\n3. Priority rule: then collect and label evidence per policy.\n4. The key beats handing over the shirt because bleeding is the priority.\nFlip: If the client were stable, evidence collection could proceed alongside routine care.",
+  "optionRationales": [
+   "Delays care.",
+   "Correct. Life-saving care comes first, followed by careful evidence handling and documentation.",
+   "Destroys possible evidence.",
+   "Alters evidence without being the priority."
+  ],
+  "strategy": "Life first, then evidence",
+  "archetype": "Life first, then preserve evidence",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Treat life threats first",
+   "Preserve and document evidence"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0097",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Pain before a dressing change",
+  "noteId": "np5-burns-pain-infection-nutrition",
+  "vignette": "A client with a large burn in the early phase is about to have a dressing change that is very painful. His circulation is unstable and fluids are shifting. Several routes are ordered for analgesia.",
+  "stem": "Which route should the nurse use?",
+  "options": [
+   "Intramuscular injection into a limb",
+   "IV analgesic before the dressing",
+   "An oral tablet taken by mouth",
+   "No analgesic so the client stays alert"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: painful procedure with unstable circulation and fluid shifts.\n2. Principle: early burn care uses IV opioids because other routes are unreliable.\n3. Priority rule: give pain relief before the procedure.\n4. The key beats the oral route because the gut works poorly early.\nFlip: Near discharge, an oral drug would become suitable again.",
+  "optionRationales": [
+   "Unreliable absorption when circulation is poor.",
+   "Correct. IV absorption is reliable in the early phase and pain is treated before the procedure.",
+   "Gut function is poor early after burns.",
+   "Leaves severe procedural pain untreated."
+  ],
+  "strategy": "Reliable route; pre-medicate",
+  "archetype": "Choose the reliable route",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "IV route early in burn pain",
+   "Pre-medicate before painful care"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0098",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Vague complaint at the triage desk",
+  "noteId": "np5-triage-basics",
+  "vignette": "An older man at the triage desk says only, 'I feel weak.' The queue behind him is long. A clerk suggests he register and sit down, and the nurse is tempted to tell him to see his own doctor.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Do a brief focused check first",
+   "Tell him to see his own doctor tomorrow",
+   "Ask him to register and wait for his turn",
+   "Decide on the diagnosis from his complaint"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: vague complaint and a busy queue.\n2. Principle: triage requires a fast, focused assessment of every arrival.\n3. Priority rule: screen first, then rank.\n4. The key beats waiting in line because weakness can hide an emergency.\nFlip: If vitals were normal and he were well, a lower priority would be assigned after screening.",
+  "optionRationales": [
+   "Correct. Nobody is sent away without screening, and a quick assessment sets the priority.",
+   "Sends a client away without screening.",
+   "Assigns priority by arrival order, not urgency.",
+   "Triage ranks urgency; it does not diagnose."
+  ],
+  "strategy": "Assess before act",
+  "archetype": "Screen everyone",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Do not diagnose and do not send anyone away unscreened",
+   "Quick ABC and vital sign check"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0099",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Deterioration during the secondary check",
+  "noteId": "np5-primary-secondary-survey",
+  "vignette": "While completing a head-to-toe examination on a stabilised trauma client, the nurse notices that his blood pressure has dropped and his breathing has become noisy. A student continues examining his legs.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Finish examining the legs so no injury is missed",
+   "Take a detailed history from the relatives now",
+   "Document the vital signs and continue",
+   "Stop the exam and return to ABC"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: new hypotension and noisy breathing during the head-to-toe check.\n2. Principle: the thorough examination begins only when the client is stable.\n3. Priority rule: if the client worsens, return to ABC.\n4. The key beats finishing the legs because stability has been lost.\nFlip: If he remained stable, the examination would continue.",
+  "optionRationales": [
+   "Delays treatment of a new life threat.",
+   "Not the priority.",
+   "Under-reaction.",
+   "Correct. If the client worsens, the nurse returns to the primary assessment."
+  ],
+  "strategy": "ABC first; treat as found",
+  "archetype": "Return to ABC",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Return to ABC if the client worsens",
+   "Secondary assessment follows stabilisation"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0100",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Arterial puncture site choice",
+  "noteId": "np5-icu-monitoring",
+  "vignette": "Before drawing arterial blood from a client's wrist, the nurse compresses both wrist arteries, has the client clench the fist, then releases only the ulnar artery. The palm stays pale and colour does not return. The client is anxious and the sample is urgently needed.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Go ahead because the radial artery is easier to reach",
+   "Repeat the test several times until the colour returns",
+   "Choose another site and report the test result",
+   "Ask the client to hold the fist tighter and proceed"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: pale palm persists after releasing the ulnar artery.\n2. Principle: the Allen test checks that the ulnar artery can supply the hand.\n3. Priority rule: do not puncture the radial artery if collateral flow is poor.\n4. The key beats proceeding because the hand's circulation is at risk.\nFlip: If colour returned promptly, the radial site could be used.",
+  "optionRationales": [
+   "Unsafe. The hand could lose its blood supply.",
+   "Over-intervention. Repeating the test does not change the result.",
+   "Correct. Persisting pallor means the ulnar supply is poor, so puncturing the radial artery could cut off the hand's blood supply.",
+   "Does not make the site safe."
+  ],
+  "strategy": "Safety: verify collateral circulation",
+  "archetype": "Check collateral flow first",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Allen test checks ulnar supply",
+   "Colour should return promptly"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ }
+]
