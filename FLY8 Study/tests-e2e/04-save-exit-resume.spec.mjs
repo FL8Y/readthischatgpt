@@ -34,7 +34,12 @@ export default async function ({ ctx, base }) {
   // Earlier answers are kept: Q3 shows A selected and its feedback.
   await click(btn(page, 'Previous'));
   await see(page.getByText('Question 3 of 10', { exact: true }), 'previous goes to Q3');
-  await see(page.getByRole('radio', { name: /^Option A\. .*Selected\./ }).or(page.getByRole('checkbox', { name: /^Option A\. .*Selected\./ })), 'answer A kept');
+  // Only option-row items show 'Option A ... Selected'; matrix, cloze and highlight items keep their answer in other controls,
+  // so for those the kept feedback below is the check.
+  const optionRows = page.getByRole('radio', { name: /^Option A\./ }).or(page.getByRole('checkbox', { name: /^Option A\./ }));
+  if ((await optionRows.count()) > 0) {
+    await see(page.getByRole('radio', { name: /^Option A\. .*Selected\./ }).or(page.getByRole('checkbox', { name: /^Option A\. .*Selected\./ })), 'answer A kept');
+  }
   await see(page.getByText(/AI-written/), 'feedback kept after resume');
 
   // Finishing the rest works and the session clears from the hub.
