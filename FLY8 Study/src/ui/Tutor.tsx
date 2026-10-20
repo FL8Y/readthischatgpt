@@ -6,22 +6,24 @@ import { TutorCancelled, tutorCall } from '../tutor/call';
 import { appendOnce, splitReply, tutorRequest, unansweredQuestion, type TutorMessage } from '../tutor/prompt';
 import { loadChat, saveChat } from '../tutor/store';
 import { itemContextText, itemQuickAsks, type ItemContext } from '../pnle/itemContext';
-import { Btn, Card, Field, H, P, Pill, c, sp } from './kit';
+import { Btn, Card, Field, H, P, Pill } from './kit';
+import { space, useTheme } from './theme';
 
 const msg = (e: unknown) => (e instanceof Error ? e.message : 'Something went wrong.');
 
 function Reply({ text }: { text: string }) {
+  const { colors } = useTheme();
   return (
-    <View style={{ gap: sp.sm }}>
+    <View style={{ gap: space.sm }}>
       {splitReply(text).map((p, i) =>
         p.kind === 'text' ? (
-          <Text key={i} selectable style={{ color: c.text, fontSize: 16, lineHeight: 23 }}>
+          <Text key={i} selectable style={{ color: colors.text, fontSize: 16, lineHeight: 23 }}>
             {p.text.trim()}
           </Text>
         ) : (
-          <View key={i} style={{ borderWidth: 1, borderColor: c.line, borderRadius: 12, padding: sp.md, gap: sp.xs, backgroundColor: c.bg }}>
-            <Text style={{ color: c.dim, fontSize: 13 }}>{`Diagram (${p.lang}) - drawing is not shown here yet`}</Text>
-            <Text selectable style={{ color: c.text, fontFamily: 'monospace', fontSize: 12 }}>
+          <View key={i} style={{ borderWidth: 1, borderColor: colors.border, borderRadius: 12, padding: space.md, gap: space.xs, backgroundColor: colors.bg }}>
+            <Text style={{ color: colors.textDim, fontSize: 13 }}>{`Diagram (${p.lang}) - drawing is not shown here yet`}</Text>
+            <Text selectable style={{ color: colors.text, fontFamily: 'monospace', fontSize: 12 }}>
               {p.text}
             </Text>
           </View>
@@ -33,6 +35,7 @@ function Reply({ text }: { text: string }) {
 
 /** Tutor tab: optional topic, chat list, send / cancel / retry. History is saved after every change. */
 export function Tutor({ state, itemContext, onClearContext }: { state: AppState; itemContext?: ItemContext; onClearContext?: () => void }) {
+  const { colors } = useTheme();
   const [messages, setMessages] = useState<TutorMessage[]>([]);
   const [topicId, setTopicId] = useState<string | undefined>();
   const [draft, setDraft] = useState('');
@@ -104,14 +107,14 @@ export function Tutor({ state, itemContext, onClearContext }: { state: AppState;
   };
 
   return (
-    <View style={{ gap: sp.md }}>
+    <View style={{ gap: space.md }}>
       <H>Tutor</H>
       {itemContext ? (
         <Card tone="tinted">
-          <Pill text="About this question" color={c.accent} />
+          <Pill text="About this question" color={colors.accentText} />
           <P>{itemContext.item.stem}</P>
           <P dim>The tutor can see the case, the options, your answer and the rationale.</P>
-          <View style={{ gap: sp.sm }}>
+          <View style={{ gap: space.sm }}>
             {itemQuickAsks(itemContext).map((q) => (
               <Btn key={q} label={q} kind="ghost" disabled={busy} onPress={() => send(q)} />
             ))}
@@ -121,7 +124,7 @@ export function Tutor({ state, itemContext, onClearContext }: { state: AppState;
       ) : null}
       <Card>
         <P dim>Topic (optional). Answers start from your own notes.</P>
-        <View style={{ gap: sp.sm }}>
+        <View style={{ gap: space.sm }}>
           <Btn
             label={topicId ? 'No topic' : 'No topic (selected)'}
             kind="ghost"
@@ -147,7 +150,7 @@ export function Tutor({ state, itemContext, onClearContext }: { state: AppState;
       {messages.length === 0 ? <P dim>Ask a question about your notes to begin.</P> : null}
       {messages.map((m) => (
         <Card key={m.id}>
-          <Pill text={m.role === 'user' ? 'You' : 'Tutor'} color={m.role === 'user' ? c.accent : c.good} />
+          <Pill text={m.role === 'user' ? 'You' : 'Tutor'} color={m.role === 'user' ? colors.accentText : colors.success} />
           {m.role === 'user' ? <P>{m.text}</P> : <Reply text={m.text} />}
         </Card>
       ))}

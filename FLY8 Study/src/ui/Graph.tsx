@@ -5,19 +5,22 @@ import type { AppState } from '../core/types';
 import { backlinks, buildGraph } from '../core/vault';
 import { RELATIONS, classifyEdges, layoutGraph, type RelationKind } from '../visual/layout';
 import { Lesson } from './Lesson';
-import { Btn, Card, H, P, Pill, c, sp } from './kit';
+import { Btn, Card, H, P, Pill } from './kit';
+import { space, useTheme, type Palette } from './theme';
 
 /** Relation colours. Each relation ALSO has a dash pattern, an icon and a text label (see RELATIONS). */
-const REL_COLOR: Record<RelationKind, string> = { mutual: c.good, 'cross-folder': c.warn, link: '#7fb2ff' };
+const relColors = (colors: Palette): Record<RelationKind, string> => ({ mutual: colors.success, 'cross-folder': colors.warning, link: colors.accent });
 
 const short = (s: string) => (s.length > 14 ? s.slice(0, 13) + '…' : s);
 
 function Legend() {
+  const { colors } = useTheme();
+  const REL_COLOR = relColors(colors);
   return (
     <Card>
       <H>Legend</H>
       {(Object.keys(RELATIONS) as RelationKind[]).map((k) => (
-        <View key={k} accessible accessibilityLabel={`${RELATIONS[k].label}: ${RELATIONS[k].meaning}`} style={{ flexDirection: 'row', alignItems: 'center', gap: sp.md }}>
+        <View key={k} accessible accessibilityLabel={`${RELATIONS[k].label}: ${RELATIONS[k].meaning}`} style={{ flexDirection: 'row', alignItems: 'center', gap: space.md }}>
           <Svg width={44} height={12}>
             <Line x1={2} y1={6} x2={42} y2={6} stroke={REL_COLOR[k]} strokeWidth={3} strokeDasharray={RELATIONS[k].dash} />
           </Svg>
@@ -32,6 +35,8 @@ function Legend() {
 
 /** Mind map of topics (drawn, tap a node to open its lesson) with a linked outline as the accessible alternative. */
 export function Graph({ state }: { state: AppState }) {
+  const { colors } = useTheme();
+  const REL_COLOR = relColors(colors);
   const [mode, setMode] = useState<'map' | 'outline'>('map');
   const [open, setOpen] = useState<string | null>(null);
   const g = useMemo(() => buildGraph(state.topics), [state.topics]);
@@ -45,7 +50,7 @@ export function Graph({ state }: { state: AppState }) {
   const pos = new Map(layout.nodes.map((n) => [n.id, n]));
 
   const toggle = (
-    <View style={{ flexDirection: 'row', gap: sp.sm }}>
+    <View style={{ flexDirection: 'row', gap: space.sm }}>
       <View style={{ flex: 1 }}>
         <Btn label={mode === 'map' ? 'Drawn map (showing)' : 'Drawn map'} kind={mode === 'map' ? 'primary' : 'ghost'} onPress={() => setMode('map')} />
       </View>
@@ -71,7 +76,7 @@ export function Graph({ state }: { state: AppState }) {
               {missing.length ? (
                 <View style={{ flexDirection: 'row', gap: 6, flexWrap: 'wrap' }}>
                   {missing.map((m) => (
-                    <Pill key={m} text={`missing: ${m}`} color={c.warn} />
+                    <Pill key={m} text={`missing: ${m}`} color={colors.warning} />
                   ))}
                 </View>
               ) : null}
@@ -86,7 +91,7 @@ export function Graph({ state }: { state: AppState }) {
   return (
     <View style={{ gap: 14 }}>
       {toggle}
-      <View style={{ backgroundColor: c.card, borderRadius: 16, borderWidth: 1, borderColor: c.line, aspectRatio: 1, overflow: 'hidden' }}>
+      <View style={{ backgroundColor: colors.surface, borderRadius: 16, borderWidth: 1, borderColor: colors.border, aspectRatio: 1, overflow: 'hidden' }}>
         <Svg width="100%" height="100%" viewBox={`0 0 ${layout.width} ${layout.height}`} accessibilityLabel="Mind map of your topics. Use the Outline view for a list.">
           {edges.map((e) => {
             const a = pos.get(e.from);
@@ -98,11 +103,11 @@ export function Graph({ state }: { state: AppState }) {
           })}
           {layout.nodes.map((n) => (
             <G key={n.id} onPress={() => setOpen(n.id)}>
-              <Circle cx={n.x} cy={n.y} r={layout.nodeRadius} fill={c.accentSoft} stroke={c.accent} strokeWidth={2} />
-              <SvgText x={n.x} y={n.y + 4} fill={c.text} fontSize={11} fontWeight="bold" textAnchor="middle">
+              <Circle cx={n.x} cy={n.y} r={layout.nodeRadius} fill={colors.accentSoft} stroke={colors.accentText} strokeWidth={2} />
+              <SvgText x={n.x} y={n.y + 4} fill={colors.text} fontSize={11} fontWeight="bold" textAnchor="middle">
                 {title(n.id).slice(0, 3).toUpperCase()}
               </SvgText>
-              <SvgText x={n.x} y={n.y + layout.nodeRadius + 12} fill={c.text} fontSize={10} textAnchor="middle">
+              <SvgText x={n.x} y={n.y + layout.nodeRadius + 12} fill={colors.text} fontSize={10} textAnchor="middle">
                 {short(title(n.id))}
               </SvgText>
             </G>

@@ -10,13 +10,15 @@ import { describeImportError, prepareImportedNote, titleFromFileName } from '../
 import { ImportError, UNVERIFIED_SUGGESTION } from '../import/types';
 import type { ReviewedSource } from '../import/types';
 import { callModelVision } from '../import/vision';
-import { Btn, Card, Field, H, P, Pill, c } from './kit';
+import { Btn, Card, Field, H, P, Pill } from './kit';
+import { useTheme } from './theme';
 import { ObsidianImport } from './ObsidianImport';
 import { PresetPacks } from './PresetPacks';
 
 const uid = (p: string) => `${p}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 6)}`;
 
 export function Library({ state, update }: { state: AppState; update: (s: AppState) => void }) {
+  const { colors } = useTheme();
   const [folderId, setFolderId] = useState(state.folders[0]?.id ?? '');
   const [newFolder, setNewFolder] = useState('');
   const [title, setTitle] = useState('');
@@ -203,8 +205,8 @@ export function Library({ state, update }: { state: AppState; update: (s: AppSta
             <H>{t.title}</H>
             {src ? (
               <View style={{ flexDirection: 'row', gap: 8, flexWrap: 'wrap' }}>
-                <Pill text={`readability ${Math.round(src.quality.score * 100)}%`} color={src.quality.score < NEEDS_REVIEW_BELOW ? c.warn : c.good} />
-                <Pill text={src.verification} color={src.verification === 'ai-checked' ? c.good : c.dim} />
+                <Pill text={`readability ${Math.round(src.quality.score * 100)}%`} color={src.quality.score < NEEDS_REVIEW_BELOW ? colors.warning : colors.success} />
+                <Pill text={src.verification} color={src.verification === 'ai-checked' ? colors.success : colors.textDim} />
                 {src.suggestedOrigin ? <Pill text={`looks like: ${src.suggestedOrigin} (${UNVERIFIED_SUGGESTION})`} /> : null}
               </View>
             ) : null}

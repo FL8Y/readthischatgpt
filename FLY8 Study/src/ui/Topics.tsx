@@ -7,10 +7,12 @@ import { isStudied, studiedLabel, studiedProgress, toggleStudied } from '../pres
 import { loadStudied, saveStudied } from '../presets/studiedStore';
 import { Lesson } from './Lesson';
 import { NoteReader } from './NoteReader';
-import { Btn, Card, EmptyState, Field, H, P, ProgressBar, TOUCH, c, sp } from './kit';
+import { Btn, Card, EmptyState, Field, H, P, ProgressBar, TOUCH } from './kit';
+import { space, useTheme } from './theme';
 
 /** Learn tab: every topic (preset and your own) grouped by folder. Notes open in a plain reader; AI lessons stay optional. */
 export function Topics({ state }: { state: AppState }) {
+  const { colors, type } = useTheme();
   const [open, setOpen] = useState<string | null>(null);
   const [lessonOpen, setLessonOpen] = useState(false);
   const [note, setNote] = useState('');
@@ -70,7 +72,7 @@ export function Topics({ state }: { state: AppState }) {
   const matches = (t: { title: string; body: string }) => !q || t.title.toLowerCase().includes(q) || t.body.toLowerCase().includes(q);
   let shown = 0;
   return (
-    <View style={{ gap: sp.md }}>
+    <View style={{ gap: space.md }}>
       <Field label="Search notes" value={query} onChangeText={setQuery} placeholder="Title or text" autoCorrect={false} />
       {state.folders.map((f) => {
         const all = state.topics.filter((t) => t.folderId === f.id);
@@ -93,9 +95,9 @@ export function Topics({ state }: { state: AppState }) {
                   accessibilityRole="button"
                   accessibilityLabel={`${t.title}, ${done ? 'studied, ' : ''}${status}`}
                   onPress={() => openTopic(t.id)}
-                  style={{ minHeight: TOUCH, gap: 6, paddingVertical: sp.sm }}
+                  style={{ minHeight: TOUCH, gap: 6, paddingVertical: space.sm }}
                 >
-                  <Text style={{ color: c.text, fontSize: 16 }}>
+                  <Text style={[type('bodyStrong'), { color: colors.text }]}>
                     {done ? '✓' : '▸'}  {t.title}
                   </Text>
                   {m.attempts ? <ProgressBar value={m.mastery} label={`${t.title} mastery`} /> : null}
