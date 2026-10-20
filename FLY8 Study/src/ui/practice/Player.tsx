@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { Modal, ScrollView, Text, View } from 'react-native';
 import type { BankItem } from '../../bank/schema';
+import type { NoteLink } from '../../bank/noteLink';
 import {
   answerItem, finishSession, flagItem, isAnswered, moveTo, pauseSession, resumeSession, strikeOption,
   type PracticeSession,
@@ -31,7 +32,10 @@ export interface PlayerProps {
   onLeave: () => void;
   onReport: (report: ItemReport) => void;
   onAskTutor?: (itemId: string) => void;
-  onReadNote?: (noteId: string) => void;
+  /** Where to read this question again; hidden when it returns kind 'none' or is missing. */
+  resolveNote?: (item: BankItem) => NoteLink;
+  /** Opens the topic with this id in the note reader. The session stays saved underneath. */
+  onReadNote?: (topicId: string) => void;
 }
 
 interface DialogAction { label: string; kind?: 'primary' | 'ghost' | 'danger'; onPress: () => void }
@@ -52,7 +56,7 @@ function Dialog({ visible, title, body, actions }: { visible: boolean; title: st
 }
 
 /** One question per page. Controlled: all state changes go out through onChange; nothing is stored here. */
-export function Player({ session, items, onChange, onFinish, onLeave, onReport, onAskTutor, onReadNote }: PlayerProps) {
+export function Player({ session, items, onChange, onFinish, onLeave, onReport, onAskTutor, resolveNote, onReadNote }: PlayerProps) {
   const { colors, type } = useTheme();
   const byId = useMemo(() => new Map(items.map((i) => [i.id, i])), [items]);
   const [now, setNow] = useState(() => Date.now());
@@ -178,7 +182,7 @@ export function Player({ session, items, onChange, onFinish, onLeave, onReport, 
         </View>
         {!locked && optionRows ? <Text style={[type('caption'), { color: colors.textDim }]}>Tip: long press an option to cross it out.</Text> : null}
         {feedback ? (
-          <RationaleCard item={item} answer={ans} onReadNote={onReadNote} onAskTutor={onAskTutor} onReport={onReport} />
+          <RationaleCard item={item} answer={ans} note={resolveNote?.(item)} onReadNote={onReadNote} onAskTutor={onAskTutor} onReport={onReport} />
         ) : answered && session.revealMode === 'end' ? (
           <Text style={[type('caption'), { color: colors.textDim }]}>Answer saved. Results show at the end.</Text>
         ) : null}

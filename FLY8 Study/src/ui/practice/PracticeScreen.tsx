@@ -13,6 +13,10 @@ import type { PracticeSession } from '../../bank/session';
 import { ImmersiveCtx, Header } from '../kit';
 import { useTheme } from '../theme';
 import { StudyHub } from '../StudyHub';
+import { resolveNoteLink } from '../../bank/noteLink';
+import { noteToBundleMap } from '../../bank/loader';
+import { PRESET_PACKS } from '../../presets';
+import bundlesJson from '../../../data/presets/bundles.json';
 import type { ItemContext } from '../../pnle/itemContext';
 import { useBank } from './BankProvider';
 import { CustomSetup } from './CustomSetup';
@@ -45,6 +49,13 @@ const MODE_LABEL: Record<string, string> = {
   mock: 'Mock board', weak: 'Weak spots', requeue: 'Missed questions', adaptive: 'Adaptive', case: 'Case study',
 };
 
+const NOTE_BUNDLE = noteToBundleMap(bundlesJson.bundles);
+const BUNDLE_NAMES: Record<string, string> = Object.fromEntries(bundlesJson.bundles.map((b) => [b.id, b.name]));
+const noteTitle = (noteId: string): string | undefined => {
+  for (const p of PRESET_PACKS) for (const n of p.notes) if (n.id === noteId) return n.title;
+  return undefined;
+};
+
 export interface PracticeScreenProps {
   state: AppState;
   update: (s: AppState) => void;
@@ -53,10 +64,12 @@ export interface PracticeScreenProps {
   registerBack: (fn: (() => boolean) | null) => void;
   /** Open the tutor about one question. Without it 'Ask tutor' just opens the Tutor tab. */
   onAskTutor?: (ctx: ItemContext) => void;
+  /** Open a note (topic id) in the app's note reader on top of Practice. Without it 'Read this in your notes' opens the Learn tab. */
+  onReadNote?: (topicId: string) => void;
 }
 
 /** Practice tab runner: hub -> setup -> session -> finish -> results. The store saves the session after every answer. */
-export function PracticeScreen({ state, update, go, registerBack, onAskTutor }: PracticeScreenProps) {
+export function PracticeScreen({ state, update, go, registerBack, onAskTutor, onReadNote }: PracticeScreenProps) {
   const { colors } = useTheme();
   const setImmersive = useContext(ImmersiveCtx);
   const bank = useBank();
@@ -96,6 +109,12 @@ export function PracticeScreen({ state, update, go, registerBack, onAskTutor }: 
     if (!item || !onAskTutor) return go('tutor');
     onAskTutor({ item, selected: (from ?? saved)?.answers[itemId]?.selected });
   };
+
+  const resolveNote = useMemo(
+    () => (item: BankItem) => resolveNoteLink(item, state.topics, { noteBundle: NOTE_BUNDLE, bundleNames: BUNDLE_NAMES, noteTitle }),
+    [state.topics],
+  );
+  const readNote = (topicId: string) => (onReadNote ? onReadNote(topicId) : go('topics'));
 
   const stats = useMemo(() => hubStats(items, bs, attempts, today), [items, bs, attempts, today]);
 
@@ -193,7 +212,8 @@ export function PracticeScreen({ state, update, go, registerBack, onAskTutor }: 
         onLeave={() => setView({ v: 'hub' })}
         onReport={onReport}
         onAskTutor={(id) => askTutor(id, saved)}
-        onReadNote={() => go('topics')}
+        resolveNote={resolveNote}
+        onReadNote={readNote}
       />
     );
   }
@@ -212,7 +232,8 @@ export function PracticeScreen({ state, update, go, registerBack, onAskTutor }: 
         onLeave={() => setView(back)}
         onReport={onReport}
         onAskTutor={(id) => askTutor(id, base)}
-        onReadNote={() => go('topics')}
+        resolveNote={resolveNote}
+        onReadNote={readNote}
       />
     );
   }

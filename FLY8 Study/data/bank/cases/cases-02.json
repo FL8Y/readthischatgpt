@@ -105,7 +105,11 @@
    2
   ],
   "rationale": "A loop diuretic removes fluid to lower preload. A beta blocker lowers heart rate and workload. Aspirin prevents platelet clumping in the stent.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right: a loop diuretic removes extra fluid and lowers preload, which eases heart failure and crackles. It does not slow the heart or prevent clots.",
+   "Right: a beta blocker slows the heart rate and lowers workload and oxygen demand. It does not remove fluid or prevent platelet clumping.",
+   "Right: aspirin blocks platelet clumping, which helps keep the stent open. It does not remove fluid or slow the heart."
+  ],
   "strategy": "Link drug to physiologic effect",
   "archetype": "drug purpose",
   "difficulty": 3,
@@ -159,7 +163,11 @@
    }
   ],
   "rationale": "An S3 is an early diastolic gallop typical of failing ventricles. Left ventricular failure causes fluid to back up into the lungs.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right: an S3 is the early diastolic gallop of a failing ventricle. S4 is late diastole and linked to a stiff ventricle, while S1 and S2 are the normal heart sounds.",
+   "Right: crackles come from fluid in the lungs. Fluid in the legs, liver or abdomen causes swelling or enlargement, not crackles.",
+   "Right: left ventricular failure backs blood into the lungs. Right failure backs blood into the body, with leg swelling and liver enlargement."
+  ],
   "strategy": "Link sign to failing chamber",
   "archetype": "cloze HF",
   "difficulty": 3,
@@ -325,7 +333,12 @@
    3
   ],
   "rationale": "Rising pulse with falling pressure and restlessness is hemorrhage and shock. Shallow breathing with basal crackles is atelectasis. A swollen warm calf is deep vein thrombosis. Sudden pink fluid and loosened sutures on day 6 is dehiscence.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right (hemorrhage and shock): a rising pulse with falling pressure and cool moist skin shows the body compensating for blood loss. Check for bleeding and call the provider first.",
+   "Right (atelectasis): shallow breathing with fine basal crackles points to collapsed air sacs. Coughing and deep breathing and incentive spirometry help.",
+   "Right (deep vein thrombosis): one swollen warm calf points to a clot in a deep vein. Do not massage the leg; report it.",
+   "Right (wound dehiscence): sudden pink drainage and loosened sutures around day 6 is dehiscence. Cover with moist sterile saline dressing and call the surgeon."
+  ],
   "strategy": "Pattern recognition",
   "archetype": "complication matrix",
   "difficulty": 3,
@@ -380,7 +393,11 @@
    }
   ],
   "rationale": "Pulse rises before blood pressure falls as the body compensates for lost volume. Treatment replaces volume with IV fluids or blood products as ordered.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right: pulse rate rises first as the heart makes up for lost volume. Temperature, urine specific gravity and oxygen saturation change later or point to other problems.",
+   "Right: a rising pulse early points to hypovolemia from bleeding or fluid loss. Infection and pain raise pulse too, but the picture after surgery with falling pressure fits volume loss.",
+   "Right: volume replacement treats hypovolemia. A diuretic or vasodilator lowers volume or pressure and makes shock worse, and a cough suppressant treats a different problem."
+  ],
   "strategy": "Early sign before late sign",
   "archetype": "cloze shock",
   "difficulty": 3,
@@ -543,7 +560,12 @@
    1
   ],
   "rationale": "Bananas and tomato juice are high in potassium. Boiled white rice and apples are lower in potassium and acceptable in moderation.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right (limit): banana is high in potassium, which is dangerous when the kidneys cannot remove it.",
+   "Right (acceptable): boiled white rice is low in potassium, so it is acceptable in moderation.",
+   "Right (limit): tomato juice is high in potassium, so it should be limited.",
+   "Right (acceptable): apple is lower in potassium than fruits like bananas and oranges, so it is acceptable in moderation."
+  ],
   "strategy": "Diet teaching in hyperkalemia",
   "archetype": "diet matrix",
   "difficulty": 2,
@@ -598,7 +620,11 @@
    }
   ],
   "rationale": "Calcium gluconate stabilizes the membrane without lowering potassium. Insulin with dextrose shifts potassium into cells, and dialysis removes it.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right: calcium gluconate protects the heart muscle membrane from the effect of high potassium. Furosemide removes potassium slowly, potassium chloride adds more, and magnesium sulfate is not used for this.",
+   "Right: insulin with dextrose shifts potassium into cells for a short time. Saying it removes, adds or holds potassium gets the action wrong.",
+   "Right: dialysis removes potassium from the body. Oral fluids, a high-protein diet and oxygen do not clear it."
+  ],
   "strategy": "Protect, shift, remove",
   "archetype": "cloze treatment",
   "difficulty": 3,
@@ -762,7 +788,12 @@
    1
   ],
   "rationale": "DKA is typical of type 1 with ketosis, fruity breath and acidosis. HHNS is typical of older type 2 clients with extreme glucose, severe dehydration and no significant ketosis.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right (DKA): fruity breath and ketones in the urine mean fat breakdown, typical of DKA. HHNS has little or no ketosis.",
+   "Right (HHNS): an older type 2 client with severe dehydration and very high glucose but no ketosis fits HHNS.",
+   "Right (DKA): metabolic acidosis with low pH comes from ketone acids. HHNS does not have significant acidosis.",
+   "Right (HHNS): changes in consciousness come from very high osmolarity in HHNS. DKA also affects consciousness, but the hyperosmolar cause points to HHNS."
+  ],
   "strategy": "Compare the two hyperglycemic emergencies",
   "archetype": "DKA vs HHNS",
   "difficulty": 3,
@@ -814,7 +845,11 @@
    }
   ],
   "rationale": "Without insulin the body breaks fat into ketones. Insulin stops this and lowers ketones. Dextrose is added to the IV once glucose falls so insulin can continue until acidosis clears.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right: without insulin the body breaks down fat for energy, which makes ketones. Protein and glycogen are not the source of ketones.",
+   "Right: insulin lowers ketones by stopping fat breakdown. Sodium and calcium are not what insulin lowers in this setting.",
+   "Right: dextrose is added so that insulin can keep running until acidosis clears without causing hypoglycemia. Potassium chloride and sodium bicarbonate address other problems."
+  ],
   "strategy": "Rationale behind therapy",
   "archetype": "cloze DKA",
   "difficulty": 3,

@@ -8,6 +8,7 @@ import { Dashboard } from './src/ui/Dashboard';
 import { Library } from './src/ui/Library';
 import { PracticeScreen } from './src/ui/practice/PracticeScreen';
 import { BankProvider } from './src/ui/practice/BankProvider';
+import { NoteViewer } from './src/ui/practice/NoteViewer';
 import { HomeScreen, StatsScreen } from './src/ui/practice/BankScreens';
 import { Graph } from './src/ui/Graph';
 import { Topics } from './src/ui/Topics';
@@ -25,7 +26,7 @@ import { ThemeProvider, useTheme } from './src/ui/theme';
 /** Every id the app has ever used keeps working with go() ('study' now opens Practice). library/map/tutor/settings live under More. */
 type Tab = 'home' | 'practice' | 'topics' | 'stats' | 'library' | 'map' | 'tutor' | 'prompts' | 'settings' | 'more';
 type GoId = Tab | 'study';
-type Ctx = { state: AppState; update: (s: AppState) => void; go: (t: GoId) => void; registerBack: (fn: (() => boolean) | null) => void; tutorItem?: ItemContext; askTutor: (c: ItemContext) => void; clearTutorItem: () => void };
+type Ctx = { state: AppState; update: (s: AppState) => void; go: (t: GoId) => void; registerBack: (fn: (() => boolean) | null) => void; tutorItem?: ItemContext; askTutor: (c: ItemContext) => void; clearTutorItem: () => void; readNote: (topicId: string) => void };
 
 const BAR: (TabItem & { id: 'home' | 'practice' | 'topics' | 'stats' | 'more' })[] = [
   { id: 'home', label: 'Home', icon: 'home-outline', iconOn: 'home' },
@@ -44,7 +45,7 @@ const unlocked = (s: AppState): AppState => ({ ...s, diagnosticsDone: s.folders.
 /** One entry per screen. To add or change a screen, edit only its `render`. */
 const SCREENS: Record<Exclude<Tab, 'more'>, { title: string; render: (x: Ctx) => React.ReactNode }> = {
   home: { title: 'Home', render: (x) => <HomeScreen state={x.state} go={x.go} /> },
-  practice: { title: 'Practice', render: (x) => <PracticeScreen state={x.state} update={x.update} go={x.go} registerBack={x.registerBack} onAskTutor={x.askTutor} /> },
+  practice: { title: 'Practice', render: (x) => <PracticeScreen state={x.state} update={x.update} go={x.go} registerBack={x.registerBack} onAskTutor={x.askTutor} onReadNote={x.readNote} /> },
   topics: { title: 'Learn', render: (x) => <Topics state={unlocked(x.state)} /> },
   stats: { title: 'Stats', render: (x) => <StatsScreen go={x.go} /> },
   library: { title: 'Library', render: (x) => <Library state={x.state} update={x.update} /> },
@@ -75,6 +76,8 @@ function Root() {
   const registerBack = useCallback((fn: (() => boolean) | null) => { backRef.current = fn; }, []);
   const [immersive, setImmersive] = useState(false);
   const [tutorItem, setTutorItem] = useState<ItemContext | undefined>();
+  /** Topic id open in the full-screen note reader (opened from a question). Practice stays mounted underneath. */
+  const [noteId, setNoteId] = useState<string | null>(null);
 
   useEffect(() => {
     void loadState().then(setState);
@@ -88,6 +91,10 @@ function Root() {
   // Android back: leave a More sub-screen before leaving the app.
   useEffect(() => {
     const sub = BackHandler.addEventListener('hardwareBackPress', () => {
+      if (noteId) {
+        setNoteId(null);
+        return true;
+      }
       if (tab === 'practice' && backRef.current?.()) return true;
       if (tab === 'tutor' && tutorItem) {
         setTutorItem(undefined);
@@ -105,7 +112,7 @@ function Root() {
       return false;
     });
     return () => sub.remove();
-  }, [tab, immersive, tutorItem]);
+  }, [tab, immersive, tutorItem, noteId]);
 
   const bar = <StatusBar style={scheme === 'dark' ? 'light' : 'dark'} />;
   if (!state) {
@@ -136,7 +143,7 @@ function Root() {
   }
 
   const go = (t: GoId) => setTab(t === 'study' ? 'practice' : t);
-  const ctx: Ctx = { state, update, go, registerBack, tutorItem, askTutor: (c) => { setTutorItem(c); setTab('tutor'); }, clearTutorItem: () => { setTutorItem(undefined); setTab('practice'); } };
+  const ctx: Ctx = { state, update, go, registerBack, tutorItem, askTutor: (c) => { setTutorItem(c); setTab('tutor'); }, clearTutorItem: () => { setTutorItem(undefined); setTab('practice'); }, readNote: setNoteId };
   const barId = isMoreChild(tab) ? 'more' : tab;
   const needsKey = state.settings.provider !== 'manual' && !state.settings.apiKey.trim();
 
@@ -163,7 +170,10 @@ function Root() {
     <ImmersiveCtx.Provider value={setImmersive}>
       <View style={{ flex: 1, backgroundColor: colors.bg }}>
         {bar}
-        <View style={{ flex: 1 }}>{body}</View>
+        <View style={{ flex: 1 }}>
+          {body}
+          {noteId ? <NoteViewer state={unlocked(state)} topicId={noteId} subtitle="From your question" onClose={() => setNoteId(null)} /> : null}
+        </View>
         {immersive ? null : <TabBar tabs={BAR} active={barId} onChange={(id) => setTab(id as Tab)} />}
         <ManualHost />
       </View>

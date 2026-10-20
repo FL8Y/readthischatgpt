@@ -109,7 +109,12 @@
    3
   ],
   "rationale": "Visual field loss needs scanning teaching. Aphasia needs short phrases with gestures and time. Dysphagia needs a swallow check before feeding. Weakness needs range of motion and alignment.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right (teach him to scan): with right visual field loss he must turn his head to see the right side. Speech or swallow measures do not help vision.",
+   "Right (short phrases with gestures): difficulty finding words is aphasia, so use short phrases, gestures and time. Do not shout or talk fast.",
+   "Right (hold intake until swallow check): a wet voice after sips signals aspiration risk, so nothing by mouth until the swallow screen is done. Airway safety comes first.",
+   "Right (range of motion and alignment): a weak arm needs positioning and range of motion to prevent contracture and shoulder injury. It does not affect swallowing or vision."
+  ],
   "strategy": "Match deficit to action",
   "archetype": "deficit matrix",
   "difficulty": 3,
@@ -154,7 +159,10 @@
    }
   ],
   "rationale": "Each hemisphere controls the opposite side of the body, and speech is dominated by the left hemisphere in most people, so left strokes cause right weakness and aphasia.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right: the left hemisphere controls the right side of the body, so a left stroke causes right-sided weakness. Left-sided weakness would come from a right stroke.",
+   "Right: language is controlled by the left hemisphere in most people, so aphasia is common. Neglect of the left side and impulsive behavior come from right-sided strokes. Hearing loss is not typical."
+  ],
   "strategy": "Contralateral effects",
   "archetype": "cloze hemisphere",
   "difficulty": 2,
@@ -317,7 +325,12 @@
    0
   ],
   "rationale": "A pillow between the legs keeps abduction. Raised seats keep flexion under 90 degrees. Low soft chairs and crossing the legs risk dislocation.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right (unsafe): a low soft chair makes the hip flex beyond 90 degrees, risking dislocation. Use a firm, raised seat.",
+   "Right (safe): a raised toilet seat keeps hip flexion below 90 degrees, so it protects the new joint.",
+   "Right (unsafe): crossing the legs brings the leg across the midline (adduction), which can dislocate the hip.",
+   "Right (safe): a pillow between the knees keeps the legs apart (abduction), which protects the new joint."
+  ],
   "strategy": "Hip precautions",
   "archetype": "safe unsafe",
   "difficulty": 2,
@@ -362,7 +375,10 @@
    }
   ],
   "rationale": "The femoral head stays seated when flexion stays within 90 degrees and the leg is kept abducted.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right: hip flexion beyond 90 degrees can dislocate the joint after replacement. 45 is too low to be the limit, while 120 and 135 are unsafe.",
+   "Right: abduction keeps the head of the femur seated. Adduction and internal rotation are the movements that cause dislocation."
+  ],
   "strategy": "Positioning rule",
   "archetype": "cloze hip",
   "difficulty": 2,
@@ -527,7 +543,12 @@
    0
   ],
   "rationale": "Pacing and an urge to move is akathisia, shuffling gait with pill-rolling is pseudoparkinsonism, lip smacking and worm-like tongue after months is tardive dyskinesia, and early neck twisting is acute dystonia.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right (akathisia): restless pacing and being unable to sit still is the picture of akathisia, not a tremor or a muscle spasm.",
+   "Right (pseudoparkinsonism): shuffling gait with pill-rolling tremor mimics Parkinson disease and is drug-induced.",
+   "Right (tardive dyskinesia): lip smacking and tongue movements after months of therapy are late, often permanent movements. Report them early.",
+   "Right (acute dystonia): sudden neck twisting and upward gaze within days is an emergency spasm. It responds to anticholinergic drugs."
+  ],
   "strategy": "Link sign to syndrome",
   "archetype": "EPS matrix",
   "difficulty": 3,
@@ -571,7 +592,10 @@
    }
   ],
   "rationale": "The causative drug is stopped and the client is cooled and hydrated while the provider manages complications.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right: the causative antipsychotic must be stopped. Continuing or doubling it worsens neuroleptic malignant syndrome.",
+   "Right: supportive care with cooling and hydration treats the high fever and muscle breakdown. Restricting fluids harms the kidneys, and another antipsychotic dose repeats the cause."
+  ],
   "strategy": "Remove the cause and support",
   "archetype": "cloze NMS",
   "difficulty": 3,
@@ -734,7 +758,11 @@
    2
   ],
   "rationale": "Superficial burns are red, dry and painful; partial-thickness burns blister and are very painful; full-thickness burns are leathery or charred and painless because the nerve endings are destroyed.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right (superficial): red, dry and painful with no blisters involves only the top layer. Blistering would mean partial thickness.",
+   "Right (partial thickness): blisters, weeping and severe pain mean the deeper layer is injured but nerve endings still work.",
+   "Right (full thickness): white or leathery skin without pain means nerve endings are destroyed. A painless burn is more serious, not less."
+  ],
   "strategy": "Depth by appearance and pain",
   "archetype": "depth matrix",
   "difficulty": 3,
@@ -778,7 +806,10 @@
    }
   ],
   "rationale": "Fluid formulas use burn size and weight, and urine output is the key bedside indicator of adequate resuscitation.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right: burn fluid formulas use the percentage of body surface area burned and weight. Dressings and time since rescue alone do not set the volume.",
+   "Right: urine output is the bedside sign of adequate fluid resuscitation. Skin color alone is unreliable and oral intake is not used in a major burn."
+  ],
   "strategy": "Monitor perfusion by urine output",
   "archetype": "cloze fluids",
   "difficulty": 3,
