@@ -69,28 +69,43 @@ export function custom(ctx: SelectContext, o: CustomOptions): Selection {
   return picker.selection();
 }
 
+/** Owner rule: the diagnostic is hard on purpose. Of 25 questions, 15 hardest (60%), 8 medium (30%), 2 easy (10%). */
+export const DIAGNOSTIC_MIX = { hard: 0.6, medium: 0.3, easy: 0.1 } as const;
+
+/** Per-area (hard, medium, easy) counts for the 5 areas, summing to 15 / 8 / 2. The two areas that get an easy item rotate by seed. */
+export function diagnosticSplit(rng: () => number): { hard: number; medium: number; easy: number }[] {
+  const easyAt = new Set(shuffled([0, 1, 2, 3, 4], rng).slice(0, 2));
+  return [0, 1, 2, 3, 4].map((k) => (easyAt.has(k) ? { hard: 3, medium: 1, easy: 1 } : { hard: 3, medium: 2, easy: 0 }));
+}
+
 /**
- * Diagnostic: 5 items per NP area (25 total) spread across the difficulty range, no repeats.
- * Prefers items the learner has not seen; a thin area returns what it has and sets `short`.
+ * Diagnostic: 5 items per NP area (25 total), 60% hardest available, 30% medium, 10% easy, no repeats.
+ * "Hard" means the highest difficulty labels in that area's pool, whatever they are. Prefers items the learner has
+ * not seen; a thin area returns what it has.
  */
 export function diagnostic(ctx: SelectContext): Selection {
   const rng = makeRng(ctx.seed);
   const seen = new Set(ctx.attempts.map((a) => a.itemId));
+  const split = diagnosticSplit(rng);
   const ids: string[] = [];
-  for (const area of DIAGNOSTIC_AREAS) {
+  DIAGNOSTIC_AREAS.forEach((area, ai) => {
     const inArea = solo(ctx.items).filter((i) => i.area === area);
     const fresh = inArea.filter((i) => !seen.has(i.id));
     const noSata = (l: BankItem[]) => l.filter((i) => i.type !== 'sata');
     const base = fresh.length >= DIAGNOSTIC_PER_AREA ? fresh : inArea;
     // Select-all items are rare: only used in a thin area that has too few other items.
     const pool = noSata(base).length >= DIAGNOSTIC_PER_AREA ? noSata(base) : base;
-    // Shuffle first so ties in difficulty break by seed, then stable-sort by difficulty.
-    const sorted = shuffled(pool, rng).sort((a, b) => a.difficulty - b.difficulty);
-    if (sorted.length <= DIAGNOSTIC_PER_AREA) { ids.push(...sorted.map((i) => i.id)); continue; }
-    for (let k = 0; k < DIAGNOSTIC_PER_AREA; k++) {
-      ids.push(sorted[Math.round((k * (sorted.length - 1)) / (DIAGNOSTIC_PER_AREA - 1))].id);
-    }
-  }
+    // Shuffle first so ties in difficulty break by seed, then stable-sort hardest first.
+    const sorted = shuffled(pool, rng).sort((a, b) => b.difficulty - a.difficulty);
+    if (sorted.length <= DIAGNOSTIC_PER_AREA) { ids.push(...sorted.map((i) => i.id)); return; }
+    const { hard, medium, easy } = split[ai];
+    const hardPick = sorted.slice(0, hard);
+    const rest = sorted.slice(hard);
+    const easyPick = easy ? rest.slice(rest.length - easy) : [];
+    const mid = rest.slice(0, rest.length - easy);
+    const start = Math.max(0, Math.floor((mid.length - medium) / 2));
+    ids.push(...[...hardPick, ...mid.slice(start, start + medium), ...easyPick].map((i) => i.id));
+  });
   const unique = [...new Set(ids)];
   return makeSelection(shuffled(unique, rng), DIAGNOSTIC_AREAS.length * DIAGNOSTIC_PER_AREA);
 }

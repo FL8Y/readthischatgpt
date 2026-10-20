@@ -104,7 +104,7 @@ describe('custom', () => {
 });
 
 describe('diagnostic', () => {
-  it('is 25 items, 5 per NP area, no duplicates, spread difficulty', () => {
+  it('is 25 items, 5 per NP area, no duplicates, hardest first', () => {
     const items = pool(15);
     const s = diagnostic(ctxOf(items));
     expect(s.ids).toHaveLength(25);
@@ -114,8 +114,8 @@ describe('diagnostic', () => {
       const got = s.ids.map((id) => items.find((i) => i.id === id) as BankItem).filter((i) => i.area === a);
       expect(got).toHaveLength(5);
       const ds = got.map((i) => i.difficulty);
-      expect(Math.min(...ds)).toBe(1);
       expect(Math.max(...ds)).toBe(5);
+      expect(ds.filter((d) => d === 5).length).toBeGreaterThanOrEqual(3);
     }
   });
   it('works on the real gold bank (20 per area)', () => {
@@ -334,5 +334,25 @@ describe('masteryTag', () => {
     expect(masteryTag(mkA([1, 1, 1, 1, 1, 0]))).toBe('reviewing'); // 4/5 = 80%
     expect(masteryTag(mkA([1, 0, 0, 0, 1]))).toBe('learning');
     expect(masteryTag(mkA([1, 1, 0, 0, 1]))).toBe('reviewing'); // 60% edge
+  });
+});
+
+describe('diagnostic difficulty mix (60% hardest, 30% medium, 10% easy)', () => {
+  const items = Array.from({ length: 5 }, (_, a) => Array.from({ length: 30 }, (_, k) => ({
+    ...pool(1)[0], id: `x-${a}-${k}`, area: (['NP1', 'NP2', 'NP3', 'NP4', 'NP5'] as const)[a], type: 'single' as const, difficulty: ((k % 5) + 1) as 1 | 2 | 3 | 4 | 5,
+  }))).flat();
+  it('picks 15 hardest, 8 medium and 2 easy across the five areas', () => {
+    const s = diagnostic(ctxOf(items));
+    const picked = s.ids.map((id) => items.find((i) => i.id === id)!);
+    expect(picked).toHaveLength(25);
+    expect(picked.filter((i) => i.difficulty === 5)).toHaveLength(15);
+    expect(picked.filter((i) => i.difficulty === 1)).toHaveLength(2);
+    expect(picked.filter((i) => i.difficulty >= 2 && i.difficulty <= 4)).toHaveLength(8);
+  });
+  it('stays 5 per area', () => {
+    const s = diagnostic(ctxOf(items));
+    const byArea = new Map<string, number>();
+    for (const id of s.ids) byArea.set(items.find((i) => i.id === id)!.area, (byArea.get(items.find((i) => i.id === id)!.area) ?? 0) + 1);
+    expect([...byArea.values()]).toEqual([5, 5, 5, 5, 5]);
   });
 });
