@@ -9,6 +9,7 @@ import { Chip, PressableScale } from '../kitParts';
 import { radius, space, useTheme } from '../theme';
 import { ReportSheet, type ItemReport } from './ReportSheet';
 import { optionLetter, pointsText, reviewBadge, verdictFor } from './playerLogic';
+import { SimpleRationale } from './SimpleRationale';
 
 function LinkRow({ icon, label, onPress }: { icon: React.ComponentProps<typeof Ionicons>['name']; label: string; onPress: () => void }) {
   const { colors, type } = useTheme();
@@ -87,6 +88,7 @@ export function RationaleCard({ item, answer, note, onReadNote, onAskTutor, onRe
       </View>
 
       <Text style={[type('body'), { color: colors.text }]}>{item.rationale}</Text>
+      <SimpleRationale text={item.rationaleSimple} />
       {item.beyondNotes ? (
         <Text style={[type('caption'), { color: colors.textDim }]}>Some facts here go beyond your notes. Check them against your textbook.</Text>
       ) : null}
