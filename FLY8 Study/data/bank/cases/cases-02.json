@@ -1,0 +1,874 @@
+[
+ {
+  "id": "cs-np3-01-1",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Acute heart failure after MI",
+  "noteId": "np3-cr-hf-left-right",
+  "clusterId": "cs-np3-01",
+  "clusterSeq": 1,
+  "vignette": "Mang Rudy, 63, is on day 2 after an inferior wall myocardial infarction treated with a stent. He is on telemetry and takes aspirin, a beta blocker, an ACE inhibitor and a loop diuretic. At 0700 he walked the hall comfortably with clear lungs. At 1000 his nurse finds him sitting on the edge of the bed, breathing 28/min with new fine crackles at both lung bases and an early-diastolic extra sound at the apex. His blood pressure is 96/60 (108/68 at 0700), heart rate 112, oxygen saturation 91% on room air, and he has gained 2 kg since admission with new ankle swelling. He denies chest pain. The monitor shows occasional single premature ventricular beats.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Notify the provider of the weight gain and low blood pressure",
+   "Raise the head of the bed to high Fowler's and apply oxygen",
+   "Obtain a 12-lead ECG to look at the premature beats",
+   "Hold the next dose of the ACE inhibitor until the provider is called"
+  ],
+  "answer": [
+   1
+  ],
+  "optionRationales": [
+   "Right action, wrong time: communication is needed immediately after relieving the hypoxia.",
+   "Right: breathing and oxygenation come first.",
+   "Treats the lesser finding: single premature beats do not explain the dyspnea.",
+   "Skips the priority: medication clarification is appropriate later, not before breathing."
+  ],
+  "rationale": "1. New basal crackles, extra diastolic sound, tachypnea and saturation 91% after an MI show left ventricular failure with fluid in the lungs.\n2. Priority: breathing. Sitting upright (high Fowler's) lowers venous return and eases breathing, and oxygen treats the hypoxia.\n3. Reporting, a 12-lead ECG and medication review follow within minutes but come after the airway-breathing step.\nFlip: if saturation were 98% and he were comfortable, notifying the provider of the weight gain would be first.",
+  "strategy": "Maslow and ABC: oxygenation and positioning first",
+  "archetype": "oxygenation before notification",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Left HF: crackles, S3, dyspnea",
+   "Maslow: oxygenation first"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np3-01-2",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Delegation in heart failure",
+  "noteId": "np3-cr-x-hf-nursing-care",
+  "clusterId": "cs-np3-01",
+  "clusterSeq": 2,
+  "vignette": "Mang Rudy, 63, is on day 2 after an inferior wall myocardial infarction treated with a stent. He is on telemetry and takes aspirin, a beta blocker, an ACE inhibitor and a loop diuretic. At 0700 he walked the hall comfortably with clear lungs. At 1000 his nurse finds him sitting on the edge of the bed, breathing 28/min with new fine crackles at both lung bases and an early-diastolic extra sound at the apex. His blood pressure is 96/60 (108/68 at 0700), heart rate 112, oxygen saturation 91% on room air, and he has gained 2 kg since admission with new ankle swelling. He denies chest pain. The monitor shows occasional single premature ventricular beats.",
+  "stem": "After he is stable, which task is appropriate to delegate to the unlicensed assistive personnel?",
+  "options": [
+   "Teach the low-sodium diet to the client and his wife",
+   "Listen to the lung sounds each shift",
+   "Interpret the premature beats seen on the monitor",
+   "Weigh him at the same time each morning and record intake and output"
+  ],
+  "answer": [
+   3
+  ],
+  "optionRationales": [
+   "Delegation outside scope: teaching is a nursing responsibility.",
+   "Delegation outside scope: assessment cannot be delegated.",
+   "Delegation outside scope: interpretation needs judgment.",
+   "Right: measuring and reporting are within UAP scope."
+  ],
+  "rationale": "UAP may measure and report: daily weights and intake and output are objective measurements. Lung assessment, diet teaching and rhythm interpretation require nursing judgment.",
+  "strategy": "Scope of practice: delegate measuring, not assessing",
+  "archetype": "delegation",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Daily weight and intake and output monitor fluid status"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np3-01-3",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP3",
+  "topic": "Cardiac medications",
+  "noteId": "np3-cr-hf-drugs",
+  "clusterId": "cs-np3-01",
+  "clusterSeq": 3,
+  "vignette": "Mang Rudy, 63, is on day 2 after an inferior wall myocardial infarction treated with a stent. He is on telemetry and takes aspirin, a beta blocker, an ACE inhibitor and a loop diuretic. At 0700 he walked the hall comfortably with clear lungs. At 1000 his nurse finds him sitting on the edge of the bed, breathing 28/min with new fine crackles at both lung bases and an early-diastolic extra sound at the apex. His blood pressure is 96/60 (108/68 at 0700), heart rate 112, oxygen saturation 91% on room air, and he has gained 2 kg since admission with new ankle swelling. He denies chest pain. The monitor shows occasional single premature ventricular beats.",
+  "stem": "Match each medication to its main purpose for this client.",
+  "options": [],
+  "answer": [],
+  "rows": [
+   "Loop diuretic",
+   "Beta blocker",
+   "Aspirin"
+  ],
+  "columns": [
+   "Reduce fluid load on the heart",
+   "Slow the heart rate and workload",
+   "Prevent clotting in the stent"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   2
+  ],
+  "rationale": "A loop diuretic removes fluid to lower preload. A beta blocker lowers heart rate and workload. Aspirin prevents platelet clumping in the stent.",
+  "optionRationales": [],
+  "strategy": "Link drug to physiologic effect",
+  "archetype": "drug purpose",
+  "difficulty": 3,
+  "bloom": "recall",
+  "keyFacts": [
+   "Loop diuretics reduce preload",
+   "Aspirin is an antiplatelet"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np3-01-4",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP3",
+  "topic": "Left heart failure signs",
+  "noteId": "np3-cr-hf-left-right",
+  "clusterId": "cs-np3-01",
+  "clusterSeq": 4,
+  "vignette": "Mang Rudy, 63, is on day 2 after an inferior wall myocardial infarction treated with a stent. He is on telemetry and takes aspirin, a beta blocker, an ACE inhibitor and a loop diuretic. At 0700 he walked the hall comfortably with clear lungs. At 1000 his nurse finds him sitting on the edge of the bed, breathing 28/min with new fine crackles at both lung bases and an early-diastolic extra sound at the apex. His blood pressure is 96/60 (108/68 at 0700), heart rate 112, oxygen saturation 91% on room air, and he has gained 2 kg since admission with new ankle swelling. He denies chest pain. The monitor shows occasional single premature ventricular beats.",
+  "stem": "The new extra sound heard early in diastole is an {{1}}. The crackles show fluid backing up into the {{2}} because the {{3}} ventricle is failing.",
+  "options": [],
+  "answer": [],
+  "blanks": [
+   {
+    "choices": [
+     "S4",
+     "S1",
+     "S3",
+     "S2"
+    ],
+    "answer": 2
+   },
+   {
+    "choices": [
+     "legs",
+     "lungs",
+     "liver",
+     "abdomen"
+    ],
+    "answer": 1
+   },
+   {
+    "choices": [
+     "right",
+     "left"
+    ],
+    "answer": 1
+   }
+  ],
+  "rationale": "An S3 is an early diastolic gallop typical of failing ventricles. Left ventricular failure causes fluid to back up into the lungs.",
+  "optionRationales": [],
+  "strategy": "Link sign to failing chamber",
+  "archetype": "cloze HF",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "S3 in HF",
+   "Left failure leads to pulmonary congestion"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np3-01-5",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP3",
+  "topic": "Left versus right heart failure",
+  "noteId": "np3-cr-hf-left-right",
+  "clusterId": "cs-np3-01",
+  "clusterSeq": 5,
+  "vignette": "Mang Rudy, 63, is on day 2 after an inferior wall myocardial infarction treated with a stent. He is on telemetry and takes aspirin, a beta blocker, an ACE inhibitor and a loop diuretic. At 0700 he walked the hall comfortably with clear lungs. At 1000 his nurse finds him sitting on the edge of the bed, breathing 28/min with new fine crackles at both lung bases and an early-diastolic extra sound at the apex. His blood pressure is 96/60 (108/68 at 0700), heart rate 112, oxygen saturation 91% on room air, and he has gained 2 kg since admission with new ankle swelling. He denies chest pain. The monitor shows occasional single premature ventricular beats.",
+  "stem": "Select the data that point to left-sided heart failure specifically.",
+  "options": [
+   "New fine crackles at both bases",
+   "Oxygen saturation 91% on room air",
+   "Early-diastolic extra sound at the apex",
+   "New ankle swelling",
+   "Weight gain of 2 kg",
+   "Occasional single premature beats"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "optionRationales": [
+   "Pulmonary congestion.",
+   "Hypoxemia from lung fluid.",
+   "S3 from failing left ventricle.",
+   "Systemic congestion, more right-sided.",
+   "Non-specific fluid retention.",
+   "Not specific."
+  ],
+  "rationale": "Basal crackles, hypoxemia and the S3 reflect pulmonary congestion from left ventricular failure. Ankle swelling and weight gain occur with right-sided or general fluid retention. Single premature beats are not specific.",
+  "strategy": "Separate left-sided from non-specific findings",
+  "archetype": "left HF cues",
+  "difficulty": 4,
+  "bloom": "apply",
+  "keyFacts": [
+   "Left HF: pulmonary congestion; right HF: systemic congestion"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np3-02-1",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Postoperative priorities",
+  "noteId": "np3-ho-postop-hemorrhage-shock",
+  "clusterId": "cs-np3-02",
+  "clusterSeq": 1,
+  "vignette": "Aling Nena, 55, is 6 hours after an open abdominal hysterectomy. She is obese and smokes. Over the last two hours her heart rate has risen from 98 to 118 and her blood pressure has fallen from 118/74 to 98/60. She is restless and her skin is cool and moist. The abdominal dressing is saturated with bright red drainage and she rates her pain 8/10. She breathes shallowly, will not cough because of pain, and has a temperature of 37.8 C. The nurse notes a few fine crackles at the left base and that her urine output over the last hour was 20 mL.",
+  "stem": "Which complication should the nurse treat as the priority?",
+  "options": [
+   "Wound infection at the incision",
+   "Atelectasis from shallow breathing",
+   "Hypovolemia from bleeding",
+   "Pain that is not controlled"
+  ],
+  "answer": [
+   2
+  ],
+  "optionRationales": [
+   "Wrong time: infection appears days later.",
+   "Plausible but less urgent: expected on day 0 and not causing instability here.",
+   "Right: cues point to blood loss and shock.",
+   "True statement that does not answer the question: pain is real but not the life threat."
+  ],
+  "rationale": "1. Rising pulse, falling pressure, restlessness, cool moist skin, saturated dressing and low urine output are early signs of hypovolemic shock from bleeding.\n2. Atelectasis explains shallow breathing, crackles and a low-grade temperature on day 0, but she is not hypoxic in the data.\n3. Unstable and fast-moving problems come before expected ones.\nFlip: if the dressing were dry and pulse steady, atelectasis would become the priority.",
+  "strategy": "Circulation before comfort; unstable before expected",
+  "archetype": "postop complication ranking",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Early shock: rising pulse before BP falls",
+   "Unstable before stable"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np3-02-2",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Preventing atelectasis",
+  "noteId": "np3-ho-postop-respiratory-complications",
+  "clusterId": "cs-np3-02",
+  "clusterSeq": 2,
+  "vignette": "Aling Nena, 55, is 6 hours after an open abdominal hysterectomy. She is obese and smokes. Over the last two hours her heart rate has risen from 98 to 118 and her blood pressure has fallen from 118/74 to 98/60. She is restless and her skin is cool and moist. The abdominal dressing is saturated with bright red drainage and she rates her pain 8/10. She breathes shallowly, will not cough because of pain, and has a temperature of 37.8 C. The nurse notes a few fine crackles at the left base and that her urine output over the last hour was 20 mL.",
+  "stem": "Once she is stable, which intervention best prevents atelectasis?",
+  "options": [
+   "Give a cough suppressant so coughing does not hurt",
+   "Restrict oral fluids to limit secretions",
+   "Splint the incision and have her use the incentive spirometer",
+   "Keep her supine for the first day to protect the incision"
+  ],
+  "answer": [
+   2
+  ],
+  "optionRationales": [
+   "Treats the symptom wrongly: suppressing cough keeps secretions.",
+   "Unsafe: dehydration thickens secretions.",
+   "Right: expands lungs and reduces pain on coughing.",
+   "Plausible detail from another condition: supine positioning reduces lung expansion."
+  ],
+  "rationale": "Splinting the incision with a pillow while coughing and deep breathing, and using the incentive spirometer, expand the alveoli. Cough suppressants and fluid restriction thicken secretions, and keeping her flat limits lung expansion.",
+  "strategy": "Open the alveoli and ease the pain that prevents it",
+  "archetype": "pulmonary toilet",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Splint incision; incentive spirometry; deep breathing"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np3-02-3",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP3",
+  "topic": "Postoperative complications",
+  "noteId": "np3-ho-postop-respiratory-complications",
+  "clusterId": "cs-np3-02",
+  "clusterSeq": 3,
+  "vignette": "Aling Nena, 55, is 6 hours after an open abdominal hysterectomy. She is obese and smokes. Over the last two hours her heart rate has risen from 98 to 118 and her blood pressure has fallen from 118/74 to 98/60. She is restless and her skin is cool and moist. The abdominal dressing is saturated with bright red drainage and she rates her pain 8/10. She breathes shallowly, will not cough because of pain, and has a temperature of 37.8 C. The nurse notes a few fine crackles at the left base and that her urine output over the last hour was 20 mL.",
+  "stem": "Match each finding with the most likely postoperative complication.",
+  "options": [],
+  "answer": [],
+  "rows": [
+   "Rising pulse, falling pressure, cool moist skin",
+   "Shallow breathing with fine basal crackles",
+   "Unilateral calf swelling and warmth",
+   "Pink fluid gushing from the incision on day 6"
+  ],
+  "columns": [
+   "Hemorrhage and shock",
+   "Atelectasis",
+   "Deep vein thrombosis",
+   "Wound dehiscence"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "rationale": "Rising pulse with falling pressure and restlessness is hemorrhage and shock. Shallow breathing with basal crackles is atelectasis. A swollen warm calf is deep vein thrombosis. Sudden pink fluid and loosened sutures on day 6 is dehiscence.",
+  "optionRationales": [],
+  "strategy": "Pattern recognition",
+  "archetype": "complication matrix",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Dehiscence: sudden pink serous drainage around day 5 to 8"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np3-02-4",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP3",
+  "topic": "Early shock recognition",
+  "noteId": "np3-ho-postop-hemorrhage-shock",
+  "clusterId": "cs-np3-02",
+  "clusterSeq": 4,
+  "vignette": "Aling Nena, 55, is 6 hours after an open abdominal hysterectomy. She is obese and smokes. Over the last two hours her heart rate has risen from 98 to 118 and her blood pressure has fallen from 118/74 to 98/60. She is restless and her skin is cool and moist. The abdominal dressing is saturated with bright red drainage and she rates her pain 8/10. She breathes shallowly, will not cough because of pain, and has a temperature of 37.8 C. The nurse notes a few fine crackles at the left base and that her urine output over the last hour was 20 mL.",
+  "stem": "A rising {{1}} is an early sign of {{2}}, and the nurse should expect to give {{3}} as ordered.",
+  "options": [],
+  "answer": [],
+  "blanks": [
+   {
+    "choices": [
+     "temperature",
+     "pulse rate",
+     "urine specific gravity",
+     "oxygen saturation"
+    ],
+    "answer": 1
+   },
+   {
+    "choices": [
+     "infection",
+     "hypovolemia",
+     "pain",
+     "dehydration from fever"
+    ],
+    "answer": 1
+   },
+   {
+    "choices": [
+     "volume replacement",
+     "a diuretic",
+     "a cough suppressant",
+     "a vasodilator"
+    ],
+    "answer": 0
+   }
+  ],
+  "rationale": "Pulse rises before blood pressure falls as the body compensates for lost volume. Treatment replaces volume with IV fluids or blood products as ordered.",
+  "optionRationales": [],
+  "strategy": "Early sign before late sign",
+  "archetype": "cloze shock",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Heart rate rises early in hypovolemia"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np3-02-5",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP3",
+  "topic": "Hemorrhage versus pain",
+  "noteId": "np3-ho-postop-hemorrhage-shock",
+  "clusterId": "cs-np3-02",
+  "clusterSeq": 5,
+  "vignette": "Aling Nena, 55, is 6 hours after an open abdominal hysterectomy. She is obese and smokes. Over the last two hours her heart rate has risen from 98 to 118 and her blood pressure has fallen from 118/74 to 98/60. She is restless and her skin is cool and moist. The abdominal dressing is saturated with bright red drainage and she rates her pain 8/10. She breathes shallowly, will not cough because of pain, and has a temperature of 37.8 C. The nurse notes a few fine crackles at the left base and that her urine output over the last hour was 20 mL.",
+  "stem": "Select the data that indicate bleeding rather than pain or atelectasis.",
+  "options": [
+   "Heart rate 98 to 118",
+   "Blood pressure 118/74 to 98/60",
+   "Saturated dressing with bright red drainage",
+   "Pain 8/10",
+   "Temperature 37.8 C",
+   "Fine crackles at the left base"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "optionRationales": [
+   "Compensation for volume loss.",
+   "Falling pressure.",
+   "Visible loss.",
+   "Expected after surgery.",
+   "Low-grade rise is common.",
+   "Atelectasis sign."
+  ],
+  "rationale": "Heart rate and blood pressure trends and the saturated dressing show blood loss. Pain of 8/10, temperature 37.8 C and shallow breathing fit pain and atelectasis.",
+  "strategy": "Separate bleeding cues from distractors",
+  "archetype": "bleeding cues",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Trend of vital signs matters more than single values"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np3-03-1",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Hyperkalemia emergency",
+  "noteId": "np3-er-hyperkalemia",
+  "clusterId": "cs-np3-03",
+  "clusterSeq": 1,
+  "vignette": "Mang Berto, 60, has chronic kidney disease and receives hemodialysis three times a week through a left forearm fistula. He missed his last session because of a typhoon. He arrives at the dialysis unit with muscle weakness and nausea. His potassium is 6.8 mEq/L, his heart rate is 48, his ECG shows tall peaked T waves and a widened QRS, and his blood pressure is 168/98. He has gained 3.5 kg since the last session and has ankle swelling. At dinner the night before he ate dried fish, boiled rice and two bananas. A student nurse prepares to take a blood pressure and applies the cuff to his left arm.",
+  "stem": "Which action is the priority for the nurse?",
+  "options": [
+   "Weigh him again to confirm the fluid gain",
+   "Teach him to limit high-potassium foods",
+   "Place him on continuous cardiac monitoring and notify the provider urgently",
+   "Assess the thrill and bruit of the fistula"
+  ],
+  "answer": [
+   2
+  ],
+  "optionRationales": [
+   "Skips the priority: the weight can be rechecked later.",
+   "Right action, wrong time: teaching comes after the emergency.",
+   "Right: guards against fatal arrhythmia.",
+   "Right assessment, wrong priority: the fistula is not the immediate threat."
+  ],
+  "rationale": "1. Peaked T waves, widened QRS and a slow heart rate show potassium is affecting cardiac conduction and can lead to arrest.\n2. Priority: continuous cardiac monitoring and urgent notification so potassium can be lowered and the heart protected.\n3. Weight gain, hypertension and diet are real but slower problems.\nFlip: if the ECG were normal and potassium mildly raised, dialysis scheduling would be first.",
+  "strategy": "Treat the life threat: cardiac monitoring and urgent provider call",
+  "archetype": "life threat first",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Hyperkalemia ECG: tall peaked T, wide QRS",
+   "Cardiac arrhythmias are the main danger"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np3-03-2",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Fistula protection",
+  "noteId": "np3-er-hemodialysis",
+  "clusterId": "cs-np3-03",
+  "clusterSeq": 2,
+  "vignette": "Mang Berto, 60, has chronic kidney disease and receives hemodialysis three times a week through a left forearm fistula. He missed his last session because of a typhoon. He arrives at the dialysis unit with muscle weakness and nausea. His potassium is 6.8 mEq/L, his heart rate is 48, his ECG shows tall peaked T waves and a widened QRS, and his blood pressure is 168/98. He has gained 3.5 kg since the last session and has ankle swelling. At dinner the night before he ate dried fish, boiled rice and two bananas. A student nurse prepares to take a blood pressure and applies the cuff to his left arm.",
+  "stem": "Which action by the student nurse requires immediate correction?",
+  "options": [
+   "Weighing him before treatment",
+   "Placing him on a cardiac monitor",
+   "Asking how much fluid he drinks",
+   "Applying the cuff on his left arm"
+  ],
+  "answer": [
+   3
+  ],
+  "optionRationales": [
+   "Appropriate.",
+   "Appropriate.",
+   "Appropriate.",
+   "Right: the fistula arm must be protected."
+  ],
+  "rationale": "No blood pressures, venipunctures or tight items on the fistula arm because they can clot or damage it. Weighing, monitoring and asking about intake are safe.",
+  "strategy": "Protect the vascular access",
+  "archetype": "fistula protection",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Avoid BP and needle sticks on the fistula arm"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np3-03-3",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP3",
+  "topic": "Potassium diet",
+  "noteId": "np3-er-hyperkalemia",
+  "clusterId": "cs-np3-03",
+  "clusterSeq": 3,
+  "vignette": "Mang Berto, 60, has chronic kidney disease and receives hemodialysis three times a week through a left forearm fistula. He missed his last session because of a typhoon. He arrives at the dialysis unit with muscle weakness and nausea. His potassium is 6.8 mEq/L, his heart rate is 48, his ECG shows tall peaked T waves and a widened QRS, and his blood pressure is 168/98. He has gained 3.5 kg since the last session and has ankle swelling. At dinner the night before he ate dried fish, boiled rice and two bananas. A student nurse prepares to take a blood pressure and applies the cuff to his left arm.",
+  "stem": "For each food, decide whether the nurse should advise limiting it or whether it is acceptable.",
+  "options": [],
+  "answer": [],
+  "rows": [
+   "Banana",
+   "Boiled white rice",
+   "Tomato juice",
+   "Apple"
+  ],
+  "columns": [
+   "Limit",
+   "Acceptable"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "rationale": "Bananas and tomato juice are high in potassium. Boiled white rice and apples are lower in potassium and acceptable in moderation.",
+  "optionRationales": [],
+  "strategy": "Diet teaching in hyperkalemia",
+  "archetype": "diet matrix",
+  "difficulty": 2,
+  "bloom": "recall",
+  "keyFacts": [
+   "High-potassium foods: banana, tomato, orange, potato"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np3-03-4",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP3",
+  "topic": "Hyperkalemia treatment",
+  "noteId": "np3-er-hyperkalemia",
+  "clusterId": "cs-np3-03",
+  "clusterSeq": 4,
+  "vignette": "Mang Berto, 60, has chronic kidney disease and receives hemodialysis three times a week through a left forearm fistula. He missed his last session because of a typhoon. He arrives at the dialysis unit with muscle weakness and nausea. His potassium is 6.8 mEq/L, his heart rate is 48, his ECG shows tall peaked T waves and a widened QRS, and his blood pressure is 168/98. He has gained 3.5 kg since the last session and has ankle swelling. At dinner the night before he ate dried fish, boiled rice and two bananas. A student nurse prepares to take a blood pressure and applies the cuff to his left arm.",
+  "stem": "{{1}} protects the heart by stabilizing the cardiac membrane. Insulin with dextrose {{2}} potassium into the cells, and {{3}} removes it from the body.",
+  "options": [],
+  "answer": [],
+  "blanks": [
+   {
+    "choices": [
+     "Furosemide",
+     "Calcium gluconate",
+     "Potassium chloride",
+     "Magnesium sulfate"
+    ],
+    "answer": 1
+   },
+   {
+    "choices": [
+     "removes",
+     "shifts",
+     "adds",
+     "holds"
+    ],
+    "answer": 1
+   },
+   {
+    "choices": [
+     "dialysis",
+     "oral fluids",
+     "a high-protein diet",
+     "oxygen"
+    ],
+    "answer": 0
+   }
+  ],
+  "rationale": "Calcium gluconate stabilizes the membrane without lowering potassium. Insulin with dextrose shifts potassium into cells, and dialysis removes it.",
+  "optionRationales": [],
+  "strategy": "Protect, shift, remove",
+  "archetype": "cloze treatment",
+  "difficulty": 3,
+  "bloom": "recall",
+  "keyFacts": [
+   "Calcium gluconate protects the heart",
+   "Insulin shifts K+ in; dialysis removes it"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np3-03-5",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP3",
+  "topic": "Fluid overload in CKD",
+  "noteId": "np3-er-ckd-findings",
+  "clusterId": "cs-np3-03",
+  "clusterSeq": 5,
+  "vignette": "Mang Berto, 60, has chronic kidney disease and receives hemodialysis three times a week through a left forearm fistula. He missed his last session because of a typhoon. He arrives at the dialysis unit with muscle weakness and nausea. His potassium is 6.8 mEq/L, his heart rate is 48, his ECG shows tall peaked T waves and a widened QRS, and his blood pressure is 168/98. He has gained 3.5 kg since the last session and has ankle swelling. At dinner the night before he ate dried fish, boiled rice and two bananas. A student nurse prepares to take a blood pressure and applies the cuff to his left arm.",
+  "stem": "Select the findings that show fluid overload.",
+  "options": [
+   "Gain of 3.5 kg since last session",
+   "Ankle swelling",
+   "Blood pressure 168/98",
+   "Muscle weakness",
+   "Heart rate 48",
+   "Peaked T waves"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "optionRationales": [
+   "Retained fluid.",
+   "Retained fluid.",
+   "Volume-related hypertension.",
+   "Potassium effect.",
+   "Potassium effect.",
+   "Potassium effect."
+  ],
+  "rationale": "Rapid weight gain, edema and raised blood pressure indicate retained fluid. Weakness, nausea and a slow heart rate with ECG changes belong to hyperkalemia.",
+  "strategy": "Fluid overload cues",
+  "archetype": "fluid overload",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Fluid overload: weight gain, edema, hypertension"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np4-01-1",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "DKA insulin and potassium",
+  "noteId": "np4-ge-diabetic-ketoacidosis",
+  "clusterId": "cs-np4-01",
+  "clusterSeq": 1,
+  "vignette": "Lea, 17, has had type 1 diabetes since age 10. She stopped her insulin for two days because she was vomiting and could not eat. She is brought to the emergency room with abdominal pain, rapid deep breathing, fruity-smelling breath and dry mucous membranes. Her blood pressure is 92/58, heart rate 124, blood glucose 520 mg/dL, and arterial pH 7.12. Her serum potassium is 3.0 mEq/L. A normal saline infusion is running and the provider has written an order to start an insulin infusion now.",
+  "stem": "What should the nurse do before starting the insulin infusion?",
+  "options": [
+   "Start the infusion as ordered because the glucose is very high",
+   "Review the potassium and clarify the order with the provider",
+   "Increase the saline rate and delay insulin until the pH improves",
+   "Give a subcutaneous insulin dose instead"
+  ],
+  "answer": [
+   1
+  ],
+  "optionRationales": [
+   "Skips assessment: glucose does not change the potassium risk.",
+   "Right: potassium replacement is needed before insulin.",
+   "Under-reaction: waiting for pH is not the standard; insulin is needed once potassium is safe.",
+   "Unsafe but common habit: route change does not remove the potassium risk."
+  ],
+  "rationale": "1. Insulin drives potassium into cells. With a serum potassium of 3.0, starting insulin can drop it further and cause dangerous arrhythmias or weakness of respiratory muscles.\n2. The order should be clarified so potassium replacement can be given first.\n3. Starting as ordered, or waiting for improvement in pH, ignores the low value.\nFlip: if the potassium were 5.0, starting the infusion would be correct.",
+  "strategy": "Safety check: low potassium before insulin",
+  "archetype": "clarify unsafe order",
+  "difficulty": 5,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Insulin shifts potassium into cells",
+   "Low potassium must be corrected before insulin"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np4-01-2",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Kussmaul respirations",
+  "noteId": "np4-ge-diabetic-ketoacidosis",
+  "clusterId": "cs-np4-01",
+  "clusterSeq": 2,
+  "vignette": "Lea, 17, has had type 1 diabetes since age 10. She stopped her insulin for two days because she was vomiting and could not eat. She is brought to the emergency room with abdominal pain, rapid deep breathing, fruity-smelling breath and dry mucous membranes. Her blood pressure is 92/58, heart rate 124, blood glucose 520 mg/dL, and arterial pH 7.12. Her serum potassium is 3.0 mEq/L. A normal saline infusion is running and the provider has written an order to start an insulin infusion now.",
+  "stem": "Which statement best explains Lea's rapid, deep breathing?",
+  "options": [
+   "Anxiety from being in the hospital",
+   "Fluid in the lungs from the saline infusion",
+   "Compensation to blow off carbon dioxide",
+   "Aspiration pneumonia from vomiting"
+  ],
+  "answer": [
+   2
+  ],
+  "optionRationales": [
+   "Plausible detail but unsupported.",
+   "Unsupported: saline just started.",
+   "Right: lungs compensate for metabolic acidosis.",
+   "Plausible but nothing in the cues suggests infection."
+  ],
+  "rationale": "Ketoacids lower pH, so the lungs blow off carbon dioxide to raise pH. The pattern is a compensation, not a primary lung problem or anxiety.",
+  "strategy": "Understand compensation",
+  "archetype": "acid-base compensation",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Kussmaul breathing compensates for metabolic acidosis"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np4-01-3",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP4",
+  "topic": "DKA versus HHNS",
+  "noteId": "np4-ge-dka-vs-hhns",
+  "clusterId": "cs-np4-01",
+  "clusterSeq": 3,
+  "vignette": "Lea, 17, has had type 1 diabetes since age 10. She stopped her insulin for two days because she was vomiting and could not eat. She is brought to the emergency room with abdominal pain, rapid deep breathing, fruity-smelling breath and dry mucous membranes. Her blood pressure is 92/58, heart rate 124, blood glucose 520 mg/dL, and arterial pH 7.12. Her serum potassium is 3.0 mEq/L. A normal saline infusion is running and the provider has written an order to start an insulin infusion now.",
+  "stem": "Classify each description as DKA or HHNS.",
+  "options": [],
+  "answer": [],
+  "rows": [
+   "Fruity breath and ketones in urine",
+   "Older adult with type 2 and extreme dehydration without ketosis",
+   "Metabolic acidosis with low pH",
+   "Altered consciousness from hyperosmolarity"
+  ],
+  "columns": [
+   "DKA",
+   "HHNS"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "rationale": "DKA is typical of type 1 with ketosis, fruity breath and acidosis. HHNS is typical of older type 2 clients with extreme glucose, severe dehydration and no significant ketosis.",
+  "optionRationales": [],
+  "strategy": "Compare the two hyperglycemic emergencies",
+  "archetype": "DKA vs HHNS",
+  "difficulty": 3,
+  "bloom": "recall",
+  "keyFacts": [
+   "HHNS: no significant ketosis, older type 2"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np4-01-4",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP4",
+  "topic": "DKA treatment",
+  "noteId": "np4-ge-diabetic-ketoacidosis",
+  "clusterId": "cs-np4-01",
+  "clusterSeq": 4,
+  "vignette": "Lea, 17, has had type 1 diabetes since age 10. She stopped her insulin for two days because she was vomiting and could not eat. She is brought to the emergency room with abdominal pain, rapid deep breathing, fruity-smelling breath and dry mucous membranes. Her blood pressure is 92/58, heart rate 124, blood glucose 520 mg/dL, and arterial pH 7.12. Her serum potassium is 3.0 mEq/L. A normal saline infusion is running and the provider has written an order to start an insulin infusion now.",
+  "stem": "Insulin stops the breakdown of {{1}} for energy and lowers {{2}}. When blood glucose falls, the provider adds {{3}} to the IV to prevent hypoglycemia.",
+  "options": [],
+  "answer": [],
+  "blanks": [
+   {
+    "choices": [
+     "protein",
+     "fat",
+     "glycogen"
+    ],
+    "answer": 1
+   },
+   {
+    "choices": [
+     "ketones",
+     "sodium",
+     "calcium"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "dextrose",
+     "potassium chloride",
+     "sodium bicarbonate"
+    ],
+    "answer": 0
+   }
+  ],
+  "rationale": "Without insulin the body breaks fat into ketones. Insulin stops this and lowers ketones. Dextrose is added to the IV once glucose falls so insulin can continue until acidosis clears.",
+  "optionRationales": [],
+  "strategy": "Rationale behind therapy",
+  "archetype": "cloze DKA",
+  "difficulty": 3,
+  "bloom": "recall",
+  "keyFacts": [
+   "Insulin stops ketone production"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np4-01-5",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP4",
+  "topic": "DKA cues",
+  "noteId": "np4-ge-diabetic-ketoacidosis",
+  "clusterId": "cs-np4-01",
+  "clusterSeq": 5,
+  "vignette": "Lea, 17, has had type 1 diabetes since age 10. She stopped her insulin for two days because she was vomiting and could not eat. She is brought to the emergency room with abdominal pain, rapid deep breathing, fruity-smelling breath and dry mucous membranes. Her blood pressure is 92/58, heart rate 124, blood glucose 520 mg/dL, and arterial pH 7.12. Her serum potassium is 3.0 mEq/L. A normal saline infusion is running and the provider has written an order to start an insulin infusion now.",
+  "stem": "Select the findings that support diabetic ketoacidosis.",
+  "options": [
+   "Insulin stopped for two days",
+   "Rapid deep breathing",
+   "Fruity-smelling breath",
+   "Arterial pH 7.12",
+   "Age 17",
+   "Serum potassium 3.0 mEq/L"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "optionRationales": [
+   "Cause.",
+   "Compensation.",
+   "Ketones.",
+   "Acidosis.",
+   "Not diagnostic.",
+   "Safety concern, not diagnostic."
+  ],
+  "rationale": "Stopped insulin, deep rapid breathing, fruity breath and abdominal pain with a low pH point to DKA. Age and the potassium value do not define DKA.",
+  "strategy": "Cluster of DKA cues",
+  "archetype": "DKA cues",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Fruity breath, Kussmaul respirations, abdominal pain"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ }
+]

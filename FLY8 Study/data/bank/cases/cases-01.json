@@ -1,0 +1,891 @@
+[
+ {
+  "id": "cs-np1-01-1",
+  "v": 2,
+  "type": "single",
+  "area": "NP1",
+  "topic": "Measles outbreak response",
+  "noteId": "np1-cd-measles",
+  "clusterId": "cs-np1-01",
+  "clusterSeq": 1,
+  "vignette": "A barangay health center in a rural municipality is hearing of fever with rash in one purok. Today the public health nurse sees Mia, 3 years old, who has had fever up to 39.5 C for 4 days, red watery eyes, a runny nose and a dry cough; her mother says a rash started behind the ears this morning and a cousin had the same illness last week. Mia's immunization card shows BCG, three doses of pentavalent and OPV but no measles-containing vaccine, because the family moved last year. Her mother is 5 months pregnant and cannot recall ever having measles. Mia's 7-month-old sister is with them. The waiting area is shared with other mothers and infants, and the vaccine carrier holds vials opened at 8 AM today.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Report the suspected case to the municipal surveillance unit by phone",
+   "Give vitamin A and start a tepid sponge bath for the fever",
+   "Move Mia and her mother to a separate, well-ventilated space",
+   "Check Mia's lungs and ears for pneumonia or otitis media"
+  ],
+  "answer": [
+   2
+  ],
+  "optionRationales": [
+   "Right action, wrong time: reporting is required but does not stop exposure of the waiting infants and the pregnant mother.",
+   "Treats the symptom: vitamin A and fever care are supportive and appropriate, but infection control comes first.",
+   "Right: separating the source breaks the chain of transmission for unvaccinated and pregnant contacts.",
+   "Skips the priority: assessing complications matters, but can be done once the child is isolated."
+  ],
+  "rationale": "1. Cues: fever, red eyes, cough and runny nose, then a rash behind the ears, no measles vaccine, and a cousin ill last week point to measles, which spreads through the air.\n2. Principle: protect the susceptible people in the room (unvaccinated infants, a pregnant mother) before paperwork or comfort measures.\n3. Moving Mia and her mother to a separate, ventilated space stops further exposure at once; reporting, vitamin A and fever care follow immediately after.\nFlip: if Mia were already alone in a closed consultation room, notifying the municipal surveillance unit would come first.",
+  "strategy": "Break the chain: isolate the source before anything else",
+  "archetype": "source control before reporting",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Measles spreads by airborne route; airborne plus standard precautions",
+   "Pregnant women and infants are the susceptible people to protect"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np1-01-2",
+  "v": 2,
+  "type": "sata",
+  "area": "NP1",
+  "topic": "Measles outbreak response",
+  "noteId": "np1-cd-measles",
+  "clusterId": "cs-np1-01",
+  "clusterSeq": 2,
+  "vignette": "A barangay health center in a rural municipality is hearing of fever with rash in one purok. Today the public health nurse sees Mia, 3 years old, who has had fever up to 39.5 C for 4 days, red watery eyes, a runny nose and a dry cough; her mother says a rash started behind the ears this morning and a cousin had the same illness last week. Mia's immunization card shows BCG, three doses of pentavalent and OPV but no measles-containing vaccine, because the family moved last year. Her mother is 5 months pregnant and cannot recall ever having measles. Mia's 7-month-old sister is with them. The waiting area is shared with other mothers and infants, and the vaccine carrier holds vials opened at 8 AM today.",
+  "stem": "Which actions are appropriate for the nurse's response to this suspected outbreak? Select all that apply.",
+  "options": [
+   "Report the suspected cluster to the municipal health office now",
+   "Wait for laboratory confirmation before notifying anyone",
+   "Give Mia's pregnant mother measles vaccine today for protection",
+   "List contacts in the purok and check each one's immunization status",
+   "Arrange for the mother to see the physician about her exposure",
+   "Keep Mia away from infants and pregnant women while infectious"
+  ],
+  "answer": [
+   0,
+   3,
+   4,
+   5
+  ],
+  "optionRationales": [
+   "Right: report suspected cases promptly.",
+   "Wrong, skips action: confirmation is not needed to report and delays control.",
+   "Wrong, unsafe but common habit: the vaccine is live and is not given in pregnancy.",
+   "Right: a line list identifies susceptible contacts.",
+   "Right: non-immune pregnant exposure needs medical assessment.",
+   "Right: Mia is infectious from before the rash to about 4 days after it starts."
+  ],
+  "rationale": "1. A suspected measles cluster is reported on suspicion; waiting for laboratory confirmation delays the response.\n2. A line list of contacts with their immunization status shows who is susceptible.\n3. A pregnant woman who may be non-immune needs a physician's assessment, and she must not receive the live vaccine.\n4. Mia is infectious from before the rash until about 4 days after it starts, so she should stay away from infants and pregnant women during that time.\nFlip: if the mother were fully immunized by card, the physician referral would no longer be needed.",
+  "strategy": "Notify and trace: report, line-list, protect the vulnerable",
+  "archetype": "outbreak actions SATA",
+  "difficulty": 4,
+  "bloom": "apply",
+  "keyFacts": [
+   "Live measles vaccine is not given to pregnant women",
+   "Report suspected cases without waiting for confirmation"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np1-01-3",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP1",
+  "topic": "Measles contacts",
+  "noteId": "np1-cd-measles",
+  "clusterId": "cs-np1-01",
+  "clusterSeq": 3,
+  "vignette": "A barangay health center in a rural municipality is hearing of fever with rash in one purok. Today the public health nurse sees Mia, 3 years old, who has had fever up to 39.5 C for 4 days, red watery eyes, a runny nose and a dry cough; her mother says a rash started behind the ears this morning and a cousin had the same illness last week. Mia's immunization card shows BCG, three doses of pentavalent and OPV but no measles-containing vaccine, because the family moved last year. Her mother is 5 months pregnant and cannot recall ever having measles. Mia's 7-month-old sister is with them. The waiting area is shared with other mothers and infants, and the vaccine carrier holds vials opened at 8 AM today.",
+  "stem": "For each person identified during contact tracing, select the most appropriate action.",
+  "options": [],
+  "answer": [],
+  "rows": [
+   "Healthy unvaccinated 4-year-old neighbor",
+   "Pregnant mother with no history of measles or vaccine",
+   "Fully immunized 6-year-old cousin, no symptoms",
+   "Mia, now with fast breathing and chest indrawing"
+  ],
+  "columns": [
+   "Vaccinate today",
+   "Refer to physician for exposure assessment",
+   "Observe and teach danger signs",
+   "Refer urgently to hospital"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "rationale": "Row 1: a healthy unvaccinated 4-year-old is eligible for the live vaccine and should receive it. Row 2: the pregnant mother cannot receive the live vaccine, so she needs physician assessment. Row 3: a fully immunized, symptom-free cousin needs only teaching and watchful waiting. Row 4: fast breathing with chest indrawing suggests pneumonia, a measles complication, so urgent referral comes before anything else.",
+  "optionRationales": [],
+  "strategy": "Match the action to the contact's risk",
+  "archetype": "contact triage matrix",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Live vaccine is contraindicated in pregnancy",
+   "Pneumonia is a serious complication of measles"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np1-01-4",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP1",
+  "topic": "Measles transmission",
+  "noteId": "np1-cd-measles",
+  "clusterId": "cs-np1-01",
+  "clusterSeq": 4,
+  "vignette": "A barangay health center in a rural municipality is hearing of fever with rash in one purok. Today the public health nurse sees Mia, 3 years old, who has had fever up to 39.5 C for 4 days, red watery eyes, a runny nose and a dry cough; her mother says a rash started behind the ears this morning and a cousin had the same illness last week. Mia's immunization card shows BCG, three doses of pentavalent and OPV but no measles-containing vaccine, because the family moved last year. Her mother is 5 months pregnant and cannot recall ever having measles. Mia's 7-month-old sister is with them. The waiting area is shared with other mothers and infants, and the vaccine carrier holds vials opened at 8 AM today.",
+  "stem": "The nurse explains to the staff: Measles is spread by {{1}}, a person is infectious from about {{2}}, and the type of precaution used is {{3}}.",
+  "options": [],
+  "answer": [],
+  "blanks": [
+   {
+    "choices": [
+     "contaminated food and water",
+     "mosquito bites",
+     "airborne respiratory particles",
+     "direct blood contact"
+    ],
+    "answer": 2
+   },
+   {
+    "choices": [
+     "only while the rash is crusting",
+     "4 days before to 4 days after rash onset",
+     "exposure until the first day of fever",
+     "only the first day of rash"
+    ],
+    "answer": 1
+   },
+   {
+    "choices": [
+     "contact",
+     "droplet only",
+     "reverse isolation",
+     "airborne"
+    ],
+    "answer": 3
+   }
+  ],
+  "rationale": "Measles travels in airborne respiratory particles, so airborne plus standard precautions are used. The infectious period runs from about 4 days before the rash until about 4 days after it appears, which is why Mia was spreading the virus before anyone knew what she had.",
+  "optionRationales": [],
+  "strategy": "Chain of infection: mode of transmission decides precautions",
+  "archetype": "cloze transmission",
+  "difficulty": 3,
+  "bloom": "recall",
+  "keyFacts": [
+   "Infectious about 4 days before to 4 days after rash onset",
+   "Airborne plus standard precautions"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np1-01-5",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP1",
+  "topic": "Measles recognition",
+  "noteId": "np1-cd-measles",
+  "clusterId": "cs-np1-01",
+  "clusterSeq": 5,
+  "vignette": "A barangay health center in a rural municipality is hearing of fever with rash in one purok. Today the public health nurse sees Mia, 3 years old, who has had fever up to 39.5 C for 4 days, red watery eyes, a runny nose and a dry cough; her mother says a rash started behind the ears this morning and a cousin had the same illness last week. Mia's immunization card shows BCG, three doses of pentavalent and OPV but no measles-containing vaccine, because the family moved last year. Her mother is 5 months pregnant and cannot recall ever having measles. Mia's 7-month-old sister is with them. The waiting area is shared with other mothers and infants, and the vaccine carrier holds vials opened at 8 AM today.",
+  "stem": "Select the findings that together point to measles rather than a simple cold.",
+  "options": [
+   "Fever up to 39.5 C for 4 days",
+   "Red watery eyes",
+   "Dry cough and runny nose",
+   "Rash that began behind the ears this morning",
+   "No measles-containing vaccine on the card",
+   "Mother says Mia likes to carry her doll everywhere"
+  ],
+  "answer": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "optionRationales": [
+   "Not specific: fever occurs in many infections.",
+   "Supports: conjunctivitis is part of the pre-eruptive cluster.",
+   "Supports: cough and coryza complete the cluster.",
+   "Supports: rash behind the ears after the prodrome.",
+   "Supports: unvaccinated means susceptible.",
+   "Irrelevant detail."
+  ],
+  "rationale": "Red watery eyes plus cough and runny nose are the pre-eruptive cluster, a rash starting behind the ears after several days of fever fits the eruptive stage, and no measles-containing vaccine leaves her susceptible. A fever alone is common in colds, and the doll is irrelevant.",
+  "strategy": "Pattern recognition: cluster of cues beats a single sign",
+  "archetype": "cue selection",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Pre-eruptive stage: cough, coryza, conjunctivitis",
+   "Rash begins behind the ears and spreads"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np1-02-1",
+  "v": 2,
+  "type": "single",
+  "area": "NP1",
+  "topic": "TB treatment adherence",
+  "noteId": "np1-cd-tb-tx",
+  "clusterId": "cs-np1-02",
+  "clusterSeq": 1,
+  "vignette": "The public health nurse makes a home visit to Mang Tonyo, 46, a jeepney driver on day 12 of the 6-month regimen for newly diagnosed pulmonary tuberculosis. He lives in a two-room house with his wife, who takes oral contraceptive pills, a 4-year-old grandchild with a BCG scar, and a 15-year-old son who has had a cough for three weeks. Mang Tonyo asks if the orange color of his urine means he is bleeding. He admits skipping two morning doses because he leaves at 4 AM, when his wife, who is his treatment partner, is still asleep. He swallows his tablets with breakfast. He mentions tingling in both feet for three days and says he drinks gin with co-drivers on weekends. The sleeping room has one small window.",
+  "stem": "Which action is most important to prevent treatment failure and drug resistance?",
+  "options": [
+   "Report the tingling in his feet so vitamin B6 can be ordered",
+   "Explain that orange urine is an expected effect of the medicine",
+   "Advise him to stop drinking gin with co-drivers",
+   "Agree on a dose time when his treatment partner can watch him swallow"
+  ],
+  "answer": [
+   3
+  ],
+  "optionRationales": [
+   "Right action, wrong priority: B6 prevents neuropathy but does not secure cure.",
+   "True statement that does not answer the question: reassurance is needed but does not protect adherence.",
+   "Right advice, wrong priority: alcohol raises liver risk but missed doses threaten the cure.",
+   "Right: fixing the time makes observed therapy possible and prevents resistance."
+  ],
+  "rationale": "1. Cures depend on every dose being taken, observed, for six months; missed doses allow resistant bacteria to survive.\n2. Orange urine is expected, the tingling is a known manageable effect, and alcohol advice matters, but none of these threatens cure as directly as missed doses.\n3. Moving the observed dose to a time the treatment partner can witness fixes the cause of the missed doses.\nFlip: if he had taken every dose but developed yellow eyes, reporting liver signs would be the priority.",
+  "strategy": "Adherence first: DOTS prevents resistance",
+  "archetype": "adherence over side effects",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "DOTS: observe each dose being swallowed",
+   "Missed doses lead to resistance"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np1-02-2",
+  "v": 2,
+  "type": "sata",
+  "area": "NP1",
+  "topic": "TB drug teaching",
+  "noteId": "np1-cd-tb-tx",
+  "clusterId": "cs-np1-02",
+  "clusterSeq": 2,
+  "vignette": "The public health nurse makes a home visit to Mang Tonyo, 46, a jeepney driver on day 12 of the 6-month regimen for newly diagnosed pulmonary tuberculosis. He lives in a two-room house with his wife, who takes oral contraceptive pills, a 4-year-old grandchild with a BCG scar, and a 15-year-old son who has had a cough for three weeks. Mang Tonyo asks if the orange color of his urine means he is bleeding. He admits skipping two morning doses because he leaves at 4 AM, when his wife, who is his treatment partner, is still asleep. He swallows his tablets with breakfast. He mentions tingling in both feet for three days and says he drinks gin with co-drivers on weekends. The sleeping room has one small window.",
+  "stem": "Which teaching points should the nurse include for Mang Tonyo and his household? Select all that apply.",
+  "options": [
+   "Report numbness, yellow eyes, dark urine or vision changes",
+   "Stop the tablets once the cough has gone",
+   "Orange urine is an expected effect and not bleeding",
+   "Take the tablets with a full breakfast to protect the stomach",
+   "Avoid alcohol while on treatment",
+   "His wife should use another family planning method as well"
+  ],
+  "answer": [
+   0,
+   2,
+   4,
+   5
+  ],
+  "optionRationales": [
+   "Right: signals of nerve, liver or optic nerve injury.",
+   "Wrong, unsafe but common habit: stopping early causes relapse and resistance.",
+   "Right: rifampicin colors body fluids.",
+   "Wrong: food can reduce absorption of rifampicin and isoniazid.",
+   "Right: alcohol increases liver injury risk.",
+   "Right: rifampicin may reduce pill effect."
+  ],
+  "rationale": "Report numbness, yellow skin or eyes, dark urine and vision changes because isoniazid, rifampicin, pyrazinamide and ethambutol can injure nerves, liver or optic nerve. Orange urine is expected with rifampicin. Alcohol adds liver risk. Rifampicin can make oral contraceptives less reliable, so his wife needs another method. Tablets are taken on an empty stomach for the first-line drugs, and treatment never stops because he feels better.",
+  "strategy": "Teach expected effects versus reportable effects",
+  "archetype": "TB teaching SATA",
+  "difficulty": 4,
+  "bloom": "apply",
+  "keyFacts": [
+   "Orange body fluids are expected with rifampicin",
+   "Rifampicin can reduce oral contraceptive effect"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np1-02-3",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP1",
+  "topic": "TB household contacts",
+  "noteId": "np1-cd-tb-tx",
+  "clusterId": "cs-np1-02",
+  "clusterSeq": 3,
+  "vignette": "The public health nurse makes a home visit to Mang Tonyo, 46, a jeepney driver on day 12 of the 6-month regimen for newly diagnosed pulmonary tuberculosis. He lives in a two-room house with his wife, who takes oral contraceptive pills, a 4-year-old grandchild with a BCG scar, and a 15-year-old son who has had a cough for three weeks. Mang Tonyo asks if the orange color of his urine means he is bleeding. He admits skipping two morning doses because he leaves at 4 AM, when his wife, who is his treatment partner, is still asleep. He swallows his tablets with breakfast. He mentions tingling in both feet for three days and says he drinks gin with co-drivers on weekends. The sleeping room has one small window.",
+  "stem": "Match each household member or contact with the most appropriate nursing action.",
+  "options": [],
+  "answer": [],
+  "rows": [
+   "15-year-old son with a three-week cough",
+   "4-year-old grandchild in the same house",
+   "Wife taking oral contraceptive pills",
+   "Neighbor who visited once, no symptoms"
+  ],
+  "columns": [
+   "Refer for TB evaluation now",
+   "Counsel on an additional contraceptive method",
+   "Teach and observe for symptoms"
+  ],
+  "rowAnswer": [
+   0,
+   0,
+   1,
+   2
+  ],
+  "rationale": "The 15-year-old has a cough of three weeks and needs evaluation now. The 4-year-old in the same house is a young close contact, so referral for evaluation is needed. The wife needs contraceptive counseling because rifampicin lowers pill reliability. A neighbor with a single brief visit and no symptoms needs only teaching and observation.",
+  "optionRationales": [],
+  "strategy": "Prioritise by exposure and symptoms",
+  "archetype": "contact matrix",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "A cough of 3 weeks or more needs TB evaluation",
+   "Young household contacts are referred for evaluation"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np1-02-4",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP1",
+  "topic": "TB drug effects",
+  "noteId": "np1-cd-tb-tx",
+  "clusterId": "cs-np1-02",
+  "clusterSeq": 4,
+  "vignette": "The public health nurse makes a home visit to Mang Tonyo, 46, a jeepney driver on day 12 of the 6-month regimen for newly diagnosed pulmonary tuberculosis. He lives in a two-room house with his wife, who takes oral contraceptive pills, a 4-year-old grandchild with a BCG scar, and a 15-year-old son who has had a cough for three weeks. Mang Tonyo asks if the orange color of his urine means he is bleeding. He admits skipping two morning doses because he leaves at 4 AM, when his wife, who is his treatment partner, is still asleep. He swallows his tablets with breakfast. He mentions tingling in both feet for three days and says he drinks gin with co-drivers on weekends. The sleeping room has one small window.",
+  "stem": "The orange color of Mang Tonyo's urine is caused by {{1}}. The tingling in his feet is most likely from {{2}} and can be prevented with {{3}}.",
+  "options": [],
+  "answer": [],
+  "blanks": [
+   {
+    "choices": [
+     "isoniazid",
+     "pyrazinamide",
+     "rifampicin",
+     "ethambutol"
+    ],
+    "answer": 2
+   },
+   {
+    "choices": [
+     "ethambutol",
+     "isoniazid",
+     "pyrazinamide",
+     "rifampicin"
+    ],
+    "answer": 1
+   },
+   {
+    "choices": [
+     "vitamin C",
+     "vitamin K",
+     "folic acid",
+     "vitamin B6"
+    ],
+    "answer": 3
+   }
+  ],
+  "rationale": "Rifampicin colors urine and other fluids red-orange. Isoniazid causes peripheral neuropathy, which is prevented with vitamin B6 (pyridoxine).",
+  "optionRationales": [],
+  "strategy": "Match drug to side effect",
+  "archetype": "cloze drug effects",
+  "difficulty": 3,
+  "bloom": "recall",
+  "keyFacts": [
+   "Rifampicin: red-orange fluids",
+   "Isoniazid: neuropathy, give vitamin B6"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np1-02-5",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP1",
+  "topic": "TB home visit assessment",
+  "noteId": "np1-cd-tb-tx",
+  "clusterId": "cs-np1-02",
+  "clusterSeq": 5,
+  "vignette": "The public health nurse makes a home visit to Mang Tonyo, 46, a jeepney driver on day 12 of the 6-month regimen for newly diagnosed pulmonary tuberculosis. He lives in a two-room house with his wife, who takes oral contraceptive pills, a 4-year-old grandchild with a BCG scar, and a 15-year-old son who has had a cough for three weeks. Mang Tonyo asks if the orange color of his urine means he is bleeding. He admits skipping two morning doses because he leaves at 4 AM, when his wife, who is his treatment partner, is still asleep. He swallows his tablets with breakfast. He mentions tingling in both feet for three days and says he drinks gin with co-drivers on weekends. The sleeping room has one small window.",
+  "stem": "Select the findings that put treatment success or the client's safety at risk and need action at this visit.",
+  "options": [
+   "Skipped two morning doses",
+   "Tingling in both feet",
+   "Tablets taken with breakfast",
+   "Orange urine",
+   "Weekend drinking of gin",
+   "Grandchild has a BCG scar"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "optionRationales": [
+   "Risk: missed doses lead to resistance.",
+   "Risk: possible neuropathy needing B6.",
+   "Risk: reduced absorption.",
+   "Expected effect of rifampicin.",
+   "Risk: liver injury.",
+   "Not a risk to this treatment."
+  ],
+  "rationale": "Missed doses threaten cure. Tingling signals possible isoniazid neuropathy. Taking tablets with breakfast can lower absorption of some drugs. Weekend gin adds liver risk. Orange urine is expected, and a BCG scar on the grandchild is not a risk to treatment.",
+  "strategy": "Separate expected effects from true risks",
+  "archetype": "risk cue selection",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Alcohol adds hepatotoxicity risk",
+   "Rifampicin and isoniazid are taken on an empty stomach"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np2-01-1",
+  "v": 2,
+  "type": "single",
+  "area": "NP2",
+  "topic": "Magnesium sulfate toxicity",
+  "noteId": "np2-ob-magnesium-eclampsia",
+  "clusterId": "cs-np2-01",
+  "clusterSeq": 1,
+  "vignette": "Ana, 29, gravida 2 para 1 at 36 weeks, was admitted with a blood pressure of 164/110 (128/84 at her last visit), a severe headache, 3+ protein on dipstick and epigastric pain. A magnesium sulfate infusion on a pump and an indwelling urinary catheter were started 4 hours ago. At the 0400 check her respiratory rate is 10/min, her patellar reflexes are absent, urine output over the last hour is 20 mL, blood pressure is 150/100 and the fetal heart rate is 140/min with moderate variability. Her husband asks if he can turn the television on for her. The room lights are bright, and the nurse knows that a suction set-up is at the bedside and calcium gluconate is in the medication room.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Draw a magnesium level and wait for the result before changing anything",
+   "Apply oxygen by mask and recheck her respirations in 15 minutes",
+   "Stop the magnesium infusion and call the provider",
+   "Give the PRN antihypertensive ordered for severe-range blood pressure"
+  ],
+  "answer": [
+   2
+  ],
+  "optionRationales": [
+   "Under-reaction: a level is useful but the clinical signs already demand action.",
+   "Treats the symptom: oxygen helps breathing but the drug keeps infusing.",
+   "Right: stop the cause, then support breathing and obtain the antidote order.",
+   "Over-looks the cause: blood pressure is improving and is not the immediate threat."
+  ],
+  "rationale": "1. Respiratory rate under about 12, absent reflexes and low urine output are the three signs of magnesium toxicity, and magnesium is cleared by the kidneys, so toxicity can keep rising.\n2. Priority rule: stop the cause, then support breathing, then notify and prepare the antidote.\n3. Oxygen alone or a level draw leaves the drug running.\nFlip: if respirations were 18 and only the reflexes were brisk, the infusion would continue with closer monitoring.",
+  "strategy": "Remove the cause first: stop the drug",
+  "archetype": "stop the infusion",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Check reflexes, respiratory rate and urine output before each dose",
+   "Calcium gluconate is the antidote"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np2-01-2",
+  "v": 2,
+  "type": "single",
+  "area": "NP2",
+  "topic": "Seizure precautions",
+  "noteId": "np2-ob-magnesium-eclampsia",
+  "clusterId": "cs-np2-01",
+  "clusterSeq": 2,
+  "vignette": "Ana, 29, gravida 2 para 1 at 36 weeks, was admitted with a blood pressure of 164/110 (128/84 at her last visit), a severe headache, 3+ protein on dipstick and epigastric pain. A magnesium sulfate infusion on a pump and an indwelling urinary catheter were started 4 hours ago. At the 0400 check her respiratory rate is 10/min, her patellar reflexes are absent, urine output over the last hour is 20 mL, blood pressure is 150/100 and the fetal heart rate is 140/min with moderate variability. Her husband asks if he can turn the television on for her. The room lights are bright, and the nurse knows that a suction set-up is at the bedside and calcium gluconate is in the medication room.",
+  "stem": "Hours later, the nurse finds Ana in a tonic-clonic seizure, lying on her back. What should the nurse do first?",
+  "options": [
+   "Insert a padded airway between her teeth",
+   "Turn her to her side and protect her head",
+   "Press the call bell and go to the medication room",
+   "Give the ordered extra magnesium bolus right away"
+  ],
+  "answer": [
+   1
+  ],
+  "optionRationales": [
+   "Unsafe but common habit: objects in the mouth cause injury and obstruction.",
+   "Right: side-lying protects the airway and prevents injury.",
+   "Right action, wrong time: she must not be left, and airway comes first.",
+   "Treats the symptom while the airway is unprotected; drug comes after airway and safety."
+  ],
+  "rationale": "Turning her to her side drains saliva and protects the airway, which comes before medication or phone calls. Nothing goes in the mouth; suction is used if needed. After the seizure, give oxygen, assess, check the fetal heart and then give ordered drugs.\nFlip: if she were already on her side with a clear airway, getting help would become the first act.",
+  "strategy": "ABC and safety during seizure",
+  "archetype": "seizure first response",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "During a seizure nothing in the mouth; turn to side",
+   "Airway first, then safety, then medication"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np2-01-3",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP2",
+  "topic": "Magnesium monitoring",
+  "noteId": "np2-ob-magnesium-eclampsia",
+  "clusterId": "cs-np2-01",
+  "clusterSeq": 3,
+  "vignette": "Ana, 29, gravida 2 para 1 at 36 weeks, was admitted with a blood pressure of 164/110 (128/84 at her last visit), a severe headache, 3+ protein on dipstick and epigastric pain. A magnesium sulfate infusion on a pump and an indwelling urinary catheter were started 4 hours ago. At the 0400 check her respiratory rate is 10/min, her patellar reflexes are absent, urine output over the last hour is 20 mL, blood pressure is 150/100 and the fetal heart rate is 140/min with moderate variability. Her husband asks if he can turn the television on for her. The room lights are bright, and the nurse knows that a suction set-up is at the bedside and calcium gluconate is in the medication room.",
+  "stem": "Classify each finding.",
+  "options": [],
+  "answer": [],
+  "rows": [
+   "Warm, flushed feeling when the infusion starts",
+   "Absent patellar reflexes",
+   "New right upper quadrant pain",
+   "Respiratory rate 10/min"
+  ],
+  "columns": [
+   "Expected effect",
+   "Sign of magnesium toxicity",
+   "Sign of worsening disease"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   2,
+   1
+  ],
+  "rationale": "Warmth and flushing are common at the start of magnesium infusion. Absent reflexes and a respiratory rate of 10 signal toxicity. New right-upper-quadrant pain with preeclampsia points to worsening disease such as HELLP and must be reported.",
+  "optionRationales": [],
+  "strategy": "Recognise toxicity versus expected effect versus worsening disease",
+  "archetype": "classification matrix",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Absent reflexes and respiratory rate under 12 signal toxicity",
+   "Epigastric or RUQ pain signals worsening disease"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np2-01-4",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP2",
+  "topic": "Magnesium antidote",
+  "noteId": "np2-ob-magnesium-eclampsia",
+  "clusterId": "cs-np2-01",
+  "clusterSeq": 4,
+  "vignette": "Ana, 29, gravida 2 para 1 at 36 weeks, was admitted with a blood pressure of 164/110 (128/84 at her last visit), a severe headache, 3+ protein on dipstick and epigastric pain. A magnesium sulfate infusion on a pump and an indwelling urinary catheter were started 4 hours ago. At the 0400 check her respiratory rate is 10/min, her patellar reflexes are absent, urine output over the last hour is 20 mL, blood pressure is 150/100 and the fetal heart rate is 140/min with moderate variability. Her husband asks if he can turn the television on for her. The room lights are bright, and the nurse knows that a suction set-up is at the bedside and calcium gluconate is in the medication room.",
+  "stem": "The antidote for magnesium toxicity is {{1}}, and because magnesium is cleared by the {{2}}, low urine output {{3}} the risk of toxicity.",
+  "options": [],
+  "answer": [],
+  "blanks": [
+   {
+    "choices": [
+     "protamine sulfate",
+     "vitamin K",
+     "calcium gluconate",
+     "naloxone"
+    ],
+    "answer": 2
+   },
+   {
+    "choices": [
+     "liver",
+     "kidneys",
+     "lungs",
+     "bile"
+    ],
+    "answer": 1
+   },
+   {
+    "choices": [
+     "lowers",
+     "does not change",
+     "raises"
+    ],
+    "answer": 2
+   }
+  ],
+  "rationale": "Calcium gluconate reverses magnesium effects. Magnesium leaves the body through the kidneys, so oliguria allows levels to rise.",
+  "optionRationales": [],
+  "strategy": "Know the antidote and why urine output matters",
+  "archetype": "cloze antidote",
+  "difficulty": 3,
+  "bloom": "recall",
+  "keyFacts": [
+   "Calcium gluconate at the bedside",
+   "Urine output at least about 30 mL/hour"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np2-01-5",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP2",
+  "topic": "Magnesium hold criteria",
+  "noteId": "np2-ob-magnesium-eclampsia",
+  "clusterId": "cs-np2-01",
+  "clusterSeq": 5,
+  "vignette": "Ana, 29, gravida 2 para 1 at 36 weeks, was admitted with a blood pressure of 164/110 (128/84 at her last visit), a severe headache, 3+ protein on dipstick and epigastric pain. A magnesium sulfate infusion on a pump and an indwelling urinary catheter were started 4 hours ago. At the 0400 check her respiratory rate is 10/min, her patellar reflexes are absent, urine output over the last hour is 20 mL, blood pressure is 150/100 and the fetal heart rate is 140/min with moderate variability. Her husband asks if he can turn the television on for her. The room lights are bright, and the nurse knows that a suction set-up is at the bedside and calcium gluconate is in the medication room.",
+  "stem": "Select the findings at the 0400 check that mean the infusion must be held.",
+  "options": [
+   "Respiratory rate 10/min",
+   "Patellar reflexes absent",
+   "Urine output 20 mL in the last hour",
+   "Blood pressure 150/100",
+   "Fetal heart rate 140/min with moderate variability",
+   "Husband asking about television"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "optionRationales": [
+   "Hold sign.",
+   "Hold sign.",
+   "Hold sign: kidneys clear magnesium.",
+   "Improving, expected.",
+   "Reassuring.",
+   "Irrelevant to hold decision."
+  ],
+  "rationale": "Respiratory rate 10, absent reflexes and low urine output are hold signs. A falling blood pressure and a reassuring fetal heart rate are not reasons to hold, and the husband's request is a comfort question.",
+  "strategy": "Hold criteria versus reassuring data",
+  "archetype": "hold criteria",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Hold for respiratory rate under 12, absent reflexes, low urine output"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np2-02-1",
+  "v": 2,
+  "type": "single",
+  "area": "NP2",
+  "topic": "Tet spell",
+  "noteId": "np2-pd-tof",
+  "clusterId": "cs-np2-02",
+  "clusterSeq": 1,
+  "vignette": "Baby Rico, 8 months, has tetralogy of Fallot and is waiting for surgery. His mother brings him to the district hospital emergency room after 2 days of diarrhea and poor feeding. He has been crying inconsolably since morning and is now deeply blue, limp and breathing fast and deeply. His pulse oximeter reads 68%. The fontanelle is sunken, there are no tears, and the mother is holding him upright against her shoulder. No intravenous line is in place.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Start an intravenous line for fluid replacement",
+   "Place him in a knee-chest position with oxygen, keeping him calm",
+   "Give oral rehydration solution by cup",
+   "Take a blood sample for electrolytes"
+  ],
+  "answer": [
+   1
+  ],
+  "optionRationales": [
+   "Right action, wrong time: needed soon but agitating him first worsens the spell.",
+   "Right: position and oxygen reverse the shunt while he is kept calm.",
+   "Treats the cause late: feeding a cyanotic infant who is breathing hard risks aspiration.",
+   "Skips the priority: labs can wait until he is stable."
+  ],
+  "rationale": "1. Dehydration thickens blood and crying raises oxygen demand, triggering a hypercyanotic spell.\n2. Knee-chest or side-lying with knees up raises systemic vascular resistance and sends more blood to the lungs, and oxygen and calm follow at once.\n3. Fluids are needed, but starting an IV on a screaming blue infant first worsens the spell.\nFlip: if the baby were pink and only dehydrated, IV or oral rehydration would be first.",
+  "strategy": "ABC with a physiologic fix: position first",
+  "archetype": "tet spell positioning",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Tet spell: knee-chest position, oxygen, keep calm",
+   "Position raises systemic resistance and lung blood flow"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np2-02-2",
+  "v": 2,
+  "type": "single",
+  "area": "NP2",
+  "topic": "Preventing tet spells",
+  "noteId": "np2-pd-tof",
+  "clusterId": "cs-np2-02",
+  "clusterSeq": 2,
+  "vignette": "Baby Rico, 8 months, has tetralogy of Fallot and is waiting for surgery. His mother brings him to the district hospital emergency room after 2 days of diarrhea and poor feeding. He has been crying inconsolably since morning and is now deeply blue, limp and breathing fast and deeply. His pulse oximeter reads 68%. The fontanelle is sunken, there are no tears, and the mother is holding him upright against her shoulder. No intravenous line is in place.",
+  "stem": "After he recovers, which nursing plan best reduces the chance of another spell?",
+  "options": [
+   "Restrict fluids to reduce the workload on the heart",
+   "Wake him on a fixed schedule for routine vital signs",
+   "Cluster care and keep him calm and well hydrated",
+   "Keep him lying flat on his back for most of the day"
+  ],
+  "answer": [
+   2
+  ],
+  "optionRationales": [
+   "Unsafe: dehydration thickens blood and can trigger a spell.",
+   "Over-intervention: waking a calm infant increases crying.",
+   "Right: removes the common triggers.",
+   "Plausible detail from another condition; flat positioning does not prevent spells."
+  ],
+  "rationale": "Crying, dehydration, fever and straining raise oxygen demand and thicken blood. Planning calm, clustered care and maintaining hydration reduces triggers. Restricting fluids or waking him for routine care adds triggers.",
+  "strategy": "Prevent the trigger",
+  "archetype": "prevention plan",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Triggers: crying, dehydration, feeding exertion"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np2-02-3",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP2",
+  "topic": "Cyanotic versus acyanotic defects",
+  "noteId": "np2-pd-tof",
+  "clusterId": "cs-np2-02",
+  "clusterSeq": 3,
+  "vignette": "Baby Rico, 8 months, has tetralogy of Fallot and is waiting for surgery. His mother brings him to the district hospital emergency room after 2 days of diarrhea and poor feeding. He has been crying inconsolably since morning and is now deeply blue, limp and breathing fast and deeply. His pulse oximeter reads 68%. The fontanelle is sunken, there are no tears, and the mother is holding him upright against her shoulder. No intravenous line is in place.",
+  "stem": "The mother asks about other heart defects. Classify each as cyanotic or acyanotic.",
+  "options": [],
+  "answer": [],
+  "rows": [
+   "Tetralogy of Fallot",
+   "Atrial septal defect",
+   "Transposition of the great vessels",
+   "Patent ductus arteriosus"
+  ],
+  "columns": [
+   "Cyanotic",
+   "Acyanotic"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "rationale": "Tetralogy of Fallot, transposition of the great vessels and tricuspid atresia send unoxygenated blood to the body (cyanotic). Atrial septal defect is typically acyanotic because flow is left to right.",
+  "optionRationales": [],
+  "strategy": "Right-to-left shunt means cyanosis",
+  "archetype": "defect classification",
+  "difficulty": 2,
+  "bloom": "recall",
+  "keyFacts": [
+   "Cyanotic: tetralogy, truncus, tricuspid atresia, transposition"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np2-02-4",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP2",
+  "topic": "Knee-chest position rationale",
+  "noteId": "np2-pd-tof",
+  "clusterId": "cs-np2-02",
+  "clusterSeq": 4,
+  "vignette": "Baby Rico, 8 months, has tetralogy of Fallot and is waiting for surgery. His mother brings him to the district hospital emergency room after 2 days of diarrhea and poor feeding. He has been crying inconsolably since morning and is now deeply blue, limp and breathing fast and deeply. His pulse oximeter reads 68%. The fontanelle is sunken, there are no tears, and the mother is holding him upright against her shoulder. No intravenous line is in place.",
+  "stem": "The knee-chest position {{1}} systemic vascular resistance, which {{2}} blood flow to the lungs.",
+  "options": [],
+  "answer": [],
+  "blanks": [
+   {
+    "choices": [
+     "lowers",
+     "raises"
+    ],
+    "answer": 1
+   },
+   {
+    "choices": [
+     "decreases",
+     "increases"
+    ],
+    "answer": 1
+   }
+  ],
+  "rationale": "Flexing the legs raises systemic vascular resistance, which shifts more blood through the lungs instead of across the septal defect.",
+  "optionRationales": [],
+  "strategy": "Understand the why of the position",
+  "archetype": "cloze rationale",
+  "difficulty": 3,
+  "bloom": "recall",
+  "keyFacts": [
+   "Knee-chest raises systemic resistance"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cs-np2-02-5",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP2",
+  "topic": "Triggers of tet spell",
+  "noteId": "np2-pd-tof",
+  "clusterId": "cs-np2-02",
+  "clusterSeq": 5,
+  "vignette": "Baby Rico, 8 months, has tetralogy of Fallot and is waiting for surgery. His mother brings him to the district hospital emergency room after 2 days of diarrhea and poor feeding. He has been crying inconsolably since morning and is now deeply blue, limp and breathing fast and deeply. His pulse oximeter reads 68%. The fontanelle is sunken, there are no tears, and the mother is holding him upright against her shoulder. No intravenous line is in place.",
+  "stem": "Select the factors that most likely triggered today's spell.",
+  "options": [
+   "Two days of diarrhea",
+   "Inconsolable crying since morning",
+   "Poor feeding",
+   "Mother holding him upright",
+   "Waiting list for surgery",
+   "Pulse oximeter reading of 68%"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "optionRationales": [
+   "Dehydration thickens blood.",
+   "Raises oxygen demand.",
+   "Dehydration and weakness.",
+   "Not a trigger.",
+   "Background, not trigger.",
+   "Result of the spell, not cause."
+  ],
+  "rationale": "Diarrhea with dehydration, inconsolable crying and poor feeding explain a rise in oxygen demand and thicker blood. Being held upright and the underlying defect do not by themselves trigger today's spell.",
+  "strategy": "Identify the trigger among the cues",
+  "archetype": "trigger selection",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Triggers: crying, dehydration"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ }
+]

@@ -78,7 +78,12 @@ export function planSession(req: StartRequest, ctx: PlanContext): Plan {
       // Ids that left the bank are not "missing questions": ask for what exists.
       return done('requeue', { ids: sel.ids, requested: sel.ids.length, short: false });
     }
-    case 'case': return done('case', pick.caseStudy(sc, req.sets));
+    case 'case': {
+      // Test hook: the e2e suite pins one case set so bundled case sets cannot change its outcome.
+      const only = (globalThis as { __FLY8_E2E_CLUSTER__?: string }).__FLY8_E2E_CLUSTER__;
+      const pool = only ? ctx.items.filter((i) => i.clusterId === only) : ctx.items;
+      return done('case', pick.caseStudy({ ...sc, items: pool }, req.sets));
+    }
     case 'diagnostic': return done('diagnostic', pick.diagnostic(sc));
     case 'mock': {
       const available = ctx.items.filter((i) => i.area === req.area).length;

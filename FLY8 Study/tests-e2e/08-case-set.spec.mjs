@@ -37,6 +37,8 @@ const seed = {
 
 export default async function ({ ctx, base: url }) {
   const { page, errors } = await openApp(ctx, url, { seed });
+  // The bank now ships real case sets; pin this spec to its own seeded set (hook in practiceFlow.ts).
+  await page.evaluate(() => { globalThis.__FLY8_E2E_CLUSTER__ = 'e2e-case-1'; });
   await goTab(page, 'Practice');
   await click(page.getByRole('button', { name: /^Case study/ }));
 
