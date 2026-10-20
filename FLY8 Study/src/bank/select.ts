@@ -18,6 +18,9 @@ export interface SelectContext {
 export const SATA_PER = 10;
 export const sataBudget = (n: number): number => Math.floor(n / SATA_PER);
 
+/** Case-study items (clusterId) belong to Case study mode; general sessions use standalone questions only. */
+const solo = <T extends BankItem>(items: readonly T[]): T[] => items.filter((i) => !i.clusterId);
+
 /** Keeps every non-SATA item and only as many SATA items (first ones in the given order) as the budget allows. */
 export function capSata<T extends BankItem>(ordered: readonly T[], n: number): T[] {
   let room = sataBudget(n);
@@ -29,7 +32,7 @@ export const DIAGNOSTIC_PER_AREA = 5;
 
 export function quick(ctx: SelectContext, n: number): Selection {
   const picker = new ClusterPicker(n, ctx.items);
-  picker.add(capSata(shuffled(ctx.items, makeRng(ctx.seed)), n));
+  picker.add(capSata(shuffled(solo(ctx.items), makeRng(ctx.seed)), n));
   return picker.selection();
 }
 
@@ -50,7 +53,7 @@ export function custom(ctx: SelectContext, o: CustomOptions): Selection {
   const wantBundle = o.bundles?.length ? new Set(o.bundles) : null;
   const wantArea = o.areas?.length ? new Set<Area>(o.areas) : null;
   const filters = new Set(o.filters ?? []);
-  const pool = ctx.items.filter((i) => {
+  const pool = solo(ctx.items).filter((i) => {
     if (wantArea && !wantArea.has(i.area)) return false;
     if (wantBundle && !(i.topicId && wantBundle.has(i.topicId))) return false;
     if (wantTopic && !wantTopic.has(i.topic)) return false;
@@ -75,7 +78,7 @@ export function diagnostic(ctx: SelectContext): Selection {
   const seen = new Set(ctx.attempts.map((a) => a.itemId));
   const ids: string[] = [];
   for (const area of DIAGNOSTIC_AREAS) {
-    const inArea = ctx.items.filter((i) => i.area === area);
+    const inArea = solo(ctx.items).filter((i) => i.area === area);
     const fresh = inArea.filter((i) => !seen.has(i.id));
     const noSata = (l: BankItem[]) => l.filter((i) => i.type !== 'sata');
     const base = fresh.length >= DIAGNOSTIC_PER_AREA ? fresh : inArea;
@@ -94,7 +97,7 @@ export function diagnostic(ctx: SelectContext): Selection {
 
 /** Mock board for one area. Short mock (all available) when the area has fewer than `count`. */
 export function mock(ctx: SelectContext, area: Area, count: number): Selection {
-  const pool = ctx.items.filter((i) => i.area === area);
+  const pool = solo(ctx.items).filter((i) => i.area === area);
   const picker = new ClusterPicker(count, ctx.items);
   picker.add(capSata(shuffled(pool, makeRng(ctx.seed)), count));
   return picker.selection();
@@ -107,7 +110,7 @@ export function weak(ctx: SelectContext, n: number): Selection {
   const stratAcc = accuracyBy(ctx.attempts, (a) => a.strategy);
   const latest = latestByItem(ctx.attempts);
   const miss = (m: Map<string, KeyStat>, k: string) => (m.has(k) ? 1 - (m.get(k) as KeyStat).accuracy : 0);
-  const scored = ctx.items.map((i) => {
+  const scored = solo(ctx.items).map((i) => {
     const last = latest.get(i.id);
     // Topic weakness counts most; strategy weakness next; an item missed last time gets a bump.
     const score = miss(topicAcc, i.topic) * 0.6 + miss(stratAcc, i.strategy) * 0.3 + (last && last.credit < 1 ? 0.1 : 0);
@@ -136,7 +139,8 @@ export function caseStudy(ctx: SelectContext, sets: number): Selection {
 export function smart(ctx: SelectContext, n: number): Selection {
   // Only a budgeted handful of select-all items may enter the pool, so the set can never exceed 1 per 10.
   const rng = makeRng(`${ctx.seed}:sata`);
-  const sata = shuffled(ctx.items.filter((i) => i.type === 'sata'), rng).slice(0, sataBudget(n));
-  const items = [...ctx.items.filter((i) => i.type !== 'sata'), ...sata];
+  const base = solo(ctx.items);
+  const sata = shuffled(base.filter((i) => i.type === 'sata'), rng).slice(0, sataBudget(n));
+  const items = [...base.filter((i) => i.type !== 'sata'), ...sata];
   return smartSet({ items, attempts: ctx.attempts, seed: ctx.seed }, n);
 }
