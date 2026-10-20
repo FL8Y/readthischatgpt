@@ -6,19 +6,24 @@ import pack3 from '../../data/bank/np1/comm-01.json';
 import pack4 from '../../data/bank/np1/comm-02.json';
 import pack5 from '../../data/bank/np2/ob-01.json';
 import pack6 from '../../data/bank/np2/ob-02.json';
-import pack7 from '../../data/bank/np3/cardio-01.json';
-import pack8 from '../../data/bank/np3/cardio-02.json';
-import pack9 from '../../data/bank/np3/fer-01.json';
-import pack10 from '../../data/bank/np3/fer-02.json';
-import pack11 from '../../data/bank/np3/hema-01.json';
-import pack12 from '../../data/bank/np3/onco-01.json';
-import pack13 from '../../data/bank/np3/respi-01.json';
-import pack14 from '../../data/bank/np4/endo-01.json';
-import pack15 from '../../data/bank/np4/gi-01.json';
-import pack16 from '../../data/bank/np4/neuro-01.json';
-import pack17 from '../../data/bank/np4/ortho-01.json';
-import pack18 from '../../data/bank/np5/psych-01.json';
-import pack19 from '../../data/bank/np5/psych-02.json';
+import pack7 from '../../data/bank/np2/pedia-01.json';
+import pack8 from '../../data/bank/np2/pedia-02.json';
+import pack9 from '../../data/bank/np3/burns-01.json';
+import pack10 from '../../data/bank/np3/cardio-01.json';
+import pack11 from '../../data/bank/np3/cardio-02.json';
+import pack12 from '../../data/bank/np3/fer-01.json';
+import pack13 from '../../data/bank/np3/fer-02.json';
+import pack14 from '../../data/bank/np3/hema-01.json';
+import pack15 from '../../data/bank/np3/onco-01.json';
+import pack16 from '../../data/bank/np3/respi-01.json';
+import pack17 from '../../data/bank/np4/endo-01.json';
+import pack18 from '../../data/bank/np4/gi-01.json';
+import pack19 from '../../data/bank/np4/neuro-01.json';
+import pack20 from '../../data/bank/np4/ortho-01.json';
+import pack21 from '../../data/bank/np5/emerg-01.json';
+import pack22 from '../../data/bank/np5/psych-01.json';
+import pack23 from '../../data/bank/np5/psych-02.json';
+import pack24 from '../../data/bank/np5/psych-03.json';
 
 export interface BundledPack {
   name: string;
@@ -33,17 +38,22 @@ export const PACKS: BundledPack[] = [
   { name: 'np1/comm-02.json', items: pack4 },
   { name: 'np2/ob-01.json', items: pack5 },
   { name: 'np2/ob-02.json', items: pack6 },
-  { name: 'np3/cardio-01.json', items: pack7 },
-  { name: 'np3/cardio-02.json', items: pack8 },
-  { name: 'np3/fer-01.json', items: pack9 },
-  { name: 'np3/fer-02.json', items: pack10 },
-  { name: 'np3/hema-01.json', items: pack11 },
-  { name: 'np3/onco-01.json', items: pack12 },
-  { name: 'np3/respi-01.json', items: pack13 },
-  { name: 'np4/endo-01.json', items: pack14 },
-  { name: 'np4/gi-01.json', items: pack15 },
-  { name: 'np4/neuro-01.json', items: pack16 },
-  { name: 'np4/ortho-01.json', items: pack17 },
-  { name: 'np5/psych-01.json', items: pack18 },
-  { name: 'np5/psych-02.json', items: pack19 },
+  { name: 'np2/pedia-01.json', items: pack7 },
+  { name: 'np2/pedia-02.json', items: pack8 },
+  { name: 'np3/burns-01.json', items: pack9 },
+  { name: 'np3/cardio-01.json', items: pack10 },
+  { name: 'np3/cardio-02.json', items: pack11 },
+  { name: 'np3/fer-01.json', items: pack12 },
+  { name: 'np3/fer-02.json', items: pack13 },
+  { name: 'np3/hema-01.json', items: pack14 },
+  { name: 'np3/onco-01.json', items: pack15 },
+  { name: 'np3/respi-01.json', items: pack16 },
+  { name: 'np4/endo-01.json', items: pack17 },
+  { name: 'np4/gi-01.json', items: pack18 },
+  { name: 'np4/neuro-01.json', items: pack19 },
+  { name: 'np4/ortho-01.json', items: pack20 },
+  { name: 'np5/emerg-01.json', items: pack21 },
+  { name: 'np5/psych-01.json', items: pack22 },
+  { name: 'np5/psych-02.json', items: pack23 },
+  { name: 'np5/psych-03.json', items: pack24 },
 ];
