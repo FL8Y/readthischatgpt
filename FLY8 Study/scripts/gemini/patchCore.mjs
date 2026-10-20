@@ -133,7 +133,7 @@ function firstObject(text, wantPatchLike) {
     if (scanned) {
       try {
         const value = JSON.parse(scanned.json);
-        if (isObj(value) && (!wantPatchLike || 'ops' in value || 'target' in value)) return { value, repairs: scanned.repairs };
+        if (isObj(value) && (!wantPatchLike || 'ops' in value || 'target' in value || 'questions' in value)) return { value, repairs: scanned.repairs };
       } catch {
         /* try the next '{' */
       }
