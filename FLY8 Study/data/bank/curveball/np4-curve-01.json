@@ -713,7 +713,12 @@
    1
   ],
   "rationale": "Curve ball: worse weakness after a drug 'that helps muscles' feels backwards; it points to cholinergic crisis from too much drug. Missed dose means myasthenic; extra dose means cholinergic. Both threaten breathing, so airway comes first.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Myasthenic crisis: missed doses leave too little drug, so severe weakness with thick secretions fits undertreatment.",
+   "Cholinergic crisis: an extra dose gives too much drug, causing cramps, drooling and a slow pulse.",
+   "Myasthenic crisis: strength that improves after the test drug shows the problem was too little drug.",
+   "Cholinergic crisis: weakness that gets worse after the test drug shows the problem is too much drug. Airway comes first in either crisis."
+  ],
   "strategy": "Clue words: missed versus extra dose",
   "archetype": "curve-ball",
   "difficulty": 4,
@@ -750,7 +755,15 @@
    4
   ],
   "rationale": "Curve ball: a high blood pressure with a slow pulse looks like a stable, well-oxygenated, even 'healthy' trend and a normal saturation feels reassuring; together they form Cushing's triad: bradycardia, hypertension, bradypnea. Positioning and a mild headache are not the signs.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Not a herniation sign: head of bed at 30 degrees with the head midline is correct positioning to lower pressure.",
+   "Not a herniation sign: a mild headache of 4/10 is common after head injury and does not show brain-stem compression.",
+   "Sign of herniation: a falling pulse from 84 to 52 is part of Cushing's triad.",
+   "Sign of herniation: rising blood pressure as pressure builds on the brain is part of Cushing's triad.",
+   "Sign of herniation: slow, irregular breathing shows the brain stem is affected, completing Cushing's triad.",
+   "Not a herniation sign: a normal oxygen saturation is reassuring but does not exclude rising pressure.",
+   "Not a herniation sign: a normal temperature is unrelated."
+  ],
   "strategy": "Late ominous triad",
   "archetype": "curve-ball",
   "difficulty": 4,

@@ -665,8 +665,8 @@
    "Correct. Early brain-perfusion change.",
    "Correct. Diastolic rises toward systolic.",
    "Correct. Vessels tighten in skin.",
-   "Late stage.",
-   "Late stage.",
+   "Wrong: profound hypotension with unresponsiveness is a late stage of shock, not the early compensated stage.",
+   "Wrong: anuria with organ failure is a late stage of shock, not the early compensated stage.",
    "Middle (decompensated) stage."
   ],
   "strategy": "Early signs, not late",
@@ -713,7 +713,13 @@
    0
   ],
   "rationale": "Curve ball: 'What led up to...' sounds like the same question as 'why' but is the acceptable rewording; kind-sounding comfort and suggestions are blocks. Direct risk questions and reflecting the feeling are therapeutic.",
-  "optionRationales": [],
+  "optionRationales": [
+   "False reassurance: telling her things will work out cannot be promised and dismisses her feelings.",
+   "Asking why: it can feel like blame and make her defensive about stopping the medicine.",
+   "Giving advice: telling her whom to call takes the decision from her instead of exploring her feelings.",
+   "Therapeutic: exploring what led up to it, naming her exhaustion and asking directly about suicide opens honest discussion and checks risk.",
+   "Therapeutic: reflecting that she sounds discouraged shows understanding and invites her to say more."
+  ],
   "strategy": "Name the block",
   "archetype": "curve-ball",
   "difficulty": 4,
@@ -764,7 +770,11 @@
    }
   ],
   "rationale": "Curve ball: in a trauma primary survey the first letter is A with spine protection, but in an adult in cardiac arrest circulation comes first (compressions); asystole is not shocked. Rule: sequence depends on the situation. The cloze reads: (1) the trauma nurse first [checks airway with cervical spine protection]; (2) for an adult cardiac arrest, the nurse [starts chest compressions before ventilating]; (3) asystole [is treated with compressions and treatment of the cause].",
-  "optionRationales": [],
+  "optionRationales": [
+   "Checks airway with cervical spine protection: in trauma the first step is the airway while protecting the neck. Compressions first or a full history are not the opening step.",
+   "Starts chest compressions before ventilating: in adult cardiac arrest, circulation comes first. Giving breaths first or a minute-long pulse check delays compressions.",
+   "Is treated with compressions and treatment of the cause: asystole is not a shockable rhythm, so a shock does not help, and leaving it untreated is dangerous."
+  ],
   "strategy": "Know when the rule flips",
   "archetype": "curve-ball",
   "difficulty": 4,

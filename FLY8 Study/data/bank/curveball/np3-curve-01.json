@@ -701,7 +701,7 @@
       2
     ],
     "optionRationales": [
-      "Correct.",
+      "Correct: cool running water stops the burning process and eases pain.",
       "Correct: swelling can make removal impossible.",
       "Correct: clean and dry.",
       "Traps heat and increases infection risk.",
@@ -732,7 +732,11 @@
     "aiWritten": true,
     "options": [],
     "answer": [],
-    "optionRationales": [],
+    "optionRationales": [
+      "Not handle: because the drugs can harm a fetus, a pregnant nurse should avoid handling them rather than rely on extra gloves or a mask.",
+      "Teratogenic: these drugs can cause fetal harm, which is why pregnant staff are kept away. They are not merely sedating or harmless once diluted.",
+      "A separate container and washed in hot water: soiled linen contains drug residue, so it is kept apart from general laundry. Follow your facility policy."
+    ],
     "blanks": [
       {
         "choices": [
@@ -794,6 +798,13 @@
       2,
       5
     ],
-    "optionRationales": []
+    "optionRationales": [
+      "Points to tamponade: distended neck veins occur because blood cannot enter the compressed heart, but they also occur in failure, so they do not separate the two alone.",
+      "Points to tamponade: low blood pressure follows because the squeezed heart cannot fill and pump enough blood.",
+      "Points to tamponade: muffled, distant heart sounds occur when fluid surrounds the heart.",
+      "Points to heart failure: fine crackles show fluid in the lungs, which tamponade usually does not cause.",
+      "Points to heart failure: pitting edema of both ankles reflects fluid overload in failure, not tamponade.",
+      "Points to tamponade: a drop of about 15 mmHg on inspiration is pulsus paradoxus, a classic sign of tamponade."
+    ]
   }
 ]

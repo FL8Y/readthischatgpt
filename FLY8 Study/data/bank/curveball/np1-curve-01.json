@@ -707,11 +707,11 @@
       4
     ],
     "optionRationales": [
-      "Correct.",
+      "Correct: antenatal visits become more frequent late in pregnancy, so every two weeks after the eighth month is right.",
       "Screening is done between 48 hours and 2 weeks of age, not in the first hour.",
-      "Correct.",
+      "Correct: iron with folic acid continues for two months after delivery to rebuild stores lost with blood loss.",
       "Postpartum visits are scheduled even if she feels well.",
-      "Correct.",
+      "Correct: the first postpartum visit is scheduled in the first week, ideally days 3 to 5.",
       "The teaching is a 3 to 5 year spacing."
     ]
   },
@@ -738,7 +738,11 @@
     "aiWritten": true,
     "options": [],
     "answer": [],
-    "optionRationales": [],
+    "optionRationales": [
+      "Loss of sensation: the unfelt burn shows nerve involvement, which is the key cue for leprosy. Itching or oozing would suggest a common skin rash, and pain on pressure does not fit.",
+      "Slit-skin smear: it looks for the leprosy bacillus in skin tissue. A KOH scraping finds fungus, a tuberculin test screens for tuberculosis and a blood culture does not apply here.",
+      "Multidrug therapy: leprosy is treated with a combination of drugs to prevent resistance. A single antibiotic, antifungal cream or steroids alone do not treat it. Check your textbook for the regimen."
+    ],
     "blanks": [
       {
         "choices": [
@@ -802,6 +806,13 @@
       2,
       5
     ],
-    "optionRationales": []
+    "optionRationales": [
+      "Part of measles itself: Koplik spots on the inner cheeks are an expected sign of the illness, not a complication.",
+      "Part of measles itself: fever of 39 C is expected with measles and does not alone signal a complication.",
+      "Complication: fast breathing with chest indrawing suggests pneumonia and needs urgent referral.",
+      "Part of measles itself: red watery eyes with light sensitivity are expected in measles.",
+      "Part of measles itself: the rash on the face and trunk is the expected eruptive stage.",
+      "Complication: new pus from the ear suggests otitis media, a bacterial complication of measles."
+    ]
   }
 ]

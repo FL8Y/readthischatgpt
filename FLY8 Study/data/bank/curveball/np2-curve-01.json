@@ -732,7 +732,11 @@
     "aiWritten": true,
     "options": [],
     "answer": [],
-    "optionRationales": [],
+    "optionRationales": [
+      "Non-bilious: the blockage is at the stomach outlet, above where bile enters the bowel, so vomit has no bile. Bile-stained vomit would suggest a lower obstruction.",
+      "Before: the narrowing lies before the bile duct entry, which is why bile cannot appear in the vomit.",
+      "Dehydration with electrolyte imbalance: repeated vomiting loses fluid and electrolytes, which is the main early danger; the fewer wet diapers fit this."
+    ],
     "blanks": [
       {
         "choices": [
@@ -793,6 +797,13 @@
       3,
       4
     ],
-    "optionRationales": []
+    "optionRationales": [
+      "Not a sign of severe disease: mild evening ankle puffiness is common and is expected even in mild pre-eclampsia.",
+      "Severe feature: a blood pressure of 166/112 is in the severe range, showing progression.",
+      "Not a sign of severe disease: a gain of 0.5 kg is small and does not mark severity.",
+      "Severe feature: urine protein of 3+ shows heavier kidney involvement.",
+      "Severe feature: new upper abdominal pain suggests liver involvement and is a warning sign.",
+      "Reassuring: normal fetal movement is a good sign and does not indicate progression."
+    ]
   }
 ]
