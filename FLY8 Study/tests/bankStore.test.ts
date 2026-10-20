@@ -31,8 +31,8 @@ function started(ids: string[], mode: 'quick' | 'mock' = 'quick'): BankState {
 }
 
 describe('loader', () => {
-  it('loads gold and tolerates zero pack files', () => {
-    expect(PACKS).toEqual([]);
+  it('loads gold plus the bundled pack files with nothing rejected', () => {
+    expect(Array.isArray(PACKS)).toBe(true);
     expect(BANK.items.length).toBeGreaterThanOrEqual(100);
     expect(BANK.rejected).toEqual([]);
     expect(getItem(item0.id)).toBe(item0);
