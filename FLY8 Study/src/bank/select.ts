@@ -14,12 +14,22 @@ export interface SelectContext {
   flaggedIds?: readonly string[];
 }
 
+/** Owner rule: select-all-that-apply is rare, at most 1 per 10 questions in any normal session. */
+export const SATA_PER = 10;
+export const sataBudget = (n: number): number => Math.floor(n / SATA_PER);
+
+/** Keeps every non-SATA item and only as many SATA items (first ones in the given order) as the budget allows. */
+export function capSata<T extends BankItem>(ordered: readonly T[], n: number): T[] {
+  let room = sataBudget(n);
+  return ordered.filter((i) => (i.type !== 'sata' ? true : room-- > 0));
+}
+
 export const DIAGNOSTIC_AREAS: readonly Area[] = ['NP1', 'NP2', 'NP3', 'NP4', 'NP5'];
 export const DIAGNOSTIC_PER_AREA = 5;
 
 export function quick(ctx: SelectContext, n: number): Selection {
   const picker = new ClusterPicker(n, ctx.items);
-  picker.add(shuffled(ctx.items, makeRng(ctx.seed)));
+  picker.add(capSata(shuffled(ctx.items, makeRng(ctx.seed)), n));
   return picker.selection();
 }
 
@@ -52,7 +62,7 @@ export function custom(ctx: SelectContext, o: CustomOptions): Selection {
     return true;
   });
   const picker = new ClusterPicker(o.count, ctx.items);
-  picker.add(shuffled(pool, makeRng(ctx.seed)));
+  picker.add(capSata(shuffled(pool, makeRng(ctx.seed)), o.count));
   return picker.selection();
 }
 
@@ -67,7 +77,10 @@ export function diagnostic(ctx: SelectContext): Selection {
   for (const area of DIAGNOSTIC_AREAS) {
     const inArea = ctx.items.filter((i) => i.area === area);
     const fresh = inArea.filter((i) => !seen.has(i.id));
-    const pool = fresh.length >= DIAGNOSTIC_PER_AREA ? fresh : inArea;
+    const noSata = (l: BankItem[]) => l.filter((i) => i.type !== 'sata');
+    const base = fresh.length >= DIAGNOSTIC_PER_AREA ? fresh : inArea;
+    // Select-all items are rare: only used in a thin area that has too few other items.
+    const pool = noSata(base).length >= DIAGNOSTIC_PER_AREA ? noSata(base) : base;
     // Shuffle first so ties in difficulty break by seed, then stable-sort by difficulty.
     const sorted = shuffled(pool, rng).sort((a, b) => a.difficulty - b.difficulty);
     if (sorted.length <= DIAGNOSTIC_PER_AREA) { ids.push(...sorted.map((i) => i.id)); continue; }
@@ -83,7 +96,7 @@ export function diagnostic(ctx: SelectContext): Selection {
 export function mock(ctx: SelectContext, area: Area, count: number): Selection {
   const pool = ctx.items.filter((i) => i.area === area);
   const picker = new ClusterPicker(count, ctx.items);
-  picker.add(shuffled(pool, makeRng(ctx.seed)));
+  picker.add(capSata(shuffled(pool, makeRng(ctx.seed)), count));
   return picker.selection();
 }
 
@@ -103,7 +116,7 @@ export function weak(ctx: SelectContext, n: number): Selection {
   const evidence = scored.filter((s) => s.score > 0);
   evidence.sort((a, b) => b.score - a.score || a.jitter - b.jitter);
   const picker = new Picker(n);
-  picker.add(evidence.map((s) => s.i));
+  picker.add(capSata(evidence.map((s) => s.i), n));
   return picker.selection();
 }
 
@@ -121,5 +134,9 @@ export function caseStudy(ctx: SelectContext, sets: number): Selection {
 
 /** Smart set (local curation). Logic lives in curate.ts. */
 export function smart(ctx: SelectContext, n: number): Selection {
-  return smartSet({ items: ctx.items, attempts: ctx.attempts, seed: ctx.seed }, n);
+  // Only a budgeted handful of select-all items may enter the pool, so the set can never exceed 1 per 10.
+  const rng = makeRng(`${ctx.seed}:sata`);
+  const sata = shuffled(ctx.items.filter((i) => i.type === 'sata'), rng).slice(0, sataBudget(n));
+  const items = [...ctx.items.filter((i) => i.type !== 'sata'), ...sata];
+  return smartSet({ items, attempts: ctx.attempts, seed: ctx.seed }, n);
 }
