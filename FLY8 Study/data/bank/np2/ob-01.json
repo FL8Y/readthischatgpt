@@ -26,7 +26,7 @@
     ],
     "strategy": "Maslow: circulation first, turn to the left side",
     "archetype": "two look-alike causes of dizziness",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Supine hypotensive syndrome: the uterus compresses the vena cava; left lateral position of choice.",
@@ -63,7 +63,7 @@
     ],
     "strategy": "Match hormone event to function",
     "archetype": "hormone event and timing",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "LH surge at mid-cycle triggers ovulation; FSH matures the follicle early in the cycle."
@@ -99,7 +99,7 @@
     ],
     "strategy": "Identify the structure by its relation to the embryo",
     "archetype": "which part of the decidua",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Decidua basalis: under the embryo; capsularis: over it; vera: the rest of the lining."
@@ -135,7 +135,7 @@
     ],
     "strategy": "Match the teaching to the hormone cause",
     "archetype": "hormone to nursing measure",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "High estrogen causes epulis (gum swelling and bleeding) and ptyalism.",
@@ -172,7 +172,7 @@
     ],
     "strategy": "Nothing in the vagina; bed rest; return for bleeding",
     "archetype": "spot the unsafe statement",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Never do a vaginal, pelvic or rectal exam in placenta previa; bed rest at home if bleeding stops.",
@@ -209,7 +209,7 @@
     ],
     "strategy": "Count back from the next period: luteal phase is constant",
     "archetype": "luteal phase is constant",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Luteal phase is constant at about 14 days; the proliferative phase varies.",
@@ -246,7 +246,7 @@
     ],
     "strategy": "ABC: treat shock and prepare for surgery",
     "archetype": "recognize rupture and act",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "A ruptured ectopic is a life-threatening bleed: ABCs, large IV access, treat shock, NPO.",
@@ -268,13 +268,13 @@
     "options": [
       "A primigravida pushing for 2 hours with steady descent of the head",
       "A multigravida who has been pushing for 90 minutes with no descent",
-      "A multigravida pushing for 1 hour with slow but steady descent",
+      "A multigravida pushing for 3 hours with slow but steady descent",
       "A primigravida pushing for 5 hours with the head at the same station"
     ],
     "answer": [
       0
     ],
-    "rationale": "1. Cues: four clients with different parity and different pushing times.\n2. Principle: the second stage lasts about 1 to 4 hours for a first-time mother and about 20 to 45 minutes for a multigravida.\n3. Two hours with progress in a primigravida is within range; the multigravida at 90 minutes or at 1 hour exceeds expected time and the primigravida at 5 hours exceeds even the longer range.\n4. Flip: if the primigravida had 5 hours of pushing, evaluation for obstructed labor would be needed.",
+    "rationale": "1. Cues: four clients with different parity and different pushing times.\n2. Principle: the second stage lasts about 1 to 4 hours for a first-time mother and about 20 to 45 minutes for a multigravida.\n3. Two hours with progress in a primigravida is within range; the multigravida at 90 minutes or at 3 hours exceeds expected time and the primigravida at 5 hours exceeds even the longer range.\n4. Flip: if the primigravida had 5 hours of pushing, evaluation for obstructed labor would be needed.",
     "optionRationales": [
       "Correct: within 1 to 4 hours for a primigravida with progress.",
       "Beyond expected time: multigravidas usually finish in about 20 to 45 minutes, and there is no descent.",
@@ -319,7 +319,7 @@
     ],
     "strategy": "Count pregnancies and outcomes separately",
     "archetype": "record the obstetric history",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "Gravida includes the current pregnancy; TPAL = term, preterm, abortions, living."
@@ -355,7 +355,7 @@
     ],
     "strategy": "Do not misread an expected finding, but guard against cord prolapse",
     "archetype": "expected versus alarming",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "Meconium staining is expected in breech and is not itself a sign of distress.",
@@ -398,7 +398,7 @@
     ],
     "strategy": "Physiologic: reassure; red flags: report",
     "archetype": "physiologic versus red flag",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "Red flags: vomiting that prevents eating, sudden facial and hand swelling, painful urination.",
@@ -435,7 +435,7 @@
     ],
     "strategy": "Only the fetus itself causes a positive sign",
     "archetype": "classify the sign",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Positive signs: fetal heart tones, fetal movement felt by the examiner, fetus seen on ultrasound."
@@ -471,7 +471,7 @@
     ],
     "strategy": "Compare findings with expected landmarks and report",
     "archetype": "recognize a discrepancy",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "A fundus much bigger than expected suggests multiple pregnancy, hydramnios or a mole.",
@@ -508,47 +508,11 @@
     ],
     "strategy": "Preliminary signs versus true labor",
     "archetype": "labor is near, not started",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Preliminary signs: lightening, strong Braxton-Hicks, burst of energy, slight weight loss, cervical ripening.",
       "The surest sign of labor is progressive, productive contractions."
-    ],
-    "source": "bank",
-    "review": "unreviewed",
-    "aiWritten": true
-  },
-  {
-    "id": "np2-0015",
-    "v": 2,
-    "type": "single",
-    "area": "NP2",
-    "topic": "Preparing for an ultrasound",
-    "noteId": "np2-ob-ultrasound",
-    "vignette": "Two women are scheduled for ultrasound the same morning. One is 8 weeks pregnant and will have a transvaginal scan; the other is 24 weeks pregnant and will have a transabdominal scan. The nurse gives instructions to each.",
-    "stem": "Which instructions are correct?",
-    "options": [
-      "The 8-week client voids first; the 24-week client drinks water an hour before the scan",
-      "Both clients drink plenty of water an hour before the scan to fill the bladder",
-      "The 8-week client drinks water an hour before scanning; the 24-week client voids first",
-      "Neither client needs any special preparation, since ultrasound is non-invasive"
-    ],
-    "answer": [
-      0
-    ],
-    "rationale": "1. Cue: two scan routes with different needs.\n2. Principle: for transabdominal scanning a full bladder pushes the uterus into view, so the woman drinks water about an hour before; for transvaginal scanning she voids first.\n3. The key pairs each route with its preparation.\n4. Flip: if both scans were transabdominal, both women would drink water beforehand.",
-    "optionRationales": [
-      "Correct: transvaginal needs an empty bladder; transabdominal needs a full one.",
-      "Wrong for the transvaginal client, who should void first.",
-      "Reversed: this pairs each route with the wrong preparation.",
-      "Under-preparation: a full bladder is needed for transabdominal scanning."
-    ],
-    "strategy": "Match the preparation to the route",
-    "archetype": "preparation by route",
-    "difficulty": 3,
-    "bloom": "judgment",
-    "keyFacts": [
-      "Transabdominal: drink water about an hour before; transvaginal: void first."
     ],
     "source": "bank",
     "review": "unreviewed",
@@ -581,7 +545,7 @@
     ],
     "strategy": "Interpret maneuvers before placing the Doppler",
     "archetype": "Leopold findings to auscultation site",
-    "difficulty": 5,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "Fetal heart tones are heard best over the fetal back.",
@@ -598,7 +562,7 @@
     "area": "NP2",
     "topic": "Face presentation and progress",
     "noteId": "np2-ob-lie-attitude-position",
-    "vignette": "A primigravida in labor has been at 6 cm for four hours despite adequate contractions. An ultrasound shows complete extension of the fetal head, with the face presenting. The fetal heart rate is reassuring. The woman asks when she can start pushing.",
+    "vignette": "A primigravida in labor has been at 6 cm for four hours despite adequate contractions. An ultrasound shows complete extension of the fetal head, with the face presenting and the chin toward the mother's back (mentum posterior). The fetal heart rate is reassuring. The woman asks when she can start pushing.",
     "stem": "What should the nurse anticipate?",
     "options": [
       "Labor will progress normally once the cervix is fully dilated, and pushing will begin",
@@ -609,7 +573,7 @@
     "answer": [
       3
     ],
-    "rationale": "1. Cues: a stalled cervix with adequate contractions, a face presentation with complete extension, and a reassuring fetal heart.\n2. Principle: complete extension (face) presents the widest diameter and the face cannot normally enter the pelvis; complete extension stops progress.\n3. The nurse anticipates cesarean preparation and keeps the woman informed; the fetal heart being reassuring allows planned rather than emergency action.\n4. Flip: if the head were flexed in a vertex attitude, slow progress would more likely be treated with positioning or augmentation.",
+    "rationale": "1. Cues: a stalled cervix with adequate contractions, a face presentation with complete extension, and a reassuring fetal heart.\n2. Principle: with the chin posterior, complete extension (face) presents the widest diameter and the face cannot normally enter the pelvis; complete extension stops progress.\n3. The nurse anticipates cesarean preparation and keeps the woman informed; the fetal heart being reassuring allows planned rather than emergency action.\n4. Flip: if the head were flexed in a vertex attitude, slow progress would more likely be treated with positioning or augmentation.",
     "optionRationales": [
       "Contradicts the finding: a face presentation will not engage in the usual way.",
       "Treats the symptom: oxytocin does not correct the attitude.",
@@ -655,7 +619,7 @@
     ],
     "strategy": "Do not call it normal lochia",
     "archetype": "first actions",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Fever plus foul lochia plus a tender uterus equals endometritis.",
@@ -692,7 +656,7 @@
     ],
     "strategy": "The method fails when one requirement is not met",
     "archetype": "all conditions must hold",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Lactational amenorrhea: exclusive breastfeeding, no menses, within 6 months postpartum.",
@@ -729,7 +693,7 @@
     ],
     "strategy": "Trial of labor first when appropriate",
     "archetype": "cesarean is not automatic",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "With CPD a trial of labor is usually allowed first; cesarean is not automatic.",
@@ -766,7 +730,7 @@
     ],
     "strategy": "Assess without criticizing",
     "archetype": "nonjudgmental assessment",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Pica: craving non-food items; do not criticize; assess, check for anemia, offer safer choices."
@@ -802,48 +766,11 @@
     ],
     "strategy": "Safety of the fetus: ask, explain and refer",
     "archetype": "ask about all products",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "NSAIDs: premature closure of the ductus arteriosus and oligohydramnios.",
       "Ask about all drugs, herbs and OTC products; advise not to self-medicate."
-    ],
-    "source": "bank",
-    "review": "unreviewed",
-    "aiWritten": true
-  },
-  {
-    "id": "np2-0023",
-    "v": 2,
-    "type": "single",
-    "area": "NP2",
-    "topic": "Preparing for amniocentesis",
-    "noteId": "np2-ob-amniocentesis",
-    "vignette": "A 15-week woman is scheduled for amniocentesis. Earlier in pregnancy she had a transabdominal ultrasound and was told to drink a lot of water beforehand, and she has drunk a large glass of water this morning to be \"safe\". She asks the nurse how to prepare.",
-    "stem": "What should the nurse instruct her to do before the procedure?",
-    "options": [
-      "Keep her bladder full so the uterus is easily seen",
-      "Drink more water now to dilute the amniotic fluid",
-      "Avoid urinating until the physician arrives to ensure a good view",
-      "Empty her bladder so it is less likely to be punctured"
-    ],
-    "answer": [
-      3
-    ],
-    "rationale": "1. Cues: previous instruction to fill the bladder for ultrasound, and a bladder already filled this morning.\n2. Principle: before amniocentesis the woman voids because a smaller bladder avoids accidental puncture; afterwards she is observed for about 30 minutes with fetal heart rate and contractions checked.\n3. Preparation depends on the procedure, not on what was done for an earlier test.\n4. Flip: if the scan were a transabdominal ultrasound alone, a full bladder would be needed.",
-    "optionRationales": [
-      "Right for a different procedure: a full bladder is for transabdominal ultrasound.",
-      "Wrong goal: drinking water does not change amniotic fluid composition for testing.",
-      "Unsafe: a full bladder increases the risk of puncture.",
-      "Correct: voiding reduces the risk of bladder puncture."
-    ],
-    "strategy": "Match the preparation to the procedure",
-    "archetype": "empty versus full bladder",
-    "difficulty": 4,
-    "bloom": "judgment",
-    "keyFacts": [
-      "Before amniocentesis the woman voids; observe about 30 minutes afterward.",
-      "Transabdominal ultrasound needs a full bladder."
     ],
     "source": "bank",
     "review": "unreviewed",
@@ -876,7 +803,7 @@
     ],
     "strategy": "Unstable before stable: scant bleeding can hide major loss",
     "archetype": "external bleeding underestimates loss",
-    "difficulty": 5,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Abruptio: sharp fundal pain, rigid uterus, bleeding that may be hidden, fetal heart tones that may be lost.",
@@ -924,43 +851,6 @@
     "aiWritten": true
   },
   {
-    "id": "np2-0026",
-    "v": 2,
-    "type": "single",
-    "area": "NP2",
-    "topic": "Late decelerations during oxytocin infusion",
-    "noteId": "np2-ob-fhr-patterns",
-    "vignette": "A woman on an oxytocin infusion for induction is lying on her back. The tracing shows decelerations that begin 30 to 40 seconds after each contraction starts and return to baseline after the contraction ends. The baseline variability is decreasing. Her partner asks the nurse to call the physician.",
-    "stem": "What should the nurse do FIRST?",
-    "options": [
-      "Stop the oxytocin infusion",
-      "Turn the woman to her left side",
-      "Telephone the physician before changing anything",
-      "Increase the IV fluid rate and apply oxygen"
-    ],
-    "answer": [
-      0
-    ],
-    "rationale": "1. Cues: late decelerations (uteroplacental insufficiency), decreasing variability, oxytocin running and supine position.\n2. Principle: oxytocin causes strong contractions that reduce placental blood flow, so it is the first thing to stop; then turn to the left side, give IV fluids and oxygen, and prepare for delivery if the pattern persists.\n3. Priority rule: remove the cause of the compromise before the supportive measures; do not delay the stop by calling first.\n4. Flip: if the pattern were variable decelerations with no oxytocin running, repositioning would be the first step.",
-    "optionRationales": [
-      "Correct: the infusion is the treatable cause of reduced placental flow.",
-      "Right action, wrong order: positioning follows stopping the oxytocin.",
-      "Right action, wrong time: the physician is called after the cause is removed.",
-      "Right measures, wrong order: supportive measures come after removing the cause."
-    ],
-    "strategy": "Stop the cause: oxytocin off first",
-    "archetype": "remove the cause first",
-    "difficulty": 4,
-    "bloom": "judgment",
-    "keyFacts": [
-      "Late deceleration: uteroplacental insufficiency; stop oxytocin, left side, IV fluids, oxygen.",
-      "The trap is calling the physician before stopping the oxytocin."
-    ],
-    "source": "bank",
-    "review": "unreviewed",
-    "aiWritten": true
-  },
-  {
     "id": "np2-0027",
     "v": 2,
     "type": "single",
@@ -987,7 +877,7 @@
     ],
     "strategy": "Safety after provoked contractions",
     "archetype": "observe before discharge",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "Negative CST: no late decelerations. Observe about 30 minutes afterward.",
@@ -1024,7 +914,7 @@
     ],
     "strategy": "Check the cord risk before examining the cervix",
     "archetype": "first checks",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Ruptured membranes: note the time; check fetal heart tones at once because of cord prolapse risk.",

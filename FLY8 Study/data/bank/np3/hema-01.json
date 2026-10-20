@@ -26,7 +26,7 @@
   ],
   "strategy": "Bleeding and infection precautions",
   "archetype": "needs further teaching",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Prevent bleeding: soft toothbrush, electric razor",
@@ -63,7 +63,7 @@
   ],
   "strategy": "Recognise concealed hemorrhage; ABC and shock position",
   "archetype": "dry dressing is not reassurance",
-  "difficulty": 5,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Hypotension, rapid thready pulse, restlessness: hemorrhage",
@@ -100,7 +100,7 @@
   ],
   "strategy": "Expected vs red flag",
   "archetype": "expected vs red flag",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Check stoma color and urine output; no urine for hours is a red flag",
@@ -137,7 +137,7 @@
   ],
   "strategy": "Treat the triggers of sickling",
   "archetype": "cold and dehydration trigger sickling",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Oxygen for hypoxia, fluids for dehydration, analgesics",
@@ -174,7 +174,7 @@
   ],
   "strategy": "Drug-specific safety: depression with interferon",
   "archetype": "know the one safety rule per drug",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Interferon alfa-2b: watch flu-like symptoms and depression",
@@ -211,7 +211,7 @@
   ],
   "strategy": "Does the treatment add iron? No",
   "archetype": "avoid iron supplements",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Watch for iron overload from repeated transfusions; chelation",
@@ -248,7 +248,7 @@
   ],
   "strategy": "Unstable before stable; new neurologic deficit",
   "archetype": "baseline vs new neurologic sign",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Complications: stroke, MI",
@@ -285,7 +285,7 @@
   ],
   "strategy": "Unstable potential: head injury in bleeding disorder",
   "archetype": "treat head injury as an emergency",
-  "difficulty": 5,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Head injury or severe headache is an emergency in hemophilia",
@@ -322,7 +322,7 @@
   ],
   "strategy": "Benign vs malignant features",
   "archetype": "benign features",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Benign: well-differentiated, encapsulated, no metastasis",
@@ -359,7 +359,7 @@
   ],
   "strategy": "Complication surveillance: thrombophlebitis",
   "archetype": "which finding to report",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "After surgery watch infection, bleeding, thrombophlebitis, dehiscence",
@@ -396,7 +396,7 @@
   ],
   "strategy": "Evaluate teaching: gas-forming foods",
   "archetype": "evaluate meal selection",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Avoid gas-forming foods: cabbage, nuts, eggs, cauliflower, gum, carbonated drinks"
@@ -432,7 +432,7 @@
   ],
   "strategy": "Grade = cell look; Stage = spread",
   "archetype": "grade vs stage",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Grading: cell look; staging: spread (TNM)",
@@ -469,7 +469,7 @@
   ],
   "strategy": "Warning signs: do not dismiss",
   "archetype": "needs further teaching",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Warning signs: obvious change in a wart or mole, sore that does not heal, lump, sudden weight loss"
@@ -505,7 +505,7 @@
   ],
   "strategy": "Match drug property to purpose",
   "archetype": "explain the drug choice",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Nitrosoureas cross the blood-brain barrier",
@@ -542,7 +542,7 @@
   ],
   "strategy": "Emergency: protect tissue and stay",
   "archetype": "stay and cover",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Evisceration: organs protrude through the wound",
@@ -579,7 +579,7 @@
   ],
   "strategy": "Scope: assign by radiation type",
   "archetype": "who can care for whom",
-  "difficulty": 5,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "External radiation: client is not radioactive",
@@ -616,7 +616,7 @@
   ],
   "strategy": "Correct misconceptions: not radioactive",
   "archetype": "needs further teaching",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "External radiation: client not radioactive",
@@ -636,7 +636,7 @@
   "vignette": "A 52-year-old woman has a cervical sealed radiation implant in place. The nurse is orienting a new graduate nurse and a nursing assistant to the precautions for her room.",
   "stem": "Which precautions apply? Select all that apply.",
   "options": [
-   "Wear a lead gown and a dosimeter badge when providing care",
+   "Wear a dosimeter badge when providing care",
    "Keep her in a private room",
    "Limit time at the bedside and stay about 6 feet away when possible",
    "Allow a 10-year-old grandchild to sit by the bed",
@@ -647,7 +647,7 @@
    1,
    2
   ],
-  "rationale": "1. Internal radiation requires shielding (lead gown, dosimeter), limited time, distance (about 6 feet) and a private room; pregnant staff and child visitors are excluded.\n2. Flushing the toilet three times applies to unsealed sources whose body fluids are radioactive; with a sealed implant, fluids are not radioactive.\nFlip: for iodine-131, flushing three times would be added.",
+  "rationale": "1. Internal radiation requires shielding (dosimeter badge), limited time, distance (about 6 feet) and a private room; pregnant staff and child visitors are excluded.\n2. Flushing the toilet three times applies to unsealed sources whose body fluids are radioactive; with a sealed implant, fluids are not radioactive.\nFlip: for iodine-131, flushing three times would be added.",
   "optionRationales": [
    "Correct: shielding.",
    "Correct: private room.",
@@ -694,7 +694,7 @@
   ],
   "strategy": "Early detection: do not delay",
   "archetype": "act now rather than watch",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "ABCDE rule for suspicious moles",
@@ -731,7 +731,7 @@
   ],
   "strategy": "Match first sign to organ",
   "archetype": "pattern recognition",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Painless hematuria: bladder cancer",
@@ -768,7 +768,7 @@
   ],
   "strategy": "Verify before giving; wrong route can be fatal",
   "archetype": "wrong route can be fatal",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Verify the route in the order",
@@ -809,7 +809,7 @@
   ],
   "strategy": "Hazardous drug handling",
   "archetype": "select correct practice",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Gloves, gown, face shield; hazardous labels",
@@ -846,7 +846,7 @@
   ],
   "strategy": "Protect skin integrity",
   "archetype": "address the cause of the symptom",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Skin care for pruritus",
@@ -883,7 +883,7 @@
   ],
   "strategy": "Liver bleeds more: clotting factors",
   "archetype": "watch for bleeding",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "After biopsy or surgery watch for bleeding first",
@@ -920,7 +920,7 @@
   ],
   "strategy": "Recognise bile duct obstruction",
   "archetype": "recognise complication",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Report clay or pale stools, jaundice, dark urine, itching",

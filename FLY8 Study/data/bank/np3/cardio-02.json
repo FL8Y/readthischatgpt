@@ -26,7 +26,7 @@
   ],
   "strategy": "Safety: sudden death risk in HCM",
   "archetype": "safety counselling",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Hypertrophic: syncope, ventricular dysrhythmias, sudden death common",
@@ -47,14 +47,14 @@
   "stem": "Which action should the nurse take first?",
   "options": [
    "Sit him upright, apply the ordered oxygen, then ask the provider about the drip",
-   "Reduce the infusion to a keep-open rate and ask the provider if it can be stopped",
+   "Reduce the infusion to a keep-open rate and recheck his lung sounds in 4 hours",
    "Give the furosemide now rather than waiting the 90 minutes",
    "Weigh him again on a different scale to confirm the 2.8 kg gain"
   ],
   "answer": [
    0
   ],
-  "rationale": "1. Cues: crackles, SpO2 91%, weight gain and an unneeded IV fluid in a failing pump: fluid overload is worsening gas exchange.\n2. Priority rule: breathing first. Sitting up and oxygen help at once; the IV question follows within minutes.\n3. Slowing the IV is also right and likely to be done next. Giving a diuretic early needs an order, and re-weighing delays treatment.\nFlip: if SpO2 were 97% and breathing were easy, slowing the infusion would come first.",
+  "rationale": "1. Cues: crackles, SpO2 91%, weight gain and an unneeded IV fluid in a failing pump: fluid overload is worsening gas exchange.\n2. Priority rule: breathing first. Sitting up and oxygen help at once; the IV question follows within minutes.\n3. Slowing the IV is needed soon, but waiting hours with SpO2 91% leaves him hypoxic. Giving a diuretic early needs an order, and re-weighing delays treatment.\nFlip: if SpO2 were 97% and breathing were easy, slowing the infusion would come first.",
   "optionRationales": [
    "Right: breathing first, then address the harmful infusion.",
    "Wrong: right action, wrong time; the dyspnea is the first priority.",
@@ -100,7 +100,7 @@
   ],
   "strategy": "Scope of practice: delegate measurement, not assessment",
   "archetype": "scope of practice",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Weigh daily, same scale and time",
@@ -174,7 +174,7 @@
   ],
   "strategy": "Position for breathing; never lay flat",
   "archetype": "position trap",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Sit the client upright in pulmonary edema",
@@ -211,7 +211,7 @@
   ],
   "strategy": "Hold parameter and toxicity recognition",
   "archetype": "hold and report",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Check potassium before digoxin and diuretics",
@@ -292,7 +292,7 @@
   ],
   "strategy": "Chronic expected vs new deterioration",
   "archetype": "expected vs worsening",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Aortic regurgitation: wide pulse pressure, water-hammer pulse",
@@ -329,48 +329,11 @@
   ],
   "strategy": "Teaching evaluation: stocking use",
   "archetype": "evaluate learning",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Put stockings on before the legs touch the floor",
    "Never massage the leg"
-  ],
-  "source": "bank",
-  "review": "unreviewed",
-  "aiWritten": true
- },
- {
-  "id": "np3-0035",
-  "v": 2,
-  "type": "single",
-  "area": "NP3",
-  "topic": "Endocarditis discharge teaching",
-  "noteId": "np3-cr-infective-endocarditis",
-  "vignette": "A client with a prosthetic aortic valve is going home with a PICC line for six weeks of IV antibiotics for endocarditis. At the home-care session the client lists his plans: take his temperature each morning, check the catheter site daily, brush his teeth twice a day with a soft brush, and floss every night to keep his gums healthy.",
-  "stem": "Which plan needs correction?",
-  "options": [
-   "Flossing every night",
-   "Taking his temperature each morning",
-   "Checking the catheter site daily",
-   "Using a soft toothbrush twice a day"
-  ],
-  "answer": [
-   0
-  ],
-  "rationale": "1. Flossing (and oral irrigators) can cause bacteremia, which seeds a vulnerable valve.\n2. Daily temperature checks for up to six weeks, daily catheter site checks and gentle twice-daily brushing are all appropriate.\n3. The flossing statement sounds like good hygiene, which is why it is easy to miss.\nFlip: for a client without any valve disease and no bacteremia risk, flossing would be fine.",
-  "optionRationales": [
-   "Right: flossing can cause bacteremia.",
-   "Correct: fever report is the early sign of relapse.",
-   "Correct: early detection of line infection.",
-   "Correct: gentle brushing is advised."
-  ],
-  "strategy": "Prevent bacteremia",
-  "archetype": "needs correction",
-  "difficulty": 4,
-  "bloom": "judgment",
-  "keyFacts": [
-   "Avoid flossing and oral irrigators",
-   "Record temperature daily and check catheter site"
   ],
   "source": "bank",
   "review": "unreviewed",
@@ -403,7 +366,7 @@
   ],
   "strategy": "Unstable before stable: neurologic change on a thrombolytic",
   "archetype": "bleeding risk",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Monitor for bleeding after thrombolytics",
@@ -440,7 +403,7 @@
   ],
   "strategy": "Question unsafe order: negative inotrope in myocarditis",
   "archetype": "clarify the order",
-  "difficulty": 5,
+  "difficulty": 3,
   "bloom": "judgment",
   "keyFacts": [
    "Avoid beta-blockers in myocarditis",
@@ -477,7 +440,7 @@
   ],
   "strategy": "Recurrence surveillance",
   "archetype": "evaluate effectiveness",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "After drainage monitor BP, venous pressure and heart sounds for recurrence",
@@ -514,7 +477,7 @@
   ],
   "strategy": "Check the lab before the dose; act on critical values",
   "archetype": "check lab before dose",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Check the right lab before each dose",
@@ -551,7 +514,7 @@
   ],
   "strategy": "Fix the reversible cause quickly",
   "archetype": "problem solving",
-  "difficulty": 5,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Keep tubes patent, below chest, unclamped unless ordered",
@@ -588,7 +551,7 @@
   ],
   "strategy": "Serious adverse effect: ethambutol optic neuritis",
   "archetype": "which complaint is urgent",
-  "difficulty": 4,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Ethambutol: optic neuritis, color discrimination",
@@ -625,7 +588,7 @@
   ],
   "strategy": "Pattern recognition: positional pain",
   "archetype": "cue pattern",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Pericarditis: pain eased leaning forward; friction rub",
@@ -662,7 +625,7 @@
   ],
   "strategy": "Pump failure vs volume loss",
   "archetype": "question the order",
-  "difficulty": 5,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Be careful with big fluid volumes in cardiogenic shock",
@@ -699,7 +662,7 @@
   ],
   "strategy": "Compare disorders: shared teaching",
   "archetype": "compare disorders",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Buerger's and Raynaud's: avoid nicotine and cold",
@@ -736,7 +699,7 @@
   ],
   "strategy": "Frequent swallowing = bleeding until proven otherwise",
   "archetype": "recognise hidden hemorrhage",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Frequent swallowing is a red flag for hemorrhage",
@@ -773,7 +736,7 @@
   ],
   "strategy": "Airway first",
   "archetype": "airway first",
-  "difficulty": 5,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Monitor airway; be ready for intubation or tracheotomy",
@@ -810,7 +773,7 @@
   ],
   "strategy": "Interpret cues: absent wheeze is ominous",
   "archetype": "recognise ominous sign",
-  "difficulty": 5,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Silent chest in a distressed client is ominous",
@@ -847,7 +810,7 @@
   ],
   "strategy": "A sudden stop with deterioration = clotted tube",
   "archetype": "sudden change in drainage",
-  "difficulty": 5,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Report a sudden stop with worsening dyspnea (possible clotted tube)",
@@ -884,7 +847,7 @@
   ],
   "strategy": "Pathophysiology: injury vs pressure edema",
   "archetype": "interpret oxygen response",
-  "difficulty": 5,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "ARDS: bilateral infiltrates, hypoxemia unresponsive to oxygen, normal left atrial pressure",
@@ -921,7 +884,7 @@
   ],
   "strategy": "Evaluate teaching: breathing technique",
   "archetype": "evaluate learning",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Pursed-lip breathing slows expiration and keeps small airways open",

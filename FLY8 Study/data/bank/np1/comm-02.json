@@ -12,12 +12,12 @@
       "Allow gentle play in the corridor since his fever is gone and his throat is improving",
       "Allow him out of bed for meals only until the membrane has completely cleared",
       "Allow quiet play in bed with other children as long as he wears a mask at all times",
-      "Keep him on absolute bed rest for about two weeks to protect his heart"
+      "Keep him on absolute bed rest for the period the provider orders, to protect his heart"
     ],
     "answer": [
       3
     ],
-    "rationale": "1. Cues: improving throat, low-grade fever, and a child and mother who want activity.\n2. Principle: diphtheria toxin can injure the heart, so absolute bed rest of about two weeks is a priority nursing action even when the child feels better; peripheral neuritis may also appear months later.\n3. Priority rule: protect the vulnerable organ; symptom relief is not a measure of cardiac safety.\n4. Flip: if the order were changed after the physician cleared the heart, supervised activity could resume.",
+    "rationale": "1. Cues: improving throat, low-grade fever, and a child and mother who want activity.\n2. Principle: diphtheria toxin can injure the heart, so absolute bed rest for the period ordered is a priority nursing action even when the child feels better; peripheral neuritis may also appear months later.\n3. Priority rule: protect the vulnerable organ; symptom relief is not a measure of cardiac safety.\n4. Flip: if the order were changed after the physician cleared the heart, supervised activity could resume.",
     "optionRationales": [
       "Under-reaction: improvement in the throat does not mean the heart is safe.",
       "Partial rest: leaving bed for meals still strains the heart during the risk period.",
@@ -26,7 +26,7 @@
     ],
     "strategy": "Protect the heart: do not be fooled by feeling well",
     "archetype": "protect the heart",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "Absolute bed rest (about 2 weeks) in diphtheria to protect the heart.",
@@ -63,7 +63,7 @@
     ],
     "strategy": "Distinguish expected findings from the dangerous complication",
     "archetype": "dangerous complication",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Bronchopneumonia is the most dangerous complication of pertussis.",
@@ -100,7 +100,7 @@
     ],
     "strategy": "Evaluate teaching: spot the incorrect statement",
     "archetype": "identify the misunderstanding",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Avoid contact with others for at least 24 hours after fever is gone.",
@@ -138,47 +138,11 @@
     ],
     "strategy": "Match the precaution to the route of spread",
     "archetype": "identify the exception",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "Enteric isolation applies to cholera, typhoid and amoebiasis.",
       "Botulism: preformed toxin; descending paralysis, not diarrhea."
-    ],
-    "source": "bank",
-    "review": "unreviewed",
-    "aiWritten": true
-  },
-  {
-    "id": "np1-0090",
-    "v": 2,
-    "type": "single",
-    "area": "NP1",
-    "topic": "Rehydration route",
-    "noteId": "np1-cd-cholera",
-    "vignette": "A 40-year-old woman has had many rice-water stools since last night. She is alert, thirsty and able to drink, her pulse is regular and strong, and her blood pressure is normal. Her husband has the same illness and is in shock.",
-    "stem": "What is the BEST rehydration plan for the woman?",
-    "options": [
-      "Start IV fluids at once like her husband since the illness is exactly the same",
-      "Oral rehydration with close monitoring, moving to IV fluids if she worsens",
-      "Give no fluids by mouth until the stool volume has decreased",
-      "Give an antibiotic alone and let her drink as she feels thirsty"
-    ],
-    "answer": [
-      1
-    ],
-    "rationale": "1. Cues: profuse stool but good circulation and ability to drink; the husband's shock is the irrelevant comparison.\n2. Principle: replace fluid first, orally (ORESOL) if able to drink, IV if severe or in shock; monitor vital signs and intake and output.\n3. Match the plan to the individual's status, not to the other client in the family.\n4. Flip: if she became drowsy with a weak pulse and falling blood pressure, IV fluids would be started at once.",
-    "optionRationales": [
-      "Over-intervention: IV fluids are for severe dehydration or shock.",
-      "Correct: oral rehydration suits an alert client who can drink, with escalation if she worsens.",
-      "Unsafe: withholding fluid worsens volume loss.",
-      "Skips the priority: fluid replacement comes before the antibiotic."
-    ],
-    "strategy": "Match the fluid route to severity",
-    "archetype": "oral versus IV",
-    "difficulty": 3,
-    "bloom": "judgment",
-    "keyFacts": [
-      "Cholera: replace fluid first; ORESOL if able to drink, IV if severe or in shock."
     ],
     "source": "bank",
     "review": "unreviewed",
@@ -211,7 +175,7 @@
     ],
     "strategy": "Unstable before stable: possible perforation",
     "archetype": "recognize the complication",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Typhoid: watch for sudden right lower abdominal pain, rigid abdomen, falling BP.",
@@ -248,7 +212,7 @@
     ],
     "strategy": "Choose the diet that avoids pain triggers",
     "archetype": "avoid pain triggers",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Mumps: soft bland diet; avoid acid foods and juices that provoke pain."
@@ -268,7 +232,7 @@
     "stem": "Which response by the nurse is BEST?",
     "options": [
       "Agree that he is cured since the visible sign has gone and encourage him to practice safe sex",
-      "Explain that a healed sore is not a cure; arrange follow-up, full treatment and partner care",
+      "Explain that a healed sore is not a cure; arrange follow-up testing and partner care",
       "Tell him he need only return if a rash develops later on his palms or soles",
       "Reassure him that his girlfriend needs no check since she has no symptoms"
     ],
@@ -284,7 +248,7 @@
     ],
     "strategy": "Complete treatment even when symptoms disappear",
     "archetype": "complete treatment",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "The painless chancre goes away in 3 to 6 weeks even without treatment; the disease has not gone.",
@@ -321,7 +285,7 @@
     ],
     "strategy": "Asymptomatic does not mean uninfected",
     "archetype": "treat partners",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "About 80 percent of women with gonorrhea have no symptoms.",
@@ -358,7 +322,7 @@
     ],
     "strategy": "Circulation first: falling temperature may mean shock",
     "archetype": "falling fever is not recovery",
-    "difficulty": 5,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Dengue toxic stage: temperature falls; severe abdominal pain, vomiting, melena; shock risk.",
@@ -395,7 +359,7 @@
     ],
     "strategy": "Match control to the vector's behavior",
     "archetype": "match control to vector behavior",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Dengue: day-biting female Aedes aegypti; remove breeding sites, cover water containers.",
@@ -432,7 +396,7 @@
     ],
     "strategy": "Monitor the organ that fails: urine output",
     "archetype": "recognize kidney involvement",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "Leptospirosis: monitor urine output and breathing; kidney tubular necrosis is a complication.",
@@ -469,7 +433,7 @@
     ],
     "strategy": "ABC: airway before everything else",
     "archetype": "airway before comfort and teaching",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Tetanus: airway and ventilation first; quiet, dim room; stimuli trigger spasms.",
@@ -506,7 +470,7 @@
     ],
     "strategy": "Check status, treat as unimmunized, give the dose",
     "archetype": "unknown immunization status",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "TT is inactivated and safe in pregnancy; give TT1 as early as possible.",
@@ -543,7 +507,7 @@
     ],
     "strategy": "Airway and breathing first",
     "archetype": "breathing first",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Polio: airway and breathing first; watch for respiratory failure.",

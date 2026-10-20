@@ -26,7 +26,7 @@
     ],
     "strategy": "Verify the data layer before concluding service failure",
     "archetype": "check the data base before blaming the service",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "Order of data flow: individual record, client list, report, output.",
@@ -63,7 +63,7 @@
     ],
     "strategy": "Danger signs first, then preventive services",
     "archetype": "danger signs first, preventive services second",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Screen at each contact for danger signs; then deliver the package items that are due.",
@@ -100,7 +100,7 @@
     ],
     "strategy": "Match situation to the right law",
     "archetype": "match the situation to the law",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Milk Code (EO 51) regulates breast milk substitutes.",
@@ -137,7 +137,7 @@
     ],
     "strategy": "Match hazard category to law",
     "archetype": "match hazard to law",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Clean Water Act (RA 9275); Clean Air Act (RA 8749); Ecological Solid Waste Management Act (RA 9003).",
@@ -174,7 +174,7 @@
     ],
     "strategy": "Safety first: stop on reaction",
     "archetype": "stop first, then teach",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "Stop if there is any untoward reaction; use one kind of plant at a time.",
@@ -211,7 +211,7 @@
     ],
     "strategy": "Match intervention to readiness",
     "archetype": "match the intervention to the stage",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "Stages of change: precontemplation, contemplation, preparation, action, maintenance.",
@@ -248,7 +248,7 @@
     ],
     "strategy": "Match plant to indication",
     "archetype": "plant to use",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Sambong: swelling, diuretic, urinary stones.",
@@ -285,7 +285,7 @@
     ],
     "strategy": "Protect people at risk first",
     "archetype": "life before property",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "First priority: protect people at risk; second: critical resources and systems.",
@@ -322,7 +322,7 @@
     ],
     "strategy": "Maslow: safety first, do not leave alone",
     "archetype": "safety first",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Higher risk when there is a specific plan, available means and a past attempt.",
@@ -359,7 +359,7 @@
     ],
     "strategy": "Match need to facility capability",
     "archetype": "signal functions",
-    "difficulty": 5,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "BEmOC: antibiotics, oxytocin, magnesium sulfate, manual removal, removal of retained products, assisted delivery, newborn resuscitation.",

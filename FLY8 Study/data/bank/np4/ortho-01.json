@@ -26,7 +26,7 @@
   ],
   "strategy": "Treat the dangerous lab first",
   "archetype": "Fluids first, then drugs",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Hypercalcemia from bone metastases",
@@ -63,7 +63,7 @@
   ],
   "strategy": "Time-critical medication",
   "archetype": "Protect the antibiotic schedule",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "IV antibiotics on time for weeks",
@@ -100,7 +100,7 @@
   ],
   "strategy": "Maslow: circulation first",
   "archetype": "Bleeding before alignment",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Immobilise before moving",
@@ -137,7 +137,7 @@
   ],
   "strategy": "Assess before act; least invasive first",
   "archetype": "Elevate and reassess",
-  "difficulty": 4,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Elevate the limb to heart level",
@@ -174,7 +174,7 @@
   ],
   "strategy": "Report hidden complications",
   "archetype": "Recognise a hidden ulcer",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Heel and ankle are common pressure sites",
@@ -211,7 +211,7 @@
   ],
   "strategy": "Assess before act",
   "archetype": "Cast syndrome clues",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Cast syndrome: distention, nausea, vomiting",
@@ -248,7 +248,7 @@
   ],
   "strategy": "Scope of practice",
   "archetype": "Never adjust the frame",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Nurse never adjusts clamps on the frame",
@@ -285,7 +285,7 @@
   ],
   "strategy": "Continuous pull and alignment",
   "archetype": "Restore the pull",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Skeletal traction is never interrupted",
@@ -322,7 +322,7 @@
   ],
   "strategy": "Safety: do not disturb a suspected clot",
   "archetype": "Do not massage a suspected clot",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Watch for one-sided calf changes in traction",
@@ -365,7 +365,7 @@
   ],
   "strategy": "Prevent complications of immobility",
   "archetype": "Select preventive actions",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Immobility threatens lungs, gut, bladder and veins",
@@ -402,7 +402,7 @@
   ],
   "strategy": "Stop and escalate",
   "archetype": "Recognise dislocation",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Never flex the hip past 90 degrees",
@@ -439,7 +439,7 @@
   ],
   "strategy": "Match teaching to disease",
   "archetype": "Use the aid correctly",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Hold the cane on the stronger side",
@@ -476,7 +476,7 @@
   ],
   "strategy": "Recognise the new finding",
   "archetype": "Report the fever",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "RA is symmetrical and systemic",
@@ -513,7 +513,7 @@
   ],
   "strategy": "Maslow: circulation first",
   "archetype": "Control bleeding first",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Keep a tourniquet at the bedside",
@@ -550,7 +550,7 @@
   ],
   "strategy": "Therapeutic communication",
   "archetype": "Validate the sensation",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Phantom sensations are real",
@@ -587,7 +587,7 @@
   ],
   "strategy": "Up with the good, down with the bad",
   "archetype": "Up with the good",
-  "difficulty": 4,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Up with the good, down with the bad",
@@ -624,7 +624,7 @@
   ],
   "strategy": "Suspect the serious cause",
   "archetype": "Suspect a fracture",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Osteoporosis fractures easily, including vertebrae",
@@ -667,7 +667,7 @@
   ],
   "strategy": "Lifestyle teaching",
   "archetype": "Select supportive teaching",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Gout: high uric acid; push fluids",
@@ -704,7 +704,7 @@
   ],
   "strategy": "Unstable before stable: red flag",
   "archetype": "Spot the urgent finding",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Most back pain is self-limiting",
@@ -741,7 +741,7 @@
   ],
   "strategy": "Assess before act",
   "archetype": "Investigate nerve complaints",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Investigate burning under the boot immediately",
@@ -778,7 +778,7 @@
   ],
   "strategy": "Maslow: airway first",
   "archetype": "Airway before everything",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Watch the airway after neck surgery",
@@ -815,7 +815,7 @@
   ],
   "strategy": "Safety first",
   "archetype": "Reduce fall hazards",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Cataract is painless clouding of the lens",
@@ -852,7 +852,7 @@
   ],
   "strategy": "Interpret the examination",
   "archetype": "Interpret the examination",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Pain on moving the auricle suggests external otitis",
@@ -889,7 +889,7 @@
   ],
   "strategy": "Recognise the sudden change",
   "archetype": "Report sudden change in AMD",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Amsler grid at home; report any change at once",
@@ -926,7 +926,7 @@
   ],
   "strategy": "Recognise the complication",
   "archetype": "Ulcer needs an eye specialist",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Abrasion heals quickly; ulcer needs an ophthalmologist",

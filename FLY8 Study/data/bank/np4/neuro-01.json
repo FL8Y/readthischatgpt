@@ -26,7 +26,7 @@
   ],
   "strategy": "Unstable before stable: act on the earliest sign",
   "archetype": "Do not wait for the late sign",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Change in level of consciousness is the earliest sign",
@@ -63,7 +63,7 @@
   ],
   "strategy": "Compare with baseline; level of consciousness first",
   "archetype": "Compare with the baseline",
-  "difficulty": 4,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Level of consciousness is the most sensitive early sign",
@@ -100,7 +100,7 @@
   ],
   "strategy": "Unstable before stable",
   "archetype": "Respond to a worsening pattern",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Decorticate to decerebrate means worsening injury",
@@ -137,7 +137,7 @@
   ],
   "strategy": "Maslow: airway first",
   "archetype": "Aspiration before nutrition",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Check gag reflex and swallow before feeding",
@@ -174,7 +174,7 @@
   ],
   "strategy": "Least invasive first",
   "archetype": "Non-drug measures first",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Avoid restraints; they increase agitation",
@@ -217,7 +217,7 @@
   ],
   "strategy": "Airway and injury protection",
   "archetype": "Select safe actions",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Do not restrain or put anything in the mouth",
@@ -254,7 +254,7 @@
   ],
   "strategy": "Act on the warning sign",
   "archetype": "A resolved deficit is still a warning",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "TIA is a warning for stroke",
@@ -291,7 +291,7 @@
   ],
   "strategy": "Time medication to muscle need",
   "archetype": "Time the drug to the meal",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Give medicine 20 to 30 minutes before meals",
@@ -328,7 +328,7 @@
   ],
   "strategy": "Maslow: oxygenation first with spinal protection",
   "archetype": "Airway with spinal protection",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Breathing first in cervical injury",
@@ -365,7 +365,7 @@
   ],
   "strategy": "Unstable before stable",
   "archetype": "Escalate a catastrophic headache",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Sudden severe headache in SAH is an emergency",
@@ -402,7 +402,7 @@
   ],
   "strategy": "Match location to behaviour",
   "archetype": "Link location to behaviour",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Right hemisphere: impulsive, unaware of deficits",
@@ -439,7 +439,7 @@
   ],
   "strategy": "Protect others and escalate",
   "archetype": "Isolate and escalate",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Positive Brudzinski and Kernig signs in meningitis",
@@ -476,7 +476,7 @@
   ],
   "strategy": "Maslow: airway first",
   "archetype": "Airway while the seizure continues",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Status epilepticus is an emergency",
@@ -513,7 +513,7 @@
   ],
   "strategy": "Maslow: airway first; identify the crisis",
   "archetype": "Opposite treatments",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Myasthenic crisis: too little drug",
@@ -550,48 +550,11 @@
   ],
   "strategy": "Recognise the complication",
   "archetype": "Report the pressure sign",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Sudden pain with restlessness suggests pressure",
    "Fever suggests infection"
-  ],
-  "source": "bank",
-  "review": "unreviewed",
-  "aiWritten": true
- },
- {
-  "id": "np4-0066",
-  "v": 2,
-  "type": "single",
-  "area": "NP4",
-  "topic": "Orders for glaucoma and Parkinson disease",
-  "noteId": "np4-ns-x-eye-drugs-instillation",
-  "vignette": "A 70-year-old with Parkinson's disease and chronic open-angle glaucoma is admitted. New orders include carbidopa-levodopa, beta-blocker eye drops, benztropine, and pilocarpine drops.",
-  "stem": "Which order should the nurse question?",
-  "options": [
-   "Carbidopa-levodopa",
-   "Benztropine",
-   "Beta-blocker eye drops",
-   "Pilocarpine drops"
-  ],
-  "answer": [
-   1
-  ],
-  "rationale": "1. Cue: Parkinson's disease with glaucoma and a new anticholinergic.\n2. Principle: anticholinergics dilate the pupil and may raise eye pressure.\n3. Priority rule: question the order that conflicts with a coexisting condition.\n4. The other three orders are routine.\nFlip: If the client had no glaucoma, benztropine would be acceptable.",
-  "optionRationales": [
-   "Appropriate for Parkinson's disease.",
-   "Correct. Anticholinergics can raise eye pressure and should be avoided in glaucoma unless benefit clearly outweighs risk.",
-   "Appropriate to lower eye pressure.",
-   "Appropriate to improve outflow in glaucoma."
-  ],
-  "strategy": "Question the interacting drug",
-  "archetype": "Question the interacting drug",
-  "difficulty": 4,
-  "bloom": "judgment",
-  "keyFacts": [
-   "Avoid anticholinergics in glaucoma",
-   "Pilocarpine constricts the pupil"
   ],
   "source": "bank",
   "review": "unreviewed",
@@ -624,7 +587,7 @@
   ],
   "strategy": "Correct the unsafe plan",
   "archetype": "Correct the unsafe plan",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Avoid overheating and fatigue",
@@ -661,7 +624,7 @@
   ],
   "strategy": "Maslow: oxygenation first",
   "archetype": "Watch breathing",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Ascending paralysis; watch respiratory function",
@@ -698,7 +661,7 @@
   ],
   "strategy": "Prevent aspiration and falls",
   "archetype": "Thicken and sit up",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Aspiration precautions and thickened fluids",
@@ -741,7 +704,7 @@
   ],
   "strategy": "Medication teaching",
   "archetype": "Select correct teaching",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Levodopa side effects: orthostatic hypotension, confusion",
@@ -778,7 +741,7 @@
   ],
   "strategy": "Remove the trigger",
   "archetype": "Remove the trigger",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Autonomic dysreflexia: sit upright, check bladder",
@@ -815,7 +778,7 @@
   ],
   "strategy": "Protect the cornea",
   "archetype": "Protect the exposed cornea",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Bell's palsy affects the whole side including the forehead",
@@ -852,7 +815,7 @@
   ],
   "strategy": "Match communication to the deficit",
   "archetype": "Match the method to the deficit",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Receptive aphasia: cannot understand speech",
@@ -889,7 +852,7 @@
   ],
   "strategy": "Interpret results",
   "archetype": "Interpret the results",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Conductive: Weber to affected ear; bone longer than air",
@@ -926,7 +889,7 @@
   ],
   "strategy": "Protect the exposed structure",
   "archetype": "Protect what the nerve cannot",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Absent corneal reflex means cranial nerve V problem",

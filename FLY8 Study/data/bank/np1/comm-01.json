@@ -26,7 +26,7 @@
     ],
     "strategy": "Match the measure to the person's status",
     "archetype": "exposed but well versus sick",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Quarantine: exposed but not necessarily sick, for the longest incubation period.",
@@ -63,7 +63,7 @@
     ],
     "strategy": "Communicability starts before the signs",
     "archetype": "pre-symptomatic communicability",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "Mumps: infectious up to a week (usually 2 days) before the swelling until 9 days after.",
@@ -100,7 +100,7 @@
     ],
     "strategy": "Cause to control: break the link that carries it",
     "archetype": "vector versus vehicle versus intermediate host",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Oncomelania snail is the intermediate host of Schistosoma japonicum.",
@@ -137,7 +137,7 @@
     ],
     "strategy": "Standard plus the layer that matches the route",
     "archetype": "standard plus transmission-based",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Standard precautions for all; add transmission-based precautions that match the organism.",
@@ -174,7 +174,7 @@
     ],
     "strategy": "Identify the component an intervention changes",
     "archetype": "which component the action targets",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "The triangle: host, agent, environment.",
@@ -211,47 +211,11 @@
     ],
     "strategy": "First priority: wash the wound",
     "archetype": "wound care first",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "Wash the wound immediately with soap and running water; then antiseptic; then refer.",
       "Confine a biting dog for 10 to 14 days."
-    ],
-    "source": "bank",
-    "review": "unreviewed",
-    "aiWritten": true
-  },
-  {
-    "id": "np1-0067",
-    "v": 2,
-    "type": "single",
-    "area": "NP1",
-    "topic": "Confirming schistosomiasis",
-    "noteId": "np1-cd-schisto",
-    "vignette": "A 9-year-old in Leyte has bloody mucoid stools, fever, cough and chills after wading and bathing in a stream with his cousins. The doctor suspects snail fever, but the first stool examination was negative.",
-    "stem": "Which test is the confirmatory test for this disease?",
-    "options": [
-      "Sputum acid-fast bacilli smear",
-      "Circumoval precipitin test",
-      "Repeat stool microscopy",
-      "Slit-skin smear"
-    ],
-    "answer": [
-      1
-    ],
-    "rationale": "1. Cue: strong exposure and symptoms with one negative stool examination.\n2. Principle: diagnosis includes stool examination, biopsy and ELISA, and the circumoval precipitin test (COPT) is the confirmatory test.\n3. The sputum smear and slit-skin smear belong to tuberculosis and leprosy.\n4. Flip: if the question asked for the routine screening exam in the field, stool microscopy would fit.",
-    "optionRationales": [
-      "Test for tuberculosis, not for a blood fluke.",
-      "Correct: COPT is the confirmatory test for schistosomiasis.",
-      "Routine test that was already negative; it is not the confirmatory test.",
-      "Test for leprosy, not for a blood fluke."
-    ],
-    "strategy": "Match test to purpose",
-    "archetype": "confirmatory test",
-    "difficulty": 3,
-    "bloom": "judgment",
-    "keyFacts": [
-      "COPT is confirmatory for schistosomiasis; praziquantel is the drug of choice."
     ],
     "source": "bank",
     "review": "unreviewed",
@@ -284,7 +248,7 @@
     ],
     "strategy": "Timing matters: nocturnal periodicity",
     "archetype": "test timing",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Nocturnal blood examination around 8 PM; ICT is a rapid antigen test done in daytime."
@@ -320,7 +284,7 @@
     ],
     "strategy": "Break the vector link",
     "archetype": "match teaching to mosquito behavior",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Malaria is transmitted by the bite of the female Anopheles mosquito.",
@@ -357,7 +321,7 @@
     ],
     "strategy": "Standard precautions: never recap by hand",
     "archetype": "spot the unsafe practice",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Never bend or recap needles; use a puncture-resistant container.",
@@ -431,7 +395,7 @@
     ],
     "strategy": "Confirm before treating: tuberculin shows exposure only",
     "archetype": "exposure versus disease",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Sputum AFB smear is confirmatory; tuberculin tests show exposure, not active disease.",
@@ -468,7 +432,7 @@
     ],
     "strategy": "Teach the interaction that has consequences",
     "archetype": "drug interaction teaching",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Rifampicin turns body fluids red-orange and weakens oral contraceptives.",
@@ -488,7 +452,7 @@
     "vignette": "A school nurse finds a pupil with vesicles in different stages on the trunk. The pupil sat in a class with a classmate receiving chemotherapy for leukemia. The class teacher is 12 weeks pregnant and does not remember having chickenpox. Three days have passed since exposure.",
     "stem": "Which action is the highest priority for the exposed classmate on chemotherapy?",
     "options": [
-      "Refer for varicella-zoster immune globulin within 10 days of exposure",
+      "Refer promptly for varicella-zoster immune globulin, which is given as early as possible after exposure",
       "Give the live varicella vaccine today, since vaccination protects after exposure",
       "Observe the classmate and treat only if vesicles appear during the next 3 weeks",
       "Keep the classmate home but take no other action since a 3-day delay is too long"
@@ -496,7 +460,7 @@
     "answer": [
       0
     ],
-    "rationale": "1. Cues: a high-risk child (chemotherapy) with a known exposure 3 days ago.\n2. Principle: VZIG is given to exposed high-risk, susceptible people within 10 days of exposure; live vaccines are avoided in the immunosuppressed; the infected pupil is excluded from school until lesions are crusted.\n3. Priority rule: act inside the time window to prevent severe disease in the most vulnerable.\n4. Flip: if the exposed child were healthy and non-immune, the vaccine could be considered and VZIG would not be needed.",
+    "rationale": "1. Cues: a high-risk child (chemotherapy) with a known exposure 3 days ago.\n2. Principle: VZIG is given to exposed high-risk, susceptible people as early as possible after exposure; live vaccines are avoided in the immunosuppressed; the infected pupil is excluded from school until lesions are crusted.\n3. Priority rule: act inside the time window to prevent severe disease in the most vulnerable.\n4. Flip: if the exposed child were healthy and non-immune, the vaccine could be considered and VZIG would not be needed.",
     "optionRationales": [
       "Correct: time-limited protection for the high-risk contact.",
       "Unsafe: a live vaccine is avoided in a client with malignant disease and immunosuppression.",
@@ -505,7 +469,7 @@
     ],
     "strategy": "Protect the high-risk contact within the time window",
     "archetype": "protect the vulnerable contact",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "VZIG within 10 days of exposure for high-risk exposed people.",
@@ -542,7 +506,7 @@
     ],
     "strategy": "Protect the pregnant woman from the fetal-risk infection",
     "archetype": "protect the fetus",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "Rubella: post-auricular and sub-occipital nodes; rash 1 to 5 days without pigmentation or peeling.",
@@ -579,7 +543,7 @@
     ],
     "strategy": "Teach the correct risk to the susceptible contact",
     "archetype": "what contacts can catch",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "A susceptible person can catch chickenpox, not shingles, from a case of zoster.",
@@ -616,7 +580,7 @@
     ],
     "strategy": "Distinguish expected from alarming findings",
     "archetype": "expected versus alarming findings",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Measles stages: pre-eruptive, eruptive, convalescent.",
@@ -653,7 +617,7 @@
     ],
     "strategy": "ABC: airway before diagnostics",
     "archetype": "airway before the swab",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Bull neck and grayish pseudomembrane: diphtheria.",
@@ -690,7 +654,7 @@
     ],
     "strategy": "Match test to disease",
     "archetype": "test to disease",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Scabies: scraping a burrow under a low-power microscope.",
@@ -727,7 +691,7 @@
     ],
     "strategy": "Unstable before stable: replace fluid first",
     "archetype": "rehydration before antibiotics",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Cholera: rehydration first, then antibiotic.",
@@ -749,7 +713,7 @@
     "options": [
       "Give a tepid sponge bath to bring the fever down",
       "Encourage fluids, calories and vitamins and ask the mother to return tomorrow",
-      "Give the ordered antibiotic and observe him for an hour",
+      "Encourage extra fluids and observe him in the waiting area for an hour",
       "Position him for lung expansion, assess breathing, and give oxygen as ordered"
     ],
     "answer": [
@@ -759,7 +723,7 @@
     "optionRationales": [
       "Right action, wrong time: fever is addressed after breathing is stabilized.",
       "Under-reaction: waiting overnight ignores respiratory distress.",
-      "Right treatment, wrong priority: the antibiotic is needed but does not relieve distress at once.",
+      "Wrong: fluids are supportive but do not treat chest indrawing; watching and waiting delays the airway and breathing assessment.",
       "Correct: oxygenation takes priority."
     ],
     "strategy": "Airway and breathing first",
@@ -800,7 +764,7 @@
     ],
     "strategy": "Safety before coverage: live vaccine screening",
     "archetype": "contraindication in an outbreak",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Measles vaccine is live; not given to pregnant women or people with active TB, leukemia, lymphoma or weak immunity."
@@ -836,7 +800,7 @@
     ],
     "strategy": "Protect the anesthetic skin",
     "archetype": "teaching for skin without sensation",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Protect anesthetic skin: check water temperature, proper footwear, avoid injury or pressure.",
@@ -873,7 +837,7 @@
     ],
     "strategy": "Treat the household at the same time",
     "archetype": "treat the household",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Treat and check all household and close contacts.",
@@ -910,7 +874,7 @@
     ],
     "strategy": "Match cluster to disease",
     "archetype": "distinguish rash illnesses",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Rubella: post-auricular nodes, short rash, no pigmentation or peeling, danger to the fetus."

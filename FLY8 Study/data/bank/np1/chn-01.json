@@ -26,7 +26,7 @@
     ],
     "strategy": "Community is the ultimate client",
     "archetype": "client level: individual versus community",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "The community is the ultimate client; individuals and families are entry points.",
@@ -63,85 +63,11 @@
     ],
     "strategy": "Assess before act",
     "archetype": "assess barriers before teaching",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "Assess lifestyle, readiness and barriers first.",
       "Small specific goals linked to the person's own foods, work and budget."
-    ],
-    "source": "bank",
-    "review": "unreviewed",
-    "aiWritten": true
-  },
-  {
-    "id": "np1-0003",
-    "v": 2,
-    "type": "single",
-    "area": "NP1",
-    "topic": "Levels of prevention",
-    "noteId": "np1-three-levels-of-prevention",
-    "vignette": "A health center nurse sees a 58-year-old man who has had type 2 diabetes for eight years. His last foot examination showed intact skin and normal sensation. She teaches him daily foot inspection, proper footwear and when to report a blister. His wife, who attended the earlier BCG day, asks if this is also \"preventing disease\".",
-    "stem": "At which level of prevention is the foot teaching best classified?",
-    "options": [
-      "Secondary prevention, because daily inspection is a way of finding foot problems early",
-      "Primary prevention, because the client has no foot lesion yet and nothing has been damaged",
-      "Tertiary prevention, because the disease is established and the aim is limiting complications",
-      "Health promotion, because the nurse's intervention is teaching rather than treatment or screening"
-    ],
-    "answer": [
-      2
-    ],
-    "rationale": "1. Cue: the client already has diabetes (established disease), and the teaching aims at foot complications; the absence of a lesion today is the irrelevant detail.\n2. Principle: the level is chosen from the client's current stage, not from the activity or the disease name.\n3. Tertiary prevention starts after disease exists and limits complications and disability; teaching a client with diabetes to prevent foot complications is the note's own example.\n4. Inspection sounds like screening (secondary), but here the client does the inspecting to prevent complications; no test is being used to find unrecognized disease.\n5. Flip: if the same teaching were given to a healthy adult at risk who has no diabetes, it would be primary prevention.",
-    "optionRationales": [
-      "Plausible detail from a similar level: inspection resembles case finding, but nothing undiagnosed is being detected.",
-      "Right action, wrong stage: lack of a lesion today does not make the client disease-free; diabetes is already established.",
-      "Correct: established disease plus complication prevention equals tertiary prevention.",
-      "True statement that does not answer the question: teaching is a method used at any level, not a level itself."
-    ],
-    "strategy": "Prevention level: stage of disease decides",
-    "archetype": "stage decides the level, not the activity",
-    "difficulty": 4,
-    "bloom": "judgment",
-    "keyFacts": [
-      "Pick the level from the client's current stage, not the disease name.",
-      "Teaching a client with diabetes to prevent foot complications is tertiary prevention."
-    ],
-    "source": "bank",
-    "review": "unreviewed",
-    "aiWritten": true
-  },
-  {
-    "id": "np1-0004",
-    "v": 2,
-    "type": "single",
-    "area": "NP1",
-    "topic": "Public health nurse roles",
-    "noteId": "np1-g-phn-roles",
-    "vignette": "After clinic hours, a public health nurse gathers three rural health midwives, shows them how to fill out a new immunization tally sheet, and watches each midwife complete a sample sheet. Earlier that day she tallied her own caseload for the monthly report.",
-    "stem": "Which role is the nurse performing when she shows the midwives how to fill out the tally sheet?",
-    "options": [
-      "Manager and supervisor of the nursing plan",
-      "Health educator, counselor and trainer",
-      "Reporter, recorder and statistician",
-      "Service coordinator linking the midwives to resources"
-    ],
-    "answer": [
-      1
-    ],
-    "rationale": "1. Cue: the nurse demonstrates a skill and observes a return performance by the midwives; that is teaching and training.\n2. Principle: the exam asks which hat the described action belongs to; teaching midwives is the educator/trainer role.\n3. The tallying of her own caseload is the irrelevant detail pointing to recorder/statistician; supervising would involve writing and carrying out the nursing plan and leading people, not training a skill.\n4. Flip: if she reviewed the midwives' completed sheets to find service gaps and then reassigned their duties, she would be acting as manager and supervisor.",
-    "optionRationales": [
-      "Plausible role confusion: supervision directs people to carry out the plan; this act builds a specific skill.",
-      "Correct: demonstration and return demonstration to midwives is the educator and trainer role.",
-      "Plausible detail from the vignette: the nurse records her own caseload, but that is not the act being asked about.",
-      "True role but wrong act: coordination links clients to services rather than training workers."
-    ],
-    "strategy": "Role matching: trainer versus supervisor",
-    "archetype": "match action to role",
-    "difficulty": 4,
-    "bloom": "judgment",
-    "keyFacts": [
-      "A nurse teaching midwives acts as trainer.",
-      "A nurse who tallies cases is the recorder or statistician."
     ],
     "source": "bank",
     "review": "unreviewed",
@@ -174,7 +100,7 @@
     ],
     "strategy": "Evaluate teaching: spot the misunderstanding",
     "archetype": "which statement needs reteaching",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Start within the first hour; feed on demand; complementary foods at six months and continue to two years.",
@@ -211,7 +137,7 @@
     ],
     "strategy": "Unstable before stable",
     "archetype": "referral versus counseling",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Warning signs needing urgent care include very high blood pressure with symptoms.",
@@ -285,7 +211,7 @@
     ],
     "strategy": "Nursing process sequence: plan the evaluation",
     "archetype": "which phase owns which task",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Evaluation parameters are developed during planning.",
@@ -322,7 +248,7 @@
     ],
     "strategy": "Safety first: rule out second baby before oxytocin",
     "archetype": "sequence at birth",
-    "difficulty": 5,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "Oxytocin is given within about a minute of birth after checking for a second baby.",
@@ -359,7 +285,7 @@
     ],
     "strategy": "Match cue to element",
     "archetype": "match problem to reform element",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Health financing: more, better and sustained investment, e.g. PhilHealth.",
@@ -396,7 +322,7 @@
     ],
     "strategy": "Evaluate then re-plan",
     "archetype": "partially met goal",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Evaluation: was the objective met, partially met or not met.",
@@ -433,7 +359,7 @@
     ],
     "strategy": "Scope: devolution to local government",
     "archetype": "who is responsible",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "Devolution under RA 7160 moved structures, personnel and budgets to LGUs.",
@@ -470,7 +396,7 @@
     ],
     "strategy": "Cue to component",
     "archetype": "identify missing component",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "Four parts of a health zone: people, boundaries, facilities, health workers.",
@@ -507,7 +433,7 @@
     ],
     "strategy": "Prevalence = incidence x duration",
     "archetype": "incidence versus prevalence",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Incidence counts new cases; prevalence counts all existing cases.",
@@ -544,7 +470,7 @@
     ],
     "strategy": "Use local data to prioritize",
     "archetype": "data to element",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "A community pattern points to the element to strengthen.",
@@ -581,7 +507,7 @@
     ],
     "strategy": "Participation first: ownership drives the rest",
     "archetype": "what to strengthen first",
-    "difficulty": 5,
+    "difficulty": 3,
     "bloom": "judgment",
     "keyFacts": [
       "Four cornerstones: participation, linkages, appropriate technology, support mechanisms.",
@@ -618,7 +544,7 @@
     ],
     "strategy": "Report the unexpected adverse effect",
     "archetype": "expected versus reportable effects",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "Rifampicin turns body fluids red-orange.",
@@ -656,7 +582,7 @@
     ],
     "strategy": "Do not restart; false contraindication",
     "archetype": "schedule is not restarted",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "The schedule is not restarted; a missed dose is simply given.",
@@ -693,7 +619,7 @@
     ],
     "strategy": "SMART objective",
     "archetype": "measurable objective",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Objectives follow SMART: specific, measurable, attainable, realistic, time-bound.",
@@ -767,7 +693,7 @@
     ],
     "strategy": "Continuity of care across levels",
     "archetype": "follow-up after hospital discharge",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Referral is two-way; clients also return to the lower level for follow-up.",
@@ -804,48 +730,11 @@
     ],
     "strategy": "Emergency first, then order of arrival",
     "archetype": "emergency skips the queue",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Emergencies skip the queue; the rest follow order of arrival.",
       "Triage: program cases by protocol, non-program cases to physician, emergencies get first aid."
-    ],
-    "source": "bank",
-    "review": "unreviewed",
-    "aiWritten": true
-  },
-  {
-    "id": "np1-0023",
-    "v": 2,
-    "type": "single",
-    "area": "NP1",
-    "topic": "Evaluating teaching",
-    "noteId": "np1-health-education",
-    "vignette": "The nurse demonstrated how to prepare oral rehydration solution to four mothers at the health center. She now wants to know which mother has reached the objective \"prepares ORS correctly\".",
-    "stem": "Which response from a mother shows the objective has been met?",
-    "options": [
-      "She says she understands why ORS is important for her sick child and plans to use it",
-      "She repeats the steps in the correct order when the nurse asks her to recite them",
-      "She mixes the packet in the measured clean water and tells how often to give it",
-      "She tells the nurse she has already watched her neighbor use ORS for a sick child"
-    ],
-    "answer": [
-      2
-    ],
-    "rationale": "1. Cue: the objective uses the verb \"prepares\", a psychomotor skill.\n2. Principle: competency-based teaching defines the exact behavior and checks it by return demonstration; verbs point to the domain.\n3. Reciting and understanding are cognitive or affective evidence and do not prove the skill is performed correctly.\n4. Flip: if the objective were \"explains why ORS is needed\", the recitation would be sufficient evidence.",
-    "optionRationales": [
-      "Affective or cognitive evidence only; it does not show the skill.",
-      "Cognitive recall of steps; it does not show correct mixing and measuring.",
-      "Correct: a return demonstration shows psychomotor competence.",
-      "Prior exposure is not evidence of competence."
-    ],
-    "strategy": "Competency means performing",
-    "archetype": "return demonstration",
-    "difficulty": 3,
-    "bloom": "judgment",
-    "keyFacts": [
-      "Competency-based teaching is checked by return demonstration.",
-      "Psychomotor verbs: demonstrate, prepare, perform."
     ],
     "source": "bank",
     "review": "unreviewed",
@@ -878,7 +767,7 @@
     ],
     "strategy": "Compare with usual level",
     "archetype": "sporadic versus endemic versus epidemic",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Sporadic, endemic, epidemic, pandemic.",
@@ -915,7 +804,7 @@
     ],
     "strategy": "Classify by client focus",
     "archetype": "classify the nursing practice",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "Community-based nursing: care as clients move among various services outside hospitals.",

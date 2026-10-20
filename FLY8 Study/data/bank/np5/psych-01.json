@@ -63,7 +63,7 @@
   ],
   "strategy": "Therapeutic communication: feelings before facts",
   "archetype": "Address the feeling, not the claim",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Do not argue with or agree to a delusion",
@@ -100,7 +100,7 @@
   ],
   "strategy": "Match the technique to the need",
   "archetype": "Match the technique to the need",
-  "difficulty": 4,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Concentrating on one topic helps topic jumping",
@@ -137,7 +137,7 @@
   ],
   "strategy": "Therapeutic relationship boundaries",
   "archetype": "Keep boundaries at termination",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Termination: review progress and discuss feelings",
@@ -174,7 +174,7 @@
   ],
   "strategy": "Least restrictive first",
   "archetype": "Least restrictive first",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Least restrictive effective measure",
@@ -211,7 +211,7 @@
   ],
   "strategy": "Maslow: airway first",
   "archetype": "Airway while restrained",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Maintain airway and breathing while restrained",
@@ -248,7 +248,7 @@
   ],
   "strategy": "Safety first: assess before act",
   "archetype": "Safety assessment",
-  "difficulty": 4,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Assess command hallucinations and potential for harm",
@@ -285,7 +285,7 @@
   ],
   "strategy": "Support function",
   "archetype": "Structure and prompts",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Negative symptoms: flat affect, avolition",
@@ -322,7 +322,7 @@
   ],
   "strategy": "Ground in the present",
   "archetype": "Ground in the present",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "During a flashback, orient to the present",
@@ -359,7 +359,7 @@
   ],
   "strategy": "Do not argue; acknowledge the feeling",
   "archetype": "Do not argue; acknowledge fear",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Persecutory delusion: poisoned food",
@@ -396,7 +396,7 @@
   ],
   "strategy": "Teach only when anxiety is mild",
   "archetype": "Teach only when calm enough",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Severe anxiety: perception narrowed, cannot learn",
@@ -433,7 +433,7 @@
   ],
   "strategy": "Stay with the client",
   "archetype": "Short calm directions",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Stay with the client in panic",
@@ -470,7 +470,7 @@
   ],
   "strategy": "Look for the medical cause",
   "archetype": "Look for a medical cause",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Visual hallucinations suggest delirium",
@@ -507,7 +507,7 @@
   ],
   "strategy": "Crisis: directive and present-focused",
   "archetype": "Be directive",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Crisis intervention is short-term and present-focused",
@@ -544,7 +544,7 @@
   ],
   "strategy": "Return control to the survivor",
   "archetype": "Support and preserve evidence",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Preserve evidence; avoid bathing before collection",
@@ -581,7 +581,7 @@
   ],
   "strategy": "Consistency across the team",
   "archetype": "Consistent team approach",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Borderline: structure and consistency",
@@ -618,48 +618,11 @@
   ],
   "strategy": "Build independence in small steps",
   "archetype": "Build autonomy",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Dependent: foster autonomy",
    "Do not make decisions for the client"
-  ],
-  "source": "bank",
-  "review": "unreviewed",
-  "aiWritten": true
- },
- {
-  "id": "np5-0018",
-  "v": 2,
-  "type": "single",
-  "area": "NP5",
-  "topic": "Detachment with urge to cut",
-  "noteId": "np5-pd-dissociative-disorders",
-  "vignette": "A client with a history of abuse tells the nurse she feels outside her body and the room looks unreal. She is curled up with her arms around her knees, startles at a cough, and whispers that she wants to cut herself tonight.",
-  "stem": "What should the nurse do first?",
-  "options": [
-   "Begin grounding by asking her to name five things she can see",
-   "Ask her to describe the abuse in detail so she can process it",
-   "Suggest she write about her feelings at the usual evening time",
-   "Stay with her and ask about her plan to harm herself"
-  ],
-  "answer": [
-   3
-  ],
-  "rationale": "1. Cue: detachment, startle and an expressed wish to cut.\n2. Principle: in dissociative disorders suicide and self-harm risk are assessed first.\n3. Priority rule: safety assessment, then grounding and expression.\n4. The key beats grounding because the risk may need an immediate plan.\nFlip: If she denied any wish to harm herself, grounding would be the first step.",
-  "optionRationales": [
-   "Right technique, wrong order. Safety assessment comes first.",
-   "Forcing retelling can retraumatize.",
-   "Right idea later, but it does not address immediate risk.",
-   "Correct. Self-harm risk is assessed first; grounding follows."
-  ],
-  "strategy": "Safety first: assess before act",
-  "archetype": "Safety then grounding",
-  "difficulty": 4,
-  "bloom": "judgment",
-  "keyFacts": [
-   "Assess suicide and self-harm risk first",
-   "Grounding: remind her she is in the present, safe"
   ],
   "source": "bank",
   "review": "unreviewed",
@@ -692,7 +655,7 @@
   ],
   "strategy": "Gradual reduction of the ritual",
   "archetype": "Do not forbid abruptly",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Do not forbid the ritual abruptly",
@@ -729,7 +692,7 @@
   ],
   "strategy": "Rule out physical illness; do not confront",
   "archetype": "Take the complaint seriously",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Conversion disorder: real loss of function, calm unconcern",
@@ -766,7 +729,7 @@
   ],
   "strategy": "Limit reinforcement of symptoms",
   "archetype": "Limit attention to symptoms",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Secondary gain: benefit from others",
@@ -809,48 +772,11 @@
   ],
   "strategy": "Eliminate the blocks",
   "archetype": "Select the blocks",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "False reassurance, advising and why are blocks",
    "Reflecting feelings is therapeutic"
-  ],
-  "source": "bank",
-  "review": "unreviewed",
-  "aiWritten": true
- },
- {
-  "id": "np5-0023",
-  "v": 2,
-  "type": "single",
-  "area": "NP5",
-  "topic": "Voices accusing the nurse",
-  "noteId": "np5-therapeutic-communication",
-  "vignette": "A client in a day room tells the nurse, 'The voices say you are poisoning my medicine.' He is tense and looking around the room. No one else has spoken.",
-  "stem": "Which reply is best?",
-  "options": [
-   "I hear no voices, but I can see this frightens you.",
-   "The voices are not real, so you should ignore them.",
-   "I hear them too, but I promise I am not poisoning you.",
-   "Why do you think the voices have picked on you?"
-  ],
-  "answer": [
-   0
-  ],
-  "rationale": "1. Cue: hallucinated accusation with fear.\n2. Principle: do not argue or agree; state your own perception and acknowledge the experience.\n3. Priority rule: pick the reply that names the feeling and keeps reality honest.\n4. The key beats telling him to ignore the voices because it keeps trust.\nFlip: If the voices commanded him to harm someone, the nurse would assess the command first.",
-  "optionRationales": [
-   "Correct. It presents the nurse's own perception without arguing and acknowledges the feeling.",
-   "Disagrees and gives advice, which closes the conversation.",
-   "Agreeing with the hallucination reinforces it.",
-   "A why question that asks him to explain."
-  ],
-  "strategy": "Presenting reality gently",
-  "archetype": "Present reality without arguing",
-  "difficulty": 3,
-  "bloom": "judgment",
-  "keyFacts": [
-   "Present reality; acknowledge the experience",
-   "Do not argue or agree"
   ],
   "source": "bank",
   "review": "unreviewed",
@@ -883,7 +809,7 @@
   ],
   "strategy": "Match learning to anxiety level",
   "archetype": "Match learning to anxiety level",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Mild anxiety enhances learning",
@@ -920,7 +846,7 @@
   ],
   "strategy": "Explore the reason",
   "archetype": "Explore before correcting",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Keep taking medication even when well",

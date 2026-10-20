@@ -26,7 +26,7 @@
   ],
   "strategy": "Unstable before stable: new finding with deterioration",
   "archetype": "which finding needs follow-up",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "S3 is early diastole and normal under about 30 years",
@@ -64,7 +64,7 @@
   ],
   "strategy": "Hemodynamic levers: preload vs afterload",
   "archetype": "match the drug to the lever",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Afterload is resistance to ejection",
@@ -105,7 +105,7 @@
   ],
   "strategy": "Modifiable vs non-modifiable risk",
   "archetype": "select modifiable risk",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Modifiable: smoking, hypertension, diabetes, obesity, inactivity, hyperlipidemia",
@@ -142,7 +142,7 @@
   ],
   "strategy": "Pathophysiology: compensation causes overload",
   "archetype": "pathophysiology to nursing cue",
-  "difficulty": 4,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Low renal perfusion releases renin",
@@ -179,7 +179,7 @@
   ],
   "strategy": "ABCs: breathing before rhythm and labs",
   "archetype": "competing priorities",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "High Fowler's relieves dyspnea in mitral stenosis",
@@ -216,7 +216,7 @@
   ],
   "strategy": "Match lesion to plan: aortic regurgitation",
   "archetype": "cue interpretation then plan",
-  "difficulty": 5,
+  "difficulty": 3,
   "bloom": "judgment",
   "keyFacts": [
    "Aortic regurgitation: diastolic blowing murmur, wide pulse pressure, water-hammer pulse",
@@ -253,7 +253,7 @@
   ],
   "strategy": "Unstable client: activate emergency response",
   "archetype": "first response",
-  "difficulty": 4,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Teach clients to report sudden severe pain at once",
@@ -290,7 +290,7 @@
   ],
   "strategy": "Unstable before stable; recognise cause of low output",
   "archetype": "cue pattern then first action",
-  "difficulty": 5,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Beck's triad: JVD, hypotension, muffled heart sounds",
@@ -327,7 +327,7 @@
   ],
   "strategy": "Treat the client, not the monitor; unstable first",
   "archetype": "interpret rate then decide",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Purkinje fibers 20-40 bpm act as last-resort pacemaker",
@@ -364,7 +364,7 @@
   ],
   "strategy": "Pattern recognition: U wave suggests low potassium",
   "archetype": "interpret and act",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "U wave may be seen with hypokalemia",
@@ -401,7 +401,7 @@
   ],
   "strategy": "Assess before intervening; verify the tracing",
   "archetype": "assess before act",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Treat the client, not the monitor",
@@ -438,7 +438,7 @@
   ],
   "strategy": "Remove the trigger; airway first",
   "archetype": "stop the trigger",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Anaphylaxis: stop the drug, airway first, epinephrine as ordered",
@@ -475,7 +475,7 @@
   ],
   "strategy": "Scope of practice: delegate with safety limits",
   "archetype": "delegation twist",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Aortic stenosis triad: exertional dyspnea, angina, syncope",
@@ -512,7 +512,7 @@
   ],
   "strategy": "Unstable pattern: escalate",
   "archetype": "recognise unstable pattern",
-  "difficulty": 4,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Unstable angina is more severe and not relieved by rest or nitroglycerin",
@@ -586,7 +586,7 @@
   ],
   "strategy": "Treat life-threatening cause before imaging",
   "archetype": "treat before imaging",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Tension pneumothorax: decompress before imaging",
@@ -623,7 +623,7 @@
   ],
   "strategy": "Protect others now; do not wait for confirmation",
   "archetype": "act before confirmation",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "TB is airborne; N95 respirator for staff, mask for client",
@@ -660,7 +660,7 @@
   ],
   "strategy": "Timing of markers: early negative does not exclude",
   "archetype": "interpret timing of markers",
-  "difficulty": 5,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Troponin I rises 2-4 hours",
@@ -697,7 +697,7 @@
   ],
   "strategy": "Do not anchor: treat as cardiac until ruled out",
   "archetype": "don't anchor on indigestion",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "MI: nausea, sweating, dyspnea, jaw pain",
@@ -734,7 +734,7 @@
   ],
   "strategy": "Assess understanding before teaching",
   "archetype": "assess before teach",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Hypertension is often silent, so clients stop drugs",
@@ -771,7 +771,7 @@
   ],
   "strategy": "Airway/breathing: oxygen safety",
   "archetype": "recognise oxygen narcosis",
-  "difficulty": 5,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Low-flow oxygen 1-2 L/min in COPD",
@@ -808,7 +808,7 @@
   ],
   "strategy": "Complication surveillance: bleeding on antiplatelets",
   "archetype": "expected vs unexpected",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Watch for bleeding with antiplatelets and anticoagulants",
@@ -849,7 +849,7 @@
   ],
   "strategy": "Safety: vasodilator hypotension",
   "archetype": "select appropriate instructions",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Sit before nitroglycerin",
@@ -887,7 +887,7 @@
   ],
   "strategy": "Assess before act: vasodilator with low BP",
   "archetype": "follow the order but check BP",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Check BP before each dose",
@@ -924,7 +924,7 @@
   ],
   "strategy": "Unsafe habit: stopping central agent abruptly",
   "archetype": "rebound hypertension",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Do not stop beta-blockers or clonidine abruptly",

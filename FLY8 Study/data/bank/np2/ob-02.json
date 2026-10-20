@@ -26,7 +26,7 @@
     ],
     "strategy": "Explain and support; do not decide for the family",
     "archetype": "what the result means",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Elevated AFP: neural tube defects (and multiple pregnancy); decreased AFP: chromosomal disorders such as Down syndrome.",
@@ -63,7 +63,7 @@
     ],
     "strategy": "Therapeutic communication: accept ambivalence",
     "archetype": "match response to psychological task",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "First trimester: accepting the pregnancy; concern for self greater than for baby.",
@@ -100,7 +100,7 @@
     ],
     "strategy": "Assess for cervical change before deciding",
     "archetype": "observe for change",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "True labor: starts in the back, regular and shortening intervals, stronger with walking, progressive cervical change.",
@@ -137,7 +137,7 @@
     ],
     "strategy": "Flexion presents the smallest diameter",
     "archetype": "smallest presenting diameter",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Suboccipitobregmatic about 9.5 cm (smallest); occipitofrontal about 11 cm; occipitomental about 13.5 cm (widest)."
@@ -173,7 +173,7 @@
     ],
     "strategy": "Interpret the test; do not assume",
     "archetype": "amniotic fluid versus urine",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Nitrazine paper: blue = alkaline = amniotic fluid; yellow or red-orange = acidic = urine.",
@@ -210,7 +210,7 @@
     ],
     "strategy": "Do not push before full dilation",
     "archetype": "teach pant-breathing",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Do not push before full dilation; teach pant-breathing for an early urge to push.",
@@ -247,7 +247,7 @@
     ],
     "strategy": "Safety: ergot only after the placenta is delivered",
     "archetype": "clarify an unsafe order",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "Ergot (methylergonovine) only after the placenta is delivered; oxytocin is given diluted and slowly.",
@@ -284,7 +284,7 @@
     ],
     "strategy": "Take pressure off the cervix",
     "archetype": "position and bed rest",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "Premature cervical dilation: painless early opening; commonest cause of habitual abortion.",
@@ -321,7 +321,7 @@
     ],
     "strategy": "Teach the sign that means rupture",
     "archetype": "warning signs after treatment",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Methotrexate IM is used for an unruptured ectopic under about 3 cm; watch for signs of rupture."
@@ -394,7 +394,7 @@
     ],
     "strategy": "Return to red signals retained tissue",
     "archetype": "retained fragments",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "Lochia order: rubra, serosa, alba; it never reverses.",
@@ -431,7 +431,7 @@
     ],
     "strategy": "Do not disturb the clot",
     "archetype": "do not massage the clot",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "No massage or rubbing of the calf: a clot could break off and travel to the lungs.",
@@ -468,7 +468,7 @@
     ],
     "strategy": "Classify by cervical status and tissue passed",
     "archetype": "type of spontaneous abortion",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Threatened: closed cervix; inevitable: dilation and effacement; incomplete: some tissue retained; complete: all passed."
@@ -504,7 +504,7 @@
     ],
     "strategy": "Follow hCG and avoid pregnancy for one year",
     "archetype": "follow-up and contraception",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Monitor beta-hCG until normal, then regularly for a year; no pregnancy for one year.",
@@ -541,7 +541,7 @@
     ],
     "strategy": "Do not restrict salt in mild pre-eclampsia",
     "archetype": "salt is not restricted",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Mild pre-eclampsia: rest, normal salt intake (not restricted), weekly checks.",
@@ -585,7 +585,7 @@
     ],
     "strategy": "Safety of mother and fetus: treat as an emergency",
     "archetype": "appropriate actions",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "No abdominal, vaginal or pelvic exams in suspected abruptio.",
@@ -622,7 +622,7 @@
     ],
     "strategy": "Relieve pressure on the cord first",
     "archetype": "emergency first actions",
-    "difficulty": 5,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Cord prolapse: call for help; do not push the cord back; lift the presenting part; knee-chest or Trendelenburg.",
@@ -659,7 +659,7 @@
     ],
     "strategy": "Hydrate, position and assess",
     "archetype": "first nursing measures",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Premature labor: dehydration and UTI are causes; bed rest and IV hydration may halt contractions.",
@@ -696,7 +696,7 @@
     ],
     "strategy": "Watch the fetus when placental reserve may be low",
     "archetype": "fetal surveillance",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Post-term (over 42 weeks): monitor the fetal heart; prepare for ripening and induction; fetal movement counts."
@@ -732,7 +732,7 @@
     ],
     "strategy": "Stay with the woman; control the birth",
     "archetype": "stay and prepare",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Precipitate labor: stay with the woman, call for help, prepare for delivery, control the head.",
@@ -769,7 +769,7 @@
     ],
     "strategy": "Check toxicity signs before each dose",
     "archetype": "withhold and notify",
-    "difficulty": 5,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Before each dose check reflexes, respiratory rate and urine output; antidote calcium gluconate.",
@@ -806,7 +806,7 @@
     ],
     "strategy": "Red flag: epigastric or RUQ pain in pregnancy hypertension",
     "archetype": "do not call it heartburn",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "HELLP: hemolysis, elevated liver enzymes, low platelets; RUQ or epigastric pain is a red flag.",
@@ -843,7 +843,7 @@
     ],
     "strategy": "Teach about long-term risk and newborn monitoring",
     "archetype": "later diabetes risk",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Teach follow-up testing after birth: diabetes risk later.",
@@ -880,7 +880,7 @@
     ],
     "strategy": "Hardest time for the heart: right after delivery",
     "archetype": "most dangerous period",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Heart disease: the most dangerous time is just after delivery when fluid returns to the circulation.",
@@ -917,7 +917,7 @@
     ],
     "strategy": "Taking-in: listen and meet needs; teach in taking-hold",
     "archetype": "match care to the phase",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Taking-in (days 1-2): passive, dependent; meet needs and listen. Taking-hold: best time for teaching."
@@ -953,7 +953,7 @@
     ],
     "strategy": "Maslow: safety; do not leave baby unsupervised",
     "archetype": "safety first",
-    "difficulty": 5,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Postpartum psychosis is an emergency; keep mother and baby safe; do not argue with delusions; report immediately."
@@ -989,7 +989,7 @@
     ],
     "strategy": "Firm uterus plus bright bleeding means look for a tear",
     "archetype": "cause-based action",
-    "difficulty": 5,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Soft uterus = massage; firm uterus + continuous bright bleeding = look for a laceration.",

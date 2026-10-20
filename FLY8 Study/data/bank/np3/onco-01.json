@@ -6,7 +6,7 @@
   "area": "NP3",
   "topic": "Painless hematuria screening statement",
   "noteId": "np3-ho-bladder-cancer-diversions",
-  "vignette": "A nurse conducts a health talk for dye-factory workers in a barangay clinic. A 55-year-old worker who smokes says: 'I noticed red urine twice last month, but it did not hurt and went away, so I did not bother.' Another worker says he gets burning with urination after long shifts without drinking water.",
+  "vignette": "A nurse conducts a health talk for dye-factory workers in a barangay clinic. A 55-year-old worker who smokes says: 'I noticed red urine twice last month, but it did not hurt and went away, so I did not bother.' Another worker says he gets burning with urination after long shifts without drinking water. A third worker mentions feeling tired after night duty, and a fourth asks about hearing protection.",
   "stem": "Which worker's statement should the nurse pursue first?",
   "options": [
    "The smoker who saw painless red urine twice",
@@ -49,12 +49,12 @@
    "Agree that screening begins only after he has noticed a change in bowel habits",
    "Suggest a CEA blood test once, since it will show whether any cancer is present",
    "Tell him a high-fiber diet makes screening unnecessary in his case",
-   "Advise yearly stool blood testing and a rectal exam, and discuss colonoscopy"
+   "Advise colonoscopy screening now because of his family history, and discuss the options"
   ],
   "answer": [
    3
   ],
-  "rationale": "1. Risk factors include age, family history, and a diet low in fiber and high in fat and protein.\n2. Screening includes a yearly digital rectal exam after 40, yearly fecal occult blood testing after 50, and colonoscopy.\n3. CEA is a tumor marker used in follow-up, not a screening test; diet helps but does not replace screening.\nFlip: if he had rectal bleeding, diagnostic colonoscopy would be arranged promptly.",
+  "rationale": "1. Risk factors include age, family history, and a diet low in fiber and high in fat and protein.\n2. A first-degree relative with colorectal cancer calls for earlier and more intensive screening, usually colonoscopy; confirm the interval with current guidelines.\n3. CEA is a tumor marker used in follow-up, not a screening test; diet helps but does not replace screening.\nFlip: if he had rectal bleeding, diagnostic colonoscopy would be arranged promptly.",
   "optionRationales": [
    "Wrong: symptoms appear late (under-reaction).",
    "Wrong: CEA is a tumor marker, not a screening test.",
@@ -100,7 +100,7 @@
   ],
   "strategy": "Safety criteria, not convenience",
   "archetype": "score and pressure",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Aldrete score 8-10 before leaving PACU; below 7 stays",
@@ -137,7 +137,7 @@
   ],
   "strategy": "Maslow: airway first",
   "archetype": "airway before comfort",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Priority order: airway, circulation, fluids, comfort, nutrition, healing",
@@ -174,7 +174,7 @@
   ],
   "strategy": "Urgency classification",
   "archetype": "classify surgery urgency",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Emergency: immediate; urgent: 24-48 hours; required: weeks; optional: preference"
@@ -190,7 +190,7 @@
   "area": "NP3",
   "topic": "Evaluate coughing and deep breathing teaching",
   "noteId": "np3-ho-preop-assessment-teaching",
-  "vignette": "A 60-year-old woman is scheduled for abdominal surgery tomorrow. The nurse teaches her to use the incentive spirometer, then asks her to demonstrate while holding a pillow against her abdomen. She also states why she must do it often after surgery.",
+  "vignette": "A 60-year-old woman is scheduled for abdominal surgery tomorrow. The nurse teaches her deep-breathing and coughing exercises, then asks her to demonstrate while holding a pillow against her abdomen. She also states why she must do it often after surgery.",
   "stem": "Which demonstration shows effective learning?",
   "options": [
    "She takes quick shallow breaths and then clears her throat gently",
@@ -247,7 +247,7 @@
   ],
   "strategy": "Recognise medullary depression; escalate",
   "archetype": "recognise danger signs",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Stage 4: shallow breathing, weak thready pulse, wide pupils",
@@ -284,7 +284,7 @@
   ],
   "strategy": "Airway first",
   "archetype": "airway before bleeding",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Airway first: suction mucus or vomitus",
@@ -321,7 +321,7 @@
   ],
   "strategy": "Autonomy: consent after explanation",
   "archetype": "do not obtain the signature",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Consent is the client's own decision without pressure",
@@ -358,7 +358,7 @@
   ],
   "strategy": "Client safety: no retained items",
   "archetype": "safety count",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Scrub nurse and circulator count sponges, needles, instruments",
@@ -432,7 +432,7 @@
   ],
   "strategy": "Attire rules: mask is contaminated",
   "archetype": "correct unsafe attire practice",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Mask: handle by ties; never hang on neck or pocket; change between patients"
@@ -468,7 +468,7 @@
   ],
   "strategy": "If in doubt, it is not sterile",
   "archetype": "if in doubt, replace",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Breached barrier = contaminated",
@@ -505,7 +505,7 @@
   ],
   "strategy": "Spaulding classification",
   "archetype": "classify by risk",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Critical items require sterilization",
@@ -542,7 +542,7 @@
   ],
   "strategy": "A sedated client cannot consent",
   "archetype": "consent before sedation",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Confirm signed consent before sedating the client",
@@ -579,7 +579,7 @@
   ],
   "strategy": "Airway/breathing: spread of the block",
   "archetype": "recognise complication",
-  "difficulty": 5,
+  "difficulty": 3,
   "bloom": "judgment",
   "keyFacts": [
    "Spinal affects lower body; watch breathing, BP, return of sensation",
@@ -616,7 +616,7 @@
   ],
   "strategy": "Unfixable at bedside: NPO violation",
   "archetype": "report before transfer",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Check NPO status before transfer",
@@ -653,7 +653,7 @@
   ],
   "strategy": "Check bowel activity before advancing",
   "archetype": "when not to advance",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Peristalsis returns in 48-72 hours; diet starts with liquids",
@@ -690,7 +690,7 @@
   ],
   "strategy": "Position follows surgeon access",
   "archetype": "match position to access",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Lateral: renal surgery",
@@ -727,7 +727,7 @@
   ],
   "strategy": "Act on the cause",
   "archetype": "act on the cause",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Warm IV and irrigation fluids",
@@ -764,7 +764,7 @@
   ],
   "strategy": "Respiratory depression outranks comfort",
   "archetype": "breathing outranks comfort",
-  "difficulty": 5,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Respiratory depression is the main danger of opioids",
@@ -801,7 +801,7 @@
   ],
   "strategy": "Know the exception to the routine",
   "archetype": "exception to the routine",
-  "difficulty": 5,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Coughing is contraindicated after head injury, intracranial, eye and plastic surgery",
@@ -838,85 +838,11 @@
   ],
   "strategy": "Safety: orthostatic drop",
   "archetype": "stop and lie back",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Dangle and watch for dizziness",
    "Dizziness, fainting, pallor are red flags"
-  ],
-  "source": "bank",
-  "review": "unreviewed",
-  "aiWritten": true
- },
- {
-  "id": "np3-0124",
-  "v": 2,
-  "type": "single",
-  "area": "NP3",
-  "topic": "Suspected DVT: hold the plan",
-  "noteId": "np3-ho-postop-dvt",
-  "vignette": "Two days after total hip arthroplasty a client has a swollen, tender left calf with mild warmth and a temperature of 37.9 C. The physiotherapist and an assistant are ready to get him up to walk, and the assistant offers to massage the calf to ease the discomfort.",
-  "stem": "What is the nurse's best action?",
-  "options": [
-   "Let him walk with assistance since early ambulation prevents clots",
-   "Massage the calf gently to improve circulation before walking",
-   "Keep him at rest, avoid massage and report the suspected clot",
-   "Test the calf for Homan's sign repeatedly to confirm the diagnosis"
-  ],
-  "answer": [
-   2
-  ],
-  "rationale": "1. Calf pain and swelling after hip surgery suggest deep vein thrombosis; do not rub or massage the legs because a clot may dislodge and travel to the lungs.\n2. Report the findings and keep the client at rest per order until evaluated.\n3. Repeated Homan's testing is unreliable and may be unsafe.\nFlip: without calf findings, early ambulation would proceed.",
-  "optionRationales": [
-   "Wrong: right plan for a healthy leg, unsafe for a suspected clot.",
-   "Wrong: massage can dislodge a clot.",
-   "Right: rest, no massage and report.",
-   "Wrong: unreliable and may move a clot."
-  ],
-  "strategy": "Do not dislodge a clot",
-  "archetype": "activity and the clot",
-  "difficulty": 4,
-  "bloom": "judgment",
-  "keyFacts": [
-   "Do not rub or massage the calves",
-   "Anticoagulants as prescribed; report suspected DVT"
-  ],
-  "source": "bank",
-  "review": "unreviewed",
-  "aiWritten": true
- },
- {
-  "id": "np3-0125",
-  "v": 2,
-  "type": "single",
-  "area": "NP3",
-  "topic": "Anxiety versus hypoxia after surgery",
-  "noteId": "np3-ho-postop-pulmonary-embolism",
-  "vignette": "On the third day after a hysterectomy, a client suddenly says she feels 'something terrible is about to happen.' She is sweating, has a sharp pain on breathing in, a respiratory rate of 28 and a heart rate of 122. Her SpO2 is 90% and she has an order for lorazepam for anxiety.",
-  "stem": "What should the nurse do first?",
-  "options": [
-   "Give the ordered lorazepam to relieve her anxiety and help her rest",
-   "Raise the head of the bed, give oxygen and notify the provider",
-   "Reassure her warmly and recheck her vital signs in 30 minutes",
-   "Ask her to lie flat and breathe slowly to calm herself down"
-  ],
-  "answer": [
-   1
-  ],
-  "rationale": "1. Sudden apprehension, sweating, pleuritic pain, tachypnea, tachycardia and low SpO2 after surgery suggest pulmonary embolism.\n2. Airway and breathing first: oxygen and an upright position, calm presence, and prompt notification.\n3. A sedative treats the symptom and may depress breathing; waiting under-reacts.\nFlip: if SpO2 were 98% with normal breathing, anxiety management would be reasonable.",
-  "optionRationales": [
-   "Wrong: treats the symptom of anxiety.",
-   "Right: treat the hypoxia and escalate.",
-   "Wrong: under-reaction.",
-   "Wrong: lying flat worsens breathing."
-  ],
-  "strategy": "Hypoxia before anxiety",
-  "archetype": "do not sedate a hypoxic client",
-  "difficulty": 4,
-  "bloom": "judgment",
-  "keyFacts": [
-   "Dyspnea and tachypnea are the most frequent signs",
-   "Oxygen, raise the head of the bed"
   ],
   "source": "bank",
   "review": "unreviewed",

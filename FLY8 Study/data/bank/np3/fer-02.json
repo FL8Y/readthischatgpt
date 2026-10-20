@@ -26,7 +26,7 @@
   ],
   "strategy": "New finding over baseline: infection risk",
   "archetype": "report complication",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Nephrotic complications: infection, thromboembolism, acute kidney failure",
@@ -63,48 +63,11 @@
   ],
   "strategy": "Airway/breathing first; overload",
   "archetype": "breathing first",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Check for overhydration: edema, crackles, headache, neck vein distention, hypertension",
    "Watch for hyperkalemia and acidosis"
-  ],
-  "source": "bank",
-  "review": "unreviewed",
-  "aiWritten": true
- },
- {
-  "id": "np3-0153",
-  "v": 2,
-  "type": "single",
-  "area": "NP4",
-  "topic": "Classify the cause then fix it",
-  "noteId": "np3-er-x-aki-causes",
-  "vignette": "A 71-year-old man with known prostate enlargement has passed almost no urine for 12 hours. His lower abdomen is distended and painful, creatinine is rising, and BP is 138/82 with moist mucous membranes. The student nurse suggests an IV fluid bolus because 'kidney failure needs fluids.'",
-  "stem": "What should the nurse anticipate?",
-  "options": [
-   "Relief of the obstruction by bladder catheterization",
-   "A large IV fluid bolus to restore kidney blood flow quickly",
-   "Removal of nephrotoxic drugs and supportive care",
-   "Immediate preparation for hemodialysis"
-  ],
-  "answer": [
-   0
-  ],
-  "rationale": "1. Prerenal causes are fixed with volume or cardiac support; intrarenal causes need toxin removal; postrenal causes need relief of the obstruction.\n2. Prostate enlargement, a distended painful bladder and good hydration point to a postrenal cause, so a catheter is the treatment.\n3. A fluid bolus would help a dry client, not an obstructed one.\nFlip: with vomiting for three days, dry membranes and low BP, volume would be the treatment.",
-  "optionRationales": [
-   "Right: relieve the obstruction.",
-   "Wrong: treats a prerenal cause.",
-   "Wrong: treats an intrarenal cause.",
-   "Wrong: premature before relieving the obstruction."
-  ],
-  "strategy": "Treat the cause by location",
-  "archetype": "postrenal obstruction",
-  "difficulty": 4,
-  "bloom": "judgment",
-  "keyFacts": [
-   "Postrenal: obstruction by stones, tumors, BPH, clots",
-   "Prerenal: volume depletion, weak heart, vasodilation"
   ],
   "source": "bank",
   "review": "unreviewed",
@@ -137,7 +100,7 @@
   ],
   "strategy": "Protect the body's compensation",
   "archetype": "do not suppress compensation",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Lungs compensate with rapid deep breathing (Kussmaul)",
@@ -174,7 +137,7 @@
   ],
   "strategy": "Decide which value explains the pH",
   "archetype": "interpretation to action",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "High PCO2 with low pH is respiratory acidosis",
@@ -211,7 +174,7 @@
   ],
   "strategy": "Unsafe order: potassium never IV push",
   "archetype": "question the order",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Give potassium diluted and slowly, never IV push; check urine output first",
@@ -248,7 +211,7 @@
   ],
   "strategy": "Protect the lifeline",
   "archetype": "report immediately",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Absent thrill or bruit means clotting or blockage: report immediately",
@@ -285,48 +248,11 @@
   ],
   "strategy": "Expected vs infection",
   "archetype": "expected vs infection",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Cloudy drainage = infection (peritonitis); bloody acceptable in first exchanges",
    "Strict asepsis because infection is the main risk"
-  ],
-  "source": "bank",
-  "review": "unreviewed",
-  "aiWritten": true
- },
- {
-  "id": "np3-0159",
-  "v": 2,
-  "type": "single",
-  "area": "NP4",
-  "topic": "Choosing a dialysis type",
-  "noteId": "np3-er-x-dialysis-compared",
-  "vignette": "A 58-year-old woman who lives alone on a remote island has acute kidney failure after a heart attack. Her BP is 82/46 and she is on a vasopressor. The nephrologist discusses dialysis options, and the client asks the nurse why the doctor leans toward the abdominal method.",
-  "stem": "Which explanation is accurate?",
-  "options": [
-   "Peritoneal dialysis is faster and filters blood through an artificial membrane",
-   "Hemodialysis works best in unstable clients because it needs no vascular access",
-   "PD can be used when blood pressure is unstable and she can do it herself",
-   "Peritoneal dialysis pulls fluid off by ultrafiltration across a machine membrane"
-  ],
-  "answer": [
-   2
-  ],
-  "rationale": "1. Peritoneal dialysis uses the client's own peritoneum, can be done alone in any location, and can be used when the blood pressure is unstable.\n2. Hemodialysis uses an artificial membrane and vascular access (fistula, graft or catheter) and uses ultrafiltration to remove fluid.\nFlip: for a stable client who cannot use the abdomen (recent surgery), hemodialysis would be chosen.",
-  "optionRationales": [
-   "Wrong: describes hemodialysis.",
-   "Wrong: HD requires access.",
-   "Right: describes PD advantages.",
-   "Wrong: describes hemodialysis."
-  ],
-  "strategy": "Match the modality to the client",
-  "archetype": "match modality to situation",
-  "difficulty": 3,
-  "bloom": "apply",
-  "keyFacts": [
-   "PD: client can dialyze alone; usable in hemodynamic instability",
-   "HD: artificial membrane and vascular access"
   ],
   "source": "bank",
   "review": "unreviewed",
@@ -359,7 +285,7 @@
   ],
   "strategy": "Individualised fluid restriction",
   "archetype": "calculate allowance",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Fluid allowance: previous 24-hour urine output plus about 500-600 mL",
@@ -396,7 +322,7 @@
   ],
   "strategy": "Airway and breathing first",
   "archetype": "breathing first",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "High magnesium: low BP, weakness, trouble breathing, irregular heartbeat",
@@ -433,7 +359,7 @@
   ],
   "strategy": "Know the purpose of the drug",
   "archetype": "avoid transfusion",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Avoid blood transfusion for at least 2 weeks before transplant; erythropoietin treats anemia"
@@ -469,7 +395,7 @@
   ],
   "strategy": "Circulation: unrelieved constriction",
   "archetype": "neurovascular check",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Escharotomy relieves constriction; check pulses, color, movement, sensation",
@@ -506,7 +432,7 @@
   ],
   "strategy": "Do not stop immunosuppressants",
   "archetype": "report both infection and rejection",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Never skip immunosuppressant doses",
@@ -543,7 +469,7 @@
   ],
   "strategy": "Expected uremic findings vs a complication",
   "archetype": "recognise a complication",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Uremia: pericarditis from toxins; itching; anemia; ammonia breath"
@@ -579,7 +505,7 @@
   ],
   "strategy": "Compare with reference ranges",
   "archetype": "interpret labs",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Sodium 135-145, potassium 3.5-5.5, chloride 98-108, magnesium 1.5-2.5 mEq/L"
@@ -615,7 +541,7 @@
   ],
   "strategy": "Age-related risk",
   "archetype": "weak thirst",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Older adults have a weaker thirst sensation",
@@ -652,7 +578,7 @@
   ],
   "strategy": "Airway and breathing; cautious oxygen",
   "archetype": "airway first with oxygen caution",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Respiratory acidosis: airway and breathing first, hydrate, cautious oxygen",
@@ -689,7 +615,7 @@
   ],
   "strategy": "Do not assume anxiety",
   "archetype": "look for the cause before calming",
-  "difficulty": 5,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Respiratory alkalosis: high pH, low PaCO2, always over-breathing",
@@ -726,7 +652,7 @@
   ],
   "strategy": "Replace what was lost, safely",
   "archetype": "replace chloride and potassium safely",
-  "difficulty": 4,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Vomiting and suction remove acid and chloride",
@@ -763,7 +689,7 @@
   ],
   "strategy": "Avoid calcium and vitamin D supplements",
   "archetype": "needs further teaching",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Do not give calcium or vitamin D supplements without clarification",
@@ -800,7 +726,7 @@
   ],
   "strategy": "Link numbers to the client",
   "archetype": "pattern recognition",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Metabolic alkalosis: high pH with high bicarbonate",
@@ -837,7 +763,7 @@
   ],
   "strategy": "Reliable measurement",
   "archetype": "measure correctly before interpreting",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Weigh at the same time, on the same scale, in similar clothing",
@@ -874,7 +800,7 @@
   ],
   "strategy": "Hidden sodium",
   "archetype": "evaluate teaching",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Restrict sodium and avoid over-the-counter drugs containing sodium",
@@ -911,7 +837,7 @@
   ],
   "strategy": "Prevent puncture, cramping and discomfort",
   "archetype": "prevent complications",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Empty bladder and bowel before PD; warm the dialysate",

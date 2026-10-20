@@ -63,7 +63,7 @@
   ],
   "strategy": "Recognise complication cues",
   "archetype": "which finding needs follow-up",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Look for high fever, chest pain, ear pain, difficulty swallowing",
@@ -100,7 +100,7 @@
   ],
   "strategy": "Prevent complications: finish the course",
   "archetype": "explain the reason",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Penicillin is the drug of choice",
@@ -137,7 +137,7 @@
   ],
   "strategy": "Red flag: hoarseness over 2 weeks",
   "archetype": "red flag recognition",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Hoarseness over 2 weeks is a warning for laryngeal cancer",
@@ -211,7 +211,7 @@
   ],
   "strategy": "Match test to disorder",
   "archetype": "know what the test will show",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "CT scan: bronchiectasis (dilated bronchi)",
@@ -248,7 +248,7 @@
   ],
   "strategy": "Supportive care: meet needs without increasing work of breathing",
   "archetype": "small meals and rest",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Small frequent meals and supplements to counter weight loss",
@@ -285,7 +285,7 @@
   ],
   "strategy": "Baseline vs change; unstable client",
   "archetype": "compare with baseline",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Bronchiectasis: large pus-like sputum, hemoptysis, clubbing",
@@ -322,7 +322,7 @@
   ],
   "strategy": "Baseline vs new red flag",
   "archetype": "which change to report",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Asbestos-exposed clients: watch for lung cancer (changing cough, hemoptysis, weight loss)",
@@ -359,7 +359,7 @@
   ],
   "strategy": "Client reaction first; stop the procedure",
   "archetype": "unstable during a procedure",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "After thoracentesis watch breathing and SpO2",
@@ -396,48 +396,11 @@
   ],
   "strategy": "Prevent complications: treat pain to enable ventilation",
   "archetype": "prevent atelectasis",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Lie on the affected side to splint",
    "Encourage deep breathing and coughing to prevent atelectasis"
-  ],
-  "source": "bank",
-  "review": "unreviewed",
-  "aiWritten": true
- },
- {
-  "id": "np3-0062",
-  "v": 2,
-  "type": "single",
-  "area": "NP3",
-  "topic": "Anticipating drainage method",
-  "noteId": "np3-cr-empyema",
-  "vignette": "A 52-year-old man with pneumonia has persistent fever and pleuritic pain after 10 days of antibiotics. The chest CT shows pus in the pleural cavity walled off into several pockets. The physician says the pus has to be drained today. The nurse is asked to prepare the bedside.",
-  "stem": "Which equipment should the nurse prepare?",
-  "options": [
-   "A simple thoracentesis set and sterile specimen containers only",
-   "A chest tube insertion tray and a closed drainage system",
-   "An instrument tray and consent for open chest drainage",
-   "A needle decompression kit for a tension pneumothorax"
-  ],
-  "answer": [
-   1
-  ],
-  "rationale": "1. Pus in the pleural space is empyema; the objective is to drain the cavity.\n2. Loculated (walled-off) or complicated collections need tube thoracostomy, while simple thoracentesis suffices only if fluid is not thick; open drainage is for thick pleura, pus and debris.\n3. Needle decompression treats tension pneumothorax, a different problem.\nFlip: if the physician described thickened pleura and debris, open drainage would be prepared.",
-  "optionRationales": [
-   "Wrong: thoracentesis is for thinner fluid.",
-   "Right: chest tube for loculated empyema.",
-   "Wrong: open drainage is for thickened pleura and debris.",
-   "Wrong: plausible detail from a similar condition."
-  ],
-  "strategy": "Match drainage method to finding",
-  "archetype": "match intervention to finding",
-  "difficulty": 4,
-  "bloom": "judgment",
-  "keyFacts": [
-   "Tube thoracostomy for loculated or complicated collections",
-   "Open thoracotomy drainage for thick pus"
   ],
   "source": "bank",
   "review": "unreviewed",
@@ -470,7 +433,7 @@
   ],
   "strategy": "ABC: breathing and oxygen first",
   "archetype": "ABC first",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "PE: oxygen, raise the head of the bed, call the provider",
@@ -487,18 +450,18 @@
   "area": "NP3",
   "topic": "Normal values depend on sex",
   "noteId": "np3-ho-blood-components",
-  "vignette": "A nurse reviews morning results for four adult clients. A 45-year-old man has hemoglobin 12.5 g/dL. A 30-year-old woman has hemoglobin 12.5 g/dL. A 50-year-old woman has hematocrit 44%. A 38-year-old man has a white blood cell count of 10,800/mm3.",
+  "vignette": "A nurse reviews morning results for four adult clients. A 45-year-old man has hemoglobin 12.5 g/dL. A 30-year-old woman has hemoglobin 12.5 g/dL. A 50-year-old woman has hematocrit 44%. A 38-year-old man has a white blood cell count of 7,200/mm3.",
   "stem": "Which result should the nurse report as abnormal?",
   "options": [
    "The younger woman's hemoglobin of 12.5 g/dL",
    "The woman's hematocrit of 44%",
-   "The second man's white cell count of 10,800/mm3",
+   "The second man's white cell count of 7,200/mm3",
    "The man's hemoglobin of 12.5 g/dL"
   ],
   "answer": [
    3
   ],
-  "rationale": "1. Hemoglobin is 13-18 g/dL in men and 12-16 in women, so 12.5 is low for a man but normal for a woman.\n2. Hematocrit for women is 35-47%, so 44% is normal; WBC normal is 4,500-11,000/mm3, so 10,800 is normal.\n3. The shared 12.5 value makes the sex-specific cut-off the deciding cue.\nFlip: if the first client were a woman, no result would need reporting.",
+  "rationale": "1. Hemoglobin is 13-18 g/dL in men and 12-16 in women, so 12.5 is low for a man but normal for a woman.\n2. Hematocrit for women is 35-47%, so 44% is normal; WBC normal is 4,500-11,000/mm3, so 7,200 is normal.\n3. The shared 12.5 value makes the sex-specific cut-off the deciding cue.\nFlip: if the first client were a woman, no result would need reporting.",
   "optionRationales": [
    "Wrong: normal for a woman (true value, wrong sex range).",
    "Wrong: within the female range.",
@@ -544,7 +507,7 @@
   ],
   "strategy": "Unstable before stable: infection with few defences",
   "archetype": "prioritise by danger",
-  "difficulty": 5,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Low white cells: protect from infection first",
@@ -585,7 +548,7 @@
   ],
   "strategy": "Protect from infection first",
   "archetype": "select appropriate teaching",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Neutropenic diet: no flowers, fresh fruits, vegetables or raw food",
@@ -622,7 +585,7 @@
   ],
   "strategy": "Bleeding precautions: no rectal insertions",
   "archetype": "question the order",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Thrombocytopenia: no suppositories or enemas; use stool softeners",
@@ -659,7 +622,7 @@
   ],
   "strategy": "Expected side effect vs red flag",
   "archetype": "distinguish expected from red flag",
-  "difficulty": 5,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Black tarry stools with weakness suggest active GI bleeding",
@@ -696,7 +659,7 @@
   ],
   "strategy": "Airway first",
   "archetype": "anaphylaxis priority",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Iron by injection can cause anaphylaxis",
@@ -733,48 +696,11 @@
   ],
   "strategy": "Expected vs abnormal",
   "archetype": "expected vs abnormal",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Dark, dusky, brown or black stoma means poor blood supply: report",
    "Stoma has no sensation; stool starts 4-7 days"
-  ],
-  "source": "bank",
-  "review": "unreviewed",
-  "aiWritten": true
- },
- {
-  "id": "np3-0071",
-  "v": 2,
-  "type": "single",
-  "area": "NP3",
-  "topic": "Incomplete 24-hour urine collection",
-  "noteId": "np3-ho-x-schilling-test",
-  "vignette": "A client is having a Schilling test and the 24-hour urine collection is in progress. At the 18th hour, the nurse learns that an assistant discarded the previous void. The client is comfortable and the remaining collection is on schedule.",
-  "stem": "What is the nurse's best action?",
-  "options": [
-   "Report the discarded urine so the collection can be restarted",
-   "Continue the collection and note that one specimen was missed",
-   "Ask the client to drink extra fluids to make up the missing volume",
-   "Estimate the missing amount from the volume of the next specimens"
-  ],
-  "answer": [
-   0
-  ],
-  "rationale": "1. The Schilling test depends on collecting all urine for 24 hours; a missed void spoils the result.\n2. The nurse reports and arranges to restart rather than guessing or estimating.\nFlip: if the discarded void were from before the radioactive dose, the collection would be unaffected.",
-  "optionRationales": [
-   "Right: result cannot be trusted; restart.",
-   "Wrong: misleading result is still reported.",
-   "Wrong: does not replace the lost urine.",
-   "Wrong: estimation is invalid."
-  ],
-  "strategy": "Preserve the test: all urine for the full 24 hours",
-  "archetype": "protect the validity of the test",
-  "difficulty": 3,
-  "bloom": "apply",
-  "keyFacts": [
-   "Collect all urine for 24 hours; a missed void spoils the result",
-   "Positive result = B12 absent in urine"
   ],
   "source": "bank",
   "review": "unreviewed",
@@ -807,7 +733,7 @@
   ],
   "strategy": "Question unsafe order for the child",
   "archetype": "question the order",
-  "difficulty": 4,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Viscous lidocaine for adults; contraindicated in children",
@@ -844,7 +770,7 @@
   ],
   "strategy": "Prevent, do not wait",
   "archetype": "prevent rather than treat",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Antiemetics round-the-clock: prevent, do not wait",
@@ -881,7 +807,7 @@
   ],
   "strategy": "Safety first: sensory loss and impaired balance",
   "archetype": "safety with sensory loss",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Bed rest and fall precautions in pernicious anemia",
@@ -918,7 +844,7 @@
   ],
   "strategy": "Neurologic signs separate B12 from folate",
   "archetype": "clarify the order",
-  "difficulty": 5,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Neurologic signs separate B12 deficiency from folate deficiency",

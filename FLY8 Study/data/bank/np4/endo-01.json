@@ -26,7 +26,7 @@
   ],
   "strategy": "Unstable before stable",
   "archetype": "Match the disorder before acting",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Diabetes insipidus: too little ADH, dilute urine, dehydration",
@@ -63,7 +63,7 @@
   ],
   "strategy": "Safety: protect from seizure",
   "archetype": "Neurologic safety in hyponatremia",
-  "difficulty": 4,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "SIADH: dilutional hyponatremia, fluid restriction",
@@ -100,7 +100,7 @@
   ],
   "strategy": "Maslow: physiological threat first",
   "archetype": "Choose the route that is safe",
-  "difficulty": 4,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Glucagon if unconscious or cannot swallow",
@@ -137,7 +137,7 @@
   ],
   "strategy": "Stop the offending drug",
   "archetype": "Unexpected adverse effect",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Iodism needs immediate stopping",
@@ -174,7 +174,7 @@
   ],
   "strategy": "Maslow: oxygenation first",
   "archetype": "Do not sedate",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Myxedema coma depresses breathing",
@@ -191,7 +191,7 @@
   "area": "NP4",
   "topic": "Post-thyroidectomy calcium drop",
   "noteId": "np4-ge-hypoparathyroidism-tetany",
-  "vignette": "Two days after a total thyroidectomy, a client reports numb lips and tingling fingers. When the nurse taps in front of her ear, her mouth twitches. She also says her neck feels a little tight and she is hungry for milk and eggs.",
+  "vignette": "Two days after a total thyroidectomy, a client reports numb lips and tingling fingers. When the nurse taps in front of her ear, her mouth twitches. She also says she is hungry for milk and eggs.",
   "stem": "What should the nurse do first?",
   "options": [
    "Inspect the neck dressing for bleeding and swelling",
@@ -248,7 +248,7 @@
   ],
   "strategy": "Unstable before stable",
   "archetype": "Calm and report",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Bed rest with head of bed raised",
@@ -285,7 +285,7 @@
   ],
   "strategy": "Unstable before stable",
   "archetype": "Replace what is missing, fast",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Addisonian crisis: IV hydrocortisone then dextrose saline",
@@ -322,7 +322,7 @@
   ],
   "strategy": "Unstable before stable",
   "archetype": "Rank the instability",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Addisonian crisis presents as shock",
@@ -359,7 +359,7 @@
   ],
   "strategy": "Recognise the masked infection",
   "archetype": "Expected versus concerning",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Protective environment because of infection risk",
@@ -396,7 +396,7 @@
   ],
   "strategy": "Maslow: circulation first",
   "archetype": "Fluids before insulin",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "DKA: rehydrate first",
@@ -433,7 +433,7 @@
   ],
   "strategy": "Insulin peaks and duration",
   "archetype": "Match the peak to the clock",
-  "difficulty": 4,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "NPH peaks about 4-12 hours",
@@ -470,7 +470,7 @@
   ],
   "strategy": "Treat the cause, not the number",
   "archetype": "Choose the opposite fix",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Somogyi effect: night low then rebound",
@@ -513,7 +513,7 @@
   ],
   "strategy": "Technique knowledge",
   "archetype": "Select the correct practices",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Regular is drawn first when mixing",
@@ -550,7 +550,7 @@
   ],
   "strategy": "Maslow: circulation first",
   "archetype": "Do not copy the DKA reflex",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "HHNS: fluid replacement first",
@@ -587,7 +587,7 @@
   ],
   "strategy": "Challenge the assumption",
   "archetype": "Challenge the assumption",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "DKA can occur in either type",
@@ -624,7 +624,7 @@
   ],
   "strategy": "Recognise the complication",
   "archetype": "Report the clear drainage",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Glucose-positive clear fluid suggests a CSF leak",
@@ -661,7 +661,7 @@
   ],
   "strategy": "Unstable before stable: vision-threatening emergency",
   "archetype": "Do not treat the nausea alone",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Acute glaucoma is an emergency",
@@ -698,7 +698,7 @@
   ],
   "strategy": "Teach the correct response",
   "archetype": "Painless disease needs lifelong care",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Glaucoma drops are lifelong",
@@ -735,7 +735,7 @@
   ],
   "strategy": "Recognise the new vision change",
   "archetype": "New versus expected",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Report new floaters, flashes or shadows",
@@ -772,7 +772,7 @@
   ],
   "strategy": "Unstable before stable",
   "archetype": "Chemical irrigation first",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Chemical splash: irrigate immediately",
@@ -809,7 +809,7 @@
   ],
   "strategy": "Safety: protect, do not manipulate",
   "archetype": "Protect without pressure",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Do not remove the object; no patch",
@@ -846,7 +846,7 @@
   ],
   "strategy": "Safety first",
   "archetype": "Protect first",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Lie still in a safe place during an attack",
@@ -926,7 +926,7 @@
   ],
   "strategy": "Infection control",
   "archetype": "Infection control at home",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Conjunctivitis is contagious",

@@ -26,7 +26,7 @@
   ],
   "strategy": "Perfusion first: unstable client",
   "archetype": "interpret urine output",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Kidneys get about 20% of cardiac output at rest; less under stress",
@@ -63,7 +63,7 @@
   ],
   "strategy": "Airway first",
   "archetype": "laryngospasm first",
-  "difficulty": 5,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Airway first: laryngospasm can close the airway",
@@ -100,7 +100,7 @@
   ],
   "strategy": "Site of action explains the electrolyte effect",
   "archetype": "know the site of action",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Aldosterone-blocking drugs act on distal sodium-potassium exchange (hyperkalemia risk)",
@@ -137,7 +137,7 @@
   ],
   "strategy": "Neuro status and safety first; correct slowly",
   "archetype": "assess neurologic status first",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Hyponatremia: excess water or sodium-free IV fluid",
@@ -211,7 +211,7 @@
   ],
   "strategy": "Right action, wrong phase",
   "archetype": "right action, wrong phase",
-  "difficulty": 5,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Diuretic phase: urine 3-5 L/day; hypokalemia and dehydration risk",
@@ -248,7 +248,7 @@
   ],
   "strategy": "Concentrated blood = dehydrated",
   "archetype": "match lab pattern to the problem",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Fluid volume deficit: high specific gravity, high hematocrit, BUN high out of proportion to creatinine"
@@ -284,7 +284,7 @@
   ],
   "strategy": "Therapeutic communication: accurate and honest",
   "archetype": "therapeutic communication",
-  "difficulty": 4,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Urethritis can be caused by common bacteria; looks like gonorrhea",
@@ -321,7 +321,7 @@
   ],
   "strategy": "Ascending infection: cystitis to pyelonephritis",
   "archetype": "recognise upper tract spread",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Fever with chills and flank pain suggests the infection reached the kidney",
@@ -358,7 +358,7 @@
   ],
   "strategy": "Question the order: unreliable absorption",
   "archetype": "question the order",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "IV opioids are first choice for acute burn pain",
@@ -395,7 +395,7 @@
   ],
   "strategy": "Question order that raises the dangerous electrolyte",
   "archetype": "question the order",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Spironolactone can raise potassium",
@@ -432,7 +432,7 @@
   ],
   "strategy": "Red flag over routine: possible sepsis",
   "archetype": "infected obstruction",
-  "difficulty": 5,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Report fever, obstruction or little urine: infection or blockage",
@@ -469,7 +469,7 @@
   ],
   "strategy": "Match the diet to the stone chemistry",
   "archetype": "match diet to stone",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Alkaline stones: acid-ash diet",
@@ -506,7 +506,7 @@
   ],
   "strategy": "Mirror-image electrolytes",
   "archetype": "explain the mirror-image",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "High phosphate means low calcium",
@@ -543,48 +543,11 @@
   ],
   "strategy": "Acid correction drives potassium down",
   "archetype": "a normal level can hide a deficit",
-  "difficulty": 5,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Acid pushes potassium out of cells; correction lowers it",
    "A normal potassium in acidosis does not mean enough"
-  ],
-  "source": "bank",
-  "review": "unreviewed",
-  "aiWritten": true
- },
- {
-  "id": "np3-0141",
-  "v": 2,
-  "type": "single",
-  "area": "NP3",
-  "topic": "Isotonic fluid for hypotension",
-  "noteId": "np3-er-fvd",
-  "vignette": "A 58-year-old man arrives with 3 days of vomiting and diarrhea. BP is 82/48, HR 124, his mucous membranes are dry and his urine output is low. The order reads: 0.45% sodium chloride at 250 mL/h. The nurse is also asked by his wife for water for his thirst.",
-  "stem": "What should the nurse do first?",
-  "options": [
-   "Start the 0.45% saline at once because he is dehydrated",
-   "Give the water his wife requested and delay the IV until he has finished",
-   "Start the infusion and document the BP every 8 hours",
-   "Clarify the order, since isotonic fluid is expected for low pressure"
-  ],
-  "answer": [
-   3
-  ],
-  "rationale": "1. Fluid volume deficit with hypotension is treated with isotonic solutions such as lactated Ringer's or 0.9% saline; 0.45% saline gives water later.\n2. The nurse questions an unexpected order for an unstable client rather than starting it.\n3. Oral fluids are given if tolerated, but a vomiting, hypotensive client needs IV support first; vital signs every 8 hours is far too infrequent.\nFlip: once BP is restored, 0.45% saline could be appropriate.",
-  "optionRationales": [
-   "Wrong: unsafe habit of following an order that does not fit.",
-   "Wrong: oral fluids in a vomiting hypotensive client.",
-   "Wrong: infrequent monitoring.",
-   "Right: clarify the order."
-  ],
-  "strategy": "Assess circulation; isotonic first",
-  "archetype": "question the order",
-  "difficulty": 4,
-  "bloom": "judgment",
-  "keyFacts": [
-   "Isotonic solutions for a low blood pressure",
-   "Assess circulation and vital signs first"
   ],
   "source": "bank",
   "review": "unreviewed",
@@ -634,7 +597,7 @@
   "area": "NP4",
   "topic": "After TURP: red drainage",
   "noteId": "np3-er-prostate-surgery",
-  "vignette": "Six hours after a transurethral prostatectomy, a client on continuous bladder irrigation has drainage that has changed from pink to bright red with clots. He reports severe bladder spasm, his pulse is 104 and BP 108/64. Intake and output show that the output is lower than the irrigation going in.",
+  "vignette": "Six hours after a transurethral prostatectomy, a client on continuous bladder irrigation has drainage that has changed from pink to bright red with clots. He reports severe bladder spasm, his pulse is 104 and BP 108/64.",
   "stem": "What should the nurse do first?",
   "options": [
    "Clamp the catheter to allow the clots to settle",
@@ -691,7 +654,7 @@
   ],
   "strategy": "Conflicting orders: clarify",
   "archetype": "individualise the standard",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Force fluids 3-4 L/day unless restricted",
@@ -728,7 +691,7 @@
   ],
   "strategy": "Complication surveillance: hypertensive encephalopathy",
   "archetype": "priority finding",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Periorbital edema, hematuria, oliguria, hypertension",
@@ -765,7 +728,7 @@
   ],
   "strategy": "Inflamed filter vs leaky filter",
   "archetype": "pattern recognition",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Nephritic: periorbital edema, hematuria, hypertension",
@@ -802,7 +765,7 @@
   ],
   "strategy": "Stage by GFR",
   "archetype": "interpret staging",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "Stage 4: GFR 15-29; stage 5 below 15",
@@ -839,7 +802,7 @@
   ],
   "strategy": "Rhythm risk first",
   "archetype": "monitor first",
-  "difficulty": 4,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Cardiac monitoring and ECG first",
@@ -876,7 +839,7 @@
   ],
   "strategy": "Recognise slowed nerves and a short QT",
   "archetype": "match the cues to the ion",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "apply",
   "keyFacts": [
    "High calcium: shortened QT, slowed nerves, anorexia, drowsiness",
@@ -913,7 +876,7 @@
   ],
   "strategy": "Correct slowly with monitoring",
   "archetype": "assess and correct slowly",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Hypernatremia: thirst, dry membranes, twitching, irritability",

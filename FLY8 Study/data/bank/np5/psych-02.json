@@ -26,7 +26,7 @@
   ],
   "strategy": "Maslow: airway first",
   "archetype": "Airway before comfort",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Acute dystonia is an emergency",
@@ -63,7 +63,7 @@
   ],
   "strategy": "Stop the offending drug",
   "archetype": "Stop the drug",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "NMS: fever, rigidity, unstable vital signs",
@@ -106,7 +106,7 @@
   ],
   "strategy": "Teach comfort and safety measures",
   "archetype": "Select correct teaching",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Anticholinergic effects: dry mouth, constipation, orthostasis",
@@ -143,7 +143,7 @@
   ],
   "strategy": "Rank by danger",
   "archetype": "Rank by danger",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Report sore throat or fever on clozapine at once",
@@ -180,7 +180,7 @@
   ],
   "strategy": "Recognise a new complication",
   "archetype": "Metabolic monitoring",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Atypical drugs can cause weight and blood sugar changes",
@@ -217,7 +217,7 @@
   ],
   "strategy": "Recognise an adverse effect",
   "archetype": "Medication effect, not misbehavior",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Akathisia: cannot sit still",
@@ -254,7 +254,7 @@
   ],
   "strategy": "Safety first: ask directly",
   "archetype": "Improvement can hide risk",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Suicide risk rises when energy returns but mood is low",
@@ -291,7 +291,7 @@
   ],
   "strategy": "Meet basic needs first",
   "archetype": "Meet basic needs gently",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Meet nutrition, fluids and sleep needs",
@@ -328,7 +328,7 @@
   ],
   "strategy": "Safety: limit lethal means",
   "archetype": "Limit the supply",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Limited supplies in suicidal clients",
@@ -365,7 +365,7 @@
   ],
   "strategy": "Unstable before stable",
   "archetype": "Recognise serotonin toxicity",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Serotonin syndrome risk with combined serotonergic drugs",
@@ -402,7 +402,7 @@
   ],
   "strategy": "Unstable before stable",
   "archetype": "Recognise the emergency",
-  "difficulty": 4,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Hypertensive crisis after interacting foods",
@@ -439,7 +439,7 @@
   ],
   "strategy": "Hold the drug and report",
   "archetype": "Hold and report",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Toxic signs: coarse tremor, vomiting, ataxia",
@@ -476,7 +476,7 @@
   ],
   "strategy": "Spot the unsafe plan",
   "archetype": "Spot the unsafe plan",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Keep salt and fluids steady on lithium",
@@ -513,7 +513,7 @@
   ],
   "strategy": "Physical needs first",
   "archetype": "Meet physical needs first",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Energy-dense finger foods for manic clients",
@@ -550,7 +550,7 @@
   ],
   "strategy": "Set limits kindly",
   "archetype": "Limits without argument",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Set firm consistent limits kindly",
@@ -587,7 +587,7 @@
   ],
   "strategy": "Unstable before stable",
   "archetype": "Recognise the emergency",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Postpartum psychosis is an emergency",
@@ -624,7 +624,7 @@
   ],
   "strategy": "Maslow: airway first",
   "archetype": "Airway then orientation",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "After ECT: airway first",
@@ -661,7 +661,7 @@
   ],
   "strategy": "Honest teaching",
   "archetype": "Honest expectations",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "ECT memory loss is common",
@@ -698,7 +698,7 @@
   ],
   "strategy": "Danger ranking",
   "archetype": "Danger ranking in teaching",
-  "difficulty": 4,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Benzodiazepine withdrawal can be fatal",
@@ -735,48 +735,11 @@
   ],
   "strategy": "Explain and reassure accurately",
   "archetype": "Explain, do not increase",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Buspirone is slow acting and non-sedating",
    "Do not self-adjust doses"
-  ],
-  "source": "bank",
-  "review": "unreviewed",
-  "aiWritten": true
- },
- {
-  "id": "np5-0046",
-  "v": 2,
-  "type": "single",
-  "area": "NP5",
-  "topic": "Acute confusion on a ward",
-  "noteId": "np5-delirium-dementia",
-  "vignette": "An 82-year-old woman with mild dementia has been calm and oriented to person for two years. Over the past day she has become agitated, drowsy by turns, and unable to keep her attention on a conversation. Her daughter says her memory has always been like that and asks for a sedative.",
-  "stem": "What is the nurse's best action?",
-  "options": [
-   "Request a sedative to settle her tonight",
-   "Check vital signs, oxygen and glucose, then report",
-   "Tell her daughter this is the expected progression of dementia",
-   "Restrain her gently to prevent falls"
-  ],
-  "answer": [
-   1
-  ],
-  "rationale": "1. Cue: acute change in attention and alertness in a client with stable dementia.\n2. Principle: delirium can be superimposed on dementia and can kill if its cause is missed.\n3. Priority rule: treat sudden confusion as a medical emergency.\n4. The key beats sedation because it seeks the cause.\nFlip: If the change had been gradual over months, routine dementia care would be correct.",
-  "optionRationales": [
-   "Treats the symptom and may worsen confusion.",
-   "Correct. A sudden fluctuating change in attention suggests delirium, an emergency with a reversible cause.",
-   "Mislabels an acute change as slow decline.",
-   "Over-intervention. Restraints increase agitation and risk."
-  ],
-  "strategy": "Look for the reversible cause",
-  "archetype": "Look for the reversible cause",
-  "difficulty": 4,
-  "bloom": "judgment",
-  "keyFacts": [
-   "Delirium: sudden onset and fluctuating",
-   "Look for infection, oxygen, glucose, drugs"
   ],
   "source": "bank",
   "review": "unreviewed",
@@ -809,7 +772,7 @@
   ],
   "strategy": "Validation and redirection",
   "archetype": "Kind answers each time",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Do not argue or quiz; use validation",
@@ -846,7 +809,7 @@
   ],
   "strategy": "Safety first",
   "archetype": "Protect from injury first",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Risk for injury is the priority",
@@ -866,7 +829,7 @@
   "vignette": "A 9-year-old taking methylphenidate for ADHD has lost weight and eats little at lunch. His mother asks about timing and mentions he also has a second dose of another stimulant in the late afternoon that keeps him up at night.",
   "stem": "Which teaching is most appropriate?",
   "options": [
-   "Give it before breakfast on an empty stomach",
+   "Give the second dose late in the evening so it wears off by morning",
    "Give the last dose at bedtime so it lasts overnight",
    "Give extra sugar and caffeine to boost his weight",
    "Give it after meals and give later doses early"
@@ -874,7 +837,7 @@
   "answer": [
    3
   ],
-  "rationale": "1. Cue: weight loss, poor lunch intake and insomnia on stimulants.\n2. Principle: stimulants suppress appetite and cause insomnia.\n3. Priority rule: adjust timing and monitor growth.\n4. The key beats before-breakfast dosing because it limits appetite loss.\nFlip: If he also had palpitations, the provider would be notified at once.",
+  "rationale": "1. Cue: weight loss, poor lunch intake and insomnia on stimulants.\n2. Principle: stimulants suppress appetite and cause insomnia.\n3. Priority rule: adjust timing and monitor growth.\n4. The key beats evening dosing because it limits appetite loss.\nFlip: If he also had palpitations, the provider would be notified at once.",
   "optionRationales": [
    "Increases appetite suppression.",
    "Causes insomnia.",
@@ -920,7 +883,7 @@
   ],
   "strategy": "Be honest; do not argue",
   "archetype": "Be honest, not clever",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Paranoid: honest, no whispering or joking",

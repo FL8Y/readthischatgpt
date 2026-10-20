@@ -26,7 +26,7 @@
     ],
     "strategy": "Act now, report promptly; do not wait for confirmation",
     "archetype": "act while investigating",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Report notifiable diseases promptly; in an outbreak, control starts while the investigation continues.",
@@ -63,7 +63,7 @@
     ],
     "strategy": "Identify the denominator first",
     "archetype": "infant mortality rate",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "IMR = infant deaths / live births x 1,000.",
@@ -100,48 +100,11 @@
     ],
     "strategy": "Describe, then analyze, then intervene, then evaluate",
     "archetype": "recognize the approach",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "Descriptive = person, place, time; analytic = tests why through hypotheses.",
       "Intervention tests new control methods; evaluation measures program effectiveness."
-    ],
-    "source": "bank",
-    "review": "unreviewed",
-    "aiWritten": true
-  },
-  {
-    "id": "np1-0029",
-    "v": 2,
-    "type": "single",
-    "area": "NP1",
-    "topic": "Postpartum visit timing",
-    "noteId": "np1-g-maternal-prenatal-supplements",
-    "vignette": "A 22-year-old primigravida delivered at the municipal birthing clinic and went home after 24 hours. The baby is breastfeeding. The rural health midwife asks the public health nurse when the mother's first postpartum home visit should be scheduled and what the second visit is for.",
-    "stem": "Which schedule is consistent with the maternal health program?",
-    "options": [
-      "First visit at 2 weeks together with the baby's first routine immunization and a second at 3 months",
-      "First visit at 6 weeks together with family planning counseling and no earlier visit unless a problem arises",
-      "First visit at 3 days only for the baby and a second visit for the mother after the baby is 9 months old",
-      "First visit within the first week, preferably days 3 to 5, and a second visit at 6 weeks"
-    ],
-    "answer": [
-      3
-    ],
-    "rationale": "1. Cue: a first-time mother discharged early, with a breastfeeding newborn.\n2. Principle: the maternal health program lists postpartum visits in the first week (preferably days 3 to 5) and again at 6 weeks, with checks for bleeding, uterus, temperature, wound healing, breastfeeding, mood and family planning.\n3. Waiting for 6 weeks misses the period when hemorrhage, infection and feeding problems appear.\n4. Flip: if the mother developed fever or heavy bleeding at day 2, she would be seen at once rather than waiting for the schedule.",
-    "optionRationales": [
-      "Right visit, wrong time: two weeks delays the checks for bleeding, infection and feeding.",
-      "Under-reaction: the first visit at 6 weeks misses the high-risk early period.",
-      "Skips the mother: postpartum care covers the mother, not only the baby.",
-      "Correct: early first visit in the first week and a second at 6 weeks."
-    ],
-    "strategy": "Timing of the first postpartum visit",
-    "archetype": "right visit at the right time",
-    "difficulty": 3,
-    "bloom": "judgment",
-    "keyFacts": [
-      "Postpartum visits: first in week one (days 3 to 5 preferred), second at 6 weeks.",
-      "Check bleeding, uterus, temperature, wound, breastfeeding, mood and family planning."
     ],
     "source": "bank",
     "review": "unreviewed",
@@ -174,48 +137,11 @@
     ],
     "strategy": "Screening is not diagnosis: confirm promptly",
     "archetype": "screening is not diagnosis",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Screening is NOT a diagnosis; a positive screen needs a confirmatory test and prompt treatment.",
       "Untreated disorders may cause intellectual disability or death."
-    ],
-    "source": "bank",
-    "review": "unreviewed",
-    "aiWritten": true
-  },
-  {
-    "id": "np1-0031",
-    "v": 2,
-    "type": "single",
-    "area": "NP1",
-    "topic": "Severe acute malnutrition",
-    "noteId": "np1-nutrition",
-    "vignette": "On a barangay weighing day the nurse sees two children. A 14-month-old has very thin limbs, loose skin folds and an \"old man\" face, is alert and hungry, and has no swelling. A 2-year-old has puffy feet and face, a swollen belly, thin discolored hair and is apathetic and irritable; her recorded weight looks only slightly low.",
-    "stem": "Which action is the priority?",
-    "options": [
-      "Refer the 14-month-old urgently because the thinnest child has the highest risk of death",
-      "Enroll both children in the supplementary feeding program and review them next month",
-      "Compare both children's weights with the standard and refer whichever is lower",
-      "Refer the 2-year-old urgently after confirming pitting edema in both feet"
-    ],
-    "answer": [
-      3
-    ],
-    "rationale": "1. Cues: wasting without edema in an alert child (marasmus pattern) versus edema, apathy and irritability in another child (kwashiorkor pattern) whose weight looks deceptively near normal.\n2. Principle: bilateral pitting edema signals severe acute malnutrition, which is an urgent referral.\n3. Edema adds fluid weight, so the scale can mislead; the physical finding outranks the number.\n4. The 14-month-old needs feeding and monitoring but is alert and hungry.\n5. Flip: if the 14-month-old were lethargic and unable to feed, she would also need urgent referral.",
-    "optionRationales": [
-      "Right priority, wrong client: the wasted child is malnourished but alert, hungry and without edema.",
-      "Under-reaction: supplementary feeding alone and waiting a month is unsafe for a child with edema.",
-      "Skips assessment: weight is misleading when edema is present, so a lower number does not identify the urgent case.",
-      "Correct: confirmed bilateral pitting edema with apathy signals severe acute malnutrition and urgent referral."
-    ],
-    "strategy": "Unstable before stable: edema signals severe malnutrition",
-    "archetype": "recognize the urgent case",
-    "difficulty": 4,
-    "bloom": "judgment",
-    "keyFacts": [
-      "Bilateral pitting edema in a child signals severe acute malnutrition: urgent referral.",
-      "Marasmus: wasted, no edema; kwashiorkor: edema, swollen belly, apathy."
     ],
     "source": "bank",
     "review": "unreviewed",
@@ -285,7 +211,7 @@
     ],
     "strategy": "Safety before stock management",
     "archetype": "vaccine vial monitor",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "VVM: inner square lighter than the circle = usable; matching or darker = discard.",
@@ -322,7 +248,7 @@
     ],
     "strategy": "Counsel to the key message, not the pressure",
     "archetype": "counsel against pressure",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Exclusive breastfeeding for 6 months: breast milk only, not even water.",
@@ -359,7 +285,7 @@
     ],
     "strategy": "Safety before coverage: find the true contraindication",
     "archetype": "screen for the one true contraindication",
-    "difficulty": 5,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "Convulsions or shock within 3 days of a previous DPT dose: do not give the next dose.",
@@ -396,7 +322,7 @@
     ],
     "strategy": "Match vaccine to route and site",
     "archetype": "administration accuracy",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "BCG intradermal right deltoid; DPT or hepatitis B intramuscular upper outer thigh; measles subcutaneous outer upper arm."
@@ -432,7 +358,7 @@
     ],
     "strategy": "Safety: live vaccines in immunosuppression",
     "archetype": "who should not get a live vaccine",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Live vaccines (BCG, measles, MMR, OPV, rotavirus) are avoided in the severely immunocompromised.",
@@ -469,7 +395,7 @@
     ],
     "strategy": "Teach the expected reaction",
     "archetype": "normal versus abnormal",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Expected BCG reaction: papule, pustule, ulcer, scar; no dressing, ointment or antibiotic needed."
@@ -505,7 +431,7 @@
     ],
     "strategy": "Voluntary informed choice belongs to the client",
     "archetype": "ethical counseling",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Counseling must be voluntary and informed, respecting the couple's choice.",
@@ -542,7 +468,7 @@
     ],
     "strategy": "Maslow: safety and injuries before legal process",
     "archetype": "safety before the legal process",
-    "difficulty": 4,
+    "difficulty": 2,
     "bloom": "judgment",
     "keyFacts": [
       "Treat injuries and ensure immediate safety first, then legal steps.",
@@ -626,43 +552,6 @@
     "aiWritten": true
   },
   {
-    "id": "np1-0043",
-    "v": 2,
-    "type": "single",
-    "area": "NP1",
-    "topic": "Next COPAR phase",
-    "noteId": "np1-copar-phases",
-    "vignette": "In a depressed coastal barangay, the nurse has chosen the site, networked with the local government, lived with residents, formed a core group and completed its leadership training. The core group is delivering basic health services. Residents now ask what comes next.",
-    "stem": "Which activity belongs to the next phase?",
-    "options": [
-      "Elect and induct the first officers of the community health organization",
-      "Choose and train a research team to gather data for the community diagnosis",
-      "Hold community consultations about the criteria for choosing a site for work",
-      "Prepare for withdrawal as the community takes charge of its own programs"
-    ],
-    "answer": [
-      1
-    ],
-    "rationale": "1. Cues: the site was chosen (pre-entry), integration and core group formation are complete (entry).\n2. Principle: the sequence is pre-entry, entry, community study or diagnosis, community organization and capacity building, then later phases toward self-reliance.\n3. The next phase is the community study: select and train a research team, gather and validate data, and prioritize problems.\n4. Flip: if the community diagnosis were already validated and prioritized, electing officers would be next.",
-    "optionRationales": [
-      "Right activity, wrong time: officer election belongs to organization and capacity building, after the diagnosis.",
-      "Correct: the community study comes after entry and core group formation.",
-      "Right activity, wrong time: site selection consultations happen in the pre-entry phase.",
-      "Right goal, wrong time: withdrawal comes only after the community has organized and acted."
-    ],
-    "strategy": "Sequence of COPAR phases",
-    "archetype": "phase sequence",
-    "difficulty": 4,
-    "bloom": "judgment",
-    "keyFacts": [
-      "COPAR phases: pre-entry, entry, community study, organization and capacity building, later phases.",
-      "Core group formation and SALT sit in the entry phase in the handout."
-    ],
-    "source": "bank",
-    "review": "unreviewed",
-    "aiWritten": true
-  },
-  {
     "id": "np1-0044",
     "v": 2,
     "type": "single",
@@ -689,7 +578,7 @@
     ],
     "strategy": "People at the center: the nurse facilitates",
     "archetype": "COPAR role of the nurse",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "The nurse is a catalyst and facilitator; the people are the center.",
@@ -726,7 +615,7 @@
     ],
     "strategy": "Community as researcher",
     "archetype": "who defines and does the research",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Participatory action research: beneficiaries are main actors; problems defined by community members."
@@ -762,7 +651,7 @@
     ],
     "strategy": "Fix the highest-risk exposure first",
     "archetype": "highest-risk exposure first",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Fix the highest-risk exposure first: unsafe drinking water, open defecation.",
@@ -836,48 +725,11 @@
     ],
     "strategy": "Segregate at source",
     "archetype": "placement of waste",
-    "difficulty": 3,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Sharps go into puncture-resistant containers; infectious waste into designated bags.",
       "Segregate at source."
-    ],
-    "source": "bank",
-    "review": "unreviewed",
-    "aiWritten": true
-  },
-  {
-    "id": "np1-0049",
-    "v": 2,
-    "type": "single",
-    "area": "NP1",
-    "topic": "Food-borne outbreak response",
-    "noteId": "np1-x-food-safety",
-    "vignette": "Two days after a barangay fiesta, 14 residents have mild watery diarrhea; none is dehydrated and all have been seen at the health center. Leftover cooked rice and pork are still on a table in the covered hall, kept at room temperature since the party, and the food handlers' health certificates are unchecked.",
-    "stem": "Which action should the nurse take FIRST?",
-    "options": [
-      "Check the food handlers' health certificates and symptoms",
-      "Identify the suspected food and remove it so no one eats it",
-      "Teach the four rights of food safety to the barangay",
-      "Report the suspected outbreak to the municipal health office"
-    ],
-    "answer": [
-      1
-    ],
-    "rationale": "1. Cues: all cases are mild and already treated; leftover food at room temperature is still available and may be eaten.\n2. Principle: identify the likely food source and stop further exposure first, then check handlers, teach the four rights and report.\n3. Priority rule: remove an ongoing hazard before education and inspection because every hour adds exposures.\n4. Flip: if the leftover food had already been thrown away and several residents were dehydrated, treating the ill would come first.",
-    "optionRationales": [
-      "Right action, wrong time: inspection of handlers follows control of the food source.",
-      "Correct: removal of the suspect food stops further exposure.",
-      "Right action, wrong time: teaching prevents future cases but does not stop current exposure.",
-      "Right action, wrong time: reporting is required soon, but removing the hazard comes first when it is at hand."
-    ],
-    "strategy": "Stop further exposure first",
-    "archetype": "order of actions",
-    "difficulty": 4,
-    "bloom": "judgment",
-    "keyFacts": [
-      "First identify the food source and stop exposure; then check handlers, teach the four rights, report.",
-      "Cooked food not left at room temperature more than 2 hours."
     ],
     "source": "bank",
     "review": "unreviewed",
@@ -910,7 +762,7 @@
     ],
     "strategy": "Evaluate teaching: herbal safety rules",
     "archetype": "spot the misunderstanding",
-    "difficulty": 4,
+    "difficulty": 1,
     "bloom": "judgment",
     "keyFacts": [
       "Consult a physician if there is no improvement after two or three doses.",

@@ -26,7 +26,7 @@
   ],
   "strategy": "Unstable before stable: recognise complication",
   "archetype": "Expected finding versus complication",
-  "difficulty": 4,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Perforation signs after EGD: pain, bleeding, difficulty swallowing, rapid temperature rise",
@@ -63,7 +63,7 @@
   ],
   "strategy": "Maslow: circulation and oxygenation before comfort",
   "archetype": "Do not assume the benign cause",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "GERD symptoms can mimic a heart attack",
@@ -100,7 +100,7 @@
   ],
   "strategy": "Unstable before stable: look at the whole picture",
   "archetype": "False reassurance from improving numbers",
-  "difficulty": 4,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Monitor for perforation, peritonitis and hemorrhage",
@@ -137,7 +137,7 @@
   ],
   "strategy": "Assess before act",
   "archetype": "Assess the tube before the client",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Backed-up bile enters the liver and blood",
@@ -174,7 +174,7 @@
   ],
   "strategy": "Least invasive first",
   "archetype": "Immediate relief before teaching",
-  "difficulty": 4,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Lie down after meals",
@@ -211,7 +211,7 @@
   ],
   "strategy": "Safety: do not stress an inflamed bowel",
   "archetype": "Clarify the unsafe order",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "CT is the test of choice for diverticulitis",
@@ -248,7 +248,7 @@
   ],
   "strategy": "Unstable before stable",
   "archetype": "Escalate with data",
-  "difficulty": 4,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Rigid tender abdomen with rebound",
@@ -285,7 +285,7 @@
   ],
   "strategy": "Unstable before stable",
   "archetype": "Sudden pain relief is not improvement",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Sudden relief of pain then fever and rigid abdomen means perforation",
@@ -322,7 +322,7 @@
   ],
   "strategy": "Recognise the new finding",
   "archetype": "Interpret a new finding",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Jaundice and altered stool/urine point to biliary obstruction",
@@ -359,7 +359,7 @@
   ],
   "strategy": "Safety and assess before act",
   "archetype": "Do not sedate a liver that cannot clear drugs",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Confusion risk in cirrhosis calls for safety measures",
@@ -396,7 +396,7 @@
   ],
   "strategy": "Maslow: oxygenation first",
   "archetype": "Oxygenation outranks assessment routines",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Ascites fluid pushes the diaphragm up and causes shortness of breath",
@@ -433,7 +433,7 @@
   ],
   "strategy": "Maslow: circulation first",
   "archetype": "Circulation first, then tamponade",
-  "difficulty": 4,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Varices can rupture and bleed massively",
@@ -470,7 +470,7 @@
   ],
   "strategy": "Unstable before stable",
   "archetype": "Rank the triggers",
-  "difficulty": 4,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Triggers: GI bleeding, high protein, gut bacteria, uremia",
@@ -507,7 +507,7 @@
   ],
   "strategy": "Unstable before stable",
   "archetype": "New complication outranks known pain",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Hypocalcemia signs: tetany, Chvostek's, Trousseau's",
@@ -544,7 +544,7 @@
   ],
   "strategy": "Medication timing",
   "archetype": "Timing of ulcer drugs",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Sucralfate coats the ulcer base",
@@ -581,7 +581,7 @@
   ],
   "strategy": "Assess before act",
   "archetype": "Report no stool passed",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Push fluids and verify barium is passed",
@@ -618,7 +618,7 @@
   ],
   "strategy": "Compare similar operations",
   "archetype": "Compare similar operations",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Kock pouch emptied by catheter",
@@ -655,7 +655,7 @@
   ],
   "strategy": "Recognise the new complication",
   "archetype": "Known vs new finding",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Fistulas and abscesses complicate Crohn's",
@@ -729,7 +729,7 @@
   ],
   "strategy": "Match client statement to the operation",
   "archetype": "Match client statement to the operation",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Vagotomy cuts vagus branches that stimulate acid",
@@ -772,7 +772,7 @@
   ],
   "strategy": "Match precautions to the transmission route",
   "archetype": "Select the safe actions",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "A and E spread fecal-oral",
@@ -815,7 +815,7 @@
   ],
   "strategy": "Prevention teaching",
   "archetype": "Select effective prevention advice",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "High-residue diet and fluids",
@@ -852,7 +852,7 @@
   ],
   "strategy": "Match care to the physiology",
   "archetype": "Match care to the physiology",
-  "difficulty": 3,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Quiet cool environment in hyperthyroidism",
@@ -889,7 +889,7 @@
   ],
   "strategy": "Safety: stop activity when control is poor",
   "archetype": "Decide when not to exercise",
-  "difficulty": 4,
+  "difficulty": 1,
   "bloom": "judgment",
   "keyFacts": [
    "Avoid exercise when control is poor",
@@ -926,7 +926,7 @@
   ],
   "strategy": "Unstable before stable",
   "archetype": "Escalate a surgical emergency",
-  "difficulty": 4,
+  "difficulty": 2,
   "bloom": "judgment",
   "keyFacts": [
    "Thyroid storm after surgery or iodine therapy",
