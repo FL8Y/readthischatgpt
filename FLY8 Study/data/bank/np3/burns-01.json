@@ -1,0 +1,922 @@
+[
+ {
+  "id": "np3-0176",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Size estimate versus airway",
+  "noteId": "np5-burns-rule-of-nines",
+  "vignette": "A 35-year-old man is brought in after a house fire with burns to the whole front of his trunk and his entire left arm. His voice is hoarse, his nasal hairs are singed, and there is soot around his mouth. A colleague asks the nurse to start marking out the percentage of burned area on the chart.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Calculate the burned area at once, since fluids depend on the estimate",
+   "Cover the burns with clean dry sheets and start the dressing chart",
+   "Obtain his weight so the fluid volume can be worked out",
+   "Assess the airway and give oxygen, then estimate the burn size"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Hoarseness, singed nasal hair and soot suggest an airway burn whose swelling worsens over 24-48 hours.\n2. Airway and breathing come before measuring; size (front trunk 18 + arm 9 = about 27%, extensive) is estimated quickly right after.\n3. Fluids, covers and weights are all needed but follow airway.\nFlip: with a clear airway and no smoke exposure, estimating the size would come first.",
+  "optionRationales": [
+   "Wrong: right action, wrong time.",
+   "Wrong: right action, wrong time.",
+   "Wrong: right action, wrong time.",
+   "Right: airway before measuring."
+  ],
+  "strategy": "ABCs before measuring",
+  "archetype": "ABC before measuring",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Do ABCs before measuring",
+   "Front of trunk 18 + arm 9 = 27%, extensive"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0177",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Fluid under a new autograft",
+  "noteId": "np5-burns-skin-grafting",
+  "vignette": "On day 2 after an autograft to the right thigh, a client's dressing is stained and the nurse sees a bulge of dark fluid under the graft. The client feels well and asks if he can walk to the bathroom with the physiotherapist. The first dressing change is scheduled for tomorrow.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Allow walking since the graft is already two days old and has attached",
+   "Keep the leg elevated and still, and report the fluid to the surgeon",
+   "Press on the bulge to push the fluid out toward the edge of the graft",
+   "Wait for tomorrow's scheduled dressing change before telling anyone"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. A graft lives on blood supply from its bed; fluid or blood under it, movement, pressure or shear can lift it off.\n2. The nurse immobilizes and elevates and reports early because the first dressing change may need to be earlier.\n3. Pressing or walking risks shear.\nFlip: with a dry intact dressing, the planned schedule would stand.",
+  "optionRationales": [
+   "Wrong: movement risks shear.",
+   "Right: immobilize and report.",
+   "Wrong: unsafe handling of the graft.",
+   "Wrong: under-reaction."
+  ],
+  "strategy": "Protect the graft bed",
+  "archetype": "protect the graft",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Graft needs a clean, well-supplied bed; fluid or blood can lift it off",
+   "Immobilize 3-7 days; first dressing change 2-5 days"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0178",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Severity categories",
+  "noteId": "np3-er-burn-size-depth",
+  "vignette": "A triage nurse sees four adults with second-degree burns. Client A has 12% TBSA on the legs. Client B has 18% TBSA on the back. Client C has 8% TBSA that includes both hands. Client D has 20% TBSA on the thighs and abdomen.",
+  "stem": "Which client has a major burn?",
+  "options": [
+   "Client A, because the legs are large body parts",
+   "Client B, because it is the largest area on one surface",
+   "Client C, because both hands are involved",
+   "Client D, because 20% is above the moderate limit"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Minor: second degree under 15% in adults; moderate: 15-25%; major: over 25%, or any burn of the eyes, ears, face, hands, feet, perineum or joints.\n2. A, B and D fall in the minor or moderate categories by size; C is only 8% but involves both hands, which makes it major.\nFlip: if C's burn spared the hands, it would be minor.",
+  "optionRationales": [
+   "Wrong: 12% is minor.",
+   "Wrong: 18% is moderate.",
+   "Right: special area makes it major.",
+   "Wrong: 20% is moderate (15-25%)."
+  ],
+  "strategy": "Location can outrank size",
+  "archetype": "classify major burns",
+  "difficulty": 4,
+  "bloom": "apply",
+  "keyFacts": [
+   "Major: burns of eyes, ears, face, hands, feet, perineum, joints",
+   "Moderate: second degree 15-25% in adults"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0179",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Allergy check before silver sulfadiazine",
+  "noteId": "np5-burns-antimicrobials",
+  "vignette": "A client with partial-thickness burns has an order for silver sulfadiazine cream twice daily. During admission he mentioned a rash and swelling after taking a sulfa antibiotic last year. The wound is clean and he is waiting for his first dressing.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Hold the first application and report the sulfa reaction",
+   "Apply the cream as ordered and watch the skin for a rash",
+   "Apply a thin layer and ask the client to report any itching afterward",
+   "Switch to mafenide cream since it is the stronger agent"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Silver sulfadiazine is a sulfa drug; a history of sulfa allergy is checked before the first application.\n2. Mafenide is also a sulfa-based agent, so switching on the nurse's own judgement is wrong and outside scope.\nFlip: with no allergy history, the cream would be applied in a thin layer with sterile gloves.",
+  "optionRationales": [
+   "Right: stop and report.",
+   "Wrong: unsafe habit of watching for harm after it starts.",
+   "Wrong: same error.",
+   "Wrong: another sulfa agent and outside scope."
+  ],
+  "strategy": "Check allergy before the first dose",
+  "archetype": "question the order",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Check allergy and order before applying",
+   "Sulfa allergy rules out both sulfa-based agents"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0180",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Hidden compartment pressure",
+  "noteId": "np5-burns-degrees",
+  "vignette": "A client with a circumferential partial- and full-thickness burn of the left forearm reports pain that his analgesic has not touched. The skin is tense and swollen, the fingers are pale and cool, he says they tingle, and the radial pulse is faint. The central burned area is dry, leathery and does not hurt when touched.",
+  "stem": "Which finding is the most urgent to report?",
+  "options": [
+   "Pale cool fingers with tingling and a faint pulse",
+   "The dry leathery central area with no pain on touch",
+   "The pain that has not responded to the analgesic",
+   "The partial-thickness burn around the edge of the wound"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. A full-thickness area is painless because nerve endings are destroyed, so absence of pain there is expected.\n2. Tense swelling, pallor, coolness, tingling and a weak pulse in a circumferential burn indicate compartment pressure and lost circulation; escharotomy may be needed.\n3. Pain out of proportion is part of that picture but the circulatory signs are the emergency.\nFlip: with warm pink fingers and a strong pulse, pain control would be the priority.",
+  "optionRationales": [
+   "Right: limb circulation threatened.",
+   "Wrong: expected in full-thickness burns.",
+   "Wrong: part of the picture but not the most specific sign.",
+   "Wrong: expected."
+  ],
+  "strategy": "Circulation outranks depth",
+  "archetype": "severe pain out of proportion",
+  "difficulty": 5,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Compartment signs: tense swelling, pale or cool extremity, weak pulses, tingling",
+   "Third degree is painless in the burned area"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0181",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Low urine output during resuscitation",
+  "noteId": "np5-burns-other-management",
+  "vignette": "A client with 40% TBSA burns is receiving lactated Ringer's as prescribed, 4 hours after injury. His pulse is 120, BP is 100/62 and urine output has been 15 mL/h for two consecutive hours. The charge nurse wants to give furosemide to 'get the kidneys going.'",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Give furosemide to increase the urine output as the charge nurse suggests",
+   "Decrease the fluid rate to avoid fluid overload and recheck in four hours",
+   "Report the low output and expect the fluid rate to be raised",
+   "Document the output and continue the same rate until the 8-hour mark"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Hourly urine output (target about 30-50 mL/h) is the most sensitive guide to perfusion in burn resuscitation.\n2. A low output with tachycardia means more fluid is needed, not a diuretic or a slower rate.\n3. Pulse or BP alone must not be used to judge fluids.\nFlip: output above about 50 mL/h would allow the rate to be reduced.",
+  "optionRationales": [
+   "Wrong: treats the symptom and worsens hypovolemia.",
+   "Wrong: the opposite of what is needed.",
+   "Right: more fluid is needed.",
+   "Wrong: under-reaction."
+  ],
+  "strategy": "Urine output guides fluid",
+  "archetype": "titrate to urine output",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Urine output target about 30-50 mL/h",
+   "Fluid rate adjusted to urine output"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0182",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Shock with a normal pressure",
+  "noteId": "np5-circulation-shock-overview",
+  "vignette": "A young man has a stab wound to the thigh controlled with a pressure dressing. His BP is 118/76, but his pulse is 124, skin is cool and clammy, capillary refill is slow, he is restless and has passed little urine. A colleague says he looks stable because his pressure is normal.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Reassure him because a normal blood pressure rules out shock",
+   "Treat for shock: oxygen, IV access, monitoring and a report",
+   "Recheck the blood pressure in 30 minutes before taking action",
+   "Remove the pressure dressing to look at the wound again"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Shock is a perfusion problem; BP can be normal in early shock while pulse, skin, refill, mental state and urine already show poor perfusion.\n2. Oxygen, IV access, monitoring and early reporting come first, and bleeding control continues.\n3. Waiting or reassuring under-reacts; removing the dressing restarts bleeding.\nFlip: with warm dry skin, a calm client and good urine output, observation would suffice.",
+  "optionRationales": [
+   "Wrong: false reassurance.",
+   "Right: early shock.",
+   "Wrong: under-reaction.",
+   "Wrong: restarts bleeding."
+  ],
+  "strategy": "Perfusion before pressure",
+  "archetype": "perfusion not just BP",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Shock is a perfusion problem; BP may be normal early",
+   "Control bleeding; oxygen, IV access, monitoring"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0183",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Transfusion reaction",
+  "noteId": "np5-shock-management",
+  "vignette": "Ten minutes into a unit of packed red cells, a client has chills, back pain and a fall in blood pressure from 124/78 to 90/54. He says he feels frightened. The blood is infusing at the prescribed rate through a Y-set with saline.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Slow the transfusion and give the PRN antipyretic for the chills",
+   "Continue at the same rate and recheck the vital signs in 15 minutes",
+   "Take down the whole line and flush the vein with a new blood unit",
+   "Stop the transfusion, run saline and call for help"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Chills, back pain and hypotension soon after a transfusion begins suggest a serious reaction.\n2. Stop the transfusion, keep the vein open with saline (not the blood tubing) and call for help.\n3. Slowing, treating the chills only or waiting under-reacts.\nFlip: a mild itch alone would be managed by slowing and calling the provider.",
+  "optionRationales": [
+   "Wrong: under-reaction.",
+   "Wrong: under-reaction.",
+   "Wrong: loses access and adds blood.",
+   "Right: stop and keep access."
+  ],
+  "strategy": "Stop the offending agent",
+  "archetype": "stop the offending agent",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Stop the offending drug or transfusion at once and keep the vein open with saline"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0184",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Spinal cord injury and low pressure",
+  "noteId": "np5-types-of-shock",
+  "vignette": "A man is brought in after a diving accident with neck pain and leg weakness. His BP is 80/42, heart rate 50, and his skin is warm and dry. The nurse's colleague wants to hang a large fluid bolus 'wide open' and sit him up to ease his breathing.",
+  "stem": "What is the best action?",
+  "options": [
+   "Sit him upright now to help his breathing and give the fluid bolus wide open",
+   "Keep the spine aligned, support ABCs and report neurogenic shock for fluids",
+   "Treat as anaphylaxis with epinephrine since the pressure is low",
+   "Treat as septic shock and give antibiotics before anything else"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Low pressure with a slow pulse and warm dry skin after a spinal injury = neurogenic shock (loss of sympathetic tone).\n2. Protect the spine, support ABCs, and expect fluids and vasopressors per orders.\n3. Moving a client with a possible neck injury is unsafe; the slow pulse and history argue against anaphylaxis or sepsis.\nFlip: hives, wheeze and swelling after an exposure would suggest anaphylaxis.",
+  "optionRationales": [
+   "Wrong: moving the client is unsafe.",
+   "Right: spine safe and correct type.",
+   "Wrong: wrong type of shock.",
+   "Wrong: wrong type of shock."
+  ],
+  "strategy": "Match treatment to the type of shock",
+  "archetype": "recognise neurogenic shock",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Neurogenic: low pressure with slow pulse and warm dry skin",
+   "Keep the spine aligned"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0185",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Suspicious scald pattern",
+  "noteId": "np3-er-burned-child",
+  "vignette": "A 2-year-old has sharply outlined burns on both feet and ankles like socks, with no splash marks. The father says the child climbed into the bath alone. The child is quiet and flinches when touched. The burn covers about 8% TBSA.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Accept the father's story since children often climb into baths and the history seems believable",
+   "Confront the father in front of the child about causing the burn and demand an explanation",
+   "Delay the report until the burn has healed and the pattern fades",
+   "Treat the burn, document objectively and report the suspicion per policy"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Sharply outlined stocking or glove scalds that do not match the explanation raise suspicion of abuse, and children's thinner skin burns more deeply.\n2. The nurse provides care, documents objectively and reports per policy.\n3. Accusing the parent or waiting is unsafe for the child.\nFlip: a splash pattern with a consistent story would not raise concern.",
+  "optionRationales": [
+   "Wrong: ignores the mismatch.",
+   "Wrong: non-therapeutic and unsafe.",
+   "Wrong: delays child protection.",
+   "Right: care, document and report."
+  ],
+  "strategy": "Pattern does not match the story",
+  "archetype": "recognise abuse cues",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Consider abuse when the pattern does not match the story",
+   "Children have thinner skin"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0186",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Hydrotherapy in an unstable client",
+  "noteId": "np5-burns-wound-care",
+  "vignette": "A hydrotherapy session is scheduled for a client on day 2 after a large burn. His BP has fallen to 88/52, pulse is 118, and he has a fresh skin graft on the left arm. The therapist is ready and has the tub warmed to 37.8 C.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Postpone hydrotherapy and report his unstable vital signs",
+   "Go ahead since the water is at the right temperature already",
+   "Give extra analgesia and proceed with a shorter session",
+   "Allow only the grafted arm to be placed in the water"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Hydrotherapy is not used for hemodynamically unstable clients or new skin grafts; risks include chilling, pain and fluid and electrolyte loss.\n2. Correct temperature and premedication do not change the contraindication.\nFlip: for a stable client without fresh grafts, hydrotherapy for 30 minutes or less would proceed.",
+  "optionRationales": [
+   "Right: contraindicated.",
+   "Wrong: ignores the contraindication.",
+   "Wrong: premedication does not solve it.",
+   "Wrong: the graft is a contraindication."
+  ],
+  "strategy": "Safety criteria for hydrotherapy",
+  "archetype": "postpone",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Hydrotherapy not for hemodynamically unstable clients or new grafts",
+   "30 minutes or less"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0187",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Electrical injury with a small wound",
+  "noteId": "np3-er-burn-types",
+  "vignette": "A 25-year-old electrician touched a live wire and was thrown across the room. He is alert, says he feels fine, and has a small blackened 1 cm wound on his palm and a similar spot on his foot. His heart rate is regular at 88. He asks to go home.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Treat the small wounds with a dressing and discharge him",
+   "Reassure him since the wounds are small and he is alert",
+   "Monitor his heart and arrange evaluation for deep injury",
+   "Recommend only an antibiotic cream and a check in one week"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Electrical current produces deep hidden injury along its path, with entry and exit wounds; small skin wounds can hide muscle damage, and rhythm problems can follow.\n2. Monitor the heart, check airway, and evaluate for deep injury.\nFlip: for a brief static shock with no wounds, monitoring would not be needed.",
+  "optionRationales": [
+   "Wrong: under-reaction.",
+   "Wrong: false reassurance.",
+   "Right: monitor and evaluate.",
+   "Wrong: treats the surface only."
+  ],
+  "strategy": "Hidden deep injury",
+  "archetype": "hidden damage",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Electrical burns: deep hidden injury, entry and exit wounds, rhythm risk"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0188",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Falling consciousness after trauma",
+  "noteId": "np5-disability-exposure",
+  "vignette": "A man injured in a motorcycle crash becomes progressively drowsy in the emergency department. His SpO2 is 85%, his pulse is 128 and his skin is cool. A resident asks the nurse to prepare for an urgent head CT and give a sedative so the scan goes smoothly.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Prepare him for the head CT and give the requested sedative",
+   "Record his Glasgow Coma Scale score every 15 minutes and wait",
+   "Recheck ABCs and give oxygen before blaming the brain",
+   "Check his bed linen and remove clothing to complete the exposure step"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Drowsiness can come from low oxygen or poor perfusion; SpO2 85% and a fast pulse with cool skin point to hypoxia or shock.\n2. Re-check A, B and C and give oxygen first; check glucose; avoid sedating a client whose neuro status you must follow.\nFlip: with normal oxygenation and perfusion and a unilateral blown pupil, the head would be the focus.",
+  "optionRationales": [
+   "Wrong: sedation hides a treatable cause.",
+   "Wrong: documenting without acting.",
+   "Right: exclude hypoxia and shock.",
+   "Wrong: right step, wrong time."
+  ],
+  "strategy": "ABC before disability",
+  "archetype": "exclude oxygen and perfusion first",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Falling consciousness may come from low oxygen or poor perfusion",
+   "Check glucose; avoid sedating"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0189",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Carbon monoxide with a normal oximeter",
+  "noteId": "np3-er-burn-smoke-co",
+  "vignette": "A woman rescued from a smoke-filled room has a headache, dizziness and mild confusion. Her SpO2 reads 99% on room air, respirations are 22, and there is no facial burn. A colleague says she can be observed on room air because the oximeter is normal.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Give 100% oxygen and prepare for carboxyhemoglobin testing",
+   "Observe her on room air since her saturation is normal",
+   "Apply a low-flow nasal cannula at 2 L/min to avoid oxygen toxicity",
+   "Reassure her and offer water for the headache"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Carbon monoxide binds hemoglobin about 200 times more strongly than oxygen; the oximeter can read falsely normal.\n2. Headache, dizziness and confusion after smoke exposure call for high-concentration oxygen until carboxyhemoglobin is under 5%.\nFlip: with no smoke exposure and a mild tension headache, observation would be fine.",
+  "optionRationales": [
+   "Right: treat CO poisoning.",
+   "Wrong: trusts a misleading number.",
+   "Wrong: inadequate oxygen.",
+   "Wrong: under-reaction."
+  ],
+  "strategy": "Distrust the oximeter",
+  "archetype": "do not trust the number",
+  "difficulty": 5,
+  "bloom": "judgment",
+  "keyFacts": [
+   "CO binds hemoglobin about 200 times more strongly than oxygen",
+   "Oxygen until carboxyhemoglobin is under 5%"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0190",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Burn client with a hoarse voice",
+  "noteId": "np5-airway",
+  "vignette": "A man with facial burns from a gas explosion has a hoarse voice, noisy inspiration and sooty sputum. He is speaking in short sentences, SpO2 is 94% on oxygen, and he wants to lie flat. The nurse sees the swelling around his mouth increasing.",
+  "stem": "What is the best action?",
+  "options": [
+   "Lay him flat and observe, since his saturation is 94%",
+   "Examine his throat with a tongue depressor to judge the swelling",
+   "Wait for the swelling to peak at 24 to 48 hours before acting",
+   "Keep him upright, call for airway help and prepare for intubation"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Facial burns, hoarseness, stridor and soot suggest airway burn; swelling worsens over 24-48 hours so protection is early.\n2. Do not lay him flat or agitate him; prepare for a difficult airway and call for help.\n3. A good saturation now does not predict the next hour.\nFlip: with no hoarseness and a clear voice, close observation would be fine.",
+  "optionRationales": [
+   "Wrong: unsafe position and trusts the number.",
+   "Wrong: may trigger obstruction.",
+   "Wrong: delays until too late.",
+   "Right: early definitive airway planning."
+  ],
+  "strategy": "Anticipate airway loss",
+  "archetype": "early airway protection",
+  "difficulty": 5,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Hoarse voice and facial burns suggest airway swelling",
+   "Early airway protection matters"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0191",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Choking in pregnancy",
+  "noteId": "np5-airway-obstruction-choking",
+  "vignette": "A 32-week pregnant woman at a family gathering is clutching her throat, cannot cough or speak, and her lips are turning blue. A relative kneels behind her and prepares to give abdominal thrusts.",
+  "stem": "What should the nurse tell the relative to do?",
+  "options": [
+   "Continue abdominal thrusts since they are the standard",
+   "Give chest thrusts instead, and call for help",
+   "Give back blows only until the object comes out",
+   "Let her try to cough while holding her arms"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. A client who cannot speak, cough or breathe has severe obstruction; thrusts are needed at once.\n2. In pregnant or very obese clients, chest thrusts replace abdominal thrusts.\n3. Coughing alone is for mild obstruction.\nFlip: if she could cough forcefully, she would be encouraged to keep coughing.",
+  "optionRationales": [
+   "Wrong: injures the fetus.",
+   "Right: chest thrusts in pregnancy.",
+   "Wrong: incomplete.",
+   "Wrong: under-reaction."
+  ],
+  "strategy": "Adapt the technique",
+  "archetype": "chest thrusts",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Pregnant or obese: chest thrusts",
+   "Cannot speak, cough or breathe = severe obstruction"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0192",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Gastric bleeding in burns",
+  "noteId": "np3-er-burn-pathophysiology",
+  "vignette": "On day 3 after a 35% TBSA burn, a client is diuresing well and his wounds look clean. The nurse notes coffee-ground material in the nasogastric tube, a drop in hemoglobin and a heart rate that has climbed from 92 to 118. He says his burned arm is itching.",
+  "stem": "Which finding should be reported first?",
+  "options": [
+   "The itching in his burned arm that began this morning",
+   "The good urine output during the diuretic phase",
+   "The clean appearance of the wounds on inspection",
+   "Coffee-ground drainage with rising heart rate"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Reduced GI blood flow in burns leads to ileus and Curling's ulcer; coffee-ground drainage with falling hemoglobin and tachycardia suggests bleeding.\n2. Itching, diuresis in the acute phase and clean wounds are expected or favorable.\nFlip: without GI findings, the itching would be handled with comfort measures.",
+  "optionRationales": [
+   "Wrong: expected during healing.",
+   "Wrong: expected in this phase.",
+   "Wrong: favorable.",
+   "Right: possible GI hemorrhage."
+  ],
+  "strategy": "Complication surveillance",
+  "archetype": "Curling ulcer",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Curling's ulcer and paralytic ileus in burns",
+   "Test stool for blood; give acid-reducing drugs"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0193",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Donor site pain",
+  "noteId": "np3-er-burn-closure",
+  "vignette": "A client had an autograft to the chest taken from his thigh. On day 2 he rates the thigh donor site pain at 8/10 and says the chest graft feels fine. A dressing change at the donor site is due in 30 minutes. He asks, 'Why does the place they took skin from hurt more than the burn?'",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Tell him the graft site should hurt more and he must learn to be tolerant of it",
+   "Explain donor sites hurt and give the analgesic before the dressing",
+   "Hold analgesia so that pain does not mask bleeding at the graft",
+   "Delay the dressing change and give the analgesic afterward"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. A donor site is a partial-thickness wound that is painful and heals in 7-14 days.\n2. Analgesia is given before dressing changes.\nFlip: for a painless full-thickness area, the pain statement would differ.",
+  "optionRationales": [
+   "Wrong: dismisses.",
+   "Right: explains and treats.",
+   "Wrong: withholds analgesia.",
+   "Wrong: right drug, wrong time."
+  ],
+  "strategy": "Plan analgesia",
+  "archetype": "plan analgesia",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Donor site heals in 7-14 days; painful, so plan analgesia"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0194",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Acute phase labs",
+  "noteId": "np3-er-burn-phases",
+  "vignette": "On day 3 after a major burn, a client's urine output is 180 mL/h, his hematocrit has fallen and his potassium is 3.1 mmol/L. His family says he must be recovering because he is passing so much urine. The nurse notes new ECG T-wave flattening.",
+  "stem": "What is the priority?",
+  "options": [
+   "Monitor potassium and rhythm, and report the low level for replacement",
+   "Reassure the family that the kidneys have recovered, and reduce monitoring",
+   "Restrict potassium since burns cause high potassium",
+   "Withhold fluids to reduce the urine output"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. In the acute (diuretic) phase fluid returns to vessels: diuresis, dilution and low potassium as it shifts back into cells.\n2. Low potassium with ECG change needs reporting and replacement; restricting potassium applies to the emergent phase.\nFlip: on day 1 with oliguria, high potassium would be expected.",
+  "optionRationales": [
+   "Right: hypokalemia risk in this phase.",
+   "Wrong: false reassurance.",
+   "Wrong: emergent-phase thinking.",
+   "Wrong: dehydration risk."
+  ],
+  "strategy": "Potassium trap: high early, low later",
+  "archetype": "diuretic phase",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Acute phase: diuresis, low hematocrit, low potassium",
+   "Emergent phase: high potassium"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0195",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Reduce the fluid rate?",
+  "noteId": "np3-er-x-burn-phase-compare",
+  "vignette": "A client with a large burn, 10 hours after injury, has passed 70 mL of urine per hour for three hours and his hematocrit has fallen from 52% to 46%. His vital signs are stable and he has clear thinking.",
+  "stem": "What should the nurse anticipate?",
+  "options": [
+   "A higher infusion rate to push the output further",
+   "A fluid restriction with a loop diuretic",
+   "A reduced infusion rate per order",
+   "Stopping fluids completely until the next morning"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Hourly output above the target of about 30-50 mL/h, or falling hemoglobin and hematocrit, may allow the rate to be reduced.\n2. Stopping fluids or adding diuretics is too aggressive; raising the rate risks overload.\nFlip: output of 15 mL/h would call for more fluid.",
+  "optionRationales": [
+   "Wrong: risks overload.",
+   "Wrong: too aggressive.",
+   "Right: titrate down.",
+   "Wrong: too aggressive."
+  ],
+  "strategy": "Titrate to response",
+  "archetype": "urine output guide",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Urine output over 50 mL/h or falling hematocrit may allow rate reduction"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0196",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Parkland timing from the time of injury",
+  "noteId": "np3-er-burn-fluids",
+  "vignette": "A man weighing 70 kg with burns over 40% TBSA reaches the hospital 2 hours after the injury. The nurse uses the Parkland formula (4 mL x kg x % TBSA of lactated Ringer's, half in the first 8 hours from the time of injury). The provider asks how the first half should be given.",
+  "stem": "Which plan is correct?",
+  "options": [
+   "5,600 mL over the 6 hours left of the first 8",
+   "5,600 mL over 8 hours starting from his arrival",
+   "11,200 mL over the first 8 hours after arrival",
+   "2,800 mL over the next 8 hours, then 8,400 mL over 16 hours"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Parkland: 4 x 70 x 40 = 11,200 mL in 24 hours; half (5,600 mL) in the first 8 hours counted from the time of injury.\n2. Two hours have passed, so 5,600 mL goes over the remaining 6 hours; the rest (5,600 mL) over the next 16.\n3. Starting the clock at arrival under-resuscitates him.\nFlip: if he arrived at the moment of injury, the 5,600 mL would run over 8 hours.",
+  "optionRationales": [
+   "Right: clock starts at injury.",
+   "Wrong: starts at arrival.",
+   "Wrong: gives the full-day amount in the first half.",
+   "Wrong: wrong split."
+  ],
+  "strategy": "Count from the time of injury",
+  "archetype": "fluids count from injury",
+  "difficulty": 5,
+  "bloom": "apply",
+  "keyFacts": [
+   "Parkland: 4 mL x kg x % TBSA, half in first 8 hours",
+   "Fluid times count from the time of injury"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0197",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Open chest wound dressing",
+  "noteId": "np5-breathing",
+  "vignette": "A man with a stab wound to the chest has a wound that sucks air with each breath. A bystander sealed all four sides of an occlusive dressing. Ten minutes later he is struggling to breathe, his neck veins are distended, the trachea deviates and breath sounds are absent on that side.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Press down firmly on all four sides to make the seal stronger",
+   "Give a sedative to calm him and recheck in 15 minutes",
+   "Release one edge of the dressing and call for urgent decompression",
+   "Wait for a chest X-ray before touching the dressing"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. A sealed open chest wound can convert to a tension pneumothorax: distress, distended veins, tracheal deviation and absent breath sounds.\n2. Lifting an edge lets air escape; decompression follows without waiting for an X-ray.\nFlip: with a three-sided dressing and easy breathing, the dressing would stay.",
+  "optionRationales": [
+   "Wrong: worsens tension.",
+   "Wrong: under-reaction and respiratory depression.",
+   "Right: relieve the pressure.",
+   "Wrong: delays treatment."
+  ],
+  "strategy": "Open chest wound must never be sealed on all sides",
+  "archetype": "three-sided dressing",
+  "difficulty": 5,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Cover an open chest wound taped on three sides",
+   "Tension pneumothorax: decompress; do not wait for X-ray"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0198",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Mafenide and acidosis",
+  "noteId": "np3-er-burn-topicals",
+  "vignette": "A client with deep burns on his ears and an electrical burn is treated with mafenide cream. On day 3 he becomes lethargic with deep, rapid breathing at 32 per minute. He tells the nurse the dressing changes are very painful.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Tell him deep breathing is a response to the pain and give extra analgesia",
+   "Report the deep rapid breathing as possible acidosis",
+   "Continue the cream and encourage slow breaths",
+   "Increase the cream to a thicker layer for better penetration"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Mafenide can cause metabolic acidosis, and the lungs compensate with rapid deep breathing.\n2. Pain on application is expected (premedicate 30 minutes before) but does not explain lethargy and Kussmaul breathing.\nFlip: with a silver sulfadiazine order, a low white count would be the effect to watch.",
+  "optionRationales": [
+   "Wrong: attributes it to pain.",
+   "Right: signature effect.",
+   "Wrong: suppresses compensation.",
+   "Wrong: worsens the effect."
+  ],
+  "strategy": "Signature adverse effect",
+  "archetype": "recognise adverse effect",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Mafenide: painful, metabolic acidosis",
+   "Premedicate about 30 minutes before"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0199",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Chemical burn with dry powder",
+  "noteId": "np5-burns-first-aid",
+  "vignette": "A worker spilled dry lime powder on his forearm. Another worker rushes him to the first-aid post and starts to pour water over the arm at once. The powder clumps and the skin turns white. The nurse arrives.",
+  "stem": "What should the nurse direct next?",
+  "options": [
+   "Continue pouring small amounts of water to dissolve the powder",
+   "Cover the arm with a clean dry sheet and transport at once",
+   "Apply ointment to the area to protect the skin",
+   "Brush off the dry powder, then flush with running water"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. For chemical burns, brush off dry powder first, then flush with plenty of running water and remove contaminated clothing.\n2. Small amounts of water may activate the chemical; ointments and covering delay removal.\nFlip: for a liquid acid splash, flushing begins at once.",
+  "optionRationales": [
+   "Wrong: small amounts worsen the reaction.",
+   "Wrong: leaves the chemical on skin.",
+   "Wrong: ointments are not used.",
+   "Right: brush then flush."
+  ],
+  "strategy": "Remove the agent first",
+  "archetype": "brush before flushing",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Chemical burns: brush off dry powder, flush with running water",
+   "Do not use ointments"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0200",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Rehabilitation phase focus",
+  "noteId": "np5-burns-phases",
+  "vignette": "A client's burn wounds closed two weeks ago. His elbow is held bent because it hurts to straighten it, and he keeps his arm against his chest. He says he is worried about how he will look. The therapist asks the nurse for priorities.",
+  "stem": "Which nursing focus is most appropriate?",
+  "options": [
+   "Strict rest of the arm in the bent position to protect the new skin",
+   "Aggressive fluid resuscitation to prevent shock",
+   "Positioning, splints, exercise and emotional support",
+   "Delay exercise until the scars have fully matured"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. After wound closure, the focus is preventing scars and contractures through positioning, splints and exercise, plus counselling for body image.\n2. Keeping the elbow bent invites contracture; resuscitation belongs to the emergent phase.\nFlip: during the emergent phase, airway and fluids would dominate.",
+  "optionRationales": [
+   "Wrong: promotes contracture.",
+   "Wrong: emergent-phase priority.",
+   "Right: rehab priorities.",
+   "Wrong: delays needed therapy."
+  ],
+  "strategy": "Rehabilitation: prevent contractures",
+  "archetype": "prevent contracture",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Rehabilitation: prevent scars and contractures; therapy and counselling"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ }
+]
