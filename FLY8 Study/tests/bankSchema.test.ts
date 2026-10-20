@@ -48,7 +48,7 @@ describe('validateItem per type: pass and fail', () => {
   it('single fails: answer out of range', () => expect(errs(single({ answer: [7] }))).toMatch(/out of range/));
 
   it('sata passes', () => expect(validateItem(sata()).ok).toBe(true));
-  it('sata fails: 4 options', () => expect(errs(sata({ options: ['a', 'b', 'c', 'd'], optionRationales: ['', '', '', ''] }))).toMatch(/5-6 options/));
+  it('sata fails: 4 options', () => expect(errs(sata({ options: ['a', 'b', 'c', 'd'], optionRationales: ['', '', '', ''] }))).toMatch(/5-8 options/));
   it('sata fails: one answer', () => expect(errs(sata({ answer: [1] }))).toMatch(/at least 2/));
   it('sata fails: all options correct', () => expect(errs(sata({ answer: [0, 1, 2, 3, 4] }))).toMatch(/every option/));
   it('sata fails: duplicate answer index', () => expect(errs(sata({ answer: [1, 1] }))).toMatch(/duplicate indexes/));
@@ -91,6 +91,18 @@ describe('validateItem field rules', () => {
   it('option length ratio over 3x fails, 2x passes', () => {
     expect(errs(single({ options: ['Yes', 'No way', 'A very long option that clearly goes past three times', 'Maybe'] }))).toMatch(/ratio/);
     expect(validateItem(single({ options: ['aaaa bbbb', 'cccc dddd', 'eeee ffff gggg', 'hhhh iiii'] })).ok).toBe(true);
+  });
+  it('rationaleSimple and imageSuggestion are optional but validated when present', () => {
+    expect(validateItem(single({ rationaleSimple: 'Airway comes first.', imageSuggestion: { description: 'd', placement: 'stem', searchTerms: ['x'] } })).ok).toBe(true);
+    expect(errs(single({ rationaleSimple: '  ' }))).toMatch(/rationaleSimple/);
+    expect(errs(single({ imageSuggestion: { description: '', placement: 'stem', searchTerms: [] } }))).toMatch(/imageSuggestion/);
+  });
+  it('fromKit carries rationale_simplified and image_suggestion', () => {
+    const meta = { nursing_practice: 'NP1', topic: 'T', difficulty: 'easy', cognitive_domain: 'applying' };
+    const [it] = fromKit([{ id: 'k9', type: 'sata', stem: 'Stem nine here', rationale: 'x'.repeat(50), rationale_simplified: 'Plain.', meta,
+      options: ['a', 'b', 'c', 'd', 'e'], answers: [0, 1], image_suggestion: { description: 'D', placement: 'rationale', search_terms: ['t1'] } }]);
+    expect(it.rationaleSimple).toBe('Plain.');
+    expect(it.imageSuggestion).toEqual({ description: 'D', placement: 'rationale', searchTerms: ['t1'] });
   });
   it('rationale under 40 chars fails', () => expect(errs(single({ rationale: 'Too short.' }))).toMatch(/shorter than 40/));
   it('optionRationales count must equal options (single and sata)', () => {

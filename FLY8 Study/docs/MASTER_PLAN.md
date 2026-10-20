@@ -56,7 +56,7 @@ export interface BankItem {
   area: Area; topic: string; topicId?: string; noteId?: string;
   clusterId?: string; clusterSeq?: number;   // case study: shared vignette, 3-6 items
   vignette: string; stem: string;
-  options: string[];             // single 4; sata 5-6; highlight = selectable segments
+  options: string[];             // single 4; sata 5-8; highlight = selectable segments
   answer: number[];              // single [i]; sata/highlight correct indexes
   rows?: string[]; columns?: string[]; rowAnswer?: number[];  // matrix: one column per row
   blanks?: { choices: string[]; answer: number }[];            // cloze dropdowns

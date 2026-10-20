@@ -12,6 +12,13 @@ export interface ClozeBlank {
   answer: number;
 }
 
+/** Optional picture hint for a later image pass. Never rendered by the app today. */
+export interface ImageSuggestion {
+  description: string;
+  placement: string;
+  searchTerms: string[];
+}
+
 export interface BankItem {
   id: string;
   v: 2;
@@ -25,7 +32,7 @@ export interface BankItem {
   clusterSeq?: number;
   vignette: string;
   stem: string;
-  /** single 4; sata 5-6; highlight = selectable segments. Empty for matrix and cloze. */
+  /** single 4; sata 5-8; highlight = selectable segments. Empty for matrix and cloze. */
   options: string[];
   /** single [i]; sata/highlight correct indexes. Empty for matrix and cloze. */
   answer: number[];
@@ -34,7 +41,10 @@ export interface BankItem {
   rowAnswer?: number[];
   blanks?: ClozeBlank[];
   rationale: string;
+  /** Optional plain-language version of the rationale (1-2 short sentences). */
+  rationaleSimple?: string;
   optionRationales: string[];
+  imageSuggestion?: ImageSuggestion;
   strategy: string;
   archetype?: string;
   difficulty: Difficulty;
@@ -55,7 +65,7 @@ export const REVIEW_LEVELS: readonly ReviewLevel[] = ['unreviewed', 'ai-checked'
 
 export const SINGLE_OPTION_COUNT = 4;
 export const SATA_MIN_OPTIONS = 5;
-export const SATA_MAX_OPTIONS = 6;
+export const SATA_MAX_OPTIONS = 8;
 export const SATA_MIN_ANSWERS = 2;
 export const MATRIX_MIN_ROWS = 2;
 export const MATRIX_MIN_COLUMNS = 2;

@@ -192,6 +192,14 @@ export function validateItem(item: BankItem): ValidationResult {
   else if (it.rationale.trim().length < MIN_RATIONALE_CHARS) {
     errors.push(`rationale shorter than ${MIN_RATIONALE_CHARS} chars`);
   }
+  if (it.rationaleSimple !== undefined && !isNonEmpty(it.rationaleSimple)) errors.push('rationaleSimple must be a non-empty string when present');
+  if (it.imageSuggestion !== undefined) {
+    const im = it.imageSuggestion as Partial<NonNullable<BankItem['imageSuggestion']>> | null;
+    if (!im || typeof im !== 'object' || !isNonEmpty(im.description) || !isNonEmpty(im.placement) ||
+      !Array.isArray(im.searchTerms) || im.searchTerms.some((t) => !isNonEmpty(t))) {
+      errors.push('imageSuggestion needs description, placement and searchTerms (strings)');
+    }
+  }
   if (it.clusterId !== undefined && !isNonEmpty(it.clusterId)) errors.push('clusterId must be non-empty when present');
   if (it.clusterId && it.clusterSeq === undefined) warnings.push('clusterId set without clusterSeq');
   if (it.clusterSeq !== undefined && !it.clusterId) errors.push('clusterSeq set without clusterId');
