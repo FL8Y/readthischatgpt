@@ -5,7 +5,7 @@ import type { BankItem } from '../../bank/schema';
 import type { SessionResult } from '../../bank/results';
 import type { OverallReadiness } from '../../bank/readiness';
 import { GRID_LOOK, GRID_ORDER, formatDuration, gridCounts, readinessText } from '../../bank/statsData';
-import { Chip, PressableScale, ProgressRing } from '../kitParts';
+import { Chip, PressableScale, ProgressRing, TOP_INSET } from '../kitParts';
 import { radius, shadow, space, TOUCH_MIN, useTheme } from '../theme';
 import { AreaBars } from './StatsCharts';
 
@@ -61,7 +61,7 @@ export function Results({ result, items, onReviewItem, onRetryMissed, onDone, on
   const missedCount = result.missedIds.length;
 
   return (
-    <View style={{ flex: 1, backgroundColor: colors.bg }}>
+    <View style={{ flex: 1, backgroundColor: colors.bg, paddingTop: TOP_INSET }}>
       <ScrollView contentContainerStyle={{ padding: space.lg, paddingBottom: space.xxxl, gap: space.lg }}>
         <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.lg }}>
           <ProgressRing value={pct / 100} size={104} stroke={10} label={`Score ${pct} percent by credit`}>

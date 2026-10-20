@@ -7,7 +7,7 @@ import { goalDays, goalProgress, type StreakInfo } from '../../bank/streak';
 import { rankStats, tierFor } from '../../bank/ranks';
 import { areaAccuracy, readinessText, topicStats, trendDays } from '../../bank/statsData';
 import type { AttemptRecord } from '../../bank/types2';
-import { Chip, PressableScale, ProgressRing } from '../kitParts';
+import { Chip, PressableScale, ProgressRing, TOP_INSET } from '../kitParts';
 import { radius, shadow, space, TOUCH_MIN, useTheme } from '../theme';
 import { AreaBars, ReadinessRing, TrendChart, readinessAreaNote } from './StatsCharts';
 
@@ -53,7 +53,7 @@ export function Stats({ attempts, items, today, goal, streak, onPracticeTopic }:
     : `Passing readiness locked. Needs ${READINESS_FLOOR} answers in an NP area`;
 
   return (
-    <View style={{ flex: 1, backgroundColor: colors.bg }}>
+    <View style={{ flex: 1, backgroundColor: colors.bg, paddingTop: TOP_INSET }}>
       <ScrollView contentContainerStyle={{ padding: space.lg, paddingBottom: space.xxxl, gap: space.lg }}>
         <Section title="Passing readiness">
           <View style={{ alignItems: 'center', gap: space.md }}>

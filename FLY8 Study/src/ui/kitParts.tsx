@@ -25,7 +25,7 @@ export function haptic(kind: 'tap' | 'success' | 'error' = 'tap'): void {
 export const ImmersiveCtx = React.createContext<(on: boolean) => void>(() => undefined);
 
 /** Safe-area stand-ins (no safe-area library in the project). */
-export const TOP_INSET = Platform.select({ android: StatusBar.currentHeight ?? 28, ios: 54, default: 16 }) as number;
+export const TOP_INSET = Platform.select({ android: Math.max(StatusBar.currentHeight ?? 0, 28) + 6, ios: 54, default: 16 }) as number;
 export const BOTTOM_INSET = Platform.select({ android: 8, ios: 22, default: 8 }) as number;
 
 /** Pressable that shrinks slightly while pressed. Respects reduced motion. */

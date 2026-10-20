@@ -7,7 +7,7 @@ import {
   type PracticeSession,
 } from '../../bank/session';
 import { Btn, Chip, haptic } from '../kit';
-import { BOTTOM_INSET } from '../kitParts';
+import { BOTTOM_INSET, TOP_INSET } from '../kitParts';
 import { radius, space, useTheme } from '../theme';
 import { OptionRow } from './OptionRow';
 import { CaseItemInput, CasePanel, CaseResultCard, stemIsInline, vignetteIsInline } from './CaseSet';
@@ -141,7 +141,7 @@ export function Player({ session, items, onChange, onFinish, onLeave, onReport, 
     : { label: dirty ? 'Update answer' : 'Submit', onPress: submit, disabled: !canSubmit(item, selected, locked) };
 
   return (
-    <View style={{ flex: 1, backgroundColor: colors.bg }}>
+    <View style={{ flex: 1, backgroundColor: colors.bg, paddingTop: TOP_INSET }}>
       <TimerHeader
         session={session}
         now={now}
