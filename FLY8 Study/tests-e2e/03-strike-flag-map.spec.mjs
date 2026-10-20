@@ -5,15 +5,17 @@ export default async function ({ ctx, base }) {
   const { page, errors } = await openApp(ctx, base);
   await startQuick(page, 10);
 
-  // Strike option B by long-press, then restore it.
-  const optB = () => page.getByRole('radio', { name: /^Option B\./ });
-  await see(optB(), 'option B');
-  assertEq((await optB().first().getAttribute('aria-label')).includes('Crossed out'), false, 'B starts uncrossed');
-  await longPress(page, optB());
-  await see(page.getByRole('radio', { name: /^Option B\..*Crossed out\./ }), 'option B crossed out');
-  await see(page.getByText('Crossed out (long press to restore)'), 'crossed-out caption');
-  await longPress(page, optB());
-  await see(page.getByRole('radio', { name: /^Option B\. .*Not selected\.$/ }), 'option B restored');
+  // Strike option B by long-press, then restore it. Quick sets mix item types (cloze, matrix, highlight have no option rows),
+  // so this part only runs when the first question has plain option rows.
+  const optB = () => page.getByRole('radio', { name: /^Option B\./ }).or(page.getByRole('checkbox', { name: /^Option B\./ }));
+  if ((await optB().count()) > 0) {
+    assertEq((await optB().first().getAttribute('aria-label')).includes('Crossed out'), false, 'B starts uncrossed');
+    await longPress(page, optB());
+    await see(page.getByRole('radio', { name: /^Option B\..*Crossed out\./ }).or(page.getByRole('checkbox', { name: /^Option B\..*Crossed out\./ })), 'option B crossed out');
+    await see(page.getByText('Crossed out (long press to restore)'), 'crossed-out caption');
+    await longPress(page, optB());
+    await see(page.getByRole('radio', { name: /^Option B\. .*Not selected\.$/ }).or(page.getByRole('checkbox', { name: /^Option B\. .*Not selected\.$/ })), 'option B restored');
+  }
 
   // Flag Q1, then answer it.
   await click(btn(page, 'Flag this question'));
