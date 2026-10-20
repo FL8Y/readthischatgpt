@@ -1,0 +1,1492 @@
+[
+  {
+    "id": "cs-np5-01",
+    "type": "situation",
+    "title": "Setting Limits on the Psychiatric Unit",
+    "situation": "Ms. Liza Ocampo, 29, is admitted to the psychiatric unit of a tertiary hospital with unstable moods and frequent conflicts with her family. On her second day she repeatedly asks night-shift nurses for extra phone privileges and tells Nurse Ben, 'The other nurse said it was okay, so you should let me too.' She grows angry when he declines and says the staff 'only care about rules.' The unit's treatment plan limits phone use to scheduled times for all clients.",
+    "items": [
+      {
+        "id": "cs-np5-01-a",
+        "type": "mcq",
+        "stem": "Which response by Nurse Ben is most appropriate when Ms. Ocampo says another nurse allowed extra phone use?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Agree to one extra call this once so that she calms down and begins to trust him more",
+            "why_not": "Gives in to pressure and undermines the treatment plan; reinforces manipulation."
+          },
+          {
+            "label": "B",
+            "text": "State calmly and kindly that phone use follows the unit schedule for every client",
+            "why_not": ""
+          },
+          {
+            "label": "C",
+            "text": "Ask the other nurse in front of the client to say whether she really gave permission",
+            "why_not": "Pulls the client into staff conflict and invites splitting."
+          },
+          {
+            "label": "D",
+            "text": "Tell her that her request shows she is trying to control and manipulate all the staff",
+            "why_not": "Interpretive and judgmental; likely to escalate anger."
+          }
+        ],
+        "answer": "B",
+        "rationale": "The decisive cue is the attempt to play one nurse against another while the plan applies to all clients. A calm, brief, consistent statement of the limit keeps the plan intact and avoids a power struggle. Making an exception, even once, teaches the client that pressure works, and challenging her in front of others is more likely to escalate the situation.",
+        "rationale_simplified": "Stay calm and say the same rule applies to everyone. Do not make exceptions.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Mental health and psychiatric nursing",
+          "topic": "Behavioral management",
+          "topic_id": "psychiatric-nursing/part-1/behavioral-management",
+          "cognitive_domain": "applying",
+          "difficulty": "moderate",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Setting limits consistently"
+        }
+      },
+      {
+        "id": "cs-np5-01-b",
+        "type": "sata",
+        "stem": "Which nursing actions support consistent limit setting for Ms. Ocampo? Select all that apply.",
+        "options": [
+          "Discuss the limit and plan during the team handover so all staff respond the same way",
+          "Explain the limit in a calm, neutral tone without arguing",
+          "Decide privately each shift whether to allow exceptions",
+          "State the expected behavior and what will happen if the limit is crossed",
+          "Tell the client the limit is only for her because she is difficult",
+          "Document the client's behavior and the staff response objectively"
+        ],
+        "answers": [
+          0,
+          1,
+          3,
+          5
+        ],
+        "rationale": "Limits work when they are clear, applied the same way by every team member, and delivered without anger. Sharing the plan at handover and documenting objectively keep the team aligned. Individual shift-by-shift exceptions and labelling the client as difficult both weaken consistency and damage the therapeutic relationship.",
+        "rationale_simplified": "Everyone on the team uses the same limit, says it calmly, and records what happened.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Mental health and psychiatric nursing",
+          "topic": "Behavioral management",
+          "topic_id": "psychiatric-nursing/part-1/behavioral-management",
+          "cognitive_domain": "applying",
+          "difficulty": "moderate",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Team consistency in behavioral plans"
+        }
+      },
+      {
+        "id": "cs-np5-01-c",
+        "type": "matrix",
+        "stem": "For each nurse statement to Ms. Ocampo, select the communication category it best fits.",
+        "columns": [
+          "Reflecting feelings",
+          "Asking 'why' (non-therapeutic)",
+          "False reassurance"
+        ],
+        "rows": [
+          {
+            "text": "You sound frustrated that you cannot call your sister right now.",
+            "correct_column": 0
+          },
+          {
+            "text": "Why did you shout at the other client this morning?",
+            "correct_column": 1
+          },
+          {
+            "text": "Don't worry, everything will turn out fine.",
+            "correct_column": 2
+          },
+          {
+            "text": "You seem upset about the visiting rules.",
+            "correct_column": 0
+          }
+        ],
+        "rationale": "Reflecting names the feeling the client is expressing and invites her to say more. Asking 'why' pushes the client to defend herself and often sounds like criticism. Statements such as 'everything will turn out fine' offer reassurance the nurse cannot guarantee and shut down feelings.",
+        "rationale_simplified": "Naming the feeling helps. 'Why' questions and empty promises do not.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Mental health and psychiatric nursing",
+          "topic": "Therapeutic communication",
+          "topic_id": "psychiatric-nursing/part-1/therapeutic-communication",
+          "cognitive_domain": "understanding",
+          "difficulty": "easy",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Using therapeutic techniques"
+        }
+      },
+      {
+        "id": "cs-np5-01-d",
+        "type": "cloze",
+        "stem": "Complete the statement about setting limits by choosing the best word for each blank.",
+        "text": "A limit names the {{1}} behavior, states the consequence of crossing it, and is applied {{2}} by every staff member.",
+        "blanks": [
+          {
+            "id": "1",
+            "choices": [
+              "specific unacceptable",
+              "vague general",
+              "occasional"
+            ],
+            "correct_index": 0
+          },
+          {
+            "id": "2",
+            "choices": [
+              "flexibly",
+              "consistently",
+              "only on night shift"
+            ],
+            "correct_index": 1
+          }
+        ],
+        "rationale": "A useful limit is specific so the client knows exactly what is not allowed, and it is applied consistently so that behavior is not reinforced by uneven responses. Vague limits or uneven enforcement give clients room to test the staff.",
+        "rationale_simplified": "Say exactly what is not allowed and apply the rule the same way every time.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Mental health and psychiatric nursing",
+          "topic": "Behavioral management",
+          "topic_id": "psychiatric-nursing/part-1/behavioral-management",
+          "cognitive_domain": "remembering",
+          "difficulty": "easy",
+          "nursing_process_phase": "planning",
+          "evidence_status": "needs_review",
+          "competency": "Principles of limit setting"
+        }
+      },
+      {
+        "id": "cs-np5-01-e",
+        "type": "mcq",
+        "stem": "Two days later, which client behavior best shows that the limit-setting plan is working?",
+        "options": [
+          {
+            "label": "A",
+            "text": "She stops talking to the nurses so that there are no more disagreements with anyone",
+            "why_not": "Withdrawal does not indicate improved coping."
+          },
+          {
+            "label": "B",
+            "text": "She keeps asking different nurses the same question until one of them finally agrees",
+            "why_not": "Continued splitting means the limit is not yet effective."
+          },
+          {
+            "label": "C",
+            "text": "She calls her sister at the agreed time and says she felt frustrated but coped",
+            "why_not": ""
+          },
+          {
+            "label": "D",
+            "text": "She apologizes to every nurse on the unit and promises that she will never ask again",
+            "why_not": "Overly eager promises are not evidence of learned coping."
+          }
+        ],
+        "answer": "C",
+        "rationale": "Evidence of effectiveness is use of the agreed channel and an ability to name and manage frustration without manipulating staff. Withdrawal and excessive apology do not show new coping skills, and shopping the same request among nurses shows the pattern continues.",
+        "rationale_simplified": "The plan works when she follows the schedule and handles frustration in a healthy way.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Mental health and psychiatric nursing",
+          "topic": "Behavioral management",
+          "topic_id": "psychiatric-nursing/part-1/behavioral-management",
+          "cognitive_domain": "evaluating",
+          "difficulty": "moderate",
+          "nursing_process_phase": "evaluation",
+          "evidence_status": "needs_review",
+          "competency": "Evaluating behavioral interventions"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cs-np5-02",
+    "type": "situation",
+    "title": "Recognizing Suicide Risk in Depression",
+    "situation": "Mr. Arnel Dizon, 52, was admitted to a district hospital for dehydration. He lost his job three months ago and has been withdrawn, sleeping poorly and eating little. During the morning interview he says quietly, 'My family would be better off without me.' His wife mentions that he gave his watch and tools to his brother last week.",
+    "items": [
+      {
+        "id": "cs-np5-02-a",
+        "type": "mcq",
+        "stem": "What is the nurse's best next step after Mr. Dizon makes this statement?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Reassure him that his family loves him and that things will surely get better",
+            "why_not": "False reassurance that closes the conversation."
+          },
+          {
+            "label": "B",
+            "text": "Change the topic to his diet and fluids so that he does not dwell on his sadness",
+            "why_not": "Avoids a potentially life-threatening cue."
+          },
+          {
+            "label": "C",
+            "text": "Ask him directly whether he is thinking of suicide and whether he has a plan",
+            "why_not": ""
+          },
+          {
+            "label": "D",
+            "text": "Wait for the psychiatrist's next visit before discussing the statement with him",
+            "why_not": "Delays assessment of immediate risk."
+          }
+        ],
+        "answer": "C",
+        "rationale": "His statement and the giving away of belongings are warning signs, so the priority is to assess risk right away. Asking directly about suicidal thoughts and a plan does not plant the idea and opens the way to safety measures. Reassurance, changing the subject or waiting leaves a possible immediate risk unassessed.",
+        "rationale_simplified": "Ask him straight out if he is thinking of suicide and whether he has a plan.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Mental health and psychiatric nursing",
+          "topic": "Major depressive disorder",
+          "topic_id": "psychiatric-nursing/part-3/major-depressive-disorder",
+          "cognitive_domain": "applying",
+          "difficulty": "moderate",
+          "nursing_process_phase": "assessment",
+          "evidence_status": "needs_review",
+          "competency": "Suicide risk assessment"
+        }
+      },
+      {
+        "id": "cs-np5-02-b",
+        "type": "highlight",
+        "stem": "Select the findings in the nursing note that most strongly suggest an increased risk of suicide.",
+        "segments": [
+          {
+            "text": "Admitted for dehydration; ",
+            "selectable": false,
+            "correct": false
+          },
+          {
+            "text": "lost his job three months ago; ",
+            "selectable": true,
+            "correct": false
+          },
+          {
+            "text": "said 'my family would be better off without me'; ",
+            "selectable": true,
+            "correct": true
+          },
+          {
+            "text": "gave watch and tools to his brother; ",
+            "selectable": true,
+            "correct": true
+          },
+          {
+            "text": "states he has thought of hanging himself and knows where he would do it; ",
+            "selectable": true,
+            "correct": true
+          },
+          {
+            "text": "took half of his breakfast; ",
+            "selectable": true,
+            "correct": false
+          },
+          {
+            "text": "vital signs stable.",
+            "selectable": false,
+            "correct": false
+          }
+        ],
+        "rationale": "A statement of being a burden, giving away valued possessions and a stated method with a place are warning signs that indicate higher risk. Job loss is a stressor but not itself a sign of immediate intent, and eating half a meal is not a specific warning sign of suicide.",
+        "rationale_simplified": "Being a burden, giving things away and having a plan are warning signs.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Mental health and psychiatric nursing",
+          "topic": "Major depressive disorder",
+          "topic_id": "psychiatric-nursing/part-3/major-depressive-disorder",
+          "cognitive_domain": "analyzing",
+          "difficulty": "moderate",
+          "nursing_process_phase": "assessment",
+          "evidence_status": "needs_review",
+          "competency": "Identifying suicide warning signs"
+        }
+      },
+      {
+        "id": "cs-np5-02-c",
+        "type": "sata",
+        "stem": "Mr. Dizon tells the nurse that he has thought of hanging himself and knows where he would do it. Which actions should the nurse take to keep him safe? Select all that apply.",
+        "options": [
+          "Place him in a room close to the nurses' station for close observation",
+          "Remove sharp objects, cords and other hazardous items from his area",
+          "Arrange for someone to stay with him continuously according to facility protocol",
+          "Promise to keep his thoughts secret if he agrees not to harm himself",
+          "Allow him to go to the bathroom alone with the door locked",
+          "Report the findings to the physician and document the assessment"
+        ],
+        "answers": [
+          0,
+          1,
+          2,
+          5
+        ],
+        "rationale": "Safety comes first: a high-risk client is kept in a visible area, hazards are removed and he is not left alone. The team must be informed, so the nurse cannot promise secrecy. Unsupervised time behind a locked door removes observation when he is most at risk.",
+        "rationale_simplified": "Keep him in view, remove dangers, never leave him alone and tell the team.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Mental health and psychiatric nursing",
+          "topic": "Major depressive disorder",
+          "topic_id": "psychiatric-nursing/part-3/major-depressive-disorder",
+          "cognitive_domain": "applying",
+          "difficulty": "moderate",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Suicide precautions"
+        }
+      },
+      {
+        "id": "cs-np5-02-d",
+        "type": "cloze",
+        "stem": "Complete the statement about a client who has a plan and the means to carry it out.",
+        "text": "The client is at {{1}} risk, so the nurse should {{2}} and notify the physician.",
+        "blanks": [
+          {
+            "id": "1",
+            "choices": [
+              "higher",
+              "lower"
+            ],
+            "correct_index": 0
+          },
+          {
+            "id": "2",
+            "choices": [
+              "remain with the client",
+              "check on him when time allows"
+            ],
+            "correct_index": 0
+          }
+        ],
+        "rationale": "A specific plan with access to the means signals high risk, which calls for continuous presence and urgent communication with the physician. Checking only when time allows does not give protection against an impulsive act.",
+        "rationale_simplified": "A plan plus the means means high risk. Stay with him and call the doctor.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Mental health and psychiatric nursing",
+          "topic": "Major depressive disorder",
+          "topic_id": "psychiatric-nursing/part-3/major-depressive-disorder",
+          "cognitive_domain": "understanding",
+          "difficulty": "easy",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Responding to high suicide risk"
+        }
+      },
+      {
+        "id": "cs-np5-02-e",
+        "type": "mcq",
+        "stem": "Several days later, which observation should concern the nurse most?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Mr. Dizon turns suddenly calm and cheerful and gives away more belongings",
+            "why_not": ""
+          },
+          {
+            "label": "B",
+            "text": "Mr. Dizon cries when his wife visits and talks at length about his lost job",
+            "why_not": "Expressing feelings is expected and can be therapeutic."
+          },
+          {
+            "label": "C",
+            "text": "Mr. Dizon eats a little more at each meal and drinks the fluids offered",
+            "why_not": "Improving appetite suggests recovery."
+          },
+          {
+            "label": "D",
+            "text": "Mr. Dizon asks when he may start joining the ward's morning exercise group",
+            "why_not": "Interest in activities suggests engagement in treatment."
+          }
+        ],
+        "answer": "A",
+        "rationale": "An abrupt, unexplained lift in mood after severe depression, together with giving away possessions, can mean that the client has decided to end his life and feels relief. The other findings are signs of expression of feelings or recovery and do not by themselves signal heightened danger.",
+        "rationale_simplified": "A sudden calm after deep sadness, with giving things away, can be a danger sign.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Mental health and psychiatric nursing",
+          "topic": "Major depressive disorder",
+          "topic_id": "psychiatric-nursing/part-3/major-depressive-disorder",
+          "cognitive_domain": "analyzing",
+          "difficulty": "difficult",
+          "nursing_process_phase": "evaluation",
+          "evidence_status": "needs_review",
+          "competency": "Recognizing changing risk"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cs-np5-03",
+    "type": "situation",
+    "title": "Alcohol Withdrawal on a Medical Ward",
+    "situation": "Mr. Danilo Reyes, 45, is on the medical ward of a district hospital two days after a fall in which he fractured his wrist. His wife says he drinks heavily every day. This morning he is sweating, his hands tremble, and he keeps picking at the bedsheets. He tells the nurse, 'There are insects crawling on the wall.' He is restless and his pulse feels fast.",
+    "items": [
+      {
+        "id": "cs-np5-03-a",
+        "type": "mcq",
+        "stem": "Which nursing action is the priority for Mr. Reyes at this time?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Reassure him that nothing is on the wall and let him rest alone in a quiet room",
+            "why_not": "Does not protect from complications and leaves a confused client unobserved."
+          },
+          {
+            "label": "B",
+            "text": "Ask about the exact amount of alcohol he drinks in order to confront his denial",
+            "why_not": "Not a priority during acute withdrawal."
+          },
+          {
+            "label": "C",
+            "text": "Encourage him to walk around the ward to use up his restless energy",
+            "why_not": "Increases risk of falls and injury."
+          },
+          {
+            "label": "D",
+            "text": "Monitor vital signs and mental status closely and start seizure precautions",
+            "why_not": ""
+          }
+        ],
+        "answer": "D",
+        "rationale": "Tremor, sweating, tachycardia and visual hallucinations after heavy drinking point to alcohol withdrawal, which can progress to seizures and delirium. The priority is close monitoring and safety measures. Confrontation and rest alone do not protect him, and walking about a confused client raises the risk of injury.",
+        "rationale_simplified": "These are signs of alcohol withdrawal, so watch him closely and keep him safe.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Mental health and psychiatric nursing",
+          "topic": "Substance use disorders",
+          "topic_id": "psychiatric-nursing/psych-extra/substance-use-disorders",
+          "cognitive_domain": "applying",
+          "difficulty": "moderate",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Safety in alcohol withdrawal"
+        }
+      },
+      {
+        "id": "cs-np5-03-b",
+        "type": "sata",
+        "stem": "Which findings are consistent with alcohol withdrawal? Select all that apply.",
+        "options": [
+          "Hand tremors",
+          "Excessive sweating",
+          "Fast heart rate",
+          "Visual hallucinations",
+          "Slow heart rate",
+          "Constricted pupils",
+          "Excessive sleepiness"
+        ],
+        "answers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationale": "Alcohol withdrawal is a state of nervous system overactivity: tremor, sweating, tachycardia, anxiety and hallucinations. Slow pulse, constricted pupils and heavy drowsiness suggest sedation or opioid effects, not withdrawal.",
+        "rationale_simplified": "Withdrawal makes the body overactive: shaking, sweating, fast pulse and seeing things.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Mental health and psychiatric nursing",
+          "topic": "Substance use disorders",
+          "topic_id": "psychiatric-nursing/psych-extra/substance-use-disorders",
+          "cognitive_domain": "understanding",
+          "difficulty": "easy",
+          "nursing_process_phase": "assessment",
+          "evidence_status": "needs_review",
+          "competency": "Recognizing withdrawal"
+        }
+      },
+      {
+        "id": "cs-np5-03-c",
+        "type": "matrix",
+        "stem": "For each nursing action, select whether it is appropriate or should be avoided for a client in alcohol withdrawal with hallucinations.",
+        "columns": [
+          "Appropriate",
+          "Avoid"
+        ],
+        "rows": [
+          {
+            "text": "Keep the room quiet and well lit",
+            "correct_column": 0
+          },
+          {
+            "text": "Argue with him that the insects are not real",
+            "correct_column": 1
+          },
+          {
+            "text": "Leave him alone for long periods",
+            "correct_column": 1
+          },
+          {
+            "text": "Use short, calm statements and orient him to reality",
+            "correct_column": 0
+          },
+          {
+            "text": "Place him in a bed near the nurses' station",
+            "correct_column": 0
+          }
+        ],
+        "rationale": "A calm, well-lit, low-stimulation environment with frequent observation and simple reality orientation lowers fear and risk. Arguing with the hallucination increases agitation, and leaving a confused client alone for long periods risks injury.",
+        "rationale_simplified": "Keep things calm, simple and close to staff. Do not argue or leave him alone.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Mental health and psychiatric nursing",
+          "topic": "Substance use disorders",
+          "topic_id": "psychiatric-nursing/psych-extra/substance-use-disorders",
+          "cognitive_domain": "applying",
+          "difficulty": "moderate",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Environmental management"
+        }
+      },
+      {
+        "id": "cs-np5-03-d",
+        "type": "cloze",
+        "stem": "Complete the statement about care for a client with long-term heavy alcohol use.",
+        "text": "These clients are at risk of deficiency of vitamin {{1}}, so supplementation may be ordered, and the nurse should {{2}} vital signs and mental status.",
+        "blanks": [
+          {
+            "id": "1",
+            "choices": [
+              "B1 (thiamine)",
+              "C",
+              "K"
+            ],
+            "correct_index": 0
+          },
+          {
+            "id": "2",
+            "choices": [
+              "monitor frequently",
+              "check once per shift"
+            ],
+            "correct_index": 0
+          }
+        ],
+        "rationale": "Chronic heavy drinking commonly leads to thiamine deficiency, which is why supplementation is typically ordered. Withdrawal can change quickly, so vital signs and mental status are monitored frequently rather than once per shift.",
+        "rationale_simplified": "Heavy drinkers often lack vitamin B1. Check vital signs and mental status often.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Mental health and psychiatric nursing",
+          "topic": "Substance use disorders",
+          "topic_id": "psychiatric-nursing/psych-extra/substance-use-disorders",
+          "cognitive_domain": "remembering",
+          "difficulty": "easy",
+          "nursing_process_phase": "planning",
+          "evidence_status": "needs_review",
+          "competency": "Nutritional and monitoring needs"
+        }
+      },
+      {
+        "id": "cs-np5-03-e",
+        "type": "mcq",
+        "stem": "After recovery, Mr. Reyes says, 'I can quit anytime. I do not have a problem.' Which response is most therapeutic?",
+        "options": [
+          {
+            "label": "A",
+            "text": "You are in denial, and you will end up with serious liver disease if you carry on",
+            "why_not": "Confrontational and labeling."
+          },
+          {
+            "label": "B",
+            "text": "You had a fall and withdrawal symptoms this week. What do you make of that?",
+            "why_not": ""
+          },
+          {
+            "label": "C",
+            "text": "If you do not stop drinking, your wife will probably leave you someday",
+            "why_not": "Threatening; damages trust."
+          },
+          {
+            "label": "D",
+            "text": "Many people drink in this way; it is nothing to be ashamed of, so do not worry",
+            "why_not": "Minimizes the problem."
+          }
+        ],
+        "answer": "B",
+        "rationale": "A nonjudgmental statement of observed facts followed by an open question invites reflection without attacking the defense of denial. Labeling, threats and minimizing either provoke defensiveness or reinforce denial.",
+        "rationale_simplified": "State what you saw in a calm way and ask what he thinks about it.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Mental health and psychiatric nursing",
+          "topic": "Substance use disorders",
+          "topic_id": "psychiatric-nursing/psych-extra/substance-use-disorders",
+          "cognitive_domain": "applying",
+          "difficulty": "moderate",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Therapeutic response to denial"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cs-np5-04",
+    "type": "situation",
+    "title": "Consent Before Surgery",
+    "situation": "Mrs. Teresita Bautista, 67, is scheduled for abdominal surgery at a tertiary hospital the next morning. When Nurse Ana checks the chart, she finds the consent form already signed. Mrs. Bautista says quietly, 'I signed because the doctor was in a hurry, but I do not really know what they will do or what could go wrong.' Her son is at the bedside and says she should simply go ahead.",
+    "items": [
+      {
+        "id": "cs-np5-04-a",
+        "type": "mcq",
+        "stem": "What should Nurse Ana do first?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Inform the surgeon that the client has questions and needs an explanation",
+            "why_not": ""
+          },
+          {
+            "label": "B",
+            "text": "Explain the risks of the operation herself, since she has already read the chart",
+            "why_not": "Giving the full explanation of the procedure is the physician's role."
+          },
+          {
+            "label": "C",
+            "text": "Go ahead with the surgery preparations because the form is already signed",
+            "why_not": "A signature does not show understanding."
+          },
+          {
+            "label": "D",
+            "text": "Ask her son to explain the operation and its risks to her instead",
+            "why_not": "The son cannot replace the physician's explanation."
+          }
+        ],
+        "answer": "A",
+        "rationale": "Valid consent requires understanding, and the explanation of the procedure, risks, benefits and alternatives belongs to the physician who will perform it. The nurse acts as the client's advocate by relaying the concern so the explanation is given. A signature alone does not prove she understood.",
+        "rationale_simplified": "The doctor must explain the surgery. The nurse tells the doctor she has questions.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Professional adjustment",
+          "topic": "Informed consent",
+          "topic_id": "palmer/professional-adjustment/informed-consent",
+          "cognitive_domain": "applying",
+          "difficulty": "moderate",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Client advocacy in consent"
+        },
+        "image_suggestion": {
+          "description": "Specimen informed-consent form for surgery with blank signature and witness lines and standard sections, as used in a hospital.",
+          "placement": "situation",
+          "search_terms": [
+            "informed consent form surgery",
+            "surgical consent form sample",
+            "medical consent form template"
+          ],
+          "must_be": "unlabelled"
+        }
+      },
+      {
+        "id": "cs-np5-04-b",
+        "type": "sata",
+        "stem": "Which are essential elements of valid informed consent? Select all that apply.",
+        "options": [
+          "The client has the capacity to decide",
+          "The decision is made voluntarily without pressure",
+          "The client receives information on risks, benefits and alternatives",
+          "The information is given in language the client understands",
+          "A signed form is enough even if the client does not understand",
+          "The client's relatives can overrule a competent adult's decision"
+        ],
+        "answers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationale": "Consent is valid when the client is competent, free from pressure, and adequately informed in understandable terms. A signature without understanding is only paper, and a competent adult's decision is not overruled by relatives.",
+        "rationale_simplified": "Consent needs a capable, willing and well-informed client who understands.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Professional adjustment",
+          "topic": "Informed consent",
+          "topic_id": "palmer/professional-adjustment/informed-consent",
+          "cognitive_domain": "remembering",
+          "difficulty": "easy",
+          "nursing_process_phase": "not_applicable",
+          "evidence_status": "needs_review",
+          "competency": "Elements of informed consent"
+        }
+      },
+      {
+        "id": "cs-np5-04-c",
+        "type": "matrix",
+        "stem": "Select the bioethical principle that best matches each action.",
+        "columns": [
+          "Autonomy",
+          "Beneficence",
+          "Nonmaleficence",
+          "Justice"
+        ],
+        "rows": [
+          {
+            "text": "Respecting a competent client's decision to refuse a procedure",
+            "correct_column": 0
+          },
+          {
+            "text": "Giving pain relief to promote the client's comfort and well-being",
+            "correct_column": 1
+          },
+          {
+            "text": "Checking the identification band to avoid giving a treatment to the wrong client",
+            "correct_column": 2
+          },
+          {
+            "text": "Giving the same quality of care regardless of ability to pay",
+            "correct_column": 3
+          }
+        ],
+        "rationale": "Autonomy is the right to self-determination, beneficence is doing good, nonmaleficence is avoiding harm, and justice is fairness in giving care. Each action matches the principle that is its main purpose.",
+        "rationale_simplified": "Autonomy is choice, beneficence is doing good, nonmaleficence is avoiding harm, justice is fairness.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Professional adjustment",
+          "topic": "Bioethical principles",
+          "topic_id": "palmer/professional-adjustment/bioethical-principles",
+          "cognitive_domain": "understanding",
+          "difficulty": "moderate",
+          "nursing_process_phase": "not_applicable",
+          "evidence_status": "needs_review",
+          "competency": "Applying bioethical principles"
+        }
+      },
+      {
+        "id": "cs-np5-04-d",
+        "type": "cloze",
+        "stem": "Complete the statement about the nurse's role in consent.",
+        "text": "The responsibility for explaining the procedure belongs to the {{1}} who will perform it, while the nurse may be asked to {{2}} the client's signature.",
+        "blanks": [
+          {
+            "id": "1",
+            "choices": [
+              "physician",
+              "staff nurse",
+              "hospital administrator"
+            ],
+            "correct_index": 0
+          },
+          {
+            "id": "2",
+            "choices": [
+              "witness",
+              "explain risks before",
+              "sign on behalf of"
+            ],
+            "correct_index": 0
+          }
+        ],
+        "rationale": "The professional performing the procedure explains it. The nurse's usual role is to witness, where facility practice asks for it, that the client signed voluntarily, and to advocate when the client appears not to understand. A nurse cannot sign for a competent adult.",
+        "rationale_simplified": "The doctor explains. The nurse may witness the signing and speak up for the client.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Professional adjustment",
+          "topic": "Informed consent",
+          "topic_id": "palmer/professional-adjustment/informed-consent",
+          "cognitive_domain": "remembering",
+          "difficulty": "easy",
+          "nursing_process_phase": "not_applicable",
+          "evidence_status": "needs_review",
+          "competency": "Roles in consent"
+        }
+      },
+      {
+        "id": "cs-np5-04-e",
+        "type": "mcq",
+        "stem": "Mrs. Bautista says, 'My son says I must go ahead, but I am not sure.' Which response by the nurse best respects her autonomy?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Your son knows what is best for you, so you should trust his advice here",
+            "why_not": "Undermines a competent adult's right to decide."
+          },
+          {
+            "label": "B",
+            "text": "The surgery is needed, so it is better for everyone if you simply agree",
+            "why_not": "Pressures the client."
+          },
+          {
+            "label": "C",
+            "text": "The decision is yours; let us make sure you have the information you need",
+            "why_not": ""
+          },
+          {
+            "label": "D",
+            "text": "If you refuse the operation, the doctor will refuse to treat you ever again",
+            "why_not": "Threatening and untrue."
+          }
+        ],
+        "answer": "C",
+        "rationale": "A competent adult has the right to make her own decision, including refusing treatment. The nurse supports this by ensuring she is informed and free to choose. Pressure from family or staff, or threats, violate her autonomy.",
+        "rationale_simplified": "She decides for herself. The nurse makes sure she has the information she needs.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Professional adjustment",
+          "topic": "Patient's autonomy",
+          "topic_id": "palmer/professional-adjustment/patient-s-autonomy",
+          "cognitive_domain": "applying",
+          "difficulty": "moderate",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Respecting client autonomy"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cs-np5-05",
+    "type": "situation",
+    "title": "Privacy and Negligence on the Ward",
+    "situation": "Nurse Mara works on a medical ward of a tertiary hospital. A man who says he is a cousin of Mr. Santos, a client with a new diagnosis, asks her at the nurses' station what illness Mr. Santos has. Later she sees a coworker take a photo of another client's wound to send to a group chat. During the same shift a nurse gives a medication to a client without checking the allergy band and the client develops a rash and breathing difficulty.",
+    "items": [
+      {
+        "id": "cs-np5-05-a",
+        "type": "mcq",
+        "stem": "What is Nurse Mara's best response to the visitor who asks about Mr. Santos's diagnosis?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Tell him the diagnosis because relatives usually have the right to know",
+            "why_not": "Relatives do not have an automatic right; consent is needed."
+          },
+          {
+            "label": "B",
+            "text": "Give a general hint about the illness so that he can prepare himself",
+            "why_not": "Still discloses information."
+          },
+          {
+            "label": "C",
+            "text": "Say politely that she cannot share health details without Mr. Santos's consent",
+            "why_not": ""
+          },
+          {
+            "label": "D",
+            "text": "Ask him to read the chart himself so that she does not have to say it aloud",
+            "why_not": "Exposes the record to an unauthorized person."
+          }
+        ],
+        "answer": "C",
+        "rationale": "Health information belongs to the client and is shared only with his consent or for care purposes. The nurse protects confidentiality by declining politely, and she may offer to ask Mr. Santos whether he wishes to share it. Hints and letting the visitor see the chart are still disclosures.",
+        "rationale_simplified": "Health information is private. Ask the client before telling anyone.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Professional adjustment",
+          "topic": "Confidentiality, anonymity and privacy",
+          "topic_id": "palmer/professional-adjustment/confidentiality-anonymity-and-privacy",
+          "cognitive_domain": "applying",
+          "difficulty": "easy",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Protecting client confidentiality"
+        }
+      },
+      {
+        "id": "cs-np5-05-b",
+        "type": "sata",
+        "stem": "Which actions breach client confidentiality or privacy? Select all that apply.",
+        "options": [
+          "Posting a photo of a client's wound in a group chat",
+          "Discussing a client's condition with colleagues in the elevator",
+          "Leaving the open chart on the counter where visitors can read it",
+          "Giving a complete report to the oncoming nurse caring for the client",
+          "Documenting care in the client's chart",
+          "Consulting the treating physician about the client's condition"
+        ],
+        "answers": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Information must be shared only with those directly involved in the client's care and for care purposes. Photos on social groups, public conversations and unattended charts expose information to people with no need to know. Handover, documentation and consulting the treating physician are legitimate care activities.",
+        "rationale_simplified": "Only share information with the people who need it for care, and in private places.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Professional adjustment",
+          "topic": "Confidentiality, anonymity and privacy",
+          "topic_id": "palmer/professional-adjustment/confidentiality-anonymity-and-privacy",
+          "cognitive_domain": "analyzing",
+          "difficulty": "moderate",
+          "nursing_process_phase": "evaluation",
+          "evidence_status": "needs_review",
+          "competency": "Recognizing breaches"
+        }
+      },
+      {
+        "id": "cs-np5-05-c",
+        "type": "matrix",
+        "stem": "The medication incident may amount to negligence. Match each fact with the element of negligence it shows.",
+        "columns": [
+          "Duty",
+          "Breach of duty",
+          "Causation",
+          "Damages"
+        ],
+        "rows": [
+          {
+            "text": "The nurse was assigned to care for the client that shift",
+            "correct_column": 0
+          },
+          {
+            "text": "The nurse did not check the allergy band before giving the drug",
+            "correct_column": 1
+          },
+          {
+            "text": "The reaction would not have happened if the drug had not been given",
+            "correct_column": 2
+          },
+          {
+            "text": "The client needed extra treatment and a longer stay",
+            "correct_column": 3
+          }
+        ],
+        "rationale": "Negligence requires a duty owed, a breach of the standard of care, harm caused by the breach, and actual damages. Failure to perform a basic safety check is the breach; the extra treatment is the damage.",
+        "rationale_simplified": "Negligence needs a duty, a mistake, the mistake causing harm, and real harm.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Professional adjustment",
+          "topic": "Malpractice and negligence",
+          "topic_id": "palmer/professional-adjustment/malpractice-and-negligence",
+          "cognitive_domain": "analyzing",
+          "difficulty": "moderate",
+          "nursing_process_phase": "not_applicable",
+          "evidence_status": "needs_review",
+          "competency": "Elements of negligence"
+        }
+      },
+      {
+        "id": "cs-np5-05-d",
+        "type": "cloze",
+        "stem": "Complete the statement about professional liability.",
+        "text": "Failure to give the care that a reasonably prudent nurse would give is {{1}}, and when this is done by a professional in the course of practice it is called {{2}}.",
+        "blanks": [
+          {
+            "id": "1",
+            "choices": [
+              "negligence",
+              "battery",
+              "libel"
+            ],
+            "correct_index": 0
+          },
+          {
+            "id": "2",
+            "choices": [
+              "malpractice",
+              "slander",
+              "assault"
+            ],
+            "correct_index": 0
+          }
+        ],
+        "rationale": "Negligence is failing to act as a reasonably prudent person would; for a professional acting in the course of practice, it is termed malpractice. Battery, libel, slander and assault are different torts.",
+        "rationale_simplified": "Not giving expected care is negligence. For professionals it is called malpractice.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Professional adjustment",
+          "topic": "Doctrines of negligence",
+          "topic_id": "palmer/professional-adjustment/doctrines-of-negligence",
+          "cognitive_domain": "remembering",
+          "difficulty": "easy",
+          "nursing_process_phase": "not_applicable",
+          "evidence_status": "needs_review",
+          "competency": "Legal terms"
+        }
+      },
+      {
+        "id": "cs-np5-05-e",
+        "type": "mcq",
+        "stem": "After the medication reaction, which action should the nurse who gave the drug take first?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Write in the client's chart that an incident report has been filed",
+            "why_not": "Incident reports are not mentioned in the chart."
+          },
+          {
+            "label": "B",
+            "text": "Wait to see whether the reaction settles before telling anyone about it",
+            "why_not": "Delays treatment."
+          },
+          {
+            "label": "C",
+            "text": "Correct the order in the record so that the error does not show",
+            "why_not": "Altering records is improper and unethical."
+          },
+          {
+            "label": "D",
+            "text": "Assess and stabilize the client and notify the physician right away",
+            "why_not": ""
+          }
+        ],
+        "answer": "D",
+        "rationale": "Client safety comes first: assess, call for help and notify the physician so treatment can start. Documentation of facts and an incident report follow through proper channels. Hiding the error or delaying disclosure harms the client and adds professional liability.",
+        "rationale_simplified": "Protect the client first, then tell the doctor and report honestly.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Professional adjustment",
+          "topic": "Malpractice and negligence",
+          "topic_id": "palmer/professional-adjustment/malpractice-and-negligence",
+          "cognitive_domain": "applying",
+          "difficulty": "difficult",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Responding to errors"
+        },
+        "image_suggestion": {
+          "description": "Blank medication incident report form with fields for date, time, drug, dose, client and actions taken.",
+          "placement": "rationale",
+          "search_terms": [
+            "incident report form hospital",
+            "medication error report form",
+            "nursing incident report"
+          ],
+          "must_be": "either"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cs-np5-06",
+    "type": "situation",
+    "title": "Delegation and Priorities on a Surgical Ward",
+    "situation": "Nurse Hazel is the team leader on a surgical ward of a provincial hospital. Her team includes Nurse Jun, a staff nurse, and Mang Ruel, a nursing attendant. Hazel's clients include a stable man who needs help with a bath, a woman scheduled for discharge teaching, a man who returned from surgery two hours ago, and a woman with a new surgical dressing. Midway through the shift Jun and Mang Ruel argue loudly in the corridor about who should transfer a client.",
+    "items": [
+      {
+        "id": "cs-np5-06-a",
+        "type": "mcq",
+        "stem": "Which task is most appropriate for Nurse Hazel to delegate to Mang Ruel?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Assisting a stable client with his bath and personal hygiene",
+            "why_not": ""
+          },
+          {
+            "label": "B",
+            "text": "Assessing the surgical dressing for possible signs of infection",
+            "why_not": "Assessment cannot be delegated to unlicensed staff."
+          },
+          {
+            "label": "C",
+            "text": "Teaching the woman about home care and medicines before discharge",
+            "why_not": "Teaching requires nursing judgment."
+          },
+          {
+            "label": "D",
+            "text": "Evaluating the postoperative client's response to pain relief",
+            "why_not": "Evaluation belongs to the nurse."
+          }
+        ],
+        "answer": "A",
+        "rationale": "Routine, predictable tasks for stable clients, such as bathing, may be delegated to unlicensed personnel. Assessment, teaching and evaluation require nursing judgment and remain with the nurse.",
+        "rationale_simplified": "Simple care for a stable client can go to the attendant. Assessing, teaching and evaluating cannot.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Leadership and management",
+          "topic": "Delegation",
+          "topic_id": "palmer/leadership-and-management-final-coaching/delegation",
+          "cognitive_domain": "applying",
+          "difficulty": "easy",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Delegating to unlicensed staff"
+        },
+        "image_suggestion": {
+          "description": "Organisation chart of a surgical ward nursing team showing the head nurse, team leader, staff nurses and nursing attendants and lines of authority.",
+          "placement": "situation",
+          "search_terms": [
+            "nursing team organization chart",
+            "ward organizational chart hospital",
+            "nursing delegation chart"
+          ],
+          "must_be": "either"
+        }
+      },
+      {
+        "id": "cs-np5-06-b",
+        "type": "sata",
+        "stem": "Which activities should Nurse Hazel NOT delegate to the nursing attendant? Select all that apply.",
+        "options": [
+          "Initial assessment of the newly returned postoperative client",
+          "Discharge teaching",
+          "Interpreting a change in a client's condition",
+          "Helping a stable client eat his meal",
+          "Taking a stable client's routine vital signs",
+          "Assisting a stable client to the toilet"
+        ],
+        "answers": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Assessment, teaching and interpretation of data call for nursing judgment and cannot be delegated to unlicensed personnel. Feeding, routine measurements and toileting for stable clients are acceptable tasks if the nurse reviews the results and supervises.",
+        "rationale_simplified": "Thinking, assessing and teaching stay with the nurse. Routine help can be delegated.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Leadership and management",
+          "topic": "Delegation",
+          "topic_id": "palmer/leadership-and-management-final-coaching/delegation",
+          "cognitive_domain": "analyzing",
+          "difficulty": "moderate",
+          "nursing_process_phase": "planning",
+          "evidence_status": "needs_review",
+          "competency": "Limits of delegation"
+        }
+      },
+      {
+        "id": "cs-np5-06-c",
+        "type": "mcq",
+        "stem": "The postoperative client now reports sudden chest pain and shortness of breath. Which client should Nurse Hazel see first?",
+        "options": [
+          {
+            "label": "A",
+            "text": "The woman who is waiting for her discharge teaching to begin",
+            "why_not": "Not urgent."
+          },
+          {
+            "label": "B",
+            "text": "The postoperative man with chest pain and breathlessness",
+            "why_not": ""
+          },
+          {
+            "label": "C",
+            "text": "The man who is waiting for assistance with his bath",
+            "why_not": "Not urgent."
+          },
+          {
+            "label": "D",
+            "text": "The woman who would like a new dressing applied for her comfort",
+            "why_not": "Not urgent."
+          }
+        ],
+        "answer": "B",
+        "rationale": "Sudden chest pain and breathlessness after surgery may signal a life-threatening complication, such as a clot in the lung. Using the airway, breathing and circulation priority, he is assessed first. The other tasks can wait or be delegated.",
+        "rationale_simplified": "Chest pain and trouble breathing come first.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Leadership and management",
+          "topic": "Problem solving and decision making",
+          "topic_id": "palmer/leadership-and-management-final-coaching/problem-solving-and-decision-making",
+          "cognitive_domain": "applying",
+          "difficulty": "moderate",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Prioritizing assignments"
+        }
+      },
+      {
+        "id": "cs-np5-06-d",
+        "type": "matrix",
+        "stem": "Match each situation to the conflict resolution strategy it shows.",
+        "columns": [
+          "Collaboration",
+          "Compromise",
+          "Avoidance",
+          "Accommodation"
+        ],
+        "rows": [
+          {
+            "text": "The nurses meet, discuss the transfer problem and agree on a plan that meets both needs",
+            "correct_column": 0
+          },
+          {
+            "text": "Two nurses want the same weekend off and each gets one of the two days",
+            "correct_column": 1
+          },
+          {
+            "text": "A nurse stays away from a coworker to escape the disagreement",
+            "correct_column": 2
+          },
+          {
+            "text": "A nurse gives in to a coworker's demand even though she disagrees",
+            "correct_column": 3
+          }
+        ],
+        "rationale": "Collaboration seeks a solution that satisfies both sides. Compromise gives each side partial satisfaction. Avoidance sidesteps the issue and accommodation yields to the other person.",
+        "rationale_simplified": "Collaboration solves it together. Compromise splits it. Avoidance steps away. Accommodation gives in.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Leadership and management",
+          "topic": "Conflict resolution strategies",
+          "topic_id": "palmer/leadership-and-management-final-coaching/conflict-resolution-strategies",
+          "cognitive_domain": "understanding",
+          "difficulty": "moderate",
+          "nursing_process_phase": "not_applicable",
+          "evidence_status": "needs_review",
+          "competency": "Conflict resolution"
+        }
+      },
+      {
+        "id": "cs-np5-06-e",
+        "type": "cloze",
+        "stem": "Complete the statement about delegation.",
+        "text": "Responsibility for a task may be delegated, but {{1}} for the outcome stays with the delegating nurse, who must also provide {{2}}.",
+        "blanks": [
+          {
+            "id": "1",
+            "choices": [
+              "accountability",
+              "authority",
+              "autonomy"
+            ],
+            "correct_index": 0
+          },
+          {
+            "id": "2",
+            "choices": [
+              "supervision and evaluation",
+              "a written waiver from the client",
+              "a copy of the unit schedule"
+            ],
+            "correct_index": 0
+          }
+        ],
+        "rationale": "The delegating nurse remains accountable for outcomes, so she must choose the right task and person, give clear directions, supervise and evaluate. Delegation never ends the nurse's accountability.",
+        "rationale_simplified": "You can hand over the task but not the accountability. Supervise and check.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Leadership and management",
+          "topic": "Delegation",
+          "topic_id": "palmer/leadership-and-management-final-coaching/delegation",
+          "cognitive_domain": "understanding",
+          "difficulty": "moderate",
+          "nursing_process_phase": "evaluation",
+          "evidence_status": "needs_review",
+          "competency": "Accountability in delegation"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cs-np5-07",
+    "type": "situation",
+    "title": "Road Crash Casualties in the ED",
+    "situation": "A passenger bus collides with a truck near a town, and four casualties arrive at the emergency department of a district hospital at about the same time. Nurse Paolo is the triage nurse. A man in his thirties was pulled from the wreckage; he is unresponsive, with gurgling breaths and blood in his mouth. A woman has a stable-looking forearm fracture and is alert. A young man with a bruised wrist is walking and talking. Another person is anxious and shouting loudly but has only minor scrapes.",
+    "items": [
+      {
+        "id": "cs-np5-07-a",
+        "type": "mcq",
+        "stem": "During the primary survey of the unresponsive man, what is the first priority?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Take a full crash history from the bus conductor",
+            "why_not": "History comes later."
+          },
+          {
+            "label": "B",
+            "text": "Splint the injured limbs before doing anything else",
+            "why_not": "Not a first priority."
+          },
+          {
+            "label": "C",
+            "text": "Check the pupils and record a neurologic score right away",
+            "why_not": "Comes after airway is secured."
+          },
+          {
+            "label": "D",
+            "text": "Open and clear the airway while keeping the neck protected",
+            "why_not": ""
+          }
+        ],
+        "answer": "D",
+        "rationale": "The primary survey follows life-threatening priorities, and an obstructed airway is the first. Gurgling and blood in the mouth need immediate clearing and opening, with the neck protected because of the mechanism of injury. History, splinting and pupil checks follow once airway and breathing are secured.",
+        "rationale_simplified": "Airway first, and protect the neck.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Emergency and disaster nursing",
+          "topic": "Primary and secondary survey",
+          "topic_id": "medical-surgical-nursing/emergency-and-disaster-nursing/primary-and-secondary-survey",
+          "cognitive_domain": "applying",
+          "difficulty": "moderate",
+          "nursing_process_phase": "implementation",
+          "evidence_status": "needs_review",
+          "competency": "Primary survey priorities"
+        },
+        "image_suggestion": {
+          "description": "Rescuer performing a jaw-thrust manoeuvre on a supine trauma casualty with cervical spine protection.",
+          "placement": "rationale",
+          "search_terms": [
+            "jaw thrust maneuver",
+            "airway opening trauma",
+            "cervical spine immobilization airway"
+          ],
+          "must_be": "labelled"
+        }
+      },
+      {
+        "id": "cs-np5-07-b",
+        "type": "highlight",
+        "stem": "Select the findings in the triage note that indicate a threatened airway needing immediate intervention.",
+        "segments": [
+          {
+            "text": "Male, about 30, pulled from the wrecked bus. ",
+            "selectable": false,
+            "correct": false
+          },
+          {
+            "text": "Unresponsive to voice. ",
+            "selectable": true,
+            "correct": true
+          },
+          {
+            "text": "Gurgling sounds with each breath. ",
+            "selectable": true,
+            "correct": true
+          },
+          {
+            "text": "Blood pooling in the mouth. ",
+            "selectable": true,
+            "correct": true
+          },
+          {
+            "text": "Radial pulse present. ",
+            "selectable": true,
+            "correct": false
+          },
+          {
+            "text": "Bruise on the left forearm.",
+            "selectable": true,
+            "correct": false
+          }
+        ],
+        "rationale": "Unresponsiveness, gurgling and blood in the mouth indicate a threatened airway that needs immediate suctioning and opening. A palpable radial pulse and a forearm bruise are relevant to later assessment but do not show airway compromise.",
+        "rationale_simplified": "Gurgling, blood in the mouth and being unresponsive mean the airway is in danger.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Emergency and disaster nursing",
+          "topic": "Primary and secondary survey",
+          "topic_id": "medical-surgical-nursing/emergency-and-disaster-nursing/primary-and-secondary-survey",
+          "cognitive_domain": "analyzing",
+          "difficulty": "moderate",
+          "nursing_process_phase": "assessment",
+          "evidence_status": "needs_review",
+          "competency": "Identifying airway compromise"
+        }
+      },
+      {
+        "id": "cs-np5-07-c",
+        "type": "matrix",
+        "stem": "Assign each casualty to the triage category that best fits.",
+        "columns": [
+          "Immediate",
+          "Delayed",
+          "Minor"
+        ],
+        "rows": [
+          {
+            "text": "Unresponsive man with obstructed breathing that improves when the airway is opened",
+            "correct_column": 0
+          },
+          {
+            "text": "Alert woman with a closed forearm fracture and stable breathing",
+            "correct_column": 1
+          },
+          {
+            "text": "Young man who is walking with a bruised wrist",
+            "correct_column": 2
+          },
+          {
+            "text": "Anxious person with small scrapes",
+            "correct_column": 2
+          }
+        ],
+        "rationale": "Immediate means life-threatening problems that can be reversed with prompt care. Delayed injuries are significant but stable and can wait safely. Minor injuries need only simple care and can wait longest.",
+        "rationale_simplified": "Life-threatening and fixable is immediate. Stable but serious is delayed. Small injuries are minor.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Emergency and disaster nursing",
+          "topic": "Routine or ED triage",
+          "topic_id": "medical-surgical-nursing/emergency-and-disaster-nursing/routine-or-ed-triage",
+          "cognitive_domain": "applying",
+          "difficulty": "moderate",
+          "nursing_process_phase": "analysis_diagnosis",
+          "evidence_status": "needs_review",
+          "competency": "Triage categories"
+        },
+        "image_suggestion": {
+          "description": "Triage tags with four colour categories (red, yellow, green, black) and a simple START triage flow chart, as used in multiple-casualty events.",
+          "placement": "rationale",
+          "search_terms": [
+            "START triage algorithm",
+            "triage tags colors",
+            "mass casualty triage"
+          ],
+          "must_be": "labelled"
+        }
+      },
+      {
+        "id": "cs-np5-07-d",
+        "type": "sata",
+        "stem": "Which principles apply to triage during a multiple-casualty event? Select all that apply.",
+        "options": [
+          "Casualties are sorted by urgency and chance of benefit from care",
+          "The triage category is reassessed as conditions change",
+          "The aim is the greatest good for the greatest number",
+          "Casualties are treated in the order in which they arrive",
+          "The loudest casualty is treated first",
+          "Triage is done once and need not be repeated"
+        ],
+        "answers": [
+          0,
+          1,
+          2
+        ],
+        "rationale": "Triage sorts by urgency and likelihood of benefit, aims to do the most good for the most people and is repeated because conditions change. Order of arrival, noise level and a single assessment ignore clinical need.",
+        "rationale_simplified": "Treat by urgent need, not by who comes first or shouts loudest, and reassess.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Emergency and disaster nursing",
+          "topic": "Disaster nursing concepts",
+          "topic_id": "medical-surgical-nursing/emergency-and-disaster-nursing/disaster-nursing-concepts",
+          "cognitive_domain": "understanding",
+          "difficulty": "moderate",
+          "nursing_process_phase": "planning",
+          "evidence_status": "needs_review",
+          "competency": "Triage principles"
+        }
+      },
+      {
+        "id": "cs-np5-07-e",
+        "type": "mcq",
+        "stem": "After suctioning and opening the airway, which finding best shows that the intervention was effective?",
+        "options": [
+          {
+            "label": "A",
+            "text": "The man remains unresponsive and the gurgling sounds are unchanged",
+            "why_not": "Shows the problem persists."
+          },
+          {
+            "label": "B",
+            "text": "The chest rises equally with each quiet, unlabored breath",
+            "why_not": ""
+          },
+          {
+            "label": "C",
+            "text": "Blood continues to flow from the mouth with every breath he takes",
+            "why_not": "Shows persisting obstruction risk."
+          },
+          {
+            "label": "D",
+            "text": "The nurse sees fewer onlookers gathered around the stretcher",
+            "why_not": "Irrelevant to airway status."
+          }
+        ],
+        "answer": "B",
+        "rationale": "The goal is a clear airway with effective breathing, shown by quiet unobstructed breaths and equal chest rise. Persisting gurgling or continued bleeding in the mouth means the airway is still threatened, and the crowd size is irrelevant.",
+        "rationale_simplified": "A good result is quiet breathing with the chest rising evenly.",
+        "meta": {
+          "nursing_practice": "NP5",
+          "tos_content_area": "Emergency and disaster nursing",
+          "topic": "Primary and secondary survey",
+          "topic_id": "medical-surgical-nursing/emergency-and-disaster-nursing/primary-and-secondary-survey",
+          "cognitive_domain": "evaluating",
+          "difficulty": "moderate",
+          "nursing_process_phase": "evaluation",
+          "evidence_status": "needs_review",
+          "competency": "Evaluating airway interventions"
+        }
+      }
+    ]
+  }
+]

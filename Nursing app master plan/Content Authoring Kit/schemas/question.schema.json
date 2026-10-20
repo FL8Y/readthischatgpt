@@ -31,6 +31,7 @@
         "stem": { "type": "string", "minLength": 10 },
         "rationale": { "type": "string", "minLength": 40 },
         "rationale_simplified": { "type": "string" },
+        "image_suggestion": { "type": "object", "description": "A picture that would help; NOT an attached image. Fill images[] only after licence and accuracy are verified.", "required": ["description", "placement", "search_terms"], "properties": { "description": { "type": "string" }, "placement": { "enum": ["stem", "rationale", "situation"] }, "search_terms": { "type": "array", "items": { "type": "string" } }, "must_be": { "enum": ["unlabelled", "labelled", "either"] }, "license_note": { "type": "string" } } },
         "hint": { "type": "string" },
         "images": { "type": "array", "items": { "type": "object", "required": ["url", "alt_text"], "properties": { "url": { "type": "string" }, "alt_text": { "type": "string" }, "caption": { "type": "string" }, "credit": { "type": "string" }, "license": { "type": "string" } } } },
         "meta": { "$ref": "#/$defs/meta" }
