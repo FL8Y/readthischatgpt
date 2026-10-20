@@ -30,7 +30,7 @@ describe('tutorRequest', () => {
   it('works with no topic and says no notes were chosen', () => {
     const r = tutorRequest(state, undefined, [], 'hi', NOW);
     expect(r.user).toContain('No topic selected.');
-    expect(r.system).toContain('none were chosen');
+    expect(r.system).toContain('none matched');
   });
   it('caps history length and message size', () => {
     const r = tutorRequest(state, topic, msgs(30, 5000), 'q', NOW);
