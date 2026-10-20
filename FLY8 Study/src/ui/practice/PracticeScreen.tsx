@@ -13,6 +13,7 @@ import type { PracticeSession } from '../../bank/session';
 import { ImmersiveCtx, Header } from '../kit';
 import { useTheme } from '../theme';
 import { StudyHub } from '../StudyHub';
+import type { ItemContext } from '../../pnle/itemContext';
 import { useBank } from './BankProvider';
 import { CustomSetup } from './CustomSetup';
 import { DiagnosticResult } from './DiagnosticResult';
@@ -50,10 +51,12 @@ export interface PracticeScreenProps {
   go: (tab: 'tutor' | 'topics') => void;
   /** Lets the shell's Android back button step out of a sub-screen. Return true when handled. */
   registerBack: (fn: (() => boolean) | null) => void;
+  /** Open the tutor about one question. Without it 'Ask tutor' just opens the Tutor tab. */
+  onAskTutor?: (ctx: ItemContext) => void;
 }
 
 /** Practice tab runner: hub -> setup -> session -> finish -> results. The store saves the session after every answer. */
-export function PracticeScreen({ state, update, go, registerBack }: PracticeScreenProps) {
+export function PracticeScreen({ state, update, go, registerBack, onAskTutor }: PracticeScreenProps) {
   const { colors } = useTheme();
   const setImmersive = useContext(ImmersiveCtx);
   const bank = useBank();
@@ -87,6 +90,12 @@ export function PracticeScreen({ state, update, go, registerBack }: PracticeScre
     });
     return () => registerBack(null);
   }, [view, registerBack]);
+
+  const askTutor = (itemId: string, from?: PracticeSession | null) => {
+    const item = byId.get(itemId);
+    if (!item || !onAskTutor) return go('tutor');
+    onAskTutor({ item, selected: (from ?? saved)?.answers[itemId]?.selected });
+  };
 
   const stats = useMemo(() => hubStats(items, bs, attempts, today), [items, bs, attempts, today]);
 
@@ -183,7 +192,7 @@ export function PracticeScreen({ state, update, go, registerBack }: PracticeScre
         onFinish={(s) => void onFinish(s)}
         onLeave={() => setView({ v: 'hub' })}
         onReport={onReport}
-        onAskTutor={() => go('tutor')}
+        onAskTutor={(id) => askTutor(id, saved)}
         onReadNote={() => go('topics')}
       />
     );
@@ -202,7 +211,7 @@ export function PracticeScreen({ state, update, go, registerBack }: PracticeScre
         onFinish={() => setView(back)}
         onLeave={() => setView(back)}
         onReport={onReport}
-        onAskTutor={() => go('tutor')}
+        onAskTutor={(id) => askTutor(id, base)}
         onReadNote={() => go('topics')}
       />
     );
@@ -251,7 +260,7 @@ export function PracticeScreen({ state, update, go, registerBack }: PracticeScre
         {...common}
         onRetryMissed={() => retryMissed(cur.result.missedIds)}
         onDone={() => setView({ v: 'hub' })}
-        onAskTutor={() => go('tutor')}
+        onAskTutor={(id) => askTutor(id, cur.session)}
       />
     );
   }

@@ -2,6 +2,8 @@ import { describe, expect, it } from 'vitest';
 import { UNIFIED_CORE_SECTIONS, buildUnifiedPrompt, trimNotes, unifiedPromptText, wordCount } from '../src/pnle/unifiedPrompt';
 import { MAX_BATCH, SHAPES, clampCount, isShapeId, shapeDef } from '../src/pnle/shapes';
 import { PNLE_SYSTEM_PROMPT } from '../src/pnle/systemPrompt';
+import { itemContextText, itemQuickAsks } from '../src/pnle/itemContext';
+import type { BankItem } from '../src/bank/schema';
 
 const sys = (shape: Parameters<typeof buildUnifiedPrompt>[0]['shape'], count = 5) => buildUnifiedPrompt({ shape, count }).system;
 
@@ -127,5 +129,27 @@ describe('unified prompt: deeper, not longer', () => {
       const p = buildUnifiedPrompt({ shape: s.id, count: 5 });
       expect(wordCount(`${p.system} ${p.user}`), s.id).toBeLessThanOrEqual(Math.floor(old * 1.15));
     }
+  });
+});
+
+describe('ask tutor: item context', () => {
+  const item = {
+    id: 'x', v: 2, type: 'single', area: 'NP3', topic: 'Oxygenation', vignette: 'A client is short of breath.', stem: 'What is first?',
+    options: ['Check airway', 'Teach', 'Chart', 'Call'], answer: [0], rationale: 'Airway first because ABC.', optionRationales: ['a', 'b', 'c', 'd'],
+    strategy: 'ABC: airway first', difficulty: 3, source: 'bank', review: 'unreviewed', aiWritten: true,
+  } as BankItem;
+  it('includes the case, stem, options, key, learner answer and rationale', () => {
+    const t = itemContextText({ item, selected: [2] });
+    for (const m of ['A client is short of breath.', 'What is first?', 'A. Check airway', 'Best answer: A. Check airway', 'Learner chose: C. Chart', 'Airway first because ABC.', 'ABC: airway first']) expect(t).toContain(m);
+  });
+  it('omits the learner line when unanswered and offers fewer quick asks', () => {
+    expect(itemContextText({ item })).not.toContain('Learner chose');
+    expect(itemQuickAsks({ item }).length).toBeLessThan(itemQuickAsks({ item, selected: [1] }).length);
+  });
+  it('handles matrix and cloze answers', () => {
+    const m = { ...item, type: 'matrix', options: [], answer: [], rows: ['r1', 'r2'], columns: ['Yes', 'No'], rowAnswer: [0, 1] } as BankItem;
+    expect(itemContextText({ item: m, selected: [1, -1] })).toContain('r1 -> No; r2 -> (blank)');
+    const c = { ...item, type: 'cloze', options: [], answer: [], blanks: [{ choices: ['p', 'q'], answer: 1 }] } as BankItem;
+    expect(itemContextText({ item: c, selected: [0] })).toContain('blank 1: p');
   });
 });
