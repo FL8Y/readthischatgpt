@@ -59,6 +59,8 @@ export async function gone(loc, what) {
 export async function longPress(page, loc, ms = 800) {
   const el = loc.first();
   await el.waitFor({ state: 'visible', timeout: T });
+  // A long stem can push the option below the fold; raw mouse events outside the viewport do nothing.
+  await el.scrollIntoViewIfNeeded({ timeout: T });
   const box = await el.boundingBox();
   await page.mouse.move(box.x + box.width / 2, box.y + box.height / 2);
   await page.mouse.down();
