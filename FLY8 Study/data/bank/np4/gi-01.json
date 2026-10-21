@@ -1,0 +1,939 @@
+[
+ {
+  "id": "np4-0001",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "EGD aftercare",
+  "noteId": "np4-ge-egd-nursing-care",
+  "vignette": "A 61-year-old client returns to the unit three hours after an esophagogastroduodenoscopy done with throat spray and midazolam. He is awake, hoarse, and asks for a lozenge for his sore throat. His temperature is now 38.4 C, he winces on swallowing saliva, and he points to a spot behind the breastbone. His wife has gone to get his slippers.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Offer a lozenge and a saline gargle for the sore throat",
+   "Check that the gag reflex has returned before any oral intake",
+   "Report the fever and pain on swallowing to the provider now",
+   "Encourage sips of water to soothe the throat and lower the fever"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: three hours after EGD, fever, pain on swallowing and retrosternal pain.\n2. Principle: the note lists pain, bleeding, difficulty swallowing and rapid temperature rise as perforation signs.\n3. Priority rule: a possible life-threatening complication outranks an expected, comfort-level complaint.\n4. The key beats the gag-reflex check because that check is routine and already passed in effect; the fever and chest pain are the new data.\nFlip: If the temperature were normal and the pain limited to the throat, the gag check and lozenge would be correct.",
+  "optionRationales": [
+   "Treats the symptom, not the cause. A sore throat is expected after the scope, but it does not explain a new fever and retrosternal pain.",
+   "Right action, wrong time. He is already swallowing saliva and the gag check is a routine step; the new fever and pain are the urgent cue.",
+   "Correct. Fever with pain on swallowing after a scope points to perforation, which outranks the expected sore throat. This is the right priority; the other options each address a lesser or premature need.",
+   "Unsafe habit. Oral intake in a client with possible perforation worsens leakage and is premature before the provider evaluates."
+  ],
+  "strategy": "Unstable before stable: recognise complication",
+  "archetype": "Expected finding versus complication",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Perforation signs after EGD: pain, bleeding, difficulty swallowing, rapid temperature rise",
+   "Sore throat is expected after EGD"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0002",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "GERD vs cardiac chest pain",
+  "noteId": "np4-ge-gerd",
+  "vignette": "A 57-year-old man with diabetes and a history of reflux comes to the clinic after supper saying 'my heartburn is back.' He describes burning behind the breastbone for 30 minutes that spreads to the jaw, and he looks pale and damp. He took an antacid at home without relief and asks about changing his bedtime routine.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Obtain vital signs and a 12-lead ECG per protocol",
+   "Give another antacid and seat him upright",
+   "Review which foods and drinks he had at supper",
+   "Teach him to raise the head of the bed and avoid late meals"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: burning chest pain with jaw spread, pallor, diaphoresis, diabetes, antacid failure.\n2. Principle: reflux can mimic a heart attack, so chest pain is cardiac until proven otherwise.\n3. Priority rule: assess and rule out the life-threatening cause before treating or teaching for the familiar one.\n4. The key beats the antacid because it tests the dangerous possibility rather than reinforcing an assumption.\nFlip: If the pain were clearly after a large meal, lasted a minute, and vital signs and ECG were already normal, antacid and teaching would be correct.",
+  "optionRationales": [
+   "Correct. Chest discomfort is treated as cardiac until ruled out, and this client has risk factors, spread to the jaw and diaphoresis.",
+   "Treats the symptom assuming the benign cause. His prior reflux history anchors the nurse to the wrong diagnosis.",
+   "Skips assessment of the dangerous cause. A diet history helps reflux, but it is not the first step here.",
+   "True statement that does not answer the question. Teaching is for confirmed reflux after cardiac causes are excluded."
+  ],
+  "strategy": "Maslow: circulation and oxygenation before comfort",
+  "archetype": "Do not assume the benign cause",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "GERD symptoms can mimic a heart attack",
+   "Chest pain is treated as cardiac until ruled out"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0003",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Ulcerative colitis flare",
+  "noteId": "np4-ge-ulcerative-colitis",
+  "vignette": "A 29-year-old on day two of a severe ulcerative colitis flare is NPO on IV fluids. Overnight her bloody stools fell from about 16 to 4 and she says the cramping has eased. Her pulse has risen from 98 to 122, her blood pressure is 98/58, and her abdomen is newly distended and tender with quiet bowel sounds.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Record the lower stool count as improvement and keep monitoring",
+   "Offer clear liquids now that the diarrhea is settling",
+   "Ask for the antidiarrheal to be given as needed to continue the trend",
+   "Notify the provider of the distended tender abdomen and rising pulse"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: stool count down but pulse up, distention, tenderness, quiet bowel sounds.\n2. Principle: the note says to monitor for perforation, peritonitis and hemorrhage in colitis.\n3. Priority rule: new instability outranks a single improving sign.\n4. The key beats recording because it escalates the evidence of a complication.\nFlip: If the abdomen were soft and non-distended with a falling pulse, recording improvement and advancing diet per order would be correct.",
+  "optionRationales": [
+   "Under-reaction. The stool count is the only reassuring number; the pulse and abdomen are worsening.",
+   "Right action, wrong time. Oral intake is premature and unsafe while a complication is possible.",
+   "Treats the symptom. Slowing the bowel does not address a possible perforation and may mask it.",
+   "Correct. Fewer stools with distention, tenderness and tachycardia can signal a serious complication such as perforation or peritonitis, not recovery."
+  ],
+  "strategy": "Unstable before stable: look at the whole picture",
+  "archetype": "False reassurance from improving numbers",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Monitor for perforation, peritonitis and hemorrhage",
+   "NPO and IV fluids during an acute attack"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0004",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Biliary drain care",
+  "noteId": "np4-ge-gallstone-treatment-drainage",
+  "vignette": "On day 4 after a choledochostomy with a biliary drainage tube, a client has had steady green-brown bile output until this shift, when only a small amount is in the bag. He reports a new dull right upper quadrant ache and nausea, and the sclerae look slightly yellow. The bag is clipped at the level of his abdomen as ordered.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Irrigate the tube with saline to clear it",
+   "Check tubing for kinks or clamps and assess the abdomen",
+   "Lower the bag well below the abdomen to encourage drainage",
+   "Clamp the tube for an hour as is done around meals"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: low output, RUQ ache, nausea, mild jaundice on day 4 of a biliary drain.\n2. Principle: bile that does not drain can back up into the liver and blood.\n3. Priority rule: find and fix a simple mechanical cause and assess before changing orders or instilling anything.\n4. The key beats irrigation because it is the least invasive step and the only one that stays within the order.\nFlip: If the output were normal and the client only reported mild skin irritation, protecting the skin would be correct.",
+  "optionRationales": [
+   "Over-intervention. Irrigating a biliary tube without an order is unsafe and can force bile or bacteria backward.",
+   "Correct. Reduced output with new aching, nausea and yellowing suggests bile is not draining. A mechanical cause is checked first, then the provider is told.",
+   "Plausible detail that changes the order. The position is set by the surgeon, and lowering it can lose too much bile.",
+   "Right action wrong time. Clamping is for meals later in recovery and would worsen backup now."
+  ],
+  "strategy": "Assess before act",
+  "archetype": "Assess the tube before the client",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Backed-up bile enters the liver and blood",
+   "Bag position follows the surgeon's order"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0005",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Early dumping response",
+  "noteId": "np4-ge-dumping-syndrome",
+  "vignette": "On day 4 after a Billroth II gastrectomy, a client finishes lunch of soup, buttered toast, milk and juice. Twenty-five minutes later he is pale, sweaty, with cramps, loose stool and a pulse of 112. He asks if a short walk would settle his stomach.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Walk with him slowly to help the food settle",
+   "Help him lie down, then review his tray",
+   "Check a fingerstick glucose and give juice if low",
+   "Request an antispasmodic before doing anything else"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: symptoms 25 minutes after a fluid and sugar meal in a post-gastrectomy client.\n2. Principle: food leaves the stomach too fast and pulls fluid into the bowel, lowering circulating volume.\n3. Priority rule: simple nursing measures that restore comfort and stability come before drugs.\n4. The key beats the glucose check because the timing and cause point to early dumping.\nFlip: If symptoms began 2 hours after a meal with shakiness and low glucose, the fingerstick and a carbohydrate would be correct.",
+  "optionRationales": [
+   "Unsafe common habit. Upright movement speeds emptying and worsens the circulatory symptoms.",
+   "Correct. Lying down slows emptying and supports blood pressure during early dumping; the fluid-and-sugar tray is then addressed.",
+   "Plausible detail from a similar condition. Early dumping occurs shortly after eating and is not low sugar; late dumping is the glucose problem.",
+   "Treats the symptom first. Positioning is immediate and within nursing scope, and drugs only slow emptying."
+  ],
+  "strategy": "Least invasive first",
+  "archetype": "Immediate relief before teaching",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Lie down after meals",
+   "Do not drink fluids with meals; avoid sugar, salt and milk"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0006",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Diverticulitis orders",
+  "noteId": "np4-ge-diverticular-disease",
+  "vignette": "A 68-year-old is admitted with left lower quadrant pain, a temperature of 38.6 C and a raised white count. The nurse reviews new orders. All four are listed.",
+  "stem": "Which order should the nurse clarify with the provider?",
+  "options": [
+   "CT scan of the abdomen with contrast",
+   "Intravenous antibiotics",
+   "Clear liquid diet",
+   "Colonoscopy tomorrow morning"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: fever, high white count and LLQ pain in an older adult.\n2. Principle: acute diverticulitis means inflamed, fragile bowel wall.\n3. Priority rule: question the order that could cause perforation before carrying it out.\n4. The key stands out because the other three orders treat or image the condition safely.\nFlip: If the client were pain-free and afebrile with no recent flare, a colonoscopy would be a routine follow-up.",
+  "optionRationales": [
+   "Appropriate. CT is the test of choice for diverticulitis and can show an abscess; only an allergy or kidney check is needed.",
+   "Appropriate. Infection in the pouches is treated with antibiotics.",
+   "Appropriate. Resting the bowel with low residue intake is standard during a flare.",
+   "Correct. Scoping a colon with active inflammation risks perforation; imaging such as CT is preferred during a flare."
+  ],
+  "strategy": "Safety: do not stress an inflamed bowel",
+  "archetype": "Clarify the unsafe order",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "CT is the test of choice for diverticulitis",
+   "Colonoscopy usually avoided in acute inflammation"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0007",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Postoperative peritonitis",
+  "noteId": "np4-ge-peritonitis",
+  "vignette": "Three days after a bowel resection, a client reports constant, now localized abdominal pain. His abdomen is rigid, his pulse has risen to 124, his blood pressure is 88/52, and he lies still on his back. The NG tube is draining and his urine output has fallen. His daughter asks for a blanket.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Recheck vital signs and urine output, then report",
+   "Give the scheduled analgesic and reposition him on his side",
+   "Press deeply on the abdomen to locate the exact tender point",
+   "Increase suction on the NG tube to relieve distention"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: rigid abdomen, tachycardia, hypotension, falling urine output after bowel surgery.\n2. Principle: peritoneal inflammation causes fluid loss, ileus and sepsis.\n3. Priority rule: assess and escalate an unstable client before comfort measures.\n4. The key beats analgesia because it gets the team to treat dehydration and cause.\nFlip: If vitals were stable and the pain were incisional, analgesia and positioning would be correct.",
+  "optionRationales": [
+   "Correct. The pattern suggests peritonitis with fluid shift and shock; the provider needs current numbers right now to act.",
+   "Treats the symptom. Comfort measures are useful but delay recognising an unstable, deteriorating client.",
+   "Unsafe habit. Deep palpation of a rigid abdomen causes pain and can worsen the injury.",
+   "Over-intervention. Altering suction without an order does not address hypovolemia or the source of infection."
+  ],
+  "strategy": "Unstable before stable",
+  "archetype": "Escalate with data",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Rigid tender abdomen with rebound",
+   "Treat dehydration; intubation and suction for distention"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0008",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Atypical appendicitis course",
+  "noteId": "np4-ge-appendicitis",
+  "vignette": "A 19-year-old waited three hours for a CT scan with right lower quadrant pain rated 8/10. A colleague reports that his pain is now 1/10 and says he is much better. The nurse notices he is flushed, his temperature is 38.8 C, his pulse is 118 and his abdomen feels board-like. His mother has brought a heating pad.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Document that the pain has improved and wait for the CT",
+   "Apply the heating pad to ease his remaining discomfort",
+   "Report possible perforation and keep him NPO",
+   "Give a laxative so he is empty for the scan"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: pain suddenly fell from 8/10 to 1/10, then fever, tachycardia and rigid abdomen.\n2. Principle: perforation briefly relieves pressure pain and then causes peritonitis.\n3. Priority rule: act on instability rather than on the reported pain score.\n4. The key beats waiting because it escalates evidence of rupture.\nFlip: If the pain eased gradually after an analgesic with a soft abdomen and normal vitals, continuing to wait for CT would be correct.",
+  "optionRationales": [
+   "Under-reaction. The relief is false reassurance and the fever and rigidity are new.",
+   "Unsafe but common habit. Heat can spread infection and is never applied to a suspected appendicitis.",
+   "Correct. Sudden pain relief followed by fever and a rigid abdomen suggests a ruptured appendix, so urgent surgical review is needed.",
+   "Over-intervention. Laxatives risk rupture and are avoided in suspected appendicitis."
+  ],
+  "strategy": "Unstable before stable",
+  "archetype": "Sudden pain relief is not improvement",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Sudden relief of pain then fever and rigid abdomen means perforation",
+   "No laxatives or heat in suspected appendicitis"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0009",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Gallstone complications",
+  "noteId": "np4-ge-cholelithiasis-cholecystitis",
+  "vignette": "A 46-year-old woman admitted with gallstones has had episodic right upper quadrant cramping after fatty meals and nausea. Overnight she develops dark urine and pale stools. Her pain is the same as yesterday and a positive Murphy's sign is documented.",
+  "stem": "Which finding should the nurse report as most concerning?",
+  "options": [
+   "Cramping after fatty meals",
+   "A positive Murphy's sign on admission",
+   "Nausea after meals",
+   "Dark urine with pale stools"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: new dark urine and pale stools on a gallstone admission.\n2. Principle: obstructed bile flow raises bile in blood and removes it from stool.\n3. Priority rule: the new, changing finding is reported before stable known ones.\n4. The key beats Murphy's sign because that finding was already documented.\nFlip: If pain were rapidly escalating with fever, a more serious inflammation or infection would be the concern.",
+  "optionRationales": [
+   "Expected stone symptom that does not signal a new complication.",
+   "Already known and consistent with gallbladder inflammation; it is not new.",
+   "True finding that is common with gallbladder disease but does not signal blockage.",
+   "Correct. These changes with the picture of stones suggest bile flow is blocked, which needs prompt provider attention."
+  ],
+  "strategy": "Recognise the new finding",
+  "archetype": "Interpret a new finding",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Jaundice and altered stool/urine point to biliary obstruction",
+   "Murphy's sign indicates cholecystitis"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0010",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Cirrhosis confusion",
+  "noteId": "np4-ge-liver-cirrhosis",
+  "vignette": "A 56-year-old with alcohol-related cirrhosis is admitted with bruising and ascites. At 0200 he is newly disoriented, tries to climb out of bed, and has a hand tremor. The night nurse has a PRN sedative available, soft wrist restraints, and a snack tray.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Give the PRN sedative so he sleeps",
+   "Report the confusion and keep him supervised",
+   "Apply soft wrist restraints for the night",
+   "Offer a protein snack to support liver healing"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: new disorientation and tremor in a client with cirrhosis.\n2. Principle: ammonia reaches the brain when the liver fails; sedatives and protein loads can worsen it.\n3. Priority rule: report and supervise before drugs or restraints.\n4. The key beats the sedative because it avoids a drug the liver cannot clear.\nFlip: If he were calm and oriented and only restless from ascites discomfort, positioning and comfort care would be correct.",
+  "optionRationales": [
+   "Unsafe common habit. A failing liver cannot clear sedatives, so they can deepen confusion.",
+   "Correct. New confusion in cirrhosis may be early encephalopathy; it needs evaluation and a safe, observed environment.",
+   "Over-intervention. Restraints are not the first measure and can raise agitation.",
+   "Plausible detail from a different stage. Extra protein may add to ammonia when mental status is changing."
+  ],
+  "strategy": "Safety and assess before act",
+  "archetype": "Do not sedate a liver that cannot clear drugs",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Confusion risk in cirrhosis calls for safety measures",
+   "Sedatives need conservative doses in liver failure"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0011",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Ascites with dyspnea",
+  "noteId": "np4-ge-portal-hypertension-ascites",
+  "vignette": "A client with portal hypertension and ascites is scheduled for paracentesis in one hour. He says he cannot breathe lying flat, his SpO2 is 90 percent, and his weight has risen 1.8 kg overnight. His bladder is full and the sodium-restricted tray has arrived.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Measure abdominal girth and record the daily weight",
+   "Ask him to empty his bladder before the procedure",
+   "Raise the head of the bed to a high-Fowler position",
+   "Serve the sodium-restricted meal tray"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: dyspnea lying flat, SpO2 90 percent, ascites.\n2. Principle: ascites fluid pushes up on the diaphragm.\n3. Priority rule: oxygenation precedes preparation and routine monitoring.\n4. The key beats the girth measure because it relieves the problem immediately.\nFlip: If SpO2 were 98 percent and he lay comfortably, preparing for paracentesis and measuring girth would come first.",
+  "optionRationales": [
+   "Right action, wrong time. These track fluid change but do not relieve hypoxia.",
+   "Right action, wrong time. It is part of paracentesis preparation and comes after breathing is eased.",
+   "Correct. Fluid pressing on the diaphragm impairs breathing; positioning is the immediate oxygenation measure.",
+   "True nursing step that does not address the breathing problem."
+  ],
+  "strategy": "Maslow: oxygenation first",
+  "archetype": "Oxygenation outranks assessment routines",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Ascites fluid pushes the diaphragm up and causes shortness of breath",
+   "Daily weight and girth, empty bladder before paracentesis"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0012",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Variceal bleed priorities",
+  "noteId": "np4-ge-esophageal-varices",
+  "vignette": "A 52-year-old man with cirrhosis vomits bright red blood. He is alert, his pulse is 128 and blood pressure 84/50. The nurse has an esophageal balloon tamponade tube on the unit and the client's wife wants to describe his drinking history.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Start large-bore IV access and send a crossmatch",
+   "Prepare the balloon tamponade tube for insertion",
+   "Ask the wife about his alcohol history and last meal",
+   "Insert a nasogastric tube to lavage the stomach"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: hematemesis, pulse 128, BP 84/50 in cirrhosis.\n2. Principle: ruptured varices cause rapid hemorrhage and shock.\n3. Priority rule: circulation and volume replacement before devices or history.\n4. The key beats the tube because the client is shocky now.\nFlip: If bleeding had stopped and vital signs were stable, preparing for endoscopy or tamponade would lead.",
+  "optionRationales": [
+   "Correct. Massive bleeding and shock require volume and blood replacement first; this is the circulation priority.",
+   "Right action, wrong time. The tube is part of stopping bleeding, but it follows immediate stabilisation.",
+   "True information that does not take priority over life-threatening hemorrhage.",
+   "Over-intervention. It is not the first step and may stimulate more bleeding."
+  ],
+  "strategy": "Maslow: circulation first",
+  "archetype": "Circulation first, then tamponade",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Varices can rupture and bleed massively",
+   "Airway, breathing, circulation with blood replacement"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0013",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Ammonia triggers",
+  "noteId": "np4-ge-hepatic-encephalopathy",
+  "vignette": "A 60-year-old with cirrhosis becomes more confused over two days. The nurse's findings include: constipation for four days, a steak dinner last night, a new PRN sedative given last night, and a black tarry stool this morning with pulse 112.",
+  "stem": "Which finding requires the nurse's most urgent action?",
+  "options": [
+   "Black tarry stool with a rising pulse",
+   "Constipation for the last four days",
+   "A large steak dinner eaten last evening",
+   "A PRN sedative given late last night"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: confusion, tarry stool, tachycardia in cirrhosis.\n2. Principle: blood in the gut is digested into ammonia, and hemorrhage reduces perfusion.\n3. Priority rule: unstable, ongoing cause before stable triggers.\n4. The key beats constipation because it threatens life and also raises ammonia.\nFlip: If there were no bleeding signs and the pulse were normal, treating constipation with the ordered lactulose would be next.",
+  "optionRationales": [
+   "Correct. GI bleeding raises ammonia and threatens circulation; it is both a trigger and an emergency.",
+   "A real trigger, but it can be treated after the bleeding is addressed.",
+   "A trigger by protein load, but it is past and not as urgent.",
+   "A genuine risk because the liver cannot clear it, but not a source of ongoing blood loss."
+  ],
+  "strategy": "Unstable before stable",
+  "archetype": "Rank the triggers",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Triggers: GI bleeding, high protein, gut bacteria, uremia",
+   "Lactulose lowers ammonia"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0014",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Pancreatitis hypocalcemia",
+  "noteId": "np4-ge-acute-pancreatitis",
+  "vignette": "On day 2 of acute pancreatitis, a client who is NPO reports pain of 8/10 and tingling around his mouth. When the nurse inflates the blood pressure cuff, his hand curls into spasm. His amylase is trending down and his IV is infusing.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Give the scheduled analgesic for pain",
+   "Offer ice chips for his dry mouth",
+   "Report the tingling and carpal spasm",
+   "Document the spasm and recheck in four hours"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: perioral tingling and carpal spasm with cuff inflation in pancreatitis.\n2. Principle: pancreatitis can cause hypocalcemia (Trousseau's sign).\n3. Priority rule: a new potentially life-threatening complication is escalated before routine comfort care.\n4. The key beats analgesia because it addresses airway risk.\nFlip: If the client had no tingling or spasm, giving the scheduled analgesic would be the priority.",
+  "optionRationales": [
+   "Right problem category but wrong priority. The new neuromuscular signs signal a threat to the airway.",
+   "Unsafe. Oral intake breaks NPO and stimulates the pancreas.",
+   "Correct. These are signs of low calcium, which can progress to tetany and airway spasm and need prompt treatment.",
+   "Under-reaction. Waiting risks progression to tetany."
+  ],
+  "strategy": "Unstable before stable",
+  "archetype": "New complication outranks known pain",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Hypocalcemia signs: tetany, Chvostek's, Trousseau's",
+   "NPO to rest the pancreas"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0015",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Sucralfate scheduling",
+  "noteId": "np4-ge-peptic-ulcer-drugs-zes",
+  "vignette": "A client with a duodenal ulcer is ordered sucralfate, an aluminum-containing antacid and omeprazole. It is 0730 and his breakfast tray has just arrived.",
+  "stem": "How should the nurse schedule the sucralfate?",
+  "options": [
+   "Give it together with the antacid and breakfast for convenience",
+   "Give it on an empty stomach, spaced from the antacid as ordered",
+   "Hold it until the pain starts, then give as needed",
+   "Crush it and mix it with the breakfast juice"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: ulcer drugs due as breakfast arrives.\n2. Principle: sucralfate binds the ulcer base in acid, forming a barrier against pepsin.\n3. Priority rule: give the drug in the way that preserves its mechanism.\n4. The key beats combining because food and other drugs may blunt the coating.\nFlip: If the order said to give with meals, the nurse would follow the order after clarifying.",
+  "optionRationales": [
+   "Convenience error. Combining may reduce the coating effect.",
+   "Correct. Sucralfate forms a protective coating in acid and works best without food; spacing avoids interfering with other drugs.",
+   "Under-reaction. It is a scheduled protective agent, not a rescue drug.",
+   "Unsafe habit. Mixing with juice and food alters its action."
+  ],
+  "strategy": "Medication timing",
+  "archetype": "Timing of ulcer drugs",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Sucralfate coats the ulcer base",
+   "Give on empty stomach, separated from other drugs"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0016",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "After barium enema",
+  "noteId": "np4-ge-barium-studies",
+  "vignette": "A 72-year-old had a lower GI series yesterday. She has drunk fluids as encouraged but has not passed stool since, and her abdomen is now distended with nausea. Her daughter says she is just tired.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Give another cleansing enema right away as a precaution",
+   "Encourage more fluids and recheck her abdomen this evening",
+   "Reassure the daughter that pale stool is normal",
+   "Assess the abdomen and report that no stool has passed"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: no stool after barium, distention, nausea.\n2. Principle: retained barium hardens and can cause constipation or obstruction.\n3. Priority rule: assess and escalate rather than treat independently.\n4. The key beats another enema because it keeps the provider informed.\nFlip: If she had passed white stool and had a soft abdomen, reassurance would be correct.",
+  "optionRationales": [
+   "Over-intervention. This should not be done without an order and may be unsafe with possible obstruction.",
+   "Under-reaction. Fluids were already encouraged and symptoms are advancing.",
+   "True statement that does not answer. No stool has been passed at all.",
+   "Correct. Retained barium can harden and obstruct; no stool with distention needs prompt evaluation."
+  ],
+  "strategy": "Assess before act",
+  "archetype": "Report no stool passed",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Push fluids and verify barium is passed",
+   "Report absent stool or distention"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0017",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Kock pouch teaching",
+  "noteId": "np4-ge-ibd-treatment-ileostomy",
+  "vignette": "A 34-year-old with ulcerative colitis has had a continent (Kock) ileostomy created. During discharge teaching the nurse asks how she will empty it.",
+  "stem": "Which statement shows teaching was effective?",
+  "options": [
+   "I will wear a bag on my stoma and empty it when full",
+   "I will pass stool through my anus as before",
+   "I will place a small tube into the stoma at planned times",
+   "I will have a bowel movement from the stoma when I choose by pushing"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: Kock pouch teaching.\n2. Principle: continent ileostomy uses a pouch with a valve emptied by catheter.\n3. Priority rule: the learner's description must match the operation.\n4. The key beats the bag statement because the bag belongs to a conventional ileostomy.\nFlip: If she had a restorative proctocolectomy, passing stool through the anus would be correct.",
+  "optionRationales": [
+   "Describes a standard ileostomy appliance, a different procedure.",
+   "Describes the restorative pouch connected to the anus, a different procedure.",
+   "Correct. A Kock pouch is emptied by catheter through the stoma, which gives continence.",
+   "Incorrect. The stoma does not empty by pushing."
+  ],
+  "strategy": "Compare similar operations",
+  "archetype": "Compare similar operations",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Kock pouch emptied by catheter",
+   "Restorative proctocolectomy keeps sphincter control"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0018",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Crohn's complication",
+  "noteId": "np4-ge-crohns-disease",
+  "vignette": "A client with Crohn's disease has cramping after meals, semi-solid stools with mucus, and has lost 1 kg since last week. Today he notes foul-smelling pus draining from skin near his anus and has a temperature of 38.4 C.",
+  "stem": "Which finding should be reported first?",
+  "options": [
+   "Colicky cramping after eating",
+   "Semi-solid stools with mucus",
+   "Weight loss of 1 kg since last week",
+   "Perianal pus with a new fever"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: perianal pus and fever in a client with Crohn's.\n2. Principle: transmural inflammation leads to fistulas and abscesses.\n3. Priority rule: acute complication before baseline symptoms.\n4. The key beats weight loss because infection can worsen quickly.\nFlip: If the drainage were absent and the temperature normal, the nurse would address nutrition next.",
+  "optionRationales": [
+   "Expected feature of Crohn's disease.",
+   "Expected feature of Crohn's disease.",
+   "Common and tracked, but not an acute complication.",
+   "Correct. This suggests an abscess or fistula, which are complications needing prompt treatment."
+  ],
+  "strategy": "Recognise the new complication",
+  "archetype": "Known vs new finding",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Fistulas and abscesses complicate Crohn's",
+   "Crohn's affects the whole bowel wall"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0019",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Ulcer teaching",
+  "noteId": "np4-ge-peptic-ulcer-gastric-duodenal",
+  "vignette": "A 58-year-old with a gastric ulcer takes ibuprofen daily for knee pain. He has lost weight and says eating makes the pain worse. The nurse teaches about the ulcer.",
+  "stem": "Which client statement shows teaching was effective?",
+  "options": [
+   "I will ask about a new pain plan for my knees",
+   "I will eat more often to relieve the pain",
+   "I will take ibuprofen only with a glass of milk",
+   "I will skip breakfast on days the pain is bad"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: gastric ulcer with daily NSAID use and weight loss.\n2. Principle: NSAIDs and H. pylori are contributors.\n3. Priority rule: stop the cause before symptom tactics.\n4. The key beats eating more often because that applies to duodenal ulcers.\nFlip: If the pain eased with food and he gained weight, the pattern would suggest a duodenal ulcer.",
+  "optionRationales": [
+   "Correct. NSAIDs contribute to gastric ulcers; removing them is part of treatment.",
+   "Describes a duodenal pattern; in gastric ulcer eating tends to worsen pain.",
+   "Plausible detail. Milk does not reliably protect and the drug remains harmful.",
+   "Reduces symptoms but does not address cause or nutrition."
+  ],
+  "strategy": "Remove the cause",
+  "archetype": "Remove the cause",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "NSAIDs are a gastric ulcer risk",
+   "Gastric ulcer pain worsens with eating"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0020",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Gastric surgery teaching",
+  "noteId": "np4-ge-gastric-surgeries-billroth",
+  "vignette": "A client scheduled for vagotomy and pyloroplasty tells the nurse what he thinks will happen.",
+  "stem": "Which statement indicates he understands the surgery?",
+  "options": [
+   "The lower part of my stomach will be removed",
+   "Acid-stimulating nerves are cut and the outlet widened",
+   "My stomach will be joined to the middle of my small bowel",
+   "The tumor causing the extra acid will be removed"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: planned vagotomy and pyloroplasty.\n2. Principle: reduce vagal acid stimulation and improve emptying.\n3. Priority rule: confirm teaching matches the procedure.\n4. The key beats Billroth descriptions because those involve removing stomach.\nFlip: If he were having a Billroth II, joining the stomach to the jejunum would be correct.",
+  "optionRationales": [
+   "Describes a Billroth operation.",
+   "Correct. Vagotomy cuts the vagal branches that stimulate acid and pyloroplasty widens the pylorus.",
+   "Describes a Billroth II gastrojejunostomy.",
+   "Describes treatment for Zollinger-Ellison, not this operation."
+  ],
+  "strategy": "Match client statement to the operation",
+  "archetype": "Match client statement to the operation",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Vagotomy cuts vagus branches that stimulate acid",
+   "Pyloroplasty widens the pylorus"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0021",
+  "v": 2,
+  "type": "sata",
+  "area": "NP4",
+  "topic": "Hepatitis A precautions",
+  "noteId": "np4-ge-viral-hepatitis",
+  "vignette": "A 24-year-old with hepatitis A is in the icteric phase. He has jaundice, dark urine and loose stools, and he is sometimes incontinent in bed. His roommate left for a walk.",
+  "stem": "Which actions should the nurse include in his care? Select all that apply.",
+  "options": [
+   "Wear gloves for stool and soiled linen and wash hands with soap and water afterward",
+   "Use enteric (fecal) precautions",
+   "Offer small high-calorie meals through the day",
+   "Wear an N95 respirator on entering the room",
+   "Tell the roommate to avoid sharing razors because of blood spread",
+   "Inform him that he will remain a lifelong carrier"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "rationale": "1. Cue: hepatitis A with stool incontinence.\n2. Principle: A and E spread by the fecal-oral route; B, C and D spread by blood and body fluids.\n3. Priority rule: choose actions that block the actual route and support recovery.\n4. Correct options address stool contact, enteric precautions and nutrition.\nFlip: If the client had hepatitis B, blood and body fluid precautions would replace enteric precautions.",
+  "optionRationales": [
+   "Correct. Hepatitis A is spread by the fecal-oral route, so stool contact and hand hygiene are the key controls.",
+   "Correct. Enteric precautions address stool spread of hepatitis A.",
+   "Correct. Anorexia and nausea are common, and small frequent meals support nutrition and recovery.",
+   "Incorrect. Hepatitis A is not airborne; this is over-intervention.",
+   "Incorrect. Blood spread belongs to hepatitis B, C and D; this is a plausible detail from a similar condition.",
+   "Incorrect. Hepatitis A is usually mild with recovery; carrier state is likelier with B, C and D."
+  ],
+  "strategy": "Match precautions to the transmission route",
+  "archetype": "Select the safe actions",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "A and E spread fecal-oral",
+   "Small high-calorie meals during illness"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0022",
+  "v": 2,
+  "type": "sata",
+  "area": "NP4",
+  "topic": "Hemorrhoid teaching",
+  "noteId": "np4-ge-hemorrhoids",
+  "vignette": "A 50-year-old woman reports itching and bright red blood on the tissue after bowel movements. She often strains and drinks little water. She asks how to prevent flare-ups.",
+  "stem": "Which teaching points should the nurse include? Select all that apply.",
+  "options": [
+   "Eat more fruit, bran and other high-fiber foods",
+   "Drink more fluids through the day",
+   "Use warm sitz baths during a flare-up",
+   "Limit fluids to reduce the number of stools",
+   "Use strong laxatives daily to avoid constipation",
+   "Bright red bleeding is always harmless and needs no follow-up"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "rationale": "1. Cue: straining, low fluid intake and bright red bleeding.\n2. Principle: straining and hard stool raise anal pressure.\n3. Priority rule: teach measures that reduce straining and ease flare-ups.\n4. The correct options address stool consistency and local relief.\nFlip: If the stool were black and tarry, the nurse would suspect upper GI bleeding rather than hemorrhoids.",
+  "optionRationales": [
+   "Correct. Fiber softens stool and reduces straining.",
+   "Correct. Fluids keep stool soft.",
+   "Correct. Warmth eases pain and swelling.",
+   "Incorrect. Limiting fluids hardens stool and increases straining.",
+   "Incorrect. This treats the symptom unsafely; bulk-forming agents are preferred.",
+   "Incorrect. New or persistent bleeding should be reported; it may mean another cause."
+  ],
+  "strategy": "Prevention teaching",
+  "archetype": "Select effective prevention advice",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "High-residue diet and fluids",
+   "Sitz baths and avoiding straining"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0023",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Graves' disease nursing priorities",
+  "noteId": "np4-ge-hyperthyroidism-graves",
+  "vignette": "A client with Graves' disease is admitted with a pulse of 118, weight loss, tremor, bulging eyes and heat intolerance. She asks for the window open, a large cup of coffee, and says the busy ward overwhelms her.",
+  "stem": "Which nursing action is most appropriate?",
+  "options": [
+   "Offer extra blankets to prevent chills",
+   "Move her to a quiet room and keep the room cool",
+   "Encourage a low-calorie diet to control her weight loss",
+   "Give the requested coffee to ease fatigue"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: tachycardia, heat intolerance, agitation.\n2. Principle: excess thyroid hormone speeds metabolism and sympathetic activity.\n3. Priority rule: reduce stimulation and heat.\n4. The key beats the coffee because stimulants worsen the problem.\nFlip: If she were cold, slow and constipated, extra blankets and a warm room would be correct.",
+  "optionRationales": [
+   "Plausible detail from hypothyroidism, which causes cold intolerance, not Graves' disease.",
+   "Correct. A calm, low-stimulation, cool environment reduces the hypermetabolic strain.",
+   "Incorrect. Increased metabolism requires high-calorie, high-protein intake.",
+   "Unsafe. Stimulants worsen tachycardia and nervousness."
+  ],
+  "strategy": "Match care to the physiology",
+  "archetype": "Match care to the physiology",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Quiet cool environment in hyperthyroidism",
+   "Avoid stimulants"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0024",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Exercise with poor control",
+  "noteId": "np4-ge-t2dm-diet-exercise-monitoring",
+  "vignette": "A 52-year-old with type 2 diabetes plans a brisk morning walk as part of her program. Her glucose reading is well above her usual and her urine ketone strip is positive. She feels tired and thirsty.",
+  "stem": "What should the nurse advise?",
+  "options": [
+   "Postpone the walk and report the glucose and ketones",
+   "Walk as planned after a small carbohydrate snack first",
+   "Walk faster to bring the glucose down more quickly",
+   "Skip her insulin until after the walk"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: high glucose, positive ketones, fatigue, thirst.\n2. Principle: ketones signal insulin deficiency.\n3. Priority rule: stabilise before exercise.\n4. The key beats the snack because glucose is already high.\nFlip: If her glucose were normal and ketones negative, a pre-exercise snack and walk would be correct.",
+  "optionRationales": [
+   "Correct. Exercise is avoided when control is poor, and ketones suggest insulin deficiency and DKA risk.",
+   "Right action, wrong time. A snack before exercise prevents lows, but this client is hyperglycemic.",
+   "Unsafe habit. Exercise with ketones can push glucose higher.",
+   "Unsafe. Withholding insulin when ketones are present increases DKA risk."
+  ],
+  "strategy": "Safety: stop activity when control is poor",
+  "archetype": "Decide when not to exercise",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Avoid exercise when control is poor",
+   "Urine ketones signal insulin deficiency"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0025",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Thyroid storm",
+  "noteId": "np4-ge-x-thyroid-storm",
+  "vignette": "On the evening after a subtotal thyroidectomy, a client with poorly controlled hyperthyroidism has a temperature of 39.8 C, pulse 148, vomiting and agitation. The neck dressing is dry and SpO2 is 95 percent. Her sister says she is just nervous about the pain.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Check the neck dressing for bleeding and hoarseness",
+   "Give aspirin for the temperature",
+   "Reassure her and recheck vital signs in an hour",
+   "Start cardiac monitoring and call the provider now"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: surgery, high fever, very fast pulse, agitation, vomiting.\n2. Principle: a surge of thyroid hormone drives the heart and temperature too high.\n3. Priority rule: protect circulation and call for treatment first.\n4. The key beats the dressing check because the airway and wound are currently stable.\nFlip: If the neck swelled quickly with stridor, airway assessment would come first.",
+  "optionRationales": [
+   "Right check, wrong priority. The dressing is dry and the picture points to storm.",
+   "Unsafe habit. Aspirin can raise free hormone levels.",
+   "Under-reaction. This is the classic trap; the situation is an emergency.",
+   "Correct. Fever, tachycardia and agitation after surgery in a hyperthyroid client suggest thyroid storm, which threatens the heart."
+  ],
+  "strategy": "Unstable before stable",
+  "archetype": "Escalate a surgical emergency",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Thyroid storm after surgery or iodine therapy",
+   "Call and treat, then cool the client"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ }
+]

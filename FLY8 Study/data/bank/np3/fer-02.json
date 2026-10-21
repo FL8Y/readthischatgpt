@@ -1,0 +1,850 @@
+[
+ {
+  "id": "np3-0151",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Nephrotic child: infection",
+  "noteId": "np3-er-nephrotic",
+  "vignette": "A 6-year-old boy with nephrotic syndrome has generalized soft pitting edema, a swollen abdomen and frothy urine, all unchanged from yesterday. This morning his temperature is 38.6 C with chills and a cough. His weight is 0.4 kg lower than yesterday, and his face looks a little less puffy.",
+  "stem": "Which finding should the nurse report first?",
+  "options": [
+   "The weight that is 0.4 kg lower than yesterday",
+   "The fever with chills and cough",
+   "The generalized soft pitting edema",
+   "The frothy urine, unchanged from yesterday"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Nephrotic syndrome causes massive protein loss, so the child is prone to infection, thromboembolism and acute kidney failure.\n2. Edema, frothy urine and a stable swollen abdomen are baseline; a slight weight loss suggests improving fluid status.\n3. New fever with chills and cough is a possible serious infection and needs prompt reporting.\nFlip: if the weight had risen 2 kg overnight with breathlessness, fluid overload would be the priority.",
+  "optionRationales": [
+   "Wrong: favorable or neutral change.",
+   "Right: new sign of infection.",
+   "Wrong: baseline, expected hallmark.",
+   "Wrong: baseline, unchanged."
+  ],
+  "strategy": "New finding over baseline: infection risk",
+  "archetype": "report complication",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Nephrotic complications: infection, thromboembolism, acute kidney failure",
+   "Hallmark: anasarca, massive proteinuria"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0152",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Oliguric kidney failure with overload",
+  "noteId": "np3-er-arf-care",
+  "vignette": "On day 3 of oliguric acute renal failure, a client's urine output is 250 mL in 24 hours. His weight is up 2 kg, BP is 168/102 and he complains of a headache and breathlessness lying flat. The nurse hears crackles at both bases and sees distended neck veins. His potassium is 5.2 mmol/L and a Kayexalate dose is due.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Give the due Kayexalate dose to keep the potassium from rising",
+   "Encourage extra oral fluids to flush the kidneys",
+   "Reassure him and recheck his blood pressure in four hours",
+   "Sit him upright, check breathing and notify the provider"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Weight gain, hypertension, headache, crackles and distended neck veins show overhydration in an oliguric kidney.\n2. Breathlessness lying flat makes breathing the priority: upright position, assessment and prompt reporting (diuresis or dialysis may be needed).\n3. Kayexalate is appropriate for the borderline potassium but does not relieve the lungs; extra fluids worsen overload.\nFlip: with clear lungs and a potassium of 6.5, the cardiac monitor and potassium plan would come first.",
+  "optionRationales": [
+   "Wrong: right action, wrong priority.",
+   "Wrong: worsens overload.",
+   "Wrong: under-reaction.",
+   "Right: breathing and overload first."
+  ],
+  "strategy": "Airway/breathing first; overload",
+  "archetype": "breathing first",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Check for overhydration: edema, crackles, headache, neck vein distention, hypertension",
+   "Watch for hyperkalemia and acidosis"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0154",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Kussmaul breathing is compensation",
+  "noteId": "np3-er-metabolic-acidosis",
+  "vignette": "A client with 4 days of severe diarrhea is drowsy, with RR 30 and very deep breaths, HR 112 and BP 88/50. ABG shows a low pH and a low bicarbonate. A nursing assistant says, 'He is panicking; let me coach him to slow down his breathing.'",
+  "stem": "What should the nurse tell the assistant?",
+  "options": [
+   "Go ahead and coach slow breathing so that he can conserve energy",
+   "Give oxygen by rebreather mask so he can slow down his breathing on his own",
+   "The fast deep breathing is compensation, so do not slow it",
+   "Ask him to hold his breath for ten seconds to reduce the work of breathing"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. In metabolic acidosis the lungs blow off CO2 with rapid deep (Kussmaul) breathing to raise the pH.\n2. Slowing the breathing would let the acid rise further. Treat the cause (diarrhea losses with fluids, bicarbonate as ordered) and watch potassium and rhythm.\n3. The client is drowsy and hypotensive, so airway, breathing and circulation are monitored.\nFlip: if the fast breathing came from panic with a high pH, coaching slower breathing would help.",
+  "optionRationales": [
+   "Wrong: unsafe, defeats the lungs' compensation.",
+   "Wrong: plausible detail from another problem.",
+   "Right: protect compensation and treat the cause.",
+   "Wrong: breath-holding raises CO2 and worsens acidosis."
+  ],
+  "strategy": "Protect the body's compensation",
+  "archetype": "do not suppress compensation",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Lungs compensate with rapid deep breathing (Kussmaul)",
+   "Treat the cause: fluids, insulin, bicarbonate, dialysis"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0155",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Read the gas then act",
+  "noteId": "np3-er-x-abg-stepwise",
+  "vignette": "A post-operative client who received opioids is hard to wake, with RR 6. ABG: pH 7.28, PCO2 62 mmHg, bicarbonate 24 mEq/L, PO2 70 mmHg. The student asks what the numbers mean and what should be done.",
+  "stem": "Which interpretation and action are correct?",
+  "options": [
+   "Respiratory acidosis; rouse him, support ventilation and call the provider",
+   "Metabolic acidosis from acid build-up; prepare sodium bicarbonate and recheck in an hour",
+   "Respiratory alkalosis from over-breathing; coach slow breathing and reassure him",
+   "Metabolic alkalosis from acid loss; give chloride and potassium solution"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. pH below 7.35 is acidosis; PCO2 is high (the respiratory side) and moves opposite to the pH; bicarbonate is normal, so the cause is respiratory.\n2. Cause: opioid sedation with a respiratory rate of 6 causes hypoventilation; action: airway and breathing first.\n3. The other options pair a wrong interpretation with a treatment that would not help.\nFlip: with a normal PCO2 and a low bicarbonate, the problem would be metabolic.",
+  "optionRationales": [
+   "Right: respiratory acidosis, ventilate.",
+   "Wrong: bicarbonate is normal.",
+   "Wrong: pH is low, not high.",
+   "Wrong: pH is low, not high."
+  ],
+  "strategy": "Decide which value explains the pH",
+  "archetype": "interpretation to action",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "High PCO2 with low pH is respiratory acidosis",
+   "ROME: respiratory opposite, metabolic equal"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0156",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Potassium order safety",
+  "noteId": "np3-er-hypokalemia",
+  "vignette": "A client with serum potassium 2.9 mmol/L has an order for potassium chloride 'undiluted IV push now.' The nurse reviews the record: urine output has been 15 mL/h for the last 3 hours, and the monitor shows occasional extra beats. The pharmacy sends a prefilled syringe.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Give the syringe slowly over five minutes while watching the monitor",
+   "Give half of the syringe now and the rest if the extra beats continue",
+   "Hold the dose and contact the provider about the route and output",
+   "Dilute the syringe in the saline flush and give it by IV push"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Potassium is given diluted and slowly, never as IV push, and urine output is checked first because the kidneys excrete it.\n2. The client needs potassium (irregular beats, K 2.9), so the answer is to clarify the order rather than to ignore the need.\n3. Changing the dose, dilution or speed without an order is outside scope.\nFlip: with an order for diluted potassium by infusion and urine output of 60 mL/h, the nurse would give it as ordered.",
+  "optionRationales": [
+   "Wrong: modifies the order and still risks cardiac arrest.",
+   "Wrong: unsafe dose splitting.",
+   "Right: clarify; unsafe route and low output.",
+   "Wrong: outside scope and still a push."
+  ],
+  "strategy": "Unsafe order: potassium never IV push",
+  "archetype": "question the order",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Give potassium diluted and slowly, never IV push; check urine output first",
+   "Heart rhythm and breathing first"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0157",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Absent thrill and bruit",
+  "noteId": "np3-er-hemodialysis",
+  "vignette": "A client with an arteriovenous fistula in the left forearm arrives for dialysis. The nurse cannot feel a thrill or hear a bruit over the access. The arm is slightly cool and the client says it is numb. A student offers to take the blood pressure in the left arm because 'the right arm has an IV.'",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Take the blood pressure in the left arm to see whether the pulse returns",
+   "Document the finding and reassess the access at the next shift",
+   "Warm the arm with a heating pad and recheck in an hour",
+   "Report the absent thrill and bruit now and keep BP off the left arm"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Absence of thrill and bruit means clotting or blockage of the access and is reported immediately; coolness and numbness suggest ischemia.\n2. No blood pressures, venipunctures or IVs in the access arm.\n3. Waiting or applying heat delays recovery of the access.\nFlip: if the thrill and bruit were present and strong, dialysis would proceed.",
+  "optionRationales": [
+   "Wrong: unsafe habit that endangers the access.",
+   "Wrong: under-reaction.",
+   "Wrong: delays treatment.",
+   "Right: report and protect."
+  ],
+  "strategy": "Protect the lifeline",
+  "archetype": "report immediately",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Absent thrill or bruit means clotting or blockage: report immediately",
+   "No blood pressure or IV in the access arm"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0158",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Peritoneal dialysis effluent",
+  "noteId": "np3-er-peritoneal-dialysis",
+  "vignette": "On the first day of peritoneal dialysis the drained fluid is slightly blood-tinged and the client has mild abdominal fullness during inflow. On day 4 at home, he calls the dialysis unit because his drained fluid is cloudy, he has abdominal pain and his temperature is 38.3 C.",
+  "stem": "What is the nurse's best advice on day 4?",
+  "options": [
+   "This is expected, like the blood-tinged fluid on the first day, so keep exchanging",
+   "Come in right away, because cloudy fluid with pain and fever suggests peritonitis",
+   "Warm the next bag more and see whether the fluid clears by tomorrow",
+   "Skip exchanges until the pain stops and call back if the fever lasts"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Bloody drainage is acceptable in the first few exchanges; clear or colorless is normal later.\n2. Cloudy fluid with abdominal pain and fever means peritonitis, the main danger of PD, and needs urgent evaluation and culture.\n3. Skipping exchanges or delaying risks harm.\nFlip: slight blood tinge on the first day alone needs only observation.",
+  "optionRationales": [
+   "Wrong: expected only early on.",
+   "Right: classic infection picture.",
+   "Wrong: under-reaction.",
+   "Wrong: delay; skipping exchanges also harms."
+  ],
+  "strategy": "Expected vs infection",
+  "archetype": "expected vs infection",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Cloudy drainage = infection (peritonitis); bloody acceptable in first exchanges",
+   "Strict asepsis because infection is the main risk"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0160",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Fluid allowance",
+  "noteId": "np3-er-ckd-care",
+  "vignette": "A client with chronic kidney disease passed 800 mL of urine during the previous 24 hours. His diet teaching includes a fluid allowance of the previous 24-hour urine output plus about 500-600 mL. He tells the nurse that he plans to drink about 3 L a day 'to flush out the kidneys.'",
+  "stem": "What is the nurse's best response?",
+  "options": [
+   "His allowance is about 1,300 to 1,400 mL a day, not 3 L",
+   "His allowance is about 800 mL a day, the same as his urine output",
+   "His allowance is about 3,000 mL a day because the kidneys need flushing",
+   "His allowance is about 2,000 mL a day, which is the normal adult intake"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. In CKD the fluid allowance is the previous 24-hour urine output plus about 500-600 mL: 800 + 500 to 600 = about 1,300 to 1,400 mL.\n2. Drinking 3 L would cause overload (edema, hypertension, crackles).\nFlip: if his urine output were 1,500 mL, his allowance would rise accordingly.",
+  "optionRationales": [
+   "Right: correct calculation.",
+   "Wrong: omits the insensible allowance.",
+   "Wrong: causes fluid overload.",
+   "Wrong: ignores the output."
+  ],
+  "strategy": "Individualised fluid restriction",
+  "archetype": "calculate allowance",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Fluid allowance: previous 24-hour urine output plus about 500-600 mL",
+   "Monitor intake, output, daily weight"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0161",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "High magnesium and antacids",
+  "noteId": "np3-er-magnesium-imbalance",
+  "vignette": "A 64-year-old man with chronic kidney disease takes a magnesium-containing antacid and milk of magnesia daily for indigestion and constipation. He is brought in drowsy and weak. His BP is 82/48, RR is 8, the heart rhythm is irregular and he says he can hardly breathe. His wife asks if he needs a laxative.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Give another dose of antacid for his stomach discomfort and nausea",
+   "Place him flat and ask his wife to give him some water to sip",
+   "Check bowel sounds and give the milk of magnesia his wife requested",
+   "Assess breathing, call for help and stop all magnesium products"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Kidney failure prevents excretion of magnesium, and magnesium antacids and laxatives raise it; high magnesium causes weakness, low BP, irregular heartbeat and respiratory depression.\n2. Priorities: breathing, help and removal of the source; keep magnesium products away from clients with kidney failure.\n3. More antacid or laxative would worsen the problem.\nFlip: for low magnesium with tetany, replacement and seizure precautions would apply.",
+  "optionRationales": [
+   "Wrong: gives more magnesium.",
+   "Wrong: unsafe; fluids with poor breathing.",
+   "Wrong: laxatives often contain magnesium.",
+   "Right: airway first and stop the source."
+  ],
+  "strategy": "Airway and breathing first",
+  "archetype": "breathing first",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "High magnesium: low BP, weakness, trouble breathing, irregular heartbeat",
+   "Keep magnesium antacids and laxatives away from kidney failure"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0162",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Before kidney transplant: anemia",
+  "noteId": "np3-er-transplant",
+  "vignette": "A 45-year-old woman is on the waiting list for a kidney transplant. Her hemoglobin is low and she feels tired. A relative who is a nurse asks the unit nurse why the provider is giving her an injection of erythropoietin instead of a blood transfusion.",
+  "stem": "Which explanation is correct?",
+  "options": [
+   "Erythropoietin prevents rejection of the new kidney after the surgery is completed",
+   "Erythropoietin treats the anemia of kidney failure and avoids transfusions",
+   "Erythropoietin lowers potassium so that the surgery can go ahead safely",
+   "Erythropoietin replaces her immunosuppressants during the long waiting time on the list"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. The failing kidney does not make enough erythropoietin, causing anemia; replacing it avoids transfusions, which should be avoided for at least 2 weeks before transplant.\n2. Immunosuppressants prevent rejection; Kayexalate lowers potassium.\nFlip: after the transplant, immunosuppressants would be the key drugs.",
+  "optionRationales": [
+   "Wrong: describes immunosuppressants.",
+   "Right: purpose of erythropoietin.",
+   "Wrong: describes Kayexalate.",
+   "Wrong: erythropoietin does not replace immunosuppressants."
+  ],
+  "strategy": "Know the purpose of the drug",
+  "archetype": "avoid transfusion",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Avoid blood transfusion for at least 2 weeks before transplant; erythropoietin treats anemia"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0163",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "After escharotomy",
+  "noteId": "np3-er-burn-wound-care",
+  "vignette": "A client with a circumferential burn of the right forearm has just returned from escharotomy. The incision oozes a small amount of blood and is lightly packed. The nurse finds that the radial pulse is still absent, the fingers are pale and cool, and the client cannot move them. The dressing change is due in an hour.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Reinforce the dressing because the incision is oozing blood",
+   "Report the absent pulse and pale cool fingers immediately",
+   "Wait until the scheduled dressing change to reassess circulation",
+   "Elevate the arm and recheck the pulse at the next shift"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. After escharotomy the nurse checks pulses, color, movement and sensation, controls bleeding and packs lightly.\n2. A small ooze is expected; an absent pulse, pallor and loss of movement mean circulation was not restored and fasciotomy may be needed in the OR.\n3. Reinforcing the dressing addresses the minor finding; waiting risks tissue loss.\nFlip: with a strong radial pulse, pink warm fingers and movement, only the oozing would be managed.",
+  "optionRationales": [
+   "Wrong: addresses the expected minor finding.",
+   "Right: report a circulatory emergency.",
+   "Wrong: under-reaction.",
+   "Wrong: elevating the arm and rechecking next shift delays action on an absent pulse, which is a circulatory emergency."
+  ],
+  "strategy": "Circulation: unrelieved constriction",
+  "archetype": "neurovascular check",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Escharotomy relieves constriction; check pulses, color, movement, sensation",
+   "Fasciotomy if circulation does not return"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0164",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Fever after transplant",
+  "noteId": "np3-er-transplant-rejection",
+  "vignette": "A client who had a kidney transplant 3 months ago phones the unit. He has a temperature of 38.5 C, chills and a cough, but his urine output and weight are unchanged and the graft is not tender. He says, 'It must just be a cold; I'll skip my anti-rejection tablets until the fever settles.'",
+  "stem": "What should the nurse say?",
+  "options": [
+   "Do not skip the tablets, and come in promptly so the fever can be evaluated",
+   "Skipping them is sensible because they weaken your defense against infection",
+   "Take paracetamol and wait two days to see whether the fever settles",
+   "Double the tablets tonight so your body can fight the infection"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Immunosuppressants must never be skipped; stopping can trigger rejection.\n2. Immunosuppression raises infection risk; infection and rejection both cause fever, so both are reported and evaluated.\n3. Waiting under-reacts, and changing doses on his own is unsafe.\nFlip: with sharply reduced urine, rising weight and graft tenderness, acute rejection would be strongly suspected.",
+  "optionRationales": [
+   "Right: continue the drugs and get evaluated.",
+   "Wrong: unsafe habit that risks rejection.",
+   "Wrong: under-reaction.",
+   "Wrong: dose changes without an order."
+  ],
+  "strategy": "Do not stop immunosuppressants",
+  "archetype": "report both infection and rejection",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Never skip immunosuppressant doses",
+   "Infection and rejection both cause fever; report both"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0165",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Uremic pericarditis",
+  "noteId": "np3-er-ckd-findings",
+  "vignette": "A client with end-stage kidney disease who missed dialysis has itching, dry skin, an ammonia odor on the breath, pallor with fatigue and a hemoglobin that is low. This morning he also reports sharp chest pain that is worse on inspiration and eases when he leans forward. The nurse hears a scratchy sound at the left sternal border.",
+  "stem": "Which finding should the nurse report immediately?",
+  "options": [
+   "Itching and dry skin over the arms and back",
+   "An ammonia odor on the breath when he talks",
+   "Pleuritic chest pain with a scratchy sound",
+   "Pallor and fatigue with a low hemoglobin result"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Itching, dry skin, uremic breath, anemia from low erythropoietin and fatigue are expected in uremia.\n2. Pain eased by leaning forward with a friction rub points to pericarditis from uremic toxins, which can lead to tamponade.\nFlip: without the chest pain and rub, all findings would be expected and managed with dialysis and comfort care.",
+  "optionRationales": [
+   "Wrong: expected, comfort measures.",
+   "Wrong: expected from urea.",
+   "Right: uremic pericarditis.",
+   "Wrong: expected anemia."
+  ],
+  "strategy": "Expected uremic findings vs a complication",
+  "archetype": "recognise a complication",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Uremia: pericarditis from toxins; itching; anemia; ammonia breath"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0166",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Match results to normal values",
+  "noteId": "np3-er-electrolyte-values-labs",
+  "vignette": "The nurse reviews morning labs for a client with vomiting: sodium 134 mEq/L, potassium 4.1 mEq/L, chloride 100 mEq/L, magnesium 2.0 mEq/L. The handout normal values are sodium 135-145, potassium 3.5-5.5, chloride 98-108 and magnesium 1.5-2.5.",
+  "stem": "Which result does the nurse report as abnormal?",
+  "options": [
+   "Potassium of 4.1 mEq/L",
+   "Chloride of 100 mEq/L",
+   "Magnesium of 2.0 mEq/L",
+   "Sodium of 134 mEq/L"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Sodium 135-145; 134 is just below the range and is reported with the vomiting history.\n2. Potassium 4.1, chloride 100 and magnesium 2.0 are within range.\nFlip: with a sodium of 138, no result would be abnormal.",
+  "optionRationales": [
+   "Wrong: within 3.5-5.5.",
+   "Wrong: within 98-108.",
+   "Wrong: within 1.5-2.5.",
+   "Right: below the normal range."
+  ],
+  "strategy": "Compare with reference ranges",
+  "archetype": "interpret labs",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Sodium 135-145, potassium 3.5-5.5, chloride 98-108, magnesium 1.5-2.5 mEq/L"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0167",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Fluid risk in older adults",
+  "noteId": "np3-er-fluid-compartments",
+  "vignette": "A home health nurse supervises an assistant caring for an 84-year-old woman who lives alone and had loose stools yesterday. The weather is hot. She says she is 'not thirsty' and wants only tea. The assistant asks if it is all right to let her drink only when she feels like it.",
+  "stem": "Which instruction should the nurse give?",
+  "options": [
+   "Offer fluids regularly, since older adults sense thirst weakly",
+   "Let her drink only when thirsty, because thirst reliably shows her needs",
+   "Limit fluids to avoid more loose stools and watch her weight weekly",
+   "Offer only caffeinated tea because it is what she likes and drinks"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Older adults have less muscle (less body water) and a weaker thirst sensation, so they dehydrate quickly.\n2. With diarrhea and heat, regular offering of fluids is needed; restricting fluids or relying on thirst would worsen dehydration.\nFlip: for an adult with heart failure on fluid restriction, offering would follow the limit.",
+  "optionRationales": [
+   "Right: regular fluids.",
+   "Wrong: thirst is unreliable in older adults.",
+   "Wrong: restricts a needed intake.",
+   "Wrong: fails to offer a variety of fluids; caffeine adds losses."
+  ],
+  "strategy": "Age-related risk",
+  "archetype": "weak thirst",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Older adults have a weaker thirst sensation",
+   "Infants about 80% water"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0168",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Respiratory acidosis in chronic lung disease",
+  "noteId": "np3-er-respiratory-acidosis",
+  "vignette": "A client with COPD and pneumonia has thick secretions. His ABG shows pH 7.30 and PaCO2 62 mmHg. He is drowsy with RR 28 and has been lying flat watching television. Oxygen at 2 L/min by cannula is running. His daughter wants to turn the oxygen up because his lips look dusky.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Increase the oxygen to 6 L/min to remove the duskiness of his lips",
+   "Lay him flat to rest and reassess after he has slept for a few hours",
+   "Sit him upright, clear secretions and keep the ordered low oxygen flow",
+   "Restrict fluids to avoid thickening of the pulmonary secretions further"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Respiratory acidosis means CO2 retention from poor ventilation; the priorities are airway and breathing: upright position, clear secretions, hydrate to thin them, and give oxygen cautiously in chronic lung disease.\n2. High oxygen can depress breathing in CO2 retainers; lying flat and restricting fluids worsen ventilation and secretions.\nFlip: for a healthy post-operative client with low saturation, higher oxygen would be appropriate.",
+  "optionRationales": [
+   "Wrong: unsafe in a CO2 retainer.",
+   "Wrong: worsens ventilation and delays rescue.",
+   "Right: improves ventilation and respects oxygen safety.",
+   "Wrong: fluids (2-3 L/day) thin secretions."
+  ],
+  "strategy": "Airway and breathing; cautious oxygen",
+  "archetype": "airway first with oxygen caution",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Respiratory acidosis: airway and breathing first, hydrate, cautious oxygen",
+   "PaCO2 above 60 is severe"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0169",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Alkalosis: anxiety or hypoxia",
+  "noteId": "np3-er-respiratory-alkalosis",
+  "vignette": "A woman on day 2 after abdominal surgery is breathing fast and deep and complains of tingling around her mouth and fingers. She says she feels 'strange and frightened.' ABG shows pH 7.52 and PaCO2 28 mmHg. Her temperature is 38.4 C and her pulse is 118. The nursing assistant says she is just anxious.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Coach slow breathing and reassure her that the feeling is anxiety",
+   "Give the PRN anti-anxiety medicine to stop the fast breathing",
+   "Have her breathe into a paper bag until the tingling stops",
+   "Check her oxygen saturation and assess for hypoxia or infection"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Respiratory alkalosis is always caused by over-breathing; causes include anxiety, but also pain, fever, hypoxia and sepsis.\n2. Fever and tachycardia after surgery raise the possibility of sepsis; the nurse stays calm but first checks oxygenation and looks for the cause.\n3. Coaching, sedation or rebreathing may hide a serious problem; paper-bag rebreathing is no longer advised in many settings.\nFlip: after hypoxia and sepsis are excluded, coaching slow breathing becomes the main intervention.",
+  "optionRationales": [
+   "Wrong: right action, wrong time.",
+   "Wrong: treats the symptom and may mask hypoxia.",
+   "Wrong: outdated and may worsen hypoxia.",
+   "Right: exclude hypoxia and sepsis while calming."
+  ],
+  "strategy": "Do not assume anxiety",
+  "archetype": "look for the cause before calming",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Respiratory alkalosis: high pH, low PaCO2, always over-breathing",
+   "Exclude low oxygen and sepsis before assuming anxiety"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0170",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Alkalosis from NG suction",
+  "noteId": "np3-er-metabolic-alkalosis",
+  "vignette": "A client with continuous nasogastric suction for 3 days has weakness, muscle cramps, tingling and shallow slow breathing. His ABG shows pH 7.52 and bicarbonate 34 mEq/L, and his potassium and chloride are low. The provider orders sodium chloride with potassium chloride. His wife offers to bring an antacid for his stomach discomfort.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Give the antacid his wife brought because it will settle his stomach",
+   "Check breathing and rhythm, give the replacement, watch the IV site",
+   "Clamp the nasogastric tube to stop further loss of acid",
+   "Start the potassium rapidly so that the cramps stop quickly"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Suction removes stomach acid and chloride, causing metabolic alkalosis with low potassium and chloride; the kidney needs chloride to excrete extra bicarbonate.\n2. Breathing and rhythm come first (shallow breathing, hypokalemia); replace chloride and potassium as ordered, check the IV site for infiltration and confirm urine output.\n3. Antacids add base; clamping the tube or running potassium fast is unsafe.\nFlip: if suction were stopped and losses ended, oral intake could be resumed.",
+  "optionRationales": [
+   "Wrong: antacids worsen alkalosis.",
+   "Right: monitor, replace and watch safety.",
+   "Wrong: unsafe without an order.",
+   "Wrong: potassium must not be given fast."
+  ],
+  "strategy": "Replace what was lost, safely",
+  "archetype": "replace chloride and potassium safely",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Vomiting and suction remove acid and chloride",
+   "Give chloride and potassium; do not give potassium fast"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0171",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Hypercalcemia teaching",
+  "noteId": "np3-er-hypercalcemia",
+  "vignette": "A 68-year-old woman with bone cancer has a high calcium level. She tells the nurse her plans: drink plenty of fluids unless restricted, walk daily with her walker, ask her doctor about her calcium-containing antacid, and keep taking the extra vitamin D tablets her neighbor recommended.",
+  "stem": "Which plan shows the need for further teaching?",
+  "options": [
+   "Drinking plenty of fluids",
+   "Walking daily with her walker",
+   "Asking her doctor about her calcium antacid",
+   "Continuing the extra vitamin D tablets"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Hydration helps the kidneys excrete calcium and mobility reduces bone release; immobility raises calcium.\n2. Calcium or vitamin D supplements and calcium-containing antacids are not given without clarification, so continuing the vitamin D is the error.\nFlip: for hypocalcemia, calcium and vitamin D would be given as ordered.",
+  "optionRationales": [
+   "Correct: promotes excretion.",
+   "Correct: mobility lowers calcium.",
+   "Correct: clarifies a risky product.",
+   "Right: unsafe in hypercalcemia."
+  ],
+  "strategy": "Avoid calcium and vitamin D supplements",
+  "archetype": "needs further teaching",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Do not give calcium or vitamin D supplements without clarification",
+   "Immobility raises calcium; hydrate"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0172",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Match ABG to history",
+  "noteId": "np3-er-abg-basics",
+  "vignette": "A student nurse reviews four ABGs and asks which belongs to a client who has had nasogastric suction for three days. Result A: pH 7.30, PCO2 62, bicarbonate 26. Result B: pH 7.52, PCO2 28, bicarbonate 24. Result C: pH 7.28, PCO2 38, bicarbonate 14. Result D: pH 7.51, PCO2 46, bicarbonate 33.",
+  "stem": "Which result matches this client?",
+  "options": [
+   "Result A",
+   "Result D",
+   "Result B",
+   "Result C"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Suction removes stomach acid, causing metabolic alkalosis: high pH with high bicarbonate (pH and bicarbonate move the same way).\n2. A is respiratory acidosis, B respiratory alkalosis, C metabolic acidosis.\nFlip: for a client with severe diarrhea, result C would match.",
+  "optionRationales": [
+   "Wrong: respiratory acidosis.",
+   "Right: metabolic alkalosis.",
+   "Wrong: respiratory alkalosis.",
+   "Wrong: metabolic acidosis."
+  ],
+  "strategy": "Link numbers to the client",
+  "archetype": "pattern recognition",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Metabolic alkalosis: high pH with high bicarbonate",
+   "ROME: respiratory opposite, metabolic equal"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0173",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Comparable weights",
+  "noteId": "np3-er-x-fluid-monitoring",
+  "vignette": "The morning weight of a client with edema is recorded as 4 kg lower than yesterday, but he looks more swollen and his urine output has been low. The nurse learns that yesterday's weight was taken on the bed scale without a gown and today's on the standing scale in a bathrobe and slippers.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Re-weigh him on the same scale in similar clothing",
+   "Report that the client lost 4 kg and stop the diuretic",
+   "Record the weight as it is, since scale differences are small",
+   "Increase his oral fluids because a large weight loss has occurred"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Daily weight is the most reliable simple sign of fluid change only when measured at the same time, on the same scale and in similar clothing.\n2. The apparent loss conflicts with his appearance and low urine output, so the measurement is the likely error.\nFlip: if the scale and clothing were identical, the loss would be reported as a true change.",
+  "optionRationales": [
+   "Right: standardise before interpreting.",
+   "Wrong: acts on an unreliable number.",
+   "Wrong: skips verification.",
+   "Wrong: acts on an unreliable number."
+  ],
+  "strategy": "Reliable measurement",
+  "archetype": "measure correctly before interpreting",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Weigh at the same time, on the same scale, in similar clothing",
+   "1 kg gain is about 1 L fluid"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0174",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Hidden sodium in over-the-counter products",
+  "noteId": "np3-er-fve",
+  "vignette": "A client with fluid volume excess from heart failure is on a low-sodium diet and furosemide. At discharge teaching she says she will weigh daily, read food labels, elevate her legs, and take an effervescent antacid tablet for heartburn because it is not a prescribed drug.",
+  "stem": "Which statement shows a need for further teaching?",
+  "options": [
+   "Weighing herself every morning before breakfast",
+   "Reading food labels for hidden salt content",
+   "Taking an effervescent antacid for heartburn",
+   "Elevating her legs to ease the swelling at night"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Clients with fluid excess must restrict sodium and avoid over-the-counter drugs that contain sodium, such as effervescent preparations.\n2. Daily weights, label reading and leg elevation support fluid control.\n3. Stating that the tablet is not prescribed shows she does not appreciate its sodium.\nFlip: a non-sodium alternative approved by the provider would be acceptable.",
+  "optionRationales": [
+   "Correct: daily weight is the best simple sign.",
+   "Correct: sodium restriction.",
+   "Right: hidden sodium.",
+   "Correct: comfort and edema care."
+  ],
+  "strategy": "Hidden sodium",
+  "archetype": "evaluate teaching",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Restrict sodium and avoid over-the-counter drugs containing sodium",
+   "Weigh daily"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0175",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Preparing for a peritoneal exchange",
+  "noteId": "np3-er-peritoneal-dialysis",
+  "vignette": "A nurse is about to start a peritoneal dialysis exchange. The dialysate bag has just come from a cold storage room, the client says his bladder feels full, and he has not had a bowel movement for 2 days. The client is anxious about cramping during inflow.",
+  "stem": "What should the nurse do before starting the exchange?",
+  "options": [
+   "Start the exchange now since it is already late for his schedule",
+   "Have him empty his bladder and bowel, and warm the dialysate",
+   "Use the cold dialysate as it is, to speed up the filtering of waste",
+   "Add a laxative to the dialysate to relieve his constipation"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Before PD, the bladder and bowel are emptied to avoid puncture of these organs, and the dialysate is warmed (warming dilates peritoneal vessels and reduces cramping).\n2. Starting with a full bladder or cold solution increases risk and discomfort; additives are given only by order.\nFlip: with a drain bag only to empty and no inflow, preparation would be different.",
+  "optionRationales": [
+   "Wrong: skips preparation.",
+   "Right: emptying and warming.",
+   "Wrong: cold fluid causes cramps.",
+   "Wrong: unsafe additive without an order."
+  ],
+  "strategy": "Prevent puncture, cramping and discomfort",
+  "archetype": "prevent complications",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Empty bladder and bowel before PD; warm the dialysate",
+   "Strict asepsis"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ }
+]

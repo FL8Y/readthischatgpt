@@ -1,0 +1,766 @@
+[
+ {
+  "id": "np4-or-bone-anatomy",
+  "area": "NP4",
+  "title": "Bone Anatomy, Bone Cells and Remodeling",
+  "body": "## What it is\nThe adult skeleton has 206 bones. Knowing the vocabulary lets you decode exam stems about fractures, osteoporosis and bone tumors.\n\n## Must-know facts\n- Four bone shapes: long (weight bearing and movement), short (spongy core with a thin hard shell), flat (make blood cells and shield vital organs) and irregular (shapes matched to their job).\n- Three bone cells, easy to mix up:\n  - Osteoblasts build: they lay down bone matrix.\n  - Osteocytes maintain: mature cells sitting in small pockets (lacunae).\n  - Osteoclasts break down: large multinucleated cells that dissolve and reabsorb bone.\n- Parts of a long bone: the shaft is the diaphysis; the two ends are the epiphyses; the periosteum is the tough outer covering; the endosteum lines the marrow cavity; marrow sits in the medullary cavity; cartilage with no blood supply caps the ends; the osteon is the working unit of hard (cortical) bone.\n- Ossification is how the matrix is made hard: calcium and phosphorus crystals bind to collagen fibers. Osteogenesis (bone formation) starts before birth.\n- Remodeling is the constant, simultaneous resorption and new bone formation that keeps bone strong. The handout says the whole skeleton turns over about every 10 years in adults.\n\n## What keeps bone healthy\n- Weight-bearing activity stimulates bone formation.\n- Enough dietary calcium.\n- Hormones: calcitriol (active vitamin D), parathyroid hormone, calcitonin, thyroid hormone, cortisol, growth hormone, estrogen and testosterone.\n\n## How the exam asks about it\nExpect \"which cell is responsible for...\". Think: blast builds, clast crushes, cyte keeps. A disease where clasts outpace blasts (osteoporosis, Paget's) thins or disorganises bone.\n\n## Related topics\n[[Fracture Healing Stages]], [[Osteoporosis]], [[Paget's Disease of Bone]], [[Osteomalacia]]",
+  "tags": [
+   "musculoskeletal",
+   "anatomy",
+   "bone"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Anatomy",
+   "Bone formation",
+   "Bone maintenance"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-fracture-healing",
+  "area": "NP4",
+  "title": "Fracture Healing Stages",
+  "body": "## What it is\nA broken bone heals by \"union\" in four overlapping stages. Questions usually ask which stage a client is in or how long full recovery takes.\n\n## The four stages in order\n1. Hematoma formation: blood pools at the break and clots to a semi-solid mass; cells clear dead tissue and debris.\n2. Callus formation: a fibrin network forms around the injury. The damaged periosteum makes osteoblasts that lay down soft new bone (osteoid), and minerals begin collecting in a collagen callus.\n3. Calcification: the callus starts to harden and gives real support. Per the handout it is usually calcified within about 6 weeks.\n4. Remodeling: extra cell material is reabsorbed and bone returns to its original strength and shape. Stress and exercise help this stage. Complete remodeling can take 6 months to 1 year.\n\n## Nursing meaning\n- Pain and swelling early on are expected; unrelieved pain out of proportion is not (see [[Compartment Syndrome and Cast Complications]]).\n- Protein, calcium and vitamin C support healing (stated for traction clients in the handout).\n- Weight-bearing limits matter because the callus is not yet strong: follow the prescribed limits.\n\n## Memory aid\nH-C-C-R: Hematoma, Callus, Calcification, Remodeling (made up by this note, not from the handout).\n\n## Related topics\n[[Fractures: Types and Emergency Management]], [[Bone Anatomy, Bone Cells and Remodeling]], [[Cast Care and Neurovascular Checks]]\n\n## Check against your textbook\nThe 6-week and 6-month-to-1-year timings are rough and vary with the bone and the client's age.",
+  "tags": [
+   "musculoskeletal",
+   "fracture",
+   "healing"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Bone healing"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-joints-muscles",
+  "area": "NP4",
+  "title": "Joint Types, Muscle Contraction and Muscle Tone",
+  "body": "## Joint classification\n- Synarthrosis: immovable (skull sutures).\n- Amphiarthrosis: slightly movable (vertebral joints, symphysis pubis).\n- Diarthrosis: freely movable (synovial joints). Subtypes:\n  - Ball-and-socket: full freedom of movement (hip, shoulder).\n  - Hinge: bends one direction only (elbow, knee).\n  - Saddle: movement in two planes at right angles (base of the thumb).\n  - Pivot: rotation, such as forearm bones turning a doorknob.\n  - Gliding: limited movement in all directions (wrist carpal bones).\n\n## Supporting structures\n- Synovium lines the joint capsule and makes lubricating, shock-absorbing synovial fluid.\n- Ligaments are fibrous bands that bind bone to bone.\n- A bursa is a fluid-filled sac that cushions tendons, ligaments and bones where they rub. Inflamed bursae are covered in [[Bursitis and Tendinitis]].\n\n## Muscle contraction\n- Muscle fibers hold myofibrils made of sarcomeres, the contractile units. A nerve signal at the motor end plate triggers contraction, and ATP supplies the energy.\n- Isometric: muscle length stays the same but tension rises (pushing against a wall). Used for immobilised limbs.\n- Isotonic: muscle shortens with no change in tension (bending the forearm).\n\n## Muscle tone and disuse\n- Flaccid = limp, no tone. Spastic = more tone than normal.\n- Hypertrophy = bigger fibers (not more fibers). Atrophy = shrinking muscle.\n- Clients limit the harm of immobility with isometric exercise of the immobilised part, quadriceps-setting and gluteal-setting, which protect the big walking muscles (see [[Range of Motion Exercises]]).",
+  "tags": [
+   "musculoskeletal",
+   "anatomy",
+   "joints",
+   "muscle"
+  ],
+  "priority": "low",
+  "outlineRefs": [
+   "Articular system",
+   "Skeletal muscle contraction",
+   "Muscle tone",
+   "Exercise, disuse, and repair"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-ms-imaging",
+  "area": "NP4",
+  "title": "Musculoskeletal Imaging and Bone Scan",
+  "body": "## What it is\nCommon imaging for bone, joint and soft tissue problems, with the nursing points the exam likes.\n\n## Test by test\n- X-ray: shows bone density, texture, erosion and how bones line up.\n- CT: detailed slices of a specific plane; can show soft tissue tumors and ligament or tendon injury. Client must stay still.\n- MRI: magnets and radio waves show soft tissue. Metal implants, clips and pacemakers usually exclude the client. Contrast may be used, so ask about allergies. The machine knocks rhythmically; claustrophobic clients may need sedation.\n- Arthrography: contrast dye or air is injected into the joint. Afterwards an elastic compression bandage is applied as ordered and the joint is usually rested about 12 hours.\n- Bone densitometry: estimates bone mineral density with x-rays or ultrasound (the test behind [[Osteoporosis]] diagnosis).\n- Bone scan: a bone-seeking radioisotope is given and scanning happens 2 to 3 hours later. It detects primary or metastatic bone tumors, osteomyelitis, some fractures and aseptic necrosis.\n\n## Priority nursing actions\n- Safety first: screen for pregnancy, claustrophobia, inability to hold the required position, metal implants, and allergies to contrast or isotope (assess before the procedure).\n- For a bone scan: encourage plenty of fluids to help spread and clear the isotope, and have the client empty the bladder first because a full bladder blurs pelvic bone images.\n\n## Related topics\n[[EMG, Biopsy, Arthroscopy and Arthrocentesis]], [[Osteomyelitis]], [[Bone Tumors]]\n\n## Check against your textbook\nThe handout says the isotope is injected \"into the joint\" and, in the same list, mentions a sterile dressing after aspiration and infection risk; these lines look misplaced from the arthrocentesis section. Bone scan isotope is normally given by vein. The handout also lists a pregnancy contraindication for several tests; confirm per test.",
+  "tags": [
+   "musculoskeletal",
+   "diagnostics",
+   "imaging"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Diagnostic tests: X-ray, CT, MRI, arthrography, bone densitometry, bone scan"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-ms-procedures",
+  "area": "NP4",
+  "title": "EMG, Biopsy, Arthroscopy and Arthrocentesis",
+  "body": "## Electromyography (EMG)\n- Records electrical activity of muscles and the nerves feeding them; used for weakness, pain and disability.\n- Needle electrodes go into chosen muscles and responses are shown on a screen. Warm compresses ease soreness afterwards.\n\n## Biopsy\n- Removes bone marrow, bone, muscle or synovium to define a disease.\n- Afterwards watch the site for swelling, bleeding, pain and infection. Ice as ordered controls bleeding and swelling; give analgesics.\n\n## Arthroscopy\n- Direct look inside a joint with a scope, in the operating room under sterile conditions with local or general anesthesia. Can also treat tears and defects.\n- Possible complications: infection, bleeding into the joint (hemarthrosis), neurovascular compromise, thrombophlebitis, stiffness, effusion, adhesions, delayed wound healing.\n- After the procedure: compression dressing, ice, keep the joint extended and elevated, monitor and document neurovascular status, give analgesics, and teach permitted activities and exercises.\n\n## Arthrocentesis (joint aspiration)\n- A needle removes synovial fluid to examine it or to relieve pain from an effusion, using aseptic technique.\n- Normal fluid is clear, pale straw-colored and scanty. Cloudy fluid points to inflammation, as in [[Rheumatoid Arthritis]]; urate crystals confirm [[Gout]].\n- Anti-inflammatory medicine may be injected; apply a sterile dressing afterwards.\n\n## Priority thinking\nAssess neurovascular status and bleeding first, then comfort, then teaching.\n\n## Related topics\n[[Musculoskeletal Imaging and Bone Scan]], [[Osteoarthritis]]",
+  "tags": [
+   "musculoskeletal",
+   "diagnostics",
+   "procedures"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Electromyography",
+   "Biopsy",
+   "Arthroscopy",
+   "Arthrocentesis"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-cast-types",
+  "area": "NP4",
+  "title": "Cast Types and Casting Materials",
+  "body": "## What it is\nA cast is a rigid external device molded to the body to hold a reduced fracture still. A \"mold\" or posterior half-shell is used instead of a full circular cast when there is infection, swelling or an open wound.\n\n## Purposes\nImmobilise a reduced fracture, correct deformity, spread even pressure over soft tissue, and support weak joints.\n\n## Naming pattern (the exam logic)\n- Circular = closed fracture. Posterior mold = same bone plus wound, swelling or infection. Bone-with-callus versions are the weight-bearing or functional casts.\n- Trunk: collar (cervical spine); body cast (lower thoracic and upper lumbar spine); Minerva (cervical and upper dorsal spine); Risser's jacket (thoracolumbar spine, scoliosis); shoulder spica (upper humerus and shoulder joint); sugar tong (humerus with wound or swelling).\n- Upper limb: short arm (carpals and metacarpals); long arm (radius and ulna); hanging cast (humeral shaft); airplane cast (humeral neck, recurrent shoulder dislocation); thumb spica (first metacarpal).\n- Lower limb: short leg (tarsals, metatarsals); walking cast (same, with callus); long leg (tibia-fibula); patellar tendon bearing (tibia-fibula with callus); cylinder (patella); cast brace (distal femur and proximal tibia with callus).\n- Hip: single hip spica (one hip and one femur); one-and-a-half spica (two hips, one femur); double hip spica (two hips, two femurs); pantalon cast (pelvis); frog cast (congenital hip dysplasia).\n- Others from the handout: internal rotator board (post hip surgery, keeps knee adducted); night splint (post-polio contractures, worn at night only).\n\n## Casting materials\n- Fiberglass: light, strong, durable, water resistant, costly, dries in about 10 to 15 minutes, weight bearing in about 30 minutes.\n- Plaster of Paris: cheaper, molds better, less durable, needs 24 to 72 hours to dry fully.\n- Equipment: stockinette, wadding, bandage, trimming knife, cast spreader, cast cutter, bandage scissors.\n\n## Cast techniques\n- Windowing: a hole over a wound for inspection, dressing and medicine.\n- Bivalving: cutting the cast into two halves to relieve tightness, allow x-ray or inspection.\n- Reinforcing: re-applying plaster when a wet cast loses strength.\n\n## Related topics\n[[Cast Care and Neurovascular Checks]], [[Spica and Body Cast Care]], [[Splints and Braces]]\n\n## Check against your textbook\nSeveral cast names in the handout are misspelled (Risser, Delbet, Munster); the Delbet cast and Munster cast details were not repeated here because spellings and indications vary by source.",
+  "tags": [
+   "musculoskeletal",
+   "cast",
+   "orthopedics"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Patient in a cast: definition, purposes, types of casts, casting materials, instruments"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-cast-care",
+  "area": "NP4",
+  "title": "Cast Care and Neurovascular Checks",
+  "body": "## What it is\nCore nursing care for any client in a cast, splint or brace. The big theme is catching circulation and nerve problems early.\n\n## Priority nursing actions\n- Assess neurovascular status before the cast goes on and regularly after (assess first).\n- Prepare the client: a plaster cast gets warm as it sets, which is normal.\n- Dry plaster in open air; do not cover it. Handle a damp cast with the palms, not fingertips, and rest it on soft surfaces so it does not dent.\n- Elevate the limb to heart level, apply intermittent ice if ordered, and give analgesics.\n- Follow weight-bearing limits.\n- Itching: blow cool air with a hair dryer; never push objects inside the cast. Pad rough edges with tape.\n- Pain not relieved by elevation and analgesics must be reported at once: it can mean compartment syndrome or a pressure ulcer. Unrelieved pain can lead to paralysis and tissue death.\n\n## Normal neurovascular findings\nLittle swelling, little discomfort, pink color, warm skin, fast capillary refill, normal sensation, and ability to move fingers or toes.\n\n## The \"P\" list\nPain, pallor, pulselessness, paresthesia, paralysis, poikilothermia (cold limb), poor capillary refill and poor hair growth in the handout.\n\n## Report promptly\nUncontrolled swelling or pain; cool, pale fingers or toes; tingling or numbness; paralysis; pus staining the cast; signs of general infection; a broken cast.\n\n## Related topics\n[[Compartment Syndrome and Cast Complications]], [[Cast Types and Casting Materials]], [[Splints and Braces]]\n\n## Check against your textbook\nTextbooks usually teach five or six P's; the handout's eight include \"poor hair growth\", which is a chronic sign. Verify which list your school uses.",
+  "tags": [
+   "musculoskeletal",
+   "cast",
+   "neurovascular",
+   "priority"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Nursing management for casts",
+   "Eight P's",
+   "Nurse management (splints/braces)"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-cast-complications",
+  "area": "NP4",
+  "title": "Compartment Syndrome and Cast Complications",
+  "body": "## Compartment syndrome\n- Pressure rises inside a closed muscle space, squeezing blood vessels and nerves so tissue loses blood supply.\n- Warning sign: pain that is not relieved by elevation or analgesics, plus the neurovascular changes listed in [[Cast Care and Neurovascular Checks]].\n- Management in the handout: bivalve the cast while keeping alignment; keep the limb at no higher than heart level so arteries still deliver blood; a fasciotomy may be needed to release the muscle compartment. Notify the physician immediately.\n- Volkmann's contracture is a specific result: fingers and wrist become fixed when arterial flow to the forearm is blocked. The damage is permanent.\n\n## Pressure ulcers under a cast\n- Common sites: heel, ankle bones (malleoli), top of the foot, head of the fibula, front of the kneecap, inner elbow (medial epicondyle), ulnar styloid.\n- Clues: pain and tightness, a warm spot on the cast (inflamed tissue below), drainage staining with odour. Window or bivalve the cast.\n\n## Disuse syndrome\nMuscle wasting and weakness from immobilisation. Prevent it with muscle-setting (isometric) exercises: quadriceps-setting and gluteal-setting.\n\n## Footdrop\nPressure on the peroneal nerve (outside of the knee) causes footdrop: the foot cannot stay flexed and the client drags it when walking. Check toe movement and foot sensation.\n\n## Care of immobilised limbs\n- Arm: rest periods, elevate to control swelling, sling when walking, frequent neurovascular checks.\n- Leg: support on pillows at heart level, ice for a day or two over the fracture if ordered, elevate when seated, lie down several times a day with the leg raised to help venous return.\n\n## Related topics\n[[Fractures: Types and Emergency Management]], [[Spica and Body Cast Care]], [[Skeletal Traction Care and Complications]]",
+  "tags": [
+   "musculoskeletal",
+   "cast",
+   "emergency",
+   "priority"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Complication: Compartment syndrome",
+   "Pressure ulcers",
+   "Disuse syndrome",
+   "Immobilized extremities: upper and lower",
+   "Volkmann's contracture",
+   "Footdrop"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-spica-cast",
+  "area": "NP4",
+  "title": "Spica and Body Cast Care",
+  "body": "## What it is\nA spica or body cast encloses the trunk and, in a spica, one or both legs (or the shoulder). It immobilises the spine, pelvis or hip. Handout types: single hip spica, one-and-a-half spica (two hips and one thigh), double hip spica (two hips, two thighs), and hip spica mold when there is an open wound, inflammation or swelling.\n\n## Must-know facts\n- Cast syndrome (superior mesenteric artery syndrome) can develop in a client in a large body cast. It has a physical form with bowel obstruction or ileus, and a psychological form similar to a claustrophobic reaction.\n- The perineal opening must be large enough for hygiene care (toileting).\n- An abdominal window may need to be enlarged if the abdomen is restricted.\n\n## Assessment\n- Bowel sounds every 4 to 8 hours.\n- Abdominal distention, nausea, vomiting.\n- Skin around cast edges; neurovascular status of the legs.\n- Breathing and anxiety.\n\n## Priority nursing actions\n- Turn the client as a single unit, toward the unaffected side, every 2 hours (relieves pressure, lets the cast dry, keeps alignment).\n- Turn prone twice daily if tolerated, for postural drainage of the bronchial tree and relief of back pressure.\n- Inspect skin around cast edges often for irritation.\n- Keep the perineal area clean and dry.\n- Do not use the abdominal bar to lift or turn a client (beyond handout; textbook check).\n- Report abdominal distention, nausea or vomiting at once.\n\n## Treatment and medications (general terms)\nFor cast syndrome: decompression with a nasogastric tube to suction, IV fluids until gut movement returns, and enlargement of the abdominal window if it restricts.\n\n## Complications and red flags\nCast syndrome, pressure ulcers, respiratory problems from immobility, skin irritation, constipation, and psychological distress.\n\n## Client teaching\nTeach caregivers how to turn, clean the perineal area, keep the cast dry, and report vomiting, abdominal swelling or numbness.\n\n## How the exam asks about it\nCast syndrome signs (distention, nausea, vomiting) and the first response (notify physician; NPO may be needed). Turning method: as a unit.\n\n## How to reason about it\nImmobile + tight cast -> gut compression -> ileus; assess the abdomen regularly; act early.\n\n## Related topics\n[[Cast Types and Casting Materials]], [[Cast Care and Neurovascular Checks]], [[Developmental Dysplasia of the Hip]]\n\n## Check against your textbook\nHip spica use for infants and a frog cast for hip dysplasia is in the handout list but not the care section; confirm.",
+  "tags": [
+   "musculoskeletal",
+   "cast",
+   "spica"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Nursing management for patient with spica body cast",
+   "Cast syndrome"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-splints-braces",
+  "area": "NP4",
+  "title": "Splints and Braces",
+  "body": "## What it is\nSplints and braces are removable external supports. Splints hold a body part in a functional position for short-term use in conditions that do not need rigid immobilisation; they must be well padded to prevent pressure, abrasion and skin breakdown. Braces give mechanical support to weak muscles, joints and bones during rehabilitation, control movement and prevent more injury; they are for longer use.\n\n## Must-know facts\nSplint examples (handout):\n- Cock-up splint: wrist drop.\n- Banjo splint: peripheral nerve injury.\n- Oppenheimer splint: radial nerve injury.\n- Lively finger splint: finger fracture.\n- Arm sling: supports the affected upper limb.\n- Shoulder strap: scoliosis.\n\nBrace examples (handout):\n- Collar brace (Schantz, Philadelphia): cervical spine.\n- Four-poster brace: cervical and upper thoracic spine.\n- SOMI brace (sterno-occipito-mandibular immobiliser): neck/cervical area; Forester brace: cervico-thoraco-lumbar.\n- Knight-Taylor brace: upper thoracic spine.\n- Chair-back brace: lumbosacral spine.\n- Jewett brace: dorsolumbar and upper lumbar spine.\n- Milwaukee brace: scoliosis, curves at T9 and below.\n- Yamamoto brace: scoliosis, curves at T9 and above.\n- Scottish Rite brace: Legg-Calve-Perthes (coxa plana).\n- Long leg brace: poliomyelitis with residual paralysis.\n- Short leg brace: clubfoot.\n- Dennis Browne shoe: congenital clubfoot (talipes equinovarus).\n\n## Assessment\nNeurovascular status before application; skin integrity; pain; the client's understanding.\n\n## Priority nursing actions\n- Assess neurovascular status (circulation, movement, sensation) before and after application (assess first).\n- Explain the condition, purpose and expected sights, sounds and sensations before application.\n- Pad bony areas; check skin often under and around the device.\n- Evaluate pain; unrelieved pain must be reported at once to avoid paralysis and tissue death.\n- Normal: minimal edema and discomfort, pink warm skin, fast capillary refill, normal sensation, and movement of fingers or toes.\n\n## Treatment and medications (general terms)\nAnalgesics as ordered; the device is part of the treatment plan.\n\n## Complications and red flags\nPressure ulcers, nerve compression, circulation problems, loss of function through disuse.\n\n## Client teaching\nWear schedule, skin care, signs of poor circulation, and keep up exercises.\n\n## How the exam asks about it\nMatching devices to conditions (cock-up = wrist drop; Milwaukee = scoliosis; Dennis Browne = clubfoot). Also first nursing action: check circulation.\n\n## How to reason about it\nSplint = short term and light; brace = long term and structural. Always check skin and circulation.\n\n## Related topics\n[[Scoliosis]], [[Legg-Calve-Perthes Disease]], [[Cast Care and Neurovascular Checks]], [[Cast Types and Casting Materials]]\n\n## Check against your textbook\nThe handout's brace-to-level mappings (Milwaukee T9 and below, Yamamoto above) and SOMI/Forester grouping are unusual; verify.",
+  "tags": [
+   "musculoskeletal",
+   "splint",
+   "brace"
+  ],
+  "priority": "low",
+  "outlineRefs": [
+   "Patient in splints and braces",
+   "Examples of splints",
+   "Examples of braces"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-external-fixator",
+  "area": "NP4",
+  "title": "External Fixator Care",
+  "body": "## What it is\nAn external fixator holds a broken bone in position using pins placed through the skin into the bone, joined to a rigid frame outside the body. The frame keeps the pins aligned. The handout lists it for open fractures with soft tissue damage and for severe comminuted (crushed or splintered) fractures, because it keeps the bone stable while soft tissue wounds can still be treated.\n\n## Must-know facts\n- The fracture is reduced, aligned and immobilised through pins attached to a portable frame.\n- The nurse never adjusts the clamps on the frame; only the physician does.\n- Sharp ends of pins or the frame are capped to prevent injury to the client or others.\n\n## Assessment\n- Neurovascular status of the limb every 2 to 4 hours (colour, warmth, pulses, capillary refill, movement, sensation).\n- Pin sites: redness, drainage, tenderness, pain, loosening.\n- Swelling and pain control.\n- Temperature and signs of infection.\n\n## Priority nursing actions\n- Elevate the extremity after application to reduce swelling.\n- Keep neurovascular checks frequent.\n- Pin-site care: clean each site separately, one or two times a day, with cotton-tipped applicators soaked in chlorhexidine solution (handout).\n- Report signs of infection or loose pins or clamps to the physician.\n- Encourage isometric and active exercise as tolerated.\n- Do not use the frame as a handle to lift or turn the client.\n\n## Treatment and medications (general terms)\nAnalgesics, antibiotics for infection or open wounds, wound dressing, physical therapy.\n\n## Complications and red flags\n- Pin-site infection (redness, pus, odor, fever), loose pins, nerve or vessel injury, compartment syndrome, delayed bone healing.\n- Report pain not relieved by elevation and medication.\n\n## Client teaching\nKeep the pin sites clean, never adjust the frame, watch for infection signs, protect the frame from knocks, and do the exercises taught.\n\n## How the exam asks about it\nA direct question: \"who adjusts the clamps?\" Also pin-care solution, frequency of neurovascular checks, and recognising infection signs.\n\n## How to reason about it\nPins pass through skin into bone, so infection is the main risk; assess first, clean carefully, and never change the frame.\n\n## Related topics\n[[Fractures: Types and Emergency Management]], [[Skeletal Traction Care and Complications]], [[Cast Care and Neurovascular Checks]]\n\n## Check against your textbook\nThe handout names chlorhexidine; some units use saline or other agents per local policy.",
+  "tags": [
+   "musculoskeletal",
+   "fixator",
+   "fracture"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "The patient with an external fixator"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-traction-basics",
+  "area": "NP4",
+  "title": "Traction Principles and Types",
+  "body": "## What it is\nTraction is a steady pulling force on part of the body. It reduces muscle spasm, aligns and holds fractures, corrects deformity and widens joint spaces.\n\n## Rules that decide most questions\n- Traction must be continuous to work. Skeletal traction is never interrupted and weights are not removed unless intermittent traction is ordered. The only reason to take weights off skeletal traction is a life-threatening emergency.\n- Keep body alignment: the client centered in bed.\n- Keep ropes clear of obstruction, weights hanging freely (not touching bed or floor), and knots away from the pulley and foot of the bed.\n\n## Types\n- Skin traction: pull applied to the skin through tape, wraps or boots. Non-invasive. Weight must stay within the skin's tolerance. See [[Skin Traction Types and Care]].\n- Skeletal traction: a pin or wire is placed directly in the bone. Invasive. See [[Skeletal Traction Care and Complications]].\n- Manual traction: hands pull temporarily, for example while a cast is applied, skin is cared for under a boot, or equipment is adjusted.\n\n## Priority approach\nWhen a problem appears (client slipped down, weights on floor), first restore alignment and the line of pull, then assess neurovascular status.\n\n## Related topics\n[[Balanced Suspension Traction]], [[Fractures: Types and Emergency Management]]",
+  "tags": [
+   "musculoskeletal",
+   "traction",
+   "priority"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "The patient in traction",
+   "Principles",
+   "Types of traction"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-skin-traction",
+  "area": "NP4",
+  "title": "Skin Traction Types and Care",
+  "body": "## What it is\nSkin traction pulls through the skin to muscle and then bone. It controls muscle spasm and immobilises an area before surgery.\n\n## Adhesive types (tape or elastic wrap)\n- Dunlop: supracondylar fracture of the humerus.\n- Zero-degree: surgical neck of the humerus and shoulder joint.\n- Buck's extension: lower leg skin traction for hip and femur problems; keep the leg neutral.\n- Bryant: hip or femur problems in young children (handout says under 3 years).\n- Boot cast traction: post-polio paralysis of hip and knee.\n\n## Non-adhesive types (canvas, straps, slings)\n- Head halter: cervical spine.\n- Pelvic girdle: lumbosacral spine, herniated disc.\n- Cotrel: scoliosis (head halter plus pelvic girdle).\n- Hammock suspension: pelvic fractures.\n- Bohler-Braun splint: supports the lower leg for proximal and middle thirds of tibia-fibula fractures.\n\n## Priority nursing actions\n- Keep the tape or bandage smooth and prevent slipping so pull and countertraction stay correct.\n- Skin: remove the foam boot to inspect the skin, ankle and Achilles tendon three times a day; give back care at least every 2 hours; use air or high-density foam overlays.\n- Nerve: investigate any burning sensation under the boot or bandage immediately.\n- Circulation: check the foot within 15 to 30 minutes of application and then every 1 to 2 hours, looking at pulses, color, capillary refill and temperature.\n\n## Related topics\n[[Traction Principles and Types]], [[Cast Care and Neurovascular Checks]]\n\n## Check against your textbook\nBryant traction is generally used for infants and toddlers (often under 2 years or about 30 lb); the handout says under 3 years.",
+  "tags": [
+   "musculoskeletal",
+   "traction",
+   "skin"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Skin traction",
+   "Adhesive skin traction: Dunlop, zero degrees, Buck's, Bryant, boot cast",
+   "Non-adhesive skin traction: head halter, pelvic girdle, Cotrel, hammock suspension, Bohler Braun splint",
+   "Skin breakdown, nerve damage, circulatory impairment"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-skeletal-traction",
+  "area": "NP4",
+  "title": "Skeletal Traction Care and Complications",
+  "body": "## What it is\nA metal pin or wire goes through the bone beyond the fracture, away from nerves, vessels, muscle, tendons and joints. It uses heavy weight (the handout says 7 to 12 kg) and lets the limb hang off the bed while still allowing some movement.\n\n## Types by device or site\n- Kirschner wire: radius and ulna (thinner than Steinmann's pin).\n- Steinmann pin: humerus, femur, tibia, fibula.\n- Crutchfield tongs: cervical spine, placed in the skull's parietal area.\n- Balanced suspension: hip and femur. Overhead traction: supracondylar humerus fracture. 90-90 traction: femoral fractures. Halo-pelvic and halo-femoral: scoliosis. Stove-in: massive rib fracture.\n\n## Priority nursing actions\n- Maintain alignment; prevent footdrop, inward rotation and outward rotation of the leg.\n- Protect elbows and heels from pressure.\n- Neurovascular checks at least hourly for the first 4 hours.\n- Pin site care once or twice daily, chlorhexidine preferred (water or saline alternatives); inspect pin sites every 8 hours for reaction and infection.\n- Calf-pumping and active ankle exercise 10 times an hour while awake to cut venous stasis; stockings, compression devices or anticoagulants as ordered.\n- Never remove weights unless life-threatening.\n\n## Complications and the matching action\n- Atelectasis and pneumonia: listen to lungs every 4 to 8 hours; teach deep breathing and coughing.\n- Constipation and loss of appetite: fiber, fluids, stool softeners or suppositories as ordered; honour food preferences.\n- Urinary stasis and infection: encourage fluids.\n- DVT: watch for calf tenderness, warmth, redness and swelling in one leg.\n\n## Related topics\n[[Traction Principles and Types]], [[Balanced Suspension Traction]], [[External Fixator Care]], [[Osteomyelitis]]\n\n## Check against your textbook\nThe handout says halo-pelvic is for C-type scoliosis and halo-femoral for S-type; verify before relying on it. Halo traction is also commonly taught for cervical spine injury.",
+  "tags": [
+   "musculoskeletal",
+   "traction",
+   "skeletal",
+   "priority"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Skeletal traction: Kirschner, Steinmann, Crutchfield, balanced suspension, overhead, 90-90, halo-pelvic, halo-femoral, Stove-in",
+   "Traction nursing interventions",
+   "Complications of traction"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-balanced-suspension",
+  "area": "NP4",
+  "title": "Balanced Suspension Traction",
+  "body": "## What it is\nBalanced suspension holds a fractured femur or hip with weights while the leg floats, so the client can move a little without upsetting the pull.\n\n## Equipment\n- Ropes: short thigh rope, long traction rope, longest suspension rope.\n- Foot board or foot pedal to support the foot and prevent footdrop.\n- Slings: wider and longer for the thigh, shorter for the leg.\n- Splints or attachments: Thomas splint with half ring, Pearson attachment, rest splint.\n- Two weight bags: traction weight is 10% of body weight; suspension weight is half of the traction bag, per the handout.\n\n## Checking whether it is working\nHave the client flex the unaffected leg, hold the overhead trapeze, and swing the affected leg forward and backward and side to side. Free movement means weights hang freely.\n\n## Principles\n- Avoid friction: ropes run in the pulley groove, knots stay away from pulleys.\n- Continuous pull: check bags and ropes for wear, weights must hang freely.\n- Line of pull in line with the deformity: first pulley at the groin, second at the knee.\n- Countertraction comes from the client's own body weight; position supine.\n\n## Nursing interventions\n- Hygiene and skin care; keep linen wrinkle- and crumb-free; back care; overhead trapeze to lift buttocks.\n- Exercises: deep breathing and coughing, toe dorsiflexion and plantar flexion, active ROM to the unaffected limb, quadriceps-setting for the affected leg.\n- Prevent hypostatic pneumonia, pressure sores, contractures, constipation and UTI (fluids, fiber, bedpan at regular times).\n- Aseptic technique and sterile dressings at pin sites; offer diversion; give protein, vitamin C and calcium.\n\n## Related topics\n[[Skeletal Traction Care and Complications]], [[Traction Principles and Types]], [[Range of Motion Exercises]]\n\n## Check against your textbook\nThe weight formulae are from the handout; confirm against current protocol and the physician's order.",
+  "tags": [
+   "musculoskeletal",
+   "traction",
+   "femur"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Balanced skeletal traction: equipment, principles, nursing interventions"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-total-hip",
+  "area": "NP4",
+  "title": "Total Hip Replacement Care",
+  "body": "## What it is\nReplacement of a badly damaged hip with an artificial joint. Reasons in the handout: osteoarthritis, rheumatoid arthritis, femoral neck fracture, failed earlier prosthesis, osteotomy problems and Legg-Calve-Perthes disease.\n\n## Priority nursing actions\n- Prevent dislocation (the signature exam topic): keep the femoral head seated in the socket.\n  - Keep the leg in abduction using an abduction splint, wedge pillow, or 2 to 3 pillows between the legs.\n  - Never flex the hip more than 90 degrees.\n  - Use high-seat chairs, semi-reclining wheelchairs and raised toilet seats.\n  - No crossing the legs; no bending at the waist to put on shoes and socks.\n  - If dislocation is suspected, notify the surgeon immediately.\n- Monitor wound drainage: 200 to 500 mL in the first hours is expected; report more than expected.\n- Prevent DVT: anti-embolism stockings; watch for calf pain, swelling and tenderness; anticoagulants such as fondaparinux or low-molecular-weight heparin (enoxaparin, dalteparin) as ordered.\n- Prevent infection: pre-op skin preparation, antibiotic about 60 minutes before incision, avoid infection sources, and prophylactic antibiotics before future invasive procedures. A persistent prosthesis infection may need implant removal.\n- Promote ambulation: chair transfers several times a day, walking farther step by step.\n\n## Related topics\n[[Total Knee Replacement and Joint Surgery Basics]], [[Osteoarthritis]], [[Rheumatoid Arthritis]], [[Legg-Calve-Perthes Disease]]\n\n## Check against your textbook\nPositioning limits depend on the surgical approach; follow the surgeon's order. The drainage figure is from the handout.",
+  "tags": [
+   "musculoskeletal",
+   "surgery",
+   "hip",
+   "priority"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Patient undergoing orthopedic surgery",
+   "Total hip replacement"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-total-knee",
+  "area": "NP4",
+  "title": "Total Knee Replacement and Joint Surgery Basics",
+  "body": "## What it is\nTotal knee replacement (arthroplasty) swaps the damaged joint surfaces of the knee for artificial parts. The handout considers it for severe pain and loss of function because the joint surfaces are destroyed by osteoarthritis or rheumatoid arthritis.\n\n## Must-know facts\n- Joint replacement in general: preventing infection and promoting walking are the two big nursing themes.\n- Infection prevention: skin preparation often starts a day or two before surgery; a prophylactic antibiotic is given about 60 minutes before incision; the joint may be cultured during surgery. A persistent infection of the prosthesis usually means the implant must be removed and the joint revised.\n- Ambulation: help the client reach independent walking; transfer to a chair several times a day for short periods and walk progressively farther.\n- A continuous passive motion (CPM) machine gently bends and straightens the knee to improve circulation and range of motion.\n\n## Assessment\n- Neurovascular status of the operated leg (colour, warmth, pulses, sensation, movement).\n- Dressing and drain output; swelling and bleeding.\n- Pain level; calf pain, redness or swelling (DVT signs).\n- Temperature and wound appearance for infection.\n\n## Priority nursing actions\n- Check neurovascular status regularly (assess first, circulation protects the limb).\n- Keep the compression bandage on; apply ice if ordered to reduce swelling and bleeding.\n- Encourage active flexion of the foot every hour while awake to keep blood moving.\n- Maintain the wound suction drain, which removes fluid collecting in the joint; record the amount. If heavy bleeding is expected, an autotransfusion system may be used.\n- Use the CPM device as ordered to increase circulation and knee motion.\n- Prevent DVT and infection (see [[Total Hip Replacement Care]] for anticoagulant and stocking points).\n\n## Treatment and medications (general terms)\nPerioperative antibiotics, anticoagulants and compression stockings, analgesics, physical therapy.\n\n## Complications and red flags\n- Infection, DVT or pulmonary embolism, excessive bleeding, nerve or vessel compromise, stiffness.\n- Sudden chest pain or shortness of breath after surgery is an emergency.\n\n## Client teaching\nDo ankle pumps, follow weight-bearing and exercise plan, report fever, drainage or increasing pain, and tell every future caregiver about the implant so antibiotics can be given before procedures.\n\n## How the exam asks about it\nPurpose of CPM and drain; prevention of infection (timing of antibiotics); first thing to check after surgery (neurovascular).\n\n## How to reason about it\nSurgical joint -> bleeding, infection, clots, stiffness -> compress, drain, cultivate circulation, move early.\n\n## Related topics\n[[Total Hip Replacement Care]], [[Osteoarthritis]], [[Rheumatoid Arthritis]], [[Range of Motion Exercises]]\n\n## Check against your textbook\nThe handout gives no weight-bearing schedule or CPM settings; these are surgeon-specific.",
+  "tags": [
+   "musculoskeletal",
+   "surgery",
+   "knee"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Total knee replacement",
+   "Preventing infection and promoting ambulation"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-amputation",
+  "area": "NP4",
+  "title": "Amputation Care",
+  "body": "## What it is\nRemoval of a body part, usually a limb, to relieve symptoms or improve quality of life.\n\n## Causes\nPeripheral vascular disease (often diabetes), gas gangrene, crush injuries, burns, frostbite, electrical burns, gunshot injuries, congenital defects, chronic osteomyelitis, malignant tumor.\n\n## Level choice\nThe most distal level that will still heal; considers blood supply, prosthesis type, function and muscle balance. Levels: above/below elbow; above knee, knee disarticulation, below knee, Syme.\n\n## Complications\nHemorrhage, infection, skin breakdown from the prosthesis, phantom limb pain (nerves cut), joint contracture.\n\n## Priority nursing actions\n- Massive bleeding: keep a large tourniquet visible at the bedside and notify the surgeon of excessive bleeding.\n- Infection: antibiotics as ordered, gentle washing of the healed stump at least twice a day, mark drainage on the bandage to see if it grows.\n- Pain: opioids for surgical pain; light sandbag on the stump for spasm.\n- Phantom sensations are real: acknowledge them, let the client talk, stay active, distraction, desensitisation massage; local anesthetics, beta-blockers or antidepressants may be ordered.\n- Edema: elastic compression wrap. Shape the stump conically for a good prosthetic fit; sockets are adjusted in the first 6 months to 1 year.\n- Prevent contractures: avoid hip abduction, external rotation and flexion; no pillow under the residual limb; lie prone and turn side to side; keep legs together; early ROM.\n- Body image and grief: invite the client to look at, touch and care for the stump; support grieving.\n- Safety: well-fitting non-skid shoes; remove environmental barriers.\n\n## Related topics\n[[Range of Motion Exercises]], [[Osteomyelitis]], [[Canes and Crutch Safety]]\n\n## Check against your textbook\nHandout lists \"beta-blockers for burning discomfort\" and a sandbag for spasm; treatment of phantom pain varies.",
+  "tags": [
+   "musculoskeletal",
+   "surgery",
+   "amputation",
+   "priority"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Amputation: causes, levels, complications, nursing interventions"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-rom",
+  "area": "NP4",
+  "title": "Range of Motion Exercises",
+  "body": "## What it is\nRange-of-motion (ROM) exercises move each joint through its full normal movement to keep joints flexible and muscles working. The three kinds in the handout differ in who does the moving.\n\n## Must-know facts\n- Active ROM: the client moves every joint through its full range by their own muscles (isotonic exercise). Stretches all muscle groups across each joint.\n- Passive ROM: another person (the nurse) moves each of the client's joints through the full range; the client does no work.\n- Active-assistive ROM: the client uses the stronger arm or leg to move a weaker limb that cannot move on its own. This builds activity on the strong side and keeps the weak side flexible.\n- Progression: clients who need passive ROM after a disability should aim to advance to active-assistive and finally active ROM.\n\n## Assessment\n- Current mobility, strength and pain at each joint.\n- Spasticity, contractures or swelling.\n- Skin and neurovascular status of the limb.\n\n## Priority nursing actions\nActive ROM guidelines:\n- Move to the point of slight resistance, never to discomfort.\n- Use the same order each session.\n- Do each exercise three times.\n- Do the series twice daily.\n\nPassive ROM guidelines (safety and prevent injury):\n- Support the limb above and below the joint, cupping the joint in the palm or cradling the limb along your forearm.\n- Never force a part beyond its present range.\n- If spasticity occurs, pause, keep slow gentle pressure until the muscle relaxes, then continue.\n\n## Treatment and medications (general terms)\nROM is a nursing and physical therapy measure; analgesia before ROM may be ordered if pain limits it.\n\n## Complications and red flags\n- Pain, sudden swelling, joint instability or a limb that looks deformed: stop and report.\n- Skipping ROM leads to contractures and muscle atrophy.\n\n## Client teaching\nTeach the client and family the sequence, to stop at slight resistance, and to keep doing them at home.\n\n## How the exam asks about it\nWhich type is described (who moves the joint) and the safety rule about not forcing a joint. Early postoperative ROM after amputation prevents contractures (see [[Amputation Care]]).\n\n## How to reason about it\nChoose the type by the client's ability: can't move = passive; partly = assistive; able = active. Always: support, slow, stop at resistance.\n\n## Related topics\n[[Joint Types, Muscle Contraction and Muscle Tone]], [[Amputation Care]], [[Total Knee Replacement and Joint Surgery Basics]]\n\n## Check against your textbook\nThe handout lists repetition counts (three times, twice daily) for active ROM only; confirm any other schedule.",
+  "tags": [
+   "musculoskeletal",
+   "rehabilitation",
+   "rom"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Providing range of motion exercises"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-canes-crutch-safety",
+  "area": "NP4",
+  "title": "Canes and Crutch Safety",
+  "body": "## What it is\nCanes and crutches are assistive devices that share weight and balance for clients with leg weakness, pain, or after injury or surgery.\n\n## Must-know facts\nCanes:\n- Two kinds: standard (straight-legged) and quad cane (four feet, gives the most support).\n- Hold the cane on the stronger side of the body for the best support and alignment.\n- Place the tip about 15 cm (6 in) to the side and 15 cm (6 in) in front of the nearer foot, with the elbow slightly bent.\n- Move the cane and the weak leg forward together while the strong leg takes the weight. Then move the strong leg while the cane and weak leg take the weight.\n\nCrutches:\n- Types: underarm (axillary) and Lofstrand (forearm, extends only to the forearm).\n- Weight goes on the hands and arms, not on the armpits. Constant pressure in the axilla injures the radial nerve and causes crutch palsy (weakness of forearm, wrist and hand muscles).\n- Keep an upright posture to avoid muscle strain.\n\n## Assessment\n- Strength, balance and weight-bearing status of each leg.\n- Skin and nerve function of the axilla and hands.\n- Home hazards.\n\n## Priority nursing actions\nMeasuring (safety and fit):\n- Method 1: lying down, measure from the front fold of the armpit to the heel, then add 2.5 cm (1 in).\n- Method 2: standing, elbow bent about 30 degrees; shoulder rest about 2.5 to 5 cm (1 to 2 in), roughly three finger widths, below the armpit.\n- Check the fit before the client leaves, and have the client practise before leaving the unit.\n- Teach to push through hands.\n- Non-skid shoes; clear floors.\n\n## Treatment and medications (general terms)\nNot applicable; devices prescribed by physician or therapist.\n\n## Complications and red flags\n- Crutch palsy: tingling or weakness of the hand or wrist.\n- Falls; underarm skin breakdown; incorrect height causing back strain.\n\n## Client teaching\nHands carry weight, armpit pad is not to be leaned on, keep tip dry and rubber tips intact, report numbness.\n\n## How the exam asks about it\nWhich hand holds the cane (stronger side), what injury arises from leaning on crutches (radial nerve palsy), how to measure.\n\n## How to reason about it\nStability and nerve protection come first: cane on strong side; weight on hands, not axilla.\n\n## Related topics\n[[Crutch Gaits and Stair Climbing]], [[Range of Motion Exercises]], [[Total Hip Replacement Care]]\n\n## Check against your textbook\nSome texts place the cane on the side opposite the weak leg; this matches \"strong side\" in the handout. Verify with your instructor's standard.",
+  "tags": [
+   "musculoskeletal",
+   "mobility",
+   "cane",
+   "crutches"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Assistive devices: canes",
+   "Crutches: kinds, principles, measuring"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-crutch-gaits",
+  "area": "NP4",
+  "title": "Crutch Gaits and Stair Climbing",
+  "body": "## What it is\nCrutch gaits are set walking patterns chosen from how much weight a leg can bear and how strong and balanced the client is. A tripod (triangle) stance is the starting position.\n\n## Must-know facts\n- Tripod stance: crutches about 15 cm (6 in) in front of the feet and 15 cm to the side.\n- Four-point gait: the most basic and safest. At least three points are always on the ground. Used in crowds. Needs weight on both legs.\n  1. Right crutch forward.\n  2. Left foot forward.\n  3. Left crutch forward.\n  4. Right foot forward.\n- Three-point gait: two crutches plus the unaffected leg bear weight in turn. Step 1: move both crutches and the weaker leg together. Step 2: move the stronger leg.\n- Two-point alternate gait: faster than four-point but needs more balance because only two points support the body. Needs partial weight on each foot. Left crutch with right foot, then right crutch with left foot.\n- Swing-to gait: used by clients with paralysis of the legs and hips. Easier of the two swing gaits. Move both crutches ahead, lift the body weight on the arms and swing to the crutches. Prolonged use causes atrophy of unused muscles.\n- Swing-through gait: needs skill, strength and coordination. Both crutches forward, lift body weight, swing through and beyond the crutches.\n\n## Assessment\nWeight-bearing order, balance, arm strength, stamina, and ability to follow steps.\n\n## Priority nursing actions\n- Choose the safest gait the order allows; start with four-point if unsure.\n- Stair climbing: unaffected leg goes up first, then crutches and affected leg join it (\"up with the good\").\n- Stair descent: crutches and affected leg go down first, then the unaffected leg (\"down with the bad\").\n- The affected leg is always supported by the crutches on stairs.\n- Stand guard on the weaker side while the client practises.\n\n## Treatment and medications (general terms)\nNot applicable; gait set by therapist or physician.\n\n## Complications and red flags\nFalls, crutch palsy, arm fatigue, loss of balance on stairs.\n\n## Client teaching\nPractise on a flat surface first, wear non-skid shoes, remove rugs, and use rails where possible.\n\n## How the exam asks about it\nMatch the gait to the situation: paralysis = swing-to; no weight on one leg = three-point; most stable = four-point. Stairs: up with good, down with bad.\n\n## How to reason about it\nStability first: the more points on the ground, the safer; progress as strength allows.\n\n## Related topics\n[[Canes and Crutch Safety]], [[Total Hip Replacement Care]], [[Range of Motion Exercises]]\n\n## Check against your textbook\nThe handout says three-point gait uses \"weaker leg\" with both crutches; weight bearing orders differ. Confirm patterns with your skills text.",
+  "tags": [
+   "musculoskeletal",
+   "mobility",
+   "crutches",
+   "gait"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Crutch stance and gaits",
+   "Going up and down stairs"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-low-back-pain",
+  "area": "NP4",
+  "title": "Low Back Pain",
+  "body": "## What it is\nLow back pain is pain in the lumbosacral area. Causes in the handout: acute lumbosacral strain, unstable lumbosacral ligaments, weak back muscles, osteoarthritis of the spine, spinal stenosis, disk problems, unequal leg length and obesity.\n\n## Must-know facts\n- Most back pain is self-limiting and clears within about 4 weeks with analgesics and rest.\n- Pain management is the priority.\n- Pain that radiates down the leg (radiculopathy or sciatica) signals nerve involvement.\n\n## Assessment\n- Pain location, radiation into the leg, and aggravating movements.\n- Leg strength and sensation (nerve involvement).\n- Increased tone of back postural muscles; loss of the normal lumbar curve; possible spinal deformity.\n- Weight, posture, work and lifting habits.\n\n## Priority nursing actions\n- Relieve pain first (goal one); promote mobility and weight reduction.\n- Avoid twisting, bending, lifting and reaching, which stress the back; use proper body mechanics.\n- Change positions often; limit sitting to 20 to 50 minutes at a time.\n- Bed rest only briefly: 2 days, up to 4 days if pain is severe. Use a bed board rather than a soft mattress. Avoid the prone position.\n- Report new leg weakness or numbness promptly.\n\n## Treatment and medications (general terms)\n- Acetaminophen and NSAIDs (for example ibuprofen); muscle relaxants.\n- Tricyclic antidepressants (for example amitriptyline) help chronic back pain.\n- Opioids (morphine, tramadol) and benzodiazepines may be used for severe pain, with caution.\n- Non-drug: superficial heat; chiropractic manipulation; acupuncture, massage and yoga help chronic back pain but not acute back pain.\n\n## Complications and red flags\n- Leg weakness or numbness, loss of bowel or bladder control, or severe constant pain need urgent medical review (beyond the handout).\n- Prolonged bed rest worsens weakness.\n\n## Client teaching\nCorrect lifting technique, strengthening and weight-loss program, bed board, change positions, and when to seek urgent care.\n\n## How the exam asks about it\nChoosing the correct position/activity advice (avoid prone, avoid long bed rest, avoid twisting), and recognising sciatica as nerve involvement.\n\n## How to reason about it\nMost cases resolve -> comfort and body mechanics; but nerve signs or sphincter problems escalate the priority.\n\n## Related topics\n[[Osteoarthritis]], [[Osteoporosis]], [[Splints and Braces]]\n\n## Check against your textbook\nThe handout's bed-rest days and sitting limits differ from some current guidelines that favour staying active; confirm with your text.",
+  "tags": [
+   "musculoskeletal",
+   "back",
+   "pain"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Low back pain"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-bursitis-tendinitis",
+  "area": "NP4",
+  "title": "Bursitis and Tendinitis",
+  "body": "## What it is\nBursae are small fluid-filled sacs that act as cushions where tendons, ligaments and bone rub against each other. A tendon is the cord that joins muscle to bone. Bursitis is inflammation of a bursa; tendinitis is inflammation of a tendon. Both are common around the shoulder, especially after overuse or repeated overhead movement. In the handout, the inflamed lining thickens (synovial proliferation) and forms pannus, an abnormal tissue layer that stiffens and restricts joint movement.\n\n## Must-know facts\n- The shoulder is the classic site tested.\n- Pain gets worse with movement of the joint, and the joint feels stiff or weak.\n- Pannus is the same word used in rheumatoid arthritis; here it simply means inflamed, thickened tissue limiting motion.\n- These are inflammatory problems, not infections or tumors, so the plan is calm the inflammation first.\n\n## Assessment\n- Location and character of pain, and what movement triggers it (reaching overhead, lifting).\n- Range of motion and strength of the shoulder compared with the other side.\n- Swelling, warmth or tenderness over the joint.\n- Daily activities or work that repeat the same motion.\n\n## Priority nursing actions\n- Rest the affected arm first: stopping the aggravating motion removes the cause and lets inflammation settle.\n- Apply ice and heat in turns (intermittent), as the handout states. Ice is usually used for acute swelling; heat for stiffness afterwards. Always protect the skin and limit each application.\n- Give NSAIDs as ordered to control pain and inflammation; give with food and watch for stomach upset.\n- Teach the client to avoid repetitive overhead motions while healing, then to restart gentle movement so the joint does not freeze.\n\n## Treatment and medications (general terms)\n- Rest, ice and heat, and NSAIDs are first-line.\n- If shoulder pain and weakness continue, arthroscopic synovectomy (a scope procedure to remove inflamed lining) may be considered.\n\n## Complications and red flags\n- Persistent weakness and pain despite rest suggests the problem is not settling and needs a doctor review.\n- Prolonged immobilisation can stiffen the shoulder, so rest is balanced with gentle movement.\n\n## Client teaching\n- Rest the shoulder, use ice or heat as taught, take NSAIDs with food.\n- Change work habits or equipment to avoid repeating the motion.\n- Return to activity gradually.\n\n## How the exam asks about it\nUsually as a short recognition item: which joint is commonly affected, what nursing measure is appropriate (rest, alternating ice and heat, NSAIDs). Distractors offer strenuous exercise or immobilising the arm for weeks.\n\n## How to reason about it\nOveruse -> inflamed bursa or tendon -> pain on movement -> rest and reduce inflammation first; surgery only if it does not improve. The trap is choosing vigorous exercise during the painful phase.\n\n## Related topics\n[[Joint Types, Muscle Contraction and Muscle Tone]], [[Rheumatoid Arthritis]], [[EMG, Biopsy, Arthroscopy and Arthrocentesis]]\n\n## Check against your textbook\nThe handout is brief on cause and does not say when to use ice versus heat; confirm the sequence your school teaches. Corticosteroid injections are common in practice but are not in the handout.",
+  "tags": [
+   "musculoskeletal",
+   "shoulder",
+   "inflammation"
+  ],
+  "priority": "low",
+  "outlineRefs": [
+   "Bursitis and tendinitis"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-carpal-tunnel",
+  "area": "NP4",
+  "title": "Carpal Tunnel Syndrome",
+  "body": "## What it is\nCarpal tunnel syndrome is an entrapment neuropathy: the median nerve is squeezed at the wrist. The squeeze comes from a thickened flexor tendon sheath, bone encroachment, swelling (edema) or a soft-tissue mass. It is common in women aged about 30 to 60 and is linked to repetitive hand and wrist movement, or to repeated exposure of the hands to cold, vibration or strong direct pressure.\n\n## Must-know facts\n- Median nerve supplies the thumb side of the hand, so symptoms are numbness, tingling (\"pins and needles\") and pain in the thumb, index and middle fingers.\n- Two bedside tests:\n  - Phalen's test: back of both hands pressed together, wrists held in forced flexion for a full minute. Numbness or tingling along the thumb side suggests median nerve entrapment. Stop at once if sharp pain occurs.\n  - Tinel's sign: light tapping over the median nerve on the inner wrist; tingling, numbness and pain means positive.\n\n## Assessment\n- Pattern of numbness and pain, worse at night or with repeated wrist movement.\n- Grip weakness, dropping objects.\n- Work and hobby activities, cold or vibration exposure.\n- Phalen's and Tinel's results.\n\n## Priority nursing actions\n- Teach wrist splints to keep the wrist from extreme flexion and extension (prevent aggravation).\n- After nerve release surgery, help with personal care and daily activities because the hand is limited.\n- Monitor circulation, movement and sensation of the hand after surgery.\n- Allow time: full recovery of movement and feeling may take weeks or months.\n\n## Treatment and medications (general terms)\n- Wrist splints, corticosteroids by injection or by mouth.\n- Surgery: traditional open release or endoscopic (laser) release are the two common options.\n\n## Complications and red flags\n- Permanent nerve damage and muscle wasting if left untreated.\n- After surgery: bleeding, infection, increasing numbness.\n\n## Client teaching\nWear splints as directed, adjust repetitive work tasks and tools, take rest breaks, and report worsening numbness or weakness.\n\n## How the exam asks about it\nName the nerve (median), the test (Phalen or Tinel) from the description, and the splint position. Often a woman with repetitive computer or manual work.\n\n## How to reason about it\nRepetitive motion -> swelling at the wrist -> median nerve squeezed -> numb thumb-side fingers; protect the wrist, then relieve pressure.\n\n## Related topics\n[[Ganglion and Dupuytren's Disease]], [[Bursitis and Tendinitis]], [[Splints and Braces]]\n\n## Check against your textbook\nThe handout says \"intra-articular corticosteroid injections\"; carpal tunnel injections are usually into the canal. It also gives no splint position; confirm neutral position in your text.",
+  "tags": [
+   "musculoskeletal",
+   "hand",
+   "nerve"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Carpal tunnel syndrome"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-ganglion-dupuytren",
+  "area": "NP4",
+  "title": "Ganglion and Dupuytren's Disease",
+  "body": "## What it is\nTwo hand conditions the handout groups together.\n\nGanglion: a collection of jelly-like material near a tendon sheath or joint that shows as a round, firm, cyst-like lump, usually on the back (dorsum) of the wrist.\n\nDupuytren's disease: slow, progressive tightening (contracture) of the palmar fascia, the tough tissue under the skin of the palm.\n\n## Must-know facts\n- Ganglion: round, firm lump, locally tender, may ache.\n- Dupuytren's: affects the fourth (ring) and fifth (little) fingers, often the middle finger too; the fingers curl into the palm and cannot be straightened, so the hand becomes more or less useless.\n- Dupuytren's is hereditary and common in men older than 50.\n- Early features of Dupuytren's: dull aching discomfort, morning numbness, cramping and stiffness in the affected fingers.\n\n## Assessment\n- Ganglion: size, location, tenderness, effect on wrist movement.\n- Dupuytren's: which fingers are bent, how far, hand grip and function, family history.\n- Neurovascular status of the hand after any treatment.\n\n## Priority nursing actions\n- Ganglion: after aspiration or excision, keep the compression dressing and immobilisation splint as ordered; monitor circulation, movement and sensation of the fingers (assess first).\n- Dupuytren's: after fasciectomy, monitor neurovascular status and wound, elevate the hand to reduce swelling, and support early hand exercises as ordered.\n- Teach the client what to expect so they do not try to \"burst\" a ganglion on their own.\n\n## Treatment and medications (general terms)\n- Ganglion: aspiration with a corticosteroid injection, or surgical removal, then compression and splint.\n- Dupuytren's: injections of a corticosteroid (for example triamcinolone) into the nodules may prevent contractures; once contracture develops, palmar and digital fasciectomies improve function.\n\n## Complications and red flags\n- Recurrence of the ganglion.\n- Loss of finger movement and grip that interferes with daily activities.\n- After surgery: pale, cold or numb fingers, uncontrolled pain, bleeding or infection.\n\n## Client teaching\nKeep the splint and dressing as instructed, move the uninvolved fingers, elevate the hand, report numbness or colour change, and attend follow-up.\n\n## How the exam asks about it\nMatch the finding to the disease: wrist lump = ganglion; ring and little finger curling in an older man = Dupuytren's.\n\n## How to reason about it\nLump versus contracture. Treatment aims at function; post-treatment nursing is mostly neurovascular checks and protection.\n\n## Related topics\n[[Carpal Tunnel Syndrome]], [[Bursitis and Tendinitis]], [[Splints and Braces]]\n\n## Check against your textbook\nThe handout is silent on how long immobilisation lasts and on non-surgical needling; confirm with your text.",
+  "tags": [
+   "musculoskeletal",
+   "hand"
+  ],
+  "priority": "low",
+  "outlineRefs": [
+   "Ganglion",
+   "Dupuytren's disease"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-osteoporosis",
+  "area": "NP4",
+  "title": "Osteoporosis",
+  "body": "## What it is\nPorous bone: lower bone mineral density and weakened structure, so fractures happen easily.\n\n## Risk factors\nWhite or Asian, female, after menopause, older age, low calcitonin, high phosphate, carbonated drinks, inactivity, lack of weight-bearing exercise; drugs that disturb calcium: corticosteroids, anti-seizure drugs, heparin, thyroid hormone.\n- Primary: women after menopause (about 45 to 55) plus failure to reach peak bone mass when young.\n- Secondary: caused by drugs or diseases (celiac disease, hypogonadism). Bariatric surgery and malabsorption raise risk because calcium is absorbed in the duodenum.\n\n## Findings\nLoss of height, kyphosis (\"dowager's hump\"), breathing problems, fractures of hip, vertebrae and wrist (Colles).\n\n## Diagnosis\nRoutine x-ray shows it only after 25 to 40% bone loss. DXA scan is the diagnostic test.\n\n## Treatment and priority nursing actions\n- Safety first: prevent falls (clear walkways, side rails, cane or walker), teach body mechanics, avoid activities that compress the spine.\n- Calcium about 1200 mg daily for older adults plus vitamin D; diet rich in protein, calcium, vitamins C and D, iron; avoid alcohol and coffee.\n- Weight-bearing exercise: 20 to 30 minutes, 3 or more days a week; strengthen back and abdominal muscles.\n- Drugs: bisphosphonates such as alendronate or risedronate; calcitonin (nasal or injection; avoid in seafood allergy; blocks osteoclasts); teriparatide (daily injection, builds bone via osteoblasts); estrogen or androgens may be ordered.\n- Vertebroplasty or kyphoplasty: bone cement into a fractured vertebra.\n\n## Related topics\n[[Bone Anatomy, Bone Cells and Remodeling]], [[Osteomalacia]], [[Paget's Disease of Bone]]\n\n## Check against your textbook\nHandout says carbonated drinks and high phosphate are risks, and lists estrogen; both are debated. Bisphosphonate teaching (upright, full glass of water, on an empty stomach) is textbook knowledge not in the handout.",
+  "tags": [
+   "musculoskeletal",
+   "bone",
+   "metabolic",
+   "priority"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Osteoporosis"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-osteomalacia",
+  "area": "NP4",
+  "title": "Osteomalacia",
+  "body": "## What it is\nOsteomalacia is a metabolic bone disease in which bone does not mineralise properly, so it becomes soft and weak. It is the adult counterpart of rickets. Compare with [[Osteoporosis]], where the amount of bone falls but what is there is normal.\n\n## Must-know facts\n- Primary defect: shortage of active vitamin D (calcitriol). Vitamin D normally helps the gut absorb calcium and helps bone take up calcium and phosphate. Without it, calcium and phosphate do not reach the bone sites where they should be laid down.\n- Causes in the handout:\n  - Malabsorption or excessive loss of calcium.\n  - GI disorders: celiac disease, chronic biliary obstruction, chronic pancreatitis, small bowel resection.\n  - Liver and kidney disease. Severe kidney failure causes acidosis; the body draws calcium from bone to buffer it, and parathyroid hormone releases skeletal calcium.\n  - Hyperparathyroidism (leads to decalcification).\n  - Long-term anti-seizure medicines such as phenytoin or phenobarbital.\n  - Too little vitamin D from food or sunlight, malnutrition.\n- Bone biopsy shows extra osteoid, a soft unmineralised matrix sometimes called \"prebone\".\n\n## Assessment\n- Bone pain and tenderness to touch.\n- Bowing of the bones, spinal kyphosis, and pathologic fractures.\n- Bowed legs, a waddling or limping gait.\n- X-ray: generalised loss of mineral.\n- Labs: low serum calcium and phosphorus; moderately raised alkaline phosphatase.\n\n## Priority nursing actions\n- Handle the client gently and support limbs: soft bones fracture easily (safety).\n- Give vitamin D and calcium as ordered; watch for signs of too much.\n- Encourage safe sun exposure if advised, since ultraviolet light converts a skin cholesterol substance (7-dehydrocholesterol) into vitamin D.\n- Fall-prevention and pain control.\n\n## Treatment and medications (general terms)\n- Treat the cause (for example malabsorption) with higher vitamin D and extra calcium.\n- Braces or surgery (osteotomy) may correct persistent deformities.\n\n## Complications and red flags\n- Pathologic fractures.\n- Vitamin D toxicity: high doses are toxic and raise the risk of hypercalcemia (nausea, confusion, polyuria; see [[Hypercalcemia]]).\n\n## Client teaching\nTake vitamin D and calcium exactly as ordered, do not self-increase doses, eat a balanced diet, get sun as advised, and report bone pain or new deformity.\n\n## How the exam asks about it\nCause-and-effect: vitamin D lack with a malabsorption or anticonvulsant history, low calcium/phosphorus, high alkaline phosphatase. The nursing alert on vitamin D toxicity is a favourite.\n\n## How to reason about it\nCause (low vitamin D) -> poor mineralisation -> soft, bowed, painful bones -> replace vitamin D and calcium carefully. Trap: assuming more vitamin D is always better.\n\n## Related topics\n[[Osteoporosis]], [[Paget's Disease of Bone]], [[Bone Anatomy, Bone Cells and Remodeling]]\n\n## Check against your textbook\nPhosphate and alkaline phosphatase patterns vary by cause. The handout gives no dose or lab numbers.",
+  "tags": [
+   "musculoskeletal",
+   "bone",
+   "vitamin D"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Osteomalacia"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-paget",
+  "area": "NP4",
+  "title": "Paget's Disease of Bone",
+  "body": "## What it is\nPaget's disease of bone (osteitis deformans) is a disorder of localised, abnormally fast bone turnover. The most commonly affected bones in the handout: skull, femur, tibia, pelvis and vertebrae. Osteoclasts (bone-dissolving cells) multiply and break down bone in people usually older than 50. The body then rebuilds in a disorganised \"mosaic\" pattern. The diseased bone is very vascular and structurally weak, so it fractures easily.\n\n## Must-know facts\n- Alkaline phosphatase is elevated; blood calcium is normal (handout).\n- X-rays confirm the diagnosis: local demineralisation and overgrowth in a mosaic pattern; long bones show cortical thickening.\n- Compare: [[Osteomalacia]] has low calcium; Paget's has normal calcium.\n\n## Assessment\n- Bone deformity: bowing of the femur and tibia, giving a waddling gait; enlarged skull (the hat no longer fits) with a small, triangular-looking face; bent, rigid spine.\n- Hearing loss when the skull bones compress the cranial nerve.\n- Bone pain, tenderness and warmth over affected bones (warm skin because the bone is highly vascular).\n- Pathologic fractures.\n\n## Priority nursing actions\n- Handle gently and protect from falls and fractures (safety).\n- Manage pain, usually responds to NSAIDs.\n- Gait problems: walking aids, shoe lifts and physical therapy.\n- Give calcitonin and other drugs as ordered; watch for side effects.\n- Teach a diet with adequate calcium and vitamin D (handout).\n\n## Treatment and medications (general terms)\n- Anti-osteoclastic drugs reduce bone turnover.\n- Calcitonin slows bone loss by reducing osteoclast number; side effects include facial blushing and nausea; benefit shows in 3 to 6 months as less bone loss and pain.\n- Plicamycin (a cytotoxic antibiotic) is mentioned in the handout: strong effect on pain, serum calcium and alkaline phosphatase, given by IV infusion.\n\n## Complications and red flags\nPathologic fractures, deafness, severe deformity; bone tumor risk (beyond the handout).\n\n## Client teaching\nTake medicines as ordered, report new bone pain, fractures, hearing change, use walking aids and fall precautions.\n\n## How the exam asks about it\nHat no longer fits plus raised alkaline phosphatase plus normal calcium; calcitonin side effect (blushing); bowed legs and waddling gait.\n\n## How to reason about it\nToo much osteoclast activity -> disorganised weak bone -> deformity, pain, fracture; slow turnover and protect the skeleton.\n\n## Related topics\n[[Osteoporosis]], [[Osteomalacia]], [[Bone Tumors]]\n\n## Check against your textbook\nPlicamycin is rarely used today and the handout may be dated; bisphosphonates are the usual drugs but are not in this handout.",
+  "tags": [
+   "musculoskeletal",
+   "bone"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Paget's disease"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-osteomyelitis",
+  "area": "NP4",
+  "title": "Osteomyelitis",
+  "body": "## What it is\nOsteomyelitis is an infection of bone causing inflammation, bone death (necrosis) and new bone formation. Bone infections are harder to cure than soft tissue infections because infected bone is largely avascular, out of reach of the immune system, and antibiotics penetrate poorly.\n\n## Must-know facts\nTypes (classification):\n- Hematogenous: spread by the blood.\n- Contiguous-focus: from bone surgery, an open fracture or trauma (for example a gunshot wound).\n- With vascular insufficiency: seen in diabetes and peripheral vascular disease, most often in the feet.\n\nCausative organism: Staphylococcus aureus is the commonest; others include streptococci, enterococci and Pseudomonas.\n\nRisk factors: poor nutrition, old age, obesity, weak immune system, chronic illness (diabetes, rheumatoid arthritis), long-term corticosteroids.\n\n## Assessment\n- Bloodborne form: sudden onset with signs of sepsis such as chills, high fever, rapid pulse and malaise.\n- Pulsating bone pain that worsens with movement because pus collects.\n- A nonhealing ulcer over the infected bone, with a sinus that drains pus from time to time.\n- Labs: leukocytosis and raised ESR.\n- Imaging: soft tissue swelling first; after about 2 to 3 weeks, periosteal elevation and bone necrosis. White-cell labelled bone scan and MRI help give an early diagnosis.\n\n## Priority nursing actions\n- Immobilise the part with a splint to reduce pain and muscle spasm and to prevent pathologic fracture.\n- Give IV antibiotics on time (start before blood supply drops from thrombosis).\n- Wound care using aseptic technique.\n- Monitor response, adverse drug effects and signs of superinfection.\n- Support nutrition and manage pain.\n\n## Treatment and medications (general terms)\n- IV antibiotics, begun assuming a staphylococcal organism sensitive to a penicillin or cephalosporin, for 3 to 6 weeks.\n- Surgery if chronic or not responding: debridement of dead bone, irrigation with saline, antibiotic-impregnated beads left in the wound for 2 to 4 weeks. All dead infected bone and cartilage must be removed before healing is permanent.\n\n## Complications and red flags\nSpread of infection (sepsis), pathologic fracture, chronic infection, amputation.\n\n## Client teaching\nComplete the full antibiotic course, wound care, nutrition, diabetes control, and report fever, drainage or pain.\n\n## How the exam asks about it\nOrganism (Staph aureus), IV antibiotic duration, who is at risk, and the sign of chronic infection (draining sinus).\n\n## How to reason about it\nBone has little blood -> infection persists -> prolonged IV antibiotics and removal of dead bone; protect the weak bone.\n\n## Related topics\n[[Fractures: Types and Emergency Management]], [[Musculoskeletal Imaging and Bone Scan]], [[Amputation Care]]\n\n## Check against your textbook\nThe handout's \"within the isotope-labeled WBC scan\" line is garbled; check which imaging is favoured. Penicillin-allergic clients need different antibiotics.",
+  "tags": [
+   "musculoskeletal",
+   "infection",
+   "bone",
+   "priority"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Osteomyelitis"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-rheumatoid-arthritis",
+  "area": "NP4",
+  "title": "Rheumatoid Arthritis",
+  "body": "## What it is\nRheumatoid arthritis (RA) is a systemic inflammatory disease affecting many joints, usually in a symmetrical pattern. It is thought to arise from a faulty immune response (autoimmune). The main attack is on the synovial membrane, the lining of the joint, but other organs can be involved. It can begin at any age, brings fatigue and prolonged stiffness after rest, and has no cure.\n\n## Must-know facts\n- In the joint, white blood cells release enzymes that break down collagen. This causes swelling, thickening of the synovium and finally pannus, an invading tissue that erodes cartilage and bone and can deform the joint.\n- Pain, swelling and redness are common joint signs.\n- Compare with [[Osteoarthritis]]: RA is systemic, symmetrical, inflammatory and any age; OA is wear-and-tear and local.\n\n## Assessment\n- Bilateral, symmetrical stiffness, tenderness, swelling and warmth of joints.\n- Fatigue and stiffness after rest.\n- X-ray: bony erosions and narrowed joint spaces.\n- Joint fluid (arthrocentesis): cloudy, milky or dark yellow with many inflammatory cells such as leukocytes and complement (see [[EMG, Biopsy, Arthroscopy and Arthrocentesis]]).\n- Function in daily activities.\n\n## Priority nursing actions\n- Help the client keep as much independence as possible.\n- Teach accurate medication taking and the use of adaptive devices.\n- Teach the disease, expected changes, treatment plan, drug side effects, how to keep function, and home safety.\n- Pain control and rest of inflamed joints, balanced with movement.\n\n## Treatment and medications (general terms)\n- Corticosteroids and NSAIDs.\n- Non-biologic DMARDs (disease-modifying antirheumatic drugs), then biologic DMARDs if the response is poor.\n- The modern approach is aggressive: start non-biologic DMARDs within three months of diagnosis.\n\n## Complications and red flags\n- Joint deformity and loss of function.\n- Drug effects: infection risk with immune-suppressing drugs, stomach bleeding with NSAIDs, steroid effects.\n- Involvement of heart, lungs or eyes (beyond the handout).\n\n## Client teaching\nTake medicines exactly as prescribed, report fever or signs of infection, use joint-protection and adaptive devices, and plan activity around the stiffest time of day.\n\n## How the exam asks about it\nDistinguish from OA and gout; recognise symmetric small-joint disease; teaching that there is no cure but early drug therapy limits damage.\n\n## How to reason about it\nAutoimmune attack on synovium -> inflammation -> erosion; control inflammation early and protect function. Trap: treating it like simple wear and tear.\n\n## Related topics\n[[Osteoarthritis]], [[Gout]], [[Total Knee Replacement and Joint Surgery Basics]]\n\n## Check against your textbook\nThe handout's treatment paragraph about drug order is garbled; confirm current stepwise therapy in your text.",
+  "tags": [
+   "musculoskeletal",
+   "arthritis",
+   "autoimmune",
+   "priority"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Rheumatoid arthritis"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-osteoarthritis",
+  "area": "NP4",
+  "title": "Osteoarthritis",
+  "body": "## What it is\nOsteoarthritis (OA), also called degenerative joint disease, is the most common form of arthritis. Cartilage and the bone beneath it in a joint wear down, and extra bone grows at the edges. The handout describes it as \"wear and tear\" related to ageing, caused by a mix of mechanical and molecular events in the joint. There is no cure.\n\n## Must-know facts\n- Most affected joints: knees, hips, hands and spine.\n- Onset is gradual and usually after age 40.\n- Pain and stiffness are the main problems; treatment aims at relieving symptoms and improving function.\n- It is not an autoimmune disease, unlike [[Rheumatoid Arthritis]].\n\n## Assessment\n- Joint pain that builds with use and eases with rest.\n- Stiffness, reduced range of motion, and limited function.\n- Bony enlargement of the affected joints.\n- Weight, activity level and home safety.\n\n## Priority nursing actions\n- Pain relief and best possible function are the two major goals.\n- Weight reduction and exercise are the key approaches to reduce pain and disability. Begin exercise such as walking in moderation and increase slowly.\n- Joint rest and avoiding overuse protect the joint.\n- Refer to physical therapy or an exercise group; consider a cane or other assistive device (hold it on the stronger side).\n- Orthotic devices, splints or braces support painful joints.\n\n## Treatment and medications (general terms)\n- First analgesic: acetaminophen.\n- NSAIDs and COX-2 blockers when needed.\n- Intra-articular corticosteroid injections.\n- Joint replacement may be used for severe disease (see [[Total Hip Replacement Care]] and [[Total Knee Replacement and Joint Surgery Basics]]).\n\n## Complications and red flags\n- Progressive loss of mobility and independence.\n- Falls from pain or weakness.\n- Stomach and kidney effects of NSAIDs; watch for bleeding signs.\n\n## Client teaching\n- Lose weight if overweight, rest sore joints, keep moving gently.\n- Use heat as comfort measure, aids as needed.\n- Take pain medicines as prescribed and report stomach upset.\n\n## How the exam asks about it\nContrast with RA: OA is older age, gradual, wear-and-tear, no systemic illness, first-line acetaminophen. Asked about nursing priority (pain relief, weight loss, exercise).\n\n## How to reason about it\nCartilage loss -> pain with use -> reduce load (weight, rest, aids) while keeping joints moving. Trap: advising complete bed rest or heavy exercise.\n\n## Related topics\n[[Rheumatoid Arthritis]], [[Gout]], [[Canes and Crutch Safety]], [[Total Hip Replacement Care]]\n\n## Check against your textbook\nMorning stiffness length and exact drug order differ across references; the handout does not give them.",
+  "tags": [
+   "musculoskeletal",
+   "arthritis",
+   "degenerative"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Osteoarthritis"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-gout",
+  "area": "NP4",
+  "title": "Gout",
+  "body": "## What it is\nGout is a rheumatic disease caused by a purine-metabolism defect that produces hyperuricemia (high blood uric acid). Uric acid crystals (monosodium urate) deposit in joints and other tissues. It results from overproduction or under-excretion of uric acid.\n\n## Must-know facts\n- Classic site: the big toe (podagra), but any joint can be hit.\n- Gold standard for diagnosis: aspirating joint fluid and finding urate crystals under the microscope, or finding tophi (uric acid deposits under the skin).\n- ESR and serum uric acid are raised.\n- Uric acid can also deposit in the kidneys and cause stones (nephrolithiasis).\n\n## Assessment\n- Sudden, excruciating pain, redness and swelling in a joint.\n- Tophi.\n- Flank pain or blood in urine (kidney stones).\n- Diet, alcohol use, fluid intake, medicines.\n\n## Priority nursing actions\n- Immobilise the painful joint and position for comfort; avoid touching the inflamed joint unnecessarily.\n- Push fluids: about 3 liters a day, to dilute uric acid and flush it through the kidneys and avoid crystals forming in them.\n- Teach a low-purine diet. High-purine foods listed in the handout: turkey, organ meats, sardines, smelts, mackerel, anchovies, herring and bacon.\n- Avoid alcohol, which reduces kidney excretion of uric acid.\n- Encourage weight loss.\n\n## Treatment and medications (general terms)\n- Acute attack: colchicine and NSAIDs.\n- Chronic gout: allopurinol (reduces uric acid production) or a uricosuric agent (increases excretion).\n- Diet and lifestyle changes help prevent attacks.\n\n## Complications and red flags\n- Recurrent attacks, joint damage, tophi, kidney stones and kidney damage.\n- Colchicine can cause stomach upset or diarrhoea; report persistent symptoms.\n\n## Client teaching\nFluids, diet, no alcohol, take preventive medicines even between attacks, and seek care early in an attack.\n\n## How the exam asks about it\nFoods to avoid; fluid target; the drug for an acute attack versus long-term prevention; podagra.\n\n## How to reason about it\nToo much uric acid -> crystals in joints -> pain; reduce uric acid (diet, fluids, drugs) and calm the joint. Trap: giving allopurinol to treat an acute attack (it prevents; it does not rescue).\n\n## Related topics\n[[Rheumatoid Arthritis]], [[Osteoarthritis]], [[EMG, Biopsy, Arthroscopy and Arthrocentesis]]\n\n## Check against your textbook\nThe handout says \"Immobilize the joint\"; confirm approach. Starting allopurinol during an attack is usually discouraged; this point is beyond the handout.",
+  "tags": [
+   "musculoskeletal",
+   "arthritis",
+   "metabolic",
+   "priority"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Gout"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-scoliosis",
+  "area": "NP4",
+  "title": "Scoliosis",
+  "body": "## What it is\nScoliosis is a progressive sideways curve or twist of the spine, shaped like a \"C\" or an \"S\". Dextroscoliosis has its convexity (outward bulge) to the right; levoscoliosis to the left. Rotoscoliosis (as the handout calls it) means pronounced rotation of the vertebrae as well. The cause is usually unknown (idiopathic). It does not come from slouching, awkward sitting or an old mattress.\n\n## Must-know facts\n- Treatment depends on the curve in degrees (handout):\n  - Up to 20 degrees: exercise to improve muscle tone and posture.\n  - 20 to 40 degrees: brace to hold the curve.\n  - Over 40 degrees: spinal fusion surgery.\n- Bracing, such as the Milwaukee brace, is used while the child still has bone growth left; the aim is to stop progression to surgery. The handout lists a Milwaukee brace for curves at T9 and below and a Yamamoto brace for T9 and above (see [[Splints and Braces]]).\n- Related traction/cast items in the handout: Risser's jacket (cast for scoliosis), Cotrel traction (head halter plus pelvic girdle), halo-pelvic traction for C-type and halo-femoral for S-type curves.\n\n## Assessment\n- Uneven shoulder and hip heights.\n- Asymmetric rib cage, one-sided back muscle prominence, visible spinal curve.\n- Uneven pelvis.\n- Screening typically happens at school age (beyond the handout).\n\n## Priority nursing actions\nAfter spinal fusion:\n- Log-roll the child every 2 hours: keeps the spine aligned, prevents pressure sores, and helps the lungs expand fully.\n- Monitor vital signs and neurovascular status of the legs.\n- Apply anti-embolism stockings during bed rest and remove them for 1 hour three times a day to check skin.\n- Control pain and watch breathing.\n\nFor bracing: check skin under the brace, teach correct wear time and clothing, and support body image because teens may feel different.\n\n## Treatment and medications (general terms)\nExercise, bracing, fusion surgery. Analgesics after surgery.\n\n## Complications and red flags\n- Curve progression, reduced lung capacity if severe.\n- After fusion: new leg weakness or numbness, loss of bowel/bladder control, breathing difficulty, wound infection.\n\n## Client teaching\nBrace wear schedule, skin checks, log-rolling at home as instructed, and reassurance that posture habits did not cause the curve.\n\n## How the exam asks about it\nMatching curve size to treatment; the log-roll after fusion; the brace used.\n\n## How to reason about it\nCurve size -> treatment level; after surgery the spine must stay aligned (log roll) before anything else.\n\n## Related topics\n[[Skin Traction Types and Care]], [[Skeletal Traction Care and Complications]], [[Cast Types and Casting Materials]]\n\n## Check against your textbook\nThe Milwaukee/Yamamoto level split and the halo C-type/S-type pairing in the handout look unusual; verify. Handout also says the stocking removal pattern; confirm local protocol.",
+  "tags": [
+   "musculoskeletal",
+   "spine",
+   "pediatric"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Scoliosis"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-perthes",
+  "area": "NP4",
+  "title": "Legg-Calve-Perthes Disease",
+  "body": "## What it is\nLegg-Calve-Perthes disease is a childhood hip problem in which the blood supply to the head of the femur (the ball of the hip joint) is reduced, so the bone tissue dies (avascular necrosis). The handout places it in children between about 2 and 12 years old. It is also called coxa plana. It is self-limiting: given time the bone heals and the child recovers fully once the disease has run its course.\n\n## Must-know facts\n- Three stages in the handout:\n  1. Avascular stage: blood supply to the femoral head is interrupted (stated as within about 1 year).\n  2. Revascularization: \"creeping substitution\", where connective and vascular tissue grow into the dead bone and living, not yet calcified bone replaces it.\n  3. Healing: the bone ossifies (hardens) over about 3 years.\n- Self-limiting does not mean \"ignore\": the goal is to protect the hip shape while it heals.\n- A Scottish Rite brace is listed in the handout for coxa plana / Perthes (see [[Splints and Braces]]).\n- Total hip replacement is listed among later options for a damaged hip (see [[Total Hip Replacement Care]]).\n\n## Assessment\n- Pain in the groin and in the front of the thigh.\n- Limp or reluctance to bear weight on the leg.\n- Radiograph: decreased bone mass, ossification centers, and possibly a subchondral fracture (a small break under the joint cartilage).\n\n## Priority nursing actions\n- Relieve pain with analgesics as ordered: comfort first so the child can take part in care.\n- Perform and teach range-of-motion activities to keep the hip moving normally.\n- Teach crutch use so the child can protect the hip from full weight (see [[Canes and Crutch Safety]]).\n- Support the family: explain that the condition is self-limiting and the child will fully recover. Reassurance is a priority nursing action because the course is long.\n\n## Treatment and medications (general terms)\n- Physical therapy to restore motion and analgesics for pain.\n- Containment is often done with a brace or cast; surgery may be used for some children (beyond the handout).\n\n## Complications and red flags\n- A misshapen femoral head can lead to early arthritis later (beyond the handout, check).\n- Worsening pain or loss of motion should be reported.\n\n## Client teaching\nTeach parents the three stages, why protection of the hip matters, safe crutch use, and that recovery takes years but is expected.\n\n## How the exam asks about it\nRecognition: a young child with groin or thigh pain and a limp, or the cause (loss of blood supply to the femoral head), or the stage names. Also the key reassurance statement: self-limiting, full recovery.\n\n## How to reason about it\nReduced blood -> dead bone -> pain, limp -> protect the hip, keep motion, relieve pain, reassure. Trap: confusing it with a hip dislocation or infection; the question will mention a child with gradual hip or knee-area pain.\n\n## Related topics\n[[Developmental Dysplasia of the Hip]], [[Range of Motion Exercises]], [[Splints and Braces]]\n\n## Check against your textbook\nStage timings in the handout look garbled (\"within 1 year\", \"over 3 years\"); confirm the durations. Pain in the knee from referred hip pain is common but not in the handout.",
+  "tags": [
+   "musculoskeletal",
+   "pediatric",
+   "hip"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Legg-Calve-Perthes disease"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-fractures",
+  "area": "NP4",
+  "title": "Fractures: Types and Emergency Management",
+  "body": "## What it is\nA fracture is a break in the continuity of a bone. It happens when stress on the bone is greater than it can absorb. Causes in the handout: direct blows, crushing forces, sudden twisting, extreme muscle contraction, and weak bones (decalcification, as in [[Osteoporosis]]).\n\n## Must-know facts\nTypes:\n- Complete: the break goes through the whole bone and is often displaced (out of position).\n- Incomplete: only part of the bone is broken, for example a greenstick fracture (typical in children).\n- Comminuted: several bone fragments.\n- Closed (simple): the skin is intact.\n- Open (compound or complex): a skin or mucous membrane wound reaches the broken bone, so infection risk is high.\n\nReduction means restoring the bone to correct alignment:\n- Closed reduction: manual alignment of the fragments, then immobilisation (cast, splint, traction).\n- Open reduction: surgery inserts internal fixation such as rods, wires or pins to hold alignment while healing.\n\n## Assessment\nAcute pain, loss of function, deformity, shortening of the limb, local swelling and bruising (ecchymosis). Check pulses, colour, warmth, sensation and movement beyond the injury.\n\n## Priority nursing actions\n- Immobilise the part before the client is moved (prevent more damage). Splint the joints above and below the fracture so fragments cannot move.\n- Assess neurovascular status first and again after splinting (see [[Cast Care and Neurovascular Checks]]).\n- Cover an open wound with a clean or sterile dressing; control bleeding with pressure.\n- Elevate and apply ice as ordered; give analgesia.\n- Prepare for reduction, cast or surgery and monitor for complications.\n\n## Treatment and medications (general terms)\nReduction, immobilisation (cast, splint, traction, external fixator), analgesics, and for open fractures antibiotics (general practice).\n\n## Complications and red flags\nCompartment syndrome, nerve or vessel injury, infection (especially open fractures), fat embolism, and delayed union. Pain not relieved by usual measures, pallor, coolness, numbness: report at once (see [[Compartment Syndrome and Cast Complications]]).\n\n## Client teaching\nFollow weight-bearing limits, keep the cast dry, do muscle-setting exercises, and report warning signs promptly.\n\n## How the exam asks about it\nDefine the fracture type; first nursing action (immobilise, check circulation before moving); reduction type.\n\n## How to reason about it\nSuspect fracture -> do not move -> immobilise joints above and below -> neurovascular check. Trap: attempting to realign or straighten the limb.\n\n## Related topics\n[[Fracture Healing Stages]], [[Cast Types and Casting Materials]], [[External Fixator Care]]\n\n## Check against your textbook\nThe handout does not list spiral, oblique or transverse types or fat embolism; add from your text.",
+  "tags": [
+   "musculoskeletal",
+   "fracture",
+   "emergency",
+   "priority"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Fractures"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-bone-tumors",
+  "area": "NP4",
+  "title": "Bone Tumors",
+  "body": "## What it is\nA bone tumor is a neoplasm of the musculoskeletal system. It can be benign, malignant and primary, or metastatic (spread from elsewhere).\n\n## Must-know facts\nBenign:\n- More common than malignant primary tumors; slow-growing, well circumscribed, encapsulated.\n- Osteochondroma is the most common benign bone tumor: a large bony projection at the end of long bones near the knee or shoulder.\n\nMalignant primary:\n- Rare; arise from connective and supportive tissue (sarcomas) or marrow.\n- Osteosarcoma (osteogenic sarcoma) is the commonest and most often fatal; appears most in children, adolescents and young adults, in fast-growing bones.\n- Common sites: distal femur, proximal tibia, proximal humerus.\n- Prognosis depends on spread to the lungs.\n\nMetastatic (secondary) bone disease:\n- More common than primary bone tumors.\n- Most common primary sites: kidney, prostate, lung, breast, ovary and thyroid.\n- Most often in the skull, spine, pelvis, femur and humerus.\n\n## Assessment\n- Pain from mild and occasional to constant and severe; disability; weight loss, malaise, fever.\n- Labs: raised alkaline phosphatase in osteosarcoma; raised acid phosphatase in prostate cancer spread; hypercalcemia with bone metastases from breast, lung or kidney.\n- Surgical biopsy gives the definite diagnosis.\n\n## Priority nursing actions\n- Prepare and support the client through painful tests; give IV or epidural analgesia early after surgery.\n- Support and handle affected limbs gently to avoid pathologic fracture.\n- Aseptic dressing technique and prophylactic antibiotics to prevent osteomyelitis and wound infection.\n- Recognise hypercalcemia early and report (see [[Metastatic Bone Disease and Hypercalcemia]]).\n- Watch the lungs: those with metastatic disease have a higher risk of pulmonary congestion after surgery.\n\n## Treatment and medications (general terms)\n- Primary malignant: surgical excision, radiation, chemotherapy; chemotherapy begins before surgery and continues after to treat micrometastases; osteosarcoma may receive intra-arterial chemotherapy.\n- Metastatic: palliative, aiming to relieve pain and keep quality of life.\n- Amputation may be needed (see [[Amputation Care]]).\n\n## Complications and red flags\nPathologic fracture, hypercalcemia, spread to lungs, infection.\n\n## Client teaching\nExplain the plan, pain control, fracture precautions and emotional support. Report new pain, confusion or constipation (possible hypercalcemia).\n\n## How the exam asks about it\nMost common benign (osteochondroma), most common malignant (osteosarcoma), which lab goes with which cancer.\n\n## How to reason about it\nYoung person + knee or shoulder pain -> osteosarcoma; older adult with known cancer + bone pain -> metastasis. Protect the limb first.\n\n## Related topics\n[[Musculoskeletal Imaging and Bone Scan]], [[Amputation Care]], [[Fractures: Types and Emergency Management]]\n\n## Check against your textbook\nThe handout says treatment of metastatic disease is palliative; confirm how radiation fits in your text.",
+  "tags": [
+   "musculoskeletal",
+   "oncology",
+   "bone"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Bone tumors: benign, malignant, metastatic"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-x-ortho-surgery-basics",
+  "area": "NP4",
+  "title": "Orthopedic Surgery: Preventing Infection and Promoting Ambulation",
+  "body": "## What it is\nGeneral nursing care for clients having joint replacement or other orthopedic surgery, usually for severe joint pain and disability. The handout organises it around two themes: preventing infection and promoting ambulation.\n\n## Must-know facts\n- Skin preparation often begins one or two days before surgery.\n- A prophylactic antibiotic is given about 60 minutes before the incision, which is an effective way to prevent postoperative infection.\n- The joint may be cultured during surgery to identify later infections.\n- A persistent infection at the prosthesis usually needs removal of the implant and joint revision.\n- Walking and transfers are progressed step by step toward independence.\n\n## Assessment\n- Wound, drain, temperature and white blood cell signs of infection.\n- Neurovascular status and pain.\n- Mobility, strength and understanding of weight-bearing limits.\n- Skin condition before surgery.\n\n## Priority nursing actions\n- Give the preoperative antibiotic on time, exactly as scheduled (timing is the key point).\n- Use aseptic technique for every dressing change and drain.\n- Monitor wound drainage; report more than expected.\n- Encourage transfer to a chair several times a day for short periods, then walking farther each time.\n- Prevent clots with stockings and anticoagulants as ordered, and early movement (see [[Total Hip Replacement Care]]).\n- Control pain so the client can participate in movement.\n\n## Treatment and medications (general terms)\nProphylactic and therapeutic antibiotics, anticoagulants, analgesics, physical therapy. Severe infection may need surgical debridement or prosthesis removal.\n\n## Complications and red flags\nSurgical site infection, DVT, dislocation, excessive bleeding, nerve damage. Fever, increasing pain, redness, pus or foul drainage need prompt reporting.\n\n## Client teaching\nKeep the incision clean and dry, take antibiotics fully, tell all future providers about the implant, and report infection signs.\n\n## How the exam asks about it\nTiming of the pre-op antibiotic (about 60 minutes before incision); what a persistent prosthesis infection requires; goal of independent ambulation.\n\n## How to reason about it\nForeign material in the body -> infection stakes are high -> prevent first (antibiotic, asepsis), then mobilise early to prevent clots and stiffness.\n\n## Related topics\n[[Total Hip Replacement Care]], [[Total Knee Replacement and Joint Surgery Basics]], [[Osteomyelitis]]\n\n## Check against your textbook\nThe handout wording about pre-op skin preparation is incomplete; confirm local policy.\n",
+  "tags": [
+   "musculoskeletal",
+   "surgery",
+   "infection"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "The patient undergoing orthopedic surgery"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-x-phantom-limb-residual",
+  "area": "NP4",
+  "title": "Phantom Limb Pain and Residual Limb Care",
+  "body": "## What it is\nAfter an amputation, many clients feel the missing limb is still there. Phantom limb sensations are unusual feelings such as numbness, tingling, cramping, or the sense that the limb is crushed, twisted or in an odd position. Phantom pain is caused by severing of peripheral nerves. The handout stresses that these feelings are real, not imagined.\n\n## Must-know facts\n- The residual limb (stump) is shaped into a cone with an elastic compression wrap so the prosthesis fits well and is comfortable.\n- Sockets of the prosthesis are adjusted during the first 6 months to a year after surgery.\n- Wrapping controls edema and promotes healing.\n- Joint contracture comes from poor positioning and a protective flexion pattern with pain and muscle imbalance.\n\n## Assessment\n- Character and timing of phantom sensations versus surgical wound pain.\n- Wound, drainage and skin of the residual limb.\n- Mood, coping, willingness to look at and touch the limb.\n- Range of motion and positioning.\n\n## Priority nursing actions\n- Acknowledge the sensation as real and let the client talk about it (therapeutic communication).\n- Keep the client active; use distraction; gentle kneading massage to desensitise the limb; early intensive rehabilitation.\n- Wrap the limb with elastic compression to prevent edema and shape it.\n- Prevent contractures: no pillow under the residual limb of a leg amputee, avoid hip abduction, external rotation and flexion, lie prone periodically, keep legs together, and start ROM early.\n- Encourage the client to look at, feel and care for the stump (body image).\n- Support grieving.\n- Monitor hemorrhage risk: keep a large tourniquet visible at the bedside; mark drainage on the bandage to see if it is increasing.\n- Wash and dry the healed limb gently at least twice daily.\n\n## Treatment and medications (general terms)\nOpioid analgesics for surgical pain; a light sandbag on the limb may counter muscle spasm; local anesthetics, beta-blockers for burning discomfort, and antidepressants to improve mood and coping.\n\n## Complications and red flags\nBleeding, infection (increasing drainage), skin breakdown from the prosthesis, contractures, depression.\n\n## Client teaching\nDaily limb inspection and wash, correct wrap technique, positioning, wear non-skid shoes, and cotton T-shirt under shoulder harness for arm prostheses to absorb sweat.\n\n## How the exam asks about it\nBest response to \"my foot hurts\" (acknowledge, it is real), why no pillow under the stump (hip flexion contracture), emergency tool at bedside (tourniquet).\n\n## How to reason about it\nReal nerve-based pain -> validate, treat, move; position to avoid contracture because the prosthesis depends on a straight, well-shaped limb.\n\n## Related topics\n[[Amputation Care]], [[Range of Motion Exercises]], [[Canes and Crutch Safety]]\n\n## Check against your textbook\nTreatments for phantom limb pain vary; the handout's drug list is brief. Tourniquet use: confirm hospital policy.\n",
+  "tags": [
+   "musculoskeletal",
+   "amputation",
+   "pain"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Amputation: minimizing altered sensory perceptions",
+   "Promoting wound healing",
+   "Prosthesis fitting"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-x-metastatic-hypercalcemia",
+  "area": "NP4",
+  "title": "Metastatic Bone Disease and Hypercalcemia",
+  "body": "## What it is\nMetastatic bone disease means cancer that began elsewhere has spread into bone. It is more common than primary bone tumors. Breakdown of bone releases calcium, producing hypercalcemia, a dangerous high blood calcium.\n\n## Must-know facts\n- Common sources: kidney, prostate, lung, breast, ovary and thyroid.\n- Common bone sites: skull, spine, pelvis, femur, humerus.\n- Hypercalcemia occurs with bone metastases from breast, lung or kidney cancer.\n- Treatment of secondary bone cancer is palliative: relieve pain and discomfort while promoting quality of life.\n- Acid phosphatase rises in prostate cancer spread.\n\n## Assessment\n- Pain of bone origin, disability, weight loss, malaise, fever.\n- Hypercalcemia signs (beyond the handout, check): confusion, fatigue, nausea, constipation, increased urination, muscle weakness, dysrhythmias.\n- Serum calcium, alkaline phosphatase and imaging results.\n- Respiratory status after surgery: clients are at higher risk for pulmonary congestion.\n\n## Priority nursing actions\n- Recognise hypercalcemia signs promptly and begin treatment quickly (airway and heart rhythm come first in an unstable client).\n- Hydrate with IV normal saline and encourage mobilisation; diuresis as ordered.\n- Handle and support affected limbs gently to avoid pathologic fracture.\n- Give analgesics (IV or epidural early after surgery).\n- Aseptic dressing technique and antibiotics as ordered to prevent osteomyelitis and wound infection.\n\n## Treatment and medications (general terms)\nIV normal saline, diuresis, mobilisation, bisphosphonates such as pamidronate, and calcitonin. Surgery and radiation may be used for pain or stability.\n\n## Complications and red flags\nPathologic fracture, dehydration, cardiac rhythm changes, confusion or coma from severe hypercalcemia, pulmonary congestion.\n\n## Client teaching\nFluid intake as advised, fracture precautions, report constipation, confusion, nausea or new bone pain, and pain-control plan.\n\n## How the exam asks about it\nWhich cancers spread to bone; first treatment for hypercalcemia (hydration); drugs (bisphosphonates, calcitonin); gentle handling.\n\n## How to reason about it\nBone breakdown -> calcium floods blood -> fluids dilute, drugs stop bone resorption, and keep the client moving.\n\n## Related topics\n[[Bone Tumors]], [[Hypercalcemia]], [[Paget's Disease of Bone]], [[Musculoskeletal Imaging and Bone Scan]]\n\n## Check against your textbook\nThe handout does not list the symptoms of hypercalcemia, so those are added from general knowledge. Confirm with your text.\n",
+  "tags": [
+   "musculoskeletal",
+   "oncology",
+   "electrolyte"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Metastatic bone disease",
+   "Management for secondary bone tumors"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-x-cast-techniques",
+  "area": "NP4",
+  "title": "Cast Techniques: Windowing, Bivalving and Reinforcing",
+  "body": "## What it is\nThree procedures done to adapt a cast after it has been applied. They answer a problem: a wound underneath, a cast that is too tight, or a cast that has weakened.\n\n## Must-know facts\n- Windowing: a hole is cut in the cast over an open wound of the casted limb. Purposes: visualisation, inspection, dressing, and applying medications.\n- Bivalving: the cast is cut into two halves from top to bottom. Purposes: relieve cast tightness, allow x-ray, and inspect the limb.\n- Reinforcing: more plaster of Paris is applied. Purpose: restore strength when a wet cast has become unstable.\n- Tools for application or removal: stockinette, wadding (padding) sheet and gauze bandage, plaster of Paris or fiberglass, trimming knife, cast spreader, cast cutter (Stryker), bandage scissors.\n- A mold (posterior splint-type cast) is used for an affected part with infection, swelling or an open wound, as noted in the handout.\n\n## Assessment\n- Pain not relieved by elevation or analgesics, tight cast, swelling.\n- Drainage staining, odor, warmth on the cast surface.\n- Neurovascular status before and after the cut.\n- Cast integrity (cracks, softening, wetness).\n\n## Priority nursing actions\n- If compartment syndrome is suspected, the cast is bivalved at once while keeping the limb aligned and the limb is kept at no higher than heart level (arterial flow). Notify the physician.\n- Re-check neurovascular status after any cast cutting.\n- Support the limb and handle gently during cutting; reassure the client about the saw noise and that it vibrates but will not cut skin.\n- Cover or treat the window area as ordered so skin does not bulge through (beyond handout).\n\n## Treatment and medications (general terms)\nAnalgesics; wound care and topical medicines through a window as ordered.\n\n## Complications and red flags\nSkin injury from cutting, swelling that bulges through a window, loss of alignment after bivalving.\n\n## Client teaching\nDo not cut or alter a cast yourself; report a wet, soft or cracked cast and tightness, odor or drainage.\n\n## How the exam asks about it\nWhich technique solves which problem: wound access = windowing; tightness or x-ray = bivalving; wet or weak cast = reinforcing.\n\n## How to reason about it\nMatch the fix to the problem: look at it, loosen it, or strengthen it. If circulation is threatened, loosen first.\n\n## Related topics\n[[Cast Types and Casting Materials]], [[Compartment Syndrome and Cast Complications]], [[Cast Care and Neurovascular Checks]]\n\n## Check against your textbook\nHandout list of reasons for bivalving is partly cut off; verify.\n",
+  "tags": [
+   "musculoskeletal",
+   "cast"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Cast techniques: windowing, bivalving, reinforcing",
+   "Materials and instruments in cast application or removal"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-x-traction-complications",
+  "area": "NP4",
+  "title": "Complications of Traction and Immobility",
+  "body": "## What it is\nA client in traction is on bed rest for a long time, so problems from immobility threaten more than the bone. The handout lists lungs, gut, bladder and veins.\n\n## Must-know facts\n- Atelectasis and pneumonia: listen to the lungs every 4 to 8 hours; teach deep breathing and coughing to expand the lungs and clear secretions.\n- Constipation and anorexia: high-fibre, high-fluid diet; stool softeners, laxatives, suppositories or enemas may be ordered; include food preferences within the diet to improve appetite.\n- Urinary stasis and infection: encourage fluids to prevent dehydration and hemoconcentration.\n- Venous thromboembolism: watch for one-sided calf tenderness, warmth, redness and swelling (increased calf circumference).\n- Hypostatic pneumonia and pressure ulcers (balanced suspension): deep breathing, keep back dry, frequent turning, wrinkle- and crumb-free linen, lift buttocks with the overhead trapeze.\n- Joint contracture and muscle atrophy: ankle exercises, static quadriceps exercises, and active ROM to the unaffected limbs.\n\n## Assessment\nBreath sounds, bowel sounds and stool pattern, urine output and colour, calf measurements, skin over bony points, appetite.\n\n## Priority nursing actions\n- Airway and breathing first: deep breathing and coughing.\n- Foot exercises: ankle flexion-extension and calf-pumping about 10 times an hour while awake to reduce venous stasis.\n- Anti-embolism stockings, compression devices and anticoagulants as ordered.\n- Fluids, fibre, and regular bedpan times.\n- Meet nutritional needs: vitamin C, calcium and protein.\n- Provide diversional activity; attend to complaints.\n- Never remove skeletal traction weights except in a life-threatening situation.\n\n## Treatment and medications (general terms)\nAnticoagulants, bowel regimens, antibiotics if infection develops.\n\n## Complications and red flags\nSudden chest pain, shortness of breath (pulmonary embolism); calf swelling; fever and cough; cloudy or foul urine; abdominal distention.\n\n## Client teaching\nDeep breathe and cough, drink fluids, do foot exercises, report calf pain or chest pain.\n\n## How the exam asks about it\nWhich complication matches the sign; which action prevents it (fluids for urinary stasis; fibre for constipation; leg exercises for VTE).\n\n## How to reason about it\nImmobility slows lungs, bowels, bladder, veins and skin; for each, one preventive habit is listed. Airway first.\n\n## Related topics\n[[Skeletal Traction Care and Complications]], [[Balanced Suspension Traction]], [[Deep Vein Thrombosis]]\n\n## Check against your textbook\nSpecific timings for chest checks vary; the handout's figures are used.\n",
+  "tags": [
+   "musculoskeletal",
+   "traction",
+   "complications"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Complications of skeletal traction",
+   "Atelectasis and pneumonia",
+   "Constipation and anorexia",
+   "Urinary stasis and infection",
+   "Venous thromboembolism"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np4-or-x-spine-braces",
+  "area": "NP4",
+  "title": "Spinal Braces and Collars by Level of the Spine",
+  "body": "## What it is\nA quick map of which brace or cast supports which part of the spine, the way the exam presents it (\"which device for which problem?\").\n\n## Must-know facts\nNeck (cervical):\n- Collar brace (Schantz, Philadelphia).\n- Collar cast: cervical spine.\n- Minerva cast: cervical and upper dorsal spine.\n- Four-poster brace: cervical and upper thoracic.\n- Crutchfield tongs (skeletal traction): upper dorsal and cervical spine, inserted at the parietal area.\n- Head halter (skin traction): cervical spine.\n\nChest and back:\n- Knight-Taylor brace: upper thoracic spine.\n- Body cast: lower thoracic and upper lumbar spine.\n- Jewett brace: dorsolumbar and upper lumbar.\n- Chair-back brace: lumbosacral spine.\n- Pelvic girdle traction: lumbosacral spine and herniated nucleus pulposus.\n\nScoliosis:\n- Risser's jacket: thoraco-lumbar cast.\n- Milwaukee brace: curves T9 and below.\n- Yamamoto brace: curves T9 and above.\n- Cotrel traction: head halter plus pelvic girdle.\n- Halo-pelvic (C-type) and halo-femoral (S-type) traction.\n\n## Assessment\nSkin under straps, neurovascular status of limbs, comfort, breathing, ability to eat and swallow with a collar.\n\n## Priority nursing actions\n- Assess neurovascular status before and after application.\n- Check skin under collars and braces; keep padding clean and dry.\n- Explain purpose and what the client will feel.\n- Keep the spine aligned (log roll) when ordered.\n- Pin care for halo devices; do not move the client by the halo frame (beyond handout).\n\n## Treatment and medications (general terms)\nAnalgesics, muscle relaxants, as ordered.\n\n## Complications and red flags\nPressure sores on chin, occiput or bony points; numbness or weakness in arms or legs; breathing difficulty.\n\n## Client teaching\nWear schedule, skin care, activity limits, and when to call.\n\n## How the exam asks about it\nMatch device to spine region or condition.\n\n## How to reason about it\nThink top to bottom: neck devices are collars and tongs; trunk devices are body casts and jackets; scoliosis devices are Milwaukee and Yamamoto.\n\n## Related topics\n[[Splints and Braces]], [[Scoliosis]], [[Cast Types and Casting Materials]], [[Spinal Cord Injury]]\n\n## Check against your textbook\nSpinal level assignments in the handout are unusual and some names (SOMI, Forester) may be misspelled; verify.\n",
+  "tags": [
+   "musculoskeletal",
+   "spine",
+   "brace",
+   "cast"
+  ],
+  "priority": "low",
+  "outlineRefs": [
+   "Examples of braces",
+   "Casts in the trunk area"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ }
+]

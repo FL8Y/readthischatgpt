@@ -1,0 +1,902 @@
+[
+ {
+  "id": "np4-0051",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Early pressure change",
+  "noteId": "np4-ns-iicp",
+  "vignette": "A 34-year-old is 24 hours after a head injury. Over the last hour his Glasgow score has slipped from 14 to 13, he is restless and keeps pulling at his gown, and he says his head aches. His pupils are equal and reactive, blood pressure and pulse are unchanged, and his mother wants him to sleep.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Give the PRN sedative to settle his restlessness",
+   "Document the change and continue hourly checks",
+   "Recheck pupils and consciousness and call the provider",
+   "Wait for hypertension and slow pulse before notifying anyone"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: Glasgow score falling, restlessness and headache after head injury with normal vital signs.\n2. Principle: level of consciousness changes before pupil or vital sign changes.\n3. Priority rule: act on the earliest reliable sign rather than waiting for ominous ones.\n4. The key beats waiting because Cushing's triad signals herniation.\nFlip: If the score were stable at 15 and he slept but was easily roused, routine neuro checks would be correct.",
+  "optionRationales": [
+   "Unsafe habit. Sedation masks neurologic change and can depress breathing.",
+   "Under-reaction. A drop in score needs escalation, not just recording.",
+   "Correct. A falling level of consciousness is the earliest sign of rising intracranial pressure and must be reported before late signs develop.",
+   "Plausible detail from a late sign. Cushing's triad indicates herniation is near."
+  ],
+  "strategy": "Unstable before stable: act on the earliest sign",
+  "archetype": "Do not wait for the late sign",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Change in level of consciousness is the earliest sign",
+   "Cushing's triad is late and ominous"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0052",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Trending consciousness",
+  "noteId": "np4-ns-loc-gcs",
+  "vignette": "A client with a subdural hematoma was oriented to person and place but unsure of the date on admission, and that has not changed. At the 1400 check, the nurse notes: pupils equal and reactive; he slept after a small dose of his pain medicine and wakes to a normal voice; he now needs a firm shake of the shoulder to wake, where earlier his name was enough; and his blood pressure and pulse are steady.",
+  "stem": "Which finding most strongly suggests the client is getting worse?",
+  "options": [
+   "Needing a firm shake to wake when his name was enough earlier",
+   "Unsure of the date, as he has been since admission",
+   "Waking to a normal voice after sleeping following pain medicine",
+   "Pupils equal and reactive with steady blood pressure and pulse"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: the stimulus needed to wake him has increased, while the date confusion, pupils and vital signs are unchanged.\n2. Principle: level of consciousness is the most sensitive early sign of neurologic change, and change is judged against the client's own baseline.\n3. Priority rule: the new change outranks the stable abnormal finding and the normal ones.\n4. The key beats the date confusion because that confusion is not new, and beats the sedation option because he is now harder to wake than before.\nFlip: If he had been equally hard to wake at every earlier check, the finding would be a baseline rather than a decline.",
+  "optionRationales": [
+   "Correct. A stronger stimulus needed to arouse him is a fall in level of consciousness, the most sensitive early sign of neurologic change.",
+   "Unchanged baseline. A stable deficit is not a deterioration.",
+   "Expected sedation effect that clears with a normal voice, so it is not a decline.",
+   "Reassuring findings. Normal pupils and vital signs do not show deterioration."
+  ],
+  "strategy": "Compare with baseline; level of consciousness first",
+  "archetype": "Compare with the baseline",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Level of consciousness is the most sensitive early sign",
+   "Trend scores and compare with baseline"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0053",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Change in posturing",
+  "noteId": "np4-ns-meningeal-signs-posturing",
+  "vignette": "A client with a severe brain injury has had arms flexed across his chest for two days. On rounds, both arms and legs are now rigidly extended with his arms turned inward. His pulse is 56 and he is breathing irregularly. A student suggests flexing his arms to make him comfortable.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Gently flex his arms back across his chest",
+   "Test for a Babinski reflex to confirm the level of injury",
+   "Chart the posturing as an expected progression",
+   "Check airway, breathing and pupils, then report"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: change from decorticate to decerebrate posturing, bradycardia and irregular breathing.\n2. Principle: extension posturing indicates lower brain-stem injury.\n3. Priority rule: airway and neuro checks and escalation first.\n4. The key beats the Babinski test because breathing is at risk.\nFlip: If the posture had not changed in two days, routine checks and positioning would be correct.",
+  "optionRationales": [
+   "Treats the sign, not the cause. Repositioning does not reverse the brain injury.",
+   "Skips the priority. The reflex adds little to an obviously deteriorating client.",
+   "Under-reaction. The change is not routine and needs immediate reporting.",
+   "Correct. A shift from flexion to extension posturing signals worsening brain-stem injury; airway and neurologic status come before comfort."
+  ],
+  "strategy": "Unstable before stable",
+  "archetype": "Respond to a worsening pattern",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Decorticate to decerebrate means worsening injury",
+   "Report new posturing immediately"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0054",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Swallow safety after stroke",
+  "noteId": "np4-ns-stroke-nursing",
+  "vignette": "A client with a recent right hemisphere stroke eats food only from the right side of the tray. As she sips water she coughs and her voice sounds wet. Her tray also has a hot dish, and she is hungry and asks the aide to help her eat.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Place the tray on her blind side to encourage scanning",
+   "Stop oral intake and ask for a swallowing evaluation",
+   "Ask the aide to feed her slowly with small bites",
+   "Place her upright and feed from the unaffected side of the mouth"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: cough and wet voice with water in a stroke client.\n2. Principle: dysphagia after stroke causes aspiration.\n3. Priority rule: hold intake and assess swallowing before feeding.\n4. The key beats positioning because it addresses the risk itself.\nFlip: If she passed a swallow screen, upright positioning and unaffected-side feeding would be correct.",
+  "optionRationales": [
+   "Right strategy, wrong time. Perceptual cues come after swallowing safety is confirmed.",
+   "Correct. Coughing and a wet voice with sips suggest aspiration risk; the airway outranks nutrition and perception training.",
+   "Delegation outside scope. A client with possible dysphagia needs assessment before anyone feeds her.",
+   "Right technique, wrong time. Positioning helps but does not make unsafe swallowing safe."
+  ],
+  "strategy": "Maslow: airway first",
+  "archetype": "Aspiration before nutrition",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Check gag reflex and swallow before feeding",
+   "Dysphagia raises aspiration risk"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0055",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Evening agitation in dementia",
+  "noteId": "np4-ns-alzheimer-stages-care",
+  "vignette": "At 1700 a client with Alzheimer's disease paces the hallway, tries the exit door, and says she must pick up her children. Her daughter asks whether wrist restraints or a sedative could help. A PRN antipsychotic is available.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Apply soft wrist restraints to prevent wandering",
+   "Walk with her, speak calmly and redirect her gently",
+   "Give the PRN antipsychotic before trying other measures",
+   "Remind her firmly that her children are grown and at home"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: evening wandering and agitation in Alzheimer's disease.\n2. Principle: sundowning improves with calm, predictable, familiar surroundings.\n3. Priority rule: try the least restrictive measure first.\n4. The key beats the drug because it addresses the need without side effects.\nFlip: If she were injuring herself and calming failed, the PRN drug would be appropriate.",
+  "optionRationales": [
+   "Over-intervention. Restraints increase agitation and risk injury.",
+   "Correct. A calm, familiar approach reduces sundowning agitation without the risks of restraints or drugs.",
+   "Skips less invasive steps. Drugs are used after environmental and behavioral approaches.",
+   "True statement that does not help. Confrontation often increases distress."
+  ],
+  "strategy": "Least invasive first",
+  "archetype": "Non-drug measures first",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Avoid restraints; they increase agitation",
+   "Sundowning: more agitation in late day"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0056",
+  "v": 2,
+  "type": "sata",
+  "area": "NP4",
+  "topic": "Seizure response",
+  "noteId": "np4-ns-seizure-care",
+  "vignette": "A client in the day room suddenly falls and has a generalized convulsion lasting about a minute. The nurse arrives as the jerking stops.",
+  "stem": "Which actions should the nurse take? Select all that apply.",
+  "options": [
+   "Note the time the seizure began and how long it lasted",
+   "Protect the head and ease him fully to the floor",
+   "Turn him onto his side once the jerking stops",
+   "Place a padded tongue blade between his teeth",
+   "Hold his arms firmly to limit the movement",
+   "Give water as soon as the jerking stops"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "rationale": "1. Cue: generalized convulsion that has just ended.\n2. Principle: seizure care prevents injury and protects the airway.\n3. Priority rule: observe, protect, position; never restrain or insert objects.\n4. The correct options are timing, head protection and side-lying.\nFlip: If the seizure continued without recovery, it would be an emergency requiring immediate help.",
+  "optionRationales": [
+   "Correct. Timing and description guide care.",
+   "Correct. This prevents head injury.",
+   "Correct. Side-lying prevents aspiration.",
+   "Incorrect. Nothing is put in the mouth; it can injure teeth or block the airway.",
+   "Incorrect. Restraint can cause injury.",
+   "Incorrect. Fluids risk aspiration before full recovery."
+  ],
+  "strategy": "Airway and injury protection",
+  "archetype": "Select safe actions",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Do not restrain or put anything in the mouth",
+   "Side-lying after the seizure"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0057",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Resolved transient deficit",
+  "noteId": "np4-ns-x-tia",
+  "vignette": "A 66-year-old man with hypertension and a history of atrial fibrillation says his right hand was weak and his speech slurred for about 15 minutes at breakfast. All symptoms are gone, his vital signs are stable, and he asks to go home because he feels fine.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Reassure him that symptoms which clear completely are harmless",
+   "Teach him a low-salt diet and review his medicines before he leaves",
+   "Ask him to rest and have family recheck his strength tomorrow",
+   "Document onset and end times and report a stroke warning"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: transient weakness and slurred speech in an at-risk client.\n2. Principle: a temporary loss of blood supply can precede a full stroke.\n3. Priority rule: treat a new deficit as a possible stroke until proven otherwise.\n4. The key beats teaching because evaluation comes first.\nFlip: If a new deficit were still present, the stroke alert pathway would be activated immediately.",
+  "optionRationales": [
+   "Under-reaction. The episode signals real risk of stroke.",
+   "True and useful teaching that does not address the immediate need.",
+   "Under-reaction. Waiting loses the opportunity for early evaluation.",
+   "Correct. A transient deficit is a warning of a possible full stroke and needs prompt evaluation."
+  ],
+  "strategy": "Act on the warning sign",
+  "archetype": "A resolved deficit is still a warning",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "TIA is a warning for stroke",
+   "Note onset time of deficits"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0058",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Medication timing and swallowing",
+  "noteId": "np4-ns-myasthenia-gravis",
+  "vignette": "A client with myasthenia gravis is due for pyridostigmine at 0730. His breakfast tray has arrived early, his voice is weaker than yesterday, his eyelids droop by afternoon, and he says he is exhausted and wants to eat first to get energy.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Give the medicine now and let him eat 30 minutes later",
+   "Let him eat first and give the medicine with the last bite",
+   "Hold the medicine until after breakfast to avoid nausea",
+   "Leave the tray and ask the aide to help him eat"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: dose due, early tray, weaker voice, fatigue.\n2. Principle: anticholinesterase drugs improve strength for about the next hours.\n3. Priority rule: give the drug before meals and delay eating briefly.\n4. The key beats eating first because strength is lowest without the drug.\nFlip: If he had severe breathing difficulty, airway assessment and calling for help would come first.",
+  "optionRationales": [
+   "Correct. The drug is given 20 to 30 minutes before meals so muscles are strongest for chewing and swallowing.",
+   "Wrong time. Eating while weak raises choking risk.",
+   "Under-treatment. Delayed doses lead to weakness and breathing trouble.",
+   "Delegation outside scope. Swallowing risk requires nursing assessment first."
+  ],
+  "strategy": "Time medication to muscle need",
+  "archetype": "Time the drug to the meal",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Give medicine 20 to 30 minutes before meals",
+   "Check gag reflex before feeding"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0059",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Suspected cervical injury",
+  "noteId": "np4-ns-sci",
+  "vignette": "A 22-year-old who dove into shallow water is brought to the emergency department alert, saying his arms feel numb. His respirations are shallow at 10 per minute and SpO2 is 90 percent. Paramedics have placed a cervical collar and a spinal board. A colleague suggests getting a CT scan right away.",
+  "stem": "What is the nurse's priority action?",
+  "options": [
+   "Send him for CT right away before addressing his breathing",
+   "Remove the collar briefly to inspect his neck for injury",
+   "Support his breathing with oxygen, neck kept in line",
+   "Log roll him onto his side to protect his airway and drain secretions"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: shallow respirations, SpO2 90 percent, numb arms after diving.\n2. Principle: injury at or above C4 depresses breathing.\n3. Priority rule: ABC with immobilization maintained.\n4. The key beats CT because hypoxia is progressing.\nFlip: If breathing were normal and SpO2 98 percent, CT would be the next step.",
+  "optionRationales": [
+   "Right test, wrong time. Imaging follows airway and breathing support.",
+   "Unsafe habit. Removing immobilization risks further cord damage.",
+   "Correct. Cervical injury threatens breathing; oxygenation and ventilation come first while protecting the spine.",
+   "Over-intervention. Movement is minimized and he is still alert; ventilation support is the need."
+  ],
+  "strategy": "Maslow: oxygenation first with spinal protection",
+  "archetype": "Airway with spinal protection",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Breathing first in cervical injury",
+   "Immobilize and move as a unit"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0060",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Aneurysm headache",
+  "noteId": "np4-ns-x-hemorrhagic-stroke-sah",
+  "vignette": "On day 3 after a subarachnoid hemorrhage with the aneurysm not yet secured, a client who has been alert develops a sudden 10/10 headache, vomits, and is drowsier. His blood pressure is 196/108. His wife asks the nurse to give him something for pain.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Give the PRN analgesic and dim the lights in his room",
+   "Lay him flat in bed to improve the blood flow to his brain",
+   "Give an antiemetic for vomiting and recheck in an hour",
+   "Check consciousness and pupils, then call the provider"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: sudden worst headache, vomiting, drowsiness and very high blood pressure with an unsecured aneurysm.\n2. Principle: rebleeding raises pressure within the skull and threatens herniation.\n3. Priority rule: assess neuro status and escalate before symptom relief.\n4. The key beats analgesia because brain function is at risk.\nFlip: If the headache were mild and stable with an alert client, routine analgesia could be given.",
+  "optionRationales": [
+   "Treats the symptom. Pain relief alone ignores a possible life-threatening rebleed.",
+   "Unsafe. Flat positioning can raise intracranial pressure.",
+   "Under-reaction. Vomiting is part of the emergency, not the cause.",
+   "Correct. Sudden severe headache and falling consciousness may indicate re-bleeding and rising pressure, which need immediate escalation."
+  ],
+  "strategy": "Unstable before stable",
+  "archetype": "Escalate a catastrophic headache",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Sudden severe headache in SAH is an emergency",
+   "Keep head raised to about 30 degrees"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0061",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Fall risk by stroke location",
+  "noteId": "np4-ns-stroke-deficits-hemispheres",
+  "vignette": "Two stroke clients are admitted. One has left-sided weakness, laughs, says he is fine and tries to walk to the bathroom alone. The other has right-sided weakness, speaks in short hesitant words, and moves slowly and cautiously. Only one bed is near the nurses' station.",
+  "stem": "Which client should be placed in that bed, and why?",
+  "options": [
+   "The client with right weakness, because his slow speech makes him hard to hear",
+   "The client with left weakness, because impulsivity and unawareness raise fall risk",
+   "The client with right weakness, because left hemisphere strokes cause reckless behavior",
+   "Either client, because all stroke clients carry the same fall risk"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: left weakness with impulsive behavior and denial.\n2. Principle: crossed effects mean left weakness points to the right hemisphere.\n3. Priority rule: place the highest-risk client where observation is easiest.\n4. The key beats the aphasia option because caution reduces fall risk.\nFlip: If the second client were agitated and trying to climb out of bed, the ranking could change.",
+  "optionRationales": [
+   "Plausible detail. Aphasia affects communication, but cautious behavior lowers fall risk.",
+   "Correct. Right hemisphere strokes cause impulsive behavior and unawareness of deficits, which makes falls more likely.",
+   "Mixes up the hemispheres. Recklessness is a right hemisphere pattern.",
+   "Ignores the cues that rank the risk."
+  ],
+  "strategy": "Match location to behaviour",
+  "archetype": "Link location to behaviour",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Right hemisphere: impulsive, unaware of deficits",
+   "Left hemisphere: aphasia, slow and cautious"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0062",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Positive meningeal sign",
+  "noteId": "np4-ns-meningitis",
+  "vignette": "A 19-year-old college student has a fever, a severe headache and photophobia. When the nurse flexes his head toward his chest, his hips and knees flex on their own and he cries out. His roommate is waiting at the bedside.",
+  "stem": "What should the nurse do next?",
+  "options": [
+   "Repeat the head flexion to confirm the sign",
+   "Ask the roommate to help dim the room and stay with him",
+   "Start respiratory isolation and report the finding",
+   "Give acetaminophen and reassess in an hour"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: fever, headache, photophobia and involuntary hip and knee flexion on neck flexion.\n2. Principle: meningeal irritation produces Brudzinski and Kernig signs.\n3. Priority rule: isolate and escalate before comfort measures.\n4. The key beats acetaminophen because meningitis is treatable only with urgent diagnosis.\nFlip: If the head flexion produced no reaction and the neck was supple, a different cause of fever would be explored.",
+  "optionRationales": [
+   "Over-intervention. Repeating a painful test adds nothing and may worsen distress.",
+   "Unsafe habit. A possibly infectious client should not have unprotected contacts.",
+   "Correct. This is a positive Brudzinski sign suggesting meningitis, which is infectious and needs urgent evaluation.",
+   "Treats the symptom. Fever and headache are part of a serious infection."
+  ],
+  "strategy": "Protect others and escalate",
+  "archetype": "Isolate and escalate",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Positive Brudzinski and Kernig signs in meningitis",
+   "Respiratory isolation after starting treatment"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0063",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Prolonged seizure",
+  "noteId": "np4-ns-x-status-epilepticus",
+  "vignette": "A client is found convulsing on the floor of the ward. The seizure has continued for several minutes and he has not regained consciousness. He is turning dusky, vomit is at the corner of his mouth, and a visitor offers to hold his arms down.",
+  "stem": "What is the nurse's first action?",
+  "options": [
+   "Turn him on his side, suction, give oxygen and call for help",
+   "Hold his limbs to stop the movement",
+   "Insert a padded tongue blade between his teeth",
+   "Time the seizure for ten more minutes before calling for help"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: continuous convulsion, dusky color, vomit at the mouth.\n2. Principle: prolonged seizures cause hypoxia and aspiration.\n3. Priority rule: airway and breathing before anything else, then call and drug.\n4. The key beats restraint because it protects the airway.\nFlip: If the seizure were a single brief episode that has ended, side-lying and observation would suffice.",
+  "optionRationales": [
+   "Correct. Airway protection and oxygenation are the main priorities in a prolonged seizure.",
+   "Unsafe habit. Restraining the limbs can fracture bones and does not stop the seizure.",
+   "Unsafe. Objects in the mouth cause injury and airway blockage.",
+   "Under-reaction. A continuous seizure is an emergency now."
+  ],
+  "strategy": "Maslow: airway first",
+  "archetype": "Airway while the seizure continues",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Status epilepticus is an emergency",
+   "Do not restrain or put anything in the mouth"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0064",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Which crisis",
+  "noteId": "np4-ns-mg-crises",
+  "vignette": "A client with myasthenia gravis took extra doses of pyridostigmine because he felt weak. He now has abdominal cramps, heavy salivation, a pulse of 48 and marked weakness with difficulty swallowing. His wife says to give him his usual dose and offers to hold the pill bottle.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Hold more doses, support his airway and summon help",
+   "Give his usual dose of the medicine to improve strength",
+   "Perform an edrophonium test at the bedside first",
+   "Encourage rest and recheck his strength in an hour"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: extra doses, salivation, cramps, bradycardia, weakness.\n2. Principle: overdose of anticholinesterase causes cholinergic crisis.\n3. Priority rule: protect the airway and stop the offending drug.\n4. The key beats the usual dose because the cause is too much medicine.\nFlip: If he had missed his doses and had high blood pressure and a fast pulse, additional medicine would be appropriate.",
+  "optionRationales": [
+   "Correct. The clues point to cholinergic crisis from too much drug, which also threatens breathing.",
+   "Wrong crisis. This treats myasthenic crisis from too little drug.",
+   "Right test, wrong time. The airway is the priority.",
+   "Under-reaction. Breathing may fail quickly."
+  ],
+  "strategy": "Maslow: airway first; identify the crisis",
+  "archetype": "Opposite treatments",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Myasthenic crisis: too little drug",
+   "Cholinergic crisis: too much drug"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0065",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Post-cataract warning sign",
+  "noteId": "np4-ns-cataract-surgery",
+  "vignette": "Four hours after cataract surgery, a client has a scratchy feeling in his operated eye, mild lid swelling, and is dozing. Later he becomes restless with a pulse of 108 and says the eye suddenly aches severely.",
+  "stem": "Which finding should the nurse report immediately?",
+  "options": [
+   "A scratchy, gritty feeling in the operated eye that comes and goes",
+   "Mild swelling and puffiness of the eyelid around the operated eye",
+   "Sudden severe eye pain with restlessness and a fast pulse",
+   "Drowsiness after the sedative given before surgery"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: sudden severe pain, restlessness and tachycardia after eye surgery.\n2. Principle: pressure or bleeding after surgery causes sudden pain.\n3. Priority rule: report new severe symptoms before expected ones.\n4. The key beats lid swelling because swelling is expected.\nFlip: If the pain were mild and controlled by the ordered analgesic, no escalation would be needed.",
+  "optionRationales": [
+   "Expected after surgery.",
+   "Expected after surgery and eye drops.",
+   "Correct. This pattern suggests a rise in eye pressure or bleeding and needs prompt attention.",
+   "Expected effect of the medication."
+  ],
+  "strategy": "Recognise the complication",
+  "archetype": "Report the pressure sign",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Sudden pain with restlessness suggests pressure",
+   "Fever suggests infection"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0067",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Heat and multiple sclerosis",
+  "noteId": "np4-ns-multiple-sclerosis",
+  "vignette": "A client with multiple sclerosis who has reduced leg sensation shares her plans for managing stiffness.",
+  "stem": "Which statement shows the need for further teaching?",
+  "options": [
+   "I will rest between activities to avoid fatigue",
+   "I will swim in a cool pool to ease the stiffness",
+   "I will check my bath water with my hand before getting in",
+   "I will soak in a hot bath each evening to relax my legs"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: sensation loss and a plan for hot baths.\n2. Principle: overheating worsens multiple sclerosis symptoms and burns insensitive skin.\n3. Priority rule: choose the statement that introduces risk.\n4. The key stands out because heat is the trigger.\nFlip: If she planned lukewarm showers and rest breaks, her plan would be sound.",
+  "optionRationales": [
+   "Appropriate; fatigue can trigger flares.",
+   "Appropriate; cool exercise helps spasticity.",
+   "Appropriate precaution, although a thermometer is better.",
+   "Correct. Heat can worsen symptoms and burn skin with reduced sensation."
+  ],
+  "strategy": "Correct the unsafe plan",
+  "archetype": "Correct the unsafe plan",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Avoid overheating and fatigue",
+   "Reduced sensation raises burn risk"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0068",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Ascending weakness",
+  "noteId": "np4-ns-gbs",
+  "vignette": "A client with Guillain-Barre syndrome had leg weakness yesterday; today his arms are weak and his voice is softer. His respirations are 26 and shallow with SpO2 94 percent, pulse 112, and blood pressure is swinging. He says he is hungry and wants his tray.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Check his gag reflex before offering him the breakfast tray",
+   "Begin range-of-motion exercises for his weakened arms and legs",
+   "Assess his breathing and tell the provider about ventilation",
+   "Give oral fluids to treat the rapid pulse and thirst"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: ascending weakness, soft voice, shallow rapid breathing.\n2. Principle: diaphragm weakness leads to respiratory failure.\n3. Priority rule: breathing before nutrition or mobility.\n4. The key beats the gag check because ventilation is failing.\nFlip: If breathing were deep and effortless, checking the gag reflex before feeding would be next.",
+  "optionRationales": [
+   "Right check, wrong priority. Breathing is more urgent than feeding.",
+   "Right care, wrong time. Mobility work follows stabilisation.",
+   "Correct. Spreading weakness with shallow rapid breathing signals impending respiratory failure.",
+   "Treats the symptom. Fluids risk aspiration and do not address breathing."
+  ],
+  "strategy": "Maslow: oxygenation first",
+  "archetype": "Watch breathing",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Ascending paralysis; watch respiratory function",
+   "Check gag reflex before feeding"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0069",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Parkinson aspiration and safety",
+  "noteId": "np4-ns-parkinson-care",
+  "vignette": "A client with Parkinson's disease coughs repeatedly when drinking thin soup and feels dizzy when he stands up. The nurse plans his care.",
+  "stem": "Which intervention should be included?",
+  "options": [
+   "Encourage thin liquids to prevent dehydration and constipation",
+   "Restrict fluids to reduce the risk of choking",
+   "Have him lie flat after meals to aid digestion",
+   "Offer thickened fluids upright and teach him to rise slowly"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: coughing on thin fluids and dizziness on standing.\n2. Principle: Parkinson's disease impairs swallowing and blood pressure control.\n3. Priority rule: choose measures that prevent both aspiration and falls.\n4. The key combines thickened fluids and slow position change.\nFlip: If swallowing were normal, a regular diet would be fine.",
+  "optionRationales": [
+   "Unsafe. Thin liquids increase aspiration risk.",
+   "Under-treatment. Fluids are needed and constipation risk rises.",
+   "Unsafe habit. Lying flat increases aspiration.",
+   "Correct. Thickened liquids reduce aspiration and slow position changes reduce falls from orthostatic hypotension."
+  ],
+  "strategy": "Prevent aspiration and falls",
+  "archetype": "Thicken and sit up",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Aspiration precautions and thickened fluids",
+   "Orthostatic hypotension: rise slowly"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0070",
+  "v": 2,
+  "type": "sata",
+  "area": "NP4",
+  "topic": "Levodopa teaching",
+  "noteId": "np4-ns-x-levodopa-teaching",
+  "vignette": "A client newly prescribed levodopa asks how to take it safely.",
+  "stem": "Which teaching points should the nurse include? Select all that apply.",
+  "options": [
+   "Change position slowly because dizziness may occur",
+   "Avoid vitamin B6 supplements unless the prescriber agrees",
+   "Report confusion or new hallucinations",
+   "Take extra vitamin B6 for energy",
+   "Stop the drug if nausea occurs",
+   "Use phenothiazines for nausea without asking"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "rationale": "1. Cue: new levodopa prescription.\n2. Principle: levodopa becomes dopamine and is blocked by some drugs and vitamin B6.\n3. Priority rule: teach safety, interactions and reporting.\n4. The correct options cover dizziness, vitamin B6 and confusion.\nFlip: If he took carbidopa-levodopa, the vitamin B6 limit would matter less.",
+  "optionRationales": [
+   "Correct. Orthostatic hypotension is a known effect.",
+   "Correct. Vitamin B6 can block the drug's effect.",
+   "Correct. Mental changes are possible adverse effects.",
+   "Incorrect. It can reduce levodopa's effect.",
+   "Incorrect. Do not stop abruptly; report the effect.",
+   "Incorrect. They block dopamine and worsen symptoms."
+  ],
+  "strategy": "Medication teaching",
+  "archetype": "Select correct teaching",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Levodopa side effects: orthostatic hypotension, confusion",
+   "Vitamin B6 and phenothiazines block the effect"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0071",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Autonomic dysreflexia in therapy",
+  "noteId": "np4-ns-autonomic-dysreflexia",
+  "vignette": "A client with a T4 spinal injury develops a pounding headache and flushed face during physical therapy. His pulse is 52 and blood pressure is 210/118. The therapy aide asks if he should lie flat and elevate the client's legs.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Sit him upright, loosen clothing and check his bladder",
+   "Lay him flat and elevate his legs on pillows to help circulation",
+   "Give a PRN analgesic and recheck in 30 minutes",
+   "Give an enema to relieve possible constipation"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: T4 injury, pounding headache, flushing, bradycardia, severe hypertension.\n2. Principle: a noxious stimulus below the injury triggers uncontrolled sympathetic response.\n3. Priority rule: lower blood pressure by sitting up and remove the cause before drugs.\n4. The key beats analgesia because the headache is a symptom of the surge.\nFlip: If blood pressure stays high after the trigger is removed, an antihypertensive would be ordered.",
+  "optionRationales": [
+   "Correct. Upright posture lowers blood pressure and a full bladder is the commonest trigger.",
+   "Unsafe habit. That position raises blood pressure further.",
+   "Treats the symptom. The headache is caused by severe hypertension.",
+   "Over-intervention. Bowel impaction is checked gently; an enema can worsen the episode."
+  ],
+  "strategy": "Remove the trigger",
+  "archetype": "Remove the trigger",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Autonomic dysreflexia: sit upright, check bladder",
+   "Bladder distention is the commonest trigger"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0072",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Bell's palsy care",
+  "noteId": "np4-ns-bells-palsy",
+  "vignette": "A 40-year-old woke with a drooping left face. She cannot wrinkle her forehead or close her left eye, her speech is clear, and her arms and legs are strong. She is frightened and says she wants to chew on the weak side to exercise it.",
+  "stem": "What should the nurse prioritize?",
+  "options": [
+   "Encourage chewing on the weak side to strengthen the muscles",
+   "Protect the left eye with artificial tears",
+   "Apply ice packs to the left cheek for pain",
+   "Activate the stroke alert for the facial droop"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: whole-side facial droop with inability to close the eye and no limb weakness.\n2. Principle: facial nerve paralysis removes the eye's protection.\n3. Priority rule: protect function at risk first.\n4. The key beats chewing on the weak side because the cornea can be damaged.\nFlip: If she also had arm weakness and slurred speech, a stroke alert would be correct.",
+  "optionRationales": [
+   "Unsafe. Food collects and reduced sensation raises risk.",
+   "Correct. The eye cannot close, so the cornea is at risk.",
+   "Plausible detail. Warmth is used for comfort; ice is not advised.",
+   "Over-intervention. Whole-side facial weakness with forehead involvement and no limb weakness suggests Bell's palsy."
+  ],
+  "strategy": "Protect the cornea",
+  "archetype": "Protect the exposed cornea",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Bell's palsy affects the whole side including the forehead",
+   "Artificial tears protect the cornea"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0073",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Receptive aphasia communication",
+  "noteId": "np4-ns-x-aphasia-communication",
+  "vignette": "After a left hemisphere stroke, a client speaks fluently but his words make no sense and he does not follow spoken requests. His wife is upset and keeps asking him open-ended questions in a louder voice.",
+  "stem": "Which approach should the nurse recommend?",
+  "options": [
+   "Ask open-ended questions to encourage him to speak",
+   "Use short phrases with gestures and pictures",
+   "Speak louder and faster to get his attention",
+   "Wait silently until his speech improves on its own"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: fluent but meaningless speech and failure to follow commands.\n2. Principle: receptive aphasia impairs understanding.\n3. Priority rule: use non-spoken cues matched to the deficit.\n4. The key beats louder speech because the problem is not hearing.\nFlip: If he understood but could not form words, yes-no questions and extra time would fit.",
+  "optionRationales": [
+   "Skips the deficit. He talks easily but cannot understand; open questions add confusion.",
+   "Correct. He cannot understand spoken language, so visual cues and short phrases help.",
+   "Plausible detail from hearing loss. Volume does not fix a comprehension problem.",
+   "Under-reaction. Active communication strategies support him and reduce frustration."
+  ],
+  "strategy": "Match communication to the deficit",
+  "archetype": "Match the method to the deficit",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Receptive aphasia: cannot understand speech",
+   "Use gestures, pictures and short sentences"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0074",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Tuning fork results",
+  "noteId": "np4-ns-x-hearing-loss-types",
+  "vignette": "A client's tuning fork tests show the Weber sound louder in the left ear. On the left, the Rinne test shows bone-conducted sound lasting longer than air-conducted sound. The right ear hears air louder than bone.",
+  "stem": "Which type of hearing loss do the results suggest?",
+  "options": [
+   "Conductive loss in the left ear",
+   "Sensorineural loss in the left ear",
+   "Conductive loss in the right ear",
+   "Normal hearing in both ears"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: Weber lateralises to left; left Rinne has bone longer than air.\n2. Principle: conductive loss makes bone conduction better than air on the affected side.\n3. Priority rule: confirm side and type from both tests.\n4. The key beats the sensorineural option because both tests point to the left conductive pattern.\nFlip: If Weber lateralised to the right with air longer than bone on the left, left sensorineural loss would fit.",
+  "optionRationales": [
+   "Correct. Weber louder in the affected ear with bone longer than air on that side indicates conductive loss.",
+   "Wrong direction. Sensorineural loss makes Weber louder in the better ear and air longer than bone.",
+   "Wrong side. The right ear tests normally.",
+   "Does not account for the abnormal left results."
+  ],
+  "strategy": "Interpret results",
+  "archetype": "Interpret the results",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Conductive: Weber to affected ear; bone longer than air",
+   "Sensorineural: Weber to better ear"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0075",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Absent corneal reflex",
+  "noteId": "np4-ns-cranial-nerve-testing",
+  "vignette": "A client with a right brain-stem stroke does not blink when a cotton wisp touches her right cornea, and her right cheek feels numb. She is eating a bowl of hot soup and rubs her right eye often because it feels dry.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Teach her to rub the eye gently when it feels dry or itchy",
+   "Retest the left corneal reflex until the results match the right side",
+   "Let her finish the hot soup before addressing the eye",
+   "Protect the right eye with lubricant and inspect it each shift"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: absent right corneal reflex and facial numbness, dry eye rubbed often.\n2. Principle: trigeminal deficit removes protective blink and sensation.\n3. Priority rule: prevent injury to the structure that cannot protect itself.\n4. The key beats finishing the soup because the eye can be damaged without pain.\nFlip: If her blink were intact bilaterally, routine eye care would be sufficient.",
+  "optionRationales": [
+   "Unsafe. Rubbing a numb cornea can scratch it.",
+   "Skips protection. Testing the other side does not protect the injured side.",
+   "Right concern, wrong order. The hot soup hazard is secondary to corneal injury.",
+   "Correct. An absent blink reflex and numbness leave the cornea vulnerable to unnoticed injury."
+  ],
+  "strategy": "Protect the exposed structure",
+  "archetype": "Protect what the nerve cannot",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Absent corneal reflex means cranial nerve V problem",
+   "Facial numbness raises injury risk"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ }
+]

@@ -1,0 +1,43 @@
+name: study-app
+
+on:
+  push:
+    paths:
+      - 'FLY8 Study/**'
+      - '.github/workflows/study-app.yml'
+  pull_request:
+    paths:
+      - 'FLY8 Study/**'
+      - '.github/workflows/study-app.yml'
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: FLY8 Study
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: FLY8 Study/package-lock.json
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      # Headless-browser e2e on the web export. Chromium is downloaded here (not assumed preinstalled);
+      # E2E_REQUIRE_BROWSER makes a missing browser a failure instead of a silent skip.
+      - run: npx playwright-core install --with-deps chromium
+      - run: npm run e2e
+        env:
+          E2E_REQUIRE_BROWSER: '1'
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: e2e-failures
+          path: FLY8 Study/.expo/e2e-failures
+          if-no-files-found: ignore
+      - run: npx expo export --platform android
+        env:
+          CI: '1'

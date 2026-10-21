@@ -1,0 +1,927 @@
+[
+  {
+    "id": "np2-0001",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Dizziness while lying supine",
+    "noteId": "np2-ob-changes-heart-blood-lungs",
+    "vignette": "During a fundal height measurement a 34-week primigravida lying flat on her back becomes pale and says she feels lightheaded. Her blood pressure falls from 112/70 to 86/54. She also mentions tingling in her fingertips, and she is breathing a little faster than before.",
+    "stem": "What should the nurse do FIRST?",
+    "options": [
+      "Have her breathe slowly into cupped hands until the tingling stops",
+      "Raise the head of the bed and give her sips of water",
+      "Start an IV infusion and prepare for a fluid bolus",
+      "Turn her to the left side and recheck her blood pressure"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: symptoms began while supine, blood pressure fell, and the woman is pale; the tingling is a distraction pointing to hyperventilation.\n2. Principle: the gravid uterus presses on the vena cava when the woman lies flat, lowering venous return (supine hypotensive syndrome); the position of choice is left lateral.\n3. Priority rule: circulation first; correct the cause with the least invasive measure before breathing exercises or fluids.\n4. Flip: if her pressure were normal and she had tingling after rapid anxious breathing, slow breathing into cupped hands would be the right first step.",
+    "optionRationales": [
+      "Plausible detail from a similar condition: this treats respiratory alkalosis, not the fall in pressure.",
+      "Treats the symptom: sitting up and water do not remove the pressure on the vena cava.",
+      "Over-intervention: the cause is positional and an IV bolus is not the first step.",
+      "Correct: the least invasive action that relieves the cause and restores venous return."
+    ],
+    "strategy": "Maslow: circulation first, turn to the left side",
+    "archetype": "two look-alike causes of dizziness",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Supine hypotensive syndrome: the uterus compresses the vena cava; left lateral position of choice.",
+      "Hyperventilation causes tingling; treat with slow breathing into cupped hands."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0002",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Hormone that triggers ovulation",
+    "noteId": "np2-ob-menstrual-hormones",
+    "vignette": "A 27-year-old with regular cycles wants to time intercourse to become pregnant. The nurse explains the sequence of hormone events. The woman asks which event comes just before the egg is released and signals that she is most fertile.",
+    "stem": "Which event should the nurse name?",
+    "options": [
+      "The early-cycle activity of follicle-stimulating hormone",
+      "The mid-cycle surge of luteinizing hormone",
+      "The rise of progesterone from the corpus luteum",
+      "The rise of human chorionic gonadotropin from the trophoblast"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cue: the question asks for the event that immediately precedes release of the egg.\n2. Principle: FSH acts early in the cycle to mature the follicle; the LH surge around mid-cycle triggers ovulation; progesterone rises after ovulation from the corpus luteum; hCG appears only after implantation.\n3. The LH surge is therefore the signal that ovulation is near.\n4. Flip: if she asked which hormone matures the follicle before the surge, FSH would be correct.",
+    "optionRationales": [
+      "True statement that does not answer the question: FSH matures the follicle earlier in the cycle.",
+      "Correct: the LH surge triggers ovulation.",
+      "Right hormone, wrong time: progesterone rises after ovulation.",
+      "Wrong stage: hCG is produced only after a pregnancy has implanted."
+    ],
+    "strategy": "Match hormone event to function",
+    "archetype": "hormone event and timing",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "LH surge at mid-cycle triggers ovulation; FSH matures the follicle early in the cycle."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0003",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Decidua and placenta",
+    "noteId": "np2-ob-female-internal",
+    "vignette": "A nursing student studies a diagram of the pregnant uterus. The embryo is embedded in the lining, with one part of the lining lying beneath it, another stretching over its surface, and a third covering the rest of the uterine cavity.",
+    "stem": "Which part lies beneath the embryo and becomes the maternal side of the placenta?",
+    "options": [
+      "Decidua capsularis",
+      "Decidua basalis",
+      "Decidua vera",
+      "Perimetrium"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cue: the part located under the embryo.\n2. Principle: in pregnancy the endometrium becomes the decidua; the basalis lies under the embryo and becomes the maternal side of the placenta; the capsularis stretches over the embryo; the vera is the remaining lining.\n3. The perimetrium is the outer layer of the uterus and is not part of the decidua.\n4. Flip: the portion stretching over the embryo surface would be the capsularis.",
+    "optionRationales": [
+      "Lies over the embryo surface, not beneath it.",
+      "Correct: it lies beneath the embryo and forms the maternal placenta.",
+      "Lines the rest of the cavity, away from the implantation site.",
+      "Wrong layer: the perimetrium is the outer layer of the uterine wall."
+    ],
+    "strategy": "Identify the structure by its relation to the embryo",
+    "archetype": "which part of the decidua",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Decidua basalis: under the embryo; capsularis: over it; vera: the rest of the lining."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0004",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Matching a complaint to its hormone cause",
+    "noteId": "np2-ob-x-hormones",
+    "vignette": "A 20-week primigravida tells the nurse that her gums bleed when she brushes and that she has more saliva than usual. Earlier in pregnancy she had nausea, and she now has some constipation.",
+    "stem": "Which teaching best addresses her gum bleeding?",
+    "options": [
+      "Use a soft toothbrush and avoid strong mouthwash",
+      "Eat dry unsalted crackers before getting out of bed",
+      "Elevate the legs and rest on the left side",
+      "Eat small frequent meals and walk after eating"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: bleeding gums and excess saliva in the second trimester.\n2. Principle: high estrogen is linked to gum swelling and bleeding (epulis) and to ptyalism; a soft toothbrush and avoiding strong mouthwash are the teaching; hard candies can help saliva.\n3. The other measures belong to other hormones: hCG nausea, circulation slowing, and progesterone slowing the gut.\n4. Flip: if she complained of morning nausea, the dry crackers would be correct.",
+    "optionRationales": [
+      "Correct: it protects swollen, friable gums.",
+      "Plausible detail from a similar condition: this relieves nausea, not gum bleeding.",
+      "Plausible detail from a similar condition: this relieves swelling and varicosities.",
+      "Plausible detail from a similar condition: this relieves heartburn and slowed digestion."
+    ],
+    "strategy": "Match the teaching to the hormone cause",
+    "archetype": "hormone to nursing measure",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "High estrogen causes epulis (gum swelling and bleeding) and ptyalism.",
+      "hCG is linked to nausea; progesterone slows the gut."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0005",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Discharge teaching for placenta previa",
+    "noteId": "np2-ob-placenta-previa",
+    "vignette": "A 34-week woman with placenta previa has had no bleeding for 72 hours and is being discharged on bed rest with follow-up. The nurse reviews her understanding. She lives 40 minutes from the district hospital and her husband works nights.",
+    "stem": "Which statement by the client shows that further teaching is needed?",
+    "options": [
+      "\"I will lie on my side most of the day and get up only for the bathroom.\"",
+      "\"If I see any bright red bleeding, I will go to the hospital at once, even at night.\"",
+      "\"If I stay free of bleeding for a week, I can go back to intercourse and wear tampons.\"",
+      "\"I understand that I will probably need a cesarean birth because of where the placenta is.\""
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: previa with recent bleeding that stopped, discharge on bed rest, and long travel time.\n2. Principle: no vaginal, pelvic or rectal exam because it can trigger massive hemorrhage; if bleeding stops, bed rest at home with follow-up; a total previa needs cesarean; side-lying rest.\n3. Inserting anything in the vagina (intercourse, tampons) can provoke bleeding, so the statement contradicts teaching.\n4. Flip: if the placenta had moved away from the cervix on a repeat ultrasound, activity restrictions might be relaxed.",
+    "optionRationales": [
+      "Correct understanding: bed rest and side-lying.",
+      "Correct understanding: bright red bleeding needs immediate hospital care.",
+      "Correct: anything inserted into the vagina risks provoking bleeding and needs reteaching.",
+      "Correct understanding: previa that covers the os generally requires cesarean birth."
+    ],
+    "strategy": "Nothing in the vagina; bed rest; return for bleeding",
+    "archetype": "spot the unsafe statement",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Never do a vaginal, pelvic or rectal exam in placenta previa; bed rest at home if bleeding stops.",
+      "A total previa needs cesarean."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0006",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Timing ovulation with a long cycle",
+    "noteId": "np2-ob-menstrual-phases",
+    "vignette": "A 31-year-old woman has cycles that are regularly 35 days long. She has been timing intercourse for day 14 because \"that is when ovulation happens\". She has not conceived after six months and asks the nurse when she is most likely to ovulate.",
+    "stem": "Which advice is most accurate?",
+    "options": [
+      "Ovulation is likely on day 14, because it occurs at the middle of every cycle",
+      "Ovulation is likely around day 28, one week before her next period",
+      "Ovulation is likely around day 21, because the luteal phase is about 14 days",
+      "Ovulation is likely around day 7, soon after the flow stops"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cue: a regular 35-day cycle and an assumption that ovulation is on day 14.\n2. Principle: the proliferative phase varies in length but the luteal phase is always about 14 days, so ovulation falls about 14 days before the next period.\n3. Counting back 14 days from day 35 gives about day 21.\n4. Flip: with a regular 28-day cycle, the same reasoning gives day 14.",
+    "optionRationales": [
+      "Common error: day 14 applies only to a 28-day cycle.",
+      "Wrong landmark: day 28 would be only about a week before the period, but the luteal phase is 14 days.",
+      "Correct: the luteal phase is constant at about 14 days, so ovulation is about 14 days before the next period.",
+      "Wrong phase: day 7 is during the proliferative phase before the surge."
+    ],
+    "strategy": "Count back from the next period: luteal phase is constant",
+    "archetype": "luteal phase is constant",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Luteal phase is constant at about 14 days; the proliferative phase varies.",
+      "Ovulation occurs about 14 days before the next period."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0007",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Ruptured ectopic pregnancy",
+    "noteId": "np2-ob-ectopic",
+    "vignette": "A 29-year-old with a positive pregnancy test, amenorrhea for 7 weeks and left lower abdominal pain was waiting for an ultrasound. She suddenly cries out, says the pain is now in her shoulder, and becomes pale and sweaty. Her abdomen is rigid, her pulse is 128 and her blood pressure 82/50. She asks for a drink of water.",
+    "stem": "What should the nurse do FIRST?",
+    "options": [
+      "Give her sips of water to relieve the dry mouth",
+      "Reassure her and repeat the pregnancy test in 48 hours",
+      "Place a large-bore IV line and prepare for surgery, keeping her NPO",
+      "Assist with culdocentesis first to confirm bleeding before any treatment"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: shoulder pain, rigid abdomen, rapid pulse and falling pressure in a woman with a probable ectopic pregnancy.\n2. Principle: a ruptured ectopic is a life-threatening bleed; the priorities are ABCs, large IV access, treating shock, preparing for surgery and keeping NPO.\n3. Priority rule: unstable before stable; confirm only if it does not delay lifesaving care.\n4. Flip: if she were stable with an unruptured mass under 3 cm, medical treatment with methotrexate could be considered.",
+    "optionRationales": [
+      "Unsafe: oral intake is not allowed because she may need surgery.",
+      "Under-reaction: the signs show rupture and cannot wait for a repeat test.",
+      "Correct: stabilize circulation and prepare for definitive surgery.",
+      "Right test, wrong time: confirmation must not delay treatment of shock."
+    ],
+    "strategy": "ABC: treat shock and prepare for surgery",
+    "archetype": "recognize rupture and act",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "A ruptured ectopic is a life-threatening bleed: ABCs, large IV access, treat shock, NPO.",
+      "Shoulder pain and a rigid abdomen suggest hemoperitoneum."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0008",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Duration of second stage",
+    "noteId": "np2-ob-x-numbers",
+    "vignette": "On a labor unit four clients are pushing in the second stage of labor. The charge nurse asks the staff nurse which client is still within the expected time frame and needs no escalation, given that all fetal heart tracings are reassuring.",
+    "stem": "Which client is within the expected time for the second stage?",
+    "options": [
+      "A primigravida pushing for 2 hours with steady descent of the head",
+      "A multigravida who has been pushing for 90 minutes with no descent",
+      "A multigravida pushing for 3 hours with slow but steady descent",
+      "A primigravida pushing for 5 hours with the head at the same station"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: four clients with different parity and different pushing times.\n2. Principle: the second stage lasts about 1 to 4 hours for a first-time mother and about 20 to 45 minutes for a multigravida.\n3. Two hours with progress in a primigravida is within range; the multigravida at 90 minutes or at 3 hours exceeds expected time and the primigravida at 5 hours exceeds even the longer range.\n4. Flip: if the primigravida had 5 hours of pushing, evaluation for obstructed labor would be needed.",
+    "optionRationales": [
+      "Correct: within 1 to 4 hours for a primigravida with progress.",
+      "Beyond expected time: multigravidas usually finish in about 20 to 45 minutes, and there is no descent.",
+      "Longer than expected for a multigravida, even with descent.",
+      "Beyond the expected range for a primigravida and without progress."
+    ],
+    "strategy": "Know the expected time limits before escalating",
+    "archetype": "expected time limits",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Second stage: first-time mother about 1 to 4 hours; multigravida about 20 to 45 minutes."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0009",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Gravida and TPAL",
+    "noteId": "np2-ob-terms",
+    "vignette": "A woman is currently pregnant. In her history she delivered one baby at 39 weeks who is alive, one baby at 35 weeks who is alive, and had one spontaneous abortion at 8 weeks. The nurse records the obstetric history in the chart.",
+    "stem": "Which entry is correct?",
+    "options": [
+      "G3 T1 P1 A1 L2",
+      "G4 T1 P2 A0 L2",
+      "G4 T1 P1 A1 L2",
+      "G4 T2 P0 A1 L2"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: the current pregnancy plus three earlier pregnancies of different outcomes.\n2. Principle: gravida counts all pregnancies regardless of outcome including the current one; term births, preterm births, abortions and living children are counted separately.\n3. Four pregnancies make G4; the 39-week birth is a term, the 35-week birth a preterm, the 8-week loss an abortion; two children are living.\n4. Flip: if the woman were not currently pregnant, the entry would be G3.",
+    "optionRationales": [
+      "Omits the current pregnancy, which counts toward gravida.",
+      "Counts the abortion as a preterm birth and omits it from abortions.",
+      "Correct: four pregnancies, one term, one preterm, one abortion, two living.",
+      "Counts the preterm baby as a term birth."
+    ],
+    "strategy": "Count pregnancies and outcomes separately",
+    "archetype": "record the obstetric history",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Gravida includes the current pregnancy; TPAL = term, preterm, abortions, living."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0010",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Breech labor findings",
+    "noteId": "np2-ob-breech",
+    "vignette": "A 38-week multigravida is in active labor with a breech presentation. Her membranes have just ruptured spontaneously, and the fluid is stained dark green. The nurse hears a fetal heart rate of 142 and a regular rhythm, high on the abdomen.",
+    "stem": "What is the nurse's BEST action?",
+    "options": [
+      "Prepare for an emergency cesarean because the green fluid shows the fetus is in distress",
+      "Document the findings and continue routine monitoring every 30 minutes",
+      "Recheck the fetal heart rate now and look for a prolapsed cord; the meconium is expected",
+      "Apply fundal pressure to speed delivery now that the membranes have ruptured"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: breech labor, rupture of membranes, green fluid, and a normal heart rate heard high on the abdomen.\n2. Principle: meconium is expected in breech because the bowel is squeezed and is not itself a sign of distress; breech risks cord prolapse and head entrapment after rupture.\n3. Priority rule: assess for the real risk (heart rate and cord) rather than act on an expected finding.\n4. Flip: if the fetal heart rate fell to 80 with variable decelerations, cord prolapse would be suspected and emergency measures begin.",
+    "optionRationales": [
+      "Over-intervention: meconium in breech is expected and the heart rate is normal.",
+      "Under-reaction: rupture of membranes in breech requires immediate heart rate assessment.",
+      "Correct: it checks for the real danger without overreacting to expected meconium.",
+      "Unsafe: fundal pressure can cause head entrapment or injury."
+    ],
+    "strategy": "Do not misread an expected finding, but guard against cord prolapse",
+    "archetype": "expected versus alarming",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Meconium staining is expected in breech and is not itself a sign of distress.",
+      "Watch for cord prolapse after membranes rupture; fetal heart is best heard higher in breech."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0011",
+    "v": 2,
+    "type": "sata",
+    "area": "NP2",
+    "topic": "Complaints needing follow-up",
+    "noteId": "np2-ob-x-discomforts",
+    "vignette": "At a prenatal visit, a 32-week woman lists everything she has noticed this week. Her blood pressure and urine protein today are normal.",
+    "stem": "Which complaints should the nurse report to the provider? Select all that apply.",
+    "options": [
+      "Burning pain when she passes urine",
+      "Needing to pass urine often, without pain",
+      "Heartburn after large meals that eases with small frequent meals",
+      "Ankle swelling at the end of the day that goes down after elevating her legs",
+      "Sudden swelling of her face and hands this morning",
+      "Vomiting every meal for the last two days so she cannot keep food down"
+    ],
+    "answer": [
+      0,
+      4,
+      5
+    ],
+    "rationale": "1. Cues: six complaints; three are expected discomforts and three are red flags.\n2. Principle: physiologic complaints are met with reassurance and a simple measure; red flags include vomiting that prevents eating, sudden swelling of the face and hands, and painful urination (urinary stasis raises the UTI risk).\n3. Normal pressure and urine today do not erase new red flags.\n4. Flip: if the ankle swelling were sudden, with a severe headache, pre-eclampsia would be considered.",
+    "optionRationales": [
+      "Report: burning urination suggests UTI, which is more likely in pregnancy.",
+      "Expected: urinary frequency from uterine pressure.",
+      "Expected: heartburn from slowed digestion, managed with small meals.",
+      "Expected: dependent swelling that resolves with elevation.",
+      "Report: sudden swelling of the face and hands may indicate pre-eclampsia.",
+      "Report: vomiting that prevents eating needs evaluation."
+    ],
+    "strategy": "Physiologic: reassure; red flags: report",
+    "archetype": "physiologic versus red flag",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Red flags: vomiting that prevents eating, sudden facial and hand swelling, painful urination.",
+      "Physiologic: heartburn, frequency, dependent swelling."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0012",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Positive signs of pregnancy",
+    "noteId": "np2-ob-signs-of-pregnancy",
+    "vignette": "A woman at 12 weeks has a positive urine pregnancy test, a bluish-purple vagina, a softened cervix, breast tenderness and nausea. During the visit the nurse also hears a regular rapid sound over the lower abdomen with a Doppler device.",
+    "stem": "Which finding is a positive sign of pregnancy?",
+    "options": [
+      "The positive urine pregnancy test done in the clinic today",
+      "The fetal heart tones heard with a Doppler",
+      "The bluish-purple color of the vagina found on examination",
+      "The tender breasts, nausea and the missed menstrual period"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cue: the question asks for the one sign that only the fetus can cause.\n2. Principle: presumptive signs are subjective; probable signs can be documented by the examiner but are not proof; positive signs are caused only by the fetus: fetal heart tones, fetal movement felt by the examiner, and the fetus seen on ultrasound.\n3. The pregnancy test (hCG), Chadwick's sign and Goodell's sign are probable.\n4. Flip: if the examiner only felt ballottement, that would still be a probable sign.",
+    "optionRationales": [
+      "Probable sign: hCG can also be raised in a mole or other conditions.",
+      "Correct: only a fetus produces the heartbeat.",
+      "Probable sign: Chadwick's sign reflects increased vascularity.",
+      "Presumptive signs: subjective and least reliable."
+    ],
+    "strategy": "Only the fetus itself causes a positive sign",
+    "archetype": "classify the sign",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Positive signs: fetal heart tones, fetal movement felt by the examiner, fetus seen on ultrasound."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0013",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Uterus larger than expected",
+    "noteId": "np2-ob-fundic-height",
+    "vignette": "At a prenatal visit, a 19-year-old with a last menstrual period 16 weeks ago has a fundus palpated at the level of the umbilicus. She is delighted that she has \"a big belly\", but she has been vomiting often, has had some pinkish vaginal discharge, and the nurse cannot find fetal heart tones with the Doppler.",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Tell her the size is normal and recheck her in four weeks",
+      "Reassure her that the large size means she probably has twins",
+      "Repeat the Doppler every two hours until the heartbeat is heard",
+      "Report the findings and prepare her for an ultrasound"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: fundal height at the umbilicus (about 20 weeks) at about 16 weeks by dates, persistent vomiting, pinkish discharge, and no fetal heart tones.\n2. Principle: a fundus much bigger than expected suggests multiple pregnancy, hydramnios or a mole; the combination with absent heart tones and vomiting makes a mole likely; ultrasound shows a snowstorm pattern.\n3. Priority rule: compare with expected landmarks and escalate, rather than reassure on size.\n4. Flip: if fetal heart tones were clearly heard and she had no vomiting or discharge, twins or wrong dates would be investigated by ultrasound at a routine pace.",
+    "optionRationales": [
+      "Under-reaction: waiting four weeks delays diagnosis of a possible mole.",
+      "Skips assessment: twins would not explain absent heart tones.",
+      "Treats the sign only: repeated Doppler attempts do not clarify the cause.",
+      "Correct: it recognizes a discrepancy that needs prompt evaluation."
+    ],
+    "strategy": "Compare findings with expected landmarks and report",
+    "archetype": "recognize a discrepancy",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "A fundus much bigger than expected suggests multiple pregnancy, hydramnios or a mole.",
+      "Ultrasound in a mole shows a snowstorm pattern."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0014",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Early warning signs of labor",
+    "noteId": "np2-ob-labor-onset-prelim",
+    "vignette": "A primigravida at 38 weeks calls the clinic. She says she breathes more easily, urinates more often, felt a sudden burst of energy and cleaned the whole house, and has lost about a kilogram. She has had strong tightening of her abdomen that comes irregularly and does not get closer.",
+    "stem": "What should the nurse tell her?",
+    "options": [
+      "These are early signs that labor is near; watch for regular, stronger contractions",
+      "Labor has begun, so she should come to the hospital now and bring her bag",
+      "She should take a sedative and rest because these signs mean she is in preterm labor",
+      "These signs mean labor is more than two weeks away, so she needs no preparation yet"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: lightening (easier breathing, more bladder pressure), nesting energy, small weight loss and irregular strong tightening.\n2. Principle: preliminary signs mean labor is near, not that it has begun; the surest sign is progressive, productive contractions.\n3. The nurse teaches what to watch for.\n4. Flip: if contractions were regular and closer together with show or leaking fluid, she would be told to come in.",
+    "optionRationales": [
+      "Correct: it names the signs as preliminary and tells her what to watch for.",
+      "Over-reaction: irregular contractions that do not progress are not true labor.",
+      "Wrong interpretation: she is at 38 weeks, and sedation is not indicated.",
+      "Under-reaction: these signs suggest labor is near, not far."
+    ],
+    "strategy": "Preliminary signs versus true labor",
+    "archetype": "labor is near, not started",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Preliminary signs: lightening, strong Braxton-Hicks, burst of energy, slight weight loss, cervical ripening.",
+      "The surest sign of labor is progressive, productive contractions."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0016",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Where to hear the fetal heart",
+    "noteId": "np2-ob-prenatal-visits-leopold",
+    "vignette": "A nurse performs Leopold's maneuvers on a woman at 36 weeks. The first maneuver finds a firm, round mass in the fundus that moves separately from the rest of the fetus. The second maneuver finds a smooth, hard surface on the woman's left side and knobby parts on the right. A soft, bulky mass is felt above the pelvic inlet.",
+    "stem": "Where is the fetal heart most likely to be heard best?",
+    "options": [
+      "On the left side, below the level of the umbilicus",
+      "On the left side, at or above the level of the umbilicus",
+      "On the right side, at or above the level of the umbilicus",
+      "On the right side, below the level of the umbilicus"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: a firm round mass in the fundus is the head, so the presentation is breech; the smooth hard surface on the left is the back.\n2. Principle: fetal heart tones are heard best over the fetal back; in a breech presentation the heart is best heard higher on the abdomen.\n3. Combine both: back on the left plus breech places the best site on the left at or above the umbilicus.\n4. Flip: if the head were found low in the pelvis with the back on the left, the best site would be left and below the umbilicus.",
+    "optionRationales": [
+      "Right side, wrong level: below the umbilicus would fit a cephalic fetus with its back on the left.",
+      "Correct: over the back on the left, higher up because the fetus is breech.",
+      "Wrong side: the knobby parts, not the back, are on the right.",
+      "Wrong side and level: it contradicts both findings."
+    ],
+    "strategy": "Interpret maneuvers before placing the Doppler",
+    "archetype": "Leopold findings to auscultation site",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Fetal heart tones are heard best over the fetal back.",
+      "In breech the fetal heart is best heard higher on the abdomen."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0017",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Face presentation and progress",
+    "noteId": "np2-ob-lie-attitude-position",
+    "vignette": "A primigravida in labor has been at 6 cm for four hours despite adequate contractions. An ultrasound shows complete extension of the fetal head, with the face presenting and the chin toward the mother's back (mentum posterior). The fetal heart rate is reassuring. The woman asks when she can start pushing.",
+    "stem": "What should the nurse anticipate?",
+    "options": [
+      "Labor will progress normally once the cervix is fully dilated, and pushing will begin",
+      "Oxytocin augmentation will correct the slow progress without further changes",
+      "The baby will turn to a vertex position on its own with a change in the mother's position",
+      "Labor will not progress vaginally and the provider will likely plan a cesarean birth"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: a stalled cervix with adequate contractions, a face presentation with complete extension, and a reassuring fetal heart.\n2. Principle: with the chin posterior, complete extension (face) presents the widest diameter and the face cannot normally enter the pelvis; complete extension stops progress.\n3. The nurse anticipates cesarean preparation and keeps the woman informed; the fetal heart being reassuring allows planned rather than emergency action.\n4. Flip: if the head were flexed in a vertex attitude, slow progress would more likely be treated with positioning or augmentation.",
+    "optionRationales": [
+      "Contradicts the finding: a face presentation will not engage in the usual way.",
+      "Treats the symptom: oxytocin does not correct the attitude.",
+      "Unrealistic expectation: spontaneous correction to flexion is not expected in complete extension.",
+      "Correct: complete extension stops progress and calls for cesarean planning."
+    ],
+    "strategy": "Recognize an attitude that blocks labor",
+    "archetype": "attitude and progress",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Face presentation (complete extension) presents the widest diameter and stops progress.",
+      "Attitude is the degree of flexion; vertex is the smallest diameter."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0018",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Suspected endometritis",
+    "noteId": "np2-ob-postpartum-infection",
+    "vignette": "On the third day after a prolonged labor and a cesarean birth, a woman has a temperature of 38.6 C, a pulse of 104, foul-smelling lochia and uterine tenderness. She says she is tired but wants to bring the baby to bed to breastfeed. The nurse is also due to give a prescribed laxative.",
+    "stem": "What should the nurse do FIRST?",
+    "options": [
+      "Give the prescribed laxative as ordered and reassess her temperature at the start of the next shift",
+      "Reassure her that the discharge is normal lochia and encourage rest",
+      "Report the findings, collect cultures as ordered and place her in semi-Fowler's position",
+      "Apply a heat lamp to the perineum and encourage the baby to feed"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: fever, foul lochia, uterine tenderness and tachycardia after prolonged labor and cesarean (fever plus foul lochia plus a tender uterus).\n2. Principle: endometritis is treated by early reporting, cultures, antibiotics and semi-Fowler's position so that discharge drains downward and does not spread to the pelvis.\n3. Priority rule: finding and treating infection early prevents sepsis.\n4. Flip: if the temperature were normal and the lochia rubra with no odor, routine postpartum care would be continued.",
+    "optionRationales": [
+      "Misses the priority: a laxative does not address infection and waiting delays treatment.",
+      "Trap answer: foul lochia with fever is not normal.",
+      "Correct: it escalates, identifies the organism and positions for drainage.",
+      "Wrong measure: heat does not treat uterine infection."
+    ],
+    "strategy": "Do not call it normal lochia",
+    "archetype": "first actions",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Fever plus foul lochia plus a tender uterus equals endometritis.",
+      "Semi-Fowler's so that discharge drains downward."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0019",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Counseling on lactational amenorrhea",
+    "noteId": "np2-ob-x-lam",
+    "vignette": "A mother is 4 months after delivery. She breastfeeds on demand but gives a bottle of formula each night so that she can sleep. She has not had a period since the birth. She says she is relying on breastfeeding as her family planning method and asks if that is enough.",
+    "stem": "What should the nurse tell her?",
+    "options": [
+      "She is protected because her periods have not returned and the baby is under 6 months old",
+      "She is protected as long as she breastfeeds at least once a day",
+      "She should stop the formula bottle to lengthen the period of protection",
+      "The method works only with exclusive breastfeeding, so she should add another method now"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: formula supplementation, no menses, 4 months postpartum.\n2. Principle: lactational amenorrhea requires all three conditions: exclusive breastfeeding, no menstruation, and within 6 months postpartum; the method fails as soon as one is no longer met.\n3. Her regular formula bottle means feeding is not exclusive, so protection is not reliable.\n4. Flip: if she fed only breast milk on demand day and night, she would meet all three conditions until 6 months.",
+    "optionRationales": [
+      "Partial truth: two conditions are met but exclusivity is not.",
+      "Wrong understanding: breastfeeding once a day is not exclusive breastfeeding.",
+      "Right goal, wrong solution: it risks pregnancy while she changes feeding, and the nurse should not leave her unprotected.",
+      "Correct: one condition is no longer met, so another method is needed."
+    ],
+    "strategy": "The method fails when one requirement is not met",
+    "archetype": "all conditions must hold",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Lactational amenorrhea: exclusive breastfeeding, no menses, within 6 months postpartum.",
+      "Ovulation can occur before the first period."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0020",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Cephalopelvic disproportion and trial of labor",
+    "noteId": "np2-ob-x-cesarean-factors",
+    "vignette": "A primigravida in early labor is told that her pelvis is borderline for the baby's head. The physician orders a trial of labor. The woman, frightened, tells the nurse, \"Please ask for a cesarean now. Isn't that what happens when the baby is too big?\" Her fetal heart tracing is reassuring.",
+    "stem": "Which response is BEST?",
+    "options": [
+      "Tell her that disproportion always requires a cesarean birth and that she will be prepared for surgery soon",
+      "Explain that a trial of labor is usually tried first, with cesarean if labor stalls or distress appears",
+      "Agree to ask the physician to schedule the cesarean for tomorrow morning",
+      "Tell her not to worry because her pelvis will certainly be wide enough for vaginal birth"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: suspected disproportion, a frightened client requesting surgery, and reassuring fetal status.\n2. Principle: even with cephalopelvic disproportion, a trial of labor is usually allowed first; cesarean is not automatic; it is done for obstructed labor or fetal distress.\n3. The nurse explains the plan honestly and keeps watching progress and fetal heart.\n4. Flip: if the tracing showed persistent late decelerations, prompt delivery would be prepared.",
+    "optionRationales": [
+      "The trap: CPD does not mean automatic cesarean.",
+      "Correct: honest explanation of the plan and the triggers for cesarean.",
+      "Skips assessment: surgery is not scheduled before a trial of labor shows how labor goes.",
+      "False reassurance: the outcome is uncertain, which is why a trial of labor is done."
+    ],
+    "strategy": "Trial of labor first when appropriate",
+    "archetype": "cesarean is not automatic",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "With CPD a trial of labor is usually allowed first; cesarean is not automatic.",
+      "Obstructed labor or fetal distress leads to cesarean preparation."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0021",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Pica in pregnancy",
+    "noteId": "np2-ob-changes-gi-renal",
+    "vignette": "During a prenatal visit a 26-week woman admits that she eats laundry starch and a few pieces of clay every day. She looks embarrassed and asks if she is \"harming the baby\". She feels tired and her conjunctivae look pale.",
+    "stem": "What is the nurse's BEST response?",
+    "options": [
+      "Tell her firmly to stop at once because it will harm the baby",
+      "Reassure her that cravings are normal in pregnancy and no further action is needed",
+      "Ask about the cravings without criticism and arrange a check for anemia",
+      "Suggest she replace the starch and clay with salty snacks"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: eating non-food substances, fatigue and pallor.\n2. Principle: pica is craving non-food items; do not criticize; assess, check for anemia and offer safer choices.\n3. The pallor and fatigue make anemia the cue to check.\n4. Flip: if the woman denied any cravings and had normal hemoglobin, no special action would be needed.",
+    "optionRationales": [
+      "Unhelpful: scolding discourages disclosure and does not assess the cause.",
+      "Under-reaction: pallor and fatigue need assessment.",
+      "Correct: nonjudgmental assessment and a check for anemia.",
+      "Treats the symptom: salty snacks do not address a possible deficiency."
+    ],
+    "strategy": "Assess without criticizing",
+    "archetype": "nonjudgmental assessment",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Pica: craving non-food items; do not criticize; assess, check for anemia, offer safer choices."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0022",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Over-the-counter drugs in pregnancy",
+    "noteId": "np2-ob-drugs-nsaids-aspirin",
+    "vignette": "A 30-week woman reports that she takes ibuprofen from the drugstore two or three times a week for headaches and drinks an herbal tea every evening. She also takes her prenatal vitamins. She says, \"It is only over the counter, so it must be safe.\"",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Explain that NSAIDs can harm the fetus and ask her to consult her provider about alternatives",
+      "Tell her to stop all medicines including her prenatal vitamins until after delivery",
+      "Reassure her that over-the-counter drugs are generally safe in pregnancy if taken only occasionally",
+      "Advise her to switch to regular aspirin since it is milder than ibuprofen"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: regular NSAID use in late pregnancy, an herbal product, and the belief that OTC means safe.\n2. Principle: NSAIDs can cause premature closure of the ductus arteriosus and oligohydramnios; aspirin has its own risks; ask about all drugs, herbs and OTC products at each visit and advise not to self-medicate.\n3. The key corrects the misconception and gets safer advice from the provider.\n4. Flip: if the drug were her prescribed prenatal vitamin, no change would be needed.",
+    "optionRationales": [
+      "Correct: it addresses the risk and routes decisions to the provider.",
+      "Over-intervention: prenatal vitamins are not harmful and should be continued.",
+      "Unsafe: NSAIDs are not safe in pregnancy just because they are OTC.",
+      "Wrong substitute: aspirin also has bleeding and ductus risks."
+    ],
+    "strategy": "Safety of the fetus: ask, explain and refer",
+    "archetype": "ask about all products",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "NSAIDs: premature closure of the ductus arteriosus and oligohydramnios.",
+      "Ask about all drugs, herbs and OTC products; advise not to self-medicate."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0024",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Concealed bleeding in the third trimester",
+    "noteId": "np2-ob-x-bleeding-compare",
+    "vignette": "A 34-week woman comes to the district hospital with sudden severe constant pain at the top of her uterus. The uterus is hard and board-like. There is only a small amount of dark blood on her pad. Her blood pressure is falling and her pulse is rising. The fetal heart rate cannot be found.",
+    "stem": "Which interpretation should guide the nurse's priorities?",
+    "options": [
+      "Abruptio placentae with concealed bleeding; scant external blood underestimates the loss",
+      "Placenta previa; the small amount of bleeding means the hemorrhage is mild and not urgent",
+      "Threatened abortion; the pain and spotting need observation and rest",
+      "Premature labor; the hard uterus means strong contractions that need tocolysis"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: severe constant fundal pain, board-like uterus, scant dark bleeding, falling pressure and loss of fetal heart tones.\n2. Principle: abruptio placentae presents with sharp fundal pain and a rigid uterus; bleeding may be hidden; a central (concealed) separation is more dangerous because blood is trapped in the uterine muscle.\n3. Priority rule: unstable before stable; treat the hemodynamic picture, not the amount of visible blood.\n4. Flip: painless bright red bleeding with a soft uterus would point to placenta previa.",
+    "optionRationales": [
+      "Correct: the findings fit concealed abruptio and shock.",
+      "Wrong condition: previa causes painless bright red bleeding with a soft uterus.",
+      "Wrong stage: threatened abortion is a first-trimester condition without a rigid uterus.",
+      "Wrong condition: contractions are intermittent; a persistently board-like uterus with shock points to abruptio."
+    ],
+    "strategy": "Unstable before stable: scant bleeding can hide major loss",
+    "archetype": "external bleeding underestimates loss",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Abruptio: sharp fundal pain, rigid uterus, bleeding that may be hidden, fetal heart tones that may be lost.",
+      "A central (concealed) separation is the more dangerous form."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0025",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Interpreting a non-stress test",
+    "noteId": "np2-ob-bpp-nst",
+    "vignette": "A 37-week woman with decreased fetal movement is having a non-stress test in a semi-sitting position. During 20 minutes of monitoring she reports feeling the baby move four times. The baseline is 140 beats per minute. With each movement the fetal heart rate rises by about 10 beats for about 10 seconds. There are no contractions.",
+    "stem": "How should the nurse interpret the test and proceed?",
+    "options": [
+      "The test is reactive; the baby is well and routine follow-up is enough",
+      "The test is reactive but should be repeated with the woman lying flat on her back",
+      "The test is invalid because the woman was semi-sitting; repeat it supine",
+      "The test is non-reactive; report it, since a CST or biophysical profile is next"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: four movements with accelerations of only about 10 beats for about 10 seconds.\n2. Principle: a reactive NST needs two or more accelerations of at least 15 beats lasting 15 seconds in 20 minutes; a non-reactive NST leads to a contraction stress test or a biophysical profile.\n3. Safety: never lay the woman flat, because of supine hypotension; semi-sitting or left side is correct.\n4. Flip: if each movement raised the heart rate by 15 beats for 15 seconds twice, the test would be reactive.",
+    "optionRationales": [
+      "Misreads the criteria: the accelerations are too small and too short.",
+      "Unsafe: supine positioning risks supine hypotension.",
+      "Wrong reasoning: semi-sitting is the recommended position, not a flaw.",
+      "Correct: the accelerations do not meet the criteria, so further testing is needed."
+    ],
+    "strategy": "Interpret the tracing and plan the next step",
+    "archetype": "reactive versus non-reactive",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Reactive NST: 2 or more accelerations of 15 bpm for 15 seconds in 20 minutes.",
+      "Non-reactive NST leads to a CST or BPP; avoid the supine position."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0027",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "After a contraction stress test",
+    "noteId": "np2-ob-cst",
+    "vignette": "A 38-week woman has just completed a contraction stress test with nipple stimulation. The test is read as negative. She feels a few mild contractions and says her older child is waiting at home, so she asks to leave right away. The physician is in the clinic.",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Let her go home now, since a negative result means everything is fine with the baby",
+      "Keep her about 30 minutes to be sure the contractions settle before she leaves",
+      "Start oxytocin to confirm that contractions can be tolerated",
+      "Repeat the test the next day to be sure the result is negative"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: a negative test, ongoing mild contractions after provoked stimulation, and a client in a hurry.\n2. Principle: after a CST observe about 30 minutes to make sure contractions settle and preterm or early labor does not start; negative means no late decelerations.\n3. Priority rule: safety first; a normal result does not remove the need for observation.\n4. Flip: if contractions had already stopped and 30 minutes had passed with reassuring tracing, she could go home.",
+    "optionRationales": [
+      "Skips assessment: a negative result does not end the observation period.",
+      "Correct: observation ensures contractions settle and labor does not start.",
+      "Over-intervention: the test is complete, and more oxytocin is not needed.",
+      "Over-intervention: no repeat test is needed after a negative result."
+    ],
+    "strategy": "Safety after provoked contractions",
+    "archetype": "observe before discharge",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Negative CST: no late decelerations. Observe about 30 minutes afterward.",
+      "Nipple stimulation or oxytocin is used to produce contractions."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0028",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Spontaneous rupture of membranes",
+    "noteId": "np2-ob-x-fetal-distress-actions",
+    "vignette": "A 39-week primigravida arrives at the birthing unit and says her water broke on the way. She is having mild contractions and wants to use the toilet. Her mother says it happened more than an hour ago. The fluid on her pad looks clear.",
+    "stem": "What should the nurse do FIRST?",
+    "options": [
+      "Perform a sterile vaginal examination first to see how far she has dilated and effaced",
+      "Let her use the toilet, then place her flat on her back for monitoring",
+      "Collect a clean urine specimen to rule out a urinary infection",
+      "Check the fetal heart rate at once and record the rupture time and fluid color"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: ruptured membranes, uncertain timing, and a woman wanting to move.\n2. Principle: after rupture, note the time (infection risk rises after 24 hours) and check fetal heart tones at once because of the risk of cord prolapse.\n3. Priority rule: assess the fetus first; the least risky check comes before an examination.\n4. Flip: if the cord were visible at the vaginal opening, the response would be an emergency cord prolapse protocol.",
+    "optionRationales": [
+      "Right action, wrong time: the vaginal examination follows the fetal heart check, and it increases infection risk.",
+      "Unsafe: lying flat risks supine hypotension, and she should not delay the heart rate check.",
+      "Right task, wrong priority: urine testing does not address cord or fetal status.",
+      "Correct: it checks fetal status and records the time and fluid color."
+    ],
+    "strategy": "Check the cord risk before examining the cervix",
+    "archetype": "first checks",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Ruptured membranes: note the time; check fetal heart tones at once because of cord prolapse risk.",
+      "Infection risk climbs after 24 hours."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  }
+]

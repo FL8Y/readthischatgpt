@@ -1,0 +1,779 @@
+[
+ {
+  "id": "cb-np4-0001",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "DKA potassium trend",
+  "noteId": "np4-ge-diabetic-ketoacidosis",
+  "vignette": "A 24-year-old client in DKA has been on a continuous insulin infusion and IV 0.9% saline for four hours. Glucose has fallen from 640 to 280 mg/dL. Serum potassium was 5.4 mEq/L on arrival and is now 3.1 mEq/L; the monitor shows new flattened T waves. The client says she feels much better and asks for a drink.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Increase the insulin rate because the glucose is still well above normal",
+   "Give sodium bicarbonate to speed correction of the acidosis",
+   "Report the potassium and ECG change and anticipate a replacement order",
+   "Document the improving glucose and recheck potassium in four hours"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: glucose improving, but potassium 5.4 to 3.1 with flattened T waves.\n2. Principle: insulin and fluids move potassium into cells; low potassium causes dysrhythmia.\n3. Priority: unstable before stable; the improving glucose is the expected, reassuring trend.\nCurve ball: the client looks better and glucose is falling, so continuing or speeding insulin feels right; the trap is that the same treatment is what is dropping her potassium.\nFlip: if potassium were still 5.4, continuing the infusion would be correct.",
+  "optionRationales": [
+   "Treats the number, not the cause. More insulin drives potassium lower and deepens the risk.",
+   "Unsafe but tempting habit. The note says to avoid bicarbonate in DKA because it causes further sudden potassium drops.",
+   "Correct. Potassium shifts into cells as insulin and fluids work, so a fast fall with ECG change is a danger signal that needs replacement ordered.",
+   "Under-reaction. The glucose trend is good, but the potassium and ECG are the new danger and cannot wait."
+  ],
+  "strategy": "Lab trend reverses the usual rule",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Serum K can fall fast as fluids and insulin work; replace once levels drop",
+   "Avoid bicarbonate in DKA",
+   "ECG every 2-4 hours at first"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np4-0002",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Hypoglycemia, unable to swallow",
+  "noteId": "np4-ge-hypoglycemia",
+  "vignette": "At a barangay health station a 58-year-old man who took his insulin two hours ago and skipped lunch is sweating, trembling and confused. His wife holds a glass of orange juice, but he pushes it away, coughs when she tries, and vomits a little. The station has no IV supplies. His glucose by meter reads 42 mg/dL.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Give glucagon by intramuscular injection as ordered by protocol",
+   "Give small sips of juice slowly, a few drops at a time",
+   "Place a piece of hard candy between his cheek and gum",
+   "Send blood to the laboratory to confirm the glucose before treating"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: confused, coughs on juice, vomiting, glucose 42.\n2. Principle: fast sugar by mouth only works if the client is awake and able to swallow.\n3. Priority: airway safety and speed; with no IV, the injectable route wins.\nCurve ball: the memorised rule is 'give 15 g of fast sugar'; the detail that he coughs and vomits turns the tempting oral sugar into the unsafe option.\nFlip: if he were alert and swallowing normally, juice would be correct.",
+  "optionRationales": [
+   "Correct. He cannot safely swallow, and no IV is available, so the injectable route is the safe fast treatment.",
+   "Right action, wrong route. Forcing fluid into a confused client who coughs risks aspiration.",
+   "Unsafe common habit. A confused, vomiting client can choke on candy.",
+   "Skips the obvious: a symptomatic client with a low meter reading is treated first; waiting delays treatment."
+  ],
+  "strategy": "Route follows ability to swallow",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "If unconscious or cannot swallow: glucagon SC or IM",
+   "Do not wait for a lab value when symptomatic"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np4-0003",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Restlessness in cirrhosis",
+  "noteId": "np4-ge-hepatic-encephalopathy",
+  "vignette": "A 52-year-old man with cirrhosis is on lactulose. At 0200 he is restless, picking at the sheets, and wants to leave. His hands flap when he extends his arms. He has had no bowel movement for two days, and a PRN lorazepam order is available. His wife is asleep in the chair.",
+  "stem": "Which action is best for the nurse to take first?",
+  "options": [
+   "Give the PRN lorazepam so he can rest and stop disturbing the other patients tonight",
+   "Apply soft wrist restraints to stop him pulling at lines",
+   "Ask his wife to wake and sit with him until he settles",
+   "Check for a recent stool and signs of bleeding and report the change in mental status"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: new restlessness, asterixis, no stool for two days on lactulose.\n2. Principle: ammonia is raised by GI bleeding, constipation, protein load.\n3. Priority: assess and report the cause before sedating a client whose liver cannot clear drugs.\nCurve ball: night-time agitation looks like a behavior problem with a PRN sedative ready; the flapping hands tell you it is a brain problem.\nFlip: if the flap were absent and he was oriented, a sedative request would be a different question.",
+  "optionRationales": [
+   "Unsafe common habit. A damaged liver cannot clear sedatives, and sedation can mask coma.",
+   "Over-intervention. Restraint treats the behavior, not the brain problem, and adds agitation.",
+   "True but incomplete. Company helps safety but does not find the cause of the change.",
+   "Correct. Restlessness with asterixis signals rising ammonia; constipation and hidden bleeding are triggers to look for before anything is given."
+  ],
+  "strategy": "Treat the cause, not the behavior",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Triggers raising ammonia: GI bleeding, high protein, gut bacteria",
+   "Use conservative doses of sedatives",
+   "Safety and airway first in a drowsy client, then treat the ammonia source"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np4-0004",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Balloon tube airway distress",
+  "noteId": "np4-ge-esophageal-varices",
+  "vignette": "A client with bleeding esophageal varices has a Sengstaken-Blakemore tube in place and is in the ICU. He suddenly gasps, grabs his throat and cannot speak. His pulse oximeter falls to 82%, and the tube looks about 10 cm further out of the mouth than it was an hour ago. The nurse is alone at the bedside; oxygen is on the wall.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Apply a high-flow non-rebreather mask and call the provider to the bedside at once",
+   "Cut the tube across with the bedside scissors to deflate the balloons and pull it out",
+   "Suction the oropharynx and reposition the tube downward",
+   "Deflate only the gastric balloon and wait for the provider"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: sudden choking, falling saturation, tube further out.\n2. Principle: the migrated balloon is blocking the airway.\n3. Priority: airway first, and the fix for a device-caused obstruction is removing the device.\nCurve ball: ABC thinking suggests oxygen and calling for help; with an obstructed airway the oxygen cannot get through.\nFlip: if he were breathing easily and the tube had not moved, you would monitor and keep scissors ready.",
+  "optionRationales": [
+   "Right priority, wrong tool. Oxygen cannot pass an obstructed airway; the cause must be removed.",
+   "Correct. The tube has migrated up and is blocking the airway; cutting it deflates both balloons and clears the obstruction at once.",
+   "Over-intervention that worsens it. Pushing a migrated balloon down does not deflate it.",
+   "Half measure. The migrated gastric balloon is the obstruction, and waiting costs minutes."
+  ],
+  "strategy": "Airway threat from the device: remove the device",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Keep scissors at the bedside to cut the tube if breathing difficulty",
+   "Tube can migrate up and block the airway"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np4-0005",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Diet teaching after thyroidectomy",
+  "noteId": "np4-ge-hypoparathyroidism-tetany",
+  "vignette": "A client has permanent low parathyroid hormone after a thyroidectomy. His calcium is low and his phosphate is high. He is taking calcium and vitamin D. At the clinic the nurse reviews what he plans to eat for the next day.",
+  "stem": "Which meal plan shows that the client understood the diet teaching?",
+  "options": [
+   "Cheese omelet with egg yolks and a glass of fresh milk",
+   "Milk custard, yogurt and creamy pasta with cheese",
+   "Stir-fried pechay, steamed rice, grilled fish and a ripe mango",
+   "Scrambled egg yolks, buttered toast and hot chocolate made with milk"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: low calcium, high phosphate.\n2. Principle: diet is high in calcium and low in phosphorus.\n3. Priority: choose calcium sources that do not add phosphorus.\nCurve ball: milk and cheese are the best-known calcium foods, so the obvious plates are wrong for this client.\nFlip: for a client with only low calcium and normal phosphate, dairy would be acceptable.",
+  "optionRationales": [
+   "Plausible detail from a similar diet. Milk, milk products and egg yolks raise phosphorus, which should be low.",
+   "Same error. Calcium-rich dairy is high in phosphorus, which this client must limit.",
+   "Correct. Green leafy vegetables add calcium without the heavy phosphorus load of milk products and egg yolks.",
+   "Same error. Yolks and milk are on the avoid list even though they sound like calcium sources."
+  ],
+  "strategy": "High calcium, low phosphorus",
+  "archetype": "curve-ball",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Diet high in calcium, low in phosphorus",
+   "Avoid milk, milk products and egg yolks"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np4-0006",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Post-thyroidectomy fever and tachycardia",
+  "noteId": "np4-ge-x-thyroid-storm",
+  "vignette": "A 38-year-old woman had a subtotal thyroidectomy yesterday for Graves' disease. Her temperature is 39.6 C, pulse 148, and she is sweating, pulling at her gown and saying she feels like 'something is about to burst'. A PRN aspirin order is on her chart. She vomited once.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Give the PRN aspirin for the temperature and recheck her vital signs in an hour",
+   "Encourage oral fluids and recheck vital signs in thirty minutes",
+   "Dim the lights and stay with her until the agitation settles",
+   "Begin continuous ECG monitoring and notify the provider while cooling her"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: day-one fever, pulse 148, agitation after surgery for Graves'.\n2. Principle: everything is driven too fast; heart failure and dysrhythmia kill.\n3. Priority: ABC and monitoring, escalate, cool.\nCurve ball: the chart offers a PRN antipyretic that seems the easy answer, and fever after surgery sounds like infection.\nFlip: if her temperature were 37.8 C and pulse 96, comfort measures and a recheck would be reasonable.",
+  "optionRationales": [
+   "Unsafe common habit. Aspirin can raise free hormone levels, and waiting an hour delays emergency care.",
+   "Under-reaction. A rising fever and pulse of 148 cannot wait for a recheck.",
+   "True comfort measure that does not answer the question. Quiet helps but does not treat the emergency.",
+   "Correct. This is a thyroid storm picture; cardiac monitoring, calling for orders and cooling are started together."
+  ],
+  "strategy": "Emergency: act now, avoid aspirin",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Thyroid storm after surgery or iodine therapy",
+   "Antithyroid drugs, iodine, propranolol; avoid aspirin (standard teaching)",
+   "Post-thyroidectomy client with high temperature and tachycardia: call and treat"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np4-0007",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Addison disease with vomiting",
+  "noteId": "np4-ge-x-addisonian-crisis",
+  "vignette": "A 45-year-old man with Addison's disease has had gastroenteritis for two days. He vomited his morning oral prednisone. Now he is pale and anxious; BP 80/48, pulse 124 and weak, glucose 58 mg/dL. His wife asks if he can take the tablet again with ondansetron.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Lay him flat and obtain IV access for the hydrocortisone and fluids that will be ordered",
+   "Give the tablet again with an antiemetic, as his wife suggests",
+   "Start an IV infusion with potassium-containing fluid",
+   "Give a sugary drink and recheck the glucose in fifteen minutes"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: vomited steroid, hypotension, weak pulse, low glucose.\n2. Principle: no cortisol means vessels cannot hold pressure; aldosterone loss keeps potassium.\n3. Priority: circulation failing, so IV access and hormone replacement now.\nCurve ball: the oral drug he missed is the obvious fix and his wife offers it; the vomiting and shock make it useless.\nFlip: if he were stable and merely queasy, repeating the oral dose with an antiemetic could be right.",
+  "optionRationales": [
+   "Correct. Missed steroid plus stress has produced shock; only IV replacement works fast enough.",
+   "Right drug, wrong route. He cannot absorb oral steroid now and shock needs IV treatment.",
+   "Plausible detail from a similar condition. This client already retains potassium.",
+   "Treats one symptom. Low glucose is part of the crisis, but the failing circulation is the priority."
+  ],
+  "strategy": "Circulation failing: replace the hormone IV",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "IV hydrocortisone then dextrose in saline",
+   "Avoid potassium-containing fluids",
+   "Missed steroids or stress trigger crisis"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np4-0008",
+  "v": 2,
+  "type": "single",
+  "format": "except",
+  "area": "NP4",
+  "topic": "SIADH order to question",
+  "noteId": "np4-ge-siadh",
+  "vignette": "A 66-year-old client with small-cell lung cancer has a sodium of 121 mEq/L, serum osmolality low, urine osmolality high and weight up 2 kg in two days. He is slightly confused. A new admission order set was written by a covering physician.",
+  "stem": "Which order should the nurse clarify with the provider?",
+  "options": [
+   "Restrict oral fluids as tolerated",
+   "Infuse 5% dextrose in water at a maintenance rate overnight",
+   "Weigh daily and record intake and output",
+   "Check neurologic status every four hours"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: low sodium and osmolality, high urine osmolality, weight gain.\n2. Principle: too much ADH holds water and dilutes sodium.\n3. Priority: remove orders that add free water.\nCurve ball: fluids look supportive for a confused sick client; here they make him worse.\nFlip: in diabetes insipidus, hypotonic fluids might be ordered.",
+  "optionRationales": [
+   "Appropriate. Restriction is the main treatment for water retention, so no clarification is needed.",
+   "Correct. Free water is retained by excess ADH, so a hypotonic infusion would dilute the sodium further.",
+   "Appropriate. These track water retention and response, so no clarification is needed.",
+   "Appropriate. Low sodium can cause seizures and coma, so close neuro checks fit."
+  ],
+  "strategy": "Question the order that worsens the problem",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "SIADH: restrict fluids, dilutional hyponatremia, weight gain",
+   "Monitor I&O, daily weight, neuro status"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np4-0009",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Restlessness with raised ICP",
+  "noteId": "np4-ns-iicp",
+  "vignette": "A 30-year-old man with a head injury, head of bed at 30 degrees, becomes restless and is pulling at his oxygen tubing. His pupils were equal and brisk at 1400; now the right pupil reacts slowly. His blood pressure is 142/84 and his respiratory rate has slowed to 10. PRN lorazepam is ordered for agitation.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Give the PRN lorazepam so he stops pulling at the tubing and straining against the bed",
+   "Lower the head of bed flat to improve blood flow to the brain",
+   "Reorient him and ask the family to stay at the bedside",
+   "Check airway, oxygenation and neurologic status and report the pupil change"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: new restlessness, slow right pupil, breathing slowed to 10.\n2. Principle: low oxygen and high carbon dioxide raise pressure.\n3. Priority: airway and oxygenation, then report the change.\nCurve ball: agitation with an order for a sedative looks like a comfort problem, but restlessness is an early sign of the brain failing.\nFlip: if pupils were unchanged and he was clearly in pain, analgesia could be reasonable.",
+  "optionRationales": [
+   "Unsafe habit. Sedation hides neurologic change and can slow breathing further.",
+   "Plausible detail from another condition. Flat positioning raises pressure.",
+   "True comfort measure that does not answer the question. It does not assess the cause.",
+   "Correct. Restlessness with a sluggish pupil is likely early pressure change or hypoxia, and airway comes first."
+  ],
+  "strategy": "Hypoxia before sedation",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Early signs: change in LOC, restlessness, pupil changes",
+   "Airway first; HOB 30 degrees"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np4-0010",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Autonomic dysreflexia with a catheter",
+  "noteId": "np4-ns-autonomic-dysreflexia",
+  "vignette": "A man with a T4 spinal cord injury has an indwelling urinary catheter. He is sweating above the chest and says his head is pounding. BP 206/112, pulse 54. He is flat in bed after a bed bath. A PRN antihypertensive is ordered.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Give the PRN antihypertensive and recheck in fifteen minutes",
+   "Keep him flat with the legs raised to restore blood flow to the brain",
+   "Raise the head of the bed fully and check the catheter and tubing for kinks",
+   "Obtain a urine culture to look for infection as the cause"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: injury above T6, pounding headache, severe hypertension, slow pulse.\n2. Principle: a harmful stimulus below the injury causes uncontrolled sympathetic response.\n3. Priority: sit up, find and remove the trigger, then drugs.\nCurve ball: severe hypertension with a drug ready invites the pill; the catheter in place makes bladder 'covered' in the mind, but a kink defeats it.\nFlip: if the catheter drained freely and the bowel was clear, an antihypertensive would come sooner.",
+  "optionRationales": [
+   "Right drug, wrong time. Drugs come after upright position and finding the trigger.",
+   "Plausible detail from shock care. Lying flat raises the pressure further.",
+   "Correct. Sitting upright lowers pressure and a kinked or blocked catheter is the most common trigger.",
+   "True possibility that does not answer first. Infection is a trigger, but a kink is faster to fix."
+  ],
+  "strategy": "Remove the trigger before drugs",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Sit upright; check bladder and bowel; drugs if still high",
+   "Triggers: bladder distention most common"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np4-0011",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Guillain-Barre with normal oximetry",
+  "noteId": "np4-ns-gbs",
+  "vignette": "A 41-year-old woman with ascending weakness two weeks after a viral illness is on the neurology unit. She is alert, says she feels fine but tired, and her pulse oximeter reads 97% on room air. Over the shift her ability to count aloud on one breath has fallen from 20 to 11, and she now needs the bed raised to speak.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Document the stable oxygen saturation and continue hourly checks",
+   "Report the falling respiratory effort measures and prepare for ventilation support",
+   "Encourage hourly incentive spirometry and recheck her at the end of the shift",
+   "Start passive range-of-motion exercises to prevent contractures"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: ascending weakness, counting breath falling 20 to 11, oximetry normal.\n2. Principle: diaphragm weakness fails before oxygen drops.\n3. Priority: breathing first; escalate on trend.\nCurve ball: a normal oximeter reading and a calm, alert client pull you toward waiting; the trend is the message.\nFlip: if the counting breath were stable at 20, hourly checks would be adequate.",
+  "optionRationales": [
+   "Under-reaction. A stable oximeter reading is false reassurance when breath power is dropping.",
+   "Correct. A normal saturation can persist until the muscles tire; falling breath capacity signals impending respiratory failure.",
+   "Right action, wrong time. It is useful but does not respond to a worsening trend.",
+   "True but not the priority. It does not answer breathing failure."
+  ],
+  "strategy": "Do not trust one reassuring number",
+  "archetype": "curve-ball",
+  "difficulty": 5,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Breathing first: watch for failure and prepare for ventilation",
+   "Diaphragm paralysis and respiratory depression are complications"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np4-0012",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "New shadow after retinal surgery",
+  "noteId": "np4-ns-retinal-detachment",
+  "vignette": "A 62-year-old client had a pneumatic retinopexy yesterday and is awaiting discharge teaching. He reports a dull ache in the eye and mild nausea. While talking he adds that a gray shadow started drifting across the upper part of his vision in the same eye about an hour ago. An antiemetic and an analgesic are due.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Report the new shadow to the surgeon right away",
+   "Give the due antiemetic and analgesic and reassess in an hour",
+   "Teach him to keep his head below his waist when sleeping",
+   "Apply a warm moist washcloth and darken the room for comfort"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: expected ache and nausea plus a new shadow.\n2. Principle: new floaters, flashes or shadows are reportable after detachment surgery.\n3. Priority: unstable change before expected discomfort.\nCurve ball: two due medications sit on the MAR for expected complaints; the one line about a shadow is the real finding.\nFlip: if the shadow had been present before surgery and unchanged, giving the due drugs first would be fine.",
+  "optionRationales": [
+   "Correct. A new shadow may mean the retina is detaching again, which is time-sensitive.",
+   "Treats symptoms, not the cause. Ache and nausea are expected; the shadow is not.",
+   "Plausible detail from another condition. Positions that strain the eye are avoided.",
+   "True comfort measure that does not answer. It delays reporting a possible re-detachment."
+  ],
+  "strategy": "New visual change = report",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Report new floaters, flashes or shadows",
+   "Pain and nausea control after surgery"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np4-0013",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Acute glaucoma presenting as GI illness",
+  "noteId": "np4-ns-acute-glaucoma",
+  "vignette": "A 64-year-old woman at an RHU says she has had 'stomach flu' since the evening: nausea, vomiting, a throbbing headache over one eye, and a pulse of 54. She sees rainbow rings around lights. The left eye is red and the pupil is oval and semi-dilated. Her husband wants a stomach medicine and a cardiac check because of the slow pulse.",
+  "stem": "What is the priority action?",
+  "options": [
+   "Give the antiemetic and observe the vomiting for an hour",
+   "Start a cardiac workup because of the slow pulse",
+   "Offer an over-the-counter antihistamine for the headache and red eye",
+   "Arrange urgent referral for rapid eye pressure lowering"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: eye pain with halos, red eye, fixed oval pupil, vomiting, slow pulse.\n2. Principle: blocked outflow causes very high pressure.\n3. Priority: rapid pressure reduction, not symptom relief.\nCurve ball: the story is presented as a digestive and cardiac problem; the eye findings are the buried key.\nFlip: if the eye were normal and the vomiting followed a meal, antiemetic care would fit.",
+  "optionRationales": [
+   "Treats the symptom, not the cause. Nausea is a result of high eye pressure.",
+   "Plausible detail from a similar condition. Slow pulse can accompany severe eye pain.",
+   "Unsafe habit. Antihistamines and anticholinergics should be avoided in glaucoma.",
+   "Correct. Pain, red eye, halos and a fixed oval pupil point to angle-closure glaucoma, which can blind within hours."
+  ],
+  "strategy": "Name the eye emergency behind the stomach complaint",
+  "archetype": "curve-ball",
+  "difficulty": 5,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Sudden eye pain, halos and vomiting equals an emergency",
+   "Avoid anticholinergics in glaucoma"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np4-0014",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Cast pain with palpable pulse",
+  "noteId": "np4-or-cast-complications",
+  "vignette": "A 19-year-old has a forearm cast applied eight hours ago. He rates pain 9/10 despite an opioid dose 40 minutes ago and the arm elevated on pillows. His fingers are warm and pink, the radial pulse is strong, and he reports tingling in his thumb and index finger. His mother says he is just anxious.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Raise the arm higher above the heart and reassess in an hour",
+   "Document warm pink fingers and a strong pulse and give the next analgesic when due",
+   "Notify the provider now and keep the arm at heart level",
+   "Apply an ice pack over the cast to reduce swelling"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: pain out of proportion after opioid and elevation, tingling.\n2. Principle: pressure in a closed space squeezes nerves and vessels first.\n3. Priority: escalate now; keep limb at heart level.\nCurve ball: warm pink fingers and a strong radial pulse feel reassuring, but pulselessness is a late finding.\nFlip: if pain were easing after the analgesic and tingling were absent, reassessment would be enough.",
+  "optionRationales": [
+   "Right idea, wrong detail. Raising above heart level can reduce arterial flow.",
+   "Under-reaction. Normal color and pulse do not exclude compartment syndrome.",
+   "Correct. Unrelieved escalating pain with tingling is the early warning of compartment syndrome; pulses are lost late.",
+   "Plausible detail from another injury. Ice over a cast does not relieve internal pressure."
+  ],
+  "strategy": "Pain out of proportion beats a reassuring pulse",
+  "archetype": "curve-ball",
+  "difficulty": 5,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Pain not relieved by elevation or analgesics is a warning sign",
+   "Keep limb no higher than heart level; notify physician"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np4-0015",
+  "v": 2,
+  "type": "single",
+  "format": "except",
+  "area": "NP4",
+  "topic": "Expected finding after hip replacement",
+  "noteId": "np4-or-total-hip",
+  "vignette": "The nurse assesses four clients on postoperative day 1 after total hip replacement. Each finding is described in turn while the nurse decides what to report to the surgeon.",
+  "stem": "Which finding is expected and does NOT need to be reported?",
+  "options": [
+   "Operated leg looks shorter and turned outward after sudden groin pain",
+   "Wound drainage totaling 350 mL since return from surgery",
+   "Unilateral calf swelling and tenderness on the operated leg",
+   "Operated foot cold, pale and without sensation"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: four post-op findings.\n2. Principle: know the expected drainage range and the red flags.\n3. Priority: report dislocation, DVT and circulation loss; accept expected drainage.\nCurve ball: a large drainage number looks alarming, so the safe-sounding choice is to report it; the question asks which finding needs none.\nFlip: drainage far above the expected range would need a report.",
+  "optionRationales": [
+   "Possible dislocation. Report at once.",
+   "Correct. Several hundred milliliters of drainage in the first hours is within the expected range.",
+   "Possible deep vein thrombosis. Report.",
+   "Neurovascular compromise. Report."
+  ],
+  "strategy": "Which finding needs NO report",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Wound drainage 200 to 500 mL in first hours expected",
+   "Signs of dislocation: report immediately"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np4-0016",
+  "v": 2,
+  "type": "single",
+  "format": "except",
+  "area": "NP4",
+  "topic": "Acute gout orders",
+  "noteId": "np4-or-gout",
+  "vignette": "A 49-year-old man arrives with a swollen, red, exquisitely painful great toe that began overnight. His uric acid is high and joint fluid shows crystals. The covering physician writes four orders.",
+  "stem": "Which order should the nurse clarify before carrying it out?",
+  "options": [
+   "Colchicine as ordered for the acute attack",
+   "Fluids of about three liters a day, started now to flush the kidneys",
+   "Rest and position the joint for comfort",
+   "Start allopurinol today as the first treatment for the attack"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: acute attack, confirmed crystals.\n2. Principle: acute drugs differ from preventive drugs.\n3. Priority: clarify the order that does not fit the situation.\nCurve ball: allopurinol is the best-known gout drug, so ordering it feels correct; it prevents and does not rescue.\nFlip: after the attack subsides, starting allopurinol would be appropriate.",
+  "optionRationales": [
+   "Appropriate. Colchicine and NSAIDs are for the acute attack.",
+   "Appropriate. Dilutes uric acid and protects the kidneys.",
+   "Appropriate. Comfort positioning is part of care.",
+   "Correct. Allopurinol lowers production for prevention; it does not treat the acute attack and starting it mid-attack can worsen it."
+  ],
+  "strategy": "Prevents versus rescues",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Acute attack: colchicine and NSAIDs",
+   "Chronic gout: allopurinol prevents; not for acute rescue"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np4-0017",
+  "v": 2,
+  "type": "sata",
+  "area": "NP4",
+  "topic": "Insulin site rotation teaching",
+  "noteId": "np4-ge-insulin-complications",
+  "vignette": "A 34-year-old woman with type 1 diabetes has dimpled areas on her thigh where she injects daily. She tells the nurse what she plans to do from now on.",
+  "stem": "Which client statements show understanding of safe injection-site rotation? Select all that apply.",
+  "options": [
+   "I will keep my injections within my abdomen and move each one about an inch from the last.",
+   "I will use a different part of my body every day, thigh then arm then abdomen.",
+   "I will avoid the dimpled thigh area and use healthy skin elsewhere.",
+   "I will inject into my thigh right before my jog so it works faster.",
+   "I will not reuse a spot for two to three weeks.",
+   "I will go back to the dimpled spot when it feels less sore."
+  ],
+  "answer": [
+   0,
+   2,
+   4
+  ],
+  "rationale": "Curve ball: most students memorise 'rotate sites' and pick the random whole-body rotation statement; the note says rotate within one anatomic area. Statements about avoiding lipodystrophy and spacing reuse also fit.",
+  "optionRationales": [
+   "Correct. Rotating within one area, about 0.5 to 1 inch apart, keeps absorption predictable.",
+   "Plausible but wrong. Jumping between body areas changes absorption speed and causes erratic glucose.",
+   "Correct. Lipodystrophic areas absorb erratically.",
+   "Unsafe. Exercising the limb speeds absorption and may cause hypoglycemia.",
+   "Correct. Spacing out reuse prevents fat changes.",
+   "Incorrect. A site is not safe just because it no longer hurts; dimpled tissue absorbs erratically."
+  ],
+  "strategy": "Rotate within one area",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Rotate within one anatomic area, 0.5-1 inch apart",
+   "Do not reuse a site within 2-3 weeks",
+   "Avoid lipodystrophic areas"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np4-0018",
+  "v": 2,
+  "type": "sata",
+  "area": "NP4",
+  "topic": "Post-thyroidectomy findings",
+  "noteId": "np4-ge-hypoparathyroidism-tetany",
+  "vignette": "A client is six hours after a total thyroidectomy. The nurse checks her at the start of the shift. Calcium gluconate IV is ordered PRN and is at the bedside.",
+  "stem": "Which findings need immediate action? Select all that apply.",
+  "options": [
+   "Tingling around the mouth and fingertips",
+   "Dry neck dressing with no drainage",
+   "Noisy, high-pitched breathing with each inspiration",
+   "Scratchy sore throat when swallowing",
+   "Hand cramps with the wrist flexed and thumb pulled in when the cuff is inflated",
+   "Requests an extra blanket because the room is cool"
+  ],
+  "answer": [
+   0,
+   2,
+   4
+  ],
+  "rationale": "Curve ball: a sore throat after neck surgery sounds like a complication and gets chosen, while the quiet tingling near the mouth is the earliest warning of tetany. Airway noise and carpopedal spasm need action.",
+  "optionRationales": [
+   "Correct. Early sign of low calcium and tetany.",
+   "Expected and reassuring. No action needed.",
+   "Correct. Suggests laryngospasm or airway swelling; airway threat.",
+   "Common after surgery and intubation. Monitor but not urgent.",
+   "Correct. Positive Trousseau's sign.",
+   "Not a clinical concern."
+  ],
+  "strategy": "Low calcium signs vs expected",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Tetany, numbness, tingling, laryngospasm, Trousseau's sign",
+   "Keep calcium gluconate and tracheostomy set available"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np4-0019",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP4",
+  "topic": "Myasthenic versus cholinergic crisis",
+  "noteId": "np4-ns-mg-crises",
+  "vignette": "Four clients on anticholinesterase therapy for myasthenia gravis become weak and short of breath. The nurse reviews each history and the response to a short-acting test drug.",
+  "stem": "For each situation, select the crisis it most suggests.",
+  "options": [],
+  "answer": [],
+  "rows": [
+   "Missed two doses, severe weakness, fast pulse, thick secretions",
+   "Took an extra dose, abdominal cramps, drooling, slowed heart rate",
+   "Strength improves briefly after the test drug",
+   "Weakness gets worse after the test drug"
+  ],
+  "columns": [
+   "Myasthenic crisis",
+   "Cholinergic crisis"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "rationale": "Curve ball: worse weakness after a drug 'that helps muscles' feels backwards; it points to cholinergic crisis from too much drug. Missed dose means myasthenic; extra dose means cholinergic. Both threaten breathing, so airway comes first.",
+  "optionRationales": [
+   "Myasthenic crisis: missed doses leave too little drug, so severe weakness with thick secretions fits undertreatment.",
+   "Cholinergic crisis: an extra dose gives too much drug, causing cramps, drooling and a slow pulse.",
+   "Myasthenic crisis: strength that improves after the test drug shows the problem was too little drug.",
+   "Cholinergic crisis: weakness that gets worse after the test drug shows the problem is too much drug. Airway comes first in either crisis."
+  ],
+  "strategy": "Clue words: missed versus extra dose",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Myasthenic = missing drug; cholinergic = too much",
+   "Test drug improves myasthenic, worsens cholinergic"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np4-0020",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP4",
+  "topic": "Signs of impending herniation",
+  "noteId": "np4-ns-iicp",
+  "vignette": "Nursing note on a client with a head injury, 3 hours after admission: Head of bed at 30 degrees with head midline. Reports mild headache 4/10. Pulse 52 (was 84 at admission). BP 184/92 (was 126/78). Respirations 10 and irregular. SpO2 98% on oxygen. Temperature 37.2 C.",
+  "stem": "Select the findings that suggest impending brain-stem herniation.",
+  "options": [
+   "Head of bed at 30 degrees with head midline",
+   "Reports mild headache 4/10",
+   "Pulse 52 (was 84 at admission)",
+   "BP 184/92 (was 126/78)",
+   "Respirations 10 and irregular",
+   "SpO2 98% on oxygen",
+   "Temperature 37.2 C"
+  ],
+  "answer": [
+   2,
+   3,
+   4
+  ],
+  "rationale": "Curve ball: a high blood pressure with a slow pulse looks like a stable, well-oxygenated, even 'healthy' trend and a normal saturation feels reassuring; together they form Cushing's triad: bradycardia, hypertension, bradypnea. Positioning and a mild headache are not the signs.",
+  "optionRationales": [
+   "Not a herniation sign: head of bed at 30 degrees with the head midline is correct positioning to lower pressure.",
+   "Not a herniation sign: a mild headache of 4/10 is common after head injury and does not show brain-stem compression.",
+   "Sign of herniation: a falling pulse from 84 to 52 is part of Cushing's triad.",
+   "Sign of herniation: rising blood pressure as pressure builds on the brain is part of Cushing's triad.",
+   "Sign of herniation: slow, irregular breathing shows the brain stem is affected, completing Cushing's triad.",
+   "Not a herniation sign: a normal oxygen saturation is reassuring but does not exclude rising pressure.",
+   "Not a herniation sign: a normal temperature is unrelated."
+  ],
+  "strategy": "Late ominous triad",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Cushing's triad: bradycardia, hypertension, bradypnea",
+   "Late ominous sign of herniation"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ }
+]

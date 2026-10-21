@@ -1,0 +1,939 @@
+[
+ {
+  "id": "np4-0026",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Polyuria after pituitary surgery",
+  "noteId": "np4-ge-diabetes-insipidus",
+  "vignette": "On the first day after transsphenoidal pituitary surgery, a client passes large volumes of very pale urine every hour. His urine specific gravity is 1.003, he is intensely thirsty, and his pulse is climbing while blood pressure drifts down. He also has a mild headache and nasal packing in place.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Restrict his oral fluids to prevent fluid overload after surgery",
+   "Send a urine sample for glucose before telling anyone about the output",
+   "Report the output and specific gravity and anticipate desmopressin",
+   "Reassure him that high output is expected and keep charting hourly"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: hourly pale urine, specific gravity 1.003, thirst, rising pulse, falling pressure after pituitary surgery.\n2. Principle: ADH loss prevents the kidney from concentrating urine, so water is lost and blood volume drops.\n3. Priority rule: recognise the disorder, then report an unstable fluid loss before routine measures.\n4. The key beats the glucose test because it targets the actual cause and need for replacement.\nFlip: If urine were scant and concentrated with a rising weight and low sodium, fluid restriction (SIADH) would be correct.",
+  "optionRationales": [
+   "Plausible detail from a similar condition. Restricting fluids is for SIADH; here it would worsen dehydration and shock.",
+   "Skips escalation. Ruling out glucose is reasonable, but it does not address the unstable volume loss now.",
+   "Correct. Large volumes of dilute urine after pituitary surgery suggest low ADH (diabetes insipidus); the provider must order replacement while fluids are matched.",
+   "Under-reaction. Charting is useful, but waiting allows hypovolemia to progress."
+  ],
+  "strategy": "Unstable before stable",
+  "archetype": "Match the disorder before acting",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Diabetes insipidus: too little ADH, dilute urine, dehydration",
+   "Desmopressin treats central DI"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0027",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "SIADH safety priority",
+  "noteId": "np4-ge-siadh",
+  "vignette": "A 63-year-old with lung cancer is admitted with low serum sodium. He has gained 2 kg in two days, passes small amounts of concentrated urine, and is newly confused with a headache. A fluid restriction is ordered and his roommate offers him juice.",
+  "stem": "Which nursing action should be added to the plan first?",
+  "options": [
+   "Start seizure precautions and assess neurologic status",
+   "Offer salty broth and encourage oral fluids to raise sodium",
+   "Weigh him each morning on the same scale before breakfast",
+   "Offer hard candy for dry mouth during the fluid restriction"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: low sodium, weight gain, concentrated urine, new confusion and headache with lung cancer.\n2. Principle: SIADH retains water, diluting sodium and affecting the brain.\n3. Priority rule: neurologic safety precedes routine monitoring and comfort.\n4. The key beats the daily weight because the weight tracks fluid while seizure protection prevents injury.\nFlip: If the client were alert, with mild sodium change and no neuro signs, daily weights and fluid restriction would be the main focus.",
+  "optionRationales": [
+   "Correct. Confusion and headache in dilutional hyponatremia can progress to seizures, so safety and neuro monitoring come first.",
+   "Plausible detail that is wrong here. Extra fluid worsens dilution and salty broth is not the treatment.",
+   "Right action, wrong priority. Daily weight is valuable but does not protect him from a seizure.",
+   "True comfort measure that does not answer the question of what to prioritise."
+  ],
+  "strategy": "Safety: protect from seizure",
+  "archetype": "Neurologic safety in hyponatremia",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "SIADH: dilutional hyponatremia, fluid restriction",
+   "Seizure safety if sodium is very low"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0028",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Unresponsive hypoglycemia at home",
+  "noteId": "np4-ge-hypoglycemia",
+  "vignette": "A home-care nurse finds a 70-year-old on insulin who is sweating and cannot be woken. His wife says he skipped lunch. There is no IV access in the home, and a glucagon emergency kit is in the refrigerator. His glucose meter lies on the table.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Place sugar granules under his tongue and wait for him to wake",
+   "Check a fingerstick first and treat only if it is below target",
+   "Call the physician and wait for instructions at the bedside",
+   "Give glucagon per protocol and call emergency services"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: unresponsive, sweating, on insulin, missed meal, no IV.\n2. Principle: severe hypoglycemia causes loss of consciousness and needs glucagon or IV dextrose.\n3. Priority rule: treat the life-threatening problem with the available safe route.\n4. The key beats the fingerstick because treatment cannot wait.\nFlip: If he were awake and could swallow, fast-acting oral sugar would be correct.",
+  "optionRationales": [
+   "Unsafe habit. Oral sugar in a person who cannot swallow risks aspiration.",
+   "Assess before act when treatment is urgent. A symptomatic client who cannot be woken is treated without delay.",
+   "Under-reaction. Waiting leaves the brain without glucose.",
+   "Correct. An unconscious person cannot safely swallow; glucagon raises glucose without IV access, and help is called."
+  ],
+  "strategy": "Maslow: physiological threat first",
+  "archetype": "Choose the route that is safe",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Glucagon if unconscious or cannot swallow",
+   "Do not wait for a lab value when symptomatic"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0029",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Iodine toxicity before surgery",
+  "noteId": "np4-ge-hyperthyroid-treatment-thyroidectomy",
+  "vignette": "A client is preparing for a subtotal thyroidectomy and has taken Lugol's solution for several days. Her heart rate has settled from 110 to 84 and she feels calmer. This morning she reports a swollen, sore mouth, excess saliva, a runny nose and a rash on her chest, and she is due for her next dose with a straw.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Give the dose in milk through a straw as scheduled today",
+   "Hold the iodine dose and notify the provider",
+   "Give a half dose to see if the symptoms settle completely",
+   "Reassure her that the improved heart rate means treatment works"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: iodine therapy with new oral swelling, saliva, runny nose and rash.\n2. Principle: iodism is a toxic response to iodine.\n3. Priority rule: stop the cause and report before continuing treatment.\n4. The key beats giving the dose because it removes the cause.\nFlip: If she had only a metallic taste and mild stomach upset, dilution and a straw would be correct.",
+  "optionRationales": [
+   "Right technique, wrong time. Dilution and a straw are for administration, not for toxicity.",
+   "Correct. Swelling of the mouth, excess saliva, coryza and rash indicate iodine toxicity, which requires stopping the drug.",
+   "Over-intervention. Partial dosing delays stopping the cause of the reaction.",
+   "True statement that does not answer. The improved rate does not explain the new mouth symptoms."
+  ],
+  "strategy": "Stop the offending drug",
+  "archetype": "Unexpected adverse effect",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Iodism needs immediate stopping",
+   "Give iodine in milk or juice through a straw"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0030",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Myxedema coma priorities",
+  "noteId": "np4-ge-x-myxedema-coma",
+  "vignette": "On a cold night a 72-year-old woman with long-standing hypothyroidism is found drowsy after a fall. Her respirations are 8 and shallow, temperature 34.8 C, and pulse 48. She groans about hip pain. The chart lists a PRN opioid, scheduled IV levothyroxine, and an electric blanket nearby.",
+  "stem": "What is the nurse's priority action?",
+  "options": [
+   "Give the PRN opioid so she can rest comfortably",
+   "Support her breathing and call for immediate help",
+   "Give the scheduled IV levothyroxine without delay",
+   "Warm her quickly with the electric blanket on high"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: respiratory rate 8, low temperature, bradycardia, drowsiness, hypothyroid.\n2. Principle: myxedema coma slows breathing, heart and thinking.\n3. Priority rule: airway and breathing before hormone, warming or analgesia.\n4. The key beats levothyroxine because ventilation failure kills first.\nFlip: If she were alert with a normal respiratory rate, IV levothyroxine and gentle warming would lead.",
+  "optionRationales": [
+   "Unsafe habit. Opioids act longer in hypothyroidism and depress breathing further.",
+   "Correct. Slow shallow breathing and falling consciousness in severe hypothyroidism are an airway and breathing emergency.",
+   "Right action, wrong time. Hormone replacement is essential, but ventilation comes first.",
+   "Over-intervention. Rapid external warming can drop blood pressure."
+  ],
+  "strategy": "Maslow: oxygenation first",
+  "archetype": "Do not sedate",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Myxedema coma depresses breathing",
+   "Sedatives and opioids act longer in hypothyroidism"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0031",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Post-thyroidectomy calcium drop",
+  "noteId": "np4-ge-hypoparathyroidism-tetany",
+  "vignette": "Two days after a total thyroidectomy, a client reports numb lips and tingling fingers. When the nurse taps in front of her ear, her mouth twitches. She also says she is hungry for milk and eggs.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Inspect the neck dressing for bleeding and swelling",
+   "Offer milk and eggs to raise her calcium naturally",
+   "Reassure her that anxiety after surgery causes tingling",
+   "Notify the provider and ready IV calcium gluconate"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: perioral numbness, tingling and positive Chvostek's sign after thyroidectomy.\n2. Principle: damaged parathyroids cause low calcium and neuromuscular irritability.\n3. Priority rule: protect the airway by anticipating calcium treatment.\n4. The key beats the neck check because the cues point to tetany.\nFlip: If breathing became noisy with a swelling neck, immediate airway assessment would lead.",
+  "optionRationales": [
+   "Right check, wrong priority. Neck bleeding matters, but the twitching points to impending tetany.",
+   "Plausible detail from a similar condition. These are high in phosphorus and the diet should limit them.",
+   "Under-reaction. Attributing signs to anxiety delays treatment.",
+   "Correct. Numbness, tingling and facial twitching signal low calcium that can progress to laryngospasm, so treatment must be ready."
+  ],
+  "strategy": "Unstable before stable",
+  "archetype": "Anticipate the airway threat",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Chvostek's and Trousseau's signs",
+   "Keep IV calcium gluconate and a tracheostomy set available"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0032",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Pheochromocytoma attack",
+  "noteId": "np4-ge-pheochromocytoma",
+  "vignette": "A client awaiting a 24-hour urine collection for suspected pheochromocytoma has a sudden pounding headache, drenching sweat and a blood pressure of 218/124. The breakfast tray holds coffee and a banana. A student offers to palpate the abdomen to feel for a mass.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Raise the bed head, keep the room quiet, notify provider",
+   "Let the student palpate the abdomen for a mass",
+   "Encourage the coffee and banana to keep the collection steady",
+   "Document the reading and recheck blood pressure in an hour"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: severe headache, sweating, BP 218/124 in suspected pheochromocytoma.\n2. Principle: the tumor releases epinephrine and norepinephrine in bursts.\n3. Priority rule: reduce stimulation and escalate a hypertensive crisis.\n4. The key beats documentation because the pressure is dangerously high.\nFlip: If the pressure were normal between spells, collecting the urine carefully would continue as planned.",
+  "optionRationales": [
+   "Correct. Upright posture, low stimulation and prompt reporting address a catecholamine surge; palpation and stimulants worsen it.",
+   "Unsafe habit. Pressing on the abdomen can trigger a catecholamine release.",
+   "Skips the emergency. These foods can distort the test and do not manage the attack.",
+   "Under-reaction. Severe hypertension from a catecholamine surge needs prompt treatment."
+  ],
+  "strategy": "Unstable before stable",
+  "archetype": "Calm and report",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Bed rest with head of bed raised",
+   "Palpating the abdomen can trigger a crisis"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0033",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Adrenal crisis with vomiting",
+  "noteId": "np4-ge-x-addisonian-crisis",
+  "vignette": "A client with Addison's disease has had gastroenteritis for two days and has vomited her morning steroid tablets. She is confused, her blood pressure is 80/50, pulse 124, and her glucose is low. Her husband asks if she can sip ginger ale and take another tablet.",
+  "stem": "What is the nurse's priority?",
+  "options": [
+   "Give another oral steroid tablet with ginger ale",
+   "Run a potassium-containing infusion to replace losses",
+   "Start an IV and prepare hydrocortisone and fluids",
+   "Give an antiemetic and recheck her pressure in an hour"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: vomited steroid, shock, confusion, low glucose in Addison's disease.\n2. Principle: no cortisol means vessels cannot hold pressure and glucose falls.\n3. Priority rule: give the missing hormone and volume by the fastest reliable route.\n4. The key beats oral steroid because vomiting makes oral dosing unreliable.\nFlip: If she were alert, not vomiting, and her pressure were normal, an oral dose adjustment would be correct.",
+  "optionRationales": [
+   "Right action, wrong route. She is vomiting and shocky, so oral absorption cannot be relied upon.",
+   "Unsafe. Adrenal insufficiency raises potassium, and added potassium risks dysrhythmia.",
+   "Correct. The picture is adrenal crisis; steroid and glucose-containing saline must be given by vein now.",
+   "Treats the symptom. Vomiting is not the main threat; the cortisol deficit is."
+  ],
+  "strategy": "Unstable before stable",
+  "archetype": "Replace what is missing, fast",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Addisonian crisis: IV hydrocortisone then dextrose saline",
+   "Increase glucocorticoid during stress or illness"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0034",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Endocrine unit priorities",
+  "noteId": "np4-ge-x-endocrine-emergencies",
+  "vignette": "On an endocrine unit, the nurse has four clients: a client with Graves' disease and a resting pulse of 108 who is anxious but eating; a client with Addison's disease and a sore throat, blood pressure 84/50 and pulse 128; a client with type 2 diabetes and a glucose far above target, alert and walking; and a client with hypothyroidism who is cold and asks for a blanket.",
+  "stem": "Which client should the nurse assess first?",
+  "options": [
+   "The client with Graves' disease, pulse 108 and anxious but eating",
+   "The client with type 2 diabetes, high glucose, alert and walking",
+   "The client with hypothyroidism, cold and asking for a blanket",
+   "The client with Addison's disease, pressure 84/50 and pulse 128"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: hypotension, tachycardia and infection in Addison's disease.\n2. Principle: cortisol deficiency under stress leads to circulatory shock.\n3. Priority rule: the client closest to collapse is seen first.\n4. The key beats the high glucose because that client is alert and walking.\nFlip: If the diabetic client were confused with dry mucous membranes, that client might outrank the others.",
+  "optionRationales": [
+   "Stable and chronic. Needs monitoring but is not in crisis.",
+   "Concerning, yet alert and mobile. A high glucose alone is lower priority than shock.",
+   "Expected chronic symptom that is simple to fix and not immediately dangerous.",
+   "Correct. Low pressure, fast pulse and infection suggest adrenal crisis, the most unstable situation."
+  ],
+  "strategy": "Unstable before stable",
+  "archetype": "Rank the instability",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Addisonian crisis presents as shock",
+   "Unstable before stable"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0035",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Cushing's infection risk",
+  "noteId": "np4-ge-cushings-syndrome",
+  "vignette": "A client with Cushing's syndrome on long-term steroids is admitted for fatigue. The nurse notes a round face, central obesity with thin limbs and a bruise at the IV site. She also has a temperature of 37.9 C and a new dry cough, but no chills.",
+  "stem": "Which finding should the nurse report first?",
+  "options": [
+   "Round face with central obesity and thin limbs",
+   "Low-grade temperature with a new cough",
+   "A large bruise at the IV insertion site",
+   "Complaints of tiredness in the afternoons"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: low-grade temperature and cough in a client with cortisol excess.\n2. Principle: excess cortisol suppresses immunity and blunts fever.\n3. Priority rule: the new, potentially serious finding is reported before expected features.\n4. The key beats the bruise because bruising is expected.\nFlip: If she had a high fever with rigors, the urgency would be even greater.",
+  "optionRationales": [
+   "Expected features of the condition.",
+   "Correct. Steroid excess weakens the immune response and masks infection, so subtle signs matter.",
+   "Expected skin fragility in Cushing's syndrome.",
+   "Common and nonspecific; it does not suggest a new complication."
+  ],
+  "strategy": "Recognise the masked infection",
+  "archetype": "Expected versus concerning",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Protective environment because of infection risk",
+   "Fragile skin and bruising are expected"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0036",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "DKA first order",
+  "noteId": "np4-ge-diabetic-ketoacidosis",
+  "vignette": "A 24-year-old with type 1 diabetes arrives with vomiting, deep rapid breathing, fruity breath, blood pressure 82/50 and pulse 126. Glucose is very high and ketones are present. The provider writes four orders.",
+  "stem": "Which order should the nurse carry out first?",
+  "options": [
+   "Start the continuous insulin infusion",
+   "Give sodium bicarbonate to correct the acidosis",
+   "Infuse 0.9% sodium chloride rapidly",
+   "Start a potassium chloride replacement infusion"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: hypotension, tachycardia, Kussmaul breathing and ketones.\n2. Principle: osmotic diuresis causes severe dehydration.\n3. Priority rule: restore volume before insulin and correct electrolytes with monitoring.\n4. The key beats insulin because shock is the immediate threat.\nFlip: If potassium were dangerously low, replacement would be started before insulin.",
+  "optionRationales": [
+   "Right action, wrong time. Insulin follows initial fluids and a potassium check.",
+   "Over-intervention. Bicarbonate can cause sudden potassium drops and is generally avoided.",
+   "Correct. Dehydration and shock are corrected first with isotonic saline; this restores circulation and lowers glucose slightly.",
+   "Right action, wrong time. Potassium is monitored and given once levels are known."
+  ],
+  "strategy": "Maslow: circulation first",
+  "archetype": "Fluids before insulin",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "DKA: rehydrate first",
+   "Avoid bicarbonate in DKA"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0037",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Nocturnal hypoglycemia timing",
+  "noteId": "np4-ge-insulin-types",
+  "vignette": "A client takes regular insulin at 1730 with dinner, a rapid-acting correction dose at 2200, and NPH insulin at 2200. At 0300 he is sweaty and shaky with a low glucose. His morning dose of long-acting glargine has been steady for weeks.",
+  "stem": "Which insulin is most likely at its peak and contributing to the low?",
+  "options": [
+   "The NPH given at 2200",
+   "The rapid-acting correction dose at 2200",
+   "The regular insulin at 1730 with dinner",
+   "The long-acting glargine from the morning"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: a low at 0300 after several evening doses.\n2. Principle: hypoglycemia is most likely at an insulin's peak.\n3. Priority rule: match each insulin's peak to the time of symptoms.\n4. The key beats the rapid-acting dose because NPH still acts at 0300.\nFlip: If the low occurred at 2300, the rapid-acting correction dose or regular insulin would be most suspect.",
+  "optionRationales": [
+   "Correct. NPH peaks about 4 to 12 hours after injection, which covers 0300.",
+   "Plausible detail from a similar insulin. It peaks within about an hour and is largely finished by 0300.",
+   "Too early. Regular peaks about 2 to 3 hours after injection and ends by about 2330.",
+   "Glargine has no peak; its steady action is less likely to cause a sharp drop."
+  ],
+  "strategy": "Insulin peaks and duration",
+  "archetype": "Match the peak to the clock",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "NPH peaks about 4-12 hours",
+   "Hypoglycemia is most likely at the peak"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0038",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Somogyi pattern",
+  "noteId": "np4-ge-morning-hyperglycemia",
+  "vignette": "A client's log shows a bedtime glucose of 150, a 0300 reading of 52 with night sweats, and a fasting glucose of 260. He says he plans to raise his bedtime NPH dose to fix the high morning values.",
+  "stem": "What is the nurse's best response?",
+  "options": [
+   "Report the 0300 low; the evening dose may need lowering",
+   "Agree that more evening NPH will lower the morning reading",
+   "Suggest he take the NPH earlier at dinner instead of bedtime",
+   "Advise skipping the bedtime snack to lower the morning value"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: 0300 low with night sweats and a high fasting value.\n2. Principle: a night low triggers counter-regulatory hormones, causing a morning rise.\n3. Priority rule: identify the pattern from the 3 AM reading before changing insulin.\n4. The key beats adding insulin because that would worsen the low.\nFlip: If the glucose rose steadily all night with no low, increasing the evening dose would be correct.",
+  "optionRationales": [
+   "Correct. A night low followed by a morning rise is a rebound pattern; adding insulin would deepen the low.",
+   "Treats the symptom. This is the fix for insulin waning, not for a rebound after a low.",
+   "Plausible detail from a similar condition. The dawn phenomenon is managed by shifting timing; here the issue is excess insulin.",
+   "Unsafe. Removing the snack increases the risk of the night low."
+  ],
+  "strategy": "Treat the cause, not the number",
+  "archetype": "Choose the opposite fix",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Somogyi effect: night low then rebound",
+   "Decrease evening dose or add a bedtime snack"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0039",
+  "v": 2,
+  "type": "sata",
+  "area": "NP4",
+  "topic": "Insulin storage and technique",
+  "noteId": "np4-ge-insulin-technique-storage",
+  "vignette": "A nurse is teaching a newly diagnosed client who will draw up regular and NPH insulin together and inject into the abdomen. The client lists planned habits.",
+  "stem": "Which client plans are correct? Select all that apply.",
+  "options": [
+   "Draw the regular insulin into the syringe first",
+   "Rotate injections within the abdomen, about an inch from the last site",
+   "Keep unopened spare vials in the refrigerator",
+   "Inject into the thigh just before a long jog",
+   "Shake the NPH vial vigorously to mix it",
+   "Reuse the same spot each day for convenience"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "rationale": "1. Cue: mixing regular and NPH and abdominal injection teaching.\n2. Principle: technique preserves insulin action and predictable absorption.\n3. Priority rule: confirm each habit matches safe practice.\n4. The correct options cover mixing order, site rotation and storage.\nFlip: If he planned a morning run, the abdomen rather than the thigh would be chosen.",
+  "optionRationales": [
+   "Correct. Clear before cloudy when mixing.",
+   "Correct. Rotation within one area keeps absorption predictable.",
+   "Correct. Spares are kept cool and never frozen.",
+   "Incorrect. Exercise speeds absorption and may cause hypoglycemia.",
+   "Incorrect. It is rolled gently, not shaken.",
+   "Incorrect. Reusing sites causes tissue changes and erratic absorption."
+  ],
+  "strategy": "Technique knowledge",
+  "archetype": "Select the correct practices",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Regular is drawn first when mixing",
+   "Rotate sites within one area"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0040",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "HHNS first priority",
+  "noteId": "np4-ge-hhns",
+  "vignette": "A 78-year-old with type 2 diabetes and heart failure is brought in confused with dry mucous membranes, blood pressure 88/50, a glucose far above 600 and no ketones. His daughter says he was recently ill with a chest infection.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Give an IV insulin bolus to bring the glucose down quickly",
+   "Give sodium bicarbonate to correct the acid level",
+   "Start the prescribed IV saline and monitor lung sounds",
+   "Check a urine ketone strip and wait for results"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: very high glucose, no ketones, confusion, hypotension in an older adult.\n2. Principle: osmotic diuresis causes severe dehydration with high osmolality.\n3. Priority rule: replace fluid first and watch for overload.\n4. The key beats insulin because circulation is failing.\nFlip: If ketones and a low pH were present, DKA management with insulin after fluids would apply.",
+  "optionRationales": [
+   "Trap from DKA. Insulin matters less than fluids and rapid lowering may worsen shock.",
+   "Plausible detail from DKA. HHNS has no ketone acidosis and the pH is normal.",
+   "Correct. Severe dehydration is corrected first, watching for overload in an older client with heart failure.",
+   "Skips the emergency. Absent ketones are already stated; fluids cannot wait."
+  ],
+  "strategy": "Maslow: circulation first",
+  "archetype": "Do not copy the DKA reflex",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "HHNS: fluid replacement first",
+   "Watch for fluid overload in older adults"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0041",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "DKA in a type 2 client",
+  "noteId": "np4-ge-dka-vs-hhns",
+  "vignette": "A 62-year-old with type 2 diabetes on insulin has skipped insulin for two days and now has vomiting, deep rapid respirations, fruity breath and serum ketones. A student nurse says only people with type 1 diabetes get ketoacidosis.",
+  "stem": "What is the best response?",
+  "options": [
+   "Treat as HHNS with fluids only because she has type 2 diabetes",
+   "It can occur in either type; treat with fluids and insulin",
+   "Start insulin first because she is on insulin at home",
+   "Wait for the acid level before deciding on treatment"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: Kussmaul breathing, fruity breath and ketones in a type 2 client.\n2. Principle: ketoacidosis occurs in either type when insulin is lacking.\n3. Priority rule: treat the pattern in front of you, not the label.\n4. The key beats HHNS because acid and ketones are present.\nFlip: If ketones were absent and the pH normal with extreme glucose and confusion, HHNS would apply.",
+  "optionRationales": [
+   "Plausible detail from a similar condition. Ketones and acid distinguish this from HHNS.",
+   "Correct. DKA occurs in type 2 as well, especially with omitted insulin and stress.",
+   "Right drug, wrong order. Fluids and potassium status come before insulin.",
+   "Under-reaction. The picture is already clear and delay is unsafe."
+  ],
+  "strategy": "Challenge the assumption",
+  "archetype": "Challenge the assumption",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "DKA can occur in either type",
+   "DKA: ketones and low pH"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0042",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Post-hypophysectomy leak",
+  "noteId": "np4-ge-hypophysectomy-care",
+  "vignette": "A client is 36 hours after transsphenoidal hypophysectomy with the head of the bed raised. Her nasal drip has turned clear and a test strip is positive for glucose. She has a new headache and is thirsty. She asks to blow her nose.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Suction the nose gently to clear the drainage",
+   "Allow gentle nose blowing to relieve the congestion",
+   "Lower the head of the bed to ease her headache",
+   "Report the glucose-positive clear drainage"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: clear, glucose-positive drainage and headache after pituitary surgery.\n2. Principle: a breach of the dura can leak CSF into the nose.\n3. Priority rule: report suspected leak, do not manipulate the nose.\n4. The key beats lowering the bed because elevation must be maintained.\nFlip: If the drainage were blood-tinged and glucose-negative, observation and mouth care would be appropriate.",
+  "optionRationales": [
+   "Unsafe. Suctioning or probing the nose after pituitary surgery can worsen a leak.",
+   "Unsafe habit. Blowing raises pressure and is avoided after surgery.",
+   "Right comfort idea, wrong effect. Elevation is kept to reduce pressure.",
+   "Correct. Clear glucose-positive fluid suggests a cerebrospinal fluid leak, which risks meningitis."
+  ],
+  "strategy": "Recognise the complication",
+  "archetype": "Report the clear drainage",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Glucose-positive clear fluid suggests a CSF leak",
+   "Raise head of bed; avoid straining"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0043",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Acute red eye with vomiting",
+  "noteId": "np4-ns-acute-glaucoma",
+  "vignette": "A 66-year-old man with Parkinson's disease taking an anticholinergic arrives with severe pain in his right eye, a red eye, halos around lights, and vomiting. His right pupil is mid-dilated and fixed and oval. He asks for something for nausea and for the lights to be dimmed.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Give the ordered antiemetic and dim the lights",
+   "Apply a cold compress and have him rest in the waiting area",
+   "Ask for urgent provider evaluation to lower the pressure",
+   "Instill his own eye drops from his bag to ease the pain"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: severe eye pain, halos, vomiting, fixed mid-dilated oval pupil.\n2. Principle: blocked outflow at the angle rapidly raises eye pressure.\n3. Priority rule: sight-threatening emergencies are escalated before symptom relief.\n4. The key beats the antiemetic because only pressure reduction preserves sight.\nFlip: If the eye were comfortable with gradual side vision loss, routine glaucoma follow-up would be appropriate.",
+  "optionRationales": [
+   "Treats the symptom. Comfort measures are fine but delay vision-saving treatment.",
+   "Under-reaction. Waiting allows the pressure to damage the optic nerve.",
+   "Correct. The picture is acute angle-closure glaucoma, an emergency that can cause blindness within hours.",
+   "Over-intervention. Giving unprescribed drops is unsafe and may be the wrong type."
+  ],
+  "strategy": "Unstable before stable: vision-threatening emergency",
+  "archetype": "Do not treat the nausea alone",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Acute glaucoma is an emergency",
+   "Avoid anticholinergics in glaucoma"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0044",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Open-angle glaucoma teaching",
+  "noteId": "np4-ns-chronic-glaucoma",
+  "vignette": "A 68-year-old with chronic open-angle glaucoma says her vision seems fine. During teaching she makes four statements.",
+  "stem": "Which statement shows the need for further teaching?",
+  "options": [
+   "I should avoid heavy lifting and straining",
+   "I need regular eye-pressure checks even if I feel well",
+   "I should use my drops at the times prescribed every day",
+   "I can stop the drops once the halos go away"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: the client believes symptom relief means cure.\n2. Principle: chronic open-angle glaucoma slowly damages vision and has no pain.\n3. Priority rule: correct the unsafe belief.\n4. The key stands out because stopping drops risks permanent field loss.\nFlip: If she had a one-time laser procedure, the schedule of drops might change but follow-up would remain.",
+  "optionRationales": [
+   "Appropriate; straining can raise eye pressure.",
+   "Appropriate; the disease is usually painless.",
+   "Appropriate; consistent dosing protects the optic nerve.",
+   "Correct. Drops control a painless, progressive disease and are lifelong even without symptoms."
+  ],
+  "strategy": "Teach the correct response",
+  "archetype": "Painless disease needs lifelong care",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Glaucoma drops are lifelong",
+   "Avoid straining and heavy lifting"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0045",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Post-retinal surgery warning signs",
+  "noteId": "np4-ns-retinal-detachment",
+  "vignette": "A client is five days after surgery for retinal detachment. He has mild eye soreness that eases with a warm washcloth and some nausea he has managed. He reports bumping his head on a cupboard yesterday and today sees a shower of new floaters and a shadow at the edge of his vision.",
+  "stem": "Which finding should the nurse report immediately?",
+  "options": [
+   "New floaters with a shadow in his vision",
+   "Mild eye soreness relieved by a warm washcloth",
+   "Occasional nausea that he can manage",
+   "The bump on the head from yesterday"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: sudden floaters and a shadow after retinal surgery.\n2. Principle: these are signs of detachment.\n3. Priority rule: report vision changes at once.\n4. The key beats the soreness because it is not a warning sign.\nFlip: If the floaters were old and unchanged, routine follow-up would be adequate.",
+  "optionRationales": [
+   "Correct. These signs suggest re-detachment and need urgent review.",
+   "Expected after surgery and already relieved.",
+   "Common recovery effect rather than a sight-threatening sign.",
+   "Worth noting but not the urgent finding."
+  ],
+  "strategy": "Recognise the new vision change",
+  "archetype": "New versus expected",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Report new floaters, flashes or shadows",
+   "Avoid bumping the head after surgery"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0046",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Eye triage priorities",
+  "noteId": "np4-ns-x-eye-emergencies-compared",
+  "vignette": "Four clients wait at an occupational health clinic: a worker with a gradually blurring left eye and no pain, a worker whose right eye was splashed with a cleaning chemical two minutes ago and is burning, a worker with mild itching and crusted lids, and a worker with a red eye who wants an eye drop for a headache.",
+  "stem": "Which client should the nurse attend to first?",
+  "options": [
+   "The worker with gradual blurring in the left eye, no pain",
+   "The worker with the chemical splash to the eye",
+   "The worker with itchy, crusted lids",
+   "The worker with a red eye and a headache"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: a chemical splash two minutes ago.\n2. Principle: chemical burns progress rapidly.\n3. Priority rule: irrigate first, ask questions later.\n4. The key beats the others because delay causes permanent injury.\nFlip: If the first worker's eye had been punctured by a metal fragment, irrigation would not be done.",
+  "optionRationales": [
+   "Needs evaluation but is stable and not progressing within minutes.",
+   "Correct. Chemical injury is irrigated immediately because damage continues until the chemical is diluted.",
+   "Likely conjunctivitis, which is not vision-threatening in the short term.",
+   "Needs assessment but does not have a time-critical chemical exposure."
+  ],
+  "strategy": "Unstable before stable",
+  "archetype": "Chemical irrigation first",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Chemical splash: irrigate immediately",
+   "Penetrating injury: shield only"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0047",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Penetrating eye injury first aid",
+  "noteId": "np4-ns-penetrating-eye-injury",
+  "vignette": "A carpenter arrives with a wood splinter protruding from his left eye. He is anxious, wants it pulled out, and his coworker has a folded gauze pad ready to tape over both eyes.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Tape the gauze pad over both eyes to prevent movement",
+   "Place a rigid shield around the object without pressure",
+   "Irrigate the eye with saline to wash out debris",
+   "Gently pull the splinter out since it looks superficial"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: foreign body protruding from the eye.\n2. Principle: a penetrating injury must not be manipulated or compressed.\n3. Priority rule: shield and arrange urgent care.\n4. The key beats patching because pressure risks extrusion of eye contents.\nFlip: If the injury were a chemical splash, irrigation would be immediate.",
+  "optionRationales": [
+   "Plausible detail. A patch applies pressure to the globe and is avoided.",
+   "Correct. Protect the eye, avoid pressure and keep the object from moving.",
+   "Right action for a chemical splash, wrong here; irrigating a ruptured globe is harmful.",
+   "Unsafe habit. Removing an embedded object can worsen the injury."
+  ],
+  "strategy": "Safety: protect, do not manipulate",
+  "archetype": "Protect without pressure",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Do not remove the object; no patch",
+   "Protect with a shield or stiff cup"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0048",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Vertigo attack safety",
+  "noteId": "np4-ns-menieres",
+  "vignette": "A 52-year-old woman with Meniere's disease has sudden violent vertigo with vomiting and loud ringing in her left ear. She wants to walk to the bathroom and asks for aspirin for the ear discomfort.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Keep her lying still in bed with rails up",
+   "Help her walk to regain her balance",
+   "Give the aspirin she requested",
+   "Perform caloric testing to confirm the diagnosis"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: acute vertigo and vomiting.\n2. Principle: movement worsens vertigo and increases falls.\n3. Priority rule: protect from injury before treating symptoms.\n4. The key beats walking because falls are the main hazard.\nFlip: If the attack had passed and she was steady, gradual ambulation would be encouraged.",
+  "optionRationales": [
+   "Correct. During an attack she should rest in a safe place to prevent falls.",
+   "Unsafe habit. Moving during vertigo increases fall risk.",
+   "Aspirin is avoided in Meniere's disease and is not the priority.",
+   "Over-intervention. Caloric testing can provoke attacks."
+  ],
+  "strategy": "Safety first",
+  "archetype": "Protect first",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Lie still in a safe place during an attack",
+   "Avoid aspirin in Meniere's disease"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0049",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Anterior uveitis orders",
+  "noteId": "np4-ns-uveitis",
+  "vignette": "A triage note labels a client's red eye as probable glaucoma. The client has deep eye pain, light sensitivity and a small, sluggish pupil. The ophthalmologist writes four orders.",
+  "stem": "Which order should the nurse clarify?",
+  "options": [
+   "Topical corticosteroid drops to the affected eye",
+   "Cycloplegic drops to relieve pain from spasm",
+   "Sunglasses for light sensitivity",
+   "Pilocarpine drops to the affected eye"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: small sluggish pupil, deep pain and photophobia.\n2. Principle: uveitis calls for steroid and cycloplegic therapy.\n3. Priority rule: question the order that matches a different diagnosis.\n4. The key stands out because the pupil is already constricted.\nFlip: If the pupil were mid-dilated and fixed with halos, pilocarpine would be appropriate.",
+  "optionRationales": [
+   "Appropriate for uveitis.",
+   "Appropriate to relieve ciliary spasm pain.",
+   "Appropriate comfort measure.",
+   "Correct. The pupil is already small; pilocarpine is a pupil-constricting drug used for glaucoma, not uveitis."
+  ],
+  "strategy": "Verify the order against the diagnosis",
+  "archetype": "Clarify the wrong drug",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Uveitis has a small pupil",
+   "Treatment: steroid plus cycloplegic"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0050",
+  "v": 2,
+  "type": "sata",
+  "area": "NP4",
+  "topic": "Pink eye teaching",
+  "noteId": "np4-ns-conjunctivitis",
+  "vignette": "A school nurse is teaching the mother of a 7-year-old with bacterial conjunctivitis. He has red eyes and crusted lids on waking.",
+  "stem": "Which teaching points should the nurse include? Select all that apply.",
+  "options": [
+   "Use warm soaks to loosen crusts",
+   "Wash hands before and after touching the eyes",
+   "Give him his own towel and washcloth",
+   "Use the same cloth for both eyes to save laundry",
+   "Let him return to the shared pillow without washing it",
+   "Apply a cold compress four times daily for bacterial infection"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "rationale": "1. Cue: contagious bacterial conjunctivitis in a child.\n2. Principle: spread occurs by hands and shared items.\n3. Priority rule: teach measures that limit transmission.\n4. The correct options cover soaks, hand washing and personal towels.\nFlip: If the cause were allergic, hand washing would still help but antihistamines would be added.",
+  "optionRationales": [
+   "Correct. Warm soaks remove crusting.",
+   "Correct. Hand washing limits spread.",
+   "Correct. Not sharing prevents spread.",
+   "Incorrect. It spreads infection to the other eye.",
+   "Incorrect. Contaminated linens spread germs.",
+   "Incorrect. Warm soaks are used for bacterial crusting."
+  ],
+  "strategy": "Infection control",
+  "archetype": "Infection control at home",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Conjunctivitis is contagious",
+   "Warm soaks for bacterial crusting"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ }
+]

@@ -1,0 +1,649 @@
+[
+ {
+  "id": "gen-fc-grief",
+  "area": "GEN",
+  "title": "Maladaptive Grief and Kubler-Ross Stages of Grieving",
+  "body": "## What it is\nGrief is the normal response to loss. Kubler-Ross described five stages; clients do not always move through them in order and may skip or revisit stages.\n\n## Kubler-Ross stages with the best nursing response\n- Denial: the client refuses to accept the loss and may act artificially cheerful. Support the client verbally but do NOT reinforce the denial (do not agree that nothing is wrong).\n- Anger: anger may be aimed at the nurse or staff over small matters. Explain that anger is a normal reaction to loss and powerlessness, do not withdraw or retaliate, and address the need behind the anger.\n- Bargaining: the client tries to make deals to avoid the loss. Listen attentively, let the client talk to ease guilt and irrational fear, and offer spiritual support if appropriate.\n- Depression: sadness over what has happened. Allow the client to express sadness, sit quietly without forcing conversation, and show caring by touch.\n- Acceptance: the client comes to terms with the loss, may lose interest in surroundings and want fewer visitors, and may begin to plan. Help family understand the reduced need to socialize and involve the client in treatment as much as possible.\n\n## Maladaptive (complicated) grief\n- Unresolved or chronic grief: same signs as normal grief but longer and more severe; the person may deny the loss or grieve far beyond the expected time.\n- Inhibited grief: usual grief signs are suppressed and physical (somatic) complaints appear instead.\n- Delayed grief: feelings are suppressed, on purpose or unconsciously, until much later.\n- Exaggerated grief: the survivor uses dangerous activities to lessen the pain.\n\n## How the exam asks about it\nQuestions give a client statement and ask which stage it is, then which response is best. The therapeutic answer accepts the feeling and keeps communication open; it never argues, falsely reassures, or forces the client out of the stage.\n\n## Related topics\n[[Signs of Approaching Death]], [[Caring for the Dying Client and the Family]]",
+  "tags": [
+   "grief",
+   "loss",
+   "psychosocial"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Maladaptive grief",
+   "Kubler-Ross Stages of Grieving"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-signs",
+  "area": "GEN",
+  "title": "Signs of Approaching Death",
+  "body": "## What it is\nAs death nears, body systems slow down in a recognisable pattern. Knowing it lets the nurse keep the client comfortable and prepare the family.\n\n## Loss of muscle tone\n- Facial muscles relax (the jaw may sag); speech and swallowing become difficult and the gag reflex gradually fades (aspiration risk).\n- GI activity slows: nausea, gas, abdominal distention and constipation or retained stool, worse if opioids or tranquilizers are given.\n- Loss of sphincter control can cause urine and stool incontinence; body movement lessens.\n\n## Slowing circulation\n- Decreased sensation; mottling and cyanosis of the extremities.\n- Skin turns cold, first the feet, later hands, ears and nose (the client may still feel warm if feverish).\n- Pulse slower and weaker, blood pressure falls.\n\n## Changes in breathing\n- Rapid shallow, irregular or very slow respirations.\n- Noisy breathing (\"death rattle\") from mucus pooling in the throat.\n- Mouth breathing with dry mucous membranes.\n\n## Sensory changes\nBlurred vision and dulled taste and smell. Hearing is commonly taught as the last sense to go (textbook teaching, not in the handout), so speak gently and explain care.\n\n## Nursing priorities\nComfort first: oral care, positioning for breathing, pain control, skin care, and incontinence care, followed by emotional support. See [[Caring for the Dying Client and the Family]].\n\n## Check against your textbook\nThe note on hearing being the last sense is added from general teaching, not the handout.",
+  "tags": [
+   "dying",
+   "end of life",
+   "assessment"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Signs of Impending Clinical Death"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-care",
+  "area": "GEN",
+  "title": "Caring for the Dying Client and the Family",
+  "body": "## Goal\nHelp the client die with dignity: physical comfort, emotional support and spiritual care, and guidance for the family.\n\n## Support dignity and control\n- Restore a sense of control: let the client choose the place of care, appointment times and activity schedule where possible.\n- Support the client's will and hope, focus on what the client needs, and help the client accept losses.\n\n## Physiologic needs\n- Personal hygiene and skin/mouth care.\n- Control pain (the usual first concern in terminal care).\n- Relieve breathing difficulty (positioning, oxygen, suctioning of secretions as ordered).\n- Help with movement, nutrition, hydration and elimination; manage sensory changes (e.g., lighting, presence, touch).\n\n## Spiritual support\nMake sure spiritual needs are met: allow prayer, meditation, reading, and talks with clergy or a spiritual adviser of the client's choice, and let feelings be expressed.\n\n## Supporting the family\n- Use therapeutic communication so family can voice feelings; offer an empathetic, caring presence.\n- Explain what is happening and what to expect; repeat information, because stress and grief make it hard to absorb.\n- Encourage family to take part in physical care.\n- After death, encourage the family to view the body.\n\n## How the exam asks about it\nLook for answers that keep the client in control, treat pain and breathing first (physiologic needs before higher needs), and use open communication. Wrong options deny the dying process, avoid the topic, or rush the family.\n\n## Related topics\n[[Signs of Approaching Death]], [[Maladaptive Grief and Kubler-Ross Stages of Grieving]], [[Death Definitions and Postmortem Changes]]",
+  "tags": [
+   "dying",
+   "end of life",
+   "palliative"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Nursing Interventions for a Dying Patient",
+   "Supporting the Family"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-death",
+  "area": "GEN",
+  "title": "Death Definitions and Postmortem Changes",
+  "body": "## Definitions\n- Heart-lung death: cessation of pulse, respirations and blood pressure.\n- Cerebral (higher brain) death: the cerebral cortex is irreversibly destroyed.\n\n## Indications of death\n- Total lack of response to external stimuli.\n- No muscular movement, especially no breathing.\n- No reflexes.\n- Flat brain-wave recording (see [[Electroencephalography (EEG)]]).\n\n## Postmortem changes\n- Rigor mortis: stiffening of the body beginning about 2 to 4 hours after death. It comes from lack of ATP, which leaves muscles contracted and the joints immobile. This is why positioning and care are done promptly.\n- Algor mortis: gradual cooling; temperature drops roughly 1 degree C (1.8 degrees F) per hour until it matches room temperature.\n- Livor mortis: discoloration in the lowest (dependent) body areas where blood settles. This is the reason a pillow goes under the head, to stop blood from discolouring the face.\n\n## Memory aid (made up)\nRigor = Rigid, Algor = Algid/cold, Livor = Livid/purple colour.\n\n## Related topics\n[[Postmortem Care Procedure]], [[Caring for the Dying Client and the Family]]\n\n## Check against your textbook\nLegal declaration of death is made by the physician, not the nurse; confirm local rules.",
+  "tags": [
+   "death",
+   "postmortem",
+   "definitions"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Definitions and Signs of Death",
+   "Rigor Mortis",
+   "Algor Mortis",
+   "Livor Mortis"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-postmortem",
+  "area": "GEN",
+  "title": "Postmortem Care Procedure",
+  "body": "## Principles\nFollow hospital policy, check the client's religion and honour religious requirements, and make the body look natural and comfortable. Do care soon after death, before rigor mortis sets in.\n\n## Steps in a sensible order\n- Make the setting clean and pleasant; remove equipment, soiled linen and supplies from the bedside (some agencies require tubes to stay in place).\n- Place the body supine, arms at the sides (palms down) or across the abdomen.\n- Put one pillow under the head and shoulders so blood does not settle in and discolour the face.\n- Close the eyelids and hold them briefly; insert dentures if used, then close the mouth.\n- Wash soiled areas; place absorbent pads under the buttocks for released stool and urine.\n- Put on a clean gown, comb the hair; remove all jewelry except a wedding band, which is taped to the finger.\n- Cover with top linen up to the shoulders; give the family soft lighting and chairs.\n- Leave the wrist identification tag on and add further tags; wrap the body in a shroud, place an identification tag outside the shroud, and transport to the morgue.\n\n## Exam traps\n- Identification tags: one on the wrist, additional ones on the shroud.\n- Valuables follow policy; only the wedding band stays on the body.\n- Dignity and family needs are part of postmortem care.\n\n## Related topics\n[[Death Definitions and Postmortem Changes]]",
+  "tags": [
+   "postmortem",
+   "fundamentals",
+   "procedure"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Nursing Interventions for the Body After Death"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-phases",
+  "area": "GEN",
+  "title": "Phases of Diagnostic Testing and Nursing Role",
+  "body": "## What it is\nDiagnostic tests (invasive or non-invasive) inspect body structures or show how they work. Nursing care is organised in three phases.\n\n## Pre-test (focus: client preparation)\n- Thorough assessment and data collection: allergies (shellfish or iodine for contrast), medications (anticoagulants), pregnancy, renal function.\n- Explain the test, restrictions (NPO, diet, medications), and sensations to expect; secure informed consent for invasive tests (the physician explains, the nurse confirms understanding and witnesses).\n- Remove metal items when imaging.\n\n## Intra-test (focus: specimens and assisting)\n- Standard precautions and sterile technique.\n- Emotional and physical support; monitor vital signs; watch for complications.\n\n## Post-test\n- Provide comfort and follow-up care; check vital signs against baseline.\n- Care for specimens and label correctly; document accurately.\n- Report results promptly to the physician.\n- Typical hazards by test type: delayed allergic reaction to contrast, bleeding at puncture sites, loss of gag reflex after throat anaesthesia.\n\n## How the exam asks about it\nAssess for allergy before contrast; consent before the procedure and before sedation; check anticoagulants; after procedures with sedation or topical throat anaesthesia keep NPO until reflexes return.\n\n## Related topics\n[[Computed Tomography Scan]], [[Lumbar Puncture]], [[Cardiac Catheterization]], [[Complete Blood Count and Reference Values]]",
+  "tags": [
+   "diagnostics",
+   "pre-test",
+   "post-test",
+   "consent"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Laboratory and Diagnostic Examinations",
+   "Phases of Diagnostic Tests"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-ct",
+  "area": "GEN",
+  "title": "Computed Tomography Scan",
+  "body": "## What it is\nA narrow x-ray beam scans the body in thin slices to make detailed images. Contrast dye may be used.\n\n## Uses\n- Tell benign from malignant tumours; find aneurysms (aortic), infarcts, hydrocephalus and stenosis.\n- Evaluate cysts, masses, abscesses, kidney stones, GI bleeding or obstruction, and trauma.\n- Monitor medical, radiation or surgical treatment.\n\n## Contraindications and cautions\n- Allergy to shellfish or iodinated dye.\n- Claustrophobia; pregnancy; chronic dehydration; renal failure (contrast is kidney-toxic).\n\n## Nursing responsibilities (before)\n- Informed consent; ask about allergies if dye will be used.\n- NPO for at least 8 hours per the handout (to prevent aspiration).\n- Baseline vital signs; remove metal objects; check BUN and creatinine.\n\n## After the test\n- Watch for delayed allergic reactions (rash, hives, fast heart rate, rapid breathing, palpitations).\n- Increase fluids to flush the contrast; assess kidney function.\n- Cold compress to the puncture site; resume usual diet and medications as ordered.\n\n## Exam angle\nContrast + allergy history, renal values and fluids afterward are the commonly tested items. Compare with [[Magnetic Resonance Imaging (MRI)]].\n\n## Check against your textbook\nNPO duration varies by institution (4 to 8 hours is common).",
+  "tags": [
+   "imaging",
+   "contrast",
+   "neuro"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Computed Tomography Scan"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-mri",
+  "area": "GEN",
+  "title": "Magnetic Resonance Imaging (MRI)",
+  "body": "## What it is\nA strong magnetic field produces images; it may be done with or without contrast. No radiation is used.\n\n## Uses\n- Locate tumours; detect stroke, cerebral infarct or haemorrhage.\n- Look for causes of seizures; evaluate demyelinating disorders.\n- Study solid, cystic and bleeding parts of lesions; follow response to surgery, chemotherapy or radiation.\n\n## Contraindications\n- Metal in the body, pacemakers and intrauterine devices (the magnet can move or heat them): the safety screen comes FIRST.\n- Claustrophobia; pregnancy.\n\n## Nursing responsibilities\n- Informed consent; screen for allergy to contrast and for metal implants; obtain a medication list.\n- Remove dentures, jewelry, hairpins, credit cards and any metal.\n- Explain that the test is painless, the scanner is loud (banging), flickering lights may be seen, and an IV line may be needed.\n- Client must stay still (movement ruins the images); slow deep breaths help if nauseated.\n\n## After the test\n- Watch for delayed allergic reaction; report rapid heart rate, difficulty breathing, rash, itching or low urine output.\n- Cold compress to the puncture site; encourage oral fluids to clear the dye.\n\n## Related topics\n[[Computed Tomography Scan]], [[Positron Emission Tomography (PET) Scan]]",
+  "tags": [
+   "imaging",
+   "neuro",
+   "safety"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Magnetic Resonance Imaging (MRI)"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-pet",
+  "area": "GEN",
+  "title": "Positron Emission Tomography (PET) Scan",
+  "body": "## What it is\nA radionuclide gives off positrons, producing images of function (biochemical activity) rather than just structure.\n\n## Uses\n- Detect Parkinson's and Huntington's disease.\n- Judge whether therapy works through tissue activity.\n- Separate tumour recurrence from radiation necrosis.\n- Identify stroke or aneurysm; find the focus of a seizure.\n\n## Contraindication\nPregnancy, unless benefit outweighs risk to the mother and fetus.\n\n## Before\n- Note recent procedures that can interfere: iodine contrast or barium studies.\n- Medication list; restrict food for 4 hours; avoid alcohol, nicotine and caffeine for 24 hours; the handout says to withhold medications for 24 hours (only as the physician directs).\n- Remove metal; baseline vital signs and neurologic status; standard precautions.\n- The client may be blindfolded or given earplugs to reduce stimulation.\n- Watch for allergic reaction, anaphylaxis, bronchospasm.\n\n## After\n- Fluids for 24 to 48 hours unless contraindicated, to remove the tracer.\n- Cold compress to the puncture site; flush the toilet right after each voiding.\n- No other radionuclide test for 24 to 48 hours.\n- Report fast heart rate, breathing difficulty, rash, itching, low urine output.\n\n## Related topics\n[[Magnetic Resonance Imaging (MRI)]], [[Radioactive Iodine Uptake and Thyroid Scan]]\n\n## Check against your textbook\nMedication withholding rules differ; do not stop meds without an order.",
+  "tags": [
+   "imaging",
+   "radionuclide",
+   "neuro"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Positron Emission Tomography (PET) Scan"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-eeg",
+  "area": "GEN",
+  "title": "Electroencephalography (EEG)",
+  "body": "## What it is\nA non-invasive recording of the brain's electrical activity through scalp electrodes (or microelectrodes in brain tissue).\n\n## Uses\nConfirms brain death; detects ischemia, intracranial lesions, seizure disorders, tumours, abscesses, clots and infection; evaluates drug intoxication and sleep disorders.\n\n## Results\n- Normal: alpha, beta, theta and delta rhythms appropriate for age.\n- Abnormal: seizure disorders, brain death, infarct, encephalitis, meningitis, head injury, haemorrhage, abscess, migraine, narcolepsy, sleep apnoea, hypoglycaemia or hypocalcaemia.\n\n## Factors that disturb results\nInability to stay still (age, pain, mental status); sedatives, anticonvulsants, anxiolytics, alcohol; caffeine and nicotine; hypoglycaemia or hypothermia; dirty, oily or product-treated hair.\n\n## Before\n- Consent signed before any medication is given.\n- Medication list; clean hair, no sprays, creams or oils; no caffeine for 8 hours before.\n- Anti-seizure drugs, tranquilizers, stimulants and depressants may be withheld 24 to 48 hours, ONLY if the physician orders.\n- Standard EEG takes 45 to 60 minutes; reassure that it does not cause electric shock.\n- Sleep may be limited the night before (handout: 5 hours adult, 7 hours child).\n- Client rests with eyes closed; may be asked to change breathing pattern.\n\n## After\nRemove electrodes and paste (cleanse with oil), raise side rails for safety, resume medications as directed, and report seizure activity. Offer emotional support while awaiting results.\n\n## Related topics\n[[Lumbar Puncture]], [[Electromyography and Electroneurography]]\n\n## Check against your textbook\nThe handout lists a \"sleep EEG requires 12 hours\"; verify this.",
+  "tags": [
+   "neuro",
+   "seizure",
+   "diagnostics"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Electroencephalography"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-lp",
+  "area": "GEN",
+  "title": "Lumbar Puncture",
+  "body": "## What it is\nA needle is placed in the lumbar subarachnoid space (L3-L4 or L4-L5) to take cerebrospinal fluid (CSF). Collect into three tubes (about 9 to 12 mL in total per the handout).\n\n## Positioning\nSide-lying in a knee-chest (C-shaped, fetal or \"shrimp\") position to open the spaces between vertebrae.\n\n## Uses\nCollect CSF for study, measure and relieve CSF pressure, detect blood in CSF, and give drugs intrathecally.\n\n## CSF findings\n- Normal: clear and colourless. Pink, bloody CSF suggests subarachnoid haemorrhage.\n- Protein up: meningitis, encephalitis.\n- Lactic acid up: bacterial, tubercular or fungal meningitis.\n- Myelin basic protein up: trauma, stroke, tumour, multiple sclerosis.\n- RBC up: haemorrhage.\n- Glucose DOWN: bacterial and tubercular meningitis.\n\n## Contraindications\nInfection at the puncture site, degenerative joint disease, coagulation defects, and (with extreme caution) increased intracranial pressure, because removing CSF can cause brain herniation.\n\n## Nursing care\n- Before: consent; history of immune and musculoskeletal systems; medication list; anticoagulants held per order; no routine food or fluid restriction.\n- After: watch the site for bleeding, CSF leakage or haematoma; check vital signs, neurologic status and headache every 15 minutes for 1 hour, then every 2 hours for 4 hours; encourage fluids if allowed to replace CSF.\n- Position: prone to relieve headache; flat (supine) if over 20 mL was removed (per handout).\n\n## Related topics\n[[Phases of Diagnostic Testing and Nursing Role]], [[Electroencephalography (EEG)]]\n\n## Check against your textbook\nPost-procedure positioning (flat for a set number of hours) differs between sources.",
+  "tags": [
+   "neuro",
+   "CSF",
+   "procedure"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Lumbar Puncture"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-emg",
+  "area": "GEN",
+  "title": "Electromyography and Electroneurography",
+  "body": "## What they are\n- Electroneurography (nerve conduction study): finds peripheral nerve injury, separates nerve disease from muscle injury, and tracks response to treatment.\n- Electromyography (EMG): records skeletal muscle electrical activity at rest, during voluntary contraction and with stimulation; needle electrodes enter the muscle.\n\n## Conditions picked up\nCarpal tunnel syndrome, diabetic neuropathy, Guillain-Barre syndrome, herniated disc, muscular dystrophy, myasthenia gravis, poliomyelitis, ALS, Bell's palsy, beriberi, multiple sclerosis, polymyositis, radiculopathy, traumatic injury.\n\n## Contraindications for EMG\nExtensive skin infection, anticoagulant therapy, infection at electrode sites.\n\n## Nursing care before\n- Written consent; history of neuromuscular and sensory status; medication list, especially anticoagulants, aspirin and salicylates.\n- Nerve study: void first; shave the area to be stimulated; supine or sitting.\n- EMG: avoid smoking and caffeine before; muscle relaxants, cholinergics and anticholinergics may be held 3 to 6 days only on medical direction; a mild analgesic (adult) or sedative (child) may be given.\n- Expect a feeling like an intramuscular injection when the needle goes in; stay relaxed and follow commands to contract muscles.\n\n## After\nRemove electrodes and clean the skin; check sites for bleeding, haematoma, inflammation. Muscle soreness is common: warm compresses and analgesics. Resume usual diet, drugs, activity.\n\n## Related topics\n[[Electroencephalography (EEG)]], [[Phases of Diagnostic Testing and Nursing Role]]",
+  "tags": [
+   "neuro",
+   "muscle",
+   "nerve"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Electroneurography",
+   "Electromyography (EMG)"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-cxr",
+  "area": "GEN",
+  "title": "Chest X-ray and Pulse Oximetry",
+  "body": "## Chest x-ray\n- Shows size, shape and position of the heart, lungs, ribs and other chest organs.\n- Used for hernia of the diaphragm, lung tumours and metastasis, chest trauma, lung, heart and bone disorders, positive Mantoux follow-up, and to monitor treatment.\n- Pregnancy is a caution unless benefit outweighs risk.\n- Nursing: explain it assesses heart and lung status; medication list; no food or fluid limits; remove dentures, jewelry, hairpins, credit cards and metal; client stands in front of the film or detector, breathes in deeply and holds the breath during the exposure.\n\n## Pulse oximetry\n- A non-invasive, continuous reading of arterial oxygen saturation (SpO2) using a sensor on the earlobe, fingertip, forehead, toe or nose.\n- Normal: 95% or higher. Below 95% suggests hypoxaemia, abnormal gas exchange or impaired cardiopulmonary function.\n- Uses: judge gas exchange, monitor oxygenation in sleep apnoea testing, and check response to respiratory drugs.\n\n## Getting a reliable reading\n- Remove nail polish and false nails.\n- If using the finger, do not let the client grip a rail tightly.\n- Warm the site or massage the earlobe or finger to improve blood flow.\n- Place the probe so the light source and sensor face each other; avoid strong direct light.\n- No smoking for 24 hours before (per handout); no food or drug limits.\n\n## How the exam asks about it\nThe first action for a low SpO2 is to assess the client (airway, breathing, colour) and check probe placement, then give oxygen as ordered; do not treat the number alone.\n\n## Related topics\n[[Arterial Blood Gases and Allen's Test]], [[Pulmonary Function Tests]]",
+  "tags": [
+   "respiratory",
+   "oxygenation",
+   "diagnostics"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Chest X-ray",
+   "Pulse Oximetry"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-bronch",
+  "area": "GEN",
+  "title": "Bronchoscopy",
+  "body": "## What it is\nDirect viewing of the larynx, trachea and bronchi with a flexible fiberoptic or rigid bronchoscope.\n\n## Uses\nExamine tissue and collect secretions; find the site and extent of disease and take a biopsy; decide whether a tumour can be removed surgically; find bleeding sites.\n\n## Contraindications and cautions\nBleeding disorders (including uraemia and chemotherapy), pulmonary hypertension, cardiac conditions, disorders limiting neck extension, severe tracheal obstruction.\n\n## Before\n- Informed consent; NPO about 6 hours (handout) to prevent aspiration.\n- Give pre-procedure medication as ordered; remove dentures and oral prostheses.\n- Local or general anaesthesia depending on type.\n\n## After (priority is airway)\n- Keep NPO until the cough and gag reflex returns, because throat anaesthesia raises aspiration risk; then offer ice chips and fluids.\n- Monitor respiratory rate; watch for hypoxia, hypotension, fast heart rate, dysrhythmias, haemoptysis and dyspnoea.\n- Older clients: watch for confusion and lethargy.\n- Tell the client and family to report shortness of breath or bleeding immediately. Mild blood-streaked sputum is expected, bright red bleeding is not.\n\n## Exam angle\nQuestions test the gag reflex check before oral intake and the signs of laryngospasm or airway edema (stridor, difficulty breathing): call for help and keep the airway open first.\n\n## Related topics\n[[Chest X-ray and Pulse Oximetry]], [[Thoracentesis]]\n\n## Check against your textbook\nFasting time (6 vs 8 hours) differs between references.",
+  "tags": [
+   "respiratory",
+   "endoscopy",
+   "procedure"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Bronchoscopy"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-thora",
+  "area": "GEN",
+  "title": "Thoracentesis",
+  "body": "## What it is\nAspiration of fluid or air from the pleural space (about 20 minutes). The client sits leaning over a bedside table with arms and head supported.\n\n## Uses\nRemove fluid or air, collect pleural fluid for analysis, take a pleural biopsy, or instil medication into the pleural space.\n\n## Before\n- Informed consent; shave the site if needed.\n- A cough suppressant may be given; sedative or analgesic for the discomfort of needle insertion.\n- No food or fluid restriction unless ordered; anticoagulants and aspirin may be withheld.\n- Have emergency equipment ready (for laryngospasm).\n\n## During\nKeep the client still and supported; the cough reflex can threaten the needle position.\n\n## After (watch for pneumothorax and shock)\n- Position sitting up or lying on the unaffected side for 1 hour (as given in the handout).\n- Check pulse, respirations and skin colour; observe cough, sputum, depth of breathing, breath sounds and chest pain.\n- Do not remove more than 1,000 mL of fluid in the first 30 minutes; rapid removal can cause hypotension or pulmonary edema.\n- Inspect the site for bleeding, inflammation, haematoma; give antiemetics and analgesics as ordered.\n- Expected chest x-ray afterward to check for pneumothorax.\n\n## Related topics\n[[Bronchoscopy]], [[Chest X-ray and Pulse Oximetry]]\n\n## Check against your textbook\nThe chest x-ray after thoracentesis is added from general teaching.",
+  "tags": [
+   "respiratory",
+   "pleural",
+   "procedure"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Thoracentesis",
+   "Pleural Effusion Nursing Responsibilities"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-abg",
+  "area": "GEN",
+  "title": "Arterial Blood Gases and Allen's Test",
+  "body": "## What it is\nA blood sample from an artery that measures oxygenation and acid-base balance. Used in asthma, COPD, embolism, and respiratory failure, and to describe the type of acid-base imbalance and degree of compensation.\n\n## Normal values (from the handout)\n- pH 7.35 to 7.45\n- PaO2 80 to 100 mm Hg\n- PaCO2 35 to 45 mm Hg\n- HCO3 22 to 26 mEq/L\n- Base excess -2 to +2 mEq/L\n- O2 saturation 95 to 100%\n\n## Site and Allen's test\nThe radial artery is most common. Before using it, do Allen's test to confirm collateral circulation through the ulnar artery:\n- Extend the wrist over a rolled towel; client makes a fist.\n- The nurse presses both radial and ulnar arteries at the same time.\n- Client opens the hand (it looks pale); release the ulnar artery.\n- Colour returning within about 6 seconds means the hand can tolerate a radial puncture.\n- The ultrasonic Doppler is the most accurate way to assess arterial perfusion of the hand.\n\n## Nursing care\n- Before: explain the test (10 to 15 minutes); history of respiratory disease or bleeding disorders; have an ice slurry ready, because the sample must reach the lab promptly on ice.\n- Client breathes normally and stays still.\n- After: apply pressure at least 5 minutes (15 minutes if on anticoagulants); watch the site for bleeding or haematoma; watch for respiratory problems; teach breathing exercises.\n\n## Related topics\n[[Chest X-ray and Pulse Oximetry]], [[Pulmonary Function Tests]]\n\n## Check against your textbook\nInterpretation of acid-base patterns is not in this section; review it separately. Also check that the sample is free of air bubbles and heparinised (general teaching).",
+  "tags": [
+   "acid-base",
+   "ABG",
+   "respiratory"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Arterial Blood Gases (ABG)",
+   "Allen's test"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-pft",
+  "area": "GEN",
+  "title": "Pulmonary Function Tests",
+  "body": "## What they are\nTests that measure lung function and the extent of dysfunction. Used to follow established respiratory disease and response to therapy, screen workers in hazardous industries, detect COPD and restrictive lung or chest-wall disease, judge disability, and check if a client can tolerate surgery or other tests.\n\n## Lung volumes and capacities (handout normals)\n- Tidal volume: air moved in quiet breathing, about 500 mL.\n- Inspiratory reserve volume: extra air that can be breathed in, about 3,000 mL.\n- Residual volume: air left after maximal exhalation, about 1,200 mL.\n- Vital capacity: air exhaled after a maximal breath in, about 4,600 mL.\n- Inspiratory capacity: air inhaled after a normal quiet exhalation, about 3,500 mL.\n- Functional residual capacity: air left after normal exhalation, about 2,300 mL.\n- Total lung capacity: lungs at full inflation, about 5,800 mL.\n\n## Nursing care\n- Before: explain the test; no smoking or heavy meal for 4 to 6 hours; avoid bronchodilators for at least 4 hours unless told otherwise; client sits.\n- During: client inhales deeply and then exhales as quickly and fully as possible into the mouthpiece.\n- After: check for dizziness or weakness, allow rest, resume usual diet and medicines.\n\n## Related topics\n[[Arterial Blood Gases and Allen's Test]], [[Chest X-ray and Pulse Oximetry]]\n\n## Check against your textbook\nThe handout's values are typical adult figures; they differ by sex, age and height.",
+  "tags": [
+   "respiratory",
+   "lung volumes",
+   "diagnostics"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Pulmonary Function Studies",
+   "Lung Volumes and Capacities"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-mantoux",
+  "area": "GEN",
+  "title": "Mantoux Tuberculin Skin Test",
+  "body": "## What it is\nAlso called the PPD or tuberculin skin test. It shows past or present exposure to Mycobacterium tuberculosis. It cannot tell active disease from past exposure.\n\n## Technique\n- Use a tuberculin syringe with a short 26-gauge needle.\n- Give intradermally (a small bleb or wheal forms) at the prepared site, using the usual strength of 5 tuberculin units.\n- Draw up and inject immediately.\n\n## Reading\n- Read after 48 to 72 hours.\n- The measure is the induration (hard raised area), not the redness.\n- Positive: at least 10 mm for the general client; at least 5 mm for HIV-positive clients (and other immunosuppressed, per textbook).\n\n## Uses\nEvaluate cough, weight loss, fatigue, haemoptysis or abnormal chest x-ray; evaluate known or suspected exposure, with or without symptoms.\n\n## Teaching\nNo food, fluid or medication limits. Do not scratch, rub or cover the site until it is read.\n\n## How the exam asks about it\nPositive result does not mean active TB, so the next step is chest x-ray and further tests. See also [[Chest X-ray and Pulse Oximetry]].\n\n## Check against your textbook\nThe handout writes the dose as \"5 TU in 1 mL\"; the standard injected volume is 0.1 mL. Also check the 15 mm cutoff for people with no risk factors and the cutoff for recent contacts (not in the handout).",
+  "tags": [
+   "TB",
+   "skin test",
+   "infection"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Mantoux Test"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-pulmang",
+  "area": "GEN",
+  "title": "Pulmonary Angiography",
+  "body": "## What it is\nX-ray imaging of the lung blood vessels after iodinated contrast is injected into the pulmonary artery.\n\n## Uses\nDetect acute pulmonary embolism, arteriovenous malformations, tumours, aneurysm, congenital defects; find the cause of recurrent or severe haemoptysis.\n\n## Contraindications\nShellfish or iodine allergy, bleeding disorder, older or chronically dehydrated clients, renal failure.\n\n## Before\n- Consent; ask about recent iodine-contrast studies.\n- NPO for 8 hours; avoid anticoagulants as ordered; remove metal.\n- If there is a history of severe allergy, give prophylactic steroids or antihistamines as ordered.\n- Mark peripheral pulses with a pen so they can be compared later.\n- Warn about a burning and flushing sensation, urge to cough, nausea and a metallic taste during injection; slow deep breaths help nausea.\n- Have emergency equipment ready; client supine.\n\n## After\n- Vital signs and neurologic checks every 15 minutes for 1 hour, then every 2 hours for 4 hours.\n- Watch for delayed allergic reaction (rash, hives, fast heart rate, rapid breathing, high blood pressure, palpitations, nausea, vomiting) and for reduced urine output.\n- Cold compress to the site; bed rest for 4 to 6 hours.\n\n## Related topics\n[[Cardiac Catheterization]], [[Computed Tomography Scan]]",
+  "tags": [
+   "respiratory",
+   "contrast",
+   "embolism"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Pulmonary Angiography"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-baswallow",
+  "area": "GEN",
+  "title": "Barium Swallow and Barium Enema",
+  "body": "## Barium swallow (esophagram)\n- Shows the esophagus after the client swallows barium. Used to check surgical joins (anastomoses), reflux, fistulas, varices, causes of dysphagia, heartburn or regurgitation, and to find foreign bodies.\n- Contraindicated in intestinal obstruction or suspected esophageal rupture unless a water-soluble iodinated medium is used; use barium if a tracheoesophageal fistula is suspected, per the handout.\n- Before: explain, NPO about 8 hours, remove metal. Takes 15 to 30 minutes.\n\n## Barium enema\n- Radiologic study of the colon, distal small bowel and sometimes the appendix; air may be added to improve views.\n- Uses: rectal bleeding, pus or mucus in stool, inflammation, congenital anomaly, motility disorder, unexplained weight loss, anaemia, change in bowel pattern, polyps or tumours.\n- Contraindications: shellfish or iodine allergy, pregnancy, intestinal obstruction, acute ulcerative colitis, acute diverticulitis, megacolon, suspected colon rupture.\n- Before: do it before an upper GI study or barium swallow so retained barium does not hide the view; low-residue and clear liquid diet for 2 days; NPO 8 hours; laxatives; remove metal.\n\n## After both tests\n- Resume usual diet, fluids and activity as directed.\n- Stools will be white or light for 2 to 3 days; report if colour does not return to normal.\n- Give laxatives or fluids to clear the barium and prevent impaction; watch for fatigue and fluid or electrolyte imbalance; if iodine contrast was used, watch for allergic reaction.\n\n## Related topics\n[[Proctosigmoidoscopy and Colonoscopy]], [[Fecal Examinations]]\n\n## Check against your textbook\nThe handout's reason for the barium swallow contraindications is brief; confirm contrast choice rules.",
+  "tags": [
+   "GI",
+   "contrast",
+   "radiology"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Upper GI: Barium swallow",
+   "Lower GI: Barium enema"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-scopes",
+  "area": "GEN",
+  "title": "Proctosigmoidoscopy and Colonoscopy",
+  "body": "## Proctosigmoidoscopy\n- Views the rectum and distal sigmoid colon.\n- Uses: diverticular disease, Hirschsprung's disease, rectal prolapse and pain, rectal itching or burning, sigmoid volvulus, laser removal of haemorrhoids, colon cancer screening.\n- Avoid in bleeding disorders, cardiac conditions or arrhythmias, bowel perforation, acute peritonitis, ischaemic bowel necrosis, toxic megacolon, diverticulitis, recent bowel surgery and severe heart or lung disease.\n- Nursing: consent; low-residue diet for several days; left lateral or knee-chest position; afterward watch for abdominal pain, tenderness or distention, pain on defecation and fever (possible perforation); encourage fluids.\n\n## Colonoscopy\n- A flexible scope inspects the whole colon, ileocecal valve and terminal ileum; may take up to 1 hour.\n- Uses: personal or family history of colon cancer, polyps or ulcerative colitis; confirm colon cancer and IBD; find cause of lower GI problems; positive occult blood, lower GI bleeding, bowel changes; remove polyps; reduce volvulus or intussusception.\n- Avoid in bleeding disorders, cardiac conditions, perforation, peritonitis, acute or toxic colitis, recent surgery, advanced pregnancy, severe heart or lung disease, recent myocardial infarction, or bowel anastomosis within 14 to 21 days.\n\n## Preparing for colonoscopy\n- Consent; stop oral iron 1 week before (black sticky stool is hard to clear).\n- Low-residue diet for days; limit liquids to clear fluids for 24 to 72 hours; NPO 8 hours; laxatives or enemas as ordered (the night before).\n- Position Sims' (left side with knees flexed); moderate sedation with an opioid or sedative; emergency equipment ready.\n\n## After colonoscopy (priority: breathing and perforation)\n- Watch for respiratory depression from sedation; bed rest until fully alert.\n- Look for perforation: rectal bleeding, abdominal pain or distention, fever, rigid abdomen; also chest pain and breathing difficulty.\n- Bloating, belching and gas are expected from the air put in. Report severe pain, fever, breathing trouble or GI bleeding.\n\n## Related topics\n[[Barium Swallow and Barium Enema]], [[Fecal Examinations]]",
+  "tags": [
+   "GI",
+   "endoscopy",
+   "bowel prep"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Proctosigmoidoscopy",
+   "Colonoscopy"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-fecal",
+  "area": "GEN",
+  "title": "Fecal Examinations",
+  "body": "## Guaiac (fecal occult blood)\n- Detects hidden GI bleeding; three stool specimens on three consecutive days.\n- Eat a fibre-rich diet for 48 to 72 hours before.\n- False positives: red meat (beef, lamb, liver, processed meats), raw vegetables and fruits (radish, turnip, horseradish, melons), aspirin and other NSAIDs, iron, anticoagulants.\n- False negatives: vitamin C above 250 mg per day within 3 days before the test.\n\n## Stool for ova and parasites\nSend the specimen fresh and still warm, immediately, usually to look for amoeba (amoebiasis); trophozoites die as stool cools.\n\n## Stool for fat (steatorrhea)\n- Diet includes fats during collection.\n- No alcohol for 3 days; no mineral oil or oily medications.\n- A 72-hour stool collection is gathered.\n\n## Teaching and exam angle\nMemorise what causes false results and the \"send warm\" rule. The client is not told to avoid vitamin C if it is a false-positive concern; vitamin C causes false negatives.\n\n## Related topics\n[[Proctosigmoidoscopy and Colonoscopy]], [[Barium Swallow and Barium Enema]]",
+  "tags": [
+   "GI",
+   "stool",
+   "specimen"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Fecalysis",
+   "Guaiac stool exam",
+   "Stool for Ova and Parasites",
+   "Stool for Lipids"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-ecg",
+  "area": "GEN",
+  "title": "ECG, Echocardiography and Holter Monitor",
+  "body": "## ECG\n- Records the heart's electrical activity; takes about 15 minutes and causes no discomfort.\n- Uses: congenital heart disease, myocardial infarction or ischaemia, valve function, arrhythmias, pericarditis, electrolyte imbalance.\n- Nursing: explain, record baseline vital signs, shave very hairy areas; afterward compare vital signs with baseline and report chest pain, pulse change or shortness of breath.\n\n## Echocardiography (2D echo)\n- Non-invasive ultrasound with high-frequency sound waves showing size, shape, position, thickness and movement of cardiac structures.\n- Uses: atrial tumours, subaortic stenosis, thrombi, congenital defects, endocarditis, prosthetic valve function, shunt flow, aortic continuity, unexplained chest pain or abnormal ECG or chest x-ray.\n- Nursing: remove jewelry and metal; client stays still.\n\n## Holter monitor (ambulatory ECG)\n- Records heart activity continuously for 24 hours using a portable device worn at the waist or shoulder; non-invasive.\n- Uses: arrhythmias during normal activity, activity intolerance, chest pain, dizziness, fainting, palpitations, and effects of antiarrhythmic drugs or pacemaker function.\n- Teaching: avoid electrical devices that disturb the tracing (shavers, electric toothbrush, massagers, electric blankets); avoid showers and tub baths; wear loose clothing; keep a diary and press the event button when symptoms occur.\n- After: report fast heart rate or difficulty breathing; compare diary with tape.\n\n## Related topics\n[[Cardiac Stress Testing]], [[Cardiac Catheterization]]",
+  "tags": [
+   "cardiac",
+   "non-invasive",
+   "diagnostics"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Electrocardiogram (ECG)",
+   "Echocardiography (2D Echo)",
+   "Holter monitor"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-stress",
+  "area": "GEN",
+  "title": "Cardiac Stress Testing",
+  "body": "## What it is\nAlso called exercise ECG, treadmill test or graded exercise tolerance test. A non-invasive test of heart function under physical stress.\n\n## Uses\nDetect coronary artery disease; look into chest pain; judge capacity after MI or heart surgery; test the effect of anti-anginal and antiarrhythmic drugs; find exercise-related dysrhythmias; set goals for a fitness programme.\n\n## Contraindications\nSevere aortic stenosis, acute myocarditis or pericarditis, severe hypertension, suspected left main coronary disease, heart failure, unstable angina.\n\n## Before\n- Consent; NPO 4 hours; avoid tobacco and caffeine.\n- Hold certain cardiac drugs only if the physician orders.\n- Wear exercise clothes and rubber-soled shoes; women should wear a supportive bra.\n- Explain the equipment and expected sensations. Tell the client to report dizziness, sweating, breathlessness or nausea.\n\n## During and after\n- The test stops if pain or fatigue is severe (and for chest pain, arrhythmia or abnormal blood pressure in practice).\n- After: report angina or other discomfort; teach diet and medication changes.\n\n## Exam angle\nUnstable angina and severe hypertension make exercise unsafe: question whether the test is appropriate. Report chest pain immediately.\n\n## Related topics\n[[ECG, Echocardiography and Holter Monitor]], [[Cardiac Catheterization]]\n\n## Check against your textbook\nThe handout says breathlessness and sweating are \"normal as speed increases\"; clients must still report them so the team can judge.",
+  "tags": [
+   "cardiac",
+   "exercise",
+   "diagnostics"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Cardiac Stress testing"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-cath",
+  "area": "GEN",
+  "title": "Cardiac Catheterization",
+  "body": "## What it is\nAn invasive procedure in which radiopaque catheters are passed into blood vessels and the right and left sides of the heart.\n\n## Uses\nDiagnose coronary artery disease, check coronary patency, show how widespread atherosclerosis is, decide on revascularisation, diagnose pulmonary arterial hypertension, and treat stenotic valves with balloon valvuloplasty.\n\n## Higher-risk clients\nThose with diabetes, heart failure, pre-existing kidney disease, hypotension or dehydration, and the elderly.\n\n## Before\n- Fast usually 8 to 12 hours; informed consent.\n- Explain: lying on a hard table for less than 2 hours; IV medicines for comfort; sensations such as a warm flush or occasional pounding (palpitations); the client may be asked to cough and breathe deeply.\n- Allow expression of fears and anxieties. Check allergy to iodine or shellfish (general teaching).\n\n## After (priority: bleeding and circulation at the access site)\n- Inspect the site for bleeding or haematoma; frequently check temperature, colour and capillary refill of the affected limb; check apical and peripheral pulses for changes.\n- Bed rest 2 to 6 hours; head of bed no higher than 30 degrees; keep the limb straight if the groin was used.\n- Give analgesics. Oral and IV hydration helps flush contrast and protects the kidneys.\n- Teach to report chest pain, bleeding or sudden discomfort at the site; help the client up the first time for safety.\n\n## Related topics\n[[Pulmonary Angiography]], [[Cardiac Stress Testing]], [[Phases of Diagnostic Testing and Nursing Role]]",
+  "tags": [
+   "cardiac",
+   "invasive",
+   "contrast"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Cardiac Catheterization"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-rai",
+  "area": "GEN",
+  "title": "Radioactive Iodine Uptake and Thyroid Scan",
+  "body": "## Radioactive iodine uptake (RAIU)\n- Measures how well the thyroid takes up and holds iodide to make hormone; used to judge thyroid function.\n- Uses: hyper- or hypothyroidism, neck pain, swollen neck, heat or cold intolerance, jitteriness or sluggishness, thyroiditis, goiter, pituitary failure, and response to treatment.\n- Contraindicated in pregnancy unless benefit outweighs risk.\n- Before: takes 15 to 30 minutes; remove dentures and metal; NPO 8 to 12 hours (may eat about 4 hours after the test starts); I-123 is given by mouth; wear gloves when handling the radionuclide and the client's urine.\n- Drugs that raise uptake: barbiturates, estrogen, lithium. Drugs that lower it: Lugol's solution, SSKI, antithyroid drugs, antihistamines.\n- After: resume diet, increase fluids for 24 hours, the tracer leaves within 24 hours; flush the toilet (the handout says three times) after each voiding and wash hands well for 24 hours.\n\n## Thyroid scan\n- Also called thyroid scintiscan. Shows thyroid size and masses in the neck, base of tongue, and ectopic thyroid tissue, after oral I-123 or I-131 or IV technetium-99m.\n- Uses: palpable nodules, enlarged gland, benign or malignant tumours, neck or substernal masses, thyroiditis.\n- Before: NPO 8 to 12 hours; remove jewelry, dentures, metal; sedate children or uncooperative adults if ordered; I-123 is given 24 hours before the scan, technetium 20 minutes before.\n- After: fluids for 24 to 48 hours; flush toilet right after voiding; wash hands.\n\n## Related topics\n[[Thyroid Blood Tests]], [[Positron Emission Tomography (PET) Scan]]",
+  "tags": [
+   "endocrine",
+   "thyroid",
+   "radionuclide"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Radioactive Iodine Uptake",
+   "Thyroid Scan"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-thyroidlab",
+  "area": "GEN",
+  "title": "Thyroid Blood Tests",
+  "body": "## TSH (thyrotropin)\n- Helps diagnose congenital hypothyroidism and hypo- or hyperthyroidism.\n- Takes 5 to 10 minutes of venipuncture; watch the site for bleeding or haematoma.\n- High TSH: congenital hypothyroidism, primary hypothyroidism, thyroid hormone resistance, thyroiditis.\n- Low TSH: excess thyroid replacement, Graves' disease and primary hyperthyroidism.\n- Memory aid (general teaching): in primary thyroid disease, TSH moves in the opposite direction from the thyroid hormones.\n\n## Free thyroxine (free T4)\n- Evaluates signs of hypo- or hyperthyroidism and monitors treatment.\n- Increased: hyperthyroidism; hypothyroidism being treated with T4 (levothyroxine).\n- Decreased: hypothyroidism (see check note); also late pregnancy.\n\n## Related topics\n[[Radioactive Iodine Uptake and Thyroid Scan]]\n\n## Check against your textbook\nThe handout lists \"hyperthyroidism\" under DECREASED free T4, including hyperthyroidism treated with T3. This looks like a typing error; low free T4 should mean hypothyroidism. Verify.",
+  "tags": [
+   "endocrine",
+   "thyroid",
+   "lab"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Thyroid Stimulation Hormone Assay",
+   "Free Thyroxine Concentration"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-catechol",
+  "area": "GEN",
+  "title": "VMA Test and Plasma Catecholamines",
+  "body": "## VMA test\n- VMA is a main breakdown product of epinephrine. A 24-hour urine collection helps diagnose pheochromocytoma, neuroblastoma, ganglioneuroma, and evaluates hypertension of unknown cause.\n- Save ALL urine for the 24 hours.\n- No smoking for 24 hours; avoid caffeine and amine-rich foods (bananas, avocados, beer, aged cheese, chocolate, cocoa, coffee) for 48 hours; avoid vanilla and licorice.\n- Certain drugs (aspirin, pyridoxine, levodopa, amoxicillin, carbidopa) are avoided for 2 weeks, as the handout lists, if the physician agrees.\n- Avoid heavy exercise and stress during collection.\n\n## Total plasma catecholamines\n- Helps diagnose pheochromocytoma, neuroblastoma, ganglioneuroma, paraganglioma, dysautonomia, and hypertension of unknown origin.\n- Increased: pheochromocytoma, neuroblastoma, ganglioneuroma, diabetic acidosis, MI, hypothyroidism.\n- Decreased: autonomic nervous system dysfunction, orthostatic hypotension, Parkinson's disease.\n- Before: normal-sodium diet for 3 days; no tobacco for 24 hours; avoid amine foods for 48 hours; NPO 10 to 12 hours.\n- After: watch for raised pulse and blood pressure, hyperglycaemia, shakiness and palpitations; check the venipuncture site.\n\n## Exam angle\nSudden severe hypertension, headache, sweating and palpitations point to pheochromocytoma; the nurse avoids stimulating the tumour (do not palpate the abdomen vigorously).\n\n## Related topics\n[[Thyroid Blood Tests]]\n\n## Check against your textbook\nThe exam angle about avoiding abdominal palpation is added from general teaching.",
+  "tags": [
+   "endocrine",
+   "adrenal",
+   "lab",
+   "urine"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Vanillylmandelic Acid (VMA) Test",
+   "Total Plasma Catecholamine Concentration"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-glucose",
+  "area": "GEN",
+  "title": "Glucose Tests: OGTT, HbA1c and Blood Sugar",
+  "body": "## Fasting blood glucose (FBS)\n- NPO 8 to 12 hours before; the initial test for diabetes.\n- Handout normal: 70 to 110 mg/dL.\n\n## 2-hour postprandial\nMeasures glucose 2 hours after the client eats.\n\n## Oral glucose tolerance test (OGTT)\n- Used when fasting or post-meal values are unclear; identifies impaired glucose metabolism and gestational diabetes.\n- Prepare: NPO 8 to 12 hours; usual diet for at least 3 days before; no smoking before or during the test.\n- Several blood samples are drawn after a glucose drink.\n\n## Glycosylated hemoglobin (HbA1c)\n- The most accurate indicator of long-term control; reflects glucose over about 3 months.\n- Increased: poorly controlled diabetes, chronic blood loss.\n- Decreased: chronic renal failure, conditions that shorten red-cell life, haemolytic anaemia.\n- Needs no fasting (general teaching).\n\n## How the exam asks about it\nThe question is which test shows long-term control (HbA1c) versus a single moment (FBS), and what the client does the night before (fast).\n\n## Related topics\n[[Phases of Diagnostic Testing and Nursing Role]]\n\n## Check against your textbook\nThe handout's fasting normal is 70 to 110 mg/dL; many sources use 70 to 100 mg/dL. Diagnostic cut-offs are not in the handout; verify them.",
+  "tags": [
+   "diabetes",
+   "glucose",
+   "lab"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Oral Glucose Tolerance Test (OGTT)",
+   "Glycosylated Hemoglobin",
+   "Fasting Blood Glucose",
+   "2-hour Postprandial Blood Sugar Test"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-paracentesis",
+  "area": "GEN",
+  "title": "Paracentesis and Liver Biopsy",
+  "body": "## Paracentesis\n- Removal of fluid from the peritoneal cavity through a puncture or small incision in the abdominal wall under sterile conditions.\n- Before: client voids first (full bladder risks puncture); sits upright; maintain privacy; baseline weight and abdominal girth (general teaching).\n- During and after: watch closely for distress, hypotension and hypovolaemic shock (fluid shifts); sterile dressing over the site; monitor vital signs; check for scrotal edema; measure abdominal girth.\n\n## Liver biopsy\n- Removal of a small liver tissue sample, usually by needle aspiration, to examine liver cells.\n- Uses: diffuse parenchymal disease and space-occupying lesions.\n- Before: confirm clotting test results and compatible donor blood are available; consent; baseline vital signs; supine with the right abdomen exposed.\n- During: teach the client to breathe in and out deeply, then exhale and hold the breath while the needle is placed; resume breathing after the needle is withdrawn.\n- After: lie on the RIGHT side for several hours (pressure on the puncture), with a pillow under the costal margin; monitor vital signs; avoid coughing or straining; no heavy lifting or strenuous activity for a week.\n- Watch for bleeding (falling BP, rising pulse) and bile peritonitis.\n\n## Exam angle\nRight side after liver biopsy, and monitoring for hemorrhage first.\n\n## Related topics\n[[Liver Function Tests]]",
+  "tags": [
+   "hepatobiliary",
+   "procedure",
+   "bleeding"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Paracentesis",
+   "Liver Biopsy"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-lft",
+  "area": "GEN",
+  "title": "Liver Function Tests",
+  "body": "## Aminotransferases\n- AST normal 10 to 40 units; increased in liver or biliary disorders, MI, stroke, pregnancy; decreased in DKA and with salicylates (handout).\n- ALT normal 5 to 35 units; increased in liver disorders, muscular dystrophy, renal failure, shock, and salicylates. ALT is the more liver-specific enzyme (general teaching).\n\n## Pigment studies (bilirubin handling)\n- Direct bilirubin 0 to 0.3 mg/dL; total 0 to 0.9 mg/dL.\n- Urine urobilinogen 0.05 to 2.5 mg per 24 hours; fecal urobilinogen 50 to 300 per 24 hours.\n- They test how well the liver conjugates and excretes bilirubin; abnormal in liver and biliary disease, linked clinically with jaundice.\n\n## Protein studies\n- Total protein 7.0 to 7.5 g/dL; albumin 4.0 to 5.5; globulin 1.7 to 3.3.\n- Albumin to globulin (A/G) ratio: albumin greater than globulin (handout: 1.5:1 to 2.5:1).\n- Low albumin: liver disease, with edema and ascites.\n\n## Exam angle\nJaundice, dark urine, clay-coloured stool suggest obstruction; use these tests to follow liver injury and recovery.\n\n## Related topics\n[[Paracentesis and Liver Biopsy]], [[Endoscopic Retrograde Cholangiopancreatography (ERCP)]]\n\n## Check against your textbook\nBilirubin and protein ranges are the handout's; labs and books vary. The handout gives a 7.0 to 7.5 total protein range, narrower than most references (6.4 to 8.3). Verify all numbers.",
+  "tags": [
+   "hepatobiliary",
+   "lab",
+   "enzymes"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Liver Function Test",
+   "Serum Aminotransferase Studies",
+   "Pigment Studies",
+   "Protein Studies"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-renal",
+  "area": "GEN",
+  "title": "Renal Function Tests and KUB",
+  "body": "## Renal concentration tests\n- Specific gravity normal 1.010 to 1.025: the kidneys' ability to concentrate solutes.\n- Urine osmolality 300 to 900 mOsm/kg: can show early kidney defects.\n\n## Serum tests\n- Creatinine 0.6 to 1.2 mg/dL: a measure of kidney function.\n- BUN 7 to 18 mg/dL: an index of kidney function (also raised by dehydration, GI bleeding and high protein intake).\n\n## KUB (kidney, ureter, bladder study)\n- Plain abdominal x-ray showing structure, size and position of abdominal organs.\n- Uses: acute abdominal pain or mass, lower abdominal trauma, intestinal obstruction, kidney or ureter stones, abnormal fluid, air or metal objects.\n- Nursing: explain it checks the abdomen; remove jewelry and metal; little or no pain; bowel prep (laxative in the evening and enema in the morning) if ordered.\n\n## Exam angle\nCreatinine is more specific than BUN; check BUN and creatinine before giving contrast. See [[Computed Tomography Scan]].\n\n## Related topics\n[[Cystoscopy and Retrograde Ureteropyelography]]",
+  "tags": [
+   "renal",
+   "lab",
+   "urinary"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Genito-Urinary Studies",
+   "Renal Concentration Tests",
+   "Serum Tests",
+   "Kidney, Ureter and Bladder Study (KUB)"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-cysto",
+  "area": "GEN",
+  "title": "Cystoscopy and Retrograde Ureteropyelography",
+  "body": "## Cystoscopy\n- Direct view of the urethra, bladder and ureteral openings.\n- Uses: coagulate bleeding, find source of recurrent UTI or unexplained haematuria, dilate urethra and ureters, assess each kidney, assess prostatic enlargement, remove polyps.\n- Before: consent; local, general or spinal anaesthesia; NPO 8 hours (only clear liquids when local anaesthesia); baseline vital signs; void first; lithotomy position.\n- After: bed rest until vital signs are stable; blood-tinged urine for the first one or two voidings; burning, frequency and blood-tinged urine are expected; report persistent flank or suprapubic pain, fever, chills (infection or perforation); increase fluids and monitor intake and output for 24 hours; warm sitz bath for comfort.\n\n## Retrograde ureteropyelography\n- Contrast is introduced through a catheter to show the renal collecting system.\n- Uses: trauma, ureteral obstruction, ureteral stent placement, stones.\n- Contraindications: shellfish or iodine allergy, dehydration (older clients), renal failure or insufficiency, multiple myeloma.\n- Before: consent; stop anticoagulants and salicylates as ordered; local anaesthesia may be used; NPO 8 hours; assess for iodine allergy; remove metal; baseline vitals and neurologic status.\n- After: watch for delayed allergic reaction; cold compress at the puncture site; monitor for signs of sepsis and severe pain; increase oral fluids.\n\n## Related topics\n[[Renal Function Tests and KUB]]",
+  "tags": [
+   "urinary",
+   "endoscopy",
+   "contrast"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Cystoscopy",
+   "Retrograde Ureteropyelography"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-ercp",
+  "area": "GEN",
+  "title": "Endoscopic Retrograde Cholangiopancreatography (ERCP)",
+  "body": "## What it is\nAn endoscope is passed to the duodenum and contrast is injected into the bile and pancreatic ducts to see them directly.\n\n## Uses\nFind ductal stones, tell biliary obstruction from liver disease in unexplained jaundice, and treat (sphincterotomy, biliary drains).\n\n## Results\nNormal: normal duodenal papilla and open pancreatic and common bile ducts. Abnormal: papilla tumours, pancreatic cancer, fibrosis, pancreatitis, sclerosing cholangitis.\n\n## Contraindications\nPregnancy unless benefit outweighs risk; shellfish or iodine allergy.\n\n## Before\n- Consent; explain it assesses the biliary ducts; NPO 8 hours; bowel prep per policy.\n- An abdominal x-ray may be done to check for leftover contrast from earlier studies; the handout says do ERCP before an upper GI barium study.\n- Remove metal; give sedation as ordered; position left lateral with the left arm behind the back and the neck slightly flexed.\n\n## After (aspiration and pancreatitis risk)\n- NPO until the gag reflex returns, then light food for 12 to 24 hours.\n- Vital signs and neurologic checks every 15 minutes for 1 hour, then every 2 hours for 4 hours; temperature every 4 hours for 24 hours.\n- Watch for contrast reaction; expect sore throat and hoarseness; belching and bloating come from insufflated air.\n- Report severe pain, fever, difficulty breathing or coughing up blood at once.\n\n## Related topics\n[[Liver Function Tests]], [[Barium Swallow and Barium Enema]]",
+  "tags": [
+   "hepatobiliary",
+   "endoscopy",
+   "contrast"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Endoscopic Retrograde Cholangiopancreatography (ERCP)"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-cbt",
+  "area": "GEN",
+  "title": "Complete Blood Count and Reference Values",
+  "body": "## What it is\nCounts red cells, white cells and platelets and measures haemoglobin and haematocrit.\n\n## Handout reference values\n- Hemoglobin: men 13 to 18 g/dL; women 12 to 16 g/dL.\n- RBC: men 4.7 to 6.1 million/mm3; women 4.2 to 5.4 million/mm3.\n- WBC: 4,500 to 11,000/mm3.\n- MCV: 81 to 96 fL.\n- MCHC: 33 to 36 g/dL.\n- PT: 9.5 to 12 seconds.\n- PTT: listed as 60 to 70 seconds.\n\n## What they tell you\n- Low Hgb and RBC: anaemia or blood loss; high: dehydration or polycythaemia.\n- High WBC: infection; very low: risk of infection.\n- PT and PTT show clotting; PT is followed for warfarin (general teaching), PTT for heparin.\n\n## Exam angle\nCompare to the client's baseline, report critical drops, and plan care (bleeding or infection precautions).\n\n## Related topics\n[[Bone Marrow Biopsy]], [[Phases of Diagnostic Testing and Nursing Role]]\n\n## Check against your textbook\nThe handout's PTT (60 to 70 seconds) is higher than the usual aPTT range (about 25 to 35 seconds); 60 to 70 is the typical therapeutic target when on heparin. Verify. Also confirm that PT and PTT belong under CBC (they are coagulation tests).",
+  "tags": [
+   "hematology",
+   "lab",
+   "CBC"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Hematology Studies",
+   "Complete Blood Count"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-fc-marrow",
+  "area": "GEN",
+  "title": "Bone Marrow Biopsy",
+  "body": "## What it is\nA small sample of bone marrow removed by aspiration, needle biopsy or open surgical biopsy, so the lab can study how blood cells are being made. It is an invasive procedure with a bleeding and infection risk.\n\n## Must-know facts\n- Uses: see how blood cells are formed; judge the number and quality of each cell type made in the marrow; document infection or tumour in the marrow; explain abnormal CBC or WBC results; evaluate enlarged liver or spleen; identify marrow hyperplasia (too much activity) or hypoplasia (too little); monitor marrow response to chemotherapy or radiation.\n- Contraindicated in bleeding disorders.\n- Interfering factors: recent blood transfusion, iron therapy or cytotoxic drugs can change results. Not following the diet rules can make the test be cancelled or repeated.\n- Sites by position: adults, sternum (supine) or iliac crest; side-lying, iliac crest or tibial sites; young children, the handout says L4 (verify).\n\n## Handout result patterns (what raises or lowers each cell line in the marrow)\n- Reticulocytes up: compensated red-cell loss; response to vitamin B12 therapy. Down: aplastic crisis of sickle cell anemia.\n- Neutrophils up: acute myeloblastic leukemia. Down: aplastic anemia; monocytic and lymphoblastic leukemias.\n- Lymphocytes up: aplastic anemia; lymphatic leukemia; lymphomas; lymphosarcoma; mononucleosis; viral infections.\n- Plasma cells up: cirrhosis of the liver; connective tissue disorders; hypersensitivity reactions; infections; ulcerative colitis.\n- Megakaryocytes up: hemorrhage; increasing age; infections; myeloid leukemia; pneumonia; polycythemia vera; thrombocytopenia.\n- Eosinophils up: bone marrow cancer; lymphadenoma; myeloid leukemia.\n\n## Assessment (before)\n- Informed consent; allergies; history of blood-forming and immune systems, bleeding disorders and earlier lab results.\n- Medication list, especially anticoagulants, aspirin and supplements that affect clotting.\n- Baseline vital signs.\n\n## Priority nursing actions\n1. Consent and bleeding-risk check first: a client who bleeds easily can hemorrhage at the site (safety).\n2. Explain: site may be shaved; sedative or analgesic and an IV line may be given; pressure or brief pain is expected.\n3. NPO at least 4 hours; void first; emergency equipment ready.\n4. Position by site (see above).\n5. After: vital signs and neurologic checks every 15 minutes for 1 hour, then every 2 hours for 4 hours, then as ordered. Early detection of bleeding or shock comes first.\n6. Inspect the site for bleeding, inflammation or hematoma; give pain and nausea care; give antibiotics if ordered; watch for delayed allergic reactions (rash, hives, fast heart rate, fast breathing, high blood pressure, palpitations, nausea, vomiting).\n\n## Client teaching\n- Resume the usual diet as directed.\n- Report redness, swelling, bleeding, pain at the site, chills or fever.\n\n## Complications and red flags\nBleeding or hematoma at the site, infection (redness, fever, chills), delayed allergic reaction, pain.\n\n## How the exam asks about it\nWhich positions suit which site; why anticoagulants are checked first; what to report after (site bleeding, fever); matching a cell excess to a disease.\n\n## How to reason about it\nCause: marrow sampled through bone, a vascular place -> finding: risk of bleeding and infection -> priority action: check clotting history before, watch site and vital signs after. Trap: picking comfort measures over a bleeding check.\n\n## Related topics\n[[Complete Blood Count and Reference Values]], [[Phases of Diagnostic Testing and Nursing Role]]\n\n## Check against your textbook\n- The pediatric site (L4) is unusual; tibia is the common choice in infants, and the iliac crest is the common adult site. Verify.\n- The handout lists aplastic anemia under both low neutrophils and high lymphocytes, and lists \"lymphadenoma\" and \"lymphosarcoma\" (older terms). Verify which cell patterns belong to which disease.\n",
+  "tags": [
+   "hematology",
+   "procedure",
+   "biopsy"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Bone Marrow Biopsy"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ }
+]

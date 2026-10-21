@@ -1,0 +1,937 @@
+[
+ {
+  "id": "np3-0001",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Heart sounds: new vs expected",
+  "noteId": "np3-cr-heart-sounds",
+  "vignette": "The nurse auscultates four clients on the evening shift. A 24-year-old athlete admitted for a sprained ankle has a soft extra sound early in diastole. A 67-year-old with long-standing hypertension, comfortable and with clear lungs, has an extra late-diastolic sound at the apex. A 70-year-old on day 2 after an anterior myocardial infarction has a new early-diastolic extra sound, a respiratory rate that rose from 18 to 26 and fine crackles at both bases. A 58-year-old walking to the bathroom has a loud S1 at the apex.",
+  "stem": "Which finding should the nurse report to the provider first?",
+  "options": [
+   "The soft early-diastolic extra sound in the 24-year-old athlete",
+   "New early-diastolic extra sound with rising respiratory rate and crackles",
+   "The late-diastolic extra sound in the client with long-standing hypertension",
+   "The loud S1 at the apex in the client walking to the bathroom"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. An S3 is an early-diastolic sound from a ventricle that is overloaded or stiff; it is normal in young people but abnormal in older adults.\n2. In a client 2 days after an anterior MI, a NEW S3 plus rising respiratory rate and crackles means the pump is failing and fluid is backing into the lungs.\n3. Priority rule: unstable and changing before stable and expected.\n4. The S4 in chronic hypertension reflects a stiff ventricle and is abnormal but long-standing and the client is comfortable, so it is recorded, not reported first. The athlete's S3 is a normal variant at that age.\nFlip: if the athlete were 66 and short of breath, his S3 would become the priority.",
+  "optionRationales": [
+   "Wrong: S3 is normal in a young adult (true statement for this age, wrong client).",
+   "Right: new S3 plus worsening respiratory findings after MI signals developing heart failure (unstable, changing).",
+   "Wrong: S4 from a stiff hypertensive ventricle is abnormal but chronic; the client is stable (right priority, wrong client).",
+   "Wrong: a loud S1 closes at the start of systole and is not an early-diastolic gallop; nothing in the cues suggests instability (plausible detail from a similar sound)."
+  ],
+  "strategy": "Unstable before stable: new finding with deterioration",
+  "archetype": "which finding needs follow-up",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "S3 is early diastole and normal under about 30 years",
+   "S4 is late diastole with a stiff ventricle",
+   "A new S3 with dyspnea and crackles supports heart failure"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0002",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Afterload and preload drugs",
+  "noteId": "np3-cr-cardiac-output",
+  "vignette": "A client with heart failure has BP 174/102, HR 96, crackles at both bases and 2+ ankle edema. The provider orders enalapril and furosemide. A nursing student asks which medicine mainly reduces the resistance the left ventricle must push against to open the aortic valve.",
+  "stem": "Which response by the nurse is most accurate?",
+  "options": [
+   "Furosemide lowers afterload, because less fluid in the veins means less pressure at the valve",
+   "Furosemide lowers afterload and enalapril lowers preload, so both medicines act at once",
+   "Enalapril raises contractility so that the ventricle can open the valve against the pressure",
+   "Enalapril lowers afterload by widening arterioles, so each beat meets less resistance"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Afterload is the resistance the ventricle meets when ejecting; it rises with high BP and vasoconstriction.\n2. ACE inhibitors and vasodilators lower afterload; diuretics and nitrates lower preload; digoxin, dopamine and dobutamine raise contractility.\n3. Here the BP of 174/102 shows the high-resistance problem, so enalapril is the afterload drug and furosemide handles the congestion (crackles, edema).\n4. Furosemide is the tempting runner-up because the client is overloaded, but it acts on filling volume, not on resistance.\nFlip: if the question asked which drug cuts the end-diastolic stretch, furosemide would be the key.",
+  "optionRationales": [
+   "Wrong: furosemide lowers preload (filling), not afterload (plausible detail from the right class, wrong lever).",
+   "Wrong: reverses the two drugs; this is a true-sounding pairing that is backwards.",
+   "Wrong: contractility is raised by digoxin, dopamine, dobutamine; ACE inhibitors do not do this (plausible detail from a similar drug group).",
+   "Right: ACE inhibitors reduce vascular resistance, so they lower afterload."
+  ],
+  "strategy": "Hemodynamic levers: preload vs afterload",
+  "archetype": "match the drug to the lever",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Afterload is resistance to ejection",
+   "ACE inhibitors and vasodilators lower afterload; diuretics and nitrates lower preload"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0003",
+  "v": 2,
+  "type": "sata",
+  "area": "NP3",
+  "topic": "CAD risk-factor teaching",
+  "noteId": "np3-cr-cad-atherosclerosis",
+  "vignette": "A 47-year-old man whose father had a myocardial infarction at 52 attends a barangay health center. He smokes one pack daily, has a BMI of 31, and his BP readings are 146/92. He asks which of his risks he can actually change.",
+  "stem": "Which risk factors should the nurse identify as modifiable? Select all that apply.",
+  "options": [
+   "His daily cigarette smoking",
+   "His father's heart attack at age 52",
+   "His blood pressure readings of 146/92",
+   "His body mass index of 31",
+   "His male sex"
+  ],
+  "answer": [
+   0,
+   2,
+   3
+  ],
+  "rationale": "1. Modifiable factors are those lifestyle or treatable conditions: tobacco, hypertension, obesity, hyperlipidemia, diabetes, inactivity.\n2. Non-modifiable factors are family history, age, sex and race.\n3. The family history and male sex shape his baseline risk, which is why controlling the changeable factors matters more, not less.\nFlip: if his father had been the one who smoked, the father's smoking would still not be a modifiable risk for this client.",
+  "optionRationales": [
+   "Correct: tobacco use is modifiable.",
+   "Incorrect: family history cannot be changed.",
+   "Correct: hypertension can be treated and controlled.",
+   "Correct: weight can be reduced.",
+   "Incorrect: sex is non-modifiable."
+  ],
+  "strategy": "Modifiable vs non-modifiable risk",
+  "archetype": "select modifiable risk",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Modifiable: smoking, hypertension, diabetes, obesity, inactivity, hyperlipidemia",
+   "Non-modifiable: family history, age, male sex, race"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0004",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Heart failure compensation backfires",
+  "noteId": "np3-cr-hf-overview",
+  "vignette": "A 66-year-old man with long-standing hypertension and a prior MI is admitted with a 3 kg weight gain in 4 days, orthopnea and cool, pale extremities. BP is 98/62, HR 108, and urine output is 20 mL/h. His wife says he had been eating less salty food than usual.",
+  "stem": "Which physiologic response best explains his weight gain?",
+  "options": [
+   "Low renal perfusion triggers renin release and aldosterone, which hold sodium and water",
+   "A stronger heartbeat from sympathetic drive pushes too much fluid into the tissues",
+   "A dilated left atrium forces ADH release and so lowers the filtration rate in the glomerulus",
+   "Higher afterload from vasodilation keeps the kidneys from filtering the extra fluid"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Failing pump -> low cardiac output -> low renal perfusion (urine 20 mL/h, BP 98/62).\n2. Kidneys release renin -> angiotensin I -> ACE converts to angiotensin II (vasoconstrictor) -> aldosterone and ADH -> sodium and water retention.\n3. This explains the weight gain even when salt intake is low, and why ACE inhibitors and diuretics help.\n4. Sympathetic drive does raise rate and force but its fluid effect is through vasoconstriction and the renin system, not by pushing fluid out of vessels directly.\nFlip: if the weight gain came with warm flushed skin and bounding pulses, a high-output state rather than RAAS activation would be considered.",
+  "optionRationales": [
+   "Right: the renin-angiotensin-aldosterone chain retains sodium and water.",
+   "Wrong: a stronger beat does not push fluid out; this misstates how sympathetic compensation backfires (plausible detail from a similar mechanism).",
+   "Wrong: mixes atrial size with ADH; the note's chain runs from low renal perfusion (true parts, wrong chain).",
+   "Wrong: afterload rises with vasoCONstriction, not vasodilation (plausible detail from a similar principle)."
+  ],
+  "strategy": "Pathophysiology: compensation causes overload",
+  "archetype": "pathophysiology to nursing cue",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Low renal perfusion releases renin",
+   "Angiotensin II drives aldosterone and ADH, causing fluid overload"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0005",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Mitral stenosis crisis: breathing and rhythm",
+  "noteId": "np3-cr-valve-mitral-stenosis",
+  "vignette": "A client with mitral stenosis from rheumatic heart disease is lying flat in bed, saying she cannot catch her breath. Her RR is 30, SpO2 is 89%, she coughs up pink-tinged sputum, and the monitor shows an irregular rhythm with a new rate of 128. The call light is on and her daughter is asking if she can bring water.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Notify the provider about the new irregular rhythm and the risk of an atrial clot forming",
+   "Obtain an arterial blood gas sample from the radial artery",
+   "Raise the head of the bed to high Fowler's position and apply prescribed oxygen",
+   "Weigh the client and record the weight beside yesterday's value"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cues: RR 30, SpO2 89%, pink-tinged sputum, orthopnea-type distress = backed-up pressure into the lungs (pulmonary edema) in mitral stenosis.\n2. Priority rule: airway/breathing first, and the least invasive action that helps right now is position plus oxygen.\n3. The irregular fast rhythm (atrial dysrhythmia, clot risk) is also urgent and will be reported next; ABG and weight are useful but do not relieve the hypoxia.\n4. The key beats the provider call only because the position change takes seconds and happens while the call is made.\nFlip: if SpO2 were 98% and breathing easy with the same rhythm, notifying the provider would come first.",
+  "optionRationales": [
+   "Wrong: right action but wrong time; the airway and breathing problem comes before reporting the rhythm.",
+   "Wrong: over-intervention at this moment; an ABG is ordered after the client is positioned and oxygen started.",
+   "Right: breathing first; high Fowler's and oxygen ease dyspnea in mitral stenosis.",
+   "Wrong: daily weight is a routine fluid-balance step, not an answer to acute distress (true action, wrong priority)."
+  ],
+  "strategy": "ABCs: breathing before rhythm and labs",
+  "archetype": "competing priorities",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "High Fowler's relieves dyspnea in mitral stenosis",
+   "Monitor for pulmonary edema, thrombus and atrial dysrhythmias"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0006",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Valve lesion recognition and care plan",
+  "noteId": "np3-cr-x-valve-murmurs-compared",
+  "vignette": "During a clinic visit, a 62-year-old man reports tiring easily when climbing stairs. The nurse hears a high-pitched blowing sound in early diastole at the left sternal border, 3rd-4th intercostal space. BP is 152/46, and the carotid pulses collapse quickly after a strong beat. He says he has no chest pain or fainting.",
+  "stem": "Which plan should the nurse expect to implement?",
+  "options": [
+   "Teach fall precautions because his syncope risk is rising with exertion",
+   "Position in high Fowler's and monitor for atrial clots on anticoagulant therapy as ordered",
+   "Space activity with rest periods and expect a vasodilator or ACE inhibitor order",
+   "Prepare him for a chest X-ray and teach that his blood pressure is normal"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. A blowing diastolic murmur at the left sternal border with wide pulse pressure (152/46) and a collapsing pulse = aortic regurgitation.\n2. Blood leaks back into the left ventricle, so reduce exertion and lower afterload with vasodilators or ACE inhibitors.\n3. Syncope/angina/exertional dyspnea with a normal BP belongs to aortic stenosis; high Fowler's and anticoagulation belong to mitral stenosis.\n4. The absence of chest pain and fainting in the vignette helps rule out the stenosis pattern.\nFlip: with a loud systolic murmur at the aortic area, normal BP, and fainting on exertion, fall precautions would become the key.",
+  "optionRationales": [
+   "Wrong: fall precautions fit aortic stenosis (plausible detail from a similar condition).",
+   "Wrong: high Fowler's and anticoagulants fit mitral stenosis (plausible detail from a similar condition).",
+   "Right: this is regurgitation; rest and afterload reduction fit.",
+   "Wrong: his pulse pressure is wide, not normal, so this is a true-sounding statement that does not fit the cues (misreads the finding)."
+  ],
+  "strategy": "Match lesion to plan: aortic regurgitation",
+  "archetype": "cue interpretation then plan",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Aortic regurgitation: diastolic blowing murmur, wide pulse pressure, water-hammer pulse",
+   "Vasodilators and ACE inhibitors may be ordered; reduce exertion"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0007",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Suspected aneurysm rupture",
+  "noteId": "np3-cr-aneurysm",
+  "vignette": "A 71-year-old man with a known aortic aneurysm on atenolol phones the clinic nurse. He reports sudden severe back pain beginning 20 minutes ago and lightheadedness when he stood up. His wife says his BP cuff read 86/50, and he missed his medicines this morning because of nausea.",
+  "stem": "What is the nurse's best instruction?",
+  "options": [
+   "Lie flat, stay still and wait for the ambulance that is being sent now",
+   "Take the missed atenolol now, because tight blood pressure control prevents rupture",
+   "Drive to the clinic within the hour so the nurse can palpate the abdomen",
+   "Sip fluids and recheck the blood pressure in 30 minutes before deciding"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cues: sudden severe pain plus hypotension and lightheadedness in a known aneurysm = possible rupture or dissection.\n2. This client is unstable; the priority is emergency transport and keeping him still to avoid straining.\n3. BP control medicines are for prevention, but with BP 86/50 giving a beta-blocker would worsen shock (treats the missed dose, not the emergency).\n4. Palpating or delaying for a clinic visit wastes time and risks harm.\nFlip: if the pain were mild and BP 168/98 on a routine day, resuming the medicine and an urgent visit might be right.",
+  "optionRationales": [
+   "Right: unstable client, send emergency help and limit movement.",
+   "Wrong: treats the missed dose; a beta-blocker at BP 86/50 is unsafe.",
+   "Wrong: delay plus palpation is over-intervention and waits too long.",
+   "Wrong: under-reaction; waiting 30 minutes with suspected rupture is unsafe."
+  ],
+  "strategy": "Unstable client: activate emergency response",
+  "archetype": "first response",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Teach clients to report sudden severe pain at once",
+   "Keep BP controlled in a stable aneurysm; avoid straining"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0008",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Tamponade after MI",
+  "noteId": "np3-cr-tamponade",
+  "vignette": "On day 3 after an inferior myocardial infarction, a client reports new anxiety and shortness of breath. BP is 84/52 (was 118/70), HR 120, neck veins are distended, and heart sounds are hard to hear. The client has an order for acetaminophen for mild chest ache and is due for a morning dose of metoprolol.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Give the scheduled metoprolol to bring the heart rate under control",
+   "Obtain a 12-lead ECG and compare it with the baseline tracing taken on admission",
+   "Medicate for chest ache and reassess the pain in 30 minutes",
+   "Call for immediate help and prepare for emergency pericardial drainage"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cues: falling BP, tachycardia, distended neck veins and muffled heart sounds are Beck's triad = fluid squeezing the heart (tamponade), a cause of cardiogenic shock after MI.\n2. The client is unstable, so call for help, bring monitoring and equipment, and prepare for pericardiocentesis; IV fluids may be ordered to support output.\n3. A beta-blocker would drop BP and blunt the compensatory rate; analgesia treats a minor symptom.\n4. A 12-lead ECG is reasonable but delays rescue.\nFlip: if BP were stable and the only finding were a rub with positional pain, the ECG and provider review could come first.",
+  "optionRationales": [
+   "Wrong: unsafe habit; giving a negative chronotrope would worsen low output.",
+   "Wrong: right action, wrong time; testing before rescue delays treatment.",
+   "Wrong: treats the symptom and under-reacts to an unstable client.",
+   "Right: unstable, treat the cause; call help and prepare for drainage."
+  ],
+  "strategy": "Unstable before stable; recognise cause of low output",
+  "archetype": "cue pattern then first action",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Beck's triad: JVD, hypotension, muffled heart sounds",
+   "Tamponade needs urgent drainage; call for help first"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0009",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Backup pacemaker rate",
+  "noteId": "np3-cr-conduction-system",
+  "vignette": "A client with an acute inferior MI is on a cardiac monitor. The nurse notes a regular rhythm at 36 beats per minute. The client says he feels faint and his skin is cool and damp. BP is 82/48. He is asking for his reading glasses.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Reassure the client that a lower pacemaker is protecting the heart and continue observing",
+   "Check responsiveness and pulse, apply oxygen and call the provider at once",
+   "Print a rhythm strip and measure the intervals before telling anyone",
+   "Give the next scheduled dose of metoprolol to keep the rhythm regular"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. A regular rate of 36 is in the range of the last-resort backup pacemaker (Purkinje fibers, 20-40), meaning higher pacemakers have failed.\n2. With faintness, cool damp skin and BP 82/48 the low rate is causing low output = unstable.\n3. Act: assess the client, support oxygenation, and escalate for pacing or drug treatment.\n4. Reassurance is true about the backup system but ignores the symptoms.\nFlip: if the client were asymptomatic with normal BP, printing a strip and reporting would be reasonable.",
+  "optionRationales": [
+   "Wrong: true statement that does not answer the question; ignores low output.",
+   "Right: unstable client, assess and escalate at once.",
+   "Wrong: right action, wrong time; measurement can follow help being called.",
+   "Wrong: a beta-blocker would slow the rate further (unsafe)."
+  ],
+  "strategy": "Treat the client, not the monitor; unstable first",
+  "archetype": "interpret rate then decide",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Purkinje fibers 20-40 bpm act as last-resort pacemaker",
+   "If a higher pacemaker fails the next takes over at a slower rate"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0010",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Prolonged QT and U wave",
+  "noteId": "np3-cr-ecg-basics",
+  "vignette": "A client receiving furosemide for heart failure has telemetry showing flattened T waves, a U wave and a QT interval that has lengthened to 0.52 second. She complains of leg cramps and weakness. She had eaten a good breakfast and has no chest pain. BP is 118/72.",
+  "stem": "Which action is most appropriate?",
+  "options": [
+   "Prepare to give a nitroglycerin tablet for suspected ischemia and call for a stat troponin",
+   "Document the finding as a normal variant in a client taking a diuretic",
+   "Obtain a troponin level before telling the provider about the strip",
+   "Check the most recent serum potassium and report the ECG change to the provider"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. U waves appear mainly with low potassium; a prolonged QT raises the risk of torsades de pointes, a lethal rhythm.\n2. Furosemide is a potassium-losing diuretic, and cramps and weakness fit.\n3. The right step is to check the potassium value and report promptly so it can be treated before a dangerous rhythm develops.\n4. Ischemia is not supported: no chest pain, ST changes or T inversion are described. Troponin first would delay reporting.\nFlip: if the strip showed ST elevation and she had chest pain, the cardiac work-up would come first.",
+  "optionRationales": [
+   "Wrong: plausible detail from a similar condition; no chest pain or ischemic pattern.",
+   "Wrong: under-reaction; a QT of 0.52 s is not normal (0.32-0.40).",
+   "Wrong: right test wrong time; reporting the abnormal strip should not wait.",
+   "Right: the pattern points to hypokalemia with a lethal-rhythm risk, so verify and report."
+  ],
+  "strategy": "Pattern recognition: U wave suggests low potassium",
+  "archetype": "interpret and act",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "U wave may be seen with hypokalemia",
+   "Prolonged QT raises risk of torsades de pointes"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0011",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Treat the client not the monitor",
+  "noteId": "np3-cr-x-ecg-changes",
+  "vignette": "A telemetry alarm shows ST depression and T-wave inversion in lead II for a 60-year-old man admitted for pneumonia. The nurse finds him sitting in a chair eating breakfast, talking comfortably, pulse 82, BP 128/76, SpO2 96%. The tech notes his chest electrode was loose when he stood up.",
+  "stem": "What should the nurse do next?",
+  "options": [
+   "Administer sublingual nitroglycerin and call the provider",
+   "Check electrode contact, then record a 12-lead ECG to compare with baseline",
+   "Call a rapid response and start CPR preparations",
+   "Silence the alarm and chart the rhythm as artifact without any further checks of the client"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. The first move is to look at the client: comfortable, stable vital signs, and a loose electrode make artifact possible.\n2. The change is still potentially ischemic, so it should not be dismissed; a proper 12-lead confirms or rules it out.\n3. Giving nitrates or calling a rapid response for a well client treats the monitor, not the person.\n4. Dismissing the alarm skips the check.\nFlip: if he had chest pressure and was diaphoretic, calling the provider while preparing nitroglycerin would be right.",
+  "optionRationales": [
+   "Wrong: over-intervention in a comfortable client with possible artifact.",
+   "Right: verify the tracing and assess; a 12-lead confirms before treating.",
+   "Wrong: over-intervention; no signs of arrest.",
+   "Wrong: skips assessment; ST/T changes should not be dismissed without confirming."
+  ],
+  "strategy": "Assess before intervening; verify the tracing",
+  "archetype": "assess before act",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Treat the client, not the monitor",
+   "ST depression and T inversion suggest ischemia"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0012",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Atypical anaphylaxis during an infusion",
+  "noteId": "np3-cr-shock-distributive",
+  "vignette": "A client is 40 minutes into an IV antibiotic infusion when she says her throat feels tight. Her face is flushed, she has scattered hives, BP is 94/56 (was 126/78) and HR is 118. SpO2 is 94% on room air. The pharmacist is paging about another client's order.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Slow the infusion by half and reassess the throat in five minutes",
+   "Give the PRN diphenhydramine and wait to see if the hives improve",
+   "Stop the infusion, run normal saline through new tubing and call for help",
+   "Take a full set of vital signs, including temperature, before changing the infusion"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cues: throat tightness, hives, flushing, falling BP and rising HR within a single drug infusion = anaphylaxis with vasodilation, which can close the airway.\n2. First remove the trigger (stop the drug) while keeping IV access, and call for help so epinephrine can be given as ordered.\n3. Slowing or waiting is under-reaction. Diphenhydramine blocks histamine but does not treat airway swelling or hypotension quickly.\n4. Full vitals matter but come after the trigger is stopped.\nFlip: if the only finding were a mild itch with stable vitals, slowing the rate and calling the provider might be considered.",
+  "optionRationales": [
+   "Wrong: under-reaction; the drug keeps entering.",
+   "Wrong: treats the symptom and waits; antihistamine alone is inadequate.",
+   "Right: remove the trigger, keep access, get help.",
+   "Wrong: right action, wrong time."
+  ],
+  "strategy": "Remove the trigger; airway first",
+  "archetype": "stop the trigger",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Anaphylaxis: stop the drug, airway first, epinephrine as ordered",
+   "Distributive shock is widespread vasodilation"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0013",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Delegation: ambulating a client with aortic stenosis",
+  "noteId": "np3-cr-valve-aortic-stenosis",
+  "vignette": "A nurse assigns a nursing assistant to help a 73-year-old with aortic stenosis walk to the bathroom. The client had a near-faint episode yesterday and has exertional chest tightness. BP today is 118/70. The assistant asks if the client should do hallway laps for exercise.",
+  "stem": "Which instruction should the nurse give?",
+  "options": [
+   "Walk beside him, have him sit if dizzy or tight in the chest, and tell me",
+   "Let him walk alone since his blood pressure is normal and he needs independence",
+   "Encourage brisk hallway laps to build his stamina before valve surgery",
+   "Keep him on strict bed rest and do not allow any bathroom trips"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Aortic stenosis lowers output to the brain and raises left ventricular oxygen demand: syncope, dizziness and angina on exertion are expected.\n2. A normal BP does not mean exertion is safe; the nurse protects with fall precautions and limited exertion.\n3. The assistant can stay with the client and report symptoms; the nurse retains assessment.\n4. Strict bed rest is over-restriction that raises other risks.\nFlip: for a client with no history of syncope, supervised hallway walking could be appropriate.",
+  "optionRationales": [
+   "Right: supervision, stop rules, and reporting.",
+   "Wrong: unsafe; syncope risk means no unsupervised walking.",
+   "Wrong: over-intervention; heavy exertion triggers angina or syncope.",
+   "Wrong: over-restriction; the note calls for avoiding heavy exertion, not all activity."
+  ],
+  "strategy": "Scope of practice: delegate with safety limits",
+  "archetype": "delegation twist",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Aortic stenosis triad: exertional dyspnea, angina, syncope",
+   "Fall precautions and avoiding heavy exertion"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0014",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Rest pain not relieved",
+  "noteId": "np3-cr-angina",
+  "vignette": "A 64-year-old with known stable angina is hospitalized for a hernia repair. At 2100 he reports pressure in the chest that began at rest 15 minutes after dinner, more severe than his usual episodes. One sublingual nitroglycerin tablet has not changed the pain. He asks for an antacid and says he doesn't want to bother anyone.",
+  "stem": "Which action is most appropriate?",
+  "options": [
+   "Stay with him, obtain a 12-lead ECG and notify the provider now",
+   "Give the PRN antacid because the pain followed a meal",
+   "Encourage slow deep breaths and reassess in 15 minutes",
+   "Document the episode as typical stable angina and continue monitoring"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Stable angina is predictable, exertional and relieved by rest or nitroglycerin. Pain at rest, worse than usual and not relieved is the pattern of unstable angina or MI.\n2. The meal is a distraction; heavy meals can trigger angina but do not explain unrelieved pressure.\n3. Escalate: stay, ECG, notify the provider; further nitroglycerin per order.\n4. Antacid and waiting are under-reactions.\nFlip: if one tablet relieved the pain fully within 3 minutes, documenting as his usual angina would be correct.",
+  "optionRationales": [
+   "Right: change in pattern requires immediate escalation.",
+   "Wrong: treats the symptom, anchors on the meal.",
+   "Wrong: under-reaction; waiting 15 minutes risks infarction.",
+   "Wrong: misclassifies; stable angina is relieved by rest or nitroglycerin."
+  ],
+  "strategy": "Unstable pattern: escalate",
+  "archetype": "recognise unstable pattern",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Unstable angina is more severe and not relieved by rest or nitroglycerin",
+   "Escalate if pain not relieved"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0015",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Buerger disease: evaluating teaching",
+  "noteId": "np3-cr-buergers",
+  "vignette": "A 32-year-old man with Buerger's disease is teaching himself new habits after a toe ulcer. He tells the nurse he stopped cigarettes two weeks ago, now chews nicotine gum, inspects his feet every evening, wears cotton socks with fitted shoes and walks 20 minutes daily until his arches cramp.",
+  "stem": "Which of his actions shows a need for more teaching?",
+  "options": [
+   "Inspecting his feet each evening",
+   "Wearing fitted shoes with cotton socks",
+   "Using nicotine gum in place of cigarettes",
+   "Walking until the arch cramps begin and then resting"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. In Buerger's disease nicotine itself drives the vessel inflammation, so every form of nicotine must stop, including gum and patches.\n2. Daily foot inspection, fitted footwear and walking within limits to rest at the first cramp are all appropriate protection.\n3. Gum feels like a success story, which is why it is the tempting answer to miss.\nFlip: if he was chewing sugar-free gum, he would need no correction.",
+  "optionRationales": [
+   "Correct teaching: daily inspection finds breaks early.",
+   "Correct teaching: protects the feet from injury.",
+   "Right: this action keeps the disease active; cause not removed.",
+   "Correct teaching: walking within limits is advised."
+  ],
+  "strategy": "Cause removal: all nicotine must stop",
+  "archetype": "needs further teaching",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Stop all nicotine, including gum and patches",
+   "Protect limbs; inspect feet daily"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0016",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Tension pneumothorax emergency",
+  "noteId": "np3-cr-pneumothorax",
+  "vignette": "A 28-year-old man with a stab wound to the right chest is on a non-rebreather mask. He is agitated and sweating, with SpO2 87%, BP 80/50 and HR 132. Breath sounds are absent on the right, the trachea is shifted to the left, and the neck veins are distended. The radiology technician has arrived with a portable X-ray machine.",
+  "stem": "Which action should the nurse take next?",
+  "options": [
+   "Allow the portable chest X-ray before any other treatment",
+   "Alert the provider and prepare for immediate needle decompression",
+   "Raise the oxygen to a bag-valve mask and recheck the saturation first",
+   "Place him supine and start two additional IV lines for fluid"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Absent breath sounds, tracheal shift away from the injury, distended veins and shock = tension pneumothorax; trapped air compresses the heart and vessels.\n2. Treatment comes before imaging: decompression immediately.\n3. Oxygen is already maximal; a bag-valve mask does not relieve trapped pressure. Fluids do not fix the mechanical cause.\n4. Imaging delays rescue.\nFlip: if the man were stable with a small simple pneumothorax, the X-ray would come first.",
+  "optionRationales": [
+   "Wrong: right action, wrong time; imaging delays.",
+   "Right: relieve the pressure now.",
+   "Wrong: treats the symptom; oxygen is already maximal.",
+   "Wrong: supine worsens breathing; fluids do not address the cause."
+  ],
+  "strategy": "Treat life-threatening cause before imaging",
+  "archetype": "treat before imaging",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Tension pneumothorax: decompress before imaging",
+   "Tracheal deviation away from the injured side, hypotension, air hunger"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0017",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Airborne precautions timing",
+  "noteId": "np3-cr-tb-diagnosis",
+  "vignette": "At a district hospital clinic, a 38-year-old man has had a cough with night sweats for 6 weeks and lost 5 kg. His tuberculin skin test is positive, and sputum smears have been sent. He is sitting in the crowded waiting area. He says the cough is probably just his smoking.",
+  "stem": "Which action should the nurse take now?",
+  "options": [
+   "Tell him a positive skin test only shows exposure and ask him to wait his turn for the final results",
+   "Isolate him only after the sputum culture confirms active disease",
+   "Schedule a repeat skin test and let him continue in the waiting area",
+   "Give him a mask and move him to a room with airborne precautions pending sputum results"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Weeks of cough, night sweats and weight loss are classic active TB cues; the skin test shows exposure but does not prove disease.\n2. TB spreads by airborne droplet nuclei, and others in the waiting area are at risk right now.\n3. Precautions begin when disease is suspected, not once confirmed (culture takes weeks).\n4. The true statement about the skin test does not answer the question.\nFlip: with a positive skin test but no symptoms and a normal chest X-ray, isolation would not be needed.",
+  "optionRationales": [
+   "Wrong: true statement that does not answer the question.",
+   "Wrong: right action, wrong time; culture takes weeks.",
+   "Wrong: unnecessary test and leaves others exposed.",
+   "Right: protect others now."
+  ],
+  "strategy": "Protect others now; do not wait for confirmation",
+  "archetype": "act before confirmation",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "TB is airborne; N95 respirator for staff, mask for client",
+   "PPD shows exposure, not necessarily active disease"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0018",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Early troponin interpretation",
+  "noteId": "np3-cr-mi-assessment",
+  "vignette": "A 59-year-old man comes to the emergency department 1 hour after developing jaw and left arm pain with sweating. His first ECG is non-diagnostic and the first troponin I result is within normal limits. The provider says the pain may be muscular, and the man wants to go home to pick up his grandchildren.",
+  "stem": "Which response by the nurse is best?",
+  "options": [
+   "Support discharge because a normal troponin rules out an infarction",
+   "Explain that markers may not have risen yet, so he will be tested again",
+   "Tell him the early rising marker is AST and ask for a liver profile first",
+   "Advise him to return only if the pain lasts longer than 24 hours"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Troponin I rises about 2 to 4 hours after injury, so a result at 1 hour can be normal even in an infarction.\n2. His cues (jaw/arm pain, diaphoresis) still point to ischemia, so the plan is monitoring, serial ECG and repeat markers.\n3. Myoglobin rises earliest, but AST is a slow marker and not specific to the heart.\n4. Sending him away on a single early value is unsafe.\nFlip: if the pain began 8 hours ago and troponin is normal, MI is much less likely.",
+  "optionRationales": [
+   "Wrong: unsafe habit; a single early troponin is misleading.",
+   "Right: serial testing; a single early value does not rule out MI.",
+   "Wrong: AST is a late, non-specific marker (plausible detail from the marker list).",
+   "Wrong: under-reaction; a delay of 24 hours risks harm."
+  ],
+  "strategy": "Timing of markers: early negative does not exclude",
+  "archetype": "interpret timing of markers",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Troponin I rises 2-4 hours",
+   "Myoglobin earliest; CK-MB about 24 hours"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0019",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Atypical MI presentation",
+  "noteId": "np3-cr-mi-assessment",
+  "vignette": "A 66-year-old woman with diabetes arrives at the barangay health center with nausea, unusual tiredness and a dull ache in the jaw for the last 2 hours. She feels short of breath after walking in, is clammy, and says she had spicy food last night. BP is 108/70, HR 104.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Place her at rest on oxygen and a monitor and arrange an urgent ECG and transfer",
+   "Offer an antacid and observe whether the nausea eases",
+   "Ask about last night's meal in detail before any other action is taken",
+   "Check her capillary glucose and teach about diet before she goes home"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. MI presentation includes nausea, sweating, dyspnea, fatigue and jaw/arm discomfort, and people with diabetes may have less typical pain.\n2. Clammy skin, tachycardia and dyspnea on a short walk are red flags.\n3. Act: rest, oxygen, monitor, ECG and transfer. The spicy meal and nausea are tempting distractors.\n4. Glucose is a reasonable later check but not the first action.\nFlip: if she were pain-free, warm and the symptoms followed a clear food trigger, a GI cause would be pursued.",
+  "optionRationales": [
+   "Right: treat as cardiac first.",
+   "Wrong: treats the symptom and anchors on indigestion.",
+   "Wrong: skips assessment and delays care.",
+   "Wrong: right action, wrong priority."
+  ],
+  "strategy": "Do not anchor: treat as cardiac until ruled out",
+  "archetype": "don't anchor on indigestion",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "MI: nausea, sweating, dyspnea, jaw pain",
+   "ECG needed promptly"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0020",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Silent disease: stopped medicines",
+  "noteId": "np3-cr-hypertension",
+  "vignette": "A 52-year-old man at a health center has BP 168/104. His chart shows enalapril prescribed 3 months ago. He says he stopped the tablets 2 weeks ago because his headaches disappeared and he feels fine. He eats salted fish most days.",
+  "stem": "What is the nurse's best response?",
+  "options": [
+   "Reassure him that feeling well and having no headaches means his pressure is now controlled",
+   "Instruct him to restart the tablets at double the dose for a few days to catch up on missed doses",
+   "Tell him to eat less salted fish first and return only if the headaches come back again",
+   "Explore why he stopped, explain that the disease is often silent, and inform the provider"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Hypertension is often silent; clients stop medicines when they feel well, which is why pressure rises.\n2. The nurse explores the reason, teaches that the medicines are lifelong unless changed, and informs the provider because the BP is high and the regimen has lapsed.\n3. Doubling the dose is unsafe; reassurance contradicts the reading.\n4. Diet advice is good but is not a substitute for medicine.\nFlip: if the provider had stopped the medicine, reassurance would be correct.",
+  "optionRationales": [
+   "Wrong: false reassurance.",
+   "Wrong: unsafe; doses are not changed without an order.",
+   "Wrong: true advice but misses the treatment gap.",
+   "Right: explore, teach, and report."
+  ],
+  "strategy": "Assess understanding before teaching",
+  "archetype": "assess before teach",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Hypertension is often silent, so clients stop drugs",
+   "Medicines are lifelong unless changed"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0021",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "COPD oxygen: CO2 retention",
+  "noteId": "np3-cr-copd-care",
+  "vignette": "A 68-year-old with COPD, admitted with an exacerbation, has oxygen at 2 L/min by nasal cannula. SpO2 is 90%. An hour later the nurse finds him hard to wake, RR 8, SpO2 98%. The assistant says he looks 'comfortable at last' and that his daughter turned the oxygen up to 6 L/min.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Leave the higher oxygen on because his saturation is now above 95% and he looks more peaceful",
+   "Offer a sip of water and note that he is resting comfortably",
+   "Rouse him, return the flow to the prescribed rate, and call the provider for an ABG",
+   "Teach the daughter pursed-lip breathing for the client"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. In chronic CO2 retainers, high oxygen can remove the hypoxic drive and depress breathing, causing drowsiness and a slow rate.\n2. His RR of 8, difficult wakening and rise to 98% after the flow was raised fit this.\n3. Stimulate him, return to the prescribed low flow, and call for an ABG and review.\n4. A high saturation is not the goal in COPD.\nFlip: if he were awake with RR 24 and SpO2 82%, increasing oxygen per order would be right.",
+  "optionRationales": [
+   "Wrong: unsafe; a high SpO2 does not make him safe.",
+   "Wrong: skips assessment; he cannot swallow safely when drowsy.",
+   "Right: restore the prescribed flow and escalate.",
+   "Wrong: true teaching but not now."
+  ],
+  "strategy": "Airway/breathing: oxygen safety",
+  "archetype": "recognise oxygen narcosis",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Low-flow oxygen 1-2 L/min in COPD",
+   "High oxygen can depress breathing in CO2 retainers"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0022",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "After stent placement: which finding to report",
+  "noteId": "np3-cr-angina-treatment",
+  "vignette": "A client two days after a stent placement through the right groin is on aspirin and clopidogrel. At the morning assessment the nurse notes a 2 cm bruise at the groin site with a soft site, black tarry stool, BP 110/70 (was 130/80) and HR 96. The client says he has a slight headache.",
+  "stem": "Which finding is most important to report?",
+  "options": [
+   "The 2 cm soft bruise at the groin puncture site on the right side",
+   "The slight headache the client mentions",
+   "Black tarry stool with a drop in blood pressure",
+   "The heart rate of 96 beats per minute"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Antiplatelets and anticoagulants prevent clot but carry bleeding risk.\n2. Black tarry stool with falling BP and rising HR suggests GI bleeding and volume loss.\n3. A small soft bruise at the access site is common; a mild headache and HR of 96 are non-specific.\nFlip: if the groin were swelling and hard with a bruit, the site would rank first.",
+  "optionRationales": [
+   "Wrong: expected, soft, small bruise.",
+   "Wrong: mild non-specific symptom.",
+   "Right: possible active bleeding.",
+   "Wrong: within normal limits."
+  ],
+  "strategy": "Complication surveillance: bleeding on antiplatelets",
+  "archetype": "expected vs unexpected",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Watch for bleeding with antiplatelets and anticoagulants",
+   "Monitor BP and pulse"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0023",
+  "v": 2,
+  "type": "sata",
+  "area": "NP3",
+  "topic": "Nitroglycerin teaching",
+  "noteId": "np3-cr-x-nitroglycerin",
+  "vignette": "A nurse is teaching a 60-year-old woman who has been prescribed sublingual nitroglycerin for angina. She is a retired teacher who says she sometimes gets up fast to answer the door.",
+  "stem": "Which instructions should the nurse include? Select all that apply.",
+  "options": [
+   "Sit down before taking the tablet",
+   "Let the tablet dissolve under the tongue",
+   "Swallow the tablet with a full glass of water",
+   "Rise slowly afterward because your pressure may fall",
+   "Take the tablet only when the pain has been present for an hour"
+  ],
+  "answer": [
+   0,
+   1,
+   3
+  ],
+  "rationale": "1. Nitroglycerin dilates veins and lowers BP; sitting prevents falls and rising slowly avoids dizziness.\n2. A sublingual tablet must dissolve under the tongue, not be swallowed.\n3. Take it at the first sign of an attack, not after an hour.\nFlip: for IV use the client would be monitored in bed rather than taught tablet technique.",
+  "optionRationales": [
+   "Correct: protects against dizziness.",
+   "Correct: absorption occurs under the tongue.",
+   "Incorrect: swallowed tablet is not the sublingual route.",
+   "Correct: prevents orthostatic fall.",
+   "Incorrect: use at the first sign of an attack."
+  ],
+  "strategy": "Safety: vasodilator hypotension",
+  "archetype": "select appropriate instructions",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Sit before nitroglycerin",
+   "Do not swallow a sublingual tablet",
+   "Use at the first sign of an attack"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0024",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Hold or give: hypotension with chest pain",
+  "noteId": "np3-cr-x-nitroglycerin",
+  "vignette": "A client admitted with chest pressure rates it 7/10. A PRN order reads: nitroglycerin 0.4 mg sublingually for chest pain. The nurse takes the BP: 82/48, HR 112. The client is pale, sitting in bed, and his pain has not changed since arrival.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Give the nitroglycerin as ordered because relieving the ongoing chest pain is the priority",
+   "Lower the head of the bed and wait for the pressure to rise before giving it",
+   "Give the dose and recheck the pressure only if he complains of dizziness",
+   "Hold the dose, keep him at rest and notify the provider of the pressure and the pain"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Nitroglycerin lowers preload and BP through vasodilation. At 82/48 it could cause a dangerous drop.\n2. The pain is still active, so the situation is serious; the provider needs to know now to choose another approach.\n3. Giving it anyway or waiting passively are unsafe.\nFlip: with BP 128/78 the dose would be given and the pain reassessed.",
+  "optionRationales": [
+   "Wrong: unsafe; the dose may drop BP further.",
+   "Wrong: under-reaction; waiting does not treat ongoing pain.",
+   "Wrong: unsafe habit; check before, not after.",
+   "Right: assess before giving and escalate."
+  ],
+  "strategy": "Assess before act: vasodilator with low BP",
+  "archetype": "follow the order but check BP",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Check BP before each dose",
+   "Do not give if dangerously low"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0025",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Abrupt clonidine discontinuation",
+  "noteId": "np3-cr-antihypertensives",
+  "vignette": "A 55-year-old on clonidine and hydrochlorothiazide phones the clinic. She ran out of clonidine 3 days ago because the pharmacy was closed during a typhoon. She reports a pounding headache, palpitations and anxiety; her home reading is 196/118. She continued the hydrochlorothiazide.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Advise urgent evaluation and tell the provider she stopped the clonidine abruptly",
+   "Tell her to take a double dose of hydrochlorothiazide this morning",
+   "Reassure her it is anxiety from the typhoon and ask her to repeat the reading tomorrow",
+   "Advise restricting salt strictly for the next week before any visit"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Beta-blockers and clonidine should not be stopped abruptly; rebound sympathetic activity can cause very high BP, headache and palpitations.\n2. BP 196/118 with symptoms needs urgent evaluation.\n3. Doubling a diuretic does not treat the rebound and adds electrolyte risk.\n4. Dismissing it as anxiety under-reacts.\nFlip: if she had BP 140/88 and no symptoms, restarting after the pharmacy opens with a call to the clinic could be reasonable.",
+  "optionRationales": [
+   "Right: urgent evaluation of rebound hypertension.",
+   "Wrong: treats with the wrong drug.",
+   "Wrong: under-reaction.",
+   "Wrong: true advice that does not answer the urgency."
+  ],
+  "strategy": "Unsafe habit: stopping central agent abruptly",
+  "archetype": "rebound hypertension",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Do not stop beta-blockers or clonidine abruptly",
+   "Monitor BP and report"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ }
+]

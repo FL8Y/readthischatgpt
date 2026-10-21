@@ -1,0 +1,1158 @@
+[
+ {
+  "id": "np2-ob-female-external",
+  "area": "NP2",
+  "title": "Female External Genitalia and Sexuality Terms",
+  "body": "## What it is\nThe vulva is the collective name for the female external genitalia. Before the anatomy, three terms are kept apart: **sexuality** is the whole mix of feelings, attitudes, preferences and behaviors tied to being sexual; **gender** is the inner sense of being feminine or masculine; **sex** is biologic male or female status.\n\n## Must-know structures\n- **Mons pubis (mons veneris):** fat pad over the symphysis pubis, hair-covered after puberty.\n- **Labia majora:** two large fatty folds that protect the urethral and vaginal openings.\n- **Labia minora:** two hairless folds inside the majora.\n- **Clitoris:** small erectile organ with many nerve endings; the site of sexual arousal.\n- **Fourchette:** where the labia join at the back; a common site of episiotomy cuts and tears.\n- **Vestibule:** almond-shaped area holding the urinary meatus, Skene's glands, the hymen, the vaginal opening and Bartholin's glands.\n- **Skene's (paraurethral) glands:** a little mucus for lubrication.\n- **Bartholin's (paravaginal) glands:** alkaline secretion that neutralizes vaginal acidity, helping sperm survive.\n- **Hymen:** thin membrane partly covering the vaginal opening.\n- **Perineum:** the muscular area between the vagina and anus.\n\n## How the exam asks about it\nIdentify a structure from its function (episiotomy site = fourchette/perineum; alkaline secretion = Bartholin's). Questions on episiotomy care and perineal tears come back in [[Fourth Stage of Labor and Postpartum Checks]] and [[Postpartum Infection and Endometritis]].\n\n## Related topics\n[[Female Internal Genitalia: Vagina, Uterus and Decidua]], [[Male Reproductive Anatomy]]",
+  "tags": [
+   "anatomy",
+   "female",
+   "obstetrics"
+  ],
+  "priority": "low",
+  "outlineRefs": [
+   "Human Sexuality",
+   "Female: External Genitalia"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-female-internal",
+  "area": "NP2",
+  "title": "Female Internal Genitalia: Vagina, Uterus and Decidua",
+  "body": "## Vagina\nA stretchy canal that serves as the passage for menstrual flow and the baby. The anterior wall is about 6-7 cm and the posterior wall 8-9 cm. Rugae (thick folds) let it stretch without tearing during birth.\n\n## Uterus\nA hollow, pear-shaped muscular organ that houses and feeds the fetus. Non-pregnant it is about 5-7 cm long, 5 cm wide, 2.5 cm thick and weighs about 60 g; in pregnancy it becomes ovoid and weighs about 1000 g.\n\nParts:\n- **Fundus:** top part, palpated through the abdomen to follow uterine growth.\n- **Corpus (body):** expands to hold the growing fetus.\n- **Isthmus:** short segment between body and cervix; the part usually cut in a cesarean birth.\n- **Cervix:** lowest part, about half above and half inside the vagina.\n\nLayers, inside to outside:\n- **Endometrium:** inner lining (basal and glandular layers); what is shed in menstruation.\n- **Myometrium:** muscle layer; it contracts in labor and also closes off the tubal junctions to stop menstrual blood backing up into the tubes.\n- **Perimetrium:** outer layer giving strength and support.\n\n## Decidua\n\"Decidua\" means falling off. In pregnancy the endometrium becomes the decidua:\n- **Basalis:** under the embryo (becomes the maternal side of the placenta).\n- **Capsularis:** stretches over the embryo surface.\n- **Vera:** the rest of the lining.\n\n## How the exam asks about it\nFundal height as the way to track growth ([[Fundic Height Landmarks in Pregnancy]]), and the isthmus as the cesarean incision site.\n\n## Related topics\n[[Female External Genitalia and Sexuality Terms]], [[Ovaries and Fallopian Tubes]], [[Phases of the Menstrual Cycle]]",
+  "tags": [
+   "anatomy",
+   "uterus",
+   "obstetrics"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Female: Internal Genitalia",
+   "Uterus",
+   "Uterine Anatomy",
+   "Uterine Layers",
+   "Decidua"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-ovaries-tubes",
+  "area": "NP2",
+  "title": "Ovaries and Fallopian Tubes",
+  "body": "## Ovaries\nAlmond-shaped, grayish-white female gonads (about 4 cm long). They **produce, mature and release ova** and make **estrogen and progesterone**, which start and regulate the menstrual cycle ([[Hormonal Control of the Menstrual Cycle]]).\n\n## Fallopian tubes\nAbout 10 cm long. They carry the ovum to the uterus and are where sperm meet the ovum (fertilization). Segments, from ovary to uterus:\n- **Infundibulum:** funnel-shaped, about 2 cm, with finger-like fimbriae that sweep the ovum in.\n- **Ampulla:** the longest segment; the usual site of fertilization **and the most common site of ectopic pregnancy**.\n- **Isthmus:** the narrow part cut or sealed in tubal ligation (permanent sterilization).\n- **Interstitial portion:** inside the uterine wall; the **most dangerous** ectopic site because rupture is worst here.\n\n## Why it matters\nTube anatomy explains why an implanted embryo in the tube can rupture and bleed into the abdomen ([[Ectopic Pregnancy]]). Ligation at the isthmus ties into family planning ([[Reproductive Health and Family Planning]]).\n\n## Related topics\n[[Female Internal Genitalia: Vagina, Uterus and Decidua]], [[Ectopic Pregnancy]]",
+  "tags": [
+   "anatomy",
+   "ectopic",
+   "obstetrics"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Ovaries",
+   "Fallopian Tube",
+   "Segments"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-male-repro",
+  "area": "NP2",
+  "title": "Male Reproductive Anatomy",
+  "body": "## External structures\n- **Penis:** organ for urination and intercourse. Two corpora cavernosa (side columns of erectile tissue) and one corpus spongiosum on the underside.\n- **Scrotum:** pouch holding the testes; it acts as a temperature regulator for them.\n- **Testes:** two ovoid glands, 2-3 cm wide, sitting in the scrotum.\n\n## Internal structures in the order sperm travel\n- **Epididymis:** collects sperm from the testis and is where they mature.\n- **Vas deferens:** carries sperm up through the inguinal canal into the abdomen.\n- **Seminal vesicle:** adds the thick part of the semen (fructose, protein, prostaglandin).\n- **Ejaculatory duct:** joins the seminal vesicle to the urethra.\n- **Prostate gland:** alkaline fluid that protects sperm and reduces vaginal acidity.\n- **Cowper's (bulbourethral) gland:** lubricating fluid into the urethra.\n- **Urethra:** shared passage for urine and semen.\n\n## How the exam asks about it\nMatch structure to function (fructose = seminal vesicle; sperm maturation = epididymis). Useful for family planning teaching such as vasectomy ([[Reproductive Health and Family Planning]]).\n\n## Related topics\n[[Female External Genitalia and Sexuality Terms]], [[Hormonal Control of the Menstrual Cycle]]",
+  "tags": [
+   "anatomy",
+   "male",
+   "reproductive"
+  ],
+  "priority": "low",
+  "outlineRefs": [
+   "Male: Penis, Scrotum, Testes",
+   "Male: Internal Genitalia"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-menstrual-hormones",
+  "area": "NP2",
+  "title": "Hormonal Control of the Menstrual Cycle",
+  "body": "## Normal values from the handout\n- Average cycle 28 days (range 23-35).\n- Flow lasts about 4-6 days normally (1-9 counts as abnormal in the handout).\n- Normal blood loss about 30-80 mL (roughly a quarter cup).\n\n## The four-organ chain\n1. **Hypothalamus** releases GnRH.\n2. **Anterior pituitary (adenohypophysis)** is stimulated to release the gonadotropins.\n3. **Ovaries** respond by maturing a follicle, ovulating, and making estrogen and progesterone.\n4. **Uterus** builds its lining (stratum functionalis) for a possible pregnancy and sheds it if none happens.\n\n## The two gonadotropins\n- **FSH:** active early in the cycle; matures the primordial follicle.\n- **LH:** most active at mid-cycle; the LH surge triggers ovulation.\n\n## How the exam asks about it\nWhich hormone triggers ovulation (LH surge), which organ is the \"master\" (hypothalamus), and what the lining does when no pregnancy happens. The phases are detailed in [[Phases of the Menstrual Cycle]].\n\n## Memory aid\n\"FSH = follicle first; LH = let go (ovulate)\". Made up, not from the handout.\n\n## Related topics\n[[Phases of the Menstrual Cycle]], [[Ovaries and Fallopian Tubes]]",
+  "tags": [
+   "menstrual cycle",
+   "hormones",
+   "obstetrics"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Menstruation",
+   "Interplay of 4 major organs",
+   "Hypothalamus",
+   "Anterior pituitary",
+   "Gonadotropins"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-menstrual-phases",
+  "area": "NP2",
+  "title": "Phases of the Menstrual Cycle",
+  "body": "## Proliferative (follicular/estrogenic/post-menstrual) phase\n- First phase, **length varies** (about 6-14 days in the handout).\n- Just after flow the lining is very thin. Rising **estrogen** makes it grow, thickening it many-fold (about 1 mm to 8 mm).\n- One follicle matures per cycle: the **Graafian follicle**, the most mature, full of estrogen-rich fluid with an ovum ready to leave.\n- Peak estrogen triggers the **LH surge**, and the ovum is released: **ovulation**.\n\n## Luteal (secretory/progestational/premenstrual) phase\n- Second phase, **always about 14 days** (constant).\n- The empty follicle becomes the **corpus luteum**, which makes **progesterone**.\n- Progesterone maintains and organizes the lining; the glands become twisted (corkscrew) and secretory. Note: the handout also says LH peaks here, which conflicts with LH peaking at ovulation; see the check section.\n\n## Ischemic phase\nIf there is no fertilization, the corpus luteum regresses after about 8-10 days. Estrogen and progesterone fall, capillaries rupture, and the lining begins to slough.\n\n## Menstrual phase\nEstrogen and progesterone are lowest; menstrual flow passes.\n\n## Clinical tie-in\nDepo-Provera (a progesterone preparation) is used for dysfunctional uterine bleeding.\n\n## How the exam asks about it\nWhich phase is variable (proliferative) versus constant (luteal), and what hormone dominates each. A pregnancy test or a missed period is the reference point used in [[Signs of Pregnancy: Presumptive, Probable and Positive]].\n\n## Check against your textbook\n- The handout says LH \"peaks\" in the luteal phase; textbooks place the LH surge just before ovulation, with the corpus luteum then making progesterone.\n- Confirm the exact day ranges for the phases; they vary by source.\n\n## Related topics\n[[Hormonal Control of the Menstrual Cycle]], [[Female Internal Genitalia: Vagina, Uterus and Decidua]]",
+  "tags": [
+   "menstrual cycle",
+   "estrogen",
+   "progesterone"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Menstrual Cycle",
+   "Proliferative Phase",
+   "Luteal Phase",
+   "Ischemic Phase",
+   "Menstrual Phase"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-terms",
+  "area": "NP2",
+  "title": "Obstetric Terms: Zygote to Viability and Gravida-TPAL",
+  "body": "## Stages of prenatal development (age of gestation, AOG)\n- **Zygote:** result of fertilization, up to about 2 weeks.\n- **Embryo:** from implantation until organs form, about 2 to under 8 weeks.\n- **Fetus:** 8 weeks to birth.\n- **Implantation:** the growing structure attaches to the endometrium about 8-10 days after fertilization.\n\n## Viability\nThe fetus can live outside the uterus: **24 weeks and above** per the handout (elsewhere it also mentions 500 g, see [[Spontaneous and Induced Abortion]]).\n\n## Gravida and TPAL\n- **Gravida:** number of pregnancies, counted regardless of outcome.\n- **TPAL:** **T**erm births (38-42 weeks in the handout), **P**reterm births (under 37 weeks), **A**bortions, **L**iving children.\n- **Nulligravid:** never pregnant.\n- **Nullipara:** has never delivered a viable infant. The handout's wording mixes this up with gravidity.\n\n## Worked example (made up)\nA woman who is pregnant for the third time, with one earlier term baby and one earlier preterm baby (both alive), is G3 and T1 P1 A0 L2: the current pregnancy counts toward gravida but not yet toward para.\n\n## How the exam asks about it\nComputing G and TPAL from a short history, and telling embryo from fetus by weeks.\n\n## Check against your textbook\n- \"Nulliparous\" in the handout (\"had been pregnant before but never given birth to a viable infant\") is a muddled definition; check your local textbook.\n- Term is usually 37-42 weeks; the handout says 38-42.\n\n## Related topics\n[[Signs of Pregnancy: Presumptive, Probable and Positive]], [[Post-term Pregnancy]]",
+  "tags": [
+   "terminology",
+   "gtpal",
+   "obstetrics"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Terminologies",
+   "Gravida",
+   "TPAL",
+   "Implantation",
+   "Nulliparous",
+   "Nulligravid"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-signs-of-pregnancy",
+  "area": "NP2",
+  "title": "Signs of Pregnancy: Presumptive, Probable and Positive",
+  "body": "## How the three groups differ\n- **Presumptive:** subjective, felt by the woman; least reliable.\n- **Probable:** can be documented by the examiner; still not proof.\n- **Positive:** only the fetus itself can cause it; diagnostic.\n\n## Presumptive signs\n- Breast tenderness, fullness, darker areola.\n- Nausea and vomiting (rising hCG). Relief: dry unsalted crackers, ice chips, small frequent low-fat meals, ambulation.\n- Amenorrhea.\n- Urinary frequency (uterus presses on the bladder, first and third trimesters).\n- Fatigue (higher metabolic need).\n- **Quickening:** mother feels fetal movement at about 18-20 weeks.\n- Skin changes: melasma/chloasma (mask of pregnancy), linea nigra (pubis to navel), striae gravidarum (silvery stretch marks).\n\n## Probable signs\n- Positive pregnancy test (hCG), detectable about 10-14 days after the missed period; hCG peaks about 10 weeks.\n- Abdominal enlargement, symmetrical and globular ([[Fundic Height Landmarks in Pregnancy]]).\n- **Chadwick's:** bluish-purple vagina/cervix from more blood vessels.\n- **Goodell's:** softened cervix.\n- **Hegar's:** softened lower uterine segment.\n- **Ballottement:** fetus rebounds when the lower uterus is tapped, about 16-20 weeks.\n- **Braxton-Hicks:** periodic painless tightening, from about 28 weeks.\n\n## Positive signs\n- Fetal heart tones.\n- Fetal movement felt by the examiner.\n- Fetus seen on ultrasound or X-ray ([[Ultrasound in Pregnancy]]).\n\n## How the exam asks about it\nClassify a finding into presumptive/probable/positive. Nausea and quickening are presumptive; Chadwick's and a positive hCG test are probable; fetal heart tones are positive.\n\n## Memory aid\nPositive signs = \"the baby itself shows up\". Made up.\n\n## Related topics\n[[Obstetric Terms: Zygote to Viability and Gravida-TPAL]], [[Fundic Height Landmarks in Pregnancy]], [[Prenatal Visits, Blood Pressure and Leopold's Maneuvers]]",
+  "tags": [
+   "pregnancy signs",
+   "assessment"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Pregnancy: Presumptive, Probable and Positive Signs",
+   "Quickening",
+   "Chadwick's",
+   "Goodell's",
+   "Hegar's",
+   "Ballottement",
+   "Braxton-Hicks"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-fundic-height",
+  "area": "NP2",
+  "title": "Fundic Height Landmarks in Pregnancy",
+  "body": "## What it is\nMeasuring from the top of the symphysis pubis to the top of the fundus with a tape (centimeters) is a quick way to estimate the age of gestation and spot growth problems.\n\n## Landmarks from the handout\n- **12 weeks:** fundus at the symphysis pubis.\n- **16 weeks:** halfway between symphysis and umbilicus.\n- **20 weeks:** at the umbilicus.\n- Each additional centimeter above the umbilicus is about 4 more weeks: +1 cm = 24 weeks, +2 = 28, +3 = 32, +4 = 36 weeks (xiphoid level).\n- **40 weeks:** about 1 cm below the xiphoid process (the baby drops/engages before labor).\n\n## Nursing points\n- The woman lies supine with legs flexed for abdominal assessment; use the centimeter side of the tape.\n- A fundus much bigger than expected suggests multiple pregnancy ([[Multiple Pregnancy and Twin Types]]), hydramnios or a mole ([[Hydatidiform Mole]]); smaller than expected suggests poor fetal growth or oligohydramnios ([[Amniocentesis and Amniotic Fluid]]).\n\n## How the exam asks about it\nEstimate weeks of gestation from a fundal level, or decide what an unexpectedly large uterus might mean.\n\n## Check against your textbook\nThe \"+1 cm = 4 weeks\" rule above the umbilicus is the handout's simplification; the common McDonald's rule is fundal height in cm approximately equals weeks of gestation after about 20 weeks.\n\n## Related topics\n[[Signs of Pregnancy: Presumptive, Probable and Positive]], [[Prenatal Visits, Blood Pressure and Leopold's Maneuvers]]",
+  "tags": [
+   "fundal height",
+   "assessment",
+   "pregnancy"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Abdominal enlargement",
+   "Landmarks",
+   "Fundic height"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-prenatal-visits-leopold",
+  "area": "NP2",
+  "title": "Prenatal Visits, Blood Pressure and Leopold's Maneuvers",
+  "body": "## Prenatal visit schedule\n- Up to 28 weeks: every 4 weeks.\n- 28-36 weeks: every 2 weeks.\n- 36 weeks onward: every week.\n\n## Taking blood pressure\nRest the mother about 15 minutes first. Position changes the reading: **sitting highest, supine in between, left lateral lowest**. Use the same position each visit for fair comparison.\n\n## Abdominal assessment\nSupine, legs flexed. Inspect for striae and linea nigra, then measure fundic height ([[Fundic Height Landmarks in Pregnancy]]).\n\n## Leopold's maneuvers\nPurpose: find fetal presentation and position.\n\nPreparation, and why:\n- Have her void first: a full bladder blocks palpation and is uncomfortable.\n- Knees slightly flexed, small pillow or towel under one side: relaxes the abdomen and tilts the uterus off the vena cava, preventing supine hypotensive syndrome.\n- Warm hands/water: comfort and no abdominal tightening.\n- Face her head for maneuvers 1-3; face her feet for the fourth.\n\nThe four:\n1. **Fundal:** what lies in the fundus; head (firm, round, moves separately) or breech (softer, moves with the body). Gives presentation.\n2. **Lateral:** locates the fetal **back** (smooth, hard). Knobby parts are limbs. **Fetal heart tones are heard best over the back.**\n3. **Pelvic (Pawlik):** what sits at the inlet and whether it is engaged. Not engaged = it moves up or sideways; engaged = firmly settled.\n4. **Pelvic brim:** attitude and degree of extension; done only if the fetus is cephalic.\n\n## How the exam asks about it\nWhere to place the stethoscope for fetal heart tones, why the mother voids first, and why a pillow is used under one side. Position terms are in [[Fetal Lie, Attitude, Presentation, Position and Station]].\n\n## Related topics\n[[Fundic Height Landmarks in Pregnancy]], [[Fetal Lie, Attitude, Presentation, Position and Station]], [[Body Changes in Pregnancy: Heart, Blood and Lungs]]",
+  "tags": [
+   "prenatal",
+   "leopold",
+   "assessment"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Prenatal Clinic",
+   "Taking BP",
+   "Abdominal Assessment",
+   "Leopold's Maneuver",
+   "Prenatal Assessment/Antenatal Visits"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-changes-heart-blood-lungs",
+  "area": "NP2",
+  "title": "Body Changes in Pregnancy: Heart, Blood and Lungs",
+  "body": "## Cardiovascular\n- Heart is pushed upward, left and forward.\n- Cardiac output rises about 25-50%; heart rate rises about 10 bpm.\n- Pressure from the uterus on veins slows circulation, causing edema and varicosities of legs, vulva and rectum.\n- **Supine hypotensive syndrome:** the uterus presses on the vena cava when lying flat. **Position of choice: left lateral (Sims').**\n\n## Blood\nPlasma volume rises more than red cells, so blood is diluted: **physiologic anemia**. Teach iron-rich foods and supplements to meet higher iron needs.\n\n## Respiratory\n- Shortness of breath from uterine enlargement.\n- Oxygen use up as much as 20% and breathing volume up to 40%.\n- Tendency to over-breathe (hyperventilate), causing respiratory alkalosis: tingling in the extremities, light-headedness. Help: breathe slowly into a paper bag or cupped hands.\n\n## Priority nursing action\nFor dizziness or a low BP when supine, turn her to her left side first (restores venous return; Maslow: circulation before teaching).\n\n## How the exam asks about it\nWhy physiologic anemia is \"normal\" yet iron is still given, and the best position for a pregnant woman. Heart disease implications are in [[Heart Disease in Pregnancy]].\n\n## Related topics\n[[Body Changes in Pregnancy: Digestive, Kidney, Thyroid and Back]], [[Heart Disease in Pregnancy]]",
+  "tags": [
+   "pregnancy changes",
+   "cardiovascular",
+   "respiratory"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Physiological Changes: Cardiovascular",
+   "Hematologic",
+   "Respiratory"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-changes-gi-renal",
+  "area": "NP2",
+  "title": "Body Changes in Pregnancy: Digestive, Kidney, Thyroid and Back",
+  "body": "## Digestive discomforts\n- **Pica:** craving non-food substances (clay, chalk, dirt, starch). Counsel on risks and check for anemia.\n- **Epulis:** gum swelling that bleeds easily (estrogen). Use a soft toothbrush, avoid strong mouthwash.\n- **Ptyalism:** excess saliva. Hard candies can help.\n- **Heartburn:** the uterus crowds the stomach and slows emptying. Do not lie down after eating, walk gently, eat small frequent meals.\n\n## Kidney and bladder\nHormones relax the ureters and renal pelvis and the growing uterus compresses the bladder: urinary **frequency** and urine stasis, so higher **UTI risk**.\n\n## Thyroid\nThe handout warns that hyperthyroidism is a pregnancy risk and thyroid storm (arrhythmias, possible death) is dangerous in labor. Watch for its signs.\n\n## Muscles and bones\n- **Relaxin** loosens pelvic joints.\n- **Diastasis recti:** rectus muscles separate; normal and recovers after birth.\n- **Physiologic lordosis** (\"pride of pregnancy\") and back pain: pelvic rocking, direct pressure on the lumbar area, avoid lying flat; the handout says no analgesics.\n\n## How the exam asks about it\nMatch a discomfort with the best self-care measure. Safe, non-drug measures first (assess, teach, then medicate).\n\n## Check against your textbook\n- The handout says pica may come from hypersalivation; the usual teaching links it to nutrient deficiency or cultural factors.\n- \"No analgesic\" for back pain should be checked with your textbook and prescriber guidance.\n- \"Greatest risk for hyperthyroidism\" is worded loosely.\n\n## Related topics\n[[Body Changes in Pregnancy: Heart, Blood and Lungs]], [[Postpartum Infection and Endometritis]]",
+  "tags": [
+   "pregnancy changes",
+   "discomforts",
+   "nursing management"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Gastrointestinal Tract: Pica, Epulis, Ptyalism, Heartburn",
+   "Renal system",
+   "Endocrine system",
+   "Musculoskeletal System"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-drugs-nsaids-aspirin",
+  "area": "NP2",
+  "title": "Drugs to Avoid in Pregnancy: NSAIDs and Aspirin",
+  "body": "## NSAIDs (example: indomethacin)\n- Not advisable in pregnancy.\n- Cause **premature closure of the ductus arteriosus**, so blood flow to the lower half of the fetal body is cut.\n- Reduce fetal urine output, leading to **oligohydramnios**.\n- Neonatal problems after prenatal exposure listed in the handout: pulmonary hypertension, necrotizing enterocolitis, intracranial hemorrhage, cystic brain lesions, kidney dysfunction.\n\n## Aspirin\nPossible effects: bleeding, early ductus closure, pulmonary hypertension, prolonged pregnancy and labor, growth restriction, and salicylate toxicity in the baby. Teaching from the handout: **low-dose only, and stop about four weeks before the due date.**\n\n## Priority nursing actions\nAsk about all drugs, herbs and over-the-counter products at each prenatal visit; advise the pregnant woman not to self-medicate and to check with her midwife or doctor first (safety of the fetus).\n\n## How the exam asks about it\nWhich common pain reliever to avoid and the fetal effect (ductus arteriosus closure). Related to post-term risk in [[Post-term Pregnancy]].\n\n## Check against your textbook\nDoses and whether low-dose aspirin is advised depend on the indication; do not rely on this note for prescribing.\n\n## Related topics\n[[Body Changes in Pregnancy: Digestive, Kidney, Thyroid and Back]], [[Post-term Pregnancy]]",
+  "tags": [
+   "pharmacology",
+   "teratogens",
+   "pregnancy"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Frequent used drugs that should not be taken during pregnancy",
+   "NSAIDs (Indomethacin)",
+   "Aspirin"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-amniocentesis",
+  "area": "NP2",
+  "title": "Amniocentesis and Amniotic Fluid",
+  "body": "## What it is\nWithdrawing amniotic fluid through the abdominal wall for testing. Best at about **14-16 weeks** (second trimester) in the handout.\n\n## Amniotic fluid facts\n- Normal volume about 800-1200 mL.\n- **Oligohydramnios:** under 500 mL. **Polyhydramnios (hydramnios):** over 1200 mL.\n- Normal color clear to slightly yellow. **Strong yellow** suggests blood incompatibility; **green** means meconium.\n\n## Nursing actions\nBefore: the woman **voids** (a smaller bladder avoids accidental puncture). After: observe about **30 minutes**, checking fetal heart rate and for uterine contractions (risk of labor or fetal distress).\n\n## What the fluid can show\n- **Fetal lung maturity:** lecithin-sphingomyelin ratio, normal 2:1 (lecithin = lung surfactant). Useful if early delivery is considered.\n- **Bilirubin** when blood incompatibility is suspected; the sample must not contain blood or the result is falsely positive.\n- Inborn errors of metabolism, e.g. cystinosis and maple syrup urine disease.\n\n## How the exam asks about it\nPre- and post-procedure care, and what L:S ratio means. Compare with the less invasive tests in [[Ultrasound in Pregnancy]] and [[Chorionic Villi Sampling and Alpha-Fetoprotein]].\n\n## Check against your textbook\nGestation timing varies by purpose (genetic testing is usually 15-20 weeks; lung maturity later). Confirm.\n\n## Related topics\n[[Ultrasound in Pregnancy]], [[Chorionic Villi Sampling and Alpha-Fetoprotein]], [[HELLP Syndrome]]",
+  "tags": [
+   "diagnostics",
+   "amniocentesis",
+   "prenatal tests"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Amniocentesis",
+   "Amniotic fluid volume"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-ultrasound",
+  "area": "NP2",
+  "title": "Ultrasound in Pregnancy",
+  "body": "## What it is\nSound waves bounce off tissues to make a picture. Non-invasive and used all through pregnancy.\n\n## Preparing the client\n- **Transabdominal:** drink plenty of water about an hour before; a full bladder pushes the uterus into view.\n- **Transvaginal:** have her void first.\n\n## First trimester findings\nConfirms pregnancy (cardiac movement, yolk sac, fetal heart tone), shows whether an intrauterine device is in place, and identifies a hydatidiform mole: \"snowstorm\" pattern of white specks on a dark background ([[Hydatidiform Mole]]).\n\n## Second and third trimester findings\nPlacenta location (for previa, [[Placenta Previa]]), fetal growth, amniotic fluid amount, fetal position and presentation, and sex (possible from about 16 weeks; clearer later). 3D ultrasound may show structural problems.\n\n## Related use\nUltrasound makes up part of the biophysical profile ([[Biophysical Profile and Non-Stress Test]]).\n\n## How the exam asks about it\nClient preparation (full vs empty bladder) and what a snowstorm appearance indicates.\n\n## Related topics\n[[Amniocentesis and Amniotic Fluid]], [[Placenta Previa]], [[Hydatidiform Mole]]",
+  "tags": [
+   "diagnostics",
+   "ultrasound",
+   "prenatal tests"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Ultrasound",
+   "Transabdominal",
+   "Transvaginal",
+   "Ultrasound first trimester",
+   "second and third trimester"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-bpp-nst",
+  "area": "NP2",
+  "title": "Biophysical Profile and Non-Stress Test",
+  "body": "## Biophysical profile (BPP)\nFive components: fetal reactivity (non-stress test), breathing movement, tone, amniotic fluid volume, and fetal movement/activity. It can be done as often as daily in high-risk pregnancies.\n\nScore 2 criteria from the handout (ultrasound parts):\n- **Breathing:** one episode of at least 30 seconds within 30 minutes.\n- **Movement:** at least three limb or trunk movements in 30 minutes.\n- **Tone:** at least one extension then flexion in 30 minutes.\n- **Fluid:** a pocket over 1 cm vertically.\n- **NST:** two or more accelerations of at least 15 bpm lasting 15 seconds in 20 minutes.\n\nInterpretation (handout): **8-10 = doing well; 6 = suspicious; 4 = fetus in jeopardy.**\n\n## Non-stress test (NST)\nNon-invasive: the fetal heart rate is traced with a cardiotocograph in relation to fetal movement. No contractions are induced.\n- **Reactive (normal):** two or more accelerations of 15 bpm for 15 seconds in 20 minutes.\n- **Non-reactive:** no accelerations with movement.\n\nSafety: do not let the woman lie flat (supine hypotension); use a semi-sitting or left-side position.\n\n## Next step\nA non-reactive NST leads to a contraction stress test ([[Contraction Stress Test and Late Deceleration Response]]) or a BPP.\n\n## How the exam asks about it\nReactive versus non-reactive, the normal score, and why not supine.\n\n## Related topics\n[[Contraction Stress Test and Late Deceleration Response]], [[Fetal Heart Rate Patterns and Decelerations]], [[Ultrasound in Pregnancy]]",
+  "tags": [
+   "fetal wellbeing",
+   "nst",
+   "bpp"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Biophysical score",
+   "Non-Stress Test",
+   "Sonogram"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-cst",
+  "area": "NP2",
+  "title": "Contraction Stress Test and Late Deceleration Response",
+  "body": "## What it is\nChecks how the fetal heart responds to **uterine contractions**, to predict whether the placenta can cope with labor. Done when the NST is non-reactive ([[Biophysical Profile and Non-Stress Test]]); the handout places it at about 38 weeks.\n\n## Results\n- **Negative (normal):** no late decelerations with contractions.\n- **Positive (abnormal):** late decelerations.\n\n## How contractions are made\n1. **Nipple stimulation:** warm packs first, rub the nipples in cycles, rest 2-4 minutes if no contractions, up to 4 cycles.\n2. **Oxytocin challenge:** if nipple stimulation fails, give diluted oxytocin at a slowly increasing rate until two consecutive contractions occur, then stop the infusion and compare the contractions with the heart tracing.\n\nSafety: observe about 30 minutes afterwards to be sure contractions settle and preterm labor does not start.\n\n## If late decelerations appear (priority order)\n1. Stop oxytocin (no more contractions wanted).\n2. Turn the woman to her **left side** (relieves vena cava pressure, improves placental flow).\n3. Give oxygen as ordered (the handout says 8-10 L/min).\n4. Hydrate with IV fluids.\n5. If decelerations persist, prepare for urgent delivery (cesarean).\n\n## How the exam asks about it\n\"Positive CST\" = bad; first action for late decelerations. See [[Fetal Heart Rate Patterns and Decelerations]] for pattern recognition.\n\n## Check against your textbook\nHandout drop rates for oxytocin and \"plain water\" hydration (it means IV fluid) should be checked against your local protocol.\n\n## Related topics\n[[Biophysical Profile and Non-Stress Test]], [[Fetal Heart Rate Patterns and Decelerations]]",
+  "tags": [
+   "fetal wellbeing",
+   "cst",
+   "late deceleration"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Contraction Stress Test (CST)",
+   "Nipple Stimulation",
+   "Oxytocin Challenge Test",
+   "Interventions for Late deceleration"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-cvs-afp",
+  "area": "NP2",
+  "title": "Chorionic Villi Sampling and Alpha-Fetoprotein",
+  "body": "## Chorionic villi sampling (CVS)\nA sample of chorionic villi from the developing placenta is taken for chromosome or DNA analysis. Done early, at **8-10 weeks** in the handout. After the procedure, tell her to **report chills or fever** (possible infection or threatened miscarriage).\n\n## Alpha-fetoprotein (AFP)\nA protein made by the fetal liver; maternal serum levels peak between about 13 and 32 weeks.\n- **Elevated** AFP: neural tube defects (also seen with multiple pregnancy, [[Multiple Pregnancy and Twin Types]]).\n- **Decreased** AFP: chromosomal disorders such as Down syndrome.\n\n## Why it matters\nBoth are screening/diagnostic steps for genetic problems. They help the family make informed decisions; the nurse supports and explains but does not decide for them. Also relevant to newborn follow-up ([[Newborn Screening]]).\n\n## How the exam asks about it\nMatch the test to the finding (high AFP = neural tube defect) and to the gestational age.\n\n## Check against your textbook\nCVS is commonly placed at 10-13 weeks in many sources; AFP screening is usually 15-20 weeks. Confirm in your references.\n\n## Related topics\n[[Amniocentesis and Amniotic Fluid]], [[Ultrasound in Pregnancy]]",
+  "tags": [
+   "diagnostics",
+   "cvs",
+   "afp"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Chorionic villi sampling",
+   "Alpha-fetoprotein (AFP)"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-psych-tasks",
+  "area": "NP2",
+  "title": "Maternal Psychological Tasks by Trimester",
+  "body": "## Core idea\nThe mother's attention moves from herself to the baby across the pregnancy.\n\n- **First trimester:** accepting that she is pregnant, often with ambivalence. Concern for herself is greater than concern for the baby.\n- **Second trimester:** accepting the baby as a real person (quickening helps). Concern for self and baby is about equal.\n- **Third trimester:** accepting parenthood and preparing for birth. Concern for the baby exceeds concern for self.\n\n## Nursing use\nMatch teaching to the stage: first trimester, symptom relief and reassurance; second, bonding (listening to heart tones, showing ultrasound); third, birth preparation and parenting classes. Accept ambivalence without judgment (therapeutic communication).\n\n## How the exam asks about it\nA statement from a woman at a certain visit (\"I feel sick and tired, I am not sure I want this\") is matched to the trimester task.\n\n## Related topics\n[[Signs of Pregnancy: Presumptive, Probable and Positive]], [[Puerperium: Involution and Rubin's Phases]]",
+  "tags": [
+   "psychosocial",
+   "trimesters",
+   "pregnancy"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Psychological Tasks of the Mother"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-labor-onset-prelim",
+  "area": "NP2",
+  "title": "Theories of Labor Onset and Preliminary Signs of Labor",
+  "body": "## Theories of why labor starts\n- **Fetal signal:** the fetus is mature enough to live outside.\n- **Oxytocin:** uterine oxytocin receptors increase near term.\n- **Progesterone withdrawal:** progesterone stays high in preterm pregnancy and falls near term, allowing contractions.\n- **Prostaglandin:** prostaglandins stimulate uterine contractions.\n\n## Preliminary (early warning) signs\n- **Lightening:** the fetus settles into the pelvis, easing breathing but adding bladder pressure. Primigravida: about 2 weeks before labor; multigravida: at the start of labor.\n- **Strong Braxton-Hicks contractions** in the last days.\n- **Burst of energy** (nesting), linked to epinephrine rise as progesterone drops.\n- **Slight weight loss** of about 1-3 lb as fluid is excreted.\n- **Cervical ripening:** soft (\"butter-soft\") cervix on pelvic exam.\n\n## Nursing point\nThese signs mean labor is near, not that it has begun; the surest sign is progressive, productive contractions ([[True Labor versus False Labor]]).\n\n## How the exam asks about it\nPrimigravida vs multigravida lightening timing, and which signs are \"preliminary\".\n\n## Related topics\n[[True Labor versus False Labor]], [[First Stage of Labor and Nitrazine Test]], [[Maternal Psychological Tasks by Trimester]]",
+  "tags": [
+   "labor",
+   "parturition",
+   "preliminary signs"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Theories of Parturition",
+   "Preliminary Signs of Labor",
+   "Lightening",
+   "Braxton-Hicks",
+   "Ripening of the cervix"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-pelvis-cpd-diameters",
+  "area": "NP2",
+  "title": "Pelvis Types, Cephalopelvic Disproportion and Fetal Diameters",
+  "body": "## Pelvic types\n- **Gynecoid:** the \"normal\" female pelvis, round inlet; best for birth.\n- **Android:** male-type; narrow, acute pubic arch, narrow lower pelvis.\n- **Anthropoid:** narrow transverse diameter, long anteroposterior diameter.\n- **Platypelloid:** flat; oval inlet, shallow anteroposterior diameter.\n\n## Cephalopelvic disproportion (CPD)\nThe fetal head is too large for the maternal pelvis. Even with CPD the usual plan is a **trial of labor**, not an automatic cesarean. The handout notes a hospital cesarean rate should stay under about 20%.\n\n## Fetal head diameters\n- **Suboccipitobregmatic:** smallest, about 9.5 cm (fully flexed head).\n- **Occipitofrontal:** about 11 cm.\n- **Occipitomental:** widest, about 13.5 cm (face/extended head).\nA well-flexed head presents the smallest diameter, which is why flexion helps labor ([[Second Stage of Labor and Mechanisms of Labor]]).\n\n## Fontanelles\n- **Anterior:** diamond-shaped, closes at 12-18 months.\n- **Posterior:** triangular, closes at 2-3 months.\n\n## How the exam asks about it\nWhich pelvis is ideal, why CPD is not an absolute cesarean indication, and diamond vs triangle fontanelle.\n\n## Check against your textbook\nPosterior fontanelle closure is often given as 6-8 weeks; check.\n\n## Related topics\n[[Fetal Lie, Attitude, Presentation, Position and Station]], [[Second Stage of Labor and Mechanisms of Labor]]",
+  "tags": [
+   "labor",
+   "pelvis",
+   "cpd"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Factors Affecting Labor: Pelvic Dimension",
+   "Cephalopelvic Disproportion",
+   "Fetal diameters",
+   "Fetal Head"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-lie-attitude-position",
+  "area": "NP2",
+  "title": "Fetal Lie, Attitude, Presentation, Position and Station",
+  "body": "## Definitions\n- **Lie:** relation of the baby's long axis to the mother's: longitudinal, transverse or oblique. A **transverse lie** means labor will not progress.\n- **Attitude:** degree of flexion. Full flexion (vertex/occiput) presents the smallest diameter. Sinciput (military) is less flexed; brow is partly extended; **face** is the widest diameter and generally cannot enter the pelvis. Complete extension stops progress.\n- **Presentation:** the body part that first meets the cervix (cephalic, breech, shoulder). Set by lie plus attitude.\n- **Position:** presenting part relative to a quadrant of the mother's pelvis, e.g. ROP, LSA.\n\n## Station\nLevel of the presenting part compared with the **ischial spines**.\n- Above the spines: negative numbers, -3 floating up to -1.\n- At the spines: **0 = engaged**.\n- Below the spines: positive numbers up to +3 (crowning).\n\nThe linea terminalis divides the false pelvis (above) from the true pelvis (below).\n\n## How the exam asks about it\nWhich station means engagement (0), which attitude is hopeless for vaginal entry (face), and which lie blocks dilation (transverse).\n\n## Check against your textbook\nThe handout shows both sides of the spines with minus signs; standard teaching uses minus above and plus below.\n\n## Related topics\n[[Prenatal Visits, Blood Pressure and Leopold's Maneuvers]], [[Pelvis Types, Cephalopelvic Disproportion and Fetal Diameters]], [[Breech Presentation Types]]",
+  "tags": [
+   "labor",
+   "fetal position",
+   "station"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Fetal Attitude",
+   "Fetal Lie",
+   "Fetal Presentation",
+   "Fetal Position",
+   "Fetal Station",
+   "Linea terminalis",
+   "Types of attitude"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-true-vs-false-labor",
+  "area": "NP2",
+  "title": "True Labor versus False Labor",
+  "body": "## True labor\n- Starts in the lower back, wraps to the front.\n- Regular intervals that shorten.\n- Increasing intensity.\n- **Progressive cervical dilation and effacement.**\n- Walking makes it stronger; sedation does not stop it.\n\n## False labor\n- Confined to the lower abdomen.\n- Irregular, no change in intensity.\n- **No cervical change.**\n- Walking or sedation relieves it.\n\n## Other signs labor has begun\n- **Productive contractions** are the surest sign.\n- **Bloody show:** expulsion of the mucus plug (operculum) as the cervix softens.\n- **Rupture of membranes:** gush or slow leak of clear fluid.\n- Cervical dilation.\n\n## Nursing action\nIf unsure, assess contraction pattern and check cervical change; reassure a woman in false labor and advise when to return. Check fetal heart tones and note fluid color if membranes ruptured ([[First Stage of Labor and Nitrazine Test]]).\n\n## How the exam asks about it\nTell true from false labor, and the sign that proves labor is real (cervical change).\n\n## Related topics\n[[Theories of Labor Onset and Preliminary Signs of Labor]], [[First Stage of Labor and Nitrazine Test]]",
+  "tags": [
+   "labor",
+   "true labor",
+   "false labor"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Sign of True Labor",
+   "Uterine contraction",
+   "Bloody show",
+   "Rupture of membranes",
+   "Cervical dilation"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-first-stage",
+  "area": "NP2",
+  "title": "First Stage of Labor and Nitrazine Test",
+  "body": "## Definition\nFirst stage = true contractions until the cervix is fully dilated (10 cm).\n\n## Phases (LAT)\n- **Latent:** 0-3 cm; mild contractions 20-40 seconds every 5-10 minutes; effacement; handout times: nullipara about 6 hours, multipara about 4.5 hours.\n- **Active:** 4-7 cm; moderate contractions 40-60 seconds every 3-5 minutes.\n- **Transition:** 8-10 cm; strongest contractions 60-90 seconds every 2-3 minutes. The most intense phase; coach breathing and give constant support.\n\n## Nitrazine test\nChecks whether leaking fluid is amniotic fluid. Nitrazine paper touched to vaginal fluid: **blue = alkaline = amniotic fluid**; **yellow/red-orange = acidic = urine** (the handout says red).\n\n## Rupture of membranes\nCheck the fetal heart rate right after rupture (cord prolapse risk, [[Preterm Rupture of Membranes and Cord Prolapse]]). If membranes have been ruptured more than about 24 hours without birth, infection is likely and prompt delivery is planned.\n\n## Priority nursing actions\nMonitor contractions, fetal heart rate and maternal vital signs, offer position changes and comfort, keep her bladder empty. Do not encourage pushing before full dilation.\n\n## How the exam asks about it\nMatch dilation to phase, and interpret nitrazine color.\n\n## Related topics\n[[True Labor versus False Labor]], [[Second Stage of Labor and Mechanisms of Labor]], [[Fetal Heart Rate Patterns and Decelerations]]",
+  "tags": [
+   "labor",
+   "first stage",
+   "nitrazine"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "First Stage of Labor",
+   "Latent, Active, Transition phases",
+   "Nitrazine Test"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-second-stage-mechanisms",
+  "area": "NP2",
+  "title": "Second Stage of Labor and Mechanisms of Labor",
+  "body": "## Second stage\nFull dilation (10 cm) until the baby is born. Handout durations: primigravida 1-4 hours, multigravida 20-45 minutes.\n\nKey rules:\n- Do not push before full dilation or without a contraction (it tires her and can swell the cervix).\n- Pushing's main purpose is to shorten this stage.\n- If she feels an urge to push before the cervix is ready, teach **pant-breathing**.\n\n## Mechanisms of labor (cardinal movements)\nThe handout mnemonic ED FIRE ERE: **E**ngagement, **D**escent, **F**lexion, **I**nternal rotation, **E**xtension, **R**estitution/**E**xternal rotation, **E**xpulsion.\n\n## Essential Intrapartum and Newborn Care (EINC)\n- Properly timed cord clamping (when pulsations stop or after about 2 minutes, per the handout).\n- Immediate drying (prevents hypothermia).\n- No separation of mother and baby (skin-to-skin).\n- Early breastfeeding within about 60 minutes. More in [[EINC and Active Management of Third Stage of Labor]].\n\n## How the exam asks about it\nPut the cardinal movements in order and name the EINC steps.\n\n## Check against your textbook\nHandout says cord clamping after pulsation stops or 2 minutes; current Philippine EINC wording is \"1 to 3 minutes\". Confirm.\n\n## Related topics\n[[First Stage of Labor and Nitrazine Test]], [[Third Stage of Labor: Placental Expulsion and Uterotonic Drugs]], [[Fetal Lie, Attitude, Presentation, Position and Station]]",
+  "tags": [
+   "labor",
+   "second stage",
+   "mechanisms",
+   "EINC"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Second Stage",
+   "Mechanisms of Labor (ED FIRE ERE)",
+   "Essential Intrapartum and Newborn Care (EINC)"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-third-stage",
+  "area": "NP2",
+  "title": "Third Stage of Labor: Placental Expulsion and Uterotonic Drugs",
+  "body": "## Definition\nDelivery of the baby until delivery of the placenta. Usually 5-10 minutes; beyond 30 minutes is abnormal. **Priority: prevent hemorrhage.**\n\n## Signs of placental separation\n- Uterus firm and globular (Calkin's sign) and rising.\n- Cord lengthens.\n- Sudden gush of blood.\n\n## Schultze versus Duncan\n- **Schultze:** fetal (shiny) side comes out first, separation from the center; less bleeding.\n- **Duncan:** maternal (raw, red, rough) side first, separation from the edges; more bleeding.\n\n## Inspecting the placenta\nCheck completeness (about 16-20 cotyledons), the membranes, and the cord: **two arteries and one vein (AVA)**. Retained fragments cause bleeding.\n\n## Drugs\n- **Oxytocin:** given diluted and slowly before delivery; larger amounts after the placenta is out, to keep the uterus contracted.\n- **Ergot preparations (methylergonovine):** give **only after** the placenta is delivered; strong contraction beforehand can trap the placenta.\n\n## How the exam asks about it\nTiming of ergot drugs, Schultze vs Duncan, and how many vessels in the cord. Active management is in [[EINC and Active Management of Third Stage of Labor]].\n\n## Check against your textbook\nHandout infusion rates (11-12 drops/min) are not reliable; use your agency's protocol. Ergot drugs are avoided in hypertension.\n\n## Related topics\n[[Second Stage of Labor and Mechanisms of Labor]], [[Fourth Stage of Labor and Postpartum Checks]], [[Postpartum Hemorrhage]]",
+  "tags": [
+   "labor",
+   "third stage",
+   "placenta",
+   "oxytocin"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Third Stage",
+   "Signs of Placental Expulsion",
+   "Schultze and Duncan",
+   "Drugs for Third Stage of Labor"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-fourth-stage",
+  "area": "NP2",
+  "title": "Fourth Stage of Labor and Postpartum Checks",
+  "body": "## Definition\nThe first 1-4 hours after the placenta comes out. Priority: **stabilize and prevent bleeding.**\n\n## Why it is risky\nFluid shifts back into circulation, raising cardiac output and oxygen use. This stage is the hardest for women with heart disease ([[Heart Disease in Pregnancy]]).\n\n## BUBBLE-HE assessment\n- **B**reasts\n- **U**terus (firm, midline, at or just below the navel)\n- **B**ladder (full bladder pushes the uterus up and causes bleeding)\n- **B**owels\n- **L**ochia ([[Lochia and Return of Menstruation]])\n- **E**pisiotomy/perineum\n- **H**omans' sign (calf pain on dorsiflexion: possible thrombophlebitis, [[Postpartum Thrombophlebitis]])\n- **E**motional status\n\n## Priority nursing actions\nCheck vital signs, fundus and bleeding often. A boggy uterus: **massage the fundus first**, then help her empty the bladder. Keep the baby with her for bonding and breastfeeding.\n\n## Check against your textbook\nThe handout lists the \"E\"s as Episiotomy and Homan's sign only; many texts add Emotional status.\n\n## Related topics\n[[Third Stage of Labor: Placental Expulsion and Uterotonic Drugs]], [[Postpartum Hemorrhage]], [[Puerperium: Involution and Rubin's Phases]]",
+  "tags": [
+   "labor",
+   "fourth stage",
+   "postpartum assessment"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Fourth Stage",
+   "Postpartum Assessment (BUBBLE-HE)",
+   "Homan's sign"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-abortion",
+  "area": "NP2",
+  "title": "Spontaneous and Induced Abortion",
+  "body": "## What it is\nLoss of a pregnancy before the fetus is viable (the handout: over 24 weeks or at least 500 g counts as viable). Most spontaneous abortions are caused by **chromosomal defects** in the embryo.\n\n## Types of spontaneous abortion\n- **Threatened:** vaginal bleeding, **cervix closed** (no dilation or effacement). Pregnancy may continue.\n- **Inevitable/imminent:** bleeding **with cervical dilation and effacement**; it cannot be stopped.\n- **Incomplete:** some products of conception passed, some retained (bleeding continues).\n- **Complete:** all products passed.\n- **Habitual (recurrent):** three or more consecutive losses; a common cause is premature cervical dilation ([[Premature Cervical Dilation and Cerclage]]).\n\n## Induced abortion\nDeliberately ended pregnancy before viability: therapeutic (medical reasons) or illegal. Philippine law restricts abortion; the nurse gives non-judgmental care and supports the client.\n\n## Priority nursing actions\nAssess bleeding (pad count, tissue passed; save any tissue), vital signs, pain; watch for shock (airway, breathing, circulation first); provide emotional support for grief. Check Rh status for Rh-negative mothers (Rh immune globulin).\n\n## How the exam asks about it\nDistinguish threatened (closed cervix) from inevitable (open cervix), and incomplete from complete.\n\n## Check against your textbook\nRh immune globulin and the legal wording are not in the handout; add from your references.\n\n## Related topics\n[[Ectopic Pregnancy]], [[Hydatidiform Mole]], [[Premature Cervical Dilation and Cerclage]]",
+  "tags": [
+   "first trimester",
+   "bleeding",
+   "abortion"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Abortion/Miscarriage",
+   "Types of Spontaneous Abortion",
+   "Induced abortion"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-ectopic",
+  "area": "NP2",
+  "title": "Ectopic Pregnancy",
+  "body": "## What it is\nImplantation outside the uterine cavity. Most often in the **ampulla** of the fallopian tube ([[Ovaries and Fallopian Tubes]]); interstitial is the most dangerous. Most common predisposing factor: **pelvic inflammatory disease**, plus previous tubal surgery, IUD use and previous ectopic pregnancy.\n\n## Findings\n- Classic triad: amenorrhea, vaginal spotting/bleeding, **unilateral lower abdominal pain**.\n- Sharp, knife-like pain; pain on movement of the cervix.\n- With rupture: rigid abdomen, falling blood pressure, shock signs, shoulder pain; bleeding inside the abdomen (hemoperitoneum), bluish navel (Cullen's sign).\n\n## Diagnosis\nUltrasound, hCG levels, and **culdocentesis** (fluid from the rectouterine pouch via the vagina).\n\n## Treatment\n- **Methotrexate** IM for an unruptured ectopic under about 3 cm: stops fast-growing cells so the tissue is absorbed.\n- **Salpingotomy** for an unruptured one, preserving the tube.\n- **Salpingectomy** if ruptured.\n\n## Priority nursing actions\nA ruptured ectopic is a **life-threatening bleed**: ABCs, large IV access, treat shock ([[Management of Shock]]), prepare for surgery, keep NPO. Support grief afterwards.\n\n## Check against your textbook\nRh immune globulin for Rh-negative clients and exact methotrexate criteria are not in the handout.\n\n## Related topics\n[[Spontaneous and Induced Abortion]], [[Ovaries and Fallopian Tubes]]",
+  "tags": [
+   "first trimester",
+   "emergency",
+   "ectopic"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Ectopic Pregnancy",
+   "Methotrexate",
+   "Salpingotomy",
+   "Salpingectomy",
+   "Culdocentesis"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-hydatidiform-mole",
+  "area": "NP2",
+  "title": "Hydatidiform Mole",
+  "body": "## What it is\nAbnormal growth of the trophoblast: grape-like fluid-filled vesicles instead of a normal placenta (molar pregnancy / gestational trophoblastic disease). Cause unknown; risk factors in the handout: low protein intake, low socio-economic status, age under 18 or over 35.\n\n## Findings\n- Severe vomiting (very high hCG).\n- Pinkish/brownish vaginal discharge or bleeding.\n- **No fetal heart tones**; uterus larger than expected (rapid enlargement).\n- Early hypertension in pregnancy.\n- Ultrasound: \"snowstorm\" appearance ([[Ultrasound in Pregnancy]]).\n\n## Management\n- **Dilatation and curettage (suction)** to remove the tissue.\n- **Monitor beta-hCG** every 2 weeks until normal, then every 2-4 weeks for a year (cancer risk: choriocarcinoma; spread to lungs and brain). The handout lists normal hCG as 100,000-400,000 and mole as 1-2 million units.\n- **No pregnancy for one year**, so a rise in hCG can be recognized as recurrence.\n\n## Priority nursing actions\nAssess bleeding and shock, prepare for curettage, support grief, teach reliable contraception ([[Reproductive Health and Family Planning]]) and the need for follow-up.\n\n## Check against your textbook\nHandout hCG values may be mis-quoted and units unclear; verify.\n\n## Related topics\n[[Spontaneous and Induced Abortion]], [[Pregnancy-Induced Hypertension: Classification and Pre-eclampsia]]",
+  "tags": [
+   "second trimester",
+   "mole",
+   "hcg"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Hydatidiform Mole",
+   "Gestational Trophoblastic Disease",
+   "Monitor HCG Titer"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-cervical-incompetence",
+  "area": "NP2",
+  "title": "Premature Cervical Dilation and Cerclage",
+  "body": "## What it is\nFormerly \"incompetent cervix\": the cervix opens painlessly too early and cannot hold the pregnancy to term. The most common cause of **habitual abortion** ([[Spontaneous and Induced Abortion]]). First sign: pink-stained discharge or pelvic pressure.\n\n## Causes\nDefective cervical collagen, repeated cervical trauma, repeated dilatation and curettage.\n\n## Treatment (cerclage)\n- **McDonald:** purse-string suture around the cervix, placed before about 12-14 weeks (handout: under 12 weeks). Removed at about 37-38 weeks, then vaginal birth is possible.\n- **Shirodkar:** tape placed under the cervical lining; typically left in place and the baby delivered by cesarean.\n\n## Nursing responsibilities\nBed rest, **modified Trendelenburg** (hips higher than head to take pressure off the cervix), no intercourse, and tocolytics (terbutaline, ritodrine) if contractions start ([[Premature Labor and Tocolysis]]).\n\n## How the exam asks about it\nWhich procedure is removed at term (McDonald) and the typical presentation (painless dilation).\n\n## Check against your textbook\nHandout says Shirodkar is placed transabdominally; the usual description is transvaginal (abdominal cerclage is a separate technique). Also, ritodrine is rarely used now.\n\n## Related topics\n[[Spontaneous and Induced Abortion]], [[Premature Labor and Tocolysis]]",
+  "tags": [
+   "second trimester",
+   "cerclage",
+   "habitual abortion"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Premature Cervical Dilation",
+   "McDonald's Procedure",
+   "Shirodkar",
+   "Nursing Responsibilities"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-placenta-previa",
+  "area": "NP2",
+  "title": "Placenta Previa",
+  "body": "## What it is\nThe placenta implants low and covers or nears the cervical opening. Leading cause of **painless bright red bleeding** in the third trimester.\n\n## Risk factors\nMultiparity, previous cesarean scar or uterine surgery, uterine tumors, uterine anomalies (e.g. bicornuate).\n\n## Types\nLow-lying, marginal (reaches the edge of the os), partial (covers part), total (covers all).\n\n## Findings\nSudden, painless, bright red bleeding; **soft, non-tender uterus**.\n\n## Priority nursing actions (safety of mother and fetus)\n- **Never do a vaginal, pelvic or rectal exam** (could trigger massive hemorrhage). Ultrasound confirms.\n- Bed rest, side-lying position.\n- Baseline vital signs, then check often (every 5-15 minutes when bleeding).\n- IV access; hourly urine output.\n- External monitoring of fetal heart rate and contractions; oxygen available.\n- Ask about timing, amount (cups/tablespoons) and color of bleeding.\n- If bleeding stops, bed rest at home with follow-up; a total previa needs cesarean.\n\n## How the exam asks about it\nCompare with [[Abruptio Placentae]]: previa = painless, soft uterus; abruptio = painful, rigid uterus.\n\n## Related topics\n[[Abruptio Placentae]], [[Ultrasound in Pregnancy]], [[Multiple Pregnancy and Twin Types]]",
+  "tags": [
+   "third trimester",
+   "bleeding",
+   "placenta"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Placenta Previa",
+   "Types"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-abruptio-placentae",
+  "area": "NP2",
+  "title": "Abruptio Placentae",
+  "body": "## What it is\nPremature separation of a normally placed placenta before the baby is born. Cause unknown.\n\n## Risk factors\nCocaine use, smoking, high parity, older age, short cord, chronic hypertension and pregnancy-induced hypertension ([[Pregnancy-Induced Hypertension: Classification and Pre-eclampsia]]).\n\n## Findings\n- **Sharp, stabbing uterine pain**, board-like **rigid** uterus.\n- Bleeding may be heavy, scant or hidden (concealed).\n- Fetal heart tones weak or absent.\n- Signs of shock out of proportion to visible blood.\n\n## Types\n- **Peripheral:** blood escapes through the vagina; safer.\n- **Central (concealed):** blood stays in the uterus; more dangerous. **Couvelaire uterus** (bluish/copper uterus, bleeding into the muscle), atony, and often hysterectomy.\n\n## Priority nursing actions\nTreat as an emergency: fluids and blood, oxygen, external fetal monitoring, vital signs every 5-15 minutes, **lateral position**, **no abdominal, vaginal or pelvic exams**, urgent delivery if fetal distress.\n\n## How the exam asks about it\nPainful bleeding with a rigid uterus = abruptio; compare with [[Placenta Previa]]. Also linked to DIC.\n\n## Check against your textbook\nHandout says separation occurs in the second stage; it can occur any time after 20 weeks. Verify.\n\n## Related topics\n[[Placenta Previa]], [[Postpartum Hemorrhage]], [[Pregnancy-Induced Hypertension: Classification and Pre-eclampsia]]",
+  "tags": [
+   "third trimester",
+   "bleeding",
+   "placenta"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Abruptio Placenta",
+   "Peripheral Separation",
+   "Central Separation",
+   "Couvelaire Uterus"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-prom-cord-prolapse",
+  "area": "NP2",
+  "title": "Preterm Rupture of Membranes and Cord Prolapse",
+  "body": "## What it is\nMembranes rupture before labor and before 37 weeks (preterm PROM). Causes: unknown, or infection of the membranes (chorioamnionitis).\n\n## Complications\n- **Infection:** risk rises sharply after about 24 hours of rupture; leads to sepsis.\n- **Cord prolapse:** cord slips below the presenting part and is compressed: an emergency.\n\n## Management\n- Bed rest, monitor temperature and fetal heart.\n- Corticosteroids (betamethasone) to speed fetal lung maturity.\n- Delivery if infection, fetal distress or labor.\n\n## Cord prolapse: priority actions\n1. Call for help; **do not push the cord back**.\n2. Relieve pressure: gloved hand lifts the presenting part off the cord, knee-chest or Trendelenburg position.\n3. Cover the cord with moist sterile saline gauze.\n4. Give oxygen, monitor fetal heart, prepare for urgent cesarean.\nWhy: airway and circulation of the fetus come first.\n\n## How the exam asks about it\nFirst action for a visible cord and which position helps. Linked to [[Breech Presentation Types]] and [[Fetal Heart Rate Patterns and Decelerations]].\n\n## Related topics\n[[Premature Labor and Tocolysis]], [[Breech Presentation Types]], [[First Stage of Labor and Nitrazine Test]]",
+  "tags": [
+   "third trimester",
+   "prom",
+   "cord prolapse"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Preterm Rupture of Membranes (PROM)",
+   "Cord Prolapse"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-premature-labor",
+  "area": "NP2",
+  "title": "Premature Labor and Tocolysis",
+  "body": "## What it is\nLabor before the end of 37 weeks; accounts for most neonatal deaths and is largely preventable.\n\n## Causes and risks\nDehydration, urinary tract infection, periodontal disease, chorioamnionitis; adolescents, inadequate prenatal care, stressful work.\n\n## Management\n- Bed rest (less pressure on the cervix).\n- IV hydration (may halt contractions).\n- **Tocolytics** to slow labor (e.g. terbutaline, magnesium sulfate); corticosteroids to mature the fetal lungs ([[Preterm Rupture of Membranes and Cord Prolapse]]).\n- No intercourse.\n\n## Priority nursing actions\nAssess contractions, fluid loss and fetal heart; position on the left side; teach warning signs (regular contractions, back pain, pelvic pressure, fluid leak). Watch tocolytic effects (terbutaline raises maternal and fetal heart rate; magnesium: see [[Magnesium Sulfate and Eclampsia Care]]).\n\n## How the exam asks about it\nWhich interventions delay preterm labor and what teaching to give.\n\n## Related topics\n[[Premature Cervical Dilation and Cerclage]], [[Preterm Rupture of Membranes and Cord Prolapse]]",
+  "tags": [
+   "third trimester",
+   "preterm",
+   "tocolytics"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Premature Labor"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-post-term",
+  "area": "NP2",
+  "title": "Post-term Pregnancy",
+  "body": "## What it is\nA pregnancy that exceeds 42 weeks. Also called postmature or post-date. It occurs in about 3-12% of pregnancies.\n\n## Must-know facts\n- Related causes in the module: high-dose **salicylates**, which block prostaglandin synthesis (prostaglandins help start labor), and **myometrial quiescence**, a uterus that fails to respond to normal labor stimuli.\n- Complications: **meconium aspiration** and **fetal macrosomia**.\n- After 42 weeks the placenta may work less well, so the fetus is at risk of low oxygen (general knowledge).\n\n## Assessment\nConfirm dates (last menstrual period, early ultrasound), fundal height, fetal movement counts, amniotic fluid amount, non-stress test, biophysical profile.\n\n## Priority nursing actions\n1. Monitor the fetal heart rate closely, in labor continuously. Why: placental reserve may be low.\n2. Prepare for cervical ripening with prostaglandin gel or misoprostol.\n3. Oxytocin administration to start labor as ordered (see [[Obstetric Drugs and Procedures: Quick Review]]).\n4. Watch for meconium-stained fluid and be ready to suction the newborn's airway.\n\n## Client teaching\nDaily fetal movement counts, keep antenatal appointments, report decreased movement or leaking fluid, avoid taking aspirin in late pregnancy.\n\n## How to reason about it\nCause -> finding -> action: late pregnancy + risk of low oxygen -> watch heart rate and induce. The trap: forgetting that the baby may be large (macrosomia) or have passed meconium.\n\n## How the exam asks about it\nDefine post-term (over 42 weeks) and name meconium aspiration and macrosomia as the main fetal complications.\n\n## Related topics\n[[Drugs to Avoid in Pregnancy: NSAIDs and Aspirin]], [[Biophysical Profile and Non-Stress Test]], [[Precipitate Labor]]\n\n## Check against your textbook\nWhether low-dose aspirin delays labor is not in the handout; the declining placental function point is added general knowledge.",
+  "tags": [
+   "third trimester",
+   "post-term",
+   "induction"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Post Term Pregnancy"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-precipitate-labor",
+  "area": "NP2",
+  "title": "Precipitate Labor",
+  "body": "## What it is\nLabor so fast the woman gives birth after only a few strong, rapid contractions. It lasts less than 3 hours.\n\n## Must-know facts\n- **Precipitate dilatation:** cervical dilation of 5 cm or more per hour in a primipara, or 10 cm or more per hour in a multipara.\n- It happens when uterine contractions are extremely strong.\n\n## Dangers (from the module)\n- **Birth outside an institution:** exposes the baby to sepsis.\n- **Maternal lacerations:** the head moves through quickly and can tear tissue, with hemorrhage.\n- **Intracranial hemorrhage** in the baby from the head striking bony prominences of the mother.\n\n## Priority nursing actions\n1. Stay with the woman and do not leave her alone; call for help. Why: safety and support.\n2. If birth is imminent, prepare for delivery where she is; support the head, control the descent and use controlled breathing (panting) so the head does not come too fast.\n3. Keep the newborn warm and dry; assess airway and breathing; early skin-to-skin.\n4. After birth watch for postpartum hemorrhage and lacerations; massage the fundus ([[Postpartum Hemorrhage]]).\n5. Do not delay birth by holding her legs together or pushing the head back.\n\n## Client teaching\nWomen with a history of fast labor should go to the facility at the first signs of labor.\n\n## How to reason about it\nCause -> finding -> action: very strong contractions -> rapid descent -> need to control birth and watch for bleeding and head injury. The trap: leaving the woman to find help.\n\n## How the exam asks about it\nDefine the duration and dilation rates; first action is to stay with her.\n\n## Related topics\n[[Post-term Pregnancy]], [[Third Stage of Labor: Placental Expulsion and Uterotonic Drugs]], [[First Stage of Labor and Nitrazine Test]]\n\n## Check against your textbook\nHypercontractile uterus causes and tocolytic use are not in the handout.",
+  "tags": [
+   "labor",
+   "precipitate",
+   "emergency"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Precipitate Labor",
+   "Precipitate dilatation",
+   "Dangers of Precipitate Labor"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-breech",
+  "area": "NP2",
+  "title": "Breech Presentation Types",
+  "body": "## What it is\nButtocks or feet present first at the cervix; about 3% of births.\n\n## Types\n- **Complete:** thighs and legs flexed, baby \"sitting\"; buttocks and feet both present.\n- **Frank:** hips flexed, knees extended; buttocks alone present.\n- **Footling:** one (single) or both (double) feet present; neither thigh nor knee flexed.\n\n## Problems\nCord prolapse ([[Preterm Rupture of Membranes and Cord Prolapse]]), head entrapment, shoulder problems. **Meconium staining is expected** in breech (squeezing of the bowel) and is not itself a sign of distress.\n\n## Nursing points\nLeopold's first maneuver finds a soft, less defined mass in the fundus ([[Prenatal Visits, Blood Pressure and Leopold's Maneuvers]]). Fetal heart is best heard higher on the abdomen. Prepare for possible cesarean and watch for cord prolapse after membranes rupture.\n\n## How the exam asks about it\nIdentify the breech type, and the meconium fact.\n\n## Related topics\n[[Fetal Lie, Attitude, Presentation, Position and Station]], [[Prenatal Visits, Blood Pressure and Leopold's Maneuvers]]",
+  "tags": [
+   "labor",
+   "breech",
+   "presentation"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Breech Delivery",
+   "Complete",
+   "Frank",
+   "Footling"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-multiple-pregnancy",
+  "area": "NP2",
+  "title": "Multiple Pregnancy and Twin Types",
+  "body": "## What it is\nMore than one fetus; 2-3% of births.\n\n## Twin types\n- **Monozygotic (identical):** one ovum and one sperm that splits; always the same sex. The handout says one placenta, one chorion and two amnions.\n- **Dizygotic (fraternal):** two ova and two sperm; two placentas, chorions and amnions; same or different sex.\n\n## Findings\nUterus larger than dates, high AFP ([[Chorionic Villi Sampling and Alpha-Fetoprotein]]), movement felt in several places, multiple sacs on ultrasound.\n\n## Complications\nHypertension of pregnancy, hydramnios, placenta previa ([[Placenta Previa]]), preterm labor, anemia, postpartum hemorrhage, low birth weight, congenital anomalies.\n\n## Nursing points\nCloser prenatal follow-up, nutrition and iron, rest, early recognition of preterm labor ([[Premature Labor and Tocolysis]]).\n\n## Check against your textbook\nMonozygotic twins can have different membrane arrangements depending on when the split occurs.\n\n## Related topics\n[[Fundic Height Landmarks in Pregnancy]], [[Pregnancy-Induced Hypertension: Classification and Pre-eclampsia]]",
+  "tags": [
+   "pregnancy",
+   "twins",
+   "multiple"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Multiple Pregnancies",
+   "Monozygotic",
+   "Dizygotic"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-pih-preeclampsia",
+  "area": "NP2",
+  "title": "Pregnancy-Induced Hypertension: Classification and Pre-eclampsia",
+  "body": "## What it is\nVasospasm in pregnancy affecting small and large arteries. Cause unknown. Classic signs: **hypertension after 20 weeks, proteinuria, edema** (plus vision changes in severe forms).\n\n## Classification\n- **Gestational hypertension:** BP 140/90 or higher, no proteinuria or edema; returns to normal after birth.\n- **Mild pre-eclampsia:** BP 140/90 (or systolic up 30 / diastolic up 15 over baseline), proteinuria 1+ to 2+, weight gain over 2 lb a week (2nd trimester). The **diastolic** reading best reflects arterial spasm.\n- **Severe pre-eclampsia:** BP about 160/110, proteinuria 3+ to 4+ (over 5 g/24 h), extensive edema, creatinine over 1.2 mg/dL, epigastric pain, liver problems, low platelets.\n- **Eclampsia:** seizures or coma on top of pre-eclampsia ([[Magnesium Sulfate and Eclampsia Care]]).\n\n## Management of mild disease\nRest (conserves oxygen, reduces vasospasm), **normal salt intake (not restricted)**, weekly checks. The handout says salt restriction can activate the renin-angiotensin system.\n\n## Priority nursing actions\nMonitor BP, reflexes, urine, edema, headache and visual changes; prevent seizures. Severe: magnesium sulfate, quiet environment.\n\n## How the exam asks about it\nMatch findings to severity; recognize epigastric pain and headache as severe warning signs.\n\n## Related topics\n[[Magnesium Sulfate and Eclampsia Care]], [[HELLP Syndrome]], [[Abruptio Placentae]]",
+  "tags": [
+   "hypertension",
+   "preeclampsia",
+   "pregnancy"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Pregnancy Induced Hypertension (P.I.H.)",
+   "Gestational Hypertension",
+   "Mild Pre-eclampsia",
+   "Severe Pre-Eclampsia"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-magnesium-eclampsia",
+  "area": "NP2",
+  "title": "Magnesium Sulfate and Eclampsia Care",
+  "body": "## Magnesium sulfate\nThe drug to **prevent and treat seizures** in severe pre-eclampsia and eclampsia.\n\nBefore each dose, check (toxicity signs):\n- **Deep tendon reflexes** (absent = toxicity).\n- **Respiratory rate** (under about 12/min = respiratory depression).\n- **Urine output** (at least about 30 mL/hour; magnesium is cleared by the kidneys).\n- Blood pressure (may drop).\n\n**Antidote: calcium gluconate** at the bedside.\n\n## Eclampsia\nMost severe PIH: generalized seizure or coma plus pre-eclampsia signs. The handout lists additional drugs such as furosemide, hydralazine (for hypertension) and sedatives.\n\n## Seizure precautions and care\n- Dim, quiet room; limit visitors.\n- Side rails up; suction at bedside.\n- During a seizure: **nothing in the mouth**, turn to side to drain saliva, loosen clothing, protect from injury, note duration. After: airway, oxygen, then check fetal heart.\n- Airway comes first, then safety, then medication (ABCs).\n\n## Check against your textbook\nHandout items such as digoxin with potassium and barbiturates for eclampsia are not standard; verify. Monitor magnesium blood level per protocol.\n\n## Related topics\n[[Pregnancy-Induced Hypertension: Classification and Pre-eclampsia]], [[HELLP Syndrome]], [[Premature Labor and Tocolysis]]",
+  "tags": [
+   "eclampsia",
+   "magnesium sulfate",
+   "seizure"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Severe Pre-Eclampsia Management",
+   "Magnesium Sulfate",
+   "Eclampsia",
+   "Other Nursing Responsibilities"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-hellp",
+  "area": "NP2",
+  "title": "HELLP Syndrome",
+  "body": "## What it is\nA severe form of pregnancy-induced hypertension: **H**emolysis (red cells break down), **E**levated **L**iver enzymes, **L**ow **P**latelets.\n\n## Must-know facts\n- Occurs in about 4-12% of women with PIH.\n- Handout: maternal death rate 24% and infant death rate 35% (older figures, see check section).\n- Cause is unknown; antiphospholipid antibodies are linked.\n- Findings: proteinuria, edema, high blood pressure, nausea, epigastric pain, general malaise, **right upper quadrant tenderness** from liver inflammation.\n\n## Assessment\nBlood pressure, urine protein, epigastric or RUQ pain, nausea, bruising or bleeding, lab results: platelet count, liver enzymes, signs of hemolysis. Pain in the upper right or epigastrium in a hypertensive woman is a red flag.\n\n## Priority nursing actions\n1. Report epigastric or RUQ pain and abnormal labs at once.\n2. Give magnesium sulfate to prevent seizures as ordered, with the usual checks ([[Magnesium Sulfate and Eclampsia Care]]).\n3. Transfuse fresh-frozen plasma or platelets if ordered.\n4. Treat low blood sugar with intravenous glucose.\n5. Prepare for early delivery; epidural may not be possible because of low platelets (bleeding risk at the site).\n6. Safety: bleeding precautions, seizure precautions, side rails up, dim room.\n\n## Complications and red flags\nLiver rupture, bleeding, seizures, stroke, abruptio placentae, kidney failure, death.\n\n## Client teaching\nReport upper stomach pain, nausea, vomiting, bruising and headache immediately.\n\n## How to reason about it\nPre-eclampsia + liver pain + low platelets = HELLP. The trap: treating epigastric pain as heartburn.\n\n## How the exam asks about it\nSpell out the letters; know that epidural may be unsafe.\n\n## Related topics\n[[Pregnancy-Induced Hypertension: Classification and Pre-eclampsia]], [[Magnesium Sulfate and Eclampsia Care]], [[Abruptio Placentae]]\n\n## Check against your textbook\nThe handout heading \"Laboratory studies\" lists treatments instead of labs. Mortality figures look dated; confirm. Antiphospholipid link needs textbook check.",
+  "tags": [
+   "hellp",
+   "hypertension",
+   "pregnancy"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "HELLP SYNDROME",
+   "Laboratory studies"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-gestational-diabetes",
+  "area": "NP2",
+  "title": "Gestational Diabetes Mellitus",
+  "body": "## What it is\nAbnormal glucose handling that first appears in pregnancy; placental hormones such as human placental lactogen make the body resist insulin.\n\n## Risk factors\nObesity, age over 25, family history, previous large baby (10 lb or more), unexplained fetal loss, previous anomalies.\n\n## Screening and diagnosis\n- **50-g oral glucose** at 24-28 weeks; blood drawn after 1 hour. Over 140 mg/dL leads to a 100-g 3-hour test.\n- Diagnosis if two of four values are abnormal or the fasting value is above 95 mg/dL.\n\n## Management\n- Diet about 1,800-2,400 kcal/day; complex carbohydrates, avoid simple sugars and saturated fat.\n- Exercise suitable for gestational age.\n- **Insulin** when diet fails. The handout says oral hypoglycemics are teratogenic.\n\n## Priority nursing actions\nTeach home glucose checks, signs of hypo/hyperglycemia, and follow-up testing after birth (diabetes risk later). Newborn: watch for low blood sugar ([[Maternal and Child Health]]).\n\n## Check against your textbook\nSome guidelines now allow certain oral agents; cutoffs differ between guidelines.\n\n## Related topics\n[[Pregnancy-Induced Hypertension: Classification and Pre-eclampsia]], [[Multiple Pregnancy and Twin Types]]",
+  "tags": [
+   "diabetes",
+   "pregnancy",
+   "screening"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Gestational Diabetes Mellitus",
+   "50-g OGTT",
+   "Insulin"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-heart-disease-pregnancy",
+  "area": "NP2",
+  "title": "Heart Disease in Pregnancy",
+  "body": "## Functional classes\n- **Class I:** uncompromised; ordinary activity causes no discomfort.\n- **Class II:** slightly compromised; ordinary activity gives fatigue, palpitations, dyspnea or angina.\n- **Class III:** markedly compromised; symptoms with less than ordinary activity.\n- **Class IV:** severely compromised; symptoms at rest or any activity.\n\nClasses I and II can usually go through pregnancy; III and IV are poor candidates (counseled against pregnancy).\n\n## Why pregnancy is risky\nCardiac output rises 25-50% ([[Body Changes in Pregnancy: Heart, Blood and Lungs]]). The most dangerous time is just after delivery, when retained fluid returns to circulation ([[Fourth Stage of Labor and Postpartum Checks]]).\n\n## Priority nursing actions\nRest, left side lying, limit exertion, monitor for heart failure signs (dyspnea, cough, edema, rapid pulse), avoid prolonged pushing, supportive anesthesia.\n\n## How the exam asks about it\nWhich class allows pregnancy, and the highest-risk period (fourth stage).\n\n## Related topics\n[[Body Changes in Pregnancy: Heart, Blood and Lungs]], [[Fourth Stage of Labor and Postpartum Checks]]",
+  "tags": [
+   "cardiac",
+   "pregnancy",
+   "classification"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Heart Disease (Gravidocardia)",
+   "Four Functional Classifications"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-fhr-patterns",
+  "area": "NP2",
+  "title": "Fetal Heart Rate Patterns and Decelerations",
+  "body": "## Variability\nFluctuation of the fetal heart rate is one of the most reliable signs of fetal well-being.\n\n## Patterns\n- **Acceleration:** temporary rise with movement, a position change or analgesic; reassuring.\n- **Early deceleration:** starts and ends with the contraction; **head compression**; benign late in labor. Early in labor it may indicate cephalopelvic disproportion ([[Pelvis Types, Cephalopelvic Disproportion and Fetal Diameters]]).\n- **Late deceleration:** begins 30-40 seconds after contraction onset and recovers late; **uteroplacental insufficiency**; ominous.\n- **Variable deceleration:** unpredictable shape and timing; **cord compression**.\n\n## Priority actions\n- **Late:** slow/stop oxytocin, turn to left side, give IV fluid and oxygen, prepare for rapid delivery if persistent ([[Contraction Stress Test and Late Deceleration Response]]).\n- **Variable:** change position (side-lying or knee-chest), consider **amnioinfusion** (fluid into the uterus to cushion the cord).\n\n## Memory aid\n\"VEAL CHOP\": Variable = Cord compression, Early = Head compression, Acceleration = OK, Late = Placental insufficiency (common textbook mnemonic).\n\n## How the exam asks about it\nMatch pattern to cause, and the first nursing action.\n\n## Related topics\n[[Contraction Stress Test and Late Deceleration Response]], [[Biophysical Profile and Non-Stress Test]], [[Preterm Rupture of Membranes and Cord Prolapse]]",
+  "tags": [
+   "fetal heart rate",
+   "decelerations",
+   "monitoring"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Variability",
+   "Accelerations",
+   "Early Deceleration",
+   "Late Deceleration",
+   "Variable Deceleration"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-puerperium-rubin",
+  "area": "NP2",
+  "title": "Puerperium: Involution and Rubin's Phases",
+  "body": "## Puerperium\nThe 6 weeks after birth. Main priority: **involution**, the return of reproductive organs to the non-pregnant state; the fundus normally drops about one fingerbreadth (1 cm) a day. Other tasks: lactation, return of menstrual cycle, and parenting role.\n\n## Rubin's phases\n- **Taking-in (first 1-2 days):** the mother is passive and dependent; wants to retell her labor; hungry and tired. Reluctance for rooming-in can be normal.\n- **Taking-hold (about days 2-7):** she starts to act independently, prefers to make her own decisions and learn newborn care; the best time for teaching. The handout says postpartum psychosis may show during this period; blues and depression more broadly belong to later weeks.\n- **Letting-go:** she accepts the real baby and her new role.\n\n## Nursing actions\nMatch care to phase: take-in = meet needs and listen; take-hold = teach; let-go = support. Assess for postpartum depression and bonding.\n\n## Check against your textbook\nPhase timing is not in the handout; the days above come from common textbooks. Postpartum psychosis timing is looser than stated.\n\n## Related topics\n[[Lochia and Return of Menstruation]], [[Fourth Stage of Labor and Postpartum Checks]], [[Maternal Psychological Tasks by Trimester]]",
+  "tags": [
+   "postpartum",
+   "involution",
+   "rubin"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Puerperium",
+   "Involution",
+   "Rubin's Phases of Puerperium"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-lochia",
+  "area": "NP2",
+  "title": "Lochia and Return of Menstruation",
+  "body": "## What it is\nLochia is the discharge from the uterus after birth. It is made of blood, decidual tissue and mucus and comes out as the lining heals during the puerperium.\n\n## Must-know facts\n- **Rubra:** days 1-3; bright red, small bits of decidua and mucus.\n- **Serosa:** days 3-10; pink to brown; blood, mucus and white cells.\n- **Alba:** day 10 up to about the 3rd-6th week; white to yellowish-white.\n- After six weeks there should be no lochia.\n- Women who have a cesarean birth also have lochia.\n- The order of stages never reverses.\n\n## Assessment\nNote color, amount, odor and clots with each fundal check (the \"L\" of BUBBLE-HE in [[Fourth Stage of Labor and Postpartum Checks]]). Normal odor is musty or fleshy.\n\n## Priority nursing actions\n- Heavy bright-red flow with a soft uterus: massage the fundus, empty the bladder, call for help ([[Postpartum Hemorrhage]]). Why: circulation first.\n- Foul smell or yellow cloudy discharge: infection; check temperature and report ([[Postpartum Infection and Endometritis]]).\n- Return to red after it had turned pink or white: suspect retained placental fragments; report.\n\n## Return of menstruation\n- Not breastfeeding: about 6-10 weeks.\n- Breastfeeding: about 6 months (see [[Lactational Amenorrhea and Return of Fertility After Birth]]).\n- Intercourse is generally allowed after 3-4 weeks.\n\n## How the exam asks about it\nMatch stage to day and color; spot the abnormal change (foul, yellow, or reversed order).\n\n## Memory aid\nRubra = red, Serosa = pink/brown, Alba = white. \"Red, rose, white\" in order.\n\n## Related topics\n[[Puerperium: Involution and Rubin's Phases]], [[Postpartum Hemorrhage]], [[Postpartum Infection and Endometritis]]\n\n## Check against your textbook\nWhether a few clots are normal and exact amounts are not in the handout.",
+  "tags": [
+   "postpartum",
+   "lochia",
+   "lactation"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Lochia",
+   "Lactation Amenorrhea"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-postpartum-hemorrhage",
+  "area": "NP2",
+  "title": "Postpartum Hemorrhage",
+  "body": "## What it is\nExcessive bleeding after birth. The module divides it by time.\n\n## Must-know facts\n- **Early (within the first 24 hours):** most common cause **uterine atony**; second most common **laceration**; also inherited clotting problems such as thrombocytopenia and leucopenia (as the module lists them).\n- **Late (after the first 24 hours):** retained placental fragments are the primary cause; hematoma is the secondary cause.\n- A soft, boggy uterus is atony; a firm uterus with continuous bright bleeding suggests a laceration.\n- Risk: after abruptio (Couvelaire uterus), multiple pregnancy, overstretched uterus (added from general knowledge), cesarean births.\n\n## Assessment\nFundus firmness and height, lochia amount (pad count), vital signs, signs of shock (pale, cool, rapid pulse, falling blood pressure), bladder fullness.\n\n## Priority nursing actions\n1. **Massage the fundus** until firm, supporting the lower uterus. Why: the contracted muscle closes the bleeding vessels.\n2. Empty the bladder; a full bladder pushes the uterus up and aside.\n3. Call for help; start or open the IV; give oxygen; monitor vital signs and urine.\n4. Give uterotonics as ordered (oxytocin; methylergonovine after the placenta).\n5. Inspect for lacerations and retained tissue; prepare for the physician's examination.\n6. Treat shock: lie flat, keep warm ([[Management of Shock]]).\n\n## Complications and red flags\nHypovolemic shock, disseminated clotting problems, anemia, infection, hysterectomy.\n\n## Client teaching\nReport soaking a pad in an hour, large clots, dizziness or fainting; fundal massage technique; keep the bladder empty; rest.\n\n## How to reason about it\nCause -> finding -> action: soft uterus = massage; firm uterus + bleeding = look for tear; late bleeding = retained fragments. The trap: giving ergot before the placenta is out or waiting to massage.\n\n## How the exam asks about it\nA boggy uterus with heavy bleeding: massage first.\n\n## Related topics\n[[Third Stage of Labor: Placental Expulsion and Uterotonic Drugs]], [[Fourth Stage of Labor and Postpartum Checks]], [[Lochia and Return of Menstruation]], [[BEmOC and CEmOC]]\n\n## Check against your textbook\nDefinitions by blood volume and the risk-factor list are not in the handout. Hematoma timing may vary.",
+  "tags": [
+   "postpartum",
+   "hemorrhage",
+   "emergency"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Maternal Hemorrhage",
+   "Early Postpartum Hemorrhage",
+   "Late Postpartum Hemorrhage"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-postpartum-infection",
+  "area": "NP2",
+  "title": "Postpartum Infection and Endometritis",
+  "body": "## What it is\nInfection after birth is usually endogenous: the woman's own normal bacteria travel up into the uterus or infect the perineal wound. It is a major reason for late postpartum problems.\n\n## Must-know facts\n- **Endometritis:** infection of the uterine lining. Fever above 38 C, foul-smelling vaginal discharge, uterine or abdominal tenderness.\n- **Perineal / episiotomy infection:** at the repair site; redness, swelling, pain, drainage.\n- Endometritis is the prelude to thrombophlebitis ([[Postpartum Thrombophlebitis]]).\n- Risks include prolonged rupture of membranes (over 24 hours), many vaginal examinations, retained placental fragments, cesarean birth and poor hygiene (added from general knowledge).\n\n## Assessment\nTemperature, lochia odor and color, fundal tenderness and firmness, wound appearance, pulse, general malaise.\n\n## Priority nursing actions\n1. Report fever and foul lochia promptly; collect cultures as ordered.\n2. Position in **semi-Fowler's** so discharge drains downward and infection does not spread to the pelvis.\n3. Give antibiotics on time.\n4. Perineal wound: surgical care may include removing sutures and draining pus.\n5. Maintain fluids and rest; support breastfeeding.\nWhy: finding and treating infection early prevents sepsis.\n\n## Client teaching\nWipe front to back, change pads often, wash hands, wash the perineum with water after toileting, and report fever, foul discharge or pain.\n\n## How to reason about it\nFever + foul lochia + tender uterus = endometritis; the trap is calling it normal lochia or giving a laxative or pain relief only. The position of choice is semi-Fowler's.\n\n## How the exam asks about it\nName the condition from the triad and the position that promotes drainage.\n\n## Related topics\n[[Lochia and Return of Menstruation]], [[Postpartum Thrombophlebitis]], [[Fourth Stage of Labor and Postpartum Checks]], [[Preterm Rupture of Membranes and Cord Prolapse]]\n\n## Check against your textbook\nRisk-factor list and teaching steps are general knowledge; antibiotic choices are not in the handout.",
+  "tags": [
+   "postpartum",
+   "infection",
+   "endometritis"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Infection",
+   "Perineal Infection",
+   "Endometritis"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-thrombophlebitis",
+  "area": "NP2",
+  "title": "Postpartum Thrombophlebitis",
+  "body": "## What it is\nInflammation of a vein with clot formation, mostly in the leg veins, after delivery. The module treats it as a following step after endometritis.\n\n## Must-know facts\n- Most common sites: vessels of the lower extremities.\n- **Homans' sign:** woman lies supine with legs extended; the nurse dorsiflexes the foot. Pain in the calf (gastrocnemius) from stretching the vessels is positive.\n- Pregnancy and early puerperium raise clotting risk.\n\n## Assessment\nCalf pain, warmth, redness, swelling, tender cord-like vein; compare both legs; ask about chest pain or breathlessness.\n\n## Priority nursing actions\n1. Bed rest with the leg elevated; no massage or rubbing of the calf. Why: a clot could break off and travel to the lungs.\n2. Give prescribed **heparin** and watch for bleeding; check clotting results.\n3. Antibiotics if infection is present.\n4. Apply warm packs as ordered; encourage early ambulation after treatment starts.\n5. Watch for pulmonary embolism: sudden chest pain, dyspnea, cough, anxiety. Airway and breathing first, then call for help.\n\n## Complications and red flags\nPulmonary embolism, extending clots, bleeding on heparin.\n\n## Client teaching\nWalk early after birth, avoid long sitting or crossing legs, wear support stockings if advised, report calf pain or swelling.\n\n## How to reason about it\nCause -> finding -> action: infection and slow flow -> clot -> avoid disturbing the clot and anticoagulate. The trap: massaging the painful calf.\n\n## How the exam asks about it\nPositive Homans' sign leads to bed rest and heparin; endometritis as the precursor.\n\n## Related topics\n[[Postpartum Infection and Endometritis]], [[Fourth Stage of Labor and Postpartum Checks]], [[Anticoagulants: Heparin and Warfarin]]\n\n## Check against your textbook\nHomans' sign is no longer reliable; confirm with current practice. Antidote (protamine), aPTT monitoring and warm-pack use are general knowledge, not in the handout.",
+  "tags": [
+   "postpartum",
+   "thrombophlebitis",
+   "heparin"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Thrombophlebitis",
+   "Homan's Sign"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-x-bleeding-compare",
+  "area": "NP2",
+  "title": "Bleeding in Pregnancy by Trimester: Comparison and Priority Actions",
+  "body": "## What it is\nThe module sorts bleeding problems by trimester. Putting them side by side is how the exam tests them: it gives a few findings and asks which condition it is and what the nurse does first.\n\n## Must-know facts\n- **First trimester:** abortion (miscarriage; most often a chromosomal defect of the embryo) and ectopic pregnancy (implantation outside the uterus; the ampulla of the tube is the usual site, pelvic inflammatory disease the usual predisposing factor).\n- **Second trimester:** hydatidiform mole (grape-like vesicles instead of a placenta; very high hCG; absent fetal heart tones) and premature cervical dilation (the cervix opens early and cannot hold the pregnancy; the commonest cause of habitual abortion).\n- **Third trimester:** placenta previa (placenta over or near the cervical opening) and abruptio placentae (placenta peels off early).\n- Habitual abortion means three or more consecutive pregnancy losses.\n\n## How to tell them apart\n- Painless, bright red, sudden bleeding with a soft uterus: **placenta previa**.\n- Sharp stabbing fundal pain, rigid (board-like) uterus, bleeding that may be hidden, fetal heart tones that may be lost: **abruptio placentae**. A central (concealed) separation is the more dangerous form because blood is trapped in the uterine muscle (Couvelaire uterus, atony).\n- Amenorrhea, spotting and one-sided lower abdominal pain, then shock signs and a rigid abdomen: **ruptured ectopic pregnancy**.\n- Vomiting out of proportion, rapid uterine growth, pinkish discharge, no fetal heart: **mole**.\n- Painless early dilation with pink show or pelvic pressure: **premature cervical dilation**.\n- Bleeding with no cervical change: threatened abortion; bleeding with dilation and effacement: inevitable abortion.\n\n## Priority nursing actions (and why)\n1. **Do not do a pelvic, vaginal or rectal examination** when there is painless bleeding late in pregnancy or when abruptio is suspected. Why: touching an unseen low placenta can trigger massive bleeding. Safety comes before assessment here.\n2. Position side-lying (left lateral); avoid supine. Why: relieves pressure on the vena cava and keeps circulation to the fetus.\n3. Take baseline vital signs and repeat every 5-15 minutes while bleeding is active; start IV fluids, give oxygen as needed, check hourly urine output. Why: circulation and perfusion first (ABC).\n4. Attach an external fetal monitor to follow fetal heart sounds and contractions.\n5. Estimate blood loss (time it started, amount, color) before anything else is changed.\n6. Keep the woman on bed rest and prepare for delivery if the fetus is in distress or the mother is unstable.\n\n## Complications and red flags\nMaternal shock, falling blood pressure with rising pulse, rigid uterus, loss of fetal heart tones, disseminated bleeding, hysterectomy for uterine atony after Couvelaire uterus.\n\n## How to reason about it\nCause -> finding -> priority action. Pain plus a hard uterus points to abruptio; no pain plus a soft uterus points to previa. The trap: choosing \"examine the cervix\" or \"check dilation\" first. For late-pregnancy bleeding the answer is always to avoid the examination and stabilise.\n\n## Related topics\n[[Placenta Previa]], [[Abruptio Placentae]], [[Ectopic Pregnancy]], [[Hydatidiform Mole]], [[Premature Cervical Dilation and Cerclage]], [[Spontaneous and Induced Abortion]]\n\n## Check against your textbook\nThe module says abnormal separation in abruptio occurs \"in the second stage of labor\"; it can occur earlier in pregnancy too, so confirm. Trimester placement of mole and cervical dilation is the module's grouping, not a strict rule.",
+  "tags": [
+   "hemorrhage",
+   "comparison",
+   "emergency"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "HEMORRHAGIC DISORDERS IN PREGNANCY",
+   "FIRST TRIMESTER",
+   "SECOND TRIMESTER",
+   "THIRD TRIMESTER"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-x-hormones",
+  "area": "NP2",
+  "title": "Hormones of Pregnancy, Labor and Lactation Review",
+  "body": "## What it is\nA single list of every hormone the module mentions, with what it does and the exam link. Hormones explain most \"why\" questions in obstetrics.\n\n## Must-know facts\n- **GnRH** (hypothalamus): stimulates the anterior pituitary to release gonadotropins.\n- **FSH:** active early in the cycle; matures the primordial follicle (the Graafian follicle is the single most mature one).\n- **LH:** surge around mid-cycle triggers ovulation; the corpus luteum then forms.\n- **Estrogen:** thickens the uterine lining (proliferative phase); a rising estrogen peak signals the LH surge. High estrogen in pregnancy is blamed for gum swelling (epulis), excess saliva (ptyalism) and a high-volume body state.\n- **Progesterone:** maintains and organises the lining in the luteal phase (twisted, corkscrew glands). Slows gut movement and relaxes smooth muscle in pregnancy. A fall near term helps start labor (progesterone withdrawal theory).\n- **hCG:** made early by the trophoblast; basis of pregnancy tests (detectable about 10-14 days after the missed period, peak around 10 weeks); linked to nausea and vomiting; extremely high in a hydatidiform mole.\n- **Human placental lactogen (HPL):** blamed in the module for gestational diabetes (insulin resistance).\n- **Relaxin:** from the placenta; loosens pelvic joints so the pelvis is more movable.\n- **Oxytocin:** uterine receptors increase as term approaches; used to induce labor, challenge test and contract the uterus after birth.\n- **Prostaglandins:** stimulate uterine contraction; gel or misoprostol ripens the cervix; blocked by high-dose salicylates (post-term risk).\n- **Epinephrine:** rise linked to the pre-labor burst of energy.\n\n## How to reason about it\nCause -> effect: falling progesterone near term + more oxytocin receptors + prostaglandins = contractions begin. High hCG = vomiting, very early mole signs. High estrogen = gum bleeding, so soft toothbrush.\n\n## Priority nursing actions\nMatch the hormone to the problem before choosing an action: soft toothbrush for epulis, small frequent dry meals for hCG nausea, insulin (not oral drugs) for gestational diabetes, monitor hCG titre after a mole.\n\n## How the exam asks about it\n\"Which hormone is responsible for...\" followed by a symptom, or \"which hormone triggers ovulation\".\n\n## Related topics\n[[Hormonal Control of the Menstrual Cycle]], [[Phases of the Menstrual Cycle]], [[Theories of Labor Onset and Preliminary Signs of Labor]], [[Hydatidiform Mole]], [[Gestational Diabetes Mellitus]]\n\n## Check against your textbook\nThe handout's account of why estrogen causes ptyalism and gum swelling is simplified. Some textbooks say HPL is only one of several factors in gestational diabetes.",
+  "tags": [
+   "hormones",
+   "review",
+   "obstetrics"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "MENSTRUAL CYCLE",
+   "PREGNANCY",
+   "Theories of Parturition",
+   "GESTATIONAL DIABETES MELLITUS"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-x-drugs-procedures",
+  "area": "NP2",
+  "title": "Obstetric Drugs and Procedures: Quick Review",
+  "body": "## What it is\nEvery drug and procedure named in the obstetrics module in one place, with its purpose and its key nursing check. No doses are given here; follow the order and the pharmacy reference.\n\n## Drugs\n- **Methotrexate (IM):** chemotherapy drug that destroys fast-growing cells; used for an unruptured ectopic pregnancy smaller than 3 cm. Watch for signs of rupture.\n- **Depo-Provera (progesterone):** used in dysfunctional uterine bleeding.\n- **Ritodrine and terbutaline:** tocolytics that stop contractions in preterm labor or after cerclage; expect a rapid maternal pulse.\n- **Betamethasone (corticosteroid):** speeds fetal lung maturity when preterm delivery is expected.\n- **Magnesium sulfate:** prevents seizures in severe pre-eclampsia. Before each dose check respiratory rate, deep tendon reflexes and urine output; antidote **calcium gluconate**.\n- **Hydralazine:** lowers blood pressure; **furosemide:** diuretic; **digoxin:** improves contractility (check apical pulse, watch potassium); **barbiturates:** fast sedatives to stop seizures.\n- **Oxytocin:** given diluted and titrated; started low before placental delivery and higher afterwards; stop it immediately for late decelerations.\n- **Ergot preparations (methylergonovine):** only after the placenta is delivered, never before (a strong clamp-down could trap it).\n- **Prostaglandin gel or misoprostol:** ripen the cervix before induction.\n- **Heparin:** anticoagulant for thrombophlebitis.\n- **Insulin:** treatment of choice for gestational diabetes; oral hypoglycemics are teratogenic.\n- **Indomethacin and other NSAIDs; aspirin:** avoid in pregnancy (see [[Drugs to Avoid in Pregnancy: NSAIDs and Aspirin]]).\n- **Antibiotics:** endometritis and perineal infection.\n\n## Procedures\n- **Dilation and curettage:** empties a mole; open sinuses mean early spread, so follow hCG.\n- **McDonald's cerclage:** purse-string stitch around the cervix before about 12 weeks; removed at 37-38 weeks; vaginal birth possible.\n- **Shirodkar (Barter):** tape under the cervical lining; delivery by cesarean.\n- **Salpingotomy:** opens the tube and leaves it to heal (unruptured, small); **salpingectomy:** removes the tube (ruptured).\n- **Culdocentesis:** needle fluid from the rectouterine pouch to look for blood.\n- **Amnioinfusion:** fluid into the uterus to cushion the cord.\n- **Episiotomy:** cut at the fourchette/perineum; observe for infection.\n\n## How to reason about it\nMatch the drug to the dangerous side effect: magnesium -> respiratory depression, reflexes; digoxin -> potassium and pulse; ergot -> timing; tocolytic -> maternal tachycardia. Priority is always the check that prevents harm before giving the drug.\n\n## How the exam asks about it\n\"Which finding means stop the drug?\" (absent reflexes, respirations below 12 type thresholds are in your pharmacology notes) and \"when may methylergonovine be given?\" (after the placenta).\n\n## Related topics\n[[Magnesium Sulfate and Eclampsia Care]], [[Third Stage of Labor: Placental Expulsion and Uterotonic Drugs]], [[Premature Cervical Dilation and Cerclage]], [[Ectopic Pregnancy]], [[Anticoagulants: Heparin and Warfarin]]\n\n## Check against your textbook\nRitodrine is rarely used now; confirm the current tocolytic list. Exact toxicity thresholds for magnesium are not in the handout.",
+  "tags": [
+   "drugs",
+   "procedures",
+   "review"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Methotrexate",
+   "Salpingotomy",
+   "McDonald's Procedure",
+   "Magnesium Sulfate",
+   "Drugs for Third Stage of Labor"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-x-numbers",
+  "area": "NP2",
+  "title": "Obstetric Numbers and Cut-offs Review",
+  "body": "## What it is\nAll the figures from the handout, grouped so they can be rehearsed quickly. Memorize the handout numbers; do not substitute figures from other sources without checking.\n\n## Cycle and early pregnancy\n- Cycle 28 days (range 23-35). Flow 4-6 days normal; blood loss 30-80 mL.\n- Proliferative phase 6-14 days, variable. Luteal phase constant 14 days. Corpus luteum regresses after 8-10 days if no fertilization.\n- Implantation 8-10 days after fertilization. Zygote under 2 weeks; embryo 2 to under 8 weeks; fetus 8 weeks to birth. Viability 24 weeks and above.\n- Quickening 18-20 weeks. Ballottement 16-20 weeks. Braxton-Hicks from 28 weeks.\n- hCG detectable 10-14 days after missed period; peak about 10 weeks.\n\n## Fundal height\n12 weeks symphysis; 16 weeks halfway to umbilicus; 20 weeks umbilicus; 24 weeks +1 cm; 28 weeks +2 cm; 32 weeks +3 cm; 36 weeks +4 cm (xiphoid); 40 weeks 1 cm below xiphoid.\n\n## Visits\nEvery 4 weeks up to 28 weeks; every 2 weeks 28-36 weeks; weekly from 36 weeks.\n\n## Tests\n- Amniotic fluid normal 800-1200 mL; oligohydramnios under 500; hydramnios over 1200. L:S ratio 2:1 mature.\n- Amniocentesis at 14-16 weeks; observe 30 minutes after. Chorionic villi sampling 8-10 weeks. AFP peak 13th-32nd week.\n- Biophysical score 8-10 normal, 6 suspicious, 4 in jeopardy. Reactive NST: 2 accelerations of 15 beats for 15 seconds in 20 minutes. CST best around 38 weeks.\n- Oral glucose: 50 g at 24-28 weeks; above 140 at 1 hour leads to the 3-hour 100 g test; fasting above 95.\n\n## Labor\n- Latent phase 0-3 cm; active 4-7 cm; transition 8-10 cm. Contractions: latent 20-40 s every 5-10 min; active 40-60 s every 3-5 min; transition 60-90 s every 2-3 min.\n- Second stage: first-time mother 1-4 hours; multigravida 20-45 minutes.\n- Third stage 5-10 minutes; abnormal beyond 30 minutes. Cotyledons 16-20.\n- Fourth stage first 1-4 hours.\n- Precipitate labor under 3 hours.\n\n## Complications and postpartum\n- Pre-eclampsia 140/90 (mild); severe 160/110. Proteinuria over 250 mg/dL in the module; severe: more than 5 g/24 h.\n- Post-term beyond 42 weeks. Preterm before 37 weeks (module says before end of week 37).\n- Puerperium 6 weeks; involution about 1 cm a day. Lochia rubra 1-3, serosa 3-10, alba 10 onward to 3-6 weeks.\n- Cesarean birth rate should not exceed 20% of deliveries (module).\n\n## How the exam asks about it\nStraight recall or \"which is abnormal\". The trap is mixing similar numbers (14 days luteal vs 14-16 weeks amniocentesis).\n\n## Related topics\n[[Fundic Height Landmarks in Pregnancy]], [[Biophysical Profile and Non-Stress Test]], [[First Stage of Labor and Nitrazine Test]], [[Pregnancy-Induced Hypertension: Classification and Pre-eclampsia]], [[Lochia and Return of Menstruation]]\n\n## Check against your textbook\nThe module itself gives preterm as both under 37 weeks and \"before the end of week 37\", and TPAL term as 38-42 weeks while post-term is beyond 42; confirm which cut-offs your exam uses. Handout blood loss and diastolic criteria are older standards.",
+  "tags": [
+   "numbers",
+   "review",
+   "obstetrics"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "MENSTRATION",
+   "TERMINOLOGIES",
+   "STAGES OF LABOR",
+   "Diagnostic Exams"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-x-fetal-distress-actions",
+  "area": "NP2",
+  "title": "Responding to Non-Reassuring Fetal Status: Cause, Pattern and Action",
+  "body": "## What it is\nA cause-to-action map for fetal distress in labor. The exam gives a tracing or a situation and asks for the first nursing action.\n\n## Must-know facts\n- Late deceleration: uteroplacental insufficiency. Variable: cord compression. Early: head compression (benign).\n- Oxytocin causes strong contractions that reduce placental blood flow, so it is the first thing to stop when late decelerations appear.\n- Supine position presses the uterus on the vena cava and lowers blood return; side-lying corrects it.\n\n## Priority nursing actions (in order, with the reason)\n1. **Late decelerations:** stop or slow oxytocin; turn the woman to the left side; give IV fluids; give oxygen (the module's CST note states 8-10 liters per minute by mask); watch the strip. If decelerations continue or the baseline is lost, prepare for prompt delivery (cesarean). Why: restore oxygen supply to the placenta first.\n2. **Variable decelerations:** change position (side-lying or Trendelenburg) to take weight off the cord; the physician may order amnioinfusion.\n3. **Cord prolapse:** do not push the cord back; cover it with gauze moistened with normal saline; give oxygen; relieve pressure on the cord by position; check fetal heart tones; prepare for immediate delivery. Why: the cord is the baby's oxygen line.\n4. **Ruptured membranes:** note the time; infection risk climbs after 24 hours; check fetal heart tones at once because of cord prolapse risk.\n5. **Bleeding with fetal distress** (abruptio): lateral position, oxygen, fluids, outright delivery if distress is present.\n\n## Complications and red flags\nPersistent late decelerations, absent variability, bradycardia, thick meconium (except in breech), maternal fever, cord visible at the vagina.\n\n## How to reason about it\nCause -> pattern -> action: the action removes the cause (oxytocin off, pressure off the cord, vena cava free). The trap: giving more oxytocin to \"speed things up\" or calling the physician before stopping the oxytocin; start the simple safe action, then notify.\n\n## Related topics\n[[Fetal Heart Rate Patterns and Decelerations]], [[Preterm Rupture of Membranes and Cord Prolapse]], [[Contraction Stress Test and Late Deceleration Response]], [[Abruptio Placentae]], [[Breech Presentation Types]]\n\n## Check against your textbook\nThe module lists \"outright delivery\" as a possible step but timing and method are physician decisions. Amnioinfusion is named only briefly; confirm the indications.",
+  "tags": [
+   "fetal heart rate",
+   "emergency",
+   "labor"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "VARIABILITY",
+   "Late Deceleration",
+   "Variable Deceleration",
+   "Interventions for Late deceleration",
+   "Cord Prolapse"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-x-discomforts",
+  "area": "NP2",
+  "title": "Common Discomforts of Pregnancy and Nursing Relief",
+  "body": "## What it is\nCommon, expected body complaints in pregnancy with the safe nursing measure for each. Most are physiologic, so the exam wants the simple teaching answer.\n\n## Must-know facts and relief\n- **Nausea and vomiting** (hCG rise, early pregnancy): dry unsalted crackers, ice chips, small frequent meals, less fatty food, gentle ambulation.\n- **Frequent urination:** first and third trimesters; the growing uterus presses on the bladder. Reassure; urinary stasis from relaxed ureters also raises UTI risk, so report burning.\n- **Heartburn:** the uterus pushes the stomach upward and the gut slows. Do not lie flat after eating; walk gradually; eat small frequent meals.\n- **Pica:** craving non-food items (clay, chalk, dirt, soil, metal, pencils). Do not criticise; assess, check for anemia, offer safer choices.\n- **Epulis (gum swelling and bleeding):** estrogen. Soft toothbrush, avoid strong mouthwash.\n- **Ptyalism (too much saliva):** offer hard candies.\n- **Hyperventilation and respiratory alkalosis:** tingling in the extremities, light-headedness. Breathe slowly into a paper bag or cupped hands.\n- **Supine hypotension syndrome:** dizziness and low blood pressure lying on the back; turn to left lateral position.\n- **Back pain and physiologic lordosis (\"pride of pregnancy\"):** pelvic rocking, firm pressure on the lower back, avoid lying flat; the handout says avoid analgesics.\n- **Leg swelling and varicosities:** slowed circulation; avoid prolonged standing, elevate legs, use left side lying.\n- **Physiologic anemia:** blood dilution; take iron and iron-rich foods.\n- **Diastasis recti:** separation of the abdominal muscle; normal and reverses after birth.\n\n## Red flags (not routine)\nVomiting that prevents eating, severe headache, vision change, sudden swelling of face and hands (think pre-eclampsia), persistent dizziness, painful urination, vaginal bleeding.\n\n## How to reason about it\nPhysiologic -> reassure and teach a simple measure. The trap: treating a normal complaint with medication, or missing a red flag that is a warning of a complication.\n\n## How the exam asks about it\n\"Which instruction should the nurse give a woman with ...\" Choose the non-drug measure.\n\n## Related topics\n[[Body Changes in Pregnancy: Digestive, Kidney, Thyroid and Back]], [[Body Changes in Pregnancy: Heart, Blood and Lungs]], [[Signs of Pregnancy: Presumptive, Probable and Positive]], [[Pregnancy-Induced Hypertension: Classification and Pre-eclampsia]]\n\n## Check against your textbook\n\"No analgesic\" for back pain and the claim that pica comes from excess saliva are the handout's statements; confirm. Safety of any remedy should be checked with the prenatal care provider.",
+  "tags": [
+   "pregnancy",
+   "discomforts",
+   "teaching"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Nausea and Vomiting",
+   "Pica",
+   "Epulis",
+   "Ptyalism",
+   "Heartburn",
+   "Physiologic Lordosis"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-x-lam",
+  "area": "NP2",
+  "title": "Lactational Amenorrhea and Return of Fertility After Birth",
+  "body": "## What it is\nThe module teaches that breastfeeding can delay menstruation and ovulation, and lists when periods and intercourse usually resume. It is a natural method, not a guarantee.\n\n## Must-know facts\n- **Three requirements for lactational amenorrhea:** (1) the mother breastfeeds exclusively; (2) she has no menstruation (some suppression of ovulation); (3) it is within 6 months postpartum.\n- If the mother is **not breastfeeding**, menstruation returns about **6-10 weeks** after birth.\n- If she **is breastfeeding**, menstruation may take about **6 months** to return.\n- Intercourse is generally allowed after **3-4 weeks** (once bleeding settles and the perineum heals).\n- Ovulation can happen before the first period, so a woman can become pregnant before menses return.\n\n## Priority nursing actions\nTeach all three conditions together; ask about exclusive feeding, whether periods have returned and the baby's age; recommend another method (see [[Reproductive Health and Family Planning]]) when any condition changes. Why: the method fails as soon as one requirement is no longer met.\n\n## Client teaching\n- Feed on demand, day and night, with no formula or regular supplements.\n- Once periods return, or at 6 months, or when feeding reduces, add another method.\n- Sexual activity: wait until bleeding has eased and any episiotomy has healed; use a water-based lubricant if dry.\n\n## How the exam asks about it\n\"Which statement shows understanding of the lactational amenorrhea method?\" The correct answer includes all three conditions.\n\n## How to reason about it\nThe trap is the answer that says breastfeeding always prevents pregnancy.\n\n## Related topics\n[[Lochia and Return of Menstruation]], [[Puerperium: Involution and Rubin's Phases]], [[Family Planning Methods: Permanent, Hormonal and Barrier]]\n\n## Check against your textbook\nThe handout states 6-10 weeks and 6 months as typical returns; real timing varies. Details such as lubricant advice are general knowledge added here.",
+  "tags": [
+   "postpartum",
+   "lactation",
+   "family planning"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "LACTATION AMENORRHEA",
+   "3 Requirements",
+   "Important Concepts"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-x-postpartum-psychosis",
+  "area": "NP2",
+  "title": "Postpartum Psychosis and Emotional Problems After Birth",
+  "body": "## What it is\nThe module places postpartum psychosis in the taking-hold phase and calls it a brief psychotic episode lasting up to about 3 months. It is a mental-health emergency, different from the common \"baby blues\".\n\n## Must-know facts\n- Psychosis involves loss of contact with reality: delusions, hallucinations, confusion, severe agitation or withdrawal.\n- It is far more serious than mild tearfulness, which is expected in the early days.\n- The mother can be a danger to herself or the baby, so safety is the top concern.\n\n## Assessment\nSleeplessness, strange or suspicious talk, not recognising or rejecting the baby, severe mood swings, thoughts of harming self or baby.\n\n## Priority nursing actions\n1. Keep mother and baby safe; do not leave the baby alone with a mother who is psychotic or having harmful thoughts. Why: safety is the second level of Maslow, right after survival needs.\n2. Stay calm, speak simply, do not argue with delusions.\n3. Report to the physician immediately for evaluation and treatment.\n4. Maintain a quiet environment and observe closely.\n\n## Client and family teaching\nWarning signs to report, the need for follow-up, and that this is an illness, not a failing as a parent.\n\n## How the exam asks about it\nA new mother says she hears voices telling her about the baby: the answer is to ensure safety and notify the doctor, not reassurance alone.\n\n## Related topics\n[[Puerperium: Involution and Rubin's Phases]], [[Fourth Stage of Labor and Postpartum Checks]], [[Mood Disorder Theories and Variants]]\n\n## Check against your textbook\nThe handout is a one-line mention. Timing (usually the first weeks), the difference between blues, depression and psychosis, and the treatment details are not in the handout.",
+  "tags": [
+   "postpartum",
+   "psychiatric",
+   "safety"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Taking-hold Phase",
+   "Postpartum psychosis"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np2-ob-x-cesarean-factors",
+  "area": "NP2",
+  "title": "Cesarean Birth, Trial of Labor and Factors That Block Normal Birth",
+  "body": "## What it is\nA collection of the situations in the module where normal vaginal birth may be difficult or unsafe, and what the module says about cesarean birth.\n\n## Must-know facts\n- **Cephalopelvic disproportion (CPD):** the fetal head is larger than the maternal pelvis. Even with CPD, a **trial of labor** is usually allowed first; cesarean is not automatic. Cesarean births should not exceed about 20% of all deliveries.\n- **Fetal lie:** a transverse lie means dilation will not progress.\n- **Fetal attitude:** complete extension (face presentation) prevents progress; the face cannot normally enter the pelvis.\n- **Pelvic type:** android (narrow outlet) and platypelloid (shallow inlet) make labor harder; gynecoid is ideal.\n- **Shirodkar cerclage:** delivery is by cesarean.\n- **Placenta previa:** total previa blocks the cervix.\n- **Abruptio placentae:** outright delivery for fetal distress; hysterectomy for atony.\n- **Cord prolapse, persistent late decelerations, premature rupture with infection:** prompt delivery.\n- **Prolonged rupture of membranes over 24 hours without birth:** infection risk, and the module states cesarean may be needed.\n- **Breech:** cord prolapse and head entrapment risk.\n- **Positive contraction stress test lasting over 10 minutes:** cesarean may be needed.\n\n## Priority nursing actions\nPrepare the woman and family (consent, explanation), keep NPO as ordered, start IV, check fetal heart rate, and give postoperative care: assess fundus, lochia (cesarean women also have lochia), pain, bladder, bowel, wound and breathing. Why: airway and circulation, then comfort and bonding.\n\n## How to reason about it\nCause -> finding -> priority action: obstructed labor or fetal distress -> cesarean preparation. The trap: \"CPD means automatic cesarean\"; the module says a trial of labor comes first.\n\n## Related topics\n[[Pelvis Types, Cephalopelvic Disproportion and Fetal Diameters]], [[Fetal Lie, Attitude, Presentation, Position and Station]], [[Placenta Previa]], [[Breech Presentation Types]], [[Responding to Non-Reassuring Fetal Status: Cause, Pattern and Action]]\n\n## Check against your textbook\nThe 20% figure and the cesarean-after-24-hours rule are the handout's statements; many authorities no longer rely on a fixed cesarean rate or on 24 hours alone.",
+  "tags": [
+   "labor",
+   "cesarean",
+   "dystocia"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Cephalopelvic Disproportion",
+   "Fetal Lie",
+   "Fetal Attitude",
+   "Shirodkar",
+   "Placenta Previa",
+   "Abruptio Placenta"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ }
+]

@@ -1,0 +1,933 @@
+[
+ {
+  "id": "np3-0076",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Aplastic anemia home teaching evaluation",
+  "noteId": "np3-ho-aplastic-anemia",
+  "vignette": "A 35-year-old woman with aplastic anemia is being discharged on immunosuppressive therapy. She tells the nurse her plans: use an electric razor on her legs, brush with a soft toothbrush, avoid crowded jeepneys and take aspirin for the headaches she gets from her job.",
+  "stem": "Which plan shows that further teaching is needed?",
+  "options": [
+   "Using an electric razor for her legs",
+   "Taking aspirin for her headaches",
+   "Brushing with a soft-bristled toothbrush",
+   "Avoiding crowded public vehicles"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Pancytopenia means low platelets (bleeding risk) and low white cells (infection risk).\n2. Aspirin impairs platelet function and increases the bleeding danger, so it is avoided.\n3. Electric razor, soft toothbrush and avoiding crowds are the protective habits.\nFlip: if her platelets were normal, an occasional aspirin might be discussed with the provider.",
+  "optionRationales": [
+   "Correct plan: reduces cuts.",
+   "Right: increases bleeding risk.",
+   "Correct plan: protects gums.",
+   "Correct plan: reduces exposure to infection."
+  ],
+  "strategy": "Bleeding and infection precautions",
+  "archetype": "needs further teaching",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Prevent bleeding: soft toothbrush, electric razor",
+   "Protect from infection"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0077",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Concealed postoperative bleeding",
+  "noteId": "np3-ho-postop-hemorrhage-shock",
+  "vignette": "Four hours after an abdominal hysterectomy, a client is restless and says she feels frightened. BP has fallen from 118/72 to 90/54, HR is 118, RR 24 and her skin is cool and pale. The abdominal dressing is dry and intact. Her pain is 4/10 and she has an analgesic ordered every 4 hours.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Reinforce the dry dressing and recheck the blood pressure in 15 minutes",
+   "Give the ordered analgesic and anti-anxiety measure to settle her restlessness",
+   "Call for help, apply oxygen and lay her flat with the legs raised",
+   "Increase the head of the bed and encourage her to breathe slowly"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Falling BP, rapid pulse, restlessness, cool pale skin and fast breathing after surgery are early shock from hemorrhage; a dry dressing does not exclude bleeding inside the abdomen.\n2. Priority: call for help, oxygen, shock position (flat, legs raised about 20 degrees), IV fluids or blood as ordered and monitoring; internal bleeding may need return to the OR.\n3. Sedating or analgesia would mask the sign; raising the head of the bed would worsen cerebral perfusion.\nFlip: if the BP were stable and her wound were visibly oozing, pressure dressing would come first.",
+  "optionRationales": [
+   "Wrong: skips assessment of the cause and waits.",
+   "Wrong: treats the symptom of restlessness; it is a sign of hypoperfusion.",
+   "Right: unstable client; treat circulation.",
+   "Wrong: wrong position for shock."
+  ],
+  "strategy": "Recognise concealed hemorrhage; ABC and shock position",
+  "archetype": "dry dressing is not reassurance",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Hypotension, rapid thready pulse, restlessness: hemorrhage",
+   "Shock position: flat, legs raised about 20 degrees"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0078",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Ileal conduit: what needs reporting",
+  "noteId": "np3-ho-x-urinary-diversions-compared",
+  "vignette": "On day 1 after cystectomy with an ileal conduit, the nurse assesses a client. The stoma is pink-red and moist. The pouch contains pink-tinged urine with some mucus shreds. He has had no urine output for the last 4 hours although the pouch is not leaking. He rates his incision pain at 3/10 on his analgesic.",
+  "stem": "Which finding requires immediate follow-up?",
+  "options": [
+   "No urine in the pouch for 4 hours",
+   "Mucus shreds seen in the urine pouch",
+   "A pink-red, moist stoma at the skin surface",
+   "Incision pain rated 3/10 after analgesia"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. A healthy stoma is pink to red and moist; mucus from the bowel segment used for the conduit is expected, and mild controlled pain is expected.\n2. No urine for hours can mean obstruction, a kinked pouch, kidney problems or necrosis and must be reported promptly.\nFlip: with a dusky stoma and urine still flowing, the stoma color would be the report.",
+  "optionRationales": [
+   "Right: possible obstruction or loss of kidney function.",
+   "Wrong: expected from the bowel segment (plausible detail from the expected course).",
+   "Wrong: a healthy stoma.",
+   "Wrong: controlled, expected pain."
+  ],
+  "strategy": "Expected vs red flag",
+  "archetype": "expected vs red flag",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Check stoma color and urine output; no urine for hours is a red flag",
+   "Ileal conduit uses a piece of ileum"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0079",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Sickle crisis home measures",
+  "noteId": "np3-ho-sickle-cell-anemia",
+  "vignette": "A 9-year-old with sickle cell anemia arrives with severe pain in the legs. His mother says she put ice packs on the legs at home and limited his drinks because he has been going to the toilet often. His temperature is 37.4 C and SpO2 is 91% on room air.",
+  "stem": "Which plan should the nurse anticipate?",
+  "options": [
+   "Restrict fluids to prevent overload and apply more ice for the pain",
+   "Withhold analgesics until the pain pattern is clear and keep him warm and still",
+   "Start antibiotics only when his temperature rises over 38 degrees",
+   "Give oxygen, IV fluids and ordered analgesics, and avoid cold applications"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. In a vaso-occlusive crisis, hypoxia, dehydration, infection and cold promote sickling.\n2. Oxygen, IV and oral fluids and analgesics treat the triggers and pain; cold causes vasoconstriction and is avoided.\n3. Withholding analgesics undertreats the most painful crisis; antibiotics are given when infection is present.\nFlip: with a fever and a source of infection, antibiotics would be started immediately.",
+  "optionRationales": [
+   "Wrong: unsafe habit; both choices promote sickling.",
+   "Wrong: under-treatment of pain.",
+   "Wrong: delays treatment of a possible trigger.",
+   "Right: addresses hypoxia, dehydration and pain."
+  ],
+  "strategy": "Treat the triggers of sickling",
+  "archetype": "cold and dehydration trigger sickling",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Oxygen for hypoxia, fluids for dehydration, analgesics",
+   "Avoid cold (vasoconstriction)"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0080",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Interferon safety rule",
+  "noteId": "np3-ho-x-heme-onc-drugs",
+  "vignette": "A 62-year-old man with polycythemia vera has started interferon alfa-2b for generalized itching. At his follow-up visit he reports aching and chills after each injection, and that over the last week he has felt hopeless, has stopped seeing friends and says he doesn't see the point in treatment. His itching is better.",
+  "stem": "Which finding should the nurse report to the provider?",
+  "options": [
+   "The aching and chills after injections",
+   "The improvement in itching",
+   "The generalized itching he had before treatment",
+   "The hopelessness and withdrawal from friends"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. With interferon alfa-2b, flu-like symptoms are expected and depression is the serious effect to watch for.\n2. Hopelessness and withdrawal are the depression cues; the aches are expected and the itch relief is the desired effect.\nFlip: if he had new bruising, a platelet problem would be the concern instead.",
+  "optionRationales": [
+   "Wrong: expected, mild effect (true statement that does not answer).",
+   "Wrong: desired effect.",
+   "Wrong: baseline problem.",
+   "Right: a possible depressive reaction needs evaluation."
+  ],
+  "strategy": "Drug-specific safety: depression with interferon",
+  "archetype": "know the one safety rule per drug",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Interferon alfa-2b: watch flu-like symptoms and depression",
+   "Used for itching in polycythemia vera"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0081",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Iron in thalassemia major",
+  "noteId": "np3-ho-thalassemia",
+  "vignette": "The parents of a 5-year-old with thalassemia major tell the nurse that their daughter looks pale and tired between her monthly packed red cell transfusions. A neighbor suggested giving iron tonic to build her blood. She also has chelation therapy ordered.",
+  "stem": "What is the nurse's best response?",
+  "options": [
+   "Advise against iron tonic since transfusions already cause iron overload",
+   "Encourage iron tonic with vitamin C since her red cells are small and pale",
+   "Tell them tonic is fine if given at least two hours after the chelation medicine",
+   "Suggest stopping chelation for a month while she takes the tonic"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. In thalassemia the red cells are small and pale because the globin chains are defective, not because iron is lacking.\n2. Repeated transfusions deliver iron the body cannot excrete, so chelation is used and extra iron is avoided.\n3. Timing the tonic or pausing chelation would not make iron safe.\nFlip: for iron deficiency anemia, iron with vitamin C would be correct.",
+  "optionRationales": [
+   "Right: iron overload risk.",
+   "Wrong: plausible detail from iron deficiency anemia.",
+   "Wrong: timing does not remove the danger.",
+   "Wrong: unsafe change in therapy."
+  ],
+  "strategy": "Does the treatment add iron? No",
+  "archetype": "avoid iron supplements",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Watch for iron overload from repeated transfusions; chelation",
+   "Thalassemia is defective globin chain synthesis"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0082",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Polycythemia vera emergency vs baseline",
+  "noteId": "np3-ho-polycythemia-vera",
+  "vignette": "A 66-year-old man with polycythemia vera sits in the clinic waiting room. His face is ruddy, he scratches his arms, and he mentions burning pain in his fingertips that he has had for months. While the nurse takes a history, his speech suddenly becomes slurred and his right hand drops the pen.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Document the ruddy face and itching as expected polycythemia findings",
+   "Offer a cool bath for the itching and burning pain",
+   "Activate the emergency response for a possible stroke",
+   "Arrange an extra phlebotomy at the next scheduled appointment"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Ruddy skin, itching and burning pain of fingers are chronic findings in this disease.\n2. Thick blood increases the risk of stroke and MI; sudden slurred speech and a weak hand is a stroke until proven otherwise.\n3. Comfort measures and scheduled phlebotomy are right for the chronic problems but not for an acute deficit.\nFlip: without the sudden deficit, the itching measures would be appropriate.",
+  "optionRationales": [
+   "Wrong: misses the new finding (under-reaction).",
+   "Wrong: right care, wrong time.",
+   "Right: acute neurologic change.",
+   "Wrong: delays emergency care."
+  ],
+  "strategy": "Unstable before stable; new neurologic deficit",
+  "archetype": "baseline vs new neurologic sign",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Complications: stroke, MI",
+   "Thick blood raises clotting risk"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0083",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Head injury in a child with hemophilia",
+  "noteId": "np3-ho-hemophilia",
+  "vignette": "A 6-year-old boy with hemophilia A fell off a bench at school. The teacher says he hit the back of his head, cried briefly and now is playing. He has a mild headache, a small bump, and one knee has been swollen since last week. His mother says she will give an ice pack and observe him at home.",
+  "stem": "What is the best advice from the nurse?",
+  "options": [
+   "Apply the ice pack and observe at home, since he is playing normally",
+   "Go to the hospital now for factor VIII and a head assessment",
+   "Give acetaminophen and aspirin for the headache and observe for a day",
+   "Treat the swollen knee first and review the head bump if headache worsens"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. In hemophilia, intracranial bleeding is the most dangerous bleed and may develop after a head blow even if the child looks well.\n2. Prompt factor replacement and evaluation are needed; the swollen knee is a known joint bleed and not the priority.\n3. Aspirin and NSAIDs are avoided.\nFlip: if the child had banged only a knee, home care with factor as prescribed might suffice.",
+  "optionRationales": [
+   "Wrong: under-reaction; delayed signs.",
+   "Right: treat head injury as an emergency.",
+   "Wrong: aspirin is contraindicated.",
+   "Wrong: priority is on the wrong site."
+  ],
+  "strategy": "Unstable potential: head injury in bleeding disorder",
+  "archetype": "treat head injury as an emergency",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Head injury or severe headache is an emergency in hemophilia",
+   "Avoid aspirin and NSAIDs"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0084",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Interpreting a biopsy description",
+  "noteId": "np3-ho-cancer-basics-tumors",
+  "vignette": "A pathology report on a 45-year-old woman's breast lump describes 'well-differentiated, normal-looking cells in a fibrous capsule, growing by expansion, no invasion of nearby tissue.' She asks the nurse whether she needs chemotherapy and whether it can spread.",
+  "stem": "Which response is most accurate?",
+  "options": [
+   "This describes a benign tumor, usually treated by surgery and not metastasizing",
+   "These features describe a malignant tumor that will be treated with chemotherapy",
+   "Encapsulated cells show the tumor is cancer that has spread only locally",
+   "A well-differentiated tumor means the cancer is advanced and will metastasize"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Benign tumors have well-differentiated cells, a capsule, expand slowly, do not metastasize and are treated mainly by surgery.\n2. Malignant tumors have poorly differentiated cells, infiltrate, metastasize and are treated with surgery, radiation and chemotherapy.\nFlip: with poorly differentiated cells infiltrating the capsule, the answer would change to malignant.",
+  "optionRationales": [
+   "Right: describes benign features.",
+   "Wrong: confuses benign with malignant.",
+   "Wrong: capsule means benign.",
+   "Wrong: differentiation is the opposite."
+  ],
+  "strategy": "Benign vs malignant features",
+  "archetype": "benign features",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Benign: well-differentiated, encapsulated, no metastasis",
+   "Malignant: infiltrates, metastasizes"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0085",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Post-radical surgery complication",
+  "noteId": "np3-ho-cancer-surgery-local-treatments",
+  "vignette": "On day 3 after a radical excision with lymph node removal, a client has a temperature of 37.8 C, a 0.5 cm rim of redness around the incision, and 20 mL of serous drainage in the drain. He has pain and swelling in his left calf that started this morning and says it feels warm.",
+  "stem": "Which finding is the most important to report?",
+  "options": [
+   "The temperature of 37.8 C on the third day",
+   "A small rim of redness at the incision",
+   "The 20 mL of serous drainage in the drain",
+   "Calf pain, swelling and warmth in one leg"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. After cancer surgery the client is at risk of infection, bleeding, thrombophlebitis, dehiscence, fluid imbalance and organ dysfunction.\n2. One-sided calf pain, swelling and warmth suggests thrombophlebitis or DVT, which can send a clot to the lungs.\n3. A low-grade fever, slight incisional redness and serous drain output are common early after surgery.\nFlip: with purulent drainage and a 39 C fever, infection would be the priority.",
+  "optionRationales": [
+   "Wrong: expected inflammatory response (low-grade).",
+   "Wrong: expected healing.",
+   "Wrong: expected drainage.",
+   "Right: possible DVT with embolism risk."
+  ],
+  "strategy": "Complication surveillance: thrombophlebitis",
+  "archetype": "which finding to report",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "After surgery watch infection, bleeding, thrombophlebitis, dehiscence",
+   "Report calf pain and swelling"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0086",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Colostomy diet teaching",
+  "noteId": "np3-ho-x-colorectal-surgeries-prep",
+  "vignette": "A client with a new descending colostomy after hemicolectomy is learning which foods may cause gas and odor. The nurse asks him to choose dinner from the cafeteria menu. The choices are steamed fish with plain rice, cabbage soup with boiled eggs, mixed nuts with cauliflower, and grilled chicken with a carbonated drink.",
+  "stem": "Which choice shows that he understood the teaching?",
+  "options": [
+   "Cabbage soup with boiled eggs",
+   "Steamed fish with plain rice",
+   "Mixed nuts with cauliflower",
+   "Grilled chicken with a carbonated drink"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Gas-forming foods to avoid after a colostomy include cabbage, nuts, eggs, cauliflower, gum and carbonated drinks.\n2. Only the fish and rice plate has none of these.\nFlip: months later, he may reintroduce one food at a time to test tolerance.",
+  "optionRationales": [
+   "Wrong: cabbage and eggs are gas-forming.",
+   "Right: no gas-forming foods.",
+   "Wrong: nuts and cauliflower are gas-forming.",
+   "Wrong: carbonated drinks form gas."
+  ],
+  "strategy": "Evaluate teaching: gas-forming foods",
+  "archetype": "evaluate meal selection",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Avoid gas-forming foods: cabbage, nuts, eggs, cauliflower, gum, carbonated drinks"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0087",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "TNM interpretation",
+  "noteId": "np3-ho-grading-staging-carcinogenesis",
+  "vignette": "A client's pathology report reads: 'Poorly differentiated adenocarcinoma, T2 N1 M0.' He asks the nurse what the report means. The nurse reviews the grade and the stage.",
+  "stem": "Which explanation by the nurse is accurate?",
+  "options": [
+   "The cells look like normal tissue, and the cancer has spread to distant organs but not to nearby nodes",
+   "The cancer has not reached the lymph nodes, and the cells are well differentiated and slow growing",
+   "The cells look very unlike normal tissue; cancer is in nearby nodes but not in distant organs",
+   "The report describes only how large the tumor is and says nothing about spread to other parts"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Grading describes how much the cells resemble the tissue of origin (poorly differentiated = unlike).\n2. Staging with TNM describes spread: T the primary tumor, N nodes (N1 = involved), M distant metastasis (M0 = none).\n3. The distractors reverse grade and stage or the meanings of N and M.\nFlip: M1 would mean distant metastasis.",
+  "optionRationales": [
+   "Wrong: reverses differentiation and swaps N and M.",
+   "Wrong: N1 means nodes involved.",
+   "Right: grade and stage correctly interpreted.",
+   "Wrong: T is only one part of the stage."
+  ],
+  "strategy": "Grade = cell look; Stage = spread",
+  "archetype": "grade vs stage",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Grading: cell look; staging: spread (TNM)",
+   "N = lymph nodes; M = metastasis"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0088",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Warning sign teaching evaluation",
+  "noteId": "np3-ho-cancer-warning-signs-diagnostics",
+  "vignette": "At a community cancer awareness session, a 48-year-old woman tells the nurse which changes she will watch for: a sore that does not heal, a lump in her breast, unexplained weight loss, and a mole that has changed color, which she says is a normal part of ageing so she will ignore it.",
+  "stem": "Which statement requires correction?",
+  "options": [
+   "Watching for a sore that does not heal after a few weeks",
+   "Reporting a lump in her breast",
+   "Ignoring a mole that changed color as normal ageing",
+   "Reporting weight loss she cannot explain by diet or activity"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. A change in the color of a wart or mole is one of the warning signs and calls for evaluation.\n2. A non-healing sore, a lump and sudden weight loss are also warning signs, so her other plans are correct.\nFlip: a mole unchanged for years is not a warning sign.",
+  "optionRationales": [
+   "Correct: warning sign.",
+   "Correct: warning sign.",
+   "Right: a changing mole is a warning sign.",
+   "Correct: warning sign."
+  ],
+  "strategy": "Warning signs: do not dismiss",
+  "archetype": "needs further teaching",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Warning signs: obvious change in a wart or mole, sore that does not heal, lump, sudden weight loss"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0089",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Why nitrosoureas for brain disease",
+  "noteId": "np3-ho-chemo-drug-classes",
+  "vignette": "A client with a brain tumor is scheduled to receive carmustine. His wife asks why this drug was chosen when the oncologist has used cyclophosphamide for his sister's lymphoma.",
+  "stem": "Which explanation by the nurse is best?",
+  "options": [
+   "Nitrosoureas work in only one phase of the cell cycle so they spare healthy brain cells",
+   "Nitrosoureas cross the blood-brain barrier, so they can reach tumors inside the brain",
+   "Nitrosoureas block spindle formation, which stops mitosis at metaphase",
+   "Nitrosoureas are given orally, which makes them easier to take than injections"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Nitrosoureas are similar to alkylating agents but cross the blood-brain barrier, so they are used for brain-related tumors.\n2. They are cell-cycle non-specific; spindle blockade belongs to mitotic inhibitors such as vincristine.\nFlip: for a leukemia needing DNA synthesis blockade, an antimetabolite could be used.",
+  "optionRationales": [
+   "Wrong: they are non-specific.",
+   "Right: crosses the barrier.",
+   "Wrong: describes mitotic inhibitors.",
+   "Wrong: not the reason for this choice."
+  ],
+  "strategy": "Match drug property to purpose",
+  "archetype": "explain the drug choice",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Nitrosoureas cross the blood-brain barrier",
+   "Mitotic inhibitors block spindle formation"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0090",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Evisceration emergency",
+  "noteId": "np3-ho-wound-infection-dehiscence",
+  "vignette": "On day 5 after bowel resection, a client coughs forcefully and says 'something gave way.' The nurse finds the dressing soaked with serosanguineous fluid and a loop of bowel visible through the open abdominal wound. The client is pale, anxious and says he feels faint.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Gently push the bowel back into the abdomen and hold it with gauze",
+   "Leave to call the surgeon from the station and return with supplies",
+   "Apply a tight abdominal binder and have him cough to clear the airway",
+   "Stay with him and cover the bowel with sterile moist dressings"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Organs protruding through the wound = evisceration, an emergency.\n2. Stay with the client, cover with sterile saline-moist dressings, place in low Fowler's with knees bent, keep him NPO and notify the surgeon (send someone else).\n3. Pushing the bowel back, tight binders and coughing can injure the tissue.\nFlip: for dehiscence with only separated skin edges and no protrusion, the same call and covering would still apply but with less urgency.",
+  "optionRationales": [
+   "Wrong: unsafe habit; risk of injury and contamination.",
+   "Wrong: abandons the client.",
+   "Wrong: coughing worsens the problem.",
+   "Right: protect and stay."
+  ],
+  "strategy": "Emergency: protect tissue and stay",
+  "archetype": "stay and cover",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Evisceration: organs protrude through the wound",
+   "Stay with the client and cover with moist sterile dressing"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0091",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Assignment around radiation clients",
+  "noteId": "np3-ho-x-radiation-compared",
+  "vignette": "The charge nurse is assigning clients. A nurse who is 8 weeks pregnant is on duty. The available clients are: a woman with a cervical radium implant in place, a man who swallowed iodine-131 this morning, a man with a prostate seed implant, and a woman receiving external-beam radiation to the lung who is back from her treatment.",
+  "stem": "Which client is the safest assignment for the pregnant nurse?",
+  "options": [
+   "The woman receiving external-beam radiation to the lung",
+   "The woman with the cervical implant, using a lead gown",
+   "The man who swallowed iodine-131, with limited time at the bedside",
+   "The man with the prostate seed implant, staying 6 feet away"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. External-beam (teletherapy) clients are not radioactive and can be touched safely.\n2. Sealed and unsealed internal sources make the client radioactive; pregnant staff are never assigned to them regardless of shielding.\nFlip: a non-pregnant nurse could care for any of the four with shielding, time and distance.",
+  "optionRationales": [
+   "Right: client is not radioactive.",
+   "Wrong: pregnant staff are not assigned to internal sources.",
+   "Wrong: unsealed source; body fluids are radioactive.",
+   "Wrong: sealed implant; client is radioactive."
+  ],
+  "strategy": "Scope: assign by radiation type",
+  "archetype": "who can care for whom",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "External radiation: client is not radioactive",
+   "Never assign pregnant staff to internal radiation"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0092",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "External radiation teaching",
+  "noteId": "np3-ho-external-radiation-teletherapy",
+  "vignette": "A 57-year-old man is starting external radiation for lung cancer. He says he will leave the purple skin marks alone when he showers, keep a loose cotton shirt over the area, plan rests during the day, and that he will stay away from his grandchildren during the treatment weeks because he will be radioactive.",
+  "stem": "Which statement shows that further teaching is needed?",
+  "options": [
+   "Leaving the purple marks on his skin when he washes in the shower",
+   "Keeping away from his grandchildren as he will be radioactive",
+   "Wearing a loose cotton shirt over the treated area of his chest",
+   "Planning rest periods during the day to manage tiredness"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. In external radiation the source is outside; the client is not radioactive and can be touched.\n2. The misconception about radioactivity is the clearest error.\n3. Leaving the marks on the skin, loose clothing and planning rest are the correct habits.\nFlip: after an internal implant, some distance rules would apply.",
+  "optionRationales": [
+   "Correct: the marks guide each treatment and must stay.",
+   "Right: false belief that limits family contact.",
+   "Correct: loose clothing protects skin.",
+   "Correct: fatigue planning."
+  ],
+  "strategy": "Correct misconceptions: not radioactive",
+  "archetype": "needs further teaching",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "External radiation: client not radioactive",
+   "Do not wash off the marks"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0093",
+  "v": 2,
+  "type": "sata",
+  "area": "NP3",
+  "topic": "Sealed implant precautions",
+  "noteId": "np3-ho-internal-radiation-brachytherapy",
+  "vignette": "A 52-year-old woman has a cervical sealed radiation implant in place. The nurse is orienting a new graduate nurse and a nursing assistant to the precautions for her room.",
+  "stem": "Which precautions apply? Select all that apply.",
+  "options": [
+   "Wear a dosimeter badge when providing care",
+   "Keep her in a private room",
+   "Limit time at the bedside and stay about 6 feet away when possible",
+   "Allow a 10-year-old grandchild to sit by the bed",
+   "Flush the toilet three times after each use"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "rationale": "1. Internal radiation requires shielding (dosimeter badge), limited time, distance (about 6 feet) and a private room; pregnant staff and child visitors are excluded.\n2. Flushing the toilet three times applies to unsealed sources whose body fluids are radioactive; with a sealed implant, fluids are not radioactive.\nFlip: for iodine-131, flushing three times would be added.",
+  "optionRationales": [
+   "Correct: a dosimeter badge measures the radiation dose the staff member receives while giving care.",
+   "Correct: private room.",
+   "Correct: time and distance.",
+   "Incorrect: children are excluded as visitors.",
+   "Incorrect: applies to unsealed sources."
+  ],
+  "strategy": "Shielding, time, distance",
+  "archetype": "select appropriate precautions",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Shielding, time, distance; private room",
+   "Sealed: body fluids not radioactive"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0094",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Suspicious mole",
+  "noteId": "np3-ho-skin-cancer",
+  "vignette": "A 54-year-old fisherman shows the nurse a mole on his shoulder. One half does not match the other, the edge is notched, and the color is brown with black patches. He says it has grown over the past few months but he feels fine and wants to wait until after the fishing season three months from now.",
+  "stem": "What is the nurse's best response?",
+  "options": [
+   "Advise a provider examination now, as these features suggest melanoma",
+   "Agree to review the mole again after the season ends",
+   "Suggest he cover it with a dressing and apply moisturizing cream until the fishing season is over",
+   "Teach him to scrub the area with a brush to remove the dark patches"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Asymmetry, border irregularity, color variation and growth are the ABCDE cues of melanoma, the deadliest skin cancer.\n2. Early detection gives the best chance of cure, so evaluation and biopsy should not wait.\n3. Waiting, covering or scrubbing the lesion are unsafe.\nFlip: a flat uniform brown mole unchanged for years would be monitored.",
+  "optionRationales": [
+   "Right: refer for prompt evaluation.",
+   "Wrong: the trap of watching for months.",
+   "Wrong: hides the lesion.",
+   "Wrong: trauma may harm."
+  ],
+  "strategy": "Early detection: do not delay",
+  "archetype": "act now rather than watch",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "ABCDE rule for suspicious moles",
+   "Early detection is the best chance of cure"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0095",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Match first sign to organ",
+  "noteId": "np3-ho-x-cancer-organ-summary",
+  "vignette": "A 66-year-old retired factory worker who smoked for 40 years comes to the clinic because his urine was red yesterday. He felt no pain or burning, and it has cleared. He says he does not want tests because he feels fine.",
+  "stem": "Which test should the nurse expect the provider to plan?",
+  "options": [
+   "ERCP of the bile and pancreatic ducts",
+   "Liver biopsy through the skin",
+   "Cystoscopy with bladder biopsy",
+   "Fecal occult blood testing"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Painless hematuria is the earliest and most common sign of bladder cancer; smoking and industrial chemicals are risk factors.\n2. Cystoscopy (and CT) are the tests; ERCP belongs to pancreatic and gallbladder disease, liver biopsy to liver cancer, and fecal occult blood to colon cancer.\nFlip: clay-colored stools and weight loss would point toward the pancreas.",
+  "optionRationales": [
+   "Wrong: plausible detail from pancreatic cancer.",
+   "Wrong: plausible detail from liver cancer.",
+   "Right: bladder cancer work-up.",
+   "Wrong: plausible detail from colon cancer."
+  ],
+  "strategy": "Match first sign to organ",
+  "archetype": "pattern recognition",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Painless hematuria: bladder cancer",
+   "Cystoscopy and CT"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0096",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Verify the route",
+  "noteId": "np3-ho-x-chemo-routes",
+  "vignette": "A chemotherapy order reads: 'methotrexate intrathecal via Ommaya reservoir.' The pharmacy sends a syringe labelled for intravenous use only. The client is waiting in the treatment room, and the oncology nurse who is usually responsible for this task is on break.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Give the drug through the Ommaya reservoir since the order is signed",
+   "Give the drug by the intravenous route because the label says so",
+   "Ask a colleague to confirm that the syringe looks correct and give it",
+   "Hold the drug and verify the route with the prescriber and pharmacist"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Some drugs are safe by only one route; confusing intravenous with intrathecal can be fatal.\n2. A mismatch between the order and the label means stop and verify with the prescriber and pharmacy.\n3. Following the order without reconciling the label, or choosing the label, perpetuates the error.\nFlip: if the label and order matched, the nurse would follow safe-handling rules and aseptic technique for the device.",
+  "optionRationales": [
+   "Wrong: unsafe habit; the product may be unsuitable.",
+   "Wrong: giving the drug intravenously because of the label is also unsafe; the order and label conflict, so the route must be verified first.",
+   "Wrong: a colleague's glance is not verification.",
+   "Right: stop and verify."
+  ],
+  "strategy": "Verify before giving; wrong route can be fatal",
+  "archetype": "wrong route can be fatal",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Verify the route in the order",
+   "Intrathecal: Ommaya reservoir, aseptic technique"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0097",
+  "v": 2,
+  "type": "sata",
+  "area": "NP3",
+  "topic": "Safe handling of chemotherapy",
+  "noteId": "np3-ho-chemo-safe-handling",
+  "vignette": "A new nurse is preparing to mix and give a chemotherapy drug at the bedside. The preceptor reviews the safe-handling rules with her.",
+  "stem": "Which actions are correct? Select all that apply.",
+  "options": [
+   "Wear gloves, a gown and a face shield",
+   "Wrap gauze or an alcohol pad around the ampule neck",
+   "Label the prepared drug as hazardous",
+   "Chew gum to relieve nervousness while preparing the drug",
+   "Place used equipment in the regular waste bin"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "rationale": "1. Chemotherapy drugs are hazardous: gloves, gown and face shield, gauze around ampule necks, hazardous labels, and a leak-proof, puncture-proof disposal container.\n2. No eating, chewing or smoking while preparing; waste does not go in the regular bin.\nFlip: pregnant nurses should not handle the drugs at all.",
+  "optionRationales": [
+   "Correct: protective equipment.",
+   "Correct: reduces splash.",
+   "Correct: labels warn others.",
+   "Incorrect: no eating or chewing during preparation.",
+   "Incorrect: needs a leak-proof, puncture-proof container."
+  ],
+  "strategy": "Hazardous drug handling",
+  "archetype": "select correct practice",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Gloves, gown, face shield; hazardous labels",
+   "Leak-proof and puncture-proof disposal"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0098",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Pruritus care in obstructive disease",
+  "noteId": "np3-ho-pancreatic-cancer-whipple",
+  "vignette": "A 72-year-old man with pancreatic cancer has had weight loss, clay-colored stools and intense itching over his trunk. He has scratched until his skin is raw. He asks for hot showers because they are the only thing that soothes him for a few minutes.",
+  "stem": "Which nursing action is the most appropriate?",
+  "options": [
+   "Allow hot showers twice daily because the heat gives him relief",
+   "Tell him to rub the itchy areas firmly with a rough cloth instead of scratching with his fingernails",
+   "Restrict fluids to reduce the amount of bile salts reaching the skin",
+   "Keep his nails short, use cool baths and emollients, and give ordered antipruritics"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Itching in pancreatic and biliary obstruction is caused by bile salts deposited in the skin.\n2. Care aims to relieve itching and protect the skin: short nails, cool or tepid baths, emollients, and prescribed medicines.\n3. Heat and rough rubbing worsen itching and damage skin; fluid restriction does not remove bile salts.\nFlip: if the skin were intact and itching mild, simple emollients would suffice.",
+  "optionRationales": [
+   "Wrong: heat worsens itching.",
+   "Wrong: rubbing firmly with a rough cloth injures the skin just as scratching does.",
+   "Wrong: fluids support nutrition and hydration.",
+   "Right: relieves itch and protects skin."
+  ],
+  "strategy": "Protect skin integrity",
+  "archetype": "address the cause of the symptom",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Skin care for pruritus",
+   "Clay-colored stools and weight loss in pancreatic cancer"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0099",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "After liver biopsy",
+  "noteId": "np3-ho-hepatocellular-cancer",
+  "vignette": "Six hours after a percutaneous liver biopsy, a client's BP has fallen from 126/76 to 98/60 and his HR has risen from 80 to 110. He is restless, says the pain at the site is increasing, and asks to be turned to a comfortable position. The site dressing is dry.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Give the ordered analgesic and reposition him for comfort",
+   "Reinforce the dry dressing and recheck vital signs in an hour",
+   "Increase monitoring, keep him still and notify the provider",
+   "Encourage oral fluids and reassure him that the pain is normal"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. The liver makes clotting factors; after biopsy or surgery bleeding is the first concern.\n2. Falling BP, rising pulse, restlessness and worsening site pain suggest hemorrhage, even with a dry dressing.\n3. Treating the pain or waiting an hour delays recognition of shock.\nFlip: with stable vital signs and mild expected soreness, analgesia would be appropriate.",
+  "optionRationales": [
+   "Wrong: treats the symptom.",
+   "Wrong: under-reaction.",
+   "Right: suspect bleeding and escalate.",
+   "Wrong: false reassurance."
+  ],
+  "strategy": "Liver bleeds more: clotting factors",
+  "archetype": "watch for bleeding",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "After biopsy or surgery watch for bleeding first",
+   "A liver that makes fewer clotting factors bleeds more"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0100",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Obstruction cues after cholecystectomy",
+  "noteId": "np3-ho-gallbladder-cancer-cholecystectomy-care",
+  "vignette": "A client on day 2 after open cholecystectomy with a T tube has mild incisional pain controlled with analgesics and a T-tube drainage that is green-brown. The nurse sees that the whites of his eyes have turned yellow, his stools are pale gray, his urine is dark, and he is itching.",
+  "stem": "Which finding is the most concerning?",
+  "options": [
+   "Pale gray stools with yellow eyes and dark urine",
+   "Green-brown drainage in the T tube since the operation",
+   "Incisional pain controlled with analgesics",
+   "Preference to lie in a low Fowler's position"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Clay or pale stools, jaundice, dark urine and itching suggest bile duct obstruction or infection and must be reported.\n2. Green-brown bile in a T tube, controlled pain and low Fowler's positioning are expected.\nFlip: a sudden large increase in T-tube drainage would also be reported, but for a different reason.",
+  "optionRationales": [
+   "Right: obstruction cues.",
+   "Wrong: normal bile color.",
+   "Wrong: expected, controlled.",
+   "Wrong: the recommended position."
+  ],
+  "strategy": "Recognise bile duct obstruction",
+  "archetype": "recognise complication",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Report clay or pale stools, jaundice, dark urine, itching",
+   "T tube keeps the bile duct open"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ }
+]

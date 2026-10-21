@@ -1,0 +1,939 @@
+[
+ {
+  "id": "np4-0076",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Bone metastases with high calcium",
+  "noteId": "np4-or-x-metastatic-hypercalcemia",
+  "vignette": "A 66-year-old man with prostate cancer that has spread to his spine and femur has a markedly high calcium result. He is nauseated and sleepier than yesterday and asks for his pain medicine. Orders include IV normal saline, a bone-resorption blocker, and an antacid containing calcium.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Restrict all fluids to protect his kidneys while the calcium is high",
+   "Give the antacid for his nausea before anything else is started",
+   "Start the IV saline and monitor his heart rhythm",
+   "Place him on strict bed rest with the femur elevated all day"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: markedly high calcium, nausea and sleepiness in a client with bone metastases.\n2. Principle: bone breakdown floods the blood with calcium, which threatens rhythm and consciousness.\n3. Priority rule: start the treatment that lowers calcium and monitor the heart before comfort measures.\n4. The key beats bed rest because immobility makes the problem worse.\nFlip: If calcium were normal and the pain were his only problem, the analgesic would come first.",
+  "optionRationales": [
+   "Over-intervention. Dehydration worsens hypercalcemia; fluids are the first treatment.",
+   "Unsafe. A calcium-containing antacid adds calcium to an already high level.",
+   "Correct. Hydration dilutes calcium and promotes excretion, and rhythm changes are the danger in severe hypercalcemia.",
+   "Plausible detail from fracture care. Immobility releases more calcium from bone, so activity is encouraged with gentle handling."
+  ],
+  "strategy": "Treat the dangerous lab first",
+  "archetype": "Fluids first, then drugs",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Hypercalcemia from bone metastases",
+   "IV normal saline and mobilisation; handle limbs gently"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0077",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Delayed antibiotics in bone infection",
+  "noteId": "np4-or-osteomyelitis",
+  "vignette": "A client with osteomyelitis after an open tibial fracture is due for his 1400 IV antibiotic. His IV site has just infiltrated. He also has a dressing change due, and a visitor says the antibiotic could simply be given by mouth later.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Restart IV access promptly so the dose is not delayed",
+   "Do the dressing change first and restart the IV at 1500",
+   "Give the same drug by mouth since it is the same antibiotic",
+   "Hold the dose until the provider rounds in the evening"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: infiltrated IV, antibiotic due, osteomyelitis.\n2. Principle: bone infection needs prolonged, steady IV antibiotic levels.\n3. Priority rule: protect the dose schedule before routine tasks.\n4. The key beats the dressing change because delay in the antibiotic risks spread.\nFlip: If the antibiotic were already given and the IV site was clean, the dressing change could proceed.",
+  "optionRationales": [
+   "Correct. Infected bone is poorly perfused, so IV antibiotics must stay on schedule to maintain effective levels.",
+   "Right care, wrong order. The antibiotic is time-critical and the dressing can follow.",
+   "Unsafe habit. Route changes require an order and may not reach the bone.",
+   "Under-reaction. A long delay lets infection progress."
+  ],
+  "strategy": "Time-critical medication",
+  "archetype": "Protect the antibiotic schedule",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "IV antibiotics on time for weeks",
+   "Infected bone has poor blood supply"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0078",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Open fracture first aid",
+  "noteId": "np4-or-fractures",
+  "vignette": "A farm worker is brought in after a fall from a ladder. His lower leg has a bone end through a wound that is bleeding steadily, his foot is pale and cool, and he asks the nurse to straighten the leg so he can lie flat. His blood pressure is 100/60.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Straighten the leg to restore circulation to the foot",
+   "Push the bone end back under the skin before splinting",
+   "Elevate the leg and apply ice while waiting for the physician",
+   "Apply direct pressure over a sterile dressing"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: protruding bone, steady bleeding, pale cool foot, borderline pressure.\n2. Principle: hemorrhage threatens circulation and the open wound threatens infection.\n3. Priority rule: control bleeding, immobilise as found, then reassess neurovascular status.\n4. The key beats straightening because alignment is not a nursing action.\nFlip: If the wound were not bleeding, immobilising and checking neurovascular status would lead.",
+  "optionRationales": [
+   "Unsafe habit. Realigning an open fracture risks more injury and contamination.",
+   "Over-intervention. Reduction is not a nursing action and contaminates the wound.",
+   "Right measures, wrong priority. Bleeding control precedes comfort measures.",
+   "Correct. Controlling bleeding comes first; the limb is then splinted in the position found and neurovascular status rechecked."
+  ],
+  "strategy": "Maslow: circulation first",
+  "archetype": "Bleeding before alignment",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Immobilise before moving",
+   "Cover open wounds and control bleeding"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0079",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "New cast with swelling",
+  "noteId": "np4-or-cast-care",
+  "vignette": "Six hours after a long-arm cast is applied, a client reports itching. The nurse finds swollen, pink fingers with capillary refill slower than before and mild tingling. The client says she wants to scratch with a knitting needle.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Cut the cast along the edge to relieve pressure with scissors",
+   "Raise the arm to heart level and reassess neurovascular status",
+   "Explain that a hair dryer on cool air can ease itching",
+   "Document the swelling as expected and recheck at the end of shift"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: swollen fingers, slower refill, tingling after a new cast.\n2. Principle: swelling inside a rigid cast can compress vessels and nerves.\n3. Priority rule: do the least invasive corrective step, then reassess and report if no better.\n4. The key beats the hair dryer because it treats the minor symptom.\nFlip: If the pain were severe and unrelieved by elevation, the provider would be called immediately.",
+  "optionRationales": [
+   "Over-intervention. Cast cutting is not a nursing action here and risks injury.",
+   "Correct. Elevation is the first measure for swelling, and rechecking decides whether to report at once.",
+   "True teaching that does not address the slow refill and tingling.",
+   "Under-reaction. Slow refill and tingling are warning signs that need action."
+  ],
+  "strategy": "Assess before act; least invasive first",
+  "archetype": "Elevate and reassess",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Elevate the limb to heart level",
+   "Report pain not relieved by elevation and analgesics"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0080",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Pressure under a cast",
+  "noteId": "np4-or-cast-complications",
+  "vignette": "A client with a leg cast for two weeks complains of burning pain over the heel. The nurse notices a warm spot on the cast, a musty smell, and a stain on the plaster. His temperature is 38.0 C and he wants to keep the cast intact until his appointment.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Spray deodorizer on the cast to control the odor",
+   "Report the findings and prepare for the cast to be windowed",
+   "Add reinforcing plaster over the warm spot to protect the heel",
+   "Pad the cast edges and recheck at his appointment"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: heel burning, warm spot, odor and stain, low fever.\n2. Principle: pressure under a cast breaks down skin and causes infection.\n3. Priority rule: escalate so the area can be inspected.\n4. The key beats padding because inspection needs access.\nFlip: If the cast were clean and dry with no pain, routine checks would be enough.",
+  "optionRationales": [
+   "Treats the symptom. Odor reflects tissue breakdown and infection.",
+   "Correct. Pain, a warm spot, odor and drainage signal a pressure ulcer under the cast that must be inspected.",
+   "Over-intervention. This adds pressure and hides the problem.",
+   "Under-reaction. Waiting leaves an ulcer or infection to progress."
+  ],
+  "strategy": "Report hidden complications",
+  "archetype": "Recognise a hidden ulcer",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Heel and ankle are common pressure sites",
+   "Warm spot and odor mean a problem below"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0081",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Body cast abdominal problem",
+  "noteId": "np4-or-spica-cast",
+  "vignette": "Two days after a body cast was applied, a client reports abdominal fullness and nausea and has vomited twice. His bowel sounds are faint, his abdomen is distended, and the cast edges look slightly red. He asks for his dinner tray.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Give an antiemetic and let him eat his dinner",
+   "Encourage him to walk the hall to restore bowel movement",
+   "Cut a larger abdominal window in the cast",
+   "Hold oral intake, assess and notify the provider"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: vomiting, distended abdomen and faint bowel sounds in a body cast.\n2. Principle: the cast can compress the bowel and cause obstruction.\n3. Priority rule: stop oral intake and escalate a possible obstruction.\n4. The key beats the antiemetic because the cause needs medical treatment.\nFlip: If bowel sounds were normal and he had no distention, skin care at the edges would be the main concern.",
+  "optionRationales": [
+   "Treats the symptom. Eating with possible obstruction risks more vomiting and aspiration.",
+   "Unsafe. Activity does not relieve obstruction and a cast may limit it.",
+   "Outside nursing scope. Altering the cast is the provider's decision.",
+   "Correct. Distention, nausea and vomiting in a body cast suggest cast syndrome with possible bowel obstruction."
+  ],
+  "strategy": "Assess before act",
+  "archetype": "Cast syndrome clues",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Cast syndrome: distention, nausea, vomiting",
+   "Report abdominal distention immediately"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0082",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Loose frame clamps",
+  "noteId": "np4-or-external-fixator",
+  "vignette": "A client with an external fixator on his tibia says his leg feels less stable when he turns. The nurse finds one clamp on the frame looser than before. The pin sites are clean and his toes are warm and pink. A wrench lies in the bedside drawer.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Support the leg and notify the physician about the clamp",
+   "Tighten the clamp with the wrench kept in the bedside drawer",
+   "Wrap an elastic bandage firmly around the frame and leg",
+   "Encourage him to keep turning gently to test the frame"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: loose clamp, less stable leg, good neurovascular status.\n2. Principle: the frame holds the fracture in alignment, so only the physician changes it.\n3. Priority rule: support and report, do not adjust.\n4. The key beats tightening because it respects scope.\nFlip: If the toes were pale and cold, urgent neurovascular reporting would be added.",
+  "optionRationales": [
+   "Correct. Only the physician adjusts the frame, and the leg should stay supported until then.",
+   "Outside scope. Frame adjustments are made by the physician.",
+   "Over-intervention. Wrapping adds pressure and does not fix stability.",
+   "Unsafe. Movement of an unstable fixator can displace the fracture."
+  ],
+  "strategy": "Scope of practice",
+  "archetype": "Never adjust the frame",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Nurse never adjusts clamps on the frame",
+   "Handle with support; do not lift by the frame"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0083",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Skeletal traction slipped",
+  "noteId": "np4-or-traction-basics",
+  "vignette": "A client in skeletal femoral traction has slid toward the foot of the bed and the weights are resting on the floor. His toes are warm and he reports more thigh pain. An aide offers to lift the weights onto the bed rail.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Remove the weights until he is repositioned",
+   "Rest the weights on the bed rail to reduce his pain",
+   "Re-center him and let the weights hang freely",
+   "Call the physician before touching anything"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: weights on the floor, client slid down, pain increased.\n2. Principle: traction only works when the pull is continuous and aligned.\n3. Priority rule: restore alignment and free-hanging weights first, then assess.\n4. The key beats removing weights because they must not be released.\nFlip: If he developed chest pain and collapsed, emergency care would take priority over traction.",
+  "optionRationales": [
+   "Unsafe. Skeletal traction weights are never removed except in a life-threatening emergency.",
+   "Unsafe habit. Weights that touch the bed or rail stop the pull.",
+   "Correct. Traction must stay continuous with correct alignment; then neurovascular status is checked.",
+   "Under-reaction. The nurse can restore alignment and the line of pull immediately."
+  ],
+  "strategy": "Continuous pull and alignment",
+  "archetype": "Restore the pull",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Skeletal traction is never interrupted",
+   "Weights hang freely; keep alignment"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0084",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Calf changes in traction",
+  "noteId": "np4-or-skeletal-traction",
+  "vignette": "On day 3 of skeletal femoral traction, a client has tenderness, warmth and swelling in his left calf. His right calf is normal. The nurse had taught him foot exercises, and he asks if she can massage the calf.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Massage the calf gently to improve circulation",
+   "Ask him to do ankle pumps more vigorously every few minutes",
+   "Apply a warm compress to ease the tenderness",
+   "Keep the leg at rest, avoid massage and report the findings"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: one-sided calf tenderness, warmth and swelling in a bed-bound client.\n2. Principle: immobility slows venous return and forms clots.\n3. Priority rule: rest the limb and escalate rather than treat independently.\n4. The key beats ankle pumping because the clot may already be there.\nFlip: If both calves were normal, ankle pumps and stockings would be correct prevention.",
+  "optionRationales": [
+   "Unsafe habit. Massage can send a clot to the lungs.",
+   "Right prevention, wrong time. Exercise is for prevention, not for a suspected clot.",
+   "Treats the symptom. Heat does not treat a clot and may worsen swelling.",
+   "Correct. One-sided calf tenderness, warmth and swelling suggest a clot; massage could dislodge it."
+  ],
+  "strategy": "Safety: do not disturb a suspected clot",
+  "archetype": "Do not massage a suspected clot",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Watch for one-sided calf changes in traction",
+   "Calf pumping is for prevention"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0085",
+  "v": 2,
+  "type": "sata",
+  "area": "NP4",
+  "topic": "Immobility in traction",
+  "noteId": "np4-or-x-traction-complications",
+  "vignette": "A client has been on bed rest in skeletal traction for five days. The nurse reviews her risks for lung, bowel, bladder and vein problems.",
+  "stem": "Which interventions should the nurse use? Select all that apply.",
+  "options": [
+   "Teach deep breathing and coughing",
+   "Encourage fluids and a high-fiber diet",
+   "Teach ankle and calf exercises while she is awake",
+   "Restrict fluids so she needs the bedpan less often",
+   "Massage her calves to prevent clots",
+   "Remove the traction weights while she eats"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "rationale": "1. Cue: five days of bed rest in traction.\n2. Principle: immobility affects lungs, bowel, bladder and veins.\n3. Priority rule: choose actions that prevent each complication.\n4. The correct options address lungs, bowel and bladder, and veins.\nFlip: If she developed calf swelling on one side, massage and exercise would be avoided and the provider notified.",
+  "optionRationales": [
+   "Correct. This expands the lungs and clears secretions.",
+   "Correct. Fluids help prevent urinary stasis and constipation.",
+   "Correct. Exercises reduce venous stasis.",
+   "Incorrect. Restriction raises the risk of urinary infection and constipation.",
+   "Incorrect. Massage can dislodge a clot.",
+   "Incorrect. Skeletal traction weights are never removed except in a life-threatening emergency."
+  ],
+  "strategy": "Prevent complications of immobility",
+  "archetype": "Select preventive actions",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Immobility threatens lungs, gut, bladder and veins",
+   "Never remove skeletal traction weights"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0086",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Hip replacement dislocation",
+  "noteId": "np4-or-total-hip",
+  "vignette": "A client on day 1 after total hip replacement stood up from a low toilet seat and now reports sudden severe hip pain. Her operated leg looks shorter and turned inward, and she cannot move it. A student suggests helping her walk to bed.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Help her walk to bed so she can lie flat",
+   "Keep her still and notify the surgeon",
+   "Give her pain medication and recheck in an hour",
+   "Flex the hip to ease the pain and realign the leg"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: low toilet seat, sudden severe pain, shortened inward-turned leg.\n2. Principle: hip flexion past 90 degrees can dislocate the prosthesis.\n3. Priority rule: stabilise the limb and notify the surgeon.\n4. The key beats walking because weight-bearing worsens the displacement.\nFlip: If the pain were mild and the leg looked normal, protective positioning would be reinforced.",
+  "optionRationales": [
+   "Unsafe. Bearing weight on a dislocated hip risks further damage.",
+   "Correct. The signs suggest dislocation of the prosthesis, and movement can worsen injury.",
+   "Treats the symptom. The cause needs urgent surgical attention.",
+   "Over-intervention. Flexing past the limit pushes the prosthesis further out."
+  ],
+  "strategy": "Stop and escalate",
+  "archetype": "Recognise dislocation",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Never flex the hip past 90 degrees",
+   "Suspected dislocation: notify the surgeon"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0087",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Knee osteoarthritis teaching",
+  "noteId": "np4-or-osteoarthritis",
+  "vignette": "A 62-year-old woman with osteoarthritis of the left knee will start using a cane. She states how she will use it and how she will manage her symptoms.",
+  "stem": "Which statement shows teaching was effective?",
+  "options": [
+   "I will hold the cane in my left hand, on the sore side",
+   "I will stay in bed until the pain is gone",
+   "I will hold the cane in my right hand",
+   "I will start jogging to strengthen the knee quickly"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: left knee OA with a cane.\n2. Principle: the cane transfers load away from the painful joint.\n3. Priority rule: choose the statement that applies the aid correctly.\n4. The key beats the other hand because it unloads the knee.\nFlip: If the right knee were the painful one, the cane would be held in the left hand.",
+  "optionRationales": [
+   "Incorrect. This does not unload the sore knee.",
+   "Incorrect. Rest of the joint is balanced with gentle movement.",
+   "Correct. The cane is held on the stronger side to relieve the painful joint.",
+   "Incorrect. Exercise is begun in moderation and increased slowly."
+  ],
+  "strategy": "Match teaching to disease",
+  "archetype": "Use the aid correctly",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Hold the cane on the stronger side",
+   "Weight reduction and moderate exercise"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0088",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "RA and infection risk",
+  "noteId": "np4-or-rheumatoid-arthritis",
+  "vignette": "A client with rheumatoid arthritis taking immune-suppressing drugs reports two hours of morning stiffness that eases with movement, symmetrical swelling of both wrists, and a sore throat with a temperature of 38.3 C since yesterday.",
+  "stem": "Which finding should be reported first?",
+  "options": [
+   "Sore throat with a temperature of 38.3 C",
+   "Morning stiffness lasting two hours",
+   "Symmetrical swelling of both wrists",
+   "Tiredness that lasts through the afternoon"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: fever and sore throat on immunosuppressants.\n2. Principle: these drugs blunt the immune response.\n3. Priority rule: new acute findings outrank expected disease features.\n4. The key beats stiffness because infection can progress quickly.\nFlip: If he had no fever and only stiffness, routine medication review would continue.",
+  "optionRationales": [
+   "Correct. Immune-suppressing drugs raise infection risk, and fever needs prompt evaluation.",
+   "Typical of rheumatoid arthritis and not a new complication.",
+   "Expected pattern of the disease.",
+   "Common with the disease and not urgent."
+  ],
+  "strategy": "Recognise the new finding",
+  "archetype": "Report the fever",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "RA is symmetrical and systemic",
+   "Immune-suppressing drugs raise infection risk"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0089",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Post-amputation bleeding",
+  "noteId": "np4-or-amputation",
+  "vignette": "On day 1 after a below-knee amputation, a client's residual limb dressing is newly soaked with bright red blood and the stain has spread beyond the marked line. His pulse is 108. A student suggests propping the limb on a pillow.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Apply direct pressure and notify the surgeon",
+   "Prop the limb on a pillow to reduce swelling",
+   "Remove the dressing to inspect the incision",
+   "Mark the edge of the stain and recheck in an hour"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: expanding bloody dressing and pulse of 108.\n2. Principle: postoperative hemorrhage is a major amputation risk.\n3. Priority rule: stop bleeding and notify the surgeon before routine care.\n4. The key beats marking because the stain has already grown.\nFlip: If the stain were small and static, marking and monitoring would be correct.",
+  "optionRationales": [
+   "Correct. Increasing bleeding is an emergency; the tourniquet at the bedside is available if bleeding is massive.",
+   "Unsafe. A pillow under the residual limb promotes contracture.",
+   "Over-intervention. Removing the dressing can increase bleeding.",
+   "Under-reaction. Increasing drainage with tachycardia is urgent."
+  ],
+  "strategy": "Maslow: circulation first",
+  "archetype": "Control bleeding first",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Keep a tourniquet at the bedside",
+   "No pillow under the residual limb"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0090",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Phantom limb response",
+  "noteId": "np4-or-x-phantom-limb-residual",
+  "vignette": "A client three days after a below-knee amputation says, 'My foot is burning and cramping, but it is not even there.' He looks embarrassed.",
+  "stem": "Which response by the nurse is best?",
+  "options": [
+   "Those feelings are only an illusion that stops once you accept the loss",
+   "I will ask for a stronger opioid before we talk any further",
+   "These feelings are real; tell me more so we can plan relief",
+   "Try not to look at the residual limb until the burning passes"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: burning in a missing limb and embarrassment.\n2. Principle: severed nerves cause genuine phantom sensations.\n3. Priority rule: acknowledge and assess before treating.\n4. The key beats the opioid response because it explores the problem first.\nFlip: If he reported fever and wound redness, wound assessment would take priority.",
+  "optionRationales": [
+   "Invalidating. It dismisses a real symptom.",
+   "Jumps to treatment. A description and assessment come first.",
+   "Correct. Phantom sensations are real, caused by cut nerves, and acknowledging them builds trust.",
+   "Unhelpful. Looking and touching the limb supports body image."
+  ],
+  "strategy": "Therapeutic communication",
+  "archetype": "Validate the sensation",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Phantom sensations are real",
+   "Acknowledge, let the client talk, then treat"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0091",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Crutch stair climbing",
+  "noteId": "np4-or-crutch-gaits",
+  "vignette": "A client with a fractured left ankle is non-weight-bearing on the left and is learning to use stairs with crutches. The nurse listens to her plan.",
+  "stem": "Which statement shows she needs more teaching?",
+  "options": [
+   "Going up, I will lead with my right leg",
+   "Going down, I will step with my right leg first",
+   "Going down, I will move both crutches and my left leg first",
+   "I will have someone stand on my weaker side"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: left ankle non-weight-bearing with crutches.\n2. Principle: stairs use the good leg to lift going up and the crutches to control going down.\n3. Priority rule: pick the statement that reverses the rule.\n4. The key stands out as the descent instruction led by the good leg.\nFlip: If the right ankle were injured, the legs in the statement would be reversed.",
+  "optionRationales": [
+   "Appropriate. The good leg goes up first.",
+   "Correct. Going down, the crutches and injured leg go first, then the good leg.",
+   "Appropriate. This protects the injured leg.",
+   "Appropriate safety measure."
+  ],
+  "strategy": "Up with the good, down with the bad",
+  "archetype": "Up with the good",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Up with the good, down with the bad",
+   "Stand on the weaker side when guarding"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0092",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Back pain in osteoporosis",
+  "noteId": "np4-or-osteoporosis",
+  "vignette": "A 74-year-old woman with osteoporosis and a stooped upper back reports sudden mid-back pain after lifting a grocery bag. Her legs have normal strength and sensation. She asks for a heat pack and says she will do extra back exercises to strengthen it.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Encourage vigorous back-strengthening exercises right away",
+   "Apply heat and massage the painful area",
+   "Reassure her it is muscle strain and advise rest",
+   "Assess the pain and report a possible vertebral fracture"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: sudden back pain after a light load in osteoporosis.\n2. Principle: weak vertebrae can fracture with minor stress.\n3. Priority rule: assess and report before treating as strain.\n4. The key beats exercise because stress on a fracture can worsen it.\nFlip: If the pain followed a hard fall with leg numbness, urgent care would be even more pressing.",
+  "optionRationales": [
+   "Over-intervention. Exercise could worsen a fracture before it is evaluated.",
+   "Treats the symptom. Massage can aggravate a fracture.",
+   "Under-reaction. The explanation assumes the benign cause.",
+   "Correct. Sudden pain after minor strain in osteoporosis suggests a compression fracture and needs evaluation."
+  ],
+  "strategy": "Suspect the serious cause",
+  "archetype": "Suspect a fracture",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Osteoporosis fractures easily, including vertebrae",
+   "Safety first: prevent falls"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0093",
+  "v": 2,
+  "type": "sata",
+  "area": "NP4",
+  "topic": "Gout self-care",
+  "noteId": "np4-or-gout",
+  "vignette": "A 48-year-old man has recurrent gout in his big toe. He drinks beer on weekends and eats organ meats and sardines. He asks how to reduce attacks.",
+  "stem": "Which teaching points should the nurse include? Select all that apply.",
+  "options": [
+   "Drink plenty of fluids each day",
+   "Limit alcohol",
+   "Limit organ meats and oily fish such as sardines",
+   "Fast for several days to lose weight quickly",
+   "Take the preventive medicine only during attacks",
+   "Massage the sore joint to speed recovery"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "rationale": "1. Cue: recurrent gout with alcohol and high-purine foods.\n2. Principle: uric acid rises with purines and falls with fluids and less alcohol.\n3. Priority rule: teach measures that lower uric acid and avoid harmful shortcuts.\n4. The correct options are fluids, limiting alcohol and limiting high-purine foods.\nFlip: If he were in an acute attack, rest of the joint and prompt treatment would be added.",
+  "optionRationales": [
+   "Correct. Fluids help flush uric acid through the kidneys.",
+   "Correct. Alcohol reduces uric acid excretion.",
+   "Correct. These are high in purines.",
+   "Incorrect. Rapid weight loss can raise uric acid; gradual loss is advised.",
+   "Incorrect. Preventive drugs are taken as scheduled, not only during attacks.",
+   "Incorrect. The inflamed joint should be rested and not manipulated."
+  ],
+  "strategy": "Lifestyle teaching",
+  "archetype": "Select supportive teaching",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Gout: high uric acid; push fluids",
+   "Limit alcohol and purine-rich foods"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0094",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Back pain red flag",
+  "noteId": "np4-or-low-back-pain",
+  "vignette": "A 45-year-old man with 2 days of low back pain after lifting reports pain that eases when he changes position, stiffness in the morning, pain that shoots down his right leg when he coughs, and, since this morning, difficulty starting urine with numbness around his groin.",
+  "stem": "Which finding should the nurse report immediately?",
+  "options": [
+   "Pain shooting down the right leg when he coughs",
+   "Morning stiffness that eases after moving",
+   "Difficulty urinating with groin numbness",
+   "Pain that improves with changes of position"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: bladder difficulty and groin numbness with back pain.\n2. Principle: loss of bladder or bowel control signals possible cord or nerve root compression.\n3. Priority rule: sphincter or saddle changes are urgent, while sciatica is serious but lower priority.\n4. The key beats leg pain because it threatens permanent loss of function.\nFlip: If the leg pain were new weakness of the foot with normal bladder function, it would also be reported promptly but with less urgency.",
+  "optionRationales": [
+   "Suggests nerve irritation and needs follow-up, but it is not the most urgent sign.",
+   "Common with back strain.",
+   "Correct. New bladder trouble with numbness can mean serious nerve compression and needs urgent evaluation.",
+   "Typical of mechanical back pain."
+  ],
+  "strategy": "Unstable before stable: red flag",
+  "archetype": "Spot the urgent finding",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Most back pain is self-limiting",
+   "Report new leg weakness or numbness promptly"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0095",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Skin traction burning sensation",
+  "noteId": "np4-or-skin-traction",
+  "vignette": "A client in Buck's traction for a hip problem reports burning under the boot over the outer side of her lower leg. Her foot is warm with good pulses and she can wiggle her toes. The next scheduled skin check is in two hours, and she asks for something for the discomfort.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Give her analgesic and check the skin at the scheduled time",
+   "Loosen the straps of the boot and leave them loose",
+   "Apply moisturising lotion under the boot to ease burning",
+   "Check the boot area and investigate the burning now"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: burning sensation under the traction boot with normal circulation.\n2. Principle: pressure on the peroneal nerve or skin can cause burning and footdrop.\n3. Priority rule: investigate a nerve symptom now rather than wait.\n4. The key beats analgesia because it finds the cause.\nFlip: If the pain were only mild aching from lying still, repositioning and scheduled checks would be enough.",
+  "optionRationales": [
+   "Treats the symptom. Delay risks nerve or skin damage.",
+   "Over-intervention. Changing the pull without checking disrupts the traction.",
+   "Unsafe. Lotion under traction may cause skin slipping and irritation.",
+   "Correct. Burning under traction material can mean pressure on a nerve or skin and must be investigated at once."
+  ],
+  "strategy": "Assess before act",
+  "archetype": "Investigate nerve complaints",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Investigate burning under the boot immediately",
+   "Peroneal nerve pressure causes footdrop"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0096",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "After carotid surgery",
+  "noteId": "np4-ns-x-carotid-surgery",
+  "vignette": "Six hours after carotid endarterectomy, a client's neck swelling has increased, his voice is hoarse, and his breathing is noisy. His blood pressure is high and his left hand grip is slightly weaker than before. His wife asks for a drink of water.",
+  "stem": "What is the nurse's priority action?",
+  "options": [
+   "Assess the airway and call for immediate help",
+   "Give him sips of water to soothe his hoarse voice",
+   "Recheck the grip strength and document it",
+   "Give the PRN antihypertensive and recheck his pressure"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: expanding neck swelling, hoarseness, noisy breathing after neck surgery.\n2. Principle: bleeding in the neck compresses the airway.\n3. Priority rule: airway before neurologic checks and pressure control.\n4. The key beats the grip check because obstruction can be rapidly fatal.\nFlip: If breathing were quiet and the neck flat, the grip change would lead the nurse's next action.",
+  "optionRationales": [
+   "Correct. An expanding neck hematoma can obstruct the airway, so airway protection comes first.",
+   "Unsafe. Swallowing with a threatened airway risks aspiration.",
+   "Right check, wrong priority. The neurologic change is important but breathing comes first.",
+   "Right treatment, wrong order. Airway threat outranks the blood pressure."
+  ],
+  "strategy": "Maslow: airway first",
+  "archetype": "Airway before everything",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Watch the airway after neck surgery",
+   "Report new neurologic deficits at once"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0097",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Cataract home safety",
+  "noteId": "np4-ns-cataract",
+  "vignette": "A 72-year-old woman has gradual painless blurring, glare from headlights at night and a milky look to her pupil. She lives alone, trips on loose rugs, and waits for surgery in 3 months.",
+  "stem": "Which intervention is the nurse's priority?",
+  "options": [
+   "Advise her to keep driving at night as normal until surgery",
+   "Help her remove rugs and improve lighting without glare",
+   "Teach her to rub her eyes gently to clear the blur",
+   "Recommend stopping all eye medicines to avoid side effects"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: slow blurring, glare and loose rugs.\n2. Principle: lens clouding makes vision poor in bright and dim conditions.\n3. Priority rule: reduce injury risk first.\n4. The key beats continuing to drive because falls and crashes are preventable.\nFlip: If she reported sudden severe eye pain, it would be an emergency requiring immediate evaluation.",
+  "optionRationales": [
+   "Unsafe. Night glare impairs safe driving.",
+   "Correct. Reduced vision raises fall risk, and glare-free lighting and clear floors reduce it.",
+   "Unsafe. Rubbing does not help and can introduce infection.",
+   "Incorrect. Medicines are not stopped without direction."
+  ],
+  "strategy": "Safety first",
+  "archetype": "Reduce fall hazards",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Cataract is painless clouding of the lens",
+   "Slow loss of vision with glare"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0098",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Ear pain on inspection",
+  "noteId": "np4-ns-hearing-tests",
+  "vignette": "A swimmer reports ear pain. During inspection, the nurse pulls gently on the auricle and the pain increases sharply. Pressure over the bone behind the ear is not painful, and the canal looks red and swollen with yellow discharge.",
+  "stem": "What do these findings most likely indicate?",
+  "options": [
+   "Infection of the mastoid bone behind the ear",
+   "Inflammation of the outer ear canal",
+   "Seborrheic dermatitis of the ear",
+   "Fixation of the middle-ear bones"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: pain on moving the auricle, swollen canal, discharge, no mastoid tenderness.\n2. Principle: auricle pain is typical of external otitis.\n3. Priority rule: match each finding to the structure involved.\n4. The key beats mastoiditis because the mastoid is not tender.\nFlip: If pressing behind the ear were painful, mastoid disease would be considered.",
+  "optionRationales": [
+   "Plausible detail. Mastoid disease causes tenderness behind the ear.",
+   "Correct. Pain with auricle movement points to external otitis, often after swimming.",
+   "Would show flaky scaling rather than a red swollen canal.",
+   "Would cause hearing loss without a painful canal."
+  ],
+  "strategy": "Interpret the examination",
+  "archetype": "Interpret the examination",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Pain on moving the auricle suggests external otitis",
+   "Mastoid tenderness suggests mastoiditis"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0099",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Sudden waviness",
+  "noteId": "np4-ns-macular-degeneration",
+  "vignette": "A 74-year-old woman has had slow central blurring from macular degeneration for years. This morning, when she looked at the grid on her refrigerator, straight lines appeared wavy and letters looked broken. She says her eyes tire easily, and she has a routine eye check in four months.",
+  "stem": "What should the nurse advise?",
+  "options": [
+   "Report the wavy lines now for urgent eye review",
+   "Wait for the routine visit since the disease is slow",
+   "Take extra antioxidant vitamins until the visit",
+   "Use brighter light and larger print to read"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: sudden wavy lines and broken letters in a client with slow macular degeneration.\n2. Principle: abnormal vessels leaking under the retina distort vision quickly in the wet form.\n3. Priority rule: sudden change needs prompt evaluation.\n4. The key beats waiting because treatment is time-sensitive.\nFlip: If the blurring were unchanged and gradual, routine follow-up would be correct.",
+  "optionRationales": [
+   "Correct. Sudden distortion can indicate the wet form, which needs prompt treatment.",
+   "Under-reaction. A sudden change is different from slow progression.",
+   "Treats the long-term disease, not the sudden change.",
+   "True and helpful, but it does not address the urgency."
+  ],
+  "strategy": "Recognise the sudden change",
+  "archetype": "Report sudden change in AMD",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Amsler grid at home; report any change at once",
+   "Wet form has sudden onset"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np4-0100",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Worsening after abrasion",
+  "noteId": "np4-ns-corneal-abrasion",
+  "vignette": "A client treated for a corneal abrasion three days ago returns. His pain is worse, there is a small white spot on the cornea, and the eye is producing discharge. His patch is still in place and he asks if he can keep wearing his contact lens.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Reassure him that pain varies and continue the patch",
+   "Let him wear the contact lens to protect the cornea",
+   "Remove the patch and tell him to rest the eye in the light",
+   "Report the worsening pain and white spot urgently"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: worse pain, white corneal spot, discharge three days after abrasion.\n2. Principle: an abrasion can become an infected ulcer.\n3. Priority rule: escalate signs of infection or ulcer.\n4. The key beats reassurance because healing usually occurs within a day or two.\nFlip: If pain were easing and the eye less red, continued patching and follow-up would be correct.",
+  "optionRationales": [
+   "Under-reaction. Worsening pain with a white spot is not expected healing.",
+   "Unsafe habit. A lens over a damaged cornea raises infection risk.",
+   "Plausible detail. Light sensitivity is present, and leaving the area unprotected delays assessment.",
+   "Correct. These signs suggest an ulcer or keratitis, which needs an eye specialist."
+  ],
+  "strategy": "Recognise the complication",
+  "archetype": "Ulcer needs an eye specialist",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Abrasion heals quickly; ulcer needs an ophthalmologist",
+   "Report worsening pain or discharge"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ }
+]

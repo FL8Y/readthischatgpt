@@ -1,0 +1,889 @@
+[
+ {
+  "id": "np3-0126",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Kidney perfusion in shock",
+  "noteId": "np3-er-kidney-anatomy",
+  "vignette": "Three hours after emergency surgery, a client has BP 84/50, HR 124, cool skin, and has passed only 10 mL of urine per hour for the past two hours. The surgical drain has put out 300 mL of blood-tinged fluid. A relative asks if she can give him a drink.",
+  "stem": "What is the nurse's best interpretation and action?",
+  "options": [
+   "The low urine output means the kidneys have failed, so a loop diuretic should be requested to restart urine flow",
+   "The low urine output means the client is overhydrated, so fluids should be limited and the head of the bed raised",
+   "The kidneys are under-perfused, so report the low urine output and low pressure and prepare for volume",
+   "The kidneys are conserving water normally, so recheck the urine output in four hours before taking action"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. At rest the kidneys receive about 20% of cardiac output; in stress and shock blood is diverted to vital organs, so urine output falls early.\n2. With BP 84/50, HR 124 and drain loss, low urine output signals hypovolemic shock and inadequate perfusion, not primary kidney failure.\n3. The action is to report and restore volume; a diuretic would worsen hypovolemia and waiting is under-reaction.\nFlip: with BP 140/90, bounding pulses and crackles, fluid restriction might be considered.",
+  "optionRationales": [
+   "Wrong: treats the symptom and could worsen hypovolemia.",
+   "Wrong: misreads the picture; the client is volume depleted.",
+   "Right: reports and treats the cause, perfusion.",
+   "Wrong: under-reaction in an unstable client."
+  ],
+  "strategy": "Perfusion first: unstable client",
+  "archetype": "interpret urine output",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Kidneys get about 20% of cardiac output at rest; less under stress",
+   "Kidneys help control blood pressure and fluid balance"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0127",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Hypocalcemia: airway",
+  "noteId": "np3-er-hypocalcemia",
+  "vignette": "A 49-year-old woman with acute pancreatitis reports tingling around her mouth and fingers. When the nurse taps in front of her ear, her cheek twitches. While the nurse gets a blood pressure cuff, she suddenly makes a high-pitched noise on inspiration and says it's hard to breathe. Her seizure precautions are not yet in place.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Stay with her, call for help and ready the airway equipment",
+   "Put padded side rails in place and lower the bed to the floor",
+   "Obtain a stat serum calcium sample and an ECG for the QT interval",
+   "Give the ordered oral calcium tablet with a sip of water"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Tingling, Chvostek's sign and a high-pitched inspiratory noise point to hypocalcemia with laryngospasm; the airway can close.\n2. Priority: stay, get help, and prepare airway equipment; calcium is then given as ordered by the route the provider specifies.\n3. Seizure precautions, labs and an ECG are right for hypocalcemia but come after the airway.\nFlip: with tingling and a twitching cheek but easy breathing, seizure precautions and labs would be done first.",
+  "optionRationales": [
+   "Right: airway first.",
+   "Wrong: right action, wrong time.",
+   "Wrong: right tests, wrong time.",
+   "Wrong: unsafe; swallowing with laryngospasm risks aspiration."
+  ],
+  "strategy": "Airway first",
+  "archetype": "laryngospasm first",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Airway first: laryngospasm can close the airway",
+   "Trousseau's and Chvostek's signs"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0128",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Which drug raises potassium",
+  "noteId": "np3-er-nephron-urine-formation",
+  "vignette": "A client with heart failure has these medicines ordered: furosemide, hydrochlorothiazide, bumetanide and spironolactone. His morning potassium is high-normal and his BUN is rising. The nurse prepares for the next lab draw.",
+  "stem": "Which medicine puts him at greatest risk for hyperkalemia?",
+  "options": [
+   "Furosemide, because it acts on the loop of Henle and holds potassium back",
+   "Hydrochlorothiazide, because it acts at the distal tubule and keeps potassium",
+   "Bumetanide, because it blocks water reabsorption in the proximal tubule",
+   "Spironolactone, because it blocks aldosterone at the distal tubule"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Loop diuretics (furosemide, bumetanide) act in the loop of Henle and thiazides at the distal tubule; both waste potassium.\n2. Aldosterone-blocking drugs such as spironolactone act on the distal sodium-potassium exchange and retain potassium.\n3. Rising BUN adds to the risk because the kidney excretes less potassium.\nFlip: with a low potassium, spironolactone would be the helpful drug.",
+  "optionRationales": [
+   "Wrong: loop diuretics waste potassium.",
+   "Wrong: thiazides waste potassium.",
+   "Wrong: a loop diuretic wastes potassium; wrong site as well.",
+   "Right: potassium-sparing."
+  ],
+  "strategy": "Site of action explains the electrolyte effect",
+  "archetype": "know the site of action",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Aldosterone-blocking drugs act on distal sodium-potassium exchange (hyperkalemia risk)",
+   "Loop diuretics: loop of Henle; thiazides: distal tubule"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0129",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Hyponatremia with neurologic change",
+  "noteId": "np3-er-sodium-imbalance",
+  "vignette": "A 63-year-old woman is receiving 5% dextrose in water for 2 days after surgery. She now has a headache and nausea, is confused about the date, and has a serum sodium reported as low. Her family asks to bring her water because 'she must be dehydrated.' The nurse notices that her urine output is low.",
+  "stem": "Which action is the priority?",
+  "options": [
+   "Encourage her to drink as much water as she can to relieve the nausea",
+   "Assess neurologic status, start seizure precautions and notify the provider",
+   "Request a rapid correction with a large volume of IV fluid to normalize the sodium",
+   "Document the confusion as expected after surgery and recheck sodium tomorrow"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Hyponatremia is usually water dilution (excess sodium-free IV fluid, SIADH); confusion, headache and nausea signal brain effects and seizure risk.\n2. Check neurologic status first, use seizure precautions, monitor intake, output and sodium, and correct slowly as ordered because fast shifts can injure the brain.\n3. More water worsens dilution; waiting is under-reaction.\nFlip: with thirst, dry mucous membranes and twitching in a vomiting client, high sodium would be suspected.",
+  "optionRationales": [
+   "Wrong: worsens dilution.",
+   "Right: safety and report.",
+   "Wrong: fast correction can injure the brain.",
+   "Wrong: under-reaction."
+  ],
+  "strategy": "Neuro status and safety first; correct slowly",
+  "archetype": "assess neurologic status first",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Hyponatremia: excess water or sodium-free IV fluid",
+   "Check neurological status first; correct slowly"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0130",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Interpreting a urinalysis",
+  "noteId": "np3-er-urine-volume-control",
+  "vignette": "A nurse at a health center reviews four routine urinalysis results. Client A: straw colored, pH 6.0, specific gravity 1.015. Client B: slightly turbid with a few mucus threads, pH 7. Client C: clear, specific gravity 1.012, albumin present. Client D: light yellow, pH 5.5, aromatic odor.",
+  "stem": "Which result should the nurse report as abnormal?",
+  "options": [
+   "Client B, because the urine is slightly turbid with mucus",
+   "Client D, because the urine has an aromatic odor",
+   "Client A, because the specific gravity is only 1.015",
+   "Client C, because albumin is present"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Normal urine is light yellow to straw, aromatic, clear or slightly turbid, pH 4.5-8, specific gravity 1.010-1.020, with no WBC, RBC or albumin and a few mucus threads.\n2. Albumin is normally too large to pass the glomerulus, so albumin in urine means glomerular damage.\nFlip: if Client A's specific gravity were 1.040, concentrated urine would also be reported.",
+  "optionRationales": [
+   "Wrong: expected (slight turbidity and a few threads).",
+   "Wrong: an aromatic odor is normal for urine, so it should not be reported as abnormal.",
+   "Wrong: within the normal 1.010-1.020.",
+   "Right: albumin should be absent."
+  ],
+  "strategy": "Interpret against normal values",
+  "archetype": "spot the abnormal result",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Normal urine: pH 4.5-8; specific gravity 1.010-1.020; no albumin, RBC, WBC",
+   "Protein in urine means glomerular damage"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0131",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Diuretic phase of acute renal failure",
+  "noteId": "np3-er-arf-phases",
+  "vignette": "A client recovering from acute tubular necrosis was oliguric for 8 days with fluids restricted. Today his urine output is 4.2 L over 24 hours, his BUN is still elevated, and his family is delighted that he is 'getting better.' He is weak, his mucous membranes are dry, and his heart rate has increased.",
+  "stem": "What is the nurse's priority at this stage?",
+  "options": [
+   "Continue the fluid restriction to protect the kidneys from overload",
+   "Monitor fluid balance and electrolytes for dehydration and low potassium",
+   "Prepare for high potassium and place the client on a low-potassium diet and restricted fluids",
+   "Reassure the family that kidney function has returned to normal"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. The diuretic phase produces 3-5 L of urine a day; BUN stays high at first, and the risks are dehydration and hypokalemia.\n2. Fluid restriction and high-potassium vigilance belong to the oliguric phase; recovery of function takes 3-12 months, so the kidney is not yet normal.\n3. Dry membranes, weakness and rising pulse suggest volume loss.\nFlip: if urine output fell below 400 mL/day, the oliguric-phase measures would apply.",
+  "optionRationales": [
+   "Wrong: oliguric-phase care (right action, wrong time).",
+   "Right: dehydration and hypokalemia risk.",
+   "Wrong: oliguric-phase concern.",
+   "Wrong: false reassurance."
+  ],
+  "strategy": "Right action, wrong phase",
+  "archetype": "right action, wrong phase",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Diuretic phase: urine 3-5 L/day; hypokalemia and dehydration risk",
+   "Oliguric phase: urine under 400 mL/24 h; hyperkalemia"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0132",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Dehydration lab pattern",
+  "noteId": "np3-er-x-urine-blood-findings",
+  "vignette": "A 70-year-old woman has had vomiting and diarrhea for 3 days. Her BP is 96/58, HR 112, skin turgor is poor, and her labs show a high hematocrit, high urine specific gravity (1.032) and a BUN that is high out of proportion to her creatinine.",
+  "stem": "Which plan does the nurse expect from the provider?",
+  "options": [
+   "Isotonic IV fluids and monitoring of intake and output",
+   "Fluid restriction and a loop diuretic such as furosemide",
+   "Preparation for hemodialysis and vascular access",
+   "High-dose corticosteroids to reduce protein loss"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. A high hematocrit, high specific gravity and BUN high out of proportion to creatinine mean concentrated blood, a fluid volume deficit.\n2. Treatment is volume replacement (isotonic solutions for low pressure) with careful intake and output.\n3. Diuretics and restriction fit overload; dialysis fits kidney failure; steroids fit nephrotic syndrome.\nFlip: dilute urine and a low hematocrit would suggest fluid overload.",
+  "optionRationales": [
+   "Right: replaces the deficit.",
+   "Wrong: treats overload (plausible detail from a similar condition).",
+   "Wrong: treats kidney failure.",
+   "Wrong: treats nephrotic syndrome."
+  ],
+  "strategy": "Concentrated blood = dehydrated",
+  "archetype": "match lab pattern to the problem",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Fluid volume deficit: high specific gravity, high hematocrit, BUN high out of proportion to creatinine"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0133",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Urethritis and the client's fear",
+  "noteId": "np3-er-cystitis-urethritis",
+  "vignette": "A 30-year-old married man has burning with urination and a pus-like discharge that began 5 days after a urinary catheter was removed. He quietly asks the nurse, 'Does this mean I have a venereal disease? My wife will think I cheated.'",
+  "stem": "Which response by the nurse is best?",
+  "options": [
+   "It is definitely gonorrhea, so tell your wife and ask her to be tested too",
+   "This kind of infection can never be passed through sexual contact, so there is nothing to worry about",
+   "A culture will identify the cause; common bacteria can cause urethritis without sexual contact",
+   "Please do not worry about this, I am sure that your wife will understand everything"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Urethritis can be caused by E. coli, staphylococci, streptococci or Pseudomonas and looks like gonorrhea, but sexual contact is not necessarily the cause; a culture identifies the organism.\n2. The honest, supportive answer explains the plan without diagnosing or making absolute promises.\n3. Labeling it gonorrhea or promising it can never be sexually transmitted is inaccurate, and blind reassurance blocks his feelings.\nFlip: if culture grew gonococci, partner treatment and counselling would follow.",
+  "optionRationales": [
+   "Wrong: premature diagnosis.",
+   "Wrong: false absolute reassurance.",
+   "Right: accurate, honest and supportive.",
+   "Wrong: blocks communication (non-therapeutic reassurance)."
+  ],
+  "strategy": "Therapeutic communication: accurate and honest",
+  "archetype": "therapeutic communication",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Urethritis can be caused by common bacteria; looks like gonorrhea",
+   "Culture and sensitivity"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0134",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Cystitis that is now something else",
+  "noteId": "np3-er-x-uti-compared",
+  "vignette": "A 34-year-old woman was diagnosed with cystitis two days ago and has been taking co-trimoxazole. She phones the clinic: burning is better, but she now has a temperature of 39.2 C, shaking chills, nausea and a deep ache in her right side. She asks if she should continue her usual cranberry juice and rest.",
+  "stem": "What is the nurse's best advice?",
+  "options": [
+   "Continue the antibiotic and cranberry juice and call back if the fever lasts a week",
+   "Come in urgently, since fever, chills and side pain suggest kidney infection",
+   "Stop the antibiotic since it has failed and take paracetamol for the fever",
+   "Apply a warm sitz bath and take the antispasmodic more often for the discomfort"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Lower tract infection causes dysuria, urgency and suprapubic pain; fever, chills, flank pain and malaise show spread to the kidney (pyelonephritis).\n2. This needs urgent evaluation, culture and possibly stronger therapy.\n3. Sitz baths and antispasmodics are for cystitis comfort and do not address kidney infection; stopping the antibiotic unsupervised is unsafe.\nFlip: with burning only and no fever, continuing the current plan would be right.",
+  "optionRationales": [
+   "Wrong: under-reaction.",
+   "Right: recognise ascending infection.",
+   "Wrong: unsafe change.",
+   "Wrong: comfort care for a different level of infection."
+  ],
+  "strategy": "Ascending infection: cystitis to pyelonephritis",
+  "archetype": "recognise upper tract spread",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Fever with chills and flank pain suggests the infection reached the kidney",
+   "Cystitis: dysuria, urgency, frequency, suprapubic pain"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0135",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Route of analgesia in burns",
+  "noteId": "np3-er-burn-pain-nutrition",
+  "vignette": "A 38-year-old man with partial-thickness burns over 35% of his body is in the burn unit on day 1. The chart shows morphine 4 mg intramuscularly every 4 hours as needed. He rates pain at 9/10, a dressing change is due in 20 minutes, and his blood pressure is 96/60 with generalized edema.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Give the intramuscular dose as ordered and recheck pain in 30 minutes",
+   "Give the dose subcutaneously because the skin is healthier there",
+   "Ask for an oral tablet so that he can swallow the dose before the dressing change",
+   "Ask the provider to change the order to the intravenous route"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. In burn shock, fluid shifts make IM and subcutaneous absorption unreliable, and GI function may be impaired; IV opioids are the first choice for acute burn pain.\n2. Analgesia is also given before painful procedures such as dressing changes.\n3. Following the IM order unchanged leaves him untreated; the SC and oral routes are equally unreliable.\nFlip: near discharge, oral analgesics become appropriate.",
+  "optionRationales": [
+   "Wrong: unreliable absorption.",
+   "Wrong: also unreliable.",
+   "Wrong: GI dysfunction; oral route is not reliable.",
+   "Right: clarify to IV."
+  ],
+  "strategy": "Question the order: unreliable absorption",
+  "archetype": "question the order",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "IV opioids are first choice for acute burn pain",
+   "Avoid IM, subcutaneous and oral routes in acute phase"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0136",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Spironolactone with a high potassium",
+  "noteId": "np3-er-x-renal-medicines",
+  "vignette": "A client with chronic kidney disease is admitted with weakness. His potassium is 6.2 mmol/L and his ECG shows tall peaked T waves. New orders include sodium polystyrene sulfonate (Kayexalate) and continuing his usual spironolactone. The nurse is about to give the morning medicines.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Hold the spironolactone and ask the provider to review it before it is given",
+   "Give both medicines since the Kayexalate will counter the spironolactone",
+   "Give the spironolactone and hold the Kayexalate until the potassium is repeated",
+   "Give both medicines and add potassium-rich fruit juice to improve his appetite"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Kayexalate removes potassium; spironolactone acts at the distal sodium-potassium exchange and retains potassium, which would worsen hyperkalemia.\n2. The nurse holds the contraindicated drug and clarifies; the potassium-lowering treatment continues.\n3. Offsetting one with another and adding potassium are unsafe.\nFlip: with a low potassium, spironolactone would be appropriate.",
+  "optionRationales": [
+   "Right: hold and clarify.",
+   "Wrong: unsafe habit of canceling out opposing drugs.",
+   "Wrong: holds the treatment and gives the hazard.",
+   "Wrong: adds potassium to hyperkalemia."
+  ],
+  "strategy": "Question order that raises the dangerous electrolyte",
+  "archetype": "question the order",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Spironolactone can raise potassium",
+   "Kayexalate removes potassium"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0137",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Renal colic with fever",
+  "noteId": "np3-er-urolithiasis",
+  "vignette": "A 41-year-old man with severe wave-like flank pain (8/10) radiating to the groin has vomited twice. His urine is cloudy and blood-tinged. His temperature is 39.1 C and he has shaking chills. The ordered care includes straining urine, an analgesic and 3 L of fluid.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Strain the urine for a stone and send it for analysis before anything else",
+   "Encourage him to drink 3 L of water over the day and walk the corridor",
+   "Give the analgesic and notify the provider of the fever and chills",
+   "Apply a warm compress to the flank and reassess the pain in an hour"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Colic management is analgesia, strained urine and fluids, but fever with chills and cloudy urine suggests an infected, possibly obstructed system that can become sepsis.\n2. The nurse gives the analgesic and reports promptly; the other measures continue.\n3. Straining and fluids alone, or waiting an hour, miss the red flag.\nFlip: with a normal temperature and clear urine, analgesia and straining would proceed as routine.",
+  "optionRationales": [
+   "Wrong: right action, wrong priority.",
+   "Wrong: fluids and walking while septic; right action wrong time.",
+   "Right: relief plus escalation of the red flag.",
+   "Wrong: under-reaction."
+  ],
+  "strategy": "Red flag over routine: possible sepsis",
+  "archetype": "infected obstruction",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Report fever, obstruction or little urine: infection or blockage",
+   "Pain relief first; strain all urine"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0138",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Struvite stones and diet",
+  "noteId": "np3-er-x-stone-diets",
+  "vignette": "A 50-year-old woman has had repeated urinary infections. Her stone analysis shows struvite, formed with urea-splitting bacteria in alkaline urine. She plans to eat more fruits, vegetables and milk to be 'healthy.'",
+  "stem": "Which guidance should the nurse give?",
+  "options": [
+   "Use an alkaline-ash pattern of fruits, vegetables and milk, since it flushes out any kind of stone",
+   "Avoid all fluids at night to stop urine becoming diluted and the stone growing",
+   "Use an acid-ash pattern (cranberry, prune, meat, poultry) and drink about 3 L daily",
+   "Follow a low-purine diet, avoiding organ meats, anchovies and sardines"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Alkaline stones (struvite, calcium phosphate) call for an acid-ash diet; acidic stones call for the alkaline-ash diet.\n2. Her plan (fruits, vegetables, milk) would make urine more alkaline and favor struvite.\n3. Low-purine advice is for uric acid stones; restricting fluids is wrong, since about 3 L a day helps pass stones.\nFlip: for a uric acid stone, alkaline-ash plus low-purine foods would be right.",
+  "optionRationales": [
+   "Wrong: the alkaline-ash diet is for acidic stones (trap).",
+   "Wrong: fluids should be encouraged day and night.",
+   "Right: acid-ash for an alkaline stone with plenty of fluid.",
+   "Wrong: describes uric acid stone diet (plausible detail from a similar condition)."
+  ],
+  "strategy": "Match the diet to the stone chemistry",
+  "archetype": "match diet to stone",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Alkaline stones: acid-ash diet",
+   "Struvite is linked to urea-splitting bacteria and infection"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0139",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "High phosphate and low calcium",
+  "noteId": "np3-er-phosphate-imbalance",
+  "vignette": "A student nurse asks about a client with chronic kidney failure whose labs show a very high phosphate. The client has numb lips and muscle cramps, and his cheek twitches when tapped. The student says, 'But his phosphate is high; why does he have signs of low something?'",
+  "stem": "Which explanation should the nurse give?",
+  "options": [
+   "Phosphate and calcium move oppositely, so high phosphate lowers calcium",
+   "Phosphate and calcium rise together, so the cramps come from too much of both",
+   "High phosphate lowers potassium, which is why the nerves are twitching",
+   "High phosphate lowers sodium and causes water to enter the nerve cells"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Phosphate and calcium are mirror images: when phosphate is high, calcium is low.\n2. Low calcium produces tetany, Chvostek's and Trousseau's signs, so cramps and a twitching cheek fit.\n3. Kidney failure is a common cause of high phosphate because phosphate is not excreted.\nFlip: low phosphate would be accompanied by high calcium.",
+  "optionRationales": [
+   "Right: explains the sign.",
+   "Wrong: they move opposite to each other.",
+   "Wrong: confuses ions.",
+   "Wrong: confuses ions."
+  ],
+  "strategy": "Mirror-image electrolytes",
+  "archetype": "explain the mirror-image",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "High phosphate means low calcium",
+   "Kidney failure causes hyperphosphatemia"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0140",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Potassium during DKA treatment",
+  "noteId": "np3-er-x-electrolyte-partners",
+  "vignette": "A client with diabetic ketoacidosis arrived with a potassium of 4.9 mmol/L, which the intern called 'normal.' After 4 hours of insulin infusion and fluids, repeat labs show potassium 3.2 mmol/L. The client reports weakness and cramps, and the monitor shows flattened T waves. The nurse is also due to hang a new bag of fluid.",
+  "stem": "What is the priority action?",
+  "options": [
+   "Continue the insulin infusion and recheck potassium at the next routine draw",
+   "Report the potassium and ECG changes and expect replacement orders",
+   "Stop ECG monitoring because the potassium is only slightly below normal",
+   "Increase the insulin rate to correct the glucose faster"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. In acidosis potassium moves out of cells into blood, so the early value may look normal; as insulin and fluids correct acidosis, potassium moves back into cells and the serum level falls.\n2. Weakness, cramps and flat T waves with 3.2 suggest hypokalemia, a risk for dysrhythmia.\n3. Report promptly; continuing monitoring is essential and faster insulin would lower potassium further.\nFlip: if potassium had been 6.0 at admission, the early plan would watch for the fall and avoid adding potassium.",
+  "optionRationales": [
+   "Wrong: under-reaction.",
+   "Right: report and expect replacement.",
+   "Wrong: stops monitoring when it is most needed.",
+   "Wrong: worsens hypokalemia."
+  ],
+  "strategy": "Acid correction drives potassium down",
+  "archetype": "a normal level can hide a deficit",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Acid pushes potassium out of cells; correction lowers it",
+   "A normal potassium in acidosis does not mean enough"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0142",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Urinary retention in BPH",
+  "noteId": "np3-er-bph",
+  "vignette": "A 72-year-old man with benign prostatic hyperplasia has not passed urine for 10 hours and has severe lower abdominal pain. The bladder is palpable near the umbilicus. He started an antihistamine for a cold two days ago, and says he is due to take his terazosin tonight.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Notify the provider that he needs urgent bladder drainage",
+   "Encourage him to drink more fluids to stimulate urination",
+   "Give the evening terazosin early to relax the bladder neck",
+   "Tell him to sit in a warm bath and try again in an hour"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Inability to void with a distended bladder is acute urinary retention; relieving it by catheterization is the urgent priority.\n2. Antihistamines (and anticholinergics) worsen retention and should be reported.\n3. Extra fluids fill an already distended bladder, and waiting delays relief.\nFlip: in a man voiding with a weak stream, watchful waiting and terazosin might suffice.",
+  "optionRationales": [
+   "Right: relieve retention.",
+   "Wrong: worsens distention.",
+   "Wrong: right drug, but an early dose does not relieve retention.",
+   "Wrong: under-reaction."
+  ],
+  "strategy": "Bladder distention is the urgent problem",
+  "archetype": "relieve retention first",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Relieve retention with catheterization first",
+   "Avoid anticholinergics and antihistamines"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0143",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "After TURP: red drainage",
+  "noteId": "np3-er-prostate-surgery",
+  "vignette": "Six hours after a transurethral prostatectomy, a client on continuous bladder irrigation has drainage that has changed from pink to bright red with clots. He reports severe bladder spasm, his pulse is 104 and BP 108/64.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Clamp the catheter to allow the clots to settle",
+   "Give the antispasmodic and recheck the drainage in an hour",
+   "Decrease the irrigation to a slow drip so the bladder fills less",
+   "Increase the irrigation flow rate and notify the surgeon"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Pink drainage is expected; bright red with clots means active bleeding, and clots can block the catheter and cause painful spasm.\n2. Increase the irrigation to flush clots and keep the catheter patent, and report to the surgeon; hemorrhage is the top danger.\n3. Clamping or slowing the irrigation lets clots form and distends the bladder; the antispasmodic treats the symptom.\nFlip: pink drainage with stable vitals would only need monitoring.",
+  "optionRationales": [
+   "Wrong: unsafe habit that allows distention and clotting.",
+   "Wrong: treats the symptom.",
+   "Wrong: allows clots to form.",
+   "Right: keep patent and report."
+  ],
+  "strategy": "Hemorrhage and a blocked catheter",
+  "archetype": "hemorrhage",
+  "difficulty": 5,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Hemorrhage is the top danger after prostate surgery",
+   "If drainage becomes red, increase the irrigation flow rate and report"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0144",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Push fluids unless restricted",
+  "noteId": "np3-er-pyelonephritis",
+  "vignette": "A client with acute pyelonephritis has fever, flank pain and costovertebral tenderness. The care plan says to encourage 3 to 4 L of fluid per day. The client also has chronic heart failure with an order for a 1.5 L fluid restriction, and he has ankle edema and a cough at night.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Encourage 3 to 4 L as the care plan says, since infection requires flushing",
+   "Keep to the 1.5 L restriction and say nothing, since heart failure is chronic",
+   "Clarify the fluid goal with the provider before encouraging the higher volume",
+   "Offer cranberry juice only and measure intake at the end of the shift"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Forcing fluids (3-4 L) flushes bacteria in pyelonephritis unless restricted.\n2. This client has heart failure with an existing restriction and signs of fluid overload (edema, nocturnal cough); two orders conflict.\n3. The nurse resolves the conflict with the provider; silence or choosing one without discussion is unsafe.\nFlip: without heart failure, the high fluid intake would be encouraged.",
+  "optionRationales": [
+   "Wrong: could cause pulmonary edema.",
+   "Wrong: neglects the infection plan and leaves the conflict unresolved.",
+   "Right: clarify the conflicting orders.",
+   "Wrong: neither goal addressed; delays measurement."
+  ],
+  "strategy": "Conflicting orders: clarify",
+  "archetype": "individualise the standard",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Force fluids 3-4 L/day unless restricted",
+   "Antibiotics, bed rest, monitor intake and output"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0145",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Hypertensive complication in glomerulonephritis",
+  "noteId": "np3-er-agn",
+  "vignette": "A 9-year-old boy had a sore throat 10 days ago. He now has puffiness around both eyes, cola-colored urine and urine output of 300 mL/day. His BP is 150/96. During the shift he complains of a severe headache and blurred vision.",
+  "stem": "Which finding is the most urgent to report?",
+  "options": [
+   "Puffiness around both eyes since this morning",
+   "Severe headache and blurred vision",
+   "Cola-colored urine since yesterday afternoon",
+   "Urine output of 300 mL over the last 24 hours"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Periorbital edema, smoky urine and oliguria are expected in acute glomerulonephritis after a streptococcal throat infection.\n2. Severe headache and visual disturbance with hypertension suggest hypertensive encephalopathy, a life-threatening complication.\nFlip: without headache or visual change, the findings would be monitored and the BP rechecked.",
+  "optionRationales": [
+   "Wrong: expected sign.",
+   "Right: neurologic signs of hypertensive crisis.",
+   "Wrong: expected sign.",
+   "Wrong: expected sign (oliguria)."
+  ],
+  "strategy": "Complication surveillance: hypertensive encephalopathy",
+  "archetype": "priority finding",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Periorbital edema, hematuria, oliguria, hypertension",
+   "Watch for hypertensive encephalopathy, heart failure, kidney failure"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0146",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Nephritic or nephrotic",
+  "noteId": "np3-er-x-nephritic-vs-nephrotic",
+  "vignette": "The nurse assesses two children. Child A has swelling around the eyes, cola-colored urine, BP 142/92 and a recent sore throat. Child B has massive generalized swelling, a swollen abdomen, soft pitting edema and urine that is frothy with protein but not bloody. A parent asks which child has the 'inflamed' kidney filter.",
+  "stem": "Which statement by the nurse is correct?",
+  "options": [
+   "Child B has the inflamed filter, because swelling shows the filter is blocked",
+   "Child A has the inflamed filter, which is nephritic syndrome",
+   "Both children have nephrotic syndrome with different amounts of swelling",
+   "Child A has nephrotic syndrome because blood in the urine shows a leaky filter"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Nephritic syndrome (acute glomerulonephritis): inflamed, clogged filter; periorbital edema, hematuria, proteinuria, hypertension, oliguria, after a streptococcal infection.\n2. Nephrotic syndrome: leaky filter; massive proteinuria, anasarca and ascites, soft pitting edema.\nFlip: massive protein loss without hematuria points toward nephrotic syndrome (Child B).",
+  "optionRationales": [
+   "Wrong: reverses the diseases.",
+   "Right: correct pairing.",
+   "Wrong: lumps different diseases together.",
+   "Wrong: blood in the urine is typical of the nephritic form."
+  ],
+  "strategy": "Inflamed filter vs leaky filter",
+  "archetype": "pattern recognition",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Nephritic: periorbital edema, hematuria, hypertension",
+   "Nephrotic: massive proteinuria, anasarca"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0147",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Stage by GFR",
+  "noteId": "np3-er-ckd-stages",
+  "vignette": "A 60-year-old man with diabetic nephropathy has a glomerular filtration rate of 24 mL/min/1.73 m2 on his latest lab report. He asks the nurse what stage of kidney disease he is in and whether he will need to prepare for dialysis or a transplant.",
+  "stem": "Which response is the most accurate?",
+  "options": [
+   "That is stage 3, a moderate decrease, so no preparation for dialysis is needed yet",
+   "That is stage 5, kidney failure, so dialysis is needed starting from today",
+   "That is stage 4, a severe decrease, so start discussing dialysis or transplant",
+   "That is stage 2, a mild decrease, so it is enough to watch your blood sugar"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Stages by GFR: stage 1 above 90 (damage with normal GFR); stage 2 60-89; stage 3 30-59; stage 4 15-29; stage 5 below 15 (kidney failure).\n2. A GFR of 24 is stage 4, a severe decrease; planning for dialysis or transplant education begins.\n3. Diabetic nephropathy is the leading cause of CKD.\nFlip: a GFR of 12 would be stage 5.",
+  "optionRationales": [
+   "Wrong: stage 3 is 30-59.",
+   "Wrong: stage 5 is below 15.",
+   "Right: a GFR of 24 falls in the 15 to 29 range of stage 4, a severe decrease, when planning for dialysis or transplant begins.",
+   "Wrong: stage 2 is 60-89."
+  ],
+  "strategy": "Stage by GFR",
+  "archetype": "interpret staging",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Stage 4: GFR 15-29; stage 5 below 15",
+   "Diabetic nephropathy is the leading cause"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0148",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Hyperkalemia with arrhythmia",
+  "noteId": "np3-er-hyperkalemia",
+  "vignette": "A 66-year-old man with chronic kidney disease missed his last two dialysis sessions. He reports weakness and tingling, his pulse is slow and irregular at 50, and his serum potassium is 6.8 mmol/L. An order for sodium polystyrene sulfonate by mouth is on the chart, and the client asks for a banana as a snack.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Give the sodium polystyrene sulfonate and recheck the pulse afterward",
+   "Give him the banana to prevent weakness from low energy",
+   "Encourage fluids and walking to flush the extra potassium",
+   "Attach the cardiac monitor and notify the provider"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Potassium of 6.8 with a slow irregular pulse in a client with kidney failure threatens a lethal rhythm.\n2. Cardiac monitoring and prompt reporting come first so emergency treatments can be started; Kayexalate removes potassium slowly.\n3. Bananas add potassium and fluids do not fix the cause.\nFlip: with a potassium of 5.6 and a normal ECG, giving the Kayexalate and rechecking would be reasonable.",
+  "optionRationales": [
+   "Wrong: right treatment, wrong time (too slow, no monitoring).",
+   "Wrong: adds potassium.",
+   "Wrong: ineffective and exertion is unsafe.",
+   "Right: protect the heart and escalate."
+  ],
+  "strategy": "Rhythm risk first",
+  "archetype": "monitor first",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Cardiac monitoring and ECG first",
+   "Kayexalate removes potassium"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0149",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Hypercalcemia recognition",
+  "noteId": "np3-er-x-electrolyte-ecg",
+  "vignette": "A 70-year-old woman receiving treatment for bone disease has anorexia, nausea and vomiting, weakness and increasing drowsiness. Her ECG shows a shortened QT interval. She has no tingling or muscle cramps, and her reflexes are sluggish.",
+  "stem": "Which electrolyte imbalance does the nurse suspect?",
+  "options": [
+   "High calcium",
+   "Low calcium",
+   "High potassium",
+   "Low sodium"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. High calcium slows nerves and shortens the QT: anorexia, nausea, vomiting, weakness, drowsiness, sluggish reflexes and even coma.\n2. Low calcium instead gives a prolonged QT with excitability, cramps and tetany; high potassium gives peaked T waves; low sodium gives headache, confusion and seizure.\nFlip: with tingling around the mouth and a prolonged QT the answer would be low calcium.",
+  "optionRationales": [
+   "Right: high calcium.",
+   "Wrong: gives excitability and a prolonged QT.",
+   "Wrong: gives peaked T waves.",
+   "Wrong: gives confusion and seizure."
+  ],
+  "strategy": "Recognise slowed nerves and a short QT",
+  "archetype": "match the cues to the ion",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "High calcium: shortened QT, slowed nerves, anorexia, drowsiness",
+   "Low calcium: prolonged QT, tetany"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0150",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Hypernatremia in a tube-fed client",
+  "noteId": "np3-er-sodium-imbalance",
+  "vignette": "A 78-year-old man on tube feeding has diarrhea, dry skin and mucous membranes, poor turgor, and he is restless and twitching. His serum sodium is high. The tube feed is running at the ordered rate and the provider has ordered free water boluses.",
+  "stem": "Which nursing action is most appropriate?",
+  "options": [
+   "Stop the water boluses because he already has diarrhea and may lose more fluid",
+   "Give a large amount of water as fast as possible to bring the sodium down quickly",
+   "Add salt to the feeds to replace what is lost through the diarrhea",
+   "Give the ordered water and monitor intake, output, sodium and neurologic status"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Hypernatremia from water loss (diarrhea, poor intake) causes thirst, dry membranes, twitching and irritability, and requires water replacement as ordered.\n2. Correction must be gradual with monitoring of intake and output, sodium and neurologic status.\n3. Withholding water, rapid correction or adding salt would worsen or endanger him.\nFlip: with low sodium from excess IV fluid, water would be restricted instead.",
+  "optionRationales": [
+   "Wrong: withholds the treatment.",
+   "Wrong: fast shifts can injure the brain.",
+   "Wrong: adds sodium to hypernatremia.",
+   "Right: controlled replacement with monitoring."
+  ],
+  "strategy": "Correct slowly with monitoring",
+  "archetype": "assess and correct slowly",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Hypernatremia: thirst, dry membranes, twitching, irritability",
+   "Correct slowly; monitor intake and output and serum sodium"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ }
+]

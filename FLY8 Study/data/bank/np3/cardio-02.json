@@ -1,0 +1,897 @@
+[
+ {
+  "id": "np3-0026",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Hypertrophic cardiomyopathy activity counselling",
+  "noteId": "np3-cr-cardiomyopathy",
+  "vignette": "A 22-year-old man with hypertrophic cardiomyopathy asks the clinic nurse if he can rejoin the university basketball team. His father died suddenly at 41. He tells the nurse he gets short of breath on the court and once felt his heart racing before nearly fainting, but he feels fine at rest and his BP is 118/72.",
+  "stem": "Which response by the nurse is best?",
+  "options": [
+   "Because he feels fine at rest, joining the team is safe if he stops when he becomes breathless",
+   "Daily vigorous exercise strengthens a thickened heart muscle and lowers his future risk of sudden death",
+   "Hard play can trigger dangerous rhythms, so report the near-faint to the cardiologist",
+   "His normal blood pressure shows the heart is pumping well, so no change in activity is needed"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Hypertrophic cardiomyopathy thickens a stiff ventricle with poor filling and outflow obstruction; sudden death, ventricular dysrhythmias and syncope are common.\n2. The near-faint with exertion plus palpitations is a warning of a possible dangerous rhythm.\n3. The nurse therefore reports the symptoms and supports an individualized activity decision by the cardiologist rather than approving play or promising benefit.\n4. A normal resting BP does not predict safety during exertion.\nFlip: for a client with no history of syncope or palpitations, supervised light exercise might be endorsed by the provider.",
+  "optionRationales": [
+   "Wrong: under-reaction; stopping when breathless may be too late if a rhythm disturbance occurs.",
+   "Wrong: plausible detail from healthy cardiac training; thickened stiff muscle is not strengthened by strenuous exercise.",
+   "Right: reports the warning symptoms and defers limits to the cardiologist.",
+   "Wrong: a true reading that does not answer the risk question."
+  ],
+  "strategy": "Safety: sudden death risk in HCM",
+  "archetype": "safety counselling",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Hypertrophic: syncope, ventricular dysrhythmias, sudden death common",
+   "About half are inherited"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0027",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Heart failure and the IV infusion",
+  "noteId": "np3-cr-x-hf-nursing-care",
+  "vignette": "A client admitted with heart failure 6 hours ago has an infusion of 5% dextrose running at 100 mL/h that was started in the emergency department. He is propped at 20 degrees, SpO2 91% on room air, and new fine crackles are heard at both bases. His weight is 2.8 kg above his dry weight, and furosemide is due in 90 minutes.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Sit him upright, apply the ordered oxygen, then ask the provider about the drip",
+   "Reduce the infusion to a keep-open rate and recheck his lung sounds in 4 hours",
+   "Give the furosemide now rather than waiting the 90 minutes",
+   "Weigh him again on a different scale to confirm the 2.8 kg gain"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cues: crackles, SpO2 91%, weight gain and an unneeded IV fluid in a failing pump: fluid overload is worsening gas exchange.\n2. Priority rule: breathing first. Sitting up and oxygen help at once; the IV question follows within minutes.\n3. Slowing the IV is needed soon, but waiting hours with SpO2 91% leaves him hypoxic. Giving a diuretic early needs an order, and re-weighing delays treatment.\nFlip: if SpO2 were 97% and breathing were easy, slowing the infusion would come first.",
+  "optionRationales": [
+   "Right: breathing first, then address the harmful infusion.",
+   "Wrong: right action, wrong time; the dyspnea is the first priority.",
+   "Wrong: gives a drug early without an order (outside scope) and does not help breathing quickly.",
+   "Wrong: skips action to repeat an assessment already supported by the crackles."
+  ],
+  "strategy": "ABC first; then remove the cause of overload",
+  "archetype": "priority action with a hidden hazard",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Support breathing: sit up, oxygen",
+   "Avoid unnecessary IV fluids in heart failure"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0028",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Delegating HF care tasks",
+  "noteId": "np3-cr-hf-left-right",
+  "vignette": "A nurse is assigned a client with right-sided heart failure and ankle and sacral edema. The client is on furosemide and a 2 g sodium diet. A nursing assistant is working with the nurse. The nurse wants to delegate one task for the morning.",
+  "stem": "Which task is appropriate to delegate to the nursing assistant?",
+  "options": [
+   "Evaluate the extent of sacral edema and compare it with yesterday",
+   "Listen to lung sounds and decide whether a diuretic dose is working",
+   "Teach the client and family which foods are high in sodium",
+   "Weigh the client before breakfast on the same scale and report it"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Daily weight on the same scale at the same time is a standard measurement the assistant can take and report.\n2. Edema assessment, lung auscultation with interpretation, and client teaching require nursing judgment and cannot be delegated.\n3. The nurse remains responsible for acting on the weight.\nFlip: if the client were unstable and the weight needed urgent interpretation, the nurse would take it personally.",
+  "optionRationales": [
+   "Wrong: assessment and comparison need a nurse (delegation outside scope).",
+   "Wrong: interpreting breath sounds and drug effect is nursing judgment.",
+   "Wrong: teaching is a nursing responsibility.",
+   "Right: a routine measurement within the assistant's role."
+  ],
+  "strategy": "Scope of practice: delegate measurement, not assessment",
+  "archetype": "scope of practice",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Weigh daily, same scale and time",
+   "Assess edema including the sacrum in bed-bound clients"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0029",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Pneumonia: sequence of first actions",
+  "noteId": "np3-cr-pneumonia",
+  "vignette": "A 59-year-old man arrives at a district hospital with a temperature of 39.4 C, productive cough with rust-colored sputum and right-sided chest pain on breathing. SpO2 is 90% on room air and RR is 28. The physician orders a stat antibiotic and a sputum culture. The nurse is also asked by the clerk to complete admission papers.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Collect the sputum culture before the first antibiotic dose",
+   "Raise the head of the bed and start oxygen as ordered",
+   "Give the stat antibiotic to begin treating the infection",
+   "Teach him how to cough, deep breathe and splint his chest"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. SpO2 90% with RR 28 means gas exchange is impaired: oxygen and semi-Fowler's come first.\n2. A sputum specimen must be collected BEFORE the first antibiotic dose so the culture is not distorted.\n3. Teaching coughing and splinting follows once the client is stable.\nFlip: if SpO2 were 97% on room air, the sputum collection would be the first step.",
+  "optionRationales": [
+   "Wrong: right action, wrong time; breathing is a bigger threat than a delay of minutes.",
+   "Right: oxygenation and position first (ABC).",
+   "Wrong: giving the antibiotic before the specimen spoils culture results.",
+   "Wrong: right action, wrong time; the client is hypoxemic and tachypneic."
+  ],
+  "strategy": "Oxygenation first, then specimen, then antibiotic",
+  "archetype": "ABC then specimen before antibiotic",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Oxygenation and semi-Fowler's position",
+   "Collect sputum before the first antibiotic"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0030",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Do not lay a congested client flat",
+  "noteId": "np3-cr-x-pulmonary-edema",
+  "vignette": "A 70-year-old man with left-sided heart failure has pink frothy sputum, RR 34 and SpO2 84% on a non-rebreather mask. IV furosemide has been ordered and is being prepared. The radiology technician arrives and asks to lay him flat for a portable chest film so the image is better.",
+  "stem": "How should the nurse respond?",
+  "options": [
+   "Allow him to lie flat for the film since it will take only a minute or two",
+   "Ask the technician to take the film with him sitting upright",
+   "Give the opioid first so he is calm enough to lie flat, then let the film be taken",
+   "Postpone the chest film for several hours until the diuretic has worked"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Pink frothy sputum, RR 34, SpO2 84% = acute pulmonary edema; lying flat shifts fluid back toward the lungs and worsens breathing.\n2. Sitting upright (legs dependent if ordered) eases breathing; the film can be taken in that position.\n3. Sedating him to enable the flat position treats the inconvenience, not the cause. Postponing the film for hours under-reacts; imaging informs care.\nFlip: for a client whose breathing was easy flat, an ordinary supine film would be acceptable.",
+  "optionRationales": [
+   "Wrong: unsafe but common habit; hypoxemia can worsen in minutes.",
+   "Right: keep him upright and compromise the imaging position.",
+   "Wrong: treats the symptom to fit the exam; respiratory depression from an opioid adds risk.",
+   "Wrong: under-reaction; the film is still needed."
+  ],
+  "strategy": "Position for breathing; never lay flat",
+  "archetype": "position trap",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Sit the client upright in pulmonary edema",
+   "Trap: lying the client flat for an exam"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0031",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Digoxin with low potassium",
+  "noteId": "np3-cr-hf-drugs",
+  "vignette": "A client with heart failure is due for digoxin and furosemide at 0900. The order says to hold digoxin if the apical pulse is below 60. The nurse counts an apical pulse of 54, the morning potassium is 3.1 mmol/L, and the client reports feeling queasy and not hungry. His BP is 112/70.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Give both medicines because the BP is stable and the diuretic is needed for fluid",
+   "Give the digoxin to strengthen contraction and hold only the furosemide",
+   "Recheck the pulse in one hour and give both if the pulse has risen to 60",
+   "Hold the digoxin and report the pulse, potassium and nausea before the diuretic"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Digoxin is held for a pulse below the ordered threshold, and low potassium raises digoxin toxicity risk.\n2. Anorexia and nausea are toxicity clues; a diuretic that wastes potassium would lower it further.\n3. Hold the digoxin, report all three findings, and obtain direction on the furosemide.\n4. Waiting an hour and giving anyway ignores the risk pattern.\nFlip: with apical pulse 78, potassium 4.2 and no nausea, both medicines would be given.",
+  "optionRationales": [
+   "Wrong: unsafe habit; a stable BP does not cancel the hold parameter.",
+   "Wrong: gives the drug most at risk (digoxin) and holds the wrong one.",
+   "Wrong: under-reaction; rechecking and giving anyway ignores toxicity signs.",
+   "Right: hold, report and clarify."
+  ],
+  "strategy": "Hold parameter and toxicity recognition",
+  "archetype": "hold and report",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Check potassium before digoxin and diuretics",
+   "Hold digoxin for low pulse or toxicity signs"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0032",
+  "v": 2,
+  "type": "sata",
+  "area": "NP3",
+  "topic": "Mitral regurgitation findings",
+  "noteId": "np3-cr-valve-mitral-regurg",
+  "vignette": "A nurse reviews the assessment of a 45-year-old woman with mitral regurgitation from prolapse of the valve. She reports tiring easily and noticing her heart racing. The nurse checks the chart for expected findings.",
+  "stem": "Which findings are consistent with mitral regurgitation? Select all that apply.",
+  "options": [
+   "High-pitched blowing murmur at the apex during systole",
+   "Fatigue and weakness",
+   "Palpitations",
+   "Low-pitched rumbling murmur in diastole at the apex",
+   "Widened pulse pressure with a water-hammer pulse",
+   "Cough and exertional breathlessness from lung congestion"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   5
+  ],
+  "rationale": "1. In mitral regurgitation blood leaks backward into the left atrium during systole: high-pitched blowing systolic murmur at the apex.\n2. Common symptoms are fatigue, weakness, palpitations, dyspnea and cough from congestion.\n3. A diastolic rumble belongs to mitral stenosis; a water-hammer pulse with wide pulse pressure belongs to aortic regurgitation.\nFlip: the diastolic rumble would be correct for stenosis.",
+  "optionRationales": [
+   "Correct: systolic blowing murmur at the apex.",
+   "Correct: most common symptoms.",
+   "Correct: palpitations occur.",
+   "Incorrect: this describes mitral stenosis.",
+   "Incorrect: this describes aortic regurgitation.",
+   "Correct: pulmonary congestion causes cough and dyspnea."
+  ],
+  "strategy": "Match murmur and symptoms to the lesion",
+  "archetype": "select consistent findings",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Mitral regurgitation: systolic blowing murmur at apex",
+   "Stenosis is a diastolic rumble"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0033",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Aortic regurgitation: signs of failing compensation",
+  "noteId": "np3-cr-valve-aortic-regurg",
+  "vignette": "A 58-year-old man with chronic aortic regurgitation is admitted for weakness. The nurse notes a high-pitched blowing diastolic murmur, BP 156/44, visible head bobbing, a quick-collapsing carotid pulse and fatigue after climbing stairs. Overnight he becomes restless, orthopneic and his lungs have new bibasilar crackles with an S3.",
+  "stem": "Which finding is the most important to report?",
+  "options": [
+   "New orthopnea with crackles and an S3 gallop",
+   "A blood pressure of 156/44 mm Hg on the morning check",
+   "Visible head bobbing with each heartbeat when he sits up",
+   "A quick-collapsing carotid pulse"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. A wide pulse pressure, head bobbing and a water-hammer pulse are expected, long-standing signs in aortic regurgitation.\n2. New orthopnea, crackles and S3 signal left ventricular failure, the stage at which surgery is urgent.\n3. The key is the new, changing finding, not the classic ones.\nFlip: if he were admitted for the first time with only these three classic signs, they would be reported as part of the baseline assessment.",
+  "optionRationales": [
+   "Right: new left-sided failure signs.",
+   "Wrong: a wide pulse pressure is expected in this valve disease.",
+   "Wrong: expected sign (plausible detail from the disease).",
+   "Wrong: expected sign (water-hammer pulse)."
+  ],
+  "strategy": "Chronic expected vs new deterioration",
+  "archetype": "expected vs worsening",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Aortic regurgitation: wide pulse pressure, water-hammer pulse",
+   "Surgery ideally before left ventricular failure"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0034",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Compression stocking teaching",
+  "noteId": "np3-cr-dvt",
+  "vignette": "A client recovering from hip surgery is being discharged with knee-high graduated compression stockings. The nurse reviews the instructions about the stockings and asks the client to explain how she will use them at home.",
+  "stem": "Which statement by the client shows teaching was effective?",
+  "options": [
+   "I will keep them on while I sleep so the swelling does not return",
+   "I will fold the top down if they feel tight around my calf",
+   "I will put them on in the morning before my feet touch the floor",
+   "I will rub my calves firmly each time I take the stockings off"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Swelling is lowest on waking, so stockings go on before the legs are dependent; this makes them most effective.\n2. A folded-down top acts like a tourniquet and impedes venous flow.\n3. Massaging the leg risks dislodging a clot, and wearing them continuously at night is not the handout instruction for ambulatory clients.\nFlip: for a bed-bound client the stockings may be left on and checked on a schedule.",
+  "optionRationales": [
+   "Wrong: not the handout advice for ambulatory clients (remove at night).",
+   "Wrong: unsafe habit; a band of rolled stocking constricts the leg.",
+   "Right: correct timing.",
+   "Wrong: massage can dislodge a clot."
+  ],
+  "strategy": "Teaching evaluation: stocking use",
+  "archetype": "evaluate learning",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Put stockings on before the legs touch the floor",
+   "Never massage the leg"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0036",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "After thrombolytics: which finding is the greatest concern",
+  "noteId": "np3-cr-mi-management",
+  "vignette": "A client with an anterior MI received a thrombolytic infusion 40 minutes ago. His chest pain has eased from 8/10 to 2/10. The nurse notes oozing at the IV site that stops with pressure, a few brief irregular beats on the monitor, and then the client suddenly reports a severe headache with slurred speech.",
+  "stem": "Which finding requires immediate action?",
+  "options": [
+   "Oozing at the IV site",
+   "Brief irregular beats after the pain eased",
+   "Severe headache with slurred speech",
+   "The drop in chest pain from 8/10 to 2/10"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Thrombolytics dissolve clots but can cause bleeding; sudden severe headache with speech change is a possible brain bleed and an emergency.\n2. Minor oozing that stops with pressure is expected; a few brief irregular beats can occur as blood flow returns and are monitored.\n3. Pain relief shows reperfusion and is welcome.\nFlip: if the oozing did not stop with pressure and BP was falling, bleeding would become the priority.",
+  "optionRationales": [
+   "Wrong: expected minor bleeding controlled by pressure.",
+   "Wrong: can occur with reperfusion; monitor and report if sustained.",
+   "Right: possible intracranial bleed after a thrombolytic.",
+   "Wrong: a desirable effect."
+  ],
+  "strategy": "Unstable before stable: neurologic change on a thrombolytic",
+  "archetype": "bleeding risk",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Monitor for bleeding after thrombolytics",
+   "Monitor for dysrhythmias and pump failure"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0037",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Question the beta-blocker order",
+  "noteId": "np3-cr-myocarditis",
+  "vignette": "A client with viral myocarditis has HR 124, BP 100/64, a low-voltage QRS with ST elevation on the ECG, and mild dyspnea. The provider writes an order for metoprolol to slow the heart rate. The client is also taking dobutamine and has not yet had his morning meal.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Give the metoprolol and check the blood pressure afterwards",
+   "Hold the metoprolol and clarify, because it lowers contractility",
+   "Give the metoprolol with food to reduce its effect on the heart rate",
+   "Ask the pharmacist to halve the dose and give it at a reduced strength"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. In myocarditis the inflamed muscle is weak; beta-blockers lower contractility (negative inotropes) and should be avoided.\n2. A tachycardia may be compensating for a low stroke volume; slowing it could drop cardiac output.\n3. The nurse is accountable for questioning an order that could harm.\n4. Changing the dose or giving then checking does not remove the hazard.\nFlip: in a client without myocarditis, with HR 124 from atrial fibrillation, the order might be appropriate.",
+  "optionRationales": [
+   "Wrong: unsafe habit; check before, not after.",
+   "Right: clarify the order before giving it.",
+   "Wrong: food does not change the pharmacologic action.",
+   "Wrong: changing dosage without a prescriber is outside scope."
+  ],
+  "strategy": "Question unsafe order: negative inotrope in myocarditis",
+  "archetype": "clarify the order",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Avoid beta-blockers in myocarditis",
+   "Inotropic support with dopamine or dobutamine"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0038",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "After pericardiocentesis: signs of reaccumulation",
+  "noteId": "np3-cr-pericarditis",
+  "vignette": "One hour after pericardiocentesis a client's BP was 118/72, neck veins were flat and pulsus paradoxus had disappeared. Now BP is 92/60, HR 112, neck veins are again distended and the heart sounds are quieter. The client says the chest ache is the same as before, 2/10, easing when he leans forward.",
+  "stem": "Which finding is the most concerning?",
+  "options": [
+   "A chest ache of 2/10 that eases when he leans forward in bed",
+   "A heart rate of 112 beats per minute while resting in bed",
+   "The reduced pain compared with before the procedure",
+   "Falling blood pressure with returning neck vein distention"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Return of the triad (hypotension, JVD, muffled sounds) means fluid is reaccumulating and tamponade is returning.\n2. Pain eased by leaning forward is the expected pericarditis pattern.\n3. Tachycardia is a consequence of falling output, not an independent priority.\nFlip: if BP held at 118/72 with the same ache, positioning and analgesia would be the response.",
+  "optionRationales": [
+   "Wrong: expected pericarditis pain pattern.",
+   "Wrong: a sign that follows the real problem.",
+   "Wrong: improvement, not a concern.",
+   "Right: signs of recurrent tamponade."
+  ],
+  "strategy": "Recurrence surveillance",
+  "archetype": "evaluate effectiveness",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "After drainage monitor BP, venous pressure and heart sounds for recurrence",
+   "Pericarditis pain eases leaning forward"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0039",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Heparin and a critical lab result",
+  "noteId": "np3-cr-x-antiplatelet-anticoag",
+  "vignette": "A client receiving a continuous heparin infusion for atrial thrombus has an aPTT reported by the laboratory as markedly above the therapeutic range. He is alert, his BP is 126/78, and there is no visible bleeding. The next routine draw is in six hours. He mentions mild tiredness.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Continue the infusion and repeat the aPTT at the next routine draw",
+   "Give the heparin antidote because the lab value is critical",
+   "Halve the infusion rate and tell the provider at shift change",
+   "Hold the infusion per protocol and notify the provider now"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Heparin dose depends on the aPTT; a markedly high value means a high bleeding risk even without visible bleeding.\n2. The safe response is to hold per protocol and report promptly so the dose can be adjusted.\n3. Nurses do not give an antidote or adjust rates without an order or protocol.\nFlip: if the aPTT were within range and he had black stools, the nurse would assess for bleeding and report.",
+  "optionRationales": [
+   "Wrong: under-reaction; waiting six hours risks bleeding.",
+   "Wrong: over-intervention without an order.",
+   "Wrong: changing the rate alone and delaying the report is outside scope.",
+   "Right: hold per protocol and notify."
+  ],
+  "strategy": "Check the lab before the dose; act on critical values",
+  "archetype": "check lab before dose",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Check the right lab before each dose",
+   "Bleeding is the main danger"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0040",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Chest tube system fault",
+  "noteId": "np3-cr-pneumothorax-mgmt",
+  "vignette": "A client with a chest tube for a spontaneous pneumothorax is breathless, RR 28, and SpO2 has fallen from 94% to 88%. The nurse finds the drainage system on the bed beside him, above chest level, and the tubing kinked under his thigh. The tube is still in place and the dressing is dry.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Clamp the tube close to the chest so the system can be moved safely",
+   "Straighten the tubing, lower the system below his chest and reassess",
+   "Call the provider to request a chest X-ray before touching the system",
+   "Give an analgesic so that he can take deeper breaths"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. The system must stay below chest level, patent and unclamped unless ordered; a kinked, raised tube prevents drainage and air can re-accumulate.\n2. Restoring the tubing is quick and safe, followed by reassessment of breathing; call the provider next if there is no improvement.\n3. Clamping a tube in a client with an air leak risks tension pneumothorax.\nFlip: if the tubing were intact, below chest and the client still deteriorating, the provider call would come first.",
+  "optionRationales": [
+   "Wrong: unsafe habit; clamping can trap air.",
+   "Right: restore patency and drainage.",
+   "Wrong: right action, wrong time; fix the obvious problem first.",
+   "Wrong: treats the symptom; the drainage fault is the cause."
+  ],
+  "strategy": "Fix the reversible cause quickly",
+  "archetype": "problem solving",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Keep tubes patent, below chest, unclamped unless ordered",
+   "Airway and breathing first"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0041",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Anti-TB drug adverse effects",
+  "noteId": "np3-cr-tb-drugs",
+  "vignette": "A client in week 5 of treatment with isoniazid, rifampin, pyrazinamide and ethambutol tells the nurse about four things: his urine is orange, his toes tingle at night, he has mild nausea after the tablets, and green and red objects now look the same color.",
+  "stem": "Which complaint should the nurse report to the provider first?",
+  "options": [
+   "Orange-colored urine since the second week of treatment",
+   "Tingling in his toes at night for the past week",
+   "Difficulty telling green and red objects apart",
+   "Mild nausea for an hour after he takes the tablets"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Loss of color discrimination is the optic neuritis of ethambutol, which can threaten vision and needs prompt review.\n2. Orange body fluids are a harmless expected rifampin effect; teach rather than report urgently.\n3. Tingling suggests isoniazid neuropathy, managed with pyridoxine and reported; mild nausea is common and can be managed by timing.\nFlip: if he also had yellow skin and dark urine, liver toxicity would take priority.",
+  "optionRationales": [
+   "Wrong: harmless, expected rifampin effect (true statement).",
+   "Wrong: INH neuropathy matters but is not vision-threatening and is treated with vitamin B6.",
+   "Right: a vision-threatening toxicity.",
+   "Wrong: common mild side effect."
+  ],
+  "strategy": "Serious adverse effect: ethambutol optic neuritis",
+  "archetype": "which complaint is urgent",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Ethambutol: optic neuritis, color discrimination",
+   "Vitamin B6 with INH prevents neuropathy"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0042",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Distinguish pericarditis from MI",
+  "noteId": "np3-cr-x-chest-pain-compared",
+  "vignette": "A 34-year-old man comes in with sharp chest pain that began after a viral illness. It is worse when he breathes in deeply or lies back and eases when he sits forward. The nurse hears a scratchy sound at the left lower sternal border. His ECG is awaiting review and his pain is 5/10.",
+  "stem": "Which information would best support pericarditis rather than myocardial infarction?",
+  "options": [
+   "Pain that eases when he leans forward, with a friction rub",
+   "Pain that spreads to the left arm and the jaw, with a sense of impending doom",
+   "Pain that lasts over 30 minutes without a clear trigger",
+   "Nausea with sweating and a feeling of fear"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Pericarditis pain is sharp, pleuritic and eased by sitting forward, with a friction rub.\n2. MI pain is longer than 30 minutes, radiates to arm, back or jaw, starts without cause and comes with nausea and sweating.\n3. The ECG is still needed because cardiac causes cannot be ruled out by history alone.\nFlip: pain that does not change with position or breathing would favor MI.",
+  "optionRationales": [
+   "Right: classic pericarditis pattern.",
+   "Wrong: radiation fits MI.",
+   "Wrong: duration of 30 minutes fits MI.",
+   "Wrong: autonomic symptoms fit MI."
+  ],
+  "strategy": "Pattern recognition: positional pain",
+  "archetype": "cue pattern",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Pericarditis: pain eased leaning forward; friction rub",
+   "MI: pain over 30 min, radiates, nausea, sweating"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0043",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Fluid bolus order in cardiogenic shock",
+  "noteId": "np3-cr-shock-hypo-cardio",
+  "vignette": "Two days after an MI, a client has BP 82/50, HR 122, cool clammy skin, urine output of 15 mL/h, distended neck veins and crackles at both bases. A new order reads: 0.9% sodium chloride 1000 mL IV bolus over 30 minutes. The charge nurse is occupied in another room.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Start the bolus at once since a low blood pressure and urine output mean volume is needed",
+   "Start the bolus at half the rate and ask for a revised order afterward",
+   "Hold the bolus and clarify the order, because the lungs are already congested",
+   "Start the bolus and listen to the lungs again after 500 mL has infused"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cool clammy skin, low BP and low urine output show shock, but distended veins and crackles show a failing pump with congested lungs (cardiogenic).\n2. A large fluid bolus is the treatment for hypovolemic shock and could cause pulmonary edema here.\n3. The nurse withholds and clarifies the order; changing the rate or giving and checking later does not remove the hazard.\nFlip: with flat neck veins and clear lungs after vomiting, the bolus would be appropriate.",
+  "optionRationales": [
+   "Wrong: right treatment, wrong shock type.",
+   "Wrong: altering the rate without an order is outside scope.",
+   "Right: clarify a potentially harmful order.",
+   "Wrong: unsafe habit; check before not after."
+  ],
+  "strategy": "Pump failure vs volume loss",
+  "archetype": "question the order",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Be careful with big fluid volumes in cardiogenic shock",
+   "Cardiogenic: heart failure, MI, tamponade"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0044",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Teaching common to Buerger and Raynaud",
+  "noteId": "np3-cr-x-peripheral-vascular-compared",
+  "vignette": "A nurse leads a teaching session at a barangay health center for two clients: a 31-year-old man with Buerger's disease and a 27-year-old woman with Raynaud's phenomenon. Both ask what they should do in common.",
+  "stem": "Which instruction applies to both clients?",
+  "options": [
+   "Take an oral anticoagulant every day at the same time",
+   "Control blood pressure carefully to prevent rupture of the vessel wall",
+   "Avoid massaging the legs because a clot may travel",
+   "Avoid nicotine and protect the extremities from cold"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Both disorders worsen with nicotine and cold exposure; stopping nicotine and keeping warm protect the circulation.\n2. Anticoagulants belong to DVT, BP control to aneurysm, and the no-massage rule to DVT.\nFlip: for a client with DVT, the anticoagulant and no-massage instructions would apply.",
+  "optionRationales": [
+   "Wrong: plausible detail from DVT.",
+   "Wrong: plausible detail from aneurysm.",
+   "Wrong: plausible detail from DVT.",
+   "Right: shared teaching."
+  ],
+  "strategy": "Compare disorders: shared teaching",
+  "archetype": "compare disorders",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Buerger's and Raynaud's: avoid nicotine and cold",
+   "DVT and aneurysm have different teaching"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0045",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Post-tonsillectomy bleeding",
+  "noteId": "np3-cr-tonsillitis",
+  "vignette": "An 8-year-old boy is 3 hours after a tonsillectomy, lying on his side with an ice collar on. He is sleepy but arousable and is complaining of throat pain. Over 20 minutes the nurse notes that he swallows frequently, and his pulse has risen from 96 to 124. His mother says he is just thirsty and wants ice cream.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Inspect the throat and notify the surgeon of possible bleeding",
+   "Offer ice cream because swallowing cold items will soothe the throat",
+   "Encourage him to cough and clear his throat so he can speak to his mother",
+   "Give acetaminophen and observe him for another hour"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Frequent swallowing with a rising pulse and restlessness after tonsillectomy means blood is running down the throat.\n2. Inspect and notify the surgeon promptly; keep the child on his side with suction at hand.\n3. Coughing and throat clearing are discouraged because they disturb the clot; milk products and red foods are avoided.\n4. Analgesia and observation under-react.\nFlip: if the pulse were stable and he swallowed only when drinking, comfort measures would be right.",
+  "optionRationales": [
+   "Right: suspected hemorrhage requires inspection and notifying the surgeon.",
+   "Wrong: treats the thirst, ignores a bleeding sign (and dairy is restricted).",
+   "Wrong: coughing disturbs the clot.",
+   "Wrong: under-reaction."
+  ],
+  "strategy": "Frequent swallowing = bleeding until proven otherwise",
+  "archetype": "recognise hidden hemorrhage",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Frequent swallowing is a red flag for hemorrhage",
+   "Discourage coughing and throat clearing"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0046",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Peritonsillar abscess: airway watch",
+  "noteId": "np3-cr-quinsy",
+  "vignette": "A 24-year-old woman is in the emergency department with a severe sore throat for 4 days, a muffled voice, drooling and difficulty opening her mouth. Her temperature is 39.0 C. She is anxious, sitting upright and leaning forward, and her SpO2 is 95%. The physician plans needle aspiration after the pending blood tests.",
+  "stem": "Which action should the nurse take next?",
+  "options": [
+   "Lay her flat so that the physician can see the throat more easily",
+   "Keep her upright, keep airway equipment ready and monitor her",
+   "Tell her to gargle warm saline hourly until the physician is ready",
+   "Obtain a throat culture by swabbing the swollen area vigorously"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Trismus, drooling and a muffled voice with fever suggest a peritonsillar abscess; swelling may close the airway.\n2. The best position is the one she chose (upright, forward), with intubation and tracheotomy equipment ready.\n3. Lying flat and vigorous swabbing risk airway obstruction or rupture of the abscess.\nFlip: after the aspiration, gentle cool saline gargles become appropriate.",
+  "optionRationales": [
+   "Wrong: unsafe; flat position can compromise the airway.",
+   "Right: protects the airway.",
+   "Wrong: gargling is for after aspiration (right action, wrong time).",
+   "Wrong: provocation could rupture the abscess."
+  ],
+  "strategy": "Airway first",
+  "archetype": "airway first",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Monitor airway; be ready for intubation or tracheotomy",
+   "Gentle gargles after aspiration"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0047",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Silent chest in asthma",
+  "noteId": "np3-cr-asthma",
+  "vignette": "A 19-year-old with asthma is brought in after 2 hours of breathlessness. He is sitting upright, speaking in single words, RR 36, HR 132. On auscultation the nurse hears very little air movement and no wheeze; earlier the nurse heard loud wheezing when the triage nurse first measured. His SpO2 is 88%.",
+  "stem": "How should the nurse interpret this finding?",
+  "options": [
+   "Improvement because the wheeze has quieted and the airways have opened up again",
+   "Worsening obstruction, so call for help, give oxygen and the quick-relief drug",
+   "Anxiety settling now that he is in hospital and being cared for, so continue to observe",
+   "Expected tiredness after a long attack, so allow him to rest and recheck later"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Loud wheeze that disappears while the client is more distressed (word-length speech, RR 36, SpO2 88%) means so little air is moving that no sound is produced.\n2. This is an emergency: oxygen, quick-relief beta2 agonist as ordered and immediate help.\n3. Interpreting it as improvement or fatigue is the dangerous error.\nFlip: if the wheeze disappeared and he was speaking full sentences with SpO2 98%, improvement would be the likely reading.",
+  "optionRationales": [
+   "Wrong: misreads the cue.",
+   "Right: worsening, not improvement.",
+   "Wrong: dismisses the hypoxemia.",
+   "Wrong: under-reaction."
+  ],
+  "strategy": "Interpret cues: absent wheeze is ominous",
+  "archetype": "recognise ominous sign",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Silent chest in a distressed client is ominous",
+   "Quick-relief short-acting beta2 agonist and oxygen"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0048",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Hemothorax after trauma",
+  "noteId": "np3-cr-x-pleural-compared",
+  "vignette": "A man with a chest tube for traumatic hemothorax initially drained 300 mL of blood. In the last hour, drainage suddenly stopped. His breathing is now rapid at 30/min, SpO2 91%, BP 98/62 and HR 118. The tubing is not kinked, the system is below chest level, and the nurse's assistant says the chest is 'quiet' with no bubbling.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Reassess him and tell the provider drainage stopped as his breathing worsened",
+   "Record the stop as a sign that bleeding has resolved and continue hourly checks",
+   "Increase suction to the maximum to restart drainage and recheck later",
+   "Clamp the tube to see whether the drainage resumes by itself"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Sudden cessation of drainage with worsening dyspnea, tachycardia and falling BP suggests a clotted tube with blood retained in the chest.\n2. Report urgently so that the tube can be cleared or replaced and volume resuscitation considered.\n3. Interpreting it as healing is false reassurance; arbitrary suction or clamping risks harm.\nFlip: if drainage slowed gradually while the client's breathing and vital signs improved, resolution would be the likely explanation.",
+  "optionRationales": [
+   "Right: urgent report of a possibly clotted tube.",
+   "Wrong: false reassurance.",
+   "Wrong: unsafe, suction is set by order.",
+   "Wrong: unsafe habit."
+  ],
+  "strategy": "A sudden stop with deterioration = clotted tube",
+  "archetype": "sudden change in drainage",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Report a sudden stop with worsening dyspnea (possible clotted tube)",
+   "Keep the system below chest level and sealed"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0049",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "ARDS vs cardiogenic edema",
+  "noteId": "np3-cr-ards",
+  "vignette": "Two days after severe pancreatitis a client has RR 36 and bilateral infiltrates on chest X-ray. His SpO2 is 86% on a non-rebreather at 15 L/min. A student asks the nurse why this is not treated simply as heart failure; his BNP is normal and the echocardiogram shows a normal ejection fraction.",
+  "stem": "Which statement by the nurse best explains the picture?",
+  "options": [
+   "Failing pump function raises pulmonary pressure, so diuretics are expected to clear his lungs within hours",
+   "A blocked pulmonary artery produces the infiltrates and low saturation despite high oxygen",
+   "Airway narrowing from mucus traps air in the lungs, which a bronchodilator will relieve",
+   "Lung injury lets fluid into the air sacs at normal left-sided pressure, so oxygen barely helps"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. ARDS is acute lung injury with sudden pulmonary edema and bilateral infiltrates, hypoxemia unresponsive to oxygen, and normal left atrial pressure.\n2. A normal BNP and ejection fraction argue against cardiogenic edema, so diuretics are not the main treatment; the client needs ventilation with PEEP and treatment of the cause.\n3. PE and asthma-like obstruction have different findings.\nFlip: with high BNP and reduced ejection fraction the picture would be cardiogenic pulmonary edema.",
+  "optionRationales": [
+   "Wrong: describes cardiogenic edema (plausible detail from similar condition).",
+   "Wrong: describes pulmonary embolism.",
+   "Wrong: describes airway obstruction such as asthma.",
+   "Right: injury edema with normal pressures."
+  ],
+  "strategy": "Pathophysiology: injury vs pressure edema",
+  "archetype": "interpret oxygen response",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "ARDS: bilateral infiltrates, hypoxemia unresponsive to oxygen, normal left atrial pressure",
+   "BNP and echo exclude heart failure"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0050",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Pursed-lip breathing teaching evaluation",
+  "noteId": "np3-cr-copd-care",
+  "vignette": "A 66-year-old man with emphysema is learning breathing techniques for walking to the barangay market. He has been short of breath after about 50 meters and sometimes panics when it happens. The nurse asks him to demonstrate what he will do when he becomes breathless.",
+  "stem": "Which demonstration shows that teaching was effective?",
+  "options": [
+   "He takes quick deep breaths through his mouth and blows out hard and fast",
+   "He breathes in deeply, holds his breath for a long time and then gasps out",
+   "He breathes in slowly through his nose, then breathes out slowly through pursed lips",
+   "He takes short shallow breaths through his nose to avoid using up his strength"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Pursed-lip breathing slows expiration and keeps the small airways open so air is not trapped.\n2. Hard fast exhalation and breath-holding increase air trapping and panic; shallow breathing worsens gas exchange.\nFlip: for a client with panic and hyperventilation unrelated to COPD, slow paced breathing would be taught with different emphasis.",
+  "optionRationales": [
+   "Wrong: forceful expiration collapses airways (unsafe habit).",
+   "Wrong: breath-holding traps air.",
+   "Right: slow expiration through pursed lips.",
+   "Wrong: shallow breathing worsens gas exchange."
+  ],
+  "strategy": "Evaluate teaching: breathing technique",
+  "archetype": "evaluate learning",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Pursed-lip breathing slows expiration and keeps small airways open",
+   "Diaphragmatic breathing coordinated with activity"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ }
+]

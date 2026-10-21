@@ -1,0 +1,2145 @@
+[
+ {
+  "id": "cp-np2-01-a",
+  "v": 2,
+  "type": "single",
+  "area": "NP2",
+  "topic": "Stages of labor",
+  "topicId": "ob-nursing/normal-labor-and-delivery/stages-of-labor",
+  "noteId": "np2-ob-first-stage",
+  "clusterId": "cp-np2-01",
+  "clusterSeq": 1,
+  "vignette": "Maria Santos, 28 years old, G2P1, is admitted to the labor room of a district hospital at term. She reports regular, increasingly strong contractions and says the first baby was born vaginally. Her husband Ramon stays at the bedside. The nurse is responsible for her care during the next several hours.",
+  "stem": "On admission, which action should the nurse do first?",
+  "options": [
+   "Prepare the delivery table and call the family to the labor room",
+   "Assess her vital signs, contraction pattern and fetal heart rate",
+   "Give a large meal so she has energy for labor",
+   "Insert an indwelling urinary catheter for comfort"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "Assessment of the mother and fetus comes before routine interventions. The nurse needs baseline vital signs, the contraction pattern and the fetal heart rate to judge maternal and fetal well-being and to decide what to do next. Preparing for birth or doing procedures without data is premature.",
+  "rationaleSimple": "Check the mother and the baby first, then decide what to do.",
+  "optionRationales": [
+   "Premature; birth readiness depends on assessment findings first.",
+   "Best answer. Assessment of the mother and fetus comes before routine interventions.",
+   "Food in labor is not routinely encouraged and nothing here shows she needs it; assessment comes first.",
+   "Unnecessary invasive procedure with no assessed need."
+  ],
+  "strategy": "Initial assessment of the woman in labor",
+  "difficulty": 2,
+  "bloom": "apply",
+  "imageSuggestion": {
+   "description": "Blank WHO partograph chart showing cervical dilatation, descent, fetal heart rate, contractions and alert and action lines.",
+   "placement": "situation",
+   "searchTerms": [
+    "partograph WHO",
+    "labour partogram blank",
+    "partograph alert action line"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-01-b",
+  "v": 2,
+  "type": "sata",
+  "area": "NP2",
+  "topic": "Stages of labor",
+  "topicId": "ob-nursing/normal-labor-and-delivery/stages-of-labor",
+  "noteId": "np2-ob-first-stage",
+  "clusterId": "cp-np2-01",
+  "clusterSeq": 2,
+  "vignette": "Maria Santos, 28 years old, G2P1, is admitted to the labor room of a district hospital at term. She reports regular, increasingly strong contractions and says the first baby was born vaginally. Her husband Ramon stays at the bedside. The nurse is responsible for her care during the next several hours.",
+  "stem": "Maria is in active labor. Which supportive nursing measures are appropriate? Select all that apply.",
+  "options": [
+   "Keep her flat on her back until the baby is born",
+   "Encourage position changes and walking if there are no contraindications",
+   "Stay with her and encourage her husband to give support",
+   "Instruct her to hold her breath and push with every contraction from now on",
+   "Teach breathing and relaxation techniques and coach her during contractions",
+   "Remind her to empty her bladder regularly"
+  ],
+  "answer": [
+   1,
+   2,
+   4,
+   5
+  ],
+  "rationale": "Position changes, a regularly emptied bladder, relaxation techniques and continuous supportive presence all promote comfort and progress. Pushing before the woman is ready exhausts her and can cause cervical swelling, and lying flat on the back can reduce blood flow to the uterus and fetus.",
+  "rationaleSimple": "Help her move, void, relax and feel supported. Do not make her push early or lie flat.",
+  "optionRationales": [
+   "Wrong: lying flat on the back lets the uterus press on the large vessels, lowering blood return and flow to the placenta and fetus.",
+   "Right: moving and changing position eases discomfort and can help labor progress when there is no contraindication.",
+   "Right: continuous presence and her husband's support lower anxiety and pain.",
+   "Wrong: pushing before she is ready tires her and can swell the cervix; she should push when the second stage begins.",
+   "Right: breathing and relaxation techniques with coaching help her cope with contractions.",
+   "Right: a full bladder can slow descent of the baby, so regular emptying helps progress."
+  ],
+  "strategy": "Supportive care in the first stage of labor",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-01-c",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP2",
+  "topic": "Stages of labor",
+  "topicId": "ob-nursing/normal-labor-and-delivery/stages-of-labor",
+  "noteId": "np2-ob-first-stage",
+  "clusterId": "cp-np2-01",
+  "clusterSeq": 3,
+  "vignette": "Maria Santos, 28 years old, G2P1, is admitted to the labor room of a district hospital at term. She reports regular, increasingly strong contractions and says the first baby was born vaginally. Her husband Ramon stays at the bedside. The nurse is responsible for her care during the next several hours.",
+  "stem": "For each description, select the stage of labor it best describes.",
+  "options": [],
+  "answer": [],
+  "rationale": "Stages are defined by landmarks: the first ends at full dilation, the second at birth of the baby, the third at delivery of the placenta, and the fourth is the early recovery period. Mixing up the second and third stages is the common error because both involve delivery of something.",
+  "rationaleSimple": "Each stage ends at a landmark: full dilation, baby born, placenta out, then recovery.",
+  "optionRationales": [
+   "Second stage: it starts at full dilation and ends with birth of the baby.",
+   "Third stage: it runs from the birth of the baby until the placenta is delivered.",
+   "First stage: it covers regular contractions up to full cervical dilation.",
+   "Fourth stage: the first hours after the placenta is delivered are the recovery period when bleeding and fundus are closely watched."
+  ],
+  "strategy": "Identifying stages of labor",
+  "difficulty": 2,
+  "bloom": "recall",
+  "imageSuggestion": {
+   "description": "Diagram of the stages of labor showing cervical dilatation and effacement, descent of the fetal head and delivery of the placenta.",
+   "placement": "rationale",
+   "searchTerms": [
+    "stages of labor diagram",
+    "cervical dilation effacement stages",
+    "stages of childbirth illustration"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "From full cervical dilation until the baby is born",
+   "From the birth of the baby until the placenta is delivered",
+   "From onset of regular contractions until the cervix is fully dilated",
+   "The first hours after delivery of the placenta, when bleeding and fundus are closely watched"
+  ],
+  "columns": [
+   "First stage",
+   "Second stage",
+   "Third stage",
+   "Fourth stage"
+  ],
+  "rowAnswer": [
+   1,
+   2,
+   0,
+   3
+  ]
+ },
+ {
+  "id": "cp-np2-01-d",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP2",
+  "topic": "Stages of labor",
+  "topicId": "ob-nursing/normal-labor-and-delivery/stages-of-labor",
+  "noteId": "np2-ob-first-stage",
+  "clusterId": "cp-np2-01",
+  "clusterSeq": 4,
+  "vignette": "Maria Santos, 28 years old, G2P1, is admitted to the labor room of a district hospital at term. She reports regular, increasingly strong contractions and says the first baby was born vaginally. Her husband Ramon stays at the bedside. The nurse is responsible for her care during the next several hours.",
+  "stem": "Choose the words that complete the nursing response to a woman in labor.\n\nMaria says she has a strong urge to bear down and the perineum is bulging. The nurse should {{1}} and prepare for {{2}}.",
+  "options": [],
+  "answer": [],
+  "rationale": "A strong involuntary urge to bear down with a bulging perineum signals that birth is near. The nurse stays with the woman, informs the birth attendant at once and prepares the equipment. Delaying the report or asking her to resist the urge is unsafe.",
+  "rationaleSimple": "Bearing down plus a bulging perineum means birth is close, so call the attendant now.",
+  "optionRationales": [
+   "Inform the birth attendant right away: a bulging perineum with an urge to bear down means birth is near and the provider must be present. Waiting an hour or crossing her legs is unsafe.",
+   "Imminent birth: these signs show the second stage is close, so equipment is prepared. A long wait or discharge does not fit the findings."
+  ],
+  "strategy": "Recognizing the second stage of labor",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "blanks": [
+   {
+    "choices": [
+     "inform the birth attendant right away",
+     "wait an hour before reporting",
+     "ask her to cross her legs"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "imminent birth",
+     "a long wait",
+     "discharge"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "cp-np2-01-e",
+  "v": 2,
+  "type": "single",
+  "area": "NP2",
+  "topic": "Stages of labor",
+  "topicId": "ob-nursing/normal-labor-and-delivery/stages-of-labor",
+  "noteId": "np2-ob-first-stage",
+  "clusterId": "cp-np2-01",
+  "clusterSeq": 5,
+  "vignette": "Maria Santos, 28 years old, G2P1, is admitted to the labor room of a district hospital at term. She reports regular, increasingly strong contractions and says the first baby was born vaginally. Her husband Ramon stays at the bedside. The nurse is responsible for her care during the next several hours.",
+  "stem": "During a strong contraction Maria says, \"I cannot do this anymore, I want to go home.\" Which response by the nurse is most therapeutic?",
+  "options": [
+   "\"Do not be silly, you already have a child and know exactly what you are supposed to do by now.\"",
+   "\"Try to be calm and quiet, because your husband is watching you and he is getting worried.\"",
+   "\"You cannot go home now because you are already far along, so please stop saying that.\"",
+   "\"This is a hard part of labor, and many women feel this way. I will stay right here with you.\""
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "Acknowledging the feeling, giving realistic reassurance and staying present supports the woman and keeps communication open. The other responses dismiss, deflect or reprimand. Strong self-doubt is common late in the first stage and is not a reason to argue with her.",
+  "rationaleSimple": "Accept her feelings, reassure her honestly and stay with her.",
+  "optionRationales": [
+   "Dismisses her feelings and belittles her.",
+   "Shifts focus to others and does not acknowledge her distress.",
+   "Confrontational and closes communication.",
+   "Best answer. Acknowledging the feeling, giving realistic reassurance and staying present supports the woman and keeps communication open."
+  ],
+  "strategy": "Therapeutic communication during labor",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-02-a",
+  "v": 2,
+  "type": "single",
+  "area": "NP2",
+  "topic": "Fetal heart rate monitoring and interpretation",
+  "topicId": "ob-nursing/normal-labor-and-delivery/fetal-heart-rate-monitoring-and-interpretation",
+  "noteId": "np2-ob-fhr-patterns",
+  "clusterId": "cp-np2-02",
+  "clusterSeq": 1,
+  "vignette": "Rosario Dela Cruz, 24 years old, G1P0, is in active labor at a tertiary hospital. Labor is being augmented with an oxytocin infusion and the fetal monitor is in place. While reviewing the tracing, the nurse sees the fetal heart rate dipping after several contractions and returning to baseline slowly. Rosario is lying flat on her back.",
+  "stem": "What is the nurse's best immediate action?",
+  "options": [
+   "Encourage her to stay on her back and rest",
+   "Document the pattern and recheck in an hour",
+   "Help Rosario turn to a side-lying position",
+   "Raise the oxytocin rate to finish labor sooner"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "Late-appearing decelerations suggest reduced blood flow to the placenta. A side-lying position relieves pressure of the uterus on the large vessels and is a quick, safe first step. Increasing oxytocin makes contractions stronger and worsens the problem, and waiting delays recognition of fetal compromise.",
+  "rationaleSimple": "Turning her to her side helps blood reach the baby, so do it first.",
+  "optionRationales": [
+   "The supine position may be contributing to reduced placental blood flow.",
+   "Delay allows possible fetal compromise to continue.",
+   "Best answer. Late-appearing decelerations suggest reduced blood flow to the placenta.",
+   "Stronger contractions would further reduce placental blood flow."
+  ],
+  "strategy": "Responding to a nonreassuring fetal heart rate",
+  "difficulty": 3,
+  "bloom": "apply",
+  "imageSuggestion": {
+   "description": "Cardiotocography (CTG) strip showing fetal heart rate above and uterine contractions below, with a repeated dip in the fetal heart rate that begins after the peak of each contraction and returns late to baseline.",
+   "placement": "stem",
+   "searchTerms": [
+    "cardiotocography late decelerations",
+    "CTG tracing fetal heart rate",
+    "fetal monitor strip"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-02-b",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP2",
+  "topic": "Fetal heart rate monitoring and interpretation",
+  "topicId": "ob-nursing/normal-labor-and-delivery/fetal-heart-rate-monitoring-and-interpretation",
+  "noteId": "np2-ob-fhr-patterns",
+  "clusterId": "cp-np2-02",
+  "clusterSeq": 2,
+  "vignette": "Rosario Dela Cruz, 24 years old, G1P0, is in active labor at a tertiary hospital. Labor is being augmented with an oxytocin infusion and the fetal monitor is in place. While reviewing the tracing, the nurse sees the fetal heart rate dipping after several contractions and returning to baseline slowly. Rosario is lying flat on her back.",
+  "stem": "Read the nurse's chart note. Select the findings that need prompt attention.",
+  "options": [
+   "Baseline fetal heart rate is within the expected range.",
+   "Repeated late decelerations follow the contractions.",
+   "Variability is absent.",
+   "Mother is lying flat on her back."
+  ],
+  "answer": [
+   1,
+   2,
+   3
+  ],
+  "rationale": "Repeated late decelerations and absent variability are nonreassuring, and the supine position and ongoing oxytocin are contributing factors the nurse can act on. A baseline in the expected range is reassuring on its own, but it does not cancel the other findings.",
+  "rationaleSimple": "Late dips, no variability and lying flat are the worrying parts.",
+  "optionRationales": [
+   "Reassuring: a baseline in the expected range is a good sign, but it does not cancel the other findings, so it needs no action.",
+   "Needs attention: repeated late decelerations suggest the placenta is not supplying enough oxygen.",
+   "Needs attention: absent variability suggests the fetus may be short of oxygen and is not reassuring.",
+   "Needs attention: lying flat compresses the large vessels and reduces placental blood flow, and changing her position is something the nurse can do now."
+  ],
+  "strategy": "Interpreting fetal heart rate findings",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-02-c",
+  "v": 2,
+  "type": "sata",
+  "area": "NP2",
+  "topic": "Fetal heart rate monitoring and interpretation",
+  "topicId": "ob-nursing/normal-labor-and-delivery/fetal-heart-rate-monitoring-and-interpretation",
+  "noteId": "np2-ob-fhr-patterns",
+  "clusterId": "cp-np2-02",
+  "clusterSeq": 3,
+  "vignette": "Rosario Dela Cruz, 24 years old, G1P0, is in active labor at a tertiary hospital. Labor is being augmented with an oxytocin infusion and the fetal monitor is in place. While reviewing the tracing, the nurse sees the fetal heart rate dipping after several contractions and returning to baseline slowly. Rosario is lying flat on her back.",
+  "stem": "Which nursing actions are appropriate for this tracing? Select all that apply.",
+  "options": [
+   "Stop or hold the oxytocin infusion according to protocol",
+   "Remove the monitor so she can walk around",
+   "Increase the oxytocin infusion so labor is faster",
+   "Continue to observe the tracing closely",
+   "Notify the physician or midwife of the findings",
+   "Check her blood pressure and watch for overly frequent contractions"
+  ],
+  "answer": [
+   0,
+   3,
+   4,
+   5
+  ],
+  "rationale": "Stopping or holding oxytocin, reporting to the provider, checking maternal vital signs and the contraction pattern, and close observation aim to restore placental blood flow and let the provider decide on further management. Increasing oxytocin or removing monitoring would harm or hide a possibly compromised fetus.",
+  "rationaleSimple": "Stop the oxytocin, report, check her vital signs and contractions, and keep watching.",
+  "optionRationales": [
+   "Right: stopping or holding oxytocin reduces contraction strength and frequency so placental blood flow can recover, following the protocol.",
+   "Wrong: removing the monitor would hide a fetus that may be in trouble.",
+   "Wrong: more oxytocin means stronger contractions and less oxygen to the fetus.",
+   "Right: close observation shows whether the tracing improves or worsens.",
+   "Right: the provider needs to know about nonreassuring findings to decide on further management.",
+   "Right: maternal blood pressure and the contraction pattern are checked because low pressure or overly frequent contractions can reduce blood flow to the fetus."
+  ],
+  "strategy": "Managing a nonreassuring tracing",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-02-d",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP2",
+  "topic": "Fetal heart rate monitoring and interpretation",
+  "topicId": "ob-nursing/normal-labor-and-delivery/fetal-heart-rate-monitoring-and-interpretation",
+  "noteId": "np2-ob-fhr-patterns",
+  "clusterId": "cp-np2-02",
+  "clusterSeq": 4,
+  "vignette": "Rosario Dela Cruz, 24 years old, G1P0, is in active labor at a tertiary hospital. Labor is being augmented with an oxytocin infusion and the fetal monitor is in place. While reviewing the tracing, the nurse sees the fetal heart rate dipping after several contractions and returning to baseline slowly. Rosario is lying flat on her back.",
+  "stem": "Classify each fetal monitoring finding.",
+  "options": [],
+  "answer": [],
+  "rationale": "Accelerations with movement and moderate variability indicate a well-oxygenated fetus with an intact nervous system. Late decelerations and absent variability with decelerations point to inadequate oxygen reaching the fetus and must be reported promptly.",
+  "rationaleSimple": "Accelerations and normal variability are good signs; late dips and flat tracing are not.",
+  "optionRationales": [
+   "Reassuring: accelerations with movement show a well-oxygenated fetus with a responsive nervous system.",
+   "Needs prompt reporting: repeated late decelerations suggest inadequate oxygen reaching the fetus.",
+   "Needs prompt reporting: absent variability with recurring decelerations is a sign of possible fetal compromise.",
+   "Reassuring: moderate variability shows an intact nervous system and adequate oxygenation."
+  ],
+  "strategy": "Classifying fetal heart rate patterns",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "imageSuggestion": {
+   "description": "Three paired fetal heart rate and contraction tracings illustrating early, variable and late decelerations, with the relationship to the contraction marked.",
+   "placement": "rationale",
+   "searchTerms": [
+    "early variable late decelerations",
+    "fetal heart rate decelerations CTG",
+    "CTG patterns"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "Accelerations of the heart rate with fetal movement",
+   "Repeated late decelerations after contractions",
+   "Absent variability together with recurring decelerations",
+   "Moderate variability of the baseline"
+  ],
+  "columns": [
+   "Reassuring",
+   "Needs prompt reporting"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   1,
+   0
+  ]
+ },
+ {
+  "id": "cp-np2-02-e",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP2",
+  "topic": "Fetal heart rate monitoring and interpretation",
+  "topicId": "ob-nursing/normal-labor-and-delivery/fetal-heart-rate-monitoring-and-interpretation",
+  "noteId": "np2-ob-fhr-patterns",
+  "clusterId": "cp-np2-02",
+  "clusterSeq": 5,
+  "vignette": "Rosario Dela Cruz, 24 years old, G1P0, is in active labor at a tertiary hospital. Labor is being augmented with an oxytocin infusion and the fetal monitor is in place. While reviewing the tracing, the nurse sees the fetal heart rate dipping after several contractions and returning to baseline slowly. Rosario is lying flat on her back.",
+  "stem": "Choose the words that complete the explanation the nurse gives to Rosario.\n\nLying on your {{1}} improves {{2}} to the placenta because the weight of the uterus is moved off the large blood vessels.",
+  "options": [],
+  "answer": [],
+  "rationale": "A side-lying position keeps the heavy uterus from compressing the large vessels, which improves blood flow to the placenta and fetus. The explanation also lets the woman cooperate with the position change.",
+  "rationaleSimple": "Lying on your side lets more blood reach the baby.",
+  "optionRationales": [
+   "Side: lying on the side moves the heavy uterus off the large blood vessels. Lying on the back or stomach does not.",
+   "Blood flow: relieving pressure on the vessels improves blood flow to the placenta and fetus, not contraction strength or dilation."
+  ],
+  "strategy": "Explaining positioning in labor",
+  "difficulty": 2,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "blanks": [
+   {
+    "choices": [
+     "side",
+     "back",
+     "stomach"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "blood flow",
+     "contraction strength",
+     "cervical dilation"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "cp-np2-03-a",
+  "v": 2,
+  "type": "sata",
+  "area": "NP2",
+  "topic": "Pregnancy-induced hypertension (toxemia)",
+  "topicId": "ob-nursing/common-complications/toxemia",
+  "noteId": "np2-ob-pih-preeclampsia",
+  "clusterId": "cp-np2-03",
+  "clusterSeq": 1,
+  "vignette": "Lourdes Reyes, 22 years old, G1P0 at about 34 weeks, goes to the rural health unit for her prenatal visit. She says she has had a headache for two days that does not go away with rest, and her face and hands look puffy. The nurse measures a blood pressure higher than her earlier visits and finds protein in her urine.",
+  "stem": "Which findings should the nurse watch for because they suggest the condition is worsening? Select all that apply.",
+  "options": [
+   "Persistent severe headache",
+   "Sudden increase in swelling of the face and hands",
+   "Mild backache after a long day of standing",
+   "Blurred vision or seeing spots",
+   "Pain in the upper abdomen",
+   "Very little urine output",
+   "Occasional mild tightening of the abdomen without pain"
+  ],
+  "answer": [
+   0,
+   1,
+   3,
+   4,
+   5
+  ],
+  "rationale": "Severe headache, visual changes, epigastric pain, rapid swelling and falling urine output are signs of worsening hypertension in pregnancy and impending seizures. Mild backache and painless occasional tightening are common pregnancy discomforts and do not point to this complication.",
+  "rationaleSimple": "Headache, blurred vision, upper belly pain, fast swelling and little urine are warning signs.",
+  "optionRationales": [
+   "Worsening: a persistent severe headache is a warning sign of worsening hypertension and impending seizures.",
+   "Worsening: sudden swelling of the face and hands shows fluid shifting and is a sign of progression.",
+   "Not a warning sign: mild backache after standing is a common discomfort of pregnancy.",
+   "Worsening: blurred vision or spots show brain involvement and raise seizure risk.",
+   "Worsening: upper abdominal pain suggests liver involvement and is a danger sign.",
+   "Worsening: very little urine suggests kidney involvement and falling circulation.",
+   "Not a warning sign: occasional painless tightening of the abdomen is common in pregnancy and not linked to this problem."
+  ],
+  "strategy": "Recognizing warning signs of worsening hypertension in pregnancy",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-03-b",
+  "v": 2,
+  "type": "single",
+  "area": "NP2",
+  "topic": "Pregnancy-induced hypertension (toxemia)",
+  "topicId": "ob-nursing/common-complications/toxemia",
+  "noteId": "np2-ob-pih-preeclampsia",
+  "clusterId": "cp-np2-03",
+  "clusterSeq": 2,
+  "vignette": "Lourdes Reyes, 22 years old, G1P0 at about 34 weeks, goes to the rural health unit for her prenatal visit. She says she has had a headache for two days that does not go away with rest, and her face and hands look puffy. The nurse measures a blood pressure higher than her earlier visits and finds protein in her urine.",
+  "stem": "What is the most appropriate nursing action at the rural health unit?",
+  "options": [
+   "Keep her side-lying and rested, and arrange urgent referral to a hospital with a companion",
+   "Send her home to rest in bed and return to the health unit at her next scheduled prenatal visit",
+   "Advise her to take a pain reliever for the headache and go back to her usual work this week",
+   "Tell her to reduce her fluids and salt at home and return to the health unit next week"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "Headache with raised blood pressure and protein in the urine in late pregnancy signals a serious hypertensive disorder that can progress to seizures. The nurse keeps her quiet and safe and arranges prompt transfer to a facility that can manage it. Sending her home or advising only symptom relief leaves the risk untreated.",
+  "rationaleSimple": "These signs can become dangerous quickly, so she needs urgent hospital care.",
+  "optionRationales": [
+   "Best answer. Headache with raised blood pressure and protein in the urine in late pregnancy signals a serious hypertensive disorder that can progress to seizures.",
+   "Delays care for a potentially life-threatening condition.",
+   "Treats a symptom and ignores the underlying risk.",
+   "Home advice alone is inadequate; she needs prompt evaluation."
+  ],
+  "strategy": "Prioritising referral for a high-risk pregnancy",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-03-c",
+  "v": 2,
+  "type": "single",
+  "area": "NP2",
+  "topic": "Pregnancy-induced hypertension (toxemia)",
+  "topicId": "ob-nursing/common-complications/toxemia",
+  "noteId": "np2-ob-pih-preeclampsia",
+  "clusterId": "cp-np2-03",
+  "clusterSeq": 3,
+  "vignette": "Lourdes Reyes, 22 years old, G1P0 at about 34 weeks, goes to the rural health unit for her prenatal visit. She says she has had a headache for two days that does not go away with rest, and her face and hands look puffy. The nurse measures a blood pressure higher than her earlier visits and finds protein in her urine.",
+  "stem": "Lourdes is admitted and magnesium sulfate is started. Which finding would require the nurse to stop the infusion and notify the physician?",
+  "options": [
+   "Feeling warm and flushed",
+   "A calm, restful demeanor",
+   "Fetal movement felt after meals",
+   "Absent deep tendon reflexes"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "Loss of deep tendon reflexes, a falling respiratory rate and reduced urine output are early signs of magnesium toxicity. Warmth and flushing are expected, and calm rest is the goal. The nurse should stop the infusion, stay with the patient and report, following the facility protocol.",
+  "rationaleSimple": "No reflexes means too much magnesium, so stop and report.",
+  "optionRationales": [
+   "Warmth is a common, expected effect.",
+   "Calmness is a desired effect.",
+   "Normal and reassuring.",
+   "Best answer. Loss of deep tendon reflexes, a falling respiratory rate and reduced urine output are early signs of magnesium toxicity."
+  ],
+  "strategy": "Monitoring for drug toxicity",
+  "difficulty": 4,
+  "bloom": "apply",
+  "imageSuggestion": {
+   "description": "Technique for testing the patellar (knee-jerk) deep tendon reflex with a reflex hammer in a client lying or sitting with the knee relaxed.",
+   "placement": "rationale",
+   "searchTerms": [
+    "patellar reflex test",
+    "deep tendon reflex grading",
+    "reflex hammer knee jerk"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-03-d",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP2",
+  "topic": "Pregnancy-induced hypertension (toxemia)",
+  "topicId": "ob-nursing/common-complications/toxemia",
+  "noteId": "np2-ob-pih-preeclampsia",
+  "clusterId": "cp-np2-03",
+  "clusterSeq": 4,
+  "vignette": "Lourdes Reyes, 22 years old, G1P0 at about 34 weeks, goes to the rural health unit for her prenatal visit. She says she has had a headache for two days that does not go away with rest, and her face and hands look puffy. The nurse measures a blood pressure higher than her earlier visits and finds protein in her urine.",
+  "stem": "Select whether each seizure-precaution measure is appropriate or should be avoided.",
+  "options": [],
+  "answer": [],
+  "rationale": "Stimulation can trigger a seizure, so the environment is kept calm. Padded rails, suction and oxygen prepare for an emergency, and frequent observation is required. Leaving her alone or allowing many visitors increases risk.",
+  "rationaleSimple": "Keep her calm and safe with equipment ready, and do not leave her alone.",
+  "optionRationales": [
+   "Appropriate: a quiet, dim room lowers stimulation, which can trigger a seizure.",
+   "Appropriate: padded rails keep her from injury, and suction and oxygen are needed if a seizure occurs.",
+   "Avoid: noise and many visitors stimulate her and increase seizure risk.",
+   "Avoid: she needs frequent observation, so leaving her alone for long periods is unsafe."
+  ],
+  "strategy": "Seizure precautions",
+  "difficulty": 2,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "Keep the room quiet with low lighting",
+   "Keep side rails padded and up, with suction and oxygen at hand",
+   "Allow many visitors to talk and stimulate her",
+   "Leave her alone for long periods without checking"
+  ],
+  "columns": [
+   "Appropriate",
+   "Avoid"
+  ],
+  "rowAnswer": [
+   0,
+   0,
+   1,
+   1
+  ]
+ },
+ {
+  "id": "cp-np2-03-e",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP2",
+  "topic": "Pregnancy-induced hypertension (toxemia)",
+  "topicId": "ob-nursing/common-complications/toxemia",
+  "noteId": "np2-ob-pih-preeclampsia",
+  "clusterId": "cp-np2-03",
+  "clusterSeq": 5,
+  "vignette": "Lourdes Reyes, 22 years old, G1P0 at about 34 weeks, goes to the rural health unit for her prenatal visit. She says she has had a headache for two days that does not go away with rest, and her face and hands look puffy. The nurse measures a blood pressure higher than her earlier visits and finds protein in her urine.",
+  "stem": "Choose the words to complete the health teaching to Lourdes and her family.\n\nThe condition usually resolves after {{1}}, and monitoring must continue {{2}} because seizures can still occur.",
+  "options": [],
+  "answer": [],
+  "rationale": "Delivery of the baby and placenta is the definitive treatment, but the risk of seizures does not end at birth, so assessment continues after delivery. Bed rest and diet may support care but do not resolve the condition.",
+  "rationaleSimple": "Birth treats it, but the mother still needs close watching after delivery.",
+  "optionRationales": [
+   "Birth of the baby and placenta: delivery is the definitive treatment for this pregnancy condition. Bed rest or a low-salt diet only supports care.",
+   "Into the postpartum period: seizures can still occur after birth, so monitoring continues. Stopping at labor or relying on the headache alone is unsafe."
+  ],
+  "strategy": "Teaching about hypertensive disorders of pregnancy",
+  "difficulty": 3,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "blanks": [
+   {
+    "choices": [
+     "birth of the baby and placenta",
+     "bed rest alone",
+     "a low-salt diet"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "into the postpartum period",
+     "only until labor starts",
+     "only when the headache returns"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "cp-np2-04-a",
+  "v": 2,
+  "type": "single",
+  "area": "NP2",
+  "topic": "Postpartum changes",
+  "topicId": "ob-nursing/postpartum-changes",
+  "noteId": "np2-ob-puerperium-rubin",
+  "clusterId": "cp-np2-04",
+  "clusterSeq": 1,
+  "vignette": "Ana Villanueva, 30 years old, G3P3, gave birth vaginally to a healthy baby two hours ago and is in the recovery area of a district hospital. On assessment the nurse finds the fundus soft and pushed to the right of the abdomen, and a perineal pad that is soaked within a short time. Ana looks pale and restless.",
+  "stem": "What should the nurse do first about Ana's soft, displaced fundus?",
+  "options": [
+   "Apply a heating pad over the lower abdomen for comfort",
+   "Ask Ana to sit up and eat a full meal at once",
+   "Change the pad and reassess her again in two hours",
+   "Massage the fundus gently until it becomes firm"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "A soft, displaced fundus with heavy bleeding suggests uterine atony, often with a full bladder pushing the uterus aside. Gentle fundal massage helps the uterus contract and compress open vessels, and the nurse also calls for help and then assists her to empty her bladder. Heat, feeding or waiting do not address the cause.",
+  "rationaleSimple": "A soft womb causes bleeding, so massage it until firm.",
+  "optionRationales": [
+   "Heat does not firm the uterus and may increase bleeding.",
+   "Does not address bleeding and may worsen it.",
+   "Delay in a woman who is actively bleeding.",
+   "Best answer. A soft, displaced fundus with heavy bleeding suggests uterine atony, often with a full bladder pushing the uterus aside."
+  ],
+  "strategy": "Responding to uterine atony",
+  "difficulty": 3,
+  "bloom": "apply",
+  "imageSuggestion": {
+   "description": "Postpartum nurse performing fundal massage with one hand cupping the fundus above the symphysis pubis while supporting the lower uterine segment with the other hand.",
+   "placement": "rationale",
+   "searchTerms": [
+    "fundal massage",
+    "postpartum uterine massage",
+    "uterine fundus palpation postpartum"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-04-b",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP2",
+  "topic": "Postpartum changes",
+  "topicId": "ob-nursing/postpartum-changes",
+  "noteId": "np2-ob-puerperium-rubin",
+  "clusterId": "cp-np2-04",
+  "clusterSeq": 2,
+  "vignette": "Ana Villanueva, 30 years old, G3P3, gave birth vaginally to a healthy baby two hours ago and is in the recovery area of a district hospital. On assessment the nurse finds the fundus soft and pushed to the right of the abdomen, and a perineal pad that is soaked within a short time. Ana looks pale and restless.",
+  "stem": "Read the postpartum note. Select the findings that suggest hemorrhage and need action.",
+  "options": [
+   "Fundus soft and boggy, displaced to the right.",
+   "Bladder palpable above the symphysis.",
+   "Perineal pad saturated in a short time.",
+   "Mother pale and restless.",
+   "Perineum clean with mild swelling."
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "rationale": "A boggy displaced fundus, a full bladder preventing contraction, rapid pad saturation and pallor with restlessness are signs of significant blood loss. Mild perineal swelling is common after birth and is not the concern here.",
+  "rationaleSimple": "Soft womb, full bladder, soaked pad and pale restless mother point to bleeding.",
+  "optionRationales": [
+   "Hemorrhage sign: a soft, boggy fundus is not contracting, so the uterus cannot close the bleeding vessels; displacement to the right suggests a full bladder.",
+   "Hemorrhage sign: a distended bladder pushes the uterus up and stops it contracting, so bleeding continues.",
+   "Hemorrhage sign: a pad that saturates quickly shows heavy blood loss.",
+   "Hemorrhage sign: pallor and restlessness are signs of shock from blood loss.",
+   "Not a concern here: mild perineal swelling is common after birth and is not a sign of hemorrhage."
+  ],
+  "strategy": "Recognizing postpartum hemorrhage",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-04-c",
+  "v": 2,
+  "type": "sata",
+  "area": "NP2",
+  "topic": "Postpartum changes",
+  "topicId": "ob-nursing/postpartum-changes",
+  "noteId": "np2-ob-puerperium-rubin",
+  "clusterId": "cp-np2-04",
+  "clusterSeq": 3,
+  "vignette": "Ana Villanueva, 30 years old, G3P3, gave birth vaginally to a healthy baby two hours ago and is in the recovery area of a district hospital. On assessment the nurse finds the fundus soft and pushed to the right of the abdomen, and a perineal pad that is soaked within a short time. Ana looks pale and restless.",
+  "stem": "After the fundus becomes firm, which nursing actions should continue? Select all that apply.",
+  "options": [
+   "Assist Ana to empty her bladder",
+   "Keep a record of pad use and fundal checks",
+   "Restrict all fluids",
+   "Monitor vital signs and level of consciousness",
+   "Stop assessing because the fundus is firm",
+   "Notify the physician or midwife of the bleeding"
+  ],
+  "answer": [
+   0,
+   1,
+   3,
+   5
+  ],
+  "rationale": "A full bladder prevents the uterus from staying contracted, so voiding is encouraged. Frequent monitoring and reporting detect ongoing blood loss early and guide treatment, and accurate records support decisions. A firm fundus does not mean the risk has passed, and fluids are not routinely restricted.",
+  "rationaleSimple": "Keep watching, help her pass urine, report and write it down.",
+  "optionRationales": [
+   "Continue: an empty bladder lets the uterus stay contracted and helps prevent more bleeding.",
+   "Continue: records of pad use and fundal checks show whether bleeding is controlled.",
+   "Wrong: fluids are not routinely restricted; she needs adequate hydration after blood loss.",
+   "Continue: vital signs and consciousness show whether blood loss is affecting circulation.",
+   "Wrong: a firm fundus does not mean the risk has passed; she must still be assessed regularly.",
+   "Continue: the provider needs to know about the bleeding to guide treatment."
+  ],
+  "strategy": "Ongoing management after fundal massage",
+  "difficulty": 3,
+  "bloom": "apply",
+  "imageSuggestion": {
+   "description": "Diagram showing the expected height of the uterine fundus relative to the umbilicus and symphysis pubis from delivery through the first postpartum days.",
+   "placement": "rationale",
+   "searchTerms": [
+    "uterine involution diagram",
+    "postpartum fundal height",
+    "fundus involution"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-04-d",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP2",
+  "topic": "Postpartum changes",
+  "topicId": "ob-nursing/postpartum-changes",
+  "noteId": "np2-ob-puerperium-rubin",
+  "clusterId": "cp-np2-04",
+  "clusterSeq": 4,
+  "vignette": "Ana Villanueva, 30 years old, G3P3, gave birth vaginally to a healthy baby two hours ago and is in the recovery area of a district hospital. On assessment the nurse finds the fundus soft and pushed to the right of the abdomen, and a perineal pad that is soaked within a short time. Ana looks pale and restless.",
+  "stem": "Match each finding to its most likely cause of postpartum bleeding.",
+  "options": [],
+  "answer": [],
+  "rationale": "A soft uterus is atony, which is common after prolonged labor. A firm fundus with persistent bright-red bleeding suggests trauma to the genital tract, and an incomplete placenta suggests retained tissue.",
+  "rationaleSimple": "Soft womb means atony; firm womb with steady bleeding means a tear; missing placenta means retained tissue.",
+  "optionRationales": [
+   "Uterine atony: a soft boggy fundus cannot compress vessels, causing heavy bleeding.",
+   "Genital tract tear: a firm fundus means the uterus is contracting, so continuing bright-red bleeding suggests trauma.",
+   "Retained placental tissue: an incomplete placenta suggests a piece remains in the uterus and keeps it from contracting.",
+   "Uterine atony: a uterus tired from a very long labor is often soft and slow to contract."
+  ],
+  "strategy": "Differentiating causes of postpartum bleeding",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "Boggy fundus with heavy bleeding",
+   "Firm fundus with a continuous trickle of bright-red blood",
+   "Missing portion of the placenta on inspection",
+   "Soft uterus after a very long labor"
+  ],
+  "columns": [
+   "Uterine atony",
+   "Retained placental tissue",
+   "Genital tract tear"
+  ],
+  "rowAnswer": [
+   0,
+   2,
+   1,
+   0
+  ]
+ },
+ {
+  "id": "cp-np2-04-e",
+  "v": 2,
+  "type": "single",
+  "area": "NP2",
+  "topic": "Postpartum changes",
+  "topicId": "ob-nursing/postpartum-changes",
+  "noteId": "np2-ob-puerperium-rubin",
+  "clusterId": "cp-np2-04",
+  "clusterSeq": 5,
+  "vignette": "Ana Villanueva, 30 years old, G3P3, gave birth vaginally to a healthy baby two hours ago and is in the recovery area of a district hospital. On assessment the nurse finds the fundus soft and pushed to the right of the abdomen, and a perineal pad that is soaked within a short time. Ana looks pale and restless.",
+  "stem": "Before discharge, which instruction about warning signs should the nurse give Ana?",
+  "options": [
+   "Expect some heavy bleeding and clots and wait for the next check-up",
+   "Report sudden heavy bleeding, large clots, fever or foul-smelling discharge",
+   "Bleeding that becomes heavier with activity is a normal part of recovery and needs no action",
+   "Foul-smelling lochia is common after birth and needs no action"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "Women should know to report sudden heavy bleeding, large clots, fever, abdominal pain or foul-smelling discharge because they may indicate hemorrhage or infection. Dismissing these signs delays care.",
+  "rationaleSimple": "Tell her to go back to the hospital for heavy bleeding, clots, fever or bad smell.",
+  "optionRationales": [
+   "Heavy bleeding and clots are not routine and need prompt evaluation.",
+   "Best answer. Women should know to report sudden heavy bleeding, large clots, fever, abdominal pain or foul-smelling discharge because they may indicate hemorrhage or infection.",
+   "Increasing heavy bleeding is not safe to dismiss.",
+   "Foul odor suggests infection."
+  ],
+  "strategy": "Postpartum discharge teaching",
+  "difficulty": 2,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-05-a",
+  "v": 2,
+  "type": "single",
+  "area": "NP2",
+  "topic": "Essential intrapartum and newborn care",
+  "topicId": "ob-nursing/others/einc",
+  "noteId": "np1-einc-amtsl",
+  "clusterId": "cp-np2-05",
+  "clusterSeq": 1,
+  "vignette": "Jessa Mendoza, 25 years old, has just delivered a term baby girl at a rural health unit. The baby is crying strongly, breathing well and moving actively. Jessa says she wants to breastfeed. The nurse assists with the immediate care of the newborn.",
+  "stem": "Which action should the nurse do immediately after birth?",
+  "options": [
+   "Bathe the baby with warm water and wipe off the vernix right away",
+   "Take the baby to the nursery for weighing and other routine procedures before the first feed",
+   "Dry the baby thoroughly and place her skin-to-skin on the mother's chest",
+   "Wrap her tightly in a blanket and give her to the waiting family"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "Drying prevents heat loss, and skin-to-skin contact keeps the baby warm, supports bonding and stimulates early breastfeeding. Early bathing and separation from the mother are not recommended for a well newborn.",
+  "rationaleSimple": "Dry her and put her on her mother's skin to stay warm.",
+  "optionRationales": [
+   "Early bathing causes heat loss and removes protective vernix.",
+   "Separation interrupts bonding and warmth.",
+   "Best answer. Drying prevents heat loss, and skin-to-skin contact keeps the baby warm, supports bonding and stimulates early breastfeeding.",
+   "Delays skin-to-skin contact and does not keep warmth at the source."
+  ],
+  "strategy": "Immediate newborn care",
+  "difficulty": 2,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-05-b",
+  "v": 2,
+  "type": "sata",
+  "area": "NP2",
+  "topic": "Essential intrapartum and newborn care",
+  "topicId": "ob-nursing/others/einc",
+  "noteId": "np1-einc-amtsl",
+  "clusterId": "cp-np2-05",
+  "clusterSeq": 2,
+  "vignette": "Jessa Mendoza, 25 years old, has just delivered a term baby girl at a rural health unit. The baby is crying strongly, breathing well and moving actively. Jessa says she wants to breastfeed. The nurse assists with the immediate care of the newborn.",
+  "stem": "Which actions belong to immediate newborn care for a well baby? Select all that apply.",
+  "options": [
+   "Separate the baby for routine procedures before the first feed",
+   "Help the mother begin breastfeeding when the baby shows feeding cues",
+   "Give a bath right away",
+   "Delay clamping of the cord as advised by the protocol",
+   "Maintain uninterrupted skin-to-skin contact",
+   "Cover the baby and her head after drying"
+  ],
+  "answer": [
+   1,
+   3,
+   4,
+   5
+  ],
+  "rationale": "Keeping the baby warm, undisturbed skin-to-skin contact, delayed cord clamping and early breastfeeding support are core steps of early newborn care. Bathing and separation work against warmth and bonding.",
+  "rationaleSimple": "Keep her warm and with her mother and start breastfeeding early.",
+  "optionRationales": [
+   "Wrong: separating mother and baby delays bonding, warmth and the first feed.",
+   "Right: helping with breastfeeding when feeding cues appear supports early successful feeding.",
+   "Wrong: an immediate bath cools the baby and delays skin-to-skin contact and feeding.",
+   "Right: delayed cord clamping, if the protocol allows it, benefits the newborn.",
+   "Right: uninterrupted skin-to-skin contact keeps the baby warm and promotes bonding and breastfeeding.",
+   "Right: drying and covering the baby, including the head, prevents heat loss."
+  ],
+  "strategy": "Essential newborn care steps",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-05-c",
+  "v": 2,
+  "type": "single",
+  "area": "NP2",
+  "topic": "Essential intrapartum and newborn care",
+  "topicId": "ob-nursing/others/einc",
+  "noteId": "np1-einc-amtsl",
+  "clusterId": "cp-np2-05",
+  "clusterSeq": 3,
+  "vignette": "Jessa Mendoza, 25 years old, has just delivered a term baby girl at a rural health unit. The baby is crying strongly, breathing well and moving actively. Jessa says she wants to breastfeed. The nurse assists with the immediate care of the newborn.",
+  "stem": "The nurse observes Jessa breastfeeding. Which finding shows a good latch?",
+  "options": [
+   "Baby's mouth is wide open, lips turned outward, chin against the breast",
+   "Baby's lips are pursed inward and only the nipple is taken into the mouth",
+   "Baby's cheeks dimple with each suck and clicking sounds are heard during the feed",
+   "Mother feels increasing nipple pain that continues throughout the whole feed"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "A good latch has a wide mouth, flanged lips, the chin touching the breast and more areola visible above than below. Pain, clicking and cheek dimpling indicate poor attachment, which can lead to sore nipples and poor milk transfer.",
+  "rationaleSimple": "A wide open mouth with lips turned out means a good latch.",
+  "optionRationales": [
+   "Best answer. A good latch has a wide mouth, flanged lips, the chin touching the breast and more areola visible above than below.",
+   "Pursed lips with the nipple alone indicates shallow latch.",
+   "Cheek dimpling and clicking suggest poor attachment.",
+   "Persistent pain suggests poor attachment."
+  ],
+  "strategy": "Assessing breastfeeding technique",
+  "difficulty": 3,
+  "bloom": "apply",
+  "imageSuggestion": {
+   "description": "Side-by-side drawings of a poor and a good breastfeeding latch (lips flanged, areola visible mostly above the mouth), without captions.",
+   "placement": "rationale",
+   "searchTerms": [
+    "breastfeeding latch comparison",
+    "correct breastfeeding position",
+    "infant latch diagram"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-05-d",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP2",
+  "topic": "Essential intrapartum and newborn care",
+  "topicId": "ob-nursing/others/einc",
+  "noteId": "np1-einc-amtsl",
+  "clusterId": "cp-np2-05",
+  "clusterSeq": 4,
+  "vignette": "Jessa Mendoza, 25 years old, has just delivered a term baby girl at a rural health unit. The baby is crying strongly, breathing well and moving actively. Jessa says she wants to breastfeed. The nurse assists with the immediate care of the newborn.",
+  "stem": "Classify each observation during breastfeeding follow-up.",
+  "options": [],
+  "answer": [],
+  "rationale": "Audible swallowing and a content baby with regular wet diapers indicate effective milk transfer. Ongoing pain or a baby too sleepy to feed suggests poor attachment or inadequate intake and needs more support.",
+  "rationaleSimple": "Swallowing and wet diapers are good; pain or a sleepy baby who will not feed needs help.",
+  "optionRationales": [
+   "Effective feeding: audible swallowing shows milk is moving into the baby.",
+   "Needs support: nipple pain throughout each feed suggests poor attachment.",
+   "Effective feeding: a content baby with regular wet diapers is getting enough milk.",
+   "Needs support: a baby who sleeps after a few sucks and is hard to wake may not be getting enough milk."
+  ],
+  "strategy": "Evaluating breastfeeding effectiveness",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "Audible swallowing during feeds",
+   "Persistent nipple pain throughout each feed",
+   "Baby is content after feeds and has regular wet diapers",
+   "Baby sleeps after a few sucks and is hard to wake for feeds"
+  ],
+  "columns": [
+   "Sign of effective feeding",
+   "Needs further support"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   0,
+   1
+  ]
+ },
+ {
+  "id": "cp-np2-05-e",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP2",
+  "topic": "Essential intrapartum and newborn care",
+  "topicId": "ob-nursing/others/einc",
+  "noteId": "np1-einc-amtsl",
+  "clusterId": "cp-np2-05",
+  "clusterSeq": 5,
+  "vignette": "Jessa Mendoza, 25 years old, has just delivered a term baby girl at a rural health unit. The baby is crying strongly, breathing well and moving actively. Jessa says she wants to breastfeed. The nurse assists with the immediate care of the newborn.",
+  "stem": "Choose the words that complete the teaching to Jessa.\n\nBreastfeeding should be started {{1}}, and the baby should be fed {{2}}.",
+  "options": [],
+  "answer": [],
+  "rationale": "Early initiation promotes bonding, uterine contraction and milk supply, and feeding on demand lets the baby take the amount she needs. Strict schedules or routine supplements can reduce milk supply.",
+  "rationaleSimple": "Start in the first hour and feed whenever the baby is hungry.",
+  "optionRationales": [
+   "Within the first hour: early breastfeeding promotes bonding, uterine contraction and milk supply. Waiting a day or for white milk delays these.",
+   "On demand: feeding when she shows hunger cues lets the baby take what she needs. Strict schedules or routine formula can reduce milk supply."
+  ],
+  "strategy": "Breastfeeding teaching",
+  "difficulty": 2,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "blanks": [
+   {
+    "choices": [
+     "within the first hour after birth",
+     "after the first day",
+     "only when the milk looks white"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "on demand, whenever she shows hunger cues",
+     "strictly every six hours",
+     "with formula between feeds"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "cp-np2-06-a",
+  "v": 2,
+  "type": "single",
+  "area": "NP2",
+  "topic": "Toddler growth and development",
+  "topicId": "pediatric-nursing/growth-and-development/toddler",
+  "noteId": "np2-pd-toddler-dev",
+  "clusterId": "cp-np2-06",
+  "clusterSeq": 1,
+  "vignette": "Carlo, 2 and a half years old, is brought by his mother Aling Nena to the barangay health center for a well-child visit. She says he refuses almost everything, shouts \"No!\", throws himself on the floor when upset, and climbs onto furniture. She also wants to know when to start toilet training.",
+  "stem": "How should the nurse interpret Carlo's behavior?",
+  "options": [
+   "It is a sign that the parents have failed to discipline him properly",
+   "It is a normal sign of the toddler's search for independence",
+   "It is an early sign of a behavior disorder needing referral",
+   "It means he is regressing and needs stricter limits"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "Toddlers are in the stage of developing autonomy, and negativism and tantrums are expected expressions of it. Reassuring the parent and teaching consistent, safe limits is appropriate. There is no cue to suggest a disorder.",
+  "rationaleSimple": "Saying no and tantrums are normal for toddlers learning to be independent.",
+  "optionRationales": [
+   "Blames the parent without basis.",
+   "Best answer. Toddlers are in the stage of developing autonomy, and negativism and tantrums are expected expressions of it.",
+   "Normal toddler behavior is not a disorder.",
+   "Regression is not indicated and strictness is not the answer."
+  ],
+  "strategy": "Interpreting toddler behavior",
+  "difficulty": 2,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-06-b",
+  "v": 2,
+  "type": "sata",
+  "area": "NP2",
+  "topic": "Toddler growth and development",
+  "topicId": "pediatric-nursing/growth-and-development/toddler",
+  "noteId": "np2-pd-toddler-dev",
+  "clusterId": "cp-np2-06",
+  "clusterSeq": 2,
+  "vignette": "Carlo, 2 and a half years old, is brought by his mother Aling Nena to the barangay health center for a well-child visit. She says he refuses almost everything, shouts \"No!\", throws himself on the floor when upset, and climbs onto furniture. She also wants to know when to start toilet training.",
+  "stem": "Which safety teachings should the nurse include? Select all that apply.",
+  "options": [
+   "Turn pot handles toward the back of the stove",
+   "Rely on him to remember the safety rules",
+   "Never leave him alone near water",
+   "Keep small objects and hard foods that can cause choking away from him",
+   "Store medicines and household cleaning products out of reach and locked",
+   "Use gates on stairs and secure windows"
+  ],
+  "answer": [
+   0,
+   2,
+   3,
+   4,
+   5
+  ],
+  "rationale": "Toddlers are curious, mobile and put things in their mouths, so safety depends on adult supervision and environmental control. A toddler cannot reliably remember or follow safety rules.",
+  "rationaleSimple": "Keep dangerous things out of reach and always watch him.",
+  "optionRationales": [
+   "Right: pot handles turned to the back prevent a curious toddler from pulling hot contents down.",
+   "Wrong: toddlers cannot reliably remember rules, so safety depends on adult supervision.",
+   "Right: toddlers can drown in very little water, so they must never be left alone near it.",
+   "Right: small objects and hard foods are choking hazards for a toddler who puts things in his mouth.",
+   "Right: locked storage keeps medicines and cleaning products from being swallowed.",
+   "Right: gates and secure windows prevent falls."
+  ],
+  "strategy": "Injury prevention teaching for toddlers",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-06-c",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP2",
+  "topic": "Toddler growth and development",
+  "topicId": "pediatric-nursing/growth-and-development/toddler",
+  "noteId": "np2-pd-toddler-dev",
+  "clusterId": "cp-np2-06",
+  "clusterSeq": 3,
+  "vignette": "Carlo, 2 and a half years old, is brought by his mother Aling Nena to the barangay health center for a well-child visit. She says he refuses almost everything, shouts \"No!\", throws himself on the floor when upset, and climbs onto furniture. She also wants to know when to start toilet training.",
+  "stem": "Select the age group in which each behavior is typical.",
+  "options": [],
+  "answer": [],
+  "rationale": "Toddlers play beside rather than with others and have tantrums as they test limits. Preschoolers use fantasy and imagination, while school-age children enjoy organized games with rules.",
+  "rationaleSimple": "Toddlers play alongside others; preschoolers pretend; school-age children follow rules.",
+  "optionRationales": [
+   "Toddler: toddlers play beside other children rather than with them.",
+   "Preschooler: imaginary friends and magical thinking are typical of the preschool years.",
+   "School-age child: team games with rules fit the rule-based thinking of school-age children.",
+   "Toddler: tantrums are common as toddlers test limits and cannot yet express frustration."
+  ],
+  "strategy": "Age-typical behavior",
+  "difficulty": 3,
+  "bloom": "recall",
+  "imageSuggestion": {
+   "description": "Chart or illustration of developmental milestones in toddlers, preschoolers and school-age children (motor, language, social).",
+   "placement": "rationale",
+   "searchTerms": [
+    "child developmental milestones chart",
+    "toddler development stages",
+    "Erikson Piaget stages child"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "Parallel play next to other children",
+   "Imaginary friends and magical thinking",
+   "Team games with rules and rule-based thinking",
+   "Temper tantrums when told no"
+  ],
+  "columns": [
+   "Toddler",
+   "Preschooler",
+   "School-age child"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   2,
+   0
+  ]
+ },
+ {
+  "id": "cp-np2-06-d",
+  "v": 2,
+  "type": "single",
+  "area": "NP2",
+  "topic": "Toddler growth and development",
+  "topicId": "pediatric-nursing/growth-and-development/toddler",
+  "noteId": "np2-pd-toddler-dev",
+  "clusterId": "cp-np2-06",
+  "clusterSeq": 4,
+  "vignette": "Carlo, 2 and a half years old, is brought by his mother Aling Nena to the barangay health center for a well-child visit. She says he refuses almost everything, shouts \"No!\", throws himself on the floor when upset, and climbs onto furniture. She also wants to know when to start toilet training.",
+  "stem": "Carlo has a tantrum in the clinic. What should the nurse advise his mother to do?",
+  "options": [
+   "Scold him loudly in front of other people and spank him to stop it",
+   "Give him what he wants so that the tantrum ends quickly and he calms down",
+   "Keep him safe, stay calm and nearby, and avoid giving in to the demand",
+   "Leave the room and ignore him completely until the crying has stopped"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "During a tantrum the child needs to stay safe, and the parent stays calm and consistent without rewarding the behavior. Punishing, giving in or leaving the child are not helpful.",
+  "rationaleSimple": "Keep him safe, stay calm, and do not reward the tantrum.",
+  "optionRationales": [
+   "Physical punishment is harmful and ineffective.",
+   "Reinforces tantrums.",
+   "Best answer. During a tantrum the child needs to stay safe, and the parent stays calm and consistent without rewarding the behavior.",
+   "Leaving a toddler unattended is unsafe."
+  ],
+  "strategy": "Guiding parents on behavior",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-06-e",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP2",
+  "topic": "Toddler growth and development",
+  "topicId": "pediatric-nursing/growth-and-development/toddler",
+  "noteId": "np2-pd-toddler-dev",
+  "clusterId": "cp-np2-06",
+  "clusterSeq": 5,
+  "vignette": "Carlo, 2 and a half years old, is brought by his mother Aling Nena to the barangay health center for a well-child visit. She says he refuses almost everything, shouts \"No!\", throws himself on the floor when upset, and climbs onto furniture. She also wants to know when to start toilet training.",
+  "stem": "Choose the words that complete the teaching about toilet training.\n\nToilet training should begin when the child shows {{1}}, and parents should {{2}} his successes.",
+  "options": [],
+  "answer": [],
+  "rationale": "Readiness varies, so training starts when the child can control his muscles and shows interest, not at a set age. Positive reinforcement supports learning, while punishment can cause fear and delay.",
+  "rationaleSimple": "Wait until he is ready and praise him when he does well.",
+  "optionRationales": [
+   "Physical and emotional readiness: training should begin when the child can control his muscles and shows interest, not at a set age or to match other children.",
+   "Praise: positive reinforcement supports learning. Punishing or ignoring successes can cause fear and delay training."
+  ],
+  "strategy": "Toilet training guidance",
+  "difficulty": 2,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "blanks": [
+   {
+    "choices": [
+     "physical and emotional readiness",
+     "a certain birthday",
+     "the same pace as his cousins"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "praise",
+     "punish",
+     "ignore"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "cp-np2-07-a",
+  "v": 2,
+  "type": "single",
+  "area": "NP2",
+  "topic": "Infant care and immunisation",
+  "topicId": "pediatric-nursing/growth-and-development/infant",
+  "noteId": "np2-pd-infant-dev",
+  "clusterId": "cp-np2-07",
+  "clusterSeq": 1,
+  "vignette": "Mrs. Liza Bautista brings her 2-month-old son Migo to the rural health unit for his scheduled immunisation. He is feeding well and active. His mother says he was a little fussy yesterday but has no fever today. This is her first baby and she is worried about side effects.",
+  "stem": "Before giving the vaccine, what is the nurse's priority?",
+  "options": [
+   "Give the vaccine first and ask the screening questions afterward to save time",
+   "Ask only whether he has fed today and whether he slept well during the night",
+   "Instruct the mother to hold him still and skip explaining the procedure to her",
+   "Screen for current illness and previous vaccine reactions, and check his record"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "Safe immunisation requires screening for contraindications such as acute illness and previous reactions, verifying the record, and explaining the procedure to the parent. Giving first and asking later is unsafe.",
+  "rationaleSimple": "Always check for illness and past reactions before giving a vaccine.",
+  "optionRationales": [
+   "Screening must come before administration.",
+   "Incomplete screening.",
+   "Parents should be informed and consent to the procedure.",
+   "Best answer. Safe immunisation requires screening for contraindications such as acute illness and previous reactions, verifying the record, and explaining the procedure to the parent."
+  ],
+  "strategy": "Pre-vaccination screening",
+  "difficulty": 2,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-07-b",
+  "v": 2,
+  "type": "sata",
+  "area": "NP2",
+  "topic": "Infant care and immunisation",
+  "topicId": "pediatric-nursing/growth-and-development/infant",
+  "noteId": "np2-pd-infant-dev",
+  "clusterId": "cp-np2-07",
+  "clusterSeq": 2,
+  "vignette": "Mrs. Liza Bautista brings her 2-month-old son Migo to the rural health unit for his scheduled immunisation. He is feeding well and active. His mother says he was a little fussy yesterday but has no fever today. This is her first baby and she is worried about side effects.",
+  "stem": "Which instructions should the nurse give to the mother? Select all that apply.",
+  "options": [
+   "Continue to feed the baby as usual",
+   "Keep the immunisation card and bring it on the next visit",
+   "Mild fever, soreness at the site and fussiness can occur",
+   "Withhold feeds for the rest of the day",
+   "Report difficulty in breathing or swelling of the face",
+   "Apply a hot herbal paste to the injection site"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "rationale": "Mothers should know the expected mild reactions, how to comfort the baby, which signs need urgent help and the importance of the record. Applying unproven substances to the site or withholding feeds is harmful or unnecessary.",
+  "rationaleSimple": "Tell her what is normal, what is urgent, keep feeding and keep the card.",
+  "optionRationales": [
+   "Right: feeding as usual keeps the baby comfortable and well hydrated.",
+   "Right: the immunisation card is the record of vaccines given and is needed at the next visit.",
+   "Right: telling the mother that mild fever, soreness and fussiness can occur prevents unnecessary worry.",
+   "Wrong: withholding feeds is unnecessary and could harm the baby.",
+   "Right: difficulty in breathing or facial swelling may mean a serious reaction and needs urgent help.",
+   "Wrong: hot or unproven substances on the site can burn or infect it."
+  ],
+  "strategy": "Post-immunisation teaching",
+  "difficulty": 3,
+  "bloom": "apply",
+  "imageSuggestion": {
+   "description": "Diagram of the anterolateral thigh of an infant showing the injection site for intramuscular vaccination.",
+   "placement": "rationale",
+   "searchTerms": [
+    "infant intramuscular injection site thigh",
+    "vastus lateralis infant injection",
+    "infant vaccination injection"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-07-c",
+  "v": 2,
+  "type": "single",
+  "area": "NP2",
+  "topic": "Infant care and immunisation",
+  "topicId": "pediatric-nursing/growth-and-development/infant",
+  "noteId": "np2-pd-infant-dev",
+  "clusterId": "cp-np2-07",
+  "clusterSeq": 3,
+  "vignette": "Mrs. Liza Bautista brings her 2-month-old son Migo to the rural health unit for his scheduled immunisation. He is feeding well and active. His mother says he was a little fussy yesterday but has no fever today. This is her first baby and she is worried about side effects.",
+  "stem": "A few minutes after the injection, Migo's lips swell and he begins to wheeze. What is the nurse's first action?",
+  "options": [
+   "Call for emergency help and maintain his airway while staying with him",
+   "Reassure the mother and tell her to observe the baby at home for the next day",
+   "Give him a feed to calm him and make him comfortable before anything else",
+   "Place him in a crib and finish documenting the vaccination first"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "Swelling and wheezing soon after a vaccine suggest a severe allergic reaction, which is an emergency. The nurse stays with the infant, supports the airway and summons help immediately, which is also why infants are observed after vaccination.",
+  "rationaleSimple": "Wheezing and swelling after a vaccine is an emergency, so get help and protect the airway.",
+  "optionRationales": [
+   "Best answer. Swelling and wheezing soon after a vaccine suggest a severe allergic reaction, which is an emergency.",
+   "Delays treatment of a possible severe allergic reaction.",
+   "Feeding may cause choking with respiratory distress.",
+   "Leaving him unattended is unsafe."
+  ],
+  "strategy": "Responding to an immediate vaccine reaction",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-07-d",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP2",
+  "topic": "Infant care and immunisation",
+  "topicId": "pediatric-nursing/growth-and-development/infant",
+  "noteId": "np2-pd-infant-dev",
+  "clusterId": "cp-np2-07",
+  "clusterSeq": 4,
+  "vignette": "Mrs. Liza Bautista brings her 2-month-old son Migo to the rural health unit for his scheduled immunisation. He is feeding well and active. His mother says he was a little fussy yesterday but has no fever today. This is her first baby and she is worried about side effects.",
+  "stem": "Classify each finding after immunisation.",
+  "options": [],
+  "answer": [],
+  "rationale": "Local tenderness and mild fussiness or low-grade fever are common and settle. Breathing difficulty, seizures and prolonged inconsolable crying are not expected and require urgent evaluation.",
+  "rationaleSimple": "Soreness and mild fussiness are fine; trouble breathing, seizures or endless crying need help.",
+  "optionRationales": [
+   "Expected mild reaction: tenderness at the injection site is common and settles.",
+   "Expected mild reaction: mild fussiness with low-grade fever is common after vaccines.",
+   "Report urgently: difficulty in breathing may be a serious allergic reaction.",
+   "Report urgently: a seizure is not an expected reaction and needs urgent evaluation.",
+   "Report urgently: prolonged, inconsolable high-pitched crying is not expected and needs urgent evaluation."
+  ],
+  "strategy": "Differentiating reactions",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "Tenderness at the injection site",
+   "Mild fussiness with a low-grade fever",
+   "Difficulty in breathing",
+   "Seizure",
+   "Prolonged, inconsolable high-pitched crying"
+  ],
+  "columns": [
+   "Expected mild reaction",
+   "Report urgently"
+  ],
+  "rowAnswer": [
+   0,
+   0,
+   1,
+   1,
+   1
+  ]
+ },
+ {
+  "id": "cp-np2-07-e",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP2",
+  "topic": "Infant care and immunisation",
+  "topicId": "pediatric-nursing/growth-and-development/infant",
+  "noteId": "np2-pd-infant-dev",
+  "clusterId": "cp-np2-07",
+  "clusterSeq": 5,
+  "vignette": "Mrs. Liza Bautista brings her 2-month-old son Migo to the rural health unit for his scheduled immunisation. He is feeding well and active. His mother says he was a little fussy yesterday but has no fever today. This is her first baby and she is worried about side effects.",
+  "stem": "Choose the words that complete the explanation to the mother.\n\nA vaccine gives {{1}} immunity by stimulating the body to make {{2}} without causing the full disease.",
+  "options": [],
+  "answer": [],
+  "rationale": "Vaccines trigger the child's own immune system to produce antibodies and memory cells, which is active immunity. Passive immunity is borrowed from another source, such as the mother or a serum.",
+  "rationaleSimple": "A vaccine teaches the body to make its own protection.",
+  "optionRationales": [
+   "Active: the vaccine makes the child's own immune system respond. Passive immunity is borrowed from the mother or a serum.",
+   "Antibodies: a vaccine triggers antibody production and memory cells without the full disease."
+  ],
+  "strategy": "Explaining immunisation",
+  "difficulty": 2,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "blanks": [
+   {
+    "choices": [
+     "active",
+     "passive",
+     "no"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "antibodies",
+     "only bacteria",
+     "electrolytes"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "cp-np2-08-a",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP2",
+  "topic": "Respiratory distress in a child (asthma)",
+  "topicId": "pediatric-nursing/respiratory-disorders/asthma",
+  "noteId": "np2-pd-asthma",
+  "clusterId": "cp-np2-08",
+  "clusterSeq": 1,
+  "vignette": "Paolo Ramos, 4 years old, is brought to the emergency room of a district hospital by his father. He has a known history of asthma and has been coughing and breathing noisily since the evening. The father says he cannot finish a sentence without stopping to breathe.",
+  "stem": "Read the assessment note. Select the findings that show respiratory distress.",
+  "options": [
+   "Child is sitting upright, leaning forward, using shoulder muscles to breathe.",
+   "Retractions between the ribs and under the ribcage.",
+   "Nasal flaring present.",
+   "Wheezing heard on breathing out.",
+   "Lips look bluish.",
+   "Temperature is normal."
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "rationale": "Use of accessory muscles, retractions, nasal flaring, wheeze and bluish lips show increased work of breathing and poor oxygenation. A normal temperature is useful but does not indicate the severity of distress.",
+  "rationaleSimple": "Leaning forward, pulling in at the ribs, flaring nostrils, wheeze and blue lips show he is struggling.",
+  "optionRationales": [
+   "Distress: sitting upright, leaning forward and using shoulder muscles show the child is working hard to breathe.",
+   "Distress: retractions between and under the ribs show strong effort to move air.",
+   "Distress: nasal flaring is a sign the child is trying to get more air in.",
+   "Distress: wheeze on breathing out shows narrowed airways.",
+   "Distress: bluish lips show low oxygen in the blood and are a serious sign.",
+   "Not a sign of distress: a normal temperature does not show how hard the child is breathing."
+  ],
+  "strategy": "Recognizing respiratory distress",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-08-b",
+  "v": 2,
+  "type": "single",
+  "area": "NP2",
+  "topic": "Respiratory distress in a child (asthma)",
+  "topicId": "pediatric-nursing/respiratory-disorders/asthma",
+  "noteId": "np2-pd-asthma",
+  "clusterId": "cp-np2-08",
+  "clusterSeq": 2,
+  "vignette": "Paolo Ramos, 4 years old, is brought to the emergency room of a district hospital by his father. He has a known history of asthma and has been coughing and breathing noisily since the evening. The father says he cannot finish a sentence without stopping to breathe.",
+  "stem": "What is the nurse's priority action for Paolo right now?",
+  "options": [
+   "Lay him flat on the bed to rest and keep the room quiet and dimly lit",
+   "Offer a large drink and a snack to give him energy for the night",
+   "Keep him upright and comfortable, prepare oxygen and call the provider urgently",
+   "Take a complete, detailed history from the father before any treatment is begun"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "A child in respiratory distress needs airway and breathing support first. An upright position eases breathing, oxygen is prepared and the provider is called without delay. History can be taken while care is given.",
+  "rationaleSimple": "Sit him up, get oxygen ready and call the doctor now.",
+  "optionRationales": [
+   "Lying flat worsens breathing.",
+   "Risk of aspiration while in distress.",
+   "Best answer. A child in respiratory distress needs airway and breathing support first.",
+   "Treatment must not be delayed by prolonged history-taking."
+  ],
+  "strategy": "Prioritising airway and breathing",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-08-c",
+  "v": 2,
+  "type": "sata",
+  "area": "NP2",
+  "topic": "Respiratory distress in a child (asthma)",
+  "topicId": "pediatric-nursing/respiratory-disorders/asthma",
+  "noteId": "np2-pd-asthma",
+  "clusterId": "cp-np2-08",
+  "clusterSeq": 3,
+  "vignette": "Paolo Ramos, 4 years old, is brought to the emergency room of a district hospital by his father. He has a known history of asthma and has been coughing and breathing noisily since the evening. The father says he cannot finish a sentence without stopping to breathe.",
+  "stem": "Which findings suggest that Paolo is getting worse? Select all that apply.",
+  "options": [
+   "Worsening retractions",
+   "Able to play and speak in full sentences",
+   "A very quiet chest with little air movement",
+   "Inability to speak or feed",
+   "Bluish discoloration of lips",
+   "Increasing restlessness followed by drowsiness"
+  ],
+  "answer": [
+   0,
+   2,
+   3,
+   4,
+   5
+  ],
+  "rationale": "Drowsiness, cyanosis, deepening retractions, inability to talk and a silent chest are signs of fatigue and impending respiratory failure. Playing and speaking in full sentences show improvement.",
+  "rationaleSimple": "Sleepiness, blue lips, harder breathing and a silent chest mean he is getting worse.",
+  "optionRationales": [
+   "Worse: deepening retractions show increasing effort to breathe.",
+   "Better: playing and speaking in full sentences show the child is breathing comfortably.",
+   "Worse: a very quiet chest with little air movement means too little air is moving, which is ominous.",
+   "Worse: being unable to speak or feed shows severe breathlessness.",
+   "Worse: bluish lips show low oxygen in the blood.",
+   "Worse: restlessness followed by drowsiness suggests the child is tiring and oxygen is falling."
+  ],
+  "strategy": "Evaluating response to treatment",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-08-d",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP2",
+  "topic": "Respiratory distress in a child (asthma)",
+  "topicId": "pediatric-nursing/respiratory-disorders/asthma",
+  "noteId": "np2-pd-asthma",
+  "clusterId": "cp-np2-08",
+  "clusterSeq": 4,
+  "vignette": "Paolo Ramos, 4 years old, is brought to the emergency room of a district hospital by his father. He has a known history of asthma and has been coughing and breathing noisily since the evening. The father says he cannot finish a sentence without stopping to breathe.",
+  "stem": "Classify each sign of respiratory distress.",
+  "options": [],
+  "answer": [],
+  "rationale": "Anxiety and flaring appear early as the child tries to get more oxygen. Drowsiness and cyanosis occur when oxygen is critically low and indicate impending respiratory failure.",
+  "rationaleSimple": "Restless and flaring early; sleepy and blue late.",
+  "optionRationales": [
+   "Early: restlessness and anxiety appear when the body first senses low oxygen.",
+   "Early: mild nasal flaring is an early effort to take in more air.",
+   "Late: drowsiness and difficulty to arouse mean oxygen to the brain is critically low.",
+   "Late: cyanosis shows severe lack of oxygen and impending respiratory failure."
+  ],
+  "strategy": "Early versus late signs",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "imageSuggestion": {
+   "description": "Photograph or drawing of a young child in respiratory distress at rest, showing chest wall movement and breathing pattern, without captions.",
+   "placement": "stem",
+   "searchTerms": [
+    "intercostal retractions child",
+    "respiratory distress pediatric",
+    "nasal flaring infant"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "Restlessness and anxiety",
+   "Mild flaring of the nostrils",
+   "Drowsiness and difficulty to arouse",
+   "Cyanosis"
+  ],
+  "columns": [
+   "Early sign",
+   "Late (ominous) sign"
+  ],
+  "rowAnswer": [
+   0,
+   0,
+   1,
+   1
+  ]
+ },
+ {
+  "id": "cp-np2-08-e",
+  "v": 2,
+  "type": "single",
+  "area": "NP2",
+  "topic": "Respiratory distress in a child (asthma)",
+  "topicId": "pediatric-nursing/respiratory-disorders/asthma",
+  "noteId": "np2-pd-asthma",
+  "clusterId": "cp-np2-08",
+  "clusterSeq": 5,
+  "vignette": "Paolo Ramos, 4 years old, is brought to the emergency room of a district hospital by his father. He has a known history of asthma and has been coughing and breathing noisily since the evening. The father says he cannot finish a sentence without stopping to breathe.",
+  "stem": "Before discharge, which teaching for Paolo's father is most appropriate?",
+  "options": [
+   "Stop all play and physical activity at home and at school to prevent attacks",
+   "Give his medicine only when he has a severe attack and stop it once he feels better",
+   "Wait several hours at home before seeking help for any breathing difficulty",
+   "Keep the home free of smoke and dust, and follow the medication plan as prescribed"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "Reducing triggers such as smoke and dust and following the prescribed plan are the basis of asthma control. Total activity restriction, skipping prescribed therapy or delaying help is incorrect.",
+  "rationaleSimple": "Remove triggers and give medicine as prescribed.",
+  "optionRationales": [
+   "Unnecessary restriction; activity can be adjusted.",
+   "Controller therapy needs consistent use as prescribed.",
+   "Wrong: waiting several hours with breathing difficulty is unsafe because an asthma attack can worsen quickly and needs prompt treatment.",
+   "Best answer. Reducing triggers such as smoke and dust and following the prescribed plan are the basis of asthma control."
+  ],
+  "strategy": "Teaching on asthma control",
+  "difficulty": 2,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-09-a",
+  "v": 2,
+  "type": "sata",
+  "area": "NP2",
+  "topic": "Dehydration in a child",
+  "topicId": "pediatric-nursing/gi-disorders",
+  "noteId": "np3-er-fvd",
+  "clusterId": "cp-np2-09",
+  "clusterSeq": 1,
+  "vignette": "Baby Ella Navarro, 18 months old, is brought to the rural health unit by her grandmother Lola Corazon. She has had watery stools and vomiting for two days. Her grandmother says she is very thirsty and irritable. The nurse starts the assessment.",
+  "stem": "Which findings suggest dehydration? Select all that apply.",
+  "options": [
+   "Sunken eyes",
+   "Skin that returns slowly after being pinched",
+   "Puffy eyelids and moist mouth",
+   "Dry mucous membranes",
+   "No tears when crying",
+   "Decreased urine output"
+  ],
+  "answer": [
+   0,
+   1,
+   3,
+   4,
+   5
+  ],
+  "rationale": "Sunken eyes, dry mouth, reduced urine, absence of tears and slow skin return reflect fluid loss. Puffy eyelids with a moist mouth point to fluid excess, not loss.",
+  "rationaleSimple": "Sunken eyes, dry mouth, little urine, no tears and slow skin return mean dehydration.",
+  "optionRationales": [
+   "Dehydration: sunken eyes reflect fluid loss.",
+   "Dehydration: slow return of pinched skin shows loss of tissue fluid.",
+   "Not dehydration: puffy eyelids with a moist mouth point to fluid excess.",
+   "Dehydration: dry mucous membranes mean the body has too little fluid.",
+   "Dehydration: the absence of tears when crying shows reduced fluid.",
+   "Dehydration: decreased urine shows the kidneys are conserving water."
+  ],
+  "strategy": "Assessing hydration status",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-09-b",
+  "v": 2,
+  "type": "single",
+  "area": "NP2",
+  "topic": "Dehydration in a child",
+  "topicId": "pediatric-nursing/gi-disorders",
+  "noteId": "np3-er-fvd",
+  "clusterId": "cp-np2-09",
+  "clusterSeq": 2,
+  "vignette": "Baby Ella Navarro, 18 months old, is brought to the rural health unit by her grandmother Lola Corazon. She has had watery stools and vomiting for two days. Her grandmother says she is very thirsty and irritable. The nurse starts the assessment.",
+  "stem": "Which measure best helps monitor Ella's fluid balance?",
+  "options": [
+   "Observation of her appetite and how much she plays during the day",
+   "Intake and output records and weight compared with earlier weights",
+   "Asking the grandmother how tired the child looks each day and at night",
+   "Checking her temperature several times a day with the same thermometer"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "Intake and output with weight trends are objective measures of fluid balance in a small child, because weight changes quickly with fluid loss or gain. The other options do not measure fluid status.",
+  "rationaleSimple": "Measure what goes in and out, and her weight.",
+  "optionRationales": [
+   "Wrong: appetite and play level are vague and subjective, so they do not measure how much fluid the child has gained or lost.",
+   "Best answer. Intake and output with weight trends are objective measures of fluid balance in a small child, because weight changes quickly with fluid loss or gain.",
+   "Subjective and unreliable.",
+   "Temperature does not measure fluid status."
+  ],
+  "strategy": "Monitoring fluid balance",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-09-c",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP2",
+  "topic": "Dehydration in a child",
+  "topicId": "pediatric-nursing/gi-disorders",
+  "noteId": "np3-er-fvd",
+  "clusterId": "cp-np2-09",
+  "clusterSeq": 3,
+  "vignette": "Baby Ella Navarro, 18 months old, is brought to the rural health unit by her grandmother Lola Corazon. She has had watery stools and vomiting for two days. Her grandmother says she is very thirsty and irritable. The nurse starts the assessment.",
+  "stem": "Classify each finding as consistent with mild dehydration or severe dehydration needing urgent referral.",
+  "options": [],
+  "answer": [],
+  "rationale": "Thirst, a slightly dry mouth and reduced urine suggest early fluid loss. Lethargy, poor perfusion and a weak fast pulse show circulatory compromise and need urgent treatment.",
+  "rationaleSimple": "Thirsty and alert is mild; sleepy, cold and weak pulse is severe.",
+  "optionRationales": [
+   "Mild: an alert child who is thirsty and drinks eagerly still has good circulation.",
+   "Severe: a lethargic child who is hard to wake has poor brain perfusion and needs urgent care.",
+   "Severe: very sunken eyes with cold hands and a weak fast pulse show circulation is failing.",
+   "Mild: a slightly dry mouth and less frequent urine suggest early fluid loss only."
+  ],
+  "strategy": "Grading dehydration",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "imageSuggestion": {
+   "description": "Photograph of a skin pinch test on a child's abdomen, with the fold of skin lifted between two fingers, shown without a caption.",
+   "placement": "stem",
+   "searchTerms": [
+    "skin turgor pinch test",
+    "skin pinch dehydration child",
+    "skin tenting dehydration"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "Alert, thirsty and drinks eagerly",
+   "Lethargic and hard to wake",
+   "Very sunken eyes with cold hands and a weak, fast pulse",
+   "Slightly dry mouth and passing urine less often"
+  ],
+  "columns": [
+   "Mild dehydration",
+   "Severe dehydration"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   1,
+   0
+  ]
+ },
+ {
+  "id": "cp-np2-09-d",
+  "v": 2,
+  "type": "single",
+  "area": "NP2",
+  "topic": "Dehydration in a child",
+  "topicId": "pediatric-nursing/gi-disorders",
+  "noteId": "np3-er-fvd",
+  "clusterId": "cp-np2-09",
+  "clusterSeq": 4,
+  "vignette": "Baby Ella Navarro, 18 months old, is brought to the rural health unit by her grandmother Lola Corazon. She has had watery stools and vomiting for two days. Her grandmother says she is very thirsty and irritable. The nurse starts the assessment.",
+  "stem": "Ella is mildly dehydrated and can drink. What is the most appropriate intervention?",
+  "options": [
+   "Give oral rehydration solution in small, frequent sips and keep feeding",
+   "Give plain boiled water only until the diarrhea stops",
+   "Give soft drinks and sweetened fruit juice as often as she will take them",
+   "Withhold food and fluid for the next day to rest the bowel"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "Oral rehydration solution replaces water and salts and is first-line for mild dehydration. Small frequent sips are better tolerated if the child is vomiting. Withholding fluids worsens dehydration.",
+  "rationaleSimple": "Give small sips of oral rehydration solution often and keep feeding.",
+  "optionRationales": [
+   "Best answer. Oral rehydration solution replaces water and salts and is first-line for mild dehydration.",
+   "Does not replace salts.",
+   "High sugar can worsen diarrhea.",
+   "Worsens dehydration."
+  ],
+  "strategy": "Rehydration",
+  "difficulty": 2,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np2-09-e",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP2",
+  "topic": "Dehydration in a child",
+  "topicId": "pediatric-nursing/gi-disorders",
+  "noteId": "np3-er-fvd",
+  "clusterId": "cp-np2-09",
+  "clusterSeq": 5,
+  "vignette": "Baby Ella Navarro, 18 months old, is brought to the rural health unit by her grandmother Lola Corazon. She has had watery stools and vomiting for two days. Her grandmother says she is very thirsty and irritable. The nurse starts the assessment.",
+  "stem": "Choose the words that complete the teaching for the grandmother.\n\nWash hands with soap and water {{1}}, and give {{2}} to replace losses.",
+  "options": [],
+  "answer": [],
+  "rationale": "Hand washing at key times prevents spread of diarrhea-causing organisms. Small frequent sips of rehydration solution replace fluid and salts without triggering vomiting.",
+  "rationaleSimple": "Wash hands at key times and give small sips of oral rehydration solution.",
+  "optionRationales": [
+   "After changing diapers and before preparing food: these are the key times when germs that cause diarrhea are spread. Washing only when hands look dirty misses many risks.",
+   "Oral rehydration solution in small, frequent sips: it replaces fluid and salts without triggering vomiting. Soft drinks lack the right balance and a large volume at once may be vomited."
+  ],
+  "strategy": "Prevention and home care",
+  "difficulty": 2,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "blanks": [
+   {
+    "choices": [
+     "after changing diapers and before preparing food",
+     "only when the hands look dirty",
+     "only after meals"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "oral rehydration solution in small, frequent sips",
+     "only soft drinks",
+     "a large volume all at once"
+    ],
+    "answer": 0
+   }
+  ]
+ }
+]

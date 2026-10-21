@@ -1,0 +1,886 @@
+[
+  {
+    "id": "np1-0061",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Quarantine versus isolation",
+    "noteId": "np1-cd-terms",
+    "vignette": "A pupil in a Grade 3 class is diagnosed with a communicable disease and is being cared for at home. Five classmates sat beside her during the days before the rash. They have no symptoms. The teacher asks the public health nurse which measure applies to the five classmates.",
+    "stem": "Which measure applies to the exposed classmates who are still well?",
+    "options": [
+      "Quarantine, limiting their movement for the longest incubation period",
+      "Isolation, which separates them from others for the whole period of communicability",
+      "Concurrent disinfection, which is done as they discharge infectious material",
+      "Terminal disinfection, which readies the classroom after the last case is discharged"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cue: five exposed classmates with no symptoms, and one sick pupil already at home.\n2. Principle: isolation separates a sick person during the period of communicability; quarantine limits the movement of exposed but not necessarily sick people for the longest incubation period; disinfection types apply to objects and rooms.\n3. The sick pupil is the one to be isolated; the classmates are exposed contacts.\n4. Flip: if one classmate developed the rash, that classmate would move from quarantine to isolation.",
+    "optionRationales": [
+      "Correct: exposed but well contacts are quarantined for the longest incubation period.",
+      "Right measure, wrong person: isolation is for the sick during communicability.",
+      "Right idea about the sick child, wrong target: concurrent disinfection applies while a client is still a source of infectious discharge.",
+      "Right idea, wrong time: terminal disinfection is done when the source is gone, and it applies to rooms and objects, not contacts."
+    ],
+    "strategy": "Match the measure to the person's status",
+    "archetype": "exposed but well versus sick",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Quarantine: exposed but not necessarily sick, for the longest incubation period.",
+      "Isolation: separating a sick person during the period of communicability."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0062",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Contact tracing for mumps",
+    "noteId": "np1-cd-x-incubation-quickref",
+    "vignette": "A 7-year-old is seen at the RHU with swelling in front of and below the left ear since this morning. The nurse is planning contact tracing in the family, the school and a tricycle he rides daily. His mother says he was \"perfectly well and playing\" yesterday and the day before.",
+    "stem": "Which period should the nurse cover first when listing contacts?",
+    "options": [
+      "Only the days after the swelling appeared, because he was perfectly well before then",
+      "From 4 days after the swelling appeared, when a rash would normally have begun",
+      "From the day the antibody test is reported positive until symptoms disappear",
+      "From at least 2 days before the swelling appeared until 9 days after it appeared"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: swelling appeared today but he seemed well on the two previous days; contacts are numerous.\n2. Principle: mumps is infectious from up to a week (usually 2 days) before parotid swelling until 9 days after, and the 48 hours before swelling is the highest-risk time.\n3. Priority rule: assess contacts from the time the client was already infectious, not from when the signs appeared.\n4. Flip: for measles, communicability runs from just before the prodrome to 4 days after the rash, so the window would be set by those landmarks.",
+    "optionRationales": [
+      "Common error: infection starts before symptoms, so starting after the swelling misses the highest-risk contacts.",
+      "Plausible detail from a similar condition: measles is infectious until 4 days after the rash, and mumps has no such rash.",
+      "Waiting for a lab report: contact tracing must start now, before a result.",
+      "Correct: the infectious window begins before the swelling, with the highest risk in the 48 hours before."
+    ],
+    "strategy": "Communicability starts before the signs",
+    "archetype": "pre-symptomatic communicability",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Mumps: infectious up to a week (usually 2 days) before the swelling until 9 days after.",
+      "The 48 hours before swelling are the highest-risk time."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0063",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Match control measure to the transmission link",
+    "noteId": "np1-cd-x-vectors-hosts",
+    "vignette": "A municipal health team plans three actions for three problems: cases of snail fever in farmers who wade in a stream, cases of dengue where water drums are uncovered, and cases of leptospirosis after floods when children wade in water.",
+    "stem": "Which control pairing is correct?",
+    "options": [
+      "Footbridges and snail control at the stream for the farmers' disease",
+      "Chlorination of drinking water to stop dengue where the drums are uncovered",
+      "Vaccinating stray dogs to prevent the flood-associated disease in the children",
+      "Spraying the stream banks for mosquitoes to control the snail fever"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: three diseases with three different links: snail intermediate host in water, a day-biting mosquito that breeds in standing water, and rat urine in flood water entering broken skin.\n2. Principle: if the link is an intermediate host, break it with snail control and by avoiding contact; if it is a vector, clear breeding sites and use nets or spraying; if it is a contaminated vehicle or animal reservoir, control the water, the animal and exposure.\n3. Each distractor applies a measure to the wrong link.\n4. Flip: if the disease at the stream were malaria, spraying and nets would be correct.",
+    "optionRationales": [
+      "Correct: snails are the intermediate host of the blood fluke, and footbridges avoid contact with infected water.",
+      "Wrong link: dengue is spread by Aedes bites, not by drinking water.",
+      "Plausible detail from another disease: dog vaccination controls rabies, not leptospirosis from rat urine.",
+      "Wrong link: schistosomiasis is not mosquito-borne; spraying does not break the snail cycle."
+    ],
+    "strategy": "Cause to control: break the link that carries it",
+    "archetype": "vector versus vehicle versus intermediate host",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Oncomelania snail is the intermediate host of Schistosoma japonicum.",
+      "Match the control to the link: vector, vehicle, intermediate host or animal reservoir."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0064",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Isolation for a new admission",
+    "noteId": "np1-cd-isolation",
+    "vignette": "A district hospital nurse admits a 52-year-old man with a cough for four weeks, night sweats, weight loss and a chest X-ray strongly suggesting active tuberculosis. The only single room is next to a ward bed where a client is receiving chemotherapy with a low white cell count.",
+    "stem": "Which precautions should the nurse apply?",
+    "options": [
+      "Standard precautions only, since tuberculosis is treated at home under direct observation",
+      "Contact precautions with gown and gloves in the ward, and reverse isolation for the other client",
+      "Standard precautions plus airborne TB isolation in the single room, away from the other client",
+      "Enteric precautions in the single room with a separate toilet, since the client coughs up sputum"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: a chest X-ray strongly suggesting active TB (airborne spread), and a vulnerable neighbor with a low white cell count.\n2. Principle: standard precautions apply to all clients; transmission-based precautions are added to match the route of spread; TB isolation is for smear-positive TB or an X-ray strongly suggesting active TB.\n3. The single room matches TB isolation; the neutropenic client is the person to protect, not the one to isolate.\n4. Flip: if the new client had cholera, enteric precautions would be the added layer.",
+    "optionRationales": [
+      "Under-reaction: standard precautions alone do not control airborne spread.",
+      "Wrong layer: TB spreads through the air, not by close contact alone, and the neutropenic client should not be placed near the new admission.",
+      "Correct: standard precautions plus the layer that matches the airborne route of spread.",
+      "Wrong layer: enteric precautions apply to infections spread through feces."
+    ],
+    "strategy": "Standard plus the layer that matches the route",
+    "archetype": "standard plus transmission-based",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Standard precautions for all; add transmission-based precautions that match the organism.",
+      "TB isolation for smear-positive TB or a chest X-ray strongly suggesting active TB."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0065",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Epidemiologic triangle",
+    "noteId": "np1-cd-epi-triangle",
+    "vignette": "After a diarrhea outbreak in a barangay, the health team plans four actions: chlorinating the communal water source, vaccinating children against the disease, treating the infected, and teaching handwashing.",
+    "stem": "Which action mainly changes the environment component of the epidemiologic triangle?",
+    "options": [
+      "Vaccinating the children in the barangay",
+      "Chlorinating the communal water source",
+      "Treating the infected residents",
+      "Teaching residents to wash their hands"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cue: the question asks for the component the action changes, not whether it is useful.\n2. Principle: the triangle has host, agent and environment; environment means all external conditions (biological, social, physical); disease arises when the three are out of balance.\n3. Chlorinating the water changes the external physical condition; vaccination strengthens the host; treatment attacks the agent in cases; handwashing changes host behavior.\n4. Flip: if the question asked for the host component, vaccination would be correct.",
+    "optionRationales": [
+      "Targets the host: it raises the children's resistance.",
+      "Correct: it changes an external physical condition.",
+      "Targets the agent in the infected host: it reduces the organism in cases.",
+      "Targets host behavior: it changes how people expose themselves, not the external condition."
+    ],
+    "strategy": "Identify the component an intervention changes",
+    "archetype": "which component the action targets",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "The triangle: host, agent, environment.",
+      "Environment includes biological, social and physical conditions."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0066",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "First action after a dog bite",
+    "noteId": "np1-cd-rabies",
+    "vignette": "A 30-year-old farmer walks into the barangay health station 15 minutes after a stray dog bit his hand while he was feeding pigs. The wound is bleeding slightly. His neighbors have cornered the dog and ask the nurse whether to hand it over. The farmer asks to be sent to the hospital for the injection immediately.",
+    "stem": "What is the nurse's FIRST action?",
+    "options": [
+      "Refer him to the hospital for the vaccine and immune globulin",
+      "Wash the wound immediately with soap and running water",
+      "Apply povidone iodine to the wound and cover it with a clean cloth",
+      "Ask the neighbors to confine the dog for observation of 10 to 14 days"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: a fresh bite, a bleeding wound, urgency about the injection, and a dog that can be observed.\n2. Principle: washing the wound immediately with soap and running water is the first priority; antiseptic follows; then referral for vaccine and immune globulin; the dog is confined for observation.\n3. Priority rule: do the action that lowers the amount of virus at the site now, before transport or follow-up tasks.\n4. Flip: if the wound had already been washed thoroughly at home, referral for vaccine would come next.",
+    "optionRationales": [
+      "Right action, wrong time: referral follows wound washing and should not delay it.",
+      "Correct: immediate washing is the first priority.",
+      "Right action, wrong order: antiseptic is applied after washing with soap and running water.",
+      "Right measure, wrong priority: confinement of the dog is important but comes after treating the person."
+    ],
+    "strategy": "First priority: wash the wound",
+    "archetype": "wound care first",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Wash the wound immediately with soap and running water; then antiseptic; then refer.",
+      "Confine a biting dog for 10 to 14 days."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0068",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Timing a blood test",
+    "noteId": "np1-cd-filariasis",
+    "vignette": "A 38-year-old fisherman from Sorsogon has painless swelling of the scrotum and has had episodes of tender, red lines running up his leg. The RHU is open from 8 AM to 4 PM. The doctor wants microfilariae looked for in his blood.",
+    "stem": "Which arrangement gives the most reliable result?",
+    "options": [
+      "Schedule the blood draw at night, around 8 PM, because microfilariae circulate at night",
+      "Draw the blood during morning clinic hours when he is rested and fasting, as for routine tests",
+      "Ask him to return after the swelling has settled and draw blood then, at any hour",
+      "Draw blood at midday while he has fever, since microfilariae rise with fever"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: signs of lymphatic filariasis, and clinic hours that do not include the night.\n2. Principle: nocturnal blood examination is done around 8 PM because microfilariae circulate in the blood at night.\n3. A rapid antigen test (ICT) can be done in the daytime, but the question asks for blood searched for microfilariae.\n4. Flip: if the test requested were the rapid antigen test, a daytime draw would be acceptable.",
+    "optionRationales": [
+      "Correct: the draw is timed to when the parasites are in the blood.",
+      "Right specimen, wrong time: daytime blood often misses microfilariae.",
+      "Right specimen, wrong time: swelling subsiding has no bearing on when the parasites circulate.",
+      "Plausible detail from a similar condition: periodicity depends on the hour, not on fever."
+    ],
+    "strategy": "Timing matters: nocturnal periodicity",
+    "archetype": "test timing",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Nocturnal blood examination around 8 PM; ICT is a rapid antigen test done in daytime."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0069",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Teaching malaria prevention",
+    "noteId": "np1-cd-malaria",
+    "vignette": "A woman who returned from Palawan has episodes of shaking chills, rapidly rising fever, severe headache and profuse sweating. The RHU confirms malaria. Her family lives in a house with open eaves near a stream and farm work ends after dark.",
+    "stem": "Which teaching is most important to protect her family?",
+    "options": [
+      "Sleep under treated mosquito nets and avoid being outdoors from 9 PM to 3 AM",
+      "Use airborne isolation at home and keep the family away from her for two weeks",
+      "Boil all drinking water and wash hands before meals to prevent the disease",
+      "Avoid sharing eating utensils and bed linen with her until her fever settles"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: the family lives near a stream, the house is open, and farm work runs after dark.\n2. Principle: malaria is spread by the bite of the female Anopheles mosquito; prevention is protection from bites with treated nets, house spraying, stream clearing, long clothing in the evening and avoiding outdoor activity at night.\n3. Interrupt the vector link: this is the easiest link to break.\n4. Flip: if the disease were typhoid, boiled water and handwashing would be the focus.",
+    "optionRationales": [
+      "Correct: protection from the night-biting mosquito breaks the vector link.",
+      "Wrong mode: malaria is not spread person to person through the air.",
+      "Wrong mode: boiled water and handwashing prevent fecal-oral disease.",
+      "Wrong mode: shared utensils and linen do not spread malaria except through blood."
+    ],
+    "strategy": "Break the vector link",
+    "archetype": "match teaching to mosquito behavior",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Malaria is transmitted by the bite of the female Anopheles mosquito.",
+      "Avoid outdoor activity from 9 PM to 3 AM; treated nets; house spraying."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0070",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Needle safety",
+    "noteId": "np1-cd-hiv",
+    "vignette": "A nursing student draws blood from a client with AIDS. She wears gloves, labels the specimen tubes with the biohazard label, and covers a small cut on her own finger before starting. After the procedure, she holds the used needle in one hand and places the cap back on with the other hand before discarding it.",
+    "stem": "Which action by the student needs immediate correction?",
+    "options": [
+      "Wearing gloves for the procedure on a client with AIDS",
+      "Covering the cut on her finger before starting the procedure",
+      "Labeling the blood specimens with the biohazard label",
+      "Recapping the used needle by hand before discarding it"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: gloves, labeled specimens and a covered cut are all correct; only the needle handling is not.\n2. Principle: standard precautions apply to every client; needles are never bent or recapped and are discarded in a puncture-resistant container; cover your own broken skin; label blood and specimens prominently.\n3. The main risk to staff is blood exposure, and recapping is a leading cause of needlestick injury.\n4. Flip: if the student dropped the uncapped needle directly into the puncture-resistant container, no correction would be needed.",
+    "optionRationales": [
+      "Correct practice: gloves protect from blood and body fluids.",
+      "Correct practice: broken skin should be covered.",
+      "Correct practice: labeling alerts others to the hazard.",
+      "Correct: recapping by hand is unsafe and risks needlestick injury."
+    ],
+    "strategy": "Standard precautions: never recap by hand",
+    "archetype": "spot the unsafe practice",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Never bend or recap needles; use a puncture-resistant container.",
+      "Standard precautions for every client; cover your own broken skin."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0071",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Breaking the chain of infection",
+    "noteId": "np1-cd-chain",
+    "vignette": "In a health center, a nurse washes her hands between each client, wipes the stethoscope with alcohol and puts the weighing scale's paper cover in the trash after each infant.",
+    "stem": "Which link in the chain of infection are these actions mainly breaking?",
+    "options": [
+      "The reservoir of the organism",
+      "The portal of entry of the host",
+      "The causative agent",
+      "The mode of transmission"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cue: hand hygiene and cleaning of shared objects stop organisms from traveling between clients.\n2. Principle: the chain has six links; the mode of transmission (contact, droplet, airborne, vehicle, vector-borne) is the easiest link to break, through hand hygiene, barrier precautions, safe water and food and vector control.\n3. Contact transmission, both direct and indirect, is the most common mode.\n4. Flip: if the nurse gave each infant a vaccine, the link addressed would be the susceptible host.",
+    "optionRationales": [
+      "Not changed: the organism still lives and multiplies in its reservoir.",
+      "Not changed: these actions do not protect the host's entry points.",
+      "Not changed: the organism itself is not killed in the client by these actions.",
+      "Correct: these actions block indirect and direct contact spread."
+    ],
+    "strategy": "Mode of transmission is the easiest link to break",
+    "archetype": "link broken by an action",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Six links; the mode of transmission is the easiest link to break.",
+      "Contact is the most common mode of transmission."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0072",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Interpreting a tuberculin test",
+    "noteId": "np1-cd-tb-dx",
+    "vignette": "A 38-year-old tricycle driver has had a cough for three weeks with afternoon fevers and night sweats. His Mantoux (PPD) test is read as positive. No sputum has been collected. A relative says, \"Start him on the TB pills now, the skin test is positive.\"",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Start the four first-line drugs today because the skin test is already positive",
+      "Reassure him that a positive skin test only means past BCG and no further test is needed",
+      "Arrange a sputum acid-fast bacilli smear as the confirmatory test",
+      "Wait for the afternoon fever to stop and repeat the Mantoux test next month"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: classic symptoms for more than two weeks, a positive tuberculin test, and no sputum result.\n2. Principle: the sputum AFB smear is confirmatory; tuberculin tests (Mantoux/PPD) show exposure, not active disease.\n3. Priority rule: confirm the diagnosis and prevent spread; the symptoms warrant sputum collection now.\n4. Flip: if the sputum smear were positive, supervised treatment under DOTS would follow immediately.",
+    "optionRationales": [
+      "Skips assessment: treatment starts after confirmation, and the skin test shows exposure only.",
+      "Under-reaction: his symptoms for over two weeks cannot be dismissed.",
+      "Correct: sputum smear is confirmatory and the symptoms qualify him for sputum examination.",
+      "Under-reaction by waiting: a month's delay prolongs infectiousness."
+    ],
+    "strategy": "Confirm before treating: tuberculin shows exposure only",
+    "archetype": "exposure versus disease",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Sputum AFB smear is confirmatory; tuberculin tests show exposure, not active disease.",
+      "Cough of 2 weeks or more is a key symptom."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0073",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Rifampicin and oral contraceptives",
+    "noteId": "np1-cd-tb-tx",
+    "vignette": "A 28-year-old woman has begun short-course TB treatment. She reports that her urine looks red-orange and she is worried about bleeding. She takes oral contraceptive pills and tells the nurse she has stopped using condoms with her husband since she is \"protected\".",
+    "stem": "Which teaching is the MOST important for the nurse to give?",
+    "options": [
+      "Red-orange urine means the drugs are damaging her kidneys and she must report it today",
+      "She should take the contraceptive pill together with the TB drugs on an empty stomach",
+      "Rifampicin can make oral contraceptive pills less effective, so she needs another method",
+      "She can stop the TB drugs for a few days if the urine color keeps bothering her at home"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: red-orange urine (expected) and an unrecognized risk: she relies on pills alone.\n2. Principle: rifampicin colors body fluids red-orange and can make oral contraceptives less effective; women on pills should use another method.\n3. Priority rule: address the problem with consequences (unintended pregnancy while on treatment) in addition to reassuring about the expected color.\n4. Flip: if she used an intrauterine method, the interaction teaching would not be the priority.",
+    "optionRationales": [
+      "Misinterprets an expected effect: red-orange fluids are normal with rifampicin.",
+      "Does not address the interaction: taking pills together does not restore their effect.",
+      "Correct: it addresses the interaction that could lead to pregnancy.",
+      "Unsafe: interrupting treatment promotes resistance, and DOTS depends on adherence."
+    ],
+    "strategy": "Teach the interaction that has consequences",
+    "archetype": "drug interaction teaching",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Rifampicin turns body fluids red-orange and weakens oral contraceptives.",
+      "Teach red-orange urine is expected, not bleeding."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0074",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Exposure of high-risk contacts",
+    "noteId": "np1-cd-varicella",
+    "vignette": "A school nurse finds a pupil with vesicles in different stages on the trunk. The pupil sat in a class with a classmate receiving chemotherapy for leukemia. The class teacher is 12 weeks pregnant and does not remember having chickenpox. Three days have passed since exposure.",
+    "stem": "Which action is the highest priority for the exposed classmate on chemotherapy?",
+    "options": [
+      "Refer promptly for varicella-zoster immune globulin, which is given as early as possible after exposure",
+      "Give the live varicella vaccine today, since vaccination protects after exposure",
+      "Observe the classmate and treat only if vesicles appear during the next 3 weeks",
+      "Keep the classmate home but take no other action since a 3-day delay is too long"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: a high-risk child (chemotherapy) with a known exposure 3 days ago.\n2. Principle: VZIG is given to exposed high-risk, susceptible people as early as possible after exposure; live vaccines are avoided in the immunosuppressed; the infected pupil is excluded from school until lesions are crusted.\n3. Priority rule: act inside the time window to prevent severe disease in the most vulnerable.\n4. Flip: if the exposed child were healthy and non-immune, the vaccine could be considered and VZIG would not be needed.",
+    "optionRationales": [
+      "Correct: time-limited protection for the high-risk contact.",
+      "Unsafe: a live vaccine is avoided in a client with malignant disease and immunosuppression.",
+      "Under-reaction: waiting for lesions leaves a high-risk client unprotected.",
+      "Under-reaction: the 10-day window is still open at 3 days, so action is possible."
+    ],
+    "strategy": "Protect the high-risk contact within the time window",
+    "archetype": "protect the vulnerable contact",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "VZIG within 10 days of exposure for high-risk exposed people.",
+      "Live vaccines are avoided in people with malignant disease."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0075",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Rash illness and a pregnant contact",
+    "noteId": "np1-cd-x-rash-compared",
+    "vignette": "A 3-year-old has a mild fever, swollen glands behind the ears and at the base of the skull, and a pink rash that began on his face and has lasted two days without peeling. His mother is 9 weeks pregnant and does not remember her own immunizations. She has been caring for him all day.",
+    "stem": "What is the nurse's priority action for the mother?",
+    "options": [
+      "Reassure her that this is a mild illness with no risk for a pregnancy",
+      "Advise her to reduce contact with the child and see her physician about her exposure",
+      "Give her measles-mumps-rubella vaccine today to protect her from the child's illness",
+      "Place the child in a negative-pressure room and give his mother a mask"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: mild illness, post-auricular and sub-occipital nodes, a short rash with no peeling (rubella pattern), and an exposed woman in early pregnancy.\n2. Principle: rubella is mild but dangerous to the fetus (cataract, deafness, heart defects, small head); protect pregnant women from exposure; live vaccines are not given in pregnancy.\n3. Priority rule: protect the person at highest risk, not the person with the highest fever.\n4. Flip: if the rash were a measles pattern, airborne precautions would be added for all.",
+    "optionRationales": [
+      "Under-reaction: a mild illness in the child carries serious risk for the fetus.",
+      "Correct: it protects the fetus and gets professional assessment of exposure.",
+      "Unsafe: a live attenuated vaccine is not given to a pregnant woman.",
+      "Wrong precaution: rubella is not an airborne illness requiring a negative-pressure room."
+    ],
+    "strategy": "Protect the pregnant woman from the fetal-risk infection",
+    "archetype": "protect the fetus",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Rubella: post-auricular and sub-occipital nodes; rash 1 to 5 days without pigmentation or peeling.",
+      "Protect pregnant women from exposure."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0076",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Shingles and a susceptible child",
+    "noteId": "np1-cd-zoster",
+    "vignette": "A 62-year-old man has a painful band of vesicles on the right side of his trunk. He lives with his daughter, who is 7 months pregnant and had chickenpox as a child, and his 3-year-old grandson, who has never had chickenpox or the vaccine. He asks whether he can hold the child on his lap.",
+    "stem": "Which advice by the nurse is accurate?",
+    "options": [
+      "He may hold the child since a grandchild cannot catch shingles from him",
+      "Avoid contact with the grandson until the lesions crust; he could develop chickenpox",
+      "He should avoid the daughter only, because only pregnant women are at risk from shingles",
+      "The grandson will develop shingles if exposed to the vesicle fluid on his clothing"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: active vesicles, a never-infected child in the home, and a family member who is already immune.\n2. Principle: zoster is communicable from a day before the rash until 5 to 6 days after the last crust, spread by airborne, droplet and direct contact; a susceptible person can catch chickenpox, not shingles, from it.\n3. The accurate teaching names the correct outcome and the correct protection.\n4. Flip: if the grandson had already had chickenpox, he could not catch it again from his grandfather.",
+    "optionRationales": [
+      "Half-true statement that gives the wrong conclusion: the child cannot catch shingles, but can catch chickenpox.",
+      "Correct: a susceptible child can develop chickenpox until the lesions are crusted.",
+      "Wrong target: the pregnant daughter had chickenpox, so the susceptible child is the person at risk.",
+      "Wrong disease: the child would develop chickenpox, not shingles."
+    ],
+    "strategy": "Teach the correct risk to the susceptible contact",
+    "archetype": "what contacts can catch",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "A susceptible person can catch chickenpox, not shingles, from a case of zoster.",
+      "Communicable from a day before the rash until 5 to 6 days after the last crust."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0077",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Complication of measles",
+    "noteId": "np1-cd-measles",
+    "vignette": "A health worker is following four children with measles on home visits. One child in the eruptive stage has high fever and dislikes light. One in the convalescent stage has fading rash and flaky skin. One has red eyes and a runny nose before the rash. One, on day 5 of the rash, has fast breathing and chest indrawing.",
+    "stem": "Which child needs urgent referral?",
+    "options": [
+      "The child in the eruptive stage with high fever and dislike of bright light",
+      "The child in the convalescent stage with fading rash and flaky skin",
+      "The child on day 5 of the rash with fast breathing and chest indrawing",
+      "The child with red eyes and a runny nose before the rash appeared"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: three children show findings of the expected course; one shows respiratory distress.\n2. Principle: photophobia, desquamation and conjunctivitis/coryza are expected in stages of measles; bronchopneumonia and pneumonia are complications, and chest indrawing is the key sign of pneumonia in children.\n3. Priority rule: airway and breathing before comfort; unstable before stable.\n4. Flip: if the child with flaky skin also had a fever returning and ear pain, a complication such as otitis media would need follow-up.",
+    "optionRationales": [
+      "Expected finding: high fever and photophobia belong to the eruptive stage.",
+      "Expected finding: desquamation is part of convalescence.",
+      "Correct: fast breathing with chest indrawing signals a complication.",
+      "Expected finding: conjunctivitis and coryza belong to the pre-eruptive stage."
+    ],
+    "strategy": "Distinguish expected from alarming findings",
+    "archetype": "expected versus alarming findings",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Measles stages: pre-eruptive, eruptive, convalescent.",
+      "Complications: bronchopneumonia, otitis media, encephalitis."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0078",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Diphtheria airway priority",
+    "noteId": "np1-cd-x-named-signs",
+    "vignette": "A 5-year-old unimmunized child is brought to the RHU with fever, a swollen \"bull neck,\" a grayish membrane over the tonsils and a hoarse, noisy cry. The mother is worried about the child's sore throat and asks that the throat be swabbed now. There are no other staff.",
+    "stem": "What should the nurse do first?",
+    "options": [
+      "Swab the membrane vigorously so the specimen is ready for the hospital laboratory",
+      "Give warm fluids by mouth to soothe the throat before transport",
+      "Complete the family record and immunization history before moving the child",
+      "Keep the child upright and monitor the airway while arranging urgent transfer"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: bull neck, grayish membrane and noisy breathing in an unimmunized child.\n2. Principle: bull neck and pseudomembrane suggest diphtheria; a bull neck or stridor in a child means watching the airway before anything else.\n3. Priority rule: airway before diagnostics, documentation and comfort measures.\n4. Flip: if the child breathed quietly and had only a mild sore throat, collecting a throat swab would be the next step.",
+    "optionRationales": [
+      "Right action, wrong time: swabbing can provoke obstruction and delays transfer.",
+      "Treats the symptom and risks aspiration in a child with a compromised airway.",
+      "Right task, wrong priority: records follow the airway and transfer.",
+      "Correct: the airway is the priority."
+    ],
+    "strategy": "ABC: airway before diagnostics",
+    "archetype": "airway before the swab",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Bull neck and grayish pseudomembrane: diphtheria.",
+      "Bull neck or stridor in a child: watch the airway before anything else."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0079",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Matching tests to specimens",
+    "noteId": "np1-cd-x-diagnostic-quickref",
+    "vignette": "A new nurse is asked to prepare specimens at an outreach clinic. She lists four tests and diseases she plans to collect for.",
+    "stem": "Which pairing is correct?",
+    "options": [
+      "Scraping of a burrow under a microscope for scabies",
+      "Slit-skin smear examination for pediculosis (head lice)",
+      "Wood's light examination of skin patches for leprosy",
+      "Nocturnal blood examination for schistosomiasis in farmers"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cue: four test and disease pairings, one correct.\n2. Principle: scabies is diagnosed by scraping a burrow and viewing it under a low-power microscope; slit-skin smear is for leprosy; Wood's light is used for lice; nocturnal blood examination is for filariasis, and the confirmatory test for schistosomiasis is COPT.\n3. Each distractor pairs a test with the wrong disease.\n4. Flip: if the pairing said slit-skin smear for leprosy, it would be correct.",
+    "optionRationales": [
+      "Correct: burrow scraping with microscopy identifies the mite.",
+      "Wrong disease: slit-skin smear is used for leprosy.",
+      "Wrong disease: Wood's light is used for lice, not for leprosy.",
+      "Wrong disease: nocturnal blood is for filariasis."
+    ],
+    "strategy": "Match test to disease",
+    "archetype": "test to disease",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Scabies: scraping a burrow under a low-power microscope.",
+      "Slit-skin smear for leprosy; Wood's light for lice; nocturnal blood for filariasis."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0080",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Order of cholera care",
+    "noteId": "np1-cd-x-drug-choices",
+    "vignette": "A 35-year-old man arrives at a district hospital after a fiesta with repeated rice-water stools since morning, sunken eyes, dry mouth, a weak rapid pulse and low blood pressure. The doctor has ordered an antibiotic. The nurse has two staff to help.",
+    "stem": "What should the nurse do first?",
+    "options": [
+      "Give the antibiotic first to reduce the number of organisms causing the stool loss",
+      "Give an antidiarrheal drug to slow the fluid loss before anything else",
+      "Start rehydration with IV fluids as ordered and monitor his response",
+      "Collect a rectal swab and wait for the result before starting any fluids"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: profuse watery stool, signs of volume depletion, and an order for an antibiotic.\n2. Principle: in cholera, rehydration comes first (oral or IV), then the antibiotic; death comes from fluid loss.\n3. Priority rule: circulation before the cause; unstable before stable.\n4. Flip: if the man were alert with mild thirst and a normal pulse, oral rehydration could be started and the antibiotic given soon after.",
+    "optionRationales": [
+      "Right drug, wrong time: the antibiotic follows rehydration.",
+      "Treats the symptom, not the cause, and does not replace lost fluid.",
+      "Correct: replacing fluid corrects the life-threatening problem.",
+      "Skips treatment: waiting for results delays resuscitation."
+    ],
+    "strategy": "Unstable before stable: replace fluid first",
+    "archetype": "rehydration before antibiotics",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Cholera: rehydration first, then antibiotic.",
+      "Rice-water stool and washerwoman's hands are cholera signs."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0081",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Pneumonia in a child",
+    "noteId": "np1-cd-pneumonia",
+    "vignette": "A 3-year-old is brought to the health center with cough and a temperature of 39.5 C. His mother says he has been eating a little. The nurse sees fast breathing and indrawing of the lower chest wall. The mother asks first for something to bring down the fever.",
+    "stem": "What should the nurse do first?",
+    "options": [
+      "Give a tepid sponge bath to bring the fever down",
+      "Encourage fluids, calories and vitamins and ask the mother to return tomorrow",
+      "Encourage extra fluids and observe him in the waiting area for an hour",
+      "Position him for lung expansion, assess breathing, and give oxygen as ordered"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: chest indrawing and fast breathing, high fever, and a mother focused on the temperature.\n2. Principle: for pneumonia the priority is airway and breathing; chest indrawing is the key sign in children; comfort, fluids and antibiotics follow.\n3. Priority rule: Maslow oxygenation first; treat the symptom the mother names only after the airway is secured.\n4. Flip: if his breathing were normal and chest wall movements were unremarkable, tepid sponging and fluids would be sensible first measures.",
+    "optionRationales": [
+      "Right action, wrong time: fever is addressed after breathing is stabilized.",
+      "Under-reaction: waiting overnight ignores respiratory distress.",
+      "Wrong: fluids are supportive but do not treat chest indrawing; watching and waiting delays the airway and breathing assessment.",
+      "Correct: oxygenation takes priority."
+    ],
+    "strategy": "Airway and breathing first",
+    "archetype": "breathing first",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Pneumonia: airway and breathing first; chest indrawing is the key sign in children."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0082",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Screening for a live vaccine",
+    "noteId": "np1-cd-x-prevention-timing",
+    "vignette": "During a measles outbreak, a nurse screens adults at a barangay vaccination post. The queue includes a woman 10 weeks pregnant, a man with a runny nose and slight cough, a breastfeeding mother, and a man with controlled hypertension who takes his medicine daily.",
+    "stem": "Which person should the nurse NOT give the measles vaccine?",
+    "options": [
+      "The woman who is 10 weeks pregnant",
+      "The man with a runny nose and slight cough",
+      "The breastfeeding mother",
+      "The man with controlled hypertension"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: four adults with different conditions in the same queue.\n2. Principle: measles vaccine is live and is not given to pregnant women or to people with active TB, leukemia, lymphoma or weakened immunity; mild illness is a false contraindication.\n3. Safety before coverage: screen for true contraindications first.\n4. Flip: if the man with the slight cough also had weeks of night sweats and weight loss, active TB would need to be excluded first.",
+    "optionRationales": [
+      "Correct: pregnancy is a contraindication for a live vaccine.",
+      "False contraindication: a mild respiratory illness does not stop vaccination.",
+      "Not a listed contraindication to the measles vaccine.",
+      "Not a contraindication: controlled hypertension does not weaken immunity."
+    ],
+    "strategy": "Safety before coverage: live vaccine screening",
+    "archetype": "contraindication in an outbreak",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Measles vaccine is live; not given to pregnant women or people with active TB, leukemia, lymphoma or weak immunity."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0083",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Protecting anesthetic skin",
+    "noteId": "np1-cd-leprosy",
+    "vignette": "A 45-year-old woman on multidrug therapy for lepromatous leprosy has numb patches on both hands and loss of sensation in her fingertips. She cooks daily for her family over a wood fire. Her children have been told by neighbors to avoid eating with her.",
+    "stem": "Which teaching has the highest priority for her safety?",
+    "options": [
+      "Eat separately from her children until the treatment is completed",
+      "Apply tear substitute to both eyes every morning before she cooks",
+      "Check water and pot temperatures with a safe body part and inspect her hands daily",
+      "Wear a face mask while she cooks to protect her children from droplets of her illness"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: numb hands, daily cooking over fire, and neighbors' fear distracting from the real risk.\n2. Principle: priority nursing action in leprosy is protecting anesthetic skin: check water temperature, wear proper footwear or gloves, and avoid injury or pressure; hospital isolation is not generally needed once treated.\n3. Priority rule: safety from injury first; stigma reduction and eye care come next.\n4. Flip: if she had a red eye and could not close her eyelids, eye care would be the first priority.",
+    "optionRationales": [
+      "Based on fear: treatment reduces infectivity, and separate eating does not address her injury risk.",
+      "Right measure for another problem: eye care is relevant to lagophthalmos, not to hand injuries.",
+      "Correct: it prevents burns and unnoticed injury to numb skin.",
+      "Plausible detail from a similar condition: masks are used for droplet diseases, and the main risk here is injury."
+    ],
+    "strategy": "Protect the anesthetic skin",
+    "archetype": "teaching for skin without sensation",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Protect anesthetic skin: check water temperature, proper footwear, avoid injury or pressure.",
+      "Eye care: daily tear substitute to protect the cornea."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0084",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Scabies in a household",
+    "noteId": "np1-cd-scabies",
+    "vignette": "A mother has itching that is worse at night and burrows between her fingers. A skin scraping confirms scabies. She lives with her husband and four children aged 2 to 12. Only the two youngest children scratch. She asks the nurse whether the cream should be applied to her alone.",
+    "stem": "What should the nurse advise?",
+    "options": [
+      "Treat the mother alone and treat the others only if they begin to itch",
+      "Treat the mother and check and treat all household and close contacts together",
+      "Treat the two scratching children and the mother and leave the rest untreated for now",
+      "Isolate the mother in a separate room for two weeks without treating contacts"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: confirmed scabies, a crowded household, and only some family members itching.\n2. Principle: scabies is highly transmissible by skin-to-skin contact; treat and check all household and close contacts; dry-clean or boil clothing and bedding.\n3. Symptoms lag after infestation, so itching is not a reliable guide to who is infested.\n4. Flip: if the mother lived alone, treating her and her linens would be enough.",
+    "optionRationales": [
+      "Under-reaction: waiting for itching allows continued spread.",
+      "Correct: simultaneous treatment of contacts prevents reinfestation.",
+      "Partial treatment: symptom-free contacts can carry mites.",
+      "Right idea about contact precautions, wrong measure: isolation without treating contacts leaves the infestation untreated."
+    ],
+    "strategy": "Treat the household at the same time",
+    "archetype": "treat the household",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Treat and check all household and close contacts.",
+      "Intense itching, worse at night; burrows in finger webs."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0085",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Recognizing rubella",
+    "noteId": "np1-cd-rubella",
+    "vignette": "A nurse reviews four rash illnesses described by parents of children seen this week.",
+    "stem": "Which description fits German measles (rubella)?",
+    "options": [
+      "Red eyes and cough followed by a rash, with white spots on the inner cheeks beforehand",
+      "A painful band of blisters on one side of the body along a nerve line",
+      "Blisters appearing in crops, with spots and scabs present on the body at the same time",
+      "Swollen glands behind the ears, a rash lasting 1 to 5 days, and no peeling afterward"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cue: four clusters match four illnesses.\n2. Principle: rubella has post-auricular, sub-occipital and posterior cervical node swelling, Forchheimer spots, a rash lasting 1 to 5 days with no pigmentation or peeling; measles has Koplik spots; zoster has a unilateral band; chickenpox has lesions at all stages at once.\n3. Each distractor describes a different disease.\n4. Flip: if the description mentioned white spots on the inner cheeks before the rash, it would be measles.",
+    "optionRationales": [
+      "Describes measles: Koplik spots and a rash following cough and conjunctivitis.",
+      "Describes herpes zoster: unilateral band along a nerve.",
+      "Describes chickenpox: all stages of lesions at once.",
+      "Correct: it describes the nodes and the short rash without peeling."
+    ],
+    "strategy": "Match cluster to disease",
+    "archetype": "distinguish rash illnesses",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Rubella: post-auricular nodes, short rash, no pigmentation or peeling, danger to the fetus."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  }
+]

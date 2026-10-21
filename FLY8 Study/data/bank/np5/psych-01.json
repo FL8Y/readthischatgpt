@@ -1,0 +1,859 @@
+[
+ {
+  "id": "np5-0001",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Hopeless statement",
+  "noteId": "np5-therapeutic-communication",
+  "vignette": "On the evening shift, a 45-year-old man who lost his job last month tells the nurse, 'There is no point in going on anymore.' He is quiet, looking at the floor, and his dinner tray is untouched. A visitor is waiting in the hallway.",
+  "stem": "Which response by the nurse is best?",
+  "options": [
+   "Tell me more about what has been happening since you lost your job.",
+   "I am worried about you, so I will sit here with you for a while.",
+   "You sound hopeless. Are you thinking of ending your life?",
+   "Have you shared these feelings with your doctor or your family?"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: a hopeless statement from a man with a recent loss and withdrawn behavior.\n2. Principle: a threat of self-harm is explored directly and never ignored or redirected.\n3. Priority rule: safety assessment outranks gathering the story or offering presence alone.\n4. The key beats the other helpful replies because it is the only one that finds out whether he is in danger.\nFlip: If he had already denied any thoughts of self-harm, exploring his job loss would be the best reply.",
+  "optionRationales": [
+   "An open, accepting response, but it explores the story without checking safety first, which is the greater priority.",
+   "Offers presence, a helpful technique, but it does not assess whether he is in danger.",
+   "Correct. A hopeless statement should be met with a direct question about suicide; this is both therapeutic and a safety assessment.",
+   "Redirects the problem to others and delays the nurse's own safety assessment."
+  ],
+  "strategy": "Safety first: ask directly",
+  "archetype": "Ask directly about safety",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Threat of self-harm: ask directly and stay",
+   "Feelings are the priority in communication items"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0002",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Response to a delusion",
+  "noteId": "np5-x-nontherapeutic-blocks",
+  "vignette": "A client with schizophrenia tells the nurse, 'There is a camera in my head and they watch everything I think.' He is pacing and keeps checking behind the door. Another nurse suggests telling him that cameras cannot fit in a head.",
+  "stem": "Which response by the nurse is best?",
+  "options": [
+   "That sounds frightening. What do you notice as it happens?",
+   "There is no camera in your head, and no one is watching you here.",
+   "Try not to watch television so the camera is less of a problem.",
+   "Who told you that someone had put a camera in your head?"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: persecutory delusion with fear and pacing.\n2. Principle: do not argue with or agree to a delusion; respond to the feeling underneath.\n3. Priority rule: eliminate replies that challenge, answer literally or ask 'who' or 'why'.\n4. The key beats the others because it explores the fear.\nFlip: If the client were asking a real question about hospital rules, a direct factual answer would be correct.",
+  "optionRationales": [
+   "Correct. It addresses the feeling and invites description without arguing or agreeing with the belief.",
+   "Challenges and disagrees, which makes the client defend his belief.",
+   "A literal reply that misses the message and may feed the delusion.",
+   "Implies an outside source and asks him to explain, which can sound like testing."
+  ],
+  "strategy": "Therapeutic communication: feelings before facts",
+  "archetype": "Address the feeling, not the claim",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Do not argue with or agree to a delusion",
+   "Literal responses and challenging are blocks"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0003",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Client who changes topic",
+  "noteId": "np5-x-therapeutic-techniques",
+  "vignette": "A client admitted after an argument with his sister talks about his job, his landlord, his childhood in the province and his sister, switching topics every few sentences. The nurse needs to find out what happened with his sister.",
+  "stem": "Which statement by the nurse is best?",
+  "options": [
+   "Tell me more about everything you have mentioned so far.",
+   "It sounds like many things have been bothering you lately.",
+   "Why do you keep changing the subject when I ask about her?",
+   "Let us stay with the argument. What happened first?"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: rapid topic switching and a specific issue to explore.\n2. Principle: concentrate on one point when the client jumps between topics.\n3. Priority rule: the reply must narrow the field without blaming.\n4. The key beats the others because it narrows and invites the sequence.\nFlip: If the client were silent and searching for words, allowing silence would be better.",
+  "optionRationales": [
+   "Opens every topic wider and adds to the jumping.",
+   "Names the feeling but does not bring the talk back to the relevant issue.",
+   "Asks for an explanation, which sounds accusing and puts him on the defensive.",
+   "Correct. Concentrating on one topic helps a client who jumps between subjects and also sets the events in sequence."
+  ],
+  "strategy": "Match the technique to the need",
+  "archetype": "Match the technique to the need",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Concentrating on one topic helps topic jumping",
+   "Asking why sounds accusing"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0004",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Ending the relationship",
+  "noteId": "np5-nurse-patient-relationship",
+  "vignette": "On the last session before discharge, a client hands the nurse a hand-made bracelet and asks for her cell phone number so they can keep in touch. She says she will be lost without the nurse and starts to describe a new problem with her mother.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Accept the bracelet and share a number so she can call in a crisis",
+   "Decline the gift and number kindly and review her progress",
+   "Promise to visit her often after discharge to ease the transition",
+   "Explore the new problem with her mother in depth during the session"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: gift, request for personal contact and a new problem at termination.\n2. Principle: the relationship is goal-directed, time-limited and professional.\n3. Priority rule: protect boundaries and complete the termination tasks.\n4. The key beats exploring the new problem because the phase calls for review, not new work.\nFlip: If this were the middle of the working phase, exploring the problem with her mother would be appropriate.",
+  "optionRationales": [
+   "Violates professional boundaries and fosters dependence.",
+   "Correct. Termination reviews progress and feelings about ending; personal gifts and contact outside the role cross boundaries.",
+   "Prolongs a time-limited relationship and sets up an unkept promise.",
+   "Opens new content at the end, when termination tasks take priority."
+  ],
+  "strategy": "Therapeutic relationship boundaries",
+  "archetype": "Keep boundaries at termination",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Termination: review progress and discuss feelings",
+   "No gifts or personal contact outside role"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0005",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Early escalation in the day room",
+  "noteId": "np5-behavioral-management",
+  "vignette": "A client with bipolar disorder is pacing in the day room, voice rising, fists clenched, and he tells another client to shut up. Two other clients are watching. Staff are on the unit, and a PRN injection and restraint orders are available.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Request an order to hold him in a locked room right away",
+   "Clear the audience and speak calmly from a distance",
+   "Tell him firmly to stop or he will lose his privileges tonight",
+   "Give the PRN injection while the others watch"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: pacing, raised voice, clenched fists and an audience.\n2. Principle: verbal de-escalation and environment change come before medication or restraint.\n3. Priority rule: use the gentlest effective measure.\n4. The key beats medication because the client has not yet failed lesser measures.\nFlip: If he swung at a client, immediate physical safety measures would be used.",
+  "optionRationales": [
+   "Skips the ladder. Physical holds and locked rooms are for imminent danger when gentler steps fail.",
+   "Correct. Reducing stimulation and using a calm, low voice are the least restrictive first steps.",
+   "Confrontation can escalate an already angry client.",
+   "Skips less restrictive steps and humiliates him."
+  ],
+  "strategy": "Least restrictive first",
+  "archetype": "Least restrictive first",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Least restrictive effective measure",
+   "Remove the audience; speak calmly with space"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0006",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Restrained client",
+  "noteId": "np5-behavioral-management",
+  "vignette": "A client who attacked staff has been in four-point restraints for 30 minutes and has just received an ordered sedative. He is now drowsy with noisy, gurgling breathing and saliva at the corner of his mouth. A colleague is finishing the restraint documentation at the desk.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Complete the restraint documentation first",
+   "Release all limb restraints so he can move freely",
+   "Let him sleep and recheck at the next scheduled interval",
+   "Check airway and breathing and reposition to protect it"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: sedation, gurgling breathing and saliva in a restrained client.\n2. Principle: restrained and sedated clients can aspirate and cannot call for help.\n3. Priority rule: airway and breathing before paperwork or release decisions.\n4. The key beats documenting because the breathing is at risk now.\nFlip: If his breathing were quiet and unlabored, scheduled checks of circulation and skin would continue.",
+  "optionRationales": [
+   "Documentation is required but follows safety.",
+   "Over-intervention. Release follows criteria and assessment, not an automatic step.",
+   "Under-reaction. Noisy breathing requires immediate attention.",
+   "Correct. A restrained, sedated client can aspirate, so airway and breathing are the first physiologic priority."
+  ],
+  "strategy": "Maslow: airway first",
+  "archetype": "Airway while restrained",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Maintain airway and breathing while restrained",
+   "Continuous observation"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0007",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Voices telling him to act",
+  "noteId": "np5-schizophrenia",
+  "vignette": "A 28-year-old with schizophrenia tells the nurse in a low voice that the voices have been telling him to hurt his neighbor. He is hungry and his tray is delayed. The unit is calm and a PRN antipsychotic is ordered.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Ask what the voices say and whether he will act",
+   "Offer a card game to distract him until lunch",
+   "Tell him the voices are not real and he can ignore them",
+   "Give the PRN antipsychotic and reassess after lunch"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: voices commanding harm to another person.\n2. Principle: command hallucinations are assessed for content and intent.\n3. Priority rule: safety assessment precedes medication and activity.\n4. The key beats the PRN because the plan depends on how real the risk is.\nFlip: If the voices were criticising him but not commanding anything, comfort and medication review would be the focus.",
+  "optionRationales": [
+   "Correct. Command hallucinations call for an immediate assessment of harm risk before other measures.",
+   "Distraction does not address a possible danger.",
+   "Argues with the experience and offers false reassurance.",
+   "Right drug perhaps, wrong order. The risk assessment guides what is done."
+  ],
+  "strategy": "Safety first: assess before act",
+  "archetype": "Safety assessment",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Assess command hallucinations and potential for harm",
+   "Do not argue with hallucinations"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0008",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Negative symptoms care",
+  "noteId": "np5-schizophrenia",
+  "vignette": "A client with schizophrenia has a flat expression, speaks little, stays in bed, and has not showered for four days. He takes his medicine when handed it and shows no distress about his appearance.",
+  "stem": "Which nursing approach is best?",
+  "options": [
+   "Wait until he shows interest before offering hygiene help",
+   "Bathe him completely each morning so he does not have to try",
+   "Set a daily routine with brief supportive hygiene prompts",
+   "Confront him in group about the effect of his odor on others"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: flat affect, little speech, no initiative, poor hygiene.\n2. Principle: negative symptoms reduce motivation and respond less to drugs.\n3. Priority rule: structure and graded help, not waiting or doing everything.\n4. The key beats waiting because motivation is the symptom.\nFlip: If he were agitated and hearing voices, safety and reducing stimulation would come first.",
+  "optionRationales": [
+   "Under-reaction. Avolition means interest may not return without prompts.",
+   "Does too much for him and reduces independence.",
+   "Correct. Negative symptoms respond poorly to drugs, so structure and encouragement sustain self-care.",
+   "Shaming and counterproductive."
+  ],
+  "strategy": "Support function",
+  "archetype": "Structure and prompts",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Negative symptoms: flat affect, avolition",
+   "Structure and simple prompts help"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0009",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Flashback in the dayroom",
+  "noteId": "np5-trauma-stressor",
+  "vignette": "A client with PTSD sits bolt upright in the dayroom, staring and breathing fast. He shouts that he has to protect his friends and ducks when a door slams. A nurse's aide asks if she should grab his shoulder to wake him.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Grab his shoulder firmly to snap him out of it",
+   "Ask him to describe the event in detail to release it",
+   "Place him in restraints until the episode passes",
+   "Say the date and place calmly and say he is safe"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: a re-experiencing episode with fear and startle.\n2. Principle: a flashback is a present-time experience for the client.\n3. Priority rule: orient calmly and avoid sudden touch or forced retelling.\n4. The key beats grabbing the shoulder because it risks escalation.\nFlip: If he swung at staff, immediate protective measures would be added.",
+  "optionRationales": [
+   "Sudden touch can be frightening and may provoke a defensive reaction.",
+   "Forcing retelling during a flashback can worsen distress.",
+   "Over-intervention. Restraint is not indicated without imminent danger.",
+   "Correct. Orienting to the present in a calm voice helps a flashback without sudden touch."
+  ],
+  "strategy": "Ground in the present",
+  "archetype": "Ground in the present",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "During a flashback, orient to the present",
+   "Do not force retelling"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0010",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Refusing meals",
+  "noteId": "np5-x-delusions",
+  "vignette": "A client with a persecutory delusion refuses to eat, saying the kitchen is poisoning his food. He has lost weight and is not dehydrated. The nurse approaches with his tray.",
+  "stem": "Which action is best?",
+  "options": [
+   "Explain that nobody on the unit would ever poison anyone",
+   "Acknowledge his fear and let him choose from sealed items",
+   "Taste a piece of his food in front of him to prove it is safe",
+   "Document the refusal and wait for hunger to change his mind"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: persecutory delusion about food with weight loss.\n2. Principle: do not argue with or agree to a delusion; address the fear.\n3. Priority rule: protect nutrition while preserving trust.\n4. The key beats arguing because it keeps trust.\nFlip: If he were dehydrated and unsteady, medical stabilisation would take priority.",
+  "optionRationales": [
+   "Argues with the delusion and sets up a power struggle.",
+   "Correct. It respects the fear without arguing and gives some control.",
+   "Plays into the delusion and may not be accepted.",
+   "Under-reaction. Weight loss needs active management."
+  ],
+  "strategy": "Do not argue; acknowledge the feeling",
+  "archetype": "Do not argue; acknowledge fear",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Persecutory delusion: poisoned food",
+   "Do not argue or agree"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0011",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Discharge teaching and anxiety level",
+  "noteId": "np5-anxiety",
+  "vignette": "A client is due to go home tomorrow on new medicines. She is pacing, trembling, and cannot concentrate; she asks the nurse to go over the medication sheet. The nurse has a full teaching plan prepared and a family member is available.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Review the sheet slowly in detail now since she asked",
+   "Give her the printed sheet to read quietly in her room",
+   "Stay with her, lower stimulation and delay teaching",
+   "Ask her family member to complete the teaching for her"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: pacing, trembling and poor concentration.\n2. Principle: severe anxiety narrows perception and blocks learning.\n3. Priority rule: reduce anxiety first, then teach.\n4. The key beats immediate teaching because learning will fail.\nFlip: If she were calm and asking questions, immediate teaching would be right.",
+  "optionRationales": [
+   "Right topic, wrong time. She cannot take in information at this level.",
+   "Handing out written material does not suit a client who cannot concentrate.",
+   "Correct. Severe anxiety narrows perception, so learning fails until the level falls.",
+   "Delegation that avoids the real problem; she remains too anxious to learn."
+  ],
+  "strategy": "Teach only when anxiety is mild",
+  "archetype": "Teach only when calm enough",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Severe anxiety: perception narrowed, cannot learn",
+   "Stay with a calm presence"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0012",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Panic attack coaching",
+  "noteId": "np5-x-anxiety-types",
+  "vignette": "A 30-year-old with known panic disorder is brought to the unit after her third episode this month. An ECG was normal. She is hyperventilating, her hands are tingling, and she says she is going to die. A colleague hands the nurse a paper bag.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Stay with her and coach slow breathing in short calm phrases",
+   "Have her breathe into the paper bag until the tingling stops",
+   "Step back and observe from the desk so she can calm herself",
+   "Teach her about triggers and relaxation techniques right now"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: hyperventilation, tingling and fear of dying with a known diagnosis and normal ECG.\n2. Principle: staying with the client and giving simple directions reduces panic.\n3. Priority rule: act immediately, teach later.\n4. The key beats the bag because it is safe and effective.\nFlip: If she developed crushing chest pain and the ECG changed, cardiac care would take priority.",
+  "optionRationales": [
+   "Correct. A calm presence and brief directions reduce panic; teaching comes later.",
+   "Unsafe habit. Rebreathing can worsen hypoxia.",
+   "Under-reaction. Leaving a panicking client alone raises fear.",
+   "Right topic, wrong time. She cannot learn during a panic attack."
+  ],
+  "strategy": "Stay with the client",
+  "archetype": "Short calm directions",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Stay with the client in panic",
+   "Short simple directions"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0013",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "New hallucinations after surgery",
+  "noteId": "np5-symptoms-perception-thought",
+  "vignette": "Three days after hip surgery, a 76-year-old man sees insects crawling on his blanket and thinks he is at home. His orientation has been changing through the day. His temperature is 38.2 C and he has a urinary catheter. The family says he has no psychiatric history.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Report the acute confusion and look for a physical cause",
+   "Request a PRN antipsychotic as for schizophrenia",
+   "Tell him there are no insects and ask him to look again",
+   "Explain to the family that this is normal dementia progression"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: acute onset visual hallucinations, fluctuating orientation, fever and a catheter after surgery.\n2. Principle: visual hallucinations suggest delirium or substance effects, not schizophrenia.\n3. Priority rule: find and treat the physical cause.\n4. The key beats the antipsychotic because the cause is not psychiatric.\nFlip: If the hallucinations were voices in a young person with a long history, schizophrenia would be considered.",
+  "optionRationales": [
+   "Correct. Sudden fluctuating confusion with visual hallucinations points to delirium that needs a medical cause found.",
+   "Treats the symptom, assuming a psychiatric illness.",
+   "Argues with a hallucination and does not explore the cause.",
+   "Assumes the cause. The change is acute, not gradual."
+  ],
+  "strategy": "Look for the medical cause",
+  "archetype": "Look for a medical cause",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Visual hallucinations suggest delirium",
+   "Rule out medical causes"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0014",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Disorganisation in crisis",
+  "noteId": "np5-crisis-intervention",
+  "vignette": "After a flood destroyed her home, a woman has not eaten or washed in two days. She sits in a shelter crying, cannot decide what to do next and does not know whether to call her sister. She denies thoughts of harming herself.",
+  "stem": "Which approach is best?",
+  "options": [
+   "Explore how her childhood affected her ability to handle losses",
+   "Offer general leads and wait for her to set the direction",
+   "Help her choose one immediate step and arrange support",
+   "Refer her to long-term therapy and let her go home"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: cannot do daily tasks or decide after a disaster, no suicidal thoughts.\n2. Principle: in disorganization the nurse takes an active, directive role.\n3. Priority rule: address present needs and mobilize support.\n4. The key beats waiting because she cannot lead.\nFlip: If she were still managing daily tasks and problem-solving, a more facilitative approach would fit.",
+  "optionRationales": [
+   "Crisis care is short-term and present-focused, not insight therapy.",
+   "Too passive for a client who cannot decide or function.",
+   "Correct. During disorganization the nurse is active and directive, focusing on the present problem.",
+   "Skips present needs; her immediate safety and support are unmet."
+  ],
+  "strategy": "Crisis: directive and present-focused",
+  "archetype": "Be directive",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Crisis intervention is short-term and present-focused",
+   "The nurse's role is active and directive"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0015",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Survivor wants to shower",
+  "noteId": "np5-pc-rape-trauma-survivor-care",
+  "vignette": "A 24-year-old woman arrives at the emergency department four hours after an assault. She is tearful and says she wants to shower and change her clothes right now. She has not yet decided whether to report. A family member urges her to call the police immediately.",
+  "stem": "What is the nurse's best response?",
+  "options": [
+   "Take her to shower now since her comfort comes first",
+   "Explain why washing should wait and let her decide",
+   "Tell her she cannot report unless she waits and cooperates",
+   "Call the police because the family member is asking"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: recent assault, wish to bathe, undecided on reporting.\n2. Principle: support, privacy, client control and evidence preservation.\n3. Priority rule: avoid bathing before collection while letting her decide.\n4. The key beats the shower option because it balances control and evidence.\nFlip: If collection were completed, bathing could be offered at once.",
+  "optionRationales": [
+   "Right concern for comfort but it destroys evidence she may want later.",
+   "Correct. Evidence is preserved, and the choice to proceed and report remains hers.",
+   "Coercive and false; reporting is her decision.",
+   "Takes control away from her."
+  ],
+  "strategy": "Return control to the survivor",
+  "archetype": "Support and preserve evidence",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Preserve evidence; avoid bathing before collection",
+   "Decision to file charges belongs to the survivor"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0016",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Splitting between staff",
+  "noteId": "np5-x-personality-ab",
+  "vignette": "A client with borderline personality disorder tells the night nurse, 'You are the only one who really listens. The day nurses are cold and do not care about me.' She asks the nurse for extra time and to keep this conversation private.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Give extra time since she trusts the night nurse",
+   "Tell her the day nurses are doing their best and she is wrong",
+   "Keep distance from her to avoid favouritism",
+   "Keep the same limits and share the talk with staff"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: idealizing one nurse and devaluing others.\n2. Principle: borderline care needs consistent rules and open staff communication.\n3. Priority rule: no secrets and the same limits for everyone.\n4. The key beats extra time because it stops the split.\nFlip: If she asked a simple factual question about the schedule, answering plainly would be fine.",
+  "optionRationales": [
+   "Reinforces splitting and favouritism.",
+   "Defends and disagrees, which invites conflict.",
+   "Withdrawal feels like rejection and increases distress.",
+   "Correct. Consistency and communication across staff prevent splitting."
+  ],
+  "strategy": "Consistency across the team",
+  "archetype": "Consistent team approach",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Borderline: structure and consistency",
+   "Do not keep secrets from the team"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0017",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Dependent client decisions",
+  "noteId": "np5-x-personality-c",
+  "vignette": "A client with dependent personality disorder asks the nurse every morning which meal to choose, which group to attend and what to wear. She says she cannot decide without help and becomes anxious when the nurse hesitates.",
+  "stem": "Which response is best?",
+  "options": [
+   "Choose for her to ease her anxiety",
+   "Tell her she must decide everything alone from now on",
+   "Offer two options and support her in choosing one",
+   "Ask her family to make her choices"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: constant requests for decisions and anxiety when help is withheld.\n2. Principle: dependent clients need to be encouraged toward autonomy gradually.\n3. Priority rule: support, do not decide for her and do not abandon her.\n4. The key beats choosing for her because it builds skills.\nFlip: If she were in acute crisis, more directive help would be appropriate.",
+  "optionRationales": [
+   "Reinforces dependence.",
+   "Too abrupt and likely to increase anxiety.",
+   "Correct. Small supported decisions build autonomy without abandoning her.",
+   "Moves dependence to the family and avoids the goal."
+  ],
+  "strategy": "Build independence in small steps",
+  "archetype": "Build autonomy",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Dependent: foster autonomy",
+   "Do not make decisions for the client"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0019",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Handwashing ritual",
+  "noteId": "np5-ocd",
+  "vignette": "A client with obsessive-compulsive disorder has washed his hands for three hours this morning and his hands are red and cracked. Group therapy starts in ten minutes. His mother says his family tells him his hands are clean every day.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Agree on limited washing time and a plan to reduce it",
+   "Tell him to stop washing immediately or he will miss group",
+   "Lock the bathroom so he cannot wash before group",
+   "Reassure him repeatedly that his hands are clean"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: three hours of washing, skin damage and an impending activity.\n2. Principle: the ritual is his only way to lower anxiety.\n3. Priority rule: allow limited ritual time and reduce it slowly.\n4. The key beats forbidding because anxiety would surge.\nFlip: If his skin were bleeding and infected, wound care would be added to the plan.",
+  "optionRationales": [
+   "Correct. Abrupt prohibition raises anxiety, so the ritual is limited and reduced gradually with his agreement.",
+   "Forbidding the ritual suddenly raises anxiety to severe levels.",
+   "Over-intervention that humiliates and escalates anxiety.",
+   "Reassurance feeds the cycle and does not reduce the compulsion."
+  ],
+  "strategy": "Gradual reduction of the ritual",
+  "archetype": "Do not forbid abruptly",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Do not forbid the ritual abruptly",
+   "Family should avoid giving constant reassurance"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0020",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Sudden leg weakness",
+  "noteId": "np5-phobia-somatic",
+  "vignette": "A 32-year-old woman cannot move her legs after a loud argument with her husband. She appears calm and cheerful about it. Her vital signs and a first neurological check are normal. A colleague says she is probably pretending.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Tell her the paralysis is caused by stress from the argument",
+   "Accept her distress and arrange a full medical evaluation",
+   "Encourage her to try walking so she stops focusing on it",
+   "Assume she is pretending and ignore the complaint"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: sudden loss of function after stress with unconcern.\n2. Principle: physical complaints are checked and accepted.\n3. Priority rule: evaluate medically, support without confrontation.\n4. The key beats telling her it is stress because she is not ready.\nFlip: If a malingering motive were clearly shown, the approach would differ.",
+  "optionRationales": [
+   "Confronts the origin before she has other coping tools.",
+   "Correct. Conversion symptoms are real, and physical illness must be ruled out without confronting her.",
+   "Pushing can increase distress and ignores the possibility of illness.",
+   "Assumes deception; the symptoms are not consciously produced."
+  ],
+  "strategy": "Rule out physical illness; do not confront",
+  "archetype": "Take the complaint seriously",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Conversion disorder: real loss of function, calm unconcern",
+   "Always rule out physical illness first"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0021",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Frequent symptom visits",
+  "noteId": "np5-pd-somatoform-gains-management",
+  "vignette": "A client with many unexplained complaints stops the nurse in the hall several times a day to describe new pains. When the nurse listens at length she appears relieved, and her visits increase. Her tests are negative.",
+  "stem": "Which plan is best?",
+  "options": [
+   "Spend extended time discussing symptoms whenever she complains",
+   "Schedule brief regular visits not tied to her symptoms",
+   "Refuse to see her until the complaints stop",
+   "Ask her to explain how stress causes each pain"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: symptoms increase when the nurse gives attention.\n2. Principle: secondary gain maintains symptoms.\n3. Priority rule: give regular attention not contingent on symptoms.\n4. The key beats extended symptom talk because it breaks the link.\nFlip: If a new complaint suggested a real change, it would be assessed seriously.",
+  "optionRationales": [
+   "Reinforces symptoms as the route to attention.",
+   "Correct. Predictable attention reduces the secondary gain of symptoms.",
+   "Withdrawing attention damages trust and may worsen symptoms.",
+   "Confronts the origin before she has coping skills."
+  ],
+  "strategy": "Limit reinforcement of symptoms",
+  "archetype": "Limit attention to symptoms",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Secondary gain: benefit from others",
+   "Build trust; limit time on symptoms"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0022",
+  "v": 2,
+  "type": "sata",
+  "area": "NP5",
+  "topic": "Blocking replies",
+  "noteId": "np5-x-nontherapeutic-blocks",
+  "vignette": "A client scheduled for surgery says to the nurse, 'I am so scared that I will not wake up.' A student nurse offers several possible replies.",
+  "stem": "Which replies block communication? Select all that apply.",
+  "options": [
+   "Everything will be fine; don't worry about it.",
+   "Why are you so afraid?",
+   "You should talk to the surgeon and just have the operation.",
+   "What worries you the most about the surgery?",
+   "It sounds as if you are afraid. Tell me more.",
+   "I will sit with you for a while if you wish."
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "rationale": "1. Cue: fear before surgery.\n2. Principle: false comfort, why questions and advising block communication.\n3. Priority rule: remove replies that reassure, ask why or advise.\n4. The remaining replies explore the feeling.\nFlip: If the client asked a factual question about the surgery, giving information would be appropriate.",
+  "optionRationales": [
+   "Blocks talk. False comfort devalues the feeling.",
+   "Blocks talk. A why question sounds accusing.",
+   "Blocks talk. Advising takes control away from the client.",
+   "Therapeutic. Open question that explores the feeling.",
+   "Therapeutic. Names the feeling and invites more.",
+   "Therapeutic. Offers presence."
+  ],
+  "strategy": "Eliminate the blocks",
+  "archetype": "Select the blocks",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "False reassurance, advising and why are blocks",
+   "Reflecting feelings is therapeutic"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0024",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Who can learn right now",
+  "noteId": "np5-anxiety",
+  "vignette": "The nurse needs to teach about discharge medicines this afternoon. Client A is pacing and cannot follow a conversation. Client B is alert, asks questions, and concentrates on the nurse's explanation. Client C is wringing her hands and focuses only on the tray in front of her. Client D is panicked and wants to leave.",
+  "stem": "Which client is best able to learn?",
+  "options": [
+   "Client C, who is focused only on the tray",
+   "Client A, who is pacing and cannot follow talk",
+   "Client D, who is panicked and wants to leave",
+   "Client B, who is alert and concentrating"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: four clients with different attention.\n2. Principle: learning is best at mild anxiety.\n3. Priority rule: teach when the client can attend.\n4. The key beats Client C because narrowed attention is moderate anxiety.\nFlip: If Client A were first calmed, teaching could be revisited.",
+  "optionRationales": [
+   "Narrowed perception suggests moderate anxiety, and learning needs help.",
+   "Severe anxiety blocks learning.",
+   "Panic prevents rational thought.",
+   "Correct. Mild anxiety widens perception and sharpens learning."
+  ],
+  "strategy": "Match learning to anxiety level",
+  "archetype": "Match learning to anxiety level",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Mild anxiety enhances learning",
+   "Severe anxiety and panic block it"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np5-0025",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "I feel fine and stopped my pills",
+  "noteId": "np5-schizophrenia",
+  "vignette": "A client with schizophrenia who has been stable for a year says, 'I feel fine now, so I stopped taking my pills last week.' He is calm and oriented and has no voices today.",
+  "stem": "Which response by the nurse is best?",
+  "options": [
+   "You must keep taking them or you will end up back in the hospital.",
+   "That is your decision, so we will not discuss it further.",
+   "Tell me what made you stop; let us talk about side effects.",
+   "Your family will be disappointed if you stop your medicine."
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: stable client who stopped medicine because he feels fine.\n2. Principle: adherence improves when concerns and side effects are explored.\n3. Priority rule: open exploration before teaching or warnings.\n4. The key beats threats because it keeps the alliance.\nFlip: If he were also hearing voices again, a prompt medical review would be added.",
+  "optionRationales": [
+   "A threat that closes the discussion.",
+   "Abandons the client to relapse risk.",
+   "Correct. Exploring his reasons and concerns supports adherence and shows respect.",
+   "Uses guilt, which is not therapeutic."
+  ],
+  "strategy": "Explore the reason",
+  "archetype": "Explore before correcting",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Keep taking medication even when well",
+   "Early warning signs of relapse"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ }
+]

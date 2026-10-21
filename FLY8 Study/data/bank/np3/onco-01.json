@@ -1,0 +1,851 @@
+[
+ {
+  "id": "np3-0101",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Painless hematuria screening statement",
+  "noteId": "np3-ho-bladder-cancer-diversions",
+  "vignette": "A nurse conducts a health talk for dye-factory workers in a barangay clinic. A 55-year-old worker who smokes says: 'I noticed red urine twice last month, but it did not hurt and went away, so I did not bother.' Another worker says he gets burning with urination after long shifts without drinking water. A third worker mentions feeling tired after night duty, and a fourth asks about hearing protection.",
+  "stem": "Which worker's statement should the nurse pursue first?",
+  "options": [
+   "The smoker who saw painless red urine twice",
+   "The worker who has burning with urination after long shifts",
+   "A worker who reports feeling tired after night duty",
+   "A worker who asks about hearing protection at the factory"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Painless hematuria is the earliest and most common sign of bladder cancer; smoking and industrial chemicals are risk factors, and both apply here.\n2. Burning on voiding after long shifts without water suggests irritation or infection, which is also worth review but less specific.\n3. The 'it went away' reasoning is the trap that delays diagnosis.\nFlip: if the second worker also had fever and flank pain, he would need prompt attention too.",
+  "optionRationales": [
+   "Right: early red flag with two risk factors.",
+   "Wrong: plausible detail from a lower-priority urinary problem (right priority, wrong client).",
+   "Wrong: non-specific complaint.",
+   "Wrong: unrelated question."
+  ],
+  "strategy": "Recognise the early red flag",
+  "archetype": "pursue the red flag",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Painless hematuria is the earliest and most common sign",
+   "Risk: smoking, industrial chemicals"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0102",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Screening advice",
+  "noteId": "np3-ho-colorectal-cancer",
+  "vignette": "A 52-year-old man tells the nurse that his father died of colon cancer at 61. He has no symptoms, eats a diet low in fiber, and says he doesn't need tests until something goes wrong. He has never had a stool test or a rectal examination.",
+  "stem": "What is the nurse's best response?",
+  "options": [
+   "Agree that screening begins only after he has noticed a change in bowel habits",
+   "Suggest a CEA blood test once, since it will show whether any cancer is present",
+   "Tell him a high-fiber diet makes screening unnecessary in his case",
+   "Advise colonoscopy screening now because of his family history, and discuss the options"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Risk factors include age, family history, and a diet low in fiber and high in fat and protein.\n2. A first-degree relative with colorectal cancer calls for earlier and more intensive screening, usually colonoscopy; confirm the interval with current guidelines.\n3. CEA is a tumor marker used in follow-up, not a screening test; diet helps but does not replace screening.\nFlip: if he had rectal bleeding, diagnostic colonoscopy would be arranged promptly.",
+  "optionRationales": [
+   "Wrong: symptoms appear late (under-reaction).",
+   "Wrong: CEA is a tumor marker, not a screening test.",
+   "Wrong: true but does not replace screening.",
+   "Right: screening for a high-risk man."
+  ],
+  "strategy": "Screening, not waiting for symptoms",
+  "archetype": "screening schedule",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Digital rectal exam yearly after 40; FOBT yearly after 50; colonoscopy",
+   "Family history is a risk factor"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0103",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "PACU discharge readiness",
+  "noteId": "np3-ho-pacu-aldrete",
+  "vignette": "A client who had a laparotomy is in Phase I of the PACU. He is awake and moves all limbs on command, but his oxygen saturation drops to 88% when oxygen is removed, and his blood pressure is 20 mm Hg below his baseline. His Aldrete score is 6. The surgical ward nurse calls to say the bed is ready, and the next client is waiting in the OR.",
+  "stem": "What should the PACU nurse do?",
+  "options": [
+   "Send him to the ward with a portable oxygen tank since the bed is ready",
+   "Keep him in the PACU on oxygen and monitoring, and report the score",
+   "Transfer him once his blood pressure has been rechecked and recorded",
+   "Discharge him to the ward and have the ward nurse repeat the score on arrival"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. A score of 8-10 is usual before leaving the PACU; a lower score means he stays until improved (or goes to intensive care).\n2. Bed availability and OR scheduling are pressures, not criteria; his saturation and blood pressure are not ready for the ward.\n3. Recording a low blood pressure and sending him anyway does not meet the criteria.\nFlip: with a score of 9 and stable vital signs, transfer to the ward would be right.",
+  "optionRationales": [
+   "Wrong: unsafe to transfer on convenience.",
+   "Right: criteria not met.",
+   "Wrong: right action, wrong time; recording without acting.",
+   "Wrong: shifts risk to the ward."
+  ],
+  "strategy": "Safety criteria, not convenience",
+  "archetype": "score and pressure",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Aldrete score 8-10 before leaving PACU; below 7 stays",
+   "Aldrete rates activity, respiration, circulation, consciousness, oxygen saturation"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0104",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Order of postoperative priorities",
+  "noteId": "np3-ho-postop-priorities",
+  "vignette": "Two hours after abdominal surgery a client is gurgling with each breath, his SpO2 is 89% and he rates his incision pain 9/10. Urine output has been 15 mL in the last hour, and he asks the nurse to bring a drink because his mouth is dry. His BP is 110/68.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Give the ordered IV analgesic for the pain of 9/10",
+   "Increase the IV fluid rate for the low urine output",
+   "Suction the airway, reposition him and apply oxygen",
+   "Offer sips of water for his dry mouth"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. The handout order: homeostasis, then airway and respiratory function, circulation, fluid balance and renal function, comfort, nutrition, healing.\n2. Gurgling and SpO2 89% make the airway the immediate problem.\n3. Pain, low urine output and thirst are real but come after airway; an opioid could also worsen breathing.\nFlip: with a clear airway and SpO2 98%, the low urine output would be next, then pain.",
+  "optionRationales": [
+   "Wrong: comfort before airway; opioid may depress breathing.",
+   "Wrong: right action, wrong time.",
+   "Right: airway before everything.",
+   "Wrong: oral fluids are unsafe with a gurgling airway."
+  ],
+  "strategy": "Maslow: airway first",
+  "archetype": "airway before comfort",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Priority order: airway, circulation, fluids, comfort, nutrition, healing",
+   "Follows ABC and Maslow"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0105",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Scheduling by urgency",
+  "noteId": "np3-ho-periop-phases-classifications",
+  "vignette": "The OR nurse schedules the afternoon list. The cases waiting are a facelift for a client's preference, a cataract extraction, excision of a suspected malignant mass, and a laparotomy for intestinal obstruction. Only one OR is free.",
+  "stem": "Which case should be done first?",
+  "options": [
+   "Excision of the suspected malignant mass",
+   "Cataract extraction for blurred vision",
+   "Laparotomy for intestinal obstruction",
+   "Facelift as the client's own choice"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Emergency surgery is needed immediately (intestinal obstruction); urgent surgery within 24-48 hours (cancer); required within a few weeks (cataract); optional is the client's preference (cosmetic).\n2. The order is therefore obstruction, mass, cataract, facelift.\nFlip: if the mass bled heavily it would become an emergency.",
+  "optionRationales": [
+   "Wrong: urgent but can wait up to 24-48 hours.",
+   "Wrong: required, within weeks.",
+   "Right: intestinal obstruction is an emergency and must be operated on first.",
+   "Wrong: a facelift is optional, chosen by the client, so it is last."
+  ],
+  "strategy": "Urgency classification",
+  "archetype": "classify surgery urgency",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Emergency: immediate; urgent: 24-48 hours; required: weeks; optional: preference"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0106",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Evaluate coughing and deep breathing teaching",
+  "noteId": "np3-ho-preop-assessment-teaching",
+  "vignette": "A 60-year-old woman is scheduled for abdominal surgery tomorrow. The nurse teaches her deep-breathing and coughing exercises, then asks her to demonstrate while holding a pillow against her abdomen. She also states why she must do it often after surgery.",
+  "stem": "Which demonstration shows effective learning?",
+  "options": [
+   "She takes quick shallow breaths and then clears her throat gently",
+   "She breathes in deeply, exhales by mouth, takes a short breath, then coughs deeply",
+   "She holds her breath at the top of each inhalation and coughs once from the throat",
+   "She breathes in through the nose, sighs out and coughs lightly to protect her incision"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. The handout technique is a deep breath, exhale through the mouth, a short breath, then cough from deep in the lungs; splinting the incision with a pillow helps.\n2. Shallow breaths and throat clearing do not mobilize deep secretions.\nFlip: after head or eye surgery, coughing would be avoided.",
+  "optionRationales": [
+   "Wrong: shallow breathing and throat clearing do not expand the lungs.",
+   "Right: correct sequence.",
+   "Wrong: cough must come from deep in the lungs.",
+   "Wrong: a light cough does not clear deep secretions."
+  ],
+  "strategy": "Evaluate teaching: deep breathing and cough",
+  "archetype": "evaluate learning",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Breathe deeply, exhale through the mouth, short breath, cough from deep in the lungs",
+   "Splint the incision"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0107",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Stage 4 of anesthesia",
+  "noteId": "np3-ho-general-anesthesia-stages",
+  "vignette": "During a long abdominal case the circulating nurse notices the client's respirations are shallow, his pulse is weak and thready, and his pupils are wide. The surgeon is closing the fascia and asks the nurse to bring more sutures.",
+  "stem": "What should the circulating nurse do first?",
+  "options": [
+   "Bring the sutures first so the surgeon can finish quickly",
+   "Record the vital signs and watch for another 10 minutes",
+   "Turn up the oxygen flow on the anesthesia machine",
+   "Alert the anesthesiologist to the findings at once"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Shallow breathing, weak thready pulse and wide pupils are signs of stage 4, too much anesthesia; death can occur.\n2. The anesthesiologist must stop the anesthetic and support breathing and circulation; the nurse's role is to alert immediately.\n3. Adjusting the machine is outside the nurse's scope, and recording or waiting delays rescue.\nFlip: with small reactive pupils, regular respirations and a normal pulse, the client is in the desired surgical stage.",
+  "optionRationales": [
+   "Wrong: right priority wrong client (surgeon request).",
+   "Wrong: under-reaction.",
+   "Wrong: outside scope of practice.",
+   "Right: escalate to the person responsible."
+  ],
+  "strategy": "Recognise medullary depression; escalate",
+  "archetype": "recognise danger signs",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Stage 4: shallow breathing, weak thready pulse, wide pupils",
+   "Stop the anesthetic and support breathing and circulation"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0108",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "PACU: airway first among competing problems",
+  "noteId": "np3-ho-x-pacu-airway-circulation",
+  "vignette": "A client who had a thyroidectomy arrives in the PACU. She is making loud snoring and gurgling sounds, her SpO2 is 86%, BP is 92/58, and the neck dressing is about half saturated with blood. The anesthesiologist is at the other end of the unit.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Open the airway and suction secretions, then give oxygen",
+   "Press firmly on the neck dressing to control the bleeding",
+   "Start the fluid bolus for the blood pressure of 92/58",
+   "Call the surgeon to the bedside to inspect the incision"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Snoring and gurgling with SpO2 86% mean the airway is partially blocked; no airway means no oxygen, which outranks every other problem.\n2. Bleeding, hypotension and the surgeon's review are urgent but follow once the airway is open.\n3. All four actions are legitimate; the order is what matters.\nFlip: with a clear airway and SpO2 98%, the dressing and BP would be handled first.",
+  "optionRationales": [
+   "Right: airway first.",
+   "Wrong: right action, wrong time.",
+   "Wrong: right action, wrong time.",
+   "Wrong: right action, wrong time."
+  ],
+  "strategy": "Airway first",
+  "archetype": "airway before bleeding",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Airway first: suction mucus or vomitus",
+   "Hypotension after surgery commonly from hypovolemia"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0109",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Consent form signing with doubt",
+  "noteId": "np3-ho-informed-consent-surgery",
+  "vignette": "The nurse brings a consent form to a 48-year-old woman scheduled for a hysterectomy in two hours. She says: 'I think they only take a small piece out, but my family told me to sign. I'm not sure what they will do.' The surgeon is in the clinic and the OR team asks if the form is signed.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Explain the procedure herself and ask the client to sign right away",
+   "Withhold the signature and notify the surgeon to explain first",
+   "Have a family member sign because the client is unsure",
+   "Witness the signature and let the OR team deal with questions later"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Informed consent is the client's own decision after being told the procedure, risks and complications; the surgeon gives the explanation.\n2. She is unsure and pressured by family, so the signature would not be valid; the nurse notifies the surgeon first.\n3. Family cannot sign for a competent adult, and witnessing a doubtful signature breaks the nurse's role.\nFlip: if she clearly understood and stated her decision, the nurse would witness the signature.",
+  "optionRationales": [
+   "Wrong: explaining the surgery is the surgeon's role.",
+   "Right: stop and notify the surgeon.",
+   "Wrong: a competent client must decide herself.",
+   "Wrong: defeats the purpose of the consent."
+  ],
+  "strategy": "Autonomy: consent after explanation",
+  "archetype": "do not obtain the signature",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Consent is the client's own decision without pressure",
+   "If the client seems unsure, do not get the signature; notify the surgeon"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0110",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Count discrepancy before closure",
+  "noteId": "np3-ho-or-team-roles",
+  "vignette": "As the surgeon begins to close the abdomen, the scrub nurse and circulating nurse count sponges and find one missing. The surgeon says, 'I counted them as I went, close up and we'll sort it out later.' The client's operative time is already long.",
+  "stem": "What should the circulating nurse do?",
+  "options": [
+   "Document the discrepancy and allow closure since the surgeon is confident",
+   "Ask the scrub nurse to recount alone and report back after the case",
+   "Wait for a postoperative x-ray before informing the surgeon",
+   "Tell the surgeon the count is incorrect and recount before closing"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. The scrub and circulating nurses count needles, sponges and instruments to ensure that none is left in the client.\n2. A discrepancy must be reported and resolved before closure; time pressure and surgeon confidence are not reasons to skip.\nFlip: if the counts matched, closure would proceed.",
+  "optionRationales": [
+   "Wrong: unsafe; documenting without resolving.",
+   "Wrong: the count is a joint, shared task.",
+   "Wrong: right tool, wrong time.",
+   "Right: report and recount now."
+  ],
+  "strategy": "Client safety: no retained items",
+  "archetype": "safety count",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Scrub nurse and circulator count sponges, needles, instruments",
+   "Circulating nurse coordinates the team"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0111",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Choose a retention suture",
+  "noteId": "np3-ho-sutures-needles",
+  "vignette": "The surgeon asks the scrub nurse for a suture to reinforce the abdominal wall closure in an obese, malnourished client at high risk for dehiscence. The nurse reaches for the tray, which holds plain surgical gut, silk, polyglactin 910 and stainless steel.",
+  "stem": "Which suture should the nurse hand to the surgeon?",
+  "options": [
+   "Stainless steel wire",
+   "Plain surgical gut",
+   "Silk thread",
+   "Polyglactin 910 (Vicryl)"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Stainless steel is used for the abdominal wall and retention sutures to prevent dehiscence.\n2. Plain gut loses strength within 5-10 days and is used for small vessels; silk loses strength when wet and is used for GI serosa and fascia without infection; polyglactin 910 absorbs in about 90 days.\nFlip: for small subcutaneous vessels, plain gut would be chosen.",
+  "optionRationales": [
+   "Right: strong, non-absorbable retention suture.",
+   "Wrong: loses strength too soon.",
+   "Wrong: weakens when wet.",
+   "Wrong: absorbable, so not for permanent retention."
+  ],
+  "strategy": "Match suture to purpose",
+  "archetype": "match material to purpose",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Stainless steel: abdominal wall and retention sutures",
+   "Plain gut loses strength in 5-10 days"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0112",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Mask handling",
+  "noteId": "np3-ho-or-zones-attire",
+  "vignette": "While observing the OR, the nurse manager sees a staff member finish one case, pull the mask down around her neck, put it in her scrub pocket during the break and tie it back on for the next case. The same staff member tucks in her drawstrings and removes her shoe covers before leaving the OR.",
+  "stem": "Which practice needs correction?",
+  "options": [
+   "Tucking in the drawstrings of the scrub suit",
+   "Removing the shoe covers before leaving the restricted area",
+   "Hanging the mask on her neck for reuse",
+   "Wearing a cap that covers all of her hair"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. The front of a mask is contaminated; it should be handled by the ties, never hung on the neck or kept in a pocket, and changed between patients.\n2. Tucking in drawstrings, removing shoe covers before leaving, and covering all hair are correct.\nFlip: a fresh mask applied by the ties for the second case would be correct.",
+  "optionRationales": [
+   "Correct practice: tucking in drawstrings keeps loose ties from contaminating the sterile field, so this needs no correction.",
+   "Correct practice: removing shoe covers before leaving prevents carrying contamination out, so this needs no correction.",
+   "Right: contaminated mask reused.",
+   "Correct practice: a cap covering all hair prevents shedding into the field, so this needs no correction."
+  ],
+  "strategy": "Attire rules: mask is contaminated",
+  "archetype": "correct unsafe attire practice",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Mask: handle by ties; never hang on neck or pocket; change between patients"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0113",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Doubtful sterility",
+  "noteId": "np3-ho-surgical-asepsis-principles",
+  "vignette": "In a time-pressured emergency appendectomy, the circulating nurse opens a sterile gown pack and notices a small tear in the outer wrapper. The inner wrap looks dry and intact, and the surgeon, already scrubbed, says, 'Just give it to me, we haven't got time.'",
+  "stem": "What is the best action?",
+  "options": [
+   "Open the inner wrap because it is dry and looks intact",
+   "Seal the tear with sterile tape and hand the gown over",
+   "Let the surgeon decide whether the gown is acceptable",
+   "Treat the pack as contaminated and open a new one"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. A breached barrier means contaminated, and when in doubt the item is considered unsterile.\n2. The inner wrap's appearance and taping do not restore sterility; time pressure is not a reason to accept risk.\n3. The nurse cannot hand responsibility to the surgeon for something she has identified as breached.\nFlip: with an intact outer wrapper and a valid indicator, the gown could be used.",
+  "optionRationales": [
+   "Wrong: unsafe habit; breached barrier.",
+   "Wrong: tape does not restore sterility.",
+   "Wrong: transfers responsibility.",
+   "Right: a torn outer wrapper breaches the barrier, so the pack is treated as contaminated and replaced."
+  ],
+  "strategy": "If in doubt, it is not sterile",
+  "archetype": "if in doubt, replace",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Breached barrier = contaminated",
+   "If in doubt, consider it unsterile"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0114",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Reprocessing level for instruments",
+  "noteId": "np3-ho-decontamination-sterilization",
+  "vignette": "A central supply aide proposes to save time by soaking a returned set of surgical forceps in a high-level disinfectant instead of autoclaving. The forceps were used inside the abdomen. The nurse reviews the classification of items with the aide.",
+  "stem": "What is the nurse's best response?",
+  "options": [
+   "Forceps used in sterile tissue are critical items needing sterilization",
+   "Forceps are semi-critical items, so high-level disinfection is enough",
+   "Forceps are non-critical items, so cleaning with detergent and rinsing is enough",
+   "Any item can be treated by boiling at 100 C, which kills all pathogens"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Critical items enter sterile tissue, a body cavity or blood vessels and require sterilization (surgical instruments, implants, needles, urinary catheters).\n2. Semi-critical items (endoscopes, anesthesia equipment) need high-level disinfection; non-critical items need cleaning.\n3. Boiling does not kill spores, so it is not sterilization.\nFlip: for a thermometer or speculum, high-level disinfection would be correct.",
+  "optionRationales": [
+   "Right: critical item.",
+   "Wrong: classification error (semi-critical items touch mucous membranes).",
+   "Wrong: non-critical items touch only intact skin.",
+   "Wrong: boiling does not kill spores."
+  ],
+  "strategy": "Spaulding classification",
+  "archetype": "classify by risk",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Critical items require sterilization",
+   "Semi-critical: high-level disinfection; non-critical: cleaning"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0115",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Premedication timing and consent",
+  "noteId": "np3-ho-x-preop-medications",
+  "vignette": "A premedication is ordered for 0700 for a client due in the OR at 0730. The nurse finds the consent form unsigned. The client is alert, and says she is willing to sign but wants to speak to the surgeon first. Transport is arriving at 0720.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Give the premedication on time and ask her to sign once she is drowsy",
+   "Give the premedication and have her husband sign on her behalf",
+   "Hold the premedication and notify the surgeon to obtain the consent first",
+   "Give the premedication and let the OR team get consent in the holding area"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Premedication works only if given on time, but a sedated client cannot legally consent.\n2. Consent must be on the chart before sedation; the nurse holds the drug and tells the surgeon so the discussion happens first.\n3. A spouse cannot sign for a competent adult, and moving the problem to the holding area risks sedating before consent.\nFlip: with the signed consent already on the chart, the premedication would be given on time.",
+  "optionRationales": [
+   "Wrong: unsafe habit.",
+   "Wrong: a competent adult must sign herself.",
+   "Right: consent first.",
+   "Wrong: right action, wrong time."
+  ],
+  "strategy": "A sedated client cannot consent",
+  "archetype": "consent before sedation",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Confirm signed consent before sedating the client",
+   "Give premedication on time; keep side rails up"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0116",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Spinal block ascending",
+  "noteId": "np3-ho-regional-local-sedation",
+  "vignette": "Forty minutes after spinal anesthesia for a hip repair, a client says the numbness has crept up to his chest. His speech comes in short phrases, he seems anxious and his respiratory rate is 26. BP is 104/62, and he is lying with the head of the bed flat.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Reassure him that numbness after a spinal is expected and recheck in an hour",
+   "Stay with him, give oxygen, raise the head and call the anesthesiologist",
+   "Lower the head of the bed flat to help the blood pressure recover quickly",
+   "Encourage coughing and deep breathing to expand his lungs and ease the breathlessness"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. After a spinal, watch breathing, BP and return of sensation; numbness rising to the chest with breathlessness means the anesthetic is spreading upward and threatening breathing.\n2. Raising the head of the bed (per protocol) limits spread; oxygen and calling the anesthesiologist are needed.\n3. Lowering the head promotes upward spread; waiting delays rescue.\nFlip: numbness limited to the legs with an easy respiratory rate would be expected.",
+  "optionRationales": [
+   "Wrong: under-reaction.",
+   "Right: protect breathing and escalate.",
+   "Wrong: lowering the head spreads the anesthetic.",
+   "Wrong: his weak breathing cannot be fixed by effort."
+  ],
+  "strategy": "Airway/breathing: spread of the block",
+  "archetype": "recognise complication",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Spinal affects lower body; watch breathing, BP, return of sensation",
+   "Keep head of bed raised so anesthetic does not spread upward"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0117",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Pre-transfer checklist: which finding to report",
+  "noteId": "np3-ho-immediate-preop-prep",
+  "vignette": "The nurse is completing the checklist for a client going to the OR in 30 minutes. His dentures are still in his mouth, his wedding ring is on his finger, and his consent is signed. He says he had a slice of toast 'about two hours ago' because he was hungry, and he has voided.",
+  "stem": "Which finding should the nurse report to the surgeon and anesthesiologist before transfer?",
+  "options": [
+   "He ate toast about two hours ago",
+   "He still has his dentures in his mouth",
+   "He is wearing his wedding ring",
+   "He has just voided"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Anesthesia removes protective reflexes; a full stomach raises aspiration risk, so recent eating is reported to the surgeon and anesthesiologist.\n2. Dentures are removed by the nurse; a ring is taped or sent home per policy; voiding is a required step.\nFlip: if he had only sipped water 8 hours earlier, no report would be needed.",
+  "optionRationales": [
+   "Right: NPO violation.",
+   "Wrong: the nurse can fix it.",
+   "Wrong: the nurse can handle by policy.",
+   "Wrong: the expected step."
+  ],
+  "strategy": "Unfixable at bedside: NPO violation",
+  "archetype": "report before transfer",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Check NPO status before transfer",
+   "Remove dentures; secure jewelry"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0118",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Diet advancement and distention",
+  "noteId": "np3-ho-x-postop-nutrition-elimination",
+  "vignette": "On the second day after a bowel resection a client asks for his breakfast. He has not passed flatus, his abdomen looks distended, and he vomited a small amount an hour ago. His intake has been 600 mL and urine output is adequate. A visitor offers him a biscuit.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Advance to a regular diet since peristalsis returns by 72 hours",
+   "Give him liquids as requested and recheck after he has finished",
+   "Hold oral intake and report the distention and vomiting",
+   "Encourage a large amount of water to stimulate the bowel"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Peristalsis returns in about 48-72 hours; the diet advances from liquids once bowel sounds and flatus are present.\n2. Distention, vomiting and no flatus are red flags that require reporting rather than feeding.\n3. Solid food, liquids or forced water may worsen the vomiting and distention.\nFlip: with flatus passed, soft abdomen and no nausea, liquids would be started.",
+  "optionRationales": [
+   "Wrong: unsafe; he has red-flag signs.",
+   "Wrong: oral liquids with vomiting; right action wrong time.",
+   "Right: hold and report.",
+   "Wrong: do not force fluids too soon."
+  ],
+  "strategy": "Check bowel activity before advancing",
+  "archetype": "when not to advance",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Peristalsis returns in 48-72 hours; diet starts with liquids",
+   "Report distention, vomiting, absent flatus"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0119",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Position for the case",
+  "noteId": "np3-ho-surgical-positions",
+  "vignette": "The OR nurse prepares four rooms. Room 1: a pilonidal sinus excision. Room 2: a nephrectomy. Room 3: a thyroidectomy. Room 4: a vaginal hysterectomy. A student asks which pairing of case and position is correct.",
+  "stem": "Which pairing is correct?",
+  "options": [
+   "Thyroidectomy: lithotomy position",
+   "Nephrectomy: lateral position",
+   "Vaginal hysterectomy: prone position",
+   "Pilonidal sinus excision: dorsal recumbent position"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Renal surgery uses the lateral position; thyroid surgery uses reverse Trendelenburg; vaginal surgery uses lithotomy; rectal and pilonidal sinus surgery uses the Kraske (jack-knife) position.\n2. Match the position to where the surgeon needs access.\nFlip: for a gallbladder case, reverse Trendelenburg would be used.",
+  "optionRationales": [
+   "Wrong: lithotomy is for perineal surgery.",
+   "Right: renal surgery is done in the lateral position.",
+   "Wrong: vaginal surgery uses lithotomy.",
+   "Wrong: pilonidal surgery uses Kraske."
+  ],
+  "strategy": "Position follows surgeon access",
+  "archetype": "match position to access",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Lateral: renal surgery",
+   "Lithotomy: perineal and vaginal; Kraske: rectal and pilonidal"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0120",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Intraoperative hypothermia",
+  "noteId": "np3-ho-intraop-complications-positioning",
+  "vignette": "Two hours into an open abdominal case, the client's temperature has dropped to 35.0 C. The drapes around the wound are wet with irrigation fluid, the room is cool, and cold irrigation fluid is being used. The surgeon asks the nurse to bring more irrigation fluid.",
+  "stem": "Which action is most appropriate?",
+  "options": [
+   "Cool the room further so the surgical team stays comfortable and alert",
+   "Continue with the same fluids and cover the client's head only",
+   "Hold the irrigation fluid at room temperature and document the temperature",
+   "Warm the irrigation and IV fluids and replace wet drapes with dry ones"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Causes of intraoperative hypothermia include a cool OR, cold fluids and gases, open cavities, wet drapes and reduced muscle activity.\n2. Warm IV and irrigation fluids and replace wet gowns and drapes with dry ones.\n3. Documenting without acting leaves the client cold.\nFlip: for a client with a fever, active cooling might be considered.",
+  "optionRationales": [
+   "Wrong: worsens hypothermia.",
+   "Wrong: under-reaction.",
+   "Wrong: documenting alone.",
+   "Right: addresses causes."
+  ],
+  "strategy": "Act on the cause",
+  "archetype": "act on the cause",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Warm IV and irrigation fluids",
+   "Remove wet drapes and replace with dry ones"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0121",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Opioid-related respiratory depression in PACU",
+  "noteId": "np3-ho-x-postop-pain-nausea",
+  "vignette": "Twenty minutes after an IV opioid dose, a post-surgical client is hard to wake and his respiratory rate is 8. He mumbles that his pain is 7/10 and that he feels nauseated. The nurse has an order for another opioid dose and for promethazine.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Give the next opioid dose because the pain remains 7/10",
+   "Give the promethazine now to treat the nausea before he vomits",
+   "Turn his head to the side and record the nausea and pain scores in the chart",
+   "Rouse him, give oxygen and report the slow breathing to the provider"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Opioids can depress breathing; a rate of 8 and difficult arousal mean respiratory depression, the main danger and a higher priority than pain or nausea.\n2. Another opioid would worsen it; promethazine is also sedating. Positioning helps aspiration risk but does not treat the slow breathing.\nFlip: with a respiratory rate of 16 and alert, treating pain and nausea would be right.",
+  "optionRationales": [
+   "Wrong: treats the symptom and worsens the danger.",
+   "Wrong: right action, wrong time; sedating drug.",
+   "Wrong: incomplete; documents without treating breathing.",
+   "Right: breathing first."
+  ],
+  "strategy": "Respiratory depression outranks comfort",
+  "archetype": "breathing outranks comfort",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Respiratory depression is the main danger of opioids",
+   "Act on nausea at the first report"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0122",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Coughing contraindicated after intracranial surgery",
+  "noteId": "np3-ho-postop-respiratory-complications",
+  "vignette": "On the first day after a craniotomy, a client has fine crackles at both bases and a weak, wet cough. The nursing assistant says, 'The routine for all post-op clients is to turn, cough and deep breathe every 2 hours, so I'll get him to cough hard with a pillow.'",
+  "stem": "What should the nurse tell the assistant?",
+  "options": [
+   "Coughing is still needed to prevent pneumonia, so continue the routine as planned today",
+   "Avoid coughing after intracranial surgery; use turning, deep breathing and spirometry",
+   "All breathing exercises should be avoided to prevent pressure changes in the head",
+   "Delay all repositioning until the head incision is healed"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. The postoperative routine of turning, deep breathing, coughing and spirometry is modified: coughing raises pressure and is contraindicated after head injury, intracranial surgery, eye surgery and plastic surgery.\n2. Turning, deep breathing, spirometry and early ambulation still prevent atelectasis and pneumonia.\n3. Avoiding all exercises or all turning would invite respiratory complications.\nFlip: after abdominal surgery, the routine including coughing and splinting would be right.",
+  "optionRationales": [
+   "Wrong: unsafe habit.",
+   "Right: modify the routine.",
+   "Wrong: over-restriction.",
+   "Wrong: over-restriction."
+  ],
+  "strategy": "Know the exception to the routine",
+  "archetype": "exception to the routine",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Coughing is contraindicated after head injury, intracranial, eye and plastic surgery",
+   "Turn, deep breathe, spirometer every 2 hours"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0123",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Dizziness at the edge of the bed",
+  "noteId": "np3-ho-early-ambulation",
+  "vignette": "A client on the first postoperative day is helped to sit with his legs dangling over the bed edge. After two minutes he becomes pale, says he feels dizzy, and the BP is 86/50 from 118/70 before. The physiotherapist is waiting and the activity order says 'ambulate as tolerated'.",
+  "stem": "What should the nurse do?",
+  "options": [
+   "Help him lie back, recheck vital signs and report the drop",
+   "Continue and help him stand since the order allows ambulation",
+   "Have him stand briefly to see whether the dizziness passes",
+   "Give a sip of water and recheck the blood pressure in ten minutes"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. A sudden position change can drop blood pressure after surgery; the dangling step is meant to detect this.\n2. Pallor, dizziness and BP 86/50 mean stop, return to bed, recheck and report; ambulation resumes only when he tolerates sitting.\nFlip: with BP 116/68 and no symptoms, he would stand and walk with support.",
+  "optionRationales": [
+   "Right: stop and protect.",
+   "Wrong: unsafe to continue.",
+   "Wrong: risk of fainting and falling.",
+   "Wrong: under-reaction."
+  ],
+  "strategy": "Safety: orthostatic drop",
+  "archetype": "stop and lie back",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Dangle and watch for dizziness",
+   "Dizziness, fainting, pallor are red flags"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ }
+]

@@ -1,0 +1,775 @@
+[
+  {
+    "id": "np1-0026",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Outbreak response and reporting",
+    "noteId": "np1-epidemiology-fhsis",
+    "vignette": "Over three days a rural health nurse sees eight schoolchildren from the same elementary school with bloody diarrhea. Stool results are not back. Her monthly FHSIS report is due in four days, and the school principal asks whether classes should continue as usual.",
+    "stem": "Which action is the BEST for the nurse to take now?",
+    "options": [
+      "Wait for the stool results before notifying anyone so that the report names the exact organism",
+      "Include the eight cases in the monthly report and discuss them at the next scheduled staff meeting",
+      "Notify the municipal surveillance officer today and start control measures right away",
+      "Visit each family to teach handwashing first and report only if new cases appear after the teaching"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: a cluster of similar illness in one setting, no lab confirmation yet, a routine report due later, and a principal waiting for advice.\n2. Principle: notifiable and outbreak conditions are reported promptly through surveillance because delay allows spread; in an outbreak, control measures start while the investigation goes on.\n3. Priority rule: protect others first (act), then confirm; the monthly report is a routine route, not an alert route.\n4. The key combines reporting and action; the runner-up (teaching alone) is useful but delays the report that triggers a wider response.\n5. Flip: if only one child had loose stools and no one else was ill, routine management and monthly reporting would fit.",
+    "optionRationales": [
+      "Under-reaction by waiting: confirmation is not needed to report a cluster and start control.",
+      "Right data, wrong route: the monthly report is a routine route and would delay the response by days.",
+      "Correct: prompt notification plus control measures while the investigation continues.",
+      "Treats part of the problem: teaching helps but withholding the report delays surveillance and wider control."
+    ],
+    "strategy": "Act now, report promptly; do not wait for confirmation",
+    "archetype": "act while investigating",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Report notifiable diseases promptly; in an outbreak, control starts while the investigation continues.",
+      "Reporting forms are the routine route for data to move upward."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0027",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Choosing the denominator",
+    "noteId": "np1-vital-statistics",
+    "vignette": "In a municipality last year there were 36 deaths in infants under one year, 120 deaths from all causes, 1,200 live births and a midyear population of 24,000. The mayor asks for a single figure that reflects the general health condition of the community.",
+    "stem": "Which computation gives the infant mortality rate?",
+    "options": [
+      "36 divided by 1,200, multiplied by 1,000",
+      "36 divided by 24,000, multiplied by 1,000",
+      "120 divided by 24,000, multiplied by 1,000",
+      "36 divided by 120, multiplied by 100"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cue: the mayor wants the infant mortality rate; the vignette contains several numerators and denominators.\n2. Principle: infant mortality rate equals infant deaths divided by live births, times 1,000, and it indexes the general health of a community.\n3. Using the total population (24,000) is the classic denominator trap; 120 over 24,000 is the crude death rate; 36 over 120 is a proportion of deaths that were infant deaths.\n4. Flip: if the question asked for the crude death rate, the second distractor with total deaths over midyear population would be correct.",
+    "optionRationales": [
+      "Correct: infant deaths over live births, times 1,000.",
+      "Denominator trap: total population is not the group at risk of infant death.",
+      "True computation for a different measure: this is the crude death rate.",
+      "Wrong measure: it gives the share of all deaths that were infant deaths, not a rate."
+    ],
+    "strategy": "Identify the denominator first",
+    "archetype": "infant mortality rate",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "IMR = infant deaths / live births x 1,000.",
+      "Check the denominator and the multiplier before computing."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0028",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Epidemiologic approaches",
+    "noteId": "np1-x-epi-concepts",
+    "vignette": "A nurse supervisor reviews four activities in a municipality: (1) counting dengue cases by barangay and month, (2) comparing cases among households with and without water drums to test whether the drums increase risk, (3) trying a new larval control method in one barangay only, and (4) measuring whether the dengue program lowered cases over two years.",
+    "stem": "Which activity is an analytic approach?",
+    "options": [
+      "Counting dengue cases by barangay and by month to show where and when they occur",
+      "Comparing households with and without water drums to test if drums raise dengue risk",
+      "Trying a new larval control method in one barangay only to see whether it works there",
+      "Measuring whether the dengue program lowered the number of cases over the past two years"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cue: one activity tests a hypothesis about why disease occurs by comparing exposed and unexposed households.\n2. Principle: descriptive epidemiology shows distribution by person, place and time; analytic looks for causes by hypothesis testing; intervention tests a new control method; evaluation measures whether services and programs work.\n3. The other three each match one of the remaining approaches.\n4. Flip: if the nurse applied drum covers to half the households and compared the two groups afterward, that would be an intervention (experimental) approach.",
+    "optionRationales": [
+      "Describes distribution by place and time, which is descriptive.",
+      "Correct: comparing exposed and unexposed households to test a cause is analytic.",
+      "Tests a new method of control, which is intervention or experimental.",
+      "Measures the effectiveness of a program, which is evaluation."
+    ],
+    "strategy": "Describe, then analyze, then intervene, then evaluate",
+    "archetype": "recognize the approach",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Descriptive = person, place, time; analytic = tests why through hypotheses.",
+      "Intervention tests new control methods; evaluation measures program effectiveness."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0030",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Positive newborn screen",
+    "noteId": "np1-newborn-screening",
+    "vignette": "A health center nurse calls a mother because her 3-week-old daughter's newborn screen was positive for a treatable disorder. The mother says, \"She feeds well and looks healthy, so the result must be wrong. I will repeat it at her two-month check-up.\"",
+    "stem": "Which response by the nurse is BEST?",
+    "options": [
+      "Reassure her that screening often gives false alarms and that a repeat at two months is reasonable",
+      "Tell her that the baby has the disorder and must start treatment at once even before any other test",
+      "Agree that a healthy-looking baby needs no action and advise her to return if symptoms appear",
+      "Explain that the result is a screen, not a diagnosis, and that confirmatory testing is needed now"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: a positive screen, a baby who looks well, and a mother planning a two-month delay.\n2. Principle: newborn screening detects treatable disorders before symptoms appear; a positive screen needs a confirmatory test and prompt treatment because delay can cause disability or death.\n3. Looking well does not rule out these disorders, which is the reason for screening.\n4. The key neither alarms nor reassures falsely; it fixes the delay by moving confirmation now.\n5. Flip: if the confirmatory test returned normal, the nurse would explain that the screen was a false positive and no treatment was needed.",
+    "optionRationales": [
+      "Under-reaction by reassurance: waiting two months can allow irreversible harm.",
+      "Over-intervention: a positive screen is not a diagnosis, and treatment waits for confirmation.",
+      "Skips assessment: symptoms may appear only after harm has occurred, so waiting for them defeats screening.",
+      "Correct: it corrects the misconception and moves confirmation forward."
+    ],
+    "strategy": "Screening is not diagnosis: confirm promptly",
+    "archetype": "screening is not diagnosis",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Screening is NOT a diagnosis; a positive screen needs a confirmatory test and prompt treatment.",
+      "Untreated disorders may cause intellectual disability or death."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0032",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Choosing a natural family planning method",
+    "noteId": "np1-g-fp-natural",
+    "vignette": "A 29-year-old woman and her husband want a natural method. Her cycles range from 24 to 38 days, and she has had persistent unusual vaginal discharge for the past month. Both partners are willing to cooperate and she wants a method that uses no cost devices.",
+    "stem": "Which method is the BEST fit?",
+    "options": [
+      "Standard days method with cycle beads",
+      "Cervical mucus (billings) ovulation method",
+      "Two-day method (daily check of secretions)",
+      "Basal body temperature method with a daily record"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: cycle length varies widely, and cervical secretions are abnormal.\n2. Principle: the standard days method is meant for women with regular cycles of 26 to 32 days; mucus, two-day and symptothermal methods rely on cervical secretions and are unreliable with abnormal secretions.\n3. Basal body temperature depends on a daily temperature rise after ovulation, not on cycle length or mucus.\n4. Each distractor fails one stated cue.\n5. Flip: if her cycles were regular at 28 days and she had no discharge, the standard days method would be suitable.",
+    "optionRationales": [
+      "Fails the cycle cue: it is meant for cycles of 26 to 32 days.",
+      "Fails the discharge cue: the method is unsuitable with unusual vaginal discharge.",
+      "Fails the discharge cue: the two-day method is unreliable with abnormal secretions.",
+      "Correct: it does not depend on secretions or on a fixed cycle length."
+    ],
+    "strategy": "Eliminate the methods each cue rules out",
+    "archetype": "match method to client cues",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Mucus and two-day methods are unreliable with abnormal secretions.",
+      "Standard days method suits cycles of 26 to 32 days."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0033",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Judging vaccine vials",
+    "noteId": "np1-cold-chain",
+    "vignette": "At an outreach session the nurse checks four vials. A pentavalent vial shows a vaccine vial monitor (VVM) inner square the same shade as its circle; it expires in six months. A BCG vial has a VVM square lighter than its circle and expires in two weeks. A measles vial has a lighter square and has stayed in its box in the carrier. An oral polio vial has a lighter square and was opened this morning.",
+    "stem": "Which vial should the nurse set aside to discard?",
+    "options": [
+      "The pentavalent vial whose square matches the circle",
+      "The BCG vial that is two weeks from its expiry date",
+      "The measles vial that stayed boxed in the carrier",
+      "The oral polio vial that was opened this morning"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: only one VVM has reached the discard point; the others show a lighter square, and the near-expiry vial is the distractor.\n2. Principle: if the inner square matches or is darker than the circle, the vaccine has accumulated too much heat and must be discarded; a lighter square is usable; first expiry first out applies to stock use, not to discard.\n3. Safety before stock management: a vial that has lost potency gives no protection while looking normal.\n4. Flip: if the pentavalent vial had instead been suspected of freezing, the VVM would not show it and the shake test would be used.",
+    "optionRationales": [
+      "Correct: the inner square matching the circle means the heat limit has been reached.",
+      "Plausible detail: near expiry means use it first, not discard it, because its VVM is still usable.",
+      "Plausible detail: the carrier and box protect it from light, and its VVM is usable.",
+      "Plausible detail: opening the vial does not on its own mean discard, and its VVM is usable."
+    ],
+    "strategy": "Safety before stock management",
+    "archetype": "vaccine vial monitor",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "VVM: inner square lighter than the circle = usable; matching or darker = discard.",
+      "First expiry, first out."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0034",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Advising on exclusive breastfeeding",
+    "noteId": "np1-g-iycf",
+    "vignette": "A mother brings her 5-month-old son for weighing; he is gaining well. Her mother-in-law says hot weather means he needs water, and the mother plans to return to a market job next month. She asks, \"Should I start rice porridge now so he is used to it?\"",
+    "stem": "Which advice by the nurse is BEST?",
+    "options": [
+      "Offer small sips of boiled water in hot weather and begin rice porridge once she starts work at the market",
+      "Continue breast milk only until 6 months, then add safe complementary foods with continued breastfeeding",
+      "Begin rice porridge now in small amounts and gradually reduce breastfeeding before she starts work",
+      "Switch to formula feeding before she starts work so that the baby does not become dependent on her"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: normal growth on breast milk, family pressure for water, and a work return that creates anxiety about timing.\n2. Principle: IYCF key messages are exclusive breastfeeding for 6 months (not even water), complementary foods at 6 months that are timely, adequate and safe, and continued breastfeeding to 2 years and beyond.\n3. Growth is adequate, so there is no reason to add anything early.\n4. Flip: if the baby were failing to gain weight at 5 months, the nurse would assess feeding and refer rather than simply reinforce the message.",
+    "optionRationales": [
+      "Contradicts the key message: even water is not given during exclusive breastfeeding.",
+      "Correct: it protects exclusive breastfeeding to six months and plans a timely start of complementary feeding.",
+      "Right food, wrong time: complementary foods at 5 months are early and displace breast milk.",
+      "Over-intervention: weaning to formula is not needed because the baby is thriving and breastfeeding continues alongside work."
+    ],
+    "strategy": "Counsel to the key message, not the pressure",
+    "archetype": "counsel against pressure",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Exclusive breastfeeding for 6 months: breast milk only, not even water.",
+      "Complementary foods at 6 months while breastfeeding continues to 2 years and beyond."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0035",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "True and false contraindications",
+    "noteId": "np1-x-epi-law-contraindications",
+    "vignette": "Four infants are waiting at the immunization clinic. A malnourished infant with diarrhea and vomiting is due for oral polio. An infant with cough and a temperature of 37.9 C is due for the first pentavalent dose. A 4-month-old whose mother says \"he had a seizure two days after his first pentavalent dose\" is due for the second dose. A 9-month-old with a mild respiratory infection is due for measles vaccine.",
+    "stem": "For which infant should the nurse withhold the scheduled vaccine and refer to the physician?",
+    "options": [
+      "The malnourished infant who also has diarrhea and vomiting this week",
+      "The infant who has a cough and a temperature of 37.9 C since yesterday",
+      "The infant who had a seizure two days after the first pentavalent dose",
+      "The 9-month-old who has had a mild respiratory infection for two days"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: three infants have illnesses that look worrying; one has a reaction to a previous pertussis-containing dose.\n2. Principle: malnutrition, low-grade fever, mild respiratory infection, cough, diarrhea and vomiting are false contraindications; convulsions or shock within 3 days after a previous DPT dose is an absolute contraindication to the next dose.\n3. Safety before coverage: screen for true contraindications first, but never send away a child with only false ones.\n4. Flip: if the 4-month-old had only a cough and a mild fever instead of the seizure history, he would be vaccinated on schedule.",
+    "optionRationales": [
+      "False contraindication: malnutrition, diarrhea and vomiting do not stop vaccination.",
+      "False contraindication: low-grade fever and cough do not stop vaccination.",
+      "Correct: a seizure within 3 days of a previous dose is an absolute contraindication to the next pertussis-containing dose.",
+      "False contraindication: a mild respiratory infection does not stop vaccination."
+    ],
+    "strategy": "Safety before coverage: find the true contraindication",
+    "archetype": "screen for the one true contraindication",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Convulsions or shock within 3 days of a previous DPT dose: do not give the next dose.",
+      "False contraindications: malnutrition, low-grade fever, mild respiratory infection, cough, diarrhea, vomiting."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0036",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Route and site of EPI vaccines",
+    "noteId": "np1-x-epi-schedule-table",
+    "vignette": "A newly assigned nurse is reviewing how to give vaccines to infants. She writes down four vaccine, route and site pairings and asks her preceptor to check them.",
+    "stem": "Which pairing is correct?",
+    "options": [
+      "Hepatitis B vaccine, intramuscular, upper outer thigh",
+      "BCG vaccine, subcutaneous, right deltoid region of the arm",
+      "Measles vaccine, intramuscular, upper outer thigh area",
+      "Pentavalent vaccine, subcutaneous, outer upper arm area"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cue: four route and site pairings, one of which matches the handout schedule.\n2. Principle: hepatitis B and DPT-containing vaccines are given intramuscularly in the vastus lateralis (upper outer thigh) of the infant because it is the largest muscle; BCG is intradermal in the right deltoid region; measles is subcutaneous in the outer upper arm.\n3. Each distractor swaps the route or site of another vaccine.\n4. Flip: if the pairing said measles, subcutaneous, outer upper arm, that would be the correct one.",
+    "optionRationales": [
+      "Correct: intramuscular in the upper outer thigh.",
+      "Swapped route: BCG is given into the skin, not under it.",
+      "Swapped route and site: measles is subcutaneous in the outer upper arm.",
+      "Swapped route and site: pentavalent is intramuscular in the thigh."
+    ],
+    "strategy": "Match vaccine to route and site",
+    "archetype": "administration accuracy",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "BCG intradermal right deltoid; DPT or hepatitis B intramuscular upper outer thigh; measles subcutaneous outer upper arm."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0037",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Live versus inactivated vaccines",
+    "noteId": "np1-vaccine-principles",
+    "vignette": "A 13-month-old girl with leukemia is receiving chemotherapy and is seen at the health center. Her mother says the child has missed immunizations during hospital stays. The record shows MMR, hepatitis B and inactivated polio vaccine are all due.",
+    "stem": "Which vaccine should the nurse withhold until the physician advises?",
+    "options": [
+      "Hepatitis B vaccine, next scheduled dose",
+      "Inactivated polio vaccine, next scheduled dose",
+      "Measles-mumps-rubella (MMR) vaccine",
+      "Withhold none; chemotherapy does not change the schedule"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: malignant disease with chemotherapy (immunosuppression) and three due vaccines of two types.\n2. Principle: live attenuated vaccines (BCG, measles, MMR, oral polio, rotavirus) are generally avoided in the severely immunocompromised; inactivated and toxoid vaccines cannot cause the disease.\n3. The missed-immunization history is the irrelevant detail pushing toward giving everything.\n4. Flip: if the child were in remission with a normal immune status confirmed by the physician, the live vaccine might be given.",
+    "optionRationales": [
+      "Inactivated vaccine that cannot cause the disease.",
+      "Inactivated vaccine that cannot cause the disease.",
+      "Correct: MMR is a live vaccine and is avoided in immunosuppression.",
+      "Skips assessment: immunosuppression is a reason to screen before giving a live vaccine."
+    ],
+    "strategy": "Safety: live vaccines in immunosuppression",
+    "archetype": "who should not get a live vaccine",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Live vaccines (BCG, measles, MMR, OPV, rotavirus) are avoided in the severely immunocompromised.",
+      "Inactivated and toxoid vaccines cannot cause the disease."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0038",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Expected BCG reaction",
+    "noteId": "np1-bcg-pentavalent",
+    "vignette": "Five weeks after BCG, a mother returns with her afebrile, feeding infant. At the injection site is a small ulcer with a little clear fluid, and she asks whether she should apply antibiotic ointment and cover it with a bandage because her neighbor said it is infected.",
+    "stem": "What should the nurse tell her?",
+    "options": [
+      "An expected reaction that heals with a scar; keep it clean and dry, no ointment or dressing",
+      "The area is infected, so apply the ointment and bring the baby in for antibiotics today",
+      "Cover it with a sterile dressing and change the dressing twice a day until it heals",
+      "Refer the infant to the district hospital at once for assessment of possible BCG disease"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: a well infant, a small ulcer with clear fluid at five weeks.\n2. Principle: the expected BCG reaction is a papule that may become a pustule, ulcerate and heal with a scar over a few months, and it does not need dressings, ointment or antibiotics.\n3. The neighbor's opinion is the irrelevant detail.\n4. Flip: if the infant had fever and a large, spreading, painful swelling, assessment and referral would be needed.",
+    "optionRationales": [
+      "Correct: an expected reaction needs only reassurance and keeping clean and dry.",
+      "Over-intervention: the reaction is not an infection and does not need antibiotics.",
+      "Over-intervention: dressings are not needed for the expected BCG reaction.",
+      "Over-reaction: a well infant with a small ulcer does not need hospital referral."
+    ],
+    "strategy": "Teach the expected reaction",
+    "archetype": "normal versus abnormal",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Expected BCG reaction: papule, pustule, ulcer, scar; no dressing, ointment or antibiotic needed."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0039",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Voluntary informed choice",
+    "noteId": "np1-reproductive-health-fp",
+    "vignette": "At the health center a 35-year-old mother of four says quietly, \"My husband wants me to have tubal ligation this week, but I am afraid I will regret it. He says if I do not, he will stop supporting us.\" Her husband waits outside and has signed the consent form already.",
+    "stem": "Which action by the nurse is the BEST?",
+    "options": [
+      "Counsel her privately about all methods and ensure the decision is hers, voluntary and informed",
+      "Proceed with the scheduled procedure because her husband has already signed the consent form",
+      "Explain the benefits of tubal ligation to persuade her, since she already has four children",
+      "Call the husband in to decide together and perform the procedure if he continues to insist"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: the client voices fear and describes pressure; the husband's signature is the irrelevant detail.\n2. Principle: family planning counseling must be voluntary and informed, respecting the client's own choice; sterilization requires the client's informed consent.\n3. Priority: protect the client's autonomy before any procedure; private counseling explores her fear and the pressure.\n4. Flip: if the woman said privately that she had decided herself after discussion, the procedure could proceed with her own consent.",
+    "optionRationales": [
+      "Correct: private, voluntary and informed counseling protects her choice.",
+      "Unsafe common habit: consent must be the client's own, not a spouse's signature.",
+      "Over-intervention: persuasion undermines voluntary choice.",
+      "Right couple discussion, wrong decision-maker: the choice remains hers, not the husband's to insist."
+    ],
+    "strategy": "Voluntary informed choice belongs to the client",
+    "archetype": "ethical counseling",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Counseling must be voluntary and informed, respecting the couple's choice.",
+      "Sterilization requires informed consent."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0040",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Suspected partner violence",
+    "noteId": "np1-vawc",
+    "vignette": "A 27-year-old woman arrives at the RHU with bruises on her upper arms in different stages of healing and a swollen wrist. She says she fell. Her partner stays at her side and answers for her. She has delayed seeking care for several days.",
+    "stem": "What should the nurse do FIRST?",
+    "options": [
+      "Help her apply for a barangay protection order before leaving the clinic",
+      "Photograph and document every bruise before any treatment is given",
+      "Treat the injuries and create a private moment to ask about safety",
+      "Confront the partner about the pattern of injuries in front of the woman"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: injuries in different stages of healing, an inconsistent story, delayed care, and a partner who will not leave.\n2. Principle: treat injuries and ensure immediate safety first; life and safety come before the legal process; provide a private, nonjudgmental setting.\n3. The cues suggest violence, but she has not disclosed it; privacy and trust must come first, and confrontation could raise her danger.\n4. Flip: if she asked for a protection order once safely alone, assisting with the order would then be appropriate.",
+    "optionRationales": [
+      "Right action, wrong time: she has not disclosed abuse and treatment and privacy come first.",
+      "Right task, wrong time: documentation is important but does not outrank treatment.",
+      "Correct: treats injuries and creates safety and privacy for disclosure.",
+      "Unsafe: confronting the partner can endanger the woman."
+    ],
+    "strategy": "Maslow: safety and injuries before legal process",
+    "archetype": "safety before the legal process",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Treat injuries and ensure immediate safety first, then legal steps.",
+      "Warning signs: injuries in different stages of healing, inconsistent story, partner who will not leave."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0041",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "BP measurement technique",
+    "noteId": "np1-g-bp-technique",
+    "vignette": "A nursing student measures blood pressure at a barangay screening. The preceptor observes four things the student does. A client who has just climbed the steps is seated, the cuff is applied snugly 2 to 3 cm above the brachial artery, the manometer is at eye level, and the student inflates until the pulse disappears then deflates slowly.",
+    "stem": "Which part of the student's technique needs correction?",
+    "options": [
+      "Applying the cuff snugly 2 to 3 cm above the brachial artery on the bare arm",
+      "Placing the manometer at eye level and the arm at the level of the heart",
+      "Deflating slowly after palpating the systolic value and waiting one to two minutes",
+      "Measuring without first letting the client rest after climbing the steps"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cue: the client has just climbed steps; the other three are correct technique.\n2. Principle: the client should be relaxed and rested for about 5 minutes with no smoking or caffeine in the previous 30 minutes; activity raises the reading.\n3. The cuff placement, eye-level manometer and slow deflation are all standard.\n4. Flip: if the client had rested seated for 5 minutes, no correction would be needed.",
+    "optionRationales": [
+      "Correct technique: the cuff is snug and sits 2 to 3 cm above the brachial artery.",
+      "Correct technique: the manometer is read at eye level.",
+      "Correct technique: slow deflation allows accurate Korotkoff readings.",
+      "Correct: exertion falsely raises the pressure, so the client should rest first."
+    ],
+    "strategy": "Technique errors change the reading",
+    "archetype": "spot the technique error",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Client relaxed and rested for 5 minutes before measurement.",
+      "Cuff 2 to 3 cm above the brachial artery; manometer at eye level."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0042",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Sequence of the home visit",
+    "noteId": "np1-g-home-visit-bag",
+    "vignette": "A public health nurse enters a home to care for a postpartum mother with an infected perineal wound. She has greeted the family, introduced herself, stated the purpose of the visit, and observed the mother and the home.",
+    "stem": "What should she do NEXT?",
+    "options": [
+      "Give health teaching about wound care and breastfeeding to the mother",
+      "Record the observations and the care given in the family record folder",
+      "Set the date of the return visit with the family before leaving",
+      "Place the bag in a convenient place and perform the bag technique"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cue: greeting, purpose and observation are done; the care is about to start.\n2. Principle: steps are greet and introduce, state the purpose, observe and determine needs, place the bag and perform bag technique, give care and teaching, record, then arrange the return visit.\n3. Bag technique prevents cross-infection, so it comes before touching the wound.\n4. Flip: if the visit were only a social call without any procedure, the bag might not be opened at all.",
+    "optionRationales": [
+      "Right action, wrong time: teaching follows the care.",
+      "Right action, wrong time: recording comes after the care is given.",
+      "Right action, wrong time: the return visit is arranged at the end.",
+      "Correct: bag technique comes before care to prevent spread of infection."
+    ],
+    "strategy": "Sequence: bag technique before care",
+    "archetype": "order of steps",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Home visit steps: greet, purpose, observe, bag technique, care and teaching, record, return visit."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0044",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Facilitating rather than directing",
+    "noteId": "np1-copar-principles",
+    "vignette": "At a first community meeting, a nurse who has already drafted a health plan notices the residents are quiet. A respected elder says, \"Just tell us what to do, nurse.\" The captain suggests that the most educated residents lead the project.",
+    "stem": "Which response is most consistent with COPAR principles?",
+    "options": [
+      "Present her prepared plan for approval so that the project can start without any delay",
+      "Accept the captain's suggestion and appoint the most educated residents as the project leaders",
+      "Ask residents to name their own concerns and prioritize, letting leaders emerge through action",
+      "Ask the respected elder to choose the first project and assign the tasks to households"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: passive residents, a prepared outside plan, a request for direction, and a proposal to appoint leaders.\n2. Principle: COPAR is people-centered; the nurse is a catalyst and facilitator, not the owner; it starts from issues the people identify, is group-oriented, and leaders emerge and are tested through action rather than appointed by outsiders.\n3. The quick plan and the appointed leaders both create dependence.\n4. Flip: if residents had already identified and prioritized a problem and asked for technical teaching, the nurse could provide teaching on request.",
+    "optionRationales": [
+      "Right goal of progress, wrong approach: an outside plan makes the nurse the owner.",
+      "Unsafe common habit: leaders chosen by education rather than through action are not tested in the work.",
+      "Correct: the community identifies its own concerns and leaders emerge through action.",
+      "Right person to consult, wrong approach: direction becomes leader-oriented and external."
+    ],
+    "strategy": "People at the center: the nurse facilitates",
+    "archetype": "COPAR role of the nurse",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "The nurse is a catalyst and facilitator; the people are the center.",
+      "Leaders emerge and are tested through action rather than appointed by outsiders."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0045",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Participatory action research",
+    "noteId": "np1-g-copar-activities-par",
+    "vignette": "In a sitio, community members decided to find out why so many children have diarrhea. They wrote their own questions, interviewed households, mapped water sources, and presented the findings and their own recommendations at a meeting. The nurse trained them in interviewing and stayed alongside.",
+    "stem": "Which description best fits this activity?",
+    "options": [
+      "A traditional survey designed and run by the nurse",
+      "Participatory action research",
+      "Social mobilization to carry out a solution",
+      "A formal evaluation of a completed program"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cue: the problem was defined by the community, the community did the investigating, and the community formed the recommendations.\n2. Principle: in participatory action research beneficiaries are the main actors; it blends education, research and action; problems are defined by community members, not outside experts.\n3. A traditional survey is designed by outsiders; mobilization is people's action to solve a problem, which comes after findings.\n4. Flip: if the nurse had designed the questionnaire and collected the answers, it would be a traditional survey.",
+    "optionRationales": [
+      "Contradicted by the vignette: the nurse trained but did not run the survey.",
+      "Correct: the community defines the problem, runs the investigation and makes recommendations.",
+      "Right later step, wrong activity: mobilization acts on the solution after findings are made.",
+      "Plausible detail: nothing in the vignette says a program was completed and judged."
+    ],
+    "strategy": "Community as researcher",
+    "archetype": "who defines and does the research",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Participatory action research: beneficiaries are main actors; problems defined by community members."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0046",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Prioritizing sanitation risks",
+    "noteId": "np1-environmental-sanitation",
+    "vignette": "During a household assessment, a nurse finds that a family with a 2-year-old drinks water from an uncovered open dug well, has a working water-sealed toilet, keeps garbage mixed in one pile behind the house, and has stray dogs wandering in the yard. Two neighbors recently had typhoid fever.",
+    "stem": "Which risk should the nurse address FIRST?",
+    "options": [
+      "The unsegregated garbage pile",
+      "The stray dogs in the yard",
+      "The unsafe drinking water source",
+      "The family's use of a water-sealed toilet"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: an open dug well (unapproved source), recent typhoid among neighbors, a toddler in the home; the toilet is already adequate.\n2. Principle: poor sanitation drives typhoid and diarrhea; fix the highest-risk exposure first, such as unsafe drinking water.\n3. Garbage and stray dogs are real hazards but have lower and less immediate links to the typhoid pattern.\n4. Flip: if the family used piped potable water and defecated in open ground, excreta disposal would be the first priority.",
+    "optionRationales": [
+      "Lower priority: unsegregated garbage can breed vectors but is not the main typhoid route.",
+      "Lower priority: stray dogs are a rabies and bite concern, not the likely source of typhoid.",
+      "Correct: unsafe drinking water has the strongest link to typhoid and diarrhea.",
+      "Distractor eliminated by the vignette: the toilet is already adequate."
+    ],
+    "strategy": "Fix the highest-risk exposure first",
+    "archetype": "highest-risk exposure first",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Fix the highest-risk exposure first: unsafe drinking water, open defecation.",
+      "Open dug wells are unapproved water sources."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0047",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Classifying a water supply",
+    "noteId": "np1-water-toilet",
+    "vignette": "A sitio of 22 widely scattered houses in the hills is supplied by a developed spring with a protected outlet. There is no pipe network and each household fetches water from the outlet.",
+    "stem": "Which water supply level is this?",
+    "options": [
+      "Level II, a communal faucet system",
+      "Level I, a point source",
+      "Level III, a waterworks system",
+      "An unapproved source"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cue: a protected spring with an outlet, no distribution system, scattered houses.\n2. Principle: Level I is a protected well or developed spring without a distribution system, suited to scattered rural houses; Level II has a piped network with communal faucets for clustered houses; Level III is piped to individual households.\n3. Unapproved sources are open dug wells or unimproved springs; this spring is developed and protected.\n4. Flip: if the water were piped to standposts for clustered houses, it would be Level II.",
+    "optionRationales": [
+      "Requires a piped network and communal faucets, which this site lacks.",
+      "Correct: a protected point source without distribution fits Level I.",
+      "Requires piping to individual households, which is not present.",
+      "Contradicted by the vignette: the spring is developed and protected, not unimproved."
+    ],
+    "strategy": "Match features to water level",
+    "archetype": "level of water supply",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Level I point source; Level II communal faucet; Level III waterworks with household connections.",
+      "Unapproved sources: open dug wells and unimproved springs."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0048",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Health-care waste segregation",
+    "noteId": "np1-waste-food-laws",
+    "vignette": "After an immunization outreach, the nurse has four items to dispose of: used needles and syringes, cotton balls soaked with blood, empty vaccine boxes, and an apple core from a volunteer's snack. The team has bins for general waste, a bag for infectious waste, a bin for biodegradable waste and a puncture-resistant container.",
+    "stem": "Which placement is correct?",
+    "options": [
+      "Used needles and syringes go into the puncture-resistant container",
+      "Blood-soaked cotton balls go into the general waste bin for collection",
+      "Empty vaccine boxes go into the infectious waste bag for disposal",
+      "The apple core goes into the puncture-resistant container with the needles"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cue: four items and four containers.\n2. Principle: segregate at source; sharps go into puncture-resistant containers; infectious waste goes into designated infectious bags; biodegradable scraps go with biodegradable waste.\n3. Each distractor places an item in the wrong stream.\n4. Flip: if the item were a blood-soaked cotton ball, the infectious waste bag would be correct.",
+    "optionRationales": [
+      "Correct: sharps belong in a puncture-resistant container.",
+      "Wrong stream: blood-soaked material is infectious waste.",
+      "Wrong stream: empty boxes are general or recyclable waste.",
+      "Wrong stream: food scraps are biodegradable and do not belong with sharps."
+    ],
+    "strategy": "Segregate at source",
+    "archetype": "placement of waste",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Sharps go into puncture-resistant containers; infectious waste into designated bags.",
+      "Segregate at source."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0050",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Herbal medicine teaching",
+    "noteId": "np1-essential-drugs-herbal",
+    "vignette": "A nurse teaches mothers how to prepare lagundi for a child's cough. Afterward each mother is asked to state what she will do. One mother says she bought lagundi from a neighbor and has a clay pot at home.",
+    "stem": "Which statement shows that further teaching is needed?",
+    "options": [
+      "\"If he is not better after two or three doses, I will keep giving it for a week before seeing a doctor.\"",
+      "\"I will use only the part of the plant that was recommended and the exact amount shown on the chart.\"",
+      "\"I will boil the leaves in my clay pot, not an aluminum pot, and clean the pot before and after using it.\"",
+      "\"If a rash or any other reaction appears, I will stop giving it right away and ask the health worker.\""
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cue: the stated intention to delay medical consultation despite no improvement.\n2. Principle: general guidelines for medicinal plants are to use the right plant part and amount, boil in enamel or clay pots (not aluminum), stop if there is any reaction, and consult a physician if there is no improvement after two or three doses.\n3. The clay pot and neighbor are irrelevant details; the other statements are correct.\n4. Flip: if the mother said she would consult a doctor after two or three doses without improvement, no further teaching would be needed.",
+    "optionRationales": [
+      "Correct: delaying consultation contradicts the rule to see a physician if there is no improvement after two or three doses.",
+      "Correct understanding: use the recommended part and amount.",
+      "Correct understanding: clay or enamel pot, cleaned before and after.",
+      "Correct understanding: stop at any reaction."
+    ],
+    "strategy": "Evaluate teaching: herbal safety rules",
+    "archetype": "spot the misunderstanding",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Consult a physician if there is no improvement after two or three doses.",
+      "Use enamel or clay pots, not aluminum; stop if there is a reaction."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  }
+]

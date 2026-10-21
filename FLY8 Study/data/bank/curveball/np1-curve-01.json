@@ -1,0 +1,818 @@
+[
+  {
+    "id": "cb-np1-0001",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "TB treatment follow-up",
+    "noteId": "np1-cd-tb-tx",
+    "vignette": "Aling Nena, 46, is in month 2 of the six-month TB regimen and reports to the health center for her weekly check. Her treatment partner, a barangay health worker, watches her swallow every dose. Her sputum smear last month was negative. She tells the nurse several things during the interview.",
+    "stem": "Which statement by the client needs follow-up by the nurse?",
+    "rationale": "Curve ball: the most dramatic statement (orange urine and tears) is the expected, harmless one. 1. Cue: three statements are normal for the regimen; one describes sensory change in the feet. 2. Principle: isoniazid can injure peripheral nerves. 3. Rule: report a true adverse effect, reassure about an expected one. Flip: if she said her skin and eyes had turned yellow, that would outrank the tingling.",
+    "strategy": "Know expected versus reportable drug effects",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Rifampicin turns body fluids red-orange (expected).",
+      "Isoniazid causes peripheral neuropathy; vitamin B6 is given."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "\"My urine and tears turned orange-red a few weeks after I began.\"",
+      "\"I swallow the tablets on an empty stomach, before breakfast.\"",
+      "\"My toes feel numb and tingly at night, mostly on my left foot.\"",
+      "\"Kapitana's daughter watches me swallow every single dose.\""
+    ],
+    "answer": [
+      2
+    ],
+    "optionRationales": [
+      "Expected effect of rifampicin; the tempting alarm about bleeding is the trap. Teaching, not action, is needed.",
+      "Correct practice for the drugs that should be taken without food; nothing to correct.",
+      "Correct: numbness and tingling is the peripheral neuropathy linked to isoniazid; it should be reported and vitamin B6 considered.",
+      "This is direct observation, the DOTS principle; it is the desired behaviour."
+    ]
+  },
+  {
+    "id": "cb-np1-0002",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Cold chain failure",
+    "noteId": "np1-cold-chain",
+    "vignette": "At 0730 a nurse at a rural health unit finds the vaccine refrigerator unplugged after a brownout overnight. The door is closed, the vials look clear and unchanged, and the thermometer reads 9 C. Sixteen children are already waiting for their scheduled vaccines, and the nearest provincial supply point is two hours away.",
+    "stem": "What should the nurse do first?",
+    "rationale": "Curve ball: the vials look perfect, so using them seems reasonable, yet appearance tells nothing about potency. 1. Cue: unplugged overnight, 9 C on the thermometer. 2. Principle: heat damage is invisible and cannot be reversed. 3. Rule: quarantine and report before any use. Flip: if the thermometer logged 4 C throughout, the session could proceed.",
+    "strategy": "Do not rely on appearance; hold and escalate",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "A broken cold chain destroys vaccine potency with no visible change."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Segregate the vials, label them \"do not use\", and report the temperature to the supervising public health nurse",
+      "Give the vials to the waiting children, since none shows a visible change",
+      "Throw away every vial now and tell the mothers to return next week",
+      "Move the vials into a vaccine carrier with fresh ice packs and resume the session, and review the plan again at the end of the shift"
+    ],
+    "answer": [
+      0
+    ],
+    "optionRationales": [
+      "Correct: the potency of heat-exposed vaccine cannot be judged by looking at it, so it is held back and escalated for a decision.",
+      "Treats appearance as proof of potency; a broken cold chain causes invisible loss of protection.",
+      "Over-intervention: discarding without an assessment of exposure wastes usable stock and skips the report.",
+      "Fixes the temperature going forward but does not address what the vials already went through."
+    ]
+  },
+  {
+    "id": "cb-np1-0003",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Vaccine decisions in a sick-looking child",
+    "noteId": "np1-x-epi-law-contraindications",
+    "vignette": "Baby Jun is 10 months old and brought to the health center for measles vaccine. He has had loose stools for two days, a mild cough, a temperature of 37.8 C and a weight below the expected range. His mother says she missed his second pentavalent visit six weeks ago and asks whether the whole series must start over.",
+    "stem": "Which action is most appropriate?",
+    "rationale": "Curve ball: a sick, underweight child feels like a reason to wait, but none of the findings is an absolute contraindication. 1. Cue: mild cough, low-grade fever, loose stools, low weight. 2. Principle: these are false contraindications; missed doses are continued. 3. Rule: act on the real list, not on how the child looks. Flip: convulsions or shock within 3 days of a previous DPT dose would stop the next DPT-containing dose.",
+    "strategy": "False contraindication versus absolute",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Mild illness, diarrhea and malnutrition are false contraindications.",
+      "Do not restart the schedule when a dose is missed."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Postpone all vaccines until the diarrhea and the low weight have improved",
+      "Give the measles vaccine today and give the next pentavalent dose without restarting the series",
+      "Give the measles vaccine only and restart the pentavalent series from dose 1, while the rest of the team continues routine work",
+      "Refer him to the physician for clearance before any vaccine is given"
+    ],
+    "answer": [
+      1
+    ],
+    "optionRationales": [
+      "Under-reaction: waiting treats false contraindications as real and widens the immunity gap.",
+      "Correct: these are false contraindications, and missed doses are continued from where the child left off.",
+      "Right vaccine, wrong rule: the schedule is not restarted after a delay.",
+      "Skips what the nurse can decide; no absolute contraindication is present."
+    ]
+  },
+  {
+    "id": "cb-np1-0004",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Return to school after chickenpox",
+    "noteId": "np1-cd-varicella",
+    "vignette": "A school nurse reviews four pupils sent home last week with chickenpox. The teacher asks which child may come back tomorrow. A pregnant teacher who is unsure of her own immunity sits nearby, and the school nurse notes she has no varicella history.",
+    "stem": "Which pupil may safely return?",
+    "rationale": "Curve ball: visible scabs look like \"still sick\" but scabs are not infective; the dangerous child is the symptom-free exposed one. 1. Cue: fever ended, scabs present, one pupil without rash. 2. Principle: infectivity ends when no new vesicles form and all have crusted. 3. Rule: judge by vesicles, not by appearance. Flip: a single new blister makes the day-7 child the wrong choice.",
+    "strategy": "Infectious until lesions crust; scabs are safe",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Scabs are not infective; vesicle fluid is.",
+      "Infectious from 2 days before the rash until the vesicles have crusted."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "A child on day 4 with mostly crusted lesions but two new blisters this morning",
+      "A child on day 5 whose fever just ended but who still has weeping sores on the back",
+      "A child who has no rash but shared a bed with the sick sibling three days ago",
+      "A child on day 7 whose lesions are all crusted over, with scabs still visible"
+    ],
+    "answer": [
+      3
+    ],
+    "optionRationales": [
+      "New vesicles show the child is still in the infective period.",
+      "Fever ending is not the criterion; weeping lesions still carry the virus.",
+      "Exposed and possibly incubating; infection can spread from two days before the rash.",
+      "Correct: scabs are not infective and the child is past the contagious period once all lesions have crusted."
+    ]
+  },
+  {
+    "id": "cb-np1-0005",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Elevated BP at a screening",
+    "noteId": "np1-g-bp-technique",
+    "vignette": "During a barangay screening day, Mang Pedro, 52, climbs the stairs to the health station, sits down, and the nurse takes a reading of 168/102 within a minute. He smoked a cigarette outside 10 minutes ago and says he has no headache or other complaint. A long line of clients is waiting.",
+    "stem": "What should the nurse do next?",
+    "rationale": "Curve ball: a frightening number prompts an urgent response, but the cue that matters is that the technique was invalid. 1. Cue: stairs, a recent cigarette, no symptoms. 2. Principle: reading must follow rest and abstinence rules. 3. Rule: fix the measurement, then act. Flip: with severe headache and blurred vision the nurse would escalate despite the technique issue.",
+    "strategy": "Valid measurement before decision",
+    "archetype": "curve-ball",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Client rests 5 minutes; no smoking or caffeine in the previous 30 minutes.",
+      "Take the mean of 2 readings at least 2 minutes apart."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Let him sit quietly for 5 minutes, then repeat the reading and average two readings 2 minutes apart",
+      "Refer him to the district hospital now for a hypertensive emergency, before reassessing the situation later in the shift",
+      "Record 168/102 as his baseline and advise a recheck next month",
+      "Repeat the reading at once on the other arm with a smaller cuff"
+    ],
+    "answer": [
+      0
+    ],
+    "optionRationales": [
+      "Correct: the technique rules for rest and avoiding smoking were not met, so the first value is not a valid basis for a decision.",
+      "Over-intervention based on an invalid reading in a client with no symptoms.",
+      "Accepts a flawed reading and delays follow-up for what may be true hypertension.",
+      "Right idea to repeat, wrong time and wrong cuff; he has not rested and the cuff size was not the problem."
+    ]
+  },
+  {
+    "id": "cb-np1-0006",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Before entering a barangay",
+    "noteId": "np1-copar-phases",
+    "vignette": "A public health nurse has been assigned to start community organizing in a coastal barangay. The municipal health officer already recommended the site, and the barangay captain has welcomed the nurse by phone. The nurse has not yet visited and plans her first week.",
+    "stem": "Which action fits the phase she is in?",
+    "rationale": "Curve ball: the warm welcome from the captain pulls toward doing community work now, but she has not completed pre-entry. 1. Cue: site recommended, no visit yet. 2. Principle: sequence of COPAR phases. 3. Rule: preparation precedes entry. Flip: if she had already completed the preliminary social investigation, integration would be next.",
+    "strategy": "Match the activity to the phase",
+    "archetype": "curve-ball",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Pre-entry phase: site selection, preliminary social investigation, networking with LGU and NGOs.",
+      "Entry phase: integration, deepening social investigation, core group formation."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Call a barangay assembly to announce the program and recruit volunteers",
+      "Review health office and RHU records and make an ocular visit to note terrain, access and settlement patterns",
+      "Form a core group of respected residents from poor households",
+      "Live with a host family for the first month to learn daily routines"
+    ],
+    "answer": [
+      1
+    ],
+    "optionRationales": [
+      "Right action, wrong phase: this belongs to entry once she has integrated with residents.",
+      "Correct: preliminary social investigation with secondary data and observation belongs to the pre-entry phase.",
+      "Core group formation is an entry phase activity, not pre-entry.",
+      "Integration with residents is for the entry phase, after the preparation work."
+    ]
+  },
+  {
+    "id": "cb-np1-0007",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Falling fever in dengue",
+    "noteId": "np1-cd-dengue",
+    "vignette": "A 9-year-old with dengue has had temperature 39.8 C for four days. This morning her mother reports she is \"much better\", and her temperature is 37.2 C. The nurse notes cold clammy hands, restless behaviour, a weak rapid pulse and abdominal pain. The mother asks whether they can go home since the fever has finally gone.",
+    "stem": "What is the nurse's best response?",
+    "rationale": "Curve ball: the fever resolving is the reassuring sign that is actually the warning. 1. Cue: temperature falls while the pulse is weak and the hands are cold. 2. Principle: plasma leakage causes shock around defervescence. 3. Rule: circulation first. Flip: warm hands, strong pulse and normal BP would allow oral fluids and close observation.",
+    "strategy": "Unstable before stable; read the cues, not the thermometer",
+    "archetype": "curve-ball",
+    "difficulty": 5,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Watch for shock and bleeding; give fluids; no aspirin.",
+      "The critical phase follows the drop in fever."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Agree that she is improving and advise paracetamol at home every four hours, and document the response in the chart",
+      "Give aspirin for the abdominal pain and watch her for two hours",
+      "Assess blood pressure and perfusion and arrange urgent referral for fluid replacement",
+      "Encourage large amounts of cold sweetened drinks and a rest at home"
+    ],
+    "answer": [
+      2
+    ],
+    "optionRationales": [
+      "Treats the fall in temperature as recovery; ignores signs of poor perfusion.",
+      "Unsafe habit: aspirin raises bleeding risk in dengue.",
+      "Correct: the drop in fever with these cues marks the critical phase when plasma leaks and shock can develop.",
+      "Fluids matter but an unstable child needs assessment and IV replacement, not home care."
+    ]
+  },
+  {
+    "id": "cb-np1-0008",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Flood-related fever",
+    "noteId": "np1-cd-lepto",
+    "vignette": "Five days after wading through floodwater, a farmer, 38, has fever, severe calf pain, headache and vomiting. His urine output today has been small. The doctor suspects leptospirosis. His wife asks whether the family must stay out of the room.",
+    "stem": "Which nursing action has the highest priority?",
+    "rationale": "Curve ball: infection control feels like the first step, but this infection is not passed person to person. 1. Cue: oliguria on day 5. 2. Principle: kidney tubules are injured. 3. Rule: monitor the threatened system. Flip: if the diagnosis were measles, airborne precautions would be the priority.",
+    "strategy": "Monitor the organ most at risk",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Little or no urine in the immune phase signals kidney involvement.",
+      "Monitor urine output and breathing."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Place him in a strict isolation room with gown, mask and gloves for all staff, and review the plan again at the end of the shift",
+      "Encourage him to walk daily to relieve the calf muscle pain",
+      "Push fluids to at least three litres in the next shift",
+      "Measure and record intake and output closely and report a falling urine volume"
+    ],
+    "answer": [
+      3
+    ],
+    "optionRationales": [
+      "Over-intervention: standard precautions are usual because spread is from animal urine, not person to person.",
+      "Treats the symptom while ignoring the organ at risk; exertion adds to muscle injury.",
+      "Fluids without monitoring of output risk overload when the kidneys are failing.",
+      "Correct: kidney injury and respiratory involvement are the life-threatening complications of this stage."
+    ]
+  },
+  {
+    "id": "cb-np1-0009",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Dog bite in the barangay",
+    "noteId": "np1-cd-rabies",
+    "vignette": "A 7-year-old is brought to a barangay health station 30 minutes after a neighbour's dog bit his lower leg. The wound is bleeding slightly. The dog appears healthy and is tied up. The nearest hospital with anti-rabies vaccine is 40 minutes away by tricycle and the mother wants to leave right now.",
+    "stem": "What should the nurse do first?",
+    "rationale": "Curve ball: the urgency of reaching the vaccine overshadows the small step that must come first. 1. Cue: 40 minutes of travel, healthy-looking dog. 2. Principle: immediate washing reduces viral load. 3. Rule: simple action now, referral next. Flip: a wound that is already cleansed leaves transport as the first step.",
+    "strategy": "Do what lowers risk now, then refer",
+    "archetype": "curve-ball",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Wash the wound immediately with soap and running water; this is the first priority.",
+      "Refer for vaccine and immune globulin."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Wash the wound thoroughly with soap and running water for several minutes, then apply antiseptic",
+      "Send them straight to the hospital and let the staff there clean the wound",
+      "Wait 10 days to see whether the dog becomes ill before deciding on a vaccine, while the rest of the team continues routine work",
+      "Apply a tight bandage over the wound to stop the oozing and then refer"
+    ],
+    "answer": [
+      0
+    ],
+    "optionRationales": [
+      "Correct: immediate local cleansing lowers the amount of virus before any transport or vaccine.",
+      "Right destination, wrong order: the wound should be cleaned immediately.",
+      "Under-reaction: observation is useful but cannot delay wound care and referral.",
+      "Closing a bite wound is unsafe; it is left open after cleaning."
+    ]
+  },
+  {
+    "id": "cb-np1-0010",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Lockjaw in the ward",
+    "noteId": "np1-cd-tetanus",
+    "vignette": "A farmer, 45, with a puncture wound from a rusty nail 8 days ago is admitted with jaw stiffness, a sardonic facial expression and painful back spasms. The nurse is about to start the initial assessment. The room is bright and his wife and three relatives are talking at the bedside.",
+    "stem": "Which action should the nurse take first?",
+    "rationale": "Curve ball: the clinical routine of immediate assessment or wound care is the trap because every touch and light provokes spasm. 1. Cue: trismus, risus sardonicus, bright noisy room. 2. Principle: toxin makes the nervous system hyperexcitable. 3. Rule: ABC and reduce triggers. Flip: after sedation and relaxants are in effect, a full assessment becomes safe.",
+    "strategy": "Airway first; reduce triggers",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Airway and ventilation first; suction often.",
+      "Quiet, dim room; stimuli trigger spasms."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Clean and debride the nail wound and give a toxoid booster",
+      "Move him to a quiet dim room, limit visitors and keep suction at the bedside",
+      "Test his deep tendon reflexes with a hammer and flashlight pupil check",
+      "Ask the family to hold his arms still during spasms for his safety"
+    ],
+    "answer": [
+      1
+    ],
+    "optionRationales": [
+      "Treats the source but not the immediate risk to the airway; also stimulating.",
+      "Correct: stimulation triggers spasms that can obstruct the airway, so the environment is controlled first.",
+      "Skips protection; the assessment itself provokes a spasm.",
+      "Restraint and handling add stimulation and may worsen the spasm."
+    ]
+  },
+  {
+    "id": "cb-np1-0011",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Hungry-looking infant",
+    "noteId": "np1-g-iycf",
+    "vignette": "A mother brings her 5-month-old for weighing. The baby has gained weight well since birth, is exclusively breastfed, and is alert. The mother says he cries after feeds and she thinks her milk is not enough, so she plans to start rice porridge this week. A neighbour has advised the same.",
+    "stem": "What is the best advice?",
+    "rationale": "Curve ball: a crying infant and the neighbour's advice suggest feeding more, but the weight chart shows the baby is doing fine. 1. Cue: good gain and alertness. 2. Principle: exclusive breastfeeding meets needs to six months. 3. Rule: use objective data; support the mother. Flip: poor weight gain would call for a feeding assessment and possible referral.",
+    "strategy": "Use growth data over a worry",
+    "archetype": "curve-ball",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Exclusive breastfeeding for 6 months, not even water.",
+      "Add complementary foods at 6 months."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Start rice porridge in small amounts so he gets used to solid food, then explain the reason to the family",
+      "Add formula milk after each feed for the next two weeks",
+      "Keep exclusive breastfeeding, feed more often on demand, and check positioning and latch",
+      "Give boiled water between feeds because the weather is hot"
+    ],
+    "answer": [
+      2
+    ],
+    "optionRationales": [
+      "Right topic, wrong timing; starting early displaces milk and adds infection risk.",
+      "Unnecessary and may reduce her milk supply; his weight gain shows he is fed enough.",
+      "Correct: growth is normal, so crying does not mean insufficient milk; complementary food starts at six months.",
+      "Exclusive breastfeeding means no water; it adds risk and reduces milk intake."
+    ]
+  },
+  {
+    "id": "cb-np1-0012",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Prenatal visit findings",
+    "noteId": "np1-g-maternal-prenatal-supplements",
+    "vignette": "A rural health midwife has asked the nurse to review four pregnant women who came for visits and are taking iron with folic acid. Each woman reports one concern.",
+    "stem": "Which finding can be documented without immediate report to the physician?",
+    "rationale": "Curve ball: the question asks for the finding that is safe, and the one that sounds odd (black stool) is the harmless one; the ordinary-sounding complaints are the dangerous ones. 1. Cue: one expected drug effect, three danger signs. 2. Principle: iron darkens stool. 3. Rule: separate expected from reportable. Flip: tarry, foul stool with weakness would be reported.",
+    "strategy": "Spot the expected finding among alarming ones",
+    "archetype": "curve-ball",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Iron causes dark stools (expected).",
+      "Prenatal follow-ups include screening for danger signs."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "A woman at 32 weeks with new puffiness of the face and a headache that began last night, and document the response in the chart",
+      "A woman at 28 weeks with a sudden gush of clear fluid this morning and mild cramps",
+      "A woman at 34 weeks who has not felt the baby move for the whole day",
+      "A woman at 30 weeks whose stools have turned dark green-black since starting the tablets"
+    ],
+    "answer": [
+      3
+    ],
+    "optionRationales": [
+      "Looks minor but may indicate pregnancy-induced hypertension; it needs a BP check and report.",
+      "Suggests rupture of membranes or preterm labor; report.",
+      "Decreased fetal movement needs prompt assessment.",
+      "Correct: dark stool is an expected effect of iron and needs only reassurance."
+    ],
+    "format": "except"
+  },
+  {
+    "id": "cb-np1-0013",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Natural family planning counselling",
+    "noteId": "np1-g-fp-natural",
+    "vignette": "A woman, 29, wants a natural family planning method with no cost and no supplies. She is married, her husband is supportive, and she has no abnormal vaginal discharge. Her cycles are very irregular, ranging from 23 to 41 days. She likes the idea of using colored beads.",
+    "stem": "Which method should the nurse recommend?",
+    "rationale": "Curve ball: the woman's own preference (beads) is the method that does not fit her cycle. 1. Cue: 23 to 41 day cycles, no abnormal discharge. 2. Principle: each method has its own condition. 3. Rule: client preference does not override suitability. Flip: with abnormal discharge the two-day method would be unreliable.",
+    "strategy": "Match the method to the exclusion criterion",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Two-day method works for any cycle length and involves the male partner.",
+      "Standard days uses color-coded beads and needs regular cycles."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Standard days method using the cycle beads",
+      "Calendar rhythm counting from her last six cycles",
+      "Withdrawal, since it requires no equipment or cycle tracking",
+      "Two-day method, checking for cervical secretions each day"
+    ],
+    "answer": [
+      3
+    ],
+    "optionRationales": [
+      "Plausible and what she prefers, but beads depend on regular cycle length.",
+      "Unreliable with such a wide range in cycle length.",
+      "Not a fertility-awareness method and has a high failure rate.",
+      "Correct: it works for any cycle length, which is the deciding cue in this woman."
+    ]
+  },
+  {
+    "id": "cb-np1-0014",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Cholera and breathing rate",
+    "noteId": "np1-cd-cholera",
+    "vignette": "During an outbreak in an evacuation center, a 6-year-old with rice-water stools and vomiting for two days is being given oral rehydration solution. The nurse notes sunken eyes, wrinkled finger skin, low urine output, and a respiratory rate of 34 with deep, regular breaths. The lungs are clear and he has no cough or fever.",
+    "stem": "How should the nurse interpret the breathing pattern?",
+    "rationale": "Curve ball: fast breathing sends the mind to the lungs, but the lungs are clear. 1. Cue: dehydration, deep regular breathing, no cough. 2. Principle: the body blows off carbon dioxide to offset metabolic acidosis. 3. Rule: treat the cause (fluids). Flip: crackles with fever and cough would shift suspicion toward pneumonia.",
+    "strategy": "Read the pattern, then treat the cause",
+    "archetype": "curve-ball",
+    "difficulty": 5,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Fluid replacement is first priority.",
+      "Deep rapid breathing is a sign of acidosis in cholera."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "It indicates pneumonia, so oxygen and chest assessment should come first",
+      "It reflects anxiety from the crowded center, so reassure the child and watch, and review the plan again at the end of the shift",
+      "It is compensation for acid build-up from fluid loss, so rehydration must continue and be escalated",
+      "It is a reaction to the oral solution, so stop it and withhold fluids"
+    ],
+    "answer": [
+      2
+    ],
+    "optionRationales": [
+      "Plausible detail from a similar condition; the clear chest and no cough argue against it.",
+      "Under-reaction; anxiety does not produce deep regular breathing with these signs.",
+      "Correct: deep rapid breaths without lung disease point to metabolic acidosis from dehydration.",
+      "Unsafe: stopping fluids would worsen the shock and acidosis."
+    ]
+  },
+  {
+    "id": "cb-np1-0015",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Tuberculin result",
+    "noteId": "np1-cd-tb-dx",
+    "vignette": "A barangay health worker, 34, has had a cough for three weeks with afternoon fever and night sweats. A tuberculin skin test done at the RHU yesterday shows a clearly positive induration. She asks whether this proves she has active TB and whether she may keep working with children.",
+    "stem": "What is the nurse's best answer?",
+    "rationale": "Curve ball: a positive tuberculin test feels conclusive, but it only shows exposure. 1. Cue: three weeks of cough plus positive skin test. 2. Principle: confirm with sputum smear, protect contacts while waiting. 3. Rule: symptoms drive precautions. Flip: no symptoms and a negative smear would mean latent exposure.",
+    "strategy": "Screening result is not diagnosis; protect others meanwhile",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Sputum AFB smear is confirmatory.",
+      "Tuberculin tests show exposure, not active disease."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Collect sputum for the AFB smear, and keep her off duty with respiratory precautions until it is read",
+      "Tell her the positive skin test confirms active TB and start treatment now",
+      "Reassure her that skin test positivity is common and she can continue working",
+      "Send her for a chest X-ray and allow her to work until the film is read"
+    ],
+    "answer": [
+      0
+    ],
+    "optionRationales": [
+      "Correct: the skin test shows exposure only; the smear confirms and the symptoms justify protecting others meanwhile.",
+      "Takes a result that signals exposure as the confirmation.",
+      "Dismisses a symptomatic, potentially infectious client around children.",
+      "Skips the confirmatory smear and leaves contacts unprotected."
+    ]
+  },
+  {
+    "id": "cb-np1-0016",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Infant with paroxysmal cough",
+    "noteId": "np1-cd-pertussis",
+    "vignette": "A 3-month-old with suspected pertussis is admitted. Between coughing spells he is quiet, feeding poorly, and his oxygen saturation is within the normal range. His mother says he turned dusky during the last cough. The nurse has four tasks on her list.",
+    "stem": "Which task has the highest priority?",
+    "rationale": "Curve ball: for a communicable disease the infection-control step feels first, but the infant's own airway outranks it. 1. Cue: dusky episode in a quiet baby. 2. Principle: airway obstruction kills in pertussis. 3. Rule: ABC before isolation. Flip: if the infant were stable with no cyanosis, isolation would be done promptly in parallel.",
+    "strategy": "ABC before infection control",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Airway first: suction at bedside, oxygen, watch during paroxysms.",
+      "Droplet isolation and monitoring of intake and output follow."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Place him in a single room and put up a droplet precautions sign",
+      "Set up suction and oxygen at the bedside and stay with him during coughing spells",
+      "Weigh him and compute his intake and output for the shift",
+      "Offer a small feed after the last vomiting episode to prevent weight loss, before reassessing the situation later in the shift"
+    ],
+    "answer": [
+      1
+    ],
+    "optionRationales": [
+      "Important for others but second to the infant's airway.",
+      "Correct: airway protection is the threat during paroxysms in a young infant.",
+      "Important monitoring, but not before ensuring airway readiness.",
+      "Feeding right after a spell risks vomiting and aspiration."
+    ]
+  },
+  {
+    "id": "cb-np1-0017",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Roommate selection",
+    "noteId": "np1-cd-measles",
+    "vignette": "On a pediatric ward, a bed is needed for a child with measles on day 1 of the rash. The nurse reviews the four available beds: a single negative-pressure room, a two-bed room with a child who has varicella, a two-bed room with a child on chemotherapy with a low white count, and an open ward with four children admitted for dehydration.",
+    "stem": "Where should the child be placed?",
+    "rationale": "Curve ball: pairing two airborne cases seems efficient, but two different infections should not share a room. 1. Cue: neutropenic child, varicella case, open ward. 2. Principle: separate the source from susceptible children. 3. Rule: single negative-pressure room. Flip: if no single room existed, cohorting with the same infection only would be considered.",
+    "strategy": "Protect the vulnerable; contain the source",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Airborne plus standard precautions, ideally a negative-pressure room.",
+      "Measles is communicable until 4 days after the rash appears."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "In the two-bed room with the child who has varicella, since both are airborne",
+      "In the room with the child on chemotherapy, because the bed is nearest the nurse station",
+      "In the single negative-pressure room",
+      "In the open ward and place a mask on the child"
+    ],
+    "answer": [
+      2
+    ],
+    "optionRationales": [
+      "Shared room mixes two infections and risks co-infection even if both are airborne.",
+      "Places the most vulnerable child next to a highly contagious case.",
+      "Correct: measles spreads through the air, so a room with air control is the only choice that protects everyone.",
+      "A mask on a child does not control an airborne infection around other children."
+    ]
+  },
+  {
+    "id": "cb-np1-0018",
+    "v": 2,
+    "type": "sata",
+    "area": "NP1",
+    "topic": "Chickenpox precautions",
+    "noteId": "np1-cd-varicella",
+    "vignette": "A 6-year-old is admitted with fever and a new vesicular rash that began yesterday, and the diagnosis is chickenpox. The ward has several pregnant staff and a child on chemotherapy.",
+    "stem": "Which precautions should the nurse put in place? Select all that apply.",
+    "rationale": "Curve ball: chickenpox is routinely thought of as a droplet illness, so a mask seems enough, yet both airborne and contact layers apply. 1. Cue: new vesicles, susceptible staff and patients. 2. Principle: more than one transmission route. 3. Rule: add every layer the organism needs. Flip: after full crusting, precautions stop.",
+    "strategy": "Layered precautions by route",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Chickenpox is spread by respiratory secretions and by contact; vesicle fluid is infective.",
+      "Infectious until all lesions have crusted."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Use airborne precautions with a negative-pressure room",
+      "Wear gown and gloves when touching lesions or soiled linen",
+      "Allow staff who never had chickenpox and are unsure of immunity to give care",
+      "Use a surgical mask only, as for a droplet infection",
+      "Keep the child on precautions until all lesions have crusted",
+      "Move him to the open ward once his fever subsides"
+    ],
+    "answer": [
+      0,
+      1,
+      4
+    ],
+    "optionRationales": [
+      "Correct: the virus is also airborne.",
+      "Correct: vesicle fluid and linen carry the virus (contact).",
+      "Staff without proven immunity should not care for him; their risk is high.",
+      "A surgical mask is not adequate for an airborne spread.",
+      "Correct: infectivity ends when lesions have crusted.",
+      "Fever resolving does not end infectivity."
+    ]
+  },
+  {
+    "id": "cb-np1-0019",
+    "v": 2,
+    "type": "sata",
+    "area": "NP1",
+    "topic": "Prenatal teaching evaluation",
+    "noteId": "np1-g-maternal-prenatal-supplements",
+    "vignette": "A nurse teaches a 6-month pregnant woman about the maternal health package at the health center. The woman is asked to restate the plan in her own words.",
+    "stem": "Which statements by the client show correct understanding? Select all that apply.",
+    "rationale": "Curve ball: the incorrect statements sound sensible (earlier screening, skipping visits when well), so they tempt as true. 1. Cue: each statement matches or misstates the schedule. 2. Principle: schedule facts. 3. Rule: judge each statement alone. Flip: none.",
+    "strategy": "Evaluate understanding against the schedule",
+    "archetype": "curve-ball",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Prenatal visits every 2 weeks after the 8th month.",
+      "Postpartum visits in week 1 (days 3-5) and at 6 weeks.",
+      "Birth spacing 3-5 years."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "\"After my eighth month I come back every two weeks until I deliver.\"",
+      "\"The baby's newborn screening should be done in the first hour after birth.\"",
+      "\"I keep taking iron with folic acid until two months after delivery.\"",
+      "\"If I feel well after delivery I can skip the postpartum visits.\"",
+      "\"My first postpartum visit should be in the first week, ideally days 3 to 5.\"",
+      "\"The next pregnancy is best planned after at least one year.\""
+    ],
+    "answer": [
+      0,
+      2,
+      4
+    ],
+    "optionRationales": [
+      "Correct: antenatal visits become more frequent late in pregnancy, so every two weeks after the eighth month is right.",
+      "Screening is done between 48 hours and 2 weeks of age, not in the first hour.",
+      "Correct: iron with folic acid continues for two months after delivery to rebuild stores lost with blood loss.",
+      "Postpartum visits are scheduled even if she feels well.",
+      "Correct: the first postpartum visit is scheduled in the first week, ideally days 3 to 5.",
+      "The teaching is a 3 to 5 year spacing."
+    ]
+  },
+  {
+    "id": "cb-np1-0020",
+    "v": 2,
+    "type": "cloze",
+    "area": "NP1",
+    "topic": "Reading a skin patch",
+    "noteId": "np1-cd-leprosy",
+    "vignette": "A farmer, 52, shows the nurse a pale patch on his forearm that has been present for months. It is not itchy, and he has not noticed pain, although he burned himself on the patch last week without feeling it.",
+    "stem": "The patch is suspicious for leprosy because it has {{1}}. The nurse expects the diagnosis to be confirmed by a {{2}}, and treatment will be {{3}}.",
+    "rationale": "Curve ball: a pale patch is mistaken for a fungal infection (itch, KOH), but the unfelt burn is the cue for nerve involvement. 1. Cue: no sensation. 2. Principle: M. leprae attacks nerves. 3. Rule: sensation loss separates leprosy from common rashes. Flip: an itchy scaly patch would point to a fungal cause.",
+    "strategy": "Loss of sensation is the cue",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Leprosy patches lose sensation and sweating.",
+      "Slit-skin smear; multidrug therapy."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [],
+    "answer": [],
+    "optionRationales": [
+      "Loss of sensation: the unfelt burn shows nerve involvement, which is the key cue for leprosy. Itching or oozing would suggest a common skin rash, and pain on pressure does not fit.",
+      "Slit-skin smear: it looks for the leprosy bacillus in skin tissue. A KOH scraping finds fungus, a tuberculin test screens for tuberculosis and a blood culture does not apply here.",
+      "Multidrug therapy: leprosy is treated with a combination of drugs to prevent resistance. A single antibiotic, antifungal cream or steroids alone do not treat it. Check your textbook for the regimen."
+    ],
+    "blanks": [
+      {
+        "choices": [
+          "loss of sensation",
+          "itching",
+          "pain on pressure",
+          "oozing"
+        ],
+        "answer": 0
+      },
+      {
+        "choices": [
+          "slit-skin smear",
+          "KOH scraping",
+          "tuberculin test",
+          "blood culture"
+        ],
+        "answer": 0
+      },
+      {
+        "choices": [
+          "multidrug therapy",
+          "a single antibiotic",
+          "topical antifungal cream",
+          "corticosteroids alone"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "cb-np1-0021",
+    "v": 2,
+    "type": "highlight",
+    "area": "NP1",
+    "topic": "Complications of measles",
+    "noteId": "np1-cd-measles",
+    "vignette": "A 3-year-old with measles on day 2 of the rash is seen at the health center. Findings noted by the nurse are listed below.",
+    "stem": "Select the findings that suggest a complication needing urgent referral.",
+    "rationale": "Curve ball: the dramatic expected signs (Koplik spots, rash, photophobia, fever) look the worst but belong to the illness itself; breathing difficulty and ear drainage signal pneumonia and otitis media. 1. Cue: separate disease findings from new problems. 2. Principle: measles complications. 3. Rule: refer for complications. Flip: a stiff neck or seizures would also be added.",
+    "strategy": "Expected findings versus complications",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Complications: pneumonia, otitis media, encephalitis.",
+      "Koplik spots, rash, conjunctivitis are expected."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Koplik spots on the inner cheeks",
+      "Temperature 39 C",
+      "Breathing 52/min with chest indrawing",
+      "Red watery eyes that avoid bright light",
+      "Maculopapular rash on face and trunk",
+      "New pus draining from the left ear"
+    ],
+    "answer": [
+      2,
+      5
+    ],
+    "optionRationales": [
+      "Part of measles itself: Koplik spots on the inner cheeks are an expected sign of the illness, not a complication.",
+      "Part of measles itself: fever of 39 C is expected with measles and does not alone signal a complication.",
+      "Complication: fast breathing with chest indrawing suggests pneumonia and needs urgent referral.",
+      "Part of measles itself: red watery eyes with light sensitivity are expected in measles.",
+      "Part of measles itself: the rash on the face and trunk is the expected eruptive stage.",
+      "Complication: new pus from the ear suggests otitis media, a bacterial complication of measles."
+    ]
+  }
+]

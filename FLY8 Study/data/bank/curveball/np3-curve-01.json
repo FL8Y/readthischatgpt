@@ -1,0 +1,810 @@
+[
+  {
+    "id": "cb-np3-0001",
+    "v": 2,
+    "type": "single",
+    "area": "NP3",
+    "topic": "Potassium result in kidney failure",
+    "noteId": "np3-er-hyperkalemia",
+    "vignette": "A client with chronic kidney disease who missed her last dialysis session reports weakness and tingling in her hands. Serum potassium is 6.4 mEq/L. She is alert, BP 138/84, pulse 58 and slightly irregular. Her meal tray has a banana and orange juice.",
+    "stem": "What should the nurse do first?",
+    "rationale": "Curve ball: she looks stable and the visible cause (the banana tray) invites teaching, but the heart is the threatened organ. 1. Cue: potassium 6.4, slow irregular pulse. 2. Principle: hyperkalemia causes fatal arrhythmias. 3. Rule: monitor and notify before treatment steps. Flip: with a normal ECG and a hemolyzed sample, a repeat draw would be reasonable.",
+    "strategy": "Protect the heart first",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Cardiac monitoring and ECG first; report changes right away.",
+      "Stop potassium sources; binding resin and dialysis for removal."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Place her on a cardiac monitor, obtain an ECG and notify the provider",
+      "Remove the tray and teach her about low-potassium foods",
+      "Give the oral potassium-binding resin and recheck the level in the morning",
+      "Recheck the sample because she is alert and looks stable"
+    ],
+    "answer": [
+      0
+    ],
+    "optionRationales": [
+      "Correct: the danger of high potassium is a lethal rhythm, and the irregular slow pulse suggests it has started.",
+      "Right teaching at the wrong time; it does nothing for the current risk.",
+      "Appropriate treatment but not first, and waiting until morning is unsafe.",
+      "Under-reaction; the symptoms and rhythm fit the result."
+    ]
+  },
+  {
+    "id": "cb-np3-0002",
+    "v": 2,
+    "type": "single",
+    "area": "NP3",
+    "topic": "Low saturation in a COPD client",
+    "noteId": "np3-cr-copd-care",
+    "vignette": "A client with long-standing COPD is admitted with a flare. He is on oxygen at 2 L/min by cannula, is alert, speaks in short sentences and has a respiratory rate of 22. His oxygen saturation reads 89%. A colleague says, \"His sat is low. Turn the oxygen up to 10 liters with a mask.\"",
+    "stem": "What should the nurse do?",
+    "rationale": "Curve ball: a low saturation makes more oxygen the automatic move, but this client's breathing depends on low oxygen. 1. Cue: chronic COPD, alert, RR 22. 2. Principle: hypoxic drive. 3. Rule: titrate gently and use ABGs. Flip: a drowsy client with a falling saturation would need an urgent escalation.",
+    "strategy": "Know the exception to 'low sat means more oxygen'",
+    "archetype": "curve-ball",
+    "difficulty": 5,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Give low-flow oxygen (1 to 2 L/min) in COPD; high oxygen can depress breathing."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Increase to 10 L/min by mask until the saturation is above 96%",
+      "Keep low-flow oxygen, assess breathing and mental status, and obtain ABG results before increasing it",
+      "Remove the oxygen to protect his drive to breathe and recheck in an hour, and review the plan again at the end of the shift",
+      "Ask him to cough and deep breathe, then leave the setting unchanged"
+    ],
+    "answer": [
+      1
+    ],
+    "optionRationales": [
+      "Right instinct for most clients, but unsafe for this one.",
+      "Correct: in a chronic carbon dioxide retainer, high oxygen can remove the drive to breathe.",
+      "Under-reaction; he still needs oxygen.",
+      "Skips assessment of his breathing and gas exchange."
+    ]
+  },
+  {
+    "id": "cb-np3-0003",
+    "v": 2,
+    "type": "single",
+    "area": "NP3",
+    "topic": "Chest wound in the ER",
+    "noteId": "np3-cr-pneumothorax-mgmt",
+    "vignette": "A man is brought in after a stab wound to the right chest. The nurse hears air sucking in and out of the wound with each breath. He is anxious, breathing 30/min, and has a pulse of 118. The triage nurse is preparing to start an IV and call the surgeon.",
+    "stem": "What is the nurse's first action?",
+    "rationale": "Curve ball: the detail that trips people is the fully sealed dressing, which looks safest but traps air. 1. Cue: air sucking through the wound. 2. Principle: three-sided dressing lets air out. 3. Rule: breathing first. Flip: a stab wound with no air movement would shift focus to bleeding control.",
+    "strategy": "Airway and breathing before circulation",
+    "archetype": "curve-ball",
+    "difficulty": 5,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Cover a sucking chest wound at once.",
+      "Open pneumothorax: close the wound, then a chest tube."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Start two large IV lines and send blood for typing",
+      "Call the surgeon and prepare the chest tube tray before touching the wound, while the rest of the team continues routine work",
+      "Cover the wound immediately with an occlusive dressing taped on three sides",
+      "Press a dry gauze firmly over the wound and tape it on all four sides"
+    ],
+    "answer": [
+      2
+    ],
+    "optionRationales": [
+      "Important soon, but air is entering the chest now.",
+      "Preparation matters but must not delay the airtight cover.",
+      "Correct: stopping air entry through the wound comes before any other procedure.",
+      "A fully sealed dressing can convert it to a tension pneumothorax."
+    ]
+  },
+  {
+    "id": "cb-np3-0004",
+    "v": 2,
+    "type": "single",
+    "area": "NP3",
+    "topic": "Chest pain after the first tablet",
+    "noteId": "np3-cr-x-nitroglycerin",
+    "vignette": "A client with known angina takes one sublingual nitroglycerin tablet during a hospital visit because of chest pain. Five minutes later the pain is still 6/10. His BP is 84/50 and pulse is 106. He looks pale and says he feels lightheaded. The usual instruction is to repeat the tablet every 5 minutes up to three doses.",
+    "stem": "What should the nurse do?",
+    "rationale": "Curve ball: persistent pain makes a second tablet seem obvious, but low BP makes it harmful. 1. Cue: BP 84/50, lightheaded. 2. Principle: vasodilation drops pressure. 3. Rule: stable vital signs before the repeat dose. Flip: BP 130/80 would permit a second tablet.",
+    "strategy": "Check the vital sign before every dose",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Check chest pain, BP and heart rate before each dose.",
+      "Nitroglycerin lowers preload and BP."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Give a second tablet as per the standard instruction",
+      "Have him walk around the room to open his coronary arteries",
+      "Give him a sip of water and wait ten minutes before reassessing, before reassessing the situation later in the shift",
+      "Lay him down, withhold another tablet, and notify the provider immediately"
+    ],
+    "answer": [
+      3
+    ],
+    "optionRationales": [
+      "Follows the routine without applying the BP cue.",
+      "Activity increases oxygen demand during pain.",
+      "Under-reaction while he is hypotensive with ongoing pain.",
+      "Correct: the dose lowers BP and a low BP means hold; the persistent pain suggests a worse event."
+    ]
+  },
+  {
+    "id": "cb-np3-0005",
+    "v": 2,
+    "type": "single",
+    "area": "NP3",
+    "topic": "Digoxin and low potassium",
+    "noteId": "np3-cr-hf-drugs",
+    "vignette": "A client with heart failure is due for her morning digoxin. Her apical pulse is 68 and regular, which is above the usual hold level. She also takes furosemide, and this morning's potassium is 3.1 mEq/L. She says she has no appetite and sees yellow-green halos around lights.",
+    "stem": "What is the nurse's best action?",
+    "rationale": "Curve ball: the pulse rule is satisfied, so giving feels safe, but the other cues are the warning. 1. Cue: yellow-green halos, poor appetite, K 3.1. 2. Principle: hypokalemia potentiates digoxin. 3. Rule: use the whole picture. Flip: pulse 48 with normal potassium would also lead to holding.",
+    "strategy": "Look beyond the one number everyone checks",
+    "archetype": "curve-ball",
+    "difficulty": 5,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Check potassium before and during diuretic or digoxin therapy.",
+      "Hold and report toxicity signs."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Hold the dose and report the nausea, vision change and low potassium",
+      "Give the dose because the pulse is above the hold level",
+      "Give the dose with a banana to correct the potassium",
+      "Give half the dose to be safe and recheck her pulse in an hour"
+    ],
+    "answer": [
+      0
+    ],
+    "optionRationales": [
+      "Correct: low potassium raises the risk of digoxin toxicity and these symptoms suggest it.",
+      "Relies on one check and ignores the other cues.",
+      "The potassium problem will not be fixed in time and toxicity may be present.",
+      "Altering a dose without an order is outside the nurse's scope."
+    ]
+  },
+  {
+    "id": "cb-np3-0006",
+    "v": 2,
+    "type": "single",
+    "area": "NP3",
+    "topic": "Calf swelling on a post-op day",
+    "noteId": "np3-cr-dvt",
+    "vignette": "On the second day after hip surgery, a client has a swollen, warm left calf with aching pain. The physical therapist has arrived to walk him to the hallway, as scheduled. The client is willing and says he feels better when he moves. His vital signs are normal.",
+    "stem": "What should the nurse do?",
+    "rationale": "Curve ball: early ambulation is the standard post-op instruction, which makes the walk feel right. 1. Cue: warm swollen calf. 2. Principle: embolization risk. 3. Rule: hold activity until evaluated. Flip: a clot ruled out would allow ambulation.",
+    "strategy": "Suspect the complication before routine care",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Do not massage the leg; elevate and report.",
+      "DVT risk after surgery."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Encourage the planned walk since early ambulation prevents clots, and document the response in the chart",
+      "Keep him on bed rest with the leg elevated and notify the provider before any ambulation",
+      "Massage the calf gently to relieve the ache before walking",
+      "Apply a hot pack and let the therapist continue as planned"
+    ],
+    "answer": [
+      1
+    ],
+    "optionRationales": [
+      "Right in general; here a clot may already be present.",
+      "Correct: activity or massage could dislodge a clot that may travel to the lungs.",
+      "Massage can dislodge a clot.",
+      "Heat is comfortable but activity is still unsafe until evaluated."
+    ]
+  },
+  {
+    "id": "cb-np3-0007",
+    "v": 2,
+    "type": "single",
+    "area": "NP3",
+    "topic": "After the iron injection",
+    "noteId": "np3-ho-x-parenteral-iron-z-track",
+    "vignette": "A nurse has just given a deep IM iron injection using the Z-track technique. The client rubs the site and asks if he should rub it harder, as he was told for other injections. He plans to stay in bed the rest of the afternoon.",
+    "stem": "What should the nurse advise?",
+    "rationale": "Curve ball: massaging after an injection is a routine practice and the client expects it. 1. Cue: Z-track iron. 2. Principle: leakage stains and irritates. 3. Rule: follow drug-specific technique. Flip: for many other IM injections, light massage is acceptable.",
+    "strategy": "An exception to the usual injection habit",
+    "archetype": "curve-ball",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Z-track prevents leakage and staining; do not massage; walk afterwards.",
+      "Watch for anaphylaxis."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Rub the site firmly for a minute to spread the drug",
+      "Apply a warm pack and lie down for an hour",
+      "Do not rub the site, and walk around because muscle movement helps absorption",
+      "Press a firm bandage for a day to keep it from bleeding, and review the plan again at the end of the shift"
+    ],
+    "answer": [
+      2
+    ],
+    "optionRationales": [
+      "The usual habit for other injections; it stains and irritates here.",
+      "Heat does not prevent leakage and rest is not advised.",
+      "Correct: rubbing pushes drug up the tract; walking helps absorption.",
+      "Not needed and does not address leakage."
+    ]
+  },
+  {
+    "id": "cb-np3-0008",
+    "v": 2,
+    "type": "single",
+    "area": "NP3",
+    "topic": "Normal oximeter in smoke inhalation",
+    "noteId": "np3-er-burn-smoke-co",
+    "vignette": "A man is rescued from a house fire after about 10 minutes in smoke. He is alert but has a headache, mild confusion, a hoarse voice and singed nasal hair. The pulse oximeter reads 99% on room air. He asks to go home because he \"feels fine\".",
+    "stem": "What is the most appropriate action?",
+    "rationale": "Curve ball: a perfect oximeter number dismisses the danger, but it measures hemoglobin saturation, not what the hemoglobin carries. 1. Cue: headache, confusion, hoarseness, singed hair. 2. Principle: carboxyhemoglobin reads as oxygenated. 3. Rule: treat the cues. Flip: no exposure history would lower concern.",
+    "strategy": "Do not trust the monitor over the cues",
+    "archetype": "curve-ball",
+    "difficulty": 5,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Carbon monoxide binds hemoglobin; treat with oxygen.",
+      "Smoke inhalation: singed nasal hair, hoarseness, airway swelling."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Reassure him since the saturation is 99% and observe for an hour",
+      "Allow discharge with instructions to return if cough worsens",
+      "Place cool, wet cloths on his face and throat to prevent swelling, while the rest of the team continues routine work",
+      "Give high-flow oxygen and prepare for close airway monitoring or early intubation"
+    ],
+    "answer": [
+      3
+    ],
+    "optionRationales": [
+      "Trusts a reading that carbon monoxide makes falsely reassuring.",
+      "Under-reaction; swelling can progress rapidly.",
+      "Does not treat poisoning or protect the airway.",
+      "Correct: the oximeter cannot distinguish carbon monoxide from oxygen, and airway swelling is a threat."
+    ]
+  },
+  {
+    "id": "cb-np3-0009",
+    "v": 2,
+    "type": "single",
+    "area": "NP3",
+    "topic": "Fluid shift after a burn",
+    "noteId": "np3-er-burn-phases",
+    "vignette": "On day 3 after a large burn, a client's urine output has risen to 120 mL/hour, his hematocrit has fallen from admission, and the sodium is slightly low. He is breathing comfortably, BP 150/90. A new nurse worries about bleeding and suggests increasing the IV rate.",
+    "stem": "How should the nurse interpret these findings?",
+    "rationale": "Curve ball: low hematocrit and big urine output look like bleeding and instability, but they are expected in this phase. 1. Cue: day 3, diuresis, dilution. 2. Principle: fluid mobilization. 3. Rule: interpret labs in context of phase. Flip: day 1 with oliguria and high hematocrit would indicate hypovolemia.",
+    "strategy": "Know the phase before interpreting labs",
+    "archetype": "curve-ball",
+    "difficulty": 5,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Acute (diuretic) phase: diuresis, low hematocrit from dilution, hypertension.",
+      "Emergent phase: hypovolemia."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Fluid is returning to the blood vessels, so the nurse should watch for fluid overload",
+      "He is bleeding internally, so notify the provider and prepare a transfusion",
+      "He is going into shock, so increase the IV rate",
+      "He has kidney failure from the burn, so stop all fluids"
+    ],
+    "answer": [
+      0
+    ],
+    "optionRationales": [
+      "Correct: this is the acute (diuretic) phase when third-spaced fluid returns.",
+      "Misreads dilution as blood loss.",
+      "Opposite of what is needed; it could cause overload.",
+      "Large urine output argues against kidney failure."
+    ]
+  },
+  {
+    "id": "cb-np3-0010",
+    "v": 2,
+    "type": "single",
+    "area": "NP3",
+    "topic": "Wound opens suddenly",
+    "noteId": "np3-ho-wound-infection-dehiscence",
+    "vignette": "On day 6 after abdominal surgery, a client coughs hard and says he felt something \"give way\". The nurse sees pink drainage soaking the dressing and a loop of bowel visible through the separated incision. He is pale and frightened.",
+    "stem": "What should the nurse do first?",
+    "rationale": "Curve ball: reinforcing a dressing is the usual response to drainage, but organs are exposed here. 1. Cue: visible bowel. 2. Principle: exposed viscera need moisture and sterility. 3. Rule: cover, position, call. Flip: simple serous drainage without separation would call for a dressing change.",
+    "strategy": "Protect first, call help",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Evisceration: organs protrude through the wound.",
+      "Strict sterile technique; keep dressings moist."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Reinforce the dressing with dry gauze and have him cough gently to clear secretions, then explain the reason to the family",
+      "Cover the area with sterile saline-moistened dressings, keep him still with knees bent, and call the surgeon",
+      "Gently push the bowel back and tape the edges together",
+      "Send for a wound culture and give antibiotics as ordered"
+    ],
+    "answer": [
+      1
+    ],
+    "optionRationales": [
+      "Dry gauze sticks and coughing raises pressure.",
+      "Correct: protects exposed organs from drying and contamination while help is coming.",
+      "Reduction by the nurse risks injury and infection.",
+      "Premature; exposed organs need protection first."
+    ]
+  },
+  {
+    "id": "cb-np3-0011",
+    "v": 2,
+    "type": "single",
+    "area": "NP3",
+    "topic": "Fever in a neutropenic client",
+    "noteId": "np3-ho-chemo-side-effects-marrow",
+    "vignette": "A client on chemotherapy is on day 10 of the cycle with a white count that was low this morning. At 1400 his temperature is 38.4 C. He says he feels well, is eating, and asks for a paracetamol so that he can go to the day room. He is not coughing and has no pain.",
+    "stem": "What should the nurse do?",
+    "rationale": "Curve ball: the client looks and feels well, so treating the number with a pill feels adequate. 1. Cue: 38.4 C and low WBC. 2. Principle: no inflammatory response, so few signs. 3. Rule: act on the lab context. Flip: a normal white count with a mild cold would be handled differently.",
+    "strategy": "Fever in neutropenia is an emergency",
+    "archetype": "curve-ball",
+    "difficulty": 5,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Fever in a neutropenic client is an emergency; assess and report early."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Give the paracetamol and recheck the temperature in four hours",
+      "Let him go to the day room and check on him after lunch",
+      "Report the fever at once and prepare for cultures and antibiotics before giving any antipyretic",
+      "Check the electric blanket and sheets because the fever is probably from overheating, and document the response in the chart"
+    ],
+    "answer": [
+      2
+    ],
+    "optionRationales": [
+      "Masks the fever and delays the work-up.",
+      "Exposes a neutropenic client to others and delays action.",
+      "Correct: fever may be the only sign of serious infection in neutropenia.",
+      "Dismisses the cue with an unsupported cause."
+    ]
+  },
+  {
+    "id": "cb-np3-0012",
+    "v": 2,
+    "type": "single",
+    "area": "NP3",
+    "topic": "Assigning chemotherapy",
+    "noteId": "np3-ho-chemo-safe-handling",
+    "vignette": "A charge nurse must assign the preparation and administration of a scheduled chemotherapy dose. The available staff are a nurse certified in chemotherapy who is 10 weeks pregnant, a float nurse who has not been trained in hazardous drugs, a newly oriented graduate with chemotherapy training, and a chemotherapy-certified nurse recovering from a cold.",
+    "stem": "Whom should the charge nurse assign?",
+    "rationale": "Curve ball: the most experienced nurse is the obvious choice. 1. Cue: pregnancy. 2. Principle: teratogenic exposure. 3. Rule: remove the risk, then match skills. Flip: if the sick nurse were febrile, the new graduate with supervision might be chosen.",
+    "strategy": "Match the task to the person's risk and scope",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Pregnant women should not handle or receive chemotherapy.",
+      "Gloves, gown, face shield; leak-proof disposal."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "The experienced nurse who is 10 weeks pregnant, using full protective gear, and review the plan again at the end of the shift",
+      "The float nurse, with an experienced nurse supervising closely",
+      "The new graduate alone, since she has just finished orientation",
+      "The chemotherapy-certified nurse with the cold, who will wear a mask for the client"
+    ],
+    "answer": [
+      3
+    ],
+    "optionRationales": [
+      "Handling is avoided in pregnancy even with equipment.",
+      "Training must come before the task, not during.",
+      "Training is present but supervision is needed for a hazardous drug.",
+      "Correct: the main exclusion is pregnancy, not experience; illness is handled with a mask."
+    ]
+  },
+  {
+    "id": "cb-np3-0013",
+    "v": 2,
+    "type": "single",
+    "area": "NP3",
+    "topic": "Confusion on dextrose infusion",
+    "noteId": "np3-er-sodium-imbalance",
+    "vignette": "A man 2 days after surgery has been receiving continuous 5% dextrose in water. His sodium this morning is 122 mEq/L. He was alert yesterday but is now confused and has a headache. His BP is 128/80 and his skin is not dry.",
+    "stem": "What should the nurse do first?",
+    "rationale": "Curve ball: confusion and a low value suggest dehydration, but he is overloaded with water. 1. Cue: sodium-free fluid, new confusion. 2. Principle: dilution. 3. Rule: protect the brain, then correct. Flip: dry mucosa and high sodium would call for fluids.",
+    "strategy": "Check neurological status first",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Hyponatremia is usually water excess; confusion and seizure risk.",
+      "Check neurological status first."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Assess his neurological status, begin seizure precautions and report the sodium and the infusion",
+      "Increase the infusion rate to correct the low sodium faster",
+      "Give a salt tablet from the ward stock and recheck tomorrow",
+      "Encourage him to drink more fluids because confusion means dehydration"
+    ],
+    "answer": [
+      0
+    ],
+    "optionRationales": [
+      "Correct: low sodium from excess water threatens the brain, and the cause must be reviewed.",
+      "Adds more free water.",
+      "Not ordered and delays action.",
+      "Opposite of what is needed."
+    ]
+  },
+  {
+    "id": "cb-np3-0014",
+    "v": 2,
+    "type": "single",
+    "area": "NP3",
+    "topic": "Pain crisis",
+    "noteId": "np3-ho-sickle-cell-anemia",
+    "vignette": "A 10-year-old with sickle cell disease is admitted with severe leg and back pain after a day at the beach. His mother wants to put an ice pack on his legs. He is alert, oxygen saturation 95%, afebrile, and has had little to drink.",
+    "stem": "Which action is most appropriate?",
+    "rationale": "Curve ball: ice is the familiar remedy for pain and swelling, but cold is a trigger here. 1. Cue: sickle crisis with poor intake. 2. Principle: hypoxia, dehydration and cold cause sickling. 3. Rule: remove triggers. Flip: none.",
+    "strategy": "Reverse the cause of sickling",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Sickling occurs when oxygen is low; vaso-occlusive crisis is the most painful.",
+      "Hydration reduces sickling."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Apply the ice packs to the legs as the mother suggests",
+      "Limit fluids so that he does not become overloaded",
+      "Start IV hydration and manage pain as ordered while keeping him warm",
+      "Encourage him to walk and exercise to improve circulation, before reassessing the situation later in the shift"
+    ],
+    "answer": [
+      2
+    ],
+    "optionRationales": [
+      "Cold promotes sickling and vessel constriction.",
+      "Dehydration worsens the crisis.",
+      "Correct: dehydration and cold promote sickling, so fluids, warmth and analgesia help.",
+      "Exertion increases oxygen demand and pain."
+    ]
+  },
+  {
+    "id": "cb-np3-0015",
+    "v": 2,
+    "type": "single",
+    "area": "NP3",
+    "topic": "Reading an ABG",
+    "noteId": "np3-er-x-abg-stepwise",
+    "vignette": "A client with diabetic ketoacidosis has deep, rapid breathing. The ABG shows pH 7.28, PaCO2 24 mmHg and HCO3 12 mEq/L. A student says it is respiratory alkalosis because the carbon dioxide is low.",
+    "stem": "How should the nurse interpret the result?",
+    "rationale": "Curve ball: the low CO2 is the loudest number, but pH tells the primary problem. 1. Cue: pH 7.28, HCO3 12. 2. Principle: the lungs compensate by blowing off CO2. 3. Rule: pH, then matching component. Flip: pH 7.5 with CO2 low would be respiratory alkalosis.",
+    "strategy": "Read pH first, then find the cause",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Read pH, then CO2 and HCO3 to find the cause and compensation."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Respiratory alkalosis from hyperventilation",
+      "Metabolic acidosis with partial respiratory compensation",
+      "Respiratory acidosis with metabolic compensation",
+      "Metabolic alkalosis with respiratory compensation, then explain the reason to the family"
+    ],
+    "answer": [
+      1
+    ],
+    "optionRationales": [
+      "The pH is acidic, not alkaline.",
+      "Correct: pH is acidic, bicarbonate is low (the cause), and carbon dioxide is low because of compensation.",
+      "Carbon dioxide would be high.",
+      "Bicarbonate would be high."
+    ]
+  },
+  {
+    "id": "cb-np3-0016",
+    "v": 2,
+    "type": "single",
+    "area": "NP3",
+    "topic": "Consent that is not understood",
+    "noteId": "np3-ho-informed-consent-surgery",
+    "vignette": "A client scheduled for surgery signs the consent form in the presence of the nurse. As the nurse is about to witness the signature, the client whispers, \"I don't really know what they will cut.\" The surgeon is in the operating room and the porter has arrived.",
+    "stem": "What should the nurse do?",
+    "rationale": "Curve ball: helping by explaining feels kind, but it oversteps the role. 1. Cue: client admits not understanding. 2. Principle: consent needs understanding. 3. Rule: stay in scope and notify. Flip: if the client only wanted reassurance, the nurse could proceed with witnessing.",
+    "strategy": "Right role, right time",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Informed consent is obtained by the surgeon; the nurse witnesses the signature."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Explain the operation in simple terms and then witness the signature",
+      "Witness the signature because the client has already signed willingly, and document the response in the chart",
+      "Send the client to surgery and ask the surgeon to talk after waking",
+      "Hold the signature witnessing and inform the surgeon that the client needs further explanation"
+    ],
+    "answer": [
+      3
+    ],
+    "optionRationales": [
+      "The nurse is not the one to explain the procedure.",
+      "Witnessing validates a form that is not informed.",
+      "Surgery would proceed without informed consent.",
+      "Correct: the surgeon must explain the procedure; consent is not valid without understanding."
+    ]
+  },
+  {
+    "id": "cb-np3-0017",
+    "v": 2,
+    "type": "single",
+    "area": "NP3",
+    "topic": "Early negative cardiac marker",
+    "noteId": "np3-cr-mi-assessment",
+    "vignette": "A 58-year-old has had crushing chest pressure for 40 minutes that spreads to the left jaw. His first troponin, drawn 1 hour after pain started, is not elevated and his ECG shows no ST change. He says he feels a little better and asks to go home.",
+    "stem": "What is the best response?",
+    "rationale": "Curve ball: a negative test and symptom relief look like reassurance. 1. Cue: classic pain, early draw. 2. Principle: time course of markers. 3. Rule: serial testing and monitoring. Flip: a normal result at six hours would lower risk.",
+    "strategy": "A negative early result does not rule out",
+    "archetype": "curve-ball",
+    "difficulty": 5,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Cardiac markers rise hours after MI; serial testing is used.",
+      "Management: ABCs, oxygen, monitoring."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Keep him in the unit, repeat cardiac markers and ECG, and keep him on the monitor",
+      "Discharge him with an appointment, since the markers are negative",
+      "Give him an antacid and observe for 30 minutes before deciding",
+      "Send him for a treadmill stress test while pain-free"
+    ],
+    "answer": [
+      0
+    ],
+    "optionRationales": [
+      "Correct: markers rise hours after the onset, so an early result does not rule out infarction.",
+      "Misreads an early draw as a rule-out.",
+      "Assumes a gastric cause without evidence.",
+      "A stress test during possible active infarction is unsafe."
+    ]
+  },
+  {
+    "id": "cb-np3-0018",
+    "v": 2,
+    "type": "sata",
+    "area": "NP3",
+    "topic": "Low platelet precautions",
+    "noteId": "np3-ho-chemo-side-effects-marrow",
+    "vignette": "A client receiving chemotherapy has a platelet count that has dropped to a very low level. The nurse prepares the care plan.",
+    "stem": "Which actions are appropriate? Select all that apply.",
+    "rationale": "Curve ball: familiar routines (rectal temperature, aspirin for headache) feel harmless but are hazardous at a very low platelet count. 1. Cue: very low platelets. 2. Principle: bleeding risk. 3. Rule: avoid trauma and antiplatelets. Flip: normal platelets allow routine care.",
+    "strategy": "Prevent bleeding",
+    "archetype": "curve-ball",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Thrombocytopenia: electric razor, soft toothbrush, no suppositories or enemas, avoid antiplatelets."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Use an electric razor for shaving",
+      "Give a stool softener rather than an enema",
+      "Offer a soft toothbrush",
+      "Take the temperature rectally",
+      "Give a prescribed aspirin for the headache",
+      "Check stool, urine and emesis for blood"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      5
+    ],
+    "optionRationales": [
+      "Correct: avoids cuts.",
+      "Correct: avoids rectal trauma.",
+      "Correct: gentle on gums.",
+      "Rectal trauma can cause bleeding.",
+      "Aspirin and antiplatelet drugs increase bleeding risk.",
+      "Correct: finds hidden bleeding."
+    ]
+  },
+  {
+    "id": "cb-np3-0019",
+    "v": 2,
+    "type": "sata",
+    "area": "NP3",
+    "topic": "First aid for a burn at the scene",
+    "noteId": "np3-er-burn-phases",
+    "vignette": "A man's sleeve caught fire while cooking. His wife has put out the flames. You are the nurse who lives next door and arrives as he stands in the yard with a red, blistering forearm and a ring on his finger.",
+    "stem": "Which actions are appropriate? Select all that apply.",
+    "rationale": "Curve ball: butter, ice and draining blisters are common home remedies that cause harm. 1. Cue: fresh burn at the scene. 2. Principle: cool, protect, do not add insult. 3. Rule: simple clean care. Flip: for a chemical burn, irrigate with copious water.",
+    "strategy": "Stop the burning, protect, arrange transport",
+    "archetype": "curve-ball",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Cool with water (never ice directly); remove jewelry; cover with a clean dry sheet, no ointments."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Cool the burn with clean running water",
+      "Remove the ring and other tight items before swelling starts",
+      "Cover the area with a clean dry sheet",
+      "Apply butter or oil to relieve the pain",
+      "Pack the burn with ice until numb",
+      "Break the blisters to let fluid out"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "optionRationales": [
+      "Correct: cool running water stops the burning process and eases pain.",
+      "Correct: swelling can make removal impossible.",
+      "Correct: clean and dry.",
+      "Traps heat and increases infection risk.",
+      "Ice directly can deepen the injury.",
+      "Breaking blisters invites infection."
+    ]
+  },
+  {
+    "id": "cb-np3-0020",
+    "v": 2,
+    "type": "cloze",
+    "area": "NP3",
+    "topic": "Chemotherapy exposure",
+    "noteId": "np3-ho-chemo-safe-handling",
+    "vignette": "A unit manager reviews the safety rules for staff who prepare chemotherapy.",
+    "stem": "A pregnant nurse should {{1}} chemotherapy because the drugs are {{2}}; linens soiled with excreta are placed in {{3}}.",
+    "rationale": "Curve ball: protective gear sounds sufficient, yet the rule is not to handle at all in pregnancy. 1. Cue: pregnant staff. 2. Principle: teratogenic drug. 3. Rule: avoid exposure. Flip: none.",
+    "strategy": "Safety rule is exposure-based",
+    "archetype": "curve-ball",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Pregnant women should not handle chemotherapy; teratogenic.",
+      "Linens with excreta in a separate container, hot water."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [],
+    "answer": [],
+    "optionRationales": [
+      "Not handle: because the drugs can harm a fetus, a pregnant nurse should avoid handling them rather than rely on extra gloves or a mask.",
+      "Teratogenic: these drugs can cause fetal harm, which is why pregnant staff are kept away. They are not merely sedating or harmless once diluted.",
+      "A separate container and washed in hot water: soiled linen contains drug residue, so it is kept apart from general laundry. Follow your facility policy."
+    ],
+    "blanks": [
+      {
+        "choices": [
+          "not handle",
+          "handle with double gloves",
+          "handle only with a mask"
+        ],
+        "answer": 0
+      },
+      {
+        "choices": [
+          "teratogenic",
+          "only sedating",
+          "harmless after dilution"
+        ],
+        "answer": 0
+      },
+      {
+        "choices": [
+          "a separate container and washed in hot water",
+          "the general laundry bin",
+          "a biohazard bag to be burned"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "cb-np3-0021",
+    "v": 2,
+    "type": "highlight",
+    "area": "NP3",
+    "topic": "Tamponade versus heart failure",
+    "noteId": "np3-cr-tamponade",
+    "vignette": "A client two days after a heart attack suddenly becomes anxious and short of breath. The nurse records the findings below.",
+    "stem": "Select the findings that point to cardiac tamponade rather than heart failure.",
+    "rationale": "Curve ball: distended neck veins and breathlessness after an MI strongly suggest heart failure, but clear signs of tamponade include hypotension, muffled sounds and pulsus paradoxus, while crackles and edema belong to failure. 1. Cue: triad. 2. Principle: fluid squeezes the heart. 3. Rule: distinguish look-alikes. Flip: crackles with a third heart sound would favour failure.",
+    "strategy": "Know Beck's triad and pulsus paradoxus",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Beck's triad: JVD, hypotension, muffled heart sounds. Pulsus paradoxus: BP falls over 10 mmHg on inspiration."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Neck veins distended",
+      "Blood pressure 82/54",
+      "Heart sounds muffled and distant",
+      "Fine crackles at both lung bases",
+      "Pitting edema of both ankles",
+      "BP drops about 15 mmHg on inspiration"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      5
+    ],
+    "optionRationales": [
+      "Points to tamponade: distended neck veins occur because blood cannot enter the compressed heart, but they also occur in failure, so they do not separate the two alone.",
+      "Points to tamponade: low blood pressure follows because the squeezed heart cannot fill and pump enough blood.",
+      "Points to tamponade: muffled, distant heart sounds occur when fluid surrounds the heart.",
+      "Points to heart failure: fine crackles show fluid in the lungs, which tamponade usually does not cause.",
+      "Points to heart failure: pitting edema of both ankles reflects fluid overload in failure, not tamponade.",
+      "Points to tamponade: a drop of about 15 mmHg on inspiration is pulsus paradoxus, a classic sign of tamponade."
+    ]
+  }
+]
