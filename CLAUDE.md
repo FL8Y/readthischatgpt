@@ -312,3 +312,7 @@ npx ruflo@latest doctor --fix
   - Fences balanced; headings unchanged; no tables outside At a glance.
 
 **ROLE CHANGE (owner, 2026-10-27):** Claude (with Sonnet builders) does the HEAVY builds from now on. Codex only supplements with smaller, token-light tasks that can run on its lighter "Sol" model; the high "Astra" setting burned all Codex usage in under 2 minutes. Size Codex prompts small and mechanical.
+- **Codex (latest, replaces CODEX_PARITY / CODEX_NEXT_2):** CODEX_LIGHT_1. Step 0 stops all old Codex work and leaves PR #88 untouched; Claude finishes the references.
+  - JOB 1: data/topics/topics46.json (the exact 46-topic list) + tests.
+  - JOB 2: read-only report scripts that write docs/reports/references.md and sections.md, + tests.
+  - Everything else (the 46-topic note mapping, engines, sheet parser, reference fixes) is now CLAUDE's.
