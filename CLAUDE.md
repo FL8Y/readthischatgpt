@@ -339,3 +339,13 @@ npx ruflo@latest doctor --fix
   - the cram-sheet block conversion (GEMINI_SHEETS_PROMPT spec + ATTACH_SHEETS);
   - the 46 thin-topic notes (GEMINI_THIN_PROMPT spec + ATTACH_THIN).
   - Codex prompt is now CODEX_LIGHT_3 (read-only reports: references, sections, topics, photos).
+- **2026-10-28 (later):**
+  - Merged Codex #97 (report scripts: npm run report:refs/sections/topics; docs/reports/*.md) and #98 (report:photos).
+    - Findings: 102 old-format notes miss Exam traps / Memory aids / References; 52 miss How the exam asks; 9 picture licences are not allowed; 6 topics have < 8 notes.
+  - Closed PR #88 (generic references).
+  - Codex now runs on Sol 6.1 MEDIUM, prompt CODEX_MEDIUM_1:
+    - photo licence fixes;
+    - What's New screen (unwired: src/ui/whatsnew/WhatsNew.tsx + data/changelog/changelog.json);
+    - complete the 102 old notes.
+  - GPT workers: GPT_WORKERS_6 (microcopy, covers, motivation, phone-test, picture-hunt), folders planning/gpt/<name>.
+  - Round 2 integration branch r2-int (/home/user/wt/int2): B + C merged and wired (1,490 tests, e2e 19/19). Waiting on builder A (plan v2), then ONE PR.
