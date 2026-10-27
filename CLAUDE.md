@@ -335,3 +335,7 @@ npx ruflo@latest doctor --fix
   - D: Learn = Cram Sheets + paged sheet reader;
   - E: flashcards;
   - fix PR #88 references myself.
+- **2026-10-28 update: Gemini is OUT for now** (usage 0% at every reset). Its content jobs move to CLAUDE (Sonnet builders):
+  - the cram-sheet block conversion (GEMINI_SHEETS_PROMPT spec + ATTACH_SHEETS);
+  - the 46 thin-topic notes (GEMINI_THIN_PROMPT spec + ATTACH_THIN).
+  - Codex prompt is now CODEX_LIGHT_3 (read-only reports: references, sections, topics, photos).
