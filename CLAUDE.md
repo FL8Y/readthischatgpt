@@ -316,3 +316,22 @@ npx ruflo@latest doctor --fix
   - JOB 1: data/topics/topics46.json (the exact 46-topic list) + tests.
   - JOB 2: read-only report scripts that write docs/reports/references.md and sections.md, + tests.
   - Everything else (the 46-topic note mapping, engines, sheet parser, reference fixes) is now CLAUDE's.
+
+**SESSION STATE (2026-10-28):**
+- **PR #94 merged:**
+  - Codex #91 (sheet block parser), #92 (46-topic map in data/topics/topics.json, all 1,050 notes) and #93 (thin engines);
+  - Rea Pal photos and names of real people removed;
+  - planning/ui-rebuild/MASTER_PLAN.md (THE plan; sections A-F).
+- **Builders running** (Sonnet, worktrees /home/user/wt/pA, pB, pC; branches r2-pA, r2-pB, r2-pC, all off round2):
+  - **A:** Study Plan v2 on the 46 topics with topic BLOCKS (owner: no more "random topics per day"), setup card, plan polish.
+  - **B:** question player tools.
+  - **C:** Mock Boards, Performance, Vault, Home weak spots, Achievements, Timer.
+  - Merge all three into one PR, add the App.tsx wiring, check screenshots.
+- **Sent:**
+  - Codex: CODEX_LIGHT_2 (read-only reports: references, sections, topics).
+  - Gemini job 1: GEMINI_SHEETS_PROMPT + ATTACH_SHEETS (30 neuro notes into cram blocks).
+  - Gemini job 2: GEMINI_THIN_PROMPT + ATTACH_THIN (46 new notes for 9 thin topics).
+- **Next for Claude:**
+  - D: Learn = Cram Sheets + paged sheet reader;
+  - E: flashcards;
+  - fix PR #88 references myself.
