@@ -349,3 +349,9 @@ npx ruflo@latest doctor --fix
     - complete the 102 old notes.
   - GPT workers: GPT_WORKERS_6 (microcopy, covers, motivation, phone-test, picture-hunt), folders planning/gpt/<name>.
   - Round 2 integration branch r2-int (/home/user/wt/int2): B + C merged and wired (1,490 tests, e2e 19/19). Waiting on builder A (plan v2), then ONE PR.
+- **STUDY HINTS (owner, 2026-10-28):** the owner loves the sticky note and wants a ready-made hint on EVERY multiple-choice question, like "ABC: breathing before diet teaching. Re-read Maslow."
+  - **Data (Codex, CODEX_MEDIUM_2):** data/bank/hints/** as {itemId, hint, read:{noteId, section}} + npm run check:hints (no answer leak, section exists).
+  - **UI (Claude, after hints merge):**
+    - a yellow "Study hint" card on each question, collapsed as "Show hint" before answering and open after answering;
+    - a "Re-read: <note> → <section>" link that opens that note at that section;
+    - the learner's own sticky note stays separate.
