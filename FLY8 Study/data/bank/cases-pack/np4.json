@@ -1,0 +1,2121 @@
+[
+ {
+  "id": "cp-np4-01-a",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP4",
+  "topic": "Diabetes mellitus",
+  "topicId": "medical-surgical-nursing/endocrine/diabetes-mellitus",
+  "noteId": "np4-ge-dm-diagnosis-types",
+  "clusterId": "cp-np4-01",
+  "clusterSeq": 1,
+  "vignette": "Mang Berting, 64, has type 2 diabetes mellitus and takes insulin. He was admitted to a district hospital ward for a foot infection. After his morning insulin he ate only a few spoonfuls of lugaw because of poor appetite. Mid-morning, the nurse finds him sweating, trembling and unusually irritable, although he is awake and answers questions.",
+  "stem": "Select the parts of the nurse's note that suggest hypoglycemia.",
+  "options": [
+   "Received morning insulin as prescribed.",
+   "Ate only a few spoonfuls of breakfast.",
+   "Found diaphoretic and trembling.",
+   "New irritability and hunger.",
+   "Dressing on left foot is dry and intact."
+  ],
+  "answer": [
+   1,
+   2,
+   3
+  ],
+  "rationale": "A reduced food intake after insulin, together with sweating, tremors and new irritability, forms the cue cluster of hypoglycemia (adrenergic and early brain-related signs). Receiving insulin as prescribed is relevant background but is expected care, not an abnormal finding. The dry foot dressing is unrelated to the current change.",
+  "rationaleSimple": "Little food after insulin plus sweating, shaking and irritability points to low blood sugar.",
+  "optionRationales": [
+   "Background, not a sign: getting insulin as prescribed is expected care; it matters only because insulin lowers glucose.",
+   "Suggests hypoglycemia: little food intake after insulin leaves too little glucose to match the dose.",
+   "Suggests hypoglycemia: sweating and trembling are adrenergic responses to falling glucose.",
+   "Suggests hypoglycemia: new irritability and hunger are early signs of low glucose affecting the brain.",
+   "Unrelated: a dry intact foot dressing says nothing about the current glucose level."
+  ],
+  "strategy": "Recognizes cues of hypoglycemia",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-01-b",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Diabetes mellitus",
+  "topicId": "medical-surgical-nursing/endocrine/diabetes-mellitus",
+  "noteId": "np4-ge-dm-diagnosis-types",
+  "clusterId": "cp-np4-01",
+  "clusterSeq": 2,
+  "vignette": "Mang Berting, 64, has type 2 diabetes mellitus and takes insulin. He was admitted to a district hospital ward for a foot infection. After his morning insulin he ate only a few spoonfuls of lugaw because of poor appetite. Mid-morning, the nurse finds him sweating, trembling and unusually irritable, although he is awake and answers questions.",
+  "stem": "The nurse confirms a low capillary blood glucose. Mang Berting is awake and can swallow safely. What should the nurse do first?",
+  "options": [
+   "Give his next scheduled insulin dose now so the glucose settles quickly.",
+   "Give a fast-acting carbohydrate by mouth, following facility protocol.",
+   "Offer a protein- and fat-rich meal and recheck the glucose later in the day.",
+   "Hold food and fluids until the provider arrives to examine him."
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "A symptomatic client who is awake and able to swallow needs a fast-acting carbohydrate straight away, because brain function depends on glucose. Insulin worsens the problem, and slowly absorbed foods or waiting delay correction. The provider is informed according to facility policy once he is treated.",
+  "rationaleSimple": "Give quick sugar by mouth right away because he can swallow.",
+  "optionRationales": [
+   "Insulin would lower the glucose further.",
+   "Best answer. A symptomatic client who is awake and able to swallow needs a fast-acting carbohydrate straight away, because brain function depends on glucose.",
+   "Slowly absorbed foods do not correct hypoglycemia quickly enough.",
+   "Treatment of symptomatic hypoglycemia must not be delayed."
+  ],
+  "strategy": "Treats hypoglycemia promptly",
+  "difficulty": 2,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-01-c",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP4",
+  "topic": "Diabetes mellitus",
+  "topicId": "medical-surgical-nursing/endocrine/diabetes-mellitus",
+  "noteId": "np4-ge-dm-diagnosis-types",
+  "clusterId": "cp-np4-01",
+  "clusterSeq": 3,
+  "vignette": "Mang Berting, 64, has type 2 diabetes mellitus and takes insulin. He was admitted to a district hospital ward for a foot infection. After his morning insulin he ate only a few spoonfuls of lugaw because of poor appetite. Mid-morning, the nurse finds him sweating, trembling and unusually irritable, although he is awake and answers questions.",
+  "stem": "Complete the statements about follow-up after treating hypoglycemia.\n\nAfter giving a fast-acting carbohydrate, the nurse should {{1}} the blood glucose after a short interval. Once the glucose has improved, the nurse should offer {{2}} if the next meal is not due soon.",
+  "options": [],
+  "answer": [],
+  "rationale": "The effect of treatment must be verified by rechecking the glucose, and the check is repeated until the level is safe. A snack containing complex carbohydrate and protein then helps prevent the glucose from falling again. A sugar-free drink or no food leaves the client at risk of a repeat episode.",
+  "rationaleSimple": "Check the sugar again, then give a snack so it does not drop again.",
+  "optionRationales": [
+   "Recheck: the effect of treatment must be verified, and the check is repeated until the level is safe. Skipping the check or doubling treatment is unsafe.",
+   "A snack with complex carbohydrate and protein: it helps keep the glucose from dropping again. A sugar-free drink or no food leaves him at risk of a repeat episode."
+  ],
+  "strategy": "Evaluates response to treatment",
+  "difficulty": 3,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "blanks": [
+   {
+    "choices": [
+     "recheck",
+     "skip checking",
+     "double"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "a snack with complex carbohydrate and protein",
+     "only a sugar-free drink",
+     "no food until the next meal"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "cp-np4-01-d",
+  "v": 2,
+  "type": "sata",
+  "area": "NP4",
+  "topic": "Diabetes mellitus",
+  "topicId": "medical-surgical-nursing/endocrine/diabetes-mellitus",
+  "noteId": "np4-ge-dm-diagnosis-types",
+  "clusterId": "cp-np4-01",
+  "clusterSeq": 4,
+  "vignette": "Mang Berting, 64, has type 2 diabetes mellitus and takes insulin. He was admitted to a district hospital ward for a foot infection. After his morning insulin he ate only a few spoonfuls of lugaw because of poor appetite. Mid-morning, the nurse finds him sweating, trembling and unusually irritable, although he is awake and answers questions.",
+  "stem": "The nurse plans teaching on preventing hypoglycemia once Mang Berting goes home. Which points should be included? Select all that apply.",
+  "options": [
+   "Skip insulin whenever he feels shaky, without telling anyone.",
+   "Tell the provider if poor appetite or illness changes how much he can eat.",
+   "Learn the early warning signs such as shakiness, sweating and hunger.",
+   "Carry a fast-acting source of sugar at all times.",
+   "Eat meals at regular times and do not skip meals after taking insulin.",
+   "Drink alcohol on an empty stomach to relax."
+  ],
+  "answer": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "rationale": "Hypoglycemia is prevented by matching insulin to food intake, anticipating changes in appetite, recognizing early symptoms and having rapid carbohydrate available. Omitting insulin on his own can cause hyperglycemia and should be discussed with the provider. Alcohol on an empty stomach increases the risk of low glucose.",
+  "rationaleSimple": "Regular meals, quick sugar on hand and knowing the warning signs help prevent lows.",
+  "optionRationales": [
+   "Wrong: skipping insulin without telling anyone can cause high glucose; changes in dose must be decided with the provider.",
+   "Include: poor appetite or illness changes how much he eats, so the insulin dose may need adjusting by the provider.",
+   "Include: knowing early signs such as shakiness, sweating and hunger lets him act before glucose drops further.",
+   "Include: a fast-acting sugar source lets him treat a low quickly.",
+   "Include: regular meals match food intake to insulin, and skipping meals after insulin risks a low.",
+   "Wrong: alcohol on an empty stomach increases the risk of low glucose."
+  ],
+  "strategy": "Teaches self-management to prevent hypoglycemia",
+  "difficulty": 3,
+  "bloom": "apply",
+  "imageSuggestion": {
+   "description": "Body diagram showing the abdomen, thigh, upper arm and buttock areas used for subcutaneous insulin injection and how to rotate within a site.",
+   "placement": "rationale",
+   "searchTerms": [
+    "insulin injection sites",
+    "subcutaneous injection sites diagram",
+    "insulin rotation sites"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-01-e",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP4",
+  "topic": "Diabetes mellitus",
+  "topicId": "medical-surgical-nursing/endocrine/diabetes-mellitus",
+  "noteId": "np4-ge-dm-diagnosis-types",
+  "clusterId": "cp-np4-01",
+  "clusterSeq": 5,
+  "vignette": "Mang Berting, 64, has type 2 diabetes mellitus and takes insulin. He was admitted to a district hospital ward for a foot infection. After his morning insulin he ate only a few spoonfuls of lugaw because of poor appetite. Mid-morning, the nurse finds him sweating, trembling and unusually irritable, although he is awake and answers questions.",
+  "stem": "Mang Berting has a foot infection. For each foot-care teaching point, select whether it is appropriate or needs correction.",
+  "options": [],
+  "answer": [],
+  "rationale": "Diabetes can reduce sensation and circulation in the feet, so daily inspection, gentle hygiene and protective, well-fitting footwear help prevent unnoticed injury. Going barefoot and using hot water risk cuts and burns that the client may not feel.",
+  "rationaleSimple": "Protect numb feet: check daily, keep them clean and dry, and never go barefoot or use hot water.",
+  "optionRationales": [
+   "Appropriate: daily inspection finds injuries he may not feel because diabetes reduces sensation.",
+   "Needs correction: going barefoot risks cuts and injuries he may not notice.",
+   "Appropriate: lukewarm water and drying between the toes keeps skin clean and lowers the risk of fungal infection.",
+   "Needs correction: hot water can burn feet with reduced sensation and does not safely improve circulation.",
+   "Appropriate: well-fitting closed shoes protect the feet, and checking inside finds objects that could injure them."
+  ],
+  "strategy": "Teaches foot care to a client with diabetes",
+  "difficulty": 2,
+  "bloom": "apply",
+  "imageSuggestion": {
+   "description": "Photograph of a diabetic foot with a heel or plantar ulcer and surrounding redness, shown without a caption.",
+   "placement": "stem",
+   "searchTerms": [
+    "diabetic foot ulcer",
+    "diabetic foot infection",
+    "plantar ulcer foot"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "Inspect both feet, including the soles, every day.",
+   "Walk barefoot around the house to strengthen the feet.",
+   "Wash with lukewarm water and dry well between the toes.",
+   "Soak the feet in hot water to improve circulation.",
+   "Wear well-fitting closed shoes and check inside them first."
+  ],
+  "columns": [
+   "Appropriate",
+   "Needs correction"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   0,
+   1,
+   0
+  ]
+ },
+ {
+  "id": "cp-np4-02-a",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP4",
+  "topic": "Diabetes mellitus",
+  "topicId": "medical-surgical-nursing/endocrine/diabetes-mellitus",
+  "noteId": "np4-ge-dm-diagnosis-types",
+  "clusterId": "cp-np4-02",
+  "clusterSeq": 1,
+  "vignette": "Jessa, 19, has type 1 diabetes mellitus and was brought to a tertiary hospital emergency department by her mother. She has had vomiting and abdominal pain for a day and had stopped taking her insulin because she could not eat. The nurse notes drowsiness, dry mucous membranes, a fruity breath odor and deep, rapid breathing.",
+  "stem": "For each finding, select the condition it most strongly suggests.",
+  "options": [],
+  "answer": [],
+  "rationale": "Insulin deficiency leads to fat breakdown and ketone formation. The acidosis is compensated by deep, rapid breathing, and high glucose causes osmotic fluid loss and dehydration. Cold, clammy skin with shakiness is the adrenergic picture of hypoglycemia.",
+  "rationaleSimple": "Fruity breath, deep fast breathing and dehydration fit ketoacidosis; cold clammy shakiness fits a low sugar.",
+  "optionRationales": [
+   "DKA: fruity breath comes from ketones produced when fat is broken down.",
+   "DKA: deep rapid breathing is the body's way of blowing off acid.",
+   "Hypoglycemia: cold, clammy skin with sudden shakiness is the adrenergic response to low glucose.",
+   "DKA: high glucose pulls fluid out through the urine, causing dehydration, dry membranes and poor skin turgor."
+  ],
+  "strategy": "Distinguishes DKA from hypoglycemia",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "Fruity breath odor",
+   "Deep, rapid (Kussmaul) respirations",
+   "Cold, clammy skin with sudden shakiness",
+   "Dry mucous membranes with poor skin turgor from fluid loss"
+  ],
+  "columns": [
+   "Diabetic ketoacidosis",
+   "Hypoglycemia"
+  ],
+  "rowAnswer": [
+   0,
+   0,
+   1,
+   0
+  ]
+ },
+ {
+  "id": "cp-np4-02-b",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Diabetes mellitus",
+  "topicId": "medical-surgical-nursing/endocrine/diabetes-mellitus",
+  "noteId": "np4-ge-dm-diagnosis-types",
+  "clusterId": "cp-np4-02",
+  "clusterSeq": 2,
+  "vignette": "Jessa, 19, has type 1 diabetes mellitus and was brought to a tertiary hospital emergency department by her mother. She has had vomiting and abdominal pain for a day and had stopped taking her insulin because she could not eat. The nurse notes drowsiness, dry mucous membranes, a fruity breath odor and deep, rapid breathing.",
+  "stem": "Jessa arrives drowsy with fruity breath and deep, rapid breathing. Which nursing action is the priority on arrival?",
+  "options": [
+   "Give orange juice to raise her blood glucose and help with her drowsiness at once.",
+   "Let her rest quietly in a side room and reassess after a few hours.",
+   "Check her blood glucose and ketones and report the findings right away.",
+   "Hold intravenous fluids until her vomiting has stopped."
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "The cues suggest diabetic ketoacidosis, a life-threatening emergency requiring rapid confirmation and treatment. Confirming glucose and ketones and notifying the provider allows fluid and insulin therapy to start without delay. Giving sugar, waiting or withholding fluids all worsen her condition.",
+  "rationaleSimple": "This looks like an emergency, so check and report right away.",
+  "optionRationales": [
+   "Extra sugar worsens hyperglycemia, and oral intake is unsafe when she is drowsy and vomiting.",
+   "Delay can allow acidosis and dehydration to progress.",
+   "Best answer. The cues suggest diabetic ketoacidosis, a life-threatening emergency requiring rapid confirmation and treatment.",
+   "She is already dehydrated and needs fluid replacement."
+  ],
+  "strategy": "Prioritizes care in a metabolic emergency",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-02-c",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Diabetes mellitus",
+  "topicId": "medical-surgical-nursing/endocrine/diabetes-mellitus",
+  "noteId": "np4-ge-dm-diagnosis-types",
+  "clusterId": "cp-np4-02",
+  "clusterSeq": 3,
+  "vignette": "Jessa, 19, has type 1 diabetes mellitus and was brought to a tertiary hospital emergency department by her mother. She has had vomiting and abdominal pain for a day and had stopped taking her insulin because she could not eat. The nurse notes drowsiness, dry mucous membranes, a fruity breath odor and deep, rapid breathing.",
+  "stem": "Which treatment approach should the nurse anticipate for Jessa?",
+  "options": [
+   "Intravenous fluid replacement and insulin, with close electrolyte monitoring.",
+   "Fluid restriction to prevent overload, with oral snacks to settle her stomach.",
+   "Insulin alone while fluids are withheld, because fluids would dilute the insulin.",
+   "Oral glucose gel followed by a high-calorie meal to prevent a drop in glucose."
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "Management of ketoacidosis restores circulating volume with intravenous fluids, gives insulin to stop ketone production, and monitors electrolytes (especially potassium) because insulin and fluid shifts alter them. Fluid restriction, glucose or insulin without fluids does not address her main problems.",
+  "rationaleSimple": "She needs IV fluids and insulin, and her blood chemistry is watched closely.",
+  "optionRationales": [
+   "Best answer. Management of ketoacidosis restores circulating volume with intravenous fluids, gives insulin to stop ketone production, and monitors electrolytes (especially potassium) because insulin and fluid shifts alter them.",
+   "She is dehydrated and needs fluid, not restriction.",
+   "Fluids correct dehydration and help lower the glucose.",
+   "This would add to the hyperglycemia."
+  ],
+  "strategy": "Anticipates treatment for DKA",
+  "difficulty": 3,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-02-d",
+  "v": 2,
+  "type": "sata",
+  "area": "NP4",
+  "topic": "Diabetes mellitus",
+  "topicId": "medical-surgical-nursing/endocrine/diabetes-mellitus",
+  "noteId": "np4-ge-dm-diagnosis-types",
+  "clusterId": "cp-np4-02",
+  "clusterSeq": 4,
+  "vignette": "Jessa, 19, has type 1 diabetes mellitus and was brought to a tertiary hospital emergency department by her mother. She has had vomiting and abdominal pain for a day and had stopped taking her insulin because she could not eat. The nurse notes drowsiness, dry mucous membranes, a fruity breath odor and deep, rapid breathing.",
+  "stem": "After recovery, the nurse teaches Jessa about sick-day management. Which instructions are appropriate? Select all that apply.",
+  "options": [
+   "Do not stop insulin on your own when you are ill; ask your provider how to adjust it.",
+   "Contact the provider or go to the hospital if vomiting continues.",
+   "Keep drinking fluids to avoid dehydration.",
+   "Stop all insulin whenever you are unable to eat.",
+   "Check blood glucose more often while you are sick.",
+   "Wait until your next scheduled clinic visit before seeking help."
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "rationale": "Illness raises glucose and the risk of ketoacidosis, so insulin is usually still needed even when intake is poor and doses are adjusted with the provider. More frequent monitoring, fluids and early help-seeking prevent progression. Stopping insulin or waiting for a routine visit is unsafe.",
+  "rationaleSimple": "When sick, keep taking insulin as advised, check often, drink fluids and get help early.",
+  "optionRationales": [
+   "Appropriate: illness raises glucose, so insulin is usually still needed; adjust it with the provider rather than stopping alone.",
+   "Appropriate: continued vomiting can lead to dehydration and ketoacidosis, so she needs prompt help.",
+   "Appropriate: fluids prevent dehydration, which is a risk when glucose is high.",
+   "Wrong: stopping all insulin when unable to eat can lead to ketoacidosis; ask the provider how to adjust the dose.",
+   "Appropriate: more frequent checks show how illness is affecting glucose so treatment can be adjusted.",
+   "Wrong: waiting for a routine visit delays care when an illness is already making glucose unstable."
+  ],
+  "strategy": "Teaches sick-day management",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-02-e",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP4",
+  "topic": "Diabetes mellitus",
+  "topicId": "medical-surgical-nursing/endocrine/diabetes-mellitus",
+  "noteId": "np4-ge-dm-diagnosis-types",
+  "clusterId": "cp-np4-02",
+  "clusterSeq": 5,
+  "vignette": "Jessa, 19, has type 1 diabetes mellitus and was brought to a tertiary hospital emergency department by her mother. She has had vomiting and abdominal pain for a day and had stopped taking her insulin because she could not eat. The nurse notes drowsiness, dry mucous membranes, a fruity breath odor and deep, rapid breathing.",
+  "stem": "Complete the statement about the cause of ketoacidosis.\n\nWithout enough insulin the body breaks down {{1}} for energy, producing ketones that cause metabolic {{2}}.",
+  "options": [],
+  "answer": [],
+  "rationale": "When insulin is lacking, cells cannot use glucose and the body breaks down fat, releasing ketone acids into the blood. The accumulation of these acids lowers the blood pH, which is metabolic acidosis.",
+  "rationaleSimple": "No insulin means fat is burned and acid ketones build up.",
+  "optionRationales": [
+   "Fat: without insulin, cells cannot use glucose, so the body breaks down fat. Bone and vitamins are not energy sources in this way.",
+   "Acidosis: ketones are acids and lower the blood pH. Alkalosis would mean the opposite, and stability does not describe the problem."
+  ],
+  "strategy": "Explains the pathophysiology of DKA",
+  "difficulty": 2,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "blanks": [
+   {
+    "choices": [
+     "fat",
+     "bone",
+     "vitamins"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "acidosis",
+     "alkalosis",
+     "stability"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "cp-np4-03-a",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP4",
+  "topic": "Thyroid disorders",
+  "topicId": "medical-surgical-nursing/endocrine/thyroid-disorders",
+  "noteId": "np4-ge-hyperthyroidism-graves",
+  "clusterId": "cp-np4-03",
+  "clusterSeq": 1,
+  "vignette": "Gng. Maricel, 42, had a total thyroidectomy for a large goiter and is on her first postoperative day in a provincial hospital. She says her neck feels tight and she has tingling around her mouth and in her fingertips. The nurse notes a slightly hoarse voice and a neck dressing that appears intact.",
+  "stem": "Select the findings in this note that need the nurse's closest attention.",
+  "options": [
+   "Neck dressing is dry and intact.",
+   "Complains of a tight feeling in the neck.",
+   "Tingling around the mouth and fingertips.",
+   "Voice slightly hoarse.",
+   "Taking sips of water without difficulty."
+  ],
+  "answer": [
+   1,
+   2,
+   3
+  ],
+  "rationale": "A tight neck can signal bleeding or swelling that threatens the airway, perioral and fingertip tingling suggest low calcium after parathyroid injury, and hoarseness may reflect laryngeal nerve irritation. Each of these needs prompt assessment. An intact dry dressing and comfortable sips are reassuring and not the focus.",
+  "rationaleSimple": "Neck tightness, tingling and hoarseness can mean airway or calcium trouble after surgery.",
+  "optionRationales": [
+   "Reassuring: a dry intact dressing shows no obvious bleeding at the wound.",
+   "Needs attention: a tight feeling in the neck can mean bleeding or swelling that threatens the airway.",
+   "Needs attention: tingling around the mouth and fingertips suggests low calcium after parathyroid injury.",
+   "Needs attention: hoarseness may mean irritation of the laryngeal nerve.",
+   "Reassuring: sipping water without difficulty shows swallowing is comfortable."
+  ],
+  "strategy": "Recognizes early postoperative complications",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-03-b",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Thyroid disorders",
+  "topicId": "medical-surgical-nursing/endocrine/thyroid-disorders",
+  "noteId": "np4-ge-hyperthyroidism-graves",
+  "clusterId": "cp-np4-03",
+  "clusterSeq": 2,
+  "vignette": "Gng. Maricel, 42, had a total thyroidectomy for a large goiter and is on her first postoperative day in a provincial hospital. She says her neck feels tight and she has tingling around her mouth and in her fingertips. The nurse notes a slightly hoarse voice and a neck dressing that appears intact.",
+  "stem": "Gng. Maricel reports a tight neck and tingling. Which nursing action takes priority right now?",
+  "options": [
+   "Give an oral pain reliever for the tight feeling and recheck in one hour.",
+   "Reassure her that tingling and tightness are expected after thyroid surgery and will pass.",
+   "Remove the dressing and apply a warm compress to relax the neck.",
+   "Assess her breathing and the neck for swelling, with airway equipment nearby."
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "Swelling or bleeding in the neck can compress the airway, so airway and breathing are assessed first. Emergency airway equipment is kept available per protocol, and the provider is notified. Pain relief, reassurance or compresses ignore a possible life-threatening complication.",
+  "rationaleSimple": "Check the airway first, because neck swelling can block breathing.",
+  "optionRationales": [
+   "Neck tightness may indicate airway compromise and should not wait.",
+   "Tingling may be a sign of hypocalcemia and tightness of bleeding; both need action.",
+   "This does not address airway risk and disrupts the surgical site.",
+   "Best answer. Swelling or bleeding in the neck can compress the airway, so airway and breathing are assessed first."
+  ],
+  "strategy": "Prioritizes airway after neck surgery",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-03-c",
+  "v": 2,
+  "type": "sata",
+  "area": "NP4",
+  "topic": "Thyroid disorders",
+  "topicId": "medical-surgical-nursing/endocrine/thyroid-disorders",
+  "noteId": "np4-ge-hyperthyroidism-graves",
+  "clusterId": "cp-np4-03",
+  "clusterSeq": 3,
+  "vignette": "Gng. Maricel, 42, had a total thyroidectomy for a large goiter and is on her first postoperative day in a provincial hospital. She says her neck feels tight and she has tingling around her mouth and in her fingertips. The nurse notes a slightly hoarse voice and a neck dressing that appears intact.",
+  "stem": "The nurse monitors Gng. Maricel for hypocalcemia and other complications. Which findings should be reported? Select all that apply.",
+  "options": [
+   "Increasing hoarseness",
+   "Increasing swelling of the neck",
+   "Difficulty breathing or noisy breathing",
+   "Numbness or tingling around the mouth",
+   "A relaxed, pain-free expression and normal speech",
+   "Muscle twitching or spasm"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3,
+   5
+  ],
+  "rationale": "Hypocalcemia from parathyroid injury produces tingling and muscle twitching or spasm. Respiratory difficulty, neck swelling and worsening hoarseness suggest airway obstruction, bleeding or nerve injury. A comfortable client with normal speech is the expected recovery.",
+  "rationaleSimple": "Tingling, twitching, breathing trouble, neck swelling and worsening hoarseness need to be reported.",
+  "optionRationales": [
+   "Report: increasing hoarseness may mean nerve injury or swelling.",
+   "Report: increasing neck swelling may be bleeding that can compress the airway.",
+   "Report: difficulty or noisy breathing may mean the airway is narrowing, an emergency.",
+   "Report: tingling around the mouth is an early sign of low calcium.",
+   "Do not report as a problem: a relaxed, pain-free expression with normal speech is the expected recovery.",
+   "Report: twitching or spasm is a sign of low calcium."
+  ],
+  "strategy": "Monitors for complications after thyroidectomy",
+  "difficulty": 3,
+  "bloom": "apply",
+  "imageSuggestion": {
+   "description": "Illustration of Chvostek sign (tapping the facial nerve in front of the ear) and Trousseau sign (carpal spasm during blood-pressure-cuff inflation).",
+   "placement": "rationale",
+   "searchTerms": [
+    "Chvostek sign",
+    "Trousseau sign carpal spasm",
+    "hypocalcemia signs"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-03-d",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Thyroid disorders",
+  "topicId": "medical-surgical-nursing/endocrine/thyroid-disorders",
+  "noteId": "np4-ge-hyperthyroidism-graves",
+  "clusterId": "cp-np4-03",
+  "clusterSeq": 4,
+  "vignette": "Gng. Maricel, 42, had a total thyroidectomy for a large goiter and is on her first postoperative day in a provincial hospital. She says her neck feels tight and she has tingling around her mouth and in her fingertips. The nurse notes a slightly hoarse voice and a neck dressing that appears intact.",
+  "stem": "Which position best supports Gng. Maricel's recovery and comfort in bed?",
+  "options": [
+   "Flat in bed with a rolled towel placed under the neck.",
+   "Semi-Fowler's with the head and neck supported and aligned.",
+   "Lying prone with the head turned to the side for comfort.",
+   "Trendelenburg with the head lower than the feet to help drainage."
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "Raising the head slightly reduces swelling and eases breathing, and supporting the head and neck prevents strain on the incision. Flat, prone or head-down positions increase congestion or tension at the surgical site.",
+  "rationaleSimple": "Sit her partly upright and support her head and neck.",
+  "optionRationales": [
+   "Lying flat with the neck extended increases swelling and strain on the incision.",
+   "Best answer. Raising the head slightly reduces swelling and eases breathing, and supporting the head and neck prevents strain on the incision.",
+   "Prone positioning is unsuitable after neck surgery.",
+   "This increases venous congestion in the neck."
+  ],
+  "strategy": "Positions client after neck surgery",
+  "difficulty": 2,
+  "bloom": "apply",
+  "imageSuggestion": {
+   "description": "Client in a semi-Fowler position in a hospital bed with the head of bed raised and the neck supported by pillows.",
+   "placement": "rationale",
+   "searchTerms": [
+    "semi-Fowler position",
+    "head of bed elevation",
+    "postoperative positioning neck"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-03-e",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP4",
+  "topic": "Thyroid disorders",
+  "topicId": "medical-surgical-nursing/endocrine/thyroid-disorders",
+  "noteId": "np4-ge-hyperthyroidism-graves",
+  "clusterId": "cp-np4-03",
+  "clusterSeq": 5,
+  "vignette": "Gng. Maricel, 42, had a total thyroidectomy for a large goiter and is on her first postoperative day in a provincial hospital. She says her neck feels tight and she has tingling around her mouth and in her fingertips. The nurse notes a slightly hoarse voice and a neck dressing that appears intact.",
+  "stem": "Complete the statement about long-term care after total thyroidectomy.\n\nAfter a total thyroidectomy the client will need {{1}} thyroid hormone replacement for {{2}}.",
+  "options": [],
+  "answer": [],
+  "rationale": "With the whole gland removed the body can no longer make thyroid hormone, so replacement is needed every day and continues for life. The dose is adjusted by the provider, and the client should not stop it when she feels well.",
+  "rationaleSimple": "With no thyroid left, she takes thyroid hormone every day for life.",
+  "optionRationales": [
+   "Daily: once the gland is removed, the body cannot make thyroid hormone, so replacement is taken every day. Occasional or no replacement is unsafe.",
+   "Life: the need continues permanently. One week or one month would leave her without hormone afterwards. The dose is adjusted by the provider."
+  ],
+  "strategy": "Teaches long-term thyroid replacement",
+  "difficulty": 2,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "blanks": [
+   {
+    "choices": [
+     "daily",
+     "occasional",
+     "no"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "life",
+     "one week",
+     "one month"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "cp-np4-04-a",
+  "v": 2,
+  "type": "sata",
+  "area": "NP4",
+  "topic": "Appendicitis",
+  "topicId": "medical-surgical-nursing/gi-and-hepatobiliary/appendicitis",
+  "noteId": "np4-ge-appendicitis",
+  "clusterId": "cp-np4-04",
+  "clusterSeq": 1,
+  "vignette": "Paolo, 15, is brought to a rural health unit by his father after a day of abdominal pain. The pain began around the navel, he lost his appetite and vomited once, and the pain has now moved to the lower right abdomen. He holds his right side when walking and has a low-grade fever.",
+  "stem": "Which findings are consistent with acute appendicitis? Select all that apply.",
+  "options": [
+   "Tenderness when the right lower abdomen is pressed",
+   "Low-grade fever",
+   "Pain that begins near the navel and shifts to the right lower abdomen",
+   "Pain that is relieved completely by eating",
+   "Pain only in the left upper abdomen",
+   "Loss of appetite with nausea"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   5
+  ],
+  "rationale": "Typical appendicitis begins with vague central pain that localizes to the right lower quadrant, with anorexia, nausea, fever and local tenderness. Pain relieved by eating suggests a different problem, and left upper abdominal pain does not fit.",
+  "rationaleSimple": "Pain moving to the right lower belly with no appetite, nausea and mild fever fits appendicitis.",
+  "optionRationales": [
+   "Consistent: tenderness over the right lower abdomen is a typical finding.",
+   "Consistent: low-grade fever is common as inflammation develops.",
+   "Consistent: pain that starts near the navel and moves to the right lower abdomen is the classic pattern.",
+   "Not consistent: pain relieved completely by eating suggests a different problem, such as an ulcer.",
+   "Not consistent: pain only in the left upper abdomen does not fit the usual location.",
+   "Consistent: loss of appetite with nausea commonly accompanies appendicitis."
+  ],
+  "strategy": "Recognizes signs of appendicitis",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "imageSuggestion": {
+   "description": "Diagram of the abdomen divided into four quadrants (or nine regions) with the umbilicus and the right iliac fossa area shown, without any pain marked.",
+   "placement": "rationale",
+   "searchTerms": [
+    "abdominal quadrants diagram",
+    "McBurney's point",
+    "abdominal regions anatomy"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-04-b",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Appendicitis",
+  "topicId": "medical-surgical-nursing/gi-and-hepatobiliary/appendicitis",
+  "noteId": "np4-ge-appendicitis",
+  "clusterId": "cp-np4-04",
+  "clusterSeq": 2,
+  "vignette": "Paolo, 15, is brought to a rural health unit by his father after a day of abdominal pain. The pain began around the navel, he lost his appetite and vomited once, and the pain has now moved to the lower right abdomen. He holds his right side when walking and has a low-grade fever.",
+  "stem": "The nurse suspects appendicitis. Which action is most appropriate before transfer to a hospital?",
+  "options": [
+   "Keep him on nothing by mouth, position him comfortably and arrange referral.",
+   "Apply a hot water bottle to the abdomen to ease the pain during travel.",
+   "Give a laxative so that his bowel is empty before he is examined at the hospital.",
+   "Offer a full meal and plenty of fluids so he has enough strength for travel."
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "Suspected appendicitis requires prompt medical and surgical evaluation. Withholding food and fluids by mouth prepares for possible surgery, and a comfortable position and urgent referral are appropriate. Heat, laxatives and enemas can increase pressure and the risk of rupture.",
+  "rationaleSimple": "No food, no heat, no laxatives, and send him for urgent care.",
+  "optionRationales": [
+   "Best answer. Suspected appendicitis requires prompt medical and surgical evaluation.",
+   "Heat may promote rupture of the inflamed appendix.",
+   "Laxatives increase bowel activity and the risk of rupture.",
+   "Food is withheld in case surgery is needed."
+  ],
+  "strategy": "Gives safe pre-referral care",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-04-c",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP4",
+  "topic": "Appendicitis",
+  "topicId": "medical-surgical-nursing/gi-and-hepatobiliary/appendicitis",
+  "noteId": "np4-ge-appendicitis",
+  "clusterId": "cp-np4-04",
+  "clusterSeq": 3,
+  "vignette": "Paolo, 15, is brought to a rural health unit by his father after a day of abdominal pain. The pain began around the navel, he lost his appetite and vomited once, and the pain has now moved to the lower right abdomen. He holds his right side when walking and has a low-grade fever.",
+  "stem": "For each nursing action, select whether it is appropriate or should be avoided for a client with suspected appendicitis.",
+  "options": [],
+  "answer": [],
+  "rationale": "Serial assessment detects worsening or rupture, an empty stomach prepares the client for surgery, and a position of comfort eases pain. Heat and enemas can increase the risk of the appendix rupturing.",
+  "rationaleSimple": "Watch him closely, keep him fasting and comfortable, and do not use heat or enemas.",
+  "optionRationales": [
+   "Appropriate: regular reassessment finds worsening pain or signs of rupture early.",
+   "Avoid: heat may increase blood flow and raise the risk that the appendix ruptures.",
+   "Avoid: an enema increases bowel activity and may cause the appendix to rupture.",
+   "Appropriate: an empty stomach prepares the client for possible surgery.",
+   "Appropriate: bent knees relax the abdominal muscles and ease pain."
+  ],
+  "strategy": "Identifies safe and unsafe actions",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "Reassess pain, vital signs and the abdomen regularly",
+   "Apply heat to the right lower abdomen",
+   "Give an enema to relieve discomfort",
+   "Keep the client on nothing by mouth",
+   "Allow a position of comfort, such as with knees slightly bent"
+  ],
+  "columns": [
+   "Appropriate",
+   "Avoid"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   1,
+   0,
+   0
+  ]
+ },
+ {
+  "id": "cp-np4-04-d",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Appendicitis",
+  "topicId": "medical-surgical-nursing/gi-and-hepatobiliary/appendicitis",
+  "noteId": "np4-ge-appendicitis",
+  "clusterId": "cp-np4-04",
+  "clusterSeq": 4,
+  "vignette": "Paolo, 15, is brought to a rural health unit by his father after a day of abdominal pain. The pain began around the navel, he lost his appetite and vomited once, and the pain has now moved to the lower right abdomen. He holds his right side when walking and has a low-grade fever.",
+  "stem": "While waiting for transport, Paolo says the pain has suddenly gone away. Soon after, his abdomen becomes rigid and his pulse quickens. What does the nurse suspect?",
+  "options": [
+   "The inflammation is settling on its own, so he can wait until morning.",
+   "He has developed simple constipation from vomiting and poor intake.",
+   "The appendix may have ruptured and caused peritonitis.",
+   "The earlier pain was a simple muscle strain that has now relaxed."
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "Sudden relief of pain may follow rupture of an inflamed appendix, because pressure is released. A rigid abdomen and rising pulse indicate peritonitis, an emergency requiring immediate reporting and transfer. Recovery or constipation would not produce this combination.",
+  "rationaleSimple": "Sudden relief then a hard belly and fast pulse means the appendix may have burst.",
+  "optionRationales": [
+   "A rigid abdomen with tachycardia is not a sign of recovery.",
+   "Constipation does not cause sudden relief followed by rigidity.",
+   "Best answer. Sudden relief of pain may follow rupture of an inflamed appendix, because pressure is released.",
+   "The picture points to a serious abdominal emergency."
+  ],
+  "strategy": "Recognizes rupture and peritonitis",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-04-e",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP4",
+  "topic": "Appendicitis",
+  "topicId": "medical-surgical-nursing/gi-and-hepatobiliary/appendicitis",
+  "noteId": "np4-ge-appendicitis",
+  "clusterId": "cp-np4-04",
+  "clusterSeq": 5,
+  "vignette": "Paolo, 15, is brought to a rural health unit by his father after a day of abdominal pain. The pain began around the navel, he lost his appetite and vomited once, and the pain has now moved to the lower right abdomen. He holds his right side when walking and has a low-grade fever.",
+  "stem": "Complete the statement about complications.\n\nA ruptured appendix spills infected contents into the abdominal cavity and can cause {{1}}, which is why delay in {{2}} is dangerous.",
+  "options": [],
+  "answer": [],
+  "rationale": "Rupture releases bacteria into the peritoneal cavity, causing peritonitis, a serious infection. Prompt surgical treatment reduces the risk of this complication, so delay is dangerous.",
+  "rationaleSimple": "A burst appendix can infect the whole belly, so surgery should not be delayed.",
+  "optionRationales": [
+   "Peritonitis: spilled infected contents inflame the lining of the abdomen. Gastric ulcer is unrelated and dehydration alone does not describe it.",
+   "Surgical treatment: prompt surgery lowers the risk of rupture and peritonitis. Delays in eating or bathing are not the danger."
+  ],
+  "strategy": "Explains complications of appendicitis",
+  "difficulty": 2,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "blanks": [
+   {
+    "choices": [
+     "peritonitis",
+     "gastric ulcer",
+     "dehydration only"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "surgical treatment",
+     "taking a meal",
+     "bathing"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "cp-np4-05-a",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP4",
+  "topic": "Peptic ulcer disease",
+  "topicId": "medical-surgical-nursing/gi-and-hepatobiliary/pud",
+  "noteId": "np4-ge-peptic-ulcer-gastric-duodenal",
+  "clusterId": "cp-np4-05",
+  "clusterSeq": 1,
+  "vignette": "Mang Ador, 61, a jeepney driver with chronic knee pain, takes pain tablets from the pharmacy almost daily. He is brought to a district hospital because of black, tarry stools for two days, one episode of coffee-ground vomitus, and dizziness when he stands. He looks pale and anxious.",
+  "stem": "Select the risk factor and findings in the admission note that point to gastrointestinal bleeding.",
+  "options": [
+   "Uses over-the-counter pain tablets almost daily.",
+   "Two days of black, tarry stools.",
+   "Coffee-ground vomitus once.",
+   "Dizzy and pale on standing.",
+   "Complains of chronic knee pain."
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "rationale": "Black tarry stool and coffee-ground vomitus suggest bleeding in the upper gastrointestinal tract, while dizziness and pallor suggest blood loss affecting circulation. Frequent use of pain tablets such as NSAIDs is a risk factor for gastric injury. Chronic knee pain explains the medication use but is not a sign of bleeding.",
+  "rationaleSimple": "Black stools, coffee-ground vomit, dizziness and daily pain tablets point to a stomach bleed.",
+  "optionRationales": [
+   "Risk factor: near-daily pain tablets such as NSAIDs can injure the stomach lining and cause bleeding.",
+   "Sign of bleeding: black tarry stool suggests digested blood from the upper tract.",
+   "Sign of bleeding: coffee-ground vomit is blood altered by stomach acid.",
+   "Sign of blood loss: dizziness and pallor on standing show circulation is affected.",
+   "Not a sign of bleeding: chronic knee pain explains the medication use but does not show bleeding."
+  ],
+  "strategy": "Recognizes GI bleeding cues",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-05-b",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Peptic ulcer disease",
+  "topicId": "medical-surgical-nursing/gi-and-hepatobiliary/pud",
+  "noteId": "np4-ge-peptic-ulcer-gastric-duodenal",
+  "clusterId": "cp-np4-05",
+  "clusterSeq": 2,
+  "vignette": "Mang Ador, 61, a jeepney driver with chronic knee pain, takes pain tablets from the pharmacy almost daily. He is brought to a district hospital because of black, tarry stools for two days, one episode of coffee-ground vomitus, and dizziness when he stands. He looks pale and anxious.",
+  "stem": "Mang Ador is pale, dizzy and passing black stools. Which nursing action takes priority on admission?",
+  "options": [
+   "Offer a warm drink to settle his stomach while the team prepares for his examination.",
+   "Ask him to walk to the toilet so a stool specimen can be collected.",
+   "Teach him to take his pain tablets together with meals in future.",
+   "Check vital signs and level of consciousness and notify the provider."
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "Bleeding with dizziness suggests reduced circulating volume, so airway, circulation and vital signs are assessed first and the provider is informed promptly. Fluids by mouth, walking to the toilet and teaching do not address the immediate risk.",
+  "rationaleSimple": "Check how stable he is and call the provider before anything else.",
+  "optionRationales": [
+   "Oral intake is withheld in active upper GI bleeding.",
+   "This may cause a faint or fall, and it does not help stabilize him.",
+   "Teaching comes after stabilization.",
+   "Best answer. Bleeding with dizziness suggests reduced circulating volume, so airway, circulation and vital signs are assessed first and the provider is informed promptly."
+  ],
+  "strategy": "Prioritizes care for suspected GI bleeding",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-05-c",
+  "v": 2,
+  "type": "sata",
+  "area": "NP4",
+  "topic": "Peptic ulcer disease",
+  "topicId": "medical-surgical-nursing/gi-and-hepatobiliary/pud",
+  "noteId": "np4-ge-peptic-ulcer-gastric-duodenal",
+  "clusterId": "cp-np4-05",
+  "clusterSeq": 3,
+  "vignette": "Mang Ador, 61, a jeepney driver with chronic knee pain, takes pain tablets from the pharmacy almost daily. He is brought to a district hospital because of black, tarry stools for two days, one episode of coffee-ground vomitus, and dizziness when he stands. He looks pale and anxious.",
+  "stem": "Which nursing actions are appropriate while Mang Ador is being evaluated? Select all that apply.",
+  "options": [
+   "Give an over-the-counter pain tablet for his knee.",
+   "Keep him on nothing by mouth unless told otherwise.",
+   "Encourage him to walk to the bathroom alone.",
+   "Assist him when he changes position.",
+   "Measure and record the amount and appearance of emesis and stool.",
+   "Make sure he has reliable intravenous access."
+  ],
+  "answer": [
+   1,
+   3,
+   4,
+   5
+  ],
+  "rationale": "An empty stomach, secure IV access for fluids or blood products, careful measurement of losses, and assisted position changes all support safety in a client at risk of shock. Walking alone risks fainting, and NSAID-type tablets may worsen bleeding.",
+  "rationaleSimple": "Keep him fasting, ready for IV fluids, track blood loss and help him when he moves.",
+  "optionRationales": [
+   "Wrong: NSAID-type tablets may irritate the stomach and worsen bleeding.",
+   "Right: an empty stomach is safer if he needs a procedure or if he vomits.",
+   "Wrong: walking alone risks fainting if he has lost blood.",
+   "Right: assisting position changes prevents falls from dizziness.",
+   "Right: measuring and recording emesis and stool shows how much blood is being lost.",
+   "Right: reliable IV access allows quick fluids or blood products if he becomes unstable."
+  ],
+  "strategy": "Plans safe care for GI bleeding",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-05-d",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP4",
+  "topic": "Peptic ulcer disease",
+  "topicId": "medical-surgical-nursing/gi-and-hepatobiliary/pud",
+  "noteId": "np4-ge-peptic-ulcer-gastric-duodenal",
+  "clusterId": "cp-np4-05",
+  "clusterSeq": 4,
+  "vignette": "Mang Ador, 61, a jeepney driver with chronic knee pain, takes pain tablets from the pharmacy almost daily. He is brought to a district hospital because of black, tarry stools for two days, one episode of coffee-ground vomitus, and dizziness when he stands. He looks pale and anxious.",
+  "stem": "Select the type of gastrointestinal bleeding each finding more likely suggests.",
+  "options": [],
+  "answer": [],
+  "rationale": "Blood from the stomach or esophagus is altered by digestive acid and appears as coffee-ground vomitus or black tarry stool, or as fresh blood if bleeding is brisk. Bright red blood in the stool without vomiting is more often from the lower tract.",
+  "rationaleSimple": "Black or coffee-ground blood is usually from higher up; bright red blood in the stool is usually from lower down.",
+  "optionRationales": [
+   "Upper GI: coffee-ground vomitus is blood altered by stomach acid.",
+   "Upper GI: black tarry stool is digested blood from the upper tract.",
+   "Lower GI: bright red blood mixed with stool without vomiting suggests bleeding from the lower tract.",
+   "Upper GI: vomiting fresh blood suggests brisk bleeding from the esophagus or stomach."
+  ],
+  "strategy": "Differentiates upper and lower GI bleeding",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "Coffee-ground vomitus",
+   "Black, tarry stool",
+   "Bright red blood mixed with the stool and no vomiting",
+   "Vomiting of fresh blood"
+  ],
+  "columns": [
+   "Upper GI bleeding",
+   "Lower GI bleeding"
+  ],
+  "rowAnswer": [
+   0,
+   0,
+   1,
+   0
+  ]
+ },
+ {
+  "id": "cp-np4-05-e",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Peptic ulcer disease",
+  "topicId": "medical-surgical-nursing/gi-and-hepatobiliary/pud",
+  "noteId": "np4-ge-peptic-ulcer-gastric-duodenal",
+  "clusterId": "cp-np4-05",
+  "clusterSeq": 5,
+  "vignette": "Mang Ador, 61, a jeepney driver with chronic knee pain, takes pain tablets from the pharmacy almost daily. He is brought to a district hospital because of black, tarry stools for two days, one episode of coffee-ground vomitus, and dizziness when he stands. He looks pale and anxious.",
+  "stem": "After treatment, which statement by Mang Ador shows he understood the teaching on preventing a recurrence?",
+  "options": [
+   "\"I will ask my doctor which medicine is safe for my knee pain first.\"",
+   "\"I can keep using my pain tablets if I take them together with strong coffee.\"",
+   "\"I will stop my ulcer medicines as soon as my black stools have stopped.\"",
+   "\"A small drink of alcohol each evening will help my stomach heal faster.\""
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "Many ulcers are linked to NSAID use, so he should avoid self-medicating and consult his provider about safe pain control. Continuing irritants, stopping treatment early or drinking alcohol puts him at risk of re-bleeding.",
+  "rationaleSimple": "He should check with his doctor before using any pain tablets.",
+  "optionRationales": [
+   "Best answer. Many ulcers are linked to NSAID use, so he should avoid self-medicating and consult his provider about safe pain control.",
+   "Coffee does not protect the stomach and may irritate it.",
+   "Prescribed treatment must be completed.",
+   "Alcohol irritates the stomach lining."
+  ],
+  "strategy": "Evaluates client understanding of teaching",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-06-a",
+  "v": 2,
+  "type": "sata",
+  "area": "NP4",
+  "topic": "Liver cirrhosis",
+  "topicId": "medical-surgical-nursing/gi-and-hepatobiliary/liver-cirrhosis",
+  "noteId": "np4-ge-liver-cirrhosis",
+  "clusterId": "cp-np4-06",
+  "clusterSeq": 1,
+  "vignette": "Mang Celso, 55, has alcohol-related cirrhosis and is admitted to a tertiary hospital with a swollen abdomen and leg swelling. The nurse observes yellow discoloration of the sclerae, small spider-like vessels on his chest and bruises on his forearms. His wife says he has been unusually sleepy during the day and awake at night.",
+  "stem": "Which assessment findings are consistent with advanced liver disease? Select all that apply.",
+  "options": [
+   "Decreasing abdominal girth without any treatment",
+   "Jaundice of the skin and sclerae",
+   "Spider-like vessels on the chest",
+   "Brisk wound healing and well-developed muscles",
+   "Increasing abdominal girth",
+   "Easy bruising"
+  ],
+  "answer": [
+   1,
+   2,
+   4,
+   5
+  ],
+  "rationale": "A failing liver causes bilirubin to accumulate (jaundice), fluid to collect in the abdomen (ascites), vascular changes such as spider angiomas, and reduced clotting factors leading to easy bruising. Good wound healing and muscle bulk would not be expected.",
+  "rationaleSimple": "Yellow eyes, big belly, spider veins and easy bruising fit a failing liver.",
+  "optionRationales": [
+   "Not consistent: decreasing girth without treatment is the opposite of ascites; advanced liver disease causes fluid to collect.",
+   "Consistent: bilirubin builds up when the liver cannot clear it, causing jaundice.",
+   "Consistent: spider-like vessels (angiomas) are a vascular change of liver disease.",
+   "Not consistent: brisk healing and well-developed muscle are not expected in advanced liver disease.",
+   "Consistent: increasing girth suggests ascites from fluid collecting in the abdomen.",
+   "Consistent: fewer clotting factors cause easy bruising."
+  ],
+  "strategy": "Recognizes manifestations of cirrhosis",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "imageSuggestion": {
+   "description": "Photograph of an adult with yellow sclera, a distended abdomen and leg edema, shown without a caption.",
+   "placement": "stem",
+   "searchTerms": [
+    "jaundice sclera",
+    "ascites abdomen cirrhosis",
+    "liver cirrhosis signs"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-06-b",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Liver cirrhosis",
+  "topicId": "medical-surgical-nursing/gi-and-hepatobiliary/liver-cirrhosis",
+  "noteId": "np4-ge-liver-cirrhosis",
+  "clusterId": "cp-np4-06",
+  "clusterSeq": 2,
+  "vignette": "Mang Celso, 55, has alcohol-related cirrhosis and is admitted to a tertiary hospital with a swollen abdomen and leg swelling. The nurse observes yellow discoloration of the sclerae, small spider-like vessels on his chest and bruises on his forearms. His wife says he has been unusually sleepy during the day and awake at night.",
+  "stem": "His wife reports he is sleeping by day and awake at night, and he is slow to answer. Which nursing action is most appropriate now?",
+  "options": [
+   "Explain to his wife that daytime sleepiness is normal in a hospital ward.",
+   "Offer a high-protein snack at once to improve his energy and alertness.",
+   "Assess his orientation and level of consciousness and report the change.",
+   "Let him sleep and recheck him in the morning when he is more rested."
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "A reversed sleep pattern and slowed responses in a client with cirrhosis may signal hepatic encephalopathy, caused by toxins such as ammonia affecting the brain. The nurse assesses neurologic status, keeps the client safe and reports early so treatment is not delayed.",
+  "rationaleSimple": "New sleepiness and confusion in liver disease need to be checked and reported quickly.",
+  "optionRationales": [
+   "This overlooks a possible serious change in mental status.",
+   "Nutrition does not address a neurologic change that needs assessment first.",
+   "Best answer. A reversed sleep pattern and slowed responses in a client with cirrhosis may signal hepatic encephalopathy, caused by toxins such as ammonia affecting the brain.",
+   "A delay could miss progressing encephalopathy."
+  ],
+  "strategy": "Recognizes hepatic encephalopathy cues",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-06-c",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP4",
+  "topic": "Liver cirrhosis",
+  "topicId": "medical-surgical-nursing/gi-and-hepatobiliary/liver-cirrhosis",
+  "noteId": "np4-ge-liver-cirrhosis",
+  "clusterId": "cp-np4-06",
+  "clusterSeq": 3,
+  "vignette": "Mang Celso, 55, has alcohol-related cirrhosis and is admitted to a tertiary hospital with a swollen abdomen and leg swelling. The nurse observes yellow discoloration of the sclerae, small spider-like vessels on his chest and bruises on his forearms. His wife says he has been unusually sleepy during the day and awake at night.",
+  "stem": "For each nursing measure, select whether it is appropriate or should be avoided for a client with cirrhosis.",
+  "options": [],
+  "answer": [],
+  "rationale": "Low clotting factors raise bleeding risk, so soft brushes and electric razors reduce injury. Daily weight and girth measurements track fluid accumulation. The damaged liver cannot safely handle alcohol or many medicines, so these are avoided unless approved.",
+  "rationaleSimple": "Prevent bleeding, track fluid, and avoid alcohol and unapproved medicines.",
+  "optionRationales": [
+   "Appropriate: a soft toothbrush and electric razor reduce injury because clotting is poor.",
+   "Avoid: the damaged liver may not handle many medicines safely, so they must be checked with the provider.",
+   "Appropriate: daily weight and girth measured the same way track fluid accumulation.",
+   "Avoid: a damaged liver cannot safely handle alcohol.",
+   "Appropriate: elevating the legs helps reduce swelling."
+  ],
+  "strategy": "Plans safe care for cirrhosis",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "Use a soft toothbrush and an electric razor",
+   "Take over-the-counter medicines without asking the provider",
+   "Weigh daily and measure abdominal girth at the same time",
+   "Drink alcohol in small amounts",
+   "Elevate swollen legs when resting"
+  ],
+  "columns": [
+   "Appropriate",
+   "Avoid"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   0,
+   1,
+   0
+  ]
+ },
+ {
+  "id": "cp-np4-06-d",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Liver cirrhosis",
+  "topicId": "medical-surgical-nursing/gi-and-hepatobiliary/liver-cirrhosis",
+  "noteId": "np4-ge-liver-cirrhosis",
+  "clusterId": "cp-np4-06",
+  "clusterSeq": 4,
+  "vignette": "Mang Celso, 55, has alcohol-related cirrhosis and is admitted to a tertiary hospital with a swollen abdomen and leg swelling. The nurse observes yellow discoloration of the sclerae, small spider-like vessels on his chest and bruises on his forearms. His wife says he has been unusually sleepy during the day and awake at night.",
+  "stem": "Mang Celso has generalized itching and scratches until his skin is broken. Which nursing measure is most appropriate?",
+  "options": [
+   "Wash with hot water and strong soap so the skin is thoroughly clean.",
+   "Let him scratch lightly with his fingers, which relieves the itch.",
+   "Cover the itchy areas with plastic wrap to keep the skin moist.",
+   "Keep nails short, use cool bathing and a gentle non-drying skin product."
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "Itching in liver disease is thought to be related to retained bile products. Short nails, cool bathing and gentle moisturizing reduce skin damage, and avoiding irritants protects fragile skin. Hot water, harsh soap and scratching worsen the problem.",
+  "rationaleSimple": "Keep nails short, bathe in cool water and use gentle skin products.",
+  "optionRationales": [
+   "Heat and harsh soap worsen dryness and itching.",
+   "Scratching damages skin and raises infection risk.",
+   "Occlusion can trap heat and moisture and irritate the skin.",
+   "Best answer. Itching in liver disease is thought to be related to retained bile products."
+  ],
+  "strategy": "Provides skin care for pruritus",
+  "difficulty": 2,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-06-e",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP4",
+  "topic": "Liver cirrhosis",
+  "topicId": "medical-surgical-nursing/gi-and-hepatobiliary/liver-cirrhosis",
+  "noteId": "np4-ge-liver-cirrhosis",
+  "clusterId": "cp-np4-06",
+  "clusterSeq": 5,
+  "vignette": "Mang Celso, 55, has alcohol-related cirrhosis and is admitted to a tertiary hospital with a swollen abdomen and leg swelling. The nurse observes yellow discoloration of the sclerae, small spider-like vessels on his chest and bruises on his forearms. His wife says he has been unusually sleepy during the day and awake at night.",
+  "stem": "Complete the statements about the liver's functions.\n\nA damaged liver makes fewer {{1}}, which increases bleeding, and cannot clear {{2}}, which may affect the brain.",
+  "options": [],
+  "answer": [],
+  "rationale": "The liver produces most clotting factors, so impaired function increases bleeding and bruising. It also converts ammonia to a form that can be excreted, and when this fails ammonia accumulates and can cause confusion.",
+  "rationaleSimple": "A weak liver means less clotting and a build-up of ammonia that affects the brain.",
+  "optionRationales": [
+   "Clotting factors: the liver makes most of them, so liver damage increases bleeding. It is not the main source of red cells or growth hormones.",
+   "Ammonia: the liver converts ammonia for excretion; when it fails, ammonia builds up and can cause confusion. Oxygen and glucose are not the problem."
+  ],
+  "strategy": "Links liver function to manifestations",
+  "difficulty": 3,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "blanks": [
+   {
+    "choices": [
+     "clotting factors",
+     "red blood cells",
+     "hormones for growth"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "ammonia",
+     "oxygen",
+     "glucose"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "cp-np4-07-a",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP4",
+  "topic": "Acute kidney injury",
+  "topicId": "medical-surgical-nursing/renal-and-urinary/aki",
+  "noteId": "np3-er-x-aki-causes",
+  "clusterId": "cp-np4-07",
+  "clusterSeq": 1,
+  "vignette": "Gng. Linda, 68, is on her second day after emergency abdominal surgery with significant blood loss and low blood pressure in the operating room. She takes a pain reliever from the NSAID group at home. The nurse notes that her urine output has dropped markedly, her ankles are swollen and her weight has risen since admission.",
+  "stem": "Select the risk factors and findings in this note that point to acute kidney injury.",
+  "options": [
+   "Emergency surgery with significant blood loss.",
+   "Low blood pressure during the operation.",
+   "Urine output markedly decreased.",
+   "Ankle swelling and weight gain.",
+   "Wound dressing dry and intact.",
+   "Takes pain reliever from the NSAID group."
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3,
+   5
+  ],
+  "rationale": "Reduced blood flow to the kidneys from blood loss and low pressure is a common cause of acute kidney injury, regular NSAID use is a recognized risk factor, and falling urine output with fluid retention (edema, weight gain) shows the kidneys are not clearing fluid. The dry dressing is unrelated to kidney function.",
+  "rationaleSimple": "Blood loss, low pressure, less urine and fluid gain point to the kidneys struggling.",
+  "optionRationales": [
+   "Risk: major blood loss reduces blood flow to the kidneys.",
+   "Risk: low blood pressure during the operation reduces blood flow to the kidneys.",
+   "Sign: markedly decreased urine output shows the kidneys are not producing urine.",
+   "Sign: ankle swelling and weight gain show fluid is being retained.",
+   "Unrelated: a dry intact dressing says nothing about kidney function.",
+   "Risk: NSAIDs can reduce blood flow to the kidneys and injure them."
+  ],
+  "strategy": "Recognizes cues of acute kidney injury",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-07-b",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Acute kidney injury",
+  "topicId": "medical-surgical-nursing/renal-and-urinary/aki",
+  "noteId": "np3-er-x-aki-causes",
+  "clusterId": "cp-np4-07",
+  "clusterSeq": 2,
+  "vignette": "Gng. Linda, 68, is on her second day after emergency abdominal surgery with significant blood loss and low blood pressure in the operating room. She takes a pain reliever from the NSAID group at home. The nurse notes that her urine output has dropped markedly, her ankles are swollen and her weight has risen since admission.",
+  "stem": "Which nursing action is most important in the care of Gng. Linda now?",
+  "options": [
+   "Measure intake and output closely and report a continuing fall in urine.",
+   "Encourage her to drink as much water as she can to flush her kidneys.",
+   "Offer her usual NSAID for the surgical pain, since it worked well at home.",
+   "Wait to notify the provider until her weight has risen even further."
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "Accurate intake and output monitoring detects trends early and guides fluid management. Early reporting allows the cause to be found and treated. Free fluids and NSAIDs may worsen overload or kidney injury, and waiting delays care.",
+  "rationaleSimple": "Track fluids in and out carefully and report falling urine.",
+  "optionRationales": [
+   "Best answer. Accurate intake and output monitoring detects trends early and guides fluid management.",
+   "Unlimited fluid can worsen overload in reduced kidney function.",
+   "NSAIDs can further harm the kidneys.",
+   "Early reporting allows treatment before complications."
+  ],
+  "strategy": "Monitors fluid status in kidney injury",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-07-c",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP4",
+  "topic": "Acute kidney injury",
+  "topicId": "medical-surgical-nursing/renal-and-urinary/aki",
+  "noteId": "np3-er-x-aki-causes",
+  "clusterId": "cp-np4-07",
+  "clusterSeq": 3,
+  "vignette": "Gng. Linda, 68, is on her second day after emergency abdominal surgery with significant blood loss and low blood pressure in the operating room. She takes a pain reliever from the NSAID group at home. The nurse notes that her urine output has dropped markedly, her ankles are swollen and her weight has risen since admission.",
+  "stem": "For each cause, select the category of acute kidney injury it represents.",
+  "options": [],
+  "answer": [],
+  "rationale": "Prerenal injury results from too little blood reaching the kidneys, as in dehydration or poor cardiac output. Postrenal injury results from obstruction of urine outflow, such as an enlarged prostate or stones in the ureters.",
+  "rationaleSimple": "Prerenal means not enough blood flow; postrenal means urine cannot drain.",
+  "optionRationales": [
+   "Prerenal: severe fluid loss from vomiting and diarrhea means too little blood reaches the kidneys.",
+   "Postrenal: an enlarged prostate can block the urethra and stop urine from leaving.",
+   "Postrenal: stones blocking both ureters obstruct urine outflow from both kidneys.",
+   "Prerenal: heart failure with low cardiac output reduces blood flow to the kidneys."
+  ],
+  "strategy": "Classifies causes of acute kidney injury",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "Severe dehydration from vomiting and diarrhea",
+   "Enlarged prostate blocking the urethra",
+   "Kidney stones blocking both ureters",
+   "Heart failure with low cardiac output"
+  ],
+  "columns": [
+   "Prerenal (reduced blood flow)",
+   "Postrenal (blocked outflow)"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   1,
+   0
+  ]
+ },
+ {
+  "id": "cp-np4-07-d",
+  "v": 2,
+  "type": "sata",
+  "area": "NP4",
+  "topic": "Acute kidney injury",
+  "topicId": "medical-surgical-nursing/renal-and-urinary/aki",
+  "noteId": "np3-er-x-aki-causes",
+  "clusterId": "cp-np4-07",
+  "clusterSeq": 4,
+  "vignette": "Gng. Linda, 68, is on her second day after emergency abdominal surgery with significant blood loss and low blood pressure in the operating room. She takes a pain reliever from the NSAID group at home. The nurse notes that her urine output has dropped markedly, her ankles are swollen and her weight has risen since admission.",
+  "stem": "Which nursing actions are appropriate when caring for a client with acute kidney injury? Select all that apply.",
+  "options": [
+   "Review medicines with the provider for those that may harm the kidneys.",
+   "Observe for signs of fluid overload such as swelling and breathlessness.",
+   "Weigh the client at the same time each day with the same scale.",
+   "Follow fluid and diet prescriptions carefully.",
+   "Give unlimited oral fluids to flush the kidneys.",
+   "Ignore changes in urine color and amount."
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "rationale": "Daily weights, observation for overload, medicine review and adherence to prescribed fluids and diet support safe management of impaired kidney function. Unlimited fluids may cause overload, and ignoring urine changes delays recognition of deterioration.",
+  "rationaleSimple": "Weigh daily, watch for fluid overload, review medicines and follow fluid orders.",
+  "optionRationales": [
+   "Appropriate: some medicines can harm the kidneys, and the provider can adjust or avoid them.",
+   "Appropriate: failing kidneys may not clear fluid, so swelling and breathlessness are watched for.",
+   "Appropriate: daily weight at the same time on the same scale is a reliable way to track fluid balance.",
+   "Appropriate: fluid and diet prescriptions are set to match the kidneys' limited ability.",
+   "Wrong: unlimited fluids may cause fluid overload when the kidneys cannot remove it.",
+   "Wrong: changes in urine color and amount show whether the kidneys are improving or worsening."
+  ],
+  "strategy": "Plans care for acute kidney injury",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-07-e",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Access for hemodialysis",
+  "topicId": "medical-surgical-nursing/renal-and-urinary/access-for-hemodialysis",
+  "noteId": "np3-er-hemodialysis",
+  "clusterId": "cp-np4-07",
+  "clusterSeq": 5,
+  "vignette": "Gng. Linda, 68, is on her second day after emergency abdominal surgery with significant blood loss and low blood pressure in the operating room. She takes a pain reliever from the NSAID group at home. The nurse notes that her urine output has dropped markedly, her ankles are swollen and her weight has risen since admission.",
+  "stem": "Gng. Linda later requires hemodialysis through an arteriovenous fistula in her left arm, which was created years ago for another condition and is now in use. Which nursing action protects the access?",
+  "options": [
+   "Use the left arm for routine blood pressure checks and blood draws.",
+   "Check for a thrill and bruit and keep pressure and needles off that arm.",
+   "Ask her to carry heavy shopping bags with that arm to keep it strong.",
+   "Wrap the arm snugly in a bandage to protect the fistula from knocks."
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "A functioning fistula has a palpable thrill and an audible bruit that confirm blood flow. Blood pressure cuffs, venipuncture, tight clothing, jewelry or heavy loads on the access arm can reduce flow or injure the fistula.",
+  "rationaleSimple": "Feel and listen for the buzz of the fistula and keep pressure and needles off that arm.",
+  "optionRationales": [
+   "Pressure and punctures can occlude or damage the fistula.",
+   "Best answer. A functioning fistula has a palpable thrill and an audible bruit that confirm blood flow.",
+   "Heavy loads and pressure can damage the access.",
+   "Constriction can reduce blood flow."
+  ],
+  "strategy": "Protects hemodialysis access",
+  "difficulty": 3,
+  "bloom": "apply",
+  "imageSuggestion": {
+   "description": "Photograph of a forearm with a surgically created arteriovenous fistula showing the raised, enlarged vein.",
+   "placement": "stem",
+   "searchTerms": [
+    "arteriovenous fistula forearm",
+    "AV fistula hemodialysis",
+    "dialysis fistula arm"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-08-a",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP4",
+  "topic": "Cerebrovascular accident",
+  "topicId": "medical-surgical-nursing/neuro/cerebrovascular-accident",
+  "noteId": "np4-ns-stroke-nursing",
+  "clusterId": "cp-np4-08",
+  "clusterSeq": 1,
+  "vignette": "Mang Rodel, 70, with long-standing hypertension, collapses at a barangay market. A bystander says he was well 30 minutes ago. The responding nurse finds weakness of the right arm and leg, drooping of the right side of his face and slurred speech. He is awake but confused.",
+  "stem": "Select the cues in the nurse's report that suggest a stroke.",
+  "options": [
+   "History of hypertension.",
+   "Right arm and leg weakness.",
+   "Right facial droop.",
+   "Slurred speech.",
+   "Well 30 minutes ago."
+  ],
+  "answer": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "rationale": "One-sided weakness, facial droop and speech difficulty are classic stroke warning signs, and the time he was last known to be well is essential because treatment decisions depend on timing. Hypertension is a risk factor but not a sign of the current event.",
+  "rationaleSimple": "Weakness on one side, a drooping face and slurred speech are stroke signs, and the time matters.",
+  "optionRationales": [
+   "Risk factor only: hypertension raises stroke risk but is not a sign of the current event.",
+   "Stroke cue: weakness on one side of the body is a classic sign.",
+   "Stroke cue: facial droop on one side is a classic sign.",
+   "Stroke cue: slurred speech shows brain involvement.",
+   "Key information: the time he was last known to be well is essential because treatment decisions depend on timing."
+  ],
+  "strategy": "Recognizes stroke warning signs",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "imageSuggestion": {
+   "description": "Facial drooping on one side of the face and unequal arm raise in an older adult, as used in stroke recognition.",
+   "placement": "rationale",
+   "searchTerms": [
+    "FAST stroke signs",
+    "facial droop stroke",
+    "stroke arm drift test"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-08-b",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Cerebrovascular accident",
+  "topicId": "medical-surgical-nursing/neuro/cerebrovascular-accident",
+  "noteId": "np4-ns-stroke-nursing",
+  "clusterId": "cp-np4-08",
+  "clusterSeq": 2,
+  "vignette": "Mang Rodel, 70, with long-standing hypertension, collapses at a barangay market. A bystander says he was well 30 minutes ago. The responding nurse finds weakness of the right arm and leg, drooping of the right side of his face and slurred speech. He is awake but confused.",
+  "stem": "Mang Rodel shows signs of a stroke at the market. Which action has the highest priority for the nurse?",
+  "options": [
+   "Give him a drink of water to find out whether he can swallow.",
+   "Let him rest at the market stall and see if the weakness improves.",
+   "Note when he was last known to be well and activate emergency transport.",
+   "Give aspirin from a bystander right away in case a blood clot caused the stroke."
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "A stroke is a time-critical emergency. Treatment options depend on when symptoms began or when the client was last well, so the time is recorded and emergency transport is activated without delay. Oral intake is avoided because swallowing may be impaired, and medicines are not given before the type of stroke is confirmed.",
+  "rationaleSimple": "Stroke is an emergency, so note the time and get him to the hospital fast.",
+  "optionRationales": [
+   "Swallowing may be impaired, which risks aspiration.",
+   "Delay reduces the chance of effective treatment.",
+   "Best answer. A stroke is a time-critical emergency.",
+   "The type of stroke is unknown until imaging, and medicines are given only on a provider's order."
+  ],
+  "strategy": "Prioritizes care in suspected stroke",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-08-c",
+  "v": 2,
+  "type": "sata",
+  "area": "NP4",
+  "topic": "Cerebrovascular accident",
+  "topicId": "medical-surgical-nursing/neuro/cerebrovascular-accident",
+  "noteId": "np4-ns-stroke-nursing",
+  "clusterId": "cp-np4-08",
+  "clusterSeq": 3,
+  "vignette": "Mang Rodel, 70, with long-standing hypertension, collapses at a barangay market. A bystander says he was well 30 minutes ago. The responding nurse finds weakness of the right arm and leg, drooping of the right side of his face and slurred speech. He is awake but confused.",
+  "stem": "While waiting for transport, which actions should the nurse take? Select all that apply.",
+  "options": [
+   "Stay with him and note any change in his speech, strength or alertness.",
+   "Keep him on nothing by mouth.",
+   "Keep him safe from falls and reassure him calmly.",
+   "Monitor his level of consciousness and breathing.",
+   "Ask him to stand and walk to test his strength.",
+   "Give him food to keep up his strength."
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "rationale": "Nothing by mouth protects against aspiration, and monitoring consciousness and breathing detects deterioration. Safety, calm reassurance and close observation for any change in speech, strength or alertness give the receiving team useful information. Food and walking are unsafe.",
+  "rationaleSimple": "Nothing by mouth, watch him closely, keep him safe and calm, and avoid walking.",
+  "optionRationales": [
+   "Appropriate: watching for changes in speech, strength or alertness gives the receiving team useful information.",
+   "Appropriate: nothing by mouth protects against aspiration because swallowing may be impaired.",
+   "Appropriate: preventing falls and calm reassurance keep him safe and reduce stress.",
+   "Appropriate: consciousness and breathing may deteriorate and must be watched.",
+   "Wrong: standing and walking risks a fall if one side is weak.",
+   "Wrong: food is unsafe because he may not be able to swallow safely."
+  ],
+  "strategy": "Provides initial stroke care",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-08-d",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP4",
+  "topic": "Increased intracranial pressure",
+  "topicId": "medical-surgical-nursing/neuro/increased-intracranial-pressure",
+  "noteId": "np4-ns-iicp",
+  "clusterId": "cp-np4-08",
+  "clusterSeq": 4,
+  "vignette": "Mang Rodel, 70, with long-standing hypertension, collapses at a barangay market. A bystander says he was well 30 minutes ago. The responding nurse finds weakness of the right arm and leg, drooping of the right side of his face and slurred speech. He is awake but confused.",
+  "stem": "In the hospital, Mang Rodel is monitored for rising intracranial pressure. Select whether each finding is an earlier or a later sign.",
+  "options": [],
+  "answer": [],
+  "rationale": "Early rises in pressure cause subtle changes in alertness, behavior and headache. Late signs such as bradycardia with a widening pulse pressure and a fixed dilated pupil indicate brain compression and are emergencies. Changes in level of consciousness are often the earliest and most sensitive indicator.",
+  "rationaleSimple": "Small changes in alertness come first; slow pulse and a fixed wide pupil come late.",
+  "optionRationales": [
+   "Earlier: subtle restlessness and confusion are among the first signs of rising pressure on the brain.",
+   "Earlier: a new or worsening headache is an early sign of rising pressure.",
+   "Later: a slow heart rate with widening pulse pressure indicates the brain is being compressed.",
+   "Later: a dilated pupil that does not react to light is a late sign of serious compression and an emergency."
+  ],
+  "strategy": "Differentiates early and late ICP signs",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "Restlessness and subtle confusion",
+   "New or worsening headache",
+   "Slow heart rate with widening pulse pressure",
+   "Dilated pupil that does not react to light"
+  ],
+  "columns": [
+   "Earlier sign",
+   "Later sign"
+  ],
+  "rowAnswer": [
+   0,
+   0,
+   1,
+   1
+  ]
+ },
+ {
+  "id": "cp-np4-08-e",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Increased intracranial pressure",
+  "topicId": "medical-surgical-nursing/neuro/increased-intracranial-pressure",
+  "noteId": "np4-ns-iicp",
+  "clusterId": "cp-np4-08",
+  "clusterSeq": 5,
+  "vignette": "Mang Rodel, 70, with long-standing hypertension, collapses at a barangay market. A bystander says he was well 30 minutes ago. The responding nurse finds weakness of the right arm and leg, drooping of the right side of his face and slurred speech. He is awake but confused.",
+  "stem": "Which positioning of Mang Rodel best helps limit rising intracranial pressure?",
+  "options": [
+   "Lying flat in bed with the head turned sharply to one side for comfort.",
+   "Head-down position to increase blood flow to the brain.",
+   "Sitting upright with the hips and neck strongly flexed forward in a chair.",
+   "Head of the bed raised with the neck kept in neutral alignment."
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "Raising the head and keeping the neck neutral promotes venous drainage from the head and avoids increases in pressure. Head-down positions, neck twisting and marked flexion obstruct drainage and may raise pressure.",
+  "rationaleSimple": "Raise the head and keep the neck straight so blood can drain.",
+  "optionRationales": [
+   "Neck twisting can impede venous drainage from the head.",
+   "This raises intracranial pressure.",
+   "Strong flexion obstructs venous return from the head.",
+   "Best answer. Raising the head and keeping the neck neutral promotes venous drainage from the head and avoids increases in pressure."
+  ],
+  "strategy": "Positions client with increased intracranial pressure",
+  "difficulty": 3,
+  "bloom": "apply",
+  "imageSuggestion": {
+   "description": "Client lying in bed with the head of the bed raised about 30 degrees and the head and neck in neutral alignment.",
+   "placement": "rationale",
+   "searchTerms": [
+    "head of bed 30 degrees",
+    "neutral head position intracranial pressure",
+    "Fowler position bed"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-09-a",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Seizure",
+  "topicId": "medical-surgical-nursing/neuro/seizure",
+  "noteId": "np4-ns-seizure-types",
+  "clusterId": "cp-np4-09",
+  "clusterSeq": 1,
+  "vignette": "Ana, 24, has epilepsy and is admitted to a district hospital after missing her anticonvulsant doses for several days. While sitting in a chair at her bedside, she suddenly stiffens, falls to the floor and begins rhythmic jerking of all limbs. A nurse is the first to reach her.",
+  "stem": "Which action should the nurse take first during the seizure?",
+  "options": [
+   "Hold her arms and legs down firmly to stop the jerking and keep her still.",
+   "Protect her from injury by clearing the area and cushioning her head.",
+   "Place a folded spoon between her teeth so that she cannot bite her tongue.",
+   "Pour cold water over her face to wake her from the seizure."
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "During a generalized seizure the nurse protects the client from harm, notes the time and characteristics, and never restrains her or places objects in her mouth. Once the jerking stops she is turned to the side to protect the airway.",
+  "rationaleSimple": "Keep her safe from injury and do not hold her down or put anything in her mouth.",
+  "optionRationales": [
+   "Restraint can cause fractures and does not stop the seizure.",
+   "Best answer. During a generalized seizure the nurse protects the client from harm, notes the time and characteristics, and never restrains her or places objects in her mouth.",
+   "Objects in the mouth can break teeth and obstruct the airway.",
+   "This does not stop a seizure and risks aspiration."
+  ],
+  "strategy": "Protects client during a seizure",
+  "difficulty": 2,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-09-b",
+  "v": 2,
+  "type": "sata",
+  "area": "NP4",
+  "topic": "Seizure",
+  "topicId": "medical-surgical-nursing/neuro/seizure",
+  "noteId": "np4-ns-seizure-types",
+  "clusterId": "cp-np4-09",
+  "clusterSeq": 2,
+  "vignette": "Ana, 24, has epilepsy and is admitted to a district hospital after missing her anticonvulsant doses for several days. While sitting in a chair at her bedside, she suddenly stiffens, falls to the floor and begins rhythmic jerking of all limbs. A nurse is the first to reach her.",
+  "stem": "Which observations should the nurse record about the seizure? Select all that apply.",
+  "options": [
+   "Any injury she sustained",
+   "Time the seizure started and how long it lasted",
+   "Her condition and orientation after the seizure",
+   "Her opinion of the hospital food",
+   "Body parts involved and the type of movements",
+   "Whether she lost consciousness"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   4,
+   5
+  ],
+  "rationale": "Precise documentation of onset, duration, the pattern of movements, loss of consciousness, post-seizure state and injuries helps the team classify the seizure and adjust treatment. Her opinion of the food is unrelated.",
+  "rationaleSimple": "Record when it started and ended, what happened, her awareness afterwards and any injury.",
+  "optionRationales": [
+   "Record: any injury is important for follow-up care.",
+   "Record: the time and duration help classify the seizure and guide treatment.",
+   "Record: her condition and orientation afterwards show how she is recovering.",
+   "Do not record as a seizure finding: her opinion of the food is unrelated.",
+   "Record: which body parts were involved and the type of movement help classify the seizure.",
+   "Record: loss of consciousness is an important feature of the seizure type."
+  ],
+  "strategy": "Documents seizure activity",
+  "difficulty": 2,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np4-09-c",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP4",
+  "topic": "Seizure",
+  "topicId": "medical-surgical-nursing/neuro/seizure",
+  "noteId": "np4-ns-seizure-types",
+  "clusterId": "cp-np4-09",
+  "clusterSeq": 3,
+  "vignette": "Ana, 24, has epilepsy and is admitted to a district hospital after missing her anticonvulsant doses for several days. While sitting in a chair at her bedside, she suddenly stiffens, falls to the floor and begins rhythmic jerking of all limbs. A nurse is the first to reach her.",
+  "stem": "Complete the statement about care after the jerking stops.\n\nAfter the seizure the nurse should turn the client to the {{1}} position to protect the airway and then monitor her {{2}}.",
+  "options": [],
+  "answer": [],
+  "rationale": "A side-lying position lets saliva drain and reduces the risk of aspiration after a seizure. Breathing and level of consciousness are monitored until she is fully awake, because the post-ictal period can include drowsiness and confusion.",
+  "rationaleSimple": "Turn her on her side and watch her breathing and alertness.",
+  "optionRationales": [
+   "Side-lying: it lets saliva drain and reduces the risk of aspiration. Lying flat on the back or prone is less safe for the airway.",
+   "Breathing and level of consciousness: they are monitored until she is fully awake because drowsiness and confusion follow a seizure. Appetite and visitors are not the priority."
+  ],
+  "strategy": "Provides post-seizure care",
+  "difficulty": 2,
+  "bloom": "recall",
+  "imageSuggestion": {
+   "description": "Person in the recovery (lateral) position on their side with the upper leg bent and head tilted slightly back.",
+   "placement": "rationale",
+   "searchTerms": [
+    "recovery position",
+    "lateral recumbent position",
+    "first aid recovery position"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "blanks": [
+   {
+    "choices": [
+     "side-lying",
+     "supine with head flat",
+     "prone"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "breathing and level of consciousness",
+     "appetite only",
+     "visitors"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "cp-np4-09-d",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP4",
+  "topic": "Seizure",
+  "topicId": "medical-surgical-nursing/neuro/seizure",
+  "noteId": "np4-ns-seizure-types",
+  "clusterId": "cp-np4-09",
+  "clusterSeq": 4,
+  "vignette": "Ana, 24, has epilepsy and is admitted to a district hospital after missing her anticonvulsant doses for several days. While sitting in a chair at her bedside, she suddenly stiffens, falls to the floor and begins rhythmic jerking of all limbs. A nurse is the first to reach her.",
+  "stem": "The nurse teaches Ana's family how to help during a future seizure. Select whether each action is appropriate or should be avoided.",
+  "options": [],
+  "answer": [],
+  "rationale": "The family should keep her safe, time the event and place her in a side-lying position afterwards. Restraining her or putting objects in her mouth can cause injury and airway problems.",
+  "rationaleSimple": "Stay, time it, clear the area and turn her on her side; never hold her down or put things in her mouth.",
+  "optionRationales": [
+   "Appropriate: staying with her keeps her safe and noting the time helps the team.",
+   "Avoid: objects in the mouth can break teeth or block the airway.",
+   "Appropriate: moving hard or sharp objects away prevents injury.",
+   "Avoid: holding her down can cause injury and does not stop the seizure.",
+   "Appropriate: turning her onto her side after the jerking stops protects her airway."
+  ],
+  "strategy": "Teaches family seizure first aid",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "Stay with her and note the time the seizure begins",
+   "Put a wallet or spoon in her mouth",
+   "Move hard or sharp objects away from her",
+   "Hold her arms and legs down",
+   "Turn her onto her side when the jerking stops"
+  ],
+  "columns": [
+   "Appropriate",
+   "Avoid"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   0,
+   1,
+   0
+  ]
+ },
+ {
+  "id": "cp-np4-09-e",
+  "v": 2,
+  "type": "single",
+  "area": "NP4",
+  "topic": "Seizure",
+  "topicId": "medical-surgical-nursing/neuro/seizure",
+  "noteId": "np4-ns-seizure-types",
+  "clusterId": "cp-np4-09",
+  "clusterSeq": 5,
+  "vignette": "Ana, 24, has epilepsy and is admitted to a district hospital after missing her anticonvulsant doses for several days. While sitting in a chair at her bedside, she suddenly stiffens, falls to the floor and begins rhythmic jerking of all limbs. A nurse is the first to reach her.",
+  "stem": "Which situation after a seizure should the family be taught is an emergency requiring immediate medical help?",
+  "options": [
+   "A seizure that does not stop, or repeated seizures without waking in between.",
+   "Drowsiness and mild confusion that gradually improve after a single short seizure.",
+   "A mild headache and sore muscles after she has woken up from a seizure.",
+   "Feeling very tired and wanting to sleep for a few hours after the seizure."
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "A prolonged seizure or repeated seizures without recovery (status epilepticus) can cause lasting brain injury and breathing problems and require emergency care. Drowsiness, headache and tiredness are common after a single seizure.",
+  "rationaleSimple": "A seizure that will not stop, or one after another without waking, is an emergency.",
+  "optionRationales": [
+   "Best answer. A prolonged seizure or repeated seizures without recovery (status epilepticus) can cause lasting brain injury and breathing problems and require emergency care.",
+   "Drowsiness after a seizure is common.",
+   "Headache and soreness after a seizure are common and are not an emergency.",
+   "Fatigue is an expected post-ictal effect."
+  ],
+  "strategy": "Identifies status epilepticus",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ }
+]

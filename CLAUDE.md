@@ -1,5 +1,48 @@
 # Ruflo — Claude Code Configuration
 
+> **NEW SESSION? READ `FLY8 Study/HANDOFF.md` FIRST** (full state, in-flight work, next steps, gotchas). It was written 2026-10-16 and is the most detailed record; the sections below are the standing rules.
+
+## PROJECT GOAL — read this first every session
+
+**Building:** a personal-use Nursing Study App (Gizmo + AnkiDroid hybrid, nursing focus e.g. NP1). Owner is a "vibe coder": explain simply, be honest about what is untested. Security is not a concern (single user); do not over-engineer it.
+
+**What it must do (owner's 10-point plan):**
+1. Folders by subject (e.g. "NP1 Nursing"); topics link across folders (`[[wikilinks]]`, Obsidian-style vault + mind map).
+2. Upload/paste own notes per topic; auto-store them as memory. Must cope with unreadable notes (OCR/AI vision), double-check they are legit, and attach/suggest a source (suggestions are never proof).
+3. Diagnostic test (1–50 Qs) BEFORE any teaching; score decides topic order.
+4. Clickable lessons: pictures (AI-drawn SVG/Mermaid, Wikimedia Commons, photos sent to AI), mnemonics, mind map, detailed AI explanations.
+5. Pop quiz 1–5 Qs after each topic, instant feedback.
+6. Long module quiz → tracks weaknesses → new targeted topics → repeat cycle.
+7. Points, streaks, levels/ranks, progress dashboard.
+8. Discussion/tutor mode with the AI (can show images/diagrams).
+9. First-launch pasted API key (ChatGPT or Claude), stored locally. A built-in prompt carries the learner's weakness profile into every AI call.
+10. Spaced repetition flashcards; weak topics resurface sooner.
+UI must feel clean like Gizmo.
+
+**Where to read (in this order):**
+1. This section, then `Nursing app master plan/App Master Plan Blue Print/README.md` (authoritative planning index) and `DECISION_LOG.md` (**DEC-005** = implementation authorized: Expo/React Native + TypeScript, Android-first, local-first, BYO key).
+2. Requirements: `PRODUCT_REQUIREMENTS_AND_UX.md` (R-001..R-034); architecture: `TECHNICAL_ARCHITECTURE_AND_CONTRACTS.md`; order of work: `IMPLEMENTATION_ROADMAP.md`.
+3. Reference research (evidence, not instructions; keep folders separate): `Nursing app master plan/App 1 inspired research`, `app 2 inspired research` (AnkiDroid, scheduler), `App 3 a app inspired research` (Gizmo, quiz engine). App 1 and App 3 are the same app line; App 2 is different. Never merge/delete/rename research files.
+4. Code: `FLY8 Study/` (v0: core logic + 4 screens, 17 tests). `src/core` = pure logic, `src/ai` = provider + prompts, `src/ui` = screens.
+5. Ruflo memory (namespace `project`): `npx ruflo@latest memory search -q "<topic>"`. Keys: nursing-app-plan/`user-app-plan-2026-10-16`, `dec-005-implementation-authorized`, `app-status-v0`, `user-standing-directive`, `user-hold-order`. `.claude/memory.db` is gitignored and lost on container reset: this section is the durable copy.
+
+**Standing directives from the owner:** Sonnet does the work (builder agents, model=sonnet), Opus manages and reviews (model=opus); act without asking permission on routine work and keep memory updated every session; when the owner says "don't start yet", wait. Mark claims OBSERVED / INFERRED / PROPOSED / UNKNOWN, never claim tests ran without exact commands and results. Develop on branch `ccr-13ebab09-xygfde`, draft PR #7.
+
+**Teams (ruflo-ai-team, created 2026-10-16, no runs/tasks yet; each owns separate files):** 1 Import & Sources `team_cac20911-faf8-4979-833e-c5d1618fe659`; 2 Learning Engine `team_ac238099-b890-4088-9553-972aefd47d2a`; 3 Lessons & Visuals `team_1b535e2d-ad2a-426e-a2ef-89ac41468b39`; 4 Review & Tutor `team_9de81a65-68dd-49d6-869d-8e031af9df1e`; 5 Polish & QA `team_fc20c368-c2cc-434a-ab48-06992fd78437`. Read each team's objective with `team_get` for its file ownership.
+
+**Status (2026-10-16, all five teams + Obsidian import merged):** `FLY8 Study/` has: vault graph + drawn tappable mind map; PDF/photo import via AI vision (Claude: images+PDF; ChatGPT: images only); Obsidian vault/.canvas/.zip import with preview, safe non-destructive merge, topic aliases, optional AI matching; readability + chunk provenance + AI double-check with unverified source suggestion; mastery/plan/points/streak; diagnostic gate; pop quiz (1-5), module quiz (typing, cloze, matching, ordering and choice questions; hint button, inline AI Explain, hard round; hinted correct answers earn half points), weakness-to-fix-topics loop; lessons (mnemonic, key facts, exam traps, sanitized AI SVG diagrams, Wikimedia images with credit, saved offline); flashcards + SM-2-lite spaced repetition (not FSRS, not AnkiDroid parity) with Anki-style deck list (New/Learning/Due per topic) and a 0-100 'Focus' score per card (lapses, recent misses, low ease, weak topic, new, overdue; see src/srs/focus.ts) driving a 'Focus on weak spots' session + tutor chat answering from notes first; Obsidian export; backup export/import now includes lessons, cards/reviews and tutor chat (never the key); Home dashboard with due-card count, key onboarding with test button, scrollable 8-tab bar, CI workflow, device checklist. Checked by lead: 199 unit tests pass, tsc clean, Android bundle builds. KNOWN GAPS: quiz/diagnostic resume after app is killed; module-result persistence; folder picker (Study uses first folder); tutor shows diagrams as code blocks; merge-time alias storing has no dedicated test. NEVER run on a device, never run against a live AI or real Obsidian vault.
+
+**PNLE QUESTION STUDIO (accepted by owner 2026-10-16):** Team 6 `team_0d2c58e0-6d9e-47f7-8456-464991f59acb`, run `run_59bea330-e74d-495f-b8e7-4cab4d7bf250` (tasks T1 research, T2 archetypes, T3 ~100 gold then ~1000 original items, T4 long prompt + retriever + strategy chip, T5 verification). Hard rules: NEVER copy or reconstruct real PNLE items (confidential/copyrighted; recalled-question sites are off limits); original items only, flagged aiWritten/nurseReviewed:false. RESOLVED by T1 (second-hand: the official PRC PDFs could not be fetched): NP1 is NOT 'Foundation of Professional Nursing Practice'; it is Community Health Nursing. Fundamentals, ethics and pharmacology run through all five tests. See `FLY8 Study/data/pnle/research.md` and `archetypes.json` `pnleAreaNames`. Merged so far: T1 research, T2 archetypes (31). Next: T3 exemplars, T4 prompt + retriever, T5 verification.
+
+**CHANGE OF PLAN (owner, 2026-10-16): NO PAID API.** Owner has only a ChatGPT Go subscription (and no API credits); API usage is billed separately from chat subscriptions. New default = **manual copy-paste mode** (provider 'manual'): the app builds a complete, detailed prompt (PNLE rules + learner weakness profile + notes + strict output format), the owner copies it into ChatGPT/Claude (their app), copies the reply, and pastes/uploads it back; the app validates it and creates the quiz/lesson/cards/topics. Plus a **Prompt Maker** screen ('I'm weak at X -> give me the prompt') with `detectReplyKind` to route the pasted reply, and a saved quiz bank so generated quizzes work offline. Keep the API-key mode as an optional advanced setting. Photo/PDF import in manual mode = owner attaches the photo in ChatGPT themselves using the app's transcription prompt. Keep batches small for ChatGPT Go message limits. Builders: A = manual bridge + settings/onboarding + routing of callModel/vision/tutor; B = Prompt Maker + reply detection + quiz bank. T4 (PNLE long prompt) is reused by both.
+
+**PNLE status (2026-10-16):** T1 research, T2 archetypes (31), T3 100 original gold items (`FLY8 Study/data/pnle/gold.json`, per-area files in `gold/`), T4 long prompt + retriever + strategy chip merged; T5 blind check done (`data/pnle/verification.json`): 100/100 keys matched an independent Opus solve, but 30 items have quality concerns and the items are easier than their difficulty labels. Scale-up to ~1000 is ON HOLD until the 30 flagged items are fixed (harder distractors, no vignette-restates-answer, remove near-duplicates np3-016/np5-004 and np4-006/np5-007) and a nurse spot-checks a sample. All items are aiWritten:true, nurseReviewed:false.
+
+**NEXT UPDATE QUEUE (owner requests, not built yet):**
+1. **PNLE-style nursing prompt** (owner, 2026-10-16: "study like I'm reviewing for the board exam, PNLE, questions where you must use your brain, using Maslow"). Replace the generic 'NP1-style / NCLEX-style' wording in `FLY8 Study/src/ai/prompts.ts` (learnerProfile, QUESTION_SHAPE, TOPIC_QUESTION_SHAPE) and `src/ai/quizPrompts.ts` with one shared PNLE prompt module. Design: situational vignette questions (patient data, then 'priority / first / initial / most appropriate / needs immediate attention'); reasoning order Maslow (physiological before safety before love/belonging...), ABCs (airway, breathing, circulation), safety, nursing process (assess before intervening), least invasive first, acute before chronic, unstable before stable; delegation and scope-of-practice questions; therapeutic communication; infection control; 4 choices with plausible distractors; rationale must say why the answer is right, why each wrong option is wrong, and which strategy decided it (e.g. 'Maslow: oxygenation first'); tag each question with its strategy and PNLE area (current structure per T1 research, INFERRED from search summaries, official PDF unread: NP1 Community Health Nursing, NP2 Mother and Adolescent + Human Growth and Development, NP3 Surgery/Oxygenation/Fluids-Electrolytes/Infection-Immune/Cellular, NP4 Nutrition-GI/Metabolism-Endocrine/Perception-Coordination, NP5 Psychiatric + Life-threatening/Emergency; see FLY8 Study/data/pnle/research.md). Rules: stay inside the learner's notes where possible, mark AI-added facts for textbook check, never invent drug doses or guidelines, say when unsure, no patient-specific advice. Add a visible 'strategy' chip on the quiz feedback and a test that every generated question carries a rationale + strategy.
+
+- FUTURE IDEAS are parked in `FLY8 Study/docs/FUTURE_PLAN.md`; do NOT build them unless the owner asks in a new request.
+
 ## Rules
 
 - Do what has been asked; nothing more, nothing less
@@ -222,3 +265,120 @@ npx ruflo@latest doctor --fix
 > by default; `--ttl 0` to disable, `daemon status --all` to audit running daemons).
 
 **Agent tool** handles execution (agents, files, code, git). **MCP tools** handle coordination (swarm, memory, hooks). **CLI** is the same via Bash.
+
+**PRESET LIBRARY (2026-10-17, Team 8 `team_3ec96d18-09cf-4775-899f-dc5b348d9cab`, run `run_79ce1d0d-bd54-4926-8e12-7ceae3eebb90`):** `FLY8 Study/data/presets/*.json` now holds 793 AI-written notes in 14 packs (NP1 community + communicable, NP2 OB + pedia, NP3 cardio/resp + blood/cancer/surgery + fluids/burns/renal, NP4 ortho + neuro/senses + GI/endocrine, NP5 psych/emergency, GEN: fundamentals, pharmacology, laws/management/research). 690 were rewritten (own words, 0.3% 10-gram overlap, checked) from the owner's 20 review-handout PDFs; the PDFs and extracted text are NOT in the repo (scratchpad only; keep it that way). Each note has a "Check against your textbook" section; builders flagged many wrong/garbled handout facts (law numbers, doses, lab values): nothing is nurse-reviewed. Known gaps: handout text for HIV/AIDS cut off, antidiabetic drug section missing in pharmacology handout, NP area placement of some packs is a guess (GEN = all exams). Saved state is now sharded across AsyncStorage keys (`src/core/shards.ts`) so a full library does not hit Android's ~2MB value limit. Single-file reader: `FLY8 Study/scripts/reader` (build_reader.py), published as an Artifact. New UI (indigo, 5 tabs) merged; legacy screens (Library, Lesson, Tutor, Settings, Graph, Review) still need the second design wave. Prompt Maker/quiz bank and PNLE question fixes still deferred by owner.
+
+**GEMINI x CLAUDE DRIVE WORKFLOW (2026-10-20):** Drive root "FLY8 Study - Gemini Workspace" (id 1Vh83lyrOIRzEnwcWMqUNjhBiXlUrkQL0). Gemini's single order is the Drive doc "00 MASTER PLAN v2 - READ FIRST" (copy: fly8claude2 `03-fly8-study-nursing-app/planning/GEMINI_MASTER_PLAN_V2.txt`; kickoff text GEMINI_KICKOFF_V2.txt). Old mission/task board/sources pipeline docs are trashed. Disease notes have 15 required headings, with Medical management (doctor), Pharmacologic care, and Independent vs Collaborative ("As ordered:") nursing interventions kept apart. Drug-class notes have 11. Ops carry a `crosscheck` (2+ sources: shelf textbook + official online). To read a shared Gemini chat link in ONE step run `node scripts/gemini/readShare.mjs <link> <out.txt>` (headless browser; do NOT try curl/WebFetch first, they only get an empty page). Merge with `npm run gemini:apply` (scripts/gemini/patchCore.mjs). On "check outbox": read 04 Gemini outbox, apply, push, write a receipt to 05, and sync to fly8claude2 main (APK builds there). The 64 owner sources: textbooks are cross-checkers; review books and workbooks are concepts only; test banks and board papers go to HOLD.
+
+**STANDING DIRECTIVE (owner, 2026-10-20): GEMINI IS OUR SECOND AGENT.** Gemini (Pro, via the owner's Google Drive) does the heavy work: reading and sorting sources, extracting, expanding and writing notes, cross-checking, and drafting new questions. Claude is the coder, checker and release owner: it writes Gemini's orders on Drive, checks and merges Gemini's output with the harness, pushes to GitHub, builds the APK and writes receipts. Do not spend Claude tokens on bulk reading or writing that Gemini can do; give it to Gemini as a task in the master plan instead.
+
+**DIVISION OF LABOR (owner, 2026-10-20):** Claude moves/sorts/renames Drive files (cheap; Gemini hits a per-reply action cap). Gemini does anything that means reading sources and expanding/writing content, and must VERIFY every note (2-source cross-check) before sending.
+
+**MASTER PLAN v2.1 ADDENDUM (owner, 2026-10-20):** Drive doc "00 MASTER PLAN v2.1 - ADDENDUM". Gemini expands, verifies and cross-checks everything (no separate extract phase). The PNLE TOS spreadsheet (HOLD folder) is Gemini's guide to which topics have no note yet (GAP-<area> tasks, then add ops). Every note and question needs a textbook + an online source in `crosscheck`. Target about 1,000 new questions per NP area, 20 per reply, each with rationale and noteId. Question harness BUILT: `src/gemini/questionPatch.ts` (+ tests/geminiQuestions.test.ts); CLI: `QREPLY=<reply.txt> QOUT=data/bank/gemini/<file>.json QREPORT=<md> npm run gemini:questions` (QDRY=1 for a dry run). Patch shape: {task,batch,questions:[{item:BankItem v2, crosscheck}]}, ids np1-gx-0001.. (np1..np5, gen), noteId must exist, review forced unreviewed. Then run `npm run bank:gen`.
+
+**MASTER PLAN v2.2 (owner, 2026-10-20):** Drive doc "00 MASTER PLAN v2.2 - TOPRANK PRIORITY". Every Learn-tab note (all 974) is expanded and longer (disease notes ~3,500-9,000 chars) and verified. Toprank Guide Book + TopRankReviewerMerged are the PRIORITY GUIDE for what to include and for easy-to-digest shortcuts (own words, optional "## Quick memory aids" after Exam traps), but are NOT proof: each note still needs a shelf textbook + real https link in `crosscheck`; disagreements go in `doubts`. 5 parallel Gemini chats, one per NP area (+GEN).
+
+**ROLES (owner, 2026-10-20):** Opus = manager/reviewer; Sonnet = builder (spawn coding agents with model "sonnet"). Gemini Pro = content writer; Gemini Flash Lite = misinformation checker (brief: Drive doc "00 VERIFIER BRIEF - GEMINI FLASH"; owner tags Claude with its OK/FIX/DOUBT reports). Flash may also propose code: treat it like any outside patch (Claude reviews, runs tsc + vitest, then merges; Flash never pushes). Progress truth = Drive doc "00 CLAUDE STATUS - DONE NOTES" (replace it after every merge). Shared Gemini chat links: `node scripts/gemini/readShare.mjs <link> <out.txt>` in one step.
+
+**WORK MOVED TO fly8claude2 (owner, 2026-10-26):** Drive is reference only. Develop in FL8Y/fly8claude2 `03-fly8-study-nursing-app/app` (branch ccr-13ebab09-xygfde -> PR -> merge to main; owner wants live, auto-merged updates). Codex/ChatGPT also works there in `chatgpt loop/` (audits of Lordahn's Tracker HTML); coordinate via `03-fly8-study-nursing-app/TEAM9_HANDOFFS.md`. PR #16 merged: tracker fusion (1,000 notes), Learn tab area/topic-group filters + bookmarks, February Board Guide (`data/guide/february-guide.json`, official PRC NP1-NP5 program: NP3 = Human Growth and Development, NP5 = psych + life-threatening/high acuity). Team roles: 2 Opus reviewers, 2 Sonnet builders, 2 Haiku UI builders, each in its own git worktree under /home/user/wt.
+
+**NOTE STANDARD (owner, 2026-10-26):** the rulebook is FL8Y/fly8claude2 `03-fly8-study-nursing-app/NOTE_QUALITY_STANDARD.md`. Every note shows coloured boxes driven by its `## ` headings: NURSE DOES THIS, DOCTOR'S PART, AS ORDERED, WARN, EXAM, TIP. Each note also has a hand-written "At a glance" table and handpicked Wikimedia pictures (PD/CC0/CC BY/CC BY-SA only; Claude reviews every picture as an image, and a wrong picture is worse than none). No drawn tile/arrow SVG cards. Exam scope = BON Res. 10 s. 2025 Annex A: NP2 holds Human Growth & Development, NP3 is med-surg; see `research/PNLE_2026_SOURCE_OF_TRUTH.md`. All 2026 TOS topics are high priority. Outside agents (ChatGPT/Codex/Gemini) only open draft PRs; Claude tests, reviews and merges.
+
+**GEMINI BULK DOCX WORKFLOW (owner, 2026-10-26; preferred, saves Claude tokens):** give Gemini big jobs that it writes into ONE long Google Doc (100-200 pages): a `PACK: data/presets/<pack>.json` heading plus one JSON patch per pack, smart quotes off, exported as .docx. Process it with `python3 -I scripts/gemini/docx_to_patches.py <docx> <dir>`, then `node scripts/gemini/apply.mjs` per patch (dry-run first, review flagged doses), then tests, then merge. The first run delivered 44 notes, all accepted.
+
+**SESSION STATE (2026-10-27):** Merged to fly8claude2 main: PR #48 (board simulation, At a glance flashcards, notes saved by reference), #51 (question harness rejects a correct option that is the longest and over 1.3x the others), #52 (ChatGPT answer-key fixes for NP1, NP3, NP4, NP5). Still waiting: NP2 verify report; Gemini set 1 resend (all 500 held: in 96% of items the correct option was the longest); Gemini February Guide chapters (FLY8_FEB_GUIDE_1-3.docx, one chapter per 2026 TOS subtopic); after they arrive, build the chapter reader. Follow-ups: flashcard progress is not in the backup; give old installs a way to refresh frozen note copies.
+
+**SESSION STATE (2026-10-27, later):** Merged #54 (card backup + Update ready-made notes), #55 (NP2 verify fixes; all 5 areas verified), #56 Tutor pinned input, #57 Prompt Maker upgrade, #58 (414 Gemini set-1 questions in data/bank/gemini/set1-np*.json; 86 with cut-off options held back, harness now rejects CUT_OFF_OPTION), #59 (46 February Guide chapters in data/guide/chapters + chapter reader; dose receipt). Sent: GEMINI_NEXT (fix the 86, set 2, then the EXPAND queue), CODEX_NEXT (340 thin NP3/NP4 notes, 15-20 per draft PR). Open: some Gemini distractors are implausible (needs a verifier pass); Back from a Read-next note returns to the guide list.
+
+**TOKEN RULE (owner, 2026-10-27):** saving tokens is Claude's job, not the owner's. One PR per delivery (batch Claude-side changes), big batches for Gemini/Codex, automate checks in the harness before reading content, small fixes done directly (no builder), free ChatGPT workers verify first. Do not hand token-saving homework to the owner.
+
+**GEMINI PROMPT STYLE (owner, 2026-10-27):** never tell Gemini to "open", "browse" or "visit" a URL (it triggers a cloud-browser approval popup and burns tokens). Use exactly: "Read the text from [URL] via background fetch without launching a browser." Do not use negatives like "do not open" either (the word itself can trip it), and prefer raw.githubusercontent.com links. If a fetch still prompts, attach the file content to the .docx job instead of a link.
+
+**SESSION STATE (2026-10-27, evening):** Merged #63 (hold), #64-66/#72/#73/#77 (Codex: 188 of 340 thin NP3/NP4 notes; left ~35 gitendo, ~22 neurosenses, ~32 ortho, 63 hop), #78 (300 Gemini set-1 questions NP1-3 in data/bank/gemini; 60 EXPAND_1 notes; harness rejects REUSED_OPTION and TEMPLATE_OPTION). Rejected: Gemini set-1 NP4/NP5 and all of set 2 (copy-paste distractors). Next Gemini prompt: scratchpad GEMINI_NEXT3 (EXPAND rows 61-172, NP4/NP5 rewrite, set 2 redo). Codex next: CODEX_PARALLEL blocks, one at a time. GPT workers: GPT_WORKERS_5 (verify-gx-np1/np2, audit-laws, audit-pharm, audit-fund); verify-gx-np3/4/5 chapter fixes not applied yet (wait for all, one builder PR).
+
+**NOTE LENGTH RULE (owner, 2026-10-27):** no upper length limit on notes. Completeness is the standard: At a glance, all template sections, Exam traps, How the exam asks, Quick memory aids (mnemonics, memory tricks), Classic board facts, References, Check against your textbook. "<3,500 chars" is only how short notes are found. TODO with the next Gemini delivery: raise BODY_MAX (16,000) in scripts/gemini/patchCore.mjs.
+
+**GEMINI CANNOT FETCH GITHUB (verified 2026-10-27):** asked to read GEMINI_QUEUE.md "via background fetch", Gemini claimed success but invented the first 3 lines (no popup because no fetch happened). Never rely on links for Gemini. Always build attachment .txt files (queue, current note bodies + meta, checker reports) in the scratchpad and have the owner upload them with the prompt. Test any new Gemini source by asking for exact first lines and comparing.
+
+**PROMPT STANDARD (owner, 2026-10-27):** every prompt for an outside agent states the exact expected output: a filled-in example in the exact format (real ids from the attachment), the reading checks Claude will do, and the machine checks that auto-reject, plus a self-check before export and a required NOTES FOR CLAUDE with counts. Reference prompt: scratchpad GEMINI_PROMPT_FINAL.txt.
+
+**UI REBUILD (owner, 2026-10-27, IN PROGRESS):** make FLY8 Study look and work like NLE BoardPal (every feature except login/payments/partners/admin/leaderboard), notes grouped 1:1 into their 46 cram-sheet topics (6 groups), Study Plan with Rebalance (no Recalibrate, owner corrected). Colours: CREAM + BLUE + soft pastels (owner rejected green). FULL HANDOFF (durable, in git): FL8Y/fly8claude2 branch ui-rebuild (PR #89) file `03-fly8-study-nursing-app/HANDOFF_UI_REBUILD.md` + `03-fly8-study-nursing-app/planning/ui-rebuild/` (specs, reference details, parity table, Codex prompt). READ IT FIRST. Builders: /home/user/wt/uiA (ui-design-v2), /home/user/wt/planB (study-plan-v2). Codex prompt: scratchpad CODEX_PARITY.txt. Stop at ~90% usage for Codex/Gemini headroom.
+
+**OUTSTANDING JOBS (2026-10-27 close):**
+- **Codex:** CODEX_NEXT_2 has been sent. It asks Codex to fix PR #88 references (61 bare medlineplus home links, 39 identical WHO PHC links, "topics on <title>" template lines), then do Part 2 (46 topics) and Part 3 (engines), then a new Part 5: a cram-sheet block parser in src/core (:::summary/formula/example/compare/signmap/diagram/hook/steps) plus sheetPages.ts and lintSheets.mjs.
+- **Gemini:** GEMINI_SHEETS_PROMPT is a pilot that rewrites 30 np4-neurosenses notes into cram-sheet blocks inside the existing ## sections. Gemini returns FLY8_SHEETS_1.docx; process it with docx_to_patches + apply.mjs.
+- **Checks on Gemini's return:**
+  - Verify every Wikimedia file name and its licence.
+  - Fences balanced; headings unchanged; no tables outside At a glance.
+
+**ROLE CHANGE (owner, 2026-10-27):** Claude (with Sonnet builders) does the HEAVY builds from now on. Codex only supplements with smaller, token-light tasks that can run on its lighter "Sol" model; the high "Astra" setting burned all Codex usage in under 2 minutes. Size Codex prompts small and mechanical.
+- **Codex (latest, replaces CODEX_PARITY / CODEX_NEXT_2):** CODEX_LIGHT_1. Step 0 stops all old Codex work and leaves PR #88 untouched; Claude finishes the references.
+  - JOB 1: data/topics/topics46.json (the exact 46-topic list) + tests.
+  - JOB 2: read-only report scripts that write docs/reports/references.md and sections.md, + tests.
+  - Everything else (the 46-topic note mapping, engines, sheet parser, reference fixes) is now CLAUDE's.
+
+**SESSION STATE (2026-10-28):**
+- **PR #94 merged:**
+  - Codex #91 (sheet block parser), #92 (46-topic map in data/topics/topics.json, all 1,050 notes) and #93 (thin engines);
+  - Rea Pal photos and names of real people removed;
+  - planning/ui-rebuild/MASTER_PLAN.md (THE plan; sections A-F).
+- **Builders running** (Sonnet, worktrees /home/user/wt/pA, pB, pC; branches r2-pA, r2-pB, r2-pC, all off round2):
+  - **A:** Study Plan v2 on the 46 topics with topic BLOCKS (owner: no more "random topics per day"), setup card, plan polish.
+  - **B:** question player tools.
+  - **C:** Mock Boards, Performance, Vault, Home weak spots, Achievements, Timer.
+  - Merge all three into one PR, add the App.tsx wiring, check screenshots.
+- **Sent:**
+  - Codex: CODEX_LIGHT_2 (read-only reports: references, sections, topics).
+  - Gemini job 1: GEMINI_SHEETS_PROMPT + ATTACH_SHEETS (30 neuro notes into cram blocks).
+  - Gemini job 2: GEMINI_THIN_PROMPT + ATTACH_THIN (46 new notes for 9 thin topics).
+- **Next for Claude:**
+  - D: Learn = Cram Sheets + paged sheet reader;
+  - E: flashcards;
+  - fix PR #88 references myself.
+- **2026-10-28 update: Gemini is OUT for now** (usage 0% at every reset). Its content jobs move to CLAUDE (Sonnet builders):
+  - the cram-sheet block conversion (GEMINI_SHEETS_PROMPT spec + ATTACH_SHEETS);
+  - the 46 thin-topic notes (GEMINI_THIN_PROMPT spec + ATTACH_THIN).
+  - Codex prompt is now CODEX_LIGHT_3 (read-only reports: references, sections, topics, photos).
+- **2026-10-28 (later):**
+  - Merged Codex #97 (report scripts: npm run report:refs/sections/topics; docs/reports/*.md) and #98 (report:photos).
+    - Findings: 102 old-format notes miss Exam traps / Memory aids / References; 52 miss How the exam asks; 9 picture licences are not allowed; 6 topics have < 8 notes.
+  - Closed PR #88 (generic references).
+  - Codex now runs on Sol 6.1 MEDIUM, prompt CODEX_MEDIUM_1:
+    - photo licence fixes;
+    - What's New screen (unwired: src/ui/whatsnew/WhatsNew.tsx + data/changelog/changelog.json);
+    - complete the 102 old notes.
+  - GPT workers: GPT_WORKERS_6 (microcopy, covers, motivation, phone-test, picture-hunt), folders planning/gpt/<name>.
+  - Round 2 integration branch r2-int (/home/user/wt/int2): B + C merged and wired (1,490 tests, e2e 19/19). Waiting on builder A (plan v2), then ONE PR.
+- **STUDY HINTS (owner, 2026-10-28):** the owner loves the sticky note and wants a ready-made hint on EVERY multiple-choice question, like "ABC: breathing before diet teaching. Re-read Maslow."
+  - **Data (Codex, CODEX_MEDIUM_2):** data/bank/hints/** as {itemId, hint, read:{noteId, section}} + npm run check:hints (no answer leak, section exists).
+  - **UI (Claude, after hints merge):**
+    - a yellow "Study hint" card on each question, collapsed as "Show hint" before answering and open after answering;
+    - a "Re-read: <note> → <section>" link that opens that note at that section;
+    - the learner's own sticky note stays separate.
+- **PLAN ALGORITHM UPGRADE (owner: "make it 100x better curator", 2026-10-28):** builder A is adding these on r2-pA. After it finishes, merge into r2-int, then ONE PR.
+  - daily balance: 35-45% read / 40-50% questions / 10-20% cards; questions on what was just read, the same or the next day;
+  - curated reading: high/medium notes are core, low-priority notes are optional "Skim extras"; time per topic follows TOS weight;
+  - spaced review quizzes at +2/+7/+21 days (none for mastered topics, extra for weak ones);
+  - recall-card tasks for topics with no questions;
+  - an optional 50-question diagnostic that reorders weak topics within a section;
+  - 3-7 tasks per day, with merged reads;
+  - an honest fit message;
+  - plus fixes: the Topic source chips render and "Weekends" is no longer cut off.
+- **Merged Codex #99, #100 and #102:**
+  - #99: picture licences fixed;
+  - #100: What's New screen + data/changelog;
+  - #102: 153 old notes completed, zero fact loss checked.
+  - What's New is wired into More on r2-int (1,529 tests).
+  - Next Codex batch: CODEX_MEDIUM_3 = JOB A study hints (data/bank/hints + check:hints) + JOB B 46 new notes for the 9 thin topics (apply.mjs + topics.json noteIds).
+- **Merged GPT worker PRs #101 and #103-#111** (docs in planning/gpt/*): microcopy, picture-hunt, topic-icons, onboarding, a11y-labels, covers, motivation, phone-test, search-synonyms (596), sheet-layouts (12).
+- **Codex (Astra medium, one-off): CODEX_ASTRA_SHEETS.** Builds src/ui/sheets/CramSheets.tsx + SheetReader.tsx (unwired) + markdownBlocks table/definition-row parsing.
+  - After it lands, Claude wires CramSheets as the Learn tab and SheetReader as a layer.
+  - CODEX_MEDIUM_3 (hints + thin notes) is still queued for a later Codex run.
+- **SESSION CLOSE 2026-10-28:**
+  - Round 2 = PR #112 MERGED to main (1,561 tests, e2e 19/19): smart Study Plan v3, question tools, screens.
+  - The handoff + NEXT_SESSION_PROMPT.md + WORKERS_ROUND3.md were merged (PR #113).
+  - NEXT SESSION: start from 03-fly8-study-nursing-app/planning/NEXT_SESSION_PROMPT.md; do not read the old chat.
+- **LATEST (end of the 2026-10-28 session):**
+  - Codex delivered draft PR #114 "Cram Sheets: Learn screen + paged sheet reader (unwired)". It is NOT reviewed yet. Next session: review it (tsc/vitest/screens), merge it, wire CramSheets as the Learn tab and SheetReader as a layer.
+  - The GPT round 3 workers (planning/gpt/WORKERS_ROUND3.md) have probably pushed gpt-sheet-layouts-2/-3, gpt-covers-2, gpt-picture-hunt-2 and gpt-prompt-library. Not reviewed yet: check each diff stays in planning/gpt/<folder>, spot-check, merge.
+  - Codex is done for now; CODEX_MEDIUM_3 (hints + thin notes) is still queued.

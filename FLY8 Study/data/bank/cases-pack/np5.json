@@ -1,0 +1,1619 @@
+[
+ {
+  "id": "cp-np5-01-a",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Behavioral management",
+  "topicId": "psychiatric-nursing/part-1/behavioral-management",
+  "noteId": "np5-behavioral-management",
+  "clusterId": "cp-np5-01",
+  "clusterSeq": 1,
+  "vignette": "Ms. Liza Ocampo, 29, is admitted to the psychiatric unit of a tertiary hospital with unstable moods and frequent conflicts with her family. On her second day she repeatedly asks night-shift nurses for extra phone privileges and tells Nurse Ben, 'The other nurse said it was okay, so you should let me too.' She grows angry when he declines and says the staff 'only care about rules.' The unit's treatment plan limits phone use to scheduled times for all clients.",
+  "stem": "Which response by Nurse Ben is most appropriate when Ms. Ocampo says another nurse allowed extra phone use?",
+  "options": [
+   "Agree to one extra call this once so that she calms down and begins to trust him more",
+   "State calmly and kindly that phone use follows the unit schedule for every client",
+   "Ask the other nurse in front of the client to say whether she really gave permission",
+   "Tell her that her request shows she is trying to control and manipulate all the staff"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "The decisive cue is the attempt to play one nurse against another while the plan applies to all clients. A calm, brief, consistent statement of the limit keeps the plan intact and avoids a power struggle. Making an exception, even once, teaches the client that pressure works, and challenging her in front of others is more likely to escalate the situation.",
+  "rationaleSimple": "Stay calm and say the same rule applies to everyone. Do not make exceptions.",
+  "optionRationales": [
+   "Gives in to pressure and undermines the treatment plan; reinforces manipulation.",
+   "Best answer. The decisive cue is the attempt to play one nurse against another while the plan applies to all clients.",
+   "Pulls the client into staff conflict and invites splitting.",
+   "Interpretive and judgmental; likely to escalate anger."
+  ],
+  "strategy": "Setting limits consistently",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np5-01-b",
+  "v": 2,
+  "type": "sata",
+  "area": "NP5",
+  "topic": "Behavioral management",
+  "topicId": "psychiatric-nursing/part-1/behavioral-management",
+  "noteId": "np5-behavioral-management",
+  "clusterId": "cp-np5-01",
+  "clusterSeq": 2,
+  "vignette": "Ms. Liza Ocampo, 29, is admitted to the psychiatric unit of a tertiary hospital with unstable moods and frequent conflicts with her family. On her second day she repeatedly asks night-shift nurses for extra phone privileges and tells Nurse Ben, 'The other nurse said it was okay, so you should let me too.' She grows angry when he declines and says the staff 'only care about rules.' The unit's treatment plan limits phone use to scheduled times for all clients.",
+  "stem": "Which nursing actions support consistent limit setting for Ms. Ocampo? Select all that apply.",
+  "options": [
+   "Discuss the limit and plan during the team handover so all staff respond the same way",
+   "Explain the limit in a calm, neutral tone without arguing",
+   "Decide privately each shift whether to allow exceptions",
+   "State the expected behavior and what will happen if the limit is crossed",
+   "Tell the client the limit is only for her because she is difficult",
+   "Document the client's behavior and the staff response objectively"
+  ],
+  "answer": [
+   0,
+   1,
+   3,
+   5
+  ],
+  "rationale": "Limits work when they are clear, applied the same way by every team member, and delivered without anger. Sharing the plan at handover and documenting objectively keep the team aligned. Individual shift-by-shift exceptions and labelling the client as difficult both weaken consistency and damage the therapeutic relationship.",
+  "rationaleSimple": "Everyone on the team uses the same limit, says it calmly, and records what happened.",
+  "optionRationales": [
+   "Right: discussing the limit at handover lets all staff respond in the same way.",
+   "Right: a calm, neutral tone avoids a power struggle and keeps the relationship therapeutic.",
+   "Wrong: private exceptions each shift make the limit inconsistent and teach the client to test staff.",
+   "Right: stating the expected behavior and the consequence makes the limit clear.",
+   "Wrong: calling her difficult labels the client and damages trust; limits apply to behavior.",
+   "Right: objective documentation of the behavior and the staff response keeps the team aligned."
+  ],
+  "strategy": "Team consistency in behavioral plans",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np5-01-c",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP5",
+  "topic": "Therapeutic communication",
+  "topicId": "psychiatric-nursing/part-1/therapeutic-communication",
+  "noteId": "np5-therapeutic-communication",
+  "clusterId": "cp-np5-01",
+  "clusterSeq": 3,
+  "vignette": "Ms. Liza Ocampo, 29, is admitted to the psychiatric unit of a tertiary hospital with unstable moods and frequent conflicts with her family. On her second day she repeatedly asks night-shift nurses for extra phone privileges and tells Nurse Ben, 'The other nurse said it was okay, so you should let me too.' She grows angry when he declines and says the staff 'only care about rules.' The unit's treatment plan limits phone use to scheduled times for all clients.",
+  "stem": "For each nurse statement to Ms. Ocampo, select the communication category it best fits.",
+  "options": [],
+  "answer": [],
+  "rationale": "Reflecting names the feeling the client is expressing and invites her to say more. Asking 'why' pushes the client to defend herself and often sounds like criticism. Statements such as 'everything will turn out fine' offer reassurance the nurse cannot guarantee and shut down feelings.",
+  "rationaleSimple": "Naming the feeling helps. 'Why' questions and empty promises do not.",
+  "optionRationales": [
+   "Reflecting feelings: naming the frustration shows understanding and invites her to say more.",
+   "Asking 'why': it makes the client defend herself and can sound like criticism.",
+   "False reassurance: the nurse cannot guarantee that everything will turn out fine, and the statement shuts down her feelings.",
+   "Reflecting feelings: noticing that she seems upset about the rules names her feeling and opens discussion."
+  ],
+  "strategy": "Using therapeutic techniques",
+  "difficulty": 2,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "You sound frustrated that you cannot call your sister right now.",
+   "Why did you shout at the other client this morning?",
+   "Don't worry, everything will turn out fine.",
+   "You seem upset about the visiting rules."
+  ],
+  "columns": [
+   "Reflecting feelings",
+   "Asking 'why' (non-therapeutic)",
+   "False reassurance"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   2,
+   0
+  ]
+ },
+ {
+  "id": "cp-np5-01-d",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP5",
+  "topic": "Behavioral management",
+  "topicId": "psychiatric-nursing/part-1/behavioral-management",
+  "noteId": "np5-behavioral-management",
+  "clusterId": "cp-np5-01",
+  "clusterSeq": 4,
+  "vignette": "Ms. Liza Ocampo, 29, is admitted to the psychiatric unit of a tertiary hospital with unstable moods and frequent conflicts with her family. On her second day she repeatedly asks night-shift nurses for extra phone privileges and tells Nurse Ben, 'The other nurse said it was okay, so you should let me too.' She grows angry when he declines and says the staff 'only care about rules.' The unit's treatment plan limits phone use to scheduled times for all clients.",
+  "stem": "Complete the statement about setting limits by choosing the best word for each blank.\n\nA limit names the {{1}} behavior, states the consequence of crossing it, and is applied {{2}} by every staff member.",
+  "options": [],
+  "answer": [],
+  "rationale": "A useful limit is specific so the client knows exactly what is not allowed, and it is applied consistently so that behavior is not reinforced by uneven responses. Vague limits or uneven enforcement give clients room to test the staff.",
+  "rationaleSimple": "Say exactly what is not allowed and apply the rule the same way every time.",
+  "optionRationales": [
+   "Specific unacceptable: a limit must say exactly what is not allowed. A vague or occasional description leaves room to argue.",
+   "Consistently: every staff member applies it the same way so behavior is not reinforced. Flexible or night-only enforcement invites testing."
+  ],
+  "strategy": "Principles of limit setting",
+  "difficulty": 2,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "blanks": [
+   {
+    "choices": [
+     "specific unacceptable",
+     "vague general",
+     "occasional"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "flexibly",
+     "consistently",
+     "only on night shift"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "cp-np5-01-e",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Behavioral management",
+  "topicId": "psychiatric-nursing/part-1/behavioral-management",
+  "noteId": "np5-behavioral-management",
+  "clusterId": "cp-np5-01",
+  "clusterSeq": 5,
+  "vignette": "Ms. Liza Ocampo, 29, is admitted to the psychiatric unit of a tertiary hospital with unstable moods and frequent conflicts with her family. On her second day she repeatedly asks night-shift nurses for extra phone privileges and tells Nurse Ben, 'The other nurse said it was okay, so you should let me too.' She grows angry when he declines and says the staff 'only care about rules.' The unit's treatment plan limits phone use to scheduled times for all clients.",
+  "stem": "Two days later, which client behavior best shows that the limit-setting plan is working?",
+  "options": [
+   "She stops talking to the nurses so that there are no more disagreements with anyone",
+   "She keeps asking different nurses the same question until one of them finally agrees",
+   "She calls her sister at the agreed time and says she felt frustrated but coped",
+   "She apologizes to every nurse on the unit and promises that she will never ask again"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "Evidence of effectiveness is use of the agreed channel and an ability to name and manage frustration without manipulating staff. Withdrawal and excessive apology do not show new coping skills, and shopping the same request among nurses shows the pattern continues.",
+  "rationaleSimple": "The plan works when she follows the schedule and handles frustration in a healthy way.",
+  "optionRationales": [
+   "Withdrawal does not indicate improved coping.",
+   "Continued splitting means the limit is not yet effective.",
+   "Best answer. Evidence of effectiveness is use of the agreed channel and an ability to name and manage frustration without manipulating staff.",
+   "Overly eager promises are not evidence of learned coping."
+  ],
+  "strategy": "Evaluating behavioral interventions",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np5-02-a",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Major depressive disorder",
+  "topicId": "psychiatric-nursing/part-3/major-depressive-disorder",
+  "noteId": "np5-mdd",
+  "clusterId": "cp-np5-02",
+  "clusterSeq": 1,
+  "vignette": "Mr. Arnel Dizon, 52, was admitted to a district hospital for dehydration. He lost his job three months ago and has been withdrawn, sleeping poorly and eating little. During the morning interview he says quietly, 'My family would be better off without me.' His wife mentions that he gave his watch and tools to his brother last week.",
+  "stem": "What is the nurse's best next step after Mr. Dizon makes this statement?",
+  "options": [
+   "Reassure him that his family loves him and that things will surely get better",
+   "Change the topic to his diet and fluids so that he does not dwell on his sadness",
+   "Ask him directly whether he is thinking of suicide and whether he has a plan",
+   "Wait for the psychiatrist's next visit before discussing the statement with him"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "His statement and the giving away of belongings are warning signs, so the priority is to assess risk right away. Asking directly about suicidal thoughts and a plan does not plant the idea and opens the way to safety measures. Reassurance, changing the subject or waiting leaves a possible immediate risk unassessed.",
+  "rationaleSimple": "Ask him straight out if he is thinking of suicide and whether he has a plan.",
+  "optionRationales": [
+   "False reassurance that closes the conversation.",
+   "Avoids a potentially life-threatening cue.",
+   "Best answer. His statement and the giving away of belongings are warning signs, so the priority is to assess risk right away.",
+   "Delays assessment of immediate risk."
+  ],
+  "strategy": "Suicide risk assessment",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np5-02-b",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP5",
+  "topic": "Major depressive disorder",
+  "topicId": "psychiatric-nursing/part-3/major-depressive-disorder",
+  "noteId": "np5-mdd",
+  "clusterId": "cp-np5-02",
+  "clusterSeq": 2,
+  "vignette": "Mr. Arnel Dizon, 52, was admitted to a district hospital for dehydration. He lost his job three months ago and has been withdrawn, sleeping poorly and eating little. During the morning interview he says quietly, 'My family would be better off without me.' His wife mentions that he gave his watch and tools to his brother last week.",
+  "stem": "Select the findings in the nursing note that most strongly suggest an increased risk of suicide.",
+  "options": [
+   "lost his job three months ago; ",
+   "said 'my family would be better off without me'; ",
+   "gave watch and tools to his brother; ",
+   "states he has thought of hanging himself and knows where he would do it; ",
+   "took half of his breakfast; "
+  ],
+  "answer": [
+   1,
+   2,
+   3
+  ],
+  "rationale": "A statement of being a burden, giving away valued possessions and a stated method with a place are warning signs that indicate higher risk. Job loss is a stressor but not itself a sign of immediate intent, and eating half a meal is not a specific warning sign of suicide.",
+  "rationaleSimple": "Being a burden, giving things away and having a plan are warning signs.",
+  "optionRationales": [
+   "Stressor, not a sign of immediate intent: losing his job raises risk in the background but does not show he plans to act.",
+   "Warning sign: saying his family would be better off without him shows he feels like a burden.",
+   "Warning sign: giving away valued possessions can mean he is putting his affairs in order.",
+   "Warning sign: a stated method and place mean he has a plan, the highest-risk finding.",
+   "Not a warning sign: eating half his breakfast says little about suicide risk."
+  ],
+  "strategy": "Identifying suicide warning signs",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np5-02-c",
+  "v": 2,
+  "type": "sata",
+  "area": "NP5",
+  "topic": "Major depressive disorder",
+  "topicId": "psychiatric-nursing/part-3/major-depressive-disorder",
+  "noteId": "np5-mdd",
+  "clusterId": "cp-np5-02",
+  "clusterSeq": 3,
+  "vignette": "Mr. Arnel Dizon, 52, was admitted to a district hospital for dehydration. He lost his job three months ago and has been withdrawn, sleeping poorly and eating little. During the morning interview he says quietly, 'My family would be better off without me.' His wife mentions that he gave his watch and tools to his brother last week.",
+  "stem": "Mr. Dizon tells the nurse that he has thought of hanging himself and knows where he would do it. Which actions should the nurse take to keep him safe? Select all that apply.",
+  "options": [
+   "Place him in a room close to the nurses' station for close observation",
+   "Remove sharp objects, cords and other hazardous items from his area",
+   "Arrange for someone to stay with him continuously according to facility protocol",
+   "Promise to keep his thoughts secret if he agrees not to harm himself",
+   "Allow him to go to the bathroom alone with the door locked",
+   "Report the findings to the physician and document the assessment"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   5
+  ],
+  "rationale": "Safety comes first: a high-risk client is kept in a visible area, hazards are removed and he is not left alone. The team must be informed, so the nurse cannot promise secrecy. Unsupervised time behind a locked door removes observation when he is most at risk.",
+  "rationaleSimple": "Keep him in view, remove dangers, never leave him alone and tell the team.",
+  "optionRationales": [
+   "Right: a room near the nurses' station allows close observation.",
+   "Right: sharp objects and cords are possible means of self-harm.",
+   "Right: continuous presence is needed when a client has a plan and means, following facility protocol.",
+   "Wrong: the nurse cannot keep this secret because the team must know to keep him safe.",
+   "Wrong: being alone behind a locked door removes observation when he is most at risk.",
+   "Right: the physician must know about the risk and the assessment must be documented."
+  ],
+  "strategy": "Suicide precautions",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np5-02-d",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP5",
+  "topic": "Major depressive disorder",
+  "topicId": "psychiatric-nursing/part-3/major-depressive-disorder",
+  "noteId": "np5-mdd",
+  "clusterId": "cp-np5-02",
+  "clusterSeq": 4,
+  "vignette": "Mr. Arnel Dizon, 52, was admitted to a district hospital for dehydration. He lost his job three months ago and has been withdrawn, sleeping poorly and eating little. During the morning interview he says quietly, 'My family would be better off without me.' His wife mentions that he gave his watch and tools to his brother last week.",
+  "stem": "Complete the statement about a client who has a plan and the means to carry it out.\n\nThe client is at {{1}} risk, so the nurse should {{2}} and notify the physician.",
+  "options": [],
+  "answer": [],
+  "rationale": "A specific plan with access to the means signals high risk, which calls for continuous presence and urgent communication with the physician. Checking only when time allows does not give protection against an impulsive act.",
+  "rationaleSimple": "A plan plus the means means high risk. Stay with him and call the doctor.",
+  "optionRationales": [
+   "Higher: a specific plan with access to the means signals high risk. Lower does not fit these findings.",
+   "Remain with the client: continuous presence protects him. Checking only when time allows does not guard against an impulsive act."
+  ],
+  "strategy": "Responding to high suicide risk",
+  "difficulty": 2,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "blanks": [
+   {
+    "choices": [
+     "higher",
+     "lower"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "remain with the client",
+     "check on him when time allows"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "cp-np5-02-e",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Major depressive disorder",
+  "topicId": "psychiatric-nursing/part-3/major-depressive-disorder",
+  "noteId": "np5-mdd",
+  "clusterId": "cp-np5-02",
+  "clusterSeq": 5,
+  "vignette": "Mr. Arnel Dizon, 52, was admitted to a district hospital for dehydration. He lost his job three months ago and has been withdrawn, sleeping poorly and eating little. During the morning interview he says quietly, 'My family would be better off without me.' His wife mentions that he gave his watch and tools to his brother last week.",
+  "stem": "Several days later, which observation should concern the nurse most?",
+  "options": [
+   "Mr. Dizon turns suddenly calm and cheerful and gives away more belongings",
+   "Mr. Dizon cries when his wife visits and talks at length about his lost job",
+   "Mr. Dizon eats a little more at each meal and drinks the fluids offered",
+   "Mr. Dizon asks when he may start joining the ward's morning exercise group"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "An abrupt, unexplained lift in mood after severe depression, together with giving away possessions, can mean that the client has decided to end his life and feels relief. The other findings are signs of expression of feelings or recovery and do not by themselves signal heightened danger.",
+  "rationaleSimple": "A sudden calm after deep sadness, with giving things away, can be a danger sign.",
+  "optionRationales": [
+   "Best answer. An abrupt, unexplained lift in mood after severe depression, together with giving away possessions, can mean that the client has decided to end his life and feels relief.",
+   "Expressing feelings is expected and can be therapeutic.",
+   "Improving appetite suggests recovery.",
+   "Interest in activities suggests engagement in treatment."
+  ],
+  "strategy": "Recognizing changing risk",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np5-03-a",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Substance use disorders",
+  "topicId": "psychiatric-nursing/psych-extra/substance-use-disorders",
+  "noteId": "np5-substance-basics",
+  "clusterId": "cp-np5-03",
+  "clusterSeq": 1,
+  "vignette": "Mr. Danilo Reyes, 45, is on the medical ward of a district hospital two days after a fall in which he fractured his wrist. His wife says he drinks heavily every day. This morning he is sweating, his hands tremble, and he keeps picking at the bedsheets. He tells the nurse, 'There are insects crawling on the wall.' He is restless and his pulse feels fast.",
+  "stem": "Which nursing action is the priority for Mr. Reyes at this time?",
+  "options": [
+   "Reassure him that nothing is on the wall and let him rest alone in a quiet room",
+   "Ask about the exact amount of alcohol he drinks in order to confront his denial",
+   "Encourage him to walk around the ward to use up his restless energy",
+   "Monitor vital signs and mental status closely and start seizure precautions"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "Tremor, sweating, tachycardia and visual hallucinations after heavy drinking point to alcohol withdrawal, which can progress to seizures and delirium. The priority is close monitoring and safety measures. Confrontation and rest alone do not protect him, and walking about a confused client raises the risk of injury.",
+  "rationaleSimple": "These are signs of alcohol withdrawal, so watch him closely and keep him safe.",
+  "optionRationales": [
+   "Does not protect from complications and leaves a confused client unobserved.",
+   "Not a priority during acute withdrawal.",
+   "Increases risk of falls and injury.",
+   "Best answer. Tremor, sweating, tachycardia and visual hallucinations after heavy drinking point to alcohol withdrawal, which can progress to seizures and delirium."
+  ],
+  "strategy": "Safety in alcohol withdrawal",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np5-03-b",
+  "v": 2,
+  "type": "sata",
+  "area": "NP5",
+  "topic": "Substance use disorders",
+  "topicId": "psychiatric-nursing/psych-extra/substance-use-disorders",
+  "noteId": "np5-substance-basics",
+  "clusterId": "cp-np5-03",
+  "clusterSeq": 2,
+  "vignette": "Mr. Danilo Reyes, 45, is on the medical ward of a district hospital two days after a fall in which he fractured his wrist. His wife says he drinks heavily every day. This morning he is sweating, his hands tremble, and he keeps picking at the bedsheets. He tells the nurse, 'There are insects crawling on the wall.' He is restless and his pulse feels fast.",
+  "stem": "Which findings are consistent with alcohol withdrawal? Select all that apply.",
+  "options": [
+   "Excessive sweating",
+   "Fast heart rate",
+   "Visual hallucinations",
+   "Hand tremors",
+   "Slow heart rate",
+   "Constricted pupils",
+   "Excessive sleepiness"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "rationale": "Alcohol withdrawal is a state of nervous system overactivity: tremor, sweating, tachycardia, anxiety and hallucinations. Slow pulse, constricted pupils and heavy drowsiness suggest sedation or opioid effects, not withdrawal.",
+  "rationaleSimple": "Withdrawal makes the body overactive: shaking, sweating, fast pulse and seeing things.",
+  "optionRationales": [
+   "Consistent: sweating reflects overactivity of the nervous system during withdrawal.",
+   "Consistent: tachycardia is part of the same overactivity.",
+   "Consistent: visual hallucinations can occur in severe withdrawal.",
+   "Consistent: tremors are a common early sign of withdrawal.",
+   "Not consistent: slow heart rate suggests sedation, whereas withdrawal causes a fast heart rate.",
+   "Not consistent: constricted pupils suggest opioid effect, not alcohol withdrawal.",
+   "Not consistent: heavy sleepiness suggests sedation, whereas withdrawal causes agitation and wakefulness."
+  ],
+  "strategy": "Recognizing withdrawal",
+  "difficulty": 2,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np5-03-c",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP5",
+  "topic": "Substance use disorders",
+  "topicId": "psychiatric-nursing/psych-extra/substance-use-disorders",
+  "noteId": "np5-substance-basics",
+  "clusterId": "cp-np5-03",
+  "clusterSeq": 3,
+  "vignette": "Mr. Danilo Reyes, 45, is on the medical ward of a district hospital two days after a fall in which he fractured his wrist. His wife says he drinks heavily every day. This morning he is sweating, his hands tremble, and he keeps picking at the bedsheets. He tells the nurse, 'There are insects crawling on the wall.' He is restless and his pulse feels fast.",
+  "stem": "For each nursing action, select whether it is appropriate or should be avoided for a client in alcohol withdrawal with hallucinations.",
+  "options": [],
+  "answer": [],
+  "rationale": "A calm, well-lit, low-stimulation environment with frequent observation and simple reality orientation lowers fear and risk. Arguing with the hallucination increases agitation, and leaving a confused client alone for long periods risks injury.",
+  "rationaleSimple": "Keep things calm, simple and close to staff. Do not argue or leave him alone.",
+  "optionRationales": [
+   "Appropriate: a quiet, well-lit room reduces fear and misperceptions.",
+   "Avoid: arguing with a hallucination increases agitation; acknowledge his fear and orient him gently.",
+   "Avoid: a confused client left alone for long periods risks injury.",
+   "Appropriate: short calm statements and reality orientation help a frightened client.",
+   "Appropriate: a bed near the nurses' station allows frequent observation."
+  ],
+  "strategy": "Environmental management",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "Keep the room quiet and well lit",
+   "Argue with him that the insects are not real",
+   "Leave him alone for long periods",
+   "Use short, calm statements and orient him to reality",
+   "Place him in a bed near the nurses' station"
+  ],
+  "columns": [
+   "Appropriate",
+   "Avoid"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   1,
+   0,
+   0
+  ]
+ },
+ {
+  "id": "cp-np5-03-d",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP5",
+  "topic": "Substance use disorders",
+  "topicId": "psychiatric-nursing/psych-extra/substance-use-disorders",
+  "noteId": "np5-substance-basics",
+  "clusterId": "cp-np5-03",
+  "clusterSeq": 4,
+  "vignette": "Mr. Danilo Reyes, 45, is on the medical ward of a district hospital two days after a fall in which he fractured his wrist. His wife says he drinks heavily every day. This morning he is sweating, his hands tremble, and he keeps picking at the bedsheets. He tells the nurse, 'There are insects crawling on the wall.' He is restless and his pulse feels fast.",
+  "stem": "Complete the statement about care for a client with long-term heavy alcohol use.\n\nThese clients are at risk of deficiency of vitamin {{1}}, so supplementation may be ordered, and the nurse should {{2}} vital signs and mental status.",
+  "options": [],
+  "answer": [],
+  "rationale": "Chronic heavy drinking commonly leads to thiamine deficiency, which is why supplementation is typically ordered. Withdrawal can change quickly, so vital signs and mental status are monitored frequently rather than once per shift.",
+  "rationaleSimple": "Heavy drinkers often lack vitamin B1. Check vital signs and mental status often.",
+  "optionRationales": [
+   "B1 (thiamine): chronic heavy drinking commonly causes thiamine deficiency. Vitamins C and K are not the usual concern here.",
+   "Monitor frequently: withdrawal can change quickly, so vital signs and mental status are checked often, not just once per shift."
+  ],
+  "strategy": "Nutritional and monitoring needs",
+  "difficulty": 2,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "blanks": [
+   {
+    "choices": [
+     "B1 (thiamine)",
+     "C",
+     "K"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "monitor frequently",
+     "check once per shift"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "cp-np5-03-e",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Substance use disorders",
+  "topicId": "psychiatric-nursing/psych-extra/substance-use-disorders",
+  "noteId": "np5-substance-basics",
+  "clusterId": "cp-np5-03",
+  "clusterSeq": 5,
+  "vignette": "Mr. Danilo Reyes, 45, is on the medical ward of a district hospital two days after a fall in which he fractured his wrist. His wife says he drinks heavily every day. This morning he is sweating, his hands tremble, and he keeps picking at the bedsheets. He tells the nurse, 'There are insects crawling on the wall.' He is restless and his pulse feels fast.",
+  "stem": "After recovery, Mr. Reyes says, 'I can quit anytime. I do not have a problem.' Which response is most therapeutic?",
+  "options": [
+   "You are in denial, and you will end up with serious liver disease if you carry on",
+   "You had a fall and withdrawal symptoms this week. What do you make of that?",
+   "If you do not stop drinking, your wife will probably leave you someday",
+   "Many people drink in this way; it is nothing to be ashamed of, so do not worry"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "A nonjudgmental statement of observed facts followed by an open question invites reflection without attacking the defense of denial. Labeling, threats and minimizing either provoke defensiveness or reinforce denial.",
+  "rationaleSimple": "State what you saw in a calm way and ask what he thinks about it.",
+  "optionRationales": [
+   "Confrontational and labeling.",
+   "Best answer. A nonjudgmental statement of observed facts followed by an open question invites reflection without attacking the defense of denial.",
+   "Threatening; damages trust.",
+   "Minimizes the problem."
+  ],
+  "strategy": "Therapeutic response to denial",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np5-04-a",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Informed consent",
+  "topicId": "palmer/professional-adjustment/informed-consent",
+  "noteId": "gen-pl-informed-consent",
+  "clusterId": "cp-np5-04",
+  "clusterSeq": 1,
+  "vignette": "Mrs. Teresita Bautista, 67, is scheduled for abdominal surgery at a tertiary hospital the next morning. When Nurse Ana checks the chart, she finds the consent form already signed. Mrs. Bautista says quietly, 'I signed because the doctor was in a hurry, but I do not really know what they will do or what could go wrong.' Her son is at the bedside and says she should simply go ahead.",
+  "stem": "What should Nurse Ana do first?",
+  "options": [
+   "Inform the surgeon that the client has questions and needs an explanation",
+   "Explain the risks of the operation herself, since she has already read the chart",
+   "Go ahead with the surgery preparations because the form is already signed",
+   "Ask her son to explain the operation and its risks to her instead"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "Valid consent requires understanding, and the explanation of the procedure, risks, benefits and alternatives belongs to the physician who will perform it. The nurse acts as the client's advocate by relaying the concern so the explanation is given. A signature alone does not prove she understood.",
+  "rationaleSimple": "The doctor must explain the surgery. The nurse tells the doctor she has questions.",
+  "optionRationales": [
+   "Best answer. Valid consent requires understanding, and the explanation of the procedure, risks, benefits and alternatives belongs to the physician who will perform it.",
+   "Giving the full explanation of the procedure is the physician's role.",
+   "A signature does not show understanding.",
+   "The son cannot replace the physician's explanation."
+  ],
+  "strategy": "Client advocacy in consent",
+  "difficulty": 3,
+  "bloom": "apply",
+  "imageSuggestion": {
+   "description": "Specimen informed-consent form for surgery with blank signature and witness lines and standard sections, as used in a hospital.",
+   "placement": "situation",
+   "searchTerms": [
+    "informed consent form surgery",
+    "surgical consent form sample",
+    "medical consent form template"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np5-04-b",
+  "v": 2,
+  "type": "sata",
+  "area": "NP5",
+  "topic": "Informed consent",
+  "topicId": "palmer/professional-adjustment/informed-consent",
+  "noteId": "gen-pl-informed-consent",
+  "clusterId": "cp-np5-04",
+  "clusterSeq": 2,
+  "vignette": "Mrs. Teresita Bautista, 67, is scheduled for abdominal surgery at a tertiary hospital the next morning. When Nurse Ana checks the chart, she finds the consent form already signed. Mrs. Bautista says quietly, 'I signed because the doctor was in a hurry, but I do not really know what they will do or what could go wrong.' Her son is at the bedside and says she should simply go ahead.",
+  "stem": "Which are essential elements of valid informed consent? Select all that apply.",
+  "options": [
+   "The client receives information on risks, benefits and alternatives",
+   "The client's relatives can overrule a competent adult's decision",
+   "A signed form is enough even if the client does not understand",
+   "The decision is made voluntarily without pressure",
+   "The information is given in language the client understands",
+   "The client has the capacity to decide"
+  ],
+  "answer": [
+   0,
+   3,
+   4,
+   5
+  ],
+  "rationale": "Consent is valid when the client is competent, free from pressure, and adequately informed in understandable terms. A signature without understanding is only paper, and a competent adult's decision is not overruled by relatives.",
+  "rationaleSimple": "Consent needs a capable, willing and well-informed client who understands.",
+  "optionRationales": [
+   "Essential: the client must be told the risks, benefits and alternatives.",
+   "Not valid: a competent adult's decision is not overruled by relatives.",
+   "Not valid: a signature without understanding is only paper, not informed consent.",
+   "Essential: consent must be free from pressure.",
+   "Essential: information must be in language the client understands.",
+   "Essential: the client must be able to understand and decide for himself."
+  ],
+  "strategy": "Elements of informed consent",
+  "difficulty": 2,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np5-04-c",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP5",
+  "topic": "Bioethical principles",
+  "topicId": "palmer/professional-adjustment/bioethical-principles",
+  "noteId": "gen-pl-biomedical-ethics-principles",
+  "clusterId": "cp-np5-04",
+  "clusterSeq": 3,
+  "vignette": "Mrs. Teresita Bautista, 67, is scheduled for abdominal surgery at a tertiary hospital the next morning. When Nurse Ana checks the chart, she finds the consent form already signed. Mrs. Bautista says quietly, 'I signed because the doctor was in a hurry, but I do not really know what they will do or what could go wrong.' Her son is at the bedside and says she should simply go ahead.",
+  "stem": "Select the bioethical principle that best matches each action.",
+  "options": [],
+  "answer": [],
+  "rationale": "Autonomy is the right to self-determination, beneficence is doing good, nonmaleficence is avoiding harm, and justice is fairness in giving care. Each action matches the principle that is its main purpose.",
+  "rationaleSimple": "Autonomy is choice, beneficence is doing good, nonmaleficence is avoiding harm, justice is fairness.",
+  "optionRationales": [
+   "Autonomy: respecting a competent client's refusal honors the right to self-determination.",
+   "Beneficence: giving pain relief is doing good for the client.",
+   "Nonmaleficence: checking the identification band prevents harm from a treatment given to the wrong person.",
+   "Justice: the same quality of care regardless of ability to pay is fairness."
+  ],
+  "strategy": "Applying bioethical principles",
+  "difficulty": 3,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "Respecting a competent client's decision to refuse a procedure",
+   "Giving pain relief to promote the client's comfort and well-being",
+   "Checking the identification band to avoid giving a treatment to the wrong client",
+   "Giving the same quality of care regardless of ability to pay"
+  ],
+  "columns": [
+   "Autonomy",
+   "Beneficence",
+   "Nonmaleficence",
+   "Justice"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "cp-np5-04-d",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP5",
+  "topic": "Informed consent",
+  "topicId": "palmer/professional-adjustment/informed-consent",
+  "noteId": "gen-pl-informed-consent",
+  "clusterId": "cp-np5-04",
+  "clusterSeq": 4,
+  "vignette": "Mrs. Teresita Bautista, 67, is scheduled for abdominal surgery at a tertiary hospital the next morning. When Nurse Ana checks the chart, she finds the consent form already signed. Mrs. Bautista says quietly, 'I signed because the doctor was in a hurry, but I do not really know what they will do or what could go wrong.' Her son is at the bedside and says she should simply go ahead.",
+  "stem": "Complete the statement about the nurse's role in consent.\n\nThe responsibility for explaining the procedure belongs to the {{1}} who will perform it, while the nurse may be asked to {{2}} the client's signature.",
+  "options": [],
+  "answer": [],
+  "rationale": "The professional performing the procedure explains it. The nurse's usual role is to witness, where facility practice asks for it, that the client signed voluntarily, and to advocate when the client appears not to understand. A nurse cannot sign for a competent adult.",
+  "rationaleSimple": "The doctor explains. The nurse may witness the signing and speak up for the client.",
+  "optionRationales": [
+   "Physician: the professional performing the procedure explains it. A staff nurse or administrator does not hold this responsibility.",
+   "Witness: the nurse may witness that the client signed voluntarily. The nurse does not replace the explanation or sign for a competent adult."
+  ],
+  "strategy": "Roles in consent",
+  "difficulty": 2,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "blanks": [
+   {
+    "choices": [
+     "physician",
+     "staff nurse",
+     "hospital administrator"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "witness",
+     "explain risks before",
+     "sign on behalf of"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "cp-np5-04-e",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Patient's autonomy",
+  "topicId": "palmer/professional-adjustment/patient-s-autonomy",
+  "noteId": "gen-pl-biomedical-ethics-principles",
+  "clusterId": "cp-np5-04",
+  "clusterSeq": 5,
+  "vignette": "Mrs. Teresita Bautista, 67, is scheduled for abdominal surgery at a tertiary hospital the next morning. When Nurse Ana checks the chart, she finds the consent form already signed. Mrs. Bautista says quietly, 'I signed because the doctor was in a hurry, but I do not really know what they will do or what could go wrong.' Her son is at the bedside and says she should simply go ahead.",
+  "stem": "Mrs. Bautista says, 'My son says I must go ahead, but I am not sure.' Which response by the nurse best respects her autonomy?",
+  "options": [
+   "Your son knows what is best for you, so you should trust his advice here",
+   "The surgery is needed, so it is better for everyone if you simply agree",
+   "The decision is yours; let us make sure you have the information you need",
+   "If you refuse the operation, the doctor will refuse to treat you ever again"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "A competent adult has the right to make her own decision, including refusing treatment. The nurse supports this by ensuring she is informed and free to choose. Pressure from family or staff, or threats, violate her autonomy.",
+  "rationaleSimple": "She decides for herself. The nurse makes sure she has the information she needs.",
+  "optionRationales": [
+   "Undermines a competent adult's right to decide.",
+   "Pressures the client.",
+   "Best answer. A competent adult has the right to make her own decision, including refusing treatment.",
+   "Threatening and untrue."
+  ],
+  "strategy": "Respecting client autonomy",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np5-05-a",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Confidentiality, anonymity and privacy",
+  "topicId": "palmer/professional-adjustment/confidentiality-anonymity-and-privacy",
+  "noteId": "gen-pl-privacy-defamation",
+  "clusterId": "cp-np5-05",
+  "clusterSeq": 1,
+  "vignette": "Nurse Mara works on a medical ward of a tertiary hospital. A man who says he is a cousin of Mr. Santos, a client with a new diagnosis, asks her at the nurses' station what illness Mr. Santos has. Later she sees a coworker take a photo of another client's wound to send to a group chat. During the same shift a nurse gives a medication to a client without checking the allergy band and the client develops a rash and breathing difficulty.",
+  "stem": "What is Nurse Mara's best response to the visitor who asks about Mr. Santos's diagnosis?",
+  "options": [
+   "Tell him the diagnosis because relatives usually have the right to know",
+   "Give a general hint about the illness so that he can prepare himself",
+   "Say politely that she cannot share health details without Mr. Santos's consent",
+   "Ask him to read the chart himself so that she does not have to say it aloud"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "Health information belongs to the client and is shared only with his consent or for care purposes. The nurse protects confidentiality by declining politely, and she may offer to ask Mr. Santos whether he wishes to share it. Hints and letting the visitor see the chart are still disclosures.",
+  "rationaleSimple": "Health information is private. Ask the client before telling anyone.",
+  "optionRationales": [
+   "Relatives do not have an automatic right; consent is needed.",
+   "Still discloses information.",
+   "Best answer. Health information belongs to the client and is shared only with his consent or for care purposes.",
+   "Exposes the record to an unauthorized person."
+  ],
+  "strategy": "Protecting client confidentiality",
+  "difficulty": 2,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np5-05-b",
+  "v": 2,
+  "type": "sata",
+  "area": "NP5",
+  "topic": "Confidentiality, anonymity and privacy",
+  "topicId": "palmer/professional-adjustment/confidentiality-anonymity-and-privacy",
+  "noteId": "gen-pl-privacy-defamation",
+  "clusterId": "cp-np5-05",
+  "clusterSeq": 2,
+  "vignette": "Nurse Mara works on a medical ward of a tertiary hospital. A man who says he is a cousin of Mr. Santos, a client with a new diagnosis, asks her at the nurses' station what illness Mr. Santos has. Later she sees a coworker take a photo of another client's wound to send to a group chat. During the same shift a nurse gives a medication to a client without checking the allergy band and the client develops a rash and breathing difficulty.",
+  "stem": "Which actions breach client confidentiality or privacy? Select all that apply.",
+  "options": [
+   "Giving a complete report to the oncoming nurse caring for the client",
+   "Documenting care in the client's chart",
+   "Leaving the open chart on the counter where visitors can read it",
+   "Discussing a client's condition with colleagues in the elevator",
+   "Posting a photo of a client's wound in a group chat",
+   "Consulting the treating physician about the client's condition"
+  ],
+  "answer": [
+   2,
+   3,
+   4
+  ],
+  "rationale": "Information must be shared only with those directly involved in the client's care and for care purposes. Photos on social groups, public conversations and unattended charts expose information to people with no need to know. Handover, documentation and consulting the treating physician are legitimate care activities.",
+  "rationaleSimple": "Only share information with the people who need it for care, and in private places.",
+  "optionRationales": [
+   "Not a breach: a full report to the oncoming nurse caring for the client is a legitimate care activity.",
+   "Not a breach: documenting in the chart is part of care.",
+   "Breach: an open chart on the counter lets visitors read private information.",
+   "Breach: discussing a client in the elevator exposes information to people who may overhear.",
+   "Breach: posting a wound photo in a group chat shares private information with people who do not need it.",
+   "Not a breach: consulting the treating physician is sharing information for care."
+  ],
+  "strategy": "Recognizing breaches",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np5-05-c",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP5",
+  "topic": "Malpractice and negligence",
+  "topicId": "palmer/professional-adjustment/malpractice-and-negligence",
+  "noteId": "gen-pl-negligence-malpractice",
+  "clusterId": "cp-np5-05",
+  "clusterSeq": 3,
+  "vignette": "Nurse Mara works on a medical ward of a tertiary hospital. A man who says he is a cousin of Mr. Santos, a client with a new diagnosis, asks her at the nurses' station what illness Mr. Santos has. Later she sees a coworker take a photo of another client's wound to send to a group chat. During the same shift a nurse gives a medication to a client without checking the allergy band and the client develops a rash and breathing difficulty.",
+  "stem": "The medication incident may amount to negligence. Match each fact with the element of negligence it shows.",
+  "options": [],
+  "answer": [],
+  "rationale": "Negligence requires a duty owed, a breach of the standard of care, harm caused by the breach, and actual damages. Failure to perform a basic safety check is the breach; the extra treatment is the damage.",
+  "rationaleSimple": "Negligence needs a duty, a mistake, the mistake causing harm, and real harm.",
+  "optionRationales": [
+   "Duty: being assigned to the client that shift created a duty of care.",
+   "Breach of duty: not checking the allergy band fell below the standard of care.",
+   "Causation: the harm happened because the drug was given.",
+   "Damages: extra treatment and a longer stay are actual harm to the client."
+  ],
+  "strategy": "Elements of negligence",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "The nurse was assigned to care for the client that shift",
+   "The nurse did not check the allergy band before giving the drug",
+   "The reaction would not have happened if the drug had not been given",
+   "The client needed extra treatment and a longer stay"
+  ],
+  "columns": [
+   "Duty",
+   "Breach of duty",
+   "Causation",
+   "Damages"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "cp-np5-05-d",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP5",
+  "topic": "Doctrines of negligence",
+  "topicId": "palmer/professional-adjustment/doctrines-of-negligence",
+  "noteId": "gen-pl-x-standards-of-care",
+  "clusterId": "cp-np5-05",
+  "clusterSeq": 4,
+  "vignette": "Nurse Mara works on a medical ward of a tertiary hospital. A man who says he is a cousin of Mr. Santos, a client with a new diagnosis, asks her at the nurses' station what illness Mr. Santos has. Later she sees a coworker take a photo of another client's wound to send to a group chat. During the same shift a nurse gives a medication to a client without checking the allergy band and the client develops a rash and breathing difficulty.",
+  "stem": "Complete the statement about professional liability.\n\nFailure to give the care that a reasonably prudent nurse would give is {{1}}, and when this is done by a professional in the course of practice it is called {{2}}.",
+  "options": [],
+  "answer": [],
+  "rationale": "Negligence is failing to act as a reasonably prudent person would; for a professional acting in the course of practice, it is termed malpractice. Battery, libel, slander and assault are different torts.",
+  "rationaleSimple": "Not giving expected care is negligence. For professionals it is called malpractice.",
+  "optionRationales": [
+   "Negligence: failure to act as a reasonably prudent person would. Battery and libel are different torts.",
+   "Malpractice: negligence by a professional in the course of practice. Slander and assault are different torts."
+  ],
+  "strategy": "Legal terms",
+  "difficulty": 2,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "blanks": [
+   {
+    "choices": [
+     "negligence",
+     "battery",
+     "libel"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "malpractice",
+     "slander",
+     "assault"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "cp-np5-05-e",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Malpractice and negligence",
+  "topicId": "palmer/professional-adjustment/malpractice-and-negligence",
+  "noteId": "gen-pl-negligence-malpractice",
+  "clusterId": "cp-np5-05",
+  "clusterSeq": 5,
+  "vignette": "Nurse Mara works on a medical ward of a tertiary hospital. A man who says he is a cousin of Mr. Santos, a client with a new diagnosis, asks her at the nurses' station what illness Mr. Santos has. Later she sees a coworker take a photo of another client's wound to send to a group chat. During the same shift a nurse gives a medication to a client without checking the allergy band and the client develops a rash and breathing difficulty.",
+  "stem": "After the medication reaction, which action should the nurse who gave the drug take first?",
+  "options": [
+   "Write in the client's chart that an incident report has been filed",
+   "Wait to see whether the reaction settles before telling anyone about it",
+   "Correct the order in the record so that the error does not show",
+   "Assess and stabilize the client and notify the physician right away"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "Client safety comes first: assess, call for help and notify the physician so treatment can start. Documentation of facts and an incident report follow through proper channels. Hiding the error or delaying disclosure harms the client and adds professional liability.",
+  "rationaleSimple": "Protect the client first, then tell the doctor and report honestly.",
+  "optionRationales": [
+   "Incident reports are not mentioned in the chart.",
+   "Wrong: waiting to see whether the reaction settles delays treatment of a client who may deteriorate.",
+   "Altering records is improper and unethical.",
+   "Best answer. Client safety comes first: assess, call for help and notify the physician so treatment can start."
+  ],
+  "strategy": "Responding to errors",
+  "difficulty": 4,
+  "bloom": "apply",
+  "imageSuggestion": {
+   "description": "Blank medication incident report form with fields for date, time, drug, dose, client and actions taken.",
+   "placement": "rationale",
+   "searchTerms": [
+    "incident report form hospital",
+    "medication error report form",
+    "nursing incident report"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np5-06-a",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Delegation",
+  "topicId": "palmer/leadership-and-management-final-coaching/delegation",
+  "noteId": "gen-pl-delegation-responsibilities",
+  "clusterId": "cp-np5-06",
+  "clusterSeq": 1,
+  "vignette": "Nurse Hazel is the team leader on a surgical ward of a provincial hospital. Her team includes Nurse Jun, a staff nurse, and Mang Ruel, a nursing attendant. Hazel's clients include a stable man who needs help with a bath, a woman scheduled for discharge teaching, a man who returned from surgery two hours ago, and a woman with a new surgical dressing. Midway through the shift Jun and Mang Ruel argue loudly in the corridor about who should transfer a client.",
+  "stem": "Which task is most appropriate for Nurse Hazel to delegate to Mang Ruel?",
+  "options": [
+   "Assisting a stable client with his bath and personal hygiene",
+   "Assessing the surgical dressing for possible signs of infection",
+   "Teaching the woman about home care and medicines before discharge",
+   "Evaluating the postoperative client's response to pain relief"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "Routine, predictable tasks for stable clients, such as bathing, may be delegated to unlicensed personnel. Assessment, teaching and evaluation require nursing judgment and remain with the nurse.",
+  "rationaleSimple": "Simple care for a stable client can go to the attendant. Assessing, teaching and evaluating cannot.",
+  "optionRationales": [
+   "Best answer. Routine, predictable tasks for stable clients, such as bathing, may be delegated to unlicensed personnel.",
+   "Assessment cannot be delegated to unlicensed staff.",
+   "Teaching requires nursing judgment.",
+   "Evaluation belongs to the nurse."
+  ],
+  "strategy": "Delegating to unlicensed staff",
+  "difficulty": 2,
+  "bloom": "apply",
+  "imageSuggestion": {
+   "description": "Organisation chart of a surgical ward nursing team showing the head nurse, team leader, staff nurses and nursing attendants and lines of authority.",
+   "placement": "situation",
+   "searchTerms": [
+    "nursing team organization chart",
+    "ward organizational chart hospital",
+    "nursing delegation chart"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np5-06-b",
+  "v": 2,
+  "type": "sata",
+  "area": "NP5",
+  "topic": "Delegation",
+  "topicId": "palmer/leadership-and-management-final-coaching/delegation",
+  "noteId": "gen-pl-delegation-responsibilities",
+  "clusterId": "cp-np5-06",
+  "clusterSeq": 2,
+  "vignette": "Nurse Hazel is the team leader on a surgical ward of a provincial hospital. Her team includes Nurse Jun, a staff nurse, and Mang Ruel, a nursing attendant. Hazel's clients include a stable man who needs help with a bath, a woman scheduled for discharge teaching, a man who returned from surgery two hours ago, and a woman with a new surgical dressing. Midway through the shift Jun and Mang Ruel argue loudly in the corridor about who should transfer a client.",
+  "stem": "Which activities should Nurse Hazel NOT delegate to the nursing attendant? Select all that apply.",
+  "options": [
+   "Initial assessment of the newly returned postoperative client",
+   "Interpreting a change in a client's condition",
+   "Taking a stable client's routine vital signs",
+   "Helping a stable client eat his meal",
+   "Discharge teaching",
+   "Assisting a stable client to the toilet"
+  ],
+  "answer": [
+   0,
+   1,
+   4
+  ],
+  "rationale": "Assessment, teaching and interpretation of data call for nursing judgment and cannot be delegated to unlicensed personnel. Feeding, routine measurements and toileting for stable clients are acceptable tasks if the nurse reviews the results and supervises.",
+  "rationaleSimple": "Thinking, assessing and teaching stay with the nurse. Routine help can be delegated.",
+  "optionRationales": [
+   "Do not delegate: the initial assessment of a newly returned postoperative client needs nursing judgment.",
+   "Do not delegate: interpreting a change in condition requires nursing judgment.",
+   "Can delegate: routine vital signs for a stable client are acceptable if the nurse reviews the results.",
+   "Can delegate: helping a stable client eat is an acceptable task with supervision.",
+   "Do not delegate: teaching requires the nurse's knowledge and judgment.",
+   "Can delegate: assisting a stable client to the toilet is an acceptable task with supervision."
+  ],
+  "strategy": "Limits of delegation",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np5-06-c",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Problem solving and decision making",
+  "topicId": "palmer/leadership-and-management-final-coaching/problem-solving-and-decision-making",
+  "noteId": "gen-pl-controlling-decision",
+  "clusterId": "cp-np5-06",
+  "clusterSeq": 3,
+  "vignette": "Nurse Hazel is the team leader on a surgical ward of a provincial hospital. Her team includes Nurse Jun, a staff nurse, and Mang Ruel, a nursing attendant. Hazel's clients include a stable man who needs help with a bath, a woman scheduled for discharge teaching, a man who returned from surgery two hours ago, and a woman with a new surgical dressing. Midway through the shift Jun and Mang Ruel argue loudly in the corridor about who should transfer a client.",
+  "stem": "The postoperative client now reports sudden chest pain and shortness of breath. Which client should Nurse Hazel see first?",
+  "options": [
+   "The woman who is waiting for her discharge teaching to begin",
+   "The postoperative man with chest pain and breathlessness",
+   "The man who is waiting for assistance with his bath",
+   "The woman who would like a new dressing applied for her comfort"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "Sudden chest pain and breathlessness after surgery may signal a life-threatening complication, such as a clot in the lung. Using the airway, breathing and circulation priority, he is assessed first. The other tasks can wait or be delegated.",
+  "rationaleSimple": "Chest pain and trouble breathing come first.",
+  "optionRationales": [
+   "Wrong: discharge teaching is not urgent and can be done after the client with possible life-threatening chest pain is assessed.",
+   "Best answer. Sudden chest pain and breathlessness after surgery may signal a life-threatening complication, such as a clot in the lung.",
+   "Wrong: help with a bath is not urgent and can wait or be delegated while the unstable client is assessed.",
+   "Wrong: a comfort dressing change is not urgent and can wait until the client with chest pain and breathlessness has been seen."
+  ],
+  "strategy": "Prioritizing assignments",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np5-06-d",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP5",
+  "topic": "Conflict resolution strategies",
+  "topicId": "palmer/leadership-and-management-final-coaching/conflict-resolution-strategies",
+  "noteId": "gen-pl-conflict-management",
+  "clusterId": "cp-np5-06",
+  "clusterSeq": 4,
+  "vignette": "Nurse Hazel is the team leader on a surgical ward of a provincial hospital. Her team includes Nurse Jun, a staff nurse, and Mang Ruel, a nursing attendant. Hazel's clients include a stable man who needs help with a bath, a woman scheduled for discharge teaching, a man who returned from surgery two hours ago, and a woman with a new surgical dressing. Midway through the shift Jun and Mang Ruel argue loudly in the corridor about who should transfer a client.",
+  "stem": "Match each situation to the conflict resolution strategy it shows.",
+  "options": [],
+  "answer": [],
+  "rationale": "Collaboration seeks a solution that satisfies both sides. Compromise gives each side partial satisfaction. Avoidance sidesteps the issue and accommodation yields to the other person.",
+  "rationaleSimple": "Collaboration solves it together. Compromise splits it. Avoidance steps away. Accommodation gives in.",
+  "optionRationales": [
+   "Collaboration: both sides meet and agree on a plan that meets both needs.",
+   "Compromise: each gets part of what she wants.",
+   "Avoidance: staying away from a coworker sidesteps the disagreement.",
+   "Accommodation: giving in to a demand she disagrees with yields to the other person."
+  ],
+  "strategy": "Conflict resolution",
+  "difficulty": 3,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "The nurses meet, discuss the transfer problem and agree on a plan that meets both needs",
+   "Two nurses want the same weekend off and each gets one of the two days",
+   "A nurse stays away from a coworker to escape the disagreement",
+   "A nurse gives in to a coworker's demand even though she disagrees"
+  ],
+  "columns": [
+   "Collaboration",
+   "Compromise",
+   "Avoidance",
+   "Accommodation"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "cp-np5-06-e",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP5",
+  "topic": "Delegation",
+  "topicId": "palmer/leadership-and-management-final-coaching/delegation",
+  "noteId": "gen-pl-delegation-responsibilities",
+  "clusterId": "cp-np5-06",
+  "clusterSeq": 5,
+  "vignette": "Nurse Hazel is the team leader on a surgical ward of a provincial hospital. Her team includes Nurse Jun, a staff nurse, and Mang Ruel, a nursing attendant. Hazel's clients include a stable man who needs help with a bath, a woman scheduled for discharge teaching, a man who returned from surgery two hours ago, and a woman with a new surgical dressing. Midway through the shift Jun and Mang Ruel argue loudly in the corridor about who should transfer a client.",
+  "stem": "Complete the statement about delegation.\n\nResponsibility for a task may be delegated, but {{1}} for the outcome stays with the delegating nurse, who must also provide {{2}}.",
+  "options": [],
+  "answer": [],
+  "rationale": "The delegating nurse remains accountable for outcomes, so she must choose the right task and person, give clear directions, supervise and evaluate. Delegation never ends the nurse's accountability.",
+  "rationaleSimple": "You can hand over the task but not the accountability. Supervise and check.",
+  "optionRationales": [
+   "Accountability: the delegating nurse remains answerable for the outcome. Authority or autonomy is not what stays with her.",
+   "Supervision and evaluation: the nurse must supervise and evaluate. A client waiver or the unit schedule does not meet that duty."
+  ],
+  "strategy": "Accountability in delegation",
+  "difficulty": 3,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "blanks": [
+   {
+    "choices": [
+     "accountability",
+     "authority",
+     "autonomy"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "supervision and evaluation",
+     "a written waiver from the client",
+     "a copy of the unit schedule"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "cp-np5-07-a",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Primary and secondary survey",
+  "topicId": "medical-surgical-nursing/emergency-and-disaster-nursing/primary-and-secondary-survey",
+  "noteId": "np5-primary-secondary-survey",
+  "clusterId": "cp-np5-07",
+  "clusterSeq": 1,
+  "vignette": "A passenger bus collides with a truck near a town, and four casualties arrive at the emergency department of a district hospital at about the same time. Nurse Paolo is the triage nurse. A man in his thirties was pulled from the wreckage; he is unresponsive, with gurgling breaths and blood in his mouth. A woman has a stable-looking forearm fracture and is alert. A young man with a bruised wrist is walking and talking. Another person is anxious and shouting loudly but has only minor scrapes.",
+  "stem": "During the primary survey of the unresponsive man, what is the first priority?",
+  "options": [
+   "Take a full crash history from the bus conductor",
+   "Splint the injured limbs before doing anything else",
+   "Check the pupils and record a neurologic score right away",
+   "Open and clear the airway while keeping the neck protected"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "The primary survey follows life-threatening priorities, and an obstructed airway is the first. Gurgling and blood in the mouth need immediate clearing and opening, with the neck protected because of the mechanism of injury. History, splinting and pupil checks follow once airway and breathing are secured.",
+  "rationaleSimple": "Airway first, and protect the neck.",
+  "optionRationales": [
+   "History comes later.",
+   "Not a first priority.",
+   "Comes after airway is secured.",
+   "Best answer. The primary survey follows life-threatening priorities, and an obstructed airway is the first."
+  ],
+  "strategy": "Primary survey priorities",
+  "difficulty": 3,
+  "bloom": "apply",
+  "imageSuggestion": {
+   "description": "Rescuer performing a jaw-thrust manoeuvre on a supine trauma casualty with cervical spine protection.",
+   "placement": "rationale",
+   "searchTerms": [
+    "jaw thrust maneuver",
+    "airway opening trauma",
+    "cervical spine immobilization airway"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np5-07-b",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP5",
+  "topic": "Primary and secondary survey",
+  "topicId": "medical-surgical-nursing/emergency-and-disaster-nursing/primary-and-secondary-survey",
+  "noteId": "np5-primary-secondary-survey",
+  "clusterId": "cp-np5-07",
+  "clusterSeq": 2,
+  "vignette": "A passenger bus collides with a truck near a town, and four casualties arrive at the emergency department of a district hospital at about the same time. Nurse Paolo is the triage nurse. A man in his thirties was pulled from the wreckage; he is unresponsive, with gurgling breaths and blood in his mouth. A woman has a stable-looking forearm fracture and is alert. A young man with a bruised wrist is walking and talking. Another person is anxious and shouting loudly but has only minor scrapes.",
+  "stem": "Select the findings in the triage note that indicate a threatened airway needing immediate intervention.",
+  "options": [
+   "Unresponsive to voice. ",
+   "Gurgling sounds with each breath. ",
+   "Blood pooling in the mouth. ",
+   "Radial pulse present. ",
+   "Bruise on the left forearm."
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "rationale": "Unresponsiveness, gurgling and blood in the mouth indicate a threatened airway that needs immediate suctioning and opening. A palpable radial pulse and a forearm bruise are relevant to later assessment but do not show airway compromise.",
+  "rationaleSimple": "Gurgling, blood in the mouth and being unresponsive mean the airway is in danger.",
+  "optionRationales": [
+   "Threatened airway: an unresponsive client may not be able to protect the airway.",
+   "Threatened airway: gurgling with breaths suggests fluid in the airway.",
+   "Threatened airway: blood pooling in the mouth can block or be breathed into the airway.",
+   "Not an airway sign: a radial pulse shows circulation, not an open airway.",
+   "Not an airway sign: a forearm bruise is relevant to later assessment only."
+  ],
+  "strategy": "Identifying airway compromise",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np5-07-c",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP5",
+  "topic": "Routine or ED triage",
+  "topicId": "medical-surgical-nursing/emergency-and-disaster-nursing/routine-or-ed-triage",
+  "noteId": "np5-triage-basics",
+  "clusterId": "cp-np5-07",
+  "clusterSeq": 3,
+  "vignette": "A passenger bus collides with a truck near a town, and four casualties arrive at the emergency department of a district hospital at about the same time. Nurse Paolo is the triage nurse. A man in his thirties was pulled from the wreckage; he is unresponsive, with gurgling breaths and blood in his mouth. A woman has a stable-looking forearm fracture and is alert. A young man with a bruised wrist is walking and talking. Another person is anxious and shouting loudly but has only minor scrapes.",
+  "stem": "Assign each casualty to the triage category that best fits.",
+  "options": [],
+  "answer": [],
+  "rationale": "Immediate means life-threatening problems that can be reversed with prompt care. Delayed injuries are significant but stable and can wait safely. Minor injuries need only simple care and can wait longest.",
+  "rationaleSimple": "Life-threatening and fixable is immediate. Stable but serious is delayed. Small injuries are minor.",
+  "optionRationales": [
+   "Immediate: a life-threatening airway problem that improves with the airway opened can be reversed by prompt care.",
+   "Delayed: a closed forearm fracture with stable breathing is significant but stable and can wait.",
+   "Minor: a walking man with a bruised wrist needs only simple care.",
+   "Minor: small scrapes need simple care and can wait longest."
+  ],
+  "strategy": "Triage categories",
+  "difficulty": 3,
+  "bloom": "apply",
+  "imageSuggestion": {
+   "description": "Triage tags with four colour categories (red, yellow, green, black) and a simple START triage flow chart, as used in multiple-casualty events.",
+   "placement": "rationale",
+   "searchTerms": [
+    "START triage algorithm",
+    "triage tags colors",
+    "mass casualty triage"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "Unresponsive man with obstructed breathing that improves when the airway is opened",
+   "Alert woman with a closed forearm fracture and stable breathing",
+   "Young man who is walking with a bruised wrist",
+   "Anxious person with small scrapes"
+  ],
+  "columns": [
+   "Immediate",
+   "Delayed",
+   "Minor"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   2,
+   2
+  ]
+ },
+ {
+  "id": "cp-np5-07-d",
+  "v": 2,
+  "type": "sata",
+  "area": "NP5",
+  "topic": "Disaster nursing concepts",
+  "topicId": "medical-surgical-nursing/emergency-and-disaster-nursing/disaster-nursing-concepts",
+  "noteId": "np5-disaster-basic-concepts",
+  "clusterId": "cp-np5-07",
+  "clusterSeq": 4,
+  "vignette": "A passenger bus collides with a truck near a town, and four casualties arrive at the emergency department of a district hospital at about the same time. Nurse Paolo is the triage nurse. A man in his thirties was pulled from the wreckage; he is unresponsive, with gurgling breaths and blood in his mouth. A woman has a stable-looking forearm fracture and is alert. A young man with a bruised wrist is walking and talking. Another person is anxious and shouting loudly but has only minor scrapes.",
+  "stem": "Which principles apply to triage during a multiple-casualty event? Select all that apply.",
+  "options": [
+   "Casualties are sorted by urgency and chance of benefit from care",
+   "The triage category is reassessed as conditions change",
+   "Triage is done once and need not be repeated",
+   "The loudest casualty is treated first",
+   "The aim is the greatest good for the greatest number",
+   "Casualties are treated in the order in which they arrive"
+  ],
+  "answer": [
+   0,
+   1,
+   4
+  ],
+  "rationale": "Triage sorts by urgency and likelihood of benefit, aims to do the most good for the most people and is repeated because conditions change. Order of arrival, noise level and a single assessment ignore clinical need.",
+  "rationaleSimple": "Treat by urgent need, not by who comes first or shouts loudest, and reassess.",
+  "optionRationales": [
+   "Apply: sorting by urgency and chance of benefit directs care where it helps most.",
+   "Apply: condition changes, so the triage category is reassessed.",
+   "Do not apply: triage is repeated because casualties can improve or worsen.",
+   "Do not apply: noise does not show clinical need.",
+   "Apply: triage aims to do the greatest good for the greatest number.",
+   "Do not apply: arrival order ignores clinical need."
+  ],
+  "strategy": "Triage principles",
+  "difficulty": 3,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np5-07-e",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Primary and secondary survey",
+  "topicId": "medical-surgical-nursing/emergency-and-disaster-nursing/primary-and-secondary-survey",
+  "noteId": "np5-primary-secondary-survey",
+  "clusterId": "cp-np5-07",
+  "clusterSeq": 5,
+  "vignette": "A passenger bus collides with a truck near a town, and four casualties arrive at the emergency department of a district hospital at about the same time. Nurse Paolo is the triage nurse. A man in his thirties was pulled from the wreckage; he is unresponsive, with gurgling breaths and blood in his mouth. A woman has a stable-looking forearm fracture and is alert. A young man with a bruised wrist is walking and talking. Another person is anxious and shouting loudly but has only minor scrapes.",
+  "stem": "After suctioning and opening the airway, which finding best shows that the intervention was effective?",
+  "options": [
+   "The man remains unresponsive and the gurgling sounds are unchanged",
+   "The chest rises equally with each quiet, unlabored breath",
+   "Blood continues to flow from the mouth with every breath he takes",
+   "The nurse sees fewer onlookers gathered around the stretcher"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "The goal is a clear airway with effective breathing, shown by quiet unobstructed breaths and equal chest rise. Persisting gurgling or continued bleeding in the mouth means the airway is still threatened, and the crowd size is irrelevant.",
+  "rationaleSimple": "A good result is quiet breathing with the chest rising evenly.",
+  "optionRationales": [
+   "Shows the problem persists.",
+   "Best answer. The goal is a clear airway with effective breathing, shown by quiet unobstructed breaths and equal chest rise.",
+   "Shows persisting obstruction risk.",
+   "Irrelevant to airway status."
+  ],
+  "strategy": "Evaluating airway interventions",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ }
+]

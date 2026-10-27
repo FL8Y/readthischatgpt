@@ -1,0 +1,231 @@
+<title>PNLE Study Notes</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&display=swap">
+<style>
+/* Layout: a calm two-mode reader. Home = search + grouped topic list; Note = one readable column.
+   Palette: cool paper neutrals, deep ink, one teal for NP1 and one violet for NP5, amber only for "high priority". */
+:root {
+  --bg: #f4f6f7;
+  --surface: #ffffff;
+  --ink: #14212b;
+  --muted: #5a6b78;
+  --line: #dde3e8;
+  --np1: #0b7a66;
+  --np1-soft: #dff3ee;
+  --np5: #5a4bb5;
+  --np5-soft: #e8e5f8;
+  --hi: #a45a00;
+  --hi-soft: #fbecd2;
+  --ok: #1d7a3e;
+  --focus: #0b5fd6;
+  --font-body: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Bricolage Grotesque", "Atkinson Hyperlegible", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e151b; --surface: #16202a; --ink: #e8eef2; --muted: #9bacb8; --line: #263541;
+    --np1: #4cc7ad; --np1-soft: #12332d; --np5: #aa9bff; --np5-soft: #25204a;
+    --hi: #f2b45a; --hi-soft: #3a2b10; --ok: #6bd08a; --focus: #7ab0ff; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e151b; --surface: #16202a; --ink: #e8eef2; --muted: #9bacb8; --line: #263541;
+  --np1: #4cc7ad; --np1-soft: #12332d; --np5: #aa9bff; --np5-soft: #25204a;
+  --hi: #f2b45a; --hi-soft: #3a2b10; --ok: #6bd08a; --focus: #7ab0ff; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 17px/1.6 var(--font-body); margin: 0;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 48px; }
+button, input { font: inherit; color: inherit; }
+a { color: var(--focus); }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 6px; }
+.wrap { max-width: 720px; margin: 0 auto; }
+header.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding: 12px 0 10px; border-bottom: 1px solid var(--line); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.bar { display: flex; align-items: center; gap: 10px; }
+.bar h1 { font: 700 20px/1.2 var(--font-display); margin: 0; letter-spacing: -0.01em; flex: 1; min-width: 0; }
+.icon-btn { min-height: 44px; min-width: 44px; padding: 0 12px; border: 1px solid var(--line); background: var(--surface); border-radius: 12px; cursor: pointer; }
+.search { width: 100%; min-height: 48px; margin-top: 10px; padding: 0 14px; border: 1px solid var(--line); background: var(--surface); border-radius: 12px; }
+.seg { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+.seg button { min-height: 44px; padding: 0 16px; border: 1px solid var(--line); background: var(--surface); border-radius: 999px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.prog { margin-top: 12px; font-size: 14px; color: var(--muted); display: flex; align-items: center; gap: 10px; }
+.meter { flex: 1; height: 8px; border-radius: 99px; background: var(--line); overflow: hidden; }
+.meter i { display: block; height: 100%; background: var(--ok); width: 0; transition: width .25s ease; }
+.group { margin-top: 26px; }
+.group h2 { font: 700 16px/1.3 var(--font-display); margin: 0 0 4px; display: flex; align-items: center; gap: 8px; }
+.group p { margin: 0 0 10px; color: var(--muted); font-size: 14px; }
+.tag { font: 700 12px/1 var(--font-body); padding: 5px 8px; border-radius: 8px; letter-spacing: .04em; }
+.tag.NP1 { background: var(--np1-soft); color: var(--np1); } .tag.NP5 { background: var(--np5-soft); color: var(--np5); }
+.tag.NP2, .tag.NP3, .tag.NP4, .tag.GEN { background: var(--np5-soft); color: var(--np5); }
+.seg { flex-wrap: wrap; }
+.fig { margin: 12px 0 18px; } .fig svg { width: 100%; height: auto; display: block; border-radius: 12px; border: 1px solid var(--line); } .fig figcaption { font-size: 13px; color: var(--mute, #586078); margin-top: 6px; }
+.tag.hi { background: var(--hi-soft); color: var(--hi); }
+.list { display: grid; gap: 8px; }
+.row { display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 10px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; cursor: pointer; text-align: left; width: 100%; }
+.row .t { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.row .chk { width: 24px; height: 24px; border-radius: 50%; border: 2px solid var(--line); display: grid; place-items: center; font-size: 14px; flex: none; }
+.row.done .chk { background: var(--ok); border-color: var(--ok); color: var(--bg); }
+.empty { margin: 40px 0; text-align: center; color: var(--muted); }
+article { padding-top: 18px; }
+article .meta { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
+article h1 { font: 700 28px/1.2 var(--font-display); margin: 4px 0 14px; text-wrap: balance; letter-spacing: -0.01em; }
+article h2 { font: 700 19px/1.3 var(--font-display); margin: 26px 0 6px; }
+article h3, article h4 { font: 700 17px/1.3 var(--font-display); margin: 18px 0 4px; }
+article p { margin: 0 0 12px; max-width: 65ch; }
+article ul, article ol { margin: 0 0 12px; padding-left: 22px; max-width: 65ch; } article li { margin: 4px 0; }
+article code { background: var(--line); padding: 1px 6px; border-radius: 6px; font-size: .92em; }
+article blockquote { margin: 0 0 12px; padding: 4px 14px; border-left: 4px solid var(--line); color: var(--muted); }
+article hr { border: 0; border-top: 1px solid var(--line); margin: 20px 0; }
+.tbl { overflow-x: auto; margin: 0 0 12px; } table { border-collapse: collapse; } th, td { border: 1px solid var(--line); padding: 6px 10px; text-align: left; }
+.wl { text-decoration: underline; text-underline-offset: 3px; font-weight: 700; } .wl.miss { color: var(--muted); font-weight: 400; text-decoration: none; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 22px 0 8px; }
+.btn { min-height: 48px; padding: 0 18px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); cursor: pointer; font-weight: 700; }
+.btn.primary { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.btn.on { background: var(--ok); color: var(--bg); border-color: var(--ok); }
+.nav { display: flex; gap: 10px; margin-top: 18px; } .nav .btn { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.back { margin-top: 22px; } .back h3 { margin: 0 0 6px; font: 700 15px var(--font-display); color: var(--muted); }
+.back a { display: inline-block; margin: 0 8px 6px 0; }
+.note { margin-top: 28px; padding: 12px 14px; border: 1px dashed var(--line); border-radius: 12px; color: var(--muted); font-size: 14px; }
+.toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(18px + env(safe-area-inset-bottom, 0px)); background: var(--ink); color: var(--bg); padding: 10px 16px; border-radius: 999px; font-size: 14px; }
+@media (prefers-reduced-motion: reduce) { .meter i { transition: none; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="bar"><h1 id="ttl">PNLE Study Notes</h1><button class="icon-btn" id="theme" aria-label="Switch light or dark mode">◐</button></div>
+    <div id="homeTools">
+      <input class="search" id="q" type="search" placeholder="Search all notes" aria-label="Search all notes" autocomplete="off">
+      <div class="seg" role="group" aria-label="Exam area"><button data-a="ALL" aria-pressed="true">All</button><button data-a="NP1" aria-pressed="false">NP1</button><button data-a="NP2" aria-pressed="false">NP2</button><button data-a="NP3" aria-pressed="false">NP3</button><button data-a="NP4" aria-pressed="false">NP4</button><button data-a="NP5" aria-pressed="false">NP5</button><button data-a="GEN" aria-pressed="false">Core</button></div>
+      <div class="prog"><span id="progTxt"></span><div class="meter"><i id="meter"></i></div></div>
+    </div>
+    <div id="noteTools" hidden><button class="btn" id="back" style="min-height:44px">← All notes</button></div>
+  </header>
+  <main id="main"></main>
+</div>
+<div class="toast" id="toast" hidden></div>
+<script type="application/json" id="data">__DATA__</script>
+<script>
+(function () {
+  var DATA = JSON.parse(document.getElementById('data').textContent);
+  var notes = DATA.notes, groups = DATA.groups;
+  var byId = {}, bySlug = {};
+  function slug(s) { return String(s).toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, ''); }
+  notes.forEach(function (n) { byId[n.id] = n; bySlug[slug(n.title)] = n; });
+  var back = {};
+  function esc(s) { return s.replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  notes.forEach(function (n) {
+    (n.body.match(/\[\[[^\]]+\]\]/g) || []).forEach(function (m) {
+      var t = m.slice(2, -2).split('|')[0].split('#')[0].trim(), x = bySlug[slug(t)];
+      if (x && x.id !== n.id) { (back[x.id] = back[x.id] || {})[n.id] = 1; }
+    });
+  });
+  var studied = {};
+  try { studied = JSON.parse(localStorage.getItem('pnle-studied') || '{}') || {}; } catch (e) { studied = {}; }
+  function save() { try { localStorage.setItem('pnle-studied', JSON.stringify(studied)); } catch (e) {} }
+  var st = { area: 'ALL', q: '' };
+  var main = document.getElementById('main');
+
+  function inline(s) {
+    s = esc(s);
+    s = s.replace(/\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|([^\]]+))?\]\]/g, function (m, t, a) {
+      var n = bySlug[slug(t.trim())], label = a || t;
+      return n ? '<a class="wl" href="#' + n.id + '">' + label + '</a>' : '<span class="wl miss">' + label + '</span>';
+    });
+    s = s.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>').replace(/(^|[\s(])\*([^*\s][^*]*)\*/g, '$1<em>$2</em>').replace(/`([^`]+)`/g, '<code>$1</code>');
+    return s;
+  }
+  function md(src) {
+    var lines = src.replace(/\r/g, '').split('\n'), out = [], i = 0;
+    while (i < lines.length) {
+      var l = lines[i], m;
+      if (!l.trim()) { i++; continue; }
+      if ((m = /^(#{2,4})\s+(.*)$/.exec(l))) { var lv = m[1].length; out.push('<h' + lv + '>' + inline(m[2]) + '</h' + lv + '>'); i++; continue; }
+      if (/^\s*(-{3,}|\*{3,})\s*$/.test(l)) { out.push('<hr>'); i++; continue; }
+      if (/^\s*>/.test(l)) { var q = []; while (i < lines.length && /^\s*>/.test(lines[i])) { q.push(lines[i].replace(/^\s*>\s?/, '')); i++; } out.push('<blockquote>' + inline(q.join(' ')) + '</blockquote>'); continue; }
+      if (/^\s*\|.*\|\s*$/.test(l)) {
+        var rows = []; while (i < lines.length && /^\s*\|.*\|\s*$/.test(lines[i])) { rows.push(lines[i].trim()); i++; }
+        var cells = function (r) { return r.replace(/^\||\|$/g, '').split('|').map(function (c) { return c.trim(); }); };
+        var head = cells(rows[0]), body = rows.slice(/^[\s|:-]+$/.test(rows[1] || '') ? 2 : 1).map(cells);
+        out.push('<div class="tbl"><table><thead><tr>' + head.map(function (c) { return '<th>' + inline(c) + '</th>'; }).join('') + '</tr></thead><tbody>' +
+          body.map(function (r) { return '<tr>' + r.map(function (c) { return '<td>' + inline(c) + '</td>'; }).join('') + '</tr>'; }).join('') + '</tbody></table></div>');
+        continue;
+      }
+      if (/^\s*([-*•])\s+/.test(l) || /^\s*\d+[.)]\s+/.test(l)) {
+        var ordered = /^\s*\d+[.)]\s+/.test(l), items = [];
+        while (i < lines.length && (ordered ? /^\s*\d+[.)]\s+/.test(lines[i]) : /^\s*([-*•])\s+/.test(lines[i]))) {
+          var it = lines[i].replace(ordered ? /^\s*\d+[.)]\s+/ : /^\s*([-*•])\s+/, ''); i++;
+          while (i < lines.length && /^\s{2,}\S/.test(lines[i]) && !/^\s*([-*•]|\d+[.)])\s+/.test(lines[i])) { it += ' ' + lines[i].trim(); i++; }
+          items.push('<li>' + inline(it) + '</li>');
+        }
+        out.push((ordered ? '<ol>' : '<ul>') + items.join('') + (ordered ? '</ol>' : '</ul>')); continue;
+      }
+      var p = []; while (i < lines.length && lines[i].trim() && !/^(#{2,4}\s|\s*[-*•]\s|\s*\d+[.)]\s|\s*>|\s*\|)/.test(lines[i])) { p.push(lines[i].trim()); i++; }
+      out.push('<p>' + inline(p.join(' ')) + '</p>');
+    }
+    return out.join('');
+  }
+  function toast(t) { var el = document.getElementById('toast'); el.textContent = t; el.hidden = false; clearTimeout(toast.t); toast.t = setTimeout(function () { el.hidden = true; }, 1800); }
+  function progress() {
+    var done = notes.filter(function (n) { return studied[n.id]; }).length;
+    document.getElementById('progTxt').textContent = 'Studied ' + done + ' of ' + notes.length;
+    document.getElementById('meter').style.width = (notes.length ? (done / notes.length * 100) : 0) + '%';
+  }
+  function matches(n) {
+    if (st.area !== 'ALL' && n.area !== st.area) return false;
+    var q = st.q.trim().toLowerCase();
+    return !q || n.title.toLowerCase().indexOf(q) >= 0 || n.body.toLowerCase().indexOf(q) >= 0;
+  }
+  function home() {
+    document.getElementById('homeTools').hidden = false; document.getElementById('noteTools').hidden = true;
+    document.getElementById('ttl').textContent = 'PNLE Study Notes';
+    var html = '', count = 0;
+    groups.forEach(function (g) {
+      var list = notes.filter(function (n) { return n.group === g.key && matches(n); });
+      if (!list.length) return; count += list.length;
+      html += '<section class="group"><h2><span class="tag ' + g.area + '">' + g.area + '</span>' + esc(g.label) + '</h2><p>' + esc(g.desc) + ' · ' + list.length + ' notes</p><div class="list">' +
+        list.map(function (n) {
+          return '<button class="row' + (studied[n.id] ? ' done' : '') + '" data-id="' + n.id + '"><span class="chk" aria-hidden="true">' + (studied[n.id] ? '✓' : '') + '</span><span class="t">' + esc(n.title) + '</span>' +
+            (n.priority === 'high' ? '<span class="tag hi">High yield</span>' : '') + '</button>';
+        }).join('') + '</div></section>';
+    });
+    main.innerHTML = count ? html : '<p class="empty">No notes match. Try fewer words.</p>';
+    progress();
+  }
+  function open(id) {
+    var n = byId[id]; if (!n) { home(); return; }
+    document.getElementById('homeTools').hidden = true; document.getElementById('noteTools').hidden = false;
+    var sib = notes.filter(function (x) { return x.group === n.group; }), ix = sib.indexOf(n);
+    var bl = Object.keys(back[n.id] || {}).map(function (k) { return byId[k]; });
+    main.innerHTML = '<article><div class="meta"><span class="tag ' + n.area + '">' + n.area + '</span>' + (n.priority === 'high' ? '<span class="tag hi">High yield</span>' : '') + '</div>' +
+      '<h1>' + esc(n.title) + '</h1>' + (n.svg ? '<figure class="fig">' + n.svg + '<figcaption>Diagram (schematic): ' + esc(n.cap) + '</figcaption></figure>' : '') + md(n.body) +
+      '<div class="actions"><button class="btn ' + (studied[n.id] ? 'on' : 'primary') + '" id="done">' + (studied[n.id] ? '✓ Studied' : 'Mark as studied') + '</button><button class="btn" id="copy">Copy note</button></div>' +
+      (bl.length ? '<div class="back"><h3>Linked from</h3>' + bl.map(function (x) { return '<a href="#' + x.id + '">' + esc(x.title) + '</a>'; }).join('') + '</div>' : '') +
+      '<div class="nav">' + (ix > 0 ? '<a class="btn" href="#' + sib[ix - 1].id + '" style="text-decoration:none;color:inherit">← ' + esc(sib[ix - 1].title) + '</a>' : '') +
+      (ix < sib.length - 1 ? '<a class="btn" href="#' + sib[ix + 1].id + '" style="text-decoration:none;color:inherit">' + esc(sib[ix + 1].title) + ' →</a>' : '') + '</div>' +
+      '<p class="note">' + esc(DATA.disclaimer) + '</p></article>';
+    window.scrollTo(0, 0);
+    document.getElementById('done').onclick = function () { if (studied[n.id]) delete studied[n.id]; else studied[n.id] = 1; save(); open(id); };
+    document.getElementById('copy').onclick = function () {
+      var text = n.title + '\n\n' + n.body;
+      function fallback() { toast('Select and copy the text on the page'); }
+      try { navigator.clipboard.writeText(text).then(function () { toast('Copied'); }, fallback); } catch (e) { fallback(); }
+    };
+  }
+  function route() { var id = location.hash.replace('#', ''); if (id && byId[id]) open(id); else home(); }
+  main.addEventListener('click', function (e) { var r = e.target.closest('.row'); if (r) location.hash = r.getAttribute('data-id'); });
+  document.getElementById('back').onclick = function () { location.hash = ''; history.replaceState(null, '', location.pathname + location.search); route(); };
+  document.getElementById('q').addEventListener('input', function (e) { st.q = e.target.value; home(); });
+  document.querySelectorAll('.seg button').forEach(function (b) {
+    b.onclick = function () { st.area = b.getAttribute('data-a'); document.querySelectorAll('.seg button').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); }); home(); };
+  });
+  document.getElementById('theme').onclick = function () {
+    var r = document.documentElement, dark = r.getAttribute('data-theme') === 'dark' || (!r.getAttribute('data-theme') && matchMedia('(prefers-color-scheme: dark)').matches);
+    r.setAttribute('data-theme', dark ? 'light' : 'dark');
+  };
+  window.addEventListener('hashchange', route);
+  route();
+})();
+</script>

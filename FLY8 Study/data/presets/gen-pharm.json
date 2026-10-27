@@ -1,0 +1,1065 @@
+[
+ {
+  "id": "gen-ph-adme",
+  "area": "GEN",
+  "title": "Pharmacokinetics, Pharmacodynamics and the ADME Process",
+  "body": "## What it is\nPharmacology is the study of drugs: where they come from, what they are, and how they act on living things. Pharmacotherapy is using drugs to prevent, diagnose or treat signs, symptoms and disease.\n\n## Must-know facts\n- **Pharmacodynamics** = what the drug does to the body (action on target cells and the resulting change in function).\n- **Pharmacokinetics** = what the body does to the drug (movement, breakdown, removal). Easy way to remember: \"kinetics\" = the drug's journey.\n- **ADME** is the journey in order:\n  - Absorption: from entering the body until the drug reaches the bloodstream. Affected by dosage form, route, blood flow, GI function, and food or other drugs.\n  - Distribution: transport of drug molecules around the body.\n  - Metabolism (biotransformation): the body inactivates the drug.\n  - Excretion: removal through kidneys, bowel, lungs and skin. Enterohepatic recirculation means some drug is reabsorbed from the bowel and returns to the liver, prolonging its effect.\n\n## Effects of a drug, from mild to dangerous\n- **Side effects**: physiologic effects not related to the wanted effect. Expected and usually normal.\n- **Adverse reactions**: any unwanted response, more severe than a side effect. Abnormal and must be reported.\n- **Toxic effects**: life-threatening, an emergency. Caused by excessive amounts of drug and may cause reversible or irreversible tissue damage.\n\n## How the exam asks about it\nQuestions give a symptom and ask whether it is a side effect (expected, teach) or an adverse/toxic reaction (act and report). Toxic = emergency, so assess and notify at once.\n\n## Related topics\n[[Ten Rights of Medication Administration and Drug Trials]], [[Drugs That Harm Organs, Stain Teeth or Cause Disulfiram Reactions]]",
+  "tags": [
+   "pharmacology",
+   "pharmacokinetics",
+   "ADME"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Terms and Definition",
+   "Process of Drug Transport (ADME)",
+   "Therapeutic Index"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-rights",
+  "area": "GEN",
+  "title": "Ten Rights of Medication Administration and Drug Trials",
+  "body": "## What it is\nThe ten rights are the safety checklist the nurse uses every time a drug is given.\n\n## Must-know facts\n- The ten rights: right route, right time and frequency, right patient, right drug, right dose, right to refuse, right drug-drug interaction check, right education and information, right history and assessment, right documentation.\n- Know the drug before giving it: why it is given, desired effects, side and adverse effects, usual dose and safe range, safety rules, and compatibility with other drugs and infusions.\n- Never give a drug you did not prepare yourself.\n- Never give a drug if the order is hard to read or the dose is outside the therapeutic range. Clarify first.\n\n## Priority nursing actions\n1. Assess first: food or drug allergies, past history and current condition, knowledge deficit (teaching need).\n2. Give the drug using the rights.\n3. Evaluate the response, document, and report unexpected or unfavorable responses.\n- Allergic signs to watch for: difficulty of breathing, wheezing, rash or itching, nausea or vomiting, palpitations. Airway and breathing come first if these appear.\n\n## General teaching points\n- Do not take an antacid at the same time as a drug or with milk because absorption changes.\n- Enteric-coated and sustained-release tablets, and capsules, should not be opened or crushed.\n- Never change the dose or stop a drug suddenly without an order.\n- Avoid over-the-counter and herbal products unless approved. Avoid smoking and alcohol with specific drugs.\n\n## Drug testing phases\n- Animal studies first, then FDA review of the data.\n- Phase I: safe dosage, scheduling and toxicity.\n- Phase II: effectiveness in specific diseases.\n- Phase III: is it better than the standard drug?\n- Phase IV: marketed for general use with continuous monitoring.\n\n## Related topics\n[[Pharmacokinetics, Pharmacodynamics and the ADME Process]], [[Essential Drugs]]",
+  "tags": [
+   "pharmacology",
+   "medication safety",
+   "rights"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Nursing Responsibilities in Medication Administration",
+   "Ten Rights of Medication",
+   "Testing and Clinical Trials of Drugs",
+   "Nursing Considerations in Drug Administration"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-organ-toxic",
+  "area": "GEN",
+  "title": "Drugs That Harm Organs, Stain Teeth or Cause Disulfiram Reactions",
+  "body": "## What it is\nA memorize-by-list topic: certain drugs are linked to damage of a particular organ, so the nurse monitors that organ.\n\n## Must-know lists (from the handout)\n- **Hepatotoxic** (liver): acetaminophen, erythromycin, iron overdose, isoniazid, rifampicin, sulfonamides.\n- **Nephrotoxic** (kidney): acetaminophen, acyclovir, aminoglycosides, amphotericin B, ciprofloxacin, rifampicin, sulfonamides, tetracycline, contrast medium.\n- **Ototoxic** (hearing): aminoglycosides, aspirin, chloroquine, loop diuretics.\n- **Cause staining**: iron, Lugol's solution, tetracycline, nitrofurantoin (Macrodantin). Staining of teeth is why liquid iron or iodine is taken through a straw.\n- **Teratogenic** (harm the fetus): fluoroquinolones, aminoglycosides, tetracycline, ACE inhibitors, lithium, oral hypoglycemic agents.\n- **Disulfiram-like reaction** with alcohol: metronidazole, cephalosporins, oral hypoglycemic agents. Teach to avoid alcohol completely.\n\n## Priority nursing actions\n- Before giving a listed drug, check the matching organ function (liver tests, BUN and creatinine, hearing).\n- Ask about pregnancy and teach contraception where relevant.\n- Teach alcohol avoidance with disulfiram-reaction drugs.\n\n## How the exam asks about it\nUsually \"which drug requires monitoring of hearing/kidney/liver\" or \"which drug should be avoided in pregnancy\".\n\n## Related topics\n[[Antibiotic Classes and Their Adverse Effects]], [[Diuretics: Thiazide, Loop, Osmotic and Potassium-Sparing]], [[Oral Antidiabetic Drugs]]\n\n## Check against your textbook\nThe handout's table is badly laid out, so which column each drug belongs to is inferred. Verify the lists, especially teratogens, against your pharmacology text.",
+  "tags": [
+   "pharmacology",
+   "toxicity",
+   "drug lists"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Hepatotoxic, nephrotoxic, ototoxic drugs",
+   "Drugs that cause staining",
+   "Teratogenic drugs",
+   "Disulfiram reaction"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-ans",
+  "area": "GEN",
+  "title": "Sympathetic and Parasympathetic Effects on Organs",
+  "body": "## What it is\nThe autonomic nervous system controls involuntary body functions. Drugs are named by which half they copy or block.\n\n## Organ responses\n- Eye: sympathetic = mydriasis (dilated pupil); parasympathetic = miosis.\n- Bronchioles: sympathetic dilate; parasympathetic constrict.\n- Heart: sympathetic raises rate; parasympathetic lowers it.\n- Blood vessels: sympathetic constrict; parasympathetic dilate.\n- GI tract: sympathetic decreases peristalsis; parasympathetic increases it.\n- Bladder: sympathetic relaxes the bladder and contracts the sphincter (holds urine); parasympathetic contracts the bladder and relaxes the sphincter (passes urine).\n- Sweat glands: sympathetic increases secretion. Salivary glands: sympathetic decreases, parasympathetic increases.\n- Adrenal glands: sympathetic increases epinephrine and norepinephrine.\n\n## Must-know facts\n- Sympathetic = adrenergic, thoracolumbar, \"fight or flight\". Neurotransmitters: epinephrine and norepinephrine.\n- Receptors: alpha 1 (blood vessels, iris, bladder), alpha 2 (nerve membranes, modulate NE release), beta 1 (heart), beta 2 (bronchi, vessel smooth muscle, uterus).\n- Parasympathetic = cholinergic, craniosacral. Neurotransmitter: acetylcholine.\n- Sympathomimetic = adrenergic agonist. Sympatholytic = adrenergic antagonist. Parasympathomimetic = cholinergic agonist. Parasympatholytic = cholinergic antagonist (anticholinergic).\n- A sympathomimetic and a parasympathomimetic have opposite effects; a sympathomimetic and a parasympatholytic have similar effects.\n\n## How the exam asks about it\nPredict the effect: for example an anticholinergic causes dry mouth, urinary retention, tachycardia and constipation because it blocks the \"rest and digest\" side.\n\n## Related topics\n[[Adrenergic Agonists: Epinephrine, Dopamine and Related Drugs]], [[Alpha and Beta Adrenergic Blockers]], [[Cholinergic Agonists and Anticholinergics: SLUDGE and Antidotes]]",
+  "tags": [
+   "pharmacology",
+   "autonomic",
+   "ANS"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Autonomic Nervous System (ANS) Agents",
+   "Sympathetic Nervous System",
+   "Parasympathetic Nervous System",
+   "Comparison between sympathetic and parasympathetic responses"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-adrenergic",
+  "area": "GEN",
+  "title": "Adrenergic Agonists: Epinephrine, Dopamine and Related Drugs",
+  "body": "## What it is\nAdrenergic agonists (sympathomimetics) copy norepinephrine and stimulate the sympathetic system.\n\n## Must-know facts (by drug)\n- **Epinephrine**: emergency drug for allergic reaction, anaphylaxis, bronchospasm and cardiac arrest. Potent inotrope (raises contractility).\n- **Norepinephrine**: strong vasoconstrictor that raises blood pressure and cardiac output.\n- **Albuterol**: selective beta-2, causes bronchodilation; used for bronchospasm and asthma. Should not be given with an MAOI because of hypertensive crisis risk.\n- **Isoproterenol**: acts on beta-1 and beta-2; bronchodilation.\n- **Ephedrine**: hypotensive states, bronchospasm, hay fever, sinusitis, allergic rhinitis.\n- **Clonidine**: selective alpha-2 drug used for hypertension.\n- **Dopamine**: drug of choice for shock.\n- **Dobutamine**: for heart failure because it raises contractility without raising rate or oxygen demand.\n\n## Priority nursing actions\n1. Record baseline vital signs before starting.\n2. Review the client's other drugs for interactions.\n3. Check urine output and assess for bladder distention (urinary retention can occur).\n- Antidote for norepinephrine or dopamine overdose (extravasation/overdose): phentolamine mesylate.\n\n## Related topics\n[[Vasopressors for Hypotension and Shock]], [[Bronchodilators: Beta-Agonists, Xanthines and Ipratropium]], [[Antidepressant Classes: TCA, SSRI and MAOI Drug Review]], [[Sympathetic and Parasympathetic Effects on Organs]]",
+  "tags": [
+   "pharmacology",
+   "adrenergic",
+   "sympathomimetic"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Adrenergic Drugs",
+   "Adrenergic Drugs Nursing Responsibilities"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-adrblock",
+  "area": "GEN",
+  "title": "Alpha and Beta Adrenergic Blockers",
+  "body": "## What it is\nAdrenergic blockers (sympatholytics) inhibit stimulation of the sympathetic system by occupying alpha or beta receptors.\n\n## Classes\n- **Non-selective alpha blocker** (alpha 1 and 2): phentolamine.\n- **Selective alpha-1 blockers**: doxazosin, prazosin.\n- **Non-selective beta blockers** (beta 1 and 2): propranolol, nadolol, timolol.\n- **Selective beta-1 blockers** (heart): metoprolol, atenolol, acebutolol, betaxolol, esmolol. Tip: names ending in \"-olol\" are beta blockers.\n\n## Why caution matters\nNon-selective beta blockers also block beta-2, so use with caution in COPD, bronchial asthma (bronchospasm) and diabetes (they can mask hypoglycemia signs such as tachycardia; this last point is general textbook knowledge, not in the handout).\n\n## Undesirable effects\nBradycardia, bronchospasm, peripheral vascular constriction, exhaustion, emotional depression and decreased libido.\n\n## Priority nursing actions\n- Check apical pulse and blood pressure before giving. Hold and report if bradycardic or hypotensive per order.\n- Teach not to stop suddenly.\n\n## Related topics\n[[Beta-Blockers for Angina and Dysrhythmias]], [[Antihypertensive Drug Classes]], [[Adrenergic Agonists: Epinephrine, Dopamine and Related Drugs]]\n\n## Check against your textbook\nMasking of hypoglycemia, and the hold-parameter advice, were added from general knowledge.",
+  "tags": [
+   "pharmacology",
+   "adrenergic blockers",
+   "beta blocker"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Adrenergic Blockers",
+   "Alpha Adrenergic Blockers",
+   "Beta-adrenergic Blockers"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-cholinergic",
+  "area": "GEN",
+  "title": "Cholinergic Agonists and Anticholinergics: SLUDGE and Antidotes",
+  "body": "## What it is\nCholinergic agonists stimulate the parasympathetic nervous system. Two receptor types: muscarinic (smooth muscle, slows heart rate) and nicotinic (skeletal muscle).\n\n## Direct-acting agonists\n- **Bethanechol (Urecholine)**: urinary retention and abdominal distention.\n- **Pilocarpine**: constricts the pupil; used in glaucoma.\n- **Metoclopramide (Plasil)**: listed in the handout for GERD; it speeds gastric emptying.\n\n## Indirect-acting (cholinesterase inhibitors)\n- Reversible: physostigmine, neostigmine, pyridostigmine.\n- Irreversible: potent, long-lasting. Antidote: **pralidoxime**.\n\n## Signs of overdose: SLUDGE\nSalivation, Lacrimation, Urinary incontinence, Diarrhea, GI cramps, Emesis (also sweating and abdominal cramps). The antidote for cholinergic overdose is **atropine sulfate**.\n\n## Anticholinergics\nBlock acetylcholine by occupying its receptors. Examples: atropine (also the antidote for muscarinic agonist poisoning), scopolamine, propantheline bromide, dicyclomine, tropicamide. Expect dry mouth, urinary retention, constipation, blurred vision, tachycardia.\n\n## How the exam asks about it\nMatch overdose to antidote: cholinergic = atropine; irreversible cholinesterase inhibitor = pralidoxime.\n\n## Related topics\n[[Cholinesterase Inhibitors for Myasthenia Gravis]], [[Sympathetic and Parasympathetic Effects on Organs]], [[Antiemetic Drugs]]\n\n## Check against your textbook\nMetoclopramide is usually classed as a prokinetic (dopamine blocker), not a true cholinergic agonist; the handout groups it here.",
+  "tags": [
+   "pharmacology",
+   "cholinergic",
+   "anticholinergic",
+   "antidote"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Cholinergic Agonists",
+   "Direct-acting Cholinergic Agonist",
+   "Indirect-acting Cholinergic Agonists",
+   "Anti-Cholinergic Drugs"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-anticonv",
+  "area": "GEN",
+  "title": "Anticonvulsants: Phenytoin, Diazepam and Phenobarbital",
+  "body": "## What it is\nAnticonvulsants change the bioelectric activity of cortical and subcortical areas to prevent seizures. Examples: diazepam (Valium), phenytoin (Dilantin), phenobarbital (Luminal).\n\n## Adverse effects\n- Blood dyscrasias, nausea and vomiting, dizziness and drowsiness.\n- Phenytoin: ataxia, hirsutism, hypotension, and gingival hyperplasia.\n\n## Priority nursing actions\n- Give with food.\n- Phenytoin: inspect oral mucosa and gums; do not mix with other IV fluids; monitor blood laboratory results.\n\n## Client teaching\n- Avoid alcohol, driving and hazardous machinery.\n- Take on schedule and never skip doses.\n- Carry medical alert information and report unusual symptoms.\n- Phenytoin: good oral hygiene and regular dental visits.\n\n## How the exam asks about it\nPhenytoin = gums. Missed doses can bring on seizures, so adherence teaching is a favorite.\n\n## Related topics\n[[Anxiolytics: Benzodiazepines and Buspirone]], [[Barbiturate Sedative-Hypnotics]], [[Lithium and Other Antimanic Drugs]]",
+  "tags": [
+   "pharmacology",
+   "anticonvulsant",
+   "phenytoin"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Neurologic Drugs: Anti-Convulsants"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-parkinson",
+  "area": "GEN",
+  "title": "Antiparkinson Drugs: Levodopa, Carbidopa and Anticholinergics",
+  "body": "## What it is\nParkinson's disease lacks dopamine. Levodopa is the most effective drug for its symptoms.\n\n## Must-know facts\n- Dopamine itself cannot cross the blood-brain barrier, so levodopa (its precursor) is given, in large doses, because only about 1 percent of the dose reaches the brain.\n- Dopa decarboxylase in the periphery converts about 99 percent of levodopa into dopamine before it reaches the brain.\n- **Carbidopa** blocks dopa decarboxylase, so more levodopa reaches the brain and less is needed. Hence the combination levodopa + carbidopa.\n\n## Precautions by group\n- Anticholinergics: dry mouth, urinary retention, constipation, blurred vision, tachycardia; caution in glaucoma and COPD.\n- Levodopa: nausea, vomiting, dyskinesia, orthostatic hypotension.\n- Selegiline: insomnia; do not combine with meperidine.\n\n## Priority nursing actions\n- Safety first: teach slow position changes (orthostatic hypotension).\n- Monitor for involuntary movements and urinary retention.\n\n## Related topics\n[[Cholinergic Agonists and Anticholinergics: SLUDGE and Antidotes]], [[Antipsychotic Drugs: Side Effects and Extrapyramidal Symptoms]]",
+  "tags": [
+   "pharmacology",
+   "parkinson",
+   "levodopa"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Anti-Parkinson Agents",
+   "Precautions in Anti-Parkinsonian Drugs"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-myasthenia",
+  "area": "GEN",
+  "title": "Cholinesterase Inhibitors for Myasthenia Gravis",
+  "body": "## What it is\nThese drugs stop the breakdown of acetylcholine at nerve endings, helping impulses cross the myoneural junction and strengthening muscle contraction, including respiratory muscles. Used to treat myasthenia gravis.\n\n## Drugs\nEdrophonium chloride (diagnostic use), pyridostigmine, neostigmine bromide, ambenonium.\n\n## Adverse effects and toxicity\n- Nausea and vomiting, diarrhea, hypersalivation, CNS disturbances.\n- Toxicity (cholinergic crisis): pulmonary edema, respiratory failure, bronchospasm.\n- Contraindicated in intestinal obstruction, renal obstruction and peritonitis.\n\n## Priority nursing actions\n1. Keep **atropine sulfate** available for overdose (cholinergic crisis). Airway and breathing are the priority.\n2. Monitor vital signs during dose adjustment.\n3. Give 30 minutes to 1 hour before meals (timed so chewing and swallowing muscles are strong); a little food can ease gastric upset.\n\n## Client teaching\nWear medical alert ID and change positions slowly.\n\n## Related topics\n[[Cholinergic Agonists and Anticholinergics: SLUDGE and Antidotes]], [[Skeletal Muscle Relaxants: Central and Peripheral]]",
+  "tags": [
+   "pharmacology",
+   "myasthenia gravis",
+   "cholinesterase"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Acetylcholinesterase Inhibitors"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-antidep",
+  "area": "GEN",
+  "title": "Antidepressant Classes: TCA, SSRI and MAOI Drug Review",
+  "body": "## What it is\nAntidepressants treat depression by raising norepinephrine (and serotonin) levels.\n\n## Classes and examples\n- **TCA**: amitriptyline (Elavil), imipramine (Tofranil), amoxapine, nortriptyline.\n- **SSRI**: fluoxetine (Prozac), sertraline (Zoloft), fluvoxamine, paroxetine (Paxil).\n- **MAOI**: tranylcypromine, isocarboxazid, phenelzine.\n\n## Adverse effects\n- TCA: orthostatic hypotension, drowsiness, dizziness, confusion, CNS stimulation.\n- SSRI: insomnia, headache, sexual dysfunction, gastric irritation; may interact with tryptophan.\n- MAOI: potentiate alcohol, barbiturates and antihistamines. **Hypertensive crisis** with high-tyramine foods (beer, wine, chocolate; aged cheese is a standard addition). Give phentolamine in hypertensive crisis per the handout.\n\n## Priority nursing actions\n- Suicide precautions, especially as depression lifts (energy returns before mood).\n- SSRIs in the morning (insomnia), TCAs at bedtime (sedation).\n- Never give SSRIs and MAOIs together or close together.\n\n## Client teaching\nEffect takes 2 to 4 weeks. No OTC drugs without approval. Avoid hazardous activities. MAOI users avoid tyramine.\n\n## Related topics\n[[Major Depressive Disorder]], [[Antidepressants and Mood Stabilizers]], [[Lithium and Other Antimanic Drugs]]\n\n## Check against your textbook\nHandout says the effect is \"up to 2 to 4 weeks\"; many texts say full effect can take longer. Hypertensive-crisis treatment is usually per prescriber and local protocol.",
+  "tags": [
+   "pharmacology",
+   "antidepressant",
+   "SSRI",
+   "MAOI",
+   "TCA"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Antidepressants"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-lithium",
+  "area": "GEN",
+  "title": "Lithium and Other Antimanic Drugs",
+  "body": "## What it is\nMood stabilizers control the manic phase of bipolar disorder. Drugs: lithium carbonate, carbamazepine, clonazepam.\n\n## Adverse effects (watch for toxicity)\nMetallic taste, hand tremors, excess voiding and extreme thirst, slurred speech, disorientation, cogwheel rigidity, renal failure, respiratory depression. Toxicity signs for teaching: nausea, vomiting, diarrhea, weak muscles, confusion.\n\n## Priority nursing actions\n1. Monitor blood levels regularly. Handout: normal lithium 0.5 to 1.5 mEq/L.\n2. Avoid giving adrenergic drugs together with it.\n3. Evaluate response.\n\n## Client teaching\n- Effect takes several weeks.\n- High fluid intake and **normal sodium** intake (low sodium raises lithium levels and toxicity risk).\n- Take with meals.\n- Report toxicity signs right away.\n\n## How the exam asks about it\nLithium + dehydration/low salt = toxicity. Level near the upper range plus tremors and diarrhea = hold and call.\n\n## Related topics\n[[Bipolar Disorder and Mania]], [[Antidepressants and Mood Stabilizers]], [[Anticonvulsants: Phenytoin, Diazepam and Phenobarbital]]\n\n## Check against your textbook\nMany texts give a usual therapeutic range of about 0.6 to 1.2 mEq/L; verify the range your school uses. The handout also lists lithium among teratogenic drugs.",
+  "tags": [
+   "pharmacology",
+   "lithium",
+   "mood stabilizer"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Anti-Manic Agents / Mood Stabilizers"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-antipsych",
+  "area": "GEN",
+  "title": "Antipsychotic Drugs: Side Effects and Extrapyramidal Symptoms",
+  "body": "## What it is\nAntipsychotics block dopamine receptors in the CNS (and sympathetic system). Used for psychotic symptoms in schizophrenia, psychosis and Tourette's syndrome.\n\n## Drugs\n- Typical: chlorpromazine, haloperidol, thioridazine, fluphenazine.\n- Atypical (handout mnemonic CROQZ): clozapine, risperidone, olanzapine, quetiapine, ziprasidone.\n\n## Adverse effects\nExcessive sedation, jaundice, orthostatic hypotension, urinary retention, anorexia, dry mouth, and **extrapyramidal symptoms (EPS)**:\n- Acute dystonia (muscle spasm)\n- Pseudoparkinsonism\n- Akathisia (restlessness)\n- Tardive dyskinesia (late, abnormal movements)\n\n## Priority nursing actions\n- Assess response; monitor vital signs, signs of infection, liver toxicity and EPS.\n- Give at bedtime (sedation).\n\n## Client teaching\nAvoid alcohol, driving and direct sunlight; keep good oral hygiene; report EPS or signs of infection (fever, sore throat).\n\n## How the exam asks about it\nName the EPS from a description of the movement; identify which symptom is an emergency and needs prompt report.\n\n## Related topics\n[[Typical and Atypical Antipsychotics]], [[Schizophrenia]], [[Antiparkinson Drugs: Levodopa, Carbidopa and Anticholinergics]]\n\n## Check against your textbook\nInfection signs matter because clozapine can cause agranulocytosis; the handout does not state this, so confirm.",
+  "tags": [
+   "pharmacology",
+   "antipsychotic",
+   "EPS"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Anti-Psychotics/Neuroleptics"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-barb",
+  "area": "GEN",
+  "title": "Barbiturate Sedative-Hypnotics",
+  "body": "## What it is\nBarbiturates depress the CNS. Used for insomnia and sedation.\n\n## Must-know facts\n- Drugs: pentobarbital, phenobarbital, secobarbital.\n- Toxicity: hypertension, pulmonary constriction, cold clammy skin, cyanosis of lips, insomnia, hallucination, delirium.\n- Contraindications: hypersensitivity, pregnancy.\n\n## Priority nursing actions\n1. Monitor response and breathing (respiratory depression).\n2. Keep resuscitation equipment available.\n\n## Client teaching\nTake exactly as prescribed; avoid alcohol; avoid driving and hazardous activity.\n\n## Related topics\n[[Anticonvulsants: Phenytoin, Diazepam and Phenobarbital]], [[Anxiolytics: Benzodiazepines and Buspirone]]\n\n## Check against your textbook\nThe handout toxicity list is partly atypical (hypertension, insomnia); check.",
+  "tags": [
+   "pharmacology",
+   "barbiturate",
+   "sedative"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Hypnotics/Sedatives"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-anxiolytic",
+  "area": "GEN",
+  "title": "Anxiolytics: Benzodiazepines and Buspirone",
+  "body": "## What it is\nAnxiolytics treat anxiety and sleep disorders.\n- Benzodiazepines: alprazolam (Xanax), diazepam (Valium), chlordiazepoxide (Librium).\n- Azapirone: buspirone (Buspar).\n\n## Adverse reactions\nDizziness, drowsiness, lethargy, orthostatic hypotension, skin rash, blood dyscrasias.\n\n## Contraindications\nHypersensitivity, acute narrow-angle glaucoma, liver disease.\n\n## Priority nursing actions\n- Notify the provider if systolic BP drops 20 mmHg.\n- Give with food or milk.\n\n## Client teaching\n- No OTC drugs without approval; caution driving.\n- Action is potentiated by alcohol or sedatives.\n- **Never stop abruptly** (withdrawal, seizures).\n- Librium: avoid excessive sunlight.\n\n## Related topics\n[[Anxiety and Anxiety Disorders]], [[Barbiturate Sedative-Hypnotics]], [[Anticonvulsants: Phenytoin, Diazepam and Phenobarbital]]\n\n## Check against your textbook\nThe handout writes \"orthostatic hypertension\"; the real effect is orthostatic hypotension. Buspirone's slower onset and low dependence risk are standard textbook points not in the handout.",
+  "tags": [
+   "pharmacology",
+   "benzodiazepine",
+   "anxiety"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Anti-Anxiety/Anxiolytics"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-genanes",
+  "area": "GEN",
+  "title": "General Anesthetics",
+  "body": "## What it is\nGeneral anesthetics depress the CNS step by step until the client is unconscious.\n\n## Must-know facts\n- Inhalation: cyclopropane, enflurane, ether, nitrous oxide.\n- IV barbiturates: thiopental (Pentothal), methohexital (Brevital).\n- IV and IM non-barbiturates: midazolam (Versed), ketamine (Ketaject), propofol (Diprivan).\n- Adverse reactions: inhalation - excitement, restlessness, nausea, vomiting, respiratory distress; IV barbiturates - respiratory distress, hypotension, tachycardia, laryngospasm, respiratory failure; non-barbiturates - hyper/hypotension, rigidity, psychiatric disturbance.\n- Contraindicated in CVA, increased ICP, severe hypertension, cardiac decompensation.\n\n## Priority nursing actions\n1. Have oxygen and emergency equipment available (airway first).\n2. Monitor vital signs.\n3. Use fire precautions if the agent is flammable.\n4. Safety precautions.\n\n## Related topics\n[[Local and Spinal Anesthetics]], [[Barbiturate Sedative-Hypnotics]]\n\n## Check against your textbook\nHandout lists \"respiratory distress\" twice for two groups; check.",
+  "tags": [
+   "pharmacology",
+   "anesthesia",
+   "general"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "General Anesthetics"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-localanes",
+  "area": "GEN",
+  "title": "Local and Spinal Anesthetics",
+  "body": "## What it is\nLocal anesthetics reduce nerve cell membrane permeability to sodium so a pain signal cannot start. The client stays conscious.\n\n## Must-know facts\n- **Topical**: benzocaine (Orajel), cocaine, lidocaine (Xylocaine).\n- **Spinal**: dibucaine (Nupercaine), procaine (Novocaine).\n- **Nerve block**: bupivacaine (Marcaine), mepivacaine (Carbocaine).\n- Use: pain control while conscious.\n- Adverse effects: allergic reactions, respiratory arrest, arrhythmia or cardiac arrest, convulsion, hypotension.\n\n## Assessment\nAllergy history, baseline vital signs, level of sensation, breathing.\n\n## Priority nursing actions\n1. Have oxygen and emergency equipment ready (airway, breathing).\n2. Monitor vital signs during and after anesthesia.\n3. **Spinal anesthesia**: keep the client flat for 6 to 12 hours to prevent spinal headache.\n\n## Complications and red flags\nBreathing slowing, hypotension, irregular heartbeat, seizure.\n\n## Client teaching\nReport headache after spinal anesthesia; protect numb areas from injury until feeling returns.\n\n## How the exam asks about it\nPosition after spinal anesthesia (flat); what to keep at the bedside.\n\n## Related topics\n[[General Anesthetics]], [[Skeletal Muscle Relaxants: Central and Peripheral]]\n\n## Check against your textbook\nHandout gives 6 to 12 hours flat; times vary by agency and agent.",
+  "tags": [
+   "pharmacology",
+   "anesthesia",
+   "local"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Local Anesthetics"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-relaxant",
+  "area": "GEN",
+  "title": "Skeletal Muscle Relaxants: Central and Peripheral",
+  "body": "## What it is\nUsed to relax muscles and treat spasm disorders.\n\n## Central relaxants\n- Drugs: cyclobenzaprine (Flexeril), diazepam, orphenadrine (Norflex).\n- Action: depress the CNS, relaxing voluntary muscles. Use: muscle spasm and pain.\n- Adverse effects: tachycardia, dizziness, drowsiness, dry mouth, angioedema.\n- Nursing: safety precautions, teach to avoid alcohol and hazardous activity, give with meals, fluids for dry mouth, do not stop abruptly.\n\n## Peripheral relaxants\n- Drugs: gallamine, succinylcholine (Anectine).\n- Action: block nerve impulses at the myoneural junction. Use: help endotracheal intubation and orthopedic manipulation.\n- Adverse effects: hypotension, respiratory depression, dysrhythmias.\n- Nursing: **have resuscitation equipment ready**, monitor vital signs, withhold the drug and call the provider if allergic signs appear.\n\n## Related topics\n[[Cholinesterase Inhibitors for Myasthenia Gravis]], [[General Anesthetics]], [[Anticonvulsants: Phenytoin, Diazepam and Phenobarbital]]",
+  "tags": [
+   "pharmacology",
+   "muscle relaxant"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Skeletal Muscle Relaxants"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-nsaid",
+  "area": "GEN",
+  "title": "NSAIDs: COX-1 and COX-2 Inhibitors",
+  "body": "## What it is\nNSAIDs interfere with prostaglandin synthesis. Used for rheumatoid arthritis, osteoarthritis and dysmenorrhea.\n\n## Drugs\n- COX-1 inhibitors: ibuprofen (Motrin), indomethacin (Indocin), salicylates (aspirin).\n- COX-2 inhibitors: celecoxib (Celebrex), valdecoxib.\n\n## Adverse effects\n- COX-1: gastric disturbances, rash, blood dyscrasias/bleeding, CNS disturbances, nephrotoxicity.\n- COX-2: CNS disturbances, nephrotoxicity, myocardial infarction, stroke.\n\n## Contraindications\nHypersensitivity, asthma, renal disease, liver disease.\n\n## Priority nursing actions\n- Give one hour before or two hours after meals (handout). Many texts advise giving with food to protect the stomach, so know both.\n- Monitor vital signs and response; watch for bleeding and GI upset.\n\n## Related topics\n[[Anticoagulants: Heparin and Warfarin]], [[Anti-Gout Agents: Allopurinol, Colchicine and Probenecid]], [[Drugs That Harm Organs, Stain Teeth or Cause Disulfiram Reactions]]\n\n## Check against your textbook\nThe timing advice with meals conflicts with the common \"take with food\" instruction.",
+  "tags": [
+   "pharmacology",
+   "NSAID",
+   "analgesic"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-gout",
+  "area": "GEN",
+  "title": "Anti-Gout Agents: Allopurinol, Colchicine and Probenecid",
+  "body": "## What it is\nAnti-gout agents prevent gout attacks by lowering uric acid in two ways: increasing its excretion and reducing its formation.\n\n## Must-know facts\n- Drugs: allopurinol (Zyloprim), colchicine, probenecid (Benemid).\n- Adverse effects: nausea and vomiting, indigestion, blood dyscrasias, liver damage, skin rash, GI disturbance.\n- Probenecid promotes excretion; allopurinol blocks formation (general knowledge, confirm).\n\n## Assessment\nJoint pain, uric acid level, liver tests, blood counts, intake and output, diet.\n\n## Priority nursing actions\n1. Push oral fluids to prevent kidney stones (uric acid crystals).\n2. Monitor intake and output.\n3. Give with meals to reduce GI upset.\n4. Monitor uric acid and electrolytes.\n\n## Client teaching\nLose weight if needed; avoid high-purine foods (organ meats, sardines, shellfish); avoid fermented beverages such as beer, ale and wine.\n\n## How the exam asks about it\nFoods to avoid with gout, and why fluids matter.\n\n## Related topics\n[[NSAIDs: COX-1 and COX-2 Inhibitors]], [[Skeletal Muscle Relaxants: Central and Peripheral]]\n\n## Check against your textbook\nHandout says \"Increase OH\"; read as fluid intake. Role of each drug in an acute attack versus prevention is not stated.",
+  "tags": [
+   "pharmacology",
+   "gout",
+   "uric acid"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Anti-Gout Agents"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-antiemetic",
+  "area": "GEN",
+  "title": "Antiemetic Drugs",
+  "body": "## What it is\nAntiemetics prevent vomiting by reducing stimulation of the chemoreceptor trigger zone or the vomiting center in the medulla.\n\n## Drug groups\n- Antihistamines: dimenhydrinate (Dramamine), promethazine (Phenergan).\n- Anticholinergic: scopolamine.\n- Phenothiazine: chlorpromazine (Thorazine).\n- Serotonin receptor antagonists: granisetron, ondansetron.\n\n## Adverse reactions\nTachycardia, hypotension, dry mouth and eyes, blurred vision, constipation, sedation, drowsiness.\n\n## Contraindications\nNarrow-angle glaucoma, liver disease, intestinal obstruction, depression.\n\n## Priority nursing actions\n- Try non-drug measures first: dry toast, tea, crackers.\n- Monitor vital signs, bowel sounds, and for severe vomiting (fluid loss).\n- Give mouth care after vomiting.\n\n## Client teaching\nStore in a tight, light-resistant container; avoid OTC drugs and alcohol; avoid during the first trimester of pregnancy.\n\n## Related topics\n[[Cholinergic Agonists and Anticholinergics: SLUDGE and Antidotes]], [[Antihistamines]], [[Antipsychotic Drugs: Side Effects and Extrapyramidal Symptoms]]",
+  "tags": [
+   "pharmacology",
+   "antiemetic",
+   "GI"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Anti-Emetics"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-antacid",
+  "area": "GEN",
+  "title": "Antacids",
+  "body": "## What it is\nAntacids neutralize stomach acid. Used for peptic ulcers, reflux esophagitis and hiatal hernia.\n\n## Must-know facts\n- Aluminum hydroxide gel (Amphogel): constipation, intestinal obstruction.\n- Magnesium hydroxide (milk of magnesia): diarrhea.\n- Combination (Maalox, magaldrate).\n- All reduce absorption of calcium and iron.\n\n## Priority nursing actions\n1. Shake suspension well.\n2. Give with 8 oz of water.\n3. Monitor response.\n\n## Client teaching\nAvoid overuse; follow ulcer diet; diet high in calcium and iron; check for clients on low sodium diets.\n\n## Memory aid\nAluminum = clogs (constipation); Magnesium = moves (diarrhea).\n\n## Related topics\n[[Peptic Ulcer Drugs: PPIs, H2 Blockers and Sucralfate]], [[Laxatives]]\n\n## Check against your textbook\nSodium content check.",
+  "tags": [
+   "pharmacology",
+   "GI",
+   "antacid"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Antacids"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-pud",
+  "area": "GEN",
+  "title": "Peptic Ulcer Drugs: PPIs, H2 Blockers and Sucralfate",
+  "body": "## What it is\nThese drugs lower acid or protect the stomach lining in peptic ulcer disease and GERD.\n\n## Drug groups\n- Proton pump inhibitors: omeprazole (Prilosec), lansoprazole (Prevacid).\n- H2-receptor blockers: cimetidine (Tagamet), ranitidine (Zantac), famotidine (Pepcid).\n- Cytoprotective: sucralfate (Carafate), misoprostol (Cytotec).\n- Anticholinergics: chlordiazepoxide combination (Librax), atropine sulfate.\n\n## Adverse reactions\nDry mouth, decreased secretions, constipation, tachycardia, urinary retention, headache, dizziness, pruritus, impotence.\n\n## Contraindications\nAnticholinergics: narrow-angle glaucoma. Also renal failure and liver disease.\n\n## Priority nursing actions\n- Give on an empty stomach.\n- Antacids: not within 30 minutes of sucralfate, and 1 to 2 hours from other anti-ulcer drugs.\n- Give other drugs 1 to 2 hours after sucralfate.\n\n## Client teaching\nAvoid alcohol, spicy food and caffeine; stop smoking; increase fluids; full effect may take up to two weeks.\n\n## Related topics\n[[Antacids]], [[NSAIDs: COX-1 and COX-2 Inhibitors]], [[Antidiarrheal Drugs]]\n\n## Check against your textbook\nThe handout's stem about \"decrease acetylcholine release\" is a loose summary; ranitidine was withdrawn in many countries. Misoprostol is also contraindicated in pregnancy (not in handout).",
+  "tags": [
+   "pharmacology",
+   "peptic ulcer",
+   "PPI",
+   "H2 blocker"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Anti-Peptic Ulcer Disease (PUD)"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-antidiarrheal",
+  "area": "GEN",
+  "title": "Antidiarrheal Drugs",
+  "body": "## What it is\nAntidiarrheal drugs help form stool by absorbing fluid, slowing gut movement, or replacing normal gut bacteria.\n\n## Must-know facts\n- Fluid absorbents: kaolin and pectin.\n- Motility suppressants: diphenoxylate (Lomotil), loperamide (Imodium).\n- Enteric bacterium replacement: Lactobacillus acidophilus (Bacid).\n- Adverse reactions: fluid absorbents - gastric upset, CNS toxicity; bacterium replacement - flatulence, cramps; motility suppressants - urinary retention, tachycardia, sedation, paralytic ileus, respiratory depression.\n- Contraindicated in ulcerative colitis.\n\n## Priority nursing actions\n1. Assess cause of diarrhea first.\n2. Assess fluid and electrolyte imbalance.\n3. Monitor the effect.\n4. Motility suppressants can cause physical dependence and impair hazardous tasks.\n\n## Related topics\n[[Laxatives]], [[Antiemetic Drugs]]\n\n## Check against your textbook\nNot stated in handout: when to avoid in infectious diarrhea.",
+  "tags": [
+   "pharmacology",
+   "GI",
+   "diarrhea"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Anti-Diarrheal"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-laxative",
+  "area": "GEN",
+  "title": "Laxatives",
+  "body": "## What it is\nLaxatives help move stool. They work by adding bulk, lubricating the bowel wall, or increasing peristalsis.\n\n## Must-know facts\n- Handout drugs: mineral oil (lubricant), Colace (stool softener), Metamucil (bulk-forming), Dulcolax (stimulant), milk of magnesia (saline).\n- Adverse reactions: nausea, cramping, diarrhea, **dependence** with long-term use.\n- Intestinal lubricants (mineral oil) block absorption of **fat-soluble vitamins**.\n- Saline cathartics: dehydration and hypernatremia.\n- Contraindications: GI obstruction, suspected appendicitis, abdominal pain.\n\n## Assessment\nBowel pattern, abdominal pain, fluid status, diet, activity, cause of constipation.\n\n## Priority nursing actions\n1. **Assess the abdomen and pain first**: a laxative with appendicitis or obstruction can cause rupture.\n2. Monitor the effect (stool pattern) and fluid status.\n3. Encourage fiber, fluids and activity before relying on drugs.\n\n## Client teaching\nIncrease fiber and fluids; stay active; do not overuse laxatives (dependence).\n\n## How the exam asks about it\n\"Which complaint means the nurse should withhold a laxative?\" -> severe abdominal pain.\n\n## Related topics\n[[Antidiarrheal Drugs]], [[Antacids]]\n\n## Check against your textbook\nThe handout lists brand and generic names without class labels; verify each class.",
+  "tags": [
+   "pharmacology",
+   "GI",
+   "laxative"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Laxatives"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-digoxin",
+  "area": "GEN",
+  "title": "Cardiac Glycosides: Digoxin",
+  "body": "## What it is\nCardiac glycosides make the heart beat slower but stronger. They raise cardiac output.\n\n## Must-know facts\n- Digoxin (Lanoxin), digitoxin (Crystodigin).\n- Positive inotropic, negative chronotropic.\n- Uses: congestive heart failure, atrial flutter, atrial fibrillation.\n- Contraindicated: ventricular tachycardia, ventricular fibrillation, second and third degree heart block.\n- Toxic signs: yellow-green halos, xanthopsia, nausea, vomiting, diarrhea, anorexia, bradycardia, muscle weakness, dysrhythmia.\n- Antidote: digoxin immune Fab (Digibind).\n- Therapeutic range printed as 0.5 to 2.0.\n\n## Priority nursing actions\n1. Check apical pulse for a full minute and rhythm before each dose; withhold and report if under 60 (adult) or under 90 (infant).\n2. Monitor digoxin levels (and potassium).\n3. Monitor intake and output; daily weights.\n\n## Client teaching\nTake as prescribed; take and record pulse daily; know toxicity signs; report a gain of two pounds.\n\n## How the exam asks about it\nA client has nausea and a pulse of 52: hold and report. Antidote question.\n\n## Related topics\n[[Inotropic, Chronotropic and Dromotropic Effects]], [[Drug Antidotes Quick Reference]], [[Therapeutic Drug Levels and Lab Monitoring Quick Reference]]\n\n## Check against your textbook\nPrinted unit mg/mL is probably wrong; low potassium raises toxicity risk (not in handout).",
+  "tags": [
+   "pharmacology",
+   "digoxin",
+   "heart failure"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Cardiac Glycosides"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-antihtn",
+  "area": "GEN",
+  "title": "Antihypertensive Drugs: Pharmacology Summary",
+  "body": "## What it is\nAntihypertensives widen peripheral vessels and prevent high blood pressure.\n\n## Must-know facts\n- **ACE inhibitors**: captopril, enalapril.\n- **ARBs**: losartan, telmisartan, irbesartan.\n- **Calcium channel blockers**: verapamil, diltiazem, nifedipine, nicardipine.\n- **Others**: hydralazine (Apresoline), reserpine (Serpasil), prazosin (Minipress), methyldopa (Aldomet), clonidine (Catapres).\n- Adverse reactions: orthostatic hypotension, dizziness, bradycardia or tachycardia, sexual dysfunction, worsening of kidney function.\n- ACE inhibitors are on the teratogenic list.\n\n## Assessment\nBlood pressure sitting and standing, pulse, kidney function, hearing, potassium and fluid status.\n\n## Priority nursing actions (priority order, with why)\n1. Check BP and pulse before every dose; hold and report if too low (circulation).\n2. Take BP sitting and standing; check for orthostatic drop (fall risk).\n3. Monitor renal function and hearing changes; monitor closely if hypotensive.\n4. Encourage foods high in vitamin B (handout).\n\n## Client teaching\nLow sodium diet; change positions slowly; take as instructed and do not stop suddenly; avoid hazardous activity; protect medication from heat and light.\n\n## How the exam asks about it\nWhich finding means hold the dose, or what teaching prevents injury (rise slowly).\n\n## Related topics\n[[Calcium Channel Blockers]], [[Diuretics: Thiazide, Loop, Osmotic and Potassium-Sparing]], [[Alpha and Beta Adrenergic Blockers]], [[Adrenergic Agonists: Epinephrine, Dopamine and Related Drugs]]\n\n## Check against your textbook\nHandout lists prazosin and clonidine here and also as adrenergic drugs; ACE-inhibitor cough and angioedema and pregnancy warnings are not in the handout. Confirm.",
+  "tags": [
+   "pharmacology",
+   "hypertension"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Anti-Hypertensives"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-thrombolytic",
+  "area": "GEN",
+  "title": "Thrombolytic Drugs",
+  "body": "## What it is\nThrombolytics bind plasminogen and turn it into plasmin, which breaks down fibrin clots in coronary arteries.\n\n## Must-know facts\n- Streptokinase (Streptase), urokinase (Abbokinase).\n- Uses: myocardial infarction, DVT, pulmonary embolism.\n- Contraindications: active bleeding, cerebral embolism or hemorrhage, recent intra-arterial diagnostic procedure or surgery, recent major surgery, severe hypertension.\n- Adverse effects: urticaria, itching, flushing, headache; bleeding is the major danger.\n- Antidote: aminocaproic acid.\n\n## Priority nursing actions\n1. Check contraindications (bleeding risk) before starting.\n2. Monitor bleeding times and coagulation studies.\n3. Watch for allergic reactions and bleeding.\n4. Keep antidote available.\n\n## Related topics\n[[Anticoagulants: Heparin and Warfarin]], [[Drug Antidotes Quick Reference]], [[Nitrates for Angina and How to Give Them]]\n\n## Check against your textbook\nHandout states no time window. Verify.",
+  "tags": [
+   "pharmacology",
+   "thrombolytic",
+   "streptokinase"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Thrombolytics"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-lipid",
+  "area": "GEN",
+  "title": "Antilipemic Drugs: Statins and Bile Acid Sequestrants",
+  "body": "## What it is\nAntilipemics lower LDL by reducing cholesterol and/or triglyceride synthesis. Use: primary hypercholesterolemia.\n\n## Drugs\n- HMG-CoA reductase inhibitors: atorvastatin (Lipitor), simvastatin.\n- Bile acid sequestrants: colestipol, cholestyramine.\n\n## Adverse reactions\nSkin flushing, gastric upset, reduced absorption of fat-soluble vitamins, liver function disruption, muscle tenderness or weakness.\n\n## Contraindications\nHypersensitivity, pregnancy and lactation, active liver disease.\n\n## Priority nursing actions\nMonitor cholesterol and liver function tests.\n\n## Client teaching\nBlood work and eye exams during treatment; report blurred vision, severe GI symptoms, headache, muscle tenderness or weakness; low-cholesterol, high-fiber diet.\n\n## Related topics\n[[Antihypertensive Drug Classes]], [[Drugs That Harm Organs, Stain Teeth or Cause Disulfiram Reactions]]\n\n## Check against your textbook\n\"Afordel\" in the handout does not look like a known simvastatin brand; muscle pain can signal rhabdomyolysis.",
+  "tags": [
+   "pharmacology",
+   "statin",
+   "cholesterol"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Anti-Lipemic"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-nitrates",
+  "area": "GEN",
+  "title": "Nitrates for Angina and How to Give Them",
+  "body": "## What it is\nNitrates dilate arterioles, lowering peripheral resistance (afterload). Used to treat and prevent acute chest pain from myocardial ischemia. Drugs: nitroglycerin, isosorbide dinitrate (Isordil), isosorbide mononitrate.\n\n## Forms and giving them\n- Sublingual: offer sips of water first; place under tongue until fully dissolved; do not chew or swallow.\n- Translingual spray: spray onto oral mucosa; do not inhale.\n- Buccal: between upper lip and gum or cheek and gum; dissolves slowly.\n- Transdermal patch: hairless area, new patch and different site daily; remove after 12 to 14 hours and allow 10 to 12 patch-free hours to prevent tolerance.\n- Ointment: remove the previous dose, avoid hairy areas, cover with plastic wrap, rotate sites.\n\n## Adverse effects and contraindications\nPostural hypotension, headache, flushing, dizziness. Contraindicated in hypersensitivity, severe anemia, hypotension, hypovolemia.\n\n## Priority nursing actions\n- Chest pain: one tablet every 5 minutes up to three; if pain is not relieved after 15 minutes and three tablets, call the physician/emergency help at once.\n- Monitor for orthostatic hypotension and tolerance.\n\n## Client teaching\nTake pulse first; oral preparations without food; carry the drug within reach but away from body heat and light; replace about every six months; change positions slowly; avoid alcohol.\n\n## Related topics\n[[Beta-Blockers for Angina and Dysrhythmias]], [[Calcium Channel Blockers]], [[Thrombolytic Drugs]]",
+  "tags": [
+   "pharmacology",
+   "nitroglycerin",
+   "angina"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Anti-Anginals: Nitrates"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-bblock-cardiac",
+  "area": "GEN",
+  "title": "Beta-Blockers for Angina and Dysrhythmias",
+  "body": "## What it is\nBeta-blockers inhibit sympathetic stimulation of heart beta-receptors, lowering heart rate and contractility, which reduces myocardial oxygen use. Use: fewer and milder anginal attacks, dysrhythmias.\n\n## Drugs\nPropranolol (Inderal), metoprolol (Lopressor), nadolol, timolol, acebutolol, betaxolol, esmolol, pindolol, penbutolol.\n\n## Adverse effects and contraindications\nBlood dyscrasias, hypotension, GI disturbances, flushing. Contraindicated in hypersensitivity, cardiogenic shock, cardiac failure.\n\n## Priority nursing actions\n- Weigh daily; report a gain of 5 lb or more (heart failure sign).\n- Monitor ECG if used for dysrhythmia; give on an empty stomach; protect injectable solution from light.\n\n## Client teaching\nTake pulse first; never stop abruptly; avoid hazardous activity if drowsy; change positions slowly; take at the same time daily.\n\n## Related topics\n[[Alpha and Beta Adrenergic Blockers]], [[Nitrates for Angina and How to Give Them]], [[Antidysrhythmic Drug Classes]]",
+  "tags": [
+   "pharmacology",
+   "beta blocker",
+   "angina"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Beta-adrenergic blocking agents"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-ccb",
+  "area": "GEN",
+  "title": "Calcium Channel Blockers",
+  "body": "## What it is\nCalcium channel blockers stop calcium from entering cells, widening coronary and peripheral arteries and lowering contraction force.\n\n## Must-know facts\n- Drugs: verapamil, nifedipine, diltiazem, nicardipine, felodipine.\n- Uses: stable angina, dysrhythmias, hypertension.\n- Adverse effects: headache, drowsiness, dizziness, GI disturbance, flushing.\n- Contraindicated in hypersensitivity.\n- Verapamil, diltiazem and nifedipine are also listed as Class IV antidysrhythmics.\n\n## Priority nursing actions\n1. Monitor chest pain and ECG when used for rhythm.\n2. Give with food.\n3. Check pulse before dosing.\n\n## Client teaching\nIncrease fluids to counter constipation; limit caffeine; avoid alcohol; change positions slowly; avoid hazardous activity until stable.\n\n## Related topics\n[[Antidysrhythmic Drug Classes]], [[Antihypertensive Drugs: Pharmacology Summary]], [[Beta-Blockers for Angina and Dysrhythmias]]\n\n## Check against your textbook\nThe handout shows nifedipine as a Class IV agent, which many texts handle differently.",
+  "tags": [
+   "pharmacology",
+   "cardiac",
+   "CCB"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Calcium-Channel Blockers"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-pressors",
+  "area": "GEN",
+  "title": "Vasopressors for Hypotension and Shock",
+  "body": "## What it is\nAdrenergic agonists used for low blood pressure and shock. They copy the sympathetic system: stronger beat, faster rate, quicker AV conduction.\n\n## Must-know facts\n- Dopamine and dobutamine: hypovolemic and cardiogenic shock.\n- Epinephrine: anaphylactic shock.\n- Adverse effects: dysrhythmia, tissue necrosis from extravasation, tremor, anxiety, dizziness (epinephrine).\n- Contraindicated in hypersensitivity, ventricular fibrillation, tachydysrhythmias.\n\n## Priority nursing actions\n1. Correct hypokalemia first.\n2. Continuous ECG and frequent vital signs.\n3. Use an infusion pump; start slowly, adjust by order.\n4. Watch the IV site for extravasation (antidote: phentolamine).\n5. Protect from light; do not use discolored solution.\n6. Stop gradually.\n\n## Related topics\n[[Adrenergic Agonists: Epinephrine, Dopamine and Related Drugs]], [[Inotropic, Chronotropic and Dromotropic Effects]], [[Drug Antidotes Quick Reference]]\n\n## Check against your textbook\nCorrect hypovolemia and potassium: check your text for fluids before pressors.",
+  "tags": [
+   "pharmacology",
+   "shock",
+   "pressors"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Medications for Hypotension and Shock"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-anticoag",
+  "area": "GEN",
+  "title": "Anticoagulants: Heparin and Warfarin",
+  "body": "## What it is\nAnticoagulants disrupt clotting and so suppress fibrin formation. Heparin and warfarin (Coumadin). Used for pulmonary embolism, DVT, MI, atrial fibrillation.\n\n## Contraindications and cautions\nHemophilia, leukemia, peptic ulcer, blood dyscrasias. Adverse: allergic responses, nausea, diarrhea, abdominal cramps, bleeding.\n\n## Priority nursing actions\n1. Baseline blood studies before therapy.\n2. Heparin: monitor aPTT (target 1.5 to 2.5 times control). Warfarin: monitor PT/INR (INR 2.0 to 3.0).\n3. Antidotes ready: heparin = **protamine sulfate**; warfarin = **vitamin K**.\n4. Watch for hemorrhage (rising pulse, falling BP).\n5. Avoid aspirin and IM injections.\n\n## Client teaching\nSame time daily; medical alert jewelry; soft toothbrush; report bleeding, red or black stools, headaches, rashes, pink urine or sputum; avoid trauma.\n\n## Related topics\n[[Thrombolytic Drugs]], [[NSAIDs: COX-1 and COX-2 Inhibitors]]\n\n## Check against your textbook\nHandout says \"Parenteral (SQ) Coumadin\"; warfarin is oral (heparin is the parenteral drug). The \"25 to 38 seconds\" aPTT figure is unusual; use your lab's control value.",
+  "tags": [
+   "pharmacology",
+   "heparin",
+   "warfarin",
+   "anticoagulant"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Anticoagulants"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-antiarrhythmic",
+  "area": "GEN",
+  "title": "Antidysrhythmic Drug Classes",
+  "body": "## What it is\nThese drugs treat abnormal heart rate and rhythm.\n\n## Classes (from handout)\n- Class I (sodium channel blockers): quinidine, procainamide, lidocaine, flecainide.\n- Class II (beta blockers): acebutolol, propranolol, esmolol.\n- Class III (conduction delayers): bretylium, amiodarone.\n- Class IV (calcium channel blockers): verapamil, diltiazem, nifedipine.\n\n## Adverse effects\nHypotension, nausea and vomiting, blood dyscrasias, diarrhea.\n\n## Priority nursing actions\nMonitor cardiac rhythm, ECG and blood levels; watch for blood dyscrasias; give oral forms with meals; use infusion-control devices for IV.\n\n## Client teaching\nReport changes in heart rate or rhythm and any side effects.\n\n## Related topics\n[[Beta-Blockers for Angina and Dysrhythmias]], [[Calcium Channel Blockers]], [[Cardiac Glycosides: Digoxin]]\n\n## Check against your textbook\nClass III are usually called potassium channel blockers (prolong repolarization). Nifedipine is not a usual antidysrhythmic; verapamil and diltiazem are.",
+  "tags": [
+   "pharmacology",
+   "dysrhythmia"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Anti-Dysrhythmics"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-bronchodil",
+  "area": "GEN",
+  "title": "Bronchodilators: Beta-Agonists, Xanthines and Ipratropium",
+  "body": "## What it is\nBronchodilators open the airways for bronchospasm and asthma.\n\n## Drugs\n- Beta-adrenergic: albuterol/salbutamol, terbutaline, epinephrine.\n- Xanthines: aminophylline, theophylline.\n- Anticholinergic: ipratropium bromide.\n\n## Adverse effects\nDizziness, tremors, anxiety, palpitations, GI upset, headache, tachycardia, dysrhythmia. Contraindicated in hypersensitivity, narrow-angle glaucoma (anticholinergic) and severe cardiac disease.\n\n## Priority nursing actions\nMonitor theophylline levels (handout 10 to 20), intake and output, and vital signs.\n\n## Client teaching\nTake only as prescribed; report adverse effects; stop smoking; take with meals; avoid OTC drugs.\n\n## Related topics\n[[Adrenergic Agonists: Epinephrine, Dopamine and Related Drugs]], [[Asthma Controllers: Mast Cell Stabilizers, Steroids and Leukotriene Blockers]], [[Mucolytics, Expectorants and Antitussives]]\n\n## Check against your textbook\nHandout unit \"mcg/dL\" for theophylline should be mcg/mL.",
+  "tags": [
+   "pharmacology",
+   "bronchodilator",
+   "asthma"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Bronchodilators"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-mucolytic",
+  "area": "GEN",
+  "title": "Mucolytics, Expectorants and Antitussives",
+  "body": "## Mucolytics and expectorants\n- Mucolytics (acetylcysteine/Mucomyst) break chemical bonds in mucus, thinning it. Acetylcysteine is also used in acetaminophen toxicity.\n- Expectorants (guaifenesin/Robitussin) help bring up lung mucus.\n- Uses: asthma, acute/chronic bronchopulmonary disease, cystic fibrosis.\n- Adverse: oropharyngeal irritation, bronchospasm, gastric effects, nausea and vomiting. Contraindicated in increased ICP and status asthmaticus (per handout).\n- Teach: no fluids directly after oral dosing; increase fluids overall; cough and deep-breathe before treatment. Monitor respiratory status.\n\n## Antitussives\n- Suppress the cough reflex in the medulla. Narcotic: codeine, hydrocodone. Non-narcotic: dextromethorphan.\n- Uses: colds, congestion, pneumonia, bronchitis, cystic fibrosis, emphysema, cancer-induced cough.\n- Adverse: drowsiness, nausea, dry mouth, dizziness, constipation (codeine).\n- Nursing: monitor blood counts in long-term therapy; humidify the room; avoid driving; antitussives add to alcohol effects.\n\n## Related topics\n[[Bronchodilators: Beta-Agonists, Xanthines and Ipratropium]], [[Antihistamines]]\n\n## Check against your textbook\nHandout lists \"hypothyroidism, iodine sensitivity\" as antitussive contraindications and \"stimulates gastric mucosal production\" for expectorants; verify. Suppressing a productive cough is generally avoided.",
+  "tags": [
+   "pharmacology",
+   "cough",
+   "mucolytic"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Mucolytics/Expectorants",
+   "Anti-Tussives"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-antihist",
+  "area": "GEN",
+  "title": "Antihistamines",
+  "body": "## What it is\nAntihistamines block histamine at its receptors to relieve allergy symptoms.\n\n## Must-know facts\n- Drugs: promethazine (Phenergan), chlorpheniramine maleate, diphenhydramine, loratadine, cetirizine.\n- Uses: allergies, colds, itching; prevent problems in blood transfusions and drug reactions.\n- Adverse reactions: drowsiness, gastric effects, dry mouth, headache, thickening of bronchial secretions.\n- Contraindications: acute asthma, lower respiratory disease, narrow-angle glaucoma.\n\n## Priority nursing actions\n1. Stop antihistamines **four days before skin testing for allergies**, so the test is not hidden.\n2. Avoid combining with CNS depressants and alcohol (additive sedation).\n3. Safety: drowsy client needs fall precautions.\n\n## Client teaching\nAvoid driving and hazardous activity; take with food; alcohol adds to drowsiness.\n\n## How the exam asks about it\nTeaching points for allergy skin testing and driving.\n\n## Related topics\n[[Antiemetic Drugs]], [[Asthma Controllers: Mast Cell Stabilizers, Steroids and Leukotriene Blockers]]\n\n## Check against your textbook\nHandout says \"four days\"; some sources say longer for some agents.",
+  "tags": [
+   "pharmacology",
+   "antihistamine",
+   "allergy"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Antihistamines"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-asthmactl",
+  "area": "GEN",
+  "title": "Asthma Controllers: Mast Cell Stabilizers, Steroids and Leukotriene Blockers",
+  "body": "## What it is\nThese drugs stabilize mast cells, reduce bronchial hyperactivity and airway inflammation. They prevent attacks and exercise-induced bronchospasm; they do not treat an acute attack.\n\n## Drugs\nCromolyn sodium; corticosteroids (beclomethasone, budesonide, mometasone, fluticasone, triamcinolone); leukotriene antagonists (montelukast, zafirlukast); omalizumab.\n\n## Adverse effects\nCough, CNS disturbances, burning/stinging eyes, throat irritation, headache. Contraindicated in status asthmaticus and hypersensitivity.\n\n## Priority nursing actions\nGive the bronchodilator first, then the steroid. Monitor eosinophils and respiratory status.\n\n## Client teaching\nInhaler technique; **rinse the mouth after steroid inhaler**; call the provider if not effective; benefit may take up to four weeks.\n\n## Related topics\n[[Bronchodilators: Beta-Agonists, Xanthines and Ipratropium]], [[Antihistamines]]",
+  "tags": [
+   "pharmacology",
+   "asthma",
+   "inhaled steroid"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Anti-Inflammatory Drugs (respiratory)"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-antidiabetic",
+  "area": "GEN",
+  "title": "Oral Antidiabetic Drugs: Pharmacology Summary",
+  "body": "## What it is\nOral antidiabetic agents help the body use or release insulin so blood glucose falls.\n\n## Must-know facts\n- First-generation sulfonylureas: acetohexamide, chlorpropamide, tolazamide, tolbutamide.\n- Second-generation sulfonylureas: glipizide, glyburide, glimepiride.\n- Biguanide: metformin.\n- Alpha-glucosidase inhibitor: acarbose.\n- Thiazolidinediones: pioglitazone, rosiglitazone.\n- Meglitinides: repaglinide, nateglinide.\n- Adverse effects: hypoglycemia (irritability, confusion, convulsions, tachycardia, tremors, moist skin, headache), nausea, bloating, diarrhea.\n- Contraindications: adrenal insufficiency, myocardial infarction, thyrotoxicosis.\n- Listed in teratogenic and disulfiram-reaction lists.\n\n## Priority nursing actions\n1. Recognise hypoglycemia fast (cold moist skin, tremor, confusion) and give fast-acting sugar if the client can swallow.\n2. Monitor response.\n3. Give at the same time each day.\n\n## Client teaching\nUsually life-long therapy; monitor pulse and report above 100; report chest pain, palpitations or nervousness; wear medical alert ID; avoid OTC drugs; keep follow-up; avoid alcohol.\n\n## How the exam asks about it\nSigns of hypoglycemia and first action.\n\n## Related topics\n[[Drugs That Harm Organs, Stain Teeth or Cause Disulfiram Reactions]], [[Antithyroid Drugs]]\n\n## Check against your textbook\nThe handout says \"Provide insulin\" which is true for sulfonylureas only; metformin does not. Its adverse list is a mix of hypoglycemia and thyroid-type signs; verify.",
+  "tags": [
+   "pharmacology",
+   "diabetes"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Anti-Diabetic Agents"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-antithyroid",
+  "area": "GEN",
+  "title": "Antithyroid Drugs",
+  "body": "## What it is\nAntihyperthyroid agents block the making of thyroid hormone. They are used when the thyroid is overactive.\n\n## Must-know facts\n- Drugs: iodine (Lugol's solution), methimazole (Tapazole), propylthiouracil (PTU).\n- Adverse effects: **agranulocytosis**, skin disturbance, slowed metabolism, gastric upset. Iodine stains teeth and leaves a bitter taste.\n- Contraindicated in hypersensitivity.\n\n## Assessment\nBaseline vital signs, weight, heart rate, signs of infection (sore throat, fever), thyroid symptoms and lab results.\n\n## Priority nursing actions (with why)\n1. Give iodine preparations through a **straw** to protect the teeth from staining and to cover the taste.\n2. Monitor effect of the drug (heart rate, temperature, weight).\n3. Watch for infection: agranulocytosis leaves the client unable to fight germs, so sore throat or fever must be reported at once.\n\n## Treatment and medications\nThese drugs reduce thyroid hormone production; they do not give hormone.\n\n## Complications and red flags\nSore throat and fever (low white cells), rash, signs of too little thyroid hormone (slowing, fatigue, cold intolerance, weight gain).\n\n## Client teaching\nReport side effects; avoid OTC products with iodine; carry medical alert jewelry.\n\n## How the exam asks about it\n\"What is the most important sign to report?\" -> sore throat or fever. \"How is Lugol's solution given?\" -> diluted, through a straw.\n\n## Memory aid\nPTU and Tapazole both end in \"-ole / -U\": think \"thyroid block\". Iodine = \"I\" for Teeth stain, use a straw.\n\n## Related topics\n[[Drugs That Harm Organs, Stain Teeth or Cause Disulfiram Reactions]], [[Oral Antidiabetic Drugs: Pharmacology Summary]], [[Pituitary Hormone Drugs: Growth Hormone and Vasopressin]]\n\n## Check against your textbook\nThe handout says \"decreased metabolism\" as an adverse effect (overtreatment). Doses and timing of Lugol's solution are not in the handout.",
+  "tags": [
+   "pharmacology",
+   "thyroid",
+   "antithyroid"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Anti-Hyperthyroid Agents"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-pituitary",
+  "area": "GEN",
+  "title": "Pituitary Hormone Drugs: Growth Hormone and Vasopressin",
+  "body": "## What it is\nTwo hormone drug groups: growth hormone drugs for dwarfism, and ADH drugs for diabetes insipidus.\n\n## Must-know facts\n- Growth hormone: somatrem, somatropin; Sandostatin (octreotide) is also listed. Adverse: hyperglycemia, hypothyroidism, interaction with glucocorticoids. Contraindicated in benzyl alcohol hypersensitivity, closed epiphyses, intracranial lesions.\n- ADH: lypressin, vasopressin. Helps distal tubules reabsorb water. Adverse: gastric disturbance, hyponatremia, water intoxication, cardiac disturbance.\n\n## Priority nursing actions\nGrowth hormone: watch diabetics, record height. ADH: monitor intake and output, blood pressure, assess dehydration.\n\n## Client teaching\nMeasure height regularly; report poor growth.\n\n## Related topics\n[[Antithyroid Drugs]], [[Diuretics: Thiazide, Loop, Osmotic and Potassium-Sparing]]\n\n## Check against your textbook\nOctreotide is not a growth hormone; verify.",
+  "tags": [
+   "pharmacology",
+   "pituitary",
+   "hormone"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Anterior Pituitary: Growth Hormone",
+   "Anti-Diuretic Hormone"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-diuretics",
+  "area": "GEN",
+  "title": "Diuretics: Thiazide, Loop, Osmotic and Potassium-Sparing",
+  "body": "## What it is\nDiuretics interfere with sodium reabsorption so more water leaves in urine. Used for hypertension and edema.\n\n## Must-know facts\n- Thiazides: hydrochlorothiazide, chlorothiazide.\n- Loop: bumetanide (Bumex), furosemide (Lasix).\n- Osmotic: mannitol, urea.\n- Carbonic anhydrase inhibitor: acetazolamide.\n- Potassium-sparing: spironolactone, triamterene.\n- Adverse reactions: GI irritation, orthostatic hypotension, dehydration, hyponatremia, hypokalemia (except potassium-sparing).\n- Contraindicated in electrolyte imbalance and dehydration. Loop diuretics are ototoxic.\n\n## Priority nursing actions\n1. Monitor weight, intake and output, vital signs, and electrolytes.\n2. Give in the morning (to avoid night-time urination).\n3. Watch for hearing changes and low potassium signs (weakness, irregular pulse).\n\n## Client teaching\nChange positions slowly; report hearing changes; diabetic clients monitor glucose closely.\n\n## Related topics\n[[Antihypertensive Drugs: Pharmacology Summary]], [[Drugs That Harm Organs, Stain Teeth or Cause Disulfiram Reactions]]\n\n## Check against your textbook\nHandout says thiazides and loop diuretics cause hypokalemia; potassium-sparing do not (hyperkalemia risk).",
+  "tags": [
+   "pharmacology",
+   "diuretic"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Diuretics"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-urinary",
+  "area": "GEN",
+  "title": "Sulfonamides and Urinary Anti-Infectives",
+  "body": "## Sulfonamides\n- Succinylsulfathiazole, sulfisoxazole, trimethoprim-sulfamethoxazole (Bactrim); for urinary tract infection.\n- Adverse: gastric irritation, rash, malaise, blood dyscrasias, **crystalluria**, photosensitivity, allergy.\n- Contraindicated: hypersensitivity, infants under 2 months, pregnancy at term.\n- Nursing: check allergy history, monitor vitals and blood work; teach to increase oral fluid intake (OFI), avoid sunlight and unapproved OTC drugs.\n\n## Urinary anti-infectives\n- Nitrofurantoin (Furadantin) and methenamine (Hiprex) for pyelonephritis, pyelitis, cystitis.\n- Adverse: anorexia, nausea and vomiting; methenamine: crystalluria, bladder irritation; nitrofurantoin: exfoliative dermatitis, interstitial nephritis.\n- Contraindicated: hypersensitivity, anuria, severe renal disease.\n- Nursing: monitor intake and output; take with food or milk; increase fluids. Nitrofurantoin: do not crush, rinse mouth (teeth stain), report weakness or numbness, urine may look brown or rust yellow, avoid alcohol.\n\n## Related topics\n[[Antibiotic Classes and Their Adverse Effects]], [[Drugs That Harm Organs, Stain Teeth or Cause Disulfiram Reactions]]",
+  "tags": [
+   "pharmacology",
+   "UTI",
+   "sulfonamide"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Sulfonamides",
+   "Anti-Infective (urinary)"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-cyclosporine",
+  "area": "GEN",
+  "title": "Immunosuppressant: Cyclosporine",
+  "body": "## What it is\nCyclosporine (Sandimmune) quiets the immune system. It prevents organ rejection after transplant and is also used for autoimmune disorders.\n\n## Must-know facts\n- Adverse effects: **nephrotoxicity**, infection, hypertension, tremor, **hirsutism** (excess hair).\n- Contraindicated in hypersensitivity.\n- Hirsutism is reversible once treatment stops.\n\n## Assessment\nKidney function (BUN, creatinine; the handout also mentions liver tests), blood pressure, signs of infection, tremor.\n\n## Priority nursing actions\n1. Monitor BUN and creatinine regularly: kidney damage is the main danger.\n2. Check blood pressure each visit.\n3. Protect from infection: wash hands, avoid sick contacts.\n4. Give consistently, may be taken with meals.\n\n## Complications and red flags\nFever, sore throat, reduced urine, rising creatinine, severe hypertension.\n\n## Client teaching\nReport early signs of infection (fever, sore throat); take with meals; hair growth is reversible; never stop suddenly because the transplant could be rejected.\n\n## How the exam asks about it\n\"Which finding needs the most attention?\" -> fever or sore throat. \"Which lab is monitored?\" -> BUN and creatinine.\n\n## Related topics\n[[Drugs That Harm Organs, Stain Teeth or Cause Disulfiram Reactions]], [[Therapeutic Drug Levels and Lab Monitoring Quick Reference]]\n\n## Check against your textbook\nThe handout puts a liver test in brackets after BUN and creatinine, which is unusual. Drug levels and grapefruit warnings are not in the handout.",
+  "tags": [
+   "pharmacology",
+   "immunosuppressant",
+   "cyclosporine"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Immunosuppressants"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-antibiotics",
+  "area": "GEN",
+  "title": "Antibiotic Classes and Their Adverse Effects",
+  "body": "## What it is\nAntibiotics destroy or inhibit bacteria.\n\n## Classes\n- Penicillins: ampicillin, penicillin G, penicillin V.\n- Cephalosporins: generations 1 to 4 (e.g. cephalexin, cefaclor, cefuroxime, ceftriaxone, cefepime).\n- Macrolides: erythromycin, clarithromycin, azithromycin.\n- Tetracyclines: oxytetracycline, doxycycline, minocycline.\n- Aminoglycosides: amikacin, gentamicin, netilmicin, streptomycin, tobramycin, kanamycin, neomycin.\n\n## Adverse effects\n- All: GI upset, allergy, loss of water-soluble vitamins and minerals.\n- Tetracyclines: hepatotoxicity, phototoxicity, hyperuricemia, enamel hypoplasia and bone defects in children under 8.\n- Fluoroquinolones: photosensitivity.\n- Aminoglycosides: ototoxicity, leukopenia, thrombocytopenia, confusion, neuropathy, optic neuritis, nephrotoxicity.\n\n## Contraindications\nHypersensitivity; pregnancy (tetracyclines, fluoroquinolones, aminoglycosides); fluoroquinolones under 18.\n\n## Priority nursing actions\nAsk about allergies first; monitor response.\n\n## Client teaching\nFinish all doses; know allergic signs; shake suspensions; take before meals; tetracyclines are not for young children or late pregnancy and may add to oral anticoagulant effect; fluoroquinolones: avoid sunlight and hazardous tasks; aminoglycosides may potentiate neuromuscular blockers, anesthesia or magnesium.\n\n## Related topics\n[[Drugs That Harm Organs, Stain Teeth or Cause Disulfiram Reactions]], [[Antimicrobials for Burns]], [[Sulfonamides and Urinary Anti-Infectives]]\n\n## Check against your textbook\nThe handout lists no fluoroquinolone drugs under classes; the \"before meals\" advice varies by drug.",
+  "tags": [
+   "pharmacology",
+   "antibiotic",
+   "aminoglycoside"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Antibiotics"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-antiviral",
+  "area": "GEN",
+  "title": "Antivirals",
+  "body": "## What it is\nAntivirals interfere with the DNA (or genetic) building needed for the virus to multiply.\n\n## Must-know facts\n- Drugs listed: acyclovir sodium, valacyclovir, amantadine, rimantadine, oseltamivir, foscarnet, vidarabine, ribavirin.\n- Used for viral infections.\n- Adverse effects: orthostatic hypotension, dizziness, GI disturbance, nephrotoxicity, blood dyscrasias.\n- Contraindications: hypersensitivity, immunosuppression.\n- Acyclovir is on the handout's nephrotoxic list.\n\n## Assessment\nVital signs, kidney function, blood counts, hydration status, signs of superinfection.\n\n## Priority nursing actions\n1. Monitor vital signs and effect of therapy.\n2. Push fluids to protect the kidneys (unless restricted).\n3. Watch for superinfection: sore throat, fever, fatigue.\n4. Teach to rise slowly (orthostatic hypotension, fall risk).\n\n## Client teaching\nIncrease fluids; report fever and sore throat; change positions slowly.\n\n## How the exam asks about it\nWhich antiviral drug requires kidney monitoring, or which sign shows superinfection.\n\n## Related topics\n[[Antibiotic Classes and Their Adverse Effects]], [[Drugs That Harm Organs, Stain Teeth or Cause Disulfiram Reactions]], [[Antifungals]]\n\n## Check against your textbook\nThe handout gives no indications for each drug (herpes, influenza, CMV); confirm in your pharmacology text. Immunosuppression as a contraindication is unusual and should be checked.",
+  "tags": [
+   "pharmacology",
+   "antiviral",
+   "infection"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Antivirals"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-antifungal",
+  "area": "GEN",
+  "title": "Antifungals",
+  "body": "## What it is\nAntifungals kill fungal cells or stop them multiplying. They treat both local and systemic fungal infections.\n\n## Must-know facts\n- Drugs: amphotericin B, nystatin, fluconazole, ketoconazole, miconazole, voriconazole, posaconazole, griseofulvin.\n- Adverse effects: nausea and vomiting, headache, fever and chills, paresthesia, renal impairment.\n- Contraindications: hypersensitivity, severe bone marrow depression.\n- Amphotericin B is on the nephrotoxic list.\n\n## Priority nursing actions\n1. Monitor vital signs, intake and output.\n2. **Amphotericin B**: protect IV solution from light, monitor blood work (kidney function), use an infusion device. Fever and chills can occur during infusion.\n3. **Griseofulvin**: teach to avoid sunlight.\n\n## Complications and red flags\nReduced urine or rising creatinine, severe chills, severe nausea.\n\n## Client teaching\nTake for the full course; report fever, rash, reduced urine.\n\n## How the exam asks about it\nAmphotericin B questions: protect from light, monitor kidneys, infusion pump.\n\n## Related topics\n[[Antivirals]], [[Antibiotic Classes and Their Adverse Effects]], [[Drugs That Harm Organs, Stain Teeth or Cause Disulfiram Reactions]]\n\n## Check against your textbook\nDoses and the specific infection for each drug are not in the handout.",
+  "tags": [
+   "pharmacology",
+   "antifungal",
+   "infection"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Antifungals"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-antiparasitic",
+  "area": "GEN",
+  "title": "Antiparasitic Drugs",
+  "body": "## What it is\nAntiparasitic drugs interfere with parasite metabolism and reproduction and kill parasites, worms and protozoa.\n\n## Must-know facts\n- **Anti-helminthic** (worms): albendazole, mebendazole, piperazine. Adverse: GI upset, CNS disturbance, rash, headache.\n- **Amebicides**: chloroquine, metronidazole (Flagyl). Adverse: GI upset, blood dyscrasias, rash, CNS disturbance.\n- **Antimalarials**: chloroquine, quinine sulfate. Adverse: GI upset, blood dyscrasias, **visual disturbance**.\n- Chloroquine is on the ototoxic list; metronidazole causes a disulfiram-like reaction with alcohol.\n\n## Priority nursing actions\n1. Give with food.\n2. Monitor vital signs and blood work.\n3. Use safety precautions if CNS disturbance.\n4. Teach to prevent re-infection (hand hygiene, sanitation).\n5. Antimalarials: regular eye examinations; urine may become rust colored.\n\n## Client teaching\nNo alcohol with metronidazole.\n\n## Related topics\n[[Drugs That Harm Organs, Stain Teeth or Cause Disulfiram Reactions]], [[Antifungals]]\n\n## Check against your textbook\nHandout doesn't give indications by parasite.",
+  "tags": [
+   "pharmacology",
+   "antiparasitic",
+   "malaria"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Antiparasitics"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-x-cephalosporins",
+  "area": "GEN",
+  "title": "Cephalosporins: Four Generations and Drug Names",
+  "body": "## What it is\nCephalosporins are a large antibiotic family that destroys or blocks growth of bacteria. They are sorted into four generations. Generation numbers are a memory list for the exam: you are asked to recognise a drug name as a cephalosporin, not to dose it.\n\n## Must-know facts (drug names by generation, from the handout)\n- **First generation**: cephalexin, cefadroxil, cefradine, cephazolin, cephalothin, cephapirin.\n- **Second generation**: cefaclor, cefprozil, cefuroxime, cefamandole, cefotetan, cefoxitin, cefmetazole.\n- **Third generation**: cefdinir, cefixime, cefpodoxime, cefotaxime, ceftazidime, ceftriaxone, cefoperazone.\n- **Fourth generation**: cefepime.\n- Quick recognition trick: almost every name starts with \"cef-\" or \"ceph-\".\n- Cephalosporins sit beside penicillin as beta-lactam style antibiotics, so a client with a serious penicillin allergy needs the allergy question asked again before any cephalosporin is given.\n\n## Assessment\n- Allergy history (penicillin, other antibiotics) before the first dose.\n- Signs of infection and response: temperature, wound or sputum changes, white cell trend.\n- Diarrhea or sore mouth after several days may mean superinfection.\n\n## Priority nursing actions (priority order, with why)\n1. Ask about allergy first: an allergic reaction can close the airway (airway comes before everything).\n2. Give the full course on time so blood levels stay steady.\n3. Watch for rash, itching, wheezing or breathing trouble after the first dose and report at once.\n4. Teach the client to avoid alcohol: cephalosporins are on the handout's list of drugs that cause a disulfiram-like reaction.\n\n## Treatment and medications\nGeneral class use: treat bacterial infections. Adverse effects shared by antibiotics: nausea, vomiting, poor appetite, diarrhea, allergic reactions, loss of water-soluble vitamins and minerals.\n\n## Complications and red flags\nAnaphylaxis (swelling, wheeze, low pressure), severe diarrhea, kidney trouble in someone already on other nephrotoxic drugs.\n\n## Client teaching\nFinish every dose even when feeling better; shake liquid suspensions before measuring; report rash or breathing difficulty; no alcohol during treatment.\n\n## How the exam asks about it\n\"Which of these is a cephalosporin?\" or \"which drug causes a disulfiram-type reaction with alcohol?\" Another favorite: which question must be asked before the first antibiotic dose (allergies).\n\n## Related topics\n[[Antibiotic Classes and Their Adverse Effects]], [[Penicillins and Macrolides]], [[Drugs That Harm Organs, Stain Teeth or Cause Disulfiram Reactions]]\n\n## Check against your textbook\nThe handout names no dose, route or specific use for each generation. How much cross-allergy exists with penicillin, and which cephalosporin is used for which infection, is not in the handout; confirm in your pharmacology text.",
+  "tags": [
+   "pharmacology",
+   "antibiotic",
+   "cephalosporin"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Antibiotics",
+   "Cephalosporins"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-x-penicillin-macrolide",
+  "area": "GEN",
+  "title": "Penicillins and Macrolides",
+  "body": "## What it is\nTwo antibiotic families listed together in the handout. Both destroy or inhibit bacteria; the nurse's job is allergy screening, correct timing and watching for adverse effects.\n\n## Must-know facts\n- **Penicillins**: ampicillin, penicillin G, penicillin V.\n- **Macrolides**: erythromycin, clarithromycin, azithromycin (note the \"-thromycin / -mycin\" endings).\n- Shared antibiotic adverse effects from the handout: nausea, vomiting, poor appetite, diarrhea, allergic reactions, loss of water-soluble vitamins and minerals.\n- Erythromycin appears on the handout's **hepatotoxic** list, so liver monitoring matters.\n- Penicillin allergy is the classic antibiotic emergency; it is the first thing to ask.\n\n## Assessment\nAllergy history, current infection signs, liver status for erythromycin, other drugs being taken.\n\n## Priority nursing actions\n1. Check allergies before the first dose (anaphylaxis threatens airway and breathing).\n2. Keep emergency equipment and epinephrine available at the bedside during the first doses.\n3. Give at even intervals; take before meals as the handout teaches, unless the drug label says otherwise.\n4. Evaluate response and document.\n\n## Treatment and medications\nUsed to treat bacterial infections. Never share leftover antibiotics.\n\n## Complications and red flags\nDifficulty breathing, wheezing, hives, palpitations (allergic signs listed in the handout); yellow skin or dark urine with erythromycin; severe diarrhea.\n\n## Client teaching\nTake all prescribed medication even when well; know the symptoms of an allergic response; shake suspensions; do not stop early.\n\n## How the exam asks about it\nAllergy-first questions, \"which drug is hepatotoxic\", and \"what should the client be taught about completing the course\".\n\n## Related topics\n[[Cephalosporins: Four Generations and Drug Names]], [[Antibiotic Classes and Their Adverse Effects]], [[Drugs That Harm Organs, Stain Teeth or Cause Disulfiram Reactions]]\n\n## Check against your textbook\nThe handout says \"before meals\" generally; some penicillins and macrolides have food-specific rules. Verify per drug.",
+  "tags": [
+   "pharmacology",
+   "antibiotic",
+   "penicillin",
+   "macrolide"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Antibiotics",
+   "Penicillin",
+   "Macrolides"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-x-tetra-fq-aminoglycoside",
+  "area": "GEN",
+  "title": "Tetracyclines, Fluoroquinolones and Aminoglycosides: Nursing Cautions",
+  "body": "## What it is\nThree antibiotic groups that the exam loves because each has a signature danger. Learn the danger and the person it is unsafe for.\n\n## Must-know facts\n- **Tetracyclines** (oxytetracycline, doxycycline, minocycline): hepatotoxicity, sun sensitivity (phototoxicity), raised uric acid, tooth enamel hypoplasia and bone defects in children under 8 years. Cause staining of teeth. Not for young children or the last half of pregnancy. Can increase the effect of oral anticoagulants. Also on the nephrotoxic list.\n- **Fluoroquinolones** (ciprofloxacin is the example the handout uses in its kidney list): photosensitivity; avoid in pregnancy and in children under 18; avoid hazardous tasks; avoid sunlight.\n- **Aminoglycosides** (amikacin, gentamicin, netilmicin, streptomycin, tobramycin, kanamycin, neomycin; note the \"-mycin / -micin\" endings): ototoxicity, nephrotoxicity, leukopenia, thrombocytopenia, headache, confusion, peripheral neuropathy and optic neuritis. May strengthen neuromuscular blockers, general anesthesia or magnesium effects. Avoid in pregnancy.\n\n## Assessment\nHearing and balance (ringing, dizziness), urine output and creatinine, signs of infection, pregnancy status, age.\n\n## Priority nursing actions\n1. Check allergy and pregnancy/age first (these drugs are contraindicated in some groups).\n2. Monitor kidney function and ask about hearing changes with aminoglycosides, since damage can be permanent.\n3. Keep intake and output; encourage fluids unless restricted.\n4. Teach sun protection for tetracyclines and fluoroquinolones.\n\n## Treatment and medications\nAll treat bacterial infections; choice depends on the organism.\n\n## Complications and red flags\nHearing loss, ringing in ears, reduced urine, numbness or tingling, tendon pain or sunburn-like rash.\n\n## Client teaching\nFinish the course; protect skin from the sun; report hearing change, dizziness, reduced urine; avoid hazardous activity if dizzy.\n\n## How the exam asks about it\n\"Which antibiotic is unsafe in a child under 8?\" (tetracycline) and \"which needs monitoring of hearing and kidney function?\" (aminoglycoside).\n\n## Memory aid\nTetracycline = Teeth. Aminoglycoside = Ears and Kidneys. Fluoroquinolone = Sun, not for kids.\n\n## Related topics\n[[Antibiotic Classes and Their Adverse Effects]], [[Drugs That Harm Organs, Stain Teeth or Cause Disulfiram Reactions]], [[Cephalosporins: Four Generations and Drug Names]]\n\n## Check against your textbook\nTendon rupture with fluoroquinolones is common textbook content but is not in this handout. The handout does not list fluoroquinolone drug names.",
+  "tags": [
+   "pharmacology",
+   "antibiotic",
+   "tetracycline",
+   "aminoglycoside",
+   "fluoroquinolone"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Antibiotics",
+   "Tetracycline",
+   "Aminoglycosides",
+   "Fluoroquinolones"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-x-receptors",
+  "area": "GEN",
+  "title": "Adrenergic and Cholinergic Receptors: Where They Are and What They Do",
+  "body": "## What it is\nEvery autonomic drug works by reaching a receptor. Knowing the receptor tells you the organ response, and therefore the side effect.\n\n## Must-know facts\n- **Sympathetic system**: also called adrenergic or thoracolumbar, the fight-or-flight system. Main chemicals: epinephrine and norepinephrine.\n- **Parasympathetic system**: cholinergic or craniosacral. Main chemical: acetylcholine.\n- Adrenergic receptors:\n  - **Alpha-1**: blood vessels, iris, urinary bladder.\n  - **Alpha-2**: on nerve membranes; modulates how much norepinephrine is released (clonidine acts here).\n  - **Beta-1**: heart (cardiac tissue).\n  - **Beta-2**: bronchi, smooth muscle of blood vessels, uterine muscle (albuterol acts here).\n- Cholinergic receptors: **muscarinic** (smooth muscle, slows heart rate) and **nicotinic** (skeletal muscle).\n- Drug names: sympathomimetic = adrenergic agonist (copies norepinephrine). Sympatholytic = adrenergic antagonist (blocks it). Parasympathomimetic = cholinergic agonist. Parasympatholytic = cholinergic antagonist (anticholinergic).\n\n## How to reason about it\n- Sympathomimetic and parasympatholytic have **similar** effects (both speed the heart, dry secretions, dilate bronchi).\n- Sympatholytic and parasympathomimetic also have similar effects (slow heart, constrict bronchi).\n- Sympathomimetic vs parasympathomimetic are **opposites**; so are sympatholytic vs parasympatholytic.\n- Cause -> finding -> action: a beta-1 blocker slows the heart, so check apical pulse first; a beta-2 effect on bronchi explains why non-selective beta-blockers are risky in asthma.\n\n## Priority nursing actions\nBefore any ANS drug, record baseline vital signs and the client's other drugs. Pulse and blood pressure come before the dose (circulation).\n\n## How the exam asks about it\nMatching a receptor to its site, or predicting the effect of a blocker on heart rate, bronchi or the eye.\n\n## Related topics\n[[Sympathetic and Parasympathetic Effects on Organs]], [[Adrenergic Agonists: Epinephrine, Dopamine and Related Drugs]], [[Alpha and Beta Adrenergic Blockers]], [[Cholinergic Agonists and Anticholinergics: SLUDGE and Antidotes]]\n\n## Check against your textbook\nThe handout is silent on dopamine receptors and on receptor selectivity of specific drugs beyond the ones named.",
+  "tags": [
+   "pharmacology",
+   "ANS",
+   "receptors"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Autonomic Nervous System (ANS) Agents",
+   "Adrenergic receptor organ cells",
+   "Cholinergic Agonists"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-x-antidotes",
+  "area": "GEN",
+  "title": "Drug Antidotes Quick Reference",
+  "body": "## What it is\nA one-page match list of poisoning or overdose and its antidote. Questions on this are among the most predictable in pharmacology.\n\n## Must-know facts (from the handout)\n- **Atropine sulfate**: antidote for cholinergic overdose and muscarinic agonist poisoning. Keep it available for myasthenia gravis clients on cholinesterase inhibitors (cholinergic crisis).\n- **Pralidoxime**: antidote for irreversible acetylcholinesterase-inhibiting drugs.\n- **Phentolamine mesylate**: antidote for norepinephrine and dopamine overdose or extravasation. The handout also lists it for MAOI hypertensive crisis.\n- **Digoxin immune Fab (Digibind)**: antidote for digoxin toxicity.\n- **Protamine sulfate**: antidote for heparin.\n- **Vitamin K**: antidote for warfarin (Coumadin).\n- **Aminocaproic acid**: antidote for thrombolytics (fibrinolysis inhibitor).\n- **Acetylcysteine (N-acetylcysteine)**: used in acetaminophen toxicity (the handout lists this under its uses).\n\n## Priority nursing actions\n1. Recognise the toxicity early: SLUDGE signs, slow pulse and yellow-green vision with digoxin, bleeding with anticoagulants.\n2. Stop or hold the drug and call the provider (protect airway, breathing, circulation first).\n3. Keep the matching antidote at the bedside when a high-risk drug is started.\n4. Monitor lab results: INR, aPTT, drug levels.\n\n## Complications and red flags\nRespiratory failure with cholinesterase inhibitors, bleeding with anticoagulants or thrombolytics, dysrhythmia with digoxin.\n\n## How the exam asks about it\n\"A client on heparin is bleeding: what drug should be ready?\" Pair the drug with its antidote, then pick the nursing action that comes first (stop infusion, assess airway and bleeding, notify).\n\n## Memory aid\nHeparin -> Protamine (both have P/H sounds). Warfarin -> Vitamin K (\"W then K\" alphabet). Cholinergic -> Atropine.\n\n## Related topics\n[[Anticoagulants: Heparin and Warfarin]], [[Cardiac Glycosides: Digoxin]], [[Cholinergic Agonists and Anticholinergics: SLUDGE and Antidotes]], [[Thrombolytic Drugs]]\n\n## Check against your textbook\nDosing and reversal protocols are not in the handout. Digoxin range \"0.5 to 2.0 mg/mL\" there looks like a unit slip; check the real unit and range.",
+  "tags": [
+   "pharmacology",
+   "antidote",
+   "emergency"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Antidote",
+   "Atropine",
+   "Pralidoxime",
+   "Protamine sulfate",
+   "Vitamin K",
+   "Digibind"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-x-levels",
+  "area": "GEN",
+  "title": "Therapeutic Drug Levels and Lab Monitoring Quick Reference",
+  "body": "## What it is\nSome drugs have a narrow safe window, so blood levels or clotting tests are checked. The handout gives these numbers; learn the pairing of drug and test.\n\n## Must-know facts (as printed in the handout)\n- **Lithium**: 0.5 to 1.5 mEq/L.\n- **Digoxin**: 0.5 to 2.0 (printed as mg/mL).\n- **Theophylline**: 10 to 20 mcg/dL.\n- **Heparin**: aPTT, therapeutic when it rises to 1.5 to 2.5 times control (the handout adds 25 to 38 seconds).\n- **Warfarin**: PT with INR 2.0 to 3.0.\n- Other monitoring pairs in the handout: cyclosporine -> BUN and creatinine; cholesterol drugs -> cholesterol and liver tests; anticonvulsants (phenytoin) -> blood counts; gout drugs -> uric acid and electrolytes; growth hormone -> blood glucose; diuretics -> weight, intake and output, electrolytes.\n\n## Priority nursing actions\n1. Check the level or clotting test **before** giving the next dose when a narrow-window drug is used.\n2. Hold the dose and notify the provider when the result is out of range or toxic signs appear.\n3. Teach the client what toxicity feels like (lithium: nausea, diarrhea, weak muscles, confusion; digoxin: yellow-green halos, slow pulse).\n\n## How the exam asks about it\nGiven a level, decide: normal, subtherapeutic or toxic, and what to do. Always assess the client alongside the number.\n\n## Related topics\n[[Lithium and Other Antimanic Drugs]], [[Cardiac Glycosides: Digoxin]], [[Anticoagulants: Heparin and Warfarin]], [[Bronchodilators: Beta-Agonists, Xanthines and Ipratropium]]\n\n## Check against your textbook\nPrinted units for digoxin (mg/mL) and theophylline (mcg/dL) are likely mistakes (usual units are ng/mL and mcg/mL). The \"25 to 38 seconds\" aPTT is also doubtful. Use your textbook and the local lab control values; do not memorise the doubtful units.",
+  "tags": [
+   "pharmacology",
+   "labs",
+   "monitoring"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Lithium",
+   "Digoxin",
+   "Theophylline",
+   "Heparin aPTT",
+   "INR"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-x-timing",
+  "area": "GEN",
+  "title": "When to Give It: Time of Day, Food and Empty Stomach Rules",
+  "body": "## What it is\nMany exam answers hinge on whether a drug is given in the morning or at bedtime, with food or on an empty stomach. This note gathers the handout's rules.\n\n## Must-know facts\n- **Morning**: SSRIs (insomnia), diuretics (so urination does not wake the client).\n- **Bedtime**: tricyclic antidepressants and antipsychotics (sedation).\n- **With food or milk**: anticonvulsants, anxiolytics, gout drugs, mood stabilizers (lithium with meals), cholinesterase inhibitors (some food, 30 minutes to 1 hour before meals), calcium channel blockers, antihistamines, antiparasitics, nitrofurantoin, cyclosporine (may be with meals), skeletal muscle relaxants (with meals), theophylline (with meals).\n- **Empty stomach**: sucralfate and other anti-ulcer drugs, beta-blockers (handout), oral nitrates (without food).\n- **Before meals**: antibiotics (general handout advice). **NSAIDs**: one hour before or two hours after meals.\n- Antacids: separate from other drugs; not with milk; take with 8 oz of water; avoid within 30 minutes of sucralfate and one to two hours of other anti-ulcer drugs.\n- Do not open or crush enteric-coated, sustained-release tablets or capsules.\n\n## Priority nursing actions\nConfirm the order, then the timing rule; if the order conflicts with a safe rule, clarify before giving.\n\n## Client teaching\nTake at the same time each day; do not stop suddenly.\n\n## How the exam asks about it\n\"Which instruction is correct for a client starting sertraline?\" -> morning. \"A client takes a tricyclic: when?\" -> bedtime.\n\n## Related topics\n[[Antidepressant Classes: TCA, SSRI and MAOI Drug Review]], [[Antacids]], [[Peptic Ulcer Drugs: PPIs, H2 Blockers and Sucralfate]], [[Diuretics: Thiazide, Loop, Osmotic and Potassium-Sparing]]\n\n## Check against your textbook\nThe handout is not consistent (for example, beta-blockers on an empty stomach and calcium channel blockers with food); confirm per drug.",
+  "tags": [
+   "pharmacology",
+   "administration",
+   "timing"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Nursing Interventions",
+   "Health Teaching"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-x-photosens",
+  "area": "GEN",
+  "title": "Drugs That Cause Sun Sensitivity or Need Sun Protection",
+  "body": "## What it is\nSeveral drugs make skin burn more easily. The standard teaching is to avoid direct sunlight and cover up.\n\n## Must-know facts (from the handout)\n- Antipsychotics: avoid direct sunlight.\n- Chlordiazepoxide (Librium): avoid excessive sunlight.\n- Sulfonamides (including trimethoprim-sulfamethoxazole): photosensitivity; avoid direct sunlight.\n- Tetracyclines: phototoxicity.\n- Fluoroquinolones: photosensitivity.\n- Griseofulvin: avoid sunlight.\n\n## Priority nursing actions\n- Teach protective clothing, hats and sunscreen; report rash or blistering.\n- Skin reaction is not a medical emergency alone, but combined with fever, mouth sores or breathing trouble it is (sulfonamide and allergic reactions).\n\n## How the exam asks about it\n\"Which instruction should be included for a client receiving a sulfonamide?\" -> fluids and sun avoidance.\n\n## Related topics\n[[Tetracyclines, Fluoroquinolones and Aminoglycosides: Nursing Cautions]], [[Antipsychotic Drugs: Side Effects and Extrapyramidal Symptoms]], [[Sulfonamides and Urinary Anti-Infectives]], [[Antifungals]]\n\n## Check against your textbook\nThe handout does not give a complete list; other drug classes also cause photosensitivity.",
+  "tags": [
+   "pharmacology",
+   "teaching",
+   "photosensitivity"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Health Teaching"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-x-glaucoma-contra",
+  "area": "GEN",
+  "title": "Drugs Unsafe in Narrow-Angle Glaucoma and Other Contraindication Groups",
+  "body": "## What it is\nContraindication lists in the handout repeat the same groups. Spotting the group is faster than memorising each drug.\n\n## Must-know facts\n- **Narrow-angle glaucoma**: anticholinergic drugs (including those for ulcers), antiemetics, antihistamines, ipratropium bromide, benzodiazepine anxiolytics.\n- **Bronchial asthma / COPD**: non-selective beta-blockers (bronchospasm); NSAIDs in asthma; antihistamines in acute asthma.\n- **Pregnancy**: barbiturates, lipid-lowering drugs, tetracyclines, fluoroquinolones, aminoglycosides, ACE inhibitors, lithium, oral hypoglycemic agents.\n- **Intestinal obstruction**: cholinesterase inhibitors, antiemetics, laxatives, aluminum antacids (risk).\n- **Ulcerative colitis**: antidiarrheals.\n- **Increased ICP, CVA, severe hypertension**: general anesthetics; mucolytics with high ICP.\n- **Heart block / ventricular arrhythmia**: digoxin.\n- **Severe hypotension / hypovolemia**: nitrates.\n\n## Priority nursing actions\nReview the history for the disease group **before** the first dose; hold and clarify if a match.\n\n## How the exam asks about it\nClient with glaucoma, asthma or pregnancy is given an order; choose the drug or answer that is unsafe.\n\n## Related topics\n[[Antihistamines]], [[Antiemetic Drugs]], [[Alpha and Beta Adrenergic Blockers]], [[Drugs That Harm Organs, Stain Teeth or Cause Disulfiram Reactions]]\n\n## Check against your textbook\nThis note regroups handout lines; verify groups for individual drugs.",
+  "tags": [
+   "pharmacology",
+   "contraindication"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Contraindications"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-x-eps",
+  "area": "GEN",
+  "title": "Extrapyramidal Symptoms: Dystonia, Pseudoparkinsonism, Akathisia and Tardive Dyskinesia",
+  "body": "## What it is\nEPS are movement side effects of antipsychotics that block dopamine. The handout names four.\n\n## Must-know facts\n- **Acute dystonia**: sudden, painful muscle spasm of neck, jaw, tongue or eyes; early onset.\n- **Pseudoparkinsonism**: tremor, stiffness, shuffling, mask-like face, like Parkinson's disease.\n- **Akathisia**: a feeling of inner restlessness; cannot sit still.\n- **Tardive dyskinesia**: late-developing, repetitive abnormal movements (lip smacking, tongue movements); can be permanent.\n- Anticholinergic antiparkinson drugs are used to ease some EPS (general knowledge, confirm in text).\n\n## Assessment\nWatch movements, posture, gait, speech and swallowing at each contact. Ask about restlessness.\n\n## Priority nursing actions\n1. Dystonia that affects the tongue or throat threatens the airway: assess airway first and call the provider.\n2. Report any new EPS; do not wait for the next visit.\n3. Do not stop the drug suddenly; the provider decides.\n4. Safety: help with gait and falls.\n\n## Client teaching\nReport any unusual movements or stiffness; avoid alcohol and driving; keep up mouth care.\n\n## How the exam asks about it\nMatch the description to the name; choose which EPS is the emergency.\n\n## Related topics\n[[Antipsychotic Drugs: Side Effects and Extrapyramidal Symptoms]], [[Antiparkinson Drugs: Levodopa, Carbidopa and Anticholinergics]]\n\n## Check against your textbook\nThe handout lists the four names without descriptions; descriptions here are standard textbook content. Neuroleptic malignant syndrome is not in the handout.",
+  "tags": [
+   "pharmacology",
+   "psychiatric",
+   "EPS"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Anti-psychotics",
+   "Extrapyramidal side effects"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "gen-ph-x-inotrope",
+  "area": "GEN",
+  "title": "Inotropic, Chronotropic and Dromotropic Effects",
+  "body": "## What it is\nThree terms describe how a drug changes the heart. They explain digoxin, dopamine and the pressors.\n\n## Must-know facts\n- **Inotrope**: changes force of contraction. Positive inotrope = stronger squeeze.\n- **Chronotrope**: changes heart rate. Positive = faster, negative = slower.\n- **Dromotrope**: changes conduction through the AV node. Positive = faster conduction.\n- **Digoxin**: positive inotropic, negative chronotropic (stronger, slower).\n- **Adrenergic agonists for shock**: positive inotrope and positive chronotrope; they raise cardiac output.\n- **Dobutamine**: raises contractility without changing rate or oxygen demand much.\n- **Beta-blockers and calcium channel blockers**: lower rate and force, so less oxygen demand.\n\n## Priority nursing actions\nCheck apical pulse and blood pressure before giving; report a slow heart rate (digoxin hold-point in handout: below 60 in adults, below 90 in infants).\n\n## How the exam asks about it\n\"Which action describes digoxin?\" -> stronger, slower beat.\n\n## Related topics\n[[Cardiac Glycosides: Digoxin]], [[Vasopressors for Hypotension and Shock]], [[Beta-Blockers for Angina and Dysrhythmias]]\n\n## Check against your textbook\nDromotropic definition is minimal in the handout.",
+  "tags": [
+   "pharmacology",
+   "cardiac",
+   "terms"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Medications for Hypotension and Shock",
+   "Cardiac Glycosides"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ }
+]

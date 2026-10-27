@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "np2-0029",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Explaining an abnormal AFP result",
+    "noteId": "np2-ob-cvs-afp",
+    "vignette": "A 17-week primigravida is told her maternal serum alpha-fetoprotein level is elevated. She says anxiously, \"Elevated means my baby has Down syndrome, doesn't it? My husband wants to decide about terminating now.\" The physician has ordered further tests.",
+    "stem": "Which response by the nurse is BEST?",
+    "options": [
+      "Confirm that a raised level is typical of Down syndrome and encourage the couple to decide quickly",
+      "Explain that a raised level is linked with neural tube defects or twins; more tests will clarify",
+      "Tell her that levels vary in every pregnancy and that this result is nothing to worry about",
+      "Advise her and her husband about what a couple in her position should do about the pregnancy"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: an elevated AFP, a frightened client who links it to Down syndrome, and a husband pushing for a quick decision.\n2. Principle: elevated AFP is linked with neural tube defects (and multiple pregnancy); decreased AFP is linked with chromosomal disorders such as Down syndrome; these tests are screening steps that help families make informed decisions.\n3. Priority rule: correct the misconception and support informed choice; the nurse explains but does not decide for the family.\n4. Flip: if the AFP had been decreased, a chromosomal disorder would be the concern and diagnostic testing would be discussed.",
+    "optionRationales": [
+      "Reversed fact: Down syndrome is associated with decreased AFP, and hurrying a decision is not supportive.",
+      "Correct: it corrects the misconception and keeps the next tests and decisions with the family and physician.",
+      "Under-reaction: false reassurance dismisses a result that needs follow-up.",
+      "Over-intervention: the nurse supports and explains but does not decide for the family."
+    ],
+    "strategy": "Explain and support; do not decide for the family",
+    "archetype": "what the result means",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Elevated AFP: neural tube defects (and multiple pregnancy); decreased AFP: chromosomal disorders such as Down syndrome.",
+      "The nurse supports and explains but does not decide for the family."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0030",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Ambivalence in the first trimester",
+    "noteId": "np2-ob-psych-tasks",
+    "vignette": "An 8-week primigravida tells the nurse, \"I am happy and also scared. Honestly, some days I wish I had not gotten pregnant. I just feel sick every morning and I can't think about the baby at all.\" Her husband is delighted.",
+    "stem": "Which response is most appropriate?",
+    "options": [
+      "Show her the baby's heartbeat on the ultrasound screen to encourage bonding",
+      "Tell her that every mother is overjoyed and that these feelings will pass",
+      "Accept her mixed feelings without judgment and offer help for the nausea",
+      "Enroll her in a parenting class so she can prepare for the birth early"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: first trimester, ambivalence, concern for herself greater than for the baby.\n2. Principle: in the first trimester the mother is accepting the pregnancy and concern for herself exceeds concern for the baby; match teaching to the stage: symptom relief and reassurance, with acceptance of ambivalence.\n3. Bonding activities and parenting classes suit the second and third trimesters.\n4. Flip: if she were at 30 weeks and still unable to think of the baby, concerns about acceptance would be explored further.",
+    "optionRationales": [
+      "Right action, wrong time: bonding activities such as listening to heart tones suit the second trimester.",
+      "Dismissing feelings: false reassurance blocks communication.",
+      "Correct: nonjudgmental acceptance and attention to her present concern.",
+      "Right action, wrong time: birth and parenting preparation suit the third trimester."
+    ],
+    "strategy": "Therapeutic communication: accept ambivalence",
+    "archetype": "match response to psychological task",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "First trimester: accepting the pregnancy; concern for self greater than for baby.",
+      "Accept ambivalence without judgment."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0031",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Deciding whether labor has begun",
+    "noteId": "np2-ob-true-vs-false-labor",
+    "vignette": "A 39-week primigravida arrives with contractions every 6 minutes that begin in her back and wrap to the front, and they seem stronger when she walks to the bathroom. She has a small bloody show. The first examination finds the cervix 2 cm dilated and 50 percent effaced. The fetal heart rate is reassuring and her membranes are intact.",
+    "stem": "What is the BEST next step?",
+    "options": [
+      "Observe her and reassess contractions and cervical change after a set interval",
+      "Send her home now because only 2 cm of dilation means she is in false labor for sure",
+      "Give a sedative to see whether the contractions stop",
+      "Admit her and start an oxytocin infusion to move the labor along"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: back-to-front contractions, worse with walking, bloody show, and a cervix that is partly dilated and effaced on a single check.\n2. Principle: true labor starts in the back and wraps forward, is regular, gets stronger with walking and shows progressive dilation and effacement; one examination cannot show progression; if unsure, assess the pattern and check for change.\n3. Priority rule: assess before acting; avoid both sending a woman in early labor home and intervening prematurely.\n4. Flip: if contractions stayed in the lower abdomen, were irregular and eased with walking, with no cervical change, she would be reassured and sent home with return advice.",
+    "optionRationales": [
+      "Correct: reassessing after an interval shows whether the cervix is changing.",
+      "Skips assessment: a single measurement does not exclude early true labor given the pattern and show.",
+      "Unsafe common habit: sedation is used to test false labor and is inappropriate when the pattern suggests true labor.",
+      "Over-intervention: augmentation is not indicated before labor is established."
+    ],
+    "strategy": "Assess for cervical change before deciding",
+    "archetype": "observe for change",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "True labor: starts in the back, regular and shortening intervals, stronger with walking, progressive cervical change.",
+      "If unsure, assess contraction pattern and check cervical change."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0032",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Head diameters and flexion",
+    "noteId": "np2-ob-pelvis-cpd-diameters",
+    "vignette": "A nurse is teaching a student about why a well-flexed fetal head passes more easily through the pelvis. She points out three diameters of the fetal head: one of about 9.5 cm, one of about 11 cm, and one of about 13.5 cm.",
+    "stem": "Which diameter is presented when the head is fully flexed?",
+    "options": [
+      "The occipitofrontal diameter, of intermediate size",
+      "The occipitomental diameter, the widest",
+      "The biparietal diameter, of the greatest length",
+      "The suboccipitobregmatic diameter, the smallest"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cue: a well-flexed head with chin to chest.\n2. Principle: the suboccipitobregmatic diameter (about 9.5 cm) is the smallest and is presented in full flexion; the occipitofrontal (about 11 cm) is intermediate; the occipitomental (about 13.5 cm) is the widest and is presented with an extended head or face.\n3. Flexion therefore helps labor.\n4. Flip: with a face presentation the widest diameter would present and labor would not progress.",
+    "optionRationales": [
+      "Presented in a less flexed head (military attitude), not full flexion.",
+      "Presented in extension (face), not in flexion.",
+      "Not one of the three diameters described, and not the diameter that varies with flexion.",
+      "Correct: the smallest diameter is presented in full flexion."
+    ],
+    "strategy": "Flexion presents the smallest diameter",
+    "archetype": "smallest presenting diameter",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Suboccipitobregmatic about 9.5 cm (smallest); occipitofrontal about 11 cm; occipitomental about 13.5 cm (widest)."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0033",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Nitrazine test interpretation",
+    "noteId": "np2-ob-first-stage",
+    "vignette": "A 37-week woman reports a wet pad after sneezing. She has had urinary frequency for weeks. The nurse touches nitrazine paper to the fluid on the pad and the paper turns yellow. The fetal heart rate is normal and she has no contractions.",
+    "stem": "How should the nurse interpret the result?",
+    "options": [
+      "The fluid is alkaline and confirms that the membranes have ruptured",
+      "The result is unreliable and she should be sent home without any further check",
+      "The fluid is amniotic fluid because it came after a sudden movement",
+      "The fluid is acidic and most likely urine rather than amniotic fluid"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: wetness after sneezing, long-standing frequency, and a yellow reaction on nitrazine paper.\n2. Principle: nitrazine paper turns blue with alkaline fluid (amniotic fluid) and yellow or red-orange with acidic fluid (urine).\n3. Priority rule: interpret the test result with the history; the fetal heart rate and absence of contractions are reassuring, but the nurse still documents and reports.\n4. Flip: if the paper had turned blue, rupture of membranes would be assumed, the fetal heart rate checked at once and the time noted.",
+    "optionRationales": [
+      "Reversed meaning: alkaline fluid turns the paper blue.",
+      "Under-reaction: the result is informative and should be documented and reported.",
+      "Assumption: the circumstances do not determine the fluid, the test does.",
+      "Correct: yellow indicates an acid reaction, which fits urine."
+    ],
+    "strategy": "Interpret the test; do not assume",
+    "archetype": "amniotic fluid versus urine",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Nitrazine paper: blue = alkaline = amniotic fluid; yellow or red-orange = acidic = urine.",
+      "Check fetal heart rate right after rupture."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0034",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Urge to push before full dilation",
+    "noteId": "np2-ob-second-stage-mechanisms",
+    "vignette": "A multigravida in labor is at 8 cm. She cries, \"I need to push now! The baby is coming!\" and begins to bear down with the contraction. Her husband asks the nurse to let her push because \"her body knows\".",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Encourage her to push with each contraction because the urge means she is ready",
+      "Place her in lithotomy position and coach her to push with her next contraction",
+      "Coach her to pant-breathe and not push until the cervix is fully dilated",
+      "Increase the oxytocin infusion to speed dilation to the full 10 cm"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: 8 cm with a strong urge to push in a multigravida.\n2. Principle: do not push before full dilation or without a contraction because it tires her and can swell the cervix; teach pant-breathing when the urge comes early; second stage starts at 10 cm.\n3. The urge is real but the cervix is not ready, so the safest action is to control pushing.\n4. Flip: at 10 cm with an urge to push, pushing with each contraction would be correct.",
+    "optionRationales": [
+      "Right action, wrong time: pushing is for the second stage after full dilation.",
+      "Right position for pushing at the wrong time: she is not yet fully dilated.",
+      "Correct: pant-breathing prevents early pushing and cervical swelling.",
+      "Over-intervention: oxytocin is not indicated and could harm the fetus."
+    ],
+    "strategy": "Do not push before full dilation",
+    "archetype": "teach pant-breathing",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Do not push before full dilation; teach pant-breathing for an early urge to push.",
+      "Second stage: full dilation until the baby is born."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0035",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Ergot before delivery of the placenta",
+    "noteId": "np2-ob-third-stage",
+    "vignette": "Immediately after a woman delivers her baby, the physician writes orders for oxytocin and methylergonovine for uterine tone. The placenta has not yet been delivered. The woman's blood pressure is 148/94 and her uterus is firm and rising. A resident suggests giving both drugs now to speed placental separation.",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Hold the methylergonovine until the placenta is delivered and clarify the order",
+      "Give both drugs now, since quick contraction of the uterus separates the placenta sooner",
+      "Massage the uterus vigorously to separate the placenta, then give both drugs afterwards",
+      "Give the oxytocin as a rapid undiluted injection to deliver the placenta at once"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: placenta still in the uterus, orders for two uterotonics, elevated blood pressure, and signs of separation (firm, rising uterus).\n2. Principle: ergot preparations are given only after the placenta is delivered, because a strong contraction beforehand can trap the placenta; oxytocin is given diluted and slowly.\n3. Priority rule: protect safety by questioning an order that is unsafe at this time; the raised pressure adds another reason to avoid ergot.\n4. Flip: once the placenta is out and bleeding continues with a boggy uterus, methylergonovine could be given if the blood pressure allows.",
+    "optionRationales": [
+      "Correct: it prevents a trapped placenta and clarifies the order.",
+      "Unsafe: ergot before delivery of the placenta can trap it.",
+      "Right goal, wrong action: the uterus is firm already, and vigorous massage can cause harm and does not help separation.",
+      "Unsafe: rapid undiluted oxytocin can cause strong, dangerous contractions and low blood pressure."
+    ],
+    "strategy": "Safety: ergot only after the placenta is delivered",
+    "archetype": "clarify an unsafe order",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Ergot (methylergonovine) only after the placenta is delivered; oxytocin is given diluted and slowly.",
+      "Signs of separation: firm globular uterus, lengthening cord, gush of blood."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0036",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Early painless cervical dilation",
+    "noteId": "np2-ob-cervical-incompetence",
+    "vignette": "An 18-week woman who lost two pregnancies painlessly in the second trimester comes to the clinic with pink-stained discharge and a feeling of pelvic pressure. She has no contractions. She asks if she can walk around the ward while waiting for the physician.",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Place her on bed rest, hips higher than the head, and notify the physician",
+      "Allow her to walk, since gravity will help the cervix to stay closed",
+      "Lay her flat on her back with the legs together until the physician arrives",
+      "Perform a vaginal examination to check how open the cervix is"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: previous painless midtrimester losses, pink-stained discharge, pelvic pressure and no contractions.\n2. Principle: premature cervical dilation is painless early opening of the cervix and the most common cause of habitual abortion; nursing responsibilities include bed rest, modified Trendelenburg to take pressure off the cervix, and no intercourse.\n3. Walking increases pressure on the cervix.\n4. Flip: if she had regular painful contractions, tocolytics would be discussed with the physician.",
+    "optionRationales": [
+      "Correct: position and rest reduce pressure on the cervix while help is called.",
+      "Unsafe: upright activity increases pressure on an incompetent cervix.",
+      "Wrong position: flat does not relieve pressure and the legs should not be pressed together.",
+      "Over-intervention: the nurse should not examine the cervix, which can provoke dilation or contractions."
+    ],
+    "strategy": "Take pressure off the cervix",
+    "archetype": "position and bed rest",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Premature cervical dilation: painless early opening; commonest cause of habitual abortion.",
+      "Bed rest, modified Trendelenburg, no intercourse."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0037",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Teaching after methotrexate for ectopic pregnancy",
+    "noteId": "np2-ob-x-drugs-procedures",
+    "vignette": "A woman is being discharged after an intramuscular methotrexate injection for an unruptured ectopic pregnancy under 3 cm. She will return for blood tests. She asks which symptoms should make her come back at once; she has mild spotting and mild cramping now.",
+    "stem": "Which symptom should the nurse tell her to report immediately?",
+    "options": [
+      "Mild spotting like the spotting she has now",
+      "Mild cramping similar to the cramping she has now",
+      "Sudden severe lower abdominal pain with dizziness",
+      "Feeling tired for several days after the injection"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: unruptured ectopic treated with a drug that stops fast-growing cells; she already has mild spotting and cramping.\n2. Principle: methotrexate is used for an unruptured ectopic under about 3 cm and the nurse teaches signs of rupture; a ruptured ectopic is a life-threatening bleed.\n3. The key sign is sudden severe pain with signs of blood loss.\n4. Flip: if her spotting suddenly became heavy and bright red, that would also be reported.",
+    "optionRationales": [
+      "Expected finding: mild spotting is already present and not alarming alone.",
+      "Expected finding: mild cramping already present is not alarming alone.",
+      "Correct: sudden severe pain with dizziness suggests rupture and internal bleeding.",
+      "Common effect: fatigue is not a sign of rupture."
+    ],
+    "strategy": "Teach the sign that means rupture",
+    "archetype": "warning signs after treatment",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Methotrexate IM is used for an unruptured ectopic under about 3 cm; watch for signs of rupture."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0038",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Boggy uterus after delivery",
+    "noteId": "np2-ob-fourth-stage",
+    "vignette": "Forty minutes after delivery a woman's fundus is soft, above the umbilicus and deviated to the right. She has a heavy lochia flow with clots. She says she needs to urinate but is too weak to stand. A nursing aide offers to help her to the toilet.",
+    "stem": "What should the nurse do FIRST?",
+    "options": [
+      "Have the aide help her to the toilet to empty her bladder",
+      "Insert a catheter before touching the uterus",
+      "Telephone the physician and wait for orders before any action",
+      "Massage the fundus until it is firm"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: a boggy uterus, displaced above the umbilicus, heavy bleeding, and a full bladder.\n2. Principle: in the fourth stage a boggy uterus needs fundal massage first, then help to empty the bladder, since a full bladder pushes the uterus up and causes bleeding.\n3. Priority rule: stop the bleeding before correcting the contributing cause; the bladder is dealt with right after the uterus is firm.\n4. Flip: if the fundus were firm and midline with moderate flow, assisting with voiding would be routine.",
+    "optionRationales": [
+      "Right action, wrong order: emptying the bladder follows massage, and a weak woman should not walk with a boggy uterus.",
+      "Right measure, wrong time: catheterization can follow massage if she cannot void.",
+      "Under-reaction: the nurse acts first and calls for help while doing so.",
+      "Correct: massage contracts the uterus to control bleeding."
+    ],
+    "strategy": "Massage the fundus first, then empty the bladder",
+    "archetype": "massage before bladder",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "A boggy uterus: massage the fundus first, then help her empty the bladder.",
+      "BUBBLE-HE: breasts, uterus, bladder, bowels, lochia, episiotomy, Homans' sign, emotions."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0039",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Change in lochia pattern",
+    "noteId": "np2-ob-lochia",
+    "vignette": "On postpartum day 8 a woman who had pink-brown lochia since day 4 reports that the discharge has turned bright red with a few small clots this morning. She has no fever, no foul odor, and her fundus is firm at the level expected for this day. She asks if she should massage her abdomen.",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Tell her this is normal lochia alba and continue routine care",
+      "Teach her to massage the fundus several times a day until the flow slows",
+      "Obtain cultures for suspected endometritis and start antibiotics",
+      "Report the change because it may mean retained placental fragments"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: lochia had progressed to serosa and then returned to red, with a firm uterus, no fever and no odor.\n2. Principle: the order of lochia stages never reverses; a return to red after it had turned pink or white suggests retained placental fragments and should be reported.\n3. The firm uterus argues against atony and the lack of fever and odor argues against infection.\n4. Flip: with fever and foul odor, infection would be suspected and cultures sent.",
+    "optionRationales": [
+      "Misread: lochia alba is white or yellowish-white, not bright red.",
+      "Treats the wrong cause: the uterus is already firm.",
+      "Over-intervention: there is no fever or foul odor to suggest infection.",
+      "Correct: reversal of the lochia pattern points to retained fragments."
+    ],
+    "strategy": "Return to red signals retained tissue",
+    "archetype": "retained fragments",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Lochia order: rubra, serosa, alba; it never reverses.",
+      "Return to red after pink or white: suspect retained placental fragments; report."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0040",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Calf pain after birth",
+    "noteId": "np2-ob-thrombophlebitis",
+    "vignette": "On postpartum day 4 a woman who had a cesarean birth has pain, warmth and swelling in her left calf with a tender cord-like vein. Her right calf is normal. She is afebrile. Her visitor offers to massage the leg and the woman wants to walk the corridor.",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Keep her on bed rest, leg elevated, avoid massage and report to the physician",
+      "Encourage vigorous walking in the corridor to improve the circulation in the leg",
+      "Massage the calf gently to relieve the pain and the swelling",
+      "Perform Homans' sign repeatedly to be sure the clot is present"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: unilateral calf pain, warmth, swelling, a tender cord-like vein after cesarean birth.\n2. Principle: for postpartum thrombophlebitis, bed rest with the leg elevated, no massage or rubbing of the calf (a clot could travel to the lungs), report and anticoagulation as ordered.\n3. Priority rule: avoid actions that dislodge the clot.\n4. Flip: once treatment is under way and the physician allows, early ambulation is encouraged.",
+    "optionRationales": [
+      "Correct: rest and elevation without disturbing the clot, with prompt report.",
+      "Right action, wrong time: ambulation is encouraged after treatment has started.",
+      "Unsafe: massage could dislodge the clot, which could cause pulmonary embolism.",
+      "Unsafe: repeated Homans' sign maneuvers can disturb a clot and are not a reliable test."
+    ],
+    "strategy": "Do not disturb the clot",
+    "archetype": "do not massage the clot",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "No massage or rubbing of the calf: a clot could break off and travel to the lungs.",
+      "Bed rest with leg elevated; heparin as ordered; watch for pulmonary embolism."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0041",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Classifying a miscarriage",
+    "noteId": "np2-ob-abortion",
+    "vignette": "A woman at 10 weeks has heavy vaginal bleeding with cramping. On examination by the physician the cervix is dilated and effaced. She has not passed any tissue.",
+    "stem": "Which type of spontaneous abortion is this?",
+    "options": [
+      "Threatened abortion",
+      "Incomplete abortion",
+      "Complete abortion",
+      "Inevitable abortion"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: bleeding with cervical dilation and effacement, and no tissue passed.\n2. Principle: threatened abortion has bleeding with a closed cervix; inevitable (imminent) abortion has bleeding with dilation and effacement and cannot be stopped; incomplete means some products have passed and some retained; complete means all have passed.\n3. No tissue has passed, so incomplete and complete do not apply.\n4. Flip: if the cervix were closed, the diagnosis would be threatened abortion.",
+    "optionRationales": [
+      "The cervix is closed in threatened abortion, which does not fit.",
+      "Requires some tissue to have passed, which has not occurred.",
+      "Requires all products to have passed, which has not occurred.",
+      "Correct: dilation and effacement mean the pregnancy cannot be saved."
+    ],
+    "strategy": "Classify by cervical status and tissue passed",
+    "archetype": "type of spontaneous abortion",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Threatened: closed cervix; inevitable: dilation and effacement; incomplete: some tissue retained; complete: all passed."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0042",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "After evacuation of a mole",
+    "noteId": "np2-ob-hydatidiform-mole",
+    "vignette": "Two weeks after suction evacuation of a hydatidiform mole, a 22-year-old woman tells the nurse, \"I feel fine and I want a baby. My husband and I will try again in about six months.\" She is unsure about returning for blood tests since the bleeding has stopped.",
+    "stem": "Which advice by the nurse is BEST?",
+    "options": [
+      "Try again in six months, since the tissue was removed and she is healthy",
+      "Wait a year and use reliable contraception, and keep the scheduled hCG tests",
+      "Return for hCG tests only if the bleeding comes back or her belly gets bigger",
+      "Use the calendar method of family planning while the tests continue"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: a recent mole, a woman who feels well and wants to conceive soon and doubts the need for follow-up.\n2. Principle: after a mole, beta-hCG is monitored regularly for up to a year because of the risk of choriocarcinoma; pregnancy is delayed for a year so that a rise in hCG can be recognized as recurrence rather than a new pregnancy.\n3. Reliable contraception is taught.\n4. Flip: if hCG tests remained normal over the full follow-up period and the physician cleared her, she could plan a pregnancy.",
+    "optionRationales": [
+      "Unsafe: an early pregnancy would hide a rising hCG that signals recurrence.",
+      "Correct: follow-up and delayed pregnancy allow recurrence to be recognized.",
+      "Under-reaction: follow-up is scheduled regardless of symptoms.",
+      "Unreliable method: irregular cycles after a mole make fertility-awareness methods unsuitable."
+    ],
+    "strategy": "Follow hCG and avoid pregnancy for one year",
+    "archetype": "follow-up and contraception",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Monitor beta-hCG until normal, then regularly for a year; no pregnancy for one year.",
+      "Teach reliable contraception and the need for follow-up."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0043",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Diet in mild pre-eclampsia",
+    "noteId": "np2-ob-pih-preeclampsia",
+    "vignette": "A 33-week woman with mild pre-eclampsia (blood pressure 142/92, 1+ protein, ankle swelling) is managed at home with weekly checks. Her mother-in-law tells her to stop eating salt completely and to drink very little water. She asks the nurse what to do.",
+    "stem": "Which advice is BEST?",
+    "options": [
+      "Follow a strict salt-free diet and limit fluids until the swelling is gone",
+      "Continue a normal salt intake, rest as much as possible and keep weekly checks",
+      "Take a diuretic from the pharmacy to reduce the swelling in her legs",
+      "Stay active at work to keep her circulation moving and her blood pressure down"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: mild pre-eclampsia, ankle swelling, and advice to restrict salt and water.\n2. Principle: management of mild disease is rest (conserves oxygen and reduces vasospasm), normal salt intake (not restricted), and weekly checks; salt restriction can activate the renin-angiotensin system.\n3. Edema alone is not a reason to restrict salt.\n4. Flip: if she developed severe headache, visual changes and a pressure of 160/110, urgent hospital care with magnesium sulfate would be needed.",
+    "optionRationales": [
+      "Common error: salt restriction is not recommended and can worsen vasospasm.",
+      "Correct: rest, normal salt and weekly checks match the management of mild disease.",
+      "Unsafe self-medication: diuretics are not taken without a prescriber and do not treat the cause.",
+      "Opposite advice: rest, not activity, reduces vasospasm."
+    ],
+    "strategy": "Do not restrict salt in mild pre-eclampsia",
+    "archetype": "salt is not restricted",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Mild pre-eclampsia: rest, normal salt intake (not restricted), weekly checks.",
+      "Diastolic pressure best reflects arterial spasm."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0044",
+    "v": 2,
+    "type": "sata",
+    "area": "NP2",
+    "topic": "Care in suspected abruptio placentae",
+    "noteId": "np2-ob-abruptio-placentae",
+    "vignette": "A 35-week woman with chronic hypertension arrives with sudden sharp uterine pain, a rigid abdomen, a small amount of dark vaginal bleeding and a weak fetal heart rate. The nurse is planning her care.",
+    "stem": "Which actions are appropriate? Select all that apply.",
+    "options": [
+      "Apply continuous external fetal monitoring",
+      "Perform a vaginal examination to check for dilation",
+      "Perform Leopold's maneuvers to find the fetal position",
+      "Take her vital signs every 5 to 15 minutes",
+      "Place her in a lateral position",
+      "Give oxygen and start intravenous fluids as ordered"
+    ],
+    "answer": [
+      0,
+      3,
+      4,
+      5
+    ],
+    "rationale": "1. Cues: pain, rigid abdomen, hidden bleeding and a weak fetal heart suggest abruptio placentae in a hypertensive woman.\n2. Principle: treat as an emergency with fluids and blood, oxygen, external fetal monitoring, frequent vital signs, lateral position, and no abdominal, vaginal or pelvic examinations; urgent delivery if fetal distress.\n3. Abdominal palpation can worsen the separation and vaginal exams can provoke hemorrhage.\n4. Flip: with a stable woman and no bleeding or pain, routine Leopold's maneuvers would be acceptable.",
+    "optionRationales": [
+      "Appropriate: external monitoring tracks fetal status without touching the uterus.",
+      "Inappropriate: vaginal examination risks provoking hemorrhage.",
+      "Inappropriate: abdominal palpation can worsen the separation.",
+      "Appropriate: frequent vital signs detect shock early.",
+      "Appropriate: lateral position improves venous return and placental flow.",
+      "Appropriate: oxygen and fluids treat the shock and fetal compromise."
+    ],
+    "strategy": "Safety of mother and fetus: treat as an emergency",
+    "archetype": "appropriate actions",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "No abdominal, vaginal or pelvic exams in suspected abruptio.",
+      "Lateral position, oxygen, fluids, external monitoring, vital signs every 5 to 15 minutes."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0045",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Cord visible after rupture of membranes",
+    "noteId": "np2-ob-prom-cord-prolapse",
+    "vignette": "A 35-week woman with ruptured membranes is on the labor unit. After a sudden gush of fluid, the fetal heart rate falls to 70 per minute. The nurse sees a loop of pulsating cord at the vaginal opening. The woman is lying on her back, and her husband runs to call the physician.",
+    "stem": "What should the nurse do FIRST?",
+    "options": [
+      "Gently push the cord back inside the vagina to keep it warm",
+      "Give oxygen by mask and wait for the physician before touching the cord",
+      "Keep her on her back and prepare her for an immediate vaginal examination",
+      "Lift the presenting part off the cord with a gloved hand; call for help"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: ruptured membranes, sudden fetal bradycardia, and a visible pulsating cord.\n2. Principle: cord prolapse is an emergency: call for help, do not push the cord back, relieve pressure by lifting the presenting part with a gloved hand and using knee-chest or Trendelenburg position, cover the cord with moist sterile saline gauze, give oxygen and prepare for urgent cesarean.\n3. Priority rule: the cord is the baby's oxygen line, so relieving compression comes first.\n4. Flip: if the cord were not compressed and heart tones were normal, close observation and bed rest would be used.",
+    "optionRationales": [
+      "Unsafe: pushing the cord back risks further compression.",
+      "Under-reaction: waiting leaves the cord compressed; oxygen is given but compression must be relieved.",
+      "Unsafe: supine position with no relief of pressure on the cord prolongs compression.",
+      "Correct: it relieves compression immediately while help is summoned."
+    ],
+    "strategy": "Relieve pressure on the cord first",
+    "archetype": "emergency first actions",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Cord prolapse: call for help; do not push the cord back; lift the presenting part; knee-chest or Trendelenburg.",
+      "Cover the cord with moist sterile saline gauze; oxygen; urgent cesarean."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0046",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Early contractions at 30 weeks",
+    "noteId": "np2-ob-premature-labor",
+    "vignette": "A 30-week woman with a urinary tract infection in her history comes to the unit on a hot afternoon after working in the field with little to drink. She has regular contractions every 8 minutes, no fluid leaking and her cervix is not yet dilated. She asks if she can go home to rest.",
+    "stem": "What is the nurse's BEST action?",
+    "options": [
+      "Reassure her that these are only false contractions and send her home to rest and drink fluids",
+      "Encourage her to walk to see if the contractions stop by themselves",
+      "Position her on her left side, assess contractions and fetal heart, and start IV fluids",
+      "Give oxytocin to complete the labor and avoid a long hospital stay"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: preterm contractions in a dehydrated woman with an infection risk and a closed cervix.\n2. Principle: dehydration and urinary infection are causes of premature labor; management includes bed rest, IV hydration (may halt contractions), tocolytics and corticosteroids if ordered; nursing care assesses contractions, fluid loss and fetal heart and positions on the left side.\n3. Priority rule: address the reversible cause and assess before sending home.\n4. Flip: if the cervix were 5 cm dilated, tocolytics and steroids would be discussed urgently.",
+    "optionRationales": [
+      "Under-reaction: regular contractions at 30 weeks are not dismissed as false labor.",
+      "Unsafe: activity increases pressure on the cervix and may increase contractions.",
+      "Correct: it treats the likely cause and monitors mother and fetus.",
+      "Unsafe: oxytocin would promote preterm labor and birth."
+    ],
+    "strategy": "Hydrate, position and assess",
+    "archetype": "first nursing measures",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Premature labor: dehydration and UTI are causes; bed rest and IV hydration may halt contractions.",
+      "Position on the left side; teach warning signs."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0047",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Pregnancy beyond 42 weeks",
+    "noteId": "np2-ob-post-term",
+    "vignette": "A woman at 42 weeks and 3 days, confirmed by an early ultrasound, comes for a visit. She has felt fewer kicks today. Her husband says they would prefer to wait at home for labor to begin naturally.",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Agree that waiting at home is best and advise her to return when contractions begin or her water breaks",
+      "Advise her to take aspirin to help the labor start on its own",
+      "Check the fetal heart rate and prepare her for fetal assessment and possible induction",
+      "Reassure her that fewer movements are normal late in pregnancy"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: post-term pregnancy with reduced fetal movement.\n2. Principle: after 42 weeks placental function may decline and the fetus is at risk of low oxygen; priority nursing actions are close fetal heart monitoring and preparation for cervical ripening and oxytocin as ordered; teach daily fetal movement counts and to report decreased movement.\n3. Aspirin should be avoided in late pregnancy.\n4. Flip: at 40 weeks with normal movement and a reassuring tracing, waiting for spontaneous labor could be reasonable.",
+    "optionRationales": [
+      "Under-reaction: reduced movement after 42 weeks needs assessment now.",
+      "Unsafe: aspirin is avoided in late pregnancy.",
+      "Correct: it monitors the fetus and prepares for induction.",
+      "False reassurance: decreased movement is reported, not dismissed."
+    ],
+    "strategy": "Watch the fetus when placental reserve may be low",
+    "archetype": "fetal surveillance",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Post-term (over 42 weeks): monitor the fetal heart; prepare for ripening and induction; fetal movement counts."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0048",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Imminent birth with no help",
+    "noteId": "np2-ob-precipitate-labor",
+    "vignette": "A multigravida with a history of a 90-minute labor arrives at a rural health unit. She is panting, says \"the baby is coming,\" and her perineum is bulging. You are the only nurse on duty. The midwife is five minutes away. She says her husband went to find a tricycle.",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Leave her briefly to find the midwife so that a skilled attendant is present at the birth",
+      "Stay with her, call for help and prepare to deliver here, supporting the baby's head",
+      "Tell her to cross her legs and hold the baby back until the midwife arrives",
+      "Move her to a vehicle and transport her to the district hospital immediately"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: imminent birth, a bulging perineum, a history of fast labor, and no skilled help yet.\n2. Principle: in precipitate labor, stay with the woman, call for help, prepare for delivery where she is, support the head, control the descent and use controlled breathing; do not delay birth by holding her legs together or pushing the head back.\n3. Safety: leaving her alone or transporting her risks an unattended birth.\n4. Flip: if the head were not yet visible and she was only in early labor, transport would be possible.",
+    "optionRationales": [
+      "The trap: leaving the woman alone risks an unattended birth.",
+      "Correct: it protects mother and baby and brings help to her.",
+      "Unsafe: delaying birth by holding legs together risks injury to the baby and mother.",
+      "Unsafe: moving a woman with a bulging perineum risks birth in transit."
+    ],
+    "strategy": "Stay with the woman; control the birth",
+    "archetype": "stay and prepare",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Precipitate labor: stay with the woman, call for help, prepare for delivery, control the head.",
+      "Do not hold her legs together or push the head back."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0049",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Before a magnesium sulfate dose",
+    "noteId": "np2-ob-magnesium-eclampsia",
+    "vignette": "A woman with severe pre-eclampsia has been receiving magnesium sulfate for 8 hours. She has had no seizures and her blood pressure has improved to 138/86. Before the next scheduled dose the nurse finds a respiratory rate of 10 per minute, absent patellar reflexes and a urine output of 20 mL in the last hour. The woman is drowsy but says she feels better.",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Withhold the dose, notify the physician and have calcium gluconate available",
+      "Give the scheduled dose, since her blood pressure and seizure control are good",
+      "Give the scheduled dose at a slower rate and recheck her reflexes in an hour",
+      "Give calcium gluconate and continue the infusion at the same rate"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: reassuring blood pressure and no seizures, but respiratory rate under about 12, absent reflexes and low urine output.\n2. Principle: before each dose check deep tendon reflexes, respiratory rate and urine output; absent reflexes and depressed respirations signal toxicity, and the kidneys clear the drug, so low output raises levels; calcium gluconate is the antidote.\n3. Priority rule: airway and breathing first; do not let good results hide toxicity signs.\n4. Flip: if respirations were 18, reflexes present and urine output 40 mL an hour, the dose would be given.",
+    "optionRationales": [
+      "Correct: toxicity signs call for withholding the drug and getting medical orders.",
+      "Unsafe: good blood pressure does not excuse toxicity signs.",
+      "Unsafe: slowing the rate still gives the drug to a toxic client.",
+      "Treats the antidote as routine: continuing the infusion defeats the purpose of reversing toxicity."
+    ],
+    "strategy": "Check toxicity signs before each dose",
+    "archetype": "withhold and notify",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Before each dose check reflexes, respiratory rate and urine output; antidote calcium gluconate.",
+      "Absent reflexes and respirations under about 12 per minute indicate toxicity."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0050",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Epigastric pain in a hypertensive woman",
+    "noteId": "np2-ob-hellp",
+    "vignette": "A 34-week woman with pregnancy-induced hypertension tells the nurse that she has had pain in the upper abdomen and nausea since last night. She believes it is heartburn from spicy food and asks for an antacid. Her blood pressure is 156/100 and she has noticed new bruises on her arms. Her next kick count is due.",
+    "stem": "What should the nurse do FIRST?",
+    "options": [
+      "Report the upper abdominal pain and bruising at once so tests can be ordered",
+      "Give the antacid as requested and recheck her pain in one hour",
+      "Teach her to eat small meals and avoid spicy food",
+      "Complete the fetal kick count first and then report the pain and bruising afterwards"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: epigastric pain and nausea in a hypertensive woman with new bruising.\n2. Principle: pregnancy hypertension plus right upper quadrant or epigastric pain plus bruising suggests HELLP (hemolysis, elevated liver enzymes, low platelets); the nurse reports at once and expects labs, magnesium sulfate and early delivery planning.\n3. Priority rule: treat as a red flag, not as heartburn.\n4. Flip: in a normotensive woman with burning after meals that eases with an antacid, heartburn would be likely.",
+    "optionRationales": [
+      "Correct: it recognizes a possible life-threatening syndrome.",
+      "The trap: calling epigastric pain heartburn delays diagnosis.",
+      "Treats the symptom: dietary teaching ignores the hypertension and bruising.",
+      "Right task, wrong priority: kick counts are important but the maternal red flag comes first."
+    ],
+    "strategy": "Red flag: epigastric or RUQ pain in pregnancy hypertension",
+    "archetype": "do not call it heartburn",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "HELLP: hemolysis, elevated liver enzymes, low platelets; RUQ or epigastric pain is a red flag.",
+      "The trap is treating epigastric pain as heartburn."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0051",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Follow-up after gestational diabetes",
+    "noteId": "np2-ob-gestational-diabetes",
+    "vignette": "Two days after delivery a woman whose gestational diabetes was controlled with diet has normal blood sugar readings. She tells the nurse, \"My diabetes was only because of pregnancy. Now that the baby is out, I am cured and don't need any more tests.\" Her newborn weighs 4 kg.",
+    "stem": "Which response is BEST?",
+    "options": [
+      "Explain that she has a higher later risk of diabetes and needs follow-up testing",
+      "Agree that the diabetes has resolved and no further tests are needed",
+      "Tell her to continue her pregnancy diet unchanged for life without any further checks or visits",
+      "Advise her to start oral medicine now to prevent diabetes from returning"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: a woman who believes she is cured, and a large newborn.\n2. Principle: gestational diabetes arises from placental hormones that cause insulin resistance and the nurse teaches follow-up testing after birth because of diabetes risk later; the newborn is watched for low blood sugar.\n3. Priority rule: correct the misconception and keep follow-up.\n4. Flip: if follow-up testing after delivery was normal and repeated periodically, her risk would be monitored by routine screening.",
+    "optionRationales": [
+      "Correct: it corrects the belief and covers follow-up and the baby.",
+      "Under-reaction: normal sugars now do not remove her later risk.",
+      "Incomplete advice: lifestyle matters, but follow-up testing is also needed.",
+      "Over-intervention: medicine is not started to prevent diabetes based on normal values."
+    ],
+    "strategy": "Teach about long-term risk and newborn monitoring",
+    "archetype": "later diabetes risk",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Teach follow-up testing after birth: diabetes risk later.",
+      "Newborn of a mother with GDM: watch for low blood sugar."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0052",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Heart failure after delivery",
+    "noteId": "np2-ob-heart-disease-pregnancy",
+    "vignette": "A woman with class II heart disease gave birth one hour ago after a normal labor. Her fundus is firm and her lochia is moderate. She now reports a dry cough and feels short of breath when she turns in bed. Her pulse rate has climbed from 84 to 112 and her ankles are swollen.",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Treat her as having postpartum bleeding and massage her uterus",
+      "Encourage her to ambulate often so that the fluid is moved out of her swollen legs",
+      "Keep her at rest, report the findings as possible heart failure and monitor",
+      "Reassure her that cough and breathlessness are common after delivery"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: a cardiac client in the fourth stage with new cough, dyspnea, rising pulse and swelling; the uterus is firm, so bleeding is not the cause.\n2. Principle: the most dangerous time for heart disease is just after delivery when retained fluid returns to the circulation; monitor for heart failure signs (dyspnea, cough, edema, rapid pulse), rest, left side lying and limit exertion.\n3. Priority rule: recognize the early signs and act.\n4. Flip: if the pulse and breathing were stable and the uterus boggy with heavy bleeding, hemorrhage care would come first.",
+    "optionRationales": [
+      "Wrong cause: the firm uterus and moderate flow argue against bleeding.",
+      "Unsafe: exertion increases the workload of the heart.",
+      "Correct: it recognizes early heart failure and limits cardiac workload.",
+      "False reassurance: these signs may mean early failure in a cardiac client."
+    ],
+    "strategy": "Hardest time for the heart: right after delivery",
+    "archetype": "most dangerous period",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Heart disease: the most dangerous time is just after delivery when fluid returns to the circulation.",
+      "Heart failure signs: dyspnea, cough, edema, rapid pulse."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0053",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Timing of newborn teaching",
+    "noteId": "np2-ob-puerperium-rubin",
+    "vignette": "On the first day after delivery a mother repeatedly retells her labor story, is hungry and tired, and shows little interest when the nurse offers to demonstrate the baby's bath. The nurse has five new mothers to teach before discharge on day 3.",
+    "stem": "What is the BEST way to respond to this mother?",
+    "options": [
+      "Insist on completing the bath demonstration now so that discharge teaching is not delayed",
+      "Listen to her story, meet her needs for food and rest and plan bath teaching for later",
+      "Refer her to the psychologist because her lack of interest suggests a bonding problem",
+      "Leave a written leaflet with the bath steps and teach nothing else until discharge"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: day 1, passive, talkative about labor, hungry and tired, uninterested in teaching.\n2. Principle: the taking-in phase (first 1 to 2 days) is passive and dependent; take-in means meet needs and listen; taking-hold (about days 2 to 7) is the best time for teaching.\n3. Priority rule: match the intervention to the phase; teaching now would be ineffective.\n4. Flip: on day 3, if the same mother asks to learn bathing, the nurse would teach at once.",
+    "optionRationales": [
+      "Right goal, wrong time: teaching is ineffective in the taking-in phase.",
+      "Correct: it meets her needs now and teaches when she is ready.",
+      "Over-intervention: this behavior is expected on the first day and is not a bonding disorder.",
+      "Under-teaching: a leaflet alone does not replace demonstration when she is ready."
+    ],
+    "strategy": "Taking-in: listen and meet needs; teach in taking-hold",
+    "archetype": "match care to the phase",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Taking-in (days 1-2): passive, dependent; meet needs and listen. Taking-hold: best time for teaching."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0054",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Psychotic symptoms after birth",
+    "noteId": "np2-ob-x-postpartum-psychosis",
+    "vignette": "On day 6 after delivery a mother has not slept for two nights and paces the room. She says the baby was \"sent by the devil\" and she must \"give him back\". Her husband brings the baby in for a feed and she reaches for him eagerly. Earlier in the week she was tearful but coping.",
+    "stem": "What should the nurse do FIRST?",
+    "options": [
+      "Encourage her to hold and feed the baby to support bonding",
+      "Explain with facts that the baby is her son and that her belief is wrong",
+      "Tell her husband that she has the baby blues and will improve in a few days or weeks",
+      "Keep the baby from being alone with her and report to the physician at once"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: delusional statements, severe sleeplessness and agitation, and access to the baby.\n2. Principle: postpartum psychosis is a mental-health emergency distinct from baby blues; safety is the top concern: do not leave the baby alone with a mother who is psychotic or having harmful thoughts; stay calm, do not argue with delusions and report immediately.\n3. Maslow: safety right after survival needs.\n4. Flip: if she were tearful but oriented with no delusions, support and monitoring for blues would be appropriate.",
+    "optionRationales": [
+      "Unsafe: encouraging unsupervised contact risks the baby's safety.",
+      "Counterproductive: arguing with a delusion does not help and may increase agitation.",
+      "Misclassification: mild tearfulness is blues, but delusions are psychosis.",
+      "Correct: it protects the baby and gets urgent medical evaluation."
+    ],
+    "strategy": "Maslow: safety; do not leave baby unsupervised",
+    "archetype": "safety first",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Postpartum psychosis is an emergency; keep mother and baby safe; do not argue with delusions; report immediately."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0055",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Bleeding with a firm uterus",
+    "noteId": "np2-ob-postpartum-hemorrhage",
+    "vignette": "Twenty minutes after birth, a woman who delivered vaginally with a tear repaired earlier is bleeding steadily with bright red blood. Her fundus is firm, midline and at the umbilicus, and her bladder is empty. Her pulse is 108 and her blood pressure is 100/64. A student nurse starts to massage her fundus.",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Continue the fundal massage until the bleeding stops",
+      "Inspect the perineum and cervix for lacerations and notify the physician",
+      "Give methylergonovine immediately to contract the uterus further",
+      "Assist her to the toilet to empty her bladder and recheck her bleeding in 30 minutes"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: firm midline uterus, empty bladder, continuous bright red bleeding and a rising pulse.\n2. Principle: a soft boggy uterus means atony and needs massage; a firm uterus with continuous bright bleeding suggests a laceration; late bleeding suggests retained fragments.\n3. Priority rule: treat the cause that fits the findings; massage will not close a tear.\n4. Flip: if the fundus were soft and displaced, massage and emptying the bladder would be the first steps.",
+    "optionRationales": [
+      "The trap: massage treats atony, which the findings do not show.",
+      "Correct: bright bleeding with a firm uterus points to a laceration.",
+      "Wrong cause: a firm uterus does not need further contracting, and ergot adds hypertension risk.",
+      "Under-reaction: the bladder is already empty and waiting 30 minutes allows ongoing loss."
+    ],
+    "strategy": "Firm uterus plus bright bleeding means look for a tear",
+    "archetype": "cause-based action",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Soft uterus = massage; firm uterus + continuous bright bleeding = look for a laceration.",
+      "Late bleeding suggests retained fragments."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  }
+]

@@ -1,0 +1,2206 @@
+[
+ {
+  "id": "cp-np3-01-a",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Postoperative care",
+  "topicId": "medical-surgical-nursing/perioperative-nursing/phases-of-operation",
+  "noteId": "np3-ho-periop-phases-classifications",
+  "clusterId": "cp-np3-01",
+  "clusterSeq": 1,
+  "vignette": "Mang Ramon Dela Cruz, 62, is on postoperative day 1 after an open bowel resection on a surgical ward of a provincial hospital. At the start of the shift he was alert and comfortable. Two hours later he is restless and pale, his skin is cool and clammy, his pulse is faster and weaker than before, and his blood pressure is lower than earlier readings. The abdominal dressing has new bright red staining that is slowly spreading.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Reinforce the dressing and recheck his vital signs at the next scheduled time.",
+   "Stay with him, recheck vital signs, inspect the wound and drains, and notify the surgeon.",
+   "Give the as-needed analgesic ordered for pain, because restlessness is most likely caused by pain.",
+   "Coach him through deep breathing and leg exercises to improve his circulation."
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "Restlessness, pallor, cool clammy skin, a fast weak pulse, falling blood pressure and spreading bright red drainage together point to postoperative hemorrhage with early shock. The nurse should stay with the client, reassess and confirm the findings, and report to the surgeon promptly. Treating this as simple pain or waiting for the next routine check delays life-saving care.",
+  "rationaleSimple": "These signs suggest he is bleeding and going into shock. Stay with him, check him again, and call the surgeon right away.",
+  "optionRationales": [
+   "Waiting for the next routine check delays recognition of ongoing bleeding and shock.",
+   "Best answer. Restlessness, pallor, cool clammy skin, a fast weak pulse, falling blood pressure and spreading bright red drainage together point to postoperative hemorrhage with early shock.",
+   "Assumes pain as the cause without assessment and could mask worsening shock.",
+   "Exercises do not address suspected bleeding and delay reporting."
+  ],
+  "strategy": "Recognizing and responding to postoperative complications",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-01-b",
+  "v": 2,
+  "type": "sata",
+  "area": "NP3",
+  "topic": "Postoperative care",
+  "topicId": "medical-surgical-nursing/perioperative-nursing/phases-of-operation",
+  "noteId": "np3-ho-periop-phases-classifications",
+  "clusterId": "cp-np3-01",
+  "clusterSeq": 2,
+  "vignette": "Mang Ramon Dela Cruz, 62, is on postoperative day 1 after an open bowel resection on a surgical ward of a provincial hospital. At the start of the shift he was alert and comfortable. Two hours later he is restless and pale, his skin is cool and clammy, his pulse is faster and weaker than before, and his blood pressure is lower than earlier readings. The abdominal dressing has new bright red staining that is slowly spreading.",
+  "stem": "Which findings would the nurse expect in a client who is developing hypovolemic shock from postoperative bleeding? Select all that apply.",
+  "options": [
+   "Slow, bounding pulse with warm flushed skin",
+   "Rapid, weak (thready) pulse",
+   "Decreasing urine output",
+   "Cool, clammy skin",
+   "Increasing urine output with a full, strong pulse",
+   "Calm mood with a steadily rising blood pressure",
+   "Restlessness and anxiety"
+  ],
+  "answer": [
+   1,
+   2,
+   3,
+   6
+  ],
+  "rationale": "Blood loss lowers circulating volume, so the body compensates with a fast, weak pulse, cool clammy skin from peripheral vasoconstriction, restlessness from poor brain perfusion, and reduced urine output as the kidneys conserve fluid. A slow bounding pulse, warm flushed skin, rising blood pressure, or rising urine output indicates the opposite picture and does not fit hypovolemia.",
+  "rationaleSimple": "Bleeding makes the pulse fast and weak, the skin cold and sweaty, the client restless, and urine less. The opposite findings do not fit.",
+  "optionRationales": [
+   "Not expected: a slow bounding pulse with warm flushed skin is the opposite of the body's response to blood loss, which is a fast pulse and cool skin.",
+   "Expected: the heart beats faster to make up for the lost volume, and the pulse is weak because less blood is in the vessels.",
+   "Expected: the kidneys conserve fluid when circulating volume falls, so urine output decreases.",
+   "Expected: blood is diverted from the skin to vital organs, leaving the skin cool and clammy.",
+   "Not expected: rising urine output with a strong pulse suggests adequate or excess volume, not hypovolemia.",
+   "Not expected: blood pressure falls, not rises, in hypovolemic shock; a calm mood does not fit poor brain perfusion.",
+   "Expected: restlessness and anxiety are early signs that the brain is receiving too little blood and oxygen."
+  ],
+  "strategy": "Recognizing cues of shock",
+  "difficulty": 2,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-01-c",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP3",
+  "topic": "Postoperative complications",
+  "topicId": "medical-surgical-nursing/perioperative-nursing/phases-of-operation",
+  "noteId": "np3-ho-postop-respiratory-complications",
+  "clusterId": "cp-np3-01",
+  "clusterSeq": 3,
+  "vignette": "Mang Ramon Dela Cruz, 62, is on postoperative day 1 after an open bowel resection on a surgical ward of a provincial hospital. At the start of the shift he was alert and comfortable. Two hours later he is restless and pale, his skin is cool and clammy, his pulse is faster and weaker than before, and his blood pressure is lower than earlier readings. The abdominal dressing has new bright red staining that is slowly spreading.",
+  "stem": "Match each finding to the postoperative complication it most strongly suggests.",
+  "options": [],
+  "answer": [],
+  "rationale": "Each finding is a classic cue. Infection shows local inflammation and purulent drainage a few days after surgery. Atelectasis appears early with shallow breathing and reduced basal breath sounds. A one-sided painful, swollen, warm calf suggests a clot, and a full bladder with small frequent voids suggests retention with overflow.",
+  "rationaleSimple": "Pus and redness at the wound mean infection, weak lung bases mean atelectasis, a swollen painful calf means a clot, and a full bladder with tiny voids means retention.",
+  "optionRationales": [
+   "Wound infection: warmth, spreading redness, swelling and pus at the incision a few days after surgery are signs of local infection.",
+   "Atelectasis: shallow breathing with diminished basal breath sounds and mild fever early after surgery points to collapsed air sacs.",
+   "Deep vein thrombosis: pain, swelling and warmth in one calf suggest a clot in a deep vein.",
+   "Urinary retention: a full bladder with frequent small voids suggests the bladder is not emptying and is overflowing."
+  ],
+  "strategy": "Linking cues to complications",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "Day 3: warmth, swelling, spreading redness, and pus-like drainage at the incision",
+   "Day 1: shallow breathing, diminished breath sounds at both lung bases, and a mild temperature rise",
+   "Pain, swelling, and warmth in one calf",
+   "Lower abdominal fullness, a palpable bladder, and frequent passing of only small amounts of urine"
+  ],
+  "columns": [
+   "Atelectasis",
+   "Wound infection",
+   "Deep vein thrombosis",
+   "Urinary retention"
+  ],
+  "rowAnswer": [
+   1,
+   0,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "cp-np3-01-d",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Postoperative teaching",
+  "topicId": "medical-surgical-nursing/perioperative-nursing/phases-of-operation",
+  "noteId": "np3-ho-periop-phases-classifications",
+  "clusterId": "cp-np3-01",
+  "clusterSeq": 4,
+  "vignette": "Mang Ramon Dela Cruz, 62, is on postoperative day 1 after an open bowel resection on a surgical ward of a provincial hospital. At the start of the shift he was alert and comfortable. Two hours later he is restless and pale, his skin is cool and clammy, his pulse is faster and weaker than before, and his blood pressure is lower than earlier readings. The abdominal dressing has new bright red staining that is slowly spreading.",
+  "stem": "Two days later Mang Ramon is stable. Which statement shows he understands how to prevent lung complications?",
+  "options": [
+   "I will stay flat in bed and avoid moving so my incision is not strained.",
+   "I will take quick, shallow breaths so that my incision hurts less.",
+   "I will hold a pillow over my incision when I breathe deeply and cough.",
+   "I will avoid coughing and swallow my secretions so that I can prevent pain."
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "Deep breathing and coughing keep the airways clear and the alveoli open after surgery. Splinting the incision with a pillow reduces pain and strain, so he can do both effectively. The other statements describe habits that increase the risk of atelectasis and pneumonia.",
+  "rationaleSimple": "Hugging a pillow over the wound while taking deep breaths and coughing keeps his lungs clear and eases the pain.",
+  "optionRationales": [
+   "Immobility promotes pooling of secretions and atelectasis.",
+   "Shallow breathing leaves the lung bases poorly expanded.",
+   "Best answer. Deep breathing and coughing keep the airways clear and the alveoli open after surgery.",
+   "Retained secretions can lead to atelectasis and pneumonia."
+  ],
+  "strategy": "Evaluating client teaching",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "imageSuggestion": {
+   "description": "Person using an incentive spirometer, showing the device with the piston and volume markings.",
+   "placement": "rationale",
+   "searchTerms": [
+    "incentive spirometer",
+    "incentive spirometry use",
+    "deep breathing exercise postoperative"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-01-e",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP3",
+  "topic": "Postoperative complications",
+  "topicId": "medical-surgical-nursing/perioperative-nursing/phases-of-operation",
+  "noteId": "np3-ho-postop-respiratory-complications",
+  "clusterId": "cp-np3-01",
+  "clusterSeq": 5,
+  "vignette": "Mang Ramon Dela Cruz, 62, is on postoperative day 1 after an open bowel resection on a surgical ward of a provincial hospital. At the start of the shift he was alert and comfortable. Two hours later he is restless and pale, his skin is cool and clammy, his pulse is faster and weaker than before, and his blood pressure is lower than earlier readings. The abdominal dressing has new bright red staining that is slowly spreading.",
+  "stem": "Choose the best word for each blank about preventing blood clots after surgery.\n\nTo lower the risk of clot formation after surgery, the nurse encourages early {{1}}, teaches leg exercises, maintains adequate {{2}}, and applies {{3}} as ordered.",
+  "options": [],
+  "answer": [],
+  "rationale": "Clots form when blood flow is slow, so activity, leg exercises, good hydration and compression devices all promote venous return. Bed rest, crossed legs, pillows under the knees, and fluid restriction either slow venous flow or thicken the blood, which raises the risk.",
+  "rationaleSimple": "Moving early, doing leg exercises, drinking enough, and wearing compression stockings help stop clots.",
+  "optionRationales": [
+   "Ambulation as ordered: moving the legs and walking keep blood flowing in the veins. Bed rest or crossed legs slow venous flow and raise clot risk.",
+   "Hydration: adequate fluids keep the blood from thickening. Fluid restriction or caffeine does not protect against clots.",
+   "Compression stockings or devices: they promote venous return in the legs. A pillow under the knees or tight thigh bandages can slow flow."
+  ],
+  "strategy": "Preventing thromboembolism",
+  "difficulty": 2,
+  "bloom": "recall",
+  "imageSuggestion": {
+   "description": "Lower legs wearing graduated compression (anti-embolism) stockings and a sequential compression device on a hospital bed.",
+   "placement": "rationale",
+   "searchTerms": [
+    "anti-embolism stockings",
+    "sequential compression device",
+    "compression stockings leg"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "blanks": [
+   {
+    "choices": [
+     "ambulation as ordered",
+     "prolonged bed rest",
+     "sitting with the legs crossed"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "hydration",
+     "fluid restriction",
+     "caffeine intake"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "compression stockings or devices",
+     "a pillow under the knees",
+     "tight bandages around the thighs only"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "cp-np3-02-a",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Informed consent",
+  "topicId": "medical-surgical-nursing/perioperative-nursing/perioperative-nursing-and-phases",
+  "noteId": "np3-ho-informed-consent-surgery",
+  "clusterId": "cp-np3-02",
+  "clusterSeq": 1,
+  "vignette": "Aling Cora Magsaysay, 58, is scheduled for an elective cholecystectomy later this morning at a tertiary hospital. She signed the consent form yesterday after a brief visit from the surgeon. While the nurse completes the preoperative checklist, she says, \"I only signed because everyone told me to. I still do not know what they will do or what could go wrong.\" She is also worried about pain and about how she will manage after waking up.",
+  "stem": "What is the most appropriate response by the nurse?",
+  "options": [
+   "Explain the operation, its risks and its alternatives in full, since the nurse knows the procedure well.",
+   "Reassure her that the operation is routine and that the signed form already protects her.",
+   "Ask a family member to confirm the decision for her because she seems anxious.",
+   "Listen to her concerns and tell the surgeon she needs more explanation before surgery proceeds."
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "Informed consent requires that the client understand the procedure, risks, benefits and alternatives, and the surgeon is responsible for providing that information. When a client says she does not understand, the nurse acts as her advocate, listens, and notifies the surgeon so the surgery waits until she can decide knowingly. Explaining the procedure herself would go beyond the nurse's role.",
+  "rationaleSimple": "The surgeon must explain the operation. If she does not understand, the nurse listens and tells the surgeon so she can decide knowingly.",
+  "optionRationales": [
+   "Giving the explanation needed for informed consent is the surgeon's responsibility, not the nurse's.",
+   "False reassurance does not resolve her lack of understanding, and a form signed without understanding is not valid informed consent.",
+   "She is the one entitled to decide for herself; a family member cannot consent in her place because she is anxious.",
+   "Best answer. Informed consent requires that the client understand the procedure, risks, benefits and alternatives, and the surgeon is responsible for providing that information."
+  ],
+  "strategy": "Client advocacy and consent",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-02-b",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP3",
+  "topic": "Preoperative checklist",
+  "topicId": "medical-surgical-nursing/perioperative-nursing/phases-of-operation",
+  "noteId": "np3-ho-periop-phases-classifications",
+  "clusterId": "cp-np3-02",
+  "clusterSeq": 2,
+  "vignette": "Aling Cora Magsaysay, 58, is scheduled for an elective cholecystectomy later this morning at a tertiary hospital. She signed the consent form yesterday after a brief visit from the surgeon. While the nurse completes the preoperative checklist, she says, \"I only signed because everyone told me to. I still do not know what they will do or what could go wrong.\" She is also worried about pain and about how she will manage after waking up.",
+  "stem": "Review the preoperative checklist note. Select the findings that must be corrected or reported before Aling Cora goes to the operating room.",
+  "options": [
+   "Client says she does not understand what will be done. ",
+   "Ate a full breakfast this morning although she was told to take nothing by mouth before surgery. ",
+   "Metal hairpins and a necklace are still in place. ",
+   "Asked to have the chaplain pray with her before surgery. "
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "rationale": "A client who does not understand the procedure has not given informed consent, food taken despite the fasting instruction raises the risk of aspiration under anesthesia, and metal hairpins and jewelry are removed according to the preoperative checklist. The request for the chaplain is a spiritual need that should be supported but is not a barrier to surgery.",
+  "rationaleSimple": "Not understanding the surgery, eating before surgery, and wearing hairpins and a necklace must be reported or fixed. Asking for the chaplain is fine.",
+  "optionRationales": [
+   "Must be corrected: a client who does not understand the procedure cannot give informed consent, so the surgeon must be told.",
+   "Must be reported: eating despite the fasting instruction raises the risk of aspiration under anesthesia, and the team must decide what to do.",
+   "Must be corrected: metal hairpins and jewelry are removed according to the checklist before surgery.",
+   "No barrier: a request for the chaplain is a spiritual need to support and does not delay surgery."
+  ],
+  "strategy": "Preoperative safety checks",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-02-c",
+  "v": 2,
+  "type": "sata",
+  "area": "NP3",
+  "topic": "Preoperative teaching",
+  "topicId": "medical-surgical-nursing/perioperative-nursing/perioperative-nursing-and-phases",
+  "noteId": "np3-ho-preop-assessment-teaching",
+  "clusterId": "cp-np3-02",
+  "clusterSeq": 3,
+  "vignette": "Aling Cora Magsaysay, 58, is scheduled for an elective cholecystectomy later this morning at a tertiary hospital. She signed the consent form yesterday after a brief visit from the surgeon. While the nurse completes the preoperative checklist, she says, \"I only signed because everyone told me to. I still do not know what they will do or what could go wrong.\" She is also worried about pain and about how she will manage after waking up.",
+  "stem": "Which topics belong in the nurse's preoperative teaching for Aling Cora? Select all that apply.",
+  "options": [
+   "Why food and drink are withheld before surgery",
+   "Leg exercises and early ambulation",
+   "A guarantee that the surgery will have no complications",
+   "How to rate and report pain so it can be treated",
+   "Diaphragmatic breathing, coughing, and splinting the incision",
+   "What to expect after surgery, such as an IV line, monitoring, and possible drains",
+   "A promise that she will have no pain at all after surgery"
+  ],
+  "answer": [
+   0,
+   1,
+   3,
+   4,
+   5
+  ],
+  "rationale": "Preoperative teaching prepares the client to take part in recovery: breathing and leg exercises, pain reporting, what the postoperative period looks like, and why fasting is necessary. Guaranteeing no complications and promising no pain at all are unrealistic and damage trust; risks and the surgical plan are discussed by the surgeon during the consent discussion.",
+  "rationaleSimple": "The nurse teaches breathing, leg exercises, pain reporting, what to expect, and why she must fast. Nobody can guarantee no complications or no pain.",
+  "optionRationales": [
+   "Include: knowing why she must not eat or drink helps her follow the fasting instruction and lowers the risk of aspiration.",
+   "Include: leg exercises and early walking help prevent blood clots after surgery.",
+   "Do not include: no one can guarantee no complications, and false reassurance damages trust.",
+   "Include: she should learn to rate and report pain so it can be treated promptly.",
+   "Include: breathing, coughing and splinting the incision help prevent lung complications and ease pain.",
+   "Include: knowing what to expect, such as an IV line, monitoring and drains, lessens anxiety.",
+   "Do not include: promising no pain is unrealistic; the plan is to control pain."
+  ],
+  "strategy": "Preoperative client teaching",
+  "difficulty": 2,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-02-d",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP3",
+  "topic": "Informed consent",
+  "topicId": "medical-surgical-nursing/perioperative-nursing/perioperative-nursing-and-phases",
+  "noteId": "np3-ho-informed-consent-surgery",
+  "clusterId": "cp-np3-02",
+  "clusterSeq": 4,
+  "vignette": "Aling Cora Magsaysay, 58, is scheduled for an elective cholecystectomy later this morning at a tertiary hospital. She signed the consent form yesterday after a brief visit from the surgeon. While the nurse completes the preoperative checklist, she says, \"I only signed because everyone told me to. I still do not know what they will do or what could go wrong.\" She is also worried about pain and about how she will manage after waking up.",
+  "stem": "Choose the best word for each blank about informed consent.\n\nThe {{1}} is responsible for explaining the procedure, risks, benefits, and alternatives. The nurse's role is to {{2}} the client's signature and confirm it was given voluntarily, and the consent must be signed {{3}} sedating preoperative medication is given.",
+  "options": [],
+  "answer": [],
+  "rationale": "The surgeon, who performs the procedure, must obtain informed consent. The nurse witnesses that the signature is genuine and voluntary and does not replace the explanation. Consent must be obtained while the client can think clearly, which means before sedation.",
+  "rationaleSimple": "The surgeon explains the operation, the nurse witnesses the signature, and consent is signed before any sedating medicine.",
+  "optionRationales": [
+   "Surgeon: the person who performs the procedure explains its risks, benefits and alternatives. A ward clerk or the nurse does not hold this responsibility.",
+   "Witness: the nurse confirms the signature is genuine and voluntary but does not replace the explanation or waive consent.",
+   "Before: consent must be signed while she can think clearly, so it comes before sedating medication."
+  ],
+  "strategy": "Legal and ethical aspects of consent",
+  "difficulty": 2,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "blanks": [
+   {
+    "choices": [
+     "surgeon",
+     "ward clerk",
+     "nurse"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "witness",
+     "replace",
+     "waive"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "before",
+     "after",
+     "at the same time as"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "cp-np3-02-e",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Preoperative teaching",
+  "topicId": "fundamentals/pain",
+  "noteId": "np3-ho-preop-assessment-teaching",
+  "clusterId": "cp-np3-02",
+  "clusterSeq": 5,
+  "vignette": "Aling Cora Magsaysay, 58, is scheduled for an elective cholecystectomy later this morning at a tertiary hospital. She signed the consent form yesterday after a brief visit from the surgeon. While the nurse completes the preoperative checklist, she says, \"I only signed because everyone told me to. I still do not know what they will do or what could go wrong.\" She is also worried about pain and about how she will manage after waking up.",
+  "stem": "Which statement by Aling Cora shows she understands how to report pain after surgery?",
+  "options": [
+   "I should tell the nurse when my pain starts so it can be treated before it becomes severe.",
+   "I should endure the pain for as long as I can so that I do not become dependent on pain medicine.",
+   "I should wait to ask for help until the pain becomes unbearable for me.",
+   "I should avoid telling the nurses about it so that I will not disturb them."
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "Pain that is reported early is easier to control, and good pain control lets the client breathe deeply, cough and move, which prevents complications. The other statements reflect myths and reluctance to report that lead to unrelieved pain.",
+  "rationaleSimple": "Telling the nurse early helps control pain sooner, and that helps her recover.",
+  "optionRationales": [
+   "Best answer. Pain that is reported early is easier to control, and good pain control lets the client breathe deeply, cough and move, which prevents complications.",
+   "Fear of dependence is a common myth; untreated pain slows recovery.",
+   "Waiting until pain is severe makes it harder to control.",
+   "Withholding reports leaves pain untreated and limits breathing and movement."
+  ],
+  "strategy": "Evaluating client understanding",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-03-a",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Bronchial asthma",
+  "topicId": "medical-surgical-nursing/respiratory/bronchial-asthma",
+  "noteId": "np3-cr-asthma",
+  "clusterId": "cp-np3-03",
+  "clusterSeq": 1,
+  "vignette": "Liza Santos, 24, comes to the rural health unit with her mother after two days of cough and chest tightness that began when she cleaned a dusty storeroom. She has had bronchial asthma since childhood. She sits leaning forward, can say only a few words at a time, has audible wheezing, and uses her neck muscles to breathe. Her reliever inhaler is in her bag.",
+  "stem": "What is the nurse's best first action?",
+  "options": [
+   "Place her flat on the examination table so she can rest her breathing muscles.",
+   "Complete a detailed history of her triggers and earlier attacks before giving any treatment.",
+   "Sit her upright, help her use her prescribed reliever inhaler, and stay with her.",
+   "Encourage her to drink a large glass of cold water to loosen the tightness in her chest."
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "Her short phrases, wheezing and neck-muscle use show an acute airway problem, and the airway and breathing take priority. Sitting upright eases breathing, and a prescribed rapid-acting reliever is the standard first treatment. Detailed history-taking can follow once she is breathing more easily.",
+  "rationaleSimple": "She is struggling to breathe, so sit her up and help her use her reliever inhaler first. Questions can wait.",
+  "optionRationales": [
+   "Lying flat makes breathing harder in respiratory distress.",
+   "History is important, but treatment of acute distress comes first.",
+   "Best answer. Her short phrases, wheezing and neck-muscle use show an acute airway problem, and the airway and breathing take priority.",
+   "Does not treat the narrowed airways and delays the reliever."
+  ],
+  "strategy": "Prioritizing airway and breathing",
+  "difficulty": 2,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-03-b",
+  "v": 2,
+  "type": "sata",
+  "area": "NP3",
+  "topic": "Bronchial asthma",
+  "topicId": "medical-surgical-nursing/respiratory/bronchial-asthma",
+  "noteId": "np3-cr-asthma",
+  "clusterId": "cp-np3-03",
+  "clusterSeq": 2,
+  "vignette": "Liza Santos, 24, comes to the rural health unit with her mother after two days of cough and chest tightness that began when she cleaned a dusty storeroom. She has had bronchial asthma since childhood. She sits leaning forward, can say only a few words at a time, has audible wheezing, and uses her neck muscles to breathe. Her reliever inhaler is in her bag.",
+  "stem": "Which findings would suggest that her asthma attack is becoming life-threatening? Select all that apply.",
+  "options": [
+   "Inability to speak more than a word or two",
+   "Bluish discoloration of the lips",
+   "A cough that brings up a small amount of clear sputum as the tightness eases",
+   "Exhaustion with weak, shallow breathing",
+   "Wheezing that fades or disappears while she remains in severe distress",
+   "Drowsiness or confusion",
+   "Easier speech in full sentences after the reliever"
+  ],
+  "answer": [
+   0,
+   1,
+   3,
+   4,
+   5
+  ],
+  "rationale": "A silent chest in a distressed client means very little air is moving. Drowsiness, confusion, blue lips and exhaustion show failing oxygenation and tiring breathing muscles, and speaking only a word or two shows severe airflow limitation. Easier speech and a productive cough after the reliever show improvement.",
+  "rationaleSimple": "Faint wheezing with bad distress, sleepiness, blue lips, and exhaustion are danger signs. Speaking easier is a good sign.",
+  "optionRationales": [
+   "Life-threatening: being able to say only a word or two shows severe airflow limitation.",
+   "Life-threatening: bluish lips show dangerously low oxygen.",
+   "Not life-threatening: a cough with a little clear sputum as tightness eases suggests improvement.",
+   "Life-threatening: exhaustion with weak, shallow breathing means the breathing muscles are tiring.",
+   "Life-threatening: wheezing that fades while distress continues means very little air is moving.",
+   "Life-threatening: drowsiness or confusion shows the brain is short of oxygen.",
+   "Not life-threatening: easier speech in full sentences after the reliever shows the attack is improving."
+  ],
+  "strategy": "Recognizing deterioration",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-03-c",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP3",
+  "topic": "Bronchial asthma",
+  "topicId": "medical-surgical-nursing/respiratory/bronchial-asthma",
+  "noteId": "np3-cr-asthma",
+  "clusterId": "cp-np3-03",
+  "clusterSeq": 3,
+  "vignette": "Liza Santos, 24, comes to the rural health unit with her mother after two days of cough and chest tightness that began when she cleaned a dusty storeroom. She has had bronchial asthma since childhood. She sits leaning forward, can say only a few words at a time, has audible wheezing, and uses her neck muscles to breathe. Her reliever inhaler is in her bag.",
+  "stem": "Classify each teaching point as belonging to quick-relief therapy or long-term control.",
+  "options": [],
+  "answer": [],
+  "rationale": "Reliever medicine acts quickly to open narrowed airways and must be available at all times. Controller therapy and trigger avoidance work over time to reduce inflammation and the number of attacks, so they continue even when the client feels well.",
+  "rationaleSimple": "Reliever medicine is for attacks and is always carried. Controller medicine and avoiding triggers are for everyday prevention.",
+  "optionRationales": [
+   "Quick-relief: the reliever is used at the first sign of wheezing or tightness to open narrowed airways fast.",
+   "Long-term control: controller therapy is taken regularly to reduce inflammation, even when there are no symptoms.",
+   "Long-term control: avoiding triggers lowers the number of attacks over time.",
+   "Quick-relief: the reliever must be carried at all times in case symptoms start suddenly."
+  ],
+  "strategy": "Teaching asthma self-management",
+  "difficulty": 2,
+  "bloom": "recall",
+  "imageSuggestion": {
+   "description": "Metered-dose inhaler used with a spacer and a peak flow meter laid side by side.",
+   "placement": "rationale",
+   "searchTerms": [
+    "metered dose inhaler spacer",
+    "peak flow meter",
+    "inhaler spacer technique"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "Use at the first sign of wheezing or chest tightness during an attack",
+   "Take regularly as prescribed even when there are no symptoms",
+   "Avoid known triggers such as dust and smoke",
+   "Carry at all times in case of sudden symptoms"
+  ],
+  "columns": [
+   "Quick-relief (rescue) use",
+   "Long-term control measure"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   1,
+   0
+  ]
+ },
+ {
+  "id": "cp-np3-03-d",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP3",
+  "topic": "Bronchial asthma",
+  "topicId": "medical-surgical-nursing/respiratory/bronchial-asthma",
+  "noteId": "np3-cr-asthma",
+  "clusterId": "cp-np3-03",
+  "clusterSeq": 4,
+  "vignette": "Liza Santos, 24, comes to the rural health unit with her mother after two days of cough and chest tightness that began when she cleaned a dusty storeroom. She has had bronchial asthma since childhood. She sits leaning forward, can say only a few words at a time, has audible wheezing, and uses her neck muscles to breathe. Her reliever inhaler is in her bag.",
+  "stem": "After the reliever treatment, select the parts of the follow-up note that show Liza still needs urgent medical attention.",
+  "options": [
+   "She is still using neck muscles to breathe. ",
+   "She can say only short phrases. ",
+   "Her cough has become looser. ",
+   "She is hard to keep awake and falls asleep while being spoken to. "
+  ],
+  "answer": [
+   0,
+   1,
+   3
+  ],
+  "rationale": "Persisting accessory-muscle use, speech limited to short phrases, and increasing sleepiness mean she has not responded adequately and may be tiring, so she needs urgent referral and emergency care. A looser cough alone is not a sign of danger.",
+  "rationaleSimple": "She still works hard to breathe, speaks in short phrases, and is sleepy, so she needs urgent help even though the wheeze is quieter.",
+  "optionRationales": [
+   "Needs urgent attention: continuing use of neck muscles shows she still works hard to breathe despite treatment.",
+   "Needs urgent attention: speech limited to short phrases shows severe airflow limitation remains.",
+   "Not a concern by itself: a looser cough does not show danger, and it does not outweigh the other findings.",
+   "Needs urgent attention: sleepiness suggests she is tiring or her oxygen is falling, which is ominous."
+  ],
+  "strategy": "Evaluating response to treatment",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-03-e",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Bronchial asthma",
+  "topicId": "medical-surgical-nursing/respiratory/bronchial-asthma",
+  "noteId": "np3-cr-asthma",
+  "clusterId": "cp-np3-03",
+  "clusterSeq": 5,
+  "vignette": "Liza Santos, 24, comes to the rural health unit with her mother after two days of cough and chest tightness that began when she cleaned a dusty storeroom. She has had bronchial asthma since childhood. She sits leaning forward, can say only a few words at a time, has audible wheezing, and uses her neck muscles to breathe. Her reliever inhaler is in her bag.",
+  "stem": "Before Liza goes home, which instruction is most important?",
+  "options": [
+   "Skip the controller medicine on days when you feel well, and restart it when symptoms return.",
+   "Seek emergency care promptly if the reliever does not help or is needed more and more often.",
+   "Use the reliever just once a day regardless of how severe your symptoms are.",
+   "Sweep and dust the storeroom yourself each day to keep the house clean after the attack."
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "A reliever that stops helping, or is needed more often, is a warning that the asthma is out of control and may become life-threatening, so prompt emergency care is essential. The other instructions would reduce control of asthma or expose her to triggers.",
+  "rationaleSimple": "If the reliever stops working or she needs it more and more, she should get emergency help quickly.",
+  "optionRationales": [
+   "Controller medicine works by regular use, even when the client feels well.",
+   "Best answer. A reliever that stops helping, or is needed more often, is a warning that the asthma is out of control and may become life-threatening, so prompt emergency care is essential.",
+   "Reliever use should match symptoms; limiting it can leave an attack untreated.",
+   "Dust is her known trigger, so cleaning it herself increases her exposure."
+  ],
+  "strategy": "Discharge teaching and safety netting",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-04-a",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Oxygen therapy safety",
+  "topicId": "fundamentals/oxygenation/oxygen",
+  "noteId": "gen-fb-oxygen-therapy",
+  "clusterId": "cp-np3-04",
+  "clusterSeq": 1,
+  "vignette": "Mang Estong Ramos, 68, a retired tobacco farmer, has long-standing chronic obstructive pulmonary disease (COPD) and has been prescribed home oxygen after a hospital admission. He and his wife will return to a small house in the barangay where she cooks on a wood-fired stove, and he admits he still smokes \"just one stick\" outside. The nurse is giving discharge teaching.",
+  "stem": "Which statement by the nurse is the most important safety message?",
+  "options": [
+   "Do not smoke, and keep the oxygen well away from the stove, flames, and any heat source.",
+   "Oxygen itself does not burn, so smoking beside the tank is safe if the window is open.",
+   "Keep the oxygen cylinder lying flat on the floor next to the stove so it is easy to reach.",
+   "Raise the flow whenever you feel more breathless so that your lungs recover faster."
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "Oxygen does not burn by itself but makes fires start easily and burn fiercely, so smoking and open flames near it are the main home hazards. Keeping the supply away from the wood stove and other heat sources is the priority safety message. Raising the flow independently is a separate danger, but it is not the safety hazard described by this household's habits.",
+  "rationaleSimple": "Oxygen feeds fire. No smoking, and keep it far from the stove and any flame.",
+  "optionRationales": [
+   "Best answer. Oxygen does not burn by itself but makes fires start easily and burn fiercely, so smoking and open flames near it are the main home hazards.",
+   "Oxygen strongly supports burning, so smoking or flames near it are fire hazards.",
+   "Cylinders must be secured upright and kept away from heat, not placed beside a stove.",
+   "Changing the flow without a prescription can be harmful and does not treat the cause of breathlessness."
+  ],
+  "strategy": "Home oxygen safety teaching",
+  "difficulty": 2,
+  "bloom": "apply",
+  "imageSuggestion": {
+   "description": "Home oxygen set-up with an oxygen concentrator or cylinder, tubing and a nasal cannula placed in a living room, with no signage.",
+   "placement": "situation",
+   "searchTerms": [
+    "oxygen concentrator",
+    "nasal cannula home oxygen",
+    "oxygen cylinder home"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-04-b",
+  "v": 2,
+  "type": "sata",
+  "area": "NP3",
+  "topic": "Oxygen therapy safety",
+  "topicId": "fundamentals/oxygenation/oxygen",
+  "noteId": "gen-fb-oxygen-therapy",
+  "clusterId": "cp-np3-04",
+  "clusterSeq": 2,
+  "vignette": "Mang Estong Ramos, 68, a retired tobacco farmer, has long-standing chronic obstructive pulmonary disease (COPD) and has been prescribed home oxygen after a hospital admission. He and his wife will return to a small house in the barangay where she cooks on a wood-fired stove, and he admits he still smokes \"just one stick\" outside. The nurse is giving discharge teaching.",
+  "stem": "Which instructions should the nurse include in the teaching about home oxygen? Select all that apply.",
+  "options": [
+   "Arrange the tubing so that it is not a tripping hazard.",
+   "Keep the cylinder upright and secured so it cannot fall.",
+   "Keep the equipment away from the cooking stove and other heat.",
+   "Use the flow rate and hours that were prescribed and do not change them without advice.",
+   "Increase the flow during the night in case oxygen levels fall.",
+   "Do not allow smoking by anyone in the room where oxygen is used.",
+   "Apply petroleum jelly to the lips and nostrils if they feel dry."
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3,
+   5
+  ],
+  "rationale": "Home oxygen teaching centers on fire prevention, preventing the cylinder from falling, using the prescribed dose, and avoiding falls over tubing. Petroleum products are flammable and should not be used on or near the face; a water-based lubricant is safer. Self-adjusting the flow is unsafe because oxygen is a prescribed treatment.",
+  "rationaleSimple": "No smoking, secure the cylinder upright, use only the prescribed flow, avoid trip hazards, and keep away from heat. No petroleum jelly, and never change the flow alone.",
+  "optionRationales": [
+   "Include: tubing across the floor is a tripping hazard, and a fall can injure an already weak client.",
+   "Include: an unsecured cylinder can fall and be damaged or hurt someone.",
+   "Include: oxygen supports burning, so equipment must be kept away from the stove and other heat.",
+   "Include: oxygen is a prescribed treatment, so the flow and hours should not be changed without advice.",
+   "Do not include: raising the flow without advice is unsafe because too much oxygen can be harmful in some chronic lung disease.",
+   "Include: smoking near oxygen is a fire and explosion risk.",
+   "Do not include: petroleum jelly is flammable and should not be used near oxygen; a water-based lubricant is safer."
+  ],
+  "strategy": "Home oxygen safety teaching",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-04-c",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP3",
+  "topic": "COPD",
+  "topicId": "medical-surgical-nursing/respiratory/copd",
+  "noteId": "np3-cr-copd-types",
+  "clusterId": "cp-np3-04",
+  "clusterSeq": 3,
+  "vignette": "Mang Estong Ramos, 68, a retired tobacco farmer, has long-standing chronic obstructive pulmonary disease (COPD) and has been prescribed home oxygen after a hospital admission. He and his wife will return to a small house in the barangay where she cooks on a wood-fired stove, and he admits he still smokes \"just one stick\" outside. The nurse is giving discharge teaching.",
+  "stem": "Choose the best word for each blank about COPD and oxygen.\n\nOxygen is treated like a medicine, so Mang Estong should use the flow rate and hours that were {{1}}. If he becomes unusually {{2}} or has a morning headache or confusion, his family should {{3}}.",
+  "options": [],
+  "answer": [],
+  "rationale": "Oxygen is prescribed for a specific flow and duration. In some people with chronic lung disease, too much oxygen can lead to carbon dioxide retention, causing drowsiness, headache and confusion, which need prompt medical review rather than a change in flow by the family.",
+  "rationaleSimple": "Use oxygen exactly as prescribed. If he becomes very sleepy, has headaches, or is confused, get medical help.",
+  "optionRationales": [
+   "Prescribed: oxygen is treated like a medicine with a set dose. His own preference or neighbors' advice is not a safe basis for dosing.",
+   "Drowsy: unusual sleepiness can mean carbon dioxide is building up. Hunger or talkativeness would not point to this problem.",
+   "Seek medical help promptly: new drowsiness, headache or confusion needs medical review. Raising the flow or ignoring it can make things worse."
+  ],
+  "strategy": "Recognizing oxygen-related complications",
+  "difficulty": 3,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "blanks": [
+   {
+    "choices": [
+     "prescribed",
+     "preferred by him",
+     "suggested by neighbors"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "drowsy",
+     "hungry",
+     "talkative"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "seek medical help promptly",
+     "raise the flow until he is alert",
+     "ignore it as normal tiredness"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "cp-np3-04-d",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Oxygen therapy",
+  "topicId": "fundamentals/oxygenation/oxygen",
+  "noteId": "gen-fb-oxygen-therapy",
+  "clusterId": "cp-np3-04",
+  "clusterSeq": 4,
+  "vignette": "Mang Estong Ramos, 68, a retired tobacco farmer, has long-standing chronic obstructive pulmonary disease (COPD) and has been prescribed home oxygen after a hospital admission. He and his wife will return to a small house in the barangay where she cooks on a wood-fired stove, and he admits he still smokes \"just one stick\" outside. The nurse is giving discharge teaching.",
+  "stem": "Mang Estong asks why he cannot simply turn the oxygen higher when he is breathless. Which response is best?",
+  "options": [
+   "A higher flow would empty the cylinder too quickly and your family would need to refill it more often.",
+   "A higher flow would dry out your nose and cause nosebleeds, so it must be kept low.",
+   "Only the doctor is allowed to touch the equipment, so you must leave the settings alone.",
+   "Extra oxygen can harm some people with lung disease, so we keep the prescribed flow and add rest and breathing techniques."
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "In some people with chronic lung disease, extra oxygen can reduce the drive to breathe and lead to carbon dioxide retention, so the dose is set carefully by the prescriber. The best response explains the reason in simple terms and offers alternatives such as rest and breathing techniques. The other responses give an inaccurate or incomplete reason, or do not teach.",
+  "rationaleSimple": "Too much oxygen can be harmful for some people with long-term lung disease, so he should keep to the prescribed flow and use rest and breathing techniques.",
+  "optionRationales": [
+   "Cost and supply are not the main reason, and the answer ignores the clinical risk.",
+   "Dryness may occur but is not the key safety issue.",
+   "Does not explain the reason or teach him what to do when breathless.",
+   "Best answer. In some people with chronic lung disease, extra oxygen can reduce the drive to breathe and lead to carbon dioxide retention, so the dose is set carefully by the prescriber."
+  ],
+  "strategy": "Therapeutic communication and teaching",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-04-e",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP3",
+  "topic": "COPD",
+  "topicId": "medical-surgical-nursing/respiratory/copd",
+  "noteId": "np3-cr-copd-types",
+  "clusterId": "cp-np3-04",
+  "clusterSeq": 5,
+  "vignette": "Mang Estong Ramos, 68, a retired tobacco farmer, has long-standing chronic obstructive pulmonary disease (COPD) and has been prescribed home oxygen after a hospital admission. He and his wife will return to a small house in the barangay where she cooks on a wood-fired stove, and he admits he still smokes \"just one stick\" outside. The nurse is giving discharge teaching.",
+  "stem": "Classify each situation as usual for COPD or needing prompt medical attention.",
+  "options": [],
+  "answer": [],
+  "rationale": "COPD commonly causes a chronic morning cough and exertional breathlessness that eases with rest. A sudden worsening with sputum change and fever suggests an infection or exacerbation, new confusion and sleepiness may indicate carbon dioxide retention or low oxygen, and breathlessness not relieved by usual measures needs prompt review.",
+  "rationaleSimple": "A morning cough and tiredness on exertion are common. Sudden worsening, fever, confusion, or breathlessness that does not ease need quick help.",
+  "optionRationales": [
+   "Usual: a chronic morning cough with a little sputum is common in COPD.",
+   "Needs attention: sudden worse breathlessness with sputum change and fever suggests infection or an exacerbation.",
+   "Usual: mild breathlessness on exertion that eases with rest is typical of COPD.",
+   "Needs attention: new confusion and extreme sleepiness may mean carbon dioxide retention or low oxygen.",
+   "Needs attention: breathlessness not relieved by usual measures needs prompt review."
+  ],
+  "strategy": "Recognizing exacerbation",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "Chronic cough with a small amount of sputum most mornings",
+   "Sudden worse breathlessness with a change in sputum color and fever",
+   "Mild breathlessness on climbing stairs that eases with rest",
+   "New confusion and extreme sleepiness",
+   "Breathlessness not relieved by the usual measures"
+  ],
+  "columns": [
+   "Usual with COPD",
+   "Needs prompt medical attention"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   0,
+   1,
+   1
+  ]
+ },
+ {
+  "id": "cp-np3-05-a",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Chest tube drainage",
+  "topicId": "medical-surgical-nursing/respiratory/chest-tube",
+  "noteId": "np3-cr-pneumothorax-mgmt",
+  "clusterId": "cp-np3-05",
+  "clusterSeq": 1,
+  "vignette": "Jun Reyes, 30, was admitted to a district hospital after a motorcycle crash caused a right-sided pneumothorax. A chest tube was inserted and connected to a water-seal drainage system, and he is receiving prescribed analgesia. During rounds, the nurse finds the chest dressing dry and intact, and the water in the water-seal chamber moves up and down as he breathes.",
+  "stem": "Which finding about the drainage system is expected and requires no action?",
+  "options": [
+   "A dependent loop of tubing hanging below the bed with drainage pooled in it",
+   "Rise and fall of the water level in the water-seal chamber with each breath",
+   "Drainage tubing clamped close to the chest wall by a visitor to stop the noise",
+   "Drainage unit lifted above the level of his chest while he is repositioned"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "Fluctuation of the water level with breathing (tidaling) shows the tube is open and connected to the pleural space, so it is an expected finding. A dependent loop can block drainage, an unauthorized clamp can let air build up under pressure, and raising the unit above the chest can let fluid or air flow back toward the lung.",
+  "rationaleSimple": "Water moving up and down with each breath is normal. A loop of tubing with pooled fluid, a clamp, or a unit held above the chest are problems.",
+  "optionRationales": [
+   "Pooled fluid in a dependent loop can block drainage; tubing should run without loops.",
+   "Best answer. Fluctuation of the water level with breathing (tidaling) shows the tube is open and connected to the pleural space, so it is an expected finding.",
+   "Clamping can trap air and cause a tension pneumothorax.",
+   "Raising the unit above the chest can let fluid or air flow back toward the lung."
+  ],
+  "strategy": "Interpreting chest tube drainage findings",
+  "difficulty": 3,
+  "bloom": "recall",
+  "imageSuggestion": {
+   "description": "Three-chamber chest drainage system (collection chamber, water-seal chamber, suction control chamber) attached to a chest tube, shown without captions.",
+   "placement": "stem",
+   "searchTerms": [
+    "chest drainage system",
+    "water seal chest tube",
+    "pleural drainage unit"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-05-b",
+  "v": 2,
+  "type": "sata",
+  "area": "NP3",
+  "topic": "Chest tube care",
+  "topicId": "medical-surgical-nursing/respiratory/chest-tube",
+  "noteId": "np3-cr-pneumothorax-mgmt",
+  "clusterId": "cp-np3-05",
+  "clusterSeq": 2,
+  "vignette": "Jun Reyes, 30, was admitted to a district hospital after a motorcycle crash caused a right-sided pneumothorax. A chest tube was inserted and connected to a water-seal drainage system, and he is receiving prescribed analgesia. During rounds, the nurse finds the chest dressing dry and intact, and the water in the water-seal chamber moves up and down as he breathes.",
+  "stem": "Which nursing actions are appropriate for chest tube care? Select all that apply.",
+  "options": [
+   "Clamp the tube whenever the client is moved, without an order.",
+   "Strip or milk the tubing routinely every hour.",
+   "Keep the drainage system upright and below chest level.",
+   "Raise the unit above the chest during position changes.",
+   "Keep tubing free of kinks and dependent loops.",
+   "Assess respiratory status and breath sounds regularly.",
+   "Record the amount and character of drainage as per policy.",
+   "Encourage deep breathing and coughing with adequate pain control."
+  ],
+  "answer": [
+   2,
+   4,
+   5,
+   6,
+   7
+  ],
+  "rationale": "Chest tube care focuses on keeping the system closed, upright, and below the chest, keeping the tubing free so air and fluid can leave, monitoring breathing and drainage, and promoting lung expansion. Routine stripping, unordered clamping, and raising the unit can raise pleural pressure or allow backflow and are not safe practice.",
+  "rationaleSimple": "Keep the unit upright and low, tubing unkinked, watch breathing and drainage, and help him breathe deeply. Do not strip, clamp, or raise the unit without an order.",
+  "optionRationales": [
+   "Wrong: clamping without an order can trap air and raise pressure in the chest. Check your textbook and local policy for when clamping is allowed.",
+   "Wrong: routine stripping or milking can create strong suction and is not routine practice. Check your textbook and local policy.",
+   "Right: an upright system below the chest keeps drainage flowing away from the client.",
+   "Wrong: raising the unit above the chest lets fluid flow back toward the pleural space.",
+   "Right: kinks and dependent loops block drainage, so tubing is kept free.",
+   "Right: breath sounds and breathing show whether the lung is re-expanding or a problem is developing.",
+   "Right: the amount and character of drainage show healing or bleeding and are recorded as the policy requires.",
+   "Right: deep breathing and coughing help re-expand the lung, and pain control makes them possible."
+  ],
+  "strategy": "Chest tube nursing care",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-05-c",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP3",
+  "topic": "Chest tube care",
+  "topicId": "medical-surgical-nursing/respiratory/chest-tube",
+  "noteId": "np3-cr-pneumothorax-mgmt",
+  "clusterId": "cp-np3-05",
+  "clusterSeq": 3,
+  "vignette": "Jun Reyes, 30, was admitted to a district hospital after a motorcycle crash caused a right-sided pneumothorax. A chest tube was inserted and connected to a water-seal drainage system, and he is receiving prescribed analgesia. During rounds, the nurse finds the chest dressing dry and intact, and the water in the water-seal chamber moves up and down as he breathes.",
+  "stem": "Later in the shift, select the findings in the nurse's note that need immediate action.",
+  "options": [
+   "Drainage is serous in a small amount over the last hour. ",
+   "The chest tube is found disconnected from the drainage tubing. ",
+   "Client reports sudden shortness of breath and chest pain. ",
+   "Breath sounds are now absent on the right side. ",
+   "Pain is moderate before the next analgesic. "
+  ],
+  "answer": [
+   1,
+   2,
+   3
+  ],
+  "rationale": "A disconnected tube can allow air into the pleural space, and sudden breathlessness, chest pain, and absent breath sounds on the affected side suggest the lung may have collapsed again. These findings require immediate action and a call for help. Small serous drainage is expected, and moderate pain should be treated but is not the emergency.",
+  "rationaleSimple": "A disconnected tube with sudden breathlessness and no breath sounds on that side is an emergency. Small clear drainage and moderate pain are less urgent.",
+  "optionRationales": [
+   "Expected: a small amount of serous drainage is expected and needs no emergency action.",
+   "Immediate action: a disconnected tube can let air enter the pleural space and the lung may collapse. Check your textbook and local policy for the exact steps.",
+   "Immediate action: sudden breathlessness with chest pain may mean the lung has collapsed again.",
+   "Immediate action: absent breath sounds on the affected side suggest the lung is not inflated.",
+   "Not the emergency: moderate pain should be treated but it is less urgent than a possible collapsed lung."
+  ],
+  "strategy": "Recognizing chest tube complications",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-05-d",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP3",
+  "topic": "Chest tube care",
+  "topicId": "medical-surgical-nursing/respiratory/chest-tube",
+  "noteId": "np3-cr-pneumothorax-mgmt",
+  "clusterId": "cp-np3-05",
+  "clusterSeq": 4,
+  "vignette": "Jun Reyes, 30, was admitted to a district hospital after a motorcycle crash caused a right-sided pneumothorax. A chest tube was inserted and connected to a water-seal drainage system, and he is receiving prescribed analgesia. During rounds, the nurse finds the chest dressing dry and intact, and the water in the water-seal chamber moves up and down as he breathes.",
+  "stem": "Choose the best word for each blank about chest tube drainage.\n\nA chest tube removes {{1}} and fluid from the pleural space so the lung can {{2}}. A basic drainage system relies on gravity and a one-way {{3}}, which is why the unit stays below the chest.",
+  "options": [],
+  "answer": [],
+  "rationale": "The pleural space should contain no air and little fluid, so removing both allows the lung to re-expand against the chest wall. The water seal acts as a one-way valve so air can leave but not re-enter, and gravity drainage needs the unit to stay lower than the chest.",
+  "rationaleSimple": "The tube drains air and fluid so the lung can expand again. A water seal keeps air from going back in.",
+  "optionRationales": [
+   "Air: the pleural space should hold no air, so the tube removes air as well as fluid. Bile and urine do not belong there.",
+   "Re-expand: once air and fluid are out, the lung can expand against the chest wall. Shrinking or collapsing is the problem being treated.",
+   "Water seal: it is a one-way valve that lets air leave but not re-enter. A clamp or filter does not serve this role."
+  ],
+  "strategy": "Understanding chest drainage principles",
+  "difficulty": 2,
+  "bloom": "recall",
+  "imageSuggestion": {
+   "description": "Labelled diagram of a three-chamber chest drainage system showing the water seal, suction control and collection chambers and the direction of air and fluid flow.",
+   "placement": "rationale",
+   "searchTerms": [
+    "chest drainage system diagram",
+    "chest tube water seal tidaling",
+    "pleur-evac"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "blanks": [
+   {
+    "choices": [
+     "air",
+     "bile",
+     "urine"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "re-expand",
+     "shrink",
+     "collapse"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "water seal",
+     "clamp",
+     "filter"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "cp-np3-05-e",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Chest tube care",
+  "topicId": "medical-surgical-nursing/respiratory/chest-tube",
+  "noteId": "np3-cr-pneumothorax-mgmt",
+  "clusterId": "cp-np3-05",
+  "clusterSeq": 5,
+  "vignette": "Jun Reyes, 30, was admitted to a district hospital after a motorcycle crash caused a right-sided pneumothorax. A chest tube was inserted and connected to a water-seal drainage system, and he is receiving prescribed analgesia. During rounds, the nurse finds the chest dressing dry and intact, and the water in the water-seal chamber moves up and down as he breathes.",
+  "stem": "Jun needs to be transferred to the radiology department. What should the nurse do?",
+  "options": [
+   "Clamp the chest tube close to the chest wall and keep it clamped for the whole trip.",
+   "Place the drainage unit on the stretcher beside his shoulder so that it travels with him.",
+   "Keep the system upright and below chest level, with the tubing unkinked and secured.",
+   "Disconnect the tube from the unit to make the transfer easier, then reconnect it later."
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "Safe transport keeps the closed system intact, upright and lower than the chest, with tubing secured and free of kinks. Clamping, disconnecting, or raising the unit each risk trapping air, letting air in, or causing backflow.",
+  "rationaleSimple": "Keep the drainage unit upright and below his chest during the move. Do not clamp or disconnect it.",
+  "optionRationales": [
+   "Clamping can trap air under pressure unless specifically ordered.",
+   "A unit at or above chest level can let fluid or air flow back toward the lung.",
+   "Best answer. Safe transport keeps the closed system intact, upright and lower than the chest, with tubing secured and free of kinks.",
+   "Disconnection opens the pleural space to the atmosphere."
+  ],
+  "strategy": "Safe transport of a client with a chest tube",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-06-a",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Fluid volume deficit",
+  "topicId": "medical-surgical-nursing/fluids-electrolytes-and-acid-base/iv-fluids",
+  "noteId": "np3-er-fvd",
+  "clusterId": "cp-np3-06",
+  "clusterSeq": 1,
+  "vignette": "Lola Pacing Villaruz, 74, is admitted to a municipal hospital after three days of vomiting and watery stools. She is weak, her mouth is dry, her skin stays tented when pinched, and she passes only small amounts of dark urine. Her pulse is fast, and her blood pressure is lower than her usual. She has mild heart disease. Intravenous fluids have been ordered.",
+  "stem": "Which nursing measure best allows the nurse to evaluate whether rehydration is working?",
+  "options": [
+   "Monitor her intake and output, urine amount and color, vital signs, and mental status regularly.",
+   "Weigh her once a week and compare the result with her admission weight to see the trend.",
+   "Check her temperature alone, since fever is the best sign of her fluid status.",
+   "Wait for the next set of laboratory results before making any reassessment of her fluid status."
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "Improving urine output and color, steadier vital signs, and clearer mental status show that circulating volume is recovering, and continued monitoring also reveals overload, which is a risk in an older woman with heart disease. A single isolated measure or a long wait is not sufficient to evaluate fluid therapy.",
+  "rationaleSimple": "Watch how much goes in and out, her urine, vital signs, and alertness often. That shows if fluids are helping.",
+  "optionRationales": [
+   "Best answer. Improving urine output and color, steadier vital signs, and clearer mental status show that circulating volume is recovering, and continued monitoring also reveals overload, which is a risk in an older woman with heart disease.",
+   "Weekly weights are too infrequent for acute fluid changes.",
+   "Temperature alone does not reflect hydration status.",
+   "Waiting delays recognition of improvement or of fluid overload."
+  ],
+  "strategy": "Monitoring fluid therapy",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-06-b",
+  "v": 2,
+  "type": "sata",
+  "area": "NP3",
+  "topic": "Fluid volume deficit",
+  "topicId": "medical-surgical-nursing/fluids-electrolytes-and-acid-base/iv-fluids",
+  "noteId": "np3-er-fvd",
+  "clusterId": "cp-np3-06",
+  "clusterSeq": 2,
+  "vignette": "Lola Pacing Villaruz, 74, is admitted to a municipal hospital after three days of vomiting and watery stools. She is weak, her mouth is dry, her skin stays tented when pinched, and she passes only small amounts of dark urine. Her pulse is fast, and her blood pressure is lower than her usual. She has mild heart disease. Intravenous fluids have been ordered.",
+  "stem": "Which findings are consistent with fluid volume deficit? Select all that apply.",
+  "options": [
+   "Intense thirst",
+   "Dry mucous membranes",
+   "Rapid, weak pulse",
+   "Dizziness when changing position",
+   "Bounding pulse with distended neck veins",
+   "Poor skin turgor",
+   "Small amounts of concentrated dark urine",
+   "Crackles in the lungs with shortness of breath"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3,
+   5,
+   6
+  ],
+  "rationale": "Dehydration reduces circulating volume, leading to dry mucous membranes, poor skin turgor, scant concentrated urine, a fast weak pulse, orthostatic dizziness and thirst. A bounding pulse, distended neck veins and lung crackles point toward fluid excess, not deficit.",
+  "rationaleSimple": "A dry mouth, tented skin, little dark urine, a fast weak pulse, dizziness, and thirst fit dehydration. A bounding pulse, neck vein distention, and crackles mean too much fluid.",
+  "optionRationales": [
+   "Deficit: thirst is the body's response to low fluid volume.",
+   "Deficit: dry mucous membranes show too little body water.",
+   "Deficit: the heart beats faster to compensate, and the pulse is weak because volume is low.",
+   "Deficit: low volume causes blood pressure to drop on standing, causing dizziness.",
+   "Excess, not deficit: a bounding pulse with distended neck veins shows too much volume.",
+   "Deficit: poor skin turgor shows loss of tissue fluid.",
+   "Deficit: the kidneys conserve water, so urine is scant and dark.",
+   "Excess, not deficit: crackles and breathlessness show fluid in the lungs."
+  ],
+  "strategy": "Recognizing fluid imbalance",
+  "difficulty": 2,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-06-c",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP3",
+  "topic": "Fluid volume imbalance",
+  "topicId": "medical-surgical-nursing/fluids-electrolytes-and-acid-base/iv-fluids",
+  "noteId": "np3-er-fvd",
+  "clusterId": "cp-np3-06",
+  "clusterSeq": 3,
+  "vignette": "Lola Pacing Villaruz, 74, is admitted to a municipal hospital after three days of vomiting and watery stools. She is weak, her mouth is dry, her skin stays tented when pinched, and she passes only small amounts of dark urine. Her pulse is fast, and her blood pressure is lower than her usual. She has mild heart disease. Intravenous fluids have been ordered.",
+  "stem": "Classify each finding as suggesting fluid volume deficit or fluid volume excess.",
+  "options": [],
+  "answer": [],
+  "rationale": "Fluid deficit shows low circulating volume: flat neck veins, a weak pulse, thirst and scant concentrated urine. Fluid excess shows too much volume: rapid weight gain, edema, lung crackles, a bounding pulse and distended neck veins, an important risk during IV therapy in clients with heart disease.",
+  "rationaleSimple": "Too little fluid gives dry signs and weak pulse. Too much gives swelling, crackles, and a bounding pulse.",
+  "optionRationales": [
+   "Excess: sudden weight gain and ankle swelling show the body is holding fluid.",
+   "Deficit: flat neck veins and a weak, thready pulse show low circulating volume.",
+   "Excess: crackles and breathlessness during an infusion suggest fluid overload in the lungs.",
+   "Deficit: dark, scant urine with thirst shows the body is conserving water.",
+   "Excess: a bounding pulse and distended neck veins show too much volume."
+  ],
+  "strategy": "Differentiating deficit from excess",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "Sudden weight gain with swelling of the ankles",
+   "Flat neck veins and a weak, thready pulse",
+   "Crackles in the lungs and shortness of breath during an infusion",
+   "Dark urine in small amounts with thirst",
+   "Bounding pulse and distended neck veins"
+  ],
+  "columns": [
+   "Fluid volume deficit",
+   "Fluid volume excess"
+  ],
+  "rowAnswer": [
+   1,
+   0,
+   1,
+   0,
+   1
+  ]
+ },
+ {
+  "id": "cp-np3-06-d",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "IV therapy safety",
+  "topicId": "medical-surgical-nursing/fluids-electrolytes-and-acid-base/iv-fluids",
+  "noteId": "gen-fb-iv-complications",
+  "clusterId": "cp-np3-06",
+  "clusterSeq": 4,
+  "vignette": "Lola Pacing Villaruz, 74, is admitted to a municipal hospital after three days of vomiting and watery stools. She is weak, her mouth is dry, her skin stays tented when pinched, and she passes only small amounts of dark urine. Her pulse is fast, and her blood pressure is lower than her usual. She has mild heart disease. Intravenous fluids have been ordered.",
+  "stem": "During the infusion, Lola reports pain and swelling at the IV site, and the area is cool and tight. What should the nurse do first?",
+  "options": [
+   "Slow the infusion rate and recheck the site again in thirty minutes to see if it settles.",
+   "Stop the infusion, then assess the site and follow policy for removing the catheter.",
+   "Flush the catheter with extra fluid to clear a possible blockage in the line.",
+   "Apply a compress to the site and keep the infusion running while the area settles."
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "Pain, swelling and a cool, tight site are signs of infiltration, where fluid is entering surrounding tissue. The first step is to stop the infusion to prevent further tissue damage, followed by assessment, removal of the catheter, and notifying the provider as per policy.",
+  "rationaleSimple": "Cool, swollen, and painful at the IV site means the fluid is leaking into tissue. Stop the infusion first.",
+  "optionRationales": [
+   "Continuing the infusion, even slowly, pushes more fluid into the tissues.",
+   "Best answer. Pain, swelling and a cool, tight site are signs of infiltration, where fluid is entering surrounding tissue.",
+   "Flushing can push more fluid into the tissues.",
+   "Leaving the infusion running continues to deliver fluid into the tissues."
+  ],
+  "strategy": "Responding to IV complications",
+  "difficulty": 3,
+  "bloom": "apply",
+  "imageSuggestion": {
+   "description": "Photograph of a forearm with a peripheral IV cannula and a swollen, taut area around the insertion site, shown without a caption.",
+   "placement": "stem",
+   "searchTerms": [
+    "IV infiltration",
+    "peripheral IV cannula swelling",
+    "intravenous infiltration site"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-06-e",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP3",
+  "topic": "IV therapy safety",
+  "topicId": "medical-surgical-nursing/fluids-electrolytes-and-acid-base/iv-fluids",
+  "noteId": "gen-fb-iv-complications",
+  "clusterId": "cp-np3-06",
+  "clusterSeq": 5,
+  "vignette": "Lola Pacing Villaruz, 74, is admitted to a municipal hospital after three days of vomiting and watery stools. She is weak, her mouth is dry, her skin stays tented when pinched, and she passes only small amounts of dark urine. Her pulse is fast, and her blood pressure is lower than her usual. She has mild heart disease. Intravenous fluids have been ordered.",
+  "stem": "Choose the best word for each blank about safe IV therapy.\n\nBefore starting an IV fluid, the nurse checks the {{1}} against the prescription, inspects the solution for {{2}}, and uses {{3}} technique when connecting the set.",
+  "options": [],
+  "answer": [],
+  "rationale": "The right solution, as shown on the label and matched to the prescription, is a basic medication safety check. Cloudiness, particles or leaks mean the solution should not be used, and aseptic technique prevents bloodstream infection.",
+  "rationaleSimple": "Check the label against the order, look for cloudiness or particles, and keep everything clean using aseptic technique.",
+  "optionRationales": [
+   "Label of the solution: matching the label to the prescription confirms the right solution. Bag color or tubing brand does not.",
+   "Cloudiness or particles: these mean the solution may be contaminated and should not be used. Aroma and temperature are not the check.",
+   "Aseptic: this technique prevents bloodstream infection when connecting the set. Rapid or one-handed is not a safety standard."
+  ],
+  "strategy": "Medication and IV safety",
+  "difficulty": 2,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "blanks": [
+   {
+    "choices": [
+     "label of the solution",
+     "color of the bag",
+     "brand of the tubing"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "cloudiness or particles",
+     "aroma",
+     "temperature"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "aseptic",
+     "rapid",
+     "one-handed"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "cp-np3-07-a",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Myocardial infarction",
+  "topicId": "medical-surgical-nursing/cardiovascular/mi",
+  "noteId": "np3-cr-mi-assessment",
+  "clusterId": "cp-np3-07",
+  "clusterSeq": 1,
+  "vignette": "Efren Villanueva, 55, a jeepney driver with hypertension and a long smoking history, arrives at the emergency department of a tertiary hospital. He reports heavy, crushing pain behind the breastbone that spreads to his left arm and jaw and has lasted about thirty minutes. Rest has not relieved it. He is pale, sweating, nauseated, and frightened.",
+  "stem": "What is the nurse's priority action for Mr. Villanueva on arrival?",
+  "options": [
+   "Take a detailed history of his smoking, diet and family illnesses before starting any treatment.",
+   "Ask him to walk to the examination room, where the ECG machine, a bed and the staff are ready.",
+   "Give him a full glass of water to settle his nausea and ease his dry mouth, then reassess him.",
+   "Keep him at rest, stay with him, get vital signs and a 12-lead ECG per protocol, and call the physician."
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "Pain of this kind suggests an acute myocardial infarction, a time-critical emergency. The nurse should minimize oxygen demand by keeping him at rest, stay with him, obtain vital signs and an ECG per protocol, and call the physician at once. Walking, drinking, or a long history all delay recognition and treatment.",
+  "rationaleSimple": "This may be a heart attack. Keep him resting, stay with him, get an ECG and vital signs, and call the doctor right away.",
+  "optionRationales": [
+   "History is useful later; delay in assessment and treatment costs heart muscle.",
+   "Exertion increases the heart's oxygen demand.",
+   "Oral intake does not address possible cardiac ischemia and may be unsafe if procedures are needed.",
+   "Best answer. Pain of this kind suggests an acute myocardial infarction, a time-critical emergency."
+  ],
+  "strategy": "Prioritizing care in suspected MI",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-07-b",
+  "v": 2,
+  "type": "sata",
+  "area": "NP3",
+  "topic": "Myocardial infarction",
+  "topicId": "medical-surgical-nursing/cardiovascular/mi",
+  "noteId": "np3-cr-mi-assessment",
+  "clusterId": "cp-np3-07",
+  "clusterSeq": 2,
+  "vignette": "Efren Villanueva, 55, a jeepney driver with hypertension and a long smoking history, arrives at the emergency department of a tertiary hospital. He reports heavy, crushing pain behind the breastbone that spreads to his left arm and jaw and has lasted about thirty minutes. Rest has not relieved it. He is pale, sweating, nauseated, and frightened.",
+  "stem": "Which nursing actions are appropriate for Efren now? Select all that apply.",
+  "options": [
+   "Assess the pain: onset, location, quality, severity, and what relieves it.",
+   "Establish IV access.",
+   "Begin continuous cardiac monitoring.",
+   "Reassure him calmly and explain what is being done.",
+   "Delay the ECG until he is calmer.",
+   "Encourage him to walk around to relieve possible gas.",
+   "Give the prescribed medications and any oxygen ordered by the physician."
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3,
+   6
+  ],
+  "rationale": "Care for suspected MI focuses on monitoring for dysrhythmias, establishing IV access, assessing pain, giving prescribed treatment, and reducing anxiety, which also increases oxygen demand. Walking raises oxygen demand, and delaying the ECG postpones the diagnosis.",
+  "rationaleSimple": "Monitor his heart, start an IV, assess the pain, give ordered treatment, and keep him calm. Do not make him walk or delay the ECG.",
+  "optionRationales": [
+   "Appropriate: assessing the pain helps judge whether it fits a heart problem and guides treatment.",
+   "Appropriate: IV access allows fast delivery of medicines and fluids.",
+   "Appropriate: monitoring detects dangerous heart rhythms that can follow an MI.",
+   "Appropriate: calm reassurance lowers anxiety, which raises oxygen demand.",
+   "Inappropriate: delaying the ECG delays diagnosis and treatment, so it should be done promptly.",
+   "Inappropriate: walking increases the heart's oxygen demand when it may already be short of oxygen.",
+   "Appropriate: prescribed medicines and any ordered oxygen are part of treatment, given as the physician orders."
+  ],
+  "strategy": "Emergency care for suspected MI",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-07-c",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP3",
+  "topic": "Myocardial infarction",
+  "topicId": "medical-surgical-nursing/cardiovascular/mi",
+  "noteId": "np3-cr-mi-assessment",
+  "clusterId": "cp-np3-07",
+  "clusterSeq": 3,
+  "vignette": "Efren Villanueva, 55, a jeepney driver with hypertension and a long smoking history, arrives at the emergency department of a tertiary hospital. He reports heavy, crushing pain behind the breastbone that spreads to his left arm and jaw and has lasted about thirty minutes. Rest has not relieved it. He is pale, sweating, nauseated, and frightened.",
+  "stem": "From the nurse's emergency department note, select the findings that most strongly suggest acute myocardial infarction.",
+  "options": [
+   "Heavy, crushing pain behind the breastbone spreading to the left arm and jaw. ",
+   "Pain has not eased with rest. ",
+   "Skin is cool, pale, and sweating. ",
+   "Reports mild heartburn last week after a spicy meal. "
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "rationale": "Crushing substernal pain radiating to the arm and jaw, pain unrelieved by rest, and pale, cool, sweaty skin are the key cues of an acute MI. A past episode of mild heartburn is a distractor, as it is not a current finding of infarction.",
+  "rationaleSimple": "Crushing chest pain going to the arm and jaw, pain that does not ease with rest, and cold sweaty skin point to a heart attack.",
+  "optionRationales": [
+   "Suggests MI: crushing substernal pain spreading to the left arm and jaw is a classic cue.",
+   "Suggests MI: pain that does not ease with rest fits infarction rather than muscle strain or reflux.",
+   "Suggests MI: cool, pale, sweating skin shows the body's stress response to a heart emergency.",
+   "Distractor: mild heartburn last week is a past event, not a current finding of infarction."
+  ],
+  "strategy": "Recognizing cues of MI",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "imageSuggestion": {
+   "description": "12-lead ECG tracing showing ST-segment changes in several leads from a middle-aged adult with chest pain, shown without interpretation.",
+   "placement": "stem",
+   "searchTerms": [
+    "ST elevation myocardial infarction ECG",
+    "12-lead ECG",
+    "acute myocardial infarction electrocardiogram"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-07-d",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP3",
+  "topic": "Myocardial infarction",
+  "topicId": "medical-surgical-nursing/cardiovascular/mi",
+  "noteId": "np3-cr-mi-assessment",
+  "clusterId": "cp-np3-07",
+  "clusterSeq": 4,
+  "vignette": "Efren Villanueva, 55, a jeepney driver with hypertension and a long smoking history, arrives at the emergency department of a tertiary hospital. He reports heavy, crushing pain behind the breastbone that spreads to his left arm and jaw and has lasted about thirty minutes. Rest has not relieved it. He is pale, sweating, nauseated, and frightened.",
+  "stem": "Classify each nursing action as immediate (within minutes) or later in his care.",
+  "options": [],
+  "answer": [],
+  "rationale": "In the first minutes, the aim is rapid diagnosis and treatment: ECG, monitoring, IV access, laboratory tests, resting, and pain assessment. Risk-factor education and rehabilitation are important but are done once he is stable.",
+  "rationaleSimple": "First, diagnose and stabilize. Teaching about smoking and rehabilitation come later when he is stable.",
+  "optionRationales": [
+   "Immediate: an ECG and monitoring give a fast diagnosis and detect dangerous rhythms.",
+   "Immediate: IV access and blood tests are needed quickly so that treatment can start.",
+   "Later: stopping smoking and other risk factors are taught once he is stable.",
+   "Later: cardiac rehabilitation is planned once he is stable, before discharge.",
+   "Immediate: resting him and assessing his pain lowers the heart's oxygen demand and guides treatment."
+  ],
+  "strategy": "Prioritizing nursing actions",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "Recording a 12-lead ECG and starting cardiac monitoring",
+   "Obtaining IV access and drawing blood as ordered",
+   "Teaching about stopping smoking and other risk factors",
+   "Referring him to a cardiac rehabilitation program",
+   "Positioning him at rest and assessing his pain"
+  ],
+  "columns": [
+   "Immediate (within minutes)",
+   "Later, before discharge"
+  ],
+  "rowAnswer": [
+   0,
+   0,
+   1,
+   1,
+   0
+  ]
+ },
+ {
+  "id": "cp-np3-07-e",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Myocardial infarction",
+  "topicId": "medical-surgical-nursing/cardiovascular/mi",
+  "noteId": "np3-cr-mi-assessment",
+  "clusterId": "cp-np3-07",
+  "clusterSeq": 5,
+  "vignette": "Efren Villanueva, 55, a jeepney driver with hypertension and a long smoking history, arrives at the emergency department of a tertiary hospital. He reports heavy, crushing pain behind the breastbone that spreads to his left arm and jaw and has lasted about thirty minutes. Rest has not relieved it. He is pale, sweating, nauseated, and frightened.",
+  "stem": "Before discharge, which instruction about future chest pain is most appropriate for Efren?",
+  "options": [
+   "Stop and rest, take your prescribed medicine, and call for emergency help if pain persists.",
+   "Wait for about an hour to see if the pain passes before you tell anyone about it.",
+   "Drive yourself to the nearest hospital as soon as the pain starts so that no time is lost.",
+   "Take extra doses of your prescribed medicine until the pain finally stops, then rest."
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "Stopping activity lowers the heart's workload, and the prescribed medicine should be taken as directed. Chest pain that persists needs emergency help because delay costs heart muscle. Waiting, driving alone, or taking extra doses on his own are unsafe.",
+  "rationaleSimple": "If chest pain happens again, he should rest, take his prescribed medicine as directed, and call for emergency help if it does not go away.",
+  "optionRationales": [
+   "Best answer. Stopping activity lowers the heart's workload, and the prescribed medicine should be taken as directed.",
+   "Delay in seeking help risks permanent heart damage.",
+   "Driving alone while in pain is unsafe; emergency transport is preferred.",
+   "Extra doses without direction can be harmful and delay emergency care."
+  ],
+  "strategy": "Discharge teaching after MI",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-08-a",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Anaphylaxis",
+  "topicId": "medical-surgical-nursing/immunology/anaphylaxis",
+  "noteId": "np3-cr-shock-distributive",
+  "clusterId": "cp-np3-08",
+  "clusterSeq": 1,
+  "vignette": "At a barangay health center, Marites Dizon, 29, receives an intramuscular antibiotic as ordered for an infected wound. Within minutes she says her throat feels tight and itchy. The nurse sees widespread hives, swelling of her lips and face, a hoarse voice, and wheezing. She says she feels faint and her skin is cool and pale.",
+  "stem": "What is the priority nursing action?",
+  "options": [
+   "Observe her for fifteen more minutes to see whether the hives spread any further.",
+   "Give an oral antihistamine and send her home once the itching and the hives have stopped completely.",
+   "Seat her upright at a table and offer her slow sips of water to soothe her tight and itchy throat.",
+   "Call for emergency help, stay with her, protect her airway, and give epinephrine per protocol."
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "Throat tightness, hoarseness, wheezing, facial swelling, hives, and faintness soon after a drug injection are signs of anaphylaxis, which can quickly obstruct the airway and cause circulatory collapse. The nurse must act at once: call for help, stay with the client, protect the airway, and give epinephrine as the emergency protocol directs. Observing, antihistamines alone, or sips of water delay life-saving treatment.",
+  "rationaleSimple": "This is anaphylaxis. Call for help, stay with her, protect her airway, and give epinephrine as the protocol directs.",
+  "optionRationales": [
+   "Waiting delays treatment of a life-threatening reaction.",
+   "Antihistamines alone are not enough, and discharge is unsafe.",
+   "Drinking could be unsafe with airway swelling and does not treat the reaction.",
+   "Best answer. Throat tightness, hoarseness, wheezing, facial swelling, hives, and faintness soon after a drug injection are signs of anaphylaxis, which can quickly obstruct the airway and cause circulatory collapse."
+  ],
+  "strategy": "Emergency response to anaphylaxis",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-08-b",
+  "v": 2,
+  "type": "sata",
+  "area": "NP3",
+  "topic": "Anaphylaxis",
+  "topicId": "medical-surgical-nursing/immunology/anaphylaxis",
+  "noteId": "np3-cr-shock-distributive",
+  "clusterId": "cp-np3-08",
+  "clusterSeq": 2,
+  "vignette": "At a barangay health center, Marites Dizon, 29, receives an intramuscular antibiotic as ordered for an infected wound. Within minutes she says her throat feels tight and itchy. The nurse sees widespread hives, swelling of her lips and face, a hoarse voice, and wheezing. She says she feels faint and her skin is cool and pale.",
+  "stem": "Which findings support the nurse's suspicion of anaphylaxis? Select all that apply.",
+  "options": [
+   "Dry cough with a gradual fever over several days",
+   "Widespread hives",
+   "Swelling of the lips, face, or tongue",
+   "Hoarse voice or noisy breathing",
+   "Faintness with a drop in blood pressure",
+   "Wheezing or difficulty breathing",
+   "Mild redness limited to the injection site"
+  ],
+  "answer": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "rationale": "Anaphylaxis is a rapid, systemic reaction. Skin signs such as hives and swelling, airway signs such as hoarseness and wheezing, and circulatory signs such as faintness and low blood pressure all support it. Local redness alone and a gradual fever do not suggest an immediate systemic reaction.",
+  "rationaleSimple": "Hives, facial swelling, hoarseness, wheezing, and faintness together are anaphylaxis. Local redness or a slow fever are not.",
+  "optionRationales": [
+   "Does not support: a dry cough with a gradual fever over days suggests infection, not a rapid reaction.",
+   "Supports: widespread hives are a typical skin sign of an allergic reaction throughout the body.",
+   "Supports: swelling of the lips, face or tongue can quickly block the airway.",
+   "Supports: a hoarse voice or noisy breathing suggests the airway is swelling.",
+   "Supports: faintness with falling blood pressure suggests circulatory collapse.",
+   "Supports: wheezing or difficulty breathing shows airway narrowing.",
+   "Does not support: redness limited to the injection site is a local reaction, not whole-body."
+  ],
+  "strategy": "Recognizing anaphylaxis",
+  "difficulty": 2,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-08-c",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP3",
+  "topic": "Anaphylaxis",
+  "topicId": "medical-surgical-nursing/immunology/anaphylaxis",
+  "noteId": "np3-cr-shock-distributive",
+  "clusterId": "cp-np3-08",
+  "clusterSeq": 3,
+  "vignette": "At a barangay health center, Marites Dizon, 29, receives an intramuscular antibiotic as ordered for an infected wound. Within minutes she says her throat feels tight and itchy. The nurse sees widespread hives, swelling of her lips and face, a hoarse voice, and wheezing. She says she feels faint and her skin is cool and pale.",
+  "stem": "Choose the best word for each blank about anaphylaxis.\n\nAnaphylaxis is a {{1}} immediate hypersensitivity reaction. Early recognition of {{2}} compromise is vital, and the first-line medicine is {{3}}.",
+  "options": [],
+  "answer": [],
+  "rationale": "Anaphylaxis involves the whole body and develops rapidly after exposure. The threat comes from airway swelling and circulatory collapse, and epinephrine is the first-line emergency treatment. Antihistamines may help skin symptoms but do not reverse airway or circulatory compromise.",
+  "rationaleSimple": "Anaphylaxis is a severe whole-body reaction. Watch the airway and circulation, and give epinephrine first.",
+  "optionRationales": [
+   "Severe, systemic: anaphylaxis affects the whole body and develops quickly. A mild, local or delayed reaction does not fit.",
+   "Airway and circulation: the danger is airway swelling and circulatory collapse. Hair, nails, bowel and bladder are not the threat.",
+   "Epinephrine: it is the first-line emergency medicine; check your textbook for the protocol. An oral antihistamine may help the skin but does not reverse airway or circulation problems."
+  ],
+  "strategy": "Understanding anaphylaxis",
+  "difficulty": 2,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "blanks": [
+   {
+    "choices": [
+     "severe, systemic",
+     "mild, local",
+     "delayed, local"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "airway and circulation",
+     "hair and nail",
+     "bowel and bladder"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "epinephrine",
+     "an oral antihistamine",
+     "a mild laxative"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "cp-np3-08-d",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Anaphylaxis",
+  "topicId": "medical-surgical-nursing/immunology/anaphylaxis",
+  "noteId": "np3-cr-shock-distributive",
+  "clusterId": "cp-np3-08",
+  "clusterSeq": 4,
+  "vignette": "At a barangay health center, Marites Dizon, 29, receives an intramuscular antibiotic as ordered for an infected wound. Within minutes she says her throat feels tight and itchy. The nurse sees widespread hives, swelling of her lips and face, a hoarse voice, and wheezing. She says she feels faint and her skin is cool and pale.",
+  "stem": "After Marites has been stabilized and transferred, what is the nurse's most appropriate documentation and teaching action?",
+  "options": [
+   "Skip documentation because the reaction has resolved and she is now stable and comfortable.",
+   "Tell her it will not happen again, because the first reaction is usually the worst one.",
+   "Document the reaction, list the drug as an allergy, and teach her to tell every health worker.",
+   "Advise her to take the same drug again with an antihistamine to prevent another reaction next time."
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "Clear documentation and an allergy record protect her from future exposure, and teaching her to inform every provider and to carry identification helps ensure that all care teams know. Re-exposure to the same drug can be dangerous, even with an antihistamine.",
+  "rationaleSimple": "Write down the reaction, add the drug to her allergy list, and teach her to tell every health worker.",
+  "optionRationales": [
+   "Undocumented allergies can lead to repeat exposure.",
+   "This is inaccurate; repeat exposure can cause a more severe reaction.",
+   "Best answer. Clear documentation and an allergy record protect her from future exposure, and teaching her to inform every provider and to carry identification helps ensure that all care teams know.",
+   "Re-exposure to the drug is dangerous, and an antihistamine does not make it safe."
+  ],
+  "strategy": "Documentation and client teaching",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-08-e",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP3",
+  "topic": "Anaphylaxis",
+  "topicId": "medical-surgical-nursing/immunology/anaphylaxis",
+  "noteId": "np3-cr-shock-distributive",
+  "clusterId": "cp-np3-08",
+  "clusterSeq": 5,
+  "vignette": "At a barangay health center, Marites Dizon, 29, receives an intramuscular antibiotic as ordered for an infected wound. Within minutes she says her throat feels tight and itchy. The nurse sees widespread hives, swelling of her lips and face, a hoarse voice, and wheezing. She says she feels faint and her skin is cool and pale.",
+  "stem": "Classify each situation as suspected anaphylaxis or a likely mild local reaction.",
+  "options": [],
+  "answer": [],
+  "rationale": "Involvement of the airway, breathing, or circulation, together with skin symptoms, points to anaphylaxis, which needs immediate emergency care. A reaction limited to the skin site of contact, without systemic features, is more likely a mild local reaction that can be observed.",
+  "rationaleSimple": "Trouble breathing, swallowing, or faintness with a reaction means anaphylaxis. Itching in one small area is usually mild.",
+  "optionRationales": [
+   "Anaphylaxis suspected: hives with a swollen tongue and trouble swallowing involve the skin and the airway.",
+   "Mild local: redness and itching only at the injection site, without other symptoms, is local.",
+   "Anaphylaxis suspected: faintness, low blood pressure and wheezing minutes after an injection involve circulation and breathing.",
+   "Mild local: itching of one forearm after a new soap with no other symptoms is a local skin reaction.",
+   "Anaphylaxis suspected: a hoarse voice and noisy breathing after a sting suggest airway swelling."
+  ],
+  "strategy": "Differentiating severity of allergic reactions",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "imageSuggestion": {
+   "description": "Two photographs of skin reactions to injection or allergen: a small local red area at the injection site and widespread hives (urticaria) on the trunk, shown without captions.",
+   "placement": "stem",
+   "searchTerms": [
+    "urticaria hives",
+    "injection site reaction",
+    "allergic skin reaction"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "rows": [
+   "Hives and a swollen tongue with trouble swallowing after a seafood meal",
+   "A small area of redness and itching at the injection site only",
+   "Faintness, low blood pressure, and wheezing minutes after an antibiotic injection",
+   "Mild itching of one forearm after using a new soap, no other symptoms",
+   "Hoarse voice and noisy breathing after an insect sting"
+  ],
+  "columns": [
+   "Anaphylaxis suspected",
+   "Likely mild local reaction"
+  ],
+  "rowAnswer": [
+   0,
+   1,
+   0,
+   1,
+   0
+  ]
+ },
+ {
+  "id": "cp-np3-09-a",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Infection precautions",
+  "topicId": "medical-surgical-nursing/hematology/infection-precautions",
+  "noteId": "gen-fb-standard-precautions",
+  "clusterId": "cp-np3-09",
+  "clusterSeq": 1,
+  "vignette": "Carlo Mendoza, 19, has acute leukemia and is receiving chemotherapy in a tertiary hospital. Laboratory results today show very low white blood cell and platelet counts. He is in a private room. When the nurse assists with oral care, his gums bleed, and she notices tiny red spots on his legs. He also says his throat is sore. His mother wants to bring fresh flowers and fruit from the market.",
+  "stem": "Which nursing action best protects Carlo from infection?",
+  "options": [
+   "Place fresh flowers and potted plants in his room to lift his mood during treatment.",
+   "Perform strict hand hygiene and keep visitors who have colds or other infections away.",
+   "Take rectal temperatures because they are the most accurate measurement of fever.",
+   "Allow relatives who feel unwell to visit briefly while they wear a mask."
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "With very few white cells, Carlo cannot defend against ordinary organisms. Hand hygiene is the most effective single measure, and limiting exposure to ill people reduces risk. Fresh plants and flowers, rectal procedures, and sick visitors all increase the risk of infection.",
+  "rationaleSimple": "With low white cells he is easily infected. Wash hands well and keep sick visitors away.",
+  "optionRationales": [
+   "Fresh flowers and plants can carry organisms and are avoided with low white cell counts.",
+   "Best answer. With very few white cells, Carlo cannot defend against ordinary organisms.",
+   "Rectal procedures can injure tissue and introduce organisms; they are avoided.",
+   "Exposure to people who are ill is a risk even with a mask."
+  ],
+  "strategy": "Protecting an immunocompromised client",
+  "difficulty": 2,
+  "bloom": "apply",
+  "imageSuggestion": {
+   "description": "Protective-environment or neutropenic-precautions room with hand hygiene station and a standard isolation sign at the door.",
+   "placement": "rationale",
+   "searchTerms": [
+    "protective isolation room",
+    "hand hygiene station hospital",
+    "neutropenic precautions sign"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-09-b",
+  "v": 2,
+  "type": "highlight",
+  "area": "NP3",
+  "topic": "Bleeding precautions",
+  "topicId": "medical-surgical-nursing/hematology/bleeding-precautions",
+  "noteId": "np3-ho-hemophilia",
+  "clusterId": "cp-np3-09",
+  "clusterSeq": 2,
+  "vignette": "Carlo Mendoza, 19, has acute leukemia and is receiving chemotherapy in a tertiary hospital. Laboratory results today show very low white blood cell and platelet counts. He is in a private room. When the nurse assists with oral care, his gums bleed, and she notices tiny red spots on his legs. He also says his throat is sore. His mother wants to bring fresh flowers and fruit from the market.",
+  "stem": "Select the findings in the nurse's assessment that indicate a bleeding tendency.",
+  "options": [
+   "Gums bleed when he brushes his teeth. ",
+   "Tiny pinpoint red spots on both lower legs. ",
+   "Complains of a sore throat and feels warm. ",
+   "Bruises on the arm where the blood pressure cuff was applied. ",
+   "A nosebleed took longer than usual to stop. "
+  ],
+  "answer": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "rationale": "Low platelets impair clotting, which shows as bleeding gums, pinpoint skin hemorrhages (petechiae), easy bruising, and prolonged nosebleeds. The sore throat and warmth point to possible infection, which is also important and must be reported but is not a sign of bleeding tendency.",
+  "rationaleSimple": "Bleeding gums, tiny red spots, easy bruising, and a nosebleed that will not stop show low platelets. The sore throat is an infection concern, not bleeding.",
+  "optionRationales": [
+   "Bleeding tendency: bleeding gums from tooth brushing show impaired clotting.",
+   "Bleeding tendency: pinpoint red spots (petechiae) are small bleeds into the skin, common with low platelets.",
+   "Not a bleeding sign: sore throat and warmth suggest infection, which should be reported but does not show a bleeding tendency.",
+   "Bleeding tendency: bruising at the cuff site shows blood vessels leak easily under light pressure.",
+   "Bleeding tendency: a nosebleed that is slow to stop shows clotting is impaired."
+  ],
+  "strategy": "Recognizing bleeding tendency",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "imageSuggestion": {
+   "description": "Photograph of the skin of a client showing petechiae and bruises (ecchymoses) on the arms, shown without a caption.",
+   "placement": "stem",
+   "searchTerms": [
+    "petechiae arm",
+    "ecchymosis bruise skin",
+    "thrombocytopenia petechiae"
+   ]
+  },
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-09-c",
+  "v": 2,
+  "type": "sata",
+  "area": "NP3",
+  "topic": "Bleeding precautions",
+  "topicId": "medical-surgical-nursing/hematology/bleeding-precautions",
+  "noteId": "np3-ho-hemophilia",
+  "clusterId": "cp-np3-09",
+  "clusterSeq": 3,
+  "vignette": "Carlo Mendoza, 19, has acute leukemia and is receiving chemotherapy in a tertiary hospital. Laboratory results today show very low white blood cell and platelet counts. He is in a private room. When the nurse assists with oral care, his gums bleed, and she notices tiny red spots on his legs. He also says his throat is sore. His mother wants to bring fresh flowers and fruit from the market.",
+  "stem": "Which measures belong in Carlo's bleeding precautions? Select all that apply.",
+  "options": [
+   "Apply gentle, prolonged pressure after venipuncture.",
+   "Rub the puncture site firmly after the needle is removed.",
+   "Use a straight razor for a close shave.",
+   "Floss vigorously after every meal.",
+   "Avoid intramuscular injections and rectal procedures unless specifically ordered.",
+   "Use an electric razor instead of a blade.",
+   "Use a soft toothbrush or oral swabs.",
+   "Avoid medicines such as aspirin unless prescribed."
+  ],
+  "answer": [
+   0,
+   4,
+   5,
+   6,
+   7
+  ],
+  "rationale": "Bleeding precautions reduce trauma to fragile tissues and avoid anything that impairs clotting: soft brushes, electric razors, avoiding injections and rectal procedures, prolonged gentle pressure, and avoiding aspirin-type drugs. Flossing hard, using blades, and rubbing a puncture site all damage tissue and raise the chance of bleeding.",
+  "rationaleSimple": "Use soft brushes and electric razors, avoid injections and rectal procedures, press gently for a long time, and avoid aspirin. Do not floss hard, use blades, or rub puncture sites.",
+  "optionRationales": [
+   "Include: gentle prolonged pressure gives a clot time to form without damaging tissue.",
+   "Avoid: rubbing the puncture site bruises fragile tissue and can restart bleeding.",
+   "Avoid: a blade can cut the skin and cause bleeding that is hard to stop.",
+   "Avoid: vigorous flossing injures the gums and can cause bleeding.",
+   "Include: injections and rectal procedures can cause bleeding into tissues, so they are avoided unless specifically ordered.",
+   "Include: an electric razor is much less likely to cut the skin.",
+   "Include: a soft toothbrush or oral swabs reduce injury to the gums.",
+   "Include: aspirin-type medicines interfere with clotting, so they are avoided unless prescribed."
+  ],
+  "strategy": "Planning bleeding precautions",
+  "difficulty": 3,
+  "bloom": "apply",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-09-d",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Infection precautions",
+  "topicId": "medical-surgical-nursing/hematology/infection-precautions",
+  "noteId": "gen-fb-standard-precautions",
+  "clusterId": "cp-np3-09",
+  "clusterSeq": 4,
+  "vignette": "Carlo Mendoza, 19, has acute leukemia and is receiving chemotherapy in a tertiary hospital. Laboratory results today show very low white blood cell and platelet counts. He is in a private room. When the nurse assists with oral care, his gums bleed, and she notices tiny red spots on his legs. He also says his throat is sore. His mother wants to bring fresh flowers and fruit from the market.",
+  "stem": "Carlo's throat is sore and he feels warm. What should the nurse do first?",
+  "options": [
+   "Check his vital signs and report the findings to the physician promptly.",
+   "Give an antipyretic and recheck him later in the shift to see if he is better.",
+   "Encourage rest and fluids and plan to reassess him in the morning.",
+   "Have him gargle with warm salt water and wait to see if the sore throat improves."
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "In a client with very low white cell counts, fever or a sore throat can be the only early sign of a serious infection that can progress rapidly. The nurse should assess and report promptly so that the physician can evaluate and order treatment. Masking the fever or delaying reporting puts him at risk.",
+  "rationaleSimple": "Low white cells mean infection can become serious fast. Check his vital signs and tell the physician right away.",
+  "optionRationales": [
+   "Best answer. In a client with very low white cell counts, fever or a sore throat can be the only early sign of a serious infection that can progress rapidly.",
+   "An antipyretic can mask a fever that may signal serious infection.",
+   "Delaying reassessment risks missing early sepsis.",
+   "Home measures delay assessment and reporting of a possible serious infection."
+  ],
+  "strategy": "Recognizing and reporting possible infection",
+  "difficulty": 3,
+  "bloom": "judgment",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ]
+ },
+ {
+  "id": "cp-np3-09-e",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP3",
+  "topic": "Chemotherapy side effects",
+  "topicId": "medical-surgical-nursing/cancer/treatment-modalities",
+  "noteId": "np3-ho-chemo-side-effects-gi-hair-mouth",
+  "clusterId": "cp-np3-09",
+  "clusterSeq": 5,
+  "vignette": "Carlo Mendoza, 19, has acute leukemia and is receiving chemotherapy in a tertiary hospital. Laboratory results today show very low white blood cell and platelet counts. He is in a private room. When the nurse assists with oral care, his gums bleed, and she notices tiny red spots on his legs. He also says his throat is sore. His mother wants to bring fresh flowers and fruit from the market.",
+  "stem": "Choose the best word for each blank about chemotherapy effects.\n\nNeutropenia means a low number of {{1}} blood cells, which raises the risk of {{2}}; thrombocytopenia means a low number of {{3}}, which raises the risk of bleeding.",
+  "options": [],
+  "answer": [],
+  "rationale": "Chemotherapy suppresses bone marrow activity. Low neutrophils, a type of white cell, impair defense against organisms, and low platelets impair clotting. Knowing which cell line is low guides which precautions the nurse applies.",
+  "rationaleSimple": "Low white cells mean more infection, and low platelets mean more bleeding.",
+  "optionRationales": [
+   "White: neutropenia is a low count of neutrophils, a type of white blood cell. Red or sickled cells do not fit the term.",
+   "Infection: white cells defend the body against organisms, so a low number raises infection risk. Anemia and jaundice are not the main risks.",
+   "Platelets: thrombocytopenia is a low platelet count, and platelets are needed for clotting. Hemoglobin molecules and plasma proteins are different."
+  ],
+  "strategy": "Understanding myelosuppression",
+  "difficulty": 2,
+  "bloom": "recall",
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true,
+  "flags": [
+   "check-textbook",
+   "nurse-unreviewed"
+  ],
+  "blanks": [
+   {
+    "choices": [
+     "white",
+     "red",
+     "sickled"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "infection",
+     "anemia",
+     "jaundice"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "platelets",
+     "hemoglobin molecules",
+     "plasma proteins"
+    ],
+    "answer": 0
+   }
+  ]
+ }
+]

@@ -1,0 +1,809 @@
+[
+  {
+    "id": "cb-np2-0001",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Bleeding in late pregnancy: who first",
+    "noteId": "np2-ob-abruptio-placentae",
+    "vignette": "At a district hospital triage, two women arrive together. Maria, 33 weeks, reports painless bright red bleeding that has soaked one pad; her uterus is soft, her BP is 112/70 and the fetal heart rate is 140. Josefa, 36 weeks, has constant abdominal pain, a rigid tender uterus and scant dark spotting; BP 104/64, pulse 108, fetal heart rate 100.",
+    "stem": "Which client should the nurse attend to first?",
+    "rationale": "Curve ball: the heavy visible bleeding grabs attention, while the quiet client is deteriorating. 1. Cue: scant spotting plus rigid uterus, tachycardia, FHR 100. 2. Principle: concealed bleeding in abruptio. 3. Rule: unstable before stable. Flip: if Maria had hypotension and fetal bradycardia she would move first.",
+    "strategy": "Unstable before stable; bleeding amount is not severity",
+    "archetype": "curve-ball",
+    "difficulty": 5,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Abruptio: rigid painful uterus, concealed bleeding, shock out of proportion to blood seen.",
+      "Placenta previa: painless bright bleeding, soft uterus."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Josefa, because her findings suggest concealed bleeding with fetal compromise",
+      "Maria, because she has the larger visible blood loss",
+      "Maria, because placenta previa can bleed massively without warning",
+      "Both at the same time by asking a student to take Josefa's vital signs again, and review the plan again at the end of the shift"
+    ],
+    "answer": [
+      0
+    ],
+    "optionRationales": [
+      "Correct: the small visible bleed hides a rigid uterus, tachycardia and a falling fetal heart rate.",
+      "Judges by the amount of blood seen; her vital signs and fetal heart rate are stable.",
+      "True of previa in general, but this is the stable client right now.",
+      "Splits attention where the more unstable client needs the nurse's skills and escalation."
+    ]
+  },
+  {
+    "id": "cb-np2-0002",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Magnesium infusion check",
+    "noteId": "np2-ob-magnesium-eclampsia",
+    "vignette": "A woman with severe pre-eclampsia is on a magnesium sulfate infusion. At the hourly check, her BP is 148/94 (down from 168/108), respiratory rate 16, patellar reflexes 2+, and she is awake. The urine bag shows 20 mL over the last hour. Calcium gluconate is at the bedside.",
+    "stem": "What should the nurse do?",
+    "rationale": "Curve ball: reflexes and respirations are fine, so the dose looks safe, yet the urine output is below the threshold. 1. Cue: 20 mL in an hour. 2. Principle: renal clearance of magnesium. 3. Rule: act on the trend before toxicity. Flip: absent reflexes with RR 10 would call for calcium gluconate.",
+    "strategy": "Check the clearance, not only the signs",
+    "archetype": "curve-ball",
+    "difficulty": 5,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Check reflexes, respiratory rate and urine output (30 mL/hour) before each dose.",
+      "Calcium gluconate is the antidote."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Continue the infusion because reflexes and breathing are normal",
+      "Stop the infusion temporarily and notify the provider about the low urine output",
+      "Give calcium gluconate now to prevent toxicity",
+      "Increase the rate to bring the blood pressure under 140/90 sooner, while the rest of the team continues routine work"
+    ],
+    "answer": [
+      1
+    ],
+    "optionRationales": [
+      "Reads only the usual toxicity signs and misses the urine output rule.",
+      "Correct: magnesium is cleared by the kidneys, so low output can lead to toxicity even before reflexes and breathing change.",
+      "Treats an event that has not happened; the antidote is for toxicity.",
+      "Magnesium is for seizure prevention, not the blood pressure target."
+    ]
+  },
+  {
+    "id": "cb-np2-0003",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Late decelerations after epidural",
+    "noteId": "np2-ob-fhr-patterns",
+    "vignette": "A woman in active labor received an epidural 10 minutes ago. She is on oxytocin. The monitor shows repeated decelerations that begin after the peak of each contraction and recover slowly, with reduced variability. Her BP is 84/50 (was 118/72). The resident is asking about preparing for cesarean.",
+    "stem": "What should the nurse do first?",
+    "rationale": "Curve ball: an ominous pattern pulls toward surgery, but a correctable maternal cause is present. 1. Cue: new hypotension after epidural. 2. Principle: placental perfusion depends on maternal BP. 3. Rule: correct reversible causes first, then reassess. Flip: if the pattern persists after correction, cesarean becomes necessary.",
+    "strategy": "Treat the cause of the pattern first",
+    "archetype": "curve-ball",
+    "difficulty": 5,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Late deceleration indicates uteroplacental insufficiency.",
+      "Actions: stop oxytocin, left side, IV fluid, oxygen."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Prepare her for an immediate cesarean birth in the operating room",
+      "Increase the oxytocin rate to bring labor to a quicker end",
+      "Turn her left, stop the oxytocin, start the ordered fluid bolus and give oxygen",
+      "Reassure the couple that these are only head-compression decelerations, before reassessing the situation later in the shift"
+    ],
+    "answer": [
+      2
+    ],
+    "optionRationales": [
+      "Over-intervention before the cause is corrected; surgery is for persistent patterns.",
+      "Unsafe: worsens placental insufficiency.",
+      "Correct: the likely cause is maternal hypotension reducing placental blood flow, so the cause is treated before surgery.",
+      "Wrong pattern; early decelerations match contractions, these are late."
+    ]
+  },
+  {
+    "id": "cb-np2-0004",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Bleeding with a firm uterus",
+    "noteId": "np2-ob-postpartum-hemorrhage",
+    "vignette": "Twenty minutes after a vaginal birth with a deep perineal tear, a mother has steady bright red bleeding. The nurse feels the fundus firm and midline, 1 cm below the umbilicus. BP is 104/62 and pulse 96. The mother says she feels fine.",
+    "stem": "What is the nurse's best action?",
+    "rationale": "Curve ball: fundal massage is the automatic response to postpartum bleeding, but it is the wrong fix when the uterus is firm. 1. Cue: firm fundus, bright continuous blood. 2. Principle: source of bleeding differs. 3. Rule: identify the cause, then act. Flip: a boggy uterus would make massage the first action.",
+    "strategy": "Match the intervention to the cause",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Soft boggy uterus = atony; firm uterus with bright bleeding = laceration.",
+      "Early postpartum hemorrhage: atony first, then lacerations."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Massage the fundus vigorously for another five minutes",
+      "Ask her to walk to the bathroom to empty her bladder",
+      "Give a second dose of oxytocin as ordered for atony",
+      "Inspect the perineum and notify the provider for repair of a suspected laceration"
+    ],
+    "answer": [
+      3
+    ],
+    "optionRationales": [
+      "Right for atony but the uterus is already firm; massage will not stop this bleeding.",
+      "A full bladder is not the issue here and walking while bleeding adds risk.",
+      "Treats the wrong cause; bleeding continues despite a contracted uterus.",
+      "Correct: a firm uterus with continuous bright bleeding points to a laceration, not atony."
+    ]
+  },
+  {
+    "id": "cb-np2-0005",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Uterotonic timing",
+    "noteId": "np2-ob-third-stage",
+    "vignette": "The baby was born 2 minutes ago and cried at once. The provider's order says \"methylergonovine IM now\". The placenta has not delivered; there is no gush of blood, the cord has not lengthened, and the fundus is firm and globular at the umbilicus. A student nurse has drawn up the injection.",
+    "stem": "What should the nurse do?",
+    "rationale": "Curve ball: the order is written and the drug is correct for bleeding prevention, so giving it seems obedient; the trap is timing. 1. Cue: placenta still in. 2. Principle: strong contraction can trap it. 3. Rule: verify timing before administering. Flip: after a complete placenta, giving it is appropriate.",
+    "strategy": "Right drug, wrong time",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Ergot preparations are given only after the placenta is delivered.",
+      "Placental signs: gush of blood, cord lengthening, rising firm uterus."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Hold the ergot drug until the placenta is delivered and clarify the order with the provider",
+      "Give it now to speed placental separation and reduce bleeding",
+      "Give it now and start fundal pressure to help the placenta out",
+      "Replace it with a larger dose of oxytocin diluted in plain water, and document the response in the chart"
+    ],
+    "answer": [
+      0
+    ],
+    "optionRationales": [
+      "Correct: giving an ergot preparation before the placenta is out can contract the uterus around it.",
+      "Right goal, wrong timing; the drug is for after the placenta is out.",
+      "Compounds the error with a hazardous maneuver.",
+      "Not an order and unsafe; oxytocin is given diluted and slow in the IV line."
+    ]
+  },
+  {
+    "id": "cb-np2-0006",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Cord felt on examination",
+    "noteId": "np2-ob-prom-cord-prolapse",
+    "vignette": "A woman at 37 weeks has just had her membranes rupture. During the examination the nurse feels a pulsating loop of cord below the presenting part, and the fetal heart rate drops from 140 to 80. The mother's partner starts to panic and the call light is within reach.",
+    "stem": "What should the nurse do while help is coming?",
+    "rationale": "Curve ball: protecting the cord by putting it back, or by withdrawing the hand to prepare transfer, both look sensible but increase compression. 1. Cue: pulsating cord, FHR 80. 2. Principle: compression stops fetal oxygen. 3. Rule: hand stays in place until delivery. Flip: if the cord is absent from the vagina and the FHR is normal, no hand is needed.",
+    "strategy": "Relieve compression before anything else",
+    "archetype": "curve-ball",
+    "difficulty": 5,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Do not push the cord back; lift the presenting part.",
+      "Knee-chest or Trendelenburg, oxygen, urgent cesarean."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Gently push the cord back into the vagina so it is protected",
+      "Insert a gloved hand to lift the presenting part off the cord and keep it there, with the mother in knee-chest",
+      "Place her flat on her back and give oxygen by mask only",
+      "Remove the examining hand and prepare her for transport to the delivery room, and review the plan again at the end of the shift"
+    ],
+    "answer": [
+      1
+    ],
+    "optionRationales": [
+      "Replacing the cord is unsafe and can compress it further.",
+      "Correct: relieving the pressure on the cord keeps fetal circulation going until birth.",
+      "Oxygen helps but the position does not relieve cord compression.",
+      "Releasing the pressure drops the fetal heart rate again."
+    ]
+  },
+  {
+    "id": "cb-np2-0007",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Glucose challenge result",
+    "noteId": "np2-ob-gestational-diabetes",
+    "vignette": "A woman at 26 weeks, BMI 31, with a mother who has type 2 diabetes, returns for the result of her 50-g glucose challenge. The blood drawn one hour later is above the cut-off value. She asks if this means she has gestational diabetes and wants to begin a diet immediately.",
+    "stem": "What is the best response?",
+    "rationale": "Curve ball: risk factors and the abnormal screen make diagnosis feel certain. 1. Cue: screening test positive. 2. Principle: false positives exist on screening. 3. Rule: confirm before labeling. Flip: a fasting value above the diagnostic limit would confirm directly.",
+    "strategy": "Screening is not diagnosis",
+    "archetype": "curve-ball",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "50-g screen at 24-28 weeks; over the cut-off leads to the 100-g 3-hour test.",
+      "Diagnosis needs abnormal values on the diagnostic test."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Confirm the diagnosis and refer her to start insulin",
+      "Tell her the test was probably wrong because she ate beforehand and repeat it next week, while the rest of the team continues routine work",
+      "Explain that this is a screening result and arrange the 100-g 3-hour glucose tolerance test",
+      "Enroll her in the gestational diabetes diet class and skip further testing"
+    ],
+    "answer": [
+      2
+    ],
+    "optionRationales": [
+      "Treats a screening test as a diagnosis, and insulin is only after diet fails.",
+      "Dismisses an abnormal screen without justification.",
+      "Correct: the first test only selects who needs diagnostic testing.",
+      "Starts treatment before the diagnosis is made."
+    ]
+  },
+  {
+    "id": "cb-np2-0008",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Newborn colour at 1 minute",
+    "noteId": "np2-pd-apgar",
+    "vignette": "A term baby is born, dried and placed on the mother's abdomen. The nurse notes a strong cry, heart rate 130, flexed arms and legs, a grimace-and-cry when suctioned, a pink trunk and blue hands and feet. The mother asks why the baby's hands look blue.",
+    "stem": "What is the best action?",
+    "rationale": "Curve ball: blue hands look alarming and invite oxygen. 1. Cue: strong cry, HR 130, tone good. 2. Principle: peripheral circulation is slow after birth. 3. Rule: act on the whole picture. Flip: central cyanosis of the lips with a weak cry would need oxygen.",
+    "strategy": "Normal variation versus emergency",
+    "archetype": "curve-ball",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Appearance: acrocyanosis scores 1.",
+      "8 to 10 is a good score."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Give free-flow oxygen by mask until the hands turn pink",
+      "Rub the soles and back vigorously for two minutes to improve circulation",
+      "Call the pediatrician for possible congenital heart disease",
+      "Keep drying and warming and keep him skin to skin, because the colour is expected at this age"
+    ],
+    "answer": [
+      3
+    ],
+    "optionRationales": [
+      "Over-intervention for a normal finding.",
+      "Stimulation is for a weak response; this baby is vigorous.",
+      "Over-reaction to a common, transient finding.",
+      "Correct: acrocyanosis with a vigorous cry and good heart rate does not need oxygen."
+    ]
+  },
+  {
+    "id": "cb-np2-0009",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Jittery newborn",
+    "noteId": "np2-pd-nb-vitals",
+    "vignette": "A 6-hour-old term newborn in an open crib near the window is irritable, jittery and refusing the breast. His hands and feet feel cool and his respiratory rate is 62. His mother was told she is not diabetic. A colleague suggests checking his blood sugar and calling the pediatrician.",
+    "stem": "What should the nurse do first?",
+    "rationale": "Curve ball: jitteriness points to blood sugar, but the simplest explanation is cold. 1. Cue: open crib by window, cool hands and feet. 2. Principle: newborns lose heat quickly. 3. Rule: assess before act, cheapest and fastest check first. Flip: if the temperature is normal, glucose becomes the next check.",
+    "strategy": "Check the simple cause first",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Check temperature first when an infant looks unwell.",
+      "Cold stress increases oxygen and glucose use."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Take his axillary temperature, and warm him skin to skin or under the warmer if low",
+      "Do a heel-stick glucose test before anything else",
+      "Start oxygen by hood since the respiratory rate is 62",
+      "Report suspected sepsis and prepare for a blood culture, then explain the reason to the family"
+    ],
+    "answer": [
+      0
+    ],
+    "optionRationales": [
+      "Correct: cold stress is common, quick to check, and increases oxygen and glucose use.",
+      "Plausible, but it skips the simplest cause that explains these cues.",
+      "Rate is within the newborn range; oxygen without a cause is over-intervention.",
+      "Premature conclusion before basic assessment."
+    ]
+  },
+  {
+    "id": "cb-np2-0010",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Routine chest physiotherapy order",
+    "noteId": "np2-pd-asthma",
+    "vignette": "A 6-year-old with asthma is admitted in an acute attack: audible wheeze, breathing 40/min, retractions, sitting upright. A standing order reads \"chest physiotherapy every 4 hours\". It is time for the next session and the child's mother is willing to help with clapping.",
+    "stem": "What should the nurse do?",
+    "rationale": "Curve ball: an active order feels like a duty. 1. Cue: acute wheeze and retractions. 2. Principle: percussion worsens bronchospasm. 3. Rule: the patient's current state overrides a routine order. Flip: between attacks with thick secretions, it may be appropriate.",
+    "strategy": "Question a routine order when the cue changes",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Chest physiotherapy is not for an acute attack.",
+      "Upright position, oxygen, bronchodilators."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Proceed as ordered because it will loosen secretions",
+      "Hold the chest physiotherapy, keep him upright, give the ordered bronchodilator and notify the provider",
+      "Lay him flat for postural drainage and clap for five minutes, and document the response in the chart and repeat the check one hour later",
+      "Ask the mother to do it gently while the nurse documents"
+    ],
+    "answer": [
+      1
+    ],
+    "optionRationales": [
+      "Follows a routine order without applying the clinical cue.",
+      "Correct: chest physiotherapy is not done during an acute attack because it can worsen bronchospasm and fatigue.",
+      "Flat positioning worsens breathing in distress.",
+      "Delegates an unsafe action to an untrained person."
+    ]
+  },
+  {
+    "id": "cb-np2-0011",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Sudden colour change in an infant",
+    "noteId": "np2-pd-tof",
+    "vignette": "A 10-month-old with tetralogy of Fallot is crying hard during a blood draw. He suddenly becomes limp, pale to blue, and breathing fast. His mother is screaming. The nurse hears the doctor is on another floor.",
+    "stem": "What is the nurse's first action?",
+    "rationale": "Curve ball: an unresponsive blue baby triggers compressions or sedation, but a simple position treats the cause. 1. Cue: spell with known TOF. 2. Principle: shunt direction depends on resistances. 3. Rule: position, oxygen, calm. Flip: if pulseless, resuscitation applies.",
+    "strategy": "Know the position that fixes the physiology",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Tet spell: knee-chest position first, then oxygen and calm.",
+      "Knee-chest raises systemic resistance."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Lay him flat on the bed and begin chest compressions at once, and review the plan again at the end of the shift",
+      "Take him to the nursery to calm him away from the mother",
+      "Place him in the knee-chest position, with knees drawn up, while calling for help",
+      "Give a sedative from the unit stock to calm him down quickly"
+    ],
+    "answer": [
+      2
+    ],
+    "optionRationales": [
+      "Over-intervention; the pulse is present and this is a spell.",
+      "Delays treatment and moves the child away from help.",
+      "Correct: it raises systemic resistance and sends more blood to the lungs.",
+      "Not ordered and not first; positioning must come before drugs."
+    ]
+  },
+  {
+    "id": "cb-np2-0012",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Early pregnancy with shoulder pain",
+    "noteId": "np2-ob-ectopic",
+    "vignette": "A woman, 8 weeks by dates, is waiting in the clinic after a positive home test. She has mild lower abdominal discomfort and spotting. Her BP is 110/70 and pulse 88. While lying on the exam table she says the pain is also in her right shoulder, and she asks if she may go home to get her child.",
+    "stem": "What should the nurse do?",
+    "rationale": "Curve ball: the vitals are stable and the pain is mild, so discharge feels safe. 1. Cue: shoulder pain. 2. Principle: hemoperitoneum irritates the diaphragm. 3. Rule: unstable-looking cues override stable numbers. Flip: with typical cramping and no referred pain, closer follow-up might suffice.",
+    "strategy": "Odd symptom in the wrong place points to a hidden complication",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Ectopic findings: amenorrhea, spotting, unilateral lower abdominal pain, shoulder pain with rupture.",
+      "Rupture can cause shock."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Reassure her that spotting and mild cramps are common and discharge her",
+      "Give a heat pack and ask her to return if bleeding increases",
+      "Ask her to describe the shoulder pain further before doing anything else",
+      "Keep her on bed rest, start vital sign checks and notify the provider for a possible ruptured ectopic pregnancy"
+    ],
+    "answer": [
+      3
+    ],
+    "optionRationales": [
+      "Under-reaction; the shoulder pain is the key cue.",
+      "Heat does not treat the cause and delays assessment.",
+      "Assessing is useful but should not delay protective steps in a possible internal bleed.",
+      "Correct: shoulder pain with early pregnancy bleeding suggests blood irritating the diaphragm."
+    ]
+  },
+  {
+    "id": "cb-np2-0013",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Leaking fluid test",
+    "noteId": "np2-ob-first-stage",
+    "vignette": "A woman at 40 weeks reports that her underwear is wet and she thinks her water broke. Contractions are absent. The nurse touches nitrazine paper to the fluid and it stays yellow. The husband insists they go to the delivery room.",
+    "stem": "What should the nurse conclude?",
+    "rationale": "Curve ball: the husband and the due date push toward admission. 1. Cue: yellow paper. 2. Principle: amniotic fluid is alkaline. 3. Rule: interpret the result, not the story. Flip: blue paper would confirm rupture and trigger fetal heart checks.",
+    "strategy": "Interpret the test before acting",
+    "archetype": "curve-ball",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Nitrazine: blue = alkaline = amniotic fluid; yellow = acidic = urine."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "The fluid is acidic and likely urine, so rupture of the membranes is not confirmed",
+      "The fluid is amniotic, so she should be admitted in labor",
+      "The test is invalid because contractions are absent",
+      "The fluid is likely blood, so the placenta should be checked, before reassessing the situation later in the shift"
+    ],
+    "answer": [
+      0
+    ],
+    "optionRationales": [
+      "Correct: blue-green indicates alkaline amniotic fluid, yellow indicates acidic fluid.",
+      "Reads the colour backwards.",
+      "No such requirement; the test works regardless of contractions.",
+      "Blood does not change the nitrazine paper to yellow."
+    ]
+  },
+  {
+    "id": "cb-np2-0014",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Lochia that goes back to red",
+    "noteId": "np2-ob-lochia",
+    "vignette": "On day 6 after a vaginal birth, a mother telephones the health center. Her discharge had been pink-brown since day 4, but this morning it became bright red with a few small clots after she spent the day doing household chores. She feels no fever and the discharge has no odor. A colleague says it is normal with activity.",
+    "stem": "What should the nurse advise?",
+    "rationale": "Curve ball: activity is a convincing explanation. 1. Cue: pink-brown back to bright red with clots on day 6. 2. Principle: stages only move forward. 3. Rule: rule-breaking pattern means reassess. Flip: a small increase in pink-brown flow after activity could be reassured.",
+    "strategy": "A reversal of a normal sequence is abnormal",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Lochia stages (rubra, serosa, alba) do not reverse.",
+      "Late postpartum hemorrhage: retained fragments."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Reassure her that more activity increases flow and she should rest tomorrow, then explain the reason to the family",
+      "Have her checked soon, because the return of bright red flow may mean retained tissue or late bleeding",
+      "Tell her to take her temperature and call back only if it rises",
+      "Advise her to use a tighter binder and continue her chores"
+    ],
+    "answer": [
+      1
+    ],
+    "optionRationales": [
+      "Accepts a plausible explanation that ignores the stage order.",
+      "Correct: the order of lochia stages does not reverse.",
+      "Waits for infection signs when the problem is bleeding.",
+      "Unsafe habit; a binder does not treat the cause."
+    ]
+  },
+  {
+    "id": "cb-np2-0015",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Bowel outside the abdomen",
+    "noteId": "np2-pd-wall-defects",
+    "vignette": "A newborn is born with loops of bowel outside the abdomen lateral to the umbilicus with no covering. The cord is intact on the other side. The infant is pink and crying. The father asks the nurse to push the bowel back so the baby can be held.",
+    "stem": "What should the nurse do?",
+    "rationale": "Curve ball: the baby looks well, so a gentle reduction or bonding feels harmless. 1. Cue: bowel outside with no sac. 2. Principle: exposed bowel dries, loses heat and its blood supply is fragile. 3. Rule: protect, moisten, wrap, and move to surgery. Flip: an intact sac still needs a moist cover.",
+    "strategy": "Protect exposed tissue",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Gastroschisis: bowel lateral to the umbilicus without sac; cover with moist saline pads and plastic.",
+      "Surgery within hours."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Gently replace the bowel into the abdomen and apply a snug dressing",
+      "Cover it with dry gauze and place the baby under a radiant warmer",
+      "Cover the bowel loosely with warm saline-soaked sterile gauze and a plastic wrap, then arrange surgery",
+      "Let the father hold the baby skin to skin for bonding before transfer, and document the response in the chart"
+    ],
+    "answer": [
+      2
+    ],
+    "optionRationales": [
+      "Pushing it back risks injury and cutting off blood supply.",
+      "Dry gauze sticks and dries the tissue.",
+      "Correct: protects against drying and heat loss without pressure on the exposed bowel.",
+      "Exposed bowel needs protection and urgent surgery, not delay."
+    ]
+  },
+  {
+    "id": "cb-np2-0016",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Medicine for a toddler",
+    "noteId": "np2-pd-toddler-dev",
+    "vignette": "A 2-year-old with an ear infection has refused his oral medicine twice and says \"no\" to everything. His mother asks the nurse to give it while she holds him. The nurse has a syringe with the dose and a choice of a spoon, a cup, or a favourite cartoon cup.",
+    "stem": "What should the nurse do?",
+    "rationale": "Curve ball: the polite 'are you ready?' feels gentle but sets up refusal. 1. Cue: repeated no. 2. Principle: autonomy versus shame. 3. Rule: limited choices, no yes/no questions. Flip: a child who cooperates needs no special strategy.",
+    "strategy": "Match the communication to the developmental stage",
+    "archetype": "curve-ball",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Toddlers use negativism to test independence; offer choices and avoid yes/no questions."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Ask \"Are you ready to take your medicine now?\" in a friendly voice",
+      "Explain the infection and how the medicine kills bacteria in detail",
+      "Mix it into his favourite drink without telling him",
+      "Say \"It is medicine time. Do you want to take it from the cartoon cup or the spoon?\""
+    ],
+    "answer": [
+      3
+    ],
+    "optionRationales": [
+      "A yes/no question invites the expected \"no\".",
+      "Toddlers cannot use abstract reasoning.",
+      "Deception can damage trust and may mean an incomplete dose.",
+      "Correct: a limited choice supports autonomy and avoids a yes/no question that invites refusal."
+    ]
+  },
+  {
+    "id": "cb-np2-0017",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Heartburn in a hypertensive woman",
+    "noteId": "np2-ob-hellp",
+    "vignette": "A woman at 35 weeks with a BP of 156/102 at her last visit calls the maternity unit. She has had nausea since yesterday, bad heartburn that is not relieved by antacids, and pain just under her right ribs. She says it must be the heavy dinner. Her ankles are puffy.",
+    "stem": "What should the nurse advise?",
+    "rationale": "Curve ball: heartburn is common in pregnancy, so reassurance feels right. 1. Cue: hypertension, RUQ pain, antacid failure. 2. Principle: liver involvement in severe PIH. 3. Rule: context changes meaning. Flip: normal BP and relief with antacids would suggest heartburn.",
+    "strategy": "A common symptom with a dangerous context",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "HELLP: epigastric or RUQ pain, nausea, hypertension; report at once."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Come to the hospital now for evaluation, as this may be HELLP syndrome",
+      "Take a second antacid and sleep with extra pillows",
+      "Stay on a bland diet and call again if the pain persists tomorrow, while the rest of the team continues routine work",
+      "Check the BP at home and come only if it exceeds 170/110"
+    ],
+    "answer": [
+      0
+    ],
+    "optionRationales": [
+      "Correct: upper right abdominal pain in a hypertensive pregnant woman is a red flag.",
+      "Treats the symptom; misses the cause.",
+      "Delays assessment by a day.",
+      "Sets an unsafe threshold; the pain alone justifies a visit."
+    ]
+  },
+  {
+    "id": "cb-np2-0018",
+    "v": 2,
+    "type": "sata",
+    "area": "NP2",
+    "topic": "Care in preterm PROM",
+    "noteId": "np2-ob-prom-cord-prolapse",
+    "vignette": "A woman at 33 weeks has had preterm rupture of membranes for 10 hours. She has no contractions, her temperature is 37.2 C and the fetal heart is 144. The provider plans expectant management.",
+    "stem": "Which actions are appropriate? Select all that apply.",
+    "rationale": "Curve ball: relaxing tub baths and routine vaginal exams look like comfort and monitoring but add infection risk. 1. Cue: ruptured membranes. 2. Principle: the barrier against infection is gone. 3. Rule: avoid introducing organisms. Flip: after delivery of the baby these restrictions end.",
+    "strategy": "Prevent infection and watch the fetus",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "PPROM management: monitor temperature and fetal heart, steroids, bed rest.",
+      "Infection risk rises after about 24 hours."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Take her temperature at regular intervals",
+      "Perform a digital vaginal exam each shift to check dilation",
+      "Monitor the fetal heart rate",
+      "Allow tub baths to help her relax",
+      "Expect an order for betamethasone to help fetal lung maturity",
+      "Encourage unrestricted walking around the unit"
+    ],
+    "answer": [
+      0,
+      2,
+      4
+    ],
+    "optionRationales": [
+      "Correct: fever is an early sign of infection.",
+      "Increases infection risk and is avoided without need.",
+      "Correct: watch for cord problems and distress.",
+      "Water can ascend into the vagina and raise infection risk.",
+      "Correct: steroids speed lung maturation.",
+      "Bed rest is part of management to limit cord prolapse and labor."
+    ]
+  },
+  {
+    "id": "cb-np2-0019",
+    "v": 2,
+    "type": "sata",
+    "area": "NP2",
+    "topic": "Preventing newborn heat loss",
+    "noteId": "np2-pd-nb-vitals",
+    "vignette": "A nurse prepares to receive a term infant from the delivery room in a cool, air-conditioned nursery. She plans how to prevent cold stress.",
+    "stem": "Which actions help prevent heat loss? Select all that apply.",
+    "rationale": "Curve ball: bathing and weighing look like routine hygiene and measurement but chill the baby. 1. Cue: cool nursery. 2. Principle: newborns lose heat by four routes. 3. Rule: block each. Flip: a warm environment still needs drying.",
+    "strategy": "Reduce conduction, convection, evaporation",
+    "archetype": "curve-ball",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Dry the baby, cover the head, keep skin-to-skin or under a warmer, avoid drafts."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Dry the infant right away and replace the wet cloth",
+      "Cover the head with a cap",
+      "Weigh him on the metal scale without a liner",
+      "Give a full bath immediately after birth to remove vernix",
+      "Keep him skin to skin or under a radiant warmer",
+      "Place the crib beside the air-conditioner vent"
+    ],
+    "answer": [
+      0,
+      1,
+      4
+    ],
+    "optionRationales": [
+      "Correct: wet skin loses heat fast.",
+      "Correct: the head is a large surface.",
+      "Cold metal draws heat by conduction.",
+      "Bathing early causes heat loss; delay the bath.",
+      "Correct: warm surfaces preserve heat.",
+      "Drafts speed heat loss by convection."
+    ]
+  },
+  {
+    "id": "cb-np2-0020",
+    "v": 2,
+    "type": "cloze",
+    "area": "NP2",
+    "topic": "Projectile vomiting",
+    "noteId": "np2-pd-pylorus",
+    "vignette": "A 5-week-old boy vomits forcefully after every feeding. He is hungry again right after, and has fewer wet diapers. The nurse feels a small firm mass on the right of the epigastrium.",
+    "stem": "His vomit is {{1}} because the narrowing lies {{2}} the entry of the bile duct, and the main early danger is {{3}}.",
+    "rationale": "Curve ball: intense vomiting seems to point to a lower bowel block with green bile, but this block is above the bile duct. 1. Cue: hungry after vomiting, olive mass. 2. Principle: location determines vomit colour. 3. Rule: bilious vomiting is lower obstruction. Flip: green vomit would raise concern for lower obstruction such as Hirschsprung disease.",
+    "strategy": "Locate the obstruction to predict the vomit",
+    "archetype": "curve-ball",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Pyloric stenosis: non-bilious projectile vomit, olive-shaped mass, dehydration."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [],
+    "answer": [],
+    "optionRationales": [
+      "Non-bilious: the blockage is at the stomach outlet, above where bile enters the bowel, so vomit has no bile. Bile-stained vomit would suggest a lower obstruction.",
+      "Before: the narrowing lies before the bile duct entry, which is why bile cannot appear in the vomit.",
+      "Dehydration with electrolyte imbalance: repeated vomiting loses fluid and electrolytes, which is the main early danger; the fewer wet diapers fit this."
+    ],
+    "blanks": [
+      {
+        "choices": [
+          "non-bilious",
+          "bile-stained",
+          "bloody"
+        ],
+        "answer": 0
+      },
+      {
+        "choices": [
+          "before",
+          "after",
+          "at"
+        ],
+        "answer": 0
+      },
+      {
+        "choices": [
+          "dehydration with electrolyte imbalance",
+          "aspiration pneumonia only",
+          "constipation"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "cb-np2-0021",
+    "v": 2,
+    "type": "highlight",
+    "area": "NP2",
+    "topic": "Progression of pre-eclampsia",
+    "noteId": "np2-ob-pih-preeclampsia",
+    "vignette": "A woman at 34 weeks with mild pre-eclampsia returns for a visit. The nurse records the findings below.",
+    "stem": "Select the findings that show the condition has progressed to severe pre-eclampsia.",
+    "rationale": "Curve ball: edema and weight gain are the famous signs, so they attract attention but are ordinary here; the numbers and epigastric pain mark severity. 1. Cue: BP, protein and pain. 2. Principle: severe disease features. 3. Rule: use thresholds, not visible puffiness. Flip: new visual disturbance would be added.",
+    "strategy": "Separate severe signs from ordinary ones",
+    "archetype": "curve-ball",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Severe pre-eclampsia: BP about 160/110, proteinuria 3+ to 4+, epigastric pain."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true,
+    "options": [
+      "Mild ankle puffiness in the evening",
+      "Blood pressure 166/112",
+      "Weight gain of 0.5 kg since the last visit",
+      "Urine protein 3+",
+      "New pain in the upper abdomen",
+      "Reports the baby moves normally"
+    ],
+    "answer": [
+      1,
+      3,
+      4
+    ],
+    "optionRationales": [
+      "Not a sign of severe disease: mild evening ankle puffiness is common and is expected even in mild pre-eclampsia.",
+      "Severe feature: a blood pressure of 166/112 is in the severe range, showing progression.",
+      "Not a sign of severe disease: a gain of 0.5 kg is small and does not mark severity.",
+      "Severe feature: urine protein of 3+ shows heavier kidney involvement.",
+      "Severe feature: new upper abdominal pain suggests liver involvement and is a warning sign.",
+      "Reassuring: normal fetal movement is a good sign and does not indicate progression."
+    ]
+  }
+]

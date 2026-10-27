@@ -1,0 +1,808 @@
+[
+  {
+    "id": "np2-0079",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Tet spell",
+    "noteId": "np2-pd-tof",
+    "vignette": "An 8-month-old with tetralogy of Fallot cries hard during a blood draw, then becomes deeply blue, limp and pale. His mother is screaming and a nursing student runs for an oxygen mask. The physician is not yet in the room.",
+    "stem": "What should the nurse do FIRST?",
+    "options": [
+      "Hold the oxygen mask firmly over his face while he is lying flat on his back",
+      "Run to find the physician and wait for orders before moving the infant at all",
+      "Give him a feed to calm him down and to settle his breathing after crying",
+      "Place him in the knee-chest position, then give oxygen and keep him calm"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: crying precipitated cyanosis, pallor and limpness in a known tetralogy patient: a tet spell.\n2. Principle: in a tet spell place the infant knee-chest (side-lying with knees up for infants) because it raises systemic resistance and brings more blood to the lungs; then oxygen, calm, warmth and ordered drugs.\n3. Priority rule: the position change is immediate and costs nothing; a mask forced on a crying infant increases distress.\n4. Flip: if the infant were pink and quiet, usual care would continue.",
+    "optionRationales": [
+      "Right measure, wrong order: a forced mask in the supine position agitates and does not improve flow to the lungs.",
+      "Under-reaction by waiting: the spell is an emergency and positioning cannot wait.",
+      "Treats the cause wrongly: feeding a hypoxic, limp infant risks aspiration.",
+      "Correct: the knee-chest position reverses the shunt effect fastest."
+    ],
+    "strategy": "Knee-chest first: raise systemic resistance",
+    "archetype": "first action in a hypercyanotic spell",
+    "difficulty": 5,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Tet spell: knee-chest position, then oxygen, keep calm and warm.",
+      "Tetralogy: pulmonary stenosis, RV hypertrophy, overriding aorta, VSD."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0080",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Finishing the antibiotic course",
+    "noteId": "np2-pd-x-rf-agn-strep",
+    "vignette": "A 7-year-old with strep throat was started on a 10-day antibiotic. On day 3 his fever is gone and he is eating well. His mother tells the nurse she will stop the tablets \"because he is cured\" and save the rest for his sister.",
+    "stem": "What is the nurse's BEST response?",
+    "options": [
+      "Agree that the tablets can be stopped once the fever is gone and he is eating normally",
+      "Suggest she give the leftover tablets to his sister only if she develops a sore throat",
+      "Explain that the entire course must be finished to prevent kidney and heart problems",
+      "Tell her to stop the tablets and to return only if he develops a fever again"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: symptom relief on day 3 and a plan to stop early and share.\n2. Principle: untreated or partly treated group A strep can lead to acute glomerulonephritis (about 5 to 21 days later) and rheumatic fever (about 2 to 6 weeks later) with valve damage; the entire antibiotic course must be taken even when symptoms improve.\n3. Sharing medicine is unsafe and does not treat the sister properly.\n4. Flip: if the physician changed the antibiotic because of a reaction, the new course would then be completed.",
+    "optionRationales": [
+      "Unsafe common habit: stopping when symptoms go leaves bacteria that trigger complications.",
+      "Unsafe: sharing prescription drugs is inappropriate and incomplete treatment.",
+      "Correct: it protects against the delayed complications.",
+      "Under-reaction: fever recurrence is not the only warning; late complications appear after symptoms are gone."
+    ],
+    "strategy": "Complete the full course to prevent complications",
+    "archetype": "prevent delayed complications",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Strep complications: glomerulonephritis 5 to 21 days, rheumatic fever 2 to 6 weeks.",
+      "Take the entire antibiotic course even when symptoms improve."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0081",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Care of a myelomeningocele",
+    "noteId": "np2-pd-spina-bifida",
+    "vignette": "A 2-hour-old newborn has a large, thin-walled sac over his lower back that is oozing a little clear fluid. His mother asks to hold him close on her chest and breastfeed right away. His legs move weakly.",
+    "stem": "What should the nurse do FIRST?",
+    "options": [
+      "Place him on his back on his mother's chest so that she can breastfeed him now",
+      "Cover the sac with a sterile moist non-adherent dressing and position him prone",
+      "Clean the sac with an antiseptic solution and leave it open to dry in the air",
+      "Cover the sac with dry gauze taped firmly so that no fluid soaks the bed"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: an open sac leaking fluid, weak legs and a mother wanting to hold him.\n2. Principle: protect the sac first: sterile, moist, non-adherent dressing with aseptic technique (CNS infection risk); position prone to reduce tension on the sac; assess neurologic status, head circumference and fontanel; surgery within 24 to 48 hours.\n3. Priority rule: prevent infection before bonding or feeding, then arrange bonding in a safe position.\n4. Flip: if the lesion were a small dimple with no sac (occulta), no special protection would be needed.",
+    "optionRationales": [
+      "Right goal, wrong time: lying on the back puts pressure on the sac.",
+      "Correct: it protects the sac from drying and infection and reduces tension.",
+      "Unsafe: antiseptics and drying injure the delicate tissue.",
+      "Unsafe: dry adherent gauze sticks to the sac and damages it when removed."
+    ],
+    "strategy": "Protect the sac: moist sterile dressing and prone",
+    "archetype": "protect the sac",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Protect the sac with a sterile, moist, non-adherent dressing; prone position.",
+      "Surgery is usually done within 24 to 48 hours."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0082",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Positioning after shunt surgery",
+    "noteId": "np2-pd-hydrocephalus",
+    "vignette": "A 4-month-old returns from surgery for a ventriculoperitoneal shunt. He is asleep on the side where the shunt valve was placed. His mother asks if she can turn him over to feed him when he wakes.",
+    "stem": "How should the nurse position him after surgery?",
+    "options": [
+      "On the operated side so that the shunt drains better with gravity",
+      "Prone with the head turned to the side so that he cannot vomit",
+      "Sitting upright at all times so that the fluid drains quickly",
+      "On the unoperated side, to avoid pressure on the valve"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cue: a fresh shunt valve and an infant lying on it.\n2. Principle: post-op, lay the child on the unoperated side to avoid pressure on the valve; keep flat as prescribed to prevent sudden drainage; watch vital and neuro signs, infection and drainage.\n3. Follow the surgeon's orders about the head position.\n4. Flip: if the order was to elevate the head because of rising pressure, the head of the bed would be raised.",
+    "optionRationales": [
+      "Pressure on the valve is the problem.",
+      "Right goal of preventing vomiting, wrong position: prone position can press on the operated area.",
+      "Unsafe: sitting upright can cause too rapid drainage after surgery.",
+      "Correct: it protects the valve from pressure."
+    ],
+    "strategy": "Lay on the unoperated side",
+    "archetype": "protect the valve",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "After a V-P shunt, lay the child on the unoperated side; follow the order on head elevation."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0083",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Conserving energy in infant heart failure",
+    "noteId": "np2-pd-x-chf-child",
+    "vignette": "A 3-month-old with a large ventricular septal defect sweats on her forehead and breathes fast while feeding, and stops after a few sucks. She gained little weight this month. Her mother feeds her large amounts every four hours so that she has less handling.",
+    "stem": "Which feeding plan is best?",
+    "options": [
+      "Large feedings every four hours so that she is disturbed as little as possible",
+      "Feeding while she lies flat so that she can swallow without tiring",
+      "Waking her every hour for assessments and an additional oral feed",
+      "Small frequent feedings in a semi-upright position, with care clustered"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: easy fatigue, brow sweating and fast breathing with feeding, poor weight gain.\n2. Principle: in heart failure reduce energy use: cluster care, small frequent feedings, minimize crying, upright or semi-upright position; give digoxin and diuretics as ordered and weigh daily.\n3. Large infrequent feeds increase workload and breathlessness.\n4. Flip: if she fed comfortably, with steady weight gain, her usual plan could continue.",
+    "optionRationales": [
+      "Wrong approach: big feeds tire her and worsen breathing.",
+      "Unsafe: lying flat worsens breathlessness.",
+      "Over-intervention: constant waking prevents rest and wastes energy.",
+      "Correct: it lowers workload and supports weight gain."
+    ],
+    "strategy": "Reduce energy use",
+    "archetype": "reduce cardiac workload",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "CHF care: upright position, small frequent feedings, cluster care, minimize crying.",
+      "Brow sweating during feeding shows easy fatigue."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0084",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Fluid and sodium changes in meningitis",
+    "noteId": "np2-pd-meningitis",
+    "vignette": "On day 2 of treatment for bacterial meningitis, a 14-month-old is more drowsy. His urine output has dropped, his weight is up by 300 g, and the morning sodium is low. His mother, worried he is dry, asks the nurse to give him extra drinks.",
+    "stem": "What is the nurse's BEST action?",
+    "options": [
+      "Encourage extra oral fluids because the child may be dehydrated from fever",
+      "Report the findings as possible SIADH and ask about fluid orders first",
+      "Give a rapid IV fluid bolus to restore urine output at once",
+      "Record the findings and recheck them in 12 hours with the next set of labs"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: meningitis, falling urine output, weight gain, low sodium and rising drowsiness.\n2. Principle: watch for SIADH (fluid retention, cerebral edema, low sodium) in meningitis; control temperature, neuro checks and careful intake and output.\n3. Giving fluids to a child who is retaining water raises the risk of cerebral edema.\n4. Flip: if the child had dry mucosa, weight loss and high urine concentration, more fluid would be appropriate.",
+    "optionRationales": [
+      "Treats the wrong cause: the weight gain and low sodium show retention, not dryness.",
+      "Correct: findings fit SIADH and need prompt medical review before more fluid.",
+      "Over-intervention: a bolus would worsen retention and cerebral edema.",
+      "Under-reaction: waiting 12 hours risks worsening edema and seizures."
+    ],
+    "strategy": "Recognize a complication and report",
+    "archetype": "recognize SIADH",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Monitor for SIADH in meningitis: fluid retention, cerebral edema, low sodium.",
+      "Meningitis: nuchal rigidity, Kernig's and Brudzinski's signs, low CSF glucose."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0085",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Safe feeding in cerebral palsy",
+    "noteId": "np2-pd-cp",
+    "vignette": "A 3-year-old with spastic cerebral palsy has trouble coordinating swallowing and chokes on thin drinks. His mother has little time, so she feeds him quickly while he lies back on the couch. He is underweight.",
+    "stem": "What should the nurse teach her?",
+    "options": [
+      "Feed him quickly while he is reclined so that he will not tire",
+      "Feed him upright and allow plenty of time",
+      "Give only thin liquids by cup to avoid pocketing food in his mouth",
+      "Avoid feeding him until he is able to swallow without any effort"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: swallowing incoordination, choking, reclined feeding and underweight.\n2. Principle: promote adequate nutrition: feeding can be hard, so position upright and allow time because of aspiration risk; keep a safe environment and promote maximum self-help skills.\n3. Rushing and reclining increase the risk of aspiration.\n4. Flip: with coughing, wet voice and fever after meals, aspiration would be suspected and reported.",
+    "optionRationales": [
+      "Unsafe: reclined, rushed feeding invites aspiration.",
+      "Correct: it reduces aspiration and supports nutrition.",
+      "Unsafe: thin liquids are hardest to control.",
+      "Under-reaction: withholding feeding worsens his nutrition."
+    ],
+    "strategy": "Upright, slow, aspiration precautions",
+    "archetype": "prevent aspiration",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Cerebral palsy: feed upright and allow time (aspiration risk); promote independence."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0086",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Stoma assessment after surgery",
+    "noteId": "np2-pd-hirschsprung",
+    "vignette": "On the first day after a temporary colostomy for Hirschsprung's disease, an infant's stoma is dark purple-blue and dry. His abdominal girth is 1 cm larger than at the last measurement and he has not passed gas. His mother asks if the color is normal.",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Reassure her that a dark stoma is normal in the first days",
+      "Report the dusky stoma and rising girth to the surgeon",
+      "Cover the stoma with dry gauze and recheck at the end of the shift",
+      "Give oral fluids to see if the stoma becomes redder"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: dark, dry stoma and a rising abdominal girth after surgery.\n2. Principle: a healthy stoma is red and moist; check the stoma and incision and measure abdominal girth daily; the infant is NPO until bowel sounds or flatus return.\n3. A dusky stoma suggests poor blood supply and an increasing girth suggests obstruction or distention.\n4. Flip: a red, moist stoma with stable girth would be recorded as expected.",
+    "optionRationales": [
+      "False reassurance: a healthy stoma is red and moist.",
+      "Correct: both findings are abnormal and need prompt surgical review.",
+      "Under-reaction: waiting until the end of the shift delays treatment.",
+      "Unsafe: oral intake is withheld until bowel function returns."
+    ],
+    "strategy": "Report a dusky stoma",
+    "archetype": "healthy versus unhealthy stoma",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "A healthy stoma is red and moist; measure abdominal girth daily.",
+      "NPO until bowel sounds or flatus return."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0087",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Acute distress in a child with a heart defect",
+    "noteId": "np2-pd-chd-overview",
+    "vignette": "A 5-month-old with a known acyanotic heart defect is brought in with a moist cough, sweating all over, severe breathlessness and an enlarged liver. His mother says he refused his last two feeds and asks whether he should be weighed first.",
+    "stem": "What should the nurse do FIRST?",
+    "options": [
+      "Weigh him and record his intake and output before anything else",
+      "Offer a feed so that he is stronger for the examination",
+      "Raise his head and give oxygen as ordered; call the physician",
+      "Lay him flat for an easier examination of the heart"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: moist cough, diaphoresis, severe dyspnea and an enlarged liver in an infant with a heart defect.\n2. Principle: congestive heart failure is the most common complication; airway and oxygenation come first when the child is in distress; keep upright and conserve energy.\n3. Priority rule: Maslow oxygenation first; weights and feeds follow stabilization.\n4. Flip: if he were calm with only a murmur and normal feeding, routine assessment and weight would be done first.",
+    "optionRationales": [
+      "Right task, wrong time: weighing is part of care but follows stabilization.",
+      "Right goal, wrong time: feeding a dyspneic infant risks aspiration and tires him.",
+      "Correct: oxygenation and position relieve distress.",
+      "Unsafe: lying flat worsens breathlessness."
+    ],
+    "strategy": "Airway and oxygenation first in distress",
+    "archetype": "airway and oxygenation first",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Murmur is the most common sign of heart disease; CHF is the most common complication.",
+      "Airway and oxygenation first when the child is in distress."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0088",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "New cyanosis in a child with VSD",
+    "noteId": "np2-pd-vsd-asd",
+    "vignette": "A 6-year-old with an unrepaired ventricular septal defect, followed in a rural clinic, has always been pink. His mother now says his lips turn bluish when he runs and he tires more easily. He had a cold last week and the weather is cool today.",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Explain that bluish lips after a cold and cool weather are normal in children",
+      "Report the new cyanosis with exertion; the shunt may be reversing",
+      "Advise the family that VSD has no complications and to return in a year",
+      "Treat him for asthma since breathlessness with running is common"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: new central bluish color with exertion in a child with an untreated VSD.\n2. Principle: a large VSD can lead to pulmonary hypertension and Eisenmenger syndrome, in which the shunt reverses to right-to-left; new cyanosis is therefore a red flag.\n3. The cold and weather are plausible explanations that must not delay referral.\n4. Flip: if the color change came only after a cold plunge and cleared with warmth, a benign cause would be likelier.",
+    "optionRationales": [
+      "Anchoring on the irrelevant detail: the cold weather does not explain central cyanosis.",
+      "Correct: it identifies a serious complication and escalates.",
+      "False reassurance: VSD can lead to pulmonary hypertension and shunt reversal.",
+      "Wrong diagnosis: breathlessness with cyanosis in a known cardiac defect is not presumed asthma."
+    ],
+    "strategy": "Recognize a late complication and report",
+    "archetype": "recognize shunt reversal",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "VSD can lead to pulmonary hypertension and Eisenmenger syndrome (shunt reverses right to left)."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0089",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Screening for coarctation",
+    "noteId": "np2-pd-pda-coa",
+    "vignette": "A 10-year-old girl has frequent headaches, dizziness and nosebleeds. Her blood pressure in the right arm is high on three visits. Her mother thinks sinus trouble is the cause. The nurse notes the leg muscles cramp when she runs.",
+    "stem": "Which assessment should the nurse do next?",
+    "options": [
+      "Check her nasal passages and arrange sinus X-rays",
+      "Test her urine for infection and refer her for glasses",
+      "Palpate femoral pulses and compare arm and leg blood pressure",
+      "Teach her to avoid straining and take pain relievers for headaches"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: high arm pressure with headache, dizziness, nosebleeds and leg cramps.\n2. Principle: coarctation of the aorta gives high blood pressure in the arms with weak or absent femoral pulses and leg cramps; the nursing focus is to compare arm and leg pulses and pressures.\n3. The nosebleeds are the irrelevant detail pointing to sinuses.\n4. Flip: if femoral pulses were strong and leg pressures equal, other causes of hypertension would be explored.",
+    "optionRationales": [
+      "Anchoring on the nosebleeds: sinus trouble does not explain the pressure.",
+      "Treats unrelated causes: urine and vision checks do not address the pattern.",
+      "Correct: it tests for the pulse and pressure difference that defines coarctation.",
+      "Treats the symptom: analgesics do not address the raised pressure."
+    ],
+    "strategy": "Compare arm and leg pressures",
+    "archetype": "compare pulses and pressures",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Coarctation: high BP in the arms, weak or absent femoral pulses, leg cramps.",
+      "Compare arm and leg pulses and pressures."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0090",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Reducing oxygen demand",
+    "noteId": "np2-pd-x-truncus-transposition",
+    "vignette": "A 2-week-old with a cyanotic heart defect awaiting surgery is crying, cold to touch, with blue lips that do not clear with crying. His mother wants to bathe him because he \"smells of milk\" and says feeding quiets him.",
+    "stem": "What is the nurse's BEST action?",
+    "options": [
+      "Bathe him as the mother requests so that he is fresh and comfortable",
+      "Let him cry for a while since crying will expand his lungs and improve the color",
+      "Feed him a large amount until the blue color clears",
+      "Keep him calm and warm, give oxygen as ordered and cluster his care"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: persistent central cyanosis, cold, crying.\n2. Principle: in cyanotic defects give airway, breathing and oxygen first; keep the child calm and warm because crying and cold raise oxygen demand; cluster care so the child can rest.\n3. Bathing and large feeds add workload.\n4. Flip: if he were pink and sleeping, routine hygiene could proceed.",
+    "optionRationales": [
+      "Raises demand: a bath chills and tires him.",
+      "Wrong belief: crying raises oxygen demand and does not clear cyanosis from the defect.",
+      "Raises demand: a large feed tires him and risks aspiration.",
+      "Correct: it lowers oxygen demand while supporting oxygenation."
+    ],
+    "strategy": "Calm, warm, oxygen: reduce demand",
+    "archetype": "cyanotic defect care",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Cyanotic defects: ABC; keep calm and warm; cluster care; crying and cold raise oxygen demand."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0091",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Worsening cyanosis on PGE1",
+    "noteId": "np2-pd-x-tricuspid-atresia",
+    "vignette": "A 3-day-old with tricuspid atresia is on an IV prostaglandin E1 infusion to keep the ductus open. At the 2 a.m. check, the infant is limp, more blue than before and his extremities are cool. The nurse also notes the IV site is swollen.",
+    "stem": "What should the nurse do FIRST?",
+    "options": [
+      "Report the change urgently and check the IV line and infusion",
+      "Increase his oxygen and reassess his color in an hour",
+      "Reduce stimulation and allow him to sleep until the morning review",
+      "Feed him to improve his strength before the day team arrives"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: new limpness, worsening cyanosis, poor perfusion and a swollen IV site in a ductus-dependent infant.\n2. Principle: survival depends on the patent foramen ovale and ductus arteriosus; PGE1 keeps the ductus open; worsening cyanosis, limpness and poor perfusion suggest the ductus is closing and need urgent reporting.\n3. A swollen site may mean the infusion has stopped.\n4. Flip: if color and perfusion were stable, routine monitoring would continue.",
+    "optionRationales": [
+      "Correct: restoring the infusion and alerting the team addresses the cause.",
+      "Under-reaction: oxygen alone does not reopen the ductus and an hour is too long.",
+      "Under-reaction: waiting until morning risks death.",
+      "Unsafe and ineffective: feeding a limp, cyanotic infant risks aspiration."
+    ],
+    "strategy": "Urgent report; check the line",
+    "archetype": "ductus may be closing",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "IV PGE1 keeps the ductus open in tricuspid atresia.",
+      "Worsening cyanosis, limpness, poor perfusion: report urgently."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0092",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Bleeding after tonsillectomy",
+    "noteId": "np2-pd-tonsillitis",
+    "vignette": "Four hours after a tonsillectomy a 6-year-old is lying on his back, asleep, and swallows again and again. His mother is offering him a cold red gelatin dessert. His vital signs are within normal limits and he looks comfortable.",
+    "stem": "What should the nurse do FIRST?",
+    "options": [
+      "Let him sleep on since his vital signs are normal and he looks quite comfortable",
+      "Offer the cold red gelatin as soon as he wakes to soothe his throat",
+      "Turn him to his side, look for bleeding in the throat and notify the surgeon",
+      "Encourage him to cough and clear his throat to remove secretions"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: repeated swallowing after tonsillectomy, supine sleeping, and normal vital signs that can mislead.\n2. Principle: frequent swallowing signals possible hemorrhage; position prone or side-lying to drain secretions; avoid coughing and throat clearing; avoid red liquids that look like blood.\n3. Priority rule: airway and bleeding first; normal vital signs may come late in a child.\n4. Flip: if he swallowed rarely and the throat showed no fresh blood, routine care would continue.",
+    "optionRationales": [
+      "Under-reaction: normal vital signs do not rule out early bleeding.",
+      "Unsafe: red liquids hide bleeding and are avoided.",
+      "Correct: it protects the airway and checks for the bleeding that swallowing may signal.",
+      "Unsafe: coughing and throat clearing can start bleeding."
+    ],
+    "strategy": "Frequent swallowing = possible hemorrhage",
+    "archetype": "frequent swallowing",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Post-tonsillectomy: frequent swallowing may mean hemorrhage; side-lying; no coughing; avoid red liquids."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0093",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Child with suspected epiglottitis",
+    "noteId": "np2-pd-epiglottitis",
+    "vignette": "In the district hospital waiting area, a 4-year-old leans forward with his chin thrust out, drools, and has a muffled voice and noisy breathing on inspiration. His temperature is 39.5 C. His father wants him to lie down for a chest X-ray, and a laboratory aide arrives to take a throat swab.",
+    "stem": "What should the nurse do FIRST?",
+    "options": [
+      "Keep him upright and calm with his father and call for airway help",
+      "Lay him flat on the X-ray table so that the radiographer can start straight away",
+      "Allow the aide to swab his throat quickly so that treatment can start earlier",
+      "Give him a cold drink to soothe his throat and reduce the drooling"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: tripod position, drooling, inspiratory stridor, high fever and a request for supine imaging and throat examination.\n2. Principle: epiglottitis is a medical emergency; protect the airway, keep the child calm, never leave him unattended, prepare for intubation or tracheostomy, and do not examine the throat or take a culture, since gagging can close the airway.\n3. Priority rule: airway first, diagnostics later.\n4. Flip: if his breathing were quiet with no drooling and a mild sore throat, a swab would be appropriate.",
+    "optionRationales": [
+      "Correct: it protects the airway and avoids agitation.",
+      "Unsafe: lying flat can obstruct the swollen epiglottis.",
+      "Unsafe: throat swabbing can cause complete airway closure.",
+      "Treats the symptom and risks aspiration with an obstructed airway."
+    ],
+    "strategy": "ABC: protect the airway; do not upset the child",
+    "archetype": "protect the airway and do not provoke",
+    "difficulty": 5,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Epiglottitis: tripod position, drooling, stridor; protect the airway.",
+      "Never examine the throat or take a culture."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0094",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Acute asthma not responding",
+    "noteId": "np2-pd-asthma",
+    "vignette": "A 7-year-old with asthma has had wheezing, rapid labored breathing and retractions for two hours. Two nebulizer treatments have not helped. His mother asks the nurse to let her do chest clapping to \"loosen the phlegm\" and to lay him down to rest.",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Allow the clapping and postural drainage to loosen the secretions in his chest",
+      "Lay him flat and let him rest so that his breathing will slow down",
+      "Keep him upright, give oxygen and ordered drugs and prepare for ventilation",
+      "Wait one more hour to see if the nebulizer treatments begin to work"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: no response to repeated treatment, retractions and labored breathing: possible status asthmaticus.\n2. Principle: status asthmaticus is distress not responding to vigorous treatment and can end in respiratory failure; priority actions are an upright position, monitoring vital signs, breath sounds and oxygen saturation, oxygen, IV fluids and emergency drugs as ordered; chest physiotherapy is not for an acute attack.\n3. Priority rule: airway and breathing first.\n4. Flip: if wheezing cleared after one treatment, he could be observed and discharged with teaching.",
+    "optionRationales": [
+      "Unsafe: chest physiotherapy is not for an acute attack and tires the child.",
+      "Unsafe: lying flat worsens breathing difficulty.",
+      "Correct: it supports breathing and prepares for deterioration.",
+      "Under-reaction: waiting risks respiratory failure."
+    ],
+    "strategy": "Upright, oxygen, emergency treatment; no chest physiotherapy",
+    "archetype": "status asthmaticus",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Status asthmaticus: upright position, oxygen, emergency drugs, prepare for ventilation.",
+      "Chest physiotherapy is not for an acute attack."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0095",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Positioning after lip repair",
+    "noteId": "np2-pd-cleft",
+    "vignette": "A 3-month-old returns from cheiloplasty (lip repair) with a lip protector in place. A parent has placed him prone and he rubs his face against the sheet. His sister had a palate repair last year and slept prone afterwards, so the mother says it must be fine.",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Reposition him on his back or on the side opposite the repair",
+      "Leave him prone since that is also how palate repairs are positioned",
+      "Remove the lip protector so that he is more comfortable on his front",
+      "Turn him toward the repaired side so that secretions drain from the lip"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: a fresh lip repair, prone position and rubbing, and a mother who extends advice from a palate repair.\n2. Principle: after lip repair keep the lip protector, lie on the back or side opposite the repair and not prone; after palate repair the child may lie prone.\n3. The suture line is protected from rubbing and pressure.\n4. Flip: after a palatoplasty, prone would be acceptable.",
+    "optionRationales": [
+      "Correct: it protects the lip suture line.",
+      "Plausible detail from a similar operation: prone is allowed after palate repair but not lip repair.",
+      "Unsafe: removing the protector exposes the repair to tension and injury.",
+      "Unsafe: lying on the repaired side puts pressure on the suture line."
+    ],
+    "strategy": "Lip repair: not prone; palate repair may be prone",
+    "archetype": "protect the suture line",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "After lip repair: back or side opposite the repair, not prone; after palate repair may lie prone."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0096",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Preparing an infant with pyloric stenosis",
+    "noteId": "np2-pd-pylorus",
+    "vignette": "A 5-week-old boy has forceful vomiting after every feed, a palpable olive-shaped mass and sunken fontanel with few wet diapers. He cries and sucks his fist. His mother asks to give a small feed because he seems starving.",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Allow a small feed with careful burping so that he is not hungry",
+      "Give oral rehydration solution by teaspoon every ten minutes",
+      "Position him prone after each feed to reduce the vomiting",
+      "Withhold oral feeds, give IV fluids as ordered, offer a pacifier"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: projectile vomiting, an olive-shaped mass, signs of dehydration and a mother wanting to feed.\n2. Principle: dehydration and electrolyte imbalance are the main dangers; withhold oral feedings before surgery to prevent further electrolyte loss, give IV fluids, and use a pacifier for non-nutritive sucking.\n3. Any oral intake worsens vomiting and losses.\n4. Flip: after pyloromyotomy, a planned feeding schedule would be started.",
+    "optionRationales": [
+      "Right feeling, wrong action: feeding increases vomiting and electrolyte loss.",
+      "Right goal, wrong route: oral fluids will also be vomited.",
+      "Treats the symptom: positioning does not stop vomiting from an obstruction.",
+      "Correct: it limits losses and replaces fluid while meeting the sucking need."
+    ],
+    "strategy": "Dehydration is the main danger: NPO and IV fluids",
+    "archetype": "withhold feeding, fluids",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Pyloric stenosis: non-bilious projectile vomiting, olive-shaped mass; withhold oral feeding before surgery.",
+      "Give a pacifier for non-nutritive sucking."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0097",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Celiac crisis",
+    "noteId": "np2-pd-celiac",
+    "vignette": "A 2-year-old with celiac disease has had a fever and now has profuse watery diarrhea, repeated vomiting, sunken eyes and lethargy. His mother says she has been careful about gluten and wants to go over the diet list with the nurse right now.",
+    "stem": "What should the nurse do FIRST?",
+    "options": [
+      "Treat dehydration and electrolyte loss with IV fluids as ordered",
+      "Review the gluten-free diet list in detail with the mother",
+      "Offer him rice and corn foods to settle his stomach",
+      "Start vitamin supplements to correct his nutritional deficiencies"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: infection-triggered profuse diarrhea, vomiting and lethargy in a child with celiac disease: celiac crisis.\n2. Principle: celiac crisis causes rapid dehydration, electrolyte imbalance and acidosis; it is the emergency to prioritize with fluids and electrolytes.\n3. Diet teaching and supplements are long-term care.\n4. Flip: if he were well with mild loose stools, dietary review would be useful at once.",
+    "optionRationales": [
+      "Correct: it corrects the life-threatening loss.",
+      "Right topic, wrong time: diet teaching follows stabilization.",
+      "Right foods, wrong priority: oral foods will not replace losses in vomiting.",
+      "Right long-term care, wrong time: supplements do not treat the crisis."
+    ],
+    "strategy": "Circulation first: replace fluid in a crisis",
+    "archetype": "fluids and electrolytes first",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Celiac crisis: profuse diarrhea, dehydration, electrolyte imbalance, acidosis; fluids first.",
+      "Lifelong gluten-free diet."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0098",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Newborn with no stool",
+    "noteId": "np2-pd-atresia-anus",
+    "vignette": "A 20-hour-old newborn has passed no stool. The anal opening looks small and there is no response when the perianal skin is stroked. His abdomen is becoming distended. His mother asks the nurse to give him a feed because he is crying.",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Keep him nil by mouth and report the findings",
+      "Feed him to stimulate a bowel movement",
+      "Insert a rectal thermometer to see if the canal is open",
+      "Give a glycerin suppository to relieve the constipation"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: no stool at 20 hours, a narrowed anus, absent perianal wink and a distending abdomen.\n2. Principle: imperforate anus presents with no meconium, absent wink reflex and distention; check anal patency on the first exam, report no stool in 24 hours, keep NPO and prepare for surgery.\n3. Feeding or probing risks vomiting, aspiration or perforation.\n4. Flip: if he passed meconium normally at 12 hours, routine feeding would continue.",
+    "optionRationales": [
+      "Correct: it prevents complications and begins surgical preparation.",
+      "Unsafe: feeding an obstructed baby causes vomiting and distention.",
+      "Unsafe: probing a narrowed canal can injure it.",
+      "Wrong cause: the problem is anatomical and a suppository will not help."
+    ],
+    "strategy": "Keep NPO and report",
+    "archetype": "imperforate anus",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Imperforate anus: no meconium, absent wink reflex, distention; report, keep NPO."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0099",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Care of an omphalocele",
+    "noteId": "np2-pd-wall-defects",
+    "vignette": "A newborn is born with intestines visible in a translucent sac at the umbilicus. The delivery room is cool and the infant is crying. The father wants to see the baby right away, and an aide offers to wrap the sac in a dry towel.",
+    "stem": "What should the nurse do FIRST?",
+    "options": [
+      "Cover the sac with a dry towel and give the baby to the father at once",
+      "Push the bowel back into the abdomen gently to protect it",
+      "Leave the sac uncovered under the warmer so that it can be observed",
+      "Cover the sac with warm saline-soaked sterile gauze and keep him warm"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: an intact sac with exposed bowel, a cool room and well-meaning offers of a dry wrap.\n2. Principle: for omphalocele cover the sac right after birth with sterile gauze soaked in warm saline to prevent drying; protect exposed tissue from infection, drying and heat loss before surgery.\n3. Priority rule: protect the organs before bonding.\n4. Flip: if the finding were a simple umbilical hernia with intact skin, observation without covering would be appropriate.",
+    "optionRationales": [
+      "Dry towels dry and stick to tissue; bonding follows protection.",
+      "Unsafe: pushing the bowel back risks injury and infection.",
+      "Unsafe: leaving the sac exposed causes drying and heat loss.",
+      "Correct: moist, sterile and warm protection."
+    ],
+    "strategy": "Protect exposed tissue from drying and heat loss",
+    "archetype": "cover and protect",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Omphalocele: cover the sac with sterile warm saline-soaked gauze right after birth.",
+      "Protect exposed tissue from infection, drying and heat loss."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np2-0100",
+    "v": 2,
+    "type": "single",
+    "area": "NP2",
+    "topic": "Teaching about a hip abduction device",
+    "noteId": "np2-pd-ddh",
+    "vignette": "The mother of a 2-month-old with developmental dysplasia of the hip, treated with a hip-abduction device, describes how she cares for her baby. Her baby's grandmother often says the legs look \"bowed\" and should be straightened.",
+    "stem": "Which statement shows that further teaching is needed?",
+    "options": [
+      "\"I will check the skin under the straps each day for redness.\"",
+      "\"I will use a narrow, tight diaper so that his legs are held close together.\"",
+      "\"I will keep the device on as the nurse showed me and ask before taking it off.\"",
+      "\"I will not straighten his legs, even if my mother-in-law says they look bowed.\""
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cue: one statement narrows the diapering position.\n2. Principle: DDH is managed by holding the hip flexed and abducted to deepen the socket (multiple diapers, splints, casts); teach parents to apply and care for the device, check the skin, and do not narrow the diapering position.\n3. Pressing the legs together undoes the treatment.\n4. Flip: if she used extra diapers to keep the thighs apart, no further teaching would be needed.",
+    "optionRationales": [
+      "Correct practice: daily skin checks.",
+      "Correct: narrowing the diaper defeats the abducted position.",
+      "Correct practice: keep the device on as taught.",
+      "Correct practice: do not straighten the legs."
+    ],
+    "strategy": "Maintain flexion and abduction",
+    "archetype": "spot the misunderstanding",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "DDH: hip held flexed and abducted; do not narrow the diapering position; check skin."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  }
+]

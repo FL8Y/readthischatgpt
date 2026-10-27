@@ -1,0 +1,372 @@
+[
+  {
+    "id": "np1-0051",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Low coverage in the FHSIS report",
+    "noteId": "np1-x-fhsis-blocks",
+    "vignette": "A municipal report shows that only 41 percent of infants in one barangay are fully immunized. The midwife says the weekly immunization clinic has run without interruption. She also admits she has not updated the Target Client List since the last typhoon, although families have moved in and out.",
+    "stem": "What should the public health nurse do FIRST?",
+    "options": [
+      "Schedule an extra immunization drive in the barangay so that the coverage figure rises quickly",
+      "Retrain the midwife on immunization technique and supervise her clinics for the next month",
+      "Update the Target Client List against family records and a household check first",
+      "Send the 41 percent figure upward as it stands since the reporting form is already complete"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: a low figure, a clinic that ran regularly, and an outdated client list after population movement.\n2. Principle: data flow from the individual record to the Target Client List, then to the report and output; errors at the base spread upward, so low coverage is checked against the list before concluding service failure.\n3. Priority rule: assess before acting; a campaign or retraining built on a wrong denominator wastes resources.\n4. Flip: if the list were current and verified, an extra immunization drive would be the right response.",
+    "optionRationales": [
+      "Skips assessment: the figure may be wrong because of the outdated list.",
+      "Treats the wrong cause: nothing suggests a technique problem and the clinic has run regularly.",
+      "Correct: verify the base data (the client list) before interpreting the coverage figure.",
+      "Unsafe common habit: sending an unverified figure upward spreads the base error to the output reports."
+    ],
+    "strategy": "Verify the data layer before concluding service failure",
+    "archetype": "check the data base before blaming the service",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Order of data flow: individual record, client list, report, output.",
+      "Check whether the target client list is up to date before concluding service failure."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0052",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Danger signs before package services",
+    "noteId": "np1-x-child-health-programs",
+    "vignette": "A mother walks two hours with her 8-month-old for the measles vaccine and vitamin A. The baby is limp, unusually sleepy and has refused to breastfeed since last night. The mother is anxious about losing her trip and asks the midwife to \"just give the injection\".",
+    "stem": "What should the nurse do FIRST?",
+    "options": [
+      "Give the measles vaccine and vitamin A now since the family came a long way for them",
+      "Teach the mother about breastfeeding positions and ask her to return in three days",
+      "Give vitamin A only, since it is safe, and reschedule the vaccine for the next clinic day",
+      "Assess the baby for danger signs and arrange urgent care before the due services"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: a limp, sleepy infant who has stopped feeding; a mother pressing for the planned service.\n2. Principle: the child health package screens for danger signs at each contact; danger signs come first, then the preventive services that are due.\n3. Priority rule: unstable before stable; an acutely ill infant needs assessment and referral, not routine delivery of the package.\n4. Flip: if the baby were alert, feeding and afebrile with only a mild cold, the due vaccine and vitamin A would be given.",
+    "optionRationales": [
+      "Right service, wrong time: giving the package while ignoring an acutely ill infant is unsafe.",
+      "Under-reaction: teaching and waiting three days delays care for a sick infant.",
+      "Right service, wrong priority: partial package delivery does not address the baby's condition.",
+      "Correct: danger signs take priority over routine services."
+    ],
+    "strategy": "Danger signs first, then preventive services",
+    "archetype": "danger signs first, preventive services second",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Screen at each contact for danger signs; then deliver the package items that are due.",
+      "Order: danger signs first, then preventive services."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0053",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Laws on infant feeding",
+    "noteId": "np1-g-feeding-laws",
+    "vignette": "A representative of an infant formula company offers a maternity ward free formula samples and gift items to give to new mothers. The ward also practices rooming-in, and its flour is fortified.",
+    "stem": "Which law regulates the representative's offer?",
+    "options": [
+      "The Milk Code on breast milk substitutes",
+      "The Rooming-In and Breastfeeding Act of 1992",
+      "The Food Fortification Law on staple foods",
+      "The Expanded Breastfeeding Promotion Act"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cue: free formula samples and gifts, which are promotion of breast milk substitutes.\n2. Principle: the Milk Code (EO 51) regulates breast milk substitutes, including infant formula and bottle-fed complementary foods.\n3. The rooming-in law promotes mother-baby togetherness; the fortification law covers added nutrients to staple foods; the expanded breastfeeding law supports exclusive breastfeeding.\n4. Flip: if the representative were refusing to allow rooming-in, the Rooming-In and Breastfeeding Act would apply.",
+    "optionRationales": [
+      "Correct: it governs the promotion and marketing of breast milk substitutes.",
+      "Plausible detail from the vignette: it supports rooming-in, which does not address formula marketing.",
+      "Plausible detail from the vignette: it concerns fortification of rice, flour, oil and sugar.",
+      "True statement that does not answer the question: it supports breastfeeding but is not the main marketing regulation."
+    ],
+    "strategy": "Match situation to the right law",
+    "archetype": "match the situation to the law",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Milk Code (EO 51) regulates breast milk substitutes.",
+      "RA 7600 promotes rooming-in; RA 8976 is food fortification."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0054",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Environmental law and hazard",
+    "noteId": "np1-x-environmental-health-laws",
+    "vignette": "Residents report that wastewater from a food-processing plant flows into a creek where they wash clothes and bathe. Fish are dying. The same barangay also has uncollected garbage and smoke from a nearby kiln.",
+    "stem": "Which law most directly addresses the wastewater in the creek?",
+    "options": [
+      "The Clean Air Act on air pollution",
+      "The Clean Water Act on water pollution",
+      "The Ecological Solid Waste Management Act",
+      "The Toxic Substances and Hazardous Waste Act"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cue: wastewater discharged into a creek used by residents.\n2. Principle: a hazard category suggests the law: water (Clean Water Act), air (Clean Air Act), solid waste (Ecological Solid Waste Management Act), toxic and hazardous waste (the toxic substances law).\n3. Garbage and kiln smoke are other hazards in the vignette that point to different laws.\n4. Flip: if the plant were dumping drums of chemical waste, the toxic and hazardous waste law would also apply.",
+    "optionRationales": [
+      "Plausible detail from the vignette: kiln smoke points to the air law, not the creek.",
+      "Correct: discharge into a water body falls under the water law.",
+      "Plausible detail from the vignette: uncollected garbage points to the solid waste law.",
+      "Plausible but unsupported: nothing says toxic or hazardous waste is being dumped."
+    ],
+    "strategy": "Match hazard category to law",
+    "archetype": "match hazard to law",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Clean Water Act (RA 9275); Clean Air Act (RA 8749); Ecological Solid Waste Management Act (RA 9003).",
+      "A hazard category suggests the law."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0055",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Rash after herbal decoction",
+    "noteId": "np1-g-herbal-guidelines",
+    "vignette": "A mother gave her 5-year-old a decoction made by boiling lagundi and tsaang gubat leaves together because she wanted a stronger effect for a cough. The next morning he has an itchy rash on his trunk. He is playful, afebrile and breathing comfortably. She asks which leaf was at fault so that she can keep using the other.",
+    "stem": "What should the nurse advise?",
+    "options": [
+      "Stop giving the decoction, and teach her to use one plant at a time in the future",
+      "Give each leaf separately tomorrow in small amounts to find out which one caused it",
+      "Continue the decoction at half strength since he has no breathing problem",
+      "Keep the lagundi alone and stop the tsaang gubat, because lagundi is for cough"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: a rash after two herbs combined, a well child, and a mother who wants to keep one herb.\n2. Principle: stop if there is any untoward reaction; use one kind of plant at a time because a reaction cannot be traced to one plant when several are combined.\n3. Priority rule: safety first (stop), then effectiveness, then referral; testing herbs on a child to find the culprit would risk a stronger reaction.\n4. Flip: if the rash had been accompanied by lip swelling or trouble breathing, emergency care would come first.",
+    "optionRationales": [
+      "Correct: stop now and prevent repeat by teaching one plant at a time.",
+      "Unsafe common habit: re-exposing a child to find the cause can cause a worse reaction.",
+      "Under-reaction: continuing the preparation ignores a reaction.",
+      "Guessing the cause: the culprit cannot be known from a mixed decoction."
+    ],
+    "strategy": "Safety first: stop on reaction",
+    "archetype": "stop first, then teach",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Stop if there is any untoward reaction; use one kind of plant at a time.",
+      "Avoid combining several herbs: a reaction cannot be traced to one plant."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0056",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Counseling by stage of change",
+    "noteId": "np1-stop-smoking",
+    "vignette": "A 44-year-old tricycle driver who smokes 15 sticks a day tells the nurse, \"I think about quitting all the time, but I am afraid I will gain weight and snap at my family. Maybe next year.\" He has a morning cough. He asks her for advice.",
+    "stem": "Which response best fits his readiness?",
+    "options": [
+      "Help him set a quit date this week and remove cigarettes from his tricycle",
+      "Give brief advice to quit and schedule a follow-up visit in about one year",
+      "Help him weigh rewards against his fears of weight gain and irritability",
+      "Tell him his cough proves lung damage and that he must stop immediately"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: he thinks about quitting often (not precontemplation) but names fears and delays to next year (not preparation).\n2. Principle: match the intervention to the stage; a client who is ambivalent is in contemplation, and for those not ready the 5 Rs (relevance, risks, rewards, roadblocks, repetition) boost motivation.\n3. A quit date suits the preparation or action stage; one-year follow-up is under-reaction; scare tactics ignore readiness and counselling that ignores readiness fails.\n4. Flip: if he said he had a quit date set for next Monday, helping him plan substitutes and follow-up would fit.",
+    "optionRationales": [
+      "Right intervention, wrong stage: a quit date suits a client who is preparing to quit.",
+      "Under-reaction: a year-long gap misses a client already thinking about quitting.",
+      "Correct: addressing roadblocks and rewards moves an ambivalent client forward.",
+      "Ignores readiness: threatening language rarely helps and does not address his stated fears."
+    ],
+    "strategy": "Match intervention to readiness",
+    "archetype": "match the intervention to the stage",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Stages of change: precontemplation, contemplation, preparation, action, maintenance.",
+      "The 5 Rs boost motivation for clients not ready to quit."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0057",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Matching herbal plant to use",
+    "noteId": "np1-g-herbal-plants",
+    "vignette": "A barangay health worker is quizzed on endorsed herbal plants. Four volunteers each make a statement about what a plant is used for.",
+    "stem": "Which statement is correct?",
+    "options": [
+      "Yerba buena is used to expel roundworms in children",
+      "Tsaang gubat is the plant to take for cough and asthma",
+      "Sambong is used for swelling and helps in the passage of urinary stones",
+      "Bayabas is the plant used to lower blood cholesterol"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cue: four plant and use pairings, three of which belong to other plants.\n2. Principle: sambong is a diuretic for swelling and helps urinary stones; yerba buena is for body pain; tsaang gubat is for stomachache; bayabas is for wound cleansing and mouth infection; niyug-niyogan is for roundworm; lagundi is for cough and asthma; bawang is for cholesterol.\n3. Each distractor attaches another plant's use.\n4. Flip: if the statement said lagundi is used for cough and asthma, it would be correct.",
+    "optionRationales": [
+      "Wrong plant: roundworm is treated with niyug-niyogan seeds; yerba buena is for body pain.",
+      "Wrong plant: cough and asthma are treated with lagundi; tsaang gubat is for stomachache.",
+      "Correct: sambong is a diuretic for swelling and for urinary stones.",
+      "Wrong plant: cholesterol is treated with garlic (bawang); bayabas is for wound cleansing."
+    ],
+    "strategy": "Match plant to indication",
+    "archetype": "plant to use",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Sambong: swelling, diuretic, urinary stones.",
+      "Lagundi: cough, asthma; tsaang gubat: stomachache; bawang: cholesterol."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0058",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Priorities before a flood",
+    "noteId": "np1-g-health-emergency-program",
+    "vignette": "A flood warning is issued for the next morning. The barangay health team has a few hours. Tasks waiting are moving the RHU's vaccine refrigerator and cold boxes to the second floor of the school, moving two bedridden elderly residents and a woman at 38 weeks from low-lying houses, updating the disaster plan binder and holding a first-aid refresher.",
+    "stem": "Which task should the nurse assign first?",
+    "options": [
+      "Move the vaccine refrigerator and cold boxes to the school's second floor",
+      "Update the disaster plan binder with the latest contact numbers of leaders",
+      "Hold a first-aid refresher for the barangay health workers",
+      "Move the bedridden elderly and pregnant woman to the evacuation center"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: people at risk who cannot move on their own, valuable cold chain equipment, and low-yield preparation tasks.\n2. Principle: the first priority in disaster management is protecting people at risk; the second is protecting critical resources and systems; capabilities such as training should have been built before impact.\n3. Priority rule: life before property; vaccines matter but come second.\n4. Flip: if all vulnerable residents had already been evacuated, protecting the cold chain would be the next task.",
+    "optionRationales": [
+      "Right priority, wrong order: critical resources are protected second.",
+      "Right task, wrong time: planning documents do not protect people during a flood.",
+      "Right task, wrong time: capabilities should be built before impact, not hours before the flood.",
+      "Correct: protecting the vulnerable people comes first."
+    ],
+    "strategy": "Protect people at risk first",
+    "archetype": "life before property",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "First priority: protect people at risk; second: critical resources and systems.",
+      "Life before property; build capabilities before impact."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0059",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Suicide risk in the community",
+    "noteId": "np1-mental-health-program",
+    "vignette": "A 19-year-old man comes to the RHU with his sister. He is quiet and says, \"I have already given my phone to my brother. I know what I will take, and the pills are at home.\" His sister says he has been withdrawn since failing his board exam. He asks only for a medical certificate.",
+    "stem": "What is the nurse's BEST first action?",
+    "options": [
+      "Give the medical certificate and set an appointment for counseling next week",
+      "Stay with him, ask about his plan, and arrange urgent referral for safety assessment",
+      "Speak first with his sister about his exam failure and how the family can encourage him",
+      "Reassure him that failing one exam is common and that things will improve with time"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: giving away belongings, a stated plan, available means and withdrawal after a loss.\n2. Principle: risk is higher with a specific plan, available means and warning signs; crisis intervention focuses on safety and restoring function.\n3. Priority rule: safety is first; a person with a plan and means is not left alone, and an urgent specialist assessment replaces routine appointments.\n4. Flip: if he had passive thoughts without a plan or means and agreed to follow-up, a close outpatient plan could be enough.",
+    "optionRationales": [
+      "Under-reaction: waiting a week leaves a high-risk person alone with means.",
+      "Correct: it protects him, clarifies the risk and secures urgent assessment.",
+      "Right resource, wrong priority: involving the family helps but the person at risk must not be left unattended.",
+      "Skips assessment: false reassurance dismisses a stated plan."
+    ],
+    "strategy": "Maslow: safety first, do not leave alone",
+    "archetype": "safety first",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Higher risk when there is a specific plan, available means and a past attempt.",
+      "Crisis intervention is short-term and focused on safety."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0060",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "What a BEmOC facility can complete",
+    "noteId": "np1-bemoc-cemoc",
+    "vignette": "Four women reach a BEmOC-capable health center on the same night. One is bleeding after delivery with a retained placenta and a stable blood pressure. One has had 20 hours of labor with obstructed descent and a worsening fetal heart tone. One has lost a large volume of blood and needs transfusion. One delivered a preterm baby weighing under 1.5 kg who needs intensive newborn care.",
+    "stem": "Whose care can be completed at the BEmOC level without transfer?",
+    "options": [
+      "The woman with obstructed labor and a worsening fetal heart tone",
+      "The woman with the retained placenta, by manual removal",
+      "The woman who needs a blood transfusion",
+      "The preterm baby who needs intensive newborn care"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: each woman presents a different signal function need.\n2. Principle: BEmOC includes parenteral antibiotics, oxytocin, magnesium sulfate, manual removal of the placenta, removal of retained products, assisted vaginal delivery and basic newborn resuscitation; CEmOC adds cesarean section and blood transfusion, with care for sick and low-birth-weight newborns expected at that level.\n3. Match cause to function: retained placenta equals manual removal.\n4. Flip: if the retained placenta caused hemorrhage that needed transfusion, she would need transfer to CEmOC.",
+    "optionRationales": [
+      "Needs a cesarean section, which is a CEmOC function.",
+      "Correct: manual removal of the placenta is a BEmOC function.",
+      "Needs blood transfusion, which is a CEmOC function.",
+      "Sick and low-birth-weight newborn care is expected at the CEmOC level."
+    ],
+    "strategy": "Match need to facility capability",
+    "archetype": "signal functions",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "BEmOC: antibiotics, oxytocin, magnesium sulfate, manual removal, removal of retained products, assisted delivery, newborn resuscitation.",
+      "CEmOC adds cesarean and blood transfusion."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  }
+]

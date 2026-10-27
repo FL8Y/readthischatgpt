@@ -1,0 +1,857 @@
+[
+ {
+  "id": "np3-0051",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Nasal spray teaching evaluation",
+  "noteId": "np3-cr-rhinitis",
+  "vignette": "A 29-year-old teacher has seasonal allergic rhinitis with sneezing, itching of the nose and eyes, and watery nasal discharge. She has been prescribed a corticosteroid nasal spray. The nurse asks her to describe how she will use it before school each morning.",
+  "stem": "Which statement shows the teaching was effective?",
+  "options": [
+   "I will use it only on days when my nose is so blocked that I cannot breathe",
+   "I will sniff it hard and tilt my head back so it reaches the back of my throat",
+   "I will stop it when my sneezing improves and restart it when pollen returns",
+   "I will blow my nose first so the spray can reach the lining of the nose"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Nasal medicine works on the nasal lining, so the nose is cleared first and the spray directed there.\n2. Corticosteroid sprays work through regular use during the season; using them only for severe blockage or stopping at the first improvement defeats the purpose.\n3. Sniffing hard sends the drug down the throat instead of onto the mucosa.\nFlip: for a decongestant used for a short cold, using it only when blocked might be acceptable.",
+  "optionRationales": [
+   "Wrong: under-use; the spray is not a rescue drug (plausible habit from relievers).",
+   "Wrong: technique error; the drug is wasted in the throat.",
+   "Wrong: intermittent use during the season reduces control.",
+   "Right: clear the nose first so the drug reaches the mucosa."
+  ],
+  "strategy": "Evaluate teaching: nasal drug technique",
+  "archetype": "evaluate learning",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Blow the nose before using nasal medicine",
+   "Allergic rhinitis: seasonal or perennial, itching, no fever"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0052",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "When a cold is not just a cold",
+  "noteId": "np3-cr-x-common-cold",
+  "vignette": "A school nurse sees four children with a cold. Child A has sneezing, watery eyes and a scratchy throat. Child B has a runny nose and a low-grade fever of 37.8 C. Child C had cold symptoms for 3 days, felt better and now has ear pain, painful swallowing and a fever of 39.2 C. Child D has a mild headache and body aches.",
+  "stem": "Which child needs referral to a provider?",
+  "options": [
+   "Child A, who has sneezing, watery eyes and a scratchy throat",
+   "Child C, who has new ear pain, painful swallowing and high fever",
+   "Child D, who has a mild headache and body aches since this morning",
+   "Child B, who has a runny nose and a low-grade fever"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. A cold typically brings low-grade fever, congestion, sneezing, watery eyes, scratchy throat, malaise, headache and aches.\n2. Signs that the illness has gone beyond a cold are a high fever, chest pain, ear pain and difficulty swallowing; a second worsening after improvement fits a secondary infection.\nFlip: if all four children had only the usual cold symptoms, rest, fluids and handwashing teaching would suffice.",
+  "optionRationales": [
+   "Wrong: typical cold features.",
+   "Right: complication cues.",
+   "Wrong: typical cold features (aches and headache).",
+   "Wrong: low-grade fever is expected."
+  ],
+  "strategy": "Recognise complication cues",
+  "archetype": "which finding needs follow-up",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Look for high fever, chest pain, ear pain, difficulty swallowing",
+   "Care is symptomatic; antibiotics do not treat viral colds"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0053",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Completing penicillin for strep throat",
+  "noteId": "np3-cr-pharyngitis",
+  "vignette": "A mother brings her 9-year-old daughter back to the health center on day 3 of penicillin for acute pharyngitis. The girl's fever is gone and she is eating again. The mother says she will stop the medicine now, keep the leftover tablets in case her younger son has a sore throat, and that the girl's red throat has cleared.",
+  "stem": "Which response by the nurse is best?",
+  "options": [
+   "Finish the course, because untreated strep can cause rheumatic fever and valve damage",
+   "Stopping now is fine because the fever is gone, but save the tablets for emergencies at home",
+   "Switch to a different antibiotic only if the sore throat returns within a week of stopping",
+   "Her throat looks clear, so the rest of the course can be spread out to every other day"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Acute pharyngitis from streptococci is treated with penicillin; relief of symptoms comes sooner than eradication of the organism.\n2. Incomplete treatment risks rheumatic fever and valve damage, which links to mitral stenosis later.\n3. Saving tablets for a sibling or altering the schedule are unsafe habits.\nFlip: if the throat infection were viral, antibiotics would not be needed at all.",
+  "optionRationales": [
+   "Right: gives the reason and the action.",
+   "Wrong: unsafe habit; stopping early and sharing leftover medicine.",
+   "Wrong: under-reaction; waiting for relapse allows complications.",
+   "Wrong: altering the schedule without an order."
+  ],
+  "strategy": "Prevent complications: finish the course",
+  "archetype": "explain the reason",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Penicillin is the drug of choice",
+   "Untreated strep can cause rheumatic fever and valve damage"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0054",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Hoarseness lasting weeks",
+  "noteId": "np3-cr-laryngitis",
+  "vignette": "A 58-year-old man who has smoked for 35 years tells the nurse that he has had 'laryngitis' for 3 weeks. His voice is hoarse, he has a mild cough and he has been resting his voice and sipping warm fluids. He asks for leftover antibiotics from his sister to speed recovery.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Agree that voice rest and humidity are enough and reassure him",
+   "Suggest he use a few of the leftover antibiotics for five days",
+   "Advise him to see the provider soon for a laryngeal examination",
+   "Tell him to whisper rather than speak to protect his vocal cords"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Viral laryngitis improves within days; hoarseness lasting more than about 2 weeks, especially in a smoker in his late 50s, is a warning for laryngeal cancer.\n2. He needs referral for direct examination, not more self-care.\n3. Leftover antibiotics are unsafe and whispering strains the cords.\nFlip: if the hoarseness began 3 days ago after a cold, voice rest and humidity would be correct.",
+  "optionRationales": [
+   "Wrong: right care for simple laryngitis, wrong time (under-reaction).",
+   "Wrong: unsafe habit.",
+   "Right: refer for evaluation.",
+   "Wrong: whispering strains the cords."
+  ],
+  "strategy": "Red flag: hoarseness over 2 weeks",
+  "archetype": "red flag recognition",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Hoarseness over 2 weeks is a warning for laryngeal cancer",
+   "Voice rest, humidity and avoiding smoking in laryngitis"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0055",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Pre-laryngectomy priority",
+  "noteId": "np3-cr-laryngeal-cancer",
+  "vignette": "A 66-year-old man is admitted the day before a total laryngectomy. He is quiet, wipes his eyes when his wife speaks, and his hand tremor makes his writing hard to read. The nurse has 30 minutes available with him before the surgical team arrives.",
+  "stem": "Which action is the highest priority at this time?",
+  "options": [
+   "Set up a picture or writing board and practise it with him and his wife",
+   "Teach him esophageal speech exercises so he can start them after surgery",
+   "Teach him tracheostomy suction technique so he can do it on day one",
+   "Review the long-term plan for weight gain and diet after recovery"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. After a total laryngectomy the voice is permanently lost; a communication method must exist before surgery so he is not helpless afterward.\n2. A picture board suits a client whose writing is hard to read because of tremor.\n3. Stoma care, speech therapy and diet teaching matter but follow surgery and recovery.\nFlip: after surgery, airway and suction come first.",
+  "optionRationales": [
+   "Right: establish communication now.",
+   "Wrong: right topic, wrong time; speech rehabilitation comes after healing.",
+   "Wrong: right skill, wrong time; the nurse suctions at first.",
+   "Wrong: lower priority; not time-sensitive."
+  ],
+  "strategy": "Prepare before surgery: communication method",
+  "archetype": "prepare for loss of voice",
+  "difficulty": 3,
+  "bloom": "apply",
+  "keyFacts": [
+   "Establish communication before surgery",
+   "Total laryngectomy causes permanent loss of voice"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0056",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Matching test to disorder",
+  "noteId": "np3-cr-x-resp-tests",
+  "vignette": "A provider orders a CT scan of the chest for a 35-year-old woman who has had a chronic cough with large amounts of foul sputum, repeated chest infections since childhood and clubbed fingers. The client asks the nurse what the doctors are looking for.",
+  "stem": "Which explanation is most accurate?",
+  "options": [
+   "The scan is used to measure how much air she can blow out of her lungs",
+   "The scan will show whether she has been infected with the tuberculosis germ",
+   "The scan looks for widened bronchi that are typical of bronchiectasis",
+   "The scan is the usual way to check how acidic her blood is"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Chronic productive cough, recurrent infections and clubbing suggest bronchiectasis, which a CT shows as dilated bronchi.\n2. Spirometry measures airflow, the tuberculin skin test shows TB infection, and an ABG measures blood acidity and gases.\nFlip: if the question were about airflow obstruction in COPD, spirometry would be the test.",
+  "optionRationales": [
+   "Wrong: describes spirometry.",
+   "Wrong: describes the tuberculin skin test.",
+   "Right: CT shows dilated bronchi.",
+   "Wrong: describes an ABG."
+  ],
+  "strategy": "Match test to disorder",
+  "archetype": "know what the test will show",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "CT scan: bronchiectasis (dilated bronchi)",
+   "Spirometry measures airflow obstruction"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0057",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Nutrition for an emphysema client",
+  "noteId": "np3-cr-x-copd-bloater-puffer",
+  "vignette": "A 64-year-old man with emphysema is thin and has a barrel chest and minimal cough. He loses weight because eating tires him and he becomes breathless after a few mouthfuls. His SpO2 is 92% on 2 L/min oxygen. He asks the nurse how to eat better.",
+  "stem": "Which advice should the nurse give?",
+  "options": [
+   "Eat three large meals and lie down afterward to rest for an hour",
+   "Rest before meals and eat small, frequent, nutritious meals",
+   "Cut calories to reduce the work of breathing during meals",
+   "Remove his oxygen during meals so that he can chew more easily"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. In emphysema ('pink puffer') weight loss and dyspnea on effort are common; the work of eating consumes oxygen.\n2. Small frequent meals, rest first and supplements maintain nutrition.\n3. Large meals push the diaphragm and increase dyspnea, and removing oxygen risks hypoxemia.\nFlip: for a client who is overweight and has heart failure, calorie restriction might be used.",
+  "optionRationales": [
+   "Wrong: large meals worsen breathlessness.",
+   "Right: addresses the cause of weight loss.",
+   "Wrong: he is already losing weight.",
+   "Wrong: unsafe; hypoxemia would worsen."
+  ],
+  "strategy": "Supportive care: meet needs without increasing work of breathing",
+  "archetype": "small meals and rest",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Small frequent meals and supplements to counter weight loss",
+   "Emphysema: minimal cough, barrel chest, weight loss"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0058",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Chronic hemoptysis vs bleeding",
+  "noteId": "np3-cr-bronchiectasis",
+  "vignette": "A 40-year-old with bronchiectasis calls the nurse at the pulmonary clinic. His usual morning cough brings up about two cupfuls of thick pus-like sputum, sometimes with a few red streaks. This morning he coughed up about half a cup of bright red blood and now feels lightheaded and sweaty.",
+  "stem": "What is the nurse's best advice?",
+  "options": [
+   "Use postural drainage as usual to clear the airways and call back later",
+   "Drink warm fluids and measure the amount of blood over the day",
+   "Take his usual antibiotic and bring a sputum sample to the clinic",
+   "Sit up, stay still and go immediately to the emergency department"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Large pus-like sputum with small streaks is his baseline.\n2. Half a cup of bright red blood with lightheadedness and sweating signals significant bleeding and possible shock.\n3. Postural drainage may worsen bleeding and waiting delays care.\nFlip: if only a few streaks mixed with sputum occurred as usual, the clinic visit could wait.",
+  "optionRationales": [
+   "Wrong: routine care at the wrong time.",
+   "Wrong: under-reaction.",
+   "Wrong: treats the infection, not the bleeding.",
+   "Right: unstable change from baseline needs emergency care."
+  ],
+  "strategy": "Baseline vs change; unstable client",
+  "archetype": "compare with baseline",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Bronchiectasis: large pus-like sputum, hemoptysis, clubbing",
+   "Postural drainage is taught"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0059",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Asbestos exposure follow-up",
+  "noteId": "np3-cr-occupational-lung",
+  "vignette": "A 63-year-old retired shipyard worker with asbestosis has had bibasilar crackles and exertional dyspnea for years. At his clinic visit he mentions that his usual dry cough has changed, he has coughed blood-streaked sputum twice this week, and he has lost weight. He continues to smoke half a pack a day.",
+  "stem": "Which finding is the most concerning for the nurse to report?",
+  "options": [
+   "Bibasilar crackles heard on auscultation at the lung bases",
+   "Shortness of breath when climbing stairs, as in previous years",
+   "Changed cough with blood-streaked sputum and weight loss",
+   "Smoking half a pack of cigarettes a day, as he has for years"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Asbestosis causes progressive, irreversible exertional dyspnea and bibasal crackles; these are his baseline.\n2. A changed cough, hemoptysis and weight loss in an asbestos-exposed smoker raise concern for lung cancer and need prompt evaluation.\n3. Smoking is a risk to address with cessation help but is not the new red flag.\nFlip: if the dyspnea had worsened suddenly with fever, infection would be the concern.",
+  "optionRationales": [
+   "Wrong: expected, baseline.",
+   "Wrong: expected, baseline.",
+   "Right: new change suggests malignancy.",
+   "Wrong: a risk factor to address, not the new change."
+  ],
+  "strategy": "Baseline vs new red flag",
+  "archetype": "which change to report",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Asbestos-exposed clients: watch for lung cancer (changing cough, hemoptysis, weight loss)",
+   "Asbestosis: dyspnea and bibasal crackles"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0060",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "During thoracentesis: client deteriorates",
+  "noteId": "np3-cr-pleural-effusion",
+  "vignette": "A client with a large pleural effusion is sitting upright and leaning forward over a table while the physician performs a thoracentesis. The nurse is at his side. After 800 mL has drained he coughs repeatedly, turns pale and says his chest tightens. The nurse sees his SpO2 fall from 95% to 89%.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Alert the physician to pause and assess his breathing and oxygen saturation",
+   "Remind him to keep still and breathe slowly because the procedure is almost done",
+   "Record the amount of fluid removed and send the specimen to the laboratory",
+   "Help him lie flat on the bed while the drainage continues in the background"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. During or after thoracentesis, watch breathing and oxygen saturation; a cough, tight chest, pallor and falling SpO2 signal a complication such as lung re-expansion problems or pneumothorax.\n2. Tell the physician at once and assess; recording and sending specimens come later.\n3. Staying still is appropriate for a stable client, but not now; lying flat risks injury and worsens breathing.\nFlip: with stable vital signs and only mild cough, the nurse would encourage stillness and continue.",
+  "optionRationales": [
+   "Right: pause and assess the unstable client.",
+   "Wrong: under-reaction.",
+   "Wrong: right task, wrong time.",
+   "Wrong: unsafe position and procedure continuing."
+  ],
+  "strategy": "Client reaction first; stop the procedure",
+  "archetype": "unstable during a procedure",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "After thoracentesis watch breathing and SpO2",
+   "Client sits upright leaning forward, still"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0061",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Pleuritic pain and shallow breathing",
+  "noteId": "np3-cr-pleurisy",
+  "vignette": "A 45-year-old man with pleurisy has sharp right-sided pain that worsens with breathing. He keeps his breaths shallow, refuses to cough and says, 'Leave me alone, it hurts too much.' His temperature is 38.1 C and the nurse hears diminished breath sounds at the right base.",
+  "stem": "Which action is most appropriate?",
+  "options": [
+   "Allow him to continue shallow breathing until the infection has fully resolved with antibiotics",
+   "Position him on the unaffected side so the painful area has no pressure on it",
+   "Hold his analgesic so that he can feel when he is breathing too deeply",
+   "Give the ordered analgesic, then coach deep breathing and splinting with a pillow"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Guarding with shallow breathing can cause poor lung expansion, atelectasis and pneumonia.\n2. Pain relief first allows deep breathing and coughing; splinting reduces pleural stretch.\n3. Lying on the affected side also splints the chest wall; the unaffected side stretches the painful pleura.\nFlip: with severe opioid-related respiratory depression, analgesic choice would be reconsidered.",
+  "optionRationales": [
+   "Wrong: under-reaction; shallow breathing leads to atelectasis.",
+   "Wrong: the affected side is advised.",
+   "Wrong: withholding analgesic is unsafe.",
+   "Right: analgesia then coached ventilation with splinting."
+  ],
+  "strategy": "Prevent complications: treat pain to enable ventilation",
+  "archetype": "prevent atelectasis",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Lie on the affected side to splint",
+   "Encourage deep breathing and coughing to prevent atelectasis"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0063",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Postoperative sudden dyspnea",
+  "noteId": "np3-cr-pe",
+  "vignette": "On day 2 after total hip replacement, a client suddenly reports sharp chest pain on breathing and feels short of breath. RR is 32, HR 128, SpO2 86%, BP 104/66. His calf is swollen. He is anxious and says he needs to use the bathroom. An enoxaparin injection is due in 10 minutes.",
+  "stem": "What should the nurse do first?",
+  "options": [
+   "Give the due enoxaparin injection early to treat the clot quickly",
+   "Raise the head of the bed, apply oxygen and call the provider",
+   "Help him to the bathroom while his breathing is monitored",
+   "Obtain a 12-lead ECG to rule out a heart attack first"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Sudden pleuritic pain, dyspnea, tachypnea, tachycardia and hypoxemia after orthopedic surgery with a swollen calf = pulmonary embolism.\n2. Priority: oxygen, upright position and calling the provider; the ECG and anticoagulant plan follow the provider's direction.\n3. Walking exertion would worsen hypoxia and risk further embolization.\nFlip: with SpO2 98% and pain only in the calf, giving the enoxaparin and reporting would be right.",
+  "optionRationales": [
+   "Wrong: a prophylactic dose does not treat the acute event (right drug, wrong time).",
+   "Right: oxygenation and escalation first.",
+   "Wrong: exertion is unsafe.",
+   "Wrong: right test wrong time; PE can mimic MI but breathing comes first."
+  ],
+  "strategy": "ABC: breathing and oxygen first",
+  "archetype": "ABC first",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "PE: oxygen, raise the head of the bed, call the provider",
+   "Pleuritic chest pain mimics angina or MI"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0064",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Normal values depend on sex",
+  "noteId": "np3-ho-blood-components",
+  "vignette": "A nurse reviews morning results for four adult clients. A 45-year-old man has hemoglobin 12.5 g/dL. A 30-year-old woman has hemoglobin 12.5 g/dL. A 50-year-old woman has hematocrit 44%. A 38-year-old man has a white blood cell count of 7,200/mm3.",
+  "stem": "Which result should the nurse report as abnormal?",
+  "options": [
+   "The younger woman's hemoglobin of 12.5 g/dL",
+   "The woman's hematocrit of 44%",
+   "The second man's white cell count of 7,200/mm3",
+   "The man's hemoglobin of 12.5 g/dL"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Hemoglobin is 13-18 g/dL in men and 12-16 in women, so 12.5 is low for a man but normal for a woman.\n2. Hematocrit for women is 35-47%, so 44% is normal; WBC normal is 4,500-11,000/mm3, so 7,200 is normal.\n3. The shared 12.5 value makes the sex-specific cut-off the deciding cue.\nFlip: if the first client were a woman, no result would need reporting.",
+  "optionRationales": [
+   "Wrong: normal for a woman (true value, wrong sex range).",
+   "Wrong: within the female range.",
+   "Wrong: within the normal range.",
+   "Right: low for a man."
+  ],
+  "strategy": "Interpret values against sex-specific ranges",
+  "archetype": "interpret laboratory results",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Hemoglobin: male 13-18, female 12-16",
+   "Hematocrit: female 35-47%; WBC 4,500-11,000/mm3"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0065",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Aplastic anemia vs sickle crisis",
+  "noteId": "np3-ho-x-anemias-compared",
+  "vignette": "On the medical ward, the nurse is assigned four clients. A client with aplastic anemia has a temperature of 38.5 C, chills and a WBC count markedly low. A client in sickle cell crisis rates pain at 8/10 and is receiving a patient-controlled analgesic. A client with iron deficiency anemia has fatigue. A client with thalassemia major is receiving a transfusion with stable vital signs.",
+  "stem": "Which client should the nurse assess first?",
+  "options": [
+   "The client with aplastic anemia who has fever and chills",
+   "The client in sickle cell crisis who has pain 8/10",
+   "The client with iron deficiency anemia who has fatigue",
+   "The client with thalassemia receiving a stable transfusion"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. In aplastic anemia the white cell line is low; infection is the most life-threatening risk and fever may be the only sign.\n2. The client in crisis needs prompt analgesia and is on a PCA, which gives immediate control; her pain is severe but she has a pathway to relief.\n3. Fatigue in iron deficiency and a stable transfusion are lower acuity.\nFlip: if the sickle client's oxygen saturation fell, she would move to first.",
+  "optionRationales": [
+   "Right: neutropenic fever is an emergency.",
+   "Wrong: urgent but with analgesia already in place (right priority, wrong client).",
+   "Wrong: chronic, stable.",
+   "Wrong: stable, monitored."
+  ],
+  "strategy": "Unstable before stable: infection with few defences",
+  "archetype": "prioritise by danger",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Low white cells: protect from infection first",
+   "Fever in a neutropenic client is an emergency"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0066",
+  "v": 2,
+  "type": "sata",
+  "area": "NP3",
+  "topic": "Neutropenic precautions",
+  "noteId": "np3-ho-x-wbc-types-functions",
+  "vignette": "A client receiving chemotherapy for lymphoma has a markedly low neutrophil count. His family plans to visit tonight. The nurse reviews the plan with his sister, who will bring food and will stay with him.",
+  "stem": "Which instructions should the nurse include? Select all that apply.",
+  "options": [
+   "Wash hands before entering and before touching him",
+   "Bring a bouquet of fresh flowers to brighten the room",
+   "Bring home-cooked cooked foods, not raw foods or salads",
+   "Report any fever or chills to the nurse at once",
+   "Bring fresh fruit and a raw vegetable platter"
+  ],
+  "answer": [
+   0,
+   2,
+   3
+  ],
+  "rationale": "1. A low neutrophil count means a high risk of bacterial infection, often with few signs; fever is an emergency.\n2. Handwashing, cooked foods and early fever reporting protect him.\n3. Fresh flowers, raw fruits and vegetables carry organisms and are avoided in the neutropenic diet.\nFlip: with a normal white count the restrictions could be relaxed.",
+  "optionRationales": [
+   "Correct: hand hygiene before entering and before touching him protects a client with a low neutrophil count.",
+   "Incorrect: flowers and plants can carry organisms.",
+   "Correct: cooked food is safer.",
+   "Correct: early fever reporting.",
+   "Incorrect: raw produce is avoided."
+  ],
+  "strategy": "Protect from infection first",
+  "archetype": "select appropriate teaching",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Neutropenic diet: no flowers, fresh fruits, vegetables or raw food",
+   "Handwashing and early fever report"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0067",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Question the order in thrombocytopenia",
+  "noteId": "np3-ho-chemo-side-effects-marrow",
+  "vignette": "A client receiving chemotherapy has a markedly low platelet count and has not had a bowel movement in 3 days. He has abdominal fullness and is anxious. The new orders include a stool softener, a soft diet and a bisacodyl rectal suppository tonight. His skin shows scattered petechiae.",
+  "stem": "Which order should the nurse clarify with the provider?",
+  "options": [
+   "The stool softener given twice daily",
+   "The soft diet in small portions",
+   "The bisacodyl rectal suppository",
+   "The petechiae check each shift"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Low platelets mean a risk of bleeding; suppositories and enemas can injure fragile rectal tissue and cause bleeding, so stool softeners are used instead.\n2. The stool softener and soft diet are appropriate, and routine skin checks are a standard bleeding assessment.\nFlip: with a normal platelet count the suppository would be acceptable.",
+  "optionRationales": [
+   "Wrong: appropriate alternative.",
+   "Wrong: gentle on the mouth and gut.",
+   "Right: unsafe rectal insertion.",
+   "Wrong: appropriate monitoring."
+  ],
+  "strategy": "Bleeding precautions: no rectal insertions",
+  "archetype": "question the order",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Thrombocytopenia: no suppositories or enemas; use stool softeners",
+   "Check skin, mouth, stool, urine and emesis for bleeding"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0068",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Dark stools: expected or emergency",
+  "noteId": "np3-ho-iron-deficiency-anemia",
+  "vignette": "A 34-year-old woman with iron deficiency anemia started ferrous sulfate 10 days ago. She calls the clinic about two things: her stools are dark green-black and formed, and since this morning she has felt dizzy and weak with a racing heart. Another stool today looked black, sticky and tarry.",
+  "stem": "What is the best advice from the nurse?",
+  "options": [
+   "Dark stools are an expected effect of iron, so continue it and rest at home",
+   "Take the iron with vitamin C and recheck her symptoms tomorrow",
+   "Stop the iron and wait for her routine appointment next week",
+   "The tarry stool with dizziness may be bleeding; come in now"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Dark stools are an expected effect of iron; they are usually formed and not accompanied by symptoms.\n2. Black tarry sticky stools with weakness, dizziness and tachycardia suggest active GI bleeding, which is also the usual cause of iron deficiency.\n3. Vitamin C helps absorption but does not address the red flag.\nFlip: formed dark stools with no symptoms would be teaching only.",
+  "optionRationales": [
+   "Wrong: a true statement for dark formed stools, but the symptoms change the picture.",
+   "Wrong: right tip, wrong priority.",
+   "Wrong: under-reaction.",
+   "Right: recognise the red flag and act."
+  ],
+  "strategy": "Expected side effect vs red flag",
+  "archetype": "distinguish expected from red flag",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Black tarry stools with weakness suggest active GI bleeding",
+   "Iron makes stools dark"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0069",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Reaction after IM iron",
+  "noteId": "np3-ho-x-parenteral-iron-z-track",
+  "vignette": "Five minutes after a client received parenteral iron by Z-track injection, she says her throat feels tight. The nurse hears wheezing, sees hives on her chest and measures BP 84/50. She also reports pain at the injection site and asks for a heating pad.",
+  "stem": "What is the nurse's first action?",
+  "options": [
+   "Apply a heating pad to the injection site and massage the area",
+   "Call for help, maintain the airway and prepare emergency drugs",
+   "Document the site pain and recheck her vital signs in 15 minutes",
+   "Encourage her to walk to help absorb the iron"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Throat tightness, wheeze, hives and hypotension soon after an iron injection = anaphylaxis; iron by injection can cause it.\n2. Priorities: stop, call for help, protect the airway and prepare emergency drugs as ordered.\n3. Walking and not rubbing are the usual post-injection advice for a well client, but not here.\nFlip: if she had only mild local pain, walking and not rubbing the site would be right.",
+  "optionRationales": [
+   "Wrong: treats the local pain and ignores airway; massage is also contraindicated.",
+   "Right: airway and help first.",
+   "Wrong: under-reaction.",
+   "Wrong: right advice for a well client, unsafe here."
+  ],
+  "strategy": "Airway first",
+  "archetype": "anaphylaxis priority",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Iron by injection can cause anaphylaxis",
+   "Do not rub the site; encourage ambulation"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0070",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Colostomy stoma assessment",
+  "noteId": "np3-ho-colostomy-stoma-care",
+  "vignette": "On day 2 after a sigmoid colostomy, the nurse assesses the stoma. It is dark purple-black and dry. The client has no stool or gas in the pouch, reports no pain when the stoma is touched, and the stoma extends about 1 cm above the skin. The assistant asks if she should empty the pouch.",
+  "stem": "Which finding is the nurse's greatest concern?",
+  "options": [
+   "The absence of stool or flatus in the pouch",
+   "No sensation when the stoma is touched",
+   "The dark purple-black color of the stoma",
+   "The stoma protruding about 1 cm above the skin"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. A healthy stoma is red or pink, moist and slightly protruding (about 1/2 inch to 1 cm); it has no touch or pain sensation.\n2. Flatus and stool start about 4 to 7 days after surgery.\n3. A dusky, dark or black stoma means poor blood supply and tissue death and must be reported at once.\nFlip: a red moist stoma with no stool on day 2 would be expected.",
+  "optionRationales": [
+   "Wrong: expected on day 2.",
+   "Wrong: stoma has no sensation.",
+   "Right: signals necrosis.",
+   "Wrong: expected protrusion."
+  ],
+  "strategy": "Expected vs abnormal",
+  "archetype": "expected vs abnormal",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Dark, dusky, brown or black stoma means poor blood supply: report",
+   "Stoma has no sensation; stool starts 4-7 days"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0072",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Viscous lidocaine in a child",
+  "noteId": "np3-ho-chemo-side-effects-gi-hair-mouth",
+  "vignette": "A 7-year-old receiving chemotherapy has painful mouth sores and is refusing to eat. The provider orders viscous lidocaine to swish and swallow before meals, with a soft bland diet and saline rinses. The child had a choking episode on a grape last year.",
+  "stem": "Which part of the plan should the nurse question?",
+  "options": [
+   "The viscous lidocaine before meals",
+   "The soft bland diet",
+   "The saline mouth rinses",
+   "The routine inspection of the mouth"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Viscous lidocaine is contraindicated in children because it suppresses the gag reflex and raises the risk of aspiration.\n2. Soft bland food, saline rinses and routine mouth inspection are standard care for stomatitis.\nFlip: for a 40-year-old adult with stomatitis, the lidocaine could be given.",
+  "optionRationales": [
+   "Right: unsafe in a child.",
+   "Wrong to question: a soft bland diet is appropriate for painful mouth sores.",
+   "Wrong to question: saline rinses are appropriate care for stomatitis.",
+   "Wrong to question: routine inspection of the mouth is appropriate to detect worsening sores."
+  ],
+  "strategy": "Question unsafe order for the child",
+  "archetype": "question the order",
+  "difficulty": 2,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Viscous lidocaine for adults; contraindicated in children",
+   "Stomatitis: oral care, soft toothbrush, bland diet"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0073",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Antiemetic timing",
+  "noteId": "np3-ho-chemo-side-effects-gi-hair-mouth",
+  "vignette": "A 50-year-old woman begins chemotherapy tomorrow. The antiemetic order is for scheduled doses. She says she will skip them unless she actually feels sick because she dislikes taking pills. Her last cycle was complicated by vomiting that began a week after treatment.",
+  "stem": "What is the nurse's best response?",
+  "options": [
+   "Agree to give the antiemetic only when she asks, since she knows her body best",
+   "Tell her nausea will pass in 24 to 48 hours so she can wait it out",
+   "Explain that scheduled antiemetics prevent nausea better than waiting for it",
+   "Offer ice chips alone as it avoids the side effects of medicines"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Chemotherapy nausea is common, can last 24-48 hours and may be delayed a week; antiemetics given round the clock work better than rescue doses.\n2. Ice chips and mouth care help but do not replace prevention.\nFlip: for a client with no emetogenic drug, PRN dosing would be adequate.",
+  "optionRationales": [
+   "Wrong: under-reaction.",
+   "Wrong: ignores her delayed pattern.",
+   "Right: prevent with scheduled doses.",
+   "Wrong: comfort measure only."
+  ],
+  "strategy": "Prevent, do not wait",
+  "archetype": "prevent rather than treat",
+  "difficulty": 1,
+  "bloom": "apply",
+  "keyFacts": [
+   "Antiemetics round-the-clock: prevent, do not wait",
+   "Delayed nausea can appear a week later"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0074",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Safety in pernicious anemia",
+  "noteId": "np3-ho-pernicious-anemia",
+  "vignette": "A client with newly diagnosed pernicious anemia has numb, tingling feet, an unsteady gait and extreme pallor. The nursing assistant plans to give him a hot water bottle for his cold feet. The client says he can manage on his own to the bathroom. His B12 injection is scheduled for the morning.",
+  "stem": "Which action should the nurse take?",
+  "options": [
+   "Allow him to walk alone since he is alert and the injection will correct the weakness",
+   "Stop the hot water bottle and assist his walking with fall precautions",
+   "Teach a high-fiber diet to prevent the constipation that sometimes occurs",
+   "Arrange for oral B12 tablets to be taken at home after the injection"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Pernicious anemia causes paresthesia, poor balance and loss of position sense; he cannot feel heat reliably and is at risk of falls.\n2. The hot bottle is a burn hazard and ambulation needs assistance.\n3. B12 must be injected for life because absorption is the problem; oral tablets will not work.\nFlip: after months of treatment with recovered sensation, activity might be liberalized.",
+  "optionRationales": [
+   "Wrong: under-reaction; the injection will not work instantly.",
+   "Right: safety hazards first.",
+   "Wrong: right topic, wrong priority.",
+   "Wrong: oral B12 is the trap in pernicious anemia."
+  ],
+  "strategy": "Safety first: sensory loss and impaired balance",
+  "archetype": "safety with sensory loss",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Bed rest and fall precautions in pernicious anemia",
+   "Avoid very hot or cold temperatures (sensory loss)"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "np3-0075",
+  "v": 2,
+  "type": "single",
+  "area": "NP3",
+  "topic": "Folate or B12? Neurologic cue",
+  "noteId": "np3-ho-folic-acid-anemia",
+  "vignette": "A 56-year-old strict vegetarian has a sore tongue, pallor, tiredness and large red cells on his CBC. He also reports numb feet and trouble keeping his balance. The provider's note says folic acid deficiency anemia and orders folic acid 1 mg daily.",
+  "stem": "What is the nurse's best action?",
+  "options": [
+   "Give the folic acid as ordered since both anemias share the same blood findings",
+   "Hold the folic acid and give an oral B12 tablet from the ward stock",
+   "Teach him folate-rich foods and arrange a follow-up visit in three months",
+   "Report the numb feet and unsteady gait and ask about B12 deficiency"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Large red cells occur in both folate and B12 deficiency, but neurologic signs (paresthesia, poor balance) point to B12 deficiency; the handout lists none for folate.\n2. A strict vegetarian diet is also a B12 risk. Folic acid alone could correct the blood picture while nerve damage progresses.\n3. The nurse reports and asks, not changes the treatment; oral B12 is not the right route if absorption is the issue.\nFlip: with no neurologic signs and a history of alcohol use, the folic acid order would be reasonable.",
+  "optionRationales": [
+   "Wrong: gives the order without noticing the cue.",
+   "Wrong: changes treatment without an order; oral route may fail.",
+   "Wrong: delays diagnosis.",
+   "Right: reports the cue that changes the diagnosis."
+  ],
+  "strategy": "Neurologic signs separate B12 from folate",
+  "archetype": "clarify the order",
+  "difficulty": 1,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Neurologic signs separate B12 deficiency from folate deficiency",
+   "Large red cells in both"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ }
+]

@@ -1,0 +1,520 @@
+[
+  {
+    "id": "np1-0086",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Bed rest in diphtheria",
+    "noteId": "np1-cd-diphtheria",
+    "vignette": "On day 6 of treatment for diphtheria, a 6-year-old has received antitoxin and antibiotics, his temperature is now low-grade and his throat is less sore. He asks to play with his cousins in the ward corridor. His mother says he looks \"completely well\" and agrees.",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Allow gentle play in the corridor since his fever is gone and his throat is improving",
+      "Allow him out of bed for meals only until the membrane has completely cleared",
+      "Allow quiet play in bed with other children as long as he wears a mask at all times",
+      "Keep him on absolute bed rest for the period the provider orders, to protect his heart"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: improving throat, low-grade fever, and a child and mother who want activity.\n2. Principle: diphtheria toxin can injure the heart, so absolute bed rest for the period ordered is a priority nursing action even when the child feels better; peripheral neuritis may also appear months later.\n3. Priority rule: protect the vulnerable organ; symptom relief is not a measure of cardiac safety.\n4. Flip: if the order were changed after the physician cleared the heart, supervised activity could resume.",
+    "optionRationales": [
+      "Under-reaction: improvement in the throat does not mean the heart is safe.",
+      "Partial rest: leaving bed for meals still strains the heart during the risk period.",
+      "Wrong measure: a mask addresses spread, not the cardiac risk from activity.",
+      "Correct: rest protects the heart from the effects of the toxin."
+    ],
+    "strategy": "Protect the heart: do not be fooled by feeling well",
+    "archetype": "protect the heart",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Absolute bed rest (about 2 weeks) in diphtheria to protect the heart.",
+      "Airway first, then antitoxin and antibiotics as ordered."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0087",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Pertussis complication",
+    "noteId": "np1-cd-pertussis",
+    "vignette": "A 7-month-old with pertussis has been cared for at home. On day 6 of illness his parents list changes: vomiting after most coughing spells, small red spots on the whites of his eyes, a nosebleed during a long spell, and puffy eyelids. Overnight he developed a new fever, fast breathing and a wet-sounding cough between spells.",
+    "stem": "Which finding should the nurse regard as the most urgent?",
+    "options": [
+      "Vomiting after most of the coughing spells over the past few days",
+      "Small red spots on the whites of both of his eyes since the weekend",
+      "A short nosebleed during one long coughing spell this morning",
+      "New fever, fast breathing and a wet cough between spells"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: several findings that fit pertussis (post-tussive vomiting, conjunctival bleeding, nosebleed, periorbital edema) and one new set of findings: fever, fast breathing and a wet cough.\n2. Principle: violent coughing explains nosebleed, conjunctival hemorrhage and periorbital edema; bronchopneumonia is the most dangerous complication.\n3. Priority rule: unstable before stable; new respiratory change outranks expected findings.\n4. Flip: if the vomiting led to poor intake and sunken eyes, dehydration would be the next priority to report.",
+    "optionRationales": [
+      "Expected finding: post-tussive vomiting; monitor intake and output.",
+      "Expected finding of violent coughing: conjunctival hemorrhage.",
+      "Expected finding of violent coughing: nosebleed.",
+      "Correct: it suggests bronchopneumonia, the most dangerous complication."
+    ],
+    "strategy": "Distinguish expected findings from the dangerous complication",
+    "archetype": "dangerous complication",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Bronchopneumonia is the most dangerous complication of pertussis.",
+      "Violent coughing causes nosebleed, conjunctival hemorrhage and periorbital edema."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0088",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Teaching about influenza",
+    "noteId": "np1-cd-influenza",
+    "vignette": "A nurse teaches a family how to care for a mother with influenza at home. Afterward, each family member says what they will do. The mother has been feverish for two days and works as a cook in a canteen.",
+    "stem": "Which statement shows that more teaching is needed?",
+    "options": [
+      "\"I will rest at home, drink plenty of fluids and watch for crackles or bloody sputum.\"",
+      "\"I can go back to cooking at the canteen once my aches improve, even if feverish.\"",
+      "\"I will use tissues for coughing, throw them away and wash my hands afterward.\"",
+      "\"We will not share towels, glasses or utensils with her until she has recovered.\""
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cue: the mother is infectious and handles food for others.\n2. Principle: influenza is spread by droplets, direct contact and fomites; infectious from a day before symptoms to 3 to 5 days after; teach rest, fluids, watching for pneumonia, tissue disposal, handwashing and avoiding contact with others for at least 24 hours after the fever is gone.\n3. Returning to work while feverish contradicts avoiding contact; the other statements are correct.\n4. Flip: if she said she would return after being fever-free for at least a day, no further teaching would be needed.",
+    "optionRationales": [
+      "Correct understanding: rest, fluids and watching for pneumonia.",
+      "Correct: she remains infectious while feverish and handles food.",
+      "Correct understanding: tissue disposal and handwashing.",
+      "Correct understanding: avoid sharing towels, glasses and utensils."
+    ],
+    "strategy": "Evaluate teaching: spot the incorrect statement",
+    "archetype": "identify the misunderstanding",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Avoid contact with others for at least 24 hours after fever is gone.",
+      "Watch for pneumonia: crackles, fresh fever, purulent or bloody sputum."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0089",
+    "v": 2,
+    "type": "single",
+    "format": "except",
+    "area": "NP1",
+    "topic": "Enteric precautions",
+    "noteId": "np1-cd-x-enteric-compared",
+    "vignette": "A medical ward has four clients: one with cholera, one with typhoid fever, one with amoebiasis, and one who has descending weakness, droopy eyelids and double vision after eating home-canned food.",
+    "stem": "Enteric precautions are NOT the main requirement for which client?",
+    "options": [
+      "The client with cholera, vomiting and rice-water stools",
+      "The client with typhoid fever, stepwise fever and rose spots",
+      "The client with descending weakness and droopy eyelids",
+      "The client with amoebiasis and foul blood-streaked stools"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: three fecal-oral infections and one picture of descending paralysis after eating canned food.\n2. Principle: enteric isolation applies to cholera, typhoid and amoebiasis; botulism is caused by a preformed toxin, and its main picture is descending paralysis, not diarrhea.\n3. For the botulism client the priority is watching breathing, not stool precautions.\n4. Flip: if the question asked which client needs respiratory monitoring most urgently, the botulism client would be the answer.",
+    "optionRationales": [
+      "Needs enteric precautions: spread through feces and vomitus.",
+      "Needs enteric precautions: spread through feces and urine.",
+      "Correct: botulism is a toxin illness and not spread person to person through stool.",
+      "Needs enteric precautions: spread through stool containing cysts."
+    ],
+    "strategy": "Match the precaution to the route of spread",
+    "archetype": "identify the exception",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Enteric isolation applies to cholera, typhoid and amoebiasis.",
+      "Botulism: preformed toxin; descending paralysis, not diarrhea."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0091",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Suspected perforation in typhoid",
+    "noteId": "np1-cd-typhoid",
+    "vignette": "On day 13 of typhoid fever, a 19-year-old on small frequent fluid feedings suddenly cries out with severe pain in the right lower abdomen. His abdomen feels rigid and his blood pressure has dropped from his usual readings. He has been given an analgesic as needed in the past.",
+    "stem": "What should the nurse do first?",
+    "options": [
+      "Notify the physician at once and monitor his vital signs",
+      "Give the as-needed analgesic and reassess his pain again in one hour",
+      "Apply a warm compress to the abdomen to relieve the pain",
+      "Encourage extra oral fluids to maintain hydration"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: sudden severe right lower quadrant pain, a rigid abdomen, falling blood pressure in typhoid.\n2. Principle: intestinal hemorrhage and perforation are the most dreaded complications; the nurse watches for sudden pain, rigid abdomen and falling BP and notifies the physician at once.\n3. Priority rule: act on the unstable finding first; an analgesic or heat could mask or worsen a surgical emergency.\n4. Flip: if the pain were mild and diffuse with stable vital signs, assessment and observation would come first.",
+    "optionRationales": [
+      "Correct: suspected perforation needs urgent medical response.",
+      "Masks a surgical emergency: an hour's delay with only analgesia is unsafe.",
+      "Treats the symptom and conflicts with perforation risk.",
+      "Unsafe: oral intake with a suspected perforation adds risk."
+    ],
+    "strategy": "Unstable before stable: possible perforation",
+    "archetype": "recognize the complication",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Typhoid: watch for sudden right lower abdominal pain, rigid abdomen, falling BP.",
+      "Intestinal hemorrhage and perforation are the most dreaded complications."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0092",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Diet in mumps",
+    "noteId": "np1-cd-mumps",
+    "vignette": "An 8-year-old with mumps has swollen parotid glands and pain on chewing. At breakfast his mother offers him four options. The family has plenty of fresh calamansi and oranges from their yard.",
+    "stem": "Which breakfast is most appropriate?",
+    "options": [
+      "Fried dried fish with rice and calamansi juice",
+      "A glass of fresh orange juice with soft bread",
+      "Crisp toasted bread with a firm boiled egg and lemonade",
+      "Soft rice porridge with a mashed egg and plain water"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: painful chewing and swollen parotids; citrus is available at home.\n2. Principle: for mumps give a soft bland diet and avoid acid foods and juices that provoke pain; extra fluids and rest are encouraged.\n3. Eliminate acid and hard-to-chew options; the key is soft and non-irritating.\n4. Flip: if a child had no parotid pain and was feeding well, normal family foods would be acceptable.",
+    "optionRationales": [
+      "Hard to chew and acidic: both provoke pain.",
+      "Acidic juice provokes pain in the swollen glands.",
+      "Hard to chew and acidic: crisp toast and lemonade provoke pain.",
+      "Correct: soft, bland and non-acid."
+    ],
+    "strategy": "Choose the diet that avoids pain triggers",
+    "archetype": "avoid pain triggers",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Mumps: soft bland diet; avoid acid foods and juices that provoke pain."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0093",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Healed chancre",
+    "noteId": "np1-cd-syphilis",
+    "vignette": "A 26-year-old man received his first injection of penicillin G benzathine for primary syphilis. The painless sore on his penis has now healed. He tells the nurse, \"The sore is gone, so I am cured. I do not need to come back, and my girlfriend feels fine.\" He is anxious about confidentiality.",
+    "stem": "Which response by the nurse is BEST?",
+    "options": [
+      "Agree that he is cured since the visible sign has gone and encourage him to practice safe sex",
+      "Explain that a healed sore is not a cure; arrange follow-up testing and partner care",
+      "Tell him he need only return if a rash develops later on his palms or soles",
+      "Reassure him that his girlfriend needs no check since she has no symptoms"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: the chancre has healed on its own timeline, the client wants to stop care, and his partner has no symptoms.\n2. Principle: the primary chancre heals in 3 to 6 weeks even without treatment while the disease continues; confirm that treatment is complete; trace and treat partners; teach sex education.\n3. Priority rule: correct the misconception that threatens treatment completion, with confidentiality respected.\n4. Flip: if all doses were completed and follow-up tests were negative, he could be released from active care with counseling.",
+    "optionRationales": [
+      "Unsafe: a healed chancre does not mean the infection is cured.",
+      "Correct: it corrects the misconception and secures treatment, follow-up and partner care.",
+      "Under-reaction: waiting for later symptoms leaves latent infection untreated.",
+      "Skips assessment: syphilis can be present without symptoms in the partner."
+    ],
+    "strategy": "Complete treatment even when symptoms disappear",
+    "archetype": "complete treatment",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "The painless chancre goes away in 3 to 6 weeks even without treatment; the disease has not gone.",
+      "Confirm treatment is complete; trace and treat partners."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0094",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Asymptomatic partner of a case",
+    "noteId": "np1-cd-gonorrhea",
+    "vignette": "A 24-year-old man has purulent urethral discharge and painful urination; gonorrhea is confirmed. His girlfriend comes with him. She has no symptoms and says she will wait to see whether anything develops before getting examined. She is worried about being blamed.",
+    "stem": "What should the nurse tell the girlfriend?",
+    "options": [
+      "Her lack of symptoms means that she is almost certainly not infected and can wait",
+      "She should be examined only if she develops burning or discharge in the next week",
+      "She may be infected without symptoms and should be examined and treated with him",
+      "She needs treatment only if the culture of his discharge shows a drug-resistant organism"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: a confirmed case, a sexual partner with no symptoms, and a plan to wait.\n2. Principle: about 80 percent of women with gonorrhea have no symptoms; treat partners, advise abstinence until recovered, and find and report cases; untreated infection can cause pelvic infection and sterility.\n3. Priority rule: do not rely on symptoms to decide who needs care.\n4. Flip: if she had tested negative after exposure and was examined, treatment decisions would follow the findings.",
+    "optionRationales": [
+      "Common error: most women with gonorrhea have no symptoms.",
+      "Under-reaction by waiting: delay allows complications and further spread.",
+      "Correct: most infected women have no symptoms, so treat partners together.",
+      "Wrong trigger: partner treatment does not depend on the resistance pattern of his organism."
+    ],
+    "strategy": "Asymptomatic does not mean uninfected",
+    "archetype": "treat partners",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "About 80 percent of women with gonorrhea have no symptoms.",
+      "Treat partners; abstain until recovered."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0095",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Critical phase of dengue",
+    "noteId": "np1-cd-x-mosquito-compared",
+    "vignette": "On day 5 of illness a 9-year-old with dengue has a temperature of 37.1 C after four days of 39 to 40 C. His mother is happy and asks to go home. He has had two episodes of vomiting and has severe abdominal pain, and his hands feel cool. A nurse student offers him an aspirin for the pain.",
+    "stem": "What should the nurse do first?",
+    "options": [
+      "Agree to discharge since the fever has gone and he can recover at home",
+      "Check his vital signs for shock and bleeding and notify the physician",
+      "Give paracetamol for the abdominal pain and observe him for one hour",
+      "Allow the aspirin since the fever has resolved and pain relief is needed"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: temperature fell after four febrile days, severe abdominal pain, vomiting and cool hands.\n2. Principle: in dengue the temperature falls in the toxic (critical) stage, when shock and bleeding are most likely; watch circulation, replace fluids and avoid aspirin.\n3. Priority rule: circulation first; a fever falling with these signs is not recovery.\n4. Flip: if he were playful, drinking, with normal vital signs and no pain, the falling fever could be convalescence.",
+    "optionRationales": [
+      "Unsafe common habit: falling fever with severe pain is a danger sign, not recovery.",
+      "Correct: it recognizes the critical phase and acts on circulation.",
+      "Right drug, wrong priority: analgesia without assessing for shock delays recognition.",
+      "Unsafe: aspirin raises bleeding risk in dengue."
+    ],
+    "strategy": "Circulation first: falling temperature may mean shock",
+    "archetype": "falling fever is not recovery",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Dengue toxic stage: temperature falls; severe abdominal pain, vomiting, melena; shock risk.",
+      "No aspirin in dengue; watch for shock and bleeding."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0096",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Dengue prevention",
+    "noteId": "np1-cd-dengue",
+    "vignette": "A barangay has had six dengue cases in a month. Residents propose four actions. The nurse knows the vector bites in daylight and breeds in clean standing water, and the barangay also has a marshy stream where malaria was once common.",
+    "stem": "Which community action will best reduce the dengue cases?",
+    "options": [
+      "Weekly emptying and covering of water containers and clearing breeding sites",
+      "Giving every household an insecticide-treated net to be used only while sleeping at night",
+      "Draining and clearing the marshy stream along the edge of the barangay",
+      "Spraying houses in the evening only, when the mosquitoes are most active"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: a day-biting vector that breeds in clean standing water in and around homes.\n2. Principle: dengue is spread by the day-biting female Aedes aegypti; prevention is removing breeding sites, covering water containers, early case detection and health education.\n3. Night nets and stream clearing target Anopheles (malaria); evening-only spraying misses a day-biting mosquito.\n4. Flip: if the cases were malaria, clearing the stream and night-time nets would be correct.",
+    "optionRationales": [
+      "Correct: it removes the breeding sites of the day-biting mosquito.",
+      "Right measure for a different mosquito: night nets protect against night-biting Anopheles.",
+      "Right measure for a different disease: the marsh is a malaria site, not the Aedes breeding site.",
+      "Wrong timing: the vector bites in the daytime, so evening spraying misses the main exposure."
+    ],
+    "strategy": "Match control to the vector's behavior",
+    "archetype": "match control to vector behavior",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Dengue: day-biting female Aedes aegypti; remove breeding sites, cover water containers.",
+      "Malaria: night-biting Anopheles; nets and stream clearing."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0097",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Leptospirosis complication",
+    "noteId": "np1-cd-lepto",
+    "vignette": "A 33-year-old man waded through floodwater a week ago and now has calf pain, headache and a recurring low-grade fever on day 8 of illness. A relative notes he has passed very little urine in the last 12 hours. His wife asks the nurse about the calf pain.",
+    "stem": "Which finding is the most urgent to report?",
+    "options": [
+      "Calf muscle pain that gets worse when he stands",
+      "A continuing headache that is relieved by rest",
+      "A recurring low-grade fever since last evening",
+      "Very little urine passed in the last 12 hours"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: expected features of leptospirosis (calf pain, headache, fever) plus a new sign of kidney involvement on day 8.\n2. Principle: in the immune phase little or no urine suggests kidney failure; complications include tubular necrosis, respiratory distress and shock; the priority actions are monitoring urine output and breathing.\n3. Priority rule: organ failure signs outrank expected symptoms.\n4. Flip: if he were passing normal urine and short of breath with bloody sputum, respiratory distress would be the urgent finding.",
+    "optionRationales": [
+      "Expected finding: calf muscle pain is characteristic.",
+      "Expected finding: headache occurs in the leptospiremic phase.",
+      "Expected finding: recurrent fever is possible, and relapse can occur.",
+      "Correct: oliguria suggests kidney failure, a serious complication."
+    ],
+    "strategy": "Monitor the organ that fails: urine output",
+    "archetype": "recognize kidney involvement",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Leptospirosis: monitor urine output and breathing; kidney tubular necrosis is a complication.",
+      "Teach: avoid wading in flood water, wear boots, rat control."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0098",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Nursing priority in generalized tetanus",
+    "noteId": "np1-cd-tetanus",
+    "vignette": "A 45-year-old farmer with generalized tetanus has a rigid jaw, a board-like abdomen and spasms triggered by noise. He is in a dim private room. A relative is at the bedside and a nursing aide has just brought a meal tray. The nurse has several tasks pending.",
+    "stem": "Which task should the nurse do first?",
+    "options": [
+      "Make sure suction and airway equipment are ready and check his breathing",
+      "Start passive range-of-motion exercises to prevent contractures",
+      "Feed him the meal while he is awake and has appetite",
+      "Teach the relative about wound care and a tetanus booster every ten years"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: spasms can cause cyanosis and death from asphyxia; many tasks compete.\n2. Principle: for tetanus, airway and ventilation come first (suction often, watch for distress); also keep the room quiet and dim; later: IV access, intake and output, muscle relaxants, nutrition, teaching.\n3. Priority rule: ABC before nutrition, rehabilitation and teaching.\n4. Flip: if his airway and breathing were secured on a ventilator, nutrition planning could move up.",
+    "optionRationales": [
+      "Correct: airway protection addresses the main cause of sudden death.",
+      "Right task, wrong time: contracture prevention is a later priority.",
+      "Unsafe: feeding during spasm risks aspiration.",
+      "Right task, wrong time: teaching follows stabilization."
+    ],
+    "strategy": "ABC: airway before everything else",
+    "archetype": "airway before comfort and teaching",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Tetanus: airway and ventilation first; quiet, dim room; stimuli trigger spasms.",
+      "Toxoid booster every 10 years; wound care."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0099",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Tetanus toxoid in pregnancy",
+    "noteId": "np1-tetanus-toxoid",
+    "vignette": "At her first prenatal visit, a 24-year-old woman at 16 weeks says she may have had a \"shot\" at school, but she has no card or record. She asks whether tetanus toxoid is safe for her baby and whether one injection before delivery is enough.",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Give a single dose in the eighth month, since one injection is enough to protect the baby",
+      "Assume the school dose protects her and give none unless she has a dirty wound",
+      "Treat her as unimmunized, give the first dose today and plan the later doses",
+      "Postpone toxoid until after delivery because it is unsafe for the fetus during pregnancy"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: no record of immunization, early pregnancy, and questions about safety and the number of doses.\n2. Principle: check the immunization status first; without proof, start the series as early as possible in pregnancy; the toxoid is inactivated, so it is safe in pregnancy, and the series builds protection over several doses.\n3. A single late dose gives little protection; antibodies cross the placenta to protect the newborn.\n4. Flip: if her card showed a complete series, no new dose would be needed.",
+    "optionRationales": [
+      "Under-protection: one late dose does not give adequate protection.",
+      "Unsafe assumption: undocumented doses are not accepted as protection.",
+      "Correct: starting early builds protection for mother and newborn.",
+      "Common error: the toxoid is inactivated and safe in pregnancy."
+    ],
+    "strategy": "Check status, treat as unimmunized, give the dose",
+    "archetype": "unknown immunization status",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "TT is inactivated and safe in pregnancy; give TT1 as early as possible.",
+      "Antibodies cross the placenta and protect the newborn."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0100",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Priority in paralytic polio",
+    "noteId": "np1-cd-polio",
+    "vignette": "A 5-year-old unimmunized child with poliomyelitis has fever, neck and back pain, weak legs and difficulty swallowing. He is on bed rest and receives moist heat and analgesics. The nurse is planning her priorities for the shift.",
+    "stem": "Which assessment is the highest priority?",
+    "options": [
+      "Skin condition and position changes to prevent pressure injury",
+      "Muscle tenderness and the response to moist heat applications",
+      "Breathing and swallowing, to detect respiratory failure early",
+      "Planning physical therapy sessions and braces for the weak legs"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cues: weakness spreading with difficulty swallowing in an unimmunized child.\n2. Principle: in polio the airway and breathing come first; respiratory failure is a major complication, and the nurse watches closely and checks blood pressure.\n3. Priority rule: Maslow oxygenation first; comfort, skin care and rehabilitation come after.\n4. Flip: if his breathing and swallowing were normal and stable for days, skin care and mobility planning would move up.",
+    "optionRationales": [
+      "Right action, wrong priority: skin care is important but not immediately life-threatening.",
+      "Right action, wrong priority: comfort measures follow airway and breathing.",
+      "Correct: respiratory failure is life threatening.",
+      "Right action, wrong time: rehabilitation planning follows stabilization."
+    ],
+    "strategy": "Airway and breathing first",
+    "archetype": "breathing first",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Polio: airway and breathing first; watch for respiratory failure.",
+      "Prevention: oral polio vaccine."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  }
+]

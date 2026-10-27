@@ -1,0 +1,817 @@
+[
+  {
+    "id": "np1-0001",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Community as the client",
+    "noteId": "np1-chn-basics",
+    "vignette": "A public health nurse in a coastal municipality finds that 9 of the 40 households in one purok report a child with watery stools this month, and that all nine collect drinking water from the same shallow well. She already has a follow-up visit scheduled for a bedridden grandfather in the same purok.",
+    "stem": "Which plan best reflects that the community, not only the sick person in front of her, is the nurse's client?",
+    "options": [
+      "Keep the scheduled follow-up visit first and then manage each child's illness during separate household visits",
+      "Teach every affected mother how to prepare oral rehydration solution during individual household visits",
+      "Ask the rural health midwife to list the nine children and bring the list to the next monthly report",
+      "Present the pattern to the barangay council and RHU team and plan a purok-wide water and hygiene response"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cue: nine households with the same illness share one water source, so the pattern points to a community-level cause, not nine separate illnesses.\n2. Principle: in community health nursing the community is the ultimate client; individuals and families are the entry points to reach it.\n3. Priority rule: prevention and promotion come before cure, and a shared cause is removed at the population level.\n4. The key acts on the shared source and involves the people with authority to change it; the runner-up (teaching ORS) is good care for the children but leaves the well untouched.\n5. Flip: if only one child were ill and the family drew water from a protected source, individual home care and ORS teaching would be the right priority.",
+    "optionRationales": [
+      "Right priority, wrong client level: it treats the problem household by household and leaves the shared source unaddressed.",
+      "Treats the symptom, not the cause: ORS teaching is useful for each child but the well keeps producing new cases.",
+      "Under-reaction by waiting: a monthly report delays action while exposure continues.",
+      "Correct: it addresses the shared cause at community level and mobilizes the local leaders who can act."
+    ],
+    "strategy": "Community is the ultimate client",
+    "archetype": "client level: individual versus community",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "The community is the ultimate client; individuals and families are entry points.",
+      "Focus is prevention and health promotion first, cure second."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0002",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Promoting a healthy lifestyle",
+    "noteId": "np1-health-promotion",
+    "vignette": "A 52-year-old tricycle driver at the health center has blood pressure readings at the upper edge of normal and smokes about ten sticks a day. He says, \"I know exercise is good for me, but walking alone at 5 a.m. is boring and my knees ache.\" His wife has diabetes and cooks mostly fried fish and rice.",
+    "stem": "Which action should the nurse take FIRST to promote a lifestyle change in this client?",
+    "options": [
+      "Give him a written weekly exercise schedule and ask him to return in one month to report progress",
+      "Ask which things make exercise difficult for him and what he would be willing to try this week",
+      "Refer him to the physician for evaluation of his knee pain before discussing any activity at all",
+      "Praise his awareness that exercise is helpful and plan to recheck his blood pressure at the next visit"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cues: he already knows the benefit (knowledge is not the gap); the stated barriers are boredom, joint pain and a home food pattern.\n2. Principle: health promotion starts with readiness, barriers and the person's own foods and budget; small agreed goals succeed better than large ones.\n3. Priority rule: assess before acting; a plan built on unknown barriers will not be followed.\n4. The key opens the assessment; the schedule skips it, and the referral over-medicalizes a mild complaint in a client seeking promotion advice.\n5. Flip: if he described sharp knee swelling and a locked joint, referral for evaluation would come first.",
+    "optionRationales": [
+      "Skips assessment: a generic schedule ignores his knees, boredom and home food pattern, and a month without contact weakens follow-up.",
+      "Correct: it explores barriers and readiness and leads to a small, agreed plan.",
+      "Over-intervention: his knee ache is a barrier to explore, not a reason to withhold all promotion advice until a physician sees him.",
+      "Under-reaction: praise alone does not move a client who already knows exercise is good and is stuck on barriers."
+    ],
+    "strategy": "Assess before act",
+    "archetype": "assess barriers before teaching",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Assess lifestyle, readiness and barriers first.",
+      "Small specific goals linked to the person's own foods, work and budget."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0005",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Breastfeeding teaching evaluation",
+    "noteId": "np1-mch-program",
+    "vignette": "At a prenatal class at the health center, the nurse reviews infant feeding with five pregnant women. Each is asked to say how she plans to feed her newborn. One woman works at a market stall and mentions she may have to leave her baby with her mother for part of the day.",
+    "stem": "Which statement shows the need for further teaching about breastfeeding?",
+    "options": [
+      "\"I will put the baby on my chest right after birth and try to start feeding within the first hour.\"",
+      "\"I will keep the baby beside my bed in the ward instead of sending him to the nursery.\"",
+      "\"When he reaches six months I will add mashed foods and still keep breastfeeding.\"",
+      "\"I will wait until my breasts feel full before I offer the baby the breast so there is more milk.\""
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cue: one statement ties feeding to a schedule driven by breast fullness; the market-stall detail is irrelevant.\n2. Principle: IYCF key messages are start within the first hour, feed on demand with proper attachment, keep mother and baby together, and add complementary foods at six months while breastfeeding continues.\n3. Waiting for fullness delays feeds, lets milk build up and reduces the frequent suckling that drives supply, so it contradicts on-demand feeding.\n4. The other three statements each state a correct key message.\n5. Flip: if the woman said she would offer the breast whenever the baby shows hunger cues, no reteaching would be needed.",
+    "optionRationales": [
+      "Correct teaching already learned: first breastfeed within the first hour with skin-to-skin contact.",
+      "Correct teaching already learned: rooming-in supports early and frequent breastfeeding.",
+      "Correct teaching already learned: complementary foods begin at six months with continued breastfeeding.",
+      "Correct: it contradicts on-demand feeding and needs reteaching."
+    ],
+    "strategy": "Evaluate teaching: spot the misunderstanding",
+    "archetype": "which statement needs reteaching",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Start within the first hour; feed on demand; complementary foods at six months and continue to two years.",
+      "Rooming-in and no separation support breastfeeding."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0006",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "NCD screening referral",
+    "noteId": "np1-cd-ncd-emergency",
+    "vignette": "During a Friday NCD screening at the barangay health center, four clients are waiting. The nurse is checking a 47-year-old who smokes and has a family history of cancer, a 55-year-old with mildly raised blood sugar who feels well, a 63-year-old who ran out of her antihypertensive two weeks ago and has no complaints, and a 60-year-old man whose blood pressure is far above his previous readings.",
+    "stem": "Which additional finding in the fourth client would make urgent referral the nurse's priority over lifestyle counseling?",
+    "options": [
+      "He tells her he drinks alcohol with friends every weekend and rarely exercises",
+      "He reports a new severe headache with blurred vision since this morning",
+      "He says that his father had a stroke at 70 and that he is anxious about it",
+      "He mentions that he stopped taking his tablets about a month ago to save money"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cue: his pressure is already far above his own baseline; the question is which added detail marks an unstable, symptomatic picture.\n2. Principle: warning signs needing urgent care include very high blood pressure with symptoms; stable risk factors are handled by counseling and follow-up.\n3. Priority rule: unstable before stable, acute before chronic; neurologic symptoms with very high pressure outrank modifiable risk factors.\n4. Missing medication is important and needs follow-up, but without symptoms it is managed at the clinic, not as an emergency referral.\n5. Flip: if he had no symptoms and only stopped his tablets, the nurse would restart care and counseling at the clinic with early follow-up.",
+    "optionRationales": [
+      "True statement that does not answer the question: modifiable risk factors are counseled, not referred as an emergency.",
+      "Correct: very high blood pressure with a neurologic symptom is a warning sign needing urgent care.",
+      "Plausible detail from a similar condition: family history raises long-term risk but does not signal instability now.",
+      "Right problem, wrong urgency: stopping medication needs follow-up and restart, but no symptoms make this non-emergent."
+    ],
+    "strategy": "Unstable before stable",
+    "archetype": "referral versus counseling",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Warning signs needing urgent care include very high blood pressure with symptoms.",
+      "Shared NCD risk factors are modifiable and handled with counseling."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0007",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Classifying a family health problem",
+    "noteId": "np1-family-assessment",
+    "vignette": "During a first home visit the nurse notes open drainage beside the kitchen, a grandmother with hypertension who takes her medicine irregularly, a father who smokes indoors, and a daughter who will enter Grade 1 next month.",
+    "stem": "Which finding is a foreseeable crisis?",
+    "options": [
+      "The open drainage beside the kitchen",
+      "The grandmother's irregular antihypertensive use",
+      "The daughter's entry into Grade 1 next month",
+      "The father's habit of smoking indoors"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cue: only one finding is an expected period of unusual demand on the family (a new school, new routines, new costs).\n2. Principle: a foreseeable crisis is an anticipated period of unusual demand; a health threat promotes disease or injury; a health deficit is existing illness or a gap in achievable health.\n3. Open drainage and indoor smoking are threats; irregular medicine for existing hypertension is a deficit.\n4. Flip: if the grandmother had just been diagnosed and scheduled for surgery, that expected event could also be a foreseeable crisis.",
+    "optionRationales": [
+      "Health threat: a condition that can promote disease; it is not an expected life event.",
+      "Health deficit: existing illness with a gap between actual and achievable health.",
+      "Correct: school entry is an anticipated period of unusual demand and adjustment.",
+      "Health threat: indoor smoking promotes disease and exposes children; it is not a time-limited life event."
+    ],
+    "strategy": "Classify by type of problem",
+    "archetype": "health threat versus deficit versus crisis",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Foreseeable crisis: anticipated period of unusual demand, such as childbirth or school entry.",
+      "Health threat vs health deficit vs wellness potential."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0008",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Evaluation parameters",
+    "noteId": "np1-x-chn-process",
+    "vignette": "Three months into a barangay feeding program, the nurse prepares to evaluate it. She finds that no measurable indicators or target dates were written, and the volunteers cannot say what \"improved nutrition\" is supposed to look like. Every feeding session has been neatly documented.",
+    "stem": "At which phase should the evaluation parameters have been developed?",
+    "options": [
+      "Assessment",
+      "Planning",
+      "Implementation",
+      "Evaluation"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cue: the gap is missing indicators and targets, while documentation of sessions is complete (the irrelevant detail).\n2. Principle: planning has three parts (goal setting, plan of action, operational plan) and the parameters for evaluation are developed during planning.\n3. Documentation belongs to implementation, so it does not explain the missing indicators; assessment only supplies data to set the goals.\n4. Flip: if the question asked where session records are written, implementation would be correct.",
+    "optionRationales": [
+      "Plausible phase: assessment gives data for goals, but it does not set the evaluation indicators.",
+      "Correct: evaluation parameters are written during planning, together with goals and the operational plan.",
+      "Plausible detail from the vignette: documentation takes place in implementation, but it is not where indicators are defined.",
+      "Right action, wrong time: evaluating without parameters is the problem; they cannot be created at the moment of judging."
+    ],
+    "strategy": "Nursing process sequence: plan the evaluation",
+    "archetype": "which phase owns which task",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Evaluation parameters are developed during planning.",
+      "Planning has goal setting, plan of action and operational plan."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0009",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Immediate newborn care and AMTSL",
+    "noteId": "np1-einc-amtsl",
+    "vignette": "A multigravida delivers a vigorous baby in the birthing room of a district hospital. The baby is dried, placed skin-to-skin on her chest and the cord is still pulsating. The nurse draws up 10 units of oxytocin, but the mother's abdomen still looks large. A relative asks to take the baby for weighing and vitamin K.",
+    "stem": "What should the nurse do next?",
+    "options": [
+      "Allow the weighing and vitamin K now since the baby is breathing well and has been dried",
+      "Clamp and cut the cord at once so the placenta can be delivered sooner",
+      "Start controlled cord traction now so that the third stage is as short as possible",
+      "Palpate the abdomen to check for another baby before giving the oxytocin"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: a large abdomen after the first baby could mean a second fetus; the drawn-up oxytocin is the planned next step; the cord is still pulsating and the baby is stable skin-to-skin.\n2. Principle: oxytocin is given within about a minute after birth only after checking there is no second baby, because a uterotonic can trap or endanger a second fetus.\n3. Priority: assess before intervening; routine newborn procedures wait until after the skin-to-skin period, cord clamping is delayed, and cord traction comes after the uterotonic and during a contraction.\n4. The key is the only one that is both first in sequence and safety critical.\n5. Flip: if the abdomen were small and firm after birth, giving the oxytocin immediately would be correct.",
+    "optionRationales": [
+      "Right action, wrong time: weighing and vitamin K wait until after the skin-to-skin period and first breastfeed.",
+      "Unsafe common habit: immediate clamping removes the benefit of delayed clamping and is not part of the sequence.",
+      "Skips steps: controlled cord traction follows the uterotonic and a contraction, and a second baby has not been excluded.",
+      "Correct: assessing for a second baby precedes the uterotonic in active management of the third stage."
+    ],
+    "strategy": "Safety first: rule out second baby before oxytocin",
+    "archetype": "sequence at birth",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Oxytocin is given within about a minute of birth after checking for a second baby.",
+      "Routine newborn care waits until after skin-to-skin contact; cord clamping is delayed."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0010",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "FOURmula One elements",
+    "noteId": "np1-g-hsra-fourmula",
+    "vignette": "In a province, many poor families delay hospital care because they cannot pay, drug outlets sell products of doubtful quality, and the provincial health office is poorly managed. The nurse is asked which FOURmula One element most directly addresses the families' inability to pay.",
+    "stem": "Which element should she name?",
+    "options": [
+      "Health financing",
+      "Health regulation",
+      "Health service delivery",
+      "Good governance"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cue: the families' barrier is cost, not access or quality.\n2. Principle: health financing aims at more, better and sustained investment in health, with PhilHealth as the example; regulation targets quality and affordability of goods and services; service delivery targets availability of care; governance targets system performance.\n3. The drug quality and poor management details are the distractors for regulation and governance.\n4. Flip: if families could not reach any facility within a day's travel, health service delivery would be correct.",
+    "optionRationales": [
+      "Correct: inability to pay is addressed through health financing such as social insurance.",
+      "Plausible detail from the vignette: regulation concerns quality and affordability of goods, not household payment ability.",
+      "Right problem class, wrong cause: delivery addresses availability and access of basic care, not cost.",
+      "Plausible detail from the vignette: governance improves system performance but does not itself pay for care."
+    ],
+    "strategy": "Match cue to element",
+    "archetype": "match problem to reform element",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Health financing: more, better and sustained investment, e.g. PhilHealth.",
+      "Four elements: financing, regulation, service delivery, governance."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0011",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Evaluating a family plan",
+    "noteId": "np1-family-implementation-evaluation",
+    "vignette": "Six months ago the nurse and the barangay set the goal that all 20 households in a sitio would have a sanitary toilet. Fifteen now do. Of the five that do not, three are rented homes whose landlord refuses to build, and two have no available space.",
+    "stem": "What is the BEST next action?",
+    "options": [
+      "Repeat the same toilet-building teaching session for all 20 households to reinforce the message",
+      "Explore why each of the five lacks a toilet and revise the plan with the families and landlord",
+      "Record the goal as met because most households now have a toilet and close the plan",
+      "Refer the five households to the sanitary inspector and consider the nurse's part completed"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cue: the outcome is partly met, and the barriers are specific (landlord refusal, no space), not a lack of knowledge.\n2. Principle: evaluation compares results with objectives (met, partly met, not met) and the result feeds back into planning with the family as an active partner.\n3. Priority rule: address the cause of the unmet part; repeating teaching for all 20 does not address landlord or space issues.\n4. Referral can be part of the revised plan, but handing off and closing leaves the barriers unaddressed.\n5. Flip: if the five households simply lacked know-how, repeating focused teaching and demonstration for those five would be right.",
+    "optionRationales": [
+      "Treats the wrong cause: all 20 have the knowledge; the barriers are the landlord and space.",
+      "Correct: evaluation shows a partial result with identifiable barriers, so the plan is revised with those involved.",
+      "Under-reaction: majority success does not make a goal met when it was set for all households.",
+      "Delegation without follow-through: the sanitary inspector can help, but closing the plan abandons the nurse's evaluation duty."
+    ],
+    "strategy": "Evaluate then re-plan",
+    "archetype": "partially met goal",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Evaluation: was the objective met, partially met or not met.",
+      "The family is an active partner in evaluation and re-planning."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0012",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Devolution and responsibility",
+    "noteId": "np1-doh",
+    "vignette": "A barangay captain tells the public health nurse that the rural health unit has no functioning delivery bed and only one midwife. He asks which office is responsible for providing staff, budget and equipment for the unit. The nurse knows the DOH sets national standards and that PhilHealth reimburses services.",
+    "stem": "Which response is most accurate?",
+    "options": [
+      "The DOH central office, because it leads national health policy and therefore funds each facility",
+      "The municipal local government unit, which received health staff and budgets under devolution",
+      "PhilHealth, because it is the financing arm of reform and pays for facility improvements",
+      "The regional hospital, because it is the referral center for primary facilities in the area"
+    ],
+    "answer": [
+      1
+    ],
+    "rationale": "1. Cue: the question is about who provides staff, budget and equipment for a local primary facility.\n2. Principle: under the Local Government Code (RA 7160), structures, personnel and budgets moved to local government units; the DOH keeps policy, standards, technical assistance and regulation.\n3. DOH standard-setting and PhilHealth reimbursement are both true statements but do not answer who staffs and funds the RHU.\n4. Flip: if the unit were a national DOH-retained hospital, the DOH would administer it directly.",
+    "optionRationales": [
+      "True statement that does not answer the question: DOH leads policy and sets standards but delivery was devolved.",
+      "Correct: after devolution the LGU is responsible for local primary services.",
+      "Plausible detail from the vignette: PhilHealth pays for services but is not the provider of staff and equipment.",
+      "Right priority, wrong office: a referral hospital sits at a higher level and does not manage the primary unit."
+    ],
+    "strategy": "Scope: devolution to local government",
+    "archetype": "who is responsible",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Devolution under RA 7160 moved structures, personnel and budgets to LGUs.",
+      "The DOH keeps policy, standards, technical assistance and regulation."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0013",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Parts of a health zone",
+    "noteId": "np1-g-local-health-system",
+    "vignette": "Two neighboring municipalities share one district hospital. Patients referred from either side are often bounced back because each side says the other is accountable for them. Both municipalities have enough beds, enough midwives and a combined population within the recommended range.",
+    "stem": "Which component of a health zone is most clearly lacking?",
+    "options": [
+      "Clear boundaries that decide who is accountable",
+      "An adequate population base large enough for efficiency",
+      "Integrated facilities working as one system",
+      "The right mix of health workers for comprehensive services"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cue: patients are bounced because accountability is unclear; beds, staff and population size are explicitly adequate.\n2. Principle: a health zone has four parts: people (population range), boundaries (who is accountable), health facilities working as one system, and health workers with the right mix.\n3. Eliminate by the stated adequacy: population and worker mix are described as adequate; facilities exist but the failure is accountability, which boundaries define.\n4. Flip: if the two municipalities each ran separate unlinked hospitals with no referral between them, integrated facilities would be the missing component.",
+    "optionRationales": [
+      "Correct: boundaries decide accountability, and the failure is a dispute over who is responsible.",
+      "Distractor eliminated by a vignette detail: the population is stated to be within the recommended range.",
+      "Plausible but incomplete: facilities exist and are shared; the problem is who is accountable rather than the lack of linkage.",
+      "Distractor eliminated by a vignette detail: midwives are stated to be sufficient."
+    ],
+    "strategy": "Cue to component",
+    "archetype": "identify missing component",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Four parts of a health zone: people, boundaries, facilities, health workers.",
+      "Boundaries decide accountability."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0014",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Effect of treatment on rates",
+    "noteId": "np1-incidence-prevalence-pyramid",
+    "vignette": "A new maintenance drug keeps people with a chronic condition alive for many more years without curing it. Over the next year the number of people newly diagnosed in the municipality stays the same.",
+    "stem": "What change is most likely to occur?",
+    "options": [
+      "Incidence stays the same and prevalence rises",
+      "Incidence rises and prevalence stays the same",
+      "Both incidence and prevalence fall",
+      "Incidence stays the same and prevalence falls"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cue: new diagnoses are constant (incidence unchanged) but patients live longer without cure (longer duration).\n2. Principle: prevalence depends roughly on incidence multiplied by average duration of disease; it rises when people live long with the disease and falls with cure or death.\n3. Incidence counts only new cases, so a drug that does not prevent new disease cannot change it.\n4. Flip: if the drug cured patients quickly, prevalence would fall while incidence stayed the same.",
+    "optionRationales": [
+      "Correct: same number of new cases but longer survival means more existing cases at any time.",
+      "Confuses the terms: incidence counts new cases and the vignette says they are unchanged.",
+      "Contradicts the vignette: neither measure falls when new cases are constant and survival is longer.",
+      "Reverses the effect of duration: longer survival increases, not decreases, the pool of existing cases."
+    ],
+    "strategy": "Prevalence = incidence x duration",
+    "archetype": "incidence versus prevalence",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Incidence counts new cases; prevalence counts all existing cases.",
+      "Prevalence depends on incidence times average duration."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0015",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Choosing the PHC element to emphasize",
+    "noteId": "np1-elements-of-phc",
+    "vignette": "Quarterly barangay data show a rise in watery diarrhea among children. Most households use a shared unsealed pit or open defecation. Measles and pentavalent coverage are high, children's weights are mostly normal, and the Botika ng Barangay is well stocked.",
+    "stem": "Which PHC element deserves the most emphasis in the next barangay plan?",
+    "options": [
+      "Sanitation of the environment",
+      "Expanded Program on Immunization",
+      "Essential drugs and medicine supply",
+      "Nutrition and feeding practices"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cue: rising diarrhea with unsafe excreta disposal and normal coverage, weights and drug supply.\n2. Principle: a community pattern points to the element to strengthen; diarrhea and worms mean sanitation and education.\n3. EPI, nutrition and drugs are already adequate in the data, so adding effort there addresses a non-problem.\n4. Flip: if many children were underweight with adequate sanitation, nutrition would be the priority.",
+    "optionRationales": [
+      "Correct: the data point to unsafe excreta disposal as the cause of rising diarrhea.",
+      "Plausible detail from the vignette: coverage is already high, so more effort here would not change the pattern.",
+      "Treats the symptom, not the cause: medicines treat cases, but the exposure continues.",
+      "Plausible detail from a similar condition: weights are mostly normal, so nutrition is not the main gap."
+    ],
+    "strategy": "Use local data to prioritize",
+    "archetype": "data to element",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "A community pattern points to the element to strengthen.",
+      "Toilets, safe water and waste disposal are sanitation."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0016",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "PHC cornerstones",
+    "noteId": "np1-phc-pillars-characteristics",
+    "vignette": "A nongovernment group funded handwashing stations in a barangay. They worked while the group paid for soap and a monitor. Six months after the grant ended, the stations are empty and broken. Residents say \"the program belonged to the group\"; the barangay council has spare funds but was never asked to take part.",
+    "stem": "Which PHC cornerstone should the public health nurse strengthen FIRST to revive the program?",
+    "options": [
+      "Support mechanisms made available",
+      "Intra- and inter-sectoral linkages",
+      "Use of appropriate technology",
+      "Active community participation"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: the program failed after outside support ended; residents saw it as someone else's; the council has funds but was never involved.\n2. Principle: participation comes first because ownership drives the other pillars; without it partners and tools are not used.\n3. Support mechanisms look like the visible gap (soap, money), but supplying them again repeats the dependency; the council's funds would only be used if people own the program.\n4. Technology is not the issue (handwashing stations worked), and linkages follow once the community leads.\n5. Flip: if residents were eager and organized but had no source of soap or money, support mechanisms would come first.",
+    "optionRationales": [
+      "Treats the symptom: supplies are the visible gap but another outside supply repeats the dependency.",
+      "Right priority, wrong time: linkages with the council help after the community takes the lead.",
+      "Plausible detail from a similar condition: the stations worked while funded, so the technology is not the failing part.",
+      "Correct: ownership by the community must exist before resources and partners are used."
+    ],
+    "strategy": "Participation first: ownership drives the rest",
+    "archetype": "what to strengthen first",
+    "difficulty": 3,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Four cornerstones: participation, linkages, appropriate technology, support mechanisms.",
+      "Participation first because ownership drives the others."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0017",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "TB treatment follow-up",
+    "noteId": "np1-endemic-diseases",
+    "vignette": "A man in the second month of short-course TB treatment is seen at the health center. He says: \"My urine and tears have turned orange. I get mild tingling in my toes but I take my vitamin B6 every day. Lately the green of my son's school uniform looks gray to me.\"",
+    "stem": "Which finding should the nurse report to the physician?",
+    "options": [
+      "The green uniform now looking gray",
+      "The orange urine and tears",
+      "The mild tingling in his toes",
+      "His report that he takes vitamin B6 daily"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: three effects are described: orange fluids, mild toe tingling managed with B6, and loss of green color discrimination.\n2. Principle: rifampicin colors body fluids red-orange (expected, teach); isoniazid neuropathy is managed with vitamin B6; ethambutol can cause optic neuritis, so visual changes must be reported.\n3. Priority rule: separate expected effects from a sign of toxicity that can cause permanent harm.\n4. Flip: if the tingling were spreading with weakness despite B6, that would also be reported.",
+    "optionRationales": [
+      "Correct: color vision change suggests ethambutol optic neuritis and needs prompt report.",
+      "Expected effect: rifampicin colors body fluids; the nurse teaches rather than reports.",
+      "Known isoniazid effect that is already being managed with B6 and described as mild.",
+      "True statement that does not answer the question: B6 use is a treatment, not a finding to report."
+    ],
+    "strategy": "Report the unexpected adverse effect",
+    "archetype": "expected versus reportable effects",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Rifampicin turns body fluids red-orange.",
+      "Ethambutol can cause optic neuritis: report visual changes.",
+      "Isoniazid neuropathy is managed with vitamin B6."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0018",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Delayed vaccine dose",
+    "noteId": "np1-epi-overview",
+    "vignette": "A mother brings her 4-month-old for the second pentavalent dose. The first dose was given at six weeks; the visit was delayed because of a typhoon. The infant has a runny nose and a temperature of 37.8 C. The mother asks whether the series must begin again.",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Restart the three-dose series from the first dose because of the long delay",
+      "Postpone the dose until the cold and fever have completely resolved",
+      "Give the dose today and plan an extra dose later to make up for the delay",
+      "Give the second dose today and continue the series without restarting"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: a late dose after a typhoon, plus a mild cold and low-grade temperature.\n2. Principle: the schedule is never restarted and a missed dose is simply given; no extra doses are added; low-grade fever and mild illness are false contraindications.\n3. Priority: protect the infant as soon as possible, because every day of delay leaves the child unprotected.\n4. Flip: if the infant had a high fever and looked acutely ill, assessment and referral would come before vaccination.",
+    "optionRationales": [
+      "Unsafe common habit: restarting wastes doses and is not required by the schedule.",
+      "Over-caution: low-grade fever and a cold are false contraindications.",
+      "Over-intervention: no extra doses are given to make up for a late dose.",
+      "Correct: the delayed dose is given without restarting, and the mild illness is not a contraindication."
+    ],
+    "strategy": "Do not restart; false contraindication",
+    "archetype": "schedule is not restarted",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "The schedule is not restarted; a missed dose is simply given.",
+      "Low-grade fever and mild illness are false contraindications."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0019",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Writing family health objectives",
+    "noteId": "np1-family-planning",
+    "vignette": "The nurse and a family are planning to improve the care of the family's toddler who has frequent diarrhea. The nurse wants one objective that can be evaluated at the next home visit.",
+    "stem": "Which objective is best written?",
+    "options": [
+      "The nurse will conduct weekly teaching sessions on oral rehydration solution for one month",
+      "The mother will appreciate the importance of oral rehydration solution in treating her child's diarrhea",
+      "Within two weeks the mother will correctly prepare oral rehydration solution by return demonstration",
+      "The family will have excellent knowledge of every aspect of diarrhea care in the whole household"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cue: the objective must be evaluable at the next visit.\n2. Principle: objectives are specific, measurable, attainable, realistic and time-bound, and describe the learner's result, not the nurse's activity.\n3. \"Correctly prepare\" with return demonstration and a time limit is observable; \"appreciate\" is vague, \"excellent knowledge\" is unrealistic, and weekly sessions describe the nurse's activity.\n4. Flip: if the aim were an attitude change, a value statement with a defined expression of willingness could be acceptable.",
+    "optionRationales": [
+      "Describes the nurse's activity, not the family's outcome, so it cannot show learning.",
+      "Not measurable: \"appreciate\" has no observable behavior or time frame.",
+      "Correct: specific, measurable, time-bound and focused on what the mother can do.",
+      "Not realistic or measurable: \"excellent knowledge of every aspect\" has no standard or time limit."
+    ],
+    "strategy": "SMART objective",
+    "archetype": "measurable objective",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Objectives follow SMART: specific, measurable, attainable, realistic, time-bound.",
+      "Goal setting is the first step of planning."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0020",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Choosing a family planning method",
+    "noteId": "np1-g-fp-permanent-hormonal",
+    "vignette": "A 31-year-old mother, three months after delivery, is exclusively breastfeeding. She wants a reversible method for the next two years, does not want to take a pill every day, and wants her milk supply protected. Her husband does not like condoms. She is unsure whether she wants more children after that.",
+    "stem": "Which method best fits her needs?",
+    "options": [
+      "Combined oral contraceptive pill",
+      "Lactational amenorrhea method",
+      "Bilateral tubal ligation",
+      "Progestin-only injectable"
+    ],
+    "answer": [
+      3
+    ],
+    "rationale": "1. Cues: reversible for two years, no daily intake, milk supply protected, uncertain future fertility, partner dislikes condoms.\n2. Principle: the injectable is a progestin method with no estrogen effects and no daily intake; the combined pill contains estrogen and can suppress lactation; LAM works for a maximum of six months; ligation is permanent.\n3. Each distractor fails one stated cue; the key meets all of them.\n4. Flip: if she were certain she wanted no more children, a permanent method could be offered with counseling.",
+    "optionRationales": [
+      "Fails two cues: it is a daily pill and its estrogen can suppress lactation.",
+      "Right method at the wrong time span: LAM works only up to six months, but she needs two years of protection.",
+      "Over-intervention: permanent sterilization does not suit a client unsure of future fertility who asked for a reversible method.",
+      "Correct: reversible, no estrogen effects, no daily intake."
+    ],
+    "strategy": "Match method to client",
+    "archetype": "match method to client cues",
+    "difficulty": 4,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Injectable: progestin, reversible, no daily intake, no estrogen effects.",
+      "LAM works for a maximum of 6 months."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0021",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Two-way referral",
+    "noteId": "np1-g-levels-care-referral",
+    "vignette": "A 66-year-old man is discharged home from a regional medical center after a stroke with a discharge summary addressed to the rural health unit. He lives in a barangay 40 minutes from the RHU and uses a walker. His daughter works in town during the day.",
+    "stem": "What is the nurse's most appropriate action in the two-way referral system?",
+    "options": [
+      "Visit him at home, review the hospital advice and continue follow-up care at the primary level",
+      "Wait for the family to bring him to the RHU once he feels well enough to travel by himself",
+      "Tell the family to take him back to the regional center for every follow-up visit and test",
+      "Ask the barangay health worker to keep the discharge summary until the family asks for it"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cue: the discharge is addressed to the RHU, the client has limited mobility and the caregiver works in the day.\n2. Principle: referral is two-way; clients return to the lower level for follow-up, and the primary level (devolved to cities and municipalities) provides continuity.\n3. A home visit fits mobility limits and lets the nurse apply the recommendations.\n4. Flip: if he developed new weakness or a severe headache, the nurse would refer him back to a higher level at once.",
+    "optionRationales": [
+      "Correct: continuity of care at primary level with a home visit that fits his mobility.",
+      "Under-reaction by waiting: this client has limited mobility and may never arrive.",
+      "Wrong direction of referral: routine follow-up returns to the primary level; the higher level handles complications.",
+      "Under-reaction: holding the summary stops the recommendations from reaching the care plan."
+    ],
+    "strategy": "Continuity of care across levels",
+    "archetype": "follow-up after hospital discharge",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Referral is two-way; clients also return to the lower level for follow-up.",
+      "Primary level is the first contact and is devolved to municipalities."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0022",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Clinic visit triage",
+    "noteId": "np1-g-clinic-visit",
+    "vignette": "At a busy rural health unit, the nurse is registering client number 7, a woman with a cough of three weeks. Clients 8 to 12 are waiting. A man walks in holding a cloth tightly around his hand; blood is dripping through it and he looks pale. He has no priority number.",
+    "stem": "What should the nurse do?",
+    "options": [
+      "Give first aid to control the bleeding, arrange referral, then resume the queue",
+      "Finish registering client number 7, then give the man the next available priority number",
+      "Refer the man to the physician as a non-program case without any first aid at triage",
+      "Ask the man to register first so that his family record is ready before any first aid"
+    ],
+    "answer": [
+      0
+    ],
+    "rationale": "1. Cues: active bleeding with pallor in a client with no number; a program-based case (cough) is mid-registration.\n2. Principle: first come first served applies except for emergencies; triage gives first aid to emergency cases and refers non-program cases to the physician.\n3. Priority rule: safety and ABC first; bleeding with pallor is unstable and takes precedence over a stable cough.\n4. Flip: if the man had only a small scratch and no bleeding, he would take a number and wait his turn.",
+    "optionRationales": [
+      "Correct: emergencies skip the queue and receive first aid at triage.",
+      "Right priority, wrong order: queue order does not apply to emergencies.",
+      "Delegation without care: non-program cases are referred, but an emergency needs first aid first.",
+      "Skips assessment: paperwork must not delay first aid for bleeding."
+    ],
+    "strategy": "Emergency first, then order of arrival",
+    "archetype": "emergency skips the queue",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Emergencies skip the queue; the rest follow order of arrival.",
+      "Triage: program cases by protocol, non-program cases to physician, emergencies get first aid."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0024",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Patterns of disease occurrence",
+    "noteId": "np1-epidemiology-endemic",
+    "vignette": "Municipality A usually records 12 to 15 malaria cases each month in its mountain barangay and recorded 14 this month. Municipality B has rarely reported dengue and recorded 40 cases in two weeks. Municipality C recorded three unrelated leprosy cases in scattered barangays during the year.",
+    "stem": "Which pattern describes the dengue cases in Municipality B?",
+    "options": [
+      "Endemic",
+      "Sporadic",
+      "Epidemic",
+      "Pandemic"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cue: an unusually high number in a short time compared with the usual level of almost none.\n2. Principle: epidemic means unusually many cases in a short time; endemic is the usual constant level; sporadic is a few scattered cases; pandemic spans several countries.\n3. Municipality A is the endemic example and C the sporadic example, so they are distractors.\n4. Flip: if B regularly recorded about 40 cases every two weeks, the pattern would be endemic.",
+    "optionRationales": [
+      "Describes Municipality A, where cases remain at the usual level.",
+      "Describes Municipality C, where a few scattered cases occur.",
+      "Correct: far above the usual level in a short time.",
+      "Requires spread across several countries."
+    ],
+    "strategy": "Compare with usual level",
+    "archetype": "sporadic versus endemic versus epidemic",
+    "difficulty": 1,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Sporadic, endemic, epidemic, pandemic.",
+      "Endemic means the usual constant level."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  },
+  {
+    "id": "np1-0025",
+    "v": 2,
+    "type": "single",
+    "area": "NP1",
+    "topic": "Community-based nursing",
+    "noteId": "np1-x-subspecialties",
+    "vignette": "A nurse follows a man who is discharged after a hip fracture. She helps him move from the hospital to outpatient therapy and home care, coordinates his appointments, and teaches him and his wife. Her work concerns his needs as he moves between services outside the hospital. She does not plan for the barangay's overall fracture rates.",
+    "stem": "Which term best describes her practice?",
+    "options": [
+      "Community health nursing",
+      "Public health nursing",
+      "Community-based nursing",
+      "Occupational health nursing"
+    ],
+    "answer": [
+      2
+    ],
+    "rationale": "1. Cue: the client is an individual and family moving among services outside hospitals; population-level planning is explicitly absent.\n2. Principle: community-based nursing is a philosophy of care provided as clients and families move among services outside hospitals; community health nursing focuses on the community as a whole.\n3. Public health nursing is a special field within the total public health program; occupational nursing is workplace-based.\n4. Flip: if she analyzed fracture rates for the barangay and planned a fall-prevention program, her work would be community health nursing.",
+    "optionRationales": [
+      "Plausible detail from a similar condition: this focuses on the community as a whole, which the nurse does not do here.",
+      "Plausible field: it works within the total public health program, but no program planning is described.",
+      "Correct: individual and family care as they move among services outside hospitals.",
+      "Wrong setting: there is no workplace or worker health focus."
+    ],
+    "strategy": "Classify by client focus",
+    "archetype": "classify the nursing practice",
+    "difficulty": 2,
+    "bloom": "judgment",
+    "keyFacts": [
+      "Community-based nursing: care as clients move among various services outside hospitals.",
+      "Community health nursing focuses on the community as a whole."
+    ],
+    "source": "bank",
+    "review": "unreviewed",
+    "aiWritten": true
+  }
+]

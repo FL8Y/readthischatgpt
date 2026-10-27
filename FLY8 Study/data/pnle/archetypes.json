@@ -1,0 +1,1619 @@
+{
+ "version": "1.0",
+ "scope": "Original reasoning archetypes for PNLE/NCLEX-style situational questions. No real exam items. Worked examples are original.",
+ "reasoningPrinciples": [
+  "Maslow order: physiological (oxygen, circulation, fluids, nutrition, elimination, pain, rest) before safety/security, then love/belonging, esteem, self-actualization.",
+  "ABC: airway before breathing before circulation. Airway problems come first even when bleeding is also present.",
+  "Nursing process: assess before intervening in a stable client; evaluate after.",
+  "Stable vs unstable: unstable, changing, new, or unexpected findings outrank stable, chronic, or expected ones.",
+  "Acute before chronic; actual problem before potential problem.",
+  "Least invasive and least restrictive effective option first.",
+  "Safety: protect client and others; verify before acting (identifiers, orders, rights).",
+  "Delegation: stable, routine, predictable tasks only; assessment, teaching, evaluation and unstable clients stay with the licensed nurse.",
+  "Communication: reflect feelings, use open-ended prompts; avoid false reassurance, advice, 'why' questions, and changing the subject.",
+  "Exceptions: complete airway obstruction, cardiac arrest, or other clear life threat overrides assess-first; act immediately.",
+  "Exception: when the option calls the provider, do so only after you have your own assessment data, unless the client is unstable and needs help now.",
+  "Teaching comes after physiological and safety needs are met, unless the teaching itself is the safety measure asked about."
+ ],
+ "archetypes": [
+  {
+   "id": "priority-physiological-maslow",
+   "name": "Priority need by Maslow (physiological first)",
+   "stemSignals": [
+    "priority",
+    "highest priority",
+    "priority nursing diagnosis",
+    "priority need",
+    "most important"
+   ],
+   "whatItTests": "Ranking client needs so physiological survival needs outrank safety, love/belonging and esteem needs.",
+   "decisionSteps": [
+    "Identify every need or problem in the stem and label its Maslow level.",
+    "Rank physiological needs (oxygen, circulation, fluids, nutrition, elimination, pain, rest) above safety/security.",
+    "Within physiological, apply ABC (airway, breathing, circulation) before the others.",
+    "Choose the option addressing the highest-ranked need that is actually present now, not a possible future one.",
+    "Only move up the pyramid when no physiological need is unmet."
+   ],
+   "commonTraps": [
+    "Picking the emotionally compelling psychosocial option (anxiety, loneliness) when a physiological need exists.",
+    "Choosing a safety option (side rails) over an active oxygenation or circulation problem.",
+    "Choosing the most dramatic-sounding option instead of the most basic unmet need.",
+    "Treating a potential problem as higher than an actual one."
+   ],
+   "strategyTag": "Maslow: physiological first",
+   "pnleAreas": [
+    "any"
+   ],
+   "difficultyRange": [
+    1,
+    3
+   ],
+   "workedExample": {
+    "vignette": "A nurse reviews four needs for a client on a medical unit. Which need has the highest priority?",
+    "options": [
+     "Client states feeling lonely because visitors have not come",
+     "Client has had no urine output for the shift and reports lower abdominal fullness",
+     "Client wants to practice a hospital-approved relaxation technique",
+     "Client asks when the care plan meeting will happen"
+    ],
+    "answerIndex": 1,
+    "rationalePerOption": [
+     "Love/belonging need; important but higher on the pyramid than a physiological problem.",
+     "Correct. Elimination is a physiological need and this is an actual, current problem needing assessment now.",
+     "Self-actualization/comfort-level need with no sign of urgency.",
+     "An information (esteem/security) need that can wait."
+    ],
+    "strategyUsed": "Maslow: physiological before love/belonging, esteem and self-actualization."
+   }
+  },
+  {
+   "id": "abc-ordering",
+   "name": "ABC ordering (airway, breathing, circulation)",
+   "stemSignals": [
+    "airway",
+    "breathing",
+    "which first",
+    "priority intervention",
+    "initial action",
+    "respiratory",
+    "bleeding"
+   ],
+   "whatItTests": "Applying airway before breathing before circulation when more than one life threat is described.",
+   "decisionSteps": [
+    "Check whether an airway problem is present or likely; this comes before everything.",
+    "Next check breathing effectiveness (rate, effort, oxygen, chest movement).",
+    "Then check circulation (pulse, perfusion, bleeding control).",
+    "If two options are in the same ABC tier, choose the one that is more immediate or less invasive.",
+    "Remember disability and exposure follow ABC in emergency assessment."
+   ],
+   "commonTraps": [
+    "Choosing circulation (stopping bleeding) when an airway is compromised.",
+    "Choosing to check vital signs before opening or protecting the airway.",
+    "Choosing a late-stage intervention like documentation or calling family.",
+    "Choosing a breathing intervention when the airway is obstructed."
+   ],
+   "strategyTag": "ABC: airway first",
+   "pnleAreas": [
+    "NP3",
+    "NP5"
+   ],
+   "difficultyRange": [
+    1,
+    3
+   ],
+   "workedExample": {
+    "vignette": "A nurse finds an unresponsive adult in a hallway who has noisy, gurgling breaths and a small pool of blood on the sleeve. Which action should the nurse perform first?",
+    "options": [
+     "Apply direct pressure to the bleeding area",
+     "Open and clear the airway using a head-tilt chin-lift or jaw-thrust as appropriate",
+     "Check the client's pulse for 10 seconds",
+     "Look for an identification bracelet"
+    ],
+    "answerIndex": 1,
+    "rationalePerOption": [
+     "Circulation matters, but airway threat comes first and the bleeding is small.",
+     "Correct. Gurgling indicates a partially obstructed airway; airway comes first in ABC.",
+     "Circulation is third in ABC; assessment of pulse should follow airway and breathing support.",
+     "Not a life-saving action and delays care."
+    ],
+    "strategyUsed": "ABC: airway, then breathing, then circulation."
+   }
+  },
+  {
+   "id": "initial-action-assess-vs-intervene",
+   "name": "First/initial action: assess before intervening",
+   "stemSignals": [
+    "first",
+    "initial",
+    "initial action",
+    "initial response",
+    "best first action",
+    "before"
+   ],
+   "whatItTests": "Knowing that in a stable client the nursing process requires assessing first, and recognizing the rare exception when a clear emergency demands action.",
+   "decisionSteps": [
+    "Decide whether the client is stable or unstable from the stem data.",
+    "If stable or data are incomplete, choose the assessment (gather or validate data) option.",
+    "If a lethal emergency is clearly stated (airway obstruction, cardiac arrest), act immediately.",
+    "Prefer direct client assessment over looking at charts or calling the provider.",
+    "Prefer the least invasive measure when an intervention is justified."
+   ],
+   "commonTraps": [
+    "Doing a task (repositioning, giving medication) before assessing.",
+    "Calling the provider before gathering your own assessment data.",
+    "Documenting or notifying family first.",
+    "Over-applying the rule: assessing while an emergency is occurring."
+   ],
+   "strategyTag": "Nursing process: assess first",
+   "pnleAreas": [
+    "any"
+   ],
+   "difficultyRange": [
+    1,
+    3
+   ],
+   "workedExample": {
+    "vignette": "A client reports new dull pain in the calf of one leg on the second postoperative day. Vital signs are stable and the client is alert. Which action should the nurse take first?",
+    "options": [
+     "Massage the calf to relieve discomfort",
+     "Assess the leg for color, warmth, swelling and tenderness",
+     "Encourage the client to walk the hallway",
+     "Document the complaint at end of shift"
+    ],
+    "answerIndex": 1,
+    "rationalePerOption": [
+     "Massage could dislodge a clot if one is present, and it is not assessment.",
+     "Correct. The client is stable, so the nurse gathers focused assessment data before intervening.",
+     "Activity is an intervention chosen before assessment and may be harmful if a clot is suspected.",
+     "Delays reporting and evaluation of a possible complication."
+    ],
+    "strategyUsed": "Nursing process: assessment precedes intervention in a stable client."
+   }
+  },
+  {
+   "id": "therapeutic-communication-best-response",
+   "name": "Most appropriate response (therapeutic communication)",
+   "stemSignals": [
+    "most appropriate response",
+    "best response",
+    "which statement by the nurse",
+    "therapeutic",
+    "nurse should say"
+   ],
+   "whatItTests": "Choosing the reply that is open-ended, reflects feelings, and keeps the client talking.",
+   "decisionSteps": [
+    "Identify the client's underlying feeling or concern in the statement.",
+    "Eliminate responses that give advice, reassure falsely, ask 'why', or change the subject.",
+    "Eliminate closed yes/no questions and judgmental or defensive replies.",
+    "Choose the response that reflects, clarifies, or explores with an open-ended prompt.",
+    "Check that the response stays on the client's concern, not the nurse's."
+   ],
+   "commonTraps": [
+    "Empathic-sounding but false reassurance ('Everything will be fine').",
+    "Giving advice or telling the client what they should do.",
+    "'Why' questions that sound accusatory.",
+    "Changing the subject or giving facts when the client needs to express feelings.",
+    "Closed questions that end the conversation."
+   ],
+   "strategyTag": "Communication: reflect and explore",
+   "pnleAreas": [
+    "any"
+   ],
+   "difficultyRange": [
+    1,
+    3
+   ],
+   "workedExample": {
+    "vignette": "A client scheduled for surgery tomorrow says, 'I keep thinking something will go wrong.' Which response by the nurse is most appropriate?",
+    "options": [
+     "You shouldn't worry; the surgeon is excellent",
+     "Why do you think something will go wrong?",
+     "It sounds like you are feeling worried. Can you tell me more about what you are thinking?",
+     "Would you like me to bring you some reading material?"
+    ],
+    "answerIndex": 2,
+    "rationalePerOption": [
+     "False reassurance and advice that dismiss the feeling.",
+     "'Why' questions can feel confronting and put the client on the defensive.",
+     "Correct. Reflects the feeling and invites elaboration with an open-ended prompt.",
+     "Changes the subject and avoids the expressed fear."
+    ],
+    "strategyUsed": "Therapeutic communication: reflection and open-ended exploration."
+   }
+  },
+  {
+   "id": "which-client-first",
+   "name": "Which client needs immediate attention / should be seen first",
+   "stemSignals": [
+    "which client should the nurse see first",
+    "needs immediate attention",
+    "requires immediate",
+    "priority client",
+    "assess first"
+   ],
+   "whatItTests": "Triaging a set of clients by acuity, using stability and ABC rather than room order.",
+   "decisionSteps": [
+    "List each client and decide stable vs unstable.",
+    "Rank threats to airway, breathing, circulation first.",
+    "Rank sudden or new changes above chronic or expected findings.",
+    "Rank unexpected findings above expected ones (e.g., expected postoperative pain vs unexpected new confusion).",
+    "Choose the client at greatest risk of deterioration now; others can wait."
+   ],
+   "commonTraps": [
+    "Choosing the sickest-sounding diagnosis rather than the one deteriorating now.",
+    "Choosing the client with the loudest complaint.",
+    "Choosing by diagnosis label without reading the data.",
+    "Ignoring a subtle new change (e.g., new confusion, new restlessness) in a seemingly stable client."
+   ],
+   "strategyTag": "Triage: unstable and new before stable",
+   "pnleAreas": [
+    "NP3",
+    "NP5"
+   ],
+   "difficultyRange": [
+    2,
+    4
+   ],
+   "workedExample": {
+    "vignette": "A nurse receives report on four clients. Which client should the nurse assess first?",
+    "options": [
+     "A client with a chronic wound who is scheduled for a dressing change",
+     "A client who has been awake and calm and is now newly restless and short of breath",
+     "A client who is 3 days postoperative asking for a pain medication",
+     "A client waiting to be discharged who has questions about activity"
+    ],
+    "answerIndex": 1,
+    "rationalePerOption": [
+     "Chronic and predictable; stable.",
+     "Correct. New restlessness with shortness of breath suggests worsening oxygenation (ABC, acute change).",
+     "Pain is expected after surgery; needs attention but is not the most unstable.",
+     "Stable, with an education need that can wait."
+    ],
+    "strategyUsed": "Acute/new before chronic; unstable before stable; ABC."
+   }
+  },
+  {
+   "id": "delegation-assignment",
+   "name": "Delegation and assignment",
+   "stemSignals": [
+    "delegate",
+    "assign",
+    "assignment",
+    "appropriate to delegate",
+    "nursing assistant",
+    "unlicensed assistive personnel",
+    "licensed practical nurse"
+   ],
+   "whatItTests": "Matching tasks to the right worker based on stability, predictability, and the nursing-judgment skills required.",
+   "decisionSteps": [
+    "Identify whether the task needs assessment, teaching, evaluation, or nursing judgment; these stay with the licensed nurse.",
+    "Check whether the client is stable with predictable outcomes.",
+    "Delegate routine, standardized, low-risk tasks (hygiene, feeding stable clients, taking routine vital signs).",
+    "Do not delegate initial assessment, teaching, care plan changes, or care of unstable clients.",
+    "The delegating nurse keeps accountability and must supervise and follow up."
+   ],
+   "commonTraps": [
+    "Delegating a task that sounds routine but requires assessment (e.g., first postoperative walk of an unstable client).",
+    "Assuming the nursing assistant can interpret findings.",
+    "Choosing the answer where the nurse does everything personally when delegation is allowed.",
+    "Overlooking the client's stability."
+   ],
+   "strategyTag": "Delegation: stable and routine only",
+   "pnleAreas": [
+    "any"
+   ],
+   "difficultyRange": [
+    2,
+    4
+   ],
+   "workedExample": {
+    "vignette": "A charge nurse has a nursing assistant available. Which task is most appropriate to delegate?",
+    "options": [
+     "Teaching a newly diagnosed client how to monitor blood glucose",
+     "Assessing a client's pain 30 minutes after a pain medication",
+     "Helping a stable client with a morning bath and linen change",
+     "Evaluating a client's response to a new treatment plan"
+    ],
+    "answerIndex": 2,
+    "rationalePerOption": [
+     "Teaching requires the nurse's judgment.",
+     "Pain reassessment is assessment and evaluation; stays with the nurse.",
+     "Correct. Routine, standardized, low-risk care for a stable client can be delegated.",
+     "Evaluation of the plan cannot be delegated."
+    ],
+    "strategyUsed": "Delegation: routine care for stable clients; no assessment, teaching or evaluation."
+   }
+  },
+  {
+   "id": "teaching-evaluation-understanding",
+   "name": "Evaluation of teaching: statement showing understanding",
+   "stemSignals": [
+    "which statement indicates understanding",
+    "client understands",
+    "teaching has been effective",
+    "indicates that teaching was effective",
+    "client verbalizes"
+   ],
+   "whatItTests": "Judging whether the client's own words or return demonstration show accurate, safe understanding.",
+   "decisionSteps": [
+    "Restate the key safe behavior the teaching was meant to produce.",
+    "Eliminate statements that are vague, passive, or include a mistake.",
+    "Eliminate statements that show dependence on someone else without the knowledge.",
+    "Choose the statement that demonstrates correct action, reason, and what to report.",
+    "Prefer client teach-back or return demonstration over 'I will try' or 'I will ask my family'."
+   ],
+   "commonTraps": [
+    "Statements that sound compliant but contain a subtle error.",
+    "'I understand' without specifics.",
+    "Statements that put responsibility on another person.",
+    "Options with partially correct reasoning."
+   ],
+   "strategyTag": "Teaching: teach-back accuracy",
+   "pnleAreas": [
+    "any"
+   ],
+   "difficultyRange": [
+    2,
+    4
+   ],
+   "workedExample": {
+    "vignette": "A nurse teaches a client with a newly healed incision how to monitor for infection. Which statement indicates understanding?",
+    "options": [
+     "I will watch the incision for increased redness, warmth, swelling, or drainage and call if they appear",
+     "I will wait to see if the wound looks any different next month",
+     "My neighbor is a nurse; she will check it for me",
+     "I will cover the wound with extra layers so I do not have to look at it"
+    ],
+    "answerIndex": 0,
+    "rationalePerOption": [
+     "Correct. Names the signs of infection and the action to take.",
+     "Delays reporting.",
+     "Relies on someone else instead of understanding the signs.",
+     "Avoids assessment and may hide signs of infection."
+    ],
+    "strategyUsed": "Teaching evaluation: correct behavior plus when to report."
+   }
+  },
+  {
+   "id": "medication-safety-rights",
+   "name": "Medication safety (rights of administration)",
+   "stemSignals": [
+    "before administering",
+    "medication",
+    "rights",
+    "verify",
+    "identify",
+    "prior to giving"
+   ],
+   "whatItTests": "Applying the rights of medication administration and the safe sequence of checks.",
+   "decisionSteps": [
+    "Verify the order is complete and appropriate for this client.",
+    "Check allergies and relevant assessment data (e.g., vital signs, labs) before giving.",
+    "Use two client identifiers; compare label to order at the bedside.",
+    "Do not give if the order is unclear; clarify with the prescriber.",
+    "Document after giving, not before; evaluate response."
+   ],
+   "commonTraps": [
+    "Giving the medication and checking afterward.",
+    "Relying on a coworker's recollection instead of the order.",
+    "Asking the client their room number as identification.",
+    "Pre-charting."
+   ],
+   "strategyTag": "Safety: verify rights before giving",
+   "pnleAreas": [
+    "any"
+   ],
+   "difficultyRange": [
+    1,
+    3
+   ],
+   "workedExample": {
+    "vignette": "A nurse prepares to give a scheduled oral medication at the bedside. Which action should the nurse take before administering it?",
+    "options": [
+     "Ask the client to state their room number",
+     "Compare the medication label with the order and verify the client with two identifiers",
+     "Chart the dose as given in advance to save time",
+     "Ask another nurse whether the client usually takes it"
+    ],
+    "answerIndex": 1,
+    "rationalePerOption": [
+     "A room number is not a valid identifier.",
+     "Correct. Verifies right drug and right client using standard checks.",
+     "Pre-charting is unsafe and inaccurate.",
+     "Relies on memory rather than the order."
+    ],
+    "strategyUsed": "Safety: rights of medication administration."
+   }
+  },
+  {
+   "id": "high-alert-medication-reasoning",
+   "name": "High-alert medication reasoning (no doses)",
+   "stemSignals": [
+    "high-alert",
+    "anticoagulant",
+    "insulin",
+    "opioid",
+    "double check",
+    "independent check"
+   ],
+   "whatItTests": "Reasoning about safe handling of medications with narrow safety margins using principles, not numbers.",
+   "decisionSteps": [
+    "Identify the drug class and its principal risk (bleeding, hypoglycemia, respiratory depression).",
+    "Select the safety measure matching that risk: independent double check, monitoring parameter, antidote readiness.",
+    "Assess the relevant baseline or lab before giving.",
+    "Know what finding means hold-and-report.",
+    "Never use a non-standard abbreviation or guess when unsure."
+   ],
+   "commonTraps": [
+    "Choosing the answer that delays assessment of the key parameter.",
+    "Skipping independent verification because the nurse feels confident.",
+    "Over-relying on the client's report.",
+    "Selecting a monitoring parameter that belongs to a different drug class."
+   ],
+   "strategyTag": "Safety: match monitoring to risk",
+   "pnleAreas": [
+    "NP3",
+    "NP4",
+    "NP5"
+   ],
+   "difficultyRange": [
+    3,
+    5
+   ],
+   "workedExample": {
+    "vignette": "A nurse is about to give a high-alert insulin product. Which action best reduces the risk of a medication error?",
+    "options": [
+     "Have a second qualified nurse independently verify the product and order",
+     "Give it quickly so the client does not wait for the next meal",
+     "Skip checking the glucose result because the client looks well",
+     "Draw it up from a vial that the previous shift left labeled but unsealed"
+    ],
+    "answerIndex": 0,
+    "rationalePerOption": [
+     "Correct. Independent double checks are a recognized safeguard for high-alert medications.",
+     "Rushing increases error risk and ignores timing with meals.",
+     "Glucose assessment is needed to guide safe administration.",
+     "Using a questionable product is unsafe."
+    ],
+    "strategyUsed": "Safety: independent double check for high-alert drugs."
+   }
+  },
+  {
+   "id": "abnormal-finding-identification",
+   "name": "Identifying the abnormal / reportable finding",
+   "stemSignals": [
+    "which finding",
+    "requires follow-up",
+    "is a concern",
+    "should be reported",
+    "indicates a complication",
+    "abnormal"
+   ],
+   "whatItTests": "Telling expected findings from those signalling a problem for the given condition or age.",
+   "decisionSteps": [
+    "Recall the normal or expected finding for this client's condition and age.",
+    "Mark each option expected vs unexpected.",
+    "Prefer new, sudden, or worsening findings.",
+    "Choose the option signalling compromise of ABC, perfusion, or neurological status.",
+    "When all options look abnormal, choose the one with the greatest risk."
+   ],
+   "commonTraps": [
+    "Choosing a finding that is abnormal in general but expected in this situation.",
+    "Picking the option with the biggest-sounding number rather than relevant sign.",
+    "Ignoring the trend; one value vs steady decline.",
+    "Falling for a distractor with a familiar word."
+   ],
+   "strategyTag": "Expected vs unexpected finding",
+   "pnleAreas": [
+    "any"
+   ],
+   "difficultyRange": [
+    2,
+    4
+   ],
+   "workedExample": {
+    "vignette": "A nurse assesses a client 2 hours after a procedure. Which finding requires the nurse's follow-up?",
+    "options": [
+     "Mild incisional tenderness the client rates as tolerable",
+     "Drowsiness that is easily aroused",
+     "Pulse rising and blood pressure falling compared with earlier readings, with new restlessness",
+     "Request for a drink of water"
+    ],
+    "answerIndex": 2,
+    "rationalePerOption": [
+     "Expected after procedures.",
+     "Common after sedation; still monitor, but not the greatest concern.",
+     "Correct. A trend of rising pulse, falling pressure, and restlessness suggests possible bleeding or shock.",
+     "Normal request; no sign of problem."
+    ],
+    "strategyUsed": "Unstable trend before expected findings."
+   }
+  },
+  {
+   "id": "expected-vs-adverse-effect",
+   "name": "Expected vs adverse effect of treatment",
+   "stemSignals": [
+    "side effect",
+    "adverse",
+    "expected",
+    "therapeutic effect",
+    "toxic",
+    "report immediately"
+   ],
+   "whatItTests": "Differentiating a therapeutic or common effect from a toxic or dangerous one.",
+   "decisionSteps": [
+    "Identify the drug's purpose and its therapeutic response.",
+    "Classify each option as therapeutic, minor side effect, or adverse/toxic.",
+    "Choose adverse options when asked what to report; choose therapeutic when asked about effectiveness.",
+    "Prioritize systemic or life-threatening reactions (airway swelling, bleeding, severe rash).",
+    "Remember the client's teaching needs: what to report right away."
+   ],
+   "commonTraps": [
+    "Confusing a nuisance side effect with a dangerous one.",
+    "Treating the therapeutic effect as a problem.",
+    "Forgetting the question direction (effective vs toxic).",
+    "Choosing the option that fits a different drug."
+   ],
+   "strategyTag": "Therapeutic vs adverse",
+   "pnleAreas": [
+    "NP3",
+    "NP4"
+   ],
+   "difficultyRange": [
+    2,
+    4
+   ],
+   "workedExample": {
+    "vignette": "A nurse teaches a client starting a new medication. Which symptom should the client be taught to report immediately?",
+    "options": [
+     "Mild, temporary dry mouth",
+     "Swelling of the lips and difficulty breathing",
+     "Slight change in taste",
+     "Feeling a bit drowsy when starting the medicine"
+    ],
+    "answerIndex": 1,
+    "rationalePerOption": [
+     "Common minor side effect; mention but not urgent.",
+     "Correct. These suggest a severe allergic reaction with airway threat.",
+     "Minor and common.",
+     "Often expected early; teach caution but not an emergency."
+    ],
+    "strategyUsed": "ABC: airway threat is always reportable."
+   }
+  },
+  {
+   "id": "infection-control-isolation",
+   "name": "Infection control and isolation precautions",
+   "stemSignals": [
+    "isolation",
+    "precautions",
+    "standard precautions",
+    "airborne",
+    "droplet",
+    "contact",
+    "hand hygiene"
+   ],
+   "whatItTests": "Matching transmission route to the precaution, and applying standard precautions to everyone.",
+   "decisionSteps": [
+    "Apply standard precautions to every client first.",
+    "Identify the transmission route: contact, droplet, or airborne.",
+    "Match personal protective equipment and room type to the route.",
+    "Perform hand hygiene before and after contact; sequence PPE correctly.",
+    "Consider client placement and transport limits."
+   ],
+   "commonTraps": [
+    "Using the wrong precaution for the route.",
+    "Skipping hand hygiene.",
+    "Over-restricting visitors without need.",
+    "Mixing up when to wear a mask vs respirator."
+   ],
+   "strategyTag": "Infection: match route to precaution",
+   "pnleAreas": [
+    "NP1",
+    "NP3"
+   ],
+   "difficultyRange": [
+    2,
+    4
+   ],
+   "workedExample": {
+    "vignette": "A nurse prepares to care for a client with a suspected infection spread by respiratory droplets. Which action is most appropriate?",
+    "options": [
+     "Wear a surgical mask when within close range of the client",
+     "Place the client in a room with no precautions",
+     "Wear a gown only",
+     "Skip hand hygiene because gloves will be worn"
+    ],
+    "answerIndex": 0,
+    "rationalePerOption": [
+     "Correct. Droplet precautions use a mask for close contact.",
+     "Fails to protect others.",
+     "Gown alone does not address droplets.",
+     "Hand hygiene is still required with gloves."
+    ],
+    "strategyUsed": "Infection control: route-specific precautions."
+   }
+  },
+  {
+   "id": "safety-fall-prevention",
+   "name": "Safety and fall prevention",
+   "stemSignals": [
+    "fall risk",
+    "safety measure",
+    "prevent injury",
+    "restraint",
+    "bed alarm",
+    "environment"
+   ],
+   "whatItTests": "Choosing the least restrictive effective safety intervention.",
+   "decisionSteps": [
+    "Identify the specific risk (confusion, mobility, medications, environment).",
+    "Choose measures that address the cause and keep the client's freedom (call light, toileting schedule, non-slip footwear).",
+    "Try least restrictive measures before restraints.",
+    "Make sure the environment is safe (bed low, clutter-free).",
+    "Reassess and involve the client and family."
+   ],
+   "commonTraps": [
+    "Jumping to restraints.",
+    "Telling the client to ask for help without checking understanding.",
+    "Relying on a single measure.",
+    "Ignoring contributing factors such as toileting needs."
+   ],
+   "strategyTag": "Safety: least restrictive first",
+   "pnleAreas": [
+    "any"
+   ],
+   "difficultyRange": [
+    1,
+    3
+   ],
+   "workedExample": {
+    "vignette": "A nurse is caring for an older client who is at risk for falling and often gets up at night to use the bathroom. Which intervention is most appropriate?",
+    "options": [
+     "Apply wrist restraints at night",
+     "Offer scheduled toileting, keep the bed low, and keep the call light within reach",
+     "Tell the client not to get up at all",
+     "Remove the night light to promote sleep"
+    ],
+    "answerIndex": 1,
+    "rationalePerOption": [
+     "Restraints are not the first choice and increase risk.",
+     "Correct. Addresses the cause with least restrictive measures.",
+     "Unrealistic and ignores the underlying need.",
+     "Reduces visibility and increases risk."
+    ],
+    "strategyUsed": "Safety: least restrictive effective measure."
+   }
+  },
+  {
+   "id": "ethics-rights-informed-consent",
+   "name": "Ethics, client rights and informed consent",
+   "stemSignals": [
+    "informed consent",
+    "client rights",
+    "confidentiality",
+    "advocate",
+    "refuses",
+    "autonomy"
+   ],
+   "whatItTests": "Respecting autonomy, confidentiality, and the nurse's role as advocate.",
+   "decisionSteps": [
+    "Identify the principle at stake (autonomy, beneficence, nonmaleficence, justice, confidentiality).",
+    "Remember the provider obtains informed consent; the nurse verifies understanding and witnesses the signature.",
+    "Respect a competent client's right to refuse; assess reasons and notify the provider.",
+    "Protect privacy; share information only on a need-to-know basis.",
+    "Act as advocate and use the chain of command if unsafe or unethical practice is found."
+   ],
+   "commonTraps": [
+    "Obtaining consent as the nurse instead of the provider.",
+    "Persuading the client to comply.",
+    "Sharing information with relatives without permission.",
+    "Ignoring a refusal."
+   ],
+   "strategyTag": "Ethics: autonomy and advocacy",
+   "pnleAreas": [
+    "any"
+   ],
+   "difficultyRange": [
+    2,
+    4
+   ],
+   "workedExample": {
+    "vignette": "A competent client refuses a scheduled treatment. Which action should the nurse take?",
+    "options": [
+     "Give the treatment anyway to avoid delaying care",
+     "Explore the client's concerns, ensure the information is understood, and notify the provider",
+     "Ask a family member to convince the client",
+     "Document 'client uncooperative' and move on"
+    ],
+    "answerIndex": 1,
+    "rationalePerOption": [
+     "Violates autonomy.",
+     "Correct. Respects the right to refuse while ensuring informed decision and communication.",
+     "Coercion and breach of autonomy.",
+     "Judgmental and incomplete."
+    ],
+    "strategyUsed": "Ethics: autonomy; refusal handled through information and provider notification."
+   }
+  },
+  {
+   "id": "community-health-prioritization",
+   "name": "Community health prioritization",
+   "stemSignals": [
+    "community",
+    "primary prevention",
+    "secondary prevention",
+    "tertiary prevention",
+    "population",
+    "screening",
+    "outbreak"
+   ],
+   "whatItTests": "Choosing community actions by level of prevention and greatest population benefit.",
+   "decisionSteps": [
+    "Identify the problem and population affected.",
+    "Classify the action: primary (prevent), secondary (detect early), tertiary (limit disability).",
+    "Prioritize actions that protect the most people at greatest risk first.",
+    "Use available resources, community participation and culturally appropriate approaches.",
+    "Evaluate outcomes with measurable indicators."
+   ],
+   "commonTraps": [
+    "Picking individual-level actions when population-level is asked.",
+    "Choosing treatment over prevention when prevention is asked.",
+    "Ignoring cultural fit.",
+    "Confusing screening (secondary) with immunization (primary)."
+   ],
+   "strategyTag": "Community: prevention level and reach",
+   "pnleAreas": [
+    "NP1"
+   ],
+   "difficultyRange": [
+    2,
+    4
+   ],
+   "workedExample": {
+    "vignette": "A nurse in a community wants to prevent a vaccine-preventable disease in children. Which activity is an example of primary prevention?",
+    "options": [
+     "Screening children for early signs of the disease",
+     "Providing immunization clinics",
+     "Rehabilitation for children with complications",
+     "Treating children who already have the disease"
+    ],
+    "answerIndex": 1,
+    "rationalePerOption": [
+     "Secondary prevention (early detection).",
+     "Correct. Immunization prevents disease before it occurs.",
+     "Tertiary prevention.",
+     "Treatment is tertiary/curative, not primary prevention."
+    ],
+    "strategyUsed": "Community: primary = prevent before illness."
+   }
+  },
+  {
+   "id": "maternal-newborn-reasoning",
+   "name": "Maternal-newborn reasoning",
+   "stemSignals": [
+    "pregnant",
+    "postpartum",
+    "labor",
+    "newborn",
+    "fundus",
+    "prenatal",
+    "breastfeeding"
+   ],
+   "whatItTests": "Applying ABC and risk reasoning to mother and baby, separating normal changes from danger signs.",
+   "decisionSteps": [
+    "Identify the phase (prenatal, labor, postpartum, newborn).",
+    "Recall normal findings for that phase.",
+    "Prioritize maternal or fetal compromise (bleeding, abnormal fetal heart pattern, respiratory distress in the newborn).",
+    "Maintain the newborn's airway, warmth, and feeding.",
+    "Teach danger signs and when to seek care."
+   ],
+   "commonTraps": [
+    "Treating a normal change as an emergency.",
+    "Missing a hemorrhage sign because the client says she feels fine.",
+    "Ignoring the baby's temperature or airway.",
+    "Picking education before an urgent need."
+   ],
+   "strategyTag": "Maternal-newborn: danger vs normal",
+   "pnleAreas": [
+    "NP2"
+   ],
+   "difficultyRange": [
+    2,
+    5
+   ],
+   "workedExample": {
+    "vignette": "A nurse assesses a client on the first postpartum day. Which finding requires the nurse's immediate attention?",
+    "options": [
+     "Light, red vaginal discharge",
+     "Soaking a perineal pad in less than an hour and a boggy uterus",
+     "Mild afterpains while breastfeeding",
+     "Feeling tired"
+    ],
+    "answerIndex": 1,
+    "rationalePerOption": [
+     "Expected lochia.",
+     "Correct. Heavy bleeding with a boggy uterus suggests postpartum hemorrhage; circulation is threatened.",
+     "Common and expected.",
+     "Common; support rest."
+    ],
+    "strategyUsed": "ABC: circulation (hemorrhage) first."
+   }
+  },
+  {
+   "id": "pediatric-growth-safety",
+   "name": "Pediatric growth, development and safety",
+   "stemSignals": [
+    "toddler",
+    "infant",
+    "school-age",
+    "adolescent",
+    "developmentally appropriate",
+    "safety",
+    "play"
+   ],
+   "whatItTests": "Matching nursing actions and safety teaching to the child's developmental stage.",
+   "decisionSteps": [
+    "Identify the child's developmental stage.",
+    "Recall the stage's main task and typical risks (infants: choking, suffocation; toddlers: poisoning, falls; school age: bicycle injury).",
+    "Choose actions appropriate to that stage and involve the caregiver.",
+    "Prioritize airway and safety risks.",
+    "Use age-appropriate communication and play."
+   ],
+   "commonTraps": [
+    "Choosing adult-style explanations.",
+    "Selecting a safety measure for the wrong age.",
+    "Ignoring developmental limits.",
+    "Education options that ignore the urgent risk."
+   ],
+   "strategyTag": "Peds: stage drives the answer",
+   "pnleAreas": [
+    "NP2"
+   ],
+   "difficultyRange": [
+    2,
+    4
+   ],
+   "workedExample": {
+    "vignette": "A nurse teaches a parent of a curious toddler about safety at home. Which instruction is most appropriate?",
+    "options": [
+     "Keep cleaning products and medicines locked or out of reach",
+     "Allow the child to play with small toys while unsupervised",
+     "Leave the child alone in the bathtub for short periods",
+     "Let the child sleep with soft bedding and toys piled up"
+    ],
+    "answerIndex": 0,
+    "rationalePerOption": [
+     "Correct. Poisoning is a major toddler risk; storage out of reach prevents it.",
+     "Small parts are a choking hazard.",
+     "Drowning risk.",
+     "Suffocation risk, mainly for infants."
+    ],
+    "strategyUsed": "Peds: match safety to stage."
+   }
+  },
+  {
+   "id": "mental-health-crisis",
+   "name": "Mental health crisis and safety",
+   "stemSignals": [
+    "suicidal",
+    "hallucinations",
+    "agitated",
+    "crisis",
+    "self-harm",
+    "anxiety",
+    "psychiatric"
+   ],
+   "whatItTests": "Keeping the client and others safe first, then applying therapeutic communication.",
+   "decisionSteps": [
+    "Assess immediate safety (risk of harm to self or others).",
+    "Remove hazards and stay with a client at high risk.",
+    "Ask directly about suicidal thoughts and plan; do not avoid the topic.",
+    "Use a calm, brief, nonthreatening approach; use the least restrictive effective intervention.",
+    "Involve the team and provider; document."
+   ],
+   "commonTraps": [
+    "Reassurance that avoids the risk ('You have so much to live for').",
+    "Leaving the client alone for convenience.",
+    "Debating hallucinations.",
+    "Making promises of secrecy."
+   ],
+   "strategyTag": "Safety first, then rapport",
+   "pnleAreas": [
+    "NP5"
+   ],
+   "difficultyRange": [
+    2,
+    5
+   ],
+   "workedExample": {
+    "vignette": "A client says, 'I do not want to be here anymore.' Which action should the nurse take first?",
+    "options": [
+     "Change the subject to cheerful topics",
+     "Ask directly whether the client is thinking of harming themselves",
+     "Promise to keep the conversation confidential",
+     "Tell the client that others have it worse"
+    ],
+    "answerIndex": 1,
+    "rationalePerOption": [
+     "Avoids the risk and dismisses the concern.",
+     "Correct. Direct assessment of suicidal intent is the first step to ensure safety.",
+     "Confidentiality cannot be promised when safety is at risk.",
+     "Minimizes the client's pain."
+    ],
+    "strategyUsed": "Safety: assess risk of harm before other interventions."
+   }
+  },
+  {
+   "id": "documentation-reporting",
+   "name": "Documentation and reporting",
+   "stemSignals": [
+    "document",
+    "report",
+    "chart",
+    "SBAR",
+    "handoff",
+    "incident report"
+   ],
+   "whatItTests": "Accurate, timely, objective documentation and effective reporting.",
+   "decisionSteps": [
+    "Respond to the client's needs first, then document.",
+    "Record objective facts and actual observations, not opinions.",
+    "Use SBAR to report: situation, background, assessment, recommendation.",
+    "Chart only what you did or observed yourself, after doing it.",
+    "Complete an incident report objectively; do not mention it in the medical record."
+   ],
+   "commonTraps": [
+    "Documenting before the action.",
+    "Writing judgments ('client is rude').",
+    "Documenting for another nurse.",
+    "Referring to the incident report in the chart."
+   ],
+   "strategyTag": "Documentation: factual and timely",
+   "pnleAreas": [
+    "any"
+   ],
+   "difficultyRange": [
+    1,
+    3
+   ],
+   "workedExample": {
+    "vignette": "A nurse needs to document a client's wound. Which entry is best?",
+    "options": [
+     "Wound looks terrible",
+     "Wound on left forearm 3 cm long, edges approximated, no drainage or redness",
+     "Client's wound is probably infected",
+     "Wound is fine"
+    ],
+    "answerIndex": 1,
+    "rationalePerOption": [
+     "Vague opinion.",
+     "Correct. Specific, objective and measurable.",
+     "Unsupported assumption.",
+     "Vague."
+    ],
+    "strategyUsed": "Documentation: objective, specific, timely."
+   }
+  },
+  {
+   "id": "discharge-teaching",
+   "name": "Discharge teaching and home-care readiness",
+   "stemSignals": [
+    "discharge",
+    "home",
+    "instructions",
+    "teaching plan",
+    "follow-up",
+    "self-care"
+   ],
+   "whatItTests": "Selecting the safety-critical teaching and confirming readiness for home.",
+   "decisionSteps": [
+    "Identify the client's learning needs, readiness, and barriers.",
+    "Prioritize teaching on safety-critical items: medications, warning signs, follow-up, activity limits.",
+    "Use plain language and teach-back.",
+    "Include the caregiver when appropriate.",
+    "Provide written instructions and confirm resources."
+   ],
+   "commonTraps": [
+    "Teaching low-yield details before warning signs.",
+    "Providing too much information at once.",
+    "Assuming understanding without verification.",
+    "Teaching when the client is in pain or anxious."
+   ],
+   "strategyTag": "Discharge: safety-critical first",
+   "pnleAreas": [
+    "any"
+   ],
+   "difficultyRange": [
+    1,
+    3
+   ],
+   "workedExample": {
+    "vignette": "A nurse is discharging a client after surgery. Which instruction should be included?",
+    "options": [
+     "Signs of infection and when to call the provider",
+     "A detailed hospital history",
+     "The nurse's favorite exercise routine",
+     "Details of billing codes"
+    ],
+    "answerIndex": 0,
+    "rationalePerOption": [
+     "Correct. Safety-critical warning signs are essential.",
+     "Not relevant to home recovery.",
+     "Not individualized or evidence-based.",
+     "Not clinically important for safe recovery."
+    ],
+    "strategyUsed": "Teaching: safety-critical information first."
+   }
+  },
+  {
+   "id": "distressed-client-best-response",
+   "name": "Selecting the best response to a distressed client",
+   "stemSignals": [
+    "angry",
+    "crying",
+    "refuses",
+    "denies",
+    "grieving",
+    "upset",
+    "afraid"
+   ],
+   "whatItTests": "Responding to anger, fear, denial, or grief with presence and acknowledgement rather than argument.",
+   "decisionSteps": [
+    "Make sure the client and staff are safe.",
+    "Name or acknowledge the emotion calmly.",
+    "Avoid arguing, defending, or taking the anger personally.",
+    "Offer choices or explore the cause.",
+    "Follow up and involve the team if needed."
+   ],
+   "commonTraps": [
+    "Defensive replies.",
+    "Reassuring too early.",
+    "Telling the client to calm down.",
+    "Leaving the client alone."
+   ],
+   "strategyTag": "Acknowledge feeling, stay calm",
+   "pnleAreas": [
+    "any"
+   ],
+   "difficultyRange": [
+    1,
+    3
+   ],
+   "workedExample": {
+    "vignette": "A client angrily says, 'Nobody here tells me anything!' Which response by the nurse is best?",
+    "options": [
+     "Calm down, I'm doing my best",
+     "I can see you are frustrated. What information would be most helpful right now?",
+     "The doctor is busy; it's not my fault",
+     "Please stop shouting"
+    ],
+    "answerIndex": 1,
+    "rationalePerOption": [
+     "Dismissive, tells the client how to feel.",
+     "Correct. Acknowledges the feeling and invites specific needs.",
+     "Defensive and blaming.",
+     "Confrontational."
+    ],
+    "strategyUsed": "Communication: acknowledge, then explore."
+   }
+  },
+  {
+   "id": "except-negative-stem",
+   "name": "'Except' / negative stem questions",
+   "stemSignals": [
+    "except",
+    "not",
+    "least",
+    "unsafe",
+    "contraindicated",
+    "incorrect"
+   ],
+   "whatItTests": "Finding the one false, unsafe, or inappropriate option when three are correct.",
+   "decisionSteps": [
+    "Re-read the stem and note the negative word.",
+    "Mark each option as true/safe or false/unsafe.",
+    "Choose the option that stands out as the exception.",
+    "Re-check by turning the stem into 'which is correct' and see which option does not fit.",
+    "Do not change your view of what is right."
+   ],
+   "commonTraps": [
+    "Missing the negative word.",
+    "Choosing a correct statement because it sounds familiar.",
+    "Rushing.",
+    "Overthinking."
+   ],
+   "strategyTag": "Negative stem: find the odd one",
+   "pnleAreas": [
+    "any"
+   ],
+   "difficultyRange": [
+    2,
+    4
+   ],
+   "workedExample": {
+    "vignette": "A nurse teaches a client about hand hygiene. Which statement by the nurse is NOT correct?",
+    "options": [
+     "Wash hands before eating",
+     "Wash hands after using the toilet",
+     "Hand hygiene is needed only when hands look dirty",
+     "Rub thoroughly over all surfaces of the hands"
+    ],
+    "answerIndex": 2,
+    "rationalePerOption": [
+     "Correct practice.",
+     "Correct practice.",
+     "Correct answer to the NOT question. Hands can carry germs even when they look clean.",
+     "Correct practice."
+    ],
+    "strategyUsed": "Negative stem: pick the statement that is false."
+   }
+  },
+  {
+   "id": "acute-vs-chronic",
+   "name": "Acute before chronic",
+   "stemSignals": [
+    "sudden",
+    "new onset",
+    "chronic",
+    "acute",
+    "exacerbation"
+   ],
+   "whatItTests": "Prioritizing new, sudden problems over long-standing or stable ones.",
+   "decisionSteps": [
+    "Identify onset and timing for each problem.",
+    "Prioritize sudden or new onset.",
+    "Check effect on ABC.",
+    "Defer chronic, stable issues unless they have acutely worsened.",
+    "Reassess the plan."
+   ],
+   "commonTraps": [
+    "Choosing the chronic problem because the diagnosis is serious.",
+    "Choosing the problem the client talks about most.",
+    "Ignoring a sudden change in a chronic client.",
+    "Choosing education over acute management."
+   ],
+   "strategyTag": "Acute before chronic",
+   "pnleAreas": [
+    "NP3",
+    "NP4"
+   ],
+   "difficultyRange": [
+    1,
+    3
+   ],
+   "workedExample": {
+    "vignette": "A nurse is caring for a client with long-term back pain who suddenly develops chest tightness. Which should the nurse address first?",
+    "options": [
+     "Long-term back pain",
+     "Sudden chest tightness",
+     "Request for a snack",
+     "Question about visiting hours"
+    ],
+    "answerIndex": 1,
+    "rationalePerOption": [
+     "Chronic and ongoing.",
+     "Correct. Sudden onset with potential cardiac or respiratory threat.",
+     "Lower priority.",
+     "Lower priority."
+    ],
+    "strategyUsed": "Acute before chronic."
+   }
+  },
+  {
+   "id": "stable-vs-unstable",
+   "name": "Stable vs unstable",
+   "stemSignals": [
+    "stable",
+    "unstable",
+    "changes",
+    "deteriorating",
+    "vital signs"
+   ],
+   "whatItTests": "Separating clients whose condition is predictable from those who are changing.",
+   "decisionSteps": [
+    "Define stability by consistent vital signs, alertness, and predictable course.",
+    "Identify trends over time.",
+    "Give priority to unstable or changing clients.",
+    "Use stable clients for delegation and teaching.",
+    "Reassess frequently."
+   ],
+   "commonTraps": [
+    "Equating 'critical diagnosis' with unstable.",
+    "Overlooking small changes.",
+    "Selecting the stable client for urgent care.",
+    "Skipping reassessment."
+   ],
+   "strategyTag": "Unstable before stable",
+   "pnleAreas": [
+    "any"
+   ],
+   "difficultyRange": [
+    1,
+    3
+   ],
+   "workedExample": {
+    "vignette": "A nurse has time to see only one client right now. One client after surgery has steady vital signs and is sleeping comfortably; another has a blood pressure that has fallen over three readings and is newly pale. Which client is the priority?",
+    "options": [
+     "The sleeping client, to confirm comfort first",
+     "The pale client with the falling blood pressure trend",
+     "The client whose room is nearest",
+     "The client who has been in the hospital longer"
+    ],
+    "answerIndex": 1,
+    "rationalePerOption": [
+     "Stable; can be checked after the unstable client.",
+     "Correct. A worsening trend with new pallor signals instability.",
+     "Proximity is not a priority criterion.",
+     "Length of stay does not determine acuity."
+    ],
+    "strategyUsed": "Unstable before stable."
+   }
+  },
+  {
+   "id": "least-invasive-first",
+   "name": "Least invasive intervention first",
+   "stemSignals": [
+    "least invasive",
+    "first measure",
+    "initial intervention",
+    "non-pharmacologic",
+    "before medication"
+   ],
+   "whatItTests": "Choosing simple, safe, independent nursing actions before invasive or high-risk ones.",
+   "decisionSteps": [
+    "Confirm the client is stable.",
+    "List interventions from least to most invasive.",
+    "Choose independent nursing measures (reposition, comfort, hydration) first.",
+    "Move to medications or procedures if ineffective.",
+    "Evaluate the response."
+   ],
+   "commonTraps": [
+    "Jumping to medication.",
+    "Choosing a procedure.",
+    "Calling the provider prematurely.",
+    "Applying this rule in an emergency."
+   ],
+   "strategyTag": "Least invasive first",
+   "pnleAreas": [
+    "any"
+   ],
+   "difficultyRange": [
+    1,
+    3
+   ],
+   "workedExample": {
+    "vignette": "A stable client reports mild discomfort from lying in one position for hours. Which action should the nurse take first?",
+    "options": [
+     "Reposition the client and offer comfort measures",
+     "Request a stronger medication",
+     "Call the provider",
+     "Prepare for a procedure"
+    ],
+    "answerIndex": 0,
+    "rationalePerOption": [
+     "Correct. Simple, safe, independent action.",
+     "More invasive than needed.",
+     "Premature.",
+     "Excessive."
+    ],
+    "strategyUsed": "Least invasive first in stable clients."
+   }
+  },
+  {
+   "id": "scope-of-practice-boundaries",
+   "name": "Scope of practice and legal boundaries",
+   "stemSignals": [
+    "scope of practice",
+    "within the role",
+    "nurse may",
+    "legal",
+    "negligence",
+    "standard of care"
+   ],
+   "whatItTests": "Recognizing what a nurse can do independently, what requires an order, and what must be refused or escalated.",
+   "decisionSteps": [
+    "Identify the action and who is permitted to do it.",
+    "Separate independent nursing actions from those requiring an order.",
+    "Do not perform acts outside your competence or the law.",
+    "Clarify unclear or unsafe orders through the chain of command.",
+    "Document and report."
+   ],
+   "commonTraps": [
+    "Following an unsafe order without question.",
+    "Acting beyond competence.",
+    "Assuming being senior permits anything.",
+    "Failing to escalate."
+   ],
+   "strategyTag": "Scope: act within role",
+   "pnleAreas": [
+    "any"
+   ],
+   "difficultyRange": [
+    2,
+    4
+   ],
+   "workedExample": {
+    "vignette": "A nurse receives an order that seems unsafe for the client's condition. What should the nurse do?",
+    "options": [
+     "Carry out the order since the provider wrote it",
+     "Clarify the order with the provider and follow the chain of command if needed",
+     "Ignore the order silently",
+     "Ask a coworker to give it"
+    ],
+    "answerIndex": 1,
+    "rationalePerOption": [
+     "Nurses remain accountable for safe practice.",
+     "Correct. Clarify and escalate to protect the client.",
+     "Leaves the client without needed care and communication.",
+     "Passes the problem along."
+    ],
+    "strategyUsed": "Scope: clarify unsafe orders."
+   }
+  },
+  {
+   "id": "airway-obstruction-exception",
+   "name": "Emergency exception: act before assessing",
+   "stemSignals": [
+    "choking",
+    "cannot speak",
+    "cardiac arrest",
+    "unresponsive",
+    "emergency",
+    "stridor"
+   ],
+   "whatItTests": "Knowing that a clearly stated life threat overrides 'assess first'.",
+   "decisionSteps": [
+    "Recognize the signs of immediate life threat (airway obstruction, no pulse, no breathing).",
+    "Act immediately; do not delay for extended assessment.",
+    "Call for help and begin the correct emergency intervention.",
+    "Reassess after the intervention.",
+    "Notify the provider and document afterward."
+   ],
+   "commonTraps": [
+    "Applying 'assess first' mechanically.",
+    "Calling family.",
+    "Choosing to document.",
+    "Spending time gathering history."
+   ],
+   "strategyTag": "Exception: emergency overrides assess-first",
+   "pnleAreas": [
+    "NP3",
+    "NP5"
+   ],
+   "difficultyRange": [
+    2,
+    5
+   ],
+   "workedExample": {
+    "vignette": "A client suddenly clutches the throat, cannot speak or cough, and has a panicked look. Which action should the nurse take first?",
+    "options": [
+     "Ask the client about the last meal",
+     "Perform abdominal thrusts",
+     "Obtain vital signs",
+     "Call the provider and wait"
+    ],
+    "answerIndex": 1,
+    "rationalePerOption": [
+     "A history delays rescue.",
+     "Correct. Complete airway obstruction requires immediate action.",
+     "Vital signs delay life-saving action.",
+     "Waiting wastes critical time."
+    ],
+    "strategyUsed": "Emergency exception: airway obstruction overrides assess first."
+   }
+  },
+  {
+   "id": "postoperative-complication-recognition",
+   "name": "Recognizing a postoperative complication",
+   "stemSignals": [
+    "postoperative",
+    "after surgery",
+    "complication",
+    "monitor",
+    "early sign"
+   ],
+   "whatItTests": "Spotting early signs of hemorrhage, infection, respiratory or circulatory compromise.",
+   "decisionSteps": [
+    "Know expected postoperative changes.",
+    "Identify early signs of complications (bleeding, hypoxia, infection, thromboembolism).",
+    "Prioritize airway and circulation issues.",
+    "Report and act promptly.",
+    "Evaluate."
+   ],
+   "commonTraps": [
+    "Dismissing restlessness as anxiety.",
+    "Waiting for late signs.",
+    "Assuming the pain is normal.",
+    "Delaying notification."
+   ],
+   "strategyTag": "Early recognition: trend and ABC",
+   "pnleAreas": [
+    "NP3"
+   ],
+   "difficultyRange": [
+    2,
+    4
+   ],
+   "workedExample": {
+    "vignette": "A client one day after surgery has a rising pulse, cool skin, and new restlessness. What does the nurse suspect?",
+    "options": [
+     "Normal recovery",
+     "Possible hemorrhage or shock",
+     "Allergy to hospital food",
+     "Boredom"
+    ],
+    "answerIndex": 1,
+    "rationalePerOption": [
+     "These are not normal findings.",
+     "Correct. Compensatory tachycardia, cool skin and restlessness suggest decreased circulation.",
+     "No supporting data.",
+     "Does not explain the signs."
+    ],
+    "strategyUsed": "Early signs of circulatory compromise."
+   }
+  },
+  {
+   "id": "lab-value-interpretation-qualitative",
+   "name": "Qualitative laboratory-value interpretation",
+   "stemSignals": [
+    "laboratory",
+    "lab results",
+    "abnormal",
+    "elevated",
+    "decreased",
+    "report"
+   ],
+   "whatItTests": "Interpreting results as normal, concerning, or critical and linking them to client risk, without memorizing exact numbers.",
+   "decisionSteps": [
+    "Recognize whether the result is high, low, or normal for the test.",
+    "Link it to the client's condition and symptoms.",
+    "Identify which results threaten safety immediately.",
+    "Plan the response: hold, notify, monitor.",
+    "Document and reassess."
+   ],
+   "commonTraps": [
+    "Reacting to a number without client correlation.",
+    "Ignoring critical results.",
+    "Treating the number as a diagnosis.",
+    "Assuming one value alone is conclusive."
+   ],
+   "strategyTag": "Lab: link result to risk",
+   "pnleAreas": [
+    "NP3",
+    "NP4"
+   ],
+   "difficultyRange": [
+    3,
+    5
+   ],
+   "workedExample": {
+    "vignette": "A nurse receives a result flagged by the laboratory as critical for a client with new weakness. What should the nurse do?",
+    "options": [
+     "Wait until the next shift",
+     "Assess the client and report the result promptly to the provider",
+     "Ignore it",
+     "Tell the client not to worry"
+    ],
+    "answerIndex": 1,
+    "rationalePerOption": [
+     "Delays treatment.",
+     "Correct. Critical results require prompt assessment and notification.",
+     "Unsafe.",
+     "Does not address the risk."
+    ],
+    "strategyUsed": "Critical results: assess and report promptly."
+   }
+  },
+  {
+   "id": "health-promotion-prevention-levels",
+   "name": "Health promotion and prevention levels",
+   "stemSignals": [
+    "primary",
+    "secondary",
+    "tertiary",
+    "health promotion",
+    "risk factor",
+    "screening"
+   ],
+   "whatItTests": "Classifying activities as primary, secondary or tertiary prevention.",
+   "decisionSteps": [
+    "Identify whether disease is absent, early, or established.",
+    "Primary: prevent (immunization, education).",
+    "Secondary: detect early (screening).",
+    "Tertiary: limit complications (rehabilitation).",
+    "Pick the matching level."
+   ],
+   "commonTraps": [
+    "Mixing up secondary and tertiary.",
+    "Classifying treatment as prevention.",
+    "Missing the timing.",
+    "Confusing health promotion with screening."
+   ],
+   "strategyTag": "Prevention level: timing decides",
+   "pnleAreas": [
+    "NP1"
+   ],
+   "difficultyRange": [
+    1,
+    3
+   ],
+   "workedExample": {
+    "vignette": "A nurse conducts a blood pressure screening at a health fair. This is which level of prevention?",
+    "options": [
+     "Primary",
+     "Secondary",
+     "Tertiary",
+     "Quaternary"
+    ],
+    "answerIndex": 1,
+    "rationalePerOption": [
+     "Primary prevents disease before it occurs.",
+     "Correct. Screening detects disease early.",
+     "Tertiary limits disability.",
+     "Not one of the standard three levels."
+    ],
+    "strategyUsed": "Prevention level: screening is secondary."
+   }
+  },
+  {
+   "id": "nursing-process-step-identification",
+   "name": "Nursing process step identification",
+   "stemSignals": [
+    "assessment",
+    "diagnosis",
+    "planning",
+    "implementation",
+    "evaluation",
+    "which step"
+   ],
+   "whatItTests": "Identifying which phase of the nursing process an action belongs to.",
+   "decisionSteps": [
+    "Read the action and decide whether it collects data, labels a problem, sets goals, acts, or judges outcomes.",
+    "Collecting data = assessment.",
+    "Naming the problem = diagnosis.",
+    "Setting outcomes = planning.",
+    "Doing = implementation; judging = evaluation."
+   ],
+   "commonTraps": [
+    "Confusing planning with implementation.",
+    "Calling a judgment of outcomes assessment.",
+    "Missing the verb.",
+    "Overthinking."
+   ],
+   "strategyTag": "Nursing process: match the verb",
+   "pnleAreas": [
+    "any"
+   ],
+   "difficultyRange": [
+    1,
+    2
+   ],
+   "workedExample": {
+    "vignette": "A nurse compares a client's pain rating with the goal set earlier and finds it unmet. Which phase is this?",
+    "options": [
+     "Assessment",
+     "Planning",
+     "Implementation",
+     "Evaluation"
+    ],
+    "answerIndex": 3,
+    "rationalePerOption": [
+     "Gathers new data, not comparing to a goal.",
+     "Planning sets the goal.",
+     "Implementation is carrying out actions.",
+     "Correct. Comparing outcome with goal is evaluation."
+    ],
+    "strategyUsed": "Nursing process: evaluation compares outcome to goal."
+   }
+  }
+ ],
+ "pnleAreaNames": {
+  "NP1": "Care of Individuals, Families, Population Groups and Community (Community Health Nursing)",
+  "NP2": "Care of Mother and Adolescent; Human Growth and Development",
+  "NP3": "Surgery, Oxygenation, Fluids and Electrolytes, Infectious/Inflammatory/Immunologic response, Cellular Aberrations",
+  "NP4": "Nutrition and GI, Metabolism and Endocrine, Perception and Coordination",
+  "NP5": "Maladaptive Patterns of Behavior (psychiatric); Life-Threatening, Acutely Ill, High Acuity and Emergency",
+  "note": "INFERRED from search summaries of the PRC 2025 Enhanced TOS (BON Res. 10 s.2025); official PDF not read. 'any' = cross-cutting (fundamentals, ethics, delegation, communication, pharmacology run through all five tests)."
+ }
+}

@@ -1,0 +1,791 @@
+[
+ {
+  "id": "cb-np5-0001",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Burden statement",
+  "noteId": "np5-therapeutic-communication",
+  "vignette": "A 29-year-old woman on the medical unit after a minor fall has been quiet for two days. While the nurse takes her pulse she says, 'My family would be better off without me. I am just a burden.' Her tray is untouched and she has given away her phone to her sister.",
+  "stem": "Which response by the nurse is best?",
+  "options": [
+   "\"Tell me more about feeling like a burden.\"",
+   "\"Your family loves you and would be heartbroken.\"",
+   "\"Are you thinking about ending your life?\"",
+   "\"Why do you think they would be better off?\""
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: burden statement, giving away belongings, not eating.\n2. Principle: self-harm cues are asked about directly.\n3. Priority: safety before exploration.\nCurve ball: in most therapeutic-communication items, reflecting or exploring the feeling wins; here the safety cues change the winner to the direct question.\nFlip: with a statement of sadness and no other risk cues, exploring would be correct.",
+  "optionRationales": [
+   "Right technique, wrong time. Exploring is usually best, but it skirts the danger and delays the safety question.",
+   "False reassurance and approval. It belittles her feeling and closes the topic.",
+   "Correct. A hint of self-harm with giving away belongings must be asked about directly; asking does not plant the idea.",
+   "Asking 'why' sounds accusing and forces her to justify the thought."
+  ],
+  "strategy": "Therapeutic communication: ask directly about self-harm",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "A threat of self-harm is answered with a direct question",
+   "Never change the subject or falsely reassure"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np5-0002",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Aggression from pain",
+  "noteId": "np5-behavioral-management",
+  "vignette": "A 33-year-old man with a history of schizophrenia is two days after an appendectomy. He is pacing in the hallway, shouting that nobody listens, with fists clenched. He winces when he straightens and says his last pain medicine 'did nothing'. A security officer and two staff are already standing nearby.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Order the staff to step in and restrain him until he is calm",
+   "Approach calmly, ask about the pain, and arrange analgesia",
+   "Offer a voluntary time-out in his room until he calms down",
+   "Tell him firmly that shouting is not allowed and set a limit"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: pacing, fists, shouting, post-op wincing.\n2. Principle: aggression may be a symptom of pain or delirium; least restrictive first.\n3. Priority: calm approach and assessment of the cause.\nCurve ball: the psychiatric history and the standing staff pull toward behavior control; the surgical pain is the real driver.\nFlip: if he were making threats with a weapon, protecting safety first would change the answer.",
+  "optionRationales": [
+   "Over-intervention. Restraint is for imminent danger when less restrictive options have failed.",
+   "Correct. His escalation has an unmet physical cause, so addressing pain is the least restrictive effective step.",
+   "Skips assessment. Isolation without addressing pain may increase agitation.",
+   "Right action, wrong time. Limits help once the cause is addressed; leading with a rule escalates him."
+  ],
+  "strategy": "Treat the cause of the behavior",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Least restrictive effective measure",
+   "If in pain, treat the cause of the aggression"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np5-0003",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Who to see first on the psychiatric unit",
+  "noteId": "np5-mdd",
+  "vignette": "At the start of the shift the nurse has four clients. (1) A man 10 hours after his last drink with mild hand tremor and worry. (2) A woman in acute mania pacing and speaking loudly but eating finger foods. (3) A man with severe depression for six weeks who this morning is suddenly cheerful and calm, thanked staff, and asked for his belongings to be given to his brother. (4) A woman with anorexia nervosa who is stable and wants to talk about her meal plan.",
+  "stem": "Which client should the nurse see first?",
+  "options": [
+   "The man ten hours after his last drink with mild tremor",
+   "The woman in mania who is pacing and loud but is eating her finger foods",
+   "The woman with anorexia wanting to discuss her plan",
+   "The man who is suddenly cheerful after weeks of severe depression"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: sudden cheerfulness and giving away belongings after weeks of depression.\n2. Principle: risk rises when energy returns but mood is low; suicide check outranks all else.\n3. Priority: safety.\nCurve ball: the 'improved' client looks the best on the unit, and the loud pacing client looks the worst.\nFlip: if the alcohol client had a fever, hallucinations and BP rising, he would come first.",
+  "optionRationales": [
+   "Right priority, wrong client. Withdrawal needs monitoring but is mild now.",
+   "Noisy but eating and stable. Dramatic behavior does not mean highest risk.",
+   "Stable and not in acute danger.",
+   "Correct. Sudden calm with giving away belongings can mean a decision to die; suicide risk outranks stable physical problems."
+  ],
+  "strategy": "Sudden calm after depression = risk",
+  "archetype": "curve-ball",
+  "difficulty": 5,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Suicide risk rises when energy returns but mood still low",
+   "Suicide check outranks everything"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np5-0004",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Naloxone wearing off",
+  "noteId": "np5-x-opioids",
+  "vignette": "A 26-year-old man was brought in unresponsive with pinpoint pupils and a respiratory rate of 6. After naloxone he woke up and his rate is 16. Thirty minutes later he is awake, irritable, denies any problem and demands to leave, saying he feels fine. He used a long-acting opioid.",
+  "stem": "Which action should the nurse take?",
+  "options": [
+   "Keep him under close observation and notify the provider before he leaves",
+   "Let him go after he signs the refusal, since he is awake and breathing normally",
+   "Give another dose of naloxone now to keep him awake",
+   "Arrange a methadone dose to ease the withdrawal before discharge"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: successful reversal, now well and demanding to leave, long-acting opioid.\n2. Principle: naloxone is repeated every few hours until the drug level is non-toxic.\n3. Priority: breathing, with observation.\nCurve ball: the reversal worked and he is well, so discharge feels right; the antidote wears off before the drug.\nFlip: if the opioid were short-acting and hours had passed, release might be considered.",
+  "optionRationales": [
+   "Correct. Naloxone can wear off sooner than the opioid, and breathing can fail again, so he needs repeated observation.",
+   "Under-reaction. Alert now does not mean safe in an hour.",
+   "Over-intervention. No sign of re-depression; giving without need may cause severe withdrawal.",
+   "Plausible detail from long-term treatment. It does not address the overdose risk."
+  ],
+  "strategy": "Antagonist is shorter than the drug",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Naloxone given every few hours until opioid nontoxic",
+   "Priority: airway and ventilation"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np5-0005",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Lithium with vomiting and diarrhea",
+  "noteId": "np5-pc-lithium-toxicity",
+  "vignette": "A client on lithium for bipolar disorder phones the clinic nurse. For two days she has had vomiting and watery stools. She is very thirsty, her hands shake coarsely, and she feels unsteady on her feet. She asks whether she should take her morning dose with crackers as usual.",
+  "stem": "What is the best advice?",
+  "options": [
+   "Take the dose with crackers as usual to settle the stomach before it is vomited",
+   "Hold the dose and come in for a lithium level and assessment",
+   "Ask the doctor for propranolol to control the tremor",
+   "Cut back on salt and fluids until the diarrhea stops"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: vomiting, diarrhea, thirst, coarse tremor, unsteady gait.\n2. Principle: lithium levels rise quickly with fluid loss.\n3. Priority: hold, report, check level.\nCurve ball: a tremor is a known lithium effect with a standard remedy, and 'take it with food' is standard advice; here both are wrong.\nFlip: with a fine hand tremor and no GI loss, propranolol could be requested.",
+  "optionRationales": [
+   "Unsafe but common habit. Taking drug during dehydration can worsen toxicity.",
+   "Correct. Dehydration raises lithium levels fast; coarse tremor, vomiting and unsteadiness suggest toxicity.",
+   "Treats the symptom, not the cause. Fine tremor is a side effect; coarse tremor with GI loss is a warning.",
+   "Opposite of correct. Sodium and fluid should stay normal."
+  ],
+  "strategy": "Fine versus coarse tremor",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Toxic signs: severe vomiting and diarrhea, weakness, poor coordination",
+   "Keep sodium and fluids steady; hold the dose and report toxic signs"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np5-0006",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Rigidity with fever on haloperidol",
+  "noteId": "np5-pc-eps-nms",
+  "vignette": "A client started haloperidol four days ago. This morning he is rigid and sweating, temperature 39.7 C, pulse 124, BP swinging from 90/60 to 170/100. He is drowsy and mumbling. A PRN benztropine order for stiffness is on the chart.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Give the PRN benztropine now to ease the stiffness that began after the first doses",
+   "Give the next scheduled haloperidol dose and recheck vital signs",
+   "Encourage him to walk to ease the restlessness",
+   "Hold the antipsychotic, call the provider, and begin cooling and hydration"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: fever 39.7, rigidity, autonomic swings, drowsiness.\n2. Principle: NMS is potentially fatal; EPS lack fever and instability.\n3. Priority: stop the drug, escalate, cool, hydrate.\nCurve ball: stiffness on an antipsychotic with a PRN anticholinergic is routine EPS; the temperature and swinging BP change the diagnosis.\nFlip: with stiffness and tremor but a normal temperature and stable vitals, benztropine would be correct.",
+  "optionRationales": [
+   "Right drug for another problem. Anticholinergics treat EPS, not NMS.",
+   "Unsafe habit. Continuing the cause worsens the emergency.",
+   "Plausible detail from akathisia. He is rigid and unstable.",
+   "Correct. Fever, rigidity and unstable vital signs are neuroleptic malignant syndrome, which needs the drug stopped immediately."
+  ],
+  "strategy": "Fever plus rigidity = NMS, not EPS",
+  "archetype": "curve-ball",
+  "difficulty": 5,
+  "bloom": "judgment",
+  "keyFacts": [
+   "NMS: rigidity, high fever, unstable BP; stop antipsychotics at once",
+   "EPS pick-up: benztropine for dystonia and pseudoparkinsonism"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np5-0007",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Acute dystonia and airway",
+  "noteId": "np5-pc-eps-nms",
+  "vignette": "Two hours after his first haloperidol injection a 22-year-old man has a twisted neck, eyes rolled upward, a thick tongue and a strained voice. He is frightened, swallowing with effort, SpO2 94%. The nurse knows IM benztropine is in the standing orders.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Reassure him that the spasm will pass and recheck in thirty minutes",
+   "Hold the next antipsychotic dose and document the reaction",
+   "Stay with him, assess airway and breathing, and request the anticholinergic order",
+   "Encourage him to walk around to relieve the restlessness"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: neck twist, thick tongue, hard to swallow, strained voice.\n2. Principle: laryngospasm risk.\n3. Priority: airway first, then treatment.\nCurve ball: the standing order tempts straight to the drug; the question wants the first step.\nFlip: with a mild neck stiffness and clear swallowing, giving the anticholinergic promptly would be first.",
+  "optionRationales": [
+   "Under-reaction. Reassurance alone leaves a possible airway threat unattended.",
+   "Right action, wrong time. Useful later, but not before the airway.",
+   "Correct. Dystonia with difficulty swallowing and a strained voice can progress to laryngospasm, so airway comes first.",
+   "Plausible detail from akathisia. He cannot walk off a dystonic spasm."
+  ],
+  "strategy": "Airway before medication",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Acute dystonia is an emergency; treat with IM benztropine or diphenhydramine",
+   "Airway first: laryngospasm"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np5-0008",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "MAOI diet teaching",
+  "noteId": "np5-x-maoi-atypical",
+  "vignette": "A 40-year-old client starting phenelzine for depression attends a teaching session with her family before a town fiesta. She gives four statements about what she will do.",
+  "stem": "Which statement shows that further teaching is needed?",
+  "options": [
+   "I will skip the salami and pepperoni at the fiesta and ask about the other dishes.",
+   "I can still have cottage cheese or ricotta.",
+   "A ripe banana is fine, but the peel is not.",
+   "A cold draft beer is fine because it is not hard liquor."
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: three accurate statements and one that sounds mild.\n2. Principle: tyramine-containing foods and tap beers are avoided.\n3. Priority: find the unsafe statement.\nCurve ball: avoiding 'all cheese' feels like the rule, so the ricotta statement looks wrong and the beer statement looks harmless.\nFlip: if she had said bottled drinks only, beer could be reviewed against her reference.",
+  "optionRationales": [
+   "Correct understanding. Aged meats are avoided.",
+   "Correct understanding. These cheeses are the exceptions.",
+   "Correct understanding. Pulp is allowed.",
+   "Correct. Tap and microbrewery beers contain tyramine and can trigger a hypertensive crisis."
+  ],
+  "strategy": "Statement that needs correction",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Avoid tyramine: aged cheese, aged meats, tap beers",
+   "Cottage, cream and ricotta cheese exceptions",
+   "Banana pulp allowed, peel avoided"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np5-0009",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Immediately after ECT",
+  "noteId": "np5-pc-electroconvulsive-therapy",
+  "vignette": "Twenty minutes after ECT a 55-year-old woman in recovery is drowsy and asking repeatedly, 'Where am I?' She breathes on her own but shallowly; SpO2 is 93% and she is moving restlessly. Her daughter wants the nurse to explain what happened.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Orient her to time, place and person and explain the treatment while her daughter listens",
+   "Assess breathing and give oxygen support until she breathes adequately",
+   "Help her stand to the bathroom to reduce restlessness",
+   "Document confusion as a normal ECT effect and let her sleep"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: shallow breathing, SpO2 93%, confusion.\n2. Principle: ABC first after ECT.\n3. Priority: ventilation, then orientation, then safety.\nCurve ball: confusion and memory loss are the famous effects of ECT, so reorientation looks like the nursing answer.\nFlip: with SpO2 99% and deep breathing, reorientation would be first.",
+  "optionRationales": [
+   "Right action, wrong time. Reorientation matters but comes after airway and breathing.",
+   "Correct. Respiratory depression and apnea are complications of ECT, so ventilation is checked before orientation.",
+   "Skips assessment. Standing early risks falls in an unsteady client.",
+   "Under-reaction. Confusion is expected, but the low saturation is not."
+  ],
+  "strategy": "ABC before reorientation",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "After ECT: ventilate until breathing unassisted",
+   "Reorient; expect short-term memory loss"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np5-0010",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Mania with dehydration",
+  "noteId": "np5-bipolar",
+  "vignette": "A 31-year-old woman in acute mania has barely eaten or drunk in two days, has lost weight, and has dry lips and a pulse of 112. She paces constantly and keeps entering a roommate's space, who complains. The unit schedule has a seated lunch in 30 minutes.",
+  "stem": "Which action is the priority?",
+  "options": [
+   "Offer fluids and high-calorie finger foods she can eat while walking",
+   "Set a firm limit about entering her roommate's space",
+   "Require her to sit at the dining table for the lunch tray",
+   "Move her to the day room and start a group activity"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: no intake for two days, weight loss, dry lips, fast pulse.\n2. Principle: Maslow physiologic first.\n3. Priority: hydration and calories in a form she can manage.\nCurve ball: the roommate complaint is loud and pulls toward limits; the dehydration is quiet.\nFlip: if she were eating and drinking well, limits would come first.",
+  "optionRationales": [
+   "Correct. Mania burns energy; dehydration and exhaustion are the immediate threat, and finger foods suit a client who cannot sit.",
+   "Right priority, wrong time. Limits are needed but the physical state is first.",
+   "Fails the client. She cannot sit and will not eat.",
+   "Over-stimulation. Stimulation makes mania worse."
+  ],
+  "strategy": "Physiologic need before limit setting",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Safety and physical needs first; finger foods",
+   "Reduce stimulation; set limits calmly"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np5-0011",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Anorexia with electrolyte findings",
+  "noteId": "np5-eating-disorders",
+  "vignette": "A 19-year-old woman with anorexia nervosa refuses her breakfast, bargains to eat half of it with a diet drink, and says she feels dizzy when standing. Her pulse is 42, potassium 2.9 mEq/L, and the monitor shows occasional extra beats.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Negotiate a half-portion plan so she will start eating",
+   "Stay with her through the meal and for a set time after to prevent purging",
+   "Explore how she feels about her body at the moment",
+   "Keep her on bed rest, apply cardiac monitoring and report the pulse and potassium"
+  ],
+  "answer": [
+   3
+  ],
+  "rationale": "1. Cue: pulse 42, potassium 2.9, extra beats, dizziness.\n2. Principle: unstable cardiac and electrolyte findings are first.\n3. Priority: monitor, rest, report.\nCurve ball: the vignette is full of eating-disorder behaviors that invite a behavioral answer.\nFlip: with a normal pulse and potassium, supervised meals would be first.",
+  "optionRationales": [
+   "Rewards bargaining. It does not address the unstable heart.",
+   "Right action, wrong time. Supervision matters but the rhythm is the priority.",
+   "True but not first. Body-image work comes after she is physiologically stable.",
+   "Correct. Bradycardia, ectopy and low potassium threaten life, so they outrank behavioral work."
+  ],
+  "strategy": "Physiologic before behavioral",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Treat life-threatening physical problems first",
+   "Do not bargain over meals"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np5-0012",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Emergency triage with a quiet client",
+  "noteId": "np5-triage-basics",
+  "vignette": "Four people arrive in the emergency department together. (1) A 4-year-old screaming with a deep forearm laceration, bleeding controlled with a cloth. (2) A 74-year-old woman sitting quietly, pale, sweaty, who 'just feels off': pulse 118, BP 108/68. (3) A man holding his angulated wrist, pain 8/10, vital signs normal. (4) A mother with a mild cough and a low fever, asking whether she was first in line.",
+  "stem": "Which person should be seen first?",
+  "options": [
+   "The screaming child with the bleeding forearm",
+   "The pale, sweaty older woman",
+   "The man with the angulated wrist",
+   "The mother with the cough who arrived first"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: pale, sweaty, pulse 118, quiet.\n2. Principle: circulation and unstable-before-stable.\n3. Priority: the quiet client with possible early shock.\nCurve ball: noise, blood and pain compete with a calm client who looks the least ill.\nFlip: if the child's bleeding were not controlled, she would be first.",
+  "optionRationales": [
+   "Noise and blood are dramatic, but the bleeding is controlled and she is moving air.",
+   "Correct. A fast pulse and sweating with a 'normal' pressure suggests early shock; she may deteriorate fastest.",
+   "Severe pain but stable vital signs; urgent, not emergent.",
+   "Arrival order does not decide priority; she is non-urgent."
+  ],
+  "strategy": "Quiet deterioration over noisy stability",
+  "archetype": "curve-ball",
+  "difficulty": 5,
+  "bloom": "judgment",
+  "keyFacts": [
+   "A quiet pale sweaty client with a fast pulse may be sicker than a shouting client",
+   "Unstable before stable"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np5-0013",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Early shock masked by a beta-blocker",
+  "noteId": "np5-early-late-shock",
+  "vignette": "An 80-year-old man is one day after hip surgery. He takes metoprolol; his usual pulse is 60 and BP 130/80. Now pulse is 82, BP 104/66, skin is cool and clammy, he is anxious, and urine output is 20 mL in the last two hours. The dressing looks dry.",
+  "stem": "What is the best action?",
+  "options": [
+   "Record the pulse as normal for him and continue the routine checks every four hours",
+   "Give his PRN anxiety medication and recheck in two hours",
+   "Report these findings as possible early shock and prepare for fluid or blood orders",
+   "Encourage oral fluids and ambulation to improve circulation"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: baseline versus now; cool clammy skin; restlessness; low urine.\n2. Principle: shock compensates before the pressure falls.\n3. Priority: report and treat early.\nCurve ball: both the pulse and pressure sit in 'normal' ranges, and a dry dressing hides bleeding.\nFlip: if the pulse were 60 and urine 60 mL an hour, he would be stable.",
+  "optionRationales": [
+   "Under-reaction. 82 is normal for most people but a rise for him on a beta-blocker.",
+   "Treats the symptom. Anxiety is an early brain-perfusion sign.",
+   "Correct. Compared with his baseline, the pulse, pressure, skin and urine output are changing; the beta-blocker blunts the fast pulse.",
+   "Over-intervention for an unstable client; may worsen hypotension."
+  ],
+  "strategy": "Trend over a single number",
+  "archetype": "curve-ball",
+  "difficulty": 5,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Hypotension is a late sign",
+   "Beta-blocked clients may not mount a fast pulse",
+   "Urine output below about 30 mL an hour signals poor perfusion"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np5-0014",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Disaster triage priority",
+  "noteId": "np5-nato-triage",
+  "vignette": "After a building collapse, four casualties reach the sorting area where resources are scarce. (A) A woman who cannot walk, breathing 34 per minute with a radial pulse present. (B) A man unresponsive with a massive open head injury and irregular breaths about 4 a minute. (C) A boy who walks in crying with a scraped forearm. (D) A man sitting with a closed ankle fracture who is alert and breathing 18.",
+  "stem": "Which casualty should be tagged for treatment first?",
+  "options": [
+   "The woman breathing 34 per minute with a radial pulse",
+   "The unresponsive man with the massive head injury and slow breaths",
+   "The boy who walks in with the scraped forearm",
+   "The man with the stable ankle fracture"
+  ],
+  "answer": [
+   0
+  ],
+  "rationale": "1. Cue: scarce resources, four casualties.\n2. Principle: greatest number saved; walking proves ABC.\n3. Priority: immediate (savable) group first.\nCurve ball: 'sickest first' pulls toward the head injury, which in disaster triage is not the first choice.\nFlip: with abundant resources, the unresponsive man would be treated first.",
+  "optionRationales": [
+   "Correct. A breathing rate over 30 marks the immediate group: she is likely to survive with quick care.",
+   "Right priority in routine care, wrong in a disaster. He is unlikely to survive with scarce resources, so he is expectant.",
+   "Walking wounded are minimal; they can wait.",
+   "Delayed group. Serious but can wait."
+  ],
+  "strategy": "Savable first in a disaster",
+  "archetype": "curve-ball",
+  "difficulty": 5,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Expectant: survival unlikely given resources",
+   "Breathing rate above 30 = immediate (START)"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np5-0015",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Choking in late pregnancy",
+  "noteId": "np5-airway-obstruction-choking",
+  "vignette": "At a barangay feeding program a woman who is 34 weeks pregnant stands up suddenly, clutches her throat, and cannot speak, cough or breathe. Her lips are darkening. The nurse is the only trained person present.",
+  "stem": "Which action should the nurse take first?",
+  "options": [
+   "Give abdominal thrusts just above the navel",
+   "Stand behind her and give firm chest thrusts until the object comes out",
+   "Encourage her to keep coughing and watch for improvement",
+   "Do blind finger sweeps of the mouth"
+  ],
+  "answer": [
+   1
+  ],
+  "rationale": "1. Cue: cannot speak or cough, cyanosis, pregnancy.\n2. Principle: severe obstruction needs thrusts at once.\n3. Priority: right technique for the client.\nCurve ball: the Heimlich maneuver is the memorised answer; the pregnancy changes the technique.\nFlip: for a non-pregnant adult, abdominal thrusts would be correct.",
+  "optionRationales": [
+   "Right priority, wrong method. Abdominal thrusts are avoided in pregnancy.",
+   "Correct. She has a severe obstruction; in late pregnancy the thrusts are given to the chest instead of the abdomen.",
+   "Under-reaction. Coughing is for partial blockage; she cannot cough.",
+   "Unsafe habit. Blind sweeps can push the object deeper."
+  ],
+  "strategy": "Modify the technique for the client",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Pregnant or very obese clients: chest thrusts",
+   "Severe obstruction: thrusts at once"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np5-0016",
+  "v": 2,
+  "type": "single",
+  "area": "NP5",
+  "topic": "Low urine output in burn resuscitation",
+  "noteId": "np5-burns-other-management",
+  "vignette": "A 70-kg man has second-degree burns over 40% of his body surface, 12 hours after injury. He has a urinary catheter. BP is 112/70, pulse 108, and urine output has been 20 mL/hour for two hours. A PRN furosemide order is on the chart.",
+  "stem": "Which action should the nurse take?",
+  "options": [
+   "Give the PRN furosemide to promote urine flow and protect the kidneys from injury",
+   "Restrict IV fluids to protect the kidneys",
+   "Report the urine output and anticipate an increased IV fluid rate",
+   "Document that output is adequate because BP is stable"
+  ],
+  "answer": [
+   2
+  ],
+  "rationale": "1. Cue: oliguria with stable pressure during resuscitation.\n2. Principle: leaking vessels reduce volume; urine shows perfusion.\n3. Priority: report and increase fluids.\nCurve ball: low urine output with a PRN diuretic ordered looks like a kidney problem to fix with a diuretic; it is a volume problem.\nFlip: if output were far above target, the fluid rate might be reduced.",
+  "optionRationales": [
+   "Treats the number, not the cause. A diuretic worsens volume depletion.",
+   "Opposite of correct. Restriction worsens the deficit.",
+   "Correct. Urine output is the most sensitive guide to burn resuscitation; 20 mL/h means under-resuscitation.",
+   "Under-reaction. Blood pressure is a late and unreliable guide in burns."
+  ],
+  "strategy": "Low output means more fluid, not a diuretic",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Urine output about 30 to 50 mL/h is the target",
+   "Do not judge fluid by pulse or BP alone"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np5-0017",
+  "v": 2,
+  "type": "sata",
+  "area": "NP5",
+  "topic": "Alcohol withdrawal care",
+  "noteId": "np5-alcohol",
+  "vignette": "A 47-year-old man was admitted for alcohol withdrawal 14 hours after his last drink. He is anxious, sweating, trembling, with a pulse of 112 and BP 156/94.",
+  "stem": "Which nursing actions are appropriate? Select all that apply.",
+  "options": [
+   "Place him in a quiet, well-lit room and reorient him often",
+   "Dim the room and close the door so he can sleep",
+   "Institute seizure precautions",
+   "Give the ordered benzodiazepine",
+   "Offer strong coffee to keep him alert",
+   "Monitor vital signs and level of consciousness closely"
+  ],
+  "answer": [
+   0,
+   2,
+   3,
+   5
+  ],
+  "rationale": "Curve ball: a quiet, dark room sounds soothing for a withdrawing client, but a well-lit room reduces misperceptions; a stimulant to 'stay alert' is also a trap.",
+  "optionRationales": [
+   "Correct. Calm, well-lit surroundings reduce misperception.",
+   "Dim light can increase hallucinations.",
+   "Correct. Seizures can occur.",
+   "Correct. Benzodiazepines replace alcohol's calming effect and are tapered.",
+   "Stimulants are wrong in withdrawal.",
+   "Correct. Early monitoring detects delirium tremens."
+  ],
+  "strategy": "Safety environment for withdrawal",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Quiet, well-lit room",
+   "Benzodiazepines are the usual drug class",
+   "Seizure precautions"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np5-0018",
+  "v": 2,
+  "type": "sata",
+  "area": "NP5",
+  "topic": "Early compensated shock findings",
+  "noteId": "np5-early-late-shock",
+  "vignette": "A client bleeding after an operation is being observed. The nurse recognizes the early stage when the body is still compensating.",
+  "stem": "Which findings suggest early (compensated) shock? Select all that apply.",
+  "options": [
+   "Restlessness and a sense of doom",
+   "Rising pulse with narrowing pulse pressure",
+   "Cool, pale skin with delayed capillary refill",
+   "Profound hypotension and unresponsiveness",
+   "Anuria with organ failure",
+   "Mottled skin and falling blood pressure"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "rationale": "Curve ball: a normal-looking blood pressure is no reassurance; the early picture is restless, fast and cool. Low pressure, mottling and anuria belong to later stages.",
+  "optionRationales": [
+   "Correct. Early brain-perfusion change.",
+   "Correct. Diastolic rises toward systolic.",
+   "Correct. Vessels tighten in skin.",
+   "Wrong: profound hypotension with unresponsiveness is a late stage of shock, not the early compensated stage.",
+   "Wrong: anuria with organ failure is a late stage of shock, not the early compensated stage.",
+   "Middle (decompensated) stage."
+  ],
+  "strategy": "Early signs, not late",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Hypotension is a late sign",
+   "Early: restlessness, fast pulse, cool pale skin, narrowing pulse pressure"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np5-0019",
+  "v": 2,
+  "type": "matrix",
+  "area": "NP5",
+  "topic": "Replies to a hopeless client",
+  "noteId": "np5-x-nontherapeutic-blocks",
+  "vignette": "A depressed client says, 'There is no point in going on. I stopped taking my medicine last week.' The nurse considers five possible replies.",
+  "stem": "Classify each reply.",
+  "options": [],
+  "answer": [],
+  "rows": [
+   "\"Things will work out; you have so much to live for.\"",
+   "\"Why did you stop taking your medicine?\"",
+   "\"I suggest you call your sister tonight.\"",
+   "\"What led up to stopping the medicine? You sound worn out. Are you thinking of ending your life?\"",
+   "\"You sound very discouraged.\""
+  ],
+  "columns": [
+   "Therapeutic",
+   "False reassurance",
+   "Asking why",
+   "Giving advice"
+  ],
+  "rowAnswer": [
+   1,
+   2,
+   3,
+   0,
+   0
+  ],
+  "rationale": "Curve ball: 'What led up to...' sounds like the same question as 'why' but is the acceptable rewording; kind-sounding comfort and suggestions are blocks. Direct risk questions and reflecting the feeling are therapeutic.",
+  "optionRationales": [
+   "False reassurance: telling her things will work out cannot be promised and dismisses her feelings.",
+   "Asking why: it can feel like blame and make her defensive about stopping the medicine.",
+   "Giving advice: telling her whom to call takes the decision from her instead of exploring her feelings.",
+   "Therapeutic: exploring what led up to it, naming her exhaustion and asking directly about suicide opens honest discussion and checks risk.",
+   "Therapeutic: reflecting that she sounds discouraged shows understanding and invites her to say more."
+  ],
+  "strategy": "Name the block",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "Asking 'why' is a block; ask what led up to it",
+   "False reassurance and advice are blocks"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ },
+ {
+  "id": "cb-np5-0020",
+  "v": 2,
+  "type": "cloze",
+  "area": "NP5",
+  "topic": "Sequence rules that change by situation",
+  "noteId": "np5-primary-secondary-survey",
+  "vignette": "Match each rule to the situation where it applies.",
+  "stem": "Complete each sentence.",
+  "options": [],
+  "answer": [],
+  "blanks": [
+   {
+    "choices": [
+     "checks airway with cervical spine protection",
+     "starts chest compressions first",
+     "takes a full head-to-toe history"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "starts chest compressions before ventilating",
+     "gives two breaths before compressions",
+     "takes a pulse for a full minute"
+    ],
+    "answer": 0
+   },
+   {
+    "choices": [
+     "is treated by a shock",
+     "is treated with compressions and treatment of the cause",
+     "is left untreated until the doctor arrives"
+    ],
+    "answer": 1
+   }
+  ],
+  "rationale": "Curve ball: in a trauma primary survey the first letter is A with spine protection, but in an adult in cardiac arrest circulation comes first (compressions); asystole is not shocked. Rule: sequence depends on the situation. The cloze reads: (1) the trauma nurse first [checks airway with cervical spine protection]; (2) for an adult cardiac arrest, the nurse [starts chest compressions before ventilating]; (3) asystole [is treated with compressions and treatment of the cause].",
+  "optionRationales": [
+   "Checks airway with cervical spine protection: in trauma the first step is the airway while protecting the neck. Compressions first or a full history are not the opening step.",
+   "Starts chest compressions before ventilating: in adult cardiac arrest, circulation comes first. Giving breaths first or a minute-long pulse check delays compressions.",
+   "Is treated with compressions and treatment of the cause: asystole is not a shockable rhythm, so a shock does not help, and leaving it untreated is dangerous."
+  ],
+  "strategy": "Know when the rule flips",
+  "archetype": "curve-ball",
+  "difficulty": 4,
+  "bloom": "judgment",
+  "keyFacts": [
+   "ABCDE in trauma primary survey",
+   "Cardiac arrest adult: circulation first",
+   "Non-shockable rhythms: asystole, PEA"
+  ],
+  "source": "bank",
+  "review": "unreviewed",
+  "aiWritten": true
+ }
+]

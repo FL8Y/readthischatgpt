@@ -1,0 +1,608 @@
+[
+ {
+  "id": "np5-pc-mental-health-history",
+  "area": "NP5",
+  "title": "Mental Health Concepts and History of Psychiatric Care",
+  "body": "## What it is\nMental health is a state of emotional, psychological and social wellness shown by satisfying relationships, effective behavior and coping, a positive self-concept and emotional stability. A mental disorder is a clinically significant behavioral or psychological pattern that comes with distress or disability, or with a raised risk of suffering, pain, death or loss of freedom.\n\n## Must-know facts\n- Components of mental health: autonomy and independence, reaching one's potential, tolerating life's uncertainties, self-esteem, mastery of the environment, reality orientation and stress management.\n- Ancient times: illness was seen as the gods' displeasure. People with mental illness were thought divine (worshipped) or demonic (punished or burned). Aristotle's humoral idea tied mood to balance of body fluids; treatment was bloodletting, starving and purging.\n- Early Christian era: illness blamed on demons and possession; treatment was exorcism, then dungeons, flogging and starvation if it failed.\n- Renaissance: the mentally ill began to be separated from criminals. Harmless people wandered; dangerous ones were jailed and chained. The Hospital of St. Mary of Bethlehem was the first hospital for the insane, but inmates were treated like animals. Witch hunts also happened.\n- Enlightenment: Philippe Pinel and William Tuke created the idea of the asylum as a safe refuge. Dorothea Dix pushed for adequate shelter, food and warm clothing.\n- Emil Kraepelin classified mental disorders by symptoms; Eugene Bleuler coined the term schizophrenia.\n\n## Why the trend matters\nThe story moves from blame and punishment to shelter, then to classification and humane treatment. Exam items usually ask who is credited with what.\n\n## How the exam asks about it\nMatch a name to a contribution (Pinel and Tuke: asylum; Dix: humane conditions; Kraepelin: classification; Bleuler: schizophrenia). Another common item asks for a sign of good mental health.\n\n## Memory aid\nInvented: Pinel and Tuke give a \"place of safety\"; Dix gives the \"daily needs\"; Kraepelin \"categorizes\"; Bleuler \"names schizophrenia\".\n\n## Related topics\n[[Psychiatric Nursing Overview]], [[Therapeutic Use of Self and Johari's Window]], [[Nurse-Patient Relationship Phases]]\n\n## Check against your textbook\n- The handout gave the Aristotle humor idea; many books credit Hippocrates. Check who your textbook names.",
+  "tags": [
+   "psychiatric",
+   "history",
+   "mental health"
+  ],
+  "priority": "low",
+  "outlineRefs": [
+   "Mental Health",
+   "Mental Disorder",
+   "Components of Mental Health",
+   "Historical Perspectives of the Treatment of Mental Illness"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-pc-therapeutic-use-of-self",
+  "area": "NP5",
+  "title": "Therapeutic Use of Self and Johari's Window",
+  "body": "## What it is\nTherapeutic use of self means the nurse uses his or her own personality and presence as the main tool for building a helping relationship. Hildegard Peplau (1952) stressed that a nurse who understands herself can help the client grow.\n\n## Must-know facts\n- It depends on self-awareness: knowing your own feelings, beliefs and attitudes.\n- Goal of self-awareness: keep your values and biases from being projected onto the client and interfering with care.\n- Johari's Window has four quadrants:\n  - Quadrant I, open (arena or public self): known to you and to others.\n  - Quadrant II, blind self: known to others but not to you.\n  - Quadrant III, hidden (facade or private self): known only to you.\n  - Quadrant IV, unknown: not yet discovered by you or anyone.\n- Ways to grow self-awareness: role play, introspection, discussion with others (feedback), and enlarging your experience.\n- In the pre-orientation phase the main task is developing self-awareness; see [[Nurse-Patient Relationship Phases]].\n- Characteristics of the relationship that uses the self: goal-directed, client-focused, planned, time-limited, professional. Basic elements: TRUST (trust, rapport, unconditional positive regard, setting limits, therapeutic communication).\n\n## Priority nursing actions\n1. Reflect on your own reaction before reacting to a difficult client.\n2. Ask for feedback to shrink the blind quadrant.\n3. Notice countertransference and discuss it in supervision.\n\n## How to reason about it\n- Strong feelings about a client are information about you. Name them, discuss them in supervision, and keep the plan centered on the client.\n\n## How the exam asks about it\nIdentify the quadrant from a description (a trait that coworkers see but the nurse does not is the blind self), or name the nurse's main tool.\n\n## Related topics\n[[Therapeutic Communication]], [[Mental Health Concepts and History of Psychiatric Care]]\n\n## Check against your textbook\n- The handout credits Peplau for the term; confirm in your own text.",
+  "tags": [
+   "psychiatric",
+   "self-awareness",
+   "Peplau",
+   "Johari"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Therapeutic Use of Self",
+   "Self-Awareness",
+   "Four Quadrants of Johari's Window",
+   "Methods Used to Increase Self-Awareness"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-pc-group-milieu-family-therapy",
+  "area": "NP5",
+  "title": "Group, Milieu and Family Therapy",
+  "body": "## What it is\nThese are therapies that use the people and surroundings around the client. Each treats the client in a social setting rather than one-to-one.\n\n## Must-know facts\n- Group therapy: three or more clients with a therapist to relieve emotional difficulty, build self-esteem, gain insight and improve relationships. Minimum three members; ideal group is 8 to 10.\n- Types of group:\n  - Therapeutic group: insight into problems (Alcoholics Anonymous is the handout's example).\n  - Socialization group: improves interaction among clients.\n  - Life review or reminiscing group: lessens isolation, often for older adults.\n- Milieu therapy: planned control of the environment so that the setting itself promotes positive change. The nurse looks at what each client needs while remembering the needs of the whole group.\n- Family therapy: treats the family as an interacting system; the handout lists it as best suited when there is domestic violence.\n\n## Priority nursing actions\n1. Keep the unit safe, predictable and structured (milieu).\n2. In a group, set rules, keep confidentiality, and make sure everyone has a chance to take part.\n3. In family work, involve all members and avoid taking sides.\n\n## How the exam asks about it\nChoose the therapy that matches the goal (isolation in older adults: reminiscing group; changing the unit environment: milieu) or state group size.\n\n## Related topics\n[[Behavioral Management, Restraints and De-escalation]], [[Alcohol Use Disorder]], [[Expressive and Insight Therapies]]\n\n## Check against your textbook\n- Many books describe family therapy as useful for many family problems, not only domestic violence; check your text.",
+  "tags": [
+   "psychiatric",
+   "group therapy",
+   "milieu"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Group Therapy",
+   "Types of Group",
+   "Milieu Therapy",
+   "Family Therapy"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-pc-expressive-insight-therapies",
+  "area": "NP5",
+  "title": "Expressive and Insight Therapies",
+  "body": "## What it is\nA set of talk, art, play and relaxation approaches used on the psychiatric unit, from deep exploration of the unconscious to simple activities that ease tension.\n\n## Must-know facts\n- Psychoanalysis: explores the unconscious and the client's defenses. Behavior problems are linked to unresolved, anxiety-provoking childhood experiences that were repressed. Goal: bring them into awareness and learn healthier coping. Tools: dream analysis and free association (saying thoughts aloud without censoring).\n- Hypnotherapy: induces a trance in which the client is highly open to instruction.\n- Remotivation therapy: discussion of neutral topics to promote expression of feelings. Reality orientation suits rehabilitation clients, not clients who are actively psychotic.\n- Music therapy: relaxation, expression of feelings and release of tension.\n- Play therapy: lets a child feel intense emotion safely through play; dolls are used with abused children.\n- Humor therapy: laughter eases tension that comes with serious matters and encourages interaction.\n\n## Priority nursing actions\n1. Match the therapy to the client's level of function and safety.\n2. Do not push reality orientation on a client who is acutely psychotic; that may increase agitation.\n3. Observe and record the client's responses.\n\n## How the exam asks about it\nPick the therapy for a described goal (child abuse victim: play therapy with dolls; free association: psychoanalysis).\n\n## Related topics\n[[Freud's Theory and Defense Mechanisms]], [[Group, Milieu and Family Therapy]], [[Behavior Modification and Reinforcement]]",
+  "tags": [
+   "psychiatric",
+   "therapy",
+   "psychoanalysis"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Common Psychotherapeutic Interventions",
+   "Remotivation Therapy",
+   "Music Therapy",
+   "Play Therapy",
+   "Psychoanalysis",
+   "Hypnotherapy",
+   "Humor Therapy"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-pc-behavior-modification",
+  "area": "NP5",
+  "title": "Behavior Modification and Reinforcement",
+  "body": "## What it is\nBehavior modification applies learning principles to change maladaptive behavior. It strengthens a wanted behavior by reinforcement.\n\n## Must-know facts\n- Positive reinforcement: giving something pleasant after the behavior, such as attention and praise. Example: a group leader praises the client each time he uses assertive communication.\n- Negative reinforcement: removing something unpleasant right after the behavior so the behavior is more likely to be repeated. Example: an anxious client volunteers to speak first so the anxious waiting ends.\n- Both increase the behavior. Negative reinforcement is NOT punishment.\n- Behavior modification targets a clear, observable behavior. Reinforcers must follow the behavior at once to work.\n- Typical psychiatric uses: assertiveness practice in groups, eating-disorder contracts, limit setting in personality disorders, rewards for self-care in schizophrenia.\n\n## Priority nursing actions\n1. Define the target behavior clearly.\n2. Reinforce the desired behavior immediately and consistently.\n3. Keep all staff using the same plan.\n\n## How to reason about it\n- Ask two questions: was a stimulus added or taken away, and did the behavior increase. Added and increased: positive reinforcement. Removed and increased: negative reinforcement. Unwanted behavior that is ignored so it fades is extinction (general knowledge).\n\n## How the exam asks about it\nDifferentiate positive from negative reinforcement: ask whether something was added or removed, and whether the behavior increased.\n\n## Related topics\n[[Developmental Disorders]], [[Expressive and Insight Therapies]], [[Behavioral Management, Restraints and De-escalation]], [[Personality Disorders]], [[Anorexia Nervosa and Bulimia Nervosa: Findings and Treatment]]",
+  "tags": [
+   "psychiatric",
+   "behavior modification",
+   "learning"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Behavior Modification",
+   "Positive reinforcement",
+   "Negative reinforcement"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-pc-electroconvulsive-therapy",
+  "area": "NP5",
+  "title": "Electroconvulsive Therapy",
+  "body": "## What it is\nElectroconvulsive therapy (ECT) delivers a brief electric current to the brain under anesthesia to produce a generalized tonic-clonic seizure. A seizure is the sign it worked.\n\n## Must-know facts\n- Used for severe depression that does not respond to drugs, and for clients actively suicidal who cannot wait weeks for an antidepressant. Also listed: mania, catatonia and schizophrenia.\n- Typical course: 6 to 12 treatments (up to 15), given with about 48 hours between sessions (commonly three per week). Current lasts about 0.5 to 2 seconds.\n- Needs informed consent.\n- Medications: atropine to reduce secretions, methohexital as the short-acting anesthetic, succinylcholine as the muscle relaxant to soften the seizure. The brain is monitored with EEG.\n- High-risk conditions: raised intracranial pressure, recent fracture, cardiac disease, retinal detachment, pregnancy.\n- Complications: memory loss, headache, apnea, respiratory depression, fracture.\n\n## Priority nursing actions\nBefore:\n1. Confirm signed consent, NPO after midnight, have the client void, start an IV, remove dentures and jewelry.\nAfter (airway first, ABCs):\n1. Ventilate with 100% oxygen until the client breathes unassisted, and watch breathing.\n2. Reorient to time, place and person; expect brief confusion and short-term memory loss.\n3. Observe until oriented and steady, especially when first standing; protect from falls.\n4. Give a benzodiazepine if ordered for agitation; document the treatment.\n\n## Client and family teaching\n- Temporary confusion and memory gaps are common and usually improve; treatments are repeated over weeks.\n\n## How the exam asks about it\nPriority after ECT is airway and breathing, then reorientation and safety. Another item asks for a contraindication or the purpose of each drug.\n\n## Related topics\n[[Major Depressive Disorder]], [[Bipolar Disorder and Mania]], [[Schizophrenia]]\n\n## Check against your textbook\n- The handout lists the voltage as \"70-50 volts\", which looks garbled; verify. Whether schizophrenia and mania are indications varies by source.",
+  "tags": [
+   "psychiatric",
+   "ECT",
+   "depression",
+   "procedure"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Electroconvulsive Therapy",
+   "Preparation",
+   "Procedure",
+   "Nursing Responsibilities After ECT"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-pc-crisis-types-phases-styles",
+  "area": "NP5",
+  "title": "Crisis Types, Phases and Intervention Styles",
+  "body": "## What it is\nFills out the handout's view of crisis: how crises are grouped, how they progress, and the two ways a nurse can intervene. See [[Crisis and Crisis Intervention]] for the core concept.\n\n## Must-know facts\n- Features of a crisis: highly individual, usually lasts about 4 to 6 weeks, the person becomes passive and dependent, and the support system is affected.\n- Maturational (developmental): expected and predictable life events, such as leaving home, marriage, having a baby, starting a career.\n- Situational (accidental): sudden and unexpected external events, such as death of a loved one, job loss, illness or an accident.\n- Social (adventitious): disasters and violence, such as floods, earthquakes, war, terrorism, riots, rape or murder.\n- Four phases: denial; increased tension (still doing daily activities); disorganization (cannot do daily activities); attempts to reorganize (previous coping mechanisms mobilized).\n- Goal of crisis intervention: reach the best possible level of functioning.\n- Authoritative style: assesses, gives information, raises self-awareness through feedback, and directs behavior with suggestions.\n- Facilitative style: meets the need for empathy by encouraging the client to name feelings, acting as a sounding board and affirming self-worth.\n- The nurse's role is active and directive.\n\n## Priority nursing actions\n1. Assess safety first.\n2. Take a directive approach during disorganization.\n3. Encourage use of past successful coping and support people.\n\n## How the exam asks about it\nClassify the crisis from a short story, or identify the phase from what the client can still do.\n\n## Related topics\n[[Trauma and Stressor-Related Disorders]], [[Rape, Rape Trauma Syndrome and Survivor Care]], [[Disaster Management Continuum]]\n\n## Check against your textbook\n- Other books describe different phase counts and durations; use the model your course teaches.",
+  "tags": [
+   "psychiatric",
+   "crisis",
+   "intervention"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Characteristics of a Crisis State",
+   "Types of Crisis",
+   "Phases of a Crisis",
+   "Crisis Intervention",
+   "Types of Crisis Intervention",
+   "Primary Role of the Nurse in Crisis"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-pc-rape-trauma-survivor-care",
+  "area": "NP5",
+  "title": "Rape, Rape Trauma Syndrome and Survivor Care",
+  "body": "## What it is\nRape is a crime of violence and humiliation expressed through sexual means. It is generally an act of hostility, anger or violence, not of sexual desire. Under Philippine law (RA 8353) the act includes insertion of the penis into the mouth, vagina or anus without consent. Consent is not valid if the victim was forced, threatened, drugged or intoxicated, mentally incapable of judging, or below the age of consent.\n\n## Must-know facts\n- Power rape: the aim is to command and master the victim; the rapist feels inadequate and uses rape to prove potency.\n- Sadistic rape: brutality, bondage and torture; the assault itself is eroticized.\n- Rape trauma syndrome phases: acute (shock, numbness, disbelief); denial (refuses to talk about it); heightened anxiety (fear, tension, nightmares); reorganization (life normalizes).\n\n## Priority nursing actions\n1. Give immediate emotional support in a private, safe place; stay with the client.\n2. Let her proceed at her own pace; do not rush interviews or examination.\n3. Return control: let her decide whom to call and what happens next.\n4. Preserve evidence (a priority in care); consent must be signed before photographs and before hair and nail samples are taken. Avoid bathing or changing clothes before collection.\n5. Offer prophylaxis for sexually transmitted infection and pregnancy; HIV testing may be encouraged; refer to a rape crisis center.\n6. The decision to file charges and testify belongs to the victim.\n\n## How the exam asks about it\nBest response: nonjudgmental support and client control. Wrong answers push the victim, blame her, or reassure falsely.\n\n## Related topics\n[[Crisis Types, Phases and Intervention Styles]], [[Trauma and Stressor-Related Disorders]], [[VAWC and Violence Against Women and Children]]\n\n## Check against your textbook\n- The handout describes rape only for female victims; RA 8353 also covers sexual assault of any person, and male survivors need the same care. Check the law and local protocols (Women and Children Protection Unit).",
+  "tags": [
+   "psychiatric",
+   "rape",
+   "trauma",
+   "forensic"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Rape",
+   "Power Rape",
+   "Sadistic Rape",
+   "Rape Trauma Syndrome",
+   "Phases of the Rape Trauma Syndrome",
+   "Nursing Care for Rape Victims"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-pc-eps-nms",
+  "area": "NP5",
+  "title": "Extrapyramidal Symptoms and Neuroleptic Malignant Syndrome",
+  "body": "## What it is\nMovement side effects of antipsychotics, caused by dopamine (D2) blockade in the brain's motor pathways, plus the dangerous neuroleptic malignant syndrome (NMS). See [[Typical and Atypical Antipsychotics]] for the drug classes.\n\n## Must-know facts\n- Acute dystonia (early, an emergency): torticollis, opisthotonus, oculogyric crisis, muscle rigidity and cramping, thick tongue, difficulty swallowing, laryngospasm, respiratory difficulty. Treat with IM benztropine or IM or IV diphenhydramine.\n- Pseudoparkinsonism: stooped posture, mask-like face, reduced arm swing, shuffling festinating gait, cogwheel rigidity, drooling, pill-rolling at rest. Treat by changing to a drug with fewer EPS, or adding an anticholinergic or amantadine.\n- Akathisia: cannot sit still, restless, anxious. Treat by changing the drug or adding a beta-blocker, anticholinergic or benzodiazepine.\n- Tardive dyskinesia: worm-like tongue movements, lip smacking, involuntary body movements; appears after prolonged therapy (handout says at least 8 months), may be permanent. Valbenazine and deutetrabenazine are used; lowering the antipsychotic may stop progression.\n- NMS: potentially fatal reaction with rigidity, high fever, unstable blood pressure, sweating, pallor, delirium, and swings from agitation to stupor. Stop all antipsychotics at once and treat dehydration and hyperthermia.\n- Drugs used for EPS include amantadine, benztropine, biperiden, procyclidine, trihexyphenidyl, diphenhydramine, diazepam and propranolol.\n\n## Priority nursing actions\n1. Airway first: laryngospasm or trouble swallowing in dystonia is an emergency.\n2. Fever plus rigidity: hold the drug, call the provider, cool and hydrate.\n3. Screen regularly for tardive dyskinesia.\n4. Teach the client to report stiffness, restlessness or fever.\n\n## How the exam asks about it\nName the EPS from a description, choose the first drug for dystonia, or pick NMS signs over EPS signs (fever and autonomic instability).\n\n## Related topics\n[[Schizophrenia]], [[Antidepressants and Mood Stabilizers]], [[Lithium Therapy and Toxicity]]\n\n## Check against your textbook\n- Time frame for tardive dyskinesia varies; verify. Dosing is not given here.",
+  "tags": [
+   "psychiatric",
+   "antipsychotic",
+   "EPS",
+   "NMS",
+   "emergency"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Extrapyramidal Symptoms",
+   "Acute Dystonia",
+   "PseudoParkinsonism",
+   "Akathisia",
+   "Tardive Dyskinesia",
+   "Neuroleptic Malignant Syndrome",
+   "Treatment for EPS"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-pc-lithium-toxicity",
+  "area": "NP5",
+  "title": "Lithium Therapy and Toxicity",
+  "body": "## What it is\nLithium is the best-established mood stabilizer for bipolar disorder. It steadies mood, prevents highs and lows, and treats acute mania. Other mood stabilizers include carbamazepine, valproic acid, gabapentin and lamotrigine. See [[Antidepressants and Mood Stabilizers]].\n\n## Must-know facts\n- Forms: tablets, capsules and sustained-release liquid; no injectable form.\n- Handout levels: normal 0.5 to 1.5 mEq/L; therapeutic 0.6 to 1.2 mEq/L. Above 3.0 mEq/L, dialysis is considered.\n- Common side effects: mild nausea and diarrhea, loss of appetite, fine hand tremor, increased thirst and urination, metallic taste, fatigue.\n- Toxic signs: severe vomiting and diarrhea, muscle weakness, poor coordination; untreated can lead to kidney failure, coma and death.\n- Valproic acid: can cause liver failure. Carbamazepine: aplastic anemia and agranulocytosis. Lamotrigine: Stevens-Johnson syndrome (severe rash).\n\n## Priority nursing actions\n1. Check serum levels regularly; hold the dose and report toxic signs.\n2. Give with food to reduce nausea.\n3. Keep sodium and fluid intake normal; avoid heavy sweating and dehydration because lithium levels rise quickly.\n4. For tremor, a beta-blocker such as propranolol may be requested.\n5. Expect some weight gain; teach a balanced diet and exercise.\n6. Anticonvulsants: sedation can be eased with the larger dose at bedtime.\n\n## How the exam asks about it\nRecognize toxicity (coarse tremor, vomiting, ataxia), choose the safest advice (steady salt and fluids), or match adverse effects to each mood stabilizer.\n\n## Related topics\n[[Bipolar Disorder and Mania]], [[Extrapyramidal Symptoms and Neuroleptic Malignant Syndrome]]\n\n## Check against your textbook\n- Verify the target level (many books give 0.8 to 1.2 mEq/L) and when to draw the level (about 12 hours after the last dose).",
+  "tags": [
+   "psychiatric",
+   "lithium",
+   "mood stabilizer"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Mood-stabilizing Drugs",
+   "Lithium",
+   "Toxic Effects",
+   "Mood Stabilizing Drugs: Nurse Responsibilities"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-pc-antianxiety-drugs",
+  "area": "NP5",
+  "title": "Antianxiety Drugs: Benzodiazepines and Buspirone",
+  "body": "## What it is\nAnxiolytics treat anxiety, insomnia, alcohol withdrawal, and sometimes OCD, depression and post-traumatic stress. Benzodiazepines are the most effective for quick relief.\n\n## Must-know facts\n- Benzodiazepines in the handout: alprazolam, chlordiazepoxide, clonazepam, diazepam, flurazepam, lorazepam, oxazepam, temazepam, triazolam. Buspirone is a non-benzodiazepine option (non-sedating, slow onset).\n- They relieve symptoms; they do not treat the cause of anxiety.\n- They strongly add to the effect of alcohol: one drink may act like three.\n- Drowsiness: avoid driving and dangerous tasks.\n- Withdrawal from benzodiazepines can be fatal; never stop abruptly without medical supervision.\n- Take only as prescribed.\n- Handout adds sleep-related and other benzodiazepines: flurazepam and temazepam and triazolam are mainly for insomnia. Alcohol withdrawal and PTSD are also listed uses.\n\n## Priority nursing actions\n1. Safety: fall precautions, sedation and respiratory checks.\n2. Teach no alcohol, no abrupt stopping, no driving until effect is known.\n3. Encourage non-drug coping skills with the medication.\n\n## How to reason about it\n- Danger ranking: abrupt stopping (withdrawal can be fatal) and alcohol or other sedatives together (breathing depression) outrank drowsiness and memory problems. Teach those first.\n- Buspirone does not give instant relief, so a client who wants fast effect needs explanation, not a dose increase.\n\n## How the exam asks about it\nPick the teaching point (no alcohol, taper off) or the drug with low abuse risk and slow action (buspirone).\n\n## Related topics\n[[Anxiety and Anxiety Disorders]], [[Alcohol Use Disorder]], [[Downers: Barbiturates and Opioids]]\n\n## Check against your textbook\n- The handout calls SSRIs the safest drug in panic and advises giving anxiolytics before meals; both are doubtful. Verify drug timing and alternatives. See [[Anxiolytic Drugs and Cognitive-Behavioral Techniques for Anxiety]].",
+  "tags": [
+   "psychiatric",
+   "anxiolytic",
+   "benzodiazepine"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Anti-Anxiety Drugs (Anxiolytics)",
+   "Anti-Anxiety Drugs: Nursing Responsibilities"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-pc-autism-spectrum",
+  "area": "NP5",
+  "title": "Autism Spectrum Disorder",
+  "body": "## What it is\nA neurodevelopmental disorder with impaired communication and social interaction plus stereotyped behaviors, interests and activities. It is more common in boys, shows before about 3 years of age, has a genetic link, and is treatable but not curable. The main problem is impaired interpersonal functioning.\n\n## Must-know facts\n- Signs: little eye contact, few facial expressions or gestures, does not relate to peers and parents, little spontaneous enjoyment, flat affect, little intelligible speech, stereotyped movements (hand flapping, body twisting, head banging), may seem deaf, no fear of danger.\n- Tantrums may include head banging.\n- Low-dose antipsychotic may be used for severe behaviors.\n\n## Priority nursing actions\n1. Safety first: risk for injury is the priority diagnosis. Protect from head banging with a helmet and padded surroundings; observe closely, even 1:1.\n2. Keep a consistent routine and introduce change slowly.\n3. Use short, simple sentences when speaking.\n4. Offer small, frequent, balanced meals for nutrition below body needs.\n5. Support the family (love and belonging): family therapy and parent teaching.\n\n## How to reason about it\n- Risk for injury is the priority because the child has no fear of danger and may head-bang. Protect first, then communication and routine.\n- A change in routine can trigger a tantrum. Introduce changes slowly and keep staff consistent.\n- Short sentences work because the child understands little speech; do not overload.\n- Family therapy and teaching meet the love and belonging need of the parents too.\n\n## How the exam asks about it\nPriority diagnosis is risk for injury; best approach is routine, short sentences and consistent staff.\n\n## Related topics\n[[Developmental Disorders]], [[Attention-Deficit Hyperactivity Disorder]], [[Intellectual Disability]], [[Behavior Modification and Reinforcement]]\n\n## Check against your textbook\n- The handout line \"all vowels\" under communication is unclear and was left out. Current criteria are usually described as one spectrum, not separate diagnoses.",
+  "tags": [
+   "psychiatric",
+   "autism",
+   "child"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Autism Spectrum Disorder",
+   "Main Problem: Impaired Interpersonal Functioning",
+   "Manifestations",
+   "Common Problems and Appropriate Management"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-pc-adhd",
+  "area": "NP5",
+  "title": "Attention-Deficit Hyperactivity Disorder",
+  "body": "## What it is\nA childhood disorder of inattention, overactivity and impulsiveness, more common in boys, diagnosed around preschool or school entry (symptoms before age 7 in the handout).\n\n## Must-know facts\n- Causes: unknown; linked to neurologic impairment, early malnutrition, reduced frontal lobe blood flow, and drugs, alcohol or tobacco in pregnancy.\n- Risks: family history, relatives with antisocial personality disorder, lower socioeconomic status, male sex, family discord.\n- Inattentive: misses details, careless mistakes, cannot sustain attention, seems not to listen, does not finish chores, disorganized, avoids mental effort, loses things.\n- Hyperactive-impulsive: fidgets, leaves seat, runs and climbs, cannot play quietly, always on the go, talks too much, blurts, interrupts, cannot wait turn.\n- Stimulants: methylphenidate, dextroamphetamine, pemoline. Side effects: loss of appetite, weight loss, nausea, irritability, dizziness, dry mouth, blurred vision, palpitations. Pemoline can cause life-threatening liver failure.\n\n## Priority nursing actions\n1. Safety: stop unsafe behavior, supervise closely, give clear limits.\n2. Give methylphenidate after meals to limit appetite loss; give dextroamphetamine's last dose early afternoon to prevent insomnia. Monitor weight and height (growth).\n3. Simplify directions: get full attention, break tasks into small steps, allow breaks.\n4. Keep a structured daily routine with few changes; quiet place for tasks.\n5. Offer finger foods; avoid caffeine and excess sugar.\n6. Praise success; listen to parents' frustration; store drugs out of the child's reach; give medicine without drawing attention to the child.\n\n## How the exam asks about it\nStimulant side effect/monitoring, or choosing structure and positive feedback.\n\n## Related topics\n[[Developmental Disorders]], [[Autism Spectrum Disorder]], [[Behavior Modification and Reinforcement]]\n\n## Check against your textbook\n- Pemoline has been withdrawn in many countries. Time to full effect in the handout (2 days) is unusual; verify. Current criteria allow onset before age 12.",
+  "tags": [
+   "psychiatric",
+   "ADHD",
+   "stimulant",
+   "child"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Attention-Deficit Hyperactivity Disorder",
+   "Common Etiological Factors",
+   "Clinical Manifestations",
+   "Treatment",
+   "Nursing Interventions for ADHD",
+   "Stimulants"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-pc-intellectual-disability",
+  "area": "NP5",
+  "title": "Intellectual Disability",
+  "body": "## What it is\nBelow-average intellectual functioning (IQ below about 70) with significant limits in adaptive functioning. The handout uses the older term mental retardation.\n\n## Must-know facts\n- Causes: hereditary (Tay-Sachs disease, trisomy 21), pregnancy and birth problems (fetal malnutrition), medical conditions in infancy.\n- Mild: IQ 55 to 69, educable (can learn to read and write).\n- Moderate: IQ 40 to 54, trainable (vocational skills such as cooking or sewing).\n- Severe: IQ 25 to 39, needs close supervision (basic daily activities such as brushing and dressing).\n- Profound: IQ below 25, custodial care, totally dependent.\n- Nursing care: repetition, role modelling, restructuring the environment. Education focus for the educable: reading, writing, basic arithmetic.\n\n## Priority nursing actions\n1. Meet safety and basic needs first.\n2. Teach in small steps with repetition; use concrete language.\n3. Encourage self-care matched to level.\n4. Support the family and arrange community services.\n\n## How to reason about it\n- Match goals to level: a profound client needs total care, not academic teaching. Safety and basic needs come first at the severe and profound levels.\n\n## How the exam asks about it\nMatch level to IQ range or to teaching capacity.\n\n## Related topics\n[[Developmental Disorders]], [[Autism Spectrum Disorder]]\n\n## Check against your textbook\n- IQ bands and labels vary by manual; newer manuals grade by adaptive function. Same content appears in [[Intellectual Disability: Levels and Care]].",
+  "tags": [
+   "psychiatric",
+   "intellectual disability",
+   "child"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Mental Retardation",
+   "Causes",
+   "Levels of Mental Retardation"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-x-therapeutic-techniques",
+  "area": "NP5",
+  "title": "Therapeutic Communication Techniques with Examples",
+  "body": "## What it is\nA working list of helpful nurse responses, each with the example sentence and the reason it helps. Questions often give a sentence and ask which technique it is.\n\n## Must-know facts\n- Accepting: signals you heard and followed; \"Yes\", \"I follow what you said\", nodding. It does not mean agreement.\n- Broad opening: lets the client choose the topic; \"Where would you like to begin?\"\n- Consensual validation: checks that both people mean the same thing by a word; \"Are you using this word to convey that?\"\n- Encouraging comparison: \"Have you had similar experiences?\" It may recall past coping.\n- Encouraging description of perceptions: \"What does the voice seem to be saying?\" Helps the nurse see the client's view.\n- Encouraging expression: \"What are your feelings about...?\" The client makes his own appraisal.\n- Exploring: \"Tell me more about that.\" Respect refusal.\n- Focusing: concentrate on one point; useful when the client jumps from topic to topic.\n- Formulating a plan of action: \"Next time this comes up, what might you do?\" Planning ahead helps coping.\n- General leads: \"Go on\", \"And then?\" The client keeps the initiative.\n- Giving information: name, purpose, visiting hours. Builds trust.\n- Giving recognition: noticing efforts or changes; \"I noticed you combed your hair.\"\n- Making observations: \"You appear tense.\" Used when the client cannot put things in words.\n- Offering self: \"I will sit with you a while.\" Unconditional presence.\n- Placing events in time sequence: \"What led up to it? Before or after?\" Shows cause and effect.\n- Presenting reality: \"I see no one else in the room.\" Offers what is real without arguing.\n- Reflecting: sends the question or feeling back; \"This makes you feel angry?\" Restating: repeats the main idea.\n- Seeking information: \"I am not sure I follow.\" Avoids assuming.\n- Silence: gives time to organize thoughts.\n- Suggesting collaboration: \"Perhaps you and I can discover what triggers your anxiety.\"\n- Summarizing: pulls the discussion together.\n- Translating into feelings: \"I am way out in the ocean\" becomes \"You seem to feel lonely.\"\n- Verbalizing the implied: \"Do you feel that no one understands?\"\n- Voicing doubt: \"Isn't that unusual?\" Lets the client see others do not perceive things the same way.\n\n## How to reason about it\n- Match the technique to the need. Client rambles: focusing. Client silent but trying: silence or general lead. Client symbolic: translating into feelings. Client misperceiving: presenting reality.\n- Feeling comes before fact, and the client leads.\n\n## Related topics\n[[Therapeutic Communication]], [[Non-Therapeutic Communication Blocks with Examples]]\n\n## Check against your textbook\n- Names and examples differ between books; learn your own list.",
+  "tags": [
+   "psychiatric",
+   "communication",
+   "techniques"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Therapeutic Communication Techniques"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-x-nontherapeutic-blocks",
+  "area": "NP5",
+  "title": "Non-Therapeutic Communication Blocks with Examples",
+  "body": "## What it is\nReplies that close the conversation, hurt trust or take control away from the client. Each has an example and the harm it does.\n\n## Must-know facts\n- Advising: \"I think you should...\" Implies only the nurse knows best.\n- Agreeing and giving approval: \"That is right\", \"That is good.\" Limits the client's freedom and may push him to please you.\n- Belittling feelings: \"Everybody gets down in the dumps.\" Implies the pain is mild and temporary.\n- Challenging: \"If you are dead, why is your heart beating?\" Makes the client defend delusions.\n- Defending: \"The hospital has a fine reputation.\" Says the client has no right to an opinion.\n- Disagreeing: \"That is wrong.\" Makes the client defensive.\n- Giving literal responses: answering a figurative remark as fact (\"Try not to watch television\" to the camera-in-my-head statement).\n- Indicating an external source: \"Who told you that you were a prophet?\" Implies he was made to think.\n- Interpreting: \"What you really mean is...\" Thoughts belong to the client.\n- Introducing an unrelated topic: \"Did you have visitors last night?\" after \"I would like to die.\" Takes the lead away.\n- Stereotyped comments: clichés, \"Tell me your psychiatric history.\"\n- False reassurance: \"Everything will be all right.\" Devalues the feeling.\n- Rejecting: \"Let us not discuss...\" Client feels personally rejected.\n- Requesting an explanation: \"Why do you feel that way?\" Intimidates.\n- Testing: \"Do you know what kind of hospital this is?\" Forces insight.\n- Using denial: \"Do not be silly\" to \"I am dead.\" Dismisses the feeling.\n\n## How to reason about it\n- A blocking reply sounds like advice, reassurance, judgment, a \"why\" or a topic switch. Eliminate those first, then choose the reply that explores the feeling.\n- A statement about suicide must be explored directly; changing the subject is the worst choice.\n\n## Related topics\n[[Therapeutic Communication Techniques with Examples]], [[Therapeutic Communication]]\n\n## Check against your textbook\n- Some books allow a gentle \"why\" in a research interview; avoid it in clinical stems.",
+  "tags": [
+   "psychiatric",
+   "communication",
+   "blocks"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Non-Therapeutic Communication"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-x-psychotropic-classes",
+  "area": "NP5",
+  "title": "Psychotropic Medication Classes: Which Drug for Which Problem",
+  "body": "## What it is\nA one-page map of the main psychiatric drug groups with the drugs and the uses the review handout lists.\n\n## Must-know facts\n- Antipsychotics (neuroleptics): schizophrenia first, also psychotic depression, acute mania, drug-induced psychosis. Typical: haloperidol, chlorpromazine, perphenazine, fluphenazine, thioridazine, mesoridazine, trifluoperazine. Atypical: clozapine, risperidone, olanzapine, quetiapine, ziprasidone, aripiprazole.\n- Antidepressants: major depression, anxiety disorders, depressed phase of bipolar disorder, psychotic depression. Classes: SSRI, TCA, MAOI. See [[Tricyclic and SSRI Antidepressants: Drug Lists and Nursing Care]].\n- Mood stabilizers: bipolar disorder. Lithium plus carbamazepine, valproic acid, gabapentin, lamotrigine.\n- Anxiolytics: anxiety, insomnia, OCD, depression, PTSD, alcohol withdrawal. Benzodiazepines and buspirone.\n- Stimulants: now mainly ADHD in children and teens: methylphenidate, dextroamphetamine, pemoline.\n- Substance-use drugs: disulfiram, naltrexone, methadone, clonidine.\n\n## How to reason about it\n- Match drug family to the problem first, then the most dangerous effect of that family (EPS and NMS, hypertensive crisis, toxicity, withdrawal).\n\n## Related topics\n[[Typical and Atypical Antipsychotics]], [[Antidepressants and Mood Stabilizers]], [[Antianxiety Drugs: Benzodiazepines and Buspirone]], [[Attention-Deficit Hyperactivity Disorder]]\n\n## Check against your textbook\n- Some listed drugs are rarely used today.",
+  "tags": [
+   "psychiatric",
+   "drugs",
+   "overview"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Psychotropic Drug Categories"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-x-antipsychotic-teaching",
+  "area": "NP5",
+  "title": "Antipsychotic Anticholinergic Effects, Clozapine Alert and Client Teaching",
+  "body": "## What it is\nThe comfort and safety effects of antipsychotics that are not EPS, and the teaching that goes with them.\n\n## Must-know facts\n- Anticholinergic effects: orthostatic hypotension, dry mouth, constipation, urinary hesitancy or retention, blurred vision, dry eyes, photophobia, nasal congestion, decreased memory. They lessen in 3 to 4 weeks but do not fully go away.\n- Care: stool softeners, calorie-free fluids, adequate fluid, grains and fruit; sugar-free hard candy for dry mouth; exercise; sunscreen and protective covering against photosensitivity; rise slowly; avoid driving until drowsiness and dizziness settle.\n- Missed dose (handout rule): take it if only 3 to 4 hours late; skip it if later or if the next dose is due. Use a chart or labelled pill box.\n- Clozapine: risk of agranulocytosis; baseline white count and differential, then weekly counts and for 4 weeks after stopping.\n- QT alert: droperidol, thioridazine and mesoridazine.\n\n## Priority nursing actions\n1. Report sore throat or fever on clozapine at once.\n2. Prevent falls from orthostatic hypotension.\n3. Relieve constipation and dry mouth.\n4. Teach photosensitivity precautions.\n\n## How to reason about it\n- Rank by danger: blood count and rhythm risks above comfort effects.\n\n## Related topics\n[[Typical and Atypical Antipsychotics]], [[Extrapyramidal Symptoms and Neuroleptic Malignant Syndrome]]\n\n## Check against your textbook\n- Missed-dose and white-cell schedules vary by drug and policy.",
+  "tags": [
+   "psychiatric",
+   "antipsychotic",
+   "teaching"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Anticholinergic Side Effects",
+   "Nursing Responsibilities Anti-psychotic Drugs"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-x-tca-ssri-drugs",
+  "area": "NP5",
+  "title": "Tricyclic and SSRI Antidepressants: Drug Lists and Nursing Care",
+  "body": "## What it is\nThe two big older and newer groups of antidepressants, with the drugs and side effects the handout lists.\n\n## Must-know facts\n- Tricyclics (available since the 1950s): imipramine, desipramine, amitriptyline, nortriptyline, doxepin, trimipramine, protriptyline, clomipramine (the handout also lists maprotiline, mirtazapine, amoxapine). Effects: dry mouth, constipation, urinary retention, dry nasal passages, blurred vision, orthostatic hypotension, sedation, weight gain, tachycardia, sexual dysfunction, agitation, delirium.\n- TCAs are potentially lethal in overdose. Depressed or impulsive clients get limited prescription amounts.\n- SSRIs: fluoxetine, fluvoxamine, paroxetine, sertraline, citalopram, escitalopram. They replaced TCAs as first choice (equal effect, fewer side effects) and help OCD. Effects: agitation, akathisia, nausea, insomnia, sexual dysfunction, less weight gain, sedation, sweating, headaches.\n- Care: nausea, take with food; insomnia, take doses in the morning and avoid alcohol; restlessness or tremor, ask for propranolol or a benzodiazepine; dry mouth, sugar-free options; weight gain, balanced diet; constipation, fluids and stool softener.\n\n## How to reason about it\n- Overdose risk makes limited supplies the answer for a suicidal client. Insomnia from SSRI is a timing problem (morning dose).\n\n## Related topics\n[[Antidepressants and Mood Stabilizers]], [[Antidepressant Classes: TCA, SSRI and MAOI Drug Review]], [[MAOIs and Other Antidepressants: Tyramine Diet and Special Risks]]\n\n## Check against your textbook\n- The handout says TCAs are the \"first choice\" and then says SSRIs replaced them; use SSRIs as first line.",
+  "tags": [
+   "psychiatric",
+   "antidepressants",
+   "TCA",
+   "SSRI"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Tricyclic Antidepressant Drugs",
+   "SSRI"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-x-maoi-atypical",
+  "area": "NP5",
+  "title": "MAOIs and Other Antidepressants: Tyramine Diet and Special Risks",
+  "body": "## What it is\nMAOIs have a food and drug interaction danger; other antidepressants each carry one signature risk.\n\n## Must-know facts\n- MAOIs: phenelzine, tranylcypromine, isocarboxazid. Low sedation but can cause hypertensive crisis. Do not give with other MAOIs, tricyclics, meperidine or CNS depressants. Effects: daytime sedation, insomnia, weight gain, dry mouth, orthostatic hypotension, sexual dysfunction.\n- Avoid tyramine: mature or aged cheeses and dishes made with them (lasagna, pizza), except cottage, cream and ricotta cheese and processed slices; aged meats (pepperoni, salami, mortadella, summer sausage); Italian broad bean pods; banana peel (pulp is allowed); tap and microbrewery beers.\n- Others: nefazodone and trazodone and mirtazapine sedate; trazodone causes priapism; bupropion and venlafaxine cause appetite loss, nausea, agitation, insomnia, dizziness, sweating; bupropion raises seizure risk.\n\n## How to reason about it\n- Severe occipital headache, high blood pressure and a recent forbidden food mean hypertensive crisis: emergency.\n\n## Related topics\n[[Antidepressants and Mood Stabilizers]], [[Tricyclic and SSRI Antidepressants: Drug Lists and Nursing Care]]\n\n## Check against your textbook\n- Handout beer allowance is doubtful. Verify the diet list your text uses.",
+  "tags": [
+   "psychiatric",
+   "antidepressants",
+   "MAOI",
+   "diet"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "MAOI",
+   "Side Effect of the other Antidepressant"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-x-disulfiram",
+  "area": "NP5",
+  "title": "Disulfiram Therapy and Hidden Alcohol Sources",
+  "body": "## What it is\nDisulfiram (Antabuse) is a sensitizing drug: alcohol in the body then causes an unpleasant reaction. It suits motivated, non-impulsive clients.\n\n## Must-know facts\n- Reaction starts about 5 to 10 minutes after alcohol and may last 30 minutes to 2 hours: flushing, throbbing headache, sweating, dry mouth, nausea, vomiting, dizziness, weakness; severe cases bring chest pain, breathlessness, severe hypotension, confusion and death.\n- Drug side effects: fatigue, drowsiness, halitosis, tremor, impotence.\n- Hidden alcohol: shaving cream, aftershave, cologne, deodorant, cough preparations.\n\n## Priority nursing actions\n1. Teach to read labels and pick alcohol-free products.\n2. Treat severe hypotension as an emergency.\n\n## How to reason about it\n- Safe use depends on the client avoiding all alcohol, including skin products.\n\n## Related topics\n[[Alcohol Use Disorder]], [[Recovery Programs and Drugs Used in Substance Use]]\n\n## Check against your textbook\n- Verify timing against your text.",
+  "tags": [
+   "psychiatric",
+   "alcohol",
+   "disulfiram"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Disulfiram"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-x-personality-ab",
+  "area": "NP5",
+  "title": "Nursing Care in Cluster A and Cluster B Personality Disorders",
+  "body": "## What it is\nNursing approaches for the odd and the dramatic personality disorders.\n\n## Must-know facts\n- Paranoid: formal, business-like, honest, no chit-chat or jokes; involve in planning; teach to validate ideas.\n- Schizoid: improve community functioning; case manager.\n- Schizotypal: self-care and routine for hygiene; social skills.\n- Antisocial: responsible behavior, limits, consistent rules, no anger; confrontation of manipulation.\n- Borderline: safety, coping, cognitive restructuring, structure the time, social skills.\n- Histrionic: social skills role play, factual feedback; respectful distance.\n- Narcissistic: matter-of-fact, do not take criticism personally, set limits on abuse, teach self-care.\n\n## How to reason about it\n- Tone matches disorder; consistency matters.\n\n## Related topics\n[[Personality Disorders by Cluster]]\n\n## Check against your textbook\n- Distance advice is unusual.",
+  "tags": [
+   "psychiatric",
+   "personality"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Cluster A",
+   "Cluster B"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-x-asd-ptsd",
+  "area": "NP5",
+  "title": "Acute Stress Disorder versus Post-Traumatic Stress Disorder",
+  "body": "## What it is\nBoth follow extreme trauma; time course separates them.\n\n## Must-know facts\n- Acute stress disorder: within 1 month, lasts 2 days to 4 weeks, with numbing, dazed feeling, derealization, depersonalization or amnesia.\n- PTSD: flashbacks and nightmares, avoidance, numbing, hyperarousal. Treatment: antianxiety drugs, antidepressants, group therapy.\n- Acute stress disorder needs exposure to a traumatic event with intense fear, helplessness or horror, marked anxiety or arousal, persistent re-experiencing, and at least three of: emotional numbing, feeling dazed, derealization, depersonalization, dissociative amnesia for part of the event.\n- PTSD adds avoidance of memory-provoking stimuli and numbing of general responsiveness, plus arousal: sleep disturbance, irritability or angry outbursts, poor concentration, hypervigilance, exaggerated startle.\n- Both cause significant distress or impaired functioning.\n- Management of PTSD in the handout: benzodiazepines (diazepam, oxazepam, chlordiazepoxide, clorazepate, alprazolam), antidepressants, group therapy.\n\n## Priority nursing actions\n1. Safety and suicide screening.\n2. Calm, predictable setting; let the client set the pace of talking.\n3. Ground the client during flashbacks (present place, date, safe).\n4. Teach relaxation; refer for trauma-focused therapy.\n\n## How to reason about it\n- Under a month: acute stress; over: PTSD.\n\n## Related topics\n[[Trauma and Stressor-Related Disorders]], [[Dissociative Disorders and Grounding Care]], [[Crisis and Crisis Intervention]]\n\n## Check against your textbook\n- Cutoffs vary.",
+  "tags": [
+   "psychiatric",
+   "trauma",
+   "PTSD"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Acute Stress Disorder",
+   "Post-Traumatic Stress Disorder"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-x-anxiety-types",
+  "area": "NP5",
+  "title": "Panic Disorder, Agoraphobia, Social Phobia and Generalized Anxiety Disorder",
+  "body": "## What it is\nHandout criteria for the main anxiety disorders.\n\n## Must-know facts\n- Panic attack: sudden intense fear with impending doom; 15 to 30 minutes in the handout; four or more of palpitations, sweating, trembling, shortness of breath, choking, chest pain, nausea, derealization, fear of dying, paresthesias, chills or hot flashes. Panic disorder: recurrent unexpected attacks.\n- Agoraphobia: avoiding places from which escape is hard.\n- Social phobia: fear of embarrassment; medicine and social skills training.\n- GAD: six months or more of excessive worry plus restlessness, fatigue, poor concentration, irritability, muscle tension, sleep trouble. Buspirone and SSRIs.\n- Social phobia criteria: fear of embarrassment or inability to perform, avoidance or dreaded endurance, belief that others judge negatively, significant distress in relationships, work or social life; anxiety can reach panic level.\n- Agoraphobia signs: avoids being outside or at home alone, avoids travelling in vehicles, trouble with work and errands such as shopping or appointments.\n- GAD: apprehensive expectation more days than not about several events, worry that cannot be controlled, distress or impaired functioning, and at least three listed physical or mental symptoms.\n\n## Priority nursing actions\n1. Stay with the client during a panic attack; low stimulation, short directions.\n2. Give anxiolytics as ordered; teach breathing and relaxation afterward.\n3. Social phobia: social skills training; GAD: buspirone or SSRI teaching that benefit takes time.\n\n## Priority diagnosis\n- Ineffective individual coping.\n\n## How to reason about it\n- Differentiate by trigger: unexpected attacks, panic; places, agoraphobia; performance, social; everything, GAD.\n\n## Related topics\n[[Anxiety and Anxiety Disorders]]\n\n## Check against your textbook\n- Verify attack duration.",
+  "tags": [
+   "psychiatric",
+   "anxiety",
+   "panic",
+   "GAD"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Anxiety Disorder"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-x-personality-c",
+  "area": "NP5",
+  "title": "Nursing Care in Cluster C Personality Disorders",
+  "body": "## What it is\nCare for anxious or fearful personality disorders.\n\n## Must-know facts\n- Avoidant: support and reassurance; explore positive self-aspects.\n- Dependent: foster autonomy; problem solving and decisions; restructuring.\n- Obsessive-compulsive: negotiation, timely decisions, restructuring.\n- Avoidant: pervasive social discomfort and silence, low self-esteem, hypersensitivity to negative evaluation, fear of rejection, criticism, shame; aloof and feeling inferior.\n- Dependent: excessive need to be cared for, submissive and clinging, fear of separation.\n- Obsessive-compulsive: preoccupation with orderliness, perfectionism and control; handout examples of obsessions (fear of dirt, fear of burglary) and compulsions (hand washing, checking locks).\n\n## Priority nursing actions\n1. Avoidant: give support and reassurance; help the client find positive self-aspects and good responses from others, and explore why self-criticism is so strong.\n2. Dependent: encourage self-reliance and autonomy; teach problem solving and decision-making; do not make the decisions for the client.\n3. Obsessive-compulsive: encourage negotiation; help make timely decisions and finish work.\n\n## How to reason about it\n- Build independence in small steps.\n\n## Related topics\n[[Personality Disorders]]\n\n## Check against your textbook\n- Verify against text.",
+  "tags": [
+   "psychiatric",
+   "personality"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Cluster C"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-x-delusions",
+  "area": "NP5",
+  "title": "Delusion Types and Thought Disturbances in Schizophrenia",
+  "body": "## What it is\nDelusions and thought changes in schizophrenia.\n\n## Must-know facts\n- Persecutory, grandiose, religious, somatic, referential delusions with handout examples.\n- Thought broadcasting, insertion, blocking, alogia, clang associations.\n- Persecutory: others plan to harm, spy on or ridicule the client (poisoned food, bugged room).\n- Grandiose: association with famous people or belief of being famous or capable of great feats.\n- Religious: second coming, being the Messiah or a prophet, special mission.\n- Somatic: vague unrealistic beliefs about the body (pregnant male, worms in the brain).\n- Referential (ideas of reference): television, music or news carry special messages to him.\n- Thought broadcasting: others can hear or know his thoughts. Thought insertion (handout wording: others take thoughts away): client feels powerless to stop it.\n- Disorganized thought: inappropriate responses. Thought blocking: abrupt stop mid-sentence. Alogia: poverty of content. Clang associations: ideas linked by sound. Neologisms, echolalia, word salad also occur.\n- Hallucinations may be visual, olfactory, gustatory, tactile or auditory; perception may be heightened or blunted.\n\n## Priority nursing actions\n1. Assess safety, especially with persecutory or command content.\n2. Do not argue or agree; acknowledge the fear and present reality.\n3. Keep communication simple and give reality-based activity.\n\n## How to reason about it\n- Do not argue; address the feeling.\n\n## Related topics\n[[Schizophrenia]], [[Disturbances in Perception and Thought]]\n\n## Check against your textbook\n- Thought withdrawal is the textbook term for insertion's opposite; the handout describes it loosely.",
+  "tags": [
+   "psychiatric",
+   "schizophrenia",
+   "delusion"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "General Manifestations"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-x-alcohol-intox",
+  "area": "NP5",
+  "title": "Alcohol Intoxication and Long-Term Physical Effects",
+  "body": "## What it is\nIntoxication signs and chronic organ effects.\n\n## Must-know facts\n- Slurred speech, unsteady gait, poor coordination, impaired memory and judgment, aggression, blackout.\n- Long-term: cardiomyopathy, Wernicke, Korsakoff, pancreatitis, esophagitis, hepatitis, cirrhosis, leukopenia, thrombocytopenia, ascites.\n- Intoxication in the handout adds inappropriate sexual behavior and aggression; treatment in severe cases: support respiratory and cardiovascular function in intensive care; CNS stimulants are contraindicated.\n- Detoxification and relapse prevention use benzodiazepines then disulfiram; see [[Disulfiram Therapy and Hidden Alcohol Sources]].\n\n## Priority nursing actions\n1. Airway, breathing, circulation, level of consciousness.\n2. Safety from aggression and falls; thiamine as ordered.\n3. Do not confront while intoxicated.\n\n## How to reason about it\n- Airway and breathing first.\n\n## Related topics\n[[Alcohol Use Disorder]]\n\n## Check against your textbook\n- Lavage and dialysis are for extreme cases.",
+  "tags": [
+   "psychiatric",
+   "alcohol"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Alcoholism",
+   "Physiologic Effects of Long-term Alcohol Use"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-x-sedatives",
+  "area": "NP5",
+  "title": "Sedatives, Hypnotics and Benzodiazepines: Intoxication and Withdrawal",
+  "body": "## What it is\nCNS depressants misuse.\n\n## Must-know facts\n- Intoxication: slurred speech, incoordination, labile mood, stupor, coma. Benzodiazepines rarely fatal; barbiturates lethal.\n- Withdrawal: autonomic hyperactivity, tremor, insomnia, anxiety, seizures, hallucinations; taper.\n- Group includes barbiturates, nonbarbiturate hypnotics and anxiolytics.\n- Intoxication also shows impaired attention or memory.\n- Overdose treatment: benzodiazepines, gastric lavage, activated charcoal, saline cathartic, dialysis if needed; barbiturates need intensive care, lavage or dialysis and respiratory and cardiovascular support.\n- Withdrawal onset depends on the drug half-life; includes increased pulse, blood pressure, respirations and temperature, hand tremors, nausea, psychomotor agitation, hallucinations. Tapering over days or weeks is essential, especially barbiturates, to prevent coma and death.\n\n## Priority nursing actions\n1. Airway and breathing; seizure precautions in withdrawal.\n2. Never stop abruptly.\n\n## How to reason about it\n- Taper barbiturates.\n\n## Related topics\n[[Downers: Barbiturates and Opioids]]\n\n## Check against your textbook\n- Verify.",
+  "tags": [
+   "psychiatric",
+   "substance",
+   "sedatives"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Sedatives, Hypnotics And Anxiolytics"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-x-stimulants",
+  "area": "NP5",
+  "title": "Stimulants: Amphetamine, Cocaine and Methamphetamine",
+  "body": "## What it is\nCNS stimulant misuse.\n\n## Must-know facts\n- Intoxication: euphoria, hyperactivity, grandiosity, tachycardia, high BP, dilated pupils, seizures. Chlorpromazine controls hallucinations.\n- Withdrawal \"crash\": dysphoria, fatigue, hypersomnia, suicidal ideation; no drug.\n- Amphetamines (\"uppers\") were used for weight loss and staying awake. Cocaine has virtually no clinical use, is highly addictive and gives intense immediate euphoria. Methamphetamine is highly addictive, causes psychotic behavior and brain damage.\n- Intoxication also: hypervigilance, talkativeness, anxiety, stereotyped behavior, anger, fighting, poor judgment, anorexia, perspiration or chills, nausea, chest pain, confusion, dysrhythmias; overdose can cause seizures, coma and death.\n- Withdrawal begins hours to days after stopping and is not life-threatening: dysphoria, fatigue, vivid unpleasant dreams, insomnia or hypersomnia, increased appetite, psychomotor change.\n\n## Priority nursing actions\n1. Monitor cardiac rhythm, blood pressure, temperature; seizure precautions.\n2. Suicide precautions during the crash.\n\n## How to reason about it\n- Cardiac and seizure risk first; watch suicide.\n\n## Related topics\n[[Uppers and Hallucinogens]]\n\n## Check against your textbook\n- Verify.",
+  "tags": [
+   "psychiatric",
+   "substance",
+   "stimulants"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Stimulants"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-x-cannabis",
+  "area": "NP5",
+  "title": "Cannabis Use",
+  "body": "## What it is\nCannabis from the hemp plant.\n\n## Must-know facts\n- Acts within a minute, peaks 20 to 30 minutes, lasts 2 to 3 hours. Effects: impaired coordination, inappropriate laughter, poor judgment, distorted time, increased appetite, red eyes, dry mouth, anxiety.\n- No significant withdrawal syndrome.\n- Cannabis sativa is the hemp plant; marijuana is the upper leaves, flowering tops and stems; hashish is the dried resin of the female plant. Usually smoked as joints, can be eaten.\n- More effects: dysphoria, social withdrawal, hypotension, delirium, cannabis-induced psychotic disorder.\n\n## Priority nursing actions\n1. Monitor safety and anxiety.\n2. Quiet reassuring setting; teach about effects on judgment and driving.\n\n## How to reason about it\n- Supportive care.\n\n## Related topics\n[[Uppers and Hallucinogens]]\n\n## Check against your textbook\n- The handout says cannabis does not cause intoxication though it lists intoxication signs; verify.",
+  "tags": [
+   "psychiatric",
+   "substance",
+   "cannabis"
+  ],
+  "priority": "low",
+  "outlineRefs": [
+   "Cannabis (Marijuana)"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-x-opioids",
+  "area": "NP5",
+  "title": "Opioids: Intoxication, Withdrawal and Naloxone",
+  "body": "## What it is\nOpioid misuse and overdose.\n\n## Must-know facts\n- Intoxication: euphoria, drowsiness, constricted pupils, slurred speech, respiratory depression, coma. Naloxone reverses; repeat every few hours.\n- Withdrawal: anxiety, restlessness, aches, cravings, nausea, lacrimation, rhinorrhea, sweating, diarrhea, yawning, fever, insomnia; not life-threatening; methadone replacement.\n- Opioids: morphine, meperidine, codeine, hydromorphone, oxycodone, methadone, oxymorphone, hydrocodone, heroin; they blunt physical and emotional pain and produce euphoria.\n- Intoxication also: apathy, lethargy, impaired judgment and memory, psychomotor change, unconsciousness, death.\n- Naloxone is an opioid antagonist and treatment of choice; given every few hours until the opioid level is nontoxic.\n- Methadone replacement; naltrexone blocks; clonidine eases autonomic signs.\n\n## Priority nursing actions\n1. Airway and ventilation.\n2. Give naloxone; observe repeatedly.\n\n## How to reason about it\n- Airway then naloxone.\n\n## Related topics\n[[Downers: Barbiturates and Opioids]], [[Recovery Programs and Drugs Used in Substance Use]]\n\n## Check against your textbook\n- Verify.",
+  "tags": [
+   "psychiatric",
+   "substance",
+   "opioids"
+  ],
+  "priority": "high",
+  "outlineRefs": [
+   "Opioids"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ },
+ {
+  "id": "np5-x-hallucinogens",
+  "area": "NP5",
+  "title": "Hallucinogens: LSD, PCP and Flashbacks",
+  "body": "## What it is\nDrugs distorting reality.\n\n## Must-know facts\n- Examples: mescaline, psilocybin, LSD, ecstasy, PCP. Effects: anxiety, paranoia, ideas of reference, dangerous behavior, tachycardia. No withdrawal; flashbacks occur.\n- Treatment supportive; isolation from stimuli.\n- Intoxication also: depression, fear of losing one's mind, jumping from a window believing one can fly, sweating, palpitations, blurred vision, tremors, belligerence, impulsivity.\n- Deaths come from accidents, aggression and suicide, not directly from the drug. Cooling devices and ventilation may be needed for severe cases.\n\n## Priority nursing actions\n1. Protect from injury; stay with the client; low stimulation.\n2. Monitor temperature and breathing.\n\n## How to reason about it\n- Low stimulation, safety.\n\n## Related topics\n[[Uppers and Hallucinogens]]\n\n## Check against your textbook\n- Handout mentions restraints; use least restrictive.",
+  "tags": [
+   "psychiatric",
+   "substance",
+   "hallucinogens"
+  ],
+  "priority": "medium",
+  "outlineRefs": [
+   "Hallucinogens"
+  ],
+  "aiWritten": true,
+  "nurseReviewed": false
+ }
+]
