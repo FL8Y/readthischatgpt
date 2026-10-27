@@ -364,3 +364,9 @@ npx ruflo@latest doctor --fix
   - 3-7 tasks per day, with merged reads;
   - an honest fit message;
   - plus fixes: the Topic source chips render and "Weekends" is no longer cut off.
+- **Merged Codex #99, #100 and #102:**
+  - #99: picture licences fixed;
+  - #100: What's New screen + data/changelog;
+  - #102: 153 old notes completed, zero fact loss checked.
+  - What's New is wired into More on r2-int (1,529 tests).
+  - Next Codex batch: CODEX_MEDIUM_3 = JOB A study hints (data/bank/hints + check:hints) + JOB B 46 new notes for the 9 thin topics (apply.mjs + topics.json noteIds).
