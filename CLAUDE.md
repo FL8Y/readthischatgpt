@@ -355,3 +355,12 @@ npx ruflo@latest doctor --fix
     - a yellow "Study hint" card on each question, collapsed as "Show hint" before answering and open after answering;
     - a "Re-read: <note> → <section>" link that opens that note at that section;
     - the learner's own sticky note stays separate.
+- **PLAN ALGORITHM UPGRADE (owner: "make it 100x better curator", 2026-10-28):** builder A is adding these on r2-pA. After it finishes, merge into r2-int, then ONE PR.
+  - daily balance: 35-45% read / 40-50% questions / 10-20% cards; questions on what was just read, the same or the next day;
+  - curated reading: high/medium notes are core, low-priority notes are optional "Skim extras"; time per topic follows TOS weight;
+  - spaced review quizzes at +2/+7/+21 days (none for mastered topics, extra for weak ones);
+  - recall-card tasks for topics with no questions;
+  - an optional 50-question diagnostic that reorders weak topics within a section;
+  - 3-7 tasks per day, with merged reads;
+  - an honest fit message;
+  - plus fixes: the Topic source chips render and "Weekends" is no longer cut off.
