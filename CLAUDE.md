@@ -378,3 +378,7 @@ npx ruflo@latest doctor --fix
   - Round 2 = PR #112 MERGED to main (1,561 tests, e2e 19/19): smart Study Plan v3, question tools, screens.
   - The handoff + NEXT_SESSION_PROMPT.md + WORKERS_ROUND3.md were merged (PR #113).
   - NEXT SESSION: start from 03-fly8-study-nursing-app/planning/NEXT_SESSION_PROMPT.md; do not read the old chat.
+- **LATEST (end of the 2026-10-28 session):**
+  - Codex delivered draft PR #114 "Cram Sheets: Learn screen + paged sheet reader (unwired)". It is NOT reviewed yet. Next session: review it (tsc/vitest/screens), merge it, wire CramSheets as the Learn tab and SheetReader as a layer.
+  - The GPT round 3 workers (planning/gpt/WORKERS_ROUND3.md) have probably pushed gpt-sheet-layouts-2/-3, gpt-covers-2, gpt-picture-hunt-2 and gpt-prompt-library. Not reviewed yet: check each diff stays in planning/gpt/<folder>, spot-check, merge.
+  - Codex is done for now; CODEX_MEDIUM_3 (hints + thin notes) is still queued.
