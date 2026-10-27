@@ -310,3 +310,5 @@ npx ruflo@latest doctor --fix
 - **Checks on Gemini's return:**
   - Verify every Wikimedia file name and its licence.
   - Fences balanced; headings unchanged; no tables outside At a glance.
+
+**ROLE CHANGE (owner, 2026-10-27):** Claude (with Sonnet builders) does the HEAVY builds from now on. Codex only supplements with smaller, token-light tasks that can run on its lighter "Sol" model; the high "Astra" setting burned all Codex usage in under 2 minutes. Size Codex prompts small and mechanical.
