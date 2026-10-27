@@ -370,3 +370,7 @@ npx ruflo@latest doctor --fix
   - #102: 153 old notes completed, zero fact loss checked.
   - What's New is wired into More on r2-int (1,529 tests).
   - Next Codex batch: CODEX_MEDIUM_3 = JOB A study hints (data/bank/hints + check:hints) + JOB B 46 new notes for the 9 thin topics (apply.mjs + topics.json noteIds).
+- **Merged GPT worker PRs #101 and #103-#111** (docs in planning/gpt/*): microcopy, picture-hunt, topic-icons, onboarding, a11y-labels, covers, motivation, phone-test, search-synonyms (596), sheet-layouts (12).
+- **Codex (Astra medium, one-off): CODEX_ASTRA_SHEETS.** Builds src/ui/sheets/CramSheets.tsx + SheetReader.tsx (unwired) + markdownBlocks table/definition-row parsing.
+  - After it lands, Claude wires CramSheets as the Learn tab and SheetReader as a layer.
+  - CODEX_MEDIUM_3 (hints + thin notes) is still queued for a later Codex run.
