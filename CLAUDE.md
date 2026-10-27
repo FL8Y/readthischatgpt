@@ -303,3 +303,10 @@ npx ruflo@latest doctor --fix
 **PROMPT STANDARD (owner, 2026-10-27):** every prompt for an outside agent states the exact expected output: a filled-in example in the exact format (real ids from the attachment), the reading checks Claude will do, and the machine checks that auto-reject, plus a self-check before export and a required NOTES FOR CLAUDE with counts. Reference prompt: scratchpad GEMINI_PROMPT_FINAL.txt.
 
 **UI REBUILD (owner, 2026-10-27, IN PROGRESS):** make FLY8 Study look and work like NLE BoardPal (every feature except login/payments/partners/admin/leaderboard), notes grouped 1:1 into their 46 cram-sheet topics (6 groups), Study Plan with Rebalance (no Recalibrate, owner corrected). Colours: CREAM + BLUE + soft pastels (owner rejected green). FULL HANDOFF (durable, in git): FL8Y/fly8claude2 branch ui-rebuild (PR #89) file `03-fly8-study-nursing-app/HANDOFF_UI_REBUILD.md` + `03-fly8-study-nursing-app/planning/ui-rebuild/` (specs, reference details, parity table, Codex prompt). READ IT FIRST. Builders: /home/user/wt/uiA (ui-design-v2), /home/user/wt/planB (study-plan-v2). Codex prompt: scratchpad CODEX_PARITY.txt. Stop at ~90% usage for Codex/Gemini headroom.
+
+**OUTSTANDING JOBS (2026-10-27 close):**
+- **Codex:** CODEX_NEXT_2 has been sent. It asks Codex to fix PR #88 references (61 bare medlineplus home links, 39 identical WHO PHC links, "topics on <title>" template lines), then do Part 2 (46 topics) and Part 3 (engines), then a new Part 5: a cram-sheet block parser in src/core (:::summary/formula/example/compare/signmap/diagram/hook/steps) plus sheetPages.ts and lintSheets.mjs.
+- **Gemini:** GEMINI_SHEETS_PROMPT is a pilot that rewrites 30 np4-neurosenses notes into cram-sheet blocks inside the existing ## sections. Gemini returns FLY8_SHEETS_1.docx; process it with docx_to_patches + apply.mjs.
+- **Checks on Gemini's return:**
+  - Verify every Wikimedia file name and its licence.
+  - Fences balanced; headings unchanged; no tables outside At a glance.
