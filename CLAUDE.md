@@ -374,3 +374,7 @@ npx ruflo@latest doctor --fix
 - **Codex (Astra medium, one-off): CODEX_ASTRA_SHEETS.** Builds src/ui/sheets/CramSheets.tsx + SheetReader.tsx (unwired) + markdownBlocks table/definition-row parsing.
   - After it lands, Claude wires CramSheets as the Learn tab and SheetReader as a layer.
   - CODEX_MEDIUM_3 (hints + thin notes) is still queued for a later Codex run.
+- **SESSION CLOSE 2026-10-28:**
+  - Round 2 = PR #112 (r2-int, draft, CI running; 1,561 tests, e2e 19/19): smart Study Plan v3, question tools, screens.
+  - The handoff + NEXT_SESSION_PROMPT.md + WORKERS_ROUND3.md were merged (PR #113).
+  - NEXT SESSION: start from 03-fly8-study-nursing-app/planning/NEXT_SESSION_PROMPT.md; do not read the old chat.
